@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POEM Generator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>POEM Generator</h1>
+    <button id="settingsToggle" class="link-btn">Settings</button>
+  </header>
+
+  <section id="settingsPanel" class="card hidden">
+    <h2>Settings</h2>
+    <label>Anthropic API key
+      <input type="password" id="anthropicKey" placeholder="sk-ant-...">
+    </label>
+    <p class="hint">Get one at <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>. Stored only in this browser (localStorage), never sent anywhere but Anthropic's API.</p>
+    <button id="saveSettings">Save settings</button>
+    <span id="settingsSaved" class="saved-msg hidden">Saved.</span>
+  </section>
+
+  <nav class="tabs">
+    <button type="button" class="tab-btn active" id="tabBtnUpload" data-tab="upload">Upload</button>
+    <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit</button>
+  </nav>
+
+  <div id="tabUpload" class="tab-panel">
+    <section class="card">
+      <h2>Upload a research article (PDF)</h2>
+      <input type="file" id="pdfInput" accept="application/pdf">
+      <p id="fileStatus" class="hint"></p>
+      <button id="generateBtn" disabled>Generate POEM</button>
+      <span id="generateStatus" class="hint"></span>
+
+      <div class="field-row">
+        <label>POET
+          <select id="poetSelect">
+            <option value="">Select POET</option>
+            <option value="Barry">Barry</option>
+            <option value="Ebell">Ebell</option>
+            <option value="Shaughnessy">Shaughnessy</option>
+            <option value="Slawson">Slawson</option>
+            <option value="Speer">Speer</option>
+          </select>
+        </label>
+        <label>Publication date
+          <select id="pubDateSelect">
+            <option value="">Select publication date</option>
+          </select>
+        </label>
+      </div>
+      <p class="hint">Required before saving.</p>
+    </section>
+
+    <section class="card">
+      <h2>Saved POEMs</h2>
+      <div id="library"></div>
+    </section>
+  </div>
+
+  <div id="tabEdit" class="tab-panel hidden">
+    <section class="card">
+      <h2>Edit</h2>
+      <label>Title
+        <input type="text" id="titleInput" placeholder="POEM title">
+      </label>
+
+      <div class="toolbar">
+        <button type="button" id="btnBold" title="Bold"><b>B</b></button>
+        <button type="button" id="btnUnderline" title="Underline"><u>U</u></button>
+        <button type="button" id="btnSuper" title="Superscript">x<sup>2</sup></button>
+        <button type="button" id="btnSub" title="Subscript">x<sub>2</sub></button>
+        <button type="button" id="btnLink" title="Insert link">🔗 Link</button>
+        <span class="toolbar-sep"></span>
+        <label class="track-label" title="When on, your edits are automatically marked up as insertions/deletions a moment after you stop typing.">
+          <input type="checkbox" id="trackChangesToggle"> Track changes
+        </label>
+        <button type="button" id="reviewBtn" class="hidden">Show changes now</button>
+        <button type="button" id="acceptBtn" class="hidden">Accept all changes</button>
+        <button type="button" id="rejectBtn" class="hidden">Reject all changes</button>
+      </div>
+      <p id="trackHint" class="hint hidden">Track changes is on — insertions (green) and deletions (red) are marked automatically shortly after you stop typing. Accept to keep them, or reject to discard them. Turning tracking off keeps your edits without marking them.</p>
+
+      <div id="editor" contenteditable="true" class="editor"></div>
+
+      <div class="editor-actions">
+        <button id="newBtn">New</button>
+        <button id="saveBtn">Save</button>
+        <span id="saveStatus" class="hint"></span>
+      </div>
+    </section>
+  </div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
