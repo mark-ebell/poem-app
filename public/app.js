@@ -1,37 +1,98 @@
 import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.worker.min.mjs';
 
-const POEM_SYSTEM_PROMPT = `I am a physician who summarizes research studies. Our summaries are called POEMs and we have written over 8000 in the past 25 years. Help write the first draft of a new POEM about the attached study. The POEM must have exactly the following structure and length, using these exact field labels, one per line, in this order:
-
-Title: No more than 18 words summarizing the main message of the study.
-
-Reference: The citation for the study in AMA format.
-
-Clinical question: One sentence that presents the clinical question the study is trying to answer.
-
-Allocation: If it is a randomized trial, was allocation either "Concealed", "Unconcealed", or "Uncertain". Acceptable methods of concealment include Web response systems and central randomization and allocation services. If it is not a randomized trial, write "N/A".
-
-Funding: Which of the following funding sources best describes this study: "Industry", "Government", "Foundation", "Industry + Foundation", "Industry + Government", "Self-funded or unfunded", "Government + Foundation", or "Government + Foundation + Industry".
-
-Study design: Which of the following study designs best describes this study: "Meta-analysis (randomized controlled trials)", "Meta-analysis (other)", "Randomized controlled trial (double-blinded)", "Randomized controlled trial (single-blinded)", "Randomized controlled trial (nonblinded)", "Non-randomized controlled trial", "Cross-over trial (randomized)", "Cross-over trial (non-randomized)", "Decision rule (validation)", "Decision rule (development only)", "Diagnostic test evaluation", "Cost-effectiveness analysis", "Decision-analysis", "Descriptive", "Cost analysis", "Ecologic", "Case series", "Time series", "Qualitative", "Practice guideline", "Cohort (prospective)", "Cohort (retrospective)", "Case-Control", "Cross-sectional", "Meta-analysis or systematic review", or "Other".
-
-Population and setting: Which of the following best describes where the study was performed: "Inpatient (ICU only)", "Inpatient (any location)", "Inpatient (ward only)", "Inpatient (any location) with outpatient follow-up", "Emergency department", "Outpatient (any)", "Outpatient (primary care)", "Outpatient (specialty)", "Nursing home/extended care facility", "Rehab unit", "Various (meta-analysis)", "Various (guideline)", "Uncertain", or "Population-based".
-
-Synopsis: Summarize the study, its design, and the primary results in one or two paragraphs that are about 150 to 300 words in length. Where appropriate present results as absolute risks and number needed to treat or number needed to harm. The format for summarizing a comparison should be of the form of a parenthetical placed toward the end of the relevant sentence, for example: "(12% vs 7%, p < 0.001, NNT = 20)". Make sure to identify any key flaws or biases.
-
-Bottom-Line: In 1 to 4 sentences summarize the main take-home message of the study. Include the key NNT if one was reported in the Synopsis.
-
-Do not show any bracketed internal background source-tracking tags. Output plain text only, with each field label followed by a colon and its content, nothing else before or after.`;
-
 const els = {};
 [
-  'settingsToggle', 'settingsPanel', 'anthropicKey', 'saveSettings', 'settingsSaved',
+  'loginScreen', 'loginForm', 'loginUsername', 'loginPassword', 'loginError',
+  'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
+  'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnEdit', 'tabUpload', 'tabEdit',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
-  'titleInput', 'btnBold', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
+  'titleInput', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
-  'editor', 'newBtn', 'saveBtn', 'saveStatus', 'library'
+  'editor', 'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
+
+// ---------- API helper ----------
+async function api(path, options = {}) {
+  const resp = await fetch(`/api${path}`, {
+    method: options.method || 'GET',
+    headers: options.body ? { 'Content-Type': 'application/json' } : undefined,
+    body: options.body ? JSON.stringify(options.body) : undefined
+  });
+  if (resp.status === 401) {
+    showLogin();
+    throw new Error('Not logged in.');
+  }
+  const data = await resp.json().catch(() => ({}));
+  if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+  return data;
+}
+
+// ---------- Auth ----------
+function showLogin() {
+  els.loginScreen.classList.remove('hidden');
+  els.appRoot.classList.add('hidden');
+}
+
+function showApp(user) {
+  els.loginScreen.classList.add('hidden');
+  els.appRoot.classList.remove('hidden');
+  els.whoAmI.textContent = `Signed in as ${user.displayName}`;
+  if (user.mustChangePassword) {
+    els.settingsPanel.classList.remove('hidden');
+    els.settingsError.textContent = 'Please set your own password before continuing.';
+    els.settingsError.classList.remove('hidden');
+  }
+}
+
+els.loginForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  els.loginError.classList.add('hidden');
+  try {
+    const resp = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username: els.loginUsername.value.trim(), password: els.loginPassword.value })
+    });
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok) throw new Error(data.error || 'Login failed.');
+    els.loginPassword.value = '';
+    await init(data.user);
+  } catch (err) {
+    els.loginError.textContent = err.message;
+    els.loginError.classList.remove('hidden');
+  }
+});
+
+els.logoutBtn.addEventListener('click', async () => {
+  await fetch('/api/logout', { method: 'POST' });
+  showLogin();
+});
+
+els.changePasswordForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  els.settingsError.classList.add('hidden');
+  try {
+    await api('/change-password', {
+      method: 'POST',
+      body: { currentPassword: els.currentPassword.value, newPassword: els.newPassword.value }
+    });
+    els.currentPassword.value = '';
+    els.newPassword.value = '';
+    els.settingsError.classList.add('hidden');
+    els.settingsSaved.classList.remove('hidden');
+    setTimeout(() => {
+      els.settingsSaved.classList.add('hidden');
+      els.settingsPanel.classList.add('hidden');
+    }, 1500);
+  } catch (err) {
+    els.settingsError.textContent = err.message;
+    els.settingsError.classList.remove('hidden');
+  }
+});
+
+els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.toggle('hidden'));
 
 // ---------- Tabs ----------
 function switchTab(name) {
@@ -52,6 +113,7 @@ let trackDebounceTimer = null;
 const TRACK_DEBOUNCE_MS = 900;
 let sortColumn = 'publicationDate'; // 'poet' | 'publicationDate' | 'title'
 let sortDir = 'asc'; // 'asc' | 'desc'
+let poemsCache = [];
 
 // ---------- Publication date options ----------
 const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -78,20 +140,6 @@ function populatePubDateOptions() {
   }
 }
 populatePubDateOptions();
-
-// ---------- Settings ----------
-function loadSettings() {
-  els.anthropicKey.value = localStorage.getItem('poemapp_anthropic_key') || '';
-}
-
-function saveSettings() {
-  localStorage.setItem('poemapp_anthropic_key', els.anthropicKey.value.trim());
-  els.settingsSaved.classList.remove('hidden');
-  setTimeout(() => els.settingsSaved.classList.add('hidden'), 2000);
-}
-
-els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.toggle('hidden'));
-els.saveSettings.addEventListener('click', saveSettings);
 
 // ---------- PDF extraction ----------
 els.pdfInput.addEventListener('change', async (e) => {
@@ -124,7 +172,7 @@ els.pdfInput.addEventListener('change', async (e) => {
   }
 });
 
-// ---------- Claude call ----------
+// ---------- Claude call (proxied through our server) ----------
 function escapeHtml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
@@ -169,12 +217,6 @@ function extractTitleFromEditor() {
 }
 
 els.generateBtn.addEventListener('click', async () => {
-  const apiKey = localStorage.getItem('poemapp_anthropic_key');
-  if (!apiKey) {
-    alert('Please add your Anthropic API key in Settings first.');
-    els.settingsPanel.classList.remove('hidden');
-    return;
-  }
   if (!extractedText) {
     alert('Please upload a PDF first.');
     return;
@@ -184,32 +226,7 @@ els.generateBtn.addEventListener('click', async () => {
   els.generateStatus.textContent = 'Generating draft with Claude... this can take up to a minute.';
 
   try {
-    const resp = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true'
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-5',
-        max_tokens: 2000,
-        system: POEM_SYSTEM_PROMPT,
-        messages: [{
-          role: 'user',
-          content: `Here is the full text of the research article:\n\n${extractedText}`
-        }]
-      })
-    });
-
-    if (!resp.ok) {
-      const errBody = await resp.text();
-      throw new Error(`Anthropic API error ${resp.status}: ${errBody}`);
-    }
-
-    const data = await resp.json();
-    const draft = data.content.map(block => block.text || '').join('').trim();
+    const { draft } = await api('/generate', { method: 'POST', body: { text: extractedText } });
 
     startNewDocument();
     els.editor.innerHTML = plainPoemToHtml(draft);
@@ -225,12 +242,13 @@ els.generateBtn.addEventListener('click', async () => {
 });
 
 // ---------- Formatting toolbar ----------
-[els.btnBold, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink,
+[els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink,
   els.reviewBtn, els.acceptBtn, els.rejectBtn].forEach(btn => {
   btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep focus/selection in editor
 });
 
 els.btnBold.addEventListener('click', () => document.execCommand('bold'));
+els.btnItalic.addEventListener('click', () => document.execCommand('italic'));
 els.btnUnderline.addEventListener('click', () => document.execCommand('underline'));
 els.btnSuper.addEventListener('click', () => document.execCommand('superscript'));
 els.btnSub.addEventListener('click', () => document.execCommand('subscript'));
@@ -248,18 +266,19 @@ els.btnLink.addEventListener('click', () => {
 
 // ---------- Track changes: tokenize / diff / render ----------
 function getStyleFlags(node, root) {
-  let bold = false, underline = false, sup = false, sub = false, href = null;
+  let bold = false, italic = false, underline = false, sup = false, sub = false, href = null;
   let el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
   while (el && el !== root) {
     const tag = el.tagName;
     if (tag === 'B' || tag === 'STRONG') bold = true;
+    if (tag === 'I' || tag === 'EM') italic = true;
     if (tag === 'U') underline = true;
     if (tag === 'SUP') sup = true;
     if (tag === 'SUB') sub = true;
     if (tag === 'A' && !href) href = el.getAttribute('href');
     el = el.parentElement;
   }
-  return { bold, underline, sup, sub, href };
+  return { bold, italic, underline, sup, sub, href };
 }
 
 // Text already marked as a tracked deletion is kept in the DOM only for display;
@@ -302,7 +321,7 @@ function tokenizeDoc(rootEl) {
 
 function diffTokens(a, b) {
   const n = a.length, m = b.length;
-  const key = t => (t.isBreak ? ' BREAK ' : t.text);
+  const key = t => (t.isBreak ? ' BREAK ' : t.text);
   const dp = Array.from({ length: n + 1 }, () => new Uint32Array(m + 1));
   for (let i = n - 1; i >= 0; i--) {
     for (let j = m - 1; j >= 0; j--) {
@@ -336,6 +355,7 @@ function renderToken(tok) {
   if (tok.sup) html = `<sup>${html}</sup>`;
   if (tok.sub) html = `<sub>${html}</sub>`;
   if (tok.underline) html = `<u>${html}</u>`;
+  if (tok.italic) html = `<i>${html}</i>`;
   if (tok.bold) html = `<b>${html}</b>`;
   return html;
 }
@@ -509,18 +529,7 @@ els.reviewBtn.addEventListener('click', () => {
 els.acceptBtn.addEventListener('click', acceptAllChanges);
 els.rejectBtn.addEventListener('click', rejectAllChanges);
 
-// ---------- Library (localStorage) ----------
-const STORE_KEY = 'poemapp_documents_v1';
-
-function loadDocs() {
-  try { return JSON.parse(localStorage.getItem(STORE_KEY) || '[]'); }
-  catch { return []; }
-}
-
-function persistDocs(docs) {
-  localStorage.setItem(STORE_KEY, JSON.stringify(docs));
-}
-
+// ---------- Library (server-backed) ----------
 function formatDate(iso) {
   return new Date(iso).toLocaleString(undefined, {
     year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'
@@ -539,11 +548,57 @@ function sortValue(doc, key) {
   return doc.publicationDate || ''; // 'YYYY-MM' sorts correctly as a string
 }
 
+// Two-step inline delete (rather than a native confirm() dialog, which some
+// browsers can end up silently suppressing after "don't show more dialogs").
+function buildDeleteControl(doc) {
+  const container = document.createElement('div');
+  container.className = 'delete-control';
+
+  function showButton() {
+    container.textContent = '';
+    const btn = document.createElement('button');
+    btn.className = 'library-item-delete';
+    btn.textContent = 'Delete';
+    btn.addEventListener('click', showConfirm);
+    container.appendChild(btn);
+  }
+
+  function showConfirm() {
+    container.textContent = '';
+    const label = document.createElement('span');
+    label.className = 'delete-confirm-label';
+    label.textContent = 'Are you sure?';
+    const yesBtn = document.createElement('button');
+    yesBtn.className = 'library-item-delete-confirm';
+    yesBtn.textContent = 'Yes';
+    yesBtn.addEventListener('click', async () => {
+      yesBtn.disabled = true;
+      try {
+        await api(`/poems/${doc.id}`, { method: 'DELETE' });
+        if (currentDocId === doc.id) startNewDocument();
+        await refreshLibrary();
+      } catch (err) {
+        alert(`Could not delete: ${err.message}`);
+        showButton();
+      }
+    });
+    const noBtn = document.createElement('button');
+    noBtn.className = 'library-item-delete-cancel';
+    noBtn.textContent = 'No';
+    noBtn.addEventListener('click', showButton);
+    container.appendChild(label);
+    container.appendChild(yesBtn);
+    container.appendChild(noBtn);
+  }
+
+  showButton();
+  return container;
+}
+
 function renderLibrary() {
-  const docs = loadDocs();
   els.library.textContent = '';
 
-  if (!docs.length) {
+  if (!poemsCache.length) {
     const p = document.createElement('p');
     p.className = 'library-empty';
     p.textContent = 'No saved POEMs yet.';
@@ -551,7 +606,7 @@ function renderLibrary() {
     return;
   }
 
-  const sorted = [...docs].sort((a, b) => {
+  const sorted = [...poemsCache].sort((a, b) => {
     const av = sortValue(a, sortColumn), bv = sortValue(b, sortColumn);
     const cmp = av < bv ? -1 : av > bv ? 1 : 0;
     return sortDir === 'asc' ? cmp : -cmp;
@@ -593,7 +648,7 @@ function renderLibrary() {
   const tbody = document.createElement('tbody');
   sorted.forEach(doc => {
     const row = document.createElement('tr');
-    row.title = `Created ${formatDate(doc.createdAt)}`;
+    row.title = `Created by ${doc.createdBy} on ${formatDate(doc.createdAt)}`;
 
     const poetCell = document.createElement('td');
     poetCell.textContent = doc.poet || '—';
@@ -620,16 +675,7 @@ function renderLibrary() {
     row.appendChild(editCell);
 
     const delCell = document.createElement('td');
-    const del = document.createElement('button');
-    del.className = 'library-item-delete';
-    del.textContent = 'Delete';
-    del.addEventListener('click', () => {
-      if (!confirm(`Delete "${doc.title || 'Untitled POEM'}"? This cannot be undone.`)) return;
-      persistDocs(loadDocs().filter(d => d.id !== doc.id));
-      if (currentDocId === doc.id) startNewDocument();
-      renderLibrary();
-    });
-    delCell.appendChild(del);
+    delCell.appendChild(buildDeleteControl(doc));
     row.appendChild(delCell);
 
     tbody.appendChild(row);
@@ -637,6 +683,21 @@ function renderLibrary() {
   table.appendChild(tbody);
   wrap.appendChild(table);
   els.library.appendChild(wrap);
+}
+
+async function refreshLibrary() {
+  try {
+    const { poems } = await api('/poems');
+    poemsCache = poems;
+    renderLibrary();
+  } catch (err) {
+    console.error(err);
+    els.library.textContent = '';
+    const p = document.createElement('p');
+    p.className = 'library-empty';
+    p.textContent = `Could not load saved POEMs: ${err.message}`;
+    els.library.appendChild(p);
+  }
 }
 
 function resetTrackingState() {
@@ -647,7 +708,7 @@ function resetTrackingState() {
 }
 
 function openDoc(id) {
-  const doc = loadDocs().find(d => d.id === id);
+  const doc = poemsCache.find(d => d.id === id);
   if (!doc) return;
   currentDocId = doc.id;
   els.titleInput.value = doc.title;
@@ -674,43 +735,58 @@ els.newBtn.addEventListener('click', () => {
   startNewDocument();
 });
 
-els.saveBtn.addEventListener('click', () => {
+async function saveCurrentDoc() {
   const poet = els.poetSelect.value;
   const publicationDate = els.pubDateSelect.value;
   if (!poet || !publicationDate) {
     alert('Please select a POET and a publication date before saving.');
-    return;
+    return false;
   }
 
   clearTimeout(trackDebounceTimer);
   if (baselineHtml !== null) renderTrackedDiff();
   const title = els.titleInput.value.trim() || extractTitleFromEditor() || 'Untitled POEM';
   const html = els.editor.innerHTML;
-  const now = new Date().toISOString();
-  const docs = loadDocs();
+  const body = { title, poet, publicationDate, html };
 
-  if (currentDocId) {
-    const doc = docs.find(d => d.id === currentDocId);
-    if (doc) {
-      doc.title = title;
-      doc.poet = poet;
-      doc.publicationDate = publicationDate;
-      doc.html = html;
-      doc.updatedAt = now;
+  try {
+    if (currentDocId) {
+      await api(`/poems/${currentDocId}`, { method: 'PUT', body });
+    } else {
+      const { poem } = await api('/poems', { method: 'POST', body });
+      currentDocId = poem.id;
     }
-  } else {
-    currentDocId = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random()));
-    docs.push({ id: currentDocId, title, poet, publicationDate, html, createdAt: now, updatedAt: now });
+    els.titleInput.value = title;
+    els.saveStatus.textContent = 'Saved.';
+    setTimeout(() => { els.saveStatus.textContent = ''; }, 2000);
+    await refreshLibrary();
+    return true;
+  } catch (err) {
+    alert(`Could not save: ${err.message}`);
+    return false;
   }
+}
 
-  persistDocs(docs);
-  els.titleInput.value = title;
-  els.saveStatus.textContent = 'Saved.';
-  setTimeout(() => { els.saveStatus.textContent = ''; }, 2000);
-  renderLibrary();
+els.saveBtn.addEventListener('click', () => {
+  saveCurrentDoc();
+});
+
+els.saveExitBtn.addEventListener('click', async () => {
+  if (await saveCurrentDoc()) switchTab('upload');
 });
 
 // ---------- init ----------
-loadSettings();
-renderLibrary();
-updateTrackButtonsState();
+async function init(user) {
+  showApp(user);
+  await refreshLibrary();
+  updateTrackButtonsState();
+}
+
+(async () => {
+  try {
+    const { user } = await api('/me');
+    await init(user);
+  } catch {
+    showLogin();
+  }
+})();

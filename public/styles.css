@@ -31,7 +31,27 @@ header {
   margin-bottom: 20px;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 h1 { font-size: 1.5rem; margin: 0; }
+
+/* --- Login --- */
+#loginScreen {
+  max-width: 360px;
+  margin: 80px auto 0;
+}
+
+#loginScreen h2 { margin: 0 0 16px; }
+
+.error-msg {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin: 8px 0 0;
+}
 
 /* --- Tabs --- */
 .tabs {
@@ -285,6 +305,37 @@ button:disabled {
 }
 
 .library-item-delete:hover { color: #dc2626; background: none; }
+
+.delete-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.delete-confirm-label {
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+.library-item-delete-confirm {
+  background: #dc2626;
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+.library-item-delete-confirm:hover { background: #b91c1c; }
+
+.library-item-delete-cancel {
+  background: none;
+  color: var(--muted);
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border: 1px solid var(--border);
+}
+
+.library-item-delete-cancel:hover { background: #eef1f5; }
 
 .library-empty {
   color: var(--muted);
