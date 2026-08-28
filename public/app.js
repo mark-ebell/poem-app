@@ -178,7 +178,7 @@ function escapeHtml(s) {
 }
 
 const FIELD_LABELS = ['Title', 'Reference', 'Clinical question', 'Allocation', 'Funding',
-  'Study design', 'Population and setting', 'Synopsis', 'Bottom-Line'];
+  'Study design', 'Population and setting', 'Age group', 'Synopsis', 'Bottom-Line', 'PubMed ID'];
 const labelRe = new RegExp(`^(${FIELD_LABELS.join('|')}):\\s*(.*)$`);
 
 function plainPoemToHtml(text) {

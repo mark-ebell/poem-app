@@ -19,9 +19,13 @@ Study design: Which of the following study designs best describes this study: "M
 
 Population and setting: Which of the following best describes where the study was performed: "Inpatient (ICU only)", "Inpatient (any location)", "Inpatient (ward only)", "Inpatient (any location) with outpatient follow-up", "Emergency department", "Outpatient (any)", "Outpatient (primary care)", "Outpatient (specialty)", "Nursing home/extended care facility", "Rehab unit", "Various (meta-analysis)", "Various (guideline)", "Uncertain", or "Population-based".
 
-Synopsis: Summarize the study, its design, and the primary results in one or two paragraphs that are about 150 to 300 words in length. Where appropriate present results as absolute risks and number needed to treat or number needed to harm. The format for summarizing a comparison should be of the form of a parenthetical placed toward the end of the relevant sentence, for example: "(12% vs 7%, p < 0.001, NNT = 20)". Make sure to identify any key flaws or biases.
+Age group: What was the age group of participants? Classify as "Adults", "Children", or "Both adults and children". Persons 16 years and older count as adults.
+
+Synopsis: Summarize the study, its design, and the primary results in one or two paragraphs that are about 150 to 300 words in length. Where appropriate present results as absolute risks and number needed to treat or number needed to harm. The format for summarizing a comparison should be of the form of a parenthetical placed toward the end of the relevant sentence, for example: "(12% vs 7%, p < 0.001, NNT = 20)". Make sure to identify any key flaws or biases in the study. If a result is reported as a change in a numerical symptom or disease score or scale, provide the range of the scale and the MCID (minimal clinically important difference).
 
 Bottom-Line: In 1 to 4 sentences summarize the main take-home message of the study. Include the key NNT if one was reported in the Synopsis.
+
+PubMed ID: Provide the 8-digit PubMed ID (PMID) for the article.
 
 Do not show any bracketed internal background source-tracking tags. Output plain text only, with each field label followed by a colon and its content, nothing else before or after.`;
 
