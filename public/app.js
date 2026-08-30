@@ -114,6 +114,7 @@ const TRACK_DEBOUNCE_MS = 900;
 let sortColumn = 'publicationDate'; // 'poet' | 'publicationDate' | 'title'
 let sortDir = 'asc'; // 'asc' | 'desc'
 let poemsCache = [];
+let currentUser = null;
 
 // ---------- Publication date options ----------
 const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -140,6 +141,15 @@ function populatePubDateOptions() {
   }
 }
 populatePubDateOptions();
+
+function applyNewDocumentDefaults() {
+  if (currentUser && [...els.poetSelect.options].some(o => o.value === currentUser.displayName)) {
+    els.poetSelect.value = currentUser.displayName;
+  }
+  const now = new Date();
+  const defaultDate = new Date(now.getFullYear(), now.getMonth() + 2, 1);
+  els.pubDateSelect.value = monthValue(defaultDate);
+}
 
 // ---------- PDF extraction ----------
 els.pdfInput.addEventListener('change', async (e) => {
@@ -723,11 +733,10 @@ function openDoc(id) {
 function startNewDocument() {
   currentDocId = null;
   els.titleInput.value = '';
-  els.poetSelect.value = '';
-  els.pubDateSelect.value = '';
   els.editor.innerHTML = '';
   resetTrackingState();
   els.saveStatus.textContent = '';
+  applyNewDocumentDefaults();
 }
 
 els.newBtn.addEventListener('click', () => {
@@ -777,7 +786,9 @@ els.saveExitBtn.addEventListener('click', async () => {
 
 // ---------- init ----------
 async function init(user) {
+  currentUser = user;
   showApp(user);
+  applyNewDocumentDefaults();
   await refreshLibrary();
   updateTrackButtonsState();
 }
