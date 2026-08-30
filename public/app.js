@@ -8,7 +8,7 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnEdit', 'tabUpload', 'tabEdit',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
-  'titleInput', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
+  'titleInput', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
   'editor', 'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
@@ -274,9 +274,65 @@ els.btnLink.addEventListener('click', () => {
   document.execCommand('createLink', false, trimmed);
 });
 
+// ---------- Font name / size ----------
+// Clicking a <select> moves focus away from the editor, which would normally
+// collapse the text selection before "change" fires — so track the last
+// non-collapsed selection made inside the editor and restore it on demand.
+let savedEditorRange = null;
+document.addEventListener('selectionchange', () => {
+  const sel = window.getSelection();
+  if (!sel.rangeCount || sel.isCollapsed) return;
+  const range = sel.getRangeAt(0);
+  if (els.editor.contains(range.commonAncestorContainer)) savedEditorRange = range.cloneRange();
+});
+
+function clearDescendantFontStyles(container) {
+  container.querySelectorAll('*').forEach(el => {
+    el.style.removeProperty('font-family');
+    el.style.removeProperty('font-size');
+    if (el.tagName === 'FONT') {
+      el.removeAttribute('face');
+      el.removeAttribute('size');
+    }
+  });
+}
+
+function applyFontStyle(styleProp, cssValue) {
+  if (!savedEditorRange || savedEditorRange.collapsed) {
+    alert('Select some text in the editor first.');
+    return;
+  }
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(savedEditorRange);
+  const range = savedEditorRange;
+
+  const span = document.createElement('span');
+  span.style[styleProp] = cssValue;
+  try {
+    range.surroundContents(span);
+  } catch {
+    const frag = range.extractContents();
+    span.appendChild(frag);
+    range.insertNode(span);
+  }
+  clearDescendantFontStyles(span); // override any font styling carried in from pasted content
+
+  const newRange = document.createRange();
+  newRange.selectNodeContents(span);
+  sel.removeAllRanges();
+  sel.addRange(newRange);
+  savedEditorRange = newRange.cloneRange();
+  els.editor.dispatchEvent(new Event('input', { bubbles: true }));
+}
+
+els.fontNameSelect.addEventListener('change', () => applyFontStyle('fontFamily', els.fontNameSelect.value));
+els.fontSizeSelect.addEventListener('change', () => applyFontStyle('fontSize', `${els.fontSizeSelect.value}pt`));
+
 // ---------- Track changes: tokenize / diff / render ----------
 function getStyleFlags(node, root) {
   let bold = false, italic = false, underline = false, sup = false, sub = false, href = null;
+  let fontFamily = null, fontSize = null;
   let el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
   while (el && el !== root) {
     const tag = el.tagName;
@@ -286,9 +342,11 @@ function getStyleFlags(node, root) {
     if (tag === 'SUP') sup = true;
     if (tag === 'SUB') sub = true;
     if (tag === 'A' && !href) href = el.getAttribute('href');
+    if (!fontFamily && el.style && el.style.fontFamily) fontFamily = el.style.fontFamily;
+    if (!fontSize && el.style && el.style.fontSize) fontSize = el.style.fontSize;
     el = el.parentElement;
   }
-  return { bold, italic, underline, sup, sub, href };
+  return { bold, italic, underline, sup, sub, href, fontFamily, fontSize };
 }
 
 // Text already marked as a tracked deletion is kept in the DOM only for display;
@@ -367,6 +425,13 @@ function renderToken(tok) {
   if (tok.underline) html = `<u>${html}</u>`;
   if (tok.italic) html = `<i>${html}</i>`;
   if (tok.bold) html = `<b>${html}</b>`;
+  if (tok.fontFamily || tok.fontSize) {
+    const style = [
+      tok.fontFamily ? `font-family:${tok.fontFamily}` : '',
+      tok.fontSize ? `font-size:${tok.fontSize}` : ''
+    ].filter(Boolean).join(';');
+    html = `<span style="${escapeAttr(style)}">${html}</span>`;
+  }
   return html;
 }
 
