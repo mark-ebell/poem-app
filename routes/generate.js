@@ -49,7 +49,7 @@ router.post('/', requireAuth, async (req, res) => {
       },
       body: JSON.stringify({
         model: 'claude-sonnet-5',
-        max_tokens: 2000,
+        max_tokens: 4096,
         system: POEM_SYSTEM_PROMPT,
         messages: [{ role: 'user', content: `Here is the full text of the research article:\n\n${text}` }]
       })
@@ -63,6 +63,10 @@ router.post('/', requireAuth, async (req, res) => {
 
     const data = await resp.json();
     const draft = data.content.map(block => block.text || '').join('').trim();
+    if (data.stop_reason === 'max_tokens') {
+      console.error('Anthropic response was truncated at the max_tokens limit.');
+      return res.status(502).json({ error: 'The draft was cut off because it ran too long. Please try again.' });
+    }
     res.json({ draft });
   } catch (err) {
     console.error('Generate request failed', err);
