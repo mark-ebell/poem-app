@@ -19,9 +19,9 @@ if (!process.env.ANTHROPIC_API_KEY) {
   console.warn('Warning: ANTHROPIC_API_KEY is not set (see .env.example). Generating drafts will fail until it is.');
 }
 
-// On the very first boot against a fresh database (e.g. a new Render deploy),
-// create the five POET accounts and print their one-time passwords to the
-// log so there's no need for shell access to seed them.
+// On every boot, create any POET accounts from seed-users.js that don't
+// already exist (e.g. a fresh database, or a newly added POET) and print
+// their one-time passwords to the log so there's no need for shell access.
 const createdAccounts = seedDefaultUsers();
 if (createdAccounts.length) {
   console.log('Created POET accounts with these initial passwords (share each securely; not shown again):');

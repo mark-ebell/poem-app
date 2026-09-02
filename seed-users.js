@@ -1,4 +1,4 @@
-// Creates the five fixed POET accounts if they don't already exist, each with
+// Creates the fixed POET accounts if they don't already exist, each with
 // a random initial password (which the user must change on first login).
 // Safe to re-run: existing accounts are left untouched.
 const crypto = require('crypto');
@@ -10,7 +10,9 @@ const POETS = [
   { username: 'ebell', displayName: 'Ebell' },
   { username: 'shaughnessy', displayName: 'Shaughnessy' },
   { username: 'slawson', displayName: 'Slawson' },
-  { username: 'speer', displayName: 'Speer' }
+  { username: 'speer', displayName: 'Speer' },
+  { username: 'rowland', displayName: 'Rowland' },
+  { username: 'rayala', displayName: 'Rayala' }
 ];
 
 function randomPassword() {

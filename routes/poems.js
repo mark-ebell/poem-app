@@ -6,7 +6,7 @@ const { requireAuth } = require('../auth');
 const router = express.Router();
 router.use(requireAuth);
 
-const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer'];
+const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Rowland', 'Rayala'];
 
 function toClient(row) {
   return {

@@ -29,9 +29,9 @@ Then edit `.env`:
 
 `.env` is gitignored — never commit it.
 
-### 3. Create the five POET accounts
+### 3. Create the POET accounts
 
-The five accounts (Barry, Ebell, Shaughnessy, Slawson, Speer) are created automatically the first time the server starts against a fresh database, with the one-time initial passwords printed to the console (or, on Render, to the **Logs** tab). You can also create/check them manually at any time:
+The accounts listed in `POETS` in `seed-users.js` (Barry, Ebell, Shaughnessy, Slawson, Speer, Rowland, Rayala) are created automatically every time the server starts, with one-time initial passwords printed to the console (or, on Render, to the **Logs** tab) for any that don't exist yet. To add a new POET later, add a `{ username, displayName }` entry to that list (and to `VALID_POETS` in `routes/poems.js` and the POET `<select>` in `public/index.html`), then deploy — their account is created on the next boot. You can also create/check accounts manually at any time:
 
 ```bash
 npm run seed
@@ -82,7 +82,7 @@ This repo includes a `render.yaml` file that pre-fills most of the setup. The pa
 3. In Render, click **New > Blueprint**, and pick the GitHub repository you just published. Render will read `render.yaml` and pre-fill almost everything — a web service on Render's paid "Starter" tier (~$7/month) with a small persistent disk (~$0.25/month for 1GB) attached, so the database survives restarts.
 4. Render will prompt you for the one value it can't fill in itself: **ANTHROPIC_API_KEY**. Paste your key there (the same kind of key from `console.anthropic.com/settings/keys`).
 5. Click **Deploy**. After a few minutes, Render gives you a public URL like `https://poem-generator-xxxx.onrender.com`.
-6. Open that URL, and check Render's **Logs** tab once for the five initial passwords (same as the local first-boot message) — share those with your fellow POETs along with the URL.
+6. Open that URL, and check Render's **Logs** tab once for the initial passwords (same as the local first-boot message) — share those with your fellow POETs along with the URL.
 
 For future updates: once I make a change, publishing it from GitHub Desktop (or asking me to) triggers Render to automatically redeploy — no other steps needed.
 
@@ -92,7 +92,7 @@ For future updates: once I make a change, publishing it from GitHub Desktop (or 
 - Sessions are stored in the database (not just in memory), so they survive server restarts — a redeploy won't log everyone out.
 - Repeated failed login attempts (10 within 15 minutes, per IP) are temporarily blocked to slow down password-guessing — relevant once the login page is reachable by anyone on the internet.
 - Session cookies are marked "secure" (HTTPS-only) automatically once deployed; locally over plain `http://localhost` they still work as before.
-- The five accounts are fixed — there's no self-service sign-up, matching the closed POET roster.
+- The POET accounts are fixed to the list in `seed-users.js` — there's no self-service sign-up, matching the closed POET roster.
 - What this setup does **not** include: account lockout after repeated failures (only slowdown), email-based password reset, or protection against a compromised Anthropic key being used heavily (consider usage alerts in the Anthropic console).
 - PDFs that are scanned images without a text layer won't extract text; you'd need to OCR them first.
 - The database is a single file (`poems.db`, plus SQLite's `-wal`/`-shm` sidecars) — locally at `data/`, on Render on the attached persistent disk. Back it up by copying that file while the server isn't mid-write; there's no built-in export yet.
