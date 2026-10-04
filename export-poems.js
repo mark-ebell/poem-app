@@ -8,7 +8,6 @@ const { escapeHtml, decodeEntities } = require('./poem-model');
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
   'October', 'November', 'December'];
-const AGE_GROUPS = { 1: 'Adults', 2: 'Children', 3: 'Both adults and children' };
 const SAFE_HREF = /^(https?:\/\/|mailto:)[^\s"'<>]*$/i;
 
 function monthYear(value) {
@@ -98,11 +97,12 @@ function describePoem(row) {
   simple('Clinical question', row.clinical_question);
   simple('Allocation', row.allocation);
   simple('Funding', row.funding);
-  simple('Study design', row.study_design);
+  // The level of evidence goes in parentheses after the study design.
+  const design = String(row.study_design || '').trim();
+  const loe = String(row.loe || '').trim();
+  if (design) simple('Study design', loe ? `${design} (LOE ${loe})` : design);
+  else simple('Level of evidence', loe);
   simple('Population and setting', row.setting);
-  simple('Age group', AGE_GROUPS[row.age_group]);
-  simple('Supertype', row.supertype);
-  simple('Level of evidence', row.loe);
   add('Synopsis', htmlToParagraphs(row.synopsis));
   add('Bottom-Line', htmlToParagraphs(row.bottom_line));
 
@@ -165,7 +165,7 @@ async function buildDocx(rows, meta = {}) {
     creator: 'POEM Generator',
     title: headerText,
     styles: {
-      default: { document: { run: { font: 'Arial', size: 22 } } },
+      default: { document: { run: { font: 'Arial', size: 20 } } },
       paragraphStyles: [{
         id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Normal', quickFormat: true,
         run: { font: 'Arial', size: 24, bold: true, color: '000000' },
@@ -223,7 +223,7 @@ function buildPrintHtml(rows, meta = {}) {
 <html lang="en"><head><meta charset="utf-8"><title>${description}</title>
 <style>
   @page { margin: 0.9in; }
-  body { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; line-height: 1.4; color: #000; margin: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.4; color: #000; margin: 0; }
   .runhead { font-size: 8pt; color: #666; margin: 0 0 14pt; }
   .poem { page-break-after: always; }
   .poem:last-of-type { page-break-after: auto; }
