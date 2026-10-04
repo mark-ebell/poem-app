@@ -6,7 +6,9 @@ const els = {};
   'loginScreen', 'loginForm', 'loginUsername', 'loginPassword', 'loginError',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnUpload', 'tabBtnEdit', 'tabUpload', 'tabEdit',
+  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabEdit',
+  'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
+  'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
@@ -98,14 +100,16 @@ els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.t
 
 // ---------- Tabs ----------
 function switchTab(name) {
-  const onEdit = name === 'edit';
-  els.tabUpload.classList.toggle('hidden', onEdit);
-  els.tabEdit.classList.toggle('hidden', !onEdit);
-  els.tabBtnUpload.classList.toggle('active', !onEdit);
-  els.tabBtnEdit.classList.toggle('active', onEdit);
+  const panels = { upload: els.tabUpload, browse: els.tabBrowse, edit: els.tabEdit };
+  const buttons = { upload: els.tabBtnUpload, browse: els.tabBtnBrowse, edit: els.tabBtnEdit };
+  for (const key of Object.keys(panels)) {
+    panels[key].classList.toggle('hidden', key !== name);
+    buttons[key].classList.toggle('active', key === name);
+  }
 }
 
 els.tabBtnUpload.addEventListener('click', () => switchTab('upload'));
+els.tabBtnBrowse.addEventListener('click', () => switchTab('browse'));
 els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
 
 let extractedText = '';
@@ -810,7 +814,10 @@ function buildDeleteControl(doc) {
 function renderLibrary() {
   els.library.textContent = '';
 
-  if (!poemsCache.length) {
+  // The historical archive (thousands of POEMs) is browsed on the Browse tab.
+  const appPoems = poemsCache.filter(p => p.source === 'app');
+
+  if (!appPoems.length) {
     const p = document.createElement('p');
     p.className = 'library-empty';
     p.textContent = 'No saved POEMs yet.';
@@ -818,7 +825,7 @@ function renderLibrary() {
     return;
   }
 
-  const sorted = [...poemsCache].sort((a, b) => {
+  const sorted = [...appPoems].sort((a, b) => {
     const av = sortValue(a, sortColumn), bv = sortValue(b, sortColumn);
     const cmp = av < bv ? -1 : av > bv ? 1 : 0;
     return sortDir === 'asc' ? cmp : -cmp;
@@ -902,6 +909,7 @@ async function refreshLibrary() {
     const { poems } = await api('/poems');
     poemsCache = poems;
     renderLibrary();
+    updateBrowseFilters();
   } catch (err) {
     console.error(err);
     els.library.textContent = '';
@@ -1045,9 +1053,143 @@ els.saveExitBtn.addEventListener('click', async () => {
   if (await saveCurrentDoc()) switchTab('upload');
 });
 
+// ---------- Browse ----------
+const ALL = '';
+
+function setOptions(select, options, keep) {
+  select.textContent = '';
+  for (const [value, label] of options) {
+    const opt = document.createElement('option');
+    opt.value = value;
+    opt.textContent = label;
+    select.appendChild(opt);
+  }
+  select.value = options.some(([v]) => v === keep) ? keep : options[0][0];
+}
+
+// Rebuilds the Year / Month / Author choices from what is in the repository.
+// On the first load it selects the most recent month; afterwards it keeps
+// whatever the user had chosen.
+let browseInitialized = false;
+function updateBrowseFilters() {
+  const dated = poemsCache.filter(p => /^\d{4}-\d{2}$/.test(p.publicationDate || ''));
+  const years = [...new Set(dated.map(p => p.publicationDate.slice(0, 4)))].sort().reverse();
+  const authors = [...new Set(poemsCache.map(p => p.poet).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+  let year = els.browseYear.value, month = els.browseMonth.value;
+  if (!browseInitialized && dated.length) {
+    const latest = dated.reduce((m, p) => (p.publicationDate > m ? p.publicationDate : m), '0000-00');
+    year = latest.slice(0, 4);
+    month = latest.slice(5, 7);
+    browseInitialized = true;
+  }
+
+  setOptions(els.browseYear, [[ALL, 'All years'], ...years.map(y => [y, y])], year);
+  setOptions(els.browseMonth, [[ALL, 'All months'], ...MONTH_NAMES.map((n, i) => [String(i + 1).padStart(2, '0'), n])], month);
+  setOptions(els.browseAuthor, [[ALL, 'All authors'], ...authors.map(a => [a, a])], els.browseAuthor.value);
+  renderBrowse();
+}
+
+function renderBrowse() {
+  const year = els.browseYear.value, month = els.browseMonth.value, author = els.browseAuthor.value;
+  const matches = poemsCache.filter(p => {
+    const d = p.publicationDate || '';
+    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || p.poet === author);
+  }).sort((a, b) =>
+    (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
+    (a.poet || '').localeCompare(b.poet || '') ||
+    (a.title || '').localeCompare(b.title || ''));
+
+  els.browseCount.textContent = `${matches.length.toLocaleString()} POEM${matches.length === 1 ? '' : 's'}`;
+  els.browseResults.textContent = '';
+  if (!matches.length) {
+    const p = document.createElement('p');
+    p.className = 'library-empty';
+    p.textContent = 'No POEMs match these filters.';
+    els.browseResults.appendChild(p);
+    return;
+  }
+
+  const SHOW_MAX = 500;
+  const table = document.createElement('table');
+  table.className = 'library-table';
+  const headRow = document.createElement('tr');
+  ['Publication date', 'POET', 'Title', 'POEM #'].forEach(label => {
+    const th = document.createElement('th');
+    th.textContent = label;
+    headRow.appendChild(th);
+  });
+  const thead = document.createElement('thead');
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+  matches.slice(0, SHOW_MAX).forEach(doc => {
+    const row = document.createElement('tr');
+    const dateCell = document.createElement('td');
+    dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
+    const poetCell = document.createElement('td');
+    poetCell.textContent = doc.poet || '—';
+    const titleCell = document.createElement('td');
+    const link = document.createElement('span');
+    link.className = 'library-title-link';
+    link.textContent = doc.title || 'Untitled POEM';
+    link.addEventListener('click', () => openDoc(doc.id));
+    titleCell.appendChild(link);
+    const numCell = document.createElement('td');
+    numCell.textContent = doc.poemId || '';
+    row.append(dateCell, poetCell, titleCell, numCell);
+    tbody.appendChild(row);
+  });
+  table.appendChild(tbody);
+  const wrap = document.createElement('div');
+  wrap.className = 'library-table-wrap';
+  wrap.appendChild(table);
+  els.browseResults.appendChild(wrap);
+
+  if (matches.length > SHOW_MAX) {
+    const note = document.createElement('p');
+    note.className = 'hint';
+    note.textContent = `Showing the first ${SHOW_MAX} of ${matches.length.toLocaleString()}. Narrow the filters to see the rest.`;
+    els.browseResults.appendChild(note);
+  }
+}
+
+[els.browseYear, els.browseMonth, els.browseAuthor].forEach(sel => sel.addEventListener('change', renderBrowse));
+
+// ---------- Administrator: import the historical archive ----------
+els.archiveInput.addEventListener('change', () => {
+  els.archiveImportBtn.disabled = !els.archiveInput.files.length;
+  els.archiveStatus.textContent = '';
+});
+
+els.archiveImportBtn.addEventListener('click', async () => {
+  const file = els.archiveInput.files[0];
+  if (!file) return;
+  els.archiveImportBtn.disabled = true;
+  els.archiveStatus.textContent = 'Importing... this can take a minute.';
+  try {
+    const resp = await fetch('/api/admin/import-poems', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/gzip' },
+      body: file
+    });
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+    els.archiveStatus.textContent = `Done: ${data.added.toLocaleString()} added, ${data.alreadyPresent.toLocaleString()} already present.`;
+    els.archiveInput.value = '';
+    await refreshLibrary();
+  } catch (err) {
+    els.archiveStatus.textContent = `Error: ${err.message}`;
+    els.archiveImportBtn.disabled = false;
+  }
+});
+
 // ---------- init ----------
 async function init(user) {
   currentUser = user;
+  els.adminImport.classList.toggle('hidden', user.username !== 'ebell');
   showApp(user);
   applyNewDocumentDefaults();
   await refreshLibrary();

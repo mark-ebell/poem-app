@@ -86,6 +86,19 @@ node import-spreadsheet.js "/path/to/POEMs repository.xlsx" --replace   # re-imp
 
 Rows with a blank POEM_ID get a new unique random 6-digit number. Values are loaded as they appear in the spreadsheet (including older spellings of study design and truncated POET entries). The four current POETs' initials (ME, HB, AS, DS) are shown as Ebell, Barry, Shaughnessy and Slawson; other initials are kept as they are. A copy of the database is saved to `data/backups/` before every import. POEMs that were saved before these fields existed are converted automatically the first time the server starts (the original text is kept in `legacy_html`).
 
+### Browsing the archive, and loading it into the deployed app
+
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month and author. It opens on the most recent month. The **Saved POEMs** list on the first tab shows only POEMs written in the app.
+
+The importer above fills your *local* database. The deployed app (Render) has its own database, so the archive is copied there with the administrator-only upload on the Browse tab (shown only when signed in as `ebell`):
+
+```bash
+node fix-mojibake.js      # one-time: repairs garbled characters such as "â€™" in imported text
+node export-archive.js    # writes data/poems-archive.json.gz (imported POEMs only)
+```
+
+Then sign in to the deployed app as `ebell`, open **Browse**, expand **Administrator: import the POEMs archive**, choose `poems-archive.json.gz` and click **Import**. It is safe to repeat (POEMs already present are skipped, POEMs written in the app are never changed), and the server saves a copy of its database to `backups/` on the data disk first.
+
 ## Deploying to Render (making it reachable on the internet)
 
 This repo includes a `render.yaml` file that pre-fills most of the setup. The parts only you can do (they require your own accounts):
