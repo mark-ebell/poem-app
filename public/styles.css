@@ -388,3 +388,9 @@ label.spaced { margin-top: 16px; }
 .search-snippet { font-size: 0.85rem; color: var(--muted); margin-top: 3px; line-height: 1.4; }
 mark { background: #fef08a; color: inherit; padding: 0 1px; border-radius: 2px; }
 .search-table td:first-child { white-space: nowrap; }
+
+.print-area { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+.print-choices { display: flex; gap: 8px; }
+.print-choices button { background: #eef1f5; color: var(--text); }
+.print-choices button:hover:not(:disabled) { background: #e2e6ec; }
+.print-area .hint { margin: 0; }

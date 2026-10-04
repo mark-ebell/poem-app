@@ -141,7 +141,9 @@ function excerptOf(synopsisHtml) {
   return words.slice(0, EXCERPT_WORDS).join(' ') + (words.length > EXCERPT_WORDS ? '…' : '');
 }
 
-function searchPoems({ q, whole = true }) {
+// Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
+// with hits sorted (title matches first, then newest) as { row, titleHit }.
+function runSearch({ q, whole = true }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -186,6 +188,13 @@ function searchPoems({ q, whole = true }) {
     (b.row.publication_date || '').localeCompare(a.row.publication_date || '') ||
     (a.row.title || '').localeCompare(b.row.title || ''));
 
+  return { hits, highlightTerms, whole: !!whole };
+}
+
+function searchPoems(params) {
+  const result = runSearch(params);
+  if (result.error) return result;
+  const { hits, highlightTerms, whole } = result;
   const poems = hits.slice(0, MAX_RESULTS).map(({ row }) => ({
     id: row.id,
     poemId: row.poem_id,
@@ -194,7 +203,26 @@ function searchPoems({ q, whole = true }) {
     publicationDate: row.publication_date,
     excerpt: excerptOf(row.synopsis)
   }));
-  return { total: hits.length, truncated: hits.length > MAX_RESULTS, terms: highlightTerms, whole: !!whole, poems };
+  return { total: hits.length, truncated: hits.length > MAX_RESULTS, terms: highlightTerms, whole, poems };
 }
 
-module.exports = { buildSearchText, backfillSearchText, searchPoems, parseQuery };
+// Every POEM matching a query, in full, in the same order as the search results.
+const MAX_EXPORT = 500;
+function poemsForExport(params) {
+  const result = runSearch(params);
+  if (result.error) return result;
+  const ids = result.hits.map(h => h.row.id);
+  if (!ids.length) return { error: 'No POEMs match that search.' };
+  if (ids.length > MAX_EXPORT) {
+    return { error: `That search matches ${ids.length.toLocaleString()} POEMs. Please narrow it to ${MAX_EXPORT} or fewer to print them.` };
+  }
+  const byId = new Map();
+  for (let i = 0; i < ids.length; i += 200) {
+    const chunk = ids.slice(i, i + 200);
+    const rows = db.prepare(`SELECT * FROM poems WHERE id IN (${chunk.map(() => '?').join(',')})`).all(...chunk);
+    rows.forEach(r => byId.set(r.id, r));
+  }
+  return { poems: ids.map(id => byId.get(id)).filter(Boolean) };
+}
+
+module.exports = { buildSearchText, backfillSearchText, searchPoems, poemsForExport, parseQuery, MAX_EXPORT };

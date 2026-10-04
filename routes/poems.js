@@ -3,7 +3,8 @@ const crypto = require('crypto');
 const db = require('../db');
 const { requireAuth } = require('../auth');
 const { normalizePoemBody, toClient, toListItem, generatePoemId } = require('../poem-model');
-const { buildSearchText, searchPoems } = require('../search');
+const { buildSearchText, searchPoems, poemsForExport } = require('../search');
+const { buildDocx, buildPrintHtml } = require('../export-poems');
 
 const router = express.Router();
 router.use(requireAuth);
@@ -22,6 +23,31 @@ router.get('/search', (req, res) => {
   const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0' });
   if (result.error) return res.status(400).json({ error: result.error });
   res.json(result);
+});
+
+// Prints every POEM matching a search, in full. { q, whole, format: 'docx' | 'html' }
+// 'docx' returns a Word file; 'html' returns a print-ready page (for Save as PDF).
+router.post('/export', async (req, res) => {
+  const { q, whole, format } = req.body || {};
+  const result = poemsForExport({ q, whole: whole !== false && whole !== '0' });
+  if (result.error) return res.status(400).json({ error: result.error });
+
+  const q1 = String(q).replace(/\s+/g, ' ').trim();
+  const description = `POEMs matching: ${q1.length > 100 ? q1.slice(0, 100) + '…' : q1} (${result.poems.length} POEM${result.poems.length === 1 ? '' : 's'})`;
+  try {
+    if (format === 'docx') {
+      const buffer = await buildDocx(result.poems, { description });
+      res.set({
+        'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'Content-Disposition': 'attachment; filename="POEMs.docx"'
+      });
+      return res.send(buffer);
+    }
+    res.type('html').send(buildPrintHtml(result.poems, { description }));
+  } catch (err) {
+    console.error('POEM export failed', err);
+    res.status(500).json({ error: 'Could not create the document. See the server log.' });
+  }
 });
 
 router.get('/:id', (req, res) => {

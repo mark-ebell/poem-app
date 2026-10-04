@@ -8,6 +8,7 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchBtn', 'searchWhole', 'searchExcerpt', 'searchCount', 'searchResults',
+  'printArea', 'printBtn', 'printChoices', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
   'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
@@ -1179,8 +1180,10 @@ function highlightInto(parent, text, terms, whole) {
 }
 
 let lastSearch = null;
+let lastQuery = null; // { q, whole } of the search being shown; "Print POEMs" re-runs it
 function renderSearchResults(data) {
   lastSearch = data;
+  els.printArea.classList.toggle('hidden', !data.total);
   els.searchResults.textContent = '';
   els.searchCount.textContent = data.total
     ? `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'} found` +
@@ -1247,16 +1250,81 @@ els.searchForm.addEventListener('submit', async (e) => {
   try {
     const params = new URLSearchParams({ q, whole: els.searchWhole.checked ? '1' : '0' });
     const data = await api(`/poems/search?${params}`);
-    if (seq === searchSeq) renderSearchResults(data);
+    if (seq === searchSeq) {
+      lastQuery = { q, whole: els.searchWhole.checked };
+      els.printChoices.classList.add('hidden');
+      els.printStatus.textContent = '';
+      renderSearchResults(data);
+    }
   } catch (err) {
     if (seq === searchSeq) {
       els.searchResults.textContent = '';
+      els.printArea.classList.add('hidden');
       els.searchCount.textContent = `Search failed: ${err.message}`;
     }
   } finally {
     els.searchBtn.disabled = false;
   }
 });
+
+// ---------- Print POEMs (Word document or PDF) ----------
+els.printBtn.addEventListener('click', () => {
+  els.printChoices.classList.toggle('hidden');
+  els.printStatus.textContent = '';
+});
+
+async function fetchPrintOutput(format) {
+  const resp = await fetch('/api/poems/export', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ...lastQuery, format })
+  });
+  if (resp.status === 401) { showLogin(); throw new Error('Not logged in.'); }
+  if (!resp.ok) {
+    const data = await resp.json().catch(() => ({}));
+    throw new Error(data.error || `Request failed (${resp.status}).`);
+  }
+  return resp;
+}
+
+async function printAs(format) {
+  if (!lastQuery) return;
+  els.printWordBtn.disabled = els.printPdfBtn.disabled = els.printBtn.disabled = true;
+  els.printStatus.textContent = 'Preparing the POEMs...';
+  try {
+    const resp = await fetchPrintOutput(format);
+    if (format === 'docx') {
+      const url = URL.createObjectURL(await resp.blob());
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `POEMs ${new Date().toISOString().slice(0, 10)}.docx`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 10000);
+      els.printStatus.textContent = 'The Word document was downloaded.';
+    } else {
+      const html = await resp.text();
+      const frame = document.createElement('iframe');
+      frame.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;';
+      frame.srcdoc = html;
+      frame.onload = () => {
+        frame.contentWindow.focus();
+        frame.contentWindow.print();
+        setTimeout(() => frame.remove(), 60000);
+      };
+      document.body.appendChild(frame);
+      els.printStatus.textContent = 'In the print window that opens, choose "Save as PDF" as the destination.';
+    }
+  } catch (err) {
+    els.printStatus.textContent = `Could not print: ${err.message}`;
+  } finally {
+    els.printWordBtn.disabled = els.printPdfBtn.disabled = els.printBtn.disabled = false;
+  }
+}
+
+els.printWordBtn.addEventListener('click', () => printAs('docx'));
+els.printPdfBtn.addEventListener('click', () => printAs('html'));
 
 els.searchExcerpt.addEventListener('change', () => { if (lastSearch) renderSearchResults(lastSearch); });
 

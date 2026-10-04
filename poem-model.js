@@ -321,7 +321,7 @@ function toListItem(row) {
 
 module.exports = {
   VALID_POETS, POET_BY_INITIALS, INITIALS_BY_POET, PUBMED_BASE,
-  escapeHtml, htmlToText, sanitizeHtml, textToHtml,
+  escapeHtml, decodeEntities, htmlToText, sanitizeHtml, textToHtml,
   generatePoemId, pubmedUrlFor, poetFromInitials, ageCodeFromLabel,
   parseLegacyHtml, normalizePoemBody, toClient, toListItem
 };
