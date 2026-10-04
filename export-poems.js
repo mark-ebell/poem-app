@@ -168,7 +168,7 @@ async function buildDocx(rows, meta = {}) {
       default: { document: { run: { font: 'Arial', size: 22 } } },
       paragraphStyles: [{
         id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Normal', quickFormat: true,
-        run: { font: 'Arial', size: 30, bold: true, color: '000000' },
+        run: { font: 'Arial', size: 24, bold: true, color: '000000' },
         paragraph: { spacing: { before: 0, after: 120 }, keepNext: true, outlineLevel: 0 }
       }]
     },
@@ -227,7 +227,7 @@ function buildPrintHtml(rows, meta = {}) {
   .runhead { font-size: 8pt; color: #666; margin: 0 0 14pt; }
   .poem { page-break-after: always; }
   .poem:last-of-type { page-break-after: auto; }
-  h1 { font-size: 15pt; font-weight: bold; margin: 0 0 6pt; page-break-after: avoid; }
+  h1 { font-size: 12pt; font-weight: bold; margin: 0 0 6pt; page-break-after: avoid; }
   p { margin: 0 0 7pt; }
   .byline { margin-bottom: 12pt; }
   a { color: #0563c1; }
