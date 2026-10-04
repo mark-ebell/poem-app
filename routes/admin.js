@@ -5,6 +5,7 @@ const zlib = require('zlib');
 const db = require('../db');
 const { requireAuth } = require('../auth');
 const { sanitizeHtml } = require('../poem-model');
+const { buildSearchText } = require('../search');
 
 const router = express.Router();
 router.use(requireAuth);
@@ -48,6 +49,7 @@ router.post('/import-poems', requireAdmin, express.raw({ type: () => true, limit
     row.bottom_line = sanitizeHtml(row.bottom_line || '');
     row.reference = row.reference || '';
     row.clinical_question = row.clinical_question || '';
+    row.search_text = buildSearchText(row);
     clean.push(row);
   }
 

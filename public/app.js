@@ -6,7 +6,8 @@ const els = {};
   'loginScreen', 'loginForm', 'loginUsername', 'loginPassword', 'loginError',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabEdit',
+  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
+  'searchForm', 'searchInput', 'searchBtn', 'searchWhole', 'searchCount', 'searchResults',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
   'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
@@ -100,8 +101,8 @@ els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.t
 
 // ---------- Tabs ----------
 function switchTab(name) {
-  const panels = { upload: els.tabUpload, browse: els.tabBrowse, edit: els.tabEdit };
-  const buttons = { upload: els.tabBtnUpload, browse: els.tabBtnBrowse, edit: els.tabBtnEdit };
+  const panels = { upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, edit: els.tabEdit };
+  const buttons = { upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, edit: els.tabBtnEdit };
   for (const key of Object.keys(panels)) {
     panels[key].classList.toggle('hidden', key !== name);
     buttons[key].classList.toggle('active', key === name);
@@ -110,6 +111,7 @@ function switchTab(name) {
 
 els.tabBtnUpload.addEventListener('click', () => switchTab('upload'));
 els.tabBtnBrowse.addEventListener('click', () => switchTab('browse'));
+els.tabBtnSearch.addEventListener('click', () => { switchTab('search'); els.searchInput.focus(); });
 els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
 
 let extractedText = '';
@@ -1157,6 +1159,105 @@ function renderBrowse() {
 }
 
 [els.browseYear, els.browseMonth, els.browseAuthor].forEach(sel => sel.addEventListener('change', renderBrowse));
+
+// ---------- Search ----------
+let searchSeq = 0; // ignores the response to a search that has since been superseded
+
+function highlightInto(parent, text, terms, whole) {
+  const body = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  const re = new RegExp(whole ? `(?<![\\p{L}\\p{N}])(?:${body})(?![\\p{L}\\p{N}])` : `(?:${body})`, 'giu');
+  let last = 0, m;
+  while ((m = re.exec(text)) !== null) {
+    if (m[0] === '') { re.lastIndex++; continue; }
+    parent.append(text.slice(last, m.index));
+    const mark = document.createElement('mark');
+    mark.textContent = m[0];
+    parent.append(mark);
+    last = m.index + m[0].length;
+  }
+  parent.append(text.slice(last));
+}
+
+function renderSearchResults(data) {
+  els.searchResults.textContent = '';
+  els.searchCount.textContent = data.total
+    ? `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'} found` +
+      (data.truncated ? ` — showing the first ${data.poems.length}. Make the search more specific to narrow it.` : '')
+    : '';
+  if (!data.total) {
+    const p = document.createElement('p');
+    p.className = 'library-empty';
+    p.textContent = 'No POEMs match that search.';
+    els.searchResults.appendChild(p);
+    return;
+  }
+
+  const table = document.createElement('table');
+  table.className = 'library-table search-table';
+  const headRow = document.createElement('tr');
+  ['Publication date', 'POET', 'Title'].forEach(label => {
+    const th = document.createElement('th');
+    th.textContent = label;
+    headRow.appendChild(th);
+  });
+  const thead = document.createElement('thead');
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+  data.poems.forEach(doc => {
+    const row = document.createElement('tr');
+    const dateCell = document.createElement('td');
+    dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
+    const poetCell = document.createElement('td');
+    poetCell.textContent = doc.poet || '—';
+    const titleCell = document.createElement('td');
+    const link = document.createElement('span');
+    link.className = 'library-title-link';
+    highlightInto(link, doc.title || 'Untitled POEM', data.terms, data.whole);
+    link.addEventListener('click', () => openDoc(doc.id));
+    titleCell.appendChild(link);
+    if (doc.snippet) {
+      const snip = document.createElement('div');
+      snip.className = 'search-snippet';
+      highlightInto(snip, doc.snippet, data.terms, data.whole);
+      titleCell.appendChild(snip);
+    }
+    row.append(dateCell, poetCell, titleCell);
+    tbody.appendChild(row);
+  });
+  table.appendChild(tbody);
+  const wrap = document.createElement('div');
+  wrap.className = 'library-table-wrap';
+  wrap.appendChild(table);
+  els.searchResults.appendChild(wrap);
+}
+
+els.searchForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const q = els.searchInput.value.trim();
+  if (q.length < 2) {
+    els.searchCount.textContent = 'Enter at least two characters to search for.';
+    els.searchResults.textContent = '';
+    return;
+  }
+  const mode = els.tabSearch.querySelector('input[name="searchMode"]:checked').value;
+  const seq = ++searchSeq;
+  els.searchBtn.disabled = true;
+  els.searchCount.textContent = 'Searching...';
+  try {
+    const params = new URLSearchParams({ q, mode, whole: els.searchWhole.checked ? '1' : '0' });
+    const data = await api(`/poems/search?${params}`);
+    if (seq === searchSeq) renderSearchResults(data);
+  } catch (err) {
+    if (seq === searchSeq) {
+      els.searchResults.textContent = '';
+      els.searchCount.textContent = `Search failed: ${err.message}`;
+    }
+  } finally {
+    els.searchBtn.disabled = false;
+  }
+});
 
 // ---------- Administrator: import the historical archive ----------
 els.archiveInput.addEventListener('change', () => {

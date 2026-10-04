@@ -22,6 +22,8 @@ if (!process.env.ANTHROPIC_API_KEY) {
 
 const migratedPoems = migrateLegacyPoems();
 if (migratedPoems) console.log(`Converted ${migratedPoems} saved POEM(s) to separate database fields.`);
+const indexedPoems = require('./search').backfillSearchText();
+if (indexedPoems) console.log(`Built the search index for ${indexedPoems} POEM(s).`);
 
 // On every boot, create any POET accounts from seed-users.js that don't
 // already exist (e.g. a fresh database, or a newly added POET) and print

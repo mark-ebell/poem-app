@@ -53,6 +53,7 @@
     <nav class="tabs">
       <button type="button" class="tab-btn active" id="tabBtnUpload" data-tab="upload">Upload and list</button>
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse</button>
+      <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search</button>
       <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit</button>
     </nav>
 
@@ -96,6 +97,24 @@
         <button type="button" id="archiveImportBtn" disabled>Import</button>
         <span id="archiveStatus" class="hint"></span>
       </details>
+    </div>
+
+    <div id="tabSearch" class="tab-panel hidden">
+      <section class="card">
+        <h2>Search POEMs</h2>
+        <form id="searchForm" class="search-form">
+          <input type="search" id="searchInput" placeholder="Enter a word or phrase" autocomplete="off" aria-label="Word or phrase to search for">
+          <button type="submit" id="searchBtn">Search</button>
+        </form>
+        <div class="search-options">
+          <label class="inline-check"><input type="radio" name="searchMode" value="phrase" checked> Exact phrase</label>
+          <label class="inline-check"><input type="radio" name="searchMode" value="all"> All of these words</label>
+          <label class="inline-check"><input type="checkbox" id="searchWhole" checked> Whole words only</label>
+        </div>
+        <p class="hint">Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
+        <p id="searchCount" class="hint"></p>
+        <div id="searchResults"></div>
+      </section>
     </div>
 
     <div id="tabEdit" class="tab-panel hidden">

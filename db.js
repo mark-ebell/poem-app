@@ -60,6 +60,7 @@ const POEMS_COLUMNS = `
   pubmed_url TEXT,
   source TEXT NOT NULL DEFAULT 'app',
   legacy_html TEXT,
+  search_text TEXT,
   created_by TEXT NOT NULL,
   updated_by TEXT NOT NULL,
   created_at TEXT NOT NULL,
@@ -96,6 +97,9 @@ if (existingColumns.length === 0) {
       ALTER TABLE poems_new RENAME TO poems;
     `);
   })();
+}
+if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'search_text')) {
+  db.exec('ALTER TABLE poems ADD COLUMN search_text TEXT');
 }
 createIndexes();
 

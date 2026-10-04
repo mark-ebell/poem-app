@@ -86,6 +86,10 @@ node import-spreadsheet.js "/path/to/POEMs repository.xlsx" --replace   # re-imp
 
 Rows with a blank POEM_ID get a new unique random 6-digit number. Values are loaded as they appear in the spreadsheet (including older spellings of study design and truncated POET entries). The four current POETs' initials (ME, HB, AS, DS) are shown as Ebell, Barry, Shaughnessy and Slawson; other initials are kept as they are. A copy of the database is saved to `data/backups/` before every import. POEMs that were saved before these fields existed are converted automatically the first time the server starts (the original text is kept in `legacy_html`).
 
+### Searching
+
+The **Search** tab finds POEMs containing a word or phrase in the title, reference, clinical question, synopsis, bottom line, POEM number or PubMed ID (matching words are highlighted, with a short excerpt). Choose **Exact phrase** or **All of these words** (any order), and leave **Whole words only** ticked to avoid matching inside longer words. Each POEM keeps a plain-text copy of its searchable content in the `search_text` column (HTML tags removed); it is rebuilt automatically for any POEM that lacks one when the server starts, and updated whenever a POEM is saved. When keywords are added, include them in `buildSearchText` in `search.js`.
+
 ### Browsing the archive, and loading it into the deployed app
 
 The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month and author. It opens on the most recent month. The **Saved POEMs** list on the first tab shows only POEMs written in the app.
