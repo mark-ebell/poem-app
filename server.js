@@ -7,6 +7,7 @@ const SqliteStore = require('better-sqlite3-session-store')(session);
 
 const db = require('./db');
 const { seedDefaultUsers } = require('./seed-users');
+const { migrateLegacyPoems } = require('./migrate-legacy');
 const { router: authRouter } = require('./auth');
 const poemsRouter = require('./routes/poems');
 const generateRouter = require('./routes/generate');
@@ -18,6 +19,9 @@ const isProduction = app.get('env') === 'production';
 if (!process.env.ANTHROPIC_API_KEY) {
   console.warn('Warning: ANTHROPIC_API_KEY is not set (see .env.example). Generating drafts will fail until it is.');
 }
+
+const migratedPoems = migrateLegacyPoems();
+if (migratedPoems) console.log(`Converted ${migratedPoems} saved POEM(s) to separate database fields.`);
 
 // On every boot, create any POET accounts from seed-users.js that don't
 // already exist (e.g. a fresh database, or a newly added POET) and print

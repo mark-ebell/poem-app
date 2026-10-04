@@ -73,6 +73,7 @@
     <div id="tabEdit" class="tab-panel hidden">
       <section class="card">
         <h2>Edit</h2>
+
         <label>Title
           <input type="text" id="titleInput" placeholder="POEM title">
         </label>
@@ -95,8 +96,58 @@
               <option value="">Select publication date</option>
             </select>
           </label>
+          <label>POEM number
+            <input type="text" id="poemNumberInput" readonly placeholder="Assigned when first saved">
+          </label>
         </div>
         <p class="hint">POET and publication date are required before saving.</p>
+
+        <label>Reference
+          <textarea id="referenceInput" rows="3" placeholder="Citation for the study (AMA format)"></textarea>
+        </label>
+
+        <label>Clinical question
+          <textarea id="questionInput" rows="2" placeholder="One sentence"></textarea>
+        </label>
+
+        <div class="field-row">
+          <label>Allocation
+            <select id="allocationSelect"></select>
+          </label>
+          <label>Funding
+            <select id="fundingSelect"></select>
+          </label>
+        </div>
+
+        <div class="field-row">
+          <label>Study design
+            <select id="studyDesignSelect"></select>
+          </label>
+          <label>Population and setting
+            <select id="settingSelect"></select>
+          </label>
+        </div>
+
+        <div class="field-row">
+          <label>Age group
+            <select id="ageGroupSelect"></select>
+          </label>
+          <label>Supertype
+            <select id="supertypeSelect"></select>
+          </label>
+          <label>Level of evidence
+            <select id="loeSelect"></select>
+          </label>
+        </div>
+
+        <div class="field-row">
+          <label>PubMed ID
+            <input type="text" id="pubmedIdInput" placeholder="8-digit PMID, or NA" maxlength="20" inputmode="numeric">
+          </label>
+          <label>PubMed URL
+            <span id="pubmedUrlDisplay" class="url-display">Filled in from the PubMed ID</span>
+          </label>
+        </div>
 
         <div class="toolbar">
           <select id="fontNameSelect" title="Font">
@@ -133,16 +184,21 @@
           <button type="button" id="btnSub" title="Subscript">x<sub>2</sub></button>
           <button type="button" id="btnLink" title="Insert link">🔗 Link</button>
           <span class="toolbar-sep"></span>
-          <label class="track-label" title="When on, your edits are automatically marked up as insertions/deletions a moment after you stop typing.">
+          <label class="track-label" title="When on, your edits to the Synopsis and Bottom-line are automatically marked up as insertions/deletions a moment after you stop typing.">
             <input type="checkbox" id="trackChangesToggle"> Track changes
           </label>
           <button type="button" id="reviewBtn" class="hidden">Show changes now</button>
           <button type="button" id="acceptBtn" class="hidden">Accept all changes</button>
           <button type="button" id="rejectBtn" class="hidden">Reject all changes</button>
         </div>
+        <p class="hint">The formatting toolbar and track changes apply to the Synopsis and Bottom-line.</p>
         <p id="trackHint" class="hint hidden">Track changes is on — insertions (green) and deletions (red) are marked automatically shortly after you stop typing. Accept to keep them, or reject to discard them. Turning tracking off keeps your edits without marking them.</p>
 
-        <div id="editor" contenteditable="true" class="editor"></div>
+        <label>Synopsis</label>
+        <div id="synopsisEditor" contenteditable="true" class="editor"></div>
+
+        <label class="spaced">Bottom-line</label>
+        <div id="bottomLineEditor" contenteditable="true" class="editor short"></div>
 
         <div class="editor-actions">
           <button id="newBtn">New</button>

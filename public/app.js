@@ -8,9 +8,11 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnEdit', 'tabUpload', 'tabEdit',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
-  'titleInput', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
+  'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
+  'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
+  'synopsisEditor', 'bottomLineEditor', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
-  'editor', 'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
+  'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
 
 // ---------- API helper ----------
@@ -108,13 +110,19 @@ els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
 
 let extractedText = '';
 let currentDocId = null;
-let baselineHtml = null; // snapshot for track changes, null when tracking is off
-let trackDebounceTimer = null;
 const TRACK_DEBOUNCE_MS = 900;
 let sortColumn = 'publicationDate'; // 'poet' | 'publicationDate' | 'title'
 let sortDir = 'asc'; // 'asc' | 'desc'
 let poemsCache = [];
 let currentUser = null;
+let currentPubmedUrl = null; // saved PubMed URL of the open POEM (shown when the ID is "NA")
+
+// The two long-text fields are rich-text editors. Each keeps its own snapshot
+// (baseline) for track changes; baseline is null while tracking is off.
+const richEditors = [
+  { el: els.synopsisEditor, baseline: null, timer: null },
+  { el: els.bottomLineEditor, baseline: null, timer: null }
+];
 
 // ---------- Publication date options ----------
 const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -141,6 +149,84 @@ function populatePubDateOptions() {
   }
 }
 populatePubDateOptions();
+
+// ---------- Dropdown options for the structured fields ----------
+const ALLOCATION_OPTIONS = ['Concealed', 'Unconcealed', 'Uncertain', 'Not applicable'];
+const FUNDING_OPTIONS = ['Industry', 'Government', 'Foundation', 'Industry + Foundation', 'Industry + Government',
+  'Self-funded or unfunded', 'Government + Foundation', 'Government + Foundation + Industry', 'Unknown/not stated', 'Other'];
+const STUDY_DESIGN_OPTIONS = ['Meta-analysis (randomized controlled trials)', 'Meta-analysis (cohort or case-control)',
+  'Meta-analysis (diagnostic)', 'Meta-analysis (other)', 'Network meta-analysis', 'Systematic review',
+  'Randomized controlled trial (double-blinded)', 'Randomized controlled trial (single-blinded)',
+  'Randomized controlled trial (outcome assessor-blinded)', 'Randomized controlled trial (nonblinded)',
+  'Non-randomized controlled trial', 'Cross-over trial (randomized)', 'Cross-over trial (non-randomized)',
+  'Decision rule (validation)', 'Decision rule (development only)', 'Diagnostic test evaluation',
+  'Cost-effectiveness analysis', 'Decision analysis', 'Descriptive', 'Cost analysis', 'Ecologic', 'Case series',
+  'Time series', 'Qualitative', 'Practice guideline', 'Cohort (prospective)', 'Cohort (retrospective)',
+  'Case-control', 'Cross-sectional', 'Other', 'Not applicable'];
+const SETTING_OPTIONS = ['Inpatient (ICU only)', 'Inpatient (any location)', 'Inpatient (ward only)',
+  'Inpatient (any location) with outpatient follow-up', 'Emergency department', 'Outpatient (any)',
+  'Outpatient (primary care)', 'Outpatient (specialty)', 'Nursing home/extended care facility', 'Rehab unit',
+  'Various (meta-analysis)', 'Various (guideline)', 'Uncertain', 'Population-based', 'Other', 'Not applicable'];
+const AGE_GROUP_OPTIONS = [['1', 'Adults'], ['2', 'Children'], ['3', 'Both adults and children'], ['0', 'Not specified']];
+const SUPERTYPE_OPTIONS = [
+  ['Ad', 'Ad — Practice administration or health systems'], ['DxHP', 'DxHP — Diagnosis by history, signs, symptoms, exam'],
+  ['DxTe', 'DxTe — Diagnosis by a test'], ['DxDf', 'DxDf — Differential diagnosis'],
+  ['DxRl', 'DxRl — Risk score or clinical decision rule'], ['DxZA', 'DxZA — Diagnosis: signs/symptoms plus tests'],
+  ['EdMD', 'EdMD — Medical education'], ['EdPt', 'EdPt — Patient education'], ['EtCs', 'EtCs — Causation and etiology'],
+  ['EtEp', 'EtEp — Incidence or prevalence'], ['Etrk', 'Etrk — Risk factors'], ['Px', 'Px — Prognosis or natural history'],
+  ['PxFU', 'PxFU — Follow-up tests and monitoring'], ['Sc', 'Sc — Screening'], ['ScPv', 'ScPv — Primary prevention'],
+  ['TxCt', 'TxCt — Cost-effectiveness or decision analysis'], ['TxGd', 'TxGd — Treatment guideline'],
+  ['TxRx', 'TxRx — Drug therapy'], ['TxSx', 'TxSx — Surgical or procedural therapy'],
+  ['TCAM', 'TCAM — Complementary/alternative medicine'], ['TxDt', 'TxDt — Dietary therapy, vitamins, supplements'],
+  ['TxZA', 'TxZA — Comparing therapy categories, counseling, exercise'], ['TxHm', 'TxHm — Harms of treatment']];
+const LOE_OPTIONS = ['1a', '1a-', '1b', '1b-', '1c', '1c-', '2a', '2a-', '2b', '2b-', '2c', '2c-', '3a', '3a-', '3b', '3b-', '4', '4-', '5'];
+
+function fillSelect(select, options, blankLabel) {
+  select.textContent = '';
+  const blank = document.createElement('option');
+  blank.value = '';
+  blank.textContent = blankLabel;
+  select.appendChild(blank);
+  options.forEach(o => {
+    const [value, label] = Array.isArray(o) ? o : [o, o];
+    const opt = document.createElement('option');
+    opt.value = value;
+    opt.textContent = label;
+    select.appendChild(opt);
+  });
+}
+
+// Sets a dropdown to an exact stored value. Older records can hold values that
+// are not in the standard list, so those are added as an extra option rather
+// than being silently changed.
+function setSelectValue(select, value, label) {
+  const v = value === null || value === undefined ? '' : String(value);
+  if (v && ![...select.options].some(o => o.value === v)) {
+    const opt = document.createElement('option');
+    opt.value = v;
+    opt.textContent = label || v;
+    select.appendChild(opt);
+  }
+  select.value = v;
+}
+
+// Matches text from a Claude draft to a standard option, ignoring case,
+// hyphens and spacing (so "Decision-analysis" finds "Decision analysis").
+const optionKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, '');
+function setSelectFromDraft(select, text) {
+  const t = (text || '').trim();
+  if (!t) { select.value = ''; return; }
+  const match = [...select.options].find(o => o.value && optionKey(o.value) === optionKey(t));
+  setSelectValue(select, match ? match.value : t);
+}
+
+fillSelect(els.allocationSelect, ALLOCATION_OPTIONS, 'Not specified');
+fillSelect(els.fundingSelect, FUNDING_OPTIONS, 'Not specified');
+fillSelect(els.studyDesignSelect, STUDY_DESIGN_OPTIONS, 'Not specified');
+fillSelect(els.settingSelect, SETTING_OPTIONS, 'Not specified');
+fillSelect(els.ageGroupSelect, AGE_GROUP_OPTIONS, 'Not specified');
+fillSelect(els.supertypeSelect, SUPERTYPE_OPTIONS, 'Not specified');
+fillSelect(els.loeSelect, LOE_OPTIONS, 'Not specified');
 
 function applyNewDocumentDefaults() {
   if (currentUser && [...els.poetSelect.options].some(o => o.value === currentUser.displayName)) {
@@ -187,43 +273,57 @@ function escapeHtml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-const FIELD_LABELS = ['Title', 'Reference', 'Clinical question', 'Allocation', 'Funding',
-  'Study design', 'Population and setting', 'Age group', 'Synopsis', 'Bottom-Line', 'PubMed ID'];
-const labelRe = new RegExp(`^(${FIELD_LABELS.join('|')}):\\s*(.*)$`);
+// Draft labels (as written by the prompt) -> form field.
+const DRAFT_LABELS = {
+  'title': 'title', 'reference': 'reference', 'clinical question': 'clinicalQuestion', 'allocation': 'allocation',
+  'funding': 'funding', 'study design': 'studyDesign', 'population and setting': 'setting', 'age group': 'ageGroup',
+  'synopsis': 'synopsis', 'bottom-line': 'bottomLine', 'bottom line': 'bottomLine', 'pubmed id': 'pubmedId'
+};
+const draftLabelRe = /^(Title|Reference|Clinical question|Allocation|Funding|Study design|Population and setting|Age group|Synopsis|Bottom[- ]Line|PubMed ID):\s*(.*)$/i;
 
-function plainPoemToHtml(text) {
-  const lines = text.split(/\r?\n/);
-  const fields = [];
-  let current = null;
-  for (const line of lines) {
-    const m = line.match(labelRe);
-    if (m) {
-      if (current) fields.push(current);
-      current = { label: m[1], lines: [m[2]] };
-    } else if (current) {
-      current.lines.push(line);
-    }
-  }
-  if (current) fields.push(current);
-
-  if (!fields.length) {
-    return text.split(/\n\s*\n/).map(p =>
-      `<p>${escapeHtml(p.trim()).replace(/\n/g, '<br>')}</p>`).join('');
-  }
-
-  return fields.map(f => {
-    const body = f.lines.join('\n').trim();
-    const paras = body.split(/\n\s*\n/).map(p => escapeHtml(p.trim()).replace(/\n/g, '<br>'));
-    return `<p><b>${escapeHtml(f.label)}:</b> ${paras.join('</p><p>')}</p>`;
-  }).join('');
+function paragraphsToHtml(text) {
+  return text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean)
+    .map(p => `<p>${escapeHtml(p).replace(/\n/g, '<br>')}</p>`).join('');
 }
 
-function extractTitleFromEditor() {
-  const firstPara = els.editor.querySelector('p');
-  if (!firstPara) return '';
-  const m = firstPara.textContent.match(/^Title:\s*(.+)$/);
-  if (m) return m[1].trim();
-  return firstPara.textContent.trim().slice(0, 80);
+// Splits the plain-text draft into one value per form field.
+function parseDraft(text) {
+  const fields = {};
+  let key = null;
+  let lines = [];
+  const flush = () => { if (key) fields[key] = lines.join('\n').trim(); };
+  for (const line of text.split(/\r?\n/)) {
+    const m = line.match(draftLabelRe);
+    if (m) { flush(); key = DRAFT_LABELS[m[1].toLowerCase()]; lines = [m[2]]; }
+    else if (key) lines.push(line);
+  }
+  flush();
+  return fields;
+}
+
+function setField(key, value) {
+  switch (key) {
+    case 'title': els.titleInput.value = value; break;
+    case 'reference': els.referenceInput.value = value.replace(/\s*\n\s*/g, ' '); break;
+    case 'clinicalQuestion': els.questionInput.value = value.replace(/\s*\n\s*/g, ' '); break;
+    case 'allocation': setSelectFromDraft(els.allocationSelect, value); break;
+    case 'funding': setSelectFromDraft(els.fundingSelect, value); break;
+    case 'studyDesign': setSelectFromDraft(els.studyDesignSelect, value); break;
+    case 'setting': setSelectFromDraft(els.settingSelect, value); break;
+    case 'ageGroup': {
+      const code = { adults: '1', children: '2', 'both adults and children': '3' }[value.trim().toLowerCase()];
+      els.ageGroupSelect.value = code || '';
+      break;
+    }
+    case 'synopsis': els.synopsisEditor.innerHTML = paragraphsToHtml(value); break;
+    case 'bottomLine': els.bottomLineEditor.innerHTML = paragraphsToHtml(value); break;
+    case 'pubmedId': {
+      const m = value.match(/\d{6,9}/);
+      els.pubmedIdInput.value = m ? m[0] : '';
+      updatePubmedUrlDisplay();
+      break;
+    }
+  }
 }
 
 els.generateBtn.addEventListener('click', async () => {
@@ -239,8 +339,13 @@ els.generateBtn.addEventListener('click', async () => {
     const { draft } = await api('/generate', { method: 'POST', body: { text: extractedText } });
 
     startNewDocument();
-    els.editor.innerHTML = plainPoemToHtml(draft);
-    els.titleInput.value = extractTitleFromEditor();
+    const fields = parseDraft(draft);
+    if (!Object.keys(fields).length) {
+      // Unexpected layout: keep the whole text in the Synopsis so nothing is lost.
+      setField('synopsis', draft);
+    } else {
+      Object.entries(fields).forEach(([key, value]) => setField(key, value));
+    }
     els.generateStatus.textContent = 'Draft generated. Review and edit below, then save.';
     switchTab('edit');
   } catch (err) {
@@ -250,6 +355,27 @@ els.generateBtn.addEventListener('click', async () => {
     els.generateBtn.disabled = false;
   }
 });
+
+// ---------- PubMed URL (built from the PubMed ID) ----------
+function updatePubmedUrlDisplay() {
+  const box = els.pubmedUrlDisplay;
+  const id = els.pubmedIdInput.value.trim().replace(/^pmid:?\s*/i, '');
+  box.textContent = '';
+  let url = null;
+  if (/^\d{1,9}$/.test(id)) url = `https://pubmed.ncbi.nlm.nih.gov/${id}`;
+  else if (/^na$/i.test(id) && currentPubmedUrl) url = currentPubmedUrl;
+  if (url) {
+    const a = document.createElement('a');
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = url;
+    box.appendChild(a);
+  } else {
+    box.textContent = /^na$/i.test(id) ? 'No PubMed entry (NA)' : 'Filled in from the PubMed ID';
+  }
+}
+els.pubmedIdInput.addEventListener('input', updatePubmedUrlDisplay);
 
 // ---------- Formatting toolbar ----------
 [els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink,
@@ -279,11 +405,12 @@ els.btnLink.addEventListener('click', () => {
 // collapse the text selection before "change" fires — so track the last
 // non-collapsed selection made inside the editor and restore it on demand.
 let savedEditorRange = null;
+const editorContaining = (node) => richEditors.find(ed => ed.el.contains(node));
 document.addEventListener('selectionchange', () => {
   const sel = window.getSelection();
   if (!sel.rangeCount || sel.isCollapsed) return;
   const range = sel.getRangeAt(0);
-  if (els.editor.contains(range.commonAncestorContainer)) savedEditorRange = range.cloneRange();
+  if (editorContaining(range.commonAncestorContainer)) savedEditorRange = range.cloneRange();
 });
 
 function clearDescendantFontStyles(container) {
@@ -299,7 +426,7 @@ function clearDescendantFontStyles(container) {
 
 function applyFontStyle(styleProp, cssValue) {
   if (!savedEditorRange || savedEditorRange.collapsed) {
-    alert('Select some text in the editor first.');
+    alert('Select some text in the Synopsis or Bottom-line first.');
     return;
   }
   const sel = window.getSelection();
@@ -323,7 +450,8 @@ function applyFontStyle(styleProp, cssValue) {
   sel.removeAllRanges();
   sel.addRange(newRange);
   savedEditorRange = newRange.cloneRange();
-  els.editor.dispatchEvent(new Event('input', { bubbles: true }));
+  const owner = editorContaining(span);
+  if (owner) owner.el.dispatchEvent(new Event('input', { bubbles: true }));
 }
 
 els.fontNameSelect.addEventListener('change', () => applyFontStyle('fontFamily', els.fontNameSelect.value));
@@ -525,8 +653,9 @@ function setCaretOffset(root, target) {
   sel.addRange(range);
 }
 
-function hasPendingTrackedMarks() {
-  return !!els.editor.querySelector('ins.tc-ins, del.tc-del');
+function hasPendingTrackedMarks(ed) {
+  const marks = (e) => !!e.el.querySelector('ins.tc-ins, del.tc-del');
+  return ed ? marks(ed) : richEditors.some(marks);
 }
 
 function updateTrackButtonsState() {
@@ -540,69 +669,77 @@ function updateTrackButtonsState() {
   els.rejectBtn.disabled = !pending;
 }
 
-function renderTrackedDiff() {
-  if (baselineHtml === null) return;
-  const caret = getCaretOffset(els.editor);
+function renderTrackedDiff(ed) {
+  if (ed.baseline === null) return;
+  const caret = getCaretOffset(ed.el);
   const baselineDoc = document.createElement('div');
-  baselineDoc.innerHTML = baselineHtml;
+  baselineDoc.innerHTML = ed.baseline;
   const a = tokenizeDoc(baselineDoc);
-  const b = tokenizeDoc(els.editor);
+  const b = tokenizeDoc(ed.el);
   const chunks = diffTokens(a, b);
-  els.editor.innerHTML = renderChunks(chunks);
+  ed.el.innerHTML = renderChunks(chunks);
   // Deleted text is shown for reference only; it must not be directly editable
   // (typing "inside" it would otherwise be silently discarded on Accept).
-  els.editor.querySelectorAll('del.tc-del').forEach(d => { d.contentEditable = 'false'; });
-  setCaretOffset(els.editor, caret);
+  ed.el.querySelectorAll('del.tc-del').forEach(d => { d.contentEditable = 'false'; });
+  setCaretOffset(ed.el, caret);
   updateTrackButtonsState();
 }
 
-function acceptAllChanges() {
-  const clone = els.editor.cloneNode(true);
+// HTML of an editor with every tracked change accepted (deletions removed,
+// insertions kept as normal text). Used for accepting and for saving.
+function acceptedHtml(ed) {
+  const clone = ed.el.cloneNode(true);
   clone.querySelectorAll('del.tc-del').forEach(el => el.remove());
   clone.querySelectorAll('ins.tc-ins').forEach(el => el.replaceWith(...el.childNodes));
-  els.editor.innerHTML = clone.innerHTML;
-  if (baselineHtml !== null) baselineHtml = els.editor.innerHTML;
+  return clone.innerHTML;
+}
+
+function acceptAllChanges(ed) {
+  ed.el.innerHTML = acceptedHtml(ed);
+  if (ed.baseline !== null) ed.baseline = ed.el.innerHTML;
   updateTrackButtonsState();
 }
 
-function rejectAllChanges() {
-  if (baselineHtml === null) return;
-  els.editor.innerHTML = baselineHtml;
+function rejectAllChanges(ed) {
+  if (ed.baseline === null) return;
+  ed.el.innerHTML = ed.baseline;
   updateTrackButtonsState();
 }
 
 els.trackChangesToggle.addEventListener('change', () => {
-  clearTimeout(trackDebounceTimer);
-  if (els.trackChangesToggle.checked) {
-    baselineHtml = els.editor.innerHTML;
-  } else {
-    if (hasPendingTrackedMarks()) acceptAllChanges();
-    baselineHtml = null;
-  }
+  richEditors.forEach(ed => {
+    clearTimeout(ed.timer);
+    if (els.trackChangesToggle.checked) {
+      ed.baseline = ed.el.innerHTML;
+    } else {
+      if (hasPendingTrackedMarks(ed)) acceptAllChanges(ed);
+      ed.baseline = null;
+    }
+  });
   updateTrackButtonsState();
 });
 
-// Marks new edits automatically a short pause after typing stops, and
-// immediately if focus leaves the editor (e.g. clicking Save) beforehand.
-els.editor.addEventListener('input', () => {
-  if (baselineHtml === null) return;
-  clearTimeout(trackDebounceTimer);
-  trackDebounceTimer = setTimeout(renderTrackedDiff, TRACK_DEBOUNCE_MS);
-});
-
-els.editor.addEventListener('blur', () => {
-  if (baselineHtml === null) return;
-  clearTimeout(trackDebounceTimer);
-  renderTrackedDiff();
+richEditors.forEach(ed => {
+  // Marks new edits automatically a short pause after typing stops, and
+  // immediately if focus leaves the editor (e.g. clicking Save) beforehand.
+  ed.el.addEventListener('input', () => {
+    if (ed.baseline === null) return;
+    clearTimeout(ed.timer);
+    ed.timer = setTimeout(() => renderTrackedDiff(ed), TRACK_DEBOUNCE_MS);
+  });
+  ed.el.addEventListener('blur', () => {
+    if (ed.baseline === null) return;
+    clearTimeout(ed.timer);
+    renderTrackedDiff(ed);
+  });
 });
 
 els.reviewBtn.addEventListener('click', () => {
-  clearTimeout(trackDebounceTimer);
-  renderTrackedDiff();
+  richEditors.forEach(ed => { clearTimeout(ed.timer); renderTrackedDiff(ed); });
 });
 
-els.acceptBtn.addEventListener('click', acceptAllChanges);
-els.rejectBtn.addEventListener('click', rejectAllChanges);
+els.acceptBtn.addEventListener('click', () => richEditors.forEach(acceptAllChanges));
+els.rejectBtn.addEventListener('click', () => richEditors.forEach(rejectAllChanges));
 
 // ---------- Library (server-backed) ----------
 function formatDate(iso) {
@@ -776,36 +913,69 @@ async function refreshLibrary() {
 }
 
 function resetTrackingState() {
-  clearTimeout(trackDebounceTimer);
+  richEditors.forEach(ed => { clearTimeout(ed.timer); ed.baseline = null; });
   els.trackChangesToggle.checked = false;
-  baselineHtml = null;
   updateTrackButtonsState();
 }
 
-function openDoc(id) {
-  const doc = poemsCache.find(d => d.id === id);
-  if (!doc) return;
+function clearForm() {
+  currentDocId = null;
+  currentPubmedUrl = null;
+  [els.titleInput, els.poemNumberInput, els.referenceInput, els.questionInput, els.pubmedIdInput].forEach(i => { i.value = ''; });
+  [els.allocationSelect, els.fundingSelect, els.studyDesignSelect, els.settingSelect,
+    els.ageGroupSelect, els.supertypeSelect, els.loeSelect].forEach(sel => { sel.value = ''; });
+  els.synopsisEditor.innerHTML = '';
+  els.bottomLineEditor.innerHTML = '';
+  updatePubmedUrlDisplay();
+}
+
+async function openDoc(id) {
+  let doc;
+  try {
+    ({ poem: doc } = await api(`/poems/${id}`));
+  } catch (err) {
+    alert(`Could not open this POEM: ${err.message}`);
+    return;
+  }
+  clearForm();
   currentDocId = doc.id;
-  els.titleInput.value = doc.title;
-  els.poetSelect.value = doc.poet || '';
-  els.pubDateSelect.value = doc.publicationDate || '';
-  els.editor.innerHTML = doc.html;
+  currentPubmedUrl = doc.pubmedUrl || null;
+  els.titleInput.value = doc.title || '';
+  setSelectValue(els.poetSelect, doc.poet);
+  setSelectValue(els.pubDateSelect, doc.publicationDate, formatMonthYear(doc.publicationDate));
+  els.poemNumberInput.value = doc.poemId || '';
+  els.referenceInput.value = doc.reference || '';
+  els.questionInput.value = doc.clinicalQuestion || '';
+  setSelectValue(els.allocationSelect, doc.allocation);
+  setSelectValue(els.fundingSelect, doc.funding);
+  setSelectValue(els.studyDesignSelect, doc.studyDesign);
+  setSelectValue(els.settingSelect, doc.setting);
+  setSelectValue(els.ageGroupSelect, doc.ageGroup);
+  setSelectValue(els.supertypeSelect, doc.supertype);
+  setSelectValue(els.loeSelect, doc.loe);
+  els.pubmedIdInput.value = doc.pubmedId || '';
+  els.synopsisEditor.innerHTML = doc.synopsis || '';
+  els.bottomLineEditor.innerHTML = doc.bottomLine || '';
+  updatePubmedUrlDisplay();
   resetTrackingState();
   els.saveStatus.textContent = '';
   switchTab('edit');
 }
 
 function startNewDocument() {
-  currentDocId = null;
-  els.titleInput.value = '';
-  els.editor.innerHTML = '';
+  clearForm();
   resetTrackingState();
   els.saveStatus.textContent = '';
   applyNewDocumentDefaults();
 }
 
+function formHasContent() {
+  return !!(els.titleInput.value.trim() || els.referenceInput.value.trim() ||
+    els.synopsisEditor.textContent.trim() || els.bottomLineEditor.textContent.trim());
+}
+
 els.newBtn.addEventListener('click', () => {
-  if (els.editor.innerHTML.trim() && !confirm('Start a new POEM? Unsaved changes will be lost.')) return;
+  if (formHasContent() && !confirm('Start a new POEM? Unsaved changes will be lost.')) return;
   startNewDocument();
 });
 
@@ -816,23 +986,49 @@ async function saveCurrentDoc() {
     alert('Please select a POET and a publication date before saving.');
     return false;
   }
+  const title = els.titleInput.value.trim();
+  if (!title) {
+    alert('Please enter a title before saving.');
+    return false;
+  }
 
-  clearTimeout(trackDebounceTimer);
-  if (baselineHtml !== null) renderTrackedDiff();
-  const title = els.titleInput.value.trim() || extractTitleFromEditor() || 'Untitled POEM';
-  const html = els.editor.innerHTML;
-  const body = { title, poet, publicationDate, html };
+  // Any tracked changes still pending are accepted into the saved text.
+  const [synopsisEd, bottomEd] = richEditors;
+  richEditors.forEach(ed => clearTimeout(ed.timer));
+  const hadPending = hasPendingTrackedMarks();
+  const body = {
+    title, poet, publicationDate,
+    reference: els.referenceInput.value,
+    clinicalQuestion: els.questionInput.value,
+    allocation: els.allocationSelect.value,
+    funding: els.fundingSelect.value,
+    studyDesign: els.studyDesignSelect.value,
+    setting: els.settingSelect.value,
+    ageGroup: els.ageGroupSelect.value,
+    supertype: els.supertypeSelect.value,
+    loe: els.loeSelect.value,
+    pubmedId: els.pubmedIdInput.value,
+    synopsis: acceptedHtml(synopsisEd),
+    bottomLine: acceptedHtml(bottomEd)
+  };
 
   try {
+    let saved;
     if (currentDocId) {
-      await api(`/poems/${currentDocId}`, { method: 'PUT', body });
+      ({ poem: saved } = await api(`/poems/${currentDocId}`, { method: 'PUT', body }));
     } else {
-      const { poem } = await api('/poems', { method: 'POST', body });
-      currentDocId = poem.id;
+      ({ poem: saved } = await api('/poems', { method: 'POST', body }));
     }
-    els.titleInput.value = title;
-    els.saveStatus.textContent = 'Saved.';
-    setTimeout(() => { els.saveStatus.textContent = ''; }, 2000);
+    currentDocId = saved.id;
+    currentPubmedUrl = saved.pubmedUrl || null;
+    els.poemNumberInput.value = saved.poemId || '';
+    els.pubmedIdInput.value = saved.pubmedId || '';
+    updatePubmedUrlDisplay();
+    if (hadPending) {
+      richEditors.forEach(acceptAllChanges);
+    }
+    els.saveStatus.textContent = hadPending ? 'Saved (pending tracked changes were accepted).' : 'Saved.';
+    setTimeout(() => { els.saveStatus.textContent = ''; }, 3000);
     await refreshLibrary();
     return true;
   } catch (err) {
