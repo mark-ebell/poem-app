@@ -18,9 +18,12 @@ router.get('/', (req, res) => {
   res.json({ poems: rows.map(toListItem) });
 });
 
-// Must come before '/:id'. ?q=boolean query&whole=1|0
+// How far back to search: 1, 2, 3, 5 or 10 years; anything else means the whole database.
+const parseYears = v => ([1, 2, 3, 5, 10].includes(Number(v)) ? Number(v) : null);
+
+// Must come before '/:id'. ?q=boolean query&whole=1|0&years=1|2|3|5|10|all
 router.get('/search', (req, res) => {
-  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0' });
+  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0', years: parseYears(req.query.years) });
   if (result.error) return res.status(400).json({ error: result.error });
   res.json(result);
 });
@@ -29,11 +32,13 @@ router.get('/search', (req, res) => {
 // 'docx' returns a Word file; 'html' returns a print-ready page (for Save as PDF).
 router.post('/export', async (req, res) => {
   const { q, whole, format } = req.body || {};
-  const result = poemsForExport({ q, whole: whole !== false && whole !== '0' });
+  const years = parseYears((req.body || {}).years);
+  const result = poemsForExport({ q, whole: whole !== false && whole !== '0', years });
   if (result.error) return res.status(400).json({ error: result.error });
 
   const q1 = String(q).replace(/\s+/g, ' ').trim();
-  const description = `POEMs matching: ${q1.length > 100 ? q1.slice(0, 100) + '…' : q1} (${result.poems.length} POEM${result.poems.length === 1 ? '' : 's'})`;
+  const range = years ? `, last ${years === 1 ? 'year' : years + ' years'}` : '';
+  const description = `POEMs matching: ${q1.length > 100 ? q1.slice(0, 100) + '…' : q1} (${result.poems.length} POEM${result.poems.length === 1 ? '' : 's'}${range})`;
   try {
     if (format === 'docx') {
       const buffer = await buildDocx(result.poems, { description });

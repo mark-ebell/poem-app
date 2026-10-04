@@ -43,6 +43,14 @@ function termRegex(term, whole) {
   return new RegExp(whole ? `(?<![\\p{L}\\p{N}])${body}(?![\\p{L}\\p{N}])` : body, 'iu');
 }
 
+// "Search back N years": publications from the current month and the 12*N - 1
+// months before it ('YYYY-MM'), plus anything dated later. null = no limit.
+function cutoffMonth(years, now = new Date()) {
+  if (!years) return null;
+  const d = new Date(now.getFullYear(), now.getMonth() - (years * 12 - 1), 1);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+}
+
 // ---------- Boolean query parsing ----------
 // Words and "quoted phrases" are terms; AND, OR and NOT (capitals) are
 // operators; parentheses group. Terms next to each other mean AND, and NOT
@@ -143,7 +151,7 @@ function excerptOf(synopsisHtml) {
 
 // Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
 // with hits sorted (title matches first, then newest) as { row, titleHit }.
-function runSearch({ q, whole = true }) {
+function runSearch({ q, whole = true, years = null }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -159,10 +167,14 @@ function runSearch({ q, whole = true }) {
   // somewhere. (Phrases are matched exactly below, with flexible whitespace.)
   const longestWord = t => t.split(/\s+/).reduce((a, b) => (b.length > a.length ? b : a), '');
   const required = [...new Set(requiredTerms(tree).map(longestWord))];
-  const where = required.length ? 'WHERE ' + required.map(() => "search_text LIKE ? ESCAPE '\\'").join(' AND ') : '';
+  const conditions = required.map(() => "search_text LIKE ? ESCAPE '\\'");
+  const args = required.map(w => `%${escapeLike(w)}%`);
+  const since = cutoffMonth(years);
+  if (since) { conditions.push('publication_date >= ?'); args.push(since); }
+  const where = conditions.length ? 'WHERE ' + conditions.join(' AND ') : '';
   const rows = db.prepare(`
     SELECT id, poem_id, title, poet, publication_date, synopsis, search_text FROM poems ${where}
-  `).all(...required.map(w => `%${escapeLike(w)}%`));
+  `).all(...args);
 
   const regexCache = new Map();
   const regexFor = t => {
@@ -225,4 +237,4 @@ function poemsForExport(params) {
   return { poems: ids.map(id => byId.get(id)).filter(Boolean) };
 }
 
-module.exports = { buildSearchText, backfillSearchText, searchPoems, poemsForExport, parseQuery, MAX_EXPORT };
+module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, parseQuery, MAX_EXPORT };

@@ -104,6 +104,14 @@
         <h2>Search POEMs</h2>
         <form id="searchForm" class="search-form">
           <input type="search" id="searchInput" placeholder="Enter a word or phrase" autocomplete="off" aria-label="Word or phrase to search for">
+          <select id="searchYears" aria-label="How far back to search">
+            <option value="1">Last 1 year</option>
+            <option value="2">Last 2 years</option>
+            <option value="3">Last 3 years</option>
+            <option value="5">Last 5 years</option>
+            <option value="10">Last 10 years</option>
+            <option value="all" selected>Entire database</option>
+          </select>
           <button type="submit" id="searchBtn">Search</button>
         </form>
         <div class="search-options">
@@ -113,11 +121,8 @@
         <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>. Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
         <p id="searchCount" class="hint"></p>
         <div id="printArea" class="print-area hidden">
-          <button type="button" id="printBtn">Print POEMs</button>
-          <span id="printChoices" class="print-choices hidden">
-            <button type="button" id="printWordBtn">Word document</button>
-            <button type="button" id="printPdfBtn">PDF</button>
-          </span>
+          <button type="button" id="printWordBtn">Print Word doc</button>
+          <button type="button" id="printPdfBtn">Print PDF</button>
           <span id="printStatus" class="hint"></span>
         </div>
         <div id="searchResults"></div>

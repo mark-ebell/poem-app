@@ -7,8 +7,8 @@ const els = {};
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchBtn', 'searchWhole', 'searchExcerpt', 'searchCount', 'searchResults',
-  'printArea', 'printBtn', 'printChoices', 'printWordBtn', 'printPdfBtn', 'printStatus',
+  'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchWhole', 'searchExcerpt', 'searchCount', 'searchResults',
+  'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
   'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
@@ -1248,11 +1248,10 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchBtn.disabled = true;
   els.searchCount.textContent = 'Searching...';
   try {
-    const params = new URLSearchParams({ q, whole: els.searchWhole.checked ? '1' : '0' });
+    const params = new URLSearchParams({ q, whole: els.searchWhole.checked ? '1' : '0', years: els.searchYears.value });
     const data = await api(`/poems/search?${params}`);
     if (seq === searchSeq) {
-      lastQuery = { q, whole: els.searchWhole.checked };
-      els.printChoices.classList.add('hidden');
+      lastQuery = { q, whole: els.searchWhole.checked, years: els.searchYears.value };
       els.printStatus.textContent = '';
       renderSearchResults(data);
     }
@@ -1268,11 +1267,6 @@ els.searchForm.addEventListener('submit', async (e) => {
 });
 
 // ---------- Print POEMs (Word document or PDF) ----------
-els.printBtn.addEventListener('click', () => {
-  els.printChoices.classList.toggle('hidden');
-  els.printStatus.textContent = '';
-});
-
 async function fetchPrintOutput(format) {
   const resp = await fetch('/api/poems/export', {
     method: 'POST',
@@ -1289,7 +1283,7 @@ async function fetchPrintOutput(format) {
 
 async function printAs(format) {
   if (!lastQuery) return;
-  els.printWordBtn.disabled = els.printPdfBtn.disabled = els.printBtn.disabled = true;
+  els.printWordBtn.disabled = els.printPdfBtn.disabled = true;
   els.printStatus.textContent = 'Preparing the POEMs...';
   try {
     const resp = await fetchPrintOutput(format);
@@ -1319,7 +1313,7 @@ async function printAs(format) {
   } catch (err) {
     els.printStatus.textContent = `Could not print: ${err.message}`;
   } finally {
-    els.printWordBtn.disabled = els.printPdfBtn.disabled = els.printBtn.disabled = false;
+    els.printWordBtn.disabled = els.printPdfBtn.disabled = false;
   }
 }
 
