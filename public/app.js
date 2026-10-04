@@ -7,7 +7,7 @@ const els = {};
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchBtn', 'searchWhole', 'searchCount', 'searchResults',
+  'searchForm', 'searchInput', 'searchBtn', 'searchWhole', 'searchExcerpt', 'searchCount', 'searchResults',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
   'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
@@ -1178,7 +1178,9 @@ function highlightInto(parent, text, terms, whole) {
   parent.append(text.slice(last));
 }
 
+let lastSearch = null;
 function renderSearchResults(data) {
+  lastSearch = data;
   els.searchResults.textContent = '';
   els.searchCount.textContent = data.total
     ? `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'} found` +
@@ -1215,10 +1217,10 @@ function renderSearchResults(data) {
     highlightInto(link, doc.title || 'Untitled POEM', data.terms, data.whole);
     link.addEventListener('click', () => openDoc(doc.id));
     titleCell.appendChild(link);
-    if (doc.snippet) {
+    if (els.searchExcerpt.checked && doc.excerpt) {
       const snip = document.createElement('div');
       snip.className = 'search-snippet';
-      highlightInto(snip, doc.snippet, data.terms, data.whole);
+      highlightInto(snip, doc.excerpt, data.terms, data.whole);
       titleCell.appendChild(snip);
     }
     row.append(dateCell, titleCell);
@@ -1239,12 +1241,11 @@ els.searchForm.addEventListener('submit', async (e) => {
     els.searchResults.textContent = '';
     return;
   }
-  const mode = els.tabSearch.querySelector('input[name="searchMode"]:checked').value;
   const seq = ++searchSeq;
   els.searchBtn.disabled = true;
   els.searchCount.textContent = 'Searching...';
   try {
-    const params = new URLSearchParams({ q, mode, whole: els.searchWhole.checked ? '1' : '0' });
+    const params = new URLSearchParams({ q, whole: els.searchWhole.checked ? '1' : '0' });
     const data = await api(`/poems/search?${params}`);
     if (seq === searchSeq) renderSearchResults(data);
   } catch (err) {
@@ -1256,6 +1257,8 @@ els.searchForm.addEventListener('submit', async (e) => {
     els.searchBtn.disabled = false;
   }
 });
+
+els.searchExcerpt.addEventListener('change', () => { if (lastSearch) renderSearchResults(lastSearch); });
 
 // ---------- Administrator: import the historical archive ----------
 els.archiveInput.addEventListener('change', () => {

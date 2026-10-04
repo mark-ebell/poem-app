@@ -17,9 +17,9 @@ router.get('/', (req, res) => {
   res.json({ poems: rows.map(toListItem) });
 });
 
-// Must come before '/:id'. ?q=text&mode=phrase|all&whole=1|0
+// Must come before '/:id'. ?q=boolean query&whole=1|0
 router.get('/search', (req, res) => {
-  const result = searchPoems({ q: req.query.q, mode: req.query.mode === 'all' ? 'all' : 'phrase', whole: req.query.whole !== '0' });
+  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0' });
   if (result.error) return res.status(400).json({ error: result.error });
   res.json(result);
 });

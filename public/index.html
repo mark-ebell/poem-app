@@ -107,11 +107,10 @@
           <button type="submit" id="searchBtn">Search</button>
         </form>
         <div class="search-options">
-          <label class="inline-check"><input type="radio" name="searchMode" value="phrase" checked> Exact phrase</label>
-          <label class="inline-check"><input type="radio" name="searchMode" value="all"> All of these words</label>
           <label class="inline-check"><input type="checkbox" id="searchWhole" checked> Whole words only</label>
+          <label class="inline-check"><input type="checkbox" id="searchExcerpt"> Show the first 50 words of each synopsis</label>
         </div>
-        <p class="hint">Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
+        <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>. Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
         <p id="searchCount" class="hint"></p>
         <div id="searchResults"></div>
       </section>

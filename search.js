@@ -31,35 +31,153 @@ function backfillSearchText() {
 }
 
 const MAX_RESULTS = 300;
-const MAX_TERMS = 8;
+const MAX_QUERY = 300;
+const EXCERPT_WORDS = 50;
 
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const escapeLike = s => s.replace(/[\\%_]/g, '\\$&');
 
+// A word or phrase; spaces inside it match any run of whitespace.
 function termRegex(term, whole) {
-  const body = escapeRegex(term);
+  const body = term.split(/\s+/).map(escapeRegex).join('\\s+');
   return new RegExp(whole ? `(?<![\\p{L}\\p{N}])${body}(?![\\p{L}\\p{N}])` : body, 'iu');
 }
 
-// mode: 'phrase' (the whole input, exactly as typed) or 'all' (every word, any order).
-function searchPoems({ q, mode = 'phrase', whole = true }) {
-  const text = String(q || '').replace(/\s+/g, ' ').trim().slice(0, 200);
+// ---------- Boolean query parsing ----------
+// Words and "quoted phrases" are terms; AND, OR and NOT (capitals) are
+// operators; parentheses group. Terms next to each other mean AND, and NOT
+// binds tighter than AND, which binds tighter than OR.
+class QueryError extends Error {}
+
+function tokenize(input) {
+  const tokens = [];
+  const re = /\s*(?:(\()|(\))|"([^"]*)(?:"|$)|([^\s()"]+))/gy;
+  let m;
+  while (re.lastIndex < input.length && (m = re.exec(input)) !== null) {
+    if (m[1]) tokens.push({ type: '(' });
+    else if (m[2]) tokens.push({ type: ')' });
+    else if (m[3] !== undefined) {
+      const phrase = m[3].replace(/\s+/g, ' ').trim();
+      if (phrase) tokens.push({ type: 'term', value: phrase });
+    } else if (m[4] === 'AND' || m[4] === 'OR' || m[4] === 'NOT') tokens.push({ type: m[4] });
+    else if (m[4]) tokens.push({ type: 'term', value: m[4] });
+  }
+  return tokens;
+}
+
+function parseQuery(input) {
+  const tokens = tokenize(input);
+  let pos = 0;
+  const peek = () => (pos < tokens.length ? tokens[pos].type : null);
+
+  function parseOr() {
+    const kids = [parseAnd()];
+    while (peek() === 'OR') { pos++; kids.push(parseAnd()); }
+    return kids.length === 1 ? kids[0] : { op: 'or', kids };
+  }
+  function parseAnd() {
+    const kids = [parseUnary()];
+    for (;;) {
+      if (peek() === 'AND') { pos++; kids.push(parseUnary()); continue; }
+      if (peek() === 'term' || peek() === 'NOT' || peek() === '(') { kids.push(parseUnary()); continue; }
+      break;
+    }
+    return kids.length === 1 ? kids[0] : { op: 'and', kids };
+  }
+  function parseUnary() {
+    if (peek() === 'NOT') { pos++; return { op: 'not', kid: parseUnary() }; }
+    return parsePrimary();
+  }
+  function parsePrimary() {
+    const t = tokens[pos];
+    if (!t) throw new QueryError('The search ends with an operator or has nothing after an opening bracket.');
+    if (t.type === 'term') { pos++; return { op: 'term', value: t.value }; }
+    if (t.type === '(') {
+      pos++;
+      const inner = parseOr();
+      if (peek() !== ')') throw new QueryError('A bracket was opened but not closed.');
+      pos++;
+      return inner;
+    }
+    throw new QueryError(`${t.type === ')' ? 'A closing bracket' : t.type} needs a word or phrase to work on. Put a phrase in "quotes" to search for the word itself.`);
+  }
+
+  if (!tokens.length) throw new QueryError('Enter a word or phrase to search for.');
+  const tree = parseOr();
+  if (pos < tokens.length) throw new QueryError('There is a closing bracket without a matching opening bracket.');
+  return tree;
+}
+
+// Terms every matching POEM must contain (used to narrow the rows read).
+function requiredTerms(node) {
+  if (node.op === 'term') return [node.value];
+  if (node.op === 'and') return node.kids.flatMap(requiredTerms);
+  return [];
+}
+
+// Terms to highlight: everything not under a NOT.
+function positiveTerms(node, negated = false, out = []) {
+  if (node.op === 'term') { if (!negated) out.push(node.value); }
+  else if (node.op === 'not') positiveTerms(node.kid, !negated, out);
+  else node.kids.forEach(k => positiveTerms(k, negated, out));
+  return out;
+}
+
+function termCount(node) {
+  return node.op === 'term' ? 1 : node.op === 'not' ? termCount(node.kid) : node.kids.reduce((n, k) => n + termCount(k), 0);
+}
+
+function evaluate(node, test) {
+  switch (node.op) {
+    case 'term': return test(node.value);
+    case 'not': return !evaluate(node.kid, test);
+    case 'and': return node.kids.every(k => evaluate(k, test));
+    default: return node.kids.some(k => evaluate(k, test));
+  }
+}
+
+function excerptOf(synopsisHtml) {
+  const words = stripLiteralTags(htmlToText(synopsisHtml)).split(/\s+/).filter(Boolean);
+  return words.slice(0, EXCERPT_WORDS).join(' ') + (words.length > EXCERPT_WORDS ? '…' : '');
+}
+
+function searchPoems({ q, whole = true }) {
+  const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
+  if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
 
-  const terms = mode === 'all'
-    ? [...new Set(text.split(' ').filter(Boolean))].slice(0, MAX_TERMS)
-    : [text];
+  let tree;
+  try { tree = parseQuery(text); } catch (err) {
+    if (err instanceof QueryError) return { error: err.message };
+    throw err;
+  }
+  if (termCount(tree) > 20) return { error: 'Please use no more than 20 words or phrases.' };
 
-  const where = terms.map(() => "search_text LIKE ? ESCAPE '\\'").join(' AND ');
+  // Narrow the rows read: each required term's longest word must appear
+  // somewhere. (Phrases are matched exactly below, with flexible whitespace.)
+  const longestWord = t => t.split(/\s+/).reduce((a, b) => (b.length > a.length ? b : a), '');
+  const required = [...new Set(requiredTerms(tree).map(longestWord))];
+  const where = required.length ? 'WHERE ' + required.map(() => "search_text LIKE ? ESCAPE '\\'").join(' AND ') : '';
   const rows = db.prepare(`
-    SELECT id, poem_id, title, poet, publication_date, search_text FROM poems WHERE ${where}
-  `).all(...terms.map(t => `%${escapeLike(t)}%`));
+    SELECT id, poem_id, title, poet, publication_date, synopsis, search_text FROM poems ${where}
+  `).all(...required.map(w => `%${escapeLike(w)}%`));
 
-  const regexes = terms.map(t => termRegex(t, whole));
+  const regexCache = new Map();
+  const regexFor = t => {
+    if (!regexCache.has(t)) regexCache.set(t, termRegex(t, whole));
+    return regexCache.get(t);
+  };
+
+  const highlightTerms = [...new Set(positiveTerms(tree))];
   const hits = [];
   for (const r of rows) {
-    if (!regexes.every(re => re.test(r.search_text))) continue;
-    const titleHit = regexes.every(re => re.test(r.title || ''));
+    const memo = new Map();
+    const test = t => {
+      if (!memo.has(t)) memo.set(t, regexFor(t).test(r.search_text));
+      return memo.get(t);
+    };
+    if (!evaluate(tree, test)) continue;
+    const titleHit = highlightTerms.length > 0 && highlightTerms.every(t => regexFor(t).test(r.title || ''));
     hits.push({ row: r, titleHit });
   }
 
@@ -74,27 +192,9 @@ function searchPoems({ q, mode = 'phrase', whole = true }) {
     title: row.title,
     poet: row.poet,
     publicationDate: row.publication_date,
-    snippet: snippetFor(row.search_text, regexes)
+    excerpt: excerptOf(row.synopsis)
   }));
-  return { total: hits.length, truncated: hits.length > MAX_RESULTS, terms, whole: !!whole, poems };
+  return { total: hits.length, truncated: hits.length > MAX_RESULTS, terms: highlightTerms, whole: !!whole, poems };
 }
 
-// A short passage around the first match, taken from the content after the title.
-function snippetFor(searchText, regexes) {
-  const nl = searchText.indexOf('\n');
-  const body = nl === -1 ? '' : searchText.slice(nl + 1);
-  let best = null;
-  for (const re of regexes) {
-    const m = re.exec(body);
-    if (m && (!best || m.index < best.index)) best = { index: m.index, length: m[0].length };
-  }
-  if (!best) return '';
-  const start = Math.max(0, best.index - 90);
-  const end = Math.min(body.length, best.index + best.length + 150);
-  let s = body.slice(start, end).replace(/\s+/g, ' ').trim();
-  if (start > 0) s = '…' + s;
-  if (end < body.length) s += '…';
-  return s;
-}
-
-module.exports = { buildSearchText, backfillSearchText, searchPoems };
+module.exports = { buildSearchText, backfillSearchText, searchPoems, parseQuery };
