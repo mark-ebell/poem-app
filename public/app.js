@@ -1195,7 +1195,7 @@ function renderSearchResults(data) {
   const table = document.createElement('table');
   table.className = 'library-table search-table';
   const headRow = document.createElement('tr');
-  ['Publication date', 'POET', 'Title'].forEach(label => {
+  ['Publication date', 'Title'].forEach(label => {
     const th = document.createElement('th');
     th.textContent = label;
     headRow.appendChild(th);
@@ -1209,8 +1209,6 @@ function renderSearchResults(data) {
     const row = document.createElement('tr');
     const dateCell = document.createElement('td');
     dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
-    const poetCell = document.createElement('td');
-    poetCell.textContent = doc.poet || '—';
     const titleCell = document.createElement('td');
     const link = document.createElement('span');
     link.className = 'library-title-link';
@@ -1223,7 +1221,7 @@ function renderSearchResults(data) {
       highlightInto(snip, doc.snippet, data.terms, data.whole);
       titleCell.appendChild(snip);
     }
-    row.append(dateCell, poetCell, titleCell);
+    row.append(dateCell, titleCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);
