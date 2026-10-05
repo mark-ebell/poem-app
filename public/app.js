@@ -11,8 +11,7 @@ const els = {};
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
-  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseAgeHint', 'browseCount', 'browseResults',
-  'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
+  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseCount', 'browseResults',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
@@ -113,7 +112,7 @@ function switchTab(name) {
   for (const key of Object.keys(panels)) {
     panels[key].classList.toggle('hidden', key !== name);
     buttons[key].classList.toggle('active', key === name);
-  }
+  }  window.scrollTo(0, 0); // show the tab headings, not wherever the previous tab was scrolled to
 }
 
 els.tabBtnUpload.addEventListener('click', () => switchTab('upload'));
@@ -1125,8 +1124,7 @@ function updateBrowseFilters() {
 function renderBrowse() {
   const year = els.browseYear.value, month = els.browseMonth.value, author = els.browseAuthor.value;
   const age = els.browseAge.value;
-  els.browseAgeHint.classList.toggle('hidden', age !== 'none');
-  const ageMatches = p => !age || (age === 'none' ? ![1, 2, 3].includes(p.ageGroup) : String(p.ageGroup) === age);
+  const ageMatches = p => !age || String(p.ageGroup) === age;
   const matches = poemsCache.filter(p => {
     const d = p.publicationDate || '';
     return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || p.poet === author) && ageMatches(p);
@@ -1459,38 +1457,9 @@ els.printPdfBtn.addEventListener('click', () => printAs('html'));
 
 els.searchExcerpt.addEventListener('change', () => { if (lastSearch) renderSearchResults(lastSearch); });
 
-// ---------- Administrator: import the historical archive ----------
-els.archiveInput.addEventListener('change', () => {
-  els.archiveImportBtn.disabled = !els.archiveInput.files.length;
-  els.archiveStatus.textContent = '';
-});
-
-els.archiveImportBtn.addEventListener('click', async () => {
-  const file = els.archiveInput.files[0];
-  if (!file) return;
-  els.archiveImportBtn.disabled = true;
-  els.archiveStatus.textContent = 'Importing... this can take a minute.';
-  try {
-    const resp = await fetch('/api/admin/import-poems', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/gzip' },
-      body: file
-    });
-    const data = await resp.json().catch(() => ({}));
-    if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
-    els.archiveStatus.textContent = `Done: ${data.added.toLocaleString()} added, ${data.alreadyPresent.toLocaleString()} already present.`;
-    els.archiveInput.value = '';
-    await refreshLibrary();
-  } catch (err) {
-    els.archiveStatus.textContent = `Error: ${err.message}`;
-    els.archiveImportBtn.disabled = false;
-  }
-});
-
 // ---------- init ----------
 async function init(user) {
   currentUser = user;
-  els.adminImport.classList.toggle('hidden', user.username !== 'ebell');
   showApp(user);
   applyNewDocumentDefaults();
   await refreshLibrary();

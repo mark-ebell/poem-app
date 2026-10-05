@@ -108,18 +108,9 @@ The **Cochrane reviews** content area (listed just after Practice guidelines) se
 
 The PubMed search string is built in `pubmed.js` from the strategy document ("Generating a search strategy for PubMed…"): `(your terms) AND (hasabstract[text] AND humans[MH] AND English[lang])`, then the age-group, content-area and journal clauses. Three typing slips in that document were corrected there (see the comments): an unmatched bracket in the Systematic Reviews clause, "prognosos" and a misplaced bracket in the Prognosis clause, and an empty `""[jour]` journal entry (plus a missing `[jour]` tag on BMC Fam Pract). The search uses NCBI's free E-utilities; set `NCBI_API_KEY` (optional) for a higher request limit.
 
-### Browsing the archive, and loading it into the deployed app
+### Browsing the POEMs
 
-The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group (including "Not specified", to find POEMs that still need an age group: open one, choose its Age group on the Edit tab and save). It opens on the most recent month. The **Recently added POEMs** list on the first tab shows only POEMs written in the app.
-
-The importer above fills your *local* database. The deployed app (Render) has its own database, so the archive is copied there with the administrator-only upload on the Browse tab (shown only when signed in as `ebell`):
-
-```bash
-node fix-mojibake.js      # one-time: repairs garbled characters such as "â€™" in imported text
-node export-archive.js    # writes data/poems-archive.json.gz (imported POEMs only)
-```
-
-Then sign in to the deployed app as `ebell`, open **Browse**, expand **Administrator: import the POEMs archive**, choose `poems-archive.json.gz` and click **Import**. It is safe to repeat (POEMs already present are skipped, POEMs written in the app are never changed), and the server saves a copy of its database to `backups/` on the data disk first.
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group. It opens on the most recent month. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
 
 ## Deploying to Render (making it reachable on the internet)
 

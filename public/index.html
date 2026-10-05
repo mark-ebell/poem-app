@@ -96,22 +96,12 @@
               <option value="1">Adults</option>
               <option value="2">Children</option>
               <option value="3">Both adults and children</option>
-              <option value="none">Not specified</option>
             </select>
           </label>
         </div>
-        <p id="browseAgeHint" class="hint hidden">To see every POEM with no age group, set Year and Month to "All". Open a POEM, choose its Age group on the Edit tab, and Save; it then drops out of this list.</p>
         <p id="browseCount" class="hint"></p>
         <div id="browseResults"></div>
       </section>
-
-      <details id="adminImport" class="card hidden">
-        <summary>Administrator: import the POEMs archive</summary>
-        <p class="hint">Choose <code>poems-archive.json.gz</code> (created by <code>node export-archive.js</code>). POEMs already present are skipped, and POEMs written in the app are never changed.</p>
-        <input type="file" id="archiveInput" accept=".gz,application/gzip">
-        <button type="button" id="archiveImportBtn" disabled>Import</button>
-        <span id="archiveStatus" class="hint"></span>
-      </details>
     </div>
 
     <div id="tabSearch" class="tab-panel hidden">
