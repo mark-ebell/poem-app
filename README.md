@@ -112,6 +112,14 @@ The PubMed search string is built in `pubmed.js` from the strategy document ("Ge
 
 The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group. It opens on the most recent month. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
 
+### Importing a monthly batch from Word
+
+Signed in as `ebell`, the **Browse** tab has a panel, **Administrator: import a monthly batch of POEMs from Word**. Choose the month's `.docx` file (a name such as `POEMs_2025_April_Final.docx` sets the month and year automatically; otherwise pick them), then **Read file**. The app lists the POEMs it found, showing the author, the PubMed ID, the age group and supertype, and any notes (for example "PubMed ID not found" or "no supertype"). POEMs already in the repository (same POEM ID, or same title in that month) are marked "Will be skipped". Nothing is saved until you click **Import**; a copy of the database is saved to `backups/` first.
+
+Each POEM in the file starts with a `Title:` line. Recognised labels (any capitalisation): Title; Reference (or an unlabelled line right after the title); Question or Clinical question; Bottom line; Allocation; Funding or Funding Source; Design or Study design (a trailing `; LOE: 1b` is split off); Setting or Population and setting; Age group (Adults / Children / Both, or 1 / 2 / 3); Supertype (the code, or its name); Level of evidence; Synopsis; PubMed ID; POEM ID; and the author as `POET: name` or as initials in brackets such as `(ME)`. Missing PubMed IDs are looked up at PubMed by matching the citation (found IDs are checked against PubMed's title); a missing POEM ID gets a new random 6-digit number. Imported POEMs appear in the Recently added list and on Browse.
+
+Author initials are turned into names in `poem-model.js` (ME Ebell, HB Barry, AS Shaughnessy, DS Slawson, LS Speer, NS Shrikant); the Browse author menu lists those POETs (plus Rowland and Rayala once they have POEMs) and puts everyone else under "Other authors".
+
 ## Deploying to Render (making it reachable on the internet)
 
 This repo includes a `render.yaml` file that pre-fills most of the setup. The parts only you can do (they require your own accounts):

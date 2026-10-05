@@ -11,6 +11,7 @@ const els = {};
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
+  'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseCount', 'browseResults',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
@@ -1100,12 +1101,20 @@ function setOptions(select, options, keep) {
 // Rebuilds the Year / Month / Author choices from what is in the repository.
 // On the first load it selects the most recent month; afterwards it keeps
 // whatever the user had chosen.
+const MAIN_AUTHORS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant'];
+const NEWER_AUTHORS = ['Rowland', 'Rayala'];
+const NAMED_AUTHORS = new Set([...MAIN_AUTHORS, ...NEWER_AUTHORS]);
+const OTHER_AUTHORS = '__other__';
 let browseInitialized = false;
 function updateBrowseFilters() {
   const dated = poemsCache.filter(p => /^\d{4}-\d{2}$/.test(p.publicationDate || ''));
   const years = [...new Set(dated.map(p => p.publicationDate.slice(0, 4)))].sort().reverse();
-  const authors = [...new Set(poemsCache.map(p => p.poet).filter(Boolean))]
+  // The author choices are the named POETs (not every set of initials in the archive); anyone
+  // else is under "Other authors". Newer POETs are listed once they have a POEM.
+  const present = new Set(poemsCache.map(p => p.poet));
+  const authors = [...MAIN_AUTHORS, ...NEWER_AUTHORS.filter(a => present.has(a))]
     .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+  if (poemsCache.some(p => p.poet && !NAMED_AUTHORS.has(p.poet))) authors.push(OTHER_AUTHORS);
 
   let year = els.browseYear.value, month = els.browseMonth.value;
   if (!browseInitialized && dated.length) {
@@ -1117,7 +1126,7 @@ function updateBrowseFilters() {
 
   setOptions(els.browseYear, [[ALL, 'All years'], ...years.map(y => [y, y])], year);
   setOptions(els.browseMonth, [[ALL, 'All months'], ...MONTH_NAMES.map((n, i) => [String(i + 1).padStart(2, '0'), n])], month);
-  setOptions(els.browseAuthor, [[ALL, 'All authors'], ...authors.map(a => [a, a])], els.browseAuthor.value);
+  setOptions(els.browseAuthor, [[ALL, 'All authors'], ...authors.map(a => [a, a === OTHER_AUTHORS ? 'Other authors' : a])], els.browseAuthor.value);
   renderBrowse();
 }
 
@@ -1127,7 +1136,7 @@ function renderBrowse() {
   const ageMatches = p => !age || String(p.ageGroup) === age;
   const matches = poemsCache.filter(p => {
     const d = p.publicationDate || '';
-    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || p.poet === author) && ageMatches(p);
+    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || (author === OTHER_AUTHORS ? !NAMED_AUTHORS.has(p.poet) : p.poet === author)) && ageMatches(p);
   }).sort((a, b) =>
     (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
     (a.poet || '').localeCompare(b.poet || '') ||
@@ -1457,9 +1466,136 @@ els.printPdfBtn.addEventListener('click', () => printAs('html'));
 
 els.searchExcerpt.addEventListener('change', () => { if (lastSearch) renderSearchResults(lastSearch); });
 
+// ---------- Administrator: import a monthly batch from a Word file ----------
+(function setUpWordImport() {
+  const now = new Date();
+  setOptions(els.importMonth, MONTH_NAMES.map((n, i) => [String(i + 1).padStart(2, '0'), n]), String(now.getMonth() + 1).padStart(2, '0'));
+  const years = [now.getFullYear() - 1, now.getFullYear(), now.getFullYear() + 1].map(y => [String(y), String(y)]);
+  setOptions(els.importYear, years, String(now.getFullYear()));
+})();
+
+let pendingImport = null; // records from the last "Read file", waiting for the Import click
+
+els.wordFile.addEventListener('change', () => {
+  const file = els.wordFile.files[0];
+  els.wordReadBtn.disabled = !file;
+  els.wordStatus.textContent = '';
+  els.wordPreview.textContent = '';
+  pendingImport = null;
+  if (!file) return;
+  // A name like "POEMs_2025_April_Final.docx" sets the month and year.
+  const year = /(20\d{2})/.exec(file.name);
+  const month = MONTH_NAMES.findIndex(n => new RegExp(n.slice(0, 3), 'i').test(file.name));
+  if (year && [...els.importYear.options].some(o => o.value === year[1])) els.importYear.value = year[1];
+  if (month >= 0) els.importMonth.value = String(month + 1).padStart(2, '0');
+});
+
+function td(text, className) {
+  const cell = document.createElement('td');
+  cell.textContent = text;
+  if (className) cell.className = className;
+  return cell;
+}
+
+function renderImportPreview(items) {
+  els.wordPreview.textContent = '';
+  const importable = items.filter(i => !i.duplicate);
+
+  const table = document.createElement('table');
+  table.className = 'library-table';
+  const head = document.createElement('tr');
+  ['Title', 'Author', 'PubMed ID', 'Age group', 'Supertype', 'Notes'].forEach(label => {
+    const th = document.createElement('th');
+    th.textContent = label;
+    head.appendChild(th);
+  });
+  const thead = document.createElement('thead');
+  thead.appendChild(head);
+  table.appendChild(thead);
+  const tbody = document.createElement('tbody');
+  for (const { record: r, notes, duplicate } of items) {
+    const row = document.createElement('tr');
+    const issues = duplicate ? [`Will be skipped: ${duplicate}`] : notes;
+    row.append(
+      td(r.title), td(r.poet || '—'), td(r.pubmed_id || '—'),
+      td({ 1: 'Adults', 2: 'Children', 3: 'Both' }[r.age_group] || '—'), td(r.supertype || '—'),
+      td(issues.join('; '), duplicate ? 'import-skip' : (issues.length ? 'import-note' : ''))
+    );
+    tbody.appendChild(row);
+  }
+  table.appendChild(tbody);
+  const wrap = document.createElement('div');
+  wrap.className = 'library-table-wrap';
+  wrap.appendChild(table);
+  els.wordPreview.appendChild(wrap);
+
+  const bar = document.createElement('div');
+  bar.className = 'evidence-actions';
+  const go = document.createElement('button');
+  go.type = 'button';
+  go.textContent = importable.length ? `Import ${importable.length} POEM${importable.length === 1 ? '' : 's'}` : 'Nothing to import';
+  go.disabled = !importable.length;
+  const cancel = document.createElement('button');
+  cancel.type = 'button';
+  cancel.className = 'secondary';
+  cancel.textContent = 'Cancel';
+  const status = document.createElement('span');
+  status.className = 'hint';
+  bar.append(go, cancel, status);
+  els.wordPreview.appendChild(bar);
+
+  cancel.addEventListener('click', () => { els.wordPreview.textContent = ''; pendingImport = null; els.wordStatus.textContent = ''; });
+  go.addEventListener('click', async () => {
+    go.disabled = cancel.disabled = true;
+    status.textContent = 'Importing...';
+    try {
+      const data = await api('/admin/import-word/commit', { method: 'POST', body: { records: importable.map(i => i.record) } });
+      const skipped = data.skipped.length ? ` ${data.skipped.length} skipped.` : '';
+      els.wordPreview.textContent = '';
+      els.wordFile.value = '';
+      els.wordReadBtn.disabled = true;
+      pendingImport = null;
+      els.wordStatus.textContent = `Added ${data.added} POEM${data.added === 1 ? '' : 's'}.${skipped}`;
+      await refreshLibrary();
+    } catch (err) {
+      status.textContent = `Error: ${err.message}`;
+      go.disabled = cancel.disabled = false;
+    }
+  });
+}
+
+els.wordReadBtn.addEventListener('click', async () => {
+  const file = els.wordFile.files[0];
+  if (!file) return;
+  els.wordReadBtn.disabled = true;
+  els.wordPreview.textContent = '';
+  els.wordStatus.textContent = 'Reading the file and looking up PubMed IDs... this can take a minute.';
+  try {
+    const month = `${els.importYear.value}-${els.importMonth.value}`;
+    const resp = await fetch(`/api/admin/import-word/preview?month=${month}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/octet-stream' },
+      body: file
+    });
+    if (resp.status === 401) { showLogin(); throw new Error('Not logged in.'); }
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+    pendingImport = data.items;
+    const dups = data.items.filter(i => i.duplicate).length;
+    els.wordStatus.textContent = `${data.items.length} POEM${data.items.length === 1 ? '' : 's'} found for ${MONTH_NAMES[Number(month.slice(5)) - 1]} ${month.slice(0, 4)}` +
+      (dups ? `; ${dups} already in the repository` : '') + '. Check the list, then import.';
+    renderImportPreview(data.items);
+  } catch (err) {
+    els.wordStatus.textContent = `Error: ${err.message}`;
+  } finally {
+    els.wordReadBtn.disabled = !els.wordFile.files.length;
+  }
+});
+
 // ---------- init ----------
 async function init(user) {
   currentUser = user;
+  els.wordImport.classList.toggle('hidden', user.username !== 'ebell');
   showApp(user);
   applyNewDocumentDefaults();
   await refreshLibrary();

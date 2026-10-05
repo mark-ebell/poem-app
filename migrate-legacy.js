@@ -2,7 +2,7 @@
 // (a single HTML blob in legacy_html) into the separate columns. Safe to run on
 // every start: it only touches rows that have legacy_html but no reference yet.
 const db = require('./db');
-const { parseLegacyHtml, pubmedUrlFor, generatePoemId, INITIALS_BY_POET } = require('./poem-model');
+const { parseLegacyHtml, pubmedUrlFor, generatePoemId, INITIALS_BY_POET, POET_BY_INITIALS } = require('./poem-model');
 
 function migrateLegacyPoems() {
   const rows = db.prepare(`
@@ -51,4 +51,15 @@ function migrateLegacyPoems() {
   return migrated;
 }
 
-module.exports = { migrateLegacyPoems };
+// Archive rows store older authors as initials. Once initials are mapped to a name
+// (see POET_BY_INITIALS), relabel those rows; safe to run on every start.
+function remapAuthorInitials() {
+  const update = db.prepare('UPDATE poems SET poet = ? WHERE poet = ? AND poet = poet_initials');
+  let changed = 0;
+  db.transaction(() => {
+    for (const [initials, name] of Object.entries(POET_BY_INITIALS)) changed += update.run(name, initials).changes;
+  })();
+  return changed;
+}
+
+module.exports = { migrateLegacyPoems, remapAuthorInitials };

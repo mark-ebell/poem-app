@@ -440,3 +440,11 @@ body.modal-open { overflow: hidden; }
 #tabEdit h2, #tabEdit label { font-weight: bold; }
 #tabEdit label > input, #tabEdit label > select, #tabEdit label > textarea, #tabEdit label > span,
 #tabEdit .toolbar label, #tabEdit .toolbar .hint { font-weight: normal; }
+
+/* --- Word batch import --- */
+#wordImport summary { cursor: pointer; font-weight: bold; }
+#wordImport.hidden { display: none; }
+.import-skip { color: #b91c1c; }
+.import-note { color: #92400e; }
+button.secondary { background: #eef1f5; color: var(--text); }
+button.secondary:hover:not(:disabled) { background: #e2e6ec; }

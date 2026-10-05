@@ -7,7 +7,7 @@ const SqliteStore = require('better-sqlite3-session-store')(session);
 
 const db = require('./db');
 const { seedDefaultUsers } = require('./seed-users');
-const { migrateLegacyPoems } = require('./migrate-legacy');
+const { migrateLegacyPoems, remapAuthorInitials } = require('./migrate-legacy');
 const { router: authRouter } = require('./auth');
 const poemsRouter = require('./routes/poems');
 const generateRouter = require('./routes/generate');
@@ -22,6 +22,8 @@ if (!process.env.ANTHROPIC_API_KEY) {
 
 const migratedPoems = migrateLegacyPoems();
 if (migratedPoems) console.log(`Converted ${migratedPoems} saved POEM(s) to separate database fields.`);
+const remappedAuthors = remapAuthorInitials();
+if (remappedAuthors) console.log(`Relabelled ${remappedAuthors} POEM(s) from author initials to names.`);
 const indexedPoems = require('./search').backfillSearchText();
 if (indexedPoems) console.log(`Built the search index for ${indexedPoems} POEM(s).`);
 

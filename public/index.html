@@ -102,6 +102,27 @@
         <p id="browseCount" class="hint"></p>
         <div id="browseResults"></div>
       </section>
+
+      <details id="wordImport" class="card hidden">
+        <summary>Administrator: import a monthly batch of POEMs from Word</summary>
+        <p class="hint">Choose the month's Word file and the month it will be published. Each POEM should start with a "Title:" line. Nothing is saved until you review the list that appears and click Import. Missing PubMed IDs are looked up at PubMed.</p>
+        <div class="field-row evidence-fields">
+          <label>Word file
+            <input type="file" id="wordFile" accept=".docx">
+          </label>
+          <label>Publication month
+            <select id="importMonth"></select>
+          </label>
+          <label>Year
+            <select id="importYear"></select>
+          </label>
+        </div>
+        <div class="evidence-actions">
+          <button type="button" id="wordReadBtn" disabled>Read file</button>
+          <span id="wordStatus" class="hint"></span>
+        </div>
+        <div id="wordPreview"></div>
+      </details>
     </div>
 
     <div id="tabSearch" class="tab-panel hidden">
@@ -222,6 +243,7 @@
               <option value="Shaughnessy">Shaughnessy</option>
               <option value="Slawson">Slawson</option>
               <option value="Speer">Speer</option>
+              <option value="Shrikant">Shrikant</option>
               <option value="Rowland">Rowland</option>
               <option value="Rayala">Rayala</option>
             </select>

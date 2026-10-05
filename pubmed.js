@@ -136,6 +136,20 @@ async function eutils(endpoint, params, attempt = 1) {
   return resp.json();
 }
 
+// Matches a citation to a PubMed ID; returns the ID or null.
+async function ecitmatch(journal, year, volume, page, author) {
+  const params = new URLSearchParams({
+    db: 'pubmed', retmode: 'xml', tool: 'inforetriever',
+    bdata: `${journal}|${year}|${volume}|${page}|${author}|key|`
+  });
+  if (process.env.NCBI_API_KEY) params.set('api_key', process.env.NCBI_API_KEY);
+  const resp = await throttled(() => fetch(`${EUTILS}ecitmatch.cgi?${params}`, { signal: AbortSignal.timeout(30000) }));
+  if (!resp.ok) throw new Error(`PubMed returned an error (${resp.status}).`);
+  const parts = (await resp.text()).trim().split('|');
+  const id = parts[parts.length - 1].trim();
+  return /^\d+$/.test(id) ? id : null;
+}
+
 // Returns { count, ids } for the newest MAX_PER_CATEGORY results. `sinceMonth` is 'YYYY-MM' or null.
 async function searchPubMed(term, sinceMonth) {
   const params = { db: 'pubmed', term, retmax: String(MAX_PER_CATEGORY), sort: 'pub_date' };
@@ -205,5 +219,5 @@ const pubmedSearchUrl = term => `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeU
 
 module.exports = {
   AGE_GROUPS, CONTENT_AREAS, HIGH_YIELD_JOURNALS, MAX_PER_CATEGORY,
-  buildQuery, searchPubMed, fetchArticles, amaRuns, pubmedUrl, pmcUrl, pubmedSearchUrl, findBy
+  buildQuery, searchPubMed, fetchArticles, eutils, ecitmatch, amaRuns, pubmedUrl, pmcUrl, pubmedSearchUrl, findBy
 };
