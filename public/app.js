@@ -8,6 +8,7 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
+  'evidenceBtn', 'evidencePanel', 'evidenceAge', 'evidenceContent', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
@@ -1318,6 +1319,54 @@ els.searchForm.addEventListener('submit', async (e) => {
     }
   } finally {
     els.searchBtn.disabled = false;
+  }
+});
+
+// ---------- Evidence Summary ----------
+els.evidenceBtn.addEventListener('click', () => {
+  const open = els.evidencePanel.classList.toggle('hidden') === false;
+  els.evidenceBtn.setAttribute('aria-expanded', String(open));
+});
+
+els.evidenceGenerateBtn.addEventListener('click', async () => {
+  const q = els.searchInput.value.trim();
+  if (q.length < 2) {
+    els.evidenceStatus.textContent = 'Enter the topic in the search box first.';
+    els.searchInput.focus();
+    return;
+  }
+  els.evidenceGenerateBtn.disabled = true;
+  els.evidenceStatus.textContent = 'Searching the POEMs and PubMed... this can take up to a minute.';
+  try {
+    const resp = await fetch('/api/evidence/summary', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        q,
+        years: els.searchYears.value,
+        age: els.evidenceAge.value,
+        content: els.evidenceContent.value,
+        journals: els.evidenceJournals.checked
+      })
+    });
+    if (resp.status === 401) { showLogin(); throw new Error('Not logged in.'); }
+    if (!resp.ok) {
+      const data = await resp.json().catch(() => ({}));
+      throw new Error(data.error || `Request failed (${resp.status}).`);
+    }
+    const url = URL.createObjectURL(await resp.blob());
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `Evidence Summary ${new Date().toISOString().slice(0, 10)}.docx`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+    els.evidenceStatus.textContent = 'The Evidence Summary was downloaded.';
+  } catch (err) {
+    els.evidenceStatus.textContent = `Could not create the Evidence Summary: ${err.message}`;
+  } finally {
+    els.evidenceGenerateBtn.disabled = false;
   }
 });
 

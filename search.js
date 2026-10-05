@@ -239,13 +239,28 @@ function poemsForExport(params) {
   if (ids.length > MAX_EXPORT) {
     return { error: `That search matches ${ids.length.toLocaleString()} POEMs. Please narrow it to ${MAX_EXPORT} or fewer to print them.` };
   }
+  return { poems: rowsInOrder(ids) };
+}
+
+function rowsInOrder(ids) {
   const byId = new Map();
   for (let i = 0; i < ids.length; i += 200) {
     const chunk = ids.slice(i, i + 200);
     const rows = db.prepare(`SELECT * FROM poems WHERE id IN (${chunk.map(() => '?').join(',')})`).all(...chunk);
     rows.forEach(r => byId.set(r.id, r));
   }
-  return { poems: ids.map(id => byId.get(id)).filter(Boolean) };
+  return ids.map(id => byId.get(id)).filter(Boolean);
 }
 
-module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, parseQuery, MAX_EXPORT };
+// The POEMs matching a query for the Evidence Summary: newest first, at most
+// MAX_SUMMARY_POEMS of them (total is how many matched).
+const MAX_SUMMARY_POEMS = 500;
+function poemsForSummary(params) {
+  const result = runSearch(params);
+  if (result.error) return result;
+  const sorted = result.hits.map(h => h.row).sort((a, b) =>
+    (b.publication_date || '').localeCompare(a.publication_date || '') || (a.title || '').localeCompare(b.title || ''));
+  return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, MAX_SUMMARY_POEMS).map(r => r.id)) };
+}
+
+module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS };

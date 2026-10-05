@@ -390,6 +390,7 @@ mark { background: #fef08a; color: inherit; padding: 0 1px; border-radius: 2px; 
 .search-table td:first-child { white-space: nowrap; }
 
 .print-area { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+.print-area.hidden { display: none; }
 .print-area button { background: #eef1f5; color: var(--text); }
 .print-area button:hover:not(:disabled) { background: #e2e6ec; }
 .search-form select { width: auto; margin-bottom: 0; }
@@ -415,3 +416,11 @@ body.modal-open { overflow: hidden; }
 .poem-view p { margin: 0 0 7pt; }
 .poem-view .byline { margin-bottom: 12pt; }
 .poem-view mark { background: #fef08a; }
+
+/* --- Evidence Summary --- */
+.evidence-toggle { background: #eef1f5; color: var(--text); margin: 4px 0 10px; }
+.evidence-toggle:hover:not(:disabled) { background: #e2e6ec; }
+.evidence-panel { border: 1px solid var(--border); border-radius: 6px; padding: 4px 14px 12px; margin-bottom: 12px; background: #fafbfc; }
+.evidence-panel .field-row { margin-bottom: 10px; }
+.evidence-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 12px 0 6px; }
+.evidence-actions .hint { margin: 0; }

@@ -118,6 +118,41 @@
           <label class="inline-check"><input type="checkbox" id="searchExcerpt"> Show the first 50 words of each synopsis</label>
         </div>
         <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>. Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
+        <button type="button" id="evidenceBtn" class="evidence-toggle" aria-expanded="false">Create an Evidence Summary</button>
+        <div id="evidencePanel" class="evidence-panel hidden">
+          <div class="field-row">
+            <label>Age group
+              <select id="evidenceAge">
+                <option value="all" selected>All ages</option>
+                <option value="infant">Infant (birth to 32 mos)</option>
+                <option value="child-0-18">Child (birth to 18 years)</option>
+                <option value="child-6-12">Child (6 to 12 years)</option>
+                <option value="adolescent">Adolescent (13 to 18 years)</option>
+                <option value="adult">Adult (19+)</option>
+                <option value="aged">Aged (65+)</option>
+              </select>
+            </label>
+            <label>Content area
+              <select id="evidenceContent">
+                <option value="all" selected>All content areas</option>
+                <option value="guidelines">Practice guidelines</option>
+                <option value="systematic">Systematic Reviews</option>
+                <option value="rules">Clinical Decision Rules</option>
+                <option value="therapy">Therapy</option>
+                <option value="diagnosis">Diagnosis</option>
+                <option value="prognosis">Prognosis</option>
+                <option value="screening">Screening</option>
+                <option value="prevention">Prevention</option>
+              </select>
+            </label>
+          </div>
+          <label class="inline-check"><input type="checkbox" id="evidenceJournals" checked> Limit search to high yield journals</label>
+          <div class="evidence-actions">
+            <button type="button" id="evidenceGenerateBtn">Generate Evidence Summary</button>
+            <span id="evidenceStatus" class="hint"></span>
+          </div>
+          <p class="hint">Uses the words in the search box and the time span chosen beside the Search button. The document lists the matching POEMs by supertype, then articles from PubMed by content area.</p>
+        </div>
         <p id="searchCount" class="hint"></p>
         <div id="printArea" class="print-area hidden">
           <button type="button" id="printWordBtn">Print Word doc</button>

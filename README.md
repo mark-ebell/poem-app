@@ -96,6 +96,12 @@ Clicking a search result opens the POEM in a pop-up (9-point type, laid out like
 
 After a search, **Print Word doc** downloads a `.docx` and **Print PDF** opens the browser's print window (choose "Save as PDF" as the destination). Both contain every matching POEM in full, one per page: a bold 12-point title, then POET, publication date and POEM number, then the fields with bold labels in 10-point type (with the level of evidence in parentheses after the study design). A search must match 500 POEMs or fewer to be printed (the results list itself shows the first 300); the same date range applies.
 
+### Evidence Summary
+
+**Create an Evidence Summary** (Search tab) opens a small panel: an **Age group**, a **Content area** (or all of them), and **Limit search to high yield journals** (on by default). **Generate Evidence Summary** downloads a Word document built from the words in the search box and the time span beside the Search button. It begins with the matching POEMs grouped by supertype (newest first within each group; up to the 500 most recent, each with its date, a PubMed link and its bottom line), followed by articles from PubMed organised by content area: the AMA reference, the PubMed ID, a link to the abstract and, when the article is in PubMed Central, a "Full text" link. Up to 25 of the most recent articles are listed per content area, with a link to run the full search in PubMed.
+
+The PubMed search string is built in `pubmed.js` from the strategy document ("Generating a search strategy for PubMed…"): `(your terms) AND (hasabstract[text] AND humans[MH] AND English[lang])`, then the age-group, content-area and journal clauses. Three typing slips in that document were corrected there (see the comments): an unmatched bracket in the Systematic Reviews clause, "prognosos" and a misplaced bracket in the Prognosis clause, and an empty `""[jour]` journal entry (plus a missing `[jour]` tag on BMC Fam Pract). The search uses NCBI's free E-utilities; set `NCBI_API_KEY` (optional) for a higher request limit.
+
 ### Browsing the archive, and loading it into the deployed app
 
 The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month and author. It opens on the most recent month. The **Saved POEMs** list on the first tab shows only POEMs written in the app.
