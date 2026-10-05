@@ -830,7 +830,14 @@ function renderLibrary() {
     return;
   }
 
-  const sorted = [...appPoems].sort((a, b) => {
+  // Only the 50 most recent POEMs are listed (newest publication date first, then most
+  // recently added); the column sort below arranges those 50.
+  const RECENT_MAX = 50;
+  const recent = [...appPoems].sort((a, b) =>
+    (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
+    (b.createdAt || '').localeCompare(a.createdAt || '')).slice(0, RECENT_MAX);
+
+  const sorted = recent.sort((a, b) => {
     const av = sortValue(a, sortColumn), bv = sortValue(b, sortColumn);
     const cmp = av < bv ? -1 : av > bv ? 1 : 0;
     if (cmp) return sortDir === 'asc' ? cmp : -cmp;
@@ -909,6 +916,13 @@ function renderLibrary() {
   table.appendChild(tbody);
   wrap.appendChild(table);
   els.library.appendChild(wrap);
+
+  if (appPoems.length > RECENT_MAX) {
+    const note = document.createElement('p');
+    note.className = 'hint';
+    note.textContent = `Showing the ${RECENT_MAX} most recent of ${appPoems.length.toLocaleString()} POEMs added here. Use Browse or Search to find the others.`;
+    els.library.appendChild(note);
+  }
 }
 
 async function refreshLibrary() {

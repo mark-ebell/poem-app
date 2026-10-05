@@ -204,8 +204,13 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
   }
 
   // 2. PubMed
+  const yearsSearched = pubmedYears ? `last ${pubmedYears} year${pubmedYears === 1 ? '' : 's'}` : 'no time limit';
   children.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true,
-    children: [new TextRun({ text: 'PubMed literature', bold: true })] }));
+    children: [new TextRun({ text: `PubMed literature (${yearsSearched})`, bold: true })] }));
+  const limits = [];
+  if (ageGroup.key !== 'all') limits.push(`Age group: ${ageGroup.label}`);
+  if (content !== 'all') limits.push(`Content area: ${areas[0].label}`);
+  if (limits.length) children.push(para([new TextRun({ text: limits.join('; '), bold: true })]));
   children.push(para([new TextRun({ text: `Articles from PubMed, most recent first (up to ${pm.MAX_PER_CATEGORY} per content area).`, italics: true })]));
   for (const s of sections) {
     const shown = s.articles.length;
