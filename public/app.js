@@ -1165,8 +1165,14 @@ function renderBrowse() {
 // ---------- Search ----------
 let searchSeq = 0; // ignores the response to a search that has since been superseded
 
+// A search term as a regular expression: spaces match any whitespace, * matches letters/digits.
+function termPattern(term) {
+  const esc = w => w.replace(/[.+?^${}()|[\]\\]/g, '\\$&').split('*').join('[\\p{L}\\p{N}]*');
+  return term.split(/\s+/).map(esc).join('\\s+');
+}
+
 function highlightInto(parent, text, terms, whole) {
-  const body = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  const body = terms.map(termPattern).join('|');
   const re = new RegExp(whole ? `(?<![\\p{L}\\p{N}])(?:${body})(?![\\p{L}\\p{N}])` : `(?:${body})`, 'giu');
   let last = 0, m;
   while ((m = re.exec(text)) !== null) {

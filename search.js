@@ -37,9 +37,11 @@ const EXCERPT_WORDS = 50;
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const escapeLike = s => s.replace(/[\\%_]/g, '\\$&');
 
-// A word or phrase; spaces inside it match any run of whitespace.
+// A word or phrase. Spaces inside it match any run of whitespace, and * matches
+// any run of letters or digits (so "hypertens*" finds "hypertension").
 function termRegex(term, whole) {
-  const body = term.split(/\s+/).map(escapeRegex).join('\\s+');
+  const word = w => w.split('*').map(escapeRegex).join('[\\p{L}\\p{N}]*');
+  const body = term.split(/\s+/).map(word).join('\\s+');
   return new RegExp(whole ? `(?<![\\p{L}\\p{N}])${body}(?![\\p{L}\\p{N}])` : body, 'iu');
 }
 
@@ -131,6 +133,13 @@ function positiveTerms(node, negated = false, out = []) {
   return out;
 }
 
+function allTerms(node, out = []) {
+  if (node.op === 'term') out.push(node.value);
+  else if (node.op === 'not') allTerms(node.kid, out);
+  else node.kids.forEach(k => allTerms(k, out));
+  return out;
+}
+
 function termCount(node) {
   return node.op === 'term' ? 1 : node.op === 'not' ? termCount(node.kid) : node.kids.reduce((n, k) => n + termCount(k), 0);
 }
@@ -162,11 +171,13 @@ function runSearch({ q, whole = true, years = null }) {
     throw err;
   }
   if (termCount(tree) > 20) return { error: 'Please use no more than 20 words or phrases.' };
+  const thin = allTerms(tree).find(t => t.includes('*') && t.replace(/\*/g, '').replace(/\s/g, '').length < 2);
+  if (thin) return { error: `A wildcard search needs at least two letters or digits besides the * (in "${thin}").` };
 
   // Narrow the rows read: each required term's longest word must appear
   // somewhere. (Phrases are matched exactly below, with flexible whitespace.)
-  const longestWord = t => t.split(/\s+/).reduce((a, b) => (b.length > a.length ? b : a), '');
-  const required = [...new Set(requiredTerms(tree).map(longestWord))];
+  const longestWord = t => t.split(/[\s*]+/).reduce((a, b) => (b.length > a.length ? b : a), '');
+  const required = [...new Set(requiredTerms(tree).map(longestWord).filter(Boolean))];
   const conditions = required.map(() => "search_text LIKE ? ESCAPE '\\'");
   const args = required.map(w => `%${escapeLike(w)}%`);
   const since = cutoffMonth(years);
