@@ -10,7 +10,7 @@ const { htmlToParagraphs } = require('./export-poems');
 const pm = require('./pubmed');
 
 // Supertype code, the name shown in the document, and (below) the section it falls in
-// by the first letters of its code: Dx = diagnosis, Tx = treatment, Sc = screening
+// by the first letters of its code: Dx = diagnosis, Tx (and TCAM) = treatment, Sc = screening
 // and prevention, Px = prognosis; everything else is miscellaneous.
 const SUPERTYPES = [
   ['Ad', 'Practice Administration or Health Systems'], ['DxHP', 'Diagnosis by History, Signs, Symptoms, Exam'],
@@ -32,7 +32,7 @@ const SECTIONS = ['DIAGNOSIS', 'TREATMENT', 'SCREENING AND PREVENTION', 'PROGNOS
 function sectionOf(code) {
   const c = String(code || '').toLowerCase();
   if (c.startsWith('dx')) return 'DIAGNOSIS';
-  if (c.startsWith('tx')) return 'TREATMENT';
+  if (c.startsWith('tx') || c === 'tcam') return 'TREATMENT'; // TCAM = complementary/alternative therapy
   if (c.startsWith('sc')) return 'SCREENING AND PREVENTION';
   if (c.startsWith('px')) return 'PROGNOSIS';
   return 'MISCELLANEOUS';

@@ -1363,7 +1363,7 @@ els.evidenceGenerateBtn.addEventListener('click', async () => {
     const url = URL.createObjectURL(await resp.blob());
     const a = document.createElement('a');
     a.href = url;
-    a.download = `Evidence Summary - ${q.replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 60)}.docx`;
+    a.download = `Evidence Summary - ${q.replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 60)} - ${new Date().toISOString().slice(0, 10)}.docx`;
     document.body.appendChild(a);
     a.click();
     a.remove();
