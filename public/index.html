@@ -90,7 +90,17 @@
           <label>Author
             <select id="browseAuthor"></select>
           </label>
+          <label>Age group
+            <select id="browseAge">
+              <option value="">All</option>
+              <option value="1">Adults</option>
+              <option value="2">Children</option>
+              <option value="3">Both adults and children</option>
+              <option value="none">Not specified</option>
+            </select>
+          </label>
         </div>
+        <p id="browseAgeHint" class="hint hidden">To see every POEM with no age group, set Year and Month to "All". Open a POEM, choose its Age group on the Edit tab, and Save; it then drops out of this list.</p>
         <p id="browseCount" class="hint"></p>
         <div id="browseResults"></div>
       </section>

@@ -11,7 +11,7 @@ const els = {};
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
-  'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
+  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseAgeHint', 'browseCount', 'browseResults',
   'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
@@ -1124,9 +1124,12 @@ function updateBrowseFilters() {
 
 function renderBrowse() {
   const year = els.browseYear.value, month = els.browseMonth.value, author = els.browseAuthor.value;
+  const age = els.browseAge.value;
+  els.browseAgeHint.classList.toggle('hidden', age !== 'none');
+  const ageMatches = p => !age || (age === 'none' ? ![1, 2, 3].includes(p.ageGroup) : String(p.ageGroup) === age);
   const matches = poemsCache.filter(p => {
     const d = p.publicationDate || '';
-    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || p.poet === author);
+    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || p.poet === author) && ageMatches(p);
   }).sort((a, b) =>
     (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
     (a.poet || '').localeCompare(b.poet || '') ||
@@ -1146,7 +1149,7 @@ function renderBrowse() {
   const table = document.createElement('table');
   table.className = 'library-table';
   const headRow = document.createElement('tr');
-  ['Publication date', 'POET', 'Title', 'POEM #'].forEach(label => {
+  ['Publication date', 'POET', 'Title', 'Age group', 'POEM #'].forEach(label => {
     const th = document.createElement('th');
     th.textContent = label;
     headRow.appendChild(th);
@@ -1168,9 +1171,11 @@ function renderBrowse() {
     link.textContent = doc.title || 'Untitled POEM';
     link.addEventListener('click', () => openDoc(doc.id));
     titleCell.appendChild(link);
+    const ageCell = document.createElement('td');
+    ageCell.textContent = { 1: 'Adults', 2: 'Children', 3: 'Both' }[doc.ageGroup] || 'Not specified';
     const numCell = document.createElement('td');
     numCell.textContent = doc.poemId || '';
-    row.append(dateCell, poetCell, titleCell, numCell);
+    row.append(dateCell, poetCell, titleCell, ageCell, numCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);
@@ -1187,7 +1192,7 @@ function renderBrowse() {
   }
 }
 
-[els.browseYear, els.browseMonth, els.browseAuthor].forEach(sel => sel.addEventListener('change', renderBrowse));
+[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge].forEach(sel => sel.addEventListener('change', renderBrowse));
 
 // ---------- Search ----------
 let searchSeq = 0; // ignores the response to a search that has since been superseded

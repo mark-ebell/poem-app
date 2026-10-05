@@ -110,7 +110,7 @@ The PubMed search string is built in `pubmed.js` from the strategy document ("Ge
 
 ### Browsing the archive, and loading it into the deployed app
 
-The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month and author. It opens on the most recent month. The **Recently added POEMs** list on the first tab shows only POEMs written in the app.
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group (including "Not specified", to find POEMs that still need an age group: open one, choose its Age group on the Edit tab and save). It opens on the most recent month. The **Recently added POEMs** list on the first tab shows only POEMs written in the app.
 
 The importer above fills your *local* database. The deployed app (Render) has its own database, so the archive is copied there with the administrator-only upload on the Browse tab (shown only when signed in as `ebell`):
 

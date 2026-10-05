@@ -13,7 +13,7 @@ router.use(requireAuth);
 // synopsis, ...) is fetched when a POEM is opened for editing.
 router.get('/', (req, res) => {
   const rows = db.prepare(`
-    SELECT id, poem_id, title, poet, publication_date, created_by, created_at, source FROM poems
+    SELECT id, poem_id, title, poet, publication_date, age_group, created_by, created_at, source FROM poems
   `).all();
   res.json({ poems: rows.map(toListItem) });
 });
