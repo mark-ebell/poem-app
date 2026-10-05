@@ -162,7 +162,7 @@ async function buildDocx(rows, meta = {}) {
 
   const headerText = meta.description || 'POEMs';
   const doc = new Document({
-    creator: 'POEM Generator',
+    creator: 'InfoRetriever',
     title: headerText,
     styles: {
       default: { document: { run: { font: 'Arial', size: 20 } } },

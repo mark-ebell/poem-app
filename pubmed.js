@@ -116,7 +116,7 @@ function throttled(fn) {
 }
 
 async function eutils(endpoint, params, attempt = 1) {
-  const body = new URLSearchParams({ ...params, tool: 'poem-generator', retmode: 'json' });
+  const body = new URLSearchParams({ ...params, tool: 'inforetriever', retmode: 'json' });
   if (process.env.NCBI_API_KEY) body.set('api_key', process.env.NCBI_API_KEY);
   let resp;
   try {

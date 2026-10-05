@@ -1,4 +1,6 @@
-# POEM Generator
+# InfoRetriever
+
+(InfoRetriever was previously called the POEM Generator; the GitHub repository and the Render service keep their original names.)
 
 A small local web application for a team of POETs (physicians who write POEMs): each person logs in, uploads a research article PDF, gets a first-draft POEM written by Claude, edits it with rich-text formatting and optional track-changes review, and saves it to a shared repository backed by a real database on disk — so it survives browser restarts, cache clears, and is visible to every logged-in author.
 
@@ -62,7 +64,7 @@ Then open http://localhost:3000. This only listens on your Mac — it is not rea
 ## Using it
 
 1. Sign in with your username (e.g. `ebell`) and password. First-time sign-in requires you to set a new password immediately.
-2. The app has two tabs, **Upload and list** and **Edit**.
+2. The app has five tabs: **Upload and list**, **Browse**, **Search**, **Evidence** and **Edit**.
 3. On **Upload and list**, upload a PDF of the research article and click **Generate POEM** (can take up to a minute) — this switches you to the **Edit** tab with the draft loaded.
 4. On the **Edit** tab, each element of the POEM has its own field: **Title**, **POET** (author), **Publication date**, **Reference**, **Clinical question**, **Allocation**, **Funding**, **Study design**, **Population and setting**, **Age group**, **Supertype**, **Level of evidence**, **PubMed ID**, **Synopsis** and **Bottom-line**. A generated draft fills these in for you. POET, publication date and title are required before you can save. The **POEM number** is assigned automatically (a unique 6-digit number) the first time a POEM is saved. The **PubMed URL** is built from the PubMed ID (enter `NA` if there is no PubMed entry).
    - The **Synopsis** and **Bottom-line** are rich-text boxes: **B** / **I** / **U** / **x²** (superscript) / **x₂** (subscript) apply formatting to selected text, and **🔗 Link** turns selected text into a hyperlink (asks for a URL). The other fields are plain text or drop-down lists.
@@ -98,7 +100,7 @@ After a search, **Print Word doc** downloads a `.docx` and **Print PDF** opens t
 
 ### Evidence Summary
 
-On the Search tab, **Print Word doc**, **Print PDF** and **Create an Evidence Summary** are always shown (the two print buttons are usable once a search has results). **Create an Evidence Summary** opens a small panel: **Age group**, **PubMed content area** (or all of them), **Limit PubMed search to:** (1, 3, 5 or 10 years, or no limit), and **Limit search to high yield journals** (on by default). **Generate Evidence Summary** downloads a Word document built from the words in the search box; the POEMs part uses the time span beside the Search button and the PubMed part uses the PubMed time span.
+The **Evidence** tab creates an Evidence Summary. Enter the **Topic** (words, with the same AND / OR / NOT, quotes and `*` syntax as the Search tab), choose **Limit POEMs search to:** (1, 2, 3, 5 or 10 years, or the entire database), **Limit PubMed search to:** (1, 3, 5 or 10 years, or no limit), an **Age group**, a **PubMed content area** (or all of them), and whether to **Limit search to high yield journals** (on by default); then click **Generate Evidence Summary**, which downloads a Word document. (Printing the POEMs from a search is separate: **Print Word doc** and **Print PDF** on the Search tab.) If the Topic is empty when you open the tab, it starts with whatever is in the Search tab's box.
 
 The document is titled "Evidence Summary: <your topic>" (with the preparation date on the line below), and the downloaded file is named with the topic and the date. It begins with the matching POEMs (up to the 500 most recent), in five sections in this order — DIAGNOSIS (supertypes beginning Dx), TREATMENT (Tx, plus TCAM), SCREENING AND PREVENTION (Sc), PROGNOSIS (Px) and MISCELLANEOUS (all the rest, plus POEMs with no supertype) — and under each section the supertype's name (not its code), newest POEMs first. Each POEM shows, in 9-point type, its title and date, Reference with a PubMed link, Clinical question, Study design (with the level of evidence), Population and setting, Synopsis and Bottom-Line. The "PubMed literature" heading states the time span searched (e.g. "last 5 years" or "no time limit"), and a line below it names any age group, content area or high yield journal limit. The sections that follow list articles from PubMed organised by content area: the AMA reference, the PubMed ID, a link to the abstract and, when the article is in PubMed Central, a "Full text" link. Up to 25 of the most recent articles are listed per content area, with a link to run the full search in PubMed. Which supertype goes in which section is set in `evidence-summary.js`.
 

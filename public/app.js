@@ -8,7 +8,7 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
-  'evidenceBtn', 'evidencePanel', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
+  'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
@@ -104,8 +104,8 @@ els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.t
 
 // ---------- Tabs ----------
 function switchTab(name) {
-  const panels = { upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, edit: els.tabEdit };
-  const buttons = { upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, edit: els.tabBtnEdit };
+  const panels = { upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence, edit: els.tabEdit };
+  const buttons = { upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence, edit: els.tabBtnEdit };
   for (const key of Object.keys(panels)) {
     panels[key].classList.toggle('hidden', key !== name);
     buttons[key].classList.toggle('active', key === name);
@@ -115,6 +115,12 @@ function switchTab(name) {
 els.tabBtnUpload.addEventListener('click', () => switchTab('upload'));
 els.tabBtnBrowse.addEventListener('click', () => switchTab('browse'));
 els.tabBtnSearch.addEventListener('click', () => { switchTab('search'); els.searchInput.focus(); });
+els.tabBtnEvidence.addEventListener('click', () => {
+  switchTab('evidence');
+  // Start from the words already typed on the Search tab.
+  if (!els.evidenceTopic.value.trim() && els.searchInput.value.trim()) els.evidenceTopic.value = els.searchInput.value.trim();
+  els.evidenceTopic.focus();
+});
 els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
 
 let extractedText = '';
@@ -1344,16 +1350,12 @@ els.searchForm.addEventListener('submit', async (e) => {
 });
 
 // ---------- Evidence Summary ----------
-els.evidenceBtn.addEventListener('click', () => {
-  const open = els.evidencePanel.classList.toggle('hidden') === false;
-  els.evidenceBtn.setAttribute('aria-expanded', String(open));
-});
-
-els.evidenceGenerateBtn.addEventListener('click', async () => {
-  const q = els.searchInput.value.trim();
+els.evidenceForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const q = els.evidenceTopic.value.trim();
   if (q.length < 2) {
-    els.evidenceStatus.textContent = 'Enter the topic in the search box first.';
-    els.searchInput.focus();
+    els.evidenceStatus.textContent = 'Enter the topic to search for first.';
+    els.evidenceTopic.focus();
     return;
   }
   els.evidenceGenerateBtn.disabled = true;
@@ -1364,7 +1366,7 @@ els.evidenceGenerateBtn.addEventListener('click', async () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         q,
-        years: els.searchYears.value,
+        years: els.evidencePoemYears.value,
         pubmedYears: els.evidencePubmedYears.value,
         age: els.evidenceAge.value,
         content: els.evidenceContent.value,

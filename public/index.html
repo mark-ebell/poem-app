@@ -3,14 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>POEM Generator</title>
+<title>InfoRetriever</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="wrap">
 
   <div id="loginScreen" class="card hidden">
-    <h1 class="login-title">POEM Generator</h1>
+    <img src="inforetriever.jpg" alt="InfoRetriever golden retriever" class="mascot mascot-login" width="45" height="73">
+    <h1 class="login-title">InfoRetriever</h1>
     <p class="hint login-instructions">Enter your user name and password. The first time you log in, you will be asked to generate a new password.</p>
     <form id="loginForm">
       <label>Username
@@ -27,7 +28,10 @@
 
   <div id="appRoot" class="hidden">
     <header>
-      <h1>POEM Generator</h1>
+      <div class="brand">
+        <img src="inforetriever.jpg" alt="InfoRetriever golden retriever" class="mascot" width="45" height="73">
+        <h1>InfoRetriever</h1>
+      </div>
       <div class="header-right">
         <span id="whoAmI" class="hint"></span>
         <button id="settingsToggle" class="link-btn">Change password</button>
@@ -54,6 +58,7 @@
       <button type="button" class="tab-btn active" id="tabBtnUpload" data-tab="upload">Upload and list</button>
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse</button>
       <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search</button>
+      <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence</button>
       <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit</button>
     </nav>
 
@@ -121,11 +126,43 @@
         <div id="printArea" class="print-area">
           <button type="button" id="printWordBtn" disabled>Print Word doc</button>
           <button type="button" id="printPdfBtn" disabled>Print PDF</button>
-          <button type="button" id="evidenceBtn" aria-expanded="false">Create an Evidence Summary</button>
           <span id="printStatus" class="hint"></span>
         </div>
-        <div id="evidencePanel" class="evidence-panel hidden">
-          <div class="field-row">
+        <p id="searchCount" class="hint"></p>
+        <div id="searchResults"></div>
+      </section>
+    </div>
+
+    <div id="tabEvidence" class="tab-panel hidden">
+      <section class="card">
+        <h2>Evidence Summary</h2>
+        <form id="evidenceForm">
+          <label>Topic
+            <input type="search" id="evidenceTopic" placeholder="Enter a word or phrase" autocomplete="off">
+          </label>
+          <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, brackets to group them, quotes for an exact phrase, and * for the rest of a word, as on the Search tab. Example: <code>"atrial fibrillation" AND dabigatran</code></p>
+          <div class="field-row evidence-fields">
+            <label>Limit POEMs search to:
+              <select id="evidencePoemYears">
+                <option value="1">1 year</option>
+                <option value="2">2 years</option>
+                <option value="3">3 years</option>
+                <option value="5">5 years</option>
+                <option value="10">10 years</option>
+                <option value="all" selected>Entire database</option>
+              </select>
+            </label>
+            <label>Limit PubMed search to:
+              <select id="evidencePubmedYears">
+                <option value="1">1 year</option>
+                <option value="3">3 years</option>
+                <option value="5">5 years</option>
+                <option value="10">10 years</option>
+                <option value="all" selected>No limit</option>
+              </select>
+            </label>
+          </div>
+          <div class="field-row evidence-fields">
             <label>Age group
               <select id="evidenceAge">
                 <option value="all" selected>All ages</option>
@@ -151,25 +188,14 @@
                 <option value="prevention">Prevention</option>
               </select>
             </label>
-            <label>Limit PubMed search to:
-              <select id="evidencePubmedYears">
-                <option value="1">1 year</option>
-                <option value="3">3 years</option>
-                <option value="5">5 years</option>
-                <option value="10">10 years</option>
-                <option value="all" selected>No limit</option>
-              </select>
-            </label>
           </div>
           <label class="inline-check"><input type="checkbox" id="evidenceJournals" checked> Limit search to high yield journals</label>
           <div class="evidence-actions">
-            <button type="button" id="evidenceGenerateBtn">Generate Evidence Summary</button>
+            <button type="submit" id="evidenceGenerateBtn">Generate Evidence Summary</button>
             <span id="evidenceStatus" class="hint"></span>
           </div>
-          <p class="hint">Uses the words in the search box. The POEMs are limited by the time span beside the Search button, and the PubMed articles by the time span above. The document lists the matching POEMs by supertype, then articles from PubMed by content area.</p>
-        </div>
-        <p id="searchCount" class="hint"></p>
-        <div id="searchResults"></div>
+        </form>
+        <p class="hint">Downloads a Word document that begins with the matching POEMs, grouped by supertype, followed by articles from PubMed organised by content area.</p>
       </section>
     </div>
 

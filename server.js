@@ -64,5 +64,5 @@ app.use('/api/evidence', require('./routes/evidence'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, () => {
-  console.log(`POEM Generator running at http://localhost:${PORT}`);
+  console.log(`InfoRetriever running at http://localhost:${PORT}`);
 });

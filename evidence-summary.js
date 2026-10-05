@@ -233,7 +233,7 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
   }
 
   const doc = new Document({
-    creator: 'POEM Generator',
+    creator: 'InfoRetriever',
     title: `Evidence Summary: ${topic}`,
     styles: {
       default: { document: { run: { font: 'Arial', size: 20 } } },

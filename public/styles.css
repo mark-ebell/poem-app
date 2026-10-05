@@ -26,7 +26,7 @@ body {
 
 header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -417,8 +417,12 @@ body.modal-open { overflow: hidden; }
 .poem-view mark { background: #fef08a; }
 
 /* --- Evidence Summary --- */
-.evidence-panel { border: 1px solid var(--border); border-radius: 6px; padding: 4px 14px 12px; margin-bottom: 12px; background: #fafbfc; }
-.evidence-panel .field-row { margin-bottom: 10px; flex-wrap: wrap; }
-.evidence-panel .field-row label { min-width: 170px; }
+.evidence-fields { flex-wrap: wrap; margin-bottom: 10px; }
+.evidence-fields label { min-width: 200px; }
 .evidence-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 12px 0 6px; }
 .evidence-actions .hint { margin: 0; }
+
+/* --- Branding --- */
+.brand { display: flex; align-items: center; gap: 12px; }
+.mascot { display: block; width: 45px; height: 73px; }
+.mascot-login { margin: 0 auto 8px; }
