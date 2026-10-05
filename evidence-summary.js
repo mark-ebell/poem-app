@@ -210,6 +210,7 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
   const limits = [];
   if (ageGroup.key !== 'all') limits.push(`Age group: ${ageGroup.label}`);
   if (content !== 'all') limits.push(`Content area: ${areas[0].label}`);
+  if (journals) limits.push('High yield journals only');
   if (limits.length) children.push(para([new TextRun({ text: limits.join('; '), bold: true })]));
   children.push(para([new TextRun({ text: `Articles from PubMed, most recent first (up to ${pm.MAX_PER_CATEGORY} per content area).`, italics: true })]));
   for (const s of sections) {
