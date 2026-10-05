@@ -4,7 +4,7 @@ const db = require('../db');
 const { requireAuth } = require('../auth');
 const { normalizePoemBody, toClient, toListItem, generatePoemId } = require('../poem-model');
 const { buildSearchText, searchPoems, poemsForExport } = require('../search');
-const { buildDocx, buildPrintHtml } = require('../export-poems');
+const { buildDocx, buildPrintHtml, buildPoemFragment } = require('../export-poems');
 
 const router = express.Router();
 router.use(requireAuth);
@@ -53,6 +53,13 @@ router.post('/export', async (req, res) => {
     console.error('POEM export failed', err);
     res.status(500).json({ error: 'Could not create the document. See the server log.' });
   }
+});
+
+// One POEM formatted for reading in the pop-up (same layout as the printouts).
+router.get('/:id/view', (req, res) => {
+  const row = db.prepare('SELECT * FROM poems WHERE id = ?').get(req.params.id);
+  if (!row) return res.status(404).json({ error: 'POEM not found.' });
+  res.json({ html: buildPoemFragment(row), id: row.id });
 });
 
 router.get('/:id', (req, res) => {

@@ -8,6 +8,7 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchWhole', 'searchExcerpt', 'searchCount', 'searchResults',
+  'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
   'adminImport', 'archiveInput', 'archiveImportBtn', 'archiveStatus',
@@ -1179,6 +1180,54 @@ function highlightInto(parent, text, terms, whole) {
   parent.append(text.slice(last));
 }
 
+// ---------- POEM pop-up (opened from a search result) ----------
+let popupPoemId = null;
+
+function highlightTextNodes(root, terms, whole) {
+  if (!terms.length) return;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  for (const node of nodes) {
+    const holder = document.createDocumentFragment();
+    highlightInto(holder, node.textContent, terms, whole);
+    if (holder.querySelector && holder.querySelector('mark')) node.replaceWith(holder);
+  }
+}
+
+async function showPoemPopup(id) {
+  let html;
+  try {
+    ({ html } = await api(`/poems/${id}/view`));
+  } catch (err) {
+    alert(`Could not open this POEM: ${err.message}`);
+    return;
+  }
+  popupPoemId = id;
+  els.poemModalBody.innerHTML = html; // built by the server from escaped text
+  if (lastSearch) highlightTextNodes(els.poemModalBody, lastSearch.terms, lastSearch.whole);
+  els.poemModalBody.scrollTop = 0;
+  els.poemModal.classList.remove('hidden');
+  document.body.classList.add('modal-open');
+  els.poemModalClose.focus();
+}
+
+function closePoemPopup() {
+  els.poemModal.classList.add('hidden');
+  document.body.classList.remove('modal-open');
+  els.poemModalBody.textContent = '';
+  popupPoemId = null;
+}
+
+els.poemModalClose.addEventListener('click', closePoemPopup);
+els.poemModal.addEventListener('mousedown', (e) => { if (e.target === els.poemModal) closePoemPopup(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.poemModal.classList.contains('hidden')) closePoemPopup(); });
+els.poemModalEdit.addEventListener('click', () => {
+  const id = popupPoemId;
+  closePoemPopup();
+  if (id) openDoc(id);
+});
+
 let lastSearch = null;
 let lastQuery = null; // { q, whole } of the search being shown; "Print POEMs" re-runs it
 function renderSearchResults(data) {
@@ -1218,7 +1267,7 @@ function renderSearchResults(data) {
     const link = document.createElement('span');
     link.className = 'library-title-link';
     highlightInto(link, doc.title || 'Untitled POEM', data.terms, data.whole);
-    link.addEventListener('click', () => openDoc(doc.id));
+    link.addEventListener('click', () => showPoemPopup(doc.id));
     titleCell.appendChild(link);
     if (els.searchExcerpt.checked && doc.excerpt) {
       const snip = document.createElement('div');

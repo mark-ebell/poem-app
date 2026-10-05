@@ -209,14 +209,22 @@ function runsToHtml(runs) {
   }).join('');
 }
 
+// The inside of one POEM: bold title, byline, then each field with a bold label.
+function poemInnerHtml(row) {
+  const poem = describePoem(row);
+  const byline = poem.byline.map(([l, v]) => `<b>${escapeHtml(l)}:</b> ${escapeHtml(v)}`).join('&nbsp;&nbsp;&nbsp;&nbsp;');
+  const body = poem.sections.map(sec => sec.paragraphs.map((runs, i) =>
+    `<p>${i === 0 ? `<b>${escapeHtml(sec.label)}:</b> ` : ''}${runsToHtml(runs)}</p>`).join('')).join('\n');
+  return `<h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}\n${body}`;
+}
+
+// One POEM for on-screen viewing (the pop-up on the Search tab).
+function buildPoemFragment(row) {
+  return `<article class="poem-view">${poemInnerHtml(row)}</article>`;
+}
+
 function buildPrintHtml(rows, meta = {}) {
-  const poems = rows.map(row => {
-    const poem = describePoem(row);
-    const byline = poem.byline.map(([l, v]) => `<b>${escapeHtml(l)}:</b> ${escapeHtml(v)}`).join('&nbsp;&nbsp;&nbsp;&nbsp;');
-    const body = poem.sections.map(sec => sec.paragraphs.map((runs, i) =>
-      `<p>${i === 0 ? `<b>${escapeHtml(sec.label)}:</b> ` : ''}${runsToHtml(runs)}</p>`).join('')).join('\n');
-    return `<section class="poem"><h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}\n${body}</section>`;
-  }).join('\n');
+  const poems = rows.map(row => `<section class="poem">${poemInnerHtml(row)}</section>`).join('\n');
 
   const description = escapeHtml(meta.description || 'POEMs');
   return `<!DOCTYPE html>
@@ -237,4 +245,4 @@ ${poems}
 </body></html>`;
 }
 
-module.exports = { buildDocx, buildPrintHtml, htmlToParagraphs, describePoem };
+module.exports = { buildDocx, buildPrintHtml, buildPoemFragment, htmlToParagraphs, describePoem };

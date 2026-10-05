@@ -92,6 +92,8 @@ The **Search** tab finds POEMs containing words or phrases in the title, referen
 
 The dropdown beside the **Search** button limits how far back to look (last 1, 2, 3, 5 or 10 years, or the entire database — the default), by publication date.
 
+Clicking a search result opens the POEM in a pop-up (9-point type, laid out like the printouts, with your search words highlighted) instead of the Edit tab; **Close**, the Escape key, or a click outside it dismisses the pop-up, and **Edit this POEM** opens it in the Edit tab.
+
 After a search, **Print Word doc** downloads a `.docx` and **Print PDF** opens the browser's print window (choose "Save as PDF" as the destination). Both contain every matching POEM in full, one per page: a bold 12-point title, then POET, publication date and POEM number, then the fields with bold labels in 10-point type (with the level of evidence in parentheses after the study design). A search must match 500 POEMs or fewer to be printed (the results list itself shows the first 300); the same date range applies.
 
 ### Browsing the archive, and loading it into the deployed app

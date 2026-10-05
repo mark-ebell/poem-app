@@ -394,3 +394,24 @@ mark { background: #fef08a; color: inherit; padding: 0 1px; border-radius: 2px; 
 .print-area button:hover:not(:disabled) { background: #e2e6ec; }
 .search-form select { width: auto; margin-bottom: 0; }
 .print-area .hint { margin: 0; }
+
+/* --- POEM pop-up --- */
+body.modal-open { overflow: hidden; }
+.modal-backdrop {
+  position: fixed; inset: 0; z-index: 1000; background: rgba(15, 23, 42, 0.5);
+  display: flex; align-items: center; justify-content: center; padding: 16px;
+}
+.modal-backdrop.hidden { display: none; }
+.modal {
+  background: white; border-radius: 8px; width: min(780px, 100%); max-height: 90vh;
+  display: flex; flex-direction: column; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+.modal-bar { display: flex; justify-content: flex-end; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+.modal-bar button { background: #eef1f5; color: var(--text); }
+.modal-bar button:hover:not(:disabled) { background: #e2e6ec; }
+.modal-body { overflow: auto; padding: 16px 22px 22px; }
+.poem-view { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; line-height: 1.4; color: #000; }
+.poem-view h1 { font-size: 12pt; font-weight: bold; margin: 0 0 6pt; }
+.poem-view p { margin: 0 0 7pt; }
+.poem-view .byline { margin-bottom: 12pt; }
+.poem-view mark { background: #fef08a; }
