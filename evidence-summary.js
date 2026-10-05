@@ -9,21 +9,34 @@ const { poemsForSummary, cutoffMonth } = require('./search');
 const { htmlToParagraphs } = require('./export-poems');
 const pm = require('./pubmed');
 
+// Supertype code, the name shown in the document, and (below) the section it falls in
+// by the first letters of its code: Dx = diagnosis, Tx = treatment, Sc = screening
+// and prevention, Px = prognosis; everything else is miscellaneous.
 const SUPERTYPES = [
-  ['Ad', 'Practice administration or health systems'], ['DxHP', 'Diagnosis by history, signs, symptoms, exam'],
-  ['DxTe', 'Diagnosis by a test'], ['DxDf', 'Differential diagnosis'],
-  ['DxRl', 'Risk score or clinical decision rule'], ['DxZA', 'Diagnosis: signs/symptoms plus tests'],
-  ['EdMD', 'Medical education'], ['EdPt', 'Patient education'], ['EtCs', 'Causation and etiology'],
-  ['EtEp', 'Incidence or prevalence'], ['Etrk', 'Risk factors'], ['Px', 'Prognosis or natural history'],
-  ['PxFU', 'Follow-up tests and monitoring'], ['Sc', 'Screening'], ['ScPv', 'Primary prevention'],
-  ['TxCt', 'Cost-effectiveness or decision analysis'], ['TxGd', 'Treatment guideline'],
-  ['TxRx', 'Drug therapy'], ['TxSx', 'Surgical or procedural therapy'],
-  ['TCAM', 'Complementary/alternative medicine'], ['TxDt', 'Dietary therapy, vitamins, supplements'],
-  ['TxZA', 'Comparing therapy categories, counseling, exercise'], ['TxHm', 'Harms of treatment']
+  ['Ad', 'Practice Administration or Health Systems'], ['DxHP', 'Diagnosis by History, Signs, Symptoms, Exam'],
+  ['DxTe', 'Diagnosis by a Test'], ['DxDf', 'Differential Diagnosis'],
+  ['DxRl', 'Risk Score or Clinical Decision Rule'], ['DxZA', 'Diagnosis: Signs/Symptoms Plus Tests'],
+  ['EdMD', 'Medical Education'], ['EdPt', 'Patient Education'], ['EtCs', 'Causation and Etiology'],
+  ['EtEp', 'Incidence or Prevalence'], ['Etrk', 'Risk Factors'], ['Px', 'Prognosis or Natural History'],
+  ['PxFU', 'Follow-Up Tests and Monitoring'], ['Sc', 'Screening'], ['ScPv', 'Primary Prevention'],
+  ['TxCt', 'Cost-Effectiveness or Decision Analysis'], ['TxGd', 'Treatment Guideline'],
+  ['TxRx', 'Drug Therapy'], ['TxSx', 'Surgical or Procedural Therapy'],
+  ['TCAM', 'Complementary/Alternative Medicine'], ['TxDt', 'Dietary Therapy, Vitamins, Supplements'],
+  ['TxZA', 'Comparing Therapy Categories, Counseling, Exercise'], ['TxHm', 'Harms of Treatment']
 ];
 // Codes are matched ignoring case (the archive has a few "TxZa" / "EtRk").
 const SUPERTYPE_INDEX = new Map(SUPERTYPES.map(([code], i) => [code.toLowerCase(), i]));
 const UNSPECIFIED = 9999;
+
+const SECTIONS = ['DIAGNOSIS', 'TREATMENT', 'SCREENING AND PREVENTION', 'PROGNOSIS', 'MISCELLANEOUS'];
+function sectionOf(code) {
+  const c = String(code || '').toLowerCase();
+  if (c.startsWith('dx')) return 'DIAGNOSIS';
+  if (c.startsWith('tx')) return 'TREATMENT';
+  if (c.startsWith('sc')) return 'SCREENING AND PREVENTION';
+  if (c.startsWith('px')) return 'PROGNOSIS';
+  return 'MISCELLANEOUS';
+}
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
   'October', 'November', 'December'];
@@ -32,20 +45,27 @@ const monthYear = v => {
   return m ? `${MONTHS[Number(m[2]) - 1]} ${m[1]}` : '';
 };
 
-// POEMs by supertype, in the order of the list above (empty or unrecognised
-// ones last); within a group they stay newest first, as they arrive.
+// POEMs arranged as [{ heading: 'DIAGNOSIS', groups: [{ heading: 'Differential Diagnosis', items }] }]:
+// sections in the order above (empty ones left out), supertypes in list order within a
+// section (empty or unrecognised ones last, in MISCELLANEOUS). Within a supertype the
+// POEMs stay newest first, as they arrive.
 function groupBySupertype(poems) {
-  const groups = new Map();
+  const buckets = new Map(); // index in SUPERTYPES (or UNSPECIFIED) -> items
   for (const p of poems) {
     const key = String(p.supertype || '').toLowerCase();
     const idx = SUPERTYPE_INDEX.has(key) ? SUPERTYPE_INDEX.get(key) : UNSPECIFIED;
-    if (!groups.has(idx)) groups.set(idx, []);
-    groups.get(idx).push(p);
+    if (!buckets.has(idx)) buckets.set(idx, []);
+    buckets.get(idx).push(p);
   }
-  return [...groups.entries()].sort((a, b) => a[0] - b[0]).map(([idx, items]) => ({
-    heading: idx === UNSPECIFIED ? 'Supertype not specified' : `${SUPERTYPES[idx][0]} — ${SUPERTYPES[idx][1]}`,
-    items
-  }));
+  const sections = new Map(SECTIONS.map(name => [name, []]));
+  [...buckets.entries()].sort((a, b) => a[0] - b[0]).forEach(([idx, items]) => {
+    const unspecified = idx === UNSPECIFIED;
+    sections.get(unspecified ? 'MISCELLANEOUS' : sectionOf(SUPERTYPES[idx][0])).push({
+      heading: unspecified ? 'Supertype Not Specified' : SUPERTYPES[idx][1],
+      items
+    });
+  });
+  return SECTIONS.filter(name => sections.get(name).length).map(name => ({ heading: name, groups: sections.get(name) }));
 }
 
 // ---------- docx helpers ----------
@@ -54,11 +74,13 @@ const link = (text, url) => new ExternalHyperlink({
 });
 const para = (children, opts = {}) => new Paragraph({ spacing: { after: 100 }, ...opts, children });
 
-function richRuns(runs) {
+const POEM_SIZE = 18; // 9 point
+
+function richRuns(runs, size) {
   return runs.map(r => {
     if (r.br) return new TextRun({ break: 1 });
     const props = {
-      text: r.text, bold: r.bold, italics: r.italic, superScript: r.sup, subScript: r.sub,
+      text: r.text, bold: r.bold, italics: r.italic, superScript: r.sup, subScript: r.sub, size,
       underline: r.underline ? {} : undefined
     };
     return r.href
@@ -67,14 +89,45 @@ function richRuns(runs) {
   });
 }
 
+// One POEM in 9 point type: bold title, then Reference (with a PubMed link),
+// Clinical question, Study design, Population and setting, Synopsis, Bottom-Line.
 function poemEntry(p) {
   const out = [];
-  const head = [new TextRun({ text: p.title || 'Untitled POEM', bold: true })];
+  const t = (text, bold) => new TextRun({ text, bold, size: POEM_SIZE });
+  const field = (label, runs, extra = []) => para([t(`${label}: `, true), ...runs, ...extra],
+    { spacing: { after: 60 } });
+  const plainText = v => {
+    const s = v === null || v === undefined ? '' : String(v).trim();
+    return s ? [t(s)] : null;
+  };
+
+  const head = [t(p.title || 'Untitled POEM', true)];
   const when = monthYear(p.publication_date);
-  if (when) head.push(new TextRun({ text: `  (${when})` }));
-  if (p.pubmed_url && /^https?:\/\//i.test(p.pubmed_url)) head.push(new TextRun({ text: '  ' }), link('PubMed', p.pubmed_url));
-  out.push(para(head, { keepNext: true, spacing: { before: 100, after: 40 } }));
-  htmlToParagraphs(p.bottom_line).forEach(runs => out.push(para(richRuns(runs), { indent: { left: 360 } })));
+  if (when) head.push(t(`  (${when})`));
+  out.push(para(head, { keepNext: true, spacing: { before: 160, after: 60 } }));
+
+  const ref = plainText(p.reference);
+  const hasLink = p.pubmed_url && /^https?:\/\//i.test(p.pubmed_url);
+  if (ref || hasLink) {
+    const linkRun = hasLink
+      ? [t('  '), new ExternalHyperlink({ link: p.pubmed_url, children: [new TextRun({ text: 'PubMed', size: POEM_SIZE, color: '0563C1', underline: {} })] })]
+      : [];
+    out.push(field('Reference', ref || [], linkRun));
+  }
+  const question = plainText(p.clinical_question);
+  if (question) out.push(field('Clinical question', question));
+  const design = String(p.study_design || '').trim();
+  const loe = String(p.loe || '').trim();
+  if (design) out.push(field('Study design', [t(loe ? `${design} (LOE ${loe})` : design)]));
+  const setting = plainText(p.setting);
+  if (setting) out.push(field('Population and setting', setting));
+
+  for (const [label, html] of [['Synopsis', p.synopsis], ['Bottom-Line', p.bottom_line]]) {
+    htmlToParagraphs(html).forEach((runs, i) => {
+      const lead = i === 0 ? [t(`${label}: `, true)] : [];
+      out.push(para([...lead, ...richRuns(runs, POEM_SIZE)], { spacing: { after: 60 } }));
+    });
+  }
   return out;
 }
 
@@ -94,14 +147,14 @@ function articleEntry(a, n) {
 
 // ---------- main ----------
 // params: { q, years (number or null), age (key), content ('all' or a content-area key), journals (boolean) }
-async function generateEvidenceSummary({ q, years, age, content, journals }) {
+async function generateEvidenceSummary({ q, years, pubmedYears, age, content, journals }) {
   const poemResult = poemsForSummary({ q, years });
   if (poemResult.error) return { error: poemResult.error };
 
   const ageGroup = pm.findBy(pm.AGE_GROUPS, age) || pm.AGE_GROUPS[0];
   const areas = content === 'all' ? pm.CONTENT_AREAS : [pm.findBy(pm.CONTENT_AREAS, content)].filter(Boolean);
   if (!areas.length) return { error: 'Choose a content area.' };
-  const since = cutoffMonth(years);
+  const since = cutoffMonth(pubmedYears);
 
   const sections = [];
   for (const area of areas) {
@@ -119,15 +172,15 @@ async function generateEvidenceSummary({ q, years, age, content, journals }) {
 
   const children = [];
   const topic = String(q).replace(/\s+/g, ' ').trim();
-  const rangeText = years ? `last ${years === 1 ? 'year' : years + ' years'}` : 'entire database';
-  children.push(new Paragraph({ heading: HeadingLevel.TITLE, children: [new TextRun({ text: 'Evidence Summary', bold: true })] }));
-  children.push(para([new TextRun({ text: 'Topic: ', bold: true }), new TextRun({ text: topic })]));
+  const span = n => (n ? `last ${n === 1 ? 'year' : n + ' years'}` : 'no limit');
+  children.push(new Paragraph({ heading: HeadingLevel.TITLE,
+    children: [new TextRun({ text: `Evidence Summary: ${topic}`, bold: true })] }));
   children.push(para([new TextRun({ text: 'Prepared: ', bold: true }),
     new TextRun({ text: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) })]));
-  children.push(para([new TextRun({ text: 'Time span: ', bold: true }), new TextRun({ text: rangeText })]));
+  children.push(para([new TextRun({ text: 'POEMs time span: ', bold: true }), new TextRun({ text: span(years) })]));
   children.push(para([
     new TextRun({ text: 'PubMed limits: ', bold: true }),
-    new TextRun({ text: `${ageGroup.label}; ${content === 'all' ? 'all content areas' : areas[0].label}; ${journals ? 'high yield journals only' : 'all journals'}` })
+    new TextRun({ text: `${ageGroup.label}; ${content === 'all' ? 'all content areas' : areas[0].label}; time span: ${span(pubmedYears)}; ${journals ? 'high yield journals only' : 'all journals'}` })
   ], { spacing: { after: 240 } }));
 
   // 1. POEMs
@@ -140,10 +193,13 @@ async function generateEvidenceSummary({ q, years, age, content, journals }) {
     if (poemResult.total > poems.length) {
       children.push(para([new TextRun({ text: `Showing the ${poems.length} most recent of ${poemResult.total.toLocaleString()} matching POEMs.`, italics: true })]));
     }
-    for (const group of groupBySupertype(poems)) {
-      children.push(new Paragraph({ heading: HeadingLevel.HEADING_2,
-        children: [new TextRun({ text: `${group.heading} (${group.items.length})`, bold: true })] }));
-      group.items.forEach(p => children.push(...poemEntry(p)));
+    for (const section of groupBySupertype(poems)) {
+      children.push(new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun({ text: section.heading, bold: true })] }));
+      for (const group of section.groups) {
+        children.push(new Paragraph({ heading: HeadingLevel.HEADING_3,
+          children: [new TextRun({ text: `${group.heading} (${group.items.length})`, bold: true })] }));
+        group.items.forEach(p => children.push(...poemEntry(p)));
+      }
     }
   }
 
@@ -180,7 +236,10 @@ async function generateEvidenceSummary({ q, years, age, content, journals }) {
           paragraph: { spacing: { before: 240, after: 120 }, keepNext: true, outlineLevel: 0 } },
         { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Normal', quickFormat: true,
           run: { font: 'Arial', size: 22, bold: true, color: '000000' },
-          paragraph: { spacing: { before: 200, after: 80 }, keepNext: true, outlineLevel: 1 } }
+          paragraph: { spacing: { before: 200, after: 80 }, keepNext: true, outlineLevel: 1 } },
+        { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Normal', quickFormat: true,
+          run: { font: 'Arial', size: 20, bold: true, color: '000000' },
+          paragraph: { spacing: { before: 160, after: 40 }, keepNext: true, outlineLevel: 2 } }
       ]
     },
     sections: [{
@@ -199,4 +258,4 @@ async function generateEvidenceSummary({ q, years, age, content, journals }) {
   return { buffer: await Packer.toBuffer(doc), sections, poemTotal: poemResult.total };
 }
 
-module.exports = { generateEvidenceSummary, groupBySupertype, SUPERTYPES };
+module.exports = { generateEvidenceSummary, groupBySupertype, SUPERTYPES, SECTIONS };

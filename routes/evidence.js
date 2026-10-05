@@ -16,6 +16,7 @@ router.post('/summary', async (req, res) => {
     const result = await generateEvidenceSummary({
       q,
       years: parseYears(b.years),
+      pubmedYears: parseYears(b.pubmedYears),
       age: String(b.age || 'all'),
       content: String(b.content || 'all'),
       journals: b.journals !== false && b.journals !== 'false' && b.journals !== '0'

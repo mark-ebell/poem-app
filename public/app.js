@@ -8,7 +8,7 @@ const els = {};
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
-  'evidenceBtn', 'evidencePanel', 'evidenceAge', 'evidenceContent', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
+  'evidenceBtn', 'evidencePanel', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
@@ -1235,11 +1235,16 @@ els.poemModalEdit.addEventListener('click', () => {
   if (id) openDoc(id);
 });
 
+// The print buttons stay visible but can only be used when there are results to print.
+function setPrintEnabled(on) {
+  els.printWordBtn.disabled = els.printPdfBtn.disabled = !on;
+}
+
 let lastSearch = null;
 let lastQuery = null; // { q, years } of the search being shown; "Print POEMs" re-runs it
 function renderSearchResults(data) {
   lastSearch = data;
-  els.printArea.classList.toggle('hidden', !data.total);
+  setPrintEnabled(!!data.total);
   els.searchResults.textContent = '';
   els.searchCount.textContent = data.total
     ? `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'} found` +
@@ -1314,7 +1319,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   } catch (err) {
     if (seq === searchSeq) {
       els.searchResults.textContent = '';
-      els.printArea.classList.add('hidden');
+      setPrintEnabled(false);
       els.searchCount.textContent = `Search failed: ${err.message}`;
     }
   } finally {
@@ -1344,6 +1349,7 @@ els.evidenceGenerateBtn.addEventListener('click', async () => {
       body: JSON.stringify({
         q,
         years: els.searchYears.value,
+        pubmedYears: els.evidencePubmedYears.value,
         age: els.evidenceAge.value,
         content: els.evidenceContent.value,
         journals: els.evidenceJournals.checked
@@ -1357,7 +1363,7 @@ els.evidenceGenerateBtn.addEventListener('click', async () => {
     const url = URL.createObjectURL(await resp.blob());
     const a = document.createElement('a');
     a.href = url;
-    a.download = `Evidence Summary ${new Date().toISOString().slice(0, 10)}.docx`;
+    a.download = `Evidence Summary - ${q.replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 60)}.docx`;
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -1387,7 +1393,7 @@ async function fetchPrintOutput(format) {
 
 async function printAs(format) {
   if (!lastQuery) return;
-  els.printWordBtn.disabled = els.printPdfBtn.disabled = true;
+  setPrintEnabled(false);
   els.printStatus.textContent = 'Preparing the POEMs...';
   try {
     const resp = await fetchPrintOutput(format);
@@ -1417,7 +1423,7 @@ async function printAs(format) {
   } catch (err) {
     els.printStatus.textContent = `Could not print: ${err.message}`;
   } finally {
-    els.printWordBtn.disabled = els.printPdfBtn.disabled = false;
+    setPrintEnabled(!!(lastSearch && lastSearch.total));
   }
 }
 
