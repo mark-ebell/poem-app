@@ -9,7 +9,7 @@ const PUBMED_BASE = 'https://pubmed.ncbi.nlm.nih.gov/';
 // The POETs who can be chosen as an author. Historical POEMs use initials; the ones below
 // are mapped to the full last name used in the app, the rest keep their initials.
 const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant', 'Rowland', 'Rayala'];
-const POET_BY_INITIALS = { HB: 'Barry', ME: 'Ebell', AS: 'Shaughnessy', DS: 'Slawson', LS: 'Speer', NS: 'Shrikant', NK: 'Shrikant' };
+const POET_BY_INITIALS = { HB: 'Barry', ME: 'Ebell', AS: 'Shaughnessy', DS: 'Slawson', LS: 'Speer', LF: 'Speer', NS: 'Shrikant', NK: 'Shrikant' };
 const INITIALS_BY_POET = { Barry: 'HB', Ebell: 'ME', Shaughnessy: 'AS', Slawson: 'DS', Speer: 'LS', Shrikant: 'NS' };
 
 const AGE_CODE_BY_LABEL = {
