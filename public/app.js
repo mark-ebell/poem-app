@@ -7,7 +7,7 @@ const els = {};
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchWhole', 'searchExcerpt', 'searchCount', 'searchResults',
+  'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseCount', 'browseResults',
@@ -1229,7 +1229,7 @@ els.poemModalEdit.addEventListener('click', () => {
 });
 
 let lastSearch = null;
-let lastQuery = null; // { q, whole } of the search being shown; "Print POEMs" re-runs it
+let lastQuery = null; // { q, years } of the search being shown; "Print POEMs" re-runs it
 function renderSearchResults(data) {
   lastSearch = data;
   els.printArea.classList.toggle('hidden', !data.total);
@@ -1297,10 +1297,10 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchBtn.disabled = true;
   els.searchCount.textContent = 'Searching...';
   try {
-    const params = new URLSearchParams({ q, whole: els.searchWhole.checked ? '1' : '0', years: els.searchYears.value });
+    const params = new URLSearchParams({ q, years: els.searchYears.value });
     const data = await api(`/poems/search?${params}`);
     if (seq === searchSeq) {
-      lastQuery = { q, whole: els.searchWhole.checked, years: els.searchYears.value };
+      lastQuery = { q, years: els.searchYears.value };
       els.printStatus.textContent = '';
       renderSearchResults(data);
     }
