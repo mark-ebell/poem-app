@@ -217,6 +217,9 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
     const shown = s.articles.length;
     const counts = s.error ? '' : ` (${shown === s.count ? shown : `${shown} of ${s.count.toLocaleString()}`})`;
     children.push(new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun({ text: `${s.area.label}${counts}`, bold: true })] }));
+    if (journals && s.area.ignoreJournalLimit) {
+      children.push(para([new TextRun({ text: 'The high yield journal limit does not apply to this search.', italics: true })]));
+    }
     if (s.error) {
       children.push(para([new TextRun({ text: `This search could not be completed: ${s.error}`, italics: true })]));
       continue;

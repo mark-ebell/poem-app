@@ -32,6 +32,12 @@ const CONTENT_AREAS = [
     clause: 'AND (("guideline*"[ti] OR "practice parameter"[ti] OR "clinical guidance"[ti] OR "recommendation statement"[ti]) NOT ("adherence"[ti] OR "adherent"[ti] OR "concordant"[ti] OR "discordant"[ti] OR "guideline-based"[ti] OR "guideline based"[ti] OR "validation"[ti]) NOT ("guideline-directed"[ti] OR "guideline recommended" OR "guideline commentary"))'
   },
   {
+    // Cochrane reviews appear in one journal, which is not on the high yield list, so the
+    // high yield journal limit is not applied to this search.
+    key: 'cochrane', label: 'Cochrane reviews', ignoreJournalLimit: true,
+    clause: 'AND ("The Cochrane database of systematic reviews"[Journal])'
+  },
+  {
     key: 'systematic', label: 'Systematic Reviews',
     clause: 'AND (systematic[sb] OR "systematic review"[ti] OR "meta-analysis"[ti] OR "Systematic review"[pt] OR "Meta-Analysis"[pt])'
   },
@@ -88,7 +94,7 @@ const findBy = (list, key) => list.find(x => x.key === key) || null;
 function buildQuery(userTerms, ageKey, area, journalsOnly) {
   const terms = String(userTerms).replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
   const age = findBy(AGE_GROUPS, ageKey) || AGE_GROUPS[0];
-  return [`(${terms})`, LIMITERS, age.clause, area.clause, journalsOnly ? JOURNAL_CLAUSE : '']
+  return [`(${terms})`, LIMITERS, age.clause, area.clause, journalsOnly && !area.ignoreJournalLimit ? JOURNAL_CLAUSE : '']
     .filter(Boolean).join(' ');
 }
 
