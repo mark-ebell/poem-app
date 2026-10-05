@@ -29,7 +29,7 @@ const AGE_GROUPS = [
 const CONTENT_AREAS = [
   {
     key: 'guidelines', label: 'Practice guidelines',
-    clause: 'AND (("guideline*"[ti] OR "practice parameter"[ti] OR "clinical guidance"[ti] OR "recommendation statement"[ti]) NOT ("adherence"[ti] OR "adherent"[ti] OR "concordant"[ti] OR "discordant"[ti] OR "guideline-based"[ti] OR "guideline based"[ti] OR "validation"[ti]) NOT ("guideline-directed" OR "guideline recommended" OR "guideline commentary"))'
+    clause: 'AND (("guideline*"[ti] OR "practice parameter"[ti] OR "clinical guidance"[ti] OR "recommendation statement"[ti]) NOT ("adherence"[ti] OR "adherent"[ti] OR "concordant"[ti] OR "discordant"[ti] OR "guideline-based"[ti] OR "guideline based"[ti] OR "validation"[ti]) NOT ("guideline-directed"[ti] OR "guideline recommended" OR "guideline commentary"))'
   },
   {
     key: 'systematic', label: 'Systematic Reviews',
