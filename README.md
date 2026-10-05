@@ -69,7 +69,7 @@ Then open http://localhost:3000. This only listens on your Mac — it is not rea
 5. To use track changes: check **Track changes**, then just start editing the Synopsis or Bottom-line. A moment after you stop typing (or as soon as you click away from the box), your edits are automatically marked up — insertions in green/underlined, deletions in red/struck-through. **Accept all changes** keeps them, **Reject all changes** discards them back to how the text looked when you turned tracking on; either way you keep editing normally afterward. **Show changes now** forces an immediate update instead of waiting for the pause.
    - Tracking only marks *content* changes in the Synopsis and Bottom-line, not formatting or the other fields, and only within your current editing session (it isn't stored alongside the saved POEM). Any changes still pending when you save are accepted into the saved text.
 6. **Save** adds the POEM to the shared repository (or updates it, if you opened it from the list) and stays on the Edit tab; **Save and Exit** does the same and jumps to **Upload and list** to show it in the table.
-7. The **Saved POEMs** table lists everything anyone on the team has saved. Click a column header (**POET**, **Publication Date**, **Title**) to sort; click again to reverse. **Edit** (or the title) loads it into the Edit tab, **Delete** removes it (with an inline "Are you sure?" step) — for everyone, since the repository is shared.
+7. The **Recently added POEMs** table lists the POEMs anyone on the team has written in the app, newest publication date first (POEMs with the same date: most recently added first). Click a column header (**POET**, **Publication Date**, **Title**) to sort by it; click again to reverse. **Edit** (or the title) loads it into the Edit tab, **Delete** removes it (with an inline "Are you sure?" step) — for everyone, since the repository is shared.
 8. **Change password** (top right) lets you update your own password at any time.
 
 ## The database and importing the POEMs repository
@@ -106,7 +106,7 @@ The PubMed search string is built in `pubmed.js` from the strategy document ("Ge
 
 ### Browsing the archive, and loading it into the deployed app
 
-The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month and author. It opens on the most recent month. The **Saved POEMs** list on the first tab shows only POEMs written in the app.
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month and author. It opens on the most recent month. The **Recently added POEMs** list on the first tab shows only POEMs written in the app.
 
 The importer above fills your *local* database. The deployed app (Render) has its own database, so the archive is copied there with the administrator-only upload on the Browse tab (shown only when signed in as `ebell`):
 

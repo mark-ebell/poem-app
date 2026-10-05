@@ -121,7 +121,7 @@ let extractedText = '';
 let currentDocId = null;
 const TRACK_DEBOUNCE_MS = 900;
 let sortColumn = 'publicationDate'; // 'poet' | 'publicationDate' | 'title'
-let sortDir = 'asc'; // 'asc' | 'desc'
+let sortDir = 'desc'; // 'asc' | 'desc' (newest first by default)
 let poemsCache = [];
 let currentUser = null;
 let currentPubmedUrl = null; // saved PubMed URL of the open POEM (shown when the ID is "NA")
@@ -825,7 +825,7 @@ function renderLibrary() {
   if (!appPoems.length) {
     const p = document.createElement('p');
     p.className = 'library-empty';
-    p.textContent = 'No saved POEMs yet.';
+    p.textContent = 'No POEMs have been added yet.';
     els.library.appendChild(p);
     return;
   }
@@ -833,7 +833,9 @@ function renderLibrary() {
   const sorted = [...appPoems].sort((a, b) => {
     const av = sortValue(a, sortColumn), bv = sortValue(b, sortColumn);
     const cmp = av < bv ? -1 : av > bv ? 1 : 0;
-    return sortDir === 'asc' ? cmp : -cmp;
+    if (cmp) return sortDir === 'asc' ? cmp : -cmp;
+    // POEMs with the same value: the one added most recently first.
+    return (b.createdAt || '').localeCompare(a.createdAt || '');
   });
 
   const wrap = document.createElement('div');
@@ -920,7 +922,7 @@ async function refreshLibrary() {
     els.library.textContent = '';
     const p = document.createElement('p');
     p.className = 'library-empty';
-    p.textContent = `Could not load saved POEMs: ${err.message}`;
+    p.textContent = `Could not load POEMs: ${err.message}`;
     els.library.appendChild(p);
   }
 }
