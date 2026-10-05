@@ -21,6 +21,10 @@ const els = {};
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
 
+// ---------- Footer (the year follows the calendar, so it changes on January 1) ----------
+document.getElementById('siteFooter').textContent =
+  `Copyright Group for Organizational Learning and Development ${new Date().getFullYear()}`;
+
 // ---------- API helper ----------
 async function api(path, options = {}) {
   const resp = await fetch(`/api${path}`, {

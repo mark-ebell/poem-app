@@ -160,7 +160,7 @@ function excerptOf(synopsisHtml) {
 
 // Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
 // with hits sorted (title matches first, then newest) as { row, titleHit }.
-function runSearch({ q, whole = true, years = null }) {
+function runSearch({ q, whole = true, years = null, ageCodes = null }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -182,6 +182,10 @@ function runSearch({ q, whole = true, years = null }) {
   const args = required.map(w => `%${escapeLike(w)}%`);
   const since = cutoffMonth(years);
   if (since) { conditions.push('publication_date >= ?'); args.push(since); }
+  if (ageCodes && ageCodes.length) {
+    conditions.push(`age_group IN (${ageCodes.map(() => '?').join(',')})`);
+    args.push(...ageCodes);
+  }
   const where = conditions.length ? 'WHERE ' + conditions.join(' AND ') : '';
   const rows = db.prepare(`
     SELECT id, poem_id, title, poet, publication_date, synopsis, search_text FROM poems ${where}

@@ -233,7 +233,7 @@ button:disabled {
   border-radius: 6px;
   padding: 14px 16px;
   font-family: Arial, sans-serif;
-  font-size: 11pt;
+  font-size: 10pt;
   line-height: 1.5;
   background: white;
 }
@@ -426,3 +426,17 @@ body.modal-open { overflow: hidden; }
 .brand { display: flex; align-items: center; gap: 12px; }
 .mascot { display: block; width: 45px; height: 73px; }
 .mascot-login { margin: 0 auto 8px; }
+
+/* --- Upload help and page footer --- */
+.upload-help { margin: 0 0 14px; font-size: 0.9rem; line-height: 1.5; }
+.site-footer { margin: 28px 0 8px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.78rem; text-align: center; }
+
+/* --- Edit tab: Arial 10 point throughout, bold headings --- */
+#tabEdit, #tabEdit input, #tabEdit select, #tabEdit textarea, #tabEdit button, #tabEdit .hint, #tabEdit label,
+#tabEdit h2, #tabEdit .url-display, #tabEdit .editor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+#tabEdit h2, #tabEdit label { font-weight: bold; }
+#tabEdit label > input, #tabEdit label > select, #tabEdit label > textarea, #tabEdit label > span,
+#tabEdit .toolbar label, #tabEdit .toolbar .hint { font-weight: normal; }

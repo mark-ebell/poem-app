@@ -148,10 +148,10 @@ function articleEntry(a, n) {
 // ---------- main ----------
 // params: { q, years (number or null), age (key), content ('all' or a content-area key), journals (boolean) }
 async function generateEvidenceSummary({ q, years, pubmedYears, age, content, journals }) {
-  const poemResult = poemsForSummary({ q, years });
+  const ageGroup = pm.findBy(pm.AGE_GROUPS, age) || pm.AGE_GROUPS[0];
+  const poemResult = poemsForSummary({ q, years, ageCodes: ageGroup.poemCodes });
   if (poemResult.error) return { error: poemResult.error };
 
-  const ageGroup = pm.findBy(pm.AGE_GROUPS, age) || pm.AGE_GROUPS[0];
   const areas = content === 'all' ? pm.CONTENT_AREAS : [pm.findBy(pm.CONTENT_AREAS, content)].filter(Boolean);
   if (!areas.length) return { error: 'Choose a content area.' };
   const since = cutoffMonth(pubmedYears);
@@ -177,7 +177,8 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
     children: [new TextRun({ text: `Evidence Summary: ${topic}`, bold: true })] }));
   children.push(para([new TextRun({ text: 'Prepared: ', bold: true }),
     new TextRun({ text: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) })]));
-  children.push(para([new TextRun({ text: 'POEMs time span: ', bold: true }), new TextRun({ text: span(years) })]));
+  children.push(para([new TextRun({ text: 'POEMs limits: ', bold: true }),
+    new TextRun({ text: `time span: ${span(years)}; age group: ${ageGroup.label}${ageGroup.poemCodes ? ' (includes POEMs with no age restriction)' : ''}` })]));
   children.push(para([
     new TextRun({ text: 'PubMed limits: ', bold: true }),
     new TextRun({ text: `${ageGroup.label}; ${content === 'all' ? 'all content areas' : areas[0].label}; time span: ${span(pubmedYears)}; ${journals ? 'high yield journals only' : 'all journals'}` })

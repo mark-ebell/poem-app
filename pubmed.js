@@ -11,14 +11,12 @@ const MAX_PER_CATEGORY = 25;
 
 const LIMITERS = 'AND (hasabstract[text] AND humans[MH] AND English[lang])';
 
+// poemCodes: the POEMs' age_group values that match (1 = adults, 2 = children, 3 = no age
+// restriction, i.e. both; POEMs with no age group recorded are left out of a filtered list).
 const AGE_GROUPS = [
-  { key: 'all', label: 'All ages', clause: '' },
-  { key: 'infant', label: 'Infant (birth to 32 mos)', clause: 'AND (infant[filter])' },
-  { key: 'child-0-18', label: 'Child (birth to 18 years)', clause: 'AND ("Child: birth-18 years"[filter])' },
-  { key: 'child-6-12', label: 'Child (6 to 12 years)', clause: 'AND (child[filter])' },
-  { key: 'adolescent', label: 'Adolescent (13 to 18 years)', clause: 'AND (adolescent[filter])' },
-  { key: 'adult', label: 'Adult (19+)', clause: 'AND (adult[filter])' },
-  { key: 'aged', label: 'Aged (65+)', clause: 'AND (aged[filter])' }
+  { key: 'all', label: 'All ages', clause: '', poemCodes: null },
+  { key: 'child-0-18', label: 'Child (birth to 18 years)', clause: 'AND ("Child: birth-18 years"[filter])', poemCodes: [2, 3] },
+  { key: 'adult', label: 'Adult (19+ years)', clause: 'AND (adult[filter])', poemCodes: [1, 3] }
 ];
 
 // The strings below are the ones in the strategy document. Three typing slips

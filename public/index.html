@@ -23,7 +23,6 @@
       <button type="submit">Sign in</button>
       <p id="loginError" class="error-msg hidden"></p>
     </form>
-    <p class="login-copyright">This app copyright Group for Organizational Learning and Development.</p>
   </div>
 
   <div id="appRoot" class="hidden">
@@ -55,7 +54,7 @@
     </section>
 
     <nav class="tabs">
-      <button type="button" class="tab-btn active" id="tabBtnUpload" data-tab="upload">Upload and list</button>
+      <button type="button" class="tab-btn active" id="tabBtnUpload" data-tab="upload">Upload</button>
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse</button>
       <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search</button>
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence</button>
@@ -65,6 +64,7 @@
     <div id="tabUpload" class="tab-panel">
       <section class="card">
         <h2>Upload a research article (PDF)</h2>
+        <p class="upload-help">Upload a research study (PDF) and press the button to generate the first draft of a POEM (Patient Oriented Evidence that Matters). The text of the article is sent to Claude, an AI assistant, which writes the draft; this can take up to a minute. The draft then opens in the Edit tab, where you can review and edit it, choose the POET and publication date, and save it to the repository. PDFs that are scanned images without a text layer cannot be read.</p>
         <input type="file" id="pdfInput" accept="application/pdf">
         <p id="fileStatus" class="hint"></p>
         <button id="generateBtn" disabled>Generate POEM</button>
@@ -166,12 +166,8 @@
             <label>Age group
               <select id="evidenceAge">
                 <option value="all" selected>All ages</option>
-                <option value="infant">Infant (birth to 32 mos)</option>
                 <option value="child-0-18">Child (birth to 18 years)</option>
-                <option value="child-6-12">Child (6 to 12 years)</option>
-                <option value="adolescent">Adolescent (13 to 18 years)</option>
-                <option value="adult">Adult (19+)</option>
-                <option value="aged">Aged (65+)</option>
+                <option value="adult">Adult (19+ years)</option>
               </select>
             </label>
             <label>PubMed content area
@@ -302,9 +298,9 @@
           <select id="fontSizeSelect" title="Font size">
             <option value="8">8</option>
             <option value="9">9</option>
-            <option value="10">10</option>
+            <option value="10" selected>10</option>
             <option value="10.5">10.5</option>
-            <option value="11" selected>11</option>
+            <option value="11">11</option>
             <option value="12">12</option>
             <option value="14">14</option>
             <option value="16">16</option>
@@ -348,6 +344,7 @@
       </section>
     </div>
   </div>
+  <footer id="siteFooter" class="site-footer"></footer>
 </div>
 <script type="module" src="app.js"></script>
 </body>
