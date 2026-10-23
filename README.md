@@ -159,7 +159,7 @@ Besides the usage limits: everything requires a login; POEMs are sent to readers
 
 ## Diagnostic calculators
 
-The **Differential Dx**, **Hx & PE** (signs and symptoms) and **Diagnostic Tests** tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
+The **Differential** (differential diagnosis), **H & P** (signs and symptoms) and **Tests** (diagnostic tests) tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
 
 1. Edit the spreadsheet(s) in the `Diagnostic App` folder.
 2. Run `python3 build/build.py` there. It rebuilds the standalone calculator page and the iOS app's copy, and writes `calculator-data.json` into this folder.
