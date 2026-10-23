@@ -3,7 +3,11 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs
 
 const els = {};
 [
-  'loginScreen', 'loginForm', 'loginUsername', 'loginPassword', 'loginError',
+  'loginScreen', 'loginForm', 'loginUsername', 'loginPassword', 'loginError', 'authNotice',
+  'loginView', 'signupView', 'forgotView', 'resetView', 'showForgot', 'showSignup', 'showLoginFromSignup', 'showLoginFromForgot',
+  'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
+  'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
+  'newPasswordRule', 'browseAuthorField', 'readerPrintNote', 'evidenceHelp',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
@@ -42,10 +46,158 @@ async function api(path, options = {}) {
 }
 
 // ---------- Auth ----------
-function showLogin() {
+// The login screen has four views: log in, create an account (shown first on a
+// browser that has never had an account here), forgotten password, and the new
+// password form reached from the emailed link.
+const HAS_ACCOUNT_KEY = 'inforetriever.hasAccount';
+const remember = () => { try { localStorage.setItem(HAS_ACCOUNT_KEY, '1'); } catch { /* private window */ } };
+const hasAccountHere = () => { try { return localStorage.getItem(HAS_ACCOUNT_KEY) === '1'; } catch { return false; } };
+let resetToken = null;
+
+function showAuthView(name, notice) {
+  for (const [key, view] of Object.entries({ login: els.loginView, signup: els.signupView, forgot: els.forgotView, reset: els.resetView })) {
+    view.classList.toggle('hidden', key !== name);
+  }
+  [els.loginError, els.signupError, els.forgotError, els.resetError].forEach(e => e.classList.add('hidden'));
+  els.authNotice.textContent = notice || '';
+  els.authNotice.classList.toggle('hidden', !notice);
+  if (name === 'signup') renderTurnstile();
+}
+
+function showLogin(notice) {
   els.loginScreen.classList.remove('hidden');
   els.appRoot.classList.add('hidden');
+  showAuthView(hasAccountHere() ? 'login' : 'signup', notice);
 }
+
+function showError(el, message) {
+  el.textContent = message;
+  el.classList.remove('hidden');
+}
+
+// POSTs to the API without the 401 handling of api() (these forms are used while logged out).
+async function postJson(path, body) {
+  const resp = await fetch(`/api${path}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  const data = await resp.json().catch(() => ({}));
+  if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+  return data;
+}
+
+// Reader passwords: 8+ characters, an upper case letter, 2 numbers, 2 special symbols.
+const PASSWORD_RULES = [
+  ['At least 8 characters', s => s.length >= 8],
+  ['An upper case letter', s => /[A-Z]/.test(s)],
+  ['2 numbers', s => (s.match(/[0-9]/g) || []).length >= 2],
+  ['2 special symbols (such as ! # $ %)', s => (s.match(/[^A-Za-z0-9\s]/g) || []).length >= 2]
+];
+const passwordOk = s => PASSWORD_RULES.every(([, test]) => test(s));
+function renderRules(list, value) {
+  list.textContent = '';
+  for (const [label, test] of PASSWORD_RULES) {
+    const li = document.createElement('li');
+    const met = test(value);
+    li.className = met ? 'met' : '';
+    li.textContent = `${met ? '✓' : '•'} ${label}`;
+    list.appendChild(li);
+  }
+}
+renderRules(els.signupRules, '');
+renderRules(els.resetRules, '');
+els.signupPassword.addEventListener('input', () => renderRules(els.signupRules, els.signupPassword.value));
+els.resetPassword.addEventListener('input', () => renderRules(els.resetRules, els.resetPassword.value));
+
+// Cloudflare Turnstile ("are you human" check), when the server has keys for it.
+let turnstileSiteKey = null;
+let turnstileWidget = null;
+let turnstileLoading = null;
+function loadTurnstile() {
+  turnstileLoading = turnstileLoading || new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    s.async = true;
+    s.onload = resolve;
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+  return turnstileLoading;
+}
+async function renderTurnstile() {
+  if (!turnstileSiteKey) return;
+  try {
+    await loadTurnstile();
+    if (turnstileWidget === null) turnstileWidget = window.turnstile.render(els.turnstileBox, { sitekey: turnstileSiteKey });
+    else window.turnstile.reset(turnstileWidget);
+  } catch {
+    showError(els.signupError, 'The "are you human" check could not be loaded. Please reload the page.');
+  }
+}
+fetch('/api/config').then(r => r.json()).then(c => {
+  turnstileSiteKey = c.turnstileSiteKey || null;
+  if (!els.signupView.classList.contains('hidden')) renderTurnstile();
+}).catch(() => {});
+
+els.showSignup.addEventListener('click', () => showAuthView('signup'));
+els.showForgot.addEventListener('click', () => {
+  if (els.loginUsername.value.includes('@')) els.forgotEmail.value = els.loginUsername.value.trim();
+  showAuthView('forgot');
+});
+els.showLoginFromSignup.addEventListener('click', () => showAuthView('login'));
+els.showLoginFromForgot.addEventListener('click', () => showAuthView('login'));
+
+els.signupForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  els.signupError.classList.add('hidden');
+  const email = els.signupEmail.value.trim();
+  const password = els.signupPassword.value;
+  if (!passwordOk(password)) return showError(els.signupError, 'Please choose a password that meets all of the rules above.');
+  if (password !== els.signupConfirm.value) return showError(els.signupError, 'The two passwords do not match.');
+  if (!els.signupTerms.checked) return showError(els.signupError, 'Please agree to the Terms of Use to create an account.');
+  const turnstileToken = turnstileWidget !== null ? window.turnstile.getResponse(turnstileWidget) : undefined;
+  if (turnstileSiteKey && !turnstileToken) return showError(els.signupError, 'Please complete the "are you human" check.');
+  els.signupBtn.disabled = true;
+  try {
+    await postJson('/signup', { email, password, acceptTerms: true, turnstileToken });
+    remember();
+    els.signupForm.reset();
+    renderRules(els.signupRules, '');
+    els.loginUsername.value = email;
+    showAuthView('login', `Almost done: we have sent a confirmation link to ${email}. Open it to start using InfoRetriever. (Check your spam folder if it does not arrive within a few minutes.)`);
+  } catch (err) {
+    showError(els.signupError, err.message);
+    renderTurnstile();
+  } finally {
+    els.signupBtn.disabled = false;
+  }
+});
+
+els.forgotForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  els.forgotError.classList.add('hidden');
+  const email = els.forgotEmail.value.trim();
+  try {
+    await postJson('/forgot', { email });
+    showAuthView('login', `If ${email} has an InfoRetriever account, we have sent it a link to choose a new password. The link works for one hour.`);
+  } catch (err) {
+    showError(els.forgotError, err.message);
+  }
+});
+
+els.resetForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  els.resetError.classList.add('hidden');
+  const password = els.resetPassword.value;
+  if (!passwordOk(password)) return showError(els.resetError, 'Please choose a password that meets all of the rules above.');
+  if (password !== els.resetConfirm.value) return showError(els.resetError, 'The two passwords do not match.');
+  try {
+    const data = await postJson('/reset', { token: resetToken, password });
+    resetToken = null;
+    remember();
+    els.resetForm.reset();
+    await init(data.user);
+  } catch (err) {
+    showError(els.resetError, err.message);
+  }
+});
 
 function showApp(user) {
   els.loginScreen.classList.add('hidden');
@@ -70,6 +222,7 @@ els.loginForm.addEventListener('submit', async (e) => {
     const data = await resp.json().catch(() => ({}));
     if (!resp.ok) throw new Error(data.error || 'Login failed.');
     els.loginPassword.value = '';
+    remember();
     await init(data.user);
   } catch (err) {
     els.loginError.textContent = err.message;
@@ -79,7 +232,7 @@ els.loginForm.addEventListener('submit', async (e) => {
 
 els.logoutBtn.addEventListener('click', async () => {
   await fetch('/api/logout', { method: 'POST' });
-  showLogin();
+  location.reload(); // starts the next person (or the next login) from a clean page
 });
 
 els.changePasswordForm.addEventListener('submit', async (e) => {
@@ -1202,7 +1355,78 @@ function renderBrowse() {
   }
 }
 
-[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge].forEach(sel => sel.addEventListener('change', renderBrowse));
+[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge].forEach(sel => sel.addEventListener('change', () => {
+  if (isReader()) renderReaderBrowse();
+  else renderBrowse();
+}));
+
+// ---------- Readers' Browse: the server filters, and lists Published titles only ----------
+async function loadReaderBrowse() {
+  try {
+    const { years, latest } = await api('/poems/browse-options');
+    setOptions(els.browseYear, [[ALL, 'All years'], ...years.map(y => [y, y])], latest ? latest.slice(0, 4) : ALL);
+    setOptions(els.browseMonth, [[ALL, 'All months'], ...MONTH_NAMES.map((n, i) => [String(i + 1).padStart(2, '0'), n])], latest ? latest.slice(5, 7) : ALL);
+    await renderReaderBrowse();
+  } catch (err) {
+    els.browseCount.textContent = `Could not load POEMs: ${err.message}`;
+  }
+}
+
+let browseSeq = 0;
+async function renderReaderBrowse() {
+  const seq = ++browseSeq;
+  const params = new URLSearchParams({ year: els.browseYear.value, month: els.browseMonth.value, age: els.browseAge.value });
+  let data;
+  try {
+    data = await api(`/poems/browse?${params}`);
+  } catch (err) {
+    if (seq === browseSeq) { els.browseCount.textContent = err.message; els.browseResults.textContent = ''; }
+    return;
+  }
+  if (seq !== browseSeq) return;
+  els.browseCount.textContent = `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'}` +
+    (data.truncated ? ` — showing the most recent ${data.poems.length}. Choose a year or month to see the rest.` : '');
+  els.browseResults.textContent = '';
+  if (!data.total) {
+    const p = document.createElement('p');
+    p.className = 'library-empty';
+    p.textContent = 'No POEMs match these filters.';
+    els.browseResults.appendChild(p);
+    return;
+  }
+  const table = document.createElement('table');
+  table.className = 'library-table';
+  const headRow = document.createElement('tr');
+  ['Publication date', 'Title', 'Age group'].forEach(label => {
+    const th = document.createElement('th');
+    th.textContent = label;
+    headRow.appendChild(th);
+  });
+  const thead = document.createElement('thead');
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+  const tbody = document.createElement('tbody');
+  data.poems.forEach(doc => {
+    const row = document.createElement('tr');
+    const dateCell = document.createElement('td');
+    dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
+    const titleCell = document.createElement('td');
+    const link = document.createElement('span');
+    link.className = 'library-title-link';
+    link.textContent = doc.title || 'Untitled POEM';
+    link.addEventListener('click', () => showPoemPopup(doc.id, { highlight: false }));
+    titleCell.appendChild(link);
+    const ageCell = document.createElement('td');
+    ageCell.textContent = { 1: 'Adults', 2: 'Children', 3: 'Both' }[doc.ageGroup] || 'Not specified';
+    row.append(dateCell, titleCell, ageCell);
+    tbody.appendChild(row);
+  });
+  table.appendChild(tbody);
+  const wrap = document.createElement('div');
+  wrap.className = 'library-table-wrap';
+  wrap.appendChild(table);
+  els.browseResults.appendChild(wrap);
+}
 
 // ---------- Search ----------
 let searchSeq = 0; // ignores the response to a search that has since been superseded
@@ -1243,7 +1467,7 @@ function highlightTextNodes(root, terms, whole) {
   }
 }
 
-async function showPoemPopup(id) {
+async function showPoemPopup(id, { highlight = true } = {}) {
   let html;
   try {
     ({ html } = await api(`/poems/${id}/view`));
@@ -1253,7 +1477,8 @@ async function showPoemPopup(id) {
   }
   popupPoemId = id;
   els.poemModalBody.innerHTML = html; // built by the server from escaped text
-  if (lastSearch) highlightTextNodes(els.poemModalBody, lastSearch.terms, lastSearch.whole);
+  if (highlight && lastSearch) highlightTextNodes(els.poemModalBody, lastSearch.terms, lastSearch.whole);
+  els.poemModalBody.querySelectorAll('a[href]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
   els.poemModalBody.scrollTop = 0;
   els.poemModal.classList.remove('hidden');
   document.body.classList.add('modal-open');
@@ -1369,6 +1594,19 @@ els.searchForm.addEventListener('submit', async (e) => {
 });
 
 // ---------- Evidence Summary ----------
+// Readers' summaries cover practice guidelines, Cochrane reviews and systematic
+// reviews from PubMed, from at most the last 10 years (the server enforces this too).
+function limitEvidenceOptions() {
+  setOptions(els.evidenceContent, [
+    ['all', 'Guidelines, Cochrane and systematic reviews'],
+    ['guidelines', 'Practice guidelines'],
+    ['cochrane', 'Cochrane reviews'],
+    ['systematic', 'Systematic Reviews']
+  ], 'all');
+  setOptions(els.evidencePubmedYears, [['1', '1 year'], ['3', '3 years'], ['5', '5 years'], ['10', '10 years']], '10');
+  els.evidenceHelp.textContent = 'Downloads a Word document that begins with the most recent matching POEMs (up to 25), grouped by supertype, followed by practice guidelines, Cochrane reviews and systematic reviews from PubMed. Evidence Summaries and printouts are limited to 5 a day.';
+}
+
 els.evidenceForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   const q = els.evidenceTopic.value.trim();
@@ -1596,16 +1834,61 @@ els.wordReadBtn.addEventListener('click', async () => {
 });
 
 // ---------- init ----------
+const isReader = () => !!currentUser && currentUser.role === 'reader';
+
+// Readers see only Browse, Search and Evidence; the server enforces the same rules.
+function applyRole() {
+  const reader = isReader();
+  [els.tabBtnUpload, els.tabBtnEdit].forEach(b => b.classList.toggle('hidden', reader));
+  els.browseAuthorField.classList.toggle('hidden', reader);
+  els.poemModalEdit.classList.toggle('hidden', reader);
+  els.readerPrintNote.classList.toggle('hidden', !reader);
+  els.newPasswordRule.textContent = reader
+    ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'
+    : '(at least 8 characters)';
+  if (reader) limitEvidenceOptions();
+}
+
 async function init(user) {
   currentUser = user;
   els.wordImport.classList.toggle('hidden', user.username !== 'ebell');
   showApp(user);
+  applyRole();
+  if (isReader()) {
+    switchTab('browse');
+    await loadReaderBrowse();
+    return;
+  }
   applyNewDocumentDefaults();
   await refreshLibrary();
   updateTrackButtonsState();
 }
 
+// Links from the confirmation and password emails: /?verify=... and /?reset=...
 (async () => {
+  const params = new URLSearchParams(location.search);
+  const verify = params.get('verify');
+  const reset = params.get('reset');
+  if (verify || reset) history.replaceState(null, '', location.pathname); // keep the token out of the history
+  if (verify) {
+    try {
+      const data = await postJson('/verify', { token: verify });
+      remember();
+      await init(data.user);
+    } catch (err) {
+      remember();
+      showLogin(err.message);
+    }
+    return;
+  }
+  if (reset) {
+    resetToken = reset;
+    remember();
+    els.loginScreen.classList.remove('hidden');
+    els.appRoot.classList.add('hidden');
+    showAuthView('reset');
+    return;
+  }
   try {
     const { user } = await api('/me');
     await init(user);

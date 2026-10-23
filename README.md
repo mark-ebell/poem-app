@@ -120,6 +120,43 @@ Each POEM in the file starts with a `Title:` line. Recognised labels (any capita
 
 Author initials are turned into names in `poem-model.js` (ME Ebell, HB Barry, AS Shaughnessy, DS Slawson, LS and LF Speer, NS and NK Shrikant); the Browse author menu lists those POETs (plus Rowland and Rayala once they have POEMs) and puts everyone else under "Other authors".
 
+## Editors and readers
+
+There are two kinds of account:
+
+- **Editors** are the POETs (the fixed accounts in `seed-users.js`). They log in with their user name and can use every tab.
+- **Readers** are members of the public. They create their own account on the login screen with their email address and a password (at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols), agree to the Terms of Use (`public/terms.html`), pass an "are you human" check, and confirm their address from an emailed link. A browser that has never had an account here is shown the sign-up form first; after that, the log-in form. Readers can reset a forgotten password by email.
+
+What readers can do (the server enforces all of this; hiding tabs in the page is only for convenience):
+
+- Only the **Browse**, **Search** and **Evidence** tabs, and only POEMs whose status is **Published**. They never see the POET, the POEM number, drafts, the Upload or Edit tabs, or the Word import.
+- Clicking a POEM opens it in a pop-up: 10 point Arial, bold headings, no hard line breaks.
+- Browse lists at most 200 titles at a time; Search shows at most 200 results.
+- Printing a search (Word or PDF) includes the first 25 matching POEMs.
+- Evidence Summaries include up to the 25 most recent matching POEMs, and from PubMed only practice guidelines, Cochrane reviews and systematic reviews from at most the last 10 years.
+- **Usage limits** (in `limits.js`): 40 POEMs opened an hour and 150 a day; 60 searches or browse pages an hour and 300 a day; 5 printouts or Evidence Summaries a day. A reader who reaches a daily limit on 3 days within a week is locked automatically.
+
+To see reader accounts, or unlock one (on Render, from the service's **Shell** tab):
+
+```
+npm run readers                     # all readers
+npm run readers -- locked           # locked readers only
+npm run readers -- unlock name@example.com
+npm run readers -- lock name@example.com
+```
+
+### Services the reader sign-up needs
+
+Set these in `.env` locally, or in Render's **Environment** tab:
+
+- **APP_URL**: the site's public address (for the links in emails), e.g. `https://inforetriever.org`.
+- **RESEND_API_KEY** and **EMAIL_FROM**: an account at [Resend](https://resend.com) sends the confirmation and password-reset emails. Verify your sending domain there first. Without a key, emails are written to the server log instead, which is fine for local testing.
+- **TURNSTILE_SITE_KEY** and **TURNSTILE_SECRET_KEY**: Cloudflare Turnstile (free, at dash.cloudflare.com > Turnstile) provides the "are you human" check on the sign-up form. Without them the check is skipped.
+
+### Protection against scraping
+
+Besides the usage limits: everything requires a login; POEMs are sent to readers one at a time, never as bulk data; known AI crawlers and common scraping tools are refused; `robots.txt`, a page tag and an `X-Robots-Tag` header ask search engines and AI crawlers to stay out; and each network address is limited to 1,000 requests per 15 minutes.
+
 ## Deploying to Render (making it reachable on the internet)
 
 This repo includes a `render.yaml` file that pre-fills most of the setup. The parts only you can do (they require your own accounts):
@@ -139,7 +176,7 @@ For future updates: once I make a change, publishing it from GitHub Desktop (or 
 - Sessions are stored in the database (not just in memory), so they survive server restarts — a redeploy won't log everyone out.
 - Repeated failed login attempts (10 within 15 minutes, per IP) are temporarily blocked to slow down password-guessing — relevant once the login page is reachable by anyone on the internet.
 - Session cookies are marked "secure" (HTTPS-only) automatically once deployed; locally over plain `http://localhost` they still work as before.
-- The POET accounts are fixed to the list in `seed-users.js` — there's no self-service sign-up, matching the closed POET roster.
-- What this setup does **not** include: account lockout after repeated failures (only slowdown), email-based password reset, or protection against a compromised Anthropic key being used heavily (consider usage alerts in the Anthropic console).
+- The POET (editor) accounts are fixed to the list in `seed-users.js`; self-service sign-up creates reader accounts only.
+- What this setup does **not** include: account lockout after repeated failed logins (only slowdown), email-based password reset for editors (readers have it), or protection against a compromised Anthropic key being used heavily (consider usage alerts in the Anthropic console).
 - PDFs that are scanned images without a text layer won't extract text; you'd need to OCR them first.
 - The database is a single file (`poems.db`, plus SQLite's `-wal`/`-shm` sidecars) — locally at `data/`, on Render on the attached persistent disk. Back it up by copying that file while the server isn't mid-write; there's no built-in export yet (the importer's backups in `data/backups/` are also plain copies of the database).

@@ -113,7 +113,7 @@ label {
 
 .optional { color: var(--muted); font-weight: normal; font-size: 0.8rem; }
 
-input[type="text"], input[type="password"], input[type="search"], select, textarea {
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], select, textarea {
   display: block;
   width: 100%;
   margin-top: 4px;
@@ -414,13 +414,31 @@ body.modal-open { overflow: hidden; }
 .poem-view h1 { font-size: 12pt; font-weight: bold; margin: 0 0 6pt; }
 .poem-view p { margin: 0 0 7pt; }
 .poem-view .byline { margin-bottom: 12pt; }
+.poem-view .disclaimer { margin-top: 10pt; }
 .poem-view mark { background: #fef08a; }
+/* Readers' pop-up: 10 point sans serif, bold headings, text flowing without hard line breaks. */
+.poem-view.reader-view { font-size: 10pt; }
+.poem-view.reader-view h1 { font-size: 10pt; }
+.poem-view.reader-view .byline { margin-bottom: 8pt; }
 
 /* --- Evidence Summary --- */
 .evidence-fields { flex-wrap: wrap; margin-bottom: 10px; }
 .evidence-fields label { min-width: 200px; }
 .evidence-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 12px 0 6px; }
 .evidence-actions .hint { margin: 0; }
+
+/* --- Sign-up, password reset --- */
+#loginScreen { max-width: 420px; }
+.auth-view .login-instructions { margin: 0 0 16px; }
+.notice { background: #eff6ff; border: 1px solid #bfdbfe; color: #1e3a8a; border-radius: 6px; padding: 10px 12px; font-size: 0.88rem; line-height: 1.45; margin: 0 0 14px; }
+.auth-links { margin: 10px 0 0; font-size: 0.88rem; }
+.auth-switch { margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--border); font-size: 0.88rem; }
+.pw-rules { list-style: none; margin: -6px 0 12px; padding: 0; font-size: 0.82rem; color: var(--muted); }
+.pw-rules li { margin: 2px 0; }
+.pw-rules li.met { color: #15803d; }
+.terms-check { align-items: flex-start; line-height: 1.4; margin-bottom: 12px; }
+.terms-check input { margin-top: 3px; }
+.turnstile-box:not(:empty) { margin-bottom: 12px; }
 
 /* --- Branding --- */
 .brand { display: flex; align-items: center; gap: 12px; }
@@ -448,3 +466,9 @@ body.modal-open { overflow: hidden; }
 .import-note { color: #92400e; }
 button.secondary { background: #eef1f5; color: var(--text); }
 button.secondary:hover:not(:disabled) { background: #e2e6ec; }
+
+/* --- Terms of Use page --- */
+.terms { line-height: 1.55; font-size: 0.92rem; }
+.terms h3 { font-size: 0.95rem; margin: 18px 0 6px; }
+.terms ul { padding-left: 20px; }
+.terms li { margin: 4px 0; }

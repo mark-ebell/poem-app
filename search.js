@@ -31,6 +31,10 @@ function backfillSearchText() {
 }
 
 const MAX_RESULTS = 300;
+// Readers get shorter lists and smaller printouts, so the archive can't be copied through them.
+const READER_MAX_RESULTS = 200;
+const READER_MAX_EXPORT = 25;
+const READER_MAX_SUMMARY_POEMS = 25;
 const MAX_QUERY = 300;
 const EXCERPT_WORDS = 50;
 
@@ -160,7 +164,8 @@ function excerptOf(synopsisHtml) {
 
 // Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
 // with hits sorted (title matches first, then newest) as { row, titleHit }.
-function runSearch({ q, whole = true, years = null, ageCodes = null }) {
+// publishedOnly (for readers) leaves out POEMs that are still being edited.
+function runSearch({ q, whole = true, years = null, ageCodes = null, publishedOnly = false }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -180,6 +185,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null }) {
   const required = [...new Set(requiredTerms(tree).map(longestWord).filter(Boolean))];
   const conditions = required.map(() => "search_text LIKE ? ESCAPE '\\'");
   const args = required.map(w => `%${escapeLike(w)}%`);
+  if (publishedOnly) conditions.push("status = 'Published'");
   const since = cutoffMonth(years);
   if (since) { conditions.push('publication_date >= ?'); args.push(since); }
   if (ageCodes && ageCodes.length) {
@@ -218,11 +224,18 @@ function runSearch({ q, whole = true, years = null, ageCodes = null }) {
   return { hits, highlightTerms, whole: !!whole };
 }
 
-function searchPoems(params) {
-  const result = runSearch(params);
+// reader: Published POEMs only, a shorter list, and no POET or POEM number.
+function searchPoems(params, { reader = false } = {}) {
+  const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
   const { hits, highlightTerms, whole } = result;
-  const poems = hits.slice(0, MAX_RESULTS).map(({ row }) => ({
+  const max = reader ? READER_MAX_RESULTS : MAX_RESULTS;
+  const poems = hits.slice(0, max).map(({ row }) => (reader ? {
+    id: row.id,
+    title: row.title,
+    publicationDate: row.publication_date,
+    excerpt: excerptOf(row.synopsis)
+  } : {
     id: row.id,
     poemId: row.poem_id,
     title: row.title,
@@ -230,20 +243,23 @@ function searchPoems(params) {
     publicationDate: row.publication_date,
     excerpt: excerptOf(row.synopsis)
   }));
-  return { total: hits.length, truncated: hits.length > MAX_RESULTS, terms: highlightTerms, whole, poems };
+  return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems };
 }
 
 // Every POEM matching a query, in full, in the same order as the search results.
+// For a reader, only the first READER_MAX_EXPORT Published POEMs are printed (total
+// is how many matched).
 const MAX_EXPORT = 500;
-function poemsForExport(params) {
-  const result = runSearch(params);
+function poemsForExport(params, { reader = false } = {}) {
+  const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
   const ids = result.hits.map(h => h.row.id);
   if (!ids.length) return { error: 'No POEMs match that search.' };
+  if (reader) return { total: ids.length, poems: rowsInOrder(ids.slice(0, READER_MAX_EXPORT)) };
   if (ids.length > MAX_EXPORT) {
     return { error: `That search matches ${ids.length.toLocaleString()} POEMs. Please narrow it to ${MAX_EXPORT} or fewer to print them.` };
   }
-  return { poems: rowsInOrder(ids) };
+  return { total: ids.length, poems: rowsInOrder(ids) };
 }
 
 function rowsInOrder(ids) {
@@ -257,14 +273,16 @@ function rowsInOrder(ids) {
 }
 
 // The POEMs matching a query for the Evidence Summary: newest first, at most
-// MAX_SUMMARY_POEMS of them (total is how many matched).
+// MAX_SUMMARY_POEMS of them (total is how many matched). For a reader, Published
+// POEMs only, and at most READER_MAX_SUMMARY_POEMS.
 const MAX_SUMMARY_POEMS = 500;
-function poemsForSummary(params) {
-  const result = runSearch(params);
+function poemsForSummary(params, { reader = false } = {}) {
+  const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
   const sorted = result.hits.map(h => h.row).sort((a, b) =>
     (b.publication_date || '').localeCompare(a.publication_date || '') || (a.title || '').localeCompare(b.title || ''));
-  return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, MAX_SUMMARY_POEMS).map(r => r.id)) };
+  const max = reader ? READER_MAX_SUMMARY_POEMS : MAX_SUMMARY_POEMS;
+  return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, max).map(r => r.id)) };
 }
 
-module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS };
+module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };

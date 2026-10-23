@@ -3,13 +3,13 @@ const crypto = require('crypto');
 const path = require('path');
 const fs = require('fs');
 const db = require('../db');
-const { requireAuth } = require('../auth');
+const { requireEditor } = require('../auth');
 const { sanitizeHtml, pubmedUrlFor, generatePoemId, INITIALS_BY_POET } = require('../poem-model');
 const { buildSearchText } = require('../search');
 const { readBatch, supertypeCode } = require('../word-import');
 
 const router = express.Router();
-router.use(requireAuth);
+router.use(requireEditor);
 
 const ADMIN_USERNAMES = ['ebell'];
 

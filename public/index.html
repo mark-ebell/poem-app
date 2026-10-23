@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive, noai, noimageai">
 <title>InfoRetriever</title>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,17 +13,76 @@
   <div id="loginScreen" class="card hidden">
     <img src="inforetriever.jpg" alt="InfoRetriever golden retriever" class="mascot mascot-login" width="45" height="73">
     <h1 class="login-title">InfoRetriever</h1>
-    <p class="hint login-instructions">Enter your user name and password. The first time you log in, you will be asked to generate a new password.</p>
-    <form id="loginForm">
-      <label>Username
-        <input type="text" id="loginUsername" autocomplete="username" required>
-      </label>
-      <label>Password
-        <input type="password" id="loginPassword" autocomplete="current-password" required>
-      </label>
-      <button type="submit">Sign in</button>
-      <p id="loginError" class="error-msg hidden"></p>
-    </form>
+    <p id="authNotice" class="notice hidden"></p>
+
+    <!-- Log in (editors with their username, readers with their email address) -->
+    <div id="loginView" class="auth-view">
+      <p class="hint login-instructions">Log in with your email address and password. Editors use their user name.</p>
+      <form id="loginForm">
+        <label>Email or user name
+          <input type="text" id="loginUsername" autocomplete="username" required>
+        </label>
+        <label>Password
+          <input type="password" id="loginPassword" autocomplete="current-password" required>
+        </label>
+        <button type="submit">Log in</button>
+        <p id="loginError" class="error-msg hidden"></p>
+      </form>
+      <p class="auth-links"><button type="button" class="link-btn" id="showForgot">Forgot password?</button></p>
+      <p class="auth-switch">New to InfoRetriever? <button type="button" class="link-btn" id="showSignup">Create an account</button></p>
+    </div>
+
+    <!-- Create a reader account -->
+    <div id="signupView" class="auth-view hidden">
+      <p class="hint login-instructions">Create a free account to browse and search POEMs (Patient Oriented Evidence that Matters) and prepare Evidence Summaries.</p>
+      <form id="signupForm">
+        <label>Email address
+          <input type="email" id="signupEmail" autocomplete="email" required maxlength="254">
+        </label>
+        <label>Password
+          <input type="password" id="signupPassword" autocomplete="new-password" required>
+        </label>
+        <ul id="signupRules" class="pw-rules" aria-live="polite"></ul>
+        <label>Confirm password
+          <input type="password" id="signupConfirm" autocomplete="new-password" required>
+        </label>
+        <label class="inline-check terms-check"><input type="checkbox" id="signupTerms"> <span>I agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a>, including that I will not copy POEMs in bulk or use them to train AI systems.</span></label>
+        <div id="turnstileBox" class="turnstile-box"></div>
+        <button type="submit" id="signupBtn">Create account</button>
+        <p id="signupError" class="error-msg hidden"></p>
+      </form>
+      <p class="auth-switch">Already have an account? <button type="button" class="link-btn" id="showLoginFromSignup">Log in</button></p>
+    </div>
+
+    <!-- Forgotten password -->
+    <div id="forgotView" class="auth-view hidden">
+      <p class="hint login-instructions">Enter the email address you signed up with and we will send you a link to choose a new password.</p>
+      <form id="forgotForm">
+        <label>Email address
+          <input type="email" id="forgotEmail" autocomplete="email" required>
+        </label>
+        <button type="submit">Send link</button>
+        <p id="forgotError" class="error-msg hidden"></p>
+      </form>
+      <p class="auth-switch"><button type="button" class="link-btn" id="showLoginFromForgot">Back to log in</button></p>
+    </div>
+
+    <!-- New password, from the emailed link -->
+    <div id="resetView" class="auth-view hidden">
+      <p class="hint login-instructions">Choose a new password.</p>
+      <form id="resetForm">
+        <label>New password
+          <input type="password" id="resetPassword" autocomplete="new-password" required>
+        </label>
+        <ul id="resetRules" class="pw-rules" aria-live="polite"></ul>
+        <label>Confirm new password
+          <input type="password" id="resetConfirm" autocomplete="new-password" required>
+        </label>
+        <button type="submit">Save password and log in</button>
+        <p id="resetError" class="error-msg hidden"></p>
+      </form>
+    </div>
+    <p class="login-copyright"><a href="terms.html" target="_blank" rel="noopener">Terms of Use</a></p>
   </div>
 
   <div id="appRoot" class="hidden">
@@ -44,7 +104,7 @@
         <label>Current password
           <input type="password" id="currentPassword" autocomplete="current-password" required>
         </label>
-        <label>New password <span class="optional">(at least 8 characters)</span>
+        <label>New password <span class="optional" id="newPasswordRule">(at least 8 characters)</span>
           <input type="password" id="newPassword" autocomplete="new-password" required minlength="8">
         </label>
         <button type="submit">Update password</button>
@@ -87,7 +147,7 @@
           <label>Month
             <select id="browseMonth"></select>
           </label>
-          <label>Author
+          <label id="browseAuthorField">Author
             <select id="browseAuthor"></select>
           </label>
           <label>Age group
@@ -149,6 +209,7 @@
           <button type="button" id="printPdfBtn" disabled>Print PDF</button>
           <span id="printStatus" class="hint"></span>
         </div>
+        <p id="readerPrintNote" class="hint hidden">Printing includes the first 25 POEMs in the results. Printouts and Evidence Summaries are limited to 5 a day.</p>
         <p id="searchCount" class="hint"></p>
         <div id="searchResults"></div>
       </section>
@@ -212,14 +273,14 @@
             <span id="evidenceStatus" class="hint"></span>
           </div>
         </form>
-        <p class="hint">Downloads a Word document that begins with the matching POEMs, grouped by supertype, followed by articles from PubMed organised by content area.</p>
+        <p class="hint" id="evidenceHelp">Downloads a Word document that begins with the matching POEMs, grouped by supertype, followed by articles from PubMed organised by content area.</p>
       </section>
     </div>
 
     <div id="poemModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="POEM">
       <div class="modal">
         <div class="modal-bar">
-          <button type="button" id="poemModalEdit">Edit this POEM</button>
+          <button type="button" id="poemModalEdit" class="hidden">Edit this POEM</button>
           <button type="button" id="poemModalClose">Close</button>
         </div>
         <div id="poemModalBody" class="modal-body"></div>

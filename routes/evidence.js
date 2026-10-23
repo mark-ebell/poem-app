@@ -1,5 +1,6 @@
 const express = require('express');
-const { requireAuth } = require('../auth');
+const { requireAuth, isReader } = require('../auth');
+const { quota } = require('../limits');
 const { generateEvidenceSummary } = require('../evidence-summary');
 
 const router = express.Router();
@@ -8,7 +9,8 @@ router.use(requireAuth);
 const parseYears = v => ([1, 2, 3, 5, 10].includes(Number(v)) ? Number(v) : null);
 
 // { q, years, age, content, journals } -> an Evidence Summary Word document.
-router.post('/summary', async (req, res) => {
+// Readers' summaries are limited (see evidence-summary.js) and count as downloads.
+router.post('/summary', quota('download'), async (req, res) => {
   const b = req.body || {};
   const q = String(b.q || '').trim();
   if (q.length < 2) return res.status(400).json({ error: 'Enter the topic to search for first.' });
@@ -19,7 +21,8 @@ router.post('/summary', async (req, res) => {
       pubmedYears: parseYears(b.pubmedYears),
       age: String(b.age || 'all'),
       content: String(b.content || 'all'),
-      journals: b.journals !== false && b.journals !== 'false' && b.journals !== '0'
+      journals: b.journals !== false && b.journals !== 'false' && b.journals !== '0',
+      reader: isReader(req)
     });
     if (result.error) return res.status(400).json({ error: result.error });
     res.set({

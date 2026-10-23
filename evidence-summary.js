@@ -6,7 +6,7 @@ const {
   HeadingLevel, TabStopType
 } = require('docx');
 const { poemsForSummary, cutoffMonth } = require('./search');
-const { htmlToParagraphs } = require('./export-poems');
+const { htmlToParagraphs, DISCLAIMER } = require('./export-poems');
 const pm = require('./pubmed');
 
 // Supertype code, the name shown in the document, and (below) the section it falls in
@@ -128,6 +128,7 @@ function poemEntry(p) {
       out.push(para([...lead, ...richRuns(runs, POEM_SIZE)], { spacing: { after: 60 } }));
     });
   }
+  out.push(para([new TextRun({ text: DISCLAIMER, italics: true, size: POEM_SIZE })], { spacing: { before: 60, after: 60 } }));
   return out;
 }
 
@@ -146,14 +147,22 @@ function articleEntry(a, n) {
 }
 
 // ---------- main ----------
-// params: { q, years (number or null), age (key), content ('all' or a content-area key), journals (boolean) }
-async function generateEvidenceSummary({ q, years, pubmedYears, age, content, journals }) {
+// Readers get the PubMed part for these content areas only, from at most the last
+// READER_MAX_PUBMED_YEARS years ("all" means all three), and Published POEMs only.
+const READER_CONTENT_AREAS = ['guidelines', 'cochrane', 'systematic'];
+const READER_MAX_PUBMED_YEARS = 10;
+
+// params: { q, years (number or null), age (key), content ('all' or a content-area key), journals (boolean), reader }
+async function generateEvidenceSummary({ q, years, pubmedYears, age, content, journals, reader = false }) {
   const ageGroup = pm.findBy(pm.AGE_GROUPS, age) || pm.AGE_GROUPS[0];
-  const poemResult = poemsForSummary({ q, years, ageCodes: ageGroup.poemCodes });
+  const poemResult = poemsForSummary({ q, years, ageCodes: ageGroup.poemCodes }, { reader });
   if (poemResult.error) return { error: poemResult.error };
 
-  const areas = content === 'all' ? pm.CONTENT_AREAS : [pm.findBy(pm.CONTENT_AREAS, content)].filter(Boolean);
+  const allowed = reader ? pm.CONTENT_AREAS.filter(a => READER_CONTENT_AREAS.includes(a.key)) : pm.CONTENT_AREAS;
+  const areas = content === 'all' ? allowed : [pm.findBy(allowed, content)].filter(Boolean);
   if (!areas.length) return { error: 'Choose a content area.' };
+  if (reader && (!pubmedYears || pubmedYears > READER_MAX_PUBMED_YEARS)) pubmedYears = READER_MAX_PUBMED_YEARS;
+  const allAreasLabel = reader ? 'practice guidelines, Cochrane reviews and systematic reviews' : 'all content areas';
   const since = cutoffMonth(pubmedYears);
 
   const sections = [];
@@ -181,7 +190,7 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
     new TextRun({ text: `time span: ${span(years)}; age group: ${ageGroup.label}${ageGroup.poemCodes ? ' (includes POEMs with no age restriction)' : ''}` })]));
   children.push(para([
     new TextRun({ text: 'PubMed limits: ', bold: true }),
-    new TextRun({ text: `${ageGroup.label}; ${content === 'all' ? 'all content areas' : areas[0].label}; time span: ${span(pubmedYears)}; ${journals ? 'high yield journals only' : 'all journals'}` })
+    new TextRun({ text: `${ageGroup.label}; ${content === 'all' ? allAreasLabel : areas[0].label}; time span: ${span(pubmedYears)}; ${journals ? 'high yield journals only' : 'all journals'}` })
   ], { spacing: { after: 240 } }));
 
   // 1. POEMs

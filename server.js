@@ -2,6 +2,8 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 const crypto = require('crypto');
 const express = require('express');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 const session = require('express-session');
 const SqliteStore = require('better-sqlite3-session-store')(session);
 
@@ -11,6 +13,8 @@ const { migrateLegacyPoems, remapAuthorInitials } = require('./migrate-legacy');
 const { router: authRouter } = require('./auth');
 const poemsRouter = require('./routes/poems');
 const generateRouter = require('./routes/generate');
+const { pruneUsage } = require('./limits');
+const { turnstileEnabled } = require('./turnstile');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,6 +23,12 @@ const isProduction = app.get('env') === 'production';
 if (!process.env.ANTHROPIC_API_KEY) {
   console.warn('Warning: ANTHROPIC_API_KEY is not set (see .env.example). Generating drafts will fail until it is.');
 }
+if (isProduction) {
+  if (!process.env.RESEND_API_KEY) console.warn('Warning: RESEND_API_KEY is not set; reader sign-up emails are only written to the log.');
+  if (!turnstileEnabled()) console.warn('Warning: Turnstile keys are not set; the sign-up form has no "are you human" check.');
+  if (!process.env.APP_URL) console.warn('Warning: APP_URL is not set; links in reader emails will point to localhost.');
+}
+setInterval(pruneUsage, 60 * 60 * 1000).unref();
 
 const migratedPoems = migrateLegacyPoems();
 if (migratedPoems) console.log(`Converted ${migratedPoems} saved POEM(s) to separate database fields.`);
@@ -40,6 +50,47 @@ if (createdAccounts.length) {
 // (or any) reverse proxy, which terminates HTTPS and forwards plain HTTP.
 app.set('trust proxy', 1);
 
+// ---------- Protection for a site open to the public ----------
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      // pdf.js (Upload tab) comes from cdnjs; Turnstile (sign-up) from Cloudflare.
+      scriptSrc: ["'self'", 'https://cdnjs.cloudflare.com', 'https://challenges.cloudflare.com'],
+      workerSrc: ["'self'", 'blob:', 'https://cdnjs.cloudflare.com'],
+      connectSrc: ["'self'", 'https://cdnjs.cloudflare.com', 'https://challenges.cloudflare.com'],
+      frameSrc: ["'self'", 'https://challenges.cloudflare.com'],
+      // The editor's font styling and the print pages use inline styles.
+      styleSrc: ["'self'", "'unsafe-inline'"],
+      imgSrc: ["'self'", 'data:', 'blob:'],
+      frameAncestors: ["'none'"]
+    }
+  },
+  crossOriginEmbedderPolicy: false
+}));
+
+// Ask search engines and AI crawlers not to index or train on anything here.
+app.use((req, res, next) => {
+  res.set('X-Robots-Tag', 'noindex, nofollow, noarchive, nosnippet, noai, noimageai');
+  next();
+});
+
+// Known AI and bulk crawlers, and common scraping tools, are turned away outright
+// (robots.txt asks them to stay out; this catches the ones that don't ask).
+const BLOCKED_AGENTS = /GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|Claude-Web|anthropic-ai|CCBot|Google-Extended|GoogleOther|PerplexityBot|Perplexity-User|Bytespider|Amazonbot|Applebot-Extended|meta-externalagent|FacebookBot|Diffbot|ImagesiftBot|Omgili|cohere-ai|YouBot|Timpibot|DataForSeoBot|AI2Bot|Scrapy|python-requests|python-urllib|aiohttp|httpx|Go-http-client|curl\/|Wget|HeadlessChrome|PhantomJS/i;
+app.use((req, res, next) => {
+  if (req.path === '/robots.txt') return next();
+  const ua = req.get('user-agent') || '';
+  if (!ua || BLOCKED_AGENTS.test(ua)) return res.status(403).type('text').send('Automated access is not permitted.');
+  next();
+});
+
+// An overall ceiling per network address, on top of the per-account limits for readers.
+app.use('/api', rateLimit({
+  windowMs: 15 * 60 * 1000, limit: 1000, standardHeaders: true, legacyHeaders: false,
+  message: { error: 'Too many requests. Please wait a few minutes and try again.' }
+}));
+
 app.use(express.json({ limit: '15mb' })); // article text can be long
 app.use(session({
   store: new SqliteStore({
@@ -57,6 +108,7 @@ app.use(session({
   }
 }));
 
+app.use('/api', (req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
 app.use('/api', authRouter);
 app.use('/api/poems', poemsRouter);
 app.use('/api/generate', generateRouter);

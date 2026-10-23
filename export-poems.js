@@ -10,6 +10,9 @@ const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
   'October', 'November', 'December'];
 const SAFE_HREF = /^(https?:\/\/|mailto:)[^\s"'<>]*$/i;
 
+// Shown at the end of every POEM, on screen and in every printout.
+const DISCLAIMER = 'POEMs summarize published research to support, not replace, clinical judgment. They are not medical advice for any individual patient. Always consider the original research and the circumstances of each patient.';
+
 function monthYear(value) {
   const m = /^(\d{4})-(\d{2})$/.exec(value || '');
   return m ? `${MONTHS[Number(m[2]) - 1]} ${m[1]}` : '';
@@ -79,12 +82,12 @@ const plain = (text) => [[{ text }]];
 
 // ---------- One POEM -> { title, byline, sections } ----------
 // A section is { label, paragraphs: [runs, ...] }; the label is shown in bold
-// at the start of the first paragraph.
-function describePoem(row) {
+// at the start of the first paragraph. Readers are not shown the POET or POEM number.
+function describePoem(row, { reader = false } = {}) {
   const byline = [];
-  if (row.poet) byline.push(['POET', row.poet]);
+  if (row.poet && !reader) byline.push(['POET', row.poet]);
   if (monthYear(row.publication_date)) byline.push(['Publication date', monthYear(row.publication_date)]);
-  if (row.poem_id) byline.push(['POEM number', String(row.poem_id)]);
+  if (row.poem_id && !reader) byline.push(['POEM number', String(row.poem_id)]);
 
   const sections = [];
   const add = (label, paragraphs) => { if (paragraphs && paragraphs.length) sections.push({ label, paragraphs }); };
@@ -138,7 +141,7 @@ function docxRuns(runs, base = {}) {
 async function buildDocx(rows, meta = {}) {
   const children = [];
   rows.forEach((row, index) => {
-    const poem = describePoem(row);
+    const poem = describePoem(row, meta);
     children.push(new Paragraph({
       heading: HeadingLevel.HEADING_1,
       pageBreakBefore: index > 0,
@@ -158,6 +161,7 @@ async function buildDocx(rows, meta = {}) {
         children.push(new Paragraph({ spacing: { after: 140 }, children: [...lead, ...docxRuns(runs)] }));
       });
     }
+    children.push(new Paragraph({ spacing: { before: 120, after: 140 }, children: [new TextRun({ text: DISCLAIMER, italics: true })] }));
   });
 
   const headerText = meta.description || 'POEMs';
@@ -210,12 +214,12 @@ function runsToHtml(runs) {
 }
 
 // The inside of one POEM: bold title, byline, then each field with a bold label.
-function poemInnerHtml(row) {
-  const poem = describePoem(row);
+function poemInnerHtml(row, opts) {
+  const poem = describePoem(row, opts);
   const byline = poem.byline.map(([l, v]) => `<b>${escapeHtml(l)}:</b> ${escapeHtml(v)}`).join('&nbsp;&nbsp;&nbsp;&nbsp;');
   const body = poem.sections.map(sec => sec.paragraphs.map((runs, i) =>
     `<p>${i === 0 ? `<b>${escapeHtml(sec.label)}:</b> ` : ''}${runsToHtml(runs)}</p>`).join('')).join('\n');
-  return `<h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}\n${body}`;
+  return `<h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}\n${body}\n<p class="disclaimer"><i>${escapeHtml(DISCLAIMER)}</i></p>`;
 }
 
 // One POEM for on-screen viewing (the pop-up on the Search tab).
@@ -223,8 +227,21 @@ function buildPoemFragment(row) {
   return `<article class="poem-view">${poemInnerHtml(row)}</article>`;
 }
 
+// The readers' pop-up: bold title and field headings, and no hard line breaks:
+// line breaks inside a field become spaces and a field's paragraphs run together,
+// so the text simply wraps to the window.
+function buildReaderPoemFragment(row) {
+  const poem = describePoem(row, { reader: true });
+  const flow = paragraphs => runsToHtml(paragraphs
+    .map(runs => runs.map(r => (r.br ? { text: ' ' } : r)))
+    .reduce((all, runs, i) => all.concat(i ? [{ text: ' ' }] : [], runs), []));
+  const byline = poem.byline.map(([l, v]) => `<b>${escapeHtml(l)}:</b> ${escapeHtml(v)}`).join(' ');
+  const body = poem.sections.map(sec => `<p><b>${escapeHtml(sec.label)}:</b> ${flow(sec.paragraphs)}</p>`).join('');
+  return `<article class="poem-view reader-view"><h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}${body}<p class="disclaimer"><i>${escapeHtml(DISCLAIMER)}</i></p></article>`;
+}
+
 function buildPrintHtml(rows, meta = {}) {
-  const poems = rows.map(row => `<section class="poem">${poemInnerHtml(row)}</section>`).join('\n');
+  const poems = rows.map(row => `<section class="poem">${poemInnerHtml(row, meta)}</section>`).join('\n');
 
   const description = escapeHtml(meta.description || 'POEMs');
   return `<!DOCTYPE html>
@@ -238,6 +255,7 @@ function buildPrintHtml(rows, meta = {}) {
   h1 { font-size: 12pt; font-weight: bold; margin: 0 0 6pt; page-break-after: avoid; }
   p { margin: 0 0 7pt; }
   .byline { margin-bottom: 12pt; }
+  .disclaimer { margin-top: 10pt; }
   a { color: #0563c1; }
 </style></head><body>
 <p class="runhead">${description}</p>
@@ -245,4 +263,4 @@ ${poems}
 </body></html>`;
 }
 
-module.exports = { buildDocx, buildPrintHtml, buildPoemFragment, htmlToParagraphs, describePoem };
+module.exports = { buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment, htmlToParagraphs, describePoem, DISCLAIMER };

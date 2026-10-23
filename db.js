@@ -21,6 +21,44 @@ db.exec(`
   );
 `);
 
+// Account roles. 'editor' accounts are the POETs (created by seed-users.js); 'reader'
+// accounts are created by the public through the sign-up form, use their email address
+// as the username, and see only the Published POEMs on the Browse, Search and Evidence
+// tabs. status is 'active' or 'locked' (readers who exceed the usage limits).
+const userColumns = db.prepare("PRAGMA table_info('users')").all().map(c => c.name);
+const addUserColumn = (name, def) => { if (!userColumns.includes(name)) db.exec(`ALTER TABLE users ADD COLUMN ${name} ${def}`); };
+addUserColumn('role', "TEXT NOT NULL DEFAULT 'editor'");
+addUserColumn('email_verified', 'INTEGER NOT NULL DEFAULT 0');
+addUserColumn('status', "TEXT NOT NULL DEFAULT 'active'");
+addUserColumn('locked_reason', 'TEXT');
+addUserColumn('terms_accepted_at', 'TEXT');
+addUserColumn('last_login_at', 'TEXT');
+
+db.exec(`
+  -- One-time links emailed to readers ('verify' or 'reset'). Only a hash of the token is kept.
+  CREATE TABLE IF NOT EXISTS email_tokens (
+    token_hash TEXT PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    purpose TEXT NOT NULL,
+    expires_at TEXT NOT NULL
+  );
+
+  -- Each POEM opened, search run and download made by a reader, for the usage limits.
+  CREATE TABLE IF NOT EXISTS usage (
+    user_id INTEGER NOT NULL,
+    kind TEXT NOT NULL,
+    at TEXT NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS idx_usage ON usage(user_id, kind, at);
+
+  -- Days on which a reader ran into a daily limit (repeat offenders are locked).
+  CREATE TABLE IF NOT EXISTS limit_hits (
+    user_id INTEGER NOT NULL,
+    kind TEXT NOT NULL,
+    at TEXT NOT NULL
+  );
+`);
+
 // One row per POEM, with each element of the POEM in its own column.
 //   id               app-generated UUID (primary key)
 //   poem_id          historical POEM number from the 25-year repository. NOT unique
@@ -76,6 +114,7 @@ function createIndexes() {
     CREATE INDEX IF NOT EXISTS idx_poems_pubmed_id ON poems(pubmed_id);
     CREATE INDEX IF NOT EXISTS idx_poems_publication_date ON poems(publication_date);
     CREATE INDEX IF NOT EXISTS idx_poems_source ON poems(source);
+    CREATE INDEX IF NOT EXISTS idx_poems_status ON poems(status);
   `);
 }
 

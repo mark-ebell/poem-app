@@ -1,5 +1,5 @@
 const express = require('express');
-const { requireAuth } = require('../auth');
+const { requireEditor } = require('../auth');
 
 const router = express.Router();
 
@@ -29,7 +29,7 @@ PubMed ID: Provide the 8-digit PubMed ID (PMID) for the article.
 
 Do not show any bracketed internal background source-tracking tags. Output plain text only, with each field label followed by a colon and its content, nothing else before or after.`;
 
-router.post('/', requireAuth, async (req, res) => {
+router.post('/', requireEditor, async (req, res) => {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
     return res.status(500).json({ error: 'The server is not configured with an Anthropic API key. Ask the app administrator to set ANTHROPIC_API_KEY.' });
