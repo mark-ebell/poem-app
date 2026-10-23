@@ -34,6 +34,8 @@ db.exec(`
 //   synopsis / bottom_line   sanitized HTML (bold, italics, sub/superscript, links)
 //   pubmed_id        8-digit PMID, the literal 'NA' (checked, none exists), or NULL
 //   pubmed_url       derived from pubmed_id (kept as-is for 'NA' rows that have a source link)
+//   status           editorial stage: 'Being edited', 'Ready for review',
+//                    'Ready for copy edit' or 'Published'
 //   source           'app' (written here) or 'import' (loaded from the spreadsheet)
 //   legacy_html      the whole-POEM HTML blob from before the structured fields existed
 const POEMS_COLUMNS = `
@@ -58,6 +60,7 @@ const POEMS_COLUMNS = `
   bottom_line TEXT NOT NULL DEFAULT '',
   pubmed_id TEXT,
   pubmed_url TEXT,
+  status TEXT NOT NULL DEFAULT 'Being edited',
   source TEXT NOT NULL DEFAULT 'app',
   legacy_html TEXT,
   search_text TEXT,
@@ -100,6 +103,14 @@ if (existingColumns.length === 0) {
 }
 if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'search_text')) {
   db.exec('ALTER TABLE poems ADD COLUMN search_text TEXT');
+}
+// One-time upgrade: add the POEM status. Everything published through September 2026 is
+// marked Published; anything later is still with its author.
+if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'status')) {
+  db.transaction(() => {
+    db.exec("ALTER TABLE poems ADD COLUMN status TEXT NOT NULL DEFAULT 'Being edited'");
+    db.exec("UPDATE poems SET status = 'Published' WHERE publication_date <= '2026-09'");
+  })();
 }
 createIndexes();
 

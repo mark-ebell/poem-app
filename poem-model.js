@@ -10,6 +10,7 @@ const PUBMED_BASE = 'https://pubmed.ncbi.nlm.nih.gov/';
 // are mapped to the full last name used in the app, the rest keep their initials.
 const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant', 'Rowland', 'Rayala'];
 const POET_BY_INITIALS = { HB: 'Barry', ME: 'Ebell', AS: 'Shaughnessy', DS: 'Slawson', LS: 'Speer', LF: 'Speer', NS: 'Shrikant', NK: 'Shrikant' };
+const POEM_STATUSES = ['Being edited', 'Ready for review', 'Ready for copy edit', 'Published'];
 const INITIALS_BY_POET = { Barry: 'HB', Ebell: 'ME', Shaughnessy: 'AS', Slawson: 'DS', Speer: 'LS', Shrikant: 'NS' };
 
 const AGE_CODE_BY_LABEL = {
@@ -230,6 +231,10 @@ function normalizePoemBody(body, existing) {
   const publicationDate = String(b.publicationDate || '').trim();
   if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(publicationDate)) return { error: 'A valid publication date is required.' };
 
+  // A new POEM starts with its author; an update without a status keeps the current one.
+  const status = String(b.status || '').trim() || (existing ? existing.status : POEM_STATUSES[0]);
+  if (!POEM_STATUSES.includes(status)) return { error: 'A valid POEM status is required.' };
+
   let ageGroup = null;
   if (b.ageGroup !== undefined && b.ageGroup !== null && b.ageGroup !== '') {
     ageGroup = Number(b.ageGroup);
@@ -256,6 +261,7 @@ function normalizePoemBody(body, existing) {
       poet,
       poet_initials: existing && existing.poet_initials && poetUnchanged ? existing.poet_initials : (INITIALS_BY_POET[poet] || null),
       publication_date: publicationDate,
+      status,
       reference: String(b.reference || '').trim().slice(0, LIMITS.reference),
       clinical_question: String(b.clinicalQuestion || '').trim().slice(0, LIMITS.clinical_question),
       allocation: optText(b.allocation, LIMITS.allocation),
@@ -283,6 +289,7 @@ function toClient(row) {
     poetInitials: row.poet_initials,
     publicationDate: row.publication_date,
     pubDateExact: row.pub_date_exact,
+    status: row.status,
     reference: row.reference,
     clinicalQuestion: row.clinical_question,
     allocation: row.allocation,
@@ -321,7 +328,7 @@ function toListItem(row) {
 }
 
 module.exports = {
-  VALID_POETS, POET_BY_INITIALS, INITIALS_BY_POET, PUBMED_BASE,
+  VALID_POETS, POEM_STATUSES, POET_BY_INITIALS, INITIALS_BY_POET, PUBMED_BASE,
   escapeHtml, decodeEntities, htmlToText, sanitizeHtml, textToHtml,
   generatePoemId, pubmedUrlFor, poetFromInitials, ageCodeFromLabel,
   parseLegacyHtml, normalizePoemBody, toClient, toListItem

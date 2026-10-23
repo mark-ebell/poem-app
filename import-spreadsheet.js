@@ -126,6 +126,7 @@ async function main() {
       bottom_line: bottomLine,
       pubmed_id: pubmedId,
       pubmed_url: pubmedUrl,
+      status: 'Published',
       source: 'import',
       legacy_html: null,
       created_by: 'import',

@@ -93,6 +93,7 @@ router.post('/import-word/commit', requireAdmin, async (req, res) => {
       synopsis: sanitizeHtml(r.synopsis),
       bottom_line: sanitizeHtml(r.bottom_line),
       pubmed_id: pubmedId && /^na$/i.test(pubmedId) ? 'NA' : (pubmedId && /^\d{1,9}$/.test(pubmedId) ? pubmedId : null),
+      status: 'Published', // the monthly issue has already been published
       source: 'app', // added through the app, so it shows in the Recently added list
       created_by: username,
       updated_by: username,

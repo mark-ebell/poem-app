@@ -14,7 +14,7 @@ const els = {};
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseCount', 'browseResults',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
-  'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
+  'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
   'synopsisEditor', 'bottomLineEditor', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
@@ -254,6 +254,7 @@ function applyNewDocumentDefaults() {
   const now = new Date();
   const defaultDate = new Date(now.getFullYear(), now.getMonth() + 2, 1);
   els.pubDateSelect.value = monthValue(defaultDate);
+  els.statusSelect.value = 'Being edited';
 }
 
 // ---------- PDF extraction ----------
@@ -983,6 +984,7 @@ async function openDoc(id) {
   setSelectValue(els.poetSelect, doc.poet);
   setSelectValue(els.pubDateSelect, doc.publicationDate, formatMonthYear(doc.publicationDate));
   els.poemNumberInput.value = doc.poemId || '';
+  setSelectValue(els.statusSelect, doc.status);
   els.referenceInput.value = doc.reference || '';
   els.questionInput.value = doc.clinicalQuestion || '';
   setSelectValue(els.allocationSelect, doc.allocation);
@@ -1037,6 +1039,7 @@ async function saveCurrentDoc() {
   const hadPending = hasPendingTrackedMarks();
   const body = {
     title, poet, publicationDate,
+    status: els.statusSelect.value,
     reference: els.referenceInput.value,
     clinicalQuestion: els.questionInput.value,
     allocation: els.allocationSelect.value,
