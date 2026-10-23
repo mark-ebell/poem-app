@@ -162,7 +162,7 @@ router.post('/signup', signupLimiter, async (req, res) => {
   const problem = readerPasswordProblem(b.password);
   if (problem) return res.status(400).json({ error: problem });
   if (b.acceptTerms !== true) return res.status(400).json({ error: 'Please agree to the Terms of Use to create an account.' });
-  if (!(await verifyHuman(b.turnstileToken, req.ip))) {
+  if (!(await verifyHuman(b.turnstileToken, req.ip, 'signup'))) {
     return res.status(400).json({ error: 'The "are you human" check did not succeed. Please try again.' });
   }
 

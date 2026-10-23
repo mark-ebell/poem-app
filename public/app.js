@@ -125,7 +125,7 @@ async function renderTurnstile() {
   if (!turnstileSiteKey) return;
   try {
     await loadTurnstile();
-    if (turnstileWidget === null) turnstileWidget = window.turnstile.render(els.turnstileBox, { sitekey: turnstileSiteKey });
+    if (turnstileWidget === null) turnstileWidget = window.turnstile.render(els.turnstileBox, { sitekey: turnstileSiteKey, action: 'signup' });
     else window.turnstile.reset(turnstileWidget);
   } catch {
     showError(els.signupError, 'The "are you human" check could not be loaded. Please reload the page.');
@@ -157,6 +157,7 @@ els.signupForm.addEventListener('submit', async (e) => {
   els.signupBtn.disabled = true;
   try {
     await postJson('/signup', { email, password, acceptTerms: true, turnstileToken });
+    if (turnstileWidget !== null) window.turnstile.reset(turnstileWidget); // each token works once
     remember();
     els.signupForm.reset();
     renderRules(els.signupRules, '');
