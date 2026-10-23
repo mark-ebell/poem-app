@@ -1559,11 +1559,17 @@ function renderSearchResults(data) {
     highlightInto(link, doc.title || 'Untitled POEM', data.terms, data.whole);
     link.addEventListener('click', () => showPoemPopup(doc.id));
     titleCell.appendChild(link);
-    if (els.searchExcerpt.checked && doc.excerpt) {
-      const snip = document.createElement('div');
-      snip.className = 'search-snippet';
-      highlightInto(snip, doc.excerpt, data.terms, data.whole);
-      titleCell.appendChild(snip);
+    if (els.searchExcerpt.checked) {
+      for (const [label, text] of [['Clinical question', doc.question], ['Bottom-line', doc.bottomLine]]) {
+        if (!text) continue;
+        const snip = document.createElement('div');
+        snip.className = 'search-snippet';
+        const b = document.createElement('b');
+        b.textContent = `${label}: `;
+        snip.appendChild(b);
+        highlightInto(snip, text, data.terms, data.whole);
+        titleCell.appendChild(snip);
+      }
     }
     row.append(dateCell, titleCell);
     tbody.appendChild(row);
@@ -1621,7 +1627,7 @@ function limitEvidenceOptions() {
     ['systematic', 'Systematic Reviews']
   ], 'all');
   setOptions(els.evidencePubmedYears, [['1', '1 year'], ['3', '3 years'], ['5', '5 years'], ['10', '10 years']], '10');
-  els.evidenceHelp.textContent = 'Downloads a Word document that begins with the most recent matching POEMs (up to 500), grouped by supertype, followed by practice guidelines, Cochrane reviews and systematic reviews from PubMed. Evidence Summaries and printouts are limited to 5 a day.';
+  els.evidenceHelp.textContent = 'Downloads a Word document that begins with the most recent matching POEMs (up to 500), grouped by category, followed by practice guidelines, Cochrane reviews and systematic reviews from PubMed. Evidence Summaries and printouts are limited to 5 a day.';
 }
 
 els.evidenceForm.addEventListener('submit', async (e) => {
@@ -1762,7 +1768,7 @@ function renderImportPreview(items) {
   const table = document.createElement('table');
   table.className = 'library-table';
   const head = document.createElement('tr');
-  ['Title', 'Author', 'PubMed ID', 'Age group', 'Supertype', 'Notes'].forEach(label => {
+  ['Title', 'Author', 'PubMed ID', 'Age group', 'Category', 'Notes'].forEach(label => {
     const th = document.createElement('th');
     th.textContent = label;
     head.appendChild(th);

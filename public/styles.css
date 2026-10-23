@@ -389,6 +389,7 @@ label.spaced { margin-top: 16px; }
 .inline-check { display: flex; align-items: center; gap: 5px; font-size: 0.88rem; margin: 0; }
 .inline-check input { width: auto; margin: 0; }
 .search-snippet { font-size: 0.85rem; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+.search-snippet b { color: var(--text); font-weight: 600; }
 mark { background: #fef08a; color: inherit; padding: 0 1px; border-radius: 2px; }
 .search-table td:first-child { white-space: nowrap; }
 

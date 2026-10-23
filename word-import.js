@@ -231,7 +231,7 @@ async function readBatch(buffer, month) {
     if (!rec.poet) notes.push('no author');
     if (!rec.study_design) notes.push('no study design');
     if (rec.age_group === null) notes.push('no age group');
-    if (!rec.supertype) notes.push('no supertype');
+    if (!rec.supertype) notes.push('no category');
     records.push({ record: rec, notes });
   }
   return records;

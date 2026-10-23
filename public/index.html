@@ -212,7 +212,7 @@
               <option value="3">Both adults and children</option>
             </select>
           </label>
-          <label>Supertype
+          <label>Category
             <select id="searchSupertype">
               <option value="">All</option>
               <option value="dx">Diagnosis</option>
@@ -224,7 +224,7 @@
           </label>
         </div>
         <div class="search-options">
-          <label class="inline-check"><input type="checkbox" id="searchExcerpt"> Show the first 50 words of each synopsis</label>
+          <label class="inline-check"><input type="checkbox" id="searchExcerpt"> Show question and bottom-line answer of each POEM</label>
         </div>
         <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>. Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
         <div id="printArea" class="print-area">
@@ -296,7 +296,7 @@
             <span id="evidenceStatus" class="hint"></span>
           </div>
         </form>
-        <p class="hint" id="evidenceHelp">Downloads a Word document that begins with the matching POEMs, grouped by supertype, followed by articles from PubMed organised by content area.</p>
+        <p class="hint" id="evidenceHelp">Downloads a Word document that begins with the matching POEMs, grouped by category, followed by articles from PubMed organised by content area.</p>
       </section>
     </div>
 
@@ -499,7 +499,7 @@
           <label>Age group
             <select id="ageGroupSelect"></select>
           </label>
-          <label>Supertype
+          <label>Category
             <select id="supertypeSelect"></select>
           </label>
           <label>Level of evidence

@@ -35,7 +35,6 @@ const MAX_RESULTS = 300;
 const READER_MAX_RESULTS = 200;
 const READER_MAX_EXPORT = 25;
 const MAX_QUERY = 300;
-const EXCERPT_WORDS = 50;
 
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const escapeLike = s => s.replace(/[\\%_]/g, '\\$&');
@@ -156,10 +155,8 @@ function evaluate(node, test) {
   }
 }
 
-function excerptOf(synopsisHtml) {
-  const words = stripLiteralTags(htmlToText(synopsisHtml)).split(/\s+/).filter(Boolean);
-  return words.slice(0, EXCERPT_WORDS).join(' ') + (words.length > EXCERPT_WORDS ? '…' : '');
-}
+// A field as one line of plain text, for the "question and bottom-line answer" shown under each result.
+const plainLine = html => stripLiteralTags(htmlToText(html)).replace(/\s+/g, ' ').trim();
 
 // Supertype groups for the Search tab's filter, by the first letters of the code
 // (as in the Evidence Summary): Dx = diagnosis, Tx and TCAM = treatment, Sc =
@@ -207,7 +204,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
   }
   const where = conditions.length ? 'WHERE ' + conditions.join(' AND ') : '';
   const rows = db.prepare(`
-    SELECT id, poem_id, title, poet, publication_date, synopsis, search_text FROM poems ${where}
+    SELECT id, poem_id, title, poet, publication_date, clinical_question, bottom_line, search_text FROM poems ${where}
   `).all(...args);
 
   const regexCache = new Map();
@@ -247,14 +244,16 @@ function searchPoems(params, { reader = false } = {}) {
     id: row.id,
     title: row.title,
     publicationDate: row.publication_date,
-    excerpt: excerptOf(row.synopsis)
+    question: plainLine(row.clinical_question),
+    bottomLine: plainLine(row.bottom_line)
   } : {
     id: row.id,
     poemId: row.poem_id,
     title: row.title,
     poet: row.poet,
     publicationDate: row.publication_date,
-    excerpt: excerptOf(row.synopsis)
+    question: plainLine(row.clinical_question),
+    bottomLine: plainLine(row.bottom_line)
   }));
   return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems };
 }

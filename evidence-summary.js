@@ -61,7 +61,7 @@ function groupBySupertype(poems) {
   [...buckets.entries()].sort((a, b) => a[0] - b[0]).forEach(([idx, items]) => {
     const unspecified = idx === UNSPECIFIED;
     sections.get(unspecified ? 'MISCELLANEOUS' : sectionOf(SUPERTYPES[idx][0])).push({
-      heading: unspecified ? 'Supertype Not Specified' : SUPERTYPES[idx][1],
+      heading: unspecified ? 'Category Not Specified' : SUPERTYPES[idx][1],
       items
     });
   });
