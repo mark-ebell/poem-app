@@ -161,10 +161,23 @@ function excerptOf(synopsisHtml) {
   return words.slice(0, EXCERPT_WORDS).join(' ') + (words.length > EXCERPT_WORDS ? '…' : '');
 }
 
+// Supertype groups for the Search tab's filter, by the first letters of the code
+// (as in the Evidence Summary): Dx = diagnosis, Tx and TCAM = treatment, Sc =
+// screening and prevention, Px = prognosis; 'other' is everything else, including none.
+const SUPERTYPE_GROUPS = {
+  dx: "lower(supertype) LIKE 'dx%'",
+  tx: "(lower(supertype) LIKE 'tx%' OR lower(supertype) = 'tcam')",
+  sc: "lower(supertype) LIKE 'sc%'",
+  px: "lower(supertype) LIKE 'px%'"
+};
+SUPERTYPE_GROUPS.other = `NOT (${["COALESCE(lower(supertype), '') LIKE 'dx%'", "COALESCE(lower(supertype), '') LIKE 'tx%'",
+  "COALESCE(lower(supertype), '') = 'tcam'", "COALESCE(lower(supertype), '') LIKE 'sc%'", "COALESCE(lower(supertype), '') LIKE 'px%'"].join(' OR ')})`;
+
 // Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
 // with hits sorted (title matches first, then newest) as { row, titleHit }.
-// publishedOnly (for readers) leaves out POEMs that are still being edited.
-function runSearch({ q, whole = true, years = null, ageCodes = null, publishedOnly = false }) {
+// publishedOnly (for readers) leaves out POEMs that are still being edited;
+// supertypeGroup is a key of SUPERTYPE_GROUPS.
+function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGroup = null, publishedOnly = false }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -185,6 +198,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, publishedOn
   const conditions = required.map(() => "search_text LIKE ? ESCAPE '\\'");
   const args = required.map(w => `%${escapeLike(w)}%`);
   if (publishedOnly) conditions.push("status = 'Published'");
+  if (supertypeGroup && SUPERTYPE_GROUPS[supertypeGroup]) conditions.push(SUPERTYPE_GROUPS[supertypeGroup]);
   const since = cutoffMonth(years);
   if (since) { conditions.push('publication_date >= ?'); args.push(since); }
   if (ageCodes && ageCodes.length) {

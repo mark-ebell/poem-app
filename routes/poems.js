@@ -25,6 +25,13 @@ router.get('/', requireEditor, (req, res) => {
 // How far back to search: 1, 2, 3, 5 or 10 years; anything else means the whole database.
 const parseYears = v => ([1, 2, 3, 5, 10].includes(Number(v)) ? Number(v) : null);
 
+// Search filters: age group 1 (adults), 2 (children) or 3 (both), as on the Browse tab;
+// supertype group dx, tx, sc, px or other. Anything else means no filter.
+const searchFilters = src => ({
+  ageCodes: /^[123]$/.test(String(src.age || '')) ? [Number(src.age)] : null,
+  supertypeGroup: ['dx', 'tx', 'sc', 'px', 'other'].includes(src.supertype) ? src.supertype : null
+});
+
 // ---------- Readers' Browse tab (editors filter the full list in the page) ----------
 const DATED = "publication_date GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]'";
 
@@ -57,7 +64,7 @@ router.get('/browse', quota('search'), (req, res) => {
 
 // Must come before '/:id'. ?q=boolean query&whole=1|0&years=1|2|3|5|10|all
 router.get('/search', quota('search'), (req, res) => {
-  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0', years: parseYears(req.query.years) }, { reader: isReader(req) });
+  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0', years: parseYears(req.query.years), ...searchFilters(req.query) }, { reader: isReader(req) });
   if (result.error) return res.status(400).json({ error: result.error });
   res.json(result);
 });
@@ -68,7 +75,7 @@ router.post('/export', quota('download'), async (req, res) => {
   const { q, whole, format } = req.body || {};
   const years = parseYears((req.body || {}).years);
   const reader = isReader(req);
-  const result = poemsForExport({ q, whole: whole !== false && whole !== '0', years }, { reader });
+  const result = poemsForExport({ q, whole: whole !== false && whole !== '0', years, ...searchFilters(req.body || {}) }, { reader });
   if (result.error) return res.status(400).json({ error: result.error });
 
   const q1 = String(q).replace(/\s+/g, ' ').trim();

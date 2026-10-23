@@ -203,6 +203,26 @@
           </select>
           <button type="submit" id="searchBtn">Search</button>
         </form>
+        <div class="field-row search-filters">
+          <label>Age group
+            <select id="searchAge">
+              <option value="">All</option>
+              <option value="1">Adults</option>
+              <option value="2">Children</option>
+              <option value="3">Both adults and children</option>
+            </select>
+          </label>
+          <label>Supertype
+            <select id="searchSupertype">
+              <option value="">All</option>
+              <option value="dx">Diagnosis</option>
+              <option value="tx">Treatment</option>
+              <option value="sc">Screening &amp; prevention</option>
+              <option value="px">Prognosis</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+        </div>
         <div class="search-options">
           <label class="inline-check"><input type="checkbox" id="searchExcerpt"> Show the first 50 words of each synopsis</label>
         </div>

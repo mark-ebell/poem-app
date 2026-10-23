@@ -383,6 +383,8 @@ label.spaced { margin-top: 16px; }
 /* --- Search --- */
 .search-form { display: flex; gap: 8px; }
 .search-form input { flex: 1; margin-bottom: 0; }
+.search-filters { margin-top: 10px; }
+.search-filters label { margin-bottom: 0; }
 .search-options { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 4px; }
 .inline-check { display: flex; align-items: center; gap: 5px; font-size: 0.88rem; margin: 0; }
 .inline-check input { width: auto; margin: 0; }

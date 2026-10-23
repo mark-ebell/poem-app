@@ -12,7 +12,7 @@ const els = {};
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
+  'searchForm', 'searchInput', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
@@ -1587,10 +1587,10 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchBtn.disabled = true;
   els.searchCount.textContent = 'Searching...';
   try {
-    const params = new URLSearchParams({ q, years: els.searchYears.value });
-    const data = await api(`/poems/search?${params}`);
+    const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
+    const data = await api(`/poems/search?${new URLSearchParams(query)}`);
     if (seq === searchSeq) {
-      lastQuery = { q, years: els.searchYears.value };
+      lastQuery = query; // the print buttons use the same filters
       els.printStatus.textContent = '';
       renderSearchResults(data);
     }
@@ -1604,6 +1604,11 @@ els.searchForm.addEventListener('submit', async (e) => {
     els.searchBtn.disabled = false;
   }
 });
+
+// Changing a filter (or the time span) re-runs the search being shown.
+[els.searchYears, els.searchAge, els.searchSupertype].forEach(sel => sel.addEventListener('change', () => {
+  if (lastQuery && els.searchInput.value.trim().length >= 2) els.searchForm.requestSubmit();
+}));
 
 // ---------- Evidence Summary ----------
 // Readers' summaries cover practice guidelines, Cochrane reviews and systematic
