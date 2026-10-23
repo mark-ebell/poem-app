@@ -34,6 +34,8 @@ const MAX_RESULTS = 300;
 // Readers get shorter lists and smaller printouts, so the archive can't be copied through them.
 const READER_MAX_RESULTS = 200;
 const READER_MAX_EXPORT = 25;
+// Readers see the question and bottom-line answer only for this many results.
+const READER_MAX_ANSWERS = 25;
 const MAX_QUERY = 300;
 
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -240,12 +242,11 @@ function searchPoems(params, { reader = false } = {}) {
   if (result.error) return result;
   const { hits, highlightTerms, whole } = result;
   const max = reader ? READER_MAX_RESULTS : MAX_RESULTS;
-  const poems = hits.slice(0, max).map(({ row }) => (reader ? {
+  const poems = hits.slice(0, max).map(({ row }, i) => (reader ? {
     id: row.id,
     title: row.title,
     publicationDate: row.publication_date,
-    question: plainLine(row.clinical_question),
-    bottomLine: plainLine(row.bottom_line)
+    ...(i < READER_MAX_ANSWERS ? { question: plainLine(row.clinical_question), bottomLine: plainLine(row.bottom_line) } : {})
   } : {
     id: row.id,
     poemId: row.poem_id,
@@ -255,7 +256,8 @@ function searchPoems(params, { reader = false } = {}) {
     question: plainLine(row.clinical_question),
     bottomLine: plainLine(row.bottom_line)
   }));
-  return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems };
+  const answersLimit = reader && poems.length > READER_MAX_ANSWERS ? READER_MAX_ANSWERS : null;
+  return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems, answersLimit };
 }
 
 // Every POEM matching a query, in full, in the same order as the search results.

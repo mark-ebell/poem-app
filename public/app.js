@@ -1548,6 +1548,10 @@ function renderSearchResults(data) {
   thead.appendChild(headRow);
   table.appendChild(thead);
 
+  if (els.searchExcerpt.checked && data.answersLimit) {
+    els.searchCount.textContent = `${els.searchCount.textContent.replace(/\.?$/, '.')} The question and bottom-line answer are shown for the first ${data.answersLimit}.`;
+  }
+
   const tbody = document.createElement('tbody');
   data.poems.forEach(doc => {
     const row = document.createElement('tr');
