@@ -114,6 +114,7 @@ app.use('/api/poems', poemsRouter);
 app.use('/api/generate', generateRouter);
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/evidence', require('./routes/evidence'));
+app.use('/api/calculator', require('./routes/calculator'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

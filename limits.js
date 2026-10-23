@@ -7,7 +7,8 @@ const db = require('./db');
 const LIMITS = {
   view: { hour: 40, day: 150, noun: 'POEMs opened' },
   search: { hour: 60, day: 300, noun: 'searches' },
-  download: { hour: 5, day: 5, noun: 'downloads' }
+  download: { hour: 5, day: 5, noun: 'downloads' },
+  calc: { hour: 100, day: 400, noun: 'calculator look-ups' }
 };
 const LOCK_AFTER_HITS = 3;
 

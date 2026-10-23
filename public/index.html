@@ -118,6 +118,9 @@
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse</button>
       <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search</button>
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence</button>
+      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential Diagnosis</button>
+      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">Signs and Symptoms</button>
+      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Diagnostic Tests</button>
       <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit</button>
     </nav>
 
@@ -275,6 +278,124 @@
         </form>
         <p class="hint" id="evidenceHelp">Downloads a Word document that begins with the matching POEMs, grouped by supertype, followed by articles from PubMed organised by content area.</p>
       </section>
+    </div>
+
+    <!-- Signs and Symptoms / Diagnostic Tests (one Bayesian calculator, two data sets) -->
+    <div id="tabCalc" class="tab-panel calc hidden">
+      <section class="card">
+        <h2 id="calcHeading">Diagnostic Tests</h2>
+        <p class="hint calc-intro" id="calcSubtitle"></p>
+        <div class="calc-selectors">
+          <label><span class="calc-step"><span class="step-count">1</span>Specialty</span>
+            <select id="calcSpecialty"><option value="">Select specialty…</option></select>
+          </label>
+          <label><span class="calc-step"><span class="step-count">2</span>Symptom / Disease Pair</span>
+            <select id="calcPair" disabled><option value="">Select specialty first…</option></select>
+          </label>
+          <label><span class="calc-step"><span class="step-count">3</span><span id="calcItemLabel">Test</span></span>
+            <select id="calcItem" disabled><option value="">Select symptom/disease first…</option></select>
+          </label>
+        </div>
+        <p id="calcStatus" class="hint"></p>
+      </section>
+
+      <section id="calcEmpty" class="card calc-empty">
+        <span id="calcEmptyText">Choose a specialty, then a clinical presentation, then a test to open the calculator.</span>
+      </section>
+
+      <section id="calcResult" class="card hidden">
+        <div class="calc-badges" id="calcBadges"></div>
+        <h3 class="calc-title" id="calcTitle"></h3>
+        <div class="calc-sub" id="calcSub"></div>
+        <hr class="calc-sep">
+        <div class="pretest-row">
+          <label for="pretestSlider">Pre-test probability</label>
+          <input type="range" id="pretestSlider" min="0.1" max="99.9" step="0.1" value="50">
+          <div class="pretest-num">
+            <input type="number" id="pretestNum" min="0.1" max="99.9" step="0.1" value="50" aria-label="Pre-test probability (%)">
+            <span>%</span>
+          </div>
+          <button class="secondary small-btn" id="resetPretest" type="button">Reset</button>
+        </div>
+        <p class="hint" id="pretestHint"></p>
+
+        <div id="binarySection" class="hidden">
+          <div class="stats-grid">
+            <div class="stat-box"><div class="stat-label">Sensitivity</div><div class="stat-value" id="statSens">–</div></div>
+            <div class="stat-box"><div class="stat-label">Specificity</div><div class="stat-value" id="statSpec">–</div></div>
+            <div class="stat-box"><div class="stat-label">+LR</div><div class="stat-value" id="statPLR">–</div></div>
+            <div class="stat-box"><div class="stat-label">−LR</div><div class="stat-value" id="statNLR">–</div></div>
+          </div>
+          <div class="result-cards">
+            <div class="result-card neg">
+              <div class="result-label">If test is negative</div>
+              <div class="result-value" id="postNeg">–</div>
+              <div class="result-lr">Post-test probability of disease</div>
+            </div>
+            <div class="result-card pos">
+              <div class="result-label">If test is positive</div>
+              <div class="result-value" id="postPos">–</div>
+              <div class="result-lr">Post-test probability of disease</div>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill-pos" id="barFillPos"></div>
+            <div class="bar-marker pretest" id="markerPretest"><span class="marker-label">pre-test</span></div>
+            <div class="bar-marker neg-marker" id="markerNeg"><span class="marker-label">−</span></div>
+            <div class="bar-marker pos-marker" id="markerPos"><span class="marker-label">+</span></div>
+          </div>
+        </div>
+
+        <div id="multiSection" class="hidden">
+          <div class="library-table-wrap">
+            <table class="multi-table">
+              <thead><tr><th>Result</th><th class="num">SSLR</th><th class="num">Post-test probability</th><th class="bar-col"></th></tr></thead>
+              <tbody id="multiTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <hr class="calc-sep">
+        <details class="calc-source" open>
+          <summary>Study details &amp; source</summary>
+          <div class="calc-source-body" id="calcSource"></div>
+        </details>
+      </section>
+      <p class="calc-note">Likelihood ratios and pre-test probabilities are drawn from the published literature cited for each entry. Results are decision support only and do not replace clinical judgment.</p>
+    </div>
+
+    <!-- Differential Diagnosis -->
+    <div id="tabDdx" class="tab-panel calc hidden">
+      <section class="card">
+        <h2>Differential Diagnosis</h2>
+        <p class="hint calc-intro">Search or select a presenting sign, symptom, or test abnormality to see its differential diagnosis, ranked from most to least common.</p>
+        <label>Search signs, symptoms, or test abnormalities
+          <input type="search" id="ddxSearch" placeholder="e.g. cough, chest pain, elevated creatinine..." autocomplete="off">
+        </label>
+        <div class="category-filters" id="ddxFilters">
+          <button class="cat-btn active" data-cat="All" type="button" id="ddxAllBtn">All</button>
+          <button class="cat-btn" data-cat="Symptom" type="button">Symptoms</button>
+          <button class="cat-btn" data-cat="Sign" type="button">Signs</button>
+          <button class="cat-btn" data-cat="Test Abnormality" type="button">Test Abnormalities</button>
+        </div>
+        <ul class="ddx-results" id="ddxList"></ul>
+      </section>
+      <section class="card calc-empty" id="ddxEmpty">Select an item above to see its ranked differential diagnosis.</section>
+      <section class="card hidden" id="ddxResult">
+        <span class="calc-badge" id="ddxResultCat"></span>
+        <h3 class="calc-title" id="ddxResultTitle"></h3>
+        <div class="ddx-aliases" id="ddxResultAliases"></div>
+        <ol class="ddx-ranked" id="ddxRanked"></ol>
+        <div class="ddx-legend">
+          <span class="tier-badge tier-very-common">Very common</span>
+          <span class="tier-badge tier-common">Common</span>
+          <span class="tier-badge tier-less-common">Less common</span>
+          <span class="tier-badge tier-uncommon">Uncommon</span>
+          <span class="tier-badge tier-rare">Rare</span>
+          <span class="redflag-badge">⚑ Don't miss</span>
+        </div>
+      </section>
+      <p class="calc-note"><strong>About this tool.</strong> Rankings are qualitative clinical estimates of relative frequency among patients presenting with each finding in general adult primary care / ED settings &mdash; they are not derived from a specific cited study, and true frequency varies by age, setting, and population. The "Don't miss" flag marks diagnoses that are dangerous enough to always consider even when they are not the most likely cause; it is independent of the frequency ranking. This tool is for educational reference only and is not a substitute for clinical judgment.</p>
     </div>
 
     <div id="poemModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="POEM">

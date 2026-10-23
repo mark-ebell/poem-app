@@ -1,5 +1,6 @@
 import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.worker.min.mjs';
+import { loadCalculators, openCalculatorTab } from './calculator.js';
 
 const els = {};
 [
@@ -10,7 +11,7 @@ const els = {};
   'newPasswordRule', 'browseAuthorField', 'readerPrintNote', 'evidenceHelp',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
+  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
@@ -261,13 +262,20 @@ els.changePasswordForm.addEventListener('submit', async (e) => {
 els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.toggle('hidden'));
 
 // ---------- Tabs ----------
+// Signs and Symptoms and Diagnostic Tests share one panel (the same calculator, different data).
 function switchTab(name) {
-  const panels = { upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence, edit: els.tabEdit };
-  const buttons = { upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence, edit: els.tabBtnEdit };
-  for (const key of Object.keys(panels)) {
-    panels[key].classList.toggle('hidden', key !== name);
-    buttons[key].classList.toggle('active', key === name);
-  }  window.scrollTo(0, 0); // show the tab headings, not wherever the previous tab was scrolled to
+  const panels = {
+    upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence,
+    ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, edit: els.tabEdit
+  };
+  const buttons = {
+    upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence,
+    ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, edit: els.tabBtnEdit
+  };
+  for (const panel of new Set(Object.values(panels))) panel.classList.toggle('hidden', panel !== panels[name]);
+  for (const [key, button] of Object.entries(buttons)) button.classList.toggle('active', key === name);
+  window.scrollTo(0, 0); // show the tab headings, not wherever the previous tab was scrolled to
+  if (name === 'ddx' || name === 'signs' || name === 'tests') openCalculatorTab(name);
 }
 
 els.tabBtnUpload.addEventListener('click', () => switchTab('upload'));
@@ -280,6 +288,9 @@ els.tabBtnEvidence.addEventListener('click', () => {
   els.evidenceTopic.focus();
 });
 els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
+els.tabBtnDdx.addEventListener('click', () => switchTab('ddx'));
+els.tabBtnSigns.addEventListener('click', () => switchTab('signs'));
+els.tabBtnTests.addEventListener('click', () => switchTab('tests'));
 
 let extractedText = '';
 let currentDocId = null;
@@ -1855,6 +1866,7 @@ async function init(user) {
   els.wordImport.classList.toggle('hidden', user.username !== 'ebell');
   showApp(user);
   applyRole();
+  loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
   if (isReader()) {
     switchTab('browse');
     await loadReaderBrowse();

@@ -157,6 +157,16 @@ Set these in `.env` locally, or in Render's **Environment** tab:
 
 Besides the usage limits: everything requires a login; POEMs are sent to readers one at a time, never as bulk data; known AI crawlers and common scraping tools are refused; `robots.txt`, a page tag and an `X-Robots-Tag` header ask search engines and AI crawlers to stay out; and each network address is limited to 1,000 requests per 15 minutes.
 
+## Diagnostic calculators
+
+The **Differential Diagnosis**, **Signs and Symptoms** and **Diagnostic Tests** tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
+
+1. Edit the spreadsheet(s) in the `Diagnostic App` folder.
+2. Run `python3 build/build.py` there. It rebuilds the standalone calculator page and the iOS app's copy, and writes `calculator-data.json` into this folder.
+3. Commit and push this app; Render picks up the new data when it redeploys.
+
+The page never receives the whole data set: menus are fetched one level at a time, and each test's numbers and source (or a symptom's ranked differential) only when chosen. For readers each of those counts as a calculator look-up (100 an hour, 400 a day).
+
 ## Deploying to Render (making it reachable on the internet)
 
 This repo includes a `render.yaml` file that pre-fills most of the setup. The parts only you can do (they require your own accounts):

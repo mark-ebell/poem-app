@@ -1,0 +1,88 @@
+// The Diagnostic Tests, Signs and Symptoms and Differential Diagnosis tabs (the
+// Bayesian diagnostic calculator from the Diagnostic App project). Their data,
+// calculator-data.json, is written by that project's build/build.py from its
+// spreadsheets.
+//
+// To keep the data from being copied wholesale, the page never receives all of
+// it: the menus are fetched one level at a time, and an entry's numbers and
+// source only when someone picks it, which counts toward a reader's usage limits.
+const path = require('path');
+const fs = require('fs');
+const express = require('express');
+const { requireAuth } = require('../auth');
+const { quota } = require('../limits');
+
+const router = express.Router();
+router.use(requireAuth);
+
+const DATA_FILE = path.join(__dirname, '..', 'calculator-data.json');
+let data = { panels: [], differentials: [] };
+try {
+  data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+} catch (err) {
+  console.warn(`Calculator data not loaded (${err.message}); the calculator tabs will be empty.`);
+}
+const panels = new Map(data.panels.map(p => [p.key, p]));
+
+function panelFor(req, res) {
+  const panel = panels.get(req.params.panel);
+  if (!panel) res.status(404).json({ error: 'Not found.' });
+  return panel;
+}
+
+const byText = (a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' });
+
+// Differential Diagnosis: the list of signs, symptoms and test abnormalities...
+router.get('/differential', (req, res) => {
+  res.json({ items: data.differentials.map(d => ({ id: d.id, name: d.name, category: d.category, aliases: d.aliases || [] })) });
+});
+
+// ...and one item's ranked differential.
+router.get('/differential/:id', quota('calc'), (req, res) => {
+  const item = data.differentials.find(d => d.id === req.params.id);
+  if (!item) return res.status(404).json({ error: 'Not found.' });
+  res.json({ item });
+});
+
+// The two calculator panels and their specialties.
+router.get('/panels', (req, res) => {
+  res.json({ panels: data.panels.map(p => ({ key: p.key, label: p.label, itemLabel: p.itemLabel, specialties: p.specialties })) });
+});
+
+// Step 2 menu: the symptom / disease pairs in a specialty.
+router.get('/:panel/pairs', (req, res) => {
+  const panel = panelFor(req, res);
+  if (!panel) return;
+  const specialty = String(req.query.specialty || '');
+  const seen = new Map();
+  for (const t of panel.tests) {
+    if (t.specialty !== specialty) continue;
+    const key = `${t.symptom}|||${t.disease}`;
+    if (!seen.has(key)) seen.set(key, { symptom: t.symptom, disease: t.disease });
+  }
+  const pairs = [...seen.values()].sort((a, b) => byText(a.symptom + a.disease, b.symptom + b.disease));
+  res.json({ pairs });
+});
+
+// Step 3 menu: the tests (or findings) for a specialty and symptom / disease pair.
+router.get('/:panel/items', (req, res) => {
+  const panel = panelFor(req, res);
+  if (!panel) return;
+  const { specialty, symptom, disease } = req.query;
+  const items = panel.tests
+    .filter(t => t.specialty === specialty && t.symptom === symptom && t.disease === disease)
+    .map(t => ({ id: t.id, name: t.name, disambig: t.disambig || null, multi: t.multi }))
+    .sort((a, b) => byText(a.name, b.name));
+  res.json({ items });
+});
+
+// One entry, with its numbers and source.
+router.get('/:panel/items/:id', quota('calc'), (req, res) => {
+  const panel = panelFor(req, res);
+  if (!panel) return;
+  const test = panel.tests[Number(req.params.id)];
+  if (!test || String(test.id) !== String(req.params.id)) return res.status(404).json({ error: 'Not found.' });
+  res.json({ test });
+});
+
+module.exports = router;
