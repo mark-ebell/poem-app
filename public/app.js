@@ -1616,7 +1616,7 @@ function limitEvidenceOptions() {
     ['systematic', 'Systematic Reviews']
   ], 'all');
   setOptions(els.evidencePubmedYears, [['1', '1 year'], ['3', '3 years'], ['5', '5 years'], ['10', '10 years']], '10');
-  els.evidenceHelp.textContent = 'Downloads a Word document that begins with the most recent matching POEMs (up to 25), grouped by supertype, followed by practice guidelines, Cochrane reviews and systematic reviews from PubMed. Evidence Summaries and printouts are limited to 5 a day.';
+  els.evidenceHelp.textContent = 'Downloads a Word document that begins with the most recent matching POEMs (up to 500), grouped by supertype, followed by practice guidelines, Cochrane reviews and systematic reviews from PubMed. Evidence Summaries and printouts are limited to 5 a day.';
 }
 
 els.evidenceForm.addEventListener('submit', async (e) => {

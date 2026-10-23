@@ -133,7 +133,7 @@ What readers can do (the server enforces all of this; hiding tabs in the page is
 - Clicking a POEM opens it in a pop-up: 10 point Arial, bold headings, no hard line breaks.
 - Browse lists at most 200 titles at a time; Search shows at most 200 results.
 - Printing a search (Word or PDF) includes the first 25 matching POEMs.
-- Evidence Summaries include up to the 25 most recent matching POEMs, and from PubMed only practice guidelines, Cochrane reviews and systematic reviews from at most the last 10 years.
+- Evidence Summaries include up to the 500 most recent matching Published POEMs (the same cap as for editors, which keeps the server within its memory), and from PubMed only practice guidelines, Cochrane reviews and systematic reviews from at most the last 10 years.
 - **Usage limits** (in `limits.js`): 40 POEMs opened an hour and 150 a day; 60 searches or browse pages an hour and 300 a day; 5 printouts or Evidence Summaries a day. A reader who reaches a daily limit on 3 days within a week is locked automatically.
 
 To see reader accounts, or unlock one (on Render, from the service's **Shell** tab):
@@ -159,7 +159,7 @@ Besides the usage limits: everything requires a login; POEMs are sent to readers
 
 ## Diagnostic calculators
 
-The **Differential Diagnosis**, **Signs and Symptoms** and **Diagnostic Tests** tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
+The **Differential Dx**, **Hx & PE** (signs and symptoms) and **Diagnostic Tests** tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
 
 1. Edit the spreadsheet(s) in the `Diagnostic App` folder.
 2. Run `python3 build/build.py` there. It rebuilds the standalone calculator page and the iOS app's copy, and writes `calculator-data.json` into this folder.

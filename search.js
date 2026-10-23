@@ -34,7 +34,6 @@ const MAX_RESULTS = 300;
 // Readers get shorter lists and smaller printouts, so the archive can't be copied through them.
 const READER_MAX_RESULTS = 200;
 const READER_MAX_EXPORT = 25;
-const READER_MAX_SUMMARY_POEMS = 25;
 const MAX_QUERY = 300;
 const EXCERPT_WORDS = 50;
 
@@ -274,15 +273,15 @@ function rowsInOrder(ids) {
 
 // The POEMs matching a query for the Evidence Summary: newest first, at most
 // MAX_SUMMARY_POEMS of them (total is how many matched). For a reader, Published
-// POEMs only, and at most READER_MAX_SUMMARY_POEMS.
+// POEMs only. The cap keeps the server's memory in bounds: building the Word
+// document takes roughly 1 GB for 5,000 POEMs, and the Render plan has 512 MB.
 const MAX_SUMMARY_POEMS = 500;
 function poemsForSummary(params, { reader = false } = {}) {
   const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
   const sorted = result.hits.map(h => h.row).sort((a, b) =>
     (b.publication_date || '').localeCompare(a.publication_date || '') || (a.title || '').localeCompare(b.title || ''));
-  const max = reader ? READER_MAX_SUMMARY_POEMS : MAX_SUMMARY_POEMS;
-  return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, max).map(r => r.id)) };
+  return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, MAX_SUMMARY_POEMS).map(r => r.id)) };
 }
 
 module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };
