@@ -26,7 +26,8 @@ function el(tag, className, text) {
 }
 
 // ---------- Pop-up (SORT definitions, figures) ----------
-function openInfo(title, body) {
+function openInfo(title, body, { small = false } = {}) {
+  document.querySelector('#infoModal .modal').classList.toggle('modal-small', small);
   $('infoModalTitle').textContent = title;
   $('infoModalBody').textContent = '';
   $('infoModalBody').appendChild(body);
@@ -51,6 +52,29 @@ function showSort(rating) {
   body.appendChild(list);
   body.appendChild(el('p', 'hint', 'Ebell MH, Siwek J, Weiss BD, et al. Strength of Recommendation Taxonomy (SORT): a patient-centered approach to grading evidence in the medical literature. Am Fam Physician. 2004;69(3):548-556.'));
   openInfo('Strength of Recommendation Taxonomy (SORT)', body);
+}
+
+// A citation number opens a small pop-up: the abbreviated reference and where to read it.
+function showReference(n) {
+  const ref = current && current.references.find(r => r.n === Number(n));
+  if (!ref) return;
+  const body = el('div', 'ref-pop');
+  body.appendChild(el('p', 'ref-pop-text', ref.short));
+  if (ref.links.length) {
+    const links = el('div', 'ref-pop-links');
+    for (const l of ref.links) {
+      const a = el('a', 'ref-pop-link', l.label);
+      if (l.href) { a.href = l.href; a.target = '_blank'; a.rel = 'noopener'; }
+      else {
+        a.href = '#';
+        if (l.poem) a.dataset.poem = l.poem;
+        if (l.calc) { a.dataset.calc = l.calc; a.dataset.num = l.num; }
+      }
+      links.appendChild(a);
+    }
+    body.appendChild(links);
+  }
+  openInfo(`Reference ${ref.n}`, body, { small: true });
 }
 
 // A figure (an algorithm), drawn as a column of steps that reads the same on a phone
@@ -255,6 +279,37 @@ function renderChapter(c) {
     view.appendChild(box);
   }
 
+  // Decision support: the chapter's algorithms, calculators and risk scores in one place.
+  const ds = c.decisionSupport || {};
+  const groups = [
+    ['Algorithms', c.figures.map(f => ({ text: `Figure ${f.n}. ${f.title}`, data: { fig: f.id } }))],
+    ['History and physical calculators', (ds.signs || []).map(x => ({ text: x.label, data: { calc: 'signs', num: x.num } }))],
+    ['Diagnostic test calculators', (ds.tests || []).map(x => ({ text: x.label, data: { calc: 'tests', num: x.num } }))],
+    ['Risk scores', (ds.riskScores || []).map(x => ({ text: x.label, href: x.href }))]
+  ].filter(([, items]) => items.length);
+  if (groups.length) {
+    const det = el('details', 'chapter-section chapter-decision');
+    det.appendChild(el('summary', '', 'Decision support'));
+    const body = el('div', 'chapter-section-body');
+    for (const [label, items] of groups) {
+      const part = el('div', 'chapter-part');
+      part.appendChild(el('h4', '', label));
+      const ul = el('ul', 'calc-links');
+      for (const item of items) {
+        const li = el('li');
+        const a = el('a', item.data && item.data.calc ? 'calc-link' : 'fig-link', item.text);
+        if (item.href) { a.href = item.href; a.target = '_blank'; a.rel = 'noopener'; }
+        else { a.href = '#'; Object.assign(a.dataset, item.data); }
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
+      part.appendChild(ul);
+      body.appendChild(part);
+    }
+    det.appendChild(body);
+    view.appendChild(det);
+  }
+
   // Sections start closed; click a heading to open it.
   for (const s of c.sections) {
     const det = el('details', 'chapter-section');
@@ -274,7 +329,7 @@ function renderChapter(c) {
 
   if (c.figures.length) {
     const det = el('details', 'chapter-section');
-    det.appendChild(el('summary', '', c.figures.length === 1 ? 'Figure' : 'Figures'));
+    det.appendChild(el('summary', '', 'Figures'));
     const body = el('div', 'chapter-section-body');
     const ul = el('ul');
     for (const f of c.figures) {
@@ -312,7 +367,8 @@ function onChapterClick(e) {
   const t = e.target.closest('a, button');
   if (!t) return;
   if (t.classList.contains('sort-tag')) { e.preventDefault(); showSort(t.dataset.sort); return; }
-  if (t.dataset.poem) { e.preventDefault(); hooks.showPoemByNumber(t.dataset.poem); return; }
+  if (t.dataset.ref) { e.preventDefault(); showReference(t.dataset.ref); return; }
+  if (t.dataset.poem) { e.preventDefault(); closeInfo(); hooks.showPoemByNumber(t.dataset.poem); return; }
   if (t.dataset.calc) { e.preventDefault(); closeInfo(); hooks.openCalculator(t.dataset.calc, t.dataset.num); return; }
   if (t.dataset.fig) { e.preventDefault(); showFigure(t.dataset.fig); return; }
   const href = t.getAttribute('href') || '';

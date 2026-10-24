@@ -96,7 +96,7 @@ The dropdown beside the **Search** button limits how far back to look (last 1, 2
 
 The **Age group** filter (Adults, Children, Both adults and children) works as on the Browse tab. The **Category** filter groups the category codes: Diagnosis (codes beginning Dx), Treatment (Tx, plus TCAM), Screening & prevention (Sc), Prognosis (Px), and Other (everything else, including POEMs with no category). Changing a filter re-runs the search, and printing uses the same filters.
 
-Clicking a search result opens the POEM in a pop-up (9-point type, laid out like the printouts, with your search words highlighted) instead of the Edit tab; **Close**, the Escape key, or a click outside it dismisses the pop-up, and **Edit this POEM** opens it in the Edit tab.
+Clicking a search result opens the POEM in a pop-up (9-point type, laid out like the printouts, with your search words highlighted) instead of the Edit tab; **Close**, the Escape key, or a click outside it dismisses the pop-up. (To edit a POEM, open it from the Browse tab or the Recently added list.)
 
 After a search, **Print Word doc** downloads a `.docx` and **Print PDF** opens the browser's print window (choose "Save as PDF" as the destination). Both contain every matching POEM in full, one per page: a bold 12-point title, then POET, publication date and POEM number, then the fields with bold labels in 10-point type (with the level of evidence in parentheses after the study design). A search must match 500 POEMs or fewer to be printed (the results list itself shows the first 300); the same date range applies.
 
@@ -164,7 +164,8 @@ Besides the usage limits: everything requires a login; POEMs are sent to readers
 The **Chapters** tab (editors and readers) shows the Essential Evidence textbook one chapter at a time. Type part of a title to find a chapter. Each chapter shows its title, last update, authors (name, title, department, institution, city and state) and editors (names), then its sections (Background, Screening and prevention, Diagnosis, Treatment, Prognosis, Special populations, ...) as collapsible panels with the headings from the chapter template, then figures and the numbered references.
 
 - Each recommendation's strength of evidence appears as **(SORT A)**, **(SORT B)** or **(SORT C)**; clicking it shows the SORT definitions.
-- Citation numbers link to the source: a POEM opens in the POEM pop-up (green numbers), a PubMed article, Cochrane review or web site opens in a new tab, and a diagnostic-test reference opens the Tests calculator. The reference list gives the same links.
+- **Decision support**, the first panel, gathers the chapter's algorithms and its H & P and diagnostic test calculators (and, once chapters tag them, risk scores).
+- A citation number opens a small pop-up with the abbreviated reference and buttons for where to read it: PubMed, the POEM (green numbers mark POEMs), Cochrane Library, a web site or the Tests calculator. The reference list at the end gives the same links.
 - "History and physical tests" and "Diagnostic tests" list calculator entries by SxDxNum; each opens the **H & P** or **Tests** tab at that specialty and presentation.
 - "Figure 1" (an algorithm) opens in a pop-up drawn from the chapter's own boxes and arrows.
 - For readers each chapter opened counts toward a limit of 10 an hour and 30 a day.

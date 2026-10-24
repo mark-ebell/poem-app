@@ -622,6 +622,11 @@ ul.calc-links li { margin: 0 0 6px; }
 /* SORT definitions and figure pop-up */
 .modal-bar { align-items: center; }
 .info-modal-title { margin: 0 auto 0 4px; font-size: 1rem; }
+.modal.modal-small { width: min(440px, 100%); }
+.ref-pop-text { margin: 0 0 12px; line-height: 1.5; }
+.ref-pop-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.ref-pop-link { display: inline-block; padding: 6px 12px; border: 1px solid #c7d7fb; border-radius: 6px; background: #eff4ff; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+.ref-pop-link:hover { background: #e2ebff; }
 .sort-list { margin: 0 0 12px; }
 .sort-row { display: grid; grid-template-columns: 80px 1fr; gap: 10px; padding: 10px 8px; border-bottom: 1px solid var(--border); }
 .sort-row dt { font-weight: 700; color: #1f4b6e; }

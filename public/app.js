@@ -15,7 +15,7 @@ const els = {};
   'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
-  'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
+  'poemModal', 'poemModalBody', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseCount', 'browseResults',
@@ -1466,8 +1466,7 @@ function highlightInto(parent, text, terms, whole) {
   parent.append(text.slice(last));
 }
 
-// ---------- POEM pop-up (opened from a search result) ----------
-let popupPoemId = null;
+// ---------- POEM pop-up (opened from a search result or a chapter) ----------
 
 function highlightTextNodes(root, terms, whole) {
   if (!terms.length) return;
@@ -1485,12 +1484,11 @@ function highlightTextNodes(root, terms, whole) {
 async function showPoemPopup(id, { highlight = true, path = `/poems/${id}/view` } = {}) {
   let html;
   try {
-    ({ html, id } = await api(path));
+    ({ html } = await api(path));
   } catch (err) {
     alert(`Could not open this POEM: ${err.message}`);
     return;
   }
-  popupPoemId = id;
   els.poemModalBody.innerHTML = html; // built by the server from escaped text
   if (highlight && lastSearch) highlightTextNodes(els.poemModalBody, lastSearch.terms, lastSearch.whole);
   els.poemModalBody.querySelectorAll('a[href]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
@@ -1504,17 +1502,11 @@ function closePoemPopup() {
   els.poemModal.classList.add('hidden');
   document.body.classList.remove('modal-open');
   els.poemModalBody.textContent = '';
-  popupPoemId = null;
 }
 
 els.poemModalClose.addEventListener('click', closePoemPopup);
 els.poemModal.addEventListener('mousedown', (e) => { if (e.target === els.poemModal) closePoemPopup(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.poemModal.classList.contains('hidden')) closePoemPopup(); });
-els.poemModalEdit.addEventListener('click', () => {
-  const id = popupPoemId;
-  closePoemPopup();
-  if (id) openDoc(id);
-});
 
 // The print buttons stay visible but can only be used when there are results to print.
 function setPrintEnabled(on) {
@@ -1871,7 +1863,6 @@ function applyRole() {
   const reader = isReader();
   [els.tabBtnUpload, els.tabBtnEdit].forEach(b => b.classList.toggle('hidden', reader));
   els.browseAuthorField.classList.toggle('hidden', reader);
-  els.poemModalEdit.classList.toggle('hidden', reader);
   els.readerPrintNote.classList.toggle('hidden', !reader);
   els.newPasswordRule.textContent = reader
     ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'

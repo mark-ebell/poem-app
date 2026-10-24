@@ -161,6 +161,7 @@ class Chapter:
         self.problems = problems
         self.refs = {}       # reference id -> { n, kind, ... }
         self.figures = {}    # figure id -> number
+        self.calc_found = {"signs": [], "tests": []}  # calculator links, for Decision support
         self.number_references()
         self.number_figures()
 
@@ -202,6 +203,7 @@ class Chapter:
             if m and "pmid" not in info:
                 info["pmid"] = m.group(1)
             info["text"] = self.citation_text(r)
+            info["short"] = self.short_citation(r) or info["text"]
             self.refs[rid] = info
 
     def number_figures(self):
@@ -231,20 +233,50 @@ class Chapter:
                 parts = [get("citation")]
         return " ".join(p if p.endswith(".") else p + "." for p in (x.strip() for x in parts) if p)
 
-    def ref_link(self, info):
-        """The in-text citation: the reference number, linked to the most useful target."""
-        n, title = info["n"], esc(info["text"])
-        if info.get("poem"):
-            return f'<a href="#" class="cite cite-poem" data-poem="{esc(info["poem"])}" title="{title}">{n}</a>'
-        if info.get("calc"):
-            return f'<a href="#" class="cite" data-calc="{info["calc"][0]}" data-num="{esc(info["calc"][1])}" title="{title}">{n}</a>'
+    @staticmethod
+    def short_citation(r):
+        """An abbreviated reference for the citation pop-up: first author, title, source and year."""
+        get = lambda t: text_of(r.find(t))
+        def first_author(names):
+            names = names.split(";")[0].strip().rstrip(".")
+            parts = [p.strip() for p in names.split(",") if p.strip()]
+            if not parts:
+                return ""
+            return parts[0] + (", et al." if len(parts) > 1 else ".")
+        dot = lambda s: s if not s or s.endswith((".", "?", "!")) else s + "."
+        if r.find("chapter_title") is not None or r.find("book_title") is not None:
+            year = re.search(r"(19|20)\d\d", get("book_title") + " " + get("year"))
+            src = "Cochrane Database Syst Rev" if "cochrane" in get("book_title").lower() else get("book_title")
+            parts = [first_author(get("chapter_authors")), dot(get("chapter_title")), dot(f"{src} {year.group(0)}" if year else src)]
+        elif r.find("url") is not None or r.find("organization") is not None:
+            parts = [dot(get("organization")), dot(get("longtitle") or get("title"))]
+        else:
+            parts = [first_author(get("authors")), dot(get("title")), dot(" ".join(x for x in (get("source"), get("pubdate")) if x))]
+        return " ".join(p for p in parts if p)
+
+    @staticmethod
+    def ref_links(info):
+        """Where a reference can be read: [{label, href} | {label, poem} | {label, calc, num}]."""
+        links = []
         if info.get("pmid"):
-            return f'<a class="cite" href="https://pubmed.ncbi.nlm.nih.gov/{esc(info["pmid"])}/" target="_blank" rel="noopener" title="{title}">{n}</a>'
+            links.append({"label": "PubMed", "href": f'https://pubmed.ncbi.nlm.nih.gov/{info["pmid"]}/'})
+        if info.get("poem"):
+            links.append({"label": "POEM", "poem": info["poem"]})
+        if info.get("calc"):
+            which, n = info["calc"]
+            links.append({"label": "H & P calculator" if which == "signs" else "Tests calculator", "calc": which, "num": n})
         if info.get("cochrane"):
-            return f'<a class="cite" href="{cochrane_url(info["cochrane"])}" target="_blank" rel="noopener" title="{title}">{n}</a>'
-        if info.get("url"):
-            return f'<a class="cite" href="{esc(safe_url(info["url"]))}" target="_blank" rel="noopener" title="{title}">{n}</a>'
-        return f'<a class="cite" href="#ref-{n}" title="{title}">{n}</a>'
+            links.append({"label": "Cochrane Library", "href": cochrane_url(info["cochrane"])})
+        if info.get("url") and not info.get("pmid"):
+            links.append({"label": "Web site", "href": safe_url(info["url"])})
+        return links
+
+    def ref_link(self, info):
+        """The in-text citation: the reference number, which opens a small pop-up with the
+        abbreviated reference and its links (green when the reference is a POEM)."""
+        n = info["n"]
+        cls = "cite cite-poem" if info.get("poem") else "cite"
+        return f'<a href="#ref-{n}" class="{cls}" data-ref="{n}" title="{esc(info["text"])}">{n}</a>'
 
     # ---------- Inline content -> HTML ----------
     def inline(self, e):
@@ -341,6 +373,7 @@ class Chapter:
             if label is None:
                 self.problems.append(f"{'H & P' if which == 'signs' else 'Tests'} calculator #{n} is not in the calculator data")
                 label = f"Calculator #{n}"
+            self.calc_found[which].append({"num": n, "label": label})
             items.append(f'<li><a href="#" class="calc-link" data-calc="{which}" data-num="{esc(n)}">{esc(label)}</a></li>')
         return f'<ul class="calc-links">{"".join(items)}</ul>' if items else ""
 
@@ -432,19 +465,9 @@ class Chapter:
             info = self.refs[r.get("id") or ""] if (r.get("id") or "") in self.refs else None
             if not info:
                 continue
-            links = []
-            if info.get("pmid"):
-                links.append(f'<a href="https://pubmed.ncbi.nlm.nih.gov/{esc(info["pmid"])}/" target="_blank" rel="noopener">PubMed</a>')
-            if info.get("poem"):
-                links.append(f'<a href="#" data-poem="{esc(info["poem"])}">POEM</a>')
-            if info.get("calc"):
-                which, n = info["calc"]
-                links.append(f'<a href="#" data-calc="{which}" data-num="{esc(n)}">{"H & P" if which == "signs" else "Tests"} calculator</a>')
-            if info.get("cochrane"):
-                links.append(f'<a href="{cochrane_url(info["cochrane"])}" target="_blank" rel="noopener">Cochrane Library</a>')
-            if info.get("url") and not info.get("pmid"):
-                links.append(f'<a href="{esc(safe_url(info["url"]))}" target="_blank" rel="noopener">Web site</a>')
-            out.append({"n": info["n"], "html": esc(info["text"]) + (" " + " ".join(links) if links else "")})
+            links = self.ref_links(info)
+            out.append({"n": info["n"], "short": info["short"], "links": links,
+                        "html": esc(info["text"]) + (" " + " ".join(link_html(l) for l in links) if links else "")})
         return out
 
     def figures_list(self):
@@ -494,6 +517,9 @@ class Chapter:
             "overallBottomLine": self.overall_bottom_line(),
             "sections": self.sections(),
             "figures": self.figures_list(),
+            # Collected while building the sections: the chapter's calculators. Risk scores
+            # will be added here once chapters tag them.
+            "decisionSupport": {"signs": self.calc_found["signs"], "tests": self.calc_found["tests"], "riskScores": []},
             "references": self.references(),
         }
 
@@ -505,6 +531,14 @@ def safe_url(u):
     if re.match(r"^www\.", u, re.I):
         return "https://" + u
     return "#"
+
+
+def link_html(link):
+    if "href" in link:
+        return f'<a href="{esc(link["href"])}" target="_blank" rel="noopener">{esc(link["label"])}</a>'
+    if "poem" in link:
+        return f'<a href="#" data-poem="{esc(link["poem"])}">{esc(link["label"])}</a>'
+    return f'<a href="#" data-calc="{esc(link["calc"])}" data-num="{esc(link["num"])}">{esc(link["label"])}</a>'
 
 
 def cochrane_url(cd):
