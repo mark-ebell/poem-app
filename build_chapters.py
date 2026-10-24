@@ -398,7 +398,9 @@ class Chapter:
                         parts.append({"label": "", "bottomLine": False, "html": html_})
                 label = s.get("heading") or "Section"
             else:
-                parts = [p for p in (self.part(c) for c in s) if p]
+                # The chapter's Overall Bottom Line is shown on its own, above the sections.
+                children = [c for c in s if not (k == "background" and key(c.tag) == "bottomline")]
+                parts = [p for p in (self.part(c) for c in children) if p]
                 label = heading_for(s.tag, self.unknown)
             if parts:
                 out.append({"id": re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-"), "label": label, "parts": parts})
@@ -474,6 +476,11 @@ class Chapter:
         editors = [text_of(e.find("editor_name")) for e in self.root.iter("editor") if text_of(e.find("editor_name"))]
         return [a for a in authors if a["name"]], editors
 
+    def overall_bottom_line(self):
+        bl = self.root.find("topic_text/background/BottomLine")
+        part = self.part(bl) if bl is not None else None
+        return part["html"] if part else ""
+
     def build(self):
         info = self.root.find("topic_info")
         authors, editors = self.people()
@@ -484,6 +491,7 @@ class Chapter:
             "updated": text_of(info.find("topic_lastupdated")) if info is not None else "",
             "authors": authors,
             "editors": editors,
+            "overallBottomLine": self.overall_bottom_line(),
             "sections": self.sections(),
             "figures": self.figures_list(),
             "references": self.references(),

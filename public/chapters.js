@@ -162,9 +162,18 @@ function renderChapter(c) {
   }
   view.appendChild(head);
 
+  if (c.overallBottomLine) {
+    const box = el('div', 'card chapter-overall');
+    box.appendChild(el('h3', '', 'Overall Bottom Line'));
+    const content = el('div', 'chapter-content');
+    content.innerHTML = c.overallBottomLine; // prepared by build_chapters.py from escaped text
+    box.appendChild(content);
+    view.appendChild(box);
+  }
+
+  // Sections start closed; click a heading to open it.
   for (const s of c.sections) {
     const det = el('details', 'chapter-section');
-    det.open = true;
     det.appendChild(el('summary', '', s.label));
     const body = el('div', 'chapter-section-body');
     for (const p of s.parts) {
@@ -181,7 +190,6 @@ function renderChapter(c) {
 
   if (c.figures.length) {
     const det = el('details', 'chapter-section');
-    det.open = true;
     det.appendChild(el('summary', '', c.figures.length === 1 ? 'Figure' : 'Figures'));
     const body = el('div', 'chapter-section-body');
     const ul = el('ul');

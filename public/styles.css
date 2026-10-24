@@ -591,6 +591,8 @@ ol.ddx-ranked li:last-child { border-bottom: none; }
 .chapter-section[open] > summary::before { transform: rotate(90deg); }
 .chapter-section-body, .chapter-ref-list { padding: 4px 22px 14px; }
 .chapter-part h4 { color: var(--ch-blue); font-size: 1.08rem; margin: 18px 0 8px; }
+.chapter-overall { border-left: 4px solid var(--ch-blue); background: #f4f8fb; }
+.chapter-overall h3 { color: var(--ch-blue); font-size: 1.15rem; margin: 0 0 6px; }
 .chapter-part.bottom-line { background: #f4f8fb; border-left: 4px solid var(--ch-blue); padding: 1px 14px 4px; margin: 14px 0 6px; border-radius: 0 6px 6px 0; }
 .chapter-part.bottom-line h4 { margin-top: 12px; }
 .chapter-content { line-height: 1.6; font-size: 0.97rem; }
