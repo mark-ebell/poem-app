@@ -44,6 +44,23 @@ router.get('/differential/:id', quota('calc'), (req, res) => {
   res.json({ item });
 });
 
+// Where an SxDxNum is (for links from textbook chapters): its specialty and symptom /
+// disease pair. A number used for more than one pair gives the pair with the most entries.
+router.get('/:panel/number/:num', (req, res) => {
+  const panel = panelFor(req, res);
+  if (!panel) return;
+  const num = Number(req.params.num);
+  const counts = new Map();
+  for (const t of panel.tests) {
+    if (t.sxdxNum !== num) continue;
+    const k = JSON.stringify([t.specialty, t.symptom, t.disease]);
+    counts.set(k, (counts.get(k) || 0) + 1);
+  }
+  if (!counts.size) return res.status(404).json({ error: 'That calculator entry was not found.' });
+  const [specialty, symptom, disease] = JSON.parse([...counts].sort((a, b) => b[1] - a[1])[0][0]);
+  res.json({ specialty, symptom, disease });
+});
+
 // The two calculator panels and their specialties.
 router.get('/panels', (req, res) => {
   res.json({ panels: data.panels.map(p => ({ key: p.key, label: p.label, itemLabel: p.itemLabel, specialties: p.specialties })) });

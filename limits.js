@@ -8,7 +8,8 @@ const LIMITS = {
   view: { hour: 40, day: 150, noun: 'POEMs opened' },
   search: { hour: 60, day: 300, noun: 'searches' },
   download: { hour: 5, day: 5, noun: 'downloads' },
-  calc: { hour: 100, day: 400, noun: 'calculator look-ups' }
+  calc: { hour: 100, day: 400, noun: 'calculator look-ups' },
+  chapter: { hour: 10, day: 30, noun: 'chapters opened' }
 };
 const LOCK_AFTER_HITS = 3;
 

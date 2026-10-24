@@ -118,6 +118,7 @@
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse</button>
       <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search</button>
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence</button>
+      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Chapters</button>
       <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential</button>
       <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">H &amp; P</button>
       <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Tests</button>
@@ -298,6 +299,31 @@
         </form>
         <p class="hint" id="evidenceHelp">Downloads a Word document that begins with the matching POEMs, grouped by category, followed by articles from PubMed organised by content area.</p>
       </section>
+    </div>
+
+    <!-- Essential Evidence textbook chapters -->
+    <div id="tabChapters" class="tab-panel hidden">
+      <section class="card" id="chapterPicker">
+        <h2>Chapters</h2>
+        <label>Find a chapter
+          <input type="search" id="chapterFilter" placeholder="Type part of a chapter title, e.g. rhinitis" autocomplete="off">
+        </label>
+        <p id="chapterCount" class="hint"></p>
+        <ul id="chapterList" class="chapter-list"></ul>
+      </section>
+      <p id="chapterStatus" class="hint"></p>
+      <article id="chapterView" class="chapter hidden"></article>
+    </div>
+
+    <!-- SORT definitions and chapter figures -->
+    <div id="infoModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="infoModalTitle">
+      <div class="modal">
+        <div class="modal-bar">
+          <h3 id="infoModalTitle" class="info-modal-title"></h3>
+          <button type="button" id="infoModalClose">Close</button>
+        </div>
+        <div id="infoModalBody" class="modal-body info-modal-body"></div>
+      </div>
     </div>
 
     <!-- Signs and Symptoms / Diagnostic Tests (one Bayesian calculator, two data sets) -->

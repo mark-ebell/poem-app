@@ -98,6 +98,17 @@ router.post('/export', quota('download'), async (req, res) => {
   }
 });
 
+// A POEM by its POEM number (for links from textbook chapters), formatted for the pop-up.
+// The few numbers used twice in the archive give the most recent POEM.
+router.get('/number/:num/view', quota('view'), (req, res) => {
+  const num = Number(req.params.num);
+  if (!Number.isInteger(num)) return res.status(404).json({ error: 'POEM not found.' });
+  const row = db.prepare(`SELECT * FROM poems WHERE poem_id = ? ${isReader(req) ? "AND status = 'Published'" : ''}
+    ORDER BY publication_date DESC LIMIT 1`).get(num);
+  if (!row) return res.status(404).json({ error: 'POEM not found.' });
+  res.json({ html: isReader(req) ? buildReaderPoemFragment(row) : buildPoemFragment(row), id: row.id });
+});
+
 // One POEM formatted for reading in the pop-up (same layout as the printouts).
 router.get('/:id/view', quota('view'), (req, res) => {
   const row = db.prepare('SELECT * FROM poems WHERE id = ?').get(req.params.id);

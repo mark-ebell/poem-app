@@ -1,6 +1,7 @@
 import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.worker.min.mjs';
-import { loadCalculators, openCalculatorTab } from './calculator.js';
+import { loadCalculators, openCalculatorTab, openCalculatorAt } from './calculator.js';
+import { loadChapters } from './chapters.js';
 
 const els = {};
 [
@@ -11,7 +12,7 @@ const els = {};
   'newPasswordRule', 'browseAuthorField', 'readerPrintNote', 'evidenceHelp',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
+  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalEdit', 'poemModalClose',
@@ -266,11 +267,11 @@ els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.t
 function switchTab(name) {
   const panels = {
     upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence,
-    ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, edit: els.tabEdit
+    chapters: els.tabChapters, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, edit: els.tabEdit
   };
   const buttons = {
     upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence,
-    ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, edit: els.tabBtnEdit
+    chapters: els.tabBtnChapters, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, edit: els.tabBtnEdit
   };
   for (const panel of new Set(Object.values(panels))) panel.classList.toggle('hidden', panel !== panels[name]);
   for (const [key, button] of Object.entries(buttons)) button.classList.toggle('active', key === name);
@@ -288,6 +289,7 @@ els.tabBtnEvidence.addEventListener('click', () => {
   els.evidenceTopic.focus();
 });
 els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
+els.tabBtnChapters.addEventListener('click', () => switchTab('chapters'));
 els.tabBtnDdx.addEventListener('click', () => switchTab('ddx'));
 els.tabBtnSigns.addEventListener('click', () => switchTab('signs'));
 els.tabBtnTests.addEventListener('click', () => switchTab('tests'));
@@ -1479,10 +1481,11 @@ function highlightTextNodes(root, terms, whole) {
   }
 }
 
-async function showPoemPopup(id, { highlight = true } = {}) {
+// path: where to fetch the POEM (by default by its record id; chapters link by POEM number).
+async function showPoemPopup(id, { highlight = true, path = `/poems/${id}/view` } = {}) {
   let html;
   try {
-    ({ html } = await api(`/poems/${id}/view`));
+    ({ html, id } = await api(path));
   } catch (err) {
     alert(`Could not open this POEM: ${err.message}`);
     return;
@@ -1882,6 +1885,10 @@ async function init(user) {
   showApp(user);
   applyRole();
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
+  loadChapters(api, {
+    showPoemByNumber: num => showPoemPopup(null, { highlight: false, path: `/poems/number/${encodeURIComponent(num)}/view` }),
+    openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
+  });
   if (isReader()) {
     switchTab('browse');
     await loadReaderBrowse();

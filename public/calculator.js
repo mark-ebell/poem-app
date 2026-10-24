@@ -74,6 +74,32 @@ function showPanel(key) {
   hideCalculator();
 }
 
+// Opens the calculator at an SxDxNum (from a link in a textbook chapter): its specialty
+// and symptom / disease pair are chosen, ready for a test or finding to be picked.
+export async function openCalculatorAt(name, num) {
+  try {
+    await loaded;
+  } catch (err) {
+    setStatus(`Could not load the calculator: ${err.message}`);
+    return;
+  }
+  const key = name === 'signs' ? 'signsSymptoms' : 'diagnosticTests';
+  showPanel(key);
+  setStatus('Loading…');
+  let where;
+  try {
+    where = await api(`/calculator/${key}/number/${encodeURIComponent(num)}`);
+  } catch (err) {
+    setStatus(err.message);
+    return;
+  }
+  $('calcSpecialty').value = where.specialty;
+  await onSpecialtyChange();
+  $('calcPair').value = JSON.stringify([where.symptom, where.disease]);
+  await onPairChange();
+  setStatus(`Choose a ${itemLabel(false)} to open the calculator.`);
+}
+
 async function onSpecialtyChange() {
   const specialty = $('calcSpecialty').value;
   const seq = ++menuSeq;

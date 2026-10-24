@@ -159,6 +159,18 @@ Set these in `.env` locally, or in Render's **Environment** tab:
 
 Besides the usage limits: everything requires a login; POEMs are sent to readers one at a time, never as bulk data; known AI crawlers and common scraping tools are refused; `robots.txt`, a page tag and an `X-Robots-Tag` header ask search engines and AI crawlers to stay out; and each network address is limited to 1,000 requests per 15 minutes.
 
+## Chapters (Essential Evidence textbook)
+
+The **Chapters** tab (editors and readers) shows the Essential Evidence textbook one chapter at a time. Type part of a title to find a chapter. Each chapter shows its title, last update, authors (name, title, department, institution, city and state) and editors (names), then its sections (Background, Screening and prevention, Diagnosis, Treatment, Prognosis, Special populations, ...) as collapsible panels with the headings from the chapter template, then figures and the numbered references.
+
+- Each recommendation's strength of evidence appears as **(SORT A)**, **(SORT B)** or **(SORT C)**; clicking it shows the SORT definitions.
+- Citation numbers link to the source: a POEM opens in the POEM pop-up (green numbers), a PubMed article, Cochrane review or web site opens in a new tab, and a diagnostic-test reference opens the Tests calculator. The reference list gives the same links.
+- "History and physical tests" and "Diagnostic tests" list calculator entries by SxDxNum; each opens the **H & P** or **Tests** tab at that specialty and presentation.
+- "Figure 1" (an algorithm) opens in a pop-up drawn from the chapter's own boxes and arrows.
+- For readers each chapter opened counts toward a limit of 10 an hour and 30 a day.
+
+To add or update chapters: put the XML files (e.g. `EEE0001.xml`) in the `EEPlus chapters` folder next to this app, run `python3 build_chapters.py` here, then commit and push. It writes `chapters/index.json` and one file per chapter, removes chapters whose XML file has gone, and reports problems, such as a link to a POEM or calculator entry that doesn't exist, or an element with no heading (add its heading to `HEADINGS` in `build_chapters.py`). Run it after rebuilding the calculator data too, since the calculator link text comes from `calculator-data.json`.
+
 ## Diagnostic calculators
 
 The **Differential** (differential diagnosis), **H & P** (signs and symptoms) and **Tests** (diagnostic tests) tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
