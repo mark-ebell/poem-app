@@ -53,37 +53,121 @@ function showSort(rating) {
   openInfo('Strength of Recommendation Taxonomy (SORT)', body);
 }
 
-// A figure (an algorithm) drawn from its boxes: each box in turn, with where its arrows lead.
+// A figure (an algorithm), drawn as a column of steps that reads the same on a phone
+// as on a wide screen. The order comes from the arrows: each step after the steps that
+// lead to it. A box with no arrows of its own (an outcome) is shown inside the step that
+// leads to it, as "If <arrow label>: <outcome>". When a step leads to exactly one later
+// step, and that step comes next, the two are joined by a labelled arrow; otherwise its
+// choices are buttons that jump to the step they lead to. Boxes no arrow reaches (some
+// older algorithms list boxes without arrows) are shown as steps at the end.
+function layoutFigure(fig) {
+  const cells = new Map(fig.cells.map(c => [c.id, c]));
+  const out = id => (cells.get(id) ? cells.get(id).paths.filter(p => cells.has(p.target) && p.target !== id) : []);
+  const isOutcome = id => out(id).length === 0;
+  const incoming = new Map(fig.cells.map(c => [c.id, 0]));
+  fig.cells.forEach(c => out(c.id).forEach(p => incoming.set(p.target, incoming.get(p.target) + 1)));
+
+  // Longest distance from the start, so a step comes after every step that leads to it.
+  const start = (fig.cells.find(c => c.type === 'start') || fig.cells[0] || {}).id;
+  const rank = new Map();
+  if (start) {
+    rank.set(start, 0);
+    for (let pass = 0; pass < fig.cells.length; pass++) { // bounded, so a loop in the arrows can't hang
+      let changed = false;
+      for (const [id, r] of [...rank]) {
+        for (const p of out(id)) {
+          if (!rank.has(p.target) || rank.get(p.target) < r + 1) { rank.set(p.target, r + 1); changed = true; }
+        }
+      }
+      if (!changed) break;
+    }
+  }
+  const idNum = id => Number(String(id).replace(/\D/g, '')) || 0;
+  const reached = fig.cells.filter(c => rank.has(c.id) && (!isOutcome(c.id) || c.id === start))
+    .sort((a, b) => rank.get(a.id) - rank.get(b.id) || idNum(a.id) - idNum(b.id));
+  const leftover = fig.cells.filter(c => !reached.includes(c) && !(isOutcome(c.id) && incoming.get(c.id) > 0))
+    .sort((a, b) => idNum(a.id) - idNum(b.id));
+  const steps = [...reached, ...leftover];
+  const stepNo = new Map(steps.map((c, i) => [c.id, i + 1]));
+  return { cells, out, isOutcome, steps, stepNo };
+}
+
 function showFigure(id) {
   const fig = current && current.figures.find(f => f.id === id);
   if (!fig) return;
-  const number = new Map(fig.cells.map((c, i) => [c.id, i + 1]));
+  const { cells, out, isOutcome, steps, stepNo } = layoutFigure(fig);
   const body = el('div', 'flow');
-  fig.cells.forEach((c, i) => {
-    const box = el('div', `flow-cell flow-${c.type}`);
-    const head = el('div', 'flow-step', `${i + 1}`);
-    const label = el('div', 'flow-label');
-    label.innerHTML = c.html; // prepared by build_chapters.py from escaped text
-    box.append(head, label);
-    if (c.paths.length) {
-      const paths = el('ul', 'flow-paths');
-      for (const p of c.paths) {
-        const li = el('li');
-        li.innerHTML = p.html || 'Next';
-        const to = number.get(p.target);
-        if (to) li.append(` → box ${to}`);
-        paths.appendChild(li);
+
+  steps.forEach((c, i) => {
+    const step = el('section', `flow-step flow-${c.type}`);
+    step.id = `flow-step-${stepNo.get(c.id)}`;
+    const num = el('div', 'flow-num', String(stepNo.get(c.id)));
+    const text = el('div', 'flow-text');
+    text.innerHTML = c.html; // prepared by build_chapters.py from escaped text
+    step.append(num, text);
+
+    const paths = out(c.id);
+    const outcomes = paths.filter(p => isOutcome(p.target));
+    const onward = paths.filter(p => !isOutcome(p.target));
+    const next = steps[i + 1];
+    const joined = onward.length === 1 && next && onward[0].target === next.id;
+
+    if (outcomes.length) {
+      const list = el('div', 'flow-outcomes');
+      for (const p of outcomes) {
+        const o = el('div', 'flow-outcome');
+        const when = el('div', 'flow-when');
+        when.innerHTML = p.html ? `If ${p.html.charAt(0).toLowerCase()}${p.html.slice(1)}` : 'Then';
+        const what = el('div', 'flow-what');
+        what.innerHTML = cells.get(p.target).html;
+        o.append(when, what);
+        list.appendChild(o);
       }
-      box.appendChild(paths);
+      step.appendChild(list);
     }
-    body.appendChild(box);
+    if (onward.length && !joined) {
+      const choices = el('div', 'flow-choices');
+      for (const p of onward) {
+        const b = el('button', 'flow-jump');
+        b.type = 'button';
+        b.dataset.step = stepNo.get(p.target);
+        b.innerHTML = `${p.html || 'Next'} <span class="flow-go">→ Step ${stepNo.get(p.target)}</span>`;
+        choices.appendChild(b);
+      }
+      step.appendChild(choices);
+    }
+    body.appendChild(step);
+
+    if (joined) {
+      const arrow = el('div', 'flow-arrow');
+      const label = el('span', 'flow-arrow-label');
+      label.innerHTML = onward[0].html || '';
+      arrow.appendChild(label);
+      body.appendChild(arrow);
+    }
   });
-  for (const note of fig.notes || []) {
-    const p = el('p', 'hint');
-    p.innerHTML = note;
-    body.appendChild(p);
+
+  if (fig.notes && fig.notes.length) {
+    const notes = el('ul', 'flow-notes');
+    for (const n of fig.notes) {
+      const li = el('li');
+      li.innerHTML = n;
+      notes.appendChild(li);
+    }
+    body.appendChild(notes);
   }
   openInfo(`Figure ${fig.n}. ${fig.title}`, body);
+}
+
+// A step's choice button scrolls to the step it leads to.
+function onFlowJump(e) {
+  const b = e.target.closest('.flow-jump');
+  if (!b) return;
+  const target = document.getElementById(`flow-step-${b.dataset.step}`);
+  if (!target) return;
+  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  target.classList.add('flash');
+  setTimeout(() => target.classList.remove('flash'), 1200);
 }
 
 // ---------- Chapter list ----------
@@ -254,6 +338,7 @@ export function loadChapters(apiFn, hookFns) {
 $('chapterFilter').addEventListener('input', renderList);
 $('chapterView').addEventListener('click', onChapterClick);
 $('infoModalBody').addEventListener('click', onChapterClick);
+$('infoModalBody').addEventListener('click', onFlowJump);
 $('infoModalClose').addEventListener('click', closeInfo);
 $('infoModal').addEventListener('mousedown', (e) => { if (e.target === $('infoModal')) closeInfo(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('infoModal').classList.contains('hidden')) closeInfo(); });

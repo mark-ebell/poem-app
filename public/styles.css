@@ -627,11 +627,27 @@ ul.calc-links li { margin: 0 0 6px; }
 .sort-row dt { font-weight: 700; color: #1f4b6e; }
 .sort-row dd { margin: 0; line-height: 1.45; }
 .sort-row.current { background: #eff4ff; border-radius: 6px; }
-.flow { display: flex; flex-direction: column; gap: 10px; }
-.flow-cell { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; display: grid; grid-template-columns: 28px 1fr; gap: 4px 10px; }
+.flow { display: flex; flex-direction: column; max-width: 620px; margin: 0 auto; }
+.flow-step { border: 1.5px solid #c9d3dc; border-radius: 10px; padding: 12px 14px; background: #fff; display: grid; grid-template-columns: 26px 1fr; gap: 8px 10px; align-items: start; transition: box-shadow 0.3s; }
 .flow-start { border-color: #1f4b6e; background: #f4f8fb; }
-.flow-decision { border-color: #c7d7fb; }
-.flow-action { border-color: #c7e6d3; background: #f6fbf8; }
-.flow-step { width: 24px; height: 24px; border-radius: 50%; background: #1f4b6e; color: #fff; font-size: 0.78rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
-.flow-label { line-height: 1.45; }
-.flow-paths { grid-column: 2; margin: 2px 0 0; padding-left: 18px; color: var(--muted); font-size: 0.9rem; }
+.flow-step.flash { box-shadow: 0 0 0 3px #fde68a; }
+.flow-num { width: 26px; height: 26px; border-radius: 50%; background: #1f4b6e; color: #fff; font-size: 0.8rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.flow-text { line-height: 1.45; font-weight: 600; padding-top: 2px; }
+.flow-outcomes, .flow-choices { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 6px; }
+.flow-outcome { border-left: 3px solid #1e7e4f; background: #f1f8f4; border-radius: 0 6px 6px 0; padding: 7px 10px; }
+.flow-when { font-size: 0.78rem; font-weight: 700; color: #1e7e4f; text-transform: uppercase; letter-spacing: 0.02em; }
+.flow-what { line-height: 1.4; font-size: 0.93rem; }
+.flow-jump { text-align: left; background: #eff4ff; color: var(--text); border: 1px solid #c7d7fb; border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 0.92rem; }
+.flow-jump:hover:not(:disabled) { background: #e2ebff; }
+.flow-go { color: var(--accent); white-space: nowrap; margin-left: 4px; }
+.flow-arrow { display: flex; align-items: center; gap: 10px; min-height: 38px; margin-left: 26px; padding-left: 14px; border-left: 2px solid #1f4b6e; position: relative; }
+.flow-arrow::after { content: ''; position: absolute; left: -7px; bottom: -2px; border: 6px solid transparent; border-top: 8px solid #1f4b6e; border-bottom: 0; }
+.flow-arrow-label { font-size: 0.85rem; color: var(--muted); font-weight: 600; padding: 6px 0; }
+.flow-step + .flow-step { margin-top: 12px; }
+.flow-notes { margin: 16px 0 0; padding-left: 18px; font-size: 0.85rem; color: var(--muted); line-height: 1.45; }
+.flow-notes li { margin-bottom: 4px; }
+
+/* Narrow screens: the header (with a reader's full email address) wraps instead of widening the page. */
+header { flex-wrap: wrap; gap: 8px 16px; }
+.header-right { flex-wrap: wrap; justify-content: flex-end; gap: 4px 14px; min-width: 0; }
+#whoAmI { overflow-wrap: anywhere; }
