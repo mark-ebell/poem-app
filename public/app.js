@@ -318,6 +318,12 @@ function monthValue(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
 }
 
+// Short form for the Browse list: "Dec 26".
+function formatShortMonthYear(value) {
+  const m = /^(\d{4})-(\d{2})$/.exec(value || '');
+  return m ? `${MONTH_NAMES[Number(m[2]) - 1].slice(0, 3)} ${m[1].slice(2)}` : '';
+}
+
 function formatMonthYear(value) {
   if (!value) return '';
   const [y, m] = value.split('-').map(Number);
@@ -1326,7 +1332,7 @@ function renderBrowse() {
   const table = document.createElement('table');
   table.className = 'library-table';
   const headRow = document.createElement('tr');
-  ['Publication date', 'POET', 'Title', 'Age group', 'POEM #'].forEach(label => {
+  ['Date', 'Title'].forEach(label => {
     const th = document.createElement('th');
     th.textContent = label;
     headRow.appendChild(th);
@@ -1339,20 +1345,15 @@ function renderBrowse() {
   matches.slice(0, SHOW_MAX).forEach(doc => {
     const row = document.createElement('tr');
     const dateCell = document.createElement('td');
-    dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
-    const poetCell = document.createElement('td');
-    poetCell.textContent = doc.poet || '—';
+    dateCell.className = 'browse-date';
+    dateCell.textContent = formatShortMonthYear(doc.publicationDate) || '—';
     const titleCell = document.createElement('td');
     const link = document.createElement('span');
     link.className = 'library-title-link';
     link.textContent = doc.title || 'Untitled POEM';
     link.addEventListener('click', () => openDoc(doc.id));
     titleCell.appendChild(link);
-    const ageCell = document.createElement('td');
-    ageCell.textContent = { 1: 'Adults', 2: 'Children', 3: 'Both' }[doc.ageGroup] || 'Not specified';
-    const numCell = document.createElement('td');
-    numCell.textContent = doc.poemId || '';
-    row.append(dateCell, poetCell, titleCell, ageCell, numCell);
+    row.append(dateCell, titleCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);
@@ -1411,7 +1412,7 @@ async function renderReaderBrowse() {
   const table = document.createElement('table');
   table.className = 'library-table';
   const headRow = document.createElement('tr');
-  ['Publication date', 'Title', 'Age group'].forEach(label => {
+  ['Date', 'Title'].forEach(label => {
     const th = document.createElement('th');
     th.textContent = label;
     headRow.appendChild(th);
@@ -1423,16 +1424,15 @@ async function renderReaderBrowse() {
   data.poems.forEach(doc => {
     const row = document.createElement('tr');
     const dateCell = document.createElement('td');
-    dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
+    dateCell.className = 'browse-date';
+    dateCell.textContent = formatShortMonthYear(doc.publicationDate) || '—';
     const titleCell = document.createElement('td');
     const link = document.createElement('span');
     link.className = 'library-title-link';
     link.textContent = doc.title || 'Untitled POEM';
     link.addEventListener('click', () => showPoemPopup(doc.id, { highlight: false }));
     titleCell.appendChild(link);
-    const ageCell = document.createElement('td');
-    ageCell.textContent = { 1: 'Adults', 2: 'Children', 3: 'Both' }[doc.ageGroup] || 'Not specified';
-    row.append(dateCell, titleCell, ageCell);
+    row.append(dateCell, titleCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);

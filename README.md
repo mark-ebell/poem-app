@@ -112,7 +112,7 @@ The PubMed search string is built in `pubmed.js` from the strategy document ("Ge
 
 ### Browsing the POEMs
 
-The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group. It opens on the most recent month. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group. It opens on the most recent month. Each result shows a short date (e.g. "Dec 26") and the title. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
 
 ### Importing a monthly batch from Word
 
