@@ -679,3 +679,56 @@ header { align-items: flex-start; gap: 8px 16px; }
 
 /* Browse: a narrow date column ("Dec 26"). */
 .library-table td.browse-date { white-space: nowrap; width: 1%; }
+
+/* --- Edit Chapter (tracked-changes review) --- */
+.ce-list button { display: flex; flex-direction: column; gap: 4px; }
+.ce-list-title { font-weight: 600; }
+.ce-list-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.ce-tag { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: #eef1f5; color: var(--muted); margin-left: 6px; }
+.ce-list-tags .ce-tag { margin-left: 0; }
+.ce-tag-draft { background: #eff4ff; color: var(--accent-hover); }
+.ce-tag-busy { background: #fef3c7; color: #92400e; }
+.ce-tag-edited { background: #e8f5ee; color: #1e7e4f; }
+.ce-tag-warn { background: #fbe9e7; color: #b3392f; }
+.ce-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 16px; align-items: flex-start; }
+.ce-title { font-size: 1.3rem; color: #1f4b6e; margin: 0 0 2px; }
+.ce-head .hint { margin: 0; }
+.ce-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.ce-status:empty { display: none; }
+.ce-status { margin: 12px 0 0; }
+.ce-warn { background: #fbe9e7; border-color: #f0cdc8; color: #8a2a22; }
+.ce-summary { margin: 12px 0 0; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; background: #f8fafb; }
+.ce-summary h3 { margin: 0 0 4px; font-size: 0.95rem; }
+.ce-summary p { margin: 0; line-height: 1.5; font-size: 0.92rem; }
+.ce-unplaced { margin-top: 8px; font-size: 0.9rem; }
+.ce-unplaced summary { cursor: pointer; font-weight: 600; color: #92400e; }
+.ce-unplaced li { margin: 6px 0; }
+.ce-bar { position: sticky; top: 0; z-index: 5; background: var(--card); border-bottom: 1px solid var(--border); margin: 14px -20px 0; padding: 10px 20px 8px; }
+.ce-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.ce-tools button { padding: 6px 10px; font-size: 0.85rem; background: #eef1f5; color: var(--text); }
+.ce-tools button:hover:not(:disabled) { background: #e2e6ec; }
+.ce-tools .ce-accept { background: #e8f5ee; color: #1e7e4f; }
+.ce-tools .ce-reject { background: #fbe9e7; color: #b3392f; }
+.ce-sep { width: 1px; height: 22px; background: var(--border); margin: 0 4px; }
+.ce-count { font-size: 0.85rem; font-weight: 600; min-width: 120px; text-align: center; }
+.ce-note { margin: 6px 0 0; font-size: 0.85rem; color: var(--muted); line-height: 1.4; min-height: 1.2em; }
+.ce-body { margin-top: 8px; }
+.ce-section-title { font-size: 1.1rem; color: #fff; background: #1f4b6e; padding: 8px 14px; border-radius: 6px; margin: 18px 0 6px; }
+.ce-part h4 { color: #1f4b6e; margin: 14px 0 6px; font-size: 1rem; }
+.ce-content { border: 1px solid transparent; border-radius: 6px; padding: 2px 8px; }
+.ce-content[contenteditable="true"] { border-color: #dfe5ec; background: #fff; }
+.ce-content[contenteditable="true"]:focus { outline: 2px solid #c7d7fb; outline-offset: 1px; }
+.ce-readonly { opacity: 0.85; }
+.ce-part.bottom-line .ce-content { background: #f4f8fb; }
+ins.tc { color: #11683d; text-decoration: underline; text-decoration-color: #1e7e4f; background: #ecf8f1; }
+del.tc { color: #b3392f; text-decoration: line-through; background: #fdf1ef; }
+ins.tc .cite, del.tc .cite { color: inherit; }
+.tc-current { outline: 2px solid #f59e0b; outline-offset: 1px; border-radius: 2px; }
+.ce-refs-title { margin: 24px 0 6px; font-size: 1rem; }
+.ce-refs { font-size: 0.85rem; line-height: 1.5; padding-left: 28px; }
+.ce-refs li { margin: 0 0 6px; }
+.ref-results { list-style: none; padding: 0; margin: 8px 0 0; max-height: 50vh; overflow-y: auto; }
+.ref-results li { border-bottom: 1px solid var(--border); }
+.ref-result { width: 100%; text-align: left; background: none; color: var(--text); font-weight: normal; border-radius: 0; padding: 8px 6px; font-size: 0.9rem; line-height: 1.4; }
+.ref-result:hover:not(:disabled) { background: #eff4ff; }
+#refForm select { width: auto; }

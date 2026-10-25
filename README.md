@@ -170,7 +170,20 @@ The **Chapters** tab (editors and readers) shows the Essential Evidence textbook
 - "Figure 1" (an algorithm) opens in a pop-up drawn from the chapter's own boxes and arrows.
 - For readers each chapter opened counts toward a limit of 10 an hour and 30 a day.
 
-To add or update chapters: put the XML files (e.g. `EEE0001.xml`) in the `EEPlus chapters` folder next to this app, run `python3 build_chapters.py` here, then commit and push. It writes `chapters/index.json` and one file per chapter, removes chapters whose XML file has gone, and reports problems, such as a link to a POEM or calculator entry that doesn't exist, or an element with no heading (add its heading to `HEADINGS` in `build_chapters.py`). Run it after rebuilding the calculator data too, since the calculator link text comes from `calculator-data.json`.
+To add or update chapters from a content transfer: put the XML files (e.g. `EEE0001.xml`) in the `EEPlus chapters` folder next to this app, run `npm run build-chapters` here, then commit and push. It copies each chapter's XML to `chapters/xml/`, writes the chapter list `chapters/index.json`, removes chapters whose XML file has gone, and reports problems, such as a link to a POEM or calculator entry that doesn't exist, or an element with no heading (add its heading to `HEADINGS` in `chapter-convert.js`). The app converts a chapter from its XML when it is first opened (`chapter-convert.js`). A chapter saved in the Edit Chapter tab stays as saved even if a newer file arrives; the tab flags it.
+
+## Edit Chapter (editors only)
+
+The **Edit Chapter** tab is for keeping chapters current (the aim is to update each at least once a year). Choose a chapter; its parts appear as editable blocks.
+
+- **Update with Claude** searches PubMed for the chapter's topic over the last 14 months (practice guidelines, Cochrane and systematic reviews, and trials and diagnostic, prognosis, screening and prevention studies in high-yield journals) plus InfoRetriever's POEMs from that time, and has Claude (Opus 5.5) review the chapter against them. Its suggestions arrive as tracked changes: deletions of out-of-date statements, corrected phrases, new bullets with their citations (new references are added automatically), and new bottom-line recommendations with SORT ratings. Each change carries a short note on why and its sources; suggestions that cannot be placed exactly are listed above the chapter. An update takes a minute or two and costs well under a dollar.
+- **Your own edits are tracked too**: typing appears as a green insertion and deleting as a red strikethrough, under your name. Backspacing over your own insertion simply removes it. Cmd/Ctrl+Z undoes. Bold, italic, superscript and subscript buttons format text (formatting is not tracked).
+- The review bar steps through the changes (◀ ▶, or click a change), showing who made it and why, with **Accept**/**Reject** and **Accept all**/**Reject all**.
+- **Insert reference** adds a citation at the cursor: search PubMed by PMID or words, or POEMs by POEM number or title words.
+- The review is saved as you work, so you can stop and come back; **Discard review** throws it away without changing the chapter.
+- **Save chapter** (allowed once every change is accepted or rejected) saves the chapter as a new version of its XML: references no longer cited are removed, new ones added, all renumbered, and the "Last updated" date becomes today. Every saved version is kept in the database (`chapter_versions`). **Download XML** gives the current version's file, e.g. for the master copy.
+
+The pieces: `chapter-store.js` (files, saved versions, reviews), `chapter-update.js` (evidence search, Claude, suggestions to tracked changes), `chapter-xml-write.js` (editor content back to XML), `routes/chapter-edit.js`, and `public/chapter-editor.js`.
 
 ## Daily InfoPOEM email
 

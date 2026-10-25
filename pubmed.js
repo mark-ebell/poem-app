@@ -189,6 +189,34 @@ function toArticle(r) {
   };
 }
 
+// Abstracts and publication types, for the chapter update: Map pmid -> { abstract, types }.
+async function fetchAbstracts(ids) {
+  const out = new Map();
+  if (!ids.length) return out;
+  const { DOMParser } = require('@xmldom/xmldom');
+  for (let i = 0; i < ids.length; i += 100) {
+    const params = new URLSearchParams({ db: 'pubmed', id: ids.slice(i, i + 100).join(','), rettype: 'abstract', retmode: 'xml', tool: 'inforetriever' });
+    if (process.env.NCBI_API_KEY) params.set('api_key', process.env.NCBI_API_KEY);
+    const resp = await throttled(() => fetch(`${EUTILS}efetch.fcgi`, {
+      method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: params, signal: AbortSignal.timeout(60000)
+    }));
+    if (!resp.ok) throw new Error(`PubMed returned an error (${resp.status}).`);
+    const doc = new DOMParser({ onError: () => {} }).parseFromString(await resp.text(), 'text/xml');
+    for (const art of Array.from(doc.getElementsByTagName('PubmedArticle'))) {
+      const pmidEl = art.getElementsByTagName('PMID')[0];
+      if (!pmidEl) continue;
+      const parts = Array.from(art.getElementsByTagName('AbstractText')).map(t => {
+        const label = t.getAttribute('Label');
+        const text = String(t.textContent || '').replace(/\s+/g, ' ').trim();
+        return label ? `${label}: ${text}` : text;
+      });
+      const types = Array.from(art.getElementsByTagName('PublicationType')).map(t => String(t.textContent || '').trim());
+      out.set(String(pmidEl.textContent).trim(), { abstract: parts.join(' '), types });
+    }
+  }
+  return out;
+}
+
 // ---------- AMA citation ----------
 // "6 or fewer authors: list all; more than 6: first 3 then et al."
 function expandPages(pages) {
@@ -219,5 +247,5 @@ const pubmedSearchUrl = term => `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeU
 
 module.exports = {
   AGE_GROUPS, CONTENT_AREAS, HIGH_YIELD_JOURNALS, MAX_PER_CATEGORY,
-  buildQuery, searchPubMed, fetchArticles, eutils, ecitmatch, amaRuns, pubmedUrl, pmcUrl, pubmedSearchUrl, findBy
+  buildQuery, searchPubMed, fetchArticles, fetchAbstracts, eutils, ecitmatch, amaRuns, pubmedUrl, pmcUrl, pubmedSearchUrl, findBy
 };

@@ -119,6 +119,7 @@
       <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search</button>
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence</button>
       <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Chapters</button>
+      <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit">Edit Chapter</button>
       <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential</button>
       <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">H &amp; P</button>
       <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Tests</button>
@@ -314,6 +315,83 @@
       </section>
       <p id="chapterStatus" class="hint"></p>
       <article id="chapterView" class="chapter hidden"></article>
+    </div>
+
+    <!-- Edit Chapter (editors only): tracked-changes review of a chapter -->
+    <div id="tabChapterEdit" class="tab-panel hidden">
+      <section class="card">
+        <h2>Edit Chapter</h2>
+        <p class="hint">Choose a chapter to review. <b>Update with Claude</b> finds guidelines, systematic reviews, trials and POEMs from the last 14 months and suggests changes; every change, Claude's and yours, is tracked for you to accept or reject. Save the chapter when every change has been reviewed.</p>
+        <label>Find a chapter
+          <input type="search" id="ceFilter" placeholder="Type part of a chapter title" autocomplete="off">
+        </label>
+        <p id="ceCount" class="hint"></p>
+        <ul id="ceList" class="chapter-list ce-list"></ul>
+      </section>
+
+      <section id="ceEditor" class="card hidden">
+        <div class="ce-head">
+          <div>
+            <h2 id="ceTitle" class="ce-title"></h2>
+            <p id="ceUpdated" class="hint"></p>
+          </div>
+          <div class="ce-actions">
+            <button type="button" id="ceUpdate">Update with Claude</button>
+            <button type="button" id="ceSave">Save chapter</button>
+            <button type="button" id="ceDownload" class="secondary">Download XML</button>
+            <button type="button" id="ceDiscard" class="secondary">Discard review</button>
+          </div>
+        </div>
+        <p id="ceStatus" class="notice ce-status"></p>
+        <p id="ceStale" class="notice ce-warn hidden">This chapter has been saved since this review began. Saving will ask before replacing that version.</p>
+        <div id="ceSummary" class="ce-summary hidden"></div>
+
+        <div class="ce-bar">
+          <div class="ce-tools">
+            <button type="button" id="ceBold" title="Bold"><b>B</b></button>
+            <button type="button" id="ceItalic" title="Italic"><i>I</i></button>
+            <button type="button" id="ceSup" title="Superscript">x<sup>2</sup></button>
+            <button type="button" id="ceSub" title="Subscript">x<sub>2</sub></button>
+            <button type="button" id="ceInsertRef">Insert reference</button>
+            <span class="ce-sep"></span>
+            <button type="button" id="cePrev" title="Previous change">◀</button>
+            <span id="ceChangeCount" class="ce-count"></span>
+            <button type="button" id="ceNext" title="Next change">▶</button>
+            <button type="button" id="ceAccept" class="ce-accept">Accept</button>
+            <button type="button" id="ceReject" class="ce-reject">Reject</button>
+            <button type="button" id="ceAcceptAll" class="secondary">Accept all</button>
+            <button type="button" id="ceRejectAll" class="secondary">Reject all</button>
+          </div>
+          <p id="ceChangeNote" class="ce-note"></p>
+        </div>
+
+        <div id="ceBody" class="ce-body chapter"></div>
+
+        <h3 class="ce-refs-title">References</h3>
+        <ol id="ceRefs" class="ce-refs"></ol>
+      </section>
+    </div>
+
+    <!-- Insert reference (Edit Chapter) -->
+    <div id="refModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="refModalTitle">
+      <div class="modal">
+        <div class="modal-bar">
+          <h3 id="refModalTitle" class="info-modal-title">Insert reference</h3>
+          <button type="button" id="refClose">Close</button>
+        </div>
+        <div class="modal-body">
+          <form id="refForm" class="search-form">
+            <select id="refKind" aria-label="Where to look">
+              <option value="pubmed">PubMed (PMID or words)</option>
+              <option value="poems">POEMs (number or title words)</option>
+            </select>
+            <input type="search" id="refSearch" placeholder="e.g. 41324154 or intranasal azelastine fluticasone" autocomplete="off">
+            <button type="submit">Search</button>
+          </form>
+          <p id="refStatus" class="hint"></p>
+          <ul id="refResults" class="ref-results"></ul>
+        </div>
+      </div>
     </div>
 
     <!-- SORT definitions and chapter figures -->

@@ -2,6 +2,7 @@ import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.worker.min.mjs';
 import { loadCalculators, openCalculatorTab, openCalculatorAt } from './calculator.js';
 import { loadChapters } from './chapters.js';
+import { loadChapterEditor } from './chapter-editor.js';
 
 const els = {};
 [
@@ -12,7 +13,7 @@ const els = {};
   'newPasswordRule', 'browseAuthorField', 'readerPrintNote', 'evidenceHelp',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
+  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
@@ -267,11 +268,11 @@ els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.t
 function switchTab(name) {
   const panels = {
     upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence,
-    chapters: els.tabChapters, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, edit: els.tabEdit
+    chapters: els.tabChapters, chapteredit: els.tabChapterEdit, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, edit: els.tabEdit
   };
   const buttons = {
     upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence,
-    chapters: els.tabBtnChapters, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, edit: els.tabBtnEdit
+    chapters: els.tabBtnChapters, chapteredit: els.tabBtnChapterEdit, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, edit: els.tabBtnEdit
   };
   for (const panel of new Set(Object.values(panels))) panel.classList.toggle('hidden', panel !== panels[name]);
   for (const [key, button] of Object.entries(buttons)) button.classList.toggle('active', key === name);
@@ -290,6 +291,7 @@ els.tabBtnEvidence.addEventListener('click', () => {
 });
 els.tabBtnEdit.addEventListener('click', () => switchTab('edit'));
 els.tabBtnChapters.addEventListener('click', () => switchTab('chapters'));
+els.tabBtnChapterEdit.addEventListener('click', () => switchTab('chapteredit'));
 els.tabBtnDdx.addEventListener('click', () => switchTab('ddx'));
 els.tabBtnSigns.addEventListener('click', () => switchTab('signs'));
 els.tabBtnTests.addEventListener('click', () => switchTab('tests'));
@@ -1861,7 +1863,7 @@ const isReader = () => !!currentUser && currentUser.role === 'reader';
 // Readers see only Browse, Search and Evidence; the server enforces the same rules.
 function applyRole() {
   const reader = isReader();
-  [els.tabBtnUpload, els.tabBtnEdit].forEach(b => b.classList.toggle('hidden', reader));
+  [els.tabBtnUpload, els.tabBtnEdit, els.tabBtnChapterEdit].forEach(b => b.classList.toggle('hidden', reader));
   els.browseAuthorField.classList.toggle('hidden', reader);
   els.readerPrintNote.classList.toggle('hidden', !reader);
   els.newPasswordRule.textContent = reader
@@ -1880,6 +1882,7 @@ async function init(user) {
     showPoemByNumber: num => showPoemPopup(null, { highlight: false, path: `/poems/number/${encodeURIComponent(num)}/view` }),
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
   });
+  if (!isReader()) loadChapterEditor(api, user);
   if (isReader()) {
     switchTab('browse');
     await loadReaderBrowse();
