@@ -114,7 +114,9 @@ async function showSummary(which, num) {
   const label = test => test.name + (test.disambig ? ` (${test.disambig})` : '');
   const body = el('div', 'summary-pop');
   body.appendChild(el('p', 'hint summary-specialty', data.specialty));
-  const simple = data.tests.filter(t => t.multi !== 1);
+  // Highest LR+ first (as the result tables of multi-level tests are); a missing LR+ goes last.
+  const byLR = t => (Number.isFinite(t.plr) ? t.plr : -Infinity);
+  const simple = data.tests.filter(t => t.multi !== 1).sort((a, b) => byLR(b) - byLR(a));
   if (simple.length) {
     body.appendChild(summaryTable([which === 'signs' ? 'Finding' : 'Test Name', 'LR+', 'LR-', 'Sens', 'Spec'],
       simple.map(t => [label(t), fmtLR(t.plr), fmtLR(t.nlr), fmtPct(t.sens), fmtPct(t.spec)])));
