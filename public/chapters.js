@@ -77,6 +77,62 @@ function showReference(n) {
   openInfo(`Reference ${ref.n}`, body, { small: true });
 }
 
+// Summary data for a calculator entry (Decision support): a table of every test or finding
+// for that presentation, with LR+, LR-, sensitivity and specificity. Tests with several
+// result levels get a small table of their own (result, likelihood ratio).
+function fmtLR(x) {
+  if (x === null || x === undefined || !Number.isFinite(x)) return '–';
+  const s = x >= 10 ? x.toFixed(0) : x >= 1 ? x.toFixed(1) : x.toFixed(2);
+  return s.includes('.') ? s.replace(/\.?0+$/, '') : s;
+}
+const fmtPct = x => (x === null || x === undefined || !Number.isFinite(x) ? '–' : `${Math.round(x)}%`);
+
+function summaryTable(head, rows) {
+  const wrap = el('div', 'chapter-table-wrap');
+  const table = el('table', 'chapter-table summary-table');
+  const tr = el('tr');
+  head.forEach((h, i) => tr.appendChild(el('th', i ? 'num' : '', h)));
+  table.appendChild(tr);
+  for (const cells of rows) {
+    const r = el('tr');
+    cells.forEach((c, i) => r.appendChild(el('td', i ? 'num' : '', c)));
+    table.appendChild(r);
+  }
+  wrap.appendChild(table);
+  return wrap;
+}
+
+async function showSummary(which, num) {
+  const key = which === 'signs' ? 'signsSymptoms' : 'diagnosticTests';
+  let data;
+  try {
+    data = await api(`/calculator/${key}/number/${encodeURIComponent(num)}/summary`);
+  } catch (err) {
+    alert(err.message);
+    return;
+  }
+  const label = test => test.name + (test.disambig ? ` (${test.disambig})` : '');
+  const body = el('div', 'summary-pop');
+  body.appendChild(el('p', 'hint summary-specialty', data.specialty));
+  const simple = data.tests.filter(t => t.multi !== 1);
+  if (simple.length) {
+    body.appendChild(summaryTable([which === 'signs' ? 'Finding' : 'Test Name', 'LR+', 'LR-', 'Sens', 'Spec'],
+      simple.map(t => [label(t), fmtLR(t.plr), fmtLR(t.nlr), fmtPct(t.sens), fmtPct(t.spec)])));
+  }
+  for (const t of data.tests.filter(x => x.multi === 1)) {
+    body.appendChild(el('h4', 'summary-multi', label(t)));
+    body.appendChild(summaryTable(['Result', 'LR'], t.options.slice().sort((a, b) => b.sslr - a.sslr).map(o => [o.range, fmtLR(o.sslr)])));
+  }
+  const open = el('a', 'ref-pop-link', `Open the ${which === 'signs' ? 'H & P' : 'Tests'} calculator`);
+  open.href = '#';
+  open.dataset.calc = which;
+  open.dataset.num = num;
+  const links = el('div', 'ref-pop-links');
+  links.appendChild(open);
+  body.appendChild(links);
+  openInfo(`${data.symptom} → ${data.disease}`, body);
+}
+
 // A figure (an algorithm), drawn as a column of steps that reads the same on a phone
 // as on a wide screen. The order comes from the arrows: each step after the steps that
 // lead to it. A box with no arrows of its own (an outcome) is shown inside the step that
@@ -301,6 +357,13 @@ function renderChapter(c) {
         if (item.href) { a.href = item.href; a.target = '_blank'; a.rel = 'noopener'; }
         else { a.href = '#'; Object.assign(a.dataset, item.data); }
         li.appendChild(a);
+        if (item.data && item.data.calc) {
+          const b = el('button', 'summary-btn', 'Summary data');
+          b.type = 'button';
+          b.dataset.summaryCalc = item.data.calc;
+          b.dataset.num = item.data.num;
+          li.appendChild(b);
+        }
         ul.appendChild(li);
       }
       part.appendChild(ul);
@@ -367,6 +430,7 @@ function onChapterClick(e) {
   const t = e.target.closest('a, button');
   if (!t) return;
   if (t.classList.contains('sort-tag')) { e.preventDefault(); showSort(t.dataset.sort); return; }
+  if (t.dataset.summaryCalc) { e.preventDefault(); showSummary(t.dataset.summaryCalc, t.dataset.num); return; }
   if (t.dataset.ref) { e.preventDefault(); showReference(t.dataset.ref); return; }
   if (t.dataset.poem) { e.preventDefault(); closeInfo(); hooks.showPoemByNumber(t.dataset.poem); return; }
   if (t.dataset.calc) { e.preventDefault(); closeInfo(); hooks.openCalculator(t.dataset.calc, t.dataset.num); return; }

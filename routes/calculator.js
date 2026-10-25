@@ -61,6 +61,35 @@ router.get('/:panel/number/:num', (req, res) => {
   res.json({ specialty, symptom, disease });
 });
 
+// Summary data for an SxDxNum (Decision support in a chapter): every test or finding
+// for that presentation with its likelihood ratios, sensitivity and specificity, or for a
+// multi-level one its result levels. Counts as one calculator look-up for a reader.
+router.get('/:panel/number/:num/summary', quota('calc'), (req, res) => {
+  const panel = panelFor(req, res);
+  if (!panel) return;
+  const num = Number(req.params.num);
+  const tests = panel.tests.filter(t => t.sxdxNum === num);
+  if (!tests.length) return res.status(404).json({ error: 'That calculator entry was not found.' });
+  const counts = new Map();
+  for (const t of tests) {
+    const k = JSON.stringify([t.specialty, t.symptom, t.disease]);
+    counts.set(k, (counts.get(k) || 0) + 1);
+  }
+  const [specialty, symptom, disease] = JSON.parse([...counts].sort((a, b) => b[1] - a[1])[0][0]);
+  const lr = (given, value) => (given !== null && given !== undefined ? given : (Number.isFinite(value) ? value : null));
+  const rows = tests.map(t => {
+    if (t.multi === 1) return { name: t.name, disambig: t.disambig || null, multi: 1, options: t.options };
+    const sens = t.sens === null || t.sens === undefined ? null : t.sens / 100;
+    const spec = t.spec === null || t.spec === undefined ? null : t.spec / 100;
+    return {
+      name: t.name, disambig: t.disambig || null, multi: 0, sens: t.sens ?? null, spec: t.spec ?? null,
+      plr: lr(t.plr, sens !== null && spec !== null && spec < 1 ? sens / (1 - spec) : NaN),
+      nlr: lr(t.nlr, sens !== null && spec !== null && spec > 0 ? (1 - sens) / spec : NaN)
+    };
+  }).sort((a, b) => byText(a.name, b.name));
+  res.json({ specialty, symptom, disease, itemLabel: panel.itemLabel, tests: rows });
+});
+
 // The two calculator panels and their specialties.
 router.get('/panels', (req, res) => {
   res.json({ panels: data.panels.map(p => ({ key: p.key, label: p.label, itemLabel: p.itemLabel, specialties: p.specialties })) });
