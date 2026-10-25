@@ -14,6 +14,7 @@ const { router: authRouter } = require('./auth');
 const poemsRouter = require('./routes/poems');
 const generateRouter = require('./routes/generate');
 const { pruneUsage } = require('./limits');
+const { assignMissingDailyDates, startDailyPoemSchedule } = require('./daily-poem');
 const { turnstileEnabled } = require('./turnstile');
 
 const app = express();
@@ -29,6 +30,9 @@ if (isProduction) {
   if (!process.env.APP_URL) console.warn('Warning: APP_URL is not set; links in reader emails will point to localhost.');
 }
 setInterval(pruneUsage, 60 * 60 * 1000).unref();
+const dailyAssigned = assignMissingDailyDates();
+if (dailyAssigned) console.log(`Daily InfoPOEM: gave ${dailyAssigned} Published POEM(s) a day.`);
+startDailyPoemSchedule();
 
 const migratedPoems = migrateLegacyPoems();
 if (migratedPoems) console.log(`Converted ${migratedPoems} saved POEM(s) to separate database fields.`);

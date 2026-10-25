@@ -263,4 +263,4 @@ ${poems}
 </body></html>`;
 }
 
-module.exports = { buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment, htmlToParagraphs, describePoem, DISCLAIMER };
+module.exports = { buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment, htmlToParagraphs, describePoem, runsToHtml, monthYear, DISCLAIMER };

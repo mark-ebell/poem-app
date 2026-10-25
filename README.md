@@ -172,6 +172,23 @@ The **Chapters** tab (editors and readers) shows the Essential Evidence textbook
 
 To add or update chapters: put the XML files (e.g. `EEE0001.xml`) in the `EEPlus chapters` folder next to this app, run `python3 build_chapters.py` here, then commit and push. It writes `chapters/index.json` and one file per chapter, removes chapters whose XML file has gone, and reports problems, such as a link to a POEM or calculator entry that doesn't exist, or an element with no heading (add its heading to `HEADINGS` in `build_chapters.py`). Run it after rebuilding the calculator data too, since the calculator link text comes from `calculator-data.json`.
 
+## Daily InfoPOEM email
+
+Each weekday one POEM is emailed to subscribers (for now only ebell@msu.edu, while testing). When a POEM becomes **Published** (saved in the Edit tab or brought in by the monthly Word import) it is given a random weekday in its publication month that no other POEM has, today or later; only the months listed in `DAILY_POEM_MONTHS` take part (for now `2026-10`). From 6 a.m. US Eastern on that day the server sends it, once, to the addresses in `DAILY_POEM_RECIPIENTS` (comma-separated). A POEM taken out of Published, or moved to another month, gives up a day it has not yet been sent on.
+
+The email's subject is "Daily InfoPOEM: <title>". It has the AAFP logo at the top left and "Powered by InfoRetriever" with the dog at the top right, the POEM as readers see it (no POET or POEM number), and the disclaimer and a link to InfoRetriever.org at the bottom. Its images are served from `public/email/` and `public/inforetriever.png` on the live site.
+
+From the command line (on Render, the service's **Shell** tab):
+
+```
+npm run daily-poem -- schedule            # which POEM goes out on which day, and which have been sent
+npm run daily-poem -- send-test           # send today's POEM now, marked [Test]
+npm run daily-poem -- send-test 369649    # send a particular POEM (by POEM number) now
+npm run daily-poem -- preview 369649      # write the email to daily-poem-preview.html
+```
+
+Before sending to real subscribers, the email needs an unsubscribe link and a subscriber list.
+
 ## Diagnostic calculators
 
 The **Differential** (differential diagnosis), **H & P** (signs and symptoms) and **Tests** (diagnostic tests) tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:

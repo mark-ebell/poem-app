@@ -3,6 +3,7 @@ const crypto = require('crypto');
 const db = require('../db');
 const { requireAuth, requireEditor, isReader } = require('../auth');
 const { quota } = require('../limits');
+const { assignDailyDate } = require('../daily-poem');
 const { normalizePoemBody, toClient, toListItem, generatePoemId } = require('../poem-model');
 const { buildSearchText, searchPoems, poemsForExport } = require('../search');
 const { buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment } = require('../export-poems');
@@ -133,6 +134,7 @@ router.post('/', requireEditor, (req, res) => {
   const f = { ...fields, id, poem_id: poemId, source: 'app', created_by: req.session.username, updated_by: req.session.username, created_at: now, updated_at: now };
   const cols = Object.keys(f);
   db.prepare(`INSERT INTO poems (${cols.join(', ')}) VALUES (${cols.map(c => '@' + c).join(', ')})`).run(f);
+  assignDailyDate(id); // a POEM saved as Published gets its Daily InfoPOEM day
   res.status(201).json({ poem: toClient(db.prepare('SELECT * FROM poems WHERE id = ?').get(id)) });
 });
 
@@ -145,6 +147,13 @@ router.put('/:id', requireEditor, (req, res) => {
   const f = { ...fields, id: req.params.id, updated_by: req.session.username, updated_at: new Date().toISOString() };
   const assignments = Object.keys(fields).concat(['updated_by', 'updated_at']).map(c => `${c} = @${c}`).join(', ');
   db.prepare(`UPDATE poems SET ${assignments} WHERE id = @id`).run(f);
+  // Daily InfoPOEM: a POEM no longer Published, or moved to another month, gives up a day
+  // it has not been sent on yet; a POEM now Published gets a day (daily-poem.js).
+  if (existing.daily_date && (fields.status !== 'Published' || fields.publication_date !== existing.publication_date)
+      && !db.prepare('SELECT 1 FROM daily_sends WHERE send_date = ?').get(existing.daily_date)) {
+    db.prepare('UPDATE poems SET daily_date = NULL WHERE id = ?').run(req.params.id);
+  }
+  assignDailyDate(req.params.id);
   res.json({ poem: toClient(db.prepare('SELECT * FROM poems WHERE id = ?').get(req.params.id)) });
 });
 

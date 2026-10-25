@@ -151,7 +151,21 @@ if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'status
     db.exec("UPDATE poems SET status = 'Published' WHERE publication_date <= '2026-09'");
   })();
 }
+// Daily InfoPOEM (daily-poem.js): the weekday a Published POEM is emailed to subscribers,
+// and a record of each day's send so a restart never sends the same day twice.
+if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'daily_date')) {
+  db.exec('ALTER TABLE poems ADD COLUMN daily_date TEXT');
+}
+db.exec(`
+  CREATE TABLE IF NOT EXISTS daily_sends (
+    send_date TEXT PRIMARY KEY,
+    poem_id TEXT NOT NULL,
+    recipients TEXT NOT NULL,
+    sent_at TEXT NOT NULL
+  );
+`);
 createIndexes();
+db.exec('CREATE INDEX IF NOT EXISTS idx_poems_daily_date ON poems(daily_date)');
 
 module.exports = db;
 module.exports.dataDir = dataDir;

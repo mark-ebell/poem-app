@@ -7,6 +7,7 @@ const { requireEditor } = require('../auth');
 const { sanitizeHtml, pubmedUrlFor, generatePoemId, INITIALS_BY_POET } = require('../poem-model');
 const { buildSearchText } = require('../search');
 const { readBatch, supertypeCode } = require('../word-import');
+const { assignDailyDate } = require('../daily-poem');
 
 const router = express.Router();
 router.use(requireEditor);
@@ -124,6 +125,7 @@ router.post('/import-word/commit', requireAdmin, async (req, res) => {
         insert.run(row);
       }
     })();
+    rows.forEach(row => assignDailyDate(row.id)); // imported POEMs are Published: give each a Daily InfoPOEM day
     res.json({ added: rows.length, skipped });
   } catch (err) {
     console.error('Word import failed', err);

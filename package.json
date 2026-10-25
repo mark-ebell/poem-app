@@ -8,7 +8,8 @@
   "scripts": {
     "start": "node server.js",
     "seed": "node seed-users.js",
-    "readers": "node readers.js"
+    "readers": "node readers.js",
+    "daily-poem": "node daily-poem.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
