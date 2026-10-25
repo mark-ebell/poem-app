@@ -78,11 +78,11 @@ router.get('/:panel/number/:num/summary', quota('calc'), (req, res) => {
   const [specialty, symptom, disease] = JSON.parse([...counts].sort((a, b) => b[1] - a[1])[0][0]);
   const lr = (given, value) => (given !== null && given !== undefined ? given : (Number.isFinite(value) ? value : null));
   const rows = tests.map(t => {
-    if (t.multi === 1) return { name: t.name, disambig: t.disambig || null, multi: 1, options: t.options };
+    if (t.multi === 1) return { name: t.name, disambig: t.disambig || null, multi: 1, pretest: t.pretest ?? null, options: t.options };
     const sens = t.sens === null || t.sens === undefined ? null : t.sens / 100;
     const spec = t.spec === null || t.spec === undefined ? null : t.spec / 100;
     return {
-      name: t.name, disambig: t.disambig || null, multi: 0, sens: t.sens ?? null, spec: t.spec ?? null,
+      name: t.name, disambig: t.disambig || null, multi: 0, pretest: t.pretest ?? null, sens: t.sens ?? null, spec: t.spec ?? null,
       plr: lr(t.plr, sens !== null && spec !== null && spec < 1 ? sens / (1 - spec) : NaN),
       nlr: lr(t.nlr, sens !== null && spec !== null && spec > 0 ? (1 - sens) / spec : NaN)
     };
