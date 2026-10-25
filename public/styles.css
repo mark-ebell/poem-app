@@ -623,7 +623,7 @@ ul.calc-links li { margin: 0 0 6px; }
 .modal-bar { align-items: center; }
 .info-modal-title { margin: 0 auto 0 4px; font-size: 1rem; }
 .modal.modal-small { width: min(440px, 100%); }
-.ref-pop-text { margin: 0 0 12px; line-height: 1.5; }
+.ref-pop-text { margin: 0 0 12px; line-height: 1.5; font-size: 0.9rem; }
 .ref-pop-links { display: flex; flex-wrap: wrap; gap: 8px; }
 .ref-pop-link { display: inline-block; padding: 6px 12px; border: 1px solid #c7d7fb; border-radius: 6px; background: #eff4ff; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
 .ref-pop-link:hover { background: #e2ebff; }
@@ -655,7 +655,7 @@ ul.calc-links li { margin: 0 0 6px; }
 /* Signed in as / Change password / Log out: stacked at the top right, which fits phones. */
 header { align-items: flex-start; gap: 8px 16px; }
 .header-right { flex-direction: column; align-items: flex-end; gap: 2px; min-width: 0; text-align: right; }
-.header-right .link-btn { padding: 2px 0; }
+.header-right .link-btn { padding: 2px 0; white-space: nowrap; }
 #whoAmI { overflow-wrap: anywhere; }
 
 /* Browse: a narrow date column ("Dec 26"). */

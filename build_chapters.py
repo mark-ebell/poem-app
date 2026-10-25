@@ -235,7 +235,8 @@ class Chapter:
 
     @staticmethod
     def short_citation(r):
-        """An abbreviated reference for the citation pop-up: first author, title, source and year."""
+        """An abbreviated reference for the citation pop-up: first author, title, then source,
+        year, volume and pages (Ann Allergy 1992;68:35-45.)."""
         get = lambda t: text_of(r.find(t))
         def first_author(names):
             names = names.split(";")[0].strip().rstrip(".")
@@ -245,13 +246,26 @@ class Chapter:
             return parts[0] + (", et al." if len(parts) > 1 else ".")
         dot = lambda s: s if not s or s.endswith((".", "?", "!")) else s + "."
         if r.find("chapter_title") is not None or r.find("book_title") is not None:
-            year = re.search(r"(19|20)\d\d", get("book_title") + " " + get("year"))
-            src = "Cochrane Database Syst Rev" if "cochrane" in get("book_title").lower() else get("book_title")
-            parts = [first_author(get("chapter_authors")), dot(get("chapter_title")), dot(f"{src} {year.group(0)}" if year else src)]
+            book = get("book_title")
+            year = re.search(r"(19|20)\d\d", book + " " + get("year"))
+            if "cochrane" in book.lower():
+                issue = re.search(r"Issue\s+(\d+)", book)
+                art = re.search(r"(CD\d+)", book)
+                src = "Cochrane Database Syst Rev" + (f" {year.group(0)}" if year else "")
+                src += (f";({issue.group(1)})" if issue else "") + (f":{art.group(1)}" if art else "")
+            else:
+                src = book + (f" {year.group(0)}" if year else "")
+            parts = [first_author(get("chapter_authors")), dot(get("chapter_title")), dot(src)]
         elif r.find("url") is not None or r.find("organization") is not None:
             parts = [dot(get("organization")), dot(get("longtitle") or get("title"))]
         else:
-            parts = [first_author(get("authors")), dot(get("title")), dot(" ".join(x for x in (get("source"), get("pubdate")) if x))]
+            src = " ".join(x for x in (get("source"), get("pubdate")) if x)
+            vol, pages = get("volume"), get("pages").rstrip(".")
+            if vol:
+                src += f";{vol}"
+            if pages:
+                src += f":{pages}"
+            parts = [first_author(get("authors")), dot(get("title")), dot(src)]
         return " ".join(p for p in parts if p)
 
     @staticmethod
