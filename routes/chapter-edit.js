@@ -5,7 +5,9 @@ const { requireEditor } = require('../auth');
 const db = require('../db');
 const pm = require('../pubmed');
 const store = require('../chapter-store');
-const { buildEditorState, runUpdate } = require('../chapter-update');
+const { buildEditorState, runUpdate, searchTermsFor, AREAS } = require('../chapter-update');
+const planner = require('../chapter-plan');
+const batches = require('../chapter-batch');
 const { writeChapterXml, formatAuthors } = require('../chapter-xml-write');
 
 const router = express.Router();
@@ -22,9 +24,33 @@ const displayName = req => {
   return (u && u.display_name) || req.session.username;
 };
 
-// The chapter list, with what has been edited and what is under review.
+// The chapter list, with what has been edited, what is under review, and each chapter's
+// plan (update month, editor); also the editors and the monthly updates.
 router.get('/', (req, res) => {
-  res.json({ chapters: store.editStatus() });
+  const plans = planner.plans();
+  res.json({
+    chapters: store.editStatus().map(c => {
+      const p = plans.get(c.id) || {};
+      return { ...c, plan: { month: p.month || null, editor: p.editor || null, searchTerms: p.search_terms || '' } };
+    }),
+    editors: planner.editors(),
+    me: req.session.username,
+    monthly: batches.batchStatus()
+  });
+});
+
+// ---------- Monthly updates (registered before '/:id' routes) ----------
+router.get('/batches', (req, res) => {
+  res.json(batches.batchStatus(12));
+});
+
+// Starts this month's run now.
+router.post('/batches', (req, res) => {
+  try {
+    res.status(202).json(batches.startBatch(batches.thisMonth(), displayName(req)));
+  } catch (err) {
+    res.status(409).json({ error: err.message });
+  }
 });
 
 // ---------- References to insert (registered before '/:id' routes) ----------
@@ -87,6 +113,10 @@ router.get('/:id', (req, res) => {
 router.put('/:id/draft', (req, res) => {
   const id = knownChapter(req, res);
   if (!id) return;
+  const job = store.getDraft(id);
+  if (job && (job.job_status === 'running' || job.job_status === 'queued') && !job.state) {
+    return res.status(409).json({ error: 'Claude is updating this chapter; wait for its suggestions before editing.' });
+  }
   const state = req.body && req.body.state;
   if (!state || !Array.isArray(state.parts)) return res.status(400).json({ error: 'Nothing to save.' });
   store.saveDraft(id, state, displayName(req));
@@ -107,12 +137,47 @@ router.post('/:id/update', async (req, res) => {
   if (!process.env.ANTHROPIC_API_KEY) return res.status(500).json({ error: 'The server has no Anthropic API key (ANTHROPIC_API_KEY).' });
   const draft = store.getDraft(id);
   if (draft && draft.job_status === 'running') return res.status(409).json({ error: 'An update of this chapter is already running.' });
+  if (draft && draft.job_status === 'queued') return res.status(409).json({ error: 'This chapter is in this month\'s monthly update; its suggestions will arrive with the rest.' });
   if (draft && draft.state) return res.status(409).json({ error: 'Finish or discard the review in progress before running a new update.' });
   try {
     await runUpdate(id, displayName(req));
     res.status(202).json({ ok: true });
   } catch (err) {
     res.status(409).json({ error: err.message });
+  }
+});
+
+// The chapter's plan: PubMed search terms (blank = its title), update month, editor.
+router.put('/:id/plan', (req, res) => {
+  const id = knownChapter(req, res);
+  if (!id) return;
+  const b = req.body || {};
+  const searchTerms = String(b.searchTerms || '').replace(/\s+/g, ' ').trim().slice(0, 1000);
+  const month = Number(b.month);
+  if (!(month >= 1 && month <= 12)) return res.status(400).json({ error: 'Choose the month for this chapter\'s yearly update.' });
+  const editor = b.editor ? String(b.editor) : null;
+  if (editor && !planner.editors().some(e => e.username === editor)) return res.status(400).json({ error: 'Unknown editor.' });
+  planner.savePlan(id, { searchTerms, month, editor }, displayName(req));
+  res.json({ ok: true });
+});
+
+// How many articles each of the update's searches finds with these terms (last 14 months).
+router.get('/:id/search-test', async (req, res) => {
+  const id = knownChapter(req, res);
+  if (!id) return;
+  const terms = String(req.query.terms || '').trim() || searchTermsFor(id, store.liveChapter(id).title);
+  const now = new Date();
+  const start = new Date(now.getFullYear(), now.getMonth() - 14, 1);
+  const since = `${start.getFullYear()}-${String(start.getMonth() + 1).padStart(2, '0')}`;
+  try {
+    const counts = [];
+    for (const [area, label, journals] of AREAS) {
+      const found = await pm.searchPubMed(pm.buildQuery(terms, 'all', pm.findBy(pm.CONTENT_AREAS, area), journals), since, 0);
+      counts.push({ label, count: found.count });
+    }
+    res.json({ terms, since, counts });
+  } catch (err) {
+    res.status(502).json({ error: err.message });
   }
 });
 

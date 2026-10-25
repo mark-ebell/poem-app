@@ -322,9 +322,20 @@
       <section class="card">
         <h2>Edit Chapter</h2>
         <p class="hint">Choose a chapter to review. <b>Update with Claude</b> finds guidelines, systematic reviews, trials and POEMs from the last 14 months and suggests changes; every change, Claude's and yours, is tracked for you to accept or reject. Save the chapter when every change has been reviewed.</p>
-        <label>Find a chapter
-          <input type="search" id="ceFilter" placeholder="Type part of a chapter title" autocomplete="off">
-        </label>
+        <div id="ceMonthly" class="ce-monthly"></div>
+        <div class="ce-find">
+          <label>Find a chapter
+            <input type="search" id="ceFilter" placeholder="Type part of a chapter title" autocomplete="off">
+          </label>
+          <label>Show
+            <select id="ceShow">
+              <option value="all">All chapters</option>
+              <option value="month">Due this month</option>
+              <option value="mine">Assigned to me</option>
+              <option value="review">Reviews in progress</option>
+            </select>
+          </label>
+        </div>
         <p id="ceCount" class="hint"></p>
         <ul id="ceList" class="chapter-list ce-list"></ul>
       </section>
@@ -342,6 +353,21 @@
             <button type="button" id="ceDiscard" class="secondary">Discard review</button>
           </div>
         </div>
+        <details id="cePlan" class="ce-plan">
+          <summary id="cePlanSummary">Update plan</summary>
+          <label>PubMed search terms <span class="hint">(blank: the chapter title; PubMed syntax works, e.g. "rhinitis, allergic"[MeSH] OR "hay fever")</span>
+            <textarea id="cePlanTerms" rows="2"></textarea>
+          </label>
+          <div class="ce-plan-row">
+            <label>Updated each year in <select id="cePlanMonth"></select></label>
+            <label>Editor <select id="cePlanEditor"></select></label>
+          </div>
+          <div class="ce-plan-row">
+            <button type="button" id="cePlanSave">Save plan</button>
+            <button type="button" id="cePlanTest" class="secondary">Test search</button>
+          </div>
+          <p id="cePlanResult" class="hint"></p>
+        </details>
         <p id="ceStatus" class="notice ce-status"></p>
         <p id="ceStale" class="notice ce-warn hidden">This chapter has been saved since this review began. Saving will ask before replacing that version.</p>
         <div id="ceSummary" class="ce-summary hidden"></div>

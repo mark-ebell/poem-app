@@ -185,7 +185,23 @@ The **Edit Chapter** tab is for keeping chapters current (the aim is to update e
 - The review is saved as you work, so you can stop and come back; **Discard review** throws it away without changing the chapter.
 - **Save chapter** (allowed once every change is accepted or rejected) saves the chapter as a new version of its XML: references no longer cited are removed, new ones added, all renumbered, and the "Last updated" date becomes today. Every saved version is kept in the database (`chapter_versions`). **Download XML** gives the current version's file, e.g. for the master copy.
 
-The pieces: `chapter-store.js` (files, saved versions, reviews), `chapter-update.js` (evidence search, Claude, suggestions to tracked changes), `chapter-xml-write.js` (editor content back to XML), `routes/chapter-edit.js`, and `public/chapter-editor.js`.
+### Update plans and the monthly update
+
+Each chapter has an **update plan** (open it under the chapter's title): the **PubMed search terms** used to find its new evidence (blank means the chapter title; PubMed syntax works, e.g. `"rhinitis, allergic"[MeSH] OR "hay fever"`, and **Test search** shows how many articles each kind of search finds), the **month** it is updated each year, and its **editor**. New chapters are given the month with the fewest chapters, so about 1/12 come due each month. The chapter list can show all chapters, those due this month, those assigned to you, or reviews in progress.
+
+The **monthly update** sends the month's chapters (those without a review in progress) to Claude together, using Anthropic's Message Batches API: half the price of single updates, with results usually within an hour and always within a day. The evidence for each chapter is gathered first (a few minutes for a month's chapters). When Claude's answers arrive, each becomes that chapter's review in progress, exactly as **Update with Claude** would produce it. Each editor is then emailed the list of their chapters, and `CHAPTER_UPDATE_NOTIFY` gets the whole month's list. Start it with **Run this month's update now** in the Edit Chapter tab. With `CHAPTER_BATCH_AUTO=on` it also starts by itself early on the first day of each month. A chapter Claude could not do is marked as failed; run **Update with Claude** on it.
+
+Settings (Render environment):
+- `CHAPTER_BATCH_AUTO`: `on` to start each month's update automatically (off by default).
+- `CHAPTER_EDITOR_EMAILS`: editors' addresses, e.g. `ebell=ebell@msu.edu,barry=…`.
+- `CHAPTER_UPDATE_NOTIFY`: who gets the whole list (default `ebell@msu.edu`).
+- `CHAPTER_BATCH_MAX`: the most chapters in one month's batch (default 60).
+
+From the command line (Render: the service's **Shell** tab): `npm run chapter-batch -- status`, `npm run chapter-batch -- start [YYYY-MM]`, `npm run chapter-batch -- check` (collect finished results now instead of at the next 10-minute check).
+
+Claude's rules (instructions and answer format) are in `chapter-rules.js` with a `RULES_VERSION`; change the version whenever the rules change. Every review records the model, rules version and search terms that produced it (shown under Claude's summary). Token use per chapter is kept in `chapter_batch_items`.
+
+The pieces: `chapter-store.js` (files, saved versions, reviews), `chapter-plan.js` (update plans), `chapter-update.js` (evidence search, Claude, suggestions to tracked changes), `chapter-rules.js` (Claude's rules), `chapter-batch.js` (monthly updates), `chapter-xml-write.js` (editor content back to XML), `routes/chapter-edit.js`, and `public/chapter-editor.js`.
 
 ## Daily InfoPOEM email
 

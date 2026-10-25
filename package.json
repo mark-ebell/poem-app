@@ -10,7 +10,8 @@
     "seed": "node seed-users.js",
     "readers": "node readers.js",
     "daily-poem": "node daily-poem.js",
-    "build-chapters": "node build-chapters.js"
+    "build-chapters": "node build-chapters.js",
+    "chapter-batch": "node chapter-batch.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

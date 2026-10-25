@@ -9,7 +9,8 @@
 //     title, source, pubdate, volume, pages, citation, short }], unplaced: [], summary,
 //     evidence: [] }
 //
-// Claude's update (runUpdate): PubMed is searched for the chapter's topic over the last 14
+// Claude's update (runUpdate, or the monthly batch in chapter-batch.js): PubMed is searched
+// with the chapter's search terms (chapter_plan; else its title) over the last 14
 // months (practice guidelines, Cochrane and systematic reviews, trials in high-yield
 // journals, and diagnostic, prognostic and clinical decision rule studies in any journal),
 // together with InfoRetriever's POEMs from that time. Claude reads the chapter (each bullet
@@ -26,8 +27,8 @@ const { searchPoems } = require('./search');
 const { htmlToTree, treeText, treeToHtml } = require('./html-tree');
 const { formatAuthors } = require('./chapter-xml-write');
 const { TEMPLATE, key, headingFor } = require('./chapter-convert');
+const { MODEL, RULES_VERSION, SYSTEM, SCHEMA } = require('./chapter-rules');
 
-const MODEL = 'claude-opus-5-5';
 const MONTHS_BACK = 14;
 // Parts shown but not edited: calculator lists come from the calculators, web sites and
 // features keep their own markup.
@@ -100,7 +101,7 @@ const AREAS = [
   ['prevention', 'Prevention study', true, 25]
 ];
 
-async function gatherEvidence(topic, progress) {
+async function gatherEvidence(terms, title, progress) {
   const now = new Date();
   const start = new Date(now.getFullYear(), now.getMonth() - MONTHS_BACK, 1);
   const sinceMonth = `${start.getFullYear()}-${String(start.getMonth() + 1).padStart(2, '0')}`;
@@ -110,7 +111,7 @@ async function gatherEvidence(topic, progress) {
     progress(`Searching PubMed: ${label.toLowerCase()}s since ${sinceMonth}…`);
     const area = pm.findBy(pm.CONTENT_AREAS, area_);
     try {
-      const found = await pm.searchPubMed(pm.buildQuery(topic, 'all', area, journals), sinceMonth, retmax);
+      const found = await pm.searchPubMed(pm.buildQuery(terms, 'all', area, journals), sinceMonth, retmax);
       for (const id of found.ids) if (!kindByPmid.has(id)) kindByPmid.set(id, label);
     } catch (err) {
       console.warn(`Chapter update: PubMed ${area_} search failed: ${err.message}`);
@@ -132,7 +133,7 @@ async function gatherEvidence(topic, progress) {
   progress('Searching InfoRetriever POEMs…');
   let poems = [];
   try {
-    const found = searchPoems({ q: `"${topic}"`, whole: true, years: 2 }, { reader: true });
+    const found = searchPoems({ q: `"${title}"`, whole: true, years: 2 }, { reader: true });
     if (!found.error) {
       const ids2 = found.poems.map(p => p.id);
       poems = ids2.length ? db.prepare(`SELECT * FROM poems WHERE id IN (${ids2.map(() => '?').join(',')})`).all(...ids2) : [];
@@ -195,95 +196,44 @@ function chapterForClaude(state) {
 }
 
 // ---------- Claude ----------
-const SCHEMA = {
-  type: 'object',
-  additionalProperties: false,
-  required: ['summary', 'edits'],
-  properties: {
-    summary: { type: 'string' },
-    edits: {
-      type: 'array',
-      items: {
-        type: 'object',
-        additionalProperties: false,
-        required: ['action', 'part', 'item', 'find', 'replace', 'text', 'sort', 'evidence', 'note'],
-        properties: {
-          action: { type: 'string', enum: ['delete_item', 'replace_text', 'insert_item', 'add_table_row'] },
-          part: { type: 'string' },
-          item: { type: 'string' },
-          find: { type: 'string' },
-          replace: { type: 'string' },
-          text: { type: 'string' },
-          sort: { type: 'string', enum: ['A', 'B', 'C', 'none'] },
-          evidence: { type: 'array', items: { type: 'string' } },
-          note: { type: 'string' }
-        }
-      }
-    }
-  }
-};
-
-const SYSTEM = `You are a senior physician editor updating a chapter of Essential Evidence, an evidence-based clinical reference for primary care clinicians. You keep chapters accurate and current, and you change only what the evidence requires.
-
-Each chapter is a set of parts (P1, P2, ...) holding short bullet points (P3.1, P3.2, ...). Bullets cite references by number in square brackets, like [12], and recommendations end with a Strength of Recommendation Taxonomy rating: (SORT A) consistent, good-quality patient-oriented evidence; (SORT B) inconsistent or limited-quality patient-oriented evidence; (SORT C) consensus, disease-oriented evidence, usual practice, expert opinion, or case series.
-
-Your task has two steps.
-
-1. Review the current chapter. Find statements that are incorrect or out of date in light of current evidence, including the new evidence provided, and suggest deleting or correcting them. Do not suggest changes for style or wording alone.
-
-2. From the new evidence provided (published in roughly the last 14 months: practice guidelines, Cochrane and systematic reviews, important trials, studies of diagnosis, prognosis and clinical decision rules or risk scores, and POEMs), add the new information that matters for primary care to the appropriate part, as new bullets in the chapter's style: concise, specific, with numbers where they matter (absolute risks, NNT, sensitivity and specificity, likelihood ratios, the performance of risk scores). Look carefully through the diagnostic, prognostic and decision rule studies as well as the treatment evidence. Where the evidence changes practice, also add a short recommendation with a SORT rating to that section's bottom line part and, if it is important enough, to the Overall Bottom Line.
-
-Where things go:
-- Parts marked "(empty: not yet in this chapter)" are subheadings of the chapter template the chapter does not have yet. Add to one only when the new evidence belongs there and nowhere existing fits better (for example, a validated risk score in Clinical decision rules).
-- Treatment > "Guidelines and overviews" comes first in Treatment and holds overall approaches to treatment and what the major guidelines recommend; put new guideline recommendations about the overall approach there rather than under a specific treatment.
-- Risk factors are a table of risk factors and odds ratios: add a new risk factor as a row with action "add_table_row", never as text under the table. Use add_table_row for new rows in any other table, too.
-- Bottom lines stay short. Add at most one new bullet to any one bottom line (two only rarely, when two separate practice-changing findings both belong there), and prefer revising an existing bottom-line bullet over adding a new one.
-
-Style:
-- Avoid excessive precision: give ratios, effect sizes and their confidence intervals to one decimal place (OR 1.2, 95% CI 1.1 to 1.4; not 1.23), and percentages and NNTs as whole numbers unless they are below 10. A small value with a leading zero keeps its first significant digit (0.002 is fine).
-- Spell out a guideline's issuing organization on first use in each section, with its abbreviation, and give the guideline's year in parentheses, e.g. "The European Academy of Allergy and Clinical Immunology (EAACI) guidelines (2025) recommend..."; later in the same section, "EAACI guidelines (2025)" is enough.
-
-Rules:
-- Use only the evidence provided for new information; cite it as {E3}, {E7}. You may also cite the chapter's existing references as [12]. Never invent references, numbers or study details.
-- Prefer guidelines and systematic reviews over single trials; skip small, low-quality or disease-oriented studies, and anything not relevant to primary care.
-- Be selective: suggest only the changes an expert editor would make.
-- action "delete_item": remove the whole bullet named in "item" (e.g. "P3.2").
-- action "replace_text": in bullet "item", replace "find" (an exact phrase copied from that bullet, plain words only, not including citation numbers or SORT ratings, short enough to be unique) with "replace".
-- action "insert_item": add a new bullet with "text" to part "part", after bullet "item" (or with "item" empty to add it at the end of the part).
-- action "add_table_row": add a row to the table in part "part"; "text" holds the row's cells separated by " | ", with the citation in the last cell (e.g. "Family history of atopy | 2.1 (1.6 to 2.8) {E4}"). In the Risk factors table the cells are the risk factor and the odds ratio (95% CI); "sort" is "none".
-- "sort" is the SORT rating for a new recommendation ("none" if it is not a recommendation). Put citations inside "text" or "replace", not in "sort".
-- "evidence" lists the evidence ids and existing reference numbers the change relies on (e.g. ["E3", "[12]"]).
-- "note" says briefly why, for the editor (e.g. "Superseded by the 2025 JTFPP guideline update").
-- Fields that do not apply to an action are empty strings.
-- "summary" is two or three sentences for the editor on what changed and why.`;
-
-async function askClaude(chapterText, refs, evidence, title, progress) {
-  const client = new Anthropic();
+// The request for one chapter (the same for a single update and the monthly batch).
+function requestParams(state, evidence, title) {
+  const { text, refs } = chapterForClaude(state);
   const ev = evidence.map(e => `${e.id} (${e.kind}): ${e.citation}${e.pmid ? ` PMID ${e.pmid}` : ''}\n${e.abstract}`).join('\n\n');
-  const user = `<chapter title="${title}">\n${chapterText}\n</chapter>\n\n<chapter_references>\n${refs}\n</chapter_references>\n\n<new_evidence>\n${ev || '(none found)'}\n</new_evidence>\n\nSuggest the changes for this chapter, as described.`;
-  progress(`Claude is reviewing the chapter against ${evidence.length} new studies and POEMs (this takes a few minutes)…`);
-  const stream = client.beta.messages.stream({
+  const user = `<chapter title="${title}">\n${text}\n</chapter>\n\n<chapter_references>\n${refs}\n</chapter_references>\n\n<new_evidence>\n${ev || '(none found)'}\n</new_evidence>\n\nSuggest the changes for this chapter, as described.`;
+  return {
     model: MODEL,
     max_tokens: 64000,
-    betas: ['server-side-fallback-2026-07-01'],
-    fallbacks: 'default',
     thinking: { type: 'adaptive' },
     output_config: { effort: 'high', format: { type: 'json_schema', schema: SCHEMA } },
     system: SYSTEM,
     messages: [{ role: 'user', content: user }]
-  });
-  const message = await stream.finalMessage();
+  };
+}
+
+// Claude's answer -> { summary, edits }, or an error saying what went wrong.
+function readAnswer(message) {
   if (message.stop_reason === 'refusal') throw new Error('Claude declined to review this chapter.');
   if (message.stop_reason === 'max_tokens') throw new Error('Claude\'s answer was too long and was cut off. Please try again.');
   const text = message.content.filter(b => b.type === 'text').map(b => b.text).join('');
-  let result;
   try {
-    result = JSON.parse(text);
+    const result = JSON.parse(text);
+    if (!Array.isArray(result.edits)) throw new Error();
+    return result;
   } catch {
     throw new Error('Claude\'s answer could not be read. Please try again.');
   }
+}
+
+async function askClaude(params, progress, evidenceCount) {
+  const client = new Anthropic();
+  progress(`Claude is reviewing the chapter against ${evidenceCount} new studies and POEMs (this takes a few minutes)…`);
+  // A single update may fall back to another model if Opus is unavailable (not possible in a batch).
+  const stream = client.beta.messages.stream({ ...params, betas: ['server-side-fallback-2026-07-01'], fallbacks: 'default' });
+  const message = await stream.finalMessage();
+  const result = readAnswer(message);
   console.log(`Chapter update: ${result.edits.length} suggestions; tokens in ${message.usage.input_tokens}, out ${message.usage.output_tokens}`);
-  return result;
+  return { result, model: message.model || MODEL };
 }
 
 // ---------- Suggestions -> tracked changes ----------
@@ -483,30 +433,53 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
   return state;
 }
 
-// ---------- The whole update (run in the background) ----------
-const running = new Set();
+// ---------- The whole update ----------
+// The PubMed search terms for a chapter (its saved terms, else its title).
+const searchTermsFor = (id, title) => {
+  const row = db.prepare('SELECT search_terms FROM chapter_plan WHERE chapter_id = ?').get(id);
+  return (row && row.search_terms && row.search_terms.trim()) || title;
+};
 
-async function runUpdate(id, user) {
-  if (running.has(id)) throw new Error('An update of this chapter is already running.');
+// Gathers the evidence and builds Claude's request for one chapter.
+async function prepareUpdate(id, progress) {
   const chapter = store.liveChapter(id);
   if (!chapter) throw new Error('Chapter not found.');
+  const terms = searchTermsFor(id, chapter.title);
+  const { evidence, sinceMonth } = await gatherEvidence(terms, chapter.title, progress);
+  const state = buildEditorState(chapter, { allTemplate: true });
+  return { state, evidence, sinceMonth, terms, params: requestParams(state, evidence, chapter.title) };
+}
+
+// Turns Claude's answer into the review in progress. Returns the job message.
+function finishUpdate(id, prepared, result, model, user, how = '') {
+  const { state, evidence, sinceMonth, terms } = prepared;
+  applyEdits(state, result.edits, evidence);
+  state.summary = result.summary;
+  state.evidence = evidence.map(e => ({ id: e.id, kind: e.kind, citation: e.citation, pmid: e.pmid || null, poem: e.poem || null }));
+  state.sinceMonth = sinceMonth;
+  state.update = { model, rulesVersion: RULES_VERSION, searchTerms: terms, at: new Date().toISOString(), how };
+  store.saveDraft(id, state, user);
+  const n = result.edits.length;
+  const message = `Claude suggested ${n} change${n === 1 ? '' : 's'} from ${evidence.length} new studies and POEMs since ${sinceMonth}${state.unplaced.length ? `; ${state.unplaced.length} could not be placed and are listed for you` : ''}.`;
+  store.setJob(id, 'done', message, user);
+  console.log(`Chapter update ${id}: ${n - state.unplaced.length} placed, ${state.unplaced.length} not placed`);
+  return message;
+}
+
+const running = new Set();
+
+// A single update, now (the Update with Claude button), run in the background.
+async function runUpdate(id, user) {
+  if (running.has(id)) throw new Error('An update of this chapter is already running.');
+  if (!store.liveChapter(id)) throw new Error('Chapter not found.');
   running.add(id);
   const progress = msg => store.setJob(id, 'running', msg, user);
   progress('Starting…');
   (async () => {
     try {
-      const { evidence, sinceMonth } = await gatherEvidence(chapter.title, progress);
-      const state = buildEditorState(chapter, { allTemplate: true });
-      const { text, refs } = chapterForClaude(state);
-      const result = await askClaude(text, refs, evidence, chapter.title, progress);
-      applyEdits(state, result.edits, evidence);
-      state.summary = result.summary;
-      state.evidence = evidence.map(e => ({ id: e.id, kind: e.kind, citation: e.citation, pmid: e.pmid || null, poem: e.poem || null }));
-      state.sinceMonth = sinceMonth;
-      store.saveDraft(id, state, user);
-      const placed = result.edits.length - state.unplaced.length;
-      store.setJob(id, 'done', `Claude suggested ${result.edits.length} change${result.edits.length === 1 ? '' : 's'} from ${evidence.length} new studies and POEMs since ${sinceMonth}${state.unplaced.length ? `; ${state.unplaced.length} could not be placed and are listed for you` : ''}.`, user);
-      console.log(`Chapter update ${id}: ${placed} placed, ${state.unplaced.length} not placed`);
+      const prepared = await prepareUpdate(id, progress);
+      const { result, model } = await askClaude(prepared.params, progress, prepared.evidence.length);
+      finishUpdate(id, prepared, result, model, user, 'single');
     } catch (err) {
       console.error(`Chapter update ${id} failed`, err);
       const msg = err instanceof Anthropic.APIError ? `Claude could not be reached (${err.status || 'network error'}). Please try again later.` : err.message;
@@ -517,4 +490,4 @@ async function runUpdate(id, user) {
   })();
 }
 
-module.exports = { buildEditorState, runUpdate, applyEdits, chapterForClaude, gatherEvidence, itemsOf };
+module.exports = { buildEditorState, runUpdate, prepareUpdate, finishUpdate, readAnswer, applyEdits, chapterForClaude, gatherEvidence, itemsOf, searchTermsFor, AREAS };

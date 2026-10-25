@@ -16,6 +16,11 @@ const ZWSP = '​';
 let api = null;
 let me = 'Editor';
 let chapters = [];
+let editors = [];        // [{ username, name }]
+let myUsername = '';
+let monthly = null;      // this month's updates (chapter-batch.js batchStatus)
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const busy = job => !!job && (job.status === 'running' || job.status === 'queued');
 let current = null;      // { id, title, updated, state, ... }
 let changes = [];        // the <ins>/<del> elements, in document order
 let changeIndex = -1;
@@ -35,19 +40,62 @@ const el = (tag, className, text) => {
 // ---------- Chapter list ----------
 async function loadList() {
   try {
-    ({ chapters } = await api('/chapter-edit'));
+    ({ chapters, editors, me: myUsername, monthly } = await api('/chapter-edit'));
   } catch (err) {
     $('ceCount').textContent = `Could not load the chapters: ${err.message}`;
     return;
   }
+  renderMonthly();
   renderList();
+}
+
+// The monthly updates: this month's chapters, recent runs, and running this month's now.
+function renderMonthly() {
+  const box = $('ceMonthly');
+  box.textContent = '';
+  if (!monthly) return;
+  const head = el('p');
+  head.appendChild(el('strong', '', `${monthly.monthName}: `));
+  head.appendChild(document.createTextNode(`${monthly.due} chapter${monthly.due === 1 ? '' : 's'} waiting for this month's update` +
+    `${monthly.skipped ? ` (${monthly.skipped} more already updated or under review)` : ''}. ` +
+    (monthly.auto ? 'The monthly update starts by itself at the start of each month.' : 'The monthly update is started by hand (automatic start is off).')));
+  box.appendChild(head);
+  const run = el('button', '', monthly.active ? 'This month\'s update is under way' : 'Run this month\'s update now');
+  run.type = 'button';
+  run.disabled = monthly.active || !monthly.due;
+  run.addEventListener('click', startMonthly);
+  box.appendChild(run);
+  if (monthly.batches.length) {
+    const ul = el('ul', 'ce-batches');
+    for (const b of monthly.batches.slice(0, 4)) {
+      const when = new Date(b.createdAt).toLocaleDateString([], { month: 'short', day: 'numeric' });
+      const status = { gathering: 'gathering evidence', submitted: 'with Claude', collected: 'finished', failed: 'failed' }[b.status] || b.status;
+      ul.appendChild(el('li', '', `${b.monthName} (started ${when} by ${b.createdBy || '—'}): ${status}. ${b.message || ''}`));
+    }
+    box.appendChild(ul);
+  }
+}
+
+async function startMonthly() {
+  if (!confirm(`Send this month's ${monthly.due} chapter${monthly.due === 1 ? '' : 's'} to Claude now? Gathering the evidence takes a few minutes; Claude's suggestions usually arrive within an hour (at most a day), and the editors are emailed when they do.`)) return;
+  try {
+    await api('/chapter-edit/batches', { method: 'POST' });
+  } catch (err) {
+    alert(err.message);
+  }
+  await loadList();
+  if (current) await openChapter(current.id); // it may be one of them
 }
 
 function renderList() {
   const q = $('ceFilter').value.trim().toLowerCase();
+  const show = $('ceShow').value;
+  const month = monthly ? Number(monthly.month.slice(5, 7)) : 0;
   const list = $('ceList');
   list.textContent = '';
-  const matches = chapters.filter(c => !q || c.title.toLowerCase().includes(q));
+  const matches = chapters.filter(c => (!q || c.title.toLowerCase().includes(q)) &&
+    (show === 'all' || (show === 'month' && c.plan.month === month) || (show === 'mine' && c.plan.editor === myUsername) ||
+      (show === 'review' && c.draft && (c.draft.hasState || busy({ status: c.draft.status })))));
   $('ceCount').textContent = `${matches.length} of ${chapters.length} chapter${chapters.length === 1 ? '' : 's'}`;
   for (const c of matches) {
     const li = el('li');
@@ -56,7 +104,10 @@ function renderList() {
     b.appendChild(el('span', 'ce-list-title', c.title));
     const tags = el('span', 'ce-list-tags');
     tags.appendChild(el('span', 'ce-tag', `Updated ${c.updated || '—'}`));
+    if (c.plan.month) tags.appendChild(el('span', 'ce-tag', `Due ${MONTHS[c.plan.month - 1].slice(0, 3)}`));
+    if (c.plan.editor) tags.appendChild(el('span', 'ce-tag', (editors.find(e => e.username === c.plan.editor) || {}).name || c.plan.editor));
     if (c.draft && c.draft.status === 'running') tags.appendChild(el('span', 'ce-tag ce-tag-busy', 'Claude updating…'));
+    else if (c.draft && c.draft.status === 'queued') tags.appendChild(el('span', 'ce-tag ce-tag-busy', 'In monthly update…'));
     else if (c.draft && c.draft.hasState) tags.appendChild(el('span', 'ce-tag ce-tag-draft', 'Review in progress'));
     if (c.edited) tags.appendChild(el('span', 'ce-tag ce-tag-edited', `Edited by ${c.edited.by}`));
     if (c.newerFile) tags.appendChild(el('span', 'ce-tag ce-tag-warn', 'Newer file from content transfer'));
@@ -80,10 +131,11 @@ async function openChapter(id) {
   current = data;
   undoStacks.clear();
   render();
+  renderPlan();
   renderList();
   $('ceEditor').classList.remove('hidden');
   $('ceEditor').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  if (data.job && data.job.status === 'running') startPolling();
+  if (busy(data.job)) startPolling();
 }
 
 function setStatus(text) { $('ceStatus').textContent = text || ''; }
@@ -102,6 +154,11 @@ function render() {
   if (state.summary) {
     sum.appendChild(el('h3', '', 'Claude\'s summary'));
     sum.appendChild(el('p', '', state.summary));
+    const u = state.update;
+    if (u) {
+      const when = new Date(u.at).toLocaleDateString([], { year: 'numeric', month: 'short', day: 'numeric' });
+      sum.appendChild(el('p', 'hint', `${u.how === 'monthly batch' ? 'Monthly update' : 'Update'} of ${when} · ${u.model} · rules ${u.rulesVersion} · PubMed search: ${u.searchTerms}`));
+    }
   }
   if (state.unplaced && state.unplaced.length) {
     const det = el('details', 'ce-unplaced');
@@ -643,19 +700,19 @@ function startPolling() {
     try { data = await api(`/chapter-edit/${id}/job`); } catch { return; }
     const job = data.job || {};
     setStatus(job.message || '');
-    if (job.status !== 'running') {
+    if (!busy(job)) {
       clearInterval(pollTimer);
       await openChapter(id);
       setStatus(job.message || '');
       loadList();
     }
-  }, 4000);
+  }, current.job && current.job.status === 'queued' ? 60000 : 4000); // a monthly update takes up to an hour or more
 }
 
 function updateButtons() {
-  const running = !!(current && current.job && current.job.status === 'running');
+  const running = !!current && busy(current.job);
   $('ceUpdate').disabled = running;
-  $('ceUpdate').textContent = running ? 'Claude is updating…' : 'Update with Claude';
+  $('ceUpdate').textContent = !running ? 'Update with Claude' : current.job.status === 'queued' ? 'In monthly update…' : 'Claude is updating…';
   $('ceSave').disabled = running;
   $('ceDiscard').disabled = running || !current || !current.hasDraft;
   $('ceBody').querySelectorAll('.ce-content[contenteditable]').forEach(c => { if (c.dataset.part) c.contentEditable = running ? 'false' : 'true'; });
@@ -864,6 +921,53 @@ function deleteTable() {
   tableDone(at.part);
 }
 
+// ---------- The chapter's update plan ----------
+function renderPlan() {
+  const c = chapters.find(x => x.id === current.id);
+  const plan = (c && c.plan) || { month: null, editor: null, searchTerms: '' };
+  $('cePlanTerms').value = plan.searchTerms;
+  $('cePlanTerms').placeholder = current.title;
+  const month = $('cePlanMonth');
+  month.textContent = '';
+  MONTHS.forEach((m, i) => { const o = el('option', '', m); o.value = String(i + 1); month.appendChild(o); });
+  month.value = String(plan.month || 1);
+  const ed = $('cePlanEditor');
+  ed.textContent = '';
+  const none = el('option', '', 'No one yet');
+  none.value = '';
+  ed.appendChild(none);
+  for (const e of editors) { const o = el('option', '', e.name); o.value = e.username; ed.appendChild(o); }
+  ed.value = plan.editor || '';
+  $('cePlanResult').textContent = '';
+  $('cePlanSummary').textContent = `Update plan: ${MONTHS[(plan.month || 1) - 1]}${plan.editor ? `, ${(editors.find(e => e.username === plan.editor) || {}).name || plan.editor}` : ', no editor assigned'}${plan.searchTerms ? ', own search terms' : ''}`;
+}
+
+async function savePlan() {
+  try {
+    await api(`/chapter-edit/${current.id}/plan`, { method: 'PUT', body: { searchTerms: $('cePlanTerms').value, month: $('cePlanMonth').value, editor: $('cePlanEditor').value } });
+    await loadList();
+    renderPlan();
+    $('cePlanResult').textContent = 'Plan saved.';
+  } catch (err) {
+    $('cePlanResult').textContent = err.message;
+  }
+}
+
+async function testSearch() {
+  const out = $('cePlanResult');
+  out.textContent = 'Searching PubMed…';
+  $('cePlanTest').disabled = true;
+  try {
+    const r = await api(`/chapter-edit/${current.id}/search-test?terms=${encodeURIComponent($('cePlanTerms').value)}`);
+    out.textContent = `Articles since ${r.since} for “${r.terms}”: ` + r.counts.map(c => `${c.label.replace(/y$/, 'ie')}s ${c.count}`).join(' · ') +
+      '. (Up to 25 per kind are read, 40 for diagnosis, prognosis and decision rules, newest first.)';
+  } catch (err) {
+    out.textContent = err.message;
+  } finally {
+    $('cePlanTest').disabled = false;
+  }
+}
+
 // ---------- Setup ----------
 export function loadChapterEditor(apiFn, user) {
   api = apiFn;
@@ -872,6 +976,9 @@ export function loadChapterEditor(apiFn, user) {
 }
 
 $('ceFilter').addEventListener('input', renderList);
+$('ceShow').addEventListener('change', renderList);
+$('cePlanSave').addEventListener('click', savePlan);
+$('cePlanTest').addEventListener('click', testSearch);
 $('ceUpdate').addEventListener('click', startUpdate);
 $('ceSave').addEventListener('click', saveChapter);
 $('ceDiscard').addEventListener('click', discardReview);

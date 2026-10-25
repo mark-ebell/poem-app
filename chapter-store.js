@@ -39,7 +39,45 @@ db.exec(`
     updated_by TEXT,
     updated_at TEXT
   );
+
+  -- Each chapter's update plan: its PubMed search terms, the month (1-12) it is updated
+  -- each year, and the editor who reviews it.
+  CREATE TABLE IF NOT EXISTS chapter_plan (
+    chapter_id TEXT PRIMARY KEY,
+    search_terms TEXT,
+    month INTEGER,
+    editor TEXT,
+    updated_by TEXT,
+    updated_at TEXT
+  );
+
+  -- Monthly updates sent to Claude as one batch (chapter-batch.js), and their chapters.
+  CREATE TABLE IF NOT EXISTS chapter_batches (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    batch_id TEXT,              -- Anthropic's id, once submitted
+    month TEXT NOT NULL,        -- 'YYYY-MM'
+    status TEXT NOT NULL,       -- 'gathering', 'submitted', 'collected', 'failed'
+    message TEXT,
+    created_by TEXT,
+    created_at TEXT NOT NULL,
+    ended_at TEXT
+  );
+  CREATE TABLE IF NOT EXISTS chapter_batch_items (
+    batch INTEGER NOT NULL,
+    chapter_id TEXT NOT NULL,
+    prepared TEXT,              -- the review state and evidence, until the answer is applied
+    status TEXT NOT NULL,       -- 'gathering', 'queued', 'done', 'failed'
+    message TEXT,
+    input_tokens INTEGER,
+    output_tokens INTEGER,
+    PRIMARY KEY (batch, chapter_id)
+  );
 `);
+// A restart while evidence was being gathered for a batch ends that batch.
+db.prepare(`UPDATE chapter_drafts SET job_status = 'failed', job_message = 'The monthly update was interrupted (the server restarted). Run Update with Claude to update this chapter.'
+  WHERE job_status = 'queued' AND chapter_id IN (SELECT chapter_id FROM chapter_batch_items WHERE status = 'gathering')`).run();
+db.prepare("UPDATE chapter_batches SET status = 'failed', message = 'Interrupted while gathering evidence (the server restarted).' WHERE status = 'gathering'").run();
+db.prepare("UPDATE chapter_batch_items SET status = 'failed', message = 'Interrupted (the server restarted).', prepared = NULL WHERE status = 'gathering'").run();
 // A server restart ends any update that was running.
 db.prepare("UPDATE chapter_drafts SET job_status = 'failed', job_message = 'The update was interrupted (the server restarted). Please run it again.' WHERE job_status = 'running'").run();
 
@@ -188,4 +226,4 @@ function versions(id) {
   return db.prepare('SELECT id, created_by, created_at, note FROM chapter_versions WHERE chapter_id = ? ORDER BY id DESC').all(id);
 }
 
-module.exports = { known, chapterIndex, liveChapter, liveXml, liveBase, editStatus, getDraft, saveDraft, setJob, discardDraft, saveVersion, versions, convertChapter: xml => convertChapter(xml, labels()) };
+module.exports = { index: () => index, known, chapterIndex, liveChapter, liveXml, liveBase, editStatus, getDraft, saveDraft, setJob, discardDraft, saveVersion, versions, convertChapter: xml => convertChapter(xml, labels()) };
