@@ -176,7 +176,7 @@ To add or update chapters: put the XML files (e.g. `EEE0001.xml`) in the `EEPlus
 
 Each weekday one POEM is emailed to subscribers (for now only ebell@msu.edu, while testing). When a POEM becomes **Published** (saved in the Edit tab or brought in by the monthly Word import) it is given a random weekday in its publication month that no other POEM has, today or later; only the months listed in `DAILY_POEM_MONTHS` take part (for now `2026-10`). From 6 a.m. US Eastern on that day the server sends it, once, to the addresses in `DAILY_POEM_RECIPIENTS` (comma-separated). A POEM taken out of Published, or moved to another month, gives up a day it has not yet been sent on.
 
-The email's subject is "Daily InfoPOEM: <title>". It has the AAFP logo at the top left and "Powered by InfoRetriever" with the dog at the top right, the POEM as readers see it (no POET or POEM number), and the disclaimer and a link to InfoRetriever.org at the bottom. Its images are served from `public/email/` and `public/inforetriever.png` on the live site.
+The email's subject is "Daily InfoPOEM: <title>". It has the AAFP logo at the top left and "Powered by InfoRetriever" with the dog at the top right, then the POEM as readers see it (no POET or POEM number) with the Clinical question, Bottom-Line and Reference first, and the disclaimer and a link to InfoRetriever.org at the bottom. Its images are served from `public/email/` on the live site; that folder is exempt from the site's same-origin image policy and crawler filter so mail programs and their image proxies can load them.
 
 From the command line (on Render, the service's **Shell** tab):
 

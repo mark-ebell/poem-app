@@ -73,6 +73,15 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false
 }));
 
+// The images in the Daily InfoPOEM email (public/email/) are loaded by mail programs from
+// other origins, often through image proxies, so they are exempt from the same-origin
+// resource policy above and from the crawler filter below.
+const isEmailImage = req => req.path.startsWith('/email/');
+app.use((req, res, next) => {
+  if (isEmailImage(req)) res.set('Cross-Origin-Resource-Policy', 'cross-origin');
+  next();
+});
+
 // Ask search engines and AI crawlers not to index or train on anything here.
 app.use((req, res, next) => {
   res.set('X-Robots-Tag', 'noindex, nofollow, noarchive, nosnippet, noai, noimageai');
@@ -83,7 +92,7 @@ app.use((req, res, next) => {
 // (robots.txt asks them to stay out; this catches the ones that don't ask).
 const BLOCKED_AGENTS = /GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|Claude-Web|anthropic-ai|CCBot|Google-Extended|GoogleOther|PerplexityBot|Perplexity-User|Bytespider|Amazonbot|Applebot-Extended|meta-externalagent|FacebookBot|Diffbot|ImagesiftBot|Omgili|cohere-ai|YouBot|Timpibot|DataForSeoBot|AI2Bot|Scrapy|python-requests|python-urllib|aiohttp|httpx|Go-http-client|curl\/|Wget|HeadlessChrome|PhantomJS/i;
 app.use((req, res, next) => {
-  if (req.path === '/robots.txt') return next();
+  if (req.path === '/robots.txt' || isEmailImage(req)) return next();
   const ua = req.get('user-agent') || '';
   if (!ua || BLOCKED_AGENTS.test(ua)) return res.status(403).type('text').send('Automated access is not permitted.');
   next();

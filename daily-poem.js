@@ -13,7 +13,7 @@
 const crypto = require('crypto');
 const db = require('./db');
 const { sendMail } = require('./mail');
-const { describePoem, runsToHtml, monthYear, DISCLAIMER } = require('./export-poems');
+const { describePoem, runsToHtml, DISCLAIMER } = require('./export-poems');
 const { escapeHtml } = require('./poem-model');
 
 const TIME_ZONE = 'America/New_York';
@@ -78,6 +78,9 @@ const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { w
 function buildEmail(row, sendDate) {
   const base = siteUrl();
   const poem = describePoem(row, { reader: true });
+  // Clinical question, Bottom-Line and Reference first, then the rest in their usual order.
+  const FIRST = ['Clinical question', 'Bottom-Line', 'Reference'];
+  poem.sections.sort((a, b) => (FIRST.includes(a.label) ? FIRST.indexOf(a.label) : FIRST.length) - (FIRST.includes(b.label) ? FIRST.indexOf(b.label) : FIRST.length));
   const flow = paragraphs => paragraphs.map(runs => runsToHtml(runs.map(r => (r.br ? { text: ' ' } : r)))).join(' ');
   const link = 'color: #1f4b6e;';
   const sections = poem.sections.map(sec => {
@@ -87,7 +90,6 @@ function buildEmail(row, sendDate) {
       ? `<tr><td style="padding: 6px 0 12px;"><div style="${FONT} font-size: 15px; line-height: 1.5; color: #1b1f23; background: #f4f8fb; border-left: 4px solid #1f4b6e; padding: 10px 14px;"><b>${escapeHtml(sec.label)}:</b> ${body}</div></td></tr>`
       : `<tr><td style="${FONT} font-size: 15px; line-height: 1.5; color: #1b1f23; padding: 0 0 10px;"><b>${escapeHtml(sec.label)}:</b> ${body}</td></tr>`;
   }).join('\n');
-  const issued = monthYear(row.publication_date);
 
   const html = `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(`Daily InfoPOEM: ${poem.title}`)}</title></head>
@@ -100,7 +102,7 @@ function buildEmail(row, sendDate) {
       <td align="right" valign="middle">
         <table role="presentation" cellpadding="0" cellspacing="0" align="right"><tr>
           <td valign="middle" style="${FONT} font-size: 12px; color: #6b7280; padding-right: 8px; text-align: right;">Powered by<br><a href="${base}/" style="color: #1f4b6e; font-weight: bold; font-size: 14px; text-decoration: none;">InfoRetriever</a></td>
-          <td valign="middle"><img src="${base}/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></td>
+          <td valign="middle"><img src="${base}/email/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></td>
         </tr></table>
       </td>
     </tr></table>
@@ -108,8 +110,7 @@ function buildEmail(row, sendDate) {
   <tr><td style="padding: 18px 20px 6px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
       <tr><td style="${FONT} font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: #6b7280; padding-bottom: 6px;">Daily InfoPOEM &middot; ${escapeHtml(longDate(sendDate))}</td></tr>
-      <tr><td style="${FONT} font-size: 21px; line-height: 1.3; font-weight: bold; color: #1f4b6e; padding-bottom: 6px;">${escapeHtml(poem.title)}</td></tr>
-      ${issued ? `<tr><td style="${FONT} font-size: 13px; color: #6b7280; padding-bottom: 14px;">POEM of ${escapeHtml(issued)}</td></tr>` : ''}
+      <tr><td style="${FONT} font-size: 21px; line-height: 1.3; font-weight: bold; color: #1f4b6e; padding-bottom: 14px;">${escapeHtml(poem.title)}</td></tr>
       ${sections}
     </table>
   </td></tr>
@@ -126,7 +127,6 @@ function buildEmail(row, sendDate) {
     `Daily InfoPOEM, ${longDate(sendDate)}`,
     '',
     poem.title,
-    issued ? `POEM of ${issued}` : '',
     '',
     ...poem.sections.map(sec => `${sec.label}: ${plain(sec.paragraphs)}`),
     '',
