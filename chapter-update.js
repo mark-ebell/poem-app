@@ -10,12 +10,14 @@
 //     evidence: [] }
 //
 // Claude's update (runUpdate): PubMed is searched for the chapter's topic over the last 14
-// months (practice guidelines, Cochrane and systematic reviews, and trials and diagnostic
-// studies in high-yield journals), together with InfoRetriever's POEMs from that time.
-// Claude reads the chapter (each bullet numbered) and the evidence and returns suggested
-// changes: delete a bullet, replace a phrase, or insert a new bullet, each with a short
+// months (practice guidelines, Cochrane and systematic reviews, trials in high-yield
+// journals, and diagnostic, prognostic and clinical decision rule studies in any journal),
+// together with InfoRetriever's POEMs from that time. Claude reads the chapter (each bullet
+// numbered, plus the template's subheadings the chapter does not have yet, empty) and the
+// evidence and returns suggested changes: delete a bullet, replace a phrase, insert a new
+// bullet, or add a table row (e.g. a risk factor and its odds ratio), each with a short
 // note and its sources. They become tracked changes by "Claude"; a suggestion that cannot
-// be placed exactly is listed for the editor instead.
+// be placed exactly (or a third addition to one bottom line) is listed for the editor instead.
 const Anthropic = require('@anthropic-ai/sdk');
 const db = require('./db');
 const pm = require('./pubmed');
@@ -23,15 +25,22 @@ const store = require('./chapter-store');
 const { searchPoems } = require('./search');
 const { htmlToTree, treeText, treeToHtml } = require('./html-tree');
 const { formatAuthors } = require('./chapter-xml-write');
+const { TEMPLATE, key, headingFor } = require('./chapter-convert');
 
 const MODEL = 'claude-opus-5-5';
 const MONTHS_BACK = 14;
 // Parts shown but not edited: calculator lists come from the calculators, web sites and
 // features keep their own markup.
 const READ_ONLY = new Set(['HP_Data_Group', 'Dx_Data_Group', 'HP_Data', 'Dx_Data', 'Web_Sites', 'Guidelines', 'feature', 'section', 'subsection']);
+// New additions allowed in one bottom line in an update (one is the aim; two occasionally).
+const MAX_BOTTOM_LINE_ADDITIONS = 2;
+// Subheadings always offered in the editor even when the chapter does not have them yet.
+const ALWAYS_SHOWN = new Set(['overallapproach']);
 
 // ---------- Review state from the live chapter ----------
-function buildEditorState(chapter) {
+// allTemplate: also add (empty) every template subheading the chapter's sections lack,
+// for Claude to fill; otherwise only the ALWAYS_SHOWN ones are added.
+function buildEditorState(chapter, { allTemplate = false } = {}) {
   const idByN = new Map(chapter.references.map(r => [String(r.n), r.id]));
   const toEditor = t => {
     if (t.text !== undefined) return t;
@@ -49,6 +58,20 @@ function buildEditorState(chapter) {
       const editable = s.tag !== 'Misc' && s.tag !== 'feature' && !READ_ONLY.has(p.tag);
       parts.push({ section: s.tag, sectionLabel: s.label, tag: p.tag, label: p.label, bottomLine: p.bottomLine, editable, html: editable ? html(p.html) : p.html });
     }
+    // Template subheadings this section does not have, each before the first later one.
+    const template = Object.entries(TEMPLATE).find(([t]) => key(t) === key(s.tag));
+    if (!template) continue;
+    const order = template[1].map(key);
+    const have = new Set(s.parts.map(p => key(p.tag)));
+    for (const tag of template[1]) {
+      const k = key(tag);
+      if (have.has(k) || k === 'bottomline' || (!allTemplate && !ALWAYS_SHOWN.has(k))) continue;
+      const pos = order.indexOf(k);
+      const sectionParts = parts.filter(p => p.section === s.tag);
+      const next = sectionParts.find(p => order.indexOf(key(p.tag)) > pos);
+      const at = next ? parts.indexOf(next) : parts.indexOf(sectionParts[sectionParts.length - 1]) + 1;
+      parts.splice(at, 0, { section: s.tag, sectionLabel: s.label, tag, label: headingFor(tag), bottomLine: /_BL$/.test(tag), editable: true, html: '', added: true });
+    }
   }
   return {
     version: 1,
@@ -62,15 +85,19 @@ function buildEditorState(chapter) {
 }
 
 // ---------- Evidence ----------
+// [content area, label, limit to high-yield journals, how many results]. Diagnosis,
+// prognosis and decision rules (risk scores) are searched in all journals, and more deeply,
+// since much of that research is published outside the high-yield journals.
 const AREAS = [
-  ['guidelines', 'Practice guideline', false],
-  ['cochrane', 'Cochrane review', false],
-  ['systematic', 'Systematic review', false],
-  ['therapy', 'Randomized trial', true],
-  ['diagnosis', 'Diagnostic study', true],
-  ['prognosis', 'Prognosis study', true],
-  ['screening', 'Screening study', true],
-  ['prevention', 'Prevention study', true]
+  ['guidelines', 'Practice guideline', false, 25],
+  ['cochrane', 'Cochrane review', false, 25],
+  ['systematic', 'Systematic review', false, 25],
+  ['therapy', 'Randomized trial', true, 25],
+  ['diagnosis', 'Diagnostic study', false, 40],
+  ['prognosis', 'Prognosis study', false, 40],
+  ['rules', 'Clinical decision rule or risk score study', false, 40],
+  ['screening', 'Screening study', true, 25],
+  ['prevention', 'Prevention study', true, 25]
 ];
 
 async function gatherEvidence(topic, progress) {
@@ -79,14 +106,14 @@ async function gatherEvidence(topic, progress) {
   const sinceMonth = `${start.getFullYear()}-${String(start.getMonth() + 1).padStart(2, '0')}`;
 
   const kindByPmid = new Map();
-  for (const [key, label, journals] of AREAS) {
+  for (const [area_, label, journals, retmax] of AREAS) {
     progress(`Searching PubMed: ${label.toLowerCase()}s since ${sinceMonth}…`);
-    const area = pm.findBy(pm.CONTENT_AREAS, key);
+    const area = pm.findBy(pm.CONTENT_AREAS, area_);
     try {
-      const found = await pm.searchPubMed(pm.buildQuery(topic, 'all', area, journals), sinceMonth);
+      const found = await pm.searchPubMed(pm.buildQuery(topic, 'all', area, journals), sinceMonth, retmax);
       for (const id of found.ids) if (!kindByPmid.has(id)) kindByPmid.set(id, label);
     } catch (err) {
-      console.warn(`Chapter update: PubMed ${key} search failed: ${err.message}`);
+      console.warn(`Chapter update: PubMed ${area_} search failed: ${err.message}`);
     }
   }
   const ids = [...kindByPmid.keys()];
@@ -132,6 +159,7 @@ async function gatherEvidence(topic, progress) {
 // ---------- The chapter as Claude reads it ----------
 // Each editable part (P1, P2, ...) and each bullet in it (P1.1, P1.2, ...).
 function itemsOf(tree) {
+  if (!(tree.children || []).length) return []; // an empty part
   const lists = (tree.children || []).filter(c => c.tag === 'ul' || c.tag === 'ol');
   if (lists.length) return lists.flatMap(l => (l.children || []).filter(c => c.tag === 'li'));
   return [tree]; // a paragraph part (e.g. Definition): the whole part is one item
@@ -159,8 +187,8 @@ function chapterForClaude(state) {
     if (!p.editable) return;
     if (p.sectionLabel !== lastSection) { lines.push(`\n## ${p.sectionLabel}`); lastSection = p.sectionLabel; }
     const tree = htmlToTree(p.html);
-    lines.push(`### P${i + 1}: ${p.label}${p.bottomLine ? ' (bottom line)' : ''}`);
-    itemsOf(tree).forEach((item, j) => lines.push(`P${i + 1}.${j + 1}: ${readable(item, refNumber).replace(/\s+/g, ' ').trim()}`));
+    lines.push(`### P${i + 1}: ${p.label}${p.bottomLine ? ' (bottom line)' : ''}${p.html ? '' : ' (empty: not yet in this chapter)'}`);
+    itemsOf(tree).forEach((item, j) => lines.push(`P${i + 1}.${j + 1}: ${readable(item, refNumber).trim().replace(/\n+/g, ' // ').replace(/\s+/g, ' ')}`));
   });
   const refs = state.references.map((r, i) => `[${i + 1}] ${r.short}`).join('\n');
   return { text: lines.join('\n').trim(), refs };
@@ -180,7 +208,7 @@ const SCHEMA = {
         additionalProperties: false,
         required: ['action', 'part', 'item', 'find', 'replace', 'text', 'sort', 'evidence', 'note'],
         properties: {
-          action: { type: 'string', enum: ['delete_item', 'replace_text', 'insert_item'] },
+          action: { type: 'string', enum: ['delete_item', 'replace_text', 'insert_item', 'add_table_row'] },
           part: { type: 'string' },
           item: { type: 'string' },
           find: { type: 'string' },
@@ -203,7 +231,17 @@ Your task has two steps.
 
 1. Review the current chapter. Find statements that are incorrect or out of date in light of current evidence, including the new evidence provided, and suggest deleting or correcting them. Do not suggest changes for style or wording alone.
 
-2. From the new evidence provided (published in roughly the last 14 months: practice guidelines, Cochrane and systematic reviews, important trials, and POEMs), add the new information that matters for primary care to the appropriate part, as new bullets in the chapter's style: concise, specific, with numbers where they matter (absolute risks, NNT, likelihood ratios). Where the evidence changes practice, also add a short recommendation with a SORT rating to that section's bottom line part and, if it is important enough, to the Overall Bottom Line.
+2. From the new evidence provided (published in roughly the last 14 months: practice guidelines, Cochrane and systematic reviews, important trials, studies of diagnosis, prognosis and clinical decision rules or risk scores, and POEMs), add the new information that matters for primary care to the appropriate part, as new bullets in the chapter's style: concise, specific, with numbers where they matter (absolute risks, NNT, sensitivity and specificity, likelihood ratios, the performance of risk scores). Look carefully through the diagnostic, prognostic and decision rule studies as well as the treatment evidence. Where the evidence changes practice, also add a short recommendation with a SORT rating to that section's bottom line part and, if it is important enough, to the Overall Bottom Line.
+
+Where things go:
+- Parts marked "(empty: not yet in this chapter)" are subheadings of the chapter template the chapter does not have yet. Add to one only when the new evidence belongs there and nowhere existing fits better (for example, a validated risk score in Clinical decision rules).
+- Treatment > "Guidelines and overviews" comes first in Treatment and holds overall approaches to treatment and what the major guidelines recommend; put new guideline recommendations about the overall approach there rather than under a specific treatment.
+- Risk factors are a table of risk factors and odds ratios: add a new risk factor as a row with action "add_table_row", never as text under the table. Use add_table_row for new rows in any other table, too.
+- Bottom lines stay short. Add at most one new bullet to any one bottom line (two only rarely, when two separate practice-changing findings both belong there), and prefer revising an existing bottom-line bullet over adding a new one.
+
+Style:
+- Avoid excessive precision: give ratios, effect sizes and their confidence intervals to one decimal place (OR 1.2, 95% CI 1.1 to 1.4; not 1.23), and percentages and NNTs as whole numbers unless they are below 10. A small value with a leading zero keeps its first significant digit (0.002 is fine).
+- Spell out a guideline's issuing organization on first use in each section, with its abbreviation, and give the guideline's year in parentheses, e.g. "The European Academy of Allergy and Clinical Immunology (EAACI) guidelines (2025) recommend..."; later in the same section, "EAACI guidelines (2025)" is enough.
 
 Rules:
 - Use only the evidence provided for new information; cite it as {E3}, {E7}. You may also cite the chapter's existing references as [12]. Never invent references, numbers or study details.
@@ -212,6 +250,7 @@ Rules:
 - action "delete_item": remove the whole bullet named in "item" (e.g. "P3.2").
 - action "replace_text": in bullet "item", replace "find" (an exact phrase copied from that bullet, plain words only, not including citation numbers or SORT ratings, short enough to be unique) with "replace".
 - action "insert_item": add a new bullet with "text" to part "part", after bullet "item" (or with "item" empty to add it at the end of the part).
+- action "add_table_row": add a row to the table in part "part"; "text" holds the row's cells separated by " | ", with the citation in the last cell (e.g. "Family history of atopy | 2.1 (1.6 to 2.8) {E4}"). In the Risk factors table the cells are the risk factor and the odds ratio (95% CI); "sort" is "none".
 - "sort" is the SORT rating for a new recommendation ("none" if it is not a recommendation). Put citations inside "text" or "replace", not in "sort".
 - "evidence" lists the evidence ids and existing reference numbers the change relies on (e.g. ["E3", "[12]"]).
 - "note" says briefly why, for the editor (e.g. "Superseded by the 2025 JTFPP guideline update").
@@ -276,7 +315,7 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
     });
     return [edit.note, sources.length ? `Sources: ${sources.join('; ')}` : ''].filter(Boolean).join(' — ');
   };
-  const mark = (tag, edit, children) => ({ tag, cls: `tc tc-${tag}`, data: { author, date, note: noteFor(edit), change: `c${++changeId}` }, children });
+  const mark = (tag, edit, children, change = `c${++changeId}`) => ({ tag, cls: `tc tc-${tag}`, data: { author, date, note: noteFor(edit), change }, children });
 
   // Claude's text (with {E3} and [12] citations) -> tree nodes.
   const textNodes = (text, sort) => {
@@ -336,8 +375,41 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
     return false;
   };
 
+  const additions = new Map(); // part index -> new bullets added to a bottom line
+  const ensureList = tree => {
+    let list = (tree.children || []).find(c => c.tag === 'ul' || c.tag === 'ol');
+    if (!list && !(tree.children || []).length) { list = { tag: 'ul', cls: '', data: {}, children: [] }; tree.children = [list]; }
+    return list;
+  };
+  const tableOf = tree => {
+    let found = null;
+    const walk = n => { if (found || n.text !== undefined) return; if (n.tag === 'table') found = n; else (n.children || []).forEach(walk); };
+    walk(tree);
+    return found;
+  };
+  const rowsOf = table => {
+    const rows = [];
+    const walk = n => { if (n.tag === 'tr') rows.push(n); else (n.children || []).forEach(walk); };
+    walk(table);
+    return rows;
+  };
+  const cell = (tag, children) => {
+    const kids = children.filter(n => n.text === undefined || n.text.trim() || (n !== children[0] && n !== children[children.length - 1]));
+    if (kids[0] && kids[0].text !== undefined) kids[0] = { text: kids[0].text.trimStart() };
+    const last = kids.length - 1;
+    if (last >= 0 && kids[last].text !== undefined) kids[last] = { text: kids[last].text.trimEnd() };
+    return { tag, cls: '', data: {}, children: kids };
+  };
+  const isCite = n => n.tag === 'a' && n.data && n.data.key;
+
   for (const edit of edits) {
     try {
+      const target = edit.action === 'insert_item' ? (edit.item ? (itemByName(edit.item) || {}).i : partIndex(edit.part)) : -1;
+      if (target >= 0 && state.parts[target].bottomLine) {
+        const n = (additions.get(target) || 0) + 1;
+        if (n > MAX_BOTTOM_LINE_ADDITIONS) throw new Error(`more than ${MAX_BOTTOM_LINE_ADDITIONS} additions to this bottom line`);
+        additions.set(target, n);
+      }
       if (edit.action === 'delete_item') {
         const hit = itemByName(edit.item);
         if (!hit) throw new Error('bullet not found');
@@ -353,7 +425,7 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
         const tree = trees[i];
         const content = [mark('ins', edit, textNodes(edit.text, edit.sort))];
         const after = edit.item ? itemByName(edit.item) : null;
-        const list = (tree.children || []).find(c => c.tag === 'ul' || c.tag === 'ol');
+        const list = ensureList(tree);
         if (!list) { // a paragraph part: add the new text at its end
           const p = (tree.children || []).filter(c => c.tag === 'p').pop() || tree;
           p.children.push({ text: ' ' }, ...content);
@@ -362,6 +434,38 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
           const owner = after ? (tree.children.find(l => (l.children || []).includes(after.item)) || list) : list;
           const at = after ? owner.children.indexOf(after.item) + 1 : owner.children.length;
           owner.children.splice(at > 0 ? at : owner.children.length, 0, li);
+        }
+      } else if (edit.action === 'add_table_row') {
+        const i = partIndex(edit.part);
+        if (i < 0) throw new Error('part not found');
+        const tree = trees[i];
+        const risk = key(state.parts[i].tag) === 'riskfactors';
+        let table = tableOf(tree);
+        if (!table) {
+          if (!risk) throw new Error('this part has no table');
+          table = { tag: 'table', cls: 'chapter-table', data: {}, children: [{ tag: 'tr', cls: '', data: {}, children: [cell('th', [{ text: 'Risk factor' }])] }] };
+          tree.children.unshift({ tag: 'div', cls: 'chapter-table-wrap', data: {}, children: [table] });
+        }
+        const rows = rowsOf(table);
+        const width = Math.max(1, ...rows.map(r => (r.children || []).filter(c => c.tag === 'td' || c.tag === 'th').length));
+        // In the Risk factors table the citations go on its Sources line, not in the cells.
+        const cites = [];
+        let cells = String(edit.text || '').split('|').map(t => textNodes(t.trim(), 'none').filter(n => (risk && isCite(n) ? (cites.push(n), false) : true)));
+        if (risk && cells.length > width && width === 1) { // the table gains its odds ratio column
+          const head = rows.find(r => (r.children || []).some(c => c.tag === 'th'));
+          if (head) head.children.push(cell('th', [{ text: 'Odds ratio (95% CI)' }]));
+          rows.filter(r => r !== head).forEach(r => r.children.push(cell('td', [])));
+        }
+        const cols = Math.max(width, risk ? Math.min(cells.length, 2) : width);
+        if (cells.length > cols) cells = [...cells.slice(0, cols - 1), cells.slice(cols - 1).flatMap((c, j) => (j ? [{ text: '; ' }, ...c] : c))];
+        while (cells.length < cols) cells.push([]);
+        const tr = { ...mark('ins', edit, cells.map(c => cell('td', c))), tag: 'tr' };
+        const parent = rows.length ? (function owner(n) { return (n.children || []).includes(rows[rows.length - 1]) ? n : (n.children || []).map(owner).find(Boolean); })(table) : table;
+        parent.children.push(tr);
+        if (cites.length) {
+          let src = (tree.children || []).find(c => c.tag === 'p' && /chapter-refs/.test(c.cls || ''));
+          if (!src) { src = { tag: 'p', cls: 'chapter-refs', data: {}, children: [{ text: 'Sources:' }] }; tree.children.push(src); }
+          src.children.push(mark('ins', edit, cites.flatMap(c => [{ text: ' ' }, c]), tr.data.change)); // one change with its row
         }
       } else {
         throw new Error('unknown action');
@@ -372,6 +476,8 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
   }
 
   state.parts.forEach((p, i) => { if (trees[i]) p.html = (trees[i].children || []).map(treeToHtml).join(''); });
+  // Template subheadings offered to Claude and left empty are not shown.
+  state.parts = state.parts.filter(p => !(p.added && !p.html && !ALWAYS_SHOWN.has(key(p.tag))));
   state.newReferences = [...newRefs.values()];
   state.unplaced = unplaced;
   return state;
@@ -390,7 +496,7 @@ async function runUpdate(id, user) {
   (async () => {
     try {
       const { evidence, sinceMonth } = await gatherEvidence(chapter.title, progress);
-      const state = buildEditorState(chapter);
+      const state = buildEditorState(chapter, { allTemplate: true });
       const { text, refs } = chapterForClaude(state);
       const result = await askClaude(text, refs, evidence, chapter.title, progress);
       applyEdits(state, result.edits, evidence);

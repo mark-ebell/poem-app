@@ -4,7 +4,10 @@
 // makes it: Claude's suggestions (from "Update with Claude") and the editor's own typing
 // and deleting appear as insertions (<ins>, green) and deletions (<del>, struck through),
 // each with its author, and each can be accepted or rejected. Citations and SORT ratings
-// are single units. "Insert reference" adds a POEM or PubMed article at the cursor. The
+// are single units. Tables can be added and edited (rows and columns added or deleted),
+// each such change tracked as a whole row, column or table (class "tc tc-ins" / "tc tc-del"
+// on the element; one change can span several cells, sharing its data-change id).
+// "Insert reference" adds a POEM or PubMed article at the cursor. The
 // review is saved as you work; "Save chapter" (once every change is accepted or rejected)
 // writes the chapter back as XML, removing references that are no longer cited.
 
@@ -134,7 +137,9 @@ function render() {
     if (p.label !== p.sectionLabel) part.appendChild(el('h4', '', p.label));
     const content = el('div', `ce-content chapter-content${p.editable ? '' : ' ce-readonly'}`);
     content.innerHTML = p.html; // the chapter's own markup, from the server
+    if (p.editable && !p.html) content.innerHTML = `<ul><li>${ZWSP}</li></ul>`; // a subheading not yet in the chapter
     content.dataset.part = String(i);
+    content.dataset.tag = p.tag;
     if (p.editable) {
       content.contentEditable = 'true';
       content.spellcheck = true;
@@ -155,6 +160,7 @@ function render() {
 // Citations and SORT ratings are single, non-editable units; citations show their number.
 function prepareAtoms(root) {
   root.querySelectorAll('a.cite, button.sort-tag, a.fig-link').forEach(a => { a.contentEditable = 'false'; });
+  root.querySelectorAll('.tc-del:not(del)').forEach(e => { e.contentEditable = 'false'; });
   renumber();
 }
 
@@ -176,7 +182,7 @@ function renumber() {
 
 function citedKeys() {
   const keys = new Set();
-  $('ceBody').querySelectorAll('a.cite').forEach(a => { if (!a.closest('del')) keys.add(a.dataset.key); });
+  $('ceBody').querySelectorAll('a.cite').forEach(a => { if (!a.closest('del, .tc-del')) keys.add(a.dataset.key); });
   return keys;
 }
 
@@ -196,14 +202,26 @@ function renderReferences() {
 }
 
 // ---------- Tracked changes ----------
-function makeMark(tag) {
-  const m = document.createElement(tag);
-  m.className = `tc tc-${tag}`;
-  m.dataset.author = me;
-  m.dataset.date = new Date().toISOString();
-  m.dataset.change = `u${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`;
-  return m;
+const newChangeId = () => `u${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`;
+// Marks an element (a row, cell or table) as a tracked insertion or deletion.
+function track(e, kind, change = newChangeId()) {
+  e.classList.add('tc', `tc-${kind}`);
+  e.dataset.author = me;
+  e.dataset.date = new Date().toISOString();
+  e.dataset.change = change;
+  return e;
 }
+function makeMark(tag) {
+  return track(document.createElement(tag), tag);
+}
+const isIns = n => n.classList.contains('tc-ins');
+// A tracked row, column cell or table (not an inline <ins>/<del>) around the node, or null.
+const structural = node => {
+  for (let n = node && node.nodeType === 3 ? node.parentNode : node; n && !(n.classList && n.classList.contains('ce-content')); n = n.parentNode) {
+    if (n.classList && n.classList.contains('tc') && n.nodeName !== 'INS' && n.nodeName !== 'DEL') return n;
+  }
+  return null;
+};
 const mine = node => node && node.dataset && node.dataset.author === me;
 const markOf = (node, tag) => {
   for (let n = node; n && !(n.classList && n.classList.contains('ce-content')); n = n.parentNode) {
@@ -237,6 +255,14 @@ function insertTracked(text, range) {
   const part = partOf(range.startContainer);
   if (!part) return;
   range.collapse(true);
+  const st = structural(range.startContainer);
+  if (st && !isIns(st)) return; // a deleted row, column or table
+  if (st && mine(st) && !markOf(range.startContainer, 'del')) { // a row or table I added: plain text
+    const t = document.createTextNode(text);
+    range.insertNode(t);
+    placeCaret(t, 'end');
+    return;
+  }
   // Never type inside a deletion: move out of it, past its end.
   const inDel = markOf(range.startContainer, 'del');
   if (inDel) range.setStartAfter(inDel), range.collapse(true);
@@ -302,6 +328,9 @@ function deleteTracked(range) {
   let anchor = null;
   for (const p of pieces) {
     if (markOf(p, 'del')) { anchor = p; continue; } // already deleted
+    const st = structural(p);
+    if (st && !isIns(st)) { anchor = p; continue; } // in a deleted row, column or table
+    if (st && mine(st) && !markOf(p, 'ins')) { anchor = p.previousSibling || p.parentNode; p.remove(); continue; } // in a row I added
     const ins = markOf(p, 'ins');
     if (ins && mine(ins)) { // my own insertion: just remove it
       anchor = ins;
@@ -394,6 +423,17 @@ function onBeforeInput(e) {
 
 function onKeyDown(e) {
   if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key.toLowerCase() === 'z') { e.preventDefault(); undo(e.currentTarget); }
+  if (e.key === 'Tab' && !e.metaKey && !e.ctrlKey && !e.altKey) { // in a table: the next (or previous) cell, as in Word
+    const sel = window.getSelection();
+    const n = sel.anchorNode && (sel.anchorNode.nodeType === 1 ? sel.anchorNode : sel.anchorNode.parentNode);
+    const cell = n && n.closest('td, th');
+    if (!cell || !e.currentTarget.contains(cell)) return;
+    e.preventDefault();
+    const cells = Array.from(cell.closest('table').querySelectorAll('td, th')).filter(c => !c.closest('.tc-del'));
+    const i = cells.indexOf(cell) + (e.shiftKey ? -1 : 1);
+    if (i >= cells.length) { rememberCursor(); addRow(); return; }
+    if (i >= 0) placeCaret(cells[i], 'end');
+  }
 }
 
 function undo(part) {
@@ -406,7 +446,14 @@ function undo(part) {
 
 // All tracked changes, in order; the current one is highlighted in the review bar.
 function collectChanges() {
-  changes = Array.from($('ceBody').querySelectorAll('ins.tc, del.tc'));
+  const seen = new Set();
+  changes = Array.from($('ceBody').querySelectorAll('.tc')).filter(n => {
+    const id = n.dataset.change;
+    if (!id) return true;
+    if (seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
   if (changeIndex >= changes.length) changeIndex = changes.length - 1;
   showCurrent();
 }
@@ -414,14 +461,16 @@ function collectChanges() {
 function showCurrent(scroll) {
   $('ceBody').querySelectorAll('.tc-current').forEach(n => n.classList.remove('tc-current'));
   const c = changes[changeIndex];
+  const what = n => ({ TR: 'row', TD: 'column', TH: 'column', DIV: 'table', TABLE: 'table' })[n.nodeName];
   $('ceChangeCount').textContent = changes.length
     ? (c ? `Change ${changeIndex + 1} of ${changes.length}` : `${changes.length} change${changes.length === 1 ? '' : 's'} to review`)
     : 'No changes to review';
   $('ceChangeNote').textContent = '';
   if (c) {
-    c.classList.add('tc-current');
+    sameChange(c).forEach(n => n.classList.add('tc-current'));
     const who = c.dataset.author || 'Unknown';
-    $('ceChangeNote').textContent = `${c.nodeName === 'INS' ? 'Inserted' : 'Deleted'} by ${who}${c.dataset.note ? ` — ${c.dataset.note}` : ''}`;
+    const kind = what(c) ? ` ${what(c)}` : '';
+    $('ceChangeNote').textContent = `${isIns(c) ? 'Inserted' : 'Deleted'}${kind} by ${who}${c.dataset.note ? ` — ${c.dataset.note}` : ''}`;
     if (scroll) c.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
   ['ceAccept', 'ceReject'].forEach(id => { $(id).disabled = !c; });
@@ -436,8 +485,34 @@ function go(step) {
 
 // Accepting an insertion keeps its content; accepting a deletion removes it (rejecting is
 // the reverse). A bullet left empty is removed.
+// A tracked row, column or table is kept (its marks removed) or removed as a whole; a
+// table left without rows, or a row without cells, is removed.
+function sameChange(node) {
+  const id = node.dataset.change;
+  const part = partOf(node) || $('ceBody');
+  return id ? Array.from(part.querySelectorAll(`.tc[data-change="${CSS.escape(id)}"]`)) : [node];
+}
 function resolve(node, accept) {
-  const keep = (node.nodeName === 'INS') === accept;
+  for (const n of sameChange(node)) resolveOne(n, accept);
+}
+function resolveOne(node, accept) {
+  if (!node.isConnected) return;
+  const keep = isIns(node) === accept;
+  if (node.nodeName !== 'INS' && node.nodeName !== 'DEL') {
+    const table = node.closest('table');
+    if (keep) {
+      node.classList.remove('tc', 'tc-ins', 'tc-del', 'tc-current');
+      if (!node.className) node.removeAttribute('class');
+      ['author', 'date', 'note', 'change'].forEach(k => delete node.dataset[k]);
+      node.removeAttribute('contenteditable');
+    } else {
+      const row = node.closest('tr');
+      node.remove();
+      if (row && row !== node && !row.querySelector('td, th')) row.remove();
+      if (table && table !== node && !table.querySelector('tr')) (table.closest('.chapter-table-wrap') || table).remove();
+    }
+    return;
+  }
   const li = node.closest('li');
   if (keep) node.replaceWith(...Array.from(node.childNodes)); else node.remove();
   if (li && !li.textContent.replace(new RegExp(`[\\s${ZWSP}]`, 'g'), '') && !li.querySelector('a,button')) li.remove();
@@ -458,6 +533,7 @@ function resolveAll(accept) {
   if (!confirm(`${accept ? 'Accept' : 'Reject'} all ${changes.length} changes?`)) return;
   $('ceBody').querySelectorAll('.ce-content[contenteditable="true"]').forEach(snapshot);
   changes.slice().reverse().forEach(n => resolve(n, accept));
+  prepareAtoms($('ceBody'));
   changeIndex = -1;
   changed();
 }
@@ -665,6 +741,129 @@ async function insertReference(r) {
   changed();
 }
 
+// ---------- Tables ----------
+// Risk factors and the differential diagnosis are fixed two-column tables (they are saved
+// as their own chapter elements), so they take rows but not columns or other tables.
+const FIXED_TABLES = new Set(['riskfactors', 'differentialdiagnosis']);
+const fixedTable = part => FIXED_TABLES.has(String(part.dataset.tag || '').replace(/[_-]/g, '').toLowerCase());
+
+// The editable part, and the table cell, at the cursor.
+function cursorAt() {
+  const r = savedRange && savedRange.startContainer.isConnected ? savedRange : null;
+  if (!r) return null;
+  const part = partOf(r.startContainer);
+  if (!part || !part.isContentEditable) return null;
+  const n = r.startContainer.nodeType === 1 ? r.startContainer : r.startContainer.parentNode;
+  const cell = n.closest('td, th');
+  return { part, range: r, cell: cell && part.contains(cell) ? cell : null };
+}
+function needCell() {
+  const at = cursorAt();
+  if (!at || !at.cell) { alert('First click in a cell of the table.'); return null; }
+  if (structural(at.cell) && !isIns(structural(at.cell))) { alert('That part of the table is marked for deletion.'); return null; }
+  return { ...at, row: at.cell.parentNode, table: at.cell.closest('table') };
+}
+const cellIndex = cell => Array.from(cell.parentNode.children).indexOf(cell);
+const rowsOf = table => Array.from(table.querySelectorAll('tr'));
+const emptyCell = tag => { const c = document.createElement(tag); c.textContent = ZWSP; return c; };
+// Inside a row, column or table this editor added (not yet accepted): changes there are not tracked separately.
+const insideMine = n => { const st = structural(n); return !!st && isIns(st) && mine(st); };
+function tableDone(part) {
+  prepareAtoms(part);
+  changed();
+}
+
+function insertTable() {
+  const at = cursorAt();
+  if (!at) { alert('First click in the chapter where the table should go.'); return; }
+  if (fixedTable(at.part) || at.cell) { alert('A table cannot be added here.'); return; }
+  const answer = prompt('How many columns and rows (including the heading row)? For example: 2 x 4', '2 x 4');
+  if (!answer) return;
+  const m = /^\s*(\d+)\s*[x×,* ]\s*(\d+)\s*$/i.exec(answer);
+  const cols = m ? Number(m[1]) : 0, rows = m ? Number(m[2]) : 0;
+  if (!(cols >= 1 && cols <= 8 && rows >= 1 && rows <= 40)) { alert('Enter the columns and rows as, for example, 2 x 4 (up to 8 columns and 40 rows).'); return; }
+  snapshot(at.part);
+  const wrap = track(el('div', 'chapter-table-wrap'), 'ins');
+  const table = el('table', 'chapter-table');
+  for (let r = 0; r < rows; r++) {
+    const tr = document.createElement('tr');
+    for (let c = 0; c < cols; c++) tr.appendChild(emptyCell(r === 0 ? 'th' : 'td'));
+    table.appendChild(tr);
+  }
+  wrap.appendChild(table);
+  // After the paragraph or list the cursor is in.
+  let block = at.range.startContainer;
+  while (block && block.parentNode !== at.part) block = block.parentNode;
+  at.part.insertBefore(wrap, block ? block.nextSibling : null);
+  placeCaret(table.querySelector('th, td'), 'end');
+  tableDone(at.part);
+}
+
+function addRow() {
+  const at = needCell();
+  if (!at) return;
+  snapshot(at.part);
+  const width = Math.max(...rowsOf(at.table).map(r => r.children.length));
+  const tr = document.createElement('tr');
+  if (!insideMine(at.table)) track(tr, 'ins');
+  for (let c = 0; c < width; c++) tr.appendChild(emptyCell('td'));
+  at.row.parentNode.insertBefore(tr, at.row.nextSibling);
+  placeCaret(tr.firstChild, 'end');
+  tableDone(at.part);
+}
+
+function addColumn() {
+  const at = needCell();
+  if (!at) return;
+  if (fixedTable(at.part)) { alert('This table has a fixed set of columns.'); return; }
+  snapshot(at.part);
+  const i = cellIndex(at.cell), change = newChangeId(), tracked = !insideMine(at.table);
+  for (const tr of rowsOf(at.table)) {
+    const ref = tr.children[i];
+    const c = emptyCell(ref && ref.nodeName === 'TH' ? 'th' : 'td');
+    if (tracked) track(c, 'ins', change);
+    tr.insertBefore(c, ref ? ref.nextSibling : null);
+  }
+  tableDone(at.part);
+}
+
+// Deleting what the editor added removes it; anything else is marked for deletion.
+function removeOrMark(nodes, change = newChangeId()) {
+  for (const n of nodes) {
+    const st = structural(n);
+    if (st && isIns(st) && mine(st)) n.remove(); // added by this editor (or inside what they added)
+    else if (!(st && !isIns(st))) track(n, 'del', change); // unless already deleted
+  }
+}
+
+function deleteRow() {
+  const at = needCell();
+  if (!at) return;
+  snapshot(at.part);
+  removeOrMark([at.row]);
+  tableDone(at.part);
+}
+
+function deleteColumn() {
+  const at = needCell();
+  if (!at) return;
+  if (fixedTable(at.part)) { alert('This table has a fixed set of columns.'); return; }
+  snapshot(at.part);
+  const i = cellIndex(at.cell);
+  removeOrMark(rowsOf(at.table).map(tr => tr.children[i]).filter(Boolean));
+  tableDone(at.part);
+}
+
+function deleteTable() {
+  const at = needCell();
+  if (!at) return;
+  if (fixedTable(at.part)) { alert('Delete this table\'s rows instead.'); return; }
+  if (!confirm('Delete this table?')) return;
+  snapshot(at.part);
+  removeOrMark([at.table.closest('.chapter-table-wrap') || at.table]);
+  tableDone(at.part);
+}
+
 // ---------- Setup ----------
 export function loadChapterEditor(apiFn, user) {
   api = apiFn;
@@ -685,13 +884,18 @@ $('ceAcceptAll').addEventListener('click', () => resolveAll(true));
 $('ceRejectAll').addEventListener('click', () => resolveAll(false));
 $('ceInsertRef').addEventListener('mousedown', e => e.preventDefault()); // keep the cursor where it is
 $('ceInsertRef').addEventListener('click', openRefDialog);
+[['ceTable', insertTable], ['ceRowAdd', addRow], ['ceColAdd', addColumn], ['ceRowDel', deleteRow], ['ceColDel', deleteColumn], ['ceTableDel', deleteTable]].forEach(([id, fn]) => {
+  $(id).addEventListener('mousedown', e => e.preventDefault()); // keep the cursor where it is
+  $(id).addEventListener('click', fn);
+});
 [['ceBold', 'bold'], ['ceItalic', 'italic'], ['ceSup', 'superscript'], ['ceSub', 'subscript']].forEach(([id, cmd]) => {
   $(id).addEventListener('mousedown', e => e.preventDefault());
   $(id).addEventListener('click', () => { document.execCommand(cmd); changed(); });
 });
 document.addEventListener('selectionchange', rememberCursor);
 $('ceBody').addEventListener('click', e => {
-  const tc = e.target.closest('ins.tc, del.tc');
+  const tc = e.target.closest('.tc');
+  if (tc && !changes.includes(tc)) { const first = changes.find(c => c.dataset.change && c.dataset.change === tc.dataset.change); if (first) { changeIndex = changes.indexOf(first); showCurrent(false); return; } }
   if (tc) { changeIndex = changes.indexOf(tc); showCurrent(false); }
   if (e.target.closest('a')) e.preventDefault();
 });

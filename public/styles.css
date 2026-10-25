@@ -722,6 +722,10 @@ header { align-items: flex-start; gap: 8px 16px; }
 .ce-part.bottom-line .ce-content { background: #f4f8fb; }
 ins.tc { color: #11683d; text-decoration: underline; text-decoration-color: #1e7e4f; background: #ecf8f1; }
 del.tc { color: #b3392f; text-decoration: line-through; background: #fdf1ef; }
+tr.tc-ins > td, tr.tc-ins > th, td.tc-ins, th.tc-ins, .chapter-table-wrap.tc-ins td, .chapter-table-wrap.tc-ins th { background: #ecf8f1; color: #11683d; }
+.chapter-table-wrap.tc-ins table { outline: 2px solid #8fd1ad; }
+tr.tc-del > td, tr.tc-del > th, td.tc-del, th.tc-del, .chapter-table-wrap.tc-del td, .chapter-table-wrap.tc-del th { background: #fdf1ef; color: #b3392f; text-decoration: line-through; }
+.ce-tool-group { display: inline-flex; flex-wrap: wrap; gap: 4px; padding-left: 6px; border-left: 1px solid var(--border, #d5dbe1); }
 ins.tc .cite, del.tc .cite { color: inherit; }
 .tc-current { outline: 2px solid #f59e0b; outline-offset: 1px; border-radius: 2px; }
 .ce-refs-title { margin: 24px 0 6px; font-size: 1rem; }

@@ -57,7 +57,7 @@ const HEADINGS = {
 
   treatment: 'Treatment',
   treatmentbl: 'Bottom-line',
-  overallapproach: 'Overall approach',
+  overallapproach: 'Guidelines and overviews',
   treatmentdrug: 'Drug therapy',
   treatmentsurgery: 'Surgical treatment',
   treatmentcam: 'Complementary/alternative therapy',
@@ -91,6 +91,18 @@ const HEADINGS = {
   pregnancy: 'Pregnancy',
   children: 'Infants and children'
 };
+// The chapter template's sections and their parts, in order (the tags as the template
+// spells them), so the Edit Chapter tab can offer parts a chapter does not have yet.
+const TEMPLATE = {
+  background: ['BottomLine', 'definition', 'incidence', 'prevalence', 'economic_impact', 'social_impact', 'causes', 'pathophysiology', 'Risk_Factors'],
+  Screening_Prevention: ['Screening_BL', 'Screening', 'Primary_Prevention', 'Secondary_Prevention'],
+  Diagnosis: ['Diagnosis_BL', 'Differential_Diagnosis', 'Diagnostic_criteria', 'History_physical', 'Diagnostic_testing', 'Decision_rules', 'Diagnostic_strategy'],
+  Treatment: ['Treatment_BL', 'overall_approach', 'Treatment_Drug', 'Treatment_Surgery', 'Treatment_CAM', 'Treatment_PT', 'Treatment_Behavioral',
+    'Treatment_Other', 'Treatment_Duration', 'Treatment_Referral', 'Treatment_complications', 'Treatment_Hospital'],
+  Prognosis: ['Prognosis_BL', 'Natural_history', 'Prognosis_Detail', 'Followup', 'Patient_education'],
+  Special_populations: ['Elderly', 'Pregnancy', 'Children']
+};
+
 // Parts that are a section's bottom line (shown highlighted).
 const BOTTOM_LINES = new Set(['bottomline', 'screeningbl', 'diagnosisbl', 'treatmentbl', 'prognosisbl']);
 // Not shown: billing codes (the template has no heading for them).
@@ -532,4 +544,4 @@ function convertChapter(xml, calcLabels = loadCalculatorLabels()) {
   return { chapter, problems: [...new Set(problems)].sort(), unknown };
 }
 
-module.exports = { convertChapter, parseXml, loadCalculatorLabels, HEADINGS, BOTTOM_LINES, key, esc };
+module.exports = { convertChapter, parseXml, loadCalculatorLabels, HEADINGS, BOTTOM_LINES, TEMPLATE, key, esc, headingFor };

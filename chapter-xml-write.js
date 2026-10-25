@@ -17,6 +17,8 @@ const elements = e => (e ? Array.from(e.childNodes).filter(n => n.nodeType === 1
 const child = (e, tag) => elements(e).find(c => c.tagName === tag) || null;
 const TEMPLATE_ORDER = Object.keys(HEADINGS);
 const SORT = new Set(['A', 'B', 'C']);
+// No text, citation or SORT rating in it.
+const empty = t => (t.text !== undefined ? !t.text.trim() : !['a', 'button'].includes(t.tag) && (t.children || []).every(empty));
 
 class Writer {
   constructor(doc) {
@@ -60,9 +62,10 @@ class Writer {
     if (tag === 'ul' || tag === 'ol') {
       const list = this.el('list', { style: tag === 'ol' ? 'numbered' : 'bulleted' });
       for (const li of node.children || []) {
+        if (li.tag === 'li' && empty(li)) continue; // e.g. the starter bullet of a new subheading, left blank
         if (li.tag === 'li') { const item = this.el('listitem'); (li.children || []).forEach(c => this.append(item, c)); list.appendChild(item); }
       }
-      parent.appendChild(list);
+      if (list.firstChild) parent.appendChild(list);
       return;
     }
     if (tag === 'li') { const item = this.el('listitem'); kids(item); parent.appendChild(item); return; }
@@ -150,6 +153,9 @@ class Writer {
   }
 
   writePart(sectionTag, tag, tree) {
+    // A part the chapter does not have yet is only added if something was written in it.
+    const section = child(child(this.root, 'topic_text'), sectionTag);
+    if (section && !child(section, tag) && empty(tree)) return;
     const e = this.partElement(sectionTag, tag);
     const k = key(tag);
     if (k === 'differentialdiagnosis') return this.differential(e, tree);

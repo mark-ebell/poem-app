@@ -150,9 +150,9 @@ async function ecitmatch(journal, year, volume, page, author) {
   return /^\d+$/.test(id) ? id : null;
 }
 
-// Returns { count, ids } for the newest MAX_PER_CATEGORY results. `sinceMonth` is 'YYYY-MM' or null.
-async function searchPubMed(term, sinceMonth) {
-  const params = { db: 'pubmed', term, retmax: String(MAX_PER_CATEGORY), sort: 'pub_date' };
+// Returns { count, ids } for the newest `retmax` (default MAX_PER_CATEGORY) results. `sinceMonth` is 'YYYY-MM' or null.
+async function searchPubMed(term, sinceMonth, retmax = MAX_PER_CATEGORY) {
+  const params = { db: 'pubmed', term, retmax: String(retmax), sort: 'pub_date' };
   if (sinceMonth) Object.assign(params, { datetype: 'pdat', mindate: sinceMonth.replace('-', '/'), maxdate: '3000' });
   const data = await eutils('esearch', params);
   const r = data && data.esearchresult;
