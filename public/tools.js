@@ -1,15 +1,17 @@
-// The Risk Scores tab: clinical decision rules and risk scores. Each tool is a data
-// file (decision-tools/*.json, described in routes/tools.js); this page draws any of
-// them the same way: the items to answer, the score as it adds up, the risk group, and
-// the probability of the outcome from the group's likelihood ratio and a pretest
-// probability (the study's own, which can be changed to fit the user's setting).
+// The Risk Scores tab: clinical decision rules and risk scores. Each tool's questions
+// come from the server (routes/tools.js); the answers are sent back to be scored, so
+// this page draws every tool the same way: the items to answer (choices as buttons, or a
+// list when there are many; checkboxes; numbers), the result as the answers come in (kept
+// in view at the bottom of the screen), any adjustable value such as a pretest
+// probability, a table of the risk groups where the tool has one, and "About this score".
 
 const $ = id => document.getElementById(id);
 let api = null;
 let tools = [];
-let tool = null;      // the open tool
-let answers = {};     // input id -> chosen option index
-let pretest = null;   // %
+let tool = null;      // the open tool's questions
+let answers = {};     // input id -> option index, true/false, or number
+let seq = 0;          // the latest scoring request (older replies are ignored)
+let timer = null;
 
 const el = (tag, className, text) => {
   const e = document.createElement(tag);
@@ -17,6 +19,7 @@ const el = (tag, className, text) => {
   if (text !== undefined) e.textContent = text;
   return e;
 };
+const signed = p => `${p >= 0 ? '+' : '−'}${Math.abs(p)}`;
 
 // ---------- The list ----------
 export async function loadTools(apiFn) {
@@ -29,10 +32,11 @@ function renderList() {
   const q = $('toolsFilter').value.trim().toLowerCase();
   const box = $('toolsList');
   box.textContent = '';
-  const shown = tools.filter(t => !q || `${t.title} ${t.subtitle} ${t.category}`.toLowerCase().includes(q));
+  const shown = tools.filter(t => !q || `${t.title} ${t.subtitle} ${t.categories.join(' ')}`.toLowerCase().includes(q));
   if (!shown.length) { box.appendChild(el('p', 'hint', q ? 'No risk score matches.' : 'No risk scores yet.')); return; }
+  // A tool appears under each of its categories, as in EE+.
   const groups = new Map();
-  for (const t of shown) (groups.get(t.category) || groups.set(t.category, []).get(t.category)).push(t);
+  for (const t of shown) for (const c of t.categories) (groups.get(c) || groups.set(c, []).get(c)).push(t);
   for (const [category, list] of [...groups].sort((a, b) => a[0].localeCompare(b[0]))) {
     box.appendChild(el('h3', 'tools-cat', category));
     const ul = el('ul', 'tools-items');
@@ -61,11 +65,11 @@ export async function openTool(id) {
   }
   tool = data.tool;
   answers = {};
-  pretest = tool.pretest ? tool.pretest.default : null;
   renderTool();
   $('toolsListCard').classList.add('hidden');
   $('toolCard').classList.remove('hidden');
   window.scrollTo(0, 0);
+  score();
 }
 
 function closeTool() {
@@ -74,12 +78,77 @@ function closeTool() {
   $('toolsListCard').classList.remove('hidden');
 }
 
-const postTest = (pre, lr) => {
-  const odds = (pre / (100 - pre)) * lr;
-  return (100 * odds) / (1 + odds);
-};
-const pct = p => (p < 10 ? p.toFixed(1) : String(Math.round(p))).replace(/\.0$/, '') + '%';
-const range = b => (b.min === b.max ? String(b.min) : `${b.min}–${b.max}`);
+function choiceButtons(input) {
+  const opts = el('div', 'tool-options');
+  opts.setAttribute('role', 'radiogroup');
+  opts.setAttribute('aria-label', input.label);
+  opts.style.setProperty('--n', String(Math.min(input.options.length, 4)));
+  input.options.forEach((o, k) => {
+    const b = el('button', 'tool-option');
+    b.type = 'button';
+    b.setAttribute('role', 'radio');
+    b.setAttribute('aria-checked', 'false');
+    b.dataset.input = input.id;
+    b.dataset.k = String(k);
+    b.appendChild(el('span', 'tool-option-label', o.label));
+    if (o.points !== undefined) b.appendChild(el('span', 'tool-option-pts', signed(o.points)));
+    b.addEventListener('click', () => { answers[input.id] = k; changed(); });
+    opts.appendChild(b);
+  });
+  return opts;
+}
+
+function choiceList(input) {
+  const s = el('select', 'tool-select');
+  s.setAttribute('aria-label', input.label);
+  s.dataset.input = input.id;
+  const blank = el('option', '', 'Choose…');
+  blank.value = '';
+  s.appendChild(blank);
+  input.options.forEach((o, k) => {
+    const opt = el('option', '', o.points !== undefined ? `${o.label} (${signed(o.points)})` : o.label);
+    opt.value = String(k);
+    s.appendChild(opt);
+  });
+  s.addEventListener('change', () => { if (s.value === '') delete answers[input.id]; else answers[input.id] = Number(s.value); changed(); });
+  return s;
+}
+
+function checkButton(input) {
+  const b = el('button', 'tool-check');
+  b.type = 'button';
+  b.setAttribute('role', 'checkbox');
+  b.setAttribute('aria-checked', 'false');
+  b.dataset.input = input.id;
+  b.appendChild(el('span', 'tool-check-box'));
+  b.appendChild(el('span', 'tool-option-label', input.label));
+  if (input.points !== undefined) b.appendChild(el('span', 'tool-option-pts', signed(input.points)));
+  b.addEventListener('click', () => { answers[input.id] = !answers[input.id]; changed(); });
+  return b;
+}
+
+function numberField(input) {
+  const wrap = el('label', 'tool-number');
+  wrap.appendChild(el('span', 'tool-number-label', input.label));
+  const n = el('input');
+  n.type = 'number';
+  n.inputMode = 'decimal';
+  if (input.min !== undefined) n.min = String(input.min);
+  if (input.max !== undefined) n.max = String(input.max);
+  n.step = String(input.step || 'any');
+  if (input.default !== undefined) n.value = String(input.default);
+  n.dataset.input = input.id;
+  n.addEventListener('input', () => { if (n.value === '') delete answers[input.id]; else answers[input.id] = Number(n.value); changed(true); });
+  wrap.appendChild(n);
+  if (input.unit) wrap.appendChild(el('span', 'tool-unit', input.unit));
+  if (input.adjust) {
+    const reset = el('button', 'secondary small-btn', 'Reset');
+    reset.type = 'button';
+    reset.addEventListener('click', e => { e.preventDefault(); n.value = String(input.default); delete answers[input.id]; changed(); });
+    wrap.appendChild(reset);
+  }
+  return wrap;
+}
 
 function renderTool() {
   const card = $('toolCard');
@@ -92,84 +161,74 @@ function renderTool() {
   if (tool.subtitle) card.appendChild(el('p', 'tool-subtitle', tool.subtitle));
   if (tool.question) card.appendChild(el('p', 'tool-question', tool.question));
 
-  // The items.
-  tool.inputs.forEach(input => {
+  // The items, in order; checkboxes under one heading share a box.
+  let group = null;
+  const adjust = [];
+  for (const input of tool.inputs) {
+    if (input.type === 'heading') { group = el('fieldset', 'tool-item tool-checks'); group.appendChild(el('legend', '', input.label)); card.appendChild(group); continue; }
+    if (input.type === 'text') { card.appendChild(el('p', 'hint', input.text)); continue; }
+    if (input.adjust) { adjust.push(input); continue; }
+    if (input.type === 'check') {
+      if (!group) { group = el('fieldset', 'tool-item tool-checks'); card.appendChild(group); }
+      group.appendChild(checkButton(input));
+      if (input.note) group.appendChild(el('p', 'hint tool-note', input.note));
+      continue;
+    }
+    group = null;
     const set = el('fieldset', 'tool-item');
-    const legend = el('legend');
-    legend.appendChild(el('span', '', input.label));
-    set.appendChild(legend);
-    const opts = el('div', 'tool-options');
-    opts.setAttribute('role', 'radiogroup');
-    opts.setAttribute('aria-label', input.label);
-    opts.style.setProperty('--n', String(Math.min(input.options.length, 4)));
-    input.options.forEach((o, k) => {
-      const b = el('button', 'tool-option');
-      b.type = 'button';
-      b.setAttribute('role', 'radio');
-      b.setAttribute('aria-checked', 'false');
-      b.dataset.input = input.id;
-      b.dataset.k = String(k);
-      b.appendChild(el('span', 'tool-option-label', o.label));
-      b.appendChild(el('span', 'tool-option-pts', `${o.points >= 0 ? '+' : ''}${o.points}`));
-      b.addEventListener('click', () => { answers[input.id] = k; update(); });
-      opts.appendChild(b);
-    });
-    set.appendChild(opts);
+    if (input.type === 'choice') {
+      set.appendChild(el('legend', '', input.label));
+      set.appendChild(input.options.length > 5 ? choiceList(input) : choiceButtons(input));
+    } else if (input.type === 'number') {
+      set.appendChild(numberField(input));
+    }
     if (input.note) set.appendChild(el('p', 'hint tool-note', input.note));
     card.appendChild(set);
-  });
+  }
+  if (tool.footnote) card.appendChild(el('p', 'hint tool-note', tool.footnote));
 
-  // The result.
   const result = el('div', 'tool-result');
   result.id = 'toolResult';
   result.setAttribute('aria-live', 'polite');
   card.appendChild(result);
 
-  // Pretest probability.
-  if (tool.pretest) {
+  for (const input of adjust) {
     const row = el('div', 'tool-pretest');
-    const label = el('label', '', `Pretest probability of ${tool.outcome} `);
-    const num = el('input');
-    num.type = 'number';
-    num.id = 'toolPretest';
-    num.min = '0.1'; num.max = '99.9'; num.step = '0.1';
-    num.value = String(pretest);
-    num.addEventListener('input', () => {
-      const v = Number(num.value);
-      if (v > 0 && v < 100) { pretest = v; update(); }
-    });
-    label.appendChild(num);
-    label.appendChild(document.createTextNode(' %'));
-    row.appendChild(label);
-    const reset = el('button', 'secondary small-btn', 'Reset');
-    reset.type = 'button';
-    reset.addEventListener('click', () => { pretest = tool.pretest.default; num.value = String(pretest); update(); });
-    row.appendChild(reset);
-    row.appendChild(el('p', 'hint', `${tool.pretest.default}% is ${tool.pretest.source}. Change it to match your patient or setting; the probabilities below follow.`));
+    row.appendChild(numberField(input));
+    if (input.note) row.appendChild(el('p', 'hint', input.note));
     card.appendChild(row);
   }
 
-  // All the risk groups.
   const table = el('table', 'tool-bands');
   table.id = 'toolBands';
   card.appendChild(table);
 
-  // About the tool.
+  card.appendChild(aboutSection());
+
+  const clear = el('button', 'secondary', 'Clear answers');
+  clear.type = 'button';
+  clear.addEventListener('click', () => { answers = {}; renderTool(); score(); });
+  card.appendChild(clear);
+}
+
+function aboutSection() {
+  const ev = tool.evidence || {};
   const about = el('details', 'tool-about');
-  about.appendChild(el('summary', '', 'About this tool'));
+  about.appendChild(el('summary', '', 'About this score'));
   const dl = el('dl');
   const add = (term, text) => { if (text) { dl.appendChild(el('dt', '', term)); dl.appendChild(el('dd', '', text)); } };
-  const ev = tool.evidence || {};
   add('Population', ev.population);
   add('Validation', ev.validation);
-  add(`Prevalence of ${tool.outcome}`, ev.prevalence);
+  add('Prevalence of the outcome', ev.prevalence ? `${ev.prevalence}%` : '');
+  const n = [ev.developed && `${ev.developed.toLocaleString()} to develop the rule`, ev.validated && `${ev.validated.toLocaleString()} to validate it`].filter(Boolean).join('; ');
+  add('Patients', n);
   add('Comment', ev.comment);
   about.appendChild(dl);
-  for (const r of tool.references || []) {
-    const p = el('p', 'tool-ref', r.citation + ' ');
-    if (r.pmid) {
+  if (ev.reference) {
+    const p = el('p', 'tool-ref', `${ev.reference} `);
+    if (ev.pmid) {
       const a = el('a', '', 'PubMed');
-      a.href = `https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(r.pmid)}/`;
+      a.href = `https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(ev.pmid)}/`;
       a.target = '_blank';
       a.rel = 'noopener';
       p.appendChild(a);
@@ -177,63 +236,78 @@ function renderTool() {
     about.appendChild(p);
   }
   about.appendChild(el('p', 'hint', 'This tool simplifies the calculations in the study above. Its result is not medical advice; decisions should take into account all relevant information about the patient and clinical judgment.'));
-  card.appendChild(about);
-
-  const resetAll = el('button', 'secondary', 'Clear answers');
-  resetAll.type = 'button';
-  resetAll.addEventListener('click', () => { answers = {}; update(); });
-  card.appendChild(resetAll);
-
-  update();
+  return about;
 }
 
-function update() {
+// ---------- Scoring ----------
+function changed(typing) {
   const card = $('toolCard');
   card.querySelectorAll('.tool-option').forEach(b => {
     const on = answers[b.dataset.input] === Number(b.dataset.k);
     b.classList.toggle('selected', on);
     b.setAttribute('aria-checked', on ? 'true' : 'false');
   });
-  const answered = tool.inputs.filter(i => answers[i.id] !== undefined);
-  const score = answered.reduce((s, i) => s + i.options[answers[i.id]].points, 0);
-  const complete = answered.length === tool.inputs.length;
-  const band = complete ? tool.bands.find(b => score >= b.min && score <= b.max) : null;
+  card.querySelectorAll('.tool-check').forEach(b => {
+    const on = !!answers[b.dataset.input];
+    b.classList.toggle('selected', on);
+    b.setAttribute('aria-checked', on ? 'true' : 'false');
+  });
+  clearTimeout(timer);
+  timer = setTimeout(score, typing ? 300 : 0);
+}
 
-  const result = $('toolResult');
-  result.textContent = '';
-  result.className = `tool-result${band ? ` level-${band.level}` : ''}`;
-  const head = el('div', 'tool-score');
-  head.appendChild(el('span', 'tool-score-num', String(score)));
-  head.appendChild(el('span', 'tool-score-max', `/${tool.score.max}`));
-  head.appendChild(el('span', 'tool-score-label', tool.score.label));
-  result.appendChild(head);
-  if (!complete) {
-    const left = tool.inputs.length - answered.length;
-    result.appendChild(el('p', 'tool-score-wait', `Answer ${left === tool.inputs.length ? 'each item' : `${left} more item${left === 1 ? '' : 's'}`} to see the risk.`));
-  } else if (band) {
-    result.appendChild(el('div', 'tool-band', band.label));
-    if (band.lr && pretest) {
+async function score() {
+  if (!tool) return;
+  const mine = ++seq;
+  let data;
+  try {
+    data = await api(`/tools/${encodeURIComponent(tool.id)}/score`, { method: 'POST', body: { answers } });
+  } catch (err) {
+    if (mine === seq) showResult({ problems: [err.message] });
+    return;
+  }
+  if (mine === seq && tool) showResult(data.result);
+}
+
+function showResult(r) {
+  const box = $('toolResult');
+  box.textContent = '';
+  box.className = `tool-result${r.level ? ` level-${r.level}` : ''}`;
+  if (r.score) {
+    const head = el('div', 'tool-score');
+    head.appendChild(el('span', 'tool-score-num', String(r.score.value)));
+    if (r.score.max !== undefined && r.score.max !== null) head.appendChild(el('span', 'tool-score-max', `/${r.score.max}`));
+    head.appendChild(el('span', 'tool-score-label', r.score.label));
+    box.appendChild(head);
+  }
+  if (r.problems) {
+    for (const p of r.problems) box.appendChild(el('p', 'tool-problem', p));
+  } else if (r.missing) {
+    const n = r.missing.length;
+    box.appendChild(el('p', 'tool-score-wait', `Answer ${n === 1 ? `“${r.missing[0]}”` : `${n} more items`} to see the result.`));
+  } else {
+    if (r.headline) box.appendChild(el('div', 'tool-band', r.headline));
+    for (const l of r.lines || []) {
+      if (typeof l === 'string') { box.appendChild(el('p', 'tool-prob', l)); continue; }
       const p = el('p', 'tool-prob');
-      p.appendChild(document.createTextNode(`Probability of ${tool.outcome}: `));
-      p.appendChild(el('strong', '', pct(postTest(pretest, band.lr))));
-      p.appendChild(document.createTextNode(` (likelihood ratio ${band.lr}, pretest probability ${pretest}%)`));
-      result.appendChild(p);
+      p.appendChild(document.createTextNode(`${l.label}: `));
+      p.appendChild(el('strong', '', l.value));
+      box.appendChild(p);
     }
+    if (r.note) box.appendChild(el('p', 'tool-result-note', r.note));
   }
 
-  // The groups, with the patient's highlighted.
   const table = $('toolBands');
   table.textContent = '';
-  const hr = el('tr');
-  ['Score', 'Risk group', 'Likelihood ratio', `Probability of ${tool.outcome}`].forEach(h => hr.appendChild(el('th', '', h)));
-  table.appendChild(hr);
-  for (const b of tool.bands) {
-    const tr = el('tr', `level-${b.level}${b === band ? ' current' : ''}`);
-    tr.appendChild(el('td', '', range(b)));
-    tr.appendChild(el('td', '', b.label));
-    tr.appendChild(el('td', '', String(b.lr)));
-    tr.appendChild(el('td', '', pretest ? pct(postTest(pretest, b.lr)) : '—'));
-    table.appendChild(tr);
+  if (r.table) {
+    const hr = el('tr');
+    r.table.head.forEach(h => hr.appendChild(el('th', '', h)));
+    table.appendChild(hr);
+    r.table.rows.forEach((row, k) => {
+      const tr = el('tr', k === r.table.current ? 'current' : '');
+      row.forEach(c => tr.appendChild(el('td', '', c)));
+      table.appendChild(tr);
+    });
   }
 }
 

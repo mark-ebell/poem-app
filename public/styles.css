@@ -815,3 +815,18 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .tool-about dd { margin: 0; }
 .tool-ref { font-size: 0.9rem; }
 @media (max-width: 480px) { .tool-about dl { grid-template-columns: 1fr; } .tool-about dd { margin-bottom: 6px; } }
+.tool-checks { display: grid; grid-template-columns: 1fr; gap: 6px; }
+.tool-checks legend { font-weight: 700; padding: 0; margin-bottom: 6px; }
+.tool-check { display: flex; align-items: center; gap: 10px; text-align: left; background: #fff; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 9px 10px; font-weight: 500; line-height: 1.25; }
+.tool-check:hover:not(:disabled) { background: #eff4ff; border-color: #9db7f5; }
+.tool-check .tool-option-label { flex: 1; }
+.tool-check-box { flex: none; width: 18px; height: 18px; border: 2px solid #9aa5ad; border-radius: 4px; background: #fff; }
+.tool-check.selected { background: #e8efff; border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.tool-check.selected .tool-check-box { background: var(--accent); border-color: var(--accent); box-shadow: inset 0 0 0 2px #fff; }
+.tool-check.selected .tool-option-pts { color: var(--accent); }
+.tool-number { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-weight: 700; }
+.tool-number input { width: 110px; font-weight: 400; }
+.tool-unit { font-weight: 400; color: var(--muted); }
+.tool-select { max-width: 100%; }
+.tool-problem { margin: 4px 0 0; color: #b3392f; font-weight: 600; }
+.tool-result-note { margin: 6px 0 0; font-size: 0.82rem; color: var(--muted); }

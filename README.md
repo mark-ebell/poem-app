@@ -222,7 +222,13 @@ Before sending to real subscribers, the email needs an unsubscribe link and a su
 
 ## Risk Scores
 
-The **Risk Scores** tab (editors and readers) holds clinical decision rules and risk scores, being brought over from the Essential Evidence Plus decision support tools (571 tools; the HEART score is the first). Each tool is a data file in `decision-tools/` (format described at the top of `routes/tools.js`): the question it answers, the items to answer and their points, the risk groups with their likelihood ratios, the study's pretest probability, the validation details and the references. The page (`public/tools.js`) draws every tool the same way: choices as buttons (side by side on wide screens, stacked on phones), the score and risk group as each item is answered (kept in view at the bottom of the screen), the probability of the outcome from the group's likelihood ratio and a pretest probability the user can change, all the risk groups in a table, and an "About this tool" section. Answers start blank, so an unanswered item never counts as normal. Tools give the risk only (no management recommendations), and show a pretest probability only where the study provides one. Opening a tool counts toward a reader's calculator look-ups. Add a tool by adding its file and restarting the server.
+The **Risk Scores** tab (editors and readers) holds clinical decision rules and risk scores brought over from the Essential Evidence Plus decision support tools (571 tools, archived in `../ee-decision-tools-archive/ee-decision-tools.json` before EE+ closed on 12/31/26). Converted so far: Cardiovascular: Chest pain and CAD (26 of 27; the 2004 antiplatelet recommendations are held for review).
+
+Each tool is a module in `decision-tools/tools/`: its questions (choices, checkboxes, numbers, with points where it is a point score), a `compute` function, and any corrections to its evidence. The format is described at the top of `decision-tools/lib.js`. Each tool's reference, population, validation and PubMed link come from `decision-tools/ee-evidence.json`, made from the archive by `node scripts/ee-evidence.js`. The page gets a tool's questions and sends the answers to `POST /api/tools/:id/score`, so the formulas stay on the server. Opening a tool counts toward a reader's calculator look-ups.
+
+Format decisions: answers start blank, so an unanswered item never counts as normal (unticked checkboxes count as no); no new management recommendations (EE+'s own wording is kept); a pretest probability is shown, and can be changed, only where the study gives likelihood ratios.
+
+Each converted tool is checked against the original EE+ tool, run in jsdom with EE+'s own code, on every combination of answers (or 1,500 random ones): see `../ee-decision-tools-archive/harness/`. Errors found in EE+ and other questions are listed for review in the "Risk Scores review" doc for each category.
 
 ## Diagnostic calculators
 
