@@ -40,6 +40,7 @@ function evidenceOf(t) {
     else if ((m = /^(\d+) patients were used to validate/i.exec(d))) out.validated = Number(m[1]) || null;
     else if ((m = /^Comment:\s*(.+)$/i.exec(d))) out.comment = m[1];
   }
+  for (const k of ['reference', 'population', 'comment']) if (/^(NA|N\/A)\.?$/i.test(out[k] || '')) delete out[k]; // "NA": nothing to show
   return out;
 }
 
