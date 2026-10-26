@@ -175,7 +175,7 @@ function readable(t, refNumber) {
     const rows = [];
     const walk = n => { if (n.tag === 'tr') rows.push((n.children || []).map(c => treeText(c).trim()).join(' | ')); else (n.children || []).forEach(walk); };
     walk(t);
-    return `\n${rows.join('\n')}\n`;
+    return ` ${rows.map(r => `[table row] ${r}`).join(' ')} `;
   }
   return (t.children || []).map(c => readable(c, refNumber)).join('');
 }
@@ -189,7 +189,7 @@ function chapterForClaude(state) {
     if (p.sectionLabel !== lastSection) { lines.push(`\n## ${p.sectionLabel}`); lastSection = p.sectionLabel; }
     const tree = htmlToTree(p.html);
     lines.push(`### P${i + 1}: ${p.label}${p.bottomLine ? ' (bottom line)' : ''}${p.html ? '' : ' (empty: not yet in this chapter)'}`);
-    itemsOf(tree).forEach((item, j) => lines.push(`P${i + 1}.${j + 1}: ${readable(item, refNumber).trim().replace(/\n+/g, ' // ').replace(/\s+/g, ' ')}`));
+    itemsOf(tree).forEach((item, j) => lines.push(`P${i + 1}.${j + 1}: ${readable(item, refNumber).replace(/\s+/g, ' ').trim()}`));
   });
   const refs = state.references.map((r, i) => `[${i + 1}] ${r.short}`).join('\n');
   return { text: lines.join('\n').trim(), refs };
@@ -279,6 +279,10 @@ function applyEdits(state, edits, evidence, author = 'Claude') {
       last = re.lastIndex;
     }
     if (last < text.length) out.push({ text: text.slice(last) });
+    // Nothing but a separator between two citations (e.g. ", " or " // "): just a space.
+    out.forEach((n, k) => {
+      if (n.text !== undefined && k > 0 && out[k - 1].tag === 'a' && /^[\s,;/]*$/.test(n.text) && out[k + 1] && (out[k + 1].tag === 'a' || (out[k + 1].text === ' ' && out[k + 2] && out[k + 2].tag === 'a'))) n.text = '';
+    });
     if (sort && sort !== 'none') out.push({ text: ' ' }, { tag: 'button', cls: 'sort-tag', data: { sort }, children: [{ text: `(SORT ${sort})` }] });
     return out.map(n => (n.text !== undefined ? { text: n.text.replace(/\s+/g, ' ') } : n));
   };

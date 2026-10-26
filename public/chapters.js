@@ -2,6 +2,7 @@
 // chapters are prepared by build_chapters.py; their content arrives as ready-made
 // HTML whose links carry data attributes handled here (POEMs, calculators, figures,
 // SORT ratings). External links (PubMed, Cochrane, web sites) are ordinary links.
+import { markCiteRuns } from './cite-runs.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
@@ -388,6 +389,7 @@ function renderChapter(c) {
     box.appendChild(el('h3', '', 'Overall Bottom Line'));
     const content = el('div', 'chapter-content');
     content.innerHTML = c.overallBottomLine; // prepared by build_chapters.py from escaped text
+    markCiteRuns(content);
     box.appendChild(content);
     view.appendChild(box);
   }
@@ -440,6 +442,7 @@ function renderChapter(c) {
       if (p.label) part.appendChild(el('h4', '', p.label));
       const content = el('div', 'chapter-content');
       content.innerHTML = p.html; // prepared by build_chapters.py from escaped text
+      markCiteRuns(content);
       part.appendChild(content);
       body.appendChild(part);
     }

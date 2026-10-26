@@ -11,6 +11,8 @@
 // review is saved as you work; "Save chapter" (once every change is accepted or rejected)
 // writes the chapter back as XML, removing references that are no longer cited.
 
+import { markCiteRuns } from './cite-runs.js';
+
 const $ = id => document.getElementById(id);
 const ZWSP = '​';
 let api = null;
@@ -235,6 +237,7 @@ function renumber() {
     a.href = '#';
     a.classList.toggle('cite-poem', /^poem/.test(k));
   });
+  markCiteRuns($('ceBody'));
 }
 
 function citedKeys() {
@@ -299,6 +302,7 @@ function snapshot(part) {
 }
 
 function changed() {
+  markCiteRuns($('ceBody'));
   dirty = true;
   clearTimeout(saveTimer);
   saveTimer = setTimeout(saveDraft, 2500);
