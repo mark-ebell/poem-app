@@ -8,6 +8,7 @@
 const $ = id => document.getElementById(id);
 let api = null;
 let tools = [];
+let categories = [];  // [{ name, available, total }]
 let tool = null;      // the open tool's questions
 let answers = {};     // input id -> option index, true/false, or number
 let seq = 0;          // the latest scoring request (older replies are ignored)
@@ -24,19 +25,28 @@ const signed = p => `${p >= 0 ? '+' : '−'}${Math.abs(p)}`;
 // ---------- The list ----------
 export async function loadTools(apiFn) {
   api = apiFn;
-  ({ tools } = await api('/tools'));
+  ({ tools, categories } = await api('/tools'));
+  const sel = $('toolsCategory');
+  for (const c of categories) {
+    const o = el('option', '', c.available === c.total ? `${c.name} (${c.total})` : `${c.name} (${c.available} of ${c.total} so far)`);
+    o.value = c.name;
+    o.disabled = !c.available;
+    sel.appendChild(o);
+  }
   renderList();
 }
 
 function renderList() {
   const q = $('toolsFilter').value.trim().toLowerCase();
+  const cat = $('toolsCategory').value;
   const box = $('toolsList');
   box.textContent = '';
-  const shown = tools.filter(t => !q || `${t.title} ${t.subtitle} ${t.categories.join(' ')}`.toLowerCase().includes(q));
+  const shown = tools.filter(t => (!cat || t.categories.includes(cat)) && (!q || `${t.title} ${t.subtitle} ${t.categories.join(' ')}`.toLowerCase().includes(q)));
+  $('toolsCount').textContent = `${shown.length} of ${tools.length} risk scores${cat ? ` in ${cat}` : ''}.`;
   if (!shown.length) { box.appendChild(el('p', 'hint', q ? 'No risk score matches.' : 'No risk scores yet.')); return; }
   // A tool appears under each of its categories, as in EE+.
   const groups = new Map();
-  for (const t of shown) for (const c of t.categories) (groups.get(c) || groups.set(c, []).get(c)).push(t);
+  for (const t of shown) for (const c of t.categories) if (!cat || c === cat) (groups.get(c) || groups.set(c, []).get(c)).push(t);
   for (const [category, list] of [...groups].sort((a, b) => a[0].localeCompare(b[0]))) {
     box.appendChild(el('h3', 'tools-cat', category));
     const ul = el('ul', 'tools-items');
@@ -317,3 +327,4 @@ function showResult(r) {
 }
 
 $('toolsFilter').addEventListener('input', renderList);
+$('toolsCategory').addEventListener('change', renderList);

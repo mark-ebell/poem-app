@@ -34,6 +34,21 @@ for (const f of fs.readdirSync(path.join(DIR, 'tools')).filter(f => f.endsWith('
     console.warn(`Risk score ${f} not loaded: ${err.message}`);
   }
 }
+// Every EE+ category, with how many of its tools are available here so far (retired ones
+// are not counted).
+let excluded = {};
+try { excluded = JSON.parse(fs.readFileSync(path.join(DIR, 'excluded.json'), 'utf8')); } catch { /* none */ }
+const categories = (() => {
+  const total = new Map(), available = new Map();
+  for (const [id, e] of Object.entries(eeEvidence)) {
+    if (excluded[id] && excluded[id].decision === 'retired') continue;
+    for (const c of e.categories || []) total.set(c, (total.get(c) || 0) + 1);
+  }
+  for (const t of tools.values()) for (const c of t.categories) available.set(c, (available.get(c) || 0) + 1);
+  return [...new Set([...total.keys(), ...available.keys()])].sort((a, b) => a.localeCompare(b))
+    .map(name => ({ name, available: available.get(name) || 0, total: Math.max(total.get(name) || 0, available.get(name) || 0) }));
+})();
+
 const list = [...tools.values()]
   .map(t => ({ id: t.id, title: t.title, subtitle: t.subtitle || '', categories: t.categories }))
   .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
@@ -80,7 +95,7 @@ function score(t, raw) {
   return r;
 }
 
-router.get('/', (req, res) => res.json({ tools: list }));
+router.get('/', (req, res) => res.json({ tools: list, categories }));
 
 router.get('/:id', quota('calc'), (req, res) => {
   const t = tools.get(String(req.params.id));

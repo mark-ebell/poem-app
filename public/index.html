@@ -445,9 +445,15 @@
       <section class="card" id="toolsListCard">
         <h2>Risk Scores</h2>
         <p class="hint">Clinical decision rules and risk scores. Choose one, answer each item, and see the score, the risk group and, where the study provides it, the probability of the outcome.</p>
-        <label>Find a risk score
-          <input type="search" id="toolsFilter" placeholder="Type part of a name, e.g. HEART or pneumonia" autocomplete="off">
-        </label>
+        <div class="tools-find">
+          <label>Category
+            <select id="toolsCategory"><option value="">All categories</option></select>
+          </label>
+          <label>Find a risk score
+            <input type="search" id="toolsFilter" placeholder="Type part of a name, e.g. HEART" autocomplete="off">
+          </label>
+        </div>
+        <p id="toolsCount" class="hint"></p>
         <div id="toolsList" class="tools-list"></div>
       </section>
       <section class="card hidden" id="toolCard"></section>
