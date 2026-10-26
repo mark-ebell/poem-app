@@ -15,7 +15,7 @@ const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
 // Typos in EE+'s text, corrected everywhere they occur.
 const TYPOS = [
   [/predicrtive/g, 'predictive'], [/post-dischage/g, 'post-discharge'], [/Goldsetein/g, 'Goldstein'], [/symptoamtic/g, 'symptomatic'],
-  [/data from give countries/g, 'data from five countries'], [/\badmited\b/g, 'admitted'], [/; ; /g, '; '], [/\bptatients\b/g, 'patients']
+  [/data from give countries/g, 'data from five countries'], [/\badmited\b/g, 'admitted'], [/; ; /g, '; '], [/\bptatients\b/g, 'patients'], [/na–ve/g, 'naïve']
 ];
 const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
