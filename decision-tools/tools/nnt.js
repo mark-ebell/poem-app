@@ -17,7 +17,7 @@ module.exports = {
     const pt = a.txWith / nt, pc = a.cWith / nc, arr = pc - pt, rrr = pc ? arr / pc : 0;
     const lines = [`Adverse outcome: ${Math.round(100 * pt)}% with treatment, ${Math.round(100 * pc)}% in controls`];
     if (arr === 0) return { headline: 'No difference between the groups', lines };
-    const n = Math.round(Math.abs(1 / arr)), benefit = arr > 0;
+    const benefit = arr > 0, n = benefit ? Math.ceil(1 / arr - 1e-9) : Math.round(-1 / arr); // NNT rounds up, by convention
     lines.push(`${benefit ? 'Relative risk reduction' : 'Relative risk increase'}: ${(100 * Math.abs(rrr)).toFixed(2)}%`,
       `${benefit ? 'Absolute risk reduction' : 'Absolute risk increase'}: ${(100 * Math.abs(arr)).toFixed(2)}%`,
       benefit ? `You would have to give ${n} patients the intervention instead of the comparison, for the duration of the study, to prevent one adverse outcome.`

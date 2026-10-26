@@ -14,11 +14,11 @@ module.exports = {
     { type: 'heading', label: 'Check if male' },
     { id: 'male', type: 'check', label: 'Male', ee: 'IDC_CHECKBOX_1' }
   ],
-  footnote: 'Ideal body weight: 50 kg (men) or 45 kg (women) plus 2.3 kg per inch over 5 feet.',
+  footnote: 'Ideal body weight: 50 kg (men) or 45.5 kg (women) plus 2.3 kg per inch over 5 feet.',
   compute(a) {
     const inches = a.units === 0 ? a.heightIn : a.heightCm / 2.54;
     const kg = a.units === 0 ? a.weightLb / 2.2 : a.weightKg, m = inches * 0.0254;
-    const ibwKg = (a.male ? 50 : 45) + 2.3 * (inches - 60);
+    const ibwKg = (a.male ? 50 : 45.5) + 2.3 * (inches - 60);
     return { headline: `Ideal body weight: ${Math.round(ibwKg * 2.2)} lb / ${Math.round(ibwKg)} kg`, lines: [`BMI: ${(kg / (m * m)).toFixed(1)} kg/m²`] };
   }
 };
