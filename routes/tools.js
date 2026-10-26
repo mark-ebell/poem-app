@@ -1,4 +1,4 @@
-// The Decision Tools tab: clinical decision rules and risk scores (from the former
+// The Risk Scores tab: clinical decision rules and risk scores (from the former
 // Essential Evidence Plus decision support tools). Each tool is a JSON file in
 // decision-tools/, read when the server starts:
 //

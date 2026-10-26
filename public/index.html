@@ -124,7 +124,7 @@
       <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential<br>Diagnosis</button>
       <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">History &amp;<br>Physical</button>
       <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Diagnostic<br>Tests</button>
-      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools">Decision<br>Tools</button>
+      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools">Risk<br>Scores</button>
     </nav>
 
     <div id="tabUpload" class="tab-panel">
@@ -440,12 +440,12 @@
       </div>
     </div>
 
-    <!-- Decision Tools: clinical decision rules and risk scores (public/tools.js) -->
+    <!-- Risk Scores: clinical decision rules and risk scores (public/tools.js) -->
     <div id="tabTools" class="tab-panel hidden">
       <section class="card" id="toolsListCard">
-        <h2>Decision Tools</h2>
-        <p class="hint">Clinical decision rules and risk scores. Choose a tool, answer each item, and see the score, the risk group and the probability of the outcome.</p>
-        <label>Find a tool
+        <h2>Risk Scores</h2>
+        <p class="hint">Clinical decision rules and risk scores. Choose one, answer each item, and see the score, the risk group and, where the study provides it, the probability of the outcome.</p>
+        <label>Find a risk score
           <input type="search" id="toolsFilter" placeholder="Type part of a name, e.g. HEART or pneumonia" autocomplete="off">
         </label>
         <div id="toolsList" class="tools-list"></div>

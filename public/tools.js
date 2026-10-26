@@ -1,4 +1,4 @@
-// The Decision Tools tab: clinical decision rules and risk scores. Each tool is a data
+// The Risk Scores tab: clinical decision rules and risk scores. Each tool is a data
 // file (decision-tools/*.json, described in routes/tools.js); this page draws any of
 // them the same way: the items to answer, the score as it adds up, the risk group, and
 // the probability of the outcome from the group's likelihood ratio and a pretest
@@ -30,7 +30,7 @@ function renderList() {
   const box = $('toolsList');
   box.textContent = '';
   const shown = tools.filter(t => !q || `${t.title} ${t.subtitle} ${t.category}`.toLowerCase().includes(q));
-  if (!shown.length) { box.appendChild(el('p', 'hint', q ? 'No tool matches.' : 'No tools yet.')); return; }
+  if (!shown.length) { box.appendChild(el('p', 'hint', q ? 'No risk score matches.' : 'No risk scores yet.')); return; }
   const groups = new Map();
   for (const t of shown) (groups.get(t.category) || groups.set(t.category, []).get(t.category)).push(t);
   for (const [category, list] of [...groups].sort((a, b) => a[0].localeCompare(b[0]))) {
@@ -84,7 +84,7 @@ const range = b => (b.min === b.max ? String(b.min) : `${b.min}–${b.max}`);
 function renderTool() {
   const card = $('toolCard');
   card.textContent = '';
-  const back = el('button', 'link-btn tool-back', '← All decision tools');
+  const back = el('button', 'link-btn tool-back', '← All risk scores');
   back.type = 'button';
   back.addEventListener('click', closeTool);
   card.appendChild(back);
