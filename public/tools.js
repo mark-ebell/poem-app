@@ -180,7 +180,7 @@ function renderTool() {
   let group = null;
   const adjust = [];
   for (const input of tool.inputs) {
-    if (input.type === 'heading') { group = el('fieldset', 'tool-item tool-checks'); group.appendChild(el('legend', '', input.label)); card.appendChild(group); continue; }
+    if (input.type === 'heading') { group = el('fieldset', 'tool-item tool-checks'); if (input.id) group.dataset.for = input.id; group.appendChild(el('legend', '', input.label)); card.appendChild(group); continue; }
     if (input.type === 'text') { card.appendChild(el('p', 'hint', input.text)); continue; }
     if (input.adjust) { adjust.push(input); continue; }
     if (input.type === 'check') {
