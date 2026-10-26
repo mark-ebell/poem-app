@@ -64,12 +64,19 @@ export async function openTool(id) {
     return;
   }
   tool = data.tool;
-  answers = {};
+  answers = defaults();
   renderTool();
+  changed();
   $('toolsListCard').classList.add('hidden');
   $('toolCard').classList.remove('hidden');
   window.scrollTo(0, 0);
-  score();
+}
+
+// Choices start on their default option (the first unless the tool says otherwise); checks unchecked.
+function defaults() {
+  const a = {};
+  for (const i of tool.inputs) if (i.type === 'choice') a[i.id] = i.default || 0;
+  return a;
 }
 
 function closeTool() {
@@ -102,15 +109,13 @@ function choiceList(input) {
   const s = el('select', 'tool-select');
   s.setAttribute('aria-label', input.label);
   s.dataset.input = input.id;
-  const blank = el('option', '', 'Choose…');
-  blank.value = '';
-  s.appendChild(blank);
   input.options.forEach((o, k) => {
     const opt = el('option', '', o.points !== undefined ? `${o.label} (${signed(o.points)})` : o.label);
     opt.value = String(k);
     s.appendChild(opt);
   });
-  s.addEventListener('change', () => { if (s.value === '') delete answers[input.id]; else answers[input.id] = Number(s.value); changed(); });
+  s.value = String(answers[input.id] || 0);
+  s.addEventListener('change', () => { answers[input.id] = Number(s.value); changed(); });
   return s;
 }
 
@@ -205,9 +210,9 @@ function renderTool() {
 
   card.appendChild(aboutSection());
 
-  const clear = el('button', 'secondary', 'Clear answers');
+  const clear = el('button', 'secondary', 'Reset answers');
   clear.type = 'button';
-  clear.addEventListener('click', () => { answers = {}; renderTool(); score(); });
+  clear.addEventListener('click', () => { answers = defaults(); renderTool(); changed(); });
   card.appendChild(clear);
 }
 
@@ -284,7 +289,7 @@ function showResult(r) {
     for (const p of r.problems) box.appendChild(el('p', 'tool-problem', p));
   } else if (r.missing) {
     const n = r.missing.length;
-    box.appendChild(el('p', 'tool-score-wait', `Answer ${n === 1 ? `“${r.missing[0]}”` : `${n} more items`} to see the result.`));
+    box.appendChild(el('p', 'tool-score-wait', `Enter ${n === 1 ? r.missing[0].toLowerCase() : `${r.missing.slice(0, -1).join(', ').toLowerCase()} and ${r.missing[n - 1].toLowerCase()}`} to see the result.`));
   } else {
     if (r.headline) box.appendChild(el('div', 'tool-band', r.headline));
     for (const l of r.lines || []) {

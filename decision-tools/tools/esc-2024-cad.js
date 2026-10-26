@@ -22,7 +22,8 @@ module.exports = {
   question: 'For an adult with symptoms suggesting chronic coronary syndrome, how likely is obstructive coronary artery disease?',
   inputs: [
     { id: 'sex', type: 'choice', label: 'Sex', options: [{ label: 'Male' }, { label: 'Female' }] },
-    { id: 'age', type: 'choice', label: 'Age', options: [{ label: '30 to 39' }, { label: '40 to 49' }, { label: '50 to 59' }, { label: '60 to 69' }, { label: '70 to 80' }] },
+    { id: 'age', type: 'number', label: 'Age', unit: 'years', min: 30, max: 80, step: 1, default: 40,
+      note: 'The model covers ages 30 to 80, in 10-year groups.' },
     { id: 'pain', type: 'choice', label: 'Chest pain', options: [
       { label: 'All 3 features (typical), 3 points' }, { label: '2 features (atypical), 2 points' }, { label: '0 or 1 feature, or no chest pain, 0 to 1 point' }],
       note: 'Features: (1) constricting discomfort in the front of the chest or in the neck, jaw, shoulder or arm; (2) brought on by physical exertion; (3) relieved by rest or nitrates within 5 minutes.' },
@@ -35,12 +36,13 @@ module.exports = {
     const group = symptoms <= 1 ? 0 : symptoms - 1;
     const n = RISK_FACTORS.filter(([id]) => a[id]).length;
     const rf = n <= 1 ? 0 : n <= 3 ? 1 : 2;
-    const p = LIKELIHOOD[a.sex === 0 ? 'male' : 'female'][group][rf][a.age];
+    const ageGroup = Math.min(4, Math.floor((a.age - 30) / 10)); // 30-39 .. 60-69, and 70-80
+    const p = LIKELIHOOD[a.sex === 0 ? 'male' : 'female'][group][rf][ageGroup];
     const cat = p <= 5 ? [1, 'Very low likelihood (5% or less)'] : p <= 15 ? [2, 'Low likelihood (more than 5% to 15%)'] : [3, 'Moderate likelihood (more than 15% to 50%)'];
     return {
       level: cat[0],
       headline: `Likelihood of obstructive CAD: ${p}%`,
-      lines: [cat[1], `Symptom score ${symptoms <= 1 ? '0 to 1' : symptoms}; ${n} risk factor${n === 1 ? '' : 's'}.`],
+      lines: [cat[1], `Age group ${['30 to 39', '40 to 49', '50 to 59', '60 to 69', '70 to 80'][ageGroup]}; symptom score ${symptoms <= 1 ? '0 to 1' : symptoms}; ${n} risk factor${n === 1 ? '' : 's'}.`],
       note: 'The model gives at most 45%. The guideline adjusts this likelihood with clinical findings (e.g. ECG changes, left ventricular dysfunction, peripheral artery disease) and, where available, the coronary artery calcium score.'
     };
   },

@@ -54,8 +54,8 @@ function readAnswers(t, raw) {
     const v = raw ? raw[i.id] : undefined;
     if (i.type === 'choice') {
       const k = Number(v);
-      if (v !== undefined && v !== null && v !== '' && Number.isInteger(k) && k >= 0 && k < i.options.length) a[i.id] = k;
-      else if (!i.optional) missing.push(i.label);
+      // An unanswered choice takes its default (its first option unless the tool says otherwise).
+      a[i.id] = v !== undefined && v !== null && v !== '' && Number.isInteger(k) && k >= 0 && k < i.options.length ? k : (i.default || 0);
     } else if (i.type === 'check') {
       a[i.id] = v === true;
     } else if (i.type === 'number') {

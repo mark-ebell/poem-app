@@ -8,12 +8,13 @@
 //     evidence: { ... } }         // fields overriding those from EE+ (ee-evidence.json), e.g. a corrected reference
 //
 // Inputs (each may have `note`, shown under it, and `ee`, the EE+ control it came from):
-//   { id, type: 'choice', label, options: [{ label, points? }] }   answer: the option's index
+//   { id, type: 'choice', label, options: [{ label, points? }], default? }   answer: the option's index (default: the first)
 //   { id, type: 'check', label, points? }                          answer: true / false
 //   { id, type: 'number', label, unit?, min, max, step? }          answer: a number in range
 //   { id, type: 'number', ..., default, adjust: true }             shown under the result (e.g. a pretest probability)
 //   { type: 'heading', label }  /  { type: 'text', text }         layout only
-// Choices and numbers must be answered (unless `optional: true`); checks default to false.
+// Choices start on their default option and checks unchecked, so a result shows at once;
+// numbers must be entered (unless they have a `default`, or `optional: true`).
 //
 // A result: { score?: { value, max?, label }, level?: 1 (lowest risk) .. 4, headline?: 'Low risk',
 //   lines?: [string | { label, value }], table?: { head: [], rows: [[]], current?: row index }, note? }

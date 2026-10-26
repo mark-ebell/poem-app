@@ -226,7 +226,7 @@ The **Risk Scores** tab (editors and readers) holds clinical decision rules and 
 
 Each tool is a module in `decision-tools/tools/`: its questions (choices, checkboxes, numbers, with points where it is a point score), a `compute` function, and any corrections to its evidence. The format is described at the top of `decision-tools/lib.js`. Each tool's reference, population, validation and PubMed link come from `decision-tools/ee-evidence.json`, made from the archive by `node scripts/ee-evidence.js`. The page gets a tool's questions and sends the answers to `POST /api/tools/:id/score`, so the formulas stay on the server. Opening a tool counts toward a reader's calculator look-ups.
 
-Format decisions: answers start blank, so an unanswered item never counts as normal (unticked checkboxes count as no); no new management recommendations (EE+'s own wording is kept); a pretest probability is shown, and can be changed, only where the study gives likelihood ratios.
+Format decisions: every choice starts on its first option and checkboxes unchecked, so a result shows at once, as in EE+ (tools that need a number typed in, such as age or heart rate, show their result only once it is entered); no new management recommendations (EE+'s own wording is kept); a pretest probability is shown, and can be changed, only where the study gives likelihood ratios.
 
 Each converted tool is checked against the original EE+ tool, run in jsdom with EE+'s own code, on every combination of answers (or 1,500 random ones): see `../ee-decision-tools-archive/harness/`. Errors found in EE+ and other questions are listed for review in the "Risk Scores review" doc for each category.
 
