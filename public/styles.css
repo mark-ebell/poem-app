@@ -452,6 +452,12 @@ body.modal-open { overflow: hidden; }
 .brand { display: flex; align-items: center; gap: 12px; }
 .mascot { display: block; width: 70px; height: 73px; }
 .mascot-login { margin: 0 auto 8px; }
+/* Phones: a smaller dog and title, so they don't run into the sign-in links. */
+@media (max-width: 480px) {
+  header .brand { gap: 8px; min-width: 0; }
+  header .mascot { width: 50px; height: 52px; }
+  header h1 { font-size: 1.25rem; }
+}
 
 /* --- Upload help and page footer --- */
 .upload-help { margin: 0 0 14px; font-size: 0.9rem; line-height: 1.5; }

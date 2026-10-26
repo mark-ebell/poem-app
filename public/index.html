@@ -118,18 +118,18 @@
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse<br>POEMs</button>
       <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search<br>POEMs</button>
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence<br>Summary</button>
-      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Chapters</button>
-      <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit">Edit Chapter</button>
-      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential</button>
-      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">H &amp; P</button>
-      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Tests</button>
-      <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit</button>
+      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Topic<br>Chapters</button>
+      <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit">Edit<br>Chapter</button>
+      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential<br>Diagnosis</button>
+      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">History &amp;<br>Physical</button>
+      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Diagnostic<br>Tests</button>
+      <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit<br>POEMs</button>
     </nav>
 
     <div id="tabUpload" class="tab-panel">
       <section class="card">
         <h2>Upload a research article (PDF)</h2>
-        <p class="upload-help">Upload a research study (PDF) and press the button to generate the first draft of a POEM (Patient Oriented Evidence that Matters). The text of the article is sent to Claude, an AI assistant, which writes the draft; this can take up to a minute. The draft then opens in the Edit tab, where you can review and edit it, choose the POET and publication date, and save it to the repository. PDFs that are scanned images without a text layer cannot be read.</p>
+        <p class="upload-help">Upload a research study (PDF) and press the button to generate the first draft of a POEM (Patient Oriented Evidence that Matters). The text of the article is sent to Claude, an AI assistant, which writes the draft; this can take up to a minute. The draft then opens in the Edit POEMs tab, where you can review and edit it, choose the POET and publication date, and save it to the repository. PDFs that are scanned images without a text layer cannot be read.</p>
         <input type="file" id="pdfInput" accept="application/pdf">
         <p id="fileStatus" class="hint"></p>
         <button id="generateBtn" disabled>Generate POEM</button>
@@ -248,7 +248,7 @@
           <label>Topic
             <input type="search" id="evidenceTopic" placeholder="Enter a word or phrase" autocomplete="off">
           </label>
-          <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, brackets to group them, quotes for an exact phrase, and * for the rest of a word, as on the Search tab. Example: <code>"atrial fibrillation" AND dabigatran</code></p>
+          <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, brackets to group them, quotes for an exact phrase, and * for the rest of a word, as on the Search POEMs tab. Example: <code>"atrial fibrillation" AND dabigatran</code></p>
           <div class="field-row evidence-fields">
             <label>Limit POEMs search to:
               <select id="evidencePoemYears">

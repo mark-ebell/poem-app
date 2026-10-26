@@ -64,7 +64,7 @@ Then open http://localhost:3000. This only listens on your Mac — it is not rea
 ## Using it
 
 1. Sign in with your username (e.g. `ebell`) and password. First-time sign-in requires you to set a new password immediately.
-2. The app has five tabs: **Upload**, **Browse**, **Search**, **Evidence** and **Edit**.
+2. The tabs are **Upload POEMs**, **Browse POEMs**, **Search POEMs**, **Evidence Summary**, **Topic Chapters**, **Edit Chapter**, **Differential Diagnosis**, **History & Physical**, **Diagnostic Tests** and **Edit POEMs** (each name on two lines). Below, they are often called by their first word (Upload, Browse, Search, Evidence, Chapters, Edit), with H & P for History & Physical and Tests for Diagnostic Tests.
 3. On **Upload**, upload a PDF of the research article and click **Generate POEM** (can take up to a minute) — this switches you to the **Edit** tab with the draft loaded.
 4. On the **Edit** tab, each element of the POEM has its own field: **Title**, **POET** (author), **Publication date**, **Reference**, **Clinical question**, **Allocation**, **Funding**, **Study design**, **Population and setting**, **Age group**, **Category** (stored as `supertype`, the internal term), **Level of evidence**, **PubMed ID**, **Synopsis** and **Bottom-line**. A generated draft fills these in for you. POET, publication date and title are required before you can save. The **POEM number** is assigned automatically (a unique 6-digit number) the first time a POEM is saved. The **PubMed URL** is built from the PubMed ID (enter `NA` if there is no PubMed entry).
    - The **Synopsis** and **Bottom-line** are rich-text boxes: **B** / **I** / **U** / **x²** (superscript) / **x₂** (subscript) apply formatting to selected text, and **🔗 Link** turns selected text into a hyperlink (asks for a URL). The other fields are plain text or drop-down lists.
@@ -222,7 +222,7 @@ Before sending to real subscribers, the email needs an unsubscribe link and a su
 
 ## Diagnostic calculators
 
-The **Differential** (differential diagnosis), **H & P** (signs and symptoms) and **Tests** (diagnostic tests) tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
+The **Differential Diagnosis**, **History & Physical** (signs and symptoms) and **Diagnostic Tests** tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:
 
 1. Edit the spreadsheet(s) in the `Diagnostic App` folder.
 2. Run `python3 build/build.py` there. It rebuilds the standalone calculator page and the iOS app's copy, and writes `calculator-data.json` into this folder.
