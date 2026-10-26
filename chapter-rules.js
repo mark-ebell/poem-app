@@ -2,7 +2,7 @@
 // of its answer (SCHEMA). Change RULES_VERSION whenever these change: every review records
 // the version and model that produced it, so results can be traced and compared.
 const MODEL = 'claude-opus-5-5';
-const RULES_VERSION = '2026-10-26';
+const RULES_VERSION = '2026-10-26b';
 
 const SCHEMA = {
   type: 'object',
@@ -60,7 +60,7 @@ Rules:
 - action "replace_text": in bullet "item", replace "find" (an exact phrase copied from that bullet, plain words only, not including citation numbers or SORT ratings, short enough to be unique) with "replace".
 - action "insert_item": add a new bullet with "text" to part "part", after bullet "item" (or with "item" empty to add it at the end of the part).
 - action "add_table_row": add a row to the table in part "part"; "text" holds the row's cells separated by " | ", with the citation in the last cell (e.g. "Family history of atopy | 2.1 (1.6 to 2.8) {E4}"). In the Risk factors table the cells are the risk factor and the odds ratio (95% CI); "sort" is "none".
-- Cite several sources together with nothing between them, e.g. {E3}{E7} or [12][13]; they are shown as "12, 13".
+- Cite several sources together with nothing between them, e.g. {E3}{E7} or [12][13]; they are shown as "12 13".
 - "sort" is the SORT rating for a new recommendation ("none" if it is not a recommendation). Put citations inside "text" or "replace", not in "sort".
 - "evidence" lists the evidence ids and existing reference numbers the change relies on (e.g. ["E3", "[12]"]).
 - "note" says briefly why, for the editor (e.g. "Superseded by the 2025 JTFPP guideline update").

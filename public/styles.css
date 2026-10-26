@@ -613,7 +613,6 @@ ol.ddx-ranked li:last-child { border-bottom: none; }
 .chapter a, .info-modal-body a { color: var(--ch-link, #2b7bb9); }
 .chapter a.cite { font-weight: 700; text-decoration: none; padding: 0 2px; }
 .chapter a.cite:hover { text-decoration: underline; }
-.chapter a.cite.cite-more::after { content: ','; color: var(--text); font-weight: 400; display: inline-block; }
 .chapter a.cite-poem { color: #1e7e4f; }
 .sort-tag { background: none; border: none; color: var(--ch-blue); font-weight: 700; padding: 0 2px; font-size: inherit; cursor: pointer; white-space: nowrap; }
 .sort-tag:hover:not(:disabled) { background: none; text-decoration: underline; }
