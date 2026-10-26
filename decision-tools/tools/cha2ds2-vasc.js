@@ -18,8 +18,7 @@ const tool = module.exports = {
   ],
   points: { label: 'CHA2DS2-VASc', max: 9 },
   compute(a) {
-    return pointsOf(tool, a) < 2
-      ? { level: 1, headline: 'Low risk', lines: ['Consider no treatment or aspirin.'] }
-      : { level: 3, headline: 'High risk', lines: ['Recommend anticoagulation.'] };
+    // Risk only: EE+'s treatment advice (aspirin or anticoagulation) was removed as outdated (Mark Ebell, 2026-10-26).
+    return pointsOf(tool, a) < 2 ? { level: 1, headline: 'Low risk' } : { level: 3, headline: 'High risk' };
   }
 };
