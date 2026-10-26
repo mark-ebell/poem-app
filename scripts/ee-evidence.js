@@ -16,7 +16,8 @@ const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
 const TYPOS = [
   [/predicrtive/g, 'predictive'], [/post-dischage/g, 'post-discharge'], [/Goldsetein/g, 'Goldstein'], [/symptoamtic/g, 'symptomatic'],
   [/data from give countries/g, 'data from five countries'], [/\badmited\b/g, 'admitted'], [/; ; /g, '; '], [/\bptatients\b/g, 'patients'], [/na–ve/g, 'naïve'],
-  [/\boccurrec\b/g, 'occurred'], [/\bPredicing\b/g, 'Predicting'], [/& gt;=\s?/g, '≥ '], [/& gt;\s?/g, '> '], [/& lt;=\s?/g, '≤ '], [/& lt;\s?/g, '< '], [/\bmena age\b/g, 'mean age'], [/\bconsiousness\b/g, 'consciousness']
+  [/\boccurrec\b/g, 'occurred'], [/\bPredicing\b/g, 'Predicting'], [/& gt;=\s?/g, '≥ '], [/& gt;\s?/g, '> '], [/& lt;=\s?/g, '≤ '], [/& lt;\s?/g, '< '], [/\bmena age\b/g, 'mean age'], [/\bconsiousness\b/g, 'consciousness'],
+  [/\bunderoing\b/g, 'undergoing'], [/\bpopulationin\b/g, 'population in'], [/1990\., from/g, '1990, from'], [/hospital\.55%/g, 'hospital. 55%'], [/\bStroke Sale\b/g, 'Stroke Scale'], [/Trialists\? Collaborative/g, "Trialists' Collaborative"]
 ];
 const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
