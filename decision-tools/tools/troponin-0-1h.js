@@ -13,7 +13,7 @@ module.exports = {
   question: 'For an adult in the ED with symptoms suspicious for acute MI, what do the 0- and 1-hour high-sensitivity troponin I values show?',
   inputs: [
     { id: 't0', type: 'choice', label: 'Initial (0-hour) high-sensitivity troponin I', options: T0.map(o => ({ label: o.label })) },
-    { id: 'delta', type: 'choice', label: 'Increase 1 hour later', ee: 'ddl2', options: [{ label: 'Below 4 ng/L' }, { label: '4 to 14 ng/L' }, { label: '15 ng/L or more' }] }
+    { id: 'delta', type: 'choice', label: 'Increase 1 hour later', options: [{ label: 'Below 4 ng/L' }, { label: '4 to 14 ng/L' }, { label: '15 ng/L or more' }] }
   ],
   footnote: 'Rule-out: 0-hour below 4 ng/L, or below 5 ng/L with a 1-hour rise below 4 ng/L. Rule-in: 0-hour 50 ng/L or more, or a 1-hour rise of 15 ng/L or more. Otherwise: observation.',
   compute(a) {
