@@ -12,6 +12,12 @@ const archive = process.argv[2] || path.join(__dirname, '..', '..', 'ee-decision
 const { tools } = JSON.parse(fs.readFileSync(archive, 'utf8'));
 
 const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
+// Typos in EE+'s text, corrected everywhere they occur.
+const TYPOS = [
+  [/predicrtive/g, 'predictive'], [/post-dischage/g, 'post-discharge'], [/Goldsetein/g, 'Goldstein'], [/symptoamtic/g, 'symptomatic'],
+  [/data from give countries/g, 'data from five countries'], [/\badmited\b/g, 'admitted'], [/; ; /g, '; '], [/\bptatients\b/g, 'patients']
+];
+const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
 
 function evidenceOf(t) {
@@ -39,6 +45,7 @@ const result = {};
 for (const t of tools) {
   const ev = evidenceOf(t) || {};
   const pmid = (t.pubmed || []).map(u => (/list_uids=(\d+)/.exec(u) || /pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/.exec(u) || [])[1]).find(Boolean) || null;
+  for (const k of ['reference', 'population', 'validation', 'comment']) if (ev[k]) ev[k] = fixTypos(ev[k]);
   result[t.id] = { title: clean(t.title || t.listTitle), categories: t.categories, pmid, ...ev };
 }
 const out = path.join(__dirname, '..', 'decision-tools', 'ee-evidence.json');

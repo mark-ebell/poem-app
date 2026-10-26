@@ -15,6 +15,9 @@
 //   { type: 'heading', label }  /  { type: 'text', text }         layout only
 // Choices start on their default option and checks unchecked, so a result shows at once;
 // numbers must be entered (unless they have a `default`, or `optional: true`).
+// A choice with `required: true` has no preset and must be answered (e.g. the steps of an
+// algorithm). An input with `when: a => …` is asked only when that is true of the answers
+// so far (a branching algorithm); otherwise it is hidden and ignored.
 //
 // A result: { score?: { value, max?, label }, level?: 1 (lowest risk) .. 4, headline?: 'Low risk',
 //   lines?: [string | { label, value }], table?: { head: [], rows: [[]], current?: row index }, note? }

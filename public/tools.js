@@ -85,7 +85,7 @@ export async function openTool(id) {
 // Choices start on their default option (the first unless the tool says otherwise); checks unchecked.
 function defaults() {
   const a = {};
-  for (const i of tool.inputs) if (i.type === 'choice') a[i.id] = i.default || 0;
+  for (const i of tool.inputs) if (i.type === 'choice' && !i.required) a[i.id] = i.default || 0;
   return a;
 }
 
@@ -185,12 +185,15 @@ function renderTool() {
     if (input.adjust) { adjust.push(input); continue; }
     if (input.type === 'check') {
       if (!group) { group = el('fieldset', 'tool-item tool-checks'); card.appendChild(group); }
-      group.appendChild(checkButton(input));
+      const cb = checkButton(input);
+      cb.dataset.for = input.id;
+      group.appendChild(cb);
       if (input.note) group.appendChild(el('p', 'hint tool-note', input.note));
       continue;
     }
     group = null;
     const set = el('fieldset', 'tool-item');
+    set.dataset.for = input.id;
     if (input.type === 'choice') {
       set.appendChild(el('legend', '', input.label));
       set.appendChild(input.options.length > 5 ? choiceList(input) : choiceButtons(input));
@@ -285,6 +288,9 @@ async function score() {
 }
 
 function showResult(r) {
+  // Questions that do not apply on this path of an algorithm are hidden.
+  const hidden = new Set(r.hidden || []);
+  $('toolCard').querySelectorAll('[data-for]').forEach(e => e.classList.toggle('hidden', hidden.has(e.dataset.for)));
   const box = $('toolResult');
   box.textContent = '';
   box.className = `tool-result${r.level ? ` level-${r.level}` : ''}`;
@@ -298,8 +304,7 @@ function showResult(r) {
   if (r.problems) {
     for (const p of r.problems) box.appendChild(el('p', 'tool-problem', p));
   } else if (r.missing) {
-    const n = r.missing.length;
-    box.appendChild(el('p', 'tool-score-wait', `Enter ${n === 1 ? r.missing[0].toLowerCase() : `${r.missing.slice(0, -1).join(', ').toLowerCase()} and ${r.missing[n - 1].toLowerCase()}`} to see the result.`));
+    box.appendChild(el('p', 'tool-score-wait', r.wait || 'Answer the remaining items to see the result.'));
   } else {
     if (r.headline) box.appendChild(el('div', 'tool-band', r.headline));
     for (const l of r.lines || []) {
