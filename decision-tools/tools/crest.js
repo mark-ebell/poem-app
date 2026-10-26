@@ -6,7 +6,7 @@ const tool = module.exports = {
   id: 'crest',
   eeId: 564,
   title: 'CREST model',
-  subtitle: 'Circulatory etiology death after resuscitation from cardiac arrest',
+  subtitle: 'Circulatory etiology death after resuscitation from cardiac arrest in patients without STEMI',
   question: 'For a comatose patient resuscitated from cardiac arrest without ST-elevation MI, how likely is death from a circulatory cause?',
   inputs: [
     { type: 'heading', label: 'Check all that apply' },

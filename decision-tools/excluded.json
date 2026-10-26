@@ -1,8 +1,18 @@
 {
+  "2": {
+    "title": "Non-cardiac surgery risk (Detsky score)",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
   "4": {
     "title": "Treadmill interpretation (Duke score)",
     "decision": "retired",
     "reason": "Outdated (Mark Ebell, 2026-10-26)."
+  },
+  "17": {
+    "title": "AAA surgery mortality risk",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
   },
   "19": {
     "title": "Angioplasty complication rate (Kimmel)",
@@ -23,6 +33,11 @@
     "title": "Hypercalcemia: probability of malignancy",
     "decision": "held",
     "reason": "EE+ units cannot be right (with albumin in g/dL every patient scores as malignancy); held until the Gibb 1990 units are checked."
+  },
+  "29": {
+    "title": "Vascular surgery risk",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
   },
   "33": {
     "title": "Screening: cardiac risk profile (Framingham data)",
@@ -54,8 +69,18 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "182": {
+    "title": "Prognosis after ortho surgery (POSSUM)",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
   "194": {
     "title": "Angioplasty complication rate (Resnic)",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "195": {
+    "title": "Post-operative pneumonia risk",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
@@ -94,6 +119,11 @@
     "decision": "held",
     "reason": "2004 treatment recommendations, not a risk score; awaiting a decision."
   },
+  "290": {
+    "title": "CABG risk score",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
   "299": {
     "title": "Angioplasty complication rate (CADILLAC)",
     "decision": "retired",
@@ -104,6 +134,16 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "314": {
+    "title": "Pre-op evaluation (ACC/AHA)",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "334": {
+    "title": "PAOD diagnosis (Doppler)",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
   "336": {
     "title": "Pretest probability of CAD (Diamond-Forrester)",
     "decision": "retired",
@@ -111,6 +151,16 @@
   },
   "352": {
     "title": "Angioplasty mortality (Michigan score)",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "408": {
+    "title": "Atrial fib risk post-op CABG",
+    "decision": "retired",
+    "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "413": {
+    "title": "Peripheral vascular disease prognosis",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
