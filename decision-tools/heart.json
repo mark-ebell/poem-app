@@ -1,0 +1,50 @@
+{
+  "id": "heart",
+  "eeId": 543,
+  "title": "HEART score",
+  "subtitle": "Acute coronary syndrome in adults with chest pain",
+  "category": "Cardiovascular: Acute MI/unstable angina",
+  "question": "In an adult with chest pain in the emergency department, how likely is acute coronary syndrome (ACS)?",
+  "inputs": [
+    { "id": "history", "label": "History", "type": "choice", "options": [
+      { "label": "Incompatible with ACS", "points": 0 },
+      { "label": "Potentially compatible with ACS", "points": 1 },
+      { "label": "Strongly suggestive of ACS", "points": 2 } ] },
+    { "id": "ecg", "label": "ECG", "type": "choice", "options": [
+      { "label": "Normal", "points": 0 },
+      { "label": "Nonspecific repolarization abnormalities", "points": 1 },
+      { "label": "ST depression or transient ST elevation", "points": 2 } ] },
+    { "id": "age", "label": "Age", "type": "choice", "options": [
+      { "label": "Under 45 years", "points": 0 },
+      { "label": "45 to 65 years", "points": 1 },
+      { "label": "Over 65 years", "points": 2 } ] },
+    { "id": "risk", "label": "Risk factors", "type": "choice",
+      "note": "Risk factors: currently treated diabetes, current or recent (less than 1 month) smoker, diagnosed hypertension, diagnosed hyperlipidemia, family history of CAD, and obesity.",
+      "options": [
+      { "label": "None", "points": 0 },
+      { "label": "1 or 2 risk factors", "points": 1 },
+      { "label": "3 or more risk factors, or known CAD", "points": 2 } ] },
+    { "id": "troponin", "label": "Troponin", "type": "choice", "options": [
+      { "label": "Normal", "points": 0 },
+      { "label": "1 to 3 times the upper limit of normal", "points": 1 },
+      { "label": "More than 3 times the upper limit of normal", "points": 2 } ] }
+  ],
+  "score": { "type": "sum", "label": "HEART score", "max": 10 },
+  "outcome": "ACS",
+  "pretest": { "default": 13, "source": "the overall rate of ACS in the validation studies" },
+  "bands": [
+    { "min": 0, "max": 3, "label": "Low risk", "level": 1, "lr": 0.2 },
+    { "min": 4, "max": 4, "label": "Average risk", "level": 2, "lr": 0.8 },
+    { "min": 5, "max": 6, "label": "High risk", "level": 3, "lr": 2.4 },
+    { "min": 7, "max": 10, "label": "Very high risk", "level": 4, "lr": 13 }
+  ],
+  "evidence": {
+    "population": "Systematic review of 4 validation studies.",
+    "validation": "Quality score 1 (scale 1 to 4): test set from a distinct population.",
+    "prevalence": "13%",
+    "comment": "Likelihood ratios ranged from 0.20 for low risk to 13 for very high risk; the likelihood of ACS ranged from 2.9% to 66%."
+  },
+  "references": [
+    { "citation": "Fanaroff AC, Rymer JA, Goldstein SA, et al. Does this patient with chest pain have acute coronary syndrome? The Rational Clinical Examination systematic review. JAMA. 2015;314(18):1955-1965.", "pmid": "26547467" }
+  ]
+}

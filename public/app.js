@@ -3,6 +3,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs
 import { loadCalculators, openCalculatorTab, openCalculatorAt } from './calculator.js';
 import { loadChapters } from './chapters.js';
 import { loadChapterEditor } from './chapter-editor.js';
+import { loadTools } from './tools.js';
 
 const els = {};
 [
@@ -13,7 +14,7 @@ const els = {};
   'newPasswordRule', 'browseAuthorField', 'readerPrintNote', 'evidenceHelp',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
+  'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
@@ -268,11 +269,11 @@ els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.t
 function switchTab(name) {
   const panels = {
     upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence,
-    chapters: els.tabChapters, chapteredit: els.tabChapterEdit, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, edit: els.tabEdit
+    chapters: els.tabChapters, chapteredit: els.tabChapterEdit, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, tools: els.tabTools, edit: els.tabEdit
   };
   const buttons = {
     upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence,
-    chapters: els.tabBtnChapters, chapteredit: els.tabBtnChapterEdit, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, edit: els.tabBtnEdit
+    chapters: els.tabBtnChapters, chapteredit: els.tabBtnChapterEdit, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, tools: els.tabBtnTools, edit: els.tabBtnEdit
   };
   for (const panel of new Set(Object.values(panels))) panel.classList.toggle('hidden', panel !== panels[name]);
   for (const [key, button] of Object.entries(buttons)) button.classList.toggle('active', key === name);
@@ -295,6 +296,7 @@ els.tabBtnChapterEdit.addEventListener('click', () => switchTab('chapteredit'));
 els.tabBtnDdx.addEventListener('click', () => switchTab('ddx'));
 els.tabBtnSigns.addEventListener('click', () => switchTab('signs'));
 els.tabBtnTests.addEventListener('click', () => switchTab('tests'));
+els.tabBtnTools.addEventListener('click', () => switchTab('tools'));
 
 let extractedText = '';
 let currentDocId = null;
@@ -1878,6 +1880,7 @@ async function init(user) {
   showApp(user);
   applyRole();
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
+  loadTools(api).catch(err => console.error('Decision tools failed to load', err));
   loadChapters(api, {
     showPoemByNumber: num => showPoemPopup(null, { highlight: false, path: `/poems/number/${encodeURIComponent(num)}/view` }),
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
