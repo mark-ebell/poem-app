@@ -15,7 +15,8 @@ const clean = s => String(s || '').replace(/\s+/g, ' ').trim();
 // Typos in EE+'s text, corrected everywhere they occur.
 const TYPOS = [
   [/predicrtive/g, 'predictive'], [/post-dischage/g, 'post-discharge'], [/Goldsetein/g, 'Goldstein'], [/symptoamtic/g, 'symptomatic'],
-  [/data from give countries/g, 'data from five countries'], [/\badmited\b/g, 'admitted'], [/; ; /g, '; '], [/\bptatients\b/g, 'patients'], [/na–ve/g, 'naïve']
+  [/data from give countries/g, 'data from five countries'], [/\badmited\b/g, 'admitted'], [/; ; /g, '; '], [/\bptatients\b/g, 'patients'], [/na–ve/g, 'naïve'],
+  [/\boccurrec\b/g, 'occurred'], [/\bPredicing\b/g, 'Predicting'], [/& gt;=\s?/g, '≥ '], [/& gt;\s?/g, '> '], [/& lt;=\s?/g, '≤ '], [/& lt;\s?/g, '< '], [/\bmena age\b/g, 'mean age'], [/\bconsiousness\b/g, 'consciousness']
 ];
 const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
