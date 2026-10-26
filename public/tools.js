@@ -209,6 +209,7 @@ function renderTool() {
   result.id = 'toolResult';
   result.setAttribute('aria-live', 'polite');
   card.appendChild(result);
+  card.appendChild(el('p', 'tool-disclaimer', DISCLAIMER));
 
   for (const input of adjust) {
     const row = el('div', 'tool-pretest');
@@ -228,6 +229,12 @@ function renderTool() {
   clear.addEventListener('click', () => { answers = defaults(); renderTool(); changed(); });
   card.appendChild(clear);
 }
+
+// Shown under the result of every score, never folded away.
+const DISCLAIMER = 'For clinicians, as an aid to clinical judgment, not a substitute for it. ' +
+  'Each score was developed in particular populations and settings, and its estimates may not apply to every patient. ' +
+  'Check the answers and the population studied (About this score) before acting on a result. ' +
+  'This is not a diagnosis or a treatment recommendation, and not for use by patients to make their own care decisions.';
 
 function aboutSection() {
   const ev = tool.evidence || {};

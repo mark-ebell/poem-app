@@ -64,6 +64,9 @@ function publicTool(t) {
 }
 
 // The answers, checked against the tool's inputs. Returns { a, missing: [labels], problems: [messages] }.
+// Lower-case a label for use mid-sentence, keeping abbreviations (HDL, BP, eGFR, NT-proBNP).
+const lowerWords = label => label.replace(/\S+/g, w => (/^[A-Z][a-z]*$/.test(w) ? w.toLowerCase() : w));
+
 function readAnswers(t, raw) {
   const a = {}, missing = [], problems = [], hidden = [];
   for (const i of t.inputs) {
@@ -99,7 +102,7 @@ function score(t, raw) {
   if (problems.length) return { problems, score: partial, hidden };
   if (missing.length) {
     const numbers = t.inputs.filter(i => i.type === 'number' && missing.includes(i.label)).length === missing.length;
-    return { missing, wait: numbers ? `Enter ${joinList(missing.map(m => m.toLowerCase()))} to see the result.` : `Answer: ${missing[0]}`, score: partial, hidden };
+    return { missing, wait: numbers ? `Enter ${joinList(missing.map(lowerWords))} to see the result.` : `Answer: ${missing[0]}`, score: partial, hidden };
   }
   const r = t.compute(a) || {};
   if (partial && !r.score) r.score = partial;
