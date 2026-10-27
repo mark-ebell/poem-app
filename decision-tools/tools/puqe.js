@@ -1,4 +1,5 @@
-// Modified PUQE score: severity of nausea and vomiting of pregnancy (Lacasse 2008; EE+ 632). Bands as in EE+.
+// Modified PUQE score: severity of nausea and vomiting of pregnancy (Lacasse 2008; EE+ 632). Bands as
+// published (mild 6 or less, moderate 7 to 11, severe 12 or more; EE+ used 7 to 12 and 13 or more).
 const { pointsOf } = require('../lib');
 
 const tool = module.exports = {
@@ -16,6 +17,6 @@ const tool = module.exports = {
   points: { label: 'PUQE score', max: 15 },
   compute(a) {
     const s = pointsOf(tool, a);
-    return s <= 6 ? { level: 1, headline: 'Mild nausea and vomiting' } : s <= 12 ? { level: 2, headline: 'Moderate nausea and vomiting' } : { level: 4, headline: 'Severe nausea and vomiting' };
+    return s <= 6 ? { level: 1, headline: 'Mild nausea and vomiting' } : s <= 11 ? { level: 2, headline: 'Moderate nausea and vomiting' } : { level: 4, headline: 'Severe nausea and vomiting' };
   }
 };

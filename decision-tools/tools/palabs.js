@@ -13,7 +13,7 @@ const tool = module.exports = {
     { id: 'rlq', type: 'check', label: 'Maximal pain in the right lower quadrant', points: 4, ee: 'cb2' },
     { id: 'wbc', type: 'check', label: 'White cell count 10,000/µL or more', points: 4, ee: 'cb3' },
     { id: 'nausea', type: 'check', label: 'Nausea', points: 3, ee: 'cb1' },
-    { id: 'calprotectin', type: 'check', label: 'Calprotectin 0.50 ng/dL or more (units as on EE+)', points: 3, ee: 'cb6' },
+    { id: 'calprotectin', type: 'check', label: 'Calprotectin 0.50 ng/mL or more', points: 3, ee: 'cb6' },
     { id: 'crp', type: 'check', label: 'C-reactive protein 1.0 mg/dL or more', points: 2, ee: 'cb5' }
   ],
   points: { label: 'PALabS score', max: 23 },
