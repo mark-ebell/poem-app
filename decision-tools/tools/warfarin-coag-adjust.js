@@ -1,5 +1,5 @@
 // COAG clinical algorithm: warfarin dose adjustment on days 4 to 5 (Gage 2008; Kimmel 2013; EE+ 508).
-const { SIZE, bsaOf } = require('./warfarin-coag-start');
+const { SIZE, bsaOf, halfMg } = require('./warfarin-coag-start');
 
 module.exports = {
   id: 'warfarin-coag-adjust',
@@ -24,6 +24,6 @@ module.exports = {
   compute(a) {
     const x = 2.81602 - 0.0059 * a.age + 0.07123 * a.black + 0.1765 * bsaOf(a) - 0.16759 * a.dm - 0.2284 * a.stroke - 0.11137 * a.amio - 0.25487 * a.fluva
       + 0.27815 * 2.5 - 0.76679 * Math.log(a.inr) + 0.03471 * a.dose2 + 0.03047 * a.dose3 + 0.01929 * a.dose4;
-    return { headline: `Suggested dose: ${(Math.exp(x) / 7).toFixed(1)} mg/day` };
+    return { headline: `Suggested dose: ${halfMg(Math.exp(x) / 7)} mg/day` };
   }
 };

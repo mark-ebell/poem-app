@@ -1,4 +1,6 @@
 // COAG clinical algorithm: initial warfarin dose for a target INR of 2 to 3 (Gage 2008; Kimmel 2013; EE+ 507).
+// Doses are rounded to the nearest 0.5 mg, a dose that can be given (Mark Ebell, 2026-10-27).
+const halfMg = mg => (Math.round(mg * 2) / 2).toFixed(1);
 const bsaOf = a => { const cm = a.units === 0 ? a.heightCm : a.heightIn * 2.54, kg = a.units === 0 ? a.weightKg : a.weightLb / 2.2; return Math.pow(kg, 0.425) * Math.pow(cm, 0.725) / 139.2; };
 const SIZE = [
   { id: 'units', type: 'choice', label: 'Units', ee: 'UNITS', options: [{ label: 'Centimeters and kilograms' }, { label: 'Inches and pounds' }] },
@@ -23,9 +25,9 @@ module.exports = {
     { id: 'amio', type: 'check', label: 'Taking amiodarone', ee: 'AMIO' },
     { id: 'vte', type: 'check', label: 'Warfarin is for DVT or PE', ee: 'DVT' }
   ],
-  SIZE, bsaOf,
+  SIZE, bsaOf, halfMg,
   compute(a) {
     const x = 0.613 - 0.0075 * a.age + 0.156 * a.black + 0.108 * a.smoker + 0.425 * bsaOf(a) - 0.257 * a.amio + 0.216 * 2.5 + 0.0784 * a.vte;
-    return { headline: `Suggested initial dose: ${Math.exp(x).toFixed(1)} mg/day`, lines: [`Body surface area ${bsaOf(a).toFixed(2)} m²`] };
+    return { headline: `Suggested initial dose: ${halfMg(Math.exp(x))} mg/day`, lines: [`Body surface area ${bsaOf(a).toFixed(2)} m²`] };
   }
 };
