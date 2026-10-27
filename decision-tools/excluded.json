@@ -169,10 +169,25 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "160": {
+    "title": "Hospital d/c prognosis for elderly",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): duplicates the Walter bedside score (#583), which is kept."
+  },
+  "164": {
+    "title": "10 year mortality for various conditions",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): mortality rates from the 1990s."
+  },
   "170": {
     "title": "AIDS progression likelihood",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): early HAART era."
+  },
+  "171": {
+    "title": "CPR prognosis (inpatient)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): newer in-hospital arrest scores (GO-FAR, #497)."
   },
   "172": {
     "title": "Abdominal pain diagnosis (men)",
@@ -303,6 +318,11 @@
     "title": "SLE diagnostic criteria",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): replaced by the 2019 EULAR/ACR criteria (#620)."
+  },
+  "234": {
+    "title": "APACHE 2 score",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): APACHE II data are from 1979 to 1981; newer ICU scores exist."
   },
   "237": {
     "title": "Fibrosis (severe) in NASH",
@@ -464,6 +484,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): a 2001 protocol, not a calculator; later trials found no benefit."
   },
+  "324": {
+    "title": "Cooper Clinic Risk Index (15 yr mortality)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): men only, from a self-selected clinic population."
+  },
   "334": {
     "title": "PAOD diagnosis (Doppler)",
     "decision": "retired",
@@ -478,6 +503,11 @@
     "title": "Ovarian cancer risk (SEER)",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): a 1994 SEER analysis."
+  },
+  "342": {
+    "title": "Out-of-hospital CPR prognosis",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): overlaps the BLS termination rule (#369)."
   },
   "352": {
     "title": "Angioplasty mortality (Michigan score)",
@@ -508,6 +538,11 @@
     "title": "Probability of severe fibrosis in hepatitis C",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "403": {
+    "title": "In-hospital mortality of elderly patients (MEWS)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-27): NEWS2 is more widely used."
   },
   "408": {
     "title": "Atrial fib risk post-op CABG",
