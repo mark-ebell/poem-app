@@ -1,4 +1,5 @@
-// Liver and lung recurrence after colon cancer resection (EE+ 607). Points as on EE+.
+// Liver and lung recurrence after colon cancer resection (Nagata 2019; EE+ 607). Points as on EE+; Mark Ebell
+// checked the paper: 4 points for moderately and 3 for poorly differentiated tumors is correct (2026-10-27).
 module.exports = {
   id: 'crc-organ-recurrence',
   eeId: 607,
