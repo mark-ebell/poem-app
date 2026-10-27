@@ -1,4 +1,5 @@
-// Colorectal cancer in symptomatic patients, FIT-based model (Cubiella 2016; EE+ 558).
+// COLONPREDICT: colorectal cancer in symptomatic patients, FIT-based model (Cubiella 2016; EE+ 558).
+// EE+ gave the hemoglobin points to the wrong bands; per the paper, under 10 g/dL adds 1.561 and 10 to 12 adds 0.588.
 module.exports = {
   id: 'cubiella-fit',
   eeId: 558,
@@ -21,7 +22,7 @@ module.exports = {
   ],
   compute(a) {
     const s = 0.789 * a.bleeding + 0.536 * a.habits + 2.694 * a.mass - 1.283 * a.benign + 2.831 * a.fit + 1.511 * a.cea - 2.073 * a.colonoscopy
-      + 0.813 * a.male - 0.849 * a.aspirin + 0.04 * a.age + [0, 1.561, 0.588][a.hb];
+      + 0.813 * a.male - 0.849 * a.aspirin + 0.04 * a.age + [1.561, 0.588, 0][a.hb];
     const v = Number(s.toFixed(2));
     const r = v < 3.5 ? [1, 'Low risk', '0.2%', '7.1%'] : v < 5.6 ? [2, 'Intermediate risk', '4.4%', '21%'] : [4, 'High risk', '41%', '58%'];
     return { score: { value: v, label: 'Score' }, level: r[0], headline: `${r[1]}: ${r[2]} colorectal cancer`, lines: [`Advanced neoplasia: ${r[3]}`] };
