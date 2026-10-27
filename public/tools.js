@@ -146,6 +146,13 @@ function numberField(input) {
   const wrap = el('label', 'tool-number');
   wrap.appendChild(el('span', 'tool-number-label', input.label));
   const n = el('input');
+  if (input.type === 'date') {
+    n.type = 'date';
+    n.dataset.input = input.id;
+    n.addEventListener('input', () => { if (n.value === '') delete answers[input.id]; else answers[input.id] = n.value; changed(true); });
+    wrap.appendChild(n);
+    return wrap;
+  }
   n.type = 'number';
   n.inputMode = 'decimal';
   if (input.min !== undefined) n.min = String(input.min);
@@ -197,7 +204,7 @@ function renderTool() {
     if (input.type === 'choice') {
       set.appendChild(el('legend', '', input.label));
       set.appendChild(input.options.length > 5 ? choiceList(input) : choiceButtons(input));
-    } else if (input.type === 'number') {
+    } else if (input.type === 'number' || input.type === 'date') {
       set.appendChild(numberField(input));
     }
     if (input.note) set.appendChild(el('p', 'hint tool-note', input.note));

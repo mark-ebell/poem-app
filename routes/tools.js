@@ -82,6 +82,9 @@ function readAnswers(t, raw) {
       else a[i.id] = i.default || 0;
     } else if (i.type === 'check') {
       a[i.id] = v === true;
+    } else if (i.type === 'date') {
+      if (typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && !isNaN(Date.parse(v))) a[i.id] = v;
+      else missing.push(i.label);
     } else if (i.type === 'number') {
       const n = v === '' || v === null || v === undefined ? NaN : Number(v);
       if (isFinite(n)) {
@@ -101,7 +104,7 @@ function score(t, raw) {
   const partial = t.points ? { value: pointsOf(t, a), max: t.points.max, label: t.points.label } : null;
   if (problems.length) return { problems, score: partial, hidden };
   if (missing.length) {
-    const numbers = t.inputs.filter(i => i.type === 'number' && missing.includes(i.label)).length === missing.length;
+    const numbers = t.inputs.filter(i => (i.type === 'number' || i.type === 'date') && missing.includes(i.label)).length === missing.length;
     return { missing, wait: numbers ? `Enter ${joinList(missing.map(lowerWords))} to see the result.` : `Answer: ${missing[0]}`, score: partial, hidden };
   }
   const r = t.compute(a) || {};

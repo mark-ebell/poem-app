@@ -12,6 +12,7 @@
 //   { id, type: 'check', label, points? }                          answer: true / false
 //   { id, type: 'number', label, unit?, min, max, step? }          answer: a number in range
 //   { id, type: 'number', ..., default, adjust: true }             shown under the result (e.g. a pretest probability)
+//   { id, type: 'date', label }                                   answer: 'YYYY-MM-DD'
 //   { type: 'heading', label }  /  { type: 'text', text }         layout only (a heading with an id and `when`
 //                                                              is hidden, with its checkboxes, when that is false)
 // Choices start on their default option and checks unchecked, so a result shows at once;
