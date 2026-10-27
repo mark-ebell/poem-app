@@ -26,7 +26,9 @@ const TYPOS = [
   [/\brefleces\b/g, 'reflexes'], [/\b([Dd])elerium\b/g, '$1elirium'], [/Robison JT< Inouye/g, 'Robison JT, Inouye'], [/\blongitudineal\b/g, 'longitudinal'], [/Guillan-Barre/g, 'Guillain-Barré'],
   [/\bvalication\b/g, 'validation'], [/had at last one headache/g, 'had at least one headache'], [/Main limitations is/g, 'The main limitation is'], [/Age and Aging/g, 'Age and Ageing'],
   [/Ann Intern med\b/g, 'Ann Intern Med'], [/Crit Care med\b/g, 'Crit Care Med'], [/^81% specific, 75% specific\.$/, '81% sensitive, 75% specific.'],
-  [/ ([A-Z]{1,3})< ([A-Z])/g, ' $1, $2'], [/\bmetasases\b/g, 'metastases'], [/Risk Assessment Sore\b/g, 'Risk Assessment Score'], [/\bKatigiri\b/g, 'Katagiri'], [/Eaton dB,/g, 'Eaton DB,']
+  [/ ([A-Z]{1,3})< ([A-Z])/g, ' $1, $2'], [/\bmetasases\b/g, 'metastases'], [/Risk Assessment Sore\b/g, 'Risk Assessment Score'], [/\bKatigiri\b/g, 'Katagiri'], [/Eaton dB,/g, 'Eaton DB,'],
+  [/\bpredominantl\b/g, 'predominantly'], [/\bpaticipated\b/g, 'participated'], [/\bvalidaion\b/g, 'validation'], [/et al\.Development/g, 'et al. Development'],
+  [/ward\.Excluded/g, 'ward. Excluded'], [/ordered\)\.Mean/g, 'ordered). Mean'], [/in hospital cardiac arrest resuscitations\. JAMA 2001; 284:/g, 'in-hospital cardiac arrest resuscitations. JAMA 2001; 285:']
 ];
 const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
