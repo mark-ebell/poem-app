@@ -22,7 +22,10 @@ const TYPOS = [
   [/\blethergy\b/g, 'lethargy'], [/from a the Geisinger/g, 'from the Geisinger'], [/\bKupperman N\b/g, 'Kuppermann N'], [/\bpuruent\b/g, 'purulent'], [/Moore M, Et al/g, 'Moore M, et al'], [/\bIn J Clin Pract\b/g, 'Int J Clin Pract'],
   [/\bveruss\b/g, 'versus'], [/Cararette SM, Jaglad SB/g, 'Cadarette SM, Jaglal SB'], [/Jagdal SB/g, 'Jaglal SB'], [/Rinkins PE/g, 'Rinkens PE'], [/\bvanStaa TP/g, 'van Staa TP'], [/\bYalcmkaya F/g, 'Yalçınkaya F'],
   [/\bArthitis\b/g, 'Arthritis'], [/Predicting rapid recover from/g, 'Predicting rapid recovery from'], [/\btheintensity\b/g, 'the intensity'], [/& amp;\s?/g, '& '], [/suspected SLE>/g, 'suspected SLE.'],
-  [/Not demographic data/g, 'No demographic data'], [/\btemperomandibular\b/g, 'temporomandibular']
+  [/Not demographic data/g, 'No demographic data'], [/\btemperomandibular\b/g, 'temporomandibular'],
+  [/\brefleces\b/g, 'reflexes'], [/\b([Dd])elerium\b/g, '$1elirium'], [/Robison JT< Inouye/g, 'Robison JT, Inouye'], [/\blongitudineal\b/g, 'longitudinal'], [/Guillan-Barre/g, 'Guillain-Barré'],
+  [/\bvalication\b/g, 'validation'], [/had at last one headache/g, 'had at least one headache'], [/Main limitations is/g, 'The main limitation is'], [/Age and Aging/g, 'Age and Ageing'],
+  [/Ann Intern med\b/g, 'Ann Intern Med'], [/Crit Care med\b/g, 'Crit Care Med'], [/^81% specific, 75% specific\.$/, '81% sensitive, 75% specific.']
 ];
 const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
