@@ -2,6 +2,7 @@
 module.exports = {
   id: 'sjs-ten',
   eeId: 628,
+  categories: ['Skin'], // moved from Infectious disease and Perinatal and infant (Mark Ebell, 2026-10-27)
   title: 'Stevens-Johnson syndrome / TEN diagnosis',
   subtitle: 'SJS/TEN vs mimics in suspected cases',
   question: 'For a patient with suspected Stevens-Johnson syndrome or toxic epidermal necrolysis, how likely is it?',

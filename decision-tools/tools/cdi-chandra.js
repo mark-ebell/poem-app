@@ -1,4 +1,4 @@
-// Hospital-onset C. difficile infection (Chandra 2012; EE+ 500). Wording as in EE+.
+// Hospital-onset C. difficile infection (Chandra 2012; EE+ 500). Wording as in EE+, except the treatment example (metronidazole on EE+; changed by Mark Ebell, 2026-10-27).
 const { pointsOf } = require('../lib');
 
 const tool = module.exports = {
@@ -19,6 +19,6 @@ const tool = module.exports = {
   points: { label: 'Score', max: 16 },
   compute(a) {
     return pointsOf(tool, a) < 9 ? { level: 1, headline: 'Not at increased risk for C. difficile infection' }
-      : { level: 3, headline: 'At increased risk for C. difficile infection; consider treating (e.g. metronidazole)' };
+      : { level: 3, headline: 'At increased risk for C. difficile infection; consider treating (e.g. fidaxomicin or oral vancomycin)' };
   }
 };
