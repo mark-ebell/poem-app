@@ -17,6 +17,8 @@ const tool = module.exports = {
   ],
   points: { label: 'STESS', max: 6 },
   compute(a) {
-    return pointsOf(tool, a) >= 3 ? { level: 4, headline: 'High risk: 25% mortality' } : { level: 1, headline: 'Low risk: 4% mortality' };
-  }
+    const s = pointsOf(tool, a), lines = ['In an external validation in 171 ICU patients (18% died), the best cut-off was 4 or more points (AUC 0.74).'];
+    return s >= 3 ? { level: 4, headline: 'High risk: 25% mortality', lines } : { level: 1, headline: 'Low risk: 4% mortality', lines };
+  },
+  evidence: { comment: 'External validation (Sutter R, Kaplan PW, Rüegg S. Independent external validation of the status epilepticus severity score. Crit Care Med. 2013;41(12):e475-9; PubMed 23982031): 171 consecutive adult ICU patients with status epilepticus, mean age 64, 18% mortality. AUC 0.744 for death, with an optimal cut-off of 4 or more (rather than 3), and good calibration.' }
 };

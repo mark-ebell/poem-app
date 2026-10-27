@@ -1,4 +1,4 @@
-// AWOL score: delirium in hospitalized patients (Douglas 2013; EE+ 574). Wording as in EE+.
+// AWOL score: delirium in hospitalized patients (Douglas 2013; EE+ 574). Wording as in EE+, without "such as CAM" (Mark Ebell, 2026-10-27).
 module.exports = {
   id: 'awol',
   eeId: 574,
@@ -15,6 +15,6 @@ module.exports = {
   compute(a) {
     const n = a.age + a.world + a.orientation + a.illness;
     return n <= 1 ? { score: { value: n, max: 4, label: 'AWOL score' }, level: 1, headline: 'Low risk of developing delirium: 10 of 261 (3.8%)', lines: ['Reassess in 2 to 3 days or if clinically warranted.'] }
-      : { score: { value: n, max: 4, label: 'AWOL score' }, level: 3, headline: 'High risk of developing delirium: 10 of 40 (25%)', lines: ['Institute an anti-delirium protocol such as CAM.'] };
+      : { score: { value: n, max: 4, label: 'AWOL score' }, level: 3, headline: 'High risk of developing delirium: 10 of 40 (25%)', lines: ['Institute an anti-delirium protocol.'] };
   }
 };
