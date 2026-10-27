@@ -28,7 +28,8 @@ const TYPOS = [
   [/Ann Intern med\b/g, 'Ann Intern Med'], [/Crit Care med\b/g, 'Crit Care Med'], [/^81% specific, 75% specific\.$/, '81% sensitive, 75% specific.'],
   [/ ([A-Z]{1,3})< ([A-Z])/g, ' $1, $2'], [/\bmetasases\b/g, 'metastases'], [/Risk Assessment Sore\b/g, 'Risk Assessment Score'], [/\bKatigiri\b/g, 'Katagiri'], [/Eaton dB,/g, 'Eaton DB,'],
   [/\bpredominantl\b/g, 'predominantly'], [/\bpaticipated\b/g, 'participated'], [/\bvalidaion\b/g, 'validation'], [/et al\.Development/g, 'et al. Development'],
-  [/ward\.Excluded/g, 'ward. Excluded'], [/ordered\)\.Mean/g, 'ordered). Mean'], [/in hospital cardiac arrest resuscitations\. JAMA 2001; 284:/g, 'in-hospital cardiac arrest resuscitations. JAMA 2001; 285:']
+  [/ward\.Excluded/g, 'ward. Excluded'], [/ordered\)\.Mean/g, 'ordered). Mean'], [/in hospital cardiac arrest resuscitations\. JAMA 2001; 284:/g, 'in-hospital cardiac arrest resuscitations. JAMA 2001; 285:'],
+  [/who appeared toxic or head rectal temp/g, 'who appeared toxic or had rectal temp'], [/Acad Emerge Med/g, 'Acad Emerg Med']
 ];
 const fixTypos = s => TYPOS.reduce((t, [re, to]) => t.replace(re, to), s);
 const decode = s => s.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/�/g, '–');
