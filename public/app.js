@@ -1543,7 +1543,7 @@ function poemTable(data) {
     const titleCell = document.createElement('td');
     const link = document.createElement('span');
     link.className = 'library-title-link';
-    highlightInto(link, doc.title || 'Untitled POEM', data.terms, data.whole);
+    link.textContent = doc.title || 'Untitled POEM';
     link.addEventListener('click', () => showPoemPopup(doc.id));
     titleCell.appendChild(link);
     if (els.searchExcerpt.checked) {
@@ -1554,7 +1554,7 @@ function poemTable(data) {
         const b = document.createElement('b');
         b.textContent = `${label}: `;
         snip.appendChild(b);
-        highlightInto(snip, text, data.terms, data.whole);
+        snip.appendChild(document.createTextNode(text));
         titleCell.appendChild(snip);
       }
     }
@@ -1579,7 +1579,7 @@ function itemList(items, terms, titleOf, detailOf, open) {
     link.className = 'library-title-link';
     link.tabIndex = 0;
     link.setAttribute('role', 'link');
-    highlightInto(link, titleOf(item), terms, true);
+    link.textContent = titleOf(item);
     link.addEventListener('click', () => open(item));
     link.addEventListener('keydown', e => { if (e.key === 'Enter') open(item); });
     li.appendChild(link);
@@ -1587,7 +1587,7 @@ function itemList(items, terms, titleOf, detailOf, open) {
     if (detail) {
       const d = document.createElement('div');
       d.className = 'search-snippet';
-      highlightInto(d, detail, terms, true);
+      d.textContent = detail;
       li.appendChild(d);
     }
     ul.appendChild(li);
