@@ -1329,7 +1329,7 @@
    "Respiratory disease: Pneumonia"
   ],
   "pmid": "10515416",
-  "reference": "Ewig S, Kleinfeld, Bauer T, et al. Comparative validation of prognostic rules for community-acquired pneumonia in an elderly population. Eur Respir J 1998; 14: 370-5.",
+  "reference": "Ewig S, Kleinfeld, Bauer T, et al. Comparative validation of prognostic rules for community-acquired pneumonia in an elderly population. Eur Respir J 1999; 14: 370-5.",
   "population": "168 patients over age 65 admitted with community-acquired pneumonia. Mean age 78, 66 male/99 female.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 10,
@@ -1487,7 +1487,7 @@
    "Respiratory disease: Pneumonia"
   ],
   "pmid": "12361446",
-  "reference": "Fischer JE, Steiner F, Zucol F, et al. Use of simple heuristics to target macrolide prescription in children with community-acquired pneumonia. Arch Pediatr Med 2002; 156: 1005-8.",
+  "reference": "Fischer JE, Steiner F, Zucol F, et al. Use of simple heuristics to target macrolide prescription in children with community-acquired pneumonia. Arch Pediatr Adolesc Med 2002; 156: 1005-8.",
   "population": "Children age 1 month to 16 years with community acquired pneumonia presenting to ED and walk-in clinic. Ref standard = paired antibody testing.",
   "validation": "Quality score 3 (1-4): Split-sample",
   "prevalence": 10,
@@ -1697,7 +1697,7 @@
    "Respiratory disease: Bronchiolitis and croup"
   ],
   "pmid": "7581752",
-  "reference": "Opavsky MA, Stephens D, Want EE, et al. Testing models predicting severity of respiratory syncytial virus infection on the PICNIC RSV database. Arch Pediatr Adolesc Med 1995; 149: 1217-20.",
+  "reference": "Opavsky MA, Stephens D, Wang EE, et al. Testing models predicting severity of respiratory syncytial virus infection on the PICNIC RSV database. Arch Pediatr Adolesc Med 1995; 149: 1217-20.",
   "population": "Canadian children hospitalized with RSV in 1993 at 7 tertiary care hospitals.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": null,
@@ -2522,7 +2522,7 @@
    "Respiratory disease: Bronchiolitis and croup"
   ],
   "pmid": "7802193",
-  "reference": "Shortland G, Warner J, Dearden A, et al. Validation of a croup score and its use in triaging children with croup. Anesthesia 1994; 49: 903-6.",
+  "reference": "Shortland G, Warner J, Dearden A, et al. Validation of a croup score and its use in triaging children with croup. Anaesthesia 1994; 49: 903-6.",
   "population": "Children admitted to the hospital with croup in Wales were studied to validate this previously developed (Syracuse, NY) score.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 8,
@@ -2718,7 +2718,7 @@
   "prevalence": 35,
   "developed": 92,
   "validated": 92,
-  "comment": "Each subjected evaluated by 5 different physicians, so they had 92 x 5 = 350 data pairs."
+  "comment": "Each subject evaluated by 5 different physicians, so they had 92 x 5 = 350 data pairs."
  },
  "276": {
   "title": "Unstable angina prognosis (Piombo)",
@@ -3284,7 +3284,7 @@
    "Respiratory disease: Other"
   ],
   "pmid": "8769501",
-  "reference": "Vives M, Porcel JM, deVera MV, et al. A study of Light's criteria and possible modifications for distinguishing excudate from transudative pleural effusions. Chest 1996; 109: 1503-7.",
+  "reference": "Vives M, Porcel JM, deVera MV, et al. A study of Light's criteria and possible modifications for distinguishing exudate from transudative pleural effusions. Chest 1996; 109: 1503-7.",
   "population": "230 consecutive patients with pleural effusion at a Spanish hospital. Reference standard was final clinical diagnosis. Mean age 56, 121 men/74 women, 80% had exudate.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 80,
@@ -4443,7 +4443,7 @@
   "prevalence": null,
   "developed": 228,
   "validated": 228,
-  "comment": "Developed using CART. CXR (+) plus Hct > 45% = anthrax, or CXR(1) + altered mental status = anthrax."
+  "comment": "Developed using CART. CXR (+) plus Hct > 45% = anthrax, or CXR (−) plus altered mental status = anthrax."
  },
  "407": {
   "title": "Pneumonia in wheezing children",
@@ -5158,7 +5158,7 @@
   ],
   "pmid": "22030803",
   "reference": "Schmickl CN, et al. Decision support tool for early differential diagnosis of acute lung injury and cardiogenic pulmonary edema in medical critically ill patients. Chest 2012; 141: 43-50",
-  "population": "Derived in Olmsted County residents admitted to ICU with PaO2/FIO2 ratio < 300 and bilateral infiltrates. Validated in referral population from ouside Olmsted County.",
+  "population": "Derived in Olmsted County residents admitted to ICU with PaO2/FIO2 ratio < 300 and bilateral infiltrates. Validated in referral population from outside Olmsted County.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 63,
   "developed": 332,
@@ -5606,7 +5606,7 @@
    "Respiratory disease: Pneumonia"
   ],
   "pmid": "22978725",
-  "reference": "Labarere J, Schuetz P, Renaud B, et al. Validation of a clinical prediction model for early admission to the intensive care unit of patients with pneumonia. Acad Emerg Med 2012; 19: 993-2003.",
+  "reference": "Labarere J, Schuetz P, Renaud B, et al. Validation of a clinical prediction model for early admission to the intensive care unit of patients with pneumonia. Acad Emerg Med 2012; 19: 993-1003.",
   "population": "Validated in 850 patients with community-acquired pneumonia who were part of a Swiss RCT. Group had mean age of 67 years, 59% male, 13% cancer, 21% renal dysfunction, 30% COPD.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 6.3,
@@ -5769,7 +5769,7 @@
    "Respiratory disease: Asthma and COPD"
   ],
   "pmid": "21527510",
-  "reference": "Schorr AF, Sun X, Johannes RS, et al. Validation of a novel risk score for severity of illness in acute exacerbations of COPD. Chest 2011; 140: 1177-83",
+  "reference": "Shorr AF, Sun X, Johannes RS, et al. Validation of a novel risk score for severity of illness in acute exacerbations of COPD. Chest 2011; 140: 1177-83",
   "population": "Included adults > 40 years with discharge diagnosis of COPD exacerbation. Data came from large registry of clinical data from 177 hospitals. The median age was 72 years and 46% were men. Outcome predicted was pooled outcome of death or need for mechanical ventilation.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 11,
@@ -6869,7 +6869,7 @@
   ],
   "pmid": "17215313",
   "reference": "Bont J, et al. A prediction rule for elderly primary-care patients with lower respiratory tract infections. Eur Respir J 2007; 29: 969-75",
-  "population": "Developed in a cohort of elderly Dutch patients with a diagnosis of pneumonia, acute bronchitis, or acute exacerbation of COPD. Validated in a. national cohort of Dutch GP patients.",
+  "population": "Developed in a cohort of elderly Dutch patients with a diagnosis of pneumonia, acute bronchitis, or acute exacerbation of COPD. Validated in a national cohort of Dutch GP patients.",
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 7.3,
   "developed": 3166,
@@ -7584,7 +7584,7 @@
   "validation": "Quality score 1 (1-4): Test set from a distinct population",
   "prevalence": 80,
   "validated": 5859,
-  "comment": "Pulmonary complications included respiratory failure, suspected pulmonary infection, pleural effusion, atelectasis, pneumothorax, bronchospasm or aspiration pneumoniat."
+  "comment": "Pulmonary complications included respiratory failure, suspected pulmonary infection, pleural effusion, atelectasis, pneumothorax, bronchospasm or aspiration pneumonia."
  },
  "644": {
   "title": "Risk of acute kidney injury after non-cardiac surgery",
