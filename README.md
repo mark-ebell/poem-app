@@ -205,17 +205,18 @@ The pieces: `chapter-store.js` (files, saved versions, reviews), `chapter-plan.j
 
 ## Daily InfoPOEM email
 
-Each weekday one POEM is emailed to subscribers (for now only ebell@msu.edu, while testing). When a POEM becomes **Published** (saved in the Edit tab or brought in by the monthly Word import) it is given a random weekday in its publication month that no other POEM has, today or later; only the months listed in `DAILY_POEM_MONTHS` take part (for now `2026-10`). From 6 a.m. US Eastern on that day the server sends it, once, to the addresses in `DAILY_POEM_RECIPIENTS` (comma-separated). A POEM taken out of Published, or moved to another month, gives up a day it has not yet been sent on.
+Each weekday one POEM is emailed to subscribers (for now only ebell@msu.edu, while testing). When a POEM becomes **Published** (saved in the Edit tab or brought in by the monthly Word import) it is given a random weekday in its publication month that no other POEM has, today or later; only the months listed in `DAILY_POEM_MONTHS` take part (for now `2026-10`). From 6 a.m. US Eastern on that day the server sends it, once, in two editions that are identical except for the logo: the AAFP edition to the addresses in `DAILY_POEM_RECIPIENTS` and the Virtual Hallway edition to those in `DAILY_POEM_VH_RECIPIENTS` (each comma-separated, ebell@msu.edu if unset). Each edition's sends are recorded separately (`daily_sends` for AAFP, `daily_edition_sends` for the others), so one failing does not hold up or resend the other. The editions are listed in `EDITIONS` in `daily-poem.js`. A POEM taken out of Published, or moved to another month, gives up a day it has not yet been sent on.
 
-The email's subject is "Daily InfoPOEM: <title>". It has the AAFP logo at the top left and "Powered by InfoRetriever" with the dog at the top right, then the POEM as readers see it (no POET or POEM number) with the Clinical question, Bottom-Line and Reference first, and the disclaimer and a link to InfoRetriever.org at the bottom. Its images are served from `public/email/` on the live site; that folder is exempt from the site's same-origin image policy and crawler filter so mail programs and their image proxies can load them.
+The email's subject is "Daily InfoPOEM: <title>". It has the AAFP logo (or, in the Virtual Hallway edition, the Virtual Hallway logo) at the top left and "Powered by InfoRetriever" with the dog at the top right, then the POEM as readers see it (no POET or POEM number) with the Clinical question, Bottom-Line and Reference first, and the disclaimer and a link to InfoRetriever.org at the bottom. Its images are served from `public/email/` on the live site; that folder is exempt from the site's same-origin image policy and crawler filter so mail programs and their image proxies can load them.
 
 From the command line (on Render, the service's **Shell** tab):
 
 ```
 npm run daily-poem -- schedule            # which POEM goes out on which day, and which have been sent
-npm run daily-poem -- send-test           # send today's POEM now, marked [Test]
+npm run daily-poem -- send-test           # send today's POEM now in both editions, marked [Test]
 npm run daily-poem -- send-test 369649    # send a particular POEM (by POEM number) now
-npm run daily-poem -- preview 369649      # write the email to daily-poem-preview.html
+npm run daily-poem -- send-test 369649 vh # just the Virtual Hallway edition (or aafp)
+npm run daily-poem -- preview 369649      # write daily-poem-preview.html and daily-poem-preview-vh.html
 ```
 
 Before sending to real subscribers, the email needs an unsubscribe link and a subscriber list.

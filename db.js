@@ -163,6 +163,15 @@ db.exec(`
     recipients TEXT NOT NULL,
     sent_at TEXT NOT NULL
   );
+  -- Sends of the other Daily InfoPOEM editions (e.g. Virtual Hallway); the AAFP edition uses daily_sends.
+  CREATE TABLE IF NOT EXISTS daily_edition_sends (
+    edition TEXT NOT NULL,
+    send_date TEXT NOT NULL,
+    poem_id TEXT NOT NULL,
+    recipients TEXT NOT NULL,
+    sent_at TEXT NOT NULL,
+    PRIMARY KEY (edition, send_date)
+  );
 `);
 createIndexes();
 db.exec('CREATE INDEX IF NOT EXISTS idx_poems_daily_date ON poems(daily_date)');
