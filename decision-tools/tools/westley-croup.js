@@ -27,6 +27,6 @@ const tool = module.exports = {
     population: 'Children with croup in a trial of racemic epinephrine, where the score was introduced to measure severity.',
     validation: 'Widely used to grade croup severity in trials and guidelines; not developed as a prediction rule.',
     prevalence: null, developed: null, validated: null,
-    comment: 'The severity groups are those in common use (see, e.g., Bjornson CL, Johnson DW. Croup. Lancet 2008;371:329-39); they are not given in the 1978 paper.'
+    comment: 'The severity groups are those in common use (see, e.g., Bjornson CL, Johnson DW. Croup. Lancet 2008;371:329-39); they are not given in the 1978 paper. See also the BC Emergency Health Services clinical handbook: https://handbook.bcehs.ca/clinical-resources/clinical-scores/westley-croup-severity-score/'
   }
 };
