@@ -850,3 +850,9 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .search-pair { display: grid; grid-template-columns: minmax(0, 1fr) 260px; align-items: center; gap: 6px 14px; }
 .search-pair select { width: 100%; margin-bottom: 0; }
 @media (max-width: 600px) { .search-pair { grid-template-columns: 1fr; } }
+
+/* Calculator tabs: "Compare all" panel between the menus and the calculator */
+.calc-compare { padding-top: 12px; padding-bottom: 12px; }
+.calc-compare .calc-source summary { font-size: 0.95rem; }
+.calc-compare-body { margin-top: 10px; font-size: 0.95rem; color: var(--text); }
+.calc-compare-body .pretest-row { margin-bottom: 2px; }

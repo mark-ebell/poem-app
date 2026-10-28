@@ -3,6 +3,8 @@
 // project. The menus are fetched one level at a time and an entry's numbers only
 // when it is chosen (see routes/calculator.js); the arithmetic is done here.
 
+import { pretestStart, pretestNote, renderSummaryTables } from './summary-table.js';
+
 const $ = id => document.getElementById(id);
 let api = null;
 
@@ -72,7 +74,69 @@ function showPanel(key) {
   resetSelect($('calcItem'), 'Select symptom/disease first…');
   setStatus('');
   hideCalculator();
+  resetCompare();
 }
+
+// ---------- Compare all (every finding or test for the chosen pair, side by side) ----------
+// Shown once a symptom / disease pair is chosen, closed; its numbers are fetched the first
+// time it is opened (one calculator look-up for a reader).
+let compare = null; // { key, specialty, symptom, disease, data, start, seq }
+let compareSeq = 0;
+
+function resetCompare() {
+  compare = null;
+  compareSeq++;
+  $('calcCompareCard').classList.add('hidden');
+  $('calcCompare').open = false;
+  $('compareTables').textContent = '';
+  $('compareNote').textContent = '';
+}
+
+function offerCompare(specialty, symptom, disease) {
+  resetCompare();
+  compare = { key: activePanel.key, specialty, symptom, disease, data: null };
+  $('calcCompareTitle').textContent = `Compare all ${itemLabel(false)}s for this presentation`;
+  $('calcCompareCard').classList.remove('hidden');
+}
+
+async function loadCompare() {
+  if (!compare || compare.data) return;
+  const seq = ++compareSeq;
+  $('compareNote').textContent = 'Loading…';
+  try {
+    const { specialty, symptom, disease } = compare;
+    const data = await api(`/calculator/${compare.key}/pair/summary?${new URLSearchParams({ specialty, symptom, disease })}`);
+    if (seq !== compareSeq) return;
+    compare.data = data;
+    compare.start = pretestStart(data.tests).start;
+    $('compareSlider').value = $('compareNum').value = compare.start;
+    $('compareNote').textContent = pretestNote(data.tests, 'Move the slider or enter');
+    renderCompare();
+  } catch (err) {
+    if (seq === compareSeq) $('compareNote').textContent = err.message;
+  }
+}
+
+function renderCompare() {
+  if (!compare || !compare.data) return;
+  let p = Number($('compareNum').value);
+  if (!Number.isFinite(p)) p = compare.start;
+  p = Math.min(Math.max(p, 0.1), 99.9);
+  renderSummaryTables($('compareTables'), compare.data.tests, compare.key === 'signsSymptoms' ? 'signs' : 'tests', p);
+}
+
+$('calcCompare').addEventListener('toggle', () => { if ($('calcCompare').open) loadCompare(); });
+$('compareSlider').addEventListener('input', () => { $('compareNum').value = $('compareSlider').value; renderCompare(); });
+$('compareNum').addEventListener('input', () => {
+  const v = Number($('compareNum').value);
+  if (Number.isFinite(v) && v >= 0.1 && v <= 99.9) $('compareSlider').value = v;
+  renderCompare();
+});
+$('compareReset').addEventListener('click', () => {
+  if (!compare || !compare.data) return;
+  $('compareSlider').value = $('compareNum').value = compare.start;
+  renderCompare();
+});
 
 // Opens the calculator at an SxDxNum (from a link in a textbook chapter): its specialty
 // and symptom / disease pair are chosen, ready for a test or finding to be picked.
@@ -125,6 +189,7 @@ async function onSpecialtyChange() {
   resetSelect($('calcPair'), specialty ? 'Loading…' : 'Select specialty first…');
   resetSelect($('calcItem'), 'Select symptom/disease first…');
   hideCalculator();
+  resetCompare();
   if (!specialty) return;
   try {
     const { pairs } = await api(`/calculator/${activePanel.key}/pairs?${new URLSearchParams({ specialty })}`);
@@ -142,8 +207,10 @@ async function onPairChange() {
   const seq = ++menuSeq;
   resetSelect($('calcItem'), value ? 'Loading…' : 'Select symptom/disease first…');
   hideCalculator();
+  resetCompare();
   if (!value) return;
   const [symptom, disease] = JSON.parse(value);
+  offerCompare($('calcSpecialty').value, symptom, disease);
   try {
     const { items } = await api(`/calculator/${activePanel.key}/items?${new URLSearchParams({ specialty: $('calcSpecialty').value, symptom, disease })}`);
     if (seq !== menuSeq) return;

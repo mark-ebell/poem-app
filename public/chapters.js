@@ -3,6 +3,7 @@
 // HTML whose links carry data attributes handled here (POEMs, calculators, figures,
 // SORT ratings). External links (PubMed, Cochrane, web sites) are ordinary links.
 import { markCiteRuns } from './cite-runs.js';
+import { pretestStart, pretestNote, renderSummaryTables } from './summary-table.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
@@ -78,49 +79,6 @@ function showReference(n) {
   openInfo(`Reference ${ref.n}`, body, { small: true });
 }
 
-// Summary data for a calculator entry (Decision support): a table of every test or finding
-// for that presentation, with LR+, LR-, sensitivity and specificity. Tests with several
-// result levels get a small table of their own (result, likelihood ratio).
-function fmtLR(x) {
-  if (x === null || x === undefined || !Number.isFinite(x)) return '–';
-  const s = x >= 10 ? x.toFixed(0) : x >= 1 ? x.toFixed(1) : x.toFixed(2);
-  return s.includes('.') ? s.replace(/\.?0+$/, '') : s;
-}
-const fmtPct = x => (x === null || x === undefined || !Number.isFinite(x) ? '–' : `${Math.round(x)}%`);
-
-// Post-test probability (%) from a pre-test probability (%) and a likelihood ratio.
-function postTest(pretest, lr) {
-  if (!Number.isFinite(lr)) return null;
-  const p = Math.min(Math.max(pretest / 100, 0.0001), 0.9999);
-  const odds = (p / (1 - p)) * lr;
-  return (odds / (1 + odds)) * 100;
-}
-// One decimal under 10% (1.6%), whole numbers above (60%).
-const fmtPost = x => (x === null || !Number.isFinite(x) ? '–' : `${x < 10 ? x.toFixed(1) : Math.round(x)}%`);
-
-// head: [[label, className, colspan?, rowspan?], ...] rows (one or two); body: [[text, className], ...] rows.
-function summaryTable(headRows, rows) {
-  const wrap = el('div', 'chapter-table-wrap');
-  const table = el('table', 'chapter-table summary-table');
-  for (const hr of headRows) {
-    const tr = el('tr');
-    for (const [text, cls, colspan, rowspan] of hr) {
-      const th = el('th', cls || '', text);
-      if (colspan) th.colSpan = colspan;
-      if (rowspan) th.rowSpan = rowspan;
-      tr.appendChild(th);
-    }
-    table.appendChild(tr);
-  }
-  for (const cells of rows) {
-    const r = el('tr');
-    for (const [text, cls] of cells) r.appendChild(el('td', cls || '', text));
-    table.appendChild(r);
-  }
-  wrap.appendChild(table);
-  return wrap;
-}
-
 async function showSummary(which, num) {
   const key = which === 'signs' ? 'signsSymptoms' : 'diagnosticTests';
   let data;
@@ -130,15 +88,7 @@ async function showSummary(which, num) {
     alert(err.message);
     return;
   }
-  const label = test => test.name + (test.disambig ? ` (${test.disambig})` : '');
-  // One pre-test probability for the table: the cited studies' (their median if they differ), else 50%.
-  const reported = data.tests.map(t => t.pretest).filter(Number.isFinite).sort((a, b) => a - b);
-  const median = reported.length ? (reported.length % 2 ? reported[(reported.length - 1) / 2] : (reported[reported.length / 2 - 1] + reported[reported.length / 2]) / 2) : null;
-  const start = median === null ? 50 : Math.round(median * 10) / 10;
-  // Highest LR+ first (as the result tables of multi-level tests are); a missing LR+ goes last.
-  const byLR = t => (Number.isFinite(t.plr) ? t.plr : -Infinity);
-  const simple = data.tests.filter(t => t.multi !== 1).sort((a, b) => byLR(b) - byLR(a));
-  const multi = data.tests.filter(t => t.multi === 1);
+  const { start } = pretestStart(data.tests);
 
   const body = el('div', 'summary-pop');
   body.appendChild(el('p', 'hint summary-specialty', data.specialty));
@@ -154,9 +104,7 @@ async function showSummary(which, num) {
   preLabel.appendChild(input);
   preLabel.append(' %');
   pre.appendChild(preLabel);
-  pre.appendChild(el('p', 'hint summary-pretest-note', median === null
-    ? 'No pre-test probability was reported; 50% is used. Enter your own estimate.'
-    : `From the cited ${reported.length === 1 ? 'study' : 'studies'}${new Set(reported).size > 1 ? ' (median)' : ''}. Enter your own estimate to update the table.`));
+  pre.appendChild(el('p', 'hint summary-pretest-note', pretestNote(data.tests, 'Enter')));
   body.appendChild(pre);
   const tables = el('div');
   body.appendChild(tables);
@@ -165,18 +113,7 @@ async function showSummary(which, num) {
     let p = Number(input.value);
     if (!Number.isFinite(p)) p = start;
     p = Math.min(Math.max(p, 0.1), 99.9);
-    tables.textContent = '';
-    if (simple.length) {
-      tables.appendChild(summaryTable([
-        [[which === 'signs' ? 'Finding' : 'Test Name', '', 0, 2], ['LR+', 'num', 0, 2], ['LR-', 'num', 0, 2], ['Post-test probability', 'num', 2], ['Sens', 'num wide-only', 0, 2], ['Spec', 'num wide-only', 0, 2]],
-        [['If +', 'num'], ['If −', 'num']]
-      ], simple.map(t => [[label(t)], [fmtLR(t.plr), 'num'], [fmtLR(t.nlr), 'num'], [fmtPost(postTest(p, t.plr)), 'num post'], [fmtPost(postTest(p, t.nlr)), 'num post'], [fmtPct(t.sens), 'num wide-only'], [fmtPct(t.spec), 'num wide-only']])));
-    }
-    for (const t of multi) {
-      tables.appendChild(el('h4', 'summary-multi', label(t)));
-      tables.appendChild(summaryTable([[['Result'], ['LR', 'num'], ['Post-test probability', 'num']]],
-        t.options.slice().sort((a, b) => b.sslr - a.sslr).map(o => [[o.range], [fmtLR(o.sslr), 'num'], [fmtPost(postTest(p, o.sslr)), 'num post']])));
-    }
+    renderSummaryTables(tables, data.tests, which, p);
   };
   input.addEventListener('input', render);
   render();

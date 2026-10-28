@@ -494,6 +494,26 @@
         <p id="calcStatus" class="hint"></p>
       </section>
 
+      <!-- Every finding or test for the chosen symptom / disease pair, side by side (calculator.js) -->
+      <section id="calcCompareCard" class="card calc-compare hidden">
+        <details id="calcCompare" class="calc-source">
+          <summary id="calcCompareTitle">Compare all tests for this presentation</summary>
+          <div class="calc-compare-body">
+            <div class="pretest-row">
+              <label for="compareSlider">Pre-test probability</label>
+              <input type="range" id="compareSlider" min="0.1" max="99.9" step="0.1" value="50">
+              <div class="pretest-num">
+                <input type="number" id="compareNum" min="0.1" max="99.9" step="0.1" value="50" aria-label="Pre-test probability for the table (%)">
+                <span>%</span>
+              </div>
+              <button class="secondary small-btn" id="compareReset" type="button">Reset</button>
+            </div>
+            <p class="hint" id="compareNote"></p>
+            <div id="compareTables"></div>
+          </div>
+        </details>
+      </section>
+
       <section id="calcEmpty" class="card calc-empty">
         <span id="calcEmptyText">Choose a specialty, then a clinical presentation, then a test to open the calculator.</span>
       </section>

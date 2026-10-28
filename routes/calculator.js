@@ -61,6 +61,23 @@ router.get('/:panel/number/:num', (req, res) => {
   res.json({ specialty, symptom, disease });
 });
 
+// The summary table rows for a set of tests or findings: likelihood ratios (given, or worked
+// out from sensitivity and specificity), sensitivity, specificity and pre-test probability,
+// or for a multi-level one its result levels.
+function summaryRows(tests) {
+  const lr = (given, value) => (given !== null && given !== undefined ? given : (Number.isFinite(value) ? value : null));
+  return tests.map(t => {
+    if (t.multi === 1) return { name: t.name, disambig: t.disambig || null, multi: 1, pretest: t.pretest ?? null, options: t.options };
+    const sens = t.sens === null || t.sens === undefined ? null : t.sens / 100;
+    const spec = t.spec === null || t.spec === undefined ? null : t.spec / 100;
+    return {
+      name: t.name, disambig: t.disambig || null, multi: 0, pretest: t.pretest ?? null, sens: t.sens ?? null, spec: t.spec ?? null,
+      plr: lr(t.plr, sens !== null && spec !== null && spec < 1 ? sens / (1 - spec) : NaN),
+      nlr: lr(t.nlr, sens !== null && spec !== null && spec > 0 ? (1 - sens) / spec : NaN)
+    };
+  }).sort((a, b) => byText(a.name, b.name));
+}
+
 // Summary data for an SxDxNum (Decision support in a chapter): every test or finding
 // for that presentation with its likelihood ratios, sensitivity and specificity, or for a
 // multi-level one its result levels. Counts as one calculator look-up for a reader.
@@ -76,18 +93,19 @@ router.get('/:panel/number/:num/summary', quota('calc'), (req, res) => {
     counts.set(k, (counts.get(k) || 0) + 1);
   }
   const [specialty, symptom, disease] = JSON.parse([...counts].sort((a, b) => b[1] - a[1])[0][0]);
-  const lr = (given, value) => (given !== null && given !== undefined ? given : (Number.isFinite(value) ? value : null));
-  const rows = tests.map(t => {
-    if (t.multi === 1) return { name: t.name, disambig: t.disambig || null, multi: 1, pretest: t.pretest ?? null, options: t.options };
-    const sens = t.sens === null || t.sens === undefined ? null : t.sens / 100;
-    const spec = t.spec === null || t.spec === undefined ? null : t.spec / 100;
-    return {
-      name: t.name, disambig: t.disambig || null, multi: 0, pretest: t.pretest ?? null, sens: t.sens ?? null, spec: t.spec ?? null,
-      plr: lr(t.plr, sens !== null && spec !== null && spec < 1 ? sens / (1 - spec) : NaN),
-      nlr: lr(t.nlr, sens !== null && spec !== null && spec > 0 ? (1 - sens) / spec : NaN)
-    };
-  }).sort((a, b) => byText(a.name, b.name));
+  const rows = summaryRows(tests);
   res.json({ specialty, symptom, disease, itemLabel: panel.itemLabel, tests: rows });
+});
+
+// Summary data for a symptom / disease pair (the "Compare all" panel on the calculator tabs).
+// ?specialty=…&symptom=…&disease=… Counts as one calculator look-up for a reader.
+router.get('/:panel/pair/summary', quota('calc'), (req, res) => {
+  const panel = panelFor(req, res);
+  if (!panel) return;
+  const { specialty, symptom, disease } = req.query;
+  const tests = panel.tests.filter(t => t.specialty === specialty && t.symptom === symptom && t.disease === disease);
+  if (!tests.length) return res.status(404).json({ error: 'That symptom / disease pair was not found.' });
+  res.json({ specialty, symptom, disease, itemLabel: panel.itemLabel, tests: summaryRows(tests) });
 });
 
 // The two calculator panels and their specialties.
