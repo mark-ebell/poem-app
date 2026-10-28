@@ -35,14 +35,16 @@ for (const f of fs.readdirSync(path.join(DIR, 'tools')).filter(f => f.endsWith('
   }
 }
 // Every EE+ category, with how many of its tools are available here so far (retired ones
-// are not counted).
+// are not counted). A converted tool counts in the categories it is shown in, which may
+// differ from EE+'s (e.g. SJS/TEN, moved to Skin).
 let excluded = {};
 try { excluded = JSON.parse(fs.readFileSync(path.join(DIR, 'excluded.json'), 'utf8')); } catch { /* none */ }
 const categories = (() => {
   const total = new Map(), available = new Map();
   for (const [id, e] of Object.entries(eeEvidence)) {
     if (excluded[id] && excluded[id].decision === 'retired') continue;
-    for (const c of e.categories || []) total.set(c, (total.get(c) || 0) + 1);
+    const live = [...tools.values()].find(t => String(t.eeId) === id);
+    for (const c of (live ? live.categories : e.categories) || []) total.set(c, (total.get(c) || 0) + 1);
   }
   for (const t of tools.values()) for (const c of t.categories) available.set(c, (available.get(c) || 0) + 1);
   return [...new Set([...total.keys(), ...available.keys()])].sort((a, b) => a.localeCompare(b))

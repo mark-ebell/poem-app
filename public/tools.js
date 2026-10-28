@@ -284,7 +284,6 @@ function aboutSection() {
     }
     about.appendChild(p);
   }
-  about.appendChild(el('p', 'hint', 'This tool simplifies the calculations in the study above. Its result is not medical advice; decisions should take into account all relevant information about the patient and clinical judgment.'));
   return about;
 }
 
