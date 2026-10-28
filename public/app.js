@@ -1522,12 +1522,15 @@ let lastQuery = null; // { q, years, age, supertype } of the search being shown;
 let lastResults = null; // the whole search being shown
 const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
+// Publication month as M/YYYY ('2024-02' → '2/2024'), to keep the date column narrow.
+const shortMonthYear = ym => { const m = /^(\d{4})-(\d{2})/.exec(ym || ''); return m ? `${Number(m[2])}/${m[1]}` : '—'; };
+
 // The table of POEMs found, as on the old Search POEMs tab.
 function poemTable(data) {
   const table = document.createElement('table');
   table.className = 'library-table search-table';
   const headRow = document.createElement('tr');
-  ['Publication date', 'Title'].forEach(label => {
+  ['Date', 'Title'].forEach(label => {
     const th = document.createElement('th');
     th.textContent = label;
     headRow.appendChild(th);
@@ -1539,7 +1542,8 @@ function poemTable(data) {
   data.poems.forEach(doc => {
     const row = document.createElement('tr');
     const dateCell = document.createElement('td');
-    dateCell.textContent = formatMonthYear(doc.publicationDate) || '—';
+    dateCell.textContent = shortMonthYear(doc.publicationDate);
+    dateCell.className = 'search-date';
     const titleCell = document.createElement('td');
     const link = document.createElement('span');
     link.className = 'library-title-link';
@@ -1613,10 +1617,7 @@ function pairList(pairs, which) {
     const openPair = () => { switchTab(which); openCalculatorItem(which, pair); };
     link.addEventListener('click', openPair);
     link.addEventListener('keydown', e => { if (e.key === 'Enter') openPair(); });
-    const spec = document.createElement('div');
-    spec.className = 'search-snippet';
-    spec.textContent = pair.specialty;
-    text.append(link, spec);
+    text.appendChild(link);
 
     const select = document.createElement('select');
     select.setAttribute('aria-label', `Choose a ${noun} for ${pair.symptom} → ${pair.disease}`);
@@ -1659,9 +1660,9 @@ const RESULT_GROUPS = [
   { key: 'poems', label: 'POEMs', one: 'POEM', many: 'POEMs' },
   { key: 'chapters', label: 'Chapters', one: 'chapter', many: 'chapters',
     list: (g, terms) => itemList(g.items, terms, c => c.title, c => c.snippet, c => { switchTab('chapters'); openChapter(c.id); }) },
-  { key: 'signs', label: 'History and Physical Calculators', one: 'history and physical symptom / disease pair', many: 'history and physical symptom / disease pairs',
+  { key: 'signs', label: 'History and Physical Calculators', one: 'history and physical', many: 'history and physical',
     list: g => pairList(g.items, 'signs') },
-  { key: 'tests', label: 'Diagnostic Calculators', one: 'diagnostic test symptom / disease pair', many: 'diagnostic test symptom / disease pairs',
+  { key: 'tests', label: 'Diagnostic Calculators', one: 'diagnostic test', many: 'diagnostic tests',
     list: g => pairList(g.items, 'tests') },
   { key: 'tools', label: 'Risk Scores', one: 'risk score', many: 'risk scores',
     list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) }
@@ -1676,7 +1677,7 @@ function renderSearchResults(all) {
   for (const g of RESULT_GROUPS) {
     const data = all[g.key];
     if (!data) continue;
-    if (!data.total) { none.push(g.label); continue; }
+    if (!data.total) { none.push(plural(0, g.one, g.many)); continue; }
     found.push(plural(data.total, g.one, g.many));
 
     const panel = document.createElement('details');
@@ -1709,7 +1710,7 @@ function renderSearchResults(all) {
     els.searchResults.appendChild(panel);
   }
   els.searchCount.textContent = found.length
-    ? `Found ${found.join(', ')}.${none.length ? ` Nothing in ${none.join(', ')}.` : ''}`
+    ? `Found ${[...found, ...none].join(', ')}.`
     : 'Nothing matches that search.';
 }
 
