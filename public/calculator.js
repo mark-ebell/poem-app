@@ -268,19 +268,6 @@ function showCalculator(t) {
   $('calcEmpty').classList.add('hidden');
   $('calcResult').classList.remove('hidden');
 
-  const badges = $('calcBadges');
-  badges.textContent = '';
-  const addBadge = text => {
-    if (!text) return;
-    const span = document.createElement('span');
-    span.className = 'calc-badge';
-    span.textContent = text;
-    badges.appendChild(span);
-  };
-  addBadge(t.specialty);
-  addBadge(`${t.multi === 1 ? 'Multichotomous' : 'Dichotomous'} ${itemLabel(false)}`);
-  if (t.loe) addBadge(`Level of evidence: ${t.loe}`);
-
   $('calcTitle').textContent = testHeading(t);
   $('calcSub').textContent = `${t.symptom}  →  ${t.disease}`;
 
@@ -309,6 +296,7 @@ function showCalculator(t) {
   addLine('Sample size', t.number);
   addLine('Setting / demographics', t.setting);
   addLine('Comment', t.comment);
+  addLine('Level of evidence', t.loe);
   if (!source.childNodes.length) source.textContent = 'No additional source details available.';
 
   const pre = defaultPretest(t);

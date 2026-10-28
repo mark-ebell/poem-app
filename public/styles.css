@@ -647,8 +647,7 @@ ul.calc-links li { margin: 0 0 6px; }
   .info-modal-body { padding: 12px 12px 16px; }
   .summary-table { font-size: 0.85rem; }
   .summary-table th, .summary-table td { padding: 6px 5px; }
-  .summary-table .wide-only { display: none; } /* sensitivity and specificity: room for the post-test columns */
-}
+  }
 .summary-multi { margin: 14px 0 4px; font-size: 0.95rem; }
 .summary-pop .ref-pop-links { margin-top: 12px; }
 .ref-pop-text { margin: 0 0 12px; line-height: 1.5; font-size: 0.9rem; }
@@ -855,3 +854,22 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .calc-compare .calc-source summary { font-size: 0.95rem; }
 .calc-compare-body { margin-top: 10px; font-size: 0.95rem; color: var(--text); }
 .calc-compare-body .pretest-row { margin-bottom: 2px; }
+
+/* --- Phones (up to 600px wide) --- */
+.tab-short, .phone-label { display: none; }
+@media (max-width: 600px) {
+  .wrap { padding: 16px 8px 40px; }
+  .card { padding: 14px 12px; }
+  /* one-line tab names */
+  .tab-long, .wide-label, .phone-hide { display: none; }
+  .tab-short, .phone-label { display: inline; }
+  .tab-btn { padding: 6px 7px; font-size: 0.85rem; white-space: nowrap; }
+  .search-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 10px; }
+  .search-filters select { width: 100%; }
+  /* summary tables (Compare all panel, chapter pop-up): no sensitivity and specificity, and narrow enough to fit */
+  .summary-table .wide-only { display: none; }
+  .summary-table { font-size: 0.8rem; }
+  .summary-table th, .summary-table td { padding: 5px 4px; }
+  .summary-table th.num { white-space: normal; }
+  .calc-compare-body .chapter-table-wrap { overflow-x: visible; }
+}

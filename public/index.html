@@ -115,16 +115,16 @@
 
     <nav class="tabs">
       <button type="button" class="tab-btn active" id="tabBtnSearch" data-tab="search">Search</button>
-      <button type="button" class="tab-btn" id="tabBtnUpload" data-tab="upload">Upload<br>POEMs</button>
-      <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse<br>POEMs</button>
-      <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit<br>POEMs</button>
-      <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence<br>Summary</button>
-      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Topic<br>Chapters</button>
-      <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit">Edit<br>Chapter</button>
-      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx">Differential<br>Diagnosis</button>
-      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs">History &amp;<br>Physical</button>
-      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests">Diagnostic<br>Tests</button>
-      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools">Risk<br>Scores</button>
+      <button type="button" class="tab-btn" id="tabBtnUpload" data-tab="upload"><span class="tab-long">Upload<br>POEMs</span><span class="tab-short">Upload</span></button>
+      <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse"><span class="tab-long">Browse<br>POEMs</span><span class="tab-short">Browse</span></button>
+      <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit"><span class="tab-long">Edit<br>POEMs</span><span class="tab-short">Edit POEMs</span></button>
+      <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence"><span class="tab-long">Evidence<br>Summary</span><span class="tab-short">Evidence</span></button>
+      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters"><span class="tab-long">Topic<br>Chapters</span><span class="tab-short">Chapters</span></button>
+      <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit"><span class="tab-long">Edit<br>Chapter</span><span class="tab-short">Edit Chap</span></button>
+      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx"><span class="tab-long">Differential<br>Diagnosis</span><span class="tab-short">Diff dx</span></button>
+      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs"><span class="tab-long">History &amp;<br>Physical</span><span class="tab-short">H&amp;P</span></button>
+      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests"><span class="tab-long">Diagnostic<br>Tests</span><span class="tab-short">Tests</span></button>
+      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long">Risk<br>Scores</span><span class="tab-short">Risk scores</span></button>
     </nav>
 
     <div id="tabUpload" class="tab-panel hidden">
@@ -194,7 +194,7 @@
 
     <div id="tabSearch" class="tab-panel">
       <section class="card">
-        <h2>Search</h2>
+        <h2 class="phone-hide">Search</h2>
         <form id="searchForm" class="search-form">
           <input type="search" id="searchInput" placeholder="Enter a word or phrase" autocomplete="off" aria-label="Word or phrase to search for">
           <button type="submit" id="searchBtn">Search</button>
@@ -210,7 +210,7 @@
               <option value="tools">Risk Scores</option>
             </select>
           </label>
-          <label class="poem-filter">POEMs from
+          <label class="poem-filter"><span class="wide-label">POEMs from</span><span class="phone-label">Years:</span>
             <select id="searchYears">
               <option value="1">Last 1 year</option>
               <option value="2">Last 2 years</option>
@@ -220,7 +220,7 @@
               <option value="all" selected>Entire database</option>
             </select>
           </label>
-          <label class="poem-filter">Age group
+          <label class="poem-filter"><span class="wide-label">Age group</span><span class="phone-label">Age:</span>
             <select id="searchAge">
               <option value="">All</option>
               <option value="1">Adults</option>
@@ -240,7 +240,7 @@
           </label>
         </div>
         <div class="search-options">
-          <label class="inline-check poem-filter"><input type="checkbox" id="searchExcerpt"> Show question and bottom-line answer of each POEM</label>
+          <label class="inline-check poem-filter"><input type="checkbox" id="searchExcerpt"> Show Question &amp; Bottom-Line for each POEM</label>
           <div id="printArea" class="print-area">
             <button type="button" id="printWordBtn" disabled>Print Word doc</button>
             <button type="button" id="printPdfBtn" disabled>Print PDF</button>
@@ -479,7 +479,7 @@
     <div id="tabCalc" class="tab-panel calc hidden">
       <section class="card">
         <h2 id="calcHeading">Diagnostic Tests</h2>
-        <p class="hint calc-intro" id="calcSubtitle"></p>
+        <p class="hint calc-intro phone-hide" id="calcSubtitle"></p>
         <div class="calc-selectors">
           <label><span class="calc-step"><span class="step-count">1</span>Specialty</span>
             <select id="calcSpecialty"><option value="">Select specialty…</option></select>
@@ -519,7 +519,6 @@
       </section>
 
       <section id="calcResult" class="card hidden">
-        <div class="calc-badges" id="calcBadges"></div>
         <h3 class="calc-title" id="calcTitle"></h3>
         <div class="calc-sub" id="calcSub"></div>
         <hr class="calc-sep">
