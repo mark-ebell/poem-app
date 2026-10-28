@@ -1595,18 +1595,74 @@ function itemList(items, terms, titleOf, detailOf, open) {
   return ul;
 }
 
+// Calculator results by symptom / disease pair: the pair opens the calculator at that pair,
+// and its dropdown opens it at a finding or test (those matching the search listed first).
+function pairList(pairs, which) {
+  const ul = document.createElement('ul');
+  ul.className = 'search-item-list';
+  const noun = which === 'signs' ? 'finding' : 'test';
+  for (const pair of pairs) {
+    const li = document.createElement('li');
+    li.className = 'search-pair';
+    const text = document.createElement('div');
+    const link = document.createElement('span');
+    link.className = 'library-title-link';
+    link.tabIndex = 0;
+    link.setAttribute('role', 'link');
+    link.textContent = `${pair.symptom} → ${pair.disease}`;
+    const openPair = () => { switchTab(which); openCalculatorItem(which, pair); };
+    link.addEventListener('click', openPair);
+    link.addEventListener('keydown', e => { if (e.key === 'Enter') openPair(); });
+    const spec = document.createElement('div');
+    spec.className = 'search-snippet';
+    spec.textContent = pair.specialty;
+    text.append(link, spec);
+
+    const select = document.createElement('select');
+    select.setAttribute('aria-label', `Choose a ${noun} for ${pair.symptom} → ${pair.disease}`);
+    const first = document.createElement('option');
+    first.value = '';
+    first.textContent = `Choose a ${noun} (${pair.items.length})…`;
+    select.appendChild(first);
+    const matching = pair.items.filter(i => i.match), others = pair.items.filter(i => !i.match);
+    const addTo = (parent, items) => items.forEach(i => {
+      const o = document.createElement('option');
+      o.value = i.id;
+      o.textContent = i.name;
+      parent.appendChild(o);
+    });
+    if (matching.length && others.length) {
+      for (const [label, items] of [['Matching your search', matching], [`Other ${noun}s`, others]]) {
+        const group = document.createElement('optgroup');
+        group.label = label;
+        addTo(group, items);
+        select.appendChild(group);
+      }
+    } else addTo(select, pair.items);
+    select.addEventListener('change', () => {
+      if (select.value === '') return;
+      const id = select.value;
+      select.value = '';
+      switchTab(which);
+      openCalculatorItem(which, { ...pair, id });
+    });
+    li.append(text, select);
+    ul.appendChild(li);
+  }
+  return ul;
+}
+
 const plural = (n, one, many) => `${n.toLocaleString()} ${n === 1 ? one : many}`;
-const pairText = t => `${t.symptom} → ${t.disease} (${t.specialty})`;
 
 // The kinds of result, in the order shown.
 const RESULT_GROUPS = [
   { key: 'poems', label: 'POEMs', one: 'POEM', many: 'POEMs' },
   { key: 'chapters', label: 'Chapters', one: 'chapter', many: 'chapters',
     list: (g, terms) => itemList(g.items, terms, c => c.title, c => c.snippet, c => { switchTab('chapters'); openChapter(c.id); }) },
-  { key: 'signs', label: 'History and Physical Calculators', one: 'history and physical finding', many: 'history and physical findings',
-    list: (g, terms) => itemList(g.items, terms, t => t.name, pairText, t => { switchTab('signs'); openCalculatorItem('signs', t); }) },
-  { key: 'tests', label: 'Diagnostic Calculators', one: 'diagnostic test', many: 'diagnostic tests',
-    list: (g, terms) => itemList(g.items, terms, t => t.name, pairText, t => { switchTab('tests'); openCalculatorItem('tests', t); }) },
+  { key: 'signs', label: 'History and Physical Calculators', one: 'history and physical symptom / disease pair', many: 'history and physical symptom / disease pairs',
+    list: g => pairList(g.items, 'signs') },
+  { key: 'tests', label: 'Diagnostic Calculators', one: 'diagnostic test symptom / disease pair', many: 'diagnostic test symptom / disease pairs',
+    list: g => pairList(g.items, 'tests') },
   { key: 'tools', label: 'Risk Scores', one: 'risk score', many: 'risk scores',
     list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) }
 ];

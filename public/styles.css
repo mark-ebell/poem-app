@@ -847,3 +847,6 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .search-item-list { list-style: none; padding: 0; margin: 4px 0; }
 .search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }
 .search-item-list li:last-child { border-bottom: 0; }
+.search-pair { display: grid; grid-template-columns: minmax(0, 1fr) 260px; align-items: center; gap: 6px 14px; }
+.search-pair select { width: 100%; margin-bottom: 0; }
+@media (max-width: 600px) { .search-pair { grid-template-columns: 1fr; } }

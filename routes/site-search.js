@@ -73,11 +73,25 @@ let calc = { panels: [] };
 try { calc = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'calculator-data.json'), 'utf8')); } catch { /* no calculator data */ }
 const panelOf = key => calc.panels.find(p => p.key === key) || { tests: [] };
 
+// Results by symptom / disease pair (a topic such as chest pain has hundreds of findings):
+// each pair that has a matching entry, with all of its entries, matching ones flagged.
 function searchCalculator(key, q) {
-  return panelOf(key).tests
-    .filter(t => q.test(`${t.name}\n${t.disambig || ''}\n${t.symptom}\n${t.disease}\n${t.specialty}`))
-    .map(t => ({ id: t.id, name: t.name, specialty: t.specialty, symptom: t.symptom, disease: t.disease, titleHit: q.terms.every(x => q.regexFor(x).test(t.name)) }))
-    .sort((a, b) => (b.titleHit - a.titleHit) || a.name.localeCompare(b.name) || a.symptom.localeCompare(b.symptom));
+  const pairs = new Map();
+  for (const t of panelOf(key).tests) {
+    const k = JSON.stringify([t.specialty, t.symptom, t.disease]);
+    if (!pairs.has(k)) pairs.set(k, { specialty: t.specialty, symptom: t.symptom, disease: t.disease, items: [], hits: 0 });
+    const pair = pairs.get(k);
+    const match = q.test(`${t.name}\n${t.disambig || ''}\n${t.symptom}\n${t.disease}\n${t.specialty}`);
+    if (match) pair.hits++;
+    pair.items.push({ id: t.id, name: t.name, match });
+  }
+  return [...pairs.values()]
+    .filter(p => p.hits)
+    .map(p => {
+      const items = p.items.sort((a, b) => (b.match - a.match) || a.name.localeCompare(b.name));
+      return { specialty: p.specialty, symptom: p.symptom, disease: p.disease, items, titleHit: q.terms.every(x => q.regexFor(x).test(`${p.symptom} ${p.disease}`)) };
+    })
+    .sort((a, b) => (b.titleHit - a.titleHit) || a.symptom.localeCompare(b.symptom) || a.disease.localeCompare(b.disease) || a.specialty.localeCompare(b.specialty));
 }
 
 // ---------- Risk scores ----------

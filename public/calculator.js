@@ -100,8 +100,8 @@ export async function openCalculatorAt(name, num) {
   setStatus(`Choose a ${itemLabel(false)} to open the calculator.`);
 }
 
-// Opens one entry found by the Search tab: its specialty, symptom / disease pair and test
-// (or finding) are chosen and the calculator is shown.
+// Opens what the Search tab found: a symptom / disease pair (in its specialty), and, if an id
+// is given, that test or finding, with the calculator shown.
 export async function openCalculatorItem(name, item) {
   try {
     await loaded;
@@ -114,6 +114,7 @@ export async function openCalculatorItem(name, item) {
   await onSpecialtyChange();
   $('calcPair').value = JSON.stringify([item.symptom, item.disease]);
   await onPairChange();
+  if (item.id === undefined || item.id === null) { setStatus(`Choose a ${itemLabel(false)} to open the calculator.`); return; }
   $('calcItem').value = String(item.id);
   await onItemChange();
 }
