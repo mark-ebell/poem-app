@@ -58,6 +58,87 @@ function addOption(select, value, label) {
 
 function setStatus(text) { $('calcStatus').textContent = text || ''; }
 
+// ---------- Phones: a full-width list for the symptom / disease and test menus ----------
+// A phone draws a dropdown's list itself, often too narrow for these long names, and a page
+// cannot change that. On phones each of these menus is shown as a button that opens a
+// full-width scrolling list instead; choosing from it sets the menu as if it had been used.
+function phonePicker(select, title) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'picker-btn';
+  select.after(button);
+  const sync = () => {
+    const opt = select.selectedOptions[0] || select.options[0];
+    button.textContent = opt ? opt.textContent : '';
+    button.disabled = select.disabled;
+    button.classList.toggle('placeholder', !select.value);
+  };
+  new MutationObserver(sync).observe(select, { childList: true, subtree: true, attributes: true, attributeFilter: ['disabled'] });
+  select.addEventListener('change', sync);
+  // Values set by code (e.g. from the Search tab) do not fire 'change'; check after each menu load.
+  const desc = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, 'value');
+  Object.defineProperty(select, 'value', { get() { return desc.get.call(this); }, set(v) { desc.set.call(this, v); sync(); }, configurable: true });
+  sync();
+  button.addEventListener('click', () => openPicker(select, typeof title === 'function' ? title() : title));
+}
+
+function openPicker(select, title) {
+  const overlay = document.createElement('div');
+  overlay.className = 'picker-overlay';
+  const sheet = document.createElement('div');
+  sheet.className = 'picker-sheet';
+  sheet.setAttribute('role', 'dialog');
+  sheet.setAttribute('aria-label', title);
+  const head = document.createElement('div');
+  head.className = 'picker-head';
+  const h = document.createElement('span');
+  h.textContent = title;
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.className = 'secondary small-btn';
+  close.textContent = 'Close';
+  head.append(h, close);
+  const list = document.createElement('ul');
+  list.className = 'picker-list';
+  const done = () => { overlay.remove(); document.body.classList.remove('modal-open'); };
+  const addItem = opt => {
+    if (opt.value === '') return; // the placeholder
+    const li = document.createElement('li');
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = opt.textContent;
+    if (opt.value === select.value) b.classList.add('current');
+    b.addEventListener('click', () => {
+      select.value = opt.value;
+      select.dispatchEvent(new Event('change'));
+      done();
+    });
+    li.appendChild(b);
+    list.appendChild(li);
+  };
+  for (const child of select.children) {
+    if (child.tagName === 'OPTGROUP') {
+      const li = document.createElement('li');
+      li.className = 'picker-group';
+      li.textContent = child.label;
+      list.appendChild(li);
+      [...child.children].forEach(addItem);
+    } else addItem(child);
+  }
+  sheet.append(head, list);
+  overlay.appendChild(sheet);
+  overlay.addEventListener('mousedown', e => { if (e.target === overlay) done(); });
+  close.addEventListener('click', done);
+  document.addEventListener('keydown', function esc(e) { if (e.key === 'Escape') { done(); document.removeEventListener('keydown', esc); } });
+  document.body.appendChild(overlay);
+  document.body.classList.add('modal-open');
+  const current = list.querySelector('.current');
+  if (current) current.scrollIntoView({ block: 'center' });
+}
+
+phonePicker($('calcPair'), 'Symptom / disease pair');
+phonePicker($('calcItem'), () => itemLabel(true));
+
 // Shows the Signs and Symptoms ('signsSymptoms') or Diagnostic Tests ('diagnosticTests') data set.
 function showPanel(key) {
   const panel = panels.get(key);

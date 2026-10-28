@@ -124,7 +124,7 @@
       <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx"><span class="tab-long">Differential<br>Diagnosis</span><span class="tab-short">Diff dx</span></button>
       <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs"><span class="tab-long">History &amp;<br>Physical</span><span class="tab-short">H&amp;P</span></button>
       <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests"><span class="tab-long">Diagnostic<br>Tests</span><span class="tab-short">Tests</span></button>
-      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long">Risk<br>Scores</span><span class="tab-short">Risk scores</span></button>
+      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long">Risk<br>Scores</span><span class="tab-short">Scores</span></button>
     </nav>
 
     <div id="tabUpload" class="tab-panel hidden">
@@ -182,7 +182,7 @@
               <option value="">All</option>
               <option value="1">Adults</option>
               <option value="2">Children</option>
-              <option value="3">Both adults and children</option>
+              <option value="3" data-short="Both">Both adults and children</option>
             </select>
           </label>
         </div>
@@ -200,24 +200,24 @@
           <button type="submit" id="searchBtn">Search</button>
         </form>
         <div class="field-row search-filters">
-          <label>Search in
+          <label><span class="wide-label">Search in</span><span class="phone-label">In:</span>
             <select id="searchType">
               <option value="all" selected>All</option>
               <option value="poems">POEMs</option>
               <option value="chapters">Chapters</option>
-              <option value="signs">History and Physical Calculators</option>
-              <option value="tests">Diagnostic Calculators</option>
-              <option value="tools">Risk Scores</option>
+              <option value="signs" data-short="H&amp;P">History and Physical Calculators</option>
+              <option value="tests" data-short="Tests">Diagnostic Calculators</option>
+              <option value="tools" data-short="Scores">Risk Scores</option>
             </select>
           </label>
           <label class="poem-filter"><span class="wide-label">POEMs from</span><span class="phone-label">Years:</span>
             <select id="searchYears">
-              <option value="1">Last 1 year</option>
-              <option value="2">Last 2 years</option>
-              <option value="3">Last 3 years</option>
-              <option value="5">Last 5 years</option>
-              <option value="10">Last 10 years</option>
-              <option value="all" selected>Entire database</option>
+              <option value="1" data-short="1 yr">Last 1 year</option>
+              <option value="2" data-short="2 yrs">Last 2 years</option>
+              <option value="3" data-short="3 yrs">Last 3 years</option>
+              <option value="5" data-short="5 yrs">Last 5 years</option>
+              <option value="10" data-short="10 yrs">Last 10 years</option>
+              <option value="all" selected data-short="All">Entire database</option>
             </select>
           </label>
           <label class="poem-filter"><span class="wide-label">Age group</span><span class="phone-label">Age:</span>
@@ -228,12 +228,12 @@
               <option value="3">Both adults and children</option>
             </select>
           </label>
-          <label class="poem-filter">Category
+          <label class="poem-filter"><span class="wide-label">Category</span><span class="phone-label">Type:</span>
             <select id="searchSupertype">
               <option value="">All</option>
               <option value="dx">Diagnosis</option>
               <option value="tx">Treatment</option>
-              <option value="sc">Screening &amp; prevention</option>
+              <option value="sc" data-short="Screening">Screening &amp; prevention</option>
               <option value="px">Prognosis</option>
               <option value="other">Other</option>
             </select>
@@ -501,7 +501,7 @@
           <div class="calc-compare-body">
             <div class="pretest-row">
               <label for="compareSlider">Pre-test probability</label>
-              <input type="range" id="compareSlider" min="0.1" max="99.9" step="0.1" value="50">
+              <div class="slider-line"><span class="slider-end">0%</span><input type="range" id="compareSlider" min="0.1" max="99.9" step="0.1" value="50"><span class="slider-end">100%</span></div>
               <div class="pretest-num">
                 <input type="number" id="compareNum" min="0.1" max="99.9" step="0.1" value="50" aria-label="Pre-test probability for the table (%)">
                 <span>%</span>
@@ -524,7 +524,7 @@
         <hr class="calc-sep">
         <div class="pretest-row">
           <label for="pretestSlider">Pre-test probability</label>
-          <input type="range" id="pretestSlider" min="0.1" max="99.9" step="0.1" value="50">
+          <div class="slider-line"><span class="slider-end">0%</span><input type="range" id="pretestSlider" min="0.1" max="99.9" step="0.1" value="50"><span class="slider-end">100%</span></div>
           <div class="pretest-num">
             <input type="number" id="pretestNum" min="0.1" max="99.9" step="0.1" value="50" aria-label="Pre-test probability (%)">
             <span>%</span>

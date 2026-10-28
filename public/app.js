@@ -1750,6 +1750,17 @@ els.searchForm.addEventListener('submit', async (e) => {
   }
 });
 
+// Phones: shorter wording in the Search tab's dropdowns (data-short), so all four fit on one row.
+const phoneQuery = window.matchMedia('(max-width: 600px)');
+function useShortOptions() {
+  for (const opt of els.tabSearch.querySelectorAll('option[data-short]')) {
+    if (!opt.dataset.long) opt.dataset.long = opt.textContent;
+    opt.textContent = phoneQuery.matches ? opt.dataset.short : opt.dataset.long;
+  }
+}
+phoneQuery.addEventListener('change', useShortOptions);
+useShortOptions();
+
 // Changing what to search in, or a POEM filter, re-runs the search being shown.
 [els.searchType, els.searchYears, els.searchAge, els.searchSupertype].forEach(sel => sel.addEventListener('change', () => {
   updatePoemFilters();

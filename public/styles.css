@@ -507,8 +507,11 @@ button.secondary:hover:not(:disabled) { background: #e2e6ec; }
 
 .pretest-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px; }
 .pretest-row label { font-weight: 600; font-size: 0.95rem; white-space: nowrap; margin: 0; }
-.pretest-row input[type="range"] { flex-basis: 100%; order: 3; accent-color: var(--accent); }
-@media (min-width: 460px) { .pretest-row input[type="range"] { flex-basis: 0; flex-grow: 1; order: 0; } }
+.pretest-row input[type="range"] { accent-color: var(--accent); }
+.pretest-row .slider-line { display: flex; align-items: center; gap: 6px; flex-basis: 100%; order: 3; }
+.slider-line input[type="range"] { flex: 1; min-width: 0; margin: 0; }
+.slider-end { display: none; font-size: 0.75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+@media (min-width: 460px) { .pretest-row .slider-line { flex-basis: 0; flex-grow: 1; order: 0; } }
 .pretest-num { display: flex; align-items: center; gap: 4px; }
 .pretest-num input { width: 76px; text-align: right; padding: 7px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.95rem; }
 .small-btn { padding: 5px 12px; font-size: 0.8rem; }
@@ -863,9 +866,23 @@ ins.tc .cite, del.tc .cite { color: inherit; }
   /* one-line tab names */
   .tab-long, .wide-label, .phone-hide { display: none; }
   .tab-short, .phone-label { display: inline; }
-  .tab-btn { padding: 6px 7px; font-size: 0.85rem; white-space: nowrap; }
-  .search-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 10px; }
-  .search-filters select { width: 100%; }
+  .tab-btn { padding: 6px 5px; font-size: 0.82rem; white-space: nowrap; }
+  .tabs { gap: 0 1px; }
+  .search-filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+  .search-filters label { font-size: 0.8rem; }
+  .search-filters select { width: 100%; font-size: 0.8rem; padding: 6px 4px; }
+  /* calculator tabs: slider ends labelled, compact result boxes, full-width menu lists */
+  .slider-end { display: inline; }
+  .stats-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 12px 0; }
+  .stat-box { padding: 6px 4px; }
+  .stat-label { font-size: 0.6rem; margin-bottom: 1px; }
+  .stat-value { font-size: 0.95rem; }
+  .result-cards { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .result-card { padding: 8px 10px; }
+  .result-label { font-size: 0.68rem; margin-bottom: 3px; }
+  .result-value { font-size: 1.45rem; }
+  .result-lr { font-size: 0.7rem; }
+  .calc-selectors select#calcPair, .calc-selectors select#calcItem { display: none; }
   /* summary tables (Compare all panel, chapter pop-up): no sensitivity and specificity, and narrow enough to fit */
   .summary-table .wide-only { display: none; }
   .summary-table { font-size: 0.8rem; }
@@ -873,3 +890,19 @@ ins.tc .cite, del.tc .cite { color: inherit; }
   .summary-table th.num { white-space: normal; }
   .calc-compare-body .chapter-table-wrap { overflow-x: visible; }
 }
+
+/* Phones: button and full-width list standing in for the calculator's pair and test menus (calculator.js) */
+.picker-btn { display: none; width: 100%; text-align: left; background: #fff; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 9px 30px 9px 10px; font-size: 0.95rem; font-weight: 400; line-height: 1.3; position: relative; white-space: normal; }
+.picker-btn::after { content: '▾'; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+.picker-btn.placeholder { color: var(--muted); }
+.picker-btn:disabled { background: #f1f3f5; color: #9aa5ad; }
+.picker-btn:hover:not(:disabled) { background: #fff; }
+.picker-overlay { position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45); z-index: 1000; display: flex; align-items: flex-end; justify-content: center; }
+.picker-sheet { background: #fff; width: 100%; max-width: 640px; max-height: 80vh; border-radius: 14px 14px 0 0; display: flex; flex-direction: column; }
+.picker-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border-bottom: 1px solid var(--border); font-weight: 700; }
+.picker-list { list-style: none; margin: 0; padding: 4px 0 10px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.picker-list li button { display: block; width: 100%; text-align: left; background: none; color: var(--text); border-radius: 0; padding: 11px 14px; font-size: 0.95rem; font-weight: 400; line-height: 1.3; border-bottom: 1px solid #eef1f5; }
+.picker-list li button:hover { background: #f4f8fb; }
+.picker-list li button.current { color: var(--accent); font-weight: 700; background: #eff4ff; }
+@media (max-width: 600px) { .picker-btn { display: block; } }
+.picker-group { padding: 10px 14px 4px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--muted); }
