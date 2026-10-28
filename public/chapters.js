@@ -79,6 +79,7 @@ function showReference(n) {
   openInfo(`Reference ${ref.n}`, body, { small: true });
 }
 
+let summarySeq = 0; // ids for the pop-up's slider
 async function showSummary(which, num) {
   const key = which === 'signs' ? 'signsSymptoms' : 'diagnosticTests';
   let data;
@@ -92,19 +93,26 @@ async function showSummary(which, num) {
 
   const body = el('div', 'summary-pop');
   body.appendChild(el('p', 'hint summary-specialty', data.specialty));
+  // The pre-test probability: a slider with the value beside it (as on the calculator tabs).
   const pre = el('div', 'summary-pretest');
-  const preLabel = el('label', '', 'Pre-test probability ');
+  const row = el('div', 'pretest-row');
+  const sliderId = `summarySlider${++summarySeq}`;
+  const preLabel = el('label', '', 'Pre-test probability');
+  preLabel.htmlFor = sliderId;
+  const slider = el('input');
+  slider.type = 'range';
+  slider.id = sliderId;
   const input = el('input');
   input.type = 'number';
-  input.min = '0.1';
-  input.max = '99.9';
-  input.step = '0.1';
-  input.value = start;
   input.setAttribute('aria-label', 'Pre-test probability (%)');
-  preLabel.appendChild(input);
-  preLabel.append(' %');
-  pre.appendChild(preLabel);
-  pre.appendChild(el('p', 'hint summary-pretest-note', pretestNote(data.tests, 'Enter')));
+  for (const box of [slider, input]) { box.min = '0.1'; box.max = '99.9'; box.step = '0.1'; box.value = start; }
+  const numBox = el('div', 'pretest-num');
+  numBox.append(input, el('span', '', '%'));
+  const reset = el('button', 'secondary small-btn', 'Reset');
+  reset.type = 'button';
+  row.append(preLabel, slider, numBox, reset);
+  pre.appendChild(row);
+  pre.appendChild(el('p', 'hint summary-pretest-note', pretestNote(data.tests, 'Move the slider or enter')));
   body.appendChild(pre);
   const tables = el('div');
   body.appendChild(tables);
@@ -115,7 +123,13 @@ async function showSummary(which, num) {
     p = Math.min(Math.max(p, 0.1), 99.9);
     renderSummaryTables(tables, data.tests, which, p);
   };
-  input.addEventListener('input', render);
+  slider.addEventListener('input', () => { input.value = slider.value; render(); });
+  input.addEventListener('input', () => {
+    const v = Number(input.value);
+    if (Number.isFinite(v) && v >= 0.1 && v <= 99.9) slider.value = v;
+    render();
+  });
+  reset.addEventListener('click', () => { slider.value = input.value = start; render(); });
   render();
 
   const open = el('a', 'ref-pop-link', `Open the ${which === 'signs' ? 'H & P' : 'Tests'} calculator`);

@@ -640,8 +640,7 @@ ul.calc-links li { margin: 0 0 6px; }
 .summary-table { font-size: 0.92rem; }
 .summary-table td.post { font-weight: 700; }
 .summary-pretest { margin: 0 0 10px; }
-.summary-pretest label { display: flex; align-items: center; gap: 6px; font-weight: 600; margin: 0; }
-.summary-pretest input { width: 76px; text-align: right; padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.95rem; }
+.summary-pretest .pretest-row label { font-size: 0.95rem; }
 .summary-pretest-note { margin: 4px 0 0; font-size: 0.8rem; }
 .summary-table th, .summary-table td { padding: 7px 8px; }
 @media (max-width: 480px) {
