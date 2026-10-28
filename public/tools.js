@@ -241,7 +241,24 @@ function renderTool() {
 const DISCLAIMER = 'For clinicians, as an aid to clinical judgment, not a substitute for it. ' +
   'Each score was developed in particular populations and settings, and its estimates may not apply to every patient. ' +
   'This is not a diagnosis or a treatment recommendation, and not for use by patients to make their own care decisions. ' +
-  'This tool simplifies the calculations in the study above. Its result is not medical advice; decisions should take into account all relevant information about the patient and clinical judgment.';
+  'This tool simplifies the calculations in the study described in About this score. Its result is not medical advice; decisions should take into account all relevant information about the patient and clinical judgment.';
+
+// Text with any web addresses in it made into links (opening in a new tab).
+function linkified(tag, text) {
+  const node = el(tag, '');
+  const parts = String(text).split(/(https?:\/\/[^\s<>"]+)/);
+  parts.forEach((part, k) => {
+    if (k % 2 === 0) { if (part) node.appendChild(document.createTextNode(part)); return; }
+    const url = part.replace(/[.,;:)\]]+$/, ''); // leave trailing punctuation outside the link
+    const a = el('a', '', url);
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    node.appendChild(a);
+    if (url.length < part.length) node.appendChild(document.createTextNode(part.slice(url.length)));
+  });
+  return node;
+}
 
 function aboutSection() {
   const ev = tool.evidence || {};
@@ -254,7 +271,7 @@ function aboutSection() {
   add('Prevalence of the outcome', ev.prevalence ? `${ev.prevalence}%` : '');
   const n = [ev.developed && `${ev.developed.toLocaleString()} to develop the rule`, ev.validated && `${ev.validated.toLocaleString()} to validate it`].filter(Boolean).join('; ');
   add('Patients', n);
-  add('Comment', ev.comment);
+  if (ev.comment) { dl.appendChild(el('dt', '', 'Comment')); dl.appendChild(linkified('dd', ev.comment)); }
   about.appendChild(dl);
   if (ev.reference) {
     const p = el('p', 'tool-ref', `${ev.reference} `);
