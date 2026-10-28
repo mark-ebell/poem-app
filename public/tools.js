@@ -240,8 +240,8 @@ function renderTool() {
 // Shown under the result of every score, never folded away.
 const DISCLAIMER = 'For clinicians, as an aid to clinical judgment, not a substitute for it. ' +
   'Each score was developed in particular populations and settings, and its estimates may not apply to every patient. ' +
-  'Check the answers and the population studied (About this score) before acting on a result. ' +
-  'This is not a diagnosis or a treatment recommendation, and not for use by patients to make their own care decisions.';
+  'This is not a diagnosis or a treatment recommendation, and not for use by patients to make their own care decisions. ' +
+  'This tool simplifies the calculations in the study above. Its result is not medical advice; decisions should take into account all relevant information about the patient and clinical judgment.';
 
 function aboutSection() {
   const ev = tool.evidence || {};
