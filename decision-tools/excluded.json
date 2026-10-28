@@ -54,6 +54,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): a 1979 index; AJCC/ATA staging is now used."
   },
+  "28": {
+    "title": "UTI diagnosis",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): newer UTI rules (McIsaac #398)."
+  },
   "29": {
     "title": "Vascular surgery risk",
     "decision": "retired",
@@ -128,6 +133,11 @@
     "title": "Pediatric head injury prognosis",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): a 1991 study of 95 children."
+  },
+  "116": {
+    "title": "Dialysis prognosis",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): patients starting dialysis in the early 1990s."
   },
   "119": {
     "title": "GI bleed: identification of low risk GI bleeds",
@@ -214,10 +224,20 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "174": {
+    "title": "UTI diagnosis (Leibovici)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1993 letter; newer UTI rules."
+  },
   "176": {
     "title": "CAGE score (alcoholism screening)",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): AUDIT-C (216) is preferred."
+  },
+  "177": {
+    "title": "Renal lithiasis diagnosis (Elton)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): predicts a positive IVP; CT is now standard; STONE score (#511) is newer."
   },
   "182": {
     "title": "Prognosis after ortho surgery (POSSUM)",
@@ -268,6 +288,11 @@
     "title": "Angioplasty complication rate (Bates)",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "201": {
+    "title": "Renal lithiasis diagnosis (Eskelinen)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): never independently validated."
   },
   "205": {
     "title": "Abnormal liver function work-up",
@@ -424,6 +449,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): relative risk only."
   },
+  "278": {
+    "title": "Creatinine clearance (MDRD 6 variable)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): replaced by the race-free CKD-EPI 2021 equation."
+  },
   "281": {
     "title": "SARS diagnosis",
     "decision": "retired",
@@ -529,6 +559,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): men only, from a self-selected clinic population."
   },
+  "329": {
+    "title": "UTI diagnosis girls < 2 years",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): not validated; DUTY (#554) is newer."
+  },
   "334": {
     "title": "PAOD diagnosis (Doppler)",
     "decision": "retired",
@@ -559,6 +594,11 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "357": {
+    "title": "Creatinine clearance (MDRD 4 variable)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): replaced by the race-free CKD-EPI 2021 equation."
+  },
   "363": {
     "title": "Stroke risk - atrial fib (CHADS2)",
     "decision": "retired",
@@ -578,6 +618,11 @@
     "title": "Probability of severe fibrosis in hepatitis C",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "400": {
+    "title": "GFR estimation (quadratic equation)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): replaced by the race-free CKD-EPI 2021 equation."
   },
   "403": {
     "title": "In-hospital mortality of elderly patients (MEWS)",
