@@ -1,11 +1,13 @@
-// BODE index in COPD (Celli 2004; EE+ 266). Results as on EE+.
+// BODE index in COPD (Celli 2004; EE+ 266). EE+ gave 20%, 58%, 70% and 80% mortality "at 52 weeks"; at
+// Mark Ebell's request (2026-10-28) the result is the approximate 4-year survival by BODE quartile,
+// read from the Kaplan-Meier curves in Celli 2004 (flagged for his review).
 const { pointsOf } = require('../lib');
 const tool = module.exports = {
   id: 'bode',
   eeId: 266,
   title: 'COPD prognosis (BODE index)',
   subtitle: 'Body-mass index, airflow obstruction, dyspnea and exercise capacity',
-  question: 'For a patient with COPD, what is the BODE index and risk of death?',
+  question: 'For a patient with COPD, what is the BODE index and approximate 4-year survival?',
   inputs: [
     { id: 'fev1', type: 'choice', label: 'FEV1 (% of predicted)', ee: 'IDC_COMBOBOX_1', options: ['65 or more', '50 to 64', '36 to 49', '35 or less'].map((label, points) => ({ label, points })) },
     { id: 'walk', type: 'choice', label: '6-minute walk distance', ee: 'IDC_COMBOBOX_2', options: ['385 yards (350 m) or more', '275 to 384 yards (250 to 349 m)', '165 to 274 yards (150 to 249 m)', 'Under 165 yards (150 m)'].map((label, points) => ({ label, points })) },
@@ -18,10 +20,11 @@ const tool = module.exports = {
     { id: 'weightKg', type: 'number', label: 'Weight', unit: 'kg', min: 20, max: 300, step: 0.1, ee: 'IDC_EDIT_2', when: a => a.units === 1 }
   ],
   points: { label: 'BODE index', max: 10 },
+  footnote: 'Approximate 4-year survival by BODE quartile, from the Kaplan-Meier curves of the validation cohort (625 patients) in Celli BR, et al. N Engl J Med 2004;350:1005-12 (PMID 14999112).',
   bmiOf: a => (a.units === 1 ? a.weightKg / Math.pow(a.heightCm / 100, 2) : (a.weightLb / 2.2) / Math.pow(a.heightIn * 0.0254, 2)),
   compute(a) {
     const bmi = tool.bmiOf(a), s = pointsOf(tool, a) + (bmi <= 21 ? 1 : 0);
-    const [level, risk, m] = s <= 2 ? [1, 'Low risk', 20] : s <= 4 ? [2, 'Moderate risk', 58] : s <= 6 ? [3, 'High risk', 70] : [4, 'Very high risk', 80];
-    return { score: { value: s, max: 10, label: 'BODE index' }, level, headline: `${risk}: ${m}% mortality at 52 weeks`, lines: [{ label: 'BMI', value: `${Math.round(bmi * 10) / 10} kg/m² (${bmi <= 21 ? '1 point' : '0 points'})` }] };
+    const [level, q, surv] = s <= 2 ? [1, '1 (0 to 2 points)', 80] : s <= 4 ? [2, '2 (3 to 4 points)', 67] : s <= 6 ? [3, '3 (5 to 6 points)', 57] : [4, '4 (7 to 10 points)', 18];
+    return { score: { value: s, max: 10, label: 'BODE index' }, level, headline: `BODE quartile ${q}: about ${surv}% 4-year survival`, lines: [{ label: 'BMI', value: `${Math.round(bmi * 10) / 10} kg/m² (${bmi <= 21 ? '1 point' : '0 points'})` }] };
   }
 };

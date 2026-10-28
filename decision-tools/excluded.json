@@ -64,6 +64,11 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "32": {
+    "title": "Diagnosis of pneumonia (Diehr)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1984; GRACE (#550) is newer."
+  },
   "33": {
     "title": "Screening: cardiac risk profile (Framingham data)",
     "decision": "retired",
@@ -119,10 +124,20 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): the Canadian Syncope Risk Score (#626) is newer."
   },
+  "104": {
+    "title": "ABG interpretation",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): general acid-base calculator; EE+ version had several errors."
+  },
   "105": {
     "title": "Basal energy requirements",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "110": {
+    "title": "Sinusitis diagnosis (Williams)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1992; transillumination."
   },
   "111": {
     "title": "Head CT after minor head injury (New Orleans)",
@@ -189,6 +204,16 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "155": {
+    "title": "Asthma relapse in adults",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): bootstrap validation only."
+  },
+  "156": {
+    "title": "Pulmonary fibrosis survival",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1982 to 1996 data; GAP index is newer."
+  },
   "160": {
     "title": "Hospital d/c prognosis for elderly",
     "decision": "retired",
@@ -198,6 +223,11 @@
     "title": "10 year mortality for various conditions",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): mortality rates from the 1990s."
+  },
+  "168": {
+    "title": "Pneumonia prognosis: mortality in elderly",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 168 patients; CURB-65 (#312)."
   },
   "169": {
     "title": "Which high hospital users are somatizers",
@@ -249,6 +279,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): a 2002 management algorithm."
   },
+  "185": {
+    "title": "Diagnosis of pneumonia (Singal)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1991; three findings."
+  },
   "186": {
     "title": "Diabetes risk score",
     "decision": "retired",
@@ -258,6 +293,11 @@
     "title": "Hepatitis C: prognosis",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "190": {
+    "title": "Peds asthma - hospitalization risk",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): single hospital."
   },
   "191": {
     "title": "Rochester criteria - pediatric fever",
@@ -284,6 +324,11 @@
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
   },
+  "197": {
+    "title": "RSV prognosis (pediatric)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1993 data."
+  },
   "199": {
     "title": "Angioplasty complication rate (Bates)",
     "decision": "retired",
@@ -293,6 +338,11 @@
     "title": "Renal lithiasis diagnosis (Eskelinen)",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-28): never independently validated."
+  },
+  "204": {
+    "title": "Peak flow - normal values",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): old reference values."
   },
   "205": {
     "title": "Abnormal liver function work-up",
@@ -354,6 +404,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): the 1985 Gran survey; Rudwaleit (#339) is newer."
   },
+  "225": {
+    "title": "Ventilation index",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): formula without outcome data."
+  },
   "226": {
     "title": "Pacing need after valve surgery",
     "decision": "retired",
@@ -384,10 +439,20 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): APACHE II data are from 1979 to 1981; newer ICU scores exist."
   },
+  "236": {
+    "title": "CROP index",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1991; RSBI (#235) is the index used."
+  },
   "237": {
     "title": "Fibrosis (severe) in NASH",
     "decision": "retired",
     "reason": "Retired by Mark Ebell, 2026-10-26."
+  },
+  "238": {
+    "title": "Sleep apnea diagnosis",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): not validated; replaced by STOP-Bang."
   },
   "241": {
     "title": "NASH in obese patients (HAIR score)",
@@ -429,6 +494,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): a 1995 model."
   },
+  "262": {
+    "title": "Sinusitis diagnosis (Berg)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1988; not validated."
+  },
   "267": {
     "title": "Melanoma 2 and 5 year prognosis",
     "decision": "retired",
@@ -448,6 +518,11 @@
     "title": "Ovarian cancer risk (Harvard)",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): relative risk only."
+  },
+  "275": {
+    "title": "COPD diagnosis",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1994; not validated."
   },
   "278": {
     "title": "Creatinine clearance (MDRD 6 variable)",
@@ -539,6 +614,11 @@
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): the Richardson score (2004)."
   },
+  "310": {
+    "title": "Bronchiolitis: need for hospitalization",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): fixed term in place of age could not be checked against the paper."
+  },
   "313": {
     "title": "Bilirubin prediction based on initial level",
     "decision": "retired",
@@ -583,6 +663,11 @@
     "title": "Out-of-hospital CPR prognosis",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): overlaps the BLS termination rule (#369)."
+  },
+  "344": {
+    "title": "TB isolation decision-making (El-Solh)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): 1997; 56% HIV positive."
   },
   "352": {
     "title": "Angioplasty mortality (Michigan score)",
@@ -648,6 +733,11 @@
     "title": "Clinically important brain injury < 2 yrs (PECARN)",
     "decision": "retired",
     "reason": "Retired (Mark Ebell, 2026-10-27): duplicates the PECARN rule for children under 2 (#434), which is kept."
+  },
+  "479": {
+    "title": "COPD exacerbation prognosis (DECAF score)",
+    "decision": "retired",
+    "reason": "Retired (Mark Ebell, 2026-10-28): duplicate of the DECAF validation version (#539)."
   },
   "541": {
     "title": "Bleeding risk in atrial fibrillation (ORBIT)",
