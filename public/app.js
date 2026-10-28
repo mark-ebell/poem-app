@@ -1,9 +1,9 @@
 import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/6.2.108/pdf.worker.min.mjs';
-import { loadCalculators, openCalculatorTab, openCalculatorAt } from './calculator.js';
-import { loadChapters } from './chapters.js';
+import { loadCalculators, openCalculatorTab, openCalculatorAt, openCalculatorItem } from './calculator.js';
+import { loadChapters, openChapter } from './chapters.js';
 import { loadChapterEditor } from './chapter-editor.js';
-import { loadTools } from './tools.js';
+import { loadTools, openTool } from './tools.js';
 
 const els = {};
 [
@@ -15,7 +15,7 @@ const els = {};
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
+  'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
   'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
@@ -1517,24 +1517,13 @@ function setPrintEnabled(on) {
   els.printWordBtn.disabled = els.printPdfBtn.disabled = !on;
 }
 
-let lastSearch = null;
-let lastQuery = null; // { q, years } of the search being shown; "Print POEMs" re-runs it
-function renderSearchResults(data) {
-  lastSearch = data;
-  setPrintEnabled(!!data.total);
-  els.searchResults.textContent = '';
-  els.searchCount.textContent = data.total
-    ? `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'} found` +
-      (data.truncated ? ` — showing the first ${data.poems.length}. Make the search more specific to narrow it.` : '')
-    : '';
-  if (!data.total) {
-    const p = document.createElement('p');
-    p.className = 'library-empty';
-    p.textContent = 'No POEMs match that search.';
-    els.searchResults.appendChild(p);
-    return;
-  }
+let lastSearch = null; // the POEM part of the search being shown (for printing and highlighting)
+let lastQuery = null; // { q, years, age, supertype } of the search being shown; the print buttons re-run it
+let lastResults = null; // the whole search being shown
+const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
+// The table of POEMs found, as on the old Search POEMs tab.
+function poemTable(data) {
   const table = document.createElement('table');
   table.className = 'library-table search-table';
   const headRow = document.createElement('tr');
@@ -1546,11 +1535,6 @@ function renderSearchResults(data) {
   const thead = document.createElement('thead');
   thead.appendChild(headRow);
   table.appendChild(thead);
-
-  if (els.searchExcerpt.checked && data.answersLimit) {
-    els.searchCount.textContent = `${els.searchCount.textContent.replace(/\.?$/, '.')} The question and bottom-line answer are shown for the first ${data.answersLimit}.`;
-  }
-
   const tbody = document.createElement('tbody');
   data.poems.forEach(doc => {
     const row = document.createElement('tr');
@@ -1581,7 +1565,103 @@ function renderSearchResults(data) {
   const wrap = document.createElement('div');
   wrap.className = 'library-table-wrap';
   wrap.appendChild(table);
-  els.searchResults.appendChild(wrap);
+  return wrap;
+}
+
+// A list of found items (chapters, calculator entries, risk scores): a title that opens the
+// item, and a line of detail under it.
+function itemList(items, terms, titleOf, detailOf, open) {
+  const ul = document.createElement('ul');
+  ul.className = 'search-item-list';
+  for (const item of items) {
+    const li = document.createElement('li');
+    const link = document.createElement('span');
+    link.className = 'library-title-link';
+    link.tabIndex = 0;
+    link.setAttribute('role', 'link');
+    highlightInto(link, titleOf(item), terms, true);
+    link.addEventListener('click', () => open(item));
+    link.addEventListener('keydown', e => { if (e.key === 'Enter') open(item); });
+    li.appendChild(link);
+    const detail = detailOf(item);
+    if (detail) {
+      const d = document.createElement('div');
+      d.className = 'search-snippet';
+      highlightInto(d, detail, terms, true);
+      li.appendChild(d);
+    }
+    ul.appendChild(li);
+  }
+  return ul;
+}
+
+const plural = (n, one, many) => `${n.toLocaleString()} ${n === 1 ? one : many}`;
+const pairText = t => `${t.symptom} → ${t.disease} (${t.specialty})`;
+
+// The kinds of result, in the order shown.
+const RESULT_GROUPS = [
+  { key: 'poems', label: 'POEMs', one: 'POEM', many: 'POEMs' },
+  { key: 'chapters', label: 'Chapters', one: 'chapter', many: 'chapters',
+    list: (g, terms) => itemList(g.items, terms, c => c.title, c => c.snippet, c => { switchTab('chapters'); openChapter(c.id); }) },
+  { key: 'signs', label: 'History and Physical Calculators', one: 'history and physical finding', many: 'history and physical findings',
+    list: (g, terms) => itemList(g.items, terms, t => t.name, pairText, t => { switchTab('signs'); openCalculatorItem('signs', t); }) },
+  { key: 'tests', label: 'Diagnostic Calculators', one: 'diagnostic test', many: 'diagnostic tests',
+    list: (g, terms) => itemList(g.items, terms, t => t.name, pairText, t => { switchTab('tests'); openCalculatorItem('tests', t); }) },
+  { key: 'tools', label: 'Risk Scores', one: 'risk score', many: 'risk scores',
+    list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) }
+];
+
+function renderSearchResults(all) {
+  lastResults = all;
+  lastSearch = all.poems || null;
+  setPrintEnabled(!!(lastSearch && lastSearch.total));
+  els.searchResults.textContent = '';
+  const found = [], none = [];
+  for (const g of RESULT_GROUPS) {
+    const data = all[g.key];
+    if (!data) continue;
+    if (!data.total) { none.push(g.label); continue; }
+    found.push(plural(data.total, g.one, g.many));
+
+    const panel = document.createElement('details');
+    panel.className = 'chapter-section search-group';
+    panel.open = openGroups.has(g.key);
+    panel.addEventListener('toggle', () => { if (panel.open) openGroups.add(g.key); else openGroups.delete(g.key); });
+    const summary = document.createElement('summary');
+    summary.textContent = `${g.label} (${data.total.toLocaleString()})`;
+    panel.appendChild(summary);
+    const body = document.createElement('div');
+    body.className = 'chapter-section-body';
+    if (data.truncated) {
+      const p = document.createElement('p');
+      p.className = 'hint';
+      p.textContent = `Showing the first ${(g.key === 'poems' ? data.poems : data.items).length.toLocaleString()}. Make the search more specific to narrow it.`;
+      body.appendChild(p);
+    }
+    if (g.key === 'poems') {
+      if (els.searchExcerpt.checked && data.answersLimit) {
+        const p = document.createElement('p');
+        p.className = 'hint';
+        p.textContent = `The question and bottom-line answer are shown for the first ${data.answersLimit}.`;
+        body.appendChild(p);
+      }
+      body.appendChild(poemTable(data));
+    } else {
+      body.appendChild(g.list(data, all.terms));
+    }
+    panel.appendChild(body);
+    els.searchResults.appendChild(panel);
+  }
+  els.searchCount.textContent = found.length
+    ? `Found ${found.join(', ')}.${none.length ? ` Nothing in ${none.join(', ')}.` : ''}`
+    : 'Nothing matches that search.';
+}
+
+// The time span, age group and category apply to POEMs only.
+function updatePoemFilters() {
+  const poems = els.searchType.value === 'all' || els.searchType.value === 'poems';
+  els.tabSearch.querySelectorAll('.poem-filter').forEach(f => f.classList.toggle('hidden', !poems));
+  els.printArea.classList.toggle('hidden', !poems || isReader());
 }
 
 els.searchForm.addEventListener('submit', async (e) => {
@@ -1597,7 +1677,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchCount.textContent = 'Searching...';
   try {
     const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
-    const data = await api(`/poems/search?${new URLSearchParams(query)}`);
+    const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value })}`);
     if (seq === searchSeq) {
       lastQuery = query; // the print buttons use the same filters
       els.printStatus.textContent = '';
@@ -1614,8 +1694,9 @@ els.searchForm.addEventListener('submit', async (e) => {
   }
 });
 
-// Changing a filter (or the time span) re-runs the search being shown.
-[els.searchYears, els.searchAge, els.searchSupertype].forEach(sel => sel.addEventListener('change', () => {
+// Changing what to search in, or a POEM filter, re-runs the search being shown.
+[els.searchType, els.searchYears, els.searchAge, els.searchSupertype].forEach(sel => sel.addEventListener('change', () => {
+  updatePoemFilters();
   if (lastQuery && els.searchInput.value.trim().length >= 2) els.searchForm.requestSubmit();
 }));
 
@@ -1731,7 +1812,7 @@ async function printAs(format) {
 els.printWordBtn.addEventListener('click', () => printAs('docx'));
 els.printPdfBtn.addEventListener('click', () => printAs('html'));
 
-els.searchExcerpt.addEventListener('change', () => { if (lastSearch) renderSearchResults(lastSearch); });
+els.searchExcerpt.addEventListener('change', () => { if (lastResults) renderSearchResults(lastResults); });
 
 // ---------- Administrator: import a monthly batch from a Word file ----------
 (function setUpWordImport() {
@@ -1867,7 +1948,8 @@ function applyRole() {
   const reader = isReader();
   [els.tabBtnUpload, els.tabBtnEdit, els.tabBtnChapterEdit].forEach(b => b.classList.toggle('hidden', reader));
   els.browseAuthorField.classList.toggle('hidden', reader);
-  els.readerPrintNote.classList.toggle('hidden', !reader);
+  els.readerPrintNote.classList.add('hidden'); // printing search results is for editors only
+  updatePoemFilters();
   els.newPasswordRule.textContent = reader
     ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'
     : '(at least 8 characters)';
@@ -1886,8 +1968,8 @@ async function init(user) {
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
   });
   if (!isReader()) loadChapterEditor(api, user);
+  switchTab('search'); // everyone starts on the Search tab
   if (isReader()) {
-    switchTab('browse');
     await loadReaderBrowse();
     return;
   }

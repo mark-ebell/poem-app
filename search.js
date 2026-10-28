@@ -172,6 +172,29 @@ const SUPERTYPE_GROUPS = {
 SUPERTYPE_GROUPS.other = `NOT (${["COALESCE(lower(supertype), '') LIKE 'dx%'", "COALESCE(lower(supertype), '') LIKE 'tx%'",
   "COALESCE(lower(supertype), '') = 'tcam'", "COALESCE(lower(supertype), '') LIKE 'sc%'", "COALESCE(lower(supertype), '') LIKE 'px%'"].join(' OR ')})`;
 
+// Parses a query for searching text other than POEMs (chapters, calculators, risk scores):
+// returns { error } or { test(text) -> boolean, terms, regexFor(term) }, with the same
+// rules and limits as the POEM search.
+function compileQuery(q, whole = true) {
+  const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
+  if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
+  if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
+  let tree;
+  try { tree = parseQuery(text); } catch (err) {
+    if (err instanceof QueryError) return { error: err.message };
+    throw err;
+  }
+  if (termCount(tree) > 20) return { error: 'Please use no more than 20 words or phrases.' };
+  const thin = allTerms(tree).find(t => t.includes('*') && t.replace(/\*/g, '').replace(/\s/g, '').length < 2);
+  if (thin) return { error: `A wildcard search needs at least two letters or digits besides the * (in "${thin}").` };
+  const cache = new Map();
+  const regexFor = t => {
+    if (!cache.has(t)) cache.set(t, termRegex(t, whole));
+    return cache.get(t);
+  };
+  return { test: s => evaluate(tree, t => regexFor(t).test(s)), terms: [...new Set(positiveTerms(tree))], regexFor };
+}
+
 // Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
 // with hits sorted (title matches first, then newest) as { row, titleHit }.
 // publishedOnly (for readers) leaves out POEMs that are still being edited;
@@ -299,4 +322,4 @@ function poemsForSummary(params, { reader = false } = {}) {
   return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, MAX_SUMMARY_POEMS).map(r => r.id)) };
 }
 
-module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };
+module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, compileQuery, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };

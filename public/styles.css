@@ -835,3 +835,15 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .tools-find { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
 .tools-find label { flex: 1 1 240px; }
 .tools-find select { width: 100%; }
+
+/* Search tab: instructions folded away, results grouped in panels like the chapter sections */
+#tabSearch { --ch-blue: #1f4b6e; }
+.search-help { margin: 8px 0 6px; }
+.search-help > summary { cursor: pointer; color: var(--ch-blue); font-weight: 600; }
+.search-help[open] > summary { margin-bottom: 4px; }
+.search-options { align-items: center; }
+.search-options .print-area { margin: 0; }
+.search-group > summary { font-size: 1.1rem; }
+.search-item-list { list-style: none; padding: 0; margin: 4px 0; }
+.search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }
+.search-item-list li:last-child { border-bottom: 0; }

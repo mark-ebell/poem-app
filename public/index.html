@@ -114,10 +114,10 @@
     </section>
 
     <nav class="tabs">
-      <button type="button" class="tab-btn active" id="tabBtnUpload" data-tab="upload">Upload<br>POEMs</button>
+      <button type="button" class="tab-btn active" id="tabBtnSearch" data-tab="search">Search</button>
+      <button type="button" class="tab-btn" id="tabBtnUpload" data-tab="upload">Upload<br>POEMs</button>
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse">Browse<br>POEMs</button>
       <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit">Edit<br>POEMs</button>
-      <button type="button" class="tab-btn" id="tabBtnSearch" data-tab="search">Search<br>POEMs</button>
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence">Evidence<br>Summary</button>
       <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Topic<br>Chapters</button>
       <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit">Edit<br>Chapter</button>
@@ -127,7 +127,7 @@
       <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools">Risk<br>Scores</button>
     </nav>
 
-    <div id="tabUpload" class="tab-panel">
+    <div id="tabUpload" class="tab-panel hidden">
       <section class="card">
         <h2>Upload a research article (PDF)</h2>
         <p class="upload-help">Upload a research study (PDF) and press the button to generate the first draft of a POEM (Patient Oriented Evidence that Matters). The text of the article is sent to Claude, an AI assistant, which writes the draft; this can take up to a minute. The draft then opens in the Edit POEMs tab, where you can review and edit it, choose the POET and publication date, and save it to the repository. PDFs that are scanned images without a text layer cannot be read.</p>
@@ -192,23 +192,35 @@
 
     </div>
 
-    <div id="tabSearch" class="tab-panel hidden">
+    <div id="tabSearch" class="tab-panel">
       <section class="card">
-        <h2>Search POEMs</h2>
+        <h2>Search</h2>
         <form id="searchForm" class="search-form">
           <input type="search" id="searchInput" placeholder="Enter a word or phrase" autocomplete="off" aria-label="Word or phrase to search for">
-          <select id="searchYears" aria-label="How far back to search">
-            <option value="1">Last 1 year</option>
-            <option value="2">Last 2 years</option>
-            <option value="3">Last 3 years</option>
-            <option value="5">Last 5 years</option>
-            <option value="10">Last 10 years</option>
-            <option value="all" selected>Entire database</option>
-          </select>
           <button type="submit" id="searchBtn">Search</button>
         </form>
         <div class="field-row search-filters">
-          <label>Age group
+          <label>Search in
+            <select id="searchType">
+              <option value="all" selected>All</option>
+              <option value="poems">POEMs</option>
+              <option value="chapters">Chapters</option>
+              <option value="signs">History and Physical Calculators</option>
+              <option value="tests">Diagnostic Calculators</option>
+              <option value="tools">Risk Scores</option>
+            </select>
+          </label>
+          <label class="poem-filter">POEMs from
+            <select id="searchYears">
+              <option value="1">Last 1 year</option>
+              <option value="2">Last 2 years</option>
+              <option value="3">Last 3 years</option>
+              <option value="5">Last 5 years</option>
+              <option value="10">Last 10 years</option>
+              <option value="all" selected>Entire database</option>
+            </select>
+          </label>
+          <label class="poem-filter">Age group
             <select id="searchAge">
               <option value="">All</option>
               <option value="1">Adults</option>
@@ -216,7 +228,7 @@
               <option value="3">Both adults and children</option>
             </select>
           </label>
-          <label>Category
+          <label class="poem-filter">Category
             <select id="searchSupertype">
               <option value="">All</option>
               <option value="dx">Diagnosis</option>
@@ -228,14 +240,18 @@
           </label>
         </div>
         <div class="search-options">
-          <label class="inline-check"><input type="checkbox" id="searchExcerpt"> Show question and bottom-line answer of each POEM</label>
+          <label class="inline-check poem-filter"><input type="checkbox" id="searchExcerpt"> Show question and bottom-line answer of each POEM</label>
+          <div id="printArea" class="print-area">
+            <button type="button" id="printWordBtn" disabled>Print Word doc</button>
+            <button type="button" id="printPdfBtn" disabled>Print PDF</button>
+            <span id="printStatus" class="hint"></span>
+          </div>
         </div>
-        <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>. Searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID.</p>
-        <div id="printArea" class="print-area">
-          <button type="button" id="printWordBtn" disabled>Print Word doc</button>
-          <button type="button" id="printPdfBtn" disabled>Print PDF</button>
-          <span id="printStatus" class="hint"></span>
-        </div>
+        <details class="search-help">
+          <summary>Instructions on searching</summary>
+          <p class="hint">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>.</p>
+          <p class="hint">POEMs: searches the title, reference, clinical question, synopsis, bottom line, POEM number and PubMed ID; the time span, age group and category apply to POEMs only. Chapters: the full text. History and Physical and Diagnostic Calculators: the finding or test, the symptom, the disease and the specialty. Risk Scores: the name and description.</p>
+        </details>
         <p id="readerPrintNote" class="hint hidden">Printing includes the first 25 POEMs in the results. Printouts and Evidence Summaries are limited to 5 a day.</p>
         <p id="searchCount" class="hint"></p>
         <div id="searchResults"></div>

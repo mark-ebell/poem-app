@@ -100,6 +100,24 @@ export async function openCalculatorAt(name, num) {
   setStatus(`Choose a ${itemLabel(false)} to open the calculator.`);
 }
 
+// Opens one entry found by the Search tab: its specialty, symptom / disease pair and test
+// (or finding) are chosen and the calculator is shown.
+export async function openCalculatorItem(name, item) {
+  try {
+    await loaded;
+  } catch (err) {
+    setStatus(`Could not load the calculator: ${err.message}`);
+    return;
+  }
+  showPanel(name === 'signs' ? 'signsSymptoms' : 'diagnosticTests');
+  $('calcSpecialty').value = item.specialty;
+  await onSpecialtyChange();
+  $('calcPair').value = JSON.stringify([item.symptom, item.disease]);
+  await onPairChange();
+  $('calcItem').value = String(item.id);
+  await onItemChange();
+}
+
 async function onSpecialtyChange() {
   const specialty = $('calcSpecialty').value;
   const seq = ++menuSeq;

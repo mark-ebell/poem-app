@@ -131,6 +131,7 @@ app.use('/api/evidence', require('./routes/evidence'));
 app.use('/api/calculator', require('./routes/calculator'));
 app.use('/api/chapters', require('./routes/chapters'));
 app.use('/api/tools', require('./routes/tools'));
+app.use('/api/search', require('./routes/site-search'));
 app.use('/api/chapter-edit', require('./routes/chapter-edit'));
 
 app.use(express.static(path.join(__dirname, 'public')));

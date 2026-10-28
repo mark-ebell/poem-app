@@ -332,7 +332,7 @@ function renderList() {
 }
 
 // ---------- One chapter ----------
-async function openChapter(id) {
+export async function openChapter(id) {
   const seq = ++openSeq;
   $('chapterStatus').textContent = 'Loading…';
   let chapter;
