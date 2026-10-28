@@ -1522,9 +1522,6 @@ let lastQuery = null; // { q, years, age, supertype } of the search being shown;
 let lastResults = null; // the whole search being shown
 const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
-// Publication month as M/YYYY ('2024-02' → '2/2024'), to keep the date column narrow.
-const shortMonthYear = ym => { const m = /^(\d{4})-(\d{2})/.exec(ym || ''); return m ? `${Number(m[2])}/${m[1]}` : '—'; };
-
 // The table of POEMs found, as on the old Search POEMs tab.
 function poemTable(data) {
   const table = document.createElement('table');
@@ -1542,7 +1539,7 @@ function poemTable(data) {
   data.poems.forEach(doc => {
     const row = document.createElement('tr');
     const dateCell = document.createElement('td');
-    dateCell.textContent = shortMonthYear(doc.publicationDate);
+    dateCell.textContent = formatShortMonthYear(doc.publicationDate) || '—'; // as on the Browse tab
     dateCell.className = 'search-date';
     const titleCell = document.createElement('td');
     const link = document.createElement('span');
