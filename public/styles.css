@@ -397,11 +397,7 @@ label.spaced { margin-top: 16px; }
 mark { background: #fef08a; color: inherit; padding: 0 1px; border-radius: 2px; }
 .search-table td:first-child { white-space: nowrap; }
 
-.print-area { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
-.print-area button { background: #eef1f5; color: var(--text); }
-.print-area button:hover:not(:disabled) { background: #e2e6ec; }
 .search-form select { width: auto; margin-bottom: 0; }
-.print-area .hint { margin: 0; }
 
 /* --- POEM pop-up --- */
 body.modal-open { overflow: hidden; }
@@ -839,11 +835,11 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 
 /* Search tab: instructions folded away, results grouped in panels like the chapter sections */
 #tabSearch { --ch-blue: #1f4b6e; }
-.search-help { margin: 8px 0 6px; }
+.search-help { flex: 1 1 260px; margin: 0; }
 .search-help > summary { cursor: pointer; color: var(--ch-blue); font-weight: 600; }
 .search-help[open] > summary { margin-bottom: 4px; }
-.search-options { align-items: center; }
-.search-options .print-area { margin: 0; }
+.search-options { align-items: flex-start; margin: 8px 0 6px; }
+.search-options .inline-check { line-height: 1.5; }
 .search-group > summary { font-size: 1.1rem; }
 .search-item-list { list-style: none; padding: 0; margin: 4px 0; }
 .search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }

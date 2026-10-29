@@ -11,14 +11,13 @@ const els = {};
   'loginView', 'signupView', 'forgotView', 'resetView', 'showForgot', 'showSignup', 'showLoginFromSignup', 'showLoginFromForgot',
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
-  'newPasswordRule', 'browseAuthorField', 'readerPrintNote', 'evidenceHelp',
+  'newPasswordRule', 'browseAuthorField', 'evidenceHelp',
   'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
-  'printArea', 'printWordBtn', 'printPdfBtn', 'printStatus',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseCount', 'browseResults',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
@@ -1512,13 +1511,8 @@ els.poemModalClose.addEventListener('click', closePoemPopup);
 els.poemModal.addEventListener('mousedown', (e) => { if (e.target === els.poemModal) closePoemPopup(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.poemModal.classList.contains('hidden')) closePoemPopup(); });
 
-// The print buttons stay visible but can only be used when there are results to print.
-function setPrintEnabled(on) {
-  els.printWordBtn.disabled = els.printPdfBtn.disabled = !on;
-}
-
-let lastSearch = null; // the POEM part of the search being shown (for printing and highlighting)
-let lastQuery = null; // { q, years, age, supertype } of the search being shown; the print buttons re-run it
+let lastSearch = null; // the POEM part of the search being shown (for highlighting)
+let lastQuery = null; // { q, years, age, supertype } of the search being shown
 let lastResults = null; // the whole search being shown
 const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
@@ -1650,32 +1644,29 @@ function pairList(pairs, which) {
   return ul;
 }
 
-const plural = (n, one, many) => `${n.toLocaleString()} ${n === 1 ? one : many}`;
-
 // The kinds of result, in the order shown.
 const RESULT_GROUPS = [
-  { key: 'poems', label: 'POEMs', one: 'POEM', many: 'POEMs' },
-  { key: 'chapters', label: 'Chapters', one: 'chapter', many: 'chapters',
+  { key: 'poems', label: 'POEMs' },
+  { key: 'chapters', label: 'Chapters',
     list: (g, terms) => itemList(g.items, terms, c => c.title, c => c.snippet, c => { switchTab('chapters'); openChapter(c.id); }) },
-  { key: 'signs', label: 'History and Physical Calculators', one: 'history and physical', many: 'history and physical',
+  { key: 'signs', label: 'History and Physical Calculators',
     list: g => pairList(g.items, 'signs') },
-  { key: 'tests', label: 'Diagnostic Calculators', one: 'diagnostic test', many: 'diagnostic tests',
+  { key: 'tests', label: 'Diagnostic Calculators',
     list: g => pairList(g.items, 'tests') },
-  { key: 'tools', label: 'Risk Scores', one: 'risk score', many: 'risk scores',
+  { key: 'tools', label: 'Risk Scores',
     list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) }
 ];
 
 function renderSearchResults(all) {
   lastResults = all;
   lastSearch = all.poems || null;
-  setPrintEnabled(!!(lastSearch && lastSearch.total));
   els.searchResults.textContent = '';
-  const found = [], none = [];
+  let anyFound = false;
   for (const g of RESULT_GROUPS) {
     const data = all[g.key];
     if (!data) continue;
-    if (!data.total) { none.push(plural(0, g.one, g.many)); continue; }
-    found.push(plural(data.total, g.one, g.many));
+    if (!data.total) continue;
+    anyFound = true;
 
     const panel = document.createElement('details');
     panel.className = 'chapter-section search-group';
@@ -1706,16 +1697,13 @@ function renderSearchResults(all) {
     panel.appendChild(body);
     els.searchResults.appendChild(panel);
   }
-  els.searchCount.textContent = found.length
-    ? `Found ${[...found, ...none].join(', ')}.`
-    : 'Nothing matches that search.';
+  els.searchCount.textContent = anyFound ? '' : 'Nothing matches that search.';
 }
 
 // The time span, age group and category apply to POEMs only.
 function updatePoemFilters() {
   const poems = els.searchType.value === 'all' || els.searchType.value === 'poems';
   els.tabSearch.querySelectorAll('.poem-filter').forEach(f => f.classList.toggle('hidden', !poems));
-  els.printArea.classList.toggle('hidden', !poems || isReader());
 }
 
 els.searchForm.addEventListener('submit', async (e) => {
@@ -1733,14 +1721,12 @@ els.searchForm.addEventListener('submit', async (e) => {
     const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
     const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value })}`);
     if (seq === searchSeq) {
-      lastQuery = query; // the print buttons use the same filters
-      els.printStatus.textContent = '';
+      lastQuery = query;
       renderSearchResults(data);
     }
   } catch (err) {
     if (seq === searchSeq) {
       els.searchResults.textContent = '';
-      setPrintEnabled(false);
       els.searchCount.textContent = `Search failed: ${err.message}`;
     }
   } finally {
@@ -1822,60 +1808,6 @@ els.evidenceForm.addEventListener('submit', async (e) => {
     els.evidenceGenerateBtn.disabled = false;
   }
 });
-
-// ---------- Print POEMs (Word document or PDF) ----------
-async function fetchPrintOutput(format) {
-  const resp = await fetch('/api/poems/export', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ ...lastQuery, format })
-  });
-  if (resp.status === 401) { showLogin(); throw new Error('Not logged in.'); }
-  if (!resp.ok) {
-    const data = await resp.json().catch(() => ({}));
-    throw new Error(data.error || `Request failed (${resp.status}).`);
-  }
-  return resp;
-}
-
-async function printAs(format) {
-  if (!lastQuery) return;
-  setPrintEnabled(false);
-  els.printStatus.textContent = 'Preparing the POEMs...';
-  try {
-    const resp = await fetchPrintOutput(format);
-    if (format === 'docx') {
-      const url = URL.createObjectURL(await resp.blob());
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `POEMs ${new Date().toISOString().slice(0, 10)}.docx`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 10000);
-      els.printStatus.textContent = 'The Word document was downloaded.';
-    } else {
-      const html = await resp.text();
-      const frame = document.createElement('iframe');
-      frame.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;';
-      frame.srcdoc = html;
-      frame.onload = () => {
-        frame.contentWindow.focus();
-        frame.contentWindow.print();
-        setTimeout(() => frame.remove(), 60000);
-      };
-      document.body.appendChild(frame);
-      els.printStatus.textContent = 'In the print window that opens, choose "Save as PDF" as the destination.';
-    }
-  } catch (err) {
-    els.printStatus.textContent = `Could not print: ${err.message}`;
-  } finally {
-    setPrintEnabled(!!(lastSearch && lastSearch.total));
-  }
-}
-
-els.printWordBtn.addEventListener('click', () => printAs('docx'));
-els.printPdfBtn.addEventListener('click', () => printAs('html'));
 
 els.searchExcerpt.addEventListener('change', () => { if (lastResults) renderSearchResults(lastResults); });
 
@@ -2013,7 +1945,6 @@ function applyRole() {
   const reader = isReader();
   [els.tabBtnUpload, els.tabBtnEdit, els.tabBtnChapterEdit].forEach(b => b.classList.toggle('hidden', reader));
   els.browseAuthorField.classList.toggle('hidden', reader);
-  els.readerPrintNote.classList.add('hidden'); // printing search results is for editors only
   updatePoemFilters();
   els.newPasswordRule.textContent = reader
     ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'
