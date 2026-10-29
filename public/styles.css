@@ -835,11 +835,17 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 
 /* Search tab: instructions folded away, results grouped in panels like the chapter sections */
 #tabSearch { --ch-blue: #1f4b6e; }
-.search-help { flex: 1 1 260px; margin: 0; }
+.search-help { flex: 1 1 100%; margin: 0; }
+.search-help-text { text-align: justify; }
 .search-help > summary { cursor: pointer; color: var(--ch-blue); font-weight: 600; }
 .search-help[open] > summary { margin-bottom: 4px; }
 .search-options { align-items: flex-start; margin: 8px 0 6px; }
 .search-options .inline-check { line-height: 1.5; }
+/* Wider screens: the checkbox sits at the right of the instructions line and the opened text runs underneath it */
+@media (min-width: 640px) {
+  .search-options { position: relative; }
+  .search-options .inline-check { position: absolute; top: 0; right: 0; }
+}
 .search-group > summary { font-size: 1.1rem; }
 .search-item-list { list-style: none; padding: 0; margin: 4px 0; }
 .search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }
