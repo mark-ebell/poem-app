@@ -33,7 +33,7 @@ Then edit `.env`:
 
 ### 3. Create the POET accounts
 
-The accounts listed in `POETS` in `seed-users.js` (Barry, Ebell, Shaughnessy, Slawson, Speer, Rowland, Rayala, Ferenchick) are created automatically every time the server starts, with one-time initial passwords printed to the console (or, on Render, to the **Logs** tab) for any that don't exist yet. To add a new POET later, add a `{ username, displayName }` entry to that list (and to `VALID_POETS` in `poem-model.js`, `NEWER_AUTHORS` in `public/app.js` and the POET `<select>` in `public/index.html`), then deploy — their account is created on the next boot. You can also create/check accounts manually at any time:
+The accounts listed in `POETS` in `seed-users.js` (Barry, Ebell, Shaughnessy, Slawson, Speer, Rowland, Rayala, Ferenchick, Kurotschka) are created automatically every time the server starts, with one-time initial passwords printed to the console (or, on Render, to the **Logs** tab) for any that don't exist yet. To add a new POET later, add a `{ username, displayName }` entry to that list (and to `VALID_POETS` in `poem-model.js`, `NEWER_AUTHORS` in `public/app.js` and the POET `<select>` in `public/index.html`), then deploy — their account is created on the next boot. You can also create/check accounts manually at any time:
 
 ```bash
 npm run seed
