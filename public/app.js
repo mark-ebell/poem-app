@@ -1281,7 +1281,7 @@ function setOptions(select, options, keep) {
 // On the first load it selects the most recent month; afterwards it keeps
 // whatever the user had chosen.
 const MAIN_AUTHORS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant'];
-const NEWER_AUTHORS = ['Rowland', 'Rayala'];
+const NEWER_AUTHORS = ['Rowland', 'Rayala', 'Ferenchick'];
 const NAMED_AUTHORS = new Set([...MAIN_AUTHORS, ...NEWER_AUTHORS]);
 const OTHER_AUTHORS = '__other__';
 let browseInitialized = false;
