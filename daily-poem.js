@@ -6,7 +6,8 @@
 // SEND_HOUR US Eastern time, the server emails it to each edition's recipients and records
 // the send, so a restart never sends a day twice. The editions are identical except for the
 // logo at the top left: AAFP (to DAILY_POEM_RECIPIENTS) and Virtual Hallway (to
-// DAILY_POEM_VH_RECIPIENTS).
+// DAILY_POEM_VH_RECIPIENTS). Sending is off unless DAILY_POEM_SENDING is "on"; POEMs are
+// still given days while it is off, and send-test still works.
 //
 // From the command line (on Render: the service's Shell tab):
 //   npm run daily-poem -- schedule          the assigned days
@@ -21,6 +22,7 @@ const { escapeHtml } = require('./poem-model');
 
 const TIME_ZONE = 'America/New_York';
 const SEND_HOUR = 6;
+const sendingOn = () => String(process.env.DAILY_POEM_SENDING || '').trim().toLowerCase() === 'on';
 const months = () => String(process.env.DAILY_POEM_MONTHS || '2026-10').split(',').map(m => m.trim()).filter(Boolean);
 const list = (v, fallback) => String(v || fallback).split(',').map(r => r.trim()).filter(Boolean);
 // The editions: the same email with a different logo, each to its own recipients.
@@ -193,6 +195,7 @@ async function sendDailyPoem(date) {
 
 // Checks every 10 minutes: from SEND_HOUR Eastern, today's POEM goes out once.
 function startDailyPoemSchedule() {
+  if (!sendingOn()) return console.log('Daily InfoPOEM: sending is off (set DAILY_POEM_SENDING=on to send).');
   const tick = async () => {
     const { date, hour } = easternNow();
     if (hour < SEND_HOUR) return;
@@ -231,6 +234,7 @@ if (require.main === module) {
       }
       for (const e of EDITIONS) console.log(`${e.name} recipients: ${e.recipients().join(', ')}`);
       console.log(`Months taking part: ${months().join(', ')}`);
+      console.log(`Sending: ${sendingOn() ? 'on' : 'off (set DAILY_POEM_SENDING=on to send)'}`);
     } else if (cmd === 'send-test' || cmd === 'preview') {
       const row = pick();
       if (!row) { console.error(arg ? `No POEM number ${arg}.` : 'No POEM is assigned to today; give a POEM number.'); process.exit(1); }
