@@ -14,7 +14,9 @@ const POETS = [
   { username: 'rowland', displayName: 'Rowland' },
   { username: 'rayala', displayName: 'Rayala' },
   { username: 'ferenchick', displayName: 'Ferenchick' },
-  { username: 'kurotschka', displayName: 'Kurotschka' }
+  { username: 'kurotschka', displayName: 'Kurotschka' },
+  { username: 'sexton', displayName: 'Sexton' },
+  { username: 'lin', displayName: 'Lin' }
 ];
 
 function randomPassword() {
