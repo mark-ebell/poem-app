@@ -361,5 +361,13 @@ function showResult(r) {
   }
 }
 
-$('toolsFilter').addEventListener('input', renderList);
-$('toolsCategory').addEventListener('change', renderList);
+// Find a risk score always searches every category, so typing goes back to All categories;
+// choosing a category clears the search.
+$('toolsFilter').addEventListener('input', () => {
+  if ($('toolsFilter').value.trim()) $('toolsCategory').value = '';
+  renderList();
+});
+$('toolsCategory').addEventListener('change', () => {
+  if ($('toolsCategory').value) $('toolsFilter').value = '';
+  renderList();
+});
