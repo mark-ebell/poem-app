@@ -1704,15 +1704,15 @@ function pairList(pairs, which) {
 
 // The kinds of result, in the order shown.
 const RESULT_GROUPS = [
-  { key: 'poems', label: 'POEMs' },
   { key: 'chapters', label: 'Chapters',
     list: (g, terms) => itemList(g.items, terms, c => c.title, () => '', c => { switchTab('chapters'); openChapter(c.id); }) },
-  { key: 'signs', label: 'History and Physical Calculators',
-    list: g => pairList(g.items, 'signs') },
-  { key: 'tests', label: 'Diagnostic Calculators',
+  { key: 'tools', label: 'Risk scores',
+    list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) },
+  { key: 'poems', label: 'POEMs research summaries' },
+  { key: 'tests', label: 'Diagnostic Test Calculators',
     list: g => pairList(g.items, 'tests') },
-  { key: 'tools', label: 'Risk Scores',
-    list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) }
+  { key: 'signs', label: 'History & Physical Calculators',
+    list: g => pairList(g.items, 'signs') }
 ];
 
 function renderSearchResults(all) {
