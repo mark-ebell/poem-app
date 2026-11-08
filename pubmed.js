@@ -217,8 +217,8 @@ async function fetchAbstracts(ids) {
   return out;
 }
 
-// MeSH headings, for searching POEMs (mesh.js): Map pmid -> { terms, major }, each a list of
-// descriptor names. A heading is major when it, or one of its subheadings, is a major topic.
+// MeSH headings, for searching (mesh.js): Map pmid -> { terms, major }, each a list of
+// descriptor names (and supplementary concepts, such as drugs, in terms). A heading is major when it, or one of its subheadings, is a major topic.
 // Articles that PubMed has not indexed yet come back with empty lists.
 async function fetchMesh(ids) {
   const out = new Map();
@@ -244,6 +244,14 @@ async function fetchMesh(ids) {
         terms.push(name);
         const quals = Array.from(h.getElementsByTagName('QualifierName'));
         if (d.getAttribute('MajorTopicYN') === 'Y' || quals.some(q => q.getAttribute('MajorTopicYN') === 'Y')) major.push(name);
+      }
+      // Supplementary concepts: most drugs (apixaban) are indexed this way, not as headings,
+      // in the chemical list (IDs starting with C) and sometimes as SupplMeshName.
+      const suppl = [...Array.from(art.getElementsByTagName('NameOfSubstance')).filter(n => /^C/.test(n.getAttribute('UI') || '')),
+        ...Array.from(art.getElementsByTagName('SupplMeshName'))];
+      for (const s of suppl) {
+        const name = String(s.textContent || '').replace(/\s+/g, ' ').trim();
+        if (name && !terms.includes(name)) terms.push(name);
       }
       out.set(String(pmidEl.textContent).trim(), { terms, major });
     }

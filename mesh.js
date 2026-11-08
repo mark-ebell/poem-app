@@ -2,7 +2,8 @@
 // article MeSH headings (standard subject terms such as "Myocardial Infarction"), and the
 // main ones are marked as major topics. They are kept with the POEM (mesh_terms, mesh_major),
 // searched with its text (buildSearchText in search.js), and a POEM whose major topics match
-// the search ranks higher.
+// the search ranks higher. The calculators' and risk scores' studies get their major topics
+// too (pmid_mesh), searched with each item.
 //
 // The server looks them up in the background a minute after it starts and then once a day:
 // POEMs never looked up, and recent POEMs whose articles PubMed had not indexed yet (checked
@@ -60,6 +61,48 @@ async function updatePoemMesh({ log = console.log } = {}) {
   }
 }
 
+// ---------- Calculators and risk scores ----------
+// Their studies' PubMed IDs (calculator-data.json, decision-tools), looked up once each and
+// kept in pmid_mesh. Only the major topics are searched: a diagnostic study's headings include
+// many minor ones (Electrocardiography, Prospective Studies) that would match every finding
+// from that study.
+function studyPmids() {
+  const ids = new Set();
+  try {
+    const calc = require('./calculator-data.json');
+    for (const p of calc.panels) for (const t of p.tests) if (/^\d+$/.test(String(t.pmid || ''))) ids.add(String(t.pmid));
+  } catch { /* no calculator data */ }
+  try {
+    const { tools } = require('./routes/tools');
+    for (const t of tools.values()) if (t.evidence && /^\d+$/.test(String(t.evidence.pmid || ''))) ids.add(String(t.evidence.pmid));
+  } catch { /* no risk scores */ }
+  return [...ids];
+}
+
+let studyMajor = null; // pmid -> "Heading; Heading"
+function majorMeshFor(pmid) {
+  if (!studyMajor) studyMajor = new Map(db.prepare("SELECT pmid, major FROM pmid_mesh WHERE major IS NOT NULL").all().map(r => [r.pmid, r.major]));
+  return studyMajor.get(String(pmid || '')) || '';
+}
+
+async function updateStudyMesh({ log = console.log } = {}) {
+  const have = new Set(db.prepare('SELECT pmid FROM pmid_mesh').all().map(r => r.pmid));
+  const missing = studyPmids().filter(id => !have.has(id));
+  if (!missing.length) return 0;
+  const found = await fetchMesh(missing);
+  const now = new Date().toISOString();
+  const save = db.prepare('INSERT OR REPLACE INTO pmid_mesh (pmid, terms, major, checked_at) VALUES (?, ?, ?, ?)');
+  db.transaction(() => {
+    for (const id of missing) {
+      const m = found.get(id) || { terms: [], major: [] };
+      save.run(id, m.terms.join('; ') || null, m.major.join('; ') || null, now);
+    }
+  })();
+  studyMajor = null; // reload on the next search
+  log(`MeSH: looked up ${missing.length} calculator and risk score studies; ${[...found.values()].filter(m => m.major.length).length} have major topics.`);
+  return missing.length;
+}
+
 // Runs until every POEM has been looked up at least once (the first run on a database with
 // no MeSH yet takes a few passes); POEMs rechecked in a pass are not due again for a week.
 const neverChecked = () => db.prepare(`SELECT COUNT(*) AS n FROM poems WHERE mesh_checked_at IS NULL
@@ -67,6 +110,7 @@ const neverChecked = () => db.prepare(`SELECT COUNT(*) AS n FROM poems WHERE mes
 async function updateAll(opts) {
   if (running) return; // a run is already going
   do { await updatePoemMesh(opts); } while (!running && neverChecked() > 0);
+  await updateStudyMesh(opts);
 }
 
 function startMeshSchedule() {
@@ -75,7 +119,7 @@ function startMeshSchedule() {
   setInterval(run, 24 * 60 * 60 * 1000).unref();
 }
 
-module.exports = { updatePoemMesh, updateAll, startMeshSchedule };
+module.exports = { updatePoemMesh, updateStudyMesh, updateAll, startMeshSchedule, majorMeshFor };
 
 if (require.main === module) {
   updateAll().then(() => process.exit(0), err => { console.error(err.message); process.exit(1); });

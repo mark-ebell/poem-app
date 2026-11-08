@@ -11,6 +11,7 @@ const { searchPoems, compileQuery, parseSort } = require('../search');
 const { htmlToText } = require('../poem-model');
 const store = require('../chapter-store');
 const { tools } = require('./tools');
+const { majorMeshFor } = require('../mesh'); // the major topics (MeSH) of each item's study
 
 const router = express.Router();
 router.use(requireAuth);
@@ -70,7 +71,7 @@ function searchCalculator(key, q) {
     const k = JSON.stringify([t.specialty, t.symptom, t.disease]);
     if (!pairs.has(k)) pairs.set(k, { specialty: t.specialty, symptom: t.symptom, disease: t.disease, items: [], hits: 0 });
     const pair = pairs.get(k);
-    const match = q.test(`${t.name}\n${t.disambig || ''}\n${t.symptom}\n${t.disease}\n${t.specialty}`);
+    const match = q.test(`${t.name}\n${t.disambig || ''}\n${t.symptom}\n${t.disease}\n${t.specialty}\n${majorMeshFor(t.pmid)}`);
     if (match) pair.hits++;
     pair.items.push({ id: t.id, name: t.name, match });
   }
@@ -83,10 +84,10 @@ function searchCalculator(key, q) {
     .sort((a, b) => (b.titleHit - a.titleHit) || a.symptom.localeCompare(b.symptom) || a.disease.localeCompare(b.disease) || a.specialty.localeCompare(b.specialty));
 }
 
-// ---------- Risk scores: name, subtitle, clinical question and categories ----------
+// ---------- Risk scores: name, subtitle, clinical question, categories and the study's MeSH major topics ----------
 function searchTools(q) {
   return [...tools.values()]
-    .filter(t => q.test(`${t.title}\n${t.subtitle || ''}\n${t.question || ''}\n${(t.categories || []).join('\n')}`))
+    .filter(t => q.test(`${t.title}\n${t.subtitle || ''}\n${t.question || ''}\n${(t.categories || []).join('\n')}\n${majorMeshFor(t.evidence && t.evidence.pmid)}`))
     .map(t => ({ id: t.id, title: t.title, subtitle: t.subtitle || '', titleHit: q.terms.every(x => q.regexFor(x).test(t.title)) }))
     .sort((a, b) => (b.titleHit - a.titleHit) || a.title.localeCompare(b.title));
 }

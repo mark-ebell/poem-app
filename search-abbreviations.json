@@ -1,0 +1,612 @@
+{
+ "_about": "Common clinical abbreviations that MeSH lacks or files elsewhere, for the search (search.js). means: the words it stands for (each also brings its MeSH synonyms). twoWay: true when the abbreviation means only this, so searching the full words also finds the abbreviation; false when it has other meanings (MI can be motivational interviewing), so only typing the abbreviation (in capitals, as listed) finds the full words. Edit freely; the server reads this file when it starts.",
+ "abbreviations": {
+  "DVT": {
+   "means": [
+    "deep vein thrombosis",
+    "deep venous thrombosis"
+   ],
+   "twoWay": true
+  },
+  "PE": {
+   "means": [
+    "pulmonary embolism"
+   ],
+   "twoWay": false
+  },
+  "VTE": {
+   "means": [
+    "venous thromboembolism"
+   ],
+   "twoWay": true
+  },
+  "MI": {
+   "means": [
+    "myocardial infarction"
+   ],
+   "twoWay": false
+  },
+  "ACS": {
+   "means": [
+    "acute coronary syndrome"
+   ],
+   "twoWay": true
+  },
+  "CAD": {
+   "means": [
+    "coronary artery disease"
+   ],
+   "twoWay": true
+  },
+  "CHD": {
+   "means": [
+    "coronary heart disease"
+   ],
+   "twoWay": true
+  },
+  "CHF": {
+   "means": [
+    "congestive heart failure",
+    "heart failure"
+   ],
+   "twoWay": false
+  },
+  "HF": {
+   "means": [
+    "heart failure"
+   ],
+   "twoWay": false
+  },
+  "HFrEF": {
+   "means": [
+    "heart failure with reduced ejection fraction"
+   ],
+   "twoWay": true
+  },
+  "HFpEF": {
+   "means": [
+    "heart failure with preserved ejection fraction"
+   ],
+   "twoWay": true
+  },
+  "AF": {
+   "means": [
+    "atrial fibrillation"
+   ],
+   "twoWay": false
+  },
+  "AFib": {
+   "means": [
+    "atrial fibrillation"
+   ],
+   "twoWay": true
+  },
+  "HTN": {
+   "means": [
+    "hypertension"
+   ],
+   "twoWay": true
+  },
+  "DM": {
+   "means": [
+    "diabetes mellitus",
+    "diabetes"
+   ],
+   "twoWay": false
+  },
+  "T1DM": {
+   "means": [
+    "type 1 diabetes"
+   ],
+   "twoWay": true
+  },
+  "T2DM": {
+   "means": [
+    "type 2 diabetes"
+   ],
+   "twoWay": true
+  },
+  "CKD": {
+   "means": [
+    "chronic kidney disease"
+   ],
+   "twoWay": true
+  },
+  "AKI": {
+   "means": [
+    "acute kidney injury"
+   ],
+   "twoWay": true
+  },
+  "ESRD": {
+   "means": [
+    "end-stage renal disease",
+    "end-stage kidney disease"
+   ],
+   "twoWay": true
+  },
+  "UTI": {
+   "means": [
+    "urinary tract infection"
+   ],
+   "twoWay": true
+  },
+  "URI": {
+   "means": [
+    "upper respiratory infection",
+    "upper respiratory tract infection"
+   ],
+   "twoWay": true
+  },
+  "ARI": {
+   "means": [
+    "acute respiratory infection",
+    "acute respiratory tract infection"
+   ],
+   "twoWay": true
+  },
+  "CAP": {
+   "means": [
+    "community-acquired pneumonia"
+   ],
+   "twoWay": false
+  },
+  "OSA": {
+   "means": [
+    "obstructive sleep apnea"
+   ],
+   "twoWay": true
+  },
+  "IBS": {
+   "means": [
+    "irritable bowel syndrome"
+   ],
+   "twoWay": true
+  },
+  "IBD": {
+   "means": [
+    "inflammatory bowel disease"
+   ],
+   "twoWay": true
+  },
+  "PUD": {
+   "means": [
+    "peptic ulcer disease"
+   ],
+   "twoWay": true
+  },
+  "BPH": {
+   "means": [
+    "benign prostatic hyperplasia"
+   ],
+   "twoWay": true
+  },
+  "STI": {
+   "means": [
+    "sexually transmitted infection"
+   ],
+   "twoWay": true
+  },
+  "STD": {
+   "means": [
+    "sexually transmitted disease"
+   ],
+   "twoWay": true
+  },
+  "HPV": {
+   "means": [
+    "human papillomavirus"
+   ],
+   "twoWay": true
+  },
+  "HIV": {
+   "means": [
+    "human immunodeficiency virus"
+   ],
+   "twoWay": true
+  },
+  "RSV": {
+   "means": [
+    "respiratory syncytial virus"
+   ],
+   "twoWay": true
+  },
+  "MRSA": {
+   "means": [
+    "methicillin-resistant Staphylococcus aureus"
+   ],
+   "twoWay": true
+  },
+  "TIA": {
+   "means": [
+    "transient ischemic attack"
+   ],
+   "twoWay": true
+  },
+  "CVA": {
+   "means": [
+    "stroke",
+    "cerebrovascular accident"
+   ],
+   "twoWay": false
+  },
+  "PAD": {
+   "means": [
+    "peripheral artery disease",
+    "peripheral arterial disease"
+   ],
+   "twoWay": true
+  },
+  "AAA": {
+   "means": [
+    "abdominal aortic aneurysm"
+   ],
+   "twoWay": true
+  },
+  "MDD": {
+   "means": [
+    "major depressive disorder"
+   ],
+   "twoWay": true
+  },
+  "GAD": {
+   "means": [
+    "generalized anxiety disorder"
+   ],
+   "twoWay": true
+  },
+  "PTSD": {
+   "means": [
+    "posttraumatic stress disorder",
+    "post-traumatic stress disorder"
+   ],
+   "twoWay": true
+  },
+  "OCD": {
+   "means": [
+    "obsessive-compulsive disorder"
+   ],
+   "twoWay": true
+  },
+  "ASD": {
+   "means": [
+    "autism spectrum disorder"
+   ],
+   "twoWay": false
+  },
+  "RA": {
+   "means": [
+    "rheumatoid arthritis"
+   ],
+   "twoWay": false
+  },
+  "OA": {
+   "means": [
+    "osteoarthritis"
+   ],
+   "twoWay": false
+  },
+  "SLE": {
+   "means": [
+    "systemic lupus erythematosus"
+   ],
+   "twoWay": true
+  },
+  "PCOS": {
+   "means": [
+    "polycystic ovary syndrome"
+   ],
+   "twoWay": true
+  },
+  "NAFLD": {
+   "means": [
+    "nonalcoholic fatty liver disease"
+   ],
+   "twoWay": true
+  },
+  "MASLD": {
+   "means": [
+    "metabolic dysfunction-associated steatotic liver disease"
+   ],
+   "twoWay": true
+  },
+  "LBP": {
+   "means": [
+    "low back pain"
+   ],
+   "twoWay": true
+  },
+  "AOM": {
+   "means": [
+    "acute otitis media"
+   ],
+   "twoWay": true
+  },
+  "OM": {
+   "means": [
+    "otitis media"
+   ],
+   "twoWay": false
+  },
+  "BP": {
+   "means": [
+    "blood pressure"
+   ],
+   "twoWay": false
+  },
+  "LDL": {
+   "means": [
+    "low-density lipoprotein"
+   ],
+   "twoWay": false
+  },
+  "HDL": {
+   "means": [
+    "high-density lipoprotein"
+   ],
+   "twoWay": false
+  },
+  "A1C": {
+   "means": [
+    "hemoglobin A1c",
+    "glycated hemoglobin"
+   ],
+   "twoWay": false
+  },
+  "HbA1c": {
+   "means": [
+    "hemoglobin A1c",
+    "glycated hemoglobin"
+   ],
+   "twoWay": true
+  },
+  "BMI": {
+   "means": [
+    "body mass index"
+   ],
+   "twoWay": true
+  },
+  "NSAID": {
+   "means": [
+    "nonsteroidal anti-inflammatory drug",
+    "NSAIDs"
+   ],
+   "twoWay": true
+  },
+  "NSAIDs": {
+   "means": [
+    "nonsteroidal anti-inflammatory drugs",
+    "NSAID"
+   ],
+   "twoWay": true
+  },
+  "SSRI": {
+   "means": [
+    "selective serotonin reuptake inhibitor",
+    "SSRIs"
+   ],
+   "twoWay": true
+  },
+  "SSRIs": {
+   "means": [
+    "selective serotonin reuptake inhibitors",
+    "SSRI"
+   ],
+   "twoWay": true
+  },
+  "SNRI": {
+   "means": [
+    "serotonin-norepinephrine reuptake inhibitor",
+    "SNRIs"
+   ],
+   "twoWay": true
+  },
+  "PPI": {
+   "means": [
+    "proton pump inhibitor",
+    "PPIs"
+   ],
+   "twoWay": true
+  },
+  "PPIs": {
+   "means": [
+    "proton pump inhibitors",
+    "PPI"
+   ],
+   "twoWay": true
+  },
+  "ACEI": {
+   "means": [
+    "angiotensin-converting enzyme inhibitor",
+    "ACE inhibitor"
+   ],
+   "twoWay": true
+  },
+  "ARB": {
+   "means": [
+    "angiotensin receptor blocker",
+    "angiotensin II receptor blocker",
+    "ARBs"
+   ],
+   "twoWay": true
+  },
+  "DOAC": {
+   "means": [
+    "direct oral anticoagulant",
+    "DOACs"
+   ],
+   "twoWay": true
+  },
+  "DOACs": {
+   "means": [
+    "direct oral anticoagulants",
+    "DOAC"
+   ],
+   "twoWay": true
+  },
+  "SGLT2": {
+   "means": [
+    "sodium-glucose cotransporter 2 inhibitor",
+    "SGLT2 inhibitor"
+   ],
+   "twoWay": false
+  },
+  "GLP-1": {
+   "means": [
+    "glucagon-like peptide-1",
+    "GLP-1 receptor agonist"
+   ],
+   "twoWay": false
+  },
+  "ICS": {
+   "means": [
+    "inhaled corticosteroid"
+   ],
+   "twoWay": true
+  },
+  "LABA": {
+   "means": [
+    "long-acting beta agonist",
+    "long-acting beta2 agonist"
+   ],
+   "twoWay": true
+  },
+  "CBT": {
+   "means": [
+    "cognitive behavioral therapy",
+    "cognitive behavioural therapy"
+   ],
+   "twoWay": true
+  },
+  "CT": {
+   "means": [
+    "computed tomography"
+   ],
+   "twoWay": false
+  },
+  "MRI": {
+   "means": [
+    "magnetic resonance imaging"
+   ],
+   "twoWay": true
+  },
+  "ECG": {
+   "means": [
+    "electrocardiogram",
+    "electrocardiography",
+    "EKG"
+   ],
+   "twoWay": true
+  },
+  "EKG": {
+   "means": [
+    "electrocardiogram",
+    "electrocardiography",
+    "ECG"
+   ],
+   "twoWay": true
+  },
+  "CRP": {
+   "means": [
+    "C-reactive protein"
+   ],
+   "twoWay": true
+  },
+  "PSA": {
+   "means": [
+    "prostate-specific antigen"
+   ],
+   "twoWay": true
+  },
+  "TSH": {
+   "means": [
+    "thyroid-stimulating hormone",
+    "thyrotropin"
+   ],
+   "twoWay": true
+  },
+  "BNP": {
+   "means": [
+    "brain natriuretic peptide",
+    "B-type natriuretic peptide"
+   ],
+   "twoWay": true
+  },
+  "RCT": {
+   "means": [
+    "randomized controlled trial"
+   ],
+   "twoWay": false
+  },
+  "ICU": {
+   "means": [
+    "intensive care unit"
+   ],
+   "twoWay": true
+  },
+  "ALS": {
+   "means": [
+    "amyotrophic lateral sclerosis"
+   ],
+   "twoWay": true
+  },
+  "MS": {
+   "means": [
+    "multiple sclerosis"
+   ],
+   "twoWay": false
+  },
+  "PD": {
+   "means": [
+    "Parkinson disease",
+    "Parkinson's disease"
+   ],
+   "twoWay": false
+  },
+  "AD": {
+   "means": [
+    "Alzheimer disease",
+    "Alzheimer's disease"
+   ],
+   "twoWay": false
+  },
+  "HRT": {
+   "means": [
+    "hormone replacement therapy",
+    "menopausal hormone therapy"
+   ],
+   "twoWay": true
+  },
+  "IUD": {
+   "means": [
+    "intrauterine device"
+   ],
+   "twoWay": true
+  },
+  "CABG": {
+   "means": [
+    "coronary artery bypass grafting",
+    "coronary artery bypass graft"
+   ],
+   "twoWay": true
+  },
+  "PCI": {
+   "means": [
+    "percutaneous coronary intervention"
+   ],
+   "twoWay": true
+  },
+  "SAH": {
+   "means": [
+    "subarachnoid hemorrhage"
+   ],
+   "twoWay": true
+  },
+  "OTC": {
+   "means": [
+    "over-the-counter"
+   ],
+   "twoWay": false
+  }
+ }
+}

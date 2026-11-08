@@ -1,7 +1,8 @@
 // Builds mesh-synonyms.json, the synonyms the search uses (search.js), from the National
 // Library of Medicine's MeSH vocabulary. Download the descriptor file (desc<year>.gz, about
-// 17 MB) from https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/ once a year, then:
-//   npm run mesh-synonyms -- /path/to/desc2026.gz
+// 17 MB) and the supplementary concepts file (supp<year>.gz, about 47 MB, for drug names) from
+// https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/ once a year, then:
+//   npm run mesh-synonyms -- /path/to/desc2026.gz /path/to/supp2026.gz
 //
 // Each MeSH heading lists the words people use for it ("Heart Attack" for Myocardial
 // Infarction). A group is the heading and those words; searching for any of them finds the
@@ -10,12 +11,18 @@
 // F, G, N). Left out of what a search adds: inverted forms ("Infarction, Myocardial"),
 // abbreviations and other short forms (searching "myocardial infarction" should not find
 // every "MI"); an abbreviation typed in capitals (COPD) still finds its heading's words.
+// A drug heading's concepts (brand names, salts) make one group.
+// From the supplementary concepts: drugs (chemicals with a pharmacological action, cited at
+// least MIN_DRUG_CITATIONS times), with their brand names (apixaban, Eliquis); names with
+// digits (research codes such as BMS 562247) are left out. Common clinical abbreviations
+// that MeSH lacks (DVT, UTI) are in search-abbreviations.json instead.
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
 const KEEP_TREES = /^[ACDEFGN]/;
 const MAX_PER_GROUP = 15;
+const MIN_DRUG_CITATIONS = 20;
 const decode = s => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
 const norm = s => s.toLowerCase().replace(/\s+/g, ' ').trim();
 // Abbreviations (no lower-case letters: AIDS, COPD) are looked for only as typed in capitals.
@@ -40,14 +47,43 @@ function parseRecord(xml) {
     concepts.push({ preferred: c[1] === 'Y', terms });
   }
   concepts.sort((a, b) => b.preferred - a.preferred);
+  // Drugs (tree D): the other concepts are mostly brand names and salts (Ibuprofen: Advil,
+  // Motrin), so they all go in one group with the heading; research codes (with digits) do not.
+  if (trees.some(t => /^D/.test(t)) && concepts.length > 1) {
+    const all = concepts.flatMap(c => c.terms).filter((t, i) => i === 0 || !/\d/.test(t));
+    return { heading: decode(heading).trim(), concepts: [{ preferred: true, terms: all }] };
+  }
   return { heading: decode(heading).trim(), concepts };
 }
 
-async function main(file) {
-  if (!file) throw new Error('Give the path of the MeSH descriptor file (desc<year>.gz or .xml).');
+// A drug from the supplementary concepts: its name and the other names of all its concepts.
+function parseDrug(xml) {
+  if (!/SCRClass\s*=\s*"1"/.test(xml) || !xml.includes('<PharmacologicalActionList>')) return null;
+  if (Number((/<Frequency>(\d+)<\/Frequency>/.exec(xml) || [])[1] || 0) < MIN_DRUG_CITATIONS) return null;
+  const name = (/<SupplementalRecordName>\s*<String>([^<]*)<\/String>/.exec(xml) || [])[1];
+  if (!name) return null;
+  const list = (/<ConceptList>[\s\S]*<\/ConceptList>/.exec(xml) || [''])[0];
+  const terms = [...list.matchAll(/<Term\s[^>]*>[\s\S]*?<String>([^<]*)<\/String>/g)].map(m => decode(m[1]).trim());
+  return { name: decode(name).trim(), terms };
+}
+
+async function* records(file, endTag) {
   let input = fs.createReadStream(file);
   if (/\.gz$/.test(file)) input = input.pipe(zlib.createGunzip());
   input.setEncoding('utf8');
+  let buf = '';
+  for await (const chunk of input) {
+    buf += chunk;
+    let end;
+    while ((end = buf.indexOf(endTag)) !== -1) {
+      yield buf.slice(0, end);
+      buf = buf.slice(end + endTag.length);
+    }
+  }
+}
+
+async function main(file, suppFile) {
+  if (!file) throw new Error('Give the path of the MeSH descriptor file (desc<year>.gz or .xml), and of the supplementary concepts file (supp<year>.gz).');
 
   // One group for each concept: its words, and for a narrower or related concept the
   // heading as well (PubMed indexes "cancer" articles under Neoplasms).
@@ -56,13 +92,9 @@ async function main(file) {
   const capsKeys = new Map();
   const addKey = (map, k, g, rank) => { if (!map.has(k)) map.set(k, new Map()); map.get(k).set(g, Math.max(rank, map.get(k).get(g) || 0)); };
 
-  let buf = '';
-  for await (const chunk of input) {
-    buf += chunk;
-    let end;
-    while ((end = buf.indexOf('</DescriptorRecord>')) !== -1) {
-      const rec = parseRecord(buf.slice(0, end));
-      buf = buf.slice(end + 19);
+  for await (const xml of records(file, '</DescriptorRecord>')) {
+    {
+      const rec = parseRecord(xml);
       if (!rec) continue;
       for (const c of rec.concepts) {
         const words = c.preferred ? [rec.heading] : [];
@@ -86,17 +118,32 @@ async function main(file) {
       }
     }
   }
+  // Drugs rank below every heading, so a word that is also a heading's goes with the heading.
+  let drugs = 0;
+  if (suppFile) for await (const xml of records(suppFile, '</SupplementalRecord>')) {
+    const d = parseDrug(xml);
+    if (!d) continue;
+    const words = [d.name];
+    const plural = t => words.some(w => [norm(w) + 's', norm(w) + 'es'].includes(norm(t)));
+    for (const t of d.terms) if (usable(t) && !/\d/.test(t) && !words.some(w => norm(w) === norm(t)) && !plural(t)) words.push(t);
+    if (words.length < 2) continue;
+    const g = groups.length;
+    groups.push(words.slice(0, MAX_PER_GROUP));
+    words.forEach((w, i) => addKey(keys, norm(w), g, i === 0 ? 0.5 : 0.25));
+    drugs++;
+  }
+
   // A word in more than one group goes with its best-ranked one; on a tie it is ambiguous
   // and left out.
   const pick = ranks => {
     const sorted = [...ranks].sort((a, b) => b[1] - a[1]);
     return sorted.length === 1 || sorted[0][1] > sorted[1][1] ? sorted[0][0] : null;
   };
-  const out = { source: path.basename(file), groups, keys: {}, capsKeys: {} };
+  const out = { source: [file, suppFile].filter(Boolean).map(f => path.basename(f)).join(', '), groups, keys: {}, capsKeys: {} };
   for (const [k, ranks] of keys) { const g = pick(ranks); if (g !== null) out.keys[k] = g; }
   for (const [k, ranks] of capsKeys) { const g = pick(ranks); if (g !== null) out.capsKeys[k] = g; }
   fs.writeFileSync(path.join(__dirname, 'mesh-synonyms.json'), JSON.stringify(out));
-  console.log(`mesh-synonyms.json: ${groups.length} groups, ${Object.keys(out.keys).length} words and phrases, ${Object.keys(out.capsKeys).length} abbreviations.`);
+  console.log(`mesh-synonyms.json: ${groups.length} groups (${drugs} drugs), ${Object.keys(out.keys).length} words and phrases, ${Object.keys(out.capsKeys).length} abbreviations.`);
 }
 
-main(process.argv[2]).catch(err => { console.error(err.message); process.exit(1); });
+main(process.argv[2], process.argv[3]).catch(err => { console.error(err.message); process.exit(1); });

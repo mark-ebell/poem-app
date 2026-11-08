@@ -156,6 +156,8 @@ if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'status
 for (const col of ['mesh_terms', 'mesh_major', 'mesh_checked_at']) {
   if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === col)) db.exec(`ALTER TABLE poems ADD COLUMN ${col} TEXT`);
 }
+// MeSH major topics of the studies behind the calculators and risk scores, by PubMed ID (mesh.js).
+db.exec(`CREATE TABLE IF NOT EXISTS pmid_mesh (pmid TEXT PRIMARY KEY, terms TEXT, major TEXT, checked_at TEXT NOT NULL)`);
 // Daily InfoPOEM (daily-poem.js): the weekday a Published POEM is emailed to subscribers,
 // and a record of each day's send so a restart never sends the same day twice.
 if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'daily_date')) {

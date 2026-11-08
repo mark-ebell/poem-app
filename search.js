@@ -240,9 +240,47 @@ function synonymData() {
   return synonyms;
 }
 const normPhrase = s => s.toLowerCase().replace(/\s+/g, ' ').trim();
+
+// search-abbreviations.json: common clinical abbreviations (DVT, UTI). An abbreviation typed as
+// listed finds what it means (and that meaning's MeSH synonyms); a two-way one is also found by
+// its meaning, and may be typed in any case.
+let abbreviations;
+function abbreviationData() {
+  if (abbreviations === undefined) {
+    abbreviations = { exact: new Map(), anyCase: new Map(), byMeaning: new Map() };
+    let list = {};
+    try { list = require('./search-abbreviations.json').abbreviations || {}; } catch { /* none */ }
+    for (const [abbr, { means = [], twoWay = false }] of Object.entries(list)) {
+      abbreviations.exact.set(abbr, means);
+      if (!twoWay) continue;
+      abbreviations.anyCase.set(abbr.toLowerCase(), means);
+      for (const m of means) {
+        const k = normPhrase(m);
+        if (!abbreviations.byMeaning.has(k)) abbreviations.byMeaning.set(k, []);
+        abbreviations.byMeaning.get(k).push(abbr);
+      }
+    }
+  }
+  return abbreviations;
+}
+
+// The words to search for besides value (null when there are none): its abbreviation's
+// meaning, its MeSH synonyms, and the two-way abbreviations for any of them.
 function synonymGroup(value) {
+  if (value.includes('*')) return null;
+  const abbr = abbreviationData();
+  const means = abbr.exact.get(value) || abbr.anyCase.get(value.toLowerCase());
+  let words = [];
+  if (means) for (const m of means) words.push(m, ...(meshGroup(m) || []));
+  else words = meshGroup(value) || [];
+  const all = [value, ...words];
+  for (const w of all) for (const a of abbr.byMeaning.get(normPhrase(w)) || []) words.push(a);
+  return words.length ? words : null;
+}
+
+function meshGroup(value) {
   const data = synonymData();
-  if (!data || value.includes('*')) return null;
+  if (!data) return null;
   if (/^[\p{Lu}\p{N}-]+$/u.test(value) && /\p{Lu}/u.test(value) && data.capsKeys[value] !== undefined) return data.groups[data.capsKeys[value]];
   const phrase = normPhrase(value);
   if (data.keys[phrase] !== undefined) return data.groups[data.keys[phrase]];
