@@ -21,8 +21,15 @@ const VARIOUS_LABELS = {
 };
 const isVariousMulti = t => t.multi === 1 && (t.name || '').trim().toLowerCase() === 'various';
 
+// What the entries are called: the data set's itemLabel ('test' or 'finding'), shown to
+// users as "test" or "sign or symptom".
+const ITEM_NAMES = {
+  test: { one: 'test', many: 'tests', step: 'Test' },
+  finding: { one: 'sign or symptom', many: 'signs or symptoms', step: 'Signs or symptoms' }
+};
+const itemNames = () => ITEM_NAMES[(activePanel && activePanel.itemLabel) || 'test'] || ITEM_NAMES.test;
 function itemLabel(capitalized) {
-  const label = (activePanel && activePanel.itemLabel) || 'test';
+  const label = itemNames().one;
   return capitalized ? label.charAt(0).toUpperCase() + label.slice(1) : label;
 }
 
@@ -148,7 +155,7 @@ function showPanel(key) {
   $('calcHeading').textContent = panel.label;
   $('calcSubtitle').textContent = `Select a specialty, clinical presentation, and ${itemLabel(false)} to see how the result changes the probability of disease.`;
   $('calcEmptyText').textContent = `Choose a specialty, then a clinical presentation, then a ${itemLabel(false)} to open the calculator.`;
-  $('calcItemLabel').textContent = itemLabel(true);
+  $('calcItemLabel').textContent = itemNames().step;
   resetSelect($('calcSpecialty'), 'Select specialty…', false);
   panel.specialties.forEach(sp => addOption($('calcSpecialty'), sp, sp));
   resetSelect($('calcPair'), 'Select specialty first…');
@@ -176,7 +183,7 @@ function resetCompare() {
 function offerCompare(specialty, symptom, disease) {
   resetCompare();
   compare = { key: activePanel.key, specialty, symptom, disease, data: null };
-  $('calcCompareTitle').textContent = `Compare all ${itemLabel(false)}s for this presentation`;
+  $('calcCompareTitle').textContent = `Compare all ${itemNames().many} for this presentation`;
   $('calcCompareCard').classList.remove('hidden');
 }
 
@@ -246,7 +253,8 @@ export async function openCalculatorAt(name, num) {
 }
 
 // Opens what the Search tab found: a symptom / disease pair (in its specialty), and, if an id
-// is given, that test or finding, with the calculator shown.
+// is given, that test or finding, with the calculator shown; or, with compare, the pair's
+// Compare all panel, opened.
 export async function openCalculatorItem(name, item) {
   try {
     await loaded;
@@ -259,6 +267,12 @@ export async function openCalculatorItem(name, item) {
   await onSpecialtyChange();
   $('calcPair').value = JSON.stringify([item.symptom, item.disease]);
   await onPairChange();
+  if (item.compare) {
+    setStatus('');
+    $('calcCompare').open = true; // its toggle event loads the numbers
+    $('calcCompareCard').scrollIntoView({ block: 'start' });
+    return;
+  }
   if (item.id === undefined || item.id === null) { setStatus(`Choose a ${itemLabel(false)} to open the calculator.`); return; }
   $('calcItem').value = String(item.id);
   await onItemChange();

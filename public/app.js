@@ -1528,12 +1528,14 @@ function itemList(items, terms, titleOf, detailOf, open) {
   return ul;
 }
 
+const ALL_ITEMS = '__all__';
+
 // Calculator results by symptom / disease pair: the pair opens the calculator at that pair,
 // and its dropdown opens it at a finding or test (those matching the search listed first).
 function pairList(pairs, which) {
   const ul = document.createElement('ul');
   ul.className = 'search-item-list';
-  const noun = which === 'signs' ? 'finding' : 'test';
+  const noun = which === 'signs' ? 'sign/symptom' : 'test';
   for (const pair of pairs) {
     const li = document.createElement('li');
     li.className = 'search-pair';
@@ -1554,6 +1556,13 @@ function pairList(pairs, which) {
     first.value = '';
     first.textContent = `Choose a ${noun} (${pair.items.length})…`;
     select.appendChild(first);
+    // History and physical: open the pair's Compare all panel.
+    if (which === 'signs' && pair.items.length >= 2) {
+      const all = document.createElement('option');
+      all.value = ALL_ITEMS;
+      all.textContent = 'All signs or symptoms';
+      select.appendChild(all);
+    }
     const matching = pair.items.filter(i => i.match), others = pair.items.filter(i => !i.match);
     const addTo = (parent, items) => items.forEach(i => {
       const o = document.createElement('option');
@@ -1562,7 +1571,7 @@ function pairList(pairs, which) {
       parent.appendChild(o);
     });
     if (matching.length && others.length) {
-      for (const [label, items] of [['Matching your search', matching], [`Other ${noun}s`, others]]) {
+      for (const [label, items] of [['Matching your search', matching], [which === 'signs' ? 'Other signs or symptoms' : 'Other tests', others]]) {
         const group = document.createElement('optgroup');
         group.label = label;
         addTo(group, items);
@@ -1574,7 +1583,7 @@ function pairList(pairs, which) {
       const id = select.value;
       select.value = '';
       switchTab(which);
-      openCalculatorItem(which, { ...pair, id });
+      openCalculatorItem(which, id === ALL_ITEMS ? { ...pair, compare: true } : { ...pair, id });
     });
     li.append(text, select);
     ul.appendChild(li);
