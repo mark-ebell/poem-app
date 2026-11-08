@@ -151,6 +151,11 @@ if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'status
     db.exec("UPDATE poems SET status = 'Published' WHERE publication_date <= '2026-09'");
   })();
 }
+// MeSH headings of the article each POEM summarizes, from PubMed (mesh.js): all of them, the
+// major topics, and when they were last looked up. They are searched with the POEM's text.
+for (const col of ['mesh_terms', 'mesh_major', 'mesh_checked_at']) {
+  if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === col)) db.exec(`ALTER TABLE poems ADD COLUMN ${col} TEXT`);
+}
 // Daily InfoPOEM (daily-poem.js): the weekday a Published POEM is emailed to subscribers,
 // and a record of each day's send so a restart never sends the same day twice.
 if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'daily_date')) {

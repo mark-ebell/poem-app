@@ -113,7 +113,9 @@ router.put('/:id', requireEditor, (req, res) => {
   if (!existing) return res.status(404).json({ error: 'POEM not found.' });
   const { error, fields } = normalizePoemBody(req.body, existing);
   if (error) return res.status(400).json({ error });
-  fields.search_text = buildSearchText({ ...fields, poem_id: existing.poem_id });
+  // A new PubMed ID means new MeSH headings: clear them, and mesh.js looks them up again.
+  if ((fields.pubmed_id || null) !== (existing.pubmed_id || null)) Object.assign(fields, { mesh_terms: null, mesh_major: null, mesh_checked_at: null });
+  fields.search_text = buildSearchText({ mesh_terms: existing.mesh_terms, ...fields, poem_id: existing.poem_id });
   const f = { ...fields, id: req.params.id, updated_by: req.session.username, updated_at: new Date().toISOString() };
   const assignments = Object.keys(fields).concat(['updated_by', 'updated_at']).map(c => `${c} = @${c}`).join(', ');
   db.prepare(`UPDATE poems SET ${assignments} WHERE id = @id`).run(f);

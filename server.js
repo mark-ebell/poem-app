@@ -34,6 +34,7 @@ const dailyAssigned = assignMissingDailyDates();
 if (dailyAssigned) console.log(`Daily InfoPOEM: gave ${dailyAssigned} Published POEM(s) a day.`);
 startDailyPoemSchedule();
 require('./chapter-batch').startChapterBatchSchedule();
+require('./mesh').startMeshSchedule(); // MeSH headings for POEMs, from PubMed
 
 const migratedPoems = migrateLegacyPoems();
 if (migratedPoems) console.log(`Converted ${migratedPoems} saved POEM(s) to separate database fields.`);

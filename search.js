@@ -10,6 +10,10 @@ const { htmlToText } = require('./poem-model');
 // written as "<a href=...>"); it would otherwise be searchable noise.
 const stripLiteralTags = s => String(s || '').replace(/<\/?[a-zA-Z][^<>]*>/g, '');
 
+// MeSH headings to search, leaving out the ones on nearly every article (Humans, Male, ...).
+const MESH_CHECK_TAGS = new Set(['Humans', 'Animals', 'Male', 'Female']);
+const meshForSearch = terms => String(terms || '').split('; ').filter(t => t && !MESH_CHECK_TAGS.has(t)).join('; ');
+
 function buildSearchText(row) {
   return [
     row.title,
@@ -18,7 +22,8 @@ function buildSearchText(row) {
     stripLiteralTags(htmlToText(row.synopsis)),
     stripLiteralTags(htmlToText(row.bottom_line)),
     row.poem_id,
-    row.pubmed_id && row.pubmed_id !== 'NA' ? row.pubmed_id : ''
+    row.pubmed_id && row.pubmed_id !== 'NA' ? row.pubmed_id : '',
+    meshForSearch(row.mesh_terms) // MeSH headings from PubMed (mesh.js)
   ].filter(v => v !== null && v !== undefined && String(v).trim() !== '').join('\n');
 }
 
@@ -104,7 +109,7 @@ function tokenize(input) {
     else if (m[2]) tokens.push({ type: ')' });
     else if (m[3] !== undefined) {
       const phrase = m[3].replace(/\s+/g, ' ').trim();
-      if (phrase) tokens.push({ type: 'term', value: phrase });
+      if (phrase) tokens.push({ type: 'term', value: phrase, quoted: true });
     } else if (m[4] === 'AND' || m[4] === 'OR' || m[4] === 'NOT') tokens.push({ type: m[4] });
     else if (m[4]) tokens.push({ type: 'term', value: m[4] });
   }
@@ -137,7 +142,7 @@ function parseQuery(input) {
   function parsePrimary() {
     const t = tokens[pos];
     if (!t) throw new QueryError('The search ends with an operator or has nothing after an opening bracket.');
-    if (t.type === 'term') { pos++; return { op: 'term', value: t.value }; }
+    if (t.type === 'term') { pos++; return { op: 'term', value: t.value, quoted: !!t.quoted }; }
     if (t.type === '(') {
       pos++;
       const inner = parseOr();
@@ -221,6 +226,71 @@ function groupOf(supertype) {
   return 'other';
 }
 
+// ---------- MeSH synonyms ----------
+// mesh-synonyms.json (built by build-mesh-synonyms.js from the MeSH vocabulary): groups of
+// words for the same thing ("Myocardial Infarction", "Heart Attack"), and the words and
+// abbreviations that lead to each group. A search word or phrase in a group also finds the
+// rest of the group: heart attack finds myocardial infarction, COPD finds chronic obstructive
+// pulmonary disease. Words typed next to each other are tried as a phrase first (up to 6).
+let synonyms;
+function synonymData() {
+  if (synonyms === undefined) {
+    try { synonyms = require('./mesh-synonyms.json'); } catch { synonyms = null; }
+  }
+  return synonyms;
+}
+const normPhrase = s => s.toLowerCase().replace(/\s+/g, ' ').trim();
+function synonymGroup(value) {
+  const data = synonymData();
+  if (!data || value.includes('*')) return null;
+  if (/^[\p{Lu}\p{N}-]+$/u.test(value) && /\p{Lu}/u.test(value) && data.capsKeys[value] !== undefined) return data.groups[data.capsKeys[value]];
+  const phrase = normPhrase(value);
+  if (data.keys[phrase] !== undefined) return data.groups[data.keys[phrase]];
+  // The last word's plural or singular ("heart attacks").
+  const words = phrase.split(' ');
+  const last = words.pop();
+  for (const f of wordForms(last)) {
+    const k = [...words, f].join(' ');
+    if (data.keys[k] !== undefined) return data.groups[data.keys[k]];
+  }
+  return null;
+}
+const isPlainWord = n => n.op === 'term' && !n.quoted && !/[\s*]/.test(n.value);
+const synonymNode = (original, group) => {
+  const seen = new Set([normPhrase(original.value || '')]);
+  const kids = [original];
+  for (const t of group) if (!seen.has(normPhrase(t))) { seen.add(normPhrase(t)); kids.push({ op: 'term', value: t, quoted: true }); }
+  return kids.length > 1 ? { op: 'or', kids } : original;
+};
+function expandSynonyms(node) {
+  if (node.op === 'term') {
+    const group = synonymGroup(node.value);
+    return group ? synonymNode(node, group) : node;
+  }
+  if (node.op === 'not') return { op: 'not', kid: expandSynonyms(node.kid) };
+  if (node.op === 'or') return { op: 'or', kids: node.kids.map(expandSynonyms) };
+  // AND: words typed next to each other may make a phrase ("high blood pressure").
+  const kids = [];
+  for (let i = 0; i < node.kids.length;) {
+    let done = false;
+    if (isPlainWord(node.kids[i])) {
+      let run = i;
+      while (run < node.kids.length && run - i < 6 && isPlainWord(node.kids[run])) run++;
+      for (let j = run; j >= i + 2 && !done; j--) {
+        const parts = node.kids.slice(i, j);
+        const group = synonymGroup(parts.map(k => k.value).join(' '));
+        if (group) {
+          kids.push(synonymNode({ op: 'and', kids: parts }, group));
+          i = j;
+          done = true;
+        }
+      }
+    }
+    if (!done) { kids.push(expandSynonyms(node.kids[i])); i++; }
+  }
+  return kids.length === 1 ? kids[0] : { op: 'and', kids };
+}
+
 // Parses a query for searching text other than POEMs (chapters, calculators, risk scores):
 // returns { error } or { test(text) -> boolean, terms, regexFor(term) }, with the same
 // rules and limits as the POEM search.
@@ -241,19 +311,22 @@ function compileQuery(q, whole = true) {
     if (!cache.has(t)) cache.set(t, termRegex(t, whole));
     return cache.get(t);
   };
-  return { test: s => evaluate(tree, t => regexFor(t).test(s)), terms: [...new Set(positiveTerms(tree))], regexFor };
+  const terms = [...new Set(positiveTerms(tree))]; // as typed (for "found in the title")
+  const expanded = expandSynonyms(tree);
+  return { test: s => evaluate(expanded, t => regexFor(t).test(s)), terms, regexFor };
 }
 
 // How relevant a POEM is to the search words: each word or phrase scores for appearing
-// in the title (most), the clinical question or bottom line, and for each time it
+// in the title (most), the article's MeSH major topics, the clinical question or bottom line, and for each time it
 // appears anywhere (up to 10 times).
-const RELEVANCE = { title: 10, question: 4, bottomLine: 4, perMatch: 1, maxMatches: 10 };
+const RELEVANCE = { title: 10, meshMajor: 8, question: 4, bottomLine: 4, perMatch: 1, maxMatches: 10 };
 function relevanceOf(row, terms, regexFor) {
   const question = row.clinical_question || '', bottomLine = plainLine(row.bottom_line);
   let score = 0;
   for (const t of terms) {
     const re = regexFor(t);
     if (re.test(row.title || '')) score += RELEVANCE.title;
+    if (re.test(row.mesh_major || '')) score += RELEVANCE.meshMajor; // a major topic of the article (MeSH)
     if (re.test(question)) score += RELEVANCE.question;
     if (re.test(bottomLine)) score += RELEVANCE.bottomLine;
     const all = row.search_text.match(new RegExp(re.source, 'giu')) || [];
@@ -283,6 +356,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
   if (termCount(tree) > 20) return { error: 'Please use no more than 20 words or phrases.' };
   const thin = allTerms(tree).find(t => t.includes('*') && t.replace(/\*/g, '').replace(/\s/g, '').length < 2);
   if (thin) return { error: `A wildcard search needs at least two letters or digits besides the * (in "${thin}").` };
+  tree = expandSynonyms(tree);
 
   // Narrow the rows read: each required term's longest word must appear
   // somewhere. (Phrases are matched exactly below, with flexible whitespace.)
@@ -300,7 +374,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
   }
   const where = conditions.length ? 'WHERE ' + conditions.join(' AND ') : '';
   const rows = db.prepare(`
-    SELECT id, poem_id, title, poet, publication_date, supertype, clinical_question, bottom_line, search_text FROM poems ${where}
+    SELECT id, poem_id, title, poet, publication_date, supertype, clinical_question, bottom_line, mesh_major, search_text FROM poems ${where}
   `).all(...args);
 
   const regexCache = new Map();

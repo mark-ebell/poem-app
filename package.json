@@ -10,6 +10,8 @@
     "seed": "node seed-users.js",
     "readers": "node readers.js",
     "daily-poem": "node daily-poem.js",
+    "mesh": "node mesh.js",
+    "mesh-synonyms": "node build-mesh-synonyms.js",
     "build-chapters": "node build-chapters.js",
     "chapter-batch": "node chapter-batch.js"
   },

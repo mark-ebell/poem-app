@@ -217,6 +217,40 @@ async function fetchAbstracts(ids) {
   return out;
 }
 
+// MeSH headings, for searching POEMs (mesh.js): Map pmid -> { terms, major }, each a list of
+// descriptor names. A heading is major when it, or one of its subheadings, is a major topic.
+// Articles that PubMed has not indexed yet come back with empty lists.
+async function fetchMesh(ids) {
+  const out = new Map();
+  if (!ids.length) return out;
+  const { DOMParser } = require('@xmldom/xmldom');
+  for (let i = 0; i < ids.length; i += 200) {
+    const params = new URLSearchParams({ db: 'pubmed', id: ids.slice(i, i + 200).join(','), retmode: 'xml', tool: 'inforetriever' });
+    if (process.env.NCBI_API_KEY) params.set('api_key', process.env.NCBI_API_KEY);
+    const resp = await throttled(() => fetch(`${EUTILS}efetch.fcgi`, {
+      method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: params, signal: AbortSignal.timeout(120000)
+    }));
+    if (!resp.ok) throw new Error(`PubMed returned an error (${resp.status}).`);
+    const doc = new DOMParser({ onError: () => {} }).parseFromString(await resp.text(), 'text/xml');
+    for (const art of Array.from(doc.getElementsByTagName('PubmedArticle'))) {
+      const pmidEl = art.getElementsByTagName('PMID')[0];
+      if (!pmidEl) continue;
+      const terms = [], major = [];
+      for (const h of Array.from(art.getElementsByTagName('MeshHeading'))) {
+        const d = h.getElementsByTagName('DescriptorName')[0];
+        if (!d) continue;
+        const name = String(d.textContent || '').replace(/\s+/g, ' ').trim();
+        if (!name || terms.includes(name)) continue;
+        terms.push(name);
+        const quals = Array.from(h.getElementsByTagName('QualifierName'));
+        if (d.getAttribute('MajorTopicYN') === 'Y' || quals.some(q => q.getAttribute('MajorTopicYN') === 'Y')) major.push(name);
+      }
+      out.set(String(pmidEl.textContent).trim(), { terms, major });
+    }
+  }
+  return out;
+}
+
 // ---------- AMA citation ----------
 // "6 or fewer authors: list all; more than 6: first 3 then et al."
 function expandPages(pages) {
@@ -247,5 +281,5 @@ const pubmedSearchUrl = term => `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeU
 
 module.exports = {
   AGE_GROUPS, CONTENT_AREAS, HIGH_YIELD_JOURNALS, MAX_PER_CATEGORY,
-  buildQuery, searchPubMed, fetchArticles, fetchAbstracts, eutils, ecitmatch, amaRuns, pubmedUrl, pmcUrl, pubmedSearchUrl, findBy
+  buildQuery, searchPubMed, fetchArticles, fetchAbstracts, fetchMesh, eutils, ecitmatch, amaRuns, pubmedUrl, pmcUrl, pubmedSearchUrl, findBy
 };
