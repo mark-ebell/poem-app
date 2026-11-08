@@ -1706,9 +1706,9 @@ function pairList(pairs, which) {
 const RESULT_GROUPS = [
   { key: 'chapters', label: 'Chapters',
     list: (g, terms) => itemList(g.items, terms, c => c.title, () => '', c => { switchTab('chapters'); openChapter(c.id); }) },
-  { key: 'tools', label: 'Risk scores',
+  { key: 'tools', label: 'Risk Scores',
     list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) },
-  { key: 'poems', label: 'POEMs research summaries' },
+  { key: 'poems', label: 'POEMs Research Summaries' },
   { key: 'tests', label: 'Diagnostic Test Calculators',
     list: g => pairList(g.items, 'tests') },
   { key: 'signs', label: 'History & Physical Calculators',
