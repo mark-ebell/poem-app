@@ -1556,11 +1556,11 @@ function pairList(pairs, which) {
     first.value = '';
     first.textContent = `Choose a ${noun} (${pair.items.length})…`;
     select.appendChild(first);
-    // History and physical: open the pair's Compare all panel.
-    if (which === 'signs' && pair.items.length >= 2) {
+    // With 2 or more, a choice that opens the pair's Compare all panel.
+    if (pair.items.length >= 2) {
       const all = document.createElement('option');
       all.value = ALL_ITEMS;
-      all.textContent = 'All signs or symptoms';
+      all.textContent = which === 'signs' ? 'All signs or symptoms' : 'All tests';
       select.appendChild(all);
     }
     const matching = pair.items.filter(i => i.match), others = pair.items.filter(i => !i.match);
