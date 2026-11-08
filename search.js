@@ -45,8 +45,38 @@ const escapeLike = s => s.replace(/[\\%_]/g, '\\$&');
 
 // A word or phrase. Spaces inside it match any run of whitespace, and * matches
 // any run of letters or digits (so "hypertens*" finds "hypertension").
+// Plurals and singulars: a plain word (letters only, at least 3, not all capitals such as
+// AIDS) also matches its other form, so "allergies" finds "allergy" and "fracture" finds
+// "fractures". Simple English rules; the extra forms that are not real words do no harm.
+function wordForms(w) {
+  if (w.length < 3 || !/^\p{L}+$/u.test(w) || (w === w.toUpperCase() && w !== w.toLowerCase())) return [w];
+  const l = w.toLowerCase();
+  const forms = new Set([l]);
+  const add = f => { if (f.length >= 3) forms.add(f); };
+  if (/ies$/.test(l)) { add(l.slice(0, -3) + 'y'); add(l.slice(0, -1)); }
+  else if (/ses$/.test(l)) { add(l.slice(0, -1)); add(l.slice(0, -2)); add(l.slice(0, -2) + 'is'); }
+  else if (/es$/.test(l)) { add(l.slice(0, -1)); add(l.slice(0, -2)); }
+  else if (/[^su]s$/.test(l) && !/is$/.test(l)) add(l.slice(0, -1));
+  else {
+    if (/sis$/.test(l)) add(l.slice(0, -2) + 'es');
+    if (/[^aeiou]y$/.test(l)) add(l.slice(0, -1) + 'ies');
+    add(l + 's');
+    if (/(s|x|z|ch|sh|o)$/.test(l)) add(l + 'es');
+  }
+  return [...forms];
+}
+// The part every form of a word shares (to narrow the POEMs read with LIKE).
+function wordStem(w) {
+  if (w.includes('*')) return w;
+  const forms = wordForms(w);
+  let stem = forms[0];
+  for (const f of forms) while (!f.startsWith(stem)) stem = stem.slice(0, -1);
+  return stem.length >= 2 ? stem : w;
+}
+
 function termRegex(term, whole) {
-  const word = w => w.split('*').map(escapeRegex).join('[\\p{L}\\p{N}]*');
+  const plain = w => { const forms = wordForms(w); return forms.length > 1 ? `(?:${forms.map(escapeRegex).join('|')})` : escapeRegex(w); };
+  const word = w => (w.includes('*') ? w.split('*').map(escapeRegex).join('[\\p{L}\\p{N}]*') : plain(w));
   const body = term.split(/\s+/).map(word).join('\\s+');
   return new RegExp(whole ? `(?<![\\p{L}\\p{N}])${body}(?![\\p{L}\\p{N}])` : body, 'iu');
 }
@@ -257,7 +287,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
   // Narrow the rows read: each required term's longest word must appear
   // somewhere. (Phrases are matched exactly below, with flexible whitespace.)
   const longestWord = t => t.split(/[\s*]+/).reduce((a, b) => (b.length > a.length ? b : a), '');
-  const required = [...new Set(requiredTerms(tree).map(longestWord).filter(Boolean))];
+  const required = [...new Set(requiredTerms(tree).map(longestWord).filter(Boolean).map(wordStem))];
   const conditions = required.map(() => "search_text LIKE ? ESCAPE '\\'");
   const args = required.map(w => `%${escapeLike(w)}%`);
   if (publishedOnly) conditions.push("status = 'Published'");

@@ -83,10 +83,10 @@ function searchCalculator(key, q) {
     .sort((a, b) => (b.titleHit - a.titleHit) || a.symptom.localeCompare(b.symptom) || a.disease.localeCompare(b.disease) || a.specialty.localeCompare(b.specialty));
 }
 
-// ---------- Risk scores ----------
+// ---------- Risk scores: name, subtitle, clinical question and categories ----------
 function searchTools(q) {
   return [...tools.values()]
-    .filter(t => q.test(`${t.title}\n${t.subtitle || ''}\n${t.question || ''}`))
+    .filter(t => q.test(`${t.title}\n${t.subtitle || ''}\n${t.question || ''}\n${(t.categories || []).join('\n')}`))
     .map(t => ({ id: t.id, title: t.title, subtitle: t.subtitle || '', titleHit: q.terms.every(x => q.regexFor(x).test(t.title)) }))
     .sort((a, b) => (b.titleHit - a.titleHit) || a.title.localeCompare(b.title));
 }
