@@ -97,6 +97,7 @@
         </button>
         <div id="userMenu" class="user-menu hidden" role="menu">
           <p id="whoAmI" class="user-menu-who"></p>
+          <button type="button" id="searchHelpBtn" role="menuitem">Instructions for searching</button>
           <button type="button" id="settingsToggle" role="menuitem">Change password</button>
           <a href="about.html" data-about role="menuitem">About InfoRetriever</a>
           <a href="about-poems.html" data-about role="menuitem">About POEMs</a>
@@ -255,16 +256,10 @@
             </select>
           </label>
         </div>
-        <div class="search-options">
-          <details class="search-help">
-            <summary>Instructions on searching</summary>
-            <p class="hint search-help-text">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>.</p>
-          </details>
-          <div class="search-checks">
-            <label class="inline-check poem-filter" title="Only POEMs whose title or clinical question matches the search"><input type="checkbox" id="searchMainOnly"> Main topic only</label>
-            <label class="inline-check poem-filter"><input type="checkbox" id="searchExcerpt"> Show Question &amp; Bottom-Line for each POEM</label>
-          </div>
-        </div>
+        <template id="searchHelp">
+          <h2>Instructions for searching</h2>
+          <p>Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>.</p>
+        </template>
         <p id="searchCount" class="hint"></p>
         <div id="searchResults"></div>
       </section>

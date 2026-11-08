@@ -12,10 +12,10 @@ const els = {};
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
   'newPasswordRule',
-  'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'aboutModal', 'aboutModalBody', 'aboutModalClose', 'settingsToggle', 'logoutBtn',
+  'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'searchHelpBtn', 'searchHelp', 'aboutModal', 'aboutModalBody', 'aboutModalClose', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchMainOnly', 'searchCount', 'searchResults',
+  'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
@@ -309,6 +309,10 @@ async function showAbout(page) {
     if (ABOUT_PAGES.includes(a.getAttribute('href'))) a.dataset.about = '';
     else { a.target = '_blank'; a.rel = 'noopener'; }
   });
+  showInfo(view);
+}
+// Shows an article (with an h2 title) in the pop-up.
+function showInfo(view) {
   els.aboutModalBody.textContent = '';
   els.aboutModalBody.appendChild(view);
   els.aboutModalBody.scrollTop = 0;
@@ -329,6 +333,13 @@ document.addEventListener('click', (e) => {
   showAbout(link.getAttribute('href'));
 });
 els.aboutModalClose.addEventListener('click', closeAbout);
+// The searching instructions, from the menu.
+els.searchHelpBtn.addEventListener('click', () => {
+  const view = document.createElement('article');
+  view.className = 'poem-view about-view' + (isReader() ? ' reader-view' : '');
+  view.appendChild(els.searchHelp.content.cloneNode(true));
+  showInfo(view);
+});
 els.aboutModal.addEventListener('mousedown', (e) => { if (e.target === els.aboutModal) closeAbout(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.aboutModal.classList.contains('hidden')) closeAbout(); });
 
@@ -1523,18 +1534,6 @@ function poemTable(group, sort) {
     link.textContent = doc.title || 'Untitled POEM';
     link.addEventListener('click', () => showPoemPopup(doc.id));
     titleCell.appendChild(link);
-    if (els.searchExcerpt.checked) {
-      for (const [label, text] of [['Clinical question', doc.question], ['Bottom-line', doc.bottomLine]]) {
-        if (!text) continue;
-        const snip = document.createElement('div');
-        snip.className = 'search-snippet';
-        const b = document.createElement('b');
-        b.textContent = `${label}: `;
-        snip.appendChild(b);
-        snip.appendChild(document.createTextNode(text));
-        titleCell.appendChild(snip);
-      }
-    }
     row.append(dateCell, titleCell);
     tbody.appendChild(row);
   };
@@ -1550,7 +1549,7 @@ function poemTable(group, sort) {
   pager.setAttribute('aria-label', `Pages of ${group.label} POEMs`);
   const note = document.createElement('p');
   note.className = 'hint';
-  if (group.truncated) note.textContent = `These are the first ${group.poems.length.toLocaleString()} of ${group.total.toLocaleString()}. Make the search more specific, or tick Main topic only, to narrow it.`;
+  if (group.truncated) note.textContent = `These are the first ${group.poems.length.toLocaleString()} of ${group.total.toLocaleString()}. Make the search more specific to narrow it.`;
 
   const showPage = (page, scroll) => {
     tbody.textContent = '';
@@ -1742,12 +1741,6 @@ function renderSearchResults(all) {
       body.appendChild(p);
     }
     if (g.key === 'poems') {
-      if (els.searchExcerpt.checked && data.answersLimit) {
-        const p = document.createElement('p');
-        p.className = 'hint';
-        p.textContent = `The question and bottom-line answer are shown for the first ${data.answersLimit} in each category.`;
-        body.appendChild(p);
-      }
       // A closed panel for each category (opened at once when there is only one).
       for (const group of data.groups) {
         const key = `poems-${group.key}`;
@@ -1808,7 +1801,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchBtn.disabled = true;
   els.searchCount.textContent = 'Searching...';
   try {
-    const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value, main: els.searchMainOnly.checked ? '1' : '' };
+    const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
     const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort, phone: phoneQuery.matches ? '1' : '' })}`);
     if (seq === searchSeq) {
       lastQuery = query;
@@ -1836,7 +1829,7 @@ phoneQuery.addEventListener('change', useShortOptions);
 useShortOptions();
 
 // Changing what to search in, or a POEM filter, re-runs the search being shown.
-[els.searchType, els.searchYears, els.searchAge, els.searchSupertype, els.searchMainOnly].forEach(sel => sel.addEventListener('change', () => {
+[els.searchType, els.searchYears, els.searchAge, els.searchSupertype].forEach(sel => sel.addEventListener('change', () => {
   updatePoemFilters();
   if (lastQuery && els.searchInput.value.trim().length >= 2) els.searchForm.requestSubmit();
 }));
@@ -1886,7 +1879,6 @@ els.evidenceForm.addEventListener('submit', async (e) => {
   }
 });
 
-els.searchExcerpt.addEventListener('change', () => { if (lastResults) renderSearchResults(lastResults); });
 
 // ---------- Administrator: import a monthly batch from a Word file ----------
 (function setUpWordImport() {
