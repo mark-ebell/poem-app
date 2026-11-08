@@ -1430,8 +1430,9 @@ let poemSort = 'relevance'; // how found POEMs are listed: 'relevance' (most rel
 let lastResults = null; // the whole search being shown
 const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
-// The table of one category's POEMs: POEMS_PAGE rows, and a Show more button for the next.
-const POEMS_PAGE = 25;
+// The table of one category's POEMs, a page at a time (20 POEMs, 10 on a phone), with page
+// numbers under it.
+const poemsPerPage = () => (phoneQuery.matches ? 10 : 20);
 function poemTable(group, sort) {
   const table = document.createElement('table');
   table.className = 'library-table search-table';
@@ -1488,25 +1489,58 @@ function poemTable(group, sort) {
   wrap.className = 'library-table-wrap';
   wrap.appendChild(table);
 
-  let shown = 0;
-  const more = document.createElement('button');
-  more.type = 'button';
-  more.className = 'secondary search-more';
+  const perPage = poemsPerPage();
+  const pages = Math.max(1, Math.ceil(group.poems.length / perPage));
+  const pager = document.createElement('nav');
+  pager.className = 'search-pager';
+  pager.setAttribute('aria-label', `Pages of ${group.label} POEMs`);
   const note = document.createElement('p');
   note.className = 'hint';
-  const showMore = () => {
-    group.poems.slice(shown, shown + POEMS_PAGE).forEach(addRow);
-    shown = Math.min(shown + POEMS_PAGE, group.poems.length);
-    const left = group.poems.length - shown;
-    more.textContent = `Show ${Math.min(left, POEMS_PAGE)} more (${left.toLocaleString()} not shown)`;
-    more.classList.toggle('hidden', left <= 0);
-    note.textContent = left <= 0 && group.truncated
-      ? `These are the first ${group.poems.length.toLocaleString()} of ${group.total.toLocaleString()}. Make the search more specific, or tick Main topic only, to narrow it.`
-      : '';
+  if (group.truncated) note.textContent = `These are the first ${group.poems.length.toLocaleString()} of ${group.total.toLocaleString()}. Make the search more specific, or tick Main topic only, to narrow it.`;
+
+  const showPage = (page, scroll) => {
+    tbody.textContent = '';
+    group.poems.slice((page - 1) * perPage, page * perPage).forEach(addRow);
+    pager.textContent = '';
+    if (pages > 1) {
+      const button = (label, target, { current = false, aria } = {}) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'pager-btn' + (current ? ' current' : '');
+        b.textContent = label;
+        if (aria) b.setAttribute('aria-label', aria);
+        if (current) b.setAttribute('aria-current', 'page');
+        if (target < 1 || target > pages || current) b.disabled = true;
+        else b.addEventListener('click', () => showPage(target, true));
+        pager.appendChild(b);
+      };
+      button('‹', page - 1, { aria: 'Previous page' });
+      // Page numbers: the first, the last, and those next to this one, with … for the gaps.
+      const near = phoneQuery.matches ? 1 : 2;
+      let gap = false;
+      for (let n = 1; n <= pages; n++) {
+        if (n === 1 || n === pages || Math.abs(n - page) <= near) {
+          button(String(n), n, { current: n === page, aria: `Page ${n}` });
+          gap = false;
+        } else if (!gap) {
+          const dots = document.createElement('span');
+          dots.className = 'pager-gap';
+          dots.textContent = '…';
+          pager.appendChild(dots);
+          gap = true;
+        }
+      }
+      button('›', page + 1, { aria: 'Next page' });
+      const range = document.createElement('span');
+      range.className = 'pager-range';
+      const first = (page - 1) * perPage + 1, last = Math.min(page * perPage, group.poems.length);
+      range.textContent = `${first === last ? first.toLocaleString() : `${first.toLocaleString()}–${last.toLocaleString()}`} of ${group.poems.length.toLocaleString()}`;
+      pager.appendChild(range);
+    }
+    if (scroll && wrap.getBoundingClientRect().top < 0) wrap.scrollIntoView({ block: 'start' });
   };
-  more.addEventListener('click', showMore);
-  showMore();
-  wrap.append(more, note);
+  showPage(1, false);
+  wrap.append(pager, note);
   return wrap;
 }
 

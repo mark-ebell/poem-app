@@ -859,7 +859,19 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .search-subgroup { margin: 10px 0; border-radius: 8px; }
 .search-subgroup > summary { background: #eef3f7; color: var(--ch-blue); font-size: 1rem; font-weight: 600; padding: 8px 14px; }
 .search-subgroup > .chapter-section-body { padding: 2px 14px 10px; }
-.search-more { margin-top: 8px; }
+.search-pager { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin-top: 10px; }
+.pager-btn { min-width: 34px; padding: 5px 9px; background: #eef1f5; color: var(--text); font-size: 0.9rem; }
+.pager-btn:hover:not(:disabled) { background: #e2e6ec; }
+.pager-btn.current { background: var(--ch-blue); color: #fff; opacity: 1; }
+.pager-btn:disabled:not(.current) { opacity: 0.4; }
+.pager-gap { padding: 0 4px; color: var(--muted); }
+.pager-range { margin-left: 8px; color: var(--muted); font-size: 0.85rem; }
+@media (max-width: 600px) {
+  .search-pager { gap: 3px; }
+  .pager-btn { min-width: 27px; padding: 4px 5px; }
+  .pager-gap { padding: 0 1px; }
+  .pager-range { flex-basis: 100%; margin-left: 0; }
+}
 .search-item-list { list-style: none; padding: 0; margin: 4px 0; }
 .search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }
 .search-item-list li:last-child { border-bottom: 0; }
