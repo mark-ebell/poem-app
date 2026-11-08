@@ -82,9 +82,9 @@ const plain = (text) => [[{ text }]];
 
 // ---------- One POEM -> { title, byline, sections } ----------
 // A section is { label, paragraphs: [runs, ...] }; the label is shown in bold
-// at the start of the first paragraph. Readers are not shown the POET or POEM number.
-// popup (the editors' pop-up): the POET goes after the Bottom-Line, and the POEM number
-// ("POEM #") on the PubMed ID line, instead of in the byline.
+// at the start of the first paragraph. Readers' printouts and the daily email leave out the
+// POET and POEM number. popup (the pop-up, for editors and readers): the POET goes after the
+// Bottom-Line, and the POEM number ("POEM #") on the PubMed ID line, instead of in the byline.
 function describePoem(row, { reader = false, popup = false } = {}) {
   const byline = [];
   if (row.poet && !reader && !popup) byline.push(['POET', poetFullName(row.poet)]);
@@ -110,11 +110,11 @@ function describePoem(row, { reader = false, popup = false } = {}) {
   simple('Population and setting', row.setting);
   add('Synopsis', htmlToParagraphs(row.synopsis));
   add('Bottom-Line', htmlToParagraphs(row.bottom_line));
-  if (popup && !reader && row.poet) simple('POET', poetFullName(row.poet));
+  if (popup && row.poet) simple('POET', poetFullName(row.poet));
 
   const pmid = row.pubmed_id && String(row.pubmed_id).trim();
   const url = row.pubmed_url && SAFE_HREF.test(row.pubmed_url) ? row.pubmed_url : null;
-  const poemNum = popup && !reader && row.poem_id ? String(row.poem_id) : '';
+  const poemNum = popup && row.poem_id ? String(row.poem_id) : '';
   if (pmid || url) {
     const runs = [];
     if (pmid) runs.push({ text: pmid });
@@ -236,7 +236,7 @@ function buildPoemFragment(row) {
 // line breaks inside a field become spaces and a field's paragraphs run together,
 // so the text simply wraps to the window.
 function buildReaderPoemFragment(row) {
-  const poem = describePoem(row, { reader: true });
+  const poem = describePoem(row, { reader: true, popup: true });
   const flow = paragraphs => runsToHtml(paragraphs
     .map(runs => runs.map(r => (r.br ? { text: ' ' } : r)))
     .reduce((all, runs, i) => all.concat(i ? [{ text: ' ' }] : [], runs), []));
