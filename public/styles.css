@@ -890,6 +890,8 @@ ins.tc .cite, del.tc .cite { color: inherit; }
   .tab-btn { padding: 6px 3px; font-size: 0.82rem; white-space: nowrap; }
   .tabs { gap: 0 1px; }
   .search-filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+  /* Only Search in is showing (not searching POEMs): room for a longer name such as Risk scores */
+  .search-filters:has(.poem-filter.hidden) > label:first-child { grid-column: span 2; }
   .search-filters label { font-size: 0.8rem; }
   .search-filters select { width: 100%; font-size: 0.8rem; padding: 6px 4px; }
   /* calculator tabs: slider ends labelled, compact result boxes, full-width menu lists */
