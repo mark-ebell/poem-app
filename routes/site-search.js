@@ -1,7 +1,7 @@
 // The Search tab: one search across POEMs, textbook chapters (full text), the History and
 // Physical and Diagnostic Tests calculators, and the Risk Scores, with the same AND / OR /
 // NOT rules as the POEM search (search.js). ?q=…&type=all|poems|chapters|signs|tests|tools
-// and, for POEMs, &years=…&age=…&supertype=…&sort=relevance|date. One search counts once toward a reader's limits.
+// and, for POEMs, &years=…&age=…&supertype=…&sort=relevance|date&main=1 (main topic only). One search counts once toward a reader's limits.
 const path = require('path');
 const fs = require('fs');
 const express = require('express');
@@ -100,7 +100,7 @@ router.get('/', quota('search'), (req, res) => {
   if (q.error) return res.status(400).json({ error: q.error });
   const out = { type, terms: q.terms, whole: true };
   if (want('poems')) {
-    const poems = searchPoems({ q: req.query.q, whole: true, years: parseYears(req.query.years), sort: parseSort(req.query.sort), ...poemFilters(req.query) }, { reader: isReader(req) });
+    const poems = searchPoems({ q: req.query.q, whole: true, years: parseYears(req.query.years), sort: parseSort(req.query.sort), mainOnly: req.query.main === '1', ...poemFilters(req.query) }, { reader: isReader(req) });
     if (poems.error) return res.status(400).json({ error: poems.error });
     out.poems = poems;
   }

@@ -232,8 +232,8 @@
               <option value="2" data-short="2 yrs">Last 2 years</option>
               <option value="3" data-short="3 yrs">Last 3 years</option>
               <option value="5" data-short="5 yrs">Last 5 years</option>
-              <option value="10" data-short="10 yrs">Last 10 years</option>
-              <option value="all" selected data-short="All">Entire database</option>
+              <option value="10" selected data-short="10 yrs">Last 10 years</option>
+              <option value="all" data-short="All">Entire database</option>
             </select>
           </label>
           <label class="poem-filter"><span class="wide-label">Age group</span><span class="phone-label">Age:</span>
@@ -260,7 +260,10 @@
             <summary>Instructions on searching</summary>
             <p class="hint search-help-text">Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>.</p>
           </details>
-          <label class="inline-check poem-filter"><input type="checkbox" id="searchExcerpt"> Show Question &amp; Bottom-Line for each POEM</label>
+          <div class="search-checks">
+            <label class="inline-check poem-filter" title="Only POEMs whose title or clinical question matches the search"><input type="checkbox" id="searchMainOnly"> Main topic only</label>
+            <label class="inline-check poem-filter"><input type="checkbox" id="searchExcerpt"> Show Question &amp; Bottom-Line for each POEM</label>
+          </div>
         </div>
         <p id="searchCount" class="hint"></p>
         <div id="searchResults"></div>

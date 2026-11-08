@@ -15,7 +15,7 @@ const els = {};
   'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
-  'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
+  'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchMainOnly', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
@@ -1425,38 +1425,39 @@ els.poemModalClose.addEventListener('click', closePoemPopup);
 els.poemModal.addEventListener('mousedown', (e) => { if (e.target === els.poemModal) closePoemPopup(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.poemModal.classList.contains('hidden')) closePoemPopup(); });
 
-let lastQuery = null; // { q, years, age, supertype } of the search being shown
+let lastQuery = null; // { q, years, age, supertype, main } of the search being shown
 let poemSort = 'relevance'; // how found POEMs are listed: 'relevance' (most relevant first) or 'date' (newest first)
 let lastResults = null; // the whole search being shown
 const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
-// The table of POEMs found, as on the old Search POEMs tab.
-function poemTable(data) {
+// The table of one category's POEMs: POEMS_PAGE rows, and a Show more button for the next.
+const POEMS_PAGE = 25;
+function poemTable(group, sort) {
   const table = document.createElement('table');
   table.className = 'library-table search-table';
   const headRow = document.createElement('tr');
-  [['date', 'Date'], ['relevance', 'Title (relevance)']].forEach(([sort, label]) => {
+  [['date', 'Date'], ['relevance', 'Title (relevance)']].forEach(([key, label]) => {
     const th = document.createElement('th');
     th.className = 'sortable';
     th.tabIndex = 0;
     th.textContent = label;
-    if (data.sort === sort) {
+    if (sort === key) {
       th.setAttribute('aria-sort', 'descending');
       const arrow = document.createElement('span');
       arrow.className = 'sort-arrow';
       arrow.textContent = '▼';
       th.appendChild(arrow);
     }
-    th.title = sort === 'date' ? 'List newest first' : 'List most relevant first';
-    th.addEventListener('click', () => sortPoems(sort));
-    th.addEventListener('keydown', e => { if (e.key === 'Enter') sortPoems(sort); });
+    th.title = key === 'date' ? 'List newest first' : 'List most relevant first';
+    th.addEventListener('click', () => sortPoems(key));
+    th.addEventListener('keydown', e => { if (e.key === 'Enter') sortPoems(key); });
     headRow.appendChild(th);
   });
   const thead = document.createElement('thead');
   thead.appendChild(headRow);
   table.appendChild(thead);
   const tbody = document.createElement('tbody');
-  data.poems.forEach(doc => {
+  const addRow = doc => {
     const row = document.createElement('tr');
     const dateCell = document.createElement('td');
     dateCell.textContent = formatShortMonthYear(doc.publicationDate) || '—'; // as on the Browse tab
@@ -1481,11 +1482,31 @@ function poemTable(data) {
     }
     row.append(dateCell, titleCell);
     tbody.appendChild(row);
-  });
+  };
   table.appendChild(tbody);
   const wrap = document.createElement('div');
   wrap.className = 'library-table-wrap';
   wrap.appendChild(table);
+
+  let shown = 0;
+  const more = document.createElement('button');
+  more.type = 'button';
+  more.className = 'secondary search-more';
+  const note = document.createElement('p');
+  note.className = 'hint';
+  const showMore = () => {
+    group.poems.slice(shown, shown + POEMS_PAGE).forEach(addRow);
+    shown = Math.min(shown + POEMS_PAGE, group.poems.length);
+    const left = group.poems.length - shown;
+    more.textContent = `Show ${Math.min(left, POEMS_PAGE)} more (${left.toLocaleString()} not shown)`;
+    more.classList.toggle('hidden', left <= 0);
+    note.textContent = left <= 0 && group.truncated
+      ? `These are the first ${group.poems.length.toLocaleString()} of ${group.total.toLocaleString()}. Make the search more specific, or tick Main topic only, to narrow it.`
+      : '';
+  };
+  more.addEventListener('click', showMore);
+  showMore();
+  wrap.append(more, note);
   return wrap;
 }
 
@@ -1636,10 +1657,24 @@ function renderSearchResults(all) {
       if (els.searchExcerpt.checked && data.answersLimit) {
         const p = document.createElement('p');
         p.className = 'hint';
-        p.textContent = `The question and bottom-line answer are shown for the first ${data.answersLimit}.`;
+        p.textContent = `The question and bottom-line answer are shown for the first ${data.answersLimit} in each category.`;
         body.appendChild(p);
       }
-      body.appendChild(poemTable(data));
+      // A closed panel for each category (opened at once when there is only one).
+      for (const group of data.groups) {
+        const key = `poems-${group.key}`;
+        const sub = document.createElement('details');
+        sub.className = 'chapter-section search-subgroup';
+        sub.open = data.groups.length === 1 || openGroups.has(key);
+        sub.addEventListener('toggle', () => { if (sub.open) openGroups.add(key); else openGroups.delete(key); });
+        const subSummary = document.createElement('summary');
+        subSummary.textContent = `${group.label} (${group.total.toLocaleString()})`;
+        const subBody = document.createElement('div');
+        subBody.className = 'chapter-section-body';
+        subBody.appendChild(poemTable(group, data.sort));
+        sub.append(subSummary, subBody);
+        body.appendChild(sub);
+      }
     } else {
       body.appendChild(g.list(data, all.terms));
     }
@@ -1647,6 +1682,24 @@ function renderSearchResults(all) {
     els.searchResults.appendChild(panel);
   }
   els.searchCount.textContent = anyFound ? '' : 'Nothing matches that search.';
+  // POEMs are searched over the last 10 years unless another span is chosen: say so, with a
+  // link to search them all.
+  const years = lastQuery && lastQuery.years;
+  if (all.poems && years && years !== 'all') {
+    const note = document.createElement('span');
+    note.className = 'search-years-note';
+    note.append(`${anyFound ? '' : ' '}POEMs from the last ${years === '1' ? 'year' : `${years} years`}. `);
+    const link = document.createElement('button');
+    link.type = 'button';
+    link.className = 'link-btn';
+    link.textContent = 'Search all years';
+    link.addEventListener('click', () => {
+      els.searchYears.value = 'all';
+      els.searchYears.dispatchEvent(new Event('change'));
+    });
+    note.appendChild(link);
+    els.searchCount.appendChild(note);
+  }
 }
 
 // The time span, age group and category apply to POEMs only.
@@ -1667,7 +1720,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchBtn.disabled = true;
   els.searchCount.textContent = 'Searching...';
   try {
-    const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
+    const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value, main: els.searchMainOnly.checked ? '1' : '' };
     const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort })}`);
     if (seq === searchSeq) {
       lastQuery = query;
@@ -1695,7 +1748,7 @@ phoneQuery.addEventListener('change', useShortOptions);
 useShortOptions();
 
 // Changing what to search in, or a POEM filter, re-runs the search being shown.
-[els.searchType, els.searchYears, els.searchAge, els.searchSupertype].forEach(sel => sel.addEventListener('change', () => {
+[els.searchType, els.searchYears, els.searchAge, els.searchSupertype, els.searchMainOnly].forEach(sel => sel.addEventListener('change', () => {
   updatePoemFilters();
   if (lastQuery && els.searchInput.value.trim().length >= 2) els.searchForm.requestSubmit();
 }));

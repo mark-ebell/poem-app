@@ -848,12 +848,18 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .search-help[open] > summary { margin-bottom: 4px; }
 .search-options { align-items: flex-start; margin: 8px 0 6px; }
 .search-options .inline-check { line-height: 1.5; }
-/* Wider screens: the checkbox sits at the right of the instructions line and the opened text runs underneath it */
+.search-checks { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+/* Wider screens: the checkboxes sit at the right of the instructions line and the opened text runs underneath them */
 @media (min-width: 640px) {
   .search-options { position: relative; }
-  .search-options .inline-check { position: absolute; top: 0; right: 0; }
+  .search-checks { position: absolute; top: 0; right: 0; }
 }
 .search-group > summary { font-size: 1.1rem; }
+/* POEMs found, by category: lighter panels inside the POEMs panel */
+.search-subgroup { margin: 10px 0; border-radius: 8px; }
+.search-subgroup > summary { background: #eef3f7; color: var(--ch-blue); font-size: 1rem; font-weight: 600; padding: 8px 14px; }
+.search-subgroup > .chapter-section-body { padding: 2px 14px 10px; }
+.search-more { margin-top: 8px; }
 .search-item-list { list-style: none; padding: 0; margin: 4px 0; }
 .search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }
 .search-item-list li:last-child { border-bottom: 0; }

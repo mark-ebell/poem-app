@@ -172,6 +172,23 @@ const SUPERTYPE_GROUPS = {
 SUPERTYPE_GROUPS.other = `NOT (${["COALESCE(lower(supertype), '') LIKE 'dx%'", "COALESCE(lower(supertype), '') LIKE 'tx%'",
   "COALESCE(lower(supertype), '') = 'tcam'", "COALESCE(lower(supertype), '') LIKE 'sc%'", "COALESCE(lower(supertype), '') LIKE 'px%'"].join(' OR ')})`;
 
+// The same groups for showing search results, in the order shown (as in the Evidence Summary).
+const RESULT_GROUPS = [
+  { key: 'dx', label: 'Diagnosis' },
+  { key: 'tx', label: 'Treatment' },
+  { key: 'sc', label: 'Screening and prevention' },
+  { key: 'px', label: 'Prognosis' },
+  { key: 'other', label: 'Other' }
+];
+function groupOf(supertype) {
+  const s = String(supertype || '').toLowerCase();
+  if (s.startsWith('dx')) return 'dx';
+  if (s.startsWith('tx') || s === 'tcam') return 'tx';
+  if (s.startsWith('sc')) return 'sc';
+  if (s.startsWith('px')) return 'px';
+  return 'other';
+}
+
 // Parses a query for searching text other than POEMs (chapters, calculators, risk scores):
 // returns { error } or { test(text) -> boolean, terms, regexFor(term) }, with the same
 // rules and limits as the POEM search.
@@ -219,8 +236,9 @@ const newestFirst = (a, b) =>
 // Parses and runs a query; returns { error } or { hits, highlightTerms, whole }, with hits
 // as { row } sorted by sort: 'relevance' (most relevant first, ties newest first) or
 // 'date' (newest first). publishedOnly (for readers) leaves out POEMs that are still
-// being edited; supertypeGroup is a key of SUPERTYPE_GROUPS.
-function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGroup = null, publishedOnly = false, sort = 'relevance' }) {
+// being edited; supertypeGroup is a key of SUPERTYPE_GROUPS; mainOnly keeps only POEMs whose
+// title or clinical question matches the query by itself (the POEM's main topic).
+function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGroup = null, publishedOnly = false, sort = 'relevance', mainOnly = false }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -250,7 +268,7 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
   }
   const where = conditions.length ? 'WHERE ' + conditions.join(' AND ') : '';
   const rows = db.prepare(`
-    SELECT id, poem_id, title, poet, publication_date, clinical_question, bottom_line, search_text FROM poems ${where}
+    SELECT id, poem_id, title, poet, publication_date, supertype, clinical_question, bottom_line, search_text FROM poems ${where}
   `).all(...args);
 
   const regexCache = new Map();
@@ -268,6 +286,10 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
       return memo.get(t);
     };
     if (!evaluate(tree, test)) continue;
+    if (mainOnly) {
+      const main = `${r.title || ''}\n${r.clinical_question || ''}`;
+      if (!evaluate(tree, t => regexFor(t).test(main))) continue;
+    }
     hits.push({ row: r, score: sort === 'date' ? 0 : relevanceOf(r, highlightTerms, regexFor) });
   }
 
@@ -276,28 +298,40 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
   return { hits, highlightTerms, whole: !!whole };
 }
 
-// reader: Published POEMs only, a shorter list, and no POET or POEM number.
+// The POEMs found, in groups by category (RESULT_GROUPS, leaving out empty ones), each in
+// the order asked for and listing at most MAX_RESULTS (READER_MAX_RESULTS for a reader).
+// reader: Published POEMs only, no POET or POEM number, and the question and bottom-line
+// answer for the first READER_MAX_ANSWERS of each group only.
 function searchPoems(params, { reader = false } = {}) {
   const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
   const { hits, highlightTerms, whole } = result;
   const max = reader ? READER_MAX_RESULTS : MAX_RESULTS;
-  const poems = hits.slice(0, max).map(({ row }, i) => (reader ? {
-    id: row.id,
-    title: row.title,
-    publicationDate: row.publication_date,
-    ...(i < READER_MAX_ANSWERS ? { question: plainLine(row.clinical_question), bottomLine: plainLine(row.bottom_line) } : {})
-  } : {
-    id: row.id,
-    poemId: row.poem_id,
-    title: row.title,
-    poet: row.poet,
-    publicationDate: row.publication_date,
-    question: plainLine(row.clinical_question),
-    bottomLine: plainLine(row.bottom_line)
-  }));
-  const answersLimit = reader && poems.length > READER_MAX_ANSWERS ? READER_MAX_ANSWERS : null;
-  return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems, answersLimit, sort: params.sort === 'date' ? 'date' : 'relevance' };
+  const byGroup = new Map(RESULT_GROUPS.map(g => [g.key, []]));
+  for (const { row } of hits) byGroup.get(groupOf(row.supertype)).push(row);
+  const groups = RESULT_GROUPS.filter(g => byGroup.get(g.key).length).map(g => {
+    const rows = byGroup.get(g.key);
+    const poems = rows.slice(0, max).map((row, i) => (reader ? {
+      id: row.id,
+      title: row.title,
+      publicationDate: row.publication_date,
+      ...(i < READER_MAX_ANSWERS ? { question: plainLine(row.clinical_question), bottomLine: plainLine(row.bottom_line) } : {})
+    } : {
+      id: row.id,
+      poemId: row.poem_id,
+      title: row.title,
+      poet: row.poet,
+      publicationDate: row.publication_date,
+      question: plainLine(row.clinical_question),
+      bottomLine: plainLine(row.bottom_line)
+    }));
+    return { key: g.key, label: g.label, total: rows.length, truncated: rows.length > max, poems };
+  });
+  return {
+    total: hits.length, terms: highlightTerms, whole, groups,
+    answersLimit: reader ? READER_MAX_ANSWERS : null,
+    sort: params.sort === 'date' ? 'date' : 'relevance', mainOnly: !!params.mainOnly
+  };
 }
 
 // Every POEM matching a query, in full, in the same order as the search results.
