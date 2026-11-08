@@ -83,11 +83,13 @@ const plain = (text) => [[{ text }]];
 // ---------- One POEM -> { title, byline, sections } ----------
 // A section is { label, paragraphs: [runs, ...] }; the label is shown in bold
 // at the start of the first paragraph. Readers are not shown the POET or POEM number.
-function describePoem(row, { reader = false } = {}) {
+// popup (the editors' pop-up): the POET goes after the Bottom-Line, and the POEM number
+// ("POEM #") on the PubMed ID line, instead of in the byline.
+function describePoem(row, { reader = false, popup = false } = {}) {
   const byline = [];
-  if (row.poet && !reader) byline.push(['POET', row.poet]);
+  if (row.poet && !reader && !popup) byline.push(['POET', row.poet]);
   if (monthYear(row.publication_date)) byline.push(['Publication date', monthYear(row.publication_date)]);
-  if (row.poem_id && !reader) byline.push(['POEM number', String(row.poem_id)]);
+  if (row.poem_id && !reader && !popup) byline.push(['POEM number', String(row.poem_id)]);
 
   const sections = [];
   const add = (label, paragraphs) => { if (paragraphs && paragraphs.length) sections.push({ label, paragraphs }); };
@@ -108,15 +110,18 @@ function describePoem(row, { reader = false } = {}) {
   simple('Population and setting', row.setting);
   add('Synopsis', htmlToParagraphs(row.synopsis));
   add('Bottom-Line', htmlToParagraphs(row.bottom_line));
+  if (popup && !reader) simple('POET', row.poet);
 
   const pmid = row.pubmed_id && String(row.pubmed_id).trim();
   const url = row.pubmed_url && SAFE_HREF.test(row.pubmed_url) ? row.pubmed_url : null;
+  const poemNum = popup && !reader && row.poem_id ? String(row.poem_id) : '';
   if (pmid || url) {
     const runs = [];
     if (pmid) runs.push({ text: pmid });
     if (url) runs.push({ text: pmid ? '  ' : '' }, { text: url, href: url });
+    if (poemNum) runs.push({ text: '\u00a0\u00a0\u00a0\u00a0' }, { text: 'POEM #:', bold: true }, { text: ` ${poemNum}` });
     add('PubMed ID', [runs]);
-  }
+  } else if (poemNum) simple('POEM #', poemNum);
   return { title: row.title || 'Untitled POEM', byline, sections };
 }
 
@@ -224,7 +229,7 @@ function poemInnerHtml(row, opts) {
 
 // One POEM for on-screen viewing (the pop-up on the Search tab).
 function buildPoemFragment(row) {
-  return `<article class="poem-view">${poemInnerHtml(row)}</article>`;
+  return `<article class="poem-view">${poemInnerHtml(row, { popup: true })}</article>`;
 }
 
 // The readers' pop-up: bold title and field headings, and no hard line breaks:
