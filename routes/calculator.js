@@ -67,11 +67,11 @@ router.get('/:panel/number/:num', (req, res) => {
 function summaryRows(tests) {
   const lr = (given, value) => (given !== null && given !== undefined ? given : (Number.isFinite(value) ? value : null));
   return tests.map(t => {
-    if (t.multi === 1) return { name: t.name, disambig: t.disambig || null, multi: 1, pretest: t.pretest ?? null, options: t.options };
+    if (t.multi === 1) return { id: t.id, name: t.name, disambig: t.disambig || null, multi: 1, pretest: t.pretest ?? null, options: t.options };
     const sens = t.sens === null || t.sens === undefined ? null : t.sens / 100;
     const spec = t.spec === null || t.spec === undefined ? null : t.spec / 100;
     return {
-      name: t.name, disambig: t.disambig || null, multi: 0, pretest: t.pretest ?? null, sens: t.sens ?? null, spec: t.spec ?? null,
+      id: t.id, name: t.name, disambig: t.disambig || null, multi: 0, pretest: t.pretest ?? null, sens: t.sens ?? null, spec: t.spec ?? null,
       plr: lr(t.plr, sens !== null && spec !== null && spec < 1 ? sens / (1 - spec) : NaN),
       nlr: lr(t.nlr, sens !== null && spec !== null && spec > 0 ? (1 - sens) / spec : NaN)
     };

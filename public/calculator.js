@@ -210,7 +210,15 @@ function renderCompare() {
   let p = Number($('compareNum').value);
   if (!Number.isFinite(p)) p = compare.start;
   p = Math.min(Math.max(p, 0.1), 99.9);
-  renderSummaryTables($('compareTables'), compare.data.tests, compare.key === 'signsSymptoms' ? 'signs' : 'tests', p);
+  renderSummaryTables($('compareTables'), compare.data.tests, compare.key === 'signsSymptoms' ? 'signs' : 'tests', p, openFromCompare);
+}
+
+// A name in the Compare all table: opens the calculator for it, as choosing it in step 3 does.
+async function openFromCompare(test) {
+  if (test.id === undefined || test.id === null) return;
+  $('calcItem').value = String(test.id);
+  await onItemChange();
+  $('calcResult').scrollIntoView({ block: 'start' });
 }
 
 $('calcCompare').addEventListener('toggle', () => { if ($('calcCompare').open) loadCompare(); });
