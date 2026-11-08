@@ -12,7 +12,7 @@ const els = {};
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
   'newPasswordRule',
-  'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'settingsToggle', 'logoutBtn',
+  'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'aboutModal', 'aboutModalBody', 'aboutModalClose', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchMainOnly', 'searchCount', 'searchResults',
@@ -277,6 +277,60 @@ document.addEventListener('keydown', (e) => {
 });
 
 els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.toggle('hidden'));
+
+// ---------- About InfoRetriever / About POEMs: the pages' text in a pop-up ----------
+// Links marked data-about (in the menu and on the login screen) open it, and so do the links
+// between the two pages inside it. The type is the POEM pop-up's (larger for readers).
+const ABOUT_PAGES = ['about.html', 'about-poems.html'];
+async function showAbout(page) {
+  let doc;
+  try {
+    const resp = await fetch(page);
+    if (!resp.ok) throw new Error(`Request failed (${resp.status}).`);
+    doc = new DOMParser().parseFromString(await resp.text(), 'text/html');
+  } catch (err) {
+    alert(`Could not open this page: ${err.message}`);
+    return;
+  }
+  const section = doc.querySelector('section.terms');
+  if (!section) return;
+  // Leave out "Back to InfoRetriever" (and the " · " before it), and its line if nothing else is on it.
+  section.querySelectorAll('a[href="/"]').forEach(a => {
+    const p = a.parentElement;
+    const before = a.previousSibling;
+    if (before && before.nodeType === Node.TEXT_NODE) before.textContent = before.textContent.replace(/\s*·\s*$/, '');
+    a.remove();
+    if (p && p.tagName === 'P' && !p.textContent.trim()) p.remove();
+  });
+  const view = document.createElement('article');
+  view.className = 'poem-view about-view' + (!currentUser || isReader() ? ' reader-view' : '');
+  view.append(...section.childNodes);
+  view.querySelectorAll('a[href]').forEach(a => {
+    if (ABOUT_PAGES.includes(a.getAttribute('href'))) a.dataset.about = '';
+    else { a.target = '_blank'; a.rel = 'noopener'; }
+  });
+  els.aboutModalBody.textContent = '';
+  els.aboutModalBody.appendChild(view);
+  els.aboutModalBody.scrollTop = 0;
+  els.aboutModal.setAttribute('aria-label', (view.querySelector('h2') || {}).textContent || 'About');
+  els.aboutModal.classList.remove('hidden');
+  document.body.classList.add('modal-open');
+  els.aboutModalClose.focus();
+}
+function closeAbout() {
+  els.aboutModal.classList.add('hidden');
+  document.body.classList.remove('modal-open');
+  els.aboutModalBody.textContent = '';
+}
+document.addEventListener('click', (e) => {
+  const link = e.target.closest('a[data-about]');
+  if (!link) return;
+  e.preventDefault();
+  showAbout(link.getAttribute('href'));
+});
+els.aboutModalClose.addEventListener('click', closeAbout);
+els.aboutModal.addEventListener('mousedown', (e) => { if (e.target === els.aboutModal) closeAbout(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.aboutModal.classList.contains('hidden')) closeAbout(); });
 
 // ---------- Tabs ----------
 // Signs and Symptoms and Diagnostic Tests share one panel (the same calculator, different data).

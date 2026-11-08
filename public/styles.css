@@ -424,6 +424,13 @@ body.modal-open { overflow: hidden; }
 .poem-view.reader-view { font-size: 10pt; }
 .poem-view.reader-view h1 { font-size: 10pt; }
 .poem-view.reader-view .byline { margin-bottom: 8pt; }
+/* About InfoRetriever / About POEMs pop-up: the POEM pop-up's type, with its headings and lists */
+.about-view h2 { font-size: 12pt; font-weight: bold; margin: 0 0 8pt; }
+.poem-view.reader-view.about-view h2 { font-size: 11pt; }
+.about-view h3 { font-size: 1em; font-weight: bold; margin: 12pt 0 4pt; }
+.about-view ul { margin: 0 0 7pt; padding-left: 18pt; }
+.about-view li { margin: 0 0 3pt; }
+.about-view a { color: var(--accent); }
 
 /* --- Evidence Summary --- */
 .evidence-fields { flex-wrap: wrap; margin-bottom: 10px; }

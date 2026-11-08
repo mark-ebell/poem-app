@@ -82,7 +82,7 @@
         <p id="resetError" class="error-msg hidden"></p>
       </form>
     </div>
-    <p class="login-copyright"><a href="about.html" target="_blank" rel="noopener">About InfoRetriever</a> · <a href="about-poems.html" target="_blank" rel="noopener">About POEMs</a> · <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a></p>
+    <p class="login-copyright"><a href="about.html" data-about>About InfoRetriever</a> · <a href="about-poems.html" data-about>About POEMs</a> · <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a></p>
   </div>
 
   <div id="appRoot" class="hidden">
@@ -98,8 +98,8 @@
         <div id="userMenu" class="user-menu hidden" role="menu">
           <p id="whoAmI" class="user-menu-who"></p>
           <button type="button" id="settingsToggle" role="menuitem">Change password</button>
-          <a href="about.html" target="_blank" rel="noopener" role="menuitem">About InfoRetriever</a>
-          <a href="about-poems.html" target="_blank" rel="noopener" role="menuitem">About POEMs</a>
+          <a href="about.html" data-about role="menuitem">About InfoRetriever</a>
+          <a href="about-poems.html" data-about role="menuitem">About POEMs</a>
           <button type="button" id="logoutBtn" role="menuitem">Log out</button>
         </div>
       </div>
@@ -785,6 +785,16 @@
     </div>
   </div>
   <footer id="siteFooter" class="site-footer"></footer>
+
+  <!-- About InfoRetriever / About POEMs (about.html, about-poems.html), shown in a pop-up -->
+  <div id="aboutModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="About">
+    <div class="modal">
+      <div class="modal-bar">
+        <button type="button" id="aboutModalClose">Close</button>
+      </div>
+      <div id="aboutModalBody" class="modal-body"></div>
+    </div>
+  </div>
 </div>
 <script type="module" src="app.js"></script>
 </body>
