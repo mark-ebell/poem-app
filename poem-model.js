@@ -11,6 +11,22 @@ const PUBMED_BASE = 'https://pubmed.ncbi.nlm.nih.gov/';
 const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant', 'Rowland', 'Rayala', 'Ferenchick', 'Kurotschka', 'Sexton', 'Lin'];
 const POET_BY_INITIALS = { HB: 'Barry', ME: 'Ebell', AS: 'Shaughnessy', DS: 'Slawson', LS: 'Speer', LF: 'Speer', NS: 'Shrikant', NK: 'Shrikant' };
 const POEM_STATUSES = ['Being edited', 'Ready for review', 'Ready for copy edit', 'Published'];
+// Each POET's full name and degrees, shown wherever a POEM names its POET.
+const POET_FULL_NAMES = {
+  Ebell: 'Mark H. Ebell, MD, MS',
+  Barry: 'Henry C. Barry, MD, MS',
+  Slawson: 'David C. Slawson, MD',
+  Shaughnessy: 'Allen Shaughnessy, PharmD, MEd',
+  Speer: 'Linda Speer, MD',
+  Shrikant: 'Nita S. Kulkarni, MD',
+  Rowland: 'Kate Rowland, MD, MS',
+  Rayala: 'Brian Rayala, MD',
+  Ferenchick: 'Gary Ferenchick, MD',
+  Kurotschka: 'Peter C. Kurotschka, MD, PhD',
+  Sexton: 'Sumi Sexton, MD',
+  Lin: 'Kenneth W. Lin, MD, MPH'
+};
+const poetFullName = poet => POET_FULL_NAMES[poet] || poet;
 const INITIALS_BY_POET = { Barry: 'HB', Ebell: 'ME', Shaughnessy: 'AS', Slawson: 'DS', Speer: 'LS', Shrikant: 'NS' };
 
 const AGE_CODE_BY_LABEL = {
@@ -328,7 +344,7 @@ function toListItem(row) {
 }
 
 module.exports = {
-  VALID_POETS, POEM_STATUSES, POET_BY_INITIALS, INITIALS_BY_POET, PUBMED_BASE,
+  VALID_POETS, POEM_STATUSES, POET_BY_INITIALS, INITIALS_BY_POET, POET_FULL_NAMES, poetFullName, PUBMED_BASE,
   escapeHtml, decodeEntities, htmlToText, sanitizeHtml, textToHtml,
   generatePoemId, pubmedUrlFor, poetFromInitials, ageCodeFromLabel,
   parseLegacyHtml, normalizePoemBody, toClient, toListItem

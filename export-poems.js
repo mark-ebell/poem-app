@@ -4,7 +4,7 @@
 const {
   Document, Packer, Paragraph, TextRun, ExternalHyperlink, Header, Footer, PageNumber, AlignmentType, HeadingLevel
 } = require('docx');
-const { escapeHtml, decodeEntities } = require('./poem-model');
+const { escapeHtml, decodeEntities, poetFullName } = require('./poem-model');
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
   'October', 'November', 'December'];
@@ -87,7 +87,7 @@ const plain = (text) => [[{ text }]];
 // ("POEM #") on the PubMed ID line, instead of in the byline.
 function describePoem(row, { reader = false, popup = false } = {}) {
   const byline = [];
-  if (row.poet && !reader && !popup) byline.push(['POET', row.poet]);
+  if (row.poet && !reader && !popup) byline.push(['POET', poetFullName(row.poet)]);
   if (monthYear(row.publication_date)) byline.push(['Publication date', monthYear(row.publication_date)]);
   if (row.poem_id && !reader && !popup) byline.push(['POEM number', String(row.poem_id)]);
 
@@ -110,7 +110,7 @@ function describePoem(row, { reader = false, popup = false } = {}) {
   simple('Population and setting', row.setting);
   add('Synopsis', htmlToParagraphs(row.synopsis));
   add('Bottom-Line', htmlToParagraphs(row.bottom_line));
-  if (popup && !reader) simple('POET', row.poet);
+  if (popup && !reader && row.poet) simple('POET', poetFullName(row.poet));
 
   const pmid = row.pubmed_id && String(row.pubmed_id).trim();
   const url = row.pubmed_url && SAFE_HREF.test(row.pubmed_url) ? row.pubmed_url : null;
