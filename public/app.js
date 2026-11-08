@@ -11,8 +11,8 @@ const els = {};
   'loginView', 'signupView', 'forgotView', 'resetView', 'showForgot', 'showSignup', 'showLoginFromSignup', 'showLoginFromForgot',
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
-  'newPasswordRule', 'browseAuthorField', 'evidenceHelp',
-  'appRoot', 'whoAmI', 'settingsToggle', 'logoutBtn',
+  'newPasswordRule', 'evidenceHelp',
+  'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchExcerpt', 'searchCount', 'searchResults',
@@ -259,6 +259,21 @@ els.changePasswordForm.addEventListener('submit', async (e) => {
     els.settingsError.textContent = err.message;
     els.settingsError.classList.remove('hidden');
   }
+});
+
+// ---------- The menu at the top right ----------
+function setMenuOpen(open) {
+  els.userMenu.classList.toggle('hidden', !open);
+  els.menuBtn.setAttribute('aria-expanded', String(open));
+}
+els.menuBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  setMenuOpen(els.userMenu.classList.contains('hidden'));
+});
+els.userMenu.addEventListener('click', (e) => { if (e.target.closest('button, a')) setMenuOpen(false); });
+document.addEventListener('click', (e) => { if (!els.userMenu.contains(e.target) && e.target !== els.menuBtn) setMenuOpen(false); });
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !els.userMenu.classList.contains('hidden')) { setMenuOpen(false); els.menuBtn.focus(); }
 });
 
 els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.toggle('hidden'));
@@ -1373,118 +1388,15 @@ function renderBrowse() {
   }
 }
 
-[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge].forEach(sel => sel.addEventListener('change', () => {
-  if (isReader()) renderReaderBrowse();
-  else renderBrowse();
-}));
-
-// ---------- Readers' Browse: the server filters, and lists Published titles only ----------
-async function loadReaderBrowse() {
-  try {
-    const { years, latest } = await api('/poems/browse-options');
-    setOptions(els.browseYear, [[ALL, 'All years'], ...years.map(y => [y, y])], latest ? latest.slice(0, 4) : ALL);
-    setOptions(els.browseMonth, [[ALL, 'All months'], ...MONTH_NAMES.map((n, i) => [String(i + 1).padStart(2, '0'), n])], latest ? latest.slice(5, 7) : ALL);
-    await renderReaderBrowse();
-  } catch (err) {
-    els.browseCount.textContent = `Could not load POEMs: ${err.message}`;
-  }
-}
-
-let browseSeq = 0;
-async function renderReaderBrowse() {
-  const seq = ++browseSeq;
-  const params = new URLSearchParams({ year: els.browseYear.value, month: els.browseMonth.value, age: els.browseAge.value });
-  let data;
-  try {
-    data = await api(`/poems/browse?${params}`);
-  } catch (err) {
-    if (seq === browseSeq) { els.browseCount.textContent = err.message; els.browseResults.textContent = ''; }
-    return;
-  }
-  if (seq !== browseSeq) return;
-  els.browseCount.textContent = `${data.total.toLocaleString()} POEM${data.total === 1 ? '' : 's'}` +
-    (data.truncated ? ` — showing the most recent ${data.poems.length}. Choose a year or month to see the rest.` : '');
-  els.browseResults.textContent = '';
-  if (!data.total) {
-    const p = document.createElement('p');
-    p.className = 'library-empty';
-    p.textContent = 'No POEMs match these filters.';
-    els.browseResults.appendChild(p);
-    return;
-  }
-  const table = document.createElement('table');
-  table.className = 'library-table';
-  const headRow = document.createElement('tr');
-  ['Date', 'Title'].forEach(label => {
-    const th = document.createElement('th');
-    th.textContent = label;
-    headRow.appendChild(th);
-  });
-  const thead = document.createElement('thead');
-  thead.appendChild(headRow);
-  table.appendChild(thead);
-  const tbody = document.createElement('tbody');
-  data.poems.forEach(doc => {
-    const row = document.createElement('tr');
-    const dateCell = document.createElement('td');
-    dateCell.className = 'browse-date';
-    dateCell.textContent = formatShortMonthYear(doc.publicationDate) || '—';
-    const titleCell = document.createElement('td');
-    const link = document.createElement('span');
-    link.className = 'library-title-link';
-    link.textContent = doc.title || 'Untitled POEM';
-    link.addEventListener('click', () => showPoemPopup(doc.id, { highlight: false }));
-    titleCell.appendChild(link);
-    row.append(dateCell, titleCell);
-    tbody.appendChild(row);
-  });
-  table.appendChild(tbody);
-  const wrap = document.createElement('div');
-  wrap.className = 'library-table-wrap';
-  wrap.appendChild(table);
-  els.browseResults.appendChild(wrap);
-}
+[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge].forEach(sel => sel.addEventListener('change', renderBrowse));
 
 // ---------- Search ----------
 let searchSeq = 0; // ignores the response to a search that has since been superseded
 
-// A search term as a regular expression: spaces match any whitespace, * matches letters/digits.
-function termPattern(term) {
-  const esc = w => w.replace(/[.+?^${}()|[\]\\]/g, '\\$&').split('*').join('[\\p{L}\\p{N}]*');
-  return term.split(/\s+/).map(esc).join('\\s+');
-}
-
-function highlightInto(parent, text, terms, whole) {
-  const body = terms.map(termPattern).join('|');
-  const re = new RegExp(whole ? `(?<![\\p{L}\\p{N}])(?:${body})(?![\\p{L}\\p{N}])` : `(?:${body})`, 'giu');
-  let last = 0, m;
-  while ((m = re.exec(text)) !== null) {
-    if (m[0] === '') { re.lastIndex++; continue; }
-    parent.append(text.slice(last, m.index));
-    const mark = document.createElement('mark');
-    mark.textContent = m[0];
-    parent.append(mark);
-    last = m.index + m[0].length;
-  }
-  parent.append(text.slice(last));
-}
-
 // ---------- POEM pop-up (opened from a search result or a chapter) ----------
 
-function highlightTextNodes(root, terms, whole) {
-  if (!terms.length) return;
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  const nodes = [];
-  while (walker.nextNode()) nodes.push(walker.currentNode);
-  for (const node of nodes) {
-    const holder = document.createDocumentFragment();
-    highlightInto(holder, node.textContent, terms, whole);
-    if (holder.querySelector && holder.querySelector('mark')) node.replaceWith(holder);
-  }
-}
-
 // path: where to fetch the POEM (by default by its record id; chapters link by POEM number).
-async function showPoemPopup(id, { highlight = true, path = `/poems/${id}/view` } = {}) {
+async function showPoemPopup(id, { path = `/poems/${id}/view` } = {}) {
   let html;
   try {
     ({ html } = await api(path));
@@ -1493,7 +1405,6 @@ async function showPoemPopup(id, { highlight = true, path = `/poems/${id}/view` 
     return;
   }
   els.poemModalBody.innerHTML = html; // built by the server from escaped text
-  if (highlight && lastSearch) highlightTextNodes(els.poemModalBody, lastSearch.terms, lastSearch.whole);
   els.poemModalBody.querySelectorAll('a[href]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
   els.poemModalBody.scrollTop = 0;
   els.poemModal.classList.remove('hidden');
@@ -1511,8 +1422,8 @@ els.poemModalClose.addEventListener('click', closePoemPopup);
 els.poemModal.addEventListener('mousedown', (e) => { if (e.target === els.poemModal) closePoemPopup(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.poemModal.classList.contains('hidden')) closePoemPopup(); });
 
-let lastSearch = null; // the POEM part of the search being shown (for highlighting)
 let lastQuery = null; // { q, years, age, supertype } of the search being shown
+let poemSort = 'relevance'; // how found POEMs are listed: 'relevance' (most relevant first) or 'date' (newest first)
 let lastResults = null; // the whole search being shown
 const openGroups = new Set(); // result groups the user has opened (kept open when the results are redrawn)
 
@@ -1521,9 +1432,21 @@ function poemTable(data) {
   const table = document.createElement('table');
   table.className = 'library-table search-table';
   const headRow = document.createElement('tr');
-  ['Date', 'Title'].forEach(label => {
+  [['date', 'Date'], ['relevance', 'Title (relevance)']].forEach(([sort, label]) => {
     const th = document.createElement('th');
+    th.className = 'sortable';
+    th.tabIndex = 0;
     th.textContent = label;
+    if (data.sort === sort) {
+      th.setAttribute('aria-sort', 'descending');
+      const arrow = document.createElement('span');
+      arrow.className = 'sort-arrow';
+      arrow.textContent = '▼';
+      th.appendChild(arrow);
+    }
+    th.title = sort === 'date' ? 'List newest first' : 'List most relevant first';
+    th.addEventListener('click', () => sortPoems(sort));
+    th.addEventListener('keydown', e => { if (e.key === 'Enter') sortPoems(sort); });
     headRow.appendChild(th);
   });
   const thead = document.createElement('thead');
@@ -1561,6 +1484,21 @@ function poemTable(data) {
   wrap.className = 'library-table-wrap';
   wrap.appendChild(table);
   return wrap;
+}
+
+// Re-lists the POEMs found by the search being shown, newest first or most relevant first.
+// The server sorts them, since a long list shows only the first few hundred.
+async function sortPoems(sort) {
+  if (!lastQuery || !lastResults || !lastResults.poems || lastResults.poems.sort === sort) return;
+  poemSort = sort;
+  const seq = ++searchSeq;
+  try {
+    const data = await api(`/search?${new URLSearchParams({ ...lastQuery, type: 'poems', sort })}`);
+    if (seq !== searchSeq) return;
+    renderSearchResults({ ...lastResults, poems: data.poems });
+  } catch (err) {
+    if (seq === searchSeq) els.searchCount.textContent = `Could not sort the POEMs: ${err.message}`;
+  }
 }
 
 // A list of found items (chapters, calculator entries, risk scores): a title that opens the
@@ -1659,7 +1597,6 @@ const RESULT_GROUPS = [
 
 function renderSearchResults(all) {
   lastResults = all;
-  lastSearch = all.poems || null;
   els.searchResults.textContent = '';
   let anyFound = false;
   for (const g of RESULT_GROUPS) {
@@ -1719,7 +1656,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchCount.textContent = 'Searching...';
   try {
     const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
-    const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value })}`);
+    const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort })}`);
     if (seq === searchSeq) {
       lastQuery = query;
       renderSearchResults(data);
@@ -1940,11 +1877,11 @@ els.wordReadBtn.addEventListener('click', async () => {
 // ---------- init ----------
 const isReader = () => !!currentUser && currentUser.role === 'reader';
 
-// Readers see only Browse, Search and Evidence; the server enforces the same rules.
+// Readers don't see the editors' tabs (Upload, Browse, Edit POEMs, Edit Chapter); the server
+// enforces the same rules.
 function applyRole() {
   const reader = isReader();
-  [els.tabBtnUpload, els.tabBtnEdit, els.tabBtnChapterEdit].forEach(b => b.classList.toggle('hidden', reader));
-  els.browseAuthorField.classList.toggle('hidden', reader);
+  [els.tabBtnUpload, els.tabBtnBrowse, els.tabBtnEdit, els.tabBtnChapterEdit].forEach(b => b.classList.toggle('hidden', reader));
   updatePoemFilters();
   els.newPasswordRule.textContent = reader
     ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'
@@ -1960,15 +1897,12 @@ async function init(user) {
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
   loadTools(api).catch(err => console.error('Risk scores failed to load', err));
   loadChapters(api, {
-    showPoemByNumber: num => showPoemPopup(null, { highlight: false, path: `/poems/number/${encodeURIComponent(num)}/view` }),
+    showPoemByNumber: num => showPoemPopup(null, { path: `/poems/number/${encodeURIComponent(num)}/view` }),
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
   });
   if (!isReader()) loadChapterEditor(api, user);
   switchTab('search'); // everyone starts on the Search tab
-  if (isReader()) {
-    await loadReaderBrowse();
-    return;
-  }
+  if (isReader()) return;
   applyNewDocumentDefaults();
   await refreshLibrary();
   updateTrackButtonsState();

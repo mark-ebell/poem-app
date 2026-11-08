@@ -5,13 +5,13 @@ const { requireAuth, requireEditor, isReader } = require('../auth');
 const { quota } = require('../limits');
 const { assignDailyDate } = require('../daily-poem');
 const { normalizePoemBody, toClient, toListItem, generatePoemId } = require('../poem-model');
-const { buildSearchText, searchPoems, poemsForExport } = require('../search');
+const { buildSearchText, searchPoems, poemsForExport, parseSort } = require('../search');
 const { buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment } = require('../export-poems');
 
 const router = express.Router();
 router.use(requireAuth);
 
-// Editors can use everything here. Readers can only browse, search, print (capped)
+// Editors can use everything here. Readers can only search, print (capped)
 // and open POEMs in the pop-up, see only Published POEMs, and have usage limits.
 
 // The list carries only the short columns; the full record (reference,
@@ -33,39 +33,9 @@ const searchFilters = src => ({
   supertypeGroup: ['dx', 'tx', 'sc', 'px', 'other'].includes(src.supertype) ? src.supertype : null
 });
 
-// ---------- Readers' Browse tab (editors filter the full list in the page) ----------
-const DATED = "publication_date GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]'";
-
-// The years that have Published POEMs, and the most recent issue month (the default).
-router.get('/browse-options', (req, res) => {
-  const years = db.prepare(`SELECT DISTINCT substr(publication_date, 1, 4) AS y FROM poems WHERE status = 'Published' AND ${DATED} ORDER BY y DESC`).all().map(r => r.y);
-  const latest = db.prepare(`SELECT MAX(publication_date) AS d FROM poems WHERE status = 'Published' AND ${DATED}`).get().d;
-  res.json({ years, latest });
-});
-
-// Published titles, newest first. ?year=YYYY&month=MM&age=1|2|3 (each optional).
-const BROWSE_MAX = 200;
-router.get('/browse', quota('search'), (req, res) => {
-  const where = ["status = 'Published'"];
-  const args = [];
-  const year = String(req.query.year || '');
-  const month = String(req.query.month || '');
-  const age = String(req.query.age || '');
-  if (/^\d{4}$/.test(year)) { where.push('substr(publication_date, 1, 4) = ?'); args.push(year); }
-  if (/^(0[1-9]|1[0-2])$/.test(month)) { where.push('substr(publication_date, 6, 2) = ?'); args.push(month); }
-  if (/^[123]$/.test(age)) { where.push('age_group = ?'); args.push(Number(age)); }
-  const clause = 'WHERE ' + where.join(' AND ');
-  const total = db.prepare(`SELECT COUNT(*) AS n FROM poems ${clause}`).get(...args).n;
-  const poems = db.prepare(`
-    SELECT id, title, publication_date, age_group FROM poems ${clause}
-    ORDER BY publication_date DESC, title LIMIT ${BROWSE_MAX}
-  `).all(...args).map(r => ({ id: r.id, title: r.title, publicationDate: r.publication_date, ageGroup: r.age_group }));
-  res.json({ total, poems, truncated: total > poems.length });
-});
-
 // Must come before '/:id'. ?q=boolean query&whole=1|0&years=1|2|3|5|10|all
 router.get('/search', quota('search'), (req, res) => {
-  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0', years: parseYears(req.query.years), ...searchFilters(req.query) }, { reader: isReader(req) });
+  const result = searchPoems({ q: req.query.q, whole: req.query.whole !== '0', years: parseYears(req.query.years), sort: parseSort(req.query.sort), ...searchFilters(req.query) }, { reader: isReader(req) });
   if (result.error) return res.status(400).json({ error: result.error });
   res.json(result);
 });
@@ -76,7 +46,7 @@ router.post('/export', quota('download'), async (req, res) => {
   const { q, whole, format } = req.body || {};
   const years = parseYears((req.body || {}).years);
   const reader = isReader(req);
-  const result = poemsForExport({ q, whole: whole !== false && whole !== '0', years, ...searchFilters(req.body || {}) }, { reader });
+  const result = poemsForExport({ q, whole: whole !== false && whole !== '0', years, sort: parseSort((req.body || {}).sort), ...searchFilters(req.body || {}) }, { reader });
   if (result.error) return res.status(400).json({ error: result.error });
 
   const q1 = String(q).replace(/\s+/g, ' ').trim();

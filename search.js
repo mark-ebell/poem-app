@@ -195,11 +195,32 @@ function compileQuery(q, whole = true) {
   return { test: s => evaluate(tree, t => regexFor(t).test(s)), terms: [...new Set(positiveTerms(tree))], regexFor };
 }
 
-// Parses and runs a query; returns { error } or { hits, highlightTerms, whole },
-// with hits sorted (title matches first, then newest) as { row, titleHit }.
-// publishedOnly (for readers) leaves out POEMs that are still being edited;
-// supertypeGroup is a key of SUPERTYPE_GROUPS.
-function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGroup = null, publishedOnly = false }) {
+// How relevant a POEM is to the search words: each word or phrase scores for appearing
+// in the title (most), the clinical question or bottom line, and for each time it
+// appears anywhere (up to 10 times).
+const RELEVANCE = { title: 10, question: 4, bottomLine: 4, perMatch: 1, maxMatches: 10 };
+function relevanceOf(row, terms, regexFor) {
+  const question = row.clinical_question || '', bottomLine = plainLine(row.bottom_line);
+  let score = 0;
+  for (const t of terms) {
+    const re = regexFor(t);
+    if (re.test(row.title || '')) score += RELEVANCE.title;
+    if (re.test(question)) score += RELEVANCE.question;
+    if (re.test(bottomLine)) score += RELEVANCE.bottomLine;
+    const all = row.search_text.match(new RegExp(re.source, 'giu')) || [];
+    score += RELEVANCE.perMatch * Math.min(all.length, RELEVANCE.maxMatches);
+  }
+  return score;
+}
+
+const newestFirst = (a, b) =>
+  (b.publication_date || '').localeCompare(a.publication_date || '') || (a.title || '').localeCompare(b.title || '');
+
+// Parses and runs a query; returns { error } or { hits, highlightTerms, whole }, with hits
+// as { row } sorted by sort: 'relevance' (most relevant first, ties newest first) or
+// 'date' (newest first). publishedOnly (for readers) leaves out POEMs that are still
+// being edited; supertypeGroup is a key of SUPERTYPE_GROUPS.
+function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGroup = null, publishedOnly = false, sort = 'relevance' }) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
   if (text.length < 2) return { error: 'Enter at least two characters to search for.' };
   if (text.length > MAX_QUERY) return { error: 'That search is too long.' };
@@ -247,14 +268,10 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
       return memo.get(t);
     };
     if (!evaluate(tree, test)) continue;
-    const titleHit = highlightTerms.length > 0 && highlightTerms.every(t => regexFor(t).test(r.title || ''));
-    hits.push({ row: r, titleHit });
+    hits.push({ row: r, score: sort === 'date' ? 0 : relevanceOf(r, highlightTerms, regexFor) });
   }
 
-  hits.sort((a, b) =>
-    (b.titleHit - a.titleHit) ||
-    (b.row.publication_date || '').localeCompare(a.row.publication_date || '') ||
-    (a.row.title || '').localeCompare(b.row.title || ''));
+  hits.sort((a, b) => (b.score - a.score) || newestFirst(a.row, b.row));
 
   return { hits, highlightTerms, whole: !!whole };
 }
@@ -280,7 +297,7 @@ function searchPoems(params, { reader = false } = {}) {
     bottomLine: plainLine(row.bottom_line)
   }));
   const answersLimit = reader && poems.length > READER_MAX_ANSWERS ? READER_MAX_ANSWERS : null;
-  return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems, answersLimit };
+  return { total: hits.length, truncated: hits.length > max, terms: highlightTerms, whole, poems, answersLimit, sort: params.sort === 'date' ? 'date' : 'relevance' };
 }
 
 // Every POEM matching a query, in full, in the same order as the search results.
@@ -317,9 +334,10 @@ const MAX_SUMMARY_POEMS = 500;
 function poemsForSummary(params, { reader = false } = {}) {
   const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
-  const sorted = result.hits.map(h => h.row).sort((a, b) =>
-    (b.publication_date || '').localeCompare(a.publication_date || '') || (a.title || '').localeCompare(b.title || ''));
+  const sorted = result.hits.map(h => h.row).sort(newestFirst);
   return { total: sorted.length, poems: rowsInOrder(sorted.slice(0, MAX_SUMMARY_POEMS).map(r => r.id)) };
 }
 
-module.exports = { cutoffMonth, buildSearchText, backfillSearchText, searchPoems, compileQuery, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };
+const parseSort = v => (v === 'date' ? 'date' : 'relevance');
+
+module.exports = { parseSort, cutoffMonth, buildSearchText, backfillSearchText, searchPoems, compileQuery, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };
