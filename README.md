@@ -64,7 +64,7 @@ Then open http://localhost:3000. This only listens on your Mac — it is not rea
 ## Using it
 
 1. Sign in with your username (e.g. `ebell`) and password. First-time sign-in requires you to set a new password immediately.
-2. The tabs are **Search** (first, and the tab everyone lands on after logging in), **Evidence Summary**, **Topic Chapters**, **Differential Diagnosis**, **History & Physical**, **Diagnostic Tests** and **Risk Scores**, then the editors' tabs at the far right: **Upload POEMs**, **Browse POEMs**, **Edit POEMs** and **Edit Chapter** (each name but Search on two lines). Below, they are often called by their first word (Upload, Browse, Search, Evidence, Chapters, Edit), with H & P for History & Physical and Tests for Diagnostic Tests.
+2. The tabs are **Search** (first, and the tab everyone lands on after logging in), **Chapters**, **Risk Scores**, **Differential Diagnosis**, **History & Physical** and **Diagnostic Tests**, then the editors' tabs at the far right: **Upload POEMs**, **Browse POEMs**, **Edit POEMs**, **Edit Chapter** and **Evidence Summary** (each name but Search and Chapters on two lines). Below, they are often called by their first word (Upload, Browse, Search, Evidence, Chapters, Edit), with H & P for History & Physical and Tests for Diagnostic Tests.
 3. On **Upload**, upload a PDF of the research article and click **Generate POEM** (can take up to a minute) — this switches you to the **Edit** tab with the draft loaded.
 4. On the **Edit** tab, each element of the POEM has its own field: **Title**, **POET** (author), **Publication date**, **Reference**, **Clinical question**, **Allocation**, **Funding**, **Study design**, **Population and setting**, **Age group**, **Category** (stored as `supertype`, the internal term), **Level of evidence**, **PubMed ID**, **Synopsis** and **Bottom-line**. A generated draft fills these in for you. POET, publication date and title are required before you can save. The **POEM number** is assigned automatically (a unique 6-digit number) the first time a POEM is saved. The **PubMed URL** is built from the PubMed ID (enter `NA` if there is no PubMed entry).
    - The **Synopsis** and **Bottom-line** are rich-text boxes: **B** / **I** / **U** / **x²** (superscript) / **x₂** (subscript) apply formatting to selected text, and **🔗 Link** turns selected text into a hyperlink (asks for a URL). The other fields are plain text or drop-down lists.
@@ -112,7 +112,7 @@ The PubMed search string is built in `pubmed.js` from the strategy document ("Ge
 
 ### Browsing the POEMs
 
-The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author and age group. It opens on the most recent month. Each result shows a short date (e.g. "Dec 26") and the title. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author, age group and POEM status. It opens on the most recent month. Opening a POEM whose status is Published first asks "Are you sure you want to edit this POEM? It has already been published." Each result shows a short date (e.g. "Dec 26") and the title. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
 
 ### Importing a monthly batch from Word
 
@@ -131,11 +131,10 @@ There are two kinds of account:
 
 What readers can do (the server enforces all of this; hiding tabs in the page is only for convenience):
 
-- Every tab except the editors' tabs (Upload POEMs, Browse POEMs, Edit POEMs, Edit Chapter), and only POEMs whose status is **Published**. They never see the POET, the POEM number, drafts or the Word import.
+- Every tab except the editors' tabs (Upload POEMs, Browse POEMs, Edit POEMs, Edit Chapter, Evidence Summary), and only POEMs whose status is **Published**. They never see the POET, the POEM number, drafts or the Word import.
 - Clicking a POEM opens it in a pop-up: 10 point Arial, bold headings, no hard line breaks.
 - Search shows at most 200 POEMs, with the question and bottom-line answer (when asked for) under the first 25 only.
 - Printing a search (Word or PDF) includes the first 25 matching POEMs.
-- Evidence Summaries include up to the 500 most recent matching Published POEMs (the same cap as for editors, which keeps the server within its memory), and from PubMed only practice guidelines, Cochrane reviews and systematic reviews from at most the last 10 years.
 - **Usage limits** (in `limits.js`): 40 POEMs opened an hour and 150 a day; 60 searches or browse pages an hour and 300 a day; 5 printouts or Evidence Summaries a day. A reader who reaches a daily limit on 3 days within a week is locked automatically.
 
 To see reader accounts, or unlock one (on Render, from the service's **Shell** tab):

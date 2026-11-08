@@ -337,6 +337,7 @@ function toListItem(row) {
     poet: row.poet,
     publicationDate: row.publication_date,
     ageGroup: row.age_group,
+    status: row.status,
     createdBy: row.created_by,
     createdAt: row.created_at,
     source: row.source

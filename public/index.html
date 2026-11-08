@@ -122,16 +122,16 @@
 
     <nav class="tabs">
       <button type="button" class="tab-btn active" id="tabBtnSearch" data-tab="search">Search</button>
-      <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence"><span class="tab-long">Evidence<br>Summary</span><span class="tab-short">Evidence</span></button>
-      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters"><span class="tab-long">Topic<br>Chapters</span><span class="tab-short">Chapters</span></button>
+      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters">Chapters</button>
+      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long">Risk<br>Scores</span><span class="tab-short">Scores</span></button>
       <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx"><span class="tab-long">Differential<br>Diagnosis</span><span class="tab-short">Diff dx</span></button>
       <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs"><span class="tab-long">History &amp;<br>Physical</span><span class="tab-short">H&amp;P</span></button>
       <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests"><span class="tab-long">Diagnostic<br>Tests</span><span class="tab-short">Tests</span></button>
-      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long">Risk<br>Scores</span><span class="tab-short">Scores</span></button>
       <button type="button" class="tab-btn" id="tabBtnUpload" data-tab="upload"><span class="tab-long">Upload<br>POEMs</span><span class="tab-short">Upload</span></button>
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse"><span class="tab-long">Browse<br>POEMs</span><span class="tab-short">Browse</span></button>
       <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit"><span class="tab-long">Edit<br>POEMs</span><span class="tab-short">Edit POEMs</span></button>
       <button type="button" class="tab-btn hidden" id="tabBtnChapterEdit" data-tab="chapteredit"><span class="tab-long">Edit<br>Chapter</span><span class="tab-short">Edit Chap</span></button>
+      <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence"><span class="tab-long">Evidence<br>Summary</span><span class="tab-short">Evidence</span></button>
     </nav>
 
     <div id="tabUpload" class="tab-panel hidden">
@@ -190,6 +190,15 @@
               <option value="1">Adults</option>
               <option value="2">Children</option>
               <option value="3" data-short="Both">Both adults and children</option>
+            </select>
+          </label>
+          <label>POEM status
+            <select id="browseStatus">
+              <option value="">All</option>
+              <option value="Being edited">Being edited</option>
+              <option value="Ready for review">Ready for review</option>
+              <option value="Ready for copy edit">Ready for copy edit</option>
+              <option value="Published">Published</option>
             </select>
           </label>
         </div>

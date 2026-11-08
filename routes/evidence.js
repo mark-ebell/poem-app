@@ -1,10 +1,11 @@
 const express = require('express');
-const { requireAuth, isReader } = require('../auth');
+const { requireAuth, requireEditor, isReader } = require('../auth');
 const { quota } = require('../limits');
 const { generateEvidenceSummary } = require('../evidence-summary');
 
 const router = express.Router();
 router.use(requireAuth);
+router.use(requireEditor); // the Evidence Summary tab is for editors only
 
 const parseYears = v => ([1, 2, 3, 5, 10].includes(Number(v)) ? Number(v) : null);
 

@@ -11,7 +11,7 @@ const els = {};
   'loginView', 'signupView', 'forgotView', 'resetView', 'showForgot', 'showSignup', 'showLoginFromSignup', 'showLoginFromForgot',
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
-  'newPasswordRule', 'evidenceHelp',
+  'newPasswordRule',
   'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
@@ -19,7 +19,7 @@ const els = {};
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
-  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseCount', 'browseResults',
+  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
@@ -1326,11 +1326,11 @@ function updateBrowseFilters() {
 
 function renderBrowse() {
   const year = els.browseYear.value, month = els.browseMonth.value, author = els.browseAuthor.value;
-  const age = els.browseAge.value;
+  const age = els.browseAge.value, status = els.browseStatus.value;
   const ageMatches = p => !age || String(p.ageGroup) === age;
   const matches = poemsCache.filter(p => {
     const d = p.publicationDate || '';
-    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || (author === OTHER_AUTHORS ? !NAMED_AUTHORS.has(p.poet) : p.poet === author)) && ageMatches(p);
+    return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || (author === OTHER_AUTHORS ? !NAMED_AUTHORS.has(p.poet) : p.poet === author)) && ageMatches(p) && (!status || p.status === status);
   }).sort((a, b) =>
     (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
     (a.poet || '').localeCompare(b.poet || '') ||
@@ -1369,7 +1369,10 @@ function renderBrowse() {
     const link = document.createElement('span');
     link.className = 'library-title-link';
     link.textContent = doc.title || 'Untitled POEM';
-    link.addEventListener('click', () => openDoc(doc.id));
+    link.addEventListener('click', () => {
+      if (doc.status === 'Published' && !confirm('Are you sure you want to edit this POEM? It has already been published.')) return;
+      openDoc(doc.id);
+    });
     titleCell.appendChild(link);
     row.append(dateCell, titleCell);
     tbody.appendChild(row);
@@ -1388,7 +1391,7 @@ function renderBrowse() {
   }
 }
 
-[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge].forEach(sel => sel.addEventListener('change', renderBrowse));
+[els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge, els.browseStatus].forEach(sel => sel.addEventListener('change', renderBrowse));
 
 // ---------- Search ----------
 let searchSeq = 0; // ignores the response to a search that has since been superseded
@@ -1697,20 +1700,7 @@ useShortOptions();
   if (lastQuery && els.searchInput.value.trim().length >= 2) els.searchForm.requestSubmit();
 }));
 
-// ---------- Evidence Summary ----------
-// Readers' summaries cover practice guidelines, Cochrane reviews and systematic
-// reviews from PubMed, from at most the last 10 years (the server enforces this too).
-function limitEvidenceOptions() {
-  setOptions(els.evidenceContent, [
-    ['all', 'Guidelines, Cochrane and systematic reviews'],
-    ['guidelines', 'Practice guidelines'],
-    ['cochrane', 'Cochrane reviews'],
-    ['systematic', 'Systematic Reviews']
-  ], 'all');
-  setOptions(els.evidencePubmedYears, [['1', '1 year'], ['3', '3 years'], ['5', '5 years'], ['10', '10 years']], '10');
-  els.evidenceHelp.textContent = 'Downloads a Word document that begins with the most recent matching POEMs (up to 500), grouped by category, followed by practice guidelines, Cochrane reviews and systematic reviews from PubMed. Evidence Summaries and printouts are limited to 5 a day.';
-}
-
+// ---------- Evidence Summary (editors only) ----------
 els.evidenceForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   const q = els.evidenceTopic.value.trim();
@@ -1886,16 +1876,15 @@ els.wordReadBtn.addEventListener('click', async () => {
 // ---------- init ----------
 const isReader = () => !!currentUser && currentUser.role === 'reader';
 
-// Readers don't see the editors' tabs (Upload, Browse, Edit POEMs, Edit Chapter); the server
-// enforces the same rules.
+// Readers don't see the editors' tabs (Upload, Browse, Edit POEMs, Edit Chapter, Evidence
+// Summary); the server enforces the same rules.
 function applyRole() {
   const reader = isReader();
-  [els.tabBtnUpload, els.tabBtnBrowse, els.tabBtnEdit, els.tabBtnChapterEdit].forEach(b => b.classList.toggle('hidden', reader));
+  [els.tabBtnUpload, els.tabBtnBrowse, els.tabBtnEdit, els.tabBtnChapterEdit, els.tabBtnEvidence].forEach(b => b.classList.toggle('hidden', reader));
   updatePoemFilters();
   els.newPasswordRule.textContent = reader
     ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'
     : '(at least 8 characters)';
-  if (reader) limitEvidenceOptions();
 }
 
 async function init(user) {
