@@ -43,17 +43,6 @@ function textOf(chapter) {
   return text;
 }
 
-// About 200 characters of text around the first matching term.
-function snippet(text, q) {
-  for (const t of q.terms) {
-    const m = q.regexFor(t).exec(text);
-    if (!m) continue;
-    const start = Math.max(0, m.index - 90), end = Math.min(text.length, m.index + m[0].length + 110);
-    return `${start > 0 ? '… ' : ''}${text.slice(start, end).trim()}${end < text.length ? ' …' : ''}`;
-  }
-  return text.slice(0, 200) + (text.length > 200 ? ' …' : '');
-}
-
 function searchChapters(q) {
   const out = [];
   for (const { id, title } of store.chapterIndex()) {
@@ -62,7 +51,7 @@ function searchChapters(q) {
     if (!chapter) continue;
     const text = textOf(chapter);
     if (!q.test(`${title}\n${text}`)) continue;
-    out.push({ id, title, titleHit: q.terms.every(t => q.regexFor(t).test(title)), snippet: snippet(text, q) });
+    out.push({ id, title, titleHit: q.terms.every(t => q.regexFor(t).test(title)) });
   }
   out.sort((a, b) => (b.titleHit - a.titleHit) || a.title.localeCompare(b.title));
   return out;

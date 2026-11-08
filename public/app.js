@@ -1586,7 +1586,7 @@ function pairList(pairs, which) {
 const RESULT_GROUPS = [
   { key: 'poems', label: 'POEMs' },
   { key: 'chapters', label: 'Chapters',
-    list: (g, terms) => itemList(g.items, terms, c => c.title, c => c.snippet, c => { switchTab('chapters'); openChapter(c.id); }) },
+    list: (g, terms) => itemList(g.items, terms, c => c.title, () => '', c => { switchTab('chapters'); openChapter(c.id); }) },
   { key: 'signs', label: 'History and Physical Calculators',
     list: g => pairList(g.items, 'signs') },
   { key: 'tests', label: 'Diagnostic Calculators',
