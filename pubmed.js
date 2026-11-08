@@ -218,42 +218,46 @@ async function fetchAbstracts(ids) {
 }
 
 // MeSH headings, for searching (mesh.js): Map pmid -> { terms, major }, each a list of
-// descriptor names (and supplementary concepts, such as drugs, in terms). A heading is major when it, or one of its subheadings, is a major topic.
-// Articles that PubMed has not indexed yet come back with empty lists.
+// descriptor names (and supplementary concepts, such as drugs, in terms). A heading is major
+// when it, or one of its subheadings, is a major topic. Articles that PubMed has not indexed
+// yet come back with empty lists. The XML is read with simple patterns rather than a full
+// parser, and 50 articles at a time, to keep memory use small on the server.
+const xmlText = s => s.replace(/<[^>]*>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+  .replace(/&apos;/g, "'").replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(Number(n))).replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 async function fetchMesh(ids) {
   const out = new Map();
-  if (!ids.length) return out;
-  const { DOMParser } = require('@xmldom/xmldom');
-  for (let i = 0; i < ids.length; i += 200) {
-    const params = new URLSearchParams({ db: 'pubmed', id: ids.slice(i, i + 200).join(','), retmode: 'xml', tool: 'inforetriever' });
+  for (let i = 0; i < ids.length; i += 50) {
+    const params = new URLSearchParams({ db: 'pubmed', id: ids.slice(i, i + 50).join(','), retmode: 'xml', tool: 'inforetriever' });
     if (process.env.NCBI_API_KEY) params.set('api_key', process.env.NCBI_API_KEY);
-    const resp = await throttled(() => fetch(`${EUTILS}efetch.fcgi`, {
-      method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: params, signal: AbortSignal.timeout(120000)
-    }));
+    let resp;
+    for (let attempt = 1; ; attempt++) { // PubMed sometimes refuses a request when busy: try again
+      resp = await throttled(() => fetch(`${EUTILS}efetch.fcgi`, {
+        method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: params, signal: AbortSignal.timeout(120000)
+      })).catch(err => ({ ok: false, status: err.name }));
+      if (resp.ok || attempt === 4) break;
+      await new Promise(r => setTimeout(r, 3000 * attempt));
+    }
     if (!resp.ok) throw new Error(`PubMed returned an error (${resp.status}).`);
-    const doc = new DOMParser({ onError: () => {} }).parseFromString(await resp.text(), 'text/xml');
-    for (const art of Array.from(doc.getElementsByTagName('PubmedArticle'))) {
-      const pmidEl = art.getElementsByTagName('PMID')[0];
-      if (!pmidEl) continue;
+    const xml = await resp.text();
+    for (const art of xml.matchAll(/<PubmedArticle>([\s\S]*?)<\/PubmedArticle>/g)) {
+      const pmid = (/<PMID[^>]*>(\d+)<\/PMID>/.exec(art[1]) || [])[1];
+      if (!pmid) continue;
       const terms = [], major = [];
-      for (const h of Array.from(art.getElementsByTagName('MeshHeading'))) {
-        const d = h.getElementsByTagName('DescriptorName')[0];
+      for (const h of art[1].matchAll(/<MeshHeading>([\s\S]*?)<\/MeshHeading>/g)) {
+        const d = /<DescriptorName([^>]*)>([\s\S]*?)<\/DescriptorName>/.exec(h[1]);
         if (!d) continue;
-        const name = String(d.textContent || '').replace(/\s+/g, ' ').trim();
+        const name = xmlText(d[2]);
         if (!name || terms.includes(name)) continue;
         terms.push(name);
-        const quals = Array.from(h.getElementsByTagName('QualifierName'));
-        if (d.getAttribute('MajorTopicYN') === 'Y' || quals.some(q => q.getAttribute('MajorTopicYN') === 'Y')) major.push(name);
+        const quals = [...h[1].matchAll(/<QualifierName([^>]*)>/g)].map(q => q[1]);
+        if (/MajorTopicYN="Y"/.test(d[1]) || quals.some(q => /MajorTopicYN="Y"/.test(q))) major.push(name);
       }
       // Supplementary concepts: most drugs (apixaban) are indexed this way, not as headings,
       // in the chemical list (IDs starting with C) and sometimes as SupplMeshName.
-      const suppl = [...Array.from(art.getElementsByTagName('NameOfSubstance')).filter(n => /^C/.test(n.getAttribute('UI') || '')),
-        ...Array.from(art.getElementsByTagName('SupplMeshName'))];
-      for (const s of suppl) {
-        const name = String(s.textContent || '').replace(/\s+/g, ' ').trim();
-        if (name && !terms.includes(name)) terms.push(name);
-      }
-      out.set(String(pmidEl.textContent).trim(), { terms, major });
+      const suppl = [...art[1].matchAll(/<NameOfSubstance\s+UI="C[^"]*"[^>]*>([\s\S]*?)<\/NameOfSubstance>/g),
+        ...art[1].matchAll(/<SupplMeshName[^>]*>([\s\S]*?)<\/SupplMeshName>/g)].map(m => xmlText(m[1]));
+      for (const name of suppl) if (name && !terms.includes(name)) terms.push(name);
+      out.set(pmid, { terms, major });
     }
   }
   return out;

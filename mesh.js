@@ -15,7 +15,7 @@ const { buildSearchText } = require('./search');
 
 const RECHECK_DAYS = 7;
 const RECHECK_YEARS = 2;
-const PER_RUN = 3000; // POEMs looked up in one run (15 requests to PubMed)
+const PER_RUN = 500; // POEMs looked up in one pass (10 requests to PubMed)
 
 function poemsToLookUp(limit = PER_RUN) {
   const now = new Date();
