@@ -1517,7 +1517,7 @@ async function sortPoems(sort) {
   poemSort = sort;
   const seq = ++searchSeq;
   try {
-    const data = await api(`/search?${new URLSearchParams({ ...lastQuery, type: 'poems', sort })}`);
+    const data = await api(`/search?${new URLSearchParams({ ...lastQuery, type: 'poems', sort, phone: phoneQuery.matches ? '1' : '' })}`);
     if (seq !== searchSeq) return;
     renderSearchResults({ ...lastResults, poems: data.poems });
   } catch (err) {
@@ -1721,7 +1721,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchCount.textContent = 'Searching...';
   try {
     const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value, main: els.searchMainOnly.checked ? '1' : '' };
-    const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort })}`);
+    const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort, phone: phoneQuery.matches ? '1' : '' })}`);
     if (seq === searchSeq) {
       lastQuery = query;
       renderSearchResults(data);

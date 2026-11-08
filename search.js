@@ -35,7 +35,9 @@ const MAX_RESULTS = 300;
 const READER_MAX_RESULTS = 200;
 const READER_MAX_EXPORT = 25;
 // Readers see the question and bottom-line answer only for this many results.
-const READER_MAX_ANSWERS = 25;
+// (in each category of results; the page asks for READER_PHONE_ANSWERS on a phone).
+const READER_MAX_ANSWERS = 20;
+const READER_PHONE_ANSWERS = 10;
 const MAX_QUERY = 300;
 
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -301,12 +303,13 @@ function runSearch({ q, whole = true, years = null, ageCodes = null, supertypeGr
 // The POEMs found, in groups by category (RESULT_GROUPS, leaving out empty ones), each in
 // the order asked for and listing at most MAX_RESULTS (READER_MAX_RESULTS for a reader).
 // reader: Published POEMs only, no POET or POEM number, and the question and bottom-line
-// answer for the first READER_MAX_ANSWERS of each group only.
+// answer for the first READER_MAX_ANSWERS of each group only (READER_PHONE_ANSWERS with phone).
 function searchPoems(params, { reader = false } = {}) {
   const result = runSearch({ ...params, publishedOnly: reader });
   if (result.error) return result;
   const { hits, highlightTerms, whole } = result;
   const max = reader ? READER_MAX_RESULTS : MAX_RESULTS;
+  const answers = params.phone ? READER_PHONE_ANSWERS : READER_MAX_ANSWERS;
   const byGroup = new Map(RESULT_GROUPS.map(g => [g.key, []]));
   for (const { row } of hits) byGroup.get(groupOf(row.supertype)).push(row);
   const groups = RESULT_GROUPS.filter(g => byGroup.get(g.key).length).map(g => {
@@ -315,7 +318,7 @@ function searchPoems(params, { reader = false } = {}) {
       id: row.id,
       title: row.title,
       publicationDate: row.publication_date,
-      ...(i < READER_MAX_ANSWERS ? { question: plainLine(row.clinical_question), bottomLine: plainLine(row.bottom_line) } : {})
+      ...(i < answers ? { question: plainLine(row.clinical_question), bottomLine: plainLine(row.bottom_line) } : {})
     } : {
       id: row.id,
       poemId: row.poem_id,
@@ -329,7 +332,7 @@ function searchPoems(params, { reader = false } = {}) {
   });
   return {
     total: hits.length, terms: highlightTerms, whole, groups,
-    answersLimit: reader ? READER_MAX_ANSWERS : null,
+    answersLimit: reader ? answers : null,
     sort: params.sort === 'date' ? 'date' : 'relevance', mainOnly: !!params.mainOnly
   };
 }

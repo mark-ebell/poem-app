@@ -100,7 +100,7 @@ router.get('/', quota('search'), (req, res) => {
   if (q.error) return res.status(400).json({ error: q.error });
   const out = { type, terms: q.terms, whole: true };
   if (want('poems')) {
-    const poems = searchPoems({ q: req.query.q, whole: true, years: parseYears(req.query.years), sort: parseSort(req.query.sort), mainOnly: req.query.main === '1', ...poemFilters(req.query) }, { reader: isReader(req) });
+    const poems = searchPoems({ q: req.query.q, whole: true, years: parseYears(req.query.years), sort: parseSort(req.query.sort), mainOnly: req.query.main === '1', phone: req.query.phone === '1', ...poemFilters(req.query) }, { reader: isReader(req) });
     if (poems.error) return res.status(400).json({ error: poems.error });
     out.poems = poems;
   }
