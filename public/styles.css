@@ -887,7 +887,7 @@ ins.tc .cite, del.tc .cite { color: inherit; }
   /* one-line tab names */
   .tab-long, .wide-label, .phone-hide { display: none; }
   .tab-short, .phone-label { display: inline; }
-  .tab-btn { padding: 6px 5px; font-size: 0.82rem; white-space: nowrap; }
+  .tab-btn { padding: 6px 3px; font-size: 0.82rem; white-space: nowrap; }
   .tabs { gap: 0 1px; }
   .search-filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
   .search-filters label { font-size: 0.8rem; }
