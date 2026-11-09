@@ -285,9 +285,9 @@ class Chapter {
   }
 
   // The in-text citation: the reference number, which opens a small pop-up with the
-  // abbreviated reference and its links (green when the reference is a POEM).
+  // abbreviated reference and its links (green when the reference has a POEM or a Cochrane review).
   refLink(info) {
-    const cls = info.poem ? 'cite cite-poem' : 'cite';
+    const cls = info.poem || info.cochrane ? 'cite cite-poem' : 'cite';
     return `<a href="#ref-${info.n}" class="${cls}" data-ref="${info.n}" title="${esc(info.text)}">${info.n}</a>`;
   }
 

@@ -235,7 +235,9 @@ function renumber() {
     a.textContent = num.has(k) ? String(num.get(k)) : '?';
     a.title = byId.has(k) ? byId.get(k).short : 'Reference not found';
     a.href = '#';
-    a.classList.toggle('cite-poem', /^poem/.test(k));
+    // Green when the reference has a POEM or a Cochrane review (as in the chapter view).
+    const links = (byId.get(k) && byId.get(k).links) || [];
+    a.classList.toggle('cite-poem', /^poem/.test(k) || links.some(l => l.poem || /cochrane/i.test(l.label || '')));
   });
   markCiteRuns($('ceBody'));
 }
