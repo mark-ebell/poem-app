@@ -618,7 +618,8 @@ ol.ddx-ranked li:last-child { border-bottom: none; }
 .chapter a, .info-modal-body a { color: var(--ch-link, #2b7bb9); }
 .chapter a.cite { font-weight: 700; text-decoration: none; padding: 0 2px; }
 .chapter a.cite:hover { text-decoration: underline; }
-.chapter a.cite-poem { color: #1e7e4f; }
+.chapter a.cite { color: #111; }
+.chapter a.cite-poem { color: #008037; } /* black and green differ in lightness too, for color-blind readers */
 .sort-tag { background: none; border: none; color: var(--ch-blue); font-weight: 700; padding: 0 2px; font-size: inherit; cursor: pointer; white-space: nowrap; }
 .sort-tag:hover:not(:disabled) { background: none; text-decoration: underline; }
 .chapter-table-wrap { overflow-x: auto; margin: 6px 0 10px; }
