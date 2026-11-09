@@ -301,6 +301,15 @@ export async function openChapter(id) {
   $('chapterView').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+// A "Summary data" button for a calculator: opens a pop-up of its tests (showSummary).
+function summaryButton(which, num) {
+  const b = el('button', 'summary-btn', 'Summary data');
+  b.type = 'button';
+  b.dataset.summaryCalc = which;
+  b.dataset.num = num;
+  return b;
+}
+
 function formatDate(s) {
   const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(s || '');
   if (!m) return s || '';
@@ -367,13 +376,7 @@ function renderChapter(c) {
         if (item.href) { a.href = item.href; a.target = '_blank'; a.rel = 'noopener'; }
         else { a.href = '#'; Object.assign(a.dataset, item.data); }
         li.appendChild(a);
-        if (item.data && item.data.calc) {
-          const b = el('button', 'summary-btn', 'Summary data');
-          b.type = 'button';
-          b.dataset.summaryCalc = item.data.calc;
-          b.dataset.num = item.data.num;
-          li.appendChild(b);
-        }
+        if (item.data && item.data.calc) li.appendChild(summaryButton(item.data.calc, item.data.num));
         ul.appendChild(li);
       }
       part.appendChild(ul);
@@ -394,6 +397,8 @@ function renderChapter(c) {
       const content = el('div', 'chapter-content');
       content.innerHTML = p.html; // prepared by build_chapters.py from escaped text
       markCiteRuns(content);
+      // Calculator lists (History and physical tests, Diagnostic tests): a Summary data button after each.
+      for (const a of content.querySelectorAll('a.calc-link[data-calc][data-num]')) a.after(summaryButton(a.dataset.calc, a.dataset.num));
       part.appendChild(content);
       body.appendChild(part);
     }
