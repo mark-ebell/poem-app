@@ -592,6 +592,8 @@ ol.ddx-ranked li:last-child { border-bottom: none; }
 .chapter-list button.current { font-weight: 700; color: var(--accent-hover); }
 .chapter-none { padding: 12px 6px; color: var(--muted); }
 #chapterCount { margin: 0 0 6px; }
+#chapterCount:empty { display: none; }
+#chapterFilter { margin-bottom: 10px; }
 
 .chapter { --ch-blue: #1f4b6e; --ch-link: #2b7bb9; }
 .chapter-head .chapter-title { font-size: 1.4rem; color: var(--ch-blue); margin: 0 0 4px; font-weight: 700; }

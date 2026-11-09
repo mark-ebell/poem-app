@@ -265,9 +265,7 @@ function renderList() {
   const list = $('chapterList');
   list.textContent = '';
   const matches = chapters.filter(c => !q || c.title.toLowerCase().includes(q));
-  $('chapterCount').textContent = q
-    ? `${matches.length} of ${chapters.length} chapter${chapters.length === 1 ? '' : 's'}`
-    : `${chapters.length} chapter${chapters.length === 1 ? '' : 's'}`;
+  $('chapterCount').textContent = ''; // used only for a loading error
   if (!matches.length) {
     list.appendChild(el('li', 'chapter-none', 'No chapter titles match.'));
     return;
