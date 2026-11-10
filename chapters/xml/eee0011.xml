@@ -653,12 +653,19 @@
 <graphic href="eee0011-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>AI diagnosed on physical examination and&#x002F;or transthoracic echocardiogram</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Severe regurgitation?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+<path target="cell-5">Indeterminate</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Symptoms due to regurgitation?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+<path target="cell-8">Indeterminate</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Aortic valve replacement</label>
@@ -670,22 +677,29 @@
 <label>Vasodilators?</label>
 </cell>
 <cell type="action" id="cell-11">
-<label>CT or MRI</label>
+<label>CT or MRI, then reassess aortic diameter</label>
 </cell>
 <cell type="decision" id="cell-7">
-<label><strong>LV echo findings:</strong> EF &#x2265;55&#x0025;, LVESD &gt;55 mm, LVEDD &gt;75 mm, or LVESI &gt;25 mm&#x002F;m<sup>2</sup></label>
+<label>LV echo findings: EF 55% or less, LVESD &gt;55 mm, LVEDD &gt;75 mm, or LVESI &gt;25 mm/m²?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-4">No</path>
+<path target="cell-12">Indeterminate</path>
 </cell>
 <cell type="action" id="cell-12">
-<label>Order cardiac cath or radionuclide angiography</label>
+<label>Order cardiac catheterization or radionuclide angiography, then reassess LV findings</label>
 </cell>
 <cell type="action" id="cell-8">
-<label>Exercise testing</label>
+<label>Exercise testing, then reassess symptoms</label>
 </cell>
-<cell type="action" id="cell-4">
-<label>Ascending aorta diameter &gt;55&#x2013;60 mm? (annuloaortic ectasia)</label>
+<cell type="decision" id="cell-4">
+<label>Ascending aorta diameter &gt;55–60 mm? (annuloaortic ectasia)</label>
+<path target="cell-6">Yes</path>
+<path target="cell-11">Indeterminate</path>
+<path target="cell-10">No (moderate or severe AI)</path>
+<path target="cell-9">No (mild AI)</path>
 </cell>
 <cell type="action" id="cell-5">
-<label>Order transesophageal echocardiogram or aortic angiography</label>
+<label>Order transesophageal echocardiogram or aortic angiography, then reassess severity</label>
 </cell>
 <footnotes>
 <footnote>Data from Maurer G. Aortic regurgitation. <em>Heart</em> 2006;<strong>92</strong>:994&#x2013;1000;<xref ref="pubmed16775114" resource="acc029" /> and Bonow RO, Carabello BA, Chatterjee K, et al. ACC&#x002F;AGA 2006 guidelines for the management of patients with valvular heart disease. A report for the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines. <em>Circulation</em> 2006;<strong>114</strong>:e84&#x2013;e231.<xref ref="pubmed16880336" resource="acc006" />

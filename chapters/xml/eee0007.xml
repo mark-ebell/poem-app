@@ -680,12 +680,17 @@
 <graphic href="eee0007-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Incidental cerebral aneurysm (asymptomatic)</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>MRA</label>
+<path target="cell-3">Under 7 mm</path>
+<path target="cell-4">7 mm or larger</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>History of SAH?</label>
+<path target="cell-5">No</path>
+<path target="cell-6">Yes</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Observe; imaging yearly for 2-3 years then every 2-5 years</label>
@@ -710,15 +715,22 @@
 <graphic href="eee0007-w0002-y.gif" />
 <cell type="start" id="cell-7">
 <label>Suspected SAH Hemorrhage (symptomatic)</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>CT head without contrast</label>
+<path target="cell-9">SAH seen</path>
+<path target="cell-10">No SAH seen</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>CT angio or angiography to evaluate etiology</label>
+<path target="cell-11">Aneurysm</path>
+<path target="cell-12">No aneurysm</path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Hunt and Hess grade</label>
+<path target="cell-13">Grade 1–4</path>
+<path target="cell-14">Grade 5</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Surgical clipping or coiling within 72 hours</label>
@@ -731,6 +743,8 @@
 </cell>
 <cell type="decision" id="cell-10">
 <label>LP</label>
+<path target="cell-9">SAH (xanthochromia or RBCs that fail to clear)</path>
+<path target="cell-15">Normal or traumatic tap</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Consider alternative diagnoses</label>

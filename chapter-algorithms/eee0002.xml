@@ -1,0 +1,39 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>001.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Anaphylaxis: Management.</title>
+<graphic href="eee0002-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Immediate actions: Establish airway, check vital signs, administer epinephrine, administer oxygen</label>
+<path target="cell-2">Incomplete response</path>
+<path target="cell-3">Good response</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Readminister epinephrine every 10-15 minutes to 3-5 doses and assess specific problems</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Cutaneous symptoms: H1 and H2 antagonist, consider steroids. Wheezing: inhaled albuterol, consider steroids. Hypotensive: fluids and consider vasopressor and steroids. If taking beta-blocker: glucagon and&#x002F;or atropine and consider steroids</label>
+<path target="cell-5">Good response</path>
+<path target="cell-6">Poor response</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Observe 2 to 24 hours depending on severity</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Transfer to hospital</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Observe 2 hours. If stable, discharge</label>
+</cell>
+<footnotes>
+<footnote>Reproduced with permission from <xref ref="pubmed16310525" resource="acc012" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

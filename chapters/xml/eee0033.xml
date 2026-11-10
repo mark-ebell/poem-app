@@ -1355,24 +1355,31 @@
 <graphic href="eee0033-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected heart failure: Patient older than 60 years who presents with dyspnea, fatigue, or edema. Most will have a history of ischemic heart disease or hypertension or diabetes</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>ECG, BNP, and CXR (primarily to exclude other causes of dyspnea).</label>
+<path target="cell-3">Normal or not suggestive of HF</path>
+<path target="cell-4">Suggestive of HF</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Evaluate for other causes of symptoms.</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Urine and electrolytes, creatinine, LFT, TFT, glucose, lipids, echocardiogram.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Assess for triggers, reversible causes, and underlying cardiovascular disease.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Use ACE inhibitor (or ARB) and &#x03B2;-blocker plus diuretic for symptoms.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>If still symptomatic, consider spironolactone (if no renal failure or hyperkalaemia), digoxin (if in sinus rhythm), hydralazine, or isosorbide dinitrate.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Monitor weight, renal function, and electrolytes. Provide advice about smoking, alcohol, and monitoring symptoms. Give regular influenza and pneumococcal vaccinations.</label>

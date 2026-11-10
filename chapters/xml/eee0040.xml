@@ -641,9 +641,9 @@
 <graphic href="eee0040-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Mitral regurgitation: assess severity based on echocardiographic findings</label>
-<path target="cell-2"> Mild </path>
-<path target="cell-3"> Moderate </path>
-<path target="cell-4"> Severe or patient is symptomatic </path>
+<path target="cell-2">Mild</path>
+<path target="cell-3">Moderate</path>
+<path target="cell-4">Severe or patient is symptomatic</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>F&#x002F;u in 1 y for history and physical examination.</label>
@@ -653,9 +653,13 @@
 </cell>
 <cell type="decision" id="cell-4">
 <label>Symptomatic or asymptomatic?</label>
+<path target="cell-5">Asymptomatic</path>
+<path target="cell-6">Symptomatic</path>
 </cell>
 <cell type="decision" id="cell-5">
-<label>LVEF &lt;60&#x0025; or LVESD &#x003E;40 mm or new-onset afib or pulmonary hypertension.</label>
+<label>LVEF &lt;60%, LVESD &gt;40 mm, new-onset atrial fibrillation, or pulmonary hypertension?</label>
+<path target="cell-6">Yes to any</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>MV repair or replacement.</label>

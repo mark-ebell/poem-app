@@ -972,33 +972,30 @@
 <graphic href="eee0010-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Possible ACS</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>ST elevation on ECG?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>ST elevation MI. See that chapter for management.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Risk stratification with ACC&#x002F;AHA guidelines or TIMI Rule 153 (see <xref ref="rule153" resource="acc016" /> )</label>
-</cell>
-<cell type="action" id="cell-5">
-<label>Low risk.</label>
+<path target="cell-8">Low risk</path>
+<path target="cell-9">Intermediate risk</path>
+<path target="cell-10">High risk</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider admitting to monitored bed or ED chest pain unit.</label>
 </cell>
-<cell type="action" id="cell-6">
-<label>Intermediate risk.</label>
-</cell>
 <cell type="action" id="cell-9">
-<label>Admit to monitored bed; treatment as in <xref ref="fig002" />.</label>
-</cell>
-<cell type="action" id="cell-7">
-<label>High risk.</label>
+<label>Admit to monitored bed; treatment as in Figure 2</label>
 </cell>
 <cell type="action" id="cell-10">
-<label>Admit to coronary care unit; treatment as in <xref ref="fig002" />.</label>
+<label>Admit to coronary care unit; treatment as in Figure 2</label>
 </cell>
 <footnotes>
 <footnote>Abbreviations: ACS, acute coronary syndrome; ACC&#x002F;AHS, American College of Cardiology&#x002F;American Heart Association; MI, myocardial infarction.</footnote>
@@ -1016,27 +1013,24 @@
 <graphic href="eee0010-w0002-y.gif" />
 <cell type="start" id="cell-11">
 <label>Chest pain, possible ACS</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>For all: aspirin, oxygen, NTG, consider morphine.</label>
-</cell>
-<cell type="action" id="cell-13">
-<label>Low risk.</label>
+<path target="cell-16">Low risk</path>
+<path target="cell-17">Intermediate risk</path>
+<path target="cell-18">High risk</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Monitoring only; individualized treatment unless patient develops intermediate- or high-risk criteria.</label>
 </cell>
-<cell type="action" id="cell-14">
-<label>Intermediate risk.</label>
-</cell>
 <cell type="action" id="cell-17">
 <label>NTG- Beta blockers. Consider: Clopidogrel, Heparin (UFH or LMWH), Glycoprotein IIb&#x002F;IIIa inhibitor.</label>
 </cell>
-<cell type="action" id="cell-15">
-<label>High risk.</label>
-</cell>
 <cell type="decision" id="cell-18">
 <label>NTG- Beta blockers, Heparin (UFH or LMWH), Glycoprotein IIb&#x002F;IIIa if PCI planned or if abnormal ECG or elevated troponin Consider: Clopidogrel if no CABG; PCI if early invasive strategy.</label>
+<path target="cell-19">Early conservative strategy</path>
+<path target="cell-20">Early invasive strategy</path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Early conservative strategy for high risk: Use clopidogrel, Consider glycoprotein IIb&#x002F;IIIa inhibitor. Cardiac catheterization indicated if: Refractory ischemic chest pain, Recurrent&#x002F;persistent ST deviation, Ventricular tachycardia, Hemodynamic instability, Signs of pump failure.</label>

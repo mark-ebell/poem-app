@@ -1,0 +1,157 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>220.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Angioedema: Diagnosis.</title>
+<graphic href="eee0005-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Angioedema</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>On ACEI?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>On other medication known to cause angioedema?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Isolated recurrent angioedema or family history of angioedema?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Exclusion of precipitating factors; idiopathic angioedema.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Check serum C4, C1-INH antigenic level, C1-INH functional level, C1q</label>
+<path target="cell-12">Low C4 with paraprotein</path>
+<path target="cell-11">HAE-1</path>
+<path target="cell-20">HAE-2</path>
+<path target="cell-21">HAE with normal C1-INH</path>
+<path target="cell-22">Acquired angioedema</path>
+<path target="cell-23">No identified cause</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Hereditary angioedema type 1: low C4, low C1-INH antigenic level, low C1-INH functional level, and normal C1q</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Acquired C1 esterase inhibitor deficiency.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Trial off offending medication. Resolution of symptoms?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Stop ACEI. Resolution of symptoms?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Probable drug-induced angioedema</label>
+</cell>
+<cell type="action" id="cell-20">
+<label>Hereditary angioedema type 2: low C4, normal or elevated C1-INH antigenic level, low C1-INH functional level, and normal C1q</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Normal C4, normal C1-INH antigenic level, normal C1-INH functional level, normal C1q; F12 mutation may be present</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Low C4, low C1-INH antigenic level, low C1-INH functional level, low C1q; autoantibodies to C1-INH may be present</label>
+</cell>
+<cell type="action" id="cell-23">
+<label>Normal C4, normal C1-INH antigenic level, normal C1-INH functional level, normal C1q</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Powell et al.<xref ref="pubmed25711134" resource="acc029" />
+</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>220.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Chronic Urticaria: Diagnosis.</title>
+<graphic href="eee0005-w0002-y.gif" />
+<cell type="start" id="cell-14">
+<label>Urticaria &#x00B1; angioedema. Systemic symptoms, lesions &gt;24 h?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Consider further tests including skin biopsy, CBC, ESR. Vasculitis on biopsy?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Urticarial vasculitis.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Consider delayed pressure urticaria.</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Look for suggestive points in history. On medication known to cause urticaria and&#x002F;or angioedema?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-20">No</path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Consider trial off offending medication.</label>
+<path target="cell-23">Symptoms resolve off the medication</path>
+<path target="cell-20">Recurrence of symptoms</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Probable drug-induced urticaria and&#x002F;or angioedema.</label>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Reproducible allergic trigger (food, contact, environmental)?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-25">No</path>
+</cell>
+<cell type="decision" id="cell-24">
+<label>Skin testing, trial of avoidance of offending agent.</label>
+<path target="cell-26">Skin test positive or resolution of symptoms with avoidance</path>
+<path target="cell-25">Skin test negative</path>
+</cell>
+<cell type="action" id="cell-26">
+<label>Allergic urticaria.</label>
+</cell>
+<cell type="decision" id="cell-25">
+<label>Inducible physical trigger?</label>
+<path target="cell-28">Yes</path>
+<path target="cell-29">No</path>
+</cell>
+<cell type="decision" id="cell-28">
+<label>Consider challenge testing for physical triggers; check cryoglobulins if cold urticaria.</label>
+<path target="cell-32">Challenge testing positive</path>
+<path target="cell-29">Challenge testing negative</path>
+</cell>
+<cell type="action" id="cell-32">
+<label>Probable physical urticaria, consider delayed pressure urticaria.</label>
+</cell>
+<cell type="decision" id="cell-29">
+<label>Associated autoimmune disorder?</label>
+<path target="cell-33">Yes</path>
+<path target="cell-34">No</path>
+</cell>
+<cell type="action" id="cell-33">
+<label>Consider thyroid function and antibody testing; probable autoimmune urticaria.</label>
+</cell>
+<cell type="action" id="cell-34">
+<label>Exclusion of precipitating factors; Idiopathic urticaria&#x002F;angioedema.</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Powell et al.<xref ref="pubmed25711134" resource="acc029" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

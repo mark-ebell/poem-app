@@ -617,72 +617,99 @@
 <graphic href="eee0039-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Severe abdominal pain out of proportion with examination with no other explanation, or other evidence suggesting AMI? Stabilize the patient, correct any reversible or contributing causes.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Peritoneal signs?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Laparotomy.</label>
+<path target="cell-5">Normal or alternate diagnosis</path>
+<path target="cell-8">AMI</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Treat as appropriate.</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>History of DVTs or hypercoagulable state?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Mesenteric arteriography. May consider CTA, but negative finding does not rule out AMI.</label>
+<path target="cell-8">AMI</path>
+<path target="cell-24">Normal or alternate diagnosis</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Obstructive AMI?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Mesenteric venous thrombosis or arterial thrombus or embolus?</label>
+<path target="cell-11">Arterial thrombus or embolus</path>
+<path target="cell-12">Mesenteric venous thrombosis</path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Peritoneal signs?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="decision" id="cell-13">
-<label>No evidence of collaterals or superior mesenteric artery filling is poor or absent?</label>
+<label>No evidence of collaterals, or superior mesenteric artery filling poor or absent?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-14">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Continuous papaverine infusion. Percutaneous endovascular therapy (stenting, balloon angioplasty, thrombolytics) may be considered; observation alone is an alternative. Consider repeat angiogram.</label>
 </cell>
-<cell type="action" id="cell-15">
+<cell type="decision" id="cell-15">
 <label>Laparotomy. Perform revascularization (embolectomy or bypass grafting). Resect segments of infarcted bowel. Consider papaverine infusion, if possible. May consider thrombolytics as alternative to laparotomy.</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Consider repeat angiogram and&#x002F;or second-look laparotomy in 24-48 hours.</label>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Peritoneal signs?</label>
+<path target="cell-17">No</path>
+<path target="cell-18">Yes</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Anticoagulation for 3-6 months.</label>
 </cell>
-<cell type="action" id="cell-18">
+<cell type="decision" id="cell-18">
 <label>Laparotomy, resect segments of infarcted bowel. May consider papaverine infusion, thrombolytic therapy, or thrombectomy.</label>
+<path target="cell-19"></path>
 </cell>
-<cell type="action" id="cell-19">
+<cell type="decision" id="cell-19">
 <label>Anticoagulation (heparin). Consider second-look laparotomy in 24-48 hours.</label>
+<path target="cell-20"></path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Anticoagulation (coumadin) for 3-6 months.</label>
 </cell>
-<cell type="action" id="cell-10">
+<cell type="decision" id="cell-10">
 <label>Nonobstructive AMI.</label>
+<path target="cell-21"></path>
 </cell>
-<cell type="action" id="cell-21">
+<cell type="decision" id="cell-21">
 <label>Continuous papaverine infusion. Correct underlying cause (hypovolemia, shock, sepsis, congestive heart failure, vasoconstrictors, etc.).</label>
+<path target="cell-22"></path>
 </cell>
-<cell type="action" id="cell-22">
+<cell type="decision" id="cell-22">
 <label>Laparotomy if peritoneal signs or evidence of bowel infarction. Resect segments of infarcted bowel.</label>
+<path target="cell-23"></path>
 </cell>
 <cell type="action" id="cell-23">
 <label>Consider repeat angiogram and&#x002F;or second-look laparotomy in 24-48 hours.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>CT with contrast. Mesenteric venous thrombosis present?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-24">No</path>
 </cell>
 <cell type="action" id="cell-24">
 <label>Treat as appropriate.</label>

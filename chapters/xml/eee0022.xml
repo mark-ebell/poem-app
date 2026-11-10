@@ -872,11 +872,11 @@
 <graphic href="eee0022-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Acute myocarditis</label>
-<path target="cell-2"> Arrhythmia </path>
-<path target="cell-7"> Subclinical </path>
-<path target="cell-8"> Fulminant myocarditis </path>
-<path target="cell-10"> Heart failure </path>
-<path target="cell-13"> Ventricular arrhythmias and heart blocks </path>
+<path target="cell-2">Arrhythmia</path>
+<path target="cell-7">Subclinical</path>
+<path target="cell-8">Fulminant myocarditis</path>
+<path target="cell-10">Heart failure</path>
+<path target="cell-13">Ventricular arrhythmias and heart blocks</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Sudden cardiac death</label>
@@ -886,15 +886,18 @@
 </cell>
 <cell type="action" id="cell-8">
 <label>Hemodynamic support, LVAD</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>More than 90&#x0025; recover</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Progressive remodeling</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Dilated cardiomyopathy</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Heart transplant</label>

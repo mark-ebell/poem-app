@@ -1,0 +1,52 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>184.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Sinus Node Dysfunction: Treatment.</title>
+<graphic href="eee0016-w0001-y.gif" />
+<cell type="decision" id="cell-2">
+<label>Bradyarrhythmia: symptomatic?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Sinus node dysfunction?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Observation and followup.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Treat other diagnosis as appropriate.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Sinus node dysfunction (SND) suspected; establish diagnosis via ECG, Holter, and&#x002F;or event monitoring.</label>
+<path target="cell-6">Other diagnosis</path>
+<path target="cell-7">SND confirmed</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Transient resulting from reversible causes?</label>
+<path target="cell-8">No</path>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Causal relation between symptoms and rhythm present?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Electrophysiologic studies and possible pacemaker placement.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Pacemaker placement.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Treat reversible causes and followup.</label>
+</cell>
+</algorithm>
+</algorithms>

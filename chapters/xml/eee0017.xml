@@ -762,23 +762,29 @@
 <graphic href="eee0017-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Palpitations. Order 12-lead ECG. Pre-excitation present?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Suspect AVRT.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Refer to arrhythmia specialist.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Assess arrhythmia pattern by clinical history. History of syncope?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Type of palpitations.</label>
+<path target="cell-4">Sustained regular</path>
+<path target="cell-6">Irregular palpitations</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Suspect atrial fibrillation, multifocal atrial tachycardia, or atrial flutter with with variable AV conduction.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Event monitor and follow-up.</label>
@@ -798,39 +804,51 @@
 <graphic href="eee0017-w0002-y.gif" />
 <cell type="start" id="cell-8">
 <label>Hemodynamically stable regular tachycardia</label>
-<path target="cell-12"> Narrow QRS </path>
-<path target="cell-18"> Wide QRS, definite SVT </path>
-<path target="cell-19"> Wide QRS, VT or unknown </path>
+<path target="cell-12">Narrow QRS</path>
+<path target="cell-18">Wide QRS, definite SVT</path>
+<path target="cell-19">Wide QRS, VT or unknown</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>SVT</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Vagal maneuvers IV adenosine IV verapamil&#x002F;diltiazem IV beta blocker</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Termination?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Done</label>
 </cell>
 <cell type="action" id="cell-16">
 <label>Persistent tachycardia with AV block</label>
+<path target="cell-17"></path>
 </cell>
 <cell type="action" id="cell-17">
 <label>AV-nodal blocking agent plus one of the following: IV ibutilide (if 60 kg: 0.01 mg&#x002F;kg over 10 min; if &#x2265; 60 kg, 1 mg over 10 min), or IV procainamide, or IV flecainide (2 mg&#x002F;kg over 10 min), or overdrive pacing&#x002F;DC cardioversion</label>
 </cell>
 <cell type="decision" id="cell-18">
 <label>Pre-excitation?</label>
+<path target="cell-12">No</path>
+<path target="cell-17">Yes</path>
 </cell>
 <cell type="decision" id="cell-19">
 <label>Medical treatment or DC cardioversion</label>
+<path target="cell-20">Medical</path>
+<path target="cell-23">DC cardioversion</path>
 </cell>
 <cell type="action" id="cell-20">
 <label>IV procainamide (30 mg&#x002F;min continuous infusion to max. of 17 mg&#x002F;kg) IV lidocaine (load 1 mg&#x002F;kg; repeat 0.5 mg&#x002F;kg q 10 min up to 3 mg&#x002F;kg; maintenance 1-4 mg&#x002F;min) IV amiodarone in patients with poor LV function (load 150 mg bolus; then 1 mg&#x002F;min for 6 hrs; then 0.5 mg&#x002F;min)</label>
+<path target="cell-21"></path>
 </cell>
 <cell type="decision" id="cell-21">
 <label>Termination?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-22">
 <label>Done</label>
@@ -854,11 +872,13 @@
 <graphic href="eee0017-w0003-y.gif" />
 <cell type="start" id="cell-24">
 <label>Patient with PSVT. Pre-excitation or severe symptoms?</label>
-<path target="cell-25"> No </path>
-<path target="cell-26"> Yes </path>
+<path target="cell-25">No</path>
+<path target="cell-26">Yes</path>
 </cell>
 <cell type="decision" id="cell-25">
 <label>Limiting symptoms?</label>
+<path target="cell-27">No</path>
+<path target="cell-28">Yes</path>
 </cell>
 <cell type="action" id="cell-27">
 <label>No therapy</label>
@@ -868,6 +888,8 @@
 </cell>
 <cell type="decision" id="cell-26">
 <label>RF ablation. Successful?</label>
+<path target="cell-29">No</path>
+<path target="cell-30">Yes</path>
 </cell>
 <cell type="action" id="cell-29">
 <label>Drug therapy</label>

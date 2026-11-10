@@ -1,0 +1,39 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>018</id>
+<supertype />
+<last_update />
+</meta>
+<title>Algorithm for Suspected Ventricular Tachycardia or Fibrillation.</title>
+<graphic href="eee0018-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suggestive symptoms (palpitations, syncope, chest pain) or asymptomatic</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Suggestive exam (tachycardia, evidence of decreased perfusion) or witnessed arrest</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Assess hemodynamic stability (vital signs, level of consciousness)</label>
+<path target="cell-4">Unstable</path>
+<path target="cell-7">Cardiac arrest</path>
+<path target="cell-13">Stable</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Activate emergency response team (B). Perform direct current cardioversion with appropriate sedation for monomorphic VT (C) and polymorphic VT (B). Follow ACLS guidelines for further therapy (C).</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Activate emergency response team (B). Begin CPR (A). If an AED is available, apply it and follow instructions (C). If VT/VF recurs after a maximally defibrillating shock (usually 360 J), give IV amiodarone (B). Evaluate and manage reversible causes and factors: volume depletion, electrolyte disturbances, drug reactions, hypoxia (C). Follow ACLS guidelines for further therapy (C).</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Diagnose rhythm using ECG; may be difficult to differentiate from SVT (A). If unknown, presume VT in the absence of contrary evidence (C). Follow ACLS guidelines for further therapy (C).</label>
+</cell>
+<footnotes>
+<footnote>Adapted from ACC&#x002F;AHA&#x002F;ESC 2006 guidelines for management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. <em>J Am Coll Cardiol</em> 2006;<strong>48</strong>:247&#x2013;346. <resourceLink href="http://content.onlinejacc.org/cgi/content/full/48/5/e247">http:&#x002F;&#x002F;content.onlinejacc.org&#x002F;cgi&#x002F;content&#x002F;full&#x002F;48&#x002F;5&#x002F;e247</resourceLink>
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

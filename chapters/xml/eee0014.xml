@@ -643,20 +643,27 @@
 <graphic href="eee0014-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Bradycardia: establish diagnosis by ECG or event monitoring</label>
-<path target="cell-2"> Asymptomatic </path>
-<path target="cell-3"> Symptomatic </path>
+<path target="cell-2">Asymptomatic</path>
+<path target="cell-3">Symptomatic</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Transient due to drugs?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Type of block?</label>
+<path target="cell-9">First degree</path>
+<path target="cell-7">Second degree</path>
+<path target="cell-13">Advanced or complete block</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>No treatment</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Type I or Type II</label>
+<path target="cell-12">Type I</path>
+<path target="cell-14">Type II</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Block in or below His bundle</label>
@@ -672,15 +679,21 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Emergency?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-17">No; second degree or complete block</path>
+<path target="cell-16">No; first degree block</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Give atropine 0.5 to 1.0 mg</label>
+<path target="cell-18"></path>
 </cell>
 <cell type="action" id="cell-18">
 <label>TCP&#x002F;TVP</label>
 </cell>
 <cell type="decision" id="cell-16">
 <label>Symptoms of pacemaker syndrome?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-19">No</path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Follow-up</label>

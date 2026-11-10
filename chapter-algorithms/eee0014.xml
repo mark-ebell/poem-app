@@ -1,0 +1,76 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>183.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Arrhythmia (Atriventricular Block): Management.<xref ref="pubmed30412710" resource="acc030" />
+</title>
+<graphic href="eee0014-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Bradycardia: establish diagnosis by ECG or event monitoring</label>
+<path target="cell-2">Asymptomatic</path>
+<path target="cell-3">Symptomatic</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Transient due to drugs?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Type of block?</label>
+<path target="cell-9">First degree</path>
+<path target="cell-7">Second degree</path>
+<path target="cell-13">Advanced or complete block</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>No treatment</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Type I or Type II</label>
+<path target="cell-12">Type I</path>
+<path target="cell-14">Type II</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Block in or below His bundle</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Pacemaker</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>EPS and&#x002F;or pacemaker</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Follow-up</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Emergency?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-17">No; second degree or complete block</path>
+<path target="cell-16">No; first degree block</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Give atropine 0.5 to 1.0 mg</label>
+<path target="cell-18"></path>
+</cell>
+<cell type="action" id="cell-18">
+<label>TCP&#x002F;TVP</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Symptoms of pacemaker syndrome?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-19">
+<label>Follow-up</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Pacemaker</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: TCP, transcutaneous pacer; TVP, transvenous pacer; EPS, electrophysiologic study.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

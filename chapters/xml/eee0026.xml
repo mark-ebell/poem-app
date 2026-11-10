@@ -1012,30 +1012,40 @@
 <graphic href="eee0026-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with suspected new TIA (no fixed deficit at time of presentation)</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Speech deficit Unilateral motor loss Unilateral sensory loss.</label>
+<label>Speech deficit, unilateral motor loss, or unilateral sensory loss?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Reassess whether patient has TIA; consider neurologic consultation.</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Dexstick, CBC, Chem 7, PT&#x002F;PTT, UA, ECG&#x002F;cardiac monitoring, noncontrast head CT.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Glucose or electrolyte abnormalities, atrial fibrillation, intracranial mass, bleed?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Treat as indicated.</label>
 </cell>
 <cell type="decision" id="cell-7">
-<label>Did event occur within 48 h?</label>
+<label>Did event occur within 48 hours?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
-<cell type="start" id="cell-8">
+<cell type="action" id="cell-8">
 <label>Perform expedited workup for stroke As an inpatient or in the ER.</label>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Did event occur within 7 days and ABCD2 5 or more?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Schedule workup that should be completed within 1 wk.</label>

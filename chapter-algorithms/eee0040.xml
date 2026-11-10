@@ -1,0 +1,44 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title> Severe Chronic MR: Management.</title>
+<graphic href="eee0040-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Mitral regurgitation: assess severity based on echocardiographic findings</label>
+<path target="cell-2">Mild</path>
+<path target="cell-3">Moderate</path>
+<path target="cell-4">Severe or patient is symptomatic</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>F&#x002F;u in 1 y for history and physical examination.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>F&#x002F;u and repeat echocardiography in 1 y.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Symptomatic or asymptomatic?</label>
+<path target="cell-5">Asymptomatic</path>
+<path target="cell-6">Symptomatic</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>LVEF &lt;60%, LVESD &gt;40 mm, new-onset atrial fibrillation, or pulmonary hypertension?</label>
+<path target="cell-6">Yes to any</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>MV repair or replacement.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Monitor every 6-12 mo or sooner if symptoms occur.</label>
+</cell>
+<footnotes>
+<footnote>Data from Bonow RO, Carabello BA, Chatterjee K, et al. ACC&#x002F;AHA 2006 guidelines for the management of patients with valvular heart disease. <em>J Am Coll Cardiol</em> 2006;<strong>48</strong>:e1-e148.<xref ref="pubmed16875962" resource="acc002" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1471,54 +1471,76 @@
 <graphic href="eee0009-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Patient referred for noninvasive evaluation</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Obtain focused history and physical exam to assess for contraindications to stress testing.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Are there symptoms and&#x002F;or clinical findings warranting coronary angiography?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Refer to cardiology for angiography.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Does patient have a contraindication to stress test?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Is the patient a candidate for a revascularization procedure?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Return to referring module with positive result.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Is patient able to exercise adequately?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Does pretest ECG indicate impaired sensitivity and&#x002F;or specificity or patient had previous revascularization?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Perform exercise imaging stress test.</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Perform exercise stress test.</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Perform pharmacologic stress test with imaging modality.</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Is there adequate information for diagnosis or prognosis?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Do test results indicate high or intermediate risk for a coronary event?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="decision" id="cell-16">
 <label>Do test results indicate myocardial ischemia, but low risk?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-17">No</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Return to referring module with negative result.</label>
 </cell>
 <cell type="action" id="cell-15">
 <label>Consider imaging stress test or referral to cardiology.</label>
+<path target="cell-18"></path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Return to referring module with undetermined results.</label>
@@ -1538,87 +1560,122 @@
 <graphic href="eee0009-w0002-y.gif" />
 <cell type="start" id="cell-19">
 <label>Patient with known ischemic heart disease</label>
+<path target="cell-20"></path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Obtain focused history, physical exam, and review of medication and reversible risk factors.</label>
+<path target="cell-21"></path>
 </cell>
 <cell type="decision" id="cell-21">
 <label>Are there acute symptoms, changes in symptoms, or inadequately controlled symptoms?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-22">
 <label>Assess for acute coronary syndrome or unstable angina.</label>
 </cell>
 <cell type="decision" id="cell-23">
 <label>Are there indications for assessment of LV function (eg, signs or symptoms of CHF)?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-25">No</path>
 </cell>
 <cell type="action" id="cell-24">
 <label>Assess LV function.</label>
+<path target="cell-26"></path>
 </cell>
 <cell type="decision" id="cell-26">
 <label>Is LVEF &lt;0.40 (moderate or severe LV dysfunction)?</label>
+<path target="cell-27">Yes</path>
+<path target="cell-28">No</path>
 </cell>
 <cell type="action" id="cell-27">
 <label>Ensure pharmacotherapy for CHF&#x002F;LV dysfunction.</label>
+<path target="cell-28"></path>
 </cell>
 <cell type="action" id="cell-28">
 <label>Consider cardiac stress test.</label>
+<path target="cell-30"></path>
 </cell>
 <cell type="decision" id="cell-25">
 <label>Indication for noninvasive cardiac stress test?</label>
+<path target="cell-28">Yes</path>
+<path target="cell-29">No</path>
 </cell>
 <cell type="action" id="cell-29">
 <label>IHD patient with optimally controlled ischemic symptoms or no symptoms, with or without prior event.</label>
+<path target="cell-34"></path>
 </cell>
 <cell type="decision" id="cell-30">
 <label>Do test results indicate diagnosis of CAD with high&#x002F;intense features, or intermediate?</label>
+<path target="cell-31">Yes</path>
+<path target="cell-32">No</path>
 </cell>
 <cell type="action" id="cell-31">
 <label>Refer to cardiology for possible angiography.</label>
 </cell>
 <cell type="decision" id="cell-32">
 <label>Is patient at high risk for sudden cardiac death? Or other indication for referral to cardiology?</label>
+<path target="cell-33">Yes</path>
+<path target="cell-29">No</path>
 </cell>
 <cell type="action" id="cell-33">
 <label>Refer to cardiology for evaluation and&#x002F;or revascularization.</label>
 </cell>
 <cell type="action" id="cell-34">
 <label>Continue aspirin and beta-adrenergic blocking agent.</label>
+<path target="cell-35"></path>
 </cell>
 <cell type="decision" id="cell-35">
 <label>Does patient have LDL-C &#x003E;100 mg&#x002F;dL, HDL &lt;40 mg&#x002F;dL or elevated TG?</label>
+<path target="cell-36">Yes</path>
+<path target="cell-37">No</path>
 </cell>
 <cell type="action" id="cell-36">
 <label>Initiate therapy to address lipid abnormalities.</label>
+<path target="cell-37"></path>
 </cell>
 <cell type="decision" id="cell-37">
 <label>Is patient hypertensive ( ie, blood pressure &#x003E;140&#x002F;90)?</label>
+<path target="cell-38">Yes</path>
+<path target="cell-39">No</path>
 </cell>
 <cell type="action" id="cell-38">
 <label>Control hypertension.</label>
+<path target="cell-39"></path>
 </cell>
 <cell type="decision" id="cell-39">
 <label>Is patient currently using tobacco?</label>
+<path target="cell-40">Yes</path>
+<path target="cell-41">No</path>
 </cell>
 <cell type="action" id="cell-40">
 <label>Initiate tobacco use cessation.</label>
 </cell>
 <cell type="decision" id="cell-41">
 <label>Does patient have diabetes mellitus?</label>
+<path target="cell-42">Yes</path>
+<path target="cell-43">No</path>
 </cell>
 <cell type="action" id="cell-42">
 <label>Manage diabetes.</label>
+<path target="cell-43"></path>
 </cell>
 <cell type="decision" id="cell-43">
 <label>Does patient screen positive for depression?</label>
+<path target="cell-44">Yes</path>
+<path target="cell-45">No</path>
 </cell>
 <cell type="action" id="cell-44">
 <label>Manage depression.</label>
+<path target="cell-45"></path>
 </cell>
 <cell type="action" id="cell-45">
 <label>Provide patient and family education.</label>
+<path target="cell-46"></path>
 </cell>
 <cell type="action" id="cell-46">
 <label>Consider exercise rehabilitation program.</label>
+<path target="cell-47"></path>
 </cell>
 <cell type="action" id="cell-47">
 <label>Schedule regular follow-up.</label>
