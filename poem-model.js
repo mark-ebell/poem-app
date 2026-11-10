@@ -10,7 +10,9 @@ const PUBMED_BASE = 'https://pubmed.ncbi.nlm.nih.gov/';
 // are mapped to the full last name used in the app, the rest keep their initials.
 const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant', 'Rowland', 'Rayala', 'Ferenchick', 'Kurotschka', 'Sexton', 'Lin'];
 const POET_BY_INITIALS = { HB: 'Barry', ME: 'Ebell', AS: 'Shaughnessy', DS: 'Slawson', LS: 'Speer', LF: 'Speer', NS: 'Shrikant', NK: 'Shrikant' };
-const POEM_STATUSES = ['Being edited', 'Ready for review', 'Ready for copy edit', 'Published'];
+const POEM_STATUSES = ['Initial authoring', 'Ready for review', 'Ready for final edit', 'Published'];
+// Earlier names of two statuses (renamed 11/2026), still accepted from a page loaded before the change.
+const RENAMED_STATUSES = { 'Being edited': 'Initial authoring', 'Ready for copy edit': 'Ready for final edit' };
 // Each POET's full name and degrees, shown wherever a POEM names its POET.
 const POET_FULL_NAMES = {
   Ebell: 'Mark H. Ebell, MD, MS',
@@ -248,7 +250,8 @@ function normalizePoemBody(body, existing) {
   if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(publicationDate)) return { error: 'A valid publication date is required.' };
 
   // A new POEM starts with its author; an update without a status keeps the current one.
-  const status = String(b.status || '').trim() || (existing ? existing.status : POEM_STATUSES[0]);
+  const given = String(b.status || '').trim();
+  const status = RENAMED_STATUSES[given] || given || (existing ? existing.status : POEM_STATUSES[0]);
   if (!POEM_STATUSES.includes(status)) return { error: 'A valid POEM status is required.' };
 
   let ageGroup = null;

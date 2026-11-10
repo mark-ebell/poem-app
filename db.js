@@ -72,8 +72,8 @@ db.exec(`
 //   synopsis / bottom_line   sanitized HTML (bold, italics, sub/superscript, links)
 //   pubmed_id        8-digit PMID, the literal 'NA' (checked, none exists), or NULL
 //   pubmed_url       derived from pubmed_id (kept as-is for 'NA' rows that have a source link)
-//   status           editorial stage: 'Being edited', 'Ready for review',
-//                    'Ready for copy edit' or 'Published'
+//   status           editorial stage: 'Initial authoring', 'Ready for review',
+//                    'Ready for final edit' or 'Published'
 //   source           'app' (written here) or 'import' (loaded from the spreadsheet)
 //   legacy_html      the whole-POEM HTML blob from before the structured fields existed
 const POEMS_COLUMNS = `
@@ -98,7 +98,7 @@ const POEMS_COLUMNS = `
   bottom_line TEXT NOT NULL DEFAULT '',
   pubmed_id TEXT,
   pubmed_url TEXT,
-  status TEXT NOT NULL DEFAULT 'Being edited',
+  status TEXT NOT NULL DEFAULT 'Initial authoring',
   source TEXT NOT NULL DEFAULT 'app',
   legacy_html TEXT,
   search_text TEXT,
@@ -147,10 +147,14 @@ if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'search
 // marked Published; anything later is still with its author.
 if (!db.prepare("PRAGMA table_info('poems')").all().some(c => c.name === 'status')) {
   db.transaction(() => {
-    db.exec("ALTER TABLE poems ADD COLUMN status TEXT NOT NULL DEFAULT 'Being edited'");
+    db.exec("ALTER TABLE poems ADD COLUMN status TEXT NOT NULL DEFAULT 'Initial authoring'");
     db.exec("UPDATE poems SET status = 'Published' WHERE publication_date <= '2026-09'");
   })();
 }
+// Two statuses were renamed (11/2026): Being edited -> Initial authoring, Ready for copy
+// edit -> Ready for final edit. Runs at every start; does nothing once they are renamed.
+db.exec("UPDATE poems SET status = 'Initial authoring' WHERE status = 'Being edited'");
+db.exec("UPDATE poems SET status = 'Ready for final edit' WHERE status = 'Ready for copy edit'");
 // MeSH headings of the article each POEM summarizes, from PubMed (mesh.js): all of them, the
 // major topics, and when they were last looked up. They are searched with the POEM's text.
 for (const col of ['mesh_terms', 'mesh_major', 'mesh_checked_at']) {

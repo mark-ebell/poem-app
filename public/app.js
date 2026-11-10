@@ -510,7 +510,7 @@ function applyNewDocumentDefaults() {
   const now = new Date();
   const defaultDate = new Date(now.getFullYear(), now.getMonth() + 2, 1);
   els.pubDateSelect.value = monthValue(defaultDate);
-  els.statusSelect.value = 'Being edited';
+  els.statusSelect.value = 'Initial authoring';
 }
 
 // ---------- PDF extraction ----------
@@ -1038,8 +1038,8 @@ function formatEmailDate(d) {
   return new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' });
 }
 
-// Status sorts in workflow order (Being edited first, Published last).
-const STATUS_ORDER = ['Being edited', 'Ready for review', 'Ready for copy edit', 'Published'];
+// Status sorts in workflow order (Initial authoring first, Published last).
+const STATUS_ORDER = ['Initial authoring', 'Ready for review', 'Ready for final edit', 'Published'];
 
 function sortValue(doc, key) {
   if (key === 'title') return (doc.title || '').toLowerCase();
