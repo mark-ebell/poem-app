@@ -30,5 +30,3 @@ services:
         sync: false
       - key: DAILY_POEM_RECIPIENTS
         value: ebell@msu.edu
-      - key: DAILY_POEM_MONTHS
-        value: 2026-10

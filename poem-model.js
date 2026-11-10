@@ -306,6 +306,7 @@ function toClient(row) {
     publicationDate: row.publication_date,
     pubDateExact: row.pub_date_exact,
     status: row.status,
+    emailDate: row.daily_date || null, // Daily InfoPOEM day (daily-poem.js)
     reference: row.reference,
     clinicalQuestion: row.clinical_question,
     allocation: row.allocation,
@@ -338,6 +339,7 @@ function toListItem(row) {
     publicationDate: row.publication_date,
     ageGroup: row.age_group,
     status: row.status,
+    emailDate: row.daily_date || null, // Daily InfoPOEM day (daily-poem.js)
     createdBy: row.created_by,
     createdAt: row.created_at,
     source: row.source

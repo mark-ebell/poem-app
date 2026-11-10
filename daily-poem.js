@@ -1,8 +1,9 @@
-// Daily InfoPOEM: one POEM emailed to subscribers each weekday.
+// Daily InfoPOEM: one POEM emailed to subscribers each day.
 //
-// When a POEM becomes Published it is given a weekday in its publication month that no
-// other POEM has (today or later, so it can still be sent), chosen at random; only the
-// months in DAILY_POEM_MONTHS take part (for now October 2026). On that day, from
+// When a POEM becomes Published it is given a day in its publication month that no other
+// POEM has (today or later, so it can still be sent), chosen at random: a weekday while
+// any are free, then a Saturday, then a Sunday. POEMs published in the current month or
+// later take part (older POEMs and the archive do not). On that day, from
 // SEND_HOUR US Eastern time, the server emails it to each edition's recipients and records
 // the send, so a restart never sends a day twice. The editions are identical except for the
 // logo at the top left: AAFP (to DAILY_POEM_RECIPIENTS) and Virtual Hallway (to
@@ -23,7 +24,6 @@ const { escapeHtml } = require('./poem-model');
 const TIME_ZONE = 'America/New_York';
 const SEND_HOUR = 6;
 const sendingOn = () => String(process.env.DAILY_POEM_SENDING || '').trim().toLowerCase() === 'on';
-const months = () => String(process.env.DAILY_POEM_MONTHS || '2026-10').split(',').map(m => m.trim()).filter(Boolean);
 const list = (v, fallback) => String(v || fallback).split(',').map(r => r.trim()).filter(Boolean);
 // The editions: the same email with a different logo, each to its own recipients.
 const EDITIONS = [
@@ -43,30 +43,33 @@ function easternNow(now = new Date()) {
   return { date: `${parts.year}-${parts.month}-${parts.day}`, hour: Number(parts.hour) };
 }
 
-// Monday to Friday of a month ('YYYY-MM') as 'YYYY-MM-DD'.
-function weekdaysOf(month) {
+// The days of a month ('YYYY-MM') as 'YYYY-MM-DD', in the order they are used: Monday to
+// Friday ([0]), Saturdays ([1]), Sundays ([2]).
+function daysOf(month) {
   const [y, m] = month.split('-').map(Number);
-  const out = [];
+  const out = [[], [], []];
   for (let d = 1; d <= 31; d++) {
     const day = new Date(Date.UTC(y, m - 1, d));
     if (day.getUTCMonth() !== m - 1) break;
     const dow = day.getUTCDay();
-    if (dow !== 0 && dow !== 6) out.push(day.toISOString().slice(0, 10));
+    out[dow === 6 ? 1 : dow === 0 ? 2 : 0].push(day.toISOString().slice(0, 10));
   }
   return out;
 }
+const weekdaysOf = month => daysOf(month)[0];
 
 // ---------- Assigning days ----------
-// Gives a Published POEM its Daily InfoPOEM day, if its month takes part and it has none.
-// Returns the day, or null.
+// Gives a Published POEM its Daily InfoPOEM day, if it is from the current month or later
+// and has none. Returns the day, or null.
 function assignDailyDate(poemRecordId) {
   const row = db.prepare('SELECT id, status, publication_date, daily_date FROM poems WHERE id = ?').get(poemRecordId);
-  if (!row || row.status !== 'Published' || row.daily_date || !months().includes(row.publication_date)) return null;
   const today = easternNow().date;
+  if (!row || row.status !== 'Published' || row.daily_date || !/^\d{4}-\d{2}$/.test(row.publication_date || '')
+    || row.publication_date < today.slice(0, 7)) return null;
   const taken = new Set(db.prepare('SELECT daily_date FROM poems WHERE daily_date IS NOT NULL').all().map(r => r.daily_date));
-  const free = weekdaysOf(row.publication_date).filter(d => d >= today && !taken.has(d));
-  if (!free.length) {
-    console.warn(`Daily InfoPOEM: no free weekday left in ${row.publication_date} for POEM ${row.id}.`);
+  const free = daysOf(row.publication_date).map(days => days.filter(d => d >= today && !taken.has(d))).find(days => days.length);
+  if (!free) {
+    console.warn(`Daily InfoPOEM: no free day left in ${row.publication_date} for POEM ${row.id}.`);
     return null;
   }
   const day = free[crypto.randomInt(free.length)];
@@ -74,12 +77,11 @@ function assignDailyDate(poemRecordId) {
   return day;
 }
 
-// Published POEMs in a taking-part month that have no day yet (run at startup), in random order.
+// Published POEMs from the current month or later that have no day yet (run at startup),
+// in random order.
 function assignMissingDailyDates() {
-  const list = months();
-  if (!list.length) return 0;
   const rows = db.prepare(`SELECT id FROM poems WHERE status = 'Published' AND daily_date IS NULL
-    AND publication_date IN (${list.map(() => '?').join(',')})`).all(...list);
+    AND publication_date >= ?`).all(easternNow().date.slice(0, 7));
   for (let i = rows.length - 1; i > 0; i--) { const j = crypto.randomInt(i + 1); [rows[i], rows[j]] = [rows[j], rows[i]]; }
   return rows.filter(r => assignDailyDate(r.id)).length;
 }
@@ -233,7 +235,6 @@ if (require.main === module) {
         console.log(`${r.daily_date}  ${(sent ? `sent ${sent}` : '').padEnd(12)}  #${r.poem_id}  ${r.title}`);
       }
       for (const e of EDITIONS) console.log(`${e.name} recipients: ${e.recipients().join(', ')}`);
-      console.log(`Months taking part: ${months().join(', ')}`);
       console.log(`Sending: ${sendingOn() ? 'on' : 'off (set DAILY_POEM_SENDING=on to send)'}`);
     } else if (cmd === 'send-test' || cmd === 'preview') {
       const row = pick();

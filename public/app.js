@@ -1028,8 +1028,15 @@ const LIBRARY_COLUMNS = [
   { key: 'poet', label: 'POET' },
   { key: 'publicationDate', label: 'Publication Date' },
   { key: 'title', label: 'Title' },
-  { key: 'status', label: 'Status' }
+  { key: 'status', label: 'Status' },
+  { key: 'emailDate', label: 'Email date' }
 ];
+
+// The Daily InfoPOEM day, e.g. "Mon, Nov 17" (stored as 'YYYY-MM-DD').
+function formatEmailDate(d) {
+  if (!d) return '—';
+  return new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' });
+}
 
 // Status sorts in workflow order (Being edited first, Published last).
 const STATUS_ORDER = ['Being edited', 'Ready for review', 'Ready for copy edit', 'Published'];
@@ -1037,6 +1044,7 @@ const STATUS_ORDER = ['Being edited', 'Ready for review', 'Ready for copy edit',
 function sortValue(doc, key) {
   if (key === 'title') return (doc.title || '').toLowerCase();
   if (key === 'status') { const i = STATUS_ORDER.indexOf(doc.status); return i === -1 ? STATUS_ORDER.length : i; }
+  if (key === 'emailDate') return doc.emailDate || '9999'; // POEMs with no day last
   if (key === 'poet') return (doc.poet || '').toLowerCase();
   return doc.publicationDate || ''; // 'YYYY-MM' sorts correctly as a string
 }
@@ -1175,6 +1183,11 @@ function renderLibrary() {
     statusCell.className = 'library-status';
     statusCell.textContent = doc.status || '—';
     row.appendChild(statusCell);
+
+    const emailCell = document.createElement('td');
+    emailCell.className = 'library-status';
+    emailCell.textContent = formatEmailDate(doc.emailDate);
+    row.appendChild(emailCell);
 
     const editCell = document.createElement('td');
     const editBtn = document.createElement('button');
@@ -1434,7 +1447,7 @@ function renderBrowse() {
   const table = document.createElement('table');
   table.className = 'library-table';
   const headRow = document.createElement('tr');
-  [['publicationDate', 'Date'], ['title', 'Title'], ['status', 'Status']].forEach(([key, label]) => {
+  [['publicationDate', 'Date'], ['title', 'Title'], ['status', 'Status'], ['emailDate', 'Email date']].forEach(([key, label]) => {
     const th = document.createElement('th');
     th.className = 'sortable';
     th.textContent = label;
@@ -1474,7 +1487,10 @@ function renderBrowse() {
     const statusCell = document.createElement('td');
     statusCell.className = 'library-status';
     statusCell.textContent = doc.status || '—';
-    row.append(dateCell, titleCell, statusCell);
+    const emailCell = document.createElement('td');
+    emailCell.className = 'library-status';
+    emailCell.textContent = formatEmailDate(doc.emailDate);
+    row.append(dateCell, titleCell, statusCell, emailCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);
