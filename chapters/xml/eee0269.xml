@@ -533,35 +533,46 @@
 <graphic href="eee0269-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Degree of neutropenia</label>
-<path target="cell-2"> &gt;1000-1500 cells&#x002F;&#x03BC;L </path>
-<path target="cell-3"> 500-1000 cells&#x002F;&#x03BC;L </path>
-<path target="cell-4"> &lt;500 cells&#x002F;&#x03BC;L </path>
+<path target="cell-2">&gt;1000 to 1500 cells/microL</path>
+<path target="cell-3">500 to 1000 cells/microL</path>
+<path target="cell-4">&lt;500 cells/microL</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Mild neutropenia.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Moderate neutropenia.</label>
+<path target="cell-8"></path>
+<path target="cell-6">If symptomatic or unstable</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Severe neutropenia </label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>History and physical. If normal, repeat CBC in 4 weeks.</label>
+<path target="cell-7">Normal</path>
+<path target="cell-8">Persistent neutropenia or abnormal exam</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>If symptomatic or unstable, consider hospitalization, especially if febrile.</label>
+<path target="cell-8"></path>
 </cell>
-<cell type="decision" id="cell-7">
+<cell type="action" id="cell-7">
 <label>Done.</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>History and Physical, Order Blood Smear, Coomb's test, immunoglobulins, CMV, EBV, Antigranulocyte antibodies. Consider Blood and urine culture, CXR, LP if clinically indicated.</label>
+<path target="cell-9">Abnormal</path>
+<path target="cell-10">Normal</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Treat empirically any underlying infectious condition. Unexplained neutropenia persists?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
 </cell>
-<cell type="decision" id="cell-10">
+<cell type="action" id="cell-10">
 <label>Consider bone marrow aspiration and genetic testing to rule out inherited disorder</label>
 </cell>
 <cell type="action" id="cell-11">

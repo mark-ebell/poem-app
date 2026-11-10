@@ -579,18 +579,16 @@
 <graphic href="EEE0071a.gif" />
 <cell type="start" id="cell-1">
 <label>HISTORY: Infant with poor feeding, lethargy, vomiting, eye deviation</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Physical examination (PE): &#x2022; Look for bulging fontanel, split sutures, rapid increase in head circumference, downward gaze deviation or abducens palsy &#x2022; Long tract signs: brisk deep tendon reflexes or clonus</label>
+<label>Physical examination (PE): look for bulging fontanel, split sutures, rapid increase in head circumference, downward gaze deviation or abducens palsy, and long tract signs (brisk deep tendon reflexes or clonus)</label>
+<path target="cell-5">PE abnormal</path>
+<path target="cell-6">PE normal</path>
 </cell>
-<cell type="decision" id="cell-3">
-<label>PE abnormal</label>
-</cell>
-<cell type="decision" id="cell-4">
-<label>PE normal</label>
-</cell>
-<cell type="decision" id="cell-5">
+<cell type="action" id="cell-5">
 <label>EMERGENT NEUROSURGICAL REFERRAL</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Pursue other diagnoses</label>
@@ -608,31 +606,21 @@
 <title>Algorithm 2.</title>
 <graphic href="EEE0071b.gif" />
 <cell type="start" id="cell-8">
-<label>HISTORY: Slow motor development</label>
-</cell>
-<cell type="action" id="cell-9">
-<label>Maternal history of: Infections during pregnancy Possible exposure to teratogens, including alcohol</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>Family history of: Hydrocephalus, mental retardation, spastic paraplegia</label>
-</cell>
-<cell type="action" id="cell-11">
-<label>Consanguinity (focusing on males related through females)</label>
+<label>History: slow motor development. Ask about maternal history (infections during pregnancy, possible exposure to teratogens including alcohol), family history (hydrocephalus, intellectual disability, spastic paraplegia), and consanguinity (focusing on males related through females).</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>PE: Head circumference: rapid rise or &gt;2 SD for age and length ASSESS FOR &#x2022; Linear growth pattern &#x2022; Dysmorphic features, limb defects &#x2022; Bulging fontanel, split sutures, downward gaze deviation or abducens palsy &#x2022; Long tract signs: brisk deep tendon reflexes or clonus &#x2022; Neurocutaneous markers (for spinal dysraphism) &#x2022; Ophthalmologic examination (for toxoplasmosis or CMV)</label>
+<path target="cell-14">PE normal</path>
+<path target="cell-13">PE abnormal</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>&#x2022; Obtain a head ultrasound to assess ventriculomegaly &#x2022; Evaluate for causes of chronic anemia &#x2022; Serological tests to look for infectious etiology: toxoplasmosis, CMV, rubella, mumps, varicella &#x2022; DNA and cytogenetic studies when indicated &#x2022; Neurosurgical referral &#x2022; Genetics evaluation</label>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Measure parental head circumference for size &gt;2 SD above the adult mean</label>
-</cell>
-<cell type="decision" id="cell-15">
-<label>Normal</label>
-</cell>
-<cell type="decision" id="cell-16">
-<label>Abnormal</label>
+<path target="cell-17">Normal</path>
+<path target="cell-13">Abnormal</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Consider familial megalencephaly. Monitor motor development</label>

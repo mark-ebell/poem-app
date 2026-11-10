@@ -1,0 +1,99 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>174.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Miscarriage: Diagnosis.</title>
+<graphic href="eee0472-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Concern for early pregnancy failure based on symptoms (e.g., vaginal bleeding, pain)</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Ultrasound to confirm IUP and rule out ectopic pregnancy</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Embryonic pole &gt;5 cm or hCG &gt;2000 mIU&#x002F;mL or LMP &gt;35 days past</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Diagnosis certain: Help patient choose appropriate management (see <xref ref="table001" /> and <xref ref="fig001" />)</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Diagnosis not certain: Serial hCG (every 48 hours) or repeat ultrasound (weekly) until diagnosis is certain</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Fetal heart activity?</label>
+<path target="cell-5">No</path>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Fetal heart rate observed. Hear rate normal (100-160 bpm)?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Routine prenatal care and reevaluate if presenting symptoms persist</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Risk of early pregnancy failure is elevated</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Diagnosis not certain: Serial HCG (every 48 hours) or repeat ultrasound (weekly) until diagnosis is certain</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: IUP, intrauterine pregnancy; hCG, human chorionic gonadotropin; LMP, last menstrual period.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>174.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Miscarriage: Management.</title>
+<graphic href="eee0472-w0002.gif" />
+<cell type="start" id="cell-16">
+<label>Clinical certainty of early pregnancy failure (see Figure 1)</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Patient preferences for management (see Table 1)</label>
+<path target="cell-20">Expectant management</path>
+<path target="cell-22">Surgical management</path>
+<path target="cell-24">Active/medical management with misoprostol</path>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Events requiring hospitalization?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-21">
+<label>Follow serum hCG weekly until zero reached</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Suction curettage</label>
+<path target="cell-23"></path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Successful completion of miscarriage</label>
+</cell>
+<cell type="decision" id="cell-24">
+<label>Events requiring hospitalization (e.g., retained POC or continued bleeding?)</label>
+<path target="cell-22">Yes</path>
+<path target="cell-25">No</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Follow serum hCG weekly until zero reached</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: POC, products of conception; hCG, human chorionic gonadotropin.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

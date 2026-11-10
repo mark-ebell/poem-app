@@ -756,26 +756,34 @@
 <graphic href="eee0239-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient presents with nipple discharge. Likely to have medication as cause?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Bilateral discharge?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Unilateral, multiductal, nonbloody, no mass.</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Mammogram (ultrasound if age &lt;30); likely duct ectasia; monitor if results are negative; consider referral if bothersome.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Mass present?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Mammogram plus needle biopsy or referral; see chapter on breast lump.</label>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Single duct, bloody, clear or serous?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Ultrasound, mammogram if age &#x003E;30, referral for duct excision if BI-RADs 1-3, tissue biopsy if BI-RADS 4-5.</label>
@@ -785,18 +793,26 @@
 </cell>
 <cell type="decision" id="cell-5">
 <label>Milky discharge?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Yellow-green or dark green and nonbloody discharge?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-14">No</path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Serous or bloody discharge or mass present?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Likely ductal ectasia or fibrocystic breast; monitor, order mammogram if over age 40; consider mammogram if over age 30 or ultrasound if under age 30 years.</label>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Pregnant or recent pregnancy?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Check serum prolactin and TSH; consider a pituitary MRI if prolactin is high.</label>
@@ -806,6 +822,8 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Omit or change. Discharge resolves?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Done.</label>

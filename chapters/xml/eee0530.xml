@@ -382,48 +382,63 @@
 <graphic href="eee0530-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Red eye. Examine eye and ocular adnexa.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Eyelid disease; corneal disease; conjunctivitis.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Conjunctivitis or secondary inflammation.</label>
 </cell>
-<cell type="action" id="cell-3">
+<cell type="decision" id="cell-3">
 <label>Redness; no pain or foreign body sensation only; blanches with phenylephrine 10&#x0025;?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Episcleritis.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Trial of no treatment or artificial tears 4 times per day and prn.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Fluorometholone 0.1&#x0025; 1 drop 4 times per day for 1 wk, followed by taper over 2 wk. (Okay to substitute other steroid such as loteprednol or prednisolone acetate.)</label>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>Violet hue more than redness; scleral edema; tenderness; vision change; failure to blanch with phenylephrine 10&#x0025;?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Scleritis.</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Complete ophthalmic examination and systemic evaluation. Treat underlying disease if any.</label>
+<path target="cell-12"></path>
 </cell>
-<cell type="action" id="cell-12">
+<cell type="decision" id="cell-12">
 <label>Nonnecrotizing scleritis?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Topical prednisolone acetate 1&#x0025; every 1-2 h or oral NSAID (indomethacin or ibuprofen or other).</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Systemic steroid (prednisone 1 mg&#x002F;kg&#x002F;d) versus peribulbar steroid injection.</label>
+<path target="cell-15"></path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Systemic immunosuppression (methotrexate, cyclosporine, cyclophosphamide, azathioprine, TNF inhibitors).</label>
 </cell>
 <cell type="action" id="cell-16">
 <label>Necrotizing scleritis. Systemic steroid (prednisone 1 mg&#x002F;kg&#x002F;d).</label>
+<path target="cell-15"></path>
 </cell>
 </algorithm>
 </algorithm_group>

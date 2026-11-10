@@ -1,0 +1,40 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>366.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Dehydration: Management.</title>
+<graphic href="eee0122-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Dehydration suspected in an adult. Order urinalysis, BUN, serum creatinine, and serum sodium.</label>
+<path target="cell-2">Hypernatremia, increased urine specific gravity</path>
+<path target="cell-3">Normal sodium, increased BUN/creatinine ratio</path>
+<path target="cell-4">Hyponatremia, decreased urine specific gravity</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Hypertonic dehydration. Hemodynamically unstable patient?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Replace with intravenous normal saline.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Replace with half normal saline, orally if possible but intravenously, if necessary.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Isotonic dehydration.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Hypotonic dehydration.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Replace with normal saline, orally if possible but intravenously, if necessary.</label>
+</cell>
+</algorithm>
+</algorithms>

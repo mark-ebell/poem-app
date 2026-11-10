@@ -3267,37 +3267,15 @@
 <title>Diabetes Mellitus (Type 2): Treatment.</title>
 <graphic href="eee0127-w001.gif" />
 <cell type="start" id="cell-1">
-<label>All type 2 diabetics</label>
-</cell>
-<cell type="action" id="cell-2">
-<label>Smoking cessation</label>
-</cell>
-<cell type="action" id="cell-3">
-<label>Blood pressure control (&lt;140&#x002F;90, possibly &lt;130&#x002F;80)</label>
-</cell>
-<cell type="action" id="cell-4">
-<label>Lipid lowering with a moderate or high-intensity statin</label>
-</cell>
-<cell type="action" id="cell-5">
-<label>Metformin (independent of blood sugars, especially if obese)<sup>a</sup>
-</label>
+<label>All patients with type 2 diabetes: smoking cessation; blood pressure control (&lt;140/90, possibly &lt;130/80); lipid lowering with a moderate- or high-intensity statin; metformin (independent of blood sugars, especially if obese)</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
-<label>Strongly consider</label>
-</cell>
-<cell type="action" id="cell-7">
-<label>Aspirin (if CVD and at low risk of bleeding)<sup>b</sup>
-</label>
-</cell>
-<cell type="action" id="cell-8">
-<label>ACE inhibitor (even if normotensive)<sup>c,d</sup>
-</label>
+<label>Strongly consider aspirin (if cardiovascular disease and at low risk of bleeding) and an ACE inhibitor (even if normotensive)</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-9">
-<label>Additional treatment goals</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>Reasonable blood glucose control</label>
+<label>Additional treatment goal: reasonable blood glucose control</label>
 </cell>
 <footnotes>
 <footnote>Abbreviations: ACE, angiotensin-converting enzyme; LDL, low-density lipoprotein.</footnote>

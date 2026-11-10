@@ -1,0 +1,38 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>188</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Otitis Media: Management Based on the AAP Practice Guideline.</title>
+<graphic href="eee0108-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Acute otitis media. Any of following: severe infection (moderate to severe otalgia or temperature &#x2265;39&#x00B0;C), immunocompromise, or sepsis; age &lt;6 months; or age 6-24 months with certain diagnosis of AOM?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Option of analgesics and watchful waiting. Symptoms resolve or improve at 48-72 hours?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Follow-up as needed to ensure resolution of episode. Symptoms recur?</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Amoxicillin 80-90 mg&#x002F;kg&#x002F;day (macrolide if allergic); if severe otalgia or fever give amoxicillin&#x002F; clavulanate 90 mg&#x002F;kg&#x002F;day (ceftriaxone IM if allergic). Symptoms resolve or improve at 48-72 hours?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Switch to amoxicillin&#x002F;clavulanate 90 mg&#x002F;kg&#x002F;day for 10 days if initially amoxicillin, or ceftriaxone 50 mg&#x002F;kg&#x002F;day for 3 days if initially amoxicillin&#x002F;clavulanate. Symptoms resolve?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Consider tympanocentesis with culture; change in antibiotics to clindamycin; and&#x002F;or imaging if complications suspected.</label>
+</cell>
+</algorithm>
+</algorithms>

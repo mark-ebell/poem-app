@@ -844,108 +844,97 @@
 <graphic href="eee0460-w0001.gif" />
 <cell type="action" id="cell-2">
 <label>Diagnostic such as polypharmacy in older patients, vasovagal syncope, situational syncope, and orthostatic hypotension.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Treat.</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Suggestive such as aortic stenosis, pulmonary embolism, neurologic symptoms, or family history of syncope or sudden death.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Obtain specific testing such as echocardiography, d-dimer, lung scan, CT, cardiac catheterization, or EEG.</label>
-</cell>
-<cell type="action" id="cell-7">
-<label>Positive.</label>
+<path target="cell-9">Positive</path>
+<path target="cell-4">Negative</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Treat.</label>
 </cell>
-<cell type="action" id="cell-8">
-<label>Negative.</label>
-</cell>
 <cell type="decision" id="cell-4">
 <label>Unexplained syncope.</label>
+<path target="cell-10"></path>
+<path target="cell-11"></path>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Known or suspected heart disease (abnormal ECG, exertional symptoms, or sudden syncope).</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Echocardiography, exercise treadmill, monitor, or inpatient telemetry.</label>
-</cell>
-<cell type="action" id="cell-14">
-<label>Positive.</label>
+<path target="cell-16">Positive</path>
 </cell>
 <cell type="decision" id="cell-16">
 <label>Treat or refer.</label>
-</cell>
-<cell type="action" id="cell-17">
-<label>Normal sinus rhythm with symptoms.</label>
+<path target="cell-20">Normal sinus rhythm with symptoms</path>
+<path target="cell-25">Arrhythmia with symptoms</path>
+<path target="cell-26">Nondiagnostic for arrhythmia</path>
 </cell>
 <cell type="decision" id="cell-20">
 <label>Stop workup for arrhythmia.</label>
-</cell>
-<cell type="action" id="cell-21">
-<label>Recurrent syncope.</label>
+<path target="cell-23">Recurrent syncope</path>
+<path target="cell-24">First syncopal episode</path>
 </cell>
 <cell type="action" id="cell-23">
 <label>Head-up tilt-table test, psychiatric evaluation.</label>
 </cell>
-<cell type="action" id="cell-22">
-<label>First syncopal episode.</label>
-</cell>
 <cell type="action" id="cell-24">
 <label>Stop workup.</label>
-</cell>
-<cell type="action" id="cell-18">
-<label>Arrhythmia with symptoms.</label>
 </cell>
 <cell type="action" id="cell-25">
 <label>Treat or refer.</label>
 </cell>
-<cell type="action" id="cell-19">
-<label>Nondiagnostic for arrhythmia.</label>
-</cell>
 <cell type="decision" id="cell-26">
 <label>Consider electrophysiologic studies.</label>
-</cell>
-<cell type="action" id="cell-27">
-<label>Positive.</label>
+<path target="cell-29">Positive</path>
+<path target="cell-37">Negative</path>
 </cell>
 <cell type="action" id="cell-29">
 <label>Treat or refer.</label>
 </cell>
-<cell type="decision" id="cell-28">
-<label>Negative.</label>
-</cell>
-<cell type="action" id="cell-30">
-<label>Frequent syncope.</label>
-</cell>
 <cell type="action" id="cell-33">
 <label>Loop monitor, head-up tilt-table test, psychiatric evaluation.</label>
-</cell>
-<cell type="action" id="cell-31">
-<label>Infrequent syncope.</label>
 </cell>
 <cell type="action" id="cell-34">
 <label>Head-up tilt-table test, psychiatric evaluation.</label>
 </cell>
-<cell type="action" id="cell-32">
-<label>First syncopal episode.</label>
-</cell>
 <cell type="action" id="cell-35">
 <label>Stop workup.</label>
 </cell>
-<cell type="decision" id="cell-15">
-<label>Negative.</label>
-</cell>
 <cell type="action" id="cell-11">
 <label>Age &gt;60 years or abnormal carotid massage.*</label>
+<path target="cell-36"></path>
 </cell>
 <cell type="action" id="cell-36">
 <label>Holter.</label>
+<path target="cell-16">Positive</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>No suspected heart disease.</label>
+<path target="cell-37"></path>
+</cell>
+<cell type="start" id="cell-1">
+<label>History, physical examination, ECG</label>
+<path target="cell-2">Diagnostic</path>
+<path target="cell-3">Suggestive</path>
+<path target="cell-4">Unexplained</path>
+</cell>
+<cell type="decision" id="cell-37">
+<label>Frequency of syncope?</label>
+<path target="cell-33">Frequent syncope</path>
+<path target="cell-34">Infrequent syncope</path>
+<path target="cell-35">First syncopal episode</path>
 </cell>
 <footnotes>
 <footnote>*Coronary artery disease, congestive heart failure, valvular heart disease, cardiomyopathy, and congenital heart disease.</footnote>

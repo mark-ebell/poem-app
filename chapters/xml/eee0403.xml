@@ -382,18 +382,25 @@
 <graphic href="eee0403-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected pigmented villonodular synovitis (PVNS): chronic&#x002F;recurrent monoarticular joint pain, swelling, and stiffness (especially in the knee); mechanical symptoms of mass effect; joint effusion with diffuse tenderness and loss of motion.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Plain radiographs typical of PVNS? (Soft tissue swelling, periarticular bone erosions, subchondral cysts.)</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>MRI results typical of PVNS? (Effusion, low signal intensity on T1- and T2-weighted images, hyperplastic synovium, bony erosions.)</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Consider other diagnoses.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Synovial biopsy typical for PVNS? (Proliferative sheets of mononuclear cells within the synovium, presence of hemosiderin.)</label>
+<path target="cell-6">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Synovectomy: Open versus arthroscopic, with or without adjuvant therapy.</label>
@@ -409,14 +416,18 @@
 <graphic href="eee0403-w0002.gif" />
 <cell type="start" id="cell-7">
 <label>Type of PVNS of the knee.</label>
-<path target="cell-8">Diffuse villous</path>
 <path target="cell-9">Localized nodular</path>
+<path target="cell-8">Diffuse villous</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Primary or recurrent?</label>
+<path target="cell-11">Primary</path>
+<path target="cell-10">Recurrent</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Articular surface findings?</label>
+<path target="cell-13">Articular surfaces preserved</path>
+<path target="cell-12">Significant articular degeneration</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Arthrodesis or total knee replacement.</label>
@@ -429,6 +440,8 @@
 </cell>
 <cell type="decision" id="cell-9">
 <label>Site</label>
+<path target="cell-15">Extra-articular</path>
+<path target="cell-14">Intra-articular</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Arthroscopic excision.</label>

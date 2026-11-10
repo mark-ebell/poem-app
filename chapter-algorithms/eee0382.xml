@@ -1,0 +1,40 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>061</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Carpal Tunnel Diagnosis and Treatment Algorithm.</title>
+<graphic href="eee0382-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>CTS suspected (numbness&#x002F;tingling&#x002F;pain in thumb, median 4th finger; hypoalgesia; positive or probable hand diagram results; and&#x002F;or weak thumb abduction strength).</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Classic symptoms?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>If symptoms are not classic, consider diagnostic electromyelogram or ultrasound. CTS confirmed?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider other diagnoses.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Trial of nocturnal wrist splinting in neutral position.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>If no improvement in 1 month, consider CTS injection or oral steroids.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>If no response, consider yoga or carpal bone immobilization, or obtain EMG to confirm diagnosis and refer for possible surgical decompression if abnormal.</label>
+</cell>
+</algorithm>
+</algorithms>

@@ -1,0 +1,60 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>380.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Multiple Myeloma: Management.<xref ref="pubmed21412895" resource="acc014" /></title>
+<graphic href="eee0504-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Clinically suspected myeloma. Possible spinal cord impression?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Soft tissue mass?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Order CT; consider biopsy</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>CBC, basic chemistry panel, ESR, SPEP, UPEP.</label>
+<path target="cell-7">Myeloma unlikely</path>
+<path target="cell-6">Myeloma likely</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Beta-2 microglobulin, calcium, albumin, skeletal survey, MRI of spine, bone marrow biopsy, immunofixation for M chain if needed. Evidence of end-organ damage?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Younger than 65, or 65 and older without comorbidity?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>HDC and single autologous stem cell transplant.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>See ESMO guidelines</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Periodic CBC, serum and urinary M chain, calcium, creatinine, urinary protein.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Myeloma unlikely; consider other diagnoses.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Urgent spinal MRI or CT; treat as appropriate.</label>
+<path target="cell-2"></path>
+</cell>
+<footnotes>
+<footnote>CBC denotes complete blood count; ESR, erythrocyte sedimentation rate; UPEP, urine protein electrophoresis; SPEP, serum protein electrophoresis.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1,0 +1,49 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Celiac Disease: Diagnosis.</title>
+<graphic href="eee0172-w0001.gif" />
+<cell type="start" id="cell-9">
+<label>Celiac disease suspected (bloating, flatulence, "irritable bowel" symptoms, chronic diarrhea, abdominal pain, nausea, etc.); order IgA tissue transglutaminase and/or IgA antiendomysial antibody.</label>
+<path target="cell-2">Abnormal</path>
+<path target="cell-3">Normal</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Dermatitis herpetiformis with confirmatory biopsy?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Celiac disease confirmed. Continue diet, evaluate for malabsorption, consider multivitamins as needed.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Small bowel biopsy (second portion of duodenum or beyond).</label>
+<path target="cell-6">Abnormal</path>
+<path target="cell-7">Normal</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Celiac disease likely; symptoms improve on gluten-free diet?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Assess dietary compliance; if patient is compliant, consider other causes for symptoms.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Celiac disease unlikely; consider repeat biopsy of small bowel if serology had been abnormal; biopsy skin if dermatitis herpetiformis suspected clinically.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Family history or other reason for high index of suspicion?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<footnotes>
+<footnote>Use IgG versions of test in patients with selective IgA deficiency.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

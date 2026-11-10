@@ -1,0 +1,48 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>150.6</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Meningitis (Child): Evaluation.</title>
+<graphic href="eee0561-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Bacterial meningitis suspected. Immunocompromised, h&#x002F;o CSF shunt, hydrocephalus, CNS mass, trauma, recent neurosurgery, papilledema, focal neuro deficit, or delay in LP? (Note: seizures and CN VI or VII palsy should not delay LP.)</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Blood cultures and LPCBC with diff, CRP, CMP. Consider urine culture, latex agglutination. Consider PCR for viral causes. Empirical antimicrobial therapy immediately after CSF fluid obtained. Consider dexamethasone with first dose of antibiotics.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Review CSF results. Consistent with bacterial meningitis?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Continue therapy.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Assess risk for bacterial meningitis with Bacterial Meningitis Score Rule 277. Consider discharge with close follow-up if low risk.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Perform CT of head Blood culturesCBC with diff, CRP, CMP. Consider urine culture, latex agglutination. Consider PCR for viral causes. Empirical antimicrobial therapy immediately after CSF fluid obtained. Consider dexamethasone with first dose of antibiotics.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Review CT results&#x2014;contraindication to LP?</label>
+<path target="cell-8">No</path>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Perform LP.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Treat as appropriate.</label>
+</cell>
+</algorithm>
+</algorithms>

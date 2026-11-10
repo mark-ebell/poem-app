@@ -1,0 +1,63 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>212</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Fibrocystic Breast Disease: Management.</title>
+<graphic href="eee0238-w0003.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with breast pain. Perform family&#x002F;personal history, cyclic vs. noncyclic mastalgia, breast examination. Age &#x003E;35 years, any suspicious findings, or discrete mass?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Examination compatible with fibrocystic disease&#x002F;mastalgia; no discrete breast mass?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Reassurance and trial of lifestyle modifications (eg, support bra, hot or cold packs)</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Follow up ( 3&#x2013;6 months); symptoms controlled?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-9">No, benign examination</path>
+<path target="cell-12">No, abnormal examination</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Routine follow-up</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Trial of medication: topical or oral NSAIDS, OCs, or danazol, if severe</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Follow up ( 3&#x2013;6 months); symptoms controlled?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Discuss continuing vs. discontinuing medication; continued follow-up</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Reevaluate; consider additional testing or referral</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Mammogram &#x00B1; diagnostic ultrasound. Normal findings and no discrete mass?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Additional tests based on findings (eg, core needle&#x002F;excisional biopsy)</label>
+<path target="cell-4">Normal or benign</path>
+<path target="cell-14">Abnormal</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Abnormal result; treat as appropriate</label>
+</cell>
+</algorithm>
+</algorithms>

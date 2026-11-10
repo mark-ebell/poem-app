@@ -1,0 +1,54 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Erectile Dysfunction: Management.</title>
+<graphic href="eee0360-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Obtain a comprehensive sexual history, risk factor analysis, and vital signs, and perform a detailed cardiovascular, neurologic, and genitourinary physical examination.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Complete IIEF-5 questionnaire to categorize erectile dysfunction severity.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Obtain a fasting serum glucose or glycosylated hemoglobin and fasting lipid profile.Optional studies include thyroid-stimulating hormone, total testosterone, and prolactin. Definable medical etiology?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Maximize treatment of coronary heart disease, diabetes, lipids, hypertension, hypogonadism, hypothyroidism, obesity, and metabolic syndrome.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>First-line therapy: (1) lifestyle and drug therapy modification (avoid antihistamines, beta-blockers, benzodiazepines, serotonin-specific reuptake inhibitors); (2) oral therapy with PDE5 inhibitors (must ensure patient is not taking nitrates); and (3) androgen replacement therapy, if patient has clinical hypogonadism.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Second-line therapy: (1) intraurethral or intracavernous alprostadil, or (2) vacuum pump therapy.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider referral to urology for an implantable pump device if other methods fail. Consider screening for undetected cardiovascular disease.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider: screen for psychological disorder (eg, anxiety, bipolar disorder, depression) or substance abuse; referral for behavioral therapy, either individual or with partner; removal of negative psychosocial factor.</label>
+<path target="cell-6"></path>
+</cell>
+<footnotes>
+<footnote>IIEF-5 denotes The International Index of Erectile Function; PDE5, phosphodiesterase type 5.</footnote>
+<footnote>Data from Shabsigh R, Anastasiadis AG. Erectile dysfunction. <em>Annu Rev Med</em> 2003;<strong>54</strong>:153-168.<xref ref="pubmed12525671" resource="acc006" />
+</footnote>
+<footnote>Esposito K, Giugliano F, Di Palo C, et al. Effect of lifestyle changes on erectile dysfunction in obese men: a randomized controlled trial. <em>JAMA</em> 2004;<strong>291</strong>:2978-2984.<xref ref="pubmed15213209" resource="acc010" />
+</footnote>
+<footnote>Erectile Dysfunction Guideline Update Panel. <em>The Management of Erectile Dysfunction: An Update</em>. Baltimore, MD: American Urological Association Education and Research, Inc.; 2005. Various p.; and Montague DK, Jarow JP, Broderick GA, Dmochowski RR, Heaton JP, Lue TF, Milbank AJ, Nehra A, Sharlip ID; Erectile Dysfunction Guideline Update Panel. <em>The Management of Erectile Dysfunction: An Update</em>. Linthicum, MD: American Urologic Association Education and Research, Inc.; 2006 May. Various p. http:&#x002F;&#x002F;www.guidelines.gov&#x002F;summary&#x002F;summary.aspx?doc&#x005F;id&#x003D;10018. American Urological Association Education and Research, Inc. (1) The management of erectile dysfunction: an update. (2) 2006 addendum. 1996.</footnote>
+<footnote>Carson CC, Lue TF. Phosphodiesterase type 5 inhibitors for erectile dysfunction. <em>BJU Int</em> 2005;<strong>96</strong>:257-280.<xref ref="pubmed16042713" resource="acc005" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

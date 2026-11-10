@@ -763,9 +763,12 @@
 </cell>
 <cell type="action" id="cell-2">
 <label>Blood cultures and LPCBC with diff, CRP, CMP. Consider urine culture, latex agglutination. Consider PCR for viral causes. Empirical antimicrobial therapy immediately after CSF fluid obtained. Consider dexamethasone with first dose of antibiotics.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Review CSF results. Consistent with bacterial meningitis?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Continue therapy.</label>
@@ -775,12 +778,16 @@
 </cell>
 <cell type="action" id="cell-3">
 <label>Perform CT of head Blood culturesCBC with diff, CRP, CMP. Consider urine culture, latex agglutination. Consider PCR for viral causes. Empirical antimicrobial therapy immediately after CSF fluid obtained. Consider dexamethasone with first dose of antibiotics.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Review CT results&#x2014;contraindication to LP?</label>
+<path target="cell-8">No</path>
+<path target="cell-9">Yes</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Perform LP.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Treat as appropriate.</label>

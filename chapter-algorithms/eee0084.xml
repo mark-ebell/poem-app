@@ -1,0 +1,43 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>014</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Algorithm for Screening and Diagnosis of Phenylketonuria in Newborns.</title>
+<graphic href="eee0084-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Newborn screening test</label>
+<path target="cell-2">Negative</path>
+<path target="cell-3">Positive</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Infant older than 24 h when test performed?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Rescreen</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>PKU unlikely</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Measure serum phenylalanine</label>
+<path target="cell-5">Under 4 mg/dL</path>
+<path target="cell-6">4–10 mg/dL</path>
+<path target="cell-7">Over 10 mg/dL</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Hyperphenylalaninemia</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>PKU. Consider confirmatory DNA probe for phenylalanine hydroxylase gene. Begin low-phenylalanine diet</label>
+</cell>
+<footnotes>
+<footnote>*These cutoff values may vary by state or lab corporation.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1199,27 +1199,37 @@
 <graphic href="eee0246-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Pain in the lower abdomen or pelvis persisting for at least 6 months and severe enough to cause functional disability</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Pregnancy test, if reproductive age.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Suspected infection?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>&#x2022; Consider urinalysis and culture as well as screening for chlamydia and gonorrhea. &#x2022; Treat infection.</label>
 </cell>
 <cell type="action" id="cell-5">
 <label>&#x2022; Work up any specific abnormalities on physical examination and treat any infections. &#x2022; Address any psychosocial factors and discuss possibility of symptom improvement without diagnosis, as well as possible need for multidisciplinary approach.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Symptoms suggestive of GI cause?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>&#x2022; Screen for alarm symptoms such as hematochezia, melena, significant weight loss, or pain severe enough to awaken from sleep. &#x2022; Consider fecal occult blood testing. &#x2022; Trial of diet and bowel program.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Symptoms improve?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>&#x2022; Reevaluate. &#x2022; Consider stool studies, endoscopy, referral.</label>
@@ -1229,9 +1239,13 @@
 </cell>
 <cell type="decision" id="cell-8">
 <label>Symptoms are suggestive of a gynecologic cause?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Symptoms suggestive of urologic cause?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-14">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>&#x2022; Diagnosis unclear: early multidisciplinary approach is appropriate.</label>
@@ -1241,9 +1255,12 @@
 </cell>
 <cell type="action" id="cell-13">
 <label>&#x2022; Consider transvaginal ultrasound. &#x2022; Consider trial of hormonal treatment, including combined oral contraceptive pills or a GnRH agonist for 3-6 months.</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="decision" id="cell-16">
 <label>Symptoms improve?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-17">No</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>&#x2022; Consider referral. &#x2022; Consider laparoscopy.</label>

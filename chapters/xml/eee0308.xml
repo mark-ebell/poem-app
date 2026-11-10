@@ -484,23 +484,31 @@
 <graphic href="eee0308-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>FUO suspected. Exclude factitious fever, perform complete history and physical examination. Diagnostic clue present?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Stop or replace drug therapy to exclude drug-related fever.</label>
+<path target="cell-4">Fever resolves</path>
+<path target="cell-5">Fever continues</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Diagnose drug-related fever.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Repeat history and obtain laboratory testing: CBC; ESR; PPD; CRP; ANA; RF; CMP; Fe, transferrin, TIBC test; vitamin B12; urinalysis; CXR; culture of blood, urine, sputum and other sites; HIV, CMV, VDRL, EBV; SPEP; muscle enzymes. Diagnostic clue?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Echocardiography, CT of chest, abdomen, and pelvis; consider colonoscopy. Specific diagnosis suggested?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>FDG-PET scan. Specific site suggested?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Continued observation and repeated evaluations. Consider empirical therapy with NSAIDs.</label>

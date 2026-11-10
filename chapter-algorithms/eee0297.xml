@@ -1,0 +1,45 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>081</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Recommendations for Postexposure Prophylaxis of Nonhealth Care Personnel.</title>
+<graphic href="eee0297-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Contraindications to vaccine or at increased risk for severe disease or complications?<sup>a</sup>
+</label>
+<path target="cell-2">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Use VZIG&#x002F;VariZIG, up to 96 h postexposure (best if &lt;72 h).</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="action" id="cell-3">
+<label>If not contraindicated, wait 5 months p VZIG to vaccinate.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>History of varicella?</label>
+<path target="cell-6">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Type of report?</label>
+<path target="cell-6">Parental/self report of history of varicella</path>
+<path target="cell-7">Laboratory or physician-documented history of varicella</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Vaccination recommended within 3&#x2013;5 days of exposure.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Do not vaccinate w&#x002F;varicella; document.</label>
+</cell>
+<footnotes>
+<footnote>
+<sup>a</sup> Includes: pregnant women without evidence of immunity, immunocompromised persons, premature neonates, neonates whose mothers show symptoms 5 days before to 2 days after delivery.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -448,18 +448,24 @@
 <graphic href="eee0458-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Assessment of speech and language milestones during well child care visits (6, 9, 12, 15, 18, 24, and 36 mo)</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Presence of developmental red flags (see <xref ref="table003" />)</label>
+<label>Presence of developmental red flags (see Table 3)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Refer immediately for formal speech evaluation</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Observation for 3 mo and&#x002F;or referral for formal speech evaluation</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Full audiologic evaluation and multidisciplinary developmental assessment to evaluate for hearing loss or associated medical condition</label>
+<path target="cell-6">Abnormal</path>
+<path target="cell-7">Normal</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Treatment for specific medical condition; eg, autism, hearing loss, global developmental delay, cleft lip, and so forth</label>

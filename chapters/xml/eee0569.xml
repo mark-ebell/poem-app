@@ -462,9 +462,13 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>Check serum LH</label>
+<path target="cell-7">Pubertal LH level</path>
+<path target="cell-10">Prepubertal LH level</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Central precocious puberty. Order brain MRI</label>
+<path target="cell-9">Abnormal</path>
+<path target="cell-8">Normal</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Idiopathic central precocious puberty</label>
@@ -474,9 +478,13 @@
 </cell>
 <cell type="decision" id="cell-10">
 <label>Check estradiol levels</label>
+<path target="cell-16">Prepubertal</path>
+<path target="cell-13">Pubertal</path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Check ovarian and uterine ultrasound (US)</label>
+<path target="cell-15">Normal</path>
+<path target="cell-14">Abnormal</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>McCune-Albright syndrome (if caf&#x00E9; au lait spots), ovarian cyst or tumor</label>
@@ -489,21 +497,31 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Pubic hair present?</label>
+<path target="cell-17">No</path>
+<path target="cell-18">Yes</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Normal</label>
 </cell>
 <cell type="decision" id="cell-18">
 <label>Check DHEAS</label>
+<path target="cell-21">Normal</path>
+<path target="cell-34">Elevated</path>
 </cell>
 <cell type="decision" id="cell-21">
 <label>Check 17-OH-P</label>
+<path target="cell-33">Elevated</path>
+<path target="cell-24">Normal</path>
 </cell>
 <cell type="decision" id="cell-24">
 <label>Check testosterone</label>
+<path target="cell-32">Elevated</path>
+<path target="cell-27">Normal (low)</path>
 </cell>
 <cell type="decision" id="cell-27">
 <label>Check ACTH and cortisol</label>
+<path target="cell-30">Elevated</path>
+<path target="cell-31">Normal</path>
 </cell>
 <cell type="action" id="cell-30">
 <label>Glucocorticoid resistance or Cushing syndrome</label>
@@ -518,7 +536,7 @@
 <label>Late-onset congenital adrenal hyperplasia</label>
 </cell>
 <cell type="action" id="cell-34">
-<label>Late-onset CHA possible adrenal tumor</label>
+<label>Possible adrenal tumor</label>
 </cell>
 <footnotes>
 <footnote>Abbreviations: ACTH, adrenocorticotropic hormone; DHEAS, dehydroepiandrosterone sulfate; LH, luteinizing hormone; 17-OH-P, 17-hydroxyprogesterone.</footnote>
@@ -542,17 +560,25 @@
 <cell type="action" id="cell-37">
 <label>Exogenous androgen or hCG exposure</label>
 </cell>
-<cell type="action" id="cell-100">
+<cell type="decision" id="cell-100">
 <label>Asymmetric or discrete mass?</label>
+<path target="cell-101">Yes</path>
+<path target="cell-38">No</path>
 </cell>
 <cell type="action" id="cell-101">
 <label>Rule out tumor</label>
+<path target="cell-38"></path>
 </cell>
 <cell type="decision" id="cell-38">
 <label>Testicular length &gt;2.5 cm?</label>
+<path target="cell-39">No</path>
+<path target="cell-41">Yes</path>
 </cell>
-<cell type="action" id="cell-39">
+<cell type="decision" id="cell-39">
 <label>Suggests adrenal etiology. Check 17-OH-P, DHEAS, cortisol and ACTH</label>
+<path target="cell-46">17-OH-P elevated</path>
+<path target="cell-47">DHEAS elevated</path>
+<path target="cell-45">ACTH and cortisol elevated</path>
 </cell>
 <cell type="action" id="cell-46">
 <label>21-hydroxylase deficiency</label>
@@ -565,9 +591,13 @@
 </cell>
 <cell type="decision" id="cell-41">
 <label>Check serum hCG</label>
+<path target="cell-58">hCG elevated</path>
+<path target="cell-52">Normal (low)</path>
 </cell>
 <cell type="decision" id="cell-52">
 <label>Check LH</label>
+<path target="cell-55">LH suppressed</path>
+<path target="cell-56">Pubertal LH level</path>
 </cell>
 <cell type="action" id="cell-55">
 <label>Testotoxicosis</label>

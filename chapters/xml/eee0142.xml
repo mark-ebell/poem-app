@@ -658,23 +658,32 @@
 <graphic href="eee0142-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Hypocalcemia (Ca &lt;8.5 mg&#x002F;dl and&#x002F;or ionized Ca &lt;1.1 mmol&#x002F;L). Acute and severe symptoms (tetany, seizures, coma, arrhythmia)?</label>
-<path target="cell-2"> Yes</path>
-<path target="cell-3"> No</path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Cardiac monitor, ECG, vital signs, arterial blood gas. Initiate urgent treatment.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Give IV calcium gluconate 1&#x2212;2 g over 10-20 minutes or 4 g over 4 hours followed by 10&#x0025; IV calcium gluconate infusion. IV magnesium if indicated, frequent monitoring of calcium level.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Clear etiology (medications, neck surgery, severe sepsis, tumor lysis, pancreatitis, massive transfusion or organ dysfunction)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Treat the underlying condition while replacing calcium.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>History and physical, serum phosphorus, PTH, vitamin D, magnesium, creatinine, alkaline phosphatase. Consider ECG.</label>
+<path target="cell-12">High PTH, high vitamin D</path>
+<path target="cell-13">Low P and high PTH, low calcidiol, abnormal alkaline phosphatase</path>
+<path target="cell-14">High P, low or high PTH</path>
+<path target="cell-15">High P, high PTH, low calcitriol</path>
+<path target="cell-16">Low magnesium, normal P, low or high PTH</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Malabsorption (e.g., celiac disease): treat the underlying condition and supplement the losses.</label>

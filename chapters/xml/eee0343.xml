@@ -539,23 +539,29 @@
 <graphic href="eee0343-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>History of genital vesicles or ulcers. Order syphilis serology. Recent lesion?</label>
-<path target="cell-2"> No </path>
-<path target="cell-3"> Yes </path>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>HSV type-specific serology.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Treatment and counseling based on all test results.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Endemic area for chancroid?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>HSV viral culture (optionally PCR or ELISA depending on local availability).</label>
+<path target="cell-2">Negative</path>
+<path target="cell-4">Positive</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Culture for <em>H. ducreyi</em> and HSV viral culture.</label>
+<path target="cell-4"></path>
 </cell>
 </algorithm>
 </algorithm_group>

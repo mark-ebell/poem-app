@@ -1,0 +1,41 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>063</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Management of Acute Alcohol Intoxication.</title>
+<graphic href="eee0618-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Does patient have signs and symptoms consistent with alcohol intoxication?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Clinically assess the degree of intoxication (see Table 1).</label>
+<path target="cell-4">Mild intoxication</path>
+<path target="cell-5">Moderate intoxication</path>
+<path target="cell-6">Severe intoxication</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider alternate diagnoses including other forms of intoxicants.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Observe patient until clinically sober and discharge if there is no threat to self or others.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider fluid resuscitation. Consider workup for alteration in mental status if present. Perform serial examinations to ensure improvement in mental status.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Consider alternate diagnoses for change in mental status. Assess for hypoglycemia. Consider administration of 100 mg of thiamine IV and fluid resuscitation. Assess airway and breathing and consider intubation. Survey for signs of occult trauma.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Assess the patient's risk factors for alcohol withdrawal syndromes and History of previous withdrawal is best predictor.</label>
+</cell>
+</algorithm>
+</algorithms>

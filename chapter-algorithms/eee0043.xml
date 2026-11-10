@@ -1,0 +1,134 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>325</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Myocardial Infarction (AMI): Lee Algorithm to Predict Complications.</title>
+<graphic href="eee0043-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patients with suspected acute cardiac ischemia in the ED.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Perform ECG.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>ECG evidence of AMI? ST-segment elevation &#x2264;1 mm in &#x2264;2 contiguous leads (new or unknown age) or pathologic Q waves in &#x2264;2 contiguous leads (new or unknown age)?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>High risk.</label>
+<path target="cell-18"></path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Coronary care unit.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>ECG evidence of acute ischemia? ST-segment depression &#x2264;1 mm in &#x2264;2 contiguous leads (new or unknown age), or T-wave inversion in &#x2264;2 contiguous leads (new or unknown age), or left bundle branch block (new or unknown age)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Urgent factors present? Rales above both lung bases, systolic blood pressure &gt;100 mm Hg, and&#x002F;or unstable ischemic heart disease.</label>
+<path target="cell-4">2 or 3 factors</path>
+<path target="cell-10">0 or 1 factor</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Moderate risk.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Inpatient telemetry unit.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Urgent factors present? Rales above both lung bases, systolic blood pressure &gt;100 mm Hg, and&#x002F;or unstable ischemic heart disease.</label>
+<path target="cell-10">2 or 3 factors</path>
+<path target="cell-15">1 factor</path>
+<path target="cell-16">0 factors</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Low risk.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Very low risk.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Observation unit.</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>325.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Acute MI.</title>
+<graphic href="eee0043-w0002.gif" />
+<cell type="start" id="cell-19">
+<label>Patient with chest pain or symptoms suspicious of ischemia. Perform ECG.</label>
+<path target="cell-20">ST elevation or new LBBB</path>
+<path target="cell-21">ST depression or T-wave inversion</path>
+<path target="cell-22">Normal</path>
+</cell>
+<cell type="decision" id="cell-20">
+<label>ST-segment elevation &gt;1 mm in 2 or more contiguous leads, or new (or suspected new) left bundle branch block</label>
+<path target="cell-23"></path>
+</cell>
+<cell type="decision" id="cell-23">
+<label>Cardiac catheterization readily available?</label>
+<path target="cell-24">No</path>
+<path target="cell-25">Yes</path>
+</cell>
+<cell type="action" id="cell-24">
+<label>Thrombolysis.</label>
+</cell>
+<cell type="action" id="cell-25">
+<label>Emergent cardiac catheterization.</label>
+</cell>
+<cell type="decision" id="cell-21">
+<label>ST-segment depression &gt;1 mm in 2 or more contiguous leads T-wave inversion in 2 or more contiguous leads?</label>
+<path target="cell-26"></path>
+</cell>
+<cell type="decision" id="cell-26">
+<label>ASA, heparin, beta-blocker (if hemodynamically stable), clopidogrel (controversial). Symptoms or ECG changes continue&#x002F;worse?</label>
+<path target="cell-27">Yes</path>
+<path target="cell-28">No</path>
+</cell>
+<cell type="decision" id="cell-27">
+<label>Nitrates, 2b&#x002F;3a inhibitors.</label>
+<path target="cell-29"></path>
+</cell>
+<cell type="decision" id="cell-29">
+<label>Symptoms, EKG changes continue&#x002F;worsen?</label>
+<path target="cell-25">Yes</path>
+<path target="cell-28">No</path>
+</cell>
+<cell type="action" id="cell-28">
+<label>Elective cardiac catheterization 24-48 hrs.</label>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Normal ECG</label>
+<path target="cell-30"></path>
+</cell>
+<cell type="decision" id="cell-30">
+<label>Obtain serum CPK and troponin. Normal?</label>
+<path target="cell-32">Yes</path>
+<path target="cell-26">Elevated</path>
+</cell>
+<cell type="decision" id="cell-32">
+<label>Repeat in 6 hours (some may repeat after 12 hours). Normal?</label>
+<path target="cell-33">Yes</path>
+<path target="cell-26">Elevated</path>
+</cell>
+<cell type="action" id="cell-33">
+<label>Elective stress test.</label>
+</cell>
+</algorithm>
+</algorithms>

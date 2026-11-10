@@ -684,34 +684,43 @@
 </meta>
 <title>Small for Gestational Age (SGA)&#x002F;Intrauterine Growth Restriction (IUGR): Fetal Assessment.</title>
 <graphic href="eee0558-w0001.gif" />
-<cell type="start" id="cell1">
+<cell type="start" id="cell-101">
 <label>Maternal disease or risk factor, concerning fetal growth pattern, or routine screen</label>
+<path target="cell-102"></path>
 </cell>
-<cell type="decision" id="cell2">
+<cell type="decision" id="cell-102">
 <label>Order fetal ultrasound.</label>
+<path target="cell-109"></path>
 </cell>
-<cell type="action" id="cell3">
+<cell type="action" id="cell-103">
 <label>Estimated fetal weight or abdominal circumference &lt;10&#x0025;, no other abnormality.</label>
+<path target="cell-104"></path>
 </cell>
-<cell type="decision" id="cell5">
+<cell type="decision" id="cell-104">
 <label>Repeat ultrasound with fetal measurements and Doppler of umbilical artery in 2-4 weeks.</label>
+<path target="cell-105"></path>
 </cell>
-<cell type="action" id="cell6">
+<cell type="decision" id="cell-105">
 <label>Normal growth rate and Doppler, small parents?</label>
+<path target="cell-106">Yes</path>
+<path target="cell-107">No</path>
 </cell>
-<cell type="action" id="cell8">
+<cell type="action" id="cell-106">
 <label>Constitutional SGA. Good prognosis.</label>
 </cell>
-<cell type="action" id="cell7">
+<cell type="action" id="cell-107">
 <label>Abnormal growth rate or Doppler or development of oligohydramnios.</label>
+<path target="cell-108"></path>
 </cell>
-<cell type="action" id="cell9">
+<cell type="action" id="cell-108">
 <label>High risk for IUGR: close surveillance (biophysical profile, nonstress test, multivessel Doppler), delivery when indicated.</label>
 </cell>
-<cell type="decision" id="cell4">
+<cell type="decision" id="cell-109">
 <label>Small fetal size plus oligohydramnios, polyhydramnios, or fetal anomaly?</label>
+<path target="cell-110">Yes</path>
+<path target="cell-103">No</path>
 </cell>
-<cell type="action" id="cell10">
+<cell type="action" id="cell-110">
 <label>Fetal karyotype. Maternal serologies.</label>
 </cell>
 </algorithm>

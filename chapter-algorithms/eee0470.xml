@@ -1,0 +1,43 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>172</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Hyperemesis Gravidarum (HG).</title>
+<graphic href="eee0470-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspect HG in pregnant woman with intractable vomiting, onset at &lt;10 weeks' gestation, and &gt;5&#x0025; weight loss compared with prepregnancy weight.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Check electrolytes, urinalysis, TSH&#x002F;T4, LFTs, BUN&#x002F;creatinine; obtain ultrasound to assess for multiple gestation and molar pregnancy.</label>
+<path target="cell-3">Normal</path>
+<path target="cell-4">Abnormal</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Offer ginger, vitamin B6, doxylamine, p6 acupressure.</label>
+<path target="cell-5">Resolves</path>
+<path target="cell-6">Persists</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Resume normal prenatal care.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Treat with antiemetics, IV fluid hydration, and electrolyte replacement; consider steroids.</label>
+<path target="cell-7">Resolves</path>
+<path target="cell-8">Persists</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Resume normal prenatal care.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider hospitalization, total parenteral nutrition (TPN), specialist consultation.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Treat any underlying disease or abnormalities.</label>
+</cell>
+</algorithm>
+</algorithms>

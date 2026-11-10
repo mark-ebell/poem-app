@@ -933,20 +933,27 @@
 <graphic href="eee0577-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>&#x201C;Hot potato&#x201D; voice or sudden severe illness?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Child with sore throat? Apply clinical decision rule in <xref ref="table001" /></label>
+<label>Child with sore throat? Apply clinical decision rule (Table 1).</label>
+<path target="cell-6">Score 0-1</path>
+<path target="cell-5">Score 2-3</path>
+<path target="cell-4">Score 4 or 5</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Treat with penicillin VK (if &lt;27&#x00A0;kg; 250 mg bid or tid; if &gt;27 kg 500 mg bid or tid); amoxicillin may be used as an alternative.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Rapid antigen detection test (RADT).</label>
+<path target="cell-4">Positive RADT result</path>
+<path target="cell-7">Negative RADT result</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Consider throat culture, if indicated.</label>
+<path target="cell-4">Positive throat culture</path>
+<path target="cell-6">Negative throat culture</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Supportive care. If symptoms persist or there is prominent fatigue, consider testing for infectious mononucleosis.</label>

@@ -476,29 +476,34 @@
 <graphic href="eee0226-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>History and physical examination</label>
-<path target="cell-2"> Presence of secondary sexual characteristics </path>
-<path target="cell-18"> Absence of secondary sexual characteristics </path>
+<path target="cell-2">Presence of secondary sexual characteristics</path>
+<path target="cell-18">Absence of secondary sexual characteristics</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Pubic hair present?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-15">Absent or scant pubic hair</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Uterus present?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-11">No (uterus absent)</path>
 </cell>
-<cell type="action" id="cell-8">
+<cell type="decision" id="cell-8">
 <label>Evidence of outflow obstruction?</label>
+<path target="cell-55">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-55">
-<label>See <xref ref="table001" />.</label>
+<label>See Table 1.</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Follow secondary amenorrhea flowchart.</label>
 </cell>
-<cell type="action" id="cell-7">
-<label>Uterus absent.</label>
-</cell>
 <cell type="decision" id="cell-11">
 <label>Check karyotype.</label>
+<path target="cell-14">46,XX</path>
+<path target="cell-13">Other</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>M&#x00FC;llerian agenesis.</label>
@@ -508,21 +513,28 @@
 </cell>
 <cell type="action" id="cell-15">
 <label>Check karyotype.</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>46, XY.</label>
+<path target="cell-17"></path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Androgen insensitivity syndrome.</label>
 </cell>
 <cell type="decision" id="cell-18">
 <label>Check FSH&#x002F;LH.</label>
+<path target="cell-21">Elevated or normal FSH/LH</path>
+<path target="cell-27">Low FSH/LH</path>
 </cell>
 <cell type="action" id="cell-21">
-<label>Hypogonadotropic hypogonadism (see <xref ref="table001" />).</label>
+<label>Hypergonadotropic hypogonadism.</label>
+<path target="cell-22"></path>
 </cell>
 <cell type="decision" id="cell-22">
 <label>Check karyotype.</label>
+<path target="cell-25">45,XO</path>
+<path target="cell-26">46,XX</path>
 </cell>
 <cell type="action" id="cell-25">
 <label>Turner syndrome.</label>
@@ -531,7 +543,7 @@
 <label>Premature ovarian failure.</label>
 </cell>
 <cell type="action" id="cell-27">
-<label>Hypogonadotropic hypogonadism (see <xref ref="table001" />).</label>
+<label>Hypogonadotropic hypogonadism (see Table 1).</label>
 </cell>
 <footnotes>
 <footnote>Abbreviations: FSH, follicle-stimulating hormone; LH, leuteinizing hormone.</footnote>

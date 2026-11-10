@@ -521,30 +521,40 @@
 <graphic href="eee0164-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Elevated ALT and AST less than 5 times normal</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="action" id="cell-2">
 <label>History and physical examination. Discontinue hepatotoxic medications and alcohol.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Consider repeat ALT&#x002F;AST or a clarifying test to confirm abnormality.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Liver chemistries, PT, albumin, CBC with platelets, Hepatitis A, B, and C serologies, serum iron, total iron binding capacity, ferritin, glucose or hemoglobin A1C, and abdominal ultrasound.</label>
+<path target="cell-5">Abnormal serology</path>
+<path target="cell-6">Negative serology</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Proceed with directed evaluation and treatment.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Symptomatic or evidence of hepatic decompensation?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Expedited evaluation.</label>
 </cell>
 <cell type="action" id="cell-8">
 <label>Lifestyle modification: Discontinue alcohol. Stop hepatotoxic medications. Weight loss. Diabetes control.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Six-month follow-up: Repeat liver chemistries.</label>
+<path target="cell-10">Normal</path>
+<path target="cell-11">Abnormal</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Observation.</label>
@@ -568,15 +578,20 @@
 <graphic href="eee0164-w0002.gif" />
 <cell type="start" id="cell-12">
 <label>Elevated serum bilirubin. Perform history and physical examination. Order liver chemistries.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Unconjugated bilirubin elevated with normal alkaline phosphatase, ALT, AST.</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Hemolysis studies, review medications, consider evaluation for Gilbert's disease.</label>
 </cell>
 <cell type="decision" id="cell-17">
 <label>RUQ ultrasound to assess for ductal dilatation.</label>
+<path target="cell-18">Present</path>
+<path target="cell-19">Absent</path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Refer for ERCP&#x002F;MRCP.</label>
@@ -600,12 +615,17 @@
 <graphic href="eee0164-w0003.gif" />
 <cell type="start" id="cell-20">
 <label>Elevated serum alkaline phosphatase</label>
+<path target="cell-21"></path>
 </cell>
 <cell type="decision" id="cell-21">
 <label>History and physical examination. Liver chemistries</label>
+<path target="cell-22">Normal bilirubin, ALT, AST</path>
+<path target="cell-23">Abnormal liver chemistries</path>
 </cell>
 <cell type="decision" id="cell-22">
 <label>GGT or 5'-nucleotidase</label>
+<path target="cell-24">Normal</path>
+<path target="cell-25">Abnormal</path>
 </cell>
 <cell type="action" id="cell-24">
 <label>Etiology is not hepatobiliary: Consider bone or placental sources</label>
@@ -615,15 +635,19 @@
 </cell>
 <cell type="decision" id="cell-23">
 <label>RUQ ultrasound to assess for ductal dilatation</label>
+<path target="cell-26">Present</path>
+<path target="cell-27">Absent</path>
 </cell>
 <cell type="action" id="cell-26">
 <label>ERCP&#x002F;MRCP</label>
 </cell>
 <cell type="action" id="cell-27">
 <label>AMA</label>
+<path target="cell-28"></path>
 </cell>
 <cell type="action" id="cell-28">
 <label>Negative</label>
+<path target="cell-29"></path>
 </cell>
 <cell type="action" id="cell-29">
 <label>Evaluation for elevated ALT&#x002F;AST ERCP&#x002F;MRCP. Consider liver biopsy</label>

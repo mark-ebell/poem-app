@@ -1254,26 +1254,33 @@
 <graphic href="eee0438-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient candidate for pharmacologic migraine prophylaxis (e.g., 2 migraine&#x002F;mo, 3 mo disability 3 disability d&#x002F;mo)</label>
-<path target="cell-2"> No</path>
-<path target="cell-3"> Yes</path>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Stop.</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Consider a first-line agent, if no contraindication: Propranolol or timolol; amitriptyline; divalproex sodium or sodium valproate; topiramate.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Effective after 2-3 mo?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Schedule regular follow-up visits to monitor medication use.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Adjust dose as tolerated. If adverse effects or ineffective try different first-line agent (propranolol or timolol, amitriptyline, divalproex, or topiramate). Effective after 2-3 mo?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>If no single first-line drug is effective and tolerable, consider a combination of two first-line agents. Effective after 2-3 mo?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider an alternative agent, if no contraindications: Gabapentin; naproxen sodium; candesartan; lisinopril; atenolol, metoprolol, or nadolol; magnesium; riboflavin (B2) or coenzyme Q10; hormone therapy; timed-released DHE; verapamil; feverfew.</label>

@@ -1,0 +1,60 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>124</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Cervicitis: Diagnosis.</title>
+<graphic href="eee0232-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Purulent endocervical exudate OR increased friability of endocervical mucosa. Signs of PID?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Examine vaginal saline prep; test for GC and Chlamydia. Trichomonads present?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Evaluate and treat PID.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>High-risk patient?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Treat presumptively for Chlamydia. If follow-up is insecure or if a test other than NAAT is used.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider presumptive treatment for GC if the prevalence is high (&gt;5&#x0025;) in the patient's population.</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Test for syphilis and HIV.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Assess for exposure to irritants.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider testing for trichomonas by culture or antigen testing.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Await results of GC and Chlamydia testing.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Treat trichomonads.</label>
+<path target="cell-4"></path>
+</cell>
+<footnotes>
+<footnote>Abbreviations: GC, gonorrhea; NAAT, nucleic acid amplification test; PID, pelvic inflammatory disease.</footnote>
+<footnote>Adapted from <xref ref="web001">Centers for Disease Control and Prevention. http:&#x002F;&#x002F;www.cdc.gov&#x002F;std&#x002F;treatment. Sexually Transmitted Disease Treatment Guidelines.</xref></footnote>
+</footnotes>
+</algorithm>
+</algorithms>

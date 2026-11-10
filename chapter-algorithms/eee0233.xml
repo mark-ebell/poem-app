@@ -1,0 +1,64 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>125</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Dysmenorrhea: Treatment.</title>
+<graphic href="eee0233-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Painful menses; low anterior pelvic pain during 3-day period around start of menses?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Presumptive diagnosis of primary dysmenorrhea.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Treat with NSAIDs and&#x002F;or oral contraceptives. Optional suppression of menses with depo-medroxyprogesterone or extended-cycle oral contraceptives. Consider topical heat, acupressure, magnet device, yoga, and&#x002F;or thiamine, vitamin E, or fish oil. Dysmenorrhea controlled?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Continue therapy.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Suspect secondary dysmenorrhea; signs or symptoms of sexually transmitted infection?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Confirm and treat.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Pelvic ultrasound; consider laparoscopy.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Endometriosis?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider suppression of menses with depo-medroxyprogesterone or extended-cycle oral contraceptives. Consider surgical options.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Normal anatomy?</label>
+<path target="cell-12">No</path>
+<path target="cell-11">Yes</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Unexplained dysmenorrhea.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Consider all available treatments.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Surgery, if indicated.</label>
+</cell>
+</algorithm>
+</algorithms>

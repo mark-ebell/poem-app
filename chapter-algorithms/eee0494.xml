@@ -1,0 +1,92 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>358</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Myeloid Leukemia (AML): Management.</title>
+<graphic href="eee0494-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Presence of &gt;20&#x0025; blasts in peripheral blood and&#x002F;or bone marrow.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Morphology, cytogenetics, and cytometry. Presence of t(15;17) and&#x002F;or PMR&#x002F;RAR-alpha; M3 morphology?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>APL Patient good candidate for anthracyclines?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>ATRA and arsenic trioxide.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Complete remission?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Clinical trial, match sibling or alternative donor HSCT.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consolidation therapy (ATRA, arsenic trioxide, or HSCT).</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>ATRA and anthracycline-based chemotherapy.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>AML (non-APL). Age &gt;60 years?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Antecedent hematologic disease?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Clinical trial, hematopoietic stem cell transplant (HSCT). If not available: standard therapy. Complete remission?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Consolidation therapy; type depends on cytogenetics.</label>
+<path target="cell-16">Better-risk cytogenetics</path>
+<path target="cell-17">Intermediate-risk cytogenetics</path>
+<path target="cell-18">Poor-risk cytogenetics</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>High-dose cytarabine &#x00B1; autologous HSCT, clinical trials.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Matched sibling&#x002F;autologous HSCT, high-dose cytarabine or clinical trials.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Clinical trial, match sibling or alternative donor HSCT.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Clinical trials, HSCT or best supportive care.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Standard therapy (&#x201C;7+3&#x201D;) or HDAC with anthracycline.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Good performance status and favorable cytogenetics?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-19">
+<label>Best supportive care, low-intensity therapy or clinical trials.</label>
+</cell>
+<cell type="action" id="cell-20">
+<label>Standard therapy, clinical trials.</label>
+</cell>
+</algorithm>
+</algorithms>

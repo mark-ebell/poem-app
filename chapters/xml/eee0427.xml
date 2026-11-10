@@ -711,30 +711,45 @@
 <graphic href="eee0427-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Dementia suspected: perform history (timing, risk factors, family history, head trauma, education) and interview caregiver. Perform physical exam (signs of previous stroke, hyperreflexia, Babinski signs, gait apraxia, pseudobulbar palsy).</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Administer brief cognitive test (e.g., <resourceLink href="info:pmid/10430420">Mini-Mental State Examination</resourceLink>,<resourceLink href="info:wiley/eep-rule/252">Time and Change</resourceLink>). Do history, physical, and cognitive test suggest dementia?</label>
+<path target="cell-4">No</path>
+<path target="cell-3">Yes</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Signs of delirium or depression?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Lab evaluation: CBC, TSH, electrolytes, serum calcium, fasting glucose, B12. Abnormal?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Age &lt;60, rapid decline over 1-2 months, duration of dementia &lt;2 years, recent head trauma, unexplained neurologic symptoms, history of cancer, use of anticoagulants or bleeding disorder, history of urinary incontinence and gait disorder, new localizing signs, atypical presentation, or new gait disorder?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Alzheimer's dementia likely. Consider Lewy body dementia if prominent visual hallucinations and parkinsonian signs. Consider CJD and CSF 14-2-2 antigen testing if rapid decline with risk factors for CJD.</label>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Neuroimaging (CT or MRI). Abnormal findings?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Evaluate and treat abnormal findings. Symptoms resolve?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Evaluate&#x002F;treat the depression, source of delirium. Symptoms resolve?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Stop.</label>

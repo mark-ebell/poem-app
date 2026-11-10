@@ -1,0 +1,43 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>General Approach to Children and Adolescents with Suspected ADHD.</title>
+<graphic href="eee0621-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>You suspect ADHD because of inattention, hyperactivity, impulsivity, academic underachievement, or behavior problems. Situational crisis?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Use Vanderbilt screening tool (<resourceLink href="http://www.nichq.org/adhd_tools.html">http:&#x002F;&#x002F;www.nichq.org&#x002F;adhd&#x005F;tools.html</resourceLink>) along with evaluating DSM-V criteria for ADHD.</label>
+<path target="cell-4">Does not meet criteria</path>
+<path target="cell-5">Meets criteria for ADHD</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>May need immediate referral.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Check home and school environment; consider counseling, referral, or other diagnoses.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Screen for other primary disorders and associated comorbidities (if present, consider neuropsychiatric testing).</label>
+<path target="cell-8">ADHD with comorbidities</path>
+<path target="cell-6">Pure ADHD</path>
+<path target="cell-7">ADHD not primary diagnosis</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Educate child, parent, and school; determine goals for therapy; regular physical activity; pharmacotherapy; focused counseling for child and parent may be needed; support groups (eg, CHADD).</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Educate child, parent, and school; learning disorder may require accommodations; advocacy group (eg, CHADD); depending on complexity of comorbidities, may consult psychiatrist or psychologist.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Treat underlying condition. May require subspecialist referral.</label>
+</cell>
+</algorithm>
+</algorithms>

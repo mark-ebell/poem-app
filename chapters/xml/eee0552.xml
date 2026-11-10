@@ -375,9 +375,13 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>Suggests congenital or metabolic causes. Are GI symptoms present (diarrhea, steatorrhea, abdominal pain)?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Consider malabsorption: cow's milk protein allergy, cystic fibrosis, celiac disease, biliary atresia, inflammatory bowel disease, disaccharidase deficiency, or chronic diarrhea present?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Consider sweat test, tissue transglutaminase (TTG), gamma-glutaryl transferase (GGT), specialist referral.</label>
@@ -387,12 +391,16 @@
 </cell>
 <cell type="decision" id="cell-5">
 <label>Look for signs of chronic disease, which could be leading to increased metabolic needs: prematurity, recurrent infections, cardiac or pulmonary disorders, malignancy, renal or liver disease, or hyperthyroidism (including laboratory testing if indicated). Chronic disease present?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider improper utilization of calories: inborn errors of metabolism, storage disorders, or growth hormone deficiency. Consider specialist referral.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Suggests inadequate caloric intake. Observe feeding. Are there mechanical feeding difficulties?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Likely cause of FTT. Treat as indicated.</label>

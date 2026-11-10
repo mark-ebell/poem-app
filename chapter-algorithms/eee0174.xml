@@ -1,0 +1,40 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>247</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Acute Cholecystitis: Management.</title>
+<graphic href="eee0174-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Acute cholecystitis. Resuscitate, antibiotics, hospital admission. Complicated or unstable?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Laparoscopy &lt;72 hours</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Perforation or peritonitis?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Contraindication for general anesthesia?</label>
+<path target="cell-2">No</path>
+<path target="cell-6">Yes</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Percutaneous cholecystostomy and intravenous antibiotics</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Laparotomy</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Helton WS, Espat NJ. Cholecystitis and cholangitis. <em>Curr Treat Opt Infect Dis</em> 2001;<strong>3</strong>:387-400.<xref ref="bib42" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

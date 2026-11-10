@@ -1,0 +1,64 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>406</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Testicular or Scrotal Mass: Diagnosis.</title>
+<graphic href="eee0369-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Testicular or scrotal mass</label>
+<path target="cell-2">Gradual onset of pain or painless</path>
+<path target="cell-3">Acutely painful, atraumatic</path>
+<path target="cell-4">Acutely painful, history of trauma</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Swelling is intermittent?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider inguinal hernia.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Mass is or may be intratesticular?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Feels like bag of worms, does not transilluminate?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider varicocele (usually left-sided, worse with standing) or spermatocele; if diagnosis in doubt order ultrasound.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider hydrocele or spermatocele; if diagnosis in doubt order ultrasound.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Ultrasound to rule out testicular cancer; consider MRI if nondiagnostic.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Consider testicular torsion; emergent referral to urologist for examination.</label>
+<path target="cell-11">Torsion</path>
+<path target="cell-12">Torsion ruled out</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Treat emergently with attempted manual detorsion, surgery if not successful.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider epididymitis, orchitis and treat appropriately.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Pain resolves within an hour of injury?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Ice, NSAIDs, support, observation.</label>
+</cell>
+</algorithm>
+</algorithms>

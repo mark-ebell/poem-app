@@ -1,0 +1,71 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>264</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Hemophilia: Diagnosis.</title>
+<graphic href="eee0264-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Personal or family history of bleeding: Order PT, APTT, fibrinogen</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>PT prolonged, Fibrinogen reduced.</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Hemophilia excluded. Consider another bleeding disorder.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>PT and fibrinogen normal, APTT prolonged.</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Request factor VIII and IX and Von Willebrand factor (VWF)</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>All normal?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Factor VIII low, VWF normal.</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Low factor VIII and VWF.</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Factor IX low.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Hemophilia B.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Von Willebrand's disease.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Hemophilia A.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider another bleeding disorder.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Hemophilia not present.</label>
+</cell>
+<footnotes>
+<footnote>Data from World Federation of Hemophilia Guidelines for the Management of Hemophilia: http:&#x002F;&#x002F;www.wfh.org&#x002F;2&#x002F;docs&#x002F;Publications&#x002F;Diagnosis&#x005F;and&#x005F;Treatment&#x002F;Guidelines&#x005F;Mng&#x005F;Hemophilia.pdf<xref ref="web001" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -636,11 +636,14 @@
 <graphic href="eee0496-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Chronic myelogenous leukemia, Ph chromosome or BCR-ABL positive. Begin imatinib 400 mg. Hematologic remission at 3 months (see <xref ref="table002" />)?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>At 6, 12, and 18 months, order bone marrow cytogenetics and assess cytogenetic response (see <xref ref="table002" />).</label>
+<path target="cell-4">Partial response (6-18 months) or minor response (6 months)</path>
+<path target="cell-5">Complete response</path>
+<path target="cell-3">No response, minor response (12-18 months) or relapse (18 months)</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>6 or 12 months: continue same imatinib dose or increase to maximum 800 mg&#x002F;day.18 months: change to dasatinib or nilotinib, increase dose of imatinib to maximum 800 mg&#x002F;day, or consider hematopoietic stem cell transplant.</label>
@@ -650,15 +653,22 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Assure patient compliance with treatment. Consider mutational analysis. Consider increased imatinib dose vs dasatinib or nilotinib vs hematopoietic stem cell transplant (HSCT).</label>
+<path target="cell-9">Increased dose, dasatinib or nilotinib</path>
+<path target="cell-6">HSCT</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Cytogenetic remission?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Monitor peripheral blood with polymerase chain reaction every 3 months for 2 years, then every 6 months for 3 years.</label>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider imatinib, dasatinib or nilotinib, interferon, donor lymphocyte infusion, or enrollment in clinical trial.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Repeat bone marrow cytogenetics at 6, 12 and 18 months and reassess (above)</label>
 </cell>
 </algorithm>
 </algorithm_group>

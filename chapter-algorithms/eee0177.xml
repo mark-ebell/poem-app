@@ -1,0 +1,179 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>132.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Constipation (Child &lt;1 Year): Management.</title>
+<graphic href="eee0177-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Symptoms&#x002F;signs suggestive of constipation.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Red flags for organic cause of constipation (see differential diagnosis table)?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>T4, TSH, calcium, celiac disease, antibodies, sweat test, lead, anal manometry.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consult pediatric gastroenterologist.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Exclusively breastfeed and &#x003E;2 weeks old?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>May be normal.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Ensure adequate fluid intake. Add prune, pear, or apple juice. Consider milk-free formula.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Diet changes effective?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Continue diet components and well-child exams.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Add medications (Table 1).</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Medications effective? Stools &#x2265;3 per week.</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Adjust medication; review diet and education. Effective?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Adjustment effective? Stool frequency &#x2265;3 per week.</label>
+<path target="cell-13">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Wean from medication.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Wean effective? Stool frequency remains &#x2265;3 per week?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>T4, TSH, calcium, celiac disease, antibodies, sweat test, lead.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Consult pediatric gastroenterologist.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Return to adding medications (Table 1).</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>132.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Diagnosis and Management of Functional Constipation &amp; Soiling in Children &#x003E;1 Year.</title>
+<graphic href="eee0177-w0002.gif" />
+<cell type="start" id="cell-18">
+<label>Symptoms&#x002F;signs suggestive of constipation</label>
+<path target="cell-19"></path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Red flags for organic cause of constipation (see differential diagnosis table)?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-22">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Order T4 (thyroxine), TSH (thyroid-stimulating hormone), calcium, celiac disease antibodies, sweat test, lead level. Consider consultation with pediatric gastroenterologist.</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Patient and caretaker education regarding diagnosis of functional constipation.</label>
+<path target="cell-23"></path>
+</cell>
+<cell type="decision" id="cell-23">
+<label>Impaction present?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-25">No</path>
+</cell>
+<cell type="action" id="cell-24">
+<label>Prescribe oral or rectal clean-out (Table 1).</label>
+<path target="cell-26"></path>
+</cell>
+<cell type="decision" id="cell-26">
+<label>Clean-out effective?</label>
+<path target="cell-25">Yes</path>
+<path target="cell-36">No</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Maintenance therapy - (behavior, diet &amp; medication) is strongly recommended for minimum of 6 months.</label>
+<path target="cell-27"></path>
+</cell>
+<cell type="decision" id="cell-27">
+<label>Treatment effective? &#x2265;3 stools&#x002F;week and no soiling?</label>
+<path target="cell-29">Yes</path>
+<path target="cell-28">No</path>
+</cell>
+<cell type="decision" id="cell-28">
+<label>Treatment adherence problems?</label>
+<path target="cell-30">Yes</path>
+<path target="cell-31">No</path>
+</cell>
+<cell type="decision" id="cell-30">
+<label>Repeated problems?</label>
+<path target="cell-37">Yes</path>
+<path target="cell-38">No</path>
+</cell>
+<cell type="action" id="cell-31">
+<label>Confirm constipation present with colonic transit time with radio-opaque markers. Constipation present?</label>
+<path target="cell-30">Yes</path>
+<path target="cell-33">No</path>
+</cell>
+<cell type="action" id="cell-33">
+<label>No further evaluation needed.</label>
+</cell>
+<cell type="action" id="cell-29">
+<label>Wean from medications after 6 months.</label>
+<path target="cell-34"></path>
+</cell>
+<cell type="decision" id="cell-34">
+<label>Stool frequency &#x2265;3 per week &amp; no soiling?</label>
+<path target="cell-35">Yes</path>
+<path target="cell-39">No</path>
+</cell>
+<cell type="action" id="cell-35">
+<label>Continue behavioral and diet components and well child exams.</label>
+</cell>
+<cell type="action" id="cell-36">
+<label>Repeat the clean-out (Table 1).</label>
+</cell>
+<cell type="action" id="cell-37">
+<label>Reevaluate for red flags for an organic cause (above).</label>
+</cell>
+<cell type="action" id="cell-38">
+<label>Repeat patient and caretaker education (above).</label>
+</cell>
+<cell type="action" id="cell-39">
+<label>Reassess for impaction (above).</label>
+</cell>
+<footnotes>
+<footnote>Adapted with permission from, at: http:&#x002F;&#x002F;cme.med.umich.edu&#x002F;pdf&#x002F;guideline&#x002F;peds03.pdf.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

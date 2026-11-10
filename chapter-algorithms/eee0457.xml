@@ -1,0 +1,68 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>335.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Seizure Disorder (Child): Management.</title>
+<graphic href="eee0457-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient stable and no longer seizing</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>History consistent with acute symptomatic seizure?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Work up provoking factor as appropriate; may include glucose, brain CT&#x002F;MRI, toxicology screen, electrolytes, LP, CBC, metabolic screening, infectious workup.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Is patient back to baseline mental status?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Electrolytes, glucose, and brain CT&#x002F;MRI.</label>
+<path target="cell-8">Abnormal</path>
+<path target="cell-9">Normal</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Work up as appropriate.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Other cause of altered mental status? Consider toxicology screen, metabolic labs, LP, neurology consult, EEG.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Focal seizure?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Brain MRI (If patient returns to baseline quickly, may be done as an outpatient).</label>
+<path target="cell-12">Abnormal</path>
+<path target="cell-13">Normal</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Work up as appropriate.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Observe, outpatient workup as indicated: EEG, neurology outpatient visit.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Neurological exam.</label>
+<path target="cell-10">Abnormal</path>
+<path target="cell-14">Normal</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Observe, outpatient workup as indicated: EEG, consider nonemergent MRI.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Stabilize patient (ABCs) and treat status epilepticus.</label>
+</cell>
+</algorithm>
+</algorithms>

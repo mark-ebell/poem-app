@@ -651,25 +651,33 @@
 <graphic href="eee0263-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Hemochromatosis (HC) suspected based on laboratory test results (eg, ferritin, serum iron, ALT, AST), family history of HC, or symptoms of HC. Order transferrin saturation.*</label>
-<path target="cell-2">&gt;55&#x0025;</path>
-<path target="cell-3">45&#x0025;-55&#x0025;</path>
-<path target="cell-4">&lt;45&#x0025;</path>
+<path target="cell-2">&gt;55%</path>
+<path target="cell-3">45% to 55%</path>
+<path target="cell-4">&lt;45%</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>HFE genotype.<sup>&#x2020;</sup>
 </label>
+<path target="cell-5">C282Y homozygote or C282Y/H63D compound heterozygote</path>
+<path target="cell-6">Normal or other genotypes</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Order serum ferritin and hepatic transaminases (ALT, AST).</label>
+<path target="cell-9">Serum ferritin &lt;300 mcg/L, LFTs normal</path>
+<path target="cell-7">Serum ferritin 300 to 1000 mcg/L, ALT/AST normal</path>
+<path target="cell-8">Serum ferritin &gt;1000 mcg/L and/or ALT/AST abnormal</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Phlebotomy.</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Monitor serum ferritin; maintain &lt;50 mcg&#x002F;L.</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Liver biopsy.</label>
+<path target="cell-11">No iron overload</path>
+<path target="cell-7">Confirmed iron overload</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Investigate and treat as appropriate.</label>
@@ -679,9 +687,12 @@
 </cell>
 <cell type="action" id="cell-6">
 <label>Counsel and consider non-HFE hemochromatosis.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Repeat transferring saturation in 3 months, and consider other diagnoses.</label>
+<path target="cell-4">Repeat value &lt;45%</path>
+<path target="cell-2">Repeat value ≥45%</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Reassure. Consider retest later if symptoms persist. Consider other diagnoses.</label>

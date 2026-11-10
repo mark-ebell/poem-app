@@ -1,0 +1,46 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>376</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Cryptosporidiosis: Treatment.</title>
+<graphic href="eee0301-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Cryptosporidiosis confirmed. Notify public health officials. Is patient immunocompromised?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Type of immunocompromise.</label>
+<path target="cell-4">HIV</path>
+<path target="cell-5">Other causes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Maximized anti-HIV therapy and rehydration.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>If patient is not responding, consider infectious disease consult. Nitazoxanide, Paromomycin. or azithromycin may improve symptoms and oocyte shedding, but may not cure.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Correct underlying cause of immunodeficiency, rehydration.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Are symptoms severe or prolonged?</label>
+<path target="cell-7">Mild/moderate symptoms</path>
+<path target="cell-8">Severe/prolonged symptoms</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Symptomatic therapy with oral or IV rehydration. Nitazoxanide optional.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Rehydration, nitazoxanide, and symptomatic therapy.</label>
+<path target="cell-6"></path>
+</cell>
+</algorithm>
+</algorithms>

@@ -425,26 +425,35 @@
 <graphic href="eee0138-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Hyperprolactinemia. Pregnant?</label>
-<path target="cell-2"> No </path>
-<path target="cell-3"> Yes </path>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>TSH level?</label>
+<path target="cell-4">TSH elevated</path>
+<path target="cell-5">TSH normal</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>If prolactin &gt;50 ng&#x002F;mL or pituitary tumor suspected clinically, order MRI and consider medications.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Replace thyroxine and repeat prolactin.</label>
+<path target="cell-7">Normal</path>
+<path target="cell-8">Elevated</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>No further work-up.</label>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Drug-related hyperprolactinemia? (See <xref ref="table001" />)</label>
+<label>Drug-related hyperprolactinemia? (See Table 1.)</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Order MRI of pituitary. Result?</label>
+<path target="cell-10">No pathology</path>
+<path target="cell-11">Tumor</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Treat the hyperprolactinemia, if indicated, with medications (see text).</label>
@@ -454,12 +463,17 @@
 </cell>
 <cell type="action" id="cell-9">
 <label>Drug-related hyperprolactinemia.</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="decision" id="cell-12">
-<label>Prolactin &gt;50 mg&#x002F;dL?</label>
+<label>Prolactin &gt;50 ng/mL?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Attempt withdrawal of offending drug. Withdrawal not possible or prolactin still elevated?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-14">No (normal prolactin level)</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>No further work-up.</label>

@@ -1,0 +1,72 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>120</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Adrenal Insufficiency: Diagnosis.</title>
+<graphic href="eee0120-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected adrenal insufficiency: Is the morning cortisol level above 300 nmol&#x002F;L?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Adrenal insufficiency ruled out</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Has the patient used corticosteroids in the past year?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Administer 250 mcg cosyntropin and measure cortisol level 30 to 60 minutes later. Is the serum cortisol above 500 nmol&#x002F;L?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Adrenal insufficiency ruled out clinical follow-up</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Secondary adrenal insufficiency</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Administer 250 mcg cosyntropin and measure cortisol level 30 to 60 minutes later. Is the serum cortisol above 500 nmol&#x002F;L?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Is the morning plasma ACTH elevated?</label>
+<path target="cell-10">No</path>
+<path target="cell-11">Yes</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Secondary adrenal insufficiency. Work up for hypothalamic-pituitary disease (eg, pituitary adenoma)</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Primary adrenal insufficiency</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Severe adrenal insufficiency ruled out. Do you suspect mild adrenal insufficiency?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Are the ACTH, insulin tolerance and metyrapone test results normal?</label>
+<path target="cell-14">No</path>
+<path target="cell-13">Yes</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Mild adrenal insufficiency (primary or secondary)</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Clinical follow-up</label>
+</cell>
+<footnotes>
+<footnote>Data from Dorin RI, Qualls CR, Crapo LM. Diagnosis of adrenal insufficiency. <em>Ann Intern Med</em> 2003;<strong>139</strong>:194-204.<xref ref="pubmed12899587" resource="acc001" />and Lee MT, Won JG, Lee TI, Yang HJ, Lin HD, Tang KT. The relationship between morning serum cortisol and the short ACTH test in the evaluation of adrenal insufficiency.<em> Zhonghua Yi Xue Za Zhi (Taipei)</em> 2002;<strong>65</strong>:580-587.<xref ref="pubmed12636203" resource="acc010" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1,0 +1,65 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>308</id>
+<supertype>AbCd</supertype>
+<last_update>2012-09-08</last_update>
+</meta>
+<title> Approach to the Patient with Suspected Mesothelioma. </title>
+<graphic href="eee0503-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with dyspnea, chest pain, and history of asbestos</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Chest X-ray</label>
+<path target="cell-3"></path>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>No pleural effusion or plaques but no etiology for symptoms</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Pleural effusion</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Chest CT</label>
+<path target="cell-8"></path>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Thoracentesis</label>
+<path target="cell-7"></path>
+<path target="cell-10"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Negative cytology: pursue other causes</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Normal or other finding: treat as appropriate</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Pleural mass or effusion; concern for mesothelioma</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Suspicious cytology (consider chest CT before biopsy)</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Thoracoscopic or CT-guided pleural biopsy</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Immunohistochemical exam per pathology</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Malignant pleural mesothelioma confirmed</label>
+</cell>
+</algorithm>
+</algorithms>

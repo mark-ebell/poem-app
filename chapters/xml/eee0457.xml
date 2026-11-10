@@ -1090,15 +1090,21 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>History consistent with acute symptomatic seizure?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Work up provoking factor as appropriate; may include glucose, brain CT&#x002F;MRI, toxicology screen, electrolytes, LP, CBC, metabolic screening, infectious workup.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Is patient back to baseline mental status?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Electrolytes, glucose, and brain CT&#x002F;MRI.</label>
+<path target="cell-8">Abnormal</path>
+<path target="cell-9">Normal</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Work up as appropriate.</label>
@@ -1108,9 +1114,13 @@
 </cell>
 <cell type="decision" id="cell-7">
 <label>Focal seizure?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Brain MRI (If patient returns to baseline quickly, may be done as an outpatient).</label>
+<path target="cell-12">Abnormal</path>
+<path target="cell-13">Normal</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Work up as appropriate.</label>
@@ -1120,6 +1130,8 @@
 </cell>
 <cell type="decision" id="cell-11">
 <label>Neurological exam.</label>
+<path target="cell-10">Abnormal</path>
+<path target="cell-14">Normal</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Observe, outpatient workup as indicated: EEG, consider nonemergent MRI.</label>

@@ -637,6 +637,7 @@
 <graphic href="eee0088-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Umbilical hernia reducible and asymptomatic?</label>
+<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
 </cell>
 <cell type="action" id="cell-2">
@@ -644,27 +645,27 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Age of child</label>
-</cell>
-<cell type="action" id="cell-4">
-<label>&lt;2 years old</label>
+<path target="cell-7">Under 2 years old</path>
+<path target="cell-8">2–5 years old</path>
+<path target="cell-10">5 years or older</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Observe</label>
 </cell>
-<cell type="action" id="cell-5">
-<label>2-5 years old</label>
-</cell>
 <cell type="decision" id="cell-8">
 <label>Fascial defect &gt;2 cm?</label>
+<path target="cell-7">No</path>
+<path target="cell-9">Yes</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Fascial defect decreasing in size?</label>
-</cell>
-<cell type="action" id="cell-6">
-<label>&#x2265;5 years old</label>
+<path target="cell-7">Yes</path>
+<path target="cell-11">No</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Fascial defect &gt;2 cm?</label>
+<path target="cell-9">No</path>
+<path target="cell-11">Yes</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Surgery referral</label>

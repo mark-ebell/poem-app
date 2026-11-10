@@ -980,81 +980,104 @@
 <graphic href="eee0463-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Type of tremor</label>
-<path target="cell-2"> Resting</path>
-<path target="cell-3"> Postural</path>
-<path target="cell-4"> Kinetic</path>
+<path target="cell-2">Resting</path>
+<path target="cell-3">Postural</path>
+<path target="cell-4">Kinetic</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Patient taking medications that may cause tremor?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Possible drug-induced Parkinsonism</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Trial off drug</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Other signs of Parkinson's disease (rigidity, bradykinesia, postural instability)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Classic Parkinson's disease</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Trial of dopaminergic agent</label>
 </cell>
 <cell type="action" id="cell-9">
 <label>Possible early Parkinson's disease</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Monitor patient regularly</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Patient taking medications that may cause tremor?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Possible drug-induced tremor</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Trial off medication</label>
 </cell>
 <cell type="decision" id="cell-13">
 <label>History of alcohol abuse?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Possible alcohol withdrawal tremor</label>
 </cell>
-<cell type="action" id="cell-16">
+<cell type="decision" id="cell-16">
 <label>Other signs or symptoms of systemic disease?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-18">No</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Enhanced physiologic tremor</label>
+<path target="cell-19"></path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Test for hyperthyroidism, hypoglycemia, panic attack, benzodiazepine withdrawal</label>
 </cell>
 <cell type="action" id="cell-18">
 <label>Essential tremor</label>
+<path target="cell-20"></path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Trial of &#x03B2;-blocker, primidone (Mysoline)</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Task-specific (handwriting, occupational)?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-22">No</path>
 </cell>
 <cell type="action" id="cell-21">
 <label>Task-specific kinetic tremor</label>
 </cell>
 <cell type="action" id="cell-22">
 <label>Intention tremor</label>
+<path target="cell-23"></path>
 </cell>
 <cell type="decision" id="cell-23">
 <label>History of chronic alcoholism?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-25">No</path>
 </cell>
 <cell type="action" id="cell-24">
 <label>Alcohol tremor</label>
 </cell>
 <cell type="decision" id="cell-25">
 <label>History of lithium toxicity?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-27">No</path>
 </cell>
 <cell type="action" id="cell-26">
 <label>Toxic tremor</label>

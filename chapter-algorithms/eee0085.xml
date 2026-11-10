@@ -1,0 +1,32 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>032</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Algorithm for the Management of Suspected TGDC.</title>
+<graphic href="eee0085-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected TGDC: Patient with midline neck mass</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Suspicious for infection: tender, fluctuating in size, with dysphagia?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Diagnostic workup including ultrasonography, thyroid scanning, and&#x002F;or CT; and obtain TSH level</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Surgical excision utilizing the Sistrunk procedure</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Initiate antibiotic therapy guided toward common upper airway bacteria</label>
+<path target="cell-3">After 6 weeks</path>
+</cell>
+</algorithm>
+</algorithms>

@@ -1,0 +1,69 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>068</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Peripheral Neuropathy, Distal-Symmetric: Diagnosis.</title>
+<graphic href="eee0452-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected distal-symmetric polyneuropathy: Patient complaining of numbness, burning, or prickling, confined to or predominantly located in the feet</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Clincial examination: decreased or absent ankle reflexes and decreased distal sensation?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Medical history of diabetes mellitus?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Laboratory screening informative?*</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Neurophysiological examination</label>
+<path target="cell-9">Demyelinating</path>
+<path target="cell-8">Axonal or normal</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Patient more than 60 years of age, predominantly sensory symptoms?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Rapid progression of symptoms?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Family history informative?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Chronic idiopathic axonal polyneuropathy (CIAP) is likely.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Hereditary neuropathy.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Consider other diagnoses.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Clue to etiology (e.g., diabetic, toxic, uremic, vitamin deficient, ...): initiate specific therapy.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Refer for further neurological evaluation.</label>
+</cell>
+<footnotes>
+<footnote>*CBC, electrolytes, BUN, hepatic transaminases, vitamin B1 and B12, paraprotein screen, TSH, ESR, and serum ACE.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

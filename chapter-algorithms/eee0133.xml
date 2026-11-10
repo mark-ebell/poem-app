@@ -1,0 +1,35 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>036.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suggested Evaluation of Patient With Hypercalcemia.</title>
+<graphic href="eee0133-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Hypercalcemia (verified on repeat lab)</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>History and exam focused on vitamin, milk-alkali ingestion, history of malignancy, medications, or history of immobilization</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Obtain intact parathyroid hormone level</label>
+<path target="cell-4">Elevated (relative to serum Ca++)</path>
+<path target="cell-5">Low or normal</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Hyperparathyroidism (1&#x0025; will have familial hypocalciuric hypercalcemia and low 24-h calcium excretion)</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Evaluate for cancer (esp. lung CA, myeloma, lymphoma, or bone metastasis)</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Other possible causes and suggested tests: &#x2022; Hyperthyroidism: TSH &#x2022; Adrenal insufficiency &#x2013; cortisol &#x2022; Granulomatous disease &#x2013; CXR &#x2022; Vitamin A or D toxicity &#x2013; levels</label>
+</cell>
+</algorithm>
+</algorithms>

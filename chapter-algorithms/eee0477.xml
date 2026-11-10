@@ -1,0 +1,49 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>394</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suspected Preterm Labor: Management.</title>
+<graphic href="eee0477-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with regular preterm (&lt;37 weeks) contractions, vaginal bleeding, preterm premature rupture of membranes, cramping, low back pain, pelvic pressure, or change in vaginal discharge.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Assess fetal well-being (e.g., non-stress test); if abnormal, consult. Monitor for uterine contractions. Perform urinalysis and treat if positive. Perform sterile speculum examination for pooling, cervical smear for wet prep and culture (trichomonas, gonorrhea, chlamydia, bacterial vaginosis, and GBS), fetal fibronectin and for dilation of cervix. Do digital cervical check once rupture of membranes has been ruled out.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Cervix &#x2265;3 cm and&#x002F;or 80&#x0025; effaced?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Monitor contractions; recheck cervix in 2 hours. If positive wet prep; treat infection. Progressive cervical change?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Consider cervical ultrasonography; cervical length &gt;30 mm?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Fetal fibronectin negative?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Follow up per routine or sooner if recurrent contractions.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Follow up in 1 week or sooner if recurrent contractions. May give progesterone (250 mg IM weekly or 200 mg vaginally, daily) if &lt;37 weeks for patients with history of prior preterm delivery, especially with a short cervix (&lt;15 mm at 22-26 weeks gestation). Consider cervical ultrasonography.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Begin tocolytic agent (beta-mimetic or calcium channel blocker); treat for 48 hours (in order to complete steroid series). Give corticosteroids (betamethasone 12 mg IM every 24 hours for 2 doses or dexamethasone 6 mg IM every 12 hours for 4 doses). Do not give repeated doses. Begin antibiotics for group B streptococcal (GBS) prophylaxis. If imminent delivery, consider antenatal magnesium sulphate administration for women &#x003D;31 + 6 weeks' gestation.</label>
+</cell>
+</algorithm>
+</algorithms>

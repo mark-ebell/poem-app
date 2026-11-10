@@ -1,0 +1,41 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>257</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Fatigue: Management.</title>
+<graphic href="eee0433-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with fatigue</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Take a targeted history to assess characteristics and manifestations of fatigue, including onset, duration, pattern, exacerbating and palliative factors, severity, impact on function. Screen for depression using PHQ.<xref ref="rule126" resource="acc001" />
+</label>
+<path target="cell-3">Positive</path>
+<path target="cell-4">Negative</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Perform brief physical exam and order initial lab studies (CBC, TSH, ESR, glucose). If clinically indicated, HIV, Lyme titre, and PPD. Any abnormal?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Schedule second visit for comprehensive history and physical exam. Review laboratory results and order initial studies as clinically indicated. Any abnormal?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider consultation. Maintain frequent follow-ups. Educate patient on fatigue management.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Treat for underlying conditions.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Treat for depression.</label>
+</cell>
+</algorithm>
+</algorithms>

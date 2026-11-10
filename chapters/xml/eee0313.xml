@@ -868,18 +868,25 @@
 <graphic href="eee0313-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Patient presents with painful rash</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Is the rash&#x002F;pain unilateral?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Did pain precede the rash?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Herpes zoster likely; treat accordingly.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Is rash vesicular and found in groups?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Herpes zoster likely; treat accordingly.</label>

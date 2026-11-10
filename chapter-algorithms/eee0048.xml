@@ -1,0 +1,36 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>363</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Renal Artery Stenosis: Management.</title>
+<graphic href="eee0048-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspicion of renal artery stenosis: Perform duplex ultrasound, MR angiogram, or CT angiogram (if patient has normal kidney function).</label>
+<path target="cell-2">Greater than 60% stenosis</path>
+<path target="cell-3">Less than 60% stenosis</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Is the patient symptomatic?*</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Refer for angioplasty.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Options: (1) treat medically and monitor, or (2) refer for angioplasty if there is a single ipsilateral viable kidney, bilateral stenosis, or unilateral stenosis and chronic renal insufficiency.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Options: (1) treat medically and monitor, or (2) refer for arteriogram if index of suspicion is high.</label>
+</cell>
+<footnotes>
+<footnote>*Symptomatic denotes any of the following: uncontrolled, accelerated or malignant hypertension; hypertension with unilateral small kidney; recurrent unexplained congestive heart failure or sudden unexplained pulmonary edema; chronic renal insufficiency with unilateral stenosis to a solitary functioning kidney; chronic renal insufficiency with bilateral stenosis; or unstable angina.</footnote>
+<footnote>Data from ACC&#x002F;AHA 2005 guidelines for the management of patients with peripheral arterial disease (lower extremity, renal, mesenteric, and abdominal aortic): a collaborative report [trunc]. Bethesda, MD: American College of Cardiology Foundation; 2005. 192 p.<xref ref="poem120191" resource="acc020" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

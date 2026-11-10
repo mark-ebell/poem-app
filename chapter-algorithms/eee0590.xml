@@ -1,0 +1,58 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>204</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Ethylene Glycol Toxicity: Diagnosis.</title>
+<graphic href="eee0590-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient unconscious or signs&#x002F;symptoms of unknown ingestion. Obtain serum chemistry, serum osmolality, and arterial blood gases. Calculate anion gap and osmolal gap.</label>
+<path target="cell-2">Metabolic acidosis with anion gap</path>
+<path target="cell-3">Metabolic acidosis without anion gap, or no metabolic acidosis</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Serum osmolal gap present?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Perform urinalysis and&#x002F;or Wood's lamp evaluation. Calcium oxalate crystals present and&#x002F;or fluorescence of urine?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Send for serum levels of ethylene glycol, methanol, isopropyl alcohol, and ethanol.</label>
+<path target="cell-7">Ethylene glycol positive</path>
+<path target="cell-8">Methanol positive</path>
+<path target="cell-9">Ethanol positive</path>
+<path target="cell-10">Isopropyl alcohol positive</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Ethylene glycol ingestion.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Methanol ingestion.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Ethanol ingestion.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Isopropyl alcohol ingestion.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Ethylene glycol ingestion unlikely. High index of suspicion for ingestion?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Consider other diagnoses.</label>
+</cell>
+<footnotes>
+<footnote>Anion gap &#x003D; Na &#x2212; (Cl<sub>&#x2212;</sub> + HCO<sub>3&#x2212;</sub>) &#x003D; [Normal 8-12]</footnote>
+<footnote>Osmolal gap &#x003D; Measured serum osmoles &#x2212; Calculated serum osmols &#x003D; Measured serum osmoles &#x2212; (2(Na) + BUN &#x002F;2.8 + Glucose&#x002F;18 &#x003D; [Normal &lt;10]</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

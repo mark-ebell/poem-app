@@ -1442,36 +1442,33 @@
 <graphic href="eee0154_w0001.gif" />
 <cell type="start" id="cell-1">
 <label>BMI &gt;25 or waist circumference &gt;35 inches (88 cm) [female]; Waist circumference &gt;40 inches (102 cm) [male]</label>
-<path target="cell-2">No</path>
+<path target="cell-2">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Assess risk factors.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
-<label>Assess readiness to lose weight, set-up goals and management strategy to achieve weight loss based on risk factors.</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>
-<list style="bulleted">
-<listitem>Nutrition</listitem>
-<listitem>Physical activity</listitem>
-<listitem>Behavioral management</listitem>
-<listitem>Pharmacologic therapy</listitem>
-<listitem>Surgical management</listitem>
-</list>
-</label>
+<label>Assess readiness to lose weight, set up goals and management strategy to achieve weight loss based on risk factors: nutrition, physical activity, behavioral management, pharmacologic therapy, surgical management.</label>
+<path target="cell-4"></path>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>See Management Recommendations based on BMI&#x002F;risk of disease (<xref ref="table001" />).</label>
 </cell>
 <cell type="action" id="cell-5">
 <label>Reassess monthly until 3 months then every 3 months for a year.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Goals achieved?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Counsel regarding weight maintenance.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Reassess goals and risk factors and Counsel regarding weight maintenance and possible referral to a formal weight loss program.</label>

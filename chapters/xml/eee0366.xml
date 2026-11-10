@@ -484,15 +484,22 @@
 <graphic href="eee0366-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected phimosis&#x2014;foreskin does not retract over glans.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Signs of inflammation or infection of glans or prepuce?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Age &#x2265;15 years, signs of scarring at prepuce, or painful erections?</label>
+<path target="cell-5">No</path>
+<path target="cell-6">Yes</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Consider trial of medium-potency topical steroid such as betamethasone 0.05&#x0025; cream or mometasone 0.1&#x0025; cream twice a day for 4 wk.</label>
+<path target="cell-7">Foreskin retracts</path>
+<path target="cell-8">Foreskin does not retract</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Follow yearly for recurrence with physical exam.</label>
@@ -505,6 +512,7 @@
 </cell>
 <cell type="action" id="cell-4">
 <label>Treat infection and re-evaluate.</label>
+<path target="cell-3"></path>
 </cell>
 </algorithm>
 </algorithm_group>

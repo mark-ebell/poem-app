@@ -1,0 +1,73 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>306</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Fecal Impaction: Diagnosis.</title>
+<graphic href="eee0188-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>History of constipation. Determine age group.</label>
+<path target="cell-2">Neonate</path>
+<path target="cell-3">Infant/child</path>
+<path target="cell-4">Adult</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Meconium absent after 48 hours of life?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Evaluate for possible Hirschprung's disease.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Evaluate for possible red flags: fever, vomiting, bloody diarrhea, failure to thrive, analstenosis, tight empty rectum. Red flags present?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Consider referral to pediatric gastroenterologist.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Hard mass in lower abdomen without rebound tenderness?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Fecal impaction likely; initiate treatment.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Palpable stool in rectum?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Excessive stool in colon and on abdominal x-ray?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Fecal impaction unlikely; consider other diagnoses and evaluate as appropriate.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Fever, leukocytosis present?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Other possible diagnoses (UTI, pneumonia, etc.) eliminated?</label>
+<path target="cell-13">Yes</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Tender abdomen?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider colonic perforation or ulceration, with or without impaction.</label>
+<path target="cell-9"></path>
+</cell>
+</algorithm>
+</algorithms>

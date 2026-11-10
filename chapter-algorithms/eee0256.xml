@@ -1,0 +1,85 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>256</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Anemia: Diagnosis.</title>
+<graphic href="eee0256-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with anemia (hemoglobin &lt;13 g/dL for men, &lt;12 g/dL for women). Review indices, perform careful history and physical. Evidence of bleeding, or premenopausal woman?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>MCV &gt;95 or symptoms consistent with B12 or folate deficiency?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Low MCV and at risk for thallessemia?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Serum ferritin low?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Reticulocyte count elevated?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Order peripheral smear for megalocytes, B12 (if not already ordered), serum creatinine, ALT or GGT, TSH, Epo levels, and bone marrow biopsy. Anemia of chronic disease likely.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>LDH, haptoglobin, bilirubin, Coomb's test.</label>
+<path target="cell-12">Abnormal</path>
+<path target="cell-10">Normal</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Hemolytic anemia.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Iron-deficiency anemia. Treat source and provide iron replacement, follow-up serum ferritin and hemoglobin in 1-2 months. Colonoscopy if older than 40-50 years or red flags for cancer.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Order hemoglobin electrophoresis. Diagnostic for thallessemia?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Thallessemia. Order serum ferritin to rule out co-existing IDA due to chronic blood loss.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Order B12 and folate.</label>
+<path target="cell-14">Low folate</path>
+<path target="cell-16">B12 &lt;100 mcg/dL</path>
+<path target="cell-15">B12 100-400 mcg/dL</path>
+<path target="cell-4">Normal</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Folate deficiency.</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Order serum methylmalonic acid and homocysteine.</label>
+<path target="cell-16">Either is elevated</path>
+<path target="cell-4">Both are normal</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>B12 deficiency.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Serum ferritin and appropriate investigation to identify source. Serum ferritin low and likely source identified?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<footnotes>
+<footnote>Note: The evaluation can be streamlined by ordering B12, folate, serum ferritin, and reticulocyte count initially.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

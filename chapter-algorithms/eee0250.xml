@@ -1,0 +1,78 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>317.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Acute Symptoms of Dysuria and Frequency (Female): Diagnosis.</title>
+<graphic href="eee0250-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with dysuria. History and&#x002F;or physical examination positive for urethral or cervical mucopurulent discharge?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Bloody urethral discharge?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Suspect tumor&#x002F;local lesion. Consider referral.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Perimenopausal or menopausal woman with other genitourinary symptoms (eg, dyspareunia and vaginal dryness)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Suspect menopause-related; consider hormone or lubricant treatment.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Additional symptoms of UTI (eg, frequency, urgency, and suprapubic pain)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Suspect UTI. Treat or test (eg, urinalysis) and treat. If symptoms persist, test for STI.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Fever, flank pain?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Test for STI.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Suspect pyelonephritis; test and treat.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Obtain specimen(s) (ie, intrameatal, intravaginal&#x002F;intracervical, and urine). Run PCR, NAAT, or send for culture.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Pelvic pain, uterine tenderness, constitutional symptoms?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Vaginal symptoms predominate (eg, itching and odor).</label>
+<path target="cell-16">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Suspect STI; see Table 2 for treatment.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Suspect vaginitis; test (eg, wet prep) and treat.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Suspect PID and treat.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: NAAT, nucleic acid amplification test; PCR, polymerase chain reaction; PID, pelvic inflammatory disease; STI, sexually transmitted infection.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

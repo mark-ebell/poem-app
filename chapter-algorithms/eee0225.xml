@@ -1,0 +1,128 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Heavy Uterine Bleeding: Management (Nonpregnant Women).</title>
+<graphic href="eee0225-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Assess urgency: Profuse bleeding, hemoglobin &lt;7 g&#x002F;dL, or orthostatic hypotension?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Contraindication to estrogen (e.g., estrogen-dependent tumor, thromboembolism risk, severe liver disease)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Combined oral contraceptive (COC) 35 mcg ethinyl estradiol and 1 mg norethindrone 3 times daily for 7 days.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Adequate response?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Continue with COC (once daily) or medroxyprogesterone acetate (MPA; 10 mg once daily for 14-21 days per month).</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider D&amp;C.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>MPA 20 mg 3 times daily for 10 days.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Adequate response?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Admit to hospital, monitor vital signs, place 2 large-bore peripheral IV catheters, type and crossmatch. Hemoglobin &lt;7 g&#x002F;dL?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Contraindication to estrogen?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Premarin 25 mg IV every 4 hours for up to 24 hours.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Offer blood transfusion.</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id />
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Abnormal Uterine Bleeding: Management (Reproductive Aged Women).</title>
+<graphic href="eee0225-w0002.gif" />
+<cell type="start" id="cell-13">
+<label>Rule out pregnancy. Peform pelvic exam, Pap, and strongly consider test for GC and Chlamydia.</label>
+<path target="cell-15">Pregnant, abnormal exam or Pap, or infection</path>
+<path target="cell-14">No abnormalities</path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Ovulatory bleeding (menorrhagia) or anovulatory (irregular) bleeding?</label>
+<path target="cell-17">Ovulatory</path>
+<path target="cell-16">Anovulatory</path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Older than 40-45 years or otherwise at risk for malignancy?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Test for GC and chlamydia (if not already ordered), TSH, and serum prolactin. Consider medications as cause.</label>
+<path target="cell-21">Abnormal</path>
+<path target="cell-20">Normal</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>If clinically indicated, evaluate for PCOS LINK "Polycystic ovarian disease", congenital adrenal hyperplasia (early morning 17-hydroxyprogesterone), or hyperandrogenism (serum testosterone and DHEA). Yield is low, however. Consider treatment with cyclic oral contraceptive or progestin (MPA 10 mg daily for 10 days) every 1-3 months after negative pregnancy test result.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Treat underlying cause.</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Order endometrial biopsy and transvaginal ultrasound with or without saline infused (sonohysterogram). Option also to do transvaginal ultrasound first and only biopsy if endometrial stripe &gt;4 mm.</label>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Order hemoglobin, TSH, and ultrasound. Severe bleeding, menarche, or other bleeding signs?</label>
+<path target="cell-23">Yes</path>
+<path target="cell-22">No</path>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Cyclic oral contraceptive or, if contra-indicated, progestin (MPA 10 mg daily on days 14-28 of cycle) or NSAID for 3-4 months. Good response?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-24">
+<label>Routine follow-up.</label>
+</cell>
+<cell type="decision" id="cell-23">
+<label>Evaluate for coagulopathy. Abnormal?</label>
+<path target="cell-25">Yes</path>
+<path target="cell-22">No</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Treat coagulopathy and correct anemia, as indicated.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Treat pregnancy, cervical abnormality, or infection. If uterus is enlarged order transvaginal ultrasound.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: TSH, thyroid-stimulating hormone; GC, Neisseria gonorrhoeae; DHEA, dehydroepiandrosterone.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

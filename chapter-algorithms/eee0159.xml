@@ -1,0 +1,103 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>159</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Hyponatremia Due to SIADH: Treatment.</title>
+<graphic href="eee0159-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Symptomatic patient or [Na] &#x2264;120 mEq&#x002F;L?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Fluid restriction &lt; 1000 ml&#x002F;day, 3&#x0025; normal saline at 1-2 mL&#x002F;kg&#x002F;hr Alternative: conivaptan 20-40 mg IV divided BID for a maximum of 4 days or tolvaptan 15-30 mg&#x002F;day.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Reassess volume status, neurological status, and electrolytes every 2-4 hours. If edema, furosemide 20-40 mg IV every 2 hours PRN (maximum dose of 0.4 mg&#x002F;kg&#x002F;hr).</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Neurologic symptoms present, [Na] &#x2264;120 mEq&#x002F;L, or change in [Na] &#x2264;18 mEq&#x002F;L in 24 hours.</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Adjust rate to keep change of [Na] at 1-2 mEq/L/hr or &lt;18 mEq/L in 24 hours; then reassess volume status, neurological status, and electrolytes every 2-4 hours.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Discontinue 3&#x0025; NS and continue to follow [Na] every 4-8 hours until stable levels are reached.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Treat underlying cause; monitor [Na] and neurologic symptoms daily.</label>
+</cell>
+<footnotes>
+<footnote>*Less than 48-hour duration.</footnote>
+<footnote>&#x2020;Estimating the initial rate of 3&#x0025; NS in mL&#x002F;hr by multiplying the patient's weight in kg X the desired rate of change in mL&#x002F;kg&#x002F;hr.</footnote>
+<footnote>Data from Verbalis JG, Goldsmith SR, Greenberg A, Schrier RW, Sterns RH. Hyponatremia Treatment Guidelines 2007: Expert Panel Recommendations. <em>Am J Med</em> 2007;<strong>120</strong>:S1&#x2013;S21.<xref ref="pubmed17981159" resource="acc013" />
+</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>159</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Chronic Hyponatremia Due to SIADH: Treatment.</title>
+<graphic href="eee0159-w0002.gif" />
+<cell type="start" id="cell-8">
+<label>Symptomatic patient or [Na] &lt;120mEq&#x002F;L</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>3&#x0025; sodium chloride at 0.5 mL&#x002F;kg&#x002F;hr.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Reassess volume status, neurological status, and electrolytes every 2-4 hours. If edema, furosemide 20-40 mg IV every 2 hours PRN. Maximum dose &#x003D; 0.4 mg&#x002F;kg&#x002F;hr.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Neurologic symptoms present, [Na] &#x2264;120 mEq&#x002F;L, or change in [Na] &#x2264;12 mEq&#x002F;L in 24 hours?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Adjust rate to keep change of [Na] &lt;0.5 mEq/L/hr or &lt;12 mEq/L in 24 hours; then reassess volume status, neurological status, and electrolytes every 2-4 hours.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Discontinue 3&#x0025; NS and continue to follow [Na] every 4-8 hours until stable levels are reached.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Restrict water to daily urine minus 500 mL&#x002F;day. No NaCl restriction.</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Recheck daily serum [Na] and osmolality. Improved at 3 days?</label>
+<path target="cell-16">No</path>
+<path target="cell-17">Yes</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Reconsider alternative diagnoses.</label>
+<path target="cell-18"></path>
+</cell>
+<cell type="action" id="cell-18">
+<label>If no alternative diagnosis suspected, consider second-line treatments: (1) demeclocyclinje 600-1200 mg&#x002F;day in divided doses; (2) urea 30 g once daily; or (3) lithium.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Continue treatment and follow.</label>
+</cell>
+<footnotes>
+<footnote>* Greater than 48-hour duration.</footnote>
+<footnote>&#x2020; Estimating the initial rate of 3&#x0025; NS in mL&#x002F;hr by multiplying the patient's weight in kg X the desired rate of change in mL&#x002F;kg&#x002F;hr.</footnote>
+<footnote>Data from Verbalis JG, Goldsmith SR, Greenberg A, Schrier RW, Sterns RH. Hyponatremia Treatment Guidelines 2007: Expert Panel Recommendations. <em>Am J Med</em> 2007;<strong>120</strong>:S1&#x2013;S21.<xref ref="pubmed17981159" resource="acc013" /></footnote>
+</footnotes>
+</algorithm>
+</algorithms>

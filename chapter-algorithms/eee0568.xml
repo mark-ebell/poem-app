@@ -1,0 +1,80 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>151</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Pubertal Delay in Males and Females (for Girls Tanner 1 at Age 13, for Boys Tanner 1 at Age 14): Diagnosis.</title>
+<graphic href="eee0568-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Check serum gonadotropins (FSH, LH) and estradiol (girls) or testosterone (boys)</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Normal testosterone (boys) or estradiol (girls)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Not pubertal delay.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>LH&#x002F;FSH?</label>
+<path target="cell-5">Elevated FSH/LH</path>
+<path target="cell-6">Low/normal FSH/LH</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Obtain karyotype.</label>
+<path target="cell-9">Abnormal</path>
+<path target="cell-10">Normal</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Klinefelter syndrome, Turner syndrome, or other.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Primary gonadal failure.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Evaluate growth pattern and obtain bone age.</label>
+<path target="cell-14">Short stature but appropriate for bone age (bone age delayed)</path>
+<path target="cell-15">Normal stature until no pubertal growth spurt (normal or delayed bone age)</path>
+<path target="cell-20">Late-onset growth failure and normal bone age</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Constitutional delay.</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Evaluate sense of smell.</label>
+<path target="cell-18">Reduced</path>
+<path target="cell-19">Normal</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Kallmann syndrome.</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Isolated gonadotropin deficiency.</label>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Evaluate for CNS disease (headache, vomiting, blurred vision, abnormal neurologic exam).</label>
+<path target="cell-23">No CNS signs or symptoms</path>
+<path target="cell-24">CNS signs or symptoms</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Consider chronic disease, malnutrition, or hypothyroidism.</label>
+</cell>
+<cell type="decision" id="cell-24">
+<label>Obtain brain MRI.</label>
+<path target="cell-23">Normal</path>
+<path target="cell-27">Abnormal</path>
+</cell>
+<cell type="action" id="cell-27">
+<label>CNS tumor.</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Styne DM. Disorders of puberty. Styne DM, Pediatric Endocrinology. Philadelphia: Lippincott Williams and Wilkins; 2004:179.<xref ref="bib7" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

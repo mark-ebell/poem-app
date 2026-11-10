@@ -511,19 +511,23 @@
 <graphic href="eee0550-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Assess severity: &lt;10&#x0025; diaper area affected, faint to mild pink color, few or no satellite lesions, no ulceration, child is not distressed?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>
 <em>Mild diaper dermatitis</em> Leave skin exposed as much as possible, frequent diaper changes, use fragrance-free, alcohol-free wipes or water to clean and avoid soaps or perfumed products, and apply a barrier paste (zinc oxide) at each diaper change.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-3">
 <label>
 <em>Moderate&#x002F;severe diaper dermatitis</em> Treatment for mild diaper dermatitis, plus: (1) topical antifungal preparation (nystatin cream BID-TID), (2) topical corticosteroid (1&#x0025; hydrocortisone cream BID), and (3) consider mupirocin or eosin.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Assess response to treatment.</label>
+<path target="cell-5">Resolves</path>
+<path target="cell-6">Persists</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Confirms diagnosis, minimize recurrence by continuing treatment for mild diaper dermatitis.</label>

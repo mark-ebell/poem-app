@@ -1,0 +1,113 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>007.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Dizziness: Diagnosis.</title>
+<graphic href="eee0430-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>History, including: quality of symptoms; timing/duration; provoking/palliating factors; associated symptoms; medical and psychological problems; risk factors for cerebrovascular and cardiovascular disease; medication use. Directed physical examination may include: general appearance; orthostatic measurements; head and neck; cardiovascular; neurological; hearing tests (Weber, Rinne to determine whether hearing loss is sensorineural); provocative tests: Dix-Hallpike (Nylen-Barany). Directed tests: glucose, if diabetic; cardiac rhythm monitoring in patients &gt;45 years old; consider other directed tests: complete blood count, serum electrolytes, blood urea nitrogen.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>*Potentially serious cause of dizziness? Any one of the following: Older patient (age &gt;70 years) No vertigo Neurological deficit</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Vertigo?</label>
+<path target="cell-5">No</path>
+<path target="cell-6">Yes</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider psychogenic dizziness: - Screen for anxiety, panic, depression Reconsider serious causes of dizziness* Consider other etiologies: - Anemia - Dehydration - Autonomic dysregulation - Etc.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Findings consistent with migraine?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider peripheral vestibular disorder, especially if: - Positive Dix-Hallpike maneuver, and - Nausea or vomiting</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Migraine</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Hearing loss?</label>
+<path target="cell-10">No</path>
+<path target="cell-11">Yes</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Is dizziness persistent or episodic?</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Persistent suggests vestibular neuronitis Episodic suggests benign paroxysmal positional vertigo</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Reconsider other peripheral vestibular disorders Reconsider serious causes of dizziness* Consider other etiologies: - Central vertigo - Perilymphatic fistula - Middle ear pathology - Etc.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Is dizziness persistent or episodic?</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Persistent suggests labyrinthitis Episodic suggests Meniere's disease, especially if with - aural fullness - progressive hearing loss</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Either of the following: - Neurological deficit, including progressive or unexplained hearing loss - Vertigo and high risk for cerebrovascular disease, including age</label>
+<path target="cell-16">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Findings suggest cardiovascular disease, which may include - Presyncope - Palpitations - Episodic nature - Cardiovascular risk factors - Arrhythmia</label>
+<path target="cell-18">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Findings consistent with medication-related dizziness?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Consider: - Arrhythmia monitoring - Carotid stimulation - Valsalva maneuver - Other (echocardiogram, stress test, etc.)</label>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Findings consistent with seizure or other neurological disease?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Discontinue medication</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Consider psychogenic dizziness Consider other etiologies Reconsider serious causes of dizziness*</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Workup as appropriate; consider EEG, MRI, and&#x002F;or referral</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Neuroimaging: brain MRI preferred; consider MRA or conventional angiogram</label>
+<path target="cell-23"></path>
+</cell>
+<cell type="action" id="cell-23">
+<label>If no diagnostic findings, continue as for vertigo.</label>
+<path target="cell-6"></path>
+</cell>
+<footnotes>
+<footnote id="note1">*Remember: Multiple etiologies common, especially in elderly&#x2014;unknown cause in 10&#x0025;-25&#x0025; of patients.</footnote>
+<footnote>Adapted from Kentala E, Rauch SD. A practical assessment algorithm for diagnosis of dizziness. <em>Otolaryngol Head Neck Surg</em> 2003;<strong>128</strong>:54&#x2013;59.<xref ref="pubmed12574760" resource="acc013" />
+</footnote>
+<footnote>Stoffers HE, Kester AD, Kaiser V Rinkens PE, Knottnerus JA. Diagnostic value of signs and symptoms associated with peripheral arterial occlusive disease seen in general practice: a multivariable approach. <em>Med Decis Making</em> 1997;<strong>17</strong>:61&#x2013;70.<xref ref="hp48" resource="acc015" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

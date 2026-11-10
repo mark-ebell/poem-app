@@ -1,0 +1,42 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>003.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Fetal Alcohol Syndrome (FAS): Management.</title>
+<graphic href="eee0068-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Child presents for office visit. Triggers emerge from contact, ie, developmental problems, facial abnormalities associated with FAS, growth delay, or maternal alcohol use.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Complete initial evaluation to gather specific data related to the four FAS criteria: facial malformations, growth abnormalities, neurodevelopmental concerns, maternal alcohol use.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>FAS referral criteria met?</label>
+<path target="cell-5">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Refer to specialist for further assessment.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>FAS diagnosis confirmed using dysmorphic and anthropometric assessment procedures along with appropriate neurodevelopmental evaluation data. An intervention plan is developed using a multidisciplinary team approach.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>The intervention plan is communicated to frontline providers, caregivers, and child with ongoing exchange with the intervention team. A case management plan is initiated at the community level based on recommendations from the intervention team (ie, specialty services, community and educational resources.)</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Continue to monitor changes in child's health over time.</label>
+</cell>
+<footnotes>
+<footnote>From Centers for Disease Control and Prevention. Fetal Alcohol Syndrome: Guidelines for Referral and Diagnosis. Atlanta, GA: Centers for Disease Control and Prevention; 2004.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

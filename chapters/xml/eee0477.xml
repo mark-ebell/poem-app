@@ -2382,21 +2382,31 @@
 <graphic href="eee0477-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient presents with regular preterm (&lt;37 weeks) contractions, vaginal bleeding, preterm premature rupture of membranes, cramping, low back pain, pelvic pressure, or change in vaginal discharge.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Assess fetal well-being (e.g., non-stress test); if abnormal, consult. Monitor for uterine contractions. Perform urinalysis and treat if positive. Perform sterile speculum examination for pooling, cervical smear for wet prep and culture (trichomonas, gonorrhea, chlamydia, bacterial vaginosis, and GBS), fetal fibronectin and for dilation of cervix. Do digital cervical check once rupture of membranes has been ruled out.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Cervix &#x2265;3 cm and&#x002F;or 80&#x0025; effaced?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Monitor contractions; recheck cervix in 2 hours. If positive wet prep; treat infection. Progressive cervical change?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Consider cervical ultrasonography; cervical length &gt;30 mm?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Fetal fibronectin negative?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Follow up per routine or sooner if recurrent contractions.</label>

@@ -796,27 +796,37 @@
 <graphic href="eee0073-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Abnormal newborn screen concerning for congenital hypothyroidism OR signs&#x002F;symptoms concerning for congenital hypothyroidism.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Check TSH, free T4.</label>
+<path target="cell-3">Normal TSH, normal T4</path>
+<path target="cell-4">Normal TSH, low T4</path>
+<path target="cell-5">High TSH, normal T4</path>
+<path target="cell-8">High TSH (&gt;40 mU/L), low T4</path>
 </cell>
-<cell type="action" id="cell-3">
+<cell type="decision" id="cell-3">
 <label>Transient hypothyroidism.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Recheck TSH, free T4 monthly.</label>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Recheck TSH at 2-4 wk. High TSH (&gt;10 mU&#x002F;L) and normal T4</label>
+<label>Recheck TSH at 2–4 weeks. High TSH (&gt;10 mU/L) and normal T4?</label>
+<path target="cell-7">No</path>
+<path target="cell-6">Yes</path>
 </cell>
-<cell type="action" id="cell-6">
+<cell type="decision" id="cell-6">
 <label>Congenital hypothyroidism.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>No treatment.</label>
 </cell>
-<cell type="action" id="cell-8">
+<cell type="decision" id="cell-8">
 <label>Congenital hypothyroidism.</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Pediatric endocrinology consult. Levothyroxine 10-15 mcg&#x002F;kg PO daily. Trial off therapy at 3 years old.</label>

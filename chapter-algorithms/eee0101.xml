@@ -1,0 +1,74 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>290</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Hoarseness: Diagnosis.</title>
+<graphic href="eee0101-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Hoarseness</label>
+<path target="cell-9">Chronic, over 2 weeks</path>
+<path target="cell-2">Acute, under 2 weeks</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Viral laryngitis</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Sinus disease, postnasal drip, and allergies?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Laryngopharyngeal reflux</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>ENT consultation</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Consider antibiotics,<xref ref="cochrane4783" resource="acc015" /> nasal steroid, and nasal saline</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Recent surgery, breathy hoarseness?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Cough, throat clearing, and globus?</label>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Iatrogenic true vocal fold paresis&#x002F;paralysis</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Supportive management, hydration, and voice rest</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Otalgia, dysphagia, neck mass, and alcohol&#x002F;tobacco abuse?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Associated URI?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Laryngeal malignancy</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Professional voice user, vocal trauma or abuse?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>True vocal fold polyp&#x002F;cyst&#x002F;nodule</label>
+<path target="cell-12"></path>
+</cell>
+</algorithm>
+</algorithms>

@@ -463,20 +463,28 @@
 <graphic href="eee0163-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Vomiting?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Diarrhea?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Abdominal tenderness?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Fever?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Constipation?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Colic.</label>
@@ -492,6 +500,8 @@
 </cell>
 <cell type="decision" id="cell-5">
 <label>Bloody stool?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Consider gastroenteritis or colitis.</label>
@@ -501,12 +511,16 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Bilious?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-14">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Consider: pyloric stenosis (ultrasound if 1-3 months), GERD (pH probe), trauma (CT), meningitis, UTI, or gastroenteritis.</label>
 </cell>
 <cell type="decision" id="cell-15">
 <label>Abdominal x-ray to rule out obstruction.</label>
+<path target="cell-17">Obstruction</path>
+<path target="cell-16">No obstruction</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Upper gastrointestinal imaging(UGI) to rule out malrotation&#x002F;volvulus.</label>
@@ -525,35 +539,51 @@
 <graphic href="eee0163-w0002.gif" />
 <cell type="start" id="cell-18">
 <label>Evidence of trauma?</label>
-<path target="cell-19">No</path>
 <path target="cell-20">Yes</path>
+<path target="cell-19">No</path>
 </cell>
 <cell type="decision" id="cell-19">
 <label>Fever?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-21">No</path>
 </cell>
 <cell type="decision" id="cell-21">
 <label>Right-sided pain?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="decision" id="cell-23">
 <label>Diarrhea?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-25">No</path>
 </cell>
 <cell type="decision" id="cell-25">
 <label>Nausea&#x002F;vomiting?</label>
+<path target="cell-28">Yes</path>
+<path target="cell-27">No</path>
 </cell>
 <cell type="decision" id="cell-27">
 <label>Hematuria?</label>
+<path target="cell-30">Yes</path>
+<path target="cell-29">No</path>
 </cell>
 <cell type="decision" id="cell-29">
 <label>Sickle cell disease?</label>
+<path target="cell-32">Yes</path>
+<path target="cell-31">No</path>
 </cell>
 <cell type="decision" id="cell-31">
 <label>Female?</label>
+<path target="cell-34">Yes</path>
+<path target="cell-33">No</path>
 </cell>
 <cell type="action" id="cell-33">
 <label>Consider testicular torsion (urgent referral).</label>
 </cell>
 <cell type="decision" id="cell-34">
 <label>Sexually active?</label>
+<path target="cell-36">Yes</path>
+<path target="cell-35">No</path>
 </cell>
 <cell type="action" id="cell-35">
 <label>Consider ovarian torsion, ovarian cyst, tubo-ovarian abscess (pelvic ultrasound), mittelschmerz&#x002F;dysmenorrheal, and endometriosis.</label>
@@ -575,12 +605,17 @@
 </cell>
 <cell type="decision" id="cell-24">
 <label>Calculate Alvarado Score Rule 364: 1 point each for RLQ pain, anorexia, nausea&#x002F;vomiting, rebound pain, temp &gt;99.1&#x00BA;F, WBC &gt;10.0, and left shift. Add 2 points for RLQ tenderness.</label>
+<path target="cell-42">Low risk (&lt;4 points)</path>
+<path target="cell-41">Moderate risk (4-7 points)</path>
+<path target="cell-40">High risk (&gt;7 points)</path>
 </cell>
 <cell type="action" id="cell-40">
 <label>Appendicitis (surgical consult).</label>
 </cell>
 <cell type="decision" id="cell-41">
 <label>CT or ultrasound.</label>
+<path target="cell-42">Normal</path>
+<path target="cell-40">Abnormal</path>
 </cell>
 <cell type="action" id="cell-42">
 <label>Close observation.</label>
@@ -602,47 +637,61 @@
 <graphic href="eee0163-w0003.gif" />
 <cell type="start" id="cell-43">
 <label>Child with functional abdominal pain; that is, pain for more than 6 months, may be intermittent or persistent, and presumes that anatomic, infectious, inflammatory, and metabolic processes have been ruled out with no alarm symptoms.*</label>
-<path target="cell-45">Yes</path>
-<path target="cell-46">No</path>
+<path target="cell-45">No</path>
+<path target="cell-46">Yes</path>
 </cell>
 <cell type="action" id="cell-45">
-<label>Evaluate as for acute abdominal pain in.</label>
+<label>Evaluate as for acute abdominal pain in Figures 1 and 2.</label>
 </cell>
 <cell type="decision" id="cell-46">
 <label>Features of migraine: (maternal migraine history, paroxysmal pain, anorexia, nausea, vomiting or pallor)?</label>
+<path target="cell-48">Yes</path>
+<path target="cell-47">No</path>
 </cell>
 <cell type="decision" id="cell-47">
 <label>Alteration in bowel movements.</label>
+<path target="cell-50">Yes</path>
+<path target="cell-49">No</path>
 </cell>
 <cell type="decision" id="cell-49">
 <label>Discomfort in upper abdomen.</label>
+<path target="cell-52">Yes</path>
+<path target="cell-51">No</path>
 </cell>
 <cell type="action" id="cell-51">
 <label>Functional abdominal pain syndrome.</label>
+<path target="cell-53"></path>
 </cell>
 <cell type="action" id="cell-53">
 <label>Psychosocial approach to care.</label>
+<path target="cell-54"></path>
 </cell>
 <cell type="action" id="cell-54">
 <label>If not improved, consider referral to pediatric gastroenterologist.</label>
 </cell>
 <cell type="action" id="cell-52">
 <label>Functional dyspepsia.</label>
+<path target="cell-55"></path>
 </cell>
 <cell type="action" id="cell-55">
 <label>Check <em>H. pylori</em> and consider H2 blocker or proton pump inhibitor.</label>
+<path target="cell-54"></path>
 </cell>
 <cell type="action" id="cell-50">
 <label>Irritable bowel syndrome.</label>
+<path target="cell-56"></path>
 </cell>
 <cell type="action" id="cell-56">
 <label>Consider anti-spasmodics, nonstimulant laxatives, and anti-diarrheals.</label>
+<path target="cell-54"></path>
 </cell>
 <cell type="action" id="cell-48">
 <label>Abdominal migraine.</label>
+<path target="cell-57"></path>
 </cell>
 <cell type="action" id="cell-57">
 <label>Appropriate migraine treatment consistent with age.</label>
+<path target="cell-54"></path>
 </cell>
 <footnotes>
 <footnote>*Alarm symptoms include abdominal mass, positive fecal occult blood testing, jaundice, bacteruria, fever, abnormal exam, or abnormal blood tests.</footnote>

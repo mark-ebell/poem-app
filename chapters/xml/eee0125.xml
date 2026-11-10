@@ -324,40 +324,52 @@
 <graphic href="eee0125-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Complete initial evaluation. Start IV fluids: 1.0 L of 0.9&#x0025; NaCl per hour initially</label>
-<path target="cell-5"> IV Fluids </path>
-<path target="cell-17"> Insulin </path>
-<path target="cell-21"> Potassium </path>
+<path target="cell-5">IV fluids</path>
+<path target="cell-17">Insulin</path>
+<path target="cell-21">Potassium: initial serum K+ under 3.3 mEq/L</path>
+<path target="cell-23">Potassium: initial serum K+ 3.3 to under 5.0 mEq/L</path>
+<path target="cell-22">Potassium: initial serum K+ 5.0 mEq/L or more</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Determine hydration status</label>
+<path target="cell-9">Hypovolemic shock</path>
+<path target="cell-10">Mild hypotension</path>
+<path target="cell-16">Cardiogenic shock</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Administer 0.9&#x0025; NaCl (1.0 L&#x002F;h) and&#x002F;or plasma expanders</label>
 </cell>
 <cell type="decision" id="cell-10">
-<label>Evaluate corrected serum Na<sup>&#x2021;</sup>
-</label>
+<label>Evaluate corrected serum sodium</label>
+<path target="cell-11">High or normal</path>
+<path target="cell-13">Low</path>
 </cell>
-<cell type="action" id="cell-11">
+<cell type="decision" id="cell-11">
 <label>0.45&#x0025; NaCl (4-14 mL &#x2022; kg<sup>-1</sup> &#x2022; h<sup>-1</sup>) depending on state of hydration</label>
+<path target="cell-14"></path>
 </cell>
-<cell type="action" id="cell-14">
+<cell type="decision" id="cell-14">
 <label>When serum glucose reaches 300 mg&#x002F;dL</label>
+<path target="cell-15"></path>
 </cell>
-<cell type="action" id="cell-15">
+<cell type="decision" id="cell-15">
 <label>Change to 5&#x0025; dextrose with 0.45&#x0025; NaCl and decrease insulin to 0.05-0.1 unit &#x2022; kg<sup>-1</sup> &#x2022; h<sup>-1</sup> to maintain serum glucose between 250 and 300 mg&#x002F;dL until plasma osmolality is &#x2264;315 mOsm&#x002F;kg and patient is mentally alert</label>
+<path target="cell-20">Then</path>
 </cell>
-<cell type="action" id="cell-13">
+<cell type="decision" id="cell-13">
 <label>0.9&#x0025; NaCl (4-14 mL &#x2022; kg<sup>-1</sup> &#x2022; h<sup>-1</sup>) depending on state of hydration</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Hemodynamic monitoring</label>
 </cell>
-<cell type="action" id="cell-17">
+<cell type="decision" id="cell-17">
 <label>Regular, 0.15 units&#x002F;kg as IV bolus</label>
+<path target="cell-18"></path>
 </cell>
-<cell type="action" id="cell-18">
+<cell type="decision" id="cell-18">
 <label>0.1 unit &#x2022; kg<sup>-1</sup> &#x2022; h<sup>-1</sup> IV insulin infusion</label>
+<path target="cell-19"></path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Check serum glucose hourly. If serum glucose does not fail by at least 50 mg&#x002F;dL in first hour, then double insulin dose hourly until glucose fails at a steady hour rate of 50-70 mg&#x002F;dL</label>

@@ -805,29 +805,37 @@
 <graphic href="eee0520-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with well differentiated thyroid cancer. Was diagnosis benign disease after surgery?</label>
-<path target="cell-2"> No </path>
-<path target="cell-3"> Yes </path>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Total&#x002F;near-total thyroidectomy.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Any of following: stage III or IV disease, age &gt;45 years with stage II disease, or stage I disease with multiple foci, lymph node metastases, extrathyroidal extension, vascular invasion, or aggressive histology?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Postoperative radioiodine ablation.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Levothyroxine to maintain TSH at &lt;0.1 in high-risk patients and between 0.1 and 0.5 in low-risk patients.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
-<label>Follow up as in <xref ref="fig002" />.</label>
+<label>Follow up as in Algorithm 2</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>All of the following present: size &lt;1 cm, low-risk features, single focus, intrathyroidal tumor, no metastasis, no family history, and no history of radiation to head and neck.</label>
+<path target="cell-2">No</path>
+<path target="cell-8">Yes</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Lobectomy.</label>
+<path target="cell-7"></path>
 </cell>
 <footnotes>
 <footnote>Adapted from Cooper DS, Doherty GM, Haugen BR, et al.; for the American Thyroid Association Guidelines Taskforce. Management guidelines for patients with thyroid nodules and differentiated thyroid cancer. <em>Thyroid</em> 2006;<strong>16</strong>:109&#x2013;141. Available at <resourceLink href="http://www.rcplondon.ac.uk/pubs/contents/f33a5762-6235-469e-91a5-d47d6ce6e0f6.pdf">http:&#x002F;&#x002F;www.rcplondon.ac.uk&#x002F;pubs&#x002F;contents&#x002F;f33a5762-6235-469e-91a5-d47d6ce6e0f6.pdf</resourceLink>.<xref ref="pubmed20028902" resource="acc019" /> Management of patients with thyroid nodules and differentiated thyroid cancer. (ATA)2&#x002F;11&#x002F;2009</footnote>
@@ -843,11 +851,13 @@
 <graphic href="eee0520-w0002.gif" />
 <cell type="start" id="cell-9">
 <label>Neck ultrasound (US), serum thyroglobulin (Tg) thyroglobulin antibodies (TgAb) on levothyroxine suppression.</label>
-<path target="cell-12"> Ultrasound positive </path>
-<path target="cell-11"> Ultrasound negative </path>
+<path target="cell-12">Ultrasound positive</path>
+<path target="cell-11">Ultrasound negative</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Surgical disease.</label>
+<path target="cell-14">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Radioiodine&#x002F;external beam radiation (EBR).</label>
@@ -857,36 +867,44 @@
 </cell>
 <cell type="decision" id="cell-11">
 <label>Measure Tg and TgAb.</label>
+<path target="cell-15">Tg &gt;1</path>
+<path target="cell-24">Tg &lt;1 and TgAb negative</path>
+<path target="cell-30">Tg &lt;1 and TgAb positive</path>
 </cell>
 <cell type="decision" id="cell-15">
 <label>Assess Tg value.</label>
+<path target="cell-20">1 &lt; Tg &lt; 5</path>
+<path target="cell-23">Tg &gt;5</path>
 </cell>
-<cell type="action" id="cell-20">
+<cell type="decision" id="cell-20">
 <label>Check Tg level after 6-12 months. Tg stable&#x002F;declining?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-22">
 <label>Long-term follow up; yearly Tg and US.</label>
 </cell>
-<cell type="action" id="cell-19">
-<label>Tg &gt;5.</label>
-</cell>
 <cell type="action" id="cell-23">
 <label>Consider radioiodine&#x002F;EBR&#x002F;surgery.</label>
 </cell>
-<cell type="action" id="cell-16">
-<label>Tg &lt;1 and TgAb negative.</label>
-</cell>
 <cell type="decision" id="cell-24">
 <label>Tg-stimulation with recombinant TSH at 1 year.</label>
+<path target="cell-23">Tg &gt;5</path>
+<path target="cell-27">2 &lt; Tg &lt; 5</path>
+<path target="cell-29">Tg &lt;2</path>
 </cell>
-<cell type="action" id="cell-27">
+<cell type="decision" id="cell-27">
 <label>Check Tg level after 6-12 months. Tg stable&#x002F;declining?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-29">
 <label>Disease free.</label>
+<path target="cell-22"></path>
 </cell>
 <cell type="action" id="cell-30">
 <label>Follow neck US, TgAb levels.</label>
+<path target="cell-29">Tg &lt;2</path>
 </cell>
 <footnotes>
 <footnote>Adapted from Cooper DS, Doherty GM, Haugen BR, et al.; for the American Thyroid Association Guidelines Taskforce. Management guidelines for patients with thyroid nodules and differentiated thyroid cancer. <em>Thyroid</em> 2006;<strong>16</strong>:109&#x2013;141. Available at <resourceLink href="http://www.rcplondon.ac.uk/pubs/contents/f33a5762-6235-469e-91a5-d47d6ce6e0f6.pdf">http:&#x002F;&#x002F;www.rcplondon.ac.uk&#x002F;pubs&#x002F;contents&#x002F;f33a5762-6235-469e-91a5-d47d6ce6e0f6.pdf</resourceLink>.<xref ref="pubmed20028902" resource="acc019" />

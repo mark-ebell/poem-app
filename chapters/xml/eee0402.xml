@@ -680,20 +680,25 @@
 <graphic href="eee0402-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with anterior knee pain. Perform directed history and physical. Other causes of knee pain more likely?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Patient: - over 50? - skeletally immature? - h&#x002F;o trauma or surgery? - effusion? - failing conservative treatment? - suspected bipartite patella?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Diagnose and treat patellofemoral pain syndrome.</label>
 </cell>
 <cell type="action" id="cell-5">
 <label>Consider radiographs.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Abnormality found?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Further evaluation and treatment for other causes of knee pain.</label>

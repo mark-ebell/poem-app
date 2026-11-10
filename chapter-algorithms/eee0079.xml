@@ -1,0 +1,42 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>031.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suggested Evaluation of the Patient with Suspected Muscular Dystrophy.</title>
+<graphic href="eee0079-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Duchenne muscular dystrophy suspected (delayed or lost developmental milestones, abnormal posture or gait, muscle weakness or Gowers sign)</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Is creatine kinase level elevated?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider alternate diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Does peripheral blood DNA analysis and&#x002F;or muscle biopsy staining reveal deficient or defective dystrophin?</label>
+<path target="cell-3">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Duchenne muscular dystrophy confirmed.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Treatment oriented toward general, respiratory, cardiovascular, and musculoskeletal care (see <xref ref="table001" />).</label>
+</cell>
+<footnotes>
+<footnote>Data from Sarnat HB. Muscular dystrophies. In Eds. Behrman RE, Kliegman RM, Jenson HB. Nelson Textbook of Pediatrics. 17th Ed. 2003. New York: Elsevier Science.<xref ref="book9780721695563" />
+</footnote>
+<footnote>Verschuuren JJ, Dalmau J, Tunkel R, et al. Antibodies against the calcium channel beta-subunit in Lambert-Eaton myasthenic syndrome. <em>Neurology</em> 1998;<strong>50</strong>:475-479.<xref ref="pubmed2927672" resource="acc009" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -15,6 +15,6 @@ for ch,fig,ncell,img,title in todo[:n]:
     a=re.search(r'<algorithm\b[^>]*\bid="%s"[\s\S]*?</algorithm>'%fig,xml).group(0)
     print(f'== {ch} {fig} {img} | {title}')
     for c in re.findall(r'<cell\b[^>]*>[\s\S]*?</cell>',a):
-        cid=re.search(r'id="cell-(\d+)"',c).group(1); typ=re.search(r'type="([^"]*)"',c).group(1)[0]
+        cid=(re.search(r"id=\"cell-(\d+)\"",c) or re.search(r"id=\"([^\"]*)\"",c)).group(1); typ=re.search(r'type="([^"]*)"',c).group(1)[0]
         lab=re.sub(r'<[^>]+>','',(re.search(r'<label>([\s\S]*?)</label>',c) or [None,''])[1]); lab=html.unescape(re.sub(r'\s+',' ',lab)).strip()
         print(f' {cid}{typ} {lab[:70]}')

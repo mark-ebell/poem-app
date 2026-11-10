@@ -676,27 +676,38 @@
 <graphic href="eee0413-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Presenting signs&#x002F;symptoms suggestive of TOS</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Physical examination shows severe neurologic signs, muscle wasting, or venous or arterial blockage?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Refer for specialty evaluation and management.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Two or more provocative maneuvers positive (see <xref ref="table001" />).</label>
+<path target="cell-5">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Evaluate further with chest and cervical x-rays to rule out cervical rib or bony lesion. Abnormality relating to symptoms seen on plain film?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Symptoms mild, position dependent, and tolerable?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consult with specialty service for further management. Consider alternative diagnoses. Consider addition of the following: (1) Advanced imaging with MRI of the cervicothoracic spine from C4 to T5. (2) Electrodiagnostic studies to assist with ruling out alternative diagnoses. (3) Upper extremity Doppler study for evaluation of vascular symptoms. (4) Anterior scalene block to evaluate symptom relief and potential for surgical correction.</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Refer for conservative treatment with 6-8 wk of physical therapy. Relief of symptoms?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Follow-up in 6 mo.</label>

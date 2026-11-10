@@ -808,30 +808,42 @@
 <graphic href="eee0599-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected opioid overdose. Also consider hypoglycemia, stroke, and co-ingestion of other abused drugs. Assess respiratory rate and oxygenation.</label>
-<path target="cell-2"> Apnea</path>
-<path target="cell-3"> RR &lt;10 SpO<sub>2</sub> &lt;92&#x0025; RA</path>
-<path target="cell-4"> Respiratory rate (RR) &#x2265;10 SpO<sub>2</sub> &#x2265;92&#x0025; respiratory airflow (RA)</path>
+<path target="cell-2">Apnea</path>
+<path target="cell-3">RR &lt;10, SpO2 &lt;92% on room air</path>
+<path target="cell-4">RR ≥10, SpO2 ≥92% on room air</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Bag-mask ventilation with supplemental O<sub>2</sub>. Give naloxone 0.1 mg IV boluses (or 0.4 IM or 0.8 SC if no IV access) with escalating dose titration until RR &#x2265;10. Long- or short-acting opioid?</label>
+<path target="cell-5">Long-acting opioid</path>
+<path target="cell-7">Short-acting opioid</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Consider IV naloxone at 2&#x002F;3 of effective bolus dose&#x002F;hour. Admit and continue for 12-24 hours. If RR &lt;10 after 10 mg administered, consider alternative diagnosis.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Naloxone 0.05 mg IV boluses (or 0.4 IM or 0.8 SC if no IV access) until RR &#x2265;10. Success?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>If RR &lt;10 after 10 mg administered, consider alternative diagnosis.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Observe at least 2 hours prior to discharge. Worsening respiratory status or recurrence?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Observe at least 2 hours. Worsening respiratory status?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider discharge with close follow-up versus continued observation.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Repeat naloxone boluses as above until RR ≥10.</label>
 </cell>
 </algorithm>
 </algorithm_group>

@@ -369,39 +369,52 @@
 <graphic href="eee0136-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Sodium &gt;145 mEq&#x002F;L and serum Osmolality &gt;290 mOsm&#x002F;kg</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Check volume status and order urine osmolality, urine sodium, and serum glucose</label>
+<path target="cell-6">Increased (hypervolemic)</path>
+<path target="cell-8">Normal (euvolemic)</path>
+<path target="cell-14">Decreased (hypovolemic)</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Hypertonic sodium gain, causes include, hypertonic IV fluids, salt ingestion, and primary hyperaldosteronism</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Treat underlying cause, give diuretics, and free water repletion</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Pure water loss: check urine osmolality</label>
+<path target="cell-11">&lt;700 mOsm/kg</path>
+<path target="cell-13">&gt;700 mOsm/kg</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Renal water loss: diabetes insipidus</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Replace free water; oral route preferred; IV solution of choice is 5&#x0025; dextrose in water</label>
 </cell>
 <cell type="action" id="cell-13">
 <label>Extrarenal water loss: hypodipsia and&#x002F;or insensible losses</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Hypotonic fluid loss: check urine osmolality and urine sodium. Urine osmolality &lt;700 mOsm&#x002F;kg Urine sodium &gt;20 mEq&#x002F;L</label>
+<path target="cell-17">Yes</path>
+<path target="cell-19">No</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Renal hypotonic losses: diuretics (osmotic) or postobstructive diuresis</label>
+<path target="cell-18"></path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Replace free water; isotonic fluids if hypotensive; otherwise use hypotonic fluids (0.45&#x0025; saline)</label>
 </cell>
 <cell type="action" id="cell-19">
 <label>Extrarenal hypotonic loss: skin or gastrointestinal (lactulose)</label>
+<path target="cell-18"></path>
 </cell>
 </algorithm>
 </algorithm_group>

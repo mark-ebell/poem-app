@@ -560,30 +560,40 @@
 <graphic href="eee0137-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Hypercalcemia (corrected for serum albumin: serum Calcium - [(4.0 - serum albumin) * 0.8] )</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Any secondary cause (thiazides, lithium, excess calcium intake, evidence of chronic kidney disease, etc. ) ?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Stop offending agent and retest in 2 to 3 weeks</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Measure intact PTH</label>
+<path target="cell-5">Normal or low</path>
+<path target="cell-6">High</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Not PHPT, consider: malignancy milk-alkali syndrome chronic kidney disease vitamin D excess</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Measure 24-hour urine calcium and creatinine excretion</label>
+<path target="cell-7">Ca:Cr ratio ≤0.01</path>
+<path target="cell-8">Ca:Cr ratio &gt;0.01</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Familial hypocalciuric hypercalcemia (PTH can be normal)</label>
 </cell>
 <cell type="action" id="cell-8">
 <label>Primary hyperparathyroidism</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Less than 50 years old? Symptomatic? Serum Ca &gt; 1.0 mg&#x002F;dL above normal limit? Urinary Ca excretion &gt; 400 mg&#x002F;day? Evidence of osteoporosis? 30&#x0025; decrease in renal function? Unable to follow-up appropriately?</label>
+<path target="cell-13">Yes to any</path>
+<path target="cell-12">No to all</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Nonoperative management</label>

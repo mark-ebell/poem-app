@@ -488,24 +488,33 @@
 <graphic href="eee0115-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with unilateral, recurrent pain and&#x002F;or swelling in salivary gland associated with eating</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Stone palpable or visible in salivary gland or duct?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
-<cell type="action" id="cell-3">
+<cell type="decision" id="cell-3">
 <label>Confirmed sialolithiasis</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Appropriate treatment</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Affected region?</label>
+<path target="cell-6">Submandibular</path>
+<path target="cell-7">Parotid</path>
 </cell>
-<cell type="action" id="cell-6">
+<cell type="decision" id="cell-6">
 <label>Plain radiographs (intraoral or occlusal views and&#x002F;or AP view with open mouth)</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Confirmed sialolithiasis?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Appropriate treatment</label>

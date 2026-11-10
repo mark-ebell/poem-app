@@ -432,38 +432,52 @@
 <graphic href="eee0370-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>History of recent trauma?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Cremasteric reflex present?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Manual detorsionresulting in immediate relief of pain?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Urologic consultation to consider future orchiopexy.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Doppler ultrasound or scintigraphy readily available (i.e., would not delay surgery beyond 6 hrs from onset)?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Emergent urologic consultation for suspected torsion.</label>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Increased flow (Doppler) or increased uptake (scintigraphy)?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Pursue further testing or treatment of condition (orchitis&#x002F;epididymitis, etc.).</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Asymmetric testes, or a horizontal lie?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-11">No</path>
 </cell>
-<cell type="action" id="cell-11">
+<cell type="decision" id="cell-11">
 <label>Other findings suggestive of a diagnosis other than torsion?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Pain significantly improved or resolved after one hour?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Likely simple trauma; ice, anti-inflammatories.</label>

@@ -1,0 +1,71 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>009.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Hyperthyroidism: Diagnosis.</title>
+<graphic href="eee0139-w0001.gif" />
+<cell type="decision" id="cell-2">
+<label>Measure TSH.</label>
+<path target="cell-3">Low TSH</path>
+<path target="cell-4">Normal TSH</path>
+<path target="cell-5">Elevated TSH</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Measure free thyroxine (T4).</label>
+<path target="cell-6">Normal or low</path>
+<path target="cell-7">High</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Measure free T3.</label>
+<path target="cell-8">Low/normal</path>
+<path target="cell-9">High</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Low&#x002F;normal; subclinical hyperthyroidism: Follow clinically and repeat TSH, free T4, and free T3 in 6 months.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>High; T3 thyrotoxicosis.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Order thyroid uptake.</label>
+<path target="cell-10">Low</path>
+<path target="cell-11">Diffuse hyperfunction</path>
+<path target="cell-12">Focal areas of hyperfunction</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Low; subacute thyroiditis; exogenous hormone Iodine exposure; ectopic production.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Diffuse hyperfunction; Graves' disease.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Focal areas of hyperfunction; toxic MNG; toxic adenoma.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Normal TSH; consider alternate diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Measure free T4.</label>
+<path target="cell-13">High</path>
+<path target="cell-14">Low/normal</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>High; secondary hyperthyroidism: order pituitary imaging.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Low&#x002F;normal; subclinical hypothyroidism: follow clinically and repeat TSH and free T4 in 6 months and then annually.</label>
+</cell>
+<cell type="start" id="cell-1">
+<label>Signs and symptoms of hyperthyroidism</label>
+<path target="cell-2"></path>
+</cell>
+<footnotes>
+<footnote>Signs and symptoms of hyperthyroidism</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

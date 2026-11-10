@@ -1,0 +1,30 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Diabetes Mellitus (Type 2): Treatment.</title>
+<graphic href="eee0127-w001.gif" />
+<cell type="start" id="cell-1">
+<label>All patients with type 2 diabetes: smoking cessation; blood pressure control (&lt;140/90, possibly &lt;130/80); lipid lowering with a moderate- or high-intensity statin; metformin (independent of blood sugars, especially if obese)</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Strongly consider aspirin (if cardiovascular disease and at low risk of bleeding) and an ACE inhibitor (even if normotensive)</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Additional treatment goal: reasonable blood glucose control</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: ACE, angiotensin-converting enzyme; LDL, low-density lipoprotein.</footnote>
+<footnote>a {POEM 730}.</footnote>
+<footnote>b {Hovens et al. Cochrane protocol}.</footnote>
+<footnote>c {POEM 20356}.</footnote>
+<footnote>d {Cochrane 6257}.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

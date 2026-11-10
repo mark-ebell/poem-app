@@ -652,20 +652,26 @@
 <graphic href="eee0548-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Infant with acute excessive crying. Perform history and physical examination. Cause identified?</label>
-<path target="cell-2"> No </path>
-<path target="cell-3"> Yes </path>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Obtain UA and urine culture.</label>
+<path target="cell-5">Abnormal</path>
+<path target="cell-4">Normal</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Assess pattern, observe 1-2 hours.</label>
+<path target="cell-9">Crying ceases spontaneously</path>
+<path target="cell-10">Crying persists</path>
+<path target="cell-12">History of recurrent episodes consistent with colic</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Follow 24 hours in hospital or at home; consider idiopathic crying episode.</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Consider: radiologic studies, chemistry tests, pulse oximetry, toxicology tests, and&#x002F;or lumbar puncture based on history and physical.</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Continue observation, in hospital, until crying stops or diagnosis made.</label>

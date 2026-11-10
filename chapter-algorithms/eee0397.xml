@@ -1,0 +1,78 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>099.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Evaluation and Management of Osteochondritis Dissecans of the Knee.</title>
+<graphic href="eee0397-w0001.gif" />
+<cell type="start" id="cell-4">
+<label>Suspected OCD of knee. Obtain posteroanterior, lateral, and tunnel-view radiographs.</label>
+<path target="cell-7">OCD lesion diagnosed</path>
+<path target="cell-6">Negative</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Obtain radiographs of contralateral knee and MRI to determine stage of lesion.</label>
+<path target="cell-12">Stage I or stage II (low-signal rim)</path>
+<path target="cell-20">Stage III (high-signal rim)</path>
+<path target="cell-26">Stage IV (loose body)</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Open physis?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Prognosis good.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Prognosis fair.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Conservative measures: Stop competitive sports for 6 to 8 weeks. Low-intensity physical rehabilitation Goal: symptom-free activities of daily living.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Follow clinically at 3-month intervals.</label>
+<path target="cell-19">Improved</path>
+<path target="cell-25">Not improved</path>
+</cell>
+<cell type="action" id="cell-19">
+<label>Discharge patient to self-monitoring of symptoms.</label>
+</cell>
+<cell type="action" id="cell-25">
+<label>Failure to improve, symptoms worsen or crepitus develops.</label>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Open physis?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-23">No</path>
+</cell>
+<cell type="action" id="cell-22">
+<label>Prognosis good.</label>
+<path target="cell-24"></path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Prognosis fair.</label>
+<path target="cell-24"></path>
+</cell>
+<cell type="action" id="cell-24">
+<label>Orthopedic referral for arthroscopy to evaluate overlying cartilage.</label>
+<path target="cell-25"></path>
+</cell>
+<cell type="action" id="cell-26">
+<label>Orthopedic referral for arthroscopy or open removal.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Search for other cause of knee pain.</label>
+</cell>
+<footnotes>
+<footnote>From Hixon AL, Gibbs LM. Osteochondritis dissecans: a diagnosis not to miss. <em>Am Fam Physician</em> 2000;<strong>61</strong>:151&#x2013;158.<xref ref="pubmed10643956" resource="acc006" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

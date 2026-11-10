@@ -1,0 +1,150 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>229.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Asymptomatic Mitral Stenosis: Management.<xref ref="pubmed28315732" resource="acc026" />
+</title>
+<graphic href="eee0041-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Asymptomatic patient with mitral stenosis. Perform history, physical examination, CXR, ECG, 2D Doppler echocardiogram. MVA?</label>
+<path target="cell-4">MVA &gt;1.5 cm² (mild)</path>
+<path target="cell-5">MVA 1.5 cm² or less (moderate or severe)</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Yearly follow-up, history, physical examination, CXR, ECG.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Valve morphology favorable for PMBV?</label>
+<path target="cell-4">No</path>
+<path target="cell-6">Yes</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>PASP &#x003E;50 mm Hg?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Poor exercise tolerance or PASP &#x003E;60 mm Hg or PAWP &#x2265;25 mm Hg?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>New-onset AF?</label>
+<path target="cell-4">No</path>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider PMBV. Exclude LA clot 3+ to 4+ MR.</label>
+</cell>
+<footnotes>
+<footnote>Bonow RO, Carabello B, de Leon AC Jr, et al. Guidelines for the management of patients with valvular heart disease: executive summary. A report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines (Committee on Management of Patients with Valvular Heart Disease). <em>Circulation</em> 1998;<strong>98</strong>:1949-1984.<xref ref="pubmed9799219" resource="acc005" /> Abbreviations: AF, atrial fibrillation; LA, left atrium; MR, mitral regurgitation; MVA, mitral valve area; PASP, pulmonary artery systolic pressure; PAWP, pulmonary artery wedge pressure; PMBV, percutaneous mitral balloon valvotomy.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>229.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Mitral Stenosis with Mild Symptoms: Management.</title>
+<graphic href="eee0041-w0002.gif" />
+<cell type="start" id="cell-10">
+<label>Symptomatic Mitral Stenosis NYHA Functional Class II. Perform history, physical examination, CXR, ECG, 2D Doppler echocardiogram. MVA?</label>
+<path target="cell-13">MVA &gt;1.5 cm²</path>
+<path target="cell-19">Moderate or severe stenosis, MVA 1.5 cm² or less</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Exercise.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>PASP &gt;60 mm Hg, PAWP 25 mm Hg or more, or MVG &gt;15 mm Hg?</label>
+<path target="cell-15">No</path>
+<path target="cell-16">Yes</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Yearly follow-up.</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Valve morphology favorable for PMBV?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="action" id="cell-17">
+<label>6-month follow-up.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Consider PMBV. Exclude LA clot, 3+ to 4+ MR.</label>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Valve morphology favorable for PMBV?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-20">No</path>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Severe pulmonary hypertension (PAP &gt;60–80 mm Hg)?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-22">No</path>
+</cell>
+<cell type="action" id="cell-21">
+<label>Consider commissurotomy or MVR.</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>6-month follow-up.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: LA, left atrium; MR, mitral regurgitation; MVA, mitral valve area; MVG, mean mitral valve pressure gradient; NYHA, New York Heart Association; PAP, pulmonary artery pressure; PASP, Pulmonary artery systolic pressure; PAWP, pulmonary artery wedge pressure; PH, pulmonary hypertension; PMBV, percutaneous mitral balloon valvotomy.</footnote>
+<footnote>Adapted from the 2014 AHA&#x002F;ACC guideline for the management of patients with valvular heart disease: executive summary: a report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines.J. Am. Coll. Cardiol.2014 </footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig003">
+<meta>
+<id>229.4</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Mitral Stenosis with Moderate-to-Severe Symptoms: Management.</title>
+<graphic href="eee0041-w0003.gif" />
+<cell type="start" id="cell-23">
+<label>Symptomatic Mitral Stenosis NYHA Functional Class III-IV. Perform history, physical examination, CXR, ECG, 2D Doppler echocardiogram. MVA?</label>
+<path target="cell-26">MVA &gt;1.5 cm²</path>
+<path target="cell-29">Moderate or severe stenosis, MVA 1.5 cm² or less</path>
+</cell>
+<cell type="action" id="cell-26">
+<label>Exercise.</label>
+<path target="cell-27"></path>
+</cell>
+<cell type="decision" id="cell-27">
+<label>PASP &gt;60 mm Hg, PAWP 25 mm Hg or more, or MVG &gt;15 mm Hg?</label>
+<path target="cell-29">Yes</path>
+<path target="cell-28">No</path>
+</cell>
+<cell type="action" id="cell-28">
+<label>Look for other causes.</label>
+</cell>
+<cell type="decision" id="cell-29">
+<label>Valve morphology favorable for PMBV?</label>
+<path target="cell-30">No</path>
+<path target="cell-31">Yes</path>
+</cell>
+<cell type="decision" id="cell-30">
+<label>High-risk surgical candidate?</label>
+<path target="cell-31">Yes</path>
+<path target="cell-32">No</path>
+</cell>
+<cell type="action" id="cell-32">
+<label>Mitral valve repair or MVR.</label>
+</cell>
+<cell type="action" id="cell-31">
+<label>Consider PMBV. Exclude LA clot, 3+ to 4+ MR.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: LA, left atrium; MR, mitral regurgitation; MVA, mitral valve area; MVG, mean mitral valve pressure gradient; NYHA, New York Heart Association; PAP, pulmonary artery pressure; PASP, Pulmonary artery systolic pressure; PAWP, pulmonary artery wedge pressure; PMBV, percutaneous mitral balloon valvotomy.</footnote>
+<footnote>Adapted from the 2014 AHA&#x002F;ACC guideline for the management of patients with valvular heart disease: executive summary: a report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines.J. Am. Coll. Cardiol.2014 </footnote>
+</footnotes>
+</algorithm>
+</algorithms>

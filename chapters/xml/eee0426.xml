@@ -2197,27 +2197,39 @@
 <graphic href="eee0426-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Alzheimer&#x2019;s suspected (reliable informant reports memory impairment or patient complaint). Perform history and physical, including medications, neurological exam, mental status, functional status.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Any evidence of delirium, psychiatric disease, medical disease, which could mimic AD?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>Perform cognitive test such as Mini-Mental Status Exam, Mini-COG, MoCA, Clock-Drawing Test or <xref ref="rule252" resource="acc013">the Memory Impairment Screen; can have caregiver answer AD8 questions for the patient</xref>. Does patient demonstrate both cognitive&#x002F;memory deficits and significant functional impairment?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Observe carefully over time; at risk for dementia.</label>
 </cell>
-<cell type="action" id="cell-8">
+<cell type="decision" id="cell-8">
 <label>Diagnosis of dementia. Apply DSM-5 clinical criteria; determine if presentation fits best with AD or other forms of dementia: Vascular, Lewy Body, or Creutzfeldt-Jakob.</label>
+<path target="cell-11">Other dementia</path>
+<path target="cell-10">Alzheimer's</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Work up other dementia as appropriate.</label>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Order B12, TSH&#x002F;T4, and PET, MRI, or CT head.</label>
+<path target="cell-13">Abnormal</path>
+<path target="cell-12">Normal except atrophy</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Mild, moderate, or severe disease?</label>
+<path target="cell-14">Mild</path>
+<path target="cell-16">Moderate</path>
+<path target="cell-15">Severe</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Consider trial of cholinesterase inhibitor for either mild or moderate functional impairment. Note high cost ($111&#x002F;month for donepezil 10 q day) with modest benefit. Patients with mild impairment may drive, if they pass the driving test; they can usually live at home, with part-time help.</label>
@@ -2230,12 +2242,16 @@
 </cell>
 <cell type="decision" id="cell-13">
 <label>Correct abnormalities as possible. Symptoms improve or resolve?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-17">
 <label>Follow clinically.</label>
 </cell>
-<cell type="action" id="cell-5">
+<cell type="decision" id="cell-5">
 <label>Treat: delirium&#x002F;psychiatric or medical disease. Are memory and functional impairments resolved?</label>
+<path target="cell-4">No</path>
+<path target="cell-19">Yes</path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Follow clinically.</label>

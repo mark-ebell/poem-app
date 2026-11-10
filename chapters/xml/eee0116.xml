@@ -910,67 +910,40 @@
 <title>Acute Adult Sinusitis: Management.</title>
 <graphic href="eee0116-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Signs &amp; symptoms either:<list style="a">
-<listitem>Persistent &amp; not improving (&#x2265;10 days);</listitem>
-<listitem>Severe (&#x2265;3-4 days); or</listitem>
-<listitem>Worsening or "double-sickening" (&#x2265;3-4 days)</listitem>
-</list>
-</label>
+<label>Signs and symptoms either persistent and not improving (10 days or more), severe (3–4 days or more), or worsening or "double-sickening" (3–4 days or more). Risk for antibiotic resistance (age under 2 or over 65, daycare, antibiotics in the past month, hospitalization in the past 5 days, comorbidities, immunocompromise)?</label>
+<path target="cell-27">In all patients</path>
+<path target="cell-4">No risk for resistance</path>
+<path target="cell-3">Risk for resistance</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Initiate second-line antimicrobial therapy</label>
+<path target="cell-10">Improvement after 3–5 days</path>
+<path target="cell-9">Worsening or no improvement after 3–5 days</path>
 </cell>
 <cell type="action" id="cell-27">
 <label>Symptomatic management</label>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>Initiate first-line antimicrobial therapy</label>
-</cell>
-<cell type="action" id="cell-5">
-<label>Improvement after 3-5 days</label>
-</cell>
-<cell type="action" id="cell-6">
-<label>Worsening or no improvement after 3-5 days</label>
-</cell>
-<cell type="action" id="cell-7">
-<label>Improvement after 3-5 days</label>
+<path target="cell-8">Improvement after 3–5 days</path>
+<path target="cell-9">Worsening or no improvement after 3–5 days</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Complete 5-7 days of antimicrobial therapy</label>
 </cell>
-<cell type="action" id="cell-9">
+<cell type="decision" id="cell-9">
 <label>Broaden coverage or switch to different antimicrobial class</label>
+<path target="cell-14">Improvement</path>
+<path target="cell-16">Worsening or no improvement after 3–5 days</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Complete 7-10 days of antimicrobial therapy</label>
 </cell>
-<cell type="action" id="cell-11">
-<label>Improvement</label>
-</cell>
-<cell type="action" id="cell-12">
-<label>Worsening or no improvement after 3-5 days</label>
-</cell>
-<cell type="action" id="cell-13">
-<label>Improvement</label>
-</cell>
 <cell type="action" id="cell-14">
-<label>Complete 5-7 days of antimicrobial theraphy
-<list style="bulleted">
-<listitem>CT or MRI to investigate noninfectious causes or suppurative complications</listitem>
-<listitem>Sinus or meatal cultures for pathogen-specific theraphy</listitem>
-</list>
-</label>
+<label>Complete 5–7 days (first-line) or 5–10 days (second-line) of antimicrobial therapy</label>
 </cell>
 <cell type="action" id="cell-16">
-<label>Complete 5-10 days of antimicrobial theraphy
-<list style="bulleted">
-<listitem>Age &lt;2 or &gt;65, daycare</listitem>
-<listitem>Prior antibiotics within the past month</listitem>
-<listitem>Prior hospitalization past 5 days</listitem>
-<listitem>comorbidities</listitem>
-<listitem>Immunocompromised</listitem>
-</list>
-</label>
+<label>Refer to specialist: CT or MRI to investigate noninfectious causes or suppurative complications; sinus or meatal cultures for pathogen-specific therapy</label>
 </cell>
 <footnotes>
 <footnote>Risk for antibiotic resistance</footnote>

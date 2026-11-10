@@ -1,0 +1,63 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>118</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Tinnitus: Management.</title>
+<graphic href="eee0118-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Tinnitus. Perform history and physical, and audiometry. Subjective or objective? tinnitus?</label>
+<path target="cell-2">Subjective</path>
+<path target="cell-3">Objective</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Unilateral tinnitus, bilateral tinnitus, or trauma?</label>
+<path target="cell-4">Unilateral</path>
+<path target="cell-5">Trauma</path>
+<path target="cell-6">Bilateral</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Abnormal ear examination?</label>
+<path target="cell-7">No</path>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Order MRI.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider cerumen impaction or infection.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Treat as appropriate.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Hearing loss?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider otosclerosis, presbycusis, ototoxicity.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider metabolic causes, psychogenic tinnitus, ototoxicity.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Pulsatile tinnitus?</label>
+<path target="cell-11">No</path>
+<path target="cell-12">Yes</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Consider palatal myoclonus, stapedial muscle spasm, patulous Eustachian tube. Order MRI.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider vascular etiology - order CT&#x002F;MRA</label>
+</cell>
+<footnotes>
+<footnote>From Collins RD. Algorithmic Diagnosis of Symptoms and Signs: A Cost-effective Approach. 2d ed. Philadelphia: Lippincott Williams and Wilkins, 2003: 568-569.<xref ref="book1" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

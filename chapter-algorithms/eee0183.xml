@@ -1,0 +1,69 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>119</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suggested Algorithm for Lower Gastrointestinal Bleeding.</title>
+<graphic href="eee0183-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Hematochezia. Initial evaluation, resuscitation, and stabilization.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Nasogastric tube aspiration.</label>
+<path target="cell-5">No blood</path>
+<path target="cell-6">Blood</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Colonoscopy.</label>
+<path target="cell-11">Source identified</path>
+<path target="cell-12">Source not identified</path>
+<path target="cell-13">Colonoscopy not possible</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Treat as indicated.</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Bleeding persists.</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Small bowel studies.</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Radionuclide imaging.</label>
+<path target="cell-15">Positive</path>
+<path target="cell-17">Negative</path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Bleeding Persists.</label>
+<path target="cell-15">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Small bowel studies.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Arteriography with embolization or vasopressin.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Surgical consultation.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>EGD.</label>
+<path target="cell-5">Negative</path>
+<path target="cell-7">Positive</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Upper GI source.</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Zuccaro G Jr. Management of the adult patient with acute lower gastrointestinal bleeding. American College of Gastroenterology. Practice Parameters Committee. <em>Am J Gastroenterol</em> 1998;<strong>93</strong>:1202&#x2013;1208.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

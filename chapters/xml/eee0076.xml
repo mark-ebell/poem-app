@@ -986,11 +986,13 @@
 <graphic href="eee0076-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Family history of Marfan syndrome (see <xref ref="table001" />)?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Meets any of the following: ectopia lentis; multiple systemic features (see <xref ref="table001" />); or a dilated aortic root (if over 20 years, greater than two standard deviations; if younger than 20, greater than three standard deviations)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Does not meet diagnostic standard, consider alternate diagnosis</label>
@@ -1000,6 +1002,8 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Meets any of the following: a dilated aortic root (&#x2265;two standard deviations above the mean for age, sex, and body surface area) and ectopia lentis; a dilated aortic root and a mutation in FBN1 that is clearly pathologic; a dilated aortic root and multiple systemic features (see <xref ref="table001" />); or ectopia lentis and a mutation in FBN1 that has previously been associated with aortic disease?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Does not meet diagnostic standard, consider alternate diagnosis</label>

@@ -1,0 +1,78 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>170</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Hyperkalemia.</title>
+<graphic href="eee0134-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Is potassium elevated?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Stop.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Is elevation real?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Stop.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Is potassium level more than 6.0 mEq&#x002F;L (6.0 mmol&#x002F;L), or are electrocardiograph (ECG) changes present?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Proceed with evaluation.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Patient requires emergency potassium reduction.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>ECG abnormal?</label>
+<path target="cell-9">No</path>
+<path target="cell-10">Yes</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Give insulin with glucose and&#x002F;or albuterol (Ventolin) by nebulizer.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Order tests: spot urine potassium, osmolality, creatinine.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Is potassium less than 6.0 mEq&#x002F;L?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Repeat insulin and glucose; consider hemodialysis.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Give sodium polystyrene sulfonate (Kayexalate) or furosemide (Lasix).</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Further evaluation and long-term therapy.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Give calcium gluconate intravenously.</label>
+<path target="cell-9"></path>
+</cell>
+<footnotes>
+<footnote>From Hollander-Rodriguez JC, Calvert JF, Jr. Hyperkalemia. <em>Am Fam Physician</em> 2006;<strong>73</strong>:283&#x2013;290.<xref ref="pubmed16445274" resource="acc009" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

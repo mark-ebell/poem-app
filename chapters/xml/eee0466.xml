@@ -929,14 +929,18 @@
 <graphic href="eee0466-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Assess fetal lie with Leopold's maneuvers starting at 34 weeks' gestation</label>
-<path target="cell-2"> Breech </path>
-<path target="cell-3"> Vertex </path>
+<path target="cell-2">Breech</path>
+<path target="cell-3">Vertex</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Consider moxibustion therapy.</label>
+<path target="cell-6">Persistent breech</path>
+<path target="cell-9">Conversion to cephalic presentation</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Offer version beginning at 34-35 weeks' gestation.</label>
+<path target="cell-7">Unsuccessful</path>
+<path target="cell-8">Successful</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Planned cesarean delivery.</label>

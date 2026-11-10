@@ -707,11 +707,16 @@
 <graphic href="eee0594-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Is patient at high risk, low risk with symptoms, or is screening mandated by law*?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Draw blood lead level.</label>
+<path target="cell-5">&lt;10 mcg/dL</path>
+<path target="cell-7">10-19 mcg/dL</path>
+<path target="cell-9">20-44 mcg/dL</path>
+<path target="cell-11">45-69 mcg/dL</path>
+<path target="cell-13">≥70 mcg/dL</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>No further evaluation needed.</label>

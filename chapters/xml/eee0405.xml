@@ -527,29 +527,38 @@
 <graphic href="eee0405-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected rhabdomyolysis. Serum CK &#x003E;5x normal?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Urine myoglobin present?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Rhabdomyolysis unlikely.</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Rhabdomyolysis.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>IV hydration to ensure urine output &#x003E;250 cc&#x002F;h.</label>
+<path target="cell-6"></path>
 </cell>
-<cell type="action" id="cell-6">
+<cell type="decision" id="cell-6">
 <label>Compartment syndrome?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-7">No</path>
 </cell>
-<cell type="action" id="cell-7">
+<cell type="decision" id="cell-7">
 <label>Renal failure?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-8">No</path>
 </cell>
-<cell type="action" id="cell-8">
+<cell type="decision" id="cell-8">
 <label>Electrolyte abnormalities?</label>
+<path target="cell-11">Yes</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Orthopedic consult.</label>

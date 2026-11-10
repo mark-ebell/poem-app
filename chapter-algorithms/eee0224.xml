@@ -1,0 +1,61 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>121</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Zollinger-Ellison Syndrome: Management.</title>
+<graphic href="eee0224-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Clinical suspicion of ZES</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Serum gastrin levels (check gastrin levels when off PPI for 1 week, off H2 blockers for 1 day).</label>
+<path target="cell-6">&gt;10 times upper limit of normal (&gt;1000 pg/mL)</path>
+<path target="cell-15">Above normal but &lt;10 times upper limit of normal (&lt;1000 pg/mL)</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Measure gastric pH &#x002F; measure basal acid output (BAO)</label>
+<path target="cell-9">pH &gt;4.0 or BAO &lt;15 mEq/h</path>
+<path target="cell-10">pH &lt;4.0 or BAO &gt;15 mEq/h</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>ZES unlikely No further workup needed</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>ZES confirmed: evaluate for MEN 1 (serum calcium, prolactin, ACTH, GH, and MRI pituitary</label>
+<path target="cell-11">MEN 1</path>
+<path target="cell-12">Not MEN 1</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>If MEN 1, high-dose PPIs (surgery not recommended)</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Somatostatin receptor scintigraphy, endoscopic ultrasound, MRI Hepatic metastases?</label>
+<path target="cell-13">No hepatic metastases</path>
+<path target="cell-14">Hepatic metastases</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>High-dose PPIs + surgical exploration and tumor removal</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Good surgical candidate: PPIs &#x00B1; hepatic lobectomy. Poor surgical candidate: PPIs &#x00B1; hepatic artery embolization</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Secretin stimulation test</label>
+<path target="cell-10">Positive</path>
+<path target="cell-18">Negative (no further workup unless strong clinical suspicion for ZES)</path>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Calcium provocative test</label>
+<path target="cell-10">Positive</path>
+<path target="cell-21">Negative</path>
+</cell>
+<cell type="action" id="cell-21">
+<label>No further workup.</label>
+</cell>
+</algorithm>
+</algorithms>

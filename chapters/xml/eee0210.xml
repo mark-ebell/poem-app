@@ -364,47 +364,61 @@
 <graphic href="eee0210-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Is hyperbilirubinemia present?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Urine bilirubin present or increased serum direct bilirubin?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Conjugated hyperbilirubinemia.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Possible extrahepatic cholestasis (elevations in alkaline phosphatase and GGT or a moderate to high pretest probability)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-7">
-<label>Liver ultrasound&#x002F;CTare dilated bile dyucts seen? or is there a high pretest probability of extrahepatic obstruction?</label>
+<label>Liver ultrasound/CT: are dilated bile ducts seen, or is there a high pretest probability of extrahepatic obstruction?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-9">
-<label>Consider extrahepatic cholestasis (see <xref ref="table001" />).</label>
+<label>Consider extrahepatic cholestasis (see Table 2).</label>
 </cell>
 <cell type="action" id="cell-10">
-<label>Conjugated hyperbilitubinemia with possible hepatocellular damage (see <xref ref="table001" />).</label>
+<label>Conjugated hyperbilirubinemia with possible hepatocellular damage (see Table 2).</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Workup negative.</label>
+<path target="cell-12"></path>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-12">
-<label>If other causes are unlikely, consider Dubin-Johnson syndrome or Rotor's syndrome.</label>
+<label>If other causes are unlikely, consider Dubin-Johnson syndrome or Rotor syndrome.</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Consider repeat evaluation and observation.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Consider gastroenterology&#x002F;hepatology consult&#x002F;liver biopsy.</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Concern for intrahepatic cholestasis or hepatocellular damage (elevations in AST&#x002F;ALT)?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-5">
-<label>Unconjugated hyperbilirubinemia (urine negative for bilirubin; normal direct bilirubin; see <xref ref="table001" />).</label>
+<label>Unconjugated hyperbilirubinemia (urine negative for bilirubin; normal direct bilirubin; see Table 2).</label>
 </cell>
 <cell type="action" id="cell-3">
-<label>Pseudojaundice (normal laboratory evaluation; see <xref ref="table001" />).</label>
+<label>Pseudojaundice (normal laboratory evaluation; see Table 2).</label>
 </cell>
 </algorithm>
 </algorithm_group>

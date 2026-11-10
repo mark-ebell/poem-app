@@ -1,0 +1,47 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>231.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Male Infertility: Diagnosis.</title>
+<graphic href="eee0364-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>History, physical examination, and semen analysis &#x00D7;2. Semen analysis results?</label>
+<path target="cell-2">Normal (and no abnormality in female)</path>
+<path target="cell-3">Abnormal</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Infertility specialist referral</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Serum testosterone (T), follicle-stimulating hormone (FSH), and luteinizing hormone (LH) levels</label>
+<path target="cell-4">Decreased T, increased FSH and LH</path>
+<path target="cell-5">Normal T and LH, increased FSH</path>
+<path target="cell-6">Normal T, FSH, and LH</path>
+<path target="cell-7">Decreased T, FSH, and LH</path>
+<path target="cell-8">Increased T and LH, normal FSH</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Primary hypogonadism</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Germinal epithelium failure</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Infertility specialist referral</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Hypogonadotrophic hypogonadism</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Partial androgen resistance</label>
+<path target="cell-6"></path>
+</cell>
+</algorithm>
+</algorithms>

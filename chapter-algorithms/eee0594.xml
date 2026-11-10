@@ -1,0 +1,48 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>322</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Lead Poisoning.</title>
+<graphic href="eee0594-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Is patient at high risk, low risk with symptoms, or is screening mandated by law*?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Draw blood lead level.</label>
+<path target="cell-5">&lt;10 mcg/dL</path>
+<path target="cell-7">10-19 mcg/dL</path>
+<path target="cell-9">20-44 mcg/dL</path>
+<path target="cell-11">45-69 mcg/dL</path>
+<path target="cell-13">≥70 mcg/dL</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>No further evaluation needed.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Identify and remove environmental lead exposures, order CBC, and peripheral smear.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Avoid occupational exposures. Stabilize lead-based paint and replace building components.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Chelation therapy for children and symptomatic adults. Strict avoidance of exposures.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Hospitalization for chelation therapy and expert consultation.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>No testing indicated.</label>
+</cell>
+<footnotes>
+<footnote>*Children enrolled in state or federal health care programs may require routine screening.</footnote>
+<footnote>Adapted from Committee on Environmental Health. Screening for elevated blood lead levels. <em>Pediatrics</em> 1998;<strong>101</strong>:1072&#x2013;1078.<xref ref="pubmed9614424" resource="acc005" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

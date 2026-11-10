@@ -607,17 +607,23 @@
 <graphic href="eee0374-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Posterior heel pain Location?</label>
-<path target="cell-4"> At Achilles insertion </path>
-<path target="cell-11"> 3-4 cm above Achilles insertion </path>
+<path target="cell-4">At Achilles insertion</path>
+<path target="cell-11">3-4 cm above Achilles insertion</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>X-ray</label>
+<path target="cell-5">Fracture</path>
+<path target="cell-6">No fracture</path>
+<path target="cell-7">Haglund's deformity</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Treat stress fracture or acute fracture</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Site and type of pain</label>
+<path target="cell-8">Tender anterior to tendon or at edge of tendon</path>
+<path target="cell-9">Deep tenderness at insertion</path>
+<path target="cell-10">Superficial tenderness at insertion</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Retrocalcaneal bursitis</label>
@@ -630,12 +636,17 @@
 </cell>
 <cell type="action" id="cell-7">
 <label>Worse prognosis with conservative therapy</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Acute onset</label>
+<path target="cell-12">No</path>
+<path target="cell-13">Yes</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Tenderness at tendon neck (3-4 cm above insertion)</label>
+<path target="cell-14">No</path>
+<path target="cell-15">Yes</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Consider ultrasound and trial of conservative therapy</label>
@@ -645,6 +656,8 @@
 </cell>
 <cell type="decision" id="cell-13">
 <label>Positive Thompson test?</label>
+<path target="cell-12">No</path>
+<path target="cell-16">Yes</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Achilles tendon rupture</label>

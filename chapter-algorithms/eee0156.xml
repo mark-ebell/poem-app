@@ -1,0 +1,65 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>189</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Pheochromocytoma: Diagnosis.</title>
+<graphic href="eee0156-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Pheochromocytoma suspected. Order plasma-free metanephrines and 24-hour urine for catecholamines and metanephrines.</label>
+<path target="cell-5">Mild elevation</path>
+<path target="cell-9">High (&gt;2 times the upper limit of normal)</path>
+<path target="cell-26">Normal</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Recheck during&#x002F;after an episode.</label>
+<path target="cell-9">High</path>
+<path target="cell-8">Normal</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Evaluate for differential diagnosis of spells.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Localization. Abdominal&#x002F;pelvic CT or MRI.</label>
+<path target="cell-13">Adrenal or para-aortic mass</path>
+<path target="cell-16">Negative abdominal imaging</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Pheochromocytoma confirmed. Consider genetic testing; preoperative preparation with (alpha&#x002F;calcium channel blockers).</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Proceed to Surgical resection.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Reassess the diagnosis Consider functional imaging: 123 I-MIBG scan episode.</label>
+<path target="cell-13">Tumor found</path>
+<path target="cell-20">Negative</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Consider unusual type of pheo or malignant pheo.</label>
+<path target="cell-21"></path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>PET Scan or PET with FDG if needed.</label>
+<path target="cell-13">Tumor found</path>
+<path target="cell-24">Negative</path>
+</cell>
+<cell type="action" id="cell-24">
+<label>Consider venous sampling coupled with measurement of plasma-free metanephrines.</label>
+<path target="cell-13">Tumor found</path>
+</cell>
+<cell type="action" id="cell-26">
+<label>May stop work-up here if pretest probability was low; otherwise evaluate as for mild elevation.</label>
+</cell>
+<footnotes>
+<footnote>Consider medications that interfere with catecholamine assays, and if feasible, stop such medications prior to testing.</footnote>
+<footnote>Consider clonidine suppression test.</footnote>
+<footnote>Consider glucagon stimulation test, if index of suspicion is high.</footnote>
+<footnote>If pretest index of suspicion is low, consider incidentaloma.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

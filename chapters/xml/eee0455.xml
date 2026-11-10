@@ -665,13 +665,17 @@
 <graphic href="eee0455-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Sleep disturbance or limb complaints.</label>
-<path target="cell-2">Yes</path>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
+<cell type="decision" id="cell-2">
 <label>Meet all four diagnostic criteria for RLS (urge to move legs associated with unpleasant sensation, symptoms begin or worsen with rest or inactivity, symptoms relieved by movement, and worse or only occurring at night)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-3">No</path>
 </cell>
-<cell type="action" id="cell-5">
+<cell type="decision" id="cell-5">
 <label>Patient pregnant or on medications which may cause RLS?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Order ferritin and basic metabolic panel to rule out secondary causes.</label>
@@ -679,8 +683,10 @@
 <cell type="action" id="cell-8">
 <label>Primary RLS. Recommend exercise, discontinue possibly offending medications, and consider dopamine agonist.</label>
 </cell>
-<cell type="action" id="cell-7">
+<cell type="decision" id="cell-7">
 <label>Likely secondary RLS. Treat underlying condition. Improves RLS?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Done.</label>

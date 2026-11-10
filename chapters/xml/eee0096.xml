@@ -605,30 +605,42 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>First aid: Pinch the whole nonbony portion of the nose firmly for 15 min; tilt head forward to decrease drainage of blood down the throat. If unsuccessful, blow nose, spray with decongestant, and pinch again. Still bleeding?</label>
+<path target="cell-5">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Cautery: Look for source of bleeding. Clear view with suction, saline lavage, decongestant. Take safety precautions to avoid contamination of personnel with blood. If discrete source is seen, selectively cauterize with silver nitrate or electrocautery. Do not blindly or excessively cauterize. Still bleeding?</label>
+<path target="cell-5">No</path>
+<path target="cell-6">Yes</path>
 </cell>
-<cell type="action" id="cell-6">
+<cell type="decision" id="cell-6">
 <label>Evaluation: If diffuse or unclear source of bleeding, consider systemic causes (CBC, coagulants, consider T&amp;C), and treat causes. If coagulopathy or anticoagulants, consider fresh frozen plasma, platelets, vitamin K.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Anterior packing: Topical analgesia with 4&#x0025; cocaine, lidocaine, or tetracaine. Insert nasal tampon lubricated with antibiotic ointment or pack the anterior nasal cavity with petroleum jelly-impregnated gauze. Still bleeding?</label>
+<path target="cell-5">No</path>
+<path target="cell-8">Yes</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Posterior packing: Insertion of a commercial nasal catheter or insertion of a trimmed Foley catheter or consider hot-water irrigation. Still bleeding?</label>
+<path target="cell-10">No</path>
+<path target="cell-9">Yes</path>
 </cell>
-<cell type="action" id="cell-9">
+<cell type="decision" id="cell-9">
 <label>Surgical treatment: Selective endovascular embolization or surgical ligation of maxillary, sphenopalatine, or anterior ethmoidal artery.</label>
+<path target="cell-10"></path>
 </cell>
-<cell type="action" id="cell-10">
+<cell type="decision" id="cell-10">
 <label>Consider hospitalization for observation.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Prevention of recurrence: Moisturize ambient air, antibiotic ointment in nose, avoid nasal trauma (picking, nose-blowing, closed-mouth sneezing), and teach first aid measures.</label>
 </cell>
-<cell type="action" id="cell-3">
+<cell type="decision" id="cell-3">
 <label>Appropriate resuscitative and stabilizing measures, including IV fluids, laboratory tests, and blood.</label>
+<path target="cell-2"></path>
 </cell>
 <footnotes>
 <footnote>Data from Sadri M, Midwinter K, Ahmed A, Parker A. Assessment of safety and efficacy of arterial embolisation in the management of intractable epistaxis. <em>Eur Arch Otorhinolaryngol</em> 2006;<strong>263</strong>:560-566.<xref ref="pubmed16405276" resource="acc002" /> Feusi B, Holzmann D, Steurer J. Posterior Epistaxis: systematic review on the effectiveness of surgical therapies. <em>Rhinology</em> 2005;<strong>43</strong>:300-304.<xref ref="pubmed16491390" resource="acc006" />

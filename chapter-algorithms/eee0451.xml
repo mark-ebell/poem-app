@@ -1,0 +1,61 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>193</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Parkinson's Disease: Initial Management.</title>
+<graphic href="eee0451-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with signs and symptoms consistent with parkinsonism. Idiopathic Parkinson's disease confirmed based on clinical exam?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Functional impairment?</label>
+<path target="cell-5">No</path>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Consider immediate-release carbidopa&#x002F;L-dopa (Sinemet) or a dopamine agonist.</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Monitor for disease progression.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Disease progresses?</label>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider referral for apomorphine (Apokyn) therapy. If no improvement, refer for possible neurosurgery.</label>
+<path target="cell-19"></path>
+</cell>
+<cell type="action" id="cell-17">
+<label>If severe dyskinesia, reduce carbidopa&#x002F;levodopa (L-dopa) dose; if patient is taking controlled-release preparation, change to immediate-release; consider amantadine (Symmetrel).</label>
+</cell>
+<cell type="decision" id="cell-19">
+<label>If no improvement, refer for possible neurosurgery.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>If motor complications, fractionate carbidopa&#x002F;L-dopa therapy five times, a day, and consider adding a dopamine agonist, MAO-B inhibitor, or COMT inhibitor. If severe, consider referral for apomorphine (Apokyn) therapy.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-10">
+<label>If disease progresses, increase immediate-release carbidopa&#x002F;L-dopa dose or increase dopamine agonist to the maximum tolerated dose and then add carbidopa&#x002F;levodopa.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Consider CT or MRI to rule out normal pressure hydrocephalus or a vascular cause; consider referral to a subspecialist.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: COMT, catechol O-methyltransferase; MAO-B, monoamine oxidase-B.</footnote>
+<footnote>From Rao SS, Hofmann LA, Shakil A. Parkinson's disease: diagnosis and treatment. <em>Am Fam Physician</em> 2006;<strong>15</strong>(74):2046-2054.<xref ref="pubmed17186710" resource="acc005" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -830,33 +830,44 @@
 <graphic href="eee0258-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with anemia, MCV &lt;95</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Check ferritin level</label>
+<path target="cell-12">Ferritin ≤45 ng/mL (LR+ 11)</path>
+<path target="cell-7">Ferritin 46 to 99 ng/mL (LR+ 0.5)</path>
+<path target="cell-17">Ferritin ≥100 ng/mL (LR+ 0.1)</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Order TIBC, serum Fe, transferrin saturation</label>
+<path target="cell-12">Increased TIBC, decreased Fe, decreased transferrin saturation</path>
+<path target="cell-9">Any other result</path>
+<path target="cell-17">Decreased TIBC, increased Fe, increased transferrin saturation</path>
 </cell>
 <cell type="action" id="cell-9">
-<label>Order TfR</label>
+<label>Order TfR.</label>
+<path target="cell-12">Increased TfR</path>
+<path target="cell-10">Any other result</path>
+<path target="cell-17">Decreased TfR</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Iron deficiency anemia</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Treatment algorithm for iron deficiency anemia</label>
 </cell>
 <cell type="decision" id="cell-10">
 <label>If suspicion persists, may consider bone marrow biopsy for definitive diagnosis</label>
+<path target="cell-12">Low bone marrow iron</path>
+<path target="cell-16">Normal bone marrow iron</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Workup for other causes of anemia</label>
 </cell>
-<cell type="action" id="cell-11">
-<label>Decreased TfR</label>
-</cell>
 <cell type="action" id="cell-17">
 <label>No iron deficiency anemia</label>
+<path target="cell-16"></path>
 </cell>
 <footnotes>
 <footnote>Diagnostic algorithm for iron deficiency anemia: MCV, mean corpuscular volume; LR+, positive likelihood ratio; TIBC, total iron-binding capacity; FE, serum iron; TfR, serum transferrin receptor.</footnote>

@@ -1,0 +1,65 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>378.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Multiple Sclerosis: Diagnosis.</title>
+<graphic href="eee0447-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with neurologic symptoms. Hyperacute onset (seconds to minutes).</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Workup for other causes. Initially stroke, seizure, or migraine. If negative, consider neoplastic, infectious; see Differential Diagnosis section.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Localization to brain (unilateral weakness, vision, brainstem signs) or spinal cord (bilateral extremity weakness, sensory level, bowel&#x002F;bladder)?</label>
+<path target="cell-4">Brain</path>
+<path target="cell-5">Spinal cord</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Brain.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>MRI of brain. Demyelinating lesions?</label>
+<path target="cell-2">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Order other scan (brain or spinal cord). Apply McDonald criteria (Table 1).</label>
+<path target="cell-9">Fulfilled</path>
+<path target="cell-8">Not fulfilled</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Lumbar puncture for oligoclonal bands, IgG index, IgG synthesis rate, and cell counts.</label>
+<path target="cell-2">Hypercellular CSF (&gt;30 WBCs)</path>
+<path target="cell-9">Positive oligoclonal bands, IgG index, or IgG synthesis rate</path>
+<path target="cell-10">Normal; repeat brain MRI in 3 months</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Interval new lesions meeting McDonald criteria?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-11">Negative for new lesions</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Repeat brain MRI in 6 months and reassess for interval new lesions.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider starting disease-modifying agents including minocycline (<xref ref="table002" />).</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Spinal cord.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>MRI of cervical and thoracic spine. Demyelinating lesions?</label>
+<path target="cell-2">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+</algorithm>
+</algorithms>

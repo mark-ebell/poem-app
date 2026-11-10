@@ -1,0 +1,89 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>387.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Esophageal Varices: Management.*</title>
+<graphic href="eee0187-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with newly diagnosed cirrhosis. Perform EGD to screen for varices. Varices present?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Compensated cirrhosis?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Repeat EGD in 3 years.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Yearly EGD.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Small varices?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Child-Pugh class (B or C; see Table 1) or presence of red wale marks?</label>
+<path target="cell-8">No</path>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Start nonselective beta-blocker and titrate to maximum tolerated dose. Consider endoscopic variceal ligation.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Start nonselective beta-blocker and titrate to maximum tolerated dose OR perform endoscopic variceal ligation.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Child-Pugh class (B or C; see Table 1) or presence of red wale marks?</label>
+<path target="cell-11">No</path>
+<path target="cell-10">Yes</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Start nonselective beta-blocker OR perform follow-up EGD in 2 years if compensated cirrhosis or yearly if decompensated cirrhosis.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Start a nonselective beta-blocker and titrate to maximum tolerated dose. No need to monitor with EGD.</label>
+</cell>
+<footnotes>
+<footnote>*Management of patients with no prior bleeding.</footnote>
+<footnote>EGD denotes esophagogastroduodenoscopy.</footnote>
+<footnote>Data from Garcia-Tsao G, Sanyal AJ, Grace ND, Carey W; Practice Guidelines Committee of the American Association for the Study of Liver Diseases, Practice Parameters Committee of the American College of Gastroenterology. Prevention and management of gastroesophageal varices and variceal hemorrhage in cirrhosis. <em>Hepatology</em> 2007;<strong>46</strong>(3):922&#x2013;938.<xref ref="pubmed21499579" resource="acc002" />
+</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>387.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Variceal Bleed: Treatment. Guideline 11370.</title>
+<graphic href="eee0187-w002.gif" />
+<cell type="start" id="cell-12">
+<label>Assess airway and manage, as indicated; establish IV access; provide volume resuscitation and blood component therapy with a goal hemoglobin of 8 g&#x002F;dL.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Give somatostatin 250 mcg IV bolus followed by 50 mcg per hour and continue for 3-5 days after blood is diagnosed. (May substitute octreotide, 50 mcg bolus followed by 50 mcg per hour. May alternatively consider vasopressin 0.2 to 0.4 units per minute IV, max dose 0.8 units per minute, with nitroglycerin 40 mcg per minute IV, max dose 400 mcg per minute, for no greater than 24 hours.) DO NOT use beta-blockers acutely.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Admit to ICU. Start oral norfloxacin or IV ciprofloxacin (ceftriaxone 1 g per day may also be used).</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Obtain GI consultation within 12 hours. Perform EGD with endoscopic variceal ligation. Consider sclerotherapy if ligation not technically feasible.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="action" id="cell-16">
+<label>If bleeding is not controlled, balloon tamponade or transhepatic intraportal shunt may be performed as rescue therapy.</label>
+</cell>
+</algorithm>
+</algorithms>

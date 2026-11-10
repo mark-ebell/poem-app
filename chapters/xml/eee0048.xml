@@ -526,11 +526,13 @@
 <graphic href="eee0048-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspicion of renal artery stenosis: Perform duplex ultrasound, MR angiogram, or CT angiogram (if patient has normal kidney function).</label>
-<path target="cell-2"> Greater than 60&#x0025; stenosis </path>
-<path target="cell-3"> Less than 60&#x0025; stenosis </path>
+<path target="cell-2">Greater than 60% stenosis</path>
+<path target="cell-3">Less than 60% stenosis</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Is the patient symptomatic?*</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Refer for angioplasty.</label>

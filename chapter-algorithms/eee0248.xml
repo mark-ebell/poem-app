@@ -1,0 +1,63 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>126.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Premenstrual Dysphoric Disorder: Diagnosis and Treatment.</title>
+<graphic href="eee0248-w0003.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with signs&#x002F;symptoms of PMS&#x002F;PMDD. Perform history and physical examination. Have patient perform symptom assessment for 2 cycles.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Suspected underlying medical or psychology condition.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Evaluation as indicated (CBC, TSH, hormone levels, screening for psychiatric disorders).</label>
+<path target="cell-5">Abnormal</path>
+<path target="cell-3">Normal</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Treat underlying condition.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Confirmed PMS&#x002F;PMDD.</label>
+<path target="cell-8">Mild/moderate</path>
+<path target="cell-10">Severe</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Patient education lifestyle modification, CAM treatment. Improvement?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Continue treatment.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Lifestyle modification, CAM treatment, consider luteal-phase (cyclic) SSRI. Improvement?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Continue cyclic SSRI.</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Trial of continuous (daily) SSRI. Improvement?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Continue treatment.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Treat symptoms individually (eg, anxiety with benzodiazepine); consider ovulatory suppression with drospirenone OC or GnRH agonist; consider TAH&#x002F;BSO as last resort.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: PMDD, premenstrual dysphoric disorder; PMS, premenstrual syndrome; CAM, complementary&#x002F;alternative medicine; SSRI, selective serotonin receptor inhibitor; OCP, oral contraceptive pill; GnRH, gonadotropin releasing hormone; TAH&#x002F;BSO, total abdominal hysterectomy&#x002F;bilateral oophorectomy.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

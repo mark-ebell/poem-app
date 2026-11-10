@@ -580,15 +580,22 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>Perform confirmatory test (saline suppression test, oral salt loading, fludrocortisone suppression test, or captopril suppression test).</label>
+<path target="cell-4">Positive confirmatory test</path>
+<path target="cell-3">Negative confirmatory test</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Testing to confirm cause of PA: adrenal imaging with CT or MRI, and postural testing.</label>
+<path target="cell-5">Unilateral autonomous lesion</path>
+<path target="cell-6">Equivocal results</path>
+<path target="cell-7">Idiopathic PA or not surgical candidate</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Adrenalectomy.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Adrenal venous sampling for lateralization.</label>
+<path target="cell-5">Unilateral disease</path>
+<path target="cell-7">Bilateral disease</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Medical treatment with mineralocorticoid receptor antagonist.</label>

@@ -1,0 +1,55 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>388</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> GI Foreign Bodies: Management.</title>
+<graphic href="eee0190-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Determine type of foreign body.</label>
+<path target="cell-2">Coin</path>
+<path target="cell-10">Food</path>
+<path target="cell-11">Sharp object or battery</path>
+<path target="cell-12">Magnet</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Determine location.</label>
+<path target="cell-7">Esophagus</path>
+<path target="cell-8">Stomach</path>
+<path target="cell-9">Intestine</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Remove immediately if symptoms, or observe for 24 h if asymptomatic.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Observe with serial radiographs. Remove if abdominal pain.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Observe with serial radiographs. Remove if abdominal pain or signs of obstruction.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>If esophagus, remove immediately.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Determine location.</label>
+<path target="cell-13">Esophagus</path>
+<path target="cell-14">Stomach</path>
+<path target="cell-15">Intestine</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>All locations: If more than one magnet is ingested, immediate surgical consultation.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Remove immediately.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Observe with serial radiographs. Remove if abdominal pain.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Observe with serial radiographs. Remove if abdominal pain or signs of obstruction.</label>
+</cell>
+</algorithm>
+</algorithms>

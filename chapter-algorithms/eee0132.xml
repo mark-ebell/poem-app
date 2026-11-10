@@ -1,0 +1,42 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>367.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Primary Hyperaldosteronism: Diagnosis.</title>
+<graphic href="eee0132-w001.gif" />
+<cell type="start" id="cell-1">
+<label>PA suspected clinically. Order plasma aldosterone concentration&#x002F;plasma renin activity ratio</label>
+<path target="cell-2">Abnormal (&gt;20)</path>
+<path target="cell-3">Normal</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Perform confirmatory test (saline suppression test, oral salt loading, fludrocortisone suppression test, or captopril suppression test).</label>
+<path target="cell-4">Positive confirmatory test</path>
+<path target="cell-3">Negative confirmatory test</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Testing to confirm cause of PA: adrenal imaging with CT or MRI, and postural testing.</label>
+<path target="cell-5">Unilateral autonomous lesion</path>
+<path target="cell-6">Equivocal results</path>
+<path target="cell-7">Idiopathic PA or not surgical candidate</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Adrenalectomy.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Adrenal venous sampling for lateralization.</label>
+<path target="cell-5">Unilateral disease</path>
+<path target="cell-7">Bilateral disease</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Medical treatment with mineralocorticoid receptor antagonist.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider other causes of resistant hypertension.</label>
+</cell>
+</algorithm>
+</algorithms>

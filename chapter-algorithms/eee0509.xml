@@ -1,0 +1,45 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>269</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Solid Ovarian Mass: Diagnosis.</title>
+<graphic href="eee0509-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with ovarian mass identified on clinical examination or as incidental finding on imaging</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Order transabdominal and transvaginal ultrasound; MRI to characterize size, location, and character further if indicated. Benign appearance (eg, smooth mass, few septae, &lt;5 cm)?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Suspected malignancy (eg, irregular shape, &gt;5 cm, ascites)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>CA-125 and laparotomy.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>CA-125 and laparoscopy or surgical exploration</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Premenopausal?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Follow-up ultrasound in 6 wk. Enlarging or change in character?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>No further action.</label>
+</cell>
+</algorithm>
+</algorithms>

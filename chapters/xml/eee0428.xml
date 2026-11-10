@@ -505,10 +505,10 @@
 <graphic href="eee0428-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected cognitive dysfunction. Evaluate activities of daily living (ADL) and mental status (MS).</label>
-<path target="cell-7"> Normal ADL, impaired MS</path>
-<path target="cell-8"> Abnormal ADL, normal MS</path>
-<path target="cell-9"> Abnormal ADL, impaired MS</path>
-<path target="cell-10"> Normal ADL, normal MS</path>
+<path target="cell-7">Normal ADL, impaired MS</path>
+<path target="cell-8">Abnormal ADL, normal MS</path>
+<path target="cell-9">Abnormal ADL, impaired MS</path>
+<path target="cell-10">Normal ADL, normal MS</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Mild cognitive impairment.</label>
@@ -518,18 +518,25 @@
 </cell>
 <cell type="action" id="cell-9">
 <label>Dementia.</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Evaluate for treatable causes with laboratory testing and neuroimaging.</label>
+<path target="cell-12">Abnormal</path>
+<path target="cell-13">Normal</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Treat subdural hematoma, brain tumor, normal pressure hydrocephalus, metabolic encephalopathies, others.</label>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Temporal link to stroke?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-14">No</path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Recent parkinsonism, prominent hallucinations, delirium (fluctuating cognition)?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Dementia with Lewy bodies.</label>

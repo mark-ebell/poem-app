@@ -915,39 +915,55 @@
 <graphic href="eee0475-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Active management of third stage of labor</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Perform immediate postpartum bimanual examination and visual inspection to evaluate for ongoing blood loss and its potential cause.</label>
+<path target="cell-3">Ongoing blood loss</path>
+<path target="cell-4">No abnormal blood loss</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Assess vital signs for hemodynamic compromise.</label>
+<path target="cell-5">Hemodynamically stable</path>
+<path target="cell-6">Hemodynamic instability</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Perform bimanual uterine massage and assess its effect on uterine tone.</label>
+<path target="cell-8">Effective</path>
+<path target="cell-7">No effect</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Give uterotonics and assess effect on uterine tone.</label>
+<path target="cell-8">Effective</path>
+<path target="cell-9">No effect</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Perform visual inspection to evaluate for trauma.</label>
+<path target="cell-11">Trauma found</path>
+<path target="cell-10">No trauma found</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Examine for any retained placental products via manual intrauterine examination or ultrasound (consider sedation prior to manual examination).</label>
+<path target="cell-13">Retained products found</path>
+<path target="cell-12">No retained products found</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Evaluate for coagulopathies (consider especially in patients who are not forming clots).</label>
 </cell>
 <cell type="action" id="cell-13">
 <label>Perform manual or surgical removal of retained placental products.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Repair areas of trauma.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Monitor patient.</label>
 </cell>
 <cell type="action" id="cell-6">
 <label>Appropriate resuscitative and stabilizing measures, including IVF and blood.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Routine postpartum care.</label>

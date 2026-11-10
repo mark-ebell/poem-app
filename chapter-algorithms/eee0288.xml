@@ -1,0 +1,48 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>288</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Aspergillosis: Management.</title>
+<graphic href="eee0288-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Aspergillosis clinically suspected. Order chest x-ray. Focal infiltrate or nodule?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Order sputum culture, serum galactomannam (GMA) and serum beta-D-glucan (BDG). Positive sputum or GMA?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Order chest CT. Focal nodule or infiltrate?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Probable aspergillosis. Start voriconazole (amphotericin is alternate).</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Negative GMA and positive BDG?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Start voriconazole with or without echinocandin.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>All results negative. Consider biopsy&#x002F;bronch for tissue diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Repeat CT if symptoms persist; consider empiric therapy if fever continues.</label>
+</cell>
+<footnotes>
+<footnote>Data from Garcia-Vidal C, et al.<xref ref="pubmed18781877" resource="acc003" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1,0 +1,104 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>194</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Algorithmic Approach to Neonatal Jaundice (from AAP).</title>
+<graphic href="eee0563-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Newborn infant</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Assess for jaundice every 8-12 hours.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Is jaundice present?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Is age &lt;24 hours or does jaundice by visual assessment or TcB appear severe enough to require TSB or TcB?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Measure TSB or TcB and interpret by age in hours.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Is TSB &#x003E;95th percentile?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>(1) Evaluate cause; (2) Treat if criteria for treatment is met; (3) Repeat TSB in 4-24 hours.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Evaluate TSB level, gestational age and hours of life. Treat if criteria for treatment is met.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Any repeat TSB drawn?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Is TSB level increasing across percentile line?</label>
+<path target="cell-25">Yes</path>
+<path target="cell-24">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Has TcB or TSB been measured?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Is newborn ready for discharge?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-26">No</path>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Any risk factors or infant &lt;72 hours old?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-20">No</path>
+</cell>
+<cell type="action" id="cell-19">
+<label>Follow up by 48-120 hours of age, exact timing depends upon age in hours and presence of risk factors. See <xref ref="table001" />.</label>
+<path target="cell-21"></path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>Is follow-up assured?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-23">No</path>
+</cell>
+<cell type="action" id="cell-22">
+<label>Discharge with planned follow-up.*</label>
+</cell>
+<cell type="action" id="cell-23">
+<label>Measure TSB or TcB if not already done, assure plan for follow-up and&#x002F;or management* according to billirubin level.</label>
+</cell>
+<cell type="action" id="cell-20">
+<label>Discharge and follow-up at physician discretion.*</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Evaluate TSB level, gestational age and hours of life. Treat if criteria for treatment is met.</label>
+</cell>
+<cell type="action" id="cell-25">
+<label>Evaluate cause, treat if criteria are met, and repeat TSB in 4-24 hours (as above).</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>Continue to assess for jaundice every 8-12 hours (above).</label>
+</cell>
+<footnotes>
+<footnote>*Provide information and written guidelines about jaundice to parents of all newborns at discharge.</footnote>
+<footnote>From Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Subcommittee on Hyperbilirubinemia. <em>Pediatrics</em> 2004;<strong>114</strong>:297-316.<xref ref="pubmed15231951" resource="acc007" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

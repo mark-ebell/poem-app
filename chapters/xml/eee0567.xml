@@ -1044,12 +1044,17 @@
 <graphic href="eee0567-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>START Initial clinical findings suggestive of CAP in age &gt;1 month</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Assess clinical signs and symptoms: - Respiratory rate for age above threshold - Fever &gt;38&#x00BA;C - O<sub>2</sub> saturation less than 94&#x0025; - Nasal flaring - Abnormal breath sounds - Increased work of breathing.</label>
-</cell>
-<cell type="decision" id="cell-17">
-<label>Cough.</label>
+<path target="cell-3"></path>
+<path target="cell-4"></path>
+<path target="cell-5"></path>
+<path target="cell-6"></path>
+<path target="cell-7"></path>
+<path target="cell-8"></path>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Measure respiratory rate (RR) by observation for 60 seconds when the child is awake and not crying. Tachypnea is: 1 to 12 months old: RR &gt;50 1 to 5 years old: RR &gt; 40 &gt; 5 years old: RR &gt;20.</label>
@@ -1062,33 +1067,44 @@
 </cell>
 <cell type="action" id="cell-6">
 <label>Suspect afebrile pneumonia of infancy.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Uncomplicated CAP, bacterial source suspected. </label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Ambiguous clinical findings or age younger than 5 years with high fever of uncertain source.</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Complication suspected or prolonged course unresponsive to antibiotics.</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Consider: CXR, procalcitonin and WBC with differential.</label>
+<path target="cell-11"></path>
+<path target="cell-12"></path>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Suspect viral pneumonia. Consider treatment of influenza in appropriate seasons. Supportive treatment, no antibiotics needed. Monitor closely for possible bacterial&#x002F; missed pneumonia. </label>
 </cell>
 <cell type="action" id="cell-12">
 <label>Suspect CAP without complications.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Suspect CAP with complications.</label>
+<path target="cell-15"></path>
 </cell>
 <cell type="action" id="cell-14">
-<label>Antibiotic therapy (see <xref ref="table003" />).</label>
+<label>Antibiotic therapy (see Table 3).</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Manage for specific complication. Consider infectious disease and&#x002F;or pulmonology consult.</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Follow up as appropriate. Adjust antibiotic, if necessary.</label>

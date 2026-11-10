@@ -592,21 +592,29 @@
 <graphic href="eee0459-w0001-y.gif" />
 <cell type="start" id="cell-1">
 <label>Initial assessment (ABCs), secure airway, give oxygen, IV access, and blood work.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>IV lorazepam (0.1 mg&#x002F;kg), repeat after 10-20 minutes. If malnourished&#x002F;alcoholic consider IV dextrose and thiamine.</label>
+<path target="cell-4">Success</path>
+<path target="cell-3">Failure</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Phenytoin (15-18 mg&#x002F;kg at 50 mg&#x002F;min) and&#x002F;or phenobarbital (10-15 mg&#x002F;kg at 100 mg&#x002F;min). Alert anesthesist, ECG monitoring.</label>
+<path target="cell-4">Success</path>
+<path target="cell-5">Failure</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>General anesthesia; taper off general anesthesia 12-24 hours after last seizure.</label>
+<path target="cell-7">Success</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Give usual anti-epileptic drugs and monitor patient closely.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Consider and treat causes and complications; consider neuroimaging.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Intensive care, ECG monitoring; intracranial pressure monitoring as appropriate, start long-term anti-epileptic drugs.</label>

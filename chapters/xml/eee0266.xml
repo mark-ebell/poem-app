@@ -540,21 +540,25 @@
 <graphic href="eee0266-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Diagnosis of ITP based on suggestive history, CBC, and PBS</label>
-<path target="cell-5"> Profound mucocutaneous bleeding or platelets &lt;20,000 </path>
-<path target="cell-6"> Platelets 20,000-30,000 and no profound bleeding </path>
-<path target="cell-11"> Platelets &gt;30,000 </path>
+<path target="cell-5">Profound mucocutaneous bleeding or platelets &lt;20,000</path>
+<path target="cell-6">Platelets 20,000 to 30,000 and no profound bleeding</path>
+<path target="cell-11">Platelets &gt;30,000</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Hospitalization and treatment.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Individualize therapy; outpatient regimens include: prednisone 1 mg&#x002F;kg&#x002F;d by mouth; WinRho IV; IVIG IV; or dexamethasone burst. Platelet response?</label>
+<path target="cell-7">Platelets &lt;20,000 to 30,000</path>
+<path target="cell-8">Platelets &gt;30,000</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Consider: cytoxan, Cellcept, or rituxan.</label>
+<path target="cell-9">Platelets &lt;20,000 to 30,000 after a 3- to 12-month trial</path>
+<path target="cell-10">Platelets &gt;30,000</path>
 </cell>
 <cell type="action" id="cell-9">
-<label>Consider spleenectomy.</label>
+<label>Consider splenectomy.</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Maintain therapy, consider taper and observation.</label>

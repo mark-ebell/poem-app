@@ -1,0 +1,47 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>175</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Evaluation of a Child with a Heart Murmur.</title>
+<graphic href="eee0555-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Red flags: exertional chest pain, shortness of breath, syncope; cyanosis, clubbing, or decreased femoral pulses?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Intensity?</label>
+<path target="cell-6">Grades I-II</path>
+<path target="cell-3">Grades III-VI (grade IV and up has a thrill)</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Timing?</label>
+<path target="cell-9">Systolic murmur</path>
+<path target="cell-3">Diastolic murmur</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Unusual heart sounds&#x002F;rhythm?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Quality?</label>
+<path target="cell-14">Vibratory</path>
+<path target="cell-3">Harsh</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Likely innocent murmur: follow clinically</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Click Rub Gallop Fixed split S2</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Cardiology referral</label>
+</cell>
+</algorithm>
+</algorithms>

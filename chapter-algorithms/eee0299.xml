@@ -1,0 +1,47 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>299</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Coccidioidomycosis: Management.</title>
+<graphic href="eee0299-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected coccidioidomycosis: pneumonia symptoms in patient exposed to endemic areas. Order serology. Result?</label>
+<path target="cell-2">Negative</path>
+<path target="cell-3">Positive</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Nothing further.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>If the patient is pregnant, treat with amphotericin B in the first trimester and azoles in the second and third. Immunocompetent?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>No antifungal therapy required. Conduct reassessment at 1-month to 3-month intervals for at least 1 year. Begin treatment with oral azole if pulmonary disease progresses or disseminates, or if symptoms persist for more than 2 months.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Signs of dissemination to meninges or other soft tissue?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Histologic examination and culture of suspicious skin lesions, analysis of joint effusion aspirates or lumbar puncture. Result?</label>
+<path target="cell-8">Meningeal coccidioidomycosis</path>
+<path target="cell-9">Nonmeningeal coccidioidomycosis</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Lifelong oral azole.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Treat with oral azole. Amphotericin B for patients who do not respond to treatment with oral azoles or who have lesions in vital locations.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Treat with oral azole for 3-6 months.</label>
+</cell>
+</algorithm>
+</algorithms>

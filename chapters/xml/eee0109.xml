@@ -664,20 +664,26 @@
 <graphic href="eee0109-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>CSOM confirmed by tympanometry. Risk for hearing loss (craniofacial deformities, developmental delays)?</label>
-<path target="cell-2"> No </path>
-<path target="cell-3"> Yes </path>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Reevaluate in 3 months. Resolved?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Routine follow-up.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Audiometric evaluation (500, 1000, 2000, and 4000 Hz). Greater than 20 dB loss in any frequency?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-5">
-<label>21-39 is mild loss, &#x2265;40 is moderate loss. Order comprehensive audiologic evaluation. Greater than 20 dB average hearing loss pure tone?</label>
+<label>21–39 dB is mild loss, 40 dB or more is moderate loss. Order comprehensive audiologic evaluation. Greater than 20 dB average pure-tone hearing loss?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Language testing and otolaryngolic referral. Consider tympanostomy tubes if chronic SOM &gt;3 months or recurrent or persistent chronic SOM. Consider adenoidectomy if nasal obstruction or chronic adenoiditis.</label>

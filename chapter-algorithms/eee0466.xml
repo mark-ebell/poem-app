@@ -1,0 +1,39 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>466</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Breech Presentation: Management.</title>
+<graphic href="eee0466-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Assess fetal lie with Leopold's maneuvers starting at 34 weeks' gestation</label>
+<path target="cell-2">Breech</path>
+<path target="cell-3">Vertex</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Consider moxibustion therapy.</label>
+<path target="cell-6">Persistent breech</path>
+<path target="cell-9">Conversion to cephalic presentation</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Offer version beginning at 34-35 weeks' gestation.</label>
+<path target="cell-7">Unsuccessful</path>
+<path target="cell-8">Successful</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Planned cesarean delivery.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Monitor presentation until delivery.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Monitor presentation until delivery.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Monitor presentation weekly until delivery.</label>
+</cell>
+</algorithm>
+</algorithms>

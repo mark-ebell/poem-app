@@ -2400,23 +2400,32 @@
 <graphic href="eee0483-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with radiographic suspicion or core biopsy-proven breast cancer. Is patient a candidate for breast conservation?</label>
-<path target="cell-2"> No contraindications</path>
-<path target="cell-3"> Contraindicated or requests a mastectomy</path>
+<path target="cell-2">No contraindications</path>
+<path target="cell-3">Contraindicated or requests a mastectomy</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Discuss options for local therapy and additional services needed (eg, medical or radiation oncology, genetic counseling, psychosocial support).</label>
+<path target="cell-3">Chooses mastectomy</path>
+<path target="cell-4">Chooses breast-conserving therapy</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Lumpectomy (complete excision of abnormality with a small margin of normal breast tissue and careful orientation for the pathologist).</label>
+<path target="cell-5">Stage 0</path>
+<path target="cell-6">Stage I to III</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Large (&gt;2.5 cm), comedo-carcinoma, or palpable?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Sentinel lymph node biopsy; if negative, additional lymph node removal may be avoided. Axillary node dissection (proven or suspicious axillary involvement) or surgeon preference.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Postsurgical treatment based on stage.</label>
+<path target="cell-7">Stage I</path>
+<path target="cell-9">Stage II or III</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Review risk of recurrence. Radiation therapy within 7 weeks. Additional options to consider: if ER&#x002F;PR+, hormone OR chemotherapy; if ER&#x002F;PR-, chemotherapy OR observation.</label>
@@ -2426,6 +2435,7 @@
 </cell>
 <cell type="action" id="cell-3">
 <label>Consider mastectomy with immediate reconstructive surgery (offered to women with Stage 0-III breast cancer); discuss additional services needed.</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Postoperative treatment. Radiation therapy. If ER&#x002F;PR+, hormone&#x2020; and&#x002F;or chemotherapy based on stage. If ER&#x002F;PR&#x2212;, chemotherapy or observation based on stage.</label>

@@ -1,0 +1,61 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>062</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Algorithm for the<xref ref="table001" /> Diagnosis of Chronic Fatigue Syndrome.</title>
+<graphic href="eee0421-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Fatigue, unrelieved by rest, for at least 6 months?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Fatigue had definite beginning?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Does not meet definition of CFS.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>At least four of the following are present: &#x2022; Substantial impairment in short-term memory or concentration &#x2022; Sore throat &#x2022; Tender lymph nodes &#x2022; Muscle pain &#x2022; Multijoint pain without swelling or redness &#x2022; Headaches of a new type, pattern, or severity &#x2022; Unrefreshing sleep &#x2022; Postexertional malaise lasting for more than 24 h that started with or after the fatigue?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Other medical explanation (eg, hypothyroidism, sleep apnea)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Relapse of preexisting condition (eg, malignancy, hepatitis)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Alternative explanation for symptoms.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Current or prior diagnosis of: &#x2022; Major depressive disorder with psychotic or melancholic features &#x2022; Bipolar affective disorders &#x2022; Schizophrenia of any subtype &#x2022; Delusional disorders of any subtype &#x2022; Dementias of any subtype &#x2022; Anorexia nervosa or bulimia nervosa.</label>
+<path target="cell-7">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Alcohol&#x002F;substance abuse at any time after 2 y before onset of fatigue?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>BMI &gt;45?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Myalgic encephalitis &#x002F; Chronic fatigue syndrome.</label>
+</cell>
+</algorithm>
+</algorithms>

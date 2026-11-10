@@ -1,0 +1,39 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>010.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management: Hyphema.</title>
+<graphic href="eee0533-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Patient diagnosed clinically with hyphema: (1) History for trauma, any bleeding risks, and sickle cell disease; (2) Thorough evaluation for other injuries of globe and orbit (typically slit lamp examination &#x00B1; CT of orbit); (3) Grade severity of hyphema (<xref ref="table001" />)</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Grade I hyphema, no associated injury?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Grade II or III hyphema, minor or no associated injury?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Eye protection with shield, cycloplegic drops &#x00B1; steroid, sleep with head of bed elevated. Activity: Quiet ambulation, prompt referral for daily follow-up examinations.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Probable initial hospitalization. Discuss with consultant.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Severe ocular or bony injury, Grade IV hyphema, sickle cell trait or disease.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Hospitalization for intense management&#x002F;observation.</label>
+</cell>
+</algorithm>
+</algorithms>

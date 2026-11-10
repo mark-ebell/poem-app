@@ -1,0 +1,36 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Brucellosis: Management.</title>
+<graphic href="eee0292-w0001.gif" />
+<cell type="decision" id="cell-2">
+<label>Pregnant or breastfeeding woman* or child younger than 8 y?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Sulfamethoxazole&#x002F;trimethoprim plus rifampin for 6 wk.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Use 3-drug regimen: doxycycline plus rifampin for 6 wk plus an aminoglycoside for 2 wk.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider other diagnoses such as tuberculosis, typhoid, malaria, autoimmune disorders, etc.</label>
+</cell>
+<cell type="start" id="cell-1">
+<label>Brucellosis suspected. Order serum agglutination test or direct culture.</label>
+<path target="cell-2">Positive</path>
+<path target="cell-3">Negative</path>
+</cell>
+<footnotes>
+<footnote>Brucellosis suspected. Order serum agglutination test or direct culture.</footnote>
+<footnote>Two-drug regimens have significantly higher failure rates than 3-drug regimens. Pregnant women may be treated with a 3-drug regimen if counseled about potential risk to fetus. Breastfeeding women should stop breastfeeding when possible.</footnote>
+<footnote>Data from Skalsky K, Yahav D, Bishara J, Pillik S, Loibovici L, Paul M. Treatment of human brucellosis: systematic review and meta-analysis of randomised controlled trial. BMJ. 2008;336:701-704; and Bossi P, Tegnell A, Baka A, et al. Bichat guidelines for the clinical management of brucellosis and bioterrorism-related brucellosis. Euro Surveill. 2004;9:E15-6.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

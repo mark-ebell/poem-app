@@ -1,0 +1,170 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>152</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Precocious Puberty in Girls: Diagnosis.</title>
+<graphic href="eee0569-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Breast development before the age of 8 years in girls?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Check serum LH</label>
+<path target="cell-7">Pubertal LH level</path>
+<path target="cell-10">Prepubertal LH level</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Central precocious puberty. Order brain MRI</label>
+<path target="cell-9">Abnormal</path>
+<path target="cell-8">Normal</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Idiopathic central precocious puberty</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Hamartoma, other CNS tumor or lesion</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Check estradiol levels</label>
+<path target="cell-16">Prepubertal</path>
+<path target="cell-13">Pubertal</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Check ovarian and uterine ultrasound (US)</label>
+<path target="cell-15">Normal</path>
+<path target="cell-14">Abnormal</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>McCune-Albright syndrome (if caf&#x00E9; au lait spots), ovarian cyst or tumor</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Adrenal neoplasm, extrinsic exposure</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Premature thelarche</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Pubic hair present?</label>
+<path target="cell-17">No</path>
+<path target="cell-18">Yes</path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Normal</label>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Check DHEAS</label>
+<path target="cell-21">Normal</path>
+<path target="cell-34">Elevated</path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>Check 17-OH-P</label>
+<path target="cell-33">Elevated</path>
+<path target="cell-24">Normal</path>
+</cell>
+<cell type="decision" id="cell-24">
+<label>Check testosterone</label>
+<path target="cell-32">Elevated</path>
+<path target="cell-27">Normal (low)</path>
+</cell>
+<cell type="decision" id="cell-27">
+<label>Check ACTH and cortisol</label>
+<path target="cell-30">Elevated</path>
+<path target="cell-31">Normal</path>
+</cell>
+<cell type="action" id="cell-30">
+<label>Glucocorticoid resistance or Cushing syndrome</label>
+</cell>
+<cell type="action" id="cell-31">
+<label>Premature adrenarche</label>
+</cell>
+<cell type="action" id="cell-32">
+<label>Virilizing ovarian neoplasm</label>
+</cell>
+<cell type="action" id="cell-33">
+<label>Late-onset congenital adrenal hyperplasia</label>
+</cell>
+<cell type="action" id="cell-34">
+<label>Possible adrenal tumor</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: ACTH, adrenocorticotropic hormone; DHEAS, dehydroepiandrosterone sulfate; LH, luteinizing hormone; 17-OH-P, 17-hydroxyprogesterone.</footnote>
+<footnote>Adapted from Styne DM. Disorders of puberty. Styne DM, <em>Pediatric Endocrinology</em>. New York: Lippincott Williams &amp; Wilkins. 2004:183-184.<xref ref="book9780781736428" />
+</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>152</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Precocious Puberty in Boys: Diagnosis.</title>
+<graphic href="eee0569-w0002.gif" />
+<cell type="start" id="cell-35">
+<label>Pubertal development prior to the age of 9 years in boys. History of exogenous androgen exposure?</label>
+<path target="cell-37">Yes</path>
+<path target="cell-100">No</path>
+</cell>
+<cell type="action" id="cell-37">
+<label>Exogenous androgen or hCG exposure</label>
+</cell>
+<cell type="decision" id="cell-100">
+<label>Asymmetric or discrete mass?</label>
+<path target="cell-101">Yes</path>
+<path target="cell-38">No</path>
+</cell>
+<cell type="action" id="cell-101">
+<label>Rule out tumor</label>
+<path target="cell-38"></path>
+</cell>
+<cell type="decision" id="cell-38">
+<label>Testicular length &gt;2.5 cm?</label>
+<path target="cell-39">No</path>
+<path target="cell-41">Yes</path>
+</cell>
+<cell type="decision" id="cell-39">
+<label>Suggests adrenal etiology. Check 17-OH-P, DHEAS, cortisol and ACTH</label>
+<path target="cell-46">17-OH-P elevated</path>
+<path target="cell-47">DHEAS elevated</path>
+<path target="cell-45">ACTH and cortisol elevated</path>
+</cell>
+<cell type="action" id="cell-46">
+<label>21-hydroxylase deficiency</label>
+</cell>
+<cell type="action" id="cell-47">
+<label>Adrenal virilizing tumor or late-onset 3beta-hydroxylase deficiency; premature adrenarche if mild elevation consistent with pubertal development</label>
+</cell>
+<cell type="action" id="cell-45">
+<label>ACTH and cortisol elevated; If no signs of Cushing's syndrome, glucocorticoid resistance likely</label>
+</cell>
+<cell type="decision" id="cell-41">
+<label>Check serum hCG</label>
+<path target="cell-58">hCG elevated</path>
+<path target="cell-52">Normal (low)</path>
+</cell>
+<cell type="decision" id="cell-52">
+<label>Check LH</label>
+<path target="cell-55">LH suppressed</path>
+<path target="cell-56">Pubertal LH level</path>
+</cell>
+<cell type="action" id="cell-55">
+<label>Testotoxicosis</label>
+</cell>
+<cell type="action" id="cell-56">
+<label>True precocious puberty. Check brain MRI to evaluate for CNS tumor</label>
+</cell>
+<cell type="action" id="cell-58">
+<label>hCG-secreting tumor</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: ACTH, adrenocorticotropic hormone; DHEAS,k dehydroepiandrosterone sulfate; hCG, human chorionic gonadotropin; LH, luteinizing hormone; 17-OH-P, 17-hydroxyprogesterone.</footnote>
+<footnote>Adapted from Styne DM. Disorders of puberty. Styne DM, <em>Pediatric Endocrinology</em>. New York: Lippincott Williams &amp; Wilkins. 2004:182.<xref ref="book9780781736428" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

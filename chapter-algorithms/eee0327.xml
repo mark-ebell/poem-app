@@ -1,0 +1,118 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>391.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Nocardiosis: Evaluation and Management.</title>
+<graphic href="eee0327-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Primary cutaneous: Cellulitis, abscess, cutaneous nodules, especially with history of exposure to soil?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Mycetoma: Chronic invasive granulomatous infection with sinus tracts and granular exudates?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>CNS: Neurologic deficits, seizures, headache, fever, nausea, vomiting?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Pulmonary: Subacute onset of cough, fever, chest pain, dyspnea, night sweats, fatigue?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider other diagnoses.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>CXR&#x002F;CT scan: consolidation, cavitary lesions, nodules, effusion?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Suspect nocardosisa: Obtain specimen for Gram stain, acid-fast stain, and culture from induced sputum, biopsy, or bronchoscope.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>TMP-SMX contraindicated?</label>
+<path target="cell-12">No</path>
+<path target="cell-13">Yes</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Begin TMP&#x002F; SMX** + second empiric parental antibiotic (amikacin, imipenem, linezolid, moxifloxacin).</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Immuno suppresed?</label>
+<path target="cell-15">No</path>
+<path target="cell-16">Yes</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Recommend screening for HIV. Screen for disseminated disease.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Discontinue&#x002F;reduce immunosuppressive therapy. Screen for disseminated disease.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Begin two second-line antibiotics (ie, amikacin, imipenem, linezolid, moxifloxacin).</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Head CT&#x002F;MRI: Concentric ring-enhancing lesion, mass effect?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Suspect nocardiosis: Obtain specimen for Gram stain, acid-fast stain, and culture from CSF, brain aspiration, or brain biopsy.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>CT&#x002F;ultrasound: invasion into muscle, bone, viscera?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Suspect nocardiosis: Obtain specimen for Gram stain, acid-fast stain, and culture from wound drainage or biopsy.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Suspect nocardiosis: Obtain specimen for Gram stain, acid-fast stain, and culture from wound drainage or biopsy.</label>
+<path target="cell-19"></path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>TMP-SMX contraindicated?</label>
+<path target="cell-20">No</path>
+<path target="cell-21">Yes</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Begin TMP&#x002F;SMX*.</label>
+<path target="cell-22"></path>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Immuno suppressed?</label>
+<path target="cell-23">No</path>
+<path target="cell-24">Yes</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Consider screening for disseminated disease with chest CT, head CT, or MRI.</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Begin second antibiotic; screen for disseminated disease with chest CT, head CT, or MRI.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Begin second-line antibiotic (ie, amikacin, imipenem, linezolid, amoxicillin&#x002F;clavulanate, moxifloxacin).</label>
+<path target="cell-22"></path>
+</cell>
+<footnotes>
+<footnote>* Duration 6-12 months for immunosuppressed patients and for all forms of nocardiosis other than primary cutaneous.</footnote>
+<footnote>**TMP&#x002F;SMX dosing at 5 mg&#x002F;kg of trimethoprim divided bid.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1,0 +1,88 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>134</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Evaluation of Primary Amenorrhea.</title>
+<graphic href="eee0226-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>History and physical examination</label>
+<path target="cell-2">Presence of secondary sexual characteristics</path>
+<path target="cell-18">Absence of secondary sexual characteristics</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Pubic hair present?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-15">Absent or scant pubic hair</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Uterus present?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-11">No (uterus absent)</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Evidence of outflow obstruction?</label>
+<path target="cell-55">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-55">
+<label>See Table 1.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Follow secondary amenorrhea flowchart.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Check karyotype.</label>
+<path target="cell-14">46,XX</path>
+<path target="cell-13">Other</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>M&#x00FC;llerian agenesis.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Rare XX or XY mosaicism.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Check karyotype.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="action" id="cell-16">
+<label>46, XY.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Androgen insensitivity syndrome.</label>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Check FSH&#x002F;LH.</label>
+<path target="cell-21">Elevated or normal FSH/LH</path>
+<path target="cell-27">Low FSH/LH</path>
+</cell>
+<cell type="action" id="cell-21">
+<label>Hypergonadotropic hypogonadism.</label>
+<path target="cell-22"></path>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Check karyotype.</label>
+<path target="cell-25">45,XO</path>
+<path target="cell-26">46,XX</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Turner syndrome.</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>Premature ovarian failure.</label>
+</cell>
+<cell type="action" id="cell-27">
+<label>Hypogonadotropic hypogonadism (see Table 1).</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: FSH, follicle-stimulating hormone; LH, leuteinizing hormone.</footnote>
+<footnote>Adapted from The practice committee of the American Society for Reproductive Medicine. Current evaluation of amenorrhea. <em>Fertil Steril</em> 2004;<strong>82</strong>(Suppl 1):S33-S39.<xref ref="pubmed15363691" resource="acc006" /> Pletcher JR, Slap GB. Adolescent gynecology, part 1. Common disorders. Menstrual disorders. <em>Pediatr Clin North Am</em> 1999;<strong>46</strong>:505-518.<xref ref="pubmed10384804" resource="acc007" /> Albanese A, Stanhope R. Endocrine investigation. Investigation of delayed puberty. <em>Clin Endocrinol</em> 1995;<strong>43</strong>:105-110.<xref ref="pubmed7641400" resource="acc008" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

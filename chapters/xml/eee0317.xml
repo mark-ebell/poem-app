@@ -495,12 +495,17 @@
 <graphic href="eee0317-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspect infectious mononucleosis in patients aged 10 to 30 years with sore throat and significant fatigue, palatal petechiae, posterior cervical or auricular adenopathy, marked axillary adenopathy, or inguinal adenopathy.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Order CBC, rapid test for GABHS, and heterophile antibody test. Results show &#x2265;10&#x0025; to 20&#x0025; atypical lymphs; &#x2265;10&#x0025; atypical lymphs and &#x2265;50&#x0025; lymphs; or positive heterophile antibody test?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Symptomatic treatment. Treat strep if present. Urgent return to sports or other need to establish diagnosis?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Order VCA-IgM to confirm or rule-out diagnosis.</label>
@@ -510,6 +515,7 @@
 </cell>
 <cell type="action" id="cell-4">
 <label>Diagnosis confirmed. Symptomatic treatment; treat strep if present.</label>
+<path target="cell-6"></path>
 </cell>
 </algorithm>
 </algorithm_group>

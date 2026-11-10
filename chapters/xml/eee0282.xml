@@ -559,18 +559,27 @@
 <graphic href="eee0282-w001.gif" />
 <cell type="start" id="cell-1">
 <label>The patient has thrombocytopenia and microangiopathic hemolytic anemia with no apparent cause. TTP is diagnosed.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Is the patient a young child with renal failure and a prodrome of diarrhea?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Begin plasma exchange. Add glucocorticoids if TTP appears to be idiopathic. Continue to search for an alternative cause, such as cancer or sepsis. Is an alternative cause discovered?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Continue treatment and follow the platelet count to measure response. Does the platelet count steadily increase to normal?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Add glucocorticoids, or if the patient is already receiving glucocorticoids, add more intensive immunosuppressive agents. Consider increasing the volume of plasma exchanged. When the platelet count exceeds 150,000&#x002F;mm<sup>3</sup> for 2 consecutive days, consider stopping plasma exchange gradually rather than abruptly. Does the platelet count remain normal?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Resume daily plasma exchange and intensify immunosuppressive treatment.</label>
@@ -580,6 +589,8 @@
 </cell>
 <cell type="decision" id="cell-8">
 <label>Stop plasma exchange when the platelet count exceeds 150,000&#x002F;mm<sup>3</sup> for 2 consecutive days, then begin to taper glucocorticoids. Does the platelet count remain normal after plasma exchange is stopped?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Stop plasma exchange. Begin appropriate management.</label>

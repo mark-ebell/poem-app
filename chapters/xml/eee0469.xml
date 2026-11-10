@@ -804,30 +804,42 @@
 <graphic href="eee0469-w001.gif" />
 <cell type="start" id="cell-1">
 <label>First trimester bleeding</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>History &amp; Physical: hyperemesis, uterine size &#x2260; dates, gestational HTN, or signs of thyrotoxicosis?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
-<cell type="action" id="cell-3">
+<cell type="decision" id="cell-3">
 <label>Consider hydatidiform mole; obtain ultrasound. Ultrasound normal?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Placental abnormality consistent with molar pregnancy?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">Other abnormality</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Obtain quantitative beta-HCG result.</label>
+<path target="cell-10">Normal or equivocal</path>
+<path target="cell-13">Low</path>
+<path target="cell-15">High</path>
 </cell>
 <cell type="action" id="cell-10">
-<label>Repeat beta-HCG.</label>
+<label>Repeat beta-HCG and reassess with ultrasound.</label>
 </cell>
 <cell type="action" id="cell-13">
 <label>Consider partial mole vs. spontaneous abortion.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>D&amp;C.</label>
 </cell>
 <cell type="action" id="cell-15">
 <label>Consider complete mole.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Manage other problem.</label>

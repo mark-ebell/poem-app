@@ -1,0 +1,68 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>308</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Chronic Low Back Pain: Diagnosis.</title>
+<graphic href="eee0379-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with low back pain (LBP) &gt;3 months. Perform focused history and physical including duration, risk factors, and presence and severity of symptoms.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Could LBP be due to serious cause (eg, cancer, ankylosing spondylitis, vertebral infection, cauda equine, or vertebral compression fracture)?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Diagnostic studies are not recommended. Discuss pharmacologic and nonpharmacologic (ie, physical therapy, massage, and spinal manipulation) treatment options.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Cauda equine syndrome suspected (eg, bowel&#x002F;bladder dysfunction, saddle anesthesia, and progressive deficit)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Vertebral infection suspected (eg, fever, recent instrumentation, and elevated WBC)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Herniated disk or spinal stenosis suspected?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Cancer suspected (eg, weight loss, elevated sedimentation rate, history of malignancy, and other symptoms?)</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Vertebral compression fracture suspected (eg, over the age of 50 years, history of osteopenia or osteoporosis, trauma)?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Ankylosing spondylitis suspected (eg, insidious onset before the age of 40 years, associated with morning stiffness, and improvement with exercise)?</label>
+<path target="cell-14">Yes</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Anterior-posterior pelvis plain radiography, consider HLA-B27 testing.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Lumbosacral plain radiographs.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Plain radiography or MRI.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>MRI.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Emergent referral and MRI.</label>
+</cell>
+</algorithm>
+</algorithms>

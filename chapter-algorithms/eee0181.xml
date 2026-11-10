@@ -1,0 +1,63 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>108.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Suggested Evaluation of the Patient With Chronic Diarrhea.</title>
+<graphic href="eee0181-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Chronic diarrhea: &#x003E;3 stools&#x002F;day, &#x003E;200 g&#x002F;day, decreased consistency, for at least 4 weeks</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>History and physical; order initial stool studies for stool osmolality, pH, blood, WBC, fat; categorize type of diarrhea.</label>
+<path target="cell-3">Watery</path>
+<path target="cell-4">Inflammatory (see Table 1)</path>
+<path target="cell-5">Fatty</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Size of osmotic gap?</label>
+<path target="cell-8">Osmotic gap &lt;50</path>
+<path target="cell-9">Osmotic gap &gt;125</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Secretory diarrhea (see Table 1). Consider stool culture, specific endocrine testing, drug induced, GI structural imaging.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Osmotic diarrhea (see Table 1); pH &lt;6?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Carbohydrate malabsorption; consider hydrogen breath test.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Osmotic laxative use; check magnesium, phosphate, or sulfate.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>RBC or WBC in stool?</label>
+<path target="cell-14">Blood (with or without WBC)</path>
+<path target="cell-15">Presence of WBCs</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider cancer, inflammatory bowel disease; evaluate with imaging&#x002F;endoscopy.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Culture for bacteria&#x002F;virus&#x002F;parasite.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Low fat (&lt;9.5 g&#x002F;100 g) or high fat (&#x2265;9.5&#x002F;100 g)?</label>
+<path target="cell-18">Low fat (&lt;9.5 g/100 g)</path>
+<path target="cell-19">High fat (≥9.5 g/100 g)</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Malabsorption (see Table 1).</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Maldigestion (see Table 1).</label>
+</cell>
+</algorithm>
+</algorithms>

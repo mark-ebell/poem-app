@@ -1,0 +1,41 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Hyperalimination and Nutritional Supplementation: Management.</title>
+<graphic href="Nutrition-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient malnourished or at risk for malnutrition.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Implement oral interventions: dysphagia treatment, altered consistency diet, fortification or supplementation of oral intake, assistance at mealtime, liberalization of therapeutic diet. Malnutrition or risk for malnutrition continues?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Monitor effectiveness of intervention with ongoing screening for malnutrition (weekly for inpatients).</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>GI tract accessible and functioning?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider parenteral nutrition.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Gastrostomy or NG tube &#x00B1; oral nutrition; if impaired gastric emptying and prokinetics not successful, consider jejunal feeding. Adequate nutrient intake?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Stop or reduce nutritional support when oral intake meets &#x007E;60&#x0025; of nutritional needs and maintains nutritional status.</label>
+</cell>
+</algorithm>
+</algorithms>

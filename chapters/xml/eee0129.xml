@@ -588,27 +588,36 @@
 <graphic href="eee0129-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Goiter. Order thyroid ultrasound.</label>
-<path target="cell-7"> Large (&gt;1 cm) or suspicious nodule</path>
-<path target="cell-11"> Small nodules, not suspicious</path>
-<path target="cell-11"> Diffuse</path>
+<path target="cell-7">Large (&gt;1 cm) or suspicious nodule</path>
+<path target="cell-11">Diffuse, or small nodules that are not suspicious</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Fine needle aspiration biopsy</label>
+<path target="cell-10">Malignant</path>
+<path target="cell-11">Benign</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Surgery</label>
 </cell>
 <cell type="decision" id="cell-11">
-<label>TSH</label>
+<label>Order TSH</label>
+<path target="cell-15">TSH over 10</path>
+<path target="cell-16">TSH 5–10</path>
+<path target="cell-20">TSH normal</path>
+<path target="cell-23">TSH low</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Levothyroxine</label>
 </cell>
 <cell type="decision" id="cell-16">
 <label>Thyroid antibodies</label>
+<path target="cell-15">Positive</path>
+<path target="cell-22">Negative</path>
 </cell>
 <cell type="decision" id="cell-20">
 <label>Thyroid antibodies</label>
+<path target="cell-22">Negative</path>
+<path target="cell-21">Positive</path>
 </cell>
 <cell type="action" id="cell-21">
 <label>Consider Levothyroxine</label>
@@ -618,6 +627,9 @@
 </cell>
 <cell type="decision" id="cell-23">
 <label>Thyroid uptake</label>
+<path target="cell-24">High</path>
+<path target="cell-25">Normal</path>
+<path target="cell-26">Low</path>
 </cell>
 <cell type="action" id="cell-24">
 <label>Hyperthyroid; treat</label>

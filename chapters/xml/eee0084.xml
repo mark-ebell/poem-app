@@ -560,11 +560,13 @@
 <graphic href="eee0084-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Newborn screening test</label>
-<path target="cell-2"> Negative </path>
-<path target="cell-3"> Positive </path>
+<path target="cell-2">Negative</path>
+<path target="cell-3">Positive</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Infant older than 24 h when test performed?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Rescreen</label>
@@ -574,6 +576,9 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Measure serum phenylalanine</label>
+<path target="cell-5">Under 4 mg/dL</path>
+<path target="cell-6">4–10 mg/dL</path>
+<path target="cell-7">Over 10 mg/dL</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Hyperphenylalaninemia</label>

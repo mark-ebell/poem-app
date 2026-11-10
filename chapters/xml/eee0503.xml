@@ -898,44 +898,55 @@
 <graphic href="eee0503-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient presents with dyspnea, chest pain, and history of asbestos</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
+<cell type="decision" id="cell-2">
 <label>Chest X-ray</label>
+<path target="cell-3"></path>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>No pleural effusion or plaques but no etiology for symptoms</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Pleural effusion</label>
+<path target="cell-6"></path>
 </cell>
-<cell type="action" id="cell-5">
+<cell type="decision" id="cell-5">
 <label>Chest CT</label>
+<path target="cell-8"></path>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Thoracentesis</label>
+<path target="cell-7"></path>
+<path target="cell-10"></path>
 </cell>
-<cell type="decision" id="cell-7">
-<label>Negative cytology Pursue other</label>
+<cell type="action" id="cell-7">
+<label>Negative cytology: pursue other causes</label>
+<path target="cell-5"></path>
 </cell>
-<cell type="decision" id="cell-8">
-<label>Normal or other finding</label>
+<cell type="action" id="cell-8">
+<label>Normal or other finding: treat as appropriate</label>
 </cell>
 <cell type="action" id="cell-9">
-<label>Pleural mass or effusion</label>
+<label>Pleural mass or effusion; concern for mesothelioma</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-10">
-<label>Suspicious cytology</label>
-</cell>
-<cell type="decision" id="cell-11">
-<label>Consider chest CT prior to biopsy</label>
+<label>Suspicious cytology (consider chest CT before biopsy)</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Thoracoscopic or CT-guided pleural biopsy</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Immunohistochemical exam per pathology</label>
+<path target="cell-14"></path>
 </cell>
-<cell type="decision" id="cell-14">
+<cell type="action" id="cell-14">
 <label>Malignant pleural mesothelioma confirmed</label>
 </cell>
 </algorithm>

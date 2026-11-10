@@ -1,0 +1,57 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Abnormal Screening Test for Congenital Hypothyroidism: Management.</title>
+<graphic href="eee0073-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Abnormal newborn screen concerning for congenital hypothyroidism OR signs&#x002F;symptoms concerning for congenital hypothyroidism.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Check TSH, free T4.</label>
+<path target="cell-3">Normal TSH, normal T4</path>
+<path target="cell-4">Normal TSH, low T4</path>
+<path target="cell-5">High TSH, normal T4</path>
+<path target="cell-8">High TSH (&gt;40 mU/L), low T4</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Transient hypothyroidism.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Recheck TSH, free T4 monthly.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Recheck TSH at 2–4 weeks. High TSH (&gt;10 mU/L) and normal T4?</label>
+<path target="cell-7">No</path>
+<path target="cell-6">Yes</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Congenital hypothyroidism.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>No treatment.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Congenital hypothyroidism.</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Pediatric endocrinology consult. Levothyroxine 10-15 mcg&#x002F;kg PO daily. Trial off therapy at 3 years old.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Pediatric endocrinology consult. Levothyroxine 10-15 mcg&#x002F;kg PO daily.</label>
+</cell>
+<footnotes>
+<footnote>*When on levothyroxine: (1) Adjust dosing to normalize TSH and maintain free T4 in upper half of reference range, and (2) Recheck free T4, TSH 2-4 wk after initiating levothyroxine, every 1-2 m in 1st 6 mo, every 3-4 m b&#x002F;t 6 mo-3 y, every 6-12 m after 3 y.</footnote>
+<footnote>Adapted from American Academy of Pediatric&#x2019;s Update of Newborn Screening and Therapy for Congenital Hypothyroidism. <em>Pediatrics</em> 2006;<strong>117</strong>:2290-2303.<xref ref="pubmed16740880" resource="acc003" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1389,11 +1389,13 @@
 <graphic href="eee0322-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient presenting with symptoms of fever, chills, headache, myalgias, nausea and vomiting, splenomegaly, and&#x002F;or jaundice. History of travel to or moving from a malaria-endemic area?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Malaria likely. Microscopist experienced in malaria diagnosis?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Do peripheral blood stained with Giemsa.</label>

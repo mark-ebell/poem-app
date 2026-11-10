@@ -1,0 +1,37 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>377.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Meningitis: Diagnosis.</title>
+<graphic href="eee0324-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Bacterial meningitis suspected. Order CBC, blood culture, skin biopsy (if rash present), empiric antibiotic therapy (third-generation, cephalosporin &#x00B1; vancomycin) plus dexamethasone.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Signs of increased intracranial pressure (eg, papilledema)?</label>
+<path target="cell-3">Present</path>
+<path target="cell-4">Absent</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>CT of head. Signs of intracranial pressure?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Mannitol, hyperventilation.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="action" id="cell-4">
+<label>CSF analysis with specific therapy based on CSF and culture results.</label>
+</cell>
+<footnotes>
+<footnote>Tunkel AR, Hartman BJ, Kaplan SL, Kaufman BA, Roos KL, Scheld WM, Whitley RJ. Practice guidelines for the management of bacterial meningitis. <em>Clin Infect Dis</em> 2004 Nov 1;<strong>39</strong>(9):1267&#x2013;1284.<xref ref="poem130401" resource="acc021" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

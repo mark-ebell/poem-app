@@ -717,18 +717,23 @@
 <graphic href="eee0085-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected TGDC: Patient with midline neck mass</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Suspicious for infection; tender, fluctuating in size, with dysphagia</label>
+<label>Suspicious for infection: tender, fluctuating in size, with dysphagia?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Diagnostic workup including ultrasonography, thyroid scanning, and&#x002F;or CT; and obtain TSH level</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Surgical excision utilizing the Sistrunk procedure</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Initiate antibiotic therapy guided toward common upper airway bacteria</label>
+<path target="cell-3">After 6 weeks</path>
 </cell>
 </algorithm>
 </algorithm_group>

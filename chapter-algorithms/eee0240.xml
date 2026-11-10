@@ -1,0 +1,72 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>192</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Infertility Evaluation (Female): Management.</title>
+<graphic href="eee0240-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Does the woman have regular menses (confirm with menstrual diary)?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+<path target="cell-15">Unclear ovulation</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Is there a history of sexually transmitted infection or PID?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Are the periods very painful?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Evidence of sexual dysfunction?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>BBT confirms ovulation and sperm evaluation normal?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Reassurance, additional time, consider clomiphene&#x002F;intrauterine insemination.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Male partner referral and&#x002F;or trial of ovulation induction.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider education, sex therapy.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Suspect endometriosis; TVUS, consider laparoscopy.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Suspect obstruction; obtain cervical cultures and HSG.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Is there evidence of hirsutism, acne?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Evidence of endocrine dysfunction?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Laboratory tests (TSH, prolactin); treat specific cause.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Suspect PCOS; obtain TVUS, laboratory tests.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Unclear ovulation: obtain serum progesterone on day 21; if &lt;3 ng/mL evaluate as anovulation, if ≥3 ng/mL evaluate for other causes.</label>
+</cell>
+</algorithm>
+</algorithms>

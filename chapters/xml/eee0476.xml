@@ -2119,69 +2119,72 @@
 <graphic href="eee0476-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Pre-eclampsia suspected: BP &gt;140&#x002F;90, proteinuria, symptoms or rapid weight gain</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Pre-eclampsia laboratory tests: CBC with platelets, serum creatinine, LDH, AST, ALT, and 24-h urine for protein. Assess fetus: NST, BPP</label>
+<path target="cell-51881092443"></path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Gestational hypertension: If &gt;20 weeks of gestation, elevated BPs, normal laboratory tests, and urine protein &lt;300 mg in 24 h</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>If NST and AFI are reassuring, continue expectant management with increased surveillance. Weekly NST, BPP, laboratory tests. Repeat above testing for change in status (increase in BP, new or worsening proteinuria, or new symptoms). Ultrasound every 3 to 4 weeks for growth. Plan delivery in the 37th week if stable</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label> Pre-eclampsia without severe features: BPs &gt;140&#x002F;90 but &lt;160&#x002F;110 and urine protein &gt;300 mg OR symptoms&#x002F;abnormal labs</label>
+<path target="cell-3">No</path>
+<path target="cell-23">Yes</path>
 </cell>
-<cell type="decision" id="cell-7">
-<label>&lt;37 weeks</label>
-</cell>
-<cell type="action" id="cell-9">
-<label>Noncompliant patient, poor access to care, or disease progression</label>
+<cell type="decision" id="cell-9">
+<label>Noncompliant patient, poor access to care, or disease progression?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Hospitalize</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-12">
 <label>If near term, consider amniocentesis for fetal lung maturity. Deliver if mature</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>If remote from term: &#x2022; Give steroids &#x2022; BP, laboratory tests, and 12-24-h urine protein weekly to twice weekly &#x2022; Ultrasound for fetal growth every 3-4 weeks &#x2022; NST&#x002F;BPP weekly to twice weekly &#x2022; Instruct patient to report any symptoms (e.g., headache, visual changes, abdominal pain, swelling) &#x2022; Plan for delivery at 37 weeks unless other indications for delivery occur</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Indications for delivery: &#x2022; Pulmonary edema in mother &#x2022; Progressive deterioration in hepatic or renal function &#x2022; Persistent CNS symptoms (e.g., headache, vision changes, mental status changes) &#x2022; Eclampsia &#x2022; Persistent epigastric or RUQ pain or nausea&#x002F;vomiting &#x2022; Placental abruption &#x2022; Non reassuring fetal status (e.g., IUGR, oligohydramnios, abnormal NST, BPP, or umbilical artery Doppler) &#x2022; Platelets &lt;100,000 &#x2022; Severe hypertension despite 2 oral medications</label>
 </cell>
-<cell type="action" id="cell-10">
-<label>Compliant stable patient</label>
-</cell>
 <cell type="action" id="cell-15">
 <label>Can manage as an outpatient</label>
-</cell>
-<cell type="action" id="cell-8">
-<label>&gt;37 weeks</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>&#x2022; Plan for induction&#x002F;delivery within 24 h &#x2022; Magnesium sulfate is optional (4-6 g bolus then 1-2 g&#x002F;h) watch for toxicity: monitor reflexes and mental status) &#x2022; Monitor labs every 8-12 h &#x2022; Monitor fluid balance (strict intake&#x002F;output) &#x2022; Treat SBPs &gt;160, DBPs &gt;105</label>
 </cell>
 <cell type="decision" id="cell-51881092443">
 <label>Pre-eclampsia with severe features: BP &gt;160&#x002F;110, symptoms, OR abnormal labs (see Diagnostic criteria)</label>
-</cell>
-<cell type="action" id="cell-17">
-<label>&lt;25 weeks</label>
+<path target="cell-4">No</path>
+<path target="cell-20">&lt;25 weeks</path>
+<path target="cell-21">&gt;25 but &lt;34 weeks</path>
+<path target="cell-22">&gt;34 weeks</path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Offer termination: Fetal survival 6.7&#x0025;, maternal morbidity 27&#x0025;</label>
 </cell>
-<cell type="action" id="cell-18">
-<label>&gt;25 but &lt;34 weeks</label>
-</cell>
 <cell type="action" id="cell-21">
 <label>&#x2022; Admit to tertiary care hospital &#x2022; Magnesium sulfate 4-6g load then 2-3 g&#x002F;h &#x2022; Steroids &#x2022; Daily laboratory tests and fetal monitoring (NST&#x002F; BPP) &#x2022; Treat BP with up to 2 oral medications to keep BP 140-160&#x002F;90-100 &#x2022; Ultrasound for growth every 3 weeks &#x2022; Monitor for vaginal bleeding (abruption) &#x2022; Plan for delivery at 34 weeks unless other indications for delivery occur</label>
-</cell>
-<cell type="action" id="cell-19">
-<label>&gt;34 weeks</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-22">
 <label>Delivery</label>
+</cell>
+<cell type="decision" id="cell-23">
+<label>Gestational age?</label>
+<path target="cell-9">&lt;37 weeks</path>
+<path target="cell-16">&gt;37 weeks</path>
 </cell>
 <footnotes>
 <footnote>Abbreviations: BP, blood pressure; CBC, complete blood count; BUN, blood urea nitrogen; AST, aspartate transaminase; P&#x002F;C ratio, protein&#x002F;creatinine ratio; NST, non stress test; BPP, biophysical profile; HELLP, hemolysis, elevated liver enzymes, low platelets syndrome; AFI, amniotic fluid index; SBP, systolic blood pressure; DBP, diastolic blood pressure; CNS, central nervous system; RUQ, right upper quadrant; IUGR, intrauterine growth retardation.</footnote>

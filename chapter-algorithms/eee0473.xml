@@ -1,0 +1,82 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>055</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Placenta Previa: Management.</title>
+<graphic href="eee0473-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with placenta previa; assess vital signs.</label>
+<path target="cell-3">Hemodynamic instability</path>
+<path target="cell-2">Hemodynamically stable</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Actively bleeding?</label>
+<path target="cell-5">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Monitor as inpatient; advise pelvic rest.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Monitor as outpatient; consider pelvic rest.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Repeat ultrasound at 28-32 weeks.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Persistent previa?</label>
+<path target="cell-8">No</path>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Routine prenatal care.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Actively bleeding?</label>
+<path target="cell-10">No</path>
+<path target="cell-11">Yes</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Monitor as outpatient; consider pelvic rest. Give steroids at 35-36 weeks if still previa.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Monitor as inpatient; advise pelvic rest. Give steroids at 34 weeks and schedule C-section at 34-35 weeks per clinical symptoms.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Repeat ultrasound at 36 weeks.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Persistent previa? Schedule delivery at 36-37 weeks</label>
+<path target="cell-8">No</path>
+<path target="cell-14">Yes</path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Distance of placental edge from cervical os?</label>
+<path target="cell-15">&gt;2 cm</path>
+<path target="cell-16">1.1 to 2 cm</path>
+<path target="cell-17">≤1 cm</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Vaginal delivery.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>"Double setup" (attempt vaginal delivery in operating room to allow for immediate cesarean section if necessary).</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Cesarean section.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Appropriate resuscitative and stabilizing measures, including IV fluids and blood; immediate cesarean section for persistent bleeding.</label>
+</cell>
+</algorithm>
+</algorithms>

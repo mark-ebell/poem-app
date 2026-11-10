@@ -2230,26 +2230,32 @@
 <graphic href="eee0378-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Acute low back pain. Signs of cauda equina (saddle anesthesia, bowel or bladder dysfunction)?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Urgent referral and imaging.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Major cancer risk factors (new onset pain with history of cancer, multiple cancer risk factors, or strong clinical suspicion)?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Radiographs, sed rate initially, followed by MRI if indicated.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Other red flags (severe or persistent pain, significant neurologic deficit, significant trauma)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>MRI imaging.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Conservative therapy. Persistent radiculopathy in surgical or epidural injection candidate, or worsening symptoms or red flags at any time?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Continue conservative therapy. Consider physical therapy, massage, treatment for chronic back pain (see chapter).</label>

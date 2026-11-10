@@ -1,0 +1,39 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>207.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title />
+<graphic href="eee0480-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Transurethral resection (TUR). One immediate (within 24 hours) intravesical instillation of chemotherapy (mitomycin-C&#x002F;40 mg).</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Assess risk status: low risk (TaG1, T1G1 &#x2264;3 cm single tumor); high risk (T1G2 multiple tumor, TaG3 tumor, T1G3 tumor, CIS); intermediate risk (all other).</label>
+<path target="cell-6">Low-risk tumors</path>
+<path target="cell-7">Intermediate-risk tumors</path>
+<path target="cell-8">High-risk tumors</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>No adjuvant therapy. Follow-up with cystoscopy.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Intravesical chemotherapy or immunotherapy .</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Consider re-TUR when TaT1, high grade tumor has been detected at the initial TUR.</label>
+<path target="cell-11">Muscle-invasive tumor</path>
+<path target="cell-12">High-risk non-muscle-invasive tumor</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Radical cystectomy or bladder-sparing surgery together with neoadjuvant or adjuvant chemotherapy and&#x002F;or radiation therapy.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Intravesical immunotherapy.</label>
+</cell>
+</algorithm>
+</algorithms>

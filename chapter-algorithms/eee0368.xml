@@ -1,0 +1,40 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>368</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Prostatitis: Management.</title>
+<graphic href="eee0368-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected prostatitis: lower urinary tract symptoms, tender prostate, or systemic signs (such as fever).</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Initial Workup: urine culture, empiric antibiotics, consider ultrasound to rule out urinary retention</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Normal micturition?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Clinical improvement</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>2- to 4-week antibiotic regimen</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Transrectal ultrasound evaluation for possible abscess</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Suprapubic catheter</label>
+<path target="cell-4"></path>
+</cell>
+</algorithm>
+</algorithms>

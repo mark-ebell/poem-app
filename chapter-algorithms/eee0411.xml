@@ -1,0 +1,41 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>052</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suspected Spondylolysis or Spondylolisthesis in Young Athletes.</title>
+<graphic href="eee0411-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Low back pain in young athlete</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Positive 1-legged hyperextension test (does not rule out active spondylolysis if negative) or abnormal AP&#x002F;Lat&#x002F;Oblique radiographs of lumbar spine.</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No, but high index of suspicion (at-risk athlete)</path>
+<path target="cell-5">No and not a high-risk athlete</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Relative rest for at least 2-4 weeks, NSAIDs or acetaminophen for pain.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>CT scan, consider MRI in case of associated neural compression or young age.</label>
+<path target="cell-3">Abnormal</path>
+<path target="cell-5">Normal</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider other diagnoses.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Consider bracing if still symptomatic after 2-4 weeks.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Return to play when pain free activity. If symptoms persist, consider referral.</label>
+</cell>
+</algorithm>
+</algorithms>

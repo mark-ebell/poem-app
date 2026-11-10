@@ -1,0 +1,75 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>024</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Treatment of Temporomandibular Joint Syndrome.<xref ref="pubmed33685496" resource="acc038" /></title>
+<graphic href="eee0094-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected TMJ disorder: Pain in the area of the TMJ, difficulty chewing, joint clicking or popping, and chronic undifferentiated headache.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Signs of locked jaw?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider urgent treatment with muscle relaxants, oral or IV benzodiazepines.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Signs of a dislocated TMJ?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Proceed immediately to reduction of the dislocated joint, consider IV pain control and&#x002F;or IV benzodiazepines prior to procedure.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Point tenderness suggestive of a myofascial trigger point?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider intramuscular trigger point injection with local anesthetic.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Dental pathology (caries, dental abscess, etc.) on exam?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Refer for dental evaluation.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Infectious etiology causing pain? (Otitis media, otitis externa, parotitis, mastoiditis, and herpes zoster, etc.)</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Treat with appropriate antimicrobial therapy.</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Symptoms consistent with trigeminal neuralgia?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Treat accordingly.</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Signs or symptoms suggestive of other pathology?</label>
+<path target="cell-16">No</path>
+<path target="cell-17">Yes</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Recommend self-care for TMJ disorders: rest the masticatory muscles with a soft diet, use NSAIDs or acetaminophen for pain, apply moist heat to the joint for muscle relaxation, and reduce stress and anxiety. Consider referral for other noninvasive therapies such as physical therapy modalities, acupuncture, massage, hypnosis, or stress management. Consider prescription for muscle relaxants, anxiolytics, tri-cyclic antidepressants.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Evaluate and treat the other condition</label>
+</cell>
+</algorithm>
+</algorithms>

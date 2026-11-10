@@ -1,0 +1,104 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>127</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Overall Approach to Patient with Suspected T1DM.</title>
+<graphic href="eee0126-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspect T1DM due to abrupt onset polyuria, polydipsia, weight loss. Fasting glucose &#x2265;126, casual glucose &#x2265;200 mg&#x002F;dL, or abnormal glucose tolerance test?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Repeat testing on another day. Abnormal?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Monitor patient, repeat testing if symptomatic.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Same day referral for care and education. Diagnosis of T1DM clear?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Type 1 diabetes. Treat with intensive insulin therapy (multiple daily injections or continuous insulin infusion). Optimize cardiovascular risk factors. A1C at goal for age?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider postprandial hyperglycemia (pramlintide may be helpful), adherence, depression, and eating disorders.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Keep at least quarterly follow-up during medication changes.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Check diabetes autoantibodies (GAD65) and basal and/or stimulated C-peptide. Positive GAD65 and low C-peptide?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Highly suggestive of T2DM. Treat as appropriate.</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>127</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Preoperative Management of T1DM.</title>
+<graphic href="eee0126-w0002.gif" />
+<cell type="start" id="cell-10">
+<label>T1DM patient needs surgery. Schedule as first case in morning if possible.</label>
+<path target="cell-12">Emergent</path>
+<path target="cell-11">Elective</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>1-2 wk prior to surgery, assess glycemic management? Is it adequate for age?</label>
+<path target="cell-14">No</path>
+<path target="cell-13">Yes</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Preoperative management based on regimen.</label>
+<path target="cell-17">Split-mixed insulin regimen (eg NPH/regular)</path>
+<path target="cell-16">Basal-bolus insulin regimen (eg glargine/aspart)</path>
+<path target="cell-15">Continuous infusion regimen</path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Expected duration of surgery &gt;2 h?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Continue pump.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Start glucose-insulin infusion for surgery.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Hold breakfast, check morning glucose. If the blood glucose level is &gt;250, use the insulin correction factor to calculate the necessary insulin dose for correction to 100-200 range. Insulin correction factor: take 1500 and divide by patient's total daily insulin requirement. That is the amount 1 unit of insulin will decrease the blood glucose level. For example, if a patient's total daily dose of insulin is 50 units, it takes 1 unit of insulin to decrease her surgar by 30 mg&#x002F;dL.</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Day of surgery: No short-acting insulin. Give any basal insulin as scheduled.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Day of surgery: No short-acting insulin. Only &#x00BD; dose of NPH.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Adjust regimen prior to clearance.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>If possible delay surgery until pH, electrolytes, and glucose is stabilized &#x2026; then preoperative management based on regimen.</label>
+</cell>
+</algorithm>
+</algorithms>

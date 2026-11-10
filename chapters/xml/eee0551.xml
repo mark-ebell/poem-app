@@ -679,36 +679,52 @@
 <graphic href="eee0551-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Symptoms of wetting; age &gt;5 years</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Ever continent for 6 months?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Primary enuresis</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Daytime symptoms? (Diurnal enuresis)</label>
+<path target="cell-8">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Urinary frequency, urgency, hesitancy, unusual posture&#x002F;straining for urination?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Monosymptomatic nocturnal enuresis</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Obstructive sleep symptoms?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Abnormal lower-body neuromuscular exam results?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Lower-body neuromuscular exam results abnormal?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
 </cell>
-<cell type="action" id="cell-14">
+<cell type="decision" id="cell-14">
 <label>Developmentally appropriate for age?</label>
+<path target="cell-15">Yes</path>
 </cell>
 <cell type="action" id="cell-15">
-<label>Consider treatments for primary monosymptomatic enuresis (<xref ref="fig002" />)</label>
+<label>Consider treatments for primary monosymptomatic enuresis (Algorithm 2)</label>
 </cell>
 <cell type="action" id="cell-13">
 <label>Treat underlying condition</label>
@@ -721,12 +737,16 @@
 </cell>
 <cell type="action" id="cell-4">
 <label>Secondary enuresis</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="decision" id="cell-16">
 <label>Psychological stressors&#x002F;symptoms (ie, recent family changes, divorce, suggestion of abuse)?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-17">No</path>
 </cell>
-<cell type="action" id="cell-17">
+<cell type="decision" id="cell-17">
 <label>Physiological symptoms (ie, fevers, dysuria, polyphagia, polydipsia, weight changes)?</label>
+<path target="cell-19">Yes</path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Consider UTI, diabetes mellitus</label>
@@ -745,33 +765,47 @@
 <graphic href="eee0551-w0002.gif" />
 <cell type="start" id="cell-20">
 <label>Educate and reassure patient and family of nonvolitional nature of problem, inform them of the natural history and that there is no underlying physiological or psychological issue (demystify the problem)</label>
+<path target="cell-101"></path>
 </cell>
-<cell type="start" id="Paste_1486591229511_4303">
+<cell type="action" id="cell-101">
 <label>Treat co morbidities such as constipation, sleep apnea and daytime urinary symptoms</label>
+<path target="cell-21"></path>
 </cell>
 <cell type="action" id="cell-21">
 <label>Behavioral approach: (1) Maintain good daytime hydration, limit fluids before bedtime, especially caffeine; (2) encourage using bathroom before bedtime; (3) use reward chart for dry nights; (4) involve child in caring for laundry&#x002F;cleanup without being punitive; (5) try waking child and taking to bathroom during the night; (6) keep voiding log book</label>
+<path target="cell-22"></path>
 </cell>
 <cell type="decision" id="cell-22">
 <label>Re-evaluate in 3 months. Dry?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-23">
 <label>Alarm therapy. Important that both child and parents are motivated</label>
+<path target="cell-25"></path>
 </cell>
 <cell type="decision" id="cell-25">
 <label>Re-evaluate in 3 months. Dry?</label>
+<path target="cell-27">Yes</path>
+<path target="cell-26">No</path>
 </cell>
 <cell type="action" id="cell-26">
 <label>Desmopressin: 10-40 micrograms nasally or 200-400 micrograms tablet orally, titrate weekly to effective dose</label>
+<path target="cell-28"></path>
 </cell>
 <cell type="decision" id="cell-28">
 <label>Re-evaluate in 3 months. Dry?</label>
+<path target="cell-30">Yes</path>
+<path target="cell-29">No</path>
 </cell>
 <cell type="action" id="cell-29">
 <label>Continue desmopressin. Add oxybutynin 2.5 mg to 5 mg orally up to TID</label>
+<path target="cell-31"></path>
 </cell>
 <cell type="decision" id="cell-31">
 <label>Re-evaluate in 3 months. Dry?</label>
+<path target="cell-33">Yes</path>
+<path target="cell-32">No</path>
 </cell>
 <cell type="action" id="cell-32">
 <label>Urology referral</label>

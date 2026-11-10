@@ -410,15 +410,20 @@
 </cell>
 <cell type="action" id="cell-2">
 <label>Further laboratory evaluation indicated.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Initial hemostasis tests: CBC with platelets, PT, aPTT, fibrinogen, VWD antigen, VWD:RCo, and factor VIII coagulant.</label>
+<path target="cell-6">No abnormal tests identified</path>
+<path target="cell-5">One or more tests abnormal</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Referral to a hematologist or comprehensive hemophilia center to confirm diagnosis and develop management plan.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>High index of suspicion for clotting disorder?</label>
+<path target="cell-3">No</path>
+<path target="cell-5">Yes</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>No further evaluation indicated.</label>

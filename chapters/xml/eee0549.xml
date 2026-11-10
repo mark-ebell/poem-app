@@ -573,44 +573,61 @@
 <cell type="start" id="cell-1">
 <label>Determine degree of dehydration: How many of the following signs are present? Dry mucous membranes, absent tears, prolonged capillary refill, ill appearance.</label>
 <path target="cell-5">None (0-1 sign)</path>
-<path target="cell-10">Mild&#x002F;moderate (2 signs)</path>
+<path target="cell-10">Mild/moderate (2 signs)</path>
 <path target="cell-17">Severe (3-4 signs)</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Feed usual diet. If vomiting, offer small frequent amounts multiple times per hour.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Risk of bacterial infection? - Bloody stools? - High fever? - Foreign travel? - Community outbreak? - Recent antibiotics?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider stool culture, ova and parasites, <em>C. dificile</em> toxin. Use antibiotics* if a causative organism is isolated. *Do not use antibiotics for <em>E. coli</em> 0157:H7 diarrhea, as this has been associated with hemolytic-uremic syndrome (HUS).</label>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider probiotics.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Parent and patient education: - Return to school or daycare - Prevention of infection.</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Give ORS 50 to 100 mL&#x002F;kg over 3 to 4 hours, plus 10 mL&#x002F;kg per stool or emesis. Begin with 5 to 10 mL every 5 minutes and increase as tolerated.</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Consider ondansetron (0.15 mg&#x002F;kg) PO or IV, if vomiting.</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Oral intake sufficient for ongoing losses?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Give 20 mL&#x002F;kg NS or LR in repeated boluses until perfusion and&#x002F;or mental status improve, then D5 NS to replace fluid until able to take PO. (With urine output, consider adding KCl to IVF until able to take PO - D5NS + 10-20 MEq KCl&#x002F;L). Consider checking basic metabolic panel. Correct hypo&#x002F;hypernatremia if present.</label>
+<path target="cell-15"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Consider ondansetron, if vomiting.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Resume regular diet once rehydrated. Consider continuing ORS 10 mL&#x002F;kg per stool or emesis.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-17">
 <label>Treat with IV fluids or NG ORS.</label>
+<path target="cell-10">NG</path>
+<path target="cell-13">IV</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Consider checking basic metabolic panel. Correct hypo/hypernatremia if present.</label>
+<path target="cell-16"></path>
 </cell>
 <footnotes>
 <footnote>Adapted from Acute Gastroenteritis Guideline Team, Cincinnati Children&#x2019;s Hospital Medical Center: Evidence-based clinical care guideline for medical management of acute gastroenteritis in children aged 2 months through 5 years. Guideline 5, pages 1-15, October 31, 2005. Evidence-Based Care Guidelines. Cincinnati Children's Hospital Medical Center. http:&#x002F;&#x002F;www.cincinnatichildrens.org&#x002F;svc&#x002F;alpha&#x002F;h&#x002F;health-policy&#x002F;ev-based&#x002F;gastro.htm.<xref ref="web001" /> and King CK, Glass R, Bresee JS, Duggan C, Centers for Disease Control and Prevention. Managing acute gastroenteritis among children: oral rehydration, maintenance, and nutritional therapy. <em>MMWR Recomm Rep</em> 2003;<strong>52</strong>:1&#x2013;16.<xref ref="pubmed14627948" resource="acc005" />

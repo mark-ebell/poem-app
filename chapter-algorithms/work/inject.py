@@ -36,7 +36,16 @@ def load():
             skips.pop(key, None)
     return specs, skips
 
+def renumber(alg):
+    # cells with ids that are not cell-N (eg pasted "Paste_..." ids) become cell-101, cell-102, ...
+    n = [100]
+    def sub(m):
+        n[0] += 1
+        return f'id="cell-{n[0]}"'
+    return re.sub(r'id="(?!cell-\d+")[^"]*"(?=>\s*<label)', sub, alg)
+
 def apply(alg, ops):
+    alg = renumber(alg)
     cells = re.findall(r'<cell\b[^>]*>[\s\S]*?</cell>', alg)
     info = {}
     order = []

@@ -553,21 +553,30 @@
 <graphic href="eee0165-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Uncomplicated anal fissure without history of Crohn's or HIV. Rule out malignancy if red flags.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Trial of topical nitroglycerine or calcium channel blocker. Increase water and fiber, consider Sitz baths, use analgesics. Healed at 6 to 8 weeks?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Done.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Any improvement?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Second course of topical therapy (nitroglycerin or calcium channel blocker). Treatment failure?</label>
+<path target="cell-3">No</path>
+<path target="cell-7">Yes</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Trial of botox. Treatment failure?</label>
+<path target="cell-3">No</path>
+<path target="cell-6">Yes</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Consider lateral internal sphincterotomy or fissurectomy, and further diagnostic testing.</label>

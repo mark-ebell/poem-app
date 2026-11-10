@@ -1,0 +1,33 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>346</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Ovarian Tumor in Pregnancy: Management.</title>
+<graphic href="eee0510-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Potentially malignant adnexal mass in pregnancy. Type of mass?</label>
+<path target="cell-2">Cystic</path>
+<path target="cell-3">Solid</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Follow-up ultrasound until approximately16 weeks. Increase in size or change in character?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Follow-up postpartum.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Laparoscopy with histologic evaluation.</label>
+<path target="cell-4">Benign</path>
+<path target="cell-5">Malignant</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Staging including laparotomy and histological diagnosis; chemotherapy at &gt;12-15 weeks' gestation.</label>
+</cell>
+</algorithm>
+</algorithms>

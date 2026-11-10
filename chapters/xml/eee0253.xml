@@ -1400,21 +1400,32 @@
 <graphic href="eee0253-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Woman presents with vaginal symptoms (discharge, itching, and odor).</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>History of fever, abdominal pain, cervical motion tenderness, prior history of sexually transmitted infection?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>pH &#x003E;4.5; Microscopy: Mobile flagellated trichomonads, Exam: strawberry cervix, vulvar erythema, and&#x002F;or burning&#x002F;itching?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Intense itching, vulvar edema, thick, white, "cottage cheese" discharge and&#x002F;or KOH positive for fungal hyphae?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Three of 4 Amsel criteria (thin homogeneous discharge; positive whiff test; clue cells- at least 20&#x0025; of epithelial cells; pH &#x003E;4.5)?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Discharge variable, no clear pathogen. Symptoms cyclical, increased length of the bacilli?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>If only symptom is discharge, pH normal (4-4.5); whiff test negative; no white cells likely normal discharge. If additional symptoms present, consider treatment for most likely pathogen.</label>

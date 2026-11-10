@@ -765,18 +765,26 @@
 <graphic href="eee0215-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Acute pancreatitis diagnosed: Order CBC, complete metabolic profile, CRP, amylase, lipase</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Assess severity using validated clinical rule: (Ranson Rule 137, BALI Rule 350, or Imrie Rule 139 scores).</label>
+<path target="cell-3">Mild or moderate</path>
+<path target="cell-4">Severe</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Basic treatment includes fluid resuscitation, monitoring vital signs, enteral nutrition, and pain relief; nasogastric suction only in presence of ileus. Improving?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Continue supportive care; advance diet as tolerated.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Order contrast CT to rule out cyst, abscess, or other diagnosis; admit to ICU for respiratory and hemodynamic support, enteral nutrition, and management of organ failure; give antibiotics to prevent infection.</label>
+<path target="cell-5">No infection</path>
+<path target="cell-6">Infected pancreatic necrosis</path>
+<path target="cell-7">Pancreatic abscess</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Continue antibiotics and supportive care; consider necrosectomy&#x002F;drainage if unstable or not improving.</label>

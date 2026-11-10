@@ -1,0 +1,60 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Breast Cancer: Management.</title>
+<graphic href="eee0483-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with radiographic suspicion or core biopsy-proven breast cancer. Is patient a candidate for breast conservation?</label>
+<path target="cell-2">No contraindications</path>
+<path target="cell-3">Contraindicated or requests a mastectomy</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Discuss options for local therapy and additional services needed (eg, medical or radiation oncology, genetic counseling, psychosocial support).</label>
+<path target="cell-3">Chooses mastectomy</path>
+<path target="cell-4">Chooses breast-conserving therapy</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Lumpectomy (complete excision of abnormality with a small margin of normal breast tissue and careful orientation for the pathologist).</label>
+<path target="cell-5">Stage 0</path>
+<path target="cell-6">Stage I to III</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Large (&gt;2.5 cm), comedo-carcinoma, or palpable?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Sentinel lymph node biopsy; if negative, additional lymph node removal may be avoided. Axillary node dissection (proven or suspicious axillary involvement) or surgeon preference.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Postsurgical treatment based on stage.</label>
+<path target="cell-7">Stage I</path>
+<path target="cell-9">Stage II or III</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Review risk of recurrence. Radiation therapy within 7 weeks. Additional options to consider: if ER&#x002F;PR+, hormone OR chemotherapy; if ER&#x002F;PR-, chemotherapy OR observation.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>&#x2022; Review risk of recurrence. Radiation therapy plus hormone and chemotherapy if ER&#x002F;PR+, chemotherapy or observation if ER&#x002F;PR-.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider mastectomy with immediate reconstructive surgery (offered to women with Stage 0-III breast cancer); discuss additional services needed.</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Postoperative treatment. Radiation therapy. If ER&#x002F;PR+, hormone&#x2020; and&#x002F;or chemotherapy based on stage. If ER&#x002F;PR&#x2212;, chemotherapy or observation based on stage.</label>
+</cell>
+<footnotes>
+<footnote>Diffuse microcalcifications, gross multicentric disease or gross multifocal disease, lesions greater than 5 cm, inflammatory carcinoma, previous significant radiation treatment that included breast in the field, pregnancy (relative contraindication), and collagen vascular diseases, including lupus and scleroderma (relative contraindications).</footnote>
+<footnote>Hormone therapy may include tamoxifen or aromatase inhibitor or tamoxifen followed by aromatase inhibitor. Aromatase inhibitors are only appropriate for postmenopausal women. Oophorectomy may be considered in premenopausal patients. Monoclonal antibody therapy should be considered for women with HER2&#x002F;neu-positive breast cancers following adjuvant chemotherapy.</footnote>
+<footnote>Consider using Web-based decision making tools, such as Adjuvant or the Mayo Clinic tool (<resourceLink href="https://www.adjuvantonline.com">https:&#x002F;&#x002F;www.adjuvantonline.com</resourceLink> or <resourceLink href="https://www.mayoclinic.com/calcs">https:&#x002F;&#x002F;www.mayoclinic.com&#x002F;calcs</resourceLink>).</footnote>
+<footnote>Data from Institute for Clinical Systems Improvement. [<resourceLink href="http://www.guidelines.gov/summary/summary.aspx?view_id=1&amp;doc_id=8149">http:&#x002F;&#x002F;www.guidelines.gov&#x002F;summary&#x002F;summary.aspx?view&#x005F;id&#x003D;1&amp;doc&#x005F;id&#x003D;8149</resourceLink>].</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

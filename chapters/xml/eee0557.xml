@@ -416,11 +416,13 @@
 <graphic href="eee0557-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Hirschsprung's disease suspected: constipation, abdominal distension, delayed passage of meconium, tight anal canal. Age?</label>
-<path target="cell-2">&lt;3 years old</path>
-<path target="cell-3">&gt;3 years old</path>
+<path target="cell-2">Younger than 3 years</path>
+<path target="cell-3">3 years or older</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Suction rectal biopsy</label>
+<path target="cell-4">No ganglia</path>
+<path target="cell-5">Ganglia present</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Full thickness biopsy</label>
@@ -430,6 +432,8 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Barium enema and&#x002F;or rectal manometry</label>
+<path target="cell-4">Abnormal</path>
+<path target="cell-5">Normal result</path>
 </cell>
 </algorithm>
 </algorithm_group>

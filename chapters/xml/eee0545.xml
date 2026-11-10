@@ -575,30 +575,39 @@
 <graphic href="eee0545-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected VH: Sudden painless decrease of vision or appearance of floaters, cobwebs, or haze.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Symptoms of flashes of light?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Ocular history: trauma, surgeries, underlying retinal diseases including diabetic retinopathy, vascular occlusive disease, history of retinal detachment in fellow eye.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Systemic history: diabetes, hypertension (risk of retinal vein occlusion and retinal macroaneurysm), sickle cell disease, malignancy or bleeding diathesis. Measure blood pressure.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Ocular examination: Red blood cells in vitreous?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider other diagnoses.</label>
 </cell>
 <cell type="action" id="cell-8">
 <label>Diagnosis of vitreous hemorrhage.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Urgent ophthalmology consultation.</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Raises suspicion for posterior vitreous detachment or retinal tear.</label>
+<path target="cell-9"></path>
 </cell>
 </algorithm>
 </algorithm_group>

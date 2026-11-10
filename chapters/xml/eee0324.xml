@@ -658,15 +658,21 @@
 <graphic href="eee0324-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Bacterial meningitis suspected. Order CBC, blood culture, skin biopsy (if rash present), empiric antibiotic therapy (third-generation, cephalosporin &#x00B1; vancomycin) plus dexamethasone.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Signs of increased intracranial pressure (eg, papilledema)?</label>
+<path target="cell-3">Present</path>
+<path target="cell-4">Absent</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>CT of head. Signs of intracranial pressure?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Mannitol, hyperventilation.</label>
+<path target="cell-4"></path>
 </cell>
 <cell type="action" id="cell-4">
 <label>CSF analysis with specific therapy based on CSF and culture results.</label>

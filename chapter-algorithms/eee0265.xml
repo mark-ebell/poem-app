@@ -1,0 +1,48 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>ddd</id>
+<supertype />
+<last_update />
+</meta>
+<title>Hereditary Spherocytosis: Diagnosis.</title>
+<graphic href="eee0265-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with DAT-negative hemolytic anemia, spherocytes, and increased MCHC</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Family history of hereditary spherocytosis?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Typical clinical and laboratory features?</label>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Diagnosis confirmed, no further workup necessary.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Typical clinical and laboratory features?</label>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Reconsider other diagnoses. Additional testing as indicated.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Confirmed with flow cytometry (EMA) or cryohemolysis (alternatively osmotic fragility)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Confirmed with SDS-PAGE?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<footnotes>
+<footnote>DAT, direct antiglobulin test; EMA, flow cytometry using eosin-5- maleimide; SDS-PAGE, sodium dodecyl sulfate polyacrylamide gel electrophoresis.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

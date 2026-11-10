@@ -914,12 +914,15 @@
 <graphic href="eee0121-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Clinical suspicion for Cushing's syndrome (CS)? Select initial diagnostic test.</label>
-<path target="cell-2">11 pm salivary cortisol</path>
+<path target="cell-2">11 PM salivary cortisol</path>
 <path target="cell-3">Overnight 1-mg dexamethasone suppression test</path>
-<path target="cell-4">24-h urinary free cortisol</path>
+<path target="cell-4">24-hour urinary free cortisol</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Result? (Normal &lt;0.11 &#x03BC;g&#x002F;dL)</label>
+<path target="cell-5">Over 0.25 µg/dL</path>
+<path target="cell-7">Under 0.11 µg/dL</path>
+<path target="cell-6">0.11–0.25 µg/dL</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>CS very likely.</label>
@@ -938,9 +941,14 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Result? (Normal &lt;1.8 &#x03BC;g&#x002F;dL)</label>
+<path target="cell-7">Under 1.8 µg/dL</path>
+<path target="cell-6">Over 1.8 µg/dL</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Result? (Normal 20-100 &#x03BC;g&#x002F;dL)</label>
+<path target="cell-7">20–100 µg/dL</path>
+<path target="cell-10">100–400 µg/dL</path>
+<path target="cell-6">Over 400 µg/dL</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>CS very likely.</label>
@@ -959,24 +967,30 @@
 <graphic href="eee0121-w002.gif" />
 <cell type="start" id="cell-11">
 <label>Biochemical confirmation of CS. Order ACTH level.</label>
-<path target="cell-12">&#x003E;15 pg&#x002F;mL ACTH-dependent</path>
-<path target="cell-12">5-15 pg&#x002F;mL</path>
-<path target="cell-14">&lt;5 pg&#x002F;mL ACTH-independent</path>
+<path target="cell-12">ACTH 5 pg/mL or more (ACTH-dependent)</path>
+<path target="cell-14">ACTH under 5 pg/mL (ACTH-independent)</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Two options: (1) High-dose dexamethasone suppression test. Give 8 mg by mouth overnight or 2 mg every 6 h for 48 h; &#x003E;50&#x0025; serum cortisol suppression? (2) CRH stimulation test. &#x003E;20&#x0025; increase above basal serum cortisol post-CRH or &#x003E;35&#x0025; increase above basal serum ACTH post-CRH?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-13">No</path>
 </cell>
-<cell type="action" id="cell-15">
+<cell type="decision" id="cell-15">
 <label>Cushing's disease.</label>
+<path target="cell-18"></path>
 </cell>
 <cell type="action" id="cell-18">
 <label>MRI scan pituitary, surgery for operable tumor.</label>
 </cell>
 <cell type="decision" id="cell-16">
 <label>BIPSS with CRH. Gradient present (BIPSS to peripheral ACTH ratio &#x003E;2 in the basal state and&#x002F;or &#x003E;3 after CRH)?</label>
+<path target="cell-18">Gradient</path>
+<path target="cell-19">No gradient</path>
 </cell>
 <cell type="decision" id="cell-19">
 <label>CT&#x002F;MRI (neck&#x002F;chest&#x002F;abdomen&#x002F;pelvis) or octreotide scan.</label>
+<path target="cell-20">Ectopic source localized</path>
+<path target="cell-21">Not localized</path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Surgery for operable tumor.</label>
@@ -984,11 +998,14 @@
 <cell type="action" id="cell-21">
 <label>Follow-up and re-image.</label>
 </cell>
-<cell type="action" id="cell-17">
+<cell type="decision" id="cell-17">
 <label>Ectopic ACTH syndrome.</label>
+<path target="cell-19"></path>
 </cell>
-<cell type="action" id="cell-13">
+<cell type="decision" id="cell-13">
 <label>High suspicion for ectopic ACTH syndrome?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Order CT or MRI of adrenals. Suspect primary adrenal disorders: Adrenal adenoma or carcinoma, macronodular or micronodular hyperplasia.</label>

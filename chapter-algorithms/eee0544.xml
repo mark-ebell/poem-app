@@ -1,0 +1,230 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>347.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Visual Loss (Adults): Diagnosis.</title>
+<graphic href="eee0544-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Adult with recent vision loss. Transient (&lt;24 h) monocular vision loss?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Suspect temporal arteritis (eg, older than 50 years, jaw claudication, head pain, fever)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Eye pain present, especially with eye movement?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Acute onset of light flashes and&#x002F;or floaters?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Hypertensive or history of vascular disease?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Patient diabetic with evidence of diabetic retinopathy on examination?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider open angle glaucoma or age-related macular degeneration. Refer to general ophthalmologist for evaluation.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Optimize diabetes management; refer to retinal specialist for full retinal assessment and initial treatment.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Consider retinal artery&#x002F;vein occlusion or ischemic nonarteritic optic neuritis. Refer urgently to retinal specialist.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Suspect retinal detachment; refer to retinal specialist as an emergency.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Suspect acute optic neuritis. Urgent neuro-ophthalmologist referral for further revaluation (eg, MRI, lumbar puncture, tests for syphilis and tuberculosis, CXR, and antinuclear antibodies).</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>CRP, ESR, CBC, and emergent referral for temporal artery biopsy. Initiate steroids prior to biopsy results.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider cerebrovascular disease, cardiac embolic disease, or intracranial mass. Order appropriate imaging urgently.</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>347.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Monocular Vision Loss in Individuals Younger Than 18 Years: Diagnosis.</title>
+<graphic href="eee0544-w002.gif" />
+<cell type="start" id="cell-14">
+<label>Monocular vision loss or suspected loss.</label>
+<path target="cell-15">Gradual loss</path>
+<path target="cell-16">Sudden loss</path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>History of trauma or evidence of child abuse?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Associated with progressive eye turn or leukocoria?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-20">No</path>
+</cell>
+<cell type="action" id="cell-19">
+<label>Rule out retinoblastoma.</label>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Associated with frank papilledema?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-21">
+<label>Rule out uncorrected or undercorrected refractive error.</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Suspect brain tumor, meningioma and&#x002F;or congenital CNS malformation. Order MRI and obtain neuro-opthalmologic consult.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Slowly progressive cataract, iridodialysis.</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Associated with eye pain?</label>
+<path target="cell-23">Yes</path>
+<path target="cell-24">No</path>
+</cell>
+<cell type="decision" id="cell-23">
+<label>Associated with a perilimbal injection; pain not associated with eye movement.</label>
+<path target="cell-26">Yes</path>
+<path target="cell-25">No</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Suspect anterior or retrobulbar optic neuritis.</label>
+<path target="cell-27"></path>
+</cell>
+<cell type="action" id="cell-27">
+<label>Obtain MRI of brain and optic nerves. Rule out demyelinization. Obtain neuro-ophthalmologic consult.</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>Suspect anterior uveitis or corneal injury.</label>
+<path target="cell-28"></path>
+</cell>
+<cell type="action" id="cell-28">
+<label>Obtain eye consult.</label>
+</cell>
+<cell type="decision" id="cell-24">
+<label>History of eye trauma or evidence of child abuse?</label>
+<path target="cell-29">Yes</path>
+<path target="cell-30">No</path>
+</cell>
+<cell type="action" id="cell-29">
+<label>Suspect intraocular injury&#x002F;retinal detachment, dislocated lens, hyphema.</label>
+</cell>
+<cell type="decision" id="cell-30">
+<label>Evidence of leukocoria or eye turn?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-31">No</path>
+</cell>
+<cell type="decision" id="cell-31">
+<label>Evidence of unilateral large eye with enlarged corneal diameter and&#x002F;or tearing?</label>
+<path target="cell-32">Yes</path>
+</cell>
+<cell type="action" id="cell-32">
+<label>Suspect congenital glaucoma.</label>
+</cell>
+</algorithm>
+<algorithm id="fig003">
+<meta>
+<id>347.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Binocular Vision Loss in Individuals Younger Than 18 Years: Diagnosis.</title>
+<graphic href="eee0544-w003.gif" />
+<cell type="start" id="cell-33">
+<label>Binocular vision loss.</label>
+<path target="cell-34">Gradual onset</path>
+<path target="cell-35">Sudden onset</path>
+</cell>
+<cell type="decision" id="cell-34">
+<label>Associated with hearing loss, poor night vision, color vision deficiency, or family history of inherited retinal disease?</label>
+<path target="cell-37">Yes</path>
+<path target="cell-36">No</path>
+</cell>
+<cell type="decision" id="cell-36">
+<label>History of headache and evidence of papilledema?</label>
+<path target="cell-39">Yes</path>
+<path target="cell-38">No</path>
+</cell>
+<cell type="action" id="cell-38">
+<label>Suspect uncorrected or undercorrected refractive error or malingering.</label>
+</cell>
+<cell type="action" id="cell-39">
+<label>Suspect brain tumor and&#x002F;or congenital CNS malformation, hydrocephalus or pseudo tumor cerebri. Obtain brain imaging and ophthalmologic consult.</label>
+</cell>
+<cell type="action" id="cell-37">
+<label>Suspect hereditary retinal disease.</label>
+</cell>
+<cell type="decision" id="cell-35">
+<label>History of trauma, head injury or evidence of child abuse?</label>
+<path target="cell-40">Yes</path>
+<path target="cell-41">No</path>
+</cell>
+<cell type="action" id="cell-40">
+<label>Suspect cortical injury, bilateral vitreal hemorrhage, or bilateral retinal injury. Obtain brain imaging, ophthalmologic consult, and possibly child protective services.</label>
+</cell>
+<cell type="decision" id="cell-41">
+<label>Evidence of hypoxic ischemia in the perinatal period, or meningitis&#x002F;encephalitis?</label>
+<path target="cell-43">Yes</path>
+<path target="cell-42">No</path>
+</cell>
+<cell type="decision" id="cell-42">
+<label>Evidence of present or recent flu-like illness?</label>
+<path target="cell-44">Yes</path>
+<path target="cell-45">No</path>
+</cell>
+<cell type="action" id="cell-44">
+<label>Rule out disseminated encephalomyelitis secondary to infectious or inflammatory disease process. Obtain infectious disease and ophthalmologic consult.</label>
+</cell>
+<cell type="decision" id="cell-45">
+<label>Bilateral disc edema present?</label>
+<path target="cell-47">Yes</path>
+<path target="cell-46">No</path>
+</cell>
+<cell type="decision" id="cell-46">
+<label>Associated with bilateral perilimbal injection and eye pain not related to eye movement?</label>
+<path target="cell-49">Yes</path>
+<path target="cell-48">No</path>
+</cell>
+<cell type="action" id="cell-48">
+<label>Perform physical examination with CBC and comprehensive metabolic panel; rule out diabetes mellitus; obtain eye consult.</label>
+<path target="cell-38"></path>
+</cell>
+<cell type="action" id="cell-49">
+<label>Probable anterior uveitis. Rule out probable autoimmune disease based on signs and symptoms; obtain eye consult.</label>
+</cell>
+<cell type="action" id="cell-47">
+<label>Suspect bilateral optic neuritis.</label>
+<path target="cell-50"></path>
+</cell>
+<cell type="action" id="cell-50">
+<label>Obtain brain imaging and ophthalmologic consult.</label>
+</cell>
+<cell type="action" id="cell-43">
+<label>Suspect cortical vision impairment.</label>
+<path target="cell-50"></path>
+</cell>
+</algorithm>
+</algorithms>

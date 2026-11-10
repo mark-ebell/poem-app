@@ -459,18 +459,25 @@
 <graphic href="eee0104-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Acute mastoiditis suspected (otalgia, fever, postauricular swelling, tenderness, and&#x002F;or erythema present).</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
+<cell type="decision" id="cell-2">
 <label>Hospitalize. Begin IV antibiotic therapy. Monitor for complications.</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Is there evidence of complication (subperiosteal abscess, sinus thrombosis, meningitis, labyrinthitis, petrositis, facial nerve palsy)?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>Strongly consider imaging screen for occult complications.</label>
+<path target="cell-6">No coalescence or intracranial complications</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Is tympanic membrane intact?</label>
+<path target="cell-8">No</path>
+<path target="cell-7">Yes</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Continue IV antibiotics. Monitor for complications.</label>
@@ -480,12 +487,16 @@
 </cell>
 <cell type="decision" id="cell-5">
 <label>Obtain appropriate imaging temporal HR-CT to screen for bony opacification, bony destruction, coalescence. Cranial CT with contrast for intracranial complications.</label>
+<path target="cell-6">No coalescence or intracranial complications</path>
+<path target="cell-10">Intracranial complication</path>
+<path target="cell-11">Evidence of coalescence</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Refer to neurosurgery.</label>
 </cell>
-<cell type="action" id="cell-11">
+<cell type="decision" id="cell-11">
 <label>Refer for mastoidectomy.</label>
+<path target="cell-7"></path>
 </cell>
 </algorithm>
 </algorithm_group>

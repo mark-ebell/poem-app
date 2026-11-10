@@ -369,18 +369,23 @@
 <graphic href="eee0102-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected VN: Patient with acute onset of vertigo, nausea, vomiting, and imbalance or gait disturbance.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Assess for risk factors for CVD, severe headache, or inability to stand. Perform head thrust test, Romberg, and thorough neurology exam.</label>
+<path target="cell-3"></path>
 </cell>
-<cell type="action" id="cell-3">
-<label>Head thrust positive for peripheral nystagmus, Romberg positive toward affected side, and no focal neurologic deficits or significant risk factors for CVA?</label>
+<cell type="decision" id="cell-3">
+<label>Head thrust positive for peripheral nystagmus, Romberg positive toward affected side, and no focal neurologic deficits or significant risk factors for stroke?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Start methylprednisolone at 100 mg a day and taper. Treat acute symptoms with antihistamines, anticholinergics, benzodiazepines, or antiemetics.</label>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>If any risk factors or other neurologic signs proceed with MRI of head with contrast.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Treat according to identified cause.</label>

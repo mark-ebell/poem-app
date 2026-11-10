@@ -619,18 +619,24 @@
 <graphic href="eee0161-w001.gif" />
 <cell type="start" id="cell-1">
 <label>What is the location of the palpable abdominal mass?</label>
-<path target="cell-2"> Upper abdomen </path>
-<path target="cell-3"> Lower abdomen </path>
-<path target="cell-4"> Identified midline </path>
+<path target="cell-2">Upper abdomen</path>
+<path target="cell-3">Lower abdomen</path>
+<path target="cell-4">Midline</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Is hematemesis present?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Perform upper GI endoscopy Mass identified?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Perform CT of abdomen Mass identified?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Follow clinically</label>
@@ -640,42 +646,60 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Is pregnancy suspected?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Order ultrasound of abdomen, pelvis</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Pregnancy found?</label>
+<path target="cell-10">No</path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Is hematochezia present?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Perform colonoscopy Mass identified?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Perform US or CT of abdomen with oral and IV contrast. If US chosen but indeterminate, follow with CT. MRI also an option. Mass identified?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Is mass pulsatile?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Perform screening ultrasound of abdominal aorta If positive, perform CTA to define aortic anatomy better.</label>
 </cell>
 <cell type="decision" id="cell-15">
 <label>Protuberant, reducible, + bowel sounds over mass?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Hernia (ventral, umbilical, diastasis recti).</label>
 </cell>
 <cell type="decision" id="cell-17">
 <label>Suprapubic location; Passage of Foley catheter reduces mass?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-19">No</path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Distended bladder.</label>
 </cell>
 <cell type="decision" id="cell-19">
 <label>Perform abdominal CT scan for diagnosis. Mass identified?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <footnotes>
 <footnote>Data from American College of Radiology (ACR), Expert panel on Gastrointestinal Imaging. Imaging evaluation of the palpable abdominal mass. Reston, VA: American College of Radiology (ACR); 2001. 2 p. </footnote>

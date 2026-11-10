@@ -1,0 +1,98 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>195.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Pediatric Obesity (Ages 2-18 Years): Management.</title>
+<graphic href="eee0564-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Plot body mass index (BMI) at all well child visits.</label>
+<path target="cell-6">BMI &lt;85%</path>
+<path target="cell-7">BMI 85%-99%</path>
+<path target="cell-40">BMI &gt;99%</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Continue to plot BMI at all well child visits.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Prevention Plus Program for 3-6 months.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="action" id="cell-40">
+<label>Prevention Plus Program for 3-6 months</label>
+<path target="cell-24"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Maintaining weight or decreasing BMI%?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Continue Prevention Plus.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Comorbidity or parental obesity (BMI &lt;94&#x0025;)?</label>
+<path target="cell-9">No</path>
+<path target="cell-11">Yes</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Advance to Structured Weight Management for 3-6 months.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>2-5 years: maintaining weight or decreasing BMI &#x0025;; 6-11 years: weight loss or decreasing BMI &#x0025;; 12-18 years: weight loss?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-17">No, 2-5 years</path>
+<path target="cell-18">No, 6-18 years</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Continue Structured Weight Management.</label>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Comorbidity or parental obesity?</label>
+<path target="cell-13">No</path>
+<path target="cell-18">Yes</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Advance to Comprehensive Multidisciplinary Intervention (3-6 months).</label>
+<path target="cell-19"></path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>6-11 years: weight loss or decreasing BMI Percentage? 12-18 years: weight loss?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Continue Comprehensive Multidisciplinary Intervention.</label>
+<path target="cell-23">If no improvement in 3-6 months</path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>Comorbidity?</label>
+<path target="cell-20">No</path>
+<path target="cell-22">Yes</path>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Age 6-11 years: BMI &gt;99%?</label>
+<path target="cell-20">No</path>
+<path target="cell-23">Yes</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Advance to Tertiary Care Intervention.</label>
+</cell>
+<cell type="decision" id="cell-24">
+<label>2-11 years: maintaining weight or decreasing BMI &#x0025;; 12-18 years: weight loss?</label>
+<path target="cell-25">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Continue Prevention Plus.</label>
+</cell>
+<footnotes>
+<footnote>The order of stages and time in each stage should be tailored to the child's physical&#x002F;emotional development and readiness to change. Adapted from Barlow SE, Expert Committee. Expert committee recommendations regarding the prevention, assessment, and treatment of child and adolescent overweight and obesity: summary report. <em>Pediatrics</em> 2007;<strong>120</strong>(Suppl 4):S164&#x2013;S192.<xref ref="pubmed18055651" resource="acc028" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

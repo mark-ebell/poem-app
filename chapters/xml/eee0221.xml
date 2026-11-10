@@ -1449,21 +1449,28 @@
 <graphic href="eee0221-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Persistent Liver Enzyme Elevation</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Viral serology (anti-HBc IgM, HBsAg, anti-HCV), ANA, serum transferrin saturation, ferritin</label>
+<path target="cell-3">Abnormal</path>
+<path target="cell-4">Normal</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Evaluate and treat for possible viral hepatitis, autoimmune hepatitis, or hemochromocytosis</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Assess alcohol intake: Two drinks or more per day?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Alcoholic liver disease likely</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Steatosis present on ultrasound or CT?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider referral and possible liver biopsy</label>
