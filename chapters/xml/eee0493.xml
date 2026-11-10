@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Leukemia (acute lymphoblastic)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0493</topic_id>
+<topic_comment />
+<topic_lastupdated>03/07/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Carmen Fava, MD</author_name>
+<author_title>Post-Doc Fellow</author_title>
+<author_department>Department of Leukemia</author_department>
+<author_institution>The University of Texas M.D. Anderson Cancer Center</author_institution>
+<author_email>ejabbour&#x0040;mdanderson.org</author_email>
+<author_phone_office>7137924764</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>1515 Holcombe Blvd.</author_street1>
+<author_street2 />
+<author_city>Houston</author_city>
+<author_state>TX</author_state>
+<author_zip>77030</author_zip>
+</author>
+<author primary="no">
+<author_name>Elias Jabbour, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Leukemia</author_department>
+<author_institution>The University of Texas M.D. Anderson Cancer Center</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Houston</author_city>
+<author_state>TX</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Noelle O'Rourke, MA, MD, FRCP, FRCR</editor_name>
+<editor_title>Consultant and Honorary Senior Lecturer in Clinical Oncology</editor_title>
+<editor_institution>Beatson Cancer Centre, Glasgow, UK</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect acute lymphoblastic leukemia (ALL) in patients with symptoms and signs related to cytopenias. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Initial diagnostic testing should include CBC, chemistries, coagulation studies, and bone marrow with cytochemistry and immunophenotyping. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Current management strategies for adult patients with ALL require a careful assessment of relapse risk at treatment initiation. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Chemotherapeutic regimens based on the Berlin-Frankfurt-Muenster (BFM) regimens are recommended for children and young adults. Hyper-CVAD is a good alternative for adult patients. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Monoclonal antibodies such as blinatumomab and inotuzomab are promising treatments especially for relapsed disease. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Monitoring minimal residual disease (MRD) is important to establish therapeutic approach and aids important decisions such as stem cell transplantation (SCT) in high-risk patients. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>About 80&#x0025; of patients achieve a complete remission (CR) after the first cycle, but 30&#x0025; to 40&#x0025; are cured. Induction and maintenance treatment are important to eradicate MRD, as well as CNS prophylaxis. <evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>ALL is a heterogeneous group of lymphoid disorders resulting from a monoclonal proliferation and expansion of immature lymphoid cells in the bone marrow, blood, and other organs. The initial leukemogenic event may occur in lymphoid cells (B or T lineage) or in early hematopoietic precursors. The various ALL subtypes subsequently arise according to the stage of lymphoid differentiation at the time of the leukemogenic event.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>The overall incidence of ALL is 1 to 1.5 per 100,000 persons per year.</listitem>
+<listitem>ALL represents about 80&#x0025; of childhood acute leukemias (4-5 per 100,000 persons per year), with a peak at 4 to 5 years.</listitem>
+<listitem>ALL is 20&#x0025; of adult leukemias (2 per 100,000 persons per year) with a second smaller pick in the elderly. Median age is between 25 and 35 years.<xref ref="web001" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>In most cases, the cause of ALL remains unknown. In the favored theory, leukemogenesis reflects the interaction between host susceptibility and environmental factors. A possible genetic predisposition has been recognized (association observed with trisomy 21,<xref ref="pubmed11567943" resource="acc008" /> and Klinefelter's disease).</listitem>
+<listitem>There is a high risk of ALL in some inherited diseases (Fanconi's anemia, Bloom's syndrome, ataxia telangectasia).<xref ref="pubmed6929216" resource="acc057" /></listitem>
+<listitem>Association with viral infections (human T-cell lymphotropic virus 1, Epstein-Barr virus [EBV], HIV) has been observed.<xref ref="pubmed8445941" resource="acc056" /></listitem>
+<listitem>Environmental factors such as exposure to radiation,<xref ref="pubmed8127953" resource="acc055" /> chemical toxins,<xref ref="pubmed3547670" resource="acc002" /> and cigarette smoking<xref ref="pubmed8246285" resource="acc054" /> are controversial. A pooled analysis found only a weak association between increasing exposure magnetic fields and childhood leukemia.<xref ref="pubmed20877339" resource="acc063" /></listitem>
+<listitem>Polymorphism of folate-related genes is associated with a decreased risk of ALL in adults.<xref ref="pubmed10536004" resource="acc053" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>In pediatric leukemias, recent studies have indicated that the majority of chromosome translocations and preleukemic clones arise in the uterus during fetal hematopoiesis, with secondary genetic events occurring postnatally.<xref ref="pubmed15707724" resource="acc052" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect ALL in patients with symptoms and signs related to cytopenias, such as bleeding, recurrent infections, and anemia. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16295033" resource="acc051" /></listitem>
+<listitem>Initial diagnostic testing should include CBC, chemistries, coagulation studies, and bone marrow with cytochemistry and immunophenotyping. <evidence rating="C" system="SORT">C</evidence><xref ref="web002" /></listitem>
+<listitem>Examination of bone marrow aspirate is preferable for diagnosis of ALL because 10&#x0025; of patients lack circulating blasts and because bone marrow cells are better than blood cells for genetic studies. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Define ALL subtypes (which respond differently to therapy and have different prognosis) by assessing morphology, flow cytometry immunophenotyping, cytogenetic&#x002F;molecular analysis, and genomic profiling. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Idiopathic thrombocytopenic purpura</Differential_Name>
+<Differential_Features>Recent viral infection, normal Hb, no leukocyte abnormalities</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Aplastic anemia</Differential_Name>
+<Differential_Features>No hepatosplenomegaly, lymphoadenopathy, no monoclonality</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Reactive lymphocytosis</Differential_Name>
+<Differential_Features>Terminal deoxynucleotide transferase (TdT) negativity, no clonality</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Viral infections</Differential_Name>
+<Differential_Features>Serology RNA&#x002F;DNA-polymerase chain reaction (PCR) positive for EBV, cytomegalovirus, hepatitis B virus, hepatitis C virus, HIV, etc.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chronic lymphocytic leukemia</Differential_Name>
+<Differential_Features>Pancytopenia in advanced stages, CD19&#x002F;CD5 coexpression</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute myeloid leukemia</Differential_Name>
+<Differential_Features>Cytochemistry positive for myeloperoxidase (MPO; only 3&#x0025;-5&#x0025; of ALL express MPO)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Immunologic diseases&#x002F;arthritis</Differential_Name>
+<Differential_Features>Positive autoimmunity screening (FAN, extractable nuclear antigen, anti-DNA), rheumatoid factor, ESR</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>There are two recognized classifications:</listitem>
+<listitem>The French American British Cooperative Group distinguishes 3 ALL groups (L1-L3) based on morphologic criteria (cell size, cytoplasm, nucleoli, basophilia, vacuolation): L1 morphology (small, heterogeneous lymphocytes) has the best rate of CR and 3-year survival of 40&#x0025; to 75&#x0025;; it's the most frequent in childhood; L2 morphology (large, heterogeneous lymphocytes) is the most frequent in adulthood; L3 morphology (large, vacuolated, basophilic lymphocytes) is associated with mature B-cell ALL (Burkitt's leukemia) and is characterized by a high rate of cell turnover giving rise to the "starry sky" pattern on marrow biopsies.<xref ref="pubmed188440" resource="acc050" /></listitem>
+<listitem>The World Health Organization (WHO) proposed new guidelines for the diagnosis of neoplastic diseases of hematopoietic and lymphoid tissues or lymphomas<xref ref="pubmed10577857" resource="acc049" /> (see <xref ref="table001" />).</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Symptom onset is rapid and generally reflect bone marrow failure or leukemic infiltration of extramedullary sites.<xref ref="pubmed3422030" resource="acc048" /></listitem>
+<listitem>Up to 50&#x0025; of patients have fever or documented infections (neutropenia), and one-third have bleeding at diagnosis (ecchimosis, petechiae); severe hemorrhage is uncommon (thrombocytopenia).<xref ref="pubmed3422030" resource="acc048" /></listitem>
+<listitem>Fatigue, lethargy, dizziness, dyspnea, and cardiac angina may reflect the severity of anemia. Bone pain and arthralgias occur in one-fourth of patients and are more common in children. One-half of adult patients have hepatomegaly, splenomegaly (entity more pronounced in children), or lymphoadenopathy. Mediastinal masses (thymus) occur primarily with T-lineage ALL. A bulky mass can lead to the superior vena cava syndrome or superior mediastinal syndrome.<xref ref="pubmed12036865" resource="acc047" /><xref ref="pubmed3422030" resource="acc048" /></listitem>
+<listitem>CNS symptoms occur in fewer than 10&#x0025; (mostly in B mature ALL with CNS involvement).<xref ref="pubmed16556888" resource="acc046" /></listitem>
+<listitem>Leukemic cells can also be found in other extramedullary sites, including the testis, retina, and skin.<xref ref="pubmed16295033" resource="acc051" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>When ALL is suspected, initial diagnostic testing should include history and physical examination, CBC, chemistries, and coagulation studies. In case of pancytopenia with leukopenia or leukocytosis, consider cytomorphology on peripheral blood smears. Bone marrow aspiration or biopsy is mandatory for diagnosis of ALL. Immunophenotyping and cytogenetic analysis are complementary to morphology and cytochemistry in order to address a therapeutic choice.<xref ref="web002" /></listitem>
+<listitem>CBC: Leukopenia is seen in most patients, with hyperleukocytosis (&gt;100,000 WBCs&#x002F;mm<sup>3</sup>) in 10&#x0025; to 16&#x0025; of patients. Leukemia blasts can be detected in peripheral blood. Other findings are anemia and low platelets (&lt;50,000) in 50&#x0025; of patients.<xref ref="pubmed3422030" resource="acc048" /></listitem>
+<listitem>Chemistries: Because of a large leukemic cell burden, a tumor lysis syndrome can develop; therefore investigate all patients for kidney function and uric acid at baseline and followed up during treatment. Also investigate renal and liver function before starting any treatment, due to the toxicity that chemotherapy can cause. (10&#x0025;-20&#x0025; of patients present with mild liver function alteration as a result of liver infiltration.)</listitem>
+<listitem>Cytomorphology on bone marrow smears: obtain bone marrow by aspiration and biopsy. The WHO classification defines acute leukemia as more than 20&#x0025; blasts in marrow and&#x002F;or blood. In case this is confirmed, order cytochemistry on bone marrow samples.</listitem>
+<listitem>Cytochemistry: Check for myeloperoxidase (MPO) and TdT to differentiate myeloid from lymphoid phenotype.<xref ref="pubmed16295033" resource="acc051" /></listitem>
+<listitem>Flow cytometry: used for classification in B-cell and T-cell ALL. Typical B-lineage ALL markers include CD10, CD19, CD22, CD79a, and CD20; T-lineage markers include: CD2, CD3, CD5, CD7, and CD8.<xref ref="pubmed11888077" resource="acc045" /></listitem>
+<listitem>Cytogenetic analysis: Karyotype is one of the most important predictors of disease-free survival.<xref ref="pubmed17170120" resource="acc003" /> Normal karyotype is associated with a 50&#x0025; 3-year survival (see <xref ref="table003" />).<xref ref="pubmed15010150" resource="acc004" /><xref ref="pubmed14508819" resource="acc009" /><xref ref="pubmed9054669" resource="acc010" /><xref ref="pubmed15071128" resource="acc011" /><xref ref="pubmed16295033" resource="acc051" /></listitem>
+<listitem>Molecular analysis: PCR can identify molecular abnormalities derived from detected or undetected chromosomal abnormalities. Many of them can be targets for new drugs (see <xref ref="table004" />).<xref ref="pubmed14670924" resource="acc042" /><xref ref="pubmed15472075" resource="acc043" /><xref ref="pubmed15361874" resource="acc044" /></listitem>
+<listitem>Analysis of methylation status leads to identification of a hypermethylator phenotype (simultaneous methylation of two or more specific genes) associated with a worse outcome. On this basis, hypomethylating agents may be used.<xref ref="pubmed12060634" resource="acc041" /></listitem>
+<listitem>CXR: A baseline CXR should be performed because of infections due to disease-related immunosuppression. Infections can occur as a complication of the aplasia following chemotherapy.</listitem>
+<listitem>CT scan&#x002F;MRI of the brain: For patients with major neurologic signs or symptoms at diagnosis, appropriate imaging studies should be performed to detect meningeal disease or CNS bleeding.<xref ref="web002" /></listitem>
+<listitem>Lumbar puncture should be performed if no mass&#x002F;lesion is detected on imaging studies and in any case of ALL diagnosis, even if neurologic signs or symptoms are absent. The diagnosis of CNS leukemia requires the presence of more than 5 WBC&#x002F;&#x03BC;L in the CSF and identification of lymphoblasts in the CSF differential.<xref ref="pubmed3528788" resource="acc040" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>343</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Goals of treatment are: rapid achievement of a CR (CR: achievement of neutrophil and platelet count recovery with less than 5&#x0025; marrow blasts); elimination of minimal residual disease (MRD); and treatment of sanctuary sites (see <xref ref="table002" />). Guide treatment by immunophenotype and cytogenetic&#x002F;molecular tests. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Mature B-cell ALL: Short and intensive chemotherapy regimens with high-dose methotrexate and cyclophosphamide,<xref ref="pubmed15265787" resource="acc039" /> as well as intensive CNS prophylaxis (high rates of relapses) are indicated. No maintenance therapy is required. The combination of hyper-CVAD and rituximab<xref ref="pubmed27626518" resource="acc068" /> improves CR (89&#x0025;) and survival rates (3-year survival: 80&#x0025;), especially for patients older than 60 years. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Ph-positive ALL: Translocation t(9;22) (Philadelphia [Ph] chromosome) has the worst prognosis in all age groups. Imatinib followed by immediate postremission SCT<xref ref="pubmed12454740" resource="acc038" /> and combined with chemotherapy is associated with improved clinical results.<xref ref="nopmid_1081" /> TKI maintenance following transplant is now standard of care in Ph+ group patients.<xref ref="pubmed27309127" resource="acc070" /> Other tyrosine kinase inhibitors (TKIs) with activity against imatinib-resistants include nilotinib<xref ref="pubmed15710326" resource="acc037" /> and dasatinib. <evidence rating="A" system="SORT">A</evidence><xref ref="nopmid_1079" /></listitem>
+<listitem>Treat ALL in young adults and adolescents with recommended pediatric regimens in multidisciplinary teams (NICE). <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12610173" resource="acc036" /></listitem>
+<listitem>Resistant or relapsed disease: The only potentially curative approach is to achieve a second CR, followed by allogenic SCT. However, with current salvage chemotherapy drugs, the CR rate is low (&lt;50&#x0025;) and of very short duration, which inhibits many patients from the opportunity to undergo SCT. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11253606" resource="acc007" /></listitem>
+<listitem>Monoclonal antibodies such as blinatumomab and inotuzomab are promising treatments especially for relapsed disease. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed27292104" resource="acc069" /><xref ref="pubmed28249141" resource="acc071" /><xref ref="pubmed33651091" resource="acc076" /><xref ref="pubmed33651090" resource="acc077" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>The management of ALL in adults is based on the model used in treating pediatric patients, which is designed to induce remission, followed by 1 or more cycles of intensification, prolonged maintenance lasting 2 to 3 years, and CNS prophylaxis.</listitem>
+<listitem><strong>Induction</strong>: usually based on the backbone of the pediatric BFM regimen, including a combination of vincristine, corticosteroids, and anthracyclines.<xref ref="pubmed3422030" resource="acc048" /> This combination achieves CR rates of 75&#x0025; to 92&#x0025;, with a median remission duration of around 18 months and a disease-free survival of 29&#x0025; to 40&#x0025; Such survival is highest (60&#x0025;-70&#x0025;) in T-cell ALL and currently in Burkitt ALL.<xref ref="pubmed15124704" resource="acc006" /><xref ref="pubmed12011123" resource="acc031" /><xref ref="pubmed16105981" resource="acc032" /><xref ref="pubmed9359507" resource="acc033" /><xref ref="pubmed11806988" resource="acc034" /><xref ref="pubmed7718875" resource="acc035" /> Clinical trials are investigating the role of L-asparaginase.<xref ref="nopmid_1080" /> Dexamethasone is often substituted for prednisone because of better in vitro antileukemic activity and achievement of higher drug levels in the CSF.<xref ref="pubmed2056971" resource="acc030" /> Hyper-CVAD is a dose-intensive regimen of hyperfractionated cyclophosphamide, vincristine, doxorubicin, and dexamethasone, alternating with high doses of cytarabine and methotrexate for a total of 8 induction and intensified consolidation courses with a CR of 92&#x0025; and a 5-year survival rate of 38&#x0025;.<xref ref="pubmed15481055" resource="acc029" /></listitem>
+<listitem><strong>Consolidation</strong>: The value of intensification treatment is not certain in adult ALL.<xref ref="pubmed7718875" resource="acc035" /><xref ref="pubmed9359507" resource="acc033" /><xref ref="pubmed11806988" resource="acc034" /></listitem>
+<listitem><strong>CNS prophylaxis</strong>: Without CNS prophylaxis, 50&#x0025; of patients experience CNS relapses. Recent studies suggest that effective CNS prophylaxis can be achieved without cranial irradiation.<xref ref="pubmed10627444" resource="acc028" /> The number of intrathecal injections depends on the risk of CNS relapse. Presenting features associated with an increased risk of CNS relapse in adults include mature B-cell ALL, serum lactate dehydrogenase levels, and a high proportion of bone marrow cells in a proliferative state (&gt;14&#x0025; of cells in S+G2M phase of the cell cycle).<xref ref="pubmed3052630" resource="acc027" /></listitem>
+<listitem><strong>Maintenance</strong>: omitting this phase results in higher relapse rate.<xref ref="pubmed3282032" resource="acc005" /></listitem>
+<listitem><strong>Bone marrow transplantation</strong>: The use of autologous transplantation in patients not eligible for allogenic SCT is inferior to consolidation&#x002F;maintenance chemotherapy. Allogenic bone marrow transplantation was superior for standard-risk, but not high-risk patients because of the increased transplantation-related mortality in this group.<xref ref="pubmed18048644" resource="acc026" /></listitem>
+<listitem><strong>Resistant or relapsed disease</strong>: the only potentially curative approach is to achieve a second CR, followed by allogenic hematopoietic (H)SCT. New drugs have been developed to reinduce a CR. Nelarabine is a new nucleoside analog approved by the FDA for third-line treatment of adults and children with relapsed&#x002F;refractory T-cell ALL or T-lymphoblastic lymphoma. Clofarabine induces a 20&#x0025; CR in relapsed ALL patients. The drug is approved as third-line treatment of pediatric patients with relapsed or refractory ALL.<xref ref="pubmed16622268" resource="acc025" /></listitem>
+<listitem><strong>Monoclonal antibodies</strong></listitem>
+<listitem>Imatinib and second-generation TKIs (dasatinib and nilotinib) have drastically improved the prognosis of Ph-positive ALL; rituximab is a monoclonal antibody that targets CD20 antigen, expressed with an adverse prognostic significance on precursors and mature B-cells. Adding rituximab to standard ALL regimen improves 2 year event free survival.<xref ref="pubmed27626518" resource="acc068" /> Hypomethylating agents like decitabine may be used<xref ref="pubmed12060634" resource="acc041" /> on this basis of the methylation status.</listitem>
+<listitem>Antibody therapies in development show some promise, including blinatumomab for relapsed&#x002F;refractory disease<xref ref="pubmed28249141" resource="acc071" /> and anti-CD22 (inotuzumab ozogamicin), which has shown response and survival benefit in relapsed disease.<xref ref="pubmed27292104" resource="acc069" /> In a an RCT with 405 patients randomized to blinatumomab or chemotherapy, the median overall survival was 3.7 months longer in the blinatumomab group.<xref ref="pubmed28249141" resource="acc071" /></listitem>
+<listitem>A study randomized 1440 children with newly diagnosed standard-risk B-cell ALL with an average or higher risk of relapse to chemotherapy alone or chemotherapy plus two 28 day cycles of blinatumomab. The study was terminated early because after 2.5 years disease-free survival was 96&#x0025; with blinatumomab compared with 88&#x0025; without (p &lt; 0.001; NNT &#x003D; 12).<xref ref="pubmed39651791" resource="acc082" /></listitem>
+<listitem>A study randomized 224 patients with MRD negative remission of B-cell precursor ALL to 4 cycles of blinatumomab + consolidation chemotherapy or consolidation chemotherapy alone. After 3 years, overall survival was better in the blinatumomab group (85&#x0025; vs 68&#x0025;, p &#x003D; 0.002, NNT &#x003D; 6).<xref ref="pubmed39047240" resource="acc080" /></listitem>
+<listitem>In a single arm study of 63 patients with Ph positive ALL, dasitinib plus glucocorticoid for induction was followed by 2 cycles of blinatumomab. Complete remission was seen in 98&#x0025;, and the overall survival was 95&#x0025; at 18 months with disease free survival in 88&#x0025;.<xref ref="pubmed33085860" resource="acc074" /></listitem>
+<listitem>A study randomized 108 children with high-risk first-relapse B-ALL in morphologic complete remission (&lt;5&#x0025; blasts) or who had M2 marrow (between 5&#x0025; and 25&#x0025; blasts) to blinatumomab or a third round of consolidation chemotherapy. After 22 months, numerically fewer deaths occurred in the blinatumomab group (14.8&#x0025; vs 29.6&#x0025;, HR 0.43, 95&#x0025; CI 0.18-1.01) and event-free survival was improved (31&#x0025; vs 57&#x0025;, p &lt;0.001, NNT &#x003D; 4). There were also fewer adverse events in the blinatumomab group.<xref ref="pubmed33651091" resource="acc076" /></listitem>
+<listitem>A study randomized 208 patients age 1 to 30 years with initial B-ALL relapse to blinitumomab or 2 cycles of multiagent chemotherapy. Those in the blinitumomab had better overall survival (71.3&#x0025; vs 58.4&#x0025;, p &#x003D; 0.02, NNT &#x003D; 8) and numerically better disease-free survival (54.4&#x0025; vs 39&#x0025;, HR 0.70, 95&#x0025; CI 0.47-1.03) at 2 years.<xref ref="pubmed33651090" resource="acc077" /></listitem>
+<listitem><strong>CAR-T and colony-stimulating factor</strong></listitem>
+<listitem>There have been six studies with 333 patients of colony stimulating factor in children with ALL: they found some benefits in terms of reduced duration of hospitalization and infections, but no evidence regarding survival.<xref ref="cochrane4139" resource="acc066" /></listitem>
+<listitem>An emerging treatment option for relapsed or refractory ALL is the use of CAR-T cells. A study with 153 patients with the primary outcome of remission showed high and durable response rates with obecabtagene autoleucel anti CD19 therapy.<xref ref="pubmed39602653" resource="acc081" /></listitem>
+<listitem>Another used CAR-T cells to target CD7 in 9 children and 2 adults. Nine patients had deep remission and were able to proceed with ste cell transplants, and 7 of 11 were in remission betweeen 3 and 36 months after treatment.<xref ref="pubmed41363805" resource="acc083" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgical care is generally not required in the treatment of ALL, except for the placement of a central venous catheter. Such catheters are used for administering chemotherapy, blood products, and antibiotics, and for drawing blood samples.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Provide psychological support for the patient and the family.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>To improve outcomes, immediately treat and prevent metabolic and infectious complications.</listitem>
+<listitem>Control nausea, vomiting, and pain.</listitem>
+<listitem>Prophylactic oral antibiotics may be appropriate in patients with expected prolonged, profound granulocytopenia (&lt;100&#x002F;mm<sup>3</sup> for 2 weeks). To detect the presence or acquisition of resistant organisms, serial surveillance cultures may be helpful in such patients. Empiric broad-spectrum antimicrobial therapy is an absolute necessity for febrile patients who are profoundly neutropenic.<xref ref="cochrane4386" resource="acc067" /><xref ref="pubmed2179420" resource="acc024" /></listitem>
+<listitem>Although individual clinical trials have not shown a reduction in mortality from prophylactic antibiotics in afebrle neutropenic patients, a Cochrane review does demonstrate this benefit, especially for quinolones.<xref ref="cochrane4386" resource="acc067" /></listitem>
+<listitem>The use of myeloid growth factors during remission induction therapy appears to decrease the time to hematopoietic reconstitution.<xref ref="pubmed9716583" resource="acc023" /></listitem>
+<listitem>Transfuse red blood cells if hemoglobin is less than 8 g&#x002F;dL or signs and symptoms of anemia exist, and platelets when the platelet count is less than 10,000&#x002F;mm<sup>3</sup> or any signs of bleeding exist.<xref ref="web002" /></listitem>
+<listitem>Instruct patients in personal hygiene to avoid infection.</listitem>
+<listitem>A Cochrane review of 10 studies has confirmed there is consistent adrenal insufficiency in childhood ALL following cessation of glucocorticoid therapy, suggesting a need for steroid replacement and more investigation into the effect of treatment on the hypothalamic-pituitary-adrenal axis.<xref ref="cochrane8727" resource="acc072" /></listitem>
+<listitem>Elaborate isolation facilities, including filtered air, sterile food, and gut flora sterilization are not routinely indicated, but may benefit transplant patients.<xref ref="pubmed6424468" resource="acc022" /></listitem>
+<listitem>In patients being treated with autologous transplant, a double blind RCT of 560 patients (not exclusively leukemic diagnosis) has demonstrated efficacy for inactivated varicella zoster vaccine to reduce infection.<xref ref="pubmed29856344" resource="acc073" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Frequent hospitalizations may be required to administer treatment and to deal with complications of therapy, including the need for blood transfusions or antibiotics.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Disseminated intravascular coagulation (DIC) is a complication of acute and chronic leukemia. Human activated protein C, recombinant human soluble thrombomodulin, tranexamic acid and dermatan sulphate have been proposed as therapies, but well designed clinical trials are lacking.<xref ref="cochrane8562" resource="acc065" /></listitem>
+<listitem>Venous thromboembolism is common in patients receiving an l-asparaginase containing chemotherapy regiment. An observational suggests that this risk is heightened by administration of fibrinogen and heparin, and is not reduced by administration of antithrombin.<xref ref="pubmed32321172" resource="acc078" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Prognosis is predicted by clinical characteristics, immunophenotype, cytogenetic and molecular analysis, and treatment response. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11147225" resource="acc021" /></listitem>
+<listitem>Favorable prognosis is predicted by age less than 30 years, WBC less than 30,000 at diagnosis, and no chromosomal abnormalities such as Ph chromosome and translocation t(4;11). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11902549" resource="acc019" /><xref ref="pubmed9596644" resource="acc020" /></listitem>
+<listitem>Achieving a CR at the end of the first cycle and a rapid blast clearance are important predictors of outcome. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed8551804" resource="acc018" /><xref ref="pubmed11902549" resource="acc019" /><xref ref="pubmed15481055" resource="acc029" /><xref ref="pubmed11806988" resource="acc034" /></listitem>
+<listitem>Detection of MRD through immunophenotype and PCR analysis is important as a prognostic factor and for the follow-up. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16295033" resource="acc051" /></listitem>
+<listitem>Survivors of childhood ALL are at long-term increased risk of cancer (up to four-fold increased risk). <evidence rating="B" system="SORT">B</evidence><xref ref="poem90522" resource="acc001" /><xref ref="poem130823" resource="acc064" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Age appears to be the most important prognostic factor influencing ALL outcomes, with overall survival rates steadily declining with increasing age. Survival has been uniformly poor in the elderly population until the recent incorporation of targeted therapy into chemotherapy strategies for certain subtypes of ALL (eg, Burkitt's ALL or Ph-positive ALL).<xref ref="pubmed16295033" resource="acc051" /></listitem>
+<listitem>A larger leukemia cell burden correlates with a greater likelihood of resistant subclones, irrespective of age. Leukocytosis (WBC &gt;30,000-50,000 cells&#x002F;mm<sup>3</sup> in precursor B-cell ALL or &gt;100,000 cells&#x002F;mm<sup>3</sup> in T-cell ALL) is associated with a higher risk of relapse as well as an increased potential for complications during induction.</listitem>
+<listitem>CNS disease at presentation influences prognosis if appropriate therapy directed at these sanctuary site is not provided.<xref ref="pubmed10561310" resource="acc017" /></listitem>
+<listitem>Karyotype remains a prognostic indicator of ALL outcomes regardless of the regimen used since the associated molecular aberrations contribute to ALL pathogenesis and thus prognosis.<xref ref="pubmed9596644" resource="acc020" /> Hyperdiploidy (&gt;50 chromosomes per leukemia cell) is often observed in childhood ALL and confers a favorable prognosis, whereas hypodiploidy (&lt;45 chromosomes per leukemia cell) is unfavorable. The Ph-positive karyotype [t(9;22)(q34;q11)] resulting in a Bcr-Abl fusion protein carried the worst prognosis before the introduction of TKIs directed against Bcr-Abl.The t(4;11)(q21;q23) karyotype associated with the mixed-lineage leukemia (MLL)-AF4 fusion gene portends a particularly dismal prognosis; for these patients, allogeneic SCT during the first CR is indicated.<xref ref="pubmed16123216" resource="acc016" /></listitem>
+<listitem>Outcomes for patients with pro-B-cell ALL are particularly poor, and this appears to be because of the high frequency of t(4;11) karyotypes in this subgroup. Thymic T-cell ALL leukemias have a favorable outcome.<xref ref="pubmed16123216" resource="acc016" /></listitem>
+<listitem>The overexpression of CD20 in non-Burkitt's ALL has been described as a poor prognostic feature in adults, now improved with the introduction of anti-CD20 antibody.</listitem>
+<listitem>A late CR, which occurs after 3 to 4 weeks from the start of treatment or response after more than 1 course of chemotherapy predicts a higher risk of disease recurrence. Among patients who achieved CRs within 4 weeks, those who had persistent blasts at day 15 fared significantly worse.<xref ref="pubmed8551804" resource="acc018" /> In an Italian collaborative group study, lack of corticosteroid response following a 7-day course of prednisone immediately before induction negatively affected overall survival.<xref ref="pubmed11806988" resource="acc034" /> The persistence of circulating blasts at day 7 or the persistence of marrow leukemia at day 14 during induction treatment with hyper-CVAD have predicted for worse outcome.<xref ref="pubmed15481055" resource="acc029" /></listitem>
+<listitem>Hypermethylator phenotypes have a worse outcome.<xref ref="pubmed16295033" resource="acc051" /></listitem>
+<listitem>Outcome also depends on dose of chemotherapy drugs and individual metabolism (6-mercaptopurine), unplanned interval delays between treatments, and withholding of treatment.<xref ref="pubmed17996297" resource="acc015" /></listitem>
+<listitem>A number of prognostic indices have been proposed to better define risk groups at diagnosis and stratify treatment.<xref ref="pubmed32315382" resource="acc075" /></listitem>
+<listitem>A study of 419 children being trated with induction therapy found that a blast count &gt;0.1 x 10<sup>9</sup>&#x002F;L on Day 8 and platelet count &lt;100 x 10<sup>9</sup>&#x002F;L on Day 33 were associated with worse survival.<xref ref="pubmed33847682" resource="acc079" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>MRD can be identified by the presence of leukemic cells in the bone marrow undetectable through conventional microscopy. This can be accomplished by using either flow cytometry or real-time quantitative PCR to detect fusion transcripts resulting from chromosome abnormalities or patient-specific junctional regions of rearranged immunoglobulin and T-cell receptor genes.<xref ref="pubmed16295033" resource="acc051" /><xref ref="pubmed16154122" resource="acc014" /></listitem>
+<listitem>Based on the MRD at different time points, risk groups have been identified. T-ALL shows a slower MRD response.<xref ref="pubmed16195338" resource="acc013" /></listitem>
+<listitem>Risk-adapted therapeutic approaches are being pursued based on these concepts even if appropriate time points, threshold of residual disease, and response criteria still need to be defined.<xref ref="pubmed15124705" resource="acc012" /></listitem>
+<listitem>Survivors of childhood ALL are at long-term increased risk of cancer. In a large cohort with median 19 year follow-up, the cumulative incidence of secondary cancer was 4&#x0025; at 15 years and 6.3&#x0025; at 30 years (RR 13.5).<xref ref="poem90522" resource="acc001" /> Another large cohort study in Ireland found a four-fold increased risk of cancer in childhood survivors of cancer.<xref ref="poem130823" resource="acc064" /></listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>The outcome for adults older than 60 years with ALL is worse because of the age-related differences in the pathophysiology of ALL, a higher incidence of poor-risk features in adults compared with children, and a decrease in the ability of elderly patients to tolerate chemotherapy.</listitem>
+<listitem>These patients have the highest rate of Ph-positive ALL; they usually have more comorbid conditions and are more susceptible to adverse effects and to infections, also because of lower marrow reserves.</listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="poem90522">
+<accessionId id="acc001" href="info:wiley/eep-poem/90522" />
+<accessionId id="acc001b" href="info:pmid/17374815" />
+<authors>Hijiya N, Hudson MM, Lensing S, et al.</authors>
+<title>Cumulative incidence of secondary neoplasm as a first event after childhood acute lymphoblastic leukemia.</title>
+<source>JAMA</source>
+<pubdate>2007</pubdate>
+<volume>297</volume>
+<pages>1207&#x2013;1215.</pages>
+</reference>
+<reference id="pubmed3547670">
+<accessionId id="acc002" href="info:pmid/3547670" />
+<authors>Cronkite EP.</authors>
+<title>Chemical leukemogenesis: benzene as a model.</title>
+<source>Semin Hematol</source>
+<pubdate>1987</pubdate>
+<volume>24</volume>
+<pages>2&#x2013;11.</pages>
+</reference>
+<reference id="pubmed17170120">
+<accessionId id="acc003" href="info:pmid/17170120" />
+<authors>Moorman AV, Harrison CJ, Buck GA, et al.; Adult Leukaemia Working Party, Medical Research Council&#x002F;National Cancer Research Institute.</authors>
+<title>Karyotype is an independent prognostic factor in adult acute lymphoblastic leukemia (ALL): analysis of cytogenetic data from patients treated on the Medical Research Council (MRC) UKALLXII&#x002F;Eastern Cooperative Oncology Group (ECOG) 2993 trial.</title>
+<source>Blood</source>
+<pubdate>2007</pubdate>
+<volume>109</volume>
+<pages>3189&#x2013;3197.</pages>
+</reference>
+<reference id="pubmed15010150">
+<accessionId id="acc004" href="info:pmid/15010150" />
+<authors>Mrozek K, Heerema NA, Bloomfield CD.</authors>
+<title>Cytogenetics in acute leukemia.</title>
+<source>Blood Rev</source>
+<pubdate>2004</pubdate>
+<volume>18</volume>
+<pages>115&#x2013;136.</pages>
+</reference>
+<reference id="pubmed3282032">
+<accessionId id="acc005" href="info:pmid/3282032" />
+<authors>Cassileth PA, Harrington DP, Hines JD, et al.</authors>
+<title>Maintenance chemotherapy prolongs remission duration in adult acute nonlymphocytic leukemia.</title>
+<source>J Clin Oncol</source>
+<pubdate>1988</pubdate>
+<volume>6</volume>
+<pages>583&#x2013;587.</pages>
+</reference>
+<reference id="pubmed15124704">
+<accessionId id="acc006" href="info:pmid/15124704" />
+<authors>Larson RA.</authors>
+<title>The U.S. trials in adult acute lymphoblastic leukemia.</title>
+<source>Ann Hematol</source>
+<pubdate>2004</pubdate>
+<volume>83(Suppl 1)</volume>
+<pages>S127&#x2013;S128.</pages>
+</reference>
+<reference id="pubmed11253606">
+<accessionId id="acc007" href="info:pmid/11253606" />
+<authors>Garcia-Manero G, Thomas DA.</authors>
+<title>Salvage therapy for refractory or relapsed acute lymphocytic leukemia.</title>
+<source>Hematol Oncol Clin North Am</source>
+<pubdate>2001</pubdate>
+<volume>15</volume>
+<pages>163&#x2013;205.</pages>
+</reference>
+<reference id="pubmed11567943">
+<accessionId id="acc008" href="info:pmid/11567943" />
+<authors>Chessells JM, Harrison G, Richards SM, et al.</authors>
+<title>Down's syndrome and acute lymphoblastic leukaemia: clinical features and response to treatment.</title>
+<source>Arch Dis Child</source>
+<pubdate>2001</pubdate>
+<volume>85</volume>
+<pages>321&#x2013;325.</pages>
+</reference>
+<reference id="pubmed14508819">
+<accessionId id="acc009" href="info:pmid/14508819" />
+<authors>Faderl S, Jeha S, Kantarjian HM.</authors>
+<title>The biology and therapy of adult acute lymphoblastic leukemia.</title>
+<source>Cancer</source>
+<pubdate>2003</pubdate>
+<volume>98</volume>
+<pages>1337&#x2013;1354.</pages>
+</reference>
+<reference id="pubmed9054669">
+<accessionId id="acc010" href="info:pmid/9054669" />
+<authors>Secker-Walker LM, Prentice HG, Durrant J, Richards S, Hall E, Harrison G.</authors>
+<title>Cytogenetics adds independent prognostic information in adults with acute lymphoblastic leukaemia on MRC trial UKALL XA. MRC Adult Leukaemia Working Party.</title>
+<source>Br J Haematol</source>
+<pubdate>1997</pubdate>
+<volume>96</volume>
+<pages>601&#x2013;610.</pages>
+</reference>
+<reference id="pubmed15071128">
+<accessionId id="acc011" href="info:pmid/15071128" />
+<authors>Pui CH, Relling MV, Downing JR.</authors>
+<title>Acute lymphoblastic leukemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>350</volume>
+<pages>1535&#x2013;1548.</pages>
+</reference>
+<reference id="pubmed15124705">
+<accessionId id="acc012" href="info:pmid/15124705" />
+<authors>Gokbuget N, Raff R, Brugge-Mann M, et al.</authors>
+<title>Risk&#x002F;MRD adapted GMALL trials in adult ALL.</title>
+<source>Ann Hematol</source>
+<pubdate>2004</pubdate>
+<volume>83(Suppl 1)</volume>
+<pages>S129&#x2013;S131.</pages>
+</reference>
+<reference id="pubmed16195338">
+<accessionId id="acc013" href="info:pmid/16195338" />
+<authors>Bruggemann M, Raff T, Flohr T, et al.; German Multicenter Study Group for Adult Acute Lymphoblastic Leukemia.</authors>
+<title>Clinical significance of minimal residual disease quantification in adult patients with standard-risk acute lymphoblastic leukemia.</title>
+<source>Blood</source>
+<pubdate>2006</pubdate>
+<volume>107</volume>
+<pages>1116&#x2013;1123.</pages>
+</reference>
+<reference id="pubmed16154122">
+<accessionId id="acc014" href="info:pmid/16154122" />
+<authors>Schuler F, Dolken G.</authors>
+<title>Detection and monitoring of minimal residual disease by quantitative real-time PCR.</title>
+<source>Clin Chim Acta</source>
+<pubdate>2006</pubdate>
+<volume>363</volume>
+<pages>147&#x2013;116.</pages>
+</reference>
+<reference id="pubmed17996297">
+<accessionId id="acc015" href="info:pmid/17996297" />
+<authors>Peng XX, Shi Z, Damaraju VL, et al.</authors>
+<title>Up-regulation of MRP4 and down-regulation of influx transporters in human leukemic cells with acquired resistance to 6-mercaptopurine.</title>
+<source>Leuk Res</source>
+<pubdate>2008</pubdate>
+<volume>32</volume>
+<pages>799&#x2013;809.</pages>
+</reference>
+<reference id="pubmed16123216">
+<accessionId id="acc016" href="info:pmid/16123216" />
+<authors>Gleissner B, Goekbuget N, Rieder H, et al.; GMALL Study Group.</authors>
+<title>CD10- pre-B acute lymphoblastic leukemia (ALL) is a distinct high-risk subgroup of adult ALL associated with a high frequency of MLL aberrations: results of the German Multicenter Trials for Adult ALL (GMALL).</title>
+<source>Blood</source>
+<pubdate>2005</pubdate>
+<volume>106</volume>
+<pages>4054&#x2013;4056.</pages>
+</reference>
+<reference id="pubmed10561310">
+<accessionId id="acc017" href="info:pmid/10561310" />
+<authors>Thomas DA, Cortes J, O'Brien S, et al.</authors>
+<title>Hyper-CVAD program in Burkitt's-type adult acute lymphoblastic leukemia.</title>
+<source>J Clin Oncol</source>
+<pubdate>1999</pubdate>
+<volume>17</volume>
+<pages>2461&#x2013;2470.</pages>
+</reference>
+<reference id="pubmed8551804">
+<accessionId id="acc018" href="info:pmid/8551804" />
+<authors>Sebban C, Browman GP, Lepage E, Fiere D.</authors>
+<title>Prognostic value of early response to chemotherapy assessed by the day 15 bone marrow aspiration in adult acute lymphoblastic leukemia: a prospective analysis of 437 cases and its application for designing induction chemotherapy trials.</title>
+<source>Leuk Res</source>
+<pubdate>1995</pubdate>
+<volume>19</volume>
+<pages>861&#x2013;868.</pages>
+</reference>
+<reference id="pubmed11902549">
+<accessionId id="acc019" href="info:pmid/11902549" />
+<authors>Pui CH, Campana D, Evans WE.</authors>
+<title>Childhood acute lymphoblastic leukaemia&#x2014;current status and future perspectives.</title>
+<source>Lancet Oncol</source>
+<pubdate>2001</pubdate>
+<volume>2</volume>
+<pages>597&#x2013;607.</pages>
+</reference>
+<reference id="pubmed9596644">
+<accessionId id="acc020" href="info:pmid/9596644" />
+<authors>Faderl S, Kantarjian HM, Talpaz M, Estrov Z.</authors>
+<title>Clinical significance of cytogenetic abnormalities in adult acute lymphoblastic leukemia.</title>
+<source>Blood</source>
+<pubdate>1998</pubdate>
+<volume>91</volume>
+<pages>3995&#x2013;4019.</pages>
+</reference>
+<reference id="pubmed11147225">
+<accessionId id="acc021" href="info:pmid/11147225" />
+<authors>Gokbuget N, Hoelzer D, Arnold R, et al.</authors>
+<title>Treatment of adult ALL according to protocols of the German Multicenter Study Group for Adult ALL (GMALL).</title>
+<source>Hematol Oncol Clin North Am</source>
+<pubdate>2000</pubdate>
+<volume>14</volume>
+<pages>1307&#x2013;1325, ix.</pages>
+</reference>
+<reference id="pubmed6424468">
+<accessionId id="acc022" href="info:pmid/6424468" />
+<authors>Armstrong D.</authors>
+<title>Symposium on infectious complications of neoplastic disease (Part II). Protected environments are discomforting and expensive and do not offer meaningful protection.</title>
+<source>Am J Med</source>
+<pubdate>1984</pubdate>
+<volume>76</volume>
+<pages>685&#x2013;689.</pages>
+</reference>
+<reference id="pubmed9716583">
+<accessionId id="acc023" href="info:pmid/9716583" />
+<authors>Larson RA, Dodge RK, Linker CA, et al.</authors>
+<title>A randomized controlled trial of filgrastim during remission induction and consolidation chemotherapy for adults with acute lymphoblastic leukemia: CALGB study 9111.</title>
+<source>Blood</source>
+<pubdate>1998</pubdate>
+<volume>92</volume>
+<pages>1556&#x2013;1564.</pages>
+</reference>
+<reference id="pubmed2179420">
+<accessionId id="acc024" href="info:pmid/2179420" />
+<authors>Hughes WT, Armstrong D, Bodey GP, et al.</authors>
+<title>From the Infectious Diseases Society of America. Guidelines for the use of antimicrobial agents in neutropenic patients with unexplained fever.</title>
+<source>J Infect Dis</source>
+<pubdate>1990</pubdate>
+<volume>161</volume>
+<pages>381&#x2013;396.</pages>
+</reference>
+<reference id="pubmed16622268">
+<accessionId id="acc025" href="info:pmid/16622268" />
+<authors>Jeha S, Gaynon PS, Razzouk BI, et al.</authors>
+<title>Phase II study of clofarabine in pediatric patients with refractory or relapsed acute lymphoblastic leukemia.</title>
+<source>J Clin Oncol</source>
+<pubdate>2006</pubdate>
+<volume>24</volume>
+<pages>1917&#x2013;1923.</pages>
+</reference>
+<reference id="pubmed18048644">
+<accessionId id="acc026" href="info:pmid/18048644" />
+<authors>Goldstone AH, Richards SM, Lazarus HM, et al.</authors>
+<title>In adults with standard-risk acute lymphoblastic leukemia, the greatest benefit is achieved from a matched sibling allogeneic transplantation in first complete remission, and an autologous transplantation is less effective than conventional consolidation&#x002F;maintenance chemotherapy in all patients: final results of the International ALL Trial (MRC UKALL XII&#x002F;ECOG E2993).</title>
+<source>Blood</source>
+<pubdate>2008</pubdate>
+<volume>111</volume>
+<pages>1827&#x2013;1833.</pages>
+</reference>
+<reference id="pubmed3052630">
+<accessionId id="acc027" href="info:pmid/3052630" />
+<authors>Kantarjian HM, Walters RS, Smith TL, et al.</authors>
+<title>Identification of risk groups for development of central nervous system leukemia in adults with acute lymphocytic leukemia.</title>
+<source>Blood</source>
+<pubdate>1988</pubdate>
+<volume>72</volume>
+<pages>1784&#x2013;1789.</pages>
+</reference>
+<reference id="pubmed10627444">
+<accessionId id="acc028" href="info:pmid/10627444" />
+<authors>Reiter A, Schrappe M, Ludwig WD, et al.</authors>
+<title>Intensive ALL-type therapy without local radiotherapy provides a 90&#x0025; event-free survival for children with T-cell lymphoblastic lymphoma: a BFM group report.</title>
+<source>Blood</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>416&#x2013;421.</pages>
+</reference>
+<reference id="pubmed15481055">
+<accessionId id="acc029" href="info:pmid/15481055" />
+<authors>Kantarjian H, Thomas D, O'Brien S, et al.</authors>
+<title>Long-term follow-up results of hyperfractionated cyclophosphamide, vincristine, doxorubicin, and dexamethasone (Hyper-CVAD), a dose-intensive regimen, in adult acute lymphocytic leukemia.</title>
+<source>Cancer</source>
+<pubdate>2004</pubdate>
+<volume>101</volume>
+<pages>2788&#x2013;2801.</pages>
+</reference>
+<reference id="pubmed2056971">
+<accessionId id="acc030" href="info:pmid/2056971" />
+<authors>Jones B, Freeman AI, Shuster JJ, et al.</authors>
+<title>Lower incidence of meningeal leukemia when prednisone is replaced by dexamethasone in the treatment of acute lymphocytic leukemia.</title>
+<source>Med Pediatr Oncol</source>
+<pubdate>1991</pubdate>
+<volume>19</volume>
+<pages>269&#x2013;275.</pages>
+</reference>
+<reference id="pubmed12011123">
+<accessionId id="acc031" href="info:pmid/12011123" />
+<authors>Linker C, Damon L, Ries C, Navarro W.</authors>
+<title>Intensified and shortened cyclical chemotherapy for adult acute lymphoblastic leukemia.</title>
+<source>J Clin Oncol</source>
+<pubdate>2002</pubdate>
+<volume>20</volume>
+<pages>2464&#x2013;2471.</pages>
+</reference>
+<reference id="pubmed16105981">
+<accessionId id="acc032" href="info:pmid/16105981" />
+<authors>Rowe JM, Buck G, Burnett AK, et al.; ECOG MRC&#x002F;NCRI Adult Leukemia Working Party.</authors>
+<title>Induction therapy for adults with acute lymphoblastic leukemia: results of more than 1500 patients from the international ALL trial: MRC UKALL XII&#x002F;ECOG E2993.</title>
+<source>Blood</source>
+<pubdate>2005</pubdate>
+<volume>106</volume>
+<pages>3760&#x2013;3767.</pages>
+</reference>
+<reference id="pubmed9359507">
+<accessionId id="acc033" href="info:pmid/9359507" />
+<authors>Durrant IJ, Prentice HG, Richards SM.</authors>
+<title>Intensification of treatment for adults with acute lymphoblastic leukaemia: results of U.K. Medical Research Council randomized trial UKALL XA. Medical Research Council Working Party on Leukaemia in Adults.</title>
+<source>Br J Haematol</source>
+<pubdate>1997</pubdate>
+<volume>99</volume>
+<pages>84&#x2013;92.</pages>
+</reference>
+<reference id="pubmed11806988">
+<accessionId id="acc034" href="info:pmid/11806988" />
+<authors>Annino L, Vegna ML, Camera A, et al.; GIMEMA Group.</authors>
+<title>Treatment of adult acute lymphoblastic leukemia (ALL): long-term follow-up of the GIMEMA ALL 0288 randomized study.</title>
+<source>Blood</source>
+<pubdate>2002</pubdate>
+<volume>99</volume>
+<pages>863&#x2013;871.</pages>
+</reference>
+<reference id="pubmed7718875">
+<accessionId id="acc035" href="info:pmid/7718875" />
+<authors>Larson RA, Dodge RK, Burns CP, et al.</authors>
+<title>A five-drug remission induction regimen with intensive consolidation for adults with acute lymphoblastic leukemia: cancer and leukemia group B study 8811.</title>
+<source>Blood</source>
+<pubdate>1995</pubdate>
+<volume>85</volume>
+<pages>2025&#x2013;2037.</pages>
+</reference>
+<reference id="pubmed12610173">
+<accessionId id="acc036" href="info:pmid/12610173" />
+<authors>Boissel N, Auclerc MF, Lheritier V, et al.</authors>
+<title>Should adolescents with acute lymphoblastic leukemia be treated as old children or young adults? Comparison of the French FRALLE-93 and LALA-94 trials.</title>
+<source>J Clin Oncol</source>
+<pubdate>2003</pubdate>
+<volume>21</volume>
+<pages>774&#x2013;780.</pages>
+</reference>
+<reference id="pubmed15710326">
+<accessionId id="acc037" href="info:pmid/15710326" />
+<authors>Weisberg E, Manley PW, Breitenstein W, et al.</authors>
+<title>Characterization of AMN107, a selective inhibitor of native and mutant Bcr-Abl.</title>
+<source>Cancer Cell</source>
+<pubdate>2005</pubdate>
+<volume>7</volume>
+<pages>129&#x2013;141.</pages>
+</reference>
+<reference id="pubmed12454740">
+<accessionId id="acc038" href="info:pmid/12454740" />
+<authors>Wassmann B, Pfeifer H, Scheuring U, et al.</authors>
+<title>Therapy with imatinib mesylate (Glivec) preceding allogeneic stem cell transplantation (SCT) in relapsed or refractory Philadelphia-positive acute lymphoblastic leukemia (Ph+ALL).</title>
+<source>Leukemia</source>
+<pubdate>2002</pubdate>
+<volume>16</volume>
+<pages>2358&#x2013;2365.</pages>
+</reference>
+<reference id="pubmed15265787">
+<accessionId id="acc039" href="info:pmid/15265787" />
+<authors>Blum KA, Lozanski G, Byrd JC.</authors>
+<title>Adult Burkitt leukemia and lymphoma.</title>
+<source>Blood</source>
+<pubdate>2004</pubdate>
+<volume>104</volume>
+<pages>3009&#x2013;3020.</pages>
+</reference>
+<reference id="pubmed3528788">
+<accessionId id="acc040" href="info:pmid/3528788" />
+<authors>Mastrangelo R, Poplack D, Bleyer A, Riccardi R, Sather H, D'Angio G.</authors>
+<title>Report and recommendations of the Rome workshop concerning poor-prognosis acute lymphoblastic leukemia in children: biologic bases for staging, stratification, and treatment.</title>
+<source>Med Pediatr Oncol</source>
+<pubdate>1986</pubdate>
+<volume>14</volume>
+<pages>191&#x2013;194.</pages>
+</reference>
+<reference id="pubmed12060634">
+<accessionId id="acc041" href="info:pmid/12060634" />
+<authors>Garcia-Manero G, Bueso-Ramos C, Daniel J, Williamson J, Kantarjian HM, Issa JP.</authors>
+<title>DNA methylation patterns at relapse in adult acute lymphocytic leukemia.</title>
+<source>Clin Cancer Res</source>
+<pubdate>2002</pubdate>
+<volume>8</volume>
+<pages>1897&#x2013;1903.</pages>
+</reference>
+<reference id="pubmed14670924">
+<accessionId id="acc042" href="info:pmid/14670924" />
+<authors>Armstrong SA, Mabon ME, Silverman LB, et al.</authors>
+<title>FLT3 mutations in childhood acute lymphoblastic leukemia.</title>
+<source>Blood</source>
+<pubdate>2004</pubdate>
+<volume>103</volume>
+<pages>3544&#x2013;3546.</pages>
+</reference>
+<reference id="pubmed15472075">
+<accessionId id="acc043" href="info:pmid/15472075" />
+<authors>Weng AP, Ferrando AA, Lee W, et al.</authors>
+<title>Activating mutations of NOTCH1 in human T cell acute lymphoblastic leukemia.</title>
+<source>Science</source>
+<pubdate>2004</pubdate>
+<volume>306</volume>
+<pages>269&#x2013;271.</pages>
+</reference>
+<reference id="pubmed15361874">
+<accessionId id="acc044" href="info:pmid/15361874" />
+<authors>Graux C, Cools J, Melotte C, et al.</authors>
+<title>Fusion of NUP214 to ABL1 on amplified episomes in T-cell acute lymphoblastic leukemia.</title>
+<source>Nat Genet</source>
+<pubdate>2004</pubdate>
+<volume>36</volume>
+<pages>1084&#x2013;1089.</pages>
+</reference>
+<reference id="pubmed11888077">
+<accessionId id="acc045" href="info:pmid/11888077" />
+<authors>Thalhammer-Scherrer R, Mitterbauer G, Simonitsch I, et al.</authors>
+<title>The immunophenotype of 325 adult acute leukemias: relationship to morphologic and molecular classification and proposal for a minimal screening program highly predictive for lineage discrimination.</title>
+<source>Am J Clin Pathol</source>
+<pubdate>2002</pubdate>
+<volume>117</volume>
+<pages>380&#x2013;389.</pages>
+</reference>
+<reference id="pubmed16556888">
+<accessionId id="acc046" href="info:pmid/16556888" />
+<authors>Lazarus HM, Richards SM, Chopra R, et al.; Medical Research Council (MRC)&#x002F;National Cancer Research Institute (NCRI) Adult Leukaemia Working Party of the United Kingdom and the Eastern Cooperative Oncology Group.</authors>
+<title>Central nervous system involvement in adult acute lymphoblastic leukemia at diagnosis: results from the international ALL trial MRC UKALL XII&#x002F;ECOG E2993.</title>
+<source>Blood</source>
+<pubdate>2006</pubdate>
+<volume>108</volume>
+<pages>465&#x2013;472.</pages>
+</reference>
+<reference id="pubmed12036865">
+<accessionId id="acc047" href="info:pmid/12036865" />
+<authors>Hoelzer D, Gokbuget N, Digel W, et al.</authors>
+<title>Outcome of adult patients with T-lymphoblastic lymphoma treated according to protocols for acute lymphoblastic leukemia.</title>
+<source>Blood</source>
+<pubdate>2002</pubdate>
+<volume>99</volume>
+<pages>4379&#x2013;4385.</pages>
+</reference>
+<reference id="pubmed3422030">
+<accessionId id="acc048" href="info:pmid/3422030" />
+<authors>Hoelzer D, Thiel E, Loffler H, et al.</authors>
+<title>Prognostic factors in a multicenter study for treatment of acute lymphoblastic leukemia in adults.</title>
+<source>Blood</source>
+<pubdate>1988</pubdate>
+<volume>71</volume>
+<pages>123&#x2013;131.</pages>
+</reference>
+<reference id="pubmed10577857">
+<accessionId id="acc049" href="info:pmid/10577857" />
+<authors>Harris NL, Jaffe ES, Diebold J, et al.</authors>
+<title>World Health Organization classification of neoplastic diseases of the hematopoietic and lymphoid tissues: report of the Clinical Advisory Committee meeting-Airlie House, Virginia, November 1997.</title>
+<source>J Clin Oncol</source>
+<pubdate>1999</pubdate>
+<volume>17</volume>
+<pages>3835&#x2013;3849.</pages>
+</reference>
+<reference id="pubmed188440">
+<accessionId id="acc050" href="info:pmid/188440" />
+<authors>Bennett JM, Catovsky D, Daniel MT, et al.</authors>
+<title>Proposals for the classification of the acute leukaemias. French-American-British (FAB) co-operative group.</title>
+<source>Br J Haematol</source>
+<pubdate>1976</pubdate>
+<volume>33</volume>
+<pages>451&#x2013;458.</pages>
+</reference>
+<reference id="pubmed16295033">
+<accessionId id="acc051" href="info:pmid/16295033" />
+<authors>Jabbour EJ, Faderl S, Kantarjian HM.</authors>
+<title>Adult acute lymphoblastic leukemia.</title>
+<source>Mayo Clin Proc</source>
+<pubdate>2005</pubdate>
+<volume>80</volume>
+<pages>1517&#x2013;1527.</pages>
+</reference>
+<reference id="pubmed15707724">
+<accessionId id="acc052" href="info:pmid/15707724" />
+<authors>Greaves M.</authors>
+<title>In utero origins of childhood leukaemia.</title>
+<source>Early Hum Dev</source>
+<pubdate>2005</pubdate>
+<volume>81</volume>
+<pages>123&#x2013;129.</pages>
+</reference>
+<reference id="pubmed10536004">
+<accessionId id="acc053" href="info:pmid/10536004" />
+<authors>Skibola CF, Smith MT, Kane E, et al.</authors>
+<title>Polymorphisms in the methylenetetrahydrofolate reductase gene are associated with susceptibility to acute leukemia in adults.</title>
+<source>Proc Natl Acad Sci USA</source>
+<pubdate>1999</pubdate>
+<volume>96</volume>
+<pages>12810&#x2013;12815.</pages>
+</reference>
+<reference id="pubmed8246285">
+<accessionId id="acc054" href="info:pmid/8246285" />
+<authors>Sandler DP, Shore DL, Anderson JR, et al.</authors>
+<title>Cigarette smoking and risk of acute leukemia: associations with morphology and cytogenetic abnormalities in bone marrow.</title>
+<source>J Natl Cancer Inst</source>
+<pubdate>1993</pubdate>
+<volume>85</volume>
+<pages>1994&#x2013;2003.</pages>
+</reference>
+<reference id="pubmed8127953">
+<accessionId id="acc055" href="info:pmid/8127953" />
+<authors>Preston DL, Kusumi S, Tomonaga M, et al.</authors>
+<title>Cancer incidence in atomic bomb survivors. Part III. Leukemia, lymphoma and multiple myeloma, 1950-1987.</title>
+<source>Radiat Res</source>
+<pubdate>1994</pubdate>
+<volume>137</volume>
+<pages>S68&#x2013;S97.</pages>
+</reference>
+<reference id="pubmed8445941">
+<accessionId id="acc056" href="info:pmid/8445941" />
+<authors>Greaves MF, Alexander FE.</authors>
+<title>An infectious etiology for common acute lymphoblastic leukemia in childhood?</title>
+<source>Leukemia</source>
+<pubdate>1993</pubdate>
+<volume>7</volume>
+<pages>349&#x2013;360.</pages>
+</reference>
+<reference id="pubmed6929216">
+<accessionId id="acc057" href="info:pmid/6929216" />
+<authors>Toledano SR, Lange BJ.</authors>
+<title>Ataxia-telangiectasia and acute lymphoblastic leukemia.</title>
+<source>Cancer</source>
+<pubdate>1980</pubdate>
+<volume>45</volume>
+<pages>1675&#x2013;1678.</pages>
+</reference>
+<reference id="web001">
+<citation />
+<url>http://seer.cancer.gov/csr/1975_2006/index.html</url>
+<organization>SEER.</organization>
+<longtitle />
+<title>SEER cancer statistics review, 1975-2006.</title>
+<dateguideline />
+</reference>
+<reference id="web002">
+<citation />
+<url>http://www.nccn.org/professionals/physician_gls/f_guidelines.asp</url>
+<organization>NCCN.</organization>
+<longtitle />
+<title>National Comprehensive Cancer Network: acute myeloid leukemia.</title>
+<dateguideline />
+</reference>
+<reference id="nopmid_1080">
+<authors>De Angelo DJ, Dahlberg S, Silverman LB, et al.</authors>
+<title>A multicenter phase II study using intensified pediatric regimen in adults with untreated acute lymphoblastic leukemia.</title>
+<source>Blood</source>
+<pubdate>2007</pubdate>
+<volume>110</volume>
+<pages>587a (abstract).</pages>
+</reference>
+<reference id="nopmid_1081">
+<authors>Thomas DA, Kantarjian HM, Ravandi F, et al.</authors>
+<title>Long-term follow-up after frontline therapy with the hyper-CVAD and imatinib mesylate regimen in adults with Philadelphia (Ph) positive acute lymphocytic leukemia (ALL).</title>
+<source>Blood</source>
+<pubdate>2007</pubdate>
+<volume>110</volume>
+<pages>9a (abstract).</pages>
+</reference>
+<reference id="nopmid_1079">
+<authors>Porkka K, Relling MV, Downing JR.</authors>
+<title>Efficacy of dasatinib in patients with Philadelphia-chromosome-positive acute lymphoblastic leukemia who are resistant or intolerant to imatinib: 2-year follow-up data from START-L (CA 180-015).</title>
+<source>Blood</source>
+<pubdate>2007</pubdate>
+<volume>110</volume>
+<pages>2810a (abstract).</pages>
+</reference>
+<reference id="pubmed20877339">
+<accessionId id="acc063" href="info:pmid/20877339" />
+<authors>Kheifets L, Ahlbom A, Crespi CM, et al.</authors>
+<title>Pooled analysis of recent studies on magnetic fields and childhood leukaemia.</title>
+<source>Br J Cancer</source>
+<pubdate>2010</pubdate>
+<volume>103</volume>
+<pages>1128&#x2013;1135.</pages>
+</reference>
+<reference id="poem130823">
+<accessionId id="acc064" href="info:wiley/eep-poem/130823" />
+<accessionId id="acc064b" href="info:pmid/21642683" />
+<authors>Reulen RC, Frobisher C, Winter DL, Kelly J, Lancashire ER, Stiller CA, Pritchard-Jones K, Jenkinson HC, Hawkins MM; British Childhood Cancer Survivor Study Steering Group.</authors>
+<title>Long-term risks of subsequent primary neoplasms among survivors of childhood cancer.</title>
+<source>JAMA</source>
+<pubdate>2011</pubdate>
+<volume>305</volume>
+<pages>2311&#x2013;2319.</pages>
+</reference>
+<reference id="cochrane8562">
+<accessionId id="acc065" href="info:wiley/cochrane/CD008562" />
+<chapter_authors>Mart&#x00ED;-Carvajal AJ, Simancas D, Cardona AF.</chapter_authors>
+<chapter_title>Treatment for disseminated intravascular coagulation in patients with acute and chronic leukemia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 6. Art. No.: CD008562. DOI: 10.1002&#x002F;14651858.CD008562.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4139">
+<accessionId id="acc066" href="info:wiley/cochrane/CD004139" />
+<chapter_authors>Sasse EC, Sasse AD, Brandalise SR, Clark OAC, Richards S.</chapter_authors>
+<chapter_title>Colony-stimulating factors for prevention of myelosuppressive therapy-induced febrile neutropenia in children with acute lymphoblastic leukaemia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4386">
+<accessionId id="acc067" href="info:wiley/cochrane/CD004386" />
+<chapter_authors>Gafter-Gvili A, Fraser A, Paul M, Vidal L, Lawrie TA, van de Wetering MD, Kremer LC, Leibovici L.</chapter_authors>
+<chapter_title>Antibiotic prophylaxis for bacterial infections in afebrile neutropenic patients following chemotherapy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 1. Art. No.: CD004386. DOI: 10.1002&#x002F;14651858.CD004386.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed27626518">
+<accessionId id="acc068" href="info:pmid/27626518" />
+<authors>Maury S, Chevret S, Thomas X, Heim D, Leguay T, Huguet F, Chevallier P, Hunault M, Boissel N, Escoffre-Barbe M, Hess U, Vey N, Pignon JM, Braun T, Marolleau JP, Cahn JY, Chalandon Y, Lh&#x00E9;ritier V, Beldjord K, B&#x00E9;n&#x00E9; MC, Ifrah N, Dombret H; for GRAALL.</authors>
+<title>Rituximab in B-lineage adult acute lymphoblastic leukemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>375</volume>
+<pages>1044&#x2013;1053.</pages>
+</reference>
+<reference id="pubmed27292104">
+<accessionId id="acc069" href="info:pmid/27292104" />
+<authors>Kantarjian HM, DeAngelo DJ, Stelljes M, Martinelli G, Liedtke M, Stock W, G&#x00F6;kbuget N, O'Brien S, Wang K, Wang T, Paccagnella ML, Sleight B, Vandendries E, Advani AS.</authors>
+<title>Inotuzumab ozogamicin versus standard therapy for acute lymphoblastic leukemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>375</volume>
+<pages>740&#x2013;753.</pages>
+</reference>
+<reference id="pubmed27309127">
+<accessionId id="acc070" href="info:pmid/27309127" />
+<authors>Giebel S, Czyz A, Ottmann O, Baron F, Brissot E, Ciceri F, Cornelissen JJ, Esteve J, Gorin NC, Savani B, Schmid C, Mohty M, Nagler A.</authors>
+<title>Use of tyrosine kinase inhibitors to prevent relapse after allogeneic hematopoietic stem cell transplantation for patients with Philadelphia chromosome-positive acute lymphoblastic leukemia: a position statement of the Acute Leukemia Working Party of the European Society for Blood and Marrow Transplantation.</title>
+<source>Cancer</source>
+<pubdate>2016</pubdate>
+<volume>122</volume>
+<pages>2941&#x2013;2951.</pages>
+</reference>
+<reference id="pubmed28249141">
+<accessionId id="acc071" href="info:pmid/28249141" />
+<authors>Kantarjian H, Stein A, G&#x00F6;kbuget N, Fielding AK, Schuh AC, Ribera JM, Wei A, Dombret H, Fo&#x00E0; R, Bassan R, Arslan &#x00D6;, Sanz MA, Bergeron J, Demirkan F, Lech-Maranda E, Rambaldi A, Thomas X, Horst HA, Br&#x00FC;ggemann M, Klapper W, Wood BL, Fleishman A, Nagorsen D, Holland C, Zimmerman Z, Topp MS.</authors>
+<title>Blinatumomab versus chemotherapy for advanced acute lymphoblastic leukemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>376</volume>
+<pages>836&#x2013;847.</pages>
+</reference>
+<reference id="cochrane8727">
+<accessionId id="acc072" href="info:wiley/cochrane/CD008727" />
+<chapter_authors>Rensen N, Gemke RJ, van Dalen EC, Rotteveel J, Kaspers GJ.</chapter_authors>
+<chapter_title>Hypothalamic-pituitary-adrenal (HPA) axis suppression after treatment with glucocorticoid therapy for childhood acute lymphoblastic leukaemia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 11. Art. No.: CD008727. DOI: 10.1002&#x002F;14651858.CD008727.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed29856344">
+<accessionId id="acc073" href="info:pmid/29856344" />
+<authors>Winston DJ, Mullane KM, Cornely OA, Boeckh MJ, Brown JW, Pergam SA, Trociukas I, &#x017D;&#x00E1;k P, Craig MD, Papanicolaou GA, Velez JD, Panse J, Hurtado K, Fernsler DA, Stek JE, Pang L, Su SC, Zhao Y, Chan ISF, Kaplan SS, Parrino J, Lee I, Popmihajlov Z, Annunziato PW, Arvin A, V212 Protocol 001 Trial Team.</authors>
+<title>Inactivated varicella zoster vaccine in autologous haemopoietic stem-cell transplant recipients: an international, multicentre, randomised, double-blind, placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2018</pubdate>
+<volume>391</volume>
+<pages>2116&#x2013;2127.</pages>
+</reference>
+<reference id="pubmed33085860">
+<accessionId id="acc074" href="info:pmid/33085860" />
+<authors>Fo&#x00E0; R, Bassan R, Vitale A, Elia L, Piciocchi A, Puzzolo MC, Canichella M, Viero P, Ferrara F, Lunghi M, Fabbiano F, Bonifacio M, Fracchiolla N, Di Bartolomeo P, Mancino A, De Propris MS, Vignetti M, Guarini A, Rambaldi A, Chiaretti S, GIMEMA Investigators.</authors>
+<title>Dasatinib-blinatumomab for Ph-positive acute lymphoblastic leukemia in adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>1613&#x2013;1623.</pages>
+</reference>
+<reference id="pubmed32315382">
+<accessionId id="acc075" href="info:pmid/32315382" />
+<authors>Enshaei A, O'Connor D, Bartram J, Hancock J, Harrison CJ, Hough R, Samarasinghe S, den Boer ML, Boer JM, de Groot-Kruseman HA, Marquart HV, Noren-Nystrom U, Schmiegelow K, Schwab C, Horstmann MA, Escherich G, Heyman M, Pieters R, Vora A, Moppett J, Moorman AV.</authors>
+<title>A validated novel continuous prognostic index to deliver stratified medicine in pediatric acute lymphoblastic leukemia.</title>
+<source>Blood</source>
+<pubdate>2020</pubdate>
+<volume>135</volume>
+<pages>1438&#x2013;1446.</pages>
+</reference>
+<reference id="pubmed33651091">
+<accessionId id="acc076" href="info:pmid/33651091" />
+<authors>Locatelli F, Zugmaier G, Rizzari C, Morris JD, Gruhn B, Klingebiel T, Parasole R, Linderkamp C, Flotho C, Petit A, Micalizzi C, Mergen N, Mohammad A, Kormany WN, Eckert C, M&#x00F6;ricke A, Sartor M, Hrusak O, Peters C, Saha V, Vinti L, von Stackelberg A.</authors>
+<title>Effect of blinatumomab vs chemotherapy on event-free survival among children with high-risk first-relapse B-cell acute lymphoblastic leukemia: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2021</pubdate>
+<volume>325</volume>
+<pages>843&#x2013;854.</pages>
+</reference>
+<reference id="pubmed33651090">
+<accessionId id="acc077" href="info:pmid/33651090" />
+<authors>Brown PA, Ji L, Xu X, Devidas M, Hogan LE, Borowitz MJ, Raetz EA, Zugmaier G, Sharon E, Bernhardt MB, Terezakis SA, Gore L, Whitlock JA, Pulsipher MA, Hunger SP, Loh ML.</authors>
+<title>Effect of postreinduction therapy consolidation with blinatumomab vs chemotherapy on disease-free survival in children, adolescents, and young adults with first relapse of B-cell acute lymphoblastic leukemia: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2021</pubdate>
+<volume>325</volume>
+<pages>833&#x2013;842.</pages>
+</reference>
+<reference id="pubmed32321172">
+<accessionId id="acc078" href="info:pmid/32321172" />
+<authors>Orvain C, Balsat M, Tavernier E, Marolleau JP, Pabst T, Chevallier P, de Gunzburg N, Cacheux V, Huguet F, Chantepie S, Caillot D, Chalandon Y, Frayfer J, Bonmati C, Lheritier V, Ifrah N, Dombret H, Boissel N, Hunault-Berger M.</authors>
+<title>Thromboembolism prophylaxis in adult patients with acute lymphoblastic leukemia treated in the GRAALL-2005 study.</title>
+<source>Blood</source>
+<pubdate>2020</pubdate>
+<volume>136</volume>
+<pages>328&#x2013;338.</pages>
+</reference>
+<reference id="pubmed33847682">
+<accessionId id="acc079" href="info:pmid/33847682" />
+<authors>Dai Q, Shi R, Zhang G, Yang H, Wang Y, Ye L, Peng L, Guo S, He J, Jiang Y.</authors>
+<title>Combined use of peripheral blood blast count and platelet count during and after induction therapy to predict prognosis in children with acute lymphoblastic leukemia.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>e25548.</pages>
+</reference>
+<reference id="pubmed39047240">
+<accessionId id="acc080" href="info:pmid/39047240" />
+<authors>Litzow MR, Sun Z, Mattison RJ, Paietta EM, Roberts KG, Zhang Y, Racevskis J, Lazarus HM, Rowe JM, Arber DA, Wieduwilt MJ, Liedtke M, Bergeron J, Wood BL, Zhao Y, Wu G, Chang TC, Zhang W, Pratz KW, Dinner SN, Frey N, Gore SD, Bhatnagar B, Atallah EL, Uy GL, Jeyakumar D, Lin TL, Willman CL, DeAngelo DJ, Patel SB, Elliott MA, Advani AS, Tzachanis D, Vachhani P, Bhave RR, Sharon E, Little RF, Erba HP, Stone RM, Luger SM, Mullighan CG, Tallman MS.</authors>
+<title>Blinatumomab for MRD-Negative Acute Lymphoblastic Leukemia in Adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>320&#x2013;333.</pages>
+</reference>
+<reference id="pubmed39602653">
+<accessionId id="acc081" href="info:pmid/39602653" />
+<authors>Roddie C, Sandhu KS, Tholouli E, Logan AC, Shaughnessy P, Barba P, Ghobadi A, Guerreiro M, Yallop D, Abedi M, Pantin JM, Yared JA, Beitinjaneh AM, Chaganti S, Hodby K, Menne T, Arellano ML, Malladi R, Shah BD, Mountjoy L, O'Dwyer KM, Peggs KS, Lao-Sirieix P, Zhang Y, Brugger W, Braendle E, Pule M, Bishop MR, DeAngelo DJ, Park JH, Jabbour E.</authors>
+<title>Obecabtagene Autoleucel in Adults with B-Cell Acute Lymphoblastic Leukemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>2219&#x2013;2230.</pages>
+</reference>
+<reference id="pubmed39651791">
+<accessionId id="acc082" href="info:pmid/39651791" />
+<authors>Gupta S, Rau RE, Kairalla JA, Rabin KR, Wang C, Angiolillo AL, Alexander S, Carroll AJ, Conway S, Gore L, Kirsch I, Kubaney HR, Li AM, McNeer JL, Militano O, Miller TP, Moyer Y, O'Brien MM, Okada M, Reshmi SC, Shago M, Wagner E, Winick N, Wood BL, Haworth-Wright T, Zaman F, Zugmaier G, Zupanec S, Devidas M, Hunger SP, Teachey DT, Raetz EA, Loh ML.</authors>
+<title>Blinatumomab in Standard-Risk B-Cell Acute Lymphoblastic Leukemia in Children.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>875&#x2013;891.</pages>
+</reference>
+<reference id="pubmed41363805">
+<accessionId id="acc083" href="info:pmid/41363805" />
+<authors>Chiesa R, Georgiadis C, Rashed H, Preece R, Hardefeldt P, Chu J, Selvage J, Mishra A, Ahmed B, Adams S, Thomas R, Gilmour K, Etuk A, Yallop D, O'Connor D, Qasim W, Base-Edited CAR T Group.</authors>
+<title>Universal Base-Edited CAR7 T Cells for T-Cell Acute Lymphoblastic Leukemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2026</pubdate>
+<volume>394</volume>
+<pages>152&#x2013;165.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>WHO Classification for Lymphoblastic Neoplasms.<sup>a</sup></caption>
+<feature_body>B-cell neoplasms <list style="bulleted">
+<listitem>Precursor B-cell neoplasm</listitem>
+<listitem>Precursor B-cell ALL</listitem>
+<listitem>Mature (peripheral) B-cell leukemia</listitem>
+<listitem>Burkitt cell leukemia</listitem>
+<listitem>T-cell and NK-cell neoplasms</listitem>
+<listitem>Precursor T-cell neoplasm</listitem>
+<listitem>Precursor T-cell ALL</listitem>
+<listitem>Mature (peripheral) T-cell neoplasms</listitem>
+</list>Only the major leukemia subtypes are included. Data from&#x00A0;Harris NL, Jaffe ES, Diebold J, et al. World Health Organization classification of neoplastic diseases of the hematopoietic and lymphoid tissues: report of the Clinical Advisory Committee meeting-Airlie House, Virginia, November 1997. <em>J Clin Oncol</em> 1999;<strong>17</strong>(12):3835&#x2013;3849.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Principles of Acute Lymphoblastic Leukemia (ALL) Therapy.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">&#x00A0;</th>
+<th align="left" colspan="1">Risk-Oriented Therapy</th>
+<th align="left" colspan="1">&#x00A0;</th>
+</tr>
+<tr>
+<th align="left" colspan="1">&#x00A0;</th>
+<th align="left" colspan="1">Backbone</th>
+<th align="left" colspan="1">Additional Drugs</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Induction</td>
+<td align="left" colspan="1">Vincristin + corticosteroids + anthracyclines</td>
+<td align="left" colspan="1">L-Asparaginase</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Cytarabine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Cyclophosphamide</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Intensified consolidation</td>
+<td align="left" colspan="1">Intensification of the same induction drugs</td>
+<td align="left" colspan="1">HD cytarabine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">HD cyclophosphamide</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">HD methotrexate</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Etoposide&#x002F;teniposide</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Amsacrine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">6-Mercaptopurine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">6-Thioguanine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">SCT</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Maintenance</td>
+<td align="left" colspan="1">6-Mercaptopurine + methotrexate + vincristine + corticosteroids</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">CNS prophylaxis</td>
+<td align="left" colspan="1">Intrathecal chemotherapy (methotrexate, cytarabine, steroids) + HD systemic chemotherapy (methotrexate, cytarabine, L-asparaginase)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>Abbreviations: HD, high-dose; SCT, stem cell transplantation.</feature_body>
+</feature>
+<feature id="table003">
+<caption>Incidence of Cytogenetic Abnormalities among Adult and Pediatric Populations and Respective Event-Free Survivals (EFS).</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Cytogenetic Abnormality</th>
+<th align="left" colspan="1">Children (&#x0025;)</th>
+<th align="left" colspan="1">Adults (&#x0025;)</th>
+<th align="left" colspan="1">EFS Children (&#x0025;)</th>
+<th align="left" colspan="1">EFS Adults (&#x0025;)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Hyperdipliody (&gt;50 chromosome)</td>
+<td align="left" colspan="1">10-26</td>
+<td align="left" colspan="1">2-15</td>
+<td align="left" colspan="1">85-90 at 5 y</td>
+<td align="left" colspan="1">30-50 at 5 y</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hypodiplioidy (&lt;45 chromosome)</td>
+<td align="left" colspan="1">5-10</td>
+<td align="left" colspan="1">5-10</td>
+<td align="left" colspan="1">30-40 at 3 y</td>
+<td align="left" colspan="1">10-20 at 3 y</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T(12;21)</td>
+<td align="left" colspan="1">20-25</td>
+<td align="left" colspan="1">&lt;1</td>
+<td align="left" colspan="1">85-90 at 5 y</td>
+<td align="left" colspan="1">Unknown</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T(1;19)</td>
+<td align="left" colspan="1">&lt;5</td>
+<td align="left" colspan="1">&lt;5</td>
+<td align="left" colspan="1">75-90 at 5 y</td>
+<td align="left" colspan="1">20-40 at 3 y</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T(9;22)</td>
+<td align="left" colspan="1">2-6</td>
+<td align="left" colspan="1">15-25</td>
+<td align="left" colspan="1">20-40 at 5 y</td>
+<td align="left" colspan="1">&lt; 10 at 3 y</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T(4;11)</td>
+<td align="left" colspan="1">&lt;5</td>
+<td align="left" colspan="1">5-10</td>
+<td align="left" colspan="1">10-35 at 5 y</td>
+<td align="left" colspan="1">10-20 at 3 y</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T(8;14)</td>
+<td align="left" colspan="1">2-5</td>
+<td align="left" colspan="1">5</td>
+<td align="left" colspan="1">75-85 at 5 y</td>
+<td align="left" colspan="1">50-55 at 4 y</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T(10;14)</td>
+<td align="left" colspan="1">&lt;5</td>
+<td align="left" colspan="1">5-10</td>
+<td align="left" colspan="1">90 at 5 y</td>
+<td align="left" colspan="1">80 at 3 y</td>
+</tr>
+</table>Data from Faderl S, Jeha S, Kantarjian HM. The biology and therapy of adult acute lymphoblastic leukemia. <em>Cancer</em> 2003;<strong>98</strong>:1337&#x2013;1354.<xref ref="pubmed14508819" resource="acc009" /> Jabbour EJ, Faderl S, Kantarjian HM. Adult acute lymphoblastic leukemia. <em>Mayo Clin Proc</em> 2005;<strong>80</strong>:1517&#x2013;1527.<xref ref="pubmed16295033" resource="acc051" /> Secker-Walker LM, Prentice HG, Durrant J, Richards S, Hall E, Harrison G. Cytogenetics adds independent prognostic information in adults with acute lymphoblastic leukaemia on MRC trial UKALL XA. MRC Adult Leukaemia Working Party. <em>Br J Haematol</em> 1997;<strong>96</strong>:601&#x2013;610.<xref ref="pubmed9054669" resource="acc010" /> Pui CH, Relling MV, Downing JR. Acute lymphoblastic leukemia. <em>N Engl J Med</em> 2004;<strong>350</strong>:1535&#x2013;1548.<xref ref="pubmed15071128" resource="acc011" />
+</feature_body>
+</feature>
+<feature id="table004">
+<caption>Molecular Aberrations Representing Possible Therapeutic Targets.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Molecular Markers&#x002F;Targets</th>
+<th align="left" colspan="1">Characteristics</th>
+<th align="left" colspan="1">Speculated Treatments</th>
+</tr>
+<tr>
+<td align="left" colspan="1">BCR-ABL</td>
+<td align="left" colspan="1">Ph-positive ALL</td>
+<td align="left" colspan="1">Imatinib, dasatinib, nilotinib</td>
+</tr>
+<tr>
+<td align="left" colspan="1">NEUP214-ABL1<sup>a</sup></td>
+<td align="left" colspan="1">6&#x0025; of T-ALL</td>
+<td align="left" colspan="1">Imatinib, dasatinib, nilotinib</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">ABL1 tyrosine kinase function is activated.</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">NOTCH1<sup>b</sup></td>
+<td align="left" colspan="1">T-CELL transmembrane protein involved in cell cycle regulation, activated by the enzyme gamma-secretase</td>
+<td align="left" colspan="1">Gamma-secretase inhibitors</td>
+</tr>
+<tr>
+<td align="left" colspan="1">FLT3<sup>c</sup></td>
+<td align="left" colspan="1">Overexpressed in some ALL with MLL rearrangements and hyperdiploidy</td>
+<td align="left" colspan="1">FLT3 inhibitors</td>
+</tr>
+</table>
+<sup>a</sup>Graux C, Cools J, Melotte C, et al. Fusion of NUP214 to ABL1 on amplified episomes in T-cell acute lymphoblastic leukemia. <em>Nat Genet</em> 2004;<strong>36</strong>:1084&#x2013;1089.<xref ref="pubmed15361874" resource="acc044" />
+<sup>b</sup>Weng AP, Ferrando AA, Lee W, et al. Activating mutations of NOTCH1 in human T cell acute lymphoblastic leukemia. <em>Science</em> 2004;<strong>306</strong>:269&#x2013;271.<xref ref="pubmed15472075" resource="acc043" />
+<sup>c</sup>Armstrong SA, Mabon ME, Silverman LB, et al. FLT3 mutations in childhood acute lymphoblastic leukemia. <em>Blood</em> 2004;<strong>103</strong>:3544&#x2013;3546.<xref ref="pubmed14670924" resource="acc042" />
+</feature_body>
+</feature>
+</feature_group>
+<figure_group>
+<figure id="fig001">
+<caption>Acute Lymphoblastic Leukemia (ALL): Diagnosis.</caption>
+<graphic href="eee0493-w0001.gif" />
+</figure>
+</figure_group>
+</topic>

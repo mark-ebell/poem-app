@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Mesenteric ischemia</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0039</topic_id>
+<topic_comment />
+<topic_lastupdated>09/11/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Drew C. Baird, MD</author_name>
+<author_title>Associate Faculty</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Carl R. Darnall Army Medical Center</author_institution>
+<author_email>drew.baird&#x0040;us.army.mil</author_email>
+<author_phone_office>5049571282</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>308 Wrought Iron Drive</author_street1>
+<author_street2 />
+<author_city>Harker Heights</author_city>
+<author_state>TX</author_state>
+<author_zip>76548</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Augusta University &#x2013; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Acute mesenteric ischemia (AMI) is potentially lethal and requires rapid recognition and treatment to prevent death. Suspect it in patients with abdominal pain that is out of proportion to the examination, especially with a history of cardiovascular disease. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Mesenteric arteriography is the gold standard for diagnosing obstructive and nonobstructive AMI and chronic mesenteric ischemia (CMI). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>AMI treatment often includes laparotomy with surgical revascularization and necrotic bowel resection, typically with second-look surgery 24 to 48 hours later. Treatment can also include endovascular therapy to repair an obstruction, or aggressive resuscitation if AMI is due to a nonobstructive cause. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Intra-arterial papaverine or prostaglandin E1 is associated with improved outcomes in patients with non-occlusive mesenteric ischemia in the ICU. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>CMI treatment can include surgical or percutaneous endovascular revascularization. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Acute mesenteric ischemia (AMI) is a sudden obstructive or nonobstructive process within the mesenteric blood vessels that causes insufficient perfusion to maintain intestine viability.<xref ref="pubmed16549646" resource="acc009" /> CMI, or intestinal angina, is the intermittent, transient occurrence of inadequate mesenteric blood flow severe enough to produce symptoms.<xref ref="pubmed10784595" resource="acc004" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>A systematic review found that the mean incidence was 6.2 cases per 100,000 person-years of follow-up. They further estimate that 5 of every 10,000 hospital admissions are due to acute mesenteric ischemia.<xref ref="pubmed36283747" resource="acc024" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Early diagnosis is critical to avoid the increasing mortality associated with delays in surgery from symptom onset.</listitem>
+<listitem>At least two thirds of patients with either AMI or CMI are women.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia (AMI)</strong></listitem>
+<listitem>Nonthrombotic causes (60&#x0025; of cases): low-flow states (hypovolemia, cardiogenic shock, sepsis), mechanical causes (strangulation, intussusception), trauma, aortic dissection, drug-related causes (vasoconstrictors, cocaine, ergots), post-vascular surgery.</listitem>
+<listitem>Thrombotic causes (34&#x0025; of cases): arterial embolism, arterial thrombosis, venous thrombosis.</listitem>
+<listitem><strong>Chronic mesenteric ischemia (CMI)</strong></listitem>
+<listitem>Nearly always because of atherosclerotic disease of the mesenteric vessels causing partial or complete obstruction.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Ninety-five percent of patients have two of the three mesenteric arteries (celiac, superior mesenteric, and inferior mesenteric arteries) involved, 55&#x0025; have all three involved, 7&#x0025; have isolated superior mesenteric artery occlusion, 2&#x0025; have isolated celiac artery involvement.<xref ref="pubmed10784595" resource="acc004" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia</strong></listitem>
+<listitem>AMI is the rapid onset of decreased blood flow to the intestines, due to: partial or complete obstruction of the mesenteric arteries or veins (celiac, superior mesenteric, inferior mesenteric); or nonocclusive processes, most commonly low-flow states, but may also be due to mechanical causes, trauma, medications and drugs, and postvascular surgery.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem><strong>Chronic mesenteric ischemia</strong></listitem>
+<listitem>CMI is caused by repeated bouts of temporarily diminished blood flow through the mesenteric arteries.</listitem>
+<listitem>It is most commonly caused by stenosis or occlusion by an atherosclerotic plaque.</listitem>
+<listitem>Symptoms may be exacerbated or triggered by food ingestion and the increased metabolic needs of digestion.<xref ref="pubmed10784595" resource="acc004" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Older than 50 years</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Congestive heart failure</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiac arrhythmias</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiovascular disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypovolemia</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypotension</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Sepsis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of arterial emboli</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of hypercoagulable state</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of deep venous thrombosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of vasculitis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients with acute abdominal pain out of proportion to the examination who have a history of cardiovascular disease should be evaluated for AMI. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Mesenteric arteriography is the gold standard for diagnosis of both obstructive and nonobstructive AMI, as well as CMI. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients with a history of cardiovascular disease who develop postprandial abdominal pain and weight loss without explanation should be evaluated for CMI. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Duplex ultrasound, CT, and MRA are acceptable initial tests for the diagnosis of CMI. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Acute gastroenteritis</Differential_Name>
+<Differential_Features>More commonly associated with diarrhea; possibly fever; typically a short symptomatic course</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Diverticulitis</Differential_Name>
+<Differential_Features>Typically left lower quadrant abdominal pain with inflamed diverticula on abdominal CT scan</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Small bowel obstruction</Differential_Name>
+<Differential_Features>Obvious air-fluid level pattern on abdominal radiograph; history of recent surgery</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Peritonitis</Differential_Name>
+<Differential_Features>Presents with fever, ascites, abdominal pain; history of cirrhosis or previous peritonitis common</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Appendicitis</Differential_Name>
+<Differential_Features>Periumbilical pain progressing to right lower quadrant (RLQ) pain at McBurney's point; characteristic CT scan findings</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cholecystitis</Differential_Name>
+<Differential_Features>Positive Murphy's sign; positive findings on right upper quadrant (RUQ) ultrasound</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Peptic ulcer disease</Differential_Name>
+<Differential_Features>Pain radiating to the back; history of ulcers, alcohol use, or NSAID use common; confirmed by endoscopy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pancreatitis</Differential_Name>
+<Differential_Features>Epigastric pain radiating to the back; inflamed and edematous pancreas and surrounding tissue on CT</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia</strong></listitem>
+<listitem>Most patients (&gt;90&#x0025;) present with sudden onset of abdominal pain, often out of proportion to examination findings.</listitem>
+<listitem><strong>Chronic mesenteric ischemia</strong></listitem>
+<listitem>Postprandial abdominal pain, usually generalized, lasting 1 to 3 hours, and progressively worsening over weeks to months is typical.</listitem>
+<listitem>Fear of abdominal pain leads to decreased appetite and weight loss.<xref ref="pubmed10784595" resource="acc004" /></listitem>
+<listitem>Vomiting, diarrhea, and constipation are less common symptoms.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><strong>Laboratory tests</strong></listitem>
+<listitem>Patients may present with a leukocytosis, elevated lactate level, metabolic acidosis, elevated serum phosphate level, and elevated BUN and creatinine levels. No laboratory test, however, is sufficiently sensitive or specific to rule in or rule out AMI or CMI.</listitem>
+<listitem>A systematic review concluded that interleukin-6 (sensitivity 96&#x0025;, specificity 83&#x0025;, LR+ 5.6, LR- 0.05) and procalcitonin (sensitivity 80&#x0025;, specificity 87&#x0025;, LR+ 6.2, LR- 0.23) were reasonably accurate for AMI.<xref ref="pubmed37658356" resource="acc029" /></listitem>
+<listitem>In patients with a venous thrombosis as the cause of AMI, a hypercoagulable state work-up should be performed; one third of patients may have a protein C or protein S deficiency.<xref ref="pubmed11407335" resource="acc003" /></listitem>
+<listitem>A systematic review concluded that d-dimer is highly sensitive (93&#x0025;) so a normal d-dimer makes the diagnosis less likely. Lactate and neutrophil to lymphocyte ratio were highly specific for acute mesentheric ischemia.<xref ref="pubmed30999055" resource="acc018" /></listitem>
+<listitem><strong>Imaging</strong></listitem>
+<listitem>Ultrasound, CT angiography, and MRA are reasonable initial tests for the diagnosis of CMI. Early diagnosis is challenging, but CT angiography is the current gold standard.<xref ref="pubmed23538325" resource="acc013" /></listitem>
+<listitem>CT angiography is highly accurate for diagnosing AMI. Findings suggesting mesenteric ischemia include the following situations: (1) if any of the following findings are present: pneumatosis intestinalis, isolated superior mesenteric artery occlusion, celiac and inferior mesenteric artery occlusion with distal superior mesenteric artery disease, arterial embolism, or venous gas; or (2) if there is bowel wall thickening plus one of the following: focal lack of bowel wall enhancement, solid organ infarction, or venous thrombosis.<xref ref="pubmed12944600" resource="acc001" /> Several meta-analyses confirmed this diagnostic performance, finding it was 92&#x0025; sensitive and 98.8&#x0025; specific (LR+ 92, LR- 0.08).<xref ref="pubmed40119151" resource="acc028" /><xref ref="pubmed31841175" resource="acc016" /><xref ref="pubmed20574087" resource="acc010" /> The value of this diagnostic test is best optimized when used in conjunction with a thorough clinical examination.</listitem>
+<listitem>Ultrasound may be used as an initial diagnostic test for chronic mesenteric ischemia (CMI) in stable patients with chronic kidney disease or a history of severe reactions to iodinated contrast.<xref ref="web001" /> Ultrasound can detect ostial lesions at the aortic origins of the mesenteric arteries, but its ability to detect lesions distal to this rapidly diminishes. Contrast-enhanced ultrasound using wideband power Doppler techniques is a new technology that shows promise in detecting intestinal ischemia;<xref ref="pubmed17681988" resource="acc002" /> it may show absent or diminished color signals within the least peristaltic segment of intestine and has a sensitivity of 94.1&#x0025;, a specificity of 100&#x0025;, a positive predictive value of 100&#x0025;, and a negative predictive value of 97.1&#x0025; for intestinal ischemia.<xref ref="pubmed17681988" resource="acc002" /></listitem>
+<listitem>Peripheral mesenteric artery obstructions are more difficult to identify with ultrasound or contrast-enhanced CT&#x2014;if clinical suspicion remains high for mesenteric ischemia, a negative ultrasound or CT result should not preclude the decision to perform angiography. US and CT cannot diagnose nonocclusive causes of mesenteric ischemia, such as low-flow states and vasospasm.<xref ref="web001" /></listitem>
+<listitem>Catheter arteriography is the gold standard for the diagnosis of AMI and CMI, and can identify obstructive and nonobstructive causes of mesenteric ischemia.</listitem>
+<listitem>Arteriography can also allow for catheter-directed therapy, and if surgery is required, can provide information on the location and severity of lesions.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>A study of 184 patients (50 with CMI) calculated a mesenteric artery calcium score using computed tomography, and found that using a cutoff of &gt;16 for celiac artery was 85&#x0025; sensitive but only 53&#x0025; specific. For SMA, it was 74&#x0025; sensitive and 62&#x0025; specific using a cutoff of &gt;29.0. Negative predictive values were 91&#x0025; and 87&#x0025; for CA and SMA respectively.<xref ref="pubmed33263162" resource="acc023" /></listitem>
+<listitem><strong>Surgery</strong></listitem>
+<listitem>Laparotomy should be emergently used as a diagnostic and therapeutic tool when patients present acutely with severe abdominal pain and peritoneal signs.</listitem>
+<listitem>The inspection of the bowel by an experienced surgeon remains the most effective and reliable diagnostic tool to identify infarcted bowel.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia</strong></listitem>
+<listitem>Patients, especially those with a history of cardiovascular disease, with abdominal pain severe enough to present to a physician that is out of proportion to examination, and whose clinical presentation does not suggest some other etiology, should be evaluated for AMI. See <xref ref="fig001" />.</listitem>
+<listitem><strong>Chronic mesenteric ischemia</strong></listitem>
+<listitem>CMI should be considered in patients who present with postprandial abdominal pain and weight loss without another explanation, especially those with a history of cardiovascular disease.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>In patients with nonocclusive AMI, rapid and aggressive treatment to reverse the underlying low-flow state is the first and most critical step in treatment. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Laparotomy with surgical revascularization and resection of necrotic bowel is indicated for patients with acute abdominal pain, peritoneal signs, and suspected AMI; a second-look surgery may be indicated 24 to 48 hours later. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Percutaneous endovascular treatment for AMI is acceptable in selected patients and is associated with lower mortality in observational studies, but laparotomy may still be necessary to evaluate for necrotic bowel.<xref ref="pubmed31482344" resource="acc017" /><xref ref="pubmed30999055" resource="acc018" /><xref ref="pubmed28121281" resource="acc019" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Transcatheter administration of vasodilators (papaverine or prostaglandin E1) is indicated in patients with nonobstructive AMI not responding to resuscitative measures or nonobstructive AMI because of cocaine or ergot poisoning.<xref ref="pubmed31645176" resource="acc015" /><evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Surgical revascularization or percutaneous endovascular treatment are acceptable treatments for CMI. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>In patients with nonocclusive AMI, potentially reversible low-flow states should be rapidly and aggressively treated to correct the underlying cause (sepsis, hypovolemia, cardiogenic shock, and so forth).</listitem>
+<listitem>Intraarterial papaverine is indicated for use in nonocclusive AMI, and can be used in occlusive AMI when surgery is contraindicated, when there are no peritoneal signs, and perioperatively to inhibit intraoperative and postoperative vasospasm of mesenteric vessels.<xref ref="pubmed10784595" resource="acc004" /></listitem>
+<listitem>Other vasodilators, besides papaverine, used for nonocclusive AMI include prostaglandin E-1 and nitroglycerine.<xref ref="pubmed17667501" resource="acc008" /></listitem>
+<listitem>Successful use of thrombolytic therapy (streptokinase, urokinase, tPA) has been described in case reports; its use is contraindicated in known or suspected bowel infarction, which limits its widespread use.<xref ref="web001" /></listitem>
+<listitem>Cardiogenic arterial emboli (ie, emboli because of atrial fibrillation) and mesenteric venous thromboses that cause AMI should be treated with anticoagulation therapy (heparin or warfarin) for 3 to 6 months.</listitem>
+<listitem>Perioperative heparinization for arterial emboli from noncardiac sources may be considered.<xref ref="pubmed10784595" resource="acc004" /></listitem>
+<listitem>Currently there is no role for drug therapy in CMI treatment.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia</strong></listitem>
+<listitem>Early diagnosis is critical to improve the success rate of surgery and improve survival rate.<xref ref="pubmed11407335" resource="acc003" /></listitem>
+<listitem>Laparotomy is indicated if any peritoneal signs are present.</listitem>
+<listitem>With laparotomy, the surgeon can perform revascularization surgery by surgical endarterectomy or bypass grafting; identify viable, nonviable, and questionably viable segments of bowel; and resect any infarcted bowel.</listitem>
+<listitem>A second-look laparotomy 24 to 48 hours later can be considered to reexamine questionably viable segments of bowel.</listitem>
+<listitem>Endovascular therapy is an alternative option to revascularization surgery, but still often requires a laparotomy for assessment of bowel viability. Endovascular therapy includes percutaneous interventions involving balloon angioplasty, stenting, and transcatheter delivery of a vasodilator (papaverine) or other thrombolytic therapy.<xref ref="pubmed16549646" resource="acc009" /><xref ref="pubmed24183620" resource="acc012" /></listitem>
+<listitem>A systematic review identified seven observational studies comparing endovascular with open surgical approaches. Mortality was lower in the endovascular group (15&#x0025; to 39&#x0025; versus 33&#x0025; to 50&#x0025;) but selection bias and confounding are likely in the absence of randomization.<xref ref="pubmed31482344" resource="acc017" /> A second systematic review identified 8 observational studies comparing endovascular therapy with open surgery for patients with AMI (n&#x003D;8185) and reported an odds ratio of 0.45 favoring endovascular therapy (95&#x0025; CI 0.30-0.67). The same caveats about observational studies apply, though.<xref ref="pubmed28121281" resource="acc019" /></listitem>
+<listitem>A systematic review found 12 studies with 335 patients (all observational) who had non-occlusive mesenteric ischemia. They found lower mortality in those undergoing some sort of local vasodilatory treatment (largely with intra-arterial papaverine or prostaglandin E1) and found an association between treatment and lower mortality (OR 0.26, 95&#x0025; CI 0.10-0.71).<xref ref="pubmed31645176" resource="acc015" /></listitem>
+<listitem><strong>Chronic mesenteric ischemia</strong></listitem>
+<listitem>Surgery by endarterectomy or bypass grafting in limited case series has shown high revascularization success rates (98&#x0025;-100&#x0025;), 30-day mortality rates of 9&#x0025; to 11&#x0025;, and recurrence rates in 1 to 3 years of 19&#x0025; to 24&#x0025;.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>A systematic review identified 22 observational studies comparing endovascular therapy with open surgery for patients with chronic mesenteric ischemia. Open surgery was associated with a lower 3 year recurrence rate (RR 0.47, 95&#x0025; CI 0.34-0.66) and similar survival but a higher risk of post-procedural complications (RR 2.2, 95&#x0025; CI 1.8 - 2.6).<xref ref="pubmed29571626" resource="acc020" /></listitem>
+<listitem>A systematic review identified one RCT and 5 observational studies comparing bare-metal with covered stents forf chronic mesenteric ischemia. Covered stents were associated with more favorable outcomes.<xref ref="pubmed39864517" resource="acc027" /></listitem>
+<listitem>A Danish registry study of 245 patients with CMI treated endovascularly foun generally good results, with 85&#x0025; one year and 74&#x0025; three year survival. Results were less favorable for patients with acute on chronic mesenteric ischemia (1 and 3 year survival of 67&#x0025; and 54&#x0025; respectively). Outcomes were better for superior mesenteric artery involvement than other sites.<xref ref="pubmed33589326" resource="acc021" /></listitem>
+<listitem>Steerable introducer sheaths may be more effective for treatment of celiac or superior mesenteric artery lesions based on limited data from a series of 66 patients.<xref ref="pubmed33213286" resource="acc022" /></listitem>
+<listitem>Long-term follow-up is mandatory for patients treated for CMI.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Long-term care of patients with CMI includes adequate control of the patient's blood pressure, lipids, and blood glucose levels, and lifestyle modifications (ie, a cardiovascular-healthy, low-salt, low-fat diet and regular exercise).</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>AMI mortality, even with treatment, is approximately 70&#x0025; and has not changed in several decades; without treatment, it is likely fatal.<xref ref="pubmed36283747" resource="acc024" /><evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Early diagnosis and treatment are key to improving AMI survival rates. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11407335" resource="acc003" /></listitem>
+<listitem>CMI survival rates are similar between surgical and endovascular revascularization, but with a lower recurrence rate after surgical repair. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10784595" resource="acc004" /></listitem>
+<listitem>Untreated CMI will likely lead to AMI or death because of increasing weight loss and malnutrition. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Asymptomatic mesenteric artery stenoses and obstructions do not require revascularization, but may be considered during aorta or renal artery surgery for other indications. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17060539" resource="acc006" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia</strong></listitem>
+<listitem>Nearly always fatal without treatment: intestinal ischemia leads to infarction, bowel perforation, peritonitis, and ultimately death.</listitem>
+<listitem>Rare exceptions occur when ischemia is limited to the mucosal layer or when the progression of AMI is slow enough to allow collateral circulation to form and compensate.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>In one retrospective analysis, acute mesenteric thrombosis (versus dissection) on CT scan predicted a higher likelihood of adverse outcomes.<xref ref="pubmed27569744" resource="acc014" /></listitem>
+<listitem>A systematic review reported a 60&#x0025; mortality for patients hospitalized with AMI.<xref ref="pubmed36283747" resource="acc024" /></listitem>
+<listitem>A systematic review of observational studies reported 40&#x0025; mortality for open surgery, 26&#x0025; for endovascular therapy, and 32&#x0025; for retrograde open mesenteric stenting. Selection bias would be an important explanation for some of the differences seen, which have remained stable over time.<xref ref="pubmed34154466" resource="acc025" /></listitem>
+<listitem>Risk factors for mortality include increasing age, chronic renal disease, hypotension, large bowel involvement, and heart failure.<xref ref="pubmed35220147" resource="acc026" /></listitem>
+<listitem><strong>Chronic mesenteric ischemia</strong></listitem>
+<listitem>Patients with untreated CMI likely progress to AMI or continue to lose weight until death.</listitem>
+<listitem>The percentage of patients with CMI who develop AMI is unknown.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Asymptomatic mesenteric artery stenoses and occlusions may be incidental findings during diagnostic procedures for other conditions. There is no evidence that these patients are at increased risk for developing AMI or CMI or have a higher mortality rate than control patients.<xref ref="pubmed17060539" resource="acc006" /> Surgical revascularization is not indicated for asymptomatic patients, unless undergoing aorta or renal artery surgery for other reasons.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem><strong>Acute mesenteric ischemia</strong></listitem>
+<listitem>The mortality rate of patients with treated AMI has held at an average of 70&#x0025; over the past several decades.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Arterial thrombus has the highest mortality rate of all the causes of obstructive AMI; venous thrombosis has the lowest rate.<xref ref="pubmed11407335" resource="acc003" /> Arterial embolus has a better prognosis than arterial thrombus or non-occlusive ischemia.<xref ref="pubmed14716789" resource="acc011" /></listitem>
+<listitem>Mortality is increased when time from symptom onset to hospital admission is greater than 24 hours, and when there is colonic involvement.<xref ref="pubmed3415165" resource="acc007" /></listitem>
+<listitem><strong>Chronic mesenteric ischemia</strong></listitem>
+<listitem>With surgical or endovascular treatment, most patients with CMI have favorable outcomes.</listitem>
+<listitem>Surgery by endarterectomy or bypass grafting in limited case series has shown high revascularization success rates (98&#x0025;-100&#x0025;), 30-day mortality rates of 9&#x0025; to 11&#x0025;, and recurrence rates in 1 to 3 years of 19&#x0025; to 24&#x0025;.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+<listitem>Endovascular therapy (stenting, angioplasty) is also used, but has less favorable outcomes: revascularization success rates of 80&#x0025; to 93&#x0025;, 30-day mortality rates of 11&#x0025; to 13&#x0025;, and recurrence rates in 1 to 3 years of 27&#x0025; to 46&#x0025; are not as favorable as with surgery.<xref ref="pubmed16549646" resource="acc009" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed12944600">
+<accessionId id="acc001" href="info:pmid/12944600" />
+<authors>Kirkpatrick ID, Kroeker MA, Greenberg HM.</authors>
+<title>Biphasic CT with mesenteric CT angiography in the evaluation of acute mesenteric ischemia: initial experience.</title>
+<source>Radiology</source>
+<pubdate>2003</pubdate>
+<volume>229</volume>
+<pages>91&#x2013;98.</pages>
+</reference>
+<reference id="pubmed17681988">
+<accessionId id="acc002" href="info:pmid/17681988" />
+<authors>Hamada T, Yamauchi M, Tanaka M, et al.</authors>
+<title>Prospective evaluation of contrast-enhanced ultrasonography with advanced dynamic flow for the diagnosis of intestinal ischemia.</title>
+<source>Br J Radiol</source>
+<pubdate>2007</pubdate>
+<volume>80</volume>
+<pages>603&#x2013;608.</pages>
+</reference>
+<reference id="pubmed11407335">
+<accessionId id="acc003" href="info:pmid/11407335" />
+<authors>Endean ED, Barnes SL, Kwolek CJ, et al.</authors>
+<title>Surgical management of thrombotic acute intestinal ischemia.</title>
+<source>Ann Surg</source>
+<pubdate>2001</pubdate>
+<volume>233</volume>
+<pages>801&#x2013;808.</pages>
+</reference>
+<reference id="pubmed10784595">
+<accessionId id="acc004" href="info:pmid/10784595" />
+<authors />
+<title>American Gastroenterological Association Medical Position Statement: Guidelines on Intestinal Ischemia.</title>
+<source>Gastroenterology</source>
+<pubdate>2000</pubdate>
+<volume>118</volume>
+<pages>951&#x2013;953.</pages>
+</reference>
+<reference id="web001">
+<citation>Gemery JM, Funaki BS, Ray CE, Jr., et al.</citation>
+<url>http://www.guidelines.gov/summary/summary.aspx?doc_id=13660&amp;nbr=006994&amp;string=mesenteric+AND+ischemia.</url>
+<organization>American College of Radiology (ACR)</organization>
+<longtitle>ACR Appropriateness Criteria&#x00AE; mesenteric ischemia, Reston, VA.</longtitle>
+<title />
+<dateguideline>4&#x002F;24&#x002F;2010</dateguideline>
+</reference>
+<reference id="pubmed17060539">
+<accessionId id="acc006" href="info:pmid/17060539" />
+<authors>Wilson DB, Mostafavi K, Craven TE, et al.</authors>
+<title>Clinical course of mesenteric artery stenosis in elderly Americans.</title>
+<source>Arch Intern Med</source>
+<pubdate>2006</pubdate>
+<volume>166</volume>
+<pages>2095&#x2013;2100.</pages>
+</reference>
+<reference id="pubmed3415165">
+<accessionId id="acc007" href="info:pmid/3415165" />
+<authors>Gorey TF, O'Sullivan M.</authors>
+<title>Prognostic factors in extensive mesenteric ischaemia.</title>
+<source>Ann R Coll Surg Engl</source>
+<pubdate>1988</pubdate>
+<volume>70</volume>
+<pages>191&#x2013;194.</pages>
+</reference>
+<reference id="pubmed17667501">
+<accessionId id="acc008" href="info:pmid/17667501" />
+<authors>Mitsuyoshi A, Obama K, Shinkura N, et al.</authors>
+<title>Survival in nonocclusive mesenteric ischemia.</title>
+<source>Ann Surg</source>
+<pubdate>2007</pubdate>
+<volume>246</volume>
+<pages>229&#x2013;235.</pages>
+</reference>
+<reference id="pubmed16549646">
+<accessionId id="acc009" href="info:pmid/16549646" />
+<authors>Hirsch AT, Haskal ZJ, Hertzer N, et al.</authors>
+<title>ACC&#x002F;AHA 2005 Practice Guidelines for the management of patients with peripheral arterial disease (lower extremity, renal, mesenteric, and abdominal aortic): a collaborative report from the American Association for Vascular Surgery&#x002F;Society for Vascular Surgery, Society for Cardiovascular Angiography and Interventions, Society for Vascular Medicine and Biology, Society of Interventional Radiology, and the ACC&#x002F;AHA Task Force on Practice Guidelines (Writing Committee to Develop Guidelines for the Management of Patients With Peripheral Arterial Disease): endorsed by the American Association of Cardiovascular and Pulmonary Rehabilitation; National Heart, Lung, and Blood Institute; Society for Vascular Nursing; TransAtlantic Inter-Society Consensus; and Vascular Disease Foundation.</title>
+<source>Circulation</source>
+<pubdate>2006 Mar 21</pubdate>
+<volume>113</volume>
+<pages>e463&#x2013;e654.</pages>
+</reference>
+<reference id="pubmed20574087">
+<accessionId id="acc010" href="info:pmid/20574087" />
+<authors>Menke J.</authors>
+<title>Diagnostic accuracy of multidetector CT in acute mesenteric ischemia: systematic review and meta-analysis.</title>
+<source>Radiology</source>
+<pubdate>2010</pubdate>
+<volume>256</volume>
+<pages>93&#x2013;101.</pages>
+</reference>
+<reference id="pubmed14716789">
+<accessionId id="acc011" href="info:pmid/14716789" />
+<authors>Schoots IG, Koffeman GI, Legemate DA, Levi M, van Gulik TM</authors>
+<title>Systematic review of survival after acute mesenteric ischaemia according to disease aetiology.</title>
+<source>Brit J Surg</source>
+<pubdate>2004</pubdate>
+<volume>91</volume>
+<pages>17&#x2013;27.</pages>
+</reference>
+<reference id="pubmed24183620">
+<accessionId id="acc012" href="info:pmid/24183620" />
+<authors>Jia Z, Jiang G, Tian F, Zhao J, Li S, Wang K, Wang Y, Jiang L, Wang W.</authors>
+<title>Early endovascular treatment of superior mesenteric occlusion secondary to thromboemboli.</title>
+<source>Eur J Vasc Endovasc Surg</source>
+<pubdate>2014</pubdate>
+<volume>47</volume>
+<pages>196&#x2013;203.</pages>
+</reference>
+<reference id="pubmed23538325">
+<accessionId id="acc013" href="info:pmid/23538325" />
+<authors>van den Heijkant TC, Aerts BA, Teijink JA, Buurman WA, Luyer MD.</authors>
+<title>Challenges in diagnosing mesenteric ischemia.</title>
+<source>World J Gastroenterol</source>
+<pubdate>2013</pubdate>
+<volume>19</volume>
+<pages>1338&#x2013;1341.</pages>
+</reference>
+<reference id="pubmed27569744">
+<accessionId id="acc014" href="info:pmid/27569744" />
+<authors>Ichiba T, Hara M, Yunoki K, Urashima M, Harano M, Naitou H, Yamamoto K, Shintani A.</authors>
+<title>Baseline disease is a more important predictor of intestinal necrosis than CT findings in patients with acute mesenteric ischemia.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>34</volume>
+<pages>2261&#x2013;2265.</pages>
+</reference>
+<reference id="pubmed31645176">
+<accessionId id="acc015" href="info:pmid/31645176" />
+<authors>Stahl K, Rittgerodt N, Busch M, Maschke SK, Schneider A, Manns MP, Fuge J, Meyer BC, Hoeper MM, Hinrichs JB, David S.</authors>
+<title>Nonocclusive mesenteric ischemia and interventional local vasodilatory therapy: A meta-analysis and systematic review of the literature.</title>
+<source>J Intensive Care Med</source>
+<pubdate>2020</pubdate>
+<volume>35</volume>
+<pages>128&#x2013;139.</pages>
+</reference>
+<reference id="pubmed31841175">
+<accessionId id="acc016" href="info:pmid/31841175" />
+<authors>Yang H, Wang BL.</authors>
+<title>Evaluation of the diagnostic value of multi-slice spiral CT in acute mesenteric ischemic diseases: a meta-analysis of randomized controlled trials.</title>
+<source>Eur Rev Med Pharmacol Sci</source>
+<pubdate>2019</pubdate>
+<volume>23</volume>
+<pages>10218&#x2013;10225.</pages>
+</reference>
+<reference id="pubmed31482344">
+<accessionId id="acc017" href="info:pmid/31482344" />
+<authors>Murphy B, Dejong CHC, Winter DC.</authors>
+<title>Open and endovascular management of acute mesenteric ischaemia: A systematic review.</title>
+<source>World J Surg</source>
+<pubdate>2019</pubdate>
+<volume>43</volume>
+<pages>3224&#x2013;3231.</pages>
+</reference>
+<reference id="pubmed30999055">
+<accessionId id="acc018" href="info:pmid/30999055" />
+<authors>Khan SM, Emile SH, Wang Z, Agha MA.</authors>
+<title>Diagnostic accuracy of hematological parameters in Acute mesenteric ischemia-A systematic review.</title>
+<source>Int J Surg</source>
+<pubdate>2019</pubdate>
+<volume>66</volume>
+<pages>18&#x2013;27.</pages>
+</reference>
+<reference id="pubmed28121281">
+<accessionId id="acc019" href="info:pmid/28121281" />
+<authors>El Farargy M, Abdel Hadi A, Abou Eisha M, Bashaeb K, Antoniou GA.</authors>
+<title>Systematic review and meta-analysis of endovascular treatment for acute mesenteric ischaemia.</title>
+<source>Vascular</source>
+<pubdate>2017</pubdate>
+<volume>25</volume>
+<pages>430&#x2013;438.</pages>
+</reference>
+<reference id="pubmed29571626">
+<accessionId id="acc020" href="info:pmid/29571626" />
+<authors>Alahdab F, Arwani R, Pasha AK, Razouki ZA, Prokop LJ, Huber TS, Murad MH.</authors>
+<title>A systematic review and meta-analysis of endovascular versus open surgical revascularization for chronic mesenteric ischemia.</title>
+<source>J Vasc Surg</source>
+<pubdate>2018</pubdate>
+<volume>67</volume>
+<pages>1598&#x2013;1605.</pages>
+</reference>
+<reference id="pubmed33589326">
+<accessionId id="acc021" href="info:pmid/33589326" />
+<authors>Altintas &#x00DC;, Lawaetz M, de la Motte L, Riazi H, L&#x00F6;nn L, Lindh M, Sillesen H, Eiberg J.</authors>
+<title>Endovascular treatment of chronic and acute on chronic mesenteric ischaemia: Results from a national cohort of 245 cases.</title>
+<source>Eur J Vasc Endovasc Surg</source>
+<pubdate>2021</pubdate>
+<volume>61</volume>
+<pages>603&#x2013;611.</pages>
+</reference>
+<reference id="pubmed33213286">
+<accessionId id="acc022" href="info:pmid/33213286" />
+<authors>Pedersoli F, Hitpass L, Isfort P, Zimmermann M, Schulze-Hagen M, Gombert A, Kuhl CK, Bruners P, Keil S.</authors>
+<title>Recanalization and Stenting of the Celiac and the Superior Mesenteric Artery Supported by Use of a Steerable Introducer Sheath: Report on 2 Years' Experience.</title>
+<source>Vasc Endovascular Surg</source>
+<pubdate>2021</pubdate>
+<volume>55</volume>
+<pages>158&#x2013;163.</pages>
+</reference>
+<reference id="pubmed33263162">
+<accessionId id="acc023" href="info:pmid/33263162" />
+<authors>Terlouw LG, van Noord D, van Walsum T, Bruno MJ, Moelker A.</authors>
+<title>Mesenteric artery calcium scoring: a potential screening method for chronic mesenteric ischemia.</title>
+<source>Eur Radiol</source>
+<pubdate>2021</pubdate>
+<volume>31</volume>
+<pages>4212&#x2013;4220.</pages>
+</reference>
+<reference id="pubmed36283747">
+<accessionId id="acc024" href="info:pmid/36283747" />
+<authors>Tamme K, Reintam Blaser A, Laisaar KT, M&#x00E4;ndul M, Kals J, Forbes A, Kiss O, Acosta S, Bj&#x00F8;rck M, Starkopf J.</authors>
+<title>Incidence and outcomes of acute mesenteric ischaemia: a systematic review and meta-analysis.</title>
+<source>BMJ Open</source>
+<pubdate>2022</pubdate>
+<volume>12</volume>
+<pages>e062846.</pages>
+</reference>
+<reference id="pubmed34154466">
+<accessionId id="acc025" href="info:pmid/34154466" />
+<authors>Hou L, Wang T, Wang J, Zhao J, Yuan D.</authors>
+<title>Outcomes of different acute mesenteric ischemia therapies in the last 20 years: A meta-analysis and systematic review.</title>
+<source>Vascular</source>
+<pubdate>2022</pubdate>
+<volume>30</volume>
+<pages>669&#x2013;680.</pages>
+</reference>
+<reference id="pubmed35220147">
+<accessionId id="acc026" href="info:pmid/35220147" />
+<authors>Sumbal R, Ali Baig MM, Sumbal A.</authors>
+<title>Predictors of Mortality in Acute Mesenteric Ischemia: A Systematic Review and Meta-Analysis.</title>
+<source>J Surg Res</source>
+<pubdate>2022</pubdate>
+<volume>275</volume>
+<pages>72&#x2013;86.</pages>
+</reference>
+<reference id="pubmed39864517">
+<accessionId id="acc027" href="info:pmid/39864517" />
+<authors>Dias Miranda NC, Marimpietri FS, Marcolin Miranda L, Carneiro de Lima PE, Vasconcellos DCMDS, Teixeira EC, de Moraes TM.</authors>
+<title>Covered Versus Bare-Metal Stents in Chronic Mesenteric Ischemia Treatment: A Systematic Review and Meta-Analysis.</title>
+<source>Ann Vasc Surg</source>
+<pubdate>2025</pubdate>
+<volume>113</volume>
+<pages>214&#x2013;220.</pages>
+</reference>
+<reference id="pubmed40119151">
+<accessionId id="acc028" href="info:pmid/40119151" />
+<authors>Reintam Blaser A, Koitm&#x00E4;e M, Laisaar KT, Forbes A, Kase K, Kiisk E, Murruste M, Reim M, Starkopf J, Tamme K.</authors>
+<title>Radiological diagnosis of acute mesenteric ischemia in adult patients: a systematic review and meta-analysis.</title>
+<source>Sci Rep</source>
+<pubdate>2025</pubdate>
+<volume>15</volume>
+<pages>9875.</pages>
+</reference>
+<reference id="pubmed37658356">
+<accessionId id="acc029" href="info:pmid/37658356" />
+<authors>Reintam Blaser A, Starkopf J, Bj&#x00F6;rck M, Forbes A, Kase K, Kiisk E, Laisaar KT, Mihnovits V, Murruste M, M&#x00E4;ndul M, Voomets AL, Tamme K.</authors>
+<title>Diagnostic accuracy of biomarkers to detect acute mesenteric ischaemia in adult patients: a systematic review and meta-analysis.</title>
+<source>World J Emerg Surg</source>
+<pubdate>2023</pubdate>
+<volume>18</volume>
+<pages>44.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>39</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Mesenteric Ischemia (AMI): Management.</title>
+<graphic href="eee0039-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Severe abdominal pain out of proportion with examination with no other explanation, or other evidence suggesting AMI? Stabilize the patient, correct any reversible or contributing causes.</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Peritoneal signs?</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Laparotomy.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Treat as appropriate.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>History of DVTs or hypercoagulable state?</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Mesenteric arteriography. May consider CTA, but negative finding does not rule out AMI.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Obstructive AMI?</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Mesenteric venous thrombosis or arterial thrombus or embolus?</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Peritoneal signs?</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>No evidence of collaterals or superior mesenteric artery filling is poor or absent?</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Continuous papaverine infusion. Percutaneous endovascular therapy (stenting, balloon angioplasty, thrombolytics) may be considered; observation alone is an alternative. Consider repeat angiogram.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Laparotomy. Perform revascularization (embolectomy or bypass grafting). Resect segments of infarcted bowel. Consider papaverine infusion, if possible. May consider thrombolytics as alternative to laparotomy.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Consider repeat angiogram and&#x002F;or second-look laparotomy in 24-48 hours.</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Peritoneal signs?</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Anticoagulation for 3-6 months.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Laparotomy, resect segments of infarcted bowel. May consider papaverine infusion, thrombolytic therapy, or thrombectomy.</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Anticoagulation (heparin). Consider second-look laparotomy in 24-48 hours.</label>
+</cell>
+<cell type="action" id="cell-20">
+<label>Anticoagulation (coumadin) for 3-6 months.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Nonobstructive AMI.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Continuous papaverine infusion. Correct underlying cause (hypovolemia, shock, sepsis, congestive heart failure, vasoconstrictors, etc.).</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Laparotomy if peritoneal signs or evidence of bowel infarction. Resect segments of infarcted bowel.</label>
+</cell>
+<cell type="action" id="cell-23">
+<label>Consider repeat angiogram and&#x002F;or second-look laparotomy in 24-48 hours.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>CT with contrast. Mesenteric venous thrombosis present?</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Treat as appropriate.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

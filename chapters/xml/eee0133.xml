@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Hypercalcemia</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0133</topic_id>
+<topic_comment />
+<topic_lastupdated>09/28/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Christopher D. Jackson, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Internal Medicine</author_department>
+<author_institution>University of Tennessee Health Science Center</author_institution>
+<author_email>cjacks67&#x0040;uthsc.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Memphis</author_city>
+<author_state>TN</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Dan Brewer, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of Tennessee, Knoxville</author_institution>
+<author_email>dbrewer2&#x0040;utk.edu</author_email>
+<author_phone_office>865-544-9352</author_phone_office>
+<author_phone_home>865-977-0227</author_phone_home>
+<author_phone_fax>865-544-6532</author_phone_fax>
+<author_street1>Box U-67</author_street1>
+<author_street2>1924 Alcoa Highway</author_street2>
+<author_city>Knoxville</author_city>
+<author_state>TN</author_state>
+<author_zip>37920</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>David Slawson, MD</editor_name>
+<editor_title>Vice Chair, Department of Family Medicine</editor_title>
+<editor_institution>University of Virginia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>The majority of asymptomatic patients with hypercalcemia have <resourceLink href="info:wiley/eep-eee/137">primary hyperparathyroidism.</resourceLink><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Many patients with mild primary hyperparathyroidism remain stable without surgery, but long-term monitoring is required because hypercalcemia, kidney disease, nephrolithiasis, or skeletal complications may progress.<evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Treat hypercalcemia of malignancy with IV hydration and either denosumab or an IV bisphosphonate. Denosumab is conditionally preferred, particularly in patients with significant renal impairment or recurrent&#x002F;refractory hypercalcemia.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed36545746" resource="acc028" /></listitem>
+<listitem>Initial treatment of symptomatic or severe hypercalcemia is intravenous isotonic fluids plus denosumab or an IV bisphosphonate when indicated..<xref ref="pubmed36545746" resource="acc028" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For patients with moderate acute or symptomatic hypercalcemia of malignancy (HCM), IV hydration with isotonic saline (with the rate individulized to the patients volume status, renal and cardiac function and urine ouitput) and denosumab are recommended. In severe HCM IV hydration, calcitonin and IV bisphophonates or denosumab.<xref ref="pubmed36545746" resource="acc028" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Parathyroidectomy is definitive treatment. Evidence that surgery consistently improves nonspecific neurocognitive symptoms or quality of life in otherwise asymptomatic patients is inconclusive.<evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Hypercalcemia occurs when the serum calcium exceeds normal limits. The typical upper limit of normal is 10.5 mg&#x002F;dL, but the ionized calcium is a more accurate measure and is typically 4.0 to 5.6 mg&#x002F;dL (1.0-1.4 mmol&#x002F;L). Mild hypercalcemia is 10.5 to 12.5 mg&#x002F;dL; moderate hypercalcemia is 12.5 to 14 mg&#x002F;dL; severe hypercalcemia is &gt;14 mg&#x002F;dL.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>0.2 to 0.5 per 1000 new cases per year in general U.S. population.<xref ref="pubmed16355286" resource="acc015" /></listitem>
+<listitem>Hypercalcemia reported in 7.5&#x0025; of patients seen in the emergency department.<xref ref="pubmed16538071" resource="acc019" /></listitem>
+<listitem>Occurs in 5&#x0025; to 10&#x0025; of advanced malignancies.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Primary hyperparathyroidism and malignancy are the cause in approximately 90&#x0025; of patients.<xref ref="pubmed36282253" resource="acc027" /></listitem>
+<listitem>Hyperparathyroidism (primary, secondary, or tertiary).</listitem>
+<listitem>Malignancy (any bony metastasis, also myeloma, lymphoma, paraneoplastic syndromes).</listitem>
+<listitem>Medications (thiazides, lithium, SGLT-2 inhibitors but evidence is limited and the association is uncommon, immune checkpoint inhibitors).</listitem>
+<listitem>Excess bone turnover (immobilization, Paget's disease).</listitem>
+<listitem>Genetic disorders (familial hypocalciuric hypercalcemia).</listitem>
+<listitem>Granulomatous disease, including sarcoidosis.</listitem>
+<listitem>Vitamin D or A intoxication; use of vitamin D analogues such as eldecalcitol<xref ref="pubmed30909788" resource="acc022" />.</listitem>
+<listitem>Milk-alkali syndrome (calcium carbonate ingestion).</listitem>
+<listitem>Thyrotoxicosis.</listitem>
+<listitem>Hodgkin lymphoma</listitem>
+<listitem>Adrenal insufficiency</listitem>
+<listitem>Ketogenic diet in children<xref ref="pubmed33124662" resource="acc024" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Parathyroid hormone (PTH) raises serum calcium by increasing renal calcium reabsorption, stimulating bone resorption, and increasing renal production of calcitriol, which indirectly increases intestinal calcium absorption.</listitem>
+<listitem>Malignancy may involve osteolytic activity (e.g., breast cancer) or PTH-like humoral activity (e.g., squamous cell carcinoma).</listitem>
+<listitem>Granulomatous diseases increase activity of 1-alpha hydroxylase, thereby leading to increased (1,25-OH) vitamin D.<xref ref="PubMed23979953" resource="acc016" /></listitem>
+<listitem>Secondary osteoporosis in primary hyperparathyroidism is accelerated in cortical bone (radius), but cancellous bone (lumbar spine) is well preserved.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Radiation to neck or upper chest</Risk_Name>
+<Risk_OR>0.8 per Gray (Gy) exposure</Risk_OR>
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Confirm hypercalcemia by repeating lab and measuring free ionized calcium. Ionized calcium is a more accurate measure and is typically 4.0 to 5.6 mg&#x002F;dL (1.0-1.4 mmol&#x002F;L).<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Serum PTH level important for identifying potential cause (<xref ref="fig001" />).<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Primary hyperparathyroidism and malignancy account for more than 80&#x0025; of cases of hypercalcemia.<evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16131579" resource="acc014" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Hyperparathyroidism</Differential_Name>
+<Differential_Features>Elevated intact PTH in relation to serum calcium</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hypercalcemia of malignancy</Differential_Name>
+<Differential_Features>Evidence of malignancy, particularly bony metastases</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Paget's disease</Differential_Name>
+<Differential_Features>Abnormal bone x-rays and biochemical markers of bone turnover</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Granulomatous disease</Differential_Name>
+<Differential_Features>Granulomatous disease (sarcoid, berylliosis, tuberculosis) found on chest x-ray</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Familial hypocalciuric hypercalcemia</Differential_Name>
+<Differential_Features>Elevated PTH, but low urinary calcium</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Medication effects</Differential_Name>
+<Differential_Features>Thiazide, lithium use, excessive intake of vitamin A or D</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Thyrotoxicosis</Differential_Name>
+<Differential_Features>Other manifestations of thyroid disease</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Prolonged immobilization</Differential_Name>
+<Differential_Features>History, predisposing condition with high bone turnover</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Patients most often present asymptomatically following finding of elevated serum calcium on routine laboratory testing.</listitem>
+<listitem>Symptoms are nonspecific and may include polyuria, polydipsia, constipation, nausea, cognitive changes, weakness, and fatigue; symptoms become more likely as calcium rises rapidly or exceeds approximately 12 mg&#x002F;dL.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>When patient presents with elevated serum calcium (&gt;10.4 or 2.6 mmol&#x002F;L), either repeat to confirm or confirm with ionized calcium (usual range 4.0-5.6 mg&#x002F;dL or 1.0-1.4 mmol&#x002F;L).</listitem>
+<listitem>Unadjusted total calcium correlated with ionized calcium at least as well as albumin-adjusted formulas and produced fewer classification errors, particularly in patients with hypoalbuminemia.<xref ref="pubmed39836424" resource="acc029" /></listitem>
+<listitem>Therefore, conform unexpected hypercalcemia with repeat total calcium. Measure ionized calcium when albumin is substantially abnormal, the result is discordant with the clinical picture, or accurate classification is important; albumin-correction formulas may misclassify calcium status.</listitem>
+<listitem>Intact serum PTH is the recommended test to diagnose <resourceLink href="info:wiley/eep-eee/137">primary hyperparathyroidism.</resourceLink></listitem>
+<listitem>See algorithm in <xref ref="fig001" /> for an approach to evaluation.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <xref ref="rule25" resource="acc001">clinical decision rule</xref> can help identify those patients with an increased risk of malignancy.</listitem>
+<listitem>Key factors include serum albumin, phosphate, chloride, gamma glutamyl transferase, and excreted calcium.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to evaluation.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Initial treatment of symptomatic or severe hypercalcemia is intravenous hydration and denosumab or an IV bisphosphonate.<xref ref="pubmed36545746" resource="acc028" /><evidence rating="C" system="SORT">C</evidence> For patients with moderate acute or symptomatic hypercalcemia of malignancy (HCM), IV hydration and denosumab are recommended. In severe HCM IV hydration, calcitonin and IV bisphophonates or denosumab.<xref ref="pubmed36545746" resource="acc028" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Several medications, including bisphosphonates, calcitonin, and corticosteroids, may give temporary control of hypercalcemia of malignancy (see <xref ref="table001" /> and <xref ref="table002" />).<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15673803" resource="acc013" /></listitem>
+<listitem>Surgical excision of parathyroid adenoma is curative in greater than 95&#x0025; of primary hyperparathyroidism cases.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10973383" resource="acc012" /></listitem>
+<listitem>Surgical treatment of asymptomatic hyperparathyroidism is "curative" but does not improve quality of life.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed10528034" resource="acc004" /><xref ref="poem90902" resource="acc011" /></listitem>
+<listitem>Surgical treatment of primary hyperparathyroidism does not appear to reduce mortality.<xref ref="pubmed35436153" resource="acc025" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Rehydrate patient, followed by IV bisphosphonates or denosumab, particularly in hypercalcemia of malignancy (HCM). A typical initial hydration regimen (in a patient without heart failure) would be 300 to 500 mL&#x002F;h of normal saline followed by 4 mg zoledronic acid or 60 mg pamidronate.</listitem>
+<listitem>Addition of calcitonin for up to 48 to 72 hours is recommended for patients with severe HCM and serum calcium &gt; 14 mg&#x002F;dl (3.5 mmol&#x002F;L). Denosumab is preferred over IV bisphosphonates for treatment of severe or symptomatic HCM.<xref ref="pubmed36545746" resource="acc028" /></listitem>
+<listitem>Bisphosphonates (pamidronate, ibandronate, etidronate) help prevent fractures in patients with bony metastases<xref ref="poem51262" resource="acc010" /> and myeloma (<xref ref="table001" />).<xref ref="cochrane3188" resource="acc009" /></listitem>
+<listitem>Bisphosphonates in standard doses may be used to protect bone integrity in primary hyperparathyroidism if surgery is not elected.<xref ref="pubmed15103001" resource="acc008" /> IV bisphosphonates can also reduce the calcium level with an onset of action of 2 to 4 days.</listitem>
+<listitem>Calcitonin or corticosteroids can all be used to reduce severely elevated calcium levels, but their effect is short term (<xref ref="table002" />).<xref ref="pubmed15673803" resource="acc013" /></listitem>
+<listitem>In a meta-analysis of 6 studies, there were no significant differences between intermittent intravenous and oral calcitriol in the treatment of secondary hyperparathyroidism in patients undergoing chronic hemodialysis.<xref ref="pubmed19281738" resource="acc003" /></listitem>
+<listitem>Calcitonin is not effective in relieving the pain of bony metastases.<xref ref="cochrane3223" resource="acc007" /></listitem>
+<listitem>Denosumab therapy leading to a decrease in osteoclasts, may be effective in hypercalcemia of malignancy in patients not responding to bisphosphonates. In a small trial of 15 such patients, within 10 days of treatment 12 (80&#x0025;) responded with a serum calcium level &lt;11.5 mg&#x002F;dL, and 10 had a complete response (serum calcium &lt;10. 5 mg&#x002F;dL).<xref ref="PubMed23990665" resource="acc017" /></listitem>
+<listitem>The use of loop diuretics for hypercalcemia is not routinely encouraged given the unclear kalliuretic effect, potential for worsening volume depletion, and electrolyte derangements<xref ref="pubmed26037642" resource="acc020" />.</listitem>
+<listitem>Glucocorticoids help inhibit vitamin D conversion to calcitriol and may be useful for patients with hypercalcemia due to granulomatous disease.<xref ref="pubmed12751658" resource="acc021" /></listitem>
+<listitem>In a recent RCT, use of IV or IO calcium in patients with out-of-hospital cardiac arrest did not improve ROSC.<xref ref="pubmed34847226" resource="acc026" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgery is suggested for patients with <resourceLink href="info:wiley/eep-eee/137">primary hyperparathyroidism</resourceLink> who are symptomatic or asymptomatic patients with one or more of the following: serum calcium &gt;1.0 mg&#x002F;dL above upper limit of normal, 24-hour urinary calcium &gt;250 mg&#x002F;day in women or &gt; 300 mg&#x002F;day in men,, creatinine clearance reduced by 30&#x0025; from normal for age, osteoporosis, age &lt;50 years.<xref ref="pubmed12412771" resource="acc006" /></listitem>
+<listitem>A randomized trial of 191 asymptomatic patients with serum calcium between 10.4 and 11.4 followed for 3 years found that surgery did not improve outcomes.<xref ref="poem90902" resource="acc011" /></listitem>
+<listitem>A recent trial showed that increased levels of calcium and&#x002F;or parathyroid hormone after parathyroidectomy is associated with 2.7 to 4.3 times the risk of recurrent primary hyperparathyroidism.<xref ref="pubmed32768241" resource="acc023" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Patients with <resourceLink href="info:wiley/eep-eee/137">primary hyperparathyroidism</resourceLink> who do not receive surgery should maintain good hydration and avoid excessive calcium intake.</listitem>
+<listitem>Radiation may be palliative for bony metastasis.</listitem>
+<listitem>Vitamin D supplementation for greater than 24 weeks is assoicated with an increased risk of hypercalcemia (RR 1.54) and hypercalciuria (RR 1.64) compared to placebo.<xref ref="pubmed27604776" resource="acc018" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-eee/137">Primary hyperparathyroidism</resourceLink> with mild hypercalcemia is a benign disease and may not need any therapy.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10528034" resource="acc004" /></listitem>
+<listitem>Hypercalcemia of malignancy signifies a poor prognosis. In one study, the presence of 1 or more of four poor-prognosis factors (liver metastasis, squamous cell carcinoma, hypoalbuminemia, and calcemia &gt;2.83 mmol) predicted mortality; patients with a score of 0 had a median overall survival of 797 days while patients with a score of 1 or more had a median overall survival of 49 days.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9362426" resource="acc005" /><xref ref="pubmed19290550" resource="acc002" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="rule25">
+<accessionId id="acc001" href="info:wiley/eep-rule/25" />
+<accessionId id="acc001b" href="info:pmid/1967987" />
+<authors>Gibb JA, Ogston SA, Paterson CR, Evans JR.</authors>
+<title>Discriminant functions in differential diagnosis of hypercalcemic patients.</title>
+<source>Clin Chem</source>
+<pubdate>1990</pubdate>
+<volume>36</volume>
+<pages>358&#x2013;361.</pages>
+</reference>
+<reference id="pubmed19290550">
+<accessionId id="acc002" href="info:pmid/19290550" />
+<authors>Penel N, Dewas S, Hoffman A, Adenis A.</authors>
+<title>Cancer-associated hypercalcemia: Validation of a bedside prognostic score.</title>
+<source>Support Care Cancer</source>
+<pubdate>2009</pubdate>
+<volume>17</volume>
+<pages>1133&#x2013;1135.</pages>
+</reference>
+<reference id="pubmed19281738">
+<accessionId id="acc003" href="info:pmid/19281738" />
+<authors>Haiyang Zhou, Chenggang Xu.</authors>
+<title>Comparison of intermittent intravenous and oral calcitriol in the treatment of secondary hyperparathyroidism in chronic hemodialysis patients: A meta-analysis of randomized controlled trials.</title>
+<source>Clin Nephrol</source>
+<pubdate>2009</pubdate>
+<volume>71</volume>
+<pages>276&#x2013;285.</pages>
+</reference>
+<reference id="pubmed10528034">
+<accessionId id="acc004" href="info:pmid/10528034" />
+<authors>Silverberg SJ, Shane E, Jacobs TP, Siris E, Bilezikian JP.</authors>
+<title>A 10-year prospective study of primary hyperparathyroidism with or without parathyroid surgery.</title>
+<source>N Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>341</volume>
+<pages>1249&#x2013;1255.</pages>
+</reference>
+<reference id="pubmed9362426">
+<accessionId id="acc005" href="info:pmid/9362426" />
+<authors>Coleman RE.</authors>
+<title>Skeletal complications of malignancy.</title>
+<source>Cancer</source>
+<pubdate>1997</pubdate>
+<volume>80</volume>
+<pages>1588&#x2013;1594.</pages>
+</reference>
+<reference id="pubmed12412771">
+<accessionId id="acc006" href="info:pmid/12412771" />
+<authors>Bilezikian JP, Potts JT, Jr., Fuleihan GH, et al.</authors>
+<title>Summary statement from a workshop on asymptomatic primary hyperparathyroidism: A perspective for the 21st century.</title>
+<source>J Bone Miner Res</source>
+<pubdate>2002</pubdate>
+<volume>17(Suppl 2)</volume>
+<pages>N2&#x2013;N11.</pages>
+</reference>
+<reference id="cochrane3223">
+<accessionId id="acc007" href="info:wiley/cochrane/CD003223" />
+<chapter_authors>Martinez-Zapata MJ, Roque M, Alonso-Coello P, Catala E.</chapter_authors>
+<chapter_title>Calcitonin for metastatic bone pain (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed15103001">
+<accessionId id="acc008" href="info:pmid/15103001" />
+<authors>Bilezikian JP, Silverberg SJ.</authors>
+<title>Clinical practice. Asymptomatic primary hyperparathyroidism.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>350</volume>
+<pages>1746&#x2013;1751.</pages>
+</reference>
+<reference id="cochrane3188">
+<accessionId id="acc009" href="info:wiley/cochrane/CD003188" />
+<chapter_authors>Djulbegovic B, Wheatley K, Ross J, et al.</chapter_authors>
+<chapter_title>Bisphosphonates in multiple myeloma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem51262">
+<accessionId id="acc010" href="info:wiley/eep-poem/51262" />
+<accessionId id="acc010b" href="info:pmid/12946966" />
+<authors>Ross JR, Saunders Y, Edmonds PM, Patel S, Broadley KE, Johnston SRD.</authors>
+<title>Systematic review of role of bisphosphonates on skeletal morbidity in metastatic cancer.</title>
+<source>BMJ</source>
+<pubdate>2003</pubdate>
+<volume>327</volume>
+<pages>469.</pages>
+</reference>
+<reference id="poem90902">
+<accessionId id="acc011" href="info:wiley/eep-poem/90902" />
+<accessionId id="acc011b" href="info:pmid/17284629" />
+<authors>Bollerslev J, Jansson S, Mollerup CL, et al.</authors>
+<title>Medical observation, compared with parathyroidectomy, for asymptomatic primary hyperparathyroidism: A prospective, randomized trial.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2007</pubdate>
+<volume>92</volume>
+<pages>1687&#x2013;1692.</pages>
+</reference>
+<reference id="pubmed10973383">
+<accessionId id="acc012" href="info:pmid/10973383" />
+<authors>Udelsman R, Donovan PI, Sokoll LJ.</authors>
+<title>One hundred consecutive minimally invasive parathyroid explorations.</title>
+<source>Ann Surg</source>
+<pubdate>2000</pubdate>
+<volume>232</volume>
+<pages>331&#x2013;339.</pages>
+</reference>
+<reference id="pubmed15673803">
+<accessionId id="acc013" href="info:pmid/15673803" />
+<authors>Stewart AF.</authors>
+<title>Clinical practice. Hypercalcemia associated with cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2005</pubdate>
+<volume>352</volume>
+<pages>373&#x2013;379.</pages>
+</reference>
+<reference id="pubmed16131579">
+<accessionId id="acc014" href="info:pmid/16131579" />
+<authors>Jacobs TP, Bilezikian JP.</authors>
+<title>Clinical review: Rare causes of hypercalcemia.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2005</pubdate>
+<volume>90</volume>
+<pages>6316&#x2013;6322.</pages>
+</reference>
+<reference id="pubmed16355286">
+<accessionId id="acc015" href="info:pmid/16355286" />
+<authors>Wermers RA, Khosla S, Atkinson EJ, et al.</authors>
+<title>Incidence of primary hyperparathyroidism in Rochester, Minnesota, 1993-2001: An update on the changing epidemiology of the disease.</title>
+<source>J Bone Miner Res</source>
+<pubdate>2006</pubdate>
+<volume>21</volume>
+<pages>171&#x2013;177.</pages>
+</reference>
+<reference id="PubMed23979953">
+<accessionId id="acc016" href="info:pmid/23979953" />
+<authors>Donovan PJ, Sundac L, Pretorius CJ, d'Emden MC, McLeod DS.</authors>
+<title>Calcitriol-mediated hypercalcemia: causes and course in 101 patients.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2013</pubdate>
+<volume>98</volume>
+<pages>4023&#x2013;4029.</pages>
+</reference>
+<reference id="PubMed23990665">
+<accessionId id="acc017" href="info:pmid/23990665" />
+<authors>Hu MI, Glezerman I, Leboulleux S, Insogna K, Gucalp R, Misiorowski W, Yu B, Ying W, Jain RK.</authors>
+<title>Denosumab for patients with persistent or relapsed hypercalcemia of malignancy despite recent bisphosphonate treatment.</title>
+<source>J Natl Cancer Inst</source>
+<pubdate>2013</pubdate>
+<volume>105</volume>
+<pages>1417&#x2013;1420.</pages>
+</reference>
+<reference id="pubmed27604776">
+<accessionId id="acc018" href="info:pmid/27604776" />
+<authors>Malihi Z, Wu Z, Stewart AW, Lawes CM, Scragg R.</authors>
+<title>Hypercalcemia, hypercalciuria, and kidney stones in long-term studies of vitamin D supplementation: A systematic review and meta-analysis.</title>
+<source>Am J Clin Nutr</source>
+<pubdate>2016</pubdate>
+<volume>104</volume>
+<pages>1039&#x2013;1051.</pages>
+</reference>
+<reference id="pubmed16538071">
+<accessionId id="acc019" href="info:pmid/16538071" />
+<authors>Lee CT, Yang CC, Lam KK, Kung CT, Tsai CJ, Chen HC.</authors>
+<title>Hypercalcemia in the emergency department.</title>
+<source>Am. J. Med. Sci.</source>
+<pubdate>2006</pubdate>
+<volume>331</volume>
+<pages>119&#x2013;23.</pages>
+</reference>
+<reference id="pubmed26037642">
+<accessionId id="acc020" href="info:pmid/26037642" />
+<authors>Minisola S, Pepe J, Piemonte S, Cipriani C.</authors>
+<title>The diagnosis and management of hypercalcaemia.</title>
+<source>BMJ</source>
+<pubdate>2015</pubdate>
+<volume>350</volume>
+<pages>h2723.</pages>
+</reference>
+<reference id="pubmed12751658">
+<accessionId id="acc021" href="info:pmid/12751658" />
+<authors>Carroll MF, Schade DS.</authors>
+<title>A practical approach to hypercalcemia.</title>
+<source>Am Fam Physician</source>
+<pubdate>2003</pubdate>
+<volume>67</volume>
+<pages>1959&#x2013;66.</pages>
+</reference>
+<reference id="pubmed30909788">
+<accessionId id="acc022" href="info:pmid/30909788" />
+<authors>Aihara S, Yamada S, Oka H, Kamimura T, Nakano T, Tsuruya K, Harada A.</authors>
+<title>Hypercalcemia and acute kidney injury induced by eldecalcitol in patients with osteoporosis: A case series of 32 patients at a single facility.</title>
+<source>Ren Fail</source>
+<pubdate>2019</pubdate>
+<volume>41</volume>
+<pages>88&#x2013;97.</pages>
+</reference>
+<reference id="pubmed32768241">
+<accessionId id="acc023" href="info:pmid/32768241" />
+<authors>Ryder CY, Jarocki A, McNeely MM, Currey E, Miller BS, Cohen MS, Gauger PG, Hughes DT.</authors>
+<title>Early biochemical response to parathyroidectomy for primary hyperparathyroidism and its predictive value for recurrent hypercalcemia and recurrent primary hyperparathyroidism.</title>
+<source>Surgery</source>
+<pubdate>2021</pubdate>
+<volume>169</volume>
+<pages>120&#x2013;125.</pages>
+</reference>
+<reference id="pubmed33124662">
+<accessionId id="acc024" href="info:pmid/33124662" />
+<authors>Hawkes CP, Roy SM, Dekelbab B, Frazier B, Grover M, Haidet J, Listman J, Madsen S, Roan M, Rodd C, Sopher A, Tebben P, Levine MA.</authors>
+<title>Hypercalcemia in children using the ketogenic diet: A multicenter study.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2021</pubdate>
+<volume>106</volume>
+<pages>e485&#x2013;e495.</pages>
+</reference>
+<reference id="pubmed35436153">
+<accessionId id="acc025" href="info:pmid/35436153" />
+<authors>Pretorius M, Lundstam K, Heck A, Fagerland MW, Godang K, Mollerup C, Fougner SL, Pernow Y, Aas T, Hessman O, Ros&#x00E9;n T, Nordenstr&#x00F6;m J, Jansson S, Hellstr&#x00F6;m M, Bollerslev J.</authors>
+<title>Mortality and Morbidity in Mild Primary Hyperparathyroidism: Results From a 10-Year Prospective Randomized Controlled Trial of Parathyroidectomy Versus Observation.</title>
+<source>Ann Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>175</volume>
+<pages>812&#x2013;819.</pages>
+</reference>
+<reference id="pubmed34847226">
+<accessionId id="acc026" href="info:pmid/34847226" />
+<authors>Vallentin MF, Granfeldt A, Meilandt C, Povlsen AL, Sindberg B, Holmberg MJ, Iversen BN, M&#x00E6;rkedahl R, Mortensen LR, Nyboe R, Vandborg MP, Tarpgaard M, Runge C, Christiansen CF, Dissing TH, Terkelsen CJ, Christensen S, Kirkegaard H, Andersen LW.</authors>
+<title>Effect of Intravenous or Intraosseous Calcium vs Saline on Return of Spontaneous Circulation in Adults With Out-of-Hospital Cardiac Arrest: A Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2021</pubdate>
+<volume>326</volume>
+<pages>2268&#x2013;2276.</pages>
+</reference>
+<reference id="pubmed36282253">
+<accessionId id="acc027" href="info:pmid/36282253" />
+<authors>Walker MD, Shane E.</authors>
+<title>Hypercalcemia: A Review.</title>
+<source>JAMA</source>
+<pubdate>2022</pubdate>
+<volume>328</volume>
+<pages>1624&#x2013;1636.</pages>
+</reference>
+<reference id="pubmed36545746">
+<accessionId id="acc028" href="info:pmid/36545746" />
+<authors>El-Hajj Fuleihan G, Clines GA, Hu MI, Marcocci C, Murad MH, Piggott T, Van Poznak C, Wu JY, Drake MT.</authors>
+<title>Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2023</pubdate>
+<volume>108</volume>
+<pages>507&#x2013;528.</pages>
+</reference>
+<reference id="pubmed39836424">
+<accessionId id="acc029" href="info:pmid/39836424" />
+<authors>Desgagn&#x00E9;s N, King JA, Kline GA, Seiden-Long I, Leung AA.</authors>
+<title>Use of Albumin-Adjusted Calcium Measurements in Clinical Practice.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2025</pubdate>
+<volume>8</volume>
+<pages>e2455251.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>036.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suggested Evaluation of Patient With Hypercalcemia.</title>
+<graphic href="eee0133-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Hypercalcemia (verified on repeat lab)</label>
+</cell>
+<cell type="action" id="cell-2">
+<label>History and exam focused on vitamin, milk-alkali ingestion, history of malignancy, medications, or history of immobilization</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Obtain intact parathyroid hormone level</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Hyperparathyroidism (1&#x0025; will have familial hypocalciuric hypercalcemia and low 24-h calcium excretion)</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Evaluate for cancer (esp. lung CA, myeloma, lymphoma, or bone metastasis)</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Other possible causes and suggested tests: &#x2022; Hyperthyroidism: TSH &#x2022; Adrenal insufficiency &#x2013; cortisol &#x2022; Granulomatous disease &#x2013; CXR &#x2022; Vitamin A or D toxicity &#x2013; levels</label>
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Bisphosphonate Dosing in Hypercalcemia of Malignancy and Myeloma.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Medication</th>
+<th align="left" colspan="1">Indication</th>
+<th align="left" colspan="1">Dose</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Pamidronate</td>
+<td align="left" colspan="1">Acute therapy</td>
+<td align="left" colspan="1">60-90 mg IV over 2 h (single dose)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Maintenance</td>
+<td align="left" colspan="1">90 mg IV every 4 weeks or 75 mg orally twice daily</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Etidronate</td>
+<td align="left" colspan="1">Acute therapy</td>
+<td align="left" colspan="1">7.5 mg&#x002F;kg&#x002F;day for 3 days; infuse over 2 h</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Maintenance</td>
+<td align="left" colspan="1">10 mg&#x002F;kg orally daily</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ibandronate</td>
+<td align="left" colspan="1">Acute therapy</td>
+<td align="left" colspan="1">2 mg IV (single dose)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Maintenance</td>
+<td align="left" colspan="1">2 mg IV monthly</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Alendronate</td>
+<td align="left" colspan="1">Acute therapy</td>
+<td align="left" colspan="1">10 mg IV over 2-6 h (single dose)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Maintenance</td>
+<td align="left" colspan="1">(Not approved)</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Second-Line Agents for Acute Hypercalcemia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Medication</th>
+<th align="left" colspan="1">Dose</th>
+<th align="left" colspan="1">Comment</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Glucocorticoids</td>
+<td align="left" colspan="1">60 mg daily prednisone or equivalent</td>
+<td align="left" colspan="1">Onset of action may be several days</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Mithramycin</td>
+<td align="left" colspan="1">25 mcg&#x002F;kg (IBW) IV over 4-6 h</td>
+<td align="left" colspan="1">Limited use due to toxicity, no longer manufactured in U.S.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Calcitonin</td>
+<td align="left" colspan="1">4 IU&#x002F;kg SQ or IM every 12 h</td>
+<td align="left" colspan="1">Flushing, nausea common</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

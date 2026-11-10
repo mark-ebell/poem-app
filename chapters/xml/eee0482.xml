@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Brain tumor (malignant)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0482</topic_id>
+<topic_comment />
+<topic_lastupdated>09/05/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Simon S. Lo, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Radiation Medicine</author_department>
+<author_institution>Ohio State University Medical Center</author_institution>
+<author_email>simon.lo&#x0040;osumc.edu</author_email>
+<author_phone_office>(614) 293-8415</author_phone_office>
+<author_phone_home />
+<author_phone_fax>(614) 293-4044</author_phone_fax>
+<author_street1>300 W 10th Ave Suite 088A</author_street1>
+<author_street2 />
+<author_city>Columbus</author_city>
+<author_state>OH</author_state>
+<author_zip>43210</author_zip>
+</author>
+<author primary="no">
+<author_name>Mark A. Henderson, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Radiation Oncology</author_department>
+<author_institution>Indiana University School of Medicine</author_institution>
+<author_email>mahender&#x0040;iupui.edu</author_email>
+<author_phone_office>317-274-2524</author_phone_office>
+<author_phone_home />
+<author_phone_fax>317-274-2486</author_phone_fax>
+<author_street1>535 Barnhill Drive, RT 041</author_street1>
+<author_street2 />
+<author_city>Indianapolis</author_city>
+<author_state>IN</author_state>
+<author_zip>46202</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Noelle O'Rourke, MA, MD, FRCP, FRCR</editor_name>
+<editor_title>Consultant and Honorary Senior Lecturer in Clinical Oncology</editor_title>
+<editor_institution>Beatson Cancer Centre, Glasgow, UK</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Obtain neuroimaging on patients with suspicious findings on neurological examination, altered mental status that is otherwise unexplained, or with symptoms or signs of increased neurological pressure. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>The extent of extracranial disease and the number of CNS lesions will determine whether patients with brain metastases should be treated with whole brain radiotherapy alone, a combination of whole brain radiotherapy and either surgery or radiosurgery, or (rarely) surgery or radiosurgery alone. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed22931705" resource="acc017" /></listitem>
+<listitem>Patients with primary malignant gliomas are treated with surgery followed by radiotherapy with concurrent and adjuvant temozolomide. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed15758009" resource="acc011" /></listitem>
+</list>
+</BottomLine>
+<definition>Malignant brain tumors include primary tumors arising from various cell types in the central nervous system (CNS) that are high grade (ie, World Health Organization grade III or grade IV), as well as metastatic tumors from non-CNS primary tumors.<xref ref="pubmed17618441" resource="acc010" /> The majority of malignant brain tumors in adults consist of metastases or malignant gliomas.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>The incidence rate for primary malignant brain tumors is estimated to be 0.074 per 1000 persons per year by the Central Brain Tumor Registry of the United States.<xref ref="web001" /></listitem>
+<listitem>The incidence of brain metastasis varies by primary tumor site.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The estimated prevalence of primary malignant brain tumors is approximately 0.3 per 1000 persons.<xref ref="web001" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Genetic predisposition (for primary malignant brain tumors).</listitem>
+<listitem>Ionizing radiation (greater risk for benign than malignant primary brain tumors).</listitem>
+<listitem>Non-CNS malignancy (for metastatic malignant brain tumors).</listitem>
+<listitem>Cell phones do not appear to increase the risk of brain tumor.<xref ref="poem30327" resource="acc009" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Primary tumors generally grow locally. Some will metastasize along the neuraxis.</listitem>
+<listitem>Extra-CNS metastasis is rare for primary malignant brain tumors.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Consider prophylactic cranial irradiation (PCI) to prevent brain metastases for patients with limited-stage small-cell lung cancer who have achieved a complete response.<xref ref="cochrane2805" resource="acc008" /> An updated Cochrane review of PCI in small cell lung cancer with 987 patients demonstrates not just reduced incidence subsequent brain metastases but significant benefit in three year overall survival.<xref ref="cochrane2805" resource="acc008" />
+<evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Patients with extensive-stage small-cell lung cancer also benefit from prophylactic cranial irradiation. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed17699816" resource="acc007" /></listitem>
+<listitem>Insufficient data exist to support prophylactic cranial irradiation in patients with nonsmall-cell lung cancer. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15913909" resource="acc003" /></listitem>
+<listitem>Screening for metastatic brain tumors depends on patient factors including symptoms and primary tumor. <evidence rating="C" system="SORT"> C</evidence><xref ref="cochrane3292" resource="acc015" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>History and physical examination may reveal focal neurological deficits and&#x002F;or signs or symptoms of increased neurological pressure. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Obtain neuroimaging in adults and children with new focal neurological deficits and&#x002F;or signs or symptoms of increased neurological pressure, and in children with suspicious headaches. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane7294" resource="acc016" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Patients may present with abnormal headaches.<xref ref="cochrane7294" resource="acc016" /></listitem>
+<listitem>
+<resourceLink href="info:wiley/eep-hp/73">Focal neurological deficit</resourceLink>(s) on physical examination and evidence of <resourceLink href="info:wiley/eep-hp/73">papilledema</resourceLink> increase the likelihood of intracranial mass (LR+ &#x003D; 12 and 4.1, respectively) and warrant a workup with neuroimaging.<xref ref="pubmed22877848" resource="acc018" /> A systematic review identified <resourceLink href="info:wiley/eep-hp/201">abnormal findings on neurological examination</resourceLink>,<resourceLink href="info:wiley/eep-hp/201">headache not fitting migraine, cluster, or tension-type definition</resourceLink>, and <resourceLink href="info:wiley/eep-hp/201">aura</resourceLink> as the best predictors of significant intracranial abnormality.</listitem>
+<listitem>In addition, patients presenting with <resourceLink href="info:wiley/eep-hp/73">altered mentation</resourceLink> should receive neuroimaging unless another reversible cause for their altered mentation is found.<xref ref="pubmed22877848" resource="acc018" /></listitem>
+<listitem>Another systematic review identified six studies of over 150,000 symptomatic patients in primary care to determine the positive predictive value of symptoms for brain and CNS cancer. They found that new onset seizure was the only item with a PPV greater than 1&#x0025; in adults; it was 2.3&#x0025; in patients age 60 to 69 years. Symptom combinations were similarly unhelpful.<xref ref="pubmed26467645" resource="acc026" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Obtain neuroimaging in adults and children with new focal neurological deficits and&#x002F;or signs or symptoms of increased neurological pressure, and in children with suspicious headaches. American College of Radiology guidelines recommend CT or MRI in children,<xref ref="cochrane7294" resource="acc016" /> and MRI with and without contrast is slightly preferred to CT in adults.<xref ref="pubmed22877848" resource="acc018" /></listitem>
+<listitem>Advancing techniques in MR imaging are improving ability of imaging to differentiate grades and types of brain tumours. Specifically, diffusion weighted MR scanning can better distinguish low grade from high grade gliomas. It is also helpful in distinguishing response after radiotherapy in differentiating pseudoprogression from true progression of disease.<xref ref="pubmed32080132" resource="acc035" />
+<xref ref="pubmed33350761" resource="acc036" />
+<xref ref="pubmed24661247" resource="acc021" />
+<xref ref="pubmed24814181" resource="acc020" /></listitem>
+<listitem>Techniques using MRI scoring in tumours which lack contrast enhancement may help to predict biological characeteristics to guide treatment in patients with glioma. (IDH mutation and 1p&#x002F;19q co-deletion).<xref ref="pubmed38713025" resource="acc044" /></listitem>
+<listitem>In patients with a known extracranial malignancy and signs or symptoms of increased intracranial pressure, a <resourceLink href="info:wiley/eep-dx/291">CT or MRI</resourceLink> of the brain is also appropriate.</listitem>
+<listitem>Patients with signs or symptoms of spinal disease and&#x002F;or with histologies at high risk of CNS dissemination (such as medulloblastoma) should undergo imaging of the entire spine, as well as lumbar puncture with cerebrospinal fluid cytology.</listitem>
+<listitem>A systematic review of 18 studies with 1172 patients concluded that apparent diffusion coefficients (ADC) of diffusion weighted MRI has good accuracy for distinguishing high grade from low-grade gliomas, with LR+ 6.1 and LR- 0.22.<xref ref="pubmed32080132" resource="acc035" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Patients with a CNS lesion should first have a careful evaluation for systemic disease (ie, a non-CNS primary tumor).</listitem>
+<listitem>If that evaluation is negative, the CNS lesion should be biopsied. If the evaluation identifies a peripheral lesion, that lesion should be biopsied if possible before considering biopsy of the CNS lesion.</listitem>
+<listitem>See Treatment section for recommended treatment of primary CNS and metastatic CNS lesions.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>15</HP_ID>
+<HP_ID>73</HP_ID>
+<HP_ID>201</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>291</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Single metastasis: resection followed by whole brain radiotherapy, or whole brain radiotherapy followed by stereotactic radiosurgery. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed22931705" resource="acc017" /></listitem>
+<listitem>One to 3 brain metastases: whole brain radiotherapy with or without stereotactic radiosurgery; 4 or more brain metastases: whole brain radiotherapy alone. The use of whole brain radiotherapy depends on the patient's prognosis, and is associated with an increased likelihood of cognitive decline and reduced quality of life compared to radiosurgery alone.<xref ref="pubmed27458945" resource="acc027" />
+<evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Primary glioblastoma: biopsy or resection followed by radiotherapy with concurrent and adjuvant temozolomide. <evidence rating="A" system="SORT"> A</evidence>
+<xref ref="pubmed15758009" resource="acc011" />
+<xref ref="cochrane7415" resource="acc019" /></listitem>
+<listitem>Primary anaplastic astrocytoma: maximal safe resection followed by radiotherapy with concurrent and adjuvant temozolomide. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>The most recent American Society for Radiation Oncology (ASTRO) guidelines distinguish between the need for post-operative radiotherapy in grade 2 and 3 gliomas in patients with IDH mutation depending upon other risk factors. For the IDH mutation with 1p&#x002F;19q co-deletion (both are good prognostic indicators) then in the absence of any other high risk features G2 gliomas should have observation follow-up omitting radiotherapy. Radiotherapy is indicated for oligodendroglioma (grade 3).<xref ref="pubmed35902341" resource="acc037" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Patients with signs of increased intracranial pressure and evidence of a brain tumor on imaging studies should be given corticosteroids.. to reduce intracranial pressure. The steroids must be slowly tapered at the end of treatment, though some patients with residual disease are unable to tolerate steroid taper.<xref ref="cochrane3292" resource="acc015" /></listitem>
+<listitem>Patients with brain tumors, either primary or metastatic, should not be given prophylactic anticonvulsants.<xref ref="poem20903" resource="acc006" />
+<xref ref="pubmed25170671" resource="acc024" /> If patients present with seizures or develop seizures, then it is appropriate to give them anticonvulsants. Clinical trials regarding choice of anticonvulsant are lacking. A single study compared levetiracetam with phenytoin and found that the former was at least as effective (87&#x0025; vs 75&#x0025; seizure free at 6 months).<xref ref="cochrane8586" resource="acc013" /> Note that some anticonvulsants (enzyme inducing anti-epileptics such as phenytoin, carbamazepine, phenytoin, or phenobarbital) interact with the corticosteroids that a majority of these patients are taking and may reduce their levels.<xref ref="cochrane8586" resource="acc013" /></listitem>
+<listitem>Many patients with primary malignant brain tumors receive chemotherapy as a part of their treatment. A systematic review of 12 RCTs found that chemotherapy for high-grade glioma improved survival.<xref ref="cochrane3913" resource="acc005" /> A detailed discussion is beyond the scope of this chapter. For current guidelines on clinicians should refer to NCCN guidelines for CNS cancers. Early progression on MRI is a predictor of a poor response.<xref ref="pubmed28678383" resource="acc029" /></listitem>
+<listitem>For primary brain tumours a Cochrane review found two RCTs comparing insertion of a carmustine impregnated wafer in the resection cavity with placebo wafer. The chemotherapy impregnated wafer improved survival (HR 0.65; 95&#x0025; CI, 0.48-0.86) for primary disease, but not for recurrent disease.<xref ref="cochrane7294" resource="acc016" /></listitem>
+<listitem>Temozolomide has been shown to improve outcomes and is endorsed by NICE guidelines for fit patients with newly diagnosed glioblastoma multiforme. In addition, a randomized trial in 562 patients 70 and older with glioblastoma found that temozolomide added to standard radiation therapy is effective, with increased median survival (13.5 vs 7.7 months, p &lt;0.001).<xref ref="pubmed28296618" resource="acc030" /></listitem>
+<listitem>In patients with progressive glioblastoma, single agent lomustine is effective. A recent RCT concluded that addition of bevacizumab to lomustine did not improve survival further and contributed to increased toxicity.<xref ref="pubmed29141164" resource="acc032" /></listitem>
+<listitem>There is now evidence that in young patients with resected low grade gliomas, there is significant survival advantage from the addition of chemotherapy to post-operative radiotherapy.<xref ref="pubmed27050206" resource="acc022" /></listitem>
+<listitem>Evidence is lacking regarding drug therapy for depression in patients with brain tumor.<xref ref="cochrane6932" resource="acc025" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Maximal safe resection is desirable for most primary malignant brain tumors. This was supported by a 2012 observational study showing better survival in patients with more than 90&#x0025; tumor resection.<xref ref="pubmed22931705" resource="acc017" /></listitem>
+<listitem>A Cochrane review seeking to update whether resection is better than biopsy for high grade glioma confirms that there are still no adequate trials to address this but there is an ongoing study which may contribute to the evidence.<xref ref="cochrane2034" resource="acc033" /></listitem>
+<listitem>A recent meta-analysis of the relationship between the extent of resection and subsequent survival in GBM wild type IDH mutation demonstrated in a combined population of 2023 patients from 9 trials, a significant increase in median overall survival from 12 to 20 months for gross total resection compared to subtotal resection.<xref ref="pubmed36529434" resource="acc040" /></listitem>
+<listitem>Similarly a systematic review of 234 patients with diffuse low grade glioma demonstrated improved functional outcomes assessed by return to work within one year for patients receiving gross total resection compared to subtotal resection, which was in turn better than partial resection.<xref ref="pubmed36404358" resource="acc041" /></listitem>
+<listitem>5-ALA fluorescence guided surgery has been demonstrated to improve success of gross tumour resection (GTR). In the RESECT study of 171 patients GTR was achieved in 79&#x0025; patients with 5-ALA guided resection compared to 48&#x0025; without 5-ALA. On short follow-up this did not translate into improved overall survival, though.<xref ref="pubmed37856381" resource="acc045" /></listitem>
+<listitem>A systematic review of 68 observational studies suggested an association between preoperative brain mapping using functional MRI to plan resection and reduced morbidity.<xref ref="pubmed34060940" resource="acc043" /></listitem>
+<listitem>A study compared overall and progression free survival in 145 patients stratified by the time from diagnostic MRI to surgery (&lt; 7, 7 to 21, and &#x003E; 21 days). It found no significant differences between groups.<xref ref="pubmed37382331" resource="acc047" /></listitem>
+<listitem>Use of NSAIDs post-operatively appears to be relatively safe. A study identified 1182 patients with normal renal function who had undergone craniotomy for brain malignancy, of whom 114 received an NSAID within 48 hours of surgery. They found that return to the OR for bleeding occured in 1 or 114 who got an NSAID and 3 of 1068 who did not (RR 3.1, 95&#x0025; CI 0.33-30).<xref ref="pubmed38306640" resource="acc048" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Adjuvant or definitive radiotherapy plays a role in the management of most primary malignant brain tumors and nearly all metastatic malignant brain tumors.</listitem>
+<listitem>Standard of care radiotherapy in GBM patients is the Stupp regimen delivering 60Gy over 6 weeks which is difficult for frail patients. These have traditionally received shorter course 3 week radiotherapy but there is a case to consider increasing the dose even within the 3 week schedule to achieve better control in this group.<xref ref="pubmed35315512" resource="acc039" /></listitem>
+<listitem>In patients with a single brain metastasis, resection followed by whole brain radiotherapy, or whole brain radiotherapy followed by stereotactic radiosurgery is appropriate in most situations.<xref ref="cochrane6121" resource="acc014" />
+<xref ref="pubmed22931705" resource="acc017" /> A systematic review of 3 RCTs with 195 patients found no difference in overall survival for surgery plus whole brain radiotherapy compared with whole brain radiotherapy alone. However, there was improved functionally independent survival and no difference in adverse events.<xref ref="cochrane3292" resource="acc015" /></listitem>
+<listitem>In patients with 1 to 3 brain metastases, whole brain radiotherapy followed by stereotactic radiosurgery is appropriate.</listitem>
+<listitem>In patients with 4 or more brain metastases, whole brain radiotherapy alone is appropriate, usually given in 10 to 15 treatments to a total dose of 3000 to 3750 cGy.</listitem>
+<listitem>The use of whole brain radiotherapy in brain metastases will depend upon the primary site of tumour and the patient's prognosis. It is increasingly influenced by evidence of reduced quality of life and early cognitive decline associated with whole brain treatment. In a recent trial using radiosurgery alone or with the addition of whole brain radiation, there was less cognitive decline and better quality of life in the group without whole brain radiation.<xref ref="pubmed27458945" resource="acc027" /></listitem>
+<listitem>A large phase 3 RCT in non-small cell lung cancer compared optimal supportive care alone with the addition of whole brain radiation for brain metastases and found no improvement in survival or quality of life with radiotherapy.<xref ref="pubmed27604504" resource="acc028" /></listitem>
+<listitem>In glioblastomas (World Health Organization grade IV malignant gliomas), the combination of temozolomide with radiotherapy confers a survival advantage versus radiotherapy alone.<xref ref="pubmed15758009" resource="acc011" /> An RCT randomized 291 patients over age 60 years to temozolomide (200 mg&#x002F;m<sup>2</sup>), hypofractionated radiotherapy, or standard radiotherapy. Outcomes (including survival) were worse in those receiving standard radiotherapy, especially among patients over 70 years of age.<xref ref="pubmed22877848" resource="acc018" /></listitem>
+<listitem>Although a randomized trial is lacking, temozolomide is often given concurrently with radiotherapy to patients with anaplastic astrocytomas (World Health Organization grade III malignant gliomas).</listitem>
+<listitem>In recurrent glioblastoma, if small volume disease in a patient with good performance status, there may be a survival benefit with use of salvage stereotactic radiosurgery.<xref ref="pubmed30485180" resource="acc034" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>For patients with primary malignant gliomas, a Radiation Therapy Oncology Group recursive partitioning analysis classification exists that indicates a patient's estimated median survival on the basis of their characteristics (see <xref ref="table001" />). <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed8478956" resource="acc002" /></listitem>
+<listitem>The use of molecular biomarkers can guide prognostication. In glioblastoma there is evidence that MGMT methylation and IDH1 mutation each separately confer better overall survival. In contrast EGFR gene overexpression or amplification does not.<xref ref="pubmed36012105" resource="acc038" /></listitem>
+<listitem>A similar classification exists for patients with brain metastases (see <xref ref="table002" />). <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed9128946" resource="acc001" /></listitem>
+<listitem>For primary brain tumors, patients should be followed with neuroimaging (likely MRI) every 3 to 4 months for 1 to 2 years, every 6 months for 2 to 3 years, then yearly if symptoms and imaging studies remain stable. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>In follow-up imaging it may be challenging to distinguish recurrence from radiation necrosis. A meta-analysis of 9 trial (354 patients) suggests MR spectroscopy can be used in this situation.<xref ref="pubmed36631883" resource="acc042" /></listitem>
+<listitem>For patients with metastatic brain tumors, the choice to repeat neuroimaging and the interval at which this is done should be based on the likelihood of obtaining useful information that can be acted on for the patient's benefit. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>A systematic review identified 10 studies of 101 patients with intracranial extraventricular neurocytomas. The 5 year rate of overall survival was 90&#x0025; and progression free survival was 49&#x0025;. Patients under age 50 had better survival.<xref ref="pubmed38000064" resource="acc046" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Some experts have speculated that there is no benefit to treating older patients with malignant brain tumors. However, recent studies show some benefit to treatment in this patient population.<xref ref="pubmed25822375" resource="acc023" />
+<xref ref="pubmed17429084" resource="acc004" /></listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>Primary malignant brain tumors in children represent a special challenge since children are especially sensitive to the neurocognitive effects of radiotherapy.</listitem>
+<listitem>Treatments generally involve a combination of surgery, chemotherapy, and radiotherapy.</listitem>
+<listitem>Long-term follow up is essential since late side effects of therapy are a significant problem for these patients.<xref ref="cochrane6121" resource="acc014" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9128946">
+<accessionId id="acc001" href="info:pmid/9128946" />
+<authors>Gaspar L, Scott C, Rotman M, et al.</authors>
+<title>Recursive partitioning analysis (RPA) of prognostic factors in three Radiation Therapy Oncology Group (RTOG) brain metastases trials.</title>
+<source>Int J Radiat Oncol Biol Phys</source>
+<pubdate>1997</pubdate>
+<volume>37</volume>
+<pages>745-751.</pages>
+</reference>
+<reference id="pubmed8478956">
+<accessionId id="acc002" href="info:pmid/8478956" />
+<authors>Curran WJ, Jr., Scott CB, Horton J, et al.</authors>
+<title>Recursive partitioning analysis of prognostic factors in three Radiation Therapy Oncology Group malignant glioma trials.</title>
+<source>J Natl Cancer Inst</source>
+<pubdate>1993</pubdate>
+<volume>85</volume>
+<pages>704-710.</pages>
+</reference>
+<reference id="pubmed15913909">
+<accessionId id="acc003" href="info:pmid/15913909" />
+<authors>Lester JF, MacBeth FR, Coles B.</authors>
+<title>Prophylactic cranial irradiation for preventing brain metastases in patients undergoing radical treatment for non-small-cell lung cancer: a Cochrane Review.</title>
+<source>Int J Radiat Oncol Biol Phys</source>
+<pubdate>2005</pubdate>
+<volume>63</volume>
+<pages>690-694.</pages>
+</reference>
+<reference id="pubmed17429084">
+<accessionId id="acc004" href="info:pmid/17429084" />
+<authors>Keime-Guibert F, Chinot O, Taillandier L, et al.; for the Association of French-Speaking Neuro-Oncologists.</authors>
+<title>Radiotherapy for glioblastoma in the elderly.</title>
+<source>N Engl J Med</source>
+<pubdate>2007</pubdate>
+<volume>356</volume>
+<pages>1527-1535.</pages>
+</reference>
+<reference id="cochrane3913">
+<accessionId id="acc005" href="info:wiley/cochrane/CD003913" />
+<chapter_authors>Stewart L.</chapter_authors>
+<chapter_title>Chemotherapy for high-grade glioma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem20903">
+<accessionId id="acc006" href="info:wiley/eep-poem/20903" />
+<authors>Glantz MJ, Cole BF, Forsyth PA, et al.</authors>
+<title>Practice parameter: anticonvulsant prophylaxis in patients with newly diagnosed brain tumors. Report of the Quality Standards Subcommittee of the American Academy of Neurology.</title>
+<source>Neurology</source>
+<pubdate>2000</pubdate>
+<volume>54</volume>
+<pages>1886-1893.</pages>
+</reference>
+<reference id="pubmed17699816">
+<accessionId id="acc007" href="info:pmid/17699816" />
+<authors>Slotman B, Faivre-Finn C, Kramer G, et al.; for the EORTC Radiation Oncology Group and Lung Cancer Group.</authors>
+<title>Prophylactic cranial irradiation in extensive small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2007</pubdate>
+<volume>357</volume>
+<pages>664-672.</pages>
+</reference>
+<reference id="cochrane2805">
+<accessionId id="acc008" href="info:wiley/cochrane/CD002805" />
+<chapter_authors>The Prophylactic Cranial Irradiation Overview Collaborative Group.</chapter_authors>
+<chapter_title>Cranial irradiation for preventing brain metastases of small cell lung cancer in patients in complete remission.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 2. Art. No.: CD002805. DOI: 10.1002&#x002F;14651858.CD002805.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem30327">
+<accessionId id="acc009" href="info:wiley/eep-poem/30327" />
+<authors>Muscat JE, Malkin MG, Thompson S, et al.</authors>
+<title>Handheld cellular telephone use and risk of brain cancer.</title>
+<source>JAMA</source>
+<pubdate>2000</pubdate>
+<volume>284</volume>
+<pages>3001-3007.</pages>
+</reference>
+<reference id="pubmed17618441">
+<accessionId id="acc010" href="info:pmid/17618441" />
+<authors>Louis DN, Ohgaki H, Wiestler OD, et al.</authors>
+<title>The 2007 WHO classification of tumours of the central nervous system.</title>
+<source>Acta Neuropathol</source>
+<pubdate>2007</pubdate>
+<volume>114</volume>
+<pages>97-109.</pages>
+</reference>
+<reference id="pubmed15758009">
+<accessionId id="acc011" href="info:pmid/15758009" />
+<authors>Stupp R, Mason WP, van den Bent MJ, et al.; for the European Organisation for Research and Treatment of Cancer Brain Tumor and Radiotherapy Groups National Cancer Institute of Canada Clinical Trials Group.</authors>
+<title>Radiotherapy plus concomitant and adjuvant temozolomide for glioblastoma.</title>
+<source>N Engl J Med</source>
+<pubdate>2005</pubdate>
+<volume>352</volume>
+<pages>987-996.</pages>
+</reference>
+<reference id="web001">
+<citation>Primary Brain Tumors in the United States, Statistical Report, 2000-2004.</citation>
+<url>http://www.cbtrus.org/reports//2007-2008/2007report.pdf</url>
+<organization />
+<longtitle />
+<title>Primary Brain Tumors in the United States, 2000-2004.</title>
+<dateguideline>12&#x002F;10&#x002F;2008</dateguideline>
+</reference>
+<reference id="cochrane8586">
+<accessionId id="acc013" href="info:wiley/cochrane/CD008586" />
+<chapter_authors>Kerrigan S, Grant R.</chapter_authors>
+<chapter_title>Antiepileptic drugs for treating seizures in adults with brain tumours (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 8.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6121">
+<accessionId id="acc014" href="info:wiley/cochrane/CD006121" />
+<chapter_authors>Patil CG, Pricola K, Sarmiento JM, Garg SK, Bryant A, Black KL.</chapter_authors>
+<chapter_title>Whole brain radiation therapy (WBRT) alone versus WBRT and radiosurgery for the treatment of brain metastases.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 9. Art. No.: CD006121. DOI: 10.1002&#x002F;14651858.CD006121.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3292">
+<accessionId id="acc015" href="info:wiley/cochrane/CD003292" />
+<chapter_authors>Hart MG, Walker M, Dickinson HO, Grant R.</chapter_authors>
+<chapter_title>Surgical resection and whole brain radiation therapy versus whole brain radiation therapy alone for single brain metastases.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2005, Issue 1. Art. No.: CD003292. DOI: 10.1002&#x002F;14651858.CD003292.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7294">
+<accessionId id="acc016" href="info:wiley/cochrane/CD007294" />
+<chapter_authors>Hart MG, Grant R, Garside R, Rogers G, Somerville M, Stein K.</chapter_authors>
+<chapter_title>Chemotherapy wafers for high grade glioma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22931705">
+<accessionId id="acc017" href="info:pmid/22931705" />
+<authors>Dea N, Fournier-Gosselin MP, Mathieu D, Goffaux P, Fortin D.</authors>
+<title>Does extent of resection impact survival in patients bearing glioblastoma?</title>
+<source>Can J Neurol Sci</source>
+<pubdate>2012</pubdate>
+<volume>39</volume>
+<pages>632-637</pages>
+</reference>
+<reference id="pubmed22877848">
+<accessionId id="acc018" href="info:pmid/22877848" />
+<authors>Malmstr&#x00F6;m A, Gr&#x00F8;nberg BH, Marosi C, Stupp R, Frappaz D, Schultz H, Abacioglu U, Tavelin B, Lhermitte B, Hegi ME, Rosell J, Henriksson R; Nordic Clinical Brain Tumour Study Group (NCBTSG).</authors>
+<title>Temozolomide versus standard 6-week radiotherapy versus hypofractionated radiotherapy in patients older than 60 years with glioblastoma: the Nordic randomised, phase 3 trial.</title>
+<source>Lancet Oncol</source>
+<pubdate>2012</pubdate>
+<volume>13</volume>
+<pages>916&#x2013;926</pages>
+</reference>
+<reference id="cochrane7415">
+<accessionId id="acc019" href="info:wiley/cochrane/CD007415" />
+<chapter_authors>Hart MG, Garside R, Rogers G, Stein K, Grant R.</chapter_authors>
+<chapter_title>Temozolomide for high grade glioma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2013 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24814181">
+<accessionId id="acc020" href="info:pmid/24814181" />
+<authors>Kickingereder P, Wiestler B, Sahm F, Heiland S, Roethke M, Schlemmer HP, Wick W, Bendszus M, Radbruch A.</authors>
+<title>Primary central nervous system lymphoma and atypical glioblastoma: multiparametric differentiation by using diffusion-, perfusion-, and susceptibility-weighted MR imaging.</title>
+<source>Radiology</source>
+<pubdate>2014</pubdate>
+<volume>272</volume>
+<pages>843&#x2013;850</pages>
+</reference>
+<reference id="pubmed24661247">
+<accessionId id="acc021" href="info:pmid/24661247" />
+<authors>Caulo M, Panara V, Tortora D, Mattei PA, Briganti C, Pravat&#x00E0; E, Salice S, Cotroneo AR, Tartaro A.</authors>
+<title>Data-driven grading of brain gliomas: a multiparametric MR imaging study.</title>
+<source>Radiology</source>
+<pubdate>2014</pubdate>
+<volume>272</volume>
+<pages>494&#x2013;503</pages>
+</reference>
+<reference id="pubmed27050206">
+<accessionId id="acc022" href="info:pmid/27050206" />
+<authors>Buckner JC, Shaw EG, Pugh SL, Chakravarti A, Gilbert MR, Barger GR, Coons S, Ricci P, Bullard D, Brown PD, Stelzer K, Brachman D, Suh JH, Schultz CJ, Bahary JP, Fisher BJ, Kim H, Murtha AD, Bell EH, Won M, Mehta MP, Curran WJ, Jr.</authors>
+<title>Radiation plus procarbazine, CCNU, and vincristine in low-grade glioma.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>1344&#x2013;1355</pages>
+</reference>
+<reference id="pubmed25822375">
+<accessionId id="acc023" href="info:pmid/25822375" />
+<authors>Zarnett OJ, Sahgal A, Gosio J, Perry J, Berger MS, Chang S, Das S.</authors>
+<title>Treatment of elderly patients with glioblastoma: a systematic evidence-based analysis.</title>
+<source>JAMA Neurol</source>
+<pubdate>2015</pubdate>
+<volume>72</volume>
+<pages>589&#x2013;596</pages>
+</reference>
+<reference id="pubmed25170671">
+<accessionId id="acc024" href="info:pmid/25170671" />
+<authors>Sayegh ET, Fakurnejad S, Oh T, Bloch O, Parsa AT.</authors>
+<title>Anticonvulsant prophylaxis for brain tumor surgery: determining the current best available evidence.</title>
+<source>J Neurosurg</source>
+<pubdate>2014</pubdate>
+<volume>121</volume>
+<pages>1139&#x2013;1147</pages>
+</reference>
+<reference id="cochrane6932">
+<accessionId id="acc025" href="info:wiley/cochrane/CD006932" />
+<chapter_authors>Rooney AG, Grant R.</chapter_authors>
+<chapter_title>Pharmacological treatment of depression in patients with a primary brain tumour.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 5. Art. No.: CD006932. DOI: 10.1002&#x002F;14651858.CD006932.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed26467645">
+<accessionId id="acc026" href="info:pmid/26467645" />
+<authors>Schmidt-Hansen M, Berendse S, Hamilton W.</authors>
+<title>Symptomatic diagnosis of cancer of the brain and central nervous system in primary care: a systematic review.</title>
+<source>Fam Pract</source>
+<pubdate>2015</pubdate>
+<volume>32</volume>
+<pages>618&#x2013;623</pages>
+</reference>
+<reference id="pubmed27458945">
+<accessionId id="acc027" href="info:pmid/27458945" />
+<authors>Brown PD, Jaeckle K, Ballman KV, Farace E, Cerhan JH, Anderson SK, Carrero XW, Barker FG 2nd, Deming R, Burri SH, M&#x00E9;nard C, Chung C, Stieber VW, Pollock BE, Galanis E, Buckner JC, Asher AL.</authors>
+<title>Effect of radiosurgery alone vs radiosurgery with whole brain radiation therapy on cognitive function in patients with 1 to 3 brain metastases: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2016</pubdate>
+<volume>316</volume>
+<pages>401&#x2013;409</pages>
+</reference>
+<reference id="pubmed27604504">
+<accessionId id="acc028" href="info:pmid/27604504" />
+<authors>Mulvenna P, Nankivell M, Barton R, Faivre-Finn C, Wilson P, McColl E, Moore B, Brisbane I, Ardron D, Holt T, Morgan S, Lee C, Waite K, Bayman N, Pugh C, Sydes B, Stephens R, Parmar MK, Langley RE.</authors>
+<title>Dexamethasone and supportive care with or without whole brain radiotherapy in treating patients with non-small cell lung cancer with brain metastases unsuitable for resection or stereotactic radiotherapy (QUARTZ): results from a phase 3, non-inferiority, randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>388</volume>
+<pages>2004&#x2013;2014</pages>
+</reference>
+<reference id="pubmed28678383">
+<accessionId id="acc029" href="info:pmid/28678383" />
+<authors>Field KM, Phal PM, Fitt G, Goh C, Nowak AK, Rosenthal MA, Simes J, Barnes EH, Sawkins K, Cher LM, Hovey EJ, Wheeler H.</authors>
+<title>The role of early magnetic resonance imaging in predicting survival on bevacizumab for recurrent glioblastoma: results from a prospective clinical trial (CABARET).</title>
+<source>Cancer</source>
+<pubdate>2017</pubdate>
+<volume>123</volume>
+<pages>3576&#x2013;3582</pages>
+</reference>
+<reference id="pubmed28296618">
+<accessionId id="acc030" href="info:pmid/28296618" />
+<authors>Perry JR, Laperriere N, O'Callaghan CJ, Brandes AA, Menten J, Phillips C, Fay M, Nishikawa R, Cairncross JG, Roa W, Osoba D, Rossiter JP, Sahgal A, Hirte H, Laigle-Donadey F, Franceschi E, Chinot O, Golfinopoulos V, Fariselli L, Wick A, Feuvret L, Back M, Tills M, Winch C, Baumert BG, Wick W, Ding K, Mason WP; Trial Investigators.</authors>
+<title>Short-course radiation plus temozolomide in elderly patients with glioblastoma.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>376</volume>
+<pages>1027&#x2013;1037</pages>
+</reference>
+<reference id="pubmed29141164">
+<accessionId id="acc032" href="info:pmid/29141164" />
+<authors>Wick W, Gorlia T, Bendszus M, Taphoorn M, Sahm F, Harting I, Brandes AA, Taal W, Domont J, Idbaih A, Campone M, Clement PM, Stupp R, Fabbro M, Le Rhun E, Dubois F, Weller M, von Deimling A, Golfinopoulos V, Bromberg JC, Platten M, Klein M, van den Bent MJ.</authors>
+<title>Lomustine and bevacizumab in progressive glioblastoma.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>1954&#x2013;1963</pages>
+</reference>
+<reference id="cochrane2034">
+<accessionId id="acc033" href="info:wiley/cochrane/CD2034" />
+<chapter_authors>Hart MG, Grant GR, Solyom EF, Grant R.</chapter_authors>
+<chapter_title>Biopsy versus resection for high-grade glioma.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 6. Art. No.: CD002034. DOI: 10.1002&#x002F;14651858.CD002034.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed30485180">
+<accessionId id="acc034" href="info:pmid/30485180" />
+<authors>Sharma M, Schroeder JL, Elson P, Meola A, Barnett GH, Vogelbaum MA, Suh JH, Chao ST, Mohammadi AM, Stevens GHJ, Murphy ES, Angelov L.</authors>
+<title>Outcomes and prognostic stratification of patients with recurrent glioblastoma treated with salvage stereotactic radiosurgery.</title>
+<source>J. Neurosurg.</source>
+<pubdate>2018</pubdate>
+<volume>131</volume>
+<pages>489&#x2013;499</pages>
+</reference>
+<reference id="pubmed32080132">
+<accessionId id="acc035" href="info:pmid/32080132" />
+<authors>Wang QP, Lei DQ, Yuan Y, Xiong NX.</authors>
+<title>Accuracy of ADC derived from DWI for differentiating high-grade from low-grade gliomas: Systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e19254</pages>
+</reference>
+<reference id="pubmed33350761">
+<accessionId id="acc036" href="info:pmid/33350761" />
+<authors>Wang L, Wei L, Wang J, Li N, Gao Y, Ma H, Qu X, Zhang M.</authors>
+<title>Evaluation of perfusion MRI value for tumor progression assessment after glioma radiotherapy: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e23766</pages>
+</reference>
+<reference id="pubmed35902341">
+<accessionId id="acc037" href="info:pmid/35902341" />
+<authors>Halasz LM, Attia A, Bradfield L, Brat DJ, Kirkpatrick JP, Laack NN, Lalani N, Lebow ES, Liu AK, Niemeier HM, Palmer JD, Peters KB, Sheehan J, Thomas RP, Vora SA, Wahl DR, Weiss SE, Yeboa DN, Zhong J, Shih HA.</authors>
+<title>Radiation Therapy for IDH-Mutant Grade 2 and Grade 3 Diffuse Glioma: An ASTRO Clinical Practice Guideline.</title>
+<source>Pract Radiat Oncol</source>
+<pubdate>2022 Sep-Oct</pubdate>
+<volume>12</volume>
+<pages>370&#x2013;386</pages>
+</reference>
+<reference id="pubmed36012105">
+<accessionId id="acc038" href="info:pmid/36012105" />
+<authors>Sareen H, Ma Y, Becker TM, Roberts TL, de Souza P, Powter B.</authors>
+<title>Molecular Biomarkers in Glioblastoma: A Systematic Review and Meta-Analysis.</title>
+<source>Int J Mol Sci</source>
+<pubdate>2022</pubdate>
+<volume>23</volume>
+<pages />
+</reference>
+<reference id="pubmed35315512">
+<accessionId id="acc039" href="info:pmid/35315512" />
+<authors>Perlow HK, Prasad RN, Yang M, Klamer B, Matsui J, Marrazzo L, Detti B, Scorsetti M, Clerici E, Arnett A, Beyer S, Ammirati M, Chakravarti A, Raval RR, Brown PD, Navarria P, Scoccianti S, Grecula JC, Palmer JD.</authors>
+<title>Accelerated hypofractionated radiation for elderly or frail patients with a newly diagnosed glioblastoma: A pooled analysis of patient-level data from 4 prospective trials.</title>
+<source>Cancer</source>
+<pubdate>2022</pubdate>
+<volume>128</volume>
+<pages>2367&#x2013;2374</pages>
+</reference>
+<reference id="pubmed36529434">
+<accessionId id="acc040" href="info:pmid/36529434" />
+<authors>Jusue-Torres I, Lee J, Germanwala AV, Burns TC, Parney IF.</authors>
+<title>Effect of Extent of Resection on Survival of Patients with Glioblastoma, IDH-Wild-Type, WHO Grade 4 (WHO 2021): Systematic Review and Meta-Analysis.</title>
+<source>World Neurosurg</source>
+<pubdate>2023</pubdate>
+<volume>171</volume>
+<pages>e524&#x2013;e532</pages>
+</reference>
+<reference id="pubmed36404358">
+<accessionId id="acc041" href="info:pmid/36404358" />
+<authors>Elsheikh M, Bridgman E, Lavrador JP, Lammy S, Poon MTC.</authors>
+<title>Association of extent of resection and functional outcomes in diffuse low-grade glioma: systematic review &amp; meta-analysis.</title>
+<source>J Neurooncol</source>
+<pubdate>2022</pubdate>
+<volume>160</volume>
+<pages>717&#x2013;724</pages>
+</reference>
+<reference id="pubmed36631883">
+<accessionId id="acc042" href="info:pmid/36631883" />
+<authors>Aseel A, McCarthy P, Mohammed A.</authors>
+<title>Brain magnetic resonance spectroscopy to differentiate recurrent neoplasm from radiation necrosis: A systematic review and meta-analysis.</title>
+<source>J Neuroimaging</source>
+<pubdate>2023</pubdate>
+<volume>33</volume>
+<pages>189&#x2013;201</pages>
+</reference>
+<reference id="pubmed34060940">
+<accessionId id="acc043" href="info:pmid/34060940" />
+<authors>Luna LP, Sherbaf FG , Sair HI, Mukherjee D, Oliveira IB, K&#x00F6;hler CA.</authors>
+<title>Can Preoperative Mapping with Functional MRI Reduce Morbidity in Brain Tumor Resection? A Systematic Review and Meta-Analysis of 68 Observational Studies.</title>
+<source>Radiology</source>
+<pubdate>2021</pubdate>
+<volume>300</volume>
+<pages>338&#x2013;349</pages>
+</reference>
+<reference id="pubmed38713025">
+<accessionId id="acc044" href="info:pmid/38713025" />
+<authors>Kang KM , Song J , Choi Y , Park C , Park JE , Kim HS , Park SH , Park CK , Choi SH .</authors>
+<title>MRI Scoring Systems for Predicting Isocitrate Dehydrogenase Mutation and Chromosome 1p&#x002F;19q Codeletion in Adult-type Diffuse Glioma Lacking Contrast Enhancement.</title>
+<source>Radiology</source>
+<pubdate>2024</pubdate>
+<volume>311</volume>
+<pages>e233120</pages>
+</reference>
+<reference id="pubmed37856381">
+<accessionId id="acc045" href="info:pmid/37856381" />
+<authors>Picart T, Pallud J, Berthiller J, Dumot C, Berhouma M, Ducray F, Armoiry X, Margier J, Guerre P, Varlet P, Meyronet D, Metellus P, Guyotat J, Members of RESECT study group: .</authors>
+<title>Use of 5-ALA fluorescence-guided surgery versus white-light conventional microsurgery for the resection of newly diagnosed glioblastomas (RESECT study): a French multicenter randomized phase III study.</title>
+<source>J Neurosurg</source>
+<pubdate>2024</pubdate>
+<volume>140</volume>
+<pages>987&#x2013;1000</pages>
+</reference>
+<reference id="pubmed38000064">
+<accessionId id="acc046" href="info:pmid/38000064" />
+<authors>Kweh BTS, Asaid M, Khoo B, Donaldson C, Lokan J, Gan HK, Gonzalvo AC.</authors>
+<title>Survival outcomes of intracranial extraventricular neurocytomas: a systematic review and individual patient data meta-analysis.</title>
+<source>J Neurosurg</source>
+<pubdate>2024</pubdate>
+<volume>140</volume>
+<pages>1243&#x2013;1253</pages>
+</reference>
+<reference id="pubmed37382331">
+<accessionId id="acc047" href="info:pmid/37382331" />
+<authors>Young JS, Al-Adli NN, Muster R, Chandra A, Morshed RA, Pereira MP, Chalif EJ, Hervey-Jumper SL, Theodosopoulos PV, McDermott MW, Berger MS, Aghi MK.</authors>
+<title>Does waiting for surgery matter? How time from diagnostic MRI to resection affects outcomes in newly diagnosed glioblastoma.</title>
+<source>J Neurosurg</source>
+<pubdate>2024</pubdate>
+<volume>140</volume>
+<pages>80&#x2013;93</pages>
+</reference>
+<reference id="pubmed38306640">
+<accessionId id="acc048" href="info:pmid/38306640" />
+<authors>Perez JL, Naylor RM, Bauman MMJ, Harrison DJ, Knowles K, Burns TC, Lanzino G, Link MJ, Peris Celda M, Meyer FB, Van Gompel J, Parney IF.</authors>
+<title>Safety of the immediate use of nonsteroidal anti-inflammatory drugs after adult craniotomy for tumor.</title>
+<source>J Neurosurg</source>
+<pubdate>2024</pubdate>
+<volume>141</volume>
+<pages>117&#x2013;122</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Radiation Therapy Oncology Group Classification for Malignant Gliomas.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Class</th>
+<th align="left" colspan="1">Patient Characteristics</th>
+<th align="left" colspan="1">Median Overall Survival (Months)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">I-II</td>
+<td align="left" colspan="1">Anaplastic astrocytoma, KPS 70-100, symptoms present &#x003E;3 months</td>
+<td align="left" colspan="1">40-60</td>
+</tr>
+<tr>
+<td align="left" colspan="1">III-IV</td>
+<td align="left" colspan="1">Anaplastic astrocytoma, KPS 70-100, symptoms &lt;3 months</td>
+<td align="left" colspan="1">11-18</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Glioblastoma, age &lt;50 years, KPS 70-100</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">V-VI</td>
+<td align="left" colspan="1">Glioblastoma and age &#x003E;50 years</td>
+<td align="left" colspan="1">5-9</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Glioblastoma or anaplastic astrocytoma, KPS &lt;70</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>KPS denotes Karnosfsky Performance Score; score of 60, requires occasional assistance, but is able to care for most personal needs; score of 70, cares for self, but unable to carry on normal activity or do active work.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Radiation Therapy Oncology Group Classification for Brain Metastases.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Class</th>
+<th align="left" colspan="1">Patient Characteristics</th>
+<th align="left" colspan="1">Median Overall Survival (Months)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">I</td>
+<td align="left" colspan="1">Age &lt;65 years, KPS 70-100, controlled systemic disease</td>
+<td align="left" colspan="1">7.1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">II</td>
+<td align="left" colspan="1">Age &#x003E;65 years or uncontrolled systemic disease, KPS 70-100</td>
+<td align="left" colspan="1">4.2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">III</td>
+<td align="left" colspan="1">KPS &lt;70</td>
+<td align="left" colspan="1">2.3</td>
+</tr>
+</table>KPS denotes Karnosfsky Performance Score; score of 60 requires occasional assistance but is able to care for most personal needs; score of 70 cares for self but unable to carry on normal activity or do active work.</feature_body>
+</feature>
+</feature_group>
+</topic>

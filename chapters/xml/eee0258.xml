@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Anemia (iron deficiency)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0258</topic_id>
+<topic_comment />
+<topic_lastupdated>09/25/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Jumana Antoun, MD, PhD</author_name>
+<author_title> Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>American University of Beirut</author_institution>
+<author_email>jumana.antoun&#x0040;gmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Beirut</author_city>
+<author_state>LB</author_state>
+<author_zip>110236</author_zip>
+</author>
+<author primary="no">
+<author_name>William Wadland, MD</author_name>
+<author_title>Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email>drkeerthy&#x0040;gmail.com</author_email>
+<author_phone_office>517 364 5710</author_phone_office>
+<author_phone_home />
+<author_phone_fax>517 364 5718</author_phone_fax>
+<author_street1>1200 E. Michigan Ave.</author_street1>
+<author_street2>Ste. 245 C</author_street2>
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48909</author_zip>
+</author>
+<author primary="no">
+<author_name>Keerthy Krishnamani, MD</author_name>
+<author_title>Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Coos County Family Health Services</author_institution>
+<author_email>drkeerthy&#x0040;gmail.com</author_email>
+<author_phone_office>603 752 2900</author_phone_office>
+<author_phone_home>517 316 6192</author_phone_home>
+<author_phone_fax />
+<author_street1>59 Page Hill Road</author_street1>
+<author_street2 />
+<author_city>Berlin</author_city>
+<author_state>NH</author_state>
+<author_zip>03570</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+<editor>
+<editor_name>Steven R. Brown, MD, FAAFP</editor_name>
+<editor_title>Program Director and Professor</editor_title>
+<editor_institution>University of Arizona College of Medicine &#x2013; Phoenix Family Medicine Residency</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>While many organizations recommend screening asymptomatic pregnant women for iron deficiency anemia, the USPSTF reports insufficient evidence.<evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>High-risk infants in the age groups 6 to 12 months should receive iron supplementation, but the efficacy of screening all infants in this age group is uncertain.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed26347426" resource="acc018" /></listitem>
+<listitem>Ferritin is the best test to diagnose iron deficiency anemia.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients older than 65 years with iron deficiency anemia should be screened for gastrointestinal malignancy.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment is with 60 to 65 mg of elemental iron taken orally in a fasting state as ferrous sulfate or ferrous gluconate.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed34497146" resource="acc033" /></listitem>
+</list>
+</BottomLine>
+<definition>Iron deficiency anemia (IDA) is characterized by diminished red blood cell production resulting from low levels of iron stored in the body.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>The global prevalence of iron deficiency anemia varies greatly by country and region, but it is estimated to be around 20&#x0025; <xref ref="pubmed26314490" resource="acc029" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Most common nutritional disorder worldwide</listitem>
+<listitem>Associated with adverse cognitive and behavioral test scores in children <xref ref="pubmed30778834" resource="acc034" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Inadequate dietary intake of iron</listitem>
+<listitem>Decreased absorption: malabsorption from disease such as celiac disease, postgastrectomy, or with acute or chronic inflammation</listitem>
+<listitem>Increased iron loss: menstrual bleeding, acute or chronic gastrointestinal causes or hemolysis, blood donation, or phlebotomy</listitem>
+<listitem>Increased demand: rapid growth in infancy or adolescence, pregnancy, or erythropoietin in malignancy</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Erythropoiesis: iron stores are depleted in this stage, leading to a decrease in serum iron and increase in total iron binding capacity. Hemoglobin synthesis is unaffected initially, but, when transferrin is &lt;15&#x0025; to 20&#x0025;, hemoglobin synthesis is reduced.</listitem>
+<listitem>With IDA, there is appearance of microcytic red blood cells, and the hemoglobin and hematocrit begin to decrease. In moderate iron deficiency with hemoglobin in the range of 9-11 g&#x002F;dL, the bone marrow is hypoproliferative. In severe anemia with hemoglobin 7 to 8 g&#x002F;dL, there is prominent hypochromia with microcytosis and poikilocytes, and target cells start to appear. Consequently, with severe prolonged anemia, erythroid hyperplasia develops.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Black</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hispanic ethnicity</Risk_Name>
+<Risk_OR>OR 1.8</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Poverty and postpartum</Risk_Name>
+<Risk_OR>0-6 months OR 4.1</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Childhood obesity BMI 85&#x0025;-95&#x0025;</Risk_Name>
+<Risk_OR>OR 2 (CI 1.2-3.5)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Childhood obesity BMI &gt;95&#x0025;</Risk_Name>
+<Risk_OR>OR 2.3 (CI 1.4-3.9)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Vegetarians</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Female sex</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Native American or Alaskan Helicobacter pylori</Risk_Name>
+<Risk_OR>OR 2.22 (CI 1.52-3.24)</Risk_OR>
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Pregnant women are traditionally screened for IDA at the first prenatal visit although there is insufficient evidence to support this practice. <xref ref="pubmed39163015" resource="acc047" />USPSTF stated that the current evidence is insufficient to recommend routine iron supplementation in non-anemia pregnant women due to inadequate evidence on maternal health or birth outcomes.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed39163015" resource="acc047" /> A Cochrane review has shown that prenatal supplementation with iron or iron+folic acid (provided either daily or weekly) prevents anemia and iron deficiency at term.<evidence rating="A" system="SORT">A</evidence><xref ref="cochrane4736" resource="acc006" /> The same Cochrane review has shown possible benefits of preventive iron supplementation in pregnant women as compared to controls on low birth weight (RR 0.84, 95&#x0025; CI 0.69-1.03, low quality evidence) and preterm babies (RR 0.93, 95&#x0025; CI 0.84-1.03, moderate quality evidence).<evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4736" resource="acc006" /> Maternal anemia is associated with preterm birth and low birth weight.<xref ref="pubmed28580444" resource="acc024" /></listitem>
+<listitem>A Cochrane review has shown daily iron supplementation may reduce the prevalence of iron deficient anemia in menstruating women at the expense of gastrointestinal side effects <xref ref="pubmed27087396" resource="acc035" />.Recommendations for preventive iron supplementation in developed countries likely need revision.</listitem>
+<listitem>The AAFP and AAP recommend screening for IDA routinely in asymptomatic children aged 6 months to 1 year. However, the USPSTF found insufficient evidence to support this approach.<evidence rating="B" system="SORT">B</evidence><xref ref="guideline9274" resource="acc004" /><xref ref="pubmed26347426" resource="acc018" /></listitem>
+<listitem>The USPSTF found a gap in the evidence that assess the effect of iron supplementation for iron deficiency anemia on growth or cognitive or neuro developmental outcomes in children aged 6-24 months.<evidence rating="B" system="SORT">B</evidence><xref ref="guideline9274" resource="acc004" /><xref ref="pubmed26347426" resource="acc018" /></listitem>
+<listitem>Routine screening for iron deficiency anemia is recommended for patients with heart failure by 2013 ACCF&#x002F;AHA and 2016 European Society of Cardiology guidelines.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed30311713" resource="acc019" /><xref ref="pubmed28455343" resource="acc020" /> Routine screening of other populations is not addressed by guidelines.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>In adult blood donors, low dose iron supplementation reduces time to recovery of hemoglobin values after donation.<xref ref="pubmed25668261" resource="acc015" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Hemoglobin and serum ferritin are the best tests to diagnose IDA.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients older than 65 years with IDA have an increased risk of gastrointestinal malignancy.<evidence rating="C" system="SORT">C</evidence><xref ref="poem50152" resource="acc003" /></listitem>
+<listitem>The American Gastroenterological Association (AGA) recommends screening asymptomatic post-menopausal women and men with IDA for gastrointestinal malignancies with both esophagogastroduodenoscopy and colonoscopy. <xref ref="pubmed33387524" resource="acc031" /><evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>CDC criteria for anemia by hemoglobin value:<xref ref="pubmed9563847" resource="acc002" />
+<list style="bulleted">
+<listitem>Infants &lt;5 years old: &lt;11 g&#x002F;dL</listitem>
+<listitem>Children 5-12 years old: &lt;11.5 g&#x002F;dL</listitem>
+<listitem>Non-pregnant women: &lt;12 g&#x002F;dL</listitem>
+<listitem>Pregnant women, first trimester: &lt;11 g&#x002F;dL</listitem>
+<listitem>Pregnant women, second trimester: &lt;10.5 g&#x002F;dL</listitem>
+<listitem>Men: &lt;13.5 g&#x002F;dL</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Patients with IDA are often asymptomatic or minimally symptomatic. Suspect anemia in patients with pallor or fatigue. Other symptoms include dyspnea, chest pain, and orthostasis.</listitem>
+<listitem>Presence of <resourceLink href="info:wiley/eep-hp/118">conjunctiva pallor</resourceLink> is moderately accurate for diagnosis of any anemia. Pallor may also exist at other sites (palms, gums, nail beds, skin).</listitem>
+<listitem>In a study of 1,104 children under the age of 5 years in Malawi, <resourceLink href="info:wiley/eep-hp/209">pallor of conjunctiva, tongue, palm or nail beds</resourceLink> was moderately sensitive for moderate anemia and very sensitive for severe anemia.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Laboratory patterns for different types of anemia are listed in <xref ref="table001" />.</listitem>
+<listitem>Ferritin is the most accurate diagnostic test for IDA in the elderly and in <resourceLink href="info:wiley/eep-dx/161">patients with cirrhosis.</resourceLink> A ferritin less than 15 to 19 ng&#x002F;dL is diagnostic for IDA in the elderly; a higher cutoff is recommended in patients with <resourceLink href="info:wiley/eep-dx/161">cirrhosis</resourceLink>. Iron deficiency is very unlikely when ferritin is &gt;100 ng&#x002F;dL. There are different cut off levels of ferritin in the literature. A higher cut-point of ferritin is recommended in diseases of inflammation such as heart failure or chronic kidney disease.</listitem>
+<listitem>At a threshold of 30 micrograms&#x002F;L, ferritin is reasonably sensitive with high specificity for iron deficient anemia in people presenting for medical care. <xref ref="pubmed34028001" resource="acc036" />The cut off point for ferritin differs with age and individuals with infection or inflammatory disease.</listitem>
+<listitem>Transferrin saturation may be helpful if a false negative serum ferritin is suspected.<xref ref="pubmed34497146" resource="acc033" /></listitem>
+<listitem>British Society of Gastroenterology guidelines (2021) recommend screening for celiac disease, and upper and lower GI tract endoscopy for persons with confirmed IDA. <xref ref="pubmed34497146" resource="acc033" />Fecal immunochemical testing may have a role in risk stratification. Patients with negative upper and lower endoscopy should have capsule endoscopy to evaluate the small bowel as a source of bleeding.<xref ref="pubmed34497146" resource="acc033" /></listitem>
+<listitem>Hemoglobin &lt;11 g&#x002F;dL is specific but not sensitive for <resourceLink href="info:wiley/eep-dx/372">IDA in infants</resourceLink>.<xref ref="guideline9274" resource="acc004" /><xref ref="pubmed30487142" resource="acc021" /></listitem>
+<listitem>If a clear cause for iron deficiency is not found, consider endoscopic evaluation. The risk of colorectal cancer in men age 18 to 49 was 0.78&#x0025; over 5 years following the diagnosis, versus 0.05&#x0025; in those without IDA.<xref ref="pubmed33443020" resource="acc032" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to evaluation.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>118</HP_ID>
+<HP_ID>209</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>41</Dx_ID>
+<Dx_ID>115</Dx_ID>
+<Dx_ID>161</Dx_ID>
+<Dx_ID>372</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>BSG guidelines (2021) recommend a single dose of ferrous sulfate (elemental iron 65 mg) or ferrous gluconate daily. Higher or more frequent doses cause more side effects without additional benefit.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9563847" resource="acc002" /><xref ref="pubmed34497146" resource="acc033" /> The usual dose in infants and young children is 3 to 6 mg&#x002F;kg of elemental iron per day.</listitem>
+<listitem>Treatment of iron deficiency once per day is as efficacious as a thrice per day regimen.<evidence rating="B" system="SORT">B</evidence><xref ref="poem40161" resource="acc008" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Recommended treatment for most patients with IDA is oral iron therapy with the equivalent of 65 mg elemental iron daily using any version of iron supplement (<xref ref="table002" />). Higher doses are not necessary and increase side effects.<xref ref="pubmed34497146" resource="acc033" /><xref ref="pubmed9563847" resource="acc002" /></listitem>
+<listitem>The usual duration of oral iron is 4 months.<xref ref="pubmed9563847" resource="acc002" /> Response to therapy should be assessed after 2 to 4 weeks.<xref ref="pubmed34497146" resource="acc033" /></listitem>
+<listitem>A Cochrane review has shown that intermittent iron supplementation may be as effective as daily supplementation in preventing or controlling anemia in adolescents and menstruating adult women.<xref ref="pubmed30699468" resource="acc022" /></listitem>
+<listitem>Oral iron therapy should be taken in a fasting state with no food intake for at least one hour afterward. Taking vitamin C with oral iron is not beneficial.<xref ref="pubmed34497146" resource="acc033" /> However, dietary increaes in vitamin C to improve absorption of dietary iron sources was found to be beneficial. <xref ref="pubmed35893877" resource="acc043" /></listitem>
+<listitem>Side effects of iron therapy include constipation, diarrhea, nausea, or reflux and are seen in 20&#x0025; of patients.</listitem>
+<listitem>Oral iron therapy should be taken on an empty stomach when there is an acidic or neutral environment. Gradually increasing the dose is thought to decrease the risk of adverse effects. Ascorbic acid theoretically potentiates oral iron absorption but taking Vitamin C with iron supplementation did not improve hemoglobin levels after 3 months in one RCT.<xref ref="poem230127" resource="acc026" /> Avoid antacids and proton pump inhibitors concurrently with iron therapy.</listitem>
+<listitem>In a meta-analysis of 8 Asian RCTs, H. pylori eradication combined with iron improved IDA more than iron administration alone.<xref ref="pubmed20448223" resource="acc010" /></listitem>
+<listitem>A study of women who had fatigue, ferritin &lt;50 mcg&#x002F;L and hemoglobin &gt;12.0 g&#x002F;dl randomized them to FeSO<sub>4</sub> or placebo for 12 weeks. Fatigue decreased more in the treated group (48&#x0025; vs 29&#x0025;, p &#x003D; 0.02) on a validated scale.<xref ref="pubmed22777991" resource="acc013" /></listitem>
+<listitem>Low dose ferrous sulfate in children 9 to 48 months of age results in higher hemoglobin and ferritin levels than treatment with iron polysaccharides complex. Both are similarly well tolerated.<xref ref="poem190807" resource="acc017" /></listitem>
+<listitem>For hospitalized patients with anemia and coronary heart disease ACP recommends a restrictive transfusion strategy with a hemoglobin target of 7 to 8. Additionally, erythropoietin should be avoided in CHF patients with mild to moderate anemia. Intravenous iron in patients with heart disease does not improve mortality according to one systematic review of limited data.<xref ref="poem160273" resource="acc014" /></listitem>
+<listitem>Intravenous iron may improve quality of life and decrease hospitalizations in patients with heart failure and iron deficiency anemia.<xref ref="pubmed33197395" resource="acc027" /><xref ref="poem211104" resource="acc025" /> Meta-analyses of intravenous iron therapy in heart failure patients with low reduced left ventricular ejection fraction and iron deficiency (most commonly defined as serum ferritin &lt;100&#x2009;&#x03BC;g&#x002F;L or TSAT &lt;20&#x0025; with ferritin 100&#x2013;300&#x2009;&#x03BC;g&#x002F;L) demonstrated significant reductions in cardiovascular death and heart failure hospitalizations, with greater benefits observed in those with lower baseline iron levels.<xref ref="pubmed36823953" resource="acc046" /><xref ref="pubmed38069996" resource="acc045" /></listitem>
+<listitem>An RCT found no improved cardiovascular benefits from titrated amounts of intravenous ferric carboxymaltose compared to placebo for adults with heart failure and iron deficiency. <xref ref="pubmed40159390" resource="acc048" /></listitem>
+<listitem>An ultra-short treatment of intravenous iron, subcutaneous erythropoietin, vitamin B12 and oral folic acid reduced total blood transfusion in patients with preoperative anemia undergoing elective cardiac surgery. <xref ref="pubmed31036337" resource="acc023" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Parenteral iron therapy (iron dextran, iron sucrose, and iron ferric gluconate) is prescribed to patients who cannot tolerate oral iron, have intestinal malabsorption, or are in acute need of iron after erythropoetin or chronic blood loss.</listitem>
+<listitem>Parenteral iron can be given as a weekly 100 mg dose of elemental iron for patients receiving erythropoietin.</listitem>
+<listitem>The total dose of parenteral iron is calculated using the following formula: deficit &#x003D; [Body weight (kg) x 2.4 x (Target hgb &#x2212; Initial hgb [g&#x002F;dl])] + 500 mg. So, a 65-kg person with an initial hemoglobin of 8 g&#x002F;dL and a target of 11 g&#x002F;dL would have a total dose of [65 x 2.4 x (11 &#x2212; 8)] + 500 &#x003D; 968 mg. See manufacturer's instructions for dose and frequency instructions.</listitem>
+<listitem>A home-based child development program improved cognitive and social-emotional scores in infants (6-12 months of age) with IDA although not as much infants without IDA.<xref ref="pubmed20855384" resource="acc009" /></listitem>
+<listitem>In a meta-analysis of 9 RCTs on the use of IV iron in obstetric and gynecologic patients with iron deficiency anemia, ferric carboxymaltose had better efficacy in increasing hemoglobin and ferritin with fewer side effects as compared to iron sucrose. <xref ref="pubmed34011020" resource="acc028" /></listitem>
+<listitem>Some guidelines consider IV iron supplementation to women with IDA after 34 weeks of gestation.<xref ref="pubmed37424100" resource="acc042" /> Recent UK guidelines by the British Society for Hematology provide consideration for IV iron supplementation in women who present after 34 weeks of gestation with confirmed iron deficiency anemia and Hb of &lt;100 g&#x002F;l (1C). <xref ref="pubmed31578718" resource="acc040" /> The NATA (Network for the advancement of Patient Blood Management, Hemostasis and Thrombosis) consensus statement recommends administration of IV iron in women newl y diagnosed with IDA beyond 34 weeks of gestaion (1B). <xref ref="pubmed28722245" resource="acc041" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Duration of treatment is 4 to 12 months until iron stores are replenished.<xref ref="pubmed9563847" resource="acc002" />, or three months after stabilization of the hemoglobin <xref ref="pubmed34497146" resource="acc033" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Patients showing signs of decompensation require blood transfusion and consideration for hospitalization.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Side effects of parenteral iron include arthralgias, skin rash, and low-grade fever. These reactions do not preclude treatment.</listitem>
+<listitem>The most severe reaction that occurs with parenteral iron dextran is anaphylaxis in 0.7&#x0025; patients, so always give a patient a test dose of 0.25 mg IV iron dextran before administering the complete dosage.</listitem>
+<listitem>In a systematic literature review, hypophosphatemia associated with intravenous iron is variable, ranging from 0.0&#x0025; to 92.1&#x0025; for ferric carboxymaltose and 0.0&#x0025; to 40.0&#x0025; for iron sucrose. Most RCTs reported asymptomatic hypophosphatemia. In 11 case reports, severe hypophosphatemia was associated severe fatigue. <xref ref="pubmed32308402" resource="acc030" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>There is insufficient evidence that iron therapy improves the psychomotor and cognitive development of iron-deficient children in the age group less than 3 years.<evidence rating="C" system="SORT">C</evidence><xref ref="cochrane1444" resource="acc005" /></listitem>
+<listitem>Treatment of mild anemia in severe CHF improves clinical outcome.<evidence rating="C" system="SORT">C</evidence><xref ref="poem31001" resource="acc007" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>IDA, when left untreated, proceeds to complete presentation of decompensation and under extreme circumstances to hemoglobin &lt;4 g&#x002F;dL, which can precipitate heart failure and ensuing death.</listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>IDA, when treated, has a good prognosis, and patients generally return to baseline in 2 months.</listitem>
+<listitem>Treatment of mild anemia in heart failure with reduced ejection fraction improves clinical outcomes.<xref ref="pubmed36282723" resource="acc044" /><xref ref="poem31001" resource="acc007" /></listitem>
+<listitem>There is no convincing evidence that iron therapy improves the psychomotor and cognitive development of iron-deficient children in the age group less than 3 years.<xref ref="cochrane1444" resource="acc005" />Similarly, universal iron supplementation to young children in low-middle income country where anemia is prevalent did not show any benefit on cognitive development.<xref ref="pubmed34496174" resource="acc037" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Hemoglobin increases on iron therapy at 1 gm&#x002F;dL every 2 to 3 weeks, so it should be checked at 1-month intervals.</listitem>
+<listitem>It takes 4 to 6 months for iron stores to be replenished.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Vegetarian patients should consume about 20 mg of iron every day via their diet.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>In pregnant women with anemia, daily oral iron treatment improves hematological indices but has no clear effect on maternal or fetal outcomes, based on a systematic review of 20 studies.<xref ref="cochrane4736" resource="acc006" /> It also causes frequent gastrointestinal adverse effects and has unclear benefits for mothers and babies.<xref ref="cochrane3094" resource="acc011" /></listitem>
+<listitem>Many organizations recommend to screen for anemia at the first prenatal visit. In an update to its recommendation in 2024, the USPSTF concludes that due to insufficient evidence, the benefits and harms of screening for and supplementing iron in asymptomatic pregnant individuals remain uncertain, and therefore, routine screening and supplementation cannot be recommended.<xref ref="pubmed39163015" resource="acc047" />.</listitem>
+<listitem>In non-anemic patients, start low-dose (30 mg elemental iron) supplements at the first prenatal visit. In anemic patients, begin oral iron, 60 to 120 mg (elemental iron) daily. When anemia is corrected, decrease iron to 30 mg&#x002F;day</listitem>
+<listitem>If there is no response to iron treatment after 4 weeks of treatment, evaluate compliance and consider further evaluation of anemia. In women of African, Mediterranean, or Southeast Asian ancestry, mild anemia unresponsive to iron therapy may be due to thalassemia minor or sickle cell trait.</listitem>
+<listitem>A single dose of IV iron compared to oral iron replacement may decrease the rate of low birth weight. <xref ref="pubmed39909327" resource="acc049" /></listitem>
+<listitem>A study of 278 Australian women with iron deficiency compared 500 mg with 1000 mg of IV ferric carboxymaltose in the 2nd or 3rd trimester. Women receiving the lower dose were more likely to require additional IV iron.<xref ref="pubmed36047598" resource="acc038" /></listitem>
+<listitem>Postpartum: A systematic review found several studies comparing erythropoietin with iron supplementation for post-partum anemia. There were no clear benefits of erythropoietin over iron, it is much more costly, and given the concerns over adverse effects particularly in a hypercoagulable state, it cannot be routinely recommended for this indication.<xref ref="cochrane4222" resource="acc012" />Current guidelines for postpartum anemia management recommend that IV iron be considered only after a failed trial of oral iron (secondary to an inadequate hemoglobin response or patient intolerance to oral iron).</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>See Diagnostic Criteria section for age-specific cutoffs for diagnosis.</listitem>
+<listitem>Children may present with pallor, fatigue, irritability, and history of pica.</listitem>
+<listitem>Mild anemia should be treated with 3 mg&#x002F;kg&#x002F;day oral iron therapy. For severe anemia, give 6 mg&#x002F;kg&#x002F;day oral iron therapy.</listitem>
+<listitem>Iron therapy does not increase the risk of malaria when regular prevention or management services for malaria are provided.<xref ref="cochrane6589" resource="acc016" /></listitem>
+<listitem>For children with non-anemic iron deficiency (serum ferritin &lt; 14 mcg&#x002F;L and hemoglobin &gt;&#x003D; 110 g&#x002F;L), adding ferrous sulfate to diet education increased subsequent ferritin levels over diet education alone. There was no measuarable impact on a cognitive score, though.<xref ref="pubmed33548262" resource="acc039" /></listitem>
+<listitem>A randomized trial identified 3300 eight-month-old infants living in Bangladesh who were developmentally normal, living in an area with little iron in the ground water, and did not have severe anemia (hemoglobin &lt; 8 g&#x002F;dL) or severe malnutrition. The infants were randomized to receive either (1) 12.5 mg elemental iron in a syrup given once daily, plus placebo packets of micronutrient powers; (2) placebo syrup and a micronutrient powder that contained 12.5 mg elemental iron, vitamin A, vitamin C, folic acid, and zinc; or (3) placebo syrup and placebo power. Both immediately after the intervention and 9 months later, there were no differences among either treatment group and placebo with regard to any cognitive or developmental outcomes.<xref ref="pubmed34496174" resource="acc037" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed12361813">
+<accessionId id="acc001" href="info:pmid/12361813" />
+<authors>Ioannou GN, Spector J, Scott K, Rockey DC.</authors>
+<title>Prospective evaluation of a clinical guideline for the diagnosis and management of iron deficiency anemia.</title>
+<source>Am J Med</source>
+<pubdate>2002</pubdate>
+<volume>113</volume>
+<pages>281&#x2013;287.</pages>
+</reference>
+<reference id="pubmed9563847">
+<accessionId id="acc002" href="info:pmid/9563847" />
+<authors>Centers for Disease Control and Prevention.</authors>
+<title>Recommendations to prevent and control iron deficiency in the United States.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>1998</pubdate>
+<volume>47</volume>
+<pages>1&#x2013;29.</pages>
+</reference>
+<reference id="poem50152">
+<accessionId id="acc003" href="info:wiley/eep-poem/50152" />
+<accessionId id="acc003b" href="info:pmid/12361812" />
+<authors>Ioannou GN, Rockey DC, Bryson CL, Weiss NS.</authors>
+<title>Iron deficiency and gastrointestinal malignancy: A population-based cohort study.</title>
+<source>Am J Med</source>
+<pubdate>2002</pubdate>
+<volume>113</volume>
+<pages>276&#x2013;280.</pages>
+</reference>
+<reference id="guideline9274">
+<accessionId id="acc004" href="info:wiley/eep-guideline/9274" />
+<citation>U.S. Preventive Services Task Force (USPSTF). Screening for iron deficiency anemia&#x2014;including iron supplementation for children and pregnant women. Rockville, MD: Agency for Healthcare Research and Quality (AHRQ); 2006. 12 p.</citation>
+<url>http://www.uspreventiveservicestaskforce.org/uspstf/uspsiron.htm</url>
+<organization />
+<longtitle />
+<title>Screening for iron deficiency anemia</title>
+<dateguideline />
+</reference>
+<reference id="cochrane1444">
+<accessionId id="acc005" href="info:wiley/cochrane/CD001444" />
+<chapter_authors>Wang B, Zhan S, Gong T, Lee L.</chapter_authors>
+<chapter_title>Iron therapy for improving psychomotor development and cognitive function in children under the age of three with iron deficiency anaemia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 6. Art. No.: CD001444. DOI: 10.1002&#x002F;14651858.CD001444.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4736">
+<accessionId id="acc006" href="info:wiley/cochrane/CD004736" />
+<chapter_authors>Pe&#x00F1;a-Rosas JP, De-Regil LM, Garcia-Casal MN, Dowswell T.</chapter_authors>
+<chapter_title>Daily oral iron supplementation during pregnancy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 7. Art. No.: CD004736. DOI: 10.1002&#x002F;14651858.CD004736.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem31001">
+<accessionId id="acc007" href="info:wiley/eep-poem/31001" />
+<accessionId id="acc007b" href="info:pmid/11401110" />
+<authors>Silverberg DS, Wexler D, Sheps D, et al.</authors>
+<title>The effect of mild anemia in severe, resitant congestive heart failure using subcutaneous erythropoietin and intravenous iron: A randomized controlled study.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2001</pubdate>
+<volume>37</volume>
+<pages>1775&#x2013;1780.</pages>
+</reference>
+<reference id="poem40161">
+<accessionId id="acc008" href="info:wiley/eep-poem/40161" />
+<accessionId id="acc008b" href="info:pmid/11533326" />
+<authors>Zlotkin S, Arthur P, Antwi KY, Yeung G.</authors>
+<title>Randomized, controlled trial of single versus 3-times-daily ferrous sulfate drops for treatment of anemia.</title>
+<source>Pediatrics</source>
+<pubdate>2001</pubdate>
+<volume>108</volume>
+<pages>613&#x2013;616.</pages>
+</reference>
+<reference id="pubmed20855384">
+<accessionId id="acc009" href="info:pmid/20855384" />
+<authors>Lozoff B, Smith JB, Clark KM, et al.</authors>
+<title>Home intervention improves cognitive and social-emotional scores in iron-deficient anemic infants.</title>
+<source>Pediatrics</source>
+<pubdate>2010</pubdate>
+<volume>126</volume>
+<pages>e884&#x2013;e894.</pages>
+</reference>
+<reference id="pubmed20448223">
+<accessionId id="acc010" href="info:pmid/20448223" />
+<authors>Huang X, Qu X, Yan W, et al.</authors>
+<title>Iron deficiency anaemia can be improved after eradication of Helicobacter pylori.</title>
+<source>Postgrad Med J</source>
+<pubdate>2010</pubdate>
+<volume>86</volume>
+<pages>272&#x2013;278.</pages>
+</reference>
+<reference id="cochrane3094">
+<accessionId id="acc011" href="info:wiley/cochrane/CD003094" />
+<chapter_authors>Reveiz L, Gyte GM, Cuervo LG, Casasbuenas A.</chapter_authors>
+<chapter_title>Treatments for iron-deficiency anaemia in pregnancy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 10. Art. No.: CD003094. DOI: 10.1002&#x002F;14651858.CD003094.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4222">
+<accessionId id="acc012" href="info:wiley/cochrane/CD004222" />
+<chapter_authors>Dodd JM, Dare MR, Middleton P.</chapter_authors>
+<chapter_title>Treatment for women with postpartum iron deficiency anaemia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22777991">
+<accessionId id="acc013" href="info:pmid/22777991" />
+<authors>Vaucher P, Druais PL, Waldvogel S, Favrat B.</authors>
+<title>Effect of iron supplementation on fatigue in nonanemic menstruating women with low ferritin: A randomized controlled trial.</title>
+<source>CMAJ</source>
+<pubdate>2012</pubdate>
+<volume>184</volume>
+<pages>1247&#x2013;1254.</pages>
+</reference>
+<reference id="poem160273">
+<accessionId id="acc014" href="info:wiley/eep-poem/160273" />
+<authors>Kansagara D, Dyer E, Englander H, Fu R, Freeman M, Kagen D.</authors>
+<title>Treatment of anemia in patients with heart disease: A systematic review.</title>
+<source>Ann Intern Med</source>
+<pubdate>2013</pubdate>
+<volume>159</volume>
+<pages>746&#x2013;757.</pages>
+</reference>
+<reference id="pubmed25668261">
+<accessionId id="acc015" href="info:pmid/25668261" />
+<authors>Kiss JE, Brambilla D, Glynn SA, Mast AE, Spencer BR, Stone M, Kleinman SH, Cable RG; National Heart, Lung, and Blood Institute (NHLBI) Recipient Epidemiology and Donor Evaluation Study&#x2014;III (REDS-III).</authors>
+<title>Oral iron supplementation after blood donation: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>313</volume>
+<pages>575&#x2013;583.</pages>
+</reference>
+<reference id="cochrane6589">
+<accessionId id="acc016" href="info:wiley/cochrane/CD006589" />
+<chapter_authors>Neuberger A, Okebe J, Yahav D, Paul M.</chapter_authors>
+<chapter_title>Oral iron supplements for children in malaria-endemic areas.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 2. Art. No.: CD006589. DOI: 10.1002&#x002F;14651858.CD006589.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem190807">
+<accessionId id="acc017" href="info:wiley/eep-poem/190807" />
+<accessionId id="acc017b" href="info:pmid/28609534" />
+<authors>Powers JM, Buchanan GR, Adix L, Zhang S, Gao A, McCavit TL.</authors>
+<title>Effect of low-dose ferrous sulfate vs iron polysaccharide complex on hemoglobin concentration in young children with nutritional iron-deficiency anemia: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>317</volume>
+<pages>2297&#x2013;2304.</pages>
+</reference>
+<reference id="pubmed26347426">
+<accessionId id="acc018" href="info:pmid/26347426" />
+<authors>Siu AL, US Preventive Services Task Force.</authors>
+<title>Screening for Iron Deficiency Anemia in Young Children: USPSTF Recommendation Statement.</title>
+<source>Pediatrics</source>
+<pubdate>2015</pubdate>
+<volume>136</volume>
+<pages>746&#x2013;52.</pages>
+</reference>
+<reference id="pubmed30311713">
+<accessionId id="acc019" href="info:pmid/30311713" />
+<authors>McDonagh T, Damy T, Doehner W, Lam CSP, Sindone A, van der Meer P, Cohen-Solal A, Kindermann I, Manito N, Pfister O, Pohjant&#x00E4;hti-Maaroos H, Taylor J, Comin-Colet J.</authors>
+<title>Screening, diagnosis and treatment of iron deficiency in chronic heart failure: Putting the 2016 European Society of Cardiology heart failure guidelines into clinical practice.</title>
+<source>Eur J Heart Fail</source>
+<pubdate>2018</pubdate>
+<volume>20</volume>
+<pages>1664&#x2013;1672.</pages>
+</reference>
+<reference id="pubmed28455343">
+<accessionId id="acc020" href="info:pmid/28455343" />
+<authors>Yancy CW, Jessup M, Bozkurt B, Butler J, Casey DE Jr, Colvin MM, Drazner MH, Filippatos GS, Fonarow GC, Givertz MM, Hollenberg SM, Lindenfeld J, Masoudi FA, McBride PE, Peterson PN, Stevenson LW, Westlake C.</authors>
+<title>2017 ACC&#x002F;AHA&#x002F;HFSA Focused Update of the 2013 ACCF&#x002F;AHA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines and the Heart Failure Society of America.</title>
+<source>Circulation</source>
+<pubdate>2017</pubdate>
+<volume>136</volume>
+<pages>e137&#x2013;e161.</pages>
+</reference>
+<reference id="pubmed30487142">
+<accessionId id="acc021" href="info:pmid/30487142" />
+<authors>Oatley H, Borkhoff CM, Chen S, Macarthur C, Persaud N, Birken CS, Maguire JL, Parkin PC, TARGet Kids&#x0021; Collaboration.</authors>
+<title>Screening for iron deficiency in early childhood using serum ferritin in the primary care setting.</title>
+<source>Pediatrics</source>
+<pubdate>2018</pubdate>
+<volume>142</volume>
+<pages />
+</reference>
+<reference id="pubmed30699468">
+<accessionId id="acc022" href="info:pmid/30699468" />
+<authors>Fern&#x00E1;ndez-Gaxiola AC, De-Regil LM.</authors>
+<title>Intermittent iron supplementation for reducing anaemia and its associated impairments in adolescent and adult menstruating women.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2019</pubdate>
+<volume>1</volume>
+<pages>CD009218.</pages>
+</reference>
+<reference id="pubmed31036337">
+<accessionId id="acc023" href="info:pmid/31036337" />
+<authors>Spahn DR, Schoenrath F, Spahn GH, Seifert B, Stein P, Theusinger OM, Kaserer A, Hegemann I, Hofmann A, Maisano F, Falk V.</authors>
+<title>Effect of ultra-short-term treatment of patients with iron deficiency or anaemia undergoing cardiac surgery: A prospective randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2019</pubdate>
+<volume>393</volume>
+<pages>2201&#x2013;2212.</pages>
+</reference>
+<reference id="pubmed28580444">
+<accessionId id="acc024" href="info:pmid/28580444" />
+<authors>Rahmati S, Delpishe A, Azami M, Hafezi Ahmadi MR, Sayehmiri K.</authors>
+<title>Maternal Anemia during pregnancy and infant low birth weight: A systematic review and meta-analysis.</title>
+<source>Int J Reprod Biomed (Yazd)</source>
+<pubdate>2017</pubdate>
+<volume>15</volume>
+<pages>125&#x2013;134.</pages>
+</reference>
+<reference id="poem211104">
+<accessionId id="acc025" href="info:wiley/eep-poem/211104" />
+<accessionId id="acc025b" href="info:pmid/30853478" />
+<authors>Zhou X, Xu W, Xu Y, Qian Z.</authors>
+<title>Iron supplementation improves cardiovascular outcomes in patients with heart failure.</title>
+<source>Am J Med</source>
+<pubdate>2019</pubdate>
+<volume>132</volume>
+<pages>955&#x2013;963.</pages>
+</reference>
+<reference id="poem230127">
+<accessionId id="acc026" href="info:wiley/eep-poem/230127" />
+<accessionId id="acc026b" href="info:pmid/33136134" />
+<authors>Li N, Zhao G, Wu W, Zhang M, Liu W, Chen Q, Wang X.</authors>
+<title>The efficacy and safety of vitamin C for iron supplementation in adult patients with Iron deficiency anemia: A randomized clinical trial.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2020</pubdate>
+<volume>3</volume>
+<pages>e2023644.</pages>
+</reference>
+<reference id="pubmed33197395">
+<accessionId id="acc027" href="info:pmid/33197395" />
+<authors>Ponikowski P, Kirwan BA, Anker SD, McDonagh T, Dorobantu M, Drozdz J, Fabien V, Filippatos G, G&#x00F6;hring UM, Keren A, Khintibidze I, Kragten H, Martinez FA, Metra M, Milicic D, Nicolau JC, Ohlsson M, Parkhomenko A, Pascual-Figal DA, Ruschitzka F, Sim D, Skouri H, van der Meer P, Lewis BS, Comin-Colet J, von Haehling S, Cohen-Solal A, Danchin N, Doehner W, Dargie HJ, Motro M, Butler J, Friede T, Jensen KH, Pocock S, Jankowska EA, AFFIRM-AHF investigators.</authors>
+<title>Ferric carboxymaltose for iron deficiency at discharge after acute heart failure: A multicentre, double-blind, randomised, controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2020</pubdate>
+<volume>396</volume>
+<pages>1895&#x2013;1904.</pages>
+</reference>
+<reference id="pubmed34011020">
+<accessionId id="acc028" href="info:pmid/34011020" />
+<authors>Shin HW, Go DY, Lee SW, Choi YJ, Ko EJ, You HS, Jang YK.</authors>
+<title>Comparative efficacy and safety of intravenous ferric carboxymaltose and iron sucrose for iron deficiency anemia in obstetric and gynecologic patients: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>e24571.</pages>
+</reference>
+<reference id="pubmed26314490">
+<accessionId id="acc029" href="info:pmid/26314490" />
+<authors>Lopez A, Cacoub P, Macdougall IC, Peyrin-Biroulet L.</authors>
+<title>Iron deficiency anaemia.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>907&#x2013;16.</pages>
+</reference>
+<reference id="pubmed32308402">
+<accessionId id="acc030" href="info:pmid/32308402" />
+<authors>Glaspy JA, Lim-Watson MZ, Libre MA, Karkare SS, Hadker N, Bajic-Lucas A, Strauss WE, Dahl NV.</authors>
+<title>Hypophosphatemia associated with intravenous iron therapies for iron deficiency anemia: A systematic literature review.</title>
+<source>Ther Clin Risk Manag</source>
+<pubdate>2020</pubdate>
+<volume>16</volume>
+<pages>245&#x2013;259.</pages>
+</reference>
+<reference id="pubmed33387524">
+<accessionId id="acc031" href="info:pmid/33387524" />
+<authors>Hew S, Goss K.</authors>
+<title>AGA Clinical Practice Guidelines on the Gastrointestinal Evaluation of Iron Deficiency Anemia.</title>
+<source>Gastroenterology</source>
+<pubdate>2021</pubdate>
+<volume>160</volume>
+<pages>2616.</pages>
+</reference>
+<reference id="pubmed33443020">
+<accessionId id="acc032" href="info:pmid/33443020" />
+<authors>Demb J, Liu L, Murphy CC, Doubeni CA, Mart&#x00ED;nez ME, Gupta S.</authors>
+<title>Young-onset colorectal cancer risk among individuals with iron-deficiency anaemia and haematochezia.</title>
+<source>Gut</source>
+<pubdate>2020</pubdate>
+<pages />
+</reference>
+<reference id="pubmed34497146">
+<accessionId id="acc033" href="info:pmid/34497146" />
+<authors>Snook J, Bhala N, Beales ILP, Cannings D, Kightley C, Logan RP, Pritchard DM, Sidhu R, Surgenor S, Thomas W, Verma AM, Goddard AF.</authors>
+<title>British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults.</title>
+<source>Gut</source>
+<pubdate>2021</pubdate>
+<volume>70</volume>
+<pages>2030&#x2013;2051.</pages>
+</reference>
+<reference id="pubmed30778834">
+<accessionId id="acc034" href="info:pmid/30778834" />
+<authors>Pivina L, Semenova Y, Do&#x015F;a MD, Dauletyarova M, Bj&#x00F8;rklund G.</authors>
+<title>Iron Deficiency, Cognitive Functions, and Neurobehavioral Disorders in Children.</title>
+<source>J Mol Neurosci</source>
+<pubdate>2019</pubdate>
+<volume>68</volume>
+<pages>1&#x2013;10.</pages>
+</reference>
+<reference id="pubmed27087396">
+<accessionId id="acc035" href="info:pmid/27087396" />
+<authors>Low MS, Speedy J, Styles CE, De-Regil LM, Pasricha SR.</authors>
+<title>Daily iron supplementation for improving anaemia, iron status and health in menstruating women.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2016</pubdate>
+<volume>4</volume>
+<pages>CD009747.</pages>
+</reference>
+<reference id="pubmed34028001">
+<accessionId id="acc036" href="info:pmid/34028001" />
+<authors>Garcia-Casal MN, Pasricha SR, Martinez RX, Lopez-Perez L, Pe&#x00F1;a-Rosas JP.</authors>
+<title>Serum or plasma ferritin concentration as an index of iron deficiency and overload.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2021</pubdate>
+<volume>5</volume>
+<pages>CD011817.</pages>
+</reference>
+<reference id="pubmed34496174">
+<accessionId id="acc037" href="info:pmid/34496174" />
+<authors>Pasricha SR, Hasan MI, Braat S, Larson LM, Tipu SMM, Hossain SJ, Shiraji S, Baldi A, Bhuiyan MSA, Tofail F, Fisher J, Grantham-McGregor S, Simpson JA, Hamadani JD, Biggs BA.</authors>
+<title>Benefits and Risks of Iron Interventions in Infants in Rural Bangladesh.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>385</volume>
+<pages>982&#x2013;995.</pages>
+</reference>
+<reference id="pubmed36047598">
+<accessionId id="acc038" href="info:pmid/36047598" />
+<authors>Froessler B, Schubert KO, Palm P, Church R, Aboustate N, Kelly TL, Dekker GA, Hodyl NA.</authors>
+<title>Testing equivalence of two doses of intravenous iron to treat iron deficiency in pregnancy: A randomised controlled trial.</title>
+<source>BJOG</source>
+<pubdate>2023</pubdate>
+<volume>130</volume>
+<pages>15&#x2013;23.</pages>
+</reference>
+<reference id="pubmed33548262">
+<accessionId id="acc039" href="info:pmid/33548262" />
+<authors>Parkin PC, Borkhoff CM, Macarthur C, Abdullah K, Birken CS, Fehlings D, Koroshegyi C, Maguire JL, Mamak E, Mamdani M, Thorpe KE, Zlotkin SH, Zuo F, TARGet Kids&#x0021; Collaboration.</authors>
+<title>Randomized Trial of Oral Iron and Diet Advice versus Diet Advice Alone in Young Children with Nonanemic Iron Deficiency.</title>
+<source>J Pediatr</source>
+<pubdate>2021</pubdate>
+<volume>233</volume>
+<pages>233&#x2013;240.e1.</pages>
+</reference>
+<reference id="pubmed31578718">
+<accessionId id="acc040" href="info:pmid/31578718" />
+<authors>Pavord S, Daru J, Prasannan N, Robinson S, Stanworth S, Girling J, BSH Committee.</authors>
+<title>UK guidelines on the management of iron deficiency in pregnancy.</title>
+<source>Br J Haematol</source>
+<pubdate>2020</pubdate>
+<volume>188</volume>
+<pages>819&#x2013;830.</pages>
+</reference>
+<reference id="pubmed28722245">
+<accessionId id="acc041" href="info:pmid/28722245" />
+<authors>Mu&#x00F1;oz M, Pe&#x00F1;a-Rosas JP, Robinson S, Milman N, Holzgreve W, Breymann C, Goffinet F, Nizard J, Christory F, Samama CM, Hardy JF.</authors>
+<title>Patient blood management in obstetrics: management of anaemia and haematinic deficiencies in pregnancy and in the post-partum period: NATA consensus statement.</title>
+<source>Transfus Med</source>
+<pubdate>2018</pubdate>
+<volume>28</volume>
+<pages>22&#x2013;39.</pages>
+</reference>
+<reference id="pubmed37424100">
+<accessionId id="acc042" href="info:pmid/37424100" />
+<authors>Mintsopoulos V, Tannenbaum E, Malinowski AK, Shehata N, Walker M.</authors>
+<title>Identification and treatment of iron-deficiency anemia in pregnancy and postpartum: A systematic review and quality appraisal of guidelines using AGREE II.</title>
+<source>Int J Gynaecol Obstet</source>
+<pubdate>2023</pubdate>
+<pages />
+</reference>
+<reference id="pubmed35893877">
+<accessionId id="acc043" href="info:pmid/35893877" />
+<authors>Skolmowska D, G&#x0142;&#x0105;bska D, Ko&#x0142;ota A, Guzek D.</authors>
+<title>Effectiveness of Dietary Interventions in Prevention and Treatment of Iron-Deficiency Anemia in Pregnant Women: A Systematic Review of Randomized Controlled Trials.</title>
+<source>Nutrients</source>
+<pubdate>2022</pubdate>
+<volume>14</volume>
+<pages />
+</reference>
+<reference id="pubmed36282723">
+<accessionId id="acc044" href="info:pmid/36282723" />
+<authors>Savarese G, von Haehling S, Butler J, Cleland JGF, Ponikowski P, Anker SD.</authors>
+<title>Iron deficiency and cardiovascular disease.</title>
+<source>Eur Heart J</source>
+<pubdate>2023</pubdate>
+<volume>44</volume>
+<pages>14&#x2013;27.</pages>
+</reference>
+<reference id="pubmed38069996">
+<accessionId id="acc045" href="info:pmid/38069996" />
+<authors>Martens P, Augusto SN Jr, Mullens W, Tang WHW.</authors>
+<title>Meta-Analysis and Metaregression of the&#x00A0;Treatment Effect of Intravenous Iron&#x00A0;in Iron-Deficient Heart&#x00A0;Failure.</title>
+<source>JACC Heart Fail</source>
+<pubdate>2024</pubdate>
+<volume>12</volume>
+<pages>525&#x2013;536.</pages>
+</reference>
+<reference id="pubmed36823953">
+<accessionId id="acc046" href="info:pmid/36823953" />
+<authors>Graham FJ, Pellicori P, Kalra PR, Ford I, Bruzzese D, Cleland JGF.</authors>
+<title>Intravenous iron in patients with heart failure and iron deficiency: an updated meta-analysis.</title>
+<source>Eur J Heart Fail</source>
+<pubdate>2023</pubdate>
+<volume>25</volume>
+<pages>528&#x2013;537.</pages>
+</reference>
+<reference id="pubmed39163015">
+<accessionId id="acc047" href="info:pmid/39163015" />
+<authors>US Preventive Services Task Force, Nicholson WK, Silverstein M, Wong JB, Chelmow D, Coker TR, Davis EM, Ja&#x00E9;n CR, Krousel-Wood M, Lee S, Li L, Rao G, Ruiz JM, Stevermer J, Tsevat J, Underwood SM, Wiehe S.</authors>
+<title>Screening and Supplementation for Iron Deficiency and Iron Deficiency Anemia During Pregnancy: US Preventive Services Task Force Recommendation Statement.</title>
+<source>JAMA</source>
+<pubdate>2024</pubdate>
+<volume>332</volume>
+<pages>906&#x2013;913.</pages>
+</reference>
+<reference id="pubmed40159390">
+<accessionId id="acc048" href="info:pmid/40159390" />
+<authors>Anker SD, Friede T, Butler J, Talha KM, Placzek M, Diek M, Nosko A, Stas A, Kluge S, Jarczak D, deHeer G, Rybczynski M, Bay&#x00E9;s-Gen&#x00ED;s A, B&#x00F6;hm M, Coats AJS, Edelmann F, Filippatos G, Hasenfu&#x00DF; G, Haverkamp W, Lainscak M, Landmesser U, Macdougall IC, Merkely B, Pieske BM, Pinto FJ, Rassaf T, Visser-Rogers JK, Rosano G, Volterrani M, von Haehling S, Anker MS, Doehner W, Ince H, Koehler F, Savarese G, Khan MS, Rauch-Kr&#x00F6;hnert U, Gori T, Trenkwalder T, Akin I, Paitazoglou C, Kobielusz-Gembala I, Kuthi L, Frey N, Licka M, K&#x00E4;&#x00E4;b S, Laugwitz KL, Ponikowski P, Karakas M.</authors>
+<title>Intravenous Ferric Carboxymaltose in Heart Failure With Iron Deficiency: The FAIR-HF2 DZHK05 Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>333</volume>
+<pages>1965&#x2013;1976.</pages>
+</reference>
+<reference id="pubmed39909327">
+<accessionId id="acc049" href="info:pmid/39909327" />
+<authors>Derman RJ, Bellad MB, Somannavar MS, Bhandari S, Mehta S, Mehta S, Sharma DK, Yogeshkumar S, Charantimath U, Patil AP, Mallapur AA, Ramadurg U, Sangavi R, Patil PS, Roy S, Vastrad P, Shekhar C, Leiby BE, Hartman RL, Georgieff M, Mennemeyer S, Aghai Z, Thind S, Boelig RC; RAPIDIRON Trial Group (Appendix).</authors>
+<title>Single-dose intravenous iron vs oral iron for treatment of maternal iron deficiency anemia: a randomized clinical trial.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2025</pubdate>
+<volume>233</volume>
+<pages>120.e1&#x2013;120.e18.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Anemia (Iron Deficiency): Diagnosis.</title>
+<graphic href="eee0258-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with anemia, MCV &lt;95</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Check ferritin level</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Order TIBC, serum Fe, transferrin saturation</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Order TfR</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Iron deficiency anemia</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Treatment algorithm for iron deficiency anemia</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>If suspicion persists, may consider bone marrow biopsy for definitive diagnosis</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Workup for other causes of anemia</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Decreased TfR</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>No iron deficiency anemia</label>
+</cell>
+<footnotes>
+<footnote>Diagnostic algorithm for iron deficiency anemia: MCV, mean corpuscular volume; LR+, positive likelihood ratio; TIBC, total iron-binding capacity; FE, serum iron; TfR, serum transferrin receptor.</footnote>
+<footnote>Adapted with permission from Ioannou GN, Spector J, Scott K, Rockey DC. Prospective evaluation of a clinical guideline for the diagnosis and management of iron deficiency anemia. <em>Am J Med</em> 2002;<strong>113</strong>:281&#x2013;287.<xref ref="pubmed12361813" resource="acc001" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Typical Laboratory Findings in the Differential Diagnosis of Microcytic Anemia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Tests</th>
+<th align="left" colspan="1">Iron Deficiency Anemia</th>
+<th align="left" colspan="1">Inflammation</th>
+<th align="left" colspan="1">Thalassemia</th>
+<th align="left" colspan="1">Sideroblastic Anemia</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Smear</td>
+<td align="left" colspan="1">Micro&#x002F;hypo</td>
+<td align="left" colspan="1">Normal micro&#x002F;hypo</td>
+<td align="left" colspan="1">Micro&#x002F;hypo with targeting</td>
+<td align="left" colspan="1">Variable</td>
+</tr>
+<tr>
+<td align="left" colspan="1">SI</td>
+<td align="left" colspan="1">&lt;30</td>
+<td align="left" colspan="1">&lt;50</td>
+<td align="left" colspan="1">Normal to high</td>
+<td align="left" colspan="1">Normal to high</td>
+</tr>
+<tr>
+<td align="left" colspan="1">TIBC</td>
+<td align="left" colspan="1">&gt;360</td>
+<td align="left" colspan="1">&lt;300</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Normal</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Percentage saturation</td>
+<td align="left" colspan="1">&lt;10</td>
+<td align="left" colspan="1">10-20</td>
+<td align="left" colspan="1">30-80</td>
+<td align="left" colspan="1">30-80</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ferritin (mcg&#x002F;L)</td>
+<td align="left" colspan="1">&lt;15</td>
+<td align="left" colspan="1">30-200</td>
+<td align="left" colspan="1">50-300</td>
+<td align="left" colspan="1">50-300</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hemoglobin pattern</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Abnormal</td>
+<td align="left" colspan="1">Normal</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Oral Iron Preparations.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Generic Name</th>
+<th align="left" colspan="1">Tablet Dose (Elemental Iron Content), mg</th>
+<th align="left" colspan="1">Elixir Dose (Elemental Iron Content), mg in 5 mL</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Ferrous sulfate</td>
+<td align="left" colspan="1">325 (65)</td>
+<td align="left" colspan="1">300 (60)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">195 (39)</td>
+<td align="left" colspan="1">90 (18)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Extended release</td>
+<td align="left" colspan="1">525 (105)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ferrous fumarate</td>
+<td align="left" colspan="1">325 (107)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">195 (64)</td>
+<td align="left" colspan="1">100 (33)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ferrous gluconate</td>
+<td align="left" colspan="1">325 (39)</td>
+<td align="left" colspan="1">300 (35)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Polysaccharide iron</td>
+<td align="left" colspan="1">150 (150)</td>
+<td align="left" colspan="1">100 (100)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">50 (50)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Endocarditis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0030</topic_id>
+<topic_comment />
+<topic_lastupdated>04/27/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>MaryAnn P. Tran, MD</author_name>
+<author_title>Instructor</author_title>
+<author_department>Medicine</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email>maryann.tran&#x0040;hc.msu.edu</author_email>
+<author_phone_office>517-432-9124</author_phone_office>
+<author_phone_home>517-575-0487</author_phone_home>
+<author_phone_fax>517-432-9471</author_phone_fax>
+<author_street1>B 427 Clinical Center</author_street1>
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48824</author_zip>
+</author>
+<author primary="no">
+<author_name>Mary D. Nettleman, MD</author_name>
+<author_title>Chair and Professor of Medicine</author_title>
+<author_department>Medicine</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email>Mary.Nettleman&#x0040;ht.msu.edu</author_email>
+<author_phone_office>517-432-9124</author_phone_office>
+<author_phone_home />
+<author_phone_fax>517-432-9471</author_phone_fax>
+<author_street1>B427 Clinical Center</author_street1>
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48824</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title> Professor</editor_title>
+<editor_institution>Augusta University &#x2212; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Infective endocarditis (IE) should be suspected in a patient with bacteremia that has no clear source (especially if the patient has structural cardiac abnormalities, prosthetic valves, intravenous drug use, or intravenous catheters). <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Antimicrobial therapy is based on the sensitivity of the causative organism and is lifesaving. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Initial empiric therapy should include vancomycin plus an aminoglycoside (with the addition of rifampin, if the patient has a prosthetic valve). <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Valve replacement&#x002F;removal can improve survival in selected patients. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Patients who have survived infective endocarditis will need antimicrobial prophylaxis before certain procedures. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Infective endocarditis is an infection of the lining of the heart chambers and heart valves caused by bacteria, fungi, or other infectious agents.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>There are approximately 15,000 new cases of endocarditis each year in the United States.</listitem>
+<listitem>Rates of infective endocarditis in persons with prosthetic valves or intravenous drug use are 100 times higher than in the general population.<xref ref="pubmed16122521" resource="acc012" /><xref ref="pubmed11794152" resource="acc013" /><xref ref="pubmed16902214" resource="acc014" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Bacteria, especially <em>Staphylococcus</em> and <em>Streptococcus</em> species, are the most common causes of infective endocarditis.</listitem>
+<listitem>When blood cultures are negative, more unusual causes must be considered. These include the HACEK organisms described in <xref ref="table001" />.</listitem>
+<listitem>Intravenous catheters have emerged as the most common predisposing factor for endocarditis, usually caused by <em>Staphylococcus aureus</em>.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Ulcerations on the valvular endothelial surface facilitate bacterial adherence.</listitem>
+<listitem>Organisms in the bloodstream bind to small clots on the subendothelial surface. This activates cytokine production, resulting in progressive enlargement of the infected vegetation.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Prosthetic valves</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Intravenous drug use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Intravascular devices</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Structural heart disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Previous endocarditis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hemodialysis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>The prevention of catheter-associated endocarditis requires appropriate insertion and maintenance of intravascular catheters. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed12233868" resource="acc015" /></listitem>
+<listitem>Antimicrobial prophylaxis prior to dental, oral, respiratory, and esophageal procedures should be provided to persons who have prosthetic valves, congenital heart disease, previous infective endocarditis, and transplant-associated valvulopathy. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17545263" resource="acc006" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Catheter-associated bacteremia is a primary cause of endocarditis in the modern era. Primary prevention methods include sterile insertion of indwelling intravascular devices and catheters. Intravascular catheters should be removed promptly when no longer needed. Peripheral intravenous catheters should be changed regularly to avoid infection.<xref ref="pubmed12233868" resource="acc015" /></listitem>
+<listitem>Antimicrobial prophylaxis is no longer recommended for dental procedures for most persons with structural heart defects. It is recommended for cardiac transplant recipients who develop valvulopathy. Prophylaxis is recommended only before dental procedures that "involve manipulation of gingival tissue or the periapical region of teeth or perforation of oral mucosa." They should also receive prophylaxis before procedures on the respiratory tract, infected skin, or musculoskeletal tissue. Prophylaxis is not recommended for nondental procedures such as transesophageal echocardiogram (TEE) and GI or GU procedures.<xref ref="pubmed18702976" resource="acc016" /></listitem>
+<listitem>Recommended prophylaxis is oral amoxicillin 2 g (50 mg&#x002F;kg for children) 30 to 60 minutes before procedure. If unable to take oral medication, use 2 g intramuscular or IV ampicillin (50 mg&#x002F;kg for children) or 1 g intramuscular or IV cefazolin or ceftriaxone (also 50 mg&#x002F;kg for children). If allergic to penicillin or amoxicillin, alternatives include cephalexin 2 g (50 mg&#x002F;kg for children), clindamycin 600 mg (20 mg&#x002F;kg for children), or azithromycin or clarithromycin 500 mg (15 mg&#x002F;kg for children). Finally, if penicillin allergic and unable to take oral medications use cefazolin or ceftriaxone 1 g IV or intramuscular (50 mg&#x002F;kg for children) or clindamycin 600 mg intramuscular or IV (20 mg&#x002F;kg for children).<xref ref="pubmed17545263" resource="acc006" /></listitem>
+<listitem>The 2007 guidelines do not recommend prophylaxis prior to GI or procedures, for persons with mitral valve prolapse or other valvular conditions not mentioned above, or for ear piercing, tattooing, vaginal delivery, or hysterectomy.<xref ref="pubmed17545263" resource="acc006" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Infective endocarditis should be suspected in a patient with bacteremia that has no clear source. Suspicion should be higher in patients with structural cardiac abnormalities, prosthetic valves, intravenous drug use, or intravascular catheters. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Modified Duke criteria may be used to guide diagnosis, but that criteria predate modern and emerging molecular diagnostic methods. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10770721" resource="acc011" /> They use blood cultures and echocardiography as the principle foundation of diagnosis. For "culture-negative" infective endocarditis, obtain serology for less common organisms and alert the laboratory to incubate blood cultures for HACEK organisms.</listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Marantic endocarditis</Differential_Name>
+<Differential_Features>Associated with neoplasm or chronic wasting disease</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute rheumatic fever</Differential_Name>
+<Differential_Features>Negative blood culture, high antistreptolysin O titer, response to salicylates</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Systemic lupus erythematosus and antiphospholipid antibody syndrome</Differential_Name>
+<Differential_Features>Negative blood cultures, positive antinuclear antibody, lupus anticoagulant, elevated partial thromboplastin time</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cardiac myxoma</Differential_Name>
+<Differential_Features>Negative blood cultures, distinctive echocardiographic findings</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Vasculitis</Differential_Name>
+<Differential_Features>Negative blood cultures, biopsy showing vasculitis</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Numerous diagnostic criteria exist reflecting the relative infrequency of the diagnosis and the heterogeneity of the population affected by infective endocarditis.</listitem>
+<listitem>The modified Duke criteria are commonly used in <xref ref="table002" />.<xref ref="pubmed10770721" resource="acc011" /></listitem>
+<listitem>The modified Duke criteria predated most molecular assays for specific pathogens. These emerging diagnostic techniques may someday play an important role in the modern diagnosis of infective endocarditis.<xref ref="pubmed15145855" resource="acc010" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Fever is present in up to 90&#x0025; of patients and murmurs are present in approximately 85&#x0025;.</listitem>
+<listitem>Peripheral stigmata may occur, but are not as common as in the past. They include Janeway lesions, Osler's nodes, splinter hemorrhages, and conjunctival hemorrhages.</listitem>
+<listitem>Emboli to major organs, including brain, lung, and spleen, occur in up to 30&#x0025; of patients.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Three sets of blood cultures should be drawn (prior to antimicrobial therapy if possible). Blood cultures should continue to be drawn every 24 to 48 hours until the bacteremia is cleared.</listitem>
+<listitem>A trial randomized 256 patients to single sampling strategy (SSS) for blood cultures (3 cultures at once) or multiple sampling strategy (MSS, 3 samples taken one hour apart). IE was diagnosed in 101 patients, and sensitivity (50&#x0025; for SSS and 46&#x0025; for MSS) and specificity (95&#x0025; for both) were similar.<xref ref="pubmed40176205" resource="acc022" /></listitem>
+<listitem>Transthoracic echocardiography is the initial test of choice. If results are normal and clinical suspicion remains high, a TEE should be performed.<xref ref="guideline9592" resource="acc002" />A repeat transesophageal echocardiogram can be considered if initial testing is negative and clinical suspicion remains high; a common interval is one week after initial testing.<xref ref="pubmed15956145" resource="acc004" /></listitem>
+<listitem>In 1 study, a positive echocardiogram (vegetations, perivalvular abscess, moderate&#x002F;severe perivalvular regurgitation, pseudoaneurysms, fistulae, valve dehiscence) had a positive and negative predictive value of 94&#x0025; and 96&#x0025;, respectively.<xref ref="pubmed15163940" resource="acc005" /></listitem>
+<listitem>If initial blood cultures are negative and suspicion remains high, serum should be analyzed for <em>Brucella</em>, <em>Bartonella, Coxiella</em>, and <em>Chlamydia</em> species antibodies. The microbiology laboratory should be alerted to the possibility of HACEK organisms and will incubate blood cultures for extended periods. Fungal blood cultures should be considered.</listitem>
+<listitem>Serum testing of C-reactive protein or procalcitonin has not been shown to aid the diagnosis of infective endocarditis.<xref ref="poem150844" resource="acc018" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Antimicrobial therapy should be appropriately matched to the sensitivity of the organism. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed15956145" resource="acc004" /></listitem>
+<listitem>Valve removal&#x002F;replacement can improve survival in carefully selected patients. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15958370" resource="acc003" /></listitem>
+<listitem>Early surgical intervention can decrease embolic events compared to conventional therapy in patients with left-sided endocarditis, large vegetations, and severe valve disease but no other urgent indications for surgery.<xref ref="poem140894" resource="acc017" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>The choice of therapy depends on the sensitivity of the pathogen to antimicrobial agents. The American Heart Association has developed treatment recommendations endorsed by the Infectious Diseases Society of America.<xref ref="pubmed15956145" resource="acc004" /></listitem>
+<listitem>Whenever possible, blood cultures should be obtained prior to starting antimicrobial therapy. While awaiting culture results, empiric therapy may be started. The decision to use empiric therapy and the choice of antimicrobial agent depend on the situation. However, it is prudent to include coverage for methicillin-resistant staphylococci in intravenous drug users, persons who have had intravascular catheters, and those with prosthetic valves.</listitem>
+<listitem>The combination of vancomycin and an aminoglycoside provides coverage for staphylococci, most enterococci, and streptococci in patients with native valves (in patients with a prosthetic valve, rifampin should be added). Once blood culture results are available, empiric therapy should be appropriately modified.<xref ref="pubmed15956145" resource="acc004" /><xref ref="guideline5216" resource="acc001" /></listitem>
+<listitem>For native valve endocarditis caused by highly penicillin susceptible viridans strep and strep bovis, aqueous crystalline penicillin G (12-18 million U&#x002F;24 H continuously or in 4-6 divided doses) or ceftriaxone sodium (2 gm&#x002F;24 h IV or IM in a single dose) are preferred. For strains of strep viridans and strep bovis that are relatively resistant to pencillin, penicillin (24 million U&#x002F;24 hr) or ceftriaxone plus gentamicin is recommended. For staph infections in native valves, vancomycin is recommended for oxacillin resistant strains; for oxacillin sensitive strains, the combination of nafcillin or oxacillin plus gentamicin is recommended. For staph infections in prostethic valves, vancomycin plus rifampin plus gentamicin is generally recommended.<xref ref="pubmed15956145" resource="acc004" /></listitem>
+<listitem>Treatment duration also depends on the pathogen and underlying morbidities. For <em>S. aureus</em> (the most common pathogen), treatment is usually given for 6 weeks. For viridans streptococci, shorter durations are used if the organism is highly susceptible. In prosthetic valve endocarditis, therapy in excess of 6 weeks and surgery is often required.</listitem>
+<listitem>A quasi-experimental study compared outcomes in patients with endocarditis caused by enterococcus faecalis treated with gentamicin for 28 days before January, 2007 and those treated for only 14 days which became the standard duration after January, 2007. There was no difference in one year event free survival (66&#x0025; vs 69&#x0025;), and those receiving a longer duration of therapy had a somewhat greater decrease in GFR (11 vs 1 ml&#x002F;min).<xref ref="pubmed23543002" resource="acc019" /></listitem>
+<listitem>Outpatient intravenous therapy is appropriate with compliant patients whose insurance will cover this modality. Outpatient therapy usually requires a reliable support system in the home, easy access to the hospital, regular visits by a home infusion nurse, and careful supervision by an experienced physician.</listitem>
+<listitem>One study found oral antibiotics for sensitive organisms to be non-inferior at 6 months to intravenous antibiotics for uncomplicated left sided endocarditis.<xref ref="poem210507" resource="acc020" /></listitem>
+<listitem>A systematic review identified four studies comparing oral with IV delivery of antibiotics (n&#x003D;390 for outcome of treatment failure). There was no difference between groups for any individual study or in the meta-analysis (RR 0.99, 95&#x0025; CI 0.63 to 1.57).<xref ref="pubmed39290168" resource="acc021" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Valve removal&#x002F;replacement is indicated in patients with uncontrolled infection demonstrated by persistent bacteremia, in patients with hemodynamic compromise, and in those with fungal endocarditis. In some cases, surgery is performed for recurrent embolic events. Also consider surgery for patients with perivalvular extension, heart block, large abscess or extension of abscess.<xref ref="pubmed15956145" resource="acc004" /></listitem>
+<listitem>Early surgical intervention has been shown to reduce embolic events. Compared with conventional therapy, this approach has not been shown to reduce mortality.<xref ref="poem140894" resource="acc017" /></listitem>
+<listitem>If one of the above indications is present, surgery is associated with a better outcome than medical therapy alone in patients with staphylococcal and prosthetic valve endocarditis.<xref ref="pubmed15958370" resource="acc003" /></listitem>
+<listitem>Advanced age, presence of heart failure, and intracardiac abscess are independent risk factors for surgery.<xref ref="pubmed17205442" resource="acc009" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Patients who have had infective endocarditis in the past will need antibiotic prophylaxis before dental procedures or procedures on the respiratory tract, musculoskeletal tissue, or infected skin. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17545263" resource="acc006" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Without treatment, subacute bacterial endocarditis is highly fatal. Death occurs from sepsis, valvular dysfunction, or emboli.</listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>In-hospital mortality rates vary by pathogen and according to host factors.</listitem>
+<listitem>For the most common pathogen, <em>S. aureus</em>, in-hospital mortality ranges from 15&#x0025; to 26&#x0025; in most studies.<xref ref="pubmed17383330" resource="acc008" /></listitem>
+<listitem>In complicated infective endocarditis on native valves, poor prognostic signs include abnormal mental status, moderate&#x002F;severe heart failure, a causative agent other than viridans streptococci, and medical therapy without surgery.<xref ref="pubmed12697803" resource="acc007" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup />
+<Patient_education>
+<list style="bulleted">
+<listitem>Patients who have had subacute bacterial endocarditis should be aware of the guidelines for antibiotic prophylaxis.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="guideline5216">
+<accessionId id="acc001" href="info:wiley/eep-guideline/5216" />
+<citation />
+<url>http://www.escardio.org/guidelines-surveys/esc-guidelines/documents/ie/guidelines_ie_ft_2004.pdf</url>
+<organization>ESC</organization>
+<longtitle>"Guidelines on prevention, diagnosis and treatment of infective endocarditis. The task force on infective endocarditis of the European Society of Cardiology.</longtitle>
+<title>Infective endocarditis (ESC)</title>
+<dateguideline>1&#x002F;1&#x002F;2004</dateguideline>
+</reference>
+<reference id="guideline9592">
+<accessionId id="acc002" href="info:wiley/eep-guideline/9592" />
+<citation />
+<url>http://www.ncbi.nlm.nih.gov/pubmed/11037408</url>
+<organization>ACR</organization>
+<longtitle>Suspected bacterial endocarditis.</longtitle>
+<title>Suspected bacterial endocarditis (ACR)</title>
+<dateguideline>1&#x002F;1&#x002F;2006</dateguideline>
+</reference>
+<reference id="pubmed15958370">
+<accessionId id="acc003" href="info:pmid/15958370" />
+<authors>Habib G, Tribouilloy C, Thuny F, et al.</authors>
+<title>Prosthetic valve endocarditis: who needs surgery? A multicentre study of 104 cases.</title>
+<source>Heart</source>
+<pubdate>2005</pubdate>
+<volume>91</volume>
+<pages>954&#x2013;959.</pages>
+</reference>
+<reference id="pubmed15956145">
+<accessionId id="acc004" href="info:pmid/15956145" />
+<authors>Baddour LM, Wilson WR, Bayer AS, et al.; Committee on Rheumatic Fever, Endocarditis, and Kawasaki Disease Council on Cardiovascular Disease in the Young Councils on Clinical Cardiology, Stroke, and Cardiovascular Surgery and Anesthesia American Heart Association Infectious Diseases Society of America.</authors>
+<title>Infective endocarditis: diagnosis, antimicrobial therapy, and management of complications: a statement for healthcare professionals from the Committee on Rheumatic Fever, Endocarditis, and Kawasaki Disease, Council on Cardiovascular Disease in the Young, and the Councils on Clinical Cardiology, Stroke, and Cardiovascular Surgery and Anesthesia, American Heart Association: endorsed by the Infectious Diseases Society of America.</title>
+<source>Circulation</source>
+<pubdate>2005</pubdate>
+<volume>111</volume>
+<pages>e394&#x2013;e434.</pages>
+</reference>
+<reference id="pubmed15163940">
+<accessionId id="acc005" href="info:pmid/15163940" />
+<authors>Ronderos RE, Portis M, Stoermann W, Sarmiento C.</authors>
+<title>Are all echocardiographic findings equally predictive for diagnosis in prosthetic endocarditis?</title>
+<source>J Am Soc Echocardiogr</source>
+<pubdate>2004</pubdate>
+<volume>17</volume>
+<pages>664&#x2013;669.</pages>
+</reference>
+<reference id="pubmed17545263">
+<accessionId id="acc006" href="info:pmid/17545263" />
+<authors>Wilson W, Taubert KA, Gewitz M, et al.; American Heart Association Rheumatic Fever, Endocarditis and Kawasaki Disease Committee, Council on Cardiovascular Disease in the Young Council on Clinical Cardiology Council on Cardiovascular Surgery and Anesthesia Quality of Care and Outcomes Research Interdisciplinary Working Group American Dental Association.</authors>
+<title>Prevention of infective endocarditis: guidelines from the American Heart Association: a guideline from the American Heart Association Rheumatic Fever, Endocarditis and Kawasaki Disease Committee, Council on Cardiovascular Disease in the Young, and the Council on Clinical Cardiology, Council on Cardiovascular Surgery and Anesthesia, and the Quality of Care and Outcomes Research Interdisciplinary Working Group.</title>
+<source>J Am Dent Assoc</source>
+<pubdate>2007</pubdate>
+<volume>138</volume>
+<pages>739&#x2013;.</pages>
+</reference>
+<reference id="pubmed12697803">
+<accessionId id="acc007" href="info:pmid/12697803" />
+<authors>Granowitz EV, Longworth DL.</authors>
+<title>Risk stratification and bedside prognostication in infective endocarditis.</title>
+<source>JAMA</source>
+<pubdate>2003</pubdate>
+<volume>289</volume>
+<pages>1991&#x2013;1993.</pages>
+</reference>
+<reference id="pubmed17383330">
+<accessionId id="acc008" href="info:pmid/17383330" />
+<authors>Remadi JP, Habib G, Nadji G, et al.</authors>
+<title>Predictors of death and impact of surgery in Staphylococcus aureus infective endocarditis.</title>
+<source>Ann Thorac Surg</source>
+<pubdate>2007</pubdate>
+<volume>83</volume>
+<pages>1295&#x2013;1302.</pages>
+</reference>
+<reference id="pubmed17205442">
+<accessionId id="acc009" href="info:pmid/17205442" />
+<authors>Aksoy O, Sexton DJ, Wang A, et al.</authors>
+<title>Early surgery in patients with infective endocarditis: a propensity score analysis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>44</volume>
+<pages>364&#x2013;372.</pages>
+</reference>
+<reference id="pubmed15145855">
+<accessionId id="acc010" href="info:pmid/15145855" />
+<authors>Prendergast BD.</authors>
+<title>Diagnostic criteria and problems in infective endocarditis.</title>
+<source>Heart</source>
+<pubdate>2004</pubdate>
+<volume>90</volume>
+<pages>611&#x2013;613.</pages>
+</reference>
+<reference id="pubmed10770721">
+<accessionId id="acc011" href="info:pmid/10770721" />
+<authors>Li JS, Sexton DJ, Mick N, et al.</authors>
+<title>Proposed modifications to the Duke criteria for the diagnosis of infective endocarditis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2000</pubdate>
+<volume>30</volume>
+<pages>633&#x2013;638.</pages>
+</reference>
+<reference id="pubmed16122521">
+<accessionId id="acc012" href="info:pmid/16122521" />
+<authors>Mahesh B, Angelini G, CaputoM, et al.</authors>
+<title>Prosthetic valve endocarditis.</title>
+<source>Ann Thorac Surg</source>
+<pubdate>2005</pubdate>
+<volume>80</volume>
+<pages>1151&#x2013;1158.</pages>
+</reference>
+<reference id="pubmed11794152">
+<accessionId id="acc013" href="info:pmid/11794152" />
+<authors>Mylonakis E, Calderwood SB.</authors>
+<title>Infective endocarditis in adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>345</volume>
+<pages>1318&#x2013;1330.</pages>
+</reference>
+<reference id="pubmed16902214">
+<accessionId id="acc014" href="info:pmid/16902214" />
+<authors>Beynon RP, Bahl VK, Prendergast BD.</authors>
+<title>Infective endocarditis.</title>
+<source>BMJ</source>
+<pubdate>2006</pubdate>
+<volume>333</volume>
+<pages>334&#x2013;339.</pages>
+</reference>
+<reference id="pubmed12233868">
+<accessionId id="acc015" href="info:pmid/12233868" />
+<authors>O'Grady NP, Alexander M, Dellinger EP, et al.</authors>
+<title>Guidelines for the prevention of intravascular catheter-related infections. Centers for Disease Control and Prevention</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2002</pubdate>
+<volume>51</volume>
+<pages>1&#x2013;29.</pages>
+</reference>
+<reference id="pubmed18702976">
+<accessionId id="acc016" href="info:pmid/18702976" />
+<authors />
+<title>ACC&#x002F;AHA 2008 guideline update on valvular heart disease: Focused update on infective endocarditis: a report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines endorsed by the Society of Cardiovascular Anesthesiologists, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons.</title>
+<source>J A Coll Cardiol</source>
+<pubdate>2008</pubdate>
+<volume>52</volume>
+<pages>676&#x2013;685.</pages>
+</reference>
+<reference id="poem140894">
+<accessionId id="acc017" href="info:wiley/eep-poem/140894" />
+<accessionId id="acc017b" href="info:pmid/22738096" />
+<authors>Kang DH, Kim YJ, Kim SH, et al.</authors>
+<title>Early surgery versus conventional treatment for infective endocarditis.</title>
+<source>N Engl J Med</source>
+<pubdate>2012</pubdate>
+<volume>366</volume>
+<pages>2466&#x2013;2473.</pages>
+</reference>
+<reference id="poem150844">
+<accessionId id="acc018" href="info:wiley/eep-poem/150844" />
+<accessionId id="acc018b" href="info:pmid/23601504" />
+<authors>Yu CW, Juan LI, Hsu SC, et al.</authors>
+<title>Role of procalcitonin in the diagnosis of infective endocarditis: a meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2013</pubdate>
+<volume>31</volume>
+<pages>935&#x2013;941.</pages>
+</reference>
+<reference id="pubmed23543002">
+<accessionId id="acc019" href="info:pmid/23543002" />
+<authors>Dahl A, Rasmussen RV, Bundgaard H, Hassager C, Bruun LE, Lauridsen TK, Moser C, Sogaard P, Arpi M, Bruun NE.</authors>
+<title>Enterococcus faecalis infective endocarditis: a pilot study of the relationship between duration of gentamicin treatment and outcome.</title>
+<source>Circulation</source>
+<pubdate>2013</pubdate>
+<volume>127</volume>
+<pages>1810&#x2013;1817.</pages>
+</reference>
+<reference id="poem210507">
+<accessionId id="acc020" href="info:wiley/eep-poem/210507" />
+<accessionId id="acc020b" href="info:pmid/30152252" />
+<authors>Iversen K, Ihlemann N, Gill SU, Madsen T, Elming H, Jensen KT, Bruun NE, H&#x00F8;fsten DE, Fursted K, Christensen JJ, Schultz M, Klein CF, Fosb&#x00F8;ll EL, Rosenvinge F, Sch&#x00F8;nheyder HC, K&#x00F8;ber L, Torp-Pedersen C, Helweg-Larsen J, T&#x00F8;nder N, Moser C, Bundgaard H.</authors>
+<title>Partial oral versus intravenous antibiotic treatment of endocarditis.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>415&#x2013;424.</pages>
+</reference>
+<reference id="pubmed39290168">
+<accessionId id="acc021" href="info:pmid/39290168" />
+<authors>Mourad A, Nwafo N, Skalla L, Holland TL, Jenkins TC.</authors>
+<title>Oral Versus Intravenous Antibiotic Therapy for Staphylococcus aureus Bacteremia or Endocarditis: A Systematic Review and Meta-Analysis of Randomized, Controlled Trials.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2025</pubdate>
+<volume>80</volume>
+<pages>29&#x2013;36.</pages>
+</reference>
+<reference id="pubmed40176205">
+<accessionId id="acc022" href="info:pmid/40176205" />
+<authors>Goehringer F, Soudant M, Alauzet C, Selton-Suty C, Agrinier N, Virion JM, Lefevre B, Aissa N, Alla F, Ruch Y, N'Guyen Y, Piroth L, Bouiller K, Royer PY, Le Moing V, Hoen B, Duval X, UniEndo-AEPEI Study group.</authors>
+<title>Single- Versus Multiple-sampling Strategy for Blood Cultures in the Diagnosis of Infective Endocarditis: The Prospective Multicenter UniEndo Study.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2025</pubdate>
+<volume>81</volume>
+<pages>756&#x2013;765.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>022.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Diagnostic Algorithm.</title>
+<graphic href="eee0030-w0001.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Etiologic Agents to Consider in IE.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Risk Group</th>
+<th align="left" colspan="1">Organisms</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Culture-positive</td>
+<td align="left" colspan="1"><list style="bulleted">
+<listitem>Streptococci, including viridans group streptococci</listitem>
+<listitem><em>S. aureus</em></listitem>
+<listitem>Enterococci</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Prosthetic valve</td>
+<td align="left" colspan="1"><list style="bulleted">
+<listitem><em>S. aureus</em></listitem>
+<listitem>Coagulase-negative staphylococci</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Culture-negative</td>
+<td align="left" colspan="1"><list style="bulleted">
+<listitem>Prior antibiotic treatment</listitem>
+<listitem>HACEK group (Haemophilus species, <em>Actinobacillus actinomycetemcomitans</em>, <em>Cardiobacterium hominis</em>, <em>Eikenella corrodens</em>, and <em>Kingella kingae</em>)</listitem>
+<listitem><em>Brucella</em></listitem>
+<listitem>Fungi</listitem>
+<listitem><em>Coxiella burnetii</em></listitem>
+<listitem><em>Bartonella</em></listitem>
+<listitem>Chlamydia</listitem>
+<listitem>Mycoplasma</listitem>
+<listitem>Legionella</listitem>
+<listitem><em>Tropheryma whipplei</em></listitem>
+</list></td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Modified Duke Criteria for Diagnosis of IE.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Major Criteria</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><list style="bulleted">
+<listitem>Blood culture positive for IE <list style="bulleted">
+<listitem>Typical organisms isolated from 2 separate blood cultures and <em>Streptococcus</em> (viridans, bovis), community-acquired enterococcus, HACEK, or <em>S. aureus</em> OR</listitem>
+<listitem>Persistent bacteremia with less typical organisms that are associated with IE defined as at least 2 blood cultures at least 12 h apart or at least 3 blood cultures drawn at least 1 h apart OR</listitem>
+<listitem>Single positive culture for <em>C. burnetii</em> or antiphase 1 IgG antibody titer &gt;1:800</listitem>
+</list></listitem>
+<listitem>Evidence of endocardial involvement <list style="bulleted">
+<listitem>Echocardiogram positive for IE</listitem>
+<listitem>TEE recommended in patients with prosthetic valves</listitem>
+<listitem>New valvular regurgitation</listitem>
+</list></listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Minor Criteria</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><list style="bulleted">
+<listitem>Predisposing heart condition or injection drug use</listitem>
+<listitem>Fever (&gt;38&#x00B0;C)</listitem>
+<listitem>Vascular phenomena <list style="bulleted">
+<listitem>Major arterial emboli</listitem>
+<listitem>Janeway lesions</listitem>
+<listitem>Intracranial hemorrhage</listitem>
+<listitem>Conjunctival hemorrhage</listitem>
+<listitem>Pulmonary infarcts</listitem>
+<listitem>Mycotic aneurysm</listitem>
+</list></listitem>
+<listitem>Immunologic phenomena <list style="bulleted">
+<listitem>Osler's nodes</listitem>
+<listitem>Roth spots</listitem>
+<listitem>Glomerulonephritis</listitem>
+<listitem>Rheumatoid factor</listitem>
+</list></listitem>
+<listitem>Microbiologic evidence <list style="bulleted">
+<listitem>Positive blood culture not meeting major criterion, or serologic evidence of infection by a typical organism</listitem>
+</list></listitem>
+</list></td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

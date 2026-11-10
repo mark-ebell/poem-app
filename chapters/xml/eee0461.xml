@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Tardive dyskinesia</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0461</topic_id>
+<topic_comment />
+<topic_lastupdated>09/09/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Allen Shaughnessy, PharmD, MMedEd</author_name>
+<author_title>Professor</author_title>
+<author_department>Department of Public Health and Family Medicine</author_department>
+<author_institution>Tufts University School of Medicine</author_institution>
+<author_email>Felicia.Freilich&#x0040;tufts.edu</author_email>
+<author_phone_office>781-338-0500</author_phone_office>
+<author_phone_home />
+<author_phone_fax>781-338-0150</author_phone_fax>
+<author_street1>195 Canal Street</author_street1>
+<author_street2 />
+<author_city>Malden</author_city>
+<author_state>MA</author_state>
+<author_zip>02148</author_zip>
+</author>
+<author primary="no">
+<author_name>Felicia A. Freilich, MD</author_name>
+<author_title />
+<author_department>Clinical Associate, Department of Public Health and Family Medicine</author_department>
+<author_institution>Tufts University School of Medicine</author_institution>
+<author_email>ffreilich&#x0040;challiance.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Malden</author_city>
+<author_state>MA</author_state>
+<author_zip>02148</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mehmood Rashid, MD</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Toledo College of Medicine and Life Sciences</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Use neuroleptics only in patients who cannot use other medications and use doses as low as possible. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>There is some evidence that new antipsychotics may be less likely to cause tardive dyskinesia (TD). <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Screen patients taking neuroleptics yearly for signs of TD. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Patients who develop TD may respond to discontinuation of treatment. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>The VMAT2 inhibitor deutetrabenazine has been approved for treatment of TD and is effective.<evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Tardive dyskinesia (TD) is a disabling, disfiguring movement disorder, involving involuntary choreoathetoid movements of the orofacial region caused primarily by the prolonged use of neuroleptic drugs.<xref ref="cochrane207" resource="acc001" /> It is typically persistent with no definitive treatment.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>3.9&#x0025; per year for second-generation antipsychotics and 5.5&#x0025; for first-generation antipsychotics in all patients receiving chronic treatment.<xref ref="pubmed18332662" resource="acc002" /></listitem>
+<listitem>In adults, the annual rate of development with second-generation antipsychotics is 2.98&#x0025; versus 7.7&#x0025; with first-generation antipsychotics.<xref ref="pubmed18332662" resource="acc002" /></listitem>
+<listitem>In children, the annual TD incidence rate is 0.35&#x0025; with second-generation antipsychotics.<xref ref="pubmed18332662" resource="acc002" /></listitem>
+<listitem>Prevalence rates were 13.1&#x0025; for second-generation antipsychotics, 15.6&#x0025; for antipsychotic-free patients, and 32.4&#x0025; for first-generation antipsychotics (<em>P</em> &lt;.0001).<xref ref="pubmed18332662" resource="acc002" /></listitem>
+<listitem>Across 41 studies (n &#x003D; 11,493), the mean prevalence was 25.3&#x0025;, with lower prevalence for patients using second-generation rather than first-generation antipsychotics.<xref ref="pubmed28146614" resource="acc017" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>TD is caused by prolonged exposure to neuroleptic drugs and is a function of dose and duration.</listitem>
+<listitem>Atypical antipsychotics appear to have a decreased likelihood of causing TD, but this may be related to dose.<xref ref="pubmed17278910" resource="acc003" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The pathophysiology is not well understood but has as its basis chronic blockade of dopamine in the CNS.</listitem>
+<listitem>This blockade may lead to supersensitivity or upregulation of dopamine receptors or an imbalance in effect between D1 and D2 receptors.</listitem>
+<listitem>May have component of central cholinergic deficiency.<xref ref="cochrane207" resource="acc001" /></listitem>
+<listitem>Adenosine may play a role.<xref ref="pubmed17064683" resource="acc004" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Advanced age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Female</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Duration of neuroleptic use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Mental retardation</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Evaluate for TD yearly using the in patients receiving neuroleptic treatment. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed17278910" resource="acc003" /></listitem>
+<listitem>If abnormal movements are present, try to decrease neuroleptic dose or switch to atypical if using typical neuroleptic. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Avoid neuroleptics whenever possible. If necessary, use the minimum neuroleptic dose required to control symptoms. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed17278910" resource="acc003" /></listitem>
+<listitem>Do not use neuroleptics for treatment of behavior. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed17278910" resource="acc003" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Evaluate involuntary, abnormal movements of the face or extremities in patients taking neuroleptics or discontinuing neuroleptics within the past 4 weeks. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Dyskinesia due to other medications</Differential_Name>
+<Differential_Features>Medication use other than neuroleptics</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hyperthyroidism</Differential_Name>
+<Differential_Features>Choreiform movements of the limbs</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Poorly fitting dentures</Differential_Name>
+<Differential_Features>Mouth movements disappear when dentures are removed</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Occurs in children following a streptococcal infection</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Hallervorden-Spatz disease</Differential_Name>
+<Differential_Features>No use of neuroleptics; associated with intellectual decline</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Stroke</Differential_Name>
+<Differential_Features>Sudden onset</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>History is best obtained and documented by using the (see <xref ref="table001" />).</listitem>
+<listitem>Facial movements include frowning, blinking, grimacing, lip pouting, puckering, or smacking, biting, chewing, lateral movements of the jaw, and increased tongue movement.</listitem>
+<listitem>Extremity movement can be either rapid, spasmodic, and purposeless or slow, irregular, and serpentine (but not tremor).</listitem>
+<listitem>Body: rocking, twisting, pelvic gyrations, and diaphragm movements.</listitem>
+<listitem>General: feeling of restlessness (tardive akathesia).</listitem>
+<listitem>Movements can be temporarily suppressed by using the affected area, for example, opening the mouth will stop the facial movements.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>No specific laboratory or imaging studies exist for this condition.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Carefully monitor patients taking neuroleptics for symptoms of TD. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed17278910" resource="acc003" /></listitem>
+<listitem>History or direct observation will establish the diagnosis in patients taking neuroleptic drugs.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Discontinuing neuroleptic may decrease symptoms, although not in all patients. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane459" resource="acc005" /></listitem>
+<listitem>Based on limited research, lowering the dose or switching to another neuroleptic does not decrease TD symptoms. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane459" resource="acc005" /></listitem>
+<listitem>Vitamin E may prevent worsening of TD, but no data exist to support vitamin E as an effective treatment. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane209" resource="acc006" /></listitem>
+<listitem>The VMAT2 inhibitor deutetrabenazine is approved for the treatment of TD in adults, at a starting dose of 6 mg bid increased weekly to a maximum dose of 24 mg bid. The NNT &#x003D; 5 for comparison with placebo as defined as much or very much improved.<xref ref="pubmed38497033" resource="acc020" />
+<xref ref="pubmed29024264" resource="acc018" />
+<xref ref="pubmed29795977" resource="acc019" />
+<evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Prevention and prompt recognition of signs and symptoms are key. Stopping the neuroleptic drug or decreasing the dose may reverse the symptoms, although not in all patients.</listitem>
+<listitem>Based on limited research, lowering the dose or switching to another neuroleptic does not decrease TD symptoms.<xref ref="cochrane459" resource="acc005" /> However, in an uncontrolled trial, olanzapine was effective in decreasing symptoms in patients with persistent TD.<xref ref="pubmed15163258" resource="acc007" /></listitem>
+<listitem>
+<strong>VMAT2 Inhibitors</strong></listitem>
+<listitem>Deutetrabenazine is a vascular monoamine transporter 2 (VMAT2) inhibitor and is approved for the treatment of TD in adults, at a starting dose of 6 mg bid increased weekly to a maximum dose of 24 mg bid. The NNT &#x003D; 5 for comparison with placebo as deined as much or very much improved. The drug carries a black box warning for depression and suicidality in patients with Huntington's disease.<xref ref="pubmed29024264" resource="acc018" />
+<xref ref="pubmed29795977" resource="acc019" /></listitem>
+<listitem>A systematic review identified 4 clinical trials comparing the VMAT2 inhibitors deutetrabenazine and valbenazine with placebo for the treatment of TD. Both drugs were found to be effective.<xref ref="pubmed38497033" resource="acc020" /></listitem>
+<listitem>
+<strong>Other medications</strong></listitem>
+<listitem>A systematic review found 16 clinical trials of clozapine for treatment of TD. They found a significant benefit, especially for patients with more severe TD.<xref ref="pubmed30257080" resource="acc021" /></listitem>
+<listitem>A systematic review found a small effect size for reduction in symptoms with vitamin E.<xref ref="pubmed32459404" resource="acc022" /></listitem>
+<listitem>Preliminary research suggests that benzodiazepines may improve symptoms, although the evidence is not strong enough to support routine use.<xref ref="cochrane205" resource="acc008" /></listitem>
+<listitem>Gabapentin,<xref ref="cochrane203" resource="acc009" /> calcium channel blockers,<xref ref="cochrane206" resource="acc010" /> choline, physostigmine,<xref ref="pubmed15610922" resource="acc011" />
+<xref ref="cochrane207" resource="acc001" /> baclofen, progabide, sodium valproate, ceruletide, gamma-linolenic acid, estrogen, lithium<xref ref="cochrane208" resource="acc012" /> and calcium channel blockers<xref ref="pubmed32459404" resource="acc022" /> have not been shown to be effective.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Vitamin E may prevent worsening of TD, but there is no research confirming vitamin E as an effective treatment.<xref ref="cochrane209" resource="acc006" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>TD is often irreversible. <evidence rating="C" system="SORT"> C</evidence>
+<xref ref="pubmed6128697" resource="acc013" />
+<xref ref="pubmed9827766" resource="acc014" /></listitem>
+<listitem>The prognosis is worse for patients who have been on neuroleptics for a longer length of time. <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Increased risk exists for TD in older patients.<xref ref="pubmed15118484" resource="acc015" /></listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>Relatively low 1-year rates are seen in pediatric patients treated with second-generation antipsychotics, but low doses were used. Better data exist for risperidone; others had smaller sample sizes.<xref ref="pubmed17979584" resource="acc016" /></listitem>
+<listitem>Risk may be higher in children and adolescents treated with higher doses of second-generation antipsychotics and for a longer period of time.<xref ref="pubmed17979584" resource="acc016" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="cochrane207">
+<accessionId id="acc001" href="info:wiley/cochrane/CD000207" />
+<chapter_authors>Tammenmaa IA, McGrath JJ, Sailas E, Soares-Weiser K.</chapter_authors>
+<chapter_title>Cholinergic medication for neuroleptic-induced tardive dyskinesia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher> Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed18332662">
+<accessionId id="acc002" href="info:pmid/18332662" />
+<authors>Correll CU, Schenk EM.</authors>
+<title>Tardive dyskinesia and new antipsychotics.</title>
+<source>Curr Opin Psychiatry</source>
+<pubdate>2008</pubdate>
+<volume>21</volume>
+<pages>151-156</pages>
+</reference>
+<reference id="pubmed17278910">
+<accessionId id="acc003" href="info:pmid/17278910" />
+<authors>Remington G.</authors>
+<title>Tardive dyskinesia: eliminated, forgotten, or over shadowed?</title>
+<source>Curr Opin Psychiatry</source>
+<pubdate>2007</pubdate>
+<volume>20</volume>
+<pages>131-137</pages>
+</reference>
+<reference id="pubmed17064683">
+<accessionId id="acc004" href="info:pmid/17064683" />
+<authors>Bishnoi M, Chopra K, Kulkarni SK.</authors>
+<title>Involvement of adenosinergic receptor system in an animal model of tardive dyskinesia and associated behavioural, biochemical and neurochemical changes.</title>
+<source>Eur J Pharmacol</source>
+<pubdate>2006</pubdate>
+<volume>552</volume>
+<pages>55-66</pages>
+</reference>
+<reference id="cochrane459">
+<accessionId id="acc005" href="info:wiley/cochrane/CD000459" />
+<chapter_authors>Bergman H, Rathbone J, Agarwal V, Soares-Weiser K.</chapter_authors>
+<chapter_title>Antipsychotic reduction and&#x002F;or cessation and antipsychotics as specific treatments for tardive dyskinesia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 2. Art. No.: CD000459. DOI: 10.1002&#x002F;14651858.CD000459.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane209">
+<accessionId id="acc006" href="info:wiley/cochrane/CD000209" />
+<chapter_authors>Soares-Weiser K, Maayan N, Bergman H.</chapter_authors>
+<chapter_title>Vitamin E for antipsychotic-induced tardive dyskinesia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 1. Art. No.: CD000209. DOI: 10.1002&#x002F;14651858.CD000209.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed15163258">
+<accessionId id="acc007" href="info:pmid/15163258" />
+<authors>Emsley R, Turner HJ, Schronen J, Botha K, Smit R, Oosthuizen PP.</authors>
+<title>A single-blind, randomized trial comparing quetiapine and haloperidol in the treatment of tardive dyskinesia.</title>
+<source>J Clin Psychiatry</source>
+<pubdate>2004</pubdate>
+<volume>65</volume>
+<pages>696-701</pages>
+</reference>
+<reference id="cochrane205">
+<accessionId id="acc008" href="info:wiley/cochrane/CD000205" />
+<chapter_authors>Bergman H, Bhoopathi PS, Soares-Weiser K.</chapter_authors>
+<chapter_title>Benzodiazepines for antipsychotic-induced tardive dyskinesia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 1. Art. No.: CD000205. DOI: 10.1002&#x002F;14651858.CD000205.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane203">
+<accessionId id="acc009" href="info:wiley/cochrane/CD000203" />
+<chapter_authors>Alabed S, Latifeh Y, Mohammad HA, Bergman H.</chapter_authors>
+<chapter_title>Gamma-aminobutyric acid agonists for antipsychotic-induced tardive dyskinesia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 4. Art. No.: CD000203. DOI: 10.1002&#x002F;14651858.CD000203.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane206">
+<accessionId id="acc010" href="info:wiley/cochrane/CD000206" />
+<chapter_authors>Essali A, Soares-Weiser K, Bergman H, Adams CE.</chapter_authors>
+<chapter_title>Calcium channel blockers for antipsychotic-induced tardive dyskinesia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 3. Art. No.: CD000206. DOI: 10.1002&#x002F;14651858.CD000206.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed15610922">
+<accessionId id="acc011" href="info:pmid/15610922" />
+<authors>Tammenmaa IA, Sailas E, McGrath JJ, Soares-Weiser K, Wahlbeck K.</authors>
+<title>Systematic review of cholinergic drugs for neuroleptic-induced tardive dyskinesia: a meta-analysis of randomized controlled trials.</title>
+<source>Prog Neuropsychopharmacol Biol Psychiatry</source>
+<pubdate>2004</pubdate>
+<volume>28</volume>
+<pages>1099-1107</pages>
+</reference>
+<reference id="cochrane208">
+<accessionId id="acc012" href="info:wiley/cochrane/CD000208" />
+<chapter_authors>Soares-Weiser KVS, Joy C.</chapter_authors>
+<chapter_title>Miscellaneous treatments for neuroleptic-induced tardive dyskinesia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher> Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed6128697">
+<accessionId id="acc013" href="info:pmid/6128697" />
+<authors>Burke RE, Fahn S, Jankovic J, et al.</authors>
+<title>Tardive dystonia: late-onset and persistent dystonia caused by antipsychotic drugs.</title>
+<source>Neurology</source>
+<pubdate>1982</pubdate>
+<volume>32</volume>
+<pages>1335-1346</pages>
+</reference>
+<reference id="pubmed9827766">
+<accessionId id="acc014" href="info:pmid/9827766" />
+<authors>Kiriakakis V, Bhatia KP, Quinn NP, Marsden CD.</authors>
+<title>The natural history of tardive dystonia. A long-term follow-up study of 107 cases.</title>
+<source>Brain</source>
+<pubdate>1998</pubdate>
+<volume>121</volume>
+<pages>2053-2066</pages>
+</reference>
+<reference id="pubmed15118484">
+<accessionId id="acc015" href="info:pmid/15118484" />
+<authors>Dean CE, Russell JM, Kuskowski MA, Caligiuri MP, Nugent SM.</authors>
+<title>Clinical rating scales and instruments: how do they compare in assessing abnormal, involuntary movements?</title>
+<source>J Clin Psychopharmacol</source>
+<pubdate>2004</pubdate>
+<volume>24</volume>
+<pages>298-304</pages>
+</reference>
+<reference id="pubmed17979584">
+<accessionId id="acc016" href="info:pmid/17979584" />
+<authors>Correll CU, Kane JM.</authors>
+<title>One-year incidence rates of tardive dyskinesia in children and adolescents treated with second-generation antipsychotics: a systematic review.</title>
+<source>J Child Adolesc Psychopharmacol</source>
+<pubdate>2007</pubdate>
+<volume>17</volume>
+<pages>647-656</pages>
+</reference>
+<reference id="pubmed28146614">
+<accessionId id="acc017" href="info:pmid/28146614" />
+<authors>Carbon M, Hsieh CH, Kane JM, Correll CU.</authors>
+<title>Tardive dyskinesia prevalence in the period of second-generation antipsychotic use: a meta-analysis.</title>
+<source>J Clin Psychiatry</source>
+<pubdate>2017</pubdate>
+<volume>78</volume>
+<pages>e264&#x2013;e278</pages>
+</reference>
+<reference id="pubmed29024264">
+<accessionId id="acc018" href="info:pmid/29024264" />
+<authors>Citrome L.</authors>
+<title>Deutetrabenazine for tardive dyskinesia: A systematic review of the efficacy and safety profile for this newly approved novel medication-What is the number needed to treat, number needed to harm and likelihood to be helped or harmed?</title>
+<source>Int J Clin Pract</source>
+<pubdate>2017</pubdate>
+<volume>71</volume>
+<pages />
+</reference>
+<reference id="pubmed29795977">
+<accessionId id="acc019" href="info:pmid/29795977" />
+<authors>Solmi M, Pigato G, Kane JM, Correll CU.</authors>
+<title>Treatment of tardive dyskinesia with VMAT-2 inhibitors: a systematic review and meta-analysis of randomized controlled trials.</title>
+<source>Drug Des Devel Ther</source>
+<pubdate>2018</pubdate>
+<volume>12</volume>
+<pages>1215&#x2013;1238</pages>
+</reference>
+<reference id="pubmed38497033">
+<accessionId id="acc020" href="info:pmid/38497033" />
+<authors>Golsorkhi M , Koch J, Pedouim F, Frei K, Bondariyan N , Dashtipour K .</authors>
+<title>Comparative Analysis of Deutetrabenazine and Valbenazine as VMAT2 Inhibitors for Tardive Dyskinesia: A Systematic Review.</title>
+<source>Tremor Other Hyperkinet Mov (N Y)</source>
+<pubdate>2024</pubdate>
+<volume>14</volume>
+<pages>13</pages>
+</reference>
+<reference id="pubmed30257080">
+<accessionId id="acc021" href="info:pmid/30257080" />
+<authors>Mentzel TQ, van der Snoek R, Lieverse R, Oorschot M, Viechtbauer W, Bloemen O, van Harten PN.</authors>
+<title>Clozapine Monotherapy as a Treatment for Antipsychotic-Induced Tardive Dyskinesia: A Meta-Analysis.</title>
+<source>J Clin Psychiatry</source>
+<pubdate>2018</pubdate>
+<volume>79</volume>
+<pages />
+</reference>
+<reference id="pubmed32459404">
+<accessionId id="acc022" href="info:pmid/32459404" />
+<authors>Artukoglu BB, Li F, Szejko N, Bloch MH.</authors>
+<title>Pharmacologic Treatment of Tardive Dyskinesia: A Meta-Analysis and Systematic Review.</title>
+<source>J Clin Psychiatry</source>
+<pubdate>2020</pubdate>
+<volume>81</volume>
+<pages />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Abnormal Involuntary Movement Scale (AIMS).</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Scoring:</strong> Items are scored on a 0 (none) to 4 (severe) basis; the scale provides a total score (items 1 through 7) or item 8 can be used in isolation as an indication of overall severity of symptoms.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Instruction:</strong> There are 2 parallel procedures, the examination procedure, which tells the patient what to do, and the scoring procedure, which tells the clinician how to rate what he or she observes.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Examination Procedure:</strong> Either before or after completing the examination procedure, observe the patient unobtrusively at rest (eg, in the waiting room). The chair to be used in this examination should be a hard, firm one without arms.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1 Ask the patient whether there is anything in his or her mouth (such as gum or candy) and, if so, to remove it.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 Ask about the "current" condition of the patient's teeth. Ask if he or she wears dentures. Ask whether teeth or dentures bother the patient "now."</td>
+</tr>
+<tr>
+<td align="left" colspan="1">3 Ask whether the patient notices any movements in his or her mouth, face, hands, or feet. If yes, ask the patient to describe them and to indicate to what extent they "currently" bother the patient or interfere with activities.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">4 Have the patient sit in the chair with hands on knees, legs slightly apart, and feet flat on floor. (Look at the entire body for movements while the patient is in this position.)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">5 Ask the patient to sit with hands hanging unsupported&#x2014;if male, between his legs, if female and wearing a dress, hanging over her knees. (Observe hands and other body areas.)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">6 Ask the patient to open his or her mouth. (Observe the tongue at rest within the mouth.) Do this twice.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">7 Ask the patient to protrude his or her tongue. (Observe abnormalities of tongue movement.) Do this twice.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">8 Ask the patient to tap his or her thumb with each finger as rapidly as possible for 10 to 15 seconds, first with right hand, then with left hand. (Observe facial and leg movements.) [&#x00B1; activated]</td>
+</tr>
+<tr>
+<td align="left" colspan="1">9 Flex and extend the patient's left and right arms, one at a time.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">10 Ask the patient to stand up. (Observe the patient in profile. Observe all body areas again, hips included.)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">11 Ask the patient to extend both arms out in front, palms down. (Observe trunk, legs, and mouth.) [activated]</td>
+</tr>
+<tr>
+<td align="left" colspan="1">12 Have the patient walk a few paces, turn, and walk back to the chair. (Observe hands and gait.) Do this twice. [activated]</td>
+</tr>
+<tr>
+<td align="left" colspan="1">
+<strong>Scoring Procedure:</strong> Complete the examination procedure before making ratings. For the movement ratings (the first 3 categories below), rate the highest severity observed, 0 &#x003D; none, 1 &#x003D; minimal (may be extreme normal), 2 &#x003D; mild, 3 &#x003D; moderate, and 4 &#x003D; severe. According to the original AIMS instructions, one point is subtracted if movements are seen only on activation, but not all investigators follow that convention.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Facial and Oral Movements:</strong>&#x00A0;&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1 Muscles of facial expression, for example, movements of forehead, eyebrows, periorbital area, cheeks. Include frowning, blinking, grimacing of upper face. 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 Lips and perioral area, for example, puckering, pouting, smacking. 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">3 Jaw, for example, biting, clenching, chewing, mouth opening, lateral movement. 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">4 Tongue: Rate only increase in movement both in and out of mouth, not inability to sustain movement. 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Extremity Movements:</strong>&#x00A0;&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1 Upper (arms, wrists, hands, and fingers): Include movements that are choreic (rapid, objectively purposeless, irregular, and spontaneous) or athetoid (slow, irregular, complex, and serpentine). Do not include tremor (repetitive, regular, and rhythmic movements). 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 Lower (legs, knees, ankles, and toes), for example, lateral knee movement, foot tapping, heel dropping, foot squirming, inversion and eversion of foot. 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Trunk Movements:</strong>&#x00A0;&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1 Neck, shoulders, hips, for example, rocking, twisting, squirming, pelvic gyrations. Include diaphragmatic movements. 0 1 2 3 4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Global Judgments:</strong>&#x00A0;&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1 Severity of abnormal movements. 0 1 2 3 4 based on the highest single score on the above items.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 Incapacitation due to abnormal movements. 0 &#x003D; none, normal 1 &#x003D; minimal, 2 &#x003D; mild, 3 &#x003D; moderate, 4 &#x003D; severe.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">3 Patient's awareness of abnormal movements. 0 &#x003D; no awareness, 1 &#x003D; aware, no distress, 2 &#x003D; aware, mild distress, 3 &#x003D; aware, moderate distress, 4 &#x003D; aware, severe distress.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; <strong>Dental Status:</strong>&#x00A0;&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1 Current problems with teeth and&#x002F;or dentures. 0 &#x003D; no, 1 &#x003D; yes.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 Does patient usually wear dentures? 0 &#x003D; no, 1 &#x003D; yes.</td>
+</tr>
+</table> From Guy W. ECDEU Assessment Manual for Psychopharmacology Revised (DHEW publication number ADM 76-338). 1st, Rockville, MD: US Department of Health, Education and Welfare, Public Health Service. Alcohol, Drug Abuse and Mental Health Administration. NIMH Psychopharmacology Research Branch, Division of Extramural Research Programs. 1976;534-537. </feature_body>
+</feature>
+</feature_group>
+</topic>

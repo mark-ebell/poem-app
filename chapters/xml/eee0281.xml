@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Thrombophilias</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0281</topic_id>
+<topic_comment />
+<topic_lastupdated>06/13/2023</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Kirsten R. Vitrikas, MD</author_name>
+<author_title>Professor</author_title>
+<author_department>Family and Community Medicine</author_department>
+<author_institution>University of California Davis Family Medicine Residency</author_institution>
+<author_email>krvitrikas&#x0040;ucdavis.edu</author_email>
+<author_phone_office>916-734-6462</author_phone_office>
+<author_phone_home>618-979-2201</author_phone_home>
+<author_phone_fax>916-734-5636</author_phone_fax>
+<author_street1>4860 Y Street, Suite 2300</author_street1>
+<author_street2 />
+<author_city>Sacramento</author_city>
+<author_state>CA</author_state>
+<author_zip>95817</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Patients with recurrent venous thromboembolism (VTE) should only be tested for thrombophilias if it will affect management. <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Patients with antiphospholipid (aPL) syndrome, antithrombin III (ATIII) deficiency, protein C deficiency, and protein S deficiency are at highest risk of recurrent thromboses. <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Indefinite anticoagulation should be considered in patients at highest risk of recurrence (<xref ref="table002" />). <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Pregnancy confers additional risk of thromboses and consideration of prophylactic anticoagulation is warranted in birthing people with thrombophilias. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>The initial treatment of patients with acute VTE and thrombophilias does not differ from treatment of other patients. <evidence rating="A" system="SORT"> A </evidence></listitem>
+</list>
+</BottomLine>
+<definition>Thrombophilias are hereditary or acquired defects that result in a predisposition to thrombosis.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Between 24&#x0025; and 37&#x0025; of patients with VTE have an inherited thrombophilia.<xref ref="pubmed9065991" resource="acc001" />
+<xref ref="pubmed7902898" resource="acc002" /></listitem>
+<listitem>The incidence for any inherited thrombophilia in an asymptomatic control population is 10&#x0025;.</listitem>
+<listitem>In asymptomatic carriers of factor V Leiden, the annual incidence of VTE is only 0.58&#x0025;.<xref ref="pubmed11529695" resource="acc003" /></listitem>
+<listitem>Multiple thrombophilias may coexist. Factor V Leiden and prothrombin gene are frequently found together in the Caucasian population.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Factor V Leiden: 5&#x0025; to 9&#x0025;; among Caucasians: 6&#x0025; to 11&#x0025;</listitem>
+<listitem>Prothrombin gene mutation: 2&#x0025; to 4&#x0025;</listitem>
+<listitem>Anticardiolipin antibodies: 2.7&#x0025; to 7&#x0025; in general obstetric population</listitem>
+<listitem>ATIII deficiency: 0.02&#x0025; to 0.2&#x0025;</listitem>
+<listitem>Protein C deficiency: 0.2&#x0025; to 0.5&#x0025;</listitem>
+<listitem>Protein S deficiency: 0.08&#x0025;</listitem>
+<listitem>MTHFR (C677Tvariant): 5&#x0025; to 14&#x0025;</listitem>
+<listitem>Protein C, S and ATIII deficiencies are as high as 30&#x0025; in Asian populations<xref ref="bib42_96_1557790124628" resource="acc034" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Factor V Leiden mutation</listitem>
+<listitem>Prothrombin gene mutation (G20210A)</listitem>
+<listitem>aPL syndrome</listitem>
+<listitem>Protein S deficiency</listitem>
+<listitem>Protein C deficiency</listitem>
+<listitem>ATIII deficiency</listitem>
+<listitem>Acute medical illness including SARS-CoV2</listitem>
+<listitem>Malignancy</listitem>
+<listitem>Medications, particularly exogenous estrogens</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Genetic mutations lead to abnormalities in the coagulation pathway resulting in increased risk of thrombosis.</listitem>
+<listitem>Deficiencies of anticoagulant proteins (ATIII, protein C, and protein S) or excessive function of procoagulant proteins (factor V Leiden, prothrombin) may occur.</listitem>
+<listitem>aPL syndrome can occur in the presence of lupus or alone.</listitem>
+<listitem>Predisposition can be compounded by transient risk such as surgery, oral contraceptive (OC) use, pregnancy, infections and cancer.</listitem>
+<listitem>Penetrance of genetic traits predisposing to thrombosis is variable and in general more severe in homozygous carriers or those with multiple mutations (<xref ref="table001" />).<xref ref="pubmed11734673" resource="acc004" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Patients with recurrent VTE should be tested for thrombophilias if it will affect management.<xref ref="poem70727" resource="acc005" /></listitem>
+<listitem>Birthing people with a history of thrombosis should be offered testing in pregnancy if it will affect management.</listitem>
+<listitem>Birthing people with recurrent early pregnancy loss or unexplained late pregnancy loss should be screened for aPL antibodies.<xref ref="pubmed18574280" resource="acc006" /></listitem>
+<listitem>Consider indefinite anticoagulation for those patients at highest risk (<xref ref="table002" />).<xref ref="pubmed11529700" resource="acc007" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Screening for thrombophilias is not recommended for asymptomatic individuals outside of pregnancy. Selective screening based on previous personal or family history of VTE is more cost-effective than universal screening.<xref ref="poem70727" resource="acc005" /></listitem>
+<listitem>Birthing people with a first-degree relative with known ATIII deficiency, homozygous factor V Leiden, or prothrombin gene mutation may benefit from testing.</listitem>
+<listitem>Patients with a history of thrombosis, recurrent fetal loss, or early or severe pre-eclampsia should consider being tested if it will affect the management of future pregnancy.<xref ref="pubmed18574280" resource="acc006" /></listitem>
+<listitem>The prevention of 1 death would require screening of 400,000 women prior to OC use.<xref ref="pubmed9109469" resource="acc008" /></listitem>
+<listitem>Obtaining a family history of VTE is not an effective screening test for detecting thrombophilia risk before starting oral contraceptives.<xref ref="pubmed22996107" resource="acc009" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Consider prophylaxis with low-molecular-weight heparin or unfractionated heparin (UFH) prior to surgery in patients with known thrombophilic disorders (except factor V Leiden).</listitem>
+<listitem>There is no consistent evidence that supplementation with B vitamins in patients with hyperhomocysteinemia decreases the risk of thrombotic events. <xref ref="bib47_877_1682354474485" resource="acc039" /></listitem>
+<listitem>Even with a known thrombophilia, the risks of anticoagulation outweigh potential benefits in most cases for primary prevention.</listitem>
+<listitem>Asymptomatic individuals who have persistent positive aPL do not appear to benefit from prophylactic aspirin.<xref ref="pubmed17599766" resource="acc010" /></listitem>
+<listitem>Given the low annual incidence of VTE in factor V Leiden and prothrombin, prophylaxis is not recommended.</listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>Consider indefinite anticoagulation if a patient has two or more episodes of spontaneous thrombosis, or has ATIII or aPL syndrome and one spontaneous thrombosis.</listitem>
+<listitem>Also consider indefinite anticoagulation if a patient has one spontaneous life-threatening thrombosis (massive pulmonary embolism in the cerebral, mesenteric, or portal vein), one spontaneous thrombosis at an unusual site, or one spontaneous thrombosis in presence of multiple thrombophilic genetic defects.<xref ref="pubmed11529700" resource="acc007" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Prothrombotic abnormalities do not appear to play an important role in recurrent VTE risk, and clinical factors are probably more important.<xref ref="poem70727" resource="acc005" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Refer to the international consensus statement for diagnostic criteria for aPL syndrome.<xref ref="pubmed10403256" resource="acc011" /></listitem>
+<listitem>Diagnosis requires the persistent presence of an aPL antibody (at least 12 weeks apart) and at least one of the following: venous or arterial thrombosis, recurrent fetal loss, or thrombocytopenia.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Thrombophilias are asymptomatic unless they lead to VTE.</listitem>
+<listitem>In half of patients with hereditary thrombophilia, the initial thrombotic event occurs in the presence of an additional risk factor (ie, pregnancy, OCP use, or surgery).<xref ref="pubmed7855783" resource="acc016" /></listitem>
+<listitem>See separate chapters on <resourceLink href="info:wiley/eep-eee/28">deep vein thrombosis,</resourceLink>
+<resourceLink href="info:wiley/eep-eee/20">arterial embolism,</resourceLink> and <resourceLink href="info:wiley/eep-eee/687">pulmonary embolism</resourceLink> for a more detailed discussion of their clinical diagnoses.</listitem>
+<listitem>Suspect thrombophilias in birthing people with early or severe pre-eclampsia, unexplained fetal loss or stillbirth, <resourceLink href="info:wiley/eep-eee/558">intrauterine growth retardation,</resourceLink> or placental abruption.<xref ref="pubmed9878639" resource="acc012" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Whether testing patients for thrombophilia's who present with recurrent VTE improves outcomes is is not clear.<xref ref="poem70727" resource="acc005" /></listitem>
+<listitem>A Cochrane review concluded that there are no RCTs on the benefit(s) of tests for thrombophilia on the risk of recurrent venous thromboembolism.<xref ref="cochrane7069" /></listitem>
+<listitem>The NICE guideline specifies that the only clear indication for thrombophilia testing is when consideration is being given to discontinuing anticoagulant therapy after an unprovoked VTE event.<xref ref="bib48_156_1682440027473" resource="acc040" /></listitem>
+<listitem>Guidance from the American College of Obstetricians and Gynecologists recommends testing for antiphopholipid antibodies for the following situations: <list style="bulleted">
+<listitem>&#x003E;1 clinical episode of arterial or venous thrombosis.</listitem>
+<listitem>&#x003E;1 unexplained death of fetuses older than 9 weeks gestation.</listitem>
+<listitem>&#x003E;1 premature birth due to pre-eclampsia, eclampsia or placental insufficiency.</listitem>
+<listitem>&#x003E;3 unexplained pregnancy losses before gestation age week 10.<xref ref="pubmed23168789" resource="acc014" /></listitem>
+</list></listitem>
+<listitem>If testing is pursued, defer testing for protein C, protein S, and ATIII deficiency in patients with acute thrombosis, on anticoagulation, or during pregnancy.</listitem>
+<listitem>Test results for ATIII deficiency, protein C, and protein S may be falsely lowered in the setting of extensive clotting, warfarin use, or heparin administration.</listitem>
+<listitem>Individuals with a strong family history of thrombophilias are more likely to have multiple inherited risk factors.<xref ref="pubmed9840688" resource="acc015" /></listitem>
+<listitem>Consider testing for aPL antibodies in patients with unexplained arterial thrombosis.</listitem>
+<listitem>DNA testing for factor V Leiden and prothrombin G20210A mutation is considered reliable in pregnancy.</listitem>
+<listitem>Patients with retinal vascular occlusion are not more likely to have a thrombophilia based on a meta-analysis of 29 studies, so routine testing is not indicated for these patients.<xref ref="bib45_598_1627748700475" resource="acc037" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Among 3334 consecutive patients admitted with COVID-19 between March 1 and April 19, 2020, pulmonary emboli occurred in 6.2&#x0025; of the patients in the ICU and 2.2&#x0025; on the ward; deep vein thrombosis in 9.4&#x0025; ICU and 2.0&#x0025; ward patients; strokes 3.7&#x0025; and 0.9&#x0025;; myocardial infarction 13.9&#x0025; and 7.3&#x0025; respectively.<xref ref="bib43_881_1609708848458" resource="acc035" /></listitem>
+<listitem>The adjusted Global Anti-Phospholipid Syndrome Score (aGAPSS) is higher in patients who go on to have a thrombotic event or pregnancy complication. A score greater than 13 has 56&#x0025; positive predictive value and 74&#x0025; negative predictive value. An online version of the calculator can be found <resourceLink href="https://practical-haemostasis.com/Clinical%20Prediction%20Scores/Formulae%20code%20and%20formulae/Formulae/APS/aGAPSS_score.html">here</resourceLink>.<xref ref="bib50_113_1685872762729" resource="acc042" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treatment of initial VTE in patients with thrombophilias does not differ from those without thrombophilias.<xref ref="pubmed18574272" resource="acc017" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>See chapters on <resourceLink href="info:wiley/eep-eee/28">deep vein thrombosis,</resourceLink>
+<resourceLink href="info:wiley/eep-eee/20">arterial embolism,</resourceLink> and <resourceLink href="info:wiley/eep-eee/687">pulmonary embolism</resourceLink> for specifics of treatment.</listitem>
+<listitem>Patients with ATIII deficiency may be resistant to heparin therapy and require large doses. Severe cases may require the use of antithrombin concentrate.</listitem>
+<listitem>Patients with protein C deficiency are at risk for warfarin-induced skin necrosis. For patients with known protein C deficiency, start oral anticoagulation once fully heparinized at a low dose and increase slowly.</listitem>
+<listitem>High-intensity anticoagulation is not better than standard anticoagulation in patients with aPL syndrome.<xref ref="poem51202" resource="acc018" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Several thrombophilias have been associated with early or severe preeclampsia, unexplained fetal loss or stillbirth, and placental abruption. <xref ref="bib46_279_1627748949778" resource="acc038" /></listitem>
+<listitem>A Cochrane review concluded that for women at high risk for preeclampsia or miscarriage, low molecular weight heparin reduces the likelihood of pre-eclampsia (OR 0.62, 95&#x0025; CI 0.43-0.90), small for gestational age (OR 0.61, 95&#x0025; CI 0.44-0.85) and perinatal death (OR 0.49, 95&#x0025; CI 0.25-0.94). It is more effective when started before 16 weeks and when combined with low dose aspirin.<xref ref="bib49_375_1685872407858" resource="acc041" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>VTE treatment should be 3 months minimum in those with known thrombophilia.</listitem>
+<listitem>For birthing people with acute VTE, therapy should be continued during the pregnancy and for 6 weeks postpartum for a minimum duration of 6 months.<xref ref="pubmed18574280" resource="acc006" /></listitem>
+<listitem>Patients with aPL antibody syndrome are generally recommended to have lifelong anticoagulation therapy because of high recurrence risk.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Birthing people with known thrombophilia should be managed by a physician experienced in managing anticoagulation during pregnancy.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>For warfarin-induced skin necrosis and heterozygous protein C deficiency, administer fresh frozen plasma or protein C concentrate until the patient is stable on oral anticoagulation.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Patients with ATIII deficiency, protein C deficiency, or protein S deficiency have 7- to 8-fold lifetime increase in risk of VTE.<xref ref="pubmed9746774" resource="acc019" /></listitem>
+<listitem>Patients with factor V Leiden and prothrombin gene mutation have a low overall incidence of VTE, although they are the most frequently encountered thrombophilias in Caucasians.<xref ref="pubmed11529695" resource="acc003" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>aPL: The recurrence rate of thrombosis in patients with untreated aPL syndrome is 25&#x0025;.<xref ref="pubmed7885428" resource="acc020" /> Among those with aPL antibodies, 0.5&#x0025; to 2&#x0025; will develop thromboses each year.<xref ref="pubmed11407709" resource="acc021" /></listitem>
+<listitem>Thrombophilia and pregnancy: In birthing people with recurrent fetal loss and no prior thrombosis, the risk of thrombosis is approximately 10&#x0025; per year.<xref ref="poem80521" resource="acc022" /> Conversely, women with prior VTE have a recurrence rate of 7.5&#x0025; to 12&#x0025; during pregnancy.<xref ref="pubmed2912109" resource="acc023" /></listitem>
+<listitem>Factor V Leiden: A large Danish study found that the hazard ratio for VTE was 2.2 for heterozygotes and 7.0 for homozygotes for Factor V Leiden. Risk was increased in patients who also had non-O ABO blood type. The risk of myocardial infarction was not increased.<xref ref="pubmed23382263" resource="acc024" /> Heterozygosity for factor V Leiden does not increase overall mortality rate.<xref ref="pubmed9798979" resource="acc025" /></listitem>
+<listitem>Prothrombin G20210A: A large Danish study found that the hazard ratio for VTE was 1.5 for heterozygotes and 11 for homozygotes. Risk was increased in patients who also had non-O ABO blood type.<xref ref="pubmed23382263" resource="acc024" /></listitem>
+<listitem>Protein S and C deficiency: The lifetime risk ratio of VTE is 8.5 for patients with protein S deficiency, 8.1 for those with antithrombin, 7.3 for protein C deficiency, and 2.2 for factor V Leiden (both heterozygotes and homozygotes) compared with control patients.<xref ref="pubmed9746774" resource="acc019" /></listitem>
+<listitem>It is important to remember that the strongest risk for recurrent VTE is prior VTE itself, not the thrombophilia.</listitem>
+<listitem>Thrombophilia disorders are present in 14&#x0025; of patients who experience a myocardial infarction in the absence of obstructed coronary arteries.<xref ref="bib39_910_1439580337843" resource="acc031" />Patients with non O blood type have increased risk for recurrent VTE after first unprovoked VTE (HR 1.98)<xref ref="bib41_87_1557789032906" resource="acc033" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>Reconsider long-term anticoagulation in those with thrombophilias on the basis of the emergence or disappearance of additional risk factors.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Overall risk for VTE is highest for those with protein C, protein S, or ATIII deficiencies (<xref ref="table001" />).<xref ref="pubmed9746774" resource="acc019" /></listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>A systematic review of 89 studies with 30,254 persons found that the risk of pregnancy loss was significantly higher among birthing people with Factor V Leiden (OR 2.4), prothrombin gene mutation (OR 2.1), or protein S deficiency.<xref ref="bib46_279_1627748949778" resource="acc038" /></listitem>
+<listitem>Consider screening birthing people with prior VTE or family history of first degree relative with history of high risk thrombophilia. <xref ref="bib44_579_1621220995567" resource="acc036" /></listitem>
+<listitem>Low-dose aspirin plus heparin was found to be the most beneficial in preventing pregnancy loss in thrombophilic birthing people.<xref ref="pubmed16595080" resource="acc026" /></listitem>
+<listitem>Risk of VTE is highest in pregnancy for birthing people with artificial heart valves, ATIII deficiency, aPL antibody syndrome, history of rheumatic heart disease and atrial fibrillation, homozygous carriers of factor V Leiden and prothrombin gene mutation, and those using chronic anticoagulation for recurrent VTE.</listitem>
+<listitem>ACCP guidelines recommend that birthing people with a high-risk thrombophilia and single prior VTE should receive prophylactic or intermediate-dose heparin during pregnancy in addition to postpartum anticoagulation.<xref ref="pubmed18574272" resource="acc017" /></listitem>
+<listitem>However, a RCT of 292 pregnant women with thrombophilia who were at increased risk of VTE concluded that there was no effect of antepartum dalteparin (5000 Uunits once daily up to 20 weeks gestation, and twice daily from 20 to 37 weeks) on the occurrance of VTE, pregnancy loss or placenta-mediated pregnancy complications. There was an increased risk of minor bleeding.<xref ref="bib40_138_1439581163017" resource="acc032" /></listitem>
+<listitem>Birthing people with multiple prior VTEs and not using long-term anticoagulation should receive prophylactic, intermediate-dose, or adjusted-dose heparin throughout pregnancy.</listitem>
+<listitem>Birthing people with a thrombophilia and no prior VTE may be followed up clinically or treated with prophylactic heparin during pregnancy and anticoagulation in the postpartum period.<xref ref="pubmed18574280" resource="acc006" /> Unfortunately, good clinical trials are lacking and many recommendations are based on limited observational studies or expert opinion.<xref ref="cochrane003580" resource="acc027" />
+<xref ref="cochrane1689" resource="acc030" /></listitem>
+<listitem>Women who test positive for aPL antibody should be treated during pregnancy with prophylactic or intermediate-dose heparin and low-dose aspirin.<xref ref="pubmed18574280" resource="acc006" /> A systematic review found that heparin plus aspirin was more effective than aspirin alone among women with aPL syndrome.<xref ref="pubmed19965971" resource="acc028" /> Women with antithrombin deficiency and no prior VTE should receive prophylaxis during the antepartum and postpartum period.<xref ref="pubmed18574280" resource="acc006" /></listitem>
+<listitem>Warfarin should be avoided in pregnancy (except in the case of mechanical heart valves) because of teratogenic effects on the fetus.</listitem>
+<listitem>Prophylaxis in pregnancy refers to a fixed dose of anticoagulant 1 or 2 times daily (UFH 5000 units subcutaneously every 12 hours or enoxaparin 40 mg subcutaneously every 24 hours). Intermediate dose is fixed twice-daily dosing at higher doses than prophylaxis (UFH every 12 hours for anti-Xa level 0.1-0.3 or enoxaparin 40 mg subcutaneously every 12 hours). Adjusted-dose prophylaxis refers to 2 or 3 times daily dosing to achieve traditional therapeutic effects (UFH every 12 hours to target aPTT 1.5-2.5 times normal or enoxaparin 1 mg&#x002F;kg subcutaneously every 12 hours).</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>Infants born to mothers with aPL antibodies may be at increased risk of arterial thromboses.<xref ref="pubmed17711900" resource="acc029" /></listitem>
+<listitem>Warfarin and heparins are considered compatible with breastfeeding.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9065991">
+<accessionId id="acc001" href="info:pmid/9065991" />
+<authors>Mateo J, Oliver A, Borrell M, et al.</authors>
+<title>Laboratory evaluation and clinical characteristics of 2,132 consecutive unselected patients with venous thromboembolism -- results of the Spanish Multicentric Study on Thrombophilia (EMET-Study).</title>
+<source>Thromb Haemost</source>
+<pubdate>1997</pubdate>
+<volume>77</volume>
+<pages>444-451</pages>
+</reference>
+<reference id="pubmed7902898">
+<accessionId id="acc002" href="info:pmid/7902898" />
+<authors>Koster T, Rosendaal FR, de Ronde H, et al.</authors>
+<title>Venous thrombosis due to poor anticoagulant response to activated protein C: Leiden Thrombophilia Study.</title>
+<source>Lancet</source>
+<pubdate>1993</pubdate>
+<volume>342</volume>
+<pages>1503-1506</pages>
+</reference>
+<reference id="pubmed11529695">
+<accessionId id="acc003" href="info:pmid/11529695" />
+<authors>Middeldorp S.</authors>
+<title>A prospective study of asymptomatic carriers of the factor V Leiden mutation to determine the incidence of venous thromboembolism.</title>
+<source>Ann Intern Med</source>
+<pubdate>2001</pubdate>
+<volume>135</volume>
+<pages>322-327</pages>
+</reference>
+<reference id="pubmed11734673">
+<accessionId id="acc004" href="info:pmid/11734673" />
+<authors>Meinardi JR, Middeldorp S, de Kam PJ, et al.</authors>
+<title>Risk of venous thromboembolism in carriers of factor V Leiden with a concomitant inherited thrombophilic defect: a retrospective analysis.</title>
+<source>Blood Coagul Fibrinolysis</source>
+<pubdate>2001</pubdate>
+<volume>12</volume>
+<pages>713-720</pages>
+</reference>
+<reference id="poem70727">
+<accessionId id="acc005" href="info:wiley/eep-poem/70727" />
+<accessionId id="acc005b" href="info:pmid/15900005" />
+<authors>Christiansen SC, Cannegieter SC, Koster T, Vandenbroucke JP, Rosendaal FR.</authors>
+<title>Thrombophilia, clinical factors, and recurrent venous thrombotic events.</title>
+<source>JAMA</source>
+<pubdate>2005</pubdate>
+<volume>293</volume>
+<pages>352-361</pages>
+</reference>
+<reference id="pubmed18574280">
+<accessionId id="acc006" href="info:pmid/18574280" />
+<authors>Bates SM, Greer IA, Middledorp S, et al.</authors>
+<title>Venous thromboembolism, thrombophilia, antithrombotic therapy, and pregnancy: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (9th Edition).</title>
+<source>Chest</source>
+<pubdate>2012</pubdate>
+<volume>141</volume>
+<pages>691S-736S</pages>
+</reference>
+<reference id="pubmed11529700">
+<accessionId id="acc007" href="info:pmid/11529700" />
+<authors>Bauer KA.</authors>
+<title>The thrombophilias: well-defined risk factors with uncertain therapeutic implications.</title>
+<source>Ann Intern Med</source>
+<pubdate>2001</pubdate>
+<volume>135</volume>
+<pages>367-373</pages>
+</reference>
+<reference id="pubmed9109469">
+<accessionId id="acc008" href="info:pmid/9109469" />
+<authors>Ridker PM, Miletich JP, Hennekens CH, et al.</authors>
+<title>Ethnic distribution of factor V Leiden in 4047 men and women. Implications for venous thromboembolism screening.</title>
+<source>JAMA</source>
+<pubdate>1997</pubdate>
+<volume>277</volume>
+<pages>1305-1307</pages>
+</reference>
+<reference id="pubmed22996107">
+<accessionId id="acc009" href="info:pmid/22996107" />
+<authors>Grimes DA, Stuart GS, Levi EE.</authors>
+<title>Screening women for oral contraception: can family history identify inherited thrombophilias?</title>
+<source>Obstet Gynecol</source>
+<pubdate>2012</pubdate>
+<volume>120</volume>
+<pages>889-895</pages>
+</reference>
+<reference id="pubmed17599766">
+<accessionId id="acc010" href="info:pmid/17599766" />
+<authors>Erkan D, Harrison MJ, Levy R, et al.</authors>
+<title>Aspirin for primary thrombosis prevention in the antiphospholipid syndrome: a randomized, double-blind, placebo-controlled trial in asymptomatic antiphospholipid antibody-positive individuals.</title>
+<source>Arthritis Rheum</source>
+<pubdate>2007</pubdate>
+<volume>56</volume>
+<pages>2382-2391</pages>
+</reference>
+<reference id="pubmed10403256">
+<accessionId id="acc011" href="info:pmid/10403256" />
+<authors>Wilson WA, Gharavi AE, Koike T, et al.</authors>
+<title>International consensus statement on preliminary classification criteria for definite antiphospholipid syndrome: report of an international workshop.</title>
+<source>Arthritis Rheum</source>
+<pubdate>1999</pubdate>
+<volume>42</volume>
+<pages>1309-1311</pages>
+</reference>
+<reference id="pubmed9878639">
+<accessionId id="acc012" href="info:pmid/9878639" />
+<authors>Kupferminc MJ, Eldor A, Steinman N, et al.</authors>
+<title>Increased frequency of genetic thrombophilia in women with complications of pregnancy.</title>
+<source>N Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>340</volume>
+<pages>9-13</pages>
+</reference>
+<reference id="cochrane7069">
+<accessionId id="acc013" href="info:wiley/cochrane/CD007069" />
+<chapter_authors>Cohn DM, Vansenne F, de Borgie CA, Middeldorp S.</chapter_authors>
+<chapter_title>Thrombophilia testing for prevention of recurrent venous thromboembolism.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 12. Art. No.: CD007069. DOI: 10.1002&#x002F;14651858.CD007069.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed23168789">
+<accessionId id="acc014" href="info:pmid/23168789" />
+<authors>Committee on Practice Bulletins-Obstetrics; American College of Obstetricians and Gynecologists</authors>
+<title>Practice Bulletin No. 132: antiphospholipid syndrome.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2012</pubdate>
+<volume>120</volume>
+<pages>1514-1521</pages>
+</reference>
+<reference id="pubmed9840688">
+<accessionId id="acc015" href="info:pmid/9840688" />
+<authors>Miletich JP.</authors>
+<title>Thrombophilia as a multigenic disorder.</title>
+<source>Semin Thromb Hemost</source>
+<pubdate>1998</pubdate>
+<volume>24</volume>
+<pages>13-20</pages>
+</reference>
+<reference id="pubmed7855783">
+<accessionId id="acc016" href="info:pmid/7855783" />
+<authors>De Stefano V, Leone G, Mastrangelo S, et al.</authors>
+<title>Clinical manifestations and management of inherited thrombophilia: retrospective analysis and follow-up after diagnosis of 238 patients with congenital deficiency of antithrombin III, protein C, protein S.</title>
+<source>Thromb Haemost</source>
+<pubdate>1994</pubdate>
+<volume>72</volume>
+<pages>352-358</pages>
+</reference>
+<reference id="pubmed18574272">
+<accessionId id="acc017" href="info:pmid/18574272" />
+<authors> Guyatt GH, Akl EA, Crowther M, et al.</authors>
+<title>Antithrombotic therapy and prevention of thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (9th Edition).</title>
+<source>Chest</source>
+<pubdate>2012</pubdate>
+<volume>141</volume>
+<pages>7S-47S</pages>
+</reference>
+<reference id="poem51202">
+<accessionId id="acc018" href="info:wiley/eep-poem/51202" />
+<accessionId id="acc018b" href="info:pmid/13679527" />
+<authors>Crowther MA, Ginsberg JS, Julian J, et al.</authors>
+<title>A comparison of two intensities of warfarin for the prevention of recurrent thrombosis in patients with the antiphospholipid antibody syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2003</pubdate>
+<volume>349</volume>
+<pages>1133-1138</pages>
+</reference>
+<reference id="pubmed9746774">
+<accessionId id="acc019" href="info:pmid/9746774" />
+<authors>Martinelli I, Mannucci PM, De Stefano V, et al.</authors>
+<title>Different risks of thrombosis in four coagulation defects associated with inherited thrombophilia: a study of 150 families.</title>
+<source>Blood</source>
+<pubdate>1998</pubdate>
+<volume>92</volume>
+<pages>2353-2358</pages>
+</reference>
+<reference id="pubmed7885428">
+<accessionId id="acc020" href="info:pmid/7885428" />
+<authors>Khamashta MA, Cuadrado MJ, Mujic F, et al.</authors>
+<title>The management of thrombosis in the antiphospholipid-antibody syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>1995</pubdate>
+<volume>332</volume>
+<pages>993-997</pages>
+</reference>
+<reference id="pubmed11407709">
+<accessionId id="acc021" href="info:pmid/11407709" />
+<authors>Erkan D, Merrill JT, Yazici Y, et al.</authors>
+<title>High thrombosis rate after fetal loss in antiphospholipid syndrome: effective prophylaxis with aspirin.</title>
+<source>Arthritis Rheum</source>
+<pubdate>2001</pubdate>
+<volume>44</volume>
+<pages>1466-1467</pages>
+</reference>
+<reference id="poem80521">
+<accessionId id="acc022" href="info:wiley/eep-poem/80521" />
+<accessionId id="acc022b" href="info:pmid/16507806" />
+<authors>Lim W, Crowther MA, Eikelboom JW.</authors>
+<title>Management of antiphospholipid antibody syndrome. A systematic review.</title>
+<source>JAMA</source>
+<pubdate>2006</pubdate>
+<volume>295</volume>
+<pages>1050-1057</pages>
+</reference>
+<reference id="pubmed2912109">
+<accessionId id="acc023" href="info:pmid/2912109" />
+<authors>Tengborn L, Bergqvist D, M&#x00E4;tzsch T, et al.</authors>
+<title>Recurrent thromboembolism in pregnancy and puerperium. Is there a need for thromboprophylaxis?</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>1989</pubdate>
+<volume>160</volume>
+<pages>90-94</pages>
+</reference>
+<reference id="pubmed23382263">
+<accessionId id="acc024" href="info:pmid/23382263" />
+<authors>Sode BF, Allin KH, Dahl M, Gyntelberg F, Nordestgaard BG.</authors>
+<title>Risk of venous thromboembolism and myocardial infarction associated with factor V Leiden and prothrombin mutations and blood type.</title>
+<source>CMAJ</source>
+<pubdate>2013</pubdate>
+<volume>185</volume>
+<pages>E229-E237</pages>
+</reference>
+<reference id="pubmed9798979">
+<accessionId id="acc025" href="info:pmid/9798979" />
+<authors>Heijmans BT, Westendorp RG, Knook DL, et al.</authors>
+<title>The risk of mortality and the factor V Leiden mutation in a population-based cohort.</title>
+<source>Thromb Haemost</source>
+<pubdate>1998</pubdate>
+<volume>80</volume>
+<pages>607-609</pages>
+</reference>
+<reference id="pubmed16595080">
+<accessionId id="acc026" href="info:pmid/16595080" />
+<authors>Wu O, Robertson L, Twaddle S, et al.</authors>
+<title>Screening for thrombophilia in high-risk situations: systematic review and cost-effectiveness analysis. The Thrombosis: Risk and Economic Assessment of Thrombophilia Screening (TREATS) study.</title>
+<source>Health Technol Assess</source>
+<pubdate>2006</pubdate>
+<volume>10</volume>
+<pages>1-110</pages>
+</reference>
+<reference id="cochrane003580">
+<accessionId id="acc027" href="info:wiley/cochrane/CD003580" />
+<chapter_authors>Walker MC, Ferguson SE, Allen VM.</chapter_authors>
+<chapter_title>Heparin for pregnant women with acquired or inherited thrombophilias (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed19965971">
+<accessionId id="acc028" href="info:pmid/19965971" />
+<authors>Mak A, Cheung MW, Cheak AA, Ho RC.</authors>
+<title>Combination of heparin and aspirin is superior to aspirin alone in enhancing live births in patients with recurrent pregnancy loss and positive anti-phospholipid antibodies: a meta-analysis of randomized controlled trials and meta-regression.</title>
+<source>Rheumatology</source>
+<pubdate>2010</pubdate>
+<volume>49</volume>
+<pages>281-288</pages>
+</reference>
+<reference id="pubmed17711900">
+<accessionId id="acc029" href="info:pmid/17711900" />
+<authors>Boffa MC, Lachassinne E.</authors>
+<title>Infant perinatal thrombosis and antiphospholipid antibodies: a review.</title>
+<source>Lupus</source>
+<pubdate>2007</pubdate>
+<volume>16</volume>
+<pages>634-641</pages>
+</reference>
+<reference id="cochrane1689">
+<accessionId id="acc030" href="info:wiley/cochrane/CD001689" />
+<chapter_authors>Middleton P, Shepherd E, Gomersall JC.</chapter_authors>
+<chapter_title>Venous thromboembolism prophylaxis for women at risk during pregnancy and the early postnatal period.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 3. Art. No.: CD001689. DOI: 10.1002&#x002F;14651858.CD001689.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="bib39_910_1439580337843">
+<accessionId id="acc031" href="info:pmid/25587100" />
+<authors> Pasupathy S, Air T, Dreyer RP, Tavella R, Beltrame JF.</authors>
+<title>Systematic review of patients presenting with suspected myocardial infarction and nonobstructive coronary arteries.</title>
+<source>Circulation</source>
+<pubdate>2015</pubdate>
+<volume>131</volume>
+<pages>861&#x2013;870</pages>
+</reference>
+<reference id="bib40_138_1439581163017">
+<accessionId id="acc032" href="info:pmid/25066248" />
+<authors> Rodger MA, Hague WM, Kingdom J, Kahn SR, Karovitch A, Sermer M, Clement AM, Coat S, Chan WS, Said J, Rey E, Robinson S, Khurana R, Demers C, Kovacs MJ, Solymoss S, Hinshaw K, Dwyer J, Smith G, McDonald S, Newstead-Angel J, McLeod A, Khandelwal M, Silver RM, Le Gal G, Greer IA, Keely E, Rosene-Montella K, Walker M, Wells PS; TIPPS Investigators.</authors>
+<title>Antepartum dalteparin versus no antepartum dalteparin for the prevention of pregnancy complications in pregnant women with thrombophilia (TIPPS): a multinational open-label randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2014</pubdate>
+<volume>384</volume>
+<pages>1673&#x2013;1683</pages>
+</reference>
+<reference id="bib41_87_1557789032906">
+<accessionId id="acc033" href="info:pmid/24067945" />
+<authors> G&#x00E1;ndara E, Kovacs MJ, Kahn SR, Wells PS, Anderson DA, Chagnon I, Le Gal G, Solymoss S, Crowther M, Carrier M, Langlois N, Kovacs J, Little Ma J, Carson N, Ramsay T, Rodger MA.</authors>
+<title>Non-OO blood type influences the risk of recurrent venous thromboembolism. A cohort study.</title>
+<source>Thromb Haemost</source>
+<pubdate>2013</pubdate>
+<volume>110</volume>
+<pages>1172&#x2013;9</pages>
+</reference>
+<reference id="bib42_96_1557790124628">
+<accessionId id="acc034" href="info:pmid/26156046" />
+<authors> Tang L, Hu Y.</authors>
+<title>Ethnic diversity in the genetics of venous thromboembolism.</title>
+<source>Thromb Haemost</source>
+<pubdate>2015</pubdate>
+<volume>114</volume>
+<pages>901&#x2013;9</pages>
+</reference>
+<reference id="bib43_881_1609708848458">
+<accessionId id="acc035" href="info:wiley/eep-poem/221018" />
+<accessionId id="acc035b" href="info:pmid/32702090" />
+<authors> Bilaloglu S, Aphinyanaphongs Y, Jones S, Iturrate E, Hochman J, Berger JS.</authors>
+<title>Thrombosis in hospitalized patients with COVID-19 in a New York City Health System.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>324</volume>
+<pages>799&#x2013;801</pages>
+</reference>
+<reference id="bib44_579_1621220995567">
+<accessionId id="acc036" href="info:pmid/29939939" />
+<authors> American College of Obstetricians and Gynecologists' Committee on Practice Bulletins&#x2013;Obstetrics.</authors>
+<title>ACOG Practice Bulletin No. 197: Inherited Thrombophilias in Pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2018</pubdate>
+<volume>132</volume>
+<pages>e18&#x2013;e34</pages>
+</reference>
+<reference id="bib45_598_1627748700475">
+<accessionId id="acc037" href="info:pmid/32805772" />
+<authors> Romiti GF, Corica B, Borgi M, Visioli G, Pacella E, Cangemi R, Proietti M, Basili S, Raparelli V.</authors>
+<title>Inherited and acquired thrombophilia in adults with retinal vascular occlusion: A systematic review and meta-analysis.</title>
+<source>J Thromb Haemost</source>
+<pubdate>2020</pubdate>
+<volume>18</volume>
+<pages>3249&#x2013;3266</pages>
+</reference>
+<reference id="bib46_279_1627748949778">
+<accessionId id="acc038" href="info:pmid/33575779" />
+<authors> Liu X, Chen Y, Ye C, Xing D, Wu R, Li F, Chen L, Wang T.</authors>
+<title>Hereditary thrombophilia and recurrent pregnancy loss: A systematic review and meta-analysis.</title>
+<source>Hum Reprod</source>
+<pubdate>2021</pubdate>
+<volume>36</volume>
+<pages>1213&#x2013;1229</pages>
+</reference>
+<reference id="bib47_877_1682354474485">
+<accessionId id="acc039" href="info:pmid/16960155" />
+<authors> den Heijer M, Willems HP, Blom HJ, Gerrits WB, Cattaneo M, Eichinger S, Rosendaal FR, Bos GM.</authors>
+<title>Homocysteine lowering by B vitamins and the secondary prevention of deep vein thrombosis and pulmonary embolism: A randomized, placebo-controlled, double-blind trial.</title>
+<source>Blood</source>
+<pubdate>2007</pubdate>
+<volume>109</volume>
+<pages>139&#x2013;44</pages>
+</reference>
+<reference id="bib48_156_1682440027473">
+<accessionId id="acc040" href="info:pmid/32374563" />
+<authors>.</authors>
+<title />
+<source />
+<pubdate>2020</pubdate>
+<pages />
+</reference>
+<reference id="bib49_375_1685872407858">
+<accessionId id="acc041" href="info:pmid/34301348" />
+<authors> Cruz-Lemini M, V&#x00E1;zquez JC, Ullmo J, Llurba E.</authors>
+<title>Low-molecular-weight heparin for prevention of preeclampsia and other placenta-mediated complications: a systematic review and meta-analysis.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2022</pubdate>
+<volume>226</volume>
+<pages>S1126&#x2013;S1144.e17</pages>
+</reference>
+<reference id="bib50_113_1685872762729">
+<accessionId id="acc042" href="info:pmid/35997555" />
+<authors> Barilaro G, Esteves A, Della Rocca C, Perez-Isidro A, Araujo O, Pires da Rosa G, Ruiz-Ortiz E, T&#x00E0;ssies Penella D, Vi&#x00F1;as O, Reverter JC, Cervera R, Espinosa G.</authors>
+<title>Predictive value of the adjusted Global Anti-Phospholipid Syndrome Score on clinical recurrence in APS patients: a longitudinal study.</title>
+<source>Rheumatology (Oxford)</source>
+<pubdate>2023</pubdate>
+<volume>62</volume>
+<pages>1576&#x2013;1585</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline10928">
+<accessionId id="acc043" href="info:wiley/eep-guideline/10928" />
+<citation />
+<url>http://www.ncbi.nlm.nih.gov/pubmed/21173671</url>
+<organization>ACOG</organization>
+<longtitle>Antiphospholipid syndrome.</longtitle>
+<title />
+<dateguideline>11&#x002F;1&#x002F;2005</dateguideline>
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Lifetime Risk of Venous Thromboembolism.</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">Heterozygous factor V Leiden </td>
+<td align="left" colspan="1">10.8&#x0025; </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Heterozygous factor V Leiden and prothrombin </td>
+<td align="left" colspan="1">16&#x0025; </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Homozygous factor V Leiden </td>
+<td align="left" colspan="1">36.8&#x0025; </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Heterozygous factor V Leiden and protein C or protein S </td>
+<td align="left" colspan="1">40&#x0025; </td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Relative Risk and Annual Incidence of a First Episode of Venous Thrombosis in Adults.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Condition&#x002F;Risk Factor(s) </th>
+<th align="left" colspan="1">Relative Risk </th>
+<th align="left" colspan="1">Incidence, &#x0025; per Year </th>
+</tr>
+<tr>
+<td align="left" colspan="1">Normal </td>
+<td align="left" colspan="1">1 </td>
+<td align="left" colspan="1">0.008 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hyperhomocysteinemia (MTHFR 677T mutation) </td>
+<td align="left" colspan="1">2.5 </td>
+<td align="left" colspan="1">0.02 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Prothrombin gene mutation </td>
+<td align="left" colspan="1">2.8 </td>
+<td align="left" colspan="1">0.02 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Oral contraceptives (OCs) </td>
+<td align="left" colspan="1">4 </td>
+<td align="left" colspan="1">0.03 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Factor V Leiden (heterozygous) </td>
+<td align="left" colspan="1">7 </td>
+<td align="left" colspan="1">0.06 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">OCs plus heterozygous factor V Leiden </td>
+<td align="left" colspan="1">35 </td>
+<td align="left" colspan="1">0.29 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Factor V Leiden (homozygous) </td>
+<td align="left" colspan="1">80 </td>
+<td align="left" colspan="1">0.5-1.0 </td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

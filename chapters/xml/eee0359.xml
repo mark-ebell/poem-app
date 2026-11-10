@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Epididymitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0359</topic_id>
+<topic_comment />
+<topic_lastupdated>06/06/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Diana L. Heiman, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of Connecticut</author_institution>
+<author_email>dheiman&#x0040;stfranciscare.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1>Family Medicine Center &#x0040; Asylum Hill</author_street1>
+<author_street2>99 Woodland St.</author_street2>
+<author_city>Hartford</author_city>
+<author_state>CT</author_state>
+<author_zip>06105</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Henry C. Barry, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Typical presentation is subacute or gradual onset of scrotal (epididymal) pain, often with fever or urinary symptoms. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>If <resourceLink href="https://www.essentialevidenceplus.com/Home/Essential_Evidence_Topics?id=Mzcw">testicular torsion</resourceLink> suspected, consider urgent ultrasonography and urology referral. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Between the ages of 14 and 35 years, treat presumptively for gonorrhea and chlamydia with ceftriaxone plus doxycycline. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed33332296" resource="acc019" /></listitem>
+<listitem>Ofloxacin or levofloxacin are recommended for patients younger than 14 years and older than 35 years. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Inflammation of the epididymis most commonly caused by bacterial infection.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>1.2 per 1000 boys between the ages of 2 years and 13 years annually.<xref ref="pubmed14665940" resource="acc003" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Fifth most common genitourinary complaint among men in one series.<xref ref="pubmed9507840" resource="acc011" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Chlamydia trachomatis</listitem>
+<listitem>Neisseria gonorrhoeae</listitem>
+<listitem>Coliform bacteria (such as <em>Escherichia coli</em>)</listitem>
+<listitem>Ureaplasma urealyticum</listitem>
+<listitem>Haemophilus influenzae</listitem>
+<listitem>Proteus mirabilis</listitem>
+<listitem>Klebsiella pneumoniae</listitem>
+<listitem>Pseudomonas aeruginosa</listitem>
+<listitem>Mycobacterium tuberculosis</listitem>
+<listitem>Cytomegalovirus and fungi in HIV infected men</listitem>
+<listitem>Vasculitis</listitem>
+<listitem>Medications (such as amiodarone)</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Infection spreads in a retrograde manner from the urethra or bladder.</listitem>
+<listitem>May present acutely with pain or may be chronic in nature.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Unprotected intercourse</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Strenuous activity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Bicycle&#x002F;motorcycle riding</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Prolonged sitting</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Recent urinary tract surgery&#x002F;instrumentation</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Lower urinary tract obstruction in older men</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Genitourinary anatomic abnormalities in prepubertal boys</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Men who have sex with men</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Previous chlamydia infection (men)</Risk_Name>
+<Risk_OR>1.38 (1.13, 1.70)</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed11350430" resource="acc004" /><xref ref="pubmed18562984" resource="acc002" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>The United States Preventive Services Task Force states that there is insufficient evidence to assess the balance of benefits and harms of screening for chlamydia infection or gonorrhea in men. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed25243785" resource="acc017" /></listitem>
+<listitem>Recommend condom use with sexual intercourse to prevent sexually transmitted diseases. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17579339" resource="acc015" /><xref ref="pubmed16385221" resource="acc016" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Typical presentation is subacute or gradual onset of pain in the scrotum; patients may have fever or urinary symptoms. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Physical examination typically reveals localized epididymal tenderness, normally oriented testicle and presence of cremasteric reflex. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Must evaluate for testicular torsion if pain is of acute onset or severe, the testicle is diffusely tender or horizontally oriented, there is an absent cremasteric reflex, or any other suspicion for torsion. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Color duplex Doppler ultrasound can differentiate between testicular torsion and epididymitis, but referral to a urologist should not be delayed by imaging if torsion is suspected. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Epididymitis</Differential_Name>
+<Differential_Features>Localized pain; positive cremasteric reflex</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Testicular torsion</Differential_Name>
+<Differential_Features>Acute, severe pain; high-riding transversely-oriented testicle; negative cremasteric reflex</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Orchitis</Differential_Name>
+<Differential_Features>Entire testicle swollen and painful; positive cremasteric reflex</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Patients typically present with gradual onset of unilateral scrotal pain with radiation to the abdomen; fever (&#x007E;75&#x0025;) and urinary symptoms (&#x007E;33&#x0025;) may accompany (dysuria, frequency, hematuria).<xref ref="pubmed2332745" resource="acc012" /> May rarely be bilateral.<xref ref="pubmed5906006" resource="acc010" /> Coexisting orchitis is common, as is erythema of the scrotal skin. <xref ref="pubmed2332745" resource="acc012" /></listitem>
+<listitem>Testicle is in <xref ref="hp129" resource="acc014">normal position and cremasteric reflex</xref> is present in epididymitis. <xref ref="hp129" resource="acc014">High-riding, transversely-oriented testicle (LR+ 46), absence of cremasteric reflex (LR+ 8.5), and presentation within 6 hours of onset</xref> suggests testicular torsion.<xref ref="pubmed6726967" resource="acc005" /><xref ref="pubmed15503003" resource="acc013" /></listitem>
+<listitem>Presence of fever and&#x002F;or urinary tract symptoms support the diagnosis of epididymitis.<xref ref="pubmed17525012" resource="acc006" /> Relief of pain with elevation of the testicle (Prehn's sign) also supports a diagnosis of epididymitis.</listitem>
+<listitem>In torsion, onset is usually more sudden and severe. Any patient with acute scrotal pain and possible torsion requires emergent referral to a urologist.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Test for gonorrhea and chlamydia in all males between the ages of 14 years and 35 years and if there is a new sexual partner at any age. Obtain a urine specimen for urinalysis and culture.<xref ref="pubmed11350430" resource="acc004" /> Peripheral leukocytosis was seen in 64&#x0025; in one series of 121 patients with acute epididymitis and supports the diagnosis.<xref ref="pubmed2332745" resource="acc012" /></listitem>
+<listitem>Color duplex Doppler ultrasound is an accurate test for torsion and acute epididymitis but ordering imaging should not delay referral to a urologist for surgical exploration if torsion is suspected. Ultrasound is 93&#x0025; sensitive and 92&#x0025; specific for acute epididymitis; radionuclide imaging has similar accuracy.<xref ref="pubmed15543483" resource="acc007" /></listitem>
+<listitem>In one small study, use of a hand-held Doppler showing absence of Doppler arterial signals predicted torsion.<xref ref="pubmed18574562" resource="acc001" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>In one series of 172 boys with acute scrotal pain (41 of whom had torsion), 3 findings predicted torsion: duration of pain less than 6 hours, absent or decreased cremasteric reflex, and diffuse testicular tenderness.</listitem>
+<listitem>If all 3 were absent, no boys had torsion. If all 3 were present, 87&#x0025; had torsion.<xref ref="pubmed15503003" resource="acc013" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy />
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Between the ages of 14 years and 35 years, treat presumptively for gonorrhea and chlamydia with ceftriaxone 500 mg IM plus doxycycline 100 orally twice daily for 10 days. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed33332296" resource="acc019" /></listitem>
+<listitem>For patients younger than 14 years and older than 35 years, or with allergy to cephalosporins or tetracyclines, treatment with ofloxacin 300 mg orally twice daily or levofloxacin 500 mg orally once daily for 10 days is recommended. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Supportive care with ice, scrotal elevation, analgesics and rest is probably beneficial. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Between the ages of 14 years and 35 years (gonorrhea or chlamydia likely): CDC guidelines recommend ceftriaxone 500 mg IM once plus doxycycline 100 mg orally twice daily for 10 days. Cefixime and azithromycin are no longer recommended due to increased gonorrheal resistance.<xref ref="pubmed33332296" resource="acc019" /></listitem>
+<listitem>Age less than 14 or more than 35 years (enteric organisms likely) and those allergic to cephalosporins and&#x002F;or tetracyclines: CDC guidelines recommend ofloxacin 300 mg orally twice daily for 10 days or levofloxacin 500 mg orally daily for 10 days.</listitem>
+<listitem>A systematic review only found 1 RCT for the treatment of acute epididymitis, highlighting the importance of conducting more prospective trials comparing different treatment regimens. <xref ref="pubmed30044339" resource="acc018" /></listitem>
+<listitem>Immunocompromised patients require no alteration in therapy.</listitem>
+<listitem>Analgesics as needed.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Scrotal elevation, limitation of physical activity, and ice may be helpful but have not been studied in clinical trials.<xref ref="pubmed11350430" resource="acc004" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Refer urgently for suspected testicular torsion.</listitem>
+<listitem>Also consider referral for suspected abscess, chronic epididymitis, testicular mass, and any prepubescent males with anatomic abnormalities.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Most patients improve symptomatically within 1 to 3 days. Complication rate is unknown but likely very low. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11350430" resource="acc004" /></listitem>
+<listitem>Reevaluate in 3 to 7 days to ensure resolution of pain&#x002F;tenderness and to evaluate for testicular mass. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9794985" resource="acc008" /><xref ref="pubmed15999311" resource="acc009" /></listitem>
+<listitem>Evaluate and treat sexual partner if gonorrhea or chlamydia are suspected or diagnosed. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11350430" resource="acc004" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed18574562">
+<accessionId id="acc001" href="info:pmid/18574562" />
+<authors>Shaikh FM, Giri SK, Flood HD, et al.</authors>
+<title>Diagnostic accuracy of hand-held Doppler in the management of acute scrotal pain.</title>
+<source>Ir J Med Sci</source>
+<pubdate>2008</pubdate>
+<volume>177</volume>
+<pages>279&#x2013;282.</pages>
+</reference>
+<reference id="pubmed18562984">
+<accessionId id="acc002" href="info:pmid/18562984" />
+<authors>Trei JS, Canas LC, Gould PL.</authors>
+<title>Reproductive tract complications associated with chlamydia trachomatis infection in US Air Force males within 4 years of testing.</title>
+<source>Sex Transm Dis</source>
+<pubdate>2008</pubdate>
+<volume>35</volume>
+<pages>827&#x2013;833.</pages>
+</reference>
+<reference id="pubmed14665940">
+<accessionId id="acc003" href="info:pmid/14665940" />
+<authors>Somekh E, Gorenstein A, Serour F.</authors>
+<title>Acute epididymitis in boys: evidence of a post-infectious etiology</title>
+<source>J Urology</source>
+<pubdate>2004</pubdate>
+<volume>171</volume>
+<pages>391&#x2013;394.</pages>
+</reference>
+<reference id="pubmed11350430">
+<accessionId id="acc004" href="info:pmid/11350430" />
+<authors>Luzzi GA, O'Brien TS.</authors>
+<title>Acute Epididymitis.</title>
+<source>BJU Int</source>
+<pubdate>2001</pubdate>
+<volume>87</volume>
+<pages>747&#x2013;755.</pages>
+</reference>
+<reference id="pubmed6726967">
+<accessionId id="acc005" href="info:pmid/6726967" />
+<authors>Rabinowitz R.</authors>
+<title>The importance of the cremasteric reflex in acute scrotal swelling in children.</title>
+<source>J Urol</source>
+<pubdate>1984</pubdate>
+<volume>132</volume>
+<pages>89&#x2013;90.</pages>
+</reference>
+<reference id="pubmed17525012">
+<accessionId id="acc006" href="info:pmid/17525012" />
+<authors>Liu CC, Huang SP, Chou YH, et al.</authors>
+<title>Clinical presentation of acute scrotum in young males.</title>
+<source>Kaohsiung J Med Sci</source>
+<pubdate>2007</pubdate>
+<volume>23</volume>
+<pages>281&#x2013;286.</pages>
+</reference>
+<reference id="pubmed15543483">
+<accessionId id="acc007" href="info:pmid/15543483" />
+<authors>Ciftci AO, Senocak ME, Tanyel FC, Buyukpamuk&#x00E7;u N.</authors>
+<title>Clinical predictors for differential diagnosis of acute scrotum.</title>
+<source>Eur J Pediatr Surg</source>
+<pubdate>2004</pubdate>
+<volume>14</volume>
+<pages>333&#x2013;338.</pages>
+</reference>
+<reference id="pubmed9794985">
+<accessionId id="acc008" href="info:pmid/9794985" />
+<authors>Quinlan KP, Sacks JJ, Kresnow M.</authors>
+<title>Exposure to and compliance with pediatric injury prevention counseling--United States, 1994.</title>
+<source>Pediatrics</source>
+<pubdate>1998</pubdate>
+<volume>102</volume>
+<pages>E55.</pages>
+</reference>
+<reference id="pubmed15999311">
+<accessionId id="acc009" href="info:pmid/15999311" />
+<authors>Haecker FM, Hauri-Hohl A, von Schweinitz D.</authors>
+<title>Acute epididymitis in children: a 4-year retrospective study.</title>
+<source>Eur J Pediatr Surg</source>
+<pubdate>2005</pubdate>
+<volume>15</volume>
+<pages>180.</pages>
+</reference>
+<reference id="pubmed5906006">
+<accessionId id="acc010" href="info:pmid/5906006" />
+<authors>Mittemeyer BT, Lennox KW, Borski AA.</authors>
+<title>Epididymitis: a review of 610 cases.</title>
+<source>J Urol</source>
+<pubdate>1966</pubdate>
+<volume>95</volume>
+<pages>390&#x2013;392.</pages>
+</reference>
+<reference id="pubmed9507840">
+<accessionId id="acc011" href="info:pmid/9507840" />
+<authors>Collins MM, Stafford RS, O'Leary MP, Barry MJ.</authors>
+<title>How common is prostatitis? A national survey of physician visits</title>
+<source>J Urol</source>
+<pubdate>1998</pubdate>
+<volume>159</volume>
+<pages>1224&#x2013;1228.</pages>
+</reference>
+<reference id="pubmed2332745">
+<accessionId id="acc012" href="info:pmid/2332745" />
+<authors>Kaver I,&#x00A0;Matzkin H.</authors>
+<title>Epididymo-orchitis: a retrospective study of 121 patients.&#x00A0;</title>
+<source>J Fam Pract</source>
+<pubdate>1990</pubdate>
+<volume>30</volume>
+<pages>548&#x2013;552.</pages>
+</reference>
+<reference id="pubmed15503003">
+<accessionId id="acc013" href="info:pmid/15503003" />
+<authors>Karmazyn B, Steinberg R, Kornreich L, et al.</authors>
+<title>Clinical and sonographic criteria of acute scrotum in children: a retrospective study of 172 boys.</title>
+<source>Pediatr Radiol</source>
+<pubdate>2005</pubdate>
+<volume>35</volume>
+<pages>302&#x2013;310.</pages>
+</reference>
+<reference id="hp129">
+<accessionId id="acc014" href="info:wiley/eep-hp/129" />
+<accessionId id="acc014b" href="info:pmid/9651416" />
+<authors>Kadish HA, Bolte RG.</authors>
+<title>A retrospective review of pediatric patients with epididymitis, testicular torsion, and torsion of testicular appendages.</title>
+<source>Pediatrics</source>
+<pubdate>1998</pubdate>
+<volume>102</volume>
+<pages>73&#x2013;76.</pages>
+</reference>
+<reference id="pubmed17579339">
+<accessionId id="acc015" href="info:pmid/17579339" />
+<authors>Gallo MF, Steiner MJ, Warner L, et al.</authors>
+<title>Self-reported condom use is associated with reduced risk of chlamydia, gonorrhea, and trichomoniasis.</title>
+<source>Sex Transm Dis</source>
+<pubdate>2007</pubdate>
+<volume>34</volume>
+<pages>829&#x2013;833.</pages>
+</reference>
+<reference id="pubmed16385221">
+<accessionId id="acc016" href="info:pmid/16385221" />
+<authors>Warner L, Stone KM, Macaluso M, Buehler JW, Austin HD.</authors>
+<title>Condom use and risk of gonorrhea and chlamydia: a systematic review of design and measurement factors assessed in epidemiologic studies.</title>
+<source>Sex Transm Dis</source>
+<pubdate>2006</pubdate>
+<volume>33</volume>
+<pages>36&#x2013;51.</pages>
+</reference>
+<reference id="pubmed25243785">
+<accessionId id="acc017" href="info:pmid/25243785" />
+<authors>LeFevre ML, U.S. Preventive Services Task Force.</authors>
+<title>Screening for chlamydia and gonorrhea: U.S. Preventive Services Task Force recommendation statement.</title>
+<source>Ann Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>161</volume>
+<pages>902&#x2013;910.</pages>
+</reference>
+<reference id="pubmed30044339">
+<accessionId id="acc018" href="info:pmid/30044339" />
+<authors>Louette A, Krahn J, Caine V, Ha S, Lau TTY, Singh AE.</authors>
+<title>Treatment of Acute Epididymitis: A Systematic Review and Discussion of the Implications for Treatment Based on Etiology.</title>
+<source>Sex Transm Dis</source>
+<pubdate>2018</pubdate>
+<volume>45</volume>
+<pages>e104&#x2013;e108.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="pubmed33332296">
+<accessionId id="acc019" href="info:pmid/33332296" />
+<authors>St Cyr S, Barbee L, Workowski KA, Bachmann LH, Pham C, Schlanger K, Torrone E, Weinstock H, Kersh EN, Thorpe P.</authors>
+<title>Update to CDC's Treatment Guidelines for Gonococcal Infection, 2020.</title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<pubdate>2020</pubdate>
+<volume>69</volume>
+<pages>1911&#x2013;1916.</pages>
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+</topic>

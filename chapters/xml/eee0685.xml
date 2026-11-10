@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Pneumonia (mycoplasma)</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0685</topic_id>
+<topic_comment />
+<topic_lastupdated>10/13/2023</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Brian Stello, MD</author_name>
+<author_title>Practice-Based Research Network Director</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Lehigh Valley Hospital</author_institution>
+<author_email>brian.stello&#x0040;lvh.com</author_email>
+<author_phone_office>610-969-4950</author_phone_office>
+<author_phone_home>610-751-6700</author_phone_home>
+<author_phone_fax>610-969-4952</author_phone_fax>
+<author_street1>PO Box 7017</author_street1>
+<author_street2>17th and Chew Streets</author_street2>
+<author_city>Allentown</author_city>
+<author_state>PA</author_state>
+<author_zip>18105-7017</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>
+<em>Mycoplasma pneumoniae</em> and other atypical organisms account for approximately 15&#x0025; of community-acquired pneumonias (CAPs). <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>A <xref ref="rule181" resource="acc005">prediction rule</xref> based on age and duration of fever helps to identify children with pneumonia at increased risk for <em>M. pneumoniae</em> infection. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>PCR tests are available and accurate but are not in widespread use. Accurate diagnosis likely requires a combination of tests including PCR and serology. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>
+<em>M. pneumoniae</em> is thought to respond to macrolides, tetracyclines, or quinolones, although data from placebo-controlled clinical trials are lacking. <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Recommendations for treatment of CAP in otherwise healthy outpatients is with amoxicillin <evidence rating="A" system="SORT"> A </evidence> or doxycycline <evidence rating="B" system="SORT"> B </evidence>.<xref ref="pubmed31573350" resource="acc053" /> No clear benefit for adults or children has been demonstrated with use of antibiotics providing coverage for atypical pathogens compared with those that do not. <evidence rating="B" system="SORT"> B </evidence></listitem>
+</list>
+</BottomLine>
+<definition>Mycoplasma, a mucosal bacterium without cell walls, is one of the organisms responsible for causing CAP.<xref ref="pubmed15489344" resource="acc022" /> In addition to pneumonia, mycoplasma can exacerbate existing pulmonary disease and cause extrapulmonary complications.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>
+<resourceLink href="https://www.cdc.gov/pneumonia/atypical/mycoplasma/hcp/antibiotic-treatment-resistance.html">Center for Disease Control and Prevention</resourceLink> estimates that 2 million cases of M pneumoniae infections occur annually including between 1 and 10 in every 50 cases of CAP.&#x00A0; &#x00A0; &#x00A0;</listitem>
+<listitem>Age younger than 5 years: 30 to 45&#x002F;1000 persons&#x002F;year.</listitem>
+<listitem>Ages 5 to 9 years: 16 to 20&#x002F;1000 persons&#x002F;year.</listitem>
+<listitem>Ages 9 to 15 years: 9 to 12&#x002F;1000 persons&#x002F;year.</listitem>
+<listitem>Age older than 15 years: 12&#x002F;1000&#x002F;persons&#x002F;year.</listitem>
+<listitem>Up to 90&#x0025; of mycoplasma infections are seen in patients between the ages of 5 and 15 years; it generally does not cause serious disease.<xref ref="pubmed11979130" resource="acc021" /></listitem>
+<listitem>
+<em>M. pneumoniae</em> accounted for 15&#x0025; of CAP in a study of Canadian emergency departments,<xref ref="pubmed15672850" resource="acc020" /> and 14&#x0025; in a series of 184 hospitalized children.<xref ref="poem60679" resource="acc019" /></listitem>
+<listitem>Twenty percent of 12,025 hospitalized children with a respiratory tract infection (RTI) had mycoplasma infection.<xref ref="pubmed23040512" resource="acc034" /></listitem>
+<listitem>In a prospective study conducted in 2010 to 2012, of 2222 children hospitalized with radiographic evidence of pneumonia, a nasopharyngeal or oropharyngeal swab, and an additional diagnostic specimen available, 8&#x0025; had <em>M. pneumoniae</em> detected.<xref ref="pubmed25714161" resource="acc045" /> Mycoplasma was found more often among children age 5 years or older than among younger children (19&#x0025; vs. 3&#x0025;).</listitem>
+<listitem>Among 3834 patients hospitalized with COVID-19 from 30 studies, 7&#x0025; had a bacterial co-infection (95&#x0025; CI 3-12&#x0025;, I2&#x003D;92.2&#x0025;), most commonly with <em>M. pneumoniae</em>, <em>Pseudomonas aeruginosa</em> and <em>Haemophilus influenzae</em>.<xref ref="pubmed32473235" resource="acc054" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>
+<em>M. pneumoniae</em> is a frequent cause of outbreaks of respiratory disease in institutional or community settings.<xref ref="pubmed11979130" resource="acc021" /></listitem>
+<listitem>
+<em>M. pneumoniae</em> may play a role in causing acute exacerbations of chronic obstructive pulmonary disease.<xref ref="pubmed12376023" resource="acc023" /></listitem>
+<listitem>There is a positive association between M. pneumoniae infection determined by IgM serology and childhood asthma (OR 3.13, 95&#x0025; CI 1.78-5.48).<xref ref="pubmed33932544" resource="acc052" /></listitem>
+<listitem>In one case series during an outbreak of Stevens-Johnson syndrome in a children&#x2019;s hospital in Colorado, 5 of the 8 children had mycoplasma pneumonia based on polymerase chain reaction (PCR).</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>
+<em>M. pneumoniae</em> and other mycoplasma species.</listitem>
+<listitem>Risk factors include smoking and reduced IgG levels, which increase the risk of acquiring <em>M. pneumoniae</em> during an outbreak.<xref ref="pubmed17051487" resource="acc007" /></listitem>
+<listitem>In the large pediatric cohort of hospitalized children with RTI, a higher percentage of children with mycoplasma infection had the P1 gene, a key adhesion gene for mycoplasma.<xref ref="pubmed23040512" resource="acc034" /> Several susceptibility genes have been identified among Chinese children. <xref ref="pubmed28403117" resource="acc046" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Infection is primarily spread by aerosolized droplets from contaminated sputum and secretions. Due to its lack of a cell wall, <em>M. pneumoniae </em> is extremely susceptible to desiccation so droplet transmission from person to person only occurs through close contact.</listitem>
+<listitem>Mycoplasma adheres to respiratory cells. Parasitized cells sustain local injury, resulting in loss of cilia and local inflammation leading to RTI.</listitem>
+<listitem>Mycoplasmas lack a cell wall and are inherently resistant to beta-lactam antibiotics.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>
+<em>M. pneumoniae</em> accounts for approximately 15&#x0025; of CAPs. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15672850" resource="acc020" />
+<xref ref="poem60679" resource="acc019" /></listitem>
+<listitem>Adults with mycoplasma pneumonia tend to be younger and are more likely to have a nonproductive cough and less likely to have rhinitis. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed12958270" resource="acc017" /> Children with CAP are more likely to have mycoplasma pneumonia if they are over age 4 years, have nonproductive cough and associated chest pain and fever duration over one week. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>A <xref ref="rule181" resource="acc005">prediction rule</xref> based on age and duration of fever helps to identify children with pneumonia at increased risk for mycoplasma pneumonia. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>PCR tests are available and accurate but are not in widespread use. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed16541148" resource="acc010" />
+<xref ref="pubmed12958270" resource="acc017" />
+<xref ref="pubmed15293621" resource="acc016" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Streptococcal pneumonia</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Acute bronchitis</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Acute exacerbation of chronic bronchitis</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Chlamydia pneumoniae</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Viral pneumonia</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Asthma exacerbation</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Other less common causes of RTI</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>No single finding is pathognomonic for the diagnosis of CAP due to mycoplasma disease.</listitem>
+<listitem>Among children with CAP, the presence of chest pain more than doubles the probability of <em>M. pneumoniae</em>.<xref ref="cochrane9175" resource="acc035" /> Absence of wheezing was also a diagnostic indicator but was not of sufficient diagnostic value to guide empirical macrolide treatment.</listitem>
+<listitem>An accumulation of findings increases the probability of pneumonia. For example, a patient from a high-risk setting with a presentation that includes acute cough, fever, tachycardia, and crackles on chest examination has a revised probability of 60&#x0025;.<xref ref="pubmed9356004" resource="acc015" /></listitem>
+<listitem>In a series of 106 patients, 12 of whom had mycoplasma, patients with mycoplasma infection tended to be younger (43 vs. 51 years), were more likely to have a nonproductive cough (42&#x0025; vs. 17&#x0025;), and had less rhinitis (8&#x0025; vs. 62&#x0025;).<xref ref="pubmed12958270" resource="acc017" /></listitem>
+<listitem>Other symptoms thought to be more common in adults with CAP due to mycoplasma include confusion, myalgias, ear pain, diarrhea, erythema multiforme, nonexudative pharyngitis, pericarditis, myocarditis, and heart block.<xref ref="pubmed16669925" resource="acc008" /></listitem>
+<listitem>
+<em>M. pneumoniae</em> is an uncommon cause of encephalitis. In a series of 58 cases, 76&#x0025; had flulike illness prior to onset of neurologic symptoms. A mononuclear pleocytosis was seen in the CSF and imaging abnormalities were identified in about one-third of these children. <xref ref="table001" /> lists other extrapulmonary manifestations.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Order a CXR for any patient who presents with a likelihood of CAP. Although this is standard care, a Cochrane review of 2 trials failed to show that a CXR improved outcome in outpatients with acute lower RTI.<xref ref="cochrane1268" resource="acc025" /></listitem>
+<listitem>An <xref ref="test326" resource="acc001">elevated procalcitonin level</xref> differentiates bacterial from viral pneumonia but is expensive and not required routinely.<xref ref="pubmed16603606" resource="acc014" />
+<xref ref="pubmed20299634" resource="acc026" /> In an RCT of a protocol for CAP based on procalcitonin level versus standard care, there were similar rates of adverse outcomes with fewer days of antibiotics (5.7 vs. 8.7 days for standard care).<xref ref="pubmed19738090" resource="acc027" /></listitem>
+<listitem>Patients with CAP caused by mycoplasma are more likely to have an elevated C-reactive protein (CRP; 83&#x0025; vs. 49&#x0025;) or erythromycin sedimentation rate (ESR; 100&#x0025; vs. 58&#x0025;).<xref ref="pubmed12958270" resource="acc017" /> The National Institute for Health and Clinical Excellence (NICE) recommends obtaining a CRP if, after clinical assessment, a diagnosis of pneumonia has not been made and it is not clear whether antibiotics should be prescribed. Antibiotic therapy should be offered if the concentration is greater than 100 mg&#x002F;L.</listitem>
+<listitem>Real-time PCR tests have been developed that have good sensitivity and specificity for detection of <em>M. pneumoniae</em>.<xref ref="pubmed16541148" resource="acc010" />
+<xref ref="pubmed12958270" resource="acc017" />
+<xref ref="pubmed22541789" resource="acc036" /> However, these are not widely available for clinical point-of-care use.<xref ref="pubmed15293621" resource="acc016" /></listitem>
+<listitem>Based on a meta-analysis, commercial PCR tests have high specificity but insufficient sensitivity (0.62, 95&#x0025; CI, 0.45-0.76) to replace serology for accurate diagnosis.<xref ref="pubmed21985809" resource="acc037" /> A positive PCR result can be due to colonization vs. infection.</listitem>
+<listitem>Paired serology (IgM, IgG) against M. pneumoniae offers definitive diagnosis, but requires between 4 and 8 weeks to complete with several visits needed to collect acute and convalescent sera specimens. IgM titers in the acute phase can remain high for months, so IgM alone is not useful for diagnosis.</listitem>
+<listitem>In a study comparing the performance of serology and PCR in 491 children with and 61 children without CAP, investigators found a positive test for M. pneumoniae (PCR and&#x002F;or paired serology or both) in 13.9&#x0025; with CAP and a positive PCR for M. pneumoniae in 3.3&#x0025; of children without CAP.<xref ref="pubmed32118860" resource="acc055" /> Of the children with CAP, 10.3&#x0025; were positive by multiplex PCR (Seeplex-Seegen), 6.7&#x0025; exhibited quadrupled titers (22 for IgG, 6 for IgM and 5 for both), and both tests were positive in 2.8&#x0025; of cases. Interestingly, 32&#x0025; of children with CAP and 38.3&#x0025; of healthy children had IgM titers &#x003E;11.</listitem>
+<listitem>With respect to serologic assays used for diagnosis, greater standardization is needed, particularly for IgG determination.<xref ref="pubmed23537789" resource="acc040" /> An immunoblotting approach may improve test characteristics.<xref ref="pubmed22502960" resource="acc041" /></listitem>
+<listitem>In a study of 453 patients with symptoms of pneumonia in India, 52 (11.4&#x0025;) were positive for IgM antibodies, 17 were positive by culture, and seven tested positive by PCR (P1 gene).<xref ref="pubmed29016299" resource="acc047" /> The authors concluded that all three methods may be required for accurate diagnosis. Culture, however, is time consuming, may take weeks to obtain and isolate organisms, and requires specialized reference laboratories.</listitem>
+<listitem>Sputum appears to be the preferred specimen over nasopharyngeal swab for simultaneous detection of <em>M. pneumoniae</em>, <em>Chlamydia pneumoniae</em>, and <em>Legionella pneumophila</em> using multiplex PCR in patients with CAP.<xref ref="pubmed22389880" resource="acc038" /> In another study of hospitalized children with pneumonia, PCR from bronchoalveolar lavage and nasopharyngeal aspirate specimens were similar in diagnostic parameters.<xref ref="pubmed21107602" resource="acc039" /></listitem>
+<listitem>A newer test using a loop-mediated isothermal amplification (LAMP) assay, completed in 60 minutes, had high sensitivity and specificity for mycoplasma pneumonia detection that was not inferior to PCR.<xref ref="pubmed29923972" resource="acc048" />
+<xref ref="pubmed35873146" resource="acc056" /> In a case series of children with lower RTI, oropharyngeal loop-mediated isothermal amplification had 100&#x0025; sensitivity and specificity compared with PCR testing.<xref ref="pubmed28712517" resource="acc049" />&#x00A0;</listitem>
+<listitem>A CRISPR-Cas12b-based detection platform has been developed using recombinase polymerase amplification for amplifying the community-acquired respiratory distress syndrome toxin gene of M. pneumoniae strains.<xref ref="pubmed37577370" resource="acc057" /> This test appears to improve sensitivity for detection of M. pneumoniae.</listitem>
+<listitem>An automatic gene analyzer that combines amplification with PCR and the quenching probe method to specify the gene and macrolide-resistant mutations simultaneously (Smart Gene) has been developed in Japan that has high concordance with real-time PCR.<xref ref="pubmed33910960" resource="acc058" /></listitem>
+<listitem>Bronchoscopic imaging may have a role in diagnosis of children with refractory mycoplasma pneumonia.<xref ref="pubmed29390413" resource="acc050" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <xref ref="rule181" resource="acc005">prediction rule</xref> can help identify the likelihood of <em>M. pneumoniae</em> infection in children.</listitem>
+<listitem>Points are assigned for age (0 for &lt;6 months, 1 for 6 months to 2 years, 2 for &#x003E;2-4 years, 3 for &#x003E;4-7 years, and 5 for &#x003E;10 years) and duration of fever in days (0 for &lt;1, 1 for 1-3, 2 for 4-5, 3 for 6-7, 4 for 8-14, and 5 for &#x003E;14 days).</listitem>
+<listitem>The risk of mycoplasma pneumonia is low for children with a total of 0 to 3 points (2&#x0025;), moderate for 4 to 5 points (7&#x0025;), high for 6 to 7 points (28&#x0025;), and very high for 8 to 10 points (65&#x0025;).</listitem>
+<listitem>Based on a systematic review of 20 studies including 5289 patients found that mean differences in CRP, LDH, and &#x0025; neutrophils, and lung consolidation (OR 14.29, 95&#x0025; CI 4.52-45.12) were predictive factors for refractory Mycoplasma pneumonia.<xref ref="pubmed35795531" resource="acc059" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect mycoplasma pneumonia in children and younger adults with nonproductive cough. However, diagnostic testing to confirm diagnosis using PCR or serial titers is not recommended.</listitem>
+<listitem>Follow guidelines for management of CAP in <resourceLink href="info:wiley/eep-eee/681">adults</resourceLink> and <resourceLink href="info:wiley/eep-eee/567">children.</resourceLink></listitem>
+<listitem>Evidence regarding treatment has found no difference in outcomes between macrolides and nonmacrolides or macrolides and quinolones for patients with non-severe community-acquired pneumonia.<xref ref="poem70555" resource="acc013" />
+<xref ref="cochrane4418" resource="acc024" />
+<xref ref="cochrane4875" resource="acc012" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>155</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>234</Dx_ID>
+<Dx_ID>326</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Recommended empiric CAP therapy for adult outpatients without comorbidities or risk factors for drug-resistant pathogens are amoxicillin (<evidence rating="A" system="SORT"> A </evidence>) or doxycycline (<evidence rating="B" system="SORT"> B </evidence>) per the 2019 American Thoracic Society and Infectious Diseases Society of America recommendations;<xref ref="pubmed31573350" resource="acc053" /> these recommendations are based on low quality of evidence (QOE).<xref ref="pubmed32027358" resource="acc060" /> Macrolide monotherapy (azithromycin or clarithromycin) for outpatients with CAP is an option in areas with pneumococcal resistance to macrolides that is lower than 25&#x0025; (moderate QOE). <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed31573350" resource="acc053" /></listitem>
+<listitem>The above guideline recommends a &#x03B2;-lactam (amoxicillin-clavulanate or cephalosporin) plus a macrolide (<evidence rating="A" system="SORT"> A </evidence>; moderate QOE), a &#x03B2;-lactam plus doxycycline (<evidence rating="B" system="SORT"> B </evidence>; low QOE), or monotherapy with a respiratory fluoroquinolone (<evidence rating="A" system="SORT"> A </evidence>; moderate QOE) for CAP in adult outpatients with comorbidities; typical duration is 5-7 days.</listitem>
+<listitem>Comparisons of regimens covering atypical bacteria with &#x03B2;-lactams generally do not show an advantage for &#x03B2;-lactams in patients with mycoplasma pneumonia, although they are recommended based on in vitro efficacy. High-quality studies are lacking. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="cochrane4875" resource="acc012" />
+<xref ref="cochrane4418" resource="acc024" /></listitem>
+<listitem>Give a fluoroquinolone to patients who have comorbidities, who fail initial treatment, or who have recently received antibiotics. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Specific treatment recommendations, including inpatient therapy, are available in the chapter on <resourceLink href="info:wiley/eep-eee/681">community-acquired pneumonia</resourceLink>.</listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>
+<strong>Antibiotic</strong></listitem>
+<listitem>Because an etiologic agent is identified in only 50&#x0025; of patients with CAP, choose treatment on an empiric basis to cover likely pathogens. Initial choice of amoxicillin or doxycycline for a previously healthy adult patient with CAP is recommended by the 2019 Infectious Diseases Society of America&#x002F;American Thoracic Society guidelines.<xref ref="pubmed21880587" resource="acc051" /> Cochrane authors found insufficient evidence to draw any specific conclusions about the efficacy of antibiotics for Mycoplasma pneumonia in children, although one trial suggested that azithromycin may be efficacious.<xref ref="cochrane4875" resource="acc012" /> Quinolones and tetracyclines are contraindicated in children younger than 12 and 7 years, respectively.<xref ref="pubmed21880587" resource="acc051" /> NICE recommends against prescribing quinolones to patients with low-severity CAP.</listitem>
+<listitem>The 2019 guideline recommends a &#x03B2;-lactam (amoxicillin-clavulanate or cephalosporin) plus a macrolide, a &#x03B2;-lactam plus doxycycline, or monotherapy with a respiratory fluoroquinolone for CAP in adult outpatients with comorbidities for 5-7 days.<xref ref="pubmed21880587" resource="acc051" /></listitem>
+<listitem>Studies have not found any differences among macrolides, tetracyclines, and quinolones for treatment of mycoplasma pneumonia. In fact, a meta-analysis of 18 studies comparing a &#x03B2;-lactam with a macrolide, fluoroquinolone, or ketolide found no difference in clinical cure rates for the 211 patients with mycoplasma and 115 with chlamydia pneumonia, but did find a benefit for those with legionella pneumonia.<xref ref="poem70555" resource="acc013" />
+<xref ref="cochrane4418" resource="acc024" /> Similarly, a study comparing primary care treatment of lower RTI found no difference in outcomes between roxithromycin and amoxicillin, but only 1&#x0025; of patients in this study had mycoplasma pneumonia.<xref ref="poem40811" resource="acc018" /> Authors of a Cochrane review also found no significant difference in the incidence of clinical failure on about days 10 to 14 between patients with acute lower respiratory tract infection treated with azithromycin vs. amoxicillin or amoxicillin&#x002F;clavulanic acid.<xref ref="cochrane1954" resource="acc033" /></listitem>
+<listitem>Among children, a meta-analysis of 7 studies with 1491 children found insufficient evidence regarding antibiotics for lower RTI due to <em>M. pneumoniae</em>. They found no difference in clinical response between children receiving a macrolide and a nonmacrolide antibiotic.<xref ref="cochrane4875" resource="acc012" /></listitem>
+<listitem>Authors of a meta-analysis of 5 RCTs, found no significant differences between macrolides and fluoroquinolones for clinical failure rates in CAP associated with any atypical bacteria.<xref ref="pubmed35905552" resource="acc061" /></listitem>
+<listitem>
+<strong>Antibiotic resistance</strong></listitem>
+<listitem>The CDC reports a prevalence of macrolide resistance in M. pneumoniae of about 10&#x0025; in the United States, with regional variability. The most recent report on prevalence of resistance to macrolides for M. pneumoniae worldwide found macrolide-resistant was most common in Asia (63&#x0025;, 95&#x0025; CI 56-69&#x0025;) with much lower rates in Europe, North America, South America and Oceania (3&#x0025;, 8.6&#x0025; [6, 11], 0&#x0025; and 3.3&#x0025;, respectively).<xref ref="pubmed35678262" resource="acc062" /></listitem>
+<listitem>With respect to antibiotic resistance, investigators found a genotypic-resistance rate of 44.4&#x0025; for macrolide-resistant <em>M. pneumoniae</em> among 903 pediatric patients with CAP.<xref ref="pubmed23108427" resource="acc042" /></listitem>
+<listitem>
+<strong>Corticosteroid</strong>s</listitem>
+<listitem>The 2019 guidelines from the American Thoracic Society and the Infectious Diseases Society of America advise against adjunctive corticosteroid treatment except in patients who have other indications for their use such as asthma, COPD, or an autoimmune disease.<xref ref="pubmed31573350" resource="acc053" /></listitem>
+<listitem>Outcomes of studies on corticosteroids for admitted patients with CAP are mixed. One RCT of 304 patients found that dexamethasone added to antibiotic treatment reduced length of stay (6.5 days [5.0-9.0] vs. 7.5 days [5.3-11.5]) but increased rates of hyperglycemia (44&#x0025; vs. 23&#x0025;, respectively). There were no differences in mortality or adverse events.<xref ref="pubmed21636122" resource="acc029" /> Another RCT of 213 patients hospitalized with CAP found no differences between groups randomized to daily prednisolone vs. placebo on outcomes.<xref ref="pubmed20133929" resource="acc030" /></listitem>
+<listitem>Authors of a meta-analysis of 13 Chinese RCTs comparing use of low- versus high-dose methylprednisolone in 1049 children with severe Mycoplasma pneumonia found high-dose significantly more effective than low-dose in clinical efficacy (RR 1.30, 95&#x0025; CI 1.23, 1.38) with no significant difference in adverse events.<xref ref="pubmed31738328" resource="acc063" /> In another meta-analysis of 12 studies including 1130 children, azithromycin combined with corticosteroid treatment improved clinical efficacy in refractory Mycoplasma pneumonia.<xref ref="pubmed32481378" resource="acc064" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Based on a network meta-analysis of 130 RCTs, combination azithromycin and Chinese medicine (Reduning, Tanreqing, Xiyanping, or Yanhuning) was more effective than azithromycin alone, with Tabreqing demonstrating the best clinical efficacy.<xref ref="pubmed34468604" resource="acc065" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Provide supportive care to all patients: hydration, nutritional support, antipyretics, and oxygen as needed.</listitem>
+<listitem>Chest physiotherapy is not helpful in children with pneumonia and may provoke symptoms.<xref ref="poem101202" resource="acc032" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Guidelines recommend outpatient antibiotic treatment for a minimum of 5 days.<xref ref="pubmed31573350" resource="acc053" />
+<xref ref="pubmed33819054" resource="acc066" /></listitem>
+<listitem>NICE recommends a 5-day course of a single antibiotic to patients with low-severity CAP and a 7 to 10 day course of antibiotic therapy for patients with moderate- or high-severity CAP.</listitem>
+<listitem>A Cochrane review of 4 studies found three days of antibiotics as effective as 5 days in children aged 2 to 59 months with non-severe CAP.<xref ref="cochrane5976" resource="acc028" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Patients with CAP who have comorbid conditions should be evaluated using a validated prediction rule such as the <xref ref="rule5" resource="acc004">Pneumonia Severity Index</xref> or <xref ref="rule312" resource="acc003">CURB-65</xref> to assess severity and identify need for hospitalization.</listitem>
+<listitem>Patient demographic characteristics (eg, age), social circumstances (eg, homelessness) and clinician's judgment should be used to augment the prediction rule scoring.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Most cases of pneumonia caused by mycoplasma resolve within 2 weeks. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15611807" resource="acc006" /></listitem>
+<listitem>Mycoplasma encephalitis has a high morbidity (34&#x0025; with sequelae) and mortality (9&#x0025;). <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15658791" resource="acc009" /></listitem>
+<listitem>Myocardial damage can occur; in one study, the median serum CK-MB concentration was significantly higher in children with mycoplasma pneumonia compared with those who were <em>M. pneumoniae</em> IgM negative.<xref ref="pubmed24026772" resource="acc043" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>Mycoplasma infection may exacerbate baseline asthma in children.<xref ref="pubmed15893245" resource="acc011" /></listitem>
+<listitem>Encephalitis is the most common neurologic extrapulmonary occurrence in children.<xref ref="pubmed15489344" resource="acc022" /></listitem>
+<listitem>Authors of a meta-analysis found no difference between macrolides and nonmacrolides for treatment of lower RTI in children due to mycoplasma; in most studies, however, investigators failed to identify children with <em>M. pneumoniae</em>.<xref ref="cochrane4875" resource="acc012" /> A single RCT reviewed by the Cochrane authors demonstrated improved cure rates at 1 month for azithromycin vs. no azithromycin (100&#x0025; vs. 77&#x0025;) among children with recurrent RTIs whose acute lower RTI was due to mycoplasma, chlamydia or both per PCR.</listitem>
+<listitem>An older guideline recommends a macrolide as the empiric antibiotic for children older than 5 years with CAP and high-dose amoxicillin (80-90 mg&#x002F;kg&#x002F;d) for children between the ages of 60 days and 5 years.<xref ref="guideline9690" resource="acc002" /></listitem>
+<listitem>In a meta-analysis of 5 RCTs with 2233 children, the authors found insufficient evidence to support or refute antibiotic treatment for children thought to have mycoplasma pneumonia (enrollment included children with any pneumonia).<xref ref="pubmed24864174" resource="acc044" /> 4 of the 5 studies found no benefit but there was substantial study bias, difficulty interpreting testing modalities, and inability to correct for mixed infections or intervention timing.</listitem>
+<listitem>In an RCT of children admitted with CAP, only those admitted with wheezing (on beta agonists) had a reduction in length of stay when given steroids.<xref ref="pubmed21220397" resource="acc031" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="test326">
+<accessionId id="acc001" href="info:wiley/eep-dx/326" />
+<accessionId id="acc001b" href="info:pmid/14614368" />
+<authors>Prat C, Dominguez J, Rodrigo C, et al.</authors>
+<title>Procalcitonin, C-reactive protein and leukocyte count in children with lower respiratory tract infection.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2003</pubdate>
+<volume>22</volume>
+<pages>963-968.</pages>
+</reference>
+<reference id="guideline9690">
+<accessionId id="acc002" href="info:wiley/eep-guideline/9690" />
+<citation>Cincinnati Children's Hospital Medical Center. Evidence based care guideline for community acquired pneumonia in children 60 days through 17 years of age. Cincinnati, OH: Cincinnati Children's Hospital Medical Center; 2006 Jul. 16 p. Cincinnati (OH): Cincinnati Children's Hospital Medical Center. Evidence based care guideline for community acquired pneumonia in children 60 days through 17 years of age.</citation>
+<url>http://www.cincinnatichildrens.org/assets/0/78/1067/2709/2777/2793/9199/1633ae60-cbd1-4fbd-bba4-cb687fbb1d42.pdf</url>
+<organization>CCH</organization>
+<longtitle />
+<title />
+<dateguideline>7&#x002F;1&#x002F;2006</dateguideline>
+</reference>
+<reference id="rule312">
+<accessionId id="acc003" href="info:wiley/eep-rule/312" />
+<accessionId id="acc003b" href="info:pmid/16447233" />
+<authors>Rudwaleit M, Metter A, Listing J, et al.</authors>
+<title>Inflammatory back pain in ankylosing spondylitis:&#x00A0;A reassessment of the clinical history for application as classification and diagnostic criteria.</title>
+<source>Arth Rheumatism</source>
+<pubdate>2006</pubdate>
+<volume>54</volume>
+<pages>569-578.</pages>
+</reference>
+<reference id="rule5">
+<accessionId id="acc004" href="info:wiley/eep-rule/5" />
+<accessionId id="acc004b" href="info:pmid/8995086" />
+<authors>Fine MJ, Auble TE, Yealy DM, et al.</authors>
+<title>A prediction rule to identify low-risk patients with community-acquired pneumonia.</title>
+<source>N Engl J Med</source>
+<pubdate>1997</pubdate>
+<volume>336</volume>
+<pages>243-250.</pages>
+</reference>
+<reference id="rule181">
+<accessionId id="acc005" href="info:wiley/eep-rule/181" />
+<accessionId id="acc005b" href="info:pmid/12361446" />
+<authors>Fischer JE, Steiner F, Zucol F, et al.</authors>
+<title>Use of simple heuristics to target macrolide prescription in children with community-acquired pneumonia.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2002</pubdate>
+<volume>156</volume>
+<pages>1005-1008.</pages>
+</reference>
+<reference id="pubmed15611807">
+<accessionId id="acc006" href="info:pmid/15611807" />
+<authors>Marrie TJ, Beecroft M, Herman-Gnjidic Z, Poulin-Costello M.</authors>
+<title>Symptom resolution in patients with Mycoplasma pneumoniae pneumonia.</title>
+<source>Can Respir J</source>
+<pubdate>2004</pubdate>
+<volume>11</volume>
+<pages>573-577.</pages>
+</reference>
+<reference id="pubmed17051487">
+<accessionId id="acc007" href="info:pmid/17051487" />
+<authors>Johnson S.</authors>
+<title>Possibly autoantibody complications in Mycoplasma pneumoniae infection.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2006</pubdate>
+<volume>43</volume>
+<pages>1246.</pages>
+</reference>
+<reference id="pubmed16669925">
+<accessionId id="acc008" href="info:pmid/16669925" />
+<authors>Cunha BA.</authors>
+<title>The atypical pneumonias: Clinical diagnosis and importance.</title>
+<source>Clin Microbiol Infect</source>
+<pubdate>2006</pubdate>
+<volume>12(Suppl 3)</volume>
+<pages>12-24.</pages>
+</reference>
+<reference id="pubmed15658791">
+<accessionId id="acc009" href="info:pmid/15658791" />
+<authors>Daxboeck F, Blacky A, Seidl R, Krause R, Assadian O.</authors>
+<title>Diagnosis, treatment, and prognosis of Mycoplasma pneumoniae childhood encephalitis: Systematic review of 58 cases.</title>
+<source>J Child Neurol</source>
+<pubdate>2004</pubdate>
+<volume>19</volume>
+<pages>865-871.</pages>
+</reference>
+<reference id="pubmed16541148">
+<accessionId id="acc010" href="info:pmid/16541148" />
+<authors>Morozumi M, Ito A, Murayama SY, et al.</authors>
+<title>Assessment of real-time PCR for diagnosis of Mycoplasma pneumoniae pneumonia in pediatric patients.</title>
+<source>Can J Microbiol</source>
+<pubdate>2006</pubdate>
+<volume>52</volume>
+<pages>125-129.</pages>
+</reference>
+<reference id="pubmed15893245">
+<accessionId id="acc011" href="info:pmid/15893245" />
+<authors>Gendrel D, Biscardi S, Marc E, Moulin F, Iniguez JL, Raymond J.</authors>
+<title>Mycoplasma pneumoniae, community-acquired pneumonia and asthma.</title>
+<source>Arch Pediatr</source>
+<pubdate>2005</pubdate>
+<volume>12(Suppl 1)</volume>
+<pages>S7-S11.</pages>
+</reference>
+<reference id="cochrane4875">
+<accessionId id="acc012" href="info:wiley/cochrane/CD4875" />
+<chapter_authors>Gardiner SJ, Gavranich JB, Chang AB.</chapter_authors>
+<chapter_title>Antibiotics for community acquired lower respiratory tract infections (LRTI) secondary to Mycoplasma pneumoniae in children (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2015 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem70555">
+<accessionId id="acc013" href="info:wiley/eep-poem/70555" />
+<accessionId id="acc013b" href="info:pmid/15684024" />
+<authors>Mills GD, Oehley MR, Arrol B.</authors>
+<title>Effectiveness of beta lactam antibiotics compared with antibiotics active against atypical pathogens in non-severe community acquired pneumonia: meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2005</pubdate>
+<volume>330</volume>
+<pages>456.</pages>
+</reference>
+<reference id="pubmed16603606">
+<accessionId id="acc014" href="info:pmid/16603606" />
+<authors>Christ-Crain M, Stolz D, Bingisser R, et al.</authors>
+<title>Procalcitonin guidance of antibiotic therapy in community-acquired pneumonia: A randomized trial.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2006</pubdate>
+<volume>174</volume>
+<pages>84-93.</pages>
+</reference>
+<reference id="pubmed9356004">
+<accessionId id="acc015" href="info:pmid/9356004" />
+<authors>Metlay JP, Kapoor WN, Fine MJ.</authors>
+<title>Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination.</title>
+<source>JAMA</source>
+<pubdate>1997</pubdate>
+<volume>278</volume>
+<pages>1440-1445.</pages>
+</reference>
+<reference id="pubmed15293621">
+<accessionId id="acc016" href="info:pmid/15293621" />
+<authors>Blasi F.</authors>
+<title>Atypical pathogens and respiratory tract infections.</title>
+<source>Eur Respir J</source>
+<pubdate>2004</pubdate>
+<volume>24</volume>
+<pages>171-181.</pages>
+</reference>
+<reference id="pubmed12958270">
+<accessionId id="acc017" href="info:pmid/12958270" />
+<authors>Templeton KE, Scheltinga SA, Graffelman AW, et al.</authors>
+<title>Comparison and evaluation of real-time PCR, real-time nucleic acid sequence-based amplification, conventional PCR, and serology for diagnosis of Mycoplasma pneumoniae.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2003</pubdate>
+<volume>41</volume>
+<pages>4366-4371.</pages>
+</reference>
+<reference id="poem40811">
+<accessionId id="acc018" href="info:wiley/eep-poem/40811" />
+<accessionId id="acc018b" href="info:pmid/11978255" />
+<authors>Hopstaken RM, Nelemans P, Stobberingh EE, Muris JW, Rinkens PE, Dinant GJ.</authors>
+<title>Is roxithromycin better than amoxicillin in the treatment of acute lower respiratory tract infections in primary care? A double-blind randomized controlled trial.</title>
+<source>J Fam Pract</source>
+<pubdate>2002</pubdate>
+<volume>51</volume>
+<pages>329-336.</pages>
+</reference>
+<reference id="poem60679">
+<accessionId id="acc019" href="info:wiley/eep-poem/60679" />
+<accessionId id="acc019b" href="info:pmid/15060215" />
+<authors>Michelow IC, Olsen K, Lozano J, et al.</authors>
+<title>Epidemiology and clinical characteristics of community-acquired pneumonia in hospitalized children.</title>
+<source>Pediatrics</source>
+<pubdate>2004</pubdate>
+<volume>113</volume>
+<pages>701-707.</pages>
+</reference>
+<reference id="pubmed15672850">
+<accessionId id="acc020" href="info:pmid/15672850" />
+<authors>Marrie TJ, Poulin-Costello M, Beecroft MD, Herman-Gnjidic Z.</authors>
+<title>Etiology of community-acquired pneumonia treated in an ambulatory setting.</title>
+<source>Respir Med</source>
+<pubdate>2005</pubdate>
+<volume>99</volume>
+<pages>60-65.</pages>
+</reference>
+<reference id="pubmed11979130">
+<accessionId id="acc021" href="info:pmid/11979130" />
+<authors>Hammerschlag MR.</authors>
+<title>Mycoplasma pneumoniae infections.</title>
+<source>Curr Opin Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>14</volume>
+<pages>181-186.</pages>
+</reference>
+<reference id="pubmed15489344">
+<accessionId id="acc022" href="info:pmid/15489344" />
+<authors>Waites KB, Talkington DF.</authors>
+<title>Mycoplasma pneumoniae and its role as a human pathogen.</title>
+<source>Clin Microbiol Rev</source>
+<pubdate>2004</pubdate>
+<volume>17</volume>
+<pages>697-728.</pages>
+</reference>
+<reference id="pubmed12376023">
+<accessionId id="acc023" href="info:pmid/12376023" />
+<authors>Lieberman D, Lieberman D, Ben-Yaakov M, et al.</authors>
+<title>Serological evidence of Mycoplasma pneumoniae infection in acute exacerbation of COPD.</title>
+<source>Diagn Microbiol Infect Dis</source>
+<pubdate>2002</pubdate>
+<volume>44</volume>
+<pages>1-6.</pages>
+</reference>
+<reference id="cochrane4418">
+<accessionId id="acc024" href="info:wiley/cochrane/CD4418" />
+<chapter_authors>Robenshtok E, Shefet D, Gafter-Gvili A, Paul M, Vidal L, Leibovici L.</chapter_authors>
+<chapter_title>Empiric antibiotic coverage of atypical pathogens for community acquired pneumonia in hospitalized adults (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2008 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1268">
+<accessionId id="acc025" href="info:wiley/cochrane/CD1268" />
+<chapter_authors>Swingler GH, Zwarenstein M.</chapter_authors>
+<chapter_title>Chest radiograph in acute respiratory infections (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed20299634">
+<accessionId id="acc026" href="info:pmid/20299634" />
+<authors>M&#x00FC;ller F, Christ-Crain M, Bregenzer T, Krause M, Zimmerli W, Mueller B, Schuetz P; ProHOSP Study Group.</authors>
+<title>Procalcitonin levels predict bacteremia in patients with community-acquired pneumonia: A prospective cohort trial.</title>
+<source>Chest</source>
+<pubdate>2010</pubdate>
+<volume>138</volume>
+<pages>121-129.</pages>
+</reference>
+<reference id="pubmed19738090">
+<accessionId id="acc027" href="info:pmid/19738090" />
+<authors>Schuetz P, Christ-Crain M, Thomann R, et al.; ProHOSP Study Group.</authors>
+<title>Effect of procalcitonin-based guidelines vs. standard guidelines on antibiotic use in lower respiratory tract infections: The ProHOSP randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2009</pubdate>
+<volume>302</volume>
+<pages>1059-1066.</pages>
+</reference>
+<reference id="cochrane5976">
+<accessionId id="acc028" href="info:wiley/cochrane/CD5976" />
+<chapter_authors>Haider BA, Lassi ZS, Bhutta ZA.</chapter_authors>
+<chapter_title>Short-course versus long-course antibiotic therapy for non-severe community-acquired pneumonia in children aged 2 months to 59 months (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed21636122">
+<accessionId id="acc029" href="info:pmid/21636122" />
+<authors>Meijvis SC, Hardeman H, Remmelts HH, et al.</authors>
+<title>Dexamethasone and length of hospital stay in patients with community-acquired pneumonia: A randomised, double-blind, placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2011</pubdate>
+<volume>377</volume>
+<pages>2023-2030.</pages>
+</reference>
+<reference id="pubmed20133929">
+<accessionId id="acc030" href="info:pmid/20133929" />
+<authors>Snijders D, Daniels JM, de Graaff CS, van der Werf TS, Boersma WG.</authors>
+<title>Efficacy of corticosteroids in community-acquired pneumonia: A randomized double-blinded clinical trial.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2010</pubdate>
+<volume>181</volume>
+<pages>975-982.</pages>
+</reference>
+<reference id="pubmed21220397">
+<accessionId id="acc031" href="info:pmid/21220397" />
+<authors>Weiss AK, Hall M, Lee GE, Kronman MP, Sheffler-Collins S, Shah SS.</authors>
+<title>Adjunct corticosteroids in children hospitalized with community-acquired pneumonia.</title>
+<source>Pediatrics</source>
+<pubdate>2011</pubdate>
+<volume>127</volume>
+<pages>e255-e263.</pages>
+</reference>
+<reference id="poem101202">
+<accessionId id="acc032" href="info:wiley/eep-poem/101202" />
+<accessionId id="acc032b" href="info:pmid/18276723" />
+<authors>Paludo C, Zhang L, Lincho CS, Lemos DV, Real GG, Bergamin JA.</authors>
+<title>Chest physical therapy for children hospitalised with acute pneumonia: A randomised controlled trial.</title>
+<source>Thorax</source>
+<pubdate>2008</pubdate>
+<volume>63</volume>
+<pages>791-794.</pages>
+</reference>
+<reference id="cochrane1954">
+<accessionId id="acc033" href="info:wiley/cochrane/CD1954" />
+<chapter_authors>Laopaiboon M, Panpanich R, Lerttrakarnnon P.</chapter_authors>
+<chapter_title>Azithromycin for acute lower respiratory tract infections (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 11.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed23040512">
+<accessionId id="acc034" href="info:pmid/23040512" />
+<authors>He XY, Wang XB, Zhang R, Yuan ZJ, Tan JJ, Peng B, Huang Y, Liu EM, Fu Z, Bao LM, Zou L.</authors>
+<title>Investigation of Mycoplasma pneumoniae infection in pediatric population from 12,025 cases with respiratory infection.</title>
+<source>Diagn Microbiol Infect Dis</source>
+<pubdate>2013</pubdate>
+<volume>75</volume>
+<pages>22-27</pages>
+</reference>
+<reference id="cochrane9175">
+<accessionId id="acc035" href="info:wiley/cochrane/CD9175" />
+<chapter_authors>Wang K, Gill P, Perera R, Thomson A, Mant D, Harnden A.</chapter_authors>
+<chapter_title>Clinical symptoms and signs for the diagnosis of Mycoplasma pneumoniae in children and adolescents with community-acquired pneumonia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 10. Art. No.: CD009175. DOI: 10.1002&#x002F;14651858.CD009175.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22541789">
+<accessionId id="acc036" href="info:pmid/22541789" />
+<authors>Diaz MH, Winchell JM.</authors>
+<title>Detection of Mycoplasma pneumoniae and Chlamydophila pneumoniae directly from respiratory clinical specimens using a rapid real-time polymerase chain reaction assay.</title>
+<source>Diagn Microbiol Infect Dis</source>
+<pubdate>2012</pubdate>
+<volume>73</volume>
+<pages>278-280</pages>
+</reference>
+<reference id="pubmed21985809">
+<accessionId id="acc037" href="info:pmid/21985809" />
+<authors>Zhang L, Zong ZY, Liu YB, Ye H, Lv XJ.</authors>
+<title>PCR versus serology for diagnosing Mycoplasma pneumoniae infection: A systematic review &amp; meta-analysis.</title>
+<source>Indian J Med Res</source>
+<pubdate>2011</pubdate>
+<volume>134</volume>
+<pages>270-280</pages>
+</reference>
+<reference id="pubmed22389880">
+<accessionId id="acc038" href="info:pmid/22389880" />
+<authors>Cho MC, Kim H, An D, Lee M, Noh SA, Kim MN, Chong YP, Woo JH.</authors>
+<title>Comparison of sputum and nasopharyngeal swab specimens for molecular diagnosis of Mycoplasma pneumoniae, Chlamydophila pneumoniae, and Legionella pneumophila.</title>
+<source>Ann Lab Med</source>
+<pubdate>2012</pubdate>
+<volume>32</volume>
+<pages>133-138</pages>
+</reference>
+<reference id="pubmed21107602">
+<accessionId id="acc039" href="info:pmid/21107602" />
+<authors>Xu D, Li S, Chen Z, Du L.</authors>
+<title>Detection of Mycoplasma pneumoniae in different respiratory specimens.</title>
+<source>Eur J Pediatr</source>
+<pubdate>2011</pubdate>
+<volume>170</volume>
+<pages>851-858</pages>
+</reference>
+<reference id="pubmed23537789">
+<accessionId id="acc040" href="info:pmid/23537789" />
+<authors>Busson L, Van den Wijngaert S, Dahma H, Decolvenaer M, Di Cesare L, Martin A, Vasseur L, Vandenberg O.</authors>
+<title>Evaluation of 10 serological assays for diagnosing Mycoplasma pneumoniae infection.</title>
+<source>Diagn Microbiol Infect Dis</source>
+<pubdate>2013</pubdate>
+<volume>76</volume>
+<pages>133-137</pages>
+</reference>
+<reference id="pubmed22502960">
+<accessionId id="acc041" href="info:pmid/22502960" />
+<authors>Dumke R, Strubel A, Cyncynatus C, Nuyttens H, Herrmann R, L&#x00FC;ck C, Jacobs E.</authors>
+<title>Optimized serodiagnosis of Mycoplasma pneumoniae infections.</title>
+<source>Diagn Microbiol Infect Dis</source>
+<pubdate>2012</pubdate>
+<volume>73</volume>
+<pages>200-203</pages>
+</reference>
+<reference id="pubmed23108427">
+<accessionId id="acc042" href="info:pmid/23108427" />
+<authors>Morozumi M, Chiba N, Okada T, Sakata H, Matsubara K, Iwata S, Ubukata K.</authors>
+<title>Antibiotic susceptibility in relation to genotype of Streptococcus pneumoniae, Haemophilus influenzae, and Mycoplasma pneumoniae responsible for community-acquired pneumonia in children.</title>
+<source>J Infect Chemother</source>
+<pubdate>2013</pubdate>
+<volume>19</volume>
+<pages>432-440</pages>
+</reference>
+<reference id="pubmed24026772">
+<accessionId id="acc043" href="info:pmid/24026772" />
+<authors>Li CM, Gu L, Yin SJ, Yang R, Xie Y, Guo XZ, Fu YX, Cheng D.</authors>
+<title>Age-specific Mycoplasma pneumoniae pneumonia-associated myocardial damage in children.</title>
+<source>J Int Med Res</source>
+<pubdate>2013</pubdate>
+<volume>41</volume>
+<pages>1716-1723</pages>
+</reference>
+<reference id="pubmed24864174">
+<accessionId id="acc044" href="info:pmid/24864174" />
+<authors> Biondi E, McCulloh R, Alverson B, Klein A, Dixon A.</authors>
+<title>Treatment of mycoplasma pneumonia: A systematic review.</title>
+<source>Pediatrics</source>
+<pubdate>2014</pubdate>
+<volume>133</volume>
+<pages>1081&#x2013;1090</pages>
+</reference>
+<reference id="pubmed25714161">
+<accessionId id="acc045" href="info:pmid/25714161" />
+<authors> Jain S, Williams DJ, Arnold SR, Ampofo K, Bramley AM, Reed C, Stockmann C, Anderson EJ, Grijalva CG, Self WH, Zhu Y, Patel A, Hymas W, Chappell JD, Kaufman RA, Kan JH, Dansie D, Lenny N, Hillyard DR, Haynes LM, Levine M, Lindstrom S, Winchell JM, Katz JM, Erdman D, Schneider E, Hicks LA, Wunderink RG, Edwards KM, Pavia AT, McCullers JA, Finelli L; CDC EPIC Study Team.</authors>
+<title>Community-acquired pneumonia requiring hospitalization among U.S. children.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>372</volume>
+<pages>835&#x2013;845</pages>
+</reference>
+<reference id="pubmed28403117">
+<accessionId id="acc046" href="info:pmid/28403117" />
+<authors> Zhao J, Zhang W, Shen L, Yang X, Liu Y, Gai Z.</authors>
+<title>Association of the ACE, GSTM1, IL-6, NOS3, and CYP1A1 polymorphisms with susceptibility of mycoplasma pneumoniae pneumonia in Chinese children.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2017</pubdate>
+<volume>96</volume>
+<pages>e6642</pages>
+</reference>
+<reference id="pubmed29016299">
+<accessionId id="acc047" href="info:pmid/29016299" />
+<authors> Chaudhry R, Valavane A, Sreenath K, Choudhary M, Sagar T, Shende T, Varma-Basil M, Mohanty S, Kabra SK, Dey AB, Thakur B.</authors>
+<title>Detection of <em>Mycoplasma pneumoniae</em> and <em>Legionella pneumophila</em> in patients having community-acquired pneumonia: A multicentric study from New Delhi, India.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2017</pubdate>
+<volume>97</volume>
+<pages>1710&#x2013;1716</pages>
+</reference>
+<reference id="pubmed29923972">
+<accessionId id="acc048" href="info:pmid/29923972" />
+<authors> Yuan X, Bai C, Cui Q, Zhang H, Yuan J, Niu K, Feng Y, Jin X, Li P, Liu H.</authors>
+<title>Rapid detection of Mycoplasma pneumoniae by loop-mediated isothermal amplification assay.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e10806</pages>
+</reference>
+<reference id="pubmed28712517">
+<accessionId id="acc049" href="info:pmid/28712517" />
+<authors> Kakuya F, Kinebuchi T, Okubo H, Matsuo K.</authors>
+<title>Comparison of oropharyngeal and nasopharyngeal swab specimens for the detection of mycoplasma pneumoniae in children with lower respiratory tract infection.</title>
+<source>J Pediatr</source>
+<pubdate>2017</pubdate>
+<volume>189</volume>
+<pages>218&#x2013;221</pages>
+</reference>
+<reference id="pubmed29390413">
+<accessionId id="acc050" href="info:pmid/29390413" />
+<authors> Wang L, Lu S, Feng Z, Li L, Niu B, Shuai J, Cao L, Li G, Liu J.</authors>
+<title>The early examination of combined serum and imaging data under flexible fiberoptic bronchoscopy as a novel predictor for refractory Mycoplasma pneumoniae pneumonia diagnosis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2017</pubdate>
+<volume>96</volume>
+<pages>e9364</pages>
+</reference>
+<reference id="pubmed21880587">
+<accessionId id="acc051" href="info:pmid/21880587" />
+<authors> Bradley JS, Byington CL, Shah SS, Alverson B, Carter ER, Harrison C, Kaplan SL, Mace SE, McCracken GH Jr, Moore MR, St Peter SD, Stockwell JA, Swanson JT, Pediatric Infectious Diseases Society and the Infectious Diseases Society of America.</authors>
+<title>The management of community-acquired pneumonia in infants and children older than 3 months of age: Clinical practice guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>53</volume>
+<pages>e25&#x2013;76</pages>
+</reference>
+<reference id="pubmed33932544">
+<accessionId id="acc052" href="info:pmid/33932544" />
+<authors> Liu X, Wang Y, Chen C, Liu K.</authors>
+<title>Mycoplasma pneumoniae infection and risk of childhood asthma: A systematic review and meta-analysis.</title>
+<source>Microb Pathog</source>
+<pubdate>2021</pubdate>
+<volume>155</volume>
+<pages>104893</pages>
+</reference>
+<reference id="pubmed31573350">
+<accessionId id="acc053" href="info:pmid/31573350" />
+<authors> Metlay JP, Waterer GW, Long AC, Anzueto A, Brozek J , Crothers K , Cooley LA , Dean NC , Fine MJ, Flanders SA , Griffin MR , Metersky ML , Musher DM, Restrepo MI, Whitney CG.</authors>
+<title>Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2019</pubdate>
+<volume>200</volume>
+<pages>e45&#x2013;e67</pages>
+</reference>
+<reference id="pubmed32473235">
+<accessionId id="acc054" href="info:pmid/32473235" />
+<authors> Lansbury L, Lim B, Baskaran V, Lim WS.</authors>
+<title>Co-infections in people with COVID-19: a systematic review and meta-analysis.</title>
+<source>J Infect</source>
+<pubdate>2020</pubdate>
+<volume>81</volume>
+<pages>266&#x2013;275</pages>
+</reference>
+<reference id="pubmed32118860">
+<accessionId id="acc055" href="info:pmid/32118860" />
+<authors> Copete AR, Vera C, Herrera M, Aguilar YA, Rueda ZV, V&#x00E9;lez LA.</authors>
+<title>Mycoplasma pneumoniae in Children With and Without Community-acquired Pneumonia. What do PCR and Serology Say?</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2020</pubdate>
+<volume>39</volume>
+<pages>e104&#x2013;e108</pages>
+</reference>
+<reference id="pubmed35873146">
+<accessionId id="acc056" href="info:pmid/35873146" />
+<authors> Xiao F, Zhou J, Sun C, Huang X, Zheng B, Fu J, Jia N, Xu Z, Cui X, Wang Y.</authors>
+<title>Loop-Mediated Isothermal Amplification Coupled With Nanoparticle-Based Biosensor: A Rapid and Sensitive Method to Detect <em>Mycoplasma pneumoniae</em>.</title>
+<source>Front Cell Infect Microbiol</source>
+<pubdate>2022</pubdate>
+<volume>12</volume>
+<pages>882855</pages>
+</reference>
+<reference id="pubmed37577370">
+<accessionId id="acc057" href="info:pmid/37577370" />
+<authors> Zhou J, Xiao F, Fu J, Jia N, Huang X, Sun C, Xu Z, Zhang Y, Qu D, Wang Y.</authors>
+<title>Rapid, ultrasensitive and highly specific diagnosis of <em>Mycoplasma pneumoniae</em> by a CRISPR-based detection platform.</title>
+<source>Front Cell Infect Microbiol</source>
+<pubdate>2023</pubdate>
+<volume>13</volume>
+<pages>1147142</pages>
+</reference>
+<reference id="pubmed33910960">
+<accessionId id="acc058" href="info:pmid/33910960" />
+<authors> Kakiuchi T, Miyata I, Kimura R, Shimomura G, Shimomura K, Yamaguchi S, Yokoyama T, Ouchi K, Matsuo M.</authors>
+<title>Clinical Evaluation of a Novel Point-of-Care Assay To Detect Mycoplasma pneumoniae and Associated Macrolide-Resistant Mutations.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2021</pubdate>
+<volume>59</volume>
+<pages>e0324520</pages>
+</reference>
+<reference id="pubmed35795531">
+<accessionId id="acc059" href="info:pmid/35795531" />
+<authors> Huang W , Xu X , Zhao W , Cheng Q .</authors>
+<title>Refractory Mycoplasma Pneumonia in Children: A Systematic Review and Meta-analysis of Laboratory Features and Predictors.</title>
+<source>J Immunol Res</source>
+<pubdate>2022</pubdate>
+<volume>2022</volume>
+<pages>9227838</pages>
+</reference>
+<reference id="pubmed32027358">
+<accessionId id="acc060" href="info:pmid/32027358" />
+<authors> Olson G, Davis AM.</authors>
+<title>Diagnosis and Treatment of Adults With Community-Acquired Pneumonia.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>323</volume>
+<pages>885&#x2013;886</pages>
+</reference>
+<reference id="pubmed35905552">
+<accessionId id="acc061" href="info:pmid/35905552" />
+<authors> Basilim A, Wali H, Rabaan AA, Eljaaly K.</authors>
+<title>Efficacy of empiric macrolides versus fluoroquinolones in community-acquired pneumonia associated with atypical bacteria: A meta-analysis.</title>
+<source>Respir Med Res</source>
+<pubdate>2022</pubdate>
+<volume>82</volume>
+<pages>100931</pages>
+</reference>
+<reference id="pubmed35678262">
+<accessionId id="acc062" href="info:pmid/35678262" />
+<authors> Wang G, Wu P, Tang R, Zhang W.</authors>
+<title>Global prevalence of resistance to macrolides in Mycoplasma pneumoniae: a systematic review and meta-analysis.</title>
+<source>J Antimicrob Chemother</source>
+<pubdate>2022</pubdate>
+<volume>77</volume>
+<pages>2353&#x2013;2363</pages>
+</reference>
+<reference id="pubmed31738328">
+<accessionId id="acc063" href="info:pmid/31738328" />
+<authors> Sun LL, Ye C, Zhou YL, Zuo SR, Deng ZZ, Wang CJ.</authors>
+<title>Meta-analysis of the Clinical Efficacy and Safety of High- and Low-dose Methylprednisolone in the Treatment of Children With Severe Mycoplasma Pneumoniae Pneumonia.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2020</pubdate>
+<volume>39</volume>
+<pages>177&#x2013;183</pages>
+</reference>
+<reference id="pubmed32481378">
+<accessionId id="acc064" href="info:pmid/32481378" />
+<authors> Qiu JL, Huang L, Shao MY, Chai YN, Zhang HJ, Li XF, Sun XX, Zhao QY, Duan F, Zhai WS.</authors>
+<title>Efficacy and safety of azithromycin combined with glucocorticoid on refractory Mycoplasma pneumoniae pneumonia in children: A PRISMA-compliant systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e20121</pages>
+</reference>
+<reference id="pubmed34468604">
+<accessionId id="acc065" href="info:pmid/34468604" />
+<authors> Jin L , Chen P , Xu Y .</authors>
+<title>Effects of four types of chinese medicines as concomitant drugs with azithromycin for the treatment of mycoplasma pneumonia in children in China: a network meta-analysis.</title>
+<source>Rev Assoc Med Bras (1992)</source>
+<pubdate>2021</pubdate>
+<volume>67</volume>
+<pages>395&#x2013;399</pages>
+</reference>
+<reference id="pubmed33819054">
+<accessionId id="acc066" href="info:pmid/33819054" />
+<authors> Lee RA , Centor RM , Humphrey LL, Jokela JA , Andrews R , Qaseem A , Scientific Medical Policy Committee of the American College of Physicians, Akl EA, Bledsoe TA, Forciea MA, Haeme R, Kansagara DL, Marcucci M, Miller MC, Obley AJ.</authors>
+<title>Appropriate Use of Short-Course Antibiotics in Common Infections: Best Practice Advice From the American College of Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>2021</pubdate>
+<volume>174</volume>
+<pages>822&#x2013;827</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Common Extrapulmonary Manifestations of <em>Mycoplasma pneumoniae</em> Infection.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Organ System</th>
+<th align="left" colspan="1">Complications of Mycoplasma</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Gastroenterologic</td>
+<td align="left" colspan="1">Nausea, vomiting, diarrhea</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Central nervous system</td>
+<td align="left" colspan="1">Encephalitis (in children), aseptic meningitis, cranial nerve palsies, Guillan-Barr&#x00E9; syndrome</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dermatologic</td>
+<td align="left" colspan="1">Erythematous maculopapular eruptions; mucocutaneous syndromes</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Musculoskeletal</td>
+<td align="left" colspan="1">Myalgias, arthralgias, polyarthropathy</td>
+</tr>
+</table>Data from Waites KB, Talkington DF. Mycoplasma pneumoniae and its role as a human pathogen. <em>Clin Microbiol Rev</em> 2004;<strong>17</strong>:697-728; Cunha BA. The atypical pneumonias: clinical diagnosis and importance. <em>Clin Microbiol Infect</em> 2006;<strong>12</strong>(Suppl 3):12-24</feature_body>
+</feature>
+</feature_group>
+</topic>

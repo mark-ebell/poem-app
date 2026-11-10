@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Deep vein thrombosis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0028</topic_id>
+<topic_comment />
+<topic_lastupdated>09/25/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Lawrence M. Gibbs, MD MSEd</author_name>
+<author_title>Faculty Physician</author_title>
+<author_department>Family Medicine Residency Program</author_department>
+<author_institution>Methodist Health System</author_institution>
+<author_email>lawrencegibbs&#x0040;mhd.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Dallas</author_city>
+<author_state>TX</author_state>
+<author_zip>TX 75237</author_zip>
+</author>
+<author primary="no">
+<author_name>Lauren C. Walden, MD</author_name>
+<author_title>Geriatrics Fellow</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>John Peter Smith Health Network</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1>1500 S Main St.</author_street1>
+<author_street2 />
+<author_city>Fort Worth</author_city>
+<author_state>TX</author_state>
+<author_zip>76104</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Augusta University &#x2212; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Use a validated clinical rule like the Wells score for an estimation of the pretest probability of deep vein thrombosis (DVT) to assist with the diagnostic process.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Compression ultrasonography is the best initial imaging test for detecting clinically significant DVT.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>A normal D-dimer test in a low-risk patient rules out DVT.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For acute DVT, treat patients with one of the new oral anticoagulants (apixaban, rivaroxaban). If choosing warfarin, dabigatran, or edoxaban, bridge with unfractionated heparin (UFH) or low-molecular-weight heparin (LMWH) for at least 5 days; for warfarin, discontinue heparin when the INR has stabilized between 2 and 3.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Initial outpatient treatment of DVT with LMWH is an option for clinically stable patients with adequate follow-up.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For patients with acute isolated distal DVT, the ACCP guidelines recommend 2 weeks of serial imaging, with anticoagulation only if it extends or if the patient has severe symptoms or risk factors for extension.<evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>
+<list style="bulleted">
+<listitem>DVT is a partial or total thrombotic occlusion of the deep venous system, most often of the legs. DVT and pulmonary embolism (PE) are both components of the clinical presentation of venous thromboembolism (VTE).</listitem>
+</list>
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>100 episodes&#x002F;100,000 persons&#x002F;y.<xref ref="pubmed18574271" resource="acc001" /></listitem>
+<listitem>An estimated 900,000 VTE cases (DVT or PE) occur annually and account for up to 300,000 deaths.<xref ref="pubmed17433897" resource="acc109" /></listitem>
+<listitem>Without prophylaxis, the incidence of hospital-acquired DVT in medical or general surgical patients is 10&#x0025; to 40&#x0025; and is even higher after major orthopedic surgery.<xref ref="pubmed18574271" resource="acc001" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact>
+<list style="bulleted">
+<listitem>High costs are associated with both the initial event and the long-term complications such as recurrent VTE and the postthrombotic syndrome.<xref ref="pubmed17032933" resource="acc005" /></listitem>
+</list>
+</economic_impact>
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Most patients have one or more risk factors (<xref ref="table001" />).<xref ref="pubmed11487047" resource="acc044" /><xref ref="poem71054" resource="acc031" /></listitem>
+<listitem>DVT of the upper extremity (UEDVT) is associated with intravascular catheters, strain&#x002F;trauma, thrombophilic states, and a previous UEDVT.<xref ref="pubmed8996041" resource="acc043" /> Up to 3&#x0025; of peripherally inserted central catheters (PICC) may be associated with DVT.<xref ref="poem151043" resource="acc074" /></listitem>
+<listitem>Patients with active cancer have a higher risk of VTE. Idiopathic (unprovoked) DVT may be a sign of malignancy or thrombophilia.<xref ref="pubmed8943165" resource="acc042" /> However, in one large series only 1 in 146 patients with idiopathic DVT had cancer, and 40&#x0025; of those were metastatic, which is of little benefit to diagnosis.<xref ref="poem417" resource="acc041" /></listitem>
+<listitem>Patients undergoing elective knee arthroscopy have a low rate of symptomatic VTE.<xref ref="poem140643" resource="acc075" /><xref ref="poem150342" resource="acc077" /></listitem>
+<listitem>Centrally inserted CVCs are associated with a 3&#x0025; risk of serious complications including DVT (2.7 per 1000 catheter days). Risks associated with insertion can be decreased by using ultrasonography guidance.<xref ref="poem383913" resource="acc116" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Vascular endothelial injury promotes platelet adhesion, resulting in a hemostatic plug, which activates the coagulation pathway. This is normally opposed by flow dilution and circulating anticoagulants and thrombolytics.</listitem>
+<listitem>DVT results when there is vascular endothelial injury, venous flow stasis, or a hypercoagulable state (Virchow's triad) that cause the physiologic thrombotic process to predominate over the thrombolytic.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Major orthopedic, spinal cord, or general surgery</Risk_Name>
+<Risk_OR>More than 10</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Trauma or joint replacement</Risk_Name>
+<Risk_OR>More than 10</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Arthoscopic knee surgery</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Central venous lines</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Congestive heart or respiratory failure</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chemotherapy or malignancy</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hormone replacement therapy (HRT), oral contraceptives (OCPs), pregnancy, or post-partum</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Paralytic stroke</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Thrombophilia</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Previous venous thromboembolism</Risk_Name>
+<Risk_OR>2-9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Bed rest or immobility due to sitting</Risk_Name>
+<Risk_OR>Less than 2</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Varicose veins</Risk_Name>
+<Risk_OR>Less than 2</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Increased age and obesity</Risk_Name>
+<Risk_OR>Less than 2</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Laproscopic surgery</Risk_Name>
+<Risk_OR>Less than 2</Risk_OR>
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Assess each medical and surgical patient for the risk of developing VTE and institute appropriate thromboprophylaxis (see Table 1 in Pulmonary Embolism topic).<xref ref="pubmed18574271" resource="acc001" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Do not screen routinely for asymptomatic DVT since it is not cost effective and has not been demonstrated to improve outcomes.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed7969340" resource="acc006" /><xref ref="pubmed18574271" resource="acc001" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Routine screening for asymptomatic DVT has not been supported by large studies and is not recommended.<xref ref="pubmed9313000" resource="acc040" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Follow American College of Chest Physicians (ACCP) guidelines for prophylaxis in at-risk patients (see Table 1 in Pulmonary Embolism topic).<xref ref="pubmed18574271" resource="acc001" /> Universal prophylaxis is not recommended but should be based on physician judgment and patient risk for VTE.</listitem>
+<listitem>Padua prediction score (PPS) is a proven model for the assessment of VTE risk in hospitalized medical patients and is associated with reduced VTE incidence when compared with clinical judgement.<xref ref="pubmed27052516" resource="acc092" /></listitem>
+<listitem>Options for VTE prophylaxis include pharmacologic (subcutaneous heparin, LMWH, or fondaparinux) and mechanical measures (graduated compression stockings, intermittent compression devices, and venous foot pumps).<xref ref="pubmed18574271" resource="acc001" /></listitem>
+<listitem>For medical inpatients at moderate or high-risk, consider prophylaxis with LMWH, UFH, or fondaparinux. If choosing UFH, 5000 U three times a day dosing results in 10 fewer PEs, 20 fewer DVTs, and 4 more major bleeds per 10,000 patient days than twice a day dosing.<xref ref="poem90405" resource="acc039" /> UFH is preferred in patients with low GFR.</listitem>
+<listitem>One study found Dalteparin 5000 IU daily no more effective than UFH 5000 U twice daily for the prevention of proximal lower extremity DVT in ICU patients.<xref ref="poem130634" resource="acc055" /></listitem>
+<listitem>In high-risk surgical and orthopedic patients, consider LMWH, UFH, or fondaparinux.<xref ref="pubmed18574271" resource="acc001" /><xref ref="cochrane3747" resource="acc049" /> One study found that fondaparinux was more effective than enoxaparin in patients undergoing major orthopedic surgery.<xref ref="poem61003" resource="acc038" /> Continue prophylaxis for 4 weeks in cancer patients undergoing surgery.<xref ref="poem40710" resource="acc037" /> In patients undergoing hip replacement, 21 days of thromboprophylaxis is more effective than shorter course (with a higher risk of minor bleeding).<xref ref="poem140752" resource="acc072" /> Enoxaparin appears to be superior to aspirin for VTE prophylaxis after total hip arthroplasty or total knee replacement.<xref ref="poem396477" resource="acc111" /></listitem>
+<listitem>Moderate quality evidence supports extended duration anticoagulation (up to 35 days) to prevent VTE post-hip replacement surgery, but risk of minor bleeding is increased. Further evidence is needed regarding extended prophylaxis for knee replacement or hip fracture repair.<xref ref="pubmed27027384" resource="acc093" /></listitem>
+<listitem>In patients having undergone abdominal or pelvic surgery, continuation of LMWH for at least 14 days was found to reduce the risk of VTE.<xref ref="cochrane4318" resource="acc099" /></listitem>
+<listitem>Once daily LMWH is equally as effective as BID dosing in reducing the incidence of DVT.<xref ref="cochrane3074" resource="acc081" /></listitem>
+<listitem>Non-pharmacolgoic management with external pneumatic compression is preferred in patients undergoing neurosurgical or urologic surgery because of the increased risk if bleeding occurs, and as an adjunct to anticoagulation treatment in other surgical procedures.<xref ref="pubmed12426286" resource="acc036" /><xref ref="pubmed18574271" resource="acc001" /><xref ref="poem40763" resource="acc035" /> In one study, a mobile compression device was similar to LMWH in preventing DVT after hip replacement surgery. However, it had methodologic flaws, and more evidence is needed.<xref ref="poem120545" resource="acc050" /> Data regarding prophylaxis using anticoagulants following abdominal aortic surgery are lacking.<xref ref="cochrane5509" resource="acc046" /></listitem>
+<listitem>Other studies have demonstrated that pneumatic compression is more effective than compression stockings, similar in efficacy to medical prophylaxis, and may be safer than anticoagulation.<xref ref="poem160201" resource="acc065" /></listitem>
+<listitem>In one study of ICU patients, there was found to be no benefit with addition of intermittent pneumatic compression to pharmacologic anticoagulation in the prevention of proximal DVTs.<xref ref="poem210607" resource="acc090" /></listitem>
+<listitem>There is high-quality evidence that graduated compression stockings (GCS) are effective in reducing the risk of DVT in hospitalized surgical patients (general and orthopedic surgery), with or without other methods of background thromboprophylaxis, and moderate-quality evidence that GCS probably reduce the risk of proximal DVT. However, it is unknown whether GCS are effective in reducing the risk of DVT in medical patients.<xref ref="cochrane1484" resource="acc098" /> GCS are also effective at reducing asymptomatic DVT and edema in airline passengers on long flights.<xref ref="cochrane4002" resource="acc034" />Combining intermittent pneumatic leg compression with pharmacologic prophylaxis reduces the incidence of DVT and PE.<xref ref="cochrane5258" resource="acc110" /></listitem>
+<listitem>Compression stockings when added to anticoagulation aids in reducing venous thromboembolic events but interestingly does not affect the prevalence of DVT.<xref ref="pubmed24916118" resource="acc080" /></listitem>
+<listitem>Novel oral anticoagulant rivaroxaban was no more effective but was more likely to cause bleeding when compared to enoxaparin in the prevention of VTE in medical inpatients.<xref ref="poem150403" resource="acc069" /></listitem>
+<listitem>Apixaban therapy in patients with active cancer undergoing chemotherapy prevented DVT when compared to placebo (NNT &#x003D; 17 at 6 months; NNH &#x003D; 59 from bleeding); rivaroxaban therapy in a similar group of patients failed to show benefit, but discontinuation rates were high and more studies are needed.<xref ref="poem210520" resource="acc091" /></listitem>
+<listitem>Rosuvastatin slightly reduced the risk of VTE in older adults, but only for DVT and not for PE, and at a very high cost (at least $127,400 per DVT prevented). It is not recommended for this purpose.<xref ref="poem110604" resource="acc061" /></listitem>
+<listitem>Peripherally inserted central catheters increase the risk for upper and lower extremity DVT, at a rate of 4.8 per 1000 catheter days.<xref ref="poem383913" resource="acc116" /><xref ref="poem180207" resource="acc085" /></listitem>
+<listitem>Single prophylaxis strategies (i.e., rivaroxaban, LMWH) are more effective in prevention of DVT in elective total knee replacment than combination strategies, with rrivaroxaban being most effective.<xref ref="pubmed31444124" resource="acc102" /></listitem>
+<listitem>Low-dose aspirin alone may be of similar efficacy as direct oral anticoagulant therapy in preventing DVT in patients after total knee replacement.<xref ref="poem201220" resource="acc089" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>LMWH is safer and more effective than oral anticoagulation at preventing recurrent thromboembolism in patients with cancer.<xref ref="poem51007" resource="acc033" /> There is no mortality benefit, however, in using LMWH compared with oral anticoagulation in this population.<xref ref="cochrane6650" resource="acc053" /></listitem>
+<listitem>In patients with cancer needing anticoagulation, consider LMWH, edoxaban, or rivaroxaban for at least 6 months for long-term anticoagulation over vitamin K antagonists (i.e., warfarin). VKAs may be considered if LMWH or DOACs are not available.<xref ref="pubmed31381464" resource="acc095" /></listitem>
+<listitem>A trial randomized 1766 patients with active cancer and a segmental PE or proximal DVT to apixaban in full or low dose. After 6 months of full-dose anticoagulation, a lower dose of apixaban (2.5 mg twice daily) provides a similar benefit and less bleeding risk than full-dose apixaban (NNT &#x003D; 28).<xref ref="poem379904" resource="acc117" /></listitem>
+<listitem>Beyond 6 months, offer anticoagulation with LMWH, DOACs, or VKAs for those with active cancer, such as those with metastatic disease or receiving chemotherapy.<xref ref="pubmed31381464" resource="acc095" /></listitem>
+<listitem>DOACs were more effective than LMWH to prevent recurrent VTE but also associated with increased risk of major and minor bleeding. Risk difference was small (2-3&#x0025;) for both recurrent VTE at 6 months and major bleeding which may reflect better compliance with DOACs.<xref ref="pubmed29506866" resource="acc097" /></listitem>
+<listitem>Consider indefinite anticoagulation in patients with recurrent VTE, VTE with multiple ongoing risk factors, or a persistently abnormal D-dimer test after treatment.<xref ref="pubmed18574271" resource="acc001" /><xref ref="poem90101" resource="acc032" /></listitem>
+<listitem>Evidence is currently insufficient concerning the effectiveness and safety of extended thromboprophylaxis in prevention of recurrent VTE after initial oral anticoagulation in patients with, non-cancer, unprovoked VTE.<xref ref="cochrane11088" resource="acc094" /></listitem>
+<listitem>Patients with Factor V Leiden mutation are at increased risk of recurrence, but there is no evidence that testing family members improves clinical outcomes. There is no increased risk of VTE with prothrombin G20210A mutation.<xref ref="poem110824" resource="acc047" /></listitem>
+<listitem>Aspirin at 100 mg daily reduces the risk of recurrent VTE by 42&#x0025; in patients with first unprovoked VTE, without significant bleeding risk increase. NNT of 42 to prevent 1 recurrence.<xref ref="pubmed25156992" resource="acc096" /> Current ACCP CHEST Guidelines recommend the use of aspirin over no aspirin in those with unprovoked proximal DVT who are stopping anticoagulation therapy.<xref ref="poem180905" resource="acc088" /></listitem>
+<listitem>Extended anticoagulation with warfarin was similar to dabigatran in the prevention of recurrent VTE.<xref ref="poem150402" resource="acc070" /><xref ref="poem150401" resource="acc071" /></listitem>
+<listitem>Sulodoxide has been shown to reduce the risk of recurrent DVT in those treated for an unprovoked clot; its superiority to aspirin has not been proved.<xref ref="poem180403" resource="acc087" /></listitem>
+<listitem>DOACs should be used with caution in patients with Antiphospolipid Syndrome as rivaroxaban showed a higher risk of thrombosis and bleeding events in patients when compared to warfarin for treatment of DVT recurrence.<xref ref="pubmed30002145" resource="acc103" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>No single clinical feature effectively rules DVT in or out,<xref ref="poem71054" resource="acc031" /> but the presence or absence of certain clinical features increases or decreases the likelihood of DVT.<evidence rating="A" system="SORT">A</evidence><xref ref="poem71054" resource="acc031" /></listitem>
+<listitem>Use a validated clinical decision rule (<xref ref="table001" />) to establish pretest probability before diagnostic testing.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed16403932" resource="acc029" /><xref ref="pubmed17371890" resource="acc028" /></listitem>
+<listitem>A diagnosis of DVT can be confirmed by venography, duplex Doppler ultrasonography, or impedence plethysmography, but the primary diagnostic tool is the ultrasound.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed12426286" resource="acc036" /></listitem>
+<listitem>A normal D-dimer test or a normal result on ultrasound excludes DVT when combined with a low pretest probability.<evidence rating="A" system="SORT">A</evidence><xref ref="poem80804" resource="acc027" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Muscle strain, tear, or twisting injury to the leg</Differential_Name>
+<Differential_Features>History of trauma to the affected area will precede symptoms</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Leg swelling in a paralyzed limb</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Lymphangitis or lymph obstruction</Differential_Name>
+<Differential_Features>Bilateral pitting edema</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Venous insufficiency (reflux)</Differential_Name>
+<Differential_Features>Moderate edema, deep muscle pain, normal pulses, and other symptoms tend to worsen at the end of the day but improve with elevetion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Baker's cyst</Differential_Name>
+<Differential_Features>Patient is more likely to have a history of arthritis and knee crepitus on examination; can be differentiated radiographically</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cellulitis</Differential_Name>
+<Differential_Features>Patient is more likely to have elevated ESR and WBC, positive blood cultures, and infectious signs such as chills, sweats, high-grade fever, nausea, or vomiting</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Knee abnormality</Differential_Name>
+<Differential_Features>History of knee trauma will precede symptoms</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Peripheral edema secondary to congestive heart failure (CHF), liver disease, renal failure, or nephrotic syndrome</Differential_Name>
+<Differential_Features>Usually bilateral pitting edema</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Compartment syndrome</Differential_Name>
+<Differential_Features>Pain out of proportion, parasthesias, absent pulses, swelling, pressures greater than 40 mmHg</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Individual findings that best rule in DVT when present are a global MD estimate of high likelihood for DVT, history of malignancy, and history of immobilization or recent surgery.</listitem>
+<listitem>Findings that best rule it out when absent include global MD estimate of low likelihood, absence of edema, and absence of unilateral calf swelling.</listitem>
+<listitem>No single clinical feature effectively rules out DVT, so use a validated clinical decision rule.<xref ref="pubmed16403932" resource="acc029" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Use a validated clinical decision rule (<xref ref="table001" />) to estimate a pretest probablity of DVT, which in turn informs interpretation of diagnostic tests.<xref ref="poem90441" resource="acc030" /> The Dutch Primary Care rule performs similarly to the Wells prediction rule.<xref ref="rule440" resource="acc064" /></listitem>
+<listitem>A negative D-dimer test is useful to rule out DVT in patients at low risk for DVT.<xref ref="poem90441" resource="acc030" /> For older patients (age &gt;50), use of an age-adjusted D-dimer is appropriate in ruling out DVT. The recommended adjustment is by the formula (patient's age x 10) uq&#x002F;L.<xref ref="pubmed29043850" resource="acc100" /></listitem>
+<listitem>A Dutch study in 2169 non-high risk ED patients with suspected VTE found no patients with VTE who had a d-dimer between 500 and their age adjusted cutoff, and 7.3&#x0025; fewer imaging studies.<xref ref="pubmed41490105" resource="acc125" /></listitem>
+<listitem>Ultrasonography is the noninvasive test of choice for the diagnosis of proximal DVT in most patients with moderate to high pre-test probability.<xref ref="pubmed2643771" resource="acc026" /> The accuracy varies according to whether one is looking for any DVT in a symptomatic patient,any DVT in an asymptomatic patient, or proximal DVT in a symptomatic or asymptomatic patient. An RCT of 2098 patients with first episode of DVT compared immediate whole leg Doppler ultrasound with a strategy of ultrasound of the proximal vein only, followed by repeated testing if d-dimer was abnormal. There was no difference outcomes, so this less costly strategy is an acceptable alternative.<xref ref="poem101221" resource="acc060" /></listitem>
+<listitem>Impedance plethysmography with serial studies is an acceptable alternative if ultrasound is not available or if recurrent DVT is a consideration.<xref ref="pubmed3341869" resource="acc025" /></listitem>
+<listitem>Magnetic resonance direct thrombus imaging is as accurate as venography for the diagnosis of DVT,<xref ref="pubmed9807558" resource="acc024" /> but its routine use is limited by the lack of outcome data and cost. It may be considered if the ultrasound is equivocable, if ultrasound and plethysmography are not available, or if venography is contraindicated in a patient with contrast allergy.</listitem>
+<listitem>Venography is performed only when the noninvasive tests are unavailable, are nondiagnostic, or are discordant with a high clinical suspicion.<xref ref="test149" resource="acc003" /></listitem>
+<listitem>The need for diagnostic testing to detect genetic mutations such as Factor V Leiden is unclear at this time.<xref ref="poem110824" resource="acc047" /></listitem>
+<listitem>Routine abdominal and pelvic CT imaging does not advantage over a basic screening protocol to detect occult malignancy in patients with unprovoked DVT.<xref ref="poem171107" resource="acc084" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The <resourceLink href="info:wiley/eep-rule/23">Wells score</resourceLink> (<xref ref="table001" />) integrates the best independent predictors and helps estimate the likelihood of DVT.<xref ref="rule23" resource="acc112" /></listitem>
+<listitem>It has been well validated in a variety of populations of nonpregnant adults and is a key part of diagnostic algorithms but may not be as helpful in hospitalized patients <xref ref="fig001" />.<xref ref="poem90441" resource="acc030" /></listitem>
+<listitem>Separate clinical rules for recurrence of DVT in <resourceLink href="info:wiley/eep-rule/375">men</resourceLink> and <resourceLink href="info:wiley/eep-rule/375">women</resourceLink> have been developed.</listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/598">HERDOO2 risk score</resourceLink> predicts recurrence in women.<xref ref="rule598" resource="acc113" /></listitem>
+<listitem>A novel <resourceLink href="info:pmid/21242558">clinical decision rule for outpatients</resourceLink> has been developed and validated in Dutch primary care patients; only 7 of 495 low risk patients had a VTE diagnosed in the subsequent 3 months to their presentation.<xref ref="rule440" resource="acc064" /></listitem>
+<listitem>The <resourceLink href="info:pmid/28276566">VTE-BLEED risk score</resourceLink> predicts the risk of <resourceLink href="info:wiley/eep-rule/440">major</resourceLink> bleeding in patients with VTE who have been anticoagulated.<xref ref="rule599" resource="acc114" /></listitem>
+<listitem>Risk scores are less helpful in hospitalized patients. A multicenter study evaluated risk scores in 1273 patients and concluded that the Padua, IMPROVE, and NICE risk assessment models all perform poorly in identifying hospitalized patients at high risk for VTE.<xref ref="pubmed40164405" resource="acc121" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.<xref ref="poem71054" resource="acc031" /></listitem>
+<listitem>If the D-dimer is negative and the patient has a low Wells score (<xref ref="table001" />) DVT is ruled out. If the D-dimer is negative but patient has moderate or high risk of DVT, order a duplex ultrasound.</listitem>
+<listitem>Patients who are D-dimer positive should have an ultrasound performed and if positive, initiate treatment. If the US is negative, a repeat US should be done in 3 to 7 days.<xref ref="poem90441" resource="acc030" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>64</HP_ID>
+<HP_ID>150</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>72</Dx_ID>
+<Dx_ID>305</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Current guildelines suggest that apixaban, dabigatran, edoxaban, or rivaroxaban are the preferred drugs for treatment of venous thromboembolism. Alternatively, treat patients with warfarin and UFH or LMWH for at least 5 days and discontinue heparin when the INR has stabilized between 2 and 3.<xref ref="pubmed34352278" resource="acc119" /><xref ref="poem180905" resource="acc088" /><evidence rating="A" system="SORT">A</evidence><xref ref="pubmed17261857" resource="acc023" /></listitem>
+<listitem>LMWH and UFH can both be given subcutaneously.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed18574260" resource="acc002" /></listitem>
+<listitem>Outpatient treatment of DVT is as efficacious and safe and more cost effective compared with inpatient treatment for clincally stable patients.<evidence rating="A" system="SORT">A</evidence><xref ref="cochrane3076" resource="acc022" /></listitem>
+<listitem>The duration of treatment depends on whether a cause is identified and in some cases should be indefinite. See Table 2 in Pulmonary Embolism topic.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed18574260" resource="acc002" /><xref ref="pubmed17261857" resource="acc023" /></listitem>
+<listitem>For patients with acute isolated distal DVT and no risk factors for extension, the ACCP guidelines recommend 2 weeks of serial imaging, with anticoagulation only if it extends or if the patient has severe symptoms or develops risk factors for extension.<xref ref="pubmed34352278" resource="acc119" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>See <xref ref="table002" /> for an overview of anticoagulants for acute DVT.</listitem>
+<listitem>ACCP guidelines (2021) suggest that direct oral anticoagulants (DOAs) apixaban, dabigatran, edoxaban, or rivaroxaban are he preferred treatement for acute DVT.<xref ref="pubmed34352278" resource="acc119" /><xref ref="poem180905" resource="acc088" /> In patients who can only take warfarin, initial anticoagulation should be in the form of LMWH or UFH. LMWH is as effective as UFH for treatment of DVT and is safer (major hemorrhagic complications: LMWH 1.0&#x0025; vs. UFH 2.1&#x0025;). It can be administered in fixed doses and does not require laboratory monitoring.<xref ref="cochrane1100" resource="acc021" /></listitem>
+<listitem><strong>Warfarin and heparin</strong></listitem>
+<listitem>While no longer first line these agents are still an option, especially in low resource settings.</listitem>
+<listitem>If UFH is used, monitor doses to achieve therapeutic levels (an activated partial thromboplastin time [aPTT] of 1.5-2.5 times control) within the first 24 hours to reduce chance of recurrence.<xref ref="pubmed9531224" resource="acc020" /> A single study of 708 adults with VTE (mostly DVT) found that high-dose subcutaneous UFH (initial dose of 333 U&#x002F;kg, followed by a fixed dose of 250 U&#x002F;kg every 12 hours) was as effective and safe as LMWH.<xref ref="poem81022" resource="acc019" /> A systematic review identified 15 RCTs with 3054 participants confirming non-inferiority, although with non-significant trends favoring SC LMWH or IV UFH.<xref ref="cochrane6771" resource="acc051" /></listitem>
+<listitem>Start warfarin simultaneously with heparin (LMWH or UFH); continue both until a therapeutic INR (2-3) is seen for 2 days.<xref ref="pubmed17261857" resource="acc023" /> Protocols have been developed using <resourceLink href="info:wiley/eep-rule/218">10-</resourceLink> or 5-mg starting doses that result in more rapid and accurate anticoagulation.<xref ref="poem50842" resource="acc018" /> A "gentler" protocol has been designed for use in the elderly. Pharmacogenetic information does not add significant benefit to warfarin dosing algorithms.<xref ref="poem160204" resource="acc066" /></listitem>
+<listitem>Consider at home, point-of-care INR testing and self-adjustment of VKA dose if patient is competent and can afford home monitor. <xref ref="pubmed30482765" resource="acc108" /></listitem>
+<listitem>INR testing intervals should be 4 weeks or fewer following dose adjustments and 4-12 weeks during periods of stable INR control.<xref ref="pubmed30482765" resource="acc108" /></listitem>
+<listitem>Monitor routinely for heparin-induced thrombocytopenia (every other day) while the patient is on a heparin product.<xref ref="pubmed17261857" resource="acc023" /></listitem>
+<listitem><strong>Direct Oral Anticoagulants (DOACs)</strong></listitem>
+<listitem>ACCP guidelines (2021) suggest that direct oral anticoagulants (DOAs) apixaban, dabigatran, edoxaban, or rivaroxaban are he preferred treatement for acute DVT.<xref ref="pubmed34352278" resource="acc119" /><xref ref="poem180905" resource="acc088" /></listitem>
+<listitem><resourceLink href="https://www.ncbi.nlm.nih.gov/books/NBK556698/">NICE guidelines</resourceLink> (2020) recommend apixaban or rivaroxaban as initial choices.</listitem>
+<listitem>The oral agent rivaroxaban (Xarelto) was similarly effective to warfarin in the chronic treatment of DVT. A randomized trial with 3449 participants found less recurrent thromboembolism (2.1&#x0025; vs. 3.0&#x0025;; NNT &#x003D; 111) and no difference in episodes of major bleeding between rivaroxaban and warfarin.<xref ref="poem130203" resource="acc056" /> Rivaroxaban has also be shown to be effective in the treatment of pulmonary embolus.<xref ref="poem140651" resource="acc076" /> Prolonged rivaroxaban therapy after intial treatment period for DVT is associated with a reduced risk of recurrent clot (NNT&#x003D;30-33 at 12 months) relative to aspirin alone.127 Another oral agent, dabigatran (Pradaxa) was compared to warfarin in 2539 patients with venous thromboembolism; there was no difference in the risk of recurrent VTE or major bleeding.<xref ref="poem120203" resource="acc058" /> Both drugs are much more expensive than warfarin (up to $400&#x002F;month), but INR testing is not required.</listitem>
+<listitem>Apixiban is a novel oral anticoagulant (factor Xa inhibitor) that is as effective as warfarin in VTE with a small benefit in major bleeding risk (NNT &#x003D; 83) but higher cost.<xref ref="poem151101" resource="acc068" /></listitem>
+<listitem>A study in Canada randomized 2709 patients with acute VTE to apixabann or rivaroxaban for 3 months. For the primary outcome of clinically relevant bleeding during the 3-month trial period, the apixaban group fared better (3.3&#x0025; vs 7.1&#x0025;; RR 0.46; 95&#x0025; CI 0.33 - 0.65, NNT &#x003D; 26). The apixaban group also had a lower risk of major bleeding (0.4&#x0025; vs 2.4&#x0025;; RR 0.16; 0.06 - 0.40, NNT &#x003D; 50). There were no significant differences detected in recurrent symptomatic VTE or all-cause mortality.<xref ref="pubmed41812192" resource="acc122" /></listitem>
+<listitem>In a randomized trial of 600 adults with symptomatic cVTE and at least one ongoing risk factor (BMI &gt;&#x003D; 30, chronic inflammatory disease, or chronic lung disease), 12 months of apixaban was superior to 3 months. The likelihood of symptomatic recurrent VTE was significantly lower in the apixaban group (1.3&#x0025; vs 10.0&#x0025;; P &lt; .001; NNT &#x003D; 11). Major bleeding occurred in 1 patient in the apixaban group and none in the placebo group; clinically relevant nonmajor bleeding was numerically more common with apixaban (4.8&#x0025; vs 1.7&#x0025;; P &#x003D; .06).<xref ref="pubmed40888734" resource="acc120" /></listitem>
+<listitem>For cancer associated VTE, an RCT with 1766 patients found that low dose apixaban (2.5 mg twice daily) was non-inferior to standard dose apixaban (5 mg twice daily). The primary outcome of recurrent VTE did not differ between groups (2.1&#x0025; for low dose and 2.8&#x0025; for full dose; P &lt; .001 for noninferiority). Clinically relevant bleeding was somewhat less likely in the low-dose group (12.1&#x0025; vs 15.6&#x0025;; P &#x003D;.03; NNT &#x003D; 28).<xref ref="poem379904" resource="acc117" /></listitem>
+<listitem>Edoxaban is another novel oral anticoagulant recently shown to be no less effective and safe as warfarin in VTE, but at a higher cost. In a study that randomized 8240 adults with acute VTE to edoxaban or warfarin, there was no difference in the likelihood of first recurrent VTE, major bleed, or death.<xref ref="poem151202" resource="acc067" /></listitem>
+<listitem>Ask patients about concurrent aspirin use, which is not recommended and greatly increases the risk of major bleeding. A population-based cohort study found this to be a relatively common practice.<xref ref="poem100904" resource="acc059" /></listitem>
+<listitem>A trial randomized 600 adults with a provoked DVT or PE and at least one ongoing risk factor (obesity, chronic inflammatory disease, or chronic lung disease) to apixaban 2.5 mg twice daily for 3 or 12 months. The likelihood of symptomatic recurrent VTE was significantly lower in the apixaban group (1.3&#x0025; vs 10.0&#x0025;; P &lt; .001; NNT &#x003D; 11). Major bleeding occurred in 1 patient in the apixaban group and none in the placebo group; clinically relevant nonmajor bleeding was numerically more common with apixaban (4.8&#x0025; vs 1.7&#x0025;; P &#x003D; .06).<xref ref="pubmed40888734" resource="acc120" /></listitem>
+<listitem><strong>Thrombolysis</strong></listitem>
+<listitem>Thrombolysis increases patency of veins in proximal DVT, but patient selection is important to minimize the risk of bleeding.<xref ref="cochrane2783" resource="acc016" /></listitem>
+<listitem>Consider adjuvant catheter-directed thrombolysis in select patients with iliocommon femoral DVT, symptoms &lt;14 days, and life expectancy &gt;1 year if done at an experienced center.<xref ref="pubmed28329262" resource="acc107" /></listitem>
+<listitem><strong>Isolated distal DVT</strong></listitem>
+<listitem>ACCP guidelines (2021) recommend serial imaging for 2 weeks over immediate anticoagulation for patients with isolated distal lower extremity DVT who do not have risk factors for extension or severe symptoms. Anticoagulation is not recommended if the clot is stable and does not extend.<xref ref="pubmed34352278" resource="acc119" /></listitem>
+<listitem><strong>Patients with active cancer and DVT</strong></listitem>
+<listitem>A study found DOACs to be noninferior to LMWH for preventing recurrent VTE over a 6-month follow-up in adults with cancer. The 671 participants were randomized to the DOAC of choice or LMWH of choice. Severe adverse events, including major bleeding, occurred similarly in both groups. Outcomes remained similar regardless of specific cancer thrombogenic risk. Patients given DOACs were significantly more likely to still be taking their assigned anticoagulant at 6 months, suggesting a superior outcome with DOACs with longer follow-up.<xref ref="poem379642" resource="acc118" /></listitem>
+<listitem>A trial randomized 1766 patients with active cancer and a segmental PE or proximal DVT to apixaban in full or low dose. After 6 months of full-dose anticoagulation, a lower dose of apixaban (2.5 mg twice daily) provides a similar benefit and less bleeding risk than full-dose apixaban (NNT &#x003D; 28).<xref ref="poem379904" resource="acc117" /></listitem>
+<listitem>LMWH can be used for long-term therapy if oral anticoagulation is contraindicated or unavailable.<xref ref="pubmed17167001" resource="acc017" /> It is more effective than warfarin for patients with VTE and comorbid cancer.<xref ref="poem51007" resource="acc033" /><xref ref="cochrane6649" resource="acc054" /></listitem>
+<listitem>Tinzaparin is no better than warfarin in preventing recurrent DVT in patients with cancer.<xref ref="poem171021" resource="acc083" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Manage patients on long-term anticoagulation who need to undergo surgical procedures according to their thromboembolic risk.<xref ref="pubmed9154771" resource="acc015" /></listitem>
+<listitem>For patients on long-term anticoagulation who need to undergo minor procedures, a brief (&lt;5 days) interruption of warfarin therapy is associated with a low risk of thromboembolism.<xref ref="pubmed18195197" resource="acc014" /><xref ref="pubmed29217632" resource="acc105" /></listitem>
+<listitem>If high stroke risk, recent VTE, or high risk mechanical heart valve, bridge with LMWH bid 3 days prior to surgery with last dose given 24 hours before surgery. Resume LMWH 48-72 hours post-surgery along with warfarin.<xref ref="pubmed29217632" resource="acc105" /></listitem>
+<listitem>Consider continuing anticoagulation without interuption for minor procedures like cataract surgery, dermatologic procedures or dental procedures. <xref ref="pubmed26988871" resource="acc106" /></listitem>
+<listitem>For patients on rivaroxaban, apixaban or edoxaban, stop 1 day prior to procedures with low bleeding risk and 2 days prior to those procedures with high risk of bleeding. Resume DOAC 1 day after low bleeding risk procedures and 2 days after high bleeding risk procedures.<xref ref="pubmed26988871" resource="acc106" /><xref ref="pubmed29217632" resource="acc105" /></listitem>
+<listitem>For those on dabigatran, for low bleeding risk procedures, stop 1 day prior to procedure if creatinine clearance (CrCl) is &gt;50, or 2 days prior if CrCl is &lt;50. For high bleeding risk procedures stop 2 days prior to procedure if CrCl &gt;50 and 4 days prior if CrCl&lt; 50. Resume dabigatran at same number of days used for discontinuation.<xref ref="pubmed26988871" resource="acc106" /><xref ref="pubmed29217632" resource="acc105" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Consider external, intermittent pneumatic compression (EPC or IPC) as an alternative in patients who have a high risk of bleeding. Do not use in patients with overt ischemia or in those who have been at bed rest for more than 72 hours without DVT prophylaxis.<xref ref="pubmed18574260" resource="acc002" /><xref ref="poem160201" resource="acc065" /></listitem>
+<listitem>Reserve systemic thrombolytics for patients who are hemodynamically unstable or who have massive iliofemoral thrombosis and a low risk for bleeding.<xref ref="cochrane2783" resource="acc016" /></listitem>
+<listitem>Inferior vena cava (IVC) filters are recommended only when there is an absolute contraindication to anticoagulation.<xref ref="pubmed9459643" resource="acc013" /> IVC filter placement decreases initial PE risk but increases long-term recurrent DVT risk by almost twofold without conferring any difference in long-term symptomatic PE or mortality.<xref ref="poem71203" resource="acc012" /> A recent cohort study suggests that DVT filters may often be implanted in clinical practice without these clear indications.<xref ref="poem150654" resource="acc073" /> Current CHEST Guidelines recommend against using an IVC filter in those treated with anticoagulation.<xref ref="poem180905" resource="acc088" /></listitem>
+<listitem>Compression stockings are not more effective than placebo stockings in preventing post-thrombotic syndrome.<xref ref="poem160544" resource="acc078" /></listitem>
+<listitem>Compression stockings have not been shown to reduce the risk of recurrent DVT.<xref ref="poem180506" resource="acc086" /></listitem>
+<listitem>There may be sufficient protection from DVT in post total knee replacement patients with aspirin alone versus anticoagulation.<xref ref="poem201220" resource="acc089" /></listitem>
+<listitem>For isolated distal (below the knee) acute DVT of the leg without severe symptoms or risk factors for extension, consider serial US imaging of deep veins for 2 weeks instead of anticoagulation.<xref ref="poem180905" resource="acc088" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Treat DVT due to transient risk factors for thromboembolic disease or due to surgery for at least 3 months.<xref ref="pubmed17261857" resource="acc023" /><xref ref="poem180905" resource="acc088" /></listitem>
+<listitem>Treat first-episode idiopathic DVT for at least 3 months, which may be continued longer if the patient has an elevated D-dimer 1 month after stopping anticoagulation.<xref ref="poem180905" resource="acc088" /><xref ref="pubmed17261857" resource="acc023" /></listitem>
+<listitem>Treat indefinitely recurrent DVT, patients with more than one idiopathic event, and patients with cancer.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed17261857" resource="acc023" /></listitem>
+<listitem>In all instances, consider longer treatment with anticoagulation and weigh it against the bleeding risk. There is mounting evidence for the benefits of longer duration of treatment of idiopathic DVT. The likelihood of mortality due to recurrent VTE is higher than that due to fatal bleeding (8&#x0025;-9&#x0025; vs. &#x007E;2&#x0025;).<xref ref="pubmed18056660" resource="acc011" /></listitem>
+<listitem>See Table 2 in Pulmonary Embolism topic for suggested duration of treatment.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Hospitalize all patients who are clinically unstable, have cardiovascular or pulmonary comorbidities (especially CHF), or who have contraindications to anticoagulation.</listitem>
+<listitem>Consider hospitalization if close follow-up is not possible, for those who are pregnant or morbidly obese or who have renal failure or cancer.</listitem>
+<listitem>Also consider hospitalization in severe, proximal thrombosis (thrombosis above the groin with severe edema of the entire leg).</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Postthrombotic (postphlebitic) syndrome (chronic dependent edema, pain, skin changes including discoloration) occurs in about 28&#x0025; of patients after 5 years.<xref ref="poem100192" resource="acc009" /></listitem>
+<listitem>Though earlier unblinded studies showed that compression stockings decreased the incidence and severity of postthrombotic syndrome by 50&#x0025;;<xref ref="poem121052" resource="acc057" /><xref ref="cochrane4174" resource="acc010" /> more recent studies have shown no proven benefit in using compression stockings to prevent post-thrombotic syndrome.<xref ref="poem160544" resource="acc078" /><xref ref="poem180506" resource="acc086" />The most recent CHEST Guidelines no longer recommend their use.<xref ref="poem180905" resource="acc088" /></listitem>
+<listitem>Although HIT was thought to occur more often with UFH than LMWH, a systematic review found that the risk was similar (1.2&#x0025; for LMWH; 1.5&#x0025; for UFH).<xref ref="poem100192" resource="acc009" /> Anticoagulation can be continued with a direct thrombin inhibitor (lepirudin [Refludan]).<xref ref="pubmed11245656" resource="acc008" /> Warfarin can be restarted once the platelets return to normal.</listitem>
+<listitem>For bleeding issues, American Society of Hematology (ASH) recommends temporary cessation of VKA (i.e., warfarin) alone without addition of vitamin K when INR is &gt; 4.5 but &lt; 10, and bleeding is minor.<xref ref="pubmed30482765" resource="acc108" /></listitem>
+<listitem>For major bleeding issues, ASH recommends using 4-factor prothrombin complex concentrates (PCCs) over fresh-frozen plasma (FFP) in addition to cessation of VKA agent and IV vitamin K; for major bleeding with LMWH or UFH, use protamine in addition to cessation of LMWH or UFH; for major bleeding with dabigatran, use idaricizumab in addition to cessation of dabigatran; for major bleeding with a DOAC, use either 4-factor PCC or recombinant coagulation factor Xa or inactivated-zhzo in addition to DOAC cessation. ASH notes that these recommendations are based on very low certainty evidence. <xref ref="pubmed30482765" resource="acc108" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The prognosis for most patients with DVT treated with heparin and oral anticoagulants is excellent.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed12426286" resource="acc036" /></listitem>
+<listitem>Fatal PE and recurrent DVT are rare in patients who have transient risk factors and are adequately treated with anticoagulation.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed18056660" resource="acc011" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Most DVTs start in the calf, are asymptomatic, and resolve spontaneously.</listitem>
+<listitem>Symptomatic calf DVTs extend to the proximal veins approximately 25&#x0025; of the time in untreated individuals, usually within 1 week of presentation.</listitem>
+<listitem>Patients with untreated, symptomatic proximal DVT have a PE about 30&#x0025; to 50&#x0025; of the time.<xref ref="pubmed10647753" resource="acc007" /></listitem>
+<listitem>Untreated patients with symptomatic proximal DVT or PE have an approximately 50&#x0025; chance of recurrence within 3 months.<xref ref="pubmed18574260" resource="acc002" /></listitem>
+<listitem>About one-fourth of patients go on to develop the postthrombotic syndrome within 5 years.<xref ref="poem100192" resource="acc009" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>The risk of recurrence of VTE associated with transient risk factors is less than 3&#x0025; a year, whereas patients with idiopathic VTE or those with persistent risk factors have an approximately 10&#x0025; a year or higher recurrence rate after anticoagulation is stopped.<xref ref="pubmed18574260" resource="acc002" /></listitem>
+<listitem>The risk for fatal PE after a 6-month course of anticoagulant therapy is low (&lt;1&#x0025;), especially if initial VTE was provoked.<xref ref="pubmed18056660" resource="acc011" /></listitem>
+<listitem>A study of 646 patients with initial unprovoked VTE found that key risk factors for recurrence in women include hyperpigmentation, edema or redness of either leg, abnormal d-dimer, BMI greater than or equal to 30 kg&#x002F;m<sup>2</sup>, and age of 65 years or older. For men, risk factors included hyperpigmentation, edema or redness, and an antiphospholipid antibody level greater than 6 U&#x002F;mL.<xref ref="poem110102" resource="acc062" /></listitem>
+<listitem>A study of 153 patients with an initial episode of acute DVT (about half unprovoked, none with cancer, short life expectancy, or need for permanent anticoagulation) found that 26&#x0025; had a recurrence during the next 5 years. Factors associated with recurrence were DVT in both proximal and distal veins, unprovoked DVT (RR 2.9) and age over 65 years (RR 1.5). About a quarter had a subsequent PE, and about 1&#x002F;4 of these events were fatal.<xref ref="pubmed20224361" resource="acc082" /></listitem>
+<listitem>Of patients completing treatment following a first unprovoked VTE, one 2019 meta-analysis showed that approximately 1 in 10 will have a second VTE over the next 12 months, and 4 in 10 will have a second VTE over 10 years. They are also at higher risk of developing a DVT<xref ref="pubmed31340984" resource="acc101" />.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup />
+<Patient_education>
+<list style="bulleted">
+<listitem>Educate patients about signs of bleeding (pink urine, rectal bleeding, black stools, hemoptysis), recurrent DVT, and PE (dyspnea upon exertion, pleuritic chest pain, cough, hemoptysis, tachycardia, anxiety).</listitem>
+<listitem>Inform patients taking warfarin of drug-drug interactions before starting a new medication and of the importance of laboratory monitoring.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Warfarin crosses the placenta; do not use in pregnant patients.</listitem>
+<listitem>Use LMWH or UFH, as neither crosses the placenta. As systematic review found no RCTs of anticoagulant treatment in pregnant women with VTE.<xref ref="cochrane7801" resource="acc052" /></listitem>
+<listitem>A systematic review also found limited data regarding prophylaxis in pregnant women.<xref ref="cochrane1689" resource="acc048" /><xref ref="PubMed1689" resource="acc079" /></listitem>
+<listitem>Left leg pain, increased calf circumference, and being in the first trimester are useful for diagnosing DVT in pregnant women.<xref ref="hp236" resource="acc063" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>The Kids-DOTT study treated all children with DVT and PE and a provoking risk factor for 6 weeks. At 6 weeks, all patients underwent repeat imaging. Those patients (n &#x003D; 417) with venous flow occurring in the involved vessel segments and without persistent antiphospholipid antibodies randomly received assignment to either discontinue anticoagulant therapy or to continue anticoagulant therapy for a total of 3 months. Both recurrent VTE and bleeding occurred less often in the 6 week treatment group.<xref ref="poem308827" resource="acc115" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed18574271">
+<accessionId id="acc001" href="info:pmid/18574271" />
+<accessionId id="acc001b" href="info:wiley/eep-guideline/12956" />
+<authors>Geerts WH, Bergqvist D, Pineo GF, et al.</authors>
+<title>Prevention of venous thromboembolism: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition).</title>
+<source>Chest</source>
+<pubdate>2008</pubdate>
+<volume>133</volume>
+<pages>381S&#x2013;453S.</pages>
+</reference>
+<reference id="pubmed18574260">
+<accessionId id="acc002" href="info:pmid/18574260" />
+<accessionId id="acc002b" href="info:wiley/eep-guideline/12957" />
+<authors>Kearon C, Kahn SR, Agnelli G, Goldhaber S, Raskob GE, Comerota AJ.</authors>
+<title>Antithrombotic therapy for venous thromboembolic disease: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition).</title>
+<source>Chest</source>
+<pubdate>2008</pubdate>
+<volume>133</volume>
+<pages>454S&#x2013;545S.</pages>
+</reference>
+<reference id="test149">
+<accessionId id="acc003" href="info:wiley/eep-dx/149" />
+<accessionId id="acc003b" href="info:wiley/eep-dx/147" />
+<accessionId id="acc003c" href="info:wiley/eep-dx/150" />
+<accessionId id="acc003d" href="info:pmid/9537941" />
+<authors>Kearon C, Julian JA, Newman TE, Ginsberg JS.</authors>
+<title>Noninvasive diagnosis of deep venous thrombosis. McMaster Diagnostic Imaging Practice Guidelines Initiative.</title>
+<source>Ann Intern Med</source>
+<pubdate>1998</pubdate>
+<volume>128</volume>
+<pages>663&#x2013;677.</pages>
+</reference>
+<reference id="pubmed9428249">
+<accessionId id="acc004" href="info:pmid/9428249" />
+<accessionId id="acc004b" href="info:wiley/eep-rule/23" />
+<authors>Wells PS, Anderson DR, Bormanis J, et al.</authors>
+<title>Value of assessment of pretest probability of deep-vein thrombosis in clinical management.</title>
+<source>Lancet</source>
+<pubdate>1997</pubdate>
+<volume>350</volume>
+<pages>1795&#x2013;1798.</pages>
+</reference>
+<reference id="pubmed17032933">
+<accessionId id="acc005" href="info:pmid/17032933" />
+<authors>MacDougall DA, Feliu AL, Boccuzzi SJ, Lin J.</authors>
+<title>Economic burden of deep-vein thrombosis, pulmonary embolism, and post-thrombotic syndrome.</title>
+<source>Am J Health Syst Pharm</source>
+<pubdate>2006</pubdate>
+<volume>63(20 suppl 6)</volume>
+<pages>S5&#x2013;S15.</pages>
+</reference>
+<reference id="pubmed7969340">
+<accessionId id="acc006" href="info:pmid/7969340" />
+<authors>Geerts WH, Code KI, Jay RM, Chen E, Szalai JP.</authors>
+<title>A prospective study of venous thromboembolism after major trauma.</title>
+<source>N Engl J Med</source>
+<pubdate>1994</pubdate>
+<volume>331</volume>
+<pages>1601&#x2013;1606.</pages>
+</reference>
+<reference id="pubmed10647753">
+<accessionId id="acc007" href="info:pmid/10647753" />
+<authors>Meignan M, Rosso J, Gauthier H, et al.</authors>
+<title>Systematic lung scans reveal a high frequency of silent pulmonary embolism in patients with proximal deep venous thrombosis.</title>
+<source>Arch Intern Med</source>
+<pubdate>2000</pubdate>
+<volume>160</volume>
+<pages>159&#x2013;164.</pages>
+</reference>
+<reference id="pubmed11245656">
+<accessionId id="acc008" href="info:pmid/11245656" />
+<authors>Greinacher A, Lubenow N.</authors>
+<title>Recombinant hirudin in clinical practice: focus on lepirudin.</title>
+<source>Circulation</source>
+<pubdate>2001</pubdate>
+<volume>103</volume>
+<pages>1479&#x2013;1484.</pages>
+</reference>
+<reference id="poem100192">
+<accessionId id="acc009" href="info:wiley/eep-poem/100192" />
+<accessionId id="acc009b" href="info:pmid/17646239" />
+<authors>Prandoni P, Lensing AW, Cogo A, et al.</authors>
+<title>The long-term clinical course of acute deep venous thrombosis.</title>
+<source>Ann Intern Med</source>
+<pubdate>1996</pubdate>
+<volume>125</volume>
+<pages>1&#x2013;7.</pages>
+</reference>
+<reference id="cochrane4174">
+<accessionId id="acc010" href="info:wiley/cochrane/CD004174" />
+<chapter_authors>Kolbach DN, Sandbrink MWC, Hamulyak K, Neumann HAM, Prins MH.</chapter_authors>
+<chapter_title>Non-pharmaceutical measures for prevention of post-thrombotic syndrome (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed18056660">
+<accessionId id="acc011" href="info:pmid/18056660" />
+<authors>Douketis JD, Gu CS, Schulman S, Ghirarduzzi A, Pengo V, Prandoni P.</authors>
+<title>The risk for fatal pulmonary embolism after discontinuing anticoagulant therapy for venous thromboembolism.</title>
+<source>Ann Intern Med</source>
+<pubdate>2007</pubdate>
+<volume>147</volume>
+<pages>766&#x2013;774.</pages>
+</reference>
+<reference id="poem71203">
+<accessionId id="acc012" href="info:wiley/eep-poem/71203" />
+<accessionId id="acc012b" href="info:pmid/16009794" />
+<authors>PREPIC Study Group.</authors>
+<title>Eight-year follow-up of patients with permanent vena cava filters in the prevention of pulmonary embolism: the PREPIC (Prevention du Risque d'Embolie Pulmonaire par Interruption Cave) randomized study.</title>
+<source>Circulation</source>
+<pubdate>2005</pubdate>
+<volume>112</volume>
+<pages>416&#x2013;422.</pages>
+</reference>
+<reference id="pubmed9459643">
+<accessionId id="acc013" href="info:pmid/9459643" />
+<authors>Decousus H, Leizorovicz A, Parent F, et al.</authors>
+<title>A clinical trial of vena caval filters in the prevention of pulmonary embolism in patients with proximal deep-vein thrombosis. Pr&#x00E9;vention du Risque d'Embolie Pulmonaire par Interruption Cave Study Group.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>338</volume>
+<pages>409&#x2013;415.</pages>
+</reference>
+<reference id="pubmed18195197">
+<accessionId id="acc014" href="info:pmid/18195197" />
+<authors>Garcia DA, Regan S, Henault LE, et al.</authors>
+<title>Risk of thromboembolism with short-term interruption of warfarin therapy.</title>
+<source>Arch Intern Med</source>
+<pubdate>2008</pubdate>
+<volume>168</volume>
+<pages>63&#x2013;69.</pages>
+</reference>
+<reference id="pubmed9154771">
+<accessionId id="acc015" href="info:pmid/9154771" />
+<authors>Kearon C, Hirsh J.</authors>
+<title>Management of anticoagulation before and after elective surgery.</title>
+<source>N Engl J Med</source>
+<pubdate>1997</pubdate>
+<volume>336</volume>
+<pages>1506&#x2013;1511.</pages>
+</reference>
+<reference id="cochrane2783">
+<accessionId id="acc016" href="info:wiley/cochrane/CD002783" />
+<chapter_authors>Watson L, Armon MP.</chapter_authors>
+<chapter_title>Thrombolysis for acute deep vein thrombosis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17167001">
+<accessionId id="acc017" href="info:pmid/17167001" />
+<authors>Ferretti G, Bria E, Giannarelli D, et al.</authors>
+<title>Is recurrent venous thromboembolism after therapy reduced by low-molecular-weight heparin compared with oral anticoagulants?</title>
+<source>Chest</source>
+<pubdate>2006</pubdate>
+<volume>130</volume>
+<pages>1808&#x2013;1816.</pages>
+</reference>
+<reference id="poem50842">
+<accessionId id="acc018" href="info:wiley/eep-poem/50842" />
+<accessionId id="acc018b" href="info:pmid/12729425" />
+<authors>Kovacs MJ, Rodger M, Anderson DR, et al.</authors>
+<title>Comparison of 10-mg and 5-mg warfarin initiation nomograms together with low-molecular-weight heparin for outpatient treatment of acute venous thromboembolism. A randomized, double-blind, controlled trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>138</volume>
+<pages>714&#x2013;719.</pages>
+</reference>
+<reference id="poem81022">
+<accessionId id="acc019" href="info:wiley/eep-poem/81022" />
+<accessionId id="acc019b" href="info:pmid/16926353" />
+<authors>Kearon C, Ginsberg JS, Julian JA, et al.; for the Fixed-Dose Heparin (FIDO) Investigators.</authors>
+<title>Comparison of fixed-dose weight-adjusted unfractionated heparin and low-molecular-weight heparin for acute treatment of venous thromboembolism.</title>
+<source>JAMA</source>
+<pubdate>2006</pubdate>
+<volume>296</volume>
+<pages>935&#x2013;942.</pages>
+</reference>
+<reference id="pubmed9531224">
+<accessionId id="acc020" href="info:pmid/9531224" />
+<authors>Hull RD, Raskob GE, Brant RF, Pineo GF, Valentine KA.</authors>
+<title>Relation between the time to achieve the lower limit of the APTT therapeutic range and recurrent venous thromboembolism during heparin treatment for deep vein thrombosis.</title>
+<source>Arch Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>157</volume>
+<pages>2562&#x2013;2568.</pages>
+</reference>
+<reference id="cochrane1100">
+<accessionId id="acc021" href="info:wiley/cochrane/CD001100" />
+<chapter_authors>Dongen CJJ, Bell AGM, Prins MH, Lensing AWA.</chapter_authors>
+<chapter_title>Fixed dose subcutaneous low molecular weight heparins versus adjusted dose unfractionated heparin for venous thromboembolism (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3076">
+<accessionId id="acc022" href="info:wiley/cochrane/CD003076" />
+<chapter_authors>Schraibman IG, Milne AA, Royle EM.</chapter_authors>
+<chapter_title>Home versus in-patient treatment for deep vein thrombosis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17261857">
+<accessionId id="acc023" href="info:pmid/17261857" />
+<authors>Snow V, Qaseem A, Barry P, et al.; for the American College of Physicians; American Academy of Family Physicians Panel on Deep Venous Thrombosis&#x002F;Pulmonary Embolism.</authors>
+<title>Management of venous thromboembolism: a clinical practice guideline from the American College of Physicians and the American Academy of Family Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>2007</pubdate>
+<volume>146</volume>
+<pages>204&#x2013;210.</pages>
+</reference>
+<reference id="pubmed9807558">
+<accessionId id="acc024" href="info:pmid/9807558" />
+<authors>Moody AR, Pollock JG, O'Connor AR, Bagnall M.</authors>
+<title>Lower-limb deep venous thrombosis: direct MR imaging of the thrombus.</title>
+<source>Radiology</source>
+<pubdate>1998</pubdate>
+<volume>209</volume>
+<pages>349&#x2013;355.</pages>
+</reference>
+<reference id="pubmed3341869">
+<accessionId id="acc025" href="info:pmid/3341869" />
+<authors>Huisman MV, B&#x00FC;ller HR, ten Cate JW.</authors>
+<title>Utility of impedance plethysmography in the diagnosis of recurrent deep-vein thrombosis.</title>
+<source>Arch Intern Med</source>
+<pubdate>1988</pubdate>
+<volume>148</volume>
+<pages>681&#x2013;683.</pages>
+</reference>
+<reference id="pubmed2643771">
+<accessionId id="acc026" href="info:pmid/2643771" />
+<authors>Lensing AW, Prandoni P, Brandjes D, et al.</authors>
+<title>Detection of deep-vein thrombosis by real-time B-mode ultrasonography.</title>
+<source>N Engl J Med</source>
+<pubdate>1989</pubdate>
+<volume>320</volume>
+<pages>342&#x2013;345.</pages>
+</reference>
+<reference id="poem80804">
+<accessionId id="acc027" href="info:wiley/eep-poem/80804" />
+<accessionId id="acc027b" href="info:pmid/16728440" />
+<authors>Goodacre S, Stevenson M, Wailoo A, Sampson F, Sutton AJ, Thomas S.</authors>
+<title>How should we diagnose suspected deep-vein thrombosis?</title>
+<source>QJM</source>
+<pubdate>2006</pubdate>
+<volume>99</volume>
+<pages>377&#x2013;388.</pages>
+</reference>
+<reference id="pubmed17371890">
+<accessionId id="acc028" href="info:pmid/17371890" />
+<authors>Qaseem A, Snow V, Barry P, et al.; for the Joint American Academy of Family Physicians&#x002F;American College of Physicians Panel on Deep Venous Thrombosis&#x002F;Pulmonary Embolism.</authors>
+<title>Current diagnosis of venous thromboembolism in primary care: a clinical practice guideline from the American Academy of Family Physicians and the American College of Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>2007</pubdate>
+<volume>146</volume>
+<pages>454&#x2013;458.</pages>
+</reference>
+<reference id="pubmed16403932">
+<accessionId id="acc029" href="info:pmid/16403932" />
+<authors>Wells PS, Owen C, Doucette S, Fergusson D, Tran H.</authors>
+<title>Does this patient have deep vein thrombosis?</title>
+<source>JAMA</source>
+<pubdate>2006</pubdate>
+<volume>295</volume>
+<pages>199&#x2013;207.</pages>
+</reference>
+<reference id="poem90441">
+<accessionId id="acc030" href="info:wiley/eep-poem/90441" />
+<accessionId id="acc030b" href="info:pmid/17261865" />
+<authors>Qaseem A, Snow V, Barry P, et al.; for the Joint American Academy of Family Physicians&#x002F;American College of Physicians Panel on Deep Venous Thrombosis&#x002F;Pulmonary Embolism.</authors>
+<title>Current diagnosis of venous thromboembolism in primary care: a clinical practice guideline from the American Academy of Family Physicians and the American College of Physicians.</title>
+<source>Ann Fam Med</source>
+<pubdate>2007</pubdate>
+<volume>5</volume>
+<pages>57&#x2013;62.</pages>
+</reference>
+<reference id="poem71054">
+<accessionId id="acc031" href="info:wiley/eep-poem/71054" />
+<accessionId id="acc031b" href="info:pmid/16027455" />
+<authors>Goodacre S, Sutton AJ, Sampson FC.</authors>
+<title>Meta-analysis: The value of clinical assessment in the diagnosis of deep venous thrombosis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2005</pubdate>
+<volume>143</volume>
+<pages>129&#x2013;139.</pages>
+</reference>
+<reference id="poem90101">
+<accessionId id="acc032" href="info:wiley/eep-poem/90101" />
+<accessionId id="acc032b" href="info:pmid/17065639" />
+<authors>Palareti G, Cosmi B, Legnani C, et al.; for the PROLONG Investigators.</authors>
+<title>D-dimer testing to determine the duration of anticoagulation therapy.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>355</volume>
+<pages>1780&#x2013;1789.</pages>
+</reference>
+<reference id="poem51007">
+<accessionId id="acc033" href="info:wiley/eep-poem/51007" />
+<accessionId id="acc033b" href="info:pmid/12853587" />
+<authors>Lee AY, Levine MN, Baker RI; for the Randomized Comparison of Low-Molecular-Weight Heparin versus Oral Anticoagulant Therapy for the Prevention of Recurrent Venous Thromboembolism in Patients with Cancer (CLOT) Investigators.</authors>
+<title>Low-molecular-weight heparin versus a coumarin for the prevention of recurrent venous thromboembolism in patients with cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2003</pubdate>
+<volume>349</volume>
+<pages>146&#x2013;153.</pages>
+</reference>
+<reference id="cochrane4002">
+<accessionId id="acc034" href="info:wiley/cochrane/CD004002" />
+<chapter_authors>Clarke M, Hopewell S, Juszczak E, Eisinga A, Kjeldstr&#x00F8;m M.</chapter_authors>
+<chapter_title>Compression stockings for preventing deep vein thrombosis in airline passengers (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem40763">
+<accessionId id="acc035" href="info:wiley/eep-poem/40763" />
+<accessionId id="acc035b" href="info:pmid/12002490" />
+<authors>Warwick D, Harrison J, Whitehouse S, Mitchelmore A, Thornton M.</authors>
+<title>A randomised comparison of a foot pump and low-molecular-weight heparin in the prevention of deep-vein thrombosis after total knee replacement.</title>
+<source>J Bone Joint Surg Br</source>
+<pubdate>2002</pubdate>
+<volume>84</volume>
+<pages>344&#x2013;350.</pages>
+</reference>
+<reference id="pubmed12426286">
+<accessionId id="acc036" href="info:pmid/12426286" />
+<authors>Dalen JE.</authors>
+<title>Pulmonary embolism: what have we learned since Virchow?: treatment and prevention.</title>
+<source>Chest</source>
+<pubdate>2002</pubdate>
+<volume>122</volume>
+<pages>1801&#x2013;1817.</pages>
+</reference>
+<reference id="poem40710">
+<accessionId id="acc037" href="info:wiley/eep-poem/40710" />
+<accessionId id="acc037b" href="info:pmid/11919306" />
+<authors>Bergqvist D, Agnelli G, Cohen AT, et al.; for the ENOXACAN II Investigators.</authors>
+<title>Duration of prophylaxis against venous thromboembolism with enoxaparin after surgery for cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>346</volume>
+<pages>975&#x2013;980.</pages>
+</reference>
+<reference id="poem61003">
+<accessionId id="acc038" href="info:wiley/eep-poem/61003" />
+<accessionId id="acc038b" href="info:pmid/15302737" />
+<authors>Turpie AG, Bauer KA, Eriksson BI, Lassen MR.</authors>
+<title>Superiority of fondaparinux over enoxaparin in preventing venous thromboembolism in major orthopedic surgery using different efficacy end points.</title>
+<source>Chest</source>
+<pubdate>2004</pubdate>
+<volume>126</volume>
+<pages>501&#x2013;508.</pages>
+</reference>
+<reference id="poem90405">
+<accessionId id="acc039" href="info:wiley/eep-poem/90405" />
+<accessionId id="acc039b" href="info:pmid/17296655" />
+<authors>King CS, Holley AB, Jackson JL, Shorr AF, Moores LK.</authors>
+<title>Twice vs. three times daily heparin dosing for thromboembolism prophylaxis in the general medical population: a metaanalysis.</title>
+<source>Chest</source>
+<pubdate>2007</pubdate>
+<volume>131</volume>
+<pages>507&#x2013;516.</pages>
+</reference>
+<reference id="pubmed9313000">
+<accessionId id="acc040" href="info:pmid/9313000" />
+<authors>Robinson KS, Anderson DR, Gross M, et al.</authors>
+<title>Ultrasonographic screening before hospital discharge for deep venous thrombosis after arthroplasty: the post-arthroplasty screening study. A randomized, controlled trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>127</volume>
+<pages>439&#x2013;445.</pages>
+</reference>
+<reference id="poem417">
+<accessionId id="acc041" href="info:wiley/eep-poem/417" />
+<accessionId id="acc041b" href="info:pmid/9554856" />
+<authors>Sorensen HT, Mellemkjaer L, Steffensen FH, Olsen JH, Nielsen GL.</authors>
+<title>The risk of a diagnosis of cancer after primary deep venous thrombosis or pulmonary embolism.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>338</volume>
+<pages>1169&#x2013;1173.</pages>
+</reference>
+<reference id="pubmed8943165">
+<accessionId id="acc042" href="info:pmid/8943165" />
+<authors>Ginsberg JS.</authors>
+<title>Management of venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>1996</pubdate>
+<volume>335</volume>
+<pages>1816&#x2013;1828.</pages>
+</reference>
+<reference id="pubmed8996041">
+<accessionId id="acc043" href="info:pmid/8996041" />
+<authors>Prandoni P, Polistena P, Bernardi E, et al.</authors>
+<title>Upper-extremity deep vein thrombosis. Risk factors, diagnosis, and complications.</title>
+<source>Arch Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>157</volume>
+<pages>57&#x2013;62.</pages>
+</reference>
+<reference id="pubmed11487047">
+<accessionId id="acc044" href="info:pmid/11487047" />
+<authors>Bertina RM.</authors>
+<title>Genetic approach to thrombophilia.</title>
+<source>Thromb Haemost</source>
+<pubdate>2001</pubdate>
+<volume>86</volume>
+<pages>92&#x2013;103.</pages>
+</reference>
+<reference id="pubmed15383479">
+<accessionId id="acc045" href="info:pmid/15383479" />
+<authors>B&#x00FC;ller HR, Agnelli G, Hull RD, Hyers TM, Prins MH, Raskob GE.</authors>
+<title>Antithrombotic therapy for venous thromboembolic disease: the Seventh ACCP Conference on Antithrombotic and Thrombolytic Therapy.</title>
+<source>Chest</source>
+<pubdate>2004</pubdate>
+<volume>126 S3</volume>
+<pages>401S&#x2013;428S.</pages>
+</reference>
+<reference id="cochrane5509">
+<accessionId id="acc046" href="info:wiley/cochrane/CD005509" />
+<chapter_authors>Bani-Hani M, Al-Khaffaf H, Titi MA, Jaradat I.</chapter_authors>
+<chapter_title>Interventions for preventing venous thromboembolism following abdominal aortic surgery (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem110824">
+<accessionId id="acc047" href="info:wiley/eep-poem/110824" />
+<accessionId id="acc047b" href="info:pmid/19531787" />
+<authors>Segal JB, Brotman DJ, Necochea AJ, et al.</authors>
+<title>Predictive value of factor V leiden and prothrombin G20210A in adults with venous thromboembolism and in family members of those with a mutation. A systematic review.</title>
+<source>JAMA.</source>
+<pubdate>2009</pubdate>
+<volume>301</volume>
+<pages>2472&#x2013;2485.</pages>
+</reference>
+<reference id="cochrane1689">
+<accessionId id="acc048" href="info:wiley/cochrane/CD001689" />
+<chapter_authors>Gates S, Brocklehurst P, Davis L-J.</chapter_authors>
+<chapter_title>Prophylaxis for venous thromboembolic disease in pregnancy and the early postnatal period (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3747">
+<accessionId id="acc049" href="info:wiley/cochrane/CD003747" />
+<chapter_authors>Cundiff DK, Manyemba J, Pezzullo JC.</chapter_authors>
+<chapter_title>Anticoagulants versus non-steroidal anti-inflammatories or placebo for treatment of venous thromboembolism (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2008 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem120545">
+<accessionId id="acc050" href="info:wiley/eep-poem/120545" />
+<accessionId id="acc050b" href="info:pmid/20194309" />
+<authors>Colwell CW, Jr., Froimson MI, Mont MA, et al.</authors>
+<title>Thrombosis prevention after total hip arthroplasty: a prospective, randomized trial comparing a mobile compression device with low-molecular-weight heparin.</title>
+<source>J Bone Joint Surg Am.</source>
+<pubdate>2010</pubdate>
+<volume>92</volume>
+<pages>527&#x2013;535.</pages>
+</reference>
+<reference id="cochrane6771">
+<accessionId id="acc051" href="info:wiley/cochrane/CD006771" />
+<chapter_authors>Su L-L, Samuel M, Chong Y-S.</chapter_authors>
+<chapter_title>Progestational agents for treating threatened or established preterm labour (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7801">
+<accessionId id="acc052" href="info:wiley/cochrane/CD007801" />
+<chapter_authors>Che Yaakob CA, Dzarr AA, Ismail AA, Zuky Nik Lah NA, Ho JJ.</chapter_authors>
+<chapter_title>Anticoagulant therapy for deep vein thrombosis (DVT) in pregnancy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 6.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6650">
+<accessionId id="acc053" href="info:wiley/cochrane/CD006650" />
+<chapter_authors>Akl EA, Labedi N, Barba M, Terrenato I, Sperati F, Muti P, Sch&#x00FC;nemann H.</chapter_authors>
+<chapter_title>Anticoagulation for the long-term treatment of venous thromboembolism in patients with cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 6.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6649">
+<accessionId id="acc054" href="info:wiley/cochrane/CD006649" />
+<chapter_authors>Akl EA, Vasireddi SR, Gunukula S, Barba M, Sperati F, Terrenato I, Muti P, Sch&#x00FC;nemann H.</chapter_authors>
+<chapter_title>Anticoagulation for the initial treatment of venous thromboembolism in patients with cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 6.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem130634">
+<accessionId id="acc055" href="info:wiley/eep-poem/130634" />
+<accessionId id="acc055b" href="info:pmid/21417952" />
+<authors>PROTECT Investigators for the Canadian Critical Care Trials Group and the Australian and New Zealand Intensive Care Society Clinical Trials Group; Cook D, Meade M, Guyatt G, et al.</authors>
+<title>Dalteparin versus unfractionated heparin in critically ill patients.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>364</volume>
+<pages>1305&#x2013;1314.</pages>
+</reference>
+<reference id="poem130203">
+<accessionId id="acc056" href="info:wiley/eep-poem/130203" />
+<accessionId id="acc056b" href="info:pmid/21128814" />
+<authors>EINSTEIN Investigators; Bauersachs R, Berkowitz SD, Brenner B, et al.</authors>
+<title>Oral rivaroxaban for symptomatic venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2010</pubdate>
+<volume>363</volume>
+<pages>2499&#x2013;2510.</pages>
+</reference>
+<reference id="poem121052">
+<accessionId id="acc057" href="info:wiley/eep-poem/121052" />
+<accessionId id="acc057b" href="info:pmid/20670728" />
+<authors>Musani MH, Matta F, Yaekoub AY, Liang J, Hull RD, Stein PD.</authors>
+<title>Venous compression for prevention of postthrombotic syndrome: a meta-analysis.</title>
+<source>Am J Med</source>
+<pubdate>2010</pubdate>
+<volume>123</volume>
+<pages>735&#x2013;740.</pages>
+</reference>
+<reference id="poem120203">
+<accessionId id="acc058" href="info:wiley/eep-poem/120203" />
+<accessionId id="acc058b" href="info:pmid/19966341" />
+<authors>Schulman S, Kearon C, Kakkar AK, Mismetti P, Schellong S, Eriksson H, Baanstra D, Schnee J, Goldhaber SZ; RE-COVER Study Group.</authors>
+<title>Dabigatran versus warfarin in the treatment of acute venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>361</volume>
+<pages>2342&#x2013;2352.</pages>
+</reference>
+<reference id="poem100904">
+<accessionId id="acc059" href="info:wiley/eep-poem/100904" />
+<accessionId id="acc059b" href="info:pmid/18198244" />
+<authors>Johnson SG, Rogers K, Delate T, Witt DM.</authors>
+<title>Outcomes associated with combined antiplatelet and anticoagulant therapy.</title>
+<source>Chest</source>
+<pubdate>2008</pubdate>
+<volume>133</volume>
+<pages>948&#x2013;954.</pages>
+</reference>
+<reference id="poem101221">
+<accessionId id="acc060" href="info:wiley/eep-poem/101221" />
+<accessionId id="acc060b" href="info:pmid/18840838" />
+<authors>Bernardi E, Camporese G, B&#x00FC;ller HR, et al.; Erasmus Study Group.</authors>
+<title>Serial 2-point ultrasonography plus D-dimer vs. whole-leg color-coded Doppler ultrasonography for diagnosing suspected symptomatic deep vein thrombosis: a randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2008</pubdate>
+<volume>300</volume>
+<pages>1653&#x2013;1659.</pages>
+</reference>
+<reference id="poem110604">
+<accessionId id="acc061" href="info:wiley/eep-poem/110604" />
+<accessionId id="acc061b" href="info:pmid/19329822" />
+<authors>Glynn RJ, Danielson E, Fonseca FAH, et al.</authors>
+<title>A randomized trial of rosuvastatin in the prevention of venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>360</volume>
+<pages>1851&#x2013;1861.</pages>
+</reference>
+<reference id="poem110102">
+<accessionId id="acc062" href="info:wiley/eep-poem/110102" />
+<accessionId id="acc062b" href="info:pmid/18725614" />
+<authors>Rodger MA, Kahn SR, Wells PS, et al.</authors>
+<title>Identifying unprovoked thromboembolism patients at low risk for recurrence who can discontinue anticoagulant therapy.</title>
+<source>CMAJ</source>
+<pubdate>2008</pubdate>
+<volume>179</volume>
+<pages>417&#x2013;426.</pages>
+</reference>
+<reference id="hp236">
+<accessionId id="acc063" href="info:wiley/eep-hp/236" />
+<accessionId id="acc063b" href="info:pmid/19620161" />
+<authors>Chan WS, Lee A, Spencer FA, et al.</authors>
+<title>Predicting deep venous thrombosis in pregnancy: out in "LEFt" field?</title>
+<source>Ann Intern Med</source>
+<pubdate>2009</pubdate>
+<volume>151</volume>
+<pages>85&#x2013;92.</pages>
+</reference>
+<reference id="rule440">
+<accessionId id="acc064" href="info:wiley/eep-rule/440" />
+<accessionId id="acc064b" href="info:pmid/21242558" />
+<authors>van der Velde EF, Toll DB, Ten Cate-Hoek AJ, Oudega R, Stoffers HE, Bossuyt PM, B&#x00FC;ller HR, Prins MH, Hoes AW, Moons KG, van Weert HC.</authors>
+<title>Comparing the diagnostic performance of 2 clinical decision rules to rule out deep vein thrombosis in primary care patients.</title>
+<source>Ann Fam Med</source>
+<pubdate>2011 Jan-Feb</pubdate>
+<volume>9</volume>
+<pages>31&#x2013;36.</pages>
+</reference>
+<reference id="poem160201">
+<accessionId id="acc065" href="info:wiley/eep-poem/160201" />
+<accessionId id="acc065b" href="info:pmid/23852609" />
+<authors>Ho KM, Tan JA.</authors>
+<title>Stratified meta-analysis of intermittent pneumatic compression of the lower limbs to prevent venous thromboembolism in hospitalized patients.</title>
+<source>Circulation</source>
+<pubdate>2013</pubdate>
+<volume>128</volume>
+<pages>1003&#x2013;1020.</pages>
+</reference>
+<reference id="poem160204">
+<accessionId id="acc066" href="info:wiley/eep-poem/160204" />
+<accessionId id="acc066b" href="info:pmid/24251361" />
+<authors>Kimmel SE, French B, Kasner SE, et al.</authors>
+<title>A pharmacogenetic versus a clinical algorithm for warfarin dosing.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>2283&#x2013;2293.</pages>
+</reference>
+<reference id="poem151202">
+<accessionId id="acc067" href="info:wiley/eep-poem/151202" />
+<accessionId id="acc067b" href="info:pmid/23991658" />
+<authors>B&#x00FC;ller HR, D&#x00E9;cousus H, Grosso MA, Mercuri M, Middeldorp S, Prins MH, Raskob GE, Schellong SM, Schwocho L, Segers A, Shi M, Verhamme P, Wells P.</authors>
+<title>Edoxaban versus warfarin for the treatment of symptomatic venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>1406&#x2013;1415.</pages>
+</reference>
+<reference id="poem151101">
+<accessionId id="acc068" href="info:wiley/eep-poem/151101" />
+<accessionId id="acc068b" href="info:pmid/23808982" />
+<authors>Agnelli G, Buller HR, Cohen A, Curto M, Gallus AS, Johnson M, Masiukiewicz U, Pak R, Thompson J, Raskob GE, Weitz JI.</authors>
+<title>Oral apixaban for the treatment of acute venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>799&#x2013;808.</pages>
+</reference>
+<reference id="poem150403">
+<accessionId id="acc069" href="info:wiley/eep-poem/150403" />
+<accessionId id="acc069b" href="info:pmid/23388003" />
+<authors>Cohen AT, Spiro TE, B&#x00FC;ller HR, Haskell L, Hu D, Hull R, Mebazaa A, Merli G, Schellong S, Spyropoulos AC, Tapson V.</authors>
+<title>Rivaroxaban for thromboprophylaxis in acutely ill medical patients.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>513&#x2013;523.</pages>
+</reference>
+<reference id="poem150402">
+<accessionId id="acc070" href="info:wiley/eep-poem/150402" />
+<accessionId id="acc070b" href="info:pmid/23425163" />
+<authors>Schulman S, Kearon C, Kakkar AK, Schellong S, Eriksson H, Baanstra D, Kvamme AM, Friedman J, Mismetti P, Goldhaber SZ.</authors>
+<title>Extended use of dabigatran, warfarin, or placebo in venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>709&#x2013;718.</pages>
+</reference>
+<reference id="poem150401">
+<accessionId id="acc071" href="info:wiley/eep-poem/150401" />
+<accessionId id="acc071b" href="info:pmid/23216615" />
+<authors>Agnelli G, Buller HR, Cohen A, Curto M, Gallus AS, Johnson M, Porcari A, Raskob GE, Weitz JI.</authors>
+<title>Apixaban for extended treatment of venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>699&#x2013;708.</pages>
+</reference>
+<reference id="poem140752">
+<accessionId id="acc072" href="info:wiley/eep-poem/140752" />
+<accessionId id="acc072b" href="info:pmid/22412039" />
+<authors>Sobieraj DM, Lee S, Coleman CI, Tongbram V, Chen W, Colby J, Kluger J, Makanji S, Ashaye AO, White CM.</authors>
+<title>Prolonged versus standard-duration venous thromboprophylaxis in major orthopedic surgery: a systematic review.</title>
+<source>Ann Intern Med</source>
+<pubdate>2012</pubdate>
+<volume>156</volume>
+<pages>720&#x2013;727.</pages>
+</reference>
+<reference id="poem150654">
+<accessionId id="acc073" href="info:wiley/eep-poem/150654" />
+<accessionId id="acc073b" href="info:pmid/23552968" />
+<authors>Sarosiek S, Crowther M, Sloan JM.</authors>
+<title>Indications, complications, and management of inferior vena cava filters: the experience in 952 patients at an academic hospital with a level I trauma center.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2013</pubdate>
+<volume>173</volume>
+<pages>513&#x2013;517.</pages>
+</reference>
+<reference id="poem151043">
+<accessionId id="acc074" href="info:wiley/eep-poem/151043" />
+<accessionId id="acc074b" href="info:pmid/23697825" />
+<authors>Chopra V, Anand S, Hickner A, Buist M, Rogers MA, Saint S, Flanders SA.</authors>
+<title>Risk of venous thromboembolism associated with peripherally inserted central catheters: a systematic review and meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2013</pubdate>
+<volume>382</volume>
+<pages>311&#x2013;325.</pages>
+</reference>
+<reference id="poem140643">
+<accessionId id="acc075" href="info:wiley/eep-poem/140643" />
+<accessionId id="acc075b" href="info:pmid/22517387" />
+<authors>Maletis GB, Inacio MC, Reynolds S, Funahashi TT.</authors>
+<title>Incidence of symptomatic venous thromboembolism after elective knee arthroscopy.</title>
+<source>J Bone Joint Surg Am</source>
+<pubdate>2012</pubdate>
+<volume>94</volume>
+<pages>714&#x2013;720.</pages>
+</reference>
+<reference id="poem140651">
+<accessionId id="acc076" href="info:wiley/eep-poem/140651" />
+<accessionId id="acc076b" href="info:pmid/22449293" />
+<authors>B&#x00FC;ller HR, Prins MH, Lensin AW, Decousus H, Jacobson BF, Minar E, Chlumsky J, Verhamme P, Wells P, Agnelli G, Cohen A, Berkowitz SD, Bounameaux H, Davidson BL, Misselwitz F, Gallus AS, Raskob GE, Schellong S, Segers A.</authors>
+<title>Oral rivaroxaban for the treatment of symptomatic pulmonary embolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2012</pubdate>
+<volume>366</volume>
+<pages>1287&#x2013;1297.</pages>
+</reference>
+<reference id="poem150342">
+<accessionId id="acc077" href="info:wiley/eep-poem/150342" />
+<accessionId id="acc077b" href="info:pmid/23188898" />
+<authors>Pedersen AB, Johnsen SP, S&#x00F8;rensen HT.</authors>
+<title>Increased one-year risk of symptomatic venous thromboembolism following total hip replacement: a nationwide cohort study.</title>
+<source>J Bone Joint Surg Br</source>
+<pubdate>2012</pubdate>
+<volume>94</volume>
+<pages>1598&#x2013;1603.</pages>
+</reference>
+<reference id="poem160544">
+<accessionId id="acc078" href="info:wiley/eep-poem/160544" />
+<accessionId id="acc078b" href="info:pmid/24315521" />
+<authors>Kahn SR, Shapiro S, Wells PS, et al.</authors>
+<title>Compression stockings to prevent post-thrombotic syndrome: a randomised placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2014</pubdate>
+<volume>383</volume>
+<pages>880&#x2013;888.</pages>
+</reference>
+<reference id="PubMed1689">
+<accessionId id="acc079" href="info:pmid/1689" />
+<authors>Perez-Polo JR, Shooter EM.</authors>
+<title>The preparation and properties of nerve growth factor protein at alkaline pH.</title>
+<source>Neurobiology</source>
+<pubdate>1975</pubdate>
+<volume>5</volume>
+<pages>329&#x2013;338.</pages>
+</reference>
+<reference id="pubmed24916118">
+<accessionId id="acc080" href="info:pmid/24916118" />
+<authors>Zareba P, Wu C, Agzarian J, Rodriguez D, Kearon C.</authors>
+<title>Meta-analysis of randomized trials comparing combined compression and anticoagulation with either modality alone for prevention of venous thromboembolism after surgery.</title>
+<source>Br J Surg</source>
+<pubdate>2014</pubdate>
+<volume>101</volume>
+<pages>1053&#x2013;1062.</pages>
+</reference>
+<reference id="cochrane3074">
+<accessionId id="acc081" href="info:wiley/cochrane/CD003074" />
+<chapter_authors>Bhutia S, Wong PF.</chapter_authors>
+<chapter_title>Once versus twice daily low molecular weight heparin for the initial treatment of venous thromboembolism.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 7.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn>Art. No.: CD003074. DOI: 10.1002&#x002F;14651858.CD003074.pub3.</isbn>
+</reference>
+<reference id="pubmed20224361">
+<accessionId id="acc082" href="info:pmid/20224361" />
+<authors>Labropoulos N, Jen J, Jen H, Gasparis AP, Tassiopoulos AK.</authors>
+<title>Recurrent deep vein thrombosis: long-term incidence and natural history.</title>
+<source>Ann Surg</source>
+<pubdate>2010</pubdate>
+<volume>251</volume>
+<pages>749&#x2013;753.</pages>
+</reference>
+<reference id="poem171021">
+<accessionId id="acc083" href="info:wiley/eep-poem/171021" />
+<accessionId id="acc083b" href="info:pmid/26284719" />
+<authors>Lee AY, Kamphuisen PW, Meyer G, Bauersachs R, Janas MS, Jarner MF, Khorana AA; CATCH Investigators.</authors>
+<title>Tinzaparin vs. warfarin for treatment of acute venous thromboembolism in patients with active cancer: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>314</volume>
+<pages>677&#x2013;686.</pages>
+</reference>
+<reference id="poem171107">
+<accessionId id="acc084" href="info:wiley/eep-poem/171107" />
+<accessionId id="acc084b" href="info:pmid/26095467" />
+<authors>Carrier M, Lazo-Langner A, Shivakumar S, Tagalakis V, Zarychanski R, Solymoss S, Routhier N, Douketis J, Danovitch K, Lee AY, Le Gal G, Wells PS, Corsi DJ, Ramsay T, Coyle D, Chagnon I, Kassam Z, Tao H, Rodger MA; SOME Investigators.</authors>
+<title>Screening for occult cancer in unprovoked venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>373</volume>
+<pages>697&#x2013;704.</pages>
+</reference>
+<reference id="poem180207">
+<accessionId id="acc085" href="info:wiley/eep-poem/180207" />
+<accessionId id="acc085b" href="info:pmid/25940453" />
+<authors>Greene MT, Flanders SA, Woller SC, Bernstein SJ, Chopra V.</authors>
+<title>The association between PICC use and venous thromboembolism in upper and lower extremities.</title>
+<source>Am J Med</source>
+<pubdate>2015</pubdate>
+<volume>128</volume>
+<pages>986&#x2013;993.e1.</pages>
+</reference>
+<reference id="poem180506">
+<accessionId id="acc086" href="info:wiley/eep-poem/180506" />
+<accessionId id="acc086b" href="info:pmid/26747198" />
+<authors>Berntsen CF, Kristiansen A, Akl EA, Sandset PM, Jacobsen EM, Guyatt G, Vandvik PO.</authors>
+<title>Compression stockings for preventing the postthrombotic syndrome in patients with deep vein thrombosis.</title>
+<source>Am J Med</source>
+<pubdate>2016</pubdate>
+<volume>129</volume>
+<pages>447.e1&#x2013;447.e20.</pages>
+</reference>
+<reference id="poem180403">
+<accessionId id="acc087" href="info:wiley/eep-poem/180403" />
+<accessionId id="acc087b" href="info:pmid/26408273" />
+<authors>Andreozzi GM, Bignamini AA, Dav&#x00EC; G, Palareti G, Matu&#x0161;ka J, Hol&#x00FD; M, Pawlaczyk-Gabriel K, D&#x017E;upina A, Sokurenko GY, Didenko YP, Andrei LD, Lessiani G, Vison&#x00E0; A; SURVET Study Investigators.</authors>
+<title>Sulodexide for the prevention of recurrent venous thromboembolism: the sulodexide in secondary prevention of recurrent deep vein thrombosis (SURVET) study: a multicenter, randomized, double-blind, placebo-controlled trial.</title>
+<source>Circulation</source>
+<pubdate>2015</pubdate>
+<volume>132</volume>
+<pages>1891&#x2013;1897.</pages>
+</reference>
+<reference id="poem180905">
+<accessionId id="acc088" href="info:wiley/eep-poem/180905" />
+<accessionId id="acc088b" href="info:pmid/26867832" />
+<authors>Kearon C, Akl EA, Ornelas J, Blaivas A, Jimenez D, Bounameaux H, Huisman M, King CS, Morris TA, Sood N, Stevens SM, Vintch JR, Wells P, Woller SC, Moores L.</authors>
+<title>Antithrombotic therapy for VTE disease: CHEST Guideline and Expert Panel Report.</title>
+<source>Chest</source>
+<pubdate>2016</pubdate>
+<volume>149</volume>
+<pages>315&#x2013;352.</pages>
+</reference>
+<reference id="poem201220">
+<accessionId id="acc089" href="info:wiley/eep-poem/201220" />
+<accessionId id="acc089b" href="info:pmid/30347089" />
+<authors>Hood BR, Cowen ME, Zheng HT, Hughes RE, Singal B, Hallstrom BR.</authors>
+<title>Association of aspirin with prevention of venous thromboembolism in patients after total Knee arthroplasty compared with other anticoagulants: a noninferiority analysis.</title>
+<source>JAMA Surg</source>
+<pubdate>2018</pubdate>
+<pages />
+</reference>
+<reference id="poem210607">
+<accessionId id="acc090" href="info:wiley/eep-poem/210607" />
+<accessionId id="acc090b" href="info:pmid/30779530" />
+<authors>Arabi YM, Al-Hameed F, Burns KEA, Mehta S, Alsolamy SJ, Alshahrani MS, Mandourah Y, Almekhlafi GA, Almaani M, Al Bshabshe A, Finfer S, Arshad Z, Khalid I, Mehta Y, Gaur A, Hawa H, Buscher H, Lababidi H, Al Aithan A, Abdukahil SAI, Jose J, Afesh LY, Al-Dawood A, Saudi Critical Care Trials Group.</authors>
+<title>Adjunctive intermittent pneumatic compression for venous thromboprophylaxis.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>1305&#x2013;1315.</pages>
+</reference>
+<reference id="poem210520">
+<accessionId id="acc091" href="info:wiley/eep-poem/210520" />
+<accessionId id="acc091b" href="info:pmid/30511879" />
+<authors>Carrier M, Abou-Nassar K, Mallick R, Tagalakis V, Shivakumar S, Schattner A, Kuruvilla P, Hill D, Spadafora S, Marquis K, Trinkaus M, Tomiak A, Lee AYY, Gross PL, Lazo-Langner A, El-Maraghi R, Goss G, Le Gal G, Stewart D, Ramsay T, Rodger M, Witham D, Wells PS, AVERT Investigators.</authors>
+<title>Apixaban to prevent venous thromboembolism in patients with cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>711&#x2013;719.</pages>
+</reference>
+<reference id="pubmed27052516">
+<accessionId id="acc092" href="info:pmid/27052516" />
+<authors>Germini F, Agnelli G, Fedele M, Galli MG, Giustozzi M, Marcucci M, Paganelli G, Pinotti E, Becattini C.</authors>
+<title>Padua prediction score or clinical judgment for decision making on antithrombotic prophylaxis: a quasi-randomized controlled trial.</title>
+<source>J Thromb Thrombolysis</source>
+<pubdate>2016</pubdate>
+<volume>42</volume>
+<pages>336&#x2013;9.</pages>
+</reference>
+<reference id="pubmed27027384">
+<accessionId id="acc093" href="info:pmid/27027384" />
+<authors>Forster R, Stewart M.</authors>
+<title>Anticoagulants (extended duration) for prevention of venous thromboembolism following total hip or knee replacement or hip fracture repair.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2016</pubdate>
+<volume>3</volume>
+<pages>CD004179.</pages>
+</reference>
+<reference id="cochrane11088">
+<accessionId id="acc094" href="info:wiley/cochrane/CD11088" />
+<chapter_authors>Robertson L, Yeoh SE, Ramli A.</chapter_authors>
+<chapter_title>Secondary prevention of recurrent venous thromboembolism after initial oral anticoagulation therapy in patients with unprovoked venous thromboembolism.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 12. Art. No.: CD011088. DOI: 10.1002&#x002F;14651858.CD011088.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31381464">
+<accessionId id="acc095" href="info:pmid/31381464" />
+<authors>Key NS, Khorana AA, Kuderer NM, Bohlke K, Lee AYY, Arcelus JI, Wong SL, Balaban EP, Flowers CR, Francis CW, Gates LE, Kakkar AK, Levine MN, Liebman HA, Tempero MA, Lyman GH, Falanga A.</authors>
+<title>Venous Thromboembolism Prophylaxis and Treatment in Patients With Cancer: ASCO Clinical Practice Guideline Update.</title>
+<source>J Clin Oncol</source>
+<pubdate>2019</pubdate>
+<pages>JCO1901461.</pages>
+</reference>
+<reference id="pubmed25156992">
+<accessionId id="acc096" href="info:pmid/25156992" />
+<authors>Simes J, Becattini C, Agnelli G, Eikelboom JW, Kirby AC, Mister R, Prandoni P, Brighton TA, INSPIRE Study Investigators (International Collaboration of Aspirin Trials for Recurrent Venous Thromboembolism).</authors>
+<title>Aspirin for the prevention of recurrent venous thromboembolism: the INSPIRE collaboration.</title>
+<source>Circulation</source>
+<pubdate>2014</pubdate>
+<volume>130</volume>
+<pages>1062&#x2013;71.</pages>
+</reference>
+<reference id="pubmed29506866">
+<accessionId id="acc097" href="info:pmid/29506866" />
+<authors>Li A, Garcia DA, Lyman GH, Carrier M.</authors>
+<title>Direct oral anticoagulant (DOAC) versus low-molecular-weight heparin (LMWH) for treatment of cancer associated thrombosis (CAT): A systematic review and meta-analysis.</title>
+<source>Thromb. Res.</source>
+<pubdate>2019</pubdate>
+<volume>173</volume>
+<pages>158&#x2013;163.</pages>
+</reference>
+<reference id="cochrane1484">
+<accessionId id="acc098" href="info:wiley/cochrane/CD1484" />
+<chapter_authors>Sachdeva A, Dalton M, Lees T.</chapter_authors>
+<chapter_title>Graduated compression stockings for prevention of deep vein thrombosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 11. Art. No.: CD001484. DOI: 10.1002&#x002F;14651858.CD001484.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4318">
+<accessionId id="acc099" href="info:wiley/cochrane/CD4318" />
+<chapter_authors>Felder S, Rasmussen MS, King R, Sklow B, Kwaan M, Madoff R, Jensen C.</chapter_authors>
+<chapter_title>Prolonged thromboprophylaxis with low molecular weight heparin for abdominal or pelvic surgery.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 3. Art. No.: CD004318. DOI: 10.1002&#x002F;14651858.CD004318.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed29043850">
+<accessionId id="acc100" href="info:pmid/29043850" />
+<authors>Nybo M, Hvas AM.</authors>
+<title>Age-adjusted D-dimer cut-off in the diagnostic strategy for deep vein thrombosis: a systematic review.</title>
+<source>Scand J Clin Lab Invest</source>
+<pubdate>2017</pubdate>
+<volume>77</volume>
+<pages>568&#x2013;573.</pages>
+</reference>
+<reference id="pubmed31340984">
+<accessionId id="acc101" href="info:pmid/31340984" />
+<authors>Khan F, Rahman A, Carrier M, Kearon C, Weitz JI, Schulman S, Couturaud F, Eichinger S, Kyrle PA, Becattini C, Agnelli G, Brighton TA, Lensing AWA, Prins MH, Sabri E, Hutton B, Pinede L, Cushman M, Palareti G, Wells GA, Prandoni P, B&#x00FC;ller HR, Rodger MA, MARVELOUS Collaborators.</authors>
+<title>Long term risk of symptomatic recurrent venous thromboembolism after discontinuation of anticoagulant treatment for first unprovoked venous thromboembolism event: systematic review and meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2019</pubdate>
+<volume>366</volume>
+<pages>l4363.</pages>
+</reference>
+<reference id="pubmed31444124">
+<accessionId id="acc102" href="info:pmid/31444124" />
+<authors>Lewis S, Glen J, Dawoud D, Dias S, Cobb J, Griffin XL, Rossiter N, Reed M, Sharpin C, Stansby G, Barry P.</authors>
+<title>Venous thromboembolism prophylaxis strategies for people undergoing elective total knee replacement: a systematic review and network meta-analysis.</title>
+<source>Lancet Haematol</source>
+<pubdate>2019</pubdate>
+<volume>6</volume>
+<pages>e530&#x2013;e539.</pages>
+</reference>
+<reference id="pubmed30002145">
+<accessionId id="acc103" href="info:pmid/30002145" />
+<authors>Pengo V, Denas G, Zoppellaro G, Jose SP, Hoxha A, Ruffatti A, Andreoli L, Tincani A, Cenci C, Prisco D, Fierro T, Gresele P, Cafolla A, De Micheli V, Ghirarduzzi A, Tosetto A, Falanga A, Martinelli I, Testa S, Barcellona D, Gerosa M, Banzato A.</authors>
+<title>Rivaroxaban vs warfarin in high-risk patients with antiphospholipid syndrome.</title>
+<source>Blood</source>
+<pubdate>2018</pubdate>
+<volume>132</volume>
+<pages>1365&#x2013;1371.</pages>
+</reference>
+<reference id="pubmed28290648">
+<accessionId id="acc104" href="info:pmid/28290648" />
+<authors>Wilbur J, Shian B.</authors>
+<title>Deep Venous Thrombosis and Pulmonary Embolism: Current Therapy.</title>
+<source>Am Fam Physician</source>
+<pubdate>2017</pubdate>
+<volume>95</volume>
+<pages>295&#x2013;302.</pages>
+</reference>
+<reference id="pubmed29217632">
+<accessionId id="acc105" href="info:pmid/29217632" />
+<authors>Tafur A, Douketis J.</authors>
+<title>Perioperative management of anticoagulant and antiplatelet therapy.</title>
+<source>Heart</source>
+<pubdate>2018</pubdate>
+<volume>104</volume>
+<pages>1461&#x2013;1467.</pages>
+</reference>
+<reference id="pubmed26988871">
+<accessionId id="acc106" href="info:pmid/26988871" />
+<authors>Spyropoulos AC, Al-Badri A, Sherwood MW, Douketis JD.</authors>
+<title>Periprocedural management of patients receiving a vitamin K antagonist or a direct oral anticoagulant requiring an elective procedure or surgery.</title>
+<source>J. Thromb. Haemost.</source>
+<pubdate>2016</pubdate>
+<volume>14</volume>
+<pages>875&#x2013;85.</pages>
+</reference>
+<reference id="pubmed28329262">
+<accessionId id="acc107" href="info:pmid/28329262" />
+<authors>Mazzolai L, Aboyans V, Ageno W, Agnelli G, Alatri A, Bauersachs R, Brekelmans MPA, B&#x00FC;ller HR, Elias A, Farge D, Konstantinides S, Palareti G, Prandoni P, Righini M, Torbicki A, Vlachopoulos C, Brodmann M.</authors>
+<title>Diagnosis and management of acute deep vein thrombosis: a joint consensus document from the European Society of Cardiology working groups of aorta and peripheral vascular diseases and pulmonary circulation and right ventricular function.</title>
+<source>Eur Heart J</source>
+<pubdate>2018</pubdate>
+<volume>39</volume>
+<pages>4208&#x2013;4218.</pages>
+</reference>
+<reference id="pubmed30482765">
+<accessionId id="acc108" href="info:pmid/30482765" />
+<authors>Witt DM, Nieuwlaat R, Clark NP, Ansell J, Holbrook A, Skov J, Shehab N, Mock J, Myers T, Dentali F, Crowther MA, Agarwal A, Bhatt M, Khatib R, Riva JJ, Zhang Y, Guyatt G.</authors>
+<title>American Society of Hematology 2018 guidelines for management of venous thromboembolism: optimal management of anticoagulation therapy.</title>
+<source>Blood Adv</source>
+<pubdate>2018</pubdate>
+<volume>2</volume>
+<pages>3257&#x2013;3291.</pages>
+</reference>
+<reference id="pubmed17433897">
+<accessionId id="acc109" href="info:pmid/17433897" />
+<authors>Cushman M.</authors>
+<title>Epidemiology and risk factors for venous thrombosis.</title>
+<source>Semin Hematol</source>
+<pubdate>2007</pubdate>
+<volume>44</volume>
+<pages>62&#x2013;9.</pages>
+</reference>
+<reference id="cochrane5258">
+<accessionId id="acc110" href="info:wiley/cochrane/CD5258" />
+<chapter_authors>Kakkos S, Kirkilesis G, Caprini JA, Geroulakos G, Nicolaides A, Stansby G, Reddy DJ.</chapter_authors>
+<chapter_title>Combined intermittent pneumatic leg compression and pharmacological prophylaxis for prevention of venous thromboembolism.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 1. Art. No.: CD005258. DOI: 10.1002&#x002F;14651858.CD005258.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem396477">
+<accessionId id="acc111" href="info:wiley/eep-poem/396477" />
+<accessionId id="acc111b" href="info:pmid/35997730" />
+<authors>CRISTAL Study Group, Sidhu VS, Kelly TL, Pratt N, Graves SE, Buchbinder R, Adie S, Cashman K, Ackerman I, Bastiras D, Brighton R, Burns AWR, Chong BH, Clavisi O, Cripps M, Dekkers M, de Steiger R, Dixon M, Ellis A, Griffith EC, Hale D, Hansen A, Harris A, Hau R, Horsley M, James D, Khorshid O, Kuo L, Lewis P, Lieu D, Lorimer M, MacDessi S, McCombe P, McDougall C, Mulford J, Naylor JM, Page RS, Radovanovic J, Solomon M, Sorial R, Summersell P, Tran P, Walter WL, Webb S, Wilson C, Wysocki D, Harris IA.</authors>
+<title>Effect of Aspirin vs Enoxaparin on Symptomatic Venous Thromboembolism in Patients Undergoing Hip or Knee Arthroplasty: The CRISTAL Randomized Trial.</title>
+<source>JAMA</source>
+<pubdate>2022</pubdate>
+<volume>328</volume>
+<pages>719&#x2013;727.</pages>
+</reference>
+<reference id="rule23">
+<accessionId id="acc112" href="info:wiley/eep-rule/23" />
+<accessionId id="acc112b" href="info:pmid/14507948" />
+<authors>Wells PS, Anderson DR, Rodger M, Forgie M, Kearon C, Dreyer J, Kovacs G, Mitchell M, Lewandowski B, Kovacs MJ.</authors>
+<title>Evaluation of D-dimer in the diagnosis of suspected deep-vein thrombosis.</title>
+<source>N Engl J Med</source>
+<pubdate>2003</pubdate>
+<volume>349</volume>
+<pages>1227&#x2013;35.</pages>
+</reference>
+<reference id="rule598">
+<accessionId id="acc113" href="info:wiley/eep-rule/598" />
+<accessionId id="acc113b" href="info:pmid/28314711" />
+<authors>Rodger MA, Le Gal G, Anderson DR, Schmidt J, Pernod G, Kahn SR, Righini M, Mismetti P, Kearon C, Meyer G, Elias A, Ramsay T, Ortel TL, Huisman MV, Kovacs MJ, REVERSE II Study Investigators.</authors>
+<title>Validating the HERDOO2 rule to guide treatment duration for women with unprovoked venous thrombosis: multinational prospective cohort management study.</title>
+<source>BMJ</source>
+<pubdate>2017</pubdate>
+<volume>356</volume>
+<pages>j1065.</pages>
+</reference>
+<reference id="rule599">
+<accessionId id="acc114" href="info:wiley/eep-rule/599" />
+<accessionId id="acc114b" href="info:pmid/28276566" />
+<authors>Klok FA, Barco S, Konstantinides SV.</authors>
+<title>External validation of the VTE-BLEED score for predicting major bleeding in stable anticoagulated patients with venous thromboembolism.</title>
+<source>Thromb Haemost</source>
+<pubdate>2017</pubdate>
+<volume>117</volume>
+<pages>1164&#x2013;1170.</pages>
+</reference>
+<reference id="poem308827">
+<accessionId id="acc115" href="info:wiley/eep-poem/308827" />
+<accessionId id="acc115b" href="info:pmid/35015038" />
+<authors>Goldenberg NA, Kittelson JM, Abshire TC, Bonaca M, Casella JF, Dale RA, Halperin JL, Hamblin F, Kessler CM, Manco-Johnson MJ, Sidonio RF, Spyropoulos AC, Steg PG, Turpie AGG, Schulman S, Kids-DOTT Trial Investigators and the ATLAS Group.</authors>
+<title>Effect of Anticoagulant Therapy for 6 Weeks vs 3 Months on Recurrence and Bleeding Events in Patients Younger Than 21 Years of Age With Provoked Venous Thromboembolism: The Kids-DOTT Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2022</pubdate>
+<volume>327</volume>
+<pages>129&#x2013;137.</pages>
+</reference>
+<reference id="poem383913">
+<accessionId id="acc116" href="info:wiley/eep-poem/383913" />
+<accessionId id="acc116b" href="info:pmid/38436976" />
+<authors>Teja B, Bosch NA, Diep C, Pereira TV, Mauricio P, Sklar MC, Sankar A, Wijeysundera HC, Saskin R, Walkey A, Wijeysundera DN, Wunsch H.</authors>
+<title>Complication Rates of Central Venous Catheters: A Systematic Review and Meta-Analysis.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>184</volume>
+<pages>474&#x2013;482.</pages>
+</reference>
+<reference id="poem379904">
+<accessionId id="acc117" href="info:wiley/eep-poem/379904" />
+<accessionId id="acc117b" href="info:pmid/40162636" />
+<authors>Mah&#x00E9; I, Carrier M, Mayeur D, Chidiac J, Vicaut E, Falvo N, Sanchez O, Grange C, Monreal M, L&#x00F3;pez-N&#x00FA;&#x00F1;ez JJ, Otero-Candelera R, Le Gal G, Yeo E, Righini M, Robert-Ebadi H, Huisman MV, Klok FA, Westerweel P, Agnelli G, Becattini C, Bamias A, Syrigos K, Szmit S, Torbicki A, Verhamme P, Maraveyas A, Cohen AT, Ay C, Chapelle C, Meyer G, Couturaud F, Mismetti P, Girard P, Bertoletti L, Laporte S, API-CAT Investigators.</authors>
+<title>Extended Reduced-Dose Apixaban for Cancer-Associated Venous Thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>1363&#x2013;1373.</pages>
+</reference>
+<reference id="poem379642">
+<accessionId id="acc118" href="info:wiley/eep-poem/379642" />
+<accessionId id="acc118b" href="info:pmid/37266947" />
+<authors>Schrag D, Uno H, Rosovsky R, Rutherford C, Sanfilippo K, Villano JL, Drescher M, Jayaram N, Holmes C, Feldman L, Zattra O, Farrar-Muir H, Cronin C, Basch E, Weiss A, Connors JM, CANVAS Investigators.</authors>
+<title>Direct Oral Anticoagulants vs Low-Molecular-Weight Heparin and Recurrent VTE in Patients With Cancer: A Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>329</volume>
+<pages>1924&#x2013;1933.</pages>
+</reference>
+<reference id="pubmed34352278">
+<accessionId id="acc119" href="info:pmid/34352278" />
+<authors>Stevens SM, Woller SC, Kreuziger LB, Bounameaux H, Doerschug K, Geersing GJ, Huisman MV, Kearon C, King CS, Knighton AJ, Lake E, Murin S, Vintch JRE, Wells PS, Moores LK.</authors>
+<title>Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report.</title>
+<source>Chest</source>
+<pubdate>2021</pubdate>
+<volume>160</volume>
+<pages>e545&#x2013;e608.</pages>
+</reference>
+<reference id="pubmed40888734">
+<accessionId id="acc120" href="info:pmid/40888734" />
+<authors>Piazza G, Bikdeli B, Pandey AK, Krishnathasan D, Khairani CD, Bejjani A, Morrison RH, Hogan H, Rashedi S, Pfeferman M, Lou J, Fanikos J, Porio N, Rosenbaum L, Sobieszczyk P, Lan Z, Gerhard-Herman M, Campia U, Goldhaber SZ, HI-PRO Trial Investigators.</authors>
+<title>Apixaban for Extended Treatment of Provoked Venous Thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>1166&#x2013;1176.</pages>
+</reference>
+<reference id="pubmed40164405">
+<accessionId id="acc121" href="info:pmid/40164405" />
+<authors>Ruiz-Artacho P, Olid Velilla M, Beddar Chaib F, Lecumberri R, Jim&#x00E9;nez D, Hern&#x00E1;ndez Castells L, Alonso Valle H, Pedraza Garc&#x00ED;a J, Send&#x00ED;n Mart&#x00ED;n V, C&#x00E1;rdenas Bravo L, Muriel A, Jim&#x00E9;nez Hern&#x00E1;ndez S, ETV-SEMES Investigators.</authors>
+<title>Comparative Validation of Risk Assessment Models for Venous Thromboembolism Risk in Hospitalized Medical Patients: Insights from a Multicenter Prospective Cohort Study.</title>
+<source>Am J Med</source>
+<pubdate>2025</pubdate>
+<volume>138</volume>
+<pages>1150&#x2013;1158.e1.</pages>
+</reference>
+<reference id="pubmed41812192">
+<accessionId id="acc122" href="info:pmid/41812192" />
+<accessionId id="acc122b" href="info:wiley/poem/331503" />
+<authors>Castellucci LA, Chen VM, Kovacs MJ, et al, for the COBRRA Trial Investigators.</authors>
+<title>Bleeding risk with apixaban and rivaroxaban in acute venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2026</pubdate>
+<volume>394</volume>
+<pages>1051&#x2013;1060.</pages>
+</reference>
+<reference id="pubmed41490105">
+<accessionId id="acc125" href="info:pmid/41490105" />
+<accessionId id="acc125b" href="info:wiley/poem/361350" />
+<authors>Le Gal G, Robert-Ebadi H, Thiruganasambandamoorthy V, et al, for the ADJUST-DVT Investigators.</authors>
+<title>Age-adjusted D-dimer cutoff levels to rule out deep vein thrombosis.</title>
+<source>JAMA</source>
+<pubdate>2026</pubdate>
+<volume>335</volume>
+<pages>416&#x2013;424.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>208.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Deep Venous Thrombosis: Diagnosis of Nonpregnant Adult Outpatients.</title>
+<graphic href="eee0028-w0001-y.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Wells Prediction Rule for Diagnosing Deep Venous Thrombosis (DVT).*</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Sign or Symptom</th>
+<th align="left" colspan="1">Score</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Active cancer (treatment ongoing or within previous 6 months or palliative)</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Paralysis, paresis, or recent plaster immobilization of the lower extremities</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Recently bedridden for more than 3 days or major surgery within 12 weeks that required general or regional anesthesia</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Localized tenderness along the distribution of the deep venous system</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Entire leg swollen</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Calf swelling 3 cm larger than the asymptomatic side (measured 10 cm below the tibial tuberosity)</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pitting edema confined to the symptomatic leg</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Collateral superficial veins (nonvaricose)</td>
+<td align="left" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Alternative diagnosis at least as likely as DVT</td>
+<td align="left" colspan="1">&#x2212;2</td>
+</tr>
+</table>*Probability of DVT is low if score is 0 or less; intermediate if 1 or 2; and high if 3 or more. Adapted from Wells PS, Anderson DR, Bormanis J, et al. Value of assessment of pretest probability of deep-vein thrombosis in clinical management. <em>Lancet</em> 1997;<strong>350</strong>:1795&#x2013;1798.<xref ref="pubmed9428249" resource="acc004" />
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Treatment Options for Patients With Acute Venous Thromboembolism.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Drug</th>
+<th align="left" colspan="1">Dose</th>
+<th align="left" colspan="1">Comment</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Unfractionated heparin (IV)</td>
+<td align="left" colspan="1">Initial dose of 80 U&#x002F;kg and then adjusted based on aPTT (often 18 U&#x002F;kg&#x002F;hr continuous IV infusion);</td>
+<td align="left" colspan="1">aPTT 1.5-2.5 control</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Unfractionated heparin (SC)</td>
+<td align="left" colspan="1">Initial dose of 333 U&#x002F;kg, followed by a fixed dose of 250 U&#x002F;kg q12h; alternatively, 8000-10000 U subcutaneously every 8 hours or 15000-20000 U subcutaneously bid.</td>
+<td align="left" colspan="1">Similarly effective to LMWH in one study<xref ref="poem81022" resource="acc019" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Enoxaparin</td>
+<td align="left" colspan="1">1 mg&#x002F;kg SC q12h or 1.5 mg&#x002F;kg SC once daily; maximum dose 180 mg&#x002F;d. If CrCl &lt; 30: reduce dosage to 1 mg&#x002F;kg once daily</td>
+<td align="left" colspan="1">&#x00A0;&#x00A0;Primarily renally cleared</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Warfarin</td>
+<td align="left" colspan="1">Initially 5-10mg po once daily; consider lower dose for older or malnurished patients or those with a higher bleeding risk or liver failure. Start on same day as heparin&#x002F;LMWH&#x002F;fondaparinux and bridge for at least 5 days until INR &gt;&#x002F;&#x003D; 2 for 24 hours.</td>
+<td align="left" colspan="1">No renal dosing adjustment needed</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dalteparin</td>
+<td align="left" colspan="1">100 U&#x002F;kg SC q12h or 200 U&#x002F;kg SC once daily; maximum dose 18,000 U&#x002F;d. If CrCl &lt; 30: monitor anti-Xa levels</td>
+<td align="left" colspan="1">&#x00A0;&#x00A0;Primarily renally cleared</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fondaparinux</td>
+<td align="left" colspan="1">5 mg subcutaneously daily (Wgt &lt;50 kg);</td>
+<td align="left" colspan="1">&#x00A0;&#x00A0;100&#x0025; renal clearance</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">7.5 mg subcutaneously daily (Wgt 50-100 kg);</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">10 mg subcutaneously daily (Wgt &gt; 100 kg).</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">If CrCl 30-50: use with caution; If CrCl &lt; 30: use alternative agent.</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Idraparinux</td>
+<td align="left" colspan="1">Once weekly</td>
+<td align="left" colspan="1">Effective for DVT but not PE</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ximelagatran</td>
+<td align="left" colspan="1">36 mg orally twice daily</td>
+<td align="left" colspan="1">Similar to enoxaparin&#x002F;warfarin May elevate LFTs transiently</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Lepirudin</td>
+<td align="left" colspan="1">Initial dose: 0.4 mg&#x002F;kg body weight (up to 110 kg) slowly IV, followed by 0.15 mg&#x002F;kg body weight (up to 110 kg)&#x002F;h as a continuous IV infusion for 2-10 days or longer if clinically needed</td>
+<td align="left" colspan="1">Direct thrombin inhibitor, indicated for treatment of patients with HIT</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dabigatran</td>
+<td align="left" colspan="1">DVT&#x002F;PE Tx: 150 mg po bid (requires overlap with LMWH 5-10 days); DVT&#x002F;PE prophylaxis (post-hip replacement): 220 mg po daily for 28-35. If CrCl 15-30: 75 mg po bid, CrCl&lt;15: not defined.</td>
+<td align="left" colspan="1">Expensive; similar to warfarin in direct comparison study<xref ref="poem120203" resource="acc058" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Rivaroxaban</td>
+<td align="left" colspan="1">DVT&#x002F;PE Tx: 15 mg po bid for 3 weeks, then 20 mg once daily; DVT&#x002F;PE prophylaxis (recurrent or post-operative): 10 mg po daily (if post-op: treat 35 days for hip replacement and 12 days for knee replacement). If CrCl &lt;30, consider alternative agent.</td>
+<td align="left" colspan="1">Expensive, similar to warfarin in direct comparison study<xref ref="poem130203" resource="acc056" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Apixaban</td>
+<td align="left" colspan="1">DVT&#x002F;PE Tx: 10 mg po bid for 1 week, then 5 mg bid; DVT&#x002F;PE prophylaxis (recurrent or post-operative): 2.5 mg po bid (if post-op: treat 35 days for hip replacement and 12 days for knee replacement). Per manufacturer, for DVT tx or prophylaxis, no dosing adjustment needed for renal impairment&#x002F; ESRD.</td>
+<td align="left" colspan="1">Expensive, similar to warfarin in direct comparison study<xref ref="poem151101" resource="acc068" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Edoxaban</td>
+<td align="left" colspan="1">60 mg po once daily (Adults &gt; 60 kg), 30 mg po once daily (Adults &lt;&#x002F;&#x003D; 30 kg); bridge with LMWH for 5-10 days. If CrCl 15-50: 30 mg po once daily; CrCl &lt; 15: use alternative agent.</td>
+<td align="left" colspan="1">Expensive, similar to warfarin in direct comparison study<xref ref="poem151202" resource="acc067" /></td>
+</tr>
+</table>Abbreviations: aPTT, activated partial thromboplastin time; CrCl, Creatinine clearance (mL&#x002F;min&#x002F;1.73m<sup>2</sup>); HIT, heparin-induced immune thrombocytopenia; LFTs, liver function tests; LMWH, low-molecular-weight heparin; PE, pulmonary embolism. Data from Buller HR, Agnelli G, Hull RD, Hyers TM, Prins MH, Raskob GE. Antithrombotic therapy for venous thromboembolic disease: the Seventh ACCP Conference on Antithrombotic and Thrombolytic Therapy. <em>Chest</em> 2004 Sep;<strong>126</strong>(3 Suppl):401S&#x2013;428S<xref ref="pubmed15383479" resource="acc045" />; American College of Chest Physicians. Antithrombotic therapy for venous thromboembolic disease: the Seventh ACCP Conference on Antithrombotic and Thrombolytic Therapy. Antithrombotics for venous thromboembolic disease (ACCP) 9&#x002F;1&#x002F;2004<xref ref="pubmed18574260" resource="acc002" />; and Qaseem A, Snow V, Barry P, et al.; for the Joint American Academy of Family Physicians&#x002F;American College of Physicians Panel on Deep Venous Thrombosis&#x002F;Pulmonary Embolism. Current diagnosis of venous thromboembolism in primary care: a clinical practice guideline from the American Academy of Family Physicians and the American College of Physicians. <em>Ann Fam Med</em> 2007;<strong>5</strong>:57&#x2013;62.<xref ref="poem90441" resource="acc030" /> Wilbur J, Shain B. Deep Venous Thrombosis and Pulmonary Embolism Current Therapy. <em>Am Fam Physician</em>. 2017 Mar 1;95(5):295-302.<xref ref="pubmed28290648" resource="acc104" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Glomerulonephritis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0640</topic_id>
+<topic_comment />
+<topic_lastupdated>03/31/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Andrew Lutzkanin, MD, FAAFP</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family and Community Medcine</author_department>
+<author_institution>Penn State College of Medicine</author_institution>
+<author_email>alutzkanin&#x0040;pennstatehealth.psu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hershey</author_city>
+<author_state>PA</author_state>
+<author_zip>17033</author_zip>
+</author>
+<author primary="no">
+<author_name>Erin Cathcart, MD, MPH</author_name>
+<author_title>Resident</author_title>
+<author_department>Department of Family &amp; Community Medicine</author_department>
+<author_institution>Penn State Milton Hershey Medical Center</author_institution>
+<author_email>ecathcart&#x0040;pennstatehealth.psu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hershey</author_city>
+<author_state>PA</author_state>
+<author_zip>17036</author_zip>
+</author>
+<author primary="no">
+<author_name>Samuel Snyder, DO</author_name>
+<author_title>Associate Professor and Chair</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>Nova Southeastern University College of Osteopathic Medicine</author_institution>
+<author_email>snyderdo&#x0040;nova.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1>Nova Southeastern University College of Osteopathic Medicine</author_street1>
+<author_street2>3200 S. University Drive</author_street2>
+<author_city>Fort Lauderdale</author_city>
+<author_state>FL</author_state>
+<author_zip>33324</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Glomerulonephritis (GN) is a group of uncommon and disparate diseases, usually immunologically mediated, with some common pathophysiologic and clinical features. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Suspect GN with new-onset secondary hypertension, azotemia, hematuria with red blood cell (RBC) casts, or edema and proteinuria. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>GN may present as acute nephritic syndrome, as nephrotic syndrome, or as non-nephrotic proteinuria with&#x002F;without hematuria. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Diagnosis requires serologic testing and renal biopsy. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment depends on diagnosis but typically involves high-dose steroids and immunosuppressives, specific to the diagnosis; response is highly variable. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Chronic and end-stage renal disease (ESRD) are common outcomes, but prognosis varies widely depending on the syndrome (<xref ref="table003" />). <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Glomerulonephritis (GN) is a group of syndromes of acute renal dysfunction characterized by azotemia, hypertension, hematuria, RBC casts in the urine, and edema. Presentations include nephrotic syndrome (NS), acute nephritic syndrome, and asymptomatic hematuria of glomerular origin with or without proteinuria.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>See <xref ref="table001" />.<xref ref="pubmed17699249" resource="acc017" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Glomerulonephritis (GN) is classified in several ways: (1) focal nephritic versus diffuse nephritic versus nephrotic; (2) primary versus secondary; and (3) especially for primary, by pathologic description. Incidence varies somewhat by age.</listitem>
+<listitem>For primary pathologies, many etiologies have been described, but most cases are idiopathic.</listitem>
+<listitem>For postinfectious GN, many infections have been cited, but streptococcal infection is the classic.</listitem>
+<listitem>Risk factors for most primary GN are unclear, although many patients have a viral syndrome in the preceding weeks. For secondary GN, several pathologic types are often described. The major risk factor for IgA nephropathy (most common GN in world) is viral hepatitis, but in the United States most cases are idiopathic. In SLE, about half of the patients have some renal involvement.</listitem>
+<listitem>In light of newer molecular and genomic insights, reclassification in the near future is possible.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Glomerulonephritis results from immune mechanisms. Inciting factors are often not known, except in postinfectious disease or with certain toxins.</listitem>
+<listitem>Complement activation and immunoglobulin deposition occur in an immune response with both humoral and cellular components. Target antigen may be localized in the glomerulus. Antibodies that induce immune deposits may be directed against normal constituents of the glomerulus, self-antigens of nonrenal origin, or exogenous antigens or immune complexes that localize in glomerular capillaries.</listitem>
+<listitem>Deposits may form in the mesangium, or the inner capillary surface (subendothelial) or outer capillary surface (subepithelial). When the inflammatory response is excessively fierce or rapid, capillary wall destruction may occur with formation of crescents in Bowman's space.</listitem>
+<listitem>Rate and degree of crescent formation are important determinants of prognosis.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>There is no effective screening for primary glomerular disease. Routine urinalysis is not cost-effective. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For secondary glomerulonephritis, employ the usual monitoring of the underlying primary disease process. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Assess renal function, quantify proteinuria, and perform UA for RBCs and RBC casts. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Serologies: C3, antinuclear antibodies (ANA), antineutrophilic cytoplasmic antibodies (ANCA), hepatitis profile, anti-streptolysin O (ASO), anti-glomerular basement membrane (GBM) antibody, cryoglobulin, serum, and urine protein electrophoresis or immunofixation. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>All serologies may be negative. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Renal biopsy is usually necessary for adults. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Glomerulonephritis (GN): patients typically present with a change in character of urine and possibly with reduced output. They may have constitutional symptoms of fatigue or shortness of breath or be found to have hypertension, azotemia, and hematuria. Other findings on physical examination might suggest a secondary form of GN. Often there is a prodrome of a viral-like illness 3 to 6 weeks earlier, but this is a nonspecific and inconstant finding.</listitem>
+<listitem>Nephrotic syndrome (NS): patients typically present with edema and foamy urine and may have hypertension and&#x002F;or azotemia. Patients typically have hypoalbuminemia, dyslipidemia (elevated triglycerides and low-density lipoprotein cholesterol) and may have muscle wasting if proteinuria is of a significant degree or duration.</listitem>
+<listitem>Onset is often insidious.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Diagnosis is often suspected because of abnormal BUN and creatinine in patients with nonspecific constitutional symptoms.</listitem>
+<listitem>UA in GN: hematuria, low to moderate (trace to +++) proteinuria. RBC casts are virtually pathognomonic.</listitem>
+<listitem>UA in nephrotic syndrome (NS): heavy proteinuria; sediment may be bland, may have Maltese crosses.</listitem>
+<listitem>Level of suspicion directs the serologic work-up.</listitem>
+<listitem>Serologies may include: C3 complement, ANA, ANCA (p- and c-), ASO (or equivalent); anti-GBM antibody, cryoglobulin, hepatitis profile, serum, and urine electrophoresis or immunofixation. All serologies might be negative.</listitem>
+<listitem>Renal biopsy, the gold standard, must still be interpreted in light of serologies.</listitem>
+<listitem>See <xref ref="table002" />.<xref ref="pubmed16785738" resource="acc001" /><xref ref="pubmed17699450" resource="acc002" /><xref ref="pubmed17943078" resource="acc003" /><xref ref="pubmed14999109" resource="acc006" /><xref ref="pubmed17096692" resource="acc014" /><xref ref="pubmed16086641" resource="acc016" /><xref ref="cochrane2922" resource="acc020" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect glomerulonephritis (GN) in patients with new onset hypertension and tea- or cola-colored urine (possibly with decreased urine output); foamy urine may be seen in NS. Edema is minimal to moderate edema in GN and greater in NS.</listitem>
+<listitem>Findings of primary disease (eg, rash or arthritis in SLE) suggests secondary GN.</listitem>
+<listitem>Typical for acute nephritic syndrome: azotemia, hematuria, hypertension, RBC casts.</listitem>
+<listitem>Typical for nephrotic syndrome: edema, proteinuria, hypoalbuminemia, hyperlipidemia.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treatment depends on pathologic diagnosis or primary and underlying disorder if secondary (see <xref ref="table002" />); it often involves high-dose oral corticosteroids and immunosuppressives. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane2922" resource="acc020" /></listitem>
+<listitem>Blood pressure (BP) control with an angiotensin converting enzyme (ACE) or angiotensin receptor blocker (ARB) is important. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16555574" resource="acc019" /><xref ref="pubmed17498126" resource="acc023" /></listitem>
+<listitem>Novel treatments include apheresis and monoclonal antibodies. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Specific therapy depends on the specific glomerular pathology&#x00A0;(see <xref ref="table002" />).</listitem>
+<listitem>BP control is important in patients with chronic glomerulonephritis, with ACE or ARB as the preferred first-line antihypertensives. Either agent slows progression of renal dysfunction.<xref ref="pubmed16555574" resource="acc019" /><xref ref="pubmed17498126" resource="acc023" /></listitem>
+<listitem>One RCT showed that the combination of an ACE and an ARB was more effective than an ARB alone to reduce proteinuria, but evidence regarding survival and ESRD is lacking.<xref ref="pubmed18175062" resource="acc018" /></listitem>
+<listitem>Edema may cause symptomatic ascites, pleural effusions, or pulmonary edema, which must be treated appropriately with diuretics. Loop diuretics are recommended for BP, oliguria, and edema management. Avoid thiazide diuretics as first line (unless in combination with loop blockers for severe edema&#x002F;oliguria).</listitem>
+<listitem>Antiviral therapy for chronic hepatitis B and C associated glomerulonephritis may improve some renal outcomes, but is insufficient to use alone.<xref ref="pubmed31940324" resource="acc024" /><xref ref="pubmed31172367" resource="acc025" /></listitem>
+<listitem>Use statins for dyslipidemia.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>A low-sodium diet is recommended.</listitem>
+<listitem>Low-protein diets have been used to retard progression of renal insufficiency and to reduce proteinuria; efficacy has not been clearly demonstrated.</listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Consider hospitalization for patients with malignant hypertension, acute kidney injury with oliguria&#x002F;anuria, and complications of pulmonary edema (or in the case of secondary glomerulonephritis or primary pulmonary injury).</listitem>
+<listitem>Also consider hospitalization for uremic complications (eg, pericarditis, intractable hyperkalemia), initiation of dialysis, or acute flair of primary disease (eg, lupus), and if IV methylprednisolone or immunosuppressives are needed.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>If chronic kidney disease supervenes, the usual management considerations must be added to the patient's care, including BP control, lipid management, and treatment for anemia with iron and erythropoiesis-stimulating agents, and management of secondary hyperparathyroidism.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Each condition carries its own range of prognoses, with variability within each category (see <xref ref="table003" />). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed8820507" resource="acc004" /><xref ref="pubmed17664180" resource="acc005" /><xref ref="pubmed16825335" resource="acc007" /><xref ref="pubmed3826068" resource="acc008" /><xref ref="pubmed8614597" resource="acc009" /><xref ref="pubmed10922300" resource="acc010" /><xref ref="pubmed17058050" resource="acc011" /><xref ref="pubmed12923720" resource="acc012" /><xref ref="pubmed8300454" resource="acc013" /><xref ref="pubmed15919694" resource="acc015" /></listitem>
+<listitem>Other variables may include age, gender, smoking, and family history for some diagnoses. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Chronic and end-stage renal disease are common outcomes. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>Monitor BUN, creatinine, electrolytes, microscopic UA, and proteinuria (24-hour urine collection or spot urine protein&#x002F;creatinine ratio).</listitem>
+<listitem>Frequency of monitoring depends on acuity versus chronicity and the rate of progression, with nephrotic syndrome being more indolent than nephritic syndrome.</listitem>
+<listitem>The value of serologic monitoring depends on the condition, for example, monitoring anti-GBM antibody titer assesses effectiveness of therapy in anti-GBM antibody disease, but C3 and antibody testing do not reflect disease activity in lupus nephritis.</listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16785738">
+<accessionId id="acc001" href="info:pmid/16785738" />
+<authors>Goumenos DS, Tsagalis G, El Nahas AM, et al.</authors>
+<title>Immunosuppressive treatment of idiopathic focal segmental glomerulosclerosis: A five-year follow-up study.</title>
+<source>Nephron Clin Pract</source>
+<pubdate>2006</pubdate>
+<volume>104</volume>
+<pages>c75&#x2013;c82.</pages>
+</reference>
+<reference id="pubmed17699450">
+<accessionId id="acc002" href="info:pmid/17699450" />
+<authors>Waldman M, Crew RJ, Valeri A, et al.</authors>
+<title>Adult minimal-change disease: Clinical characteristics, treatment, and outcomes.</title>
+<source>Clin J Am Soc Nephrol</source>
+<pubdate>2007</pubdate>
+<volume>2</volume>
+<pages>445&#x2013;45.</pages>
+</reference>
+<reference id="pubmed17943078">
+<accessionId id="acc003" href="info:pmid/17943078" />
+<authors>Fervenza FC, Cosio FG, Erickson SB, et al.</authors>
+<title>Rituximab treatment of idiopathic membranous nephropathy.</title>
+<source>Kidney Int</source>
+<pubdate>2008</pubdate>
+<volume>73</volume>
+<pages>117&#x2013;12.</pages>
+</reference>
+<reference id="pubmed8820507">
+<accessionId id="acc004" href="info:pmid/8820507" />
+<authors>Daly C, Conlon PJ, Medwar W, Walshe JJ.</authors>
+<title>Characteristics and outcome of anti-glomerular basement membrane disease: A single-center experience.</title>
+<source>Ren Fail</source>
+<pubdate>1996</pubdate>
+<volume>18</volume>
+<pages>105&#x2013;11.</pages>
+</reference>
+<reference id="pubmed17664180">
+<accessionId id="acc005" href="info:pmid/17664180" />
+<authors>Cramer CH, II, Mills M, Valentini RP, Smoyer WE, Haftel H, Brophy PD.</authors>
+<title>Clinical presentation and outcome in a cohort of paediatric patients with membranous lupus nephritis.</title>
+<source>Nephrol Dial Transplant</source>
+<pubdate>2007</pubdate>
+<volume>22</volume>
+<pages>3495&#x2013;350.</pages>
+</reference>
+<reference id="pubmed14999109">
+<accessionId id="acc006" href="info:pmid/14999109" />
+<authors>Contreras G, Pardo V, Leclercq B, et al.</authors>
+<title>Sequential therapies for proliferative lupus nephritis.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>350</volume>
+<pages>971&#x2013;98.</pages>
+</reference>
+<reference id="pubmed16825335">
+<accessionId id="acc007" href="info:pmid/16825335" />
+<authors>de Lind van Wijngaarden RA, Hauer HA, Wolterbeek R, et al.</authors>
+<title>Clinical and histologic determinants of renal outcome in ANCA-associated vasculitis: A prospective analysis of 100 patients with severe renal involvement.</title>
+<source>J Am Soc Nephrol</source>
+<pubdate>2006</pubdate>
+<volume>17</volume>
+<pages>2264&#x2013;227.</pages>
+</reference>
+<reference id="pubmed3826068">
+<accessionId id="acc008" href="info:pmid/3826068" />
+<authors>Heilman RL, Offord KP, Holley KE, Velosa JA.</authors>
+<title>Analysis of risk factors for patient and renal survival in crescentic glomerulonephritis.</title>
+<source>Am J Kidney Dis</source>
+<pubdate>1987</pubdate>
+<volume>9</volume>
+<pages>98&#x2013;10.</pages>
+</reference>
+<reference id="pubmed8614597">
+<accessionId id="acc009" href="info:pmid/8614597" />
+<authors>Andreoli SP.</authors>
+<title>Chronic glomerulonephritis in childhood. Membranoproliferative glomerulonephritis, Henoch-Schnlein purpura nephritis, and IgA nephropathy.</title>
+<source>Pediatr Clin North Am</source>
+<pubdate>1995</pubdate>
+<volume>42</volume>
+<pages>1487&#x2013;150.</pages>
+</reference>
+<reference id="pubmed10922300">
+<accessionId id="acc010" href="info:pmid/10922300" />
+<authors>D'Amico G.</authors>
+<title>Natural history of idiopathic IgA nephropathy: Role of clinical and histological prognostic factors.</title>
+<source>Am J Kidney Dis</source>
+<pubdate>2000</pubdate>
+<volume>36</volume>
+<pages>227&#x2013;23.</pages>
+</reference>
+<reference id="pubmed17058050">
+<accessionId id="acc011" href="info:pmid/17058050" />
+<authors>Paik KH, Lee BH, Cho HY, et al.</authors>
+<title>Primary focal segmental glomerular sclerosis in children: Clinical course and prognosis.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>2007</pubdate>
+<volume>22</volume>
+<pages>389&#x2013;39.</pages>
+</reference>
+<reference id="pubmed12923720">
+<accessionId id="acc012" href="info:pmid/12923720" />
+<authors>Glassock RJ.</authors>
+<title>Diagnosis and natural course of membranous nephropathy.</title>
+<source>Semin Nephrol</source>
+<pubdate>2003</pubdate>
+<volume>23</volume>
+<pages>324&#x2013;33.</pages>
+</reference>
+<reference id="pubmed8300454">
+<accessionId id="acc013" href="info:pmid/8300454" />
+<authors>Prabhakar KS, Prakash KC, Mani MK.</authors>
+<title>Natural history and response to treatment of minimal change nephrotic syndrome.</title>
+<source>J Assoc Physicians India</source>
+<pubdate>1993</pubdate>
+<volume>41</volume>
+<pages>263&#x2013;26.</pages>
+</reference>
+<reference id="pubmed17096692">
+<accessionId id="acc014" href="info:pmid/17096692" />
+<authors>Hotta O, Ishida A, Kimura T, Taguma Y.</authors>
+<title>Improvements in treatment strategies for patients with antineutrophil cytoplasmic antibody-associated rapidly progressive glomerulonephritis.</title>
+<source>Ther Apher Dial</source>
+<pubdate>2006</pubdate>
+<volume>10</volume>
+<pages>390&#x2013;39.</pages>
+</reference>
+<reference id="pubmed15919694">
+<accessionId id="acc015" href="info:pmid/15919694" />
+<authors>Sesso R, Pinto SW.</authors>
+<title>Five-year follow-up of patients with epidemic glomerulonephritis due to Streptococcus zooepidemicus.</title>
+<source>Nephrol Dial Transplant</source>
+<pubdate>2005</pubdate>
+<volume>20</volume>
+<pages>1808&#x2013;181.</pages>
+</reference>
+<reference id="pubmed16086641">
+<accessionId id="acc016" href="info:pmid/16086641" />
+<authors>Meyrier A.</authors>
+<title>Treatment of focal segmental glomerulosclerosis.</title>
+<source>Expert Opin Pharmacother</source>
+<pubdate>2005</pubdate>
+<volume>6</volume>
+<pages>1539&#x2013;154.</pages>
+</reference>
+<reference id="pubmed17699249">
+<accessionId id="acc017" href="info:pmid/17699249" />
+<authors>Swaminathan S, Leung N, Lager DJ, et al.</authors>
+<title>Changing incidence of glomerular disease in Olmsted County, Minnesota: A 30-year renal biopsy study.</title>
+<source>Clin J Am Soc Nephrol</source>
+<pubdate>2006</pubdate>
+<volume>1</volume>
+<pages>483&#x2013;48.</pages>
+</reference>
+<reference id="pubmed18175062">
+<accessionId id="acc018" href="info:pmid/18175062" />
+<authors>Mori-Takeyama U, Minatoguchi S, Murata I, et al.</authors>
+<title>Dual blockade of the rennin-angiotensin system versus maximal recommended dose of angiotensin II receptor blockade in chronic glomerulonephritis.</title>
+<source>Clin Exp Nephrol</source>
+<pubdate>2008</pubdate>
+<volume>12</volume>
+<pages>33&#x2013;4.</pages>
+</reference>
+<reference id="pubmed16555574">
+<accessionId id="acc019" href="info:pmid/16555574" />
+<authors>Ishimitsu T, Kameda T, Akashiba A, et al.</authors>
+<title>Effects of valsartan on the progression of chronic renal insufficiency in patients with nondiabetic renal diseases.</title>
+<source>Hypertens Res</source>
+<pubdate>2005</pubdate>
+<volume>28</volume>
+<pages>865&#x2013;87.</pages>
+</reference>
+<reference id="cochrane2922">
+<accessionId id="acc020" href="info:wiley/cochrane/CD002922" />
+<chapter_authors>Tunnicliffe DJ, Palmer SC, Henderson L, Masson P, Craig JC, Tong A, Singh-Grewal D, Flanc RS, Roberts MA, Webster AC, Strippoli GF.</chapter_authors>
+<chapter_title>Immunosuppressive treatment for proliferative lupus nephritis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 6. Art. No.: CD002922. DOI: 10.1002&#x002F;14651858.CD002922.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3965">
+<accessionId id="acc021" href="info:wiley/cochrane/CD003965" />
+<chapter_authors>Vecchio M, Bonerba B, Palmer SC, Craig JC, Ruospo M, Samuels JA, Molony DA, Schena FP, Strippoli GF.</chapter_authors>
+<chapter_title>Immunosuppressive agents for treating IgA nephropathy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 8. Art. No.: CD003965. DOI: 10.1002&#x002F;14651858.CD003965.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4293">
+<accessionId id="acc022" href="info:wiley/cochrane/CD004293" />
+<chapter_authors>Chen Y, Schieppati A, Chen X, Cai G, Zamora J, Giuliano GA, Braun N, Perna A.</chapter_authors>
+<chapter_title>Immunosuppressive treatment for idiopathic membranous nephropathy in adults with nephrotic syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 10. Art. No.: CD004293. DOI: 10.1002&#x002F;14651858.CD004293.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17498126">
+<accessionId id="acc023" href="info:pmid/17498126" />
+<authors>Ishimitsu T, Akashiba A, Kameda T, et al.</authors>
+<title>Benazepril slows progression of renal dysfunction in patients with non-diabetic renal disease.</title>
+<source>Nephrology (Carlton)</source>
+<pubdate>2007</pubdate>
+<volume>12</volume>
+<pages>294&#x2013;29.</pages>
+</reference>
+<reference id="pubmed31940324">
+<accessionId id="acc024" href="info:pmid/31940324" />
+<authors>Fu B, Ji Y, Hu S, Ren T, Bhuva MS, Li G, Yang H.</authors>
+<title>Efficacy and safety of anti-viral therapy for Hepatitis B virus-associated glomerulonephritis: A meta-analysis.</title>
+<source>PLoS ONE</source>
+<pubdate>2020</pubdate>
+<volume>15</volume>
+<pages>e0227532.</pages>
+</reference>
+<reference id="pubmed31172367">
+<accessionId id="acc025" href="info:pmid/31172367" />
+<authors>Obri&#x015F;c&#x0103; B, Jurubi&#x0163;&#x0103; R, Sorohan B, Iliescu L, Baston C, Bobeic&#x0103; R, Andronesi A, Leca N, Ismail G.</authors>
+<title>Clinical outcome of HCV-associated cryoglobulinemic glomerulonephritis following treatment with direct acting antiviral agents: A case-based review.</title>
+<source>Clin. Rheumatol.</source>
+<pubdate>2019</pubdate>
+<volume>38</volume>
+<pages>3677&#x2013;3687.</pages>
+</reference>
+<reference id="pubmed34260552">
+<accessionId id="acc026" href="info:pmid/34260552" />
+<authors>Gong L, Xu M, Xu W, Tang W, Lu J, Jiang W, Xie F, Ding L, Qian X.</authors>
+<title>Efficacy and safety of tacrolimus monotherapy versus cyclophosphamide-corticosteroid combination therapy for idiopathic membranous nephropathy: A meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>e26628.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Incidence of Glomerular Disease, Characterized as Nephritic or Nephrotic, with Diagnostic Serologies.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Entity</th>
+<th align="left" colspan="1">Incidence<sup>a</sup></th>
+<th align="left" colspan="1">Predominant Presentation</th>
+<th align="left" colspan="1">C3 Component of Complement<sup>b</sup></th>
+<th align="left" colspan="1">Serology</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Minimal change disease</td>
+<td align="left" colspan="1">0.3 (4.5&#x0025;)</td>
+<td align="left" colspan="1">Nephrotic</td>
+<td align="left" colspan="1">Nl</td>
+<td align="left" colspan="1">&#x2014;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Membranous glomerulonephritis (GN)</td>
+<td align="left" colspan="1">0.7 (10.6&#x0025;)</td>
+<td align="left" colspan="1">Nephrotic</td>
+<td align="left" colspan="1">Nl</td>
+<td align="left" colspan="1">&#x2014;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Focal segmental glomerulosclerosis</td>
+<td align="left" colspan="1">Nephrotic</td>
+<td align="left" colspan="1">NI</td>
+<td align="left" colspan="1">&#x2014;</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Membranoproliferative GN</td>
+<td align="left" colspan="1">0.4 (6.1&#x0025;)</td>
+<td align="left" colspan="1">Nephrotic&#x002F;nephritic</td>
+<td align="left" colspan="1">&#x2193;</td>
+<td align="left" colspan="1">&#x2014;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IgA Nephropathy</td>
+<td align="left" colspan="1">1.4 (21.1&#x0025;)</td>
+<td align="left" colspan="1">Nephritic</td>
+<td align="left" colspan="1">Nl</td>
+<td align="left" colspan="1">&#x2014;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Postinfectious GN</td>
+<td align="left" colspan="1"><sup>c</sup></td>
+<td align="left" colspan="1">Nephritic</td>
+<td align="left" colspan="1">&#x2193;</td>
+<td align="left" colspan="1">ASO antibody</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Crescentic GN</td>
+<td align="left" colspan="1">0.4 (6.1&#x0025;)</td>
+<td align="left" colspan="1">Nephritic</td>
+<td align="left" colspan="1">Nl&#x002F;&#x2193;</td>
+<td align="left" colspan="1">&#x2014;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Anti-GBM antibody</td>
+<td align="left" colspan="1">Nephritic</td>
+<td align="left" colspan="1">Nl</td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1">Anti-GBM antibody</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Lupus</td>
+<td align="left" colspan="1">0.8 (12.1&#x0025;)</td>
+<td align="left" colspan="1">Nephritic&#x002F;nephrotic</td>
+<td align="left" colspan="1">&#x2193;</td>
+<td align="left" colspan="1">ANA</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Other primary GN</td>
+<td align="left" colspan="1">0.4 (6.1&#x0025;)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Other secondary GN</td>
+<td align="left" colspan="1">1.1 (16.7&#x0025;)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">All glomerulonephritis</td>
+<td align="left" colspan="1">6.6</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>Abbreviation: GN, glomerulonephritis. <sup>a</sup>Incidence&#x002F;100,000 person-years directly age-adjusted to US total population in 2000. (Figures in parentheses represent approximate &#x0025; of all primary glomerular disease. ) <sup>b</sup>N, normal; &#x2193;, reduced. <sup>c</sup>Included in other primary GN. Data from Swaminathan S, Leung N, Lager DJ, et al. Changing incidence of glomerular disease in Olmsted County, Minnesota: a 30-year renal biopsy study. <em>Clin J Am Soc Nephrol</em>&#x00A0;2006;<strong>1</strong>:483&#x2013;487.<xref ref="pubmed17699249" resource="acc017" />
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Current Therapy for Glomerulonephritis (GN).<sup>a</sup></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Diagnosis</th>
+<th align="left" colspan="1">Major Therapy</th>
+<th align="left" colspan="1">Duration</th>
+<th align="left" colspan="1">Second Line</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Membranous glomerulonephritis (GN)<sup>b</sup></td>
+<td align="left" colspan="1">Steroids orally for 1 mo; cyclophosphamide orally for 1 mo</td>
+<td align="left" colspan="1">6 mo</td>
+<td align="left" colspan="1">Prednisone&#x002F;chlorambucil&#x002F;cyclosporine; or mycophenolate; or rituximab</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Minimal change disease<sup>c</sup></td>
+<td align="left" colspan="1">Steroids orally</td>
+<td align="left" colspan="1">2-6 mo</td>
+<td align="left" colspan="1">Cyclosporine or mycophenolate if steroid resistant</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Focal segmented glomerulosclerosis<sup>d</sup></td>
+<td align="left" colspan="1">Steroids (orally? IV?), cyclosporine&#x002F;tacrolimus&#x002F;mycophenolate?</td>
+<td align="left" colspan="1">6-24 mo?</td>
+<td align="left" colspan="1">Combination immunosuppressives; possibly plasmapheresis</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Membranoproliferative GN<sup>e</sup></td>
+<td align="left" colspan="1">Dipyridamole&#x002F;aspirin</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">Steroids</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IgA nephropathy<sup>f</sup></td>
+<td align="left" colspan="1">Optimal treatment unclear: steroids, immunosuppressives, or nonimmunosuppressives<xref ref="pubmed34260552" resource="acc026" /></td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">Fish oil, ACE&#x002F;ARB, antiplatelet therapy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Postinfectious GN<sup>g</sup></td>
+<td align="left" colspan="1">Antibiotics, supportive</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">Immunosuppressives?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Crescentic glomerulonephritis<sup>h</sup></td>
+<td align="left" colspan="1">IV steroids and immunosuppressives</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">Supportive care including dialysis</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Anti-glomerular basement membrane<sup>i</sup></td>
+<td align="left" colspan="1">IV steroids, cyclophosphamide, and plasmapheresis</td>
+<td align="left" colspan="1">2-mo drug therapy, 2-wk apheresis</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Antinuclear cytoplasmic antibody<sup>j</sup></td>
+<td align="left" colspan="1">Cyclophosphamide orally and steroids</td>
+<td align="left" colspan="1">2-6 mo or more</td>
+<td align="left" colspan="1">Plasma exchange; IVIG</td>
+</tr>
+<tr>
+<td align="left" colspan="1">SLE-proliferative<sup>k</sup></td>
+<td align="left" colspan="1">IV cyclophosphamide then azathioprine orally, plus steroids for nonrenal diagnosis</td>
+<td align="left" colspan="1">6 mo IV, 2 yr oral</td>
+<td align="left" colspan="1">Azathioprine orally; other treatment is experimental (eg, rituximab)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">SLE-membranous</td>
+<td align="left" colspan="1">Same as proliferative lupus</td>
+<td align="left" colspan="1">As above</td>
+<td align="left" colspan="1">Some prefer to treat as idiopathic membranous</td>
+</tr>
+</table>Abbreviations: ACE, angiotensin-converting enzyme; ARB, angiotensin receptor blocker; IVIG, intravenous immunoglobulin. <sup>a</sup>Treatments with weak or no clinical trial evidence are indicated by question marks. <sup>b</sup>Treatments and outcomes depend on primary versus secondary disease (eg, HIV, or posttransplant) and pathologic variants (eg, "tip" lesion or "collapsing"). See Schieppati A, Perna A, Zamora J, et al. Immunosuppressive treatment for idiopathic membranous nephropathy in adults with nephrotic syndrome (Cochrane Review). The Cochrane Library 2007 Issue 1. Chichester, UK: John Wiley and Sons, Ltd.;<xref ref="cochrane4293" resource="acc022" /> and Fervenza FC, Cosio FG, Erickson SB, et al. Rituximab treatment of idiopathic membranous nephropathy. <em>Kidney Int</em> 2008;<strong>73</strong>:117&#x2013;125.<xref ref="pubmed17943078" resource="acc003" />
+<sup> c</sup>See Waldman M, Crew RJ, et al. Adult minimal change disease: clinical characteristics, treatment, and outcomes. <em>Clin J Am Soc Nephrol</em> 2007;<strong>2</strong>:445&#x2013;453.<xref ref="pubmed17699450" resource="acc002" />
+<sup> d</sup>See Goumenos DS, Tsagalis G, El Nahas AM, et al. Immunosuppressive treatment of idiopathic focal segmental glomerulosclerosis: a five-year follow-up study. <em>Nephron Clin Pract</em> 2006;<strong>104</strong>:c75&#x2013;c82;<xref ref="pubmed16785738" resource="acc001" /> and Meyrier A. Treatment of focal segmental glomerulosclerosis. <em>Expert Opin Pharmacother</em> 2005;<strong>6</strong>:1539&#x2013;1549.<xref ref="pubmed16086641" resource="acc016" />
+<sup> e</sup>See Fu P, He L, Li J, Li Z. Therapeutic interventions for idiopathic membranoproliferative glomerulonephritis (Cochrane Review). The Cochrane Library 2007 Issue 2. Chichester, UK: John Wiley and Sons, Ltd.<sup> f</sup>See Samuels JA, Strippoli GFM, Craig JC, Schena FP, Molony DA, Samuels J. Immunosuppressive agents for treating IgA nephropathy (Cochrane Review). The Cochrane Library 2007 Issue 1. Chichester, UK: John Wiley and Sons, Ltd.<xref ref="cochrane3965" resource="acc021" />
+<sup> g</sup>Includes poststreptococcal glomerulonephritis; good outcome in children, variable outcome in adults. See Sesso R, Pinto SW. Five-year follow-up of patients with epidemic glomerulonephritis due to Streptococcus zooepidemicus. <em>Nephrol Dial Transplant</em> 2005;<strong>20</strong>:1808&#x2013;1812.<xref ref="pubmed15919694" resource="acc015" />
+<sup> h</sup>Often a final common pathway, rapidly progressive, unresponsive to therapy. <sup>i</sup>See Meyrier A. Treatment of focal segmental glomerulosclerosis. <em>Expert Opin Pharmacother</em> 2005;<strong>6</strong>:1539&#x2013;1549.<xref ref="pubmed16086641" resource="acc016" />
+<sup> j</sup>See Hotta O, Ishida A, Kimura T, Taguma Y. Improvements in treatment strategies for patients with antineutrophil cytoplasmic antibody-associated rapidly progressive glomerulonephritis. <em>Ther Apher Dial</em> 2006;<strong>10</strong>:390&#x2013;395.<xref ref="pubmed17096692" resource="acc014" />
+<sup> k</sup>See Flanc RS, Roberts MA, Strippoli GFM, et al. Treatment for lupus nephritis (Cochrane Review). The Cochrane Library 2007 Issue 1. Chichester, UK: John Wiley and Sons, Ltd.;<xref ref="cochrane2922" resource="acc020" /> and Contreras G, Pardo V, Leclercq B, et al. Sequential therapies for proliferative lupus nephritis. <em>N Engl J Med</em> 2004;<strong>350</strong>:971&#x2013;980.<xref ref="pubmed14999109" resource="acc006" />
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Glomerulonephritis (GN): Natural History and Prognosis.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Entity</th>
+<th align="left" colspan="1">Natural History</th>
+<th align="left" colspan="1">Prognosis</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Minimal change<sup>a</sup></td>
+<td align="left" colspan="1">Progression to ESRD uncommon; complications of proteinuria</td>
+<td align="left" colspan="1">80&#x0025; remission with steroids</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Membranous GN<sup>b</sup></td>
+<td align="left" colspan="1">1&#x002F;3 remit, 1&#x002F;3 progress, 1&#x002F;3 indolent; male, age &gt;55, proteinuria &#x2265;10 g are risk factors</td>
+<td align="left" colspan="1">No universally accepted protocol</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Focal segmental glomerulosclerosis<sup>c</sup></td>
+<td align="left" colspan="1">Highly variable; etiology and pathologic variant ("tip" lesion, collapsing glomerular tuft) are risk factors</td>
+<td align="left" colspan="1">ESRD &#x223C;50&#x0025; at 15 years, steroid response&#x2192;better outcome</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IgA nephropathy<sup>d</sup></td>
+<td align="left" colspan="1">Highly variable, may be indolent for years before converting to RPGN; azotemia&#x002F;hematuria&#x002F;proteinuria&#x002F;biopsy are variables in risk</td>
+<td align="left" colspan="1">ESRD 20&#x0025;-40&#x0025; over 5-25 years</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Membranoproliferative<sup>e</sup></td>
+<td align="left" colspan="1">Hematuria&#x002F;proteinuria, occasional NS, may convert to crescentic&#x002F;RPGN</td>
+<td align="left" colspan="1">ESRD 90&#x0025; by 20 years</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Postinfectious GN<sup>f</sup></td>
+<td align="left" colspan="1">Resolution usually a few months in children</td>
+<td align="left" colspan="1">In adults, &gt;50&#x0025; with CKD by 5 years</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Crescentic GN<sup>g</sup></td>
+<td align="left" colspan="1">ESRD&#x002F;death in weeks-months without therapy; creatinine at time of diagnosis predicts renal survival, age &gt;60 risk factor</td>
+<td align="left" colspan="1">Renal survival &lt;50&#x0025; at 6 mo</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Antiglomerular basement membrane<sup>h</sup></td>
+<td align="left" colspan="1">ESRD&#x002F;death in months without therapy; pulmonary hemorrhage&#x002F;respiratory failure; creatinine at time of diagnosis predicts renal survival</td>
+<td align="left" colspan="1">1-year survival 70&#x0025;-90&#x0025; but 60&#x0025; ESRD</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Antinuclear cytoplasmic antibody<sup>i</sup></td>
+<td align="left" colspan="1">ESRD&#x002F;death in months without therapy; respiratory tract hemorrhage</td>
+<td align="left" colspan="1">&#x223C;30&#x0025; renal survival with aggressive therapy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">SLE-proliferative<sup>j</sup></td>
+<td align="left" colspan="1">Can convert to RPGN, heightened risk of lupus flairs, variables include race, age, creatinine, pathology</td>
+<td align="left" colspan="1">May have improved outcomes with oral mycophenolate or azathioprine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">SLE-membranous<sup>k</sup></td>
+<td align="left" colspan="1">Might be similar to idiopathic membranous; risk of lupus flairs, thrombotic complications</td>
+<td align="left" colspan="1">Indolent renal course, prognosis related to GFR at time of diagnosis</td>
+</tr>
+</table>Abbreviations: CKD, chronic kidney disease; ESRD, end-stage renal disease; GFR, glomerular filtration rate; NS, nephrotic syndrome; RPGN, rapidly progressive glomerulonephritis. <sup>a</sup>See Prabhakar KS, Prakash KC, Mani MK. Natural history and response to treatment of minimal change nephrotic syndrome. <em>J Assoc Physicians India</em> 1993;<strong>41</strong>:263&#x2013;265.<xref ref="pubmed8300454" resource="acc013" />
+<sup> b</sup>See Glassock RJ. Diagnosis and natural course of membranous nephropathy. <em>Semin Nephrol</em> 2003;<strong>23</strong>:324&#x2013;332.<xref ref="pubmed12923720" resource="acc012" />
+<sup> c</sup>See Paik KH, Lee BH, Cho HY, et al. Primary focal segmental glomerular sclerosis in children: clinical course and prognosis. <em>Pediatr Nephrol</em> 2007;<strong>22</strong>:389&#x2013;395.<xref ref="pubmed17058050" resource="acc011" />
+<sup> d</sup>See D'Amico G. Natural history of idiopathic IgA nephropathy: role of clinical and histological prognostic factors. <em>Am J Kidney Dis</em> 2000;<strong>36</strong>:227&#x2013;237.<xref ref="pubmed10922300" resource="acc010" />
+<sup> e</sup>See Andreoli SP. Chronic glomerulonephritis in childhood. Membranoproliferative glomerulonephritis, Henoch-Schnlein purpura nephritis, and IgA nephropathy. <em>Pediatr Clin North Am</em> 1995;<strong>42</strong>:1487&#x2013;1503.<xref ref="pubmed8614597" resource="acc009" />
+<sup> f</sup>See Sesso R, Pinto SW. Five-year follow-up of patients with epidemic glomerulonephritis due to Streptococcus zooepidemicus. <em>Nephrol Dial Transplant</em> 2005;<strong>20</strong>:1808&#x2013;1812.<xref ref="pubmed15919694" resource="acc015" />
+<sup> g</sup>See Heilman RL, Offord KP, Holley KE, Velosa JA. Analysis of risk factors for patient and renal survival in crescentic glomerulonephritis. <em>Am J Kidney Dis</em> 1987;<strong>9</strong>:98&#x2013;107.<xref ref="pubmed3826068" resource="acc008" />
+<sup> h</sup>See Daly C, Conlon PJ, Medwar W, Walshe JJ. Characteristics and outcome of anti-glomerular basement membrane disease: a single-center experience. <em>Ren Fail</em> 1996;<strong>18</strong>:105&#x2013;112.<xref ref="pubmed8820507" resource="acc004" />
+<sup> i</sup>See de Lind van Wijngaarden RA, Hauer HA, Wolterbeek R, et al. Clinical and histologic determinants of renal outcome in ANCA-associated vasculitis: a prospective analysis of 100 patients with severe renal involvement. <em>J Am Soc Nephrol</em> 2006;<strong>17</strong>:2264&#x2013;2274.<xref ref="pubmed16825335" resource="acc007" />
+<sup> j</sup>See Contreras G, Pardo V, Leclercq B, et al. Sequential therapies for proliferative lupus nephritis. <em>N Engl J Med</em> 2004;<strong>350</strong>:971&#x2013;980.<xref ref="pubmed14999109" resource="acc006" />
+<sup> k</sup>See Cramer CH 2nd, Mills M, Valentini RP, Smoyer WE, Haftel H, Brophy PD. Clinical presentation and outcome in a cohort of paediatric patients with membranous lupus nephritis. <em>Nephrol Dial Transplant</em> 2007;<strong>22</strong>:3495&#x2013;3500.<xref ref="pubmed17664180" resource="acc005" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Pneumonia (community acquired)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0681</topic_id>
+<topic_comment />
+<topic_lastupdated>08/19/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Ryan M. Paulus, DO</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of North Carolina at Chapel Hill</author_institution>
+<author_email />
+<author_phone_office>(984) 974-0210</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>590 Manning Dr</author_street1>
+<author_street2 />
+<author_city>Chapel Hill</author_city>
+<author_state>NC</author_state>
+<author_zip>27514</author_zip>
+</author>
+<author primary="no">
+<author_name>Amir H.Barzin, DO, MS</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of North Carolina at Chapel Hill</author_institution>
+<author_email>amir&#x005F;barzin&#x0040;med.unc.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Chapel Hill</author_city>
+<author_state>NC</author_state>
+<author_zip>27514</author_zip>
+</author>
+<author primary="no">
+<author_name>Stephanie A. Detterline, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Union Memorial Hospital</author_institution>
+<author_email>dochasan&#x0040;hotmail.com; stephanie.detterline&#x0040;medstar.net; stephaniedetterline&#x0040;gmail.com</author_email>
+<author_phone_office>410-554-2284</author_phone_office>
+<author_phone_home />
+<author_phone_fax>410-554-2184</author_phone_fax>
+<author_street1>201 East University Parkway</author_street1>
+<author_street2>33rd St. Professional Bldg, Suite 405</author_street2>
+<author_city>Baltimore</author_city>
+<author_state>MD</author_state>
+<author_zip>21218</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Consider pneumonia in patients with cough, dyspnea, or sputum production, especially if accompanied by fever, altered breath sounds, or rales. Perform a CXR to confirm the diagnosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Determine prognosis using a validated clinical prediction rule such as the <resourceLink href="info:wiley/eep-rule/5">PSI</resourceLink>, <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink> (best for primary care) or <resourceLink href="info:wiley/eep-rule/312">CURB-65</resourceLink>. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Sputum and blood culture, as well as legionella and pneumococcal antigen testing, are recommended for selected patients, particularly those with severe pneumonia and those being treated empirically for MRSA or pseudomonas aeruginosa. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>See <xref ref="table002" /> for detailed recommendations regarding antibiotic choice. Treat previously healthy outpatients with amoxicillin, doxycycline, or (if resistance &lt;25&#x0025;) a macrolide. For outpatients with comorbidities use (amoxiclav or a cephalosporin) plus (macrolide or doxycycline), OR a respiratory fluoroquinolone. Treat for at least 5 days and until the patient has been clinically stable and afebrile for 48 to 72 hours.<xref ref="poem211219" resource="acc083" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For inpatients with nonsevere CAP and no risk factors for MRSA or <em>P. aeruginosa</em>, use combination therapy with a beta-lactam plus a macrolide or doxycycline, OR monotherapy with a respiratory fluoroquinolone. For inpatients with severe CAP and no risk factors for MRSA or <em>P. aeruginosa</em>, use a beta-lactam plus macrolide OR beta-lactam plus respiratory fluroquinolone. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For hospitalized patients with severe CAP, use a systemic corticosteroid, which has been shown to reduce mortality, complications, and length of stay.<xref ref="pubmed41325621" resource="acc110" /><xref ref="pubmed36087797" resource="acc101" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Assess all patients for vaccine status upon treatment for community-acquired pneumonia (CAP); administer vaccines during outpatient treatment or at hospital discharge, if necessary and available. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>CAP is commonly defined as an acute infection of the pulmonary parenchyma that is associated with at least some symptoms of acute infection, accompanied by the presence of an acute infiltrate on CXR or auscultatory findings consistent with pneumonia, in a non-hospitalized patient or a patient who is diagnosed within 48 hours of hospitalization.<xref ref="poem211219" resource="acc083" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Pneumonia is present in 3&#x0025; to 5&#x0025; of healthy outpatients presenting with acute respiratory illness.<xref ref="pubmed12529093" resource="acc019" /></listitem>
+<listitem>Pneumonia is diagnosed in 8 to 15&#x002F;1000 persons per year (4 million adults per year in the United States).</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Pneumonia is the eighth leading cause of death in the United States.<xref ref="pubmed16850709" resource="acc010" /></listitem>
+<listitem>Approximately 20&#x0025; of patients with pneumonia are admitted to the hospital.</listitem>
+</list>
+</social_impact>
+<causes />
+<pathophysiology>
+<list style="bulleted">
+<listitem>Pneumonia occurs when a particularly virulent organism or large inoculum of a pathogen penetrates the pulmonary defense mechanisms and establishes infection within the lung parenchyma.</listitem>
+<listitem>The defense mechanisms and immune response to an infection can be impaired by many causes, including age, pulmonary disease, anatomic changes, alteration in consciousness, immunosuppressive medications, tobacco use, and other comorbid illnesses.</listitem>
+<listitem>Inflammatory cells are drawn to the infected area of the lung and release proteolytic enzymes, alter the respiratory epithelium and clearance mechanisms, and cause sputum production.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Immunocompromised status</Risk_Name>
+<Risk_OR>RR 3.1 (1.9&#x2013;5.1)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Older than 70 years</Risk_Name>
+<Risk_OR>RR 1.5 (1.3&#x2013;1.7)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Alcohol abuse</Risk_Name>
+<Risk_OR>RR 9 (5.1&#x2013;16.2)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Asthma</Risk_Name>
+<Risk_OR>RR 4.2 (3.3&#x2013;5.4)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Lung disease</Risk_Name>
+<Risk_OR>RR 3 (2.3&#x2013;3.9)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Heart disease</Risk_Name>
+<Risk_OR>RR 1.9 (1.7&#x2013;2.3)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Institutionalization</Risk_Name>
+<Risk_OR>RR 1.8 (1.4&#x2013;2.4)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>PPI use</Risk_Name>
+<Risk_OR>RR 4.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Malnutrition</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem><strong>Pneumonia Vaccine</strong></listitem>
+<listitem>The pneumococcal conjugate vaccine (PCV13) should be administered to all children younger than 2 years old. Patients who did not received PCV13 as a child should have shared decision making with their clinician if they should get PCV13 at age 65. However, adults in a high risk group (chronic diseases, immunocompromised, group living, prior pneumonia, substance use, or medications that increase pneumonia risk) should receive the vaccine.<xref ref="guideline307" resource="acc003" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Pneumococcal polysaccharide vaccine (PPSV23) should be given to all patients older than 65 years and others at a younger age with selected high-risk concurrent diseases including COPD<xref ref="cochrane1390" resource="acc058" /> and smokers. <evidence rating="B" system="SORT">B</evidence><xref ref="guideline307" resource="acc003" />In high risk patients that need PCV13 and PPSV23, PCV13 is administered first, followed by PPSV23 a year later.</listitem>
+<listitem>A Cochrane review found that the NNT's to prevent one episode of community acquired pneumonia (CAP) and an acute COPD exacerbation were 19 (95&#x0025; Cl 13 to 52) and 8 (95&#x0025; Cl 5 to 58) respectively in COPD patients who received the pneumococcal vaccine.<xref ref="cochrane1390" resource="acc058" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Among nursing home patients, use of pneumonia vaccine decreased the rate of pneumonia over 26 months from 20.6&#x0025; of the patients in the placebo group to 12.5&#x0025; of the vaccinated group (NNT &#x003D; 12).<xref ref="poem120554" resource="acc032" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A Cochrane review found no evidence that pneumococcal vaccination during pregnancy reduces the risk of neonatal infection. However, the overall quality of evidence and number of patients in trials is low.<xref ref="cochrane4903" resource="acc043" /></listitem>
+<listitem><strong>Other vaccines and preventive measures</strong></listitem>
+<listitem>Influenza vaccine should be considered for all patients older than 50 years, others at risk for influenza complications, household contacts of at-risk persons, and health care workers. <evidence rating="A" system="SORT">A</evidence><xref ref="guideline307" resource="acc003" /></listitem>
+<listitem>A randomized trial found no evidence that giving prophylactic antibiotics to hospitalized stroke patients prevents pneumonia in patients with dysphagia.<xref ref="poem180142" resource="acc054" /></listitem>
+<listitem>Consider RSV vaccine for adults 60 years and older. The likelihood of any RSV infection was significantly lower in the vaccine group (0.13&#x0025; vs 0.34&#x0025;; number needed to treat [NNT] &#x003D; 472), as was RSV infection with 2 or more symptoms (0.065&#x0025; vs 0.19&#x0025;; NNT &#x003D; 773) and RSV infection with 3 or more symptoms (0.012&#x0025; vs 0.082&#x0025;; NNT &#x003D; 1416). <evidence rating="B" system="SORT">B</evidence><xref ref="poem358547" resource="acc102" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Consider pneumonia in patients with cough, dyspnea, or sputum production, especially if accompanied by fever, altered breath sounds, or rales. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10987697" resource="acc013" /></listitem>
+<listitem>Perform a CXR to confirm the diagnosis of pneumonia. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Lung ultrasound is increasingly available, especially in the inpatient and emergency department setting. A systematic review of 16 studies with 2359 participants found an area under the ROC curve of 0.93 (excellent discrimination), a positive LR of 6.0, and a negative LR of 0.12.<xref ref="poem190806" resource="acc060" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Routine diagnostic tests are optional for outpatients since most do well with empiric antibiotic treatment. <evidence rating="C" system="SORT">C</evidence><xref ref="rule5" resource="acc006" /></listitem>
+<listitem>Sputum and blood culture, as well as legionella and pneumococcal antigen testing, are recommended primarily for patients with severe CAP and those being treated empirically for MRSA or pseudomonas, or in the event of a legionella outbreak. <evidence rating="C" system="SORT">C</evidence><xref ref="poem211219" resource="acc083" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Acute bronchitis</Differential_Name>
+<Differential_Features>Normal CXR</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chronic obstructive pulmonary disease (COPD)&#x002F;asthma exacerbation</Differential_Name>
+<Differential_Features>Wheezing prominent; absence of infectious signs (fever, leukocytosis)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Congestive heart failure (CHF) exacerbation</Differential_Name>
+<Differential_Features>Examination consistent with volume overload; absence of infectious signs</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Malignancy</Differential_Name>
+<Differential_Features>CXR suggests mass lesion, especially in smokers; weight loss common</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Aspiration pneumonitis</Differential_Name>
+<Differential_Features>History of altered mental status or neurologic disease; right middle&#x002F;lower lobe common</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Consider pneumonia in patients with cough, dyspnea, or sputum production, especially if accompanied by fever, altered breath sounds, or rales.<xref ref="pubmed10987697" resource="acc013" /></listitem>
+<listitem>Fever, chills, abnormal vital signs, abnormal lung examination,<xref ref="hp31" resource="acc001" />and <xref ref="test234" resource="acc009" />leukocytosis all increase the likelihood of pneumonia. Most factors are relatively insensitive and are not good for ruling out pneumonia when absent.<xref ref="hp31" resource="acc001" /></listitem>
+<listitem>In a study of 1819 ED patients with cough, <resourceLink href="info:wiley/eep-hp/31">asymmetric breath sounds, egophony, and increased fremitus</resourceLink> best increased the likelihood of CAP in adults when present. A <resourceLink href="info:wiley/eep-hp/31">physician judgment</resourceLink> that the patient does not have CAP was best at ruling out (LR- 0.2).<xref ref="hp31" resource="acc001" /></listitem>
+<listitem>Misdiagnosis is relatively common. One study of 48 Michigan hospitals found that 12&#x0025; of older patients diagnosed and hospitalized with CAP actually did not meet the criteria for diagnosis.<xref ref="poem363888" resource="acc106" /></listitem>
+<listitem>A systematic review concluded that CAP is very unlikely in patients presenting with LRTI symptoms who have HR &lt;100, RR &#x2264;20, temperature &#x2264;101F&#x002F;38.3C, and normal lung exam (LR 0.10). Given an overall risk of CAP in patients with LRTI of 4&#x0025;, the risk in patients with normal vitals and lung exam is only 0.4&#x0025;.<xref ref="poem210529" resource="acc071" /></listitem>
+<listitem>Global physician judgment is a good predictor that an adult patient does or does not have pneumonia with a positive likelihood ratio 7.7 and negative likelihood ratio 0.54. It was less accurate in children (LR+ 2.7, LR- 0.63).<xref ref="poem210944" resource="acc073" /></listitem>
+<listitem>Signs and symptoms are less useful in children younger than 5 years. Most useful in this age range for diagnosing pneumonia are respiratory rate &gt;50 breaths per minute, grunting respirations, chest retractions, and nasal flaring.<xref ref="pubmed15965550" resource="acc049" /> Absence of fever and RR &lt;40 are helpful for reducing the likelihood of pneumonia.<xref ref="pubmed25769269" resource="acc048" /> The presence of chest pain is also helpful to diagnose pneumonia in this age group.<xref ref="poem191115" resource="acc062" /></listitem>
+<listitem>Children who appear well, have an oxygen saturation above 94&#x0025;, and are not tachypneic based on age specific norms are very unlikely to have pneumonia.<xref ref="pubmed22868746" resource="acc047" /></listitem>
+<listitem>See below for Clinical Decision Rules for diagnosis and prognosis. Although the diagnostic rules may not be accurate enough by themselves to guide treatment, they can help guide the physician considering empiric therapy and can confirm clinical judgment regarding the need for CXR.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><strong>Chest radiographs and pulse oximetry</strong></listitem>
+<listitem>Perform a CXR to confirm the diagnosis of pneumonia in any patient with acute RTI and at least one of the following abnormal vital signs: temperature higher than 100&#x00B0;F&#x002F;37.8&#x00B0;C, heart rate greater than 100 bpm, respiratory rate greater than 20 breaths&#x002F;min; and in any patient with at least two of the following clinical findings: decreased breath sounds, crackles&#x002F;rales, and absence of asthma.<xref ref="pubmed17853631" resource="acc014" /><xref ref="pubmed2745948" resource="acc015" /></listitem>
+<listitem>In contrast, a CXR for a community-dwelling patient is only recommended by the 2009 British Thoracic Society guideline on the management of CAP if the diagnosis is in doubt, progress is not evident during treatment for suspected CAP or the patient is at risk for underlying lung pathology. A CXR is recommended for hospitalized patients.<xref ref="web001" /></listitem>
+<listitem>In infants and children, one study suggested that the combination of a negative CXR in a patient with low clinical suspicion for pneumonia almost excludes the diagnosis of pneumonia and makes it safe to observe without antibiotic therapy.<xref ref="pubmed30154120" resource="acc079" /></listitem>
+<listitem>Pulse oximetry may be useful to identify patients with pneumonia lacking obvious signs and symptoms and to gauge severity. Other diagnostic tests are optional for outpatients since most do well with empiric antibiotic treatment.<xref ref="test234" resource="acc009" /></listitem>
+<listitem><strong>Biomarkers</strong></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-dx/234">WBC, sedimentation rate, and CRP</resourceLink> are only modestly predictive of pneumonia.<xref ref="rule5" resource="acc006" /> The British Thoracic Society recommends obtaining a basic metabolic profile as part of the severity assessment and to calculate the <resourceLink href="info:wiley/eep-rule/312">CURB-65</resourceLink> (the <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink> does not require BUN and is similarly accurate). C-reactive protein (to aid diagnosis and as a baseline), a CBC and liver function for hospitalized patients with CAP.<xref ref="pubmed20157684" resource="acc017" /></listitem>
+<listitem>A meta-analysis in 2020 reviewed the available data on biomarkers and found CRP as the most useful and accurate biomarker for diagnosing CAP. Procalcitonin was found to have a good positive likelihood ratio, but a minimally useful negative likelihood ratio. Leukocytosis has only modest accuracy (LR+ &#x003D; 3.15).<xref ref="poem220518" resource="acc085" /> A second meta-analysis found 25 studies with 2864 children and concluded that procalcitonin was of limited value, with LR+ 2.3 and LR- 0.50.<xref ref="poem221012" resource="acc094" /></listitem>
+<listitem>Procalcitonin levels greater than 0.5 mcg&#x002F;L support a bacterial cause of RTI, whereas a value less than 0.1 mcg&#x002F;L makes it unlikely that the patient will benefit from antibiotics.<xref ref="poem60551" resource="acc027" /> A study found that in patients with dyspnea presenting to the ED, when the pretest probability was 13&#x0025;, a negative procalcitonin lowered the likelihood of pneumonia to 4&#x0025;.<xref ref="poem180307" resource="acc055" /> Another study concluded that a procalcitonin of &#x2265;0.25&#x200A;ng&#x002F;mL was a valuable predictor for pneumonia in patients with pulmonary infiltrates on CXR.<xref ref="pubmed30461655" resource="acc077" /> However, procalcitonin-guided use of antibiotics for treatment of suspected lower respiratory tract infection in patients presenting to the ED versus usual care did not decrease antibiotic use.<xref ref="pubmed29781385" resource="acc076" /> As a result, the 2019 IDSA guidelines do not recommend using procalcitonin to determine the need for antibiotics.<xref ref="poem211219" resource="acc083" /></listitem>
+<listitem><strong>Pathogen testing</strong></listitem>
+<listitem>The 2019 IDSA guidelines recommend obtaining sputum and blood cultures in all patients with severe disease and in any patient being treated empirically for MRSA or pseudomonas aeruginosa. They recommend testing for legionella or pneumococcal antigen only with severe CAP or during an outbreak of legionella, and testing for influenza when it is circulating in the community.<xref ref="poem211219" resource="acc083" /></listitem>
+<listitem>Pretreatment blood cultures are positive in only 5&#x0025; to 14&#x0025; of patients in one study, hence the recommendation to primarily check them in patients with severe CAP.<xref ref="poem211219" resource="acc083" /> However, others have questioned the value of blood cultures even in those patients and the American College of Emergency Physicians recommends against routine blood cultures for patients admitted with CAP who are not immunocompromised or have significant comorbidities.<xref ref="poem120255" resource="acc031" /> In one study of 1743 patients with CAP at 10 hospitals, blood cultures prompted a change of therapy in only 2&#x0025;, and this change was likely to benefit the patient in only 0.4&#x0025;.<xref ref="poem50703" resource="acc024" /> Factors that predict bacteremia in the hospitalized elderly include comorbid liver disease, abnormal vitals, and prior use of antibiotics; these have been gathered in a clinical rule.<xref ref="rule265" resource="acc008" /></listitem>
+<listitem>Blood cultures are rarely positive in children hospitalized with pneumonia.<xref ref="poem200305" resource="acc063" /></listitem>
+<listitem>A meta-analysis found that approximately 3&#x0025; of hospitalized patients (outside of a legionella outbreak) with CAP have legionella as the causative organism.<xref ref="pubmed28376442" resource="acc093" /> Predictors of legionella pneumonia include hyponatremia, elevated LDH, and elevated CRP. A simple score can help identify patients at higher and lower risk of legionella pneumonia.<xref ref="pubmed24813862" resource="acc046" /> Diarrhea and elevated CK are associated with legionella, but these are too inaccurate to guide therapy.<xref ref="poem453" resource="acc022" /></listitem>
+<listitem>In ICU patients with hospital or ventilator acquired pneumonia, PCR pathogen testing had a higher sensitivity than conventional culture-based testing.</listitem>
+<listitem>There are limited data regarding the effects of rapid viral diagnosis of acute RTI in children. A trend was seen toward reduced antibiotic prescribing with testing.<xref ref="cochrane6452" resource="acc045" /></listitem>
+<listitem><strong>Ultrasound</strong></listitem>
+<listitem>Bedside point-of-care ultrasound can be used to diagnosis pneumonia. A 2018 systematic review and meta-analysis found that in patients 0 to 21 years, lung ultrasound was 94&#x0025; sensitive and 93&#x0025; specific in diagnosing pneumonia.<xref ref="pubmed29189351" resource="acc088" /> Another pediatric study found ultrasound to be superior to chest radiograph in sensitivity with similar specificity<xref ref="pubmed29696826" resource="acc086" />. A 2017 meta-analysis of adults with pneumonia found that sensitivity and specificity were 88&#x0025; and 86&#x0025; respectively for diagnosis pneumonia with an area under the ROC curve of 0.95.<xref ref="pubmed28099332" resource="acc087" /></listitem>
+<listitem>Ultrasound is now endorsed for diagnosis of CAP by updated IDSA&#x002F;ATS guidelines.<xref ref="pubmed40679934" resource="acc109" /></listitem>
+<listitem>In a small primary care study, POC ultrasound by primary care physicians had LR+ 2.1 and LR- of 0.2. It was therefore more useful for ruling out than ruling in CAP.<xref ref="pubmed35606120" resource="acc096" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>Several clinical decision rules have been prospectively validated to help diagnose pneumonia.<xref ref="rule185" resource="acc002" /> The simplest rule uses three items (fever, cough, crackles) to stratify the risk of pneumonia. The risk increases from 4&#x0025; to 11&#x0025;, 22&#x0025;, and 48&#x0025; for women with 0 to 3 factors, respectively. Other rules include those of <resourceLink href="info:wiley/eep-rule/8">Heckerling</resourceLink> and <xref ref="rule8" resource="acc007" /><xref ref="hp31" resource="acc001" /> <resourceLink href="info:wiley/eep-rule/32">Diehr</resourceLink>, although they have not been prospectively validated.<xref ref="pubmed2221647" resource="acc066" /><xref ref="hp31" resource="acc001" /></listitem>
+<listitem>A large European study (GRACE) identified nearly 3000 patients with acute cough in the primary care setting and obtained a chest radiograph in all of them. They developed <resourceLink href="info:wiley/eep-rule/550">a simple 7 item clinical decision rule</resourceLink>,<xref ref="pubmed23633005" resource="acc065" /> although it does incorporate c-reactive protein.<xref ref="pubmed23633005" resource="acc065" />A smaller risk score with only 3 items utilizing dyspnea, respiration rates &gt; 20&#x002F;min, and CRP &gt; 20 mg&#x002F;l found an area under curve of 0.851 for predicting pneumonia.<xref ref="pubmed36253753" resource="acc098" /></listitem>
+<listitem>Another <resourceLink href="info:wiley/eep-rule/125">risk score</resourceLink> has been developed to diagnose nursing home acquired pneumonia.<xref ref="pubmed11711008" resource="acc067" /></listitem>
+<listitem>The risk of pneumonia in children with acute cough can be estimated using the <resourceLink href="info:wiley/eep-rule/545">STARWAVE clinical rule</resourceLink>.<xref ref="pubmed27594440" resource="acc068" /> Several other prediction models exist for children, particularly in the emergency room.<xref ref="pubmed35748157" resource="acc099" /></listitem>
+<listitem>The Infectious Disease Society of America&#x002F;American Thoracic Society (IDSA&#x002F;ATS)<xref ref="poem211219" resource="acc083" /> and British Thoracic Society guidelines<xref ref="pubmed20157684" resource="acc017" /><xref ref="web001" /> recommend using a validated clinical rule such as the <resourceLink href="info:wiley/eep-rule/5">Pneumonia Severity Index</resourceLink>, the <resourceLink href="info:wiley/eep-rule/312">CURB-65</resourceLink> or the simple <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink><xref ref="rule312" resource="acc005" /><xref ref="rule5" resource="acc006" /><xref ref="pubmed30993633" resource="acc084" /> along with physician judgment, to assist in site-of-care decisions (<xref ref="table001" />). Both tools have been prospectively validated, but the CURB-65 is easier for point of care use while the PSI is preferred by the IDSA 2019 guidelines.<xref ref="pubmed15808136" resource="acc011" /><xref ref="pubmed12728155" resource="acc016" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink> omits BUN and is therefore more useful in primary care settings. It has 4 elements worth one point each and predicts mortality risk with CAP: age 65+ years, new confusion, respiratory rate &gt;20, and BP &lt;90&#x002F;60. Patients with 0 points are at low risk for death (LR- 0.1), while those with 3 or 4 points are at increased risk (LR+ 5.6).<xref ref="pubmed30993633" resource="acc084" /></listitem>
+<listitem>Clinical rules can also be used to determine the risk of<xref ref="pubmed24813862" resource="acc046" /> <resourceLink href="info:wiley/eep-rule/526">legionella pneumonia</resourceLink> and to identify<xref ref="pubmed22868746" resource="acc047" /> children with cough and fever who are at low risk for pneumonia.</listitem>
+<listitem>While <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink> relatively poor sensitivity, a qSOFA score &#x2265;2 is strongly associated with increased mortality in patients with pneumonia.<xref ref="pubmed30290639" resource="acc078" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Perform a CXR in any patient with acute RTI and at least one of the following abnormal vital signs: temperature higher than 100&#x00B0;F&#x002F;37.8&#x00B0;C, heart rate greater than 100 bpm, respiratory rate greater than 20 breaths&#x002F;min; and in any patient with at least two of the following clinical findings: decreased breath sounds, crackles&#x002F;rales, and absence of asthma).<xref ref="pubmed17853631" resource="acc014" /><xref ref="pubmed2745948" resource="acc015" /></listitem>
+<listitem>Obtain a pulse oximetry test, and use the <resourceLink href="info:wiley/eep-rule/312">CURB-65</resourceLink>, <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink>,<xref ref="rule312" resource="acc005" /> or<xref ref="rule5" resource="acc006" /> <resourceLink href="info:wiley/eep-rule/5">Pneumonia Severity Index</resourceLink> to determine the best site of care (outpatient or inpatient).<xref ref="guideline10560" resource="acc004" /></listitem>
+<listitem>For those requiring inpatient care, obtain a sputum and blood culture in patients with severe disease and those being treated empirically for MRSA and <em>P. aeruginosa</em>. Additional diagnostic tests include urinary antigen tests for legionella and <em>Streptococcus pneumoniae</em> for patients with severe pneumonia, and thoracentesis for pleural effusion.<xref ref="poem211219" resource="acc083" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>31</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>138</Dx_ID>
+<Dx_ID>234</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>The <resourceLink href="info:wiley/eep-rule/5">Pneumonia Severity Index</resourceLink>, <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink>, and<xref ref="rule312" resource="acc005" /><xref ref="rule5" resource="acc006" /> <resourceLink href="info:wiley/eep-rule/312">CURB-65</resourceLink> are validated prognostic models that may be used to help determine site of treatment in patients with CAP (<xref ref="table001" />). <evidence rating="A" system="SORT">A</evidence><xref ref="guideline10560" resource="acc004" /><xref ref="poem131223" resource="acc037" /><xref ref="poem130405" resource="acc036" /></listitem>
+<listitem>Administer antibiotic therapy as soon as possible after the diagnosis is made and before leaving the ED if the person is being admitted.<xref ref="poem180411" resource="acc053" /><evidence rating="C" system="SORT">C</evidence><xref ref="guideline10560" resource="acc004" /></listitem>
+<listitem>See <xref ref="table002" /> for detailed recommendations regarding antibiotic choice. Treat previously healthy outpatients with amoxicillin, doxycycline, or (if resistance &lt;25&#x0025;) a macrolide. For outpatients with comorbidities use (amoxiclav or a cephalosporin) plus (macrolide or doxycycline), OR a respiratory fluoroquinolone.<xref ref="poem211219" resource="acc083" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For inpatients with nonsevere CAP and no risk factors for MRSA or <em>P. aeruginosa</em>, use combination therapy with a beta-lactam plus a macrolide or doxycycline, OR monotherapy with a respiratory fluoroquinolone. For inpatients with severe CAP and no risk factors for MRSA or <em>P. aeruginosa</em>, use a beta-lactam plus macrolide OR beta-lactam plus respiratory fluroquinolone.<xref ref="poem211219" resource="acc083" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For hospitalized patients with severe CAP, give a systemic corticosteroid which has been shown to reduce mortality, complications, and length of stay.<xref ref="poem359388" resource="acc108" /><xref ref="poem387707" resource="acc103" /><xref ref="pubmed36087797" resource="acc101" /><xref ref="poem211219" resource="acc083" /><xref ref="pubmed28756034" resource="acc061" /><xref ref="poem210819" resource="acc075" /><xref ref="pubmed30921179" resource="acc080" /><xref ref="pubmed31261585" resource="acc081" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Treatment should last at least 5 days and should not be discontinued until the patient has been afebrile for 48 to 72 hours. If stable at 5 days and aferile the antibiotics may be discontinued. <evidence rating="A" system="SORT">A</evidence><xref ref="poem211219" resource="acc083" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Antibiotic Selection</strong></listitem>
+<listitem>Administer antibiotic therapy as soon as possible after the diagnosis is made and before leaving the ED if the person is being admitted.<xref ref="poem180411" resource="acc053" /><xref ref="guideline10560" resource="acc004" /> Patients should be changed to oral antibiotics once hemodynamically stable and they can take oral medications.<xref ref="poem180411" resource="acc053" /> This was confirmed by a study that randomized adults with CAP to 5 days of antibiotics and discontinuation if patients are afebrile for 48 hours and otherwise have no signs of hemodynamic instability, or usual care. The median duration of antibiotics in the two groups was 5 vs 10 days. There was no difference in any symptom severity, clinical cure rates, or harms, although the usual care group had a higher 30 day readmission rate (6.6&#x0025; vs 1.4&#x0025;, p &#x003D; 0.02).<xref ref="poem180934" resource="acc057" /></listitem>
+<listitem>Refer to <xref ref="table002" /> for treatment recommendations consistent with IDSA 2019 guidelines for management of CAP.<xref ref="poem211219" resource="acc083" /></listitem>
+<listitem>The 2019 IDSA guidelines recommend not routinely adding anaerobic coverage for suspected aspiration.<xref ref="poem211219" resource="acc083" /> Treatment should last at least 5 days and should not be discontinued until the patient has been afebrile for 48 to 72 hours. Treatment longer than 5 days in a patient who is clinically stable is not recommended.<xref ref="poem211219" resource="acc083" /></listitem>
+<listitem>The 2025 update to ATS&#x002F;IDSA guidelines recommends considering antibiotics for hospitalized patients with CAP even if they have a positive test for a viral pathogen.<xref ref="pubmed40679934" resource="acc109" /></listitem>
+<listitem>A network meta-analysis identified 24 randomized trials comparing different initial oral antibiotics for treatment of CAP. Levofloxacin and nemonoxacin were most likely to provide a clinical response at 2 weeks, while penicillin and amoxicillin were least likely. For the outcome of mortality, levofloxacin, nemonoxacin and azithromycin were most likely to reduce mortality. However, confidence intervals were broad so the confidence in these conclusions is low. Only a single study since 2000 (with 64 patients) studied doxycycline.<xref ref="poem308371" resource="acc107" /></listitem>
+<listitem>A British observational study of hospitalized patients with CAP concluded that the combination of a macrolide (commonly clarithromycin) with a beta-lactam (commonly amoxicillin &#x00B1; clavulanic acid) was associated with improved 30-day mortality rates in patients with moderate or severe pneumonia, compared to a beta-lactam alone. Mortality rates in the moderate severity group was 22 vs 30&#x0025; and the severe pneumonia group 45&#x0025; vs 51&#x0025;.<xref ref="poem150804" resource="acc039" /></listitem>
+<listitem>Similarly, a non-blinded RCT compared monotherapy with a beta-lactam with a beta-lactam + macrolide in 580 hospitalized immunocompetent adults with CAP. They found that those given combination therapy were more likely to achieve clinical stability at 7 days (NNT &#x003D; 14) and were less likely to be readmitted within 30 days (NNT &#x003D; 20).<xref ref="pubmed25286173" resource="acc041" /></listitem>
+<listitem>A meta-analysis of 23 studies comparing a respiratory fluoroquinolone with the combination of a macrolide and a beta-lactam found no difference in effectiveness.<xref ref="poem110301" resource="acc023" /> Another systematic review of 17 observational studies and 3 RCTs concluded that for adults hospitalized with CAP, a beta-lactam plus a macrolide or a respiratory fluoroquinolone were both effective, and should be initiated within 4 to 8 hours of hospital arrival.<xref ref="poem180411" resource="acc053" /></listitem>
+<listitem>There is some concern regarding an increased risk of sudden cardiovascular death among patients using macrolides. A large observational study found that overall, there was a net benefit to adding an azithromycin for elderly patients hospitalized with pneumonia compared with regimens that did not include a macrolide. The NNT was 21 for adding azithromycin to prevent one death, although they also see a number needed to harm of 144 to cause 1 additional MI among patients given azithromycin.<xref ref="pubmed24893087" resource="acc040" /></listitem>
+<listitem>The risk of mycoplasma pneumonia varies greatly between studies, but in general appears to be between 3&#x0025; and 25&#x0025; (mean 12&#x0025;) among patients presenting as outpatients with acute LRTI.<xref ref="pubmed17727747" resource="acc050" /><xref ref="pubmed18307852" resource="acc051" /><xref ref="pubmed15011754" resource="acc052" /> A meta-analysis found 5 RCTs with 1912 children diagnosed with mycoplasma pneumonia, but not evidence to support or refute the benefit of antibiotic treatment.<xref ref="pubmed24864174" resource="acc042" /> A Cochrane review of seven trials with 1912 children reached a similar conclusion.<xref ref="cochrane4875" resource="acc044" /></listitem>
+<listitem>A randomized trial of 774 adults admitted for CAP (but not to the ICU) compared omadacycline (an aminomethylcycline) to moxafloxacin and found that the new, much more expensive drug was non-inferior.<xref ref="poem210523" resource="acc069" /></listitem>
+<listitem>In a randomized trial of 738 hospitalized patients with CAP, the pleuromutilin antibiotic lefamulin was non-inferior to moxifloxacin. Adverse GI events were more common with lefamulin.<xref ref="poem220129" resource="acc082" /></listitem>
+<listitem><strong>Antibiotic route and duration</strong></listitem>
+<listitem>Based on updated IDSA&#x002F;ATS guidelines (2025) treatment should last at least 3 to 4 days and should not be discontinued until the patient has been clinically improved and stable. Treatment longer than 4 days in a patient who is clinically stable is not recommended.<xref ref="pubmed40679934" resource="acc109" /><xref ref="poem211219" resource="acc083" /></listitem>
+<listitem>A systematic review of studies comparing short (&#x2264; 6 days) with longer (&gt; 7 days) duration of antibiotics for CAP found no difference regarding the outcomes of clinical cure using the same antibiotic (5 studies, 1600 patients, RR 1.0, 95&#x0025; CI 0.97-1.02) or comparing different durations of different antibiotics (13 studies, 1695 patients, RR 1.0, 95&#x0025; CI 0.96-1.04). Mortality was actually lower with the shorter course in 7 studies with 2028 patients (RR 0.56, 95&#x0025; CI 0.35 - 0.90) and serious adverse events were less likely.<xref ref="poem210306" resource="acc070" /></listitem>
+<listitem>A cohort study identified that excessive treatment with antibiotics was associated with a greater number of patient-reported adverse events and did not improved mortality or readmission rates.<xref ref="poem2109118" resource="acc072" /></listitem>
+<listitem>An RCT of 302 patients with severe pneumonia (<xref ref="rule5" resource="acc006" /> <resourceLink href="info:wiley/eep-rule/5">Pneumonia Severity Index</resourceLink> 110 or higher) found that most patients (if clinically stable, with drop in temperature and able to take oral medications) could be switched safely to an oral antibiotic after 3 days and could leave the hospital an average of 2 days sooner.<xref ref="poem90254" resource="acc029" /> A second study by the same researchers of 119 adults admitted to the hospital with mild-moderate CAP (<xref ref="rule5" resource="acc006" />Pneumonia Severity Index &lt;110) found that if at 3 days patients had a temperature lower than 38&#x00B0;C, could take oral drugs, and had shown an improvement in symptoms they did just as well taking a placebo as taking an additional 5 days of amoxicillin. If replicated, these findings could guide care of patients with mild pneumonia who are rapidly improving.<xref ref="poem80853" resource="acc028" /></listitem>
+<listitem>A registry found that patients are often prescribed longer than recommended duration of therapy for CAP, with the prescription of an additional 5 to 10 days at discharge commonly the culprit. Those with longer stays and who didn't have antibiotic duration explicitly mentioned in the discharge summary were more likely to receive too long a duration of therapy.<xref ref="poem2109118" resource="acc072" /></listitem>
+<listitem>This 2023 meta-analysis advocates for shorter courses of antibiotics in children stating there probably isn't a substantial difference in patient outcomes based on the duration of treatment.<xref ref="pubmed37226686" resource="acc104" /></listitem>
+<listitem>In low-resource health settings, 3 days of amoxicillin was effective in children ages 2-59 months with pneumonia and tachypnea (NNT 43). The study compared amoxicillin vs placebo and the placebo group also had a low treatment failure rate of 4.3&#x0025;.<xref ref="poem220818" resource="acc091" /> Another RCT in Malawian children found 3 days of amoxicillin to be inferior to 5 days for treatment of chest-indrawing pneumonia.<xref ref="pubmed32609979" resource="acc092" /></listitem>
+<listitem>A systematic review and meta-analysis of pediatric patients with non-severe CAP found a 3-day course of azithromycin to be noninferior to a 5-day course in terms of treatment failure and had lower rates of gastroenteritis.<xref ref="pubmed36374480" resource="acc100" /></listitem>
+<listitem><strong>Corticosteroids</strong></listitem>
+<listitem>An updated guideline from a panel of experts convened by the Society of Critical Care Medicine strongly recommends the administration of steroids for adult patients who are hospitalized with severe CAP. Conditional recommendations also suggest the use of steroids for hospitalized adults with septic shock or ARDS.<xref ref="poem359388" resource="acc108" /> This is also the recommendation of the updated ATS&#x002F;IDSA guidelines.<xref ref="pubmed40679934" resource="acc109" /></listitem>
+<listitem>The use of corticosteroids in patients hospitalized with community-acquired pneumonia (severe and non-severe) has been associated with reduced time to clinical cure, fewer clinical failures, shorter overall hospital stays, fewer ICU stays, and reduced rates of pneumonia complications.<xref ref="poem210819" resource="acc075" />It also as been shown to reduce the likelihood of requiring mechanical ventilation in hospitalized CAP patients, but may increase risk of hospital readmission.<xref ref="pubmed36087797" resource="acc101" /></listitem>
+<listitem><em>Severe CAP</em></listitem>
+<listitem>A 2023 RCT randomized 792 patients in the ICU with severe CAP to IV hydrocortisone 200 mg for 4 days or 7 days, depending on the judgment of the medical team, followed by a taper for a total of 8 days or 14 days. All-cause mortality was significantly lower in the hydrocortisone group at 28 days (6.1&#x0025; vs 11.9&#x0025;; 95&#x0025; CI for difference -9.6 to -1.7; NNT &#x003D; 17) and at 90 days (9.3&#x0025; vs 14.7&#x0025;; 95&#x0025; CI for difference -9.9 to -0.8; NNT &#x003D; 18). Among patients who did not require mechanical ventilation at enrollment, fewer patients in the treatment group later required it (18.0&#x0025; vs 29.5&#x0025;; hazard ratio 0.59; 95&#x0025; CI 0.40 - 0.86; NNT &#x003D; 9).<xref ref="poem387707" resource="acc103" /></listitem>
+<listitem>A mortality benefit has generally only been seen in patients with severe CAP.<xref ref="pubmed28756034" resource="acc061" /><xref ref="poem210819" resource="acc075" /><xref ref="pubmed30921179" resource="acc080" /><xref ref="pubmed31261585" resource="acc081" /><xref ref="pubmed37076606" resource="acc105" /> In a meta-analysis of RCTs, 12&#x0025; of the placebo-treated patients with CAP died in the hospital compared to 6&#x0025; of the corticosteroid-treated patients (NNT&#x003D;16; 95&#x0025; CI 10-62).<xref ref="pubmed28756034" resource="acc061" /> However, a systemic review and meta-analysis looking at all hospitalized adults with CAP did not see a mortality benefit.<xref ref="pubmed36087797" resource="acc101" /></listitem>
+<listitem>An updated systematic review of 15 studies (n&#x003D;2445) with severe pneumonia and 5 studies (n&#x003D;1014) of patients with ARDS found reduced mortality in both groups (RR 0.73 for severe CAP, RR 0.77 for ARDS).<xref ref="pubmed41325621" resource="acc110" /></listitem>
+<listitem>A 2023 systemic review (18 studies, 4661 patients) suggests a 7 day course of 6 mg of dexamethasone daily may be the optimal dose. Doses higher than this did not lead to any mortality benefit.<xref ref="pubmed37076606" resource="acc105" /></listitem>
+<listitem><em>Non-severe CAP</em></listitem>
+<listitem>In patients with low risk (i.e. non-severe) community-acquired pneumonia, a nonblinded RCT demonstrated that the implementation of early mobilization, nutrition screening, early switch from IV to oral antibiotics, and adjunctive treatment with corticosteroids, did not affect length of stay, mortality, readmission rate, or need for intensive care support in hospitalized patients, but had higher rates of gastrointestinal bleeding likely secondary to the steroids.<xref ref="poem2109117" resource="acc074" /></listitem>
+<listitem>A trial in Kenya found a reduction in 30-day mortality was less likely in the steroid group (22.6&#x0025; vs 26.0&#x0025;; P &#x003D; .02; number needed to treat [NNT] &#x003D; 29). However, the overall mortality rate of 24&#x0025; in this study was actually higher than that for studies of patients with severe CAP in the United States and Europe. Therefore, these results must be cautiously extrapolated to high-resource settings because of a lack of diagnostic confirmation, high rates of comorbid HIV infection (30&#x0025;), and a lack of access to ICUs in low-resource settings.<xref ref="pubmed41159889" resource="acc111" /></listitem>
+<listitem><em>Pedatric CAP</em></listitem>
+<listitem>According to a meta-analysis of RCTs, the mortality benefit from corticosteroid treatment was not seen in children but it did reduce the likelihood of clinical failure and decreased the time to clinical cure.<xref ref="poem210819" resource="acc075" /></listitem>
+<listitem>For the treatment of refractory Mycoplasma pneumoniae, corticosteroids can improve the clinical outcomes in pediatric patients. However, the authors of the systematic review and meta-analysis stated the evidence is limited due to the quality and quantity of the included literature.<xref ref="pubmed32481378" resource="acc089" /></listitem>
+<listitem><strong>CAP in immunocompromised patients</strong></listitem>
+<listitem>Immunocompromised patients include those with primary immunodeficiencies, undergoing active chemotherapy, chronic corticosteroids, post-transplant, persons with HIV and CD4 count &lt; 200 cells&#x002F;mcl, and persons receiving biologics and disease-modifyhing antirheumatic drugs.<xref ref="pubmed32561442" resource="acc095" /></listitem>
+<listitem>In addition to the usual pathogens seen in non-immunocompromised persons, bacteria seen in the immunocompromised include enterobacteriaceae, pseudomonoas, acinetobacter, MRSA, nocardia species, mycobacteria, and rhodococcus equi. Viruses include cytomegalovirus, herpes simplex virus, and varicilla zoster. Fungi include pneumocystis jirovecii, aspergillus, mucorales species, histoplasma, cryptococcus, blastomyces, and coccidiodes species. Parasites include toxoplasma gondii and strongyloides stercoralis.<xref ref="pubmed32561442" resource="acc095" /></listitem>
+<listitem>Initial antibiotic selection may warrant more extended range antibiotics, targetting specific risk factors such as previous colonization or infection. <resourceLink href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7297164/">A consensus statement (2020)</resourceLink> addresses evaluation and therapy in immunocompromised patients with community-acquired pneumonia.<xref ref="pubmed32561442" resource="acc095" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Vitamin C may have a role in the prevention or treatment of pneumonia, but the evidence is still preliminary.<xref ref="cochrane5532" resource="acc021" /></listitem>
+<listitem>Vitamin A has been studied in the pediatric population, but no benefit has been documented for CAP in adults.<xref ref="cochrane3700" resource="acc033" /><xref ref="cochrane6090" resource="acc034" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT>
+<list style="bulleted">
+<listitem>Early mobilization is important. In a study of 458 patients with CAP admitted to 17 hospitals, those randomized to early mobilization (encouraged to get into upright position for at least 20 minutes during the first 24 hours and progressively more after that) went home much sooner (5.8 vs 6.9 days, 95&#x0025; CI, 0&#x2013;2.2).<xref ref="poem51204" resource="acc025" /></listitem>
+<listitem>Based on limited evidence (six small RCTs), chest physiotherapy was not found to be useful as an adjunct in patients with pneumonia.<xref ref="cochrane6338" resource="acc035" /></listitem>
+</list>
+</Treatment_PT>
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>There is no evidence of benefit for over-the-counter medications for cough associated with CAP.<xref ref="cochrane6088" resource="acc038" /></listitem>
+<listitem>Provide oxygen as needed to prevent hypoxemia.</listitem>
+<listitem>No evidence exists to support routine use of granulocyte colony-stimulating factor in adults with pneumonia.<xref ref="cochrane4400" resource="acc020" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Treatment should last at least 5 days and should not be discontinued until the patient has been afebrile for 48 to 72 hours. Treatment longer than 5 days in a patient who is clinically stable is not recommended.<xref ref="poem211219" resource="acc083" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Use validated measures (<xref ref="rule5" resource="acc006" />Pneumonia Severity Index and<xref ref="rule312" resource="acc005" /> CURB-65) to aid in the decision to admit (see Clinical Decision Rules section and <xref ref="table001" />).</listitem>
+<listitem>Admit patients with septic shock or acute respiratory failure to the ICU.</listitem>
+<listitem>Cases of pneumonia that should be reported to the state or local health department include legionnaires&#x2019; disease, psittacosis, severe acute respiratory syndrome (SARS), suspected terrorist agents (eg, plague, tularemia, or anthrax), and those cases not endemic to the area or those thought to be part of a cluster or outbreak.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Nonresponse or treatment failure occurs in 6&#x0025; to 15&#x0025; of hospitalized patients.<xref ref="guideline10560" resource="acc004" /></listitem>
+<listitem>Further diagnostic testing is usually necessary and may include repeat or initial serum and sputum microbiologic testing, urinary tests for legionella and <em>S. pneumoniae</em> antigens, chest CT, thoracentesis, and bronchoalveolar lavage (BAL).</listitem>
+<listitem>Consider CAP patients with persistent shock despite adequate fluid resuscitation for drotrecogin alpha-activated therapy within 24 hours of admission.<xref ref="guideline10560" resource="acc004" /></listitem>
+<listitem>Evaluate patients with CAP and persistent hypotension despite adequate fluid resuscitation for occult adrenal insufficiency.<xref ref="guideline10560" resource="acc004" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Switch patients from IV to oral therapy when they are stable and improving clinically.<xref ref="guideline10560" resource="acc004" /> An RCT of 302 patients with severe pneumonia found that most patients (if clinically stable, with drop in temperature, and able to take oral medications) could be switched safely to an oral antibiotic after 3 days and could leave the hospital an average of 2 days sooner.<xref ref="poem90254" resource="acc029" /></listitem>
+<listitem>Another comparing guideline directed care (5 days with discontinuation if clinically stable) with usual care (average duration of antibiotics 10 days) found no difference in outcomes, and a higher readmission rate in the usual care group.<xref ref="poem180934" resource="acc057" /></listitem>
+<listitem>There is no need for inpatient observation of patients on oral therapy.<xref ref="guideline10560" resource="acc004" /></listitem>
+<listitem>Discuss smoking cessation with all smokers admitted for CAP. Assess all patients for vaccine status upon treatment for CAP, and administer vaccines during outpatient treatment or at hospital discharge, if necessary and available.</listitem>
+<listitem>A Cochrane review concluded based on a review of 22 trials with 2372 patients that febrile neutropenic cancer patients who were hemodyamically stable, oral antibiotics were an acceptable option.<xref ref="cochrane3992" resource="acc059" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The <resourceLink href="info:wiley/eep-rule/5">Pneumonia Severity Index</resourceLink>,<xref ref="rule312" resource="acc005" /><xref ref="rule5" resource="acc006" />, <resourceLink href="info:wiley/eep-rule/312">CURB-65</resourceLink>, and <resourceLink href="info:wiley/eep-rule/597">CRB-65</resourceLink> (no labs required) are useful prognostic tools that can assist physicians in evaluating disease severity (<xref ref="table001" />). <evidence rating="A" system="SORT">A</evidence><xref ref="guideline10560" resource="acc004" /><xref ref="poem130405" resource="acc036" /><xref ref="poem131223" resource="acc037" /></listitem>
+<listitem>For outpatients younger than 65 years, improvement is expected within 48 to 72 hours with work return in 4 to 5 days and full improvement by 2 weeks. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Overall mortality is 0.6&#x0025; for outpatients and 8&#x0025; for inpatients.<xref ref="guideline10560" resource="acc004" /> Most deaths (70&#x0025;) are due to complications such as respiratory failure, congestive heart failure, shock, dysrhythmia, myocardial infarction, GI bleed, or renal insufficiency.</listitem>
+<listitem>For outpatients younger than 65 years, improvement is expected within 48 to 72 hours, with work return in 4 to 5 days and full improvement by 2 weeks.</listitem>
+<listitem>Clinical stability is expected within 3 to 7 days for inpatients.<xref ref="guideline10560" resource="acc004" /></listitem>
+<listitem>The Severe Community Acquired Pneumonia (SCAP) is a new predictive score consisting of eight variables (arterial pH &lt;7.30; systolic blood pressure &lt;90 mm Hg; respiratory rate &gt;30&#x002F;min; altered mental status; blood urea nitrogen &gt;30 mg&#x002F;dL; oxygen arterial pressure &lt;54 mm Hg or ratio of arterial oxygen tension to fraction of inspired oxygen &lt;250 mm Hg; age 80 years; and multilobar&#x002F;bilateral lung affectation) summed for a total score; low risk is a score of 0 to 1. The SCAP may perform better than the PSI and CURB-65 in predicting patients with CAP at low risk of death as a higher percentage of patients were accurately classified as low risk.<xref ref="pubmed19961875" resource="acc030" /></listitem>
+<listitem>Predictors of 30 day readmission include poor nurse-patient communications, iatrogenic pneumothorax, and poor staff responsiveness to patient needs. Higher RN staffing was associated with decreased readmission rates.<xref ref="pubmed26771474" resource="acc056" /></listitem>
+<listitem>The Yale New Haven Readmission Risk Score (YNHRRS) for pneumonia is a clinical tool that can aid in the assessment of 30-day readmission risk. This model uses a weighted anaylsis of 25 predictor variables including age, sex, nursing home resident status, commorbidities, vital signs, and key laboratory and imaging findings.<xref ref="pubmed28545885" resource="acc064" /></listitem>
+<listitem>In hospitalized patients with CAP, qSOFA in combination with admission lactate was the best predictor of 28-day mortality in a study comparing several clinical prediction rules ( CURB65, PSI, SOFA, qSOFA, and admission lactate) in predicting mortality.<xref ref="pubmed31593111" resource="acc090" /></listitem>
+<listitem>The ration of lactate dehydrogenase to albumin is a predictor of mortality in patients hospitalized with lower RTI, with an AUC of 081.<xref ref="pubmed34864628" resource="acc097" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>The British Thoracic Society guidelines recommend a follow-up CXR for patients with persistent signs and symptoms or for those who are at higher risk of underlying malignancy (eg, smokers and those 50 years or older).<xref ref="web001" />2019 ATS&#x002F;IDSA guidelines do not recommend routine follow up chest imaging. The rate of repeat imaging detecting a new malignancy varies from 0.2-5&#x0025;. However, most of these patients meet the criteria for lung cancer screening and should proceed with the screening CT scans.<xref ref="poem211219" resource="acc083" /></listitem>
+<listitem>In a group of elderly patients with pneumonia, rates of CXR resolution were 35&#x0025; at 3 weeks, 58&#x0025; at 6 weeks, 68&#x0025; at 9 weeks, and 76&#x0025; at 12 weeks.<xref ref="poem60549" resource="acc026" /></listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Fever is frequently absent in older patients.</listitem>
+<listitem>A respiratory rate greater than 24 breaths&#x002F;min is the most sensitive sign of pneumonia in the elderly.<xref ref="pubmed9356004" resource="acc012" /></listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>Influenza vaccine is recommended for women who will be pregnant during the flu season.<xref ref="guideline307" resource="acc003" /></listitem>
+<listitem>There is insufficient evidence from three studies with 280 patients to determine whether pneumococcal vaccination during pregnancy reduces infant infections.<xref ref="cochrane4903" resource="acc043" /></listitem>
+</list>
+</Pregnancy>
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="hp31">
+<accessionId id="acc001" href="info:wiley/eep-hp/31" />
+<accessionId id="acc001b" href="info:wiley/eep-rule/32" />
+<accessionId id="acc001c" href="info:pmid/6699126" />
+<authors>Diehr P, Wood RW, Bushyhead J, Krueger L, Wolcott B, Tompkins RK.</authors>
+<title>Prediction of pneumonia in outpatients with acute cough&#x2014; a statistical approach.</title>
+<source>J Chronic Dis</source>
+<pubdate>1984</pubdate>
+<volume>37</volume>
+<pages>215&#x2013;225.</pages>
+</reference>
+<reference id="rule185">
+<accessionId id="acc002" href="info:wiley/eep-rule/185" />
+<accessionId id="acc002b" href="info:pmid/1952308" />
+<authors>Emerman CL, Dawson N, Speroff T, et al.</authors>
+<title>Comparison of physician judgment and decision aids for ordering chest radiographs for pneumonia in outpatients.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1991</pubdate>
+<volume>20</volume>
+<pages>1215&#x2013;1219.</pages>
+</reference>
+<reference id="guideline307">
+<accessionId id="acc003" href="info:wiley/eep-guideline/307" />
+<citation>Centers for Disease Control and Prevention. Recommendations and guidelines: adult immunization schedule. https:&#x002F;&#x002F;www.cdc.gov&#x002F;vaccines&#x002F;vpd&#x002F;pneumo&#x002F;index.html Last Accessed 11&#x002F;29&#x002F;19.</citation>
+<url>http://www.cdc.gov/vaccines/recs/schedules/adult-schedule.htm</url>
+<organization>Centers for Disease Control and Prevention.</organization>
+<longtitle />
+<title />
+<dateguideline>11&#x002F;29&#x002F;19</dateguideline>
+</reference>
+<reference id="guideline10560">
+<accessionId id="acc004" href="info:wiley/eep-guideline/10560" />
+<accessionId id="acc004b" href="info:pmid/17278083" />
+<authors>Mandell LA, Wunderink RG, Anzueto A, et al.</authors>
+<title>Infectious Diseases Society of America&#x002F;American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>44</volume>
+<pages>S27&#x2013;S72.</pages>
+</reference>
+<reference id="rule312">
+<accessionId id="acc005" href="info:wiley/eep-rule/312" />
+<accessionId id="acc005b" href="info:pmid/16447233" />
+<authors>Rudwaleit M, Metter A, Listing J, Sieper J, Braun J.</authors>
+<title>Inflammatory back pain in ankylosing spondylitis: a reassessment of the clinical history for application as classification and diagnostic criteria.</title>
+<source>Arth Rheum</source>
+<pubdate>2006</pubdate>
+<volume>54</volume>
+<pages>569&#x2013;578.</pages>
+</reference>
+<reference id="rule5">
+<accessionId id="acc006" href="info:wiley/eep-rule/5" />
+<accessionId id="acc006b" href="info:pmid/8995086" />
+<authors>Fine MJ, Auble TE, Yealy DM, et al.</authors>
+<title>A prediction rule to identify low-risk patients with community-acquired pneumonia.</title>
+<source>N Engl J Med</source>
+<pubdate>1997</pubdate>
+<volume>336</volume>
+<pages>243&#x2013;250.</pages>
+</reference>
+<reference id="rule8">
+<accessionId id="acc007" href="info:wiley/eep-rule/8" />
+<authors>Heckerling PS, Tape TG, Wigton RS, et al.</authors>
+<title>Clinical prediction rule for pulmonary infiltrates.</title>
+<source>Ann Intern Med</source>
+<pubdate>1990</pubdate>
+<volume>113</volume>
+<pages>664&#x2013;670.</pages>
+</reference>
+<reference id="rule265">
+<accessionId id="acc008" href="info:wiley/eep-rule/265" />
+<accessionId id="acc008b" href="info:wiley/eep-poem/60542" />
+<accessionId id="acc008c" href="info:pmid/14630621" />
+<authors>Metersky ML, Ma A, Bratzler DW, Houck PM.</authors>
+<title>Predicting bacteremia in patients with community-acquired pneumonia.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2004</pubdate>
+<volume>169</volume>
+<pages>342&#x2013;347.</pages>
+</reference>
+<reference id="test234">
+<accessionId id="acc009" href="info:wiley/eep-dx/234" />
+<accessionId id="acc009b" href="info:pmid/3928249" />
+<authors>Knaus WA, Draper EA, Wagner DP, Zimmerman JE.</authors>
+<title>APACHE II: a severity of disease classification system.</title>
+<source>Crit Care Med</source>
+<pubdate>1985</pubdate>
+<volume>13</volume>
+<pages>818&#x2013;829.</pages>
+</reference>
+<reference id="pubmed16850709">
+<accessionId id="acc010" href="info:pmid/16850709" />
+<authors>Minino AM, Heron MP, Smith BL.</authors>
+<title>Deaths: preliminary data for 2004.</title>
+<source>Natl Vital Stat Rep</source>
+<pubdate>2006</pubdate>
+<volume>54</volume>
+<pages>1&#x2013;49.</pages>
+</reference>
+<reference id="pubmed15808136">
+<accessionId id="acc011" href="info:pmid/15808136" />
+<authors>Aujesky D, Auble TE, Yealy DM, et al.</authors>
+<title>Prospective comparison of three validated prediction rules for prognosis in community-acquired pneumonia.</title>
+<source>Am J Med</source>
+<pubdate>2005</pubdate>
+<volume>118</volume>
+<pages>384&#x2013;392.</pages>
+</reference>
+<reference id="pubmed9356004">
+<accessionId id="acc012" href="info:pmid/9356004" />
+<authors>Metlay JP, Kapoor WN, Fine MJ.</authors>
+<title>Does this patient have community-acquired pneumonia? Diagnosing pneumonia by history and physical examination?</title>
+<source>JAMA</source>
+<pubdate>1997</pubdate>
+<volume>278</volume>
+<pages>1440&#x2013;1445.</pages>
+</reference>
+<reference id="pubmed10987697">
+<accessionId id="acc013" href="info:pmid/10987697" />
+<authors>Bartlett JG, Dowell SF, Mandell LA, File TM, Jr., Musher DM, Fine MJ.</authors>
+<title>Practice guidelines for the management of community-acquired pneumonia in adults. Infectious Diseases Society of America.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2000</pubdate>
+<volume>31</volume>
+<pages>347&#x2013;382.</pages>
+</reference>
+<reference id="pubmed17853631">
+<accessionId id="acc014" href="info:pmid/17853631" />
+<authors>Ebell MH.</authors>
+<title>Predicting pneumonia in adults.</title>
+<source>Am Fam Physician</source>
+<pubdate>2007</pubdate>
+<volume>76</volume>
+<pages>560&#x2013;562.</pages>
+</reference>
+<reference id="pubmed2745948">
+<accessionId id="acc015" href="info:pmid/2745948" />
+<authors>Gennis P, Gallagher J, Falvo C, Baker S, Than W.</authors>
+<title>Clinical criteria for the detection of pneumonia in adults: guidelines for ordering chest roentgenograms in the emergency department.</title>
+<source>J Emerg Med</source>
+<pubdate>1989</pubdate>
+<volume>7</volume>
+<pages>263&#x2013;268.</pages>
+</reference>
+<reference id="pubmed12728155">
+<accessionId id="acc016" href="info:pmid/12728155" />
+<authors>Lim WS, van der Eerden MM, Laing R, et al.</authors>
+<title>Defining community acquired pneumonia severity on presentation to hospital: an international derivation and validation study.</title>
+<source>Thorax</source>
+<pubdate>2003</pubdate>
+<volume>58</volume>
+<pages>377&#x2013;382.</pages>
+</reference>
+<reference id="pubmed20157684">
+<accessionId id="acc017" href="info:pmid/20157684" />
+<authors>Levy ML, Le Jeune I, Woodhead MA, Macfarlaned JT, Lim WS; British Thoracic Society Community Acquired Pneumonia in Adults Guideline Group.</authors>
+<title>Primary care summary of the British Thoracic Society Guidelines for the management of community acquired pneumonia in adults: 2009 update. Endorsed by the Royal College of General Practitioners and the Primary Care Respiratory Society UK.</title>
+<source>Prim Care Respir J</source>
+<pubdate>2010</pubdate>
+<volume>19</volume>
+<pages>21&#x2013;27.</pages>
+</reference>
+<reference id="web001">
+<citation>British Thoracic Society. Guidelines for the Management of Community Acquired Pneumonia in Adults. 2009 Update.</citation>
+<url>http://www.brit-thoracic.org.uk/ClinicalInformation/Pneumonia/PneumoniaGuidelines/tabid/136/Default.aspx</url>
+<organization>British Thoracic Society</organization>
+<longtitle />
+<title />
+<dateguideline>7&#x002F;16&#x002F;2009</dateguideline>
+</reference>
+<reference id="pubmed12529093">
+<accessionId id="acc019" href="info:pmid/12529093" />
+<authors>Metlay JP, Fine MJ.</authors>
+<title>Testing strategies in the initial management of patients with community-acquired pneumonia.</title>
+<source>Ann Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>138</volume>
+<pages>109&#x2013;118.</pages>
+</reference>
+<reference id="cochrane4400">
+<accessionId id="acc020" href="info:wiley/cochrane/CD004400" />
+<chapter_authors>Cheng AC, Stephens DP, Currie BJ.</chapter_authors>
+<chapter_title>Granulocyte-Colony Stimulating Factor (G-CSF) as an adjunct to antibiotics in the treatment of pneumonia in adults (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5532">
+<accessionId id="acc021" href="info:wiley/cochrane/CD005532" />
+<chapter_authors>Hemila H, Louhiala P.</chapter_authors>
+<chapter_title>Vitamin C for preventing and treating pneumonia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 7.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem453">
+<accessionId id="acc022" href="info:wiley/eep-poem/453" />
+<accessionId id="acc022b" href="info:pmid/9596294" />
+<authors>Soipena N, Sabria-Leal M, Pedro-Botet ML, et al.</authors>
+<title>Comparative study of clinical presentation of Legionella pneumonia and other community-acquired pneumonias.</title>
+<source>Chest</source>
+<pubdate>1998</pubdate>
+<volume>113</volume>
+<pages>1195&#x2013;1200.</pages>
+</reference>
+<reference id="poem110301">
+<accessionId id="acc023" href="info:wiley/eep-poem/110301" />
+<accessionId id="acc023b" href="info:pmid/19047608" />
+<authors>CVardakas KZ, Siempos II, Grammatikos A, Athanassa Z, Korbila IP, Falagas ME.</authors>
+<title>Respiratory fluoroquinolones for the treatment of community-acquired pneumonia: a meta-analysis of randomized controlled trials.</title>
+<source>CMAJ</source>
+<pubdate>2008</pubdate>
+<volume>179</volume>
+<pages>1269&#x2013;1277.</pages>
+</reference>
+<reference id="poem50703">
+<accessionId id="acc024" href="info:wiley/eep-poem/50703" />
+<accessionId id="acc024b" href="info:pmid/12684305" />
+<authors>Campbell SG, Marrie TJ, Anstey R, Dickinson G, Ackroyd-Stolarz S.</authors>
+<title>The contribution of blood cultures to the clinical management of adult patients admitted to the hospital with community-acquired pneumonia.</title>
+<source>Chest</source>
+<pubdate>2003</pubdate>
+<volume>123</volume>
+<pages>1142&#x2013;1150.</pages>
+</reference>
+<reference id="poem51204">
+<accessionId id="acc025" href="info:wiley/eep-poem/51204" />
+<accessionId id="acc025b" href="info:pmid/12970012" />
+<authors>Mundy LM, Leet TL, Darst K, Schnitzler MA, Dunagan WC.</authors>
+<title>Early mobilization of patients hospitalized with community-acquired pneumonia.</title>
+<source>Chest</source>
+<pubdate>2003</pubdate>
+<volume>124</volume>
+<pages>883&#x2013;889.</pages>
+</reference>
+<reference id="poem60549">
+<accessionId id="acc026" href="info:wiley/eep-poem/60549" />
+<accessionId id="acc026b" href="info:pmid/14728631" />
+<authors>El Solh AA, Aquilina AT, Gunen H, Ramadan F.</authors>
+<title>Radiographic resolution of community-acquired bacterial pneumonia in the elderly.</title>
+<source>J Am Geriatr Soc</source>
+<pubdate>2004</pubdate>
+<volume>52</volume>
+<pages>224&#x2013;229.</pages>
+</reference>
+<reference id="poem60551">
+<accessionId id="acc027" href="info:wiley/eep-poem/60551" />
+<accessionId id="acc027b" href="info:pmid/14987884" />
+<authors>Christ-Crain M, Jaccard-Stolz D, Bingisser R, et al.</authors>
+<title>Effect of procalcitonin-guided treatment on antibiotic use and outcome in lower respiratory tract infections: cluster-randomised, single-blinded intervention trial.</title>
+<source>Lancet</source>
+<pubdate>2004</pubdate>
+<volume>363</volume>
+<pages>600&#x2013;607.</pages>
+</reference>
+<reference id="poem80853">
+<accessionId id="acc028" href="info:wiley/eep-poem/80853" />
+<accessionId id="acc028b" href="info:pmid/16763247" />
+<authors>el Moussaoui R, de Borgie CA, van den Broek P, et al.</authors>
+<title>Effectiveness of discontinuing antibiotic treatment after three days versus eight days in mild to moderate-severe community acquired pneumonia: randomised, double blind study.</title>
+<source>BMJ</source>
+<pubdate>2006</pubdate>
+<volume>332</volume>
+<pages>1355&#x2013;1358.</pages>
+</reference>
+<reference id="poem90254">
+<accessionId id="acc029" href="info:wiley/eep-poem/90254" />
+<accessionId id="acc029b" href="info:pmid/17090560" />
+<authors>Oosterheert JJ, Bonten MJ, Schneider MM, et al.</authors>
+<title>Effectiveness of early switch from intravenous to oral antibiotics in severe community acquired pneumonia: multicentre randomised trial.</title>
+<source>BMJ</source>
+<pubdate>2006</pubdate>
+<volume>333</volume>
+<pages>1193.</pages>
+</reference>
+<reference id="pubmed19961875">
+<accessionId id="acc030" href="info:pmid/19961875" />
+<authors>Espana PP, Capelastegui A, Quintana JM, et al.</authors>
+<title>Validation and comparison of SCAP as a predictive score for identifying low-risk patients in community-acquired pneumonia.</title>
+<source>J Infect</source>
+<pubdate>2010</pubdate>
+<volume>60</volume>
+<pages>106&#x2013;113.</pages>
+</reference>
+<reference id="poem120255">
+<accessionId id="acc031" href="info:wiley/eep-poem/120255" />
+<accessionId id="acc031b" href="info:pmid/19853781" />
+<authors>Nazarian DJ, Eddy OL, Lukens TW, Weingart SD, Decker WW.</authors>
+<title>Clinical policy: Critical issues in the management of adult patients presenting to the emergency department with community-acquired pneumonia.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2009</pubdate>
+<volume>54</volume>
+<pages>704&#x2013;731.</pages>
+</reference>
+<reference id="poem120554">
+<accessionId id="acc032" href="info:wiley/eep-poem/120554" />
+<accessionId id="acc032b" href="info:pmid/20211953" />
+<authors>Maruyama T, Taguchi O, Niederman MS, et al.</authors>
+<title>Efficacy of 23-valent pneumococcal vaccine in preventing pneumonia and improving survival in nursing home residents: double blind, randomised and placebo-controlled trial.</title>
+<source>BMJ</source>
+<pubdate>2010</pubdate>
+<volume>340</volume>
+<pages>c1004.</pages>
+</reference>
+<reference id="cochrane3700">
+<accessionId id="acc033" href="info:wiley/cochrane/CD003700" />
+<chapter_authors>Wu T, Ni J, Wei J.</chapter_authors>
+<chapter_title>Vitamin A for non-measles pneumonia in children (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 10.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6090">
+<accessionId id="acc034" href="info:wiley/cochrane/CD006090" />
+<chapter_authors>Chen H, Zhuo Q, Yuan W, Wang J, Wu T.</chapter_authors>
+<chapter_title>Vitamin A for preventing acute lower respiratory tract infections in children up to seven years of age (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6338">
+<accessionId id="acc035" href="info:wiley/cochrane/CD006338" />
+<chapter_authors>Chen X, Jiang J, Wang R, Fu H, Lu J, Yang M.</chapter_authors>
+<chapter_title>Chest physiotherapy for pneumonia in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 9. Art. No.: CD006338. DOI: 10.1002&#x002F;14651858.CD006338.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem130405">
+<accessionId id="acc036" href="info:wiley/eep-poem/130405" />
+<accessionId id="acc036b" href="info:pmid/20729231" />
+<authors>Chalmers JD, Singanayagam A, Akram AR, et al.</authors>
+<title>Severity assessment tools for predicting mortality in hospitalised patients with community-acquired pneumonia. Systematic review and meta-analysis.</title>
+<source>Thorax</source>
+<pubdate>2010</pubdate>
+<volume>65</volume>
+<pages>878&#x2013;883.</pages>
+</reference>
+<reference id="poem131223">
+<accessionId id="acc037" href="info:wiley/eep-poem/131223" />
+<accessionId id="acc037b" href="info:pmid/21951687" />
+<authors>Ochoa-Gondar O, Vila-Corcoles A, Rodriguez-Blanco T, et al.</authors>
+<title>Comparison of three predictive rules for assessing severity in elderly patients with CAP.</title>
+<source>Int J Clin Pract</source>
+<pubdate>2011</pubdate>
+<volume>65</volume>
+<pages>1165&#x2013;1172.</pages>
+</reference>
+<reference id="cochrane6088">
+<accessionId id="acc038" href="info:wiley/cochrane/CD006088" />
+<chapter_authors>Chang CC, Cheng AC, Chang AB.</chapter_authors>
+<chapter_title>Over-the-counter (OTC) medications to reduce cough as an adjunct to antibiotics for acute pneumonia in children and adults (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem150804">
+<accessionId id="acc039" href="info:wiley/eep-poem/150804" />
+<accessionId id="acc039b" href="info:pmid/23076390" />
+<authors>Rodrigo C, Mckeever TM, Woodhead M, Lim WS; British Thoracic Society.</authors>
+<title>Single versus combination antibiotic therapy in adults hospitalised with community acquired pneumonia.</title>
+<source>Thorax</source>
+<pubdate>2013</pubdate>
+<volume>68</volume>
+<pages>493&#x2013;495.</pages>
+</reference>
+<reference id="pubmed24893087">
+<accessionId id="acc040" href="info:pmid/24893087" />
+<authors>Mortensen EM, Halm EA, Pugh MJ, Copeland LA, Metersky M, Fine MJ, Johnson CS, Alvarez CA, Frei CR, Good C, Restrepo MI, Downs JR, Anzueto A.</authors>
+<title>Association of azithromycin with mortality and cardiovascular events among older patients hospitalized with pneumonia.</title>
+<source>JAMA</source>
+<pubdate>2014</pubdate>
+<volume>311</volume>
+<pages>2199&#x2013;2208.</pages>
+</reference>
+<reference id="pubmed25286173">
+<accessionId id="acc041" href="info:pmid/25286173" />
+<authors>Garin N, Genn&#x00E9; D, Carballo S, Chuard C, Eich G, Hugli O, Lamy O, Nendaz M, Petignat PA, Perneger T, Rutschmann O, Seravalli L, Harbarth S, Perrier A.</authors>
+<title>&#x03B2;-Lactam monotherapy vs &#x03B2;-lactam-macrolide combination treatment in moderately severe community-acquired pneumonia: a randomized noninferiority trial.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>174</volume>
+<pages>1894&#x2013;1901.</pages>
+</reference>
+<reference id="pubmed24864174">
+<accessionId id="acc042" href="info:pmid/24864174" />
+<authors>Biondi E, McCulloh R, Alverson B, Klein A, Dixon A.</authors>
+<title>Treatment of mycoplasma pneumonia: a systematic review.</title>
+<source>Pediatrics</source>
+<pubdate>2014</pubdate>
+<volume>133</volume>
+<pages>1081&#x2013;1090.</pages>
+</reference>
+<reference id="cochrane4903">
+<accessionId id="acc043" href="info:wiley/cochrane/CD004903" />
+<chapter_authors>Chaithongwongwatthana S, Yamasmit W, Limpongsanurak S, Lumbiganon P, Tolosa JE.</chapter_authors>
+<chapter_title>Pneumococcal vaccination during pregnancy for preventing infant infection.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 1. Art. No.: CD004903. DOI: 10.1002&#x002F;14651858.CD004903.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4875">
+<accessionId id="acc044" href="info:wiley/cochrane/CD004875" />
+<chapter_authors>Gardiner SJ, Gavranich JB, Chang AB.</chapter_authors>
+<chapter_title>Antibiotics for community-acquired lower respiratory tract infections secondary to Mycoplasma pneumoniae in children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 1. Art. No.: CD004875. DOI: 10.1002&#x002F;14651858.CD004875.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6452">
+<accessionId id="acc045" href="info:wiley/cochrane/CD006452" />
+<chapter_authors>Doan Q, Enarson P, Kissoon N, Klassen TP, Johnson DW.</chapter_authors>
+<chapter_title>Rapid viral diagnosis for acute febrile respiratory illness in children in the Emergency Department.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 9. Art. No.: CD006452. DOI: 10.1002&#x002F;14651858.CD006452.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24813862">
+<accessionId id="acc046" href="info:pmid/24813862" />
+<authors>Haubitz S, Hitz F, Graedel L, Batschwaroff M, Wiemken TL, Peyrani P, Ramirez JA, Fux CA, Mueller B, Schuetz P.</authors>
+<title>Ruling out Legionella in community-acquired pneumonia.</title>
+<source>Am J Med</source>
+<pubdate>2014</pubdate>
+<volume>127</volume>
+<pages>1010.e11&#x2013;1010.e19.</pages>
+</reference>
+<reference id="pubmed22868746">
+<accessionId id="acc047" href="info:pmid/22868746" />
+<authors>Oostenbrink R, Thompson M, Lakhanpaul M, Steyerberg EW, Coad N, Moll HA.</authors>
+<title>Children with fever and cough at emergency care: diagnostic accuracy of a clinical model to identify children at low risk of pneumonia.</title>
+<source>Eur J Emerg Med</source>
+<pubdate>2013</pubdate>
+<volume>20</volume>
+<pages>273&#x2013;280.</pages>
+</reference>
+<reference id="pubmed25769269">
+<accessionId id="acc048" href="info:pmid/25769269" />
+<authors>Rambaud-Althaus C, Althaus F, Genton B, D'Acremont V.</authors>
+<title>Clinical features for diagnosis of pneumonia in children younger than 5 years: a systematic review and meta-analysis.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2015</pubdate>
+<volume>15</volume>
+<pages>439&#x2013;450.</pages>
+</reference>
+<reference id="pubmed15965550">
+<accessionId id="acc049" href="info:pmid/15965550" />
+<authors>Mahabee-Gittens EM, Grupp-Phelan J, Brody AS, Donnelly LF, Bracey SE, Duma EM, Mallory ML, Slap GB.</authors>
+<title>Identifying children with pneumonia in the emergency department.</title>
+<source>Clin Pediatr (Phila)</source>
+<pubdate>2005</pubdate>
+<volume>44</volume>
+<pages>427&#x2013;435.</pages>
+</reference>
+<reference id="pubmed17727747">
+<accessionId id="acc050" href="info:pmid/17727747" />
+<authors>Holm A, Nexoe J, Bistrup LA, Pedersen SS, Obel N, Nielsen LP, Pedersen C.</authors>
+<title>Aetiology and prediction of pneumonia in lower respiratory tract infection in primary care.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2007</pubdate>
+<volume>57</volume>
+<pages>547&#x2013;554.</pages>
+</reference>
+<reference id="pubmed18307852">
+<accessionId id="acc051" href="info:pmid/18307852" />
+<authors>Graffelman AW, Willemssen FE, Zonderland HM, Neven AK, Kroes AC, van den Broek PJ.</authors>
+<title>Limited value of chest radiography in predicting aetiology of lower respiratory tract infection in general practice.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2008</pubdate>
+<volume>58</volume>
+<pages>93&#x2013;97.</pages>
+</reference>
+<reference id="pubmed15011754">
+<accessionId id="acc052" href="info:pmid/15011754" />
+<authors>Numazaki K, Chiba S, Umetsu M, Tanaka T, Yoshimura H, Kuniya Y, Miura J, Adachi N, Ukae S, Mori T, Ueda D, Hotsubo T, Sato T.</authors>
+<title>Etiological agents of lower respiratory tract infections in Japanese children.</title>
+<source>In Vivo</source>
+<pubdate>2004 Jan-Feb</pubdate>
+<volume>18</volume>
+<pages>67&#x2013;71.</pages>
+</reference>
+<reference id="poem180411">
+<accessionId id="acc053" href="info:wiley/eep-poem/180411" />
+<accessionId id="acc053b" href="info:pmid/26864413" />
+<authors>Lee JS, Giesler DL, Gellad WF, Fine MJ.</authors>
+<title>Antibiotic therapy for adults hospitalized with community-acquired pneumonia: a systematic review.</title>
+<source>JAMA</source>
+<pubdate>2016</pubdate>
+<volume>315</volume>
+<pages>593&#x2013;602.</pages>
+</reference>
+<reference id="poem180142">
+<accessionId id="acc054" href="info:wiley/eep-poem/180142" />
+<accessionId id="acc054b" href="info:pmid/26343840" />
+<authors>Kalra L, Irshad S, Hodsoll J, Simpson M, Gulliford M, Smithard D, Patel A, Rebollo-Mesa I; STROKE-INF Investigators.</authors>
+<title>Prophylactic antibiotics after acute stroke for reducing pneumonia in patients with dysphagia (STROKE-INF): a prospective, cluster-randomised, open-label, masked endpoint, controlled clinical trial.</title>
+<source>Lancet</source>
+<pubdate>2015</pubdate>
+<volume>386</volume>
+<pages>1835&#x2013;1844.</pages>
+</reference>
+<reference id="poem180307">
+<accessionId id="acc055" href="info:wiley/eep-poem/180307" />
+<accessionId id="acc055b" href="info:pmid/26169892" />
+<authors>Alba GA, Truong QA, Gaggin HK, Gandhi PU, De Berardinis B, Magrini L, Bajwa EK, Di Somma S, Januzzi JL, Jr.; Global Research on Acute Conditions Team (GREAT) Network.</authors>
+<title>Diagnostic and prognostic utility of procalcitonin in patients presenting to the emergency department with dyspnea.</title>
+<source>Am J Med</source>
+<pubdate>2016</pubdate>
+<volume>129</volume>
+<pages>96&#x2013;104.e7.</pages>
+</reference>
+<reference id="pubmed26771474">
+<accessionId id="acc056" href="info:pmid/26771474" />
+<authors>Flanagan J, Stamp KD, Gregas M, Shindul-Rothschild J.</authors>
+<title>Predictors of 30-day readmission for pneumonia.</title>
+<source>J Nurs Adm</source>
+<pubdate>2016</pubdate>
+<volume>46</volume>
+<pages>69&#x2013;74.</pages>
+</reference>
+<reference id="poem180934">
+<accessionId id="acc057" href="info:wiley/eep-poem/180934" />
+<accessionId id="acc057b" href="info:pmid/27455166" />
+<authors>Uranga A, Espa&#x00F1;a PP, Bilbao A, Quintana JM, Arriaga I, Intxausti M, Lobo JL, Tom&#x00E1;s L, Camino J, Nu&#x00F1;ez J, Capelastegui A.</authors>
+<title>Duration of antibiotic treatment in community-acquired pneumonia: A multicenter randomized clinical trial.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2016</pubdate>
+<volume>176</volume>
+<pages>1257&#x2013;1265.</pages>
+</reference>
+<reference id="cochrane1390">
+<accessionId id="acc058" href="info:wiley/cochrane/CD001390" />
+<chapter_authors>Walters JA, Tang JNQ, Poole P, Wood-Baker R.</chapter_authors>
+<chapter_title>Pneumococcal vaccines for preventing pneumonia in chronic obstructive pulmonary disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 1. Art. No.: CD001390. DOI: 10.1002&#x002F;14651858.CD001390.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3992">
+<accessionId id="acc059" href="info:wiley/cochrane/CD003992" />
+<chapter_authors>Vidal L, Ben dor I, Paul M, Eliakim-Raz N, Pokroy E, Soares-Weiser K, Leibovici L.</chapter_authors>
+<chapter_title>Oral versus intravenous antibiotic treatment for febrile neutropenia in cancer patients.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 10. Art. No.: CD003992. DOI: 10.1002&#x002F;14651858.CD003992.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem190806">
+<accessionId id="acc060" href="info:wiley/eep-poem/190806" />
+<accessionId id="acc060b" href="info:pmid/27818332" />
+<authors>Llamas-&#x00C1;lvarez AM, Tenza-Lozano EM, Latour-P&#x00E9;rez J.</authors>
+<title>Accuracy of lung ultrasonography in the diagnosis of pneumonia in adults: systematic review and meta-analysis.</title>
+<source>Chest</source>
+<pubdate>2017</pubdate>
+<volume>151</volume>
+<pages>374&#x2013;382.</pages>
+</reference>
+<reference id="pubmed28756034">
+<accessionId id="acc061" href="info:pmid/28756034" />
+<authors>Wu WF, Fang Q, He GJ.</authors>
+<title>Efficacy of corticosteroid treatment for severe community-acquired pneumonia: A meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2018</pubdate>
+<volume>36</volume>
+<pages>179&#x2013;184.</pages>
+</reference>
+<reference id="poem191115">
+<accessionId id="acc062" href="info:wiley/eep-poem/191115" />
+<accessionId id="acc062b" href="info:pmid/28763554" />
+<authors>Shah SN, Bachur RG, Simel DL, Neuman MI.</authors>
+<title>Does this child have pneumonia? The rational clinical examination systematic review.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>462&#x2013;471.</pages>
+</reference>
+<reference id="poem200305">
+<accessionId id="acc063" href="info:wiley/eep-poem/200305" />
+<accessionId id="acc063b" href="info:pmid/28835382" />
+<authors>Neuman MI, Hall M, Lipsett SC, Hersh AL, Williams DJ, Gerber JS, Brogan TV, Blaschke AJ, Grijalva CG, Parikh K, Ambroggio L, Shah SS, Pediatric Research in Inpatient Settings Network.</authors>
+<title>Utility of blood culture among children hospitalized with community-acquired pneumonia.</title>
+<source>Pediatrics</source>
+<pubdate>2017</pubdate>
+<volume>140</volume>
+<pages />
+</reference>
+<reference id="pubmed28545885">
+<accessionId id="acc064" href="info:pmid/28545885" />
+<authors>Schaefer G, El-Kareh R, Quartarolo J, Seymann G.</authors>
+<title>Evaluation of the Yale New Haven Readmission Risk Score for pneumonia in a general hospital population.</title>
+<source>Am J Med</source>
+<pubdate>2017</pubdate>
+<volume>130</volume>
+<pages>1107&#x2013;1111.e1.</pages>
+</reference>
+<reference id="pubmed23633005">
+<accessionId id="acc065" href="info:pmid/23633005" />
+<authors>van Vugt S, Broekhuizen BD, et al.</authors>
+<title>Use of serum C reactive protein and procalcitonin concentrations in addition to symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough: diagnostic study.</title>
+<source>BMJ</source>
+<pubdate>2013</pubdate>
+<volume>346</volume>
+<pages>f2450.</pages>
+</reference>
+<reference id="pubmed2221647">
+<accessionId id="acc066" href="info:pmid/2221647" />
+<authors>Heckerling PS, Tape TG, Wigton RS, Hissong KK, Leikin JB, Ornato JP, Cameron JL, Racht EM.</authors>
+<title>Clinical prediction rule for pulmonary infiltrates.</title>
+<source>Ann Intern Med</source>
+<pubdate>1990</pubdate>
+<volume>113</volume>
+<pages>664&#x2013;670.</pages>
+</reference>
+<reference id="pubmed11711008">
+<accessionId id="acc067" href="info:pmid/11711008" />
+<authors>Mehr DR, Binder EF, Kruse RL, Zweig SC, Madsen RW, D'Agostino RB.</authors>
+<title>Clinical findings associated with radiographic pneumonia in nursing home residents.</title>
+<source>J Fam Pract</source>
+<pubdate>2001</pubdate>
+<volume>50</volume>
+<pages>931&#x2013;937.</pages>
+</reference>
+<reference id="pubmed27594440">
+<accessionId id="acc068" href="info:pmid/27594440" />
+<authors>Hay A, et al.</authors>
+<title>Development and internal validation of a clinical rule to improve antibiotic use in children presenting to primary care with acute respiratory tract infection and cough: a prognostic cohort study.</title>
+<source>Lancet Respir Med</source>
+<pubdate>2016</pubdate>
+<volume>4</volume>
+<pages>902&#x2013;910.</pages>
+</reference>
+<reference id="poem210523">
+<accessionId id="acc069" href="info:wiley/eep-poem/210523" />
+<accessionId id="acc069b" href="info:pmid/30726692" />
+<authors>Stets R, Popescu M, Gonong JR, Mitha I, Nseir W, Madej A, Kirsch C, Das AF, Garrity-Ryan L, Steenbergen JN, Manley A, Eckburg PB, Tzanis E, McGovern PC, Loh E.</authors>
+<title>Omadacycline for Community-Acquired Bacterial Pneumonia.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>517&#x2013;527.</pages>
+</reference>
+<reference id="poem210306">
+<accessionId id="acc070" href="info:wiley/eep-poem/210306" />
+<accessionId id="acc070b" href="info:pmid/29987137" />
+<authors>Tansarli GS, Mylonakis E.</authors>
+<title>Systematic review and meta-analysis of the efficacy of short-course antibiotic treatments for community-acquired pneumonia in adults.</title>
+<source>Antimicrob Agents Chemother</source>
+<pubdate>2018</pubdate>
+<volume>62</volume>
+<pages />
+</reference>
+<reference id="poem210529">
+<accessionId id="acc071" href="info:wiley/eep-poem/210529" />
+<accessionId id="acc071b" href="info:pmid/30850460" />
+<authors>Marchello CS, Ebell MH, Dale AP, Harvill ET, Shen Y, Whalen CC.</authors>
+<title>Signs and symptoms that rule out community-acquired pneumonia in outpatient adults: a systematic review and meta-analysis.</title>
+<source>J Am Board Fam Med</source>
+<pubdate>2019 Mar-Apr</pubdate>
+<volume>32</volume>
+<pages>234&#x2013;247.</pages>
+</reference>
+<reference id="poem2109118">
+<accessionId id="acc072" href="info:wiley/eep-poem/2109118" />
+<accessionId id="acc072b" href="info:pmid/31284301" />
+<authors>Vaughn VM, Flanders SA, Snyder A, Conlon A, Rogers MAM, Malani AN, McLaughlin E, Bloemers S, Srinivasan A, Nagel J, Kaatz S, Osterholzer D, Thyagarajan R, Hsaiky L, Chopra V, Gandhi TN.</authors>
+<title>Excess antibiotic treatment duration and adverse events in patients hospitalized with pneumonia: a multihospital cohort study.</title>
+<source>Ann Intern Med</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="poem210944">
+<accessionId id="acc073" href="info:wiley/eep-poem/210944" />
+<accessionId id="acc073b" href="info:pmid/31208974" />
+<authors>Dale AP, Marchello C, Ebell MH.</authors>
+<title>Clinical gestalt to diagnose pneumonia, sinusitis, and pharyngitis: a meta-analysis.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2019</pubdate>
+<volume>69</volume>
+<pages>e444&#x2013;e453.</pages>
+</reference>
+<reference id="poem2109117">
+<accessionId id="acc074" href="info:wiley/eep-poem/2109117" />
+<accessionId id="acc074b" href="info:pmid/31282921" />
+<authors>Lloyd M, Karahalios A, Janus E, Skinner EH, Haines T, De Silva A, Lowe S, Shackell M, Ko S, Desmond L, Karunajeewa H, Improving Evidence-Based Treatment Gaps and Outcomes in Community-Acquired Pneumonia (IMPROVE-GAP) Implementation Team at Western Health.</authors>
+<title>Effectiveness of a bundled intervention including adjunctive corticosteroids on outcomes of hospitalized patients with community-acquired pneumonia: a stepped-wedge randomized clinical trial.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="poem210819">
+<accessionId id="acc075" href="info:wiley/eep-poem/210819" />
+<accessionId id="acc075b" href="info:pmid/29937237" />
+<authors>Seagraves T, Gottlieb M.</authors>
+<title>Are corticosteroids beneficial in the treatment of community-acquired pneumonia?</title>
+<source>Ann Emerg Med</source>
+<pubdate>2019</pubdate>
+<volume>74</volume>
+<pages>e1&#x2013;e3.</pages>
+</reference>
+<reference id="pubmed29781385">
+<accessionId id="acc076" href="info:pmid/29781385" />
+<authors>Huang DT, Yealy DM, Filbin MR, Brown AM, Chang CH, Doi Y, Donnino MW, Fine J, Fine MJ, Fischer MA, Holst JM, Hou PC, Kellum JA, Khan F, Kurz MC, Lotfipour S, LoVecchio F, Peck-Palmer OM, Pike F, Prunty H, Sherwin RL, Southerland L, Terndrup T, Weissfeld LA, Yabes J, Angus DC, ProACT Investigators.</authors>
+<title>Procalcitonin-guided use of antibiotics for lower respiratory tract infection.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>236&#x2013;249.</pages>
+</reference>
+<reference id="pubmed30461655">
+<accessionId id="acc077" href="info:pmid/30461655" />
+<authors>Yoon YK, Kim MJ, Yang KS, Ham SY.</authors>
+<title>The role of serum procalcitonin in the differential diagnosis of pneumonia from pulmonary edema among the patients with pulmonary infiltrates on chest radiography.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e13348.</pages>
+</reference>
+<reference id="pubmed30290639">
+<accessionId id="acc078" href="info:pmid/30290639" />
+<authors>Jiang J, Yang J, Jin Y, Cao J, Lu Y.</authors>
+<title>Role of qSOFA in predicting mortality of pneumonia: a systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e12634.</pages>
+</reference>
+<reference id="pubmed30154120">
+<accessionId id="acc079" href="info:pmid/30154120" />
+<authors>Lipsett SC, Monuteaux MC, Bachur RG, Finn N, Neuman MI.</authors>
+<title>Negative chest radiography and risk of pneumonia.</title>
+<source>Pediatrics</source>
+<pubdate>2018</pubdate>
+<volume>142</volume>
+<pages />
+</reference>
+<reference id="pubmed30921179">
+<accessionId id="acc080" href="info:pmid/30921179" />
+<authors>Huang J, Guo J, Li H, Huang W, Zhang T.</authors>
+<title>Efficacy and safety of adjunctive corticosteroids therapy for patients with severe community-acquired pneumonia: a systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e14636.</pages>
+</reference>
+<reference id="pubmed31261585">
+<accessionId id="acc081" href="info:pmid/31261585" />
+<authors>Jiang S, Liu T, Hu Y, Li R, Di X, Jin X, Wang Y, Wang K.</authors>
+<title>Efficacy and safety of glucocorticoids in the treatment of severe community-acquired pneumonia: a meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e16239.</pages>
+</reference>
+<reference id="poem220129">
+<accessionId id="acc082" href="info:wiley/eep-poem/220129" />
+<accessionId id="acc082b" href="info:pmid/31560372" />
+<authors>Alexander E, Goldberg L, Das AF, Moran GJ, Sandrock C, Gasink LB, Spera P, Sweeney C, Paukner S, Wicha WW, Gelone SP, Schranz J.</authors>
+<title>Oral lefamulin vs moxifloxacin for early clinical response among adults with community-acquired bacterial pneumonia: the LEAP 2 randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="poem211219">
+<accessionId id="acc083" href="info:wiley/eep-poem/211219" />
+<accessionId id="acc083b" href="info:pmid/31573350" />
+<authors>Metlay JP, Waterer GW, Long AC, Anzueto A, Brozek J, Crothers K, Cooley LA, Dean NC, FinM, Flanders, Griffin MR, Metersky ML, Musher DM, Restrepo MI, Whitney CG.</authors>
+<title>Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2019</pubdate>
+<volume>200</volume>
+<pages>e45&#x2013;e67.</pages>
+</reference>
+<reference id="pubmed30993633">
+<accessionId id="acc084" href="info:pmid/30993633" />
+<authors>Ebell MH, Walsh ME, Fahey T, Kearney M, Marchello C.</authors>
+<title>Meta-analysis of calibration, discrimination, and stratum-specific likelihood ratios for the CRB-65 score.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2019</pubdate>
+<volume>34</volume>
+<pages>1304&#x2013;1313.</pages>
+</reference>
+<reference id="poem220518">
+<accessionId id="acc085" href="info:wiley/eep-poem/220518" />
+<accessionId id="acc085b" href="info:pmid/32100377" />
+<authors>Ebell MH, Bentivegna M, Cai X, Hulme C, Kearney M.</authors>
+<title>Accuracy of biomarkers for the diagnosis of adult community-acquired pneumonia: a meta-analysis.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2020</pubdate>
+<volume>27</volume>
+<pages>195&#x2013;206.</pages>
+</reference>
+<reference id="pubmed29696826">
+<accessionId id="acc086" href="info:pmid/29696826" />
+<authors>Balk DS, Lee C, Schafer J, Welwarth J, Hardin J, Novack V, Yarza S, Hoffmann B.</authors>
+<title>Lung ultrasound compared to chest X-ray for diagnosis of pediatric pneumonia: a meta-analysis.</title>
+<source>Pediatr Pulmonol</source>
+<pubdate>2018</pubdate>
+<volume>53</volume>
+<pages>1130&#x2013;1139.</pages>
+</reference>
+<reference id="pubmed28099332">
+<accessionId id="acc087" href="info:pmid/28099332" />
+<authors>Long L, Zhao HT, Zhang ZY, Wang GY, Zhao HL.</authors>
+<title>Lung ultrasound for the diagnosis of pneumonia in adults: a meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2017</pubdate>
+<volume>96</volume>
+<pages>e5713.</pages>
+</reference>
+<reference id="pubmed29189351">
+<accessionId id="acc088" href="info:pmid/29189351" />
+<authors>Orso D, Guglielmo N, Copetti R.</authors>
+<title>Lung ultrasound in diagnosing pneumonia in the emergency department: a systematic review and meta-analysis.</title>
+<source>Eur J Emerg Med</source>
+<pubdate>2018</pubdate>
+<volume>25</volume>
+<pages>312&#x2013;321.</pages>
+</reference>
+<reference id="pubmed32481378">
+<accessionId id="acc089" href="info:pmid/32481378" />
+<authors>Qiu JL, Huang L, Shao MY, Chai YN, Zhang HJ, Li XF, Sun XX, Zhao QY, Duan F, Zhai WS.</authors>
+<title>Efficacy and safety of azithromycin combined with glucocorticoid on refractory Mycoplasma pneumoniae pneumonia in children: A PRISMA-compliant systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e20121.</pages>
+</reference>
+<reference id="pubmed31593111">
+<accessionId id="acc090" href="info:pmid/31593111" />
+<authors>Zhou H, Lan T, Guo S.</authors>
+<title>Stratified and prognostic value of admission lactate and severity scores in patients with community-acquired pneumonia in emergency department: A single-center retrospective cohort study.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e17479.</pages>
+</reference>
+<reference id="poem220818">
+<accessionId id="acc091" href="info:wiley/eep-poem/220818" />
+<accessionId id="acc091b" href="info:pmid/32609980" />
+<authors>Jehan F, Nisar I, Kerai S, Balouch B, Brown N, Rahman N, Rizvi A, Shafiq Y, Zaidi AKM.</authors>
+<title>Randomized trial of amoxicillin for pneumonia in Pakistan.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>24&#x2013;34.</pages>
+</reference>
+<reference id="pubmed32609979">
+<accessionId id="acc092" href="info:pmid/32609979" />
+<authors>Ginsburg AS, Mvalo T, Nkwopara E, McCollum ED, Phiri M, Schmicker R, Hwang J, Ndamala CB, Phiri A, Lufesi N, May S.</authors>
+<title>Amoxicillin for 3 or 5 days for chest-indrawing pneumonia in Malawian children.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>13&#x2013;23.</pages>
+</reference>
+<reference id="pubmed28376442">
+<accessionId id="acc093" href="info:pmid/28376442" />
+<authors>Marchello C, Dale AP, Thai TN, Han DS, Ebell MH.</authors>
+<title>Prevalence of a typical pathogens in patients with cough and community-acquired pneumonia: a meta-analysis.</title>
+<source>Annals of family medicine</source>
+<pubdate>2016</pubdate>
+<volume>14</volume>
+<pages>552&#x2013;566.</pages>
+</reference>
+<reference id="poem221012">
+<accessionId id="acc094" href="info:wiley/eep-poem/221012" />
+<accessionId id="acc094b" href="info:pmid/32615062" />
+<authors>Tsou PY, Rafael J, Ma YK, Wang YH, Raj S, Encalada S, Deanehan JK.</authors>
+<title>Diagnostic accuracy of procalcitonin for bacterial pneumonia in children - a systematic review and meta-analysis.</title>
+<source>Infect Dis (Lond)</source>
+<pubdate>2020</pubdate>
+<volume>52</volume>
+<pages>683&#x2013;697.</pages>
+</reference>
+<reference id="pubmed32561442">
+<accessionId id="acc095" href="info:pmid/32561442" />
+<authors>Ramirez JA, Musher DM, Evans SE, Dela Cruz C, Crothers KA, Hage CA, Aliberti S, Anzueto A, Arancibia F, Arnold F, Azoulay E, Blasi F, Bordon J, Burdette S, Cao B, Cavallazzi R, Chalmers J, Charles P, Chastre J, Claessens YE, Dean N, Duval X, Fartoukh M, Feldman C, File T, Froes F, Furmanek S, Gnoni M, Lopardo G, Luna C, Maruyama T, Menendez R, Metersky M, Mildvan D, Mortensen E, Niederman MS, Pletz M, Rello J, Restrepo MI, Shindo Y, Torres A, Waterer G, Webb B, Welte T, Witzenrath M, Wunderink R.</authors>
+<title>Treatment of Community-Acquired Pneumonia in Immunocompromised Adults: A Consensus Statement Regarding Initial Strategies.</title>
+<source>Chest</source>
+<pubdate>2020</pubdate>
+<volume>158</volume>
+<pages>1896&#x2013;1911.</pages>
+</reference>
+<reference id="pubmed35606120">
+<accessionId id="acc096" href="info:pmid/35606120" />
+<authors>Rodr&#x00ED;guez-Contreras FJ, Calvo-Cebri&#x00E1;n A, D&#x00ED;az-L&#x00E1;zaro J, Cruz-Arn&#x00E9;s M, Le&#x00F3;n-V&#x00E1;zquez F, Del Carmen Lob&#x00F3;n-Ag&#x00FA;ndez M, Palau-Cuevas FJ, Henares-Garc&#x00ED;a P, Gavil&#x00E1;n-Mart&#x00ED;nez F, Fern&#x00E1;ndez-Plaza S, Prieto-Zancudo C.</authors>
+<title>Lung Ultrasound Performed by Primary Care Physicians for Clinically Suspected Community-Acquired Pneumonia: A Multicenter Prospective Study.</title>
+<source>Ann Fam Med</source>
+<pubdate>2022 May-Jun</pubdate>
+<volume>20</volume>
+<pages>227&#x2013;236.</pages>
+</reference>
+<reference id="pubmed34864628">
+<accessionId id="acc097" href="info:pmid/34864628" />
+<authors>Lee BK, Ryu S, Oh SK, Ahn HJ, Jeon SY, Jeong WJ, Cho YC, Park JS, You YH, Kang CS.</authors>
+<title>Lactate dehydrogenase to albumin ratio as a prognostic factor in lower respiratory tract infection patients.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2022</pubdate>
+<volume>52</volume>
+<pages>54&#x2013;58.</pages>
+</reference>
+<reference id="pubmed36253753">
+<accessionId id="acc098" href="info:pmid/36253753" />
+<authors>Ding F, Han L, Yin D, Zhou Y, Ji Y, Zhang P, Wu W, Chen J, Wang Z, Fan X, Zhang G, Zhang M.</authors>
+<title>Development and validation of a simple tool composed of items on dyspnea, respiration rates, and C-reactive protein for pneumonia prediction among acute febrile respiratory illness patients in primary care settings.</title>
+<source>BMC Med</source>
+<pubdate>2022</pubdate>
+<volume>20</volume>
+<pages>360.</pages>
+</reference>
+<reference id="pubmed35748157">
+<accessionId id="acc099" href="info:pmid/35748157" />
+<authors>Ramgopal S, Lorenz D, Navanandan N, Cotter JM, Shah SS, Ruddy RM, Ambroggio L, Florin TA.</authors>
+<title>Validation of Prediction Models for Pneumonia Among Children in the Emergency Department.</title>
+<source>Pediatrics</source>
+<pubdate>2022</pubdate>
+<volume>150</volume>
+<pages />
+</reference>
+<reference id="pubmed36374480">
+<accessionId id="acc100" href="info:pmid/36374480" />
+<authors>Li Q, Zhou Q, Florez ID, Mathew JL, Shang L, Zhang G, Tian X, Fu Z, Liu E, Luo Z, Chen Y.</authors>
+<title>Short-Course vs Long-Course Antibiotic Therapy for Children With Nonsevere Community-Acquired Pneumonia: A Systematic Review and Meta-analysis.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2022</pubdate>
+<volume>176</volume>
+<pages>1199&#x2013;1207.</pages>
+</reference>
+<reference id="pubmed36087797">
+<accessionId id="acc101" href="info:pmid/36087797" />
+<authors>Saleem N, Kulkarni A, Snow TAC, Ambler G, Singer M, Arulkumaran N.</authors>
+<title>Effect of Corticosteroids on Mortality and Clinical Cure in Community-Acquired Pneumonia: A Systematic Review, Meta-analysis, and Meta-regression of Randomized Control Trials.</title>
+<source>Chest</source>
+<pubdate>2023</pubdate>
+<volume>163</volume>
+<pages>484&#x2013;497.</pages>
+</reference>
+<reference id="poem358547">
+<accessionId id="acc102" href="info:wiley/eep-poem/358547" />
+<accessionId id="acc102b" href="info:pmid/37018468" />
+<authors>Walsh EE, P&#x00E9;rez Marc G, Zareba AM, Falsey AR, Jiang Q, Patton M, Polack FP, Llapur C, Doreski PA, Ilangovan K, R&#x00E4;met M, Fukushima Y, Hussen N, Bont LJ, Cardona J, DeHaan E, Castillo Villa G, Ingilizova M, Eiras D, Mikati T, Shah RN, Schneider K, Cooper D, Koury K, Lino MM, Anderson AS, Jansen KU, Swanson KA, Gurtman A, Gruber WC, Schmoele-Thoma B, RENOIR Clinical Trial Group.</authors>
+<title>Efficacy and Safety of a Bivalent RSV Prefusion F Vaccine in Older Adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>1465&#x2013;1477.</pages>
+</reference>
+<reference id="poem387707">
+<accessionId id="acc103" href="info:wiley/eep-poem/387707" />
+<accessionId id="acc103b" href="info:pmid/36942789" />
+<authors>Dequin PF, Meziani F, Quenot JP, Kamel T, Ricard JD, Badie J, Reignier J, Heming N, Plantef&#x00E8;ve G, Souweine B, Voiriot G, Colin G, Frat JP, Mira JP, Barbarot N, Fran&#x00E7;ois B, Louis G, Gibot S, Guitton C, Giacardi C, Hraiech S, Vimeux S, L'Her E, Faure H, Herbrecht JE, Bouisse C, Joret A, Terzi N, Gacouin A, Quentin C, Jourdain M, Leclerc M, Coffre C, Bourgoin H, Lengell&#x00E9; C, Caille-F&#x00E9;n&#x00E9;rol C, Giraudeau B, Le Gouge A, CRICS-TriGGERSep Network.</authors>
+<title>Hydrocortisone in Severe Community-Acquired Pneumonia.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>1931&#x2013;1941.</pages>
+</reference>
+<reference id="pubmed37226686">
+<accessionId id="acc104" href="info:pmid/37226686" />
+<authors>Gao Y, Liu M, Yang K, Zhao Y, Tian J, Pernica JM, Guyatt G.</authors>
+<title>Shorter Versus Longer-term Antibiotic Treatments for Community-Acquired Pneumonia in Children: A Meta-analysis.</title>
+<source>Pediatrics</source>
+<pubdate>2023</pubdate>
+<volume>151</volume>
+<pages />
+</reference>
+<reference id="pubmed37076606">
+<accessionId id="acc105" href="info:pmid/37076606" />
+<authors>Pitre T, Abdali D, Chaudhuri D, Pastores SM, Nei AM, Annane D, Rochwerg B, Zeraatkar D.</authors>
+<title>Corticosteroids in Community-Acquired Bacterial Pneumonia: a Systematic Review, Pairwise and Dose-Response Meta-Analysis.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2023</pubdate>
+<volume>38</volume>
+<pages>2593&#x2013;2606.</pages>
+</reference>
+<reference id="poem363888">
+<accessionId id="acc106" href="info:wiley/eep-poem/363888" />
+<accessionId id="acc106b" href="info:pmid/38526476" />
+<authors>Gupta AB, Flanders SA, Petty LA, Gandhi TN, Pulia MS, Horowitz JK, Ratz D, Bernstein SJ, Malani AN, Patel PK, Hofer TP, Basu T, Chopra V, Vaughn VM.</authors>
+<title>Inappropriate Diagnosis of Pneumonia Among Hospitalized Adults.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>184</volume>
+<pages>548&#x2013;556.</pages>
+</reference>
+<reference id="poem308371">
+<accessionId id="acc107" href="info:wiley/eep-poem/308371" />
+<accessionId id="acc107b" href="info:pmid/38360961" />
+<authors>Kurotschka PK, Bentivegna M, Hulme C, Ebell MH.</authors>
+<title>Identifying the Best Initial Oral Antibiotics for Adults with Community-Acquired Pneumonia: A Network Meta-Analysis.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>39</volume>
+<pages>1214&#x2013;1226.</pages>
+</reference>
+<reference id="poem359388">
+<accessionId id="acc108" href="info:wiley/eep-poem/359388" />
+<accessionId id="acc108b" href="info:pmid/38240492" />
+<authors>Chaudhuri D, Nei AM, Rochwerg B, Balk RA, Asehnoune K, Cadena R, Carcillo JA, Correa R, Drover K, Esper AM, Gershengorn HB, Hammond NE, Jayaprakash N, Menon K, Nazer L, Pitre T, Qasim ZA, Russell JA, Santos AP, Sarwal A, Spencer-Segal J, Tilouche N, Annane D, Pastores SM.</authors>
+<title>2024 Focused Update: Guidelines on Use of Corticosteroids in Sepsis, Acute Respiratory Distress Syndrome, and Community-Acquired Pneumonia.</title>
+<source>Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>52</volume>
+<pages>e219&#x2013;e233.</pages>
+</reference>
+<reference id="pubmed40679934">
+<accessionId id="acc109" href="info:pmid/40679934" />
+<authors>Jones BE, Ramirez JA, Oren E, Soni NJ, Sullivan LR, Restrepo MI, Musher DM, Erstad BL, Pickens C, Vaughn VM, Helgeson SA, Crothers K, Metlay JP, Bissell B, Cao B, Chalmers JD, Dela Cruz CS, Gendlina I, Hojat LS, Laguio-Vila M, Liang SY, Waterer GW, Paine M, Hawkins C, Wilson K.</authors>
+<title>Diagnosis and Management of Community-acquired Pneumonia. An Official American Thoracic Society Clinical Practice Guideline.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2025</pubdate>
+<pages />
+</reference>
+<reference id="pubmed41325621">
+<accessionId id="acc110" href="info:pmid/41325621" />
+<accessionId id="acc110b" href="info:wiley/poem/308155" />
+<authors>Soumare A, Kapfer T, Botrel T, et al.</authors>
+<title>Systemic corticosteroids, mortality, and infections in pneumonia and acute respiratory distress syndrome.</title>
+<source>Ann Intern Med</source>
+<pubdate>2026</pubdate>
+<volume>179</volume>
+<pages>67&#x2013;80.</pages>
+</reference>
+<reference id="pubmed41159889">
+<accessionId id="acc111" href="info:pmid/41159889" />
+<accessionId id="acc111b" href="info:wiley/poem/313965" />
+<authors>Lucinde RK, Gathuri H, Mwaniki P, et al.</authors>
+<title>A pragmatic trial of glucocorticoids for community-acquired pneumonia.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>2187&#x2013;2197.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>The CURB-65 Score (Range 0-5 Points) and CRB-65 Score (Range 0-4 Points; Omits BUN) for Prognosis of Pneumonia.<sup>a</sup></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Characteristic</th>
+<th align="left" colspan="1">Points</th>
+<th align="left" colspan="1">&#x00A0;</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Confusion</td>
+<td align="left" colspan="1">1</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">BUN &gt;19 mg&#x002F;dL (&gt;7 mmol&#x002F;L)</td>
+<td align="left" colspan="1">1</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Respiratory rate 30&#x002F;min</td>
+<td align="left" colspan="1">1</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Systolic BP &lt;90 mm Hg <em>OR</em> diastolic BP &#x2264;60 mm Hg</td>
+<td align="left" colspan="1">1</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Age 65 years</td>
+<td align="left" colspan="1">1</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Total CURB-65:</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Total CRB-65 (omit BUN):</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>CURB-65 Score: Mortality (&#x0025;)</strong></td>
+<td align="left" colspan="1"><strong>CRB-65 Score: Mortality (&#x0025;)</strong></td>
+<td align="left" colspan="1"><strong>Recommendation<sup>b</sup></strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1">0-1 (0.6-2.7)</td>
+<td align="left" colspan="1">0 (0.9)</td>
+<td align="left" colspan="1">Consider outpatient treatment</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 (6.8)</td>
+<td align="left" colspan="1">1 (5.2)</td>
+<td align="left" colspan="1">Short stay inpatient or closely supervised outpatient treatment</td>
+</tr>
+<tr>
+<td align="left" colspan="1">3 (14)</td>
+<td align="left" colspan="1">2 (12)</td>
+<td align="left" colspan="1">Increased risk of death: strongly consider hospitalization</td>
+</tr>
+<tr>
+<td align="left" colspan="1">4 or 5 (28)</td>
+<td align="left" colspan="1">3 to 4 (31)</td>
+<td align="left" colspan="1">Severe pneumonia: hospitalize, consider intensive care</td>
+</tr>
+</table>
+<sup>a</sup> Data are a weighted average from two validation studies (Aujesky D, Auble TE, Yealy DM, et al. Prospective comparison of three validated prediction rules for prognosis in community-acquired pneumonia. <em>Am J Med</em> 2005;<strong>118</strong>:384&#x2013;392<xref ref="pubmed15808136" resource="acc011" />; and Lim WS, van der Eerden MM, Laing R, et al. Defining community acquired pneumonia severity on presentation to hospital: an international derivation and validation study. <em>Thorax</em> 2003;<strong>58</strong>:377&#x2013;382.<xref ref="pubmed12728155" resource="acc016" />) as well as recommendations consistent with British Thoracic Society guidelines for pneumonia, 2009 update.<xref ref="web001" />
+<sup>b</sup>Clinical judgment can always overrule the guideline recommendation.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Treatment of Community-Acquired Pneumonia (2019 IDSA guidelines).<xref ref="poem211219" resource="acc083" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Clinical Situation</th>
+<th align="left" colspan="1">Recommended Antibiotic Options</th>
+</tr>
+<tr>
+<th align="left" colspan="1">Outpatient</th>
+<th align="left" colspan="1">&#x00A0;</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Outpatient with no comorbidities or risk factors for MRSA or pseudomonas</td>
+<td align="left" colspan="1">Amoxicillin, doxycycline or (if &lt;25&#x0025; hmacrolide resistance locally) a macrolide.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Outpatient with comorbidities (chronic heart, lung, liver, or renal disease; diabetes mellitus; alcoholism; malignancy; or asplenia)</td>
+<td align="left" colspan="1">1. Amoxicillin&#x002F;clavulanate or cephalosporin (Cefopodoxime 200 mg bid or cefuroxime 500 mg bid) AND macrolide or doxycycline OR2. Monotherapy with respiratory fluoroquinolone (levofloxacin 750 mg daily, moxifloxacin 400 mg daily, or gemifloxacin 320 mg daily)</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Inpatient</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Inpatients with non-severe CAP and no risk factors for MRSA or pseudomonas</td>
+<td align="left" colspan="1">Beta-lactam (ampicillin 1 sulbactam 1.5&#x2013;3 g every 6 h, cefotaxime 1&#x2013;2 g every 8 h, ceftriaxone 1&#x2013;2 g daily, or ceftaroline 600 mg every 12 h) and a macrolide (azithromycin 500 mg daily or clarithromycin 500 mg bid) ORRespiratory fluoroquinolone (levofloxacin 750 mg daily or moxifloxacin 400 mg daily)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Inpatient with severe CAP</td>
+<td align="left" colspan="1">Macrolide + beta-lactam OR respiratory fluoroquinolone + beta-lactam</td>
+</tr>
+<tr>
+<td align="left" colspan="1">For inpatients with risk factors for MRSA, add coverage at right</td>
+<td align="left" colspan="1">Vancomycin (15 mg&#x002F;kg every 12 hours, adjust based on levels) or linezolid (600 mg q 12 hours)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Inpatient with risk factors for pseudomonas, add coverage as shown at right</td>
+<td align="left" colspan="1">Piperacillin-tazobactam (4.5 g every 6 h), cefepime (2 g every 8 h), ceftazidime (2 g every 8 h), aztreonam (2 g every 8 h), meropenem (1 g every 8 h), or imipenem (500 mg every 6 h)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Influenza A diagnosis</td>
+<td align="left" colspan="1">Oseltamivir or zanamivir but only if within 48 hours of symptoms</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -92,11 +92,10 @@ async function startMonthly() {
 function renderList() {
   const q = $('ceFilter').value.trim().toLowerCase();
   const show = $('ceShow').value;
-  const month = monthly ? Number(monthly.month.slice(5, 7)) : 0;
   const list = $('ceList');
   list.textContent = '';
   const matches = chapters.filter(c => (!q || c.title.toLowerCase().includes(q)) &&
-    (show === 'all' || (show === 'month' && c.plan.month === month) || (show === 'mine' && c.plan.editor === myUsername) ||
+    (show === 'all' || (show === 'month' && c.plan.due) || (show === 'mine' && c.plan.editor === myUsername) ||
       (show === 'review' && c.draft && (c.draft.hasState || busy({ status: c.draft.status })))));
   $('ceCount').textContent = `${matches.length} of ${chapters.length} chapter${chapters.length === 1 ? '' : 's'}`;
   for (const c of matches) {
@@ -106,7 +105,7 @@ function renderList() {
     b.appendChild(el('span', 'ce-list-title', c.title));
     const tags = el('span', 'ce-list-tags');
     tags.appendChild(el('span', 'ce-tag', `Updated ${c.updated || '—'}`));
-    if (c.plan.month) tags.appendChild(el('span', 'ce-tag', `Due ${MONTHS[c.plan.month - 1].slice(0, 3)}`));
+    if (c.plan.nextDue) tags.appendChild(el('span', 'ce-tag', `Due ${dueText(c.plan)}`));
     if (c.plan.editor) tags.appendChild(el('span', 'ce-tag', (editors.find(e => e.username === c.plan.editor) || {}).name || c.plan.editor));
     if (c.draft && c.draft.status === 'running') tags.appendChild(el('span', 'ce-tag ce-tag-busy', 'Claude updating…'));
     else if (c.draft && c.draft.status === 'queued') tags.appendChild(el('span', 'ce-tag ce-tag-busy', 'In monthly update…'));
@@ -218,7 +217,7 @@ function render() {
 
 // Citations and SORT ratings are single, non-editable units; citations show their number.
 function prepareAtoms(root) {
-  root.querySelectorAll('a.cite, button.sort-tag, a.fig-link').forEach(a => { a.contentEditable = 'false'; });
+  root.querySelectorAll('a.cite, button.sort-tag, a.fig-link, a.table-link').forEach(a => { a.contentEditable = 'false'; });
   root.querySelectorAll('.tc-del:not(del)').forEach(e => { e.contentEditable = 'false'; });
   renumber();
 }
@@ -928,6 +927,10 @@ function deleteTable() {
 }
 
 // ---------- The chapter's update plan ----------
+const YEARS_TEXT = { every: 'every year', even: 'every other year', odd: 'every other year' };
+// "Mar 2027" (the next month the chapter is due).
+const dueText = p => `${MONTHS[Number(p.nextDue.slice(5, 7)) - 1].slice(0, 3)} ${p.nextDue.slice(0, 4)}`;
+
 function renderPlan() {
   const c = chapters.find(x => x.id === current.id);
   const plan = (c && c.plan) || { month: null, editor: null, searchTerms: '' };
@@ -937,20 +940,23 @@ function renderPlan() {
   month.textContent = '';
   MONTHS.forEach((m, i) => { const o = el('option', '', m); o.value = String(i + 1); month.appendChild(o); });
   month.value = String(plan.month || 1);
+  $('cePlanYears').value = plan.years || 'every';
   const ed = $('cePlanEditor');
   ed.textContent = '';
   const none = el('option', '', 'No one yet');
   none.value = '';
   ed.appendChild(none);
   for (const e of editors) { const o = el('option', '', e.name); o.value = e.username; ed.appendChild(o); }
+  // An editor from the assignment spreadsheet who has no account yet.
+  if (plan.editor && !editors.some(e => e.username === plan.editor)) { const o = el('option', '', `${plan.editor} (no account)`); o.value = plan.editor; ed.appendChild(o); }
   ed.value = plan.editor || '';
   $('cePlanResult').textContent = '';
-  $('cePlanSummary').textContent = `Update plan: ${MONTHS[(plan.month || 1) - 1]}${plan.editor ? `, ${(editors.find(e => e.username === plan.editor) || {}).name || plan.editor}` : ', no editor assigned'}${plan.searchTerms ? ', own search terms' : ''}`;
+  $('cePlanSummary').textContent = `Update plan: ${MONTHS[(plan.month || 1) - 1]}, ${YEARS_TEXT[plan.years] || 'every year'}${plan.nextDue ? ` (next ${dueText(plan)})` : ''}${plan.editor ? `, ${(editors.find(e => e.username === plan.editor) || {}).name || plan.editor}` : ', no editor assigned'}${plan.searchTerms ? ', own search terms' : ''}`;
 }
 
 async function savePlan() {
   try {
-    await api(`/chapter-edit/${current.id}/plan`, { method: 'PUT', body: { searchTerms: $('cePlanTerms').value, month: $('cePlanMonth').value, editor: $('cePlanEditor').value } });
+    await api(`/chapter-edit/${current.id}/plan`, { method: 'PUT', body: { searchTerms: $('cePlanTerms').value, month: $('cePlanMonth').value, years: $('cePlanYears').value, editor: $('cePlanEditor').value } });
     await loadList();
     renderPlan();
     $('cePlanResult').textContent = 'Plan saved.';

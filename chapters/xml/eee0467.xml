@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Ectopic pregnancy</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0467</topic_id>
+<topic_comment />
+<topic_lastupdated>01/08/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Patrick H. Ginn, MD, MBA</author_name>
+<author_title>Program Director</author_title>
+<author_department />
+<author_institution>Waukesha Family Medicine Residency at ProHealth Care</author_institution>
+<author_email>patrick.ginn&#x0040;phci.org</author_email>
+<author_phone_office>262-928-7330</author_phone_office>
+<author_phone_home />
+<author_phone_fax>262-548-3820</author_phone_fax>
+<author_street1> 210 NW Barstow Street, Suite 301</author_street1>
+<author_street2 />
+<author_city>Waukesha</author_city>
+<author_state>WI</author_state>
+<author_zip>53188</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kate Rowland, MD, MS</editor_name>
+<editor_title>Associate Professor</editor_title>
+<editor_institution>Rush University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>History and physical findings cannot reliably exclude or confirm the diagnosis of ectopic pregnancy (EP). <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Use diagnostic strategies that include both pelvic ultrasound and beta-human chorionic gonadotropin (hCG) measurements to diagnose EP. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Plan for referral for surgical or medical intervention in most patients with EP. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Systemic methotrexate (MTX) regimens are an acceptable alternative in selected patients. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Regardless of which type of treatment is employed, following serial beta-hCG levels until undetectable is necessary to ensure complete resolution. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Ectopic pregnancy (EP) is any pregnancy (fertilized ovum) outside the uterine cavity.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>EP occurs in 19.7&#x002F;1000 reported pregnancies per year.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Leading cause of pregnancy-related death in first trimester.</listitem>
+<listitem>Accounts for 9&#x0025; of all pregnancy-related deaths.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Implantation of fertilized ovum in a location other than uterine cavity.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>EP occurs when a fertilized ovum implants in any location other than the endometrium.</listitem>
+<listitem>Most EPs occur in the fallopian tube, although other sites such as a cesarean scar, abdominal cavity, ovary, and cervix are also possible.</listitem>
+<listitem>Progressive growth and development of the pregnancy may eventually cause symptoms related to distention of a hollow viscus or hemoperitoneum.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Prior tubal surgery</Risk_Name>
+<Risk_OR>21 (9.3-47)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Previous EP</Risk_Name>
+<Risk_OR>8.3 (6.0-11.5)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>In utero diethylstilboestrol exposure</Risk_Name>
+<Risk_OR>5.6 (2.4-13)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Current intrauterine device (IUD) use</Risk_Name>
+<Risk_OR>4.5-45</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Known tubal pathology</Risk_Name>
+<Risk_OR>2.5-25</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Prior pelvic inflammatory disease</Risk_Name>
+<Risk_OR>2.5 (2.1-3.0)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Prior Chlamydia trachomatis infection</Risk_Name>
+<Risk_OR>3.0 (2.4-3.9)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Any history of smoking</Risk_Name>
+<Risk_OR>2.5 (1.8-3.4)</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed8749596" resource="acc007" /><xref ref="pubmed8641479" resource="acc008" /><xref ref="pubmed31895782" resource="acc017" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Use both <resourceLink href="info:pmid/9853884">pelvic ultrasound and beta-hCG measurements</resourceLink> to make the diagnosis of EP. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11239658" resource="acc006" /></listitem>
+<listitem>Do not rely on history or physical findings to confirm or exclude the diagnosis of EP. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10036342" resource="acc002" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Spontaneous abortion (miscarriage)</Differential_Name>
+<Differential_Features>Evidence of intrauterine pregnancy (IUP); declining beta-hCG</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute appendicitis</Differential_Name>
+<Differential_Features>May not be pregnant; often associated with fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Ovarian torsion</Differential_Name>
+<Differential_Features>May not be pregnant; pain may be intermittent, ultrasound including Doppler flow findings</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pelvic inflammatory disease</Differential_Name>
+<Differential_Features>May not be pregnant; purulent cervical discharge, fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Nephrolithiasis&#x002F;urinary calculi</Differential_Name>
+<Differential_Features>May not be pregnant; hematuria</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Ruptured ovarian cyst</Differential_Name>
+<Differential_Features>May not be pregnant</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Consider EP in any woman of reproductive age who presents with vaginal bleeding, lower abdominal pain, or adnexal tenderness. Women in the first trimester of pregnancy with vaginal bleeding, abdominal pain, and adnexal or cervical motion tenderness should have a diagnostic evaluation for EP.</listitem>
+<listitem><resourceLink href="info:wiley/eep-hp/241">Syncope, vomiting during pain, shoulder pain, diffuse abdominal pain, pain radiating to the stomach</resourceLink> have the highest positive likelihood ratios for tubal rupture in women with ectopic pregnancy. In this study, the presence of one or more of vomiting during pain, diffuse abdominal pain, acute pain for longer than 30 minutes, and flashing pain had 93&#x0025; sensitivity (95&#x0025; confidence interval [CI], 84&#x0025;-100&#x0025;) and 44&#x0025; specificity (95&#x0025; CI, 35&#x0025;-53&#x0025;) for tubal rupture, with a negative likelihood ratio for ruling out tubal rupture of 0.16.<xref ref="hp241" resource="acc011" /></listitem>
+<listitem>History alone cannot make the diagnosis, however. None of the components of the patient history have a positive likelihood ratio (LR+) over 1.5.<xref ref="pubmed23613077" resource="acc014" /></listitem>
+<listitem>There is no association between prior cesarean section and subsequent EP, although data quality are poor.<xref ref="pubmed23398899" resource="acc015" /></listitem>
+<listitem><resourceLink href="info:pmid/3535519">Uterine size &#x2264;8 weeks, history of tubal ligation, positive peritoneal signs, IUD use within past year, and history of infertility</resourceLink> all significantly increase risk of EP.</listitem>
+<listitem>The physical examination findings of cervical motion tenderness (LR+ 4.9; 95&#x0025; CI, 1.7-14), an adnexal mass (LR+ 2.4; 95&#x0025; CI, 1.6-3.7), and adnexal tenderness (LR+ 1.9; 95&#x0025; CI, 1.0-3.5) also increase the likelihood of ectopic pregnancy.<xref ref="pubmed23613077" resource="acc014" /></listitem>
+<listitem>Based on the low LR+ for history or clinical findings, one should not rely on these to confirm or especially to exclude the diagnosis of EP.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><resourceLink href="info:pmid/9853884">Ultrasound</resourceLink> can be useful for both excluding and supporting the diagnosis of EP.</listitem>
+<listitem>In a systematic review, emergency department-targeted ultrasound was highly specific (&gt;98&#x0025;) for IUP and appears to reduce the risk of missed EP.<xref ref="pubmed19594975" resource="acc009" /> Using a high-frequency linear transducer may improve the sensitivity of non-transvaginal ultrasounds for EP.<xref ref="pubmed36063623" resource="acc020" /></listitem>
+<listitem>The presence of an adnexal mass in the absence of an intrauterine pregnancy on transvaginal sonography has a LR+ of 111 (95&#x0025; CI, 12-1028) for EP.<xref ref="pubmed23613077" resource="acc014" /></listitem>
+<listitem>Patients with indeterminate ultrasound findings especially benefit from measuring serial beta-hCG levels looking for direction and magnitude of change.</listitem>
+<listitem>Based on the NICE 2021 guideline, women with an increase in serum hCG concentration greater than 63&#x0025; after 48 hours are likely to have a developing intrauterine pregnancy and should be offered a transvaginal ultrasound to determine pregnancy location in 7 to 14 days.<xref ref="pubmed23638497" resource="acc013" /> Women with a decrease in serum hCG concentration greater than 50&#x0025; after 48 hours are unlikely to have a continued pregnancy and should be asked to take a urine pregnancy test 14 days after the second serum hCG test. If the test is negative. no further action is needed. Women with values in between and women whose pregnancy test is positive after 14 days should be referred for clinical review in an early pregnancy assessment service within 24 hours. Information and contact information should be provided to all women.</listitem>
+<listitem>Combining <resourceLink href="info:pmid/9853884">pelvic ultrasound</resourceLink> with hCG measurement appears to be the most effective approach to the diagnosis of EP. Options include stat pelvic ultrasound followed by serial hCG if ultrasound is nondiagnostic, or stat quantitative serum hCG followed by pelvic ultrasound if hCG is positive.<xref ref="pubmed11239658" resource="acc006" /></listitem>
+<listitem>Strategies using progesterone are not recommended due to insufficient sensitivity, which can lead to missed diagnosis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <resourceLink href="info:wiley/eep-rule/113">clinical decision rule</resourceLink> uses history and physical findings along with Doppler assessment of heartbeat to stratify women as low risk (0.5&#x0025; risk of EP), moderate risk (7.3&#x0025;), or high risk (29&#x0025;).</listitem>
+<listitem>If EP is suspected clinically, pursue a full diagnostic evaluation.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Consider EP in any woman of reproductive age presenting with vaginal bleeding, abdominal pain, adnexal tenderness, or cervical motion tenderness. Be especially suspicious of EP in women with one or more risk factors such as previous EP or tubal surgery. However, about one third of women with an EP have no known risk factors.<xref ref="pubmed23638497" resource="acc013" /></listitem>
+<listitem>Do not rely on physical examination findings to exclude the presence of EP. In any woman with a suspected EP, prompt ultrasound and laboratory evaluation are necessary.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>5</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>19</Dx_ID>
+<Dx_ID>23</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Laparoscopic surgery or medical therapy with systemic MTX is the mainstay of treatment for most women with tubal ectopic pregnancy (EP). <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane324" resource="acc004" /></listitem>
+<listitem>Systemic methotrexate may be considered for stable patients with low beta-HCG levels and an unruptured EP.<xref ref="cochrane324" resource="acc004" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Expectant management may be an option for selected patients with small tubal EPs who are pain-free and have low hCG levels. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed31722871" resource="acc019" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Methotrexate (MTX) given in multiple intramuscular injections is an acceptable alternative to surgical treatment in hemodynamically stable women with unruptured EP and no active bleeding.<xref ref="cochrane324" resource="acc004" /></listitem>
+<listitem>Either MTX or surgical management can be offered to women with an EP who have a serum hCG level of at least 1500 IU&#x002F;L, and less than 5000 IU&#x002F;L who are able to return for follow-up, and who meet all of the following criteria: no significant pain, an unruptured EP with an adnexal mass smaller than 35 mm with no visible heartbeat, and no intrauterine pregnancy (as confirmed on an ultrasound scan).<xref ref="pubmed23638497" resource="acc013" /></listitem>
+<listitem>Women who choose MTX should be advised that their chance of needing further intervention is increased and they may require urgent surgical management if their condition deteriorates.<xref ref="pubmed23638497" resource="acc013" /></listitem>
+<listitem>A 2024 systematic review found insufficient evidence to support the use of any medication treatment for tubal ectopic pregnancies over expectant management<xref ref="pubmed37443463" resource="acc021" />.</listitem>
+<listitem>Systemic MTX is most likely to be effective if initial quantitative beta-hCG levels are &lt;3000 IU&#x002F;L. Increasing levels, especially &gt;10,000 IU&#x002F;L, are associated with higher likelihood of treatment failure.<xref ref="pubmed10607814" resource="acc003" /> In one case series, the success rate of a single dose of MTX was 88&#x0025; when initial beta-hCG levels were &lt;1000 mIU&#x002F;mL, 71&#x0025; when they were between 1000 and 2000 mIU&#x002F;mL, and 59&#x0025; when they were between 2000 and 3000 mIU&#x002F;mL; the authors suggest that patients with beta-hCG levels higher than 2000 mIU&#x002F;mL be offered surgery.<xref ref="pubmed22093497" resource="acc012" /></listitem>
+<listitem>In another case series of 102 women, the overall success rate after 2 MTX injections was 90.2&#x0025;.<xref ref="pubmed23465854" resource="acc016" /> Independent predictors of MTX failure were presence of fetal cardiac activity, presence of a yolk sac, and mass size.</listitem>
+<listitem>Either a fixed-dose or variable-dose MTX regimen may be used.<xref ref="cochrane324" resource="acc004" /> Authors of a meta-analysis found that the 2-dose MTX protocol was better than the single-dose protocol in terms of effectiveness and time to success, even in patients with higher hCG levels and a large adnexal mass. Multi-dose protocols did not improve treatment success and were associated with more side effects.<xref ref="pubmed30629908" resource="acc018" /></listitem>
+<listitem>In a randomized controlled trial (RCT) of single-dose MTX for EP (31&#x0025; of the original 1265 women eligible, 106 randomized), there were no differences between MTX and laparoscopic salpingectomy in success rates (74&#x0025; vs. 87&#x0025;), subsequent spontaneous IUP (73&#x0025; vs. 62&#x0025;), and subsequent EP rate (9.6&#x0025; after MTX and 17.3&#x0025; following surgery).<xref ref="pubmed19750396" resource="acc010" /></listitem>
+<listitem>Local injection of MTX at the time of laparoscopy is much less effective than surgical removal of the EP.<xref ref="cochrane324" resource="acc004" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Although laparoscopic surgery has been the treatment of choice in most women with EP, the role for medical therapy has been expanding.<xref ref="cochrane324" resource="acc004" /></listitem>
+<listitem>According to the NICE<xref ref="pubmed23638497" resource="acc013" /> 2021 guideline, surgery should be offered as a first-line treatment to women who are unable to return for follow-up after MTX treatment or who have any of the following: an EP and significant pain, an EP with an adnexal mass of 35 mm or larger, an EP with a fetal heartbeat visible on an ultrasound scan, OR an EP and a serum hCG level of 5000 IU&#x002F;L or more. Salpingectomy is usually offered to women undergoing surgery for EP, but salpingotomy can be considered for women with risk factors for infertility. However, one in five women undergoing salpingotomy may require further treatment.</listitem>
+<listitem>Although open surgical approaches are associated with lower rates of persistent trophoblasts, the higher costs and lack of significant differences in long-term outcome, including fertility, make laparoscopy a better overall choice.<xref ref="cochrane324" resource="acc004" /></listitem>
+<listitem>Consider laparotomy in the unstable patient as it may be the most expedient approach.<xref ref="guideline7684" resource="acc001" /></listitem>
+<listitem>If the contralateral tube is diseased or absent, and fertility is desired, laparoscopic salpingotomy is an option instead of salpingectomy. It is not clear that there is any advantage to the former in women with healthy contralateral tubes.<xref ref="guideline7684" resource="acc001" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Authors of a systematic review found only two RCTs with a total of 157 participants for use of Chinese herbal medicines in the treatment of EP. However, studies not high quality and conclusions could not be reached regarding the effectiveness herbal medicines.<xref ref="cochrane6224" resource="acc005" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Offer expectant management as an option to women with a confirmed EP who are clinically stable, pain-free, have a tubal pregnancy measuring &lt;35 mm with no visible heartbeat on TVUS, have serum hCG levels of &lt;1000 IU&#x002F;L, and are able to return for follow-up.<xref ref="pubmed31722871" resource="acc019" /></listitem>
+<listitem>Offer anti-D rhesus prophylaxis (250 IU or 50 micrograms) to all rH negative women who have a surgical procedure to manage an EP; anti-D rhesus prophylaxis is not required for women who solely receive medical management.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Any patients with suspected EP who are hemodynamically unstable should be immediately hospitalized and referred for possible surgery.</listitem>
+<listitem>Patients with suspected EP who require hospitalization, for example, for hemodynamic instability, should also have blood typing both for possible RhoGAM administration and preparation&#x002F;cross-matching of blood products.<xref ref="pubmed10607814" resource="acc003" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Monitor serial beta-hCG levels after treatment until undetectable to ensure complete resolution of EP. Further treatment with surgery or MTX may be necessary if levels fail to decline appropriately. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Most women with EP have a good prognosis and low risk of future infertility, but are at risk for recurrent EP. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane324" resource="acc004" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>For women with EP treated with MTX, obtain 2 serum hCG measurements in the first week (days 4 and 7) after treatment and then 1 serum hCG measurement per week until a negative result is obtained. If hCG levels plateau or rise, reassess the woman's condition for further treatment.<xref ref="pubmed23638497" resource="acc013" /></listitem>
+<listitem>For women following salpingotomy, obtain a serum hCG measurement at 7 days after surgery, then 1 serum hCG measurement per week until a negative result is obtained. Women should return for further assessment if the test is positive.<xref ref="pubmed23638497" resource="acc013" /></listitem>
+<listitem>For women following salpingectomy, the woman, independently or through her health care provider, should obtain a urine pregnancy test after 3 weeks. Women should return for further assessment if the test is positive.<xref ref="pubmed23638497" resource="acc013" /></listitem>
+<listitem>A cohort study found no differences in pregnancy outcomes at 1 year in women who underwent MTX or surgical treatment for EP, with a pregnancy rate of about 53&#x0025; at 12 months. A total of 17&#x0025; experienced a recurrent EP.<xref ref="pubmed37252839" resource="acc022" /></listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="guideline7684">
+<accessionId id="acc001" href="info:wiley/eep-guideline/7684" />
+<citation>Royal College of Obstetricians and Gynaecologists (RCOG). The management of tubal pregnancy. London, UK: Royal College of Obstetricians and Gynaecologists (RCOG); 2004 May. 10 p. Management of tubal pregnancy (RCOG).</citation>
+<url>http://www.rcog.org.uk/files/rcog-corp/uploaded-files/GT21ManagementTubalPregnancy2004.pdf</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed10036342">
+<accessionId id="acc002" href="info:pmid/10036342" />
+<authors>Dart RG, Kaplan B, Varaklis K.</authors>
+<title>Predictive value of history and physical examination in patients with suspected ectopic pregnancy.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1999</pubdate>
+<volume>33</volume>
+<pages>283&#x2013;290.</pages>
+</reference>
+<reference id="pubmed10607814">
+<accessionId id="acc003" href="info:pmid/10607814" />
+<authors>Lipscomb GH, McCord ML, Stovall TG, Huff G, Portera SG, Ling FW.</authors>
+<title>Predictors of success of methotrexate treatment in women with tubal ectopic pregnancies.</title>
+<source>N Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>341</volume>
+<pages>1974&#x2013;1978.</pages>
+</reference>
+<reference id="cochrane324">
+<accessionId id="acc004" href="info:wiley/cochrane/CD324" />
+<chapter_authors>Hajenius PJ, Mol F, Mol BWJ, Bossuyt PMM, Ankum WM, Veen F.</chapter_authors>
+<chapter_title>Interventions for tubal ectopic pregnancy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6224">
+<accessionId id="acc005" href="info:wiley/cochrane/CD6224" />
+<chapter_authors>Qu HB, Dengfeng W, Wu T, et al.</chapter_authors>
+<chapter_title>Chinese herbal medicines in the treatment of ectopic pregnancy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 7.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed11239658">
+<accessionId id="acc006" href="info:pmid/11239658" />
+<authors>Gracia CR, Barnhart KT.</authors>
+<title>Diagnosing ectopic pregnancy: Decision analysis comparing six strategies.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2001</pubdate>
+<volume>97</volume>
+<pages>464&#x2013;470.</pages>
+</reference>
+<reference id="pubmed8749596">
+<accessionId id="acc007" href="info:pmid/8749596" />
+<authors>Mol BW, Ankum WM, Bossuyt PM, Van der Veen F.</authors>
+<title>Contraception and the risk of ectopic pregnancy: A meta-analysis.</title>
+<source>Contraception</source>
+<pubdate>1995</pubdate>
+<volume>52</volume>
+<pages>337&#x2013;341.</pages>
+</reference>
+<reference id="pubmed8641479">
+<accessionId id="acc008" href="info:pmid/8641479" />
+<authors>Ankum WM, Mol BW, Van der Veen F, Bossuyt PM.</authors>
+<title>Risk factors for ectopic pregnancy: A meta-analysis.</title>
+<source>Fertil Steril</source>
+<pubdate>1996</pubdate>
+<volume>65</volume>
+<pages>1093&#x2013;10999.</pages>
+</reference>
+<reference id="pubmed19594975">
+<accessionId id="acc009" href="info:pmid/19594975" />
+<authors>McRae A, Murray H, Edmonds M.</authors>
+<title>Diagnostic accuracy and clinical utility of emergency department targeted ultrasonography in the evaluation of first-trimester pelvic pain and bleeding: A systematic review.</title>
+<source>CJEM</source>
+<pubdate>2009</pubdate>
+<volume>11</volume>
+<pages>355&#x2013;364.</pages>
+</reference>
+<reference id="pubmed19750396">
+<accessionId id="acc010" href="info:pmid/19750396" />
+<authors>Moeller LB, Moeller C, Thomsen SG, et al.</authors>
+<title>Success and spontaneous pregnancy rates following systemic methotrexate versus laparoscopic surgery for tubal pregnancies: A randomized trial.</title>
+<source>Acta Obstet Gynecol Scand</source>
+<pubdate>2009</pubdate>
+<pages>1&#x2013;7.</pages>
+</reference>
+<reference id="hp241">
+<accessionId id="acc011" href="info:wiley/eep-hp/241" />
+<authors>Huchon C, Panel P, Kayem G, Bassot A, Nguyen T, Falissard B, Fauconnier A.</authors>
+<title>Is a standardized questionnaire useful for tubal rupture screening in patients with ectopic pregnancy?</title>
+<source>Acad Emerg Med</source>
+<pubdate>2012</pubdate>
+<volume>19</volume>
+<pages>24&#x2013;30.</pages>
+</reference>
+<reference id="pubmed22093497">
+<accessionId id="acc012" href="info:pmid/22093497" />
+<authors>Sagiv R, Debby A, Feit H, Cohen-Sacher B, Keidar R, Golan A.</authors>
+<title>The optimal cutoff serum level of human chorionic gonadotropin for efficacy of methotrexate treatment in women with extrauterine pregnancy.</title>
+<source>Int J Gynaecol Obstet</source>
+<pubdate>2012</pubdate>
+<volume>116</volume>
+<pages>101&#x2013;104.</pages>
+</reference>
+<reference id="pubmed23638497">
+<accessionId id="acc013" href="info:pmid/23638497" />
+<chapter_authors>National Collaborating Centre for Women's and Children's Health (UK).</chapter_authors>
+<chapter_title />
+<book_editors />
+<book_title>Ectopic Pregnancy and Miscarriage: Diagnosis and Initial Management in Early Pregnancy of Ectopic Pregnancy and Miscarriage</book_title>
+<edition />
+<city_publisher>RCOG;</city_publisher>
+<year>2021</year>
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed23613077">
+<accessionId id="acc014" href="info:pmid/23613077" />
+<authors>Crochet JR, Bastian LA, Chireau MV.</authors>
+<title>Does this woman have an ectopic pregnancy?: The rational clinical examination systematic review.</title>
+<source>JAMA</source>
+<pubdate>2013</pubdate>
+<volume>309</volume>
+<pages>1722&#x2013;1729.</pages>
+</reference>
+<reference id="pubmed23398899">
+<accessionId id="acc015" href="info:pmid/23398899" />
+<authors>O'Neill SM, Khashan AS, Kenny LC, Greene RA, Henriksen TB, Lutomski JE, Kearney PM.</authors>
+<title>Caesarean section and subsequent ectopic pregnancy: A systematic review and meta-analysis.</title>
+<source>BJOG</source>
+<pubdate>2013</pubdate>
+<volume>120</volume>
+<pages>671&#x2013;680.</pages>
+</reference>
+<reference id="pubmed23465854">
+<accessionId id="acc016" href="info:pmid/23465854" />
+<authors>Krissi H, Peled Y, Eitan R, Bishara A, Goldchmit C, Ben-Haroush A.</authors>
+<title>Single-dose methotrexate injection for treatment of ectopic pregnancy in women with relatively low levels of human chorionic gonadotropin.</title>
+<source>Int J Gynaecol Obstet</source>
+<pubdate>2013</pubdate>
+<volume>121</volume>
+<pages>141&#x2013;143.</pages>
+</reference>
+<reference id="pubmed31895782">
+<accessionId id="acc017" href="info:pmid/31895782" />
+<authors>Xia Q, Wang T, Xian J, Song J, Qiao Y, Mu Z, Liu H, Sun Z.</authors>
+<title>Relation of Chlamydia trachomatis infections to ectopic pregnancy: A meta-analysis and systematic review.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e18489.</pages>
+</reference>
+<reference id="pubmed30629908">
+<accessionId id="acc018" href="info:pmid/30629908" />
+<authors>Alur-Gupta S, Cooney LG, Senapati S, Sammel MD, Barnhart KT.</authors>
+<title>Two-dose versus single-dose methotrexate for treatment of ectopic pregnancy: A meta-analysis.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2019</pubdate>
+<volume>221</volume>
+<pages>95&#x2013;108.e2.</pages>
+</reference>
+<reference id="pubmed31722871">
+<accessionId id="acc019" href="info:pmid/31722871" />
+<authors>Webster K, Eadon H, Fishburn S, Kumar G, Guideline Committee.</authors>
+<title>Ectopic pregnancy and miscarriage: Diagnosis and initial management: summary of updated NICE guidance.</title>
+<source>BMJ</source>
+<pubdate>2019</pubdate>
+<volume>367</volume>
+<pages>l6283.</pages>
+</reference>
+<reference id="pubmed36063623">
+<accessionId id="acc020" href="info:pmid/36063623" />
+<authors>&#x00C7;elik A, Yaz&#x0131;c&#x0131; MM, Oktay M.</authors>
+<title>The impact of high-frequency linear transducer on the accuracy of pelvic ultrasound in early pregnancy pelvic pain and bleeding.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2022</pubdate>
+<volume>61</volume>
+<pages>105&#x2013;110.</pages>
+</reference>
+<reference id="pubmed37443463">
+<accessionId id="acc021" href="info:pmid/37443463" />
+<authors>Al Wattar BH, Solangon SA, de Braud LV, Rogozi&#x0144;ska E, Jurkovic D.</authors>
+<title>Effectiveness of treatment options for tubal ectopic pregnancy: A&#x00A0;systematic review and network meta-analysis.</title>
+<source>BJOG</source>
+<pubdate>2024</pubdate>
+<volume>131</volume>
+<pages>5&#x2013;14.</pages>
+</reference>
+<reference id="pubmed37252839">
+<accessionId id="acc022" href="info:pmid/37252839" />
+<authors>Mackenzie SC, Moakes CA, Duncan WC, Tong S, Horne AW.</authors>
+<title>Subsequent pregnancy outcomes among women with tubal ectopic pregnancy treated with methotrexate.</title>
+<source>Reprod Fertil</source>
+<pubdate>2023</pubdate>
+<volume>4</volume>
+<pages />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

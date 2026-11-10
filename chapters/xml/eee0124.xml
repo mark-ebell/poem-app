@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Diabetes mellitus (diabetic ketoacidosis)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0124</topic_id>
+<topic_comment />
+<topic_lastupdated>11/22/2021</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>David E. Trachtenbarg, MD</author_name>
+<author_title>Clinical Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Methodist Medical Center of Illinois</author_institution>
+<author_email>tracht&#x0040;mmci.org</author_email>
+<author_phone_office>309 672-5908</author_phone_office>
+<author_phone_home>309 688-9742</author_phone_home>
+<author_phone_fax>309 680-2671</author_phone_fax>
+<author_street1>815 Main, Suite C</author_street1>
+<author_street2 />
+<author_city>Peoria</author_city>
+<author_state>IL</author_state>
+<author_zip>61602</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>The severity of ketoacidosis is primarily based on the patient's pH level, bicarbonate level, and mental status; not on blood sugar. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Regular insulin by continuous intravenous infusion is the preferred treatment for moderate to severe DKA. <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Subcutaneous insulin may be used in mild cases. <evidence rating="B" system="SORT"> B </evidence></listitem>
+</list>
+</BottomLine>
+<definition>Diabetic ketoacidosis (DKA) is a complication of diabetes (typically type 1) that occurs when there is a lack of insulin, leading to increased glucose and the production of ketones as the body breaks down fat for energy.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Four of 10,000 patients per year in the United States are admitted for DKA.</listitem>
+<listitem>Eight of 1000 patients with diabetes per year are admitted for DKA.</listitem>
+<listitem>DKA is most common in patients younger than 45 years.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Infection</listitem>
+<listitem>Pneumonia</listitem>
+<listitem>UTI</listitem>
+<listitem>Sepsis</listitem>
+<listitem>Nonadherence with insulin treatment</listitem>
+<listitem>New onset diabetes</listitem>
+<listitem>Myocardial infarction</listitem>
+<listitem>Pancreatitis</listitem>
+<listitem>Hyperthyroidism</listitem>
+<listitem>Sodium-glucose co-transporter-2 inhibitors<xref ref="bib16_106_1565106844283" resource="acc016" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Reduced insulin levels lead to decreased glucose metabolism.</listitem>
+<listitem>Increased gluconeogenesis occurs because of counter regulatory hormones including catecholamines, glucagon, and cortisol.</listitem>
+<listitem>Metabolism of fat causes a build-up of acid in the body.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Acanthosis nigricans</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Drugs</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Corticosteroids</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Sympathomimetic agents</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Atypical antipsychotics</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>The severity of ketoacidosis is primarily based on the patient's pH level, bicarbonate level, and mental status; not on blood sugar. <evidence rating="C" system="SORT"> C </evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Hyperglycemic hyperosmolar nonketotic syndrome</Differential_Name>
+<Differential_Features>Blood glucose &#x003E;600 mg&#x002F;dL, pH &#x003E;7.3 mOSM&#x002F;L, urine osmolality &#x003E;320</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Starvation ketosis</Differential_Name>
+<Differential_Features>Blood glucose usually below 250 mg&#x002F;dL, bicarbonate usually 18 mEq&#x002F;L or higher</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Ethylene glycol</Differential_Name>
+<Differential_Features>Calcium oxalate or hippurate crystals in the urine</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Methanol</Differential_Name>
+<Differential_Features>Methanol level</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Lactic acidosis</Differential_Name>
+<Differential_Features>Lactate level, metformin use</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Salicylate overdose</Differential_Name>
+<Differential_Features>Salicylate level</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Alcoholic ketosis</Differential_Name>
+<Differential_Features>History, blood glucose usually &lt;250 mg&#x002F;dL</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Severity of DKA is categorized by pH level. Mild DKA is 7.25 to 7.30, moderate DKA is 7.00 to 7.24, and severe DKA is less than 7.00.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Look for precipitating causes in the history (eg, infection, nonadherence to insulin therapy).</listitem>
+<listitem>Ketoacidosis can develop in less than 24 hours; metabolic changes occur 1.5 hours to 2 hours earlier in patients who are managed only with short-acting insulin like lispro.</listitem>
+<listitem>The patient's temperature is usually normal or low, even with infection. If the patient has a fever, infection is invariably present.</listitem>
+<listitem>Most patients are approximately 10&#x0025; dehydrated and exhibit some signs of dehydration including dry mucus membranes, tachycardia, and hypotension.</listitem>
+<listitem>Evaluate level of consciousness.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Order plasma glucose, CBC with differential, electrolytes with calculated anion gap and effective osmolality, phosphorous, blood urea nitrogen, creatinine, and beta-hydroxybutyrate (serum ketones, if not available).</listitem>
+<listitem>Obtain a complete urinalysis with urine ketones by dipstick to evaluate ketones and rule out infection.</listitem>
+<listitem>Order an ABG or <xref ref="dsdx501" resource="acc013">venous pH</xref>, if not available.</listitem>
+<listitem>As indicated, order bacterial cultures of urine, blood, throat, or other sites (if suspected infection); electrocardiogram (if cardiac disease is suspected); and&#x002F;or chest x-ray (if pneumonia or cardiopulmonary disease is suspected).</listitem>
+<listitem>Obtain a magnesium level if the patient has signs of hypomagnesemia (eg, cardiac arrhythmias), is an alcoholic, or is taking diuretics.</listitem>
+<listitem>Hemoglobin A1C may be helpful in determining if this is an acute episode in a patient with well-controlled diabetes or a patient with undiagnosed or poorly controlled diabetes.</listitem>
+<listitem>C-peptide level plus islet cell and glutamic acid decarboxylase antibodies may be useful for selected patients to determine type of diabetes and help determine long-term need for insulin.<xref ref="pubmed17130187" resource="acc006" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to management.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Regular insulin by continuous intravenous infusion is the preferred treatment for moderate to severe DKA. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed17130218" resource="acc007" /></listitem>
+<listitem>Bicarbonate therapy is not beneficial in adult patients with a pH of 6.9 or higher. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed17130218" resource="acc007" /></listitem>
+<listitem>Do not give phosphate routinely; multiple small studies have shown inconsistent results. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed6406531" resource="acc004" /></listitem>
+<listitem>Check beta-hydroxybutyrate rather than ketones as a measure of resolution of acidosis. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15000443" resource="acc005" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Fluids, insulin, potassium, and bicarbonate for selected patients are the mainstays of treatment. See algorithm in <xref ref="fig001" />.<xref ref="pubmed17130218" resource="acc007" /> A protocol can improve patient outcomes.<xref ref="pubmed17095944" resource="acc009" /></listitem>
+<listitem>If the patient is in shock, fluids should be given rapidly to stabilize the patient. Give pressors and conduct hemodynamic monitoring, as indicated.</listitem>
+<listitem>During the first hour, give 15 mL to 20 mL per kg 0.9&#x0025; NaCl. Subsequently, give 4 mL to 14 mL per kg per hour 0.45&#x0025; NaCl for normal or high corrected sodium and 0.9&#x0025; NaCl for low corrected sodium. It should be noted that a large, recent multicenter RCT randomized children experiencing 1389 episodes of DKA to 0.9&#x0025; or 0.45&#x0025; NaCL in the IV fluid, and to rapid versus slow administration in a 2 x 2 or "Latin square" design. There was no difference in any neurologic outcomes between groups.<xref ref="bib15_235_1531784528879" resource="acc015" /></listitem>
+<listitem>Give intravenous insulin for severe ketoacidosis; it may be given subcutaneously using rapid-acting insulin for mild cases. Start intravenous insulin with a 0.1 units per kg bolus and follow with 0.1 units per kg per hour continuous infusion. Double the dose if the serum glucose does not fall by 50 mg&#x002F;dL to 70 mg&#x002F;dL in the first hour.</listitem>
+<listitem>A small, single institution RCT found that using a lower dose of IV insulin (0.05 units per kg per hour) for children with DKA produced similar rates of biochemical improvement as standard dosing, but did not report on adverse effects or other clinical outcomes.<xref ref="bib14_79_1431368438411" resource="acc014" /></listitem>
+<listitem>For mild DKA, short-acting subcutaneous insulin may be used. One regimen is 0.3 units per kg initially followed by 0.2 units per kg every 2 hours until the blood glucose level is less than 250 mg&#x002F;dL when the insulin dose is cut in half.<xref ref="pubmed17130218" resource="acc007" /></listitem>
+<listitem>When serum glucose reaches 200 mg&#x002F;dL, reduce infusion to 0.05 to 0.1 units per kg per hour. Change to 5&#x0025; dextrose once glucose is below 200 mg&#x002F;dL (typically, 150 mL to 250 mL per hour of D5.45&#x0025; NaCl).</listitem>
+<listitem>Give potassium at 20 mEq to 30 mEq per hour in each liter of fluid once adequate urine output (&#x003E;50 mL&#x002F;hr) has been established and the potassium level is normal. Do not give potassium in fluids until serum K level is below 5.3mEq&#x002F;L. Hold insulin until potassium level is greater than 3.3 mEq&#x002F;L.</listitem>
+<listitem>There is no evidence that bicarbonate is beneficial when the pH level is greater than 6.9. Magnesium may need to be replaced in selected patients. Routine phosphate replacement does not improve outcome in patients with DKA if the serum level is &#x003E;1.0 mg&#x002F;dL.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Secure the patient's airway.</listitem>
+<listitem>Treat any underlying cause for DKA such as infection.</listitem>
+<listitem>Monitor blood glucose every 1 hour to 2 hours until stable. Continuous glucose monitoring also has been studied.<xref ref="pubmed16978378" resource="acc012" /></listitem>
+<listitem>Monitor blood urea nitrogen, serum creatinine, sodium, potassium, and bicarbonate levels every 2 hours to 6 hours, depending on the severity of DKA.</listitem>
+<listitem>Cardiac monitoring is recommended for patients with significant electrolyte disturbances.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>A blood glucose level of less than 200 mg&#x002F;dL, a bicarbonate level of at least 18 mEq&#x002F;L, and a venous pH level of greater than 7.3 indicate that the DKA has resolved.</listitem>
+<listitem>The typical duration of therapy is approximately 48 hours. If the patient can eat when the DKA has resolved, start a standard subcutaneous insulin regimen by injection or insulin pump. Continue the intravenous insulin for 1 hour to 2 hours after starting subcutaneous insulin.</listitem>
+<listitem>For patients who were previously taking insulin, start the subcutaneous insulin at the dose they were taking before the DKA episode. For patients not previously taking insulin, start at a dose of 0.5 units to 0.8 units per kg per day in divided doses using both short-acting and long-acting insulin.</listitem>
+<listitem>For patients who are unable to eat, intravenous insulin may be continued to maintain the blood sugar in the target range (ie, 80-140 mg&#x002F;dL).</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>The ADA admission guidelines are a plasma glucose level &#x003E;250 mg&#x002F;dL (&#x003E;13.9 mmol&#x002F;L) with arterial pH &lt;7.30, serum bicarbonate &lt;15 mEq&#x002F;L, and a moderate or greater level of ketones in the serum or urine.</listitem>
+<listitem>Patients with severe DKA require admission to the intensive care unit.</listitem>
+<listitem>Selected patients with mild ketoacidosis who are alert and taking oral fluids may be treated under observation and sent home without admission.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Common complications include hypoglycemia, hypokalemia, and recurrent hyperglycemia.</listitem>
+<listitem>Cerebral edema is a rare complication that occurs in 0.7&#x0025; to 1.0&#x0025; of children. Early signs include headache, confusion, and lethargy. Papilledema, hypertension, hyperpyrexia, and diabetes insipidus may also be found.</listitem>
+<listitem>Typically in cases of cerebral edema, patients improve mentally with initial treatment, then suddenly get worse. Dilated ventricles may be found on CT or MRI. Seizures, pupillary changes, and respiratory arrest with brain stem herniation may occur.</listitem>
+<listitem>Once severe symptoms occur, the mortality rate is higher than 70&#x0025; and only approximately 10&#x0025; of patients recover without sequelae.</listitem>
+<listitem>To prevent complications, avoid overhydration, limit the rate that the blood sugar drops, and limit drops in osmolality.<xref ref="pubmed17452217" resource="acc010" /></listitem>
+<listitem>Some patients may present with cerebral edema before treatment is started. At the first sign of cerebral edema give 1 g per kg of mannitol.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>From 1985 to 2002, age-adjusted deaths from hyperglycemic crisis decreased from 42.4 to 23.8 per 100,000.<xref ref="pubmed16936146" resource="acc001" /></listitem>
+<listitem>Factors associated with a poor prognosis include: severe coexisting disease, greater than 50 units insulin in the first 12 hours, glucose level above 300 mg&#x002F;dL after 12 hours, depressed mental state, and fever. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed12390332" resource="acc002" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>Monitor blood glucose every 1 hour to 2 hours until stable. Continuous glucose monitoring also has been studied.<xref ref="pubmed16978378" resource="acc012" /></listitem>
+<listitem>Monitor blood urea nitrogen, serum creatinine, sodium, potassium, and bicarbonate every 2 hours to 6 hours, depending on the severity of DKA.</listitem>
+<listitem>Cardiac monitoring is recommended for patients with significant electrolyte disturbances.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Education reduces the rate of recurrence.<xref ref="pubmed17003292" resource="acc011" /></listitem>
+<listitem>When patients are feeling ill from a fever, infection, stress, or are not eating; start sick-day management.</listitem>
+<listitem>Typical advice includes: (1) Checking blood glucose levels every 3 hours to 4 hours if the patient is sick and every 1 hour to 2 hours if critical blood glucose values are obtained; (2) testing urine ketones or blood for beta-hydroxybutyrate every 4 hours or if blood glucose level is &#x003E;250 mg&#x002F;dL; (3) continuing basal insulin even if the patient is not eating; (4) giving supplementary insulin if the blood glucose level is high; and (5) maintaining fluid intake.</listitem>
+<listitem>Contact the health care team for 2 consecutive blood sugar readings &#x003E;300 mg&#x002F;dL or high beta-hydroxybutyrate levels.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16936146">
+<accessionId id="acc001" href="info:pmid/16936146" />
+<authors>Wang J, Williams DE, Venkat Narayan KM, Geiss LS.</authors>
+<title>Declining death rates from hyperglycemic crisis among adults with diabetes, U.S. 1985-2002.</title>
+<source>Diabetes Care</source>
+<pubdate>2006</pubdate>
+<volume>29</volume>
+<pages>2018-3133.</pages>
+</reference>
+<reference id="pubmed12390332">
+<accessionId id="acc002" href="info:pmid/12390332" />
+<authors>Efstathiou SP, Tsiakou AG, et al.</authors>
+<title>A mortality prediction model in diabetic ketoacidosis.</title>
+<source>Clin Endocrinol</source>
+<pubdate>2002</pubdate>
+<volume>57</volume>
+<pages>595-601.</pages>
+</reference>
+<reference id="pubmed14693938">
+<accessionId id="acc003" href="info:pmid/14693938" />
+<authors>Kitabchi AE, Umpierrez GE, Murphy MB, et al.; American Diabetes Association.</authors>
+<title>Hyperglycemic crises in diabetes.</title>
+<source>Diabetes Care</source>
+<pubdate>2004</pubdate>
+<volume>27</volume>
+<pages>S94-S102.</pages>
+</reference>
+<reference id="pubmed6406531">
+<accessionId id="acc004" href="info:pmid/6406531" />
+<authors>Fisher JN, Kitabchi AE.</authors>
+<title>A randomized study of phosphate therapy in the treatment of diabetic ketoacidosis.</title>
+<source>J Clin Endocrinol Metabol</source>
+<pubdate>1983</pubdate>
+<volume>57</volume>
+<pages>177-180.</pages>
+</reference>
+<reference id="pubmed15000443">
+<accessionId id="acc005" href="info:pmid/15000443" />
+<authors>Vanelli M, Chiari G, Capuano C, Iovane B, Bernardini A, Giacalone T.</authors>
+<title>The direct measurement of 3-beta-hydroxy butyrate enhances the management of diabetic ketoacidosis in children and reduces time and costs of treatment.</title>
+<source>Diabetes Nutr Metab</source>
+<pubdate>2003</pubdate>
+<volume>16</volume>
+<pages>312-316.</pages>
+</reference>
+<reference id="pubmed17130187">
+<accessionId id="acc006" href="info:pmid/17130187" />
+<authors>Balasubramanyam A, Garza G, Rodriguez L, et al.</authors>
+<title>Accuracy and predictive value of classification schemes for ketosis-prone diabetes.</title>
+<source>Diabetes Care</source>
+<pubdate>2006</pubdate>
+<volume>29</volume>
+<pages>2575-2579.</pages>
+</reference>
+<reference id="pubmed17130218">
+<accessionId id="acc007" href="info:pmid/17130218" />
+<authors>Kitabchi AE, Umpierrez GE, Murphy MB, Kreisberg RA.</authors>
+<title>Hyperglycemic crisis in adult patients with diabetes.</title>
+<source>Diabetes Care</source>
+<pubdate>2006</pubdate>
+<volume>29</volume>
+<pages>2739-2748.</pages>
+</reference>
+<reference id="pubmed15277410">
+<accessionId id="acc008" href="info:pmid/15277410" />
+<authors>Umpierrez GE, Cuervo R, Karabell A, Latif K, Freire AX, Kitabchi AE.</authors>
+<title>Treatment of diabetic ketoacidosis with subcutaneous insulin aspart.</title>
+<source>Diabetes Care</source>
+<pubdate>2004</pubdate>
+<volume>27</volume>
+<pages>1873-1878.</pages>
+</reference>
+<reference id="pubmed17095944">
+<accessionId id="acc009" href="info:pmid/17095944" />
+<authors>Bull SV, Douglas IS, Foster M, Albert RK.</authors>
+<title>Mandatory protocol for treating adult patients with diabetic ketoacidosis decreases intensive care unit and hospital lengths of stay: Results of a nonrandomized trial.</title>
+<source>Crit Care Med</source>
+<pubdate>2007</pubdate>
+<volume>35</volume>
+<pages>41-46.</pages>
+</reference>
+<reference id="pubmed17452217">
+<accessionId id="acc010" href="info:pmid/17452217" />
+<authors>Hoorn EJ, Carlotti AP, Costa LA, et al.</authors>
+<title>Preventing a drop in effective plasma osmolality to minimize the likelihood of cerebral edema during treatment of children with diabetic ketoacidosis.</title>
+<source>J Pediatr</source>
+<pubdate>2007</pubdate>
+<volume>150</volume>
+<pages>467-473.</pages>
+</reference>
+<reference id="pubmed17003292">
+<accessionId id="acc011" href="info:pmid/17003292" />
+<authors>Samann A, Muhlhauser I, Bender R, Hunger-Dathe W, Kloos C, Muller UA.</authors>
+<title>Flexible intensive insulin therapy in adults with type 1 diabetes and high risk for severe hypoglycemia and diabetic ketoacidosis.</title>
+<source>Diabetes Care</source>
+<pubdate>2006</pubdate>
+<volume>29</volume>
+<pages>2196-2199.</pages>
+</reference>
+<reference id="pubmed16978378">
+<accessionId id="acc012" href="info:pmid/16978378" />
+<authors>Pfutzner J, Forst T, Butzer R, et al.</authors>
+<title>Performance of the continuous glucose monitoring system (CGMS) during development of ketosis in patients on insulin pump therapy.</title>
+<source>Diabetic Med</source>
+<pubdate>2006</pubdate>
+<volume>23</volume>
+<pages>1124-1129.</pages>
+</reference>
+<reference id="dsdx501">
+<accessionId id="acc013" href="info:wiley/eep-dx/501" />
+<authors>Menchine M, Probst MA, Agy C, Bach D, Arora S</authors>
+<title>Diagnostic accuracy of venous blood gas electrolytes for identifying diabetic ketoacidosis in the emergency department.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2011</pubdate>
+<volume>18</volume>
+<pages>1105-1108</pages>
+</reference>
+<reference id="bib14_79_1431368438411">
+<accessionId id="acc014" href="info:wiley/eep-poem/170145" />
+<accessionId id="acc014b" href="info:pmid/25264948" />
+<authors>Nallasamy K, Jayashree M, Singhi S, Bansal A.</authors>
+<title>Low-dose vs standard-dose insulin in pediatric diabetic ketoacidosis: A randomized clinical trial.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2014</pubdate>
+<volume>168</volume>
+<pages>999&#x2013;1005</pages>
+</reference>
+<reference id="bib15_235_1531784528879">
+<accessionId id="acc015" href="info:pmid/29897851" />
+<authors>Kuppermann N, Ghetti S, Schunk JE, Stoner MJ, Rewers A, McManemy JK, Myers SR, Nigrovic LE, Garro A, Brown KM, Quayle KS, Trainor JL, Tzimenatos L, Bennett JE, DePiero AD, Kwok MY, Perry CS 3rd, Olsen CS, Casper TC, Dean JM, Glaser NS, PECARN DKA FLUID Study Group.</authors>
+<title>Clinical trial of fluid infusion rates for pediatric diabetic ketoacidosis.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>2275&#x2013;2287</pages>
+</reference>
+<reference id="bib16_106_1565106844283">
+<accessionId id="acc016" href="info:pmid/31060732" />
+<authors>Thiruvenkatarajan V, Meyer EJ, Nanjappa N, Van Wijk RM, Jesudason D.</authors>
+<title>Perioperative diabetic ketoacidosis associated with sodium-glucose co-transporter-2 inhibitors: A systematic review.</title>
+<source>Br J Anaesth</source>
+<pubdate>2019</pubdate>
+<volume>123</volume>
+<pages>27&#x2013;36</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>193</id>
+<supertype>AbCd</supertype>
+<last_update>2019-08-12</last_update>
+</meta>
+<title>Diabetic Ketoacidosis: Management.</title>
+<graphic href="eee0124-w0001.jpg" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Anemia (aplastic)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0255</topic_id>
+<topic_comment />
+<topic_lastupdated>11/29/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Timothy K. Huyck, MD</author_name>
+<author_title>Resident</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>Creighton University School of Medicine</author_institution>
+<author_email>tkh58669&#x0040;creighton.edu</author_email>
+<author_phone_office>402-280-2400</author_phone_office>
+<author_phone_home>402-871-7053</author_phone_home>
+<author_phone_fax />
+<author_street1>917 S. 54th Street</author_street1>
+<author_street2 />
+<author_city>Omaha</author_city>
+<author_state>NE</author_state>
+<author_zip>68106</author_zip>
+</author>
+<author primary="no">
+<author_name>Henry Sakowski, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of General Internal Medicine</author_department>
+<author_institution>Creighton University</author_institution>
+<author_email>tkh58669&#x0040;creighton.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Patients typically present with vague or diffuse symptoms such as bleeding, shortness of breath, and generalized weakness. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Confirm diagnosis with CBC, peripheral smear, and bone marrow biopsy. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Hematopoietic cell transplantation (HCT) is curative therapy limited by the availability of a human leukocyte antigen (HLA) matched donor and, to some extent, by the patient's age and&#x002F;or fitness. <evidence rating="B" system="SORT"> B</evidence> Alternate donors such as mismatched adult unrelated donors, haploidentical related donors, and umbilical cord blood stem cell products can be considered. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Immunosuppression with anti-thymocyte globulins (ATG) in combination with cyclosporine and eltrombopag is the treatment of choice in patients who are not candidates for HCT.<xref ref="pubmed34986284" resource="acc040" /><xref ref="pubmed28423296" resource="acc024" /><xref ref="pubmed22762314" resource="acc009" /><xref ref="pubmed28423296" resource="acc024" /><xref ref="pubmed38247114" resource="acc061" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Supportive care with transfusions of platelets and blood as needed as well as treatment of infections and antimicrobial prophylaxis are important throughout the patient's course of treatment.<xref ref="pubmed38247114" resource="acc061" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>The prognosis is worse with increasing age and severity of disease; 5-year survival ranges from 86&#x0025; for 20- to 49-year-olds with moderate disease to 21&#x0025; for patients older than 60 years with very severe disease (<xref ref="table001" />). <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Aplastic anemia is a disorder where myeloid progenitor and stem cells are severely diminished or absent in the bone marrow, which leads to pancytopenia.<xref ref="pubmed15885298" resource="acc001" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Two cases per million in Western countries</listitem>
+<listitem>Five to 6 cases per million in Asian countries<xref ref="pubmed3676511" resource="acc002" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>There is a biphasic age distribution with one peak in the teens and early 20s and a second peak in the elderly.<xref ref="pubmed3676511" resource="acc002" /></listitem>
+<listitem>For patients with Fanconi anemia, a rare, inherited blood disorder leading to bone marrow failure, endocrine disorders are common (80&#x0025;) and include growth hormone (GH) deficiency, abnormal glucose or insulin metabolism, dyslipidemia, hypothyroidism, pubertal delay, infertility, and hypogonadism.<xref ref="pubmed25575015" resource="acc020" /></listitem>
+<listitem>Aplastic anemia is closely associated with <resourceLink href="https://ashpublications.org/hematology/article/2021/1/143/482982/When-does-a-PNH-clone-have-clinical-significance">paroxysmal nocturnal hemoglobinuria</resourceLink> (PNH), an acquired blood disease caused by somatic mutations in the phosphatidylinositol glycan class A gene. Very small (approximately 10 to 50 per million) polyclonal populations of PNH cells can be detected in most healthy individuals and about one third of patients with PNH clones have classic PNH with hemolysis.</listitem>
+<listitem>Aplastic anemia is also associated with eosinophilic fasciitis, also called Shulman disease.<xref ref="pubmed23429351" resource="acc016" /> This rare sclerodermiform syndrome can present with swelling and pain in the extremities, thickened skin, muscle weakness and bone pain.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Etiologies of aplastic anemia vary widely. Most cases are idiopathic. Other causes include exposure to various drugs, infections, and radiation.</listitem>
+<listitem>Genetics: Fanconi anemia, a DNA-repair disorder, may be linked to mutations in ubiquitin ligase RFWD3<xref ref="pubmed28691929" resource="acc025" /> and HLA-A&#x002F;B&#x002F;DRB1. Interferon gamma polymorphisms appear to play a role in aplastic anemia.<xref ref="pubmed28902578" resource="acc026" /><xref ref="pubmed32063160" resource="acc033" /></listitem>
+<listitem>Drugs: Chloramphenicol, gold, nonsteroidal anti-inflammatory drugs, and multiple chemotherapeutic regimens are associated with aplastic anemia.<xref ref="pubmed16778145" resource="acc003" /></listitem>
+<listitem>Viruses: Specific viral agents associated with aplastic anemia include parvovirus B-19, Epstein-Barr virus, and HIV.</listitem>
+<listitem>Pregnancy has also been associated with aplastic anemia.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Sporadic aplastic anemia is an immune-mediated disease.<xref ref="pubmed30354958" resource="acc034" /> Molecular and cellular pathways have been mapped in detail for the effector cell, T lymphocyte and target cells, and the progenitor or hematopoietic stem cell.</listitem>
+<listitem>Antigens are presented to T lymphocytes by antigen-presenting cells, possibly by the HLA-B allele,<xref ref="pubmed28232583" resource="acc027" />&#x00A0;causing proliferation and activation of the T cells. This activation leads to a cascade, resulting in reduced cell cycling and hematopoietic cell death by apoptosis.<xref ref="pubmed16778145" resource="acc003" /></listitem>
+<listitem>Authors of a meta-analysis of 16 studies including 4428 patients found evidence suggesting that HLA-DRB1*0301 decreased the risk of aplastic anemia while HLA-DRB1*0901 and HLA-DRB1*1501 were risk factors for the disease.<xref ref="pubmed37335708" resource="acc053" /></listitem>
+<listitem>Autoimmune suppression of glycosylphosphatidylinositol-positive hematopoietic stem cells has been identified in many patients with idiopathic aplastic anemia.<xref ref="pubmed27903525" resource="acc028" /></listitem>
+<listitem>Other pathologies resulting in an empty bone marrow include direct toxins such as chemotherapy, irradiation or industrial chemicals and constitutional syndromes including germline mutations.<xref ref="pubmed30354958" resource="acc034" /></listitem>
+<listitem>In one study of 439 patients with aplastic anemia, somatic mutations in myeloid cancer candidate genes were present in one third of the patients and some mutations were related to clinical outcomes.<xref ref="pubmed26132940" resource="acc021" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>In patients with severe aplastic anemia treated with haplo-identical HCT, mesenchymal stromal cells do not appear to reduce risk of graft-versus-host disease or improve survival based on a meta-analysis of 29 single-arm studies, 8 combined with mesenchymal stromal cells, including 1456 patients.<xref ref="pubmed33541414" resource="acc042" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients typically present with vague or diffuse symptoms such as bleeding, shortness of breath, and generalized weakness. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>CBC will show pancytopenia. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Bone marrow biopsy and peripheral smear are necessary to classify the severity of the aplastic anemia and rule out other causes of pancytopenia. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed9134878" resource="acc004" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Aplastic anemia may be further classified into moderate, severe, and very severe (<xref ref="table001" />).<xref ref="pubmed17124044" resource="acc005" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Aplastic anemia may present with signs and symptoms common for pancytopenia.</listitem>
+<listitem>Bleeding is the most common early symptom. Easy bruising, oozing from gingiva, epistaxis, heavy menstrual flow, and petechiae may also occur due to thrombocytopenia.</listitem>
+<listitem>Anemia may present with increasing weakness and shortness of breath.</listitem>
+<listitem>Infection is an atypical presenting symptom in patients with aplastic anemia.<xref ref="pubmed16778145" resource="acc003" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>A CBC is the initial diagnostic test of choice. If pancytopenia is found, order a peripheral smear and reticulocyte count.</listitem>
+<listitem>Peripheral smears typically show large erythrocytes with minimal platelets and granulocytes. Reticulocytes are usually absent and lymphocyte numbers may be normal or reduced.</listitem>
+<listitem>PNH clones, also called "escape clones," are red or white blood cells that entirely or partially lack glycosylphosphatidylinositol-anchored proteins (GPI-linked antigens) on the cell surface. These clones are evidence of acquired immune-mediated bone marrow failure and have a high prevalence in patients with aplastic anemia. Authors of a meta-analysis of 11 cohort studies with 1236 patients found presence of PNH clones vs. absence was a positive predictor of response to immunosuppression treatment at 6 months (OR 2.85, 95&#x0025; CI 2.17-3.75).<xref ref="pubmed32877903" resource="acc043" /> There was no difference between groups in early mortality.</listitem>
+<listitem>Confirm the diagnosis with a bone marrow biopsy. In aplastic anemia, biopsy will show dramatic hypocellularity with fatty infiltration while the remaining hematopoietic cells stay morphologically normal.<xref ref="pubmed15885298" resource="acc001" /></listitem>
+<listitem>Genomic screening for the approximately 50 genes that cause constitutional marrow failure can be valuable but adds to cost and can produce results of uncertain significance.<xref ref="pubmed30354958" resource="acc034" /> It may be particularly useful for children (see below) and when myelodysplastic syndromes are suspected.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>A high index of suspicion is needed to diagnose aplastic anemia. Patients typically present with vague symptoms including generalized weakness, bleeding, and shortness of breath.</listitem>
+<listitem>A CBC, peripheral smear, and bone marrow biopsy are necessary for definitive diagnosis.<xref ref="pubmed9134878" resource="acc004" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Hematopoietic cell transplantation (HCT) is the definitive therapy; it is limited by availability of an HLA-matched donor and age and &#x002F;or fitness of the patient. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed9005744" resource="acc006" /><xref ref="pubmed39307421" resource="acc054" /></listitem>
+<listitem>Supportive care with transfusions of platelets and blood as needed as well as treatment of infections and antimicrobial prophylaxis are important throughout the patient's course of treatment.<xref ref="pubmed38247114" resource="acc061" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Immunosuppressive therapies do not provide cures but can result in an improved prognosis. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed16778145" resource="acc003" /></listitem>
+<listitem>Anti-thymocyte globulin (ATG) in combination with cyclosporine is the immunosuppressive therapy of choice in patients not able to tolerate HCT. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed10706857" resource="acc007" /></listitem>
+<listitem>Eltrombopag when added to ATG and cyclosporine increases the likelihood of treatment response at 3 months (NNT &#x003D; 4) and is recommended by British Society for Hematology guidelines (2024).<xref ref="pubmed38247114" resource="acc061" /><xref ref="pubmed34986284" resource="acc040" /><xref ref="pubmed28423296" resource="acc024" /><xref ref="pubmed22762314" resource="acc009" /><xref ref="pubmed28423296" resource="acc024" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Immunosuppressive therapies do not provide cures but can result in an improved prognosis.<xref ref="pubmed16778145" resource="acc003" /></listitem>
+<listitem>
+<strong>Anti-thymocyte globulin (ATG) and cyclosporine</strong></listitem>
+<listitem>ATG, also known as thymoglobulin, is an immune globulin therapy made of polyclonal antibodies against human T cells that is first-line therapy in aplastic anemia. For a single treatment course, dosing is 40 mg per kilogram per day IV for 4 days. The drug is administered over 4-6 hours and the patient should be premedicated with corticosteroids, acetaminophen, and&#x002F;or antihistamines to prevent complications.</listitem>
+<listitem>In a case series from Europe and Asia of 955 people with aplastic anemia treated with ATG as first-line treatment, actuarial 10-year survival was 70&#x0025; and transplant free survival was 64&#x0025;.<xref ref="pubmed29498107" resource="acc044" /> Negative predictors of survival in multivariate analysis, were greater severity of the disease, older age and longer interval between diagnosis and treatment.</listitem>
+<listitem>Cyclosporine can be used in conjunction with ATG. Blood levels of cyclosporine between 200 and 500 ng&#x002F;mL are suitable for optimal treatment. This therapy is generally continued for 6 months with maintenance therapy based on blood levels and side effect profile.</listitem>
+<listitem>Sources for ATG are horse and rabbit. In a retrospective study, overall survival and failure-free survival were not significantly different between the two, although complete response was more rapid with horse ATG.<xref ref="pubmed23318980" resource="acc010" /> However, in a RCT, horse ATG plus cyclosporine was clearly superior to rabbit ATG plus cyclosporine in both hematologic response at 6 months (68&#x0025; vs. 37&#x0025;, respectively) and overall 3-year survival (96&#x0025; vs. 76&#x0025;, respectively).<xref ref="pubmed21812672" resource="acc011" /></listitem>
+<listitem>
+<strong>Eltrombopag</strong> (Promacta)</listitem>
+<listitem>Eltrombopag (EPAG) is a thrombopoieitin receptor agonist that appears to have a direct effect on marrow stem cells. It is available in oral form for use for 6 months and, for first-line therapy, is dosed at 150 mg once daily for adults and adolescents, 75 mg once daily for children aged 6-11 years and 2.5 mg&#x002F;kg mg once daily for children aged 2-5 years.<xref ref="pubmed30354958" resource="acc034" /> The drug is initiated in patients already taking ATG and cyclosporine A. For patients with relapsed or refractory severe aplastic anemia, dosing starts at 50 mg once daily.</listitem>
+<listitem>In a randomized trial with 197 patients comparing standard therapy with ATG + cyclosporine versus standard therapy plus EPAG, the overall treatment response was significantly higher in the combined therapy group at 3 months (59&#x0025; vs 31&#x0025;, NNT &#x003D; 4) and at 6 months (68&#x0025; vs. 41&#x0025;). Adverse events were similar between groups.<xref ref="pubmed34986284" resource="acc040" /></listitem>
+<listitem>Authors of systematic review and meta-analysis of 12 retrospective studies and 4 RCTs, with a total of 1,264 patients, comparing ATG combined with EPAG with ATG alone found a higher effective rate (odds ratio [OR] 1.90, 95&#x0025; confidence interval (CI) 1.35 to 2.68) and survival rate (OR 2.54, 95&#x0025; CI 1.58 to 4.09) with combined treatment.<xref ref="pubmed34107711" resource="acc045" /> Interestingly, side effects were lower in the combined therapy group.</listitem>
+<listitem>However, authors of a meta-analysis of 5 RCTs including 542 patients with aplastic anemia found a higher 6-month complete response with adjunctive EPAG (OR 2.2, 95&#x0025; CI 1.5-3.1), but with significantly increased pigment deposition and abnormal liver function with EPAG combined with immunosuppressive therapy compared to immunosuppressive therapy alone.<xref ref="pubmed38553907" resource="acc055" /></listitem>
+<listitem>For patients with severe aplastic anemia, authors of a systematic review and meta-analysis of 16 studies also found immunosuppressive therapy combined with EPAG had a better overall survival rate (pooled OR 1.7, 95&#x0025; CI 1.2-2.5), but no significant differences in event-free survival rate.<xref ref="pubmed38576005" resource="acc056" /> There were no differences in adverse events between the two groups</listitem>
+<listitem>Authors of a systematic review of 10 cohort studies found combination EPAG with immunosuppressive therapies had a comparable overall response rate and 1-&#x002F;2-year overall survival, but lower complete response rate when indirectly compared with haplo-HCT in the frontline treatment of patients with severe aplastic anemia.<xref ref="pubmed33981596" resource="acc046" /></listitem>
+<listitem>
+<strong>Other drug therapies</strong></listitem>
+<listitem>In a cohort study of 118 patients with moderate aplastic anemia, an immunosuppressive therapy of cyclosporine alternately combined with levamisole, continued for 12 months after achieving maximal hematologic response, resulted in overall response rates of 100&#x0025; and 86.8&#x0025; for newly diagnosed and chronic disease groups, respectively.<xref ref="pubmed23620110" resource="acc012" /> The 24-month progression-free survival was over 93&#x0025; for both groups.</listitem>
+<listitem>For patients preconditioned prior to hematopoietic cell transplantation (HCT), the combination of reduced-dose cyclophosphamide, fludarabine, and ATG was superior to cyclophosphamide-ATG alone in reducing regimen-associated toxicities by over one half without increasing engraftment failure.<xref ref="pubmed22526363" resource="acc013" /> Benefit of the addition of fludarabine to cyclophosphamide, ATG and single fraction total body irradiation was also demonstrated in another case series and was associated with improved survival.<xref ref="pubmed25824692" resource="acc022" /></listitem>
+<listitem>In an RCT including 114 patients with refractory&#x002F;relapsed acquired aplastic anemia, the 76 patients receiving EPAG+tacrolimus compared to the 38 patients receiving EPAG alone had a higher overall response rate at last follow-up of 60.5&#x0025; vs. 34.2&#x0025;.<xref ref="pubmed37726286" resource="acc057" /></listitem>
+<listitem>Androgens (e.g., danazol) have been used in the past for marrow failure syndromes and are standard care for some constitutional syndromes but are regarded as less effective than immunosuppressive agents.<xref ref="pubmed30354958" resource="acc034" /> Based on a meta-analysis of 43 RCTs including 2610 Chinese patients with non-severe aplastic anemia, adding cyclosporine to androgen therapy was more effective than androgen therapy alone.<xref ref="pubmed35688457" resource="acc058" /> The most common adverse effects of combined therapy included hirsutism, tremor, gingiva hyperplasia, liver and renal function damage.</listitem>
+<listitem>In several small studies, humanized anti-CD52 mAb alemtuzumab responses were comparable to cyclosporine-ATG for patients with refractory disease. However, alemtuzumab was not as effective for treatment-naive patients, resulting in early discontinuation of the trial.<xref ref="pubmed22067384" resource="acc014" /></listitem>
+<listitem>In a RCT with 192 patients with newly diagnosed severe aplastic anemia who were not eligible for HCT, the addition of granulocyte colony-stimulating factor to ATG and cyclosporine did not change overall 6-year survival or event-free survival.<xref ref="pubmed21233311" resource="acc015" /> However, patients randomized to the three drugs rather than ATG-cycosporine alone had fewer infectious episodes and hospitalization days.</listitem>
+<listitem>There was no difference in overall survival, relapse or infections occurrence by adding hematopoietic growth factors to standard immunosuppressive therapy for patients with aplastic anemia based on a meta-analysis of 9 RCTs including 719 patients.<xref ref="pubmed36281138" resource="acc059" /></listitem>
+<listitem>Romiplostim, a peptibody with thrombopoietin receptor agonist activity that stimulates endogenous thrombopoietin production, was shown in a phase II trial to achieve a platelet response in 10 of 33 evaluable patients at week 9 with 10 of 18 patients who eventually achieved a platelet response maintaining a response at 2-3 years.<xref ref="pubmed31474546" resource="acc035" /> Treatment-related adverse events occurred in three (9&#x0025;) of 35 patients, including grade 1 or 2 myalgia, fatigue, and dizziness. However, 17 (49&#x0025;) of 35 patients had adverse events of grade 3 or higher and seven (20&#x0025;) had serious adverse events (e.g., febrile neutropenia, cataract, retinal detachment) believed to be unrelated to treatment.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>HCT is the definitive therapy.</listitem>
+<listitem>Use of HCT is limited by the need for an HLA-matched donor and may have fatal complications such as graft-versus-host disease and infection. This is first-line therapy in patients younger than 45 years with an appropriate donor.<xref ref="pubmed9005744" resource="acc006" /></listitem>
+<listitem>Evidence-based guidelines from the American Society for Transplantation and Cellular Therapy were published in 2024 for use of allogeneic HCT for severe aplastic anemia.<xref ref="pubmed39307421" resource="acc054" /> The panel concluded the following:<list style="bulleted">
+<listitem>Bone marrow should be used as a graft source with use of rabbit over horse ATG for HCT conditioning.</listitem>
+<listitem>Fludarabine-containing regimens are preferred for patients at high risk of graft failure and those receiving matched unrelated or haploidentical donor transplant.</listitem>
+<listitem>The panel did not endorse the 40-year age cut-off for considering upfront HCT in adults, acknowledging that fit older patients may also benefit from HCT.</listitem>
+<listitem>The panel endorsed increased utilization of HCT by prioritizing matched unrelated or haploidentical donor HCT over immunosuppressive therapy in children and adults who lack a matched related donor.</listitem>
+<listitem>The panel suggested that either calcineurin inhibitor plus methotrexate or post-transplant cyclophosphamide-based graft-versus-host disease prophylaxis be used for matched related or matched unrelated donor recipients.</listitem>
+</list></listitem>
+<listitem>Authors of a meta-analysis of 15 studies with 577 patients undergoing haploidentical HCT found successful engraftment in 97.3&#x0025; of patients (95&#x0025; CI, 95.9-98.7).<xref ref="pubmed32346079" resource="acc036" /> Grades II-IV acute and chronic graft-versus-host disease were reported in 26.6&#x0025; and 25.0&#x0025;, respectively and the pooled incidence of transplant-related mortality was 6.7&#x0025; annually (95&#x0025; CI, 4.0-9.4).</listitem>
+<listitem>Because HLA-matched sibling or unrelated donors are not available in up to 70&#x0025; of cases, alternate donors such as mismatched adult unrelated donors, haploidentical related donors, and umbilical cord blood stem cell products can be considered.<xref ref="pubmed24914138" resource="acc029" />&#x00A0;&#x00A0; &#x00A0;</listitem>
+<listitem>There was no difference between haploidentical HCT and matched unrelated donar HCT in 1-, 2-, or 3-year overall survival, failure-free survival, and engraftment based on a meta-analysis of 25 studies including 2252 patients with aplastic anemia.<xref ref="pubmed37442821" resource="acc060" /> However, there were higher incidences of II-IV acute and chronic graft-versus-host and cytomegalovirus infection with haploidentical HCT.</listitem>
+<listitem>Longer donor leukocyte telomere length appears to be associated with increased 5-year survival in patients who receive HCT for severe aplastic anemia; in one study, longer donor leukocyte telomere length was associated with 56&#x0025; 5-year survival vs. 40&#x0025; for those with shorter telomere length.<xref ref="pubmed25668263" resource="acc023" /></listitem>
+<listitem>In a case series of 33 patients with acquired aplastic anemia with no HLA-matched donor who underwent a haploidentical transplantation with posttransplant cyclophosphamide, two-year overall survival was 78&#x0025; and 2-year graft-versus-host disease-free survival was 63&#x0025;.<xref ref="pubmed31844137" resource="acc037" /></listitem>
+<listitem>Authors of a systematic review and meta-analysis of 5 retrospective studies of alternative donor transplantation as an upfront treatment strategy in the absence of a matched sibling donor to immunosuppressive therapy in severe aplastic anemia found a 5-year overall survival rate of 89.2&#x0025; vs. 82&#x0025;, respectively; OR 0.44, 95&#x0025; CI 0.23 to 0.85).<xref ref="pubmed34649020" resource="acc047" /></listitem>
+<listitem>
+<strong>Cord blood transplantation</strong></listitem>
+<listitem>A 2020 guideline from The American Society for Transplantation and Cellular Therapy provides recommendations for selecting adults with aplastic anemia for this type of therapy.<xref ref="pubmed33836867" resource="acc048" /> This therapy is recommended after failure of a first immunosuppressive regimen in patients who lack HLA-matched donors. Cord blood transplantation is associated with a lower risk of chronic graft-versus-host disease.</listitem>
+<listitem>In a phase 2 trial of 26 patients with refractory severe aplastic anemia, cord blood transplantation was followed by engraftment in 23 patients (88&#x0025;) and 23 were alive at one year (88.5&#x0025; overall survival rate).<xref ref="pubmed29760162" resource="acc049" /> This differs significantly from the expected 20&#x0025; survival. Cumulative incidences of grade II-IV acute and chronic graft-versus-host disease were 45.8&#x0025; and 36&#x0025;, respectively, over a median follow-up of 38.8 months.</listitem>
+<listitem>
+<strong>Other options</strong></listitem>
+<listitem>A novel partial T-cell depleted transplant that infuses high numbers of granulocyte colony-stimulating factor-mobilized CD34+ selected peripheral blood stem cells combined with a bone marrow transplant-equivalent dose of non-mobilized donor T-cells is being tested that appears to reduce graft-versus-host disease.<xref ref="pubmed28169418" resource="acc031" /></listitem>
+<listitem>Bone marrow may be a better source of cells and ATG-based regimens than peripheral blood stem cells because of lower incidence of graft-versus-host disease, based on a Latin American experience.<xref ref="pubmed27548465" resource="acc032" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>For patients in whom HCT is an option, transfusions should be limited to prevent sensitization.</listitem>
+<listitem>Supportive treatment with frequent blood transfusions to a hemoglobin level greater than 8 mg&#x002F;dL and&#x002F;or a platelet level greater than 20,000&#x002F;&#x03BC;L is often necessary. Base the need for frequent transfusions on the severity of the patient's symptoms and treatment strategy.</listitem>
+<listitem>Treatment of infections and antimicrobial prophylaxis are important throughout the patient's course of treatment.<xref ref="pubmed38247114" resource="acc061" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Gene therapy may be considered in Fanconi Anemia. In a review of 3 trials including 9 patients, there was stabilization in blood lineages without any serious adverse effects at one-year follow-up.<xref ref="pubmed33736979" resource="acc050" /></listitem>
+<listitem>If the aplastic anemia is not idiopathic, the offending agent should be discontinued.<xref ref="pubmed15885298" resource="acc001" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>If you suspect a patient has aplastic anemia, consider referral to a hematologist or oncologist.</listitem>
+<listitem>Hospitalization will be necessary if the patient is neutropenic (absolute neutrophil count &lt;500) and febrile.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Following treatment with immunosuppressive therapy, patients are at risk for solid tumors (head and neck), myelodysplastic syndromes, and acute leukemia. Patients receiving bone marrow transplantation are at an increased risk for solid tumors.<xref ref="pubmed8377778" resource="acc008" /></listitem>
+<listitem>Patients with Fanconi anemia have a &#x003E;500-fold incidence of head and neck squamous cell carcinoma relative to the general population. Authors of a review of treatments for these patients concluded that, when possible, surgical resection with curative intent should be the primary treatment.<xref ref="pubmed34045293" resource="acc041" /></listitem>
+<listitem>In an RCT with 66 patients with severe aplastic anemia on immunosuppressive therapy with probable or suspected invasive fungal disease, use of empirical therapy was superior to diagnostic-driven therapy for effectiveness (78.1&#x0025; vs. 47.1&#x0025;, respectively).<xref ref="pubmed33219473" resource="acc051" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>More than 70&#x0025; of patients with severe or very severe aplastic anemia who are left untreated will be dead within 1 year.<xref ref="pubmed15885298" resource="acc001" /></listitem>
+<listitem>Increasing severity of aplastic anemia and increasing age are associated with a worse prognosis (<xref ref="table001" />).<xref ref="pubmed9005744" resource="acc006" /></listitem>
+<listitem>In a Chinese retrospective study of 284 children with non-severe aplastic anemia (NSAA), most (69.7&#x0025;) had persistent NSAA at a median follow-up of 43 months.<xref ref="pubmed23361447" resource="acc017" /> Thirty-eight patients (13.4&#x0025;) progressed to transfusion-dependent NSAA and 26 of these patients (9.2&#x0025;) progressed to severe aplastic anemia.</listitem>
+<listitem>In a systematic review, among people treated with immunosuppressive therapy, advanced age, severe aplastic anemia without very severe aplastic anemia, and combination anti-lymphocytic globulin plus cyclosporine A were factors associated with improved survival.<xref ref="pubmed21541024" resource="acc018" /></listitem>
+<listitem>Among 1718 patients of median age 20 years treated with HCT for acquired severe aplastic anemia, overall 5-year survival was 70&#x0025;.<xref ref="pubmed22863842" resource="acc019" /> For survivors of matched sibling donor HCT, the cumulative incidence estimates of developing late effects were &lt;3&#x0025;. In contrast, for recipients of unrelated donor HCT, cumulative incidence of developing late effects exceeded 3&#x0025; by 5 years. Late effects in this group included gonadal dysfunction in 10.5&#x0025;, growth disturbance in 7.2&#x0025;, avascular necrosis in 6.3&#x0025;, hypothyroidism in 5.5&#x0025;, and cataracts in 5.1&#x0025;.</listitem>
+<listitem>Frequent CBCs will be necessary to monitor the patient's response to treatment; also monitor cyclosporine levels weekly until a steady state is achieved.</listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>A pediatric amendment to the British Society for Haematology adult guideline for aplastic anemia (2016) was developed by UK-based pediatric aplastic anemia medical experts and published in 2018.<xref ref="pubmed29285764" resource="acc038" /> They recommend three tests prior to starting definitive therapy: chromosomal breakage test (diepoxybutane stress test) for Fanconi anemia, telomere length by flow cytometry-fluorescence in situ hybridization (Flow-FISH) to identify patients with dyskeratosis congenita (DC), and lymphocyte subset testing to identify the presence of B cell lymphopenia. If B cell lymphopenia or monocytopenia is identified, proceed with GATA2 genetic testing.</listitem>
+<listitem>Once the diagnosis is confirmed, treatment preferences are: HCT from a matched sibling, second choice is immunosuppressive therapy with horse ATG prior to matched unrelated donor HCT followed by mismatched donor HCT (if no response to ATG or no matched donor available). If these do not work or are unavailable, they recommend treatment within a research trial or a second course of immunosuppressive therapy, androgens, alemtuzumab, eltrombopag or haploidentical or unrelated donor umbilical HCT.</listitem>
+<listitem>In a feasibility trial of 57 young patients with severe aplastic anemia, 23 underwent randomization, 12 to matched unrelated donor bone marrow transplantation and 11 to immunosuppressive therapy.<xref ref="pubmed32776425" resource="acc052" /> One transplant recipient experienced secondary graft failure, requiring a second procedure. Six of 11 randomized to immunosuppressive therapy responded, and five with refractory disease underwent successful salvage bone marrow transplantation.</listitem>
+<listitem>Authors of a meta-analysis of 7 retrospective studies conducted in East-Asia with 491 young patients with severe aplastic anemia comparing haploidentical HCT to immunosuppressive therapy found no differences between groups in overall survival at 1, 3, 5, and 10 years but higher rates of failure-free survival in the HCT group at a cost of a higher incidence of infections (76&#x0025; versus 45&#x0025;, respectively) and high rates of acute and chronic graft versus host disease (54&#x0025;; 95&#x0025; Cl 43&#x0025;&#x223C;64&#x0025; and 43&#x0025;; 95&#x0025; CI 18&#x0025;&#x223C;68&#x0025;, respectively) for the haplo-HCT group.<xref ref="pubmed31743865" resource="acc039" /></listitem>
+<listitem>This stands in contrast to results from a retrospective medical records study of children in South Korea with severe aplastic anemia of whom 23&#x002F;42 underwent alternative donor HCT and 19&#x002F;42 underwent front-line immunosuppressive treatment.<xref ref="pubmed27668766" resource="acc030" />&#x00A0;Both estimated failure-free survival and event-free survival were significantly higher in the children who underwent alternative HCT (91.3&#x0025; vs. 30.7&#x0025; and 91.3&#x0025; vs. 50.9&#x0025;, respectively).</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed15885298">
+<accessionId id="acc001" href="info:pmid/15885298" />
+<authors>Brodsky RA, Jones RJ.</authors>
+<title>Aplastic anaemia.</title>
+<source>Lancet</source>
+<pubdate>2005</pubdate>
+<volume>365</volume>
+<pages>1647-1656</pages>
+</reference>
+<reference id="pubmed3676511">
+<accessionId id="acc002" href="info:pmid/3676511" />
+<authors />
+<title>Incidence of aplastic anemia: the relevance of diagnostic criteria. By the International Agranulocytosis and Aplastic Anemia Study.</title>
+<source>Blood</source>
+<pubdate>1987</pubdate>
+<volume>70</volume>
+<pages>1718-1721</pages>
+</reference>
+<reference id="pubmed16778145">
+<accessionId id="acc003" href="info:pmid/16778145" />
+<authors>Young NS, Calado RT, Scheinberg P.</authors>
+<title>Current concepts in the pathophysiology and treatment of aplastic anemia.</title>
+<source>Blood</source>
+<pubdate>2006</pubdate>
+<volume>108</volume>
+<pages>2509-2519</pages>
+</reference>
+<reference id="pubmed9134878">
+<accessionId id="acc004" href="info:pmid/9134878" />
+<authors>Young NS, Maciejewski J.</authors>
+<title>The pathophysiology of acquired aplastic anemia.</title>
+<source>N Engl J Med</source>
+<pubdate>1997</pubdate>
+<volume>336</volume>
+<pages>1365-1372</pages>
+</reference>
+<reference id="pubmed17124044">
+<accessionId id="acc005" href="info:pmid/17124044" />
+<authors>Marsh J.</authors>
+<title>Making therapeutic decisions in adults with aplastic anemia.</title>
+<source>Hematology Am Soc Hematol Educ Program</source>
+<pubdate>2006</pubdate>
+<pages>78-85</pages>
+</reference>
+<reference id="pubmed9005744">
+<accessionId id="acc006" href="info:pmid/9005744" />
+<authors>Doney K, Leisenring W, Storb R, Appelbaum FR.</authors>
+<title>Primary treatment of acquired aplastic anemia: outcomes with bone marrow transplantation and immunosuppressive therapy. Seattle Bone Marrow Transplant Team.</title>
+<source>Ann Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>126</volume>
+<pages>107-115</pages>
+</reference>
+<reference id="pubmed10706857">
+<accessionId id="acc007" href="info:pmid/10706857" />
+<authors>Bacigalupo A, Bruno B, Saracco P, et al.</authors>
+<title>Antilymphocyte globulin, cyclosporine, prednisolone, and granulocyte colony-stimulating factor for severe aplastic anemia: an update of the GITMO&#x002F;EBMT study on 100 patients. European Group for Blood and Marrow Transplantation (EBMT) Working Party on Severe Aplastic Anemia and the Gruppo Italiano Trapianti di Midolio Osseo (GITMO).</title>
+<source>Blood</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>1931-1934</pages>
+</reference>
+<reference id="pubmed8377778">
+<accessionId id="acc008" href="info:pmid/8377778" />
+<authors>Socie G, Henry-Amar M, Bacigalupo A, et al.</authors>
+<title>Malignant tumors occurring after treatment of aplastic anemia. European Bone Marrow Transplantation-Severe Aplastic Anaemia Working Party.</title>
+<source>N Engl J Med</source>
+<pubdate>1993</pubdate>
+<volume>329</volume>
+<pages>1152-1157</pages>
+</reference>
+<reference id="pubmed22762314">
+<accessionId id="acc009" href="info:pmid/22762314" />
+<authors>Olnes MJ, Scheinberg P, Calvo KR, Desmond R, Tang Y, Dumitriu B, Parikh AR, Soto S, Biancotto A, Feng X, Lozier J,&#x00A0;Wu CO, Young NS, Dunbar CE</authors>
+<title>Eltrombopag and improved hematopoiesis in refractory aplastic anemia.</title>
+<source>New Engl J Med</source>
+<pubdate>2012</pubdate>
+<volume>367</volume>
+<pages>11-19</pages>
+</reference>
+<reference id="pubmed23318980">
+<accessionId id="acc010" href="info:pmid/23318980" />
+<authors>Shin S-H, Yoon J-H, Yahng S-A, Lee S-E, Cho B-S, Eom K-S, Kim Y-J, Lee S, Min C-K, Kim H-J, Cho S-G, Kim D-W, Min W-S, Park C-W, Lee J-W</authors>
+<title>The efficacy of rabbit antithymocyte globulin with cyclosporine in comparison to horse antithymocyte globulin as a first-line treatment in adult patients with severe aplastic anemia: a single-center retrospective study.</title>
+<source>Ann Hematol</source>
+<pubdate>2013</pubdate>
+<volume>92</volume>
+<pages>817-824</pages>
+</reference>
+<reference id="pubmed21812672">
+<accessionId id="acc011" href="info:pmid/21812672" />
+<authors>Scheinberg P, Nunez O, Weinstein B, Scheinberg P, Biancotto A, Wu CO, Young NS</authors>
+<title>Horse versus rabbit antithymocyte globulin in acquired aplastic anemia.</title>
+<source>New Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>430-438</pages>
+</reference>
+<reference id="pubmed23620110">
+<accessionId id="acc012" href="info:pmid/23620110" />
+<authors>Li X, Shao Y, Ge M, Shi J, Huang J, Huang Z, Zhang J, Nie N, Zheng Y</authors>
+<title>A promising immunosuppressive strategy of cyclosporine alternately combined with levamisole is highly effective for moderate aplastic anemia.</title>
+<source>Ann Hematol</source>
+<pubdate>2013</pubdate>
+<volume>92</volume>
+<pages>1239-1247</pages>
+</reference>
+<reference id="pubmed22526363">
+<accessionId id="acc013" href="info:pmid/22526363" />
+<authors>Kim H, Lee J-H, Joo Y-D, Bae SH, Hyun MS, Lee J-H, Kim D-Y, Lee W-S, Ryoo HM, Kim MK, Park J-H, Lee K-H; Cooperative Study Group A for Hematology (COSAH)</authors>
+<title>A randomized comparison of cyclophosphamide vs. reduced dose cyclophosphamide plus fludarabine for allogeneic hematopoietic cell transplantation in patients with aplastic anemia and hypoplastic myelodysplastic syndrome.</title>
+<source>Ann Hematol</source>
+<pubdate>2012</pubdate>
+<volume>91</volume>
+<pages>1459-1469</pages>
+</reference>
+<reference id="pubmed22067384">
+<accessionId id="acc014" href="info:pmid/22067384" />
+<authors>Scheinberg P, Nunez O, Weinstein B, Scheinberg P, Wu CO, Young NS</authors>
+<title>Activity of alemtuzumab monotherapy in treatment-naive, relapsed, and refractory severe acquired aplastic anemia.</title>
+<source>Blood</source>
+<pubdate>2012</pubdate>
+<volume>119</volume>
+<pages>345-354</pages>
+</reference>
+<reference id="pubmed21233311">
+<accessionId id="acc015" href="info:pmid/21233311" />
+<authors>Tichelli A, Schrezenmeier H, Soci&#x00E9; G, Marsh J, Bacigalupo A, D&#x00FC;hrsen U, Franzke A, Hallek M, Thiel E, Wilhelm M, H&#x00F6;chsmann B, Barrois A, Champion K, Passweg JR</authors>
+<title>A randomized controlled study in patients with newly diagnosed severe aplastic anemia receiving antithymocyte globulin (ATG), cyclosporine, with or without G-CSF: a study of the SAA Working Party of the European Group for Blood and Marrow Transplantation.</title>
+<source>Blood</source>
+<pubdate>2011</pubdate>
+<volume>117</volume>
+<pages>4434-4441</pages>
+</reference>
+<reference id="pubmed23429351">
+<accessionId id="acc016" href="info:pmid/23429351" />
+<authors>de Masson A, Bouaziz J-D, de Latour RP, Benhamou Y, Molu&#x00E7;on-Chabrot C, Bay J-O, Laquerri&#x00E8;re A, Picquenot J-M, Michonneau D, Leguy-Seguin V, Rybojad M, Bonnotte B, Jardin F, L&#x00E9;vesque H, Bagot M, Soci&#x00E9; G</authors>
+<title>Severe aplastic anemia associated with eosinophilic fasciitis: report of 4 cases and review of the literature.</title>
+<source>Medicine</source>
+<pubdate>2013</pubdate>
+<volume>92</volume>
+<pages>69-81</pages>
+</reference>
+<reference id="pubmed23361447">
+<accessionId id="acc017" href="info:pmid/23361447" />
+<authors>Wang S, Chen Y, Zou Y, Zheng Y, Zhu X</authors>
+<title>The progression risk factors of children with transfusion-independent non-severe aplastic anemia.</title>
+<source>Int J Hematol</source>
+<pubdate>2013</pubdate>
+<volume>97</volume>
+<pages>210-215</pages>
+</reference>
+<reference id="pubmed21541024">
+<accessionId id="acc018" href="info:pmid/21541024" />
+<authors>Peinemann F, Grouven U, Kr&#x00F6;ger N, Bartel C, Pittler MH, Lange</authors>
+<title>First-line matched related donor hematopoietic stem cell transplantation compared to immunosuppressive therapy in acquired severe aplastic anemia.</title>
+<source>PloS One</source>
+<pubdate>2011</pubdate>
+<volume>6</volume>
+<pages>e18572</pages>
+</reference>
+<reference id="pubmed22863842">
+<accessionId id="acc019" href="info:pmid/22863842" />
+<authors>Buchbinder D, Nugent DJ, Brazauskas R, Wang Z, Aljurf MD, Cairo MS, Chow R, Duncan C, Eldjerou LK, Gupta V, Hale GA, Halter J, Hayes-Lattin BM, Hsu JW, Jacobsohn DA, Kamble RT, Kasow KA, Lazarus HM, Mehta P, Myers KC, Parsons SK, Passweg JR, Pidala J, Reddy V, Sales-Bonfim CM, Savani BN, Seber A, Sorror ML, Steinberg A, Wood WA, Wall DA, Winiarski JH, Yu LC, Majhail NS</authors>
+<title>Late effects in hematopoietic cell transplant recipients with acquired severe aplastic anemia: a report from the late effects working committee of the center for international blood and marrow transplant research.</title>
+<source>Biol Blood Marrow Transplant</source>
+<pubdate>2012</pubdate>
+<volume>18</volume>
+<pages>1776-1784</pages>
+</reference>
+<reference id="pubmed25575015">
+<accessionId id="acc020" href="info:pmid/25575015" />
+<authors>Petryk A, Kanakatti Shankar R, Giri N, Hollenberg AN, Rutter MM, Nathan B, Lodish M, Alter BP, Stratakis CA, Rose SR.</authors>
+<title>Endocrine disorders in Fanconi anemia: recommendations for screening and treatment.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2015</pubdate>
+<volume>100</volume>
+<pages>803&#x2013;811</pages>
+</reference>
+<reference id="pubmed26132940">
+<accessionId id="acc021" href="info:pmid/26132940" />
+<authors>Yoshizato T, Dumitriu B, Hosokawa K, Makishima H, Yoshida K, Townsley D, Sato-Otsubo A, Sato Y, Liu D, Suzuki H, Wu CO, Shiraishi Y, Clemente MJ, Kataoka K, Shiozawa Y, Okuno Y, Chiba K, Tanaka H, Nagata Y, Katagiri T, Kon A, Sanada M, Scheinberg P, Miyano S, Maciejewski JP, Nakao S, Young NS, Ogawa S.</authors>
+<title>Somatic mutations and clonal hematopoiesis in aplastic anemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>373</volume>
+<pages>35&#x2013;47</pages>
+</reference>
+<reference id="pubmed25824692">
+<accessionId id="acc022" href="info:pmid/25824692" />
+<authors>MacMillan ML, DeFor TE, Young JA, Dusenbery KE, Blazar BR, Slungaard A, Zierhut H, Weisdorf DJ, Wagner JE.</authors>
+<title>Alternative donor hematopoietic cell transplantation for Fanconi anemia.</title>
+<source>Blood</source>
+<pubdate>2015</pubdate>
+<volume>125</volume>
+<pages>3798&#x2013;804</pages>
+</reference>
+<reference id="pubmed25668263">
+<accessionId id="acc023" href="info:pmid/25668263" />
+<authors>Gadalla SM, Wang T, Haagenson M, Spellman SR, Lee SJ, Williams KM, Wong JY, De Vivo I, Savage SA.</authors>
+<title>Association between donor leukocyte telomere length and survival after unrelated allogeneic hematopoietic cell transplantation for severe aplastic anemia.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>313</volume>
+<pages>594&#x2013;602</pages>
+</reference>
+<reference id="pubmed28423296">
+<accessionId id="acc024" href="info:pmid/28423296" />
+<authors>Townsley DM, Scheinberg P, Winkler T, Desmond R, Dumitriu B, Rios O, Weinstein B, Valdez J, Lotter J, Feng X, Desierto M, Leuva H, Bevans M, Wu C, Larochelle A, Calvo KR, Dunbar CE, Young NS.</authors>
+<title>Eltrombopag added to standard immunosuppression for aplastic anemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>376</volume>
+<pages>1540&#x2013;1550</pages>
+</reference>
+<reference id="pubmed28691929">
+<accessionId id="acc025" href="info:pmid/28691929" />
+<authors>Knies K, Inano S, Ram&#x00ED;rez MJ, Ishiai M, Surrall&#x00E9;s J, Takata M, Schindler D.</authors>
+<title>Biallelic mutations in the ubiquitin ligase RFWD3 cause Fanconi anemia.</title>
+<source>J Clin Invest</source>
+<pubdate>2017</pubdate>
+<volume>127</volume>
+<pages>3013&#x2013;3027</pages>
+</reference>
+<reference id="pubmed28902578">
+<accessionId id="acc026" href="info:pmid/28902578" />
+<authors>Deng XZ, Du M, Peng J, Long JX, Zheng CJ, Tan Y, Li LJ, Chen HY, Qing C, Pang YY, Lan Y, Zhang HT.</authors>
+<title>Associations between the HLA-A&#x002F;B&#x002F;DRB1 polymorphisms and aplastic anemia: evidence from 17 case-control studies.</title>
+<source>Hematology</source>
+<pubdate>2018</pubdate>
+<volume>23</volume>
+<pages>154&#x2013;162</pages>
+</reference>
+<reference id="pubmed28232583">
+<accessionId id="acc027" href="info:pmid/28232583" />
+<authors>Zaimoku Y, Takamatsu H, Hosomichi K, Ozawa T, Nakagawa N, Imi T, Maruyama H, Katagiri T, Kishi H, Tajima A, Muraguchi A, Kashiwase K, Nakao S.</authors>
+<title>Identification of an HLA class I allele closely involved in the autoantigen presentation in acquired aplastic anemia.</title>
+<source>Blood</source>
+<pubdate>2017</pubdate>
+<volume>129</volume>
+<pages>2908&#x2013;2916</pages>
+</reference>
+<reference id="pubmed27903525">
+<accessionId id="acc028" href="info:pmid/27903525" />
+<authors>Gargiulo L, Zaimoku Y, Scappini B, Maruyama H, Ohumi R, Luzzatto L, Nakao S, Notaro R.</authors>
+<title>Glycosylphosphatidylinositol-specific T cells, IFN-&#x03B3;-producing T cells, and pathogenesis of idiopathic aplastic anemia.</title>
+<source>Blood</source>
+<pubdate>2017</pubdate>
+<volume>129</volume>
+<pages>388&#x2013;392</pages>
+</reference>
+<reference id="pubmed24914138">
+<accessionId id="acc029" href="info:pmid/24914138" />
+<authors>Kekre N, Antin JH.</authors>
+<title>Hematopoietic stem cell transplantation donor sources in the 21st century: choosing the ideal donor when a perfect match does not exist.</title>
+<source>Blood</source>
+<pubdate>2014</pubdate>
+<volume>124</volume>
+<pages>334&#x2013;43</pages>
+</reference>
+<reference id="pubmed27668766">
+<accessionId id="acc030" href="info:pmid/27668766" />
+<authors>Choi YB, Yi ES, Lee JW, Sung KW, Koo HH, Yoo KH.</authors>
+<title>Immunosuppressive therapy versus alternative donor hematopoietic stem cell transplantation for children with severe aplastic anemia who lack an HLA-matched familial donor.</title>
+<source>Bone Marrow Transplant</source>
+<pubdate>2017</pubdate>
+<volume>52</volume>
+<pages>47&#x2013;52</pages>
+</reference>
+<reference id="pubmed28169418">
+<accessionId id="acc031" href="info:pmid/28169418" />
+<authors>Purev E, Tian X, Aue G, Pantin J, Vo P, Shalabi R, Reger RN, Cook L, Ramos C, Cho E, Worthy T, Khuu H, Stroncek D, Young NS, Childs RW.</authors>
+<title>Allogeneic transplantation using CD34<sup>+</sup> selected peripheral blood progenitor cells combined with non-mobilized donor T cells for refractory severe aplastic anaemia.</title>
+<source>Br J Haematol</source>
+<pubdate>2017</pubdate>
+<volume>176</volume>
+<pages>950&#x2013;960</pages>
+</reference>
+<reference id="pubmed27548465">
+<accessionId id="acc032" href="info:pmid/27548465" />
+<authors>G&#x00F3;mez-Almaguer D, V&#x00E1;zquez-Mellado A, Navarro-Cabrera JR, Abello-Polo V, Milovic V, Garc&#x00ED;a J, Basquiera AL, Saba S, Balladares G, Vela-Ojeda J, G&#x00F3;mez S, Karduss-Aurueta A, Bustinza-&#x00C1;lvarez A, Requejo A, Feldman L, Jaime-P&#x00E9;rez JC, Yantorno S, Kusminsky G, Guti&#x00E9;rrez-Aguirre CH, Arbelbide J, Martinez-Rolon J, Jarchum G, Jaimovich G, Riera L, Pedraza-Mesa E, Villamizar-G&#x00F3;mez L, Herrera-Rojas M&#x00C1;, Gamboa-Alonso MM, Foncuberta C, Rodr&#x00ED;guez-Gonz&#x00E1;lez G, Garc&#x00ED;a Ruiz-Esparza MA, Hern&#x00E1;ndez-Maldonado E, Paz-Infanz&#x00F3;n M, Gonz&#x00E1;lez-L&#x00F3;pez E, Ruiz-Arg&#x00FC;elles GJ.</authors>
+<title>The Latin American experience of allografting patients with severe aplastic anaemia: real-world data on the impact of stem cell source and ATG administration in HLA-identical sibling transplants.</title>
+<source>Bone Marrow Transplant</source>
+<pubdate>2017</pubdate>
+<volume>52</volume>
+<pages>41&#x2013;46</pages>
+</reference>
+<reference id="pubmed32063160">
+<accessionId id="acc033" href="info:pmid/32063160" />
+<authors>Deng S, Lin S, Shen J, Zeng Y.</authors>
+<title>The relationship between interferon-gamma (INF-&#x03B3;) single nucleotide polymorphism +874(T&#x002F;A) and occurrence risk of aplastic anemia: a meta-analysis.</title>
+<source>Hematology</source>
+<pubdate>2020</pubdate>
+<volume>25</volume>
+<pages>85&#x2013;90</pages>
+</reference>
+<reference id="pubmed30354958">
+<accessionId id="acc034" href="info:pmid/30354958" />
+<authors>Young NS.</authors>
+<title>Aplastic Anemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>1643&#x2013;1656</pages>
+</reference>
+<reference id="pubmed31474546">
+<accessionId id="acc035" href="info:pmid/31474546" />
+<authors>Lee JW, Lee SE, Jung CW, Park S, Keta H, Park SK, Kim JA, Oh IH, Jang JH.</authors>
+<title>Romiplostim in patients with refractory aplastic anaemia previously treated with immunosuppressive therapy: a dose-finding and long-term treatment phase 2 trial.</title>
+<source>Lancet Haematol</source>
+<pubdate>2019</pubdate>
+<volume>6</volume>
+<pages>e562&#x2013;e572</pages>
+</reference>
+<reference id="pubmed32346079">
+<accessionId id="acc036" href="info:pmid/32346079" />
+<authors>ElGohary G, El Fakih R, de Latour R, Risitano A, Marsh J, Schrezenmeier H, Gluckman E, H&#x00F6;chsmann B, Pierri F, Halkes C, Alzahrani H, De la Fuente J, Cesaro S, Alahmari A, Ahmed SO, Passweg J, Dufour C, Bacigalupo A, Aljurf M.</authors>
+<title>Haploidentical hematopoietic stem cell transplantation in aplastic anemia: a systematic review and meta-analysis of clinical outcome on behalf of the severe aplastic anemia working party of the European group for blood and marrow transplantation (SAAWP of EBMT).</title>
+<source>Bone Marrow Transplant</source>
+<pubdate>2020</pubdate>
+<volume>55</volume>
+<pages>1906&#x2013;1917</pages>
+</reference>
+<reference id="pubmed31844137">
+<accessionId id="acc037" href="info:pmid/31844137" />
+<authors>Prata PH, Eikema DJ, Afansyev B, Bosman P, Smiers F, Diez-Martin JL, Arrais-Rodrigues C, Koc Y, Poir&#x00E9; X, Sirvent A, Kr&#x00F6;ger N, Porta F, Holter W, Bloor A, Jubert C, Ganser A, Tanase A, M&#x00E9;nard AL, Pioltelli P, P&#x00E9;rez-Sim&#x00F3;n JA, Ho A, Aljurf M, Russell N, Labussiere-Wallet H, Kerre T, Rocha V, Soci&#x00E9; G, Risitano A, Dufour C, Peffault de Latour R, SAA WP of the EBMT.</authors>
+<title>Haploidentical transplantation and posttransplant cyclophosphamide for treating aplastic anemia patients: a report from the EBMT Severe Aplastic Anemia Working Party.</title>
+<source>Bone Marrow Transplant</source>
+<pubdate>2020</pubdate>
+<volume>55</volume>
+<pages>1050&#x2013;1058</pages>
+</reference>
+<reference id="pubmed29285764">
+<accessionId id="acc038" href="info:pmid/29285764" />
+<authors>Samarasinghe S, Veys P, Vora A, Wynn R.</authors>
+<title>Paediatric amendment to adult BSH Guidelines for aplastic anaemia.</title>
+<source>Br J Haematol</source>
+<pubdate>2018</pubdate>
+<volume>180</volume>
+<pages>201&#x2013;205</pages>
+</reference>
+<reference id="pubmed31743865">
+<accessionId id="acc039" href="info:pmid/31743865" />
+<authors>Geng C, Liu X, Chen M, Yang C, Han B.</authors>
+<title>Comparison of frontline treatment with intensive immunosuppression therapy and HLA-haploidentical hematopoietic stem cell transplantation for young patients with severe aplastic anemia - A meta analysis.</title>
+<source>Leuk Res</source>
+<pubdate>2020</pubdate>
+<volume>88</volume>
+<pages>106266</pages>
+</reference>
+<reference id="pubmed34986284">
+<accessionId id="acc040" href="info:pmid/34986284" />
+<authors>Peffault de Latour R, Kulasekararaj A, Iacobelli S, Terwel SR, Cook R, Griffin M, Halkes CJM, Recher C, Barraco F, Forcade E, Vallejo JC, Drexler B, Mear JB, Smith AE, Angelucci E, Raymakers RAP, de Groot MR, Daguindau E, Nur E, Barcellini W, Russell NH, Terriou L, Iori AP, La Rocca U, Sureda A, S&#x00E1;nchez-Ortega I, Xicoy B, Jarque I, Cavenagh J, Sicre de Fontbrune F, Marotta S, Munir T, Tjon JML, Tavitian S, Praire A, Clement L, Rabian F, Marano L, Hill A, Palmisani E, Muus P, Cacace F, Frieri C, van Lint MT, Passweg JR, Marsh JCW, Soci&#x00E9; G, Mufti GJ, Dufour C, Risitano AM, Severe Aplastic Anemia Working Party of the European Society for Blood and Marrow Transplantation.</authors>
+<title>Eltrombopag Added to Immunosuppression in Severe Aplastic Anemia.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>11&#x2013;23</pages>
+</reference>
+<reference id="pubmed34045293">
+<accessionId id="acc041" href="info:pmid/34045293" />
+<authors>Lee RH, Kang H, Yom SS, Smogorzewska A, Johnson DE, Grandis JR.</authors>
+<title>Treatment of Fanconi Anemia-Associated Head and Neck Cancer: Opportunities to Improve Outcomes.</title>
+<source>Clin Cancer Res</source>
+<pubdate>2021</pubdate>
+<volume>27</volume>
+<pages>5168&#x2013;5187</pages>
+</reference>
+<reference id="pubmed33541414">
+<accessionId id="acc042" href="info:pmid/33541414" />
+<authors>Li R, Tu J, Zhao J, Pan H, Fang L, Shi J.</authors>
+<title>Mesenchymal stromal cells as prophylaxis for graft-versus-host disease in haplo-identical hematopoietic stem cell transplantation recipients with severe aplastic anemia?-a systematic review and meta-analysis.</title>
+<source>Stem Cell Res Ther</source>
+<pubdate>2021</pubdate>
+<volume>12</volume>
+<pages>106</pages>
+</reference>
+<reference id="pubmed32877903">
+<accessionId id="acc043" href="info:pmid/32877903" />
+<authors>Tu J, Pan H, Li R, Wang Z, Lian Y, Li W, Shi J, Fang L.</authors>
+<title>PNH Clones for Aplastic Anemia with Immunosuppressive Therapy: A Systematic Review and Meta-Analysis.</title>
+<source>Acta Haematol</source>
+<pubdate>2021</pubdate>
+<volume>144</volume>
+<pages>34&#x2013;43</pages>
+</reference>
+<reference id="pubmed29498107">
+<accessionId id="acc044" href="info:pmid/29498107" />
+<authors>Bacigalupo A, Oneto R, Schrezenmeier H, Hochsmann B, Dufour C, Kojima S, Zhu X, Chen X, Issaragrisil S, Chuncharunee S, Jeong DC, Giammarco S, Van Lint MT, Zheng Y, Vallejo C.</authors>
+<title>First line treatment of aplastic anemia with thymoglobuline in Europe and Asia: Outcome of 955 patients treated 2001-2012.</title>
+<source>Am J Hematol</source>
+<pubdate>2018</pubdate>
+<volume>93</volume>
+<pages>643&#x2013;648</pages>
+</reference>
+<reference id="pubmed34107711">
+<accessionId id="acc045" href="info:pmid/34107711" />
+<authors>Zhang J, Wu Y, Liu J, Han S, Chen L, Wang H, Peng Y.</authors>
+<title>A systematic review and meta-analysis of the safety and efficacy of anti-thymocyte globulin combined with eltrombopag in the treatment of severe aplastic anemia.</title>
+<source>Ann Palliat Med</source>
+<pubdate>2021</pubdate>
+<volume>10</volume>
+<pages>5549&#x2013;5560</pages>
+</reference>
+<reference id="pubmed33981596">
+<accessionId id="acc046" href="info:pmid/33981596" />
+<authors>Yang Y, Ji J, Tang Z, Han B.</authors>
+<title>Comparisons Between Frontline Therapy and a Combination of Eltrombopag Plus Immunosuppression Therapy and Human Leukocyte Antigen-Haploidentical Hematopoietic Stem Cell Transplantation in Patients With Severe Aplastic Anemia: A Systematic Review.</title>
+<source>Front Oncol</source>
+<pubdate>2021</pubdate>
+<volume>11</volume>
+<pages>614965</pages>
+</reference>
+<reference id="pubmed34649020">
+<accessionId id="acc047" href="info:pmid/34649020" />
+<authors>Alotaibi H, Aljurf M, de Latour R, Alfayez M, Bacigalupo A, Fakih RE, Schrezenmeier H, Ahmed SO, Gluckman E, Iqbal S, H&#x00F6;chsmann B, Halkes C, de la Fuente J, Alshehry N, Cesaro S, Passweg J, Dufour C, Risitano AM, DiPersio J, Motabi I.</authors>
+<title>Upfront Alternative Donor Transplant versus Immunosuppressive Therapy in Patients with Severe Aplastic Anemia Who Lack a Fully HLA-Matched Related Donor: Systematic Review and Meta-Analysis of Retrospective Studies, on Behalf of the Severe Aplastic Anemia Working Party of the European Group for Blood and Marrow Transplantation.</title>
+<source>Transplant Cell Ther</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>105.e1&#x2013;105.e7</pages>
+</reference>
+<reference id="pubmed33836867">
+<accessionId id="acc048" href="info:pmid/33836867" />
+<authors>Metheny L, Politikos I, Ballen KK, Rezvani AR, Milano F, Barker JN, Brunstein CG, American Society for Transplantation and Cellular Therapy Cord Blood Special Interest Group.</authors>
+<title>Guidelines for Adult Patient Selection and Conditioning Regimens in Cord Blood Transplant Recipients with Hematologic Malignancies and Aplastic Anemia.</title>
+<source>Transplant Cell Ther</source>
+<pubdate>2021</pubdate>
+<volume>27</volume>
+<pages>286&#x2013;291</pages>
+</reference>
+<reference id="pubmed29760162">
+<accessionId id="acc049" href="info:pmid/29760162" />
+<authors>Peffault de Latour R, Chevret S, Jubert C, Sirvent A, Galambrun C, Ruggeri A, Gandemer V, Cornillon J, Rialland F, Dalle JH, Forcade E, Bruno B, Paillard C, Rorlich PS, Salmon A, F&#x00FC;rst S, Sicre de Fontbrune F, Rubio MT, Bay JO, Mohty M, Larghero J, Gluckman E, Soci&#x00E9; G, Francophone Society of Bone Marrow Transplantation and Cellular Therapy.</authors>
+<title>Unrelated cord blood transplantation in patients with idiopathic refractory severe aplastic anemia: a nationwide phase 2 study.</title>
+<source>Blood</source>
+<pubdate>2018</pubdate>
+<volume>132</volume>
+<pages>750&#x2013;754</pages>
+</reference>
+<reference id="pubmed33736979">
+<accessionId id="acc050" href="info:pmid/33736979" />
+<authors>Shafqat S, Tariq E, Parnes AD, Dasouki MJ, Ahmed SO, Hashmi SK.</authors>
+<title>Role of gene therapy in Fanconi anemia: A systematic and literature review with future directions.</title>
+<source>Hematol Oncol Stem Cell Ther</source>
+<pubdate>2021</pubdate>
+<volume>14</volume>
+<pages>290&#x2013;301</pages>
+</reference>
+<reference id="pubmed33219473">
+<accessionId id="acc051" href="info:pmid/33219473" />
+<authors>Wu Y, Yan L, Wang H, Liu H, Xing L, Fu R, Shao Z.</authors>
+<title>Clinical study on empirical and diagnostic-driven (pre-emptive) therapy of voriconazole in severe aplastic anaemia patients with invasive fungal disease after intensive immunosuppressive therapy.</title>
+<source>Eur J Clin Microbiol Infect Dis</source>
+<pubdate>2021</pubdate>
+<volume>40</volume>
+<pages>949&#x2013;954</pages>
+</reference>
+<reference id="pubmed32776425">
+<accessionId id="acc052" href="info:pmid/32776425" />
+<authors>Pulsipher MA, Lehmann LE, Bertuch AA, Sasa G, Olson T, Nakano T, Gilio A, Burroughs LM, Lipton JM, Huang JN, Dickerson K, Bertaina A, Zhuang C, Malsch M, Fleming M, Weller E, Shimamura A, Williams DA.</authors>
+<title>A study assessing the feasibility of randomization of pediatric and young adult patients between matched unrelated donor bone marrow transplantation and immune-suppressive therapy for newly diagnosed severe aplastic anemia: A joint pilot trial of the North American Pediatric Aplastic Anemia Consortium and the Pediatric Transplantation and Cellular Therapy Consortium.</title>
+<source>Pediatr Blood Cancer</source>
+<pubdate>2020</pubdate>
+<volume>67</volume>
+<pages>e28444</pages>
+</reference>
+<reference id="pubmed37335708">
+<accessionId id="acc053" href="info:pmid/37335708" />
+<authors>Liang L, Li N, Wang Y, Luo S, Song Y, Fang B .</authors>
+<title>Human leukocyte antigen-DRB1 gene polymorphism and aplastic anemia: A meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2023</pubdate>
+<volume>102</volume>
+<pages>e33513</pages>
+</reference>
+<reference id="pubmed39307421">
+<accessionId id="acc054" href="info:pmid/39307421" />
+<authors>Iftikhar R, DeFilipp Z, DeZern AE, Pulsipher MA, Bejanyan N, Burroughs LM, Kharfan-Dabaja MA, Arai S, Kassim A, Nakamura R, Salda&#x00F1;a BJD, Aljurf M, Hamadani M, Carpenter PA, Antin JH.</authors>
+<title>Allogeneic Hematopoietic Cell Transplantation for the Treatment of Severe Aplastic Anemia: Evidence-Based Guidelines from the American Society for Transplantation and Cellular Therapy.</title>
+<source>Transplant Cell Ther</source>
+<pubdate>2024</pubdate>
+<pages />
+</reference>
+<reference id="pubmed38553907">
+<accessionId id="acc055" href="info:pmid/38553907" />
+<authors>Guo H, Liu C, Kang L, Liu C, Liu Y.</authors>
+<title>Safety and efficacy of eltrombopag in patients with aplastic anemia: a systematic review and meta-analysis of randomized controlled trials.</title>
+<source>Hematology</source>
+<pubdate>2024</pubdate>
+<volume>29</volume>
+<pages>2335419</pages>
+</reference>
+<reference id="pubmed38576005">
+<accessionId id="acc056" href="info:pmid/38576005" />
+<authors>Zhang Y, Li J, Li X, Geng Q, Xie Y, Zhang G, Wei M, Ma Y.</authors>
+<title>Efficacy and safety of immunosuppressive therapy combined with eltrombopag for severe aplastic anemia: a systematic review and meta-analysis.</title>
+<source>Syst Rev</source>
+<pubdate>2024</pubdate>
+<volume>13</volume>
+<pages>101</pages>
+</reference>
+<reference id="pubmed37726286">
+<accessionId id="acc057" href="info:pmid/37726286" />
+<authors>Ji J , Wan Z, Ruan J, Yang Y, Hu Q, Chen Z, Yang C, Chen M , Han B.</authors>
+<title>Eltrombopag with or without Tacrolimus for relapsed&#x002F;refractory acquired aplastic anaemia: a prospective randomized trial.</title>
+<source>Blood Cancer J</source>
+<pubdate>2023</pubdate>
+<volume>13</volume>
+<pages>146</pages>
+</reference>
+<reference id="pubmed35688457">
+<accessionId id="acc058" href="info:pmid/35688457" />
+<authors>Zhang XT, Zhang YN, Zhu JJ, Wang X, Cao J, Chen W, Qi N, Xu KL, Cheng H.</authors>
+<title>The efficacy and safety of cyclosporine A plus androgen versus androgen alone for adult patients with non-severe aplastic anemia in China: a meta-analysis of randomized controlled trials.</title>
+<source>Hematology</source>
+<pubdate>2022</pubdate>
+<volume>27</volume>
+<pages>733&#x2013;741</pages>
+</reference>
+<reference id="pubmed36281138">
+<accessionId id="acc059" href="info:pmid/36281138" />
+<authors>Wang A, Su D, Luo J, Fu Y, Li Q, Chen S.</authors>
+<title>Long-term effects of hematopoietic growth factors in aplastic anemia patients treated with immunosuppression: Meta-analysis of randomized controlled trials.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2022</pubdate>
+<volume>101</volume>
+<pages>e31103</pages>
+</reference>
+<reference id="pubmed37442821">
+<accessionId id="acc060" href="info:pmid/37442821" />
+<authors>Zhao J, Ma L, Zheng M, Su L, Guo X.</authors>
+<title>Meta-analysis of the results of haploidentical transplantation in the treatment of aplastic anemia.</title>
+<source>Ann Hematol</source>
+<pubdate>2023</pubdate>
+<volume>102</volume>
+<pages>2565&#x2013;2587</pages>
+</reference>
+<reference id="pubmed38247114">
+<accessionId id="acc061" href="info:pmid/38247114" />
+<authors>Kulasekararaj A , Cavenagh J, Dokal I, Foukaneli T, Gandhi S , Garg M, Griffin M , Hillmen P , Ireland R, Killick S , Mansour S, Mufti G, Potter V, Snowden J , Stanworth S , Zuha R, Marsh J, BSH Committee.</authors>
+<title>Guidelines for the diagnosis and management of adult aplastic anaemia: A British Society for Haematology Guideline.</title>
+<source>Br J Haematol</source>
+<pubdate>2024</pubdate>
+<volume>204</volume>
+<pages>784&#x2013;804</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Classifying the Severity of Aplastic Anemia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Classification</th>
+<th align="left" colspan="1">Definition</th>
+<th align="left" colspan="1">5-Year Survival, Stratified by Age (in Years)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Moderate</td>
+<td align="left" colspan="1">Marrow cellularity &lt;30&#x0025;</td>
+<td align="left" colspan="1">20-49 &#x003D; 86&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Absence of severe pancytopenia</td>
+<td align="left" colspan="1">50-59 &#x003D; 72&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">At least 2 of 3 blood elements below normal<sup>*</sup>
+</td>
+<td align="left" colspan="1">60 or older &#x003D; 54&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Severe</td>
+<td align="left" colspan="1">Marrow cellularity &lt;25&#x0025;, or 25&#x0025;-50&#x0025; with &lt;30&#x0025; residual</td>
+<td align="left" colspan="1">20-49 &#x003D; 75&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Hematopoietic cells with at least 2 of 3 blood elements below normal<sup>*</sup>
+</td>
+<td align="left" colspan="1">50-59 &#x003D; 52&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">60 or older &#x003D; 60&#x0025;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Very severe</td>
+<td align="left" colspan="1">Marrow cellularity &lt;25&#x0025;, or 25&#x0025;-50&#x0025; with &lt;30&#x0025; residual</td>
+<td align="left" colspan="1">20-49 &#x003D; 49&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Hematopoietic cells with at least 2 of 3 blood elements below normal<sup>&#x2020;</sup>
+</td>
+<td align="left" colspan="1">50-59 &#x003D; 40&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">60 or older &#x003D; 21&#x0025;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>*neutrophils &lt;0.5 &#x00D7; 10<sup>9</sup>&#x002F;L, platelets &lt;20 &#x00D7; 10<sup>9</sup>&#x002F;L, and&#x002F;or reticulocytes &lt;20&#x00D7; 10<sup>9</sup>&#x002F;L; <sup>&#x2020;</sup>neutrophils &lt; 0.2 &#x00D7; 10<sup>9</sup>&#x002F;L, platelets &lt;20 &#x00D7; 10<sup>9</sup>&#x002F;L, and&#x002F;or reticulocytes &lt;20&#x00D7; 10<sup>9</sup>&#x002F;L.</feature_body>
+</feature>
+</feature_group>
+</topic>

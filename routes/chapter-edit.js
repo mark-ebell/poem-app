@@ -28,10 +28,12 @@ const displayName = req => {
 // plan (update month, editor); also the editors and the monthly updates.
 router.get('/', (req, res) => {
   const plans = planner.plans();
+  const ym = batches.thisMonth();
   res.json({
     chapters: store.editStatus().map(c => {
       const p = plans.get(c.id) || {};
-      return { ...c, plan: { month: p.month || null, editor: p.editor || null, searchTerms: p.search_terms || '' } };
+      return { ...c, plan: { month: p.month || null, years: p.years || 'every', editor: p.editor || null, searchTerms: p.search_terms || '',
+        due: planner.isDue(p, ym), nextDue: planner.nextDue(p, ym) } };
     }),
     editors: planner.editors(),
     me: req.session.username,
@@ -147,7 +149,8 @@ router.post('/:id/update', async (req, res) => {
   }
 });
 
-// The chapter's plan: PubMed search terms (blank = its title), update month, editor.
+// The chapter's plan: PubMed search terms (blank = its title), update month, every year or
+// every other year (even or odd years), editor.
 router.put('/:id/plan', (req, res) => {
   const id = knownChapter(req, res);
   if (!id) return;
@@ -156,8 +159,11 @@ router.put('/:id/plan', (req, res) => {
   const month = Number(b.month);
   if (!(month >= 1 && month <= 12)) return res.status(400).json({ error: 'Choose the month for this chapter\'s yearly update.' });
   const editor = b.editor ? String(b.editor) : null;
-  if (editor && !planner.editors().some(e => e.username === editor)) return res.status(400).json({ error: 'Unknown editor.' });
-  planner.savePlan(id, { searchTerms, month, editor }, displayName(req));
+  // An editor without an account (named in the assignment spreadsheet) can stay as is.
+  const was = (planner.plan(id) || {}).editor;
+  if (editor && editor !== was && !planner.editors().some(e => e.username === editor)) return res.status(400).json({ error: 'Unknown editor.' });
+  const years = planner.YEARS.includes(b.years) ? b.years : 'every';
+  planner.savePlan(id, { searchTerms, month, years, editor }, displayName(req));
   res.json({ ok: true });
 });
 

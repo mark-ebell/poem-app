@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Necrotizing fasciitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0750</topic_id>
+<topic_comment />
+<topic_lastupdated>06/14/2023</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Karl T. Clebak, MD, MHA, FAAFP</author_name>
+<author_title>Associate Professor, Program Director</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Penn State College of Medicine</author_institution>
+<author_email>kclebak&#x0040;pennstatehealth.psu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hershey</author_city>
+<author_state>PA</author_state>
+<author_zip>17033</author_zip>
+</author>
+<author primary="no">
+<author_name>Chloe Courchesne, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of California, Irvine School of Medicine</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Irvine</author_city>
+<author_state>CA</author_state>
+<author_zip>92697 </author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Richard P. Usatine, MD</editor_name>
+<editor_title>Professor of Family Medicine and Dermatology</editor_title>
+<editor_institution>University of Texas Health Science Center San Antonio</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect necrotizing fasciitis (NF) when a patient presents with cellulitis and pain out of proportion to the severity of the lesion, signs of systemic toxicity (hypotension, tachycardia, and hyperthermia), bullae, patches of cutaneous necrosis, or tissue crepitus. <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Give broad-spectrum IV antibiotics immediately when high clinical suspicion is present (ie, ampicillin-sulbactam or piperacillin-tazobactam PLUS clindamycin PLUS ciprofloxacin). <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Urgent surgical exploration, debridement, and fasciotomies are critical. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Consider amputation if no viable tissue is left or with infection that is unable to be controlled with other treatments. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>The overall mortality rate is high, ranging from 23&#x0025; to 76&#x0025; in older studies, and 8&#x0025; to 13&#x0025; in newer studies. <evidence rating="B" system="SORT"> B </evidence></listitem>
+</list>
+</BottomLine>
+<definition>Necrotizing fasciitis is a rare bacterial infection of the deeper layers of skin characterized by widespread necrosis of the skin, subcutaneous tissue, and superficial fascia easily spreading across the fascial plane. Fournier's gangrene is a type of NF of the perineal and perianal regions that also often involves the genital regions of both men and women; it can rapidly spread along the fascial lines and involve the retroperitoneum.<xref ref="pubmed17593474" resource="acc001" />
+<xref ref="pubmed18349455" resource="acc002" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>0.4 to 0.53 cases per 100,000 population per year.<xref ref="pubmed18048033" resource="acc003" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>A systematic review of 27 studies found that monomicrobial infections mostly affected the extremities, while polymicrobial infections were associated with Fournier gangrene. <em>Staphylococcus aureus</em>, <em>bacteroides</em> spp, and <em>streptococcus pyogenes</em> were the most common pathogens.<xref ref="bib41_778_1685881561580" resource="acc038" /></listitem>
+<listitem>Based on data from a systematic review of 11 studies with 355 patients,<xref ref="pubmed18048033" resource="acc003" /> the microbiology of NF of the extremities is as follows: <list style="bulleted">
+<listitem><em>Staphylococcus aureus</em> (19&#x0025;)</listitem>
+<listitem><em>Streptococcus</em> group A (14&#x0025;)</listitem>
+<listitem><em>Streptococcus</em>
+<em>viridans</em> (10&#x0025;)</listitem>
+<listitem><em>Staphylococcus</em> coagulase negative (9&#x0025;)</listitem>
+<listitem><em>Staphylococcus</em> other species (9&#x0025;)</listitem>
+<listitem><em>Escherichia coli</em> (7&#x0025;)</listitem>
+<listitem><em>Coryneform</em> bacteria (6&#x0025;)</listitem>
+<listitem><em>Pseudomonas</em> species (5&#x0025;)</listitem>
+<listitem><em>Clostridia</em> species (5&#x0025;)</listitem>
+<listitem><em>Enterobacter</em> species (5&#x0025;)</listitem>
+<listitem><em>Vibrio</em> species (5&#x0025;)</listitem>
+<listitem><em>Klebsiella</em> species (4&#x0025;)</listitem>
+</list></listitem>
+<listitem>Type I infections are polymicrobial and are more common. An average of five pathogens are typically cultured from Type I infections, comprised mainly of bowel or genitourinary flora. Type II infections are monomicrobial, most commonly caused by S. pyogenes, and carry higher mortality. <xref ref="bib31_84_1555295039702" resource="acc028" /></listitem>
+<listitem>Diabetes, smoking, IV drug use and alcohol abuse are common comorbidities.<xref ref="pubmed18048033" resource="acc003" />
+<xref ref="pubmed24338771" resource="acc025" />
+<xref ref="bib31_84_1555295039702" resource="acc028" /> A large case series found an association with obesity.<xref ref="pubmed22030440" resource="acc021" /></listitem>
+<listitem>It is a rare complication of bullous pemphigoid (0.4 to 15 cases&#x002F;100,000).<xref ref="bib39_206_1685880903139" resource="acc036" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Pathogens enter through skin portal and have rapid growth; the secretion of harmful toxins stimulates cytokine release.</listitem>
+<listitem>Cytokines damage endothelial lining, which leads to fluid leaking into the extravascular space causing diminished blood flow, tissue hypoxemia, and tissue death.</listitem>
+<listitem>Adjacent tissues experience vasculitis and thrombosis, and further necrosis occurs involving subcutaneous nerves.</listitem>
+<listitem>Toxins leaking into the bloodstream can lead to bacteremia (up to 60&#x0025;), sepsis, and possible death.<xref ref="pubmed12430520" resource="acc020" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Injection drug use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes mellitus</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Trauma</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Recent Surgery</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiovascular disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Peripheral vascular disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Immunosuppression</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Smoking</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic alcohol use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Obesity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Malignancy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect necrotizing fasciitis (NF) when a patient presents with cellulitis and pain out of proportion to the severity of the lesion, signs of systemic toxicity (hypotension, tachycardia, and hyperthermia), bullae, patches of cutaneous necrosis, or tissue crepitus. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed18048033" resource="acc003" />
+<xref ref="pubmed24338771" resource="acc025" /></listitem>
+<listitem>If above are negative but clinical presentation is still suspicious for NF, order blood cultures, CBC, serum sodium, hemoglobin, glucose, serum creatinine, and albumin,<xref ref="pubmed15241098" resource="acc004" />
+<xref ref="pubmed10989895" resource="acc005" />
+<xref ref="pubmed18234571" resource="acc010" />
+<xref ref="pubmed10737571" resource="acc011" /> and consider imaging (CT, MRI) or in children, ultrasound or MRI. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed18349455" resource="acc002" />
+<xref ref="pubmed9783789" resource="acc008" />
+<xref ref="pubmed9490940" resource="acc009" />
+<xref ref="pubmed24288403" resource="acc026" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Cellulitis</Differential_Name>
+<Differential_Features>No crepitus on PE, no systemic signs of toxicity other than possible fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Erysipelas</Differential_Name>
+<Differential_Features>Raised advancing borders and sharp edges due to lymphedema</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Deep venous thrombosis</Differential_Name>
+<Differential_Features>Use LE Doppler to identify clot</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pyoderma gangrenosum</Differential_Name>
+<Differential_Features>Often painless and without positive culture</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Staphylococcal scalded skin syndrome</Differential_Name>
+<Differential_Features>Exfoliative skin disease caused by toxin-producing strains of <em>Staphylococcus aureus</em></Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Ask about pain, fever, shortness of breath, and preceding trauma.</listitem>
+<listitem>Suspect necrotizing fasciitis (NF) in patients with cellulitis and pain out of proportion to the severity of the lesion, signs of systemic toxicity (hypotension, tachycardia, and hyperthermia), hemorrhagic bullae, patches of cutaneous necrosis, or tissue crepitus.</listitem>
+<listitem>See <xref ref="table001" /> for frequency of symptoms in patients presenting with NF.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>If NF is clinically suspected, order CBC, blood cultures, serum sodium, hemoglobin, glucose, serum creatinine, and albumin.<xref ref="pubmed15241098" resource="acc004" />
+<xref ref="pubmed10989895" resource="acc005" />
+<xref ref="pubmed18234571" resource="acc010" />
+<xref ref="pubmed10737571" resource="acc011" /> This information can be used to calculate the LRINEC score (below). Consider CT or MRI imaging if the diagnosis remains in doubt (or in children, ultrasound, or MRI).<xref ref="pubmed18349455" resource="acc002" />
+<xref ref="pubmed9783789" resource="acc008" />
+<xref ref="pubmed9490940" resource="acc009" /></listitem>
+<listitem>In a series of 451 patients with NF of the upper and lower limb, 13&#x0025; had gas on x-ray, 7&#x0025; soft tissue swelling on x-ray, 7&#x0025; albumin &lt;3.0 g&#x002F;dL, and only 2&#x0025; hyponatremia.<xref ref="pubmed18048033" resource="acc003" /></listitem>
+<listitem>WBC greater than 15.4 x 10<sup>9</sup>&#x002F;L and sodium less than 135 mEq&#x002F;L provide strong evidence in favor of NF. If both are normal, the diagnosis is very unlikely.</listitem>
+<listitem>X-rays can be more sensitive than physical exam for the detection of soft-tissue gas, with radiographic findings present before crepitus is detected. However early findings of NF can appear similar to cellulits on radiography. <xref ref="bib32_38_1555335832585" resource="acc029" /></listitem>
+<listitem>MRI with gadolinium has been reported to accurately show fascial inflammation and detect fascial necrosis. If no deep fascial involvement is revealed then NF can be excluded.<xref ref="pubmed9783789" resource="acc008" />
+<xref ref="pubmed9490940" resource="acc009" />
+<xref ref="bib32_38_1555335832585" resource="acc029" /></listitem>
+<listitem>CT is the primary imaging modality in the work up of NF given availablitiy and high spatial resolution. Gas within fluid collections along subfascial planes are the hallmark findings of NF. Other findings may include asymmetrical fascial thickening, subcutaneous emphysema, fluid accumulations, and abscess formation. CT can also help with treatment planning by showing whether or not the infection has spread up the fascial plane to the perineal structures or the retroperitoneum as well as identifying the potential infectious source.<xref ref="pubmed18349455" resource="acc002" />
+<xref ref="bib32_38_1555335832585" resource="acc029" /></listitem>
+<listitem>Positive ultrasound findings include an echolgenic layer of gas above the deep fascia with posterior acoustic shadowing, distorted thickened fascia often times with fluid accumulation, and diffuse fascial thickening.<xref ref="pubmed15371620" resource="acc018" />
+<xref ref="bib32_38_1555335832585" resource="acc029" /></listitem>
+<listitem>In a systematic review (n&#x003D;221 patients), point of care ultrasound had an overal overall sensitivity ranging from 85.4&#x0025; to 100&#x0025; while the specificity ranged from 44.7&#x0025; to 98.2&#x0025;. Fluid accumulation along the fascial plane was the most sensitive (85.4&#x0025;; 95&#x0025; CI 72.2&#x0025;-93.9&#x0025;), while subcutaneous emphysema was the most specific (100&#x0025;; 95&#x0025; CI 92.5&#x0025; - 100&#x0025;).<xref ref="bib38_6_1679072988261" resource="acc035" /></listitem>
+<listitem>Transcutaneous tissue oxygen saturation measuring using near infrared spectroscopy, a noninvasive reliable method for assessing patients, has shown to be extremely accurate for identifying and diagnosing NF when O<sub>2</sub> saturation falls below 70&#x0025;.<xref ref="pubmed15332062" resource="acc016" /> Ultrasound can also detect soft tissue air.<xref ref="pubmed21632993" resource="acc024" /></listitem>
+<listitem>Findings at surgical exploration and skin biopsy are the only absolute means of diagnosis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The laboratory risk indicator for necrotizing fasciitis (LRINEC) is a simple model that has been developed and validated to distinguish NF from nonnecrotizing skin infection using only objective laboratory findings (see <xref ref="table002" />). <xref ref="bib34_192_1619797203110" resource="acc031" /></listitem>
+<listitem>Integrating MRI findings (including thickening of deep fascia &#x2265;3mm and multi-compartmental involvement) with the LRINEC score has been shown to improve positive (82&#x0025; vs 79&#x0025;) and negative predictive values (77&#x0025; vs 67&#x0025;) compared to the LRINEC alone (see <xref ref="table003" />). A score &#x2265;5.5 corresponds to 50&#x0025; probability of NF.<xref ref="bib33_287_1555336643958" resource="acc030" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to management.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>453</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Give broad-spectrum IV antibiotics immediately when high clinical suspicion is present with coverage for both aerobes, including methicillin-resistant <em>Staphylococcus aureus, </em>and anaereobes (ie, a carbapenem such as meropenem 1 g every 8 hours or a beta-lactamese inhibitor ampicillin-sulbactam 1.5 to 3.0 g every 6 to 8 hours or piperacillin-tazobactam 3.37 g every 6 to 8 hours plus vancomycin 15mg&#x002F;kg every 12 hours or linezolid 600mg IV every 12 hours, all given IV). <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed22030440" resource="acc021" />
+<xref ref="bib35_682_1619797560282" resource="acc032" /></listitem>
+<listitem>Urgent surgical exploration, debridement, and fasciotomies are critical. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed22030440" resource="acc021" /></listitem>
+<listitem>Fluid replacement and nutritional support improves outcomes. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed18048033" resource="acc003" /></listitem>
+<listitem>Consider amputation if no viable tissue left or with infection that is unable to be controlled with other treatments. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed18048033" resource="acc003" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Give broad-spectrum IV antibiotics immediately when high clinical suspicion is present. IDSA guidelines recommend ampicillin-sulbactam 1.5 to 3.0 g every 6 to 8 hours or piperacillin-tazobactam 3.37 g every 6 to 8 hours plus clindamycin 600 to 900 mg&#x002F;kg every 8 hours plus ciprofloxacin 400 mg every 12 hours for suspected mixed infection, all given IV. Alternatives include imipenem&#x002F;cilastatin 1 g every 6 to 8 hours IV; meropenem 1 g every 8 hours IV; ertapenem 1 g once daily; or cefotaxime 2 g every 6 hours plus either metronidazole 500 mg every 6 hours IV or clindamycin 600 to 900 mg&#x002F;kg every 8 hours IV.<xref ref="pubmed22030440" resource="acc021" /></listitem>
+<listitem>For patients with severe penicillin hypersensitivity, use clindamycin or metronidazole with an aminoglycoside or fluoroquinolone.<xref ref="pubmed22030440" resource="acc021" /></listitem>
+<listitem>After etiology is confirmed, begin direct antibiotic treatment toward the specific organism guided by sensitivities. For <em>Streptococcus</em> infection, penicillin 2 to 4 MU every 4 to 6 hours IV plus clindamycin 600 to 900 mg&#x002F;kg every 8 hours IV are recommended. For <em>S. aureus</em> infection, nafcillin, oxacillin, cefazolin, and vancomycin (if resistant) are recommended.<xref ref="pubmed22030440" resource="acc021" /></listitem>
+<listitem>A Cochrane review evaluating interventions for necrotizing soft tissue infections in adults found scarce evidence for medical therapies such as antibiotics and adjuvant treatments like intravenous immunoglobulin (IVIG) and CD28 receptor antagonists. Evidence was deemed very low quality due to a paucity of trials, small sample sizes, and many studies with high risk of bias.<xref ref="bib36_957_1625842325051" resource="acc033" /></listitem>
+<listitem>Topical silver sulfadiazine has shown good efficacy following debridement of necrotic tissue.<xref ref="pubmed12792231" resource="acc019" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Urgent surgical exploration, debridement, and fasciotomies are critical for survival. Repeat surgical debridement is necessary in most cases (mean number 3 per patient).<xref ref="pubmed22030440" resource="acc021" /></listitem>
+<listitem>Skin and muscle grafting have shown success, and decreased healing time after infection has cleared.</listitem>
+<listitem>Amputation if no viable tissue left or with infection that is unable to be controlled with other treatments.</listitem>
+<listitem>A Cochrane review evaluating interventions for necrotizing soft tissue infections in adults found scarce evidence for surgical therapies.<xref ref="bib36_957_1625842325051" resource="acc033" /></listitem>
+<listitem>A systematic review of studies comparing skin-sparing debridement with en bloc debridement found only 9 case series and a single cohort study. The authors were unable to conclude whether skin-spring debridement was non-inferior to more extensive procedures.<xref ref="bib42_38_1685881733085" resource="acc039" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>IV immunoglobulin has sporadically been reported to reduce mortality.<xref ref="pubmed17473566" resource="acc013" /></listitem>
+<listitem>Hyperbaric oxygen therapy (HBOT) is the standard treatment for clostridial myonecrosis; however, it has been proposed as an adjunct to other treatment modalities to inhibit growth and kill anaerobic bacteria. It is reported to be most helpful before end organ damage occurs.<xref ref="pubmed11979121" resource="acc014" /> However, a Cochrane review evaluating adjunctive HBOT for necrotizing fasciitis did not find randomized trials evaluating its efficacy, safety, and cost-effectiveness.<xref ref="bib37_101_1625842748293" resource="acc034" /></listitem>
+<listitem>Vacuum-assisted closure (VAC; KCI, San Antonio, Texas) delivers negative pressure therapy that has been reported to be effective in managing wounds and decreasing morbidity associated with nonhealing open wounds.<xref ref="pubmed16877210" resource="acc007" /></listitem>
+<listitem>A systematic review of VAC identified 7 trials with 249 participants. Compared with a conventional dressing, patients the VAC groups had lower mortality (OR 0.27, 95&#x0025; CI 0.09-0.87) and a trend toward shorter hospital stays (mean difference -8.5 days, 95&#x0025; CI +0.5 to -17.5). Complication rates and the number of debridements needed did not differ between groups.<xref ref="bib40_718_1685881263034" resource="acc037" /></listitem>
+<listitem>Nutritional support is often necessary secondary to insensible losses.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Immediate hospitalization and surgical referral when high degree of suspicion is present.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Hypotension on presentation, delay in surgery more than 24 hours, temperature &lt;37 degrees Celsius, infection of the head&#x002F;neck&#x002F;thorax&#x002F;abdomen, infection with vibrio <em>Aeromonas</em>, cirrhosis, soft tissue air, older age, renal dysfunction, elevated aPTT and the band form of NF are associated with increased mortality, while hemorrhagic bullae are associated with decreased mortality. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed18272096" resource="acc017" />
+<xref ref="pubmed21825948" resource="acc023" /></listitem>
+<listitem>WBC more than 15.4 x 10<sup>9</sup>&#x002F;L, sodium less than 135 mEq&#x002F;L, and elevated interleukin-1 receptor antagonist are associated with increased mortality and hypoalbuminemia. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15241098" resource="acc004" />
+<xref ref="pubmed10989895" resource="acc005" />
+<xref ref="pubmed18234571" resource="acc010" />
+<xref ref="pubmed10737571" resource="acc011" /></listitem>
+<listitem>A clinical decision rule was developed to predict mortality in patients with necrotizing fasciitis, and found that age over 60 years, dependence prior to hospitalization, dialysis, emergency operation, pre-operative septic shock, and decreased platelet count were independent predictors of mortality. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed23628224" resource="acc027" /></listitem>
+<listitem>Histopathologic findings of few to no PMNs and positive Gram stain have a significantly increased rate of mortality and poorer prognosis. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15668865" resource="acc006" /></listitem>
+<listitem>Rate of limb loss was 22.3&#x0025; in one series,<xref ref="pubmed18048033" resource="acc003" /> and overall mortality rate ranges from 23&#x0025; to 76&#x0025;. Two large case series with a range of necrotizing acute soft tissue infections found 8&#x0025; to 13&#x0025; mortality rate. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed18048033" resource="acc003" />
+<xref ref="pubmed10874222" resource="acc015" />
+<xref ref="pubmed22030440" resource="acc021" />
+<xref ref="pubmed22138809" resource="acc022" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>In children, the most common etiology was group A <em>Streptococcus</em> following infection with varicella.</listitem>
+<listitem>These cases have decreased following the introduction of the varicella vaccine.<xref ref="pubmed17586195" resource="acc012" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed17593474">
+<accessionId id="acc001" href="info:pmid/17593474" />
+<authors>Basoglu M, Ozboy I, Atamanalp SS, et al.</authors>
+<title>Management of Fournier's gangrene: Review of 45 cases.</title>
+<source>Surg Today</source>
+<pubdate>2007</pubdate>
+<volume>37</volume>
+<pages>558-563.</pages>
+</reference>
+<reference id="pubmed18349455">
+<accessionId id="acc002" href="info:pmid/18349455" />
+<authors>Levenson RB, Singh AK, Novelline RA.</authors>
+<title>Fournier gangrene: Role of imaging.</title>
+<source>Radiographics</source>
+<pubdate>2008</pubdate>
+<volume>28</volume>
+<pages>519-528.</pages>
+</reference>
+<reference id="pubmed18048033">
+<accessionId id="acc003" href="info:pmid/18048033" />
+<authors>Angoules AG, Kontakis G, Drakoulakis E, et al.</authors>
+<title>Necrotising fasciitis of upper and lower limb: A systematic review.</title>
+<source>Injury</source>
+<pubdate>2007</pubdate>
+<volume>5</volume>
+<pages>S19-S26.</pages>
+</reference>
+<reference id="pubmed15241098">
+<accessionId id="acc004" href="info:pmid/15241098" />
+<authors>Wong CH, Khin LW, Heng KS, et al.</authors>
+<title>The LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) score: A tool for distinguishing necrotizing fasciitis from other soft tissue infections.</title>
+<source>Crit Care Med</source>
+<pubdate>2004</pubdate>
+<volume>32</volume>
+<pages>1535-1541.</pages>
+</reference>
+<reference id="pubmed10989895">
+<accessionId id="acc005" href="info:pmid/10989895" />
+<authors>Wall DB, Klein SR, Black S, et al.</authors>
+<title>A simple model to help distinguish necrotizing fasciitis from nonnecrotizing soft tissue infection.</title>
+<source>J Am Coll Surg</source>
+<pubdate>2000</pubdate>
+<volume>191</volume>
+<pages>227-231.</pages>
+</reference>
+<reference id="pubmed15668865">
+<accessionId id="acc006" href="info:pmid/15668865" />
+<authors>Bakleh M, Wold LE, Mandrekar JN, et al.</authors>
+<title>Correlation of histopathologic findings with clinical outcome in necrotizing fasciitis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2005</pubdate>
+<volume>40</volume>
+<pages>410-414.</pages>
+</reference>
+<reference id="pubmed16877210">
+<accessionId id="acc007" href="info:pmid/16877210" />
+<authors>Huang WS, Hsieh SC, Hsieh CS, et al.</authors>
+<title>Use of vacuum-assisted wound closure to manage limb wounds in patients suffering from acute necrotizing fasciitis.</title>
+<source>Asian J Surg</source>
+<pubdate>2006</pubdate>
+<volume>29</volume>
+<pages>135-139.</pages>
+</reference>
+<reference id="pubmed9783789">
+<accessionId id="acc008" href="info:pmid/9783789" />
+<authors>Brothers TE, Tagge DU, Stutley JE, et al.</authors>
+<title>Magnetic resonance imaging differentiates between necrotizing and non-necrotizing fasciitis of the lower extremity.</title>
+<source>J Am Coll Surg</source>
+<pubdate>1998</pubdate>
+<volume>187</volume>
+<pages>416-421.</pages>
+</reference>
+<reference id="pubmed9490940">
+<accessionId id="acc009" href="info:pmid/9490940" />
+<authors>Schmid MR, Kossmann T, Duewell S.</authors>
+<title>Differentiation of necrotizing fasciitis and cellulitis using MR imaging.</title>
+<source>AJR Am J Roentgenol</source>
+<pubdate>1998</pubdate>
+<volume>170</volume>
+<pages>615-620.</pages>
+</reference>
+<reference id="pubmed18234571">
+<accessionId id="acc010" href="info:pmid/18234571" />
+<authors>Afifi RY, El-Hindawi AA.</authors>
+<title>Acute necrotizing fasciitis in Egyptian patients: A case series.</title>
+<source>Int J Surg</source>
+<pubdate>2008</pubdate>
+<volume>6</volume>
+<pages>7-14.</pages>
+</reference>
+<reference id="pubmed10737571">
+<accessionId id="acc011" href="info:pmid/10737571" />
+<authors>Wall DB, de Virgilio C, Black S, et al.</authors>
+<title>Objective criteria may assist in distinguishing necrotizing fasciitis from nonnecrotizing soft tissue infection.</title>
+<source>Am J Surg</source>
+<pubdate>2000</pubdate>
+<volume>179</volume>
+<pages>17-21.</pages>
+</reference>
+<reference id="pubmed17586195">
+<accessionId id="acc012" href="info:pmid/17586195" />
+<authors>Eneli I, Davies HD.</authors>
+<title>Epidemiology and outcome of necrotizing fasciitis in children: An active surveillance study of the Canadian Paediatric Surveillance Program.</title>
+<source>J Pediatr</source>
+<pubdate>2007</pubdate>
+<volume>151</volume>
+<pages>79-84.</pages>
+</reference>
+<reference id="pubmed17473566">
+<accessionId id="acc013" href="info:pmid/17473566" />
+<authors>Salcido RS.</authors>
+<title>Necrotizing fasciitis: Reviewing the causes and treatment strategies.</title>
+<source>Adv Skin Wound Care</source>
+<pubdate>2007</pubdate>
+<volume>20</volume>
+<pages>288-293.</pages>
+</reference>
+<reference id="pubmed11979121">
+<accessionId id="acc014" href="info:pmid/11979121" />
+<authors>Seal DV.</authors>
+<title>Necrotizing fasciitis.</title>
+<source>Curr Opin Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>14</volume>
+<pages>127-132.</pages>
+</reference>
+<reference id="pubmed10874222">
+<accessionId id="acc015" href="info:pmid/10874222" />
+<authors>Fontes RA, Ogilvie CM, Miclau T.</authors>
+<title>Necrotizing soft-tissue infections.</title>
+<source>J Am Acad Orthop Surg</source>
+<pubdate>2000</pubdate>
+<volume>8</volume>
+<pages>151-158.</pages>
+</reference>
+<reference id="pubmed15332062">
+<accessionId id="acc016" href="info:pmid/15332062" />
+<authors>Wang TL, Hung CR.</authors>
+<title>Role of tissue oxygen saturation monitoring in diagnosing necrotizing fasciitis of the lower limbs.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2004</pubdate>
+<volume>44</volume>
+<pages>222-228.</pages>
+</reference>
+<reference id="pubmed18272096">
+<accessionId id="acc017" href="info:pmid/18272096" />
+<authors>Hsiao CT, Weng HH, Tuan YD, et al.</authors>
+<title>Predictors of mortality in patients with necrotizing fasciitis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2008</pubdate>
+<volume>26</volume>
+<pages>170-175.</pages>
+</reference>
+<reference id="pubmed15371620">
+<accessionId id="acc018" href="info:pmid/15371620" />
+<authors>Fugitt JB, Puckett ML, Quigley MM, Kerr SM.</authors>
+<title>Necrotizing fasciitis.</title>
+<source>Radiographics</source>
+<pubdate>2004</pubdate>
+<volume>24</volume>
+<pages>1472-1476.</pages>
+</reference>
+<reference id="pubmed12792231">
+<accessionId id="acc019" href="info:pmid/12792231" />
+<authors>Barillo DJ, McManus AT, Cancio LC, et al.</authors>
+<title>Burn center management of necrotizing fasciitis.</title>
+<source>J Burn Care Rehabil</source>
+<pubdate>2003</pubdate>
+<volume>24</volume>
+<pages>127-132.</pages>
+</reference>
+<reference id="pubmed12430520">
+<accessionId id="acc020" href="info:pmid/12430520" />
+<authors>Fink A, DeLuca G.</authors>
+<title>Necrotizing fasciitis: pathophysiology and treatment.</title>
+<source>Dermat Nurs</source>
+<pubdate>2002</pubdate>
+<volume>14</volume>
+<pages>324-327.</pages>
+</reference>
+<reference id="pubmed22030440">
+<accessionId id="acc021" href="info:pmid/22030440" />
+<authors>Bernal NP, Latenser BA, Born JM, Liao J.</authors>
+<title>Trends in 393 necrotizing acute soft tissue infection patients 2000-2008.</title>
+<source>Burns</source>
+<pubdate>2012</pubdate>
+<volume>38</volume>
+<pages>252-260</pages>
+</reference>
+<reference id="pubmed22138809">
+<accessionId id="acc022" href="info:pmid/22138809" />
+<authors>Tunovic E, Gawaziuk J, Bzura T, Embil J, Esmail A, Logsetty S.</authors>
+<title>Necrotizing fasciitis: A six-year experience.</title>
+<source>J Burn Care Res</source>
+<pubdate>2012 Jan-Feb</pubdate>
+<volume>33</volume>
+<pages>93-100</pages>
+</reference>
+<reference id="pubmed21825948">
+<accessionId id="acc023" href="info:pmid/21825948" />
+<authors>Huang KF, Hung MH, Lin YS, Lu CL, Liu C, Chen CC, Lee YH.</authors>
+<title>Independent predictors of mortality for necrotizing fasciitis: A retrospective analysis in a single institution.</title>
+<source>J Trauma</source>
+<pubdate>2011</pubdate>
+<volume>71</volume>
+<pages>467-473; discussion 473</pages>
+</reference>
+<reference id="pubmed21632993">
+<accessionId id="acc024" href="info:pmid/21632993" />
+<authors>Butcher CH, Dooley RW, Levitov AB.</authors>
+<title>Detection of subcutaneous and intramuscular air with sonography: A sensitive and specific modality.</title>
+<source>J Ultrasound Med</source>
+<pubdate>2011</pubdate>
+<volume>30</volume>
+<pages>791-795</pages>
+</reference>
+<reference id="pubmed24338771">
+<accessionId id="acc025" href="info:pmid/24338771" />
+<authors>Goh T, Goh LG, Ang CH, Wong CH.</authors>
+<title>Early diagnosis of necrotizing fasciitis.</title>
+<source>Br J Surg</source>
+<pubdate>2014</pubdate>
+<volume>101</volume>
+<pages>e119-e125</pages>
+</reference>
+<reference id="pubmed24288403">
+<accessionId id="acc026" href="info:pmid/24288403" />
+<authors>Ali SZ, Srinivasan S, Peh WC.</authors>
+<title>MRI in necrotizing fasciitis of the extremities.</title>
+<source>Br J Radiol</source>
+<pubdate>2014</pubdate>
+<volume>87</volume>
+<pages>20130560</pages>
+</reference>
+<reference id="pubmed23628224">
+<accessionId id="acc027" href="info:pmid/23628224" />
+<authors>Faraklas I, Stoddard GJ, Neumayer LA, Cochran A.</authors>
+<title>Development and validation of a necrotizing soft-tissue infection mortality risk calculator using NSQIP.</title>
+<source>J Am Coll Surg</source>
+<pubdate>2013</pubdate>
+<volume>217</volume>
+<pages />
+</reference>
+<reference id="bib31_84_1555295039702">
+<accessionId id="acc028" href="info:pmid/30115333" />
+<authors> Clebak KT, Malone MA.</authors>
+<title>Skin Infections.</title>
+<source>Prim. Care</source>
+<pubdate>2018</pubdate>
+<volume>45</volume>
+<pages>433&#x2013;454</pages>
+</reference>
+<reference id="bib32_38_1555335832585">
+<accessionId id="acc029" href="info:pmid/29537292" />
+<authors> Tso DK, Singh AK.</authors>
+<title>Necrotizing fasciitis of the lower extremity: Imaging pearls and pitfalls.</title>
+<source>Br J Radiol</source>
+<pubdate>2018</pubdate>
+<volume>91</volume>
+<pages>20180093</pages>
+</reference>
+<reference id="bib33_287_1555336643958">
+<accessionId id="acc030" href="info:pmid/30887193" />
+<authors> Yoon MA, Chung HW, Yeo Y, Yoo HJ, Kang Y, Chee CG, Lee MH, Lee SH, Shin MJ.</authors>
+<title>Distinguishing necrotizing from non-necrotizing fasciitis: A new predictive scoring integrating MRI in the LRINEC score.</title>
+<source>Eur Radiol</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="bib34_192_1619797203110">
+<accessionId id="acc031" href="info:pmid/29672405" />
+<authors> Fernando SM, Tran A, Cheng W, Rochwerg B, Kyeremanteng K, Seely AJE, Inaba K, Perry JJ.</authors>
+<title>Necrotizing soft tissue infection: diagnostic accuracy of physical examination, imaging, and LRINEC score: A systematic review and meta-analysis.</title>
+<source>Ann Surg</source>
+<pubdate>2019</pubdate>
+<volume>269</volume>
+<pages>58&#x2013;65</pages>
+</reference>
+<reference id="bib35_682_1619797560282">
+<accessionId id="acc032" href="info:pmid/25725056" />
+<authors />
+<title>Stevens DL et al (Clin Infect Dis 2014; 59:147-59).</title>
+<source>Clin Infect Dis</source>
+<pubdate>2015</pubdate>
+<volume>60</volume>
+<pages>1448</pages>
+</reference>
+<reference id="bib36_957_1625842325051">
+<accessionId id="acc033" href="info:wiley/cochrane/CD011680" />
+<chapter_authors>Hua C, Bosc R, Sbidian E, De Prost N, Hughes C, Jabre P, Chosidow O, Le Cleach L.</chapter_authors>
+<chapter_title>Interventions for necrotizing soft tissue infections in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 5. Art. No.: CD011680. DOI: 10.1002&#x002F;14651858.CD011680.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="bib37_101_1625842748293">
+<accessionId id="acc034" href="info:wiley/cochrane/CD007937" />
+<chapter_authors>Levett DZ, Bennett MH, Millar I.</chapter_authors>
+<chapter_title>Adjunctive hyperbaric oxygen for necrotizing fasciitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 1. Art. No.: CD007937. DOI: 10.1002&#x002F;14651858.CD007937.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="bib38_6_1679072988261">
+<accessionId id="acc035" href="info:pmid/36580698" />
+<authors> Marks A, Patel D, Sundaram T, Johnson J, Gottlieb M.</authors>
+<title>Ultrasound for the diagnosis of necrotizing fasciitis: A systematic review of the literature.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2023</pubdate>
+<volume>65</volume>
+<pages>31&#x2013;35</pages>
+</reference>
+<reference id="bib39_206_1685880903139">
+<accessionId id="acc036" href="info:pmid/37109703" />
+<authors> Stoji&#x010D;i&#x0107; M, Juri&#x0161;i&#x0107; M, Marinkovi&#x0107; M, Karamarkovi&#x0107; M, Jovanovi&#x0107; M, Jeremi&#x0107; J, Jovi&#x0107; M, Vlahovi&#x0107; A, Jovanovi&#x0107; M, Radenovi&#x0107; K, Jovi&#x0107;evi&#x0107; N, Vasovi&#x0107; D.</authors>
+<title>Necrotizing Fasciitis-Severe Complication of Bullous Pemphigoid: A Systematic Review, Risk Factors, and Treatment Challenges.</title>
+<source>Medicina (Kaunas)</source>
+<pubdate>2023</pubdate>
+<volume>59</volume>
+<pages />
+</reference>
+<reference id="bib40_718_1685881263034">
+<accessionId id="acc037" href="info:pmid/36737764" />
+<authors> Zhang R, Zhang Y, Hou L, Yan C.</authors>
+<title>Vacuum-assisted closure versus conventional dressing in necrotizing fasciitis: a systematic review and meta-analysis.</title>
+<source>J Orthop Surg Res</source>
+<pubdate>2023</pubdate>
+<volume>18</volume>
+<pages>85</pages>
+</reference>
+<reference id="bib41_778_1685881561580">
+<accessionId id="acc038" href="info:pmid/35904966" />
+<authors> Dhanasekara CS, Marschke B, Morris E, Kahathuduwa CN, Dissanaike S.</authors>
+<title>Regional Variations in Microbiology and Outcomes of Necrotizing Soft Tissue Infections: A Systematic Review and Meta-Analysis.</title>
+<source>Surg Infect (Larchmt)</source>
+<pubdate>2022</pubdate>
+<volume>23</volume>
+<pages>634&#x2013;644</pages>
+</reference>
+<reference id="bib42_38_1685881733085">
+<accessionId id="acc039" href="info:pmid/33845413" />
+<authors> Suijker J, Zheng KJ, Pijpe A, Nasroe F, Meij-de Vries A.</authors>
+<title>The Skin-Sparing Debridement Technique in Necrotizing Soft-Tissue Infections: A Systematic Review.</title>
+<source>J Surg Res</source>
+<pubdate>2021</pubdate>
+<volume>264</volume>
+<pages>296&#x2013;308</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline8206">
+<accessionId id="acc040" href="info:wiley/eep-guideline/8206" />
+<citation />
+<url>http://www.ncbi.nlm.nih.gov/pubmed/16231249</url>
+<organization>IDSA</organization>
+<longtitle>Practice guidelines for the diagnosis and management of skin and soft-tissue infections.</longtitle>
+<title />
+<dateguideline>11&#x002F;15&#x002F;2005</dateguideline>
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title> Necrotizing Fasciitis: Management.</title>
+<graphic href="eee0750-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Cellulitis with associated pain out of proportion to the severity of the lesion, signs of systemic toxicity (hypotension, tachycardia, and hyperthermia), bullae, patches of cutaneous necrosis, or tissue crepitus?</label>
+<path target="cell-2"> No </path>
+<path target="cell-3"> Yes </path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Continued high clinical suspicion for NF in patients with edema of the limb, induration, purulence, or fluctuance?</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Treat cellulitis. If it worsens recalculate LRINEC score, measure transcutaneous O<sub>2</sub> saturation, and consider imaging.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Order CBC, chemistries, and CRP and calculate LRINEC score (<xref ref="table002" />). Consider transcutaneous oxygen saturation, if available. Consider imaging (CT, MRI or ultrasound) if diagnostic uncertainty. Is LRINEC &#x003D; 6, oxygen saturation &lt;70&#x0025;, and&#x002F;or imaging suggestive of NF?</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Emergent surgical referral to evaluate for NF. May need imaging (ie, MRI, CT, ultrasound, radiographs) to determine depth of involvement. Empirically start broad-spectrum antibiotics (eg, ampicillin&#x002F;gentamicin&#x002F; clindamycin), IV fluids, and nutritional support.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Presenting Signs and Symptoms of Necrotizing Fasciitis in a Series of 451 Patients.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Clinical Manifestations </th>
+<th align="left" colspan="1">Patients </th>
+<th align="left" colspan="1">Percentage </th>
+</tr>
+<tr>
+<td align="left" colspan="1">Erythema </td>
+<td align="left" colspan="1">222 </td>
+<td align="left" colspan="1">73 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pain </td>
+<td align="left" colspan="1">191 </td>
+<td align="left" colspan="1">63 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Edema of the limb </td>
+<td align="left" colspan="1">149 </td>
+<td align="left" colspan="1">49 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Induration </td>
+<td align="left" colspan="1">94 </td>
+<td align="left" colspan="1">31 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Purulence </td>
+<td align="left" colspan="1">81 </td>
+<td align="left" colspan="1">27 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fluctuance </td>
+<td align="left" colspan="1">67 </td>
+<td align="left" colspan="1">22 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Local warmth </td>
+<td align="left" colspan="1">54 </td>
+<td align="left" colspan="1">18 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Bullae </td>
+<td align="left" colspan="1">47 </td>
+<td align="left" colspan="1">15 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fever &#x003E;38&#x00B0;C </td>
+<td align="left" colspan="1">46 </td>
+<td align="left" colspan="1">15 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Blood pressure &lt;90 mm Hg </td>
+<td align="left" colspan="1">36 </td>
+<td align="left" colspan="1">12 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Skin necrosis </td>
+<td align="left" colspan="1">28 </td>
+<td align="left" colspan="1">9 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Crepitus </td>
+<td align="left" colspan="1">20 </td>
+<td align="left" colspan="1">7 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cellulitis </td>
+<td align="left" colspan="1">18 </td>
+<td align="left" colspan="1">6 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cyanosis </td>
+<td align="left" colspan="1">12 </td>
+<td align="left" colspan="1">4 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Local abscess </td>
+<td align="left" colspan="1">12 </td>
+<td align="left" colspan="1">4 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Jaundice </td>
+<td align="left" colspan="1">12 </td>
+<td align="left" colspan="1">4 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ischemia </td>
+<td align="left" colspan="1">10 </td>
+<td align="left" colspan="1">3 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Disorientation </td>
+<td align="left" colspan="1">10 </td>
+<td align="left" colspan="1">3 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Shortness of breath </td>
+<td align="left" colspan="1">4 </td>
+<td align="left" colspan="1">1 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Edema of the skin (peau d'orange) </td>
+<td align="left" colspan="1">3 </td>
+<td align="left" colspan="1">1 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Stress ulcer </td>
+<td align="left" colspan="1">3 </td>
+<td align="left" colspan="1">1 </td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>The LRINEC Score.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Laboratory Finding </th>
+<th align="left" colspan="1">Points </th>
+</tr>
+<tr>
+<td align="left" colspan="1">CRP &#x003D; 150 mg&#x002F;L </td>
+<td align="left" colspan="1">4 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">WBC &#x003D; 15-25&#x002F;mm<sup>3</sup>
+</td>
+<td align="left" colspan="1">1 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">WBC &#x003E;25&#x002F;mm<sup>3</sup>
+</td>
+<td align="left" colspan="1">2 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hemoglobin 11-13.5 g&#x002F;dL </td>
+<td align="left" colspan="1">1 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hemoglobin &lt;11 g&#x002F;dL </td>
+<td align="left" colspan="1">2 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Sodium &lt;135 mmol&#x002F;L </td>
+<td align="left" colspan="1">2 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Creatinine &#x003E;1.6 mg&#x002F;dL (141 mmol&#x002F;L) </td>
+<td align="left" colspan="1">2 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Glucose &#x003E;180 mg&#x002F;dL (10 mmol&#x002F;L) </td>
+<td align="left" colspan="1">1 </td>
+</tr>
+<tr>
+<td align="left" colspan="1">Total: </td>
+<td align="left" colspan="1">&#x00A0; </td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Integrating MRI in the LRINEC Score.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Finding</th>
+<th align="left" colspan="1">Points</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Thickening of deep fascia &#x2265; 3 mm on MRI</td>
+<td align="left" colspan="1">1.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Multicompartmental (3 or more) involvement on MRI</td>
+<td align="left" colspan="1">2.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1">LRINEC Score</td>
+<td align="left" colspan="1">0-13</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Total Points (0-17 points possible)&#x2265; 5.5 corresponds to 50&#x0025; probability of NF</td>
+<td align="left" colspan="1">
+</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

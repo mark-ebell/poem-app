@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Encephalitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0432</topic_id>
+<topic_comment />
+<topic_lastupdated>09/04/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Seema Nayak, MD</author_name>
+<author_title>Senior Medical Resident</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of Maryland School of Medicine</author_institution>
+<author_email>seemaunayak&#x0040;gmail.com</author_email>
+<author_phone_office>410 706 0612</author_phone_office>
+<author_phone_home>410 616 9545</author_phone_home>
+<author_phone_fax>410 706 1992</author_phone_fax>
+<author_street1>725 West Lombard Street</author_street1>
+<author_street2 />
+<author_city>Baltimore</author_city>
+<author_state>MD</author_state>
+<author_zip>21201</author_zip>
+</author>
+<author primary="no">
+<author_name>Rohit Talwani, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>University of Maryland School of Medicine</author_institution>
+<author_email>rtalwani&#x0040;ihv.umaryland.edu</author_email>
+<author_phone_office>410 706 0612</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>725 West Lombard Street Room N150</author_street1>
+<author_street2 />
+<author_city>Baltimore</author_city>
+<author_state>MD</author_state>
+<author_zip>21201</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mehmood Rashid, MD</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Toledo College of Medicine and Life Sciences</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect encephalitis in patients with acute onset of fever, mental status changes, and headache. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>CSF analysis is essential for diagnosis. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>All cases of suspected encephalitis should be treated with acyclovir while an etiology is being sought. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Neurologic complications may persist. <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Encephalitis is an inflammatory process of the brain accompanied by clinical evidence of neurologic dysfunction; viruses are the most common pathogens.<xref ref="pubmed8842253" resource="acc002" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Herpes encephalitis affects 1 in 500,000 persons annually.</listitem>
+<listitem>Arboviral encephalitis affects approximately 150 to 3000 cases per year.<xref ref="pubmed11853816" resource="acc003" /></listitem>
+<listitem>Most common worldwide is Japanese encephalitis with about 50,000 cases per year.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>More than 50 identified pathogens may cause encephalitis. Most common etiologies in the United States are herpes simplex virus (HSV), West Nile virus, and the enteroviruses.</listitem>
+<listitem>Despite extensive diagnostics, in many cases (up to 75&#x0025; in some studies), the etiology remains unknown.<xref ref="pubmed17109290" resource="acc004" /></listitem>
+<listitem>The incidence of encephalitis caused by vaccine preventable conditions such as measles, mumps, rubella, and varicella is decreasing.<xref ref="pubmed18582201" resource="acc013" /></listitem>
+<listitem>Less commonly caused by bacteria (ie, Bartonella species, <em>L. monocytogenes</em>, <em>M. pneumoniae</em>, <em>M. tuberculosis</em>), rickettsioses, and fungi.<xref ref="pubmed16401850" resource="acc005" /></listitem>
+<listitem>See <xref ref="table001" /> for causes of viral encephalitis by region.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Primary encephalitis: direct invasion of virus into brain or spinal cord.</listitem>
+<listitem>Secondary encephalitis: complication of viral infection or reactivation of latent virus.</listitem>
+<listitem>Once across the blood-brain barrier, viruses can enter cells and disrupt cell functioning, cause perivascular congestion, and damage by inflammatory response.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Extremes of age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Insect contact</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Travel to endemic region</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Unvaccinated status</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Primary prevention: protective clothing and DEET containing repellants will prevent mosquito-borne transmission. <evidence rating="A" system="SORT"> A</evidence><xref ref="poem41004" resource="acc011" /></listitem>
+<listitem>Universal immunization is recommended for measles, mumps, rubella, and poliovirus. <evidence rating="A" system="SORT"> A</evidence>
+<xref ref="pubmed15804262" resource="acc012" />
+<xref ref="guideline165" resource="acc017" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect encephalitis in patients with acute onset of fever, mental status changes, and headache. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Ask about risk factors and epidemiologic clues to the etiology (ie, travel, insect bites). <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18582201" resource="acc013" /></listitem>
+<listitem>CSF analysis is essential for diagnosis. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed15804262" resource="acc012" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Delirium secondary to toxins, drugs, psychosis</Differential_Name>
+<Differential_Features>Lack of fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Rheumatologic: vasculitis, collagen vascular disorders</Differential_Name>
+<Differential_Features>Multisystem involvement</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Intracranial malignancies</Differential_Name>
+<Differential_Features>Lack of fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Metabolic abnormalities</Differential_Name>
+<Differential_Features>Metabolic derangement</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Head trauma: intracranial bleeds</Differential_Name>
+<Differential_Features>History of trauma</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Paraneoplastic processes</Differential_Name>
+<Differential_Features>History of malignancy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Encephalopathy due to ischemia&#x002F;hypoxia</Differential_Name>
+<Differential_Features>Lack of fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacterial meningitis</Differential_Name>
+<Differential_Features>Nucchal rigidity, petechiae</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute demylelinating encephalomyelitis</Differential_Name>
+<Differential_Features>Known antigenic stimulus (vaccine or viral syndrome), lack of fever at onset, younger age of onset</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Migraine headache</Differential_Name>
+<Differential_Features>Aura, lack of fever or altered mentation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pseudomigraine with pleocytosis</Differential_Name>
+<Differential_Features>Lack of fever</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Presentation may be acute or subacute depending on the etiology of encephalitis. Patients may have prodromal illness and typically present with altered sensorium, fever and may have focal neurological deficits and seizures. See <xref ref="table002" /> for symptoms as they relate to specific types of encephalitis.</listitem>
+<listitem>Epidemiologic clues: season, locale, local disease prevalence.</listitem>
+<listitem>History: travel history, insect&#x002F;animal contacts, occupational exposures, vaccination history, immune status, recreational activities.</listitem>
+<listitem>
+<xref ref="table003" />summarizes the viral and bacterial pathogens associated with different animals.</listitem>
+<listitem>Symptoms: viral prodrome, behavioral&#x002F;personality changes, seizures, decreased level of consciousness.</listitem>
+<listitem>Physical findings: altered mental status, focal hemiparesis, cranial nerve deficits, movement disorders.</listitem>
+<listitem>Eighty percent of patients with herpes simplex encephalitis will have focal neurologic deficits.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>CSF analysis: typically will see 5 to 500 white blood cells (mostly lymphocytes), normal glucose, protein elevation &#x003E;50 g&#x002F;dL, significant numbers of RBCs; up to 10&#x0025; will have normal findings.<xref ref="pubmed12589831" resource="acc006" /></listitem>
+<listitem>Polymerase chain reaction (PCR) of CSF: accurate for the detection of <xref ref="test289" resource="acc001">herpes viruses</xref> and enteroviruses, also can detect varicella zoster, cytomegalovirus (CMV), and Epstein-Barr virus (EBV). VZV, CMV, EBV, and West Nile. <xref ref="pubmed15356774" resource="acc007" /> PCR for HSV-1 and HSV-2 is 95&#x0025; sensitive and 99&#x0025; specific.</listitem>
+<listitem>Culture of CSF: limited usefulness.<xref ref="pubmed17109291" resource="acc008" />
+<xref ref="pubmed23892708" resource="acc016" /></listitem>
+<listitem>Neuroimaging: MRI is more sensitive than CT, and may show a high signal intensity lesion on T2-weighted and FLAIR images.<xref ref="pubmed15247545" resource="acc009" />
+<xref ref="pubmed23892708" resource="acc016" /></listitem>
+<listitem>Brain biopsy is not routinely used, but should be considered when the etiology is unknown and the patient's condition is deteriorating despite treatment.</listitem>
+<listitem>Without the identification of an etiologic agent, the diagnosis is presumptive and based on the clinical presentation.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect encephalitis in patients with acute onset of fever, mental status changes, and headache.</listitem>
+<listitem>Any patient with suspected encephalitis should undergo lumbar puncture and possible hospitalization for antiviral therapy.</listitem>
+<listitem>Initial evaluation should also include lumbar puncture with specific pathogen testing (ELISA or PCR) individualized for epidemiological risk factors. Neuroimaging should also be considered for most patients (preferably MRI); viral culture is generally not helpful.<xref ref="pubmed23892708" resource="acc016" /></listitem>
+<listitem>Empiric therapy should be initiated using acyclovir.<xref ref="pubmed23892708" resource="acc016" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>79</Dx_ID>
+<Dx_ID>91</Dx_ID>
+<Dx_ID>78</Dx_ID>
+<Dx_ID>289</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>All cases of suspected encephalitis should be treated with acyclovir while an etiology is being sought. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed23892708" resource="acc016" /></listitem>
+<listitem>If another specifically treatable organism is not found or suspected (rickettsial or ehrlichial infection), all other treatment is supportive. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18582201" resource="acc013" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Pending results of diagnostic studies, acyclovir therapy should be initiated. Recommendations below are from the Infectious Diseases Society of America guidelines although they have not been updated since 2008.<xref ref="pubmed18582201" resource="acc013" /></listitem>
+<listitem>For HSV encephalitis, prescribe acyclovir 10mg&#x002F;kg IV every 8 hours. Other antivirals include foscarnet and ganciclovir.</listitem>
+<listitem>Other antimicrobial agents can be added if epidemiologic or clinical factors suggest a specific bacterial etiology.</listitem>
+<listitem>EBV: acyclovir is not recommended, corticosteroids may be beneficial.</listitem>
+<listitem>HIV encephalitis: highly active antiretroviral therapy is recommended.</listitem>
+<listitem>Rickettsial disease: doxycycline is recommended.</listitem>
+<listitem>Fungal infection: encephalitis due to fungal disease should be treated with an appropriate azole or amphotericin.</listitem>
+<listitem>Acute disseminated encephalomyelitis (postinfectious or postvaccination): treat with high-dose corticosteroids; plasma exchange and IV immunoglobulin may also be considered.</listitem>
+<listitem>Autoimmune encephalitis: systemic corticosteroids, IV immunoglobulin and plasma exchange</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Selected patients may need neurosurgical evaluation if there is evidence of increased intracranial pressure.<xref ref="pubmed15804262" resource="acc012" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Provide supportive therapy for all patients ( ie, hydration, monitoring, antipyretics, analgesics).</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Treatment duration of acyclovir for herpes encephalitis is 14 to 21 days.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Complications associated with acute infection may include respiratory arrest, coma, seizures, increased intracranial pressure, syndrome of inappropriate anti-diuretic hormone (SIADH), and death.</listitem>
+<listitem>Postinfection patients may have persistent neurologic dysfunction.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Full recovery may take months and neurologic complications may persist. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed18582201" resource="acc013" /></listitem>
+<listitem>In a series of 35 patients with herpes simplex encephalitis, mortality was 9&#x0025;. Increasing age and lower albumin on admission predicted a worse outcome.<xref ref="pubmed19306713" resource="acc014" /></listitem>
+<listitem>In a study of 40 children with herpes encephalitis, 14 had a poor outcome but there were no deaths.<xref ref="pubmed17332904" resource="acc015" /></listitem>
+<listitem>In a series of 156 patients with encephalitis or meningoencephalitis caused by West Nile Virus, most recovered within 1 year. Recovery was faster in patients with fewer comorbidities. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed18711153" resource="acc010" /></listitem>
+<listitem>In a retrospective analysis of 103 patients in the ICU with encephalitis, death was associated with the presence of cerebral edema, status epilepticus and thrombocytopenia, as was respiratory failure requiring ventilator support.<xref ref="pubmed23892708" resource="acc016" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="test289">
+<accessionId id="acc001" href="info:wiley/eep-dx/289" />
+<accessionId id="acc001b" href="info:pmid/9809689" />
+<authors>Tebas P, Nease RF, Storch GA.</authors>
+<title>Use of the polymerase chain reaction in the diagnosis of herpes simplex encephalitis: a decision analysis model.</title>
+<source>Am J Med</source>
+<pubdate>1998</pubdate>
+<volume>105</volume>
+<pages>287-295.</pages>
+</reference>
+<reference id="pubmed8842253">
+<accessionId id="acc002" href="info:pmid/8842253" />
+<authors>Johnson RT.</authors>
+<title>Acute encephalitis</title>
+<source>Clin Infect Dis</source>
+<pubdate>1996</pubdate>
+<volume>23</volume>
+<pages>219-224.</pages>
+</reference>
+<reference id="pubmed11853816">
+<accessionId id="acc003" href="info:pmid/11853816" />
+<authors>Whitley RJ, Gnann JW.</authors>
+<title>Viral encephalitis: familiar infections and emerging pathogens.</title>
+<source>Lancet</source>
+<pubdate>2002</pubdate>
+<volume>359</volume>
+<pages>507-513.</pages>
+</reference>
+<reference id="pubmed17109290">
+<accessionId id="acc004" href="info:pmid/17109290" />
+<authors>Glaser CA, Honarmand S, Anderson LJ, et al.</authors>
+<title>Beyond viruses: clinical profiles and etiologies associated with encephalitis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2006</pubdate>
+<volume>43</volume>
+<pages>1565-1577.</pages>
+</reference>
+<reference id="pubmed16401850">
+<accessionId id="acc005" href="info:pmid/16401850" />
+<authors>Kupila L, Vuorinen T, Vainionpaa R, Hukkanen V, Marttila RJ, Kotilainen P.</authors>
+<title>Etiology of aseptic meningitis and encephalitis in an adult population.</title>
+<source>Neurology</source>
+<pubdate>2006</pubdate>
+<volume>66</volume>
+<pages>75-80.</pages>
+</reference>
+<reference id="pubmed12589831">
+<accessionId id="acc006" href="info:pmid/12589831" />
+<authors>Cinque P, Bossolasco S, Lundkvist A.</authors>
+<title>Molecular analysis of cerebrospinal fluid in viral diseases of the central nervous system.</title>
+<source>J Clin Virol</source>
+<pubdate>2003</pubdate>
+<volume>26</volume>
+<pages>1-28.</pages>
+</reference>
+<reference id="pubmed15356774">
+<accessionId id="acc007" href="info:pmid/15356774" />
+<authors>Huang C, Morse D, Slater B, et al.</authors>
+<title>Multiple-year experience in the diagnosis of viral central nervous system infections with a panel of polymerase chain reaction assays for detection of 11 viruses.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2004</pubdate>
+<volume>39</volume>
+<pages>630-635.</pages>
+</reference>
+<reference id="pubmed17109291">
+<accessionId id="acc008" href="info:pmid/17109291" />
+<authors>Polage CR, Petti CA.</authors>
+<title>Assessment of the utility of viral culture of cerebrospinal fluid.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2006</pubdate>
+<volume>43</volume>
+<pages>1578-1579.</pages>
+</reference>
+<reference id="pubmed15247545">
+<accessionId id="acc009" href="info:pmid/15247545" />
+<authors>Maschke M, Kastrup O, Forsting M, Diener HC.</authors>
+<title>Update on neuroimaging in infectious central nervous system disease.</title>
+<source>Curr Opin Neurol</source>
+<pubdate>2004</pubdate>
+<volume>17</volume>
+<pages>475-480.</pages>
+</reference>
+<reference id="pubmed18711153">
+<accessionId id="acc010" href="info:pmid/18711153" />
+<authors>Loeb M, Hanna S, Nicolle L, et al.</authors>
+<title>Prognosis after West Nile virus infection.</title>
+<source>Ann Intern Med</source>
+<pubdate>2008</pubdate>
+<volume>149</volume>
+<pages>232-241.</pages>
+</reference>
+<reference id="poem41004">
+<accessionId id="acc011" href="info:wiley/eep-poem/41004" />
+<accessionId id="acc011b" href="info:pmid/12097535" />
+<authors>Fradin MS, Day JF.</authors>
+<title>Comparative efficacy of insect repellents against mosquito bites</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>347</volume>
+<pages>13-18.</pages>
+</reference>
+<reference id="pubmed15804262">
+<accessionId id="acc012" href="info:pmid/15804262" />
+<authors>Steiner I, Budka H, Chaudhuri A, et al.</authors>
+<title>Viral encephalitis: a review of diagnostic methods and guidelines for management.</title>
+<source>Eur J Neurol</source>
+<pubdate>2005</pubdate>
+<volume>12</volume>
+<pages>331-343.</pages>
+</reference>
+<reference id="pubmed18582201">
+<accessionId id="acc013" href="info:pmid/18582201" />
+<authors>Tunkel AR, Glaser CA, Block KC, et al.; Infectious Diseases Society of America.</authors>
+<title>The management of encephalitis: clinical practice guidelines by the infectious diseases society fo America.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>47</volume>
+<pages>303-327.</pages>
+</reference>
+<reference id="pubmed19306713">
+<accessionId id="acc014" href="info:pmid/19306713" />
+<authors>Riera-Mestre A, Gubieras L, Martinez-Yelamos S, et al.</authors>
+<title>Adult herpes simplex encephalitis: fifteen years' experience.</title>
+<source>Enferm Infecc Microbiol Clin</source>
+<pubdate>2009</pubdate>
+<volume>27</volume>
+<pages>143-147.</pages>
+</reference>
+<reference id="pubmed17332904">
+<accessionId id="acc015" href="info:pmid/17332904" />
+<authors>Hsieh WB, Chiu NC, Hu KC, Ho CS, Huang FY.</authors>
+<title>Outcome of herpes simplex encephalitis in children.</title>
+<source>J Microbiol Immunol Infect</source>
+<pubdate>2007</pubdate>
+<volume>40</volume>
+<pages>34-38.</pages>
+</reference>
+<reference id="pubmed23892708">
+<accessionId id="acc016" href="info:pmid/23892708" />
+<authors>Thakur KT, Motta M, Asemota AO, Kirsch HL, Benavides DR, Schneider EB, McArthur JC, Geocadin RG, Venkatesan A.</authors>
+<title>Predictors of outcome in acute encephalitis.</title>
+<source>Neurology</source>
+<pubdate>2013</pubdate>
+<volume>81</volume>
+<pages>793&#x2013;800</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline165">
+<accessionId id="acc017" href="info:wiley/eep-guideline/165" />
+<citation>Advisory Committee on Immunization Practices (ACIP), American Academy of Family Physicians (AAFP), and the American Academy of Pediatrics (AAP)</citation>
+<url>http://www.cdc.gov/vaccines/recs/schedules/child-schedule.htm</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Causes of Viral Encephalitis by Region and Vector.<xref ref="pubmed18582201" resource="acc013" />
+</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Viral Disease</th>
+<th align="left" colspan="1">Location</th>
+<th align="left" colspan="1">Vector&#x002F;Host</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Herpes simplex encephalitis</td>
+<td align="left" colspan="1">Worldwide</td>
+<td align="left" colspan="1">Human to human contact</td>
+</tr>
+<tr>
+<td align="left" colspan="1">West Nile encephalitis</td>
+<td align="left" colspan="1">US, Africa, Middle East</td>
+<td align="left" colspan="1">Mosquito (<em>Aedes</em> sp)&#x002F;Birds</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Western Equine encephalitis</td>
+<td align="left" colspan="1">Western US and Canada</td>
+<td align="left" colspan="1">Mosquito (<em>Aedes</em> and <em>Culex</em> sp)&#x002F;birds</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Eastern Equine encephalitis</td>
+<td align="left" colspan="1">US: East Coast, Gulf Coast</td>
+<td align="left" colspan="1">Mosquito (<em>Aedes,</em> Culex, Coquillettidia sp)&#x002F;birds</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Japanese encephalitis</td>
+<td align="left" colspan="1">Asia</td>
+<td align="left" colspan="1">Mosquito (<em>Aedes</em> sp)&#x002F;birds, pigs</td>
+</tr>
+<tr>
+<td align="left" colspan="1">St. Louis encephalitis</td>
+<td align="left" colspan="1">Midwestern US</td>
+<td align="left" colspan="1">Mosquito(<em>C</em>ulex sp)&#x002F;birds</td>
+</tr>
+<tr>
+<td align="left" colspan="1">La Crosse encephalitis</td>
+<td align="left" colspan="1">Throughout US</td>
+<td align="left" colspan="1">
+<em>Aedes triseriatus</em>&#x002F;rodents</td>
+</tr>
+</table>US denotes United States.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Possible Etiologies Based on Clinical Presentation.<xref ref="pubmed18582201" resource="acc013" />
+</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Presentation</th>
+<th align="left" colspan="1">Possible Agent</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Cerebellar ataxia</td>
+<td align="left" colspan="1">VZV, EBV, mumps, St. Louis encephalitis virus, <em>T. whipplei</em>, <em>T. brucei</em>
+<em>gambiense</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cranial nerve abnormalities</td>
+<td align="left" colspan="1">HSV, EBV, <em>L. monocytogenes</em>, <em>M. tuberculosis</em>,<em> T. pallidum</em>,<em> B. burgdorferi</em>,<em> T. whipplei</em>,<em> C. neoformans</em>,<em> Coccidiodies</em> sp</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dementia</td>
+<td align="left" colspan="1">HIV, spongiform encephalopathies, measles virus, <em>T. pallidum</em>,<em> T. whipplei</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Myorhythmia</td>
+<td align="left" colspan="1">
+<em>T. whipplei</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Parkinsonism</td>
+<td align="left" colspan="1">Japanese encephalitis virus, St. Louis encephalitis virus, WNV, Nipah virus, <em>T. gondii</em>,<em> T. brucei gambiense</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Flaccid paralysis</td>
+<td align="left" colspan="1">Japanese encephalitis virus, WNV, tickborne encephalitis virus, enteroviruses, poliovirus</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Rhomboencephalitis</td>
+<td align="left" colspan="1">HSV, WNV, enterovirus 71, <em>L. monocytogenes </em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Retinitis</td>
+<td align="left" colspan="1">CMV, West Nile virus, <em>B. henselae, T. palidum</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Parotitis</td>
+<td align="left" colspan="1">Mumps virus</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hepatitis</td>
+<td align="left" colspan="1">
+<em>Coxiella burnetii</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Respiratory tract findings</td>
+<td align="left" colspan="1">Venezuelan equine encephalitis, Mipah virus, influenza, adeno virus, <em>M. pneumoniae, C. burnetii, M. tuberculosis, Histoplasma capsulatum</em>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Urinary symptoms</td>
+<td align="left" colspan="1">St. Louis encephalitis</td>
+</tr>
+</table>VZV: varicella zoster virus; EBV: Epstein-Barr virus; HSV: herpes simplex virus; HIV: human immunodeficiency virus; WNV: West Nile Virus. Adapted from Tunkel AR, Glaser CA, Bloch KC, et al. Infectious Diseases Society of America. The management of encephalitis: clinical practice guidelines by the Infectious Diseases Society of America. Clin Infect Dis 2008; 47: 303-327;<xref ref="pubmed18582201" resource="acc013" /> and Steiner I, Budka H, Chaudhuri A, Koskiniemi M, Sainio K, Salonen O, Kennedy PG. Viral encephalitis: a review of diagnostic methods and guidelines for management. Eur J Neurol 2005 May;12(5):331-343.<xref ref="pubmed23892708" resource="acc016" />
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Animal contacts and associated pathogens</caption>
+<feature_body>
+<table>
+<tr>
+<th colspan="1">Animal</th>
+<th colspan="1">Pathogen(s)</th>
+</tr>
+<tr>
+<td colspan="1">Bats</td>
+<td colspan="1">Rabies virus, Nipah virus</td>
+</tr>
+<tr>
+<td colspan="1">Birds</td>
+<td colspan="1">Eastern, Western, Venezuelan equine encephalitis, West Nile VIrus, Murray Valley encephalitis, Japansese encephalitis.</td>
+</tr>
+<tr>
+<td colspan="1">Cats</td>
+<td colspan="1">Rabies virus, <em>Coxiella burnetii, Bartonella henselae, T. gondi</em>
+</td>
+</tr>
+<tr>
+<td colspan="1">Deer (white-tailed)</td>
+<td colspan="1">
+<em>Borrelia burgdorferi</em>
+</td>
+</tr>
+<tr>
+<td colspan="1">Dogs</td>
+<td colspan="1">Rabies virus</td>
+</tr>
+<tr>
+<td colspan="1">Horses</td>
+<td colspan="1">Equine encephalitis (Eastern, Western, Venezuelan)</td>
+</tr>
+<tr>
+<td colspan="1">Raccoons</td>
+<td colspan="1">Rabies virus, <em>Baylisascaris procyonis</em>
+</td>
+</tr>
+<tr>
+<td colspan="1">Rodents</td>
+<td colspan="1">Eastern and Venezuelan equine encephalitis, tickborne encephalitis virus, La Crosse virus (chipmunks, squirrels), <em>Bartonella quintana</em>
+</td>
+</tr>
+<tr>
+<td colspan="1">Sheep and goats</td>
+<td colspan="1">
+<em>Coxiella burnetii</em>
+</td>
+</tr>
+<tr>
+<td colspan="1">Skunks</td>
+<td colspan="1">Rabies virus</td>
+</tr>
+<tr>
+<td colspan="1">Swine</td>
+<td colspan="1">Japanese encephalitis virus, Nipah virus</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

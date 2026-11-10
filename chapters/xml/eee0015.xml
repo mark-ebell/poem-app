@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Bundle branch block</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0015</topic_id>
+<topic_comment />
+<topic_lastupdated>09/09/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>James Appiah-Pippim, MD, MPH</author_name>
+<author_title />
+<author_department>Graduate Medical Education</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email>James.Appiah-Pippim&#x0040;piedmont.org </author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Nikhil Madala, MD</author_name>
+<author_title />
+<author_department>Department of Medicine</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email>Nikhil.Madala&#x0040;piedmont.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Onoriode Kesiena, MD</author_name>
+<author_title />
+<author_department>Graduate Medical Education</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email>Onoriode.Kesiena&#x0040;piedmont.org </author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Sanjeev Wasson, MD, FACC</author_name>
+<author_title>Medical Director</author_title>
+<author_department>Electrophysiology Laboratory</author_department>
+<author_institution>Kearney Regional Medical Center</author_institution>
+<author_email>sanjeevwasson&#x0040;hotmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Kearney</author_city>
+<author_state>NE</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Nishant Kalra, MD</author_name>
+<author_title />
+<author_department>Cardiology</author_department>
+<author_institution>Tucson Medical Center</author_institution>
+<author_email>nkalra&#x005F;dr&#x0040;yahoo.com</author_email>
+<author_phone_office>520-626-6221</author_phone_office>
+<author_phone_home />
+<author_phone_fax>520-626-0967</author_phone_fax>
+<author_street1>1501 0 N Campbell Ave.</author_street1>
+<author_street2 />
+<author_city>Tuscon</author_city>
+<author_state>AZ</author_state>
+<author_zip>85724</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Augusta University &#x2013; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>12-lead ECG establishes the diagnosis of bundle branch block (BBB). <evidence rating="C" system="SORT"> C</evidence>
+<evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>A transthoracic echocardiogram is recommended to identify structural heart disease in newly detected LBBB <evidence rating="C" system="SORT"> C</evidence>.</listitem>
+<listitem>Cardiac resynchronization therapy is recommended for patients with left bundle branch block (LBBB) who have depressed systolic function, heart failure symptoms, and a QRS duration of greater than 120 msecond after optimal heart failure therapy. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Cardiac resynchronization therapy significantly reduces worsening of heart failure and improves quality of life and exercise tolerance in patients with chronic heart failure and intraventricular conduction delay (IVCD). <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Conduction disturbances occurring at various levels of the branches of the His-Purkinje system are defined as bundle branch blocks or intraventricular conduction delays (IVCDs).</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>The overall prevalence of BBB in men increases with age from 1&#x0025; at age 50 years to 17&#x0025; at age 80 years leading to a cumulative incidence of 18&#x0025; (left BBB &#x003D; 6.5&#x0025;; right BBB &#x003D; 12.9&#x0025;) <xref ref="pubmed9832497" resource="acc008" />.</listitem>
+<listitem>Depending on the sampling criteria used, the prevalence of LBBB in the general population is estimated to range from 0.1 &#x2013; 0.8&#x0025; <xref ref="pubmed400746" resource="acc011" />
+<xref ref="pubmed1132086" resource="acc012" />.</listitem>
+<listitem>In an Icelandic population, the general incidence of LBBB was 3.2 per 10, 000 per year for men and 3.7 per 10,000 for women <xref ref="pubmed29932265" resource="acc013" />.</listitem>
+<listitem>In the Copenhagen heart study, the prevalence of RBBB was 1.4&#x0025; in men and 0.5&#x0025; in women, while the prevalence of incomplete RBBB was 4.7&#x0025; and 2.3&#x0025; in men and women respectively <xref ref="pubmed22947613" resource="acc014" />.</listitem>
+<listitem>The incidence of RBBB from a study done in Spain was around 0.8&#x0025; per year, including both complete RBBB and incomplete RBBB <xref ref="pubmed31339387" resource="acc015" />.</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>The causes of bundle branch block can be classified into cardiac, pulmonary, procedure-related, and other causes. Cardiac causes can be broken down into myocardial, valvular, and electrical or conduction system causes</listitem>
+<listitem>
+<strong>Myocardial:</strong>
+<list style="bulleted">
+<listitem>Left ventricular hypertrophy due to hypertension</listitem>
+<listitem>Ischemic heart disease or myocardial infarction (MI)</listitem>
+<listitem>Infiltrative diseases (sarcoidosis, amyloidosis)</listitem>
+<listitem>Cardiomyopathy (ischemic or dilated)</listitem>
+<listitem>Inflammatory diseases like myocarditis and endocarditis.</listitem>
+<listitem>Congenital heart diseases (eg, Ebstein's anomaly, atrial septal defect)</listitem>
+</list></listitem>
+<listitem>
+<strong>Valvular:</strong>
+<list style="bulleted">
+<listitem>Aortic and mitral valvular heart disease</listitem>
+</list></listitem>
+<listitem>
+<strong>Electrical conduction system:</strong>
+<list style="bulleted">
+<listitem>Idiopathic progressive cardiac conduction diseases such as Lev's disease or Len&#x00E8;gre's disease.</listitem>
+<listitem>Wolff-Parkinson-White pattern (accessory pathway)</listitem>
+<listitem>BBB may be functional, as in rate-related bundle branch block which is a result of a long preceding R-R interval followed by a short cycle <xref ref="pubmed29920728" resource="acc016" />.</listitem>
+<listitem>Pulmonary causes can be further divided into airway, lung parenchyma, pulmonary vessels, and pleural causes</listitem>
+</list></listitem>
+<listitem>
+<strong>Pulmonary:</strong>
+<list style="bulleted">
+<listitem>Chronic Obstructive Pulmonary Disease (COPD)</listitem>
+</list>
+<list style="bulleted">
+<listitem>Acute Pulmonary Embolism (PE)</listitem>
+<listitem>Chronic thromboembolic pulmonary hypertension (CTEPH)</listitem>
+</list>
+<list style="bulleted">
+<listitem>Diffuse Parenchymal Lung Diseases (DPLD)</listitem>
+</list>
+<list style="bulleted">
+<listitem>Pneumothorax</listitem>
+</list></listitem>
+<listitem>
+<strong>Procedural causes: </strong>
+<list style="bulleted">
+<listitem>Closure of ventral septal defects <xref ref="pubmed35350872" resource="acc017" /></listitem>
+<listitem>Right heart catheterization</listitem>
+<listitem>Nonsurgical septal reduction therapy with ethanol ablation <xref ref="pubmed34078826" resource="acc018" /></listitem>
+<listitem>Post-transcatheter aortic valve replacement (TAVR)</listitem>
+<listitem>Post-septal myectomy&#x002F;myotomy <xref ref="pubmed31370956" resource="acc019" /></listitem>
+</list></listitem>
+<listitem>
+<strong>Other causes:</strong>
+<list style="bulleted">
+<listitem>Neuromuscular diseases like muscular dystrophy</listitem>
+<listitem>Drug toxicity such as digitalis.<xref ref="pubmed3729077" resource="acc007" /></listitem>
+<listitem>Electrolyte abnormality such as hyperkalemia.<xref ref="pubmed3543195" resource="acc006" /></listitem>
+</list></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Normally, the cardiac electrical impulse is conducted from the sinus node to the bundle of His through the atrioventricular node. It then travels down the left and right bundles and terminates in the Purkinje fibers spreading to the ventricular muscles.</listitem>
+<listitem>BBB results from a conduction delay and&#x002F;or damage to the bundle of His or its branches that constitute the intraventricular conduction system from any cardiac or pulmonary cause as mentioned above.</listitem>
+<listitem>BBB can be chronic or intermittent; complete or incomplete.</listitem>
+<listitem>Delayed conduction in bundle branches results in asynchronous activation of ventricular sites, which leads to characteristic electrocardiographic patterns.</listitem>
+<listitem>LBBB causes the right ventricle to be activated first, followed by the left ventricular (LV) endocardium. The rest of the LV is activated in a delayed fashion with the lateral basal area being the last to be activated. This activation sequence leads to dyssynchronous motion of the ventricular walls extending isovolumic contraction and relaxation times, resulting in decreased contraction efficiency.</listitem>
+<listitem>Delay or blockage in the right bundle branch system results in the initial activation of the left side of ventricular septum. This spreads transeptally to the right side of the ventricular septum and then to the right ventricular anterior free wall, lateral right ventricular wall, and finally the right ventricular outflow tract.</listitem>
+<listitem>Despite this delay in conduction, RBBB is associated with less ventricular dyssynchrony as compared to LBBB <xref ref="pubmed17919569" resource="acc020" />.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Cardiac disease</Risk_Name>
+<Risk_OR>18.2</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Age &#x2265; 65 years</Risk_Name>
+<Risk_OR>5.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Heart failure</Risk_Name>
+<Risk_OR>2.85</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Male sex</Risk_Name>
+<Risk_OR>1.7</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension</Risk_Name>
+<Risk_OR>1.4</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref>
+<xref ref="pubmed15481609" resource="acc040" />
+<xref ref="pubmed28352414" resource="acc041" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients often present incidentally or during investigation for cardiovascular symptoms such as dizziness, palpitations, or syncope. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed445730" resource="acc001" /></listitem>
+<listitem>12-lead ECG establishes the diagnosis of BBB. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Consider cardiac imaging when there is a concern for structural heart disease <evidence rating="C" system="SORT"> C</evidence>.</listitem>
+<listitem>Consider electrophysiology study in patients where the cause of symptoms has not been established and ECG data are non diagnostic. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed7608464" resource="acc005" /></listitem>
+<listitem>Electrophysiology study is not recommended in asymptomatic patients with IVCD or symptomatic patients whose symptoms can be correlated with ECG events. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed7608464" resource="acc005" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>The diagnostic criteria for the different types of bundle branch blocks according to the 2018 American College of Cardiology and the American Heart Association (ACC&#x002F;AHA) guideline is shown in Table 1 <xref ref="pubmed30412778" resource="acc021" />.</listitem>
+<listitem>The mnemonic &#x2018;<strong>W</strong>i<strong>L</strong>
+<strong>L</strong>ia<strong>M</strong>
+<strong>M</strong>u<strong>RR</strong>o<strong>W</strong>&#x2019; can aid in the identification of these patterns on an EKG as shown in figure 1.</listitem>
+<listitem>
+<strong>W</strong>i<strong>L</strong>
+<strong>L</strong>ia<strong>M </strong>for LBBB with the first letter <strong>W</strong> representing the QRS wave in lead V1 and <strong>M </strong>representing the QRS in leads V5 or V6.</listitem>
+<listitem>In LBBB, there is a small initial r wave, rS or QS wave in leads V1-V3 and broad notched R wave or RS wave in lateral leads V5, V6, I and aVL.<xref ref="pubmed21376930" resource="acc042" /></listitem>
+<listitem>Similarly, <strong>M</strong>u<strong>RR</strong>o<strong>W</strong> for RBBB the first letter <strong>M</strong> representing the QRS wave in lead V1 and <strong>W</strong> representing the QRS in lead V5 or V6.</listitem>
+<listitem>In RBBB, there is a rsr', rsR' or rSR' pattern of the QRS wave in leads V1 or V2 and deep S wave with longer duration than R (&#x003E;40 ms) in the left precordial leads V5 and V6..</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Patients may be asymptomatic or may present with palpitations, dizziness, fatigue, chest pain, presyncope, syncope, or sudden death, all of which may depend on their co-morbidities <xref ref="pubmed7088050" resource="acc002" /></listitem>
+<listitem>They may be of advanced age or may have a history of pulmonary disease, congenital heart disease, myocardial infarction, structural heart disease, family history of sudden death, or may have a history of cardiac surgery</listitem>
+<listitem>Syncope in patients with BBB is associated with an increased risk of mortality and other cardiac events if they are of an advanced age. This is due to the increased likelihood of the presence of underlying heart disease <xref ref="pubmed29696347" resource="acc039" />.</listitem>
+<listitem>On physical examination, with RBBB there may be wide splitting of the second heart sound due to delayed closure of the pulmonic valve, whereas in LBBB paradoxical splitting may occur due to delayed closure of the aortic valve <xref ref="pubmed33400386" resource="acc022" />.</listitem>
+<listitem>The rest of the physical examination depends on the associated cardiopulmonary co-morbidities.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Recommendations for evaluating patients with BBB were published in the ACC&#x002F;AHA&#x002F;HRS 2018 guidelines on bradycardia and cardiac conduction delay as shown in figure 2 <xref ref="pubmed30412778" resource="acc021" />.</listitem>
+<listitem>A resting 12-lead electrocardiogram remains the cornerstone diagnostic test for BBB. ECG diagnostic criteria as recommended by the 2018 ACC&#x002F;AHA guideline on bradycardia are shown in Table 1.</listitem>
+<listitem>An ambulatory ECG should be considered in patients with paroxysmal symptoms and an inconclusive resting ECG. This may help establish a symptom - rhythm relationship.</listitem>
+<listitem>When a structural heart disease is suspected as the etiology of the block, a 2-dimensional echocardiogram (2D ECHO) is recommended.</listitem>
+<listitem>If the 2D ECHO is inconclusive for a structural heart disease, then advanced imaging such as a cardiac magnetic resonance imaging, computed tomography, and nuclear studies should be considered if suspicion remains high particularly.</listitem>
+<listitem>Electrophysiologic study (EPS) should be considered when symptoms are suggestive of intermittent bradycardia with no identifiable abnormality on ECG.</listitem>
+<listitem>Electrophysiologic evaluation of IVCD also includes evaluation of AV node, sinus node, and programmed atrial and ventricular stimulation to assess for development of any tachyarrhythmias or bradyarrhythmia's because sudden death in patients with bifascicular block may not be caused by complete Tri fascicular block but by ventricular tachyarrhythmias <xref ref="pubmed20884435" resource="acc009" />.</listitem>
+<listitem>In patients who develop LBBB following transcatheter aortic valve implantation (TAVI), an EPS can be used to identify those at risk of developing a high atrioventricular block <xref ref="pubmed32089049" resource="acc023" />.</listitem>
+<listitem>Stress testing should be considered in patients with LBBB without symptoms, who are clinically suspected of having ischemic heart disease.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>BBB is often discovered incidentally, or may be found as the result of the investigation of cardiovascular symptoms such as syncope, palpitations, or dizziness.</listitem>
+<listitem>ECG is the best initial test for BBB, followed by Holter monitor or event monitor for paroxysmal symptoms, and electrophysiologic studies if symptoms remain undiagnosed.</listitem>
+<listitem>Based on the 2018 recommendations by ACC&#x002F;AHA, indications for permanent pacing in patients with BBB are as shown in the figure 3.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>A permanent pacemaker is recommended for patients with alternating bundle branch block and in symptomatic BBB with His-Ventricular interval &#x003E; 70 msec<evidence rating="C" system="SORT"> C</evidence> .</listitem>
+<listitem>Cardiac resynchronization therapy is recommended for patients with systolic heart failure with an ejection fraction lesser than 35&#x0025; and QRS greater than 120 msec after optimal medical therapy <evidence rating="A" system="SORT"> A</evidence>.</listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Patients with dilated cardiomyopathy and acceleration-dependent LBBB may benefit from restoration of a narrow QRS complex by suppressing the heart rate with beta blockers.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>A permanent pacemaker is recommended for patients with alternating bundle branch block and in symptomatic BBB with His-Ventricular interval &#x003E; 70 msec <xref ref="pubmed35363499" resource="acc038" />.</listitem>
+<listitem>Cardiac resynchronization therapy (CRT) is indicated for patients who have LVEF &#x2264;35&#x0025;, sinus rhythm, LBBB with a QRS duration &#x2265;150 ms, and NYHA class II, III, or ambulatory IV symptoms despite optimal medical therapy <xref ref="pubmed35363499" resource="acc038" />.</listitem>
+<listitem>CRT is useful in patients with LVEF &#x2264;35&#x0025;, sinus rhythm, LBBB with a QRS duration of 120 to 149 ms, and NYHA class II, III, or ambulatory IV symptoms on goal directed medical therapy <xref ref="pubmed35363499" resource="acc038" />.</listitem>
+<listitem>CRT may be considered for patients who have LVEF &#x2264;30&#x0025;, ischemic cause of HF, sinus rhythm, LBBB with a QRS duration &#x2265;150 ms, and NYHA class I symptoms on optimal medical therapy <xref ref="pubmed35363499" resource="acc038" />.</listitem>
+<listitem>An individual patient level meta-analysis (n&#x003D;6264) found a lower risk of hospitalization for heart failure or death in patients with a QRS interval &#x003E;&#x003D; 150 ms and either LBBB (HR 0.56, 95&#x0025; CI 0.48-0.66) or intraventricular conduction delay (HR 0.59, 95&#x0025; 0.39-0.89). No benefit was found for patients with RBBB.<xref ref="pubmed36700426" resource="acc043" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>In acute emergency, temporary pacing via transcutaneous or transvenous route should be done until BBB resolves or as a bridge to permanent cardiac pacemakers.</listitem>
+<listitem>A temporary pacemaker may be used in patients with isolated LBBB who are undergoing right-sided cardiac catheterization because of the potential for transient complete heart block. <xref ref="pubmed35398009" resource="acc024" />.</listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Correct electrolyte abnormalities.</listitem>
+<listitem>Treat infectious causes such as endocarditis.</listitem>
+<listitem>Treat underlying lung diseases such as acute pulmonary embolism and pneumothorax.</listitem>
+<listitem>Avoid drugs that prolong AV node conduction.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Hospitalize patients with symptomatic BBB to confirm the diagnosis.</listitem>
+<listitem>Refer patients to determine reversible causes, such as myocardial ischemia.</listitem>
+<listitem>Refer patients to determine the need for electrophysiology study and pacemaker placement.</listitem>
+<listitem>Refer patients who meet the criteria for cardiac resynchronization therapy.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Syncope; pacemaker implantation.</listitem>
+<listitem>LBBB induced cardiomyopathy: Among this population left bundle branch pacing is a reasonable option for CRT due to the reported complete correction of the underlying electrical and mechanical abnormalities following this procedure <xref ref="pubmed33812829" resource="acc025" />.</listitem>
+<listitem>Painful LBBB syndrome: Left bundle branch area pacing and permanent His bundle branch pacing are two different approaches to pacing that have been reported in the successful management of painful LBBB syndrome <xref ref="pubmed30497723" resource="acc026" />
+<xref ref="pubmed30364759" resource="acc027" />.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Complete RBBB and LBBB are independent predictors of all-cause mortality risk. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed11239842" resource="acc004" /></listitem>
+<listitem>Cardiac resynchronization therapy slows worsening of heart failure and improves quality of life and exercise tolerance in patients with chronic heart failure and IVCD. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed11259720" resource="acc003" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>In a retrospective US study, the risk of progression of LBBB to complete atrioventricular block was approximately 1&#x0025; per year <xref ref="pubmed7088050" resource="acc002" />.</listitem>
+<listitem>Although LBBB may be relatively benign in younger patients, it serves as an important risk factor for cardiovascular disease in older patients.</listitem>
+<listitem>LBBB has been reported as a predictor of sudden cardiac death (10-fold incidence increase) and myocardial infarction (2.90 x increased risk) particularly among individuals aged 50 years and older <xref ref="pubmed16923453" resource="acc033" />
+<xref ref="pubmed6444828" resource="acc034" />.</listitem>
+<listitem>In a retrospective US study, LBBB was reportedly associated with an increased risk of worsening systolic heart failure (HR: 1.34; 95&#x0025; CU: 1.09 &#x2013; 1.63) and implantable cardioverter-defibrillator device placement (HR: 1.50; 95&#x0025; CI 1.10 &#x2013; 2.10) <xref ref="pubmed27614941" resource="acc028" />.</listitem>
+<listitem>In transcutaneous aortic valve implantation (TAVI) populations, TAVR-induced LBBB was shown to correlate with an increased rate of a new pacemaker implantation during hospitalization and at 1-year follow up according to reports from the Placement of Aortic Transcatheter Valves (PARTNER) trial <xref ref="pubmed32313452" resource="acc032" />.</listitem>
+<listitem>Conventionally, in the absence of cardiovascular diseases, RBBB was not associated with adverse cardiovascular outcomes. This is supported by findings from earlier studies such as the Heart Outcomes Prevention Evaluation (HOPE) trial and the Women Health Initiative study <xref ref="pubmed19298567" resource="acc010" />
+<xref ref="pubmed22858187" resource="acc031" />.</listitem>
+<listitem>However, in recent times, studies have reported that RBBB in the absence of cardiovascular disease is associated with an increase in all-cause (HR, 1.5; 95&#x0025; CI 1.1 - 2.0) and cardiovascular-related mortality (HR, 1.7; 95&#x0025; CI, 1.1 - 2.8) <xref ref="pubmed32924743" resource="acc030" />.</listitem>
+<listitem>When compared to those without RBBB, RBBB was shown to increase the risk of in-hospital mortality (8.64&#x0025; vs 3.74&#x0025;, p &#x003D; 0.034) in patients with acute myocardial infarction <xref ref="pubmed33770645" resource="acc029" />.</listitem>
+<listitem>RBBB has also been associated with an adverse prognosis among patients with heart failure <xref ref="pubmed31339387" resource="acc015" />.</listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Biventricular pacing or cardiac resynchronization therapy significantly reduces worsening of heart failure and improves exercise tolerance and quality of life in patients with chronic heart failure and IVCD.<xref ref="pubmed11259720" resource="acc003" /></listitem>
+<listitem>Data from two large US registries show an excess of mortality in patients with RBBB treated with CRT <xref ref="pubmed21670335" resource="acc035" />.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Perform close follow up as clinically indicated in patients with structural heart disease and bifascicular block to look for progression of block and possible need for pacemaker implantation.</listitem>
+<listitem>Pacemaker function should be assessed before discharge after pacemaker implantation.</listitem>
+<listitem>Perform periodic telephonic monitoring with intermittent clinic evaluation to assess pacemaker function.</listitem>
+<listitem>For patients with a dual-chamber pacemaker, perform clinic follow up twice in the first 6 months and then once every 6 months.</listitem>
+<listitem>Clinic follow up includes assessment of the clinical status of the patient, battery status, pacing threshold, pulse width, sensing function, lead integrity, and optimization of sensor-driven rate response.</listitem>
+<listitem>In a retrospective study of patients with LBBB who underwent a myocardial perfusion test, regadenoson stress SPECT-MPI provided an independent prognostic value of predicting adverse cardiac events, with an annualized major adverse cardiovascular event rate of 0.8&#x0025; <xref ref="pubmed31144225" resource="acc036" />.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Avoid AV blocking medications.</listitem>
+<listitem>.</listitem>
+<listitem>In case of any symptoms, follow up with clinic immediately.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>Permanent pacemaker may be indicated in children with transient postoperative third-degree AV block that reverts to sinus rhythm with residual bifascicular block.<strong>TAVI populations</strong></listitem>
+<listitem>Careful surveillance for bradycardia is reasonable in patients with new persistent bundle branch block following TAVI <xref ref="pubmed30412778" resource="acc021" />.</listitem>
+<listitem>TAVR candidates with pre-existing RBBB may benefit from selective prophylactic permanent pacemaker implantation due to its possible impact on TAVR procedural time, length of hospital stay, and cardiac rehospitalization <xref ref="pubmed34390167" resource="acc037" />.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed445730">
+<accessionId id="acc001" href="info:pmid/445730" />
+<authors>Dhingra RC, Wyndham C, Bauernfeind R, et al.</authors>
+<title>Significance of chronic bifascicular block without apparent organic heart disease.</title>
+<source>Circulation</source>
+<pubdate>1979</pubdate>
+<volume>60</volume>
+<pages>33-39</pages>
+</reference>
+<reference id="pubmed7088050">
+<accessionId id="acc002" href="info:pmid/7088050" />
+<authors>McAnulty JH, Rahimtoola SH, Murphy E, et al.</authors>
+<title>Natural history of "high-risk" bundle-branch block: final report of a prospective study.</title>
+<source>N Engl J Med</source>
+<pubdate>1982</pubdate>
+<volume>307</volume>
+<pages>137-143</pages>
+</reference>
+<reference id="pubmed11259720">
+<accessionId id="acc003" href="info:pmid/11259720" />
+<authors>Cazeau S, Leclercq C, Lavergne T, et al.; for the Multisite Stimulation in Cardiomyopathies (MUSTIC) Study Investigators.</authors>
+<title>Effects of multisite biventricular pacing in patients with heart failure and intraventricular conduction delay.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>344</volume>
+<pages>873-880</pages>
+</reference>
+<reference id="pubmed11239842">
+<accessionId id="acc004" href="info:pmid/11239842" />
+<authors>Hesse B, Diaz LA, Snader CE, Blackstone EH, Lauer MS.</authors>
+<title>Complete bundle branch block as an independent predictor of all-cause mortality: report of 7,073 patients referred for nuclear exercise testing.</title>
+<source>Am J Med</source>
+<pubdate>2001</pubdate>
+<volume>110</volume>
+<pages>253-259</pages>
+</reference>
+<reference id="pubmed7608464">
+<accessionId id="acc005" href="info:pmid/7608464" />
+<authors>Zipes DP, DiMarco JP, Gillette PC, et al.</authors>
+<title>Guidelines for clinical intracardiac electrophysiological and catheter ablation procedures. A report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines (Committee on Clinical Intracardiac Electrophysiologic and Catheter Ablation Procedures), developed in collaboration with the North American Society of Pacing and Electrophysiology.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>1995</pubdate>
+<volume>26</volume>
+<pages>555-573</pages>
+</reference>
+<reference id="pubmed3543195">
+<accessionId id="acc006" href="info:pmid/3543195" />
+<authors>Leor R, Stalnikowicz R.</authors>
+<title>Hyperkalemic left bundle branch block and hyporeninemic hypoaldosteronism (hyperkalemic left bundle branch block).</title>
+<source>J Electrocardiol</source>
+<pubdate>1986</pubdate>
+<volume>19</volume>
+<pages>93-95</pages>
+</reference>
+<reference id="pubmed3729077">
+<accessionId id="acc007" href="info:pmid/3729077" />
+<authors>Gould L, Patel C, Betzu R, Judge D, Lee J.</authors>
+<title>Right bundle branch block: a rare manifestation of digitalis toxicity&#x2014;case report.</title>
+<source>Angiology</source>
+<pubdate>1986</pubdate>
+<volume>37</volume>
+<pages>543-546</pages>
+</reference>
+<reference id="pubmed9832497">
+<accessionId id="acc008" href="info:pmid/9832497" />
+<authors>Eriksson P, Hansson PO, Eriksson H, Dellborg M.</authors>
+<title>Bundle-branch block in a general male population: the study of men born 1913.</title>
+<source>Circulation</source>
+<pubdate>1998</pubdate>
+<volume>98</volume>
+<pages>2494-2500</pages>
+</reference>
+<reference id="pubmed20884435">
+<accessionId id="acc009" href="info:pmid/20884435" />
+<authors>Piazza N, Nuis RJ, Tzikas A, et al</authors>
+<title>Persistent conduction abnormalities and requirements for pacemaking six months after transcatheter aortic valve implantation</title>
+<source>EuroIntervention</source>
+<pubdate>2010</pubdate>
+<volume>6(4)</volume>
+<pages>475-484.</pages>
+</reference>
+<reference id="pubmed19298567">
+<accessionId id="acc010" href="info:pmid/19298567" />
+<authors>Sumner G, Salehian O, Yi Q, et al; HOPE Investigators.</authors>
+<title>The prognostic significance of bundle branch block in high-risk chronic stable vascular disease patients: a report from the HOPE trial.</title>
+<source>J Cardiovasc Electrophysiol</source>
+<pubdate>2009</pubdate>
+<volume>20(7)</volume>
+<pages>781-787.</pages>
+</reference>
+<reference id="pubmed400746">
+<accessionId id="acc011" href="info:pmid/400746" />
+<authors>Siegman-Igra Y, Yahini JH, Goldbourt U, Neufeld HN.</authors>
+<title>Intraventricular conduction disturbances: a review of prevalence, etiology, and progression for ten years within a stable population of Israeli adult males.</title>
+<source>Am Heart J</source>
+<pubdate>1978</pubdate>
+<volume>96</volume>
+<pages>669&#x2013;79</pages>
+</reference>
+<reference id="pubmed1132086">
+<accessionId id="acc012" href="info:pmid/1132086" />
+<authors>Rotman M, Triebwasser JH.</authors>
+<title>A clinical and follow-up study of right and left bundle branch block.</title>
+<source>Circulation</source>
+<pubdate>1975</pubdate>
+<volume>51</volume>
+<pages>477&#x2013;84</pages>
+</reference>
+<reference id="pubmed29932265">
+<accessionId id="acc013" href="info:pmid/29932265" />
+<authors>P&#x00E9;rez-Riera AR, Barbosa-Barros R, de Rezende Barbosa MPC, Daminello-Raimundo R, de Abreu LC, Nikus K.</authors>
+<title>Left bundle branch block: Epidemiology, etiology, anatomic features, electrovectorcardiography, and classification proposal.</title>
+<source>Ann Noninvasive Electrocardiol</source>
+<pubdate>2019</pubdate>
+<volume>24</volume>
+<pages>e12572</pages>
+</reference>
+<reference id="pubmed22947613">
+<accessionId id="acc014" href="info:pmid/22947613" />
+<authors>Bussink BE, Holst AG, Jespersen L, Deckers JW, Jensen GB, Prescott E.</authors>
+<title>Right bundle branch block: prevalence, risk factors, and outcome in the general population: results from the Copenhagen City Heart Study.</title>
+<source>Eur Heart J</source>
+<pubdate>2013</pubdate>
+<volume>34</volume>
+<pages>138&#x2013;46</pages>
+</reference>
+<reference id="pubmed31339387">
+<accessionId id="acc015" href="info:pmid/31339387" />
+<authors>Alventosa-Zaidin M, Guix Font L, Benitez Camps M, Roca Saumell C, Pera G, Alzamora Sas MT, For&#x00E9;s Raurell R, Rebagliato Nadal O, Dalf&#x00F3;-Baqu&#x00E9; A, Brugada Terradellas J.</authors>
+<title>Right bundle branch block: Prevalence, incidence, and cardiovascular morbidity and mortality in the general population.</title>
+<source>Eur J Gen Pract</source>
+<pubdate>2019</pubdate>
+<volume>25</volume>
+<pages>109&#x2013;115</pages>
+</reference>
+<reference id="pubmed29920728">
+<accessionId id="acc016" href="info:pmid/29920728" />
+<authors>Seibolt L, Maestas C, Lazkani M, Fatima U, Loli A, Chesser M.</authors>
+<title>Rate-related left bundle branch block and cardiac memory in a patient with bradycardia: Case report and literature review.</title>
+<source>Clin Cardiol</source>
+<pubdate>2018</pubdate>
+<volume>41</volume>
+<pages>1097&#x2013;1102</pages>
+</reference>
+<reference id="pubmed35350872">
+<accessionId id="acc017" href="info:pmid/35350872" />
+<authors>Tang C, Shao S, Zhou K, Hua Y, Luo C, Wang C.</authors>
+<title>Complete Left Bundle-Branch Block After Transcatheter Closure of Perimembranous Ventricular Septal Defect Using Amplatzer Duct Occluder II.</title>
+<source>J Am Heart Assoc</source>
+<pubdate>2022</pubdate>
+<volume>11</volume>
+<pages>e022651</pages>
+</reference>
+<reference id="pubmed34078826">
+<accessionId id="acc018" href="info:pmid/34078826" />
+<authors>Maekawa Y.</authors>
+<title>Significance of Post-Alcohol Septal Ablation Right Bundle Branch Block.</title>
+<source>Circ J</source>
+<pubdate>2021</pubdate>
+<volume>85</volume>
+<pages>1492&#x2013;1493</pages>
+</reference>
+<reference id="pubmed31370956">
+<accessionId id="acc019" href="info:pmid/31370956" />
+<authors>Cui H, Schaff HV, Nishimura RA, Geske JB, Dearani JA, Lahr BD, Ommen SR.</authors>
+<title>Conduction Abnormalities and Long-Term Mortality Following Septal Myectomy in Patients With Obstructive Hypertrophic Cardiomyopathy.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2019</pubdate>
+<volume>74</volume>
+<pages>645&#x2013;655</pages>
+</reference>
+<reference id="pubmed17919569">
+<accessionId id="acc020" href="info:pmid/17919569" />
+<authors>Byrne MJ, Helm RH, Daya S, Osman NF, Halperin HR, Berger RD, Kass DA, Lardo AC.</authors>
+<title>Diminished left ventricular dyssynchrony and impact of resynchronization in failing hearts with right versus left bundle branch block.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2007</pubdate>
+<volume>50</volume>
+<pages>1484&#x2013;90</pages>
+</reference>
+<reference id="pubmed30412778">
+<accessionId id="acc021" href="info:pmid/30412778" />
+<authors>Writing Committee Members, Kusumoto FM, Schoenfeld MH, Barrett C, Edgerton JR, Ellenbogen KA, Gold MR, Goldschlager NF, Hamilton RM, Joglar JA, Kim RJ, Lee R, Marine JE, McLeod CJ, Oken KR, Patton KK, Pellegrini CN, Selzman KA, Thompson A, Varosy PD.</authors>
+<title>2018 ACC&#x002F;AHA&#x002F;HRS guideline on the evaluation and management of patients with bradycardia and cardiac conduction delay: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society.</title>
+<source>Heart Rhythm</source>
+<pubdate>2019</pubdate>
+<volume>16</volume>
+<pages>e128&#x2013;e226</pages>
+</reference>
+<reference id="pubmed33400386">
+<accessionId id="acc022" href="info:pmid/33400386" />
+<authors>Luo H, Westphal P, Shahmohammadi M, Heckman LIB, Kuiper M, Cornelussen RN, Delhaas T, Prinzen FW.</authors>
+<title>Second heart sound splitting as an indicator of interventricular mechanical dyssynchrony using a novel splitting detection algorithm.</title>
+<source>Physiol Rep</source>
+<pubdate>2021</pubdate>
+<volume>9</volume>
+<pages>e14687</pages>
+</reference>
+<reference id="pubmed32089049">
+<accessionId id="acc023" href="info:pmid/32089049" />
+<authors>Knecht S, Schaer B, Reichlin T, Spies F, Madaffari A, Vischer A, Fahrni G, Jeger R, Kaiser C, Osswald S, Sticherling C, K&#x00FC;hne M.</authors>
+<title>Electrophysiology Testing to Stratify Patients With Left Bundle Branch Block After Transcatheter Aortic Valve Implantation.</title>
+<source>J Am Heart Assoc</source>
+<pubdate>2020</pubdate>
+<volume>9</volume>
+<pages>e014446</pages>
+</reference>
+<reference id="pubmed35398009">
+<accessionId id="acc024" href="info:pmid/35398009" />
+<authors>Kassier A, Velagapudi P, Shrestha NM, Schuitema J, Gauri A, Frost J, Merhi W, Jovinge S, Chalfoun N.</authors>
+<title>Optimizing care of patients with right bundle branch block undergoing transcatheter aortic valve replacement.</title>
+<source>Cardiovasc Revasc Med</source>
+<pubdate>2022</pubdate>
+<pages />
+</reference>
+<reference id="pubmed33812829">
+<accessionId id="acc025" href="info:pmid/33812829" />
+<authors>Ponnusamy SS, Vijayaraman P.</authors>
+<title>Left Bundle Branch Block-Induced Cardiomyopathy: Insights From Left Bundle Branch Pacing.</title>
+<source>JACC Clin Electrophysiol</source>
+<pubdate>2021</pubdate>
+<volume>7</volume>
+<pages>1155&#x2013;1165</pages>
+</reference>
+<reference id="pubmed30497723">
+<accessionId id="acc026" href="info:pmid/30497723" />
+<authors>Viles-Gonzalez JF, Mahata I, Anter E, d'Avila A.</authors>
+<title>Painful left bundle branch block syndrome treated with his bundle pacing.</title>
+<source>J Electrocardiol</source>
+<pubdate>2018 Nov - Dec</pubdate>
+<volume>51</volume>
+<pages>1019&#x2013;1022</pages>
+</reference>
+<reference id="pubmed30364759">
+<accessionId id="acc027" href="info:pmid/30364759" />
+<authors>Suryanarayana PG, Frankel DS, Marchlinski FE, Schaller RD.</authors>
+<title>Painful left bundle branch block [corrected] syndrome treated successfully with permanent His bundle pacing.</title>
+<source>HeartRhythm Case Rep</source>
+<pubdate>2018</pubdate>
+<volume>4</volume>
+<pages>439&#x2013;443</pages>
+</reference>
+<reference id="pubmed27614941">
+<accessionId id="acc028" href="info:pmid/27614941" />
+<authors>Witt CM, Wu G, Yang D, Hodge DO, Roger VL, Cha YM.</authors>
+<title>Outcomes With Left Bundle Branch Block and Mildly to Moderately Reduced Left Ventricular Function.</title>
+<source>JACC Heart Fail</source>
+<pubdate>2016</pubdate>
+<volume>4</volume>
+<pages>897&#x2013;903</pages>
+</reference>
+<reference id="pubmed33770645">
+<accessionId id="acc029" href="info:pmid/33770645" />
+<authors>Figueroa-Triana JF, Mora-Pab&#x00F3;n G, Quitian-Moreno J, &#x00C1;lvarez-Gaviria M, Idrovo C, Cabrera JS, Pe&#x00F1;uela JAR, Caballero Y, Naranjo M.</authors>
+<title>Acute myocardial infarction with right bundle branch block at presentation: Prevalence and mortality.</title>
+<source>J Electrocardiol</source>
+<pubdate>2021 May-Jun</pubdate>
+<volume>66</volume>
+<pages>38&#x2013;42</pages>
+</reference>
+<reference id="pubmed32924743">
+<accessionId id="acc030" href="info:pmid/32924743" />
+<authors>Gaba P, Pedrotty D, DeSimone CV, Bonikowske AR, Allison TG, Kapa S.</authors>
+<title>Mortality in Patients With Right Bundle-Branch Block in the Absence of Cardiovascular Disease.</title>
+<source>J Am Heart Assoc</source>
+<pubdate>2020</pubdate>
+<volume>9</volume>
+<pages>e017430</pages>
+</reference>
+<reference id="pubmed22858187">
+<accessionId id="acc031" href="info:pmid/22858187" />
+<authors>Zhang ZM, Rautaharju PM, Soliman EZ, Manson JE, Cain ME, Martin LW, Bavry AA, Mehta L, Vitolins M, Prineas RJ.</authors>
+<title>Mortality risk associated with bundle branch blocks and related repolarization abnormalities (from the Women's Health Initiative [WHI]).</title>
+<source>Am J Cardiol</source>
+<pubdate>2012</pubdate>
+<volume>110</volume>
+<pages>1489&#x2013;95</pages>
+</reference>
+<reference id="pubmed32313452">
+<accessionId id="acc032" href="info:pmid/32313452" />
+<authors>Hamandi M, Tabachnick D, Lanfear AT, Baxter R, Shin K, Zingler B, Mack MJ, DiMaio JM, Kindsvater S.</authors>
+<title>Effect of new and persistent left bundle branch block after transcatheter aortic valve replacement on long-term need for pacemaker implantation.</title>
+<source>Proc (Bayl Univ Med Cent)</source>
+<pubdate>2020</pubdate>
+<volume>33</volume>
+<pages>157&#x2013;162</pages>
+</reference>
+<reference id="pubmed16923453">
+<accessionId id="acc033" href="info:pmid/16923453" />
+<authors>Imanishi R, Seto S, Ichimaru S, Nakashima E, Yano K, Akahoshi M.</authors>
+<title>Prognostic significance of incident complete left bundle branch block observed over a 40-year period.</title>
+<source>Am J Cardiol</source>
+<pubdate>2006</pubdate>
+<volume>98</volume>
+<pages>644&#x2013;8</pages>
+</reference>
+<reference id="pubmed6444828">
+<accessionId id="acc034" href="info:pmid/6444828" />
+<authors>Rabkin SW, Mathewson FA, Tate RB.</authors>
+<title>Natural history of left bundle-branch block.</title>
+<source>Br Heart J</source>
+<pubdate>1980</pubdate>
+<volume>43</volume>
+<pages>164&#x2013;9</pages>
+</reference>
+<reference id="pubmed21670335">
+<accessionId id="acc035" href="info:pmid/21670335" />
+<authors>Sipahi I, Carrigan TP, Rowland DY, Stambler BS, Fang JC.</authors>
+<title>Impact of QRS duration on clinical event reduction with cardiac resynchronization therapy: meta-analysis of randomized controlled trials.</title>
+<source>Arch Intern Med</source>
+<pubdate>2011</pubdate>
+<volume>171</volume>
+<pages>1454&#x2013;62</pages>
+</reference>
+<reference id="pubmed31144225">
+<accessionId id="acc036" href="info:pmid/31144225" />
+<authors>Iskander F, Iskander M, Gomez J, Doukky R.</authors>
+<title>Prognostic value of regadenoson stress myocardial perfusion imaging in patients with left bundle branch block or ventricular paced rhythm.</title>
+<source>J Nucl Cardiol</source>
+<pubdate>2021</pubdate>
+<volume>28</volume>
+<pages>967&#x2013;977</pages>
+</reference>
+<reference id="pubmed34390167">
+<accessionId id="acc037" href="info:pmid/34390167" />
+<authors>Fukutomi M, Hokken T, Wong I, Bieliauskas G, Daemen J, de Jaegere P, Van Mieghem N, S&#x00F8;ndergaard L, De Backer O.</authors>
+<title>Prophylactic permanent pacemaker strategy in patients with right bundle branch block undergoing transcatheter aortic valve replacement.</title>
+<source>Catheter Cardiovasc Interv</source>
+<pubdate>2021</pubdate>
+<volume>98</volume>
+<pages>E1017&#x2013;E1025</pages>
+</reference>
+<reference id="pubmed35363499">
+<accessionId id="acc038" href="info:pmid/35363499" />
+<authors>Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, Deswal A, Drazner MH, Dunlay SM, Evers LR, Fang JC, Fedson SE, Fonarow GC, Hayek SS, Hernandez AF, Khazanie P, Kittleson MM, Lee CS, Link MS, Milano CA, Nnacheta LC, Sandhu AT, Stevenson LW, Vardeny O, Vest AR, Yancy CW.</authors>
+<title>2022 AHA&#x002F;ACC&#x002F;HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology&#x002F;American Heart Association Joint Committee on Clinical Practice Guidelines.</title>
+<source>Circulation</source>
+<pubdate>2022</pubdate>
+<pages>101161CIR0000000000001063</pages>
+</reference>
+<reference id="pubmed29696347">
+<accessionId id="acc039" href="info:pmid/29696347" />
+<authors>Moya A, Rivas-Gandara N, Perez-Rod&#x00F3;n J, Franciso-Pascual J, Santos-Ortega A, Fumero P, Roca-Luque I.</authors>
+<title>Syncope and bundle branch block : Diagnostic approach.</title>
+<source>Herzschrittmacherther Elektrophysiol</source>
+<pubdate>2018</pubdate>
+<volume>29</volume>
+<pages>161&#x2013;165</pages>
+</reference>
+<reference id="pubmed15481609">
+<accessionId id="acc040" href="info:pmid/15481609" />
+<authors>Jeong JH, Kim JH, Park YH, Han DC, Hwang KW, Lee DW, Oh JH, Song SG, Kim JS, Chun KJ, Hong TJ, Shin YW.</authors>
+<title>Incidence of and risk factors for bundle branch block in adults older than 40 years.</title>
+<source>Korean J Intern Med</source>
+<pubdate>2004</pubdate>
+<volume>19</volume>
+<pages>171&#x2013;8</pages>
+</reference>
+<reference id="pubmed28352414">
+<accessionId id="acc041" href="info:pmid/28352414" />
+<authors>Azadani PN, Soleimanirahbar A, Marcus GM, Haight TJ, Hollenberg M, Olgin JE, Lee BK.</authors>
+<title>Asymptomatic Left Bundle Branch Block Predicts New-Onset Congestive Heart Failure and Death From Cardiovascular Diseases.</title>
+<source>Cardiol Res</source>
+<pubdate>2012</pubdate>
+<volume>3</volume>
+<pages>258&#x2013;263</pages>
+</reference>
+<reference id="pubmed21376930">
+<accessionId id="acc042" href="info:pmid/21376930" />
+<authors>Strauss DG, Selvester RH, Wagner GS.</authors>
+<title>Defining left bundle branch block in the era of cardiac resynchronization therapy.</title>
+<source>Am J Cardiol</source>
+<pubdate>2011</pubdate>
+<volume>107</volume>
+<pages>927&#x2013;34</pages>
+</reference>
+<reference id="pubmed36700426">
+<accessionId id="acc043" href="info:pmid/36700426" />
+<authors>Friedman DJ , Al-Khatib SM , Dalgaard F , Fudim M , Abraham WT , Cleland JGF , Curtis AB , Gold MR , Kutyifa V , Linde C, Tang AS , Ali-Ahmed F, Olivas-Martinez A, Inoue LYT, Sanders GD.</authors>
+<title>Cardiac Resynchronization Therapy Improves Outcomes in Patients With Intraventricular Conduction Delay But Not Right Bundle Branch Block: A Patient-Level Meta-Analysis of Randomized Controlled Trials.</title>
+<source>Circulation</source>
+<pubdate>2023</pubdate>
+<volume>147</volume>
+<pages>812&#x2013;823</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>EKG features of bundle branch blocks per the 2018 ACC&#x002F;AHA guideline</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Diagnostic features</th>
+<th align="left" colspan="2">Partial LBBB</th>
+<th align="left" colspan="1">Complete LBBB</th>
+<th align="left" colspan="1">Complete RBBB</th>
+<th align="left" colspan="1">Incomplete RBBB</th>
+</tr>
+<tr>
+<th align="left" colspan="1">
+</th>
+<th align="left" colspan="1">Left anterior fascicular block</th>
+<th align="left" colspan="1">Left posterior fascicular block</th>
+<th align="left" colspan="1">
+</th>
+<th align="left" colspan="1">
+</th>
+<th align="left" colspan="1">
+</th>
+</tr>
+<tr>
+<td align="left" colspan="1">QRS Axis</td>
+<td align="left" colspan="1">Left (-45&#x00B0; to -90&#x00B0;)</td>
+<td align="left" colspan="1">Right (+90&#x00B0; to +180&#x00B0;)</td>
+<td align="left" colspan="1">
+</td>
+<td align="left" colspan="1">
+</td>
+<td align="left" colspan="1">
+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">QRS Duration</td>
+<td align="left" colspan="1">&lt;120 ms</td>
+<td align="left" colspan="1">&lt;120 ms</td>
+<td align="left" colspan="1">&#x2265;120 ms</td>
+<td align="left" colspan="1">&#x2265;120 ms</td>
+<td align="left" colspan="1">110 to 119 ms</td>
+</tr>
+<tr>
+<td align="left" colspan="1">EKG features</td>
+<td align="left" colspan="1">aVL - qR patternII, III, and aVF - rS pattern</td>
+<td align="left" colspan="1">I, aVL - rS pattern III, aVF - qR pattern</td>
+<td align="left" colspan="1">I, aVL, V5, &amp; V6 - broad notched or slurred R wave and an occasional RS pattern in V5 and V6 I, V5, and V6 - absent Q waves aVL, a narrow Q wave may be present in the absence of myocardial pathologyST &amp; T waves usually discordant to QRS</td>
+<td align="left" colspan="1">V1 or V2 - rsr&#x2032;, rsR&#x2032;, rSR&#x2032;, pattern Rarely qR pattern in V1 orV2I, V6 - S wave &#x003E;40 ms</td>
+<td align="left" colspan="1">Same QRS morphology as complete RBB</td>
+</tr>
+<tr>
+<td align="left" colspan="1">R peak time</td>
+<td align="left" colspan="1">&#x2265;45 ms in lead aVL</td>
+<td align="left" colspan="1">
+</td>
+<td align="left" colspan="1">&#x003E; 60 ms in leads V5 and V6 but normal in leads V1, V2, and V3</td>
+<td align="left" colspan="1">Normal R peak time in leads V5 and V6 but &#x003E;50 ms in lead V1</td>
+<td align="left" colspan="1">
+</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+<figure_group>
+<figure id="fig001">
+<caption>QRS wave<xref ref="fig003" /> morphology as seen in leads V1 and V6 in LBBB and RBBB. </caption>
+<graphic href="Figure 1.jpg" />
+<caption_detail>LBBB - Left bundle branch block, RBBB - Right bundle brnach block</caption_detail>
+</figure>
+<figure id="fig002">
+<caption>Diagnostic approach to patients with BBB. Adapted from the 2018 ACC&#x002F;AHA&#x002F;HRS guideline on bradycardia and cardiac conduction delay.</caption>
+<graphic href="i01_figure 2.jpg" />
+<caption_detail> ECHO &#x2013; echocardiography</caption_detail>
+</figure>
+<figure id="fig003">
+<caption>Guideline recommended approach to the management of BBB. Adapted from the ACC&#x002F;AHA 2018 guideline on bradycardia and cardiac conduction delay. </caption>
+<graphic href="i01_Figure 3.png" />
+<caption_detail>AV - atrioventricular, HV &#x2013; His to ventricular, NHYA &#x2013; New York Heart Association, LVEF &#x2013; Left ventricular ejection fraction</caption_detail>
+</figure>
+</figure_group>
+</topic>

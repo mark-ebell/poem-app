@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Hyperaldosteronism (primary)</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0132</topic_id>
+<topic_comment />
+<topic_lastupdated>03/07/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Abid Yaqub, MD, FACP, FACE</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Joan C. Edwards School of Medicine, Marshall University</author_institution>
+<author_email>yaqub1&#x0040;icloud.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1>1249 15th Street</author_street1>
+<author_street2 />
+<author_city>Huntington</author_city>
+<author_state>WV</author_state>
+<author_zip>25701</author_zip>
+</author>
+<author primary="no">
+<author_name>Jennifer Wheaton, DO</author_name>
+<author_title>Endocrinologist</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Private Practice</author_institution>
+<author_email>jcwheaton&#x0040;alumni.bowdoin.edu</author_email>
+<author_phone_office>757 340-4204</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>909 Downshire Chase</author_street1>
+<author_street2 />
+<author_city>Virginia Beach</author_city>
+<author_state>VA</author_state>
+<author_zip>23452</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Evaluate for primary aldosteronism (PA) in patients with hypertension associated with adrenal incidentaloma, spontaneous or diuretic induced hypokalemia, drug resistant hypertension (three or more drugs required for control), hypertension and sleep apnea, patients with JNC VI hypertension stages 2 or 3, and in patients with hyertension and family history of early onset hypertension or CVA at a young age (&lt;40 years). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Best initial test is the ratio of <xref ref="test90" resource="acc026">plasma aldosterone concentration to plasma renin activity (angiotensin renin ratio or ARR)</xref>; a positive test is a ratio of more than 20 ng&#x002F;dL&#x002F;ng&#x002F;mL&#x002F;h usually associated with a PAC more than 15 ng&#x002F;dL. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Confirm the diagnosis by additional testing with saline suppression test, oral salt load, fludrocortisone suppression test, or captopril suppression test. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Once the diagnosis is confirmed, determine whether the cause is unilateral or bilateral adrenal disease. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treat with a mineralocorticoid receptor antagonist if the cause is idiopathic hyperaldosteronism (IHA), if the patient is not a surgical candidate or if the patient declines surgery. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Treat with adrenalectomy if a unilateral cause of PA is confirmed. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Primary aldosteronism is a group of disorders in which aldosterone production is inappropriately high, relatively autonomous, and non-suppressible by sodium loading.<xref ref="pubmed18552288" resource="acc001" /><xref ref="poem190105" resource="acc027" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Mean prevalence of PA is estimated at 4.3&#x0025; among hypertensive patients in primary care and 9.5&#x0025; among referred patients with hypertension.<xref ref="pubmed22135219" resource="acc002" /></listitem>
+<listitem>Prevalence increases with worsening hypertension. There is 2&#x0025; prevalence in stage 1, 8&#x0025; in stage 2, and 13&#x0025; in stage 3 hypertension. (stages defined by Joint National Committee VI).<xref ref="pubmed12796282" resource="acc003" /></listitem>
+<listitem>However, the heterogenity of studies aimed at estimating the prevlaence of primary aldosteronism is probably misleading (I(2) &#x003D; 57.6&#x0025; for studies in primary care and I(2) &#x003D; 97.1&#x0025; in referral centers), casting doubt on published estimates.<xref ref="pubmed27172433" resource="acc028" /></listitem>
+<listitem>The prevalence of PA ranges from 14&#x0025; to 21&#x0025; in patients with resistant hypertension.<xref ref="pubmed22521297" resource="acc004" /></listitem>
+<listitem>Patients with untreated PA have a higher risk of CV events, including MI, stroke, and atrial fibrillation than patients with essential hypertension.<xref ref="pubmed22135219" resource="acc002" /></listitem>
+<listitem>In a population of persons without known hyperaldosteronism, higher aldosterone to renin ratio, suggestive of subclinical hyperthyroidism was associated with some physiologic measures of cardiovascular health (higher blood pressure, increased arterial stiffness, and cardiac remodeling.<xref ref="pubmed38031887" resource="acc029" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>IHA&#x002F;bilateral adrenal hyperplasia: 65&#x0025;.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Aldosterone producing adenoma (APA): 30&#x0025;.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Primary unilateral adrenal hyperplasia (UAH): 3&#x0025;.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Aldosterone producing adrenocortical carcinoma: 1&#x0025;.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Aldosterone producing ovarian tumor: &lt;1&#x0025;.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Familial hyperaldosteronism type I or glucocorticoid remediable aldosteronism (GRA): &lt;1&#x0025;. GRA is inherited as an autosomal dominant trait that results in aldosterone secretion being regulated by adrenocorticotropic hormone (ACTH). Typically presents with hypertension early in life and increased prevalence of early cerebrovascular complications.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Familial hyperaldosteronism type II, a familial occurrence of APA or IHA, autosomal dominant: unknown frequency.<xref ref="pubmed16932426" resource="acc005" /></listitem>
+<listitem>Familial hyperaldosteronism type III, autosomal dominant, leading to severe childhood hypertension and massive adrenal hyperplasia: unknown frequency.<xref ref="pubmed18505761" resource="acc006" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Aldosterone is iesreted by cells of adrenal glomerulosa in response to hyperkalemia and stimulation of renin angiotensin system (RAS). Aldosterone increases sodium and chloride reabsorption as well as potassium and hydrogen secretion at the distal nephron.</listitem>
+<listitem>PA is cahracterised by overproduction of aldosterone by adrenal adrenal glands in a manner relatively autonomous of RAS and non-suppressible by sodium loading. This results in volume expansion, hypertension and hypokalemia.</listitem>
+<listitem>Excess aldosterone secretion has also been shown to be related to vascular inflammation, myocardial fibrosis, left ventricular hypertrophy and renal damage.<xref ref="pubmed22521297" resource="acc004" /></listitem>
+<listitem>Recently, mutations of the potassium channel gene KCNJ5 affecting channel ion selectivity have been identified in both sporadic adosterone-producing adenomas and familial hyperaldosteronsim type III providing insight into disease mechanism.<xref ref="pubmed22476103" resource="acc007" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Endocrine Society guidelines (2026) conditionally recommend screening for aldosteronism in patients with hypertension. They recommend measuring potassium and the plasma aldosterone to plasma renin activity ratio.<xref ref="pubmed40658480" resource="acc032" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Evaluate for primary aldosteronism (PA) in patients with hypertension associated with adrenal incidentaloma, spontaneous or diuretic induced hypokalemia, drug resistant hypertension (3 or more drugs required for control), patients with JNC VI hypertension stages 2 or 3, and in patients with hyertension and family history of early onset hypertension or CVA at a young age (&lt;40 years).<xref ref="pubmed40658480" resource="acc032" /><xref ref="pubmed18552288" resource="acc001" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The best initial screening test of choice is the ratio of <xref ref="pubmed12468575" resource="acc014">plasma aldosterone concentration to plasma renin activity (ARR)</xref>.<xref ref="pubmed40658480" resource="acc032" /><xref ref="pubmed18552288" resource="acc001" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>If the ARR is positive, confirm the PA diagnosis using saline suppression test, oral salt load, fludrocortisone suppression test, or captopril suppression test. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Once diagnosis is confirmed, perform additional testing to localize the abnormality.<xref ref="pubmed18552288" resource="acc001" /><evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Apparent mineralocorticoid excess</Differential_Name>
+<Differential_Features>Low renin and low aldosterone</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chronic ingestion of licorice</Differential_Name>
+<Differential_Features>Low renin and low aldosterone</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Renovascular disease</Differential_Name>
+<Differential_Features>Elevated renin and elevated aldosterone</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cushing's syndrome</Differential_Name>
+<Differential_Features>Cushingoid features with low renin and low aldosterone</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Liddle's syndrome</Differential_Name>
+<Differential_Features>Low renin and low aldosterone</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Renin secreting tumor</Differential_Name>
+<Differential_Features>Elevated renin and elevated aldosterone</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Congenital adrenal hyperplasia</Differential_Name>
+<Differential_Features>Low renin and low aldosterone</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>The classic presentation of PA is the triad of hypertension, hypokalemia, and metabolic alkalosis. Hypokalemia in particular may cause symptoms if severe such as muscle weakness or intermittent paralysis, but this is uncommon, and most patients are asymptomatic.</listitem>
+<listitem>Inquire about personal age of onset of hypertension and about a family history of early onest hypertension, early cerebrovascular disease, or PA.</listitem>
+<listitem>Assess the number and classes of medications required for blood pressure control in each patient.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Recent research shows that less than 40&#x0025; of patients with PA are hypokalemic.<xref ref="pubmed15001583" resource="acc008" /></listitem>
+<listitem>Evaluate for primary aldosteronism (PA) in patients with hypertension associated with adrenal incidentaloma, spontaneous or diuretic induced hypokalemia, drug resistant hypertension (3 or more drugs required for control), patients with JNC VI hypertension stages 2 or 3, and in patients with hyertension and family history of early onset hypertension or CVA at a young age (&lt;40 years).<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>The best initial test is the <xref ref="test90" resource="acc026">ratio of plasma aldosterone concentration to plasma renin activity (ARR)</xref> drawn in the morning with the patient seated after having rested for 15 minutes. Cut-off of a positive ARR ranges is 20 for aldosterone (ng&#x002F;dl) &#x002F; plasma renin activity [PRA] (ng&#x002F;mL&#x002F;hr) and 70 for aldosterone (pmol&#x002F;L) &#x002F; direct renin concentration (mU&#x002F;mL).<xref ref="pubmed40658480" resource="acc032" /><xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>If the ARR is positive but the patient is taking a beta-blocker or alpha agonist (e.g. clonidine) then a false positive is possible. The medications should be stopped and the test repeated in 2 weeks.<xref ref="pubmed40658480" resource="acc032" /><xref ref="pubmed22147655" resource="acc010" /></listitem>
+<listitem>False negatives may be caused by underlying hypokalemia, mineralicorticoid antagonists, and diuretics.<xref ref="pubmed40658480" resource="acc032" /></listitem>
+<listitem>When the angiotensin renin ratio (ARR) result is inconclusive or difficult to interpret due to interfering medications or other conditions, it should be repeated under optimal conditions.<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>Non-dihydrpyridine calcium channel blockers, hydralazine and alpha-blockers have no significant effecton ARR and can be used to control BP while repeating ARR.<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>Patients with a clearly positive ARR do not require a suppression test and should be treated. This includes patients with clinical features of severe PA including hypokalemia, very low renin (direct renin concentation&lt; 2 mU&#x002F;L or PRA &lt; 0.2 ng&#x002F;ml&#x002F;hr) along with aldosterone &gt; 20 ng&#x002F;dL. Further evaluation for patients considering surgery includes adrenal CT and adrenal venous sampling.<xref ref="pubmed40658480" resource="acc032" /></listitem>
+<listitem>Those with an intermediate probability of lateralizing PA who are candidates for surgery should have the PA diagnosis confirmed by demonstrating failure of aldosterone to suppress under appropriate conditions (<xref ref="table001" />). Currently there is no consensus as to the best confirmatory test to diagnosis PA. The decision as to which test to use is based on the availability of the test and clinical experience with the test.<xref ref="pubmed22395800" resource="acc011" /><xref ref="pubmed40658480" resource="acc032" /></listitem>
+<listitem>Once the diagnosis of PA has been confirmed then localize the abnormality through further testing as described in <xref ref="table002" />.<xref ref="pubmed15657580" resource="acc012"> Adrenal vein sampling</xref> is the gold standard for determining if PA is due to unilateral or bilateral disease.<xref ref="pubmed15657580" resource="acc012" /> A clinical prediction rule found that in PA patients with a typical adrenal adenoma 8mm or more in size with normal contralateral adrenal gland plus either a finding of hypoklaemia or eGFR &gt;100 ml&#x002F;min&#x002F;1.73 m<sup>2</sup>, unilateral PA can be predicted with 100&#x0025; sensitivity and 53&#x0025; specificity. The authors conclude that AVS can be avoided in such patients.<xref ref="pubmed22918872" resource="acc023" /></listitem>
+<listitem>Glucocorticoid remediable aldosteronism (GRA) is diagnosed in suspected individuals by a dexamethasone suppression test followed by genetic testing to determine presence of hybrid 11 beta-hydroxylase&#x002F;aldosterone synthase gene.<xref ref="pubmed9661646" resource="acc013" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>90</Dx_ID>
+<Dx_ID>378</Dx_ID>
+<Dx_ID>377</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treatment of choice for IHA is a mineralocorticoid receptor antagonist (eg, spironolactone).<xref ref="pubmed18552288" resource="acc001" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Treatment of choice for aldosterone-producing adenoma (APA) or unilateral adrenal hyperplasia (UAH) is adrenalectomy.<xref ref="pubmed18552288" resource="acc001" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Treat with a mineralocorticoid receptor antagonist (MRA) for APA and UAH if patient is not a candidate for surgery or if patient declines surgery.<xref ref="pubmed18552288" resource="acc001" /><evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>For IHA or for patients with aldosterone-producing adenoma (APA) and unilateral adrenal hyperplasia (UAH) who are not candidates for surgery or refuse surgery, the treatment of choice is a mineralocorticoid receptor antagonist (MRA), either spironolactone or eplerenone.<xref ref="pubmed12468575" resource="acc014" /></listitem>
+<listitem>MRAs have been shown to be effective in providing BP control as well as BP independent target organ protection.<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>Spironolactone, a non-selective MRA is considered a more effective and preferred therapy.<xref ref="pubmed21451421" resource="acc015" /> Eplerenone, a selective MRA is considered an alternative therapy for patients with undesirable side effects of impotence, gynecomastia, menstrual irregularities or mastodynia observed on spironolactone therapy.<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>Closely monitor the patient's blood pressure and potassium when initiating therapy with a mineralocorticoid receptor antagonist to prevent hypotension and hyperkalemia.</listitem>
+<listitem>For GRA, the treatment of choice is a glucocorticoid to partially suppress ACTH production, thereby decreasing aldosterone production. The lowest possible dose should be used to avoid iatrogenic Cushing's. Mineralocorticoid receptor antagonists can be used in conjunction with glucocorticoids if needed to control blood pressure.<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>Dietary sodium intake is directly related to the severity of obstructive sleep apnea in patients with hyperaldosteronism and resistant hypertension.<xref ref="pubmed23288434" resource="acc025" /></listitem>
+<listitem>A novel aldosterone synthase inhibitor called lorundrostat was shown in an RCT (n&#x003D;200 adults with poorly controlled hypertension) to reduce blood pressure by 3 to 10 more mm Hg than placebo. There are no clinical outcome data.<xref ref="pubmed37690061" resource="acc030" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Treatment of choice for aldosterone-producing adenoma (APA) and UAH is adrenalectomy.<xref ref="pubmed18552288" resource="acc001" /></listitem>
+<listitem>The surgery of choice is a laparoscopic adrenalectomy, if available. Laparoscopic partial adrenalectomy has been shown to as safe and effective and laparascopic total adrenalectomy in cure of patients with APA.<xref ref="pubmed21419437" resource="acc021" /></listitem>
+<listitem>A cure rate of up to 44&#x0025; has been reported after adrenalectomy. Cure was defined as a patient having blood pressure less than 140&#x002F;90 mm Hg off all antihypertensives.<xref ref="pubmed22921664" resource="acc016" /></listitem>
+<listitem>Majority of patients experience significant improvement in their BP management with drop in BP and reduction in number of anti-hypertensive medications.<xref ref="pubmed22921664" resource="acc016" /></listitem>
+<listitem>A study of 41 patients following adrenalectomy found the largest drop in blood pressure in the first month post-operatively, with little change after that. The authors suggest that long-term follow-up by the surgical team is not needed.<xref ref="pubmed35894426" resource="acc031" /></listitem>
+<listitem>While BP cure or improvement take up to 6 months following surgery, resolution of hypokalemia is immediate.<xref ref="pubmed22921664" resource="acc016" /></listitem>
+<listitem>Patients need to be monitored closely for hyperkalemia and hypotension postoperatively.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Once a diagnosis of PA is suspected secondary to a positive ARR, consider referring the patient to an endocrinologist, a nephrologist, or a hypertension center for the workup to confirm the diagnosis of PA and to localize the abnormality.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Patients with PA have higher rates of stroke (both ischemic and hemorrhagic), nonfatal myocardial infarction (Odds Ratio &#x003D; 2.6), atrial fibrillation (OR &#x003D; 5.0), left ventricular hypertrophy (OR &#x003D; 2.0), and heart failure (OR &#x003D; 2.9) as compared with patients with essential hypertension.<xref ref="pubmed15837256" resource="acc017" /><xref ref="pubmed23753408" resource="acc024" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Non-inasive ultrasonograhic and serological indices of Aldosterone induced myocardial fibrosis have been shown to be reversed with adrenalectomy and MR antagonist therapy.<xref ref="pubmed22688266" resource="acc018" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients with PA have increased rates of microalbuminuria and albuminuria as compared with patients with essential hypertension.<xref ref="pubmed16801482" resource="acc019" /> This has been shown to improve after treatment of PA with adrenalectomy or spironolactone.<xref ref="pubmed16772627" resource="acc020" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed18552288">
+<accessionId id="acc001" href="info:pmid/18552288" />
+<authors>Funder JW, Carey RM, Fardella C, Gomez-Sanchez CE, Mantero F, Stowasser M, Young WF, Jr., Montori VM; Endocrine Society.</authors>
+<title>Case detection, diagnosis, and treatment of patients with primary aldosteronism: an endocrine society clinical practice guideline.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2008</pubdate>
+<volume>93</volume>
+<pages>3266&#x2013;3281.</pages>
+</reference>
+<reference id="pubmed22135219">
+<accessionId id="acc002" href="info:pmid/22135219" />
+<authors>Hannemann A, Wallaschofski H.</authors>
+<title>Prevalence of primary aldosteronism in patient's cohorts and in population-based studies&#x2014;a review of the current literature.</title>
+<source>Horm Metab Res</source>
+<pubdate>2012</pubdate>
+<volume>44</volume>
+<pages>157&#x2013;162.</pages>
+</reference>
+<reference id="pubmed12796282">
+<accessionId id="acc003" href="info:pmid/12796282" />
+<authors>Mosso L, Carvajal C, Gonz&#x00E1;lez A, Barraza A, Avila F, Montero J, Huete A, Gederlini A, Fardella CE.</authors>
+<title>Primary aldosteronism and hypertensive disease.</title>
+<source>Hypertension</source>
+<pubdate>2003</pubdate>
+<volume>42</volume>
+<pages>161&#x2013;165.</pages>
+</reference>
+<reference id="pubmed22521297">
+<accessionId id="acc004" href="info:pmid/22521297" />
+<authors>Clark D, 3rd, Ahmed MI, Calhoun DA.</authors>
+<title>Resistant hypertension and aldosterone: an update.</title>
+<source>Can J Cardiol</source>
+<pubdate>2012</pubdate>
+<volume>28</volume>
+<pages>318&#x2013;325.</pages>
+</reference>
+<reference id="pubmed16932426">
+<accessionId id="acc005" href="info:pmid/16932426" />
+<authors>Mattsson C, Young WF, Jr.</authors>
+<title>Primary aldosteronism: diagnostic and treatment strategies.</title>
+<source>Nat Clin Pract Nephrol</source>
+<pubdate>2006</pubdate>
+<volume>2</volume>
+<pages>198&#x2013;208; quiz, 1 p following 230.</pages>
+</reference>
+<reference id="pubmed18505761">
+<accessionId id="acc006" href="info:pmid/18505761" />
+<authors>Geller DS, Zhang J, Wisgerhof MV, Shackleton C, Kashgarian M, Lifton RP.</authors>
+<title>A novel form of human mendelian hypertension featuring nonglucocorticoid-remediable aldosteronism.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2008</pubdate>
+<volume>93</volume>
+<pages>3117&#x2013;3123.</pages>
+</reference>
+<reference id="pubmed22476103">
+<accessionId id="acc007" href="info:pmid/22476103" />
+<authors>Bar-Lev A, Annes JP.</authors>
+<title>Genetics of adrenocortical disease: an update.</title>
+<source>Curr Opin Endocrinol Diabetes Obes</source>
+<pubdate>2012</pubdate>
+<volume>19</volume>
+<pages>159&#x2013;167.</pages>
+</reference>
+<reference id="pubmed15001583">
+<accessionId id="acc008" href="info:pmid/15001583" />
+<authors>Mulatero P, Stowasser M, Loh KC, Fardella CE, Gordon RD, Mosso L, Gomez-Sanchez CE, Veglio F, Young WF, Jr.</authors>
+<title>Increased diagnosis of primary aldosteronism, including surgically correctable forms, in centers from five continents.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2004</pubdate>
+<volume>89</volume>
+<pages>1045&#x2013;1050.</pages>
+</reference>
+<reference id="pubmed17492946">
+<accessionId id="acc009" href="info:pmid/17492946" />
+<authors>Young WF.</authors>
+<title>Primary aldosteronism: renaissance of a syndrome.</title>
+<source>Clin Endocrinol (Oxf)</source>
+<pubdate>2007</pubdate>
+<volume>66</volume>
+<pages>607&#x2013;618.</pages>
+</reference>
+<reference id="pubmed22147655">
+<accessionId id="acc010" href="info:pmid/22147655" />
+<authors>Stowasser M, Ahmed AH, Pimenta E, Taylor PJ, Gordon RD.</authors>
+<title>Factors affecting the aldosterone&#x002F;renin ratio.</title>
+<source>Horm Metab Res</source>
+<pubdate>2012</pubdate>
+<volume>44</volume>
+<pages>170&#x2013;176.</pages>
+</reference>
+<reference id="pubmed22395800">
+<accessionId id="acc011" href="info:pmid/22395800" />
+<authors>Salv&#x00E0; M, Cicala MV, Mantero F.</authors>
+<title>Primary aldosteronism: the role of confirmatory tests.</title>
+<source>Horm Metab Res</source>
+<pubdate>2012</pubdate>
+<volume>44</volume>
+<pages>177&#x2013;180.</pages>
+</reference>
+<reference id="pubmed15657580">
+<accessionId id="acc012" href="info:pmid/15657580" />
+<authors>Young WF, Stanson AW, Thompson GB, Grant CS, Farley DR, van Heerden JA.</authors>
+<title>Role for adrenal venous sampling in primary aldosteronism.</title>
+<source>Surgery</source>
+<pubdate>2004</pubdate>
+<volume>136</volume>
+<pages>1227&#x2013;1235.</pages>
+</reference>
+<reference id="pubmed9661646">
+<accessionId id="acc013" href="info:pmid/9661646" />
+<authors>Mulatero P, Veglio F, Pilon C, Rabbia F, Zocchi C, Limone P, Boscaro M, Sonino N, Fallo F.</authors>
+<title>Diagnosis of glucocorticoid-remediable aldosteronism in primary aldosteronism: aldosterone response to dexamethasone and long polymerase chain reaction for chimeric gene.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>1998</pubdate>
+<volume>83</volume>
+<pages>2573&#x2013;2575.</pages>
+</reference>
+<reference id="pubmed12468575">
+<accessionId id="acc014" href="info:pmid/12468575" />
+<authors>Calhoun DA, Nishizaka MK, Zaman MA, Thakkar RB, Weissmann P.</authors>
+<title>Hyperaldosteronism among black and white subjects with resistant hypertension.</title>
+<source>Hypertension</source>
+<pubdate>2002</pubdate>
+<volume>40</volume>
+<pages>892&#x2013;896.</pages>
+</reference>
+<reference id="pubmed21451421">
+<accessionId id="acc015" href="info:pmid/21451421" />
+<authors>Parthasarathy HK, M&#x00E9;nard J, White WB, Young WF Jr, Williams GH, Williams B, Ruilope LM, McInnes GT, Connell JM, MacDonald TM.</authors>
+<title>A double-blind, randomized study comparing the antihypertensive effect of eplerenone and spironolactone in patients with hypertension and evidence of primary aldosteronism.</title>
+<source>J Hypertens</source>
+<pubdate>2011</pubdate>
+<volume>29</volume>
+<pages>980&#x2013;990.</pages>
+</reference>
+<reference id="pubmed22921664">
+<accessionId id="acc016" href="info:pmid/22921664" />
+<authors>Carter Y, Roy M, Sippel RS, Chen H.</authors>
+<title>Persistent hypertension after adrenalectomy for an aldosterone-producing adenoma: weight as a critical prognostic factor for aldosterone's lasting effect on the cardiac and vascular systems.</title>
+<source>J Surg Res</source>
+<pubdate>2012</pubdate>
+<volume>177</volume>
+<pages>241&#x2013;247.</pages>
+</reference>
+<reference id="pubmed15837256">
+<accessionId id="acc017" href="info:pmid/15837256" />
+<authors>Milliez P, Girerd X, Plouin PF, Blacher J, Safar ME, Mourad JJ.</authors>
+<title>Evidence for an increased rate of cardiovascular events in patients with primary aldosteronism.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2005</pubdate>
+<volume>45</volume>
+<pages>1243&#x2013;1248.</pages>
+</reference>
+<reference id="pubmed22688266">
+<accessionId id="acc018" href="info:pmid/22688266" />
+<authors>Lin YH, Wu XM, Lee HH, Lee JK, Liu YC, Chang HW, Lin CY, Wu VC, Chueh SC, Lin LC, Lo MT, Ho YL, Wu KD; TAIPAI Study Group.</authors>
+<title>Adrenalectomy reverses myocardial fibrosis in patients with primary aldosteronism.</title>
+<source>J Hypertens</source>
+<pubdate>2012</pubdate>
+<volume>30</volume>
+<pages>1606&#x2013;1613.</pages>
+</reference>
+<reference id="pubmed16801482">
+<accessionId id="acc019" href="info:pmid/16801482" />
+<authors>Rossi GP, Bernini G, Desideri G, Fabris B, Ferri C, Giacchetti G, Letizia C, Maccario M, Mannelli M, Matterello MJ, Montemurro D, Palumbo G, Rizzoni D, Rossi E, Pessina AC, Mantero F; PAPY Study Participants.</authors>
+<title>Renal damage in primary aldosteronism: results of the PAPY Study.</title>
+<source>Hypertension</source>
+<pubdate>2006</pubdate>
+<volume>48</volume>
+<pages>232&#x2013;238.</pages>
+</reference>
+<reference id="pubmed16772627">
+<accessionId id="acc020" href="info:pmid/16772627" />
+<authors>Sechi LA, Novello M, Lapenna R, Baroselli S, Nadalini E, Colussi GL, Catena C.</authors>
+<title>Long-term renal outcomes in patients with primary aldosteronism.</title>
+<source>JAMA</source>
+<pubdate>2006</pubdate>
+<volume>295</volume>
+<pages>2638&#x2013;2645.</pages>
+</reference>
+<reference id="pubmed21419437">
+<accessionId id="acc021" href="info:pmid/21419437" />
+<authors>Fu B, Zhang X, Wang GX, Lang B, Ma X, Li HZ, Wang BJ, Shi TP, Ai X, Zhou HX, Zheng T.</authors>
+<title>Long-term results of a prospective, randomized trial comparing retroperitoneoscopic partial versus total adrenalectomy for aldosterone producing adenoma.</title>
+<source>J Urol</source>
+<pubdate>2011</pubdate>
+<volume>185</volume>
+<pages>1578&#x2013;1582.</pages>
+</reference>
+<reference id="pubmed22048631">
+<accessionId id="acc022" href="info:pmid/22048631" />
+<authors>Webb R, Mathur A, Chang R, Baid S, Nilubol N, Libutti SK, Stratakis CA, Kebebew E.</authors>
+<title>What is the best criterion for the interpretation of adrenal vein sample results in patients with primary hyperaldosteronism?</title>
+<source>Ann Surg Oncol</source>
+<pubdate>2012</pubdate>
+<volume>19</volume>
+<pages>1881&#x2013;1886.</pages>
+</reference>
+<reference id="pubmed22918872">
+<accessionId id="acc023" href="info:pmid/22918872" />
+<authors>K&#x00FC;pers EM, Amar L, Raynaud A, Plouin PF, Steichen O.</authors>
+<title>A clinical prediction score to diagnose unilateral primary aldosteronism.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2012</pubdate>
+<volume>97</volume>
+<pages>3530&#x2013;3537.</pages>
+</reference>
+<reference id="pubmed23753408">
+<accessionId id="acc024" href="info:pmid/23753408" />
+<authors>Savard S, Amar L, Plouin PF, Steichen O.</authors>
+<title>Cardiovascular complications associated with primary aldosteronism: a controlled cross-sectional study.</title>
+<source>Hypertension</source>
+<pubdate>2013</pubdate>
+<volume>62</volume>
+<pages>331&#x2013;336.</pages>
+</reference>
+<reference id="pubmed23288434">
+<accessionId id="acc025" href="info:pmid/23288434" />
+<authors>Pimenta E, Stowasser M, Gordon RD, Harding SM, Batlouni M, Zhang B, Oparil S, Calhoun DA.</authors>
+<title>Increased dietary sodium is related to severity of obstructive sleep apnea in patients with resistant hypertension and hyperaldosteronism.</title>
+<source>Chest</source>
+<pubdate>2013</pubdate>
+<volume>143</volume>
+<pages>978&#x2013;983.</pages>
+</reference>
+<reference id="test90">
+<accessionId id="acc026" href="info:wiley/eep-dx/90" />
+<accessionId id="acc026b" href="info:pmid/15681560" />
+<authors>Schwartz GL, Turner ST</authors>
+<title>Screening for primary aldosteronism in essential hypertension: diagnostic accuracy of the ratio of plasma aldosterone concentration to plasma renin activity.</title>
+<source>Clin Chem</source>
+<pubdate>2005</pubdate>
+<volume>51</volume>
+<pages>386&#x2013;394.</pages>
+</reference>
+<reference id="poem190105">
+<accessionId id="acc027" href="info:wiley/eep-poem/190105" />
+<accessionId id="acc027b" href="info:pmid/26934393" />
+<authors>Funder JW, Carey RM, Mantero F, Murad MH, Reincke M, Shibata H, Stowasser M, Young WF, Jr.</authors>
+<title>The management of primary aldosteronism: case detection, diagnosis, and treatment: an Endocrine Society clinical practice guideline.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>1889&#x2013;1916.</pages>
+</reference>
+<reference id="pubmed27172433">
+<accessionId id="acc028" href="info:pmid/27172433" />
+<authors>K&#x00E4;yser SC, Dekkers T, Groenewoud HJ, van der Wilt GJ, Carel Bakx J, van der Wel MC, Hermus AR, Lenders JW, Deinum J.</authors>
+<title>Study heterogeneity and estimation of prevalence of primary aldosteronism: a systematic review and meta-regression analysis.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>2826&#x2013;2835.</pages>
+</reference>
+<reference id="pubmed38031887">
+<accessionId id="acc029" href="info:pmid/38031887" />
+<authors>Hundemer GL, Agharazii M, Madore F, Vaidya A, Brown JM, Leung AA, Kline GA, Larose E, Pich&#x00E9; ME, Crean AM, Shaw JLV, Ramsay T, Hametner B, Wassertheurer S, Sood MM, Hiremath S, Ruzicka M, Goupil R.</authors>
+<title>Subclinical Primary Aldosteronism and Cardiovascular Health: A Population-Based Cohort Study.</title>
+<source>Circulation</source>
+<pubdate>2024</pubdate>
+<volume>149</volume>
+<pages>124&#x2013;134.</pages>
+</reference>
+<reference id="pubmed37690061">
+<accessionId id="acc030" href="info:pmid/37690061" />
+<authors>Laffin LJ, Rodman D, Luther JM, Vaidya A, Weir MR, Rajicic N, Slingsby BT, Nissen SE, Target-HTN Investigators.</authors>
+<title>Aldosterone Synthase Inhibition With Lorundrostat for Uncontrolled Hypertension: The Target-HTN Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>330</volume>
+<pages>1140&#x2013;1150.</pages>
+</reference>
+<reference id="pubmed35894426">
+<accessionId id="acc031" href="info:pmid/35894426" />
+<authors>Suurd DPD, Vorselaars WMCM, Van Beek DJ, Borel Rinkes IHM, Spiering W, Valk GD, Vriens MR.</authors>
+<title>Assessing Outcomes After Adrenalectomy for Primary Aldosteronism - Early is Accurate: Retrospective Cohort Study.</title>
+<source>Ann Surg</source>
+<pubdate>2022</pubdate>
+<volume>276</volume>
+<pages>929&#x2013;934.</pages>
+</reference>
+<reference id="pubmed40658480">
+<accessionId id="acc032" href="info:pmid/40658480" />
+<authors>Adler GK, Stowasser M, Correa RR, Khan N, Kline G, McGowan MJ, Mulatero P, Murad MH, Touyz RM, Vaidya A, Williams TA, Yang J, Young WF, Zennaro MC, Brito JP.</authors>
+<title>Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2025</pubdate>
+<volume>110</volume>
+<pages>2453&#x2013;2495.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>367.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Primary Hyperaldosteronism: Diagnosis.</title>
+<graphic href="eee0132-w001.gif" />
+<cell type="start" id="cell-1">
+<label>PA suspected clinically. Order plasma aldosterone concentration&#x002F;plasma renin activity ratio</label>
+<path target="cell-2">Abnormal (&gt;20)</path>
+<path target="cell-3">Normal</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Perform confirmatory test (saline suppression test, oral salt loading, fludrocortisone suppression test, or captopril suppression test).</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Testing to confirm cause of PA: adrenal imaging with CT or MRI, and postural testing.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Adrenalectomy.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Adrenal venous sampling for lateralization.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Medical treatment with mineralocorticoid receptor antagonist.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider other causes of resistant hypertension.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Tests to Confirm Primary Aldosteronism. (Test Preference Is Based on Availability and Clinical Experience with Tests.)</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Test</th>
+<th align="left" colspan="1">How to Perform</th>
+<th align="left" colspan="1">Positive Result</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Saline suppression test</td>
+<td align="left" colspan="1">Infuse 2 L of normal saline over 4 h with the patient recumbent; check serum potassium and plasma aldosterone at baseline and after infusion.</td>
+<td align="left" colspan="1">PAC &gt;10 ng&#x002F;dL (280 &#x03C1;mol&#x002F;L) after infusion makes diagnosis very likely. PAC &lt;5 ng&#x002F;dl makes diagnosis very unlikely. PAC between 5-10 ng&#x002F;dl is indeterminate result.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Oral salt load</td>
+<td align="left" colspan="1">Patient follows high-salt diet<sup>*</sup> for 3 d. On the third day, collect a 24-h urine for aldosterone, sodium, and creatinine or collect a PAC. Check potassium daily during test and replete as needed.</td>
+<td align="left" colspan="1">24-h urine aldosterone &gt;12 &#x03BC;g&#x002F;24h (39 nmol&#x002F;d) with a 24-h urine sodium of &gt;200 mmol&#x002F;24h.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fludrocortisone suppression test</td>
+<td align="left" colspan="1">Give the patient fludrocortisone 0.1 mg every 6 h along with slow release KCL supplements every 6 hours and sodium 30 mmol 3 times a day along with a high-salt diet for 4 d. Serum K+ should be close to 4 measured 4 times a day. On day 4 at 7 am, measure cortisol and at 10 am, measure PAC, PRA, cortisol, and potassium.</td>
+<td align="left" colspan="1">Upright PAC at 10 am &gt;6 ng&#x002F;dL with a PRA &lt;1 ng&#x002F;mL&#x002F;h, normal potassium levels, and a serum cortisol at 10 am that is lower than the 7 am value.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Captopril suppression test</td>
+<td align="left" colspan="1">Give patient 25-50 mg captopril after sitting or standing for 1 hour; Measure PAC and PRA at baseline and 2 h after dose.</td>
+<td align="left" colspan="1">A non-suppressed PAC and consistently suppressed PRA indicates PA. (Substantial false negatives or equivocal results reported).</td>
+</tr>
+</table>Abbreviations: PAC, plasma aldosterone concentration; PRA, plasma renin activity. References:<xref ref="pubmed18552288" resource="acc001" /><xref ref="pubmed22395800" resource="acc011" /> (see text).</feature_body>
+</feature>
+<feature id="table002">
+<caption>Tests to Localize Abnormality Resulting in Primary Hyperaldosteronism.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Test</th>
+<th align="left" colspan="1">Details&#x002F;How to Perform</th>
+<th align="left" colspan="1">Findings in APA</th>
+<th align="left" colspan="1">Findings in IAH</th>
+<th align="left" colspan="1">Equivocal Results</th>
+</tr>
+<tr>
+<td align="left" colspan="1">CT of adrenals</td>
+<td align="left" colspan="1">With IV contrast, using 2-3-mm slices through the adrenals</td>
+<td align="left" colspan="1">A well-delineated, single adrenal nodule with a normal contralateral gland is suggestive of APA.</td>
+<td align="left" colspan="1">Absence of adrenal nodules is suggestive of IHA.</td>
+<td align="left" colspan="1">If bilateral nodules are seen or if there is a nodule with an abnormal-appearing contralateral gland.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">MRI of adrenals</td>
+<td align="left" colspan="1">Can be used in patients with contraindication to IV contrast.</td>
+<td align="left" colspan="1">Same as for CT.</td>
+<td align="left" colspan="1">Same as for CT.</td>
+<td align="left" colspan="1">Same as for CT.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Postural testing</td>
+<td align="left" colspan="1">Check a supine PAC at 8 am; have patient maintain an erect posture for 4 h and recheck PAC at noon.</td>
+<td align="left" colspan="1">A decrease in PAC after 4 h of erect posture is a positive test, consistent with APA.</td>
+<td align="left" colspan="1">A rise in aldosterone after 4 h of erect posture is a negative test; this is more consistent with IHA, but may be seen in APA or UAH.</td>
+<td align="left" colspan="1">Has been found to have high rate of false negatives for APA and poor diagnostic accuracy.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Adrenal vein sampling</td>
+<td align="left" colspan="1">Is a technically difficult study, which requires cannulation of the right and left adrenal veins with measurements of PAC and cortisol (C) from each vein and the periphery; can be performed with ACTH stimulation. An adrenal vein to peripheral cortisol ratio &gt;5 signifies successful cannulation.</td>
+<td align="left" colspan="1">A lateralization ratio(a) &gt;4 with with continuous cosyntropin stimulation is consistent with APA or UAH.</td>
+<td align="left" colspan="1">A lateralization ratio &lt;3 with continuous cosyntropin stimulation is consistent with IAH.</td>
+<td align="left" colspan="1">A lateralization ratio of between 3 and 4.</td>
+</tr>
+</table>Abbreviations: ACTH, adrenocorticotropic hormone; APA, aldosterone-producing adenoma; IHA, idiopathic hyperaldosteronism; PAC, plasma aldosterone concentration; UAH, unilateral adrenal hyperplasia. Lateralization ratio &#x003D; high-side adrenal vein PAC&#x002F;C divided by low-side adrenal vein PAC&#x002F;C. References:<xref ref="pubmed18552288" resource="acc001" /><xref ref="pubmed22048631" resource="acc022" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Necrotizing enterocolitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0883</topic_id>
+<topic_comment />
+<topic_lastupdated>09/12/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Robert Brooker, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Pediatrics, Division of Neonatology</author_department>
+<author_institution>St. Louis University School of Medicine</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>St. Louis</author_city>
+<author_state>MO</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Lindsay Johnston, MD, Med</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Pediatrics, Division of Neonatal Perinatal Medicine</author_department>
+<author_institution>Yale University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>New Haven</author_city>
+<author_state>CT</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Melissa Posner, MD</author_name>
+<author_title>Fellow in Training</author_title>
+<author_department>Department of Pediatrics, Division of Neonatal Perinatal Medicine</author_department>
+<author_institution>Yale University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>New Haven</author_city>
+<author_state>CT</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Michelle Hamline, MD, PhD, MAS</editor_name>
+<editor_title>Associate Professor of Clinical Pediatrics, Pediatric Hospital Medicine</editor_title>
+<editor_institution>Department of Pediatrics, University of California Davis Medical Center</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect necrotizing enterocolitis (NEC) in infants with significant clinical deterioration in conjunction with signs of abdominal distension, bilious emesis, and bloody stool. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Initial evaluation should include CBC, blood gas, blood sugar, blood and CSF cultures, and AP and lateral abdominal radiographs. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed16567195" resource="acc011" /></listitem>
+<listitem>The diagnosis and staging of NEC is based on the Modified Bell's Staging Criteria (<xref ref="table001" />). <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Nonsurgical interventions include bowel decompression and rest, broad-spectrum antibiotics, and volume expansion for uncomplicated NEC. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed25344942" resource="acc022" /></listitem>
+<listitem>Indications for surgical intervention include pneumoperitoneum, portal venous gas, metabolic derangements, and poor splanchnic perfusion. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>The recommended surgical intervention is open laparotomy with drain placement. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane6182" resource="acc048" /></listitem>
+<listitem>Measures to reduce the risk of NEC include human milk and probiotics. <evidence rating="B" system="SORT"> B</evidence>
+<xref ref="pubmed23164007" resource="acc036" />
+<xref ref="cochrane2971" resource="acc039" />
+<xref ref="cochrane5496" resource="acc055" />
+<xref ref="pubmed28471478" resource="acc020" />
+<xref ref="pubmed37782505" resource="acc056" /></listitem>
+</list>
+</BottomLine>
+<definition>
+<list style="bulleted">
+<listitem>Necrotizing enterocolitis (NEC) is an inflammatory process affecting the bowel of infants, most often those born prematurely. The underlying pathophysiologic mechanisms have not been fully elucidated. Contributing factors are believed to include compromise of intestinal host defense and the infant's immune system, ischemia of the gastrointestinal tract, and mucosal breakdown secondary to bacterial overgrowth or exposure to enteral feedings.</listitem>
+</list>
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>The overall incidence of NEC is 0.3&#x2013;2.4 cases per 1000 births, but increases to 4&#x0025;&#x2013;13&#x0025; amongst very-low-birth-weight (VLBW) infants (birth weight &lt;1500 g).<xref ref="pubmed11134465" resource="acc001" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Greater than 90&#x0025; of cases of NEC occur in premature infants, with a significant decrease in the incidence noted after 35 weeks&#x2019; gestational age and birthweight &#x003E;1500 g.<xref ref="pubmed11134465" resource="acc001" /></listitem>
+<listitem>Relative immaturity of the gastrointestinal tract and circulatory system and limitations in host defense are risk factors.</listitem>
+<listitem>Risk factors associated with enteral feedings include the type of nutrition offered (human milk vs. formula),<xref ref="pubmed469674" resource="acc002" />
+<xref ref="pubmed1979363" resource="acc037" /> timing and more rapid rate of feeding advance,<xref ref="pubmed1899016" resource="acc003" /> and increased osmolality of the initial feeding.<xref ref="pubmed1174138" resource="acc004" /></listitem>
+<listitem>Other risk factors for the development of NEC include cyanotic congenital heart disease,<xref ref="pubmed7062181" resource="acc005" /> polycythemia, exchange transfusion, umbilical catheters, asphyxia at the time of delivery, growth restriction in utero,<xref ref="pubmed956975" resource="acc006" /> cocaine exposure,<xref ref="pubmed2056401" resource="acc007" /> and viral infections.<xref ref="pubmed37293714" resource="acc057" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The exact pathophysiology is unknown.</listitem>
+<listitem>Contributing factors include genetic predisposition, intestinal immaturity, microvascular injury&#x002F;ischemia, highly immune-reactive intestinal mucosa, and abnormal microbial colonization.</listitem>
+<listitem>Low-birth-weight infants who develop NEC have been found to have overrepresentation of gram-negative facultative bacteria in the gut microbiota.<xref ref="pubmed26969089" resource="acc008" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Measures to reduce the risk of NEC include human milk and probiotics. <evidence rating="B" system="SORT"> B</evidence>
+<xref ref="pubmed23164007" resource="acc036" />
+<xref ref="cochrane5496" resource="acc055" />
+<xref ref="cochrane2971" resource="acc039" />
+<xref ref="pubmed28471478" resource="acc020" /></listitem>
+<listitem>Further research is needed regarding the role of lactoferrin and prophylactic broad-spectrum antibiotics. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane405" resource="acc046" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>
+<strong>Human milk</strong></listitem>
+<listitem>Infants provided human milk have a decreased incidence of NEC,<xref ref="cochrane2971" resource="acc039" />
+<xref ref="pubmed23164007" resource="acc036" /> and even of NEC requiring surgical intervention.<xref ref="pubmed23968744" resource="acc019" /> However, fortification of human milk does not appear to increase the incidence of NEC.<xref ref="cochrane343" resource="acc040" /></listitem>
+<listitem>A systematic review of human milk to prevent NEC in preterm infants found that it was effective, and that the benefit appeared to be greater in infants exclusively fed human milk.<xref ref="pubmed32925782" resource="acc053" /></listitem>
+<listitem>
+<strong>Probiotics</strong></listitem>
+<listitem>A Cochrane review identified 60 RCTs with 11,156 comparing probiotics with placebo or no treatment in very or pre-term and low birthweight infants. In these infants, probiotics reduced the likelihood of NEC (RR 0.54, 95&#x0025; CI 0.46 to 0.65, NNT &#x003D; 33). They may reduce mortality as well (RR 0.77, 95&#x0025; CII 0.66 to 0.90, NNT &#x003D; 50). There were too few data for extremely preterm and extremely low birthweight infants to draw firm conclusions.<xref ref="cochrane5496" resource="acc055" /></listitem>
+<listitem>A meta-analysis concluded that a probiotic mixture, Lactobacillus, and Bifidobacterium were optimal prophylactic probiotic choices in reducing the incidence of NEC (OR&#x200A; &#x200A;0.38, 95&#x0025; CI 0.27&#x2013;0.54 for probiotic mixture; OR&#x200A; &#x200A;&#x200A;0.58, 95&#x0025; CI 0.37&#x2013;0.91 for Lactobacillus, and OR&#x200A; &#x200A;0.68, 95&#x0025; CI 0.50&#x2013;0.94 for Bifidobacterium) in pre-term infants. <xref ref="pubmed31593123" resource="acc050" /></listitem>
+<listitem>American Gastroenterological Association (AGA) guidelines gave a conditional recommendation to use a combination of probiotics with 2 or more species in preterm, low birth weight infants to prevent NEC.<xref ref="poem221016" resource="acc052" /></listitem>
+<listitem>
+<strong>Other interventions</strong></listitem>
+<listitem>Previous investigators had hypothesized that a decrease in nitric oxide levels may contribute to the development of NEC through intestinal ischemia. Arginine, a substrate for nitric oxide, may prevent NEC, but data are limited.<xref ref="cochrane4339" resource="acc042" /></listitem>
+<listitem>Neither oral nor intravenous immunoglobulins decrease the incidence of NEC.<xref ref="cochrane361" resource="acc044" />
+<xref ref="cochrane1816" resource="acc043" /></listitem>
+<listitem>Lactoferrin, which is a component of human milk, has a role in host defense and has been identified as a potential preventative agent in NEC.<xref ref="cochrane7137" resource="acc045" /></listitem>
+<listitem>Prophylactic enteral probiotics have been identified as a preventative intervention for NEC due to their ability to prevent mucosal bacterial translocation, enable elective exclusion of pathogens, and enhance host immune response.<xref ref="cochrane5496" resource="acc055" />
+<xref ref="pubmed28471478" resource="acc020" />
+<xref ref="pubmed23164007" resource="acc036" />
+<xref ref="pubmed37782505" resource="acc056" />&#x200A;&#x200A;&#x200A;&#x200A;&#x200A;&#x200A;</listitem>
+<listitem>However, prophylactic antibiotics may decrease the incidence of NEC, but are not widely recommended due to increased colonization of the gut with antibiotic-resistant bacteria.<xref ref="cochrane405" resource="acc046" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect NEC in infants with significant clinical deterioration in conjunction with signs of abdominal distension, bilious emesis, and bloody stool. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Initial evaluation should include CBC, blood gas, blood sugar, blood and CSF cultures, and AP and lateral abdominal radiographs. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed16567195" resource="acc011" /></listitem>
+<listitem>Use the Modified Bell's Staging Criteria (<xref ref="table001" />) to determine diagnostic staging and severity of disease. <evidence rating="C" system="SORT"> C</evidence>
+<xref ref="pubmed413500" resource="acc017" />
+<xref ref="pubmed3556038" resource="acc018" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Spontaneous intestinal perforation (SIP)</Differential_Name>
+<Differential_Features>Preterm infants, median postnatal age 7 days, presents with abdominal distension and bluish discoloration often without significant clinical decompensation; abdominal film shows pneumoperitoneum without pneumatosis, portal venous gas, or fixed dilated bowel loops</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Neonatal sepsis</Differential_Name>
+<Differential_Features>Clinical decompensation, abdominal radiographs may show ileus but no other findings of NEC</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Congenital bowel anomalies (Hirschsprung disease, bowel atresia, meconium ileus, volvulus, malrotation)</Differential_Name>
+<Differential_Features>Signs or symptoms of obstruction&#x002F;ileus</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Misinterpretation of normal stool gas as pneumatosis intestinalis</Differential_Name>
+<Differential_Features>Infant clinically well</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Diagnostic criteria include bilious gastric aspirate or emesis, abdominal distension, occult or gross blood in the stool; AND at least one of the following radiographic signs: pneumatosis intestinalis, portal venous gas, pneumoperitoneum.</listitem>
+<listitem>Modified Bell's Staging Criteria (<xref ref="table001" />) are effective for staging NEC.<xref ref="pubmed413500" resource="acc017" />
+<xref ref="pubmed3556038" resource="acc018" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect NEC in infants with significant clinical deterioration in conjunction with signs of abdominal distension, bilious emesis, and bloody stool.</listitem>
+<listitem>Infants may have a history of increasing vital sign instability, apnea and bradycardia, feeding intolerance, bilious emesis, and bloody stool.</listitem>
+<listitem>Abdominal examination can be notable for distension, absent bowel sounds, periumbilical erythema, abdominal wall discoloration, firmness to palpation, palpable abdominal mass, and abdominal tenderness&#x002F;guarding.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Abdominal radiographs with pneumatosis intestinalis, portal venous gas, and&#x002F;or pneumoperitoneum are highly specific for NEC.<xref ref="pubmed12483631" resource="acc009" /></listitem>
+<listitem>Less specific findings seen on abdominal radiographs include dilated, thickened, or fixed bowel loops and paucity of bowel gas.</listitem>
+<listitem>Blood cultures should be done to evaluate for concomitant bacteremia.<xref ref="pubmed24139563" resource="acc010" /></listitem>
+<listitem>Obtain CBC, blood gas, and glucose to identify thrombocytopenia, metabolic acidosis and hyperglycemia, leukocytosis, and&#x002F;or leukopenia.<xref ref="pubmed16567195" resource="acc011" /></listitem>
+<listitem>Coagulation studies should be obtained if disseminated intravascular coagulation (DIC) is suspected.</listitem>
+<listitem>Numerous serum, urine, and stool biomarkers for NEC are being investigated, without proven clinical utility.<xref ref="pubmed28379923" resource="acc012" />
+<xref ref="pubmed24433829" resource="acc013" />
+<xref ref="pubmed24048736" resource="acc014" />
+<xref ref="pubmed23470582" resource="acc015" />
+<xref ref="pubmed27328832" resource="acc016" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy />
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Decisions for interventions depend on stage and severity of NEC. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Nonsurgical interventions of bowel decompression and rest, broad-spectrum antibiotics, and volume expansion are useful in cases of uncomplicated NEC. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed25344942" resource="acc022" /></listitem>
+<listitem>Indications for surgical intervention include pneumoperitoneum, portal venous gas, metabolic derangements, and poor splanchnic perfusion. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed25975324" resource="acc025" /></listitem>
+<listitem>Open laparotomy with drain placement is the recommended initial surgical intervention. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane6182" resource="acc048" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug />
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Evaluation by a pediatric surgeon at the earliest detection of NEC (Bell's Stage 1B or higher) avoids delays in operative intervention. Uncomplicated NEC is managed by surgical and neonatal teams together in most centers.<xref ref="pubmed25344942" resource="acc022" /></listitem>
+<listitem>The presence of gangrenous bowel, most evidently seen with perforated or necrotic intestine, remains the principal indication for surgical intervention.<xref ref="pubmed6966078" resource="acc024" /></listitem>
+<listitem>The signs of deterioration consistent with necrotic bowel include peritonitis, worsening acidosis, persistent thrombocytopenia, rising leukocytosis or worsening leukopenia, hemodynamic instability, and hyponatremia. Presence of three or more of these signs is associated with complicated NEC.<xref ref="pubmed25975324" resource="acc025" /></listitem>
+<listitem>Less clear indications include the following: fixed dilated loops of bowel on abdominal radiograph, gasless abdomen on abdominal radiograph, and persistent thrombocytopenia.</listitem>
+<listitem>Surgical options include peritoneal drainage alone, laparotomy with diverting ostomy alone, and laparotomy with intestinal resection and primary anastomosis or stoma creation.<xref ref="pubmed18446170" resource="acc026" /> Based on limited data from two small RCTs, a Cochrane review concluded that there was no apparent benefit or harm of peritoneal drainage over laparotomy. Since it is less invasive than laparotomy, it is generally the preferred initial surgical intervention.<xref ref="cochrane6182" resource="acc048" /> A systematic review found no evidence comparing enterostomy with primary anastomosis after resection.<xref ref="pubmed23164007" resource="acc036" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Broad-spectrum antimicrobial therapy is recommended based on expert opinion to cover bowel flora. Between 20&#x0025; and 45&#x0025; of all cases of NEC are associated with sepsis.<xref ref="pubmed21840538" resource="acc021" /> However, there is no evidence on the duration of antibiotics for NEC.<xref ref="cochrane7448" resource="acc047" /></listitem>
+<listitem>No single infectious etiology is known to cause NEC. There is also no evidence from randomized trials to support one antibiotic regimen over another.<xref ref="cochrane7448" resource="acc047" /></listitem>
+<listitem>A Cochrane review of four randomized trials with 227 neonates with NEC or sepsis concluded that pentoxifylline as an adjunct to antibiotic therapy reduced all-cause mortality.<xref ref="cochrane4205" resource="acc049" /></listitem>
+<listitem>A Cochrane review found no randomized trial evidence regarding the use of lactoferrin as an adjunct to antibiotics.<xref ref="cochrane7137" resource="acc045" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Endotracheal intubation may be preferred to ensure adequate ventilation and oxygenation, especially in the presence of apnea, circulatory collapse, or pulmonary edema.</listitem>
+<listitem>NPO is recommended at first signs of NEC. A survey of pediatric surgeons found that most survey responders keep patients NPO for 5&#x2013;10 days for medically treated NEC.<xref ref="pubmed25344942" resource="acc022" /> The goal is to prevent emesis and abdominal distension in face of ileus. Volume expanders can be used to achieve modest changes in mean blood pressure.<xref ref="pubmed23548640" resource="acc023" /> Blood products to correct anemia, thrombocytopenia, and coagulopathy and expand volume can be used.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Colonic strictures are a common postoperative complication from NEC, occurring in approximately 30&#x0025; of cases.<xref ref="pubmed26915085" resource="acc027" />
+<xref ref="pubmed1941481" resource="acc038" /></listitem>
+<listitem>Malabsorption may be the result of a number of factors related to surgical management, including gut dysmotility, bacterial overgrowth, and decreased bowel length.<xref ref="pubmed24280992" resource="acc028" />
+<xref ref="pubmed24423414" resource="acc029" />
+<xref ref="pubmed20924317" resource="acc030" /></listitem>
+<listitem>Intestinal failure is managed with long-term parenteral nutrition. NEC has the highest rate of children weaning from parenteral support.<xref ref="pubmed26700691" resource="acc033" /></listitem>
+<listitem>Postnatal growth failure is more common among infants with complicated NEC with a reduction in discharge weight Z-score of 0.24.<xref ref="pubmed26201534" resource="acc034" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL />
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>The mortality rate of NEC is as high as 35&#x0025; but varies with severity of disease. Lower birth weight and hyperglycemia at presentation are associated with higher mortality.<xref ref="pubmed19524719" resource="acc031" />
+<xref ref="pubmed15185221" resource="acc032" /></listitem>
+<listitem>A systematic review identified 38 observational studies with an overall mortality of 23.5&#x0025; in all neonates with NEC. Overall mortality was 34.5&#x0025; in neonates who underwent surgery, 40.5&#x0025; in those who were extremely low birthweight, and 50.9&#x0025; if both extremely low birthweight and requiring surgery.<xref ref="pubmed31982088" resource="acc054" /></listitem>
+<listitem>NEC is independently associated with lower scores on developmental tests at 18 months corrected age.<xref ref="pubmed17548764" resource="acc035" /> In a meta-analysis of 31 studies with 2403 infants with NEC, the incidence of neuro-developmental impairment was 40&#x0025; (IQR 28&#x0025;-64&#x0025;). The incidence of neuro-developmental impairment was higher in infants with NEC who were treated surgically compared with those who were medically managed (43&#x0025; vs 27&#x0025;, p&lt;0.00001, NNT &#x003D; 6).<xref ref="pubmed31801792" resource="acc051" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed11134465">
+<accessionId id="acc001" href="info:pmid/11134465" />
+<authors>Lemons JA, Bauer CR, Oh W, et al.</authors>
+<title>Very low birth weight outcomes of the national institute of child health and human development neonatal research network, January 1995 through December 1996.</title>
+<source>Pediatrics</source>
+<pubdate>2001</pubdate>
+<volume>107</volume>
+<pages>E1.</pages>
+</reference>
+<reference id="pubmed469674">
+<accessionId id="acc002" href="info:pmid/469674" />
+<authors>Kliegman RM, Pittard WB, Fanaroff AA.</authors>
+<title>Necrotizing enterocolitis in neonates fed human milk.</title>
+<source>J Pediatr</source>
+<pubdate>1979</pubdate>
+<volume>95</volume>
+<pages>450-453.</pages>
+</reference>
+<reference id="pubmed1899016">
+<accessionId id="acc003" href="info:pmid/1899016" />
+<authors>Anderson DM, Kliegman RM.</authors>
+<title>The relationship of neonatal alimentation practices to the occurrence of endemic necrotizing enterocolitis.</title>
+<source>Am J Perinatol</source>
+<pubdate>1991</pubdate>
+<volume>8</volume>
+<pages>62-67.</pages>
+</reference>
+<reference id="pubmed1174138">
+<accessionId id="acc004" href="info:pmid/1174138" />
+<authors>Book LS, Herbert JJ, Atherton SO, Jung AL.</authors>
+<title>Necrotizing enterocolitis in low-birth weight infants fed an elemental formula.</title>
+<source>J Pediatr</source>
+<pubdate>1975</pubdate>
+<volume>87</volume>
+<pages>602.</pages>
+</reference>
+<reference id="pubmed7062181">
+<accessionId id="acc005" href="info:pmid/7062181" />
+<authors>Kliegman RM, Hack M, Jones P, et al.</authors>
+<title>Epidemiologic study of necrotizing enterocolitis among low birth weight infants: absence of identifiable risk factors.</title>
+<source>J Pediatr</source>
+<pubdate>1982</pubdate>
+<volume>100</volume>
+<pages>440.</pages>
+</reference>
+<reference id="pubmed956975">
+<accessionId id="acc006" href="info:pmid/956975" />
+<authors>Polin RA, Pollack PF, Barlow B, et al.</authors>
+<title>Necrotizing enterocolitis in term infants.</title>
+<source>J Pediatr</source>
+<pubdate>1976</pubdate>
+<volume>89</volume>
+<pages>460.</pages>
+</reference>
+<reference id="pubmed2056401">
+<accessionId id="acc007" href="info:pmid/2056401" />
+<authors>Czyrko C, Del Pin CA, O'Neill JA, Jr., et al.</authors>
+<title>Maternal cocaine abuse and necrotizing enterocolitis: outcome and survival.</title>
+<source>J Pediatr Surg</source>
+<pubdate>1991</pubdate>
+<volume>26</volume>
+<pages>414.</pages>
+</reference>
+<reference id="pubmed26969089">
+<accessionId id="acc008" href="info:pmid/26969089" />
+<authors>Warner BB, Deych E, Zhou Y, et al.</authors>
+<title>Gut bacteria dysbiosis and necrotising enterocolitis in very low birthweight infants: a prospective case-control study.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>1928-1936.</pages>
+</reference>
+<reference id="pubmed12483631">
+<accessionId id="acc009" href="info:pmid/12483631" />
+<authors>Tam AL, Camberos A, Applebaum H.</authors>
+<title>Surgical decision making in necrotizing enterocolitis and focal intestinal perforation: predictive value of radiologic findings.</title>
+<source>J Pediatr Surg</source>
+<pubdate>2002</pubdate>
+<volume>37</volume>
+<pages>1688-1691.</pages>
+</reference>
+<reference id="pubmed24139563">
+<accessionId id="acc010" href="info:pmid/24139563" />
+<authors>Bizzarro MJ, Ehrenkranz RA, Gallagher PG.</authors>
+<title>Concurrent bloodstream infections in infants with necrotizing enterocolitis.</title>
+<source>J Pediatr</source>
+<pubdate>2014</pubdate>
+<volume>164</volume>
+<pages>61-66.</pages>
+</reference>
+<reference id="pubmed16567195">
+<accessionId id="acc011" href="info:pmid/16567195" />
+<authors>H&#x00E4;llstr&#x00F6;m M, Koivisto AM, Janas M, Tammela O.</authors>
+<title>Laboratory parameters predictive of developing necrotizing enterocolitis in infants born before 33 weeks of gestation.</title>
+<source>J Pediatr Surg</source>
+<pubdate>2006</pubdate>
+<volume>41</volume>
+<pages>792-798.</pages>
+</reference>
+<reference id="pubmed28379923">
+<accessionId id="acc012" href="info:pmid/28379923" />
+<authors>Terrin G, Stronati L, Cucchiara S, De Curtis M.</authors>
+<title>Serum markers of necrotizing enterocolitis: a systematic review.</title>
+<source>J Pediatr Gastroenterol Nutr</source>
+<pubdate>2017</pubdate>
+<volume>65</volume>
+<pages>e120&#x2013;e132</pages>
+</reference>
+<reference id="pubmed24433829">
+<accessionId id="acc013" href="info:pmid/24433829" />
+<authors>Sylvester KG, Ling XB, et al.</authors>
+<title>Urine protein biomarkers for the diagnosis and prognosis of necrotizing enterocolitis in infants.</title>
+<source>J Pediatr</source>
+<pubdate>2014</pubdate>
+<volume>164</volume>
+<pages>607-612.e1-7.</pages>
+</reference>
+<reference id="pubmed24048736">
+<accessionId id="acc014" href="info:pmid/24048736" />
+<authors>Sylvester KG, Ling XB, et al.</authors>
+<title>A novel urine peptide biomarker-based algorithm for the prognosis of necrotising enterocolitis in human infants.</title>
+<source>Gut</source>
+<pubdate>2014</pubdate>
+<volume>63</volume>
+<pages>1284-1292.</pages>
+</reference>
+<reference id="pubmed23470582">
+<accessionId id="acc015" href="info:pmid/23470582" />
+<authors>Ng EW, Poon TC, Lam HS, et al.</authors>
+<title>Gut-associated biomarkers L-FABP, I-FABP, and TFF3 and LIT score for diagnosis of surgical necrotizing enterocolitis in preterm infants.</title>
+<source>Ann Surg</source>
+<pubdate>2013</pubdate>
+<volume>258</volume>
+<pages>1111-1118.</pages>
+</reference>
+<reference id="pubmed27328832">
+<accessionId id="acc016" href="info:pmid/27328832" />
+<authors>Pergialiotis V, Konstantopoulos P, Karampetsou N, et al.</authors>
+<title>Calprotectin levels in necrotizing enterocolitis: a systematic review of the literature.</title>
+<source>Inflamm Res</source>
+<pubdate>2016</pubdate>
+<volume>65</volume>
+<pages>847-852.</pages>
+</reference>
+<reference id="pubmed413500">
+<accessionId id="acc017" href="info:pmid/413500" />
+<authors>Bell MJ, Ternberg JL, Feigin RD, Keating JP, Marshall R, Barton L, Brotherton T.</authors>
+<title>Neonatal necrotizing enterocolitis. Therapeutic decisions based upon clinical staging.</title>
+<source>Ann Surg</source>
+<pubdate>1978</pubdate>
+<volume>187</volume>
+<pages>1-7.</pages>
+</reference>
+<reference id="pubmed3556038">
+<accessionId id="acc018" href="info:pmid/3556038" />
+<authors>Kliegman RM, Walsh MC.</authors>
+<title>Neonatal necrotizing enterocolitis: pathogenesis, classification, and spectrum of illness.</title>
+<source>Curr Probl Pediatr</source>
+<pubdate>1987</pubdate>
+<volume>17</volume>
+<pages>213-288.</pages>
+</reference>
+<reference id="pubmed23968744">
+<accessionId id="acc019" href="info:pmid/23968744" />
+<authors>Cristofalo EA, Schanler RJ, Blanco CL, et al.</authors>
+<title>Randomized trial of exclusive human milk versus preterm formula diets in extremely premature infants.</title>
+<source>J Pediatr</source>
+<pubdate>2013</pubdate>
+<volume>163</volume>
+<pages>1592-1595.</pages>
+</reference>
+<reference id="pubmed28471478">
+<accessionId id="acc020" href="info:pmid/28471478" />
+<authors>Thomas JP, Raine T, Reddy S, Belteki G.</authors>
+<title>Probiotics for the prevention of necrotising enterocolitis in very low-birth-weight infants: a meta-analysis and systematic review.</title>
+<source>Acta Paediatr</source>
+<pubdate>2017 </pubdate>
+<volume>106</volume>
+<pages>1729-1741.</pages>
+</reference>
+<reference id="pubmed21840538">
+<accessionId id="acc021" href="info:pmid/21840538" />
+<authors>Cole CR, Hansen NI, Higgins RD, et al.; Eunice Kennedy Shriver National Institute of Child Health and Human Development's Neonatal Research Network.</authors>
+<title>Bloodstream infections in very low birth weight infants with intestinal failure.</title>
+<source>J Pediatr</source>
+<pubdate>2012</pubdate>
+<volume>160</volume>
+<pages>54-59.e2.</pages>
+</reference>
+<reference id="pubmed25344942">
+<accessionId id="acc022" href="info:pmid/25344942" />
+<authors>Zani A, Eaton S, Puri P, et al.; EUPSA Network.</authors>
+<title>International survey on the management of necrotizing enterocolitis.</title>
+<source>Eur J Pediatr Surg</source>
+<pubdate>2015</pubdate>
+<volume>25</volume>
+<pages>27-33.</pages>
+</reference>
+<reference id="pubmed23548640">
+<accessionId id="acc023" href="info:pmid/23548640" />
+<authors>Kooi EM, van der Laan ME, Verhagen EA, Van Braeckel KN, Bos AF.</authors>
+<title>Volume expansion does not alter cerebral tissue oxygen extraction in preterm infants with clinical signs of poor perfusion.</title>
+<source>Neonatology</source>
+<pubdate>2013</pubdate>
+<volume>103</volume>
+<pages>308-314.</pages>
+</reference>
+<reference id="pubmed6966078">
+<accessionId id="acc024" href="info:pmid/6966078" />
+<authors>Kosloske AM, Papile LA, Burstein J.</authors>
+<title>Indications for operation in acute necrotizing enterocolitis of the neonate.</title>
+<source>Surgery</source>
+<pubdate>1980</pubdate>
+<volume>87</volume>
+<pages>502-508.</pages>
+</reference>
+<reference id="pubmed25975324">
+<accessionId id="acc025" href="info:pmid/25975324" />
+<authors>Munaco AJ, Veenstra MA, Brownie E, Danielson LA, Nagappala KB, Klein MD.</authors>
+<title>Timing of optimal surgical intervention for neonates with necrotizing enterocolitis.</title>
+<source>Am Surg</source>
+<pubdate>2015</pubdate>
+<volume>81</volume>
+<pages>438-443.</pages>
+</reference>
+<reference id="pubmed18446170">
+<accessionId id="acc026" href="info:pmid/18446170" />
+<authors>Hunter CJ, Chokshi N, Ford HR.</authors>
+<title>Evidence vs experience in the surgical management of necrotizing enterocolitis and focal intestinal perforation.</title>
+<source>J Perinatol</source>
+<pubdate>2008</pubdate>
+<volume>28</volume>
+<pages>S14-S17.</pages>
+</reference>
+<reference id="pubmed26915085">
+<accessionId id="acc027" href="info:pmid/26915085" />
+<authors>Burnand KM, Zaparackaite I, Lahiri RP, et al.</authors>
+<title>The value of contrast studies in the evaluation of bowel strictures after necrotising enterocolitis.</title>
+<source>Pediatr Surg Int</source>
+<pubdate>2016</pubdate>
+<volume>32</volume>
+<pages>465-470.</pages>
+</reference>
+<reference id="pubmed24280992">
+<accessionId id="acc028" href="info:pmid/24280992" />
+<authors>Fagbemi AO, Torrente F, Puleston J, Lakhoo K, James S, Murch SH.</authors>
+<title>Enteric neural disruption in necrotizing enterocolitis occurs in association with myenteric glial cell CCL20 expression.</title>
+<source>J Pediatr Gastroenterol Nutr</source>
+<pubdate>2013</pubdate>
+<volume>57</volume>
+<pages>788-793.</pages>
+</reference>
+<reference id="pubmed24423414">
+<accessionId id="acc029" href="info:pmid/24423414" />
+<authors>Zhou Y, Yang J, Watkins DJ, Boomer LA, Matthews MA, Su Y, Besner GE.</authors>
+<title>Enteric nervous system abnormalities are present in human necrotizing enterocolitis: potential neurotransplantation therapy.</title>
+<source>Stem Cell Res Ther</source>
+<pubdate>2013</pubdate>
+<volume>4</volume>
+<pages>157.</pages>
+</reference>
+<reference id="pubmed20924317">
+<accessionId id="acc030" href="info:pmid/20924317" />
+<authors>Cilieborg MS, Boye M, M&#x00F8;lbak L, Thymann T, Sangild PT.</authors>
+<title>Preterm birth and necrotizing enterocolitis alter gut colonization in pigs.</title>
+<source>Pediatr Res</source>
+<pubdate>2011</pubdate>
+<volume>69</volume>
+<pages>10-16.</pages>
+</reference>
+<reference id="pubmed19524719">
+<accessionId id="acc031" href="info:pmid/19524719" />
+<authors>Fitzgibbons SC, Ching Y, Yu D, et al.</authors>
+<title>Mortality of necrotizing enterocolitis expressed by birth weight categories.</title>
+<source>J Pediatr Surg</source>
+<pubdate>2009</pubdate>
+<volume>44</volume>
+<pages>1072-1075; discussion 1075-1076.</pages>
+</reference>
+<reference id="pubmed15185221">
+<accessionId id="acc032" href="info:pmid/15185221" />
+<authors>Hall NJ, Peters M, Eaton S, Pierro A.</authors>
+<title>Hyperglycemia is associated with increased morbidity and mortality rates in neonates with necrotizing enterocolitis.</title>
+<source>J Pediatr Surg</source>
+<pubdate>2004</pubdate>
+<volume>39</volume>
+<pages>898-901.</pages>
+</reference>
+<reference id="pubmed26700691">
+<accessionId id="acc033" href="info:pmid/26700691" />
+<authors>Sparks EA, Khan FA, Fisher JG, et al.</authors>
+<title>Necrotizing enterocolitis is associated with earlier achievement of enteral autonomy in children with short bowel syndrome.</title>
+<source>J Pediatr Surg</source>
+<pubdate>2016</pubdate>
+<volume>51</volume>
+<pages>92-95.</pages>
+</reference>
+<reference id="pubmed26201534">
+<accessionId id="acc034" href="info:pmid/26201534" />
+<authors>Sparks EA, Khan FA, Fisher JG, et al.</authors>
+<title>Postnatal growth failure in very low birthweight infants born between 2005 and 2012.</title>
+<source>Arch Dis Child Fetal Neonatal Ed</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>F50-F55.</pages>
+</reference>
+<reference id="pubmed17548764">
+<accessionId id="acc035" href="info:pmid/17548764" />
+<authors>Schulzke SM, Deshpande GC, Patole SK.</authors>
+<title>Neurodevelopmental outcomes of very low-birth-weight infants with necrotizing enterocolitis: a systematic review of observational studies.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2007</pubdate>
+<volume>161</volume>
+<pages>583-590.</pages>
+</reference>
+<reference id="pubmed23164007">
+<accessionId id="acc036" href="info:pmid/23164007" />
+<authors>Downard CD, Renaud E, St Peter SD, Abdullah F, Islam S, Saito JM, Blakely ML, Huang EY, Arca MJ, Cassidy L, Aspelund G; 2012 American Pediatric Surgical Association Outcomes Clinical Trials Committee.</authors>
+<title>Treatment of necrotizing enterocolitis: an American Pediatric Surgical Association Outcomes and Clinical Trials Committee systematic review.</title>
+<source>J Pediatr Surg</source>
+<pubdate>2012</pubdate>
+<volume>47</volume>
+<pages>2111-2222.</pages>
+</reference>
+<reference id="pubmed1979363">
+<accessionId id="acc037" href="info:pmid/1979363" />
+<authors>Lucas A, Cole TJ.</authors>
+<title>Breast milk and neonatal necrotising enterocolitis.</title>
+<source>Lancet</source>
+<pubdate>1990</pubdate>
+<volume>336</volume>
+<pages>1519-1523.</pages>
+</reference>
+<reference id="pubmed1941481">
+<accessionId id="acc038" href="info:pmid/1941481" />
+<authors>Radhakrishnan J, Blechman G, Shrader C, Patel MK, Mangurten HH, McFadden JC.</authors>
+<title>Colonic strictures following successful medical management of necrotizing enterocolitis: a prospective study evaluating early gastrointestinal contrast studies.</title>
+<source>J Pediatr Surg</source>
+<pubdate>1991</pubdate>
+<volume>26</volume>
+<pages>1043-1046.</pages>
+</reference>
+<reference id="cochrane2971">
+<accessionId id="acc039" href="info:wiley/cochrane/CD002971" />
+<chapter_authors>Quigley M, Embleton ND, McGuire W.</chapter_authors>
+<chapter_title>Formula versus donor breast milk for feeding preterm or low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 6. Art. No.: CD002971. DOI: 10.1002&#x002F;14651858.CD002971.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane343">
+<accessionId id="acc040" href="info:wiley/cochrane/CD000343" />
+<chapter_authors>Brown JV, Embleton ND, Harding JE, McGuire W.</chapter_authors>
+<chapter_title>Multi-nutrient fortification of human milk for preterm infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 5. Art. No.: CD000343. DOI: 10.1002&#x002F;14651858.CD000343.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4339">
+<accessionId id="acc042" href="info:wiley/cochrane/CD004339" />
+<chapter_authors>Shah PS, Shah VS, Kelly LE.</chapter_authors>
+<chapter_title>Arginine supplementation for prevention of necrotising enterocolitis in preterm infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 4. Art. No.: CD004339. DOI: 10.1002&#x002F;14651858.CD004339.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1816">
+<accessionId id="acc043" href="info:wiley/cochrane/CD001816" />
+<chapter_authors>Foster JP, Seth R, Cole MJ.</chapter_authors>
+<chapter_title>Oral immunoglobulin for preventing necrotizing enterocolitis in preterm and low birth weight neonates.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 4. Art. No.: CD001816. DOI: 10.1002&#x002F;14651858.CD001816.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane361">
+<accessionId id="acc044" href="info:wiley/cochrane/CD000361" />
+<chapter_authors>Ohlsson A, Lacy JB.</chapter_authors>
+<chapter_title>Intravenous immunoglobulin for preventing infection in preterm and&#x002F;or low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 7. Art. No.: CD000361. DOI: 10.1002&#x002F;14651858.CD000361.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7137">
+<accessionId id="acc045" href="info:wiley/cochrane/CD007137" />
+<chapter_authors>Pammi M, Suresh G.</chapter_authors>
+<chapter_title>Enteral lactoferrin supplementation for prevention of sepsis and necrotizing enterocolitis in preterm infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 6. Art. No.: CD007137. DOI: 10.1002&#x002F;14651858.CD007137.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane405">
+<accessionId id="acc046" href="info:wiley/cochrane/CD000405" />
+<chapter_authors>Bury RG, Tudehope D.</chapter_authors>
+<chapter_title>Enteral antibiotics for preventing necrotizing enterocolitis in low birthweight or preterm infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2001, Issue 1. Art. No.: CD000405. DOI: 10.1002&#x002F;14651858.CD000405.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7448">
+<accessionId id="acc047" href="info:wiley/cochrane/CD007448" />
+<chapter_authors>Shah D, Sinn JK.</chapter_authors>
+<chapter_title>Antibiotic regimens for the empirical treatment of newborn infants with necrotising enterocolitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 8. Art. No.: CD007448. DOI: 10.1002&#x002F;14651858.CD007448.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6182">
+<accessionId id="acc048" href="info:wiley/cochrane/CD006182" />
+<chapter_authors>Rao SC, Basani L, Simmer K, Samnakay N, Deshpande G.</chapter_authors>
+<chapter_title>Peritoneal drainage versus laparotomy as initial surgical treatment for perforated necrotizing enterocolitis or spontaneous intestinal perforation in preterm low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 6. Art. No.: CD006182. DOI: 10.1002&#x002F;14651858.CD006182.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4205">
+<accessionId id="acc049" href="info:wiley/cochrane/CD004205" />
+<chapter_authors>Pammi M, Haque KN.</chapter_authors>
+<chapter_title>Pentoxifylline for treatment of sepsis and necrotizing enterocolitis in neonates.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 3. Art. No.: CD004205. DOI: 10.1002&#x002F;14651858.CD004205.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31593123">
+<accessionId id="acc050" href="info:pmid/31593123" />
+<authors>Bi LW, Yan BL, Yang QY, Li MM, Cui HL.</authors>
+<title>Which is the best probiotic treatment strategy to prevent the necrotizing enterocolitis in premature infants: A network meta-analysis revealing the efficacy and safety.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e17521</pages>
+</reference>
+<reference id="pubmed31801792">
+<accessionId id="acc051" href="info:pmid/31801792" />
+<authors>Matei A, Montalva L, Goodbaum A, Lauriti G, Zani A.</authors>
+<title>Neurodevelopmental impairment in necrotising enterocolitis survivors: systematic review and meta-analysis.</title>
+<source>Arch Dis Child Fetal Neonatal Ed</source>
+<pubdate>2020</pubdate>
+<volume>105</volume>
+<pages>432&#x2013;439</pages>
+</reference>
+<reference id="poem221016">
+<accessionId id="acc052" href="info:wiley/eep-poem/221016" />
+<accessionId id="acc052b" href="info:pmid/32531291" />
+<authors>Su GL, Ko CW, Bercik P, Falck-Ytter Y, Sultan S, Weizman AV, Morgan RL.</authors>
+<title>AGA Clinical Practice Guidelines on the Role of Probiotics in the Management of Gastrointestinal Disorders.</title>
+<source>Gastroenterology</source>
+<pubdate>2020</pubdate>
+<volume>159</volume>
+<pages>697&#x2013;705</pages>
+</reference>
+<reference id="pubmed32925782">
+<accessionId id="acc053" href="info:pmid/32925782" />
+<authors>Zhang B, Xiu W, Dai Y, Yang C.</authors>
+<title>Protective effects of different doses of human milk on neonatal necrotizing enterocolitis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e22166</pages>
+</reference>
+<reference id="pubmed31982088">
+<accessionId id="acc054" href="info:pmid/31982088" />
+<authors>Jones IH, Hall NJ.</authors>
+<title>Contemporary outcomes for infants with necrotizing enterocolitis-a systematic review.</title>
+<source>J Pediatr</source>
+<pubdate>2020</pubdate>
+<volume>220</volume>
+<pages>86&#x2013;92.e3</pages>
+</reference>
+<reference id="cochrane5496">
+<accessionId id="acc055" href="info:wiley/cochrane/CD5496" />
+<chapter_authors>Sharif S, Meader N, Oddie SJ, Rojas-Reyes MX, McGuire W.</chapter_authors>
+<chapter_title>Probiotics to prevent necrotising enterocolitis in very preterm or very low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 7. Art. No.: CD005496. DOI: 10.1002&#x002F;14651858.CD005496.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed37782505">
+<accessionId id="acc056" href="info:pmid/37782505" />
+<authors>Wang Y, Florez ID, Morgan RL, Foroutan F, Chang Y, Crandon HN, Zeraatkar D, Bala MM, Mao RQ, Tao B, Shahid S, Wang X, Beyene J, Offringa M, Sherman PM, El Gouhary E, Guyatt GH, Sadeghirad B.</authors>
+<title>Probiotics, Prebiotics, Lactoferrin, and Combination Products for Prevention of Mortality and Morbidity in Preterm Infants: A Systematic Review and Network Meta-Analysis.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2023</pubdate>
+<volume>177</volume>
+<pages>1158&#x2013;1167</pages>
+</reference>
+<reference id="pubmed37293714">
+<accessionId id="acc057" href="info:pmid/37293714" />
+<authors>Mani S, Hazra S, Hagan J, Sisson A, Nair J, Pammi M.</authors>
+<title>Viral Infections and Neonatal Necrotizing Enterocolitis: A Meta-analysis.</title>
+<source>Pediatrics</source>
+<pubdate>2023</pubdate>
+<volume>152</volume>
+<pages />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Modified Bell's Criteria for staging NEC.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Stage</th>
+<th align="left" colspan="1">Classification of NEC</th>
+<th align="left" colspan="1">Systemic Signs</th>
+<th align="left" colspan="1">Abdominal Signs</th>
+<th align="left" colspan="1">Radiographic Signs</th>
+</tr>
+<tr>
+<td align="left" colspan="1">IA</td>
+<td align="left" colspan="1">Suspected</td>
+<td align="left" colspan="1">Temperature instability, apnea, bradycardia, lethargy</td>
+<td align="left" colspan="1">Gastric retention, abdominal distention, emesis, heme-positive stool</td>
+<td align="left" colspan="1">Normal or intestinal dilation, mild ileus</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IB</td>
+<td align="left" colspan="1">Suspected</td>
+<td align="left" colspan="1">Same as above</td>
+<td align="left" colspan="1">Grossly bloody stool</td>
+<td align="left" colspan="1">Same as above</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IIA</td>
+<td align="left" colspan="1">Definite, mildly ill</td>
+<td align="left" colspan="1">Same as above</td>
+<td align="left" colspan="1">Same as above, plus absent bowel sounds with or without abdominal tenderness</td>
+<td align="left" colspan="1">Intestinal dilation, ileus, pneumatosis intestinalis</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IIB</td>
+<td align="left" colspan="1">Definite, moderately ill</td>
+<td align="left" colspan="1">Same as above, plus mild metabolic acidosis and thrombocytopenia</td>
+<td align="left" colspan="1">Same as above, plus absent bowel sounds, definite tenderness, with or without abdominal cellulitis or right lower quadrant mass</td>
+<td align="left" colspan="1">Same as IIA, plus ascites</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IIIA</td>
+<td align="left" colspan="1">Advanced, severely ill, intact bowel</td>
+<td align="left" colspan="1">Same as IIB, plus hypotension, bradycardia, severe apnea, combined respiratory and metabolic acidosis, DIC, and neutropenia</td>
+<td align="left" colspan="1">Same as above, plus signs of peritonitis, marked tenderness, and abdominal distention</td>
+<td align="left" colspan="1">Same as IIA, plus ascites</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IIIB</td>
+<td align="left" colspan="1">Advanced, severely ill, perforated bowel</td>
+<td align="left" colspan="1">Same as IIIA</td>
+<td align="left" colspan="1">Same as IIIA</td>
+<td align="left" colspan="1">Same as above, plus pneumoperitoneum</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

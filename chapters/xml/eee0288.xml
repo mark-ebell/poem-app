@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Aspergillosis</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0288</topic_id>
+<topic_comment />
+<topic_lastupdated>01/15/2022</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Jennifer P. Schwalbe, MD</author_name>
+<author_title>Resident Pediatrician</author_title>
+<author_department>Department of Internal Medicine &#x2013; Pediatrics</author_department>
+<author_institution>University of Maryland School of Medicine</author_institution>
+<author_email>jschw004&#x0040;umaryland.edu</author_email>
+<author_phone_office>410-328-6662</author_phone_office>
+<author_phone_home>443-983-3721</author_phone_home>
+<author_phone_fax />
+<author_street1>3817 Bonnybridge Place</author_street1>
+<author_street2 />
+<author_city>Ellicott City</author_city>
+<author_state>MD</author_state>
+<author_zip>21043</author_zip>
+</author>
+<author primary="no">
+<author_name>Leah Millstein, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine &#x2013; Pediatrics</author_department>
+<author_institution>University of Maryland School of Medicine</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Ellicott City</author_city>
+<author_state>MD</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect aspergillosis in immunocompromised patients who do not respond to antibiotics; invasive pulmonary aspergillosis typically presents with respiratory symptoms, infiltrates, and fever. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Many diagnostic tests exist and are under investigation, but the gold standard remains culture and microscopic diagnosis. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Voriconazole is the initial treatment of choice for invasive aspergillosis; posaconazole and isavuconazole are alternatives.<xref ref="bib29_250_1642275851110 bib30_609_1642277192322">29, 30</xref>
+<evidence rating="A" system="SORT"> A </evidence>
+<xref ref="pubmed12167683" resource="acc009" />
+<xref ref="poem40504" resource="acc018" />
+<xref ref="pubmed18177225" resource="acc008" /></listitem>
+<listitem>Reversing or halting immunosuppression in affected patients should be the first step in treatment, whenever possible. <evidence rating="C" system="SORT"> C </evidence></listitem>
+</list>
+</BottomLine>
+<definition>Aspergillosis refers to illness due to allergy to, colonization by, or tissue invasion by a species of Aspergillus. Types of aspergillosis include invasive aspergillosis, allergic bronchopulmonary aspergillosis, chronic cavitary pulmonary aspergillosis, and saphrophytic disease.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>5.8&#x0025; incidence of invasive aspergillosis, or 58 new cases per 1000, in intensive care unit (ICU) patients.<xref ref="pubmed17578780" resource="acc019" /></listitem>
+<listitem>1&#x0025; to 8&#x0025; incidence in solid organ transplant patients, with highest risk in recipients of lung transplants.<xref ref="pubmed18171183" resource="acc020" /></listitem>
+<listitem>6&#x0025; to 11&#x0025; incidence in those receiving a hematopoietic stem cell transplant (less common in autologous transplants [&#x007E;1&#x0025;-2&#x0025;]).<xref ref="pubmed18171183" resource="acc020" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Aspergillus is the most common opportunistic invasive mycosis in the immunocompromised patient.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Aspergillus is a type of mold. Spores (conidia) are frequently inhaled; organisms are widespread in the environment as ubiquitous molds.<xref ref="pubmed17205486" resource="acc002" /></listitem>
+<listitem>Clinical manifestations depend on the host&#x2019;s immune response: acute hypersensitivity reaction versus chronic allergy (sinusitis) versus invasive disease.<xref ref="bib28_446_1642274286533" resource="acc028" /></listitem>
+<listitem>Disease can also be acquired via direct inoculation during procedures, as a result of trauma, or via intravenous drug abuse.</listitem>
+<listitem>SARS CoV-2 causes damage to the respiratory epithelium, enabling aspergillus invasion in COVID-19 infection<xref ref="bib27_375_1632322109792" resource="acc027" />.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Aspergillus is a mold; spores (conidia) are inhaled from the environment, and alveolar macrophages serve as the first line of defense.</listitem>
+<listitem>In a normal host, macrophages will kill the conidia. If there is macrophage dysfunction or a decreased number of macrophages, the conidia are able to germinate and form hyphae.</listitem>
+<listitem>Hyphae formation should attract neutrophils, if present, which attack the fungus via various mycotoxins and complement inhibitors.</listitem>
+<listitem>The histopathologic hallmark of aspergillosis is progression of disease across tissue planes.<xref ref="pubmed17205486" resource="acc002" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Invasive disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Prolonged, severe neutropenia</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Advanced HIV&#x002F;AIDS</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Solid organ transplant</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Prolonged glucocorticoid exposure</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic granulomatous disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hematopoietic stem cell transplant</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Severe respiratory infection (SARS-CoV-2 or influenza)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Allergic bronchopulmonary aspergillosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Reactive airway disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cystic fibrosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic pulmonary aspergillosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Structural lung disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Underlying cancer</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Glucocorticoid use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>ICU stay or recent pulmonary infection</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Malnutrition</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="bib28_446_1642274286533" resource="acc028" /><xref ref="pubmed18781877" resource="acc003" /></Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect aspergillosis in immunocompromised patients who do not respond to antibiotics; invasive pulmonary aspergillosis typically presents with respiratory symptoms, infiltrates, and fever. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Isolation of Aspergillus via culture or histopathology from a respiratory specimen or tissue sample is the reference standard diagnostic test, but results can take days or weeks. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed16387806" resource="acc004" /></listitem>
+<listitem>Galactomannan antigen detection via ELISA is sensitive and specific, and can be used for early diagnosis and monitoring of therapeutic response. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed16619154" resource="acc012" />
+<xref ref="bib25_635_1452694964506" resource="acc025" /></listitem>
+<listitem>The beta-D-glucan (BDG) assay is extremely sensitive for invasive fungal infections and has good negative predictive value, but is not specific for aspergillosis. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed18462174" resource="acc014" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Pulmonary tuberculosis</Differential_Name>
+<Differential_Features>Absence of halo sign, positive PPD, more likely to have cavitation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Zygomycetes&#x002F;mucormycoses</Differential_Name>
+<Differential_Features>Negative serum galactomannan, more predilection for sinus involvement</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacterial (pseudomonas&#x002F;nocardia)</Differential_Name>
+<Differential_Features>Absence of halo sign, positive BAL&#x002F;sputum culture</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pulmonary embolism</Differential_Name>
+<Differential_Features>Absence of halo sign, absence of high fever, negative cultures</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Malignancy</Differential_Name>
+<Differential_Features>More common in lower lobes, absence of true cavitation</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect aspergillosis in immunocompromised patients who do not respond to usual antibiotic therapy.<xref ref="pubmed16984868" resource="acc006" /></listitem>
+<listitem>Invasive pulmonary aspergillosis: Patients typically have cough, dyspnea, fever, pleuritic chest pain, hemoptysis. Fever is unresponsive to broad-spectrum antibiotics.<xref ref="pubmed16387806" resource="acc004" /></listitem>
+<listitem>Chronic allergic sinusitis related to aspergillosis: Patients usually have headache, congestion, fever; proptosis and cranial nerve palsies can be seen in advanced disease, similar to mucormycoses or zygomycoses.<xref ref="pubmed16984868" resource="acc006" /></listitem>
+<listitem>Disseminated aspergillosis: Patients have fever and sepsis; accompanied by invasion of (most commonly) the liver, spleen, kidney, central nervous system.<xref ref="pubmed16387806" resource="acc004" /></listitem>
+<listitem>Aspergillus tracheobronchitis: Dyspnea, wheezing, cough, can produce mucous plugs; chest x-ray is often unremarkable.<xref ref="pubmed16984868" resource="acc006" /></listitem>
+<listitem>Endocarditis: There is usually fever and signs and symptoms of embolic disease.<xref ref="pubmed16984868" resource="acc006" /></listitem>
+<listitem>Cutaneous involvement of aspergillosis may have rapidly evolving lesions from papules to ulcers. Ulcers enlarge at a rate proportional to the degree of immunosuppression.<xref ref="pubmed19955115" resource="acc005" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Tissue diagnosis with histopathology and culture is considered the reference standard test and is most specific. It does take time, though: Aspergillus appears within 1 to 3 days of culture, but full results can take up to 4 weeks. False negative results are common, especially in patients treated empirically. In general, culture has fairly low sensitivity.<xref ref="pubmed16619154" resource="acc012" /></listitem>
+<listitem>Serum galactomannan ELISA assay identifies a constituent of Aspergillus cell walls. It is used for early detection of infection and to follow response. It has lower sensitivity in ICU patients and solid organ transplant patients; it is more sensitive and specific when used with urine, BAL, or CSF. False positive results are seen with certain antibiotics, and it cross reacts with histoplasma and penicillium species.<xref ref="pubmed15472335" resource="acc013" />
+<xref ref="pubmed18781877" resource="acc003" /></listitem>
+<listitem>PCR for serum galactomannan is highly sensitive and specific, but is is not available in all settings.<xref ref="bib28_446_1642274286533" resource="acc028" />
+<xref ref="pubmed19179225" resource="acc015" /></listitem>
+<listitem>The BDG assay is a colorimetric assay that detects another cell well component, but is not specific to Aspergillus. It is highly sensitive with nearly 100&#x0025; negative predictive value in ruling out invasive fungal infection, but is relatively nonspecific when positive.<xref ref="pubmed18462174" resource="acc014" /></listitem>
+<listitem>Invasive pulmonary aspergerillosis: Pulmonary infiltrates may be seen on on imaging. Nodules, cavitations, or patchy infiltrates are seen on chest x-ray. Chest CT may reveal presence of a halo sign and&#x002F;or a crescent sign. Among patients with invasive pulmonary aspergillosis, less than 10&#x0025; of chest x-rays are normal, and less than 3&#x0025; of chest CTs are normal.<xref ref="pubmed10941354" resource="acc011" /> In critically ill patients, radiologic signs are often absent.</listitem>
+<listitem>Aspergillus tracheobronchitis: Chest x-ray is often unremarkable.</listitem>
+<listitem>Aspergillosis endocarditis: Blood cultures are rarely positive.</listitem>
+<listitem>Allergic bronchopulmonary aspergillosis: sensitization to aspergillus antigens and radiographic findings compatible with the diagnosis. Non-specific findings include eosinophilia.<xref ref="bib28_446_1642274286533" resource="acc028" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="table001" /> for diagnostic criteria.<xref ref="pubmed16475153" resource="acc007" /></listitem>
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to evaluation.<xref ref="pubmed16387806" resource="acc004" /></listitem>
+<listitem>See <xref ref="table002" /> for specific treatment recommendations for different clinical situations.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Voriconazole is the initial treatment of choice for invasive aspergillosis; posaconazole and isavuconazole are alternatives.<xref ref="bib29_250_1642275851110 bib30_609_1642277192322">29, 30</xref>
+<evidence rating="A" system="SORT"> A </evidence>
+<xref ref="pubmed12167683" resource="acc009" />
+<xref ref="poem40504" resource="acc018" />
+<xref ref="pubmed18177225" resource="acc008" /></listitem>
+<listitem>Salvage therapies include echinocandins or a combination of 2 drugs, but more studies should be done to evaluate these options. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed18466092" resource="acc016" /></listitem>
+<listitem>Reversal of immunosuppression should be attempted whenever feasible. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed11170942" resource="acc017" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Invasive aspergillosis</strong></listitem>
+<listitem>Reversing or halting immunosuppression in affected patients should be the first step in treatment, whenever possible.</listitem>
+<listitem>Voriconazole or isavuconazole are recommended by guidelines as first line therapy.<xref ref="pubmed18177225" resource="acc008" /> Voriconazole is given orally and is 100&#x0025; absorbed in the GI tract. but an IV loading dose should be used for critically ill patients. It has immunomodulatory properties that have been shown to enhance its response to Aspergillus fumigatus.<xref ref="pubmed18177225" resource="acc008" /></listitem>
+<listitem>A trial randomized 527 patients with invasive disease caused by mold including aspergillosis to isavuconazole or voriconazole and found no difference in 42 day mortality (19&#x0025; vs 20&#x0025;).<xref ref="bib30_609_1642277192322" resource="acc030" /></listitem>
+<listitem>A study randomized 575 persons with invasive aspergillosis to voriconazole 6 mg&#x002F;kg IV or 300 mg orally bid on day 1 followed by 4 mg&#x002F;kg IV or 200 mg bid for 12 weeks, or to posaconazole IV or orally 300 mg bid followed by 300 mg once daily for 12 weeks. Posaconazole was non-inferior with regards to 42 day mortality (19&#x0025; in both groups in the ITT population with proven or probable invasive aspergillosis).<xref ref="bib29_250_1642275851110" resource="acc029" /></listitem>
+<listitem>An international randomized controlled trial of 454 patients with hematologic malignancies or hematopoietic stem cell transplants and invasive aspergillosis compared combination therapy with voriconazole plus anidulafungin to voriconazole monotherapy. The trial showed a trend toward decreased mortality at 6 weeks favoring combination therapy (19.3&#x0025; vs. 27.5&#x0025;; p &#x003D; 0.087) and no differences in side effects, including hepatotoxicity.<xref ref="bib24_493_1436646636592" resource="acc024" /></listitem>
+<listitem>Amphotericin B is effective, but there has been a high incidence of infusion-related reactions and nephrotoxicity (less common with lipid formulations).<xref ref="pubmed12167683" resource="acc009" /> A clinical trial comparing voriconazole with amphotericin B found no important differences in cure rates, mortality, or other important outcomes.<xref ref="poem40504" resource="acc018" /></listitem>
+<listitem>Itraconazole is not recommended as first-line therapy but is an option for patients with chornic cavitary pulmonary aspergillosis; one trial found stabilization or improvement in 71&#x0025; of patients<xref ref="bib31_798_1642277634008" resource="acc031" />.</listitem>
+<listitem>Echinocandins are not recommended as first line therapy but are an alternative for patients who have failed or cannot tolerate other antifungals.</listitem>
+<listitem>Treatment duration is for 6 to 12 weeks, or until immune reconstitution and lesions have resolved radiologically.<xref ref="pubmed12167683" resource="acc009" /></listitem>
+<listitem><strong>Allergic bronchopulmonary aspergillosis</strong></listitem>
+<listitem>A randomized trial compared itraconazole 200 mg twice daily with itraconazole in 131 patients with acute allergic bronchopulmonary aspergillosis that was a complication of asthma. The time to first exacerbation and the number of exacerbations at 2 years of follow-up was similar between groups, as was lung function. "Response" as measured to decline in IgE was greater in the prednisolone group, but so were adverse effects.<xref ref="bib26_880_1527187830592" resource="acc026" /></listitem>
+<listitem>See <xref ref="table002" /> for a summary of specific treatment recommendations.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgical resection of aspergilloma may be considered in patients with severe or life-threatening hemoptysis.<xref ref="pubmed18462174" resource="acc014" /></listitem>
+<listitem>Surgical resection is also indicated in those with aspergillus endocarditis, cerebral&#x002F;optic lesions, osteomyelitis, invasive sinus lesions, skin infection, or empyema.<xref ref="pubmed18462174" resource="acc014" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Invasive aspergillosis is associated with a high mortality rate (up to 80&#x0025;), especially in transplant (both solid organ and hematopoietic stem cell) patients. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed17874329" resource="acc021" /></listitem>
+<listitem>Even transient colonization with aspergillosis is associated with an increased overall mortality rate in immunocompromised patients. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed17874329" resource="acc021" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed19673973">
+<accessionId id="acc001" href="info:pmid/19673973" />
+<authors>Erjavec Z, Kluin-Nelemans H, Verweij PE.</authors>
+<title>Trends in invasive fungal infections, with emphasis on invasive aspergillosis.</title>
+<source>Clin Microbiol Infect</source>
+<pubdate>2009</pubdate>
+<volume>15</volume>
+<pages>625-633.</pages>
+</reference>
+<reference id="pubmed17205486">
+<accessionId id="acc002" href="info:pmid/17205486" />
+<authors>Hope WW, Kruhlak MJ, Lyman CA, et al.</authors>
+<title>Pathogenesis of Aspergillus fumigatus and the kinetics of galactomannin in an in vitro model of early invasive pulmonary aspergillosis: Implications for antifungal therapy.</title>
+<source>J Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>195</volume>
+<pages>455-466.</pages>
+</reference>
+<reference id="pubmed18781877">
+<accessionId id="acc003" href="info:pmid/18781877" />
+<authors>Garcia-Vidal C, Upton A, Kirby KA, Marr KA.</authors>
+<title>Epidemiology of invasive mold infections in allogeneic stem cell transplant recipients: Biological risk factors for infection according to time after transplantation.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>47</volume>
+<pages>1041-1050.</pages>
+</reference>
+<reference id="pubmed16387806">
+<accessionId id="acc004" href="info:pmid/16387806" />
+<authors>Segal BH, Walsh TJ.</authors>
+<title>Current approaches to the diagnosis and treatment of invasive aspergillosis.</title>
+<source>Am J Resp Crit Care</source>
+<pubdate>2006</pubdate>
+<volume>173</volume>
+<pages>707-717.</pages>
+</reference>
+<reference id="pubmed19955115">
+<accessionId id="acc005" href="info:pmid/19955115" />
+<authors>Shoham S, Marwaha S.</authors>
+<title>Invasive fungal infections in the ICU.</title>
+<source>J Intensive Care Med</source>
+<pubdate>2010</pubdate>
+<volume>25</volume>
+<pages>78-92.</pages>
+</reference>
+<reference id="pubmed16984868">
+<accessionId id="acc006" href="info:pmid/16984868" />
+<authors>Barnes P, Marr K.</authors>
+<title>Aspergillosis: Spectrum of disease, diagnosis and treatment.</title>
+<source>Infect Dis Clin N Am</source>
+<pubdate>2006</pubdate>
+<volume>20</volume>
+<pages>545-561.</pages>
+</reference>
+<reference id="pubmed16475153">
+<accessionId id="acc007" href="info:pmid/16475153" />
+<authors>Hachem R, Sumoza D, Hanna H, Girgawy E, Munsell M, Raad I.</authors>
+<title>Clinical and radiologic predictors of invasive pulmonary aspergillosis in cancer patients: Should the European Organization for Research and Treatment of Cancer&#x002F;Mycosis Study Group (EORTC&#x002F;MSG) criteria be revised?</title>
+<source>Cancer</source>
+<pubdate>2006</pubdate>
+<volume>106</volume>
+<pages>1581-1586.</pages>
+</reference>
+<reference id="pubmed18177225">
+<accessionId id="acc008" href="info:pmid/18177225" />
+<authors>Walsh TJ, Anaissie EJ, Denning DW, et al.</authors>
+<title>Treatment of aspergillosis: Clinical practice guidelines of the Infectious Diseases Society of America.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>46</volume>
+<pages>327-360.</pages>
+</reference>
+<reference id="pubmed12167683">
+<accessionId id="acc009" href="info:pmid/12167683" />
+<authors>Herbrecht R, Denning DW, Patterson TF, et al.; Invasive Fungal Infections Group of the European Organisation for Research and Treatment of Cancer and the Global Aspergillus Study Group.</authors>
+<title>Voriconaole versus amphotericin B for primary therapy of invasive aspergillosis.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>347</volume>
+<pages>408-415.</pages>
+</reference>
+<reference id="pubmed17584800">
+<accessionId id="acc010" href="info:pmid/17584800" />
+<authors>Oshima K, Kanda Y, Asano-Mori Y, et al.</authors>
+<title>Presumptive treatment strategy for aspergillosis in allogeneic haematopoetic stem cell transplant recipients.</title>
+<source>J Antimicrob Chemother</source>
+<pubdate>2007</pubdate>
+<volume>60</volume>
+<pages>350-355.</pages>
+</reference>
+<reference id="pubmed10941354">
+<accessionId id="acc011" href="info:pmid/10941354" />
+<authors>Patterson TF, Kirkpatrick WR, White M, et al.</authors>
+<title>Invasive aspergillosis. Disease spectrum, treatment practices and outcomes.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2000</pubdate>
+<volume>79</volume>
+<pages>250-260.</pages>
+</reference>
+<reference id="pubmed16619154">
+<accessionId id="acc012" href="info:pmid/16619154" />
+<authors>Pfeiffer CD, Fine JP, Safdar N.</authors>
+<title>Diagnosis of invasive aspergillosis using a galactomannan assay: A meta-analysis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2006</pubdate>
+<volume>42</volume>
+<pages>1417-1427.</pages>
+</reference>
+<reference id="pubmed15472335">
+<accessionId id="acc013" href="info:pmid/15472335" />
+<authors>Walsh TJ, Shoham S, Petraitiene R, et al.</authors>
+<title>Detection of galactomannan antigenemia in patients receiving piperacillin-tazobactam and correlations between in vitro, in vivo, and clinical properties of the drug-antigen interaction.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2004</pubdate>
+<volume>42</volume>
+<pages>4744-4748.</pages>
+</reference>
+<reference id="pubmed18462174">
+<accessionId id="acc014" href="info:pmid/18462174" />
+<authors>Obayashi T, Negishi K, Suzuki T, Funata N.</authors>
+<title>Reappraisal of the serum (1-3) beta-D-glucan assay for the diagnosis of invasive fungal infections&#x2014;a study based on autopsy cases from 6 years.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>46</volume>
+<pages>1864-1870.</pages>
+</reference>
+<reference id="pubmed19179225">
+<accessionId id="acc015" href="info:pmid/19179225" />
+<authors>Mengoli C, Cruciani M, Barnes RA, Loeffler J, Donnelly JP.</authors>
+<title>Use of PCR for diagnosis of invasive aspergillosis: Systematic review and meta-analysis.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2009</pubdate>
+<volume>9</volume>
+<pages>89-96.</pages>
+</reference>
+<reference id="pubmed18466092">
+<accessionId id="acc016" href="info:pmid/18466092" />
+<authors>Vazquez JA.</authors>
+<title>Clinical practice: Combination antifungal therapy for mold infections: Much ado about nothing?</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>46</volume>
+<pages>1889-1901.</pages>
+</reference>
+<reference id="pubmed11170942">
+<accessionId id="acc017" href="info:pmid/11170942" />
+<authors>Lin SJ, Schranz J, Teutsch SM.</authors>
+<title>Aspergillosis case-fatality rate: Systematic review of the literature.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>32</volume>
+<pages>358-366.</pages>
+</reference>
+<reference id="poem40504">
+<accessionId id="acc018" href="info:wiley/eep-poem/40504" />
+<accessionId id="acc018b" href="info:pmid/11807146" />
+<authors>Walsh TJ, Pappas P, Winston DJ, et al.</authors>
+<title>Voriconazole compared with liposomal amphotericin B for empirical antifungal therapy in patients with neutropenia and persistent fever.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>346</volume>
+<pages>225-234.</pages>
+</reference>
+<reference id="pubmed17578780">
+<accessionId id="acc019" href="info:pmid/17578780" />
+<authors>Meersseman W, Lagrou K, Maertens J, Van Wijngaerden E.</authors>
+<title>Invasive aspergillosis in the intensive care unit.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>45</volume>
+<pages>205-216.</pages>
+</reference>
+<reference id="pubmed18171183">
+<accessionId id="acc020" href="info:pmid/18171183" />
+<authors>Chang DC, Burwell LA, Lyon GM, et al.</authors>
+<title>Comparison of the use of administrative data and an active system for surveillance of invasive aspergillosis.</title>
+<source>Infect Control Hosp Epidemiol</source>
+<pubdate>2008</pubdate>
+<volume>29</volume>
+<pages>25-30.</pages>
+</reference>
+<reference id="pubmed17874329">
+<accessionId id="acc021" href="info:pmid/17874329" />
+<authors>Iversen M, Burton CM, Vand S, et al.</authors>
+<title>Aspergillus infection in lung transplant patients: Incidence and prognosis.</title>
+<source>Eur J Clin Microbiol Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>26</volume>
+<pages>879-886.</pages>
+</reference>
+<reference id="pubmed18808362">
+<accessionId id="acc022" href="info:pmid/18808362" />
+<authors>Kohno S.</authors>
+<title>High mortality in invasive aspergillosis: What we need to know for determination of poor prognosis and next countermeasures.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>47</volume>
+<pages>1185-1187.</pages>
+</reference>
+<reference id="pubmed18808352">
+<accessionId id="acc023" href="info:pmid/18808352" />
+<authors>Nivoix Y, Velten M, Letscher-Bru V, et al.</authors>
+<title>Factors associated with overall and attributable mortality in invasive aspergillosis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>47</volume>
+<pages>1176-1184.</pages>
+</reference>
+<reference id="bib24_493_1436646636592">
+<accessionId id="acc024" href="info:pmid/25599346" />
+<authors> Marr KA, Schlamm HT, Herbrecht R, Rottinghaus ST, Bow EJ, Cornely OA, Heinz WJ, Jagannatha S, Koh LP, Kontoyiannis DP, Lee DG, Nucci M, Pappas PG, Slavin MA, Queiroz-Telles F, Selleslag D, Walsh TJ, Wingard JR, Maertens JA.</authors>
+<title>Combination antifungal therapy for invasive aspergillosis: A randomized trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>2015</pubdate>
+<volume>162</volume>
+<pages>81&#x2013;89</pages>
+</reference>
+<reference id="bib25_635_1452694964506">
+<accessionId id="acc025" href="info:wiley/cochrane/CD007394" />
+<citation>Leeflang MM, Debets-Ossenkopp YJ, Wang J, Visser CE, Scholten RJ, Hooft L, Bijlmer HA, Reitsma JB, Zhang M, Bossuyt PM, Vandenbroucke-Grauls CM. Galactomannan detection for invasive aspergillosis in immunocompromised patients. Cochrane Database of Systematic Reviews 2015, Issue 12. Art. No.: CD007394. DOI: 10.1002&#x002F;14651858.CD007394.pub2.</citation>
+<url />
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="bib26_880_1527187830592">
+<accessionId id="acc026" href="info:pmid/29331473" />
+<authors> Agarwal R, Dhooria S, Singh Sehgal I, Aggarwal AN, Garg M, Saikia B, Behera D, Chakrabarti A.</authors>
+<title>A randomized trial of itraconazole vs prednisolone in acute-stage allergic bronchopulmonary aspergillosis complicating asthma.</title>
+<source>Chest</source>
+<pubdate>2018</pubdate>
+<volume>153</volume>
+<pages>656&#x2013;664</pages>
+</reference>
+<reference id="bib27_375_1632322109792">
+<accessionId id="acc027" href="info:pmid/33333012" />
+<authors> Koehler P, Bassetti M, Chakrabarti A, Chen SCA, Colombo AL, Hoenigl M, Klimko N, Lass-Fl&#x00F6;rl C, Oladele RO, Vinh DC, Zhu LP, B&#x00F6;ll B, Br&#x00FC;ggemann R, Gangneux JP, Perfect JR, Patterson TF, Persigehl T, Meis JF, Ostrosky-Zeichner L, White PL, Verweij PE, Cornely OA, European Confederation of Medical Mycology, International Society for Human Animal Mycology, Asia Fungal Working Group, INFOCUS LATAM&#x002F;ISHAM Working Group, ISHAM Pan Africa Mycology Working Group, European Society for Clinical Microbiology, Infectious Diseases Fungal Infection Study Group, ESCMID Study Group for Infections in Critically Ill Patients, Interregional Association of Clinical Microbiology and Antimicrobial Chemotherapy, Medical Mycology Society of Nigeria, Medical Mycology Society of China Medicine Education Association, Infectious Diseases Working Party of the German Society for Haematology and Medical Oncology, Association of Medical Microbiology, Infectious Disease Canada.</authors>
+<title>Defining and managing COVID-19-associated pulmonary aspergillosis: The 2020 ECMM&#x002F;ISHAM consensus criteria for research and clinical guidance.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2021</pubdate>
+<volume>21</volume>
+<pages>e149&#x2013;e162</pages>
+</reference>
+<reference id="bib28_446_1642274286533">
+<accessionId id="acc028" href="info:pmid/34644473" />
+<authors> Thompson GR 3rd, Young JH.</authors>
+<title>Aspergillus Infections.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>385</volume>
+<pages>1496&#x2013;1509</pages>
+</reference>
+<reference id="bib29_250_1642275851110">
+<accessionId id="acc029" href="info:pmid/33549194" />
+<authors> Maertens JA, Rahav G, Lee DG, Ponce-de-Le&#x00F3;n A, Ram&#x00ED;rez S&#x00E1;nchez IC, Klimko N, Sonet A, Haider S, Diego V&#x00E9;lez J, Raad I, Koh LP, Karthaus M, Zhou J, Ben-Ami R, Motyl MR, Han S, Grandhi A, Waskin H, study investigators.</authors>
+<title>Posaconazole versus voriconazole for primary treatment of invasive aspergillosis: a phase 3, randomised, controlled, non-inferiority trial.</title>
+<source>Lancet</source>
+<pubdate>2021</pubdate>
+<volume>397</volume>
+<pages>499&#x2013;509</pages>
+</reference>
+<reference id="bib30_609_1642277192322">
+<accessionId id="acc030" href="info:pmid/26684607" />
+<authors> Maertens JA, Raad II, Marr KA, Patterson TF, Kontoyiannis DP, Cornely OA, Bow EJ, Rahav G, Neofytos D, Aoun M, Baddley JW, Giladi M, Heinz WJ, Herbrecht R, Hope W, Karthaus M, Lee DG, Lortholary O, Morrison VA, Oren I, Selleslag D, Shoham S, Thompson GR 3rd, Lee M, Maher RM, Schmitt-Hoffmann AH, Zeiher B, Ullmann AJ.</authors>
+<title>Isavuconazole versus voriconazole for primary treatment of invasive mould disease caused by Aspergillus and other filamentous fungi (SECURE): a phase 3, randomised-controlled, non-inferiority trial.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>760&#x2013;9</pages>
+</reference>
+<reference id="bib31_798_1642277634008">
+<accessionId id="acc031" href="info:pmid/12975754" />
+<authors> Denning DW, Riniotis K, Dobrashian R, Sambatakou H.</authors>
+<title>Chronic cavitary and fibrosing pulmonary and pleural aspergillosis: case series, proposed nomenclature change, and review.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2003</pubdate>
+<volume>37 Suppl 3</volume>
+<pages>S265&#x2013;80</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>288</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Aspergillosis: Management.</title>
+<graphic href="eee0288-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Aspergillosis clinically suspected. Order chest x-ray. Focal infiltrate or nodule?</label>
+<path target="cell-2"> Yes </path>
+<path target="cell-3"> No </path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Order sputum culture, serum galactomannam (GMA) and serum beta-D-glucan (BDG). Positive sputum or GMA?</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Order chest CT. Focal nodule or infiltrate?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Probable aspergillosis. Start voriconazole (amphotericin is alternate).</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Negative GMA and positive BDG?</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Start voriconazole with or without echinocandin.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>All results negative. Consider biopsy&#x002F;bronch for tissue diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Repeat CT if symptoms persist; consider empiric therapy if fever continues.</label>
+</cell>
+<footnotes>
+<footnote>Data from Garcia-Vidal C, et al.<xref ref="pubmed18781877" resource="acc003" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Criteria for Diagnosis of Invasive Fungal Infection.</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">Host factors: neutropenia, fever, or graft versus host disease</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Microbiologic evidence: positive culture or direct microscopic examination</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Minor clinical criteria: cough, chest pain, hemoptysis</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Major clinical criteria: computed tomograph with halo sign, air crescent sign, or presence of a cavitary lesion</td>
+</tr>
+</table>Data from Hachem R, et al.<xref ref="pubmed16475153" resource="acc007" />
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Treatment of Aspergillosis.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Presentation of Aspergillosis </th>
+<th align="left" colspan="1">Treatment of Choice </th>
+<th align="left" colspan="1">Alternative </th>
+</tr>
+<tr>
+<td align="left" colspan="1">Invasive pulmonary aspergillosis (IPA)</td>
+<td align="left" colspan="1">Voriconazole 6 mg&#x002F;kg IV every 12 hours x2, then 4 mg&#x002F;kg IV every 12 hours until stable. Can switch to 200 mg orally every 12 hours thereafter</td>
+<td align="left" colspan="1">Options: posaconazole or isavuconazole</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Tracheobronchial aspergillosis</td>
+<td align="left" colspan="1">Same as IPA</td>
+<td align="left" colspan="1">Same as IPA</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chronic necrotizing pulmonary aspergillosis (CNPA)</td>
+<td align="left" colspan="1">Same as IPA, but oral triazole (itraconazole or voriconazole) is preferred</td>
+<td align="left" colspan="1">Same as IPA</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Complex aspergilloma</td>
+<td align="left" colspan="1">Surgical resection</td>
+<td align="left" colspan="1">IV triazole (same dose as IPA)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Allergic bronchopulmonary aspergillosis (ABPA)</td>
+<td align="left" colspan="1">Oral itraconazole</td>
+<td align="left" colspan="1">Voriconazole 200 mg orally every 12 hours</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chronic cavitary pulmonary aspergillosis (CCPA)</td>
+<td align="left" colspan="1">Same as CNPA</td>
+<td align="left" colspan="1">Same as IPA</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Empiric treatment for invasive aspergillosis (IA)</td>
+<td align="left" colspan="1">Same as IPA, use in high risk populations</td>
+<td align="left" colspan="1">Same as IPA</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Prophylaxis for IA (in those with neutropenia, AML, myelodysplastic syndrome)</td>
+<td align="left" colspan="1">Posaconazole 200 mg orally every 8 hours</td>
+<td align="left" colspan="1">Itraconazole 200 mg IV every 12 hours x2 doses, then 200 mg&#x002F;day OR micafungin 50 mg&#x002F;day IV</td>
+</tr>
+</table>Data from Segal BH and Walsh TJ,<xref ref="pubmed16387806" resource="acc004" /> Vazquez JA,<xref ref="pubmed18466092" resource="acc016" /> and Oshima K et al.<xref ref="pubmed17584800" resource="acc010" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

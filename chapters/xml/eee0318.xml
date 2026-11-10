@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Pneumonia (Legionnaires')</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0318</topic_id>
+<topic_comment />
+<topic_lastupdated>07/14/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Mark K. Huntington, MD, PhD</author_name>
+<author_title>Professor</author_title>
+<author_department>Department of Family Medicine, Sanford School of Medicine at the University of South Dakota</author_department>
+<author_institution>Sioux Falls and Pierre Rural Family Medicine Residency Programs, Center for Family Medicine </author_institution>
+<author_email>mark.huntington&#x0040;usd.edu</author_email>
+<author_phone_office>605-575-1643</author_phone_office>
+<author_phone_home>605-338-2565</author_phone_home>
+<author_phone_fax>605-335-1006</author_phone_fax>
+<author_street1>Center for Family Medicine</author_street1>
+<author_street2>1115 East Twentieth</author_street2>
+<author_city>Sioux Falls</author_city>
+<author_state>SD</author_state>
+<author_zip>57105</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Peter K. Kurotschka, MD </editor_name>
+<editor_title>Research associate</editor_title>
+<editor_institution>Department of General Practice, University Hospital W&#x00FC;rzburg, Germany</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Consider Legionnaires' disease (LD) in patients with <resourceLink href="https://www.essentialevidenceplus.com/Home/Essential_Evidence_Topics?id=Njgx">community-acquired pneumonia (CAP)</resourceLink>; urine antigen assay is the recommended diagnostic test. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12668578" resource="acc009" /><xref ref="pubmed17173221" resource="acc011" /></listitem>
+<listitem>Fluoroquinolones are the current drug of choice; macrolides and tetracyclines are alternatives (<xref ref="table001" />). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed12107671" resource="acc013" /><xref ref="pubmed16669926" resource="acc014" /><xref ref="pubmed37730517" resource="acc081" /></listitem>
+<listitem>Early initiation of therapy is recommended when LD is clinically suspected. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12107671" resource="acc013" /><xref ref="pubmed16669926" resource="acc014" /><xref ref="pubmed37730517" resource="acc081" /></listitem>
+</list>
+</BottomLine>
+<definition>Legionnaires' disease (LD) is a severe, potentially fatal, atypical pneumonia caused by bacteria of the <em>Legionella</em> genus (most commonly <em>L. pneumophila</em> in the U.S.). The condition was first recognized during an outbreak at the 1976 American Legion convention in Philadelphia. <em>Legionella</em> infection may also occur in the absence of pneumonia; nonpneumonia pulmonary legionellosis is known as Pontiac fever.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>LD is often underdiagnosed.<xref ref="pubmed9250232" resource="acc001" /><xref ref="pubmed14720005" resource="acc002" /> In the United States, the incidence of LD requiring hospitalization has been estimated at 11.7 per 100,000 population, though the observed incidence rate is only 2.7 per 100,000.<xref ref="pubmed31225857" resource="acc054" /><xref ref="pubmed9250232" resource="acc001" /><xref ref="pubmed18354375" resource="acc022" /><xref ref="pubmed35195513" resource="acc080" /> Globally, incidence is 2.8 per 100,000, with rates higher in high income countries in temperate climates.<xref ref="pubmed35162928" resource="acc068" /></listitem>
+<listitem>There is a racial disparity in incidence, with Black people having twice that of white people. This correlates with social determinants of health such as poverty, housing characteristic, and educational level rather than genetics. <xref ref="pubmed34185609" resource="acc066" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>It is estimated that there are between 50,000 to 70,000 cases annually in the U.S. <xref ref="pubmed34185609" resource="acc066" /></listitem>
+<listitem>Prospective studies of CAP often find LD prevalences well over 10&#x0025;.<xref ref="pubmed10691195" resource="acc003" /><xref ref="pubmed16088740" resource="acc004" /><xref ref="pubmed10809032" resource="acc005" /></listitem>
+<listitem>LD is responsible for up to 47&#x0025; of nosocomial pneumonias in hospitals whose potable water supply has been colonized.<xref ref="pubmed1989793" resource="acc006" /><xref ref="pubmed10395143" resource="acc007" /></listitem>
+<listitem>Among cases of severe pneumonia, 4&#x0025; are due to <em>Legionella</em>.<xref ref="pubmed37041056" resource="acc069" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Caused by <em>Legionella</em> bacteria (&gt;40 known species).</listitem>
+<listitem><em>Legionella pneumophila</em> is the most common in the United States, with serotypes 1, 4, and 6 implicated in the majority of human infections. In New Zealand, <em>Legionella longbeachae</em> may be the dominant organism, representing up to 63&#x0025; of cases; clinical features appear similar to cases with <em>Legionella pneumophila</em>.<xref ref="pubmed31196812" resource="acc055" /><xref ref="pubmed19930271" resource="acc027" /></listitem>
+<listitem>Cooling towers were the most probable source of LD in 13&#x002F;14 community outbreaks in France.<xref ref="pubmed21109475" resource="acc028" /> Wastewater from industrial aeration ponds and a supermarket mist machine were probable infection sources in other studies.<xref ref="pubmed20949911" resource="acc029" /><xref ref="pubmed20392306" resource="acc030" /></listitem>
+<listitem>In an Italian surveillance study over an 8-year period, water sampling in 129 health care facilities and 533 community buildings was positive for significant <em>Legionella</em> species in 13.5&#x0025; of samples from health care facilities and 23.2&#x0025; of samples from the community. Ninety-seven cases of legionellosis were reported during that same time period: 88 of community origin and 9 nosocomial.<xref ref="pubmed21044294" resource="acc031" /></listitem>
+<listitem>A meta-analysis looking specifically at hospital water supplies identified over 40&#x0025; of 23,640 water samples harbored <em>Legionella</em>. Hot water supplies having higher rates than cold water lines, and rates were also higher in developed countries. <xref ref="pubmed37054892" resource="acc076" /></listitem>
+<listitem>Person-to-person transmission has been reported.<xref ref="pubmed26840151" resource="acc053" /></listitem>
+<listitem><em>Legionella</em> species may be part of the human microbiome; over 12&#x0025; of asymptomatic patients demonstrate <em>Legionella</em> as a component of their dental plaque biofilms.<xref ref="pubmed30062366" resource="acc056" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Environmental <em>Legionella</em> organisms reproduce within free-living amoeba; this increases their virulence.</listitem>
+<listitem>Initial entry into the host is primarily via inhalation of contaminated aerosols or aspiration of contaminated oropharyngeal secretions. The organism invades the tracheal epithelium, where it replicates, spreading to the alveoli. Organisms are phagocytized by alveolar macrophages, in which they replicate after blocking fusion with lysosomes. Leukocytoclasis follows replication, and the cycle repeats.</listitem>
+<listitem><em>Legionella</em> organisms produce hemolysin, cytotoxin, nucleases, and proteases, and can activate complement via a weak endotoxin.</listitem>
+<listitem>The lobar bronchopneumonia that results is a confluent fibrinopurulent type, with scant, serous (rather than purulent) plural fluid. There is relative sparing of the larger airways.</listitem>
+<listitem>Extrapulmonary manifestations, including myocarditis, left ventricular dysfunction, and potentially lethal arrhythmias, have been rarely reported.<xref ref="pubmed31385942" resource="acc057" /><xref ref="pubmed23923249" resource="acc037" /> Disseminated disease can also occur.<xref ref="pubmed30223775" resource="acc058" /></listitem>
+<listitem>Rarely, a slowly&#x002F;non-resolving pneumonia (infiltrates persisting &gt;30 days) develops. This primarily affects those significantly immunocompromised and can lead to empyema or lung abscess.<xref ref="pubmed31242293" resource="acc063" /><xref ref="pubmed38031167" resource="acc077" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Smoker</Risk_Name>
+<Risk_OR>5.6 (3.8-8.2)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cancer</Risk_Name>
+<Risk_OR>4.6 (1.7-13)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Driver by profession</Risk_Name>
+<Risk_OR>3.1 (1.2-7.7)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Travel abroad</Risk_Name>
+<Risk_OR>26 (16-44)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Advanced age (but risk lower if &gt;79 years)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Higher income in older individuals</Risk_Name>
+<Risk_OR>1.2 (1.1-1.4)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Immunocompromise</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Male</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed16707144" resource="acc026" /><xref ref="pubmed12792302" resource="acc047" /><xref ref="pubmed34835307" resource="acc079" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>As hospital-acquired LD is linked to the presence of <em>Legionella</em> in hospital drinking water, disinfecting the drinking water system can be an effective preventive measure using systemic (eg, copper-silver ionization, chlorine dioxide, ultraviolet light), focal (point-of-use filtration), and&#x002F;or short-term disinfection methods (superheat-and-flush with or without hyper chlorination).<xref ref="pubmed38824796" resource="acc078" /><xref ref="pubmed21460472" resource="acc032" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Consider LD in the differential diagnosis of patients with CAP. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed19930271" resource="acc027" /></listitem>
+<listitem>Urine antigen assay is highly specific and is the recommended initial test when LD is suspected. Obtain a sputum culture for confirmation. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed19930271" resource="acc027" /><xref ref="pubmed12668578" resource="acc009" /><xref ref="pubmed17173221" resource="acc011" /></listitem>
+<listitem>Use of a scoring system has greater sensitivity than laboratory testing and should guide initial empiric antibiotic therapy. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed30659551" resource="acc064" /><xref ref="pubmed30265290" resource="acc065" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Pneumonia is the predominant manifestation, with cephalgia, rigors, and myalgia.</listitem>
+<listitem>Patients most commonly present with cough (70&#x0025;-80&#x0025;), expectoration (40&#x0025;-50&#x0025;), dyspnea (40&#x0025;-60&#x0025;), thoracic pain (30&#x0025;-40&#x0025;), and hemoptysis (30&#x0025;-50&#x0025;).</listitem>
+<listitem>High fever with relative bradycardia, similar to typhoid fever, can also be seen.</listitem>
+<listitem>Additional extrapulmonary symptoms, present in about one-third of patients, are headache (20&#x0025;-35&#x0025;); confusion (30&#x0025;-35&#x0025;); and nausea, vomiting, and diarrhea (20&#x0025;-35&#x0025;).<xref ref="pubmed16388431" resource="acc024" /></listitem>
+<listitem>LD does not always present with severe pulmonary symptoms; it should be considered even in mild-to-moderate pneumonia when accompanied by extrapulmonary symptoms.<xref ref="pubmed27050889" resource="acc052" /></listitem>
+<listitem>Though originally thought to present a distinct clinical syndrome, prospective studies of LD show that it usually clinically and radiologically resembles pneumococcal or other bacterial pneumonias.<xref ref="pubmed26231463" resource="acc049" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Common nonspecific laboratory findings in LD include leukocytosis (50&#x0025;-75&#x0025;), elevated CPK (40&#x0025;-60&#x0025;), elevated AST and&#x002F;or ALT (30&#x0025;-50&#x0025;), and hyponatremia (15&#x0025;-55&#x0025;).<xref ref="pubmed16388431" resource="acc024" /></listitem>
+<listitem>The National Institute for Health and Clinical Excellence (NICE) recommend obtaining a C-reactive protein if, after clinical assessment, a diagnosis of pneumonia has not been made and it is not clear whether antibiotics should be prescribed. Antibiotic therapy should be offered if the concentration is greater than 100 mg&#x002F;L.</listitem>
+<listitem>Several identifying tests are available (see <xref ref="table002" />). The recommended test is a <em>Legionella</em> urine antigen assay. <xref ref="test484" resource="acc033" /> The <resourceLink href="https://www.cdc.gov/investigate-legionella/php/public-health-strategy/legionella-testing.html">CDC recommends</resourceLink> pairing the urine test with sputum culture.</listitem>
+<listitem>Other tests such as direct fluorescent antibody, polymerase chain reaction (PCR), culture, or serology are limited by poor sensitivity, cost, or inconvenience, although molecular-based techniques show promise for the future.<xref ref="pubmed17173221" resource="acc011" /><xref ref="pubmed23135949" resource="acc041" /></listitem>
+<listitem>Diagnosis of <em>Legionella</em> other than serogroup 1 is complicated by a lack of broader diagnostic tests.<xref ref="pubmed39452728" resource="acc082" /></listitem>
+<listitem>Studies of real-world testing strategies find low concordance with IDSA guidelines: 9.9&#x0025; in North America, and 21.5&#x0025; in Europe.<xref ref="pubmed30474036" resource="acc059" /></listitem>
+<listitem>X-ray may show infiltrates (single and unilateral in 70&#x0025;-80&#x0025;, multiple in 20&#x0025;-30&#x0025;, bilateral in 15&#x0025;-25&#x0025;), consolidation, and in the immunosuppressed even cavitation (4&#x0025;-8&#x0025; overall).<xref ref="pubmed16388431" resource="acc024" /> In some studies, pleural effusions (15&#x0025;-25&#x0025;) are significantly less common in LD than in other pneumonias.<xref ref="pubmed1989793" resource="acc006" /></listitem>
+<listitem>Radiologic resolution lags behind clinical improvement, so it is of less value than the latter in monitoring response.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>Two scoring systems introduced in studies published in 2019 showed superior sensitivity and specificity in distinguishing LD from other pneumonias than either the earlier Winthrop-University Hospital<xref ref="pubmed28250292" resource="acc051" /> or Fiumefreddo scoring systems. These are shown in Table 3.<xref ref="pubmed31281863" resource="acc060" /><xref ref="pubmed30935766" resource="acc061" /></listitem>
+<listitem>The CASH-75 scoring system identifies atypical pneumonias, including LD, with a sensitivity of 100&#x0025; and specificity of 35&#x0025; (Table 3).<xref ref="pubmed35505308" resource="acc070" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Establish the diagnosis of CAP or hospital-acquired pneumonia using clinical and radiologic examination.</listitem>
+<listitem>Consider treatment of LD in patients with CAP if there is epidemiologic evidence of LD, even in the absence of specific serologic or microbiologic confirmation.<xref ref="pubmed19930271" resource="acc027" /></listitem>
+<listitem>While the Infectious Diseases Society of America only recommends considering LD in patients with epidemiological risk factors (eg, current outbreak, travel history) or severe CAD,<xref ref="pubmed31573350" resource="acc067" /> it is prudent to keep LD in mind for all cases of CAP; epidemiologic clues may be absent.<xref ref="pubmed11591534" resource="acc010" /><xref ref="poem453" resource="acc020" /> NICE recommends that pneumococcal and legionella urinary antigen tests be considered for patients with moderate or high severity CAP.<xref ref="bib83_136_1748375289235" /> Early appropriate treatment decreases mortality.<xref ref="pubmed23266795" resource="acc040" /></listitem>
+<listitem>Clinical predictors for differentiating LD from non-<em>Legionella</em> pneumonia have been developed.<xref ref="pubmed19152698" resource="acc042" /><xref ref="pubmed24813862" resource="acc048" /><xref ref="pubmed24813862" resource="acc048" /><xref ref="pubmed30659551" resource="acc064" /><xref ref="pubmed30265290" resource="acc065" /> The TRIAGE Legionella Score &lt;2 has a 99.4&#x0025; NPV to rule out LD (<xref ref="table003" />). <xref ref="pubmed31281863" resource="acc060" /></listitem>
+<listitem>Investigate for <em>Legionella</em> specifically via <em>Legionella</em> urine antigen assay, with sputum culture, or PCR for confirmation.<xref ref="pubmed31573350" resource="acc067" /></listitem>
+<listitem>Determine whether patients with a diagnosis of CAP are at low, intermediate or high risk of death using a risk score such as the CRB65 score (see <strong>When to Refer</strong> below). Patients with low risk scores can be considered for home treatment, while higher-risk patients should be considered for hospital-based treatment.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Early initiation of appropriate antibiotic therapy is recommended when LD is clinically suspected. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12107671" resource="acc013" /><xref ref="pubmed19930271" resource="acc027" /></listitem>
+<listitem>Inpatient management is recommended for patients with severe disease. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed19930271" resource="acc027" /></listitem>
+<listitem>Fluoroquinolones are the current drugs of choice (<xref ref="table001" />); macrolides and tetracyclines are alternatives.<xref ref="pubmed16669926" resource="acc014" /><xref ref="pubmed26231463" resource="acc049" /><xref ref="pubmed37730517" resource="acc081" /> Beta lactams and aminoglycosides are ineffective. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Historically, the treatment of choice was a macrolide, specifically erythromycin (500 mg orally 4 times daily or 1000 mg IV 4 times daily) given for 14 to 21 days.</listitem>
+<listitem>Fluoroquinolones (eg, levofloxacin 500-750 mg orally or IV daily for 7-10 days) produce a clinically superior response to macrolides, with a greater reduction in mortality (2.1&#x0025; in quinolone vs 4.5&#x0025; in the macrolide group, NNT &#x003D; 40) in some studies;<xref ref="pubmed16669926" resource="acc014" /><xref ref="pubmed20202309" resource="acc043" /><xref ref="pubmed33268272" resource="acc073" /> however, recent outcome studies suggest equivalence.<xref ref="pubmed35905552" resource="acc075" /><xref ref="pubmed32296816" resource="acc074" /><xref ref="pubmed28267637" resource="acc050" /></listitem>
+<listitem>Rifampin (300-600 mg orally or IV twice daily for 5 days), doxycycline (200 mg oral or IV load, then 100 mg twice daily for 14-21 days), and trimethoprim&#x002F;sulfamethoxazole (160&#x002F;800 mg orally or IV twice daily for 14-21 days) have also shown efficacy against <em>Legionella</em>. The former should be reserved only for severe cases, those with significant comorbidities, or cases refractory to other treatment.<xref ref="pubmed21775694" resource="acc036" /></listitem>
+<listitem>Tetracycline has been shown to be effective in those with allergies to fluroquinolones and macrolides.<xref ref="pubmed31281760" resource="acc062" /></listitem>
+<listitem>Parenteral administration is preferred for hospitalized or immunocompromised patients.</listitem>
+<listitem>In a Spanish RCT of 177 hospitalized patients with CAP, empiric treatment versus targeted treatment after urine antigen testing produced similar outcomes. Of the patients in the targeted treatment arm who received oral antibiotic treatment according to the results of antigen tests (25&#x002F;88 patients), there was a statistically significant higher risk of clinical relapse as compared with the remaining population (12&#x0025; vs 3&#x0025;, <em>P</em> &#x003D; .04).<xref ref="pubmed19703825" resource="acc034" /></listitem>
+<listitem>Use of steroids in severe CAP decreased mortality in intensive care unit (ICU) patients;<xref ref="pubmed36942789" resource="acc071" /> an earlier meta-analysis of all CAP patients, not just those in the ICU did not find this difference,<xref ref="pubmed36628685" resource="acc072" /> suggesting the benefit of steroids in CAP may be limited to the most severe cases.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Consider inpatient treatment of CAP for those with severe disease, defined as a <xref ref="rule312" resource="acc019">CURB score</xref> or a <resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=NTk3">CRB-65 score</resourceLink> greater than 1.<xref ref="pubmed12728155" resource="acc018" /><xref ref="rule312" resource="acc019" /><xref ref="pubmed19930271" resource="acc027" /></listitem>
+<listitem>Consider ICU admission for those with any major criteria or more than 2 minor criteria from <xref ref="table004" />.<xref ref="pubmed19930271" resource="acc027" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Patients with <em>Legionella</em>-associated respiratory failure, for whom conventional ventilation is ineffective, may benefit from extracorporeal membrane oxygenation (ECMO).<xref ref="pubmed23644625" resource="acc038" /></listitem>
+<listitem>Extrapulmonary complications are rare but diverse and include neurologic (eg, brain abscess, chorea, encephalopathy, peripheral neuropathy), cardiovascular (eg, endocarditis, myocarditis, pericarditis), GI (eg, bowel abscess, peritonitis, pancreatitis), and genitourinary systems (acute renal failure, glomerulonephritis, pyelonephritis, renal abscess, neurogenic bladder). Their treatment does not differ from that for conditions due to other bacterial etiologies.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The presence of immunosuppression is an important factor in mortality. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9455504" resource="acc015" /></listitem>
+<listitem>Age &gt;65 years, hyponatremia (&lt;136 mEq&#x002F;L) and high Acute Physiology and Chronic Health Evaluation II (<resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=MjM0">APACHE II</resourceLink>) score &gt;15 or Charlson comorbidity index &#x2265;2 at admission are other independent prognostic factors for increased mortality. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9372662" resource="acc016" /><xref ref="pubmed20492639" resource="acc035" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>The time between exposure and the onset of illness for LD is 2 to 10 days; for Pontiac fever it is shorter, from a few hours to 2 days, with resolution in 2 to 5 days without treatment.</listitem>
+<listitem>Untreated, LD has a fatality rate of up to 20&#x0025; (may be 80&#x0025; in the immunosuppressed).</listitem>
+<listitem>Nonspecific, long-term symptoms are reported in most survivors.<xref ref="pubmed14986242" resource="acc021" /><xref ref="pubmed12511724" resource="acc025" /></listitem>
+<listitem>In rare instances, a non-resolving LD may develop in immunocompromised patients.<xref ref="pubmed31242293" resource="acc063" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>A case-fatality rate from 8.2&#x0025; to 13&#x0025; has been reported.<xref ref="pubmed16371692" resource="acc008" /><xref ref="pubmed21109475" resource="acc028" /> In a Danish historical cohort study, 30-day case fatality was 12.9&#x0025; for community-acquired and 33.3&#x0025; for hospital-acquired LD.<xref ref="pubmed20492639" resource="acc035" /></listitem>
+<listitem>Mortality rates of less than 5&#x0025; are associated with LD outbreaks in properly-treated individuals.</listitem>
+<listitem>General predictive scales such as <resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=MzEy">CURB65</resourceLink>, <resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=NTk3">CRB-65</resourceLink>, and <resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=NQ==">Pneumonia Severity Index (PSI)</resourceLink> are comparable in predicting mortality in CAP.<xref ref="pubmed20729231" resource="acc044" /> <resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=NjIy">SMART-COP</resourceLink><xref ref="pubmed18558884" resource="acc045" /> is valuable in identifying hospitalized patients most likely to require invasive ventilation. However, risk scores are not intended to replace clinical judgement.<xref ref="pubmed24210056" resource="acc046" /></listitem>
+<listitem>Other factors associated with poor prognosis in LD include severe disease (<resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=MjM0">APACHE II</resourceLink> score &gt;15), hyponatremia, advanced age, renal disease, malignancy, immunosuppression, nosocomial acquisition, infection with serogroup 6, and especially delayed initiation of appropriate antibiotic therapy.<xref ref="pubmed9455504" resource="acc015" /><xref ref="pubmed9372662" resource="acc016" /><xref ref="pubmed20492639" resource="acc035" /><xref ref="pubmed22005914" resource="acc039" /><xref ref="pubmed23266795" resource="acc040" /></listitem>
+<listitem>A review of case reports of LD during pregnancy found 7 of 12 patients required intubation, and a similar number reported perinatal fetal complications, including 3 deaths.<xref ref="pubmed30659551" resource="acc064" /></listitem>
+<listitem>Specific predictors of death in LD are shown in <xref ref="table005" />.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>No LD-specific follow-up beyond routine follow-up for CAP is indicated.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Smoking may be the single most important modifiable risk factor. Strongly encourage cessation.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9250232">
+<accessionId id="acc001" href="info:pmid/9250232" />
+<authors>Marston BJ, Plouffe JF, File TM, et al.</authors>
+<title>Incidence of community-acquired pneumonia requiring hospitalization. Results of a population-based active surveillance Study in Ohio. The Community-Based Pneumonia Incidence Study Group.</title>
+<source>Arch Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>157</volume>
+<pages>1709&#x2013;1718.</pages>
+</reference>
+<reference id="pubmed14720005">
+<accessionId id="acc002" href="info:pmid/14720005" />
+<authors>Sabria M, Campins M.</authors>
+<title>Legionnaires' disease: Update on epidemiology and management options.</title>
+<source>Am J Respir Med</source>
+<pubdate>2003</pubdate>
+<volume>2</volume>
+<pages>235&#x2013;243.</pages>
+</reference>
+<reference id="pubmed10691195">
+<accessionId id="acc003" href="info:pmid/10691195" />
+<authors>Sopena NM, Sabria ML, Pedro-Botet M, et al.</authors>
+<title>Prospective study of community-acquired pneumonia of bacterial etiology in adults.</title>
+<source>Eur J Clin Microbiol Infect Dis</source>
+<pubdate>1999</pubdate>
+<volume>18</volume>
+<pages>852&#x2013;858.</pages>
+</reference>
+<reference id="pubmed16088740">
+<accessionId id="acc004" href="info:pmid/16088740" />
+<authors>Vergis EN, Akbas E, Yu VL.</authors>
+<title>Legionella as a cause of severe pneumonia.</title>
+<source>Semin Respir Crit Care Med</source>
+<pubdate>2000</pubdate>
+<volume>21</volume>
+<pages>295&#x2013;304.</pages>
+</reference>
+<reference id="pubmed10809032">
+<accessionId id="acc005" href="info:pmid/10809032" />
+<authors>Vergis EN, Indorf A, File TM, et al.</authors>
+<title>Azithromycin vs cefuroxime plus erythromycin for empirical treatment of community-acquired pneumonia in hospitalized patients: a prospective, randomized, multicenter trial.</title>
+<source>Arch Intern Med</source>
+<pubdate>2000</pubdate>
+<volume>160</volume>
+<pages>1294&#x2013;300.</pages>
+</reference>
+<reference id="pubmed1989793">
+<accessionId id="acc006" href="info:pmid/1989793" />
+<authors>Roig J, Aguilar X, Ruiz J, et al.</authors>
+<title>Comparative study of Legionella pneumophila and other nosocomial-acquired pneumonias.</title>
+<source>Chest</source>
+<pubdate>1991</pubdate>
+<volume>99</volume>
+<pages>344&#x2013;350.</pages>
+</reference>
+<reference id="pubmed10395143">
+<accessionId id="acc007" href="info:pmid/10395143" />
+<authors>Fiore AE, Butler JC, Emori TG, et al.</authors>
+<title>A survey of methods used to detect nosocomial legionellosis among participants in the National Nosocomial Infections Surveillance System.</title>
+<source>Infect Control Hosp Epidemiol</source>
+<pubdate>1999</pubdate>
+<volume>20</volume>
+<pages>412&#x2013;416.</pages>
+</reference>
+<reference id="pubmed16371692">
+<accessionId id="acc008" href="info:pmid/16371692" />
+<authors>Ricketts KD, Joseph CA.</authors>
+<title>Legionnaires' disease in Europe 2003-2004.</title>
+<source>Euro Surveill</source>
+<pubdate>2005</pubdate>
+<volume>10</volume>
+<pages>256&#x2013;259.</pages>
+</reference>
+<reference id="pubmed12668578">
+<accessionId id="acc009" href="info:pmid/12668578" />
+<authors>Roig J, Rello J.</authors>
+<title>Legionnaires' disease: A rational approach to therapy.</title>
+<source>J Antimicrob Chemother</source>
+<pubdate>2003</pubdate>
+<volume>51</volume>
+<pages>1119&#x2013;1129.</pages>
+</reference>
+<reference id="pubmed11591534">
+<accessionId id="acc010" href="info:pmid/11591534" />
+<authors>Mulazimoglu L, Yu VL.</authors>
+<title>Can Legionnaires disease be diagnosed by clinical criteria? A critical review.</title>
+<source>Chest</source>
+<pubdate>2001</pubdate>
+<volume>120</volume>
+<pages>1049&#x2013;1053.</pages>
+</reference>
+<reference id="pubmed17173221">
+<accessionId id="acc011" href="info:pmid/17173221" />
+<authors>Burnsed LJ, Hicks LA, Smithee LM, et al.</authors>
+<title>A large, travel-associated outbreak of legionellosis among hotel guests: Utility of the urine antigen assay in confirming Pontiac fever.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>44</volume>
+<pages>222&#x2013;228.</pages>
+</reference>
+<reference id="pubmed15748096">
+<accessionId id="acc012" href="info:pmid/15748096" />
+<authors>Amsden GW.</authors>
+<title>Treatment of Legionnaires' disease.</title>
+<source>Drugs</source>
+<pubdate>2005</pubdate>
+<volume>65</volume>
+<pages>605&#x2013;614.</pages>
+</reference>
+<reference id="pubmed12107671">
+<accessionId id="acc013" href="info:pmid/12107671" />
+<authors>Gacouin A, Le Tulzo Y, Lavoue S, et al.</authors>
+<title>Severe pneumonia due to <em>Legionella pneumophila</em>: prognostic factors, impact of delayed appropriate antimicrobial therapy.</title>
+<source>Intensive Care Med</source>
+<pubdate>2002</pubdate>
+<volume>28</volume>
+<pages>686&#x2013;691.</pages>
+</reference>
+<reference id="pubmed16669926">
+<accessionId id="acc014" href="info:pmid/16669926" />
+<authors>Pedro-Botet ML, Yu VL.</authors>
+<title>Legionella: macrolides or quinolones?</title>
+<source>Clin Microbiol Infect</source>
+<pubdate>2006</pubdate>
+<volume>12</volume>
+<pages>25&#x2013;30.</pages>
+</reference>
+<reference id="pubmed9455504">
+<accessionId id="acc015" href="info:pmid/9455504" />
+<authors>Pedro-Botet ML, Sabria-Leal M, Sopena N, et al.</authors>
+<title>Role of immunosuppression in the evolution of Legionnaires' disease.</title>
+<source>Clin Infect Dis</source>
+<pubdate>1998</pubdate>
+<volume>26</volume>
+<pages>14&#x2013;19.</pages>
+</reference>
+<reference id="pubmed9372662">
+<accessionId id="acc016" href="info:pmid/9372662" />
+<authors>El-Ebiary M, Sarmiento X, Torres A, et al.</authors>
+<title>Prognostic factors of severe Legionella pneumonia requiring admission to ICU.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>1997</pubdate>
+<volume>156</volume>
+<pages>1467&#x2013;1472.</pages>
+</reference>
+<reference id="pubmed17181416">
+<accessionId id="acc017" href="info:pmid/17181416" />
+<authors>Garcia-Vidal C, Carratal&#x00E0; J.</authors>
+<title>Current clinical management of Legionnaires' disease.</title>
+<source>Expert Rev Anti Infect Ther</source>
+<pubdate>2006</pubdate>
+<volume>4</volume>
+<pages>995&#x2013;1004.</pages>
+</reference>
+<reference id="pubmed12728155">
+<accessionId id="acc018" href="info:pmid/12728155" />
+<authors>Lim W, van der Eerden M, Laing R, et al.</authors>
+<title>Defining community acquired pneumonia severity on presentation to hospital: An international derivation and validation study.</title>
+<source>Thorax</source>
+<pubdate>2003</pubdate>
+<volume>58</volume>
+<pages>377&#x2013;382.</pages>
+</reference>
+<reference id="rule312">
+<accessionId id="acc019" href="info:wiley/eep-rule/312" />
+<accessionId id="acc019b" href="info:pmid/15808136" />
+<authors>Aujesky D, Auble TE, Yealy DM, et al.</authors>
+<title>Prospective comparison of three validated prediction rules for prognosis in community-acquired pneumonia.</title>
+<source>Am J Med</source>
+<pubdate>2005</pubdate>
+<volume>118</volume>
+<pages>384&#x2013;392.</pages>
+</reference>
+<reference id="poem453">
+<accessionId id="acc020" href="info:wiley/eep-poem/453" />
+<accessionId id="acc020b" href="info:pmid/9596294" />
+<authors>Soipena N, Sabria-Leal M, Pedro-Botet ML, et al.</authors>
+<title>Comparative study of clinical presentation of Legionella pneumonia and other community-acquired pneumonias.</title>
+<source>Chest</source>
+<pubdate>1998</pubdate>
+<volume>113</volume>
+<pages>1195&#x2013;1200.</pages>
+</reference>
+<reference id="pubmed14986242">
+<accessionId id="acc021" href="info:pmid/14986242" />
+<authors>Jonkers RE, Lettinga KD, Pels-Rijken TH, et al.</authors>
+<title>Abnormal radiological findings and a decreased carbon monoxide transfer factor can persist long after the acute phase of Legionella pneumophila pneumonia.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2004</pubdate>
+<volume>38</volume>
+<pages>605&#x2013;611.</pages>
+</reference>
+<reference id="pubmed18354375">
+<accessionId id="acc022" href="info:pmid/18354375" />
+<authors>McNabb SJN, Jajosky RA, Hall-Baker PA, et al.</authors>
+<title>Summary of notifiable diseases&#x2014;United States, 2006.</title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<pubdate>2008</pubdate>
+<volume>55</volume>
+<pages>1&#x2013;94.</pages>
+</reference>
+<reference id="pubmed3060246">
+<accessionId id="acc023" href="info:pmid/3060246" />
+<authors>Winn WC Jr.</authors>
+<title>Legionnaires disease: Historical perspective.</title>
+<source>Clin Microbiol Rev</source>
+<pubdate>1988</pubdate>
+<volume>1</volume>
+<pages>60&#x2013;81.</pages>
+</reference>
+<reference id="pubmed16388431">
+<accessionId id="acc024" href="info:pmid/16388431" />
+<authors>Pedro-Botet ML, Sabria M.</authors>
+<title>Legionellosis.</title>
+<source>Semin Respir Crit Care Med</source>
+<pubdate>2005</pubdate>
+<volume>26</volume>
+<pages>625&#x2013;634.</pages>
+</reference>
+<reference id="pubmed12511724">
+<accessionId id="acc025" href="info:pmid/12511724" />
+<authors>Lettinga KD, Weijer S, Speelman P, et al.</authors>
+<title>Reduced interferon-gamma release in patients recovered from legionnaires' disease.</title>
+<source>Thorax</source>
+<pubdate>2003</pubdate>
+<volume>58</volume>
+<pages>63&#x2013;67.</pages>
+</reference>
+<reference id="pubmed16707144">
+<accessionId id="acc026" href="info:pmid/16707144" />
+<authors>Den Boer JW, Nijhof J, Friesema I.</authors>
+<title>Risk factors for sporadic community-acquired legionnaires' disease. A 3-year national case-control study.</title>
+<source>Public Health</source>
+<pubdate>2006</pubdate>
+<volume>120</volume>
+<pages>566&#x2013;571.</pages>
+</reference>
+<reference id="pubmed19930271">
+<accessionId id="acc027" href="info:pmid/19930271" />
+<authors>Amodeo MR, Murdoch DR, Pithie AD.</authors>
+<title>Legionnaires' disease caused by Legionella longbeachae and Legionella pneumophila: Comparison of clinical features, host-related risk factors, and outcomes.</title>
+<source>Clin Microbiol Infec</source>
+<pubdate>2010</pubdate>
+<volume>16</volume>
+<pages>1405&#x2013;1407.</pages>
+</reference>
+<reference id="pubmed21109475">
+<accessionId id="acc028" href="info:pmid/21109475" />
+<authors>Campese C, Bitar D, Jarraud S, et al.</authors>
+<title>Progress in the surveillance and control of Legionella infection in France, 1998-2008.</title>
+<source>Int J Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>15</volume>
+<pages>e30&#x2013;e37.</pages>
+</reference>
+<reference id="pubmed20949911">
+<accessionId id="acc029" href="info:pmid/20949911" />
+<authors>Olsen JS, Aarskaug T, Thrane I, et al.</authors>
+<title>Alternative routes for dissemination of Legionella pneumophila causing three outbreaks in Norway.</title>
+<source>Environ Sci Technol</source>
+<pubdate>2010</pubdate>
+<volume>44</volume>
+<pages>8712&#x2013;8717.</pages>
+</reference>
+<reference id="pubmed20392306">
+<accessionId id="acc030" href="info:pmid/20392306" />
+<authors>Barrabeig I, Rovira A, Garcia M, et al.</authors>
+<title>Outbreak of Legionnaires' disease associated with a supermarket mist machine.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2010</pubdate>
+<volume>138</volume>
+<pages>1823&#x2013;1828.</pages>
+</reference>
+<reference id="pubmed21044294">
+<accessionId id="acc031" href="info:pmid/21044294" />
+<authors>Napoli C, Fasano F, Iatta R, Barbuti G, Cuna T, Montagna MT.</authors>
+<title>Legionella spp. and legionellosis in southeastern Italy: Disease epidemiology and environmental surveillance in community and health care facilities.</title>
+<source>BMC Public Health</source>
+<pubdate>2010</pubdate>
+<volume>10</volume>
+<pages>660.</pages>
+</reference>
+<reference id="pubmed21460472">
+<accessionId id="acc032" href="info:pmid/21460472" />
+<authors>Lin YE, Stout JE, Yu VL.</authors>
+<title>Controlling Legionella in hospital drinking water: An evidence-based review of disinfection methods.</title>
+<source>Infect Control Hosp Epidemiol</source>
+<pubdate>2011</pubdate>
+<volume>32</volume>
+<pages>166&#x2013;173.</pages>
+</reference>
+<reference id="test484">
+<accessionId id="acc033" href="info:wiley/eep-dx/484" />
+<accessionId id="acc033b" href="info:pmid/19318671" />
+<authors>Shimada T, Noguchi Y, Jackson JL et al.</authors>
+<title>Systematic review and metaanalysis: Urinary antigen tests for Legionellosis.</title>
+<source>Chest</source>
+<pubdate>2009</pubdate>
+<volume>136</volume>
+<pages>1576&#x2013;1585.</pages>
+</reference>
+<reference id="pubmed19703825">
+<accessionId id="acc034" href="info:pmid/19703825" />
+<authors>Falguera M, Ruiz-Gonz&#x00E1;lez A, Schoenenberger JA, Touz&#x00F3;n C, G&#x00E1;zquez I, Galindo C, Porcel JM.</authors>
+<title>Prospective, randomised study to compare empirical treatment versus targeted treatment on the basis of the urine antigen results in hospitalised patients with community-acquired pneumonia.</title>
+<source>Thorax</source>
+<pubdate>2010</pubdate>
+<volume>65</volume>
+<pages>101&#x2013;106.</pages>
+</reference>
+<reference id="pubmed20492639">
+<accessionId id="acc035" href="info:pmid/20492639" />
+<authors>Jespersen S, S&#x00F8;gaard OS, Sch&#x00F8;nheyder HC, Fine MJ, Ostergaard L.</authors>
+<title>Clinical features and predictors of mortality in admitted patients with community- and hospital-acquired legionellosis: A Danish historical cohort study.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2010</pubdate>
+<volume>10</volume>
+<pages>124.</pages>
+</reference>
+<reference id="pubmed21775694">
+<accessionId id="acc036" href="info:pmid/21775694" />
+<authors>Varner TR, Bookstaver PB, Rudisill CN, Albrecht H.</authors>
+<title>Role of rifampin-based combination therapy for severe community-acquired Legionella pneumophila pneumonia.</title>
+<source>Ann Pharmacother</source>
+<pubdate>2011</pubdate>
+<volume>45</volume>
+<pages>967&#x2013;976.</pages>
+</reference>
+<reference id="pubmed23923249">
+<accessionId id="acc037" href="info:pmid/23923249" />
+<authors>Gowani SA, Kumar A, Arora S, Lahiri B.</authors>
+<title>Legionella pneumonia complicated by myocarditis and torsades de pointes: A case report and review of literature.</title>
+<source>Conn Med</source>
+<pubdate>2013 Jun-Jul</pubdate>
+<volume>77</volume>
+<pages>331&#x2013;334.</pages>
+</reference>
+<reference id="pubmed23644625">
+<accessionId id="acc038" href="info:pmid/23644625" />
+<authors>Noah MA, Ramachandra G, Hickey MM, Jenkins DR, Harvey CJ, Westrope CA, Firmin RK, Peek GJ.</authors>
+<title>Extracorporeal membrane oxygenation and severe acute respiratory distress secondary to Legionella: 10 year experience.</title>
+<source>ASAIO J</source>
+<pubdate>2013 May-Jun</pubdate>
+<volume>59</volume>
+<pages>328&#x2013;330.</pages>
+</reference>
+<reference id="pubmed22005914">
+<accessionId id="acc039" href="info:pmid/22005914" />
+<authors>Chidiac C, Che D, Pires-Cronenberger S, Jarraud S, Camp&#x00E8;se C, Bissery A, Weinbreck P, Brun-Buisson C, Sollet JP, Ecochard R, Desenclos JC, Etienne J, Vanhems P.</authors>
+<title>Factors associated with hospital mortality in community-acquired legionellosis in France.</title>
+<source>Eur Respir J</source>
+<pubdate>2012</pubdate>
+<volume>39</volume>
+<pages>963&#x2013;970.</pages>
+</reference>
+<reference id="pubmed23266795">
+<accessionId id="acc040" href="info:pmid/23266795" />
+<authors>Viasus D, Di Yacovo S, Garcia-Vidal C, Verdaguer R, Manresa F, Dorca J, Gudiol F, Carratal&#x00E0; J.</authors>
+<title>Community-acquired Legionella pneumophila pneumonia: A single-center experience with 214 hospitalized sporadic cases over 15 years.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2013</pubdate>
+<volume>92</volume>
+<pages>51&#x2013;60.</pages>
+</reference>
+<reference id="pubmed23135949">
+<accessionId id="acc041" href="info:pmid/23135949" />
+<authors>Benitez AJ, Winchell JM.</authors>
+<title>Clinical application of a multiplex real-time PCR assay for simultaneous detection of Legionella species, Legionella pneumophila, and Legionella pneumophila serogroup 1.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2013</pubdate>
+<volume>51</volume>
+<pages>348&#x2013;351.</pages>
+</reference>
+<reference id="pubmed19152698">
+<accessionId id="acc042" href="info:pmid/19152698" />
+<authors>Fiumefreddo R, Zaborsky R, Haeuptle J, Christ-Crain M, Trampuz A, Steffen I, Frei R, M&#x00FC;ller B, Schuetz P.</authors>
+<title>Clinical predictors for Legionella in patients presenting with community-acquired pneumonia to the emergency department.</title>
+<source>BMC Pulm Med</source>
+<pubdate>2009</pubdate>
+<volume>9</volume>
+<pages>4.</pages>
+</reference>
+<reference id="pubmed20202309">
+<accessionId id="acc043" href="info:pmid/20202309" />
+<authors>Griffin AT, Peyrani P, Wiemken T, Arnold F.</authors>
+<title>Macrolides versus quinolones in Legionella pneumonia: Results from the Community-Acquired Pneumonia Organization international study.</title>
+<source>Int J Tuberc Lung Dis</source>
+<pubdate>2010</pubdate>
+<volume>14</volume>
+<pages>495&#x2013;499.</pages>
+</reference>
+<reference id="pubmed20729231">
+<accessionId id="acc044" href="info:pmid/20729231" />
+<authors>Chalmers JD, Singanayagam A, Akram AR, Mandal P, Short PM, Choudhury G, Wood V, Hill AT.</authors>
+<title>Severity assessment tools for predicting mortality in hospitalised patients with community-acquired pneumonia. Systematic review and meta-analysis.</title>
+<source>Thorax</source>
+<pubdate>2010</pubdate>
+<volume>65</volume>
+<pages>878&#x2013;883.</pages>
+</reference>
+<reference id="pubmed18558884">
+<accessionId id="acc045" href="info:pmid/18558884" />
+<authors>Charles PG, Wolfe R, Whitby M, Fine MJ, Fuller AJ, Stirling R, Wright AA, Ramirez JA, Christiansen KJ, Waterer GW, Pierce RJ, Armstrong JG, Korman TM, Holmes P, Obrosky DS, Peyrani P, Johnson B, Hooy M, Grayson ML.</authors>
+<title>SMART-COP: A tool for predicting the need for intensive respiratory or vasopressor support in community-acquired pneumonia.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>47</volume>
+<pages>375&#x2013;384.</pages>
+</reference>
+<reference id="pubmed24210056">
+<accessionId id="acc046" href="info:pmid/24210056" />
+<authors>Froes F.</authors>
+<title>PSI, CURB-65, SMART-COP or SCAP? And the winner is ... SMART DOCTORS.</title>
+<source>Rev Port Pneumol</source>
+<pubdate>2013 Nov-Dec</pubdate>
+<volume>19</volume>
+<pages>243&#x2013;244.</pages>
+</reference>
+<reference id="pubmed12792302">
+<accessionId id="acc047" href="info:pmid/12792302" />
+<authors>Fern&#x00E1;ndez-Sab&#x00E9; N, Carratal&#x00E0; J, Ros&#x00F3;n B, Dorca J, Verdaguer R, Manresa F, Gudiol F.</authors>
+<title>Community-acquired pneumonia in very elderly patients: Causative organisms, clinical characteristics, and outcomes.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2003</pubdate>
+<volume>82</volume>
+<pages>159&#x2013;169.</pages>
+</reference>
+<reference id="pubmed24813862">
+<accessionId id="acc048" href="info:pmid/24813862" />
+<authors>Haubitz S, Hitz F, Graedel L, Batschwaroff M, Wiemken TL, Peyrani P, Ramirez JA, Fux CA, Mueller B, Schuetz P.</authors>
+<title>Ruling out Legionella in community-acquired pneumonia.</title>
+<source>Am J Med</source>
+<pubdate>2014</pubdate>
+<volume>127</volume>
+<pages>1010.e11&#x2013;1010.e19.</pages>
+</reference>
+<reference id="pubmed26231463">
+<accessionId id="acc049" href="info:pmid/26231463" />
+<authors>Cunha BA, Burillo A, Bouza E.</authors>
+<title>Legionnaires' disease.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>376&#x2013;385.</pages>
+</reference>
+<reference id="pubmed28267637">
+<accessionId id="acc050" href="info:pmid/28267637" />
+<authors>Garcia-Vidal C, Sanchez-Rodriguez I, Simonetti AF, Burgos J, Viasus D, Martin MT, Falco V, Carratal&#x00E0; J.</authors>
+<title>Levofloxacin versus azithromycin for treating legionella pneumonia: A propensity score analysis.</title>
+<source>Clin Microbiol Infect</source>
+<pubdate>2017</pubdate>
+<pages />
+</reference>
+<reference id="pubmed28250292">
+<accessionId id="acc051" href="info:pmid/28250292" />
+<authors>Yamakuchi H, Hamada Y, Urakami T, Aoki Y.</authors>
+<title>Discrimination between Legionnaires' disease and Pneumococcal pneumonia based on the clinical and laboratory features: A quantitative approach using the modified Winthrop-University Hospital Weighted Point System.</title>
+<source>Intern Med</source>
+<pubdate>2017</pubdate>
+<volume>56</volume>
+<pages>487&#x2013;491.</pages>
+</reference>
+<reference id="pubmed27050889">
+<accessionId id="acc052" href="info:pmid/27050889" />
+<authors>Ueda A, Oki M, Yanagi H, Ozawa H, Takagi A.</authors>
+<title>Clinical characteristics of Legionella pneumonia diagnosed with Legionella Urinary Antigen Test.</title>
+<source>Tokai J Exp Clin Med</source>
+<pubdate>2016</pubdate>
+<volume>41</volume>
+<pages>8&#x2013;13.</pages>
+</reference>
+<reference id="pubmed26840151">
+<accessionId id="acc053" href="info:pmid/26840151" />
+<authors>Correia AM, Ferreira JS, Borges V, Nunes A, Gomes B, Capucho R, Gon&#x00E7;alves J, Antunes DM, Almeida S, Mendes A, Guerreiro M, Sampaio DA, Vieira L, Machado J, Sim&#x00F5;es MJ, Gon&#x00E7;alves P, Gomes JP.</authors>
+<title>Probable person-to-person transmission of Legionnaires' disease.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>497&#x2013;498.</pages>
+</reference>
+<reference id="pubmed31225857">
+<accessionId id="acc054" href="info:pmid/31225857" />
+<authors>Cassell K, Gacek P, Rabatsky-Ehr T, Petit S, Cartter M, Weinberger DM.</authors>
+<title>Estimating the true burden of legionnaires' disease.</title>
+<source>Am J Epidemiol</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="pubmed31196812">
+<accessionId id="acc055" href="info:pmid/31196812" />
+<authors>Priest PC, Slow S, Chambers ST, Cameron CM, Balm MN, Beale MW, Blackmore TK, Burns AD, Drinkovi&#x0107; D, Elvy JA, Everts RJ, Hammer DA, Huggan PJ, Mansell CJ, Raeder VM, Roberts SA, Robinson MC, Sathyendran V, Taylor SL, Thompson AW, Ussher JE, van der Linden AJ, Williams MJ, Podmore RG, Anderson TP, Barratt K, Mitchell JL, Harte DJ, Hope VT, Murdoch DR.</authors>
+<title>The burden of Legionnaires' disease in New Zealand (LegiNZ): A national surveillance study.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>770&#x2013;777.</pages>
+</reference>
+<reference id="pubmed30062366">
+<accessionId id="acc056" href="info:pmid/30062366" />
+<authors>Tesauro M, Petrelli F, Lizioli A, Pregliasco F, Masia C, Cossellu G, Farronato G, Consonni M, Sisto F.</authors>
+<title>Presence of Legionella spp. in human dental plaque.</title>
+<source>Ann Ig</source>
+<pubdate>2018 Sep-Oct</pubdate>
+<volume>30</volume>
+<pages>387&#x2013;390.</pages>
+</reference>
+<reference id="pubmed31385942">
+<accessionId id="acc057" href="info:pmid/31385942" />
+<authors>Elikowski W, Ma&#x0142;ek-Elikowska M, Greberska W, Ferta&#x0142;a N, Zawodna M, Marchlewska J, Dudziak J.</authors>
+<title>Severe transient left ventricular dysfunction in a patient with Legionella pneumophila pneumonia.</title>
+<source>Pol Merkur Lekarski</source>
+<pubdate>2019</pubdate>
+<volume>47</volume>
+<pages>19&#x2013;24.</pages>
+</reference>
+<reference id="pubmed30223775">
+<accessionId id="acc058" href="info:pmid/30223775" />
+<authors>Chitasombat MN, Ratchatanawin N, Visessiri Y.</authors>
+<title>Disseminated extrapulmonary Legionella pneumophila infection presenting with panniculitis: Case report and literature review.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2018</pubdate>
+<volume>18</volume>
+<pages>467.</pages>
+</reference>
+<reference id="pubmed30474036">
+<accessionId id="acc059" href="info:pmid/30474036" />
+<authors>Carugati M, Aliberti S, Reyes LF, Franco Sadud R, Irfan M, Prat C, Soni NJ, Faverio P, Gori A, Blasi F, Restrepo MI.</authors>
+<title>Microbiological testing of adults hospitalised with community-acquired pneumonia: An international study.</title>
+<source>ERJ Open Res</source>
+<pubdate>2018</pubdate>
+<volume>4</volume>
+<pages />
+</reference>
+<reference id="pubmed31281863">
+<accessionId id="acc060" href="info:pmid/31281863" />
+<authors>Bolliger R, Neeser O, Merker M, Vukajlovic T, Felder L, Fiumefreddo R, Haubitz S, Koch D, Hammerer-Lercher A, Ottiger C, Fux CA, Mueller B, Schuetz P.</authors>
+<title>Validation of a prediction rule for <em>Legionella</em> pneumonia in emergency department patients.</title>
+<source>Open Forum Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>6</volume>
+<pages>ofz268.</pages>
+</reference>
+<reference id="pubmed30935766">
+<accessionId id="acc061" href="info:pmid/30935766" />
+<authors>Miyashita N, Horita N, Higa F, Aoki Y, Kikuchi T, Seki M, Tateda K, Maki N, Uchino K, Ogasawara K, Kiyota H, Watanabe A.</authors>
+<title>Validation of a diagnostic score model for the prediction of Legionella pneumophila pneumonia.</title>
+<source>J Infect Chemother</source>
+<pubdate>2019</pubdate>
+<volume>25</volume>
+<pages>407&#x2013;412.</pages>
+</reference>
+<reference id="pubmed31281760">
+<accessionId id="acc062" href="info:pmid/31281760" />
+<authors>Arget M, Kosar J, Suen B, Peermohamed S.</authors>
+<title>Successful treatment of Legionnaires' disease with tigecycline in an immunocompromised man with a legion of antibiotic allergies.</title>
+<source>Cureus</source>
+<pubdate>2019</pubdate>
+<volume>11</volume>
+<pages>e4577.</pages>
+</reference>
+<reference id="pubmed31242293">
+<accessionId id="acc063" href="info:pmid/31242293" />
+<authors>Pouderoux C, Ginevra C, Descours G, Ranc AG, Beraud L, Boisset S, Magand N, Conrad A, Bergeron-Lafaurie A, Jarraud S, Ader F.</authors>
+<title>Slowly or non-resolving Legionnaires' disease: Case series and literature review.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="pubmed30659551">
+<accessionId id="acc064" href="info:pmid/30659551" />
+<authors>Kleinberg KA, Antony SJ.</authors>
+<title>Legionella pneumonia in pregnancy: A case report and review of the literature.</title>
+<source>Infect Disord Drug Targets</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="pubmed30265290">
+<accessionId id="acc065" href="info:pmid/30265290" />
+<authors>Bellew S, Grijalva CG, Williams DJ, Anderson EJ, Wunderink RG, Zhu Y, Waterer GW, Bramley AM, Jain S, Edwards KM, Self WH.</authors>
+<title>Pneumococcal and Legionella urinary antigen tests in community-acquired pneumonia: Prospective evaluation of indications for testing.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>68</volume>
+<pages>2026&#x2013;2033.</pages>
+</reference>
+<reference id="pubmed34185609">
+<accessionId id="acc066" href="info:pmid/34185609" />
+<authors>Hunter CM, Salandy SW, Smith JC, Edens C, Hubbard B.</authors>
+<title>Racial disparities in incidence of Legionnaires' disease and social determinants of health: A narrative review.</title>
+<source>Public Health Rep</source>
+<pubdate>2021</pubdate>
+<pages>333549211026781.</pages>
+</reference>
+<reference id="pubmed31573350">
+<accessionId id="acc067" href="info:pmid/31573350" />
+<authors>Metlay JP, Waterer GW, Long AC, Anzueto A, Brozek J, Crothers K, Cooley LA, Dean NC, Fine MJ, Flanders SA, Griffin MR, Metersky ML, Musher DM, Restrepo MI, Whitney CG.</authors>
+<title>Diagnosis and treatment of adults with community-acquired pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2019</pubdate>
+<volume>200</volume>
+<pages>e45&#x2013;e67.</pages>
+</reference>
+<reference id="pubmed35162928">
+<accessionId id="acc068" href="info:pmid/35162928" />
+<authors>Graham FF, Finn N, White P, Hales S, Baker MG.</authors>
+<title>Global Perspective of <em>Legionella</em> Infection in Community-Acquired Pneumonia: A Systematic Review and Meta-Analysis of Observational Studies.</title>
+<source>Int J Environ Res Public Health</source>
+<pubdate>2022</pubdate>
+<volume>19</volume>
+<pages />
+</reference>
+<reference id="pubmed37041056">
+<accessionId id="acc069" href="info:pmid/37041056" />
+<authors>Wang S, Tang J, Tan Y, Song Z, Qin L.</authors>
+<title>Prevalence of atypical pathogens in patients with severe pneumonia: a systematic review and meta-analysis.</title>
+<source>BMJ Open</source>
+<pubdate>2023</pubdate>
+<volume>13</volume>
+<pages>e066721.</pages>
+</reference>
+<reference id="pubmed35505308">
+<accessionId id="acc070" href="info:pmid/35505308" />
+<authors>Chauffard A, Bridevaux PO, Carballo S, Prendki V, Reny JL, Stirnemann J, Garin N.</authors>
+<title>Accuracy of a score predicting the presence of an atypical pathogen in hospitalized patients with moderately severe community-acquired pneumonia.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>22</volume>
+<pages>424.</pages>
+</reference>
+<reference id="pubmed36942789">
+<accessionId id="acc071" href="info:pmid/36942789" />
+<authors>Dequin PF, Meziani F, Quenot JP, Kamel T, Ricard JD, Badie J, Reignier J, Heming N, Plantef&#x00E8;ve G, Souweine B, Voiriot G, Colin G, Frat JP , Mira JP, Barbarot N, Fran&#x00E7;ois B, Louis G, Gibot S, Guitton C, Giacardi C, Hraiech S, Vimeux S, L'Her E, Faure H, Herbrecht JE, Bouisse C, Joret A, Terzi N, Gacouin A, Quentin C, Jourdain M, Leclerc M, Coffre C, Bourgoin H, Lengell&#x00E9; C, Caille-F&#x00E9;n&#x00E9;rol C, Giraudeau B, Le Gouge A, CRICS-TriGGERSep Network.</authors>
+<title>Hydrocortisone in Severe Community-Acquired Pneumonia.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>1931&#x2013;1941.</pages>
+</reference>
+<reference id="pubmed36628685">
+<accessionId id="acc072" href="info:pmid/36628685" />
+<authors>Pitre T, Rochwerg B, Zeraatkar D.</authors>
+<title>Corticosteroids in Community-Acquired Pneumonia: In or Out?</title>
+<source>Chest</source>
+<pubdate>2023</pubdate>
+<volume>163</volume>
+<pages>e47&#x2013;e48.</pages>
+</reference>
+<reference id="pubmed33268272">
+<accessionId id="acc073" href="info:pmid/33268272" />
+<authors>Kato H, Hagihara M, Asai N, Shibata Y, Koizumi Y, Yamagishi Y, Mikamo H.</authors>
+<title>Meta-analysis of fluoroquinolones versus macrolides for treatment of legionella pneumonia.</title>
+<source>J Infect Chemother</source>
+<pubdate>2021</pubdate>
+<volume>27</volume>
+<pages>424&#x2013;433.</pages>
+</reference>
+<reference id="pubmed32296816">
+<accessionId id="acc074" href="info:pmid/32296816" />
+<authors>Jasper AS, Musuuza JS, Tischendorf JS, Stevens VW, Gamage SD, Osman F, Safdar N.</authors>
+<title>Are Fluoroquinolones or Macrolides Better for Treating Legionella Pneumonia? A Systematic Review and Meta-analysis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2021</pubdate>
+<volume>72</volume>
+<pages>1979&#x2013;1989.</pages>
+</reference>
+<reference id="pubmed35905552">
+<accessionId id="acc075" href="info:pmid/35905552" />
+<authors>Basilim A, Wali H, Rabaan AA, Eljaaly K.</authors>
+<title>Efficacy of empiric macrolides versus fluoroquinolones in community-acquired pneumonia associated with atypical bacteria: A meta-analysis.</title>
+<source>Respir Med Res</source>
+<pubdate>2022</pubdate>
+<volume>82</volume>
+<pages>100931.</pages>
+</reference>
+<reference id="pubmed37054892">
+<accessionId id="acc076" href="info:pmid/37054892" />
+<authors>Fang Z, Zhou X, Liao H, Xu H.</authors>
+<title>A meta-analysis of Legionella pneumophila contamination in hospital water systems.</title>
+<source>Am J Infect Control</source>
+<pubdate>2023</pubdate>
+<volume>51</volume>
+<pages>1250&#x2013;1262.</pages>
+</reference>
+<reference id="pubmed38031167">
+<accessionId id="acc077" href="info:pmid/38031167" />
+<authors>Moretti M, De Boek L, Ilsen B, Demuyser T, Vanderhelst E.</authors>
+<title>Therapeutical strategies in cavitary legionnaires' disease, two cases from the field and a systematic review.</title>
+<source>Ann Clin Microbiol Antimicrob</source>
+<pubdate>2023</pubdate>
+<volume>22</volume>
+<pages>105.</pages>
+</reference>
+<reference id="pubmed38824796">
+<accessionId id="acc078" href="info:pmid/38824796" />
+<authors>Xi H, Ross KE, Hinds J, Molino PJ, Whiley H.</authors>
+<title>Efficacy of chlorine-based disinfectants to control Legionella within premise plumbing systems.</title>
+<source>Water Res</source>
+<pubdate>2024</pubdate>
+<volume>259</volume>
+<pages>121794.</pages>
+</reference>
+<reference id="pubmed34835307">
+<accessionId id="acc079" href="info:pmid/34835307" />
+<authors>Ricc&#x00F2; M , Peruzzi S, Ranzieri S , Giuri PG .</authors>
+<title>Epidemiology of Legionnaires' Disease in Italy, 2004-2019: A Summary of Available Evidence.</title>
+<source>Microorganisms</source>
+<pubdate>2021</pubdate>
+<volume>9</volume>
+<pages />
+</reference>
+<reference id="pubmed35195513">
+<accessionId id="acc080" href="info:pmid/35195513" />
+<authors>Barskey AE, Derado G, Edens C.</authors>
+<title>Rising Incidence of Legionnaires' Disease and Associated Epidemiologic Patterns, United States, 1992-2018.</title>
+<source>Emerg Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>527&#x2013;538.</pages>
+</reference>
+<reference id="pubmed37730517">
+<accessionId id="acc081" href="info:pmid/37730517" />
+<authors>Ruiz-Spinelli A, Rello J.</authors>
+<title>Legionella pneumonia in hospitalized adults with respiratory failure: Quinolones or macrolides?</title>
+<source>Eur J Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>120</volume>
+<pages>62&#x2013;68.</pages>
+</reference>
+<reference id="pubmed39452728">
+<accessionId id="acc082" href="info:pmid/39452728" />
+<authors>Ha R, Heilmann A, Lother SA, Turenne C, Alexander D, Keynan Y , Rueda ZV .</authors>
+<title>The Adequacy of Current Legionnaires' Disease Diagnostic Practices in Capturing the Epidemiology of Clinically Relevant <em>Legionella</em>: A Scoping Review.</title>
+<source>Pathogens</source>
+<pubdate>2024</pubdate>
+<volume>13</volume>
+<pages />
+</reference>
+<reference id="bib83_136_1748375289235">
+<citation />
+<url />
+<organization>NICE</organization>
+<longtitle>Pneumonia in adults: diagnosis and management</longtitle>
+<title>Clinical guideline; CG191</title>
+<dateguideline>2014</dateguideline>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Treatment of Community-Acquired Pneumonia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Clinical Situation</th>
+<th align="left" colspan="1">Recommended Antibiotic Options</th>
+</tr>
+<tr>
+<th align="left" colspan="1">Outpatient</th>
+<th align="left" colspan="1">&#x00A0;</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Otherwise healthy</td>
+<td align="left" colspan="1">Amoxicillin OR doycycline OR macrolide If &lt;25&#x0025; probability of high-level (MIC &gt;16 mcg&#x002F;mL) macrolide-resistant <em>S. pneumoniae</em> locally, otherwise consider antibiotics for outpatients with comorbidities (see below)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">With comorbidities<sup>a</sup></td>
+<td align="left" colspan="1">Respiratory fluoroquinolone monotherapy (daily: moxifloxacin 400 mg, levofloxacin 750 mg, gemifloxacin 320 mg) OR combination therapy with amoxicillin&#x002F;clavulanate OR cephalosporin plus macrolide</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Inpatient</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Non-severe CAP and no risk factors for MRSA or pseudomonas</td>
+<td align="left" colspan="1">Respiratory fluoroquinolone (moxifloxacin, gemifloxacin, levofloxacin) OR Beta-lactam (ampicillin&#x002F;sulbactam, cefotaxime, ceftriaxone, or ceftaroline) plus macrolide</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Severe</td>
+<td align="left" colspan="1">Beta-lactam (ampicillin&#x002F;sulbactam, cefotaxime, ceftriaxone, or ceftaroline) plus either macrolide or a respiratory fluoroquinolone (if penicillin allergy present, use a respiratory fluoroquinolone plus aztreonam)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pseudomonas concern</td>
+<td align="left" colspan="1">Add coverage with piperacillin&#x002F;tazobactam, cefepime, ceftazidime, imipenem or meropenem until culture results confirm need for continued therapy or allow discontinuation</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Community-acquired methicillin-resistant <em>S. aureus</em> (CA-MRSA) concern</td>
+<td align="left" colspan="1">Add vancomycin or linezolid to any of the above regimens until PCR results confirm need for continued therapy or allow discontinuation</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Influenza A diagnosis</td>
+<td align="left" colspan="1">Consider oseltamivir or zanamivir (within 48 hours of symptom onset)</td>
+</tr>
+</table>
+<sup>a</sup> Chronic heart, lung, liver, or renal disease; diabetes mellitus; alcoholism; malignancies; asplenia; immunosuppressing conditions; or drugs. Adapted from Metlay JP, Waterer GW, Long AC, Anzueto A, Brozek J, Crothers K, Cooley LA, Dean NC, Fine MJ, Flanders SA, Griffin MR, Metersky ML, Musher DM, Restrepo MI, Whitney CG. Diagnosis and treatment of adults with community-acquired pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med 2019; 200: e45&#x2013;e67.<xref ref="pubmed31573350" resource="acc067" />
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Diagnostic Tests for Legionnaires' Disease.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Test</th>
+<th align="left" colspan="1">Specimen</th>
+<th align="left" colspan="1">Sensitivity (&#x0025;)</th>
+<th align="left" colspan="1">Specificity (&#x0025;)</th>
+<th align="left" colspan="1">Time Required</th>
+<th align="left" colspan="1">Comments</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Urine antigen assay</td>
+<td align="left" colspan="1">Urine</td>
+<td align="left" colspan="1">44-79</td>
+<td align="left" colspan="1">&gt;35</td>
+<td align="left" colspan="1">Hours</td>
+<td align="left" colspan="1">Only detects <em>L. pneumophila</em> serogroup 1; misses other species or serogroups</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Direct fluorescent antibody</td>
+<td align="left" colspan="1">Sputum</td>
+<td align="left" colspan="1">33-70</td>
+<td align="left" colspan="1">&gt;95</td>
+<td align="left" colspan="1">Hours</td>
+<td align="left" colspan="1">Requires technical expertise and large pathogen load</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Polymerase chain reaction</td>
+<td align="left" colspan="1">Sputum</td>
+<td align="left" colspan="1">33-70</td>
+<td align="left" colspan="1">100</td>
+<td align="left" colspan="1">Hours, if available in-house</td>
+<td align="left" colspan="1">Cost may be an issue</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Culture</td>
+<td align="left" colspan="1">Sputum</td>
+<td align="left" colspan="1">10-80</td>
+<td align="left" colspan="1">100</td>
+<td align="left" colspan="1">3-7 days</td>
+<td align="left" colspan="1">Gold standard, but limited value in acute setting due to delayed results</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Serology</td>
+<td align="left" colspan="1">Serum</td>
+<td align="left" colspan="1">40-70</td>
+<td align="left" colspan="1">95</td>
+<td align="left" colspan="1">Weeks</td>
+<td align="left" colspan="1">Requires fourfold rise between acute and convalescent serum; of little value in acute setting unless baseline titer is &gt;1:128</td>
+</tr>
+</table>Data from Amsden G. Treatment of legionnaires' disease. <em>Drugs</em> 2005;<strong>65</strong>:605&#x2013;614<xref ref="pubmed15748096" resource="acc012" />; Burnsed LJ, Hicks LA, Smithee LM, et al. A large, travel-associated outbreak of legionellosis among hotel guests: utility of the urine antigen assay in confirming Pontiac fever. <em>Clin Infect Dis</em> 2007;<strong>44</strong>:222&#x2013;228<xref ref="pubmed17173221" resource="acc011" />; Garcia-Vidal C, Carrotala J. Current clinical management of legionnaires' disease. <em>Expert Rev Anti Infect Ther</em>&#x00A0; 2006;<strong>4</strong>:995&#x2013;1004<xref ref="pubmed17181416" resource="acc017" />; Pedro-Botet M, Sabria M. Legionellosis. <em>Semin Respir Crit Care Med</em> 2005;<strong>26</strong>:625&#x2013;634<xref ref="pubmed16388431" resource="acc024" />; Roig J, Rello J. Legionnaires' disease: a rational approach to therapy. <em>J Antimicrob Chemother</em> 2003;<strong>51</strong>:1119&#x2013;1129<xref ref="pubmed12668578" resource="acc009" />; Sabria M, Campins M. Legionnaires' disease: update on epidemiology and management options. <em>Am J Respir Med</em> 2003;<strong>2</strong>:235&#x2013;243<xref ref="pubmed14720005" resource="acc002" />; Winn WC. Legionnaires disease: historical perspective. <em>Clin Microbiol Rev</em> 1988;<strong>1</strong>:60&#x2013;81;<xref ref="pubmed3060246" resource="acc023" />Shimada T, Noguchi Y, Jackson JL, et al. Systematic review and metaanalysis: urinary antigen tests for Legionellosis. <em>Chest</em> 2009;<strong>136</strong>:1576&#x2013;1158<xref ref="test484" resource="acc033" />; Benitez AJ, Winchell JM. Clinical application of a multiplex real-time PCR assay for simultaneous detection of Legionella species, Legionella pneumophila, and Legionella pneumophila serogroup 1. <em>J Clin Microbiol</em> 2013;<strong>51</strong>:348&#x2013;351.<xref ref="pubmed23135949" resource="acc041" />Bellew S, Grijalva CG, Williams DJ, Anderson EJ, Wunderink RG, Zhu Y, Waterer GW, Bramley AM, Jain S, Edwards km, Self WH. <em>Clin Infect Dis</em> 2019;<strong>68</strong>:2026&#x2013;2033<xref ref="pubmed30265290" resource="acc065" />
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Validated <em>Legionella</em> Scoring Systems for Distinguising LD from other Pneumonia Etiologies.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1"><strong>A. JSC <em>Legionella</em> score</strong><xref ref="pubmed30935766" resource="acc061" /></th>
+<th align="left" colspan="1"></th>
+<th align="left" colspan="1"></th>
+<th align="left" colspan="1"></th>
+<th align="left" colspan="1"></th>
+</tr>
+<tr>
+<th align="left" colspan="1">Score</th>
+<th align="left" colspan="1">Sensitivity</th>
+<th align="left" colspan="1">Specificity</th>
+<th align="left" colspan="1">PPV</th>
+<th align="left" colspan="1">NPV</th>
+</tr>
+<tr>
+<td align="left" colspan="1">For score &#x2265;3</td>
+<td align="left" colspan="1">93</td>
+<td align="left" colspan="1">75</td>
+<td align="left" colspan="1">7 (if low pre-test probablility) to 41 (if high pre-test probability)</td>
+<td align="left" colspan="1">99.8 (if low pre-test probability) to 98.2 (if high pre-test probability)</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Variables</strong> (1 point each)</td>
+<td align="left" colspan="1"><strong>Male sex</strong></td>
+<td align="left" colspan="1"><strong>Cough <em>absent</em></strong></td>
+<td align="left" colspan="1"><strong>Dyspnea <em>present</em></strong></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"><strong>C-reactive protein &#x2265;17.5</strong></td>
+<td align="left" colspan="1"><strong>Lactate dehydrogenase &#x2265;259 U&#x002F;L</strong></td>
+<td align="left" colspan="1"><strong>Serum sodium &lt;134 nmol&#x002F;L</strong></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>B. TRIAGE <em>Legionella</em> score</strong><xref ref="pubmed31281863" resource="acc060" /></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2265;1</td>
+<td align="left" colspan="1">97.0</td>
+<td align="left" colspan="1">22.5</td>
+<td align="left" colspan="1">5.7</td>
+<td align="left" colspan="1">99.4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2265;2</td>
+<td align="left" colspan="1">90.9</td>
+<td align="left" colspan="1">59.3</td>
+<td align="left" colspan="1">9.8</td>
+<td align="left" colspan="1">99.3</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2265;3</td>
+<td align="left" colspan="1">63.6</td>
+<td align="left" colspan="1">85.7</td>
+<td align="left" colspan="1">17.8</td>
+<td align="left" colspan="1">98.0</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2265;4</td>
+<td align="left" colspan="1">27.3</td>
+<td align="left" colspan="1">96.8</td>
+<td align="left" colspan="1">29.0</td>
+<td align="left" colspan="1">96.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2265;5</td>
+<td align="left" colspan="1">12.1</td>
+<td align="left" colspan="1">99.1</td>
+<td align="left" colspan="1">40.0</td>
+<td align="left" colspan="1">95.9</td>
+</tr>
+<tr>
+<td align="left" colspan="1">6</td>
+<td align="left" colspan="1">3.0</td>
+<td align="left" colspan="1">99.9</td>
+<td align="left" colspan="1">50.0</td>
+<td align="left" colspan="1">95.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Variables</strong> (1 point each)</td>
+<td align="left" colspan="1"><strong>Dry cough <em>present</em></strong></td>
+<td align="left" colspan="1"><strong>C-reactive protein &#x2265;187 mg&#x002F;L</strong></td>
+<td align="left" colspan="1"><strong>Serum sodium &lt;133 mmol&#x002F;L</strong></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"><strong>Temperature &gt;39.4C</strong></td>
+<td align="left" colspan="1"><strong>Lactate dehydrogenase &#x2265;225 U&#x002F;L</strong></td>
+<td align="left" colspan="1"><strong>Platelet count &lt;171,000&#x002F;mL</strong></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>C. CASH-75 atypical pneumonia score</strong><xref ref="pubmed35505308" resource="acc070" /></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">&lt;1</td>
+<td align="left" colspan="1">100</td>
+<td align="left" colspan="1">4</td>
+<td align="left" colspan="1">5</td>
+<td align="left" colspan="1">100</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&lt;2</td>
+<td align="left" colspan="1">100</td>
+<td align="left" colspan="1">35</td>
+<td align="left" colspan="1">8</td>
+<td align="left" colspan="1">100</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&lt;3</td>
+<td align="left" colspan="1">70</td>
+<td align="left" colspan="1">73</td>
+<td align="left" colspan="1">12</td>
+<td align="left" colspan="1">98</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&lt;4</td>
+<td align="left" colspan="1">23</td>
+<td align="left" colspan="1">94</td>
+<td align="left" colspan="1">19</td>
+<td align="left" colspan="1">96</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&lt;5</td>
+<td align="left" colspan="1">0</td>
+<td align="left" colspan="1">99</td>
+<td align="left" colspan="1">0</td>
+<td align="left" colspan="1">95</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Variables (1 point each</strong>)</td>
+<td align="left" colspan="1"><strong>Chest pain <em>absent</em></strong></td>
+<td align="left" colspan="1"><strong>Autumn is season when contracted</strong></td>
+<td align="left" colspan="1"><strong>Sodium &lt;135</strong></td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"><strong>Heart failure <em>present</em></strong></td>
+<td align="left" colspan="1"><strong>Age &lt;75</strong></td>
+<td align="left" colspan="1"></td>
+<td align="left" colspan="1"></td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table004">
+<caption>IDSA&#x002F;ATS Criteria for Severe Community-Acquired Pneumonia.<xref ref="pubmed31573350" resource="acc067" /></caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1"><strong>Minor Criteria<sup>a</sup></strong>
+<list style="bulleted">
+<listitem>Respiratory rate<sup>b</sup> &#x2265;30 breaths&#x002F;minute</listitem>
+<listitem>PaO<sub>2</sub>&#x002F;FiO<sub>2</sub> ratio<sup>b</sup> &#x2264;250</listitem>
+<listitem>Multilobar infiltrates</listitem>
+<listitem>Confusion&#x002F;disorientation</listitem>
+<listitem>Uremia (BUN level &#x2265;20 mg&#x002F;dL)</listitem>
+<listitem>Leukopenia (WBC count &lt;4000 cells&#x002F;mm<sup>3</sup>)</listitem>
+<listitem>Thrombocytopenia (platelet count &lt;100,000 cells&#x002F;mm<sup>3</sup>)</listitem>
+<listitem>Hypothermia (core temperature &lt;36&#x00B0;C)</listitem>
+<listitem>Hypotension requiring aggressive fluid resuscitation</listitem>
+</list>
+<strong>Major Criteria</strong>
+<list style="bulleted">
+<listitem>Invasive mechanical ventilation</listitem>
+<listitem>Septic shock with the need for vasopressors</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Note: BUN, blood urea nitrogen; PaO<sub>2</sub>&#x002F;FiO<sub>2</sub>, arterial oxygen pressure&#x002F;fraction of inspired oxygen; WBC, white blood cell. <sup>a</sup> Other criteria to consider include hypoclycemia (in nondiabetic patients), acute alcoholism&#x002F;alcoholic withdrawal, hyponatremia, unexplained metabolic acidosis or elevated lactate level, cirrhosis, and asplenia.<sup> b</sup> A need for noninvasive ventilation can substitute for a respiratory rate &gt;30 breaths&#x002F;min or a PaO<sub>2</sub>&#x002F;FiO<sub>2</sub> ratio &lt;250.<sup> c</sup> As a result of infection alone.</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table005">
+<caption>Predictors of Death in Legionnaire's Disease.<xref ref="rule312" resource="acc019" /><xref ref="pubmed22005914" resource="acc039" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Parameter</th>
+<th align="left" colspan="1">Reported Odds Ratio (OR) or Hazard Ratio (RH)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Charlson comorbidity index &gt;2</td>
+<td align="left" colspan="1">OR &#x003D; 2.7; 95&#x0025; CI, 1.1-6.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Macrolide use</td>
+<td align="left" colspan="1">OR &#x003D; 2.4; 95&#x0025; CI, 1.0-8.7</td>
+</tr>
+<tr>
+<td align="left" colspan="1">High-risk Pneumonia Severity Index classes</td>
+<td align="left" colspan="1">OR &#x003D; 9.1; 95&#x0025; CI, 3.5-23.4</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Current or former smoker</td>
+<td align="left" colspan="1">OR &#x003D; 3.0, 95&#x0025; CI, 1.0-8.6</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial inappropriate therapy</td>
+<td align="left" colspan="1">OR &#x003D; 3.0; 95&#x0025; CI, 1.0-8.7</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Advancing age (per 10 year increment)</td>
+<td align="left" colspan="1">HR &#x003D; 1.5; 95&#x0025; CI, 1.2-1.9</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Female sex</td>
+<td align="left" colspan="1">HR &#x003D; 2.0; 95&#x0025; CI, 1.1-3.7</td>
+</tr>
+<tr>
+<td align="left" colspan="1">ICU admission</td>
+<td align="left" colspan="1">HR &#x003D; 3.3; 95&#x0025; CI, 1.7-6.6</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Renal failure</td>
+<td align="left" colspan="1">HR &#x003D; 2.7; 95&#x0025; CI, 1.4-5.2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Corticosteroid therapy</td>
+<td align="left" colspan="1">HR &#x003D; 2.5; 95&#x0025; CI, 1.0-6.2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">C-reactive protein &gt;500 mg&#x002F;L</td>
+<td align="left" colspan="1">HR &#x003D; 2.1; 95&#x0025; CI, 1.0-4.5</td>
+</tr>
+</table>ICU, intensive care unit</feature_body>
+</feature>
+</feature_group>
+</topic>

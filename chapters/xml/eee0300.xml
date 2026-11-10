@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Cryptococcal infection</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0300</topic_id>
+<topic_comment />
+<topic_lastupdated>10/21/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Jarrett K. Sell, MD FAAFP AAHIVS</author_name>
+<author_title>Attending</author_title>
+<author_department>Family Medicine</author_department>
+<author_institution>Westside Family Health</author_institution>
+<author_email>jarrett.sell&#x0040;westsidehealth.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Wilmington</author_city>
+<author_state>DE</author_state>
+<author_zip>19805</author_zip>
+</author>
+<author primary="no">
+<author_name>Toni Biskup, MD, MPH</author_name>
+<author_title>Resident</author_title>
+<author_department>Departments of Internal Medicine and Pediatrics</author_department>
+<author_institution>University of Maryland Medical Center</author_institution>
+<author_email>mariebiskup&#x0040;hotmail.com</author_email>
+<author_phone_office>319-331-4877</author_phone_office>
+<author_phone_home>319-331-4877</author_phone_home>
+<author_phone_fax />
+<author_street1>22 S. Greene St.</author_street1>
+<author_street2 />
+<author_city>Baltimore</author_city>
+<author_state>MD</author_state>
+<author_zip>21201</author_zip>
+</author>
+<author primary="no">
+<author_name>Janaki Kuruppu, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Departments of Internal Medicine and Infectious Disease</author_department>
+<author_institution>University of Maryland</author_institution>
+<author_email>jkuruppu&#x0040;ihv.umaryland.edu</author_email>
+<author_phone_office>410-706-2230</author_phone_office>
+<author_phone_home />
+<author_phone_fax>410-706-1992</author_phone_fax>
+<author_street1>725 W. Lombard Street, Rm N556</author_street1>
+<author_street2 />
+<author_city>Baltimore</author_city>
+<author_state>MD</author_state>
+<author_zip>21201</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect <em>Cryptococcus</em> infection in any person with HIV or immunocompromise with meningitis. <em>Cryptococcus</em> can also cause disseminated disease and isolated pneumonia. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Obtain India ink stains, fungal CSF and blood cultures, cytology, and CSF cryptococcal antigen tests in people with HIV who present with symptoms of meningitis. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Induction therapy with amphotericin B and flucytosine, followed by fluconazole consolidation therapy, then fluconazole maintenance therapy in people with HIV significantly reduces morbidity and mortality. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed19357635" resource="acc001" /></listitem>
+<listitem>A 14 day induction regimen with only a single high dose of liposomal amphotericin B plus flucytosine and fluconazole for 14 days was non-inferior to amphotericin B deoxycholate plus flucytosine for 7 days followed by fluconazole for 7 days for CM.<xref ref="pubmed35320642" resource="acc045" />
+<evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>In people with and without HIV with initial elevated opening lumbar puncture (LP) pressure, perform serial LPs to lower pressure. Aggressive management is one of the most important factors in reducing mortality associated with meningitis. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Most cryptococcal infection is caused by varieties of <em>Cryptococcus</em>
+<em> neoformans</em> (Serotypes A through D) and is primarily an opportunistic infection in immunocompromised hosts. It can result in infection of the central nervous system (CNS), lungs, blood, skin, and urinary tract, though it has preference for the brain. It is the second most common opportunistic fungal infection in AIDS. Cryptococcal infections also occur in patients with other immunosuppressive conditions such as solid organ transplant recipients, malignancy, and rheumatic disorders; people who inject drugs; and in people using newer biological agents.<xref ref="pubmed31382367" resource="acc033" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Cryptococcosis, overall: 0.4 to 1.3 per 100,000.<xref ref="pubmed12627365" resource="acc006" /></listitem>
+<listitem>Cryptococcosis in people without HIV: 0.4 to 5.0 per 1,000,000.<xref ref="pubmed12627365" resource="acc006" /></listitem>
+<listitem>Cryptococcosis in people with AIDS: 1.6 to 7.0 per 1000.<xref ref="pubmed12627365" resource="acc006" /></listitem>
+<listitem>Authors of a meta-analysis of RCTs and cohort studies found an incidence of cryptococcal meningitis of 3&#x0025; (95&#x0025; CI 1&#x0025; to 6&#x0025;) in people living with HIV (PLWH) who were cryptococcal antigen (Ag) positive and had a CD4+ T cell count &lt;200 cells&#x002F;&#x03BC;L.<xref ref="pubmed32532212" resource="acc034" /></listitem>
+<listitem>Global disease burden of cryptococcal infection includes over 200,000 cases of cryptococcal meningitis (CM) annually.<xref ref="pubmed30761136" resource="acc035" /></listitem>
+<listitem>The <resourceLink href="https://www.who.int/hiv/mediacentre/news/cryptococcal-disease-key-messages/en/">World Health Organization</resourceLink> (WHO) reported an estimated 223,100 cases of CM resulted in 181,100 deaths among PLWH in 2014. <xref ref="pubmed28483415" resource="acc046" /></listitem>
+<listitem>Among 157 newly diagnosed patients presenting during 2004-10 with HIV and CD4 counts &lt;100 cells&#x002F;&#x03BC;L in southwest London, 8 (5&#x0025;) had positive serum cryptococcal antigen and 7 of those 8 had cryptococcal meningitis.<xref ref="pubmed23046967" resource="acc016" /></listitem>
+<listitem>Cryptococcosis in pediatric patients from 42 United States children's hospitals: 6.2 cases per million hospitalizations; 38&#x0025; of cases were meningitis.<xref ref="pubmed20935590" resource="acc013" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The pooled prevalence of cryptococcal antigen (CrAg) positivity in PLWH with CD4+ T cell counts &lt;200 cells&#x002F;&#x03BC;L was 5&#x0025; (95&#x0025; CI 2&#x0025; to 7&#x0025;) based on a meta-analysis of RCTs and cohort studies.<xref ref="pubmed32532212" resource="acc034" /></listitem>
+<listitem>Among PLWH with CD4+ T cell counts &lt;100 cells&#x002F;&#x03BC;L, another meta-analysis found a pooled prevalence of serum CrAg-positivity of 6&#x0025; (95&#x0025; CI 5&#x0025; to 7&#x0025;); one third of CrAg-positive individuals were asymptomatic. <xref ref="pubmed30020446" resource="acc036" /></listitem>
+<listitem>Authors of a systemic review and meta-analysis found that the overall pooled magnitude of cryptococcosis in PLWH in sub-saharan Africa was 8.3&#x0025;, with the highest prevalence in Uganda (19&#x0025;) and the lowest in Ethiopia (1.6&#x0025;).<xref ref="pubmed33402899" resource="acc047" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>
+<em>C. neoformans </em> is the leading cause of meningitis in central and southern regions of Africa and is responsible for 13&#x0025; to 44&#x0025; of all deaths in PLWH.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>One review of organ transplant recipients found that 2.8&#x0025; of recipients developed infection with <em>C. neoformans</em> with an overall death rate of 42&#x0025;.<xref ref="pubmed11384512" resource="acc010" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>The genus <em>Cryptococcus </em>contains at least 37 species; however, <em>C. neoformans </em> and <em>C. grubii </em> (serotypes A and D) are the main causes of human disease and cause most of the HIV-related cases of CM.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>
+<em>C. gattii </em>meningitis is found primarily in HIV-positive, immunocompetent patients on Vancouver Island, Canada.<xref ref="pubmed18090038" resource="acc005" /> In North America, <em>C. gattii </em>preferentially targets individuals with intact immunity and can cause intracerebral infection or hydrocephalus.<xref ref="pubmed31382367" resource="acc033" />
+<xref ref="pubmed30761136" resource="acc035" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>
+<em>C. neoformans </em> is a ubiquitous environmental fungus found in soil contaminated with pigeon or chicken droppings, the heartwood of some tree species in South America and India, and from homes of PLWH in Africa.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>Cryptococcal infection has a high predilection for the CNS, although there are reports of it infecting most organ systems. The most common route of entry to CNS infection is via the respiratory system .</listitem>
+<listitem>Virulence factors for the fungus are the polysaccharide capsule, melanin and several 'invasins'.<xref ref="pubmed31382367" resource="acc033" /> Cryptococcal plb1, laccase and urease are thought essential for dissemination from lung to CNS and crossing the blood-brain barrier.</listitem>
+<listitem>Small encapsulated yeasts enter the body via inhalation, resulting in either subclinical pulmonary infection with clearance of the organisms by normal intact immune responses, containment in granulomata leading to latent infection, or lack of adequate immune response leading to dissemination and seeding of distant organs, primarily the brain.</listitem>
+<listitem>There is evidence from a study of immunocompetent patients with pulmonary cryptococcosis that cryptococcal infection itself can suppress the immune system.<xref ref="pubmed26637129" resource="acc026" /> In this study, serum interferon (IFN)-&#x03B3; was significantly lower in infected vs. control patients, and both serum IFN-&#x03B3; and interleukin-2 levels of infected patients significantly increased after appropriate treatment compared to baseline.</listitem>
+<listitem>Those who develop disseminated infection usually have defects in T cell function. In one study, risk factors for cryptococcemia among patients with cryptococcal disease were AIDS (adjusted OR 216.3), decompensated liver cirrhosis (aOR 23.8), autoimmune diseases (aOR 9.3), and cell-mediated immunity-suppressive regimens without calcineurin inhibitors (aOR 7.3).<xref ref="pubmed25747471" resource="acc027" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>HIV infection</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Organ transplantation</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic steroid use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Anti-tumor necrosis factor medications</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Malignancy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Lung disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>The greatest benefit of prophylaxis is seen in patients with CD4 counts less than 100 cells per microliter and in areas with higher incidence of cryptococcal infection. <evidence rating="A" system="SORT"> A</evidence><xref ref="cochrane4773" resource="acc004" /></listitem>
+<listitem>Preventing relapse of cryptococcal meningitis includes: (1) Controlling HIV replication through antiretroviral therapy (ART); and (2) Maintance therapy with fluconazole 200 mg daily for at least one year after the start of antifungal therapy and when patients have achieved a CD4 count greater that 100 cell&#x002F;mm3. A prospective study prior to use of ART showed a significant decrease in relapse in those receiving fluconazole (4&#x0025;) compared to those not receiving prophylaxis (37&#x0025;-60&#x0025;). <evidence rating="A" system="SORT"> A</evidence>
+<xref ref="pubmed9203426" resource="acc008" />
+<xref ref="pubmed12746781" resource="acc009" />
+<xref ref="pubmed19357635" resource="acc001" /></listitem>
+<listitem>If immune reconstitution is achieved with ART, secondary prophylaxis is not necessary. <evidence rating="A" system="SORT"> A</evidence>
+<xref ref="pubmed12746781" resource="acc009" />
+<xref ref="pubmed19357635" resource="acc001" /></listitem>
+<listitem>In resource-limited settings where there is no access to CTs or the possibility to perform LPs, cryptococcal infection is often underdiagnosed. In such cases, the serum <em>cryptococcus</em> antigen can be used to screen for infection. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18090038" resource="acc005" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>The <resourceLink href="https://www.who.int/hiv/pub/guidelines/cryptococcal-disease/en/">WHO guidelines </resourceLink>(2022) recommend screening for cryptococcal antigen (CrAg) in adults and adolescents living with HIV who have a CD4 cell count &lt;100 cells&#x002F;mm3 followed by pre-emptive antifungal therapy among those testing positive to prevent the development of invasive cryptococcal disease before initiating or reinitiating antiretroviral therapy (ART). Screening may be considered in those with a CD4 cell count &lt;200 cells&#x002F;mm3. Screening is not recommended for children due to the lower incidence of cryptococcal meningitis (CM). <xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>In a screening trial for cryptococcal infection among HIV-infected individuals with low CD4 cell counts in Kenya, screening and treatment of the 11&#x0025; who screened positive with high-dose fluconazole did not significantly improve overall survival.<xref ref="pubmed23368667" resource="acc024" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Patients who are immunocompromised should avoid large amounts of bat or bird droppings, digging in soil and dusty activities, especially if living in regions where these pathogens are prevalent.</listitem>
+<listitem>In PLWH, the WHO recommends early ART initiation regardless of CD4 count or immune status as the most important preventive strategy to reduce the incidence of opportunistic infections.</listitem>
+<listitem>When CrAg screening is not available, WHO (2022) recommends fluconazole primary prophylaxis for adults and adolescents living with HIV who have a CD4 cell count &lt;100 cells&#x002F;mm3 with consideration of prophylaxis in those with a CD4 cell count &lt;200 cells&#x002F;mm3. <xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>Authors of a meta-analysis of 5 RCTs with 1316 patients found a decreased incidence of cryptococcal disease in adults with advanced HIV disease using itraconazole and fluconazole for primary prevention; however, neither drug has a clear effect on overall mortality.<xref ref="cochrane4773" resource="acc004" /></listitem>
+<listitem>Authors of a meta-analysis of 31 studies with 35,644 antiretroviral-na&#x00EF;ve patients with HIV and CD4 cell counts&lt; 100 cells&#x002F;&#x03BC;L found an incidence of CM of 21.4&#x0025; (95&#x0025; CI 11.6&#x0025;-34.4&#x0025;) without preemptive fluconazole and 5.7&#x0025; (95&#x0025; CI 3.0&#x0025;-9.7&#x0025;) with preemptive fluconazole therapy initiated at 800 mg&#x002F;d.<xref ref="pubmed30020446" resource="acc036" /></listitem>
+<listitem>In a RCT in 1519 HIV-positive Ugandan adults with CD4 counts &lt;200 cells&#x002F;mL and negative cryptococcal antigen, fluconazole (three times weekly) was effective in preventing cryptococcal disease (NNT &#x003D; 44.6 to prevent one case).<xref ref="pubmed21982529" resource="acc014" /></listitem>
+<listitem>In patients with HIV and with CD4 counts &lt;100 cells&#x002F;mL who were beginning ART for the first time, improved survival at both 24 and 48 weeks was demonstrated using enhanced antimicrobial prophylaxis compared to standard prophylaxis in an open label randomized trial.<xref ref="pubmed28723333" resource="acc031" /> The enhanced regimen consisted of continuous trimethoprim-sulfamethoxazole plus at least 12 weeks of isoniazid-pyridoxine, 12 weeks of fluconazole, 5 days of azithromycin, and a single dose of albendazole and standard prophylaxis was trimethoprim-sulfamethoxazole alone. At 48 weeks, 98 patients (11.0&#x0025;) compared to 127 (14.4&#x0025;) had died (hazard ratio 0.76; 95&#x0025; CI 0.58 to 0.99) and there were lower rates of tuberculosis and cryptococcal infection.</listitem>
+<listitem>However, in a Ugandan two-phase study of HIV-positive, ART-naive participants with &lt;100 CD4 cells&#x002F;&#x00B5;L, there were no differences in 6-month survival between the observation group of 1280 patients and the intervention group of 2108 patients who were screened for CrAg and the 9.35&#x0025; who tested positive treated with fluconazole therapy.<xref ref="pubmed30399034" resource="acc037" /> Higher mortality of 2.6-fold was observed in patients with CrAg titers &#x2265;1:160 but there was no difference based on timing of ART.</listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>
+<strong>Treatment of patients who are CrAg positive</strong></listitem>
+<listitem>Among patients with HIV and CD4 cell counts &lt;200 cells&#x002F;&#x03BC;L who are CrAg positive, a meta-analysis found that those who received pre-emptive antifungal therapy had an incidence of CM of 3&#x0025; (95&#x0025; CI 1&#x0025; to 6&#x0025;) compared to 5&#x0025; incidence among those who did not receive pre-emptive treatment.<xref ref="pubmed32532212" resource="acc034" /> This was a statistically significant reduction with a RR 7.64, 95&#x0025; CI 2.96-19.73.</listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Check serum CrAg in all people with newly diagnosed HIV who have no clinical signs of meningitis but have CD4 counts of &#x2264;100 cells&#x002F;mm3. Those with a positive serum CrAg should have CSF evaluation, particularly when the serum LFA titer is &#x2265;1:160. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Suspect cryptococcal infection in any person with HIV or otherwise immunocompromised patient with pneumonia-like symptoms of fever or cough and in any patient with meningitis. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Obtain fungal sputum and blood cultures in PLWH who present with pneumonia-like symptoms, including fever and cough. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>In any patient, including PLWH with a positive cryptococcal angtigen, with suspected cryptococcal infection in any system, an LP with CSF analysis and measurement of cerebral spinal fluid (CSF) opening pressure is warranted. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Obtain fungal CSF and blood cultures, cytology, and CSF CrAg tests in a PLWH who presents with malaise, fever, altered mental status, headache, visual disturbance, or had papilledema, meningism, or cranial nerve palsies on examination. If rapid Ag tests are unavailable, use India ink stains. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Bacterial meningitis</Differential_Name>
+<Differential_Features>Diagnosed with Gram stain and cytology of CSF; higher CSF WBC and protein</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Aseptic meningitis</Differential_Name>
+<Differential_Features>Negative India ink and Gram stain, diagnosed by exclusion and CSF evaluation; higher glucose, clear CSF</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacterial or viral pneumonia</Differential_Name>
+<Differential_Features>Sputum fungal and bacterial cultures, blood fungal cultures, cryptococcal antigen testing</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Meningoencephalitis is the most common manifestation of cryptococcosis. An HIV-positive or otherwise immunocompromised patient with the following signs should be evaluated for cryptococcal infection: fever, altered mental status, meningism, papilledema, hyperreflexia, cranial nerve palsies&#x2014;especially sixth nerve palsies reflecting increased intracranial pressure (ICP)&#x2014;and reduced consciousness.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>Other signs and symptoms of CNS disease include headache, sweats, visual changes, irritability, and nausea.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>Cryptococcal disease can also cause pulmonary disease and skin, lymph node and bone involvement.</listitem>
+<listitem>In a case series of 82 Australian patients with <em>C. gattii </em> infection, CNS complications included elevated intracranial pressure (42&#x0025;), hydrocephalus (30&#x0025;), neurological deficits (27&#x0025;; 6&#x0025; developed during therapy) and immune reconstitution-like syndrome (11&#x0025;).<xref ref="pubmed22670042" resource="acc017" /></listitem>
+<listitem>Cough, fever, sputum production, pleuritic chest pain, dyspnea, and tachypnea may be seen with pulmonary cryptococcal infection.</listitem>
+<listitem>In HIV-negative immunocompetent patients, pulmonary cryptococcosis can range from asymptomatic to acute respiratory distress syndrome (ARDS).</listitem>
+<listitem>Cutaneous cryptococcosis can have a variety of appearances, including mimicking molluscum contagiosum, and is usually a sign of disseminated disease.<xref ref="pubmed19357635" resource="acc001" />
+<xref ref="pubmed9203426" resource="acc008" /></listitem>
+<listitem>HIV-positive patients with cryptococcal pneumonia may present with fever and cough with scant sputum, which is usually clinically indistinguishable from other atypical pneumonias in HIV-positive patients. <xref ref="pubmed18090038" resource="acc005" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>If HIV-positive with pneumonia-like symptoms, obtain sputum and blood fungal cultures as well as serum cryptococcal antigen. If positive, obtain CSF analysis, even when no signs of CNS infection are present, to rule out meningitis.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>The Centers for Disease Control and Prevention states that the gold standard for diagnosis is positive culture, although antigen detection is more rapid. Authors of a meta-analysis of 11 studies with 3600 HIV-positive adults with suspected CM found near-perfect agreement between CSF CrAg and CSF culture of 97&#x0025; (95&#x0025; CI 96&#x0025; to 99&#x0025;).<xref ref="pubmed32829406" resource="acc038" /></listitem>
+<listitem>The WHO guidelines (2022) recommend prompt LP with measurement of CSF opening pressure and rapid CrAg assay (latex agglutination or lateral flow assay) for adults, adolescents and children living with HIV suspected of having a first episode of CM. If a rapid CrAg test is not available, use India ink test.<xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>Three antigen tests are available - latex agglutination, enzyme immunoassay, and lateral flow assay.</listitem>
+<listitem>
+<resourceLink href="info:wiley/eep-dx/463">Latex agglutination tests</resourceLink> are the preferred diagnostic tests since they are rapid and more than 99&#x0025; specific for cryptococcal antigen from serum or CSF. Pronase reduces false positive results.<xref ref="test463" resource="acc002" /></listitem>
+<listitem>The lateral flow assay (LFA) has a sensitivity and specificity in serum of 0.98 and 0.98, respectively, and in CSF of 0.99 and 0.99, respectively based on combined analysis of 15 studies.<xref ref="pubmed32887568" resource="acc039" /></listitem>
+<listitem>In more than 99&#x0025; of HIV-positive patients with CM, serum CrAg titers are positive.<xref ref="pubmed18090038" resource="acc005" /> Authors of a meta-analysis of 11 studies with 3600 HIV-positive adults with suspected CM found a sensitivity of serum CrAg of 99.8&#x0025; (95&#x0025; CI 88.4&#x0025; to 100&#x0025;) and specificity of 95.2&#x0025; (95&#x0025; CI 88.7&#x0025; to 98).<xref ref="pubmed32829406" resource="acc038" /> These authors concluded that serum CrAg-negativity may rule out CM while positivity should prompt induction antifungal therapy if lumbar puncture (LP) is not feasible.</listitem>
+<listitem>A 2023 systemic review evaluated the diagnostic performance of IMMY CrAg&#x00AE; LFA in HIV-negative populations and found the pooled median sensitivity for blood was 96&#x0025; (95&#x0025; Credible Interval (CrI) 68-100&#x0025;) and the pooled median sensitivity for CSF was 99&#x0025; (95&#x0025;CrI 95-100&#x0025;).<xref ref="pubmed37024842" resource="acc050" /></listitem>
+<listitem>
+<resourceLink href="info:wiley/eep-dx/464">Gram stain of concentrated CSF</resourceLink> may be sensitive and specific for untreated <em>Cryptococcus</em>. However, it is not routinely used for diagnosis and if negative does not rule out infection.<xref ref="test464" resource="acc003" /></listitem>
+<listitem>Microscopic exam of CSF with India ink stain yields around 80&#x0025; sensitivity showing narrow-based budding capsulated yeast.</listitem>
+<listitem>India ink stain of serum or CSF is positive in 70&#x0025; to 90&#x0025; of patients with cryptococcal infection.<xref ref="pubmed8918955" resource="acc012" /></listitem>
+<listitem>
+<strong>Imaging</strong></listitem>
+<listitem>Radiographic imaging of the brain to rule out space-occupying lesion prior to LP is recommended. If not possible, funduscopic examination to rule out papilledema should be performed.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>In a small case series of 24 patients with pulmonary cryptococcosis without AIDS, the most common CXR findings were solitary or multiple pulmonary nodules, and masses or consolidations primarily located in the lower lobes.<xref ref="pubmed23154046" resource="acc018" /></listitem>
+<listitem>
+<strong>Other</strong></listitem>
+<listitem>In patients with persistent or recurrent symptoms, the WHO guidelines (2022) recommend reviewing the patient history for evidence suggesting underlying treatment failure from inadequate drug regimen, dose and duration; poor adherence to treatment; or underlying fluconazole drug resistance among people with previous prolonged fluconazole therapy and treatment adherence. Resistance is assessed by using fluconazole sensitivity testing. In addition, an LP should be performed with measurement of the opening pressure and CSF examination with other relevant investigations to exclude other causes of meningitis, including prolonged fungal culture (2-week duration) to exclude concomitant illnesses.</listitem>
+<listitem>Successful induction therapy is indicated by clinical improvement and a negative CSF culture by LP. India ink and CSF CrAG often remain positive after 2 weeks of induction therapy and are not indicators of treatment failure.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>A diagnostic evaluation for <em>C. neoformans</em> infection should be ordered in PLWH with CD4 count less than 200 who present with pneumonia-like symptoms since features of cryptococcal disease may not be elicited by history, physical, or routine labs.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>PLWH with cryptococcal meningitis may initially present with malaise, headache, and fever. Later they may develop visual disturbance and altered mental status. Signs may include meningismus, papilledema, cranial nerve palsy, and reduced consciousness.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>India ink stain of CSF or cryptococcal antigen testing of CSF is usually positive. LP opening pressures may be markedly elevated in severe disease and may require serial LPs to reduce pressure.</listitem>
+<listitem>Presence of cryptococcemia indicates deep tissue invasion with high probability of disseminated disease. Cryptococcemia is diagnosed by positive serum cryptococcal antigen titer more than 1:8. Any HIV-infected patient with positive titer or fungal culture should have CSF examined to exclude cryptococcal meningitis.</listitem>
+<listitem>In patients with persistent or recurrent symptoms who have started ART, consider cryptococcal immune reconstitution inflammatory syndrome (IRIS) after excluding other causes.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>463</Dx_ID>
+<Dx_ID>464</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Follow the <resourceLink href="https://www.who.int/hiv/pub/guidelines/cryptococcal-disease/en/">WHO </resourceLink> (2022) recommendations for treatment of CM as described below. Treatment includes an induction regimen with liposomal amphotericin B PLUS flucytosine and&#x002F;or fluconazole, followed by a consolidation phase of treatment of at least eight weeks following the induction phase. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>Alternative regimens using different induction periods or induction with alternate versions of amphotericin B in combination with flucytosine or fluconazole can be considered based on cost and availability. A 14-day regimen with only a single high dose of liposomal amphotericin B was non-inferior to the WHO regimen for CM.<xref ref="pubmed35320642" resource="acc045" />
+<evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>After the consolidation phase of treatment, maintenance therapy is then instituted with fluconazole (200 mg daily for adults, 6 mg&#x002F;kg&#x002F;day for adolescents and children). <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Maintenance therapy may be safely withdrawn one year after initiation of treatment in HIV-positive patients with stable immune restoration. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed17086058" resource="acc007" /></listitem>
+<listitem>In PLWH with CNS disease who have never received ART, deferring ART for 4-6 weeks after the diagnosis of cryptococcal meningitis is associated with improved survival. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed24963568" resource="acc025" /></listitem>
+<listitem>HIV-negative patients with CNS disease should receive induction therapy with amphotericin B plus flucytosine for at least 2 weeks, followed by fluconazole for 6 to 12 weeks. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Aggressive management of increased intracranial pressure (ICP) leads to decreased morbidity and mortality in acute CM.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>
+<strong>Meningitis</strong></listitem>
+<listitem>The WHO (2022) recommends induction therapy for people with cryptococcal meningitis with a single high dose of liposomal amphotericin B (10 mg&#x002F;kg) PLUS 14 days of flucytosine (100 mg&#x002F;kg&#x002F; day, divided into four doses per day) AND fluconazole (1200 mg&#x002F;day for adults, 12 mg&#x002F;kg&#x002F;day for children and adolescents, up to a maximum dose of 800 mg daily).<xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>Alternatively, a 7-day induction period of amphotericin B deoxycholate (1.0 mg&#x002F;kg&#x002F;day) AND flucytosine (100 mg&#x002F;kg&#x002F; day, divided into four doses per day) followed by 7 days of fluconazole (1200 mg daily for adults, 12 mg&#x002F;kg&#x002F;day for children and adolescents up to a maximum of 800 mg daily) OR a two-week induction of fluconazole (1200 mg daily for adults, 12 mg&#x002F;kg&#x002F;day for children and adolescents) + flucytosine (100 mg&#x002F;kg&#x002F;day, divided into four doses per day) can be used.</listitem>
+<listitem>A randomized controlled trial of 814 patients with HIV disease and cryptococcal meningitis in 2022 showed that a single high dose of liposomal amphotericin B (10 mg&#x002F;kg) on day 1 plus 14 days of flucytosine (10mg&#x002F;kg&#x002F;d) and fluconazole (1200 mg&#x002F;d) was non-inferior to the prior WHO&#x2013;recommended treatment, which included amphotericin B deoxycholate (1 mg &#x002F;kg&#x002F;d) plus flucytosine (100 mg&#x002F;kg&#x002F;d) for 7 days, followed by fluconazole (1200 mg&#x002F;d) for 7 days with fewer adverse advents, particularly less nephrotoxicity. The novel single-dose amphotericin regimen was non-inferior with 24.8&#x0025; mortality with the new regimen and 28.7&#x0025; in the standard therapy group. <xref ref="pubmed35320642" resource="acc045" /></listitem>
+<listitem>A randomized trial in 721 HIV infected adults with cryptococcal meningitis confirmed that one week of amphotericin B plus flycytosine was similarly effective to 2 weeks of fluconazole plus flycytosine as induction therapy.<xref ref="pubmed29539274" resource="acc030" /></listitem>
+<listitem>In a database study, fluconazole resistance was seen in 12.1&#x0025; of cryptococcus isolates from 3210 patients and 24.1&#x0025; (95&#x0025; CI -3.1 to 51.2) for the 248 relapse isolates.<xref ref="pubmed29377368" resource="acc032" /></listitem>
+<listitem>While there is limited evidence to guide the timing of initiation of ART in patients with both HIV and CM, authors of a Cochrane review found increased all-cause mortality when initiating ART within 4 weeks of meningitis diagnosis compared to delayed ART initiation (RR 1.42; 95&#x0025; CI 1.02 to 1.97), although early ART initiation may reduce relapse.<xref ref="cochrane9012" resource="acc019" /> In an RCT of 177 patients in Africa with HIV and cryptococcal meningitis, deferring ART for 5 weeks vs. initiating ART 1 to 2 weeks after diagnosis resulted in improved survival (30&#x0025; vs. 45&#x0025;; hazard ratio for death, 1.73; 95&#x0025; CI 1.06-2.82).<xref ref="pubmed24963568" resource="acc025" /></listitem>
+<listitem>In an RCT of patients with HIV-associated cryptococcal meningitis, the addition of interferon-gamma to standard combination therapy improved CSF clearance of infection but not survival.<xref ref="pubmed22421244" resource="acc020" /></listitem>
+<listitem>Authors of a Cochrane review found that one-week treatment with amphotericin B and flucytosine for patients with HIV-associated CM was likely superior to other regimens in resource-poor settings.<xref ref="cochrane5647" resource="acc015" /> An alternative is an all-oral regimen of two weeks of flucytosine and fluconazole. Authors of a systematic review and cost-effectiveness study also found that amphotericin-based treatments were costlier but associated with better survival.<xref ref="pubmed23055838" resource="acc021" /> They suggest that 7-day amphotericin induction therapy coupled with high-dose (1,200 mg&#x002F;d) fluconazole would be cost effective even in resource-poor areas.</listitem>
+<listitem>In a 3-arm RCT of 299 patients with CM, amphotericin B plus flucytosine was associated with improved survival compared to monotherapy with amphotericin B.<xref ref="pubmed23550668" resource="acc022" /> Combination amphotericin B&#x002F;fluconazole (400 mg twice daily) did not confer a survival benefit over monotherapy.</listitem>
+<listitem>Starting induction therapy with higher dose amphotericin B and flucytosine resulted in significantly decreased morbidity and mortality compared to previous treatment strategies (from 14&#x0025;-25&#x0025; to 6&#x0025;).<xref ref="pubmed9203426" resource="acc008" /></listitem>
+<listitem>In one cohort study of 368 patients, provision of hydration and electrolyte supplementation minimized the incidence of hypokalemia and nephrotoxicity associated with amphotericin B deoxycholate induction therapy for CM.<xref ref="pubmed26349818" resource="acc028" /></listitem>
+<listitem>A 2023 RCT randomized 80 patients with HIV and CM to oral lipid nanocrystal amphotericin B + flucytosine or intravenous amphotericin + flucytosine and found comparable 2-week CSF sterility and 18-week survival with less adverse reactions in the oral group, demonstrating an additional potential option for treatment.<xref ref="pubmed37606364" resource="acc049" /></listitem>
+<listitem>Consolidation phase therapy, which is continued for eight weeks following the induction phase, consists of fluconazole (800 mg&#x002F;d for adults or 6-12 mg&#x002F;kg&#x002F;d for children up to a maximum of 800 mg&#x002F;d).<xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>Maintenance therapy in HIV-positive patients may be safely withdrawn in those with stable immune restoration.<xref ref="pubmed17086058" resource="acc007" /></listitem>
+<listitem>A meta-analysis of 5 RCTs with 1316 patients found a decrease in the incidence of cryptococcal disease in adults with advanced HIV disease treated with itraconazole and fluconazole, however neither drug has a clear effect on overall mortality.<xref ref="cochrane4773" resource="acc004" /></listitem>
+<listitem>Use of corticosteroids, acetazolamide, or mannitol has not proven to be effective in managing increased ICP in CM.<xref ref="pubmed18090038" resource="acc005" /> In an RCT of dexamethasone or placebo for 6 weeks in addition to antifungal therapy in 451 adult patients with HIV-associated CM, the trial was stopped early due to lack of mortality benefit (47&#x0025; in the dexamethasone group and 41&#x0025; in the placebo) and more adverse events and disability with dexamethasone treatment.<xref ref="pubmed26863355" resource="acc029" /></listitem>
+<listitem>The WHO (2022) guidelines do not recommend routine use of corticosteroids during the induction phase in HIV-associated cryptococcal meningitis.<xref ref="pubmed35797432" resource="acc051" /></listitem>
+<listitem>The Infectious Disease Society of America 2010 guideline suggests considering corticosteroids (0.5-1.0 mg&#x002F;kg&#x002F;day of prednisone equivalent) in patients with major complications (e.g., CNS inflammation with increased ICP, ARDS in the context of IRIS).</listitem>
+<listitem>Sertraline therapy was not found to be a useful adjunct to anti-fungal therapy in an RCT of 460 HIV-positive adults with CM.<xref ref="pubmed31345462" resource="acc040" /></listitem>
+<listitem>
+<strong>Pneumonia</strong></listitem>
+<listitem>In patients with cryptococcal pneumonia who are not immunocompromised, or for those who are immunosuppressed but have mild-moderate symptoms and no CNS involvement or disseminated disease, treat with fluconazole (400 mg [6 mg&#x002F;kg]) for 6 to 12 months.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>More than 50&#x0025; of both HIV-positive and HIV-negative patients with CM will have increased ICP.</listitem>
+<listitem>Radiographic imaging of the brain to rule out space-occupying lesion prior to the initial LP is recommended. If this is not possible, funduscopic examination to rule out papilledema should be performed.</listitem>
+<listitem>If there is no lesion, serial LPs should be performed to remove enough CSF to decrease the opening pressure by 50&#x0025; if the initial ICP is extremely high OR elevated to a normal pressure (&#x003E;20 mm Hg). <xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>If there is persistent pressure elevation &#x003E;25 cm of CSF and symptoms, repeat LP daily until the CSF pressure and symptoms have been stabilized for more than 2 days; consider temporary percutaneous lumbar drains or ventriculostomy for persons who require repeated daily LPs.</listitem>
+<listitem>Authors of a systematic review of 9 observational studies of ventriculoperitoneal shunt placement for hydrocephalus including 124 HIV-positive patients with either CM or tuberculous (TB) meningitis found insufficient data to predict prognosis.<xref ref="pubmed32303190" resource="acc041" /> One-month mortality ranged from 62.5&#x0025; to 100&#x0025; for CM and 33.3&#x0025; to 61.9&#x0025; for TB meningitis.</listitem>
+<listitem>Immune reconstitution inflammatory syndrome (IRIS) may develop after initiation of antiretroviral therapy in patients with CM. Risk factors for IRIS include high baseline antigen titers, fungemia, or disseminated disease.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>In patients without increased ICP, a repeat LP should be performed 2 weeks after the start of drug therapy to evaluate culture status and to exclude elevated pressure.</listitem>
+<listitem>A prospective non-randomized trial of 116 PLWH and CM compared therapeutic lumbar drainage vs. therapeutic lumbar puncture and found no difference in mortality.<xref ref="pubmed35225112" resource="acc048" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Immune reconstitution inflammatory syndrome (IRIS) is a sudden increase in inflammatory response that can occur in patients experiencing rapid improvement in cellular immunity. Clinical manifestations include fever, lymphadenitis, and CNS signs and symptoms that can be misinterpreted as treatment failure.</listitem>
+<listitem>IRIS can occur at treatment initiation for CM; after initiation of antiretroviral therapy with unmasking of cryptococcus; or sometimes as a complication of CM in solid-organ transplant patients as late as 6 weeks after instituting anti-fungal therapy, especially those exposed to tacrolimus, mycophenolate mofetil, and prednisone or alemtuzumab therapies. Risk factors for IRIS include high baseline antigen titers, fungemia, or disseminated disease.<xref ref="pubmed18090038" resource="acc005" /> No specific treatment is needed and the condition resolves in days to weeks. Corticosteroids can be considered but are not recommended by IDSA (2010) during anti-fungal therapy.</listitem>
+<listitem>
+<em>C. neoformans</em> meningitis may lead to permanent neurologic damage.</listitem>
+<listitem>Amphotericin-induced phlebitis occurred in 18&#x0025; (125&#x002F;696) of HIV-infected patients started on intravenous induction therapy for CM despite strategies such as flushing with normal saline, catheter changes and early ambulation.<xref ref="pubmed31242860" resource="acc042" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>In immunocompetent patients, infection is followed by elimination or sequestration of the infection to limited sites. Without a functioning immune system, the organism can and will disseminate throughout the rest of the body with a preference for the brain.<xref ref="pubmed16519251" resource="acc011" /></listitem>
+<listitem>Ten-week mortality of HIV-associated CM in developed countries is 10&#x0025; to 25&#x0025; with antifungal therapy and on combination ART.<xref ref="pubmed18090038" resource="acc005" /></listitem>
+<listitem>Higher mortality rates are reported for HIV-associated CM in sub-Saharan Africa (in hospital or within 2-weeks of discharge 44&#x0025;; 95&#x0025; CI 39&#x0025; to 49&#x0025;).<xref ref="pubmed31957332" resource="acc043" /></listitem>
+<listitem>In a US hospital database study, there were 30,840 hospitalizations coded for CM of which 21.6&#x0025; were among patients uninfected with HIV. In-hospital mortality was 12.4&#x0025; for women and 10.8&#x0025; for men.<xref ref="pubmed23457543" resource="acc023" /></listitem>
+<listitem>In the population study of children admitted with cryptococcal infection (63.5&#x0025; with an underlying immunocompromising medical condition, 21&#x0025; immunocompetent and 16&#x0025; HIV-positive), in-hospital case fatality rate was 9.5&#x0025;.<xref ref="pubmed20935590" resource="acc013" /></listitem>
+<listitem>In an RCT comparing fungicidal therapies to treat meningitis in PLWH, cerebral dysfunction (seizures, diminished level of consciousness) was associated with increased risk of death by 10 weeks after start of therapy (OR &#x003D; 9; 95&#x0025; CI 1.5-55.0, <em>P</em> &#x003D; .015).</listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>For disseminated and CNS disease, use amphotericin B deoxycholate with or without flucytosine; the latter is Pregnancy Category C. Start fluconazole (also Category C) after delivery.</listitem>
+<listitem>Authors of a case series and systematic review of 571 HIV-positive Ugandan women who were screened for CrAg, 13 were pregnant, one was breastfeeding, three were within 14 days postpartum, and two had recently miscarried.<xref ref="pubmed31689712" resource="acc044" /> Five women were exposed to 200-800 mg fluconazole during pregnancy resulting in three healthy babies with no gross physical abnormalities at birth, one maternal death from CM, and one who was lost to follow-up. Maternal meningitis survival rate at hospital discharge was 75&#x0025; (9&#x002F;12), and neonatal&#x002F;fetal survival rate was 44&#x0025; (4&#x002F;9) for those mothers who survived. Four women had miscarriages or stillbirths. Of six women with cryptococcal antigenemia, two received fluconazole, one received weekly amphotericin B, and three had unknown treatment courses. All women with antigenemia survived, and none developed clinical meningitis.</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>For PLWH or transplant patients, induction therapy with amphotericin B (1 mg&#x002F;kg IV) plus flucytosine (100 mg&#x002F;kg&#x002F;day orally in 4 divided doses) for 2 weeks followed by fluconazole (10-12 mg&#x002F;kg&#x002F;day orally) for 8 weeks, followed with maintenance therapy (6 mg&#x002F;kg&#x002F;day orally).</listitem>
+<listitem>For cryptococcal pneumonia, use fluconazole (6-12 mg&#x002F;kg&#x002F;day orally) for 6 to 12 months.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed19357635">
+<accessionId id="acc001" href="info:pmid/19357635" />
+<authors>Kaplan JE, Benson C, Holmes KH, et al.; Centers for Disease Control and Prevention (CDC); National Institutes of Health; HIV Medicine Association of the Infectious Diseases Society of America.</authors>
+<title>Guidelines for prevention and treatment of opportunistic infections in HIV-infected adults and adolescents: recommendations from CDC, the National Institutes of Health, and the HIV Medicine Association of the Infectious Diseases Society of America.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2009</pubdate>
+<volume>58</volume>
+<pages>1-207.</pages>
+</reference>
+<reference id="test463">
+<accessionId id="acc002" href="info:wiley/eep-dx/463" />
+<accessionId id="acc002b" href="info:pmid/1400951" />
+<authors>Temstet A, Roux P, Poirot JL, Ronin O, Dromer F.</authors>
+<title>Evaluation of a monoclonal antibody-based latex agglutination test for diagnosis of cryptococcosis: comparison with two tests using polyclonal antibodies.</title>
+<source>J Clin Microbiol</source>
+<pubdate>1992</pubdate>
+<volume>30</volume>
+<pages>2544-2550.</pages>
+</reference>
+<reference id="test464">
+<accessionId id="acc003" href="info:wiley/eep-dx/464" />
+<accessionId id="acc003b" href="info:pmid/9620388" />
+<authors>Dunbar SA, Eason RA, Musher DM, Clarridge JE, III.</authors>
+<title>Microscopic examination and broth culture of cerebrospinal fluid in diagnosis of meningitis.</title>
+<source>J Clin Microbiol</source>
+<pubdate>1998</pubdate>
+<volume>36</volume>
+<pages>1617-1620.</pages>
+</reference>
+<reference id="cochrane4773">
+<accessionId id="acc004" href="info:wiley/cochrane/CD004773" />
+<chapter_authors>Chang LW, Phipps WT, Kennedy GE, Rutherford G.</chapter_authors>
+<chapter_title>Antifungal interventions for the primary prevention of cryptococcal disease in adults with HIV.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2005, Issue 3. Art. No.: CD004773. DOI: 10.1002&#x002F;14651858.CD004773.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed18090038">
+<accessionId id="acc005" href="info:pmid/18090038" />
+<authors>Jarvis JN, Thomas SH.</authors>
+<title>HIV-associated cryptococcal meningitis.</title>
+<source>AIDS</source>
+<pubdate>2007</pubdate>
+<volume>21</volume>
+<pages>2119-2129.</pages>
+</reference>
+<reference id="pubmed12627365">
+<accessionId id="acc006" href="info:pmid/12627365" />
+<authors>Mirza SA, Phelan M, Rimland D, et al.</authors>
+<title>The changing epidemiology of cryptococcosis: an update from population-based active surveillance in 2 large metropolitan areas, 1992-2000.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2003</pubdate>
+<volume>36</volume>
+<pages>789-794.</pages>
+</reference>
+<reference id="pubmed17086058">
+<accessionId id="acc007" href="info:pmid/17086058" />
+<authors>Lortholary O, Poizat G, Zeller V, et al.</authors>
+<title>Long-term outcome of AIDS-associated cryptococcosis in the era of combination antiretroviral therapy.</title>
+<source>AIDS</source>
+<pubdate>2006</pubdate>
+<volume>20</volume>
+<pages>2183-2191.</pages>
+</reference>
+<reference id="pubmed9203426">
+<accessionId id="acc008" href="info:pmid/9203426" />
+<authors>van der Horst CM, Saag MS, Cloud GA, et al.</authors>
+<title>Treatment of cryptococcal meningitis associated with the acquired immunodeficiency syndrome.</title>
+<source>NEJM</source>
+<pubdate>1997</pubdate>
+<volume>337</volume>
+<pages>15-21.</pages>
+</reference>
+<reference id="pubmed12746781">
+<accessionId id="acc009" href="info:pmid/12746781" />
+<authors>Vibhagool A, Sungkanuparph S, Mootsikapun P, et al.</authors>
+<title>Discontinuation of secondary prophylaxis for cryptococcal meningitis in human immunodeficiency virus-infected patients treated with highly active antiretroviral therapy: a prospective, multicenter, randomized study.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2003</pubdate>
+<volume>36</volume>
+<pages>1329-1331.</pages>
+</reference>
+<reference id="pubmed11384512">
+<accessionId id="acc010" href="info:pmid/11384512" />
+<authors>Husain S, Wagener MM, Singh N.</authors>
+<title>Cryptococcus neoformans infection in organ transplant recipients: variables influencing clinical characteristics and outcome.</title>
+<source>Emerg Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>7</volume>
+<pages>375-381.</pages>
+</reference>
+<reference id="pubmed16519251">
+<accessionId id="acc011" href="info:pmid/16519251" />
+<authors>Subramanian S, Mathai D.</authors>
+<title>Clinical manifestations and management of cryptococcal infection.</title>
+<source>J Postgrad Med</source>
+<pubdate>2005</pubdate>
+<volume>51</volume>
+<pages>S21-S26.</pages>
+</reference>
+<reference id="pubmed8918955">
+<accessionId id="acc012" href="info:pmid/8918955" />
+<authors>Khanna N, Chandramukhi A, Desai A, Ravi V.</authors>
+<title>Cryptococcal infections of the central nervous system: an analysis of predisposing factors, laboratory findings, and outcome in patients from south India with special reference to HIV infection.</title>
+<source>J Med Microbiol</source>
+<pubdate>1996</pubdate>
+<volume>45</volume>
+<pages>376-379.</pages>
+</reference>
+<reference id="pubmed20935590">
+<accessionId id="acc013" href="info:pmid/20935590" />
+<authors>Joshi NS, Fisher BT, Prasad PA, Zaoutis TE.</authors>
+<title>Epidemiology of cryptococcal infection in hospitalized children.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2010</pubdate>
+<volume>29</volume>
+<pages>e91&#x2013;e95</pages>
+</reference>
+<reference id="pubmed21982529">
+<accessionId id="acc014" href="info:pmid/21982529" />
+<authors>Parkes-Ratanshi R, Wakeham K, Levin J, Namusoke D, Whitworth J, Coutinho A, Mugisha NK, Grosskurth H, Kamali A, Lalloo DG; Cryptococcal Trial Team.</authors>
+<title>Primary prophylaxis of cryptococcal disease with fluconazole in HIV-positive Ugandan adults: a double-blind, randomised, placebo-controlled trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>11</volume>
+<pages>933&#x2013;941</pages>
+</reference>
+<reference id="cochrane5647">
+<accessionId id="acc015" href="info:wiley/cochrane/CD005647" />
+<chapter_authors>Tenforde MW, Shapiro AE, Rouse B, Jarvis JN, Li T, Eshun-Wilson I, Ford N.</chapter_authors>
+<chapter_title>Treatment for HIV-associated cryptococcal meningitis.</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2018 Issue 7.</book_title>
+<edition />
+<city_publisher>Art. No.: CD005647. Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed23046967">
+<accessionId id="acc016" href="info:pmid/23046967" />
+<authors>Patel S, Shin GY, Wijewardana I, Vitharana SR, Cormack I, Pakianathan M, Harrison TS, Bicanic T.</authors>
+<title>The prevalence of cryptococcal antigenemia in newly diagnosed HIV patients in a Southwest London cohort.</title>
+<source>J Infect</source>
+<pubdate>2013</pubdate>
+<volume>66</volume>
+<pages>75&#x2013;79</pages>
+</reference>
+<reference id="pubmed22670042">
+<accessionId id="acc017" href="info:pmid/22670042" />
+<authors>Chen SC, Slavin MA, Heath CH, Playford EG, Byth K, Marriott D, Kidd SE, Bak N, Currie B, Hajkowicz K, Korman TM, McBride WJ, Meyer W, Murray R, Sorrell TC; Australia and New Zealand Mycoses Interest Group (ANZMIG)-Cryptococcus Study.</authors>
+<title>Clinical manifestations of Cryptococcus gattii infection: determinants of neurological sequelae and death.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2012</pubdate>
+<volume>55</volume>
+<pages>789&#x2013;798</pages>
+</reference>
+<reference id="pubmed23154046">
+<accessionId id="acc018" href="info:pmid/23154046" />
+<authors>Yu JQ, Tang KJ, Xu BL, Xie CM, Light RW.</authors>
+<title>Pulmonary cryptococcosis in non-AIDS patients.</title>
+<source>Braz J Infect Dis</source>
+<pubdate>2012 Nov-Dec</pubdate>
+<volume>16</volume>
+<pages>531&#x2013;539</pages>
+</reference>
+<reference id="cochrane9012">
+<accessionId id="acc019" href="info:wiley/cochrane/CD009012" />
+<chapter_authors>Eshun-Wilson I, Okwen MP, Richardson M, Bicanic T.</chapter_authors>
+<chapter_title>Early versus delayed antiretroviral treatment in HIV-positive people with cryptococcal meningitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 7. Art. No.: CD009012. DOI: 10.1002&#x002F;14651858.CD009012.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22421244">
+<accessionId id="acc020" href="info:pmid/22421244" />
+<authors>Jarvis JN, Meintjes G, Rebe K, Williams GN, Bicanic T, Williams A, Schutz C, Bekker LG, Wood R, Harrison TS.</authors>
+<title>Adjunctive interferon-&#x03B3; immunotherapy for the treatment of HIV-associated cryptococcal meningitis: a randomized controlled trial.</title>
+<source>AIDS</source>
+<pubdate>2012</pubdate>
+<volume>26</volume>
+<pages>1105&#x2013;1113</pages>
+</reference>
+<reference id="pubmed23055838">
+<accessionId id="acc021" href="info:pmid/23055838" />
+<authors>Rajasingham R, Rolfes MA, Birkenkamp KE, Meya DB, Boulware DR.</authors>
+<title>Cryptococcal meningitis treatment strategies in resource-limited settings: a cost-effectiveness analysis.</title>
+<source>PLoS Med</source>
+<pubdate>2012</pubdate>
+<volume>9</volume>
+<pages>e1001316</pages>
+</reference>
+<reference id="pubmed23550668">
+<accessionId id="acc022" href="info:pmid/23550668" />
+<authors>Day JN, Chau TT, Wolbers M, Mai PP, Dung NT, Mai NH, Phu NH, Nghia HD, Phong ND, Thai CQ, Thai le H, Chuong LV, Sinh DX, Duong VA, Hoang TN, Diep PT, Campbell JI, Sieu TP, Baker SG, Chau NV, Hien TT, Lalloo DG, Farrar JJ.</authors>
+<title>Combination antifungal therapy for cryptococcal meningitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>1291&#x2013;1302</pages>
+</reference>
+<reference id="pubmed23457543">
+<accessionId id="acc023" href="info:pmid/23457543" />
+<authors>Pyrgos V, Seitz AE, Steiner CA, Prevots DR, Williamson PR.</authors>
+<title>Epidemiology of cryptococcal meningitis in the US: 1997-2009.</title>
+<source>PLoS ONE</source>
+<pubdate>2013</pubdate>
+<volume>8</volume>
+<pages>e56269</pages>
+</reference>
+<reference id="pubmed23368667">
+<accessionId id="acc024" href="info:pmid/23368667" />
+<authors>Meyer AC, Kendi CK, Penner JA, Odhiambo N, Otieno B, Omondi E, Opiyo E, Bukusi EA, Cohen CR.</authors>
+<title>The impact of routine cryptococcal antigen screening on survival among HIV-infected individuals with advanced immunosuppression in Kenya.</title>
+<source>Trop Med Int Health</source>
+<pubdate>2013</pubdate>
+<volume>18</volume>
+<pages>495&#x2013;503</pages>
+</reference>
+<reference id="pubmed24963568">
+<accessionId id="acc025" href="info:pmid/24963568" />
+<authors>Boulware DR, Meya DB, Muzoora C, Rolfes MA, Huppler Hullsiek K, Musubire A, Taseera K, Nabeta HW, Schutz C, Williams DA, Rajasingham R, Rhein J, Thienemann F, Lo MW, Nielsen K, Bergemann TL, Kambugu A, Manabe YC, Janoff EN, Bohjanen PR, Meintjes G; COAT Trial Team.</authors>
+<title>Timing of antiretroviral therapy after diagnosis of cryptococcal meningitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>370</volume>
+<pages>2487&#x2013;2498</pages>
+</reference>
+<reference id="pubmed26637129">
+<accessionId id="acc026" href="info:pmid/26637129" />
+<authors>Wang J, Zeng Y, Luo W, Xie X, Li S.</authors>
+<title>The role of cryptococcus in the immune system of pulmonary cryptococcosis patients.</title>
+<source>PLoS ONE</source>
+<pubdate>2015</pubdate>
+<volume>10</volume>
+<pages>e0144427</pages>
+</reference>
+<reference id="pubmed25747471">
+<accessionId id="acc027" href="info:pmid/25747471" />
+<authors>Lin YY, Shiau S, Fang CT.</authors>
+<title>Risk factors for invasive Cryptococcus neoformans diseases: a case-control study.</title>
+<source>PLoS ONE</source>
+<pubdate>2015</pubdate>
+<volume>10</volume>
+<pages>e0119090</pages>
+</reference>
+<reference id="pubmed26349818">
+<accessionId id="acc028" href="info:pmid/26349818" />
+<authors>Bicanic T, Bottomley C, Loyse A, Brouwer AE, Muzoora C, Taseera K, Jackson A, Phulusa J, Hosseinipour MC, van der Horst C, Limmathurotsakul D, White NJ, Wilson D, Wood R, Meintjes G, Harrison TS, Jarvis JN.</authors>
+<title>Toxicity of amphotericin B deoxycholate-based induction therapy in patients with HIV-associated cryptococcal meningitis.</title>
+<source>Antimicrob Agents Chemother</source>
+<pubdate>2015</pubdate>
+<volume>59</volume>
+<pages>7224&#x2013;7231</pages>
+</reference>
+<reference id="pubmed26863355">
+<accessionId id="acc029" href="info:pmid/26863355" />
+<authors>Beardsley J, Wolbers M, Kibengo FM, Ggayi AB, Kamali A, Cuc NT, Binh TQ, Chau NV, Farrar J, Merson L, Phuong L, Thwaites G, Van Kinh N, Thuy PT, Chierakul W, Siriboon S, Thiansukhon E, Onsanit S, Supphamongkholchaikul W, Chan AK, Heyderman R, Mwinjiwa E, van Oosterhout JJ, Imran D, Basri H, Mayxay M, Dance D, Phimmasone P, Rattanavong S, Lalloo DG, Day JN; CryptoDex Investigators.</authors>
+<title>Adjunctive dexamethasone in HIV-associated cryptococcal meningitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>542&#x2013;554</pages>
+</reference>
+<reference id="pubmed29539274">
+<accessionId id="acc030" href="info:pmid/29539274" />
+<authors>Molloy SF, Kanyama C, Heyderman RS, Loyse A, Kouanfack C, Chanda D, Mfinanga S, Temfack E, Lakhi S, Lesikari S, Chan AK, Stone N, Kalata N, Karunaharan N, Gaskell K, Peirse M, Ellis J, Chawinga C, Lontsi S, Ndong JG, Bright P, Lupiya D, Chen T, Bradley J, Adams J, van der Horst C, van Oosterhout JJ, Sini V, Mapoure YN, Mwaba P, Bicanic T, Lalloo DG, Wang D, Hosseinipour MC, Lortholary O, Jaffar S, Harrison TS, ACTA Trial Study Team.</authors>
+<title>Antifungal combinations for treatment of cryptococcal meningitis in Africa.</title>
+<source>N Engl J Med.</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>1004&#x2013;1017</pages>
+</reference>
+<reference id="pubmed28723333">
+<accessionId id="acc031" href="info:pmid/28723333" />
+<authors>Hakim J, Musiime V, Szubert AJ, Mallewa J, Siika A, Agutu C, Walker S, Pett SL, Bwakura-Dangarembizi M, Lugemwa A, Kaunda S, Karoney M, Musoro G, Kabahenda S, Nathoo K, Maitland K, Griffiths A, Thomason MJ, Kityo C, Mugyenyi P, Prendergast AJ, Walker AS, Gibb DM, REALITY Trial Team.</authors>
+<title>Enhanced prophylaxis plus antiretroviral therapy for advanced HIV infection in Africa.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>233&#x2013;245</pages>
+</reference>
+<reference id="pubmed29377368">
+<accessionId id="acc032" href="info:pmid/29377368" />
+<authors>Bongomin F, Oladele RO, Gago S, Moore CB, Richardson MD.</authors>
+<title>A systematic review of fluconazole resistance in clinical isolates of Cryptococcus species.</title>
+<source>Mycoses</source>
+<pubdate>2018</pubdate>
+<volume>61</volume>
+<pages>290&#x2013;297</pages>
+</reference>
+<reference id="pubmed31382367">
+<accessionId id="acc033" href="info:pmid/31382367" />
+<authors>Beardsley J, Sorrell TC, Chen SC.</authors>
+<title>Central nervous system cryptococcal infections in non-HIV infected patients.</title>
+<source>J Fungi (Basel)</source>
+<pubdate>2019</pubdate>
+<volume>5</volume>
+<pages />
+</reference>
+<reference id="pubmed32532212">
+<accessionId id="acc034" href="info:pmid/32532212" />
+<authors>Li Y, Huang X, Chen H, Qin Y, Hou J, Li A, Wu H, Yan X, Chen Y.</authors>
+<title>The prevalence of cryptococcal antigen (CrAg) and benefits of pre-emptive antifungal treatment among HIV-infected persons with CD4+ T-cell counts &lt; 200 cells&#x002F;&#x03BC;L: evidence based on a meta-analysis.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2020</pubdate>
+<volume>20</volume>
+<pages>410</pages>
+</reference>
+<reference id="pubmed30761136">
+<accessionId id="acc035" href="info:pmid/30761136" />
+<authors>Shourian M, Qureshi ST.</authors>
+<title>Resistance and tolerance to cryptococcal infection: an intricate balance that controls the development of disease.</title>
+<source>Front Immunol</source>
+<pubdate>2019</pubdate>
+<volume>10</volume>
+<pages>66</pages>
+</reference>
+<reference id="pubmed30020446">
+<accessionId id="acc036" href="info:pmid/30020446" />
+<authors>Temfack E, Bigna JJ, Luma HN, Spijker R, Meintjes G, Jarvis JN, Dromer F, Harrison T, Cohen JF, Lortholary O.</authors>
+<title>Impact of routine cryptococcal antigen screening and targeted preemptive fluconazole therapy in antiretroviral-naive human immunodeficiency virus-infected adults with CD4 cell counts &lt;100&#x002F;&#x03BC;L: a systematic review and meta-analysis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>68</volume>
+<pages>688&#x2013;698</pages>
+</reference>
+<reference id="pubmed30399034">
+<accessionId id="acc037" href="info:pmid/30399034" />
+<authors>Meya DB, Kiragga AN, Nalintya E, Morawski BM, Rajasingham R, Park BJ, Mubiru A, Kaplan JE, Manabe YC, Boulware DR.</authors>
+<title>Reflexive laboratory-based cryptococcal antigen screening and preemptive fluconazole therapy for cryptococcal antigenemia in HIV-infected individuals with CD4 &lt;100 cells&#x002F;&#x00B5;L: a stepped-wedge, cluster-randomized trial.</title>
+<source>J Acquir Immune Defic Syndr</source>
+<pubdate>2019</pubdate>
+<volume>80</volume>
+<pages>182&#x2013;189</pages>
+</reference>
+<reference id="pubmed32829406">
+<accessionId id="acc038" href="info:pmid/32829406" />
+<authors>Temfack E, Rim JJB, Spijker R, Loyse A, Chiller T, Pappas PG, Perfect J, Sorell TC, Harrison TS, Cohen JF, Lortholary O.</authors>
+<title>Cryptococcal antigen in serum and cerebrospinal fluid for detecting cryptococcal meningitis in adults living with HIV: systematic review and meta-analysis of diagnostic test accuracy studies.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2020</pubdate>
+<pages />
+</reference>
+<reference id="pubmed32887568">
+<accessionId id="acc039" href="info:pmid/32887568" />
+<authors>Xie LM, Lin GL, Dong HN, Liao YX, Liu YL, Qin JF, Guo XG.</authors>
+<title>Evaluation of lateral flow immunochromatographic assay for diagnostic accuracy of cryptococcosis.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2020</pubdate>
+<volume>20</volume>
+<pages>650</pages>
+</reference>
+<reference id="pubmed31345462">
+<accessionId id="acc040" href="info:pmid/31345462" />
+<authors>Rhein J, Huppler Hullsiek K, Tugume L, Nuwagira E, Mpoza E, Evans EE, Kiggundu R, Pastick KA, Ssebambulidde K, Akampurira A, Williams DA, Bangdiwala AS, Abassi M, Musubire AK, Nicol MR, Muzoora C, Meya DB, Boulware DR, ASTRO-CM team.</authors>
+<title>Adjunctive sertraline for HIV-associated cryptococcal meningitis: a randomised, placebo-controlled, double-blind phase 3 trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>843&#x2013;851</pages>
+</reference>
+<reference id="pubmed32303190">
+<accessionId id="acc041" href="info:pmid/32303190" />
+<authors>Loan JJM, Poon MTC, Tominey S, Mankahla N, Meintjes G, Fieggen AG.</authors>
+<title>Ventriculoperitoneal shunt insertion in human immunodeficiency virus infected adults: a systematic review and meta-analysis.</title>
+<source>BMC Neurol</source>
+<pubdate>2020</pubdate>
+<volume>20</volume>
+<pages>141</pages>
+</reference>
+<reference id="pubmed31242860">
+<accessionId id="acc042" href="info:pmid/31242860" />
+<authors>Ahimbisibwe C, Kwizera R, Ndyetukira JF, Kugonza F, Sadiq A, Hullsiek KH, Williams DA, Rhein J, Boulware DR, Meya DB.</authors>
+<title>Management of amphotericin-induced phlebitis among HIV patients with cryptococcal meningitis in a resource-limited setting: a prospective cohort study.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>558</pages>
+</reference>
+<reference id="pubmed31957332">
+<accessionId id="acc043" href="info:pmid/31957332" />
+<authors>Tenforde MW, Gertz AM, Lawrence DS, Wills NK, Guthrie BL, Farquhar C, Jarvis JN.</authors>
+<title>Mortality from HIV-associated meningitis in sub-Saharan Africa: a systematic review and meta-analysis.</title>
+<source>J Int AIDS Soc</source>
+<pubdate>2020</pubdate>
+<volume>23</volume>
+<pages>e25416</pages>
+</reference>
+<reference id="pubmed31689712">
+<accessionId id="acc044" href="info:pmid/31689712" />
+<authors>Pastick KA, Nalintya E, Tugume L, Ssebambulidde K, Stephens N, Evans EE, Ndyetukira JF, Nuwagira E, Skipper C, Muzoora C, Meya DB, Rhein J, Boulware DR, Rajasingham R.</authors>
+<title>Cryptococcosis in pregnancy and the postpartum period: Case series and systematic review with recommendations for management.</title>
+<source>Med Mycol</source>
+<pubdate>2020</pubdate>
+<volume>58</volume>
+<pages>282&#x2013;292</pages>
+</reference>
+<reference id="pubmed35320642">
+<accessionId id="acc045" href="info:pmid/35320642" />
+<authors>Jarvis JN, Lawrence DS, Meya DB, Kagimu E, Kasibante J, Mpoza E, Rutakingirwa MK, Ssebambulidde K, Tugume L, Rhein J, Boulware DR, Mwandumba HC, Moyo M, Mzinganjira H, Kanyama C, Hosseinipour MC, Chawinga C, Meintjes G, Schutz C, Comins K, Singh A, Muzoora C, Jjunju S, Nuwagira E, Mosepele M, Leeme T, Siamisang K, Ndhlovu CE, Hlupeni A, Mutata C, van Widenfelt E, Chen T, Wang D, Hope W, Boyer-Chammard T, Loyse A, Molloy SF, Youssouf N, Lortholary O, Lalloo DG, Jaffar S, Harrison TS, Ambition Study Group.</authors>
+<title>Single-Dose Liposomal Amphotericin B Treatment for Cryptococcal Meningitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>1109&#x2013;1120</pages>
+</reference>
+<reference id="pubmed28483415">
+<accessionId id="acc046" href="info:pmid/28483415" />
+<authors>Rajasingham R, Smith RM, Park BJ, Jarvis JN, Govender NP, Chiller TM, Denning DW, Loyse A, Boulware DR.</authors>
+<title>Global burden of disease of HIV-associated cryptococcal meningitis: an updated analysis.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>17</volume>
+<pages>873&#x2013;881</pages>
+</reference>
+<reference id="pubmed33402899">
+<accessionId id="acc047" href="info:pmid/33402899" />
+<authors>Alemayehu T, Ayalew S, Buzayehu T, Daka D.</authors>
+<title>Magnitude of <em>Cryptococcosis</em> among HIV patients in sub-Saharan Africa countries: a systematic review and meta-analysis.</title>
+<source>Afr Health Sci</source>
+<pubdate>2020</pubdate>
+<volume>20</volume>
+<pages>114&#x2013;121</pages>
+</reference>
+<reference id="pubmed35225112">
+<accessionId id="acc048" href="info:pmid/35225112" />
+<authors>Xu XL, Zhao T, Huang YQ, Lu YQ, He XJ, Wu YS, Zhang W, Yu JH, Yang TT, Xu LJ, Lan K, Zhang DF, Harypursat V, Chen YK.</authors>
+<title>Therapeutic lumbar puncture and lumbar drainage: which is more effective for the management of intracranial hypertension in HIV patients with cryptococcal meningitis? Results of a prospective non-randomized interventional study in China.</title>
+<source>Curr Med Res Opin</source>
+<pubdate>2022</pubdate>
+<volume>38</volume>
+<pages>803&#x2013;810</pages>
+</reference>
+<reference id="pubmed37606364">
+<accessionId id="acc049" href="info:pmid/37606364" />
+<authors>Boulware DR 0000-0002-4715-0060, Atukunda M, Kagimu E, Musubire AK, Akampurira A, Tugume L, Ssebambulidde K, Kasibante J, Nsangi L, Mugabi T, Gakuru J, Kimuda S, Kasozi D, Namombwe S, Turyasingura I, Rutakingirwa MK, Mpoza E, Kigozi E, Muzoora C, Ellis J, Skipper CP, Matkovits T, Williamson PR, Williams DA, Fieberg A, Hullsiek KH, Abassi M, Dai B, Meya DB.</authors>
+<title>Oral Lipid Nanocrystal Amphotericin B for Cryptococcal Meningitis: A Randomized Clinical Trial.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2023</pubdate>
+<volume>77</volume>
+<pages>1659&#x2013;1667</pages>
+</reference>
+<reference id="pubmed37024842">
+<accessionId id="acc050" href="info:pmid/37024842" />
+<authors>Macrae C, Ellis J, Keddie SH, Falconer J, Bradley J, Keogh R, Baerenbold O, Hopkins H, Jarvis JN.</authors>
+<title>Diagnostic performance of the IMMY cryptococcal antigen lateral flow assay on serum and cerebrospinal fluid for diagnosis of cryptococcosis in HIV-negative patients: a systematic review.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2023</pubdate>
+<volume>23</volume>
+<pages>209</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="pubmed35797432">
+<accessionId id="acc051" href="info:pmid/35797432" />
+<authors>.</authors>
+<title>Guidelines for Diagnosing, Preventing and Managing Cryptococcal Disease Among Adults, Adolescents and Children Living with HIV </title>
+<source />
+<pubdate>2022</pubdate>
+<pages />
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+</topic>

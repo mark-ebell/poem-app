@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Peptic ulcer disease</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0216</topic_id>
+<topic_comment />
+<topic_lastupdated>04/17/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mark H. Ebell, MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Randall T. Forsch, MD, MPH</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of Michigan</author_institution>
+<author_email>rforsch&#x0040;umich.edu</author_email>
+<author_phone_office>734.433.3110</author_phone_office>
+<author_phone_home>734.475.4273</author_phone_home>
+<author_phone_fax>734.475.8008</author_phone_fax>
+<author_street1>14700 E. Old U.S. 12</author_street1>
+<author_street2 />
+<author_city>Chelsea</author_city>
+<author_state>MI</author_state>
+<author_zip>48118</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>NSAID use and <em>Helicobacter pylori</em> infection cause most peptic ulcer disease (PUD). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients with "red flags" (<xref ref="table001" />) and those with an onset of symptoms after age 55 years require referral for endoscopy. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem><em>H. pylori</em> serologic testing is a cost-effective management strategy in untreated patients with dyspepsia. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>The ACG clinical guideline on the management of <em>H. pylori</em> recommends first-line therapy with bismuth quadruple therapy or concomitant therapy consisting of a PPI, clarithromycin, amoxicillin, and metronidazole. Alternative treatments are listed in <xref ref="table002" />.<xref ref="pubmed33929377" resource="acc042" /><evidence rating="A" system="SORT">A</evidence><xref ref="cochrane3840" resource="acc021" />.</listitem>
+<listitem>Expect PUD symptoms to resolve within 7 to 14 days of the start of <em>H. pylori</em> eradication therapy. If symptoms persist, consider antibiotic resistance or some other cause. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>ACG guidelines for bleeding peptic ulcer recommend erythromycin infusion prior to endoscopy, prompt endoscopy with bipolar electrocoagulation, heater probe, and absolute ethanol injection for active bleeding, and PPI after endoscopy. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed33929377" resource="acc042" /></listitem>
+</list>
+</BottomLine>
+<definition>Peptic ulcer disease (PUD) is characterized by defects in the stomach and&#x002F;or duodenal mucosa, through the muscularis mucosa, allowing inflammation of the underlying tissue by gastric acid and pepsin.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>A total of 6.8&#x0025; of the US population older than 18 years reported a history of PUD in 2003.<xref ref="nopmid_1069" /><xref ref="pubmed17608775" resource="acc023" /></listitem>
+<listitem>A total of 30&#x0025; to 40&#x0025; of the US population is infected with <em>H. pylori</em>.</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem><em>Helicobacter pylori</em> infection: present in 95&#x0025; of duodenal and 70&#x0025; of gastric ulcers.<xref ref="cochrane3840" resource="acc021" /></listitem>
+<listitem>Chronic use of NSAIDS, including aspirin and COX-2 inhibitors.</listitem>
+<listitem><em>H. pylori</em> and NSAIDs are synergistic in increasing the risk of PUD.<xref ref="poem40571" resource="acc025" /></listitem>
+<listitem>Other drugs: corticosteroids, bisphosphonates, potassium chloride, clopidogrel, sirolimus, chemotherapy.</listitem>
+<listitem>Hypersecretion syndromes: gastrinoma (Zollinger-Ellison), systemic mastocytosis, carcinoid syndrome.</listitem>
+<listitem>Radiation therapy.</listitem>
+<listitem>Viral infection: herpes simplex virus, cytomegalovirus.</listitem>
+<listitem>There is controversy over whether smoking and alcohol significantly affect the incidence of PUD.<xref ref="pubmed18277902" resource="acc020" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The mucosal lining of the stomach and duodenum can handle a normal load of gastric acid (pH 1-2) and pepsin.</listitem>
+<listitem><em>H. pylori</em> are spread by human saliva, water, and food. <em>H. pylori</em> bacteria have an outer inflammatory protein and cytotoxin that increases virulence and ulcerogenic potential.<xref ref="pubmed14573679" resource="acc019" /></listitem>
+<listitem>NSAIDS inhibit cyclo-oxygenase and prostaglandins, which blocks their effects of enhancing gastric mucosal protection by stimulating mucus and bicarbonate secretion, epithelial cell proliferation, and increased blood flow.</listitem>
+<listitem>Disruption of the mucosal lining produces inflammation of underlying tissue, causing bleeding and sometimes perforation of the stomach or duodenum wall.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>H. pylori infection</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>NSAID use</Risk_Name>
+<Risk_OR>4.1 (2.8-5.9)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Aspirin use</Risk_Name>
+<Risk_OR>2.8 (1.4-5.5)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Alcohol use</Risk_Name>
+<Risk_OR>2.4 (1.4-4.0)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Smoking</Risk_Name>
+<Risk_OR>1.4 (1.0-2.0)</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed8424842" resource="acc026" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Counseling older patients about the risk of NSAID use is associated with decreased rehospitalization for PUD (odds ratio [OR] &#x003D; 0.47) and all-cause mortality (OR &#x003D; 0.44). <evidence rating="B" system="SORT">B</evidence><xref ref="poem40129" resource="acc018" /></listitem>
+<listitem>Use acetaminophen instead of NSAIDs when appropriate, or add a proton pump inhibitor in patients with previous NSAID-related ulcer who are unable to discontinue aspirin or NSAIDs.<xref ref="pubmed29196436" resource="acc038" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Widespread screening for <em>H. pylori</em> infection because of associated risk of PUD and gastric carcinoma is not currently recommended. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Patients with a history of documented PUD should have empiric <em>H. pylori</em> eradication therapy without testing. If symptoms persist, patients should undergo active <em>H. pylori</em> testing or upper endoscopy. <evidence rating="B" system="SORT">B</evidence><xref ref="poem162" resource="acc024" /></listitem>
+<listitem>A clinical trial randomized 3298 ICU patients with at least one risk factor for GI bleeding to pantoprazole 40 mg once daily or placebo. They found no difference in mortality but a lower risk of GI bleeding in those receiving the proton pump inhibitor (2.5&#x0025; vs 4.2&#x0025;, p &lt;0.05, NNT &#x003D; 59).<xref ref="pubmed30354950" resource="acc036" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A Chinese trial randomized 4010 H. pylori positive adults to 2 of 3 treatments: garlic supplementation for 7.3 years, a supplement containing vitamin C, vitamin E and selenium for 7 years, or H. pylori eradication. The vitamin supplements and H. pylori eradication both decreased the likelihood of dying of gastric cancer in this population at very high risk for gastric cancer. It took 22.3 years of follow-up before the study showed a statistically significant benefit, though. <evidence rating="B" system="SORT">B</evidence><xref ref="poem211101" resource="acc039" /></listitem>
+<listitem>In older patients taking low dose aspirin who were H. pylori positive, those randomized to HP eradication had fewer peptic ulcer bleeds in the next 2 years (NNT &#x003D; 238). However, the benefit faded over time.<xref ref="poem342395" resource="acc046" /></listitem>
+<listitem>In patients receiving low dose aspirin who had a history of peptic ulcer and GI hemorrhage, a network meta-analysis of 11 RCTs found that both pantoprazole (0.02) and vonoprazan (RR 0.03) are effective at preventing recurrrence and hemorrhage.<xref ref="pubmed38252210" resource="acc054" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Symptoms that best rule in peptic ulcer are <resourceLink href="info:wiley/eep-hp/21">pain relieved by food, pain at night relieved by food, and episodic pain.</resourceLink><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem><resourceLink href="info:wiley/eep-dx/338">H. pylori serologic testing</resourceLink> is a cost-effective and effective strategy for untreated patients with dyspepsia. <evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Functional (nonulcer) dyspepsia</Differential_Name>
+<Differential_Features>No organic cause of PUD-like symptoms, diagnosis of exclusion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Gastric carcinoma</Differential_Name>
+<Differential_Features>Older than 45 years, nausea and vomiting, unexplained weight loss, left upper quadrant mass, anemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Drug-induced dyspepsia</Differential_Name>
+<Differential_Features>NSAIDS, steroids, digitalis, theophylline, caffeine, nicotine, alcohol</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Granulomatous disease</Differential_Name>
+<Differential_Features>Usually with pulmonary manifestations of sarcoidosis, Wegener's granulomatosis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Crohn's disease</Differential_Name>
+<Differential_Features>Usually with distal small intestine involvement</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Infections</Differential_Name>
+<Differential_Features>Tuberculosis, Giardia, strongyloidiasis, biopsy to confirm infection</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Gastroesophageal reflux disease (GERD)</Differential_Name>
+<Differential_Features>Worse with eating, associated with obesity, caffeine, nicotine, alcohol</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>The usual onset is in a patient younger than 55 years with risk factors of NSAID use and&#x002F;or undiagnosed <em>H. pylori</em> infection.</listitem>
+<listitem>The main PUD symptom is gnawing or burning nonradiating epigastric pain that occurs when the stomach is empty; ie, 2 to 3 hours after meals or at night. It can be relieved by food or antacids. Specific symptoms that increase the likelihood of PUD in patients with dyspepsia include <resourceLink href="info:wiley/eep-hp/21">pain relieved by food, nighttime awakening accompanied by relief with food, and episodic pain.</resourceLink> The <resourceLink href="info:wiley/eep-hp/21">overall physician impression</resourceLink> is moderately accurate at identifying dyspeptic patients with PUD (LR+ &#x003D; 2.2, LR&#x2212; &#x003D; 0.45).<xref ref="pubmed16595759" resource="acc017" /></listitem>
+<listitem>Signs and symptoms of complicated ulcer or malignancy ("red flags") are listed in <xref ref="table001" />. Patients with any of these symptoms should be referred for prompt or urgent upper endoscopy, depending on the symptoms. See the <resourceLink href="info:wiley/eep-eee/839">gastrointestinal hemorrhage (upper, nonvariceal)</resourceLink> topic for a more detailed discussion of management.</listitem>
+<listitem>The risk of serious upper gastrointestinal bleeding or perforation is low (1 per 1000 patients per year) in patients who do not take NSAIDs.<xref ref="poem40465" resource="acc016" /></listitem>
+<listitem>In a recent case-control study, only NSAID use was a risk factor for bleeding in patients with PUD.<xref ref="pubmed18648934" resource="acc001" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Diagnostic upper endoscopy is the most accurate test for diagnosing PUD and active <em>H. pylori</em> infection, but is more costly and invasive, and is recommended only for patients with "red flags" (<xref ref="table001" />), patients older than 55 years, and those with persistent symptoms.<xref ref="pubmed16285970" resource="acc015" /></listitem>
+<listitem>The sensitivity of the rapid urease test for the diagnosis of <em>H. pylori</em> when assessed at the time of the index endoscopy for PUD bleeding, can be increase by about 12&#x0025; to 13&#x0025; (from 61&#x0025; to 73&#x0025;-74&#x0025;) by increasing the number of biopsy samples from the gastric antrum, or biopsying from the gastric body.<xref ref="pubmed25213078" resource="acc032" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-dx/338">H. pylori serologic testing</resourceLink> is a cost-effective and effective management strategy in untreated patients with dyspepsia. <em>H. pylori</em> serologic tests only show exposure, not active infection, and may not be useful in older patients or to confirm cure. Active <em>H. pylori</em> infection can be accurately identified with <resourceLink href="info:wiley/eep-dx/338">culture from biopsy</resourceLink>, <resourceLink href="info:wiley/eep-dx/338">urea breath test,</resourceLink> or the <resourceLink href="info:wiley/eep-dx/338">stool antigen test.</resourceLink></listitem>
+<listitem>The urea breath test is more expensive, requires patient preparation, and can be adversely affected by antibiotics, bismuth, and proton pump inhibitors.</listitem>
+<listitem>The stool antigen test is easy to obtain and accurate, but can be effected by antibiotics, bismuth, and proton pump inhibitors.</listitem>
+<listitem>Repeat testing by urea breath test, stool antigen, or gastric biopsy is indicated for all treated patients for a test of cure <xref ref="poem780" resource="acc014" /></listitem>
+<listitem>If proof of eradication is desired by urea breath test or stool antigen, the patient should stop using antibiotics, bismuth and proton pump inhibitors for at least 2 weeks prior to testing. There is no need to stop H2 blockers.<xref ref="pubmed10483995" resource="acc013" /></listitem>
+<listitem>British Society of Gastroenterology guidelines (2022) recommend urgent evaluation of patients with UGI alarm symptoms, such as anyone with dysphagia, or persons 55 years or older with weight loss and either dyspepsia, upper abdominal pain, or reflux. They also recommend urgent evaluation for patients 40 years or older who are either from a region where gastric cancer is common or who have a family history of gastroesophageal cancer. Other alarm symptoms warranting a less urgent evaluation include hematemesis; and in persons 55 years or older, treatment-resistant dyspepsia, dyspepsia, or upper abdominal pain with elevated platelet count, low hemoglobin, nausea or vomiting, or nausea or vomiting with any weight loss, reflux, dyspepsia, or upper abdominal pain.<xref ref="poem399284" resource="acc050" /></listitem>
+<listitem>BSG guidelines (2022) also recommend that as part of the initial evaluation, all patients 55 years or older should have a complete blood count with platelets, those with overlapping irritable bowel symptoms should have celiac serology, and those 60 or older with abdominal pain and weight loss should have an abdominal CT to evaluate for pancreatic cancer. All patients with dyspepsia should be evaluated for the presence of helicobacter pylori (HP) using a stool or breath test, and if the results are abnormal the patient should be treated to eradicate HP. The guidelines recommend against the routine use of gastric emptying tests or 24-hour pH monitoring. <xref ref="poem399284" resource="acc050" /></listitem>
+<listitem>The Maastricht consensus guidelines on the diagnosis of <em>H. pylori</em>, include the folowing: (1) A test-and-treat strategy is appropriate for uninvestigated dyspepsia in younger patients without alarm symptoms; (2) an endoscopy-based diagnostic strategy is an option for patients with dyspepsia when the prevalence of HP infection is low; (3) test for HP infection in patients with peptic ulcer who use aspirin and nonsteroidal anti-inflammatory drugs; (4) a urea breath test is the recommended initial test; (5) blood tests should generally be avoided; and (6) bismuth, antibiotics, and proton pump inhibitors (PPIs) should be discontinued for 2 to 4 weeks prior to testing.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem><xref ref="poem190404" resource="acc034" /><xref ref="poem190404" resource="acc034" /> A <resourceLink href="info:wiley/eep-rule/46">clinical rule</resourceLink> that predicts the likelihood of ulcer in dyspeptic patients has been developed. However, it is fairly complex and probably not practical for routine use in the primary care setting.</listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/149">Glasgow-Blatchford risk score</resourceLink> has been well validated for mortality prediction in patients with upper GI bleeding.<xref ref="rule149" resource="acc045" /> ACG guidelines (2021) recommend hospitalization for patients with ulcer bleeding and a <resourceLink href="info:wiley/eep-rule/149">Glasgow-Blatchford score</resourceLink> &gt;1 point or who otherwise cannot be classified as very low risk (score 0 or 1 points).<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/540">laboratory based C-WATCH risk score</resourceLink> predicts the likelihood of rebleeding, angiography, surgery, or death.<xref ref="rule540" resource="acc047" /></listitem>
+<listitem>A <resourceLink href="info:wiley/eep-rule/24">risk score</resourceLink> can predict the likelihood of persistent bleeding following endoscopic injection in patients with bleeding peptic ulcer.<xref ref="rule24" resource="acc048" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/624">ABC risk score</resourceLink> predicts mortality in patients with acute upper or lower GI bleed.<xref ref="rule624" resource="acc049" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See the algorithm in <xref ref="fig001" />. Although a cutoff of 55 years is recommended, some research suggests a lower cutoff for men.<xref ref="poem70702" resource="acc012" /></listitem>
+<listitem>Following this algorithm reduces the need for endoscopy, reduces cost, reduces the number of sick days, and produces health outcomes equivalent to early endoscopy.<xref ref="poem81005" resource="acc011" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>21</HP_ID>
+<HP_ID>87</HP_ID>
+<HP_ID>138</HP_ID>
+<HP_ID>139</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>87</Dx_ID>
+<Dx_ID>338</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for PUD treatment algorithm. <evidence rating="B" system="SORT">B</evidence><xref ref="poem81005" resource="acc011" /><xref ref="pubmed16285970" resource="acc015" /></listitem>
+<listitem>The ACG clinical guideline on the management of <em>H. pylori</em> recommends first-line therapy with bismuth quadruple therapy or concomitant therapy consisting of a PPI, clarithromycin, amoxicillin, and metronidazole. As antimicrobial resistance is increasing, alternative treatments are listed in <xref ref="table002" />.<xref ref="pubmed33929377" resource="acc042" /><evidence rating="A" system="SORT">A</evidence><xref ref="cochrane3840" resource="acc021" /></listitem>
+<listitem>If the patient has red flag symptoms for complicated PUD or malignancy (see <xref ref="table001" />), begins to have symptoms when older than 55, or has failed <em>H. pylori</em> eradication therapy, consider gastroenterology referral for prompt endoscopy. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16285970" resource="acc015" /></listitem>
+<listitem>Patients at risk for ulcer related complications from NSAIDs should take a PPI if they continue to take an NSAID. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed28257716" resource="acc035" /></listitem>
+<listitem>ACG guidelines for bleeding peptic ulcer recommend erythromycin infusion prior to endoscopy, prompt endoscopy with bipolar electrocoagulation, heater probe, and absolute ethanol injection for active bleeding, and PPI after endoscopy. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed33929377" resource="acc042" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>If possible, patients with PUD symptoms should stop using NSAIDs, COX-2 inhibitors, and high-dose aspirin. If symptoms resolve, no further treatment is necessary.</listitem>
+<listitem>If a patient with known <em>H. pylori</em> infection and a history of upper GI bleeding is unable to discontinue using NSAIDs or aspirin, give him or her a proton pump inhibitor to prevent recurrent bleeding.<xref ref="pubmed29196436" resource="acc038" /> If a patient with the same history is using low-dose aspirin, treat <em>H. pylori</em> infection to significantly decrease the incidence of recurrent bleeding.<xref ref="pubmed11274623" resource="acc010" /></listitem>
+<listitem>A randomized trial found that in patients 60 years and older who were taking low dose aspirin and were HP positive, HP eradication reduced the likelihood of subsequent bleed over 2.5 years (NNT &#x003D; 238).<xref ref="poem342395" resource="acc046" /></listitem>
+<listitem>Italian guidelines recommend HP eradication in all patients with a history of PUD who are also taking aspirin or an NSAID. <xref ref="pubmed35831212" resource="acc052" /></listitem>
+<listitem><strong>H. pylori Eradication</strong></listitem>
+<listitem>Individualized treatment of H pylori is limited by the fact that antibiotic sensitivity testing is not routinely available locally, necessitating the use of empirical therapies.</listitem>
+<listitem>ACG guidelines (2021) recommend PPI plus amoxicillin plus clarithromycin plus metronidazle&#x002F;tinidazole, all bid for 7 to 14 days.<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>A meta-analysis of 143 studies pubished in 2015 concluded that the following regimes were most effective in eradicating <em>H. pylori</em>: 7 to 14 days of PPI plus amoxicillin plus clarithromycin plus metronidazle&#x002F;tindazole (up to 94&#x0025; eradication), 10 to 14 days of standard triple therapy plus probiotics (90&#x0025;) and 10 to 14 days of PPI plus levofloxacin plus another antibiotic (90&#x0025;). All treatments were tolerated.<xref ref="poem171111" resource="acc033" /></listitem>
+<listitem>One week of triple therapy (proton pump inhibitor, amoxicillin, clarithromycin) had a similar <em>H. pylori</em> eradication rate as the 14-day course (80&#x0025;).<xref ref="pubmed17028126" resource="acc009" /> In this study, the successful eradication of <em>H. pylori</em> after 14 days was lower than the usual rate of 85&#x0025; or higher that has typically been reported.</listitem>
+<listitem>Italian guidelines (2022) recommend bismuth based quadruple therapy (bismuth, PPI, tetracycline and metronidazole). Where dual clarithromycin and metronidazole resistance is low the combination of PPI, clarithromycin, amoxicillin, and metronidazole or tinidazole is an option. <xref ref="pubmed35831212" resource="acc052" /></listitem>
+<listitem>In a meta-analysis, sequential therapy with proton pump inhibitor plus amoxicillin for 5 days, followed by proton pump inhibitor, clarithromycin, and tinidazole for 5 days (all given twice daily) had a 93.4&#x0025; eradication rate and was more effective than standard triple therapy.<xref ref="pubmed18490667" resource="acc008" /> A single-day therapy was also 95&#x0025; effective in one study (see <xref ref="table002" />).<xref ref="poem60264" resource="acc006" /></listitem>
+<listitem>If signs and symptoms persist beyond 14 days, consider antibiotic resistance and retreat with levofloxacin 500 mg daily, amoxicillin 1 g twice daily, and a proton pump inhibitor twice daily for 10 days.<xref ref="poem80601" resource="acc005" /> Or try the NIH Conventional Triple Therapy plus a proton pump inhibitor (<xref ref="table002" />).</listitem>
+<listitem>Another option is the combination of rifabutin, amoxicillin, and omeprazole which was 80&#x0025; effective.<xref ref="poem221002" resource="acc043" /></listitem>
+<listitem><strong>Proton Pump Inhibitors</strong></listitem>
+<listitem>In patients with bleeding ulcer, ACG guidelines (2021) recommend a high dose PPI for 3 days, followed by PPI twice daily for at least two weeks.<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>A Cochrane review concluded that giving PPIs prior to endoscopy reduces the need for hemostatic therapy but has an uncertain impact on other outcomes.<xref ref="cochrane5415" resource="acc044" /></listitem>
+<listitem>Continue proton pump inhibitor use for 4 weeks for duodenal ulcer, 8 weeks for gastric ulcer.</listitem>
+<listitem>An Expert Review and Best Practice Advice From the American Gastroenterological Association provided several recommendations concerning PPI use, among these included (verbatim):1) Patients at high risk for ulcer-related bleeding from NSAIDs should take a PPI if they continue to take NSAIDs. 2) The dose of long-term PPIs should be periodically reevaluated so that the lowest effective PPI dose can be prescribed to manage the condition. 3) Long-term PPI users should not routinely raise their intake of calcium, vitamin B12, or magnesium beyond the Recommended Dietary Allowance (RDA). 4) Long-term PPI users should not routinely screen or monitor bone mineral density, serum creatinine, magnesium, or vitamin B12.<xref ref="pubmed28257716" resource="acc035" /></listitem>
+<listitem><strong>Vonoprazan</strong></listitem>
+<listitem>In an RCT, following successful hemostasis of a peptic ulcer, 194 patients at high risk for rebleeding were randomized to vonopraan 20 mg bid x 3 days, then 20 mg qd x 28 days or to high dose PPI with pantoprazole infusion for 3 days followed by omeprazole 20 mg bid for 28 days. Vonoprazan was non-inferior for rebleeding (7.1&#x0025; vs 10.4&#x0025;) at 30 days as well as at 3 and 7 days.<xref ref="pubmed38582271" resource="acc053" /></listitem>
+<listitem>A 2024 meta-analysis concluded that vonoprazan, despite costing approximately $600 per month, is no more effective or safe than inexpensive proton pump inhibitors (PPIs) for the treatment and prevention of gastric and duodenal ulcers.<xref ref="pubmed39294424" resource="acc055" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem><strong>Endoscopic Therapy</strong></listitem>
+<listitem>ACG guidelines (2021) recommend endoscopic therapy with bipolar electrocoagulation, heater probe, and absolute ethanol injection for ulcers with active spurting or oozing and those with nonbleeding visible vessels. They also recommend erythromycin infusion prior to endoscopy, and endoscopy within 24 hours of admission for patients with bleeding peptic ulcer.<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>The ACG 2021 guidelines also recommend high-dose PPI continuously or intermittently for 3 days after endoscopy, and then twice daily oral PPI for the next 2 weeks. Consider repeat endoscopy if there is evidence of recurrent bleeding. In the event of failed endoscopic therapy, transcatheter embolization is recommended.<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>A small randomized trial (n &#x003D; 66) found that in patients with recurrent peptic ulcer bleeding, over the scope clips were associted with a lower rate of persistent bleeding (6&#x0025; vs 42&#x0025;, p &#x003D; 0.001, NNT &#x003D; 3) than usual care with through the scope clips.<xref ref="pubmed29803838" resource="acc037" /></listitem>
+<listitem>516 patients with a high risk UGI bleed (Glasgow-Blatchford score of 14) were randomized to early (within 6 hours) v late (within 24 hours) endoscopy. Patients with persistent hemodynamic instabilty after initial resuscitation were excluded. No differences were noted in 30-day all cause mortality, further episodes of bleeding, duration of hospitalization or the number of patients requiring transfusions.<xref ref="poem220703" resource="acc040" /></listitem>
+<listitem>A randomized trial comparing refeeding 24 vs 48 hours in 209 patients after endoscopic hemostasis found higher rates of bleeding with early refeeding, concluding that it was not non-inferior.<xref ref="pubmed32205642" resource="acc041" /></listitem>
+<listitem>A systematic review identified 9 RCTs and cohort studies with 833 patients with adherent clot randomized to endoscopic or conservative therapy. Endoscopic therapy was associated with less rebleeding (OR 0.41, 95&#x0025; CI 0.22-0.79), all cause mortality (OR 0.47, 95&#x0025; CI 0.23-0.95), and need for surgery (OR 0.44, 95&#x0025; CI 0.21-0.95). However when limited to RCTs only the reduction in overall mortality (OR 0.78, 95&#x0025; CI 0.24-2.52) and overall rebleeding (7.2&#x0025; vs 18.5&#x0025;) were lower but differences were no longer statistically significant.<xref ref="pubmed37634184" resource="acc051" /></listitem>
+<listitem><strong>Surgery</strong></listitem>
+<listitem>Surgery is rare today given effectiveness of <em>H. pylori</em> eradication regimens and the potential for postsurgical complications, including postvagotomy diarrhea, dumping syndrome, early satiety, and alkaline reflux gastritis.</listitem>
+<listitem>Indications for surgery include failure of nonoperative management and suspicion of gastric carcinoma.</listitem>
+<listitem>Vagotomy with antrectomy or gastric resection (Bilroth I and II) is the standard procedure.</listitem>
+<listitem>In a 15-year follow-up of one RCT of 75 patients with duodenal ulcers, Roux-en-Y gastrojejunostomy was significantly better than a Billroth II reconstruction on symptoms and endoscopic and histologic findings.<xref ref="pubmed19212169" resource="acc007" /></listitem>
+<listitem>Surgery for gastric or duodenal ulcer perforation is a laparoscopic omental patch followed by an <em>H. pylori</em> eradication regimen; and no significant differences exist in surgical outcomes in patients with perforated peptic ulcer treated with laparoscopic vs open surgery.<xref ref="pubmed17295765" resource="acc004" /><xref ref="cochrane4778" resource="acc028" /></listitem>
+<listitem>Negative prognostic factors for patients undergoing surgery for perforated peptic ulcer include: increased age, comorbidity, preoperative delay over 24 hours, acute renal failure, metabolic acidosis, low serum albumin level, tachycardia, and use of NSAIDs or steroids.<xref ref="pubmed20384526" resource="acc027" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>ACG guidelines (2021) recommend hospitalization for patients with a Glasgow-Blatchford score &gt;1 point or who otherwise cannot be classified as very low risk.<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>Signs and symptoms of complicated ulcer or malignancy (see <xref ref="table001" />) are the primary indication for gastroenterology or surgical referral.</listitem>
+<listitem>Persistent signs and symptoms of PUD after 14 days of <em>H. pylori</em> eradication therapy are also an indication for referral.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Bleeding from PUD requires upper endoscopy to identify and treat with thermal or argon coagulation, injection of saline or epinephrine, or hemoclipping of the bleeding source. It can be managed with fluid and blood resuscitation and intravenous proton pump inhibitors.</listitem>
+<listitem>In patients with an acute UGI bleed, a restrictive policy of transfusion (only transfusing patients with a hemoglobin &lt;7 g&#x002F;dL to a level of 7-9 g&#x002F;dL) was associated with lower mortality, shorter hospital stays and fewer adverse events than a liberal strategy in which the transfusion threshold was 9 g&#x002F;dL with a post transfusion goal of 9 to 11 g&#x002F;dL.<xref ref="poem150381" resource="acc029" /></listitem>
+<listitem>ACG guidelines (2021) also recommend transfusion if the patients hemoglobin is &lt;7 g&#x002F;dL.<xref ref="pubmed33929377" resource="acc042" /> A higher threshold may be appropriate in patients with established cardiovascular disease.<xref ref="pubmed33929377" resource="acc042" /></listitem>
+<listitem>Gastric or duodenal penetration or perforation is a surgical emergency. Suspect gastric or duodenal penetration or perforation in a patient with symptoms of PUD associated with an acute abdomen and with free air under the diaphragm on plain abdominal films.</listitem>
+<listitem>Gastric outlet obstruction is characterized by nausea and vomiting, early satiety, bloating, and weight loss. Endoscopy is indicated, as is measurement of gastric residual volume. Treatment involves correcting the underlying cause with proton pump inhibitors, balloon dilatation, and&#x002F;or surgery.</listitem>
+<listitem>Treatment with intermittent PPI therapy is as effective as continuous infusion of PPIs for the prevention of rebleeding in patients with high-risk bleeding ulcers treated endoscopically.<xref ref="poem170110" resource="acc031" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Expect PUD symptoms to resolve within 7 to 14 days of <em>H. pylori</em> eradication therapy. If symptoms persist, consider antibiotic resistance or some other cause. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The recurrence rate of <em>H. pylori</em> reinfection is 1&#x0025; to 2&#x0025; per year.<xref ref="poem176" resource="acc003" /></listitem>
+<listitem>Patients with co-morbid conditions including hepatic, renal and neoplastic disease have greater 30-day or in-hospital mortality with peptic ulcer bleeding than those without such co-morbitity (RR 4.04-6.03).<xref ref="pubmed23381016" resource="acc030" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Untreated peptic ulcers have a variable natural history. Some heal spontaneously; others heal then recur within months to 2 years if untreated.</listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>The <resourceLink href="info:wiley/eep-rule/149">Glasgow-Blatchford risk score</resourceLink> has been well validated for mortality prediction in patients with upper GI bleeding.<xref ref="rule149" resource="acc045" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/540">laboratory based C-WATCH risk score</resourceLink> predicts the likelihood of rebleeding, angiography, surgery, or death.<xref ref="rule540" resource="acc047" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/624">ABC risk score</resourceLink> predicts mortality in patients with acute upper or lower GI bleed.<xref ref="rule624" resource="acc049" /></listitem>
+<listitem>There is usually rapid resolution of PUD symptoms with the cessation of NSAIDs, if appropriate, and after 7 to 14 days of <em>H. pylori</em> eradication therapy.</listitem>
+<listitem>Successful <em>H. pylori</em> eradication reduces the PUD recurrence rate from 90&#x0025; to less than 5&#x0025; per year.</listitem>
+<listitem>Recurrence of <em>H. pylori</em> infection after successful triple therapy is 1&#x0025; to 2&#x0025; per year.<xref ref="poem176" resource="acc003" /></listitem>
+<listitem>Negative prognostic factors for patients undergoing surgery for perforated peptic ulcer include: increased age, comorbidity, preoperative delay over 24 hours, acute renal failure, metabolic acidosis, low serum albumin level, tachycardia, and use of NSAIDs or steroids.<xref ref="pubmed20384526" resource="acc027" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>No follow-up is indicated unless symptoms are refractory to <em>H. pylori</em> eradication, which may represent antibiotic resistance or other cause of PUD.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Ulcers are frequently associated with a type of bacteria called <em>H. pylori</em> and antibiotic therapy is necessary in addition to symptom control.</listitem>
+<listitem>It is important to finish the entire course of the antibiotic treatment even if you feel better.</listitem>
+<listitem>Symptoms that require early follow-up include blood in stools or black tarry stools, vomiting, and severe abdominal pain.</listitem>
+<listitem>If symptoms persist after <em>H. pylori</em> eradication therapy you may need to undergo an endoscopy to get a better understanding of what is causing your symptoms.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Elderly patients may present with painless ulcers or nonspecific complaints.</listitem>
+<listitem>Gastric carcinoma is more common with an onset of symptoms after age 55 years. Refer for endoscopy if symptoms begin after age 55 years.<xref ref="pubmed16285970" resource="acc015" /></listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>The following antibiotics commonly used for <em>H. pylori</em> eradication are safe in pregnancy: clarithromycin (pregnancy risk factor C), metronidazole, and amoxicillin. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>There is no increased risk of congenital malformations, preterm delivery, or growth retardation with the use of proton pump inhibitors (pregnancy risk factor C) or H2 blockers in pregnancy. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10472947" resource="acc002" /></listitem>
+<listitem>Misoprostol is contraindicated because of its effect on the cervix and uterus.</listitem>
+</list>
+</Pregnancy>
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed18648934">
+<accessionId id="acc001" href="info:pmid/18648934" />
+<authors>Uppalapati SS, Boylan JD, Stoltzfus J.</authors>
+<title>Risk factors involved in patients with bleeding peptic ulcers: A case-control study.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2009</pubdate>
+<volume>54</volume>
+<pages>593&#x2013;598.</pages>
+</reference>
+<reference id="pubmed10472947">
+<accessionId id="acc002" href="info:pmid/10472947" />
+<authors>Ruigomez A, Garcia Rodriguez LA, Cattaruzzi C, et al.</authors>
+<title>Use of cimetidine, omeprazole, and ranitidine in pregnant women and pregnancy outcomes.</title>
+<source>Am J Epidemiol</source>
+<pubdate>1999</pubdate>
+<volume>150</volume>
+<pages>476&#x2013;481.</pages>
+</reference>
+<reference id="poem176">
+<accessionId id="acc003" href="info:wiley/eep-poem/176" />
+<accessionId id="acc003b" href="info:pmid/9362184" />
+<authors>Abu-Mahfouz MZ, Prasad VM, Santogade P, Cutler AF.</authors>
+<title>Helicobacter pylori recurrence after successful eradication: 5-year follow-up in the United States.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>1997</pubdate>
+<volume>92</volume>
+<pages>2025&#x2013;2028.</pages>
+</reference>
+<reference id="pubmed17295765">
+<accessionId id="acc004" href="info:pmid/17295765" />
+<authors>Bose AC, Kate V, Ananthakrishnan N, Parija SC.</authors>
+<title>Helicobacter pylori eradication prevents recurrence after simple closure of perforated duodenal ulcer.</title>
+<source>J Gastroenterol Hepatol</source>
+<pubdate>2007</pubdate>
+<volume>22</volume>
+<pages>345&#x2013;348.</pages>
+</reference>
+<reference id="poem80601">
+<accessionId id="acc005" href="info:wiley/eep-poem/80601" />
+<accessionId id="acc005b" href="info:pmid/16542284" />
+<authors>Saad RJ, Schoenfeld P, Kim HM, Chey WD.</authors>
+<title>Levofloxacin-based triple therapy versus bismuth-based quadruple therapy for persistent Helicobacter pylori infection: A meta-analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2006</pubdate>
+<volume>101</volume>
+<pages>488&#x2013;496.</pages>
+</reference>
+<reference id="poem60264">
+<accessionId id="acc006" href="info:wiley/eep-poem/60264" />
+<accessionId id="acc006b" href="info:pmid/14504122" />
+<authors>Lara LF, Cisneros G, Gurney M, et al.</authors>
+<title>One-day quadruple therapy compared with 7-day triple therapy for Helicobacter pylori infection.</title>
+<source>Arch Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>163</volume>
+<pages>2079&#x2013;2084.</pages>
+</reference>
+<reference id="pubmed19212169">
+<accessionId id="acc007" href="info:pmid/19212169" />
+<authors>Csendes A, Burgos AM, Smok G, Burdiles P, Braghetto I, Diaz JC.</authors>
+<title>Latest results (12-21 years) of a prospective randomized study comparing Billroth II and Roux-en-Y anastomosis after a partial gastrectomy plus vagotomy in patients with duodenal ulcers.</title>
+<source>Ann Surg</source>
+<pubdate>2009</pubdate>
+<volume>249</volume>
+<pages>189&#x2013;194.</pages>
+</reference>
+<reference id="pubmed18490667">
+<accessionId id="acc008" href="info:pmid/18490667" />
+<authors>Jafri NS, Hornung CA, Howden CW.</authors>
+<title>Meta-analysis: Sequential therapy appears superior to standard therapy for Helicobacter pylori infection in patients naive to treatment.</title>
+<source>Ann Intern Med</source>
+<pubdate>2008</pubdate>
+<volume>148</volume>
+<pages>923&#x2013;931.</pages>
+</reference>
+<reference id="pubmed17028126">
+<accessionId id="acc009" href="info:pmid/17028126" />
+<authors>Zagari RM, Bianchi-Porro G, Fiocca R, Gasbarrini G, Roda E, Bazzoli F.</authors>
+<title>Comparison of 1 and 2 weeks of omeprazole, amoxicillin and clarithromycin treatment for Helicobacter pylori eradication: The HYPER Study.</title>
+<source>Gut</source>
+<pubdate>2007</pubdate>
+<volume>56</volume>
+<pages>475&#x2013;479.</pages>
+</reference>
+<reference id="pubmed11274623">
+<accessionId id="acc010" href="info:pmid/11274623" />
+<authors>Chan FK, Chung SC, Suen BY, et al.</authors>
+<title>Preventing recurrent upper gastrointestinal bleeding in patients with Helicobacter pylori infection who are taking low-dose aspirin or naproxen.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>344</volume>
+<pages>967&#x2013;973.</pages>
+</reference>
+<reference id="poem81005">
+<accessionId id="acc011" href="info:wiley/eep-poem/81005" />
+<accessionId id="acc011b" href="info:pmid/16771937" />
+<authors>Jarbol DE, Kragstrup J, Stovring H, Havelund T, Schaffalitzky de Muckadell OB.</authors>
+<title>Proton pump inhibitor or testing for Helicobacter pylori as the first step for patients presenting with dyspepsia? A cluster-randomized trial.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2006</pubdate>
+<volume>101</volume>
+<pages>1200&#x2013;1208.</pages>
+</reference>
+<reference id="poem70702">
+<accessionId id="acc012" href="info:wiley/eep-poem/70702" />
+<accessionId id="acc012b" href="info:pmid/15784019" />
+<authors>Marmo R, Rotondano G, Piscopo R, et al.</authors>
+<title>Combination of age and sex improves the ability to predict upper gastrointestinal malignancy in patients with uncomplicated dyspepsia: A prospective multicentre database study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2005</pubdate>
+<volume>100</volume>
+<pages>784&#x2013;791.</pages>
+</reference>
+<reference id="pubmed10483995">
+<accessionId id="acc013" href="info:pmid/10483995" />
+<authors>Bravo LE, Realpe JL, Campo C, Mera R, Correa P.</authors>
+<title>Effects of acid suppression and bismuth medications on the performance of diagnostic tests for Helicobacter pylori infection.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>1999</pubdate>
+<volume>94</volume>
+<pages>2380&#x2013;2383.</pages>
+</reference>
+<reference id="poem780">
+<accessionId id="acc014" href="info:wiley/eep-poem/780" />
+<accessionId id="acc014b" href="info:pmid/9758575" />
+<authors>Laine L, Estrada R, Trujillo M, Knigge K, Fennerty MB.</authors>
+<title>Effect of proton-pump inhibitor therapy on diagnostic testing for Helicobacter pylori.</title>
+<source>Ann Intern Med</source>
+<pubdate>1998</pubdate>
+<volume>129</volume>
+<pages>547&#x2013;550.</pages>
+</reference>
+<reference id="pubmed16285970">
+<accessionId id="acc015" href="info:pmid/16285970" />
+<authors>Talley NJ; American Gastroenterological Association.</authors>
+<title>American Gastroenterological Association medical position statement: Evaluation of dyspepsia.</title>
+<source>Gastroenterology</source>
+<pubdate>2005</pubdate>
+<volume>129</volume>
+<pages>1753&#x2013;1755.</pages>
+</reference>
+<reference id="poem40465">
+<accessionId id="acc016" href="info:wiley/eep-poem/40465" />
+<accessionId id="acc016b" href="info:pmid/11809354" />
+<authors>Hernanez-Diaz S, Rodriquez LA.</authors>
+<title>Incidence of serious upper gastrointestinal bleeding&#x002F;perforation in the general population: Review of epidemiologic studies.</title>
+<source>J Clin Epidemiol</source>
+<pubdate>2002</pubdate>
+<volume>55</volume>
+<pages>157&#x2013;163.</pages>
+</reference>
+<reference id="pubmed16595759">
+<accessionId id="acc017" href="info:pmid/16595759" />
+<authors>Moayyedi P, Talley NJ, Fennerty MB, Vakil N.</authors>
+<title>Can the clinical history distinguish between organic and functional dyspepsia?</title>
+<source>JAMA</source>
+<pubdate>2006</pubdate>
+<volume>295</volume>
+<pages>1566&#x2013;1576.</pages>
+</reference>
+<reference id="poem40129">
+<accessionId id="acc018" href="info:wiley/eep-poem/40129" />
+<accessionId id="acc018b" href="info:pmid/11667935" />
+<authors>Brock J, Sauaia A, Ahnen D, et al.</authors>
+<title>Process of care and outcomes for elderly patients hospitalized with peptic ulcer disease: Results from a quality improvement project.</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>286</volume>
+<pages>1985&#x2013;1993.</pages>
+</reference>
+<reference id="pubmed14573679">
+<accessionId id="acc019" href="info:pmid/14573679" />
+<authors>Nilsson C, Sillen A, Eriksson L, et al.</authors>
+<title>Correlation between cag pathogenicity island composition and Helicobacter pylori-associated gastroduodenal disease.</title>
+<source>Infect Immun</source>
+<pubdate>2003</pubdate>
+<volume>71</volume>
+<pages>6573&#x2013;6581.</pages>
+</reference>
+<reference id="pubmed18277902">
+<accessionId id="acc020" href="info:pmid/18277902" />
+<authors>Talamini G, Tommasi M, Amadei V, et al.</authors>
+<title>Risk factors of peptic ulcer in 4943 inpatients.</title>
+<source>J Clin Gastroenterol</source>
+<pubdate>2008</pubdate>
+<volume>42</volume>
+<pages>373&#x2013;380.</pages>
+</reference>
+<reference id="cochrane3840">
+<accessionId id="acc021" href="info:wiley/cochrane/CD003840" />
+<chapter_authors>Ford AC, Delaney BC, Forman D, Moayyedi P, Ford A.</chapter_authors>
+<chapter_title>Eradication therapy for peptic ulcer disease in Helicobacter pylori positive patients (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="nopmid_1069">
+<authors>Lethbridge-&#x00C7;ejku M, Vickerie J.</authors>
+<title>Summary health statistics for U.S. adults: National Health Interview Survey, 2003. National Center for Health Statistics.</title>
+<source>Vital Health Stat</source>
+<pubdate>2005</pubdate>
+<volume>10</volume>
+<pages />
+</reference>
+<reference id="pubmed17608775">
+<accessionId id="acc023" href="info:pmid/17608775" />
+<authors>Chey W, Wong B.</authors>
+<title>American College of Gastroenterology guideline on the management of Helicobacter pylori infection.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2007</pubdate>
+<volume>102</volume>
+<pages>1808&#x2013;1825.</pages>
+</reference>
+<reference id="poem162">
+<accessionId id="acc024" href="info:wiley/eep-poem/162" />
+<authors>Fendrick AM, McCort JT, Chernew ME, et al.</authors>
+<title>Immediate eradication of Helicobacter pylori in patients with previously documented peptic ulcer disease: Clinical and economic effects.</title>
+<source>Am J Gastro</source>
+<pubdate>1997</pubdate>
+<volume>92</volume>
+<pages>2017&#x2013;2023.</pages>
+</reference>
+<reference id="poem40571">
+<accessionId id="acc025" href="info:wiley/eep-poem/40571" />
+<accessionId id="acc025b" href="info:pmid/11809181" />
+<authors>Huang JQ, Sridhar S, Hunt RH.</authors>
+<title>Role of Helicobacter pylori infection and non-steroidal anti-inflammatory drugs in peptic-ulcer disease: A meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2002</pubdate>
+<volume>359</volume>
+<pages>14&#x2013;22.</pages>
+</reference>
+<reference id="pubmed8424842">
+<accessionId id="acc026" href="info:pmid/8424842" />
+<authors>Savage RL, Moller PW, Ballantyne CL, Wells JE.</authors>
+<title>Variation in the risk of peptic ulcer complications with nonsteroidal anti iflammatory drug therapy.</title>
+<source>Arthritis Rheum</source>
+<pubdate>1993</pubdate>
+<volume>36</volume>
+<pages>84&#x2013;90.</pages>
+</reference>
+<reference id="pubmed20384526">
+<accessionId id="acc027" href="info:pmid/20384526" />
+<authors>M&#x00F8;ller MH, Adamsen S, Thomsen RW, M&#x00F8;ller AM.</authors>
+<title>Preoperative prognostic factors for mortality in peptic ulcer perforation: A systematic review.</title>
+<source>Scand J Gastroenterol</source>
+<pubdate>2010</pubdate>
+<volume>45</volume>
+<pages>785&#x2013;805.</pages>
+</reference>
+<reference id="cochrane4778">
+<accessionId id="acc028" href="info:wiley/cochrane/CD004778" />
+<chapter_authors>Sanabria A, Villegas MI, Morales Uribe CH.</chapter_authors>
+<chapter_title>Laparoscopic repair for perforated peptic ulcer disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 2. Art. No.: CD004778. DOI: 10.1002&#x002F;14651858.CD004778.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem150381">
+<accessionId id="acc029" href="info:wiley/eep-poem/150381" />
+<accessionId id="acc029b" href="info:pmid/23281973" />
+<authors>Villanueva C, Colomo A, Bosch A, et al.</authors>
+<title>Transfusion strategies for acute upper gastrointestinal bleeding.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>11&#x2013;21.</pages>
+</reference>
+<reference id="pubmed23381016">
+<accessionId id="acc030" href="info:pmid/23381016" />
+<authors>Leontiadis GI, Molloy-Bland M, Moayyedi P, Howden CW.</authors>
+<title>Effect of comorbidity on mortality in patients with peptic ulcer bleeding: Systematic review and meta-analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2013</pubdate>
+<volume>108</volume>
+<pages>331&#x2013;345; quiz 346.</pages>
+</reference>
+<reference id="poem170110">
+<accessionId id="acc031" href="info:wiley/eep-poem/170110" />
+<accessionId id="acc031b" href="info:pmid/25201154" />
+<authors>Sachar H, Vaidya K, Laine L.</authors>
+<title>Intermittent vs continuous proton pump inhibitor therapy for high-risk bleeding ulcers: A systematic review and meta-analysis.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>174</volume>
+<pages>1755&#x2013;1762.</pages>
+</reference>
+<reference id="pubmed25213078">
+<accessionId id="acc032" href="info:pmid/25213078" />
+<authors>Lee TH, Lin CC, Chung CS, Lin CK, Liang CC, Tsai KC.</authors>
+<title>Increasing biopsy number and sampling from gastric body improve the sensitivity of rapid urease test in patients with peptic ulcer bleeding.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2015</pubdate>
+<volume>60</volume>
+<pages>454&#x2013;457.</pages>
+</reference>
+<reference id="poem171111">
+<accessionId id="acc033" href="info:wiley/eep-poem/171111" />
+<accessionId id="acc033b" href="info:pmid/26290044" />
+<authors>Li BZ, Threapleton DE, Wang JY, Xu JM, Yuan JQ, Zhang C, Li P, Ye QL, Guo B, Mao C, Ye DQ.</authors>
+<title>Comparative effectiveness and tolerance of treatments for Helicobacter pylori: Systematic review and network meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2015</pubdate>
+<volume>351</volume>
+<pages>h4052.</pages>
+</reference>
+<reference id="poem190404">
+<accessionId id="acc034" href="info:wiley/eep-poem/190404" />
+<accessionId id="acc034b" href="info:pmid/27707777" />
+<authors>Malfertheiner P, Megraud F, O'Morain CA, Gisbert JP, Kuipers EJ, Axon AT, Bazzoli F, Gasbarrini A, Atherton J, Graham DY, Hunt R, Moayyedi P, Rokkas T, Rugge M, Selgrad M, Suerbaum S, Sugano K, El-Omar EM; European Helicobacter and Microbiota Study Group and Consensus panel.</authors>
+<title>Management of Helicobacter pylori infection-the Maastricht V&#x002F;Florence Consensus Report.</title>
+<source>Gut</source>
+<pubdate>2017</pubdate>
+<volume>66</volume>
+<pages>6&#x2013;30.</pages>
+</reference>
+<reference id="pubmed28257716">
+<accessionId id="acc035" href="info:pmid/28257716" />
+<authors>Freedberg DE, Kim LS, Yang YX.</authors>
+<title>The risks and benefits of long-term use of proton pump inhibitors: Expert review and best practice advice from the American Gastroenterological Association.</title>
+<source>Gastroenterology</source>
+<pubdate>2017</pubdate>
+<volume>152</volume>
+<pages>706&#x2013;715.</pages>
+</reference>
+<reference id="pubmed30354950">
+<accessionId id="acc036" href="info:pmid/30354950" />
+<authors>Krag M, Marker S, Perner A, Wetterslev J, Wise MP, Schefold JC, Keus F, Guttormsen AB, Bendel S, Borthwick M, Lange T, Rasmussen BS, Siegemund M, Bundgaard H, Elkmann T, Jensen JV, Nielsen RD, Liboriussen L, Bestle MH, Elkj&#x00E6;r JM, Palmqvist DF, B&#x00E4;cklund M, Laake JH, B&#x00E5;dst&#x00F8;l&#x00F8;kken PM, Gr&#x00F6;nlund J, Breum O, Walli A, Winding R, Iversen S, Jarnvig IL, White JO, Brand B, Madsen MB, Quist L, Thornberg KJ, M&#x00F8;ller A, Wiis J, Granholm A, Anthon CT, Meyhoff TS, Hjortrup PB, Aagaard SR, Andreasen JB, S&#x00F8;rensen CA, Haure P, Hauge J, Hollinger A, Scheuzger J, Tuchscherer D, Vuilliomenet T, Takala J, Jakob SM, Vang ML, P&#x00E6;lestik KB, Andersen KLD, van der Horst ICC, Dieperink W, Fj&#x00F8;lner J, Kjer CKW, S&#x00F8;lling C, S&#x00F8;lling CG, Karttunen J, Morgan MPG, Sj&#x00F8;b&#x2298;B, Engstr&#x00F8;m J, Agerholm-Larsen B, M&#x00F8;ller MH, SUP-ICU trial group.</authors>
+<title>Pantoprazole in patients at risk for gastrointestinal bleeding in the ICU.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>2199&#x2013;2208.</pages>
+</reference>
+<reference id="pubmed29803838">
+<accessionId id="acc037" href="info:pmid/29803838" />
+<authors>Schmidt A, G&#x00F6;lder S, Goetz M, Meining A, Lau J, von Delius S, Escher M, Hoffmann A, Wiest R, Messmann H, Kratt T, Walter B, Bettinger D, Caca K.</authors>
+<title>Over-the-scope clips are more effective than standard endoscopic therapy for patients with recurrent bleeding of peptic ulcers.</title>
+<source>Gastroenterology</source>
+<pubdate>2018</pubdate>
+<volume>155</volume>
+<pages>674&#x2013;686.e6.</pages>
+</reference>
+<reference id="pubmed29196436">
+<accessionId id="acc038" href="info:pmid/29196436" />
+<authors>Kawai T, Oda K, Funao N, Nishimura A, Matsumoto Y, Mizokami Y, Ashida K, Sugano K.</authors>
+<title>Vonoprazan prevents low-dose aspirin-associated ulcer recurrence: Randomised phase 3 study.</title>
+<source>Gut</source>
+<pubdate>2018</pubdate>
+<volume>67</volume>
+<pages>1033&#x2013;1041.</pages>
+</reference>
+<reference id="poem211101">
+<accessionId id="acc039" href="info:wiley/eep-poem/211101" />
+<accessionId id="acc039b" href="info:pmid/31511230" />
+<authors>Li WQ, Zhang JY, Ma JL, Li ZX, Zhang L, Zhang Y, Guo Y, Zhou T, Li JY, Shen L, Liu WD, Han ZX, Blot WJ, Gail MH, Pan KF, You WC.</authors>
+<title>Effects of <em>Helicobacter pylori</em> treatment and vitamin and garlic supplementation on gastric cancer incidence and mortality: Follow-up of a randomized intervention trial.</title>
+<source>BMJ</source>
+<pubdate>2019</pubdate>
+<volume>366</volume>
+<pages>l5016.</pages>
+</reference>
+<reference id="poem220703">
+<accessionId id="acc040" href="info:wiley/eep-poem/220703" />
+<accessionId id="acc040b" href="info:pmid/32242355" />
+<authors>Lau JYW, Yu Y, Tang RSY, Chan HCH, Yip HC, Chan SM, Luk SWY, Wong SH, Lau LHS, Lui RN, Chan TT, Mak JWY, Chan FKL, Sung JJY.</authors>
+<title>Timing of endoscopy for acute upper gastrointestinal bleeding.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>1299&#x2013;1308.</pages>
+</reference>
+<reference id="pubmed32205642">
+<accessionId id="acc041" href="info:pmid/32205642" />
+<authors>Gong EJ, Lee SJ, Jun BG, Seo HI, Park JK, Han KH, Kim YD, Jeong WJ, Cheon GJ, Park SY.</authors>
+<title>Optimal timing of feeding after endoscopic hemostasis in patients with peptic ulcer bleeding: A randomized, noninferiority trial (CRIS KCT0001019).</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2020</pubdate>
+<volume>115</volume>
+<pages>548&#x2013;554.</pages>
+</reference>
+<reference id="pubmed33929377">
+<accessionId id="acc042" href="info:pmid/33929377" />
+<authors>Laine L, Barkun AN, Saltzman JR, Martel M, Leontiadis GI.</authors>
+<title>ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2021</pubdate>
+<volume>116</volume>
+<pages>899&#x2013;917.</pages>
+</reference>
+<reference id="poem221002">
+<accessionId id="acc043" href="info:wiley/eep-poem/221002" />
+<accessionId id="acc043b" href="info:pmid/32365359" />
+<authors>Graham DY, Canaan Y, Maher J, Wiener G, Hulten KG, Kalfus IN.</authors>
+<title>Rifabutin-Based Triple Therapy (RHB-105) for <em>Helicobacter pylori</em> Eradication: A double-blind, randomized, controlled trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>2020</pubdate>
+<volume>172</volume>
+<pages>795&#x2013;802.</pages>
+</reference>
+<reference id="cochrane5415">
+<accessionId id="acc044" href="info:wiley/cochrane/CD5415" />
+<chapter_authors>Kanno T, Yuan Y, Tse F, Howden CW, Moayyedi P, Leontiadis GI.</chapter_authors>
+<chapter_title>Proton pump inhibitor treatment initiated prior to endoscopic diagnosis in upper gastrointestinal bleeding.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 1. Art. No.: CD005415. DOI: 10.1002&#x002F;14651858.CD005415.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="rule149">
+<accessionId id="acc045" href="info:wiley/eep-rule/149" />
+<accessionId id="acc045b" href="info:pmid/11073021" />
+<authors>Blatchford O, Murray WR, Blatchford M.</authors>
+<title>A risk score to predict need for treatment for upper-gastrointestinal haemorrhage.</title>
+<source>Lancet</source>
+<pubdate>2000</pubdate>
+<volume>356</volume>
+<pages>1318&#x2013;21.</pages>
+</reference>
+<reference id="poem342395">
+<accessionId id="acc046" href="info:wiley/eep-poem/342395" />
+<accessionId id="acc046b" href="info:pmid/36335970" />
+<authors>Hawkey C, Avery A, Coupland CAC, Crooks C, Dumbleton J, Hobbs FDR, Kendrick D, Moore M, Morris C, Rubin G, Smith M, Stevenson D, HEAT Trialists.</authors>
+<title>Helicobacter pylori eradication for primary prevention of peptic ulcer bleeding in older patients prescribed aspirin in primary care (HEAT): a randomised, double-blind, placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2022</pubdate>
+<volume>400</volume>
+<pages>1597&#x2013;1606.</pages>
+</reference>
+<reference id="rule540">
+<accessionId id="acc047" href="info:wiley/eep-rule/540" />
+<accessionId id="acc047b" href="info:pmid/26402828" />
+<authors>Hoffmann V, Neubauer H, Heinzler J, Smarczyk A, Hellmich M, Bowe A, Kuetting F, Demir M, Pelc A, Schulte S, Toex U, Nierhoff D, Steffen HM.</authors>
+<title>A Novel Easy-to-Use Prediction Scheme for Upper Gastrointestinal Bleeding: Cologne-WATCH (C-WATCH) Risk Score.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2015</pubdate>
+<volume>94</volume>
+<pages>e1614.</pages>
+</reference>
+<reference id="rule24">
+<accessionId id="acc048" href="info:wiley/eep-rule/24" />
+<accessionId id="acc048b" href="info:pmid/8223082" />
+<authors>Villanueva C, Balanz&#x00F3; J, Espin&#x00F3;s JC, Domenech JM, S&#x00E1;inz S, Call J, Vilardell F.</authors>
+<title>Prediction of therapeutic failure in patients with bleeding peptic ulcer treated with endoscopic injection.</title>
+<source>Dig Dis Sci</source>
+<pubdate>1993</pubdate>
+<volume>38</volume>
+<pages>2062&#x2013;70.</pages>
+</reference>
+<reference id="rule624">
+<accessionId id="acc049" href="info:wiley/eep-rule/624" />
+<accessionId id="acc049b" href="info:pmid/32723845" />
+<authors>Laursen SB, Oakland K, Laine L, Bieber V, Marmo R, Redondo-Cerezo E, Dalton HR, Ngu J, Schultz M, Soncini M, Gralnek I, Jairath V, Murray IA, Stanley AJ.</authors>
+<title>ABC score: a new risk score that accurately predicts mortality in acute upper and lower gastrointestinal bleeding: an international multicentre study.</title>
+<source>Gut</source>
+<pubdate>2021</pubdate>
+<volume>70</volume>
+<pages>707&#x2013;716.</pages>
+</reference>
+<reference id="poem399284">
+<accessionId id="acc050" href="info:wiley/eep-poem/399284" />
+<accessionId id="acc050b" href="info:pmid/35798375" />
+<authors>Black CJ, Paine PA, Agrawal A, Aziz I, Eugenicos MP, Houghton LA, Hungin P, Overshott R, Vasant DH, Rudd S, Winning RC, Corsetti M, Ford AC.</authors>
+<title>British Society of Gastroenterology guidelines on the management of functional dyspepsia.</title>
+<source>Gut</source>
+<pubdate>2022</pubdate>
+<volume>71</volume>
+<pages>1697&#x2013;1723.</pages>
+</reference>
+<reference id="pubmed37634184">
+<accessionId id="acc051" href="info:pmid/37634184" />
+<authors>Beran A, Al-Abboodi Y, Majzoub AM, Ghazaleh S, Sayeh W, Mohamed MFH, Elfert K, Mhanna M, Montalvan-Sanchez E, Musallam R, Jaber F, Bhatti U, Abdeljawad K, Al-Haddad M.</authors>
+<title>Endoscopic Versus Conservative Therapy for Bleeding Peptic Ulcer with Adherent Clot: A Comprehensive Systematic Review and Meta-Analysis.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2023</pubdate>
+<volume>68</volume>
+<pages>3921&#x2013;3934.</pages>
+</reference>
+<reference id="pubmed35831212">
+<accessionId id="acc052" href="info:pmid/35831212" />
+<authors>Romano M, Gravina AG, Eusebi LH, Pellegrino R, Palladino G, Frazzoni L, Dajti E, Gasbarrini A, Di Mario F, Zagari RM, Members of SIGE, Members of SIED National Council.</authors>
+<title>Management of Helicobacter pylori infection: Guidelines of the Italian Society of Gastroenterology (SIGE) and the Italian Society of Digestive Endoscopy (SIED).</title>
+<source>Dig Liver Dis</source>
+<pubdate>2022</pubdate>
+<volume>54</volume>
+<pages>1153&#x2013;1161.</pages>
+</reference>
+<reference id="pubmed38582271">
+<accessionId id="acc053" href="info:pmid/38582271" />
+<authors>Geeratragool T, Kaosombatwattana U, Boonchote A, Chatthammanat S, Preechakawin N, Srichot J, Sudcharoen A, Sirisunhirun P, Termsinsuk P, Rugivarodom M, Limsrivilai J, Maneerattanaporn M, Pausawasdi N, Leelakusolvong S.</authors>
+<title>Comparison of Vonoprazan Versus Intravenous Proton Pump Inhibitor for Prevention of High-Risk Peptic Ulcers Rebleeding After Successful Endoscopic Hemostasis: A Multicenter Randomized Noninferiority Trial.</title>
+<source>Gastroenterology</source>
+<pubdate>2024</pubdate>
+<volume>167</volume>
+<pages>778&#x2013;787.e3.</pages>
+</reference>
+<reference id="pubmed38252210">
+<accessionId id="acc054" href="info:pmid/38252210" />
+<authors>An H, Chen J, Li S, Chen A.</authors>
+<title>Pantoprazole and Vonoprazan Performed Well in Preventing Peptic Ulcer Recurrence in Low-Dose Aspirin Users.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2024</pubdate>
+<volume>69</volume>
+<pages>670&#x2013;682.</pages>
+</reference>
+<reference id="pubmed39294424">
+<accessionId id="acc055" href="info:pmid/39294424" />
+<authors>Simadibrata DM, Lesmana E, Pratama MIA, Sugiharta AJ, Kalaij AGI, Fadhilla ADD, Danpanichkul P, Syam AF, Simadibrata M.</authors>
+<title>Vonoprazan vs. Proton Pump Inhibitors for Treatment and Prevention of Gastric and&#x002F;or Duodenal Ulcers: A Systematic Review with Meta-Analysis.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2024</pubdate>
+<volume>69</volume>
+<pages>3863&#x2013;3874.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>401.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Peptic Ulcer Disease: Diagnosis.</title>
+<graphic href="eee0216-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Alarm signs or symptoms present (older than 55 years, anemia, dysphagia, persistent vomiting, gastrointestinal bleeding, involuntary weight loss &gt;5&#x0025;, jaundice, abdominal mass)?</label>
+<path target="cell-2"> No</path>
+<path target="cell-3"> Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Potential medications causing dyspepsia (eg, NSAIDs, bisphosphonates, antibiotics)?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Test for H. pylori with urea breath test or stool antigen and treat accordingly. Alternative: empiric proton pump inhibitor only for 4 to 6 weeks. Symptoms resolve?</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Refer for upper endoscopy.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Appropriate follow-up, consider endoscopy if symptoms recur.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Discontinue. Symptoms improve?</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Prompt upper endoscopy.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Red Flags for Complicated Ulcer or Malignancy Requiring Referral for Prompt or Urgent Endoscopy.</caption>
+<feature_body>
+<list style="bulleted">
+<listitem>Onset of symptoms after age 55 years</listitem>
+<listitem>Progressive dysphagia</listitem>
+<listitem>Recurrent vomiting</listitem>
+<listitem>Heme positive stool, melena, hematemesis, anemia</listitem>
+<listitem>Progressive dysphagia or persistent&#x002F;recurrent vomiting</listitem>
+<listitem>Severe abdominal pain</listitem>
+<listitem>Weight loss, anorexia, or family history of gastric malignancy</listitem>
+</list>Data from Talley NJ. American Gastroenterological Association. American Gastroenterological Association medical position statement: evaluation of dyspepsia. <em>Gastroenterology</em> 2005;<strong>129</strong>:1753&#x2013;1755; and University of Michigan Health System. Peptic ulcer disease. Ann Arbor, MI: University of Michigan Health System; 2005 May. 9 p.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Treatment of <em>Helicobacter pylori</em>-Associated Peptic Ulcer Disease.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Regimen</th>
+<th align="left" colspan="1">Eradication Rate</th>
+<th align="left" colspan="1">Duration</th>
+<th align="left" colspan="1">Notes</th>
+</tr>
+<tr>
+<td align="left" colspan="1">PPI plus amoxicillin plus clarithromycin plus metronidazle&#x002F;tinidazole, all bid</td>
+<td align="left" colspan="1">94&#x0025;</td>
+<td align="left" colspan="1">7-14 days</td>
+<td align="left" colspan="1">Meta-analysis of 143 studies <xref ref="poem171111" resource="acc033" /> Also recommended by 2021 ACG guideline.<xref ref="pubmed33929377" resource="acc042" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">PPI bid + amoxicillin 1 g bid + clarithromycin 500 mg bid plus probiotics</td>
+<td align="left" colspan="1">90&#x0025;</td>
+<td align="left" colspan="1">10-14 days</td>
+<td align="left" colspan="1">Meta-analysis of 143 studies <xref ref="poem171111" resource="acc033" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">PPI plus levofloxacin plus another antibiotic, all bid</td>
+<td align="left" colspan="1">90&#x0025;</td>
+<td align="left" colspan="1">7-14 days</td>
+<td align="left" colspan="1">Meta-analysis of 143 studies <xref ref="poem171111" resource="acc033" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">PPI bid + amoxicillin 1 g bid + clarithromycin 500 mg bid</td>
+<td align="left" colspan="1">80&#x0025;-90&#x0025;</td>
+<td align="left" colspan="1">7-14 days</td>
+<td align="left" colspan="1">7 days vs 14 days had similar eradication. Onlly for patients without macrolide exposure and where macrolide resistance is low.<xref ref="pubmed33929377" resource="acc042" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">PPI bid + clarithromycin 500 mg bid + metronidazole 500 mg bid</td>
+<td align="left" colspan="1">80&#x0025;-90&#x0025;</td>
+<td align="left" colspan="1">7-14 days</td>
+<td align="left" colspan="1">Useful for penicillin allergy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2 tablets of 262 mg bismuth subsalicylate, metronidazole 500 mg, and 2 g amoxicillin suspension, all taken 4 times over the course of the day, along with 60 mg lansoprazole taken once</td>
+<td align="left" colspan="1">95&#x0025;</td>
+<td align="left" colspan="1">1 day</td>
+<td align="left" colspan="1">1 day regimen&#x2014;only studied in a single clinical trial<xref ref="poem60264" resource="acc006" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">PPI plus 1 g amoxicillin for 5 days followed by PPI, clarithromycin 500 mg and tinidazole 500 mg for 5 days (all given bid)</td>
+<td align="left" colspan="1">93.4&#x0025;</td>
+<td align="left" colspan="1">10 days</td>
+<td align="left" colspan="1">Sequential therapy has good evidence of efficacy<xref ref="pubmed18490667" resource="acc008" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Bismuth (Pepto-Bismol) 2 tablets daily, metronidazole 250 mg daily, tetracycline 500 mg daily (if intolerant allergic may substitute amoxicillin 1 g bid) plus either H2 blocker or PPI daily</td>
+<td align="left" colspan="1">75&#x0025;-85&#x0025;</td>
+<td align="left" colspan="1">14 days</td>
+<td align="left" colspan="1">NIH Conventional Triple Therapy: Inexpensive, but more complicated. Useful for failed triple therapy and penicillin allergy</td>
+</tr>
+</table>NOTE: The recommended duration of PPI therapy is 8 weeks for gastric ulcer and 4 weeks for duodenal ulcer. PPI denotes proton pump inhibitor; bid, twice daily.</feature_body>
+</feature>
+</feature_group>
+</topic>

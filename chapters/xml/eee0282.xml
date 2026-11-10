@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Thrombotic thrombocytopenic purpura</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0282</topic_id>
+<topic_comment />
+<topic_lastupdated>06/26/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Chad S. Miller, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>Tulane University Health Sciences Center</author_institution>
+<author_email>cmiller4&#x0040;tulane.edu</author_email>
+<author_phone_office>504-988-7810</author_phone_office>
+<author_phone_home>504-231-5954</author_phone_home>
+<author_phone_fax>504-988-3971</author_phone_fax>
+<author_street1>1430 Tulane Avenue, Box SlL-50</author_street1>
+<author_street2 />
+<author_city>New Orleans</author_city>
+<author_state>LA</author_state>
+<author_zip>70112</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect TTP in patients with signs of hemolysis and thrombocytopenia, especially if neurologic disturbances, gastrointestinal symptoms, kidney findings or cardiac symptoms are present. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>To diagnose TTP, thrombocytopenia and microangiopathic hemolytic anemia must be present. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Plasma exchange <evidence rating="A" system="SORT">A</evidence> and glucocorticoids <evidence rating="B" system="SORT">B</evidence> are first line therapy (<xref ref="fig001" />).</listitem>
+<listitem>Recombinant ADAMTS13 (Adzynma) was recently approved for treatment of congenital TTP and is highly effective.<xref ref="pubmed38692292" resource="acc026" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Thrombotic thrombocytopenic purpura (TTP) is a rare and life-threatining thrombotic microangiopathy (TMA) characterized by microangiopathic hemolytic anemia, severe thrombocytopenia, and organ ischemia linked to disseminated microvascular platelet rich-thrombi. <xref ref="pubmed16672704" resource="acc004" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>3 per 1 million adults per year based on the Oklahoma TTP - HUS Registry.</listitem>
+<listitem>One to 2 cases of documented ADAMTS-13-deficient TTP per 1,000,000 per year in the US.</listitem>
+<listitem>The incidence of TTP is greater in women, during pregnancy, and in Blacks.<xref ref="pubmed15978100" resource="acc005" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>TTP is caused by the deficiency of the von Willebrand factor (vWF) cleaving metalloprotease, ADAMTS13.</listitem>
+<listitem>Idiopathic TTP is usually caused by autoantibodies to ADAMTS 13</listitem>
+<listitem>Congenital or hereditary TTP (cTTP, also called Upshaw-Schulman Syndrome) is caused by mutations in the ADAMTS13 gene which results in severe deficiency of ADAMTS13, or ineffective ADAMTS13.</listitem>
+<listitem>Secondary TTP that may be seen in connective tissue diseases, pregnancy, HIV, pancreatitis and malignancy.<xref ref="pubmed18637802" resource="acc007" /></listitem>
+<listitem>A systematic review of case reports and case series found no convincing evidence of medications as a cause of TTP.<xref ref="pubmed36477772" resource="acc024" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>ADAMTS 13 is a specific metalloprotease among the family of ADAMTS, which cleaves vWF multimers releasing adherent platelets.</listitem>
+<listitem>An ADAMTS13 deficiency results in increased levels of ultra-large vWF multimers.</listitem>
+<listitem>Spontaneous intravascular platelet aggregation and widespread microthrombi occur especially in microvasculature where shear stress is high.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Female</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>African ancestry</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Obesity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Pregnancy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cancer</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>HIV infection</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Clopidigrel use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Ticlodipine use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed10852999" resource="acc002" /><xref ref="pubmed15127914" resource="acc003" /><xref ref="pubmed15978100" resource="acc005" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect TTP when a patient presents with microangiopathic hemolytic anemia (MAHA), severe thrombocytopenia with or without symptoms of organ involvement and without another clinically apparent etiology. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Hemoglobin is usually &lt; 10 mg&#x002F;dL and thrombocytopenia &lt; 30,000&#x002F;microL <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Consider using the PLASMIC score to predict the likelihood of ADAMTS13 deficiency as it helps to estimate the pre-test probability of TTP. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Heparin-induced thrombocytopenia</Differential_Name>
+<Differential_Features>Proximal relationship to heparin exposure; positive heparin antibodies</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>HELLP syndrome</Differential_Name>
+<Differential_Features>Severe preeclampsia; severe abdominal pain, elevated liver enzymes</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Disseminated intravascular coagulation (DIC)</Differential_Name>
+<Differential_Features>Elevated PT&#x002F;PTT, decreased fibrinogen</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Autoimmune Hemolytic Anemia&#x002F;Evans' syndrome</Differential_Name>
+<Differential_Features>No schistocytes on smear; direct Coombs positive</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Autoimmune disorders (SLE)</Differential_Name>
+<Differential_Features>ANA positive; other features of SLE</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Antiphospholipid antibody syndrome</Differential_Name>
+<Differential_Features>Increased PTT; rare schistocytes; elevated Russell Viper Venom time</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sepsis</Differential_Name>
+<Differential_Features>Fever, chills, hypotension, positive blood cultures (usually Gram-negative organisms)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Severe preeclampsia</Differential_Name>
+<Differential_Features>Pregnancy &gt;20 weeks, Blood pressure &gt;160&#x002F;110 mmHg, edema</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Eclampsia</Differential_Name>
+<Differential_Features>Pregnancy &gt;20 weeks, Blood pressure &gt;160&#x002F;110 mmHg, edema, and seizures</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Idiopathic thrombocytopenic purpura</Differential_Name>
+<Differential_Features>No hemolytic anemia; symptoms due to bleeding</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Drug-induced thrombocytopenia</Differential_Name>
+<Differential_Features>No hemolytic anemia; no evidence of microvascular thrombosis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hypertensive Emergency</Differential_Name>
+<Differential_Features>Papilledema; severely elevated blood pressure</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hemolytic Uremic syndrome (HUS)</Differential_Name>
+<Differential_Features>Usually pediatric patients; associated with diarrhea, often hemorrhagic</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>TTP is clasically characterized by the pentad of fever, hemolytic anemia, thrombocytopenia, renal and neurological dysfunction. Unfortunately, this pentad is only found in less than 5&#x0025; of patients with TTP. <xref ref="pubmed29296701" resource="acc022" /></listitem>
+<listitem>Fever, neurologic involvement, and renal failure are often absent and are not necessary for the diagnosis.</listitem>
+<listitem>Fever is seen in less than 30&#x0025; of cases.<xref ref="pubmed12637323" resource="acc006" /><xref ref="pubmed18637802" resource="acc007" /></listitem>
+<listitem>Neurologic features like headache, encephalopathy, stroke or TIA are seen in up to 78&#x0025; of patients.</listitem>
+<listitem>Signs of thrombocytopenia such as petechiae, purpura and hematuria are seen in up to 55&#x0025; of patients.</listitem>
+<listitem>Cardiac involvement can occur and is considered a bad prognostic sign.</listitem>
+<listitem>Ultimately, there are no symptoms that are specific for TTP and laboratory analysis is necessary for diagnosis.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Initial tests should include a complete blood count with peripheral blood smear and reticulocyte count.</listitem>
+<listitem>Additional tests are coagulation studies (PT&#x002F;PTT), a complete metabolic panel, a serum LDH level, and a direct Coombs test. Coagulation studies are usually normal in TTP. LDH is usually elevated and a Coombs test is usually negative. Reticulocytosis is often present.</listitem>
+<listitem>An HIV test and hepatitis serologies should be performed to search for alternative causes.<xref ref="pubmed12588343" resource="acc013" /></listitem>
+<listitem>Confirmatory tests include ADAMTS 13 activity. This is usually &lt;10&#x0025; if the cause is idiopathic or congenital. Treatment should not be delayed while awaiting results. Secondary causes of TTP have ADAMTS 13 activity that is variable. The risk of relapse for patients diagnosed with idiopathic TTP is greater with low ADAMTS 13 levels and a younger age at diagnosis.<xref ref="pubmed18397340" resource="acc009" /></listitem>
+<listitem>ADAMTS 13 autoantibody (IgG) ELISA can also be used to confirm the autoimmune etiology in idiopathic TTP.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>TTP is a clinical diagnosis.</listitem>
+<listitem>Order CBC with peripheral smear and reticulocyte count, CMP, Coombs test, clotting profile and ADAMTS13 levels when diagnosis is suspected.<xref ref="pubmed18574040" resource="acc008" /></listitem>
+<listitem>Secondary causes such as hypertensive emergency, malignancy, severe preeclampsia, disseminated intravascular coagulation (DIC), HIV, Hepatitis B&#x002F;C, pregnancy, and sepsis should be ruled out if clinical suspicion is high.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data>
+<list style="bulleted">
+<listitem>Sensitivity of ADAMTS 13 activity assays for the diagnosis of TTP (using a cutoff of &lt;10&#x0025; activity as abnormal) ranges from 89&#x0025; to 100&#x0025; with a specificity greater than 91&#x0025;.<xref ref="pubmed18637802" resource="acc007" /></listitem>
+</list>
+</Other_Test_Data>
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treat TTP as a medical emergency and obtain urgent hematology consult. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For suspected TTP initiate plasma exchange as soon as possible <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17266701" resource="acc012" /></listitem>
+<listitem>Give methylprednisolone or high dose oral prednisolone <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed12588343" resource="acc013" /></listitem>
+<listitem>Consider rituximab as an adjunct to plasma exchange and corticosteroids. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17233847" resource="acc018" /></listitem>
+<listitem>Recombinant ADAMTS13 (Adzynma) was recently approved for treatment of congenital TTP and is highly effective.<xref ref="pubmed38692292" resource="acc026" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>See <xref ref="fig001" /> for a suggested overview of treatment. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16672704" resource="acc004" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Glucocorticoids are recommended for all patients with TTP per the British Guidelines.<xref ref="pubmed12588343" resource="acc013" /> In the US, in the absence of contraindication glucocorticoids are added as an adjunct to plasma exchange although the mode of administration is debatable.</listitem>
+<listitem>For persons with congenital TTP, recombinant ADAMTS13 was highly effective at preventing thrombocytopenic episodes compared with standard therapy in a randomized trial with 48 patients. There were trends toward less abdominal pain and neurologic symptoms as well.<xref ref="pubmed38692292" resource="acc026" /></listitem>
+<listitem>Rituximab has been used in cases refractory to plasma exchange and in relapsing cases of idiopathic TTP with significant success.<xref ref="pubmed15517266" resource="acc015" /><xref ref="pubmed17233847" resource="acc018" />. The precise recommendations on criteria to start it is being evaluated.</listitem>
+<listitem>Cyclosporine has been used as an adjunct to plasma exchange as well as in refractory and relapsing cases.<xref ref="pubmed17910638" resource="acc019" /></listitem>
+<listitem>Vincristine, cyclophosphamide, and azathioprine have been used with varying results.</listitem>
+<listitem>There is a weak recommendation to initiate caplacizumab after confirmation of acute TTP and up to 30 days after completion of plasma exchange. <xref ref="pubmed35930694" resource="acc023" /> A systematic review found some evidence that it is associated with lower rates of mortality and relapse, although increases bleeding risk.<xref ref="pubmed37045600" resource="acc025" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Splenectomy can be used for patients with recurrent bouts or refractory idiopathic TTP.</listitem>
+<listitem>In one case series, 6 of 6 patients with refractory TTP were discharged alive from the hospital free of disease. Among 8 patients with recurrent TTP, 4 had no further episodes and the other 4 had a reduction in frequency from 1.0 to 0.3 per year.<xref ref="pubmed12874818" resource="acc016" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Plasma exchange with fresh frozen plasma is first-line treatment. Plasma exchange has been shown to significantly decrease mortality in TTP compared with plasma infusion (RR 0.31; 95&#x0025; CI, 0.21-0.79).<xref ref="pubmed2062330" resource="acc010" /><xref ref="nopmid_0001" /><xref ref="pubmed17266701" resource="acc012" /><xref ref="cochrane3595" resource="acc001" /></listitem>
+<listitem>Standard guidelines are daily plasma exchange with replacement of 1.0 to 1.5 times the predicted plasma volume of the patient. The British guidelines recommend that plasma exchange be continued for 2 days after the platelet count returns to normal (&gt;150,000 per cubic millimeter).</listitem>
+<listitem>Plasma infusion should be performed when plasma exchange cannot be used or is delayed.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The risk of relapse for patients diagnosed with idiopathic TTP is greater with low ADAMTS-13 levels and a younger age at diagnosis. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18637802" resource="acc007" /></listitem>
+<listitem>Male gender, severe thrombocytopenia (&lt;13,000&#x002F;mL), and high LDH are associated with relapse. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17207238" resource="acc020" /></listitem>
+<listitem>Survival at 6 months is estimated at 78&#x0025; with plasma exchange. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed2062330" resource="acc010" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>There is a lack of good evidence for treatment in pregnancy. General recommendations include aspirin if platelets &gt;50,000 per cubic millimeter. If platelets are &lt;50,000 per cubic millimeter, aspirin is not recommended.</listitem>
+<listitem>Low-molecular-weight heparin is used as preventative therapy for women with a history of TTP.</listitem>
+<listitem>General recommendations, based upon expert opinion and case reports, are for plasma exchange at least every 2 weeks. In women who have had TTP during prior pregnancies, plasma exchange is recommended to commence as soon as possible. Prednisolone is often used in conjunction with plasma exchange with no additional harm reported.</listitem>
+<listitem>Pregnant women with active TTP or TTP during prior pregnancies should be closely managed by a multidisciplinary team.<xref ref="pubmed16905949" resource="acc014" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>It is very unusual for anyone under the age of 20 to present with idiopathic TTP.</listitem>
+<listitem>This must be distinguished from the diarrhea-related HUS typically seen in children. The treatment is supportive in HUS.</listitem>
+<listitem>TTP in children is usually due to an inactivating mutation in the ADAMTS 13 gene. Symptoms may be apparent at birth or present later in life. Exacerbations are usually triggered by infections, surgery, or other stresses.<xref ref="pubmed11686108" resource="acc017" /></listitem>
+<listitem>Plasma infusion, from 5 to 10 mL&#x002F;kg of plasma every 2 to 3 weeks is usually sufficient.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="cochrane3595">
+<accessionId id="acc001" href="info:wiley/cochrane/CD003595" />
+<chapter_authors>Michael M, Elliott EJ, Ridley GF, Hodson EM, Craig JC.</chapter_authors>
+<chapter_title>Interventions for haemolytic uraemic syndrome and thrombotic thrombocytopenic purpura (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed10852999">
+<accessionId id="acc002" href="info:pmid/10852999" />
+<authors>Bennett CL, Connors JM, Carwile JM, et al.</authors>
+<title>Thrombotic thrombocytopenic purpura associated with clopidogrel.</title>
+<source>N Engl J Med</source>
+<pubdate>2000</pubdate>
+<volume>342</volume>
+<pages>1773&#x2013;1777.</pages>
+</reference>
+<reference id="pubmed15127914">
+<accessionId id="acc003" href="info:pmid/15127914" />
+<authors>Miller DP, Kaye JA, Shea K, et al.</authors>
+<title>Incidence of thrombotic thrombocytopenic purpura&#x002F;hemolytic uremic syndrome.</title>
+<source>Epidemiology</source>
+<pubdate>2004</pubdate>
+<volume>15</volume>
+<pages>208&#x2013;215.</pages>
+</reference>
+<reference id="pubmed16672704">
+<accessionId id="acc004" href="info:pmid/16672704" />
+<authors>George JN.</authors>
+<title>Thrombotic thrombocytopenic purpura.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>354</volume>
+<pages>1927&#x2013;1935.</pages>
+</reference>
+<reference id="pubmed15978100">
+<accessionId id="acc005" href="info:pmid/15978100" />
+<authors>Terrell D, Williams L, Vesely S, et al.</authors>
+<title>The incidence of thrombotic thrombocytopenic purpura-hemolytic uremic syndrome: all patients, idiopathic patients, and patients with severe ADAMTS-13 deficiency.</title>
+<source>J Thromb Haemost</source>
+<pubdate>2005</pubdate>
+<volume>3</volume>
+<pages>1432&#x2013;1436.</pages>
+</reference>
+<reference id="pubmed12637323">
+<accessionId id="acc006" href="info:pmid/12637323" />
+<authors>Vesely SK, George JN, Lammle B, et al.</authors>
+<title>ADAMTS 13 activity in thrombotic thrombocytopenic purpura-hemolytic uremic syndrome: relation to presenting features and clinical outcomes in a prospective cohort of 142 patients.</title>
+<source>Blood</source>
+<pubdate>2003</pubdate>
+<volume>102</volume>
+<pages>60&#x2013;68.</pages>
+</reference>
+<reference id="pubmed18637802">
+<accessionId id="acc007" href="info:pmid/18637802" />
+<authors>Scully M, Yarranton H, Liesner R, et al.</authors>
+<title>Regional UK TTP Registry: correlation with laboratory ADAMTS 13 analysis and clinical features.</title>
+<source>Br J Haematol</source>
+<pubdate>2008</pubdate>
+<volume>142</volume>
+<pages>819&#x2013;826.</pages>
+</reference>
+<reference id="pubmed18574040">
+<accessionId id="acc008" href="info:pmid/18574040" />
+<authors>Sadler JE.</authors>
+<title>Von Willebrand factor, ADAMTS13, and thrombotic thrombocytopenic purpura.</title>
+<source>Blood</source>
+<pubdate>2008</pubdate>
+<volume>112</volume>
+<pages>11&#x2013;18.</pages>
+</reference>
+<reference id="pubmed18397340">
+<accessionId id="acc009" href="info:pmid/18397340" />
+<authors>Jin M, Casper C, Cataland SR, et al.</authors>
+<title>Relationship between ADAMTS13 activity in clinical remission and the risk of TTP relapse.</title>
+<source>Br J Haematol</source>
+<pubdate>2008</pubdate>
+<volume>141</volume>
+<pages>651&#x2013;658.</pages>
+</reference>
+<reference id="pubmed2062330">
+<accessionId id="acc010" href="info:pmid/2062330" />
+<authors>Rock GA, Shumak KH, Buskard NA, et al.</authors>
+<title>Comparison of plasma exchange with plasma infusion in the treatment of thrombotic thrombocytopenic purpura: Canadian Apheresis Study Group.</title>
+<source>N Engl J Med</source>
+<pubdate>1991</pubdate>
+<volume>325</volume>
+<pages>393&#x2013;397.</pages>
+</reference>
+<reference id="nopmid_0001">
+<authors>Henon P.</authors>
+<title>Thrombotic thrombocytopenic purpura: clinical results of a French controlled trial.</title>
+<source>Transfus Sci</source>
+<pubdate>1992</pubdate>
+<volume>13</volume>
+<pages>63&#x2013;72.</pages>
+</reference>
+<reference id="pubmed17266701">
+<accessionId id="acc012" href="info:pmid/17266701" />
+<authors>Brunskill SJ, Tusold A, Benjamin S, Stanworth SJ, Murphy MF.</authors>
+<title>A systematic review of randomized controlled trials for plasma exchange in the treatment of thrombotic thrombocytopenic purpura.</title>
+<source>Transfus Med</source>
+<pubdate>2007</pubdate>
+<volume>17</volume>
+<pages>17&#x2013;35.</pages>
+</reference>
+<reference id="pubmed12588343">
+<accessionId id="acc013" href="info:pmid/12588343" />
+<authors>Allford SL, Hunt BJ, Rose P, Machin S.</authors>
+<title>Guidelines on the diagnosis and management of the thrombotic microangiopathic haemolytic anaemias.</title>
+<source>Br J Haematol</source>
+<pubdate>2003</pubdate>
+<volume>120</volume>
+<pages>556&#x2013;573.</pages>
+</reference>
+<reference id="pubmed16905949">
+<accessionId id="acc014" href="info:pmid/16905949" />
+<authors>Scully M, Starke R, Lee R, et al.</authors>
+<title>Successful management of pregnancy in women with a history of thrombotic thrombocytopaenic purpura.</title>
+<source>Blood Coagul Fibrinolysis</source>
+<pubdate>2006</pubdate>
+<volume>17</volume>
+<pages>459&#x2013;463.</pages>
+</reference>
+<reference id="pubmed15517266">
+<accessionId id="acc015" href="info:pmid/15517266" />
+<authors>Reddy PS, Deauna-limayo D, Cook JD, et al.</authors>
+<title>Rituximab in the treatment of relapsed thrombotic thrombocytopenic purpura</title>
+<source>Ann Hematol</source>
+<pubdate>2005</pubdate>
+<volume>84</volume>
+<pages>232&#x2013;235.</pages>
+</reference>
+<reference id="pubmed12874818">
+<accessionId id="acc016" href="info:pmid/12874818" />
+<authors>Aqui NA, Stein SH, Konkle BA, et al.</authors>
+<title>Role of splenectomy in patients with refractory or relapsed thrombotic thrombocytopenic purpura.</title>
+<source>J Clin Apher</source>
+<pubdate>2003</pubdate>
+<volume>18</volume>
+<pages>51.</pages>
+</reference>
+<reference id="pubmed11686108">
+<accessionId id="acc017" href="info:pmid/11686108" />
+<authors>Furlan M, Lammle B.</authors>
+<title>Aetiology and pathogenesis of thrombotic thrombocytopenic purpura and haemolytic uraemic syndrome: the role of von Willebrand factor-cleaving protease.</title>
+<source>Best Pract Res Clin Haematol</source>
+<pubdate>2001</pubdate>
+<volume>14</volume>
+<pages>437.</pages>
+</reference>
+<reference id="pubmed17233847">
+<accessionId id="acc018" href="info:pmid/17233847" />
+<authors>Scully M, Cohen H, Cavenagh J, et al.</authors>
+<title>Remission in acute refractory and relapsing thrombotic thrombocytopenic purpura following rituximab is associated with a reduction of IgG antibodies to ADAMTS-13.</title>
+<source>Br J Haematol</source>
+<pubdate>2007</pubdate>
+<volume>136</volume>
+<pages>451&#x2013;461.</pages>
+</reference>
+<reference id="pubmed17910638">
+<accessionId id="acc019" href="info:pmid/17910638" />
+<authors>Cataland S, Jin M, Lin S, et al.</authors>
+<title>Ciclosporin and plasma exchange in thrombotic thrombocytopenic purpura: long-term follow-up with serial analysis of ADAMTS13 activity.</title>
+<source>Br J Haematol</source>
+<pubdate>2007</pubdate>
+<volume>139</volume>
+<pages>486&#x2013;493.</pages>
+</reference>
+<reference id="pubmed17207238">
+<accessionId id="acc020" href="info:pmid/17207238" />
+<authors>Tuncer H, Oster R, Huang S, Marques M.</authors>
+<title>Predictors of response and relapse in a cohort of adults with thrombotic thrombocytopenic purpura-hemolytic uremic syndrome: a single-institution experience.</title>
+<source>Transfusion</source>
+<pubdate>2007</pubdate>
+<volume>47</volume>
+<pages>107&#x2013;114.</pages>
+</reference>
+<reference id="pubmed29296701">
+<accessionId id="acc022" href="info:pmid/29296701" />
+<authors>Page EE, Kremer Hovinga JA, Terrell DR, Vesely SK, George JN.</authors>
+<title>Thrombotic thrombocytopenic purpura: diagnostic criteria, clinical features, and long-term outcomes from 1995 through 2015.</title>
+<source>Blood Adv</source>
+<pubdate>2017</pubdate>
+<volume>1</volume>
+<pages>590&#x2013;600.</pages>
+</reference>
+<reference id="pubmed35930694">
+<accessionId id="acc023" href="info:pmid/35930694" />
+<authors>Izquierdo CP , Mingot-Castellano ME , Fuentes AEK, Garc&#x00ED;a-Arroba Peinado J, Cid J , Jimenez MM, Valcarcel D, G&#x00F3;mez-Segu&#x00ED; I, de la Rubia J , Martin P, Goterris R, Hern&#x00E1;ndez L, Tall&#x00F3;n I, Varea S, Fern&#x00E1;ndez M, Garc&#x00ED;a-Mu&#x00F1;oz N, Vara M, Zarzoso MF, Garc&#x00ED;a-Candel F, Paciello ML, Garc&#x00ED;a-Garc&#x00ED;a I , Zalba S, Campuzano V , Gala JM, Est&#x00E9;vez JV, Jim&#x00E9;nez GM, L&#x00F3;pez Lorenzo JL, Arias EG, Freir&#x00ED;a C, Sol&#x00E9; M, &#x00C1;vila Idrovo LF, Hern&#x00E1;ndez Castellet JC, Cruz N, Lavilla E, P&#x00E9;rez-Monta&#x00F1;a A, Atucha JA, Moreno Beltr&#x00E1;n ME, Moreno Mac&#x00ED;as JR, Salinas R, Del Rio-Garma J.</authors>
+<title>Real-world effectiveness of caplacizumab vs the standard of care in&#x00A0;immune thrombotic thrombocytopenic purpura.</title>
+<source>Blood Adv</source>
+<pubdate>2022</pubdate>
+<volume>6</volume>
+<pages>6219&#x2013;6227.</pages>
+</reference>
+<reference id="pubmed36477772">
+<accessionId id="acc024" href="info:pmid/36477772" />
+<authors>Schofield J, Hosseinzadeh S, Burton K, Pavord S , Dutt T, Doree C, Lim WY, Desborough MJR .</authors>
+<title>Drug-induced thrombotic thrombocytopenic purpura: A systematic review and review of European and North American pharmacovigilance data.</title>
+<source>Br J Haematol</source>
+<pubdate>2023</pubdate>
+<volume>201</volume>
+<pages>766&#x2013;773.</pages>
+</reference>
+<reference id="pubmed37045600">
+<accessionId id="acc025" href="info:pmid/37045600" />
+<authors>He J, Qi J, Han H, Xu X, Li X, Song X, Han Y.</authors>
+<title>Efficacy and safety of caplacizumab in the treatment of thrombotic thrombocytopenic purpura: a systematic review and meta-analysis.</title>
+<source>Expert Rev Hematol</source>
+<pubdate>2023</pubdate>
+<volume>16</volume>
+<pages>377&#x2013;385.</pages>
+</reference>
+<reference id="pubmed38692292">
+<accessionId id="acc026" href="info:pmid/38692292" />
+<authors>Scully M, Antun A, Cataland SR, Coppo P, Dossier C, Biebuyck N, Hassenpflug WA, Kentouche K, Kn&#x00F6;bl P, Kremer Hovinga JA, L&#x00F3;pez-Fern&#x00E1;ndez MF, Matsumoto M, Ortel TL, Windyga J, Bhattacharya I, Cronin M, Li H, Mellg&#x00E5;rd B, Patel M, Patwari P, Xiao S, Zhang P, Wang LT, cTTP Phase 3 Study Investigators.</authors>
+<title>Recombinant ADAMTS13 in Congenital Thrombotic Thrombocytopenic Purpura.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>1584&#x2013;1596.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>374</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suggested Approach to Management of an Initial Episode of Thrombotic Thrombocytopenic Purpura (TTP).</title>
+<graphic href="eee0282-w001.gif" />
+<cell type="start" id="cell-1">
+<label>The patient has thrombocytopenia and microangiopathic hemolytic anemia with no apparent cause. TTP is diagnosed.</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Is the patient a young child with renal failure and a prodrome of diarrhea?</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Begin plasma exchange. Add glucocorticoids if TTP appears to be idiopathic. Continue to search for an alternative cause, such as cancer or sepsis. Is an alternative cause discovered?</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Continue treatment and follow the platelet count to measure response. Does the platelet count steadily increase to normal?</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Add glucocorticoids, or if the patient is already receiving glucocorticoids, add more intensive immunosuppressive agents. Consider increasing the volume of plasma exchanged. When the platelet count exceeds 150,000&#x002F;mm<sup>3</sup> for 2 consecutive days, consider stopping plasma exchange gradually rather than abruptly. Does the platelet count remain normal?</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Resume daily plasma exchange and intensify immunosuppressive treatment.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Maintain the central venous catheter until the risk of exacerbation decreases (1&#x2013;3 wk) to avoid the risks associated with placement of a new catheter. Remission is achieved when the platelet count remains normal for 30 days after the discontinuation of plasma exchange.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Stop plasma exchange when the platelet count exceeds 150,000&#x002F;mm<sup>3</sup> for 2 consecutive days, then begin to taper glucocorticoids. Does the platelet count remain normal after plasma exchange is stopped?</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Stop plasma exchange. Begin appropriate management.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Manage with supportive care and no plasma exchange.</label>
+</cell>
+<footnotes>
+<footnote>From George JN. Thrombotic thrombocytopenic purpura. <em>N Engl J Med</em> 2006;<strong>354</strong>:1927&#x2013;1935.<xref ref="pubmed16672704" resource="acc004" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

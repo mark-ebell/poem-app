@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Meningitis (adult)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0324</topic_id>
+<topic_comment />
+<topic_lastupdated>07/08/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Steven R. Brown, MD, FAAFP</author_name>
+<author_title>Program Director and Professor</author_title>
+<author_department />
+<author_institution>University of Arizona College of Medicine &#x2013; Phoenix Family Medicine Residency</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Marc D. McCleary, MD</author_name>
+<author_title>Assistant Clinical Professor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Saint Louis University College of Medicine</author_institution>
+<author_email>marc.mccleary&#x0040;scott.af.mil</author_email>
+<author_phone_office>618-256-7311x4434</author_phone_office>
+<author_phone_home>618-355-5890</author_phone_home>
+<author_phone_fax />
+<author_street1>300 Brookhaven Drive</author_street1>
+<author_street2 />
+<author_city>Belleville</author_city>
+<author_state>IL</author_state>
+<author_zip>62221</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mehmood Rashid, MD</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Toledo College of Medicine and Life Sciences</editor_institution>
+</editor>
+<editor>
+<editor_name>Henry C. Barry, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>ACIP recommends vaccination with a quadrivalent meningococcal conjugate vaccine (MenACWY) for adolescents aged 11 to 12 years. A booster is recommended at age 16 years.<xref ref="pubmed33417592" resource="acc028" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Obtain a CBC, blood cultures, and CSF analysis for patients presenting with fever and headache, neck stiffness, and&#x002F;or altered mental status. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Suspect meningitis in patients with fever, headache, neck stiffness, neurologic symptoms, and&#x002F;or altered consciousness. It is very unlikely in persons without fever, altered mental status and neck stiffness. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10411200" resource="acc004" /></listitem>
+<listitem>If bacterial meningitis is suspected, immediately start empiric antibiotics. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Administration of dexamethasone with initial antibiotic treatment is a treatment option. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Hypotension, altered mental status, and seizures predict a poor outcome. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Meningitis is a bacterial, viral or (rarely) fungal infection of leptomeninges and the subarachnoid space.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>0.05 new cases per 1000 persons per year for <em>Neisseria meningitidis</em>.<xref ref="web001" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Up to 19&#x0025; of patients who recover have permanent <resourceLink href="info:wiley/eep-eee/99">hearing loss,</resourceLink> mental retardation, or other serious neurological sequelae.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>A summary of 5 case series found that the most common bacterial causes of meningitis in adults were <em>Strep pneumoniae</em> (53&#x0025;), <em>N. meningitidis</em> (27&#x0025;), <resourceLink href="info:wiley/eep-eee/320">listeria monocytogenes</resourceLink> (4&#x0025;), Haemophilus influenzae (3&#x0025;).<xref ref="pubmed27062097" resource="acc026" /></listitem>
+<listitem><em>N. meningitidis</em> is carried asymptomatically by 10&#x0025; of the population<xref ref="pubmed8150942" resource="acc005" /></listitem>
+<listitem>Other causes include <em>Enteroviruses</em>, <em>Streptococcus agalactiae</em>, <em>Escherichia coli</em>, <resourceLink href="info:wiley/eep-eee/352">Mycobacterium tuberculi</resourceLink>, <resourceLink href="info:wiley/eep-eee/300">Cryptococcus</resourceLink> neoformans, <em>Candida albicans</em>, and <resourceLink href="info:wiley/eep-eee/299">Coccidioides.</resourceLink></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Caused by bacteria, virus, or rarely in immunosuppressed patients a fungal infection. Typically spread by respiratory secretions, it is not spread by casual contact or through the air. Average incubation period for <em>S. pneumoniae</em> and <em>N. meningitidis</em> is 3 to 4 days (range 1-10 days).</listitem>
+<listitem>Seasonal variation in incidence with winter and early spring being the most common seasons for <em>N. meningitidis</em> infection.</listitem>
+<listitem>Patients with complement deficiencies of C5 and C9 are more susceptible to infection with <em>N. meningitidis</em>.</listitem>
+<listitem>Patients without a spleen, whether from trauma or sickle cell anemia, are more susceptible to infection with <em>S. pneumoniae</em>.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Refugee</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Military recruit</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>College students</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Patients without spleen</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Immunocompromised</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Exposure to tobacco smoke</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>ACIP recommends vaccination with a quadrivalent meningococcal conjugate vaccine (MenACWY) for adolescents aged 11 to 12 years. A booster is recommended at age 16 years.<xref ref="pubmed33417592" resource="acc028" /><evidence rating="A" system="SORT">A</evidence><xref ref="cochrane1834" resource="acc016" /></listitem>
+<listitem>ACIP also recommends vaccination with MenACWY for persons aged &#x2265; 2 months at increased risk for meningococcal disease caused by serogroups A, C, W, or Y. This includes persons with persistent complement component deficiencies; persons receiving a complement inhibitor (e.g., eculizumab or ravulizumab); persons with asplenia; persons living with HIV infection; microbiologists exposed to isolates of Neisseria meningitidis; persons in a meningococcal disease outbreak caused by serogroups A, C, W, or Y; persons who travel to or live in areas in which meningococcal disease is hyperendemic or epidemic; unvaccinated or incompletely vaccinated first-year college students living in residence halls; and military recruits.<xref ref="pubmed33417592" resource="acc028" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>A pentavalent vaccine that adds serogroup B is now available and may be used in place of the quadrivalent vaccine in persons 10 years and older when vaccination for meningitis B is also indicated.<xref ref="pubmed38635488" resource="acc029" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Chemoprophylaxis with rifampin, ciprofloxacin, or ceftriaxone should only be offered to close contacts of a patient infected with <em>N. meningitidis</em>. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed2897515" resource="acc011" /><xref ref="cochrane4785" resource="acc015" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect meningitis in patients with fever, headache, nausea&#x002F;vomiting, neck stiffness, neurologic symptoms, and&#x002F;or altered consciousness.<xref ref="pubmed27062097" resource="acc026" /> It is very unlikely in persons without fever, altered mental status and neck stiffness. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10411200" resource="acc004" /></listitem>
+<listitem>Obtain a CBC, blood cultures, and CSF analysis for patients presenting with fever and headache, neck stiffness, and&#x002F;or altered mental status. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>A positive CSF culture is the gold standard for diagnosis of bacterial meningitis. If culture and Gram statin are negative order PCR or immunochromatographic tests for specific pathogens. <evidence rating="C" system="SORT">C</evidence><xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>A <xref ref="test79" resource="acc002">CSF lactate more than 31.5 mg&#x002F;dL (3.5 mmol&#x002F;L) and a CSF to blood glucose ratio of less than 0.4</xref> are both strong indicators of a bacterial source.<xref ref="poem130401" resource="acc021" /><evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Headache, migraine</Differential_Name>
+<Differential_Features>Less likely to have fever or increased WBC count</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Delirium tremens</Differential_Name>
+<Differential_Features>Must have history of alcohol, barbiturate, or benzodiazepine use</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Encephalitis</Differential_Name>
+<Differential_Features>More likely to have change in mental status or focal neurologic deficits</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Subarachnoid hemorrhage</Differential_Name>
+<Differential_Features>More intense headache. Less likely to have increased WBC count</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Neoplasm, brain</Differential_Name>
+<Differential_Features>More insidious onset of headaches, more likely to have focal neurological deficits</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>The classic clinical triad for meningitis is fever, neck stiffness, and altered mental status. However, less than two-thirds of patients present with all 3 findings. On the other hand, the absence of all 3 of the classic clinical triad virtually eliminates meningitis as a diagnosis (sensitivity 99&#x0025;-100&#x0025;).<xref ref="pubmed10411200" resource="acc004" /></listitem>
+<listitem>Most adults with meningitis present with <xref ref="hp131" resource="acc001">headache, fever, nausea or vomiting, and photophobia</xref>.</listitem>
+<listitem>A review of several case series in Europe found that headache, fever, neck stiffness, altered mental status and nausea&#x002F;vomiting were most commonly reported. The triad of fever, neck stiffness and altered mental status was seen in between 41&#x0025; and 51&#x0025; in the four series reporting them.<xref ref="pubmed27062097" resource="acc026" /></listitem>
+<listitem>Assessment of neck stiffness should be done by observing <xref ref="hp131" resource="acc001">Kernig and Brudzinski signs</xref> and applying gentle forward flexion with patient in supine position. While very specific the <xref ref="hp131" resource="acc001">Kernig and Brudzinski signs</xref> signs lack sensitivity and if normal cannot be relied upon to rule out meningitis.</listitem>
+<listitem>The <xref ref="hp131" resource="acc001">jolt accentuation test</xref> is done by having patient turn his head horizontally 2 to 3 times per second. If <resourceLink href="info:wiley/eep-eee/439">headache</resourceLink> worsens, the test is positive. A negative test is good evidence against meningitis in adults but a positive test is not helpful.</listitem>
+<listitem>A Glasgow Coma Score (GCS) less than 11 may be a predictor of bacterial or fungal meningitis; however assessment of the GCS should not delay empiric antibiotic or dexamethasone therapy.<xref ref="poem130401" resource="acc021" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Obtain a CBC, blood cultures (before antibiotics), and CSF analysis for patients presenting with clinically suspected meningitis (e.g. fever and headache, neck stiffness, and&#x002F;or altered mental status). The analysis of cerebrospinal fluid should include WBC, glucose, Gram stain to include acid fast staining, culture to include fungi, and lactate.<xref ref="poem81225" resource="acc018" /></listitem>
+<listitem>Cranial imaging prior to lumbar puncture is recommended by European guidelines (2016) for the patients with focal neurologic deficits, new onset seizures, severely altered mental status (Glasgow Coma score &lt; 10), or who are severely immunocompromised.<xref ref="pubmed27062097" resource="acc026" /></listitem>
+<listitem>The CBC and blood cultures should be drawn prior to initiating antibiotic therapy. Blood cultures are positive in up to 75&#x0025; of cases of bacterial meningitis.<xref ref="pubmed9867727" resource="acc006" /></listitem>
+<listitem>When performing a lumbar puncture, the type of needle appears to have no effect, however reinserting the stylet results in fewer headaches.<xref ref="poem81225" resource="acc018" /></listitem>
+<listitem>A <xref ref="test79" resource="acc002">CSF Gram stain</xref> is a quick way to check for bacterial etiology and is diagnostic when positive, but a negative Gram stain does not rule out a pyogenic source.</listitem>
+<listitem>A <xref ref="test79" resource="acc002">positive CSF culture</xref> is the gold standard for diagnosis of bacterial or fungal meningitis, but as with Gram stain a negative culture does not rule out bacterial meningitis.<xref ref="poem130401" resource="acc021" /> It is positive in 60&#x0025; to 90&#x0025; of adults with bacterial meningitis. PCR and potentially immunochromatographic testing for specific pathogens such as N. meningitidis is more sensitive than culture and is recommended when culture and Gram stain are negative.<xref ref="pubmed31053662" resource="acc024" /></listitem>
+<listitem>A <xref ref="test79" resource="acc002">CSF lactate of more than 31.5 and a CSF to blood glucose ratio of less than 0.4</xref> are strong predictors of bacterial etiology.<xref ref="poem130401" resource="acc021" /><xref ref="test79" resource="acc002">Negative Gram stain and culture and a normal CSF glucose</xref> are strong evidence for a viral etiology.</listitem>
+<listitem>If confirmation of aseptic meningitis and identification of the causative organism is necessary, <xref ref="test384" resource="acc003">real time PCR for enterovirus</xref> is available and is highly accurate.<xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>CSF or blood procalcitonin may be a useful test to diagnose bacterial meningitis.<xref ref="pubmed26986140" resource="acc023" /></listitem>
+<listitem><xref ref="test79" resource="acc002">Limulus endotoxin assay</xref> is sensitive and specific for diagnosis of Gram negative bacterial meningitis but is not currently recommended by the Infectious Disease Society of America Practice Guideline Committee.<xref ref="poem130401" resource="acc021" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The "FOUR score" incorporates assessment of eye response, motor response, brainstem reflexes, and respiration to predict mortality in adults with community acquired meningitis. Each 1 point increase in the 16 point score was associated with a significant decrease in the likelihood of a favorable outcome (OR 0.83, 95&#x0025; CI 0.77 to 0.89).<xref ref="pubmed31053662" resource="acc024" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>131</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>79</Dx_ID>
+<Dx_ID>384</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>If bacterial meningitis is suspected, immediately start empiric antibiotics. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed9867727" resource="acc006" /><xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>For adults 18 to 50 when sensitivity of <em>S. pneumonia</em> to penicillin is reduced, cefotaxime or ceftriaxone PLUS vancomycin or rifampicin are recommended. For adults &gt; 50 years or any adult with risk factors for <em>Listeria</em> when sensitivity of <em>S. pneumonia</em> to penicillin is reduced, cefotaxime or ceftriaxone PLUS vancomycin or rifampicin PLUS amoxicillin&#x002F;ampicillin&#x002F;penicillin G are recommended.<xref ref="pubmed27062097" resource="acc026" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Administration of dexamethasone with initial antibiotic treatment is a treatment option. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane4405" resource="acc008" /></listitem>
+<listitem>Starting maintenance fluid hydration reduces chance of neurologic sequelae. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4786" resource="acc009" /></listitem>
+<listitem>If aseptic meningitis is suspected, observation and supportive therapy are recommended. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>If bacterial meningitis is suspected, start antibiotics immediately after LP or after blood cultures if CT scan is needed before LP.<xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>European guidelines (2016) recommend the following for initial empiric therapy:<xref ref="pubmed27062097" resource="acc026" /><list style="bulleted">
+<listitem>Adults 18 to 50 when sensitivity of <em>S. pneumonia</em> to penicillin is reduced: cefotaxime or ceftriaxone PLUS vancomycin or rifampicin.</listitem>
+<listitem>Adults 18 to 50 when <em>S. pneumoniae</em> are susceptible to penicillin: cefotaxime or ceftriaxone</listitem>
+<listitem>Adults &gt;50 years or any adult with risk factors for <em>Listeria</em> when sensitivity of <em>S. pneumonia</em> to penicillin is reduced: cefotaxime or ceftriaxone PLUS vancomycin or rifampicin PLUS amoxicillin&#x002F;ampicillin&#x002F;penicillin G</listitem>
+<listitem>Adults &gt;50 years or any adult with risk factors for <em>Listeria</em> when <em>S. pneumoniae</em> are susceptible to penicillin: Cefotaxime or ceftriaxone PLUS amoxicillin&#x002F;ampicillin&#x002F;penicillin G.</listitem>
+<listitem>IV dosing: ceftriaxone 2 g q12h or 4 g q24h; cefotaxime 2 g q4&#x2013;6 h; vancomycin 10&#x2013;20 mg&#x002F;kg q8&#x2013;12h to achieve serum trough concentrations of 15&#x2013;20 &#x03BC;g&#x002F;mL; rifampicin 300 mg q12 h; amoxicillin or ampicillin 2 g q4h</listitem>
+</list></listitem>
+<listitem><strong>Adjunctive use of corticosteroids</strong></listitem>
+<listitem>An individual RCT of 301 patients randomized them to 10 mg dexamethasone or placebo every 6 hours for 4 days, and found a significant reduction in mortality (7&#x0025; vs 15&#x0025;, p &lt;0.05).<xref ref="pubmed12432041" resource="acc025" /> However, meta-analyses failed to confirm this mortality benefit.<xref ref="cochrane4405" resource="acc008" /><xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>A Cochrane review of 25 studies with over 4000 patients concluded that corticosteroids do appear to improve hearing and neurologic outcomes, though.<xref ref="cochrane4405" resource="acc008" /> According to one guideline, clinicians have the option to administer dexamethasone (0.15 mg&#x002F;kg q6 hours for 2-4 days) with empiric antibiotics for suspected cases of bacterial meningitis in adults.<xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>Dexamethasone should only be continued if gram positive diplococci are seen on Gram stain or <em>S. pneumoniae</em> in confirmed in blood or CSF cultures.<xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>In addition, corticosteroids reduce mortality (NNT &#x003D; 14; 95&#x0025; CI, 21-389) and morbidity in HIV-negative patients with tuberculous meningitis.<xref ref="poem70101" resource="acc012" /><xref ref="cochrane2244" resource="acc013" /></listitem>
+<listitem><strong>Cryptococcal meningitis</strong></listitem>
+<listitem>Standard WHO recommended therapy for cryptococcal meningitis is amphotericin B deoxycholate (3 to 4 mg&#x002F;kg&#x002F;day) plus flucytosine (100 mg&#x002F;kg&#x002F;day in 4 divided doses) for 7 days, followed by fluconazole (1200 mg&#x002F;day) for 7 days.<xref ref="pubmed38346436" resource="acc032" /></listitem>
+<listitem>A 2024 guideline recommends thatpatients with HIV-associated cryptococcal meningitis in low income countries should receive liposomal amphotericin B 10 mg&#x002F;kg as a single-dose, along with 14 days of flucytosine 25 mg&#x002F;kg four times a day and fluconazole 1200 mg daily.<xref ref="pubmed38346436" resource="acc032" /></listitem>
+<listitem>A trial randomized 814 patients with HIV disease and cryptococcal meningitis to this regimen or to a single high dose of liposomal amphotericin B 10 mg&#x002F;kg on day 1 plus 14 days of flucytosine (100 mg&#x002F;kg&#x002F;day) and fluconazole (1200 mg&#x002F;day). The novel single dose amphotericin regimen was non-inferior with 24.8&#x0025; mortality with the new regimen and 28.7&#x0025; in the standard therapy group.It was also better tolerated with fewer adverse events.<xref ref="pubmed35320642" resource="acc027" /></listitem>
+<listitem><strong>Tuberculous meningitis</strong></listitem>
+<listitem>Treat tuberculous meningitis presumed to be drug-susceptible with 2 months of daily INH (5 to 10 mg&#x002F;kg&#x002F;day, maximum 300 mg), rifampin (10 mg&#x002F;kg&#x002F;day, maximum 450 mg if &lt; 50 kg, otherwise 600 mg), pyrazinamide (25 to 30 mg&#x002F;kg&#x002F;day, maximum daily dose 1500 mg if &lt; 50 kg, otherwise 2000 mg), and either streptomycin (15 mg&#x002F;kg&#x002F;day in adults, 30 mg&#x002F;kg&#x002F;day in children, maximum 1000 mg), or ethambutol (15 to 20 mg&#x002F;kg&#x002F;day, 1600 maximum), followed by 7 to 10 months of INH and rifampin.<xref ref="pubmed22567269" resource="acc030" /></listitem>
+<listitem>A trial randomized 520 HIV positive adults with tuberculous meningitis to either dexamethasone or placebo. There was no reduction in mortality overall or by prespecified subgroups with dexamethasone.<xref ref="pubmed37819954" resource="acc033" /></listitem>
+<listitem>A small randomized controlled trial (n&#x003D;40) found significantly better survival with the addition of adjunctive linelozid 1200 mg once daily to standard therapy.<xref ref="pubmed39960851" resource="acc031" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>There is insufficient evidence to compare maintenance versus restricted fluids for the outcome of mortality.<xref ref="cochrane4786" resource="acc009" /></listitem>
+<listitem>Children receiving maintenance fluids, compared with those whose fluids are restricted, have fewer seizures, are less likely to have spasticity and are less likely to have severe neurologic sequelae, although this evidence is of low quality. There are no RCTs in adults.<xref ref="cochrane4786" resource="acc009" /></listitem>
+<listitem>If patient is determined to have aseptic meningitis observation and symptomatic control is sufficient.</listitem>
+<listitem>Therapeutic hypothermia is not beneficial in patients with severe bacterial meningitis and may be harmful.<xref ref="poem160272" resource="acc022" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>As many as 1 in 4 hospitalized patients with bacterial meningitis die. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9867727" resource="acc006" /></listitem>
+<listitem>Three clinical variables (hypotension, altered mental status, and seizure) predict adverse outcomes such as <resourceLink href="info:wiley/eep-eee/99">hearing loss,</resourceLink> intellectual impairment, or other neurologic sequelae. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9867727" resource="acc006" /></listitem>
+<listitem>Hypotension, altered mental status, and seizures predict a poor outcome. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9867727" resource="acc006" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>As many as 1 in 4 hospitalized patients with bacterial meningitis die.<xref ref="pubmed9867727" resource="acc006" /></listitem>
+<listitem>Bacterial meningitis commonly results in <resourceLink href="info:wiley/eep-eee/99">hearing loss,</resourceLink> focal neurologic deficits <resourceLink href="info:wiley/eep-eee/456">seizure disorder,</resourceLink> severe ataxia, and memory disturbance.</listitem>
+<listitem>Delay in starting antibiotics is associated with an increased risk of in-hospital mortality or prolonged neurologic deficit.<xref ref="pubmed9867727" resource="acc006" /><xref ref="pubmed15760921" resource="acc007" /><xref ref="cochrane5437" resource="acc014" /></listitem>
+<listitem>Three clinical variables (hypotension, altered mental status, and seizure) predict adverse outcomes such as <resourceLink href="info:wiley/eep-eee/99">hearing loss,</resourceLink> intellectual impairment, or other neurologic sequelae. The absence of all of these was associated with a 9&#x0025; risk. When one was present, the risk was 33&#x0025; and when two were present the risk was 57&#x0025;.<xref ref="pubmed9867727" resource="acc006" /></listitem>
+<listitem>Up to 19&#x0025; of patients who recover from pneumococcal meningitis have permanent <resourceLink href="info:wiley/eep-eee/99">hearing loss,</resourceLink> intellectual impairment, or other serious neurological sequelae.<xref ref="pubmed6477211" resource="acc010" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>A repeat CSF analysis should be done if no improvement is seen after 48 hours of antibiotic therapy or if there is more than 8 days of fever.<xref ref="poem130401" resource="acc021" /></listitem>
+<listitem>While post infection hearing evaluation is recommended in children, there is no recommendation to routinely screen adults' hearing after meningitis.</listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>In the elderly population, meningitis must be considered with any new neurologic sign, of which confusion is the most common. The elderly are 8 times more likely to present with confusion then the younger population.<xref ref="pubmed11144034" resource="acc020" /></listitem>
+<listitem>In patients older than 60 years, <em>N. meningitidis</em> is rarely a cause of pyogenic meningitis. <em>S. pneumoniae</em> is the predominant organism (70&#x0025;) followed by <em>L. monocytogenes</em>.<xref ref="pubmed11075393" resource="acc019" /></listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="hp131">
+<accessionId id="acc001" href="info:wiley/eep-hp/131" />
+<accessionId id="acc001b" href="info:pmid/2071396" />
+<authors>Uchihara T, Tsukagoshi H.</authors>
+<title>Jolt accentuation of headache: the most sensitive sign of CSF pleocytosis.</title>
+<source>Headache</source>
+<pubdate>1991</pubdate>
+<volume>31</volume>
+<pages>167&#x2013;171.</pages>
+</reference>
+<reference id="test79">
+<accessionId id="acc002" href="info:wiley/eep-dx/79" />
+<accessionId id="acc002b" href="info:pmid/3518565" />
+<authors>Marton KI, Gean AD.</authors>
+<title>The spinal tap: a new look at an old test.</title>
+<source>Ann Intern Med</source>
+<pubdate>1986</pubdate>
+<volume>104</volume>
+<pages>840&#x2013;848.</pages>
+</reference>
+<reference id="test384">
+<accessionId id="acc003" href="info:wiley/eep-dx/384" />
+<accessionId id="acc003b" href="info:pmid/16214398" />
+<authors>Petitjean J, Vabret A, Dina J, Gouarin S, Freymuth F.</authors>
+<title>Development and evaluation of a real-time RT-PCR assay on the Light Cycler for the rapid detection of enterovirus in cerebrospinal fluid specimens.</title>
+<source>J Clin Virol</source>
+<pubdate>2006</pubdate>
+<volume>35</volume>
+<pages>278&#x2013;284.</pages>
+</reference>
+<reference id="pubmed10411200">
+<accessionId id="acc004" href="info:pmid/10411200" />
+<authors>Attia J, Hatala R, Cook D, Wong JG.</authors>
+<title>The rational clinical examination. Does this adult patient have acute meningitis?</title>
+<source>JAMA</source>
+<pubdate>1999</pubdate>
+<volume>281</volume>
+<pages>175&#x2013;181.</pages>
+</reference>
+<reference id="pubmed8150942">
+<accessionId id="acc005" href="info:pmid/8150942" />
+<authors>Caugant DA, Hoiby EA, Magnus P, et al.</authors>
+<title>Asymptomatic carriage of Neisseria meningitidis in randomly sampled population.</title>
+<source>J Clin Microbiol</source>
+<pubdate>1994</pubdate>
+<volume>32</volume>
+<pages>323&#x2013;330.</pages>
+</reference>
+<reference id="pubmed9867727">
+<accessionId id="acc006" href="info:pmid/9867727" />
+<authors>Aronin SI, Peduzzi P, Quagliarello VJ.</authors>
+<title>Community-acquired bacterial meningitis: risk stratification for adverse clinical outcome and effect of antibiotic timing.</title>
+<source>Ann Intern Med</source>
+<pubdate>1998</pubdate>
+<volume>129</volume>
+<pages>862&#x2013;869.</pages>
+</reference>
+<reference id="pubmed15760921">
+<accessionId id="acc007" href="info:pmid/15760921" />
+<authors>Proulx N, Frechette D, Toye B, et al.</authors>
+<title>Delays in the administration of antibiotics are associated with mortality from adult acute bacterial meningitis.</title>
+<source>QJM</source>
+<pubdate>2005</pubdate>
+<volume>98</volume>
+<pages>291&#x2013;298.</pages>
+</reference>
+<reference id="cochrane4405">
+<accessionId id="acc008" href="info:wiley/cochrane/CD004405" />
+<chapter_authors>Brouwer MC, McIntyre P, Prasad K, van de Beek D.</chapter_authors>
+<chapter_title>Corticosteroids for acute bacterial meningitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 9. Art. No.: CD004405. DOI: 10.1002&#x002F;14651858.CD004405.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4786">
+<accessionId id="acc009" href="info:wiley/cochrane/CD004786" />
+<chapter_authors>Maconochie IK, Bhaumik S.</chapter_authors>
+<chapter_title>Fluid therapy for acute bacterial meningitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 11. Art. No.: CD004786. DOI: 10.1002&#x002F;14651858.CD004786.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed6477211">
+<accessionId id="acc010" href="info:pmid/6477211" />
+<authors>Bohr V, Paulson OB, Rasmussen N.</authors>
+<title>Pneumococcal meningitis: late neurologic sequelae and features of prognostic impact</title>
+<source>Arch Nuerol</source>
+<pubdate>1984</pubdate>
+<volume>41</volume>
+<pages>1045&#x2013;1049.</pages>
+</reference>
+<reference id="pubmed2897515">
+<accessionId id="acc011" href="info:pmid/2897515" />
+<authors>Schwartz B, Al-Tobaiqi A, Al-Ruwais A, et al.</authors>
+<title>Comparative efficacy of ceftriaxone and rifampicin in eradicating pharyngeal carriage of group A Neisseria meningitidis.</title>
+<source>Lancet</source>
+<pubdate>1988</pubdate>
+<volume>1</volume>
+<pages>1239&#x2013;1242.</pages>
+</reference>
+<reference id="poem70101">
+<accessionId id="acc012" href="info:wiley/eep-poem/70101" />
+<accessionId id="acc012b" href="info:pmid/15496623" />
+<authors>Thwaites GE, Nguyen DB, Nguyen HD, et al.</authors>
+<title>Dexamethasone for the treatment of tuberculous meningitis in adolescents and adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>351</volume>
+<pages>1741&#x2013;1751.</pages>
+</reference>
+<reference id="cochrane2244">
+<accessionId id="acc013" href="info:wiley/cochrane/CD002244" />
+<chapter_authors>Prasad K, Singh MB.</chapter_authors>
+<chapter_title>Corticosteroids for managing tuberculous meningitis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5437">
+<accessionId id="acc014" href="info:wiley/cochrane/CD005437" />
+<chapter_authors>Sudarsanam TD, Rupali P, Tharyan P, Abraham OC, Thomas K.</chapter_authors>
+<chapter_title>Pre-admission antibiotics for suspected cases of meningococcal disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 8. Art. No.: CD005437. DOI: 10.1002&#x002F;14651858.CD005437.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4785">
+<accessionId id="acc015" href="info:wiley/cochrane/CD004785" />
+<chapter_authors>Zalmanovici Trestioreanu A, Fraser A, Gafter-Gvili A, Paul M, Leibovici L.</chapter_authors>
+<chapter_title>Antibiotics for preventing meningococcal infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 10. Art. No.: CD004785. DOI: 10.1002&#x002F;14651858.CD004785.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1834">
+<accessionId id="acc016" href="info:wiley/cochrane/CD001834" />
+<chapter_authors>Conterno LO, da Silva F CR, Ruggeberg JU, Heath PT.</chapter_authors>
+<chapter_title>Conjugate vaccines for preventing meningococcal C meningitis and septicaemia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="web001">
+<citation>Meningococcal Disease: Technical and Clinical Information.</citation>
+<url />
+<organization>CDC</organization>
+<longtitle />
+<title />
+<dateguideline>10&#x002F;30&#x002F;2008</dateguideline>
+</reference>
+<reference id="poem81225">
+<accessionId id="acc018" href="info:wiley/eep-poem/81225" />
+<accessionId id="acc018b" href="info:pmid/17062865" />
+<authors>Straus SE, Thorpe KE, Holroyd-Leduc J.</authors>
+<title>How do I perform a lumbar puncture and analyze the results to diagnose bacterial meningitis?</title>
+<source>JAMA</source>
+<pubdate>2006</pubdate>
+<volume>296</volume>
+<pages>2012&#x2013;2022.</pages>
+</reference>
+<reference id="pubmed11075393">
+<accessionId id="acc019" href="info:pmid/11075393" />
+<authors>Le Moal G, Roblot F, Paccalin M, et al.</authors>
+<title>Details of meningitis in the elderly.</title>
+<source>Rev Med Interne</source>
+<pubdate>2000</pubdate>
+<volume>21</volume>
+<pages>844&#x2013;853.</pages>
+</reference>
+<reference id="pubmed11144034">
+<accessionId id="acc020" href="info:pmid/11144034" />
+<authors>Hussein AS, Shafran SD.</authors>
+<title>Acute bacterial meningitis in adults. A 12-year review.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2000</pubdate>
+<volume>79</volume>
+<pages>360&#x2013;368.</pages>
+</reference>
+<reference id="poem130401">
+<accessionId id="acc021" href="info:wiley/eep-poem/130401" />
+<accessionId id="acc021b" href="info:pmid/20138011" />
+<authors>van de Beek D, Farrar JJ, de Gans J</authors>
+<title>Adjunctive dexamethasone in bacterial meningitis: a meta-analysis of individual patient data.</title>
+<source>Lancet Neurol</source>
+<pubdate>2010</pubdate>
+<volume>9</volume>
+<pages>254&#x2013;263.</pages>
+</reference>
+<reference id="poem160272">
+<accessionId id="acc022" href="info:wiley/eep-poem/160272" />
+<accessionId id="acc022b" href="info:pmid/24105303" />
+<authors>Mourvillier B, Tubach F, van de Beek D, Garot D, Pichon N, Georges H, Lefevre LM, Bollaert PE, Boulain T, Luis D, Cariou A, Girardie P, Chelha R, Megarbane B, Delahaye A, Chalumeau-Lemoine L, Legriel S, Beuret P, Brivet F, Bruel C, Camou F, Chatellier D, Chillet P, Clair B, Constantin JM, Duguet A, Galliot R, Bayle F, Hyvernat H, Ouchenir K, Plantefeve G, Quenot JP, Richecoeur J, Schwebel C, Sirodot M, Esposito-Far&#x00E8;se M, Le Tulzo Y, Wolff M.</authors>
+<title>Induced hypothermia in severe bacterial meningitis: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2013</pubdate>
+<volume>310</volume>
+<pages>2174&#x2013;2183.</pages>
+</reference>
+<reference id="pubmed26986140">
+<accessionId id="acc023" href="info:pmid/26986140" />
+<authors>Wei TT, Hu ZD, Qin BD, Ma N, Tang QQ, Wang LL, Zhou L, Zhong RQ.</authors>
+<title>Diagnostic accuracy of procalcitonin in bacterial meningitis versus nonbacterial meningitis: a systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e3079.</pages>
+</reference>
+<reference id="pubmed31053662">
+<accessionId id="acc024" href="info:pmid/31053662" />
+<authors>van Ettekoven CN, Brouwer MC, Bijlsma MW, Wijdicks EFM, van de Beek D.</authors>
+<title>The FOUR score as predictor of outcome in adults with bacterial meningitis.</title>
+<source>Neurology</source>
+<pubdate>2019</pubdate>
+<volume>92</volume>
+<pages>e2522&#x2013;e2526.</pages>
+</reference>
+<reference id="pubmed12432041">
+<accessionId id="acc025" href="info:pmid/12432041" />
+<authors>de Gans J, van de Beek D, European Dexamethasone in Adulthood Bacterial Meningitis Study Investigators.</authors>
+<title>Dexamethasone in adults with bacterial meningitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>347</volume>
+<pages>1549&#x2013;1556.</pages>
+</reference>
+<reference id="pubmed27062097">
+<accessionId id="acc026" href="info:pmid/27062097" />
+<authors>van de Beek D, Cabellos C, Dzupova O, Esposito S, Klein M, Kloek AT, Leib SL, Mourvillier B, Ostergaard C, Pagliano P, Pfister HW, Read RC, Sipahi OR, Brouwer MC, ESCMID Study Group for Infections of the Brain (ESGIB).</authors>
+<title>ESCMID guideline: diagnosis and treatment of acute bacterial meningitis.</title>
+<source>Clin Microbiol Infect</source>
+<pubdate>2016</pubdate>
+<volume>22 Suppl 3</volume>
+<pages>S37&#x2013;62.</pages>
+</reference>
+<reference id="pubmed35320642">
+<accessionId id="acc027" href="info:pmid/35320642" />
+<authors>Jarvis JN, Lawrence DS, Meya DB, Kagimu E, Kasibante J, Mpoza E, Rutakingirwa MK, Ssebambulidde K, Tugume L, Rhein J, Boulware DR, Mwandumba HC, Moyo M, Mzinganjira H, Kanyama C, Hosseinipour MC, Chawinga C, Meintjes G, Schutz C, Comins K, Singh A, Muzoora C, Jjunju S, Nuwagira E, Mosepele M, Leeme T, Siamisang K, Ndhlovu CE, Hlupeni A, Mutata C, van Widenfelt E, Chen T, Wang D, Hope W, Boyer-Chammard T, Loyse A, Molloy SF, Youssouf N, Lortholary O, Lalloo DG, Jaffar S, Harrison TS, Ambition Study Group.</authors>
+<title>Single-Dose Liposomal Amphotericin B Treatment for Cryptococcal Meningitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>1109&#x2013;1120.</pages>
+</reference>
+<reference id="pubmed33417592">
+<accessionId id="acc028" href="info:pmid/33417592" />
+<authors>Mbaeyi SA, Bozio CH, Duffy J, Rubin LG, Hariri S, Stephens DS, MacNeil JR.</authors>
+<title>Meningococcal Vaccination: Recommendations of the Advisory Committee on Immunization Practices, United States, 2020.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2020</pubdate>
+<volume>69</volume>
+<pages>1&#x2013;41.</pages>
+</reference>
+<reference id="pubmed38635488">
+<accessionId id="acc029" href="info:pmid/38635488" />
+<authors>Collins JP, Crowe SJ, Ortega-Sanchez IR, Bahta L, Campos-Outcalt D, Loehr J, Morgan RL, Poehling KA, McNamara LA.</authors>
+<title>Use of the Pfizer Pentavalent Meningococcal Vaccine Among Persons Aged &#x2265;10 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2023.</title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<pubdate>2024</pubdate>
+<volume>73</volume>
+<pages>345&#x2013;350.</pages>
+</reference>
+<reference id="pubmed22567269">
+<accessionId id="acc030" href="info:pmid/22567269" />
+<authors>Marx GE, Chan ED.</authors>
+<title>Tuberculous meningitis: diagnosis and treatment overview.</title>
+<source>Tuberc Res Treat</source>
+<pubdate>2011</pubdate>
+<volume>2011</volume>
+<pages>798764.</pages>
+</reference>
+<reference id="pubmed39960851">
+<accessionId id="acc031" href="info:pmid/39960851" />
+<authors>Chow FC, Kafeero P, Nakimbugwe M, Ssemaganda A, Tayebwa C, Farrell E, Wilson M, Nahid P, Savic R, Cresswell F, Kibengo FM.</authors>
+<title>Safety and Tolerability of a Short Course of Linezolid for the Treatment of Predominantly Moderate to Severe Tuberculous Meningitis in Adults With Human Immunodeficiency Virus.</title>
+<source>J Infect Dis</source>
+<pubdate>2025</pubdate>
+<volume>231</volume>
+<pages>e1034&#x2013;e1044.</pages>
+</reference>
+<reference id="pubmed38346436">
+<accessionId id="acc032" href="info:pmid/38346436" />
+<authors>Chang CC, Harrison TS, Bicanic TA, Chayakulkeeree M, Sorrell TC, Warris A, Hagen F, Spec A, Oladele R, Govender NP, Chen SC, Mody CH, Groll AH, Chen YC, Lionakis MS, Alanio A, Casta&#x00F1;eda E, Lizarazo J, Vidal JE, Takazono T, Hoenigl M, Alffenaar JW, Gangneux JP, Soman R, Zhu LP, Bonifaz A, Jarvis JN, Day JN, Klimko N, Salmanton-Garc&#x00ED;a J, Jouvion G, Meya DB, Lawrence D, Rahn S, Bongomin F, McMullan BJ, Sprute R, Nyazika TK, Beardsley J, Carlesse F, Heath CH, Ayanlowo OO, Mashedi OM, Queiroz-Telles Filho F, Hosseinipour MC, Patel AK, Temfack E, Singh N, Cornely OA, Boulware DR, Lortholary O, Pappas PG, Perfect JR.</authors>
+<title>Global guideline for the diagnosis and management of cryptococcosis: an initiative of the ECMM and ISHAM in cooperation with the ASM.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2024</pubdate>
+<volume>24</volume>
+<pages>e495&#x2013;e512.</pages>
+</reference>
+<reference id="pubmed37819954">
+<accessionId id="acc033" href="info:pmid/37819954" />
+<authors>Donovan J, Bang ND, Imran D, Nghia HDT, Burhan E, Huong DTT, Hiep NTT, Ngoc LHB, Thanh DV, Thanh NT, Wardhani ALS, Maharani K, Gasmara CP, Hanh NHH, Oanh PKN, Estiasari R, Thu DDA, Kusumaningrum A, Dung LT, Giang DC, Ha DTM, Lan NH, Chau NVV, Nguyet NTM, Geskus RB, Thuong NTT, Kestelyn E, Hamers RL, Phu NH, Thwaites GE, ACT HIV Investigators.</authors>
+<title>Adjunctive Dexamethasone for Tuberculous Meningitis in HIV-Positive Adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>1357&#x2013;1367.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>377.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Meningitis: Diagnosis.</title>
+<graphic href="eee0324-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Bacterial meningitis suspected. Order CBC, blood culture, skin biopsy (if rash present), empiric antibiotic therapy (third-generation, cephalosporin &#x00B1; vancomycin) plus dexamethasone.</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Signs of increased intracranial pressure (eg, papilledema)?</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>CT of head. Signs of intracranial pressure?</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Mannitol, hyperventilation.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>CSF analysis with specific therapy based on CSF and culture results.</label>
+</cell>
+<footnotes>
+<footnote>Tunkel AR, Hartman BJ, Kaplan SL, Kaufman BA, Roos KL, Scheld WM, Whitley RJ. Practice guidelines for the management of bacterial meningitis. <em>Clin Infect Dis</em> 2004 Nov 1;<strong>39</strong>(9):1267&#x2013;1284.<xref ref="poem130401" resource="acc021" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Antibiotics for Specific Causative Organisms.<xref ref="pubmed27062097" resource="acc026" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Organism</th>
+<th align="left" colspan="1">Antibiotic</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>S. pneumoniae</em></td>
+<td align="left" colspan="1">PCN susceptible: penicillin or amoxicillin or ampicillin</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">PCN resistant: ceftriaxone or cefotaxime</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Cephalosporin resistant: 1) vancomycin + rifampicin or 2) vancomycin + ceftriaxone or cefotaxime or 3) rifampicin + ceftriaxone or cefotaxine.</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>N. meningitides</em></td>
+<td align="left" colspan="1">PCN susceptible: penicillin, amoxicillin, or ampicillin</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">PCN resistant: ceftriaxone or cefotaxime</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>H. influenzae</em></td>
+<td align="left" colspan="1">Beta-lactamase positive: ceftriaxone or cefotaxime</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Beta-lactamase negative: amoxicillin or ampicillin; if ampicillin resistant then ceftriaxone or cefotaxime plus meropenem</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>Staph aureus</em></td>
+<td align="left" colspan="1">Methicillin sensitive: flucloxacillin, nafcillin or oxacillin</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Methicillin resistant: vancomycin; if vancomycin resistant linezolid</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>L. monocytogenes</em></td>
+<td align="left" colspan="1">Ampicillin or amoxicillin; alternatives include trim-sulfa, moxifloxacin, meropenem and linezolid</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>M. tuberculosis</em></td>
+<td align="left" colspan="1">INH (10 mg&#x002F;kg&#x002F;d), rifampin (600 mg&#x002F;d), pyrazinamide (30 mg&#x002F;kg&#x002F;d), and either ethambutol (25 mg&#x002F;kg&#x002F;d) or streptomycin (15 mg&#x002F;kg&#x002F;d IM) for 2 months followed by INH (300 mg&#x002F;d) and RIF (600 mg&#x002F;d) for 7-10 months</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>E. coli</em></td>
+<td align="left" colspan="1">Ceftriaxone (2 g q12 h) for 21 days</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>C. albicans</em></td>
+<td align="left" colspan="1">Amphotericin B (0.7-1.0 mg&#x002F;kg&#x002F;d) + flucytosine (100 mg&#x002F;kg&#x002F;d) until no clinical or laboratory signs of infection</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>Coccidioides</em></td>
+<td align="left" colspan="1">Fluconazole (400 mg&#x002F;d po) or itraconazole (400-600 mg&#x002F;d po) indefinitely</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><em>C. neoformans</em></td>
+<td align="left" colspan="1">Amphotericin B (0.5-0.7 mg&#x002F;kg&#x002F;d) + flucytosine (100-150 mg&#x002F;kg&#x002F;d divided qid) for 2 weeks followed by fluconazole (400 mg&#x002F;d po) for 3-6 months</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

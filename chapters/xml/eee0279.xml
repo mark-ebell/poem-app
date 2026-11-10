@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Thrombocytopenia</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0279</topic_id>
+<topic_comment />
+<topic_lastupdated>02/10/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Brenda K. Fann, MD</author_name>
+<author_title>Assistant Professor and Assistant Program Director</author_title>
+<author_department>Rush-Copley Family Medicine Residency Program</author_department>
+<author_institution>Rush-Copley Medical Center</author_institution>
+<author_email>Brenda&#x005F;K&#x005F;Fann&#x0040;rsh.net</author_email>
+<author_phone_office>630-375-2814</author_phone_office>
+<author_phone_home />
+<author_phone_fax>630-375-2812</author_phone_fax>
+<author_street1>2020 Ogden Avenue</author_street1>
+<author_street2>Suite 325</author_street2>
+<author_city>Aurora</author_city>
+<author_state>IL</author_state>
+<author_zip>60504</author_zip>
+</author>
+<author primary="no">
+<author_name>Anita Bhardwaj, MD</author_name>
+<author_title>Family Medicine Resident</author_title>
+<author_department>Rush-Copley Family Medicine Residency Program</author_department>
+<author_institution>Rush-Copley Medical Center</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Aurora</author_city>
+<author_state>IL</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Steven R. Brown, MD, FAAFP</editor_name>
+<editor_title>Program Director and Professor</editor_title>
+<editor_institution>University of Arizona College of Medicine - Phoenix Family Medicine Residency</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Thrombocytopenia (TCP) has many potential causes and can be multifactorial. It is diagnosed based on a platelet count of less than 150,000 platelets&#x002F;microliter (&#x03BC;L). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Initial evaluation should include complete blood count (CBC) and peripheral blood smear; consider a platelet antibody (direct) test as well. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment is not always necessary. The goal is to prevent bleeding and complications and to maintain a safe platelet count, which will vary based on the etiology of the TCP and the clinical scenario. Treat the patient, not the platelet number, unless it is less than 10,000 platelets&#x002F;&#x03BC;L. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>If possible, stop drugs that may cause TCP (see <xref ref="table001" />). <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Advise hospitalization and consider hematology consultant if the patient has symptoms of bleeding. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Guidelines for monitoring of heparin-induced TCP (HIT) are shown in <xref ref="table002" />. Routine screening for HIT antibodies in the absence of symptoms is not recommended because of the test's lack of specificity. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>TCP is defined as a platelet count of less than 150,000&#x002F;&#x03BC;L. Severe TCP is typically defined as a platelet count of less than 50,000&#x002F;&#x03BC;L. In late pregnancy, TCP is defined as a platelet count less than 120,000&#x002F;&#x03BC;L. There are two types of HIT. HIT type I is benign and clinically insignificant. It occurs within a few days of heparin treatment and does not increase bleeding or thrombosis risk. Platelet counts generally do not decrease below 100,000 platelets&#x002F;&#x03BC;L and increase to normal after several days even with continued heparin use. HIT type I is not discussed further in this chapter. HIT type II will be referred to in this chapter as HIT.<xref ref="guideline11048" resource="acc020" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Most studies on the incidence of TCP are in ICU settings, where the range is 19&#x0025; to 44&#x0025;.<xref ref="pubmed12163790" resource="acc012" /><xref ref="pubmed10334154" resource="acc013" /><xref ref="pubmed16310606" resource="acc014" /><xref ref="pubmed12126213" resource="acc015" /></listitem>
+<listitem>In the ICU, the incidence of a platelet count of less than 20,000&#x002F;&#x03BC;L is less than 5&#x0025;.<xref ref="pubmed10890635" resource="acc011" /><xref ref="pubmed12163790" resource="acc012" /></listitem>
+<listitem>The incidence of heparin-induced TCP (HIT) in patients exposed to heparin is 0.2&#x0025; to 0.39&#x0025;.<xref ref="pubmed17400685" resource="acc010" /><xref ref="pubmed12820817" resource="acc009" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Consider reasonable activity, sports, and occupational restrictions based on the degree of TCP.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>See <xref ref="table003" /> for causes of TCP.</listitem>
+<listitem>A systematic review of randomized controlled trials found no difference in the risk of HIT between low-molecular-weight heparin (LMWH) and unfractionated heparin (UFH) (1.2&#x0025; for enoxaparin, 1.5&#x0025; for UFH).<xref ref="pubmed17646239" resource="acc004" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>There are four main pathophysiological mechanisms of TCP: decreased production, increased destruction, splenic sequestration, and loss of platelets (see <xref ref="table003" />). TCP can be multifactorial. <list style="bulleted">
+<listitem>Decreased production: marrow failure or marrow replacement.</listitem>
+<listitem>Increased destruction or consumption: autoantibodies to platelet antigens, mechanical destruction as in cardiac bypass patients.</listitem>
+<listitem>Increased splenic sequestration: from hypersplenism, which increases the spleen's filtering and destruction of platelets.</listitem>
+<listitem>Loss of platelets: resulting from hemorrhage.</listitem>
+</list></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Medications (see) and certain medical conditions (see)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Sepsis in the ICU</Risk_Name>
+<Risk_OR>22.4 (4.23-118)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Episodes of bleeding or transfusions in the ICU</Risk_Name>
+<Risk_OR>7 (1.72-28.5)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>APACHE II score of &gt;15 in the ICU</Risk_Name>
+<Risk_OR>4.49 (1.39-14.4)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiopulmonary resuscitation as a reason for admission to the ICU</Risk_Name>
+<Risk_OR>5.17 (1.42-18.85)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Evolution of disseminated intravascular coagulation (DIC) in the ICU</Risk_Name>
+<Risk_OR>14.94 (3.92-57.00)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Higher initial sequential organ failure assessment in the ICU</Risk_Name>
+<Risk_OR>1.20 (1.02-1.40)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Administration of catecholamines in the ICU</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Administration of quinolones in the ICU</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Administration of nonsteroidal anti-inflammatory drugs in the ICU</Risk_Name>
+<Risk_OR>2.8(1.3-6.0)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hemofiltration&#x002F;hemodialysis in the ICU</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Arterial catheters in the ICU</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Mechanical ventilation in the ICU</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Need for dialysis in the ICU</Risk_Name>
+<Risk_OR>3.1(1.2-7.8)</Risk_OR>
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Guidelines for monitoring for HIT are shown in <xref ref="table002" />. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Routine screening for HIT antibodies in the absence of symptoms is not recommended because of the test's lack of specificity. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Thrombotic thrombocytopenic purpura (TTP) is diagnosed when the platelet count is less than 150,000&#x002F;&#x03BC;L. <evidence rating="C" system="SORT">C</evidence><xref ref="guideline11048" resource="acc020" /></listitem>
+<listitem>Initial evaluation should include CBC and peripheral blood smear; consider a platelet antibody (direct) test as well. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Drug-induced TCP</Differential_Name>
+<Differential_Features>Recent new medication; platelet count normalizes after drug cessation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>PseudoTCP</Differential_Name>
+<Differential_Features>Peripheral blood smear shows platelet clumping; manual count of platelets normal</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Idiopathic (immune) TCP purpura (ITP)</Differential_Name>
+<Differential_Features>Recent viral infection; acute and self-limited in children; no other abnormalities</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Myelodysplasia</Differential_Name>
+<Differential_Features>Usually with concomitant anemia and leukopenia, rather than isolated TCP</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Gestational TCP</Differential_Name>
+<Differential_Features>Onset generally after 28 wk of gestation; platelets usually &gt;50,000&#x002F;&#x03BC;L (Kwon)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>HIT</Differential_Name>
+<Differential_Features>Declining platelet count (usually 5-10 d) after starting heparin</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Neonatal TCP</Differential_Name>
+<Differential_Features>maternal ITP</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>ITP in pregnancy</Differential_Name>
+<Differential_Features>Onset generally less than 28 wk and platelets usually &lt;50,000&#x002F;&#x03BC;L (Kwon)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Postcardiac bypass or prosthetic valve</Differential_Name>
+<Differential_Features>Postsurgery anemia, schistocytes, increased lactate dehydrogenase</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>ITP is a clinical diagnosis based on the exclusion of other causes of TCP. The history, physical, CBC, and peripheral smear should show only TCP and no other abnormalities. Serologic confirmation with antiplatelet antibodies is not necessary.<xref ref="pubmed8704187" resource="acc008" /></listitem>
+<listitem>HIT type II is a clinical and serologic diagnosis. HIT antibody formation is found in conjunction with an unexplained platelet count decline (90&#x0025; of patients will have a count of more than 50&#x0025; of baseline, even if nadir platelet is more than 150,000&#x002F;&#x03BC;L) during heparin treatment.<xref ref="pubmed15249479" resource="acc007" /> Alternatively, it may be also diagnosed by acute systemic reactions (cardiorespiratory distress, acute inflammatory reactions, or other such signs) within 30 minutes of intravenous (IV) UFH or the presence of skin lesions at the site of heparin injection.<xref ref="pubmed15249479" resource="acc007" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>TCP can be asymptomatic and is often detected incidentally. Bleeding is uncommon with a platelet count between 50,000 and 100,000&#x002F;&#x03BC;L but occurs frequently in patients with a platelet count between 10,000 and 50,000&#x002F;&#x03BC;L. Patients with a platelet count less than 10,000&#x002F;&#x03BC;L can have severe, spontaneous hemorrhage.<xref ref="guideline11048" resource="acc020" /></listitem>
+<listitem>Look for bleeding complications resulting from TCP. In the ICU, the bleeding rate was 4.1&#x0025; for platelets more than 150,000&#x002F;&#x03BC;L, 21.4&#x0025; for platelets 101-149,000&#x002F;&#x03BC;L, and 52.6&#x0025; for platelets less than 100,000&#x002F;&#x03BC;L (odds ratio [OR] 4.0, 95&#x0025; CI &#x003D; 1.8-8.9, <em>P</em> &#x003D; .0005).<xref ref="pubmed10890635" resource="acc011" /></listitem>
+<listitem>Most common sites of bleeding in ICU patients with TCP are gastrointestinal (39.3&#x0025;), ENT&#x002F;airways (29.5&#x0025;), and puncture site (27.9&#x0025;). In 19.7&#x0025;, there was more than one site of bleeding.<xref ref="pubmed10890635" resource="acc011" /></listitem>
+<listitem>Bleeding may also occur in the urinary system or cause menorrhagia in females, or petechiae, purpura, or ecchymoses may be noted.</listitem>
+<listitem>Venous thrombosis may be present in DIC and HIT. In addition, arterial thrombosis may also be found in HIT.</listitem>
+<listitem>TCP may be found in splenomegaly and&#x002F;or hepatomegaly if hypersplenism exists.</listitem>
+<listitem>Inquire about medications that can cause TCP (<xref ref="table001" />).</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Initial evaluation should include CBC and peripheral blood smear.</listitem>
+<listitem>To distinguish immune from nonimmune causes of TCP, consider a platelet antibody (direct) done by flow cytometry to detect platelet-associated IgGs or by enzyme-linked immunosorbent assay (ELISA) to detect glycoprotein-specific platelet antibodies. A positive result indicates the presence of antibodies bound to the platelet surface.</listitem>
+<listitem>An indirect platelet antibody will be positive in neonatal alloimmune TCP or posttransfusion purpura. This is done by enzyme immunassay, and a positive result indicates the presence of circulating antibodies to platelet-specific and&#x002F;or HLA-class antigens. It can have false negatives.</listitem>
+<listitem>See chapter on <resourceLink href="info:wiley/eep-eee/266">immune thrombocytopenia purpura.</resourceLink><xref ref="test414" resource="acc001"> Elevated plasma thrombopoietin and at least 2&#x0025; reticulated platelets</xref> support this diagnosis.</listitem>
+<listitem>If clinical scenario is highly suspicious for HIT, consider checking a heparin-induced platelet antibody (antiplatelet factor 4 antibody). Use this test to rule out HIT rather than to confirm the diagnosis because it has a high negative predictive value but only a moderate positive predictive value. This is a sensitive (90&#x0025;-98&#x0025;)<xref ref="pubmed15249479" resource="acc007" /> but not completely specific (71&#x0025;) test for HIT<xref ref="pubmed12820817" resource="acc009" /> because not all anti-platelet factor 4 (PF4) antibodies are clinically significant. This is a PF4-dependent ELISA.</listitem>
+<listitem>The serotonin release assay is considered the "gold standard" for the diagnosis of HIT but is not widely available. This is a platelet activation assay with higher sensitivity and specificity for detecting the clinically relevant antibodies compared with the heparin-induced platelet antibody.<xref ref="pubmed17334253" resource="acc006" /></listitem>
+<listitem>If abnormalities are found in other cell lines (white or red blood cells), consider a bone marrow aspiration and biopsy.</listitem>
+<listitem>Consider testing for and treating <em>Helicobacter pylori</em> in patients who appear to have chronic ITP. <em>H. pylori</em> may contribute to the pathogenesis of chronic ITP through a molecular similarity between platelets and <em>H. pylori</em> antigens. The prevalence of <em>H. pylori</em> infection in chronic ITP is approximately 63&#x0025;, compared with approximately 30&#x0025; in the general US population.<xref ref="pubmed17559384" resource="acc003" /><xref ref="pubmed17561502" resource="acc005" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to the initial evaluation and management of TCP.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>414</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Transfuse if platelets are less than 10,000&#x002F;&#x03BC;L, even if asymptomatic, because there is a significant risk of serious spontaneous bleeding. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Corticosteroids are usually the first-line treatment for TCP caused by ITP. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Thrombopoietin agonists like eltrombopag and romiplostim are increasingly used for immune thrombocytopenia.<xref ref="pubmed30387697" resource="acc017" /><xref ref="guideline11048" resource="acc020" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Corticosteroids are usually the first-line treatment for TCP caused by ITP.</listitem>
+<listitem>Remember to discontinue drugs that may be causing TCP, if possible (<xref ref="table001" />).</listitem>
+<listitem>A large meta-analysis showed that standard treatment for <em>H. pylori</em> in patients with ITP shows a statistically significant increase in platelet counts compared with those untreated, unsuccessfully treated, or without <em>H. pylori</em>.<xref ref="pubmed17561502" resource="acc005" /> A small study showed that the platelet count was then successfully maintained over a mean follow-up time of 25.8 months.<xref ref="pubmed17559384" resource="acc003" /></listitem>
+<listitem>Romiplostim, a thrombopoietin mimetic that increases platelet production, is a safe, effective (and expensive&#x0021;) treatment to raise platelet counts and avoid splenectomy in patients with ITP.<xref ref="pubmed21067381" resource="acc016" /></listitem>
+<listitem>In children with newly diagnosed primary immune thrombocytopenia, a randomized trial with 71 participants f ound that the thrombopoietin agonist eltrombopag was effective (65&#x0025; vs 35&#x0025; response, p &#x003D; 0.002, NNT &#x003D; 3).<xref ref="pubmed41123939" resource="acc019" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>A splenectomy may be indicated for TCP caused by ITP.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Platelet transfusion is not always indicated in TCP, and it is contraindicated in TTP (unless there is a life-threatening hemorrhage) and heparin induced thrombocytopenia (HIT), because it may worsen the clinical scenario.<xref ref="pubmed12823341" resource="acc002" /></listitem>
+<listitem>Treat the patient, not the platelet count number, unless it is less than 10,000&#x002F;&#x03BC;L. Transfuse if the platelet count is less than 10,000&#x002F;&#x03BC;L, even if asymptomatic, because there is a significant risk of serious, spontaneous bleeding.</listitem>
+<listitem>When a platelet transfusion is indicated, it is recommended to give one adult dose over 30 minutes, which should increase the platelet level by at least 20,000&#x002F;&#x03BC;L.<xref ref="pubmed12823341" resource="acc002" /> In a child weighing less than 20 kg, use 10 to 15 mL&#x002F;kg up to the adult dose and transfuse at a rate of 20 to 30 mL&#x002F;(kg h).<xref ref="pubmed12823341" resource="acc002" /> The optimal dose and frequency of transfusion vary based on the individual clinical scenario.</listitem>
+<listitem>The response to a platelet transfusion can be assessed by the clinical response if the patient was actively bleeding. In the outpatient setting, a platelet count can be obtained 10 minutes after the transfusion; this gives a result identical to results checked more than 1 hour after the transfusion.<xref ref="pubmed12823341" resource="acc002" /></listitem>
+<listitem>Risks of transfusion are: alloimmunization, infection, allergic reaction, and transfusion-related acute lung injury.<xref ref="pubmed12823341" resource="acc002" /></listitem>
+<listitem>Platelet transfusion decreases catheter-related bleeding compared to no-transfusion during ultrasound guided catheter placement in patients with platelet levels 10,000 to 50,000 per cubic millimeter (NNT &#x003D; 14). <xref ref="pubmed37224197" resource="acc018" /></listitem>
+<listitem /></list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Advise hospitalization and consider hematology consultant if the patient has symptoms of bleeding.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>TCP can be asymptomatic and is often detected incidentally. Bleeding is uncommon with a platelet count between 50,000 and 100,000&#x002F;&#x03BC;L but occurs frequently in patients with platelet count between 10,000 and 50,000&#x002F;&#x03BC;L. Patients with a platelet count less than 10,000&#x002F;&#x03BC;L can have severe, spontaneous hemorrhage. <evidence rating="B" system="SORT">B</evidence><xref ref="guideline11048" resource="acc020" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>In late pregnancy, TCP is defined as a platelet count of less than 120,000&#x002F;&#x03BC;L.<xref ref="guideline11048" resource="acc020" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>In preterm infants with thrombocytopenia, transfusion at a lower threshold (25,000) improves outcomes compared to a higher threshold (50,000).<xref ref="pubmed30387697" resource="acc017" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="test414">
+<accessionId id="acc001" href="info:wiley/eep-dx/414" />
+<authors>Kuwana M, Okazaki Y, Satoh T, Asahi A, Kajihara M, Ikeda Y.</authors>
+<title>Initial laboratory findings useful for predicting the diagnosis of idiopathic thrombocytopenic purpura.</title>
+<source>Am J Med</source>
+<pubdate>2005</pubdate>
+<volume>118</volume>
+<pages>1026&#x2013;1033.</pages>
+</reference>
+<reference id="pubmed12823341">
+<accessionId id="acc002" href="info:pmid/12823341" />
+<authors>British Committee for Standards in Haematology, Blood Transfusion Task Force.</authors>
+<title>Guidelines for the use of platelet transfusions.</title>
+<source>Br J Haematol</source>
+<pubdate>2003</pubdate>
+<volume>122</volume>
+<pages>10&#x2013;23.</pages>
+</reference>
+<reference id="pubmed17559384">
+<accessionId id="acc003" href="info:pmid/17559384" />
+<authors>Satake M, Nishikawa J, Fukagawa Y, et al.</authors>
+<title>The long-term efficacy of <em>Helicobacter pylori</em> eradication therapy in patients with idiopathic thrombocytopenic purpura.</title>
+<source>J Gastroenterol Hepatol</source>
+<pubdate>2007</pubdate>
+<volume>22</volume>
+<pages>2233&#x2013;2237.</pages>
+</reference>
+<reference id="pubmed17646239">
+<accessionId id="acc004" href="info:pmid/17646239" />
+<authors>Morris TA, Castrejon S, Devendra G, Gamst AC.</authors>
+<title>No difference in risk for thrombocytopenia during treatment of pulmonary embolism and deep venous thrombosis with either low-molecular-weight heparin or unfractionated heparin: a metaanalysis.</title>
+<source>Chest</source>
+<pubdate>2007</pubdate>
+<volume>132</volume>
+<pages>1131&#x2013;1139.</pages>
+</reference>
+<reference id="pubmed17561502">
+<accessionId id="acc005" href="info:pmid/17561502" />
+<authors>Franchini M, Cruciani M, Mengoli C, Pizzolo G, Veneri D.</authors>
+<title>Effect of <em>Helicobacter pylori</em> eradication on platelet count in idiopathic thrombocytopenic purpura: a systematic review and meta-analysis.</title>
+<source>J Antimicrob Chemother</source>
+<pubdate>2007</pubdate>
+<volume>60</volume>
+<pages>237&#x2013;246.</pages>
+</reference>
+<reference id="pubmed17334253">
+<accessionId id="acc006" href="info:pmid/17334253" />
+<authors>Selleng K, Warkentin TE, Greinacher A.</authors>
+<title>Heparin-induced thrombocytopenia in intensive care patients.</title>
+<source>Crit Care Med</source>
+<pubdate>2007</pubdate>
+<volume>35</volume>
+<pages>1165&#x2013;1176.</pages>
+</reference>
+<reference id="pubmed15249479">
+<accessionId id="acc007" href="info:pmid/15249479" />
+<authors>Wilkes MM, Navickis RJ.</authors>
+<title>Hydroxyethyl starch-induced postoperative bleeding in cardiac surgery patients: more trials needed?</title>
+<source>Chest</source>
+<pubdate>2004</pubdate>
+<volume>126</volume>
+<pages>311&#x2013;312; author reply 312.</pages>
+</reference>
+<reference id="pubmed8704187">
+<accessionId id="acc008" href="info:pmid/8704187" />
+<authors>George JN, Woolf SH, Raskob GE, et al.</authors>
+<title>Idiopathic thrombocytopenic purpura: a practice guideline developed by explicit methods for the American Society of Hematology.</title>
+<source>Blood</source>
+<pubdate>1996</pubdate>
+<volume>88</volume>
+<pages>3&#x2013;40.</pages>
+</reference>
+<reference id="pubmed12820817">
+<accessionId id="acc009" href="info:pmid/12820817" />
+<authors>Verma AK, Levine M, Shalansky SJ, Carter CJ, Kelton JG.</authors>
+<title>Frequency of heparin-induced thrombocytopenia in critical care patients.</title>
+<source>Pharmacotherapy</source>
+<pubdate>2003</pubdate>
+<volume>23</volume>
+<pages>745&#x2013;753.</pages>
+</reference>
+<reference id="pubmed17400685">
+<accessionId id="acc010" href="info:pmid/17400685" />
+<authors>Smythe MA, Koerber JM, Mattson JC.</authors>
+<title>The incidence of recognized heparin-induced thrombocytopenia in a large, tertiary care teaching hospital.</title>
+<source>Chest</source>
+<pubdate>2007</pubdate>
+<volume>131</volume>
+<pages>1644&#x2013;1649.</pages>
+</reference>
+<reference id="pubmed10890635">
+<accessionId id="acc011" href="info:pmid/10890635" />
+<authors>Vanderschueren S, De Weerdt A, Malbrain M, et al.</authors>
+<title>Thrombocytopenia and prognosis in intensive care.</title>
+<source>Crit Care Med</source>
+<pubdate>2000</pubdate>
+<volume>28</volume>
+<pages>1871&#x2013;1876.</pages>
+</reference>
+<reference id="pubmed12163790">
+<accessionId id="acc012" href="info:pmid/12163790" />
+<authors>Strauss R, Wehler M, Mehler K, Kreutzer D, Koebnick C, Hahn EG.</authors>
+<title>Thrombocytopenia in patients in the medical intensive care unit: bleeding prevalence, transfusion requirements, and outcome.</title>
+<source>Crit Care Med</source>
+<pubdate>2002</pubdate>
+<volume>30</volume>
+<pages>1765&#x2013;1771.</pages>
+</reference>
+<reference id="pubmed10334154">
+<accessionId id="acc013" href="info:pmid/10334154" />
+<authors>Stephan F, Hollande J, Richard O, Cheffi A, Maier-Redelsperger M, Flahault A.</authors>
+<title>Thrombocytopenia in a surgical ICU.</title>
+<source>Chest</source>
+<pubdate>1999</pubdate>
+<volume>115</volume>
+<pages>1363&#x2013;1370.</pages>
+</reference>
+<reference id="pubmed16310606">
+<accessionId id="acc014" href="info:pmid/16310606" />
+<authors>Crowther MA, Cook DJ, Meade MO, et al.</authors>
+<title>Thrombocytopenia in medical-surgical critically ill patients: prevalence, incidence, and risk factors.</title>
+<source>J Crit Care</source>
+<pubdate>2005</pubdate>
+<volume>20</volume>
+<pages>348&#x2013;353.</pages>
+</reference>
+<reference id="pubmed12126213">
+<accessionId id="acc015" href="info:pmid/12126213" />
+<authors>Shalansky SJ, Verma AK, Levine M, Spinelli JJ, Dodek PM.</authors>
+<title>Risk markers for thrombocytopenia in critically ill patients: a prospective analysis.</title>
+<source>Pharmacotherapy</source>
+<pubdate>2002</pubdate>
+<volume>22</volume>
+<pages>803&#x2013;813.</pages>
+</reference>
+<reference id="pubmed21067381">
+<accessionId id="acc016" href="info:pmid/21067381" />
+<authors>Kuter DJ, Rummel M, Boccia R</authors>
+<title>Romiplostim or standard of care in patients with immune thrombocytopenia.</title>
+<source>New Engl J Med</source>
+<pubdate>2010</pubdate>
+<volume>363</volume>
+<pages>1889&#x2013;1899.</pages>
+</reference>
+<reference id="pubmed30387697">
+<accessionId id="acc017" href="info:pmid/30387697" />
+<authors>Curley A, Stanworth SJ, Willoughby K, Fustolo-Gunnink SF, Venkatesh V, Hudson C, Deary A R, Hopkins V, Lopez Santamaria B, Mora A, Llewelyn C, D'Amore A, Khan R, Onland W, Lopriore E, Fijnvandraat K, New H, Clarke P, Watts T, PlaNeT2 MATISSE Collaborators.</authors>
+<title>Randomized trial of platelet-transfusion thresholds in neonates.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>242&#x2013;251.</pages>
+</reference>
+<reference id="pubmed37224197">
+<accessionId id="acc018" href="info:pmid/37224197" />
+<authors>van Baarle FLF, van de Weerdt EK, van der Velden WJFM, Ruiterkamp RA, Tuinman PR, Ypma PF, van den Bergh WM, Demandt AMP, Kerver ED, Jansen AJG, Westerweel PE, Arbous SM, Determann RM, van Mook WNKA, Koeman M, M&#x00E4;kelburg ABU, van Lienden KP, Binnekade JM, Biemond BJ, Vlaar APJ.</authors>
+<title>Platelet Transfusion before CVC Placement in Patients with Thrombocytopenia.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>1956&#x2013;1965.</pages>
+</reference>
+<reference id="pubmed41123939">
+<accessionId id="acc019" href="info:pmid/41123939" />
+<authors>Shimano KA, Grimes AB, Kaicker S, Shah SJ, Gunn E, Bhat RV, Kochhar M, Rothman JA, Rose MJ, Briones M, Nakano TA, Lebensburger JD, Lambert MP, Fritch Lilla SA, Jesudas R, Lee-Miller CA, Thompson AA, Rifkin-Zenenberg S, Majumdar S, Crary SE, Hege K, Ford JB, Bies JJ, Fort J, Wynn TT, Hsieh L, Ruiz ME, Dinu B, Wong JMW, Kao PC, Kim TO, Arnold SD, Bennett CM, Despotovic JM, Klaassen RJ, Neufeld EJ, Neunert CE, London WB, Grace RF.</authors>
+<title>Eltrombopag for Newly Diagnosed Pediatric Immune Thrombocytopenia Requiring Treatment: The PINES Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>334</volume>
+<pages>1816&#x2013;1826.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline11048">
+<accessionId id="acc020" href="info:wiley/eep-guideline/11048" />
+<citation>Finnish Medical Society Duodecim. Thrombocytopenia. <em>EBM Guidelines</em>. Evidence-Based Medicine [Internet]. Helsinki, Finland: Wiley Interscience. John Wiley &amp; Sons; 2007 Apr 27.</citation>
+<url>http://www.guidelines.gov/summary/summary.aspx?doc_id=11048</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>319.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Thrombocytopenia: Management.</title>
+<graphic href="eee0279-w0001.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Commonly Used Medications With Level I (Definite) or Level II (Probable) Clinical Evidence for Causing TCP.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Level I (Definite) Evidence</th>
+<th align="left" colspan="1">Level II (Probable) Evidence</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Acetaminophen (Tylenol)</td>
+<td align="left" colspan="1">Ampicillin</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Amiodarone (Cordarone)</td>
+<td align="left" colspan="1">Captopril (Capoten)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Amphotericin B</td>
+<td align="left" colspan="1">Carbamazepine (Tegretol)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chlorothiazide (Diuril)</td>
+<td align="left" colspan="1">Fluconazole (Diflucan)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cimetidine (Tagamet)</td>
+<td align="left" colspan="1">Gold</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Diazepam (Valium)</td>
+<td align="left" colspan="1">Hydrochlorothiazide</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Diclofenac (Cataflam, Voltaren)</td>
+<td align="left" colspan="1">Ibuprofen (Advil, Motrin)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Digoxin (Lanoxin)</td>
+<td align="left" colspan="1">Phenytoin (Dilantin)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Haloperidol (Haldol)</td>
+<td align="left" colspan="1">Ranitidine (Zantac)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Methyldopa (Aldomet)</td>
+<td align="left" colspan="1">Sulindac (Clinoril)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Nitroglycerin</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Piperacillin</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Quinidine</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Quinine</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Rifampin</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Sulfasalazine (Azulfidine)</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Trimethoprim-sulfamethoxazole (Bactrim, Septra)</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Vancomycin</td>
+<td align="left" colspan="1"></td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Recommendations for Monitoring for HIT (Guideline 5891).</caption>
+<feature_body>
+<list style="1">
+<listitem>For patients receiving heparin who are at a rare risk (&lt;0.1&#x0025;) of developing HIT, it is recommended not to monitor platelet counts routinely. Rare risk is defined as medical&#x002F;obstetrical patients receiving LMWH or medical patients receiving unfractionated heparins (UFHs) catheter flushes.</listitem>
+<listitem>For all other patients receiving heparin who are at a &gt;0.1&#x0025; risk of developing HIT, monitoring platelet counts is recommended over not monitoring platelet counts.</listitem>
+<listitem>Obtain a baseline platelet count and a repeat count in 24 h in any patient who received, or may have received or in whom exposure is uncertain, UFH in the past 100 days and who is going to receive UFH or LMWH.</listitem>
+<listitem>Monitor platelets counts at least every other day until day 14 or UFH is discontinued, whichever happens first, for patients receiving therapeutic doses of UFH.</listitem>
+<listitem>Monitor platelet counts at least every other day between postoperative days 4 and 14, or until UFH is discontinued, whichever happens first, for patients receiving UFH for postoperative antithrombotic prophylaxis.</listitem>
+<listitem>Monitor platelet counts every 2 to 3 days from day 4 to day 14, or until heparin is discontinued, whichever happens first, for patients receiving prophylactic-dose UFH, postoperative patients receiving prophylactic-dose LMWH or intravascular catheter UFH flushes, and patients receiving LMWH after first receiving UFH.</listitem>
+<listitem>Monitor platelet count immediately in any patient with any acute symptoms within 30 min of an IV UFH bolus.</listitem>
+</list>
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Causes of TCP.</caption>
+<feature_body>
+<list style="bulleted">
+<listitem>Increased consumption or destruction peripherally</listitem>
+<listitem>Immune ITP</listitem>
+<listitem>Neonatal postblood transfusion</listitem>
+<listitem>Autoimmune diseases (eg, systemic lupus erythematosus)</listitem>
+<listitem>Drug induced</listitem>
+<listitem>Viral infections (eg, HIV, cytomegalovirus, herpes simplex virus. and chronic hepatitis C)</listitem>
+<listitem>Lymphoproliferative disorders Nonimmune</listitem>
+<listitem>DIC</listitem>
+<listitem>Sepsis&#x002F;multiple organ dysfunction syndrome</listitem>
+<listitem>HIT</listitem>
+<listitem>HELLP (an obstetrical complication with hemolysis, elevated liver enzyme levels, and a low platelet count)</listitem>
+<listitem>TTP&#x002F;hemolytic uremic syndrome</listitem>
+<listitem>Prosthetic intravascular devices&#x002F;extracorporeal circulation</listitem>
+<listitem>Decreased production in bone marrow</listitem>
+<listitem>Inborn rubella</listitem>
+<listitem>Bone marrow infiltrates</listitem>
+<listitem>Maternal thiazide use</listitem>
+<listitem>Fanconi anemia</listitem>
+<listitem>Congenital (eg, Wiskott-Aldrich syndrome, Bernard-Soulier syndrome)</listitem>
+<listitem>Acquired bone marrow failure (eg, drugs, radiation, and chemicals)</listitem>
+<listitem>Drugs</listitem>
+<listitem>Vitamin B12 or folate deficiency; lymphoproliferative disorders (eg, chronic lymphocytic leukemia, lymphoma, myelofibrosis)</listitem>
+<listitem>Aplastic anemia</listitem>
+<listitem>Bone marrow infiltrates (eg, cancer, granulomas)</listitem>
+<listitem>Uremia</listitem>
+<listitem>Heavy alcohol use&#x002F;occult liver disease</listitem>
+<listitem>Gestational increased sequestration in spleen</listitem>
+<listitem>Hypersplenism (from any cause, commonly liver disease or tumor infiltration)</listitem>
+<listitem>Hypothermia other</listitem>
+<listitem>Hemorrhage</listitem>
+<listitem>Hemodilution after transfusion</listitem>
+</list>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

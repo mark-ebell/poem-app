@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Pneumonia (chlamydia)</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0845</topic_id>
+<topic_comment />
+<topic_lastupdated>06/02/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Robert Kraft, MD</author_name>
+<author_title>Assistant Clinical Professor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>University of Kansas School of Medicine, Wichita</author_institution>
+<author_email>bkraft&#x0040;salinahealth.org</author_email>
+<author_phone_office>(785) 825-7251</author_phone_office>
+<author_phone_home>(785) 820-8990</author_phone_home>
+<author_phone_fax>(785) 825-1605</author_phone_fax>
+<author_street1>651 E. Prescott</author_street1>
+<author_street2 />
+<author_city>Salina</author_city>
+<author_state>KS</author_state>
+<author_zip>67401</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Peter K. Kurotschka, MD</editor_name>
+<editor_title>Research associate</editor_title>
+<editor_institution>Department of General Practice, University Hospital W&#x00FC;rzburg, Germany</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>No single clinical or radiographic finding or constellation of findings accurately differentiates community-acquired pneumonia (CAP) caused by <em>Chlamydophila pneumoniae</em> (formerly <em>Chlamydia pneumoniae</em>) from any other cause. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>No accurate, rapid, widely available diagnostic test exists to identify <em>C. pneumoniae</em>. <evidence rating="B" system="SORT">B</evidence> Combination PCR and serology seem most accurate for diagnosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment of undifferentiated CAP should be empiric and dictated by local microbial patterns and antibiotic resistance patterns; specific coverage of <em>C. pneumoniae</em> in patients with undifferentiated CAP does not reduce mortality. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Treatment of culture or serologically proven <em>C. pneumoniae</em> includes doxycycline or a macrolide as first-line therapy, or a fluoroquinolone as an alternative. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Chlamydia pneumonia is a LRTI caused by the atypical pathogen <em>Chlamydophila pneumoniae</em> (previously: <em>Chlamydia pneumoniae</em>).</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Exact incidence is difficult to estimate. The Global Burden of Disease 2021 study estimated that <em>Chlamydia</em> spp. accounts for 5.4&#x0025; of global lower respiratory tract infections <xref ref="pubmed38636536" resource="acc040" />.</listitem>
+<listitem>New cases, as a percentage of all cases of CAP, range from 0&#x0025; to 44&#x0025; and vary by population studied and diagnostic methods used.<xref ref="pubmed17243062" resource="acc001" /></listitem>
+<listitem>Lack of standardized diagnostic methods adds to the difficulty in estimating incidence.</listitem>
+<listitem>Among trainee soldiers with X-ray-confirmed pneumonia in Missouri from 2013-2014, monthly rates of chlamydia pneumonia peaked at 0.9&#x002F;100 trainees in May.<xref ref="pubmed30690452" resource="acc029" /> Results of NAAT testing of 141 ill trainees demonstrated 37&#x0025; were positive for chlamydia; this was the most common organism identified in this cohort.</listitem>
+<listitem>Co-infection with chlamydia occurs in patients with COVID-19-associated pneumonia. In one study of 250 hospitalized patients with COVID-19, 39 (15.6&#x0025;) tested positive for at least one respiratory pathogen.<xref ref="pubmed32922049" resource="acc030" /> The most commonly detected CAP pathogen was <em>C. pneumoniae</em> (5.2&#x0025;), followed by the respiratory syncytial virus (4.8&#x0025;), <em>M. pneumoniae</em> (4.4&#x0025;) and adenovirus (2.8&#x0025;). In an Italian study of 721 patients hospitalized with pneumonia, 443 individuals (61.4&#x0025;) were infected with SARS-CoV-2 and 242 individuals had an antibody positivity against <em>Mycoplasma</em> and&#x002F;or <em>C. pneumoniae</em>.<xref ref="pubmed33482238" resource="acc031" /> Patients with co-infection in this study were more likely to have 3 or more co-morbidities and more likely to be critically ill and require mechanical ventilation.</listitem>
+<listitem>In a retrospective cohort study of 314 ICU-patients &#x2265;18 years with hospital-acquired respiratory tract infections, none tested positive for <em>C. pneumoniae</em>. <xref ref="pubmed30689160" resource="acc032" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem><em>C. pneumoniae</em> is a potential cause of pneumonia outbreaks in the nursing home and prison settings.<xref ref="pubmed9103345" resource="acc002" /><xref ref="pubmed23723194" resource="acc020" /></listitem>
+<listitem>Seropositivity to chlamydia heat shock protein-60 antibodies, a marker of chronic chlamydial infection, is associated with increased risk for subsequent lung cancer (odds ratio [OR] 1.30, 95&#x0025; confidence interval [CI] 1.02-1.67).<xref ref="pubmed20501758" resource="acc003" /> A similar increased risk of lung cancer with <em>C. pneumoniae</em> infection was found in a meta-analysis (OR 1.16, 95&#x0025; CI 1.00-1.36 in prospective studies and OR 2.17, 95&#x0025; CI 1.79-2.63 in retrospective studies).<xref ref="pubmed21194924" resource="acc014" /></listitem>
+<listitem>There is an association between C. pneumoniae and atherosclerosis (OR 2.25, 95&#x0025; CI 1.91 to 2.64), based on a meta-analysis of 38 papers.<xref ref="pubmed34548004" resource="acc037" /></listitem>
+<listitem>Authors of a meta-analysis found an association between <em>C. pneumoniae</em> by polymerase chain reaction (PCR) and cerebrovascular disease (OR 1.90, 95&#x0025; CI 1.17-3.07).<xref ref="pubmed24261578" resource="acc024" /></listitem>
+<listitem>There is an association between both <em>C. pneumoniae</em> (OR 6.34. 95&#x0025; CI 2.83-14.19) and <em>Chlamydophila psittaci</em> (OR 29.05, 95&#x0025; CI 8.91-94.70) and schizophrenia.<xref ref="pubmed22104141" resource="acc015" /></listitem>
+<listitem>Persistent <em>C. pneumoniae</em> infection also appears to be associated with overweight&#x002F;obesity.<xref ref="pubmed21386806" resource="acc016" /></listitem>
+<listitem><em>C. pneumoniae</em> infection is implicated in some cases of reactive arthritis.<xref ref="pubmed21864020" resource="acc021" /><xref ref="pubmed20155838" resource="acc025" /></listitem>
+<listitem><em>C. pneumoniae</em> may also be associated with Alzheimer disease, chronic uncontrolled asthma, and pre-eclampsia.<xref ref="pubmed20863379" resource="acc019" /><xref ref="pubmed21087215" resource="acc023" /><xref ref="pubmed22512977" resource="acc026" /><xref ref="pubmed21334621" resource="acc022" /> Authors of a meta-analysis of case-control studies of Cp biomarkers and chronic asthma in children and adults found <em>C. pneumoniae</em>-specific IgE was strongly associated with both asthma and asthma severity.<xref ref="pubmed33872336" resource="acc038" /> The population attributable risk for <em>C. pneumoniae</em>-specific IgE was 47&#x0025; (95&#x0025; CI 39&#x0025;-55&#x0025;).</listitem>
+</list>
+</social_impact>
+<causes />
+<pathophysiology>
+<list style="bulleted">
+<listitem>Chlamydia pneumonia is a CAP caused by <em>C. pneumoniae</em>, an obligate intracellular bacteria.</listitem>
+<listitem><em>C. pneumoniae</em> infection is probably widespread (with over 50&#x0025; of children testing positive for prior exposure), but symptoms are either mild or not present.</listitem>
+<listitem>Immunity to infection does not last long, making recurrent or persistent infection possible.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Observational studies have suggested a link between <em>C. pneumoniae</em> infection and atherosclerotic heart disease.<xref ref="pubmed11926852" resource="acc004" /> However, a meta-analysis of 11 RCTs including 19,217 patients demonstrated that treatment of patients who had coronary artery disease (CAD) with antichlamydial antibiotics did not improve secondary prevention of heart disease or mortality. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed15928286" resource="acc005" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>No single clinical or radiographic finding or constellation of findings accurately differentiates CAP caused by <em>C. pneumoniae</em> from any other cause. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16316495" resource="acc006" /><xref ref="pubmed16337367" resource="acc007" /><xref ref="pubmed8790080" resource="acc008" /></listitem>
+<listitem>No single accurate, rapid, widely available, and validated diagnostic test exists for identification of <em>C. pneumoniae</em>. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed17243062" resource="acc001" /> Serology and polymerase chain reaction (PCR) are used for diagnosis in research studies.</listitem>
+<listitem>Sputum or nasopharyngeal swab culture is considered the gold standard of diagnosis but is not recommended for routine use in patients with CAP. <evidence rating="C" system="SORT">C</evidence> Culture is relatively insensitive for <em>C. pneumoniae</em>.</listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Typical pneumonia (Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis)</Differential_Name>
+<Differential_Features>No clinically significant differences</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Atypical pneumonia (Mycoplasma pneumoniae, Legionella spp.)</Differential_Name>
+<Differential_Features>No clinically significant differences</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Aspiration pneumonia</Differential_Name>
+<Differential_Features>High-risk populations, history of choking or aspiration</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Viral pneumonia</Differential_Name>
+<Differential_Features>No clinically significant differences</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Zoonotic pneumonia (Chlamydia psittaci, Coxiella burnetii, Francisella tularensis, Yersinia pestis)</Differential_Name>
+<Differential_Features>Specific exposure history</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Fungal pneumonia (histoplasmosis, blastomycosis)</Differential_Name>
+<Differential_Features>Specific exposure history, pulmonary granulomas</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Tuberculosis</Differential_Name>
+<Differential_Features>Exposure history, positive purified protein derivative</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Symptoms of Chlamydia pneumonia are the same as for CAP of any cause, including cough, fever, and dyspnea. Physical examination findings could include abnormal breath sounds (e.g., crackles), tachypnea, and signs of hypoxemia (e.g., cyanosis).</listitem>
+<listitem>Patients with Chlamydia pneumonia tend to have symptoms that develop more gradually and have less cough than typical pathogens.</listitem>
+<listitem>However, no individual finding or constellation of signs and symptoms can accurately differentiate pneumonia caused by <em>C. pneumoniae</em> from any other cause of CAP.<xref ref="pubmed16316495" resource="acc006" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>CXR cannot differentiate CAP caused by <em>C. pneumoniae</em> from other pathogens, but it is used as a prognostic factor.<xref ref="pubmed16337367" resource="acc007" /><xref ref="pubmed8790080" resource="acc008" /></listitem>
+<listitem>Sputum or nasopharyngeal swab culture is considered the reference standard, but it is difficult and slow, has a variable yield, and has limited availability.</listitem>
+<listitem>The <resourceLink href="https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/">Infectious Disease Society of America (IDSA)</resourceLink> CAP treatment guideline (2019) recommends against obtaining sputum gram stains and sputum or blood cultures routinely in adults with CAP. Pretreatment gram stain and culture from respiratory secretions and blood cultures are recommended for those with severe CAP, those being empirically treated for or previously infected with methicillin-resistant <em>Staphylococcus aureus</em> or <em>Pseudomonas aeruginosa</em>, or those hospitalized and receiving antibiotics within the past 90 days. For additional testing recommendations for patients at higher risk for <em>Legionella</em> spp. or influenza, see the <resourceLink href="https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/">IDSA</resourceLink> guideline.</listitem>
+<listitem>Polymerase chain reaction (PCR) with enzyme immunoassay is promising as a rapid diagnostic test but is not standardized or validated<xref ref="pubmed19647071" resource="acc009" /><xref ref="pubmed22031704" resource="acc017" />; PCR and IgM serology appear to be more sensitive than culture.<xref ref="pubmed20610673" resource="acc010" /></listitem>
+<listitem>Modifications made with PCR assays including multiplex TaqMan real-time PCR and touchdown enzyme time-release PCR show promise in improving diagnostic accuracy for <em>Chlamydia</em> spp.<xref ref="pubmed29291900" resource="acc033" /><xref ref="pubmed10699002" resource="acc034" /></listitem>
+<listitem>In a study of 75 children in India with lower respiratory tract infection, <em>C. pneumoniae</em> infection was positive in 11 (14.6&#x0025;) children by serology and nested PCR.<xref ref="pubmed32883927" resource="acc035" /> Using PCR as the standard, serology had a 77.8&#x0025; sensitivity, 92.4&#x0025; specificity, 58.3&#x0025; positive predictive value and 96.8&#x0025; negative predictive value</listitem>
+<listitem>Monoclonal antibodies for use in immunofluorescence and enzyme-linked immunosorbent assays are promising screening tools under development for chlamydia pneumonia.<xref ref="pubmed25761740" resource="acc027" /></listitem>
+<listitem>The <resourceLink href="https://www.cdc.gov/cpneumoniae/php/laboratories/index.html">Center for Disease Control and Prevention</resourceLink> (CDC) considers a single IgM titer of 1:16 or higher or a 4-fold increase in IgG titer by microimmunofluorescence as the only acceptable serologic test for <em>C. pneumoniae</em>, yet titers still suffer from poor specificity (according to the CDC) and sensitivity (25&#x0025; compared with culture).<xref ref="pubmed17243062" resource="acc001" /> Acute and convalescent IgG titers are more sensitive than a single time-point titer but do not offer rapid diagnosis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Follow diagnostic guidelines (history, physical examination, CXR, and other selected studies) for CAP.<xref ref="guideline10560" resource="acc011" /></listitem>
+<listitem>Specific tests for chlamydia (e.g., PCR or antibody titers) are not widely available or clinically useful.<xref ref="pubmed17243062" resource="acc001" /></listitem>
+<listitem>Refer to chapter on <resourceLink href="info:wiley/eep-eee/681">Pneumonia (community acquired pneumonia)</resourceLink> for more on management.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Specific coverage of atypical pathogens such as <em>C. pneumoniae</em> in outpatients and hospitalized patients with undifferentiated CAP does not reduce mortality.<xref ref="pubmed16186469" resource="acc012" /><xref ref="pubmed10430704" resource="acc013" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Choice of antibiotics for undifferentiated CAP should be dictated by local microbial and resistance patterns. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10430704" resource="acc013" /></listitem>
+<listitem>Empiric treatment for CAP in outpatients with no comorbidities is monotherapy with amoxicillin, doxycycline, or a macrolide (if local pneumococcal resistance is &lt;25&#x0025;). <xref ref="pubmed31573350" resource="acc041" /></listitem>
+<listitem>Treatment of CAP for culture or serologically-proven <em>C. pneumoniae</em> includes doxycycline or a macrolide as first-line therapy, or a fluoroquinolone as an alternative. <evidence rating="C" system="SORT">C</evidence><xref ref="guideline10560" resource="acc011" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Because of the inability to differentiate specific pathogens causing pneumonia at the time of diagnosis, initial therapy of CAP should be empiric and dictated by the evidence for treatment of CAP as a whole.<xref ref="pubmed10430704" resource="acc013" /></listitem>
+<listitem>IDSA recommends empiric treatment for CAP in outpatients with no comorbidities as monotherapy with amoxicillin, doxycycline, or a macrolide (if local pneumococcal resistance is &lt;25&#x0025;). For inpatients with non-severe pneumonia, they recommend a beta-lactam plus macrolide or a respiratory fluroquinalone and for severe pneumonia a beta-lactam plus macrolide or a beta-lactam plus respiratory fluroquinalone. For additional recommendations, see the chapter on <resourceLink href="info:wiley/eep-eee/681">pneumonia, community acquired</resourceLink>.</listitem>
+<listitem>A network meta-analysis of 24 randomized trials compared initial oral antibiotics for CAP. While trends suggested better outcomes with empiric fluoroquinolones, no conclusive evidence favored one antibiotic over another. <xref ref="pubmed38360961" resource="acc042" /></listitem>
+<listitem>No significant difference in clinical failure rates were observed when treating CAP with either macrolides or fluoroquinolones based on a meta-analysis of 5 RCTs.<xref ref="pubmed35905552" resource="acc039" /> For CAP associated with any atypical bacteria, the RR was 1.57 (95&#x0025; CI 0.73-3.38, I2 0&#x0025;) and for CAP associated with <em>C. pneumoniae</em> the RR was 2.12 (95&#x0025; CI 0.63 to 7.14, I2 0&#x0025;).</listitem>
+<listitem>Authors of two meta-analyses of 18 RCTs with 6749 outpatients and 24 RCTs with 5015 inpatients found no benefit for empiric atypical pathogen coverage compared with beta-lactam therapy alone for both outpatients and hospitalized patients with CAP. No RCTs comparing beta-lactam therapy with beta-lactam plus atypical coverage are available at this time.<xref ref="pubmed16186469" resource="acc012" /><xref ref="pubmed10430704" resource="acc013" /></listitem>
+<listitem>If <em>C. pneumoniae</em> is identified as the causative pathogen, doxycycline or a macrolide are first-line agents. Fluoroquinolones (levofloxacin, ciprofloxacin, moxifloxacin, ofloxacin) are alternatives.<xref ref="guideline10560" resource="acc011" /></listitem>
+<listitem>Mixed infection is common and must be considered in treatment failures. In one case series of 49 mechanically-ventilated patients with severe CAP, viruses were involved in almost half (5 probably pure viral infections and 19 mixed bacterial-viral).<xref ref="pubmed24729498" resource="acc028" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Authors of a systematic review and meta-analysis of 19 RCTs and 2 additional trials of CAP management with short-course treatment, defined as &#x2264;6 days, vs. treatment for &#x2265;7 days found comparable cure rates regardless of setting or pneumonia severity, similar relapse rates, and lower risk of serious adverse events (1,923 patients, RR 0.73, 95&#x0025; CI 0.55-0.97) and lower mortality (2,802 patients, RR 0.52, 95&#x0025; CI 0.33-0.82).<xref ref="pubmed29987137" resource="acc036" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Consider hospitalization if signs and symptoms (e.g., hypoxemia, tachypnea) or patient demographics (age, comorbidities) would place the patient at elevated risk of morbidity and mortality.</listitem>
+<listitem>Clinical decision rules such as the <resourceLink href="info:pmid/10430704">CURB-65</resourceLink> and <resourceLink href="info:pmid/17243062">the Pneumonia Severity Index</resourceLink> exist for assessing severity of illness.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Recurrent or chronic infection is possible. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Consider <em>C. pneumoniae</em> as a possible etiology in pneumonia outbreaks in nursing home populations. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9103345" resource="acc002" /></listitem>
+<listitem>Patients with both bacterial and viral infection have more serious CAP, as measured by pneumonia severity index, than those with a bacterial pathogen alone (OR 4.98; 95&#x0025; CI 2.09-11.89).<xref ref="pubmed21466255" resource="acc018" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem><em>C. pneumoniae</em> is more likely than <em>M. pneumoniae</em> in an older population.</listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed17243062">
+<accessionId id="acc001" href="info:pmid/17243062" />
+<authors>Kumar S, Hammerschlag MR.</authors>
+<title>Acute respiratory infection due to <em>Chlamydia pneumoniae</em>: current status of diagnostic methods.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>44</volume>
+<pages>568&#x2013;576.</pages>
+</reference>
+<reference id="pubmed9103345">
+<accessionId id="acc002" href="info:pmid/9103345" />
+<authors>Troy CJ, Peeling RW, Ellis AG, et al.</authors>
+<title><em>Chlamydia pneumoniae</em> as a new source of infectious outbreaks in nursing homes.</title>
+<source>JAMA</source>
+<pubdate>1997</pubdate>
+<volume>277</volume>
+<pages>1214&#x2013;1218.</pages>
+</reference>
+<reference id="pubmed20501758">
+<accessionId id="acc003" href="info:pmid/20501758" />
+<authors>Chaturvedi AK, Gaydos CA, Agreda P, Holden JP, Chatterjee N, Goedert JJ, Caporaso NE, Engels EA.</authors>
+<title>Chlamydia pneumoniae infection and risk for lung cancer.</title>
+<source>Cancer Epidemiol Biomarkers Prev</source>
+<pubdate>2010</pubdate>
+<volume>19</volume>
+<pages>1498&#x2013;1505.</pages>
+</reference>
+<reference id="pubmed11926852">
+<accessionId id="acc004" href="info:pmid/11926852" />
+<authors>van der Ven AJ, Hommels MJ, Kroon AA, et al.</authors>
+<title><em>Chlamydia pneumoniae</em> seropositivity and systemic and renovascular atherosclerotic disease.</title>
+<source>Arch Intern Med</source>
+<pubdate>2002</pubdate>
+<volume>162</volume>
+<pages>786&#x2013;790.</pages>
+</reference>
+<reference id="pubmed15928286">
+<accessionId id="acc005" href="info:pmid/15928286" />
+<authors>Andraws R, Berger JS, Brown DL.</authors>
+<title>Effects of antibiotic therapy on outcomes of patients with coronary artery disease: a meta-analysis of randomized controlled trials.</title>
+<source>JAMA</source>
+<pubdate>2005</pubdate>
+<volume>293</volume>
+<pages>2641&#x2013;2647.</pages>
+</reference>
+<reference id="pubmed16316495">
+<accessionId id="acc006" href="info:pmid/16316495" />
+<authors>Puljiz I, Kuzman I, Dakovic-Rode O, Sch&#x00F6;nwald N, Mise B.</authors>
+<title><em>Chlamydia pneumoniae</em> and <em>Mycoplasma pneumoniae</em> pneumonia: comparison of clinical, epidemiological characteristics and laboratory profiles.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2006</pubdate>
+<volume>134</volume>
+<pages>548&#x2013;555.</pages>
+</reference>
+<reference id="pubmed16337367">
+<accessionId id="acc007" href="info:pmid/16337367" />
+<authors>Boersma WG, Daniels JM, L&#x00F6;wenberg A, Boeve WJ, van de Jagt EJ.</authors>
+<title>Reliability of radiographic findings and the relation to etiologic agents in community-acquired pneumonia.</title>
+<source>Respir Med</source>
+<pubdate>2006</pubdate>
+<volume>100</volume>
+<pages>926&#x2013;932.</pages>
+</reference>
+<reference id="pubmed8790080">
+<accessionId id="acc008" href="info:pmid/8790080" />
+<authors>Kauppinen MT, L&#x00E4;hde S, Syrj&#x00E4;l&#x00E4; H.</authors>
+<title>Roentgenographic findings of pneumonia caused by <em>Chlamydia pneumoniae</em>. A comparison with streptococcus pneumonia.</title>
+<source>Arch Intern Med</source>
+<pubdate>1996</pubdate>
+<volume>156</volume>
+<pages>1851&#x2013;1856.</pages>
+</reference>
+<reference id="pubmed19647071">
+<accessionId id="acc009" href="info:pmid/19647071" />
+<authors>Mitchell SL, Budhiraja S, Thurman KA, Lanier Thacker W, Winchell JM.</authors>
+<title>Evaluation of two real-time PCR chemistries for the detection of Chlamydophila pneumoniae in clinical specimens.</title>
+<source>Mol Cell Probes</source>
+<pubdate>2009</pubdate>
+<volume>23</volume>
+<pages>309&#x2013;311.</pages>
+</reference>
+<reference id="pubmed20610673">
+<accessionId id="acc010" href="info:pmid/20610673" />
+<authors>She RC, Thurber A, Hymas WC</authors>
+<title>Limited utility of culture for Mycoplasma pneumoniae and Chlamydophila pneumoniae for diagnosis of respiratory tract infections.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2010</pubdate>
+<volume>48</volume>
+<pages>3380&#x2013;3382.</pages>
+</reference>
+<reference id="guideline10560">
+<accessionId id="acc011" href="info:wiley/eep-guideline/10560" />
+<citation>Mandell LA, Wunderink RG, Anzueto A, et al. Infectious Diseases Society of America&#x002F;American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults. <em>Clin Infect Dis</em> 2007;<strong>44</strong>(suppl 2):S27-S72.</citation>
+<url>http://www.ncbi.nlm.nih.gov/pubmed/17278083</url>
+<organization>IDSA&#x002F;ATS</organization>
+<longtitle />
+<title />
+<dateguideline>3&#x002F;1&#x002F;2007</dateguideline>
+</reference>
+<reference id="pubmed16186469">
+<accessionId id="acc012" href="info:pmid/16186469" />
+<authors>Shefet D, Robenshtok E, Paul M, Leibovici L.</authors>
+<title>Empirical atypical coverage for inpatients with community-acquired pneumonia: systematic review of randomized controlled trials.</title>
+<source>Arch Intern Med</source>
+<pubdate>2005</pubdate>
+<volume>165</volume>
+<pages>1992&#x2013;2000.</pages>
+</reference>
+<reference id="pubmed10430704">
+<accessionId id="acc013" href="info:pmid/10430704" />
+<authors>Ruiz M, Ewig S, Marcos MA, et al.</authors>
+<title>Etiology of community-acquired pneumonia: impact of age, comorbidity, and severity.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>1999</pubdate>
+<volume>160</volume>
+<pages>397&#x2013;405.</pages>
+</reference>
+<reference id="pubmed21194924">
+<accessionId id="acc014" href="info:pmid/21194924" />
+<authors>Zhan P, Suo LJ, Qian Q, Shen XK, Qiu LX, Yu LK, Song Y.</authors>
+<title>Chlamydia pneumoniae infection and lung cancer risk: a meta-analysis.</title>
+<source>Eur J Cancer</source>
+<pubdate>2011</pubdate>
+<volume>47</volume>
+<pages>742&#x2013;747.</pages>
+</reference>
+<reference id="pubmed22104141">
+<accessionId id="acc015" href="info:pmid/22104141" />
+<authors>Arias I, Sorlozano A, Villegas E, de Dios Luna J, McKenney K, Cervilla J, Gutierrez B, Gutierrez J.</authors>
+<title>Infectious agents associated with schizophrenia: a meta-analysis.</title>
+<source>Schizophr Res</source>
+<pubdate>2012</pubdate>
+<volume>136</volume>
+<pages>128&#x2013;136.</pages>
+</reference>
+<reference id="pubmed21386806">
+<accessionId id="acc016" href="info:pmid/21386806" />
+<authors>Lajunen T, Bloigu A, Paldanius M, Pouta A, Laitinen J, Ruokonen A, Hartikainen AL, Savolainen M, Herzig KH, Leinonen M, Saikku P, J&#x00E4;rvelin MR.</authors>
+<title>The association of body mass index, waist and hip circumference, and waist-hip ratio with Chlamydia pneumoniae IgG antibodies and high-sensitive C-reactive protein at 31 years of age in Northern Finland Birth Cohort 1966.</title>
+<source>Int J Obes (Lond)</source>
+<pubdate>2011</pubdate>
+<volume>35</volume>
+<pages>1470&#x2013;1478.</pages>
+</reference>
+<reference id="pubmed22031704">
+<accessionId id="acc017" href="info:pmid/22031704" />
+<authors>Benitez AJ, Thurman KA, Diaz MH, Conklin L, Kendig NE, Winchell JM.</authors>
+<title>Comparison of real-time PCR and a microimmunofluorescence serological assay for detection of chlamydophila pneumoniae infection in an outbreak investigation.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2012</pubdate>
+<volume>50</volume>
+<pages>151&#x2013;153.</pages>
+</reference>
+<reference id="pubmed21466255">
+<accessionId id="acc018" href="info:pmid/21466255" />
+<authors>Johansson N, Kalin M, Hedlund J.</authors>
+<title>Clinical impact of combined viral and bacterial infection in patients with community-acquired pneumonia.</title>
+<source>Scand J Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>43</volume>
+<pages>609&#x2013;615.</pages>
+</reference>
+<reference id="pubmed20863379">
+<accessionId id="acc019" href="info:pmid/20863379" />
+<authors>Hammond CJ, Hallock LR, Howanski RJ, Appelt DM, Little CS, Balin BJ.</authors>
+<title>Immunohistological detection of Chlamydia pneumoniae in the Alzheimer's disease brain.</title>
+<source>BMC Neurosci</source>
+<pubdate>2010</pubdate>
+<volume>11</volume>
+<pages>121.</pages>
+</reference>
+<reference id="pubmed23723194">
+<accessionId id="acc020" href="info:pmid/23723194" />
+<authors>Conklin L, Adjemian J, Loo J, Mandal S, Davis C, Parks S, Parsons T, McDonough B, Partida J, Thurman K, Diaz MH, Benitez A, Pondo T, Whitney CG, Winchell JM, Kendig N, Van Beneden C.</authors>
+<title>Investigation of a Chlamydia pneumoniae outbreak in a Federal correctional facility in Texas.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2013</pubdate>
+<volume>57</volume>
+<pages>639&#x2013;647.</pages>
+</reference>
+<reference id="pubmed21864020">
+<accessionId id="acc021" href="info:pmid/21864020" />
+<authors>Carter JD, Inman RD, Whittum-Hudson J, Hudson AP.</authors>
+<title>Chlamydia and chronic arthritis.</title>
+<source>Ann Med</source>
+<pubdate>2012</pubdate>
+<volume>44</volume>
+<pages>784&#x2013;792.</pages>
+</reference>
+<reference id="pubmed21334621">
+<accessionId id="acc022" href="info:pmid/21334621" />
+<authors>El-Shourbagy MA, El-Refaie TA, Sayed KK, Wahba KA, El-Din AS, Fathy MM.</authors>
+<title>Impact of seroconversion and antichlamydial treatment on the rate of pre-eclampsia among Egyptian primigravidae.</title>
+<source>Int J Gynaecol Obstet</source>
+<pubdate>2011</pubdate>
+<volume>113</volume>
+<pages>137&#x2013;140.</pages>
+</reference>
+<reference id="pubmed21087215">
+<accessionId id="acc023" href="info:pmid/21087215" />
+<authors>Papadopoulos NG, Christodoulou I, Rohde G, et al.</authors>
+<title>Viruses and bacteria in acute asthma exacerbations&#x2014;a GA&#x00B2; LEN-DARE systematic review.</title>
+<source>Allergy</source>
+<pubdate>2011</pubdate>
+<volume>66</volume>
+<pages>458&#x2013;468.</pages>
+</reference>
+<reference id="pubmed24261578">
+<accessionId id="acc024" href="info:pmid/24261578" />
+<authors>Chen J, Zhu M, Ma G, Zhao Z, Sun Z.</authors>
+<title>Chlamydia pneumoniae infection and cerebrovascular disease: a systematic review and meta-analysis.</title>
+<source>BMC Neurol</source>
+<pubdate>2013</pubdate>
+<volume>13</volume>
+<pages>183.</pages>
+</reference>
+<reference id="pubmed20155838">
+<accessionId id="acc025" href="info:pmid/20155838" />
+<authors>Carter JD, Espinoza LR, Inman RD, Sneed KB, Ricca LR, Vasey FB, Valeriano J, Stanich JA, Oszust C, Gerard HC, Hudson AP.</authors>
+<title>Combination antibiotics as a treatment for chronic Chlamydia-induced reactive arthritis: a double-blind, placebo-controlled, prospective trial.</title>
+<source>Arthritis Rheum</source>
+<pubdate>2010</pubdate>
+<volume>62</volume>
+<pages>1298&#x2013;1307.</pages>
+</reference>
+<reference id="pubmed22512977">
+<accessionId id="acc026" href="info:pmid/22512977" />
+<authors>Patel KK, Anderson E, Salva PS, Webley WC.</authors>
+<title>The prevalence and identity of Chlamydia-specific IgE in children with asthma and other chronic respiratory symptoms.</title>
+<source>Respir Res</source>
+<pubdate>2012</pubdate>
+<volume>13</volume>
+<pages>32.</pages>
+</reference>
+<reference id="pubmed25761740">
+<accessionId id="acc027" href="info:pmid/25761740" />
+<authors>Zheng J, Ding T, Chen Z, Fang H, Li H, Lu H, Wu Y.</authors>
+<title>Preparation and evaluation of monoclonal antibodies against chlamydial protease-like activity factor to detect Chlamydia pneumoniae antigen in early pediatric pneumonia.</title>
+<source>Eur J Clin Microbiol Infect Dis</source>
+<pubdate>2015</pubdate>
+<volume>34</volume>
+<pages>1319&#x2013;1326.</pages>
+</reference>
+<reference id="pubmed24729498">
+<accessionId id="acc028" href="info:pmid/24729498" />
+<authors>Karhu J, Ala-Kokko TI, Vuorinen T, Ohtonen P, Syrj&#x00E4;l&#x00E4; H.</authors>
+<title>Lower respiratory tract virus findings in mechanically ventilated patients with severe community-acquired pneumonia.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2014</pubdate>
+<volume>59</volume>
+<pages>62&#x2013;70.</pages>
+</reference>
+<reference id="pubmed30690452">
+<accessionId id="acc029" href="info:pmid/30690452" />
+<authors>Clemmons NS, Jordan NN, Brown AD, Kough EM, Pacha LA, Varner SM, Hawksworth AW, Myers CA, Gaydos JC.</authors>
+<title>Outbreak of chlamydia pneumoniae infections and X-ray-confirmed pneumonia in army trainees at Fort Leonard Wood, Missouri, 2014.</title>
+<source>Mil Med</source>
+<pubdate>2019</pubdate>
+<volume>184</volume>
+<pages>e196&#x2013;e199.</pages>
+</reference>
+<reference id="pubmed32922049">
+<accessionId id="acc030" href="info:pmid/32922049" />
+<authors>Ma L, Wang W, Le Grange JM, Wang X, Du S, Li C, Wei J, Zhang JN.</authors>
+<title>Coinfection of SARS-CoV-2 and other respiratory pathogens.</title>
+<source>Infect Drug Resist</source>
+<pubdate>2020</pubdate>
+<volume>13</volume>
+<pages>3045&#x2013;3053.</pages>
+</reference>
+<reference id="pubmed33482238">
+<accessionId id="acc031" href="info:pmid/33482238" />
+<authors>De Francesco MA, Poiesi C, Gargiulo F, Bonfanti C, Pollara P, Fiorentini S, Caccuri F, Carta V, Mangeri L, Pellizzeri S, Rizzoni D, Malerba P, Salvetti M, Muiesan ML, Alberici F, Scolari F, Pilotto A, Padovani A, Bezzi M, Chiappini R, Ricci C, Castellano M, Berlendis M, Savio G, Montani G, Ronconi M, Bove S, Foc&#x00E0; E, Tomasoni L, Castelli F, Rossini A, Inciardi R, Metra M, Caruso A.</authors>
+<title>Co-infection of chlamydia pneumoniae and mycoplasma pneumoniae with SARS-CoV-2 is associated with more severe features.</title>
+<source>J Infect</source>
+<pubdate>2021</pubdate>
+<volume>82</volume>
+<pages>e4&#x2013;e7.</pages>
+</reference>
+<reference id="pubmed30689160">
+<accessionId id="acc032" href="info:pmid/30689160" />
+<authors>Hagel S, Schmitt S, Kesselmeier M, Baier M, Welte T, Ewig S, Pletz MW.</authors>
+<title>M. pneumoniae and C. pneumoniae are no relevant pathogens in critically ill patients with hospital-acquired respiratory tract infections.</title>
+<source>Infection</source>
+<pubdate>2019</pubdate>
+<volume>47</volume>
+<pages>471&#x2013;474.</pages>
+</reference>
+<reference id="pubmed29291900">
+<accessionId id="acc033" href="info:pmid/29291900" />
+<authors>Wolff BJ, Morrison SS, Winchell JM.</authors>
+<title>Development of a multiplex TaqMan real-time PCR assay for the detection of Chlamydia psittaci and Chlamydia pneumoniae in human clinical specimens.</title>
+<source>Diagn Microbiol Infect Dis</source>
+<pubdate>2018</pubdate>
+<volume>90</volume>
+<pages>167&#x2013;170.</pages>
+</reference>
+<reference id="pubmed10699002">
+<accessionId id="acc034" href="info:pmid/10699002" />
+<authors>Madico G, Quinn TC, Boman J, Gaydos CA.</authors>
+<title>Touchdown enzyme time release-PCR for detection and identification of Chlamydia trachomatis, C. pneumoniae, and C. psittaci using the 16S and 16S-23S spacer rRNA genes.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2000</pubdate>
+<volume>38</volume>
+<pages>1085&#x2013;93.</pages>
+</reference>
+<reference id="pubmed32883927">
+<accessionId id="acc035" href="info:pmid/32883927" />
+<authors>Kumar S, Kashyap B, Kumar S, Kapoor S.</authors>
+<title>Diagnostic utility of serology and polymerase chain reaction for detection of <em>Mycoplasma pneumoniae</em> and <em>Chlamydophila pneumoniae</em> in paediatric community-acquired lower respiratory tract infections.</title>
+<source>Indian J Med Microbiol</source>
+<pubdate>2020 Apr-Jun</pubdate>
+<volume>38</volume>
+<pages>152&#x2013;156.</pages>
+</reference>
+<reference id="pubmed29987137">
+<accessionId id="acc036" href="info:pmid/29987137" />
+<authors>Tansarli GS, Mylonakis E.</authors>
+<title>Systematic review and meta-analysis of the efficacy of short-course antibiotic treatments for community-acquired pneumonia in adults.</title>
+<source>Antimicrob Agents Chemother</source>
+<pubdate>2018</pubdate>
+<volume>62</volume>
+<pages />
+</reference>
+<reference id="pubmed34548004">
+<accessionId id="acc037" href="info:pmid/34548004" />
+<authors>Jalili M, Nourmohammadi H, Sayehmiri K.</authors>
+<title><em>Chlamydia pneumoniae</em> and <em>Mycoplasma pneumoniae</em> as Two Emerging Risk Factors in Atherosclerosis: Meta-Analysis Study and Systematic Review.</title>
+<source>Infect Disord Drug Targets</source>
+<pubdate>2022</pubdate>
+<volume>22</volume>
+<pages>e210921196697.</pages>
+</reference>
+<reference id="pubmed33872336">
+<accessionId id="acc038" href="info:pmid/33872336" />
+<authors>Hahn DL.</authors>
+<title>Chlamydia pneumoniae and chronic asthma: Updated systematic review and meta-analysis of population attributable risk.</title>
+<source>PLoS One</source>
+<pubdate>2021</pubdate>
+<volume>16</volume>
+<pages>e0250034.</pages>
+</reference>
+<reference id="pubmed35905552">
+<accessionId id="acc039" href="info:pmid/35905552" />
+<authors>Basilim A, Wali H, Rabaan AA, Eljaaly K.</authors>
+<title>Efficacy of empiric macrolides versus fluoroquinolones in community-acquired pneumonia associated with atypical bacteria: A meta-analysis.</title>
+<source>Respir Med Res</source>
+<pubdate>2022</pubdate>
+<volume>82</volume>
+<pages>100931.</pages>
+</reference>
+<reference id="pubmed38636536">
+<accessionId id="acc040" href="info:pmid/38636536" />
+<authors>GBD 2021 Lower Respiratory Infections and Antimicrobial Resistance Collaborators.</authors>
+<title>Global, regional, and national incidence and mortality burden of non-COVID-19 lower respiratory infections and aetiologies, 1990-2021: a systematic analysis from the Global Burden of Disease Study 2021.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2024</pubdate>
+<volume>24</volume>
+<pages>974&#x2013;1002.</pages>
+</reference>
+<reference id="pubmed31573350">
+<accessionId id="acc041" href="info:pmid/31573350" />
+<authors>Metlay JP , Waterer GW , Long AC, Anzueto A , Brozek J, Crothers K, Cooley LA , Dean NC, Fine MJ , Flanders SA, Griffin MR , Metersky ML , Musher DM , Restrepo MI , Whitney CG .</authors>
+<title>Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2019</pubdate>
+<volume>200</volume>
+<pages>e45&#x2013;e67.</pages>
+</reference>
+<reference id="pubmed38360961">
+<accessionId id="acc042" href="info:pmid/38360961" />
+<authors>Kurotschka PK, Bentivegna M, Hulme C, Ebell MH.</authors>
+<title>Identifying the Best Initial Oral Antibiotics for Adults with Community-Acquired Pneumonia: A Network Meta-Analysis.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>39</volume>
+<pages>1214&#x2013;1226.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

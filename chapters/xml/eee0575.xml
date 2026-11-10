@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Sepsis (child)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0575</topic_id>
+<topic_comment />
+<topic_lastupdated>04/24/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Alison Sweeney, MD</author_name>
+<author_title>Assistant Professor, General Pediatrics and Adolescent Medicine</author_title>
+<author_department>Department of Pediatrics</author_department>
+<author_institution>University of North Carolina at Chapel Hill</author_institution>
+<author_email>aesweene&#x0040;email.unc.edu</author_email>
+<author_phone_office>984-974-1000</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>UNC Hospitals</author_street1>
+<author_street2>101 Manning Drive</author_street2>
+<author_city>Chapel Hill</author_city>
+<author_state>NC</author_state>
+<author_zip>27514</author_zip>
+</author>
+<author primary="no">
+<author_name>Julie Story Byerley, MD, MPH</author_name>
+<author_title>Assistant Professor, General Pediatrics and Adolescent Medicine</author_title>
+<author_department>Department of Pediatrics</author_department>
+<author_institution>University of North Carolina at Chapel Hill</author_institution>
+<author_email>julie&#x005F;byerley&#x0040;med.unc.edu</author_email>
+<author_phone_office>919-966-3172</author_phone_office>
+<author_phone_home>919-932-9033</author_phone_home>
+<author_phone_fax>919-966-8419</author_phone_fax>
+<author_street1>Pediatric Education Office &#x2013; 3rd floor Women's Hospital &#x2013; CB# 7593</author_street1>
+<author_street2>101 Manning Drive</author_street2>
+<author_city>Chapel Hill</author_city>
+<author_state>NC</author_state>
+<author_zip>27599-7593</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Michelle Hamline, MD, PhD, MAS</editor_name>
+<editor_title>Associate Professor of Clinical Pediatrics, Pediatric Hospital Medicine</editor_title>
+<editor_institution>Department of Pediatrics, University of California Davis Medical Center</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>The purpose of a sepsis evaluation is to identify infants who are at high risk for serious bacterial infections, so that they may be hospitalized and treated accordingly. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Fever of unknown source in an infant younger than 60 days requires evaluation for an occult bacterial infection. This evaluation may include complete blood count, blood culture, catheterized urinalysis with urine culture, and possibly lumbar puncture. These tests may be used to stratify infants as high or low risk for serious bacterial infection. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Lumbar puncture for CSF culture is necessary for infants 21 days and younger, but may be delayed in infants older than 21 days who meet strict low-risk criteria. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Neonatal herpes infection should also be considered in infants up to 28 days and should be treated with IV acyclovir, if necessary. Evaluation for neonatal HSV includes HSV PCR of blood and CSF along with swabs of all mucosal surfaces and any skin lesions. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>See "Approach to the Patient" below for advice regarding evaluation of fever in well appearing infants less than 60 days of age, and <xref ref="table002" /> for empiric antibiotic recommendations. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Consider urinary tract infection (UTI) as a common source of infection in children aged 2 to 36 months with fever without source. In this age group, if patient is well-appearing and no source of infection is present, the use of empiric antibiotics in not recommended. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>
+<list style="bulleted">
+<listitem>This chapter will address the evaluation of the patient with fever without source in the 0 to 36 month age range with focus on 0 to 60 days. The newborn still in the nursery immediately after delivery is not considered here; for full evidence and treatment guidelines see specific reference.</listitem>
+<listitem>Fever is defined as rectal temperature greater than or equal to 38&#x00B0;C.<xref ref="guideline4130" resource="acc043" /></listitem>
+<listitem>Serious bacterial infection (SBI) is defined as a culture-confirmed pathogen in blood, spinal fluid, urine, or stool; new infiltrate on chest x-ray; or obvious bacterial focal infection.<xref ref="pubmed10049967" resource="acc018" /></listitem>
+</list>
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>In infants younger than 3 months of age presenting to primary care clinics with fever &#x2265;38&#x00B0;C, UTI was present in 5.4&#x0025;, bacteremia in 1.8&#x0025;, and bacterial meningitis in 0.5&#x0025;. This varied by age: 4.1&#x0025; of febrile infants in the first month of life had bacteremia or meningitis, compared with 1.9&#x0025; in the second month and 0.7&#x0025; in the third month. Not all patients with positive CSF cultures had positive blood cultures.<xref ref="pubmed15010441" resource="acc017" /></listitem>
+<listitem>Serious bacterial infections are present in approximately 10&#x0025; of infants age 2 to 6 months who present with fever greater than 39&#x00B0;C.<xref ref="pubmed16651326" resource="acc014" /></listitem>
+<listitem>The prevalence of occult bacteremia in febrile children aged 3 to 36 months is approximately 1.5&#x0025; to 2&#x0025;.<xref ref="pubmed14520324" resource="acc015" /></listitem>
+<listitem>In contrast, fewer than 2&#x0025; of well-appearing older infants and young children will be found to have bacteremia.</listitem>
+<listitem>Neonatal herpes simplex virus (HSV) infection occurs in approximately 30 of 100,000 live births; 95&#x0025; to 98&#x0025; present before 22 days of life and only 7&#x0025; to 14&#x0025; present as fever without source.<xref ref="guideline4130" resource="acc043" /></listitem>
+<listitem>Of children aged 1 to 36 months who presented with fever &gt;38&#x00B0;C and with blood cultures performed in a community hospital emergency department, 3.5&#x0025; of blood cultures were positive and more than 80&#x0025; of those positive results were considered contaminants.<xref ref="pubmed16714955" resource="acc016" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Common pathogens causing SBI in children ages 0 to 36 months include <em>Escherichia coli</em>, Group B Streptococcus (GBS), <em>Enterococcus faecalis</em>, <em>Staphylococcus aureus</em>, <em>Streptococcus pneumoniae</em>, and other gram negative organisms.<xref ref="pubmed16651326" resource="acc014" /></listitem>
+<listitem><em>Listeria monocytogenes</em> is a rare cause of bacterial infections in infants, and mostly occurs in those younger than 2 months old.<xref ref="pubmed26980752" resource="acc029" /></listitem>
+<listitem>Herpes Simplex Virus is also a cause of sepsis in infants younger than 28 days.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Serious bacterial infections in infants include <resourceLink href="info:wiley/eep-eee/842">UTI</resourceLink>, <resourceLink href="info:wiley/eep-eee/561">meningitis,</resourceLink> bacteremia, <resourceLink href="info:wiley/eep-eee/567">pneumonia,</resourceLink> gastroenteritis, and other focal infections.</listitem>
+<listitem>For information on specific pathophysiology of each disease process, see the chapters dealing with specific infections.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screening and treatment for maternal GBS status using the CDC's guideline can prevent early onset neonatal GBS sepsis. This practice has likely resulted in a decreased incidence of GBS as well as <em>E. coli</em> sepsis in neonates. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed24218461" resource="acc030" /><xref ref="pubmed24326416" resource="acc031" /><xref ref="pubmed10725479" resource="acc013" /><xref ref="pubmed31913562" resource="acc038" /></listitem>
+<listitem>Vaccination against pathogens such as <em>S. pneumoniae</em> aids in prevention of disease.<xref ref="pubmed20407316" resource="acc036" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Prevention of sepsis in older infants and young children is accomplished by treatment against typical bacteria causing bacteremia, e.g. treating ear infections and sinusitis appropriately. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed17337092" resource="acc012" /></listitem>
+<listitem>Prophylactic IVIG in preterm and low-birth weight infants marginally reduces nosocomial infections (Risk difference: -3&#x0025;; 95&#x0025; CI: 0&#x0025; to -5&#x0025;; NNT &#x003D; 33), but shows no decrease in mortality from infection. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane361" resource="acc026" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Diagnosis depends on combination of history, physical, risk stratification of patient, and lab studies. <evidence rating="A" system="SORT">A</evidence> Several sets of criteria exist to determine risk and treatment of febrile infants between the ages of 0 to 3 months (0-90 days) (i.e., Philadelphia, Boston, Rochester, American Academy of Pediatrics).</listitem>
+<listitem>Infants 21 days old and younger with fever should have CBC, blood culture, a catheterized urinalysis and urine culture, as well as a lumbar puncture to obtain CSF studies and culture. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Neonatal herpes infection should also be considered, especially in infants younger than 28 days. <evidence rating="C" system="SORT">C</evidence><xref ref="guideline4130" resource="acc043" /></listitem>
+<listitem>Fever in well-appearing infants aged 22 to 60 days requires the same evaluation as those younger than 22 days, except that lumbar puncture can be delayed or omitted if the infant meets low-risk criteria, there is inpatient observation or reliable outpatient follow-up within 24 hours, and family and physician are in agreement. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>All children younger than 1 year with fever without source <evidence rating="A" system="SORT">A</evidence> and girls aged 1 to 2 years <evidence rating="B" system="SORT">B</evidence> should be considered at risk of UTI.<xref ref="guideline4130" resource="acc043" /></listitem>
+<listitem>Routine CBC and blood culture of well-appearing children aged 2 to 36 months with fever without a source is not recommended. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Urinary tract infection</Differential_Name>
+<Differential_Features>Positive urine culture</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Meningitis</Differential_Name>
+<Differential_Features>Positive CSF culture, CSF cell count, HSV PCR</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacteremia</Differential_Name>
+<Differential_Features>Positive blood culture</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Herpes simplex virus infection</Differential_Name>
+<Differential_Features>Localization of herpes simplex virus from culture or polymerase chain reaction of CSF, surface swab, or blood</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pneumonia</Differential_Name>
+<Differential_Features>Infiltrate on chest x-ray</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacterial enteritis</Differential_Name>
+<Differential_Features>Diarrhea should be present, positive stool culture</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Viruses</Differential_Name>
+<Differential_Features>RSV, Influenza, SARS-CoV2 testing</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Other causes of fever</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Rule out sepsis evaluation occurs when an infant has a fever without a source after the history and physical examination.</listitem>
+<listitem>Obtain rectal temperatures in infants who may have sepsis.<xref ref="guideline4130" resource="acc043" /> Ear thermometers are unreliable<xref ref="pubmed12241932" resource="acc011" /><xref ref="pubmed16549256" resource="acc010" />and axillary temperatures demonstrate wide variability.<xref ref="pubmed10784539" resource="acc009" />However, subjective fever assessment by a parent is usually accurate.<xref ref="guideline4130" resource="acc043" /></listitem>
+<listitem>Obtain an immunization history, especially regarding pneumococcal and haemophilus influenzae vaccination. Also determine key risk factors: preterm birth, hospital stay, maternal GBS, maternal chorioamnionitis, and maternal HSV status.<xref ref="pubmed33957655" resource="acc040" /></listitem>
+<listitem>In acutely ill children in the primary care setting, <resourceLink href="info:wiley/eep-hp/193">physician opinion that "something is wrong", parent opinion that "illness is different from previous",</resourceLink> cyanosis, impaired peripheral circulation, meningeal irritation, petechiae, and convulsions all greatly increase the likelihood of a serious bacterial infection. Other findings with relatively high positive predictive value for serious bacterial infection include <resourceLink href="info:wiley/eep-hp/193">unconsciousness, drowsiness, moaning, change in crying, decreased breathing sounds, tachypnea, and inconsolability.</resourceLink></listitem>
+<listitem>On physical examination, the Yale Observation Scale for Infant Fever lists several positive predictors of SBI, specifically lethargy, poor or absent eye contact, failure of child to interact with parents or environment, poor perfusion, acrocyanosis, mottling, delayed capillary refill, and respiratory rate changes.<xref ref="guideline4130" resource="acc043" /> Well-appearing infants and young children are alert, smile, are consolable, and are without signs of dehydration. Perfusion should be good with no delayed capillary refill, and there should be no sign of respiratory distress.</listitem>
+<listitem>The magnitude of fever does not reliably predict illness severity,<xref ref="guideline4130" resource="acc043" /> and response to antipyretics does not change the likelihood of serious bacterial infection.<xref ref="test470" resource="acc019" /></listitem>
+<listitem>The presence of febrile seizure does not significantly increase the risk of bacteremia in febrile children aged 2 to 24 months.<xref ref="pubmed11980552" resource="acc008" /></listitem>
+<listitem>Infants younger than 22 days with fever should be presumed to have a serious bacterial infection.<xref ref="test470" resource="acc019" /></listitem>
+<listitem>Tachypnea is a sign of pneumonia and, when present, should prompt chest x-ray.<xref ref="test470" resource="acc019" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>See "Approach to the Patient" below for AAP guidelines (2021) for evaluation of fever in a well appearing infant younger than 2 months of age.<xref ref="pubmed34281996" resource="acc041" /><xref ref="guideline4130" resource="acc043" /><xref ref="pubmed10049967" resource="acc018" /><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>After a good history and physical, as well as risk stratification (well-appearing vs. ill-appearing), ruling out a SBI generally includes diagnostic evaluations including the following laboratory tests: CBC with differential, blood culture, inflammatory markers such as C-reactive protein and pro-calcitonin, urinalysis, urine culture, and CSF studies including cell count, culture, gram stain, protein, and glucose evaluations. In addition, for localizing symptoms, tests for those specific regions are recommended (e.g., stool studies, chest x-ray).</listitem>
+<listitem><strong>Viral testing</strong> should be pursued if clinically appropriate. Viral testing could decrease hospitalization rates, specifically from influenza and enterovirus. Positive viral antibody testing does not eliminate the possibility of serious bacterial infection.<xref ref="pubmed16651326" resource="acc014" /></listitem>
+<listitem>SBI is uncommon in children with bronchiolitis, but if SBI is present, <strong>UTI</strong> has been identified as the most common concurrent diagnosis vs. bacteremia or meningitis. (0-24 months, UTI incidence of 2.3&#x0025;). SBI in the setting of RSV may be more common in high-risk patients and age groups. Testing for SBI in these cases should be considered accordingly.<xref ref="pubmed24435599" resource="acc028" /></listitem>
+<listitem>Consider <strong>HSV infection</strong> in infants aged 0 to 28 days if risk factors are present or if the patient is not improving with antibiotic therapy. Often neonatal HSV infection will present with seizure, disseminated disease, or rash, although it can present with fever alone. Testing for neonatal HSV includes the following diagnostic tests: blood viral culture, CSF viral culture, CSF polymerase chain reaction for HSV, conjunctival viral culture, skin lesion viral culture, nasopharyngeal viral culture, rectal viral culture, and also consider liver function testing. Infants aged 29 to 60 days are unlikely to have HSV. Testing in this case should be reserved for infants with suggestive clinical findings or prior HSV infection.<xref ref="guideline4130" resource="acc043" /><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Infants &gt;2 months who are not critically ill and who do not require immediate antibiotics should be evaluated for <strong>UTI.</strong><xref ref="test248" resource="acc001" /><xref ref="test470" resource="acc019" /> Infants with a low risk of UTI with good follow-up may not require urine studies.<xref ref="test470" resource="acc019" /> In infants not in the low-risk group, send a catheterized urine for urinalysis and culture OR obtain a urinalysis first, and obtain a catheterized urine for culture if urinalysis suggests a UTI (positive leukocyte esterase, nitrite, or leukocytes&#x002F;bacteria on microscopy). For girls, the probability of UTI increases to &gt;1&#x0025; with more than 1 of the following risk factors: age &lt;12 months, absence of another source of infection, temperature &#x2265;39&#x00B0;C, fever &#x2265;2 days, or white race. Uncircumcised boys are not low-risk.<xref ref="test248" resource="acc001" />For circumcised boys, the probability of UTI increases to &gt;1&#x0025; with more than 2 of the following risk factors: absence of another source of infection, temperature &#x2265;39&#x00B0;C, fever &gt;24 hours, or non-black race. Diagnosis of UTI requires urinalysis that suggests UTI (pyuria &#x00B1; bacteriuria) and &gt;50,000 cfu&#x002F;ml of a uropathogen on a catheterized urine sample.<xref ref="pubmed10545580" resource="acc002" /><xref ref="PubMed21873693" resource="acc021" /></listitem>
+<listitem>Obtain a <strong>chest x-ray</strong> in young children with fever without source and respiratory symptoms.<xref ref="test470" resource="acc019" /><xref ref="guideline4130" resource="acc043" /> A chest x-ray may be useful in children younger than 5 years with an elevated WBC count (&gt;20,000) and a fever higher than 39&#x00B0;C without source.<xref ref="pubmed9922412" resource="acc007" /></listitem>
+<listitem>For children aged 2 to 36 months with fever of unknown source who are well appearing, routine CBC and blood culture are not recommended. Children aged 2 to 36 months with fever who are not well appearing should have <strong>CBC and blood culture obtained</strong>. In children aged 2 to 36 months, a CRP test may not add diagnostic information beyond the WBC count and absolute neutrophil count,<xref ref="pubmed12197798" resource="acc005" /> though there is conflicting information in the literature.<xref ref="pubmed11731648" resource="acc004" /></listitem>
+<listitem>Patients with serious bacterial infection have higher average WBC count (&gt;15,000),<xref ref="test471" resource="acc020" /> absolute neutrophil count, CRP levels,<xref ref="test470" resource="acc019" /><xref ref="test471" resource="acc020" /> procalcitonin levels,<xref ref="test471" resource="acc020" /> and Yale Observation Scores than those without serious bacterial infections.<xref ref="pubmed16651326" resource="acc014" /> Patients with CRP &gt;80 mg&#x002F;dl (LR+ 8.4; 95&#x0025; CI: 5.1-14.1) or procalcitonin &gt;2 ng&#x002F;ml (LR+: 3.6-13.7; 95&#x0025; CI: 1.4-25.3) are more likely to have a serious bacterial infection. Patients with CRP &lt;20 mg&#x002F;dl or procalcitonin &lt;0.5 ng&#x002F;ml are less likely to have a serious bacterial infection.<xref ref="test471" resource="acc020" /> A randomized trial found that restricting CRP to children with shortness of breath, fever of 40&#x00B0;C or higher, diarrhea, or where there was "physician concern" was safe.<xref ref="poem190313" resource="acc034" /> The utility of newer diagnostic tests such as cytokine and fibronectin levels has been explored but is not useful at this point.<xref ref="pubmed12796229" resource="acc006" /></listitem>
+<listitem>Combinations of normal <resourceLink href="info:wiley/eep-dx/423">WBC, absolute neutrophil count, and procalcitonin</resourceLink> results have a very good negative predictive value for ruling out bacteremia in infants aged 3 months to 36 months with fever and no obvious source. CRP and IL-6 are only moderately accurate, although <resourceLink href="info:wiley/eep-dx/248">normal IL-6 and normal CRP</resourceLink> results have good negative predictive value (LR&#x2212;: 0.07).</listitem>
+<listitem>For children under 1 month of age, <resourceLink href="info:wiley/eep-dx/512">procalcitonin</resourceLink> may also be helpful. It is less accurate in infants under 72 hours of age than in those 72 hours to one month of age. It should never be the sole or primary factor in a decision to treat.<xref ref="test512" resource="acc022" /></listitem>
+<listitem>Pediatric SIRS (systemic inflammatory response syndrome) includes meeting two or more of the following criteria (must include either temperature or leukocyte count abnormality): core temperature &lt;36&#x00B0;C or &gt;38.5&#x00B0;C, tachycardia (or bradycardia in infants), tachypnea, abnormal leukocyte count for age, or &gt;10&#x0025; immature neutrophils. Although children who meet SIRS criteria have an increased risk of needing to be admitted to the PICU, meeting SIRS criteria is a poor predictor of needing PICU admission (LR+: 2.74).<xref ref="poem170621" resource="acc027" /></listitem>
+<listitem>Febrile infants with +RSV studies have a decreased incidence of concurrent serious bacterial infections, with the exception of UTI.<xref ref="pubmed24435599" resource="acc028" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The <resourceLink href="https://neonatalsepsiscalculator.kaiserpermanente.org/">online Kaiser Permanente Risk Score</resourceLink> estimates the probability of neonatal early onset infection based on maternal risk factors. A meta-analysis showed that use of the neonatal Kaiser early-onset sepsis calculator is associated with a decrease in antibiotic use (RR 0.56, 95&#x0025; CI 0.53 - 0.59) without an apparent increase in the rate of sepsis (pooled odds ratio 0.96; 95&#x0025; CI: 0.26-3.52).<xref ref="poem220210" resource="acc039" /> This conclusion is tempered by a lack of randomized trials.</listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/616">PECARN Febrile Infant Rule</resourceLink> was derived from a secondary analysis of 908 infants less than 60 days who presented to an emergency department with fever and validated on a second cohort of 913 infants. The rule uses the patient's urinalysis, ANC, and procalcitonin to identify a low-risk group of infants who could be managed without lumbar puncture or antibiotics. The clinical prediction rule had a sensitivity of 97.7&#x0025; and specificity of 60&#x0025; and negative predictive value of 99.6&#x0025;.<xref ref="pubmed30776077" resource="acc035" /></listitem>
+<listitem>The <xref ref="pubmed27382134" resource="acc032">Step-by-Step approach</xref> to the febrile infant is another set of criteria developed by European emergency room physicians which uses urinalysis, urine culture, CBC, CRP, procalcitonin, and blood culture to identify a low-risk group of infants younger than 90 days who could be managed as outpatients without lumbar puncture or antibiotics. A recent validation reported that the Step-by-Step approach had a sensitivity of 92&#x0025; and negative predictive value of 99&#x0025; for SBI, compared with sensitivity of 81&#x0025; and negative predictive value of 96&#x0025; for the Rochester criteria.<xref ref="pubmed27382134" resource="acc032" /><xref ref="pubmed27382134" resource="acc032" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/457">Lab Score</resourceLink> is similar to the PECARN risk score in that it relies on UA, CRP and PCT. It was developed in 200 children at an Italian children's hospital age 7 days to 3 months old with rectal temp &gt; 38 C as well as children 3 to 36 months old who appeared toxic or had a rectal temperature &gt; 39.5 C. Given an overall risk of SBI of 23&#x0025; in the validation population of 404 children, those with a low risk score &lt; 3 points had a 5&#x0025; risk of SBI while those with a score of 3 or higher had a 60&#x0025; risk of SBI.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>The American Academy of Pediatrics (AAP) Clinical Practice Guidelines (2021) utilize age, normal ANC and inflammatory markers to identify low risk infants with fever under 60 days of age who may forego lumbar puncture and&#x002F;or undergo close observation as outpatients with or without empiric antibiotic therapy.<xref ref="pubmed34281996" resource="acc041" /> Cutoffs for the biomarkers recommended below include ANC &gt; 4000, CRP &gt; 20 mg&#x002F;L and procalcitonin &gt; 0.5 ng&#x002F;ml; see <xref ref="table001" /> for low risk criteria. The AAP guidelines recommend:</listitem>
+<listitem><strong>For infants 8 to 21 days of age who are well-appearing:</strong> obtain urinalysis, blood culture, and lumbar puncture. May also obtain CBC with differential, CRP, and pro-calcitonin. Send HSV studies if there is risk of HSV. Initiate antibiotics and observe in the hospital.</listitem>
+<listitem><strong>For infants 22 to 28 days of age who are well-appearing:</strong> obtain urinalysis, blood culture, CBC with differential, CRP, and pro-calcitonin. If inflammatory markers are elevated, perform lumbar puncture. Lumbar puncture is optional if inflammatory markers are not elevated. If CSF reveals pleocytosis, is uninterpretable, or is traumatic, administer parenteral antibiotics and observe inpatient. If CSF is reassuring, empiric parenteral antibiotics may be given and observation may occur either inpatient or at home if follow-up is assured within 24 hours.</listitem>
+<listitem><strong>For infants 29 to 60 days of age who are well-appearing</strong>: obtain urinalysis, blood culture, CBC with differential, CRP, and pro-calcitonin. Lumbar puncturure should be considered if inflammatory markers are elevated. Infants with negative CSF results and those for whom lumbar puncture was not obtained may be eligible for an initial dose of empiric parenteral antibiotic therapy and outpatient observation if follow-up is assured within 24 hours.</listitem>
+<listitem>For all infants 8 to 60 days of age, empiric antibiotics may be discontinued and, if hospitalized, the infant may discharge home if all culture results (and HSV results, if sent) are negative at 24 to 36 hours. See <xref ref="table002" /> for recommended antibiotic regimens.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>208</HP_ID>
+<HP_ID>193</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>423</Dx_ID>
+<Dx_ID>248</Dx_ID>
+<Dx_ID>197</Dx_ID>
+<Dx_ID>151</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Infants 21 days and younger with fever are considered high-risk and should be hospitalized, lab studies completed, and empiric antibiotics given (see <xref ref="table001" />, <xref ref="table002" />). <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Acyclovir should be administered to infants younger than 28 days who have fever without source and who are thought to be at risk of neonatal herpes. <evidence rating="B" system="SORT">B</evidence><xref ref="guideline4130" resource="acc043" /><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Infants aged 22 to 60 days with fever can be carefully observed as outpatients if low-risk criteria are met based on the history and diagnostic testing, and careful observation and follow-up is assured (see <xref ref="table001" />). If the infant will be observed as an outpatient, consider empiric parenteral antibiotics prior to discharge. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Ill-appearing children aged 3 to 36 months with fever without source should be treated with antibiotics after cultures are obtained (see <xref ref="table002" />). <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>See <xref ref="table002" /> for empiric antibiotic suggestions based on age for treatment of infants 0 to 60 days with suspected sepsis. Once a specific pathogen is identified, antibiotic treatment should be tailored.<xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Add acyclovir when HSV is suspected.<xref ref="guideline4130" resource="acc043" /><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Infants older than 21 days who meet low risk criteria (well appearing, no evidence of infection, normal laboratory results) can be carefully observed without giving antibiotics. While febrile infants aged 22 to 28 days not receiving empiric antibiotics should be observed in an inpatient setting, febrile infants who are 29 to 60 days may be observed outpatient without giving antibiotics if they meet low risk criteria. <xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>All children with UTI, gastroenteritis, pneumonia, or other focal infections should be treated for the specific disease process.</listitem>
+<listitem>In older children aged 3 to 36 months, consider empiric antibiotic therapy when they present with fever without source of 39&#x00B0;C or higher and with a WBC count of at least 15,000.<xref ref="test470" resource="acc019" /> Children with abnormal laboratory results that suggest a risk of bacteremia should be treated with antibiotics after cultures are obtained, but there is no clear evidence regarding which antibiotics are most appropriate, especially since the availability of a conjugated pneumococcal vaccine has significantly reduced the risk of pneumococcal bacteremia.</listitem>
+<listitem>Gentamicin dosing in older children has been shown to be superior in one time daily dosing vs. multiple doses per day. A Cochrane review of 11 RCTs involving primarily infants &gt;32 weeks showed insufficient evidence to conclude whether 'once a day' dosing versus 'multiple doses' per day is superior for treating neonatal sepsis. However, pharmacokinetic data suggests that 'once a day' dosing regimens are superior, as they achieve higher peak levels and avoid toxic trough levels. Therefore, the author concludes that, based on pharmacokinetic data, once a day dosing may be superior for treatment of sepsis in neonates older than 32 weeks.<xref ref="cochrane5091" resource="acc033" /></listitem>
+<listitem>Traditionally, ampicillin is added to the empiric antibiotic choices for a febrile neonate in order to treat presumed infections by <em>Listeria monocytogenes</em> and <em>Enterococcus</em> species. A recent meta-analysis has detected an epidemiologic change in the pathogens causing SBI in infants &#x2264;90 days with fever. The conclusion of this analysis is that SBI caused by <em>L. monocytogenes</em> or <em>Enterococcus</em> spp. is rare in infants with fever. Based on this finding, the authors suggest that clinicians consider a change in the choice of empiric antibiotic coverage.<xref ref="pubmed26980752" resource="acc029" /></listitem>
+<listitem>Ibuprofen, in children &gt;6 months, may have marginally greater effectiveness for fever reduction than acetaminophen in a 1-time dose. There was no identified difference in safety.<xref ref="pubmed15184213" resource="acc003" /></listitem>
+<listitem>Evidence does not support the use of IVIG in neonatal sepsis (mortality RR: 1.00; 95&#x0025; CI: 0.92-1.08).<xref ref="cochrane1090" resource="acc024" /></listitem>
+<listitem>Overall evidence does not support the use of corticosteroids in severe sepsis and septic shock (28-day mortality RR: 0.87; 95&#x0025; CI: 0.74-1.01).<xref ref="cochrane2243" resource="acc025" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Some infants may require fluid support, especially if they are receiving potentially nephrotoxic drugs.<xref ref="guideline4130" resource="acc043" /><xref ref="PubMed23353941" resource="acc023" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Watch bacterial cultures for a minimum of 24 to 36 hours of incubation.<xref ref="guideline4130" resource="acc043" /><xref ref="pubmed34281996" resource="acc041" /></listitem>
+<listitem>Empiric therapy is generally continued until culture results are known, then tailored on the basis of culture results.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Hospitalize febrile infants &lt;22 days for observation and possible antibiotic therapy.<xref ref="guideline4130" resource="acc043" /></listitem>
+<listitem>Low-risk infants aged 22 to 60 days may be observed as inpatients or outpatients, with or without antibiotics. See <xref ref="table001" /> for low-risk criteria.<xref ref="guideline4130" resource="acc043" /><xref ref="pubmed34281996" resource="acc041" /> These low-risk infants may be sent home with or without an initial dose of empiric parenteral antibiotics if they are available for repeat physical examinations at 24 and 48 hours. The patient's social situation must be considered.<xref ref="pubmed10049967" resource="acc018" /></listitem>
+<listitem>Ill-appearing children should be hospitalized, cultured, and treated.<xref ref="pubmed24435599" resource="acc028" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Untreated sepsis can be fatal. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The prognosis of serious bacterial infection in children is dependent on the age of patient, location, infectious agent, and clinical course. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>All children with fever should be observed carefully and should be returned to medical attention if signs and symptoms worsen. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>A pediatric sequential organ failure assessment (pSOFA) score less than 2 had excellent negative predictive value for in-hospital mortality.<xref ref="pubmed35575803" resource="acc042" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="test248">
+<accessionId id="acc001" href="info:wiley/eep-dx/248" />
+<accessionId id="acc001b" href="info:wiley/eep-dx/197" />
+<accessionId id="acc001c" href="info:pmid/11750194" />
+<authors>Dollner H, Vatten L, Austgulen R.</authors>
+<title>Early diagnostic markers for neonatal sepsis: Comparing C-reactive protein, interleukin-6, soluble tumour necrosis factor receptors and soluble adhesion molecules.</title>
+<source>J Clin Epidemiol</source>
+<pubdate>2001</pubdate>
+<volume>54</volume>
+<pages>1251&#x2013;1257.</pages>
+</reference>
+<reference id="pubmed10545580">
+<accessionId id="acc002" href="info:pmid/10545580" />
+<authors>Gorelick MH, Shaw KN.</authors>
+<title>Screening tests for urinary tract infection in children: A meta-analysis.</title>
+<source>Pediatrics</source>
+<pubdate>1999</pubdate>
+<volume>104</volume>
+<pages>e54.</pages>
+</reference>
+<reference id="pubmed15184213">
+<accessionId id="acc003" href="info:pmid/15184213" />
+<accessionId id="acc003b" href="info:wiley/eep-poem/60842" />
+<authors>Perrott DA, Piira T, Goodenough B, Champion GD.</authors>
+<title>Efficacy and safety of acetaminophen vs ibuprofen for treating children's pain or fever: A meta-analysis.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2004</pubdate>
+<volume>158</volume>
+<pages>521&#x2013;526.</pages>
+</reference>
+<reference id="pubmed11731648">
+<accessionId id="acc004" href="info:pmid/11731648" />
+<authors>Pulliam PN, Attia MW, Cronan KM.</authors>
+<title>C-reactive protein in febrile children 1 to 36 months of age with clinically undetectable serious bacterial infection.</title>
+<source>Pediatrics</source>
+<pubdate>2001</pubdate>
+<volume>108</volume>
+<pages>1275&#x2013;1279.</pages>
+</reference>
+<reference id="pubmed12197798">
+<accessionId id="acc005" href="info:pmid/12197798" />
+<authors>Isaacman DJ, Burke BL.</authors>
+<title>Utility of the serum C-reactive protein for detection of occult bacterial infection in children.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2002</pubdate>
+<volume>156</volume>
+<pages>905&#x2013;909.</pages>
+</reference>
+<reference id="pubmed12796229">
+<accessionId id="acc006" href="info:pmid/12796229" />
+<accessionId id="acc006b" href="info:wiley/eep-poem/50965" />
+<authors>Malik A, Hui CP, Pennie RA, Kirpalani H.</authors>
+<title>Beyond the complete blood cell count and C-reactive protein: A systematic review of modern diagnostic tests for neonatal sepsis.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2003</pubdate>
+<volume>157</volume>
+<pages>511&#x2013;516.</pages>
+</reference>
+<reference id="pubmed9922412">
+<accessionId id="acc007" href="info:pmid/9922412" />
+<accessionId id="acc007b" href="info:wiley/eep-poem/1013" />
+<authors>Bachur R, Perry H, Harper MB.</authors>
+<title>Occult pneumonias: Empiric chest radiographs in febrile children with leukocytosis.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1999</pubdate>
+<volume>33</volume>
+<pages>166&#x2013;173.</pages>
+</reference>
+<reference id="pubmed11980552">
+<accessionId id="acc008" href="info:pmid/11980552" />
+<accessionId id="acc008b" href="info:wiley/eep-poem/40864" />
+<authors>Shah SS, Alpern ER, Zwerling L, Reid JR, McGowan KL, Bell LM.</authors>
+<title>Low risk of bacteremia in children with febrile seizures.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2002</pubdate>
+<volume>156</volume>
+<pages>469&#x2013;472.</pages>
+</reference>
+<reference id="pubmed10784539">
+<accessionId id="acc009" href="info:pmid/10784539" />
+<accessionId id="acc009b" href="info:wiley/eep-poem/20857" />
+<authors>Craig JV, Lancaster GA, Williamson PR, Smyth RL.</authors>
+<title>Temperature measured at the axilla compared with rectum in children and young people: Systematic review.</title>
+<source>BMJ</source>
+<pubdate>2000</pubdate>
+<volume>320</volume>
+<pages>1174&#x2013;1178.</pages>
+</reference>
+<reference id="pubmed16549256">
+<accessionId id="acc010" href="info:pmid/16549256" />
+<accessionId id="acc010b" href="info:wiley/eep-poem/80541" />
+<authors>Dodd SR, Lancaster GA, Craig JV, Smyth RL, Williamson PR.</authors>
+<title>In a systematic review, infrared ear thermometry for fever diagnosis in children finds poor sensitivity.</title>
+<source>J Clin Epidemiol</source>
+<pubdate>2006</pubdate>
+<volume>59</volume>
+<pages>354&#x2013;357.</pages>
+</reference>
+<reference id="pubmed12241932">
+<accessionId id="acc011" href="info:pmid/12241932" />
+<accessionId id="acc011b" href="info:wiley/eep-poem/41262" />
+<authors>Craig JV, Lancaster GA, Taylor S, Williamson PR, Smyth RL.</authors>
+<title>Infrared ear thermometry compared with rectal thermometry in children: A systematic review.</title>
+<source>Lancet</source>
+<pubdate>2002</pubdate>
+<volume>360</volume>
+<pages>603&#x2013;609.</pages>
+</reference>
+<reference id="pubmed17337092">
+<accessionId id="acc012" href="info:pmid/17337092" />
+<authors>Carstairs KL, Tanen DA, Johnson AS, Kailes SB, Riffenburgh RH.</authors>
+<title>Pneumococcal bacteremia in febrile infants presenting to the emergency department before and after the introduction of the heptavalent pneumococcal vaccine.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2007</pubdate>
+<volume>49</volume>
+<pages>772&#x2013;777.</pages>
+</reference>
+<reference id="pubmed10725479">
+<accessionId id="acc013" href="info:pmid/10725479" />
+<accessionId id="acc013b" href="info:wiley/eep-poem/20776" />
+<authors>Brozanski BS, Jones JG, Krohn MA, Sweet RL.</authors>
+<title>Effect of a screening-based prevention policy on prevalence of early-onset group B streptococcal sepsis.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>496&#x2013;501.</pages>
+</reference>
+<reference id="pubmed16651326">
+<accessionId id="acc014" href="info:pmid/16651326" />
+<authors>Hsiao AL, Chen L, Baker MD.</authors>
+<title>Incidence and predictors of serious bacterial infections among 57- to 180-day-old infants.</title>
+<source>Pediatrics</source>
+<pubdate>2006</pubdate>
+<volume>117</volume>
+<pages>1695&#x2013;1701.</pages>
+</reference>
+<reference id="pubmed14520324">
+<accessionId id="acc015" href="info:pmid/14520324" />
+<authors>American College of Emergency Physicians Clinical Policies Committee American College of Emergency Physicians Clinical Policies Subcommittee on Pediatric Fever.</authors>
+<title>Clinical policy for children younger than three years presenting to the emergency department with fever.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2003</pubdate>
+<volume>42</volume>
+<pages>530&#x2013;545.</pages>
+</reference>
+<reference id="pubmed16714955">
+<accessionId id="acc016" href="info:pmid/16714955" />
+<authors>Sard B, Bailey MC, Vinci R.</authors>
+<title>An analysis of pediatric blood cultures in the postpneumococcal conjugate vaccine era in a community hospital emergency department.</title>
+<source>Pediatr Emerg Care</source>
+<pubdate>2006</pubdate>
+<volume>22</volume>
+<pages>295&#x2013;300.</pages>
+</reference>
+<reference id="pubmed15010441">
+<accessionId id="acc017" href="info:pmid/15010441" />
+<authors>Pantell RH, Newman TB, Bernzweig J, et al.</authors>
+<title>Management and outcomes of care of fever in early infancy.</title>
+<source>JAMA</source>
+<pubdate>2004</pubdate>
+<volume>291</volume>
+<pages>1203&#x2013;1212.</pages>
+</reference>
+<reference id="pubmed10049967">
+<accessionId id="acc018" href="info:pmid/10049967" />
+<authors>Baker MD, Bell LM, Avner JR.</authors>
+<title>The efficacy of routine outpatient management without antibiotics of fever in selected infants.</title>
+<source>Pediatrics</source>
+<pubdate>1999</pubdate>
+<volume>103</volume>
+<pages>627&#x2013;631.</pages>
+</reference>
+<reference id="test470">
+<accessionId id="acc019" href="info:wiley/eep-dx/470" />
+<accessionId id="acc019b" href="info:pmid/21653621" />
+<authors>Van den Bruel A, Thompson MJ, Haj-Hassan T, et al.</authors>
+<title>Diagnostic value of laboratory tests in identifying serious infections in febrile children: Systematic review.</title>
+<source>BMJ</source>
+<pubdate>2011</pubdate>
+<volume>342</volume>
+<pages>d3082.</pages>
+</reference>
+<reference id="test471">
+<accessionId id="acc020" href="info:wiley/eep-dx/471" />
+<accessionId id="acc020b" href="info:pmid/18536624" />
+<authors>Lacour AG, Zamora SA, Gervaix A.</authors>
+<title>A score identifying serious bacterial infections in children with fever without source.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2008</pubdate>
+<volume>27</volume>
+<pages>654&#x2013;656.</pages>
+</reference>
+<reference id="PubMed21873693">
+<accessionId id="acc021" href="info:pmid/21873693" />
+<authors>Subcommittee on Urinary Tract Infection, Steering Committee on Quality Improvement and Management; Roberts KB.</authors>
+<title>Urinary tract infection: Clinical practice guideline for the diagnosis and management of the initial UTI in febrile infants and children 2 to 24 months.</title>
+<source>Pediatrics</source>
+<pubdate>2011</pubdate>
+<volume>128</volume>
+<pages>595&#x2013;610.</pages>
+</reference>
+<reference id="test512">
+<accessionId id="acc022" href="info:wiley/eep-dx/512" />
+<accessionId id="acc022b" href="info:pmid/21380522" />
+<authors>Vouloumanou EK, Plessa E, Karageorgopoulos DE, Mantadakis E, Falagas ME.</authors>
+<title>Serum procalcitonin as a diagnostic marker for neonatal sepsis: A systematic review and meta-analysis.</title>
+<source>Intensive Care Med</source>
+<pubdate>2011</pubdate>
+<volume>37</volume>
+<pages>747&#x2013;762.</pages>
+</reference>
+<reference id="PubMed23353941">
+<accessionId id="acc023" href="info:pmid/23353941" />
+<authors />
+<title>Surviving sepsis campaign: International guidelines for management of severe sepsis and septic shock: 2012.</title>
+<source>Crit Care Med</source>
+<pubdate>2013</pubdate>
+<volume>41</volume>
+<pages>580&#x2013;637.</pages>
+</reference>
+<reference id="cochrane1090">
+<accessionId id="acc024" href="info:wiley/cochrane/CD001090" />
+<chapter_authors>Alejandria MM, Lansang MAD, Dans LF, Mantaring III JB.</chapter_authors>
+<chapter_title>Intravenous immunoglobulin for treating sepsis, severe sepsis and septic shock.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database Syst Rev 2013, Issue 9. Art. No.: CD001090. DOI: 10.1002&#x002F;14651858.CD001090.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2243">
+<accessionId id="acc025" href="info:wiley/cochrane/CD002243" />
+<chapter_authors>Annane D, Bellissant E, Bollaert PE, Briegel J, Keh D, Kupfer Y.</chapter_authors>
+<chapter_title>Incentive surgery.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 12. Art. No.: CD002243. DOI: 10.1002&#x002F;14651858.CD002243.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane361">
+<accessionId id="acc026" href="info:wiley/cochrane/CD000361" />
+<chapter_authors>Ohlsson A, Lacy JB.</chapter_authors>
+<chapter_title>Intravenous immunoglobulin for preventing infection in preterm and&#x002F;or low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database Syst Rev 2013, Issue 7. Art. No.: CD000361. DOI: 10.1002&#x002F;14651858.CD000361.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem170621">
+<accessionId id="acc027" href="info:wiley/eep-poem/170621" />
+<accessionId id="acc027b" href="info:pmid/25778743" />
+<authors>Scott HF, Deakyne SJ, Woods JM, Bajaj L.</authors>
+<title>The prevalence and diagnostic utility of systemic inflammatory response syndrome vital signs in a pediatric emergency department.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2015</pubdate>
+<volume>22</volume>
+<pages>381&#x2013;389.</pages>
+</reference>
+<reference id="pubmed24435599">
+<accessionId id="acc028" href="info:pmid/24435599" />
+<authors>Librizzi J, McCulloh R, Koehn K, Alverson B.</authors>
+<title>Appropriateness of testing for serious bacterial infection in children hospitalized with bronchiolitis.</title>
+<source>Hosp Pediatr</source>
+<pubdate>2014</pubdate>
+<volume>4</volume>
+<pages>33&#x2013;38.</pages>
+</reference>
+<reference id="pubmed26980752">
+<accessionId id="acc029" href="info:pmid/26980752" />
+<authors>Leazer R, Perkins AM, Shomaker K, Fine B.</authors>
+<title>A meta-analysis of the rates of Listeria monocytogenes and Enterococcus in febrile infants.</title>
+<source>Hosp Pediatr</source>
+<pubdate>2016</pubdate>
+<volume>6</volume>
+<pages>187&#x2013;195.</pages>
+</reference>
+<reference id="pubmed24218461">
+<accessionId id="acc030" href="info:pmid/24218461" />
+<authors>Biondi E, Evans R, Mischler M, Bendel-Stenzel M, Horstmann S, Lee V, Aldag J, Gigliotti F.</authors>
+<title>Epidemiology of bacteremia in febrile infants in the United States.</title>
+<source>Pediatrics</source>
+<pubdate>2013</pubdate>
+<volume>132</volume>
+<pages>990&#x2013;996.</pages>
+</reference>
+<reference id="pubmed24326416">
+<accessionId id="acc031" href="info:pmid/24326416" />
+<authors>Greenhow TL, Hung YY, Herz AM, Losada E, Pantell RH.</authors>
+<title>The changing epidemiology of serious bacterial infections in young infants.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2014</pubdate>
+<volume>33</volume>
+<pages>595&#x2013;599.</pages>
+</reference>
+<reference id="pubmed27382134">
+<accessionId id="acc032" href="info:pmid/27382134" />
+<authors>Gomez B, Mintegi S, Bressan S, Da Dalt L, Gervaix A, Lacroix L; European Group for Validation of the Step-by-Step Approach.</authors>
+<title>Validation of the "step-by-step" approach in the management of young febrile infants.</title>
+<source>Pediatrics</source>
+<pubdate>2016</pubdate>
+<volume>138</volume>
+<pages>e20154381.</pages>
+</reference>
+<reference id="cochrane5091">
+<accessionId id="acc033" href="info:wiley/cochrane/CD005091" />
+<chapter_authors>Rao SC, Srinivasjois R, Moon K.</chapter_authors>
+<chapter_title>One dose per day compared to multiple doses per day of gentamicin for treatment of suspected or proven sepsis in neonates.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 12. Art. No.: CD005091. DOI: 10.1002&#x002F;14651858.CD005091.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem190313">
+<accessionId id="acc034" href="info:wiley/eep-poem/190313" />
+<accessionId id="acc034b" href="info:pmid/27716201" />
+<authors>Verbakel JY, Lemiengre MB, De Burghgraeve T, De Sutter A, Aertgeerts B, Shinkins B, Perera R, Mant D, Van den Bruel A, Buntinx F.</authors>
+<title>Should all acutely ill children in primary care be tested with point-of-care CRP: A cluster randomised trial.</title>
+<source>BMC Med</source>
+<pubdate>2016</pubdate>
+<volume>14</volume>
+<pages>131.</pages>
+</reference>
+<reference id="pubmed30776077">
+<accessionId id="acc035" href="info:pmid/30776077" />
+<authors>Kuppermann N, Dayan PS, Levine DA, Vitale M, Tzimenatos L, Tunik MG, Saunders M, Ruddy RM, Roosevelt G, Rogers AJ, Powell EC, Nigrovic LE, Muenzer J, Linakis JG, Grisanti K, Jaffe DM, Hoyle JD Jr, Greenberg R, Gattu R, Cruz AT, Crain EF, Cohen DM, Brayer A, Borgialli D, Bonsu B, Browne L, Blumberg S, Bennett JE, Atabaki SM, Anders J, Alpern ER, Miller B, Casper TC, Dean JM, Ramilo O, Mahajan P, Febrile Infant Working Group of the Pediatric Emergency Care Applied Research Network (PECARN).</authors>
+<title>A clinical prediction rule to identify febrile infants 60 days and younger at low risk for serious bacterial infections.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2019</pubdate>
+<volume>173(4)</volume>
+<pages>342&#x2013;351.</pages>
+</reference>
+<reference id="pubmed20407316">
+<accessionId id="acc036" href="info:pmid/20407316" />
+<authors>Levine OS, Knoll MD, Jones A, Walker DG, Risko N, Gilani Z.</authors>
+<title>Global status of Haemophilus influenzae type b and pneumococcal conjugate vaccines: Evidence, policies, and introductions.</title>
+<source>Curr Opin Infect Dis</source>
+<pubdate>2010</pubdate>
+<volume>23</volume>
+<pages>236&#x2013;241.</pages>
+</reference>
+<reference id="pubmed23418797">
+<accessionId id="acc037" href="info:pmid/23418797" />
+<authors>Hamilton JL, John SP.</authors>
+<title>Evaluation of fever in infants and young children.</title>
+<source>Am Fam Physician</source>
+<pubdate>2013</pubdate>
+<volume>87</volume>
+<pages>254&#x2013;260.</pages>
+</reference>
+<reference id="pubmed31913562">
+<accessionId id="acc038" href="info:pmid/31913562" />
+<authors>Hasperhoven GF, Al-Nasiry S, Bekker V, Villamor E, Kramer B.</authors>
+<title>Universal screening versus risk-based protocols for antibiotic prophylaxis during childbirth to prevent early-onset group B streptococcal disease: A systematic review and meta-analysis.</title>
+<source>BJOG</source>
+<pubdate>2020</pubdate>
+<volume>127</volume>
+<pages>680&#x2013;691.</pages>
+</reference>
+<reference id="poem220210">
+<accessionId id="acc039" href="info:wiley/eep-poem/220210" />
+<accessionId id="acc039b" href="info:pmid/31479103" />
+<authors>Achten NB, Klingenberg C, Benitz WE, Stocker M, Schlapbach LJ, Giannoni E, Bokelaar R, Driessen GJA, Brodin P, Uthaya S, van Rossum AMC, Pl&#x00F6;tz FB.</authors>
+<title>Association of use of the neonatal early-onset sepsis calculator with reduction in antibiotic therapy and safety: A systematic review and meta-analysis.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2019</pubdate>
+<volume>173(11)</volume>
+<pages>1032&#x2013;1040.</pages>
+</reference>
+<reference id="pubmed33957655">
+<accessionId id="acc040" href="info:pmid/33957655" />
+<authors>Beck C, Gallagher K, Taylor LA, Goldstein JA, Mithal LB, Gernand AD.</authors>
+<title>Chorioamnionitis and risk for maternal and neonatal sepsis: A systematic review and meta-analysis.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2021</pubdate>
+<volume>137</volume>
+<pages>1007&#x2013;1022.</pages>
+</reference>
+<reference id="pubmed34281996">
+<accessionId id="acc041" href="info:pmid/34281996" />
+<authors>Pantell RH, Roberts KB, Adams WG, Dreyer BP, Kuppermann N, O'Leary ST, Okechukwu K, Woods CR Jr, SUBCOMMITTEE ON FEBRILE INFANTS.</authors>
+<title>Evaluation and management of well-appearing febrile infants 8 to 60 days old.</title>
+<source>Pediatrics</source>
+<pubdate>2021</pubdate>
+<volume>148</volume>
+<pages>e2021052228.</pages>
+</reference>
+<reference id="pubmed35575803">
+<accessionId id="acc042" href="info:pmid/35575803" />
+<authors>Balamuth F, Scott HF, Weiss SL, Webb M, Chamberlain JM, Bajaj L, Depinet H, Grundmeier RW, Campos D, Deakyne Davies SJ, Simon NJ, Cook LJ, Alpern ER, Pediatric Emergency Care Applied Research Network (PECARN) PED Screen and PECARN Registry Study Groups.</authors>
+<title>Validation of the Pediatric Sequential Organ Failure Assessment Score and Evaluation of Third International Consensus Definitions for Sepsis and Septic Shock Definitions in the Pediatric Emergency Department.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2022</pubdate>
+<volume>176</volume>
+<pages>672&#x2013;678.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline4130">
+<accessionId id="acc043" href="info:wiley/eep-guideline/4130" />
+<citation>Cincinnati Children's Hospital Medical Center. Evidence based clinical practice guideline for fever of uncertain source in children in 2 to 36 months of age. Cincinnati (OH): Cincinnati Children's Hospital Medical Center; 2003 Oct 27. 12 p.</citation>
+<url />
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Low-Risk Criteria in Infants Younger than 60 Days.<xref ref="pubmed34281996" resource="acc041" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Test</th>
+<th align="left" colspan="1">Low-Risk Finding</th>
+</tr>
+<tr>
+<td align="left" colspan="1">History</td>
+<td align="left" colspan="1">Well appearing, no evident source of infection, age &gt; 21 days</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Complete blood count</td>
+<td align="left" colspan="1">ANC &lt; or &#x003D; 4000 per mm<sup>3</sup></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Inflammatory markers</td>
+<td align="left" colspan="1">Procalcitonin &lt;&#x003D; 0.5 ng&#x002F;mL, CRP &lt;&#x003D; 20 mg&#x002F;L</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cerebrospinal fluid</td>
+<td align="left" colspan="1">No pleocytosis present, non-traumatic tap, normal protein, normal glucose, and negative Gram stain</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Empiric Antibiotics for Healthy Appearing Infants with Fever Without Source.<xref ref="pubmed34281996" resource="acc041" /><xref ref="pubmed23418797" resource="acc037" /><xref ref="pubmed34281996" resource="acc041" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Age</th>
+<th align="left" colspan="1">Antibiotic</th>
+</tr>
+<tr>
+<td align="left" colspan="1">0-21 days, UTI suspected</td>
+<td align="left" colspan="1">Ampicillin 50 mg&#x002F;kg IV or IM every 8 hours PLUS either gentamicin 4 mg&#x002F;kg IV or IM every 24 hours or ceftazidime 50 mg&#x002F;kg IV or IM every 8 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">0-21 days, no focus identified, meningitis not a concern</td>
+<td align="left" colspan="1">Ampicillin 50 mg&#x002F;kg IV or IM every 8 hours PLUS either gentamicin 4 mg&#x002F;kg IV or IM every 24 hours OR ceftazidime 50 mg&#x002F;kg IV or IM every 8 hours. If HSV suspected, add acyclovir 20 mg&#x002F;kg IV q 8 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">0-21 days, bacterial meningitis</td>
+<td align="left" colspan="1">Ampicillin IV or IM 75 mg&#x002F;kg every 6 hours and ceftazidime IV or IM 50 mg&#x002F;kg every 8 hours. If HSV suspected, add acyclovir 20 mg&#x002F;kg IV q 8 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">22-28 days, UTI suspected</td>
+<td align="left" colspan="1">Ceftriaxone 50 mg&#x002F;kg IV or IM every 24 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">22-28 days, no focus identified, meningitis not a concern</td>
+<td align="left" colspan="1">Ceftriaxone 50 mg&#x002F;kg IV or IM every 24 hours. If HSV suspected, add acyclovir 20 mg&#x002F;kg IV q 8 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">22-28 days, bacterial meningitis</td>
+<td align="left" colspan="1">Ampicillin 75 mg&#x002F;kg IV every 6 hours PLUS either ceftazidime 50 mg&#x002F;kg IV every 8 hours. If HSV suspected, add acyclovir 20 mg&#x002F;kg IV q 8 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">29-60 days, UTI suspected</td>
+<td align="left" colspan="1">Ceftriaxone 50 mg&#x002F;kg IV or IM every 24 hours. Consider oral medications if tolerated: cephalexin 50-100 mg&#x002F;kg&#x002F;day in 4 divided doses OR cefixime 8 mg&#x002F;kg&#x002F;day in a single daily dose.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">29-60 days, no focus identified, meningitis not a concern</td>
+<td align="left" colspan="1">Ceftriaxone 50 mg&#x002F;kg IV or IM every 24 hours.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">29-60 days, bacterial meningitis</td>
+<td align="left" colspan="1">Ceftriaxone 100 mg&#x002F;kg IV every 24 hours or divided every 12 hours OR ceftazidime 150 mg&#x002F;kg&#x002F;day IV divided every 6 hours PLUS vancomycin 60 mg&#x002F;kg&#x002F;day IV divided every 8 hours.</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

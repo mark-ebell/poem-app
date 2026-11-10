@@ -24,6 +24,8 @@ class Writer {
   constructor(doc) {
     this.doc = doc;
     this.root = doc.documentElement;
+    // Ids cited before the edits (some chapters cite a reference their list never had).
+    this.baseCited = new Set(Array.from(this.root.getElementsByTagName('xref')).flatMap(x => String(x.getAttribute('ref') || '').split(/\s+/)));
   }
 
   el(tag, attrs = {}, kids = []) {
@@ -79,6 +81,7 @@ class Writer {
     }
     if (tag === 'a' && data.key) { parent.appendChild(this.el('xref', { ref: data.key })); return; }
     if (tag === 'a' && data.fig) { parent.appendChild(this.el('xref', { ref: data.fig })); return; }
+    if (tag === 'a' && data.table) { parent.appendChild(this.el('xref', { ref: data.table })); return; }
     if (tag === 'br') { parent.appendChild(this.doc.createTextNode(' ')); return; }
     if (tag === 'table') { parent.appendChild(this.table(node)); return; }
     if (tag === 'p') {
@@ -184,20 +187,22 @@ class Writer {
     const misc = child(child(this.root, 'topic_text'), 'Misc');
     const refsEl = misc ? child(misc, 'References') : null;
     if (!refsEl) throw new Error('The chapter has no reference list.');
-    const figureIds = new Set(Array.from(this.root.getElementsByTagName('algorithm')).map(a => a.getAttribute('id')));
-    const xrefs = Array.from(this.root.getElementsByTagName('xref')).filter(x => !figureIds.has(x.getAttribute('ref')));
-    const cited = new Set(xrefs.map(x => x.getAttribute('ref')));
+    // Links to figures and tables are not citations. A link may name several references
+    // (ids separated by spaces); a citation of a reference the list never had is left alone.
+    const notRefs = new Set(['algorithm', 'figure', 'feature'].flatMap(t => Array.from(this.root.getElementsByTagName(t)).map(a => a.getAttribute('id'))));
+    const idsOf = x => String(x.getAttribute('ref') || '').split(/\s+/).filter(id => id && !notRefs.has(id));
+    const xrefs = Array.from(this.root.getElementsByTagName('xref')).filter(x => idsOf(x).length);
+    const cited = new Set(xrefs.flatMap(idsOf));
     const existing = elements(refsEl).filter(r => r.tagName === 'reference');
     const existingIds = new Set(existing.map(r => r.getAttribute('id')));
     const newById = new Map((newReferences || []).map(r => [r.id, r]));
 
-    const missing = [...cited].filter(id => !existingIds.has(id) && !newById.has(id));
+    const missing = [...cited].filter(id => !existingIds.has(id) && !newById.has(id) && !this.baseCited.has(id));
     if (missing.length) throw new Error(`Cited but not in the reference list: ${missing.join(', ')}`);
 
     const order = existing.filter(r => cited.has(r.getAttribute('id')));
     const seen = new Set(order.map(r => r.getAttribute('id')));
-    for (const x of xrefs) { // new references, in the order they are first cited
-      const id = x.getAttribute('ref');
+    for (const id of xrefs.flatMap(idsOf)) { // new references, in the order they are first cited
       if (!seen.has(id) && newById.has(id)) { order.push(this.newReference(newById.get(id))); seen.add(id); }
     }
 
@@ -210,7 +215,7 @@ class Writer {
       refsEl.appendChild(r);
     });
     for (const x of xrefs) {
-      const acc = accFor.get(x.getAttribute('ref'));
+      const acc = accFor.get(idsOf(x)[0]);
       if (acc) x.setAttribute('resource', acc);
       else x.removeAttribute('resource');
     }

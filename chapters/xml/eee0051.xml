@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Subarachnoid hemorrhage</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0051</topic_id>
+<topic_comment />
+<topic_lastupdated>09/28/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Maurizio Paciaroni, MD</author_name>
+<author_title>Neurologist</author_title>
+<author_department>Stroke Unit, Department of Internal Medicine</author_department>
+<author_institution>University of Perugia</author_institution>
+<author_email>mpaciaroni&#x0040;libero.it</author_email>
+<author_phone_office>0039(0)755782765</author_phone_office>
+<author_phone_home>0039(0)75397153</author_phone_home>
+<author_phone_fax>0039(0)755782765</author_phone_fax>
+<author_street1>Via Dottori 1</author_street1>
+<author_street2 />
+<author_city>Perugia</author_city>
+<author_state>Italy</author_state>
+<author_zip>06100</author_zip>
+</author>
+<author primary="no">
+<author_name>Alfonso Lorio, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of Perugia</author_institution>
+<author_email />
+<author_phone_office>++39.(0)75.5782765</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Perugia</author_city>
+<author_state>Italy</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Augusta University &#x2013; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>All patients with suspected subarachnoid hemorrhage (SAH), including those with mild symptoms after an otherwise typical thunderclap onset, should have an emergency CT scan without contrast interpreted by an expert.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Screen individuals with two or more affected first-degree relatives, identical twins if SAH has occurred in one of the pair, and patients with autosomal dominant polycystic kidney disease; begin at age 20 and screen approximately every 5 years.<evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>An RCT found that at 1 year in patients treated with coiling there was an absolute risk reduction of 7.4&#x0025; (NNT &#x003D; 14) for the combined outcome death or dependency in comparison to patients treated with clipping.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Around one-third of survivors of SAH are dependent, often with cognitive impairment, and two-thirds have a reduced quality of life.<evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Nontraumatic SAH is a neurological emergency characterized by the extravasation of blood into the spaces covering the central nervous system that are filled with cerebrospinal fluid.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Worldwide: 10.5 (95&#x0025; CI, 9.9-11.2) cases per 100,000 people per year.</listitem>
+<listitem>Finland: 22.0 (95&#x0025; CI, 20.0-23.0) cases per 100,000 people per year.</listitem>
+<listitem>Japan: 23.0 (95&#x0025; CI, 19.0-28.0) per 100,000 people per year.</listitem>
+<listitem>Other regions: 7.8 (95&#x0025; CI, 7.2-8.4) per 100,000 people per year.</listitem>
+<listitem>Women: 7.1 (95&#x0025; CI, 5.4-8.7) per 100,000 people per year.</listitem>
+<listitem>Men: 4.5 (95&#x0025; CI, 3.1-5.8) per 100,000 people per year.</listitem>
+<listitem>The incidence increases with age, with a mean age at presentation of 55 years.<xref ref="pubmed9056628" resource="acc024" /><xref ref="pubmed8614919" resource="acc025" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>SAH accounts for 2&#x0025; to 5&#x0025; of all new strokes, with an estimated frequency of 21,000 to 33,000 people each year in the United States.</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Ruptured <resourceLink href="info:wiley/eep-eee/7">cerebral aneurysm</resourceLink> is the most common cause of SAH (85&#x0025;).</listitem>
+<listitem>Non-aneurysmal perimesencephalic hemorrhage is responsible for approximately 10&#x0025; of SAH.</listitem>
+<listitem>Other rare conditions make up approximately 5&#x0025; of SAH and are listed below: <list style="bulleted">
+<listitem>Inflammatory lesions of cerebral arteries: mycotic aneurysm, borreliosis, Behcet's disease, primary angiitis, polyarteritis nodosa, Churg-Strauss syndrome, Wegener's granulomatosis.</listitem>
+<listitem>Non vascular lesions of intracerebral vessels: arterial dissection, cerebral arteriovenous malformations, fusiform aneurysm, cerebral dural arteriovenous fistulae, intracerebral cavernous angioma, cerebral venous thrombosis, cerebral amyloid angiopathy, Moyamoya disease.</listitem>
+<listitem>Vascular lesions of the spinal cord: saccular aneurysm of spinal artery, spinal arteriovenous fistula or malformation, cavernous angioma at spinal level.</listitem>
+<listitem>Tumors: pituitary apoplexy, cerebral metastases of cardiac myxoma, malignant glioma, acoustic neuroma, angiolipoma, Schwannoma of cranial nerve, cervical meningiomas, cervical spinal cord hemangioblastoma, spinal meningeal carcinomatosis, melanoma of the cauda equine.</listitem>
+<listitem>Drugs: cocaine abuse, anticoagulants.</listitem>
+<listitem>Other: sickle cell disease, coagulopathies, and patients without identifiable cause.</listitem>
+</list></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The main cause of SAH is the rupture of an intracranial aneurysm. Intracranial aneurisms are not congenital, as was once believed, but develop in the course of life.</listitem>
+<listitem>SAH occurs when the site of hemorrhage is in the subarachnoid space surrounding the brain.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>First degree relative with SAH</Risk_Name>
+<Risk_OR>6.6 (2.0-21.0)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension</Risk_Name>
+<Risk_OR>2.8 (2.1-3.6)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Excessive use of alcohol</Risk_Name>
+<Risk_OR>4.7 (2.1-10.5)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cigarette smoking</Risk_Name>
+<Risk_OR>1.9 (1.5-2.3)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Heritable connective-tissue disorders</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>- Polycystic kidney disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>- Ehlers-Danlos syndrome (type IV)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>- Pseudoxanthoma elasticum</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>- fibromuscular dysplasia</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screen individuals for aneurysm with two or more affected first-degree relatives, identical twins if SAH has occurred in one of the pair, and patients with autosomal dominant polycystic kidney disease (13&#x0025; prevalence);<xref ref="pubmed39951701" resource="acc047" /> begin at age 20 and screen approximately every 5 years.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed14605323" resource="acc023" /><xref ref="poem120621" resource="acc029" />The yield of long term screening has been supported by longitudinal studies.<xref ref="pubmed24618352" resource="acc033" /></listitem>
+<listitem>Among persons with autosomal dominant polycystic kidney disease, risk is higher in women, those with a family histor of SAH or aneurysm, and those with moderate or severe chronic kidney disease.<xref ref="pubmed39951701" resource="acc047" /></listitem>
+<listitem>Female smokers age 50 to 60 years had a 10&#x0025; rate of undetected intracranial aneurysm in a Finnish series of 108 women. Most (8&#x002F;11) were &lt; 5 mm.<xref ref="pubmed40464058" resource="acc048" /></listitem>
+<listitem>Individuals with a single affected first-degree relative have a 5 to 12 times greater lifetime risk of SAH than the general population.<xref ref="pubmed15817512" resource="acc022" /> However, the chance of findings an aneurysm by screening in an individual with a single affected relative is only 1.7 times higher than in the general population.<xref ref="pubmed10496256" resource="acc021" /> In individuals with only a single affected first-degree relative, screening is not efficient or effective (NNT&#x00A0;&#x003D; 300).<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10536126" resource="acc020" /></listitem>
+<listitem>Although patients who have survived a sporadic episode of SAH are at increased risk of a new episode from a new aneurysm or from recurrence of the treated aneurysm, screening of these patients is generally not recommended except in those (especially women) with an initial episode at very young age and multiple aneurysms at time of the initial SAH.<evidence rating="C" system="SORT">C</evidence><xref ref="pubmed17258671" resource="acc019" /></listitem>
+<listitem>Statin use was associated with a lower risk of SAH in a case-control study with 3498 cases and 13,992 matched controls (aOR 0.81).<xref ref="pubmed40625226" resource="acc049" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>All patients with suspected SAH, including those with mild symptoms after an otherwise typical thunderclap onset, should have an emergency CT scan without contrast interpreted by an expert.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed9336494" resource="acc018" /><xref ref="poem120621" resource="acc029" /></listitem>
+<listitem>If CT scanning is considered normal (uncommon in the first 24 hours after aneurysm rupture), lumbar puncture for cerebrospinal fluid analysis must be performed.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed17258671" resource="acc019" /></listitem>
+<listitem>Digital subtraction cerebral angiography has been the gold standard for the detection of cerebral aneurysm, but CT angiography has gained popularity and is frequently used owing to its noninvasiveness and a sensitivity and specificity comparable to that of cerebral angiography.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed14699177" resource="acc017" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Intracerebral hemorrhage</Differential_Name>
+<Differential_Features>Difficult to distinguish stroke subtypes without imaging</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Extradural or subdural hemorrhage</Differential_Name>
+<Differential_Features>Distinguished from SAH by brain imaging</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Ischemic stroke</Differential_Name>
+<Differential_Features>Difficult to distinguish stroke subtypes without brain imaging</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Intracranial tumor</Differential_Name>
+<Differential_Features>Focal symptoms develop over days</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hypoglycemia</Differential_Name>
+<Differential_Features>Almost always in diabetic patients taking hypoglycemic medications</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Primary headaches</Differential_Name>
+<Differential_Features>CT and MRI usually normal</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Sudden death occurs in 10&#x0025; of patients with spontaneous SAH.</listitem>
+<listitem>Patients typically present with sudden severe headache that is maximal in intensity immediately or within minutes and lasts an hour or more (up to days). Other symptoms include nausea, vomiting, photophobia, and neck stiffness. Loss of consciousness, either transient at onset (around 50&#x0025; of cases) or persisting, is common.<xref ref="pubmed11113219" resource="acc016" /> Seizures occur in 1 of every 14 patients.<xref ref="pubmed11087774" resource="acc015" /></listitem>
+<listitem>A systematic review found that the typical symptoms and signs of SAH had low accuracy for the diagnosis, with neck pain and stiffness and the most helpful clinical findings.<xref ref="poem181123" resource="acc034" /></listitem>
+<listitem>Focal neurological symptoms such as dysphasia, hemisensory, or motor symptoms may occur at the same time as the headache or soon afterward in one-third of patients.<xref ref="pubmed10548655" resource="acc014" /></listitem>
+<listitem>Complication of aneurysmal SAH include rebleeding, immediate or delayed cerebral ischemia, hydrocephalus, and seizures.</listitem>
+<listitem>Misdiagnosis in the emergency department can occur in up to 9&#x0025; of patients presenting with acute cerebrovascular illness, and more likely in the setting of mild, non-specific, or transient symptoms.<xref ref="pubmed28356464" resource="acc035" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><xref ref="test286" resource="acc003">Emergent brain CT scan without contrast</xref> is the first investigation if SAH is suspected. CT scan is normal in most patients with sudden headache, but to exclude SAH, a carefully planned lumbar puncture is also needed.<xref ref="pubmed7897421" resource="acc013" /> Even with a normal neurologic exam, headache syndromes concerning for SAH should be evaluated first with a brain CT scan prior to proceeding with lumbar puncture.<xref ref="poem120621" resource="acc029" /></listitem>
+<listitem>Patients with SAH proved by imaging or lumbar puncture should have invasive arteriography.<xref ref="pubmed9933266" resource="acc012" /><xref ref="poem120621" resource="acc029" /> This serves not only to identify one or more aneurysms as potential causes in a patient with SAH but also to study the anatomical configuration of the aneurysm in relation to adjoining arteries, which allows optimum selection of treatment (coiling or clipping).</listitem>
+<listitem><xref ref="test286" resource="acc003">MR angiography and CT angiography</xref> are accurate for patients with suspected aneurysm; <xref ref="test286" resource="acc003">transcranial Doppler ultrasound</xref> is less accurate.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <xref ref="rule285" resource="acc002">validated clinical decision rule</xref> can predict the likelihood of major bleeding complications, including SAH, in patients taking warfarin.</listitem>
+<listitem>The <resourceLink href="https://www.essentialevidenceplus.com/Home/Decision_Support_Tools?id=491">Ottawa Headache score</resourceLink> predicts the likelihood of subarachnoid hemorrhage in persons with acute headache. Imaging is recommended if any of the following are present: symptom of neck pain or stiffness, age &gt; 40 years, witnessed loss of consciousness, onset during exertion, thunderclap headache (peak pain instantly), or limited neck flexion upon exam. The rule is 99&#x0025; sensitive but only 27&#x0025; specific.<xref ref="pubmed40605232" resource="acc044" /><xref ref="pubmed29133539" resource="acc043" /></listitem>
+<listitem>The A4C risk score is more accurate than others at predicting bleeding risk in elderly patients taking a DOAC. It has 5 items: increasingn age, decreasing eGFR, hemoglobin &lt; 11 g&#x002F;dl, albumin &lt; 35 g&#x002F;L and amiodarone use.<xref ref="pubmed40455653" resource="acc050" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect SAH in patients presenting with sudden headache.</listitem>
+<listitem>The best initial imaging study is brain CT scan without contrast.<xref ref="poem120621" resource="acc029" /></listitem>
+<listitem>If the initial study is negative but suspicion for SAH persists, lumbar puncture should be performed.</listitem>
+<listitem>If the examination is positive, brain MRI or conventional angiography should be performed and a neurosurgeon urgently consulted.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>307</Dx_ID>
+<Dx_ID>286</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>The International Aneurysm Trial (ISAT) clinical trial found that at 1 year in patients treated with coiling there was an absolute risk reduction of 7.4&#x0025; (NNT &#x003D; 14) for the combined outcome death or dependency in comparison to patients treated with clipping.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed12414200" resource="acc011" /></listitem>
+<listitem>Oral nimodipine 60 mg every 4 hours for 3 weeks reduces risk of poor outcome and delayed cerebral ischemia (NNT &#x003D; 20).<evidence rating="B" system="SORT">B</evidence><xref ref="cochrane277" resource="acc028" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Fluid management has been used to prevent hypovolemia and sodium depletion (with administration of 3 liters IV 0.9&#x0025; saline daily), since a reduction in plasma volume may contribute to the development of cerebral ischemia. However, a recent Cochrane review concluded from several small studies that there is no sound evidence for the use of volume expansion in patients with a SAH from an aneurysm.<xref ref="cochrane483" resource="acc010" /></listitem>
+<listitem>IV fluid therapy with colloids or blood transfusions have been associated with an increased rates of unfavorable outcomes at discharge and at 6 months.<xref ref="pubmed18348023" resource="acc009" /></listitem>
+<listitem>A trial randomized 742 adults with acute aneurysmal SAH and anemia to a liberal strategy ( mandatory transfusion at hemoglobin &lt;&#x003D; 10 g&#x002F;dl or a restrictive strategy (optional transfusion at &lt;&#x003D; 8 g&#x002F;dl). A more liberal strategy did not reduce the risk of unfavorable one year outcomes.<xref ref="pubmed39655786" resource="acc046" /></listitem>
+<listitem>A study randomized 108 patients with aneurysmal SAH to usual care or goal directed hemodynamic therapy. The likelihood of delayed cerebral ischemia was lower in the goal-directed group (13&#x0025; vs 32&#x0025;, p &#x003D; 0.02) and a better functional outcome at 3 months. The goal directed therapy included advanced hemodynamic monitoring including transpulmonary thermodilution was performed to direct the volume therapy and followed an algorithm to guide use of fluids, norepinephrine, and dobutamine.<xref ref="pubmed32833606" resource="acc038" /></listitem>
+<listitem>A recent Cochrane review concluded that antifibrinolytic therapy (tranexamic acid, epsioln amino-caproic acid, or equivalent) did not reduce the risk of death, vegetative state, or severe disability.<xref ref="cochrane1245" resource="acc027" /></listitem>
+<listitem>The lack of benefit of early tranexamic acid after subarachnoic hemorrhage was confirmed in a well designed and adequately powered randomized trial with 955 Dutch patients.<xref ref="pubmed33357465" resource="acc039" /></listitem>
+<listitem>To prevent secondary central ischemia, oral nimodipine (60 mg every 4 hours for 3 weeks) reduces risk (absolute 5&#x0025;, relative 18&#x0025;) of poor outcome and delayed cerebral ischemia. The NNT to prevent death or dependency is 19 if nimodipine is given within 10 days of hemorrhage.<xref ref="poem494" resource="acc008" /><xref ref="cochrane277" resource="acc028" /></listitem>
+<listitem>A systematic review of four good quality studies comparing antiplatelet agents with placebo found a trend toward better outcomes in patients with aneurysmal SAH.<xref ref="cochrane6184" resource="acc001" /></listitem>
+<listitem>While tirilazad has neuroprotective effects in animal studies, there is no clinical benefit of adding tirilazad to nimodipine therapy in human subjects with SAH.<xref ref="cochrane6778" resource="acc031" /></listitem>
+<listitem>Restarting anticoagulant therapy in patients with intracranial hemorrage was associated in one study with reduced thromboembolic events with similar rates (8&#x0025;-9&#x0025;) of recurrent hemorrhage compared to patients taken off anticoagulation.<xref ref="poem190742" resource="acc036" /></listitem>
+<listitem>A randomized trial with 409 patients with surgically treated aneurysmal SAH compared clazosentan with placebo but found no benefit.<xref ref="pubmed39126720" resource="acc045" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>To prevent rebleeding, aneurysm ablation should be performed: aneurysm ablation timed as early as possible to maximally prevent aneurysm rebleeding is a uniform policy in most centers. ISAT found that at 1 year there was no difference in fatality rate between aneurysm clipping and endovascular coiling, but for combined death and dependent rates there was an absolute risk reduction of 7.4&#x0025; (NNT &#x003D; 14) associated with coiling, which is statistically significant.<xref ref="cochrane3085" resource="acc026" /></listitem>
+<listitem>There is limited evidence to support the timing of aneurysm surgery after SAH. Most surgeons currently operate within 3 to 4 days of presentation to prevent rebleeding.<xref ref="cochrane1697" resource="acc030" /></listitem>
+<listitem>To treat hydrocephalus, external drainage of the cerebrospinal fluid by a catheter inserted through a burr hole should be performed.</listitem>
+<listitem>To treat delayed cerebral ischemia, some centers have experience with the endovascular approach (transluminal angioplasty or direct vasodilators) in the treatment of symptomatic vasospasm after SAH.</listitem>
+<listitem>A recent meta-analysis found that early decompressive craniectomy for intracranial hemorrhage does not seem to significantly reduce mortality when compared to medical therapy.<xref ref="pubmed24662856" resource="acc032" /></listitem>
+<listitem>In patients with intracranial aneurysms previously treated by endovascular coiling, microsurgical treatment of residual or recurrent aneurysms was generally successful. In a series of 883 procedures, complete occlusion was achieved in 97.2&#x0025; and improved or unchanged functional outcomes in 92.3&#x0025;.<xref ref="pubmed40408874" resource="acc040" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Patients with ruptured aneurysm should be immediately transferred to an institution with a comprehensive neurosurgical service.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Rebleeding (without aneurysm occlusion) occurs in 15&#x0025; on day 1, 40&#x0025; by 1 month, and after 6 months at a rate of 3&#x0025; per year.</listitem>
+<listitem>To prevent rebleeding, aneurysm ablation timed as early as possible should be performed and antifibrinolytic drugs could be used (tranexamic acid 1 g IV followed by 1 g every 6 hours until aneurysm repair is carried out as soon as possible).<xref ref="cochrane1245" resource="acc027" /></listitem>
+<listitem>Immediate cerebral ischemia may occur from raised intracranial pressure and hence reduced cerebral perfusion pressure. To prevent secondary cerebral ischemia, oral nimodipine (60 mg every 4 hours for 3 weeks) should be used with fluid management (3 liters IV 0.9&#x0025; saline daily).<xref ref="cochrane277" resource="acc028" /></listitem>
+<listitem>Delayed cerebral ischemia peaks between days 4 and 14 after SAH. To treat delayed cerebral ischemia, hypervolemia, hemodilution, and induced hypertension may be helpful.<xref ref="cochrane483" resource="acc010" /></listitem>
+<listitem>To treat hydrocephalus, external drainage of the cerebrospinal fluid by a catheter inserted through a burr hole should be performed. The benefit of this approach in affecting overall mortality is under investigation.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Monitoring and management of patients with an SAH should take place in an intensive care setting because of the acuity of the condition, frequent elevations in intracranial pressure and blood pressure, frequent need for intubation and assisted ventilation, and multiple complicating medical issues.</listitem>
+<listitem>This post-hoc analysis showed that intensive SBP reduction for patients who present with intracerebral hemorrhage and excessively high SBP (&gt;220 mm Hg) results in a higher rate of neurological deterioration in 24 hours. Despite this, the rate of hematoma expansion within 24 hours and the risk of death or severe disability at 90 days are not affected.<xref ref="poem230128" resource="acc037" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>In patients without a history of SAH, untreated aneurysms &lt;10 mm in diameter have an annual rupture rate of 0.05&#x0025;. The risks of rupture in those 10 to 25 mm (1&#x0025; per year) and &gt;25 mm (6&#x0025; per year) are much higher. The risks of surgery-related death and disability are 3.8&#x0025; and 12&#x0025; at 1 year. Aneurysms in the basilar tip, or in the vertebrobasilar or posterior cerebral circulation, are more likely to rupture (RR &#x003D; 13.6).<xref ref="poem11001" resource="acc006" /><xref ref="poem877" resource="acc007" /></listitem>
+<listitem>A contemporary series identified 661 patients with 767 unruptured intracranial aneurysms who were managed conservatively. The annual rupture rate was 0.6&#x0025;, with 87&#x0025; occurring within 5 years and none after 10 years of follow-up.<xref ref="pubmed40446344" resource="acc042" /></listitem>
+<listitem>In population-based studies the overall case fatality rate was about 50&#x0025;.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9595997" resource="acc005" /></listitem>
+<listitem>In the community, case fatality is 12&#x0025;, and a further 10&#x0025; of those who reach hospital alive die within 24 hours.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed8023347" resource="acc004" /></listitem>
+<listitem>Around one-third of survivors of SAH are dependent, often with cognitive impairment, and two-thirds have a reduced quality of life.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9056628" resource="acc024" /></listitem>
+<listitem>In a series of 1564 patients at a single center with SAH, 21&#x0025; had a poor functional outcome at one year. Predictors of a poor outcome include increasing age, troponin, and S100-beta levels; surgical or coiling complications, hydrocephalus requiring drainage, and incomplete aneurysm occlusion.<xref ref="pubmed40408880" resource="acc041" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="cochrane6184">
+<accessionId id="acc001" href="info:wiley/cochrane/CD006184" />
+<chapter_authors>Pai N, Lawrence J, Reingold AL, Tulsky JP.</chapter_authors>
+<chapter_title>Structured treatment interruptions (STI) in chronic unsuppressed HIV infection in adults (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="rule285">
+<accessionId id="acc002" href="info:wiley/eep-rule/285" />
+<accessionId id="acc002b" href="info:pmid/12719200" />
+<authors>Wells PS, Forgie MA, Simms M, et al.</authors>
+<title>The outpatient bleeding risk index: Validation of a tool for predicting bleeding rates in patients treated for DVT and PE.</title>
+<source>Arch Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>163</volume>
+<pages>917&#x2013;920.</pages>
+</reference>
+<reference id="test286">
+<accessionId id="acc003" href="info:wiley/eep-dx/286" />
+<accessionId id="acc003b" href="info:pmid/11058629" />
+<authors>White P, Wardlaw J, Easton V.</authors>
+<title>Can noninvasive imaging accurately depict intracranial aneurysms? A systematic review.</title>
+<source>Radiology</source>
+<pubdate>2000</pubdate>
+<volume>217</volume>
+<pages>361&#x2013;370.</pages>
+</reference>
+<reference id="pubmed8023347">
+<accessionId id="acc004" href="info:pmid/8023347" />
+<authors>Broderick JP, Brott TG, Duldner JE, Tomsick T, Leach A.</authors>
+<title>Initial and recurrent bleeding are the major causes of death following subarachnoid hemorrhage.</title>
+<source>Stroke</source>
+<pubdate>1994</pubdate>
+<volume>25</volume>
+<pages>1342&#x2013;1347.</pages>
+</reference>
+<reference id="pubmed9595997">
+<accessionId id="acc005" href="info:pmid/9595997" />
+<authors>Johnston SC, Selvin S, Gress DR.</authors>
+<title>The burden, trends, and demographics of mortality from subarachnoid hemorrhage.</title>
+<source>Neurology</source>
+<pubdate>1998</pubdate>
+<volume>50</volume>
+<pages>1413&#x2013;1418.</pages>
+</reference>
+<reference id="poem11001">
+<accessionId id="acc006" href="info:wiley/eep-poem/11001" />
+<accessionId id="acc006b" href="info:pmid/10371527" />
+<authors>Johnston SC, Gress DR, Kahn JG.</authors>
+<title>Which unruptured cerebral aneurysms should be treated? A cost-utility analysis.</title>
+<source>Neurology</source>
+<pubdate>1999</pubdate>
+<volume>52</volume>
+<pages>1806&#x2013;1815.</pages>
+</reference>
+<reference id="poem877">
+<accessionId id="acc007" href="info:wiley/eep-poem/877" />
+<accessionId id="acc007b" href="info:pmid/9867550" />
+<authors />
+<title>Unruptured intracranial aneurysms&#x2014;risk of rupture and risks of surgical intervention. International Study of Unruptured Intracranial Aneurysms Investigators.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>339</volume>
+<pages>1725&#x2013;1733.</pages>
+</reference>
+<reference id="poem494">
+<accessionId id="acc008" href="info:wiley/eep-poem/494" />
+<accessionId id="acc008b" href="info:pmid/9566366" />
+<authors>Feigin VL, Rinkel GJ, Algra A, Vermeulen M, van Gijn J.</authors>
+<title>Calcium antagonists in patients with aneurysmal subarachnoid hemorrhage: A systematic review.</title>
+<source>Neurology</source>
+<pubdate>1998</pubdate>
+<volume>50</volume>
+<pages>876&#x2013;883.</pages>
+</reference>
+<reference id="pubmed18348023">
+<accessionId id="acc009" href="info:pmid/18348023" />
+<authors>Tseng MY, Hutchinson PJ, Kirkpatrick PJ.</authors>
+<title>Effects of fluid therapy following aneurysmal subarachnoid hemorrhage: A prospective clinical study.</title>
+<source>Br J Neurosurg</source>
+<pubdate>2008</pubdate>
+<volume>22</volume>
+<pages>257&#x2013;268.</pages>
+</reference>
+<reference id="cochrane483">
+<accessionId id="acc010" href="info:wiley/cochrane/CD000483" />
+<chapter_authors>Rinkel GJE, Feigin VL, Algra A, Gijn J.</chapter_authors>
+<chapter_title>Circulatory volume expansion therapy for aneurysmal subarachnoid haemorrhage (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed12414200">
+<accessionId id="acc011" href="info:pmid/12414200" />
+<authors>Molyneux A, Kerr R, Stratton I, et al.; International Subarachnoid Aneurysm Trial (ISAT) Collaborative Group.</authors>
+<title>International Subarachnoid Aneurysm Trial (ISAT) of neurosurgical clipping versus endovascular coiling in 2143 patients with ruptured intracranial aneurysms: A randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2002</pubdate>
+<volume>360</volume>
+<pages>1267&#x2013;1274.</pages>
+</reference>
+<reference id="pubmed9933266">
+<accessionId id="acc012" href="info:pmid/9933266" />
+<authors>Cloft HJ, Joseph GJ, Dion JE.</authors>
+<title>Risk of cerebral angiography in patients with subarachnoid hemorrhage, cerebral aneurysm, and arteriovenous malformation: A meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>1999</pubdate>
+<volume>30</volume>
+<pages>317&#x2013;320.</pages>
+</reference>
+<reference id="pubmed7897421">
+<accessionId id="acc013" href="info:pmid/7897421" />
+<authors>van der Wee N, Rinkel GJ, Hasan D, van Gijn J.</authors>
+<title>Detection of subarachnoid hemorrhage on early CT: Is lumbar puncture still needed after a negative scan?</title>
+<source>J Neurol Neurosurg Psychiatry</source>
+<pubdate>1995</pubdate>
+<volume>58</volume>
+<pages>357&#x2013;359.</pages>
+</reference>
+<reference id="pubmed10548655">
+<accessionId id="acc014" href="info:pmid/10548655" />
+<authors>Hop JW, Rinkel GJ, Algra A, van Gijn J.</authors>
+<title>Initial loss of consciousness and risk of delayed cerebral ischemia after aneurysmal subarachnoid hemorrhage.</title>
+<source>Stroke</source>
+<pubdate>1999</pubdate>
+<volume>30</volume>
+<pages>2268&#x2013;2271.</pages>
+</reference>
+<reference id="pubmed11087774">
+<accessionId id="acc015" href="info:pmid/11087774" />
+<authors>Butzkueven H, Evans AH, Pitman A, et al.</authors>
+<title>Onset seizures independently predict poor outcome after subarachnoid hemorrhage.</title>
+<source>Neurology</source>
+<pubdate>2000</pubdate>
+<volume>55</volume>
+<pages>1315&#x2013;1320.</pages>
+</reference>
+<reference id="pubmed11113219">
+<accessionId id="acc016" href="info:pmid/11113219" />
+<authors>Brilstra EH, Rinkel GJ, Algra A, van Gijn J.</authors>
+<title>Rebleeding, secondary ischemia, and timing of operation in patients with subarachnoid hemorrhage.</title>
+<source>Neurology</source>
+<pubdate>2000</pubdate>
+<volume>55</volume>
+<pages>1656&#x2013;1660.</pages>
+</reference>
+<reference id="pubmed14699177">
+<accessionId id="acc017" href="info:pmid/14699177" />
+<authors>Jayaraman MV, Mayo-Smith WW, Tung GA, et al.</authors>
+<title>Detection of intracranial aneurysms: Multi-detector row CT angiography compared with DSA.</title>
+<source>Radiology</source>
+<pubdate>2004</pubdate>
+<volume>230</volume>
+<pages>510&#x2013;518.</pages>
+</reference>
+<reference id="pubmed9336494">
+<accessionId id="acc018" href="info:pmid/9336494" />
+<authors>Latchaw RE, Silva P, Falcone SF.</authors>
+<title>The role of CT following aneurysmal rupture.</title>
+<source>Neuroimaging Clin N Am</source>
+<pubdate>1997</pubdate>
+<volume>7</volume>
+<pages>693&#x2013;708.</pages>
+</reference>
+<reference id="pubmed17258671">
+<accessionId id="acc019" href="info:pmid/17258671" />
+<authors>van Gijn J, Kerr RS, Rinkel GJ.</authors>
+<title>Subarachnoid haemorrhage.</title>
+<source>Lancet</source>
+<pubdate>2007</pubdate>
+<volume>369</volume>
+<pages>306&#x2013;318.</pages>
+</reference>
+<reference id="pubmed10536126">
+<accessionId id="acc020" href="info:pmid/10536126" />
+<authors>Magnetic Resonance Angiography in Relatives of Patients with Subarachnoid Hemorrhage Study Group.</authors>
+<title>Risks and benefits of screening for intracranial aneurysms in first-degree relatives of patients with sporadic subarachnoid hemorrhage.</title>
+<source>N Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>341</volume>
+<pages>1344&#x2013;1350.</pages>
+</reference>
+<reference id="pubmed10496256">
+<accessionId id="acc021" href="info:pmid/10496256" />
+<authors>Raaymakers TW.</authors>
+<title>Aneurysms in relatives of patients with subarachnoid hemorrhage: frequency and risk factors. MARS Study Group. Magnetic Resonance Angiography in Relatives of patients with Subarachnoid hemorrhage.</title>
+<source>Neurology</source>
+<pubdate>1999</pubdate>
+<volume>53</volume>
+<pages>982&#x2013;988.</pages>
+</reference>
+<reference id="pubmed15817512">
+<accessionId id="acc022" href="info:pmid/15817512" />
+<authors>Teasdale GM, Wardlaw JM, White PM, et al.; Davie Cooper Scottish Aneurysm Study Group.</authors>
+<title>The familial risk of subarachnoid haemorrhage.</title>
+<source>Brain</source>
+<pubdate>2005</pubdate>
+<volume>128</volume>
+<pages>1677&#x2013;1685.</pages>
+</reference>
+<reference id="pubmed14605323">
+<accessionId id="acc023" href="info:pmid/14605323" />
+<authors>Wermer MJ, Rinkel GJ, van Gijn J.</authors>
+<title>Repeated screening for intracranial aneurysms in familial subarachnoid hemorrhage.</title>
+<source>Stroke</source>
+<pubdate>2003</pubdate>
+<volume>34</volume>
+<pages>2788&#x2013;2791.</pages>
+</reference>
+<reference id="pubmed9056628">
+<accessionId id="acc024" href="info:pmid/9056628" />
+<authors>Hop JW, Rinkel GJ, Algra A, van Gijn J.</authors>
+<title>Case-fatality rates and functional outcome after subarachnoid hemorrhage: A systematic review.</title>
+<source>Stroke</source>
+<pubdate>1997</pubdate>
+<volume>28</volume>
+<pages>660&#x2013;664.</pages>
+</reference>
+<reference id="pubmed8614919">
+<accessionId id="acc025" href="info:pmid/8614919" />
+<authors>Linn FH, Rinkel GJ, Algra A, van Gijn J.</authors>
+<title>Incidence of subarachnoid hemorrhage: Role of region, year, and rate of computed tomography: a meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>1996</pubdate>
+<volume>27</volume>
+<pages>625&#x2013;629.</pages>
+</reference>
+<reference id="cochrane3085">
+<accessionId id="acc026" href="info:wiley/cochrane/CD003085" />
+<chapter_authors>Schaaf I, Algra A, Wermer M, Molyneux A, Clarke M, Gijn J, Rinkel G.</chapter_authors>
+<chapter_title>Endovascular coiling versus neurosurgical clipping for patients with aneurysmal subarachnoid hemorrhage (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1245">
+<accessionId id="acc027" href="info:wiley/cochrane/CD001245" />
+<chapter_authors>Roos YBWEM, Rinkel GJE, Vermeulen M, Algra A, Gijn J.</chapter_authors>
+<chapter_title>Antifibrinolytic therapy for aneurysmal subarachnoid haemorrhage (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane277">
+<accessionId id="acc028" href="info:wiley/cochrane/CD000277" />
+<chapter_authors>Rinkel GJE, Feigin VL, Algra A, Bergh WM, Vermeulen M, Gijn J.</chapter_authors>
+<chapter_title>Calcium antagonists for aneurysmal subarachnoid haemorrhage (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem120621">
+<accessionId id="acc029" href="info:wiley/eep-poem/120621" />
+<accessionId id="acc029b" href="info:pmid/20370782" />
+<authors>Baraff LJ, Byyny RL, Probst MA, Salamon N, Linetsky M, Mower WR.</authors>
+<title>Prevalence of herniation and intracranial shift on cranial tomography in patients with subarachnoid hemorrhage and a normal neurologic examination.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2010</pubdate>
+<volume>17</volume>
+<pages>423&#x2013;428.</pages>
+</reference>
+<reference id="cochrane1697">
+<accessionId id="acc030" href="info:wiley/cochrane/CD001697" />
+<chapter_authors>Whitfield PC, Kirkpatrick P.</chapter_authors>
+<chapter_title>Timing of surgery for aneurysmal subarachnoid haemorrhage (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 10.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6778">
+<accessionId id="acc031" href="info:wiley/cochrane/CD006778" />
+<chapter_authors>Zhang S, Wang L, Liu M, Wu B.</chapter_authors>
+<chapter_title>Tirilazad for aneurysmal subarachnoid haemorrhage (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24662856">
+<accessionId id="acc032" href="info:pmid/24662856" />
+<authors>Nirula R, Millar D, Greene T, McFadden M, Shah L, Scalea TM, Stein DM, Magnotti LJ, Jurkovich GJ, Vercruysse G, Demetriades D, Scherer LA, Peitzman A, Sperry J, Beauchamp K, Bell S, Feiz-Erfan I, O'Neill P, Coimbra R.</authors>
+<title>Decompressive craniectomy or medical management for refractory intracranial hypertension: An AAST-MIT propensity score analysis.</title>
+<source>J Trauma Acute Care Surg</source>
+<pubdate>2014</pubdate>
+<volume>76</volume>
+<pages>944&#x2013;952.</pages>
+</reference>
+<reference id="pubmed24618352">
+<accessionId id="acc033" href="info:pmid/24618352" />
+<authors>Bor AS, Rinkel GJ, van Norden J, Wermer MJ.</authors>
+<title>Long-term, serial screening for intracranial aneurysms in individuals with a family history of aneurysmal subarachnoid haemorrhage: A cohort study.</title>
+<source>Lancet Neurol</source>
+<pubdate>2014</pubdate>
+<volume>13</volume>
+<pages>385&#x2013;392.</pages>
+</reference>
+<reference id="poem181123">
+<accessionId id="acc034" href="info:wiley/eep-poem/181123" />
+<accessionId id="acc034b" href="info:pmid/27306497" />
+<authors>Carpenter CR, Hussain AM, Ward MJ, Zipfel GJ, Fowler S, Pines JM, Sivilotti ML.</authors>
+<title>Spontaneous subarachnoid hemorrhage: A systematic review and meta-analysis describing the diagnostic accuracy of history, physical examination, imaging, and lumbar puncture with an exploration of test thresholds.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>23</volume>
+<pages>963&#x2013;1003.</pages>
+</reference>
+<reference id="pubmed28356464">
+<accessionId id="acc035" href="info:pmid/28356464" />
+<authors>Tarnutzer AA, Lee SH, Robinson KA, Wang Z, Edlow JA, Newman-Toker DE.</authors>
+<title>ED misdiagnosis of cerebrovascular events in the era of modern neuroimaging: A meta-analysis.</title>
+<source>Neurology</source>
+<pubdate>2017</pubdate>
+<volume>88</volume>
+<pages>1468&#x2013;1477.</pages>
+</reference>
+<reference id="poem190742">
+<accessionId id="acc036" href="info:wiley/eep-poem/190742" />
+<accessionId id="acc036b" href="info:pmid/28416626" />
+<authors>Murthy SB, Gupta A, Merkler AE, Navi BB, Mandava P, Iadecola C, Sheth KN, Hanley DF, Ziai WC, Kamel H.</authors>
+<title>Restarting anticoagulant therapy after intracranial hemorrhage: A systematic review and meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>2017</pubdate>
+<volume>48</volume>
+<pages>1594&#x2013;1600.</pages>
+</reference>
+<reference id="poem230128">
+<accessionId id="acc037" href="info:wiley/eep-poem/230128" />
+<accessionId id="acc037b" href="info:pmid/32897310" />
+<authors>Qureshi AI, Huang W, Lobanova I, Barsan WG, Hanley DF, Hsu CY, Lin CL, Silbergleit R, Steiner T, Suarez JI, Toyoda K, Yamamoto H, for ATACH-II trial investigators.</authors>
+<title>Outcomes of intensive systolic blood pressure reduction in patients with intracerebral hemorrhage and excessively high initial systolic blood pressure: Post hoc analysis of a randomized clinical trial.</title>
+<source>JAMA Neurol</source>
+<pubdate>2020</pubdate>
+<volume>77</volume>
+<pages>1355&#x2013;1365.</pages>
+</reference>
+<reference id="pubmed32833606">
+<accessionId id="acc038" href="info:pmid/32833606" />
+<authors />
+<title>Correction to: Impact of Goal-Directed Therapy on Delayed Ischemia After Aneurysmal Subarachnoid Hemorrhage: Randomized Controlled Trial.</title>
+<source>Stroke</source>
+<pubdate>2020</pubdate>
+<volume>51</volume>
+<pages>e272.</pages>
+</reference>
+<reference id="pubmed33357465">
+<accessionId id="acc039" href="info:pmid/33357465" />
+<authors>Post R, Germans MR, Tjerkstra MA, Vergouwen MDI, Jellema K, Koot RW, Kruyt ND, Willems PWA, Wolfs JFC, de Beer FC, Kieft H, Nanda D, van der Pol B, Roks G, de Beer F, Halkes PHA, Reichman LJA, Brouwers PJAM, van den Berg-Vos RM, Kwa VIH, van der Ree TC, Bronner I, van de Vlekkert J, Bienfait HP, Boogaarts HD, Klijn CJM, van den Berg R, Coert BA, Horn J, Majoie CBLM, Rinkel GJE, Roos YBWEM, Vandertop WP, Verbaan D, ULTRA Investigators.</authors>
+<title>Ultra-early tranexamic acid after subarachnoid haemorrhage (ULTRA): A randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2021</pubdate>
+<volume>397</volume>
+<pages>112&#x2013;118.</pages>
+</reference>
+<reference id="pubmed40408874">
+<accessionId id="acc040" href="info:pmid/40408874" />
+<authors>Lee KS, Wroe-Wright O, Zhang JJY, Kailaya-Vasan A, Kirollos R, Han J, Jabbour P, Lawton MT.</authors>
+<title>Microsurgical management of 883 previously coiled intracranial aneurysms: a systematic review, meta-analysis, and meta-regression of its effectiveness and safety.</title>
+<source>J Neurosurg</source>
+<pubdate>2025</pubdate>
+<volume>143</volume>
+<pages>654&#x2013;667.</pages>
+</reference>
+<reference id="pubmed40408880">
+<accessionId id="acc041" href="info:pmid/40408880" />
+<authors>Renaudier M, Degos V, Pisanu G, Granger B, Abdennour L, Tabillon C, Hijazi D, Boch AL, Mathon B, Claren&#x00E7;on F, Shotar E, Puybasset L, Bernard R, Jacquens A.</authors>
+<title>Predicting patients with poor functional outcome after spontaneous aneurysmal subarachnoid hemorrhage: the predicting subarachnoid hemorrhage long-term outcome score.</title>
+<source>J Neurosurg</source>
+<pubdate>2025</pubdate>
+<volume>143</volume>
+<pages>615&#x2013;623.</pages>
+</reference>
+<reference id="pubmed40446344">
+<accessionId id="acc042" href="info:pmid/40446344" />
+<authors>Dodier P, Lederer P, Ecker B, Dogan M, Strasser E, Cho A, Hirschmann D, Wang WT, Dorfer C, Haider L, Hosmann A, Gruber A, Bavinzski G, R&#x00F6;ssler K, Frischer JM.</authors>
+<title>Conservative management of 661 patients with unruptured intracranial aneurysms: an observational study over 4 decades.</title>
+<source>J Neurosurg</source>
+<pubdate>2025</pubdate>
+<volume>143</volume>
+<pages>641&#x2013;653.</pages>
+</reference>
+<reference id="pubmed29133539">
+<accessionId id="acc043" href="info:pmid/29133539" />
+<authors>Perry JJ, Sivilotti MLA, Sutherland J, Hohl CM, &#x00C9;mond M, Calder LA, Vaillancourt C, Thirganasambandamoorthy V, Lesiuk H, Wells GA, Stiell IG.</authors>
+<title>Validation of the Ottawa Subarachnoid Hemorrhage Rule in patients with acute headache.</title>
+<source>CMAJ</source>
+<pubdate>2017</pubdate>
+<volume>189</volume>
+<pages>E1379&#x2013;E1385.</pages>
+</reference>
+<reference id="pubmed40605232">
+<accessionId id="acc044" href="info:pmid/40605232" />
+<authors>Roostaei M, Saniee N, Ahmadi SAY, Rezai M, Tehrani-Banihashemi A, Baradaran HR, Barzkar F.</authors>
+<title>Diagnostic Accuracy and Application of Subarachnoid Hemorrhage Decision Rules Among Patients With Non-Traumatic Acute Headache: A Systematic Review and Meta-Analysis.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2025</pubdate>
+<volume>32</volume>
+<pages>1111&#x2013;1121.</pages>
+</reference>
+<reference id="pubmed39126720">
+<accessionId id="acc045" href="info:pmid/39126720" />
+<authors>Mayer SA, Bruder N, Citerio G, Defreyne L, Dubois C, Gupta R, Higashida R, Marr A, Nguyen TN, Roux S, Smr&#x010D;ka M, Torn&#x00E9; RT, Aldrich EF, on behalf of the REACT investigators.</authors>
+<title>REACT: a randomized trial to assess the efficacy and safety of clazosentan for preventing clinical deterioration due to delayed cerebral ischemia after aneurysmal subarachnoid hemorrhage.</title>
+<source>J Neurosurg</source>
+<pubdate>2025</pubdate>
+<volume>142</volume>
+<pages>98&#x2013;109.</pages>
+</reference>
+<reference id="pubmed39655786">
+<accessionId id="acc046" href="info:pmid/39655786" />
+<authors>English SW, Delaney A, Fergusson DA, Chass&#x00E9; M, Turgeon AF, Lauzier F, Tuttle A, Sadan O, Griesdale DE, Redekop G, Chapman M, Hannouche M, Kramer A, Seppelt I, Udy A, Kutsogiannis DJ, Zarychanski R, D'Aragon F, Boyd JG, Salt G, Bellapart J, Wood G, Cava L, Pickett G, Koffman L, Watpool I, Bass F, Hammond N, Ramsay T, Mallick R, Scales DC, Andersen CR, Fitzgerald E, Talbot P, Dowlatshahi D, Sinclair J, Acker J, Marshall SC, McIntyre L, SAHARA Trial Investigators on behalf of the Canadian Critical Care Trials Group, Canadian Critical Care Trials Group.</authors>
+<title>Liberal or Restrictive Transfusion Strategy in Aneurysmal Subarachnoid Hemorrhage.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>1079&#x2013;1088.</pages>
+</reference>
+<reference id="pubmed39951701">
+<accessionId id="acc047" href="info:pmid/39951701" />
+<authors>Nguyen BA, Halpin B, Olson V, Putzler D, Ghoche M, Pach&#x00F3;n-Londo&#x00F1;o MJ, Turcotte EL, Maroufi SF, Segovia D, Patra DP, Meyer FB, Wang Z, Bendok BR.</authors>
+<title>Risk factors for unruptured intracranial aneurysms in asymptomatic patients with autosomal dominant polycystic kidney disease: who needs screening? A systematic review and meta-analysis.</title>
+<source>J Neurosurg</source>
+<pubdate>2025</pubdate>
+<volume>143</volume>
+<pages>220&#x2013;231.</pages>
+</reference>
+<reference id="pubmed40464058">
+<accessionId id="acc048" href="info:pmid/40464058" />
+<authors>Huhtakangas J, Vasankari V, Numminen J, Niemel&#x00E4; M, Korja M.</authors>
+<title>Targeted Screening of Unruptured Intracranial Aneurysms in Female Smokers: Inconsiderate Overdiagnosis or Chance for Better Health?</title>
+<source>Stroke</source>
+<pubdate>2025</pubdate>
+<volume>56</volume>
+<pages>2167&#x2013;2176.</pages>
+</reference>
+<reference id="pubmed40625226">
+<accessionId id="acc049" href="info:pmid/40625226" />
+<authors>Hagiwara M, Maeda-Minami A, Matano F, Nounaka Y, Murai Y, Morita A, Mano Y.</authors>
+<title>Association Between Statin Use and Risk of Subarachnoid Hemorrhage: A Case-Control Study Using Large-Scale Claims Data.</title>
+<source>Stroke</source>
+<pubdate>2025</pubdate>
+<volume>56</volume>
+<pages>2597&#x2013;2604.</pages>
+</reference>
+<reference id="pubmed40455653">
+<accessionId id="acc050" href="info:pmid/40455653" />
+<authors>Piccoli M, Pisica-Donose G, Hacil A, Orvo&#x00EB;n G, David JP, Charbit J, Roth R, Antakly Y, Boulloche N, Vinsonneau U, Bou&#x00E9;e S, Krolak-Salmon P, Fauchier L, Jouanny P, Sacco G, Bellarbre F, Belmin J, Fran&#x00E7;ois P, Lilamand M, Paillaud E, Boureau AS, Hanon O, Vidal JS.</authors>
+<title>A new bleeding risk score specifically developed for direct oral anticoagulants in a geriatric population.</title>
+<source>Age Ageing</source>
+<pubdate>2025</pubdate>
+<volume>54</volume>
+<pages />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

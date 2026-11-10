@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Adrenal insufficiency</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0120</topic_id>
+<topic_comment />
+<topic_lastupdated>07/24/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Parekha Yedla</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of Alabama Birmingham, Huntsville Campus</author_institution>
+<author_email>yedlap&#x0040;uasomh.uab.edu</author_email>
+<author_phone_office>256 551 4611</author_phone_office>
+<author_phone_home />
+<author_phone_fax>256 551 4619</author_phone_fax>
+<author_street1>301 Governor's Drive</author_street1>
+<author_street2>Suite 389</author_street2>
+<author_city>Huntsville</author_city>
+<author_state>AL</author_state>
+<author_zip>35802</author_zip>
+</author>
+<author primary="no">
+<author_name>Henry C. Barry, MD, MS</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect primary adrenal insufficiency (AI) in a patient with fatigue, hypotension, and hyperpigmentation accompanied by <resourceLink href="info:wiley/eep-eee/146">hyponatremia</resourceLink> and <resourceLink href="info:wiley/eep-eee/134">hyperkalemia.</resourceLink> Also suspect primary adrenal insufficiency in any critically-ill patient. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Secondary AI is most commonly caused by long-term exogenous corticosteroid therapy but is also a potential complication of hypothalamic and pituitary problems. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>A single morning <xref ref="pubmed12899587" resource="acc001">cortisol level</xref> above 300 nmol&#x002F;L effectively rules out AI. See <xref ref="fig001" /> for an overview of the diagnostic approach to the patient with suspected AI. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>For patients with primary AI, the Endocrine Society Clinical Practice Guideline (2016) recommends once-daily fludrocortisone (median, 0.1 mg) and hydrocortisone (15-25 mg&#x002F;d) or cortisone acetate replacement (20-35 mg&#x002F;d) given in two to three daily doses in adults; hydrocortisone &#x223C;8 mg&#x002F;m2&#x002F;d is recommended for children.<xref ref="pubmed26760044" resource="acc040" />
+<evidence rating="C" system="SORT"> C</evidence> Modified&#x002F;dual-release formulations appear to decrease blood pressure and weight. <evidence rating="B" system="SORT"> B</evidence>
+<xref ref="pubmed32621327" resource="acc067" />
+<xref ref="pubmed33513125" resource="acc077" /></listitem>
+<listitem>In patients with sepsis, stress doses of steroids are only indicated if the blood pressure is not responsive to fluids and vasopressor therapy. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Every patient with AI should wear a medical alert bracelet or necklace stating the need for glucocorticoids in case of a medlical emergency. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Adrenal insufficiency (AI) refers to conditions in which the production of adrenal corticosteroids falls below the requirements of the body. Primary adrenal insufficiency is also called Addison's disease.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Primary AI is rare, with an incidence of about five cases per million people per year.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>In patients who have taken corticosteroids for long periods, up to half have secondary AI.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>In a meta-analysis of 177 studies including 44,595 patients taking newly developed immune checkpoint inhibitor drugs (e.g., tremelimumab, durvalumab), the incidence of AI was 0.9&#x0025; (95&#x0025; CI 0.7&#x0025; to 1.1&#x0025;).<xref ref="pubmed37956967" resource="acc091" /></listitem>
+<listitem>Congenital adrenal hyperplasia occurs in 1:10,000 to 1:15,000 live births.<xref ref="pubmed32152914" resource="acc054" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Prevalence of primary AI in the community is approximately 100 cases per 1 million people.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>Prevalence of primary AI among pregnant women, based on a U.S. population-based retrospective study of over 7 million women, is calculated at 5.5&#x002F;100,000 which increased significantly from 5.6 to 9.6&#x002F;100,000 over the 9-year study period.<xref ref="pubmed27981742" resource="acc055" /></listitem>
+<listitem>Prevalence of secondary AI is estimated to be between 150 to 280 per million people.<xref ref="pubmed34610473" resource="acc078" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>In a population-based study of adult hospitalized medical patients with primary or secondary AI compared to matched controls, patients with AI were more likely to be admitted to ICU (primary AI: OR 1.9; 95&#x0025; CI 1.27-2.72; secondary AI: OR 1.5; 95&#x0025; CI 1.35-1.75); had increased length of hospital stay by 1.0 day and 3.3 days, respectively; and higher 30-day and 1-year readmission rates (14.1&#x0025; vs 12.1&#x0025; and 50&#x0025; vs 40.7&#x0025;).<xref ref="pubmed31581127" resource="acc061" /> There was no increase in in-hospital mortality.</listitem>
+<listitem>Co-morbid autoimmune disease occurs in over half of patients with autoimmune AI including Hashimoto's disease, type I diabetes mellitus, hypogonadism and primary ovarian failure.<xref ref="pubmed30562824" resource="acc063" />
+<xref ref="pubmed31256064" resource="acc062" /> In one retrospective cohort study using claims data on 7.4 million patients from 145 acute care hospitals in Japan, comorbidities such as cancer, autoimmune diseases, and renal failure were frequent in patients admitted in adrenal crisis.<xref ref="pubmed28893233" resource="acc064" /></listitem>
+<listitem>In a small Japanese study of 58 patients, those with secondary AI had lower serum levels of adiponectin and high-density lipoprotein-cholesterol; levels increased in a dose-dependent manner when receiving hydrocortisone replacement therapy.<xref ref="pubmed31290981" resource="acc065" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Primary AI is most commonly caused by autoimmune adrenalitis. Other causes include autoimmune polyendocrine syndrome, infections (mostly <resourceLink href="info:wiley/eep-eee/352">tuberculosis</resourceLink> and <resourceLink href="info:wiley/eep-eee/316">HIV</resourceLink>), metastatic tumors, infiltrative diseases (eg, amyloidosis,<resourceLink href="info:wiley/eep-eee/690"> sarcoidosis</resourceLink>), adrenal hemorrhage, bilateral adrenalectomy, adrenomyeloneuropathy, and adrenocorticotrophic hormone (ACTH) resistance syndromes.</listitem>
+<listitem>In one 10-year case series of 115 patients with adrenal hemorrhage, causes included trauma (29&#x0025;), sepsis (15&#x0025;), metastatic disease (12&#x0025;), antiphospholipid antibody syndrome (10&#x0025;) and heparin-induced thrombocytopenia (10&#x0025;).<xref ref="pubmed23389301" resource="acc024" /></listitem>
+<listitem>Genetic causes have also been identified.<xref ref="pubmed31610036" resource="acc056" /></listitem>
+<listitem>
+<strong>Secondary causes</strong></listitem>
+<listitem>Secondary causes include drugs, endocrine disorders (primarily pituitary lesions due to infection [e.g., staphylococcus, syphilis, tuberculosis], infiltration [e.g., lymphoma, sarcoidosis] or mass effect from tumor or hemorrhage), and trauma (including surgical).<xref ref="pubmed34610473" resource="acc078" /></listitem>
+<listitem>
+<strong>
+<em>Drugs</em>
+</strong></listitem>
+<listitem>Secondary AI is most commonly caused by long-term exogenous corticosteroid therapy. In one systematic review, percentages of patients with secondary AI ranged from 4.2&#x0025; for nasal administration (95&#x0025; confidence interval [CI] 0.5-28.9) to 52.2&#x0025; for intra-articular steroid administration (95&#x0025; CI 40.5-63.6).<xref ref="pubmed25844620" resource="acc031" /> As expected, as dose and duration increased, the percentage with subsequent AI increased from 2.4&#x0025; (95&#x0025; CI 0.6-9.3) for low-dose steroids to 21.5&#x0025; (95&#x0025; CI 12.0-35.5) for high-dose steroids and 1.4&#x0025; (95&#x0025; CI 0.3-7.4) for treatment of &lt;28 days to 27.4&#x0025; (95&#x0025; CI 17.7-39.8) for treatment of &#x003E;1 year in patients with asthma. In a cohort of 42 patients with rheumatoid arthritis treated with 5 &#x2009;mg of prednisolone daily for &#x2265;6 months, 48&#x0025; had an insufficient adrenal response to a tetracosactide test.</listitem>
+<listitem>In a series of patients with polymyalgia rheumatica and giant cell arteritis, 11&#x0025; and 30&#x0025;, respectively, had AI.<xref ref="pubmed32031663" resource="acc076" /></listitem>
+<listitem>Patients who have regularly taken steroids for more than several weeks are assumed to have decreased adrenal reserve and are at risk of developing stress-induced AI for up to 1 year.</listitem>
+<listitem>Authors of a Cochrane review found that AI occurs in nearly all children after cessation of glucocorticoid treatment for childhood acute lymphoblastic leukemia.<xref ref="cochrane8727" resource="acc035" /> The majority of children recover within a few weeks, but a small number of children had ongoing AI lasting up to 34 weeks.</listitem>
+<listitem>In a study of 102 adult patients taking chronic opioids who were admitted to a pain rehabilitation center, seven (9&#x0025;) were found to have AI (diagnosed by a screening cortisol &lt;10 mcg&#x002F;dL, ACTH &lt;15 pg&#x002F;mL, and dehydroepiandrosterone sulfate &lt;25 mcg&#x002F;dL and confirmed after endocrine evaluation).<xref ref="pubmed32866966" resource="acc074" /> Of these, six regained normal adrenal function after discontinuing the opioid. No patient taking a daily morphine milligram equivalent of 20 mg&#x002F;day or less developed AI.</listitem>
+<listitem>Checkpoint inhibitors can cause hypophysitis and central AI in about 2.4&#x0025; (95&#x0025; CI 1.7&#x0025; to 3.2&#x0025;) of patients.<xref ref="pubmed31679184" resource="acc057" /> In a case series of consecutive patients with unresectable renal carcinoma treated with nivolumab, 5 of 49 (10.2&#x0025;) developed AI.<xref ref="pubmed31567704" resource="acc058" /> These anticancer agents are monoclonal antibodies that block binding of programmed death (PD)-1 proteins (eg, pembrolizumab, nivolumab, cemiplimab) on T cells or PD-L1 proteins on normal or cancer cells (eg, atezolizumab, avelumab, durvalumab and boost the immune response against cancer cells.</listitem>
+<listitem>Authors of a systematic review of 15 case reports of immune checkpoint inhibitors and AI found that patients treated with PD-1 T cell inhibitor monotherapy appeared to be at higher risk.<xref ref="pubmed33554872" resource="acc079" /> In another systematic review based on 60 cases, isolated ACTH deficiency occurred in 60&#x0025; of those on nivolumab monotherapy and 18.3&#x0025; on pembrolizumab monotherapy at a median of 6 months after initiating treatment.<xref ref="pubmed33761049" resource="acc080" /> In this series, the main symptoms at diagnosis were fatigue (82.8&#x0025;) and anorexia (67.2&#x0025;) with associated laboratory findings of hyponatremia (68&#x0025;) and eosinophilia (31.8&#x0025;).</listitem>
+<listitem>The anesthetic agent etomidate causes secondary AI with a risk ratio of 1.5, 95&#x0025; CI 1.4, 1.7.<xref ref="pubmed32912050" resource="acc081" /></listitem>
+<listitem>
+<strong>
+<em>Endocrine and neurologic</em>
+</strong> disorders</listitem>
+<listitem>Additional secondary causes include hypothalamic and pituitary problems (eg, pituitary microadenoma, Sheehan's syndrome, pituitary irradiation or transsphenoidal adenomectomy, and head trauma).<xref ref="pubmed28877961" resource="acc041" /></listitem>
+<listitem>Among patients with aneurysmal subarachnoid hemorrhage prevalence of hypopituitarism was common with pooled frequencies of 0.31 (95&#x0025; CI 0.22-0.43) at 3 months and 0.25 (95&#x0025; CI 0.16-0.36) at 6 months post event.<xref ref="pubmed26645970" resource="acc042" /> Authors of a systematic review found relative AI in a similar percentage of 49.4&#x0025; of 1507 patients with cirrhosis.<xref ref="pubmed28176190" resource="acc043" /></listitem>
+<listitem>
+<strong>
+<em>Postoperative</em>
+</strong></listitem>
+<listitem>In a case series of patients undergoing unilateral adrenalectomy for primary aldosteronism, 27&#x0025; developed postoperative AI.</listitem>
+<listitem>In a systematic review, the prevalence of postoperative AI was 65.3&#x0025; among 248 patients with subclinical hypercortisolism and 99.7&#x0025; for 377 patients with subclinical hypercortisolism and Cushing&#x2019;s syndrome.<xref ref="pubmed24878052" resource="acc032" /> In a retrospective study of 91 patients with Cushing&#x2019;s syndrome, the probability of recovering adrenal function within 5 years postoperatively was lowest among those with adrenal Cushing&#x2019;s syndrome (39&#x0025;) vs Cushing&#x2019;s disease (58&#x0025;) or ectopic Cushing&#x2019;s syndrome (82&#x0025;) and among younger patients, but was not associated with length and extent of hypercortisolism or postoperative glucocorticoid replacement doses.<xref ref="pubmed25546155" resource="acc033" /></listitem>
+<listitem>Among 109 patients undergoing transsphenoidal adenomectomy for pituitary macroadenomas, of whom 23 had preoperative AI, 10 of 23 had remaining AI at 9-12 months postoperatively, 17&#x002F;86 (19.8&#x0025;) developed AI that persisted at 6 weeks and 11 (12.7&#x0025;) continued to have AI at 9-12 months post-operatively.<xref ref="pubmed31225871" resource="acc059" /></listitem>
+<listitem>
+<strong>
+<em>Bleeding and cardiogenic shock</em>
+</strong></listitem>
+<listitem>In a case series of patients with acute traumatic hemorrhagic shock seen in a single trauma center, 17&#x0025; had hyperacute AI, defined as a serum cortisol level &lt;10 ng&#x002F;dL.<xref ref="pubmed23354226" resource="acc025" /> Lower cortisol levels were associated with higher mortality.</listitem>
+<listitem>In a case series of 143 patients with cirrhosis and gastroesophageal variceal bleeding, critical illness-related corticosteroid insufficiency occurred in 29.9&#x0025; of patients and was associated with higher rates of treatment failure and 6-week mortality.<xref ref="pubmed25083978" resource="acc034" /> In another case series of 75 patients with decompensated cirrhosis but no sepsis, with over half exhibiting GI bleeding and hepatic encephalopathy, 60&#x0025; had relative AI (delta cortisol level &#x2264;9 &#x03BC;g&#x002F;dl after cosyntropin stimulation test).<xref ref="pubmed31808452" resource="acc060" /></listitem>
+<listitem>Among patients surviving cardiogenic shock, AI prevalence was 32&#x0025; (95&#x0025; CI 21&#x0025;-45&#x0025;), although study heterogeneity was high.<xref ref="pubmed34628137" resource="acc082" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Primary AI (Addison's disease) is caused by the failure of the adrenal gland to produce cortisol and mineralocorticoids because of atrophy, infection, or infiltration of the adrenal gland. Usually only the adrenal cortex is involved, but sometimes the adrenal medulla is also affected.</listitem>
+<listitem>Secondary AI occurs when the hypothalamus-pituitary-adrenal (HPA) axis fails to produce enough ACTH to stimulate adrenal activity. In secondary AI, mineralocorticoid secretion is preserved.</listitem>
+<listitem>The pathophysiology of critical illness-related corticosteroid insufficiency is due to dysregulation of the HPA axis, altered cortisol metabolism with reduced plasma clearance, and tissue resistance to glucocorticoids.<xref ref="pubmed28938251" resource="acc044" /></listitem>
+<listitem>In either primary or secondary AI, the inability to produce adequate amounts of cortisol impairs the adrenal medulla's ability to produce epinephrine under stress, impairs carbohydrate and protein metabolism, and impairs regulation of the immune system.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Family history (autoimmune adrenalitis)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Prolonged corticosteroid therapy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Adrenal hemorrhage or infarction</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Infections, sepsis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Drugs (eg, ketoconazole, mitotane, mifepristone)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypothyroidism</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Celiac disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>The 2024 European Society of Endocrinology and Endocrine Society Joint Clinical Guideline on Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency note that it is good practice for patients on long-term glucocorticoid therapy to only be withdrawn from treatment if the underlying disease for which glucocorticoids were prescribed is controlled and glucocorticoids are no longer required.<xref ref="pubmed38724043" resource="acc092" /> In these cases, tapering should be conducted until achieving the physiologic daily dose equivalent of 4-6 mg prednisone. They suggest switching to shorter-acting glucocorticoids (eg, hydrocortisone or prednisone) when long-acting glucocorticoids are no longer needed.</listitem>
+<listitem>Once the physiologic daily dose equivalent is reached, they recommend a morning serum cortisol as the first test if confirmation of recovery of the HPA axis is desired. If cortisol is &#x003E;300 nmol&#x002F;L or 10 &#x03BC;g&#x002F;dL and glucocorticoids can be stopped safely, the HPA axis has recovered, but if the result is &lt;150 nmol&#x002F;L or 5 &#x03BC;g&#x002F;dL, the physiologic glucocorticoid dose should be continued and the morning cortisol repeated after a few months.<xref ref="pubmed38724043" resource="acc092" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>With administration of COVID-19 vaccinations, the Pituitary Society suggests maintaining the current glucocorticoid dose in patients with AI.<xref ref="pubmed33564969" resource="acc083" /> The vast majority of respondents to their survey planned to increase glucocorticoid dose in case of fever, and just under half in case of arthralgias and myalgias.</listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect primary AI in a patient with fatigue, hypotension, and hyperpigmentation accompanied by <resourceLink href="info:wiley/eep-eee/146">hyponatremia</resourceLink> and <resourceLink href="info:wiley/eep-eee/134">hyperkalemia,</resourceLink> as well as in any critically-ill patient. See <xref ref="fig001" /> for an approach to the patient with suspected AI, and <xref ref="fig002" /> for an approach to identifying an underlying cause in patients with primary AI.<evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>A single morning cortisol level above 300 nmol&#x002F;L effectively rules out AI.<xref ref="pubmed12636203" resource="acc010" /></listitem>
+<listitem>The cosyntropin test is more sensitive for diagnosing primary AI than for diagnosing secondary AI.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>An elevated morning plasma ACTH level helps distinguish primary AI from secondary AI.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>Serum free cortisol measurement is the most reliable assessment of cortisol function in critically ill and hypoproteinemic patients.<xref ref="pubmed15084695" resource="acc012" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Syndrome of inappropriate antidiuretic hormone secretion</Differential_Name>
+<Differential_Features>&#x00A0;&#x00A0;Hyponatremia and high urine osmolality; nausea&#x002F;vomiting, cramping</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Gastroenteritis</Differential_Name>
+<Differential_Features>Sick exposures, normal cortisol</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Orthostatic hypotension</Differential_Name>
+<Differential_Features>Normal cortisol</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Porphyria</Differential_Name>
+<Differential_Features>Elevated urine porphyrobilinogen</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Heavy metal ingestion</Differential_Name>
+<Differential_Features>Elevated heavy metal levels</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Anorexia nervosa</Differential_Name>
+<Differential_Features>History of disordered eating, distorted body image</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Depression</Differential_Name>
+<Differential_Features>Normal cortisol</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chronic fatigue syndrome</Differential_Name>
+<Differential_Features>Normal laboratory results</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect primary AI in a patient with fatigue, hypotension, and hyperpigmentation accompanied by <resourceLink href="info:wiley/eep-eee/146">hyponatremia</resourceLink> and <resourceLink href="info:wiley/eep-eee/134">hyperkalemia.</resourceLink></listitem>
+<listitem>Suspect secondary AI in a patient with fatigue, weight gain, and a recent history of corticosteroid use. Nonspecific symptoms like fatigue, lack of energy, and loss of strength are common in both primary and secondary AI.</listitem>
+<listitem>The Endocrine Society Clinical Practice Guideline recommends maintaining a low threshold for diagnostic testing in acutely-ill patients, in patients with predisposing factors, and for pregnant women with unexplained persistent nausea, fatigue, and hypotension.<xref ref="pubmed26760044" resource="acc040" /></listitem>
+<listitem>Suspect acute adrenal crisis in patients with severe hypotension, fever, abdominal pain, and delirium.</listitem>
+<listitem>Based on data from the European Adrenal Insufficiency Registry, the 148 of 2694 patients (5.5&#x0025;) who experienced one or more episodes of adrenal crisis had more infectious intercurrent illnesses and infectious serious adverse events, higher baseline serum potassium and lower serum sodium than those who had no crises.<xref ref="pubmed33769953" resource="acc084" /> There were no differences based on weight, blood pressure or presence of diabetes or hypertension.</listitem>
+<listitem>In a retrospective study comparing 66 patients with confirmed Addison's disease and 76 patients with normal adrenal function, there was no difference in the frequency of weakness, weight loss, GI symptoms, hyperpigmentation, or hypotension.<xref ref="pubmed11361265" resource="acc003" /> In another retrospective study of 50 patients with confirmed AI, approximately 86&#x0025; presented with hyperpigmentation, 67&#x0025; had lost weight, 20&#x0025; had abdominal pain, and 16&#x0025; had diarrhea.<xref ref="pubmed10341864" resource="acc011" /></listitem>
+<listitem>In patients with primary AI, salt craving is a common complaint.</listitem>
+<listitem>In a Swedish population study, patients with Addison's disease received more prescribed drugs than controls with over half using medications indicating concomitant autoimmune disease.<xref ref="pubmed23543658" resource="acc026" /> Drugs used more commonly by these patients, both before and after diagnosis, included gastrointestinal medications, anti-anemic preparations, lipid-modifying agents, systemic antibiotics, hypnotics and sedatives, and drugs for obstructive airway disease.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for an overview of the diagnostic approach to the patient with suspected AI.</listitem>
+<listitem>In a retrospective study of 50 patients with confirmed AI, 78&#x0025; had <resourceLink href="info:wiley/eep-eee/146">hyponatremia,</resourceLink> 53&#x0025; had <resourceLink href="info:wiley/eep-eee/134">hyperkalemia,</resourceLink> 18&#x0025; were <resourceLink href="info:wiley/eep-eee/143">hypoglycemic,</resourceLink> and 21&#x0025; had <resourceLink href="info:wiley/eep-eee/133">hypercalcemia.</resourceLink>
+<xref ref="pubmed10341864" resource="acc011" /></listitem>
+<listitem>A single morning cortisol level above 300 nmol&#x002F;L effectively rules out AI. Among 106 unstressed patients with confirmed or suspected AI who underwent <xref ref="pubmed12899587" resource="acc001">cosyntropin stimulation testing</xref>, no patient with morning cortisol levels above 300 nmol&#x002F;L had an abnormal stimulation test result.<xref ref="pubmed12636203" resource="acc010" /></listitem>
+<listitem>There are several assays that can be used to measure cortisol levels and cut-off values may be different, so check your laboratory for the best cut-off for a normal&#x002F;abnormal test.<xref ref="pubmed28192125" resource="acc045" /></listitem>
+<listitem>The <xref ref="pubmed12899587" resource="acc001">cosyntropin test</xref> is performed by giving cosyntropin (IM or IV) and then measuring the serum or plasma <xref ref="pubmed12899587" resource="acc001">cortisol level</xref> 30 to 60 minutes later. Patients without AI have a value greater than 500 nmol&#x002F;L. The test is more sensitive for primary AI than for secondary AI.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>The high-dose (250 mcg) <xref ref="pubmed12899587" resource="acc001">cosyntropin test</xref> performed better in primary AI than the low-dose (1 mcg) <xref ref="pubmed12899587" resource="acc001">cosyntropin test</xref>. Performance characteristics are similar for both high-dose and low-dose tests in secondary AI.<xref ref="pubmed12899587" resource="acc001" />Authors of a systematic review, however found that both tests had similar diagnostic accuracy regardless of whether the disease was primary or secondary, although both tests for secondary AI were adequate to rule in but not out disease.<xref ref="pubmed26649617" resource="acc046" /> The Endocrine Society Clinical Practice Guideline recommends using the high-dose corticotropin test (250 mcg) as the "gold standard" diagnostic tool for primary AI.<xref ref="pubmed26760044" resource="acc040" /> If unavailable, they recommend measuring a morning plasma ACTH and cortisol levels.</listitem>
+<listitem>A non-invasive cosyntropin test using nasal administration of 500 &#x00B5;g Nasacthin003 generated equivalent plasma cortisol values to the 250-&#x00B5;g IV cosynropin test with measurement at 60 minutes of salivary cortisol or cortisone in one study.<xref ref="pubmed32593173" resource="acc075" /></listitem>
+<listitem>A <xref ref="pubmed12899587" resource="acc001">basal serum cortisol</xref> of less than 98 nmol&#x002F;L measured between 6 and 8 am is strong evidence in favor of secondary adrenal insufficiency, but a normal value does not rule it out. A morning cortisol level higher than 18 mcg&#x002F;dL (normal) or less than 3 mcg&#x002F;dL (confirms diagnosis) is helpful.</listitem>
+<listitem>In one study, basal (0900-1300 hours) cortisol levels performed better than morning cortisol levels for ruling in and out AI.<xref ref="pubmed31738804" resource="acc066" /> Of 416 patients tested, 93 (22.4&#x0025;) had AI based on a stimulation test; a basal cortisol level &lt;85 nmol&#x002F;L had a specificity of 99.7&#x0025; and a basal cortisol level &#x003E;350 nmol&#x002F;L had a sensitivity of 98.9&#x0025;.</listitem>
+<listitem>See <xref ref="fig002" /> for a suggested approach to the further diagnosis of patients with primary AI.<xref ref="pubmed26760044" resource="acc040" /></listitem>
+<listitem>When mild or recent secondary AI is suspected, further testing is indicated either with an insulin tolerance test or a metyrapone test. In the former, intravenous insulin is administered (0.1 units&#x002F;kg) to induce hypoglycemia below 40 mg&#x002F;dl to evoke a central stress response with activation of the HPA axis and cortisol measurements are obtained at 0, 30 and 60 minutes; a normal response are cortisol levels &#x003E;18 ng&#x002F;ml. Metyrapone blocks the last step in cortisol synthesis and a normal test results in an increase in ACTH as well as 11-deoxycortisol, a cortisol precursor that can be measured in blood or urine. These tests are considered the reference standard for the diagnosis of secondary AI and are usually conducted in the hospital setting. Because they are more noxious to patients and the insulin tolerance test is contraindicated in patients&#x00A0;older than 60 years, at risk of seizures, or with suspicion or history of cardiovascular disease, other tests of adrenal function are preferred.<xref ref="pubmed12899587" resource="acc001" /></listitem>
+<listitem>
+<xref ref="pubmed12899587" resource="acc001">Serum free cortisol</xref> is the most reliable method to assess adrenal function in critically ill and hypoproteinemic patients.<xref ref="pubmed15084695" resource="acc012" /></listitem>
+<listitem>Measurement of salivary cortisol is simple and correlates well with serum free cortisol in critically-ill patients.<xref ref="pubmed17535998" resource="acc013" />
+<xref ref="pubmed23610124" resource="acc027" /></listitem>
+<listitem>Autoantibodies against steroid 21-hydroxylase, an intracellular key enzyme of the adrenal cortex, are present in approximately 86&#x0025; of patients with Addison's disease, 3&#x0025; of patients with Graves' disease, and 1&#x0025; of patients with <resourceLink href="info:wiley/eep-eee/126">type 1 diabetes.</resourceLink> Among patients without these autoantibodies, none had AI and it did not develop among those followed up for up to 7 years.<xref ref="pubmed9030873" resource="acc004" /> Detection of these antibodies may be of use for early detection and, eventually, targeted therapy.<xref ref="pubmed25063864" resource="acc036" /> The Endocrine Society Clinical Practice Guideline recommends testing for autoantibodies against 21-hydroxylase in patients with suspected primary AI and seeking another cause in autoantibody-negative individuals.<xref ref="pubmed26760044" resource="acc040" /></listitem>
+<listitem>In a study comparing patients with normal insulin tolerance test results (normal HPA function) to those with abnormal test results, all patients with abnormal insulin tolerance results had low age- and gender-matched serum dehydroepiandrosterone (DHEA) levels.<xref ref="pubmed14602764" resource="acc002" /></listitem>
+<listitem>If hemorrhage, infiltration, infection, or neoplastic disease is suspected, consider performing an abdominal CT.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for an overview of the diagnostic approach to the patient with suspected AI.</listitem>
+<listitem>See <xref ref="fig002" /> for a suggested approach to the evaluation of the patient with primary AI.<xref ref="pubmed26760044" resource="acc040" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>430</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Glucocorticoids are the mainstay of therapy for AI.</listitem>
+<listitem>Hydrocortisone 20 mg daily results in higher cortisol levels and lower ACTH levels than cortisone acetate 20 mg daily.<xref ref="pubmed6273020" resource="acc016" /></listitem>
+<listitem>Patients with primary AI should also receive mineralocorticoids (eg, fludrocortisone 0.05-0.2 mg per day).</listitem>
+<listitem>Patients undergoing general anesthesia for surgical procedures may require supplementary steroids depending on the dose of steroid and treatment duration.<xref ref="pubmed15592544" resource="acc018" />
+<xref ref="pubmed9037222" resource="acc019" /></listitem>
+<listitem>In patients with sepsis, stress doses of steroids are only indicated if the blood pressure is not responsive to fluids and vasopressor therapy.<xref ref="pubmed18158437" resource="acc006" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Glucocorticoids are the mainstay of therapy for all forms of AI. Patients should receive the smallest dosage that improves their symptoms. Although several kinds of corticosteroids can be used, hydrocortisone is generally preferred. Patients with primary AI should also receive mineralocorticoids (eg, fludrocortisone 0.05-0.2 mg per day).</listitem>
+<listitem>For patients with primary AI, the Endocrine Society Clinical Practice Guideline recommends once-daily fludrocortisone (median, 0.1 mg) and hydrocortisone (15-25 mg&#x002F;d) or cortisone acetate replacement (20-35 mg&#x002F;d) given in two to three daily doses in adults; hydrocortisone at &#x223C;8 mg&#x002F;m2&#x002F;d is recommended for children.<xref ref="pubmed26760044" resource="acc040" /></listitem>
+<listitem>Patients with glucocorticoid-induced AI do not require fludrocortisone; the European 2024 guideline recommends against use of fludrocortisone in these patients.<xref ref="pubmed38724043" resource="acc092" /></listitem>
+<listitem>Hydrocortisone 20 mg daily resulted in higher cortisol levels and lower ACTH levels than cortisone acetate 20 mg daily.<xref ref="pubmed6273020" resource="acc016" /> Also, patients with primary AI who received 20 mg hydrocortisone in the morning and 10 mg in the evening experienced better quality of life scores than patients who took their steroids either only in the morning or only in the evening. <xref ref="pubmed8405139" resource="acc017" /></listitem>
+<listitem>In a series of 53 patients with AI receiving glucocorticoids, 40&#x0025; reported fatigue, 28&#x0025; reported a lack of energy, 26&#x0025; had reduced strength, and 20&#x0025; reported insomnia. Of these patients, 20&#x0025; had gained weight, 19&#x0025; had truncal obesity, 17&#x0025; had hyperpigmentation, and 15&#x0025; were hypotensive.<xref ref="pubmed12788587" resource="acc009" /> Those with secondary AI were more likely to report symptoms than those with primary insufficiency.</listitem>
+<listitem>In a small RCT with 47 patients with secondary AI, those randomized to daily higher-dose hydrocortisone (0.4-0.6 mg&#x002F;kg vs 0.2-0.3 mg&#x002F;kg) reported significantly fewer depression and somatic symptoms, less general and mental fatigue and better physical functioning than those on lower doses after 10 weeks.<xref ref="pubmed26646751" resource="acc050" /></listitem>
+<listitem>Decreasing the dose of glucocorticoid replacement therapy in patients with primary AI can increase bone mineral density but it is not known if this will result in reduced fractures.<xref ref="pubmed26811406" resource="acc049" /></listitem>
+<listitem>
+<strong>Dosing regimens and modified-release formulations</strong></listitem>
+<listitem>In a prospective crossover, randomized, multicenter clinical trial comparing 3 months of treatment with thrice-daily oral hydrocortisone replacement vs continuous hydrocortisone infusion in patients with Addison&#x2019;s disease, continuous infusion resulted in normalization of morning ACTH and cortisol levels but had no clinical benefit on sleep parameters or subjective health status.<xref ref="pubmed25127090" resource="acc037" /></listitem>
+<listitem>Authors of a systematic review and meta-analysis of glucocorticoid regimens for patients with AI found higher quality-of-life scores for use of extended-&#x002F;dual-release and continuous subcutaneous forms of glucocorticoids.<xref ref="pubmed27631672" resource="acc047" /> No differences in quality of life were observed between higher (&#x2265;30 mg&#x002F;day of hydrocortisone equivalence) vs. lower doses or frequency of daily dosing (once, twice or thrice daily).</listitem>
+<listitem>Dual-release formulations, also called modified-release, were designed to allow more even distribution of drugs and include an immediate-release part that provides a rapid onset of absorption and an extended-release part that provides a more extended plasma profile of cortisol. The bioavailability of the dual-release tablet is 20&#x0025; lower compared to the same daily dose of hydrocortisone given as conventional tablets three times daily.</listitem>
+<listitem>In a single-blinded RCT with 89 patients with AI on standard glucocorticoid therapy, those who were switched to equivalent-dose once-daily, modified-release oral hydrocortisone had higher quality-of-life scores, weight reduction (-2.1 kg vs 1.9 kg gain for controls), and more normal immune cell profiles than those who continued on standard therapy.<xref ref="pubmed29229498" resource="acc048" /></listitem>
+<listitem>Authors of a meta-analysis of 2 RCTs with 104 patients with AI switched from standard glucocorticoid replacement to modified-release hydrocortisone replacement had significant reduction in body weight (-0.82 kg; 95&#x0025; CI -1.24 kg to -0.40 kg) and hemoglobin A1c (-0.13&#x0025;; 95&#x0025; CI -0.214&#x0025; to -0.045&#x0025;) at 3 months.<xref ref="pubmed32621327" resource="acc067" /></listitem>
+<listitem>In a trial with 51 patients with AI, including 30 with secondary AI, switching from their usual daily hydrocortisone (median 20 mg) dose to once-daily dual-release hydrocortisone also resulted in decreased systolic and diastolic blood pressure (5.7 mmHg and 4.5 mmHg, respectively) and mean body weight (-1.23 kg) and BMI compared with conventional HC treatment.<xref ref="pubmed33513125" resource="acc077" /></listitem>
+<listitem>In an RCT of 122 patients with congenital adrenal hyperplasia, modified-release hydrocortisone was not superior to standard replacement for the primary outcome of change in 24-hour SD score of androgen precursor 17-hydroxyprogesterone, but more patients experienced metabolic control in the modified-release group (91&#x0025; vs. 71&#x0025; for standard therapy at 6 months).<xref ref="pubmed33527139" resource="acc085" /></listitem>
+<listitem>In a 6-week RCT including 22 patients with primary AI on their usual dose of hydrocortisone, those randomized to delivery by pulsatile subcutaneous pump vs. usual care reported subjective improvements in fatigue and mood. Functional magnetic resonance imaging revealed differential neural processing to emotional cues and visual stimulation that appeared to indicate a more physiologic response with use of the pump.<xref ref="pubmed37857352" resource="acc093" /> The pump was well tolerated, but adverse events included infusion site bruising&#x002F;itching.</listitem>
+<listitem>
+<strong>Dehydroepiandrosterone acetate (DHEA)</strong></listitem>
+<listitem>In women with AI, DHEA replacement (50 mg per day) appears to improve overall well-being and sexual function.<xref ref="pubmed10502590" resource="acc005" />However, a recent clinical practice guideline from the Endocrine Society, American College of Obstetricians and Gynecologists, and others recommend against the routine use of DHEA due to limited data concerning its effectiveness and safety.<xref ref="pubmed25279570" resource="acc038" /></listitem>
+<listitem>After 12 months of therapy, patients with Addison's disease taking DHEA reversed bone loss only at the femoral neck and increased the lean body mass to some degree with negligible effects on quality of life.<xref ref="pubmed18000094" resource="acc022" /></listitem>
+<listitem>
+<strong>Stress steroid coverage (given in addition to routine medication)</strong></listitem>
+<listitem>Glucocorticoid therapy (prednisolone &#x2265;5 mg daily in adults or hydrocortisone&#x2010;equivalent dose of 10&#x2013;15 mg.m&#x2212;2 daily in children) across all routes of administration can cause suppression of the HPA axis.<xref ref="pubmed32017012" resource="acc068" /></listitem>
+<listitem>Patients taking long-term steroid medication do not require supplementary "steroid cover" for routine dentistry or minor surgical procedures, even those using local anesthesia. Patients undergoing general anesthesia for surgical procedures may require supplementary steroids depending on the dose of steroid and duration of treatment.<xref ref="pubmed15592544" resource="acc018" />
+<xref ref="pubmed9037222" resource="acc019" /></listitem>
+<listitem>During periods of major stress (eg, major surgery, sepsis, or <resourceLink href="info:wiley/eep-eee/43">myocardial infarction</resourceLink>) or when patients cannot tolerate oral steroids because of vomiting and diarrhea, intravenous hydrocortisone (&#x007E;50 mg every 8 hours) is indicated. Authors of a pharmacokinetic study of 10 patients with AI found continuous IV infusion of 200 mg hydrocortisone over 24 hours, preceded by an initial bolus of 50-100 mg hydrocortisone, was best suited for maintaining cortisol concentrations in the required range during major stress.<xref ref="pubmed32170323" resource="acc069" /></listitem>
+<listitem>Guidelines from the Royal College of Physicians and Society of Endocrinology UK (2020) recommend stress doses for adults with AI from any cause who are undergoing major surgery. They recommend hydrocortisone 100 mg IV injection at anesthesia induction followed by a continuous infusion of hydrocortisone at 200 mg&#x002F;24 h, until the patient can take double their usual oral glucocorticoid dose by mouth.<xref ref="pubmed32017012" resource="acc068" /> Stress steroids can be tapered back to the maintenance dose in most cases within 48 hours.</listitem>
+<listitem>Similar dosing is suggested for patients with AI and COVID-19.<xref ref="pubmed32335855" resource="acc070" /></listitem>
+<listitem>In patients with sepsis, stress doses of steroids are only indicated if the blood pressure is not responsive to fluids and vasopressor therapy.<xref ref="pubmed18158437" resource="acc006" /> In a randomized trial of 499 patients with sepsis, hydrocortisone therapy did not show any survival benefit but produced faster reversal of shock than placebo.<xref ref="pubmed18184957" resource="acc008" /></listitem>
+<listitem>Stress hydrocortisone dosing at 10 mg given to women with primary AI prior to short strenuous exercise did not improve maximal aerobic capacity or exercise duration.<xref ref="pubmed26494876" resource="acc051" /> Individualized decisions may be required for endurance athletes.<xref ref="pubmed31688185" resource="acc071" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>There is a case report of a successful simultaneous left kidney-adrenal gland-pancreas transplantation in a 33-year-old patients with type 1 diabetes and autoimmune AI.<xref ref="pubmed23731324" resource="acc028" /> At one year, the adrenal graft functioned well with normalization of cortisol and aldosterone baseline levels.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Tetracosactide (synthetic ACTH1-24) is under study for patients with Addison's disease as a potential regenerative medicine therapy approach.<xref ref="pubmed24170102" resource="acc039" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Since most primary care physicians will not encounter a patient with Addison's disease, they should consult with an endocrinologist when they see a patient with suspected AI.</listitem>
+<listitem>Patients should be hospitalized in times of acute stress and when they cannot tolerate oral steroids because of vomiting or diarrhea.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>The risk of adrenal crisis is higher in women and in patients with primary AI. Most crises were due to glucocorticoid dose adjustment or lack of stress-related dose adjustment.<xref ref="pubmed10583719" resource="acc007" /> Evidence is limited on the effectiveness of educational interventions to prevent adrenal crisis.<xref ref="pubmed35536876" resource="acc086" /></listitem>
+<listitem>Long-term steroid therapy in patients with glucocorticoid deficiency does not induce bone loss unless the patient is taking excessive doses of hydrocortisone.<xref ref="pubmed15256782" resource="acc021" /></listitem>
+<listitem>Authors of a systematic review and meta-analysis of 7 studies, however, found an odds ratio of 2.71 (95&#x0025;CI 1.36-5.43) for any fracture and 2.76 (95&#x0025;CI: 2.39-3.19) for osteoporotic fracture for patients with AI receiving glucocorticoid therapy compared to a control group.<xref ref="pubmed33846948" resource="acc087" /></listitem>
+<listitem>Infection risk is higher. In a Dutch database study, patients with primary AI used antimicrobial agents 1.5 times more than controls and had more infection-related hospital admissions (3.8&#x002F;100 person-years vs 0.8&#x002F;100 person-years for controls).<xref ref="pubmed23384710" resource="acc030" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>In a Swedish population study, patients with Addison's disease followed up for 6 years from the time of diagnosis had twice the all-cause mortality risk as age- and gender-matched adults without Addison's disease.<xref ref="pubmed16968806" resource="acc014" /></listitem>
+<listitem>Authors of a retrospective cohort study including 2052 patients with primary AI and 3948 patients with secondary AI in a UK general practitioner database also found higher mortality rates compared to individually-matched controls (Hazard Ratio [HR] 1.83, 95&#x0025; CI 1.66-2.02 for primary AI and 1.52, 95&#x0025; CI 1.40-1.64 for secondary AI).<xref ref="pubmed33596308" resource="acc088" /> Cardiovascular disease (HR 1.54, 95&#x0025; CI 1.32-1.80) was the leading cause of death and deaths from infection were also elevated (HR 4.00, 95&#x0025; CI 2.15-7.46). Adrenal crisis contributed to 10&#x0025; of all deaths.</listitem>
+<listitem>In a small case series of 19 patients with antiphopholipid syndrome (APLS) who suffered bilateral adrenal hemorrhage or infarction, three died in the acute phase related to APLS, 3 had recurrent thrombosis, 1 died of cerebral hemorrhage, and the majority of the remaining patients had complete gland atrophy (9 of 11) more than one year later.<xref ref="pubmed23783099" resource="acc029" /> Only 2 of 10 tested showed some response on Synacthen testing.</listitem>
+<listitem>
+<strong>Postoperative recovery of adrenal function</strong></listitem>
+<listitem>Among 109 patients undergoing transsphenoidal adenomectomy for pituitary macroadenomas, normal adrenal function was seen at 6 weeks in 77 (70.6&#x0025;) and between 6 weeks and 9-12 months postoperatively in 11 additional patients.<xref ref="pubmed31225871" resource="acc059" /> Recovery ultimately occurred in 13 of 23 patients with preoperative AI and 14 of 25 patients who developed and had AI at 6 weeks postoperatively.</listitem>
+<listitem>For patients undergoing pituitary surgery, postoperative morning cortisol levels on post-operative day 1 or 2 can help predict long-term AI. Authors of a systematic review and meta-analysis of 17 articles including 1648 patients found that a morning cortisol level of 2.1 &#x03BC;g&#x002F;dL on post-operative day 1 showed the highest sensitivity rate (98.8&#x0025;), and 22.5 &#x03BC;g&#x002F;dL showed the highest specificity rate (72.5&#x0025;).<xref ref="pubmed37201788" resource="acc094" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>The Endocrine Society Clinical Practice Guideline recommends monitoring appropriate dosing of corticosteroids and associated autoimmune diseases, particularly autoimmune thyroid disease.<xref ref="pubmed26760044" resource="acc040" /></listitem>
+<listitem>Advise patients with AI to wear a medical alert bracelet or necklace stating the need for glucocorticoids in case of an emergency.</listitem>
+<listitem>Surveillance of chronic glucocorticoid replacement is based on clinical grounds because no reliable objective measures exist. Patients with mineralocorticoid under-replacement can experience symptoms of salt craving and postural dizziness.<xref ref="pubmed29156052" resource="acc052" /></listitem>
+<listitem>Treatment for mineralocorticoid insufficiency aims at establishing normotension, normokalemia, and plasma renin activity in the upper normal range.<xref ref="pubmed29156052" resource="acc052" /></listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Ten percent to 20&#x0025; of women with autoimmune Addison&#x2019;s disease develop ovarian insufficiency before 40 years of age; detection of steroid-cell autoantibodies predicts future development of premature ovarian insufficiency.<xref ref="pubmed32472424" resource="acc072" /></listitem>
+<listitem>AI is often overlooked in pregnant patients because of its rarity and pregnancy-like symptoms.</listitem>
+<listitem>In healthy patients, serum cortisol and salivary cortisol levels progressively increase throughout pregnancy and decrease after delivery.<xref ref="pubmed16895954" resource="acc015" /></listitem>
+<listitem>Patients with AI may require higher maintenance steroid doses during the later stages of pregnancy (20+ weeks). Those with AI who become pregnant should be referred to an endocrinologist for monitoring and adjustment of corticosteroid therapy.</listitem>
+<listitem>Authors of a review of studies on pregnancy outcome in women with primary AI found evidence of increased preterm birth and cesarean section delivery.<xref ref="pubmed32472424" resource="acc072" /> In a US population-based study including 552 women with primary AI, the OR for preterm birth was 1.5, 95&#x0025; CI 1.16 to 1.95 and for delivery by caesarean section was 1.32, 95&#x0025; CI 1.08-1.61.<xref ref="pubmed27981742" resource="acc055" /> Women with AI were more likely to experience poor wound healing (OR 4.28, 95&#x0025; CI 2.55-7.18), develop infections (OR 2.44, 95&#x0025; CI 1.66-3.58), develop thromboembolism (OR 5.21, 95&#x0025; CI 2.15-12.63), and require transfusions (OR 6.69, 95&#x0025; CI 4.69-9.54). Maternal mortality was also significantly higher with an OR of 22.3, 95&#x0025; CI 6.82-72.96. Their infants were more likely to have congenital anomalies (OR 3.62, 95&#x0025; CI 2.05-6.39) and be small-for-gestational age (OR 1.78, 95&#x0025; CI 1.15-2.75).</listitem>
+<listitem>Guidelines from the Royal College of Physicians and Society of Endocrinology UK (2020) recommend stress dose supplementation using hydrocortisone 100 mg at the onset of labor, and then either continuous IV hydrocortisone 200 mg&#x002F;24 h or 50 mg intramuscularly every 6 hours until after delivery.<xref ref="pubmed32170323" resource="acc069" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>The most common etiologies of primary AI in children are congenital adrenal hyperplasia (CAH), followed by Addison's disease.<xref ref="pubmed15811934" resource="acc023" /> CAH is an autosomal recessive condition caused by mutations in the 21-hydroxylase gene in most cases.</listitem>
+<listitem>Among 518 children with classic 21-hydroxylase deficiency CAH from 34 centers in 18 countries, adrenal crisis occurred in 62 (4&#x0025;) and was most often precipitated by infection (72&#x0025;); there were no fatalities<xref ref="pubmed32995889" resource="acc089" /></listitem>
+<listitem>Based on data from patients with AI cared for in 8 Pediatric Endocrinology Centers, 121 of 803 had a diagnosis other than 21-hydroxylase deficiency CAH, with a median age at presentation of 6.5 &#x00B1; 5.1 years.<xref ref="pubmed33247909" resource="acc090" /> Among these children, the most frequent symptoms at diagnosis were fatigue (67&#x0025;), hyperpigmentation (50.4&#x0025;), dehydration (33&#x0025;), and hypotension (31&#x0025;). Elevated adrenocorticotropic hormone was present in nearly all (96.4&#x0025;) followed by hyponatremia (55&#x0025;), hyperkalemia (32.7&#x0025;), and hypoglycemia (33.7&#x0025;).</listitem>
+<listitem>AI is a frequent finding in children with septic shock. The safety and efficacy of a stress dose of adjunctive steroids for pediatric septic shock have not been established.</listitem>
+<listitem>After 3 years of continuous use of inhaled budesonide, children with asthma did not experience suppression of adrenal function.<xref ref="pubmed15173493" resource="acc020" /></listitem>
+<listitem>Data are insufficient to determine which test, high- or low-dose corticotropin test, is best for children with suspected secondary AI.<xref ref="pubmed26951687" resource="acc053" /></listitem>
+<listitem>Hydrocortisone at &#x223C;8 mg&#x002F;m2&#x002F;d is recommended for children by the Endocrine Society.<xref ref="pubmed26760044" resource="acc040" /> Authors of a systematic review were unable to draw conclusions based on evidence about optimal treatment regimens to prevent adrenal crises and to achieve normal stature, optimal adult height and to undergo normal puberty.<xref ref="pubmed32190901" resource="acc073" /></listitem>
+<listitem>In an observational study of 57 children and adolescents diagnosed as infants with CAH, investigators found no statistically significant differences on most of the scales measuring adaptive functioning or behavioral problems compared to population age and sex-matched controls. <xref ref="pubmed32152914" resource="acc054" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed12899587">
+<accessionId id="acc001" href="info:pmid/12899587" />
+<accessionId id="acc001b" href="info:wiley/eep-dx/430" />
+<authors>Dorin RI, Qualls CR, Crapo LM.</authors>
+<title>Diagnosis of adrenal insufficiency.</title>
+<source>Ann Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>139</volume>
+<pages>194-204.</pages>
+</reference>
+<reference id="pubmed14602764">
+<accessionId id="acc002" href="info:pmid/14602764" />
+<authors>Nasrallah MP, Arafah BM.</authors>
+<title>The value of dehydroepiandrosterone sulfate measurements in the assessment of adrenal function.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2003</pubdate>
+<volume>88</volume>
+<pages>5293-5298.</pages>
+</reference>
+<reference id="pubmed11361265">
+<accessionId id="acc003" href="info:pmid/11361265" />
+<authors>Zargar AH, Laway BA, Masoodi SR, Bashir MI, Wani AI, Salahuddin M.</authors>
+<title>A critical evaluation of signs and symptoms in the diagnosis of Addison's diseases.</title>
+<source>J Assoc Physicians India</source>
+<pubdate>2001</pubdate>
+<volume>49</volume>
+<pages>523-526.</pages>
+</reference>
+<reference id="pubmed9030873">
+<accessionId id="acc004" href="info:pmid/9030873" />
+<authors>Falorni A, Laureti S, Nikoshkov A, et al.</authors>
+<title>21-hydroxylase autoantibodies in adult patients with endocrine autoimmune diseases are highly specific for Addison's disease. Belgian Diabetes Registry.</title>
+<source>Clin Exp Immunol</source>
+<pubdate>1997</pubdate>
+<volume>107</volume>
+<pages>341-346.</pages>
+</reference>
+<reference id="pubmed10502590">
+<accessionId id="acc005" href="info:pmid/10502590" />
+<accessionId id="acc005b" href="info:wiley/eep-poem/20107" />
+<authors>Arlt W, Callies F, Vlijmen JC, et al.</authors>
+<title>Dehydroepiandrosterone replacement in women with adrenal insufficiency.</title>
+<source>N Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>341</volume>
+<pages>1013-1020.</pages>
+</reference>
+<reference id="pubmed18158437">
+<accessionId id="acc006" href="info:pmid/18158437" />
+<authors>Dellinger RP, Levy MM, Carlet JM, et al.</authors>
+<title>Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock: 2008.</title>
+<source>Crit Care Med</source>
+<pubdate>2008</pubdate>
+<volume>36</volume>
+<pages>296-327.</pages>
+</reference>
+<reference id="pubmed10583719">
+<accessionId id="acc007" href="info:pmid/10583719" />
+<authors>Flemming TG, Kristensey KI.</authors>
+<title>Quality of self-care in patients on replacement therapy with hydrocortisone.</title>
+<source>J Intern Med</source>
+<pubdate>1999</pubdate>
+<volume>246</volume>
+<pages>497-501.</pages>
+</reference>
+<reference id="pubmed18184957">
+<accessionId id="acc008" href="info:pmid/18184957" />
+<authors>Sprung CL, Annane D, Keh D, et al; CORTICUS, Study Group.</authors>
+<title>Hydrocortisone therapy for patients with septic shock.</title>
+<source>N Eng J Med</source>
+<pubdate>2008</pubdate>
+<volume>358</volume>
+<pages>111-124.</pages>
+</reference>
+<reference id="pubmed12788587">
+<accessionId id="acc009" href="info:pmid/12788587" />
+<authors>Arlt W, Allolio B.</authors>
+<title>Adrenal insufficiency.</title>
+<source>Lancet</source>
+<pubdate>2003</pubdate>
+<volume>361</volume>
+<pages>1881-1893.</pages>
+</reference>
+<reference id="pubmed12636203">
+<accessionId id="acc010" href="info:pmid/12636203" />
+<authors>Lee MT, Won JG, Lee TI, Yang HJ, Lin HD, Tang KT.</authors>
+<title>The relationship between morning serum cortisol and the short ACTH test in the evaluation of adrenal insufficiency.</title>
+<source>Zhonghua Yi Xue Za Zhi (Taipei).</source>
+<pubdate>2002</pubdate>
+<volume>65</volume>
+<pages>580-587.</pages>
+</reference>
+<reference id="pubmed10341864">
+<accessionId id="acc011" href="info:pmid/10341864" />
+<authors>Soule S.</authors>
+<title>Addison's disease in Africa--a teaching hospital experience.</title>
+<source>Clin Endocrinol (Oxf)</source>
+<pubdate>1999</pubdate>
+<volume>50</volume>
+<pages>115-120.</pages>
+</reference>
+<reference id="pubmed15084695">
+<accessionId id="acc012" href="info:pmid/15084695" />
+<authors>Hamrahian AH, Oseni TS, Arafah BM.</authors>
+<title>Measurements of serum free cortisol in critically ill patients.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>350</volume>
+<pages>1629-1638.</pages>
+</reference>
+<reference id="pubmed17535998">
+<accessionId id="acc013" href="info:pmid/17535998" />
+<authors>Arafah BM, Nishiyama FJ, Tlaygeh H, Hejal R.</authors>
+<title>Measurement of salivary cortisol concentration in the assessment of adrenal function in critically ill subjects: a surrogate marker of the circulating free cortisol.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2007</pubdate>
+<volume>92</volume>
+<pages>2965-2971.</pages>
+</reference>
+<reference id="pubmed16968806">
+<accessionId id="acc014" href="info:pmid/16968806" />
+<authors>Bergthorsdottir R, Leonsson-Zachrisson M, Oden A, Johannsson G.</authors>
+<title>Premature mortality in patients with Addison's disease: a population-based study.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2006</pubdate>
+<volume>91</volume>
+<pages>4849-4853.</pages>
+</reference>
+<reference id="pubmed16895954">
+<accessionId id="acc015" href="info:pmid/16895954" />
+<authors>Suri D, Moran J, Hibbard JU, Kasza K, Weiss RE.</authors>
+<title>Assessment of adrenal reserve in pregnancy: defining the normal response to the adrenocorticotropin stimulation test.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2006</pubdate>
+<volume>91</volume>
+<pages>3866-3872.</pages>
+</reference>
+<reference id="pubmed6273020">
+<accessionId id="acc016" href="info:pmid/6273020" />
+<authors>Feek CM, Ratcliffe JG, Seth J, Gray CE, Toft AD, Irvine WJ.</authors>
+<title>Patterns of plasma cortisol and ACTH concentrations in patients with Addison's disease treated with conventional corticosteroid replacement.</title>
+<source>Clin Endocrinol (Oxf)</source>
+<pubdate>1981</pubdate>
+<volume>14</volume>
+<pages>451-458.</pages>
+</reference>
+<reference id="pubmed8405139">
+<accessionId id="acc017" href="info:pmid/8405139" />
+<authors>Riedel M, Wiese A, Schurmeyer TH, Brabant G.</authors>
+<title>Quality of life in patients with Addison's disease: effects of different cortisol replacement modes.</title>
+<source>Exp Clin Endocrinol</source>
+<pubdate>1993</pubdate>
+<volume>101</volume>
+<pages>106-111.</pages>
+</reference>
+<reference id="pubmed15592544">
+<accessionId id="acc018" href="info:pmid/15592544" />
+<authors>Gibson N, Ferguson JW.</authors>
+<title>Steroid cover for dental patients on long-term steroid medication: proposed clinical guidelines based upon a critical review of the literature.</title>
+<source>Br Dent J</source>
+<pubdate>2004</pubdate>
+<volume>197</volume>
+<pages>681-685.</pages>
+</reference>
+<reference id="pubmed9037222">
+<accessionId id="acc019" href="info:pmid/9037222" />
+<accessionId id="acc019b" href="info:wiley/eep-poem/1361" />
+<authors>Glowniak JV, Loriaux DL.</authors>
+<title>A double-blind study of perioperative steroid requirements in secondary adrenal insufficiency.</title>
+<source>Surgery</source>
+<pubdate>1997</pubdate>
+<volume>121</volume>
+<pages>123-129.</pages>
+</reference>
+<reference id="pubmed15173493">
+<accessionId id="acc020" href="info:pmid/15173493" />
+<accessionId id="acc020b" href="info:wiley/eep-poem/60899" />
+<authors>Bacharier LB, Raissy HH, Wilson L, et al.</authors>
+<title>Long-term effect of budesonide on hypothalamic-pituitary-adrenal axis function in children with mild to moderate asthma.</title>
+<source>Pediatrics</source>
+<pubdate>2004</pubdate>
+<volume>113</volume>
+<pages>693-699.</pages>
+</reference>
+<reference id="pubmed15256782">
+<accessionId id="acc021" href="info:pmid/15256782" />
+<authors>Chikada N, Imaki T, Hotta M, Sato K, Takano K.</authors>
+<title>An assessment of bone mineral density in patients with Addison's disease and isolated ACTH deficiency treated with glucocorticoid.</title>
+<source>Endocr J</source>
+<pubdate>2004</pubdate>
+<volume>51</volume>
+<pages>355-360.</pages>
+</reference>
+<reference id="pubmed18000094">
+<accessionId id="acc022" href="info:pmid/18000094" />
+<authors>Gurnell EM, Hunt PJ, Curran SE, et al.</authors>
+<title>Long-term DHEA replacement in primary adrenal insufficiency: a randomized, controlled trial.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2008</pubdate>
+<volume>93</volume>
+<pages>400-409.</pages>
+</reference>
+<reference id="pubmed15811934">
+<accessionId id="acc023" href="info:pmid/15811934" />
+<authors>Perry R, Kecha O, Paquette J, Huot C, Van Vliet G, Deal C.</authors>
+<title>Primary adrenal insufficiency in children: twenty years experience at the Sainte-Justine Hospital, Montreal.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2005</pubdate>
+<volume>90</volume>
+<pages>3243-3250.</pages>
+</reference>
+<reference id="pubmed23389301">
+<accessionId id="acc024" href="info:pmid/23389301" />
+<authors>Ketha S, Smithedajkul P, Vella A, Pruthi R, Wysokinski W, McBane R.</authors>
+<title>Adrenal haemorrhage due to heparin-induced thrombocytopenia.</title>
+<source>Thromb Haemost</source>
+<pubdate>2013</pubdate>
+<volume>109</volume>
+<pages>669&#x2013;675.</pages>
+</reference>
+<reference id="pubmed23354226">
+<accessionId id="acc025" href="info:pmid/23354226" />
+<authors>Stein DM, Jessie EM, Crane S, Kufera JA, Timmons T, Rodriguez CJ, Menaker J, Scalea TM.</authors>
+<title>Hyperacute adrenal insufficiency after hemorrhagic shock exists and is associated with poor outcomes.</title>
+<source>J Trauma Acute Care Surg</source>
+<pubdate>2013</pubdate>
+<volume>74</volume>
+<pages>363&#x2013;370; discussion 370.</pages>
+</reference>
+<reference id="pubmed23543658">
+<accessionId id="acc026" href="info:pmid/23543658" />
+<authors>Bj&#x00F6;rnsdottir S, Sundstr&#x00F6;m A, Ludvigsson JF, Blomqvist P, K&#x00E4;mpe O, Bensing S.</authors>
+<title>Drug prescription patterns in patients with Addison's disease: a Swedish population-based cohort study.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2013</pubdate>
+<volume>98</volume>
+<pages>2009&#x2013;2018.</pages>
+</reference>
+<reference id="pubmed23610124">
+<accessionId id="acc027" href="info:pmid/23610124" />
+<authors>Ceccato F, Barbot M, Zilio M, Ferasin S, Occhi G, Daniele A, Mazzocut S, Iacobone M, Betterle C, Mantero F, Scaroni C.</authors>
+<title>Performance of salivary cortisol in the diagnosis of Cushing's syndrome, adrenal incidentaloma, and adrenal insufficiency.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2013</pubdate>
+<volume>169</volume>
+<pages>31&#x2013;36.</pages>
+</reference>
+<reference id="pubmed23731324">
+<accessionId id="acc028" href="info:pmid/23731324" />
+<authors>Vouillarmet J, Buron F, Houzard C, Carlier MC, Chauvet C, Brunet M, Thivolet C, Morelon E, Badet L.</authors>
+<title>The first simultaneous kidney-adrenal gland-pancreas transplantation: outcome at 1 year.</title>
+<source>Am J Transplant</source>
+<pubdate>2013</pubdate>
+<volume>13</volume>
+<pages>1905&#x2013;1909.</pages>
+</reference>
+<reference id="pubmed23783099">
+<accessionId id="acc029" href="info:pmid/23783099" />
+<authors>Ramon I, Mathian A, Bachelot A, Hervier B, Haroche J, Boutin-Le Thi Huong D, Costedoat-Chalumeau N, Wechsler B, Karmali R, Velkeniers B, Touraine P, Coussieu C, Bennani A, Renard-Penna R, Grenier PA, Wahl D, Piette JC, Amoura Z.</authors>
+<title>Primary adrenal insufficiency due to bilateral adrenal hemorrhage-adrenal infarction in the antiphospholipid syndrome: long-term outcome of 16 patients.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2013</pubdate>
+<volume>98</volume>
+<pages>3179&#x2013;3189.</pages>
+</reference>
+<reference id="pubmed23384710">
+<accessionId id="acc030" href="info:pmid/23384710" />
+<authors>Smans LC, Souverein PC, Leufkens HG, Hoepelman AI, Zelissen PM.</authors>
+<title>Increased use of antimicrobial agents and hospital admission for infections in patients with primary adrenal insufficiency: a cohort study.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2013</pubdate>
+<volume>168</volume>
+<pages>609&#x2013;614.</pages>
+</reference>
+<reference id="pubmed25844620">
+<accessionId id="acc031" href="info:pmid/25844620" />
+<authors>Broersen LH, Pereira AM, J&#x00F8;rgensen JO, Dekkers OM.</authors>
+<title>Adrenal insufficiency in corticosteroids use: systematic review and meta-analysis.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2015</pubdate>
+<volume>100</volume>
+<pages>2171&#x2013;2180.</pages>
+</reference>
+<reference id="pubmed24878052">
+<accessionId id="acc032" href="info:pmid/24878052" />
+<authors>Di Dalmazi G, Berr CM, Fassnacht M, Beuschlein F, Reincke M.</authors>
+<title>Adrenal function after adrenalectomy for subclinical hypercortisolism and Cushing's syndrome: a systematic review of the literature.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2014</pubdate>
+<volume>99</volume>
+<pages>2637&#x2013;2645.</pages>
+</reference>
+<reference id="pubmed25546155">
+<accessionId id="acc033" href="info:pmid/25546155" />
+<authors>Berr CM, Di Dalmazi G, Osswald A, Ritzel K, Bidlingmaier M, Geyer LL, Treitl M, Hallfeldt K, Rachinger W, Reisch N, Blaser R, Schopohl J, Beuschlein F, Reincke M.</authors>
+<title>Time to recovery of adrenal function after curative surgery for Cushing's syndrome depends on etiology.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2015</pubdate>
+<volume>100</volume>
+<pages>1300&#x2013;1308.</pages>
+</reference>
+<reference id="pubmed25083978">
+<accessionId id="acc034" href="info:pmid/25083978" />
+<authors>Tsai MH, Huang HC, Peng YS, Chen YC, Tian YC, Yang CW, Lien JM, Fang JT, Wu CS, Lee FY.</authors>
+<title>Critical illness-related corticosteroid insufficiency in cirrhotic patients with acute gastroesophageal variceal bleeding: risk factors and association with outcome.</title>
+<source>Crit Care Med</source>
+<pubdate>2014</pubdate>
+<volume>42</volume>
+<pages>2546&#x2013;2555.</pages>
+</reference>
+<reference id="cochrane8727">
+<accessionId id="acc035" href="info:wiley/cochrane/CD008727" />
+<chapter_authors>Rensen N, Gemke RJ, van Dalen EC, Rotteveel J, Kaspers GJ.</chapter_authors>
+<chapter_title>Hypothalamic-pituitary-adrenal (HPA) axis suppression after treatment with glucocorticoid therapy for childhood acute lymphoblastic leukaemia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 11. Art. No.: CD008727. DOI: 10.1002&#x002F;14651858.CD008727.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25063864">
+<accessionId id="acc036" href="info:pmid/25063864" />
+<authors>Dawoodji A, Chen JL, Shepherd D, Dalin F, Tarlton A, Alimohammadi M, Penna-Martinez M, Meyer G, Mitchell AL, Gan EH, Bratland E, Bensing S, Husebye ES, Pearce SH, Badenhoop K, K&#x00E4;mpe O, Cerundolo V.</authors>
+<title>High frequency of cytolytic 21-hydroxylase-specific CD8+ T cells in autoimmune Addison's disease patients.</title>
+<source>J Immunol</source>
+<pubdate>2014</pubdate>
+<volume>193</volume>
+<pages>2118&#x2013;2126.</pages>
+</reference>
+<reference id="pubmed25127090">
+<accessionId id="acc037" href="info:pmid/25127090" />
+<authors>Gagliardi L, Nenke MA, Thynne TR, von der Borch J, Rankin WA, Henley DE, Sorbello J, Inder WJ, Torpy DJ.</authors>
+<title>Continuous subcutaneous hydrocortisone infusion therapy in Addison's disease: a randomized, placebo-controlled clinical trial.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2014</pubdate>
+<volume>99</volume>
+<pages>4149&#x2013;4157.</pages>
+</reference>
+<reference id="pubmed25279570">
+<accessionId id="acc038" href="info:pmid/25279570" />
+<authors>Wierman ME, Arlt W, Basson R, Davis SR, Miller KK, Murad MH, Rosner W, Santoro N.</authors>
+<title>Androgen therapy in women: a reappraisal: an Endocrine Society clinical practice guideline.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2014</pubdate>
+<volume>99</volume>
+<pages>3489&#x2013;3510.</pages>
+</reference>
+<reference id="pubmed24170102">
+<accessionId id="acc039" href="info:pmid/24170102" />
+<authors>Gan EH, MacArthur K, Mitchell AL, Hughes BA, Perros P, Ball SG, James RA, Quinton R, Chen S, Furmaniak J, Arlt W, Pearce SH.</authors>
+<title>Residual adrenal function in autoimmune Addison's disease: improvement after tetracosactide (ACTH1-24) treatment.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2014</pubdate>
+<volume>99</volume>
+<pages>111&#x2013;118.</pages>
+</reference>
+<reference id="pubmed26760044">
+<accessionId id="acc040" href="info:pmid/26760044" />
+<authors>Bornstein SR, Allolio B, Arlt W, Barthel A, Don-Wauchope A, Hammer GD, Husebye ES, Merke DP, Murad MH, Stratakis CA, Torpy DJ.</authors>
+<title>Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>364&#x2013;389.</pages>
+</reference>
+<reference id="pubmed28877961">
+<accessionId id="acc041" href="info:pmid/28877961" />
+<authors>Borresen SW, Klose M, Baslund B, Rasmussen &#x00C5;K, Hilsted L, Friis-Hansen L, Locht H, Hansen A, Hetland ML, Lydolph MC, Feldt-Rasmussen U.</authors>
+<title>Adrenal insufficiency is seen in more than one-third of patients during ongoing low-dose prednisolone treatment for rheumatoid arthritis.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2017</pubdate>
+<volume>177</volume>
+<pages>287&#x2013;295</pages>
+</reference>
+<reference id="pubmed26645970">
+<accessionId id="acc042" href="info:pmid/26645970" />
+<authors>Can A, Gross BA, Smith TR, Dammers R, Dirven CM, Woodmansee WW, Laws ER, Du R.</authors>
+<title>Pituitary dysfunction after aneurysmal subarachnoid hemorrhage: a systematic review and meta-analysis.</title>
+<source>Neurosurgery</source>
+<pubdate>2016</pubdate>
+<volume>79</volume>
+<pages>253&#x2013;264</pages>
+</reference>
+<reference id="pubmed28176190">
+<accessionId id="acc043" href="info:pmid/28176190" />
+<authors>Kim G, Huh JH, Lee KJ, Kim MY, Shim KY, Baik SK.</authors>
+<title>Relative adrenal insufficiency in patients with cirrhosis: a systematic review and meta-analysis.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2017</pubdate>
+<volume>62</volume>
+<pages>1067&#x2013;1079</pages>
+</reference>
+<reference id="pubmed28938251">
+<accessionId id="acc044" href="info:pmid/28938251" />
+<authors>Annane D, Pastores SM, Arlt W, Balk RA, Beishuizen A, Briegel J, Carcillo J, Christ-Crain M, Cooper MS, Marik PE, Meduri GU, Olsen KM, Rochwerg B, Rodgers SC, Russell JA, Van den Berghe G.</authors>
+<title>Critical Illness-Related Corticosteroid Insufficiency (CIRCI): A Narrative Review from a Multispecialty Task Force of the Society of Critical Care Medicine (SCCM) and the European Society of Intensive Care Medicine (ESICM).</title>
+<source>Crit Care Med</source>
+<pubdate>2017</pubdate>
+<volume>45</volume>
+<pages>2089&#x2013;2098</pages>
+</reference>
+<reference id="pubmed28192125">
+<accessionId id="acc045" href="info:pmid/28192125" />
+<authors>Kline GA, Buse J, Krause RD.</authors>
+<title>Clinical implications for biochemical diagnostic thresholds of adrenal sufficiency using a highly specific cortisol immunoassay.</title>
+<source>Clin Biochem</source>
+<pubdate>2017</pubdate>
+<volume>50</volume>
+<pages>475&#x2013;480</pages>
+</reference>
+<reference id="pubmed26649617">
+<accessionId id="acc046" href="info:pmid/26649617" />
+<authors>Ospina NS, Al Nofal A, Bancos I, Javed A, Benkhadra K, Kapoor E, Lteif AN, Natt N, Murad MH.</authors>
+<title>ACTH stimulation tests for the diagnosis of adrenal insufficiency: systematic review and meta-analysis.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>427&#x2013;434</pages>
+</reference>
+<reference id="pubmed27631672">
+<accessionId id="acc047" href="info:pmid/27631672" />
+<authors>Al Nofal A, Bancos I, Benkhadra K, Ospina NM, Javed A, Kapoor E, Muthusamy K, Brito JP, Turcu AF, Wang Z, Prokop L, Erickson DZ, Lteif AN, Natt N, Murad MH.</authors>
+<title>Glucocorticoid replacement regimens in chronic adrenal insufficiency: a systematic review and meta-analysis.</title>
+<source>Endocr Pract</source>
+<pubdate>2017</pubdate>
+<volume>23</volume>
+<pages>17&#x2013;31</pages>
+</reference>
+<reference id="pubmed29229498">
+<accessionId id="acc048" href="info:pmid/29229498" />
+<authors>Isidori AM, Venneri MA, Graziadio C, Simeoli C, Fiore D, Hasenmajer V, Sbardella E, Gianfrilli D, Pozza C, Pasqualetti P, Morrone S, Santoni A, Naro F, Colao A, Pivonello R, Lenzi A.</authors>
+<title>Effect of once-daily, modified-release hydrocortisone versus standard glucocorticoid therapy on metabolism and innate immunity in patients with adrenal insufficiency (DREAM): a single-blind, randomised controlled trial.</title>
+<source>Lancet Diabetes Endocrinol</source>
+<pubdate>2018</pubdate>
+<volume>6</volume>
+<pages>173&#x2013;185</pages>
+</reference>
+<reference id="pubmed26811406">
+<accessionId id="acc049" href="info:pmid/26811406" />
+<authors>Schulz J, Frey KR, Cooper MS, Zopf K, Ventz M, Diederich S, Quinkler M.</authors>
+<title>Reduction in daily hydrocortisone dose improves bone health in primary adrenal insufficiency.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2016</pubdate>
+<volume>174</volume>
+<pages>531&#x2013;538</pages>
+</reference>
+<reference id="pubmed26646751">
+<accessionId id="acc050" href="info:pmid/26646751" />
+<authors>Werumeus Buning J, Brummelman P, Koerts J, Dullaart RP, van den Berg G, van der Klauw MM, Sluiter WJ, Tucha O, Wolffenbuttel BH, van Beek AP.</authors>
+<title>Hydrocortisone dose influences pain, depressive symptoms and perceived health in adrenal insufficiency: a randomized controlled trial.</title>
+<source>Neuroendocrinology</source>
+<pubdate>2016</pubdate>
+<volume>103</volume>
+<pages>771&#x2013;778</pages>
+</reference>
+<reference id="pubmed26494876">
+<accessionId id="acc051" href="info:pmid/26494876" />
+<authors>Simunkova K, Jovanovic N, Rostrup E, Methlie P, &#x00D8;ksnes M, Nilsen RM, Henn&#x2298;H, Tilseth M, Godang K, Kovac A, L&#x00F8;v&#x00E5;s K, Husebye ES.</authors>
+<title>Effect of a pre-exercise hydrocortisone dose on short-term physical performance in female patients with primary adrenal failure.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2016</pubdate>
+<volume>174</volume>
+<pages>97&#x2013;105</pages>
+</reference>
+<reference id="pubmed29156052">
+<accessionId id="acc052" href="info:pmid/29156052" />
+<authors>Esposito D, Pasquali D, Johannsson G.</authors>
+<title>Primary adrenal insufficiency: managing mineralocorticoid replacement therapy.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2018</pubdate>
+<volume>103</volume>
+<pages>376&#x2013;387</pages>
+</reference>
+<reference id="pubmed26951687">
+<accessionId id="acc053" href="info:pmid/26951687" />
+<authors>Ng SM, Agwu JC, Dwan K.</authors>
+<title>A systematic review and meta-analysis of Synacthen tests for assessing hypothalamic-pituitary-adrenal insufficiency in children.</title>
+<source>Arch Dis Child</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>847&#x2013;853</pages>
+</reference>
+<reference id="pubmed32152914">
+<accessionId id="acc054" href="info:pmid/32152914" />
+<authors>Messina V, Hirvikoski T, Karlsson L, Vissani S, Wallensteen L, Ortolano R, Balsamo A, Nordenstr&#x00F6;m A, Lajic S.</authors>
+<title>Good overall behavioural adjustment in children and adolescents with classic congenital adrenal hyperplasia.</title>
+<source>Endocrine</source>
+<pubdate>2020</pubdate>
+<volume>68</volume>
+<pages>427&#x2013;437</pages>
+</reference>
+<reference id="pubmed27981742">
+<accessionId id="acc055" href="info:pmid/27981742" />
+<authors>Schneiderman M, Czuzoj-Shulman N, Spence AR, Abenhaim HA.</authors>
+<title>Maternal and neonatal outcomes of pregnancies in women with Addison's disease: a population-based cohort study on 7.7 million births.</title>
+<source>BJOG</source>
+<pubdate>2017</pubdate>
+<volume>124</volume>
+<pages>1772&#x2013;1779</pages>
+</reference>
+<reference id="pubmed31610036">
+<accessionId id="acc056" href="info:pmid/31610036" />
+<authors>Buonocore F, Achermann JC.</authors>
+<title>Primary adrenal insufficiency: New genetic causes and their long-term consequences.</title>
+<source>Clin Endocrinol (Oxf)</source>
+<pubdate>2020</pubdate>
+<volume>92</volume>
+<pages>11&#x2013;20</pages>
+</reference>
+<reference id="pubmed31679184">
+<accessionId id="acc057" href="info:pmid/31679184" />
+<authors>Lu J, Li L, Lan Y, Liang Y, Meng H.</authors>
+<title>Immune checkpoint inhibitor-associated pituitary-adrenal dysfunction: a systematic review and meta-analysis.</title>
+<source>Cancer Med</source>
+<pubdate>2019</pubdate>
+<volume>8</volume>
+<pages>7503&#x2013;7515</pages>
+</reference>
+<reference id="pubmed31567704">
+<accessionId id="acc058" href="info:pmid/31567704" />
+<authors>Suzuki K, Terakawa T, Furukawa J, Harada K, Hinata N, Nakano Y, Fujisawa M.</authors>
+<title>Nivolumab-induced adrenal insufficiency in patients with renal cell carcinoma.</title>
+<source>J Immunother</source>
+<pubdate>2020</pubdate>
+<volume>43</volume>
+<pages>38&#x2013;42</pages>
+</reference>
+<reference id="pubmed31225871">
+<accessionId id="acc059" href="info:pmid/31225871" />
+<authors>Pofi R, Gunatilake S, Macgregor V, Shine B, Joseph R, Grossman AB, Isidori AM, Cudlip S, Jafar-Mohammadi B, Tomlinson JW, Pal A.</authors>
+<title>Recovery of the hypothalamo-pituitary-adrenal axis after transsphenoidal adenomectomy for non-ACTH-secreting macroadenomas.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2019</pubdate>
+<volume>104</volume>
+<pages>5316&#x2013;5324</pages>
+</reference>
+<reference id="pubmed31808452">
+<accessionId id="acc060" href="info:pmid/31808452" />
+<authors>Nandish HK, Arun CS, Nair HR, Gopalakrishna R, Kumar H, Venu RP.</authors>
+<title>Adrenal insufficiency in decompensated cirrhotic patients without infection: prevalence, predictors and impact on mortality.</title>
+<source>J R Coll Physicians Edinb</source>
+<pubdate>2019</pubdate>
+<volume>49</volume>
+<pages>277&#x2013;281</pages>
+</reference>
+<reference id="pubmed31581127">
+<accessionId id="acc061" href="info:pmid/31581127" />
+<authors>Ebrahimi F, Widmer A, Wagner U, Mueller B, Schuetz P, Christ-Crain M, Kutz A.</authors>
+<title>Association of adrenal insufficiency with patient-oriented health-care outcomes in adult medical inpatients.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2019</pubdate>
+<volume>181</volume>
+<pages>701&#x2013;709</pages>
+</reference>
+<reference id="pubmed31256064">
+<accessionId id="acc062" href="info:pmid/31256064" />
+<authors>Regan EA, Vaidya A, Margulies PL, Make BJ, Lowe KE, Crapo JD.</authors>
+<title>Primary adrenal insufficiency in the United States: diagnostic error and patient satisfaction with treatment.</title>
+<source>Diagnosis (Berl)</source>
+<pubdate>2019</pubdate>
+<volume>6</volume>
+<pages>343&#x2013;350</pages>
+</reference>
+<reference id="pubmed30562824">
+<accessionId id="acc063" href="info:pmid/30562824" />
+<authors>Barthel A, Benker G, Berens K, Diederich S, Manfras B, Gruber M, Kanczkowski W, Kline G, Kamvissi-Lorenz V, Hahner S, Beuschlein F, Brennand A, Boehm BO, Torpy DJ, Bornstein SR.</authors>
+<title>An update on Addison's disease.</title>
+<source>Exp Clin Endocrinol Diabetes</source>
+<pubdate>2019</pubdate>
+<volume>127</volume>
+<pages>165&#x2013;175</pages>
+</reference>
+<reference id="pubmed28893233">
+<accessionId id="acc064" href="info:pmid/28893233" />
+<authors>Iwasaku M, Shinzawa M, Tanaka S, Kimachi K, Kawakami K.</authors>
+<title>Clinical characteristics of adrenal crisis in adult population with and without predisposing chronic adrenal insufficiency: a retrospective cohort study.</title>
+<source>BMC Endocr Disord</source>
+<pubdate>2017</pubdate>
+<volume>17</volume>
+<pages>58</pages>
+</reference>
+<reference id="pubmed31290981">
+<accessionId id="acc065" href="info:pmid/31290981" />
+<authors>Hayashi R, Tamada D, Murata M, Kitamura T, Mukai K, Maeda N, Otsuki M, Shimomura I.</authors>
+<title>Glucocorticoid replacement affects serum adiponectin levels and HDL-C in patients with secondary adrenal insufficiency.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2019</pubdate>
+<volume>104</volume>
+<pages>5814&#x2013;5822</pages>
+</reference>
+<reference id="pubmed31738804">
+<accessionId id="acc066" href="info:pmid/31738804" />
+<authors>Manosroi W, Phimphilai M, Khorana J, Atthakomol P.</authors>
+<title>Diagnostic performance of basal cortisol level at 0900-1300h in adrenal insufficiency.</title>
+<source>PLoS One</source>
+<pubdate>2019</pubdate>
+<volume>14</volume>
+<pages>e0225255</pages>
+</reference>
+<reference id="pubmed32621327">
+<accessionId id="acc067" href="info:pmid/32621327" />
+<authors>Bannon CA, Gallacher D, Hanson P, Randeva HS, Weickert MO, Barber TM.</authors>
+<title>Systematic review and meta-analysis of the metabolic effects of modified-release hydrocortisone versus standard glucocorticoid replacement therapy in adults with adrenal insufficiency.</title>
+<source>Clin Endocrinol (Oxf)</source>
+<pubdate>2020</pubdate>
+<pages />
+</reference>
+<reference id="pubmed32017012">
+<accessionId id="acc068" href="info:pmid/32017012" />
+<authors>Woodcock T, Barker P, Daniel S, Fletcher S, Wass JAH, Tomlinson JW, Misra U, Dattani M, Arlt W, Vercueil A.</authors>
+<title>Guidelines for the management of glucocorticoids during the peri-operative period for patients with adrenal insufficiency: Guidelines from the Association of Anaesthetists, the Royal College of Physicians and the Society for Endocrinology UK.</title>
+<source>Anaesthesia</source>
+<pubdate>2020</pubdate>
+<volume>75</volume>
+<pages>654&#x2013;663</pages>
+</reference>
+<reference id="pubmed32170323">
+<accessionId id="acc069" href="info:pmid/32170323" />
+<authors>Prete A, Taylor AE, Bancos I, Smith DJ, Foster MA, Kohler S, Fazal-Sanderson V, Komninos J, O'Neil DM, Vassiliadi DA, Mowatt CJ, Mihai R, Fallowfield JL, Annane D, Lord JM, Keevil BG, Wass JAH, Karavitaki N, Arlt W.</authors>
+<title>Prevention of adrenal crisis: cortisol responses to major stress compared to stress dose hydrocortisone delivery.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2020</pubdate>
+<volume>105</volume>
+<pages />
+</reference>
+<reference id="pubmed32335855">
+<accessionId id="acc070" href="info:pmid/32335855" />
+<authors>Isidori AM, Arnaldi G, Boscaro M, Falorni A, Giordano C, Giordano R, Pivonello R, Pofi R, Hasenmajer V, Venneri MA, Sbardella E, Simeoli C, Scaroni C, Lenzi A.</authors>
+<title>COVID-19 infection and glucocorticoids: update from the Italian Society of Endocrinology Expert Opinion on steroid replacement in adrenal insufficiency.</title>
+<source>J Endocrinol Invest</source>
+<pubdate>2020</pubdate>
+<volume>43</volume>
+<pages>1141&#x2013;1147</pages>
+</reference>
+<reference id="pubmed31688185">
+<accessionId id="acc071" href="info:pmid/31688185" />
+<authors>Bonnecaze AK, Reynolds P, Burns CA.</authors>
+<title>Stress-dosed glucocorticoids and mineralocorticoids before intensive endurance exercise in primary adrenal insufficiency.</title>
+<source>Clin J Sport Med</source>
+<pubdate>2019</pubdate>
+<volume>29</volume>
+<pages>e73&#x2013;e75</pages>
+</reference>
+<reference id="pubmed32472424">
+<accessionId id="acc072" href="info:pmid/32472424" />
+<authors>Bensing S, Giordano R, Falorni A.</authors>
+<title>Fertility and pregnancy in women with primary adrenal insufficiency.</title>
+<source>Endocrine</source>
+<pubdate>2020</pubdate>
+<pages />
+</reference>
+<reference id="pubmed32190901">
+<accessionId id="acc073" href="info:pmid/32190901" />
+<authors>Ng SM, Stepien KM, Krishan A.</authors>
+<title>Glucocorticoid replacement regimens for treating congenital adrenal hyperplasia.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2020</pubdate>
+<volume>3</volume>
+<pages>CD012517</pages>
+</reference>
+<reference id="pubmed32866966">
+<accessionId id="acc074" href="info:pmid/32866966" />
+<authors>Li T, Cunningham JL, Gilliam WP, Loukianova L, Donegan DM, Bancos I.</authors>
+<title>Prevalence of opioid-induced adrenal insufficiency in patients taking chronic opioids.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2020</pubdate>
+<volume>105</volume>
+<pages />
+</reference>
+<reference id="pubmed32593173">
+<accessionId id="acc075" href="info:pmid/32593173" />
+<authors>Elder CJ, Vilela R, Johnson TN, Taylor RN, Kemp EH, Keevil BG, Cross AS, Ross RJ, Wright NP.</authors>
+<title>Pharmacodynamic studies of nasal tetracosactide with salivary glucocorticoids for a noninvasive Short Synacthen Test.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2020</pubdate>
+<volume>105</volume>
+<pages />
+</reference>
+<reference id="pubmed32031663">
+<accessionId id="acc076" href="info:pmid/32031663" />
+<authors>Borresen SW, Thorgrimsen TB, Jensen B, Hilsted L, Bartels EM, Feldt-Rasmussen U, Locht H.</authors>
+<title>Adrenal insufficiency in prednisolone-treated patients with polymyalgia rheumatica or giant cell arteritis-prevalence and clinical approach.</title>
+<source>Rheumatology (Oxford)</source>
+<pubdate>2020</pubdate>
+<volume>59</volume>
+<pages>2764&#x2013;2773</pages>
+</reference>
+<reference id="pubmed33513125">
+<accessionId id="acc077" href="info:pmid/33513125" />
+<authors>Dineen R, Martin-Grace J, Ahmed KMS, Frizelle I, Gunness A, Garrahy A, Hannon AM, O'Reilly MW, Smith D, McDermott J, Healy ML, Agha A, Pazderska A, Gibney J, Thompson CJ, Behan LA, Sherlock M.</authors>
+<title>Cardiometabolic and psychological effects of dual-release hydrocortisone: a cross-over study.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2021</pubdate>
+<volume>184</volume>
+<pages>253&#x2013;265</pages>
+</reference>
+<reference id="pubmed34610473">
+<accessionId id="acc078" href="info:pmid/34610473" />
+<authors>Gruber LM, Bancos I.</authors>
+<title>Secondary Adrenal Insufficiency: Recent Updates and New Directions for Diagnosis and Management.</title>
+<source>Endocr Pract</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>110&#x2013;117</pages>
+</reference>
+<reference id="pubmed33554872">
+<accessionId id="acc079" href="info:pmid/33554872" />
+<authors>Shi Y, Shen M, Zheng X, Yang T.</authors>
+<title>Immune Checkpoint Inhibitor-Induced Adrenalitis and Primary Adrenal Insufficiency: Systematic Review and Optimal Management.</title>
+<source>Endocr Pract</source>
+<pubdate>2021</pubdate>
+<volume>27</volume>
+<pages>165&#x2013;169</pages>
+</reference>
+<reference id="pubmed33761049">
+<accessionId id="acc080" href="info:pmid/33761049" />
+<authors>Iglesias P, S&#x00E1;nchez JC, D&#x00ED;ez JJ.</authors>
+<title>Isolated ACTH deficiency induced by cancer immunotherapy: a systematic review.</title>
+<source>Pituitary</source>
+<pubdate>2021</pubdate>
+<volume>24</volume>
+<pages>630&#x2013;643</pages>
+</reference>
+<reference id="pubmed32912050">
+<accessionId id="acc081" href="info:pmid/32912050" />
+<authors>Albert SG, Sitaula S.</authors>
+<title>Etomidate, Adrenal Insufficiency and Mortality Associated With Severity of Illness: A Meta-Analysis.</title>
+<source>J Intensive Care Med</source>
+<pubdate>2021</pubdate>
+<volume>36</volume>
+<pages>1124&#x2013;1129</pages>
+</reference>
+<reference id="pubmed34628137">
+<accessionId id="acc082" href="info:pmid/34628137" />
+<authors>Nso N, Nassar M, Baraka B, Mbome Y, Alfishawy M.</authors>
+<title>Adrenal Insufficiency in patients with cardiogenic shock: A meta-analysis.</title>
+<source>Diabetes Metab Syndr</source>
+<pubdate>2021 Nov-Dec</pubdate>
+<volume>15</volume>
+<pages>102274</pages>
+</reference>
+<reference id="pubmed33564969">
+<accessionId id="acc083" href="info:pmid/33564969" />
+<authors>Katznelson L, Gadelha M.</authors>
+<title>Glucocorticoid use in patients with adrenal insufficiency following administration of the COVID-19 vaccine: a pituitary society statement.</title>
+<source>Pituitary</source>
+<pubdate>2021</pubdate>
+<volume>24</volume>
+<pages>143&#x2013;145</pages>
+</reference>
+<reference id="pubmed33769953">
+<accessionId id="acc084" href="info:pmid/33769953" />
+<authors>Quinkler M, Murray RD, Zhang P, Marelli C, Petermann R, Isidori AM, Ekman B.</authors>
+<title>Characterization of patients with adrenal insufficiency and frequent adrenal crises.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2021</pubdate>
+<volume>184</volume>
+<pages>761&#x2013;771</pages>
+</reference>
+<reference id="pubmed33527139">
+<accessionId id="acc085" href="info:pmid/33527139" />
+<authors>Merke DP, Mallappa A, Arlt W, Brac de la Perriere A, Lind&#x00E9;n Hirschberg A, Juul A, Newell-Price J, Perry CG, Prete A, Rees DA, Reisch N, Stikkelbroeck N, Touraine P, Maltby K, Treasure FP, Porter J, Ross RJ.</authors>
+<title>Modified-Release Hydrocortisone in Congenital Adrenal Hyperplasia.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2021</pubdate>
+<volume>106</volume>
+<pages>e2063&#x2013;e2077</pages>
+</reference>
+<reference id="pubmed35536876">
+<accessionId id="acc086" href="info:pmid/35536876" />
+<authors>Shepherd LM, Schmidtke KA, Hazlehurst JM, Melson E, Dretzke J, Hawks N, Arlt W, Tahrani AA, Swift A, Carrick-Sen DM.</authors>
+<title>Interventions for the prevention of adrenal crisis in adults with primary adrenal insufficiency: a systematic review.</title>
+<source>Eur J Endocrinol</source>
+<pubdate>2022</pubdate>
+<volume>187</volume>
+<pages>S1&#x2013;S20</pages>
+</reference>
+<reference id="pubmed33846948">
+<accessionId id="acc087" href="info:pmid/33846948" />
+<authors>Li L, Bensing S, Falhammar H.</authors>
+<title>Rate of fracture in patients with glucocorticoid replacement therapy: a systematic review and meta-analysis.</title>
+<source>Endocrine</source>
+<pubdate>2021</pubdate>
+<volume>74</volume>
+<pages>29&#x2013;37</pages>
+</reference>
+<reference id="pubmed33596308">
+<accessionId id="acc088" href="info:pmid/33596308" />
+<authors>Ngaosuwan K, Johnston DG, Godsland IF, Cox J, Majeed A, Quint JK, Oliver N, Robinson S.</authors>
+<title>Increased Mortality Risk in Patients With Primary and Secondary Adrenal Insufficiency.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2021</pubdate>
+<volume>106</volume>
+<pages>e2759&#x2013;e2768</pages>
+</reference>
+<reference id="pubmed32995889">
+<accessionId id="acc089" href="info:pmid/32995889" />
+<authors>Ali SR, Bryce J, Haghpanahan H, Lewsey JD, Tan LE, Atapattu N, Birkebaek NH, Blankenstein O, Neumann U, Balsamo A, Ortolano R, Bonfig W, Claahsen-van der Grinten HL, Cools M, Costa EC, Darendeliler F, Poyrazoglu S, Elsedfy H, Finken MJJ, Fluck CE, Gevers E, Korbonits M, Guaragna-Filho G, Guran T, Guven A, Hannema SE, Higham C, Hughes IA, Tadokoro-Cuccaro R, Thankamony A, Iotova V, Krone NP, Krone R, Lichiardopol C, Luczay A, Mendonca BB, Bachega TASS, Miranda MC, Milenkovic T, Mohnike K, Nordenstrom A, Einaudi S, van der Kamp H, Vieites A, de Vries L, Ross RJM, Ahmed SF.</authors>
+<title>Real-World Estimates of Adrenal Insufficiency-Related Adverse Events in Children With Congenital Adrenal Hyperplasia.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2021</pubdate>
+<volume>106</volume>
+<pages>e192&#x2013;e203</pages>
+</reference>
+<reference id="pubmed33247909">
+<accessionId id="acc090" href="info:pmid/33247909" />
+<authors>Capalbo D, Moracas C, Cappa M, Balsamo A, Maghnie M, Wasniewska MG, Greggio NA, Baronio F, Bizzarri C, Ferro G, Di Lascio A, Stancampiano MR, Azzolini S, Patti G, Longhi S, Valenzise M, Radetti G, Betterle C, Russo G, Salerno M.</authors>
+<title>Primary Adrenal Insufficiency in Childhood: Data From a Large Nationwide Cohort.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2021</pubdate>
+<volume>106</volume>
+<pages>762&#x2013;773</pages>
+</reference>
+<reference id="pubmed37956967">
+<accessionId id="acc091" href="info:pmid/37956967" />
+<authors>Yoo WS, Ku EJ, Lee EK, Ahn HY.</authors>
+<title>Incidence of Endocrine-Related Dysfunction in Patients Treated with New Immune Checkpoint Inhibitors: A Meta-Analysis and Comprehensive Review.</title>
+<source>Endocrinol Metab (Seoul)</source>
+<pubdate>2023</pubdate>
+<volume>38</volume>
+<pages>750&#x2013;759</pages>
+</reference>
+<reference id="pubmed38724043">
+<accessionId id="acc092" href="info:pmid/38724043" />
+<authors>Beuschlein F, Else T , Bancos I , Hahner S, Hamidi O , van Hulsteijn L , Husebye ES, Karavitaki N, Prete A, Vaidya A , Yedinak C, Dekkers OM.</authors>
+<title>European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2024</pubdate>
+<volume>109</volume>
+<pages>1657&#x2013;1683</pages>
+</reference>
+<reference id="pubmed37857352">
+<accessionId id="acc093" href="info:pmid/37857352" />
+<authors>Russell G, Kalafatakis K, Durant C, Marchant N, Thakrar J, Thirard R, King J, Bowles J, Upton T, Thai NJ, Brooks JCW, Wilson A, Phillips K, Ferguson S, Grabski M, Rogers CA, Lampros T, Wilson S, Harmer C, Munafo M, Lightman SL.</authors>
+<title>Ultradian hydrocortisone replacement alters neuronal processing, emotional ambiguity, affect and fatigue in adrenal insufficiency: The PULSES trial.</title>
+<source>J Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>295</volume>
+<pages>51&#x2013;67</pages>
+</reference>
+<reference id="pubmed37201788">
+<accessionId id="acc094" href="info:pmid/37201788" />
+<authors>Abdollahifard S, Taherifard E, Sadeghi A, Farrokhi A, Cohen-Gadol AA, Palmisciano P.</authors>
+<title>Early Morning Cortisol Level as a Predictive Factor for Long-Term Glucocorticoid Replacement After Pituitary Surgery: A Systematic Review and Meta-Analysis.</title>
+<source>World Neurosurg</source>
+<pubdate>2023</pubdate>
+<volume>176</volume>
+<pages>168&#x2013;178</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>120</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Adrenal Insufficiency: Diagnosis.</title>
+<graphic href="eee0120-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected adrenal insufficiency: Is the morning cortisol level above 300 nmol&#x002F;L?</label>
+<path target="cell-2"> Yes </path>
+<path target="cell-3"> No </path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Adrenal insufficiency ruled out</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Has the patient used corticosteroids in the past year?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Administer 250 mcg cosyntropin and measure cortisol level 30 to 60 minutes later. Is the serum cortisol above 500 nmol&#x002F;L?</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Adrenal insufficiency ruled out clinical follow-up</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Secondary adrenal insufficiency</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Administer 250 mcg cosyntropin and measure cortisol level 30 to 60 minutes later. Is the serum cortisol above 500 nmol&#x002F;L?</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Is the morning plasma ACTH elevated?</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Secondary adrenal insufficiency. Work up for hypothalamic-pituitary disease (eg, pituitary adenoma)</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Primary adrenal insufficiency</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Severe adrenal insufficiency ruled out. Do you suspect mild adrenal insufficiency?</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Are the ACTH, insulin tolerance and metyrapone test results normal?</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Mild adrenal insufficiency (primary or secondary)</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Clinical follow-up</label>
+</cell>
+<footnotes>
+<footnote>Data from Dorin RI, Qualls CR, Crapo LM. Diagnosis of adrenal insufficiency. <em>Ann Intern Med</em> 2003;<strong>139</strong>:194-204.<xref ref="pubmed12899587" resource="acc001" />and Lee MT, Won JG, Lee TI, Yang HJ, Lin HD, Tang KT. The relationship between morning serum cortisol and the short ACTH test in the evaluation of adrenal insufficiency.<em> Zhonghua Yi Xue Za Zhi (Taipei)</em> 2002;<strong>65</strong>:580-587.<xref ref="pubmed12636203" resource="acc010" />
+</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>120</id>
+<supertype />
+<last_update />
+</meta>
+<title> Algorithm for the diagnostic approach to the patient with PAI.</title>
+<graphic href="eee0120-w0002.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+<footnotes>
+<footnote>The most common causes of PAI are autoimmune destruction of the adrenal cortex in adults and CAH in children. These etiologies can be screened for using 21-hydroxylase antibodies and a baseline serum 17-hydroxyprogesterone level. Males with negative 21-hydroxylase antibodies should be tested for adrenoleukodystrophy with plasma VLCFAs. If these diagnoses are excluded, a CT scan of the adrenals may reveal evidence of adrenal infiltrative processes or metastases. The individual's clinical picture and family history may render some steps in the algorithm redundant or suggest specific genetic syndromes. The latter includes subtypes of autoimmune polyglandular syndromes or specific rare genetic disorders where adrenal failure is part of a broader phenotype. A list of differential diagnoses is provided in Table 2. AHC, adrenal hypoplasia congenita; AI, adrenal insufficiency; VLCFA, very long chain fatty acid. <sup>a</sup>17-OH-progesterone &#x003E;1000 ng&#x002F;dL is diagnostic for 21-OH deficiency (14). <sup>b</sup> VLCFA should be measured in the initial evaluation of preadolescent boys. [Adapted from E. S. Husebye, et al: Consensus statement on the diagnosis, treatment and follow-up of patients with primary adrenal insufficiency. J Intern Med. 2014;275:104&#x2013;115 (181), with permission. &#x00A9; John Wiley &amp; Sons, Inc.].<xref ref="pubmed26760044" resource="acc040" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

@@ -14,7 +14,8 @@
     "mesh-synonyms": "node build-mesh-synonyms.js",
     "build-chapters": "node build-chapters.js",
     "chapter-batch": "node chapter-batch.js",
-    "undo-import": "node undo-import.js"
+    "undo-import": "node undo-import.js",
+    "chapter-assignments": "node import-chapter-assignments.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

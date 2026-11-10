@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Tularemia</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0353</topic_id>
+<topic_comment />
+<topic_lastupdated>08/21/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Robert V. Ellis, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of Cincinnati</author_institution>
+<author_email>ellisr&#x0040;fammed.uc.edu</author_email>
+<author_phone_office>513-577-2691</author_phone_office>
+<author_phone_home>513-561-6224</author_phone_home>
+<author_phone_fax>513-558-3440</author_phone_fax>
+<author_street1>4307 Joan Place</author_street1>
+<author_street2 />
+<author_city>Cincinnati</author_city>
+<author_state>OH</author_state>
+<author_zip>45227</author_zip>
+</author>
+<author primary="no">
+<author_name>Carrie L. Ellis, DVM, MS</author_name>
+<author_title>Veterinarian</author_title>
+<author_department>Department of Veterinary Medicine</author_department>
+<author_institution>The Animal Hospital on Mt. Lookout Square</author_institution>
+<author_email>carrielynnellis&#x0040;yahoo.com</author_email>
+<author_phone_office>513-871-8866</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>3175 Linwood ave.</author_street1>
+<author_street2 />
+<author_city>Cincinnati</author_city>
+<author_state>OH</author_state>
+<author_zip>45208</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect tularemia in patients with abrupt onset of fever, profound lymphadenopathy, with or without typical skin lesion, and with evidence of arthropod bite, exposure to wild animals, or contaminated water. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Positive culture, fourfold increase in serum antibody titer, a single agglutination titer of 1:160 or greater, or a single microagglutination titer of 1:128 or greater are diagnostic. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>First-line treatment includes gentamicin, ciprofloxacin, and doxycycline. <evidence rating="A" system="SORT">A</evidence> Gentamicin is preferred for severe tularemia according to <resourceLink href="https://www.cdc.gov/tularemia/hcp/clinical-care/index.html">CDC guidance</resourceLink>. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Tularemia is a highly pathogenic bacterium that has the potential to be used as a biological weapon. Suspected or confirmed cases should be immediately reported to public health authorities. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Tularemia is a disease with multiple presentations caused by the zoonotic bacteria <em>Francisella tularensis</em>.<xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed11386933" resource="acc006" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Less than 200 cases per year in the United States. However, it is likely underrecognized and underreported.<xref ref="pubmed11900351" resource="acc003" /></listitem>
+<listitem>American Indians&#x002F;Alaska Natives: 0.5&#x002F;100,000.</listitem>
+<listitem>Caucasians: 0.04&#x002F;100,000.</listitem>
+<listitem>African American and Asians&#x002F;Pacific Islanders: 0.01&#x002F;100,000.</listitem>
+<listitem>Most cases are sporadic or in small clusters. Tularemia has been reported in all states except Hawaii.</listitem>
+<listitem>In Turkey, among 317 patients admitted with clinical suspicion for tularemia, 49 were confirmed to have the disease. It was more likely in older persons living in rural areas, and those with reported contact with rodents.<xref ref="pubmed26577431" resource="acc015" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Tularensis is one of the most pathogenic bacteria know. As few as 10 organisms can initiate disease in humans.</listitem>
+<listitem>Tularemia has had a recent surge in interest as a potential to be used as a biological weapon; it is a reportable disease in the United States.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Tularemia is caused by a zoonotic small, nonmotile, aerobic, Gram-negative coccobacillus <em>Francisella tularensis</em>. There are currently 4 subspecies, with only 2 accounting for most of the human disease. These subspecies are serologically indistinguishable.<xref ref="pubmed17468229" resource="acc004" /></listitem>
+<listitem>Subspecies tularensis (Type A) is more virulent and is most common in the United States.</listitem>
+<listitem>Subspecies holarctica (Type B) causes less severe disease and is most common in Europe and Asia.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The natural reservoirs for these bacteria are voles, mice, water rats, squirrels, rabbits, and hares.<xref ref="pubmed12675294" resource="acc005" /></listitem>
+<listitem>Human infection is acquired by arthropod bite, handling infected animal tissue or fluid, contact or ingestion of contaminated food, water, or soil, and inhalation of infective aerosols.</listitem>
+<listitem>Arthropods that can spread tularemia include but are not limited to ticks, flies, and mosquitoes.</listitem>
+<listitem>Tularensis is a facultative intracellular bacterium that replicates in macrophages. It targets lymph nodes, lungs, spleen, liver, and kidneys.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Native Indians&#x002F;Alaska Natives</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Children less than 10</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Adults greater than 50</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>June through September</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hunting and trapping</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Living in:</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Arkansas</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Missouri</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Eastern parts of Oklahoma</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Eastern parts of Kansas</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Southern parts of South Dakota</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Southern parts of Montana</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Dukes County, Massachusetts</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed11900351" resource="acc003" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Wear DEET-type insect repellents when hiking and camping, avoid handling sick or dead wild animals, and do not eat raw or undercooked wild animal meat products. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treat pets for fleas and ticks per veterinarian recommendations. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Post-exposure prophylaxis is effective with both doxycycline and ciprofloxacin for 14 days (use oral dosages in <xref ref="table003" />). It is only indicated in a person possibly exposed to <em>F. tularensis</em>, not in people with close contact to patients with tularemia. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>There is a potentially effective unlicensed live attenuated vaccine, but it is not currently recommended for use. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients with abrupt onset of fever, profound lymphadenopathy, with or without typical skin lesion, and with evidence of arthropod bite, exposure to wild animals, or contaminated water should be tested for tularemia. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9148133" resource="acc001" /><xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>Standard blood and wound cultures are often negative. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed17468229" resource="acc004" /></listitem>
+<listitem>Positive culture, fourfold increase in serum antibody titer, a single agglutination titer of 1:160 or greater, or a single microagglutination titer 1:128 or greater are diagnostic. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9148133" resource="acc001" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Plague</Differential_Name>
+<Differential_Features>Develops more rapidly, copious watery or purulent sputum, hemoptysis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Anthrax</Differential_Name>
+<Differential_Features>Develops more rapidly, mediastinal widening due to edema or bleeding, bacterial toxin</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Q fever</Differential_Name>
+<Differential_Features>Usually milder in symptoms, longer incubation period</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Influenza</Differential_Name>
+<Differential_Features>More prevalent during the winter, distinguish using rapid antigen detection assay</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Legionellosis</Differential_Name>
+<Differential_Features>Preferentially involves immunocompromised, elderly, and smokers</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Severe Acute Respiratory Syndrome (SARS)</Differential_Name>
+<Differential_Features>History of human-to-human spread</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Leptospirosis, toxoplasmosis, brucellosis</Differential_Name>
+<Differential_Features>Less prominent lymphadenopathy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Lymphoma</Differential_Name>
+<Differential_Features>Biopsy will differentiate</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Local skin infections: Staph., Strep., others</Differential_Name>
+<Differential_Features>Greater local inflammation and pain, less systemic symptoms</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>CMV, EBV</Differential_Name>
+<Differential_Features>Antibody and antigen assays will differentiate, slower progression</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Mycobacterial disease</Differential_Name>
+<Differential_Features>Slower progression</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cat scratch disease</Differential_Name>
+<Differential_Features>Less systemic symptoms</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Diagnostic criteria defined by CDC are shown below.<xref ref="pubmed9148133" resource="acc001" /></listitem>
+<listitem>Presumptive&#x002F;probable case: elevated serum antibody titer less than 1:160 or detection of <em>F. tularensis</em> in a clinical specimen by fluorescent assay.</listitem>
+<listitem>Confirmed case: isolation of <em>F. tularensis</em> in a clinical specimen, Four fold or greater increase in serum antibody titer, or 1:160 or greater serum agglutination antibody titer, or 1:128 or greater microagglutination titer in a patient with typical symptoms.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Tularemia is characterized by multiple clinical forms.<xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /><xref ref="book9781588081629" /> See <xref ref="table001" /> for descriptions of each clinical manifestation of tularemia.</listitem>
+<listitem>Patients typically present with abrupt onset fever to 38&#x00B0;C to 40&#x00B0;C, myalgias, arthralgias, headache, coryza, and sore throat. See <xref ref="table001" /> and <xref ref="table002" />. It should be considered in the differential diagnosis of patients with prolonged fever and risk factors for exposure.<xref ref="pubmed32380974" resource="acc016" /></listitem>
+<listitem>The incubation period is 3 to 5 days (CDC).</listitem>
+<listitem>In a series of 68 cases in Turkey, the most common symptoms were sore throat (100&#x0025;), fever (96&#x0025; in children, 91&#x0025; in adults), tonsillitis (69&#x0025; and 79&#x0025;), and rash (15&#x0025; and 12&#x0025;) with a mean duration of symptoms of 21 days in children and 33 days in adults.<xref ref="pubmed25056077" resource="acc014" /> A series of 16 cases in a Turkish Military Hospital had generally similar findings.<xref ref="pubmed25116664" resource="acc013" /></listitem>
+<listitem>The diagnosis is supported by evidence of arthropod bite, exposure to tissues of a mammalian host, or exposure to contaminated water.</listitem>
+<listitem>As many as 42&#x0025; to 50&#x0025; of patients will have pulse-temperature dissociation (relative bradycardia in a febrile patient).<xref ref="pubmed11386933" resource="acc006" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>The WBC is typically normal to mildly elevated and can show a relative increase in mononuclear cells.</listitem>
+<listitem>Liver enzymes may be mildly elevated.</listitem>
+<listitem>C-reactive protein peaks at about 50 mg&#x002F;L and sedimentation rate is usually elevated at 30 to 50 mm&#x002F;hour.</listitem>
+<listitem>Tularensis can be difficult to grow with standard blood and wound cultures. It is slow growing and requires a cysteine supplemented media. Blood cultures are rarely positive. Appropriate specimens include swabs or scrapings of ulcers, lymph node aspirates or biopsies, pharyngeal swabs, or respiratory specimens (e.g. pleural fluid), depending on the form of illness.</listitem>
+<listitem>Serum antibody titer or agglutination and adapted microagglutination tests approach 100&#x0025; sensitivity and specificity and are the most widely used tests to diagnose tularemia. However, these test can have cross-reactivity to Brucella, <em>Yersinia enterocolitica</em>, and Proteus. They appear in the second week following exposure, peak in several weeks, and then slowly decline. Patients can have a positive titer for several years.<xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed15539498" resource="acc010" /></listitem>
+<listitem>An ELISA test can be used but has limited advantage over the more frequently used agglutination test. IgA, IgM, and IgG all raise and fall in parallel, and therefore are not useful in determining acute versus past infection. Sensitivity and specificity are 98&#x0025;.<xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed15539498" resource="acc010" /></listitem>
+<listitem>The CDC recommends direct immunofluorescence assay or PCR to support the diagnosis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>After an incubation period of 3 to 5 days, patients present with 1 of 7 clinical forms (<xref ref="table001" />).</listitem>
+<listitem>With all clinical forms, onset is usually abrupt and is accompanied by fever to 38&#x00B0;C to 40&#x00B0;C, myalgias, arthralgias, headache, coryza, and sore throat.</listitem>
+<listitem>Initial testing should include a serum antibody titer or agglutination tests.</listitem>
+<listitem>First-line treatment is with streptomycin or gentamicin (<xref ref="table003" />).<xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>First-line treatment includes gentamicin, ciprofloxacin and doxycycline (<xref ref="table003" />). Gentamicin is preferred for severe tularemia according to <resourceLink href="https://www.cdc.gov/tularemia/hcp/clinical-care/index.html">CDC guidance</resourceLink>. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>Isolation is not needed as human-to-human transmission has not been reported. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>Tularemia is a reportable disease and clinicians should contact public health authorities of a suspected case. <evidence rating="C" system="SORT">C</evidence><xref ref="web001" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>First-line treatment of tularemia is IV or IM gentamicin, IV or PO ciprofloxacin, or IV or PO doxycycline for 10 to 14 days. See <xref ref="table003" />. Gentamicin is preferred for severe tularemia according to <resourceLink href="https://www.cdc.gov/tularemia/hcp/clinical-care/index.html">CDC guidance</resourceLink>.<xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>Second-line treatment includes fluoroquinolones, doxycycline, and chloramphenicol for 14 to 21 days. See <xref ref="table003" />. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>Case reports (n&#x003D;870) found mortality rates of 0.7&#x0025; with gentamicin, 0.9&#x0025; with fluoroquinolones, and 1.2&#x0025; with tetracyclines.<xref ref="pubmed38294108" resource="acc019" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgical drainage of lymph nodes may be necessary.<xref ref="pubmed25056077" resource="acc014" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Human-to-human transmission is not known to occur. Isolation of hospitalized patients is not needed.<xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>Inform microbiology laboratory personnel of a potential case of tularemia. A higher level of precaution is needed for laboratory works due to a risk of aerosolization of infective specimens.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Clinicians caring for patients with suspected tularemia should contact local or state health departments or if unavailable the Centers for Disease Control and Prevention at (970) 221-6400.</listitem>
+<listitem>Referral to the hospital epidemiologist or infectious disease doctor is indicated.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Before antibiotics, the mortality rate for type A tularemia was 5&#x0025; to 15&#x0025; and as high as 30&#x0025; to 60&#x0025; in the respiratory form. Current mortality rate is less than 2&#x0025;. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11900351" resource="acc003" /></listitem>
+<listitem>The Type A biovar is more virulent and is more common in the United States. The Type B biovar rarely causes severe disease. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed17468229" resource="acc004" /><xref ref="pubmed11386933" resource="acc006" /><xref ref="pubmed11757513" resource="acc008" /></listitem>
+<listitem>The pneumonic form causes the highest morbidity and mortality. The most common form, ulceroglandular, rarely causes severe disease. Symptoms can be slow to resolve and lymphadenopathy can last for years. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15677845" resource="acc002" /><xref ref="pubmed11386933" resource="acc006" /></listitem>
+<listitem>It is a rare cause of myocarditis.<xref ref="pubmed30656604" resource="acc017" /></listitem>
+<listitem>Pregnancy loss has been reported and may be reduced by antimicrobial therapy, although this is based only on a small series of case reports.<xref ref="pubmed38294114" resource="acc018" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9148133">
+<accessionId id="acc001" href="info:pmid/9148133" />
+<authors />
+<title>Case definitions for infectious conditions under public health surveillance. Centers for Disease Control and Prevention.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>1997</pubdate>
+<volume>46</volume>
+<pages>1&#x2013;55.</pages>
+</reference>
+<reference id="pubmed15677845">
+<accessionId id="acc002" href="info:pmid/15677845" />
+<authors>Bossi P, Tegnell A, Baka A, et al.; Taskforce on Bioterrorism (BICHAT), Public Health Directorate, European Commission, Luxembourg.</authors>
+<title>BICHAT Guidelines for the clinical management of tularemia and bioterrorism-related tularemia.</title>
+<source>Euro Surveill</source>
+<pubdate>2004</pubdate>
+<volume>9</volume>
+<pages>E9&#x2013;E10.</pages>
+</reference>
+<reference id="pubmed11900351">
+<accessionId id="acc003" href="info:pmid/11900351" />
+<authors>Centers for Disease Control and Prevention (CDC).</authors>
+<title>Tularemia-United States, 1990-2000.</title>
+<source>MMWR</source>
+<pubdate>2002</pubdate>
+<volume>51</volume>
+<pages>181&#x2013;184.</pages>
+</reference>
+<reference id="pubmed17468229">
+<accessionId id="acc004" href="info:pmid/17468229" />
+<authors>Tarnvik A, Chu MC.</authors>
+<title>New approaches to diagnosis and therapy of tularemia.</title>
+<source>Ann NY Acad Sci</source>
+<pubdate>2007</pubdate>
+<volume>1105</volume>
+<pages>378&#x2013;404.</pages>
+</reference>
+<reference id="pubmed12675294">
+<accessionId id="acc005" href="info:pmid/12675294" />
+<authors>Feldman KA.</authors>
+<title>Tularemia.</title>
+<source>J Am Vet Med Assoc</source>
+<pubdate>2003</pubdate>
+<volume>222</volume>
+<pages>725&#x2013;730.</pages>
+</reference>
+<reference id="pubmed11386933">
+<accessionId id="acc006" href="info:pmid/11386933" />
+<authors>Dennis DT, Inglesby TV, Henderson DA, et al.; Working Group on Civilian Biodefense.</authors>
+<title>Tularemia as a biological weapon: Medical and Public Health Management.</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>285</volume>
+<pages>2763&#x2013;2773.</pages>
+</reference>
+<reference id="web001">
+<citation />
+<url>http://www.cdc.gov/ncphi/od/AI/phs/infdis2008.htm</url>
+<organization>CDC.</organization>
+<longtitle />
+<title>Centers for Disease Control and Prevention.</title>
+<dateguideline>10&#x002F;3&#x002F;08</dateguideline>
+</reference>
+<reference id="pubmed11757513">
+<accessionId id="acc008" href="info:pmid/11757513" />
+<authors>Hornick R.</authors>
+<title>Tularemia revisited.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>345</volume>
+<pages>1637.</pages>
+</reference>
+<reference id="book9781588081629">
+<chapter_authors />
+<chapter_title />
+<book_editors>Woods, Lt. Col. Jon B, eds.</book_editors>
+<book_title>USAMRIID's Medical Management of Biological Casualties Handbook.</book_title>
+<edition>6th ed.</edition>
+<city_publisher>Fort Detrick, Maryland:</city_publisher>
+<year>2005</year>
+<pages />
+<isbn>1588081629</isbn>
+</reference>
+<reference id="pubmed15539498">
+<accessionId id="acc010" href="info:pmid/15539498" />
+<authors>Porsch-Ozcurumez M, Kischel N, Priebe H, Splettstosser W, Finke EJ, Grunow R.</authors>
+<title>Comparison of enzyme-linked Immunosorbent assay, western blotting, microagglutination, indirect immunofluorescence assay, and flow cytometry for serological diagnosis of tularemia.</title>
+<source>Clin Diagn Lab Immunol</source>
+<pubdate>2004</pubdate>
+<volume>11</volume>
+<pages>1008&#x2013;1015.</pages>
+</reference>
+<reference id="pubmed4058993">
+<accessionId id="acc011" href="info:pmid/4058993" />
+<authors>Jacobs RF, Condrey YM, Yamauchi T.</authors>
+<title>Tularemia in adults and children: A changing presentation.</title>
+<source>Pediatrics</source>
+<pubdate>1985</pubdate>
+<volume>76</volume>
+<pages>818&#x2013;822.</pages>
+</reference>
+<reference id="pubmed7948556">
+<accessionId id="acc012" href="info:pmid/7948556" />
+<authors>Enderlin G, Morales L, Jacobs RF, Cross JT.</authors>
+<title>Streptomycin and alternative agents for the treatment of tularemia: Review of the literature.</title>
+<source>Clin Infect Dis</source>
+<pubdate>1994</pubdate>
+<volume>19</volume>
+<pages>42&#x2013;47.</pages>
+</reference>
+<reference id="pubmed25116664">
+<accessionId id="acc013" href="info:pmid/25116664" />
+<authors>Karakas A, Coskun O, Artuk C, Savasci U, Gul HC, Mert G, Avci IY, Besirbellioglu BA, Eyigun CP.</authors>
+<title>Oropharyngeal tularemia cases admitted to a military hospital in Ankara, Turkey.</title>
+<source>J Infect Dev Ctries</source>
+<pubdate>2014</pubdate>
+<volume>8</volume>
+<pages>994&#x2013;999.</pages>
+</reference>
+<reference id="pubmed25056077">
+<accessionId id="acc014" href="info:pmid/25056077" />
+<authors>Gozel MG, Engin A, Altuntas EE, Salk &#x0130;, Kaya A, Celik C, Dokmetas I, Bakir M, Elaldi N.</authors>
+<title>Evaluation of clinical and laboratory findings of pediatric and adult patients with oropharyngeal tularemia in Turkey: A combination of surgical drainage and antibiotic therapy increases treatment success.</title>
+<source>Jpn J Infect Dis</source>
+<pubdate>2014</pubdate>
+<volume>67</volume>
+<pages>295&#x2013;299.</pages>
+</reference>
+<reference id="pubmed26577431">
+<accessionId id="acc015" href="info:pmid/26577431" />
+<authors>Yapar D, Erenler AK, Terzi &#x00D6;, Akdo&#x011F;an &#x00D6;, Ece Y, Baykam N.</authors>
+<title>Predicting tularemia with clinical, laboratory and demographical findings in the ED.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>34</volume>
+<pages>218&#x2013;221.</pages>
+</reference>
+<reference id="pubmed32380974">
+<accessionId id="acc016" href="info:pmid/32380974" />
+<authors>Antonitsch L, Weidinger G, Stanek G, Markowicz M.</authors>
+<title>Francisella tularensis as the cause of protracted fever.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2020</pubdate>
+<volume>20</volume>
+<pages>327.</pages>
+</reference>
+<reference id="pubmed30656604">
+<accessionId id="acc017" href="info:pmid/30656604" />
+<authors>Frischknecht M, Meier A, Mani B, Joerg L, Kim OC, Boggian K, Strahm C.</authors>
+<title>Tularemia: An experience of 13 cases including a rare myocarditis in a referral center in Eastern Switzerland (Central Europe) and a review of the literature.</title>
+<source>Infection</source>
+<pubdate>2019</pubdate>
+<volume>47</volume>
+<pages>683&#x2013;695.</pages>
+</reference>
+<reference id="pubmed38294114">
+<accessionId id="acc018" href="info:pmid/38294114" />
+<authors>Fleck-Derderian S, Davis KM, Winberg J, Nelson CA, Meaney-Delman D.</authors>
+<title>Systematic Review of Tularemia During Pregnancy.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2024</pubdate>
+<volume>78</volume>
+<pages>S47&#x2013;S54.</pages>
+</reference>
+<reference id="pubmed38294108">
+<accessionId id="acc019" href="info:pmid/38294108" />
+<authors>Nelson CA, Winberg J, Bostic TD, Davis KM, Fleck-Derderian S.</authors>
+<title>Systematic Review: Clinical Features, Antimicrobial Treatment, and Outcomes of Human Tularemia, 1993-2023.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2024</pubdate>
+<volume>78</volume>
+<pages>S15&#x2013;S28.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Clinical Manifestations of Tularemia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Clinical Manifestations</th>
+<th align="left" colspan="1">Description</th>
+<th align="left" colspan="1">Cases (&#x0025;)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Tularemia pneumonia</td>
+<td align="left" colspan="1">Follows inhalation exposure</td>
+<td align="left" colspan="1">10-20</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Acute flulike symptoms, progresses to severe pneumonia, bloody sputum, and can lead to respiratory failure and death</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Chest radiograph shows peribronchial infiltrates, bronchopneumonia, pleural effusions, and hilar lymphadenopathy</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Most likely form seen during an intentional release of tularemia</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ulceroglandular tularemia</td>
+<td align="left" colspan="1">Follows handling contaminated material or arthropod bite</td>
+<td align="left" colspan="1">60-85</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Papular lesion at the site of inoculation that enlarges to a pustule, ruptures to a painful ulcer that can be covered by an eschar. The ulcer is usually 0.4-3 cm</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Accompanied by fever, body aches, and lymphadenopathy that can become fluctuant and rupture</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Glandular tularemia</td>
+<td align="left" colspan="1">Lymphadenopathy and fever without a skin lesion</td>
+<td align="left" colspan="1">3-15</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Oculoglandular tularemia</td>
+<td align="left" colspan="1">Follows direct contamination to the eyes</td>
+<td align="left" colspan="1">1-2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Purulent conjunctivitis, chemosis, conjunctival nodules or ulcers, or periorbital edema</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Preauricular or cervical lymphadenopathy</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Oropharyngeal tularemia</td>
+<td align="left" colspan="1">Follows ingestion of contaminated water or food</td>
+<td align="left" colspan="1">1-25</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Exudative pharyngitis&#x002F;tonsillitis, stomatitis, painful mucosal ulcerations, retropharyngeal abscess, regional lymphadenopathy</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Tularemia sepsis</td>
+<td align="left" colspan="1">Can be a complication of any form of tularemia infection</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Septic shock, disseminated intravascular coagulation, hemorrhage, acute respiratory distress syndrome, organ failure, and coma</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Typhoidal tularemia</td>
+<td align="left" colspan="1">Acute flulike symptoms with no indication of an inoculation site</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>Data from Bossi P, Tegnell A, Baka A, et al. BICHAT Guidelines for the clinical management of tularemia and bioterrorism-related tularemia. <em>Euro Surveill</em> 2004;<strong>9</strong>:1&#x2013;7.<xref ref="pubmed15677845" resource="acc002" /> Tarnvik A, Chu MC. New approaches to diagnosis and therapy of tularemia. <em>Ann NY Acad Sci</em> 2007;<strong>1105</strong>:378&#x2013;404.<xref ref="pubmed17468229" resource="acc004" /> Feldman KA. Tularemia. <em>JAMVA</em> 2003;<strong>222</strong>:725&#x2013;731.<xref ref="pubmed12675294" resource="acc005" /> Dennis DT, Inglesby TV, Henderson DA, et al.; for the Working Group on Civilian Biodefense. Tularemia as a biological weapon: medical and public health management. <em>JAMA</em> 2001;<strong>285</strong>:2763&#x2013;2773.<xref ref="pubmed11386933" resource="acc006" /> Hornick R. Tularemia revisited. <em>N Engl J Med</em> 2001;<strong>345</strong>:1637&#x2013;1639.<xref ref="pubmed11757513" resource="acc008" /> U.S. Army Medical Research Institute. <em>USAMRIID's Medical Management of Biological Casualties Handbook</em>, 6th edition. Frederick, MD: International Medical Publishing; 2005.<xref ref="book9781588081629" />
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Prevalence of Symptoms of Tularemia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Symptom</th>
+<th align="left" colspan="1">Prevalence (&#x0025;)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Lymphadenopathy</td>
+<td align="left" colspan="1">65-96</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fever</td>
+<td align="left" colspan="1">85-87</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chills</td>
+<td align="left" colspan="1">52</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Skin lesion</td>
+<td align="left" colspan="1">45-51</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Headache</td>
+<td align="left" colspan="1">45</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cough</td>
+<td align="left" colspan="1">9-38</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Nausea&#x002F;vomiting</td>
+<td align="left" colspan="1">19-35</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hepatosplenomegaly</td>
+<td align="left" colspan="1">35</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pharyngitis</td>
+<td align="left" colspan="1">34-43</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Myalgias</td>
+<td align="left" colspan="1">31-39</td>
+</tr>
+</table>Data from U.S. Army Medical Research Institute. <em>USAMRIID's Medical Management of Biological Casualties Handbook</em>, 6th edition. Frederick, MD: International Medical Publishing; 2005;<xref ref="book9781588081629" /> and Jacobs RF, Condrey YM, Yamauchi T. Tularemia in adults and children: a changing presentation. <em>Pediatrics</em> 1985;<strong>76</strong>:818&#x2013;22.<xref ref="pubmed4058993" resource="acc011" />
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Treatment of Tularemia (Source: https:&#x002F;&#x002F;www.cdc.gov&#x002F;tularemia&#x002F;clinicians&#x002F;index.html)</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Drug</th>
+<th align="left" colspan="1">Dosage</th>
+<th align="left" colspan="1">Duration</th>
+<th align="left" colspan="1">Comment</th>
+</tr>
+<tr>
+<td align="left" colspan="4"><strong>Adults</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Gentamicin*</td>
+<td align="left" colspan="1">5 mg&#x002F;kg IV or IM in 1 or 2 doses daily</td>
+<td align="left" colspan="1">10 - 14 days</td>
+<td align="left" colspan="1">Fetal nerve deafness and renal damage have been reported with use of other aminoglycosides, but not gentamicin. Short-term use for treatment of tularemia likely poses little risk and the benefits likely outweigh the risks. Monitor serum drug levels.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ciprofloxacin*</td>
+<td align="left" colspan="1">&#x00A0;&#x00A0;400 mg IV or 500 mg PO twice daily</td>
+<td align="left" colspan="1">10 - 14 days</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Doxycycline</td>
+<td align="left" colspan="1">&#x00A0;&#x00A0;100 mg IV or PO twice daily</td>
+<td align="left" colspan="1">14 - 21 days</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Children</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Gentamicin*</td>
+<td align="left" colspan="1">&#x00A0;&#x00A0;2.5 mg&#x002F;kg IM or IV 3 times daily**</td>
+<td align="left" colspan="1">10 - 14 days</td>
+<td align="left" colspan="1">Monitor drug levels.</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ciprofloxacin*</td>
+<td align="left" colspan="1">15 mg&#x002F;kg IV or PO twice daily ; maximum dose 800 mg per day</td>
+<td align="left" colspan="1">10 - 14 days</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Doxycycline</td>
+<td align="left" colspan="1">2.2 mg&#x002F;kg IV or PO twice daily; maximum dose 100 mg twice daily</td>
+<td align="left" colspan="1">21 days</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>
+<sup>*</sup>This is not a US Food and Drug Administration-approved use of this drug. NOTE: Combine aminoglycoside and fluoroquinolone in severe cases. Convert to oral medication when clinically indicated. Data from Bossi P, Tegnell A, Baka A, et al. BICHAT Guidelines for the clinical management of tularemia and bioterrorism-related tularemia. <em>Euro Surveill</em> 2004;<strong>9</strong>:1&#x2013;7.<xref ref="pubmed15677845" resource="acc002" /> Tarnvik A, Chu MC. New approaches to diagnosis and therapy of tularemia. <em>Ann NY Acad Sci</em> 2007;<strong>1105</strong>:378&#x2013;404.<xref ref="pubmed17468229" resource="acc004" /> Feldman KA. Tularemia. <em>JAVMA</em> 2003;<strong>222</strong>:725&#x2013;731.<xref ref="pubmed12675294" resource="acc005" /> Dennis DT, Inglesby TV, Henderson DA, et al.; for the Working Group on Civilian Biodefense. Tularemia as a biological weapon: medical and public health management. <em>JAMA</em> 2001;<strong>285</strong>:2763&#x2013;2773.<xref ref="pubmed11386933" resource="acc006" /> Enderlin G, Morales L, Jacobs RF, Cross JT. Streptomycin and alternative agents for the treatment of tularemia: review of the literature. <em>Clin Infect Dis</em> 1994;<strong>19</strong>:42&#x2013;47.<xref ref="pubmed7948556" resource="acc012" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Hepatitis B</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0202</topic_id>
+<topic_comment />
+<topic_lastupdated>02/17/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mark H. Ebell, MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>College of Public Health, University of Georgia</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Henry C. Barry, MD, MS</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Michigan State University, College of Human Medicine</author_institution>
+<author_email>henry&#x005F;barry&#x0040;comcast.net</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Steven L. Milligan, MD</author_name>
+<author_title>Private Practice</author_title>
+<author_department />
+<author_institution />
+<author_email>stevemilligan&#x0040;centura.org</author_email>
+<author_phone_office>719-562-1122</author_phone_office>
+<author_phone_home>719-543-5206</author_phone_home>
+<author_phone_fax />
+<author_street1>916 Indiana Ave.</author_street1>
+<author_street2>Suite 120</author_street2>
+<author_city>Pueblo</author_city>
+<author_state>CO</author_state>
+<author_zip>81004</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Screen all pregnant women for hepatitis B during their first prenatal visit, <evidence rating="A" system="SORT">A</evidence><xref ref="poem211014" resource="acc030" /> and screen adolescents and adults at high risk for HBV infection, including those born in a high-prevalence country, HIV-positive persons, persons who inject drugs (PWID), household contacts of persons with HBV infection, and men who have sex with men (MSM). <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Assess viral replication (quantitative hepatitis B virus [HBV] DNA level) in symptomatic patients with elevated ALT or AST, and in all patients who are carriers of hepatitis B surface antigen (HBsAg). <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Offer testing for HIV disease and hepatitis C to all hepatitis B carriers, and vaccinate all patients with chronic HBV against hepatitis A. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Treatment for acute HBV infection is primarily supportive and does not generally require antiviral therapy. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Individuals with chronic HBV infection should be treated if they have ALT 2x greater than upper limit of normal (ULN) and elevated HBV-DNA, or if ALT is between ULN and 2x ULN and there is evidence of significant fibrosis (&#x2265;F2 or &#x2265;A3). Recommended first-line antiviral drugs include pegylated &#x03B1;-interferon, entecavir, and tenofovir.<xref ref="pubmed29405329" resource="acc026" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Pregnant persons with hepatitis B should be treated with tenofovir starting at week 28 and their infants should receive both hepatitis B vaccination and HBIG within 12 hours of birth.<xref ref="pubmed37590986" resource="acc047" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Hepatitis B is an infection of the liver caused by HBV. It is a notifiable disease.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>In 2006, the overall incidence of hepatitis B in the United States was 1.6 cases per 100,000 per year.<xref ref="pubmed18354374" resource="acc017" /></listitem>
+<listitem>The incidence of hepatitis B in children and adolescents was 0.34 cases per 100,000 per year in 2002.<xref ref="pubmed14704650" resource="acc016" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The prevalence of chronic hepatitis B infection was 0.42&#x0025; in the United States between 1988 and 1994.<xref ref="pubmed9987458" resource="acc015" /></listitem>
+<listitem>The prevalence of current or past exposure in the United States during that time was 4.9&#x0025;.<xref ref="pubmed9987458" resource="acc015" /></listitem>
+<listitem>Overall, approximately 1.2 million Americans have chronic hepatitis B infection.<xref ref="pubmed14704650" resource="acc016" /></listitem>
+<listitem>The world-wide prevalence is greatest in nonindustrialized countries.</listitem>
+</list>
+</prevalence>
+<economic_impact>
+<list style="bulleted">
+<listitem>The costs associated with hepatitis B infection depend on disease severity and are mostly attributed to patients with chronic infection.</listitem>
+<listitem>The approximate annual cost of caring for a patient with uncomplicated chronic hepatitis B infection is $800, with decompensated hepatic <resourceLink href="info:wiley/eep-eee/199">cirrhosis</resourceLink> $11,500, liver transplant $86,500, and <resourceLink href="info:wiley/eep-eee/489">hepatocellular cancer</resourceLink> $7500.<xref ref="pubmed15602162" resource="acc014" /></listitem>
+</list>
+</economic_impact>
+<social_impact>
+<list style="bulleted">
+<listitem>About 2 billion people worldwide have been infected with hepatitis B and more than 350 million have chronic liver infection.<xref ref="web001" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Hepatitis B is caused by HBV, which is a hepadnavirus with eight different genotypes.</listitem>
+<listitem>HBeAg is more infectious than HBsAg.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Transmission of HBV occurs by percutaneous (bite or needlestick) or mucosal exposure to the blood or body fluids of an infected person or through perinatal transmission from mother to infant.<xref ref="pubmed18354374" resource="acc017" /></listitem>
+<listitem>Transmission of HBV also can occur in settings involving nonsexual interpersonal contact for an extended period (eg, among household contacts of a person with chronic HBV infection).<xref ref="pubmed18354374" resource="acc017" /></listitem>
+<listitem>The incubation period from exposure to clinical hepatitis or serologic evidence of infection is from 1 to 4 months.</listitem>
+<listitem>Patients exposed to HBV can experience up to four phases of infection (summarized in <xref ref="table004" />): asymptomatic infection, acute inflammatory response, chronic infection&#x002F;carrier state, or resolution.</listitem>
+<listitem>Those persons who become chronically infected are sources of transmission of HBV to others.</listitem>
+<listitem>In patients with chronic HBV infection who develop chronic hepatic inflammation, HBV-infected hepatocytes are destroyed, releasing aminotransferases. Over time, this process leads to fibrosis and <resourceLink href="info:wiley/eep-eee/199">cirrhosis.</resourceLink></listitem>
+<listitem>Among patients with chronic inflammation, the rapid cell destruction and regeneration may lead to spontaneous chromosomal anomalies thought to be responsible for causing <resourceLink href="info:wiley/eep-eee/489">hepatocellular carcinoma.</resourceLink></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Blood transfusion</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Needlestick injury</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Men who have sex with men (MSM)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>IV drug use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Sexual contact with person known to carry hepatitis B</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Household contact with person carrying the virus</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Healthcare workers</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hemodialysis patients</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Infants of HBV-infected women</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Residents, immigrants, and children of immigrants in endemic areas</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screen all pregnant women for hepatitis B during their first prenatal visit, <evidence rating="A" system="SORT">A</evidence><xref ref="poem211014" resource="acc030" /> and screen adolescents and adults at high risk for HBV infection, including those born in a high-prevalence country, HIV-positive persons, persons who inject drugs (PWID), household contacts of persons with HBV infection, and men who have sex with men (MSM).<xref ref="pubmed33320230" resource="acc037" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Vaccination against hepatitis B is recommended for all children younger than 18 years and any adults at risk for hepatitis B infection. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Vaccinate all patients with chronic HBV against hepatitis A. Offer testing for HIV disease and hepatitis C to all hepatitis B carriers. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Pregnant persons with hepatitis B should be treated with tenofovir starting at week 28 and their infants should receive both hepatitis B vaccination and HBIG within 12 hours of birth.<xref ref="pubmed37590986" resource="acc047" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>The United States Preventive Services Task Force (USPSTF) and the American College of Obstetrics and Gynecology (ACOG) recommend screening all pregnant women for HBV during their first prenatal visit.<xref ref="pubmed37590986" resource="acc047" /><xref ref="poem211014" resource="acc030" /> It also recommends screening persons at high risk for HBV infection, including those born in a high-prevalence country, HIV-positive persons, injection drug users, household contacts of persons with HBV infection, and men who have sex with men.<xref ref="pubmed33320230" resource="acc037" /></listitem>
+<listitem>Screening should include HBsAg, anti-HBs, and total anti-HBc.</listitem>
+<listitem>High or intermediate risk regions (&gt;2&#x0025; seroprevalence) include Africa; north, southeast, and east Asia; Middle east except Cyprus and Israel; Eastern Europe other than Hungary; Malta, Spain and indigenous populations in Greenland; first peoples and Alaskan natives of Alaska and northern Canada; Guatemala and Honduras; Ecuador, Guyana, Suriname, Venezuela, and the Amazon region; and several Caribbean countries including Haiti, Jamaica, Antigua-Barbuda, and Turks and Caicos.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>Consider screening for HBV infection in persons born in hyperendemic areas, men who have sex with men, persons who have ever injected drugs, hemodialysis patients, patients infected with the human immunodeficiency virus, and family members, household members, and sexual contacts of HBV-infected persons.</listitem>
+<listitem>Offer testing for HIV disease and hepatitis C to all hepatitis B carriers because of a high rate of coinfection and shared risk factors.</listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Give the HBV vaccine to all children younger than 18 years not previously vaccinated. More than 90&#x0025; of U.S.-born 16- to 19-year-olds who received the HBV vaccine series in infancy demonstrated a seroprotective response to a challenge dose of vaccine.<xref ref="pubmed24843060" resource="acc024" /></listitem>
+<listitem>The HBV vaccine is also recommended for adults at risk for HBV infection. This includes healthcare workers, international travelers to regions with a 2&#x0025; or higher prevalence of hepatitis B (Africa, East Asia, Eastern Europe, South Pacific, and the Middle East), injection drug users, household contacts of HBsAg-positive persons, men who have sex with men, persons with chronic liver disease, and persons with chronic HIV infection.<xref ref="cochrane6481" resource="acc021" /></listitem>
+<listitem>Intensified vaccination schedules may be necessary for cirrhotic patients and achieves a better antibody response.<xref ref="pubmed36963815" resource="acc042" /></listitem>
+<listitem>Healthcare workers and others likely to be exposed to potentially infected bodily fluids, such as emergency responders, should use universal precautions to reduce the risk of becoming infected.</listitem>
+<listitem>Vaccinate all patients with chronic hepatitis B against hepatitis A.</listitem>
+<listitem>Persons living with HIV may not respond to usual vaccines. A trial randomized 561 persons on antiretroviral therapy with a CD4 count &gt;&#x003D; 100 cells&#x002F;mcl to 2 or 3 doses of a novel cytosine phosphoguanine adjuvanted hepatitis B vaccine or the standard hepatitis B vaccine. A seroprotective response was seen in 93&#x0025; receiving 2 doses of the new vaccine, 99.4&#x0025; receiving 3 doses, and 80.6&#x0025; receiving the standard vaccine.<xref ref="pubmed39616603" resource="acc061" /></listitem>
+<listitem><strong>Pregnancy</strong></listitem>
+<listitem>American College of Obstetrics and Gynecology (ACOG) guidelines, updated in 2023, recommend universal screening for hepatitis B and C in pregnancy, and vaccination for hepatitis A, B or both based on standard risk factors. Patients who have not previously been screened in adulthood should undergo the triple panel which consists of HBsAg, anti-HBs, and total anti-HBc.<xref ref="pubmed37590986" resource="acc047" /></listitem>
+<listitem>For women with hepatitis (HBsAg positive), quantitiative viral DNA should be measured. Patients with viral load &gt; 200,000 IU&#x002F;ml should be treated with antivirals. Cesarean section should be based on usual obstetric indications and not on the presence of infection. Neonates of persons who are HBsAg positive or who have unknown status should receive both hepatitis B vaccine and HBIG within 12 hours of birth.<xref ref="pubmed37590986" resource="acc047" /></listitem>
+<listitem>A trial randomized 280 pregnant persons to: 1) tenofovir fumarate started at week 16 + HBV vaccination for infants or 2) standard care in China which is tenofovir fumarate started at week 28 + HBV vaccination and HBIG for infants. The new regimen was non-inferior both in intention to treat analysis (0.76&#x0025; vs 0.0&#x0025; transmission) and per protocol analysis (0.0&#x0025; vs 0.0&#x0025;). There was a trend toward more congenital malformations in the standard care group (6.3&#x0025; vs 2.3&#x0025;, 95&#x0025; CI -8.8&#x0025; to 0.7&#x0025;).<xref ref="pubmed39540799" resource="acc062" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>Give hepatitis B immunoglobulin (HBIG) and hepatitis B vaccine to sexual partners of patients with acute HBV infection.</listitem>
+<listitem>Give hepatitis B vaccination and HBIG (200 IU IM) to infants born to mothers with chronic hepatitis B. Without these measures, about 88&#x0025; of these infants will acquire chronic HBV infection, compared with 6&#x0025; of those receiving it (NNT &#x003D; 2).<xref ref="pubmed6138642" resource="acc013" /><xref ref="poem100203" resource="acc022" /></listitem>
+<listitem>Give HBIG and the HBV vaccination series to unvaccinated persons with a significant exposure to fluids contaminated with HBsAg.</listitem>
+<listitem>Give the HBV vaccination series to unvaccinated persons with a significant exposure to fluids and whose HBsAg status is unknown.</listitem>
+<listitem>Give a booster dose of the HBV vaccine to previously vaccinated persons without a postvaccination proof of immunity who subsequently have a significant exposure to fluids contaminated with HBsAg.</listitem>
+<listitem>Postexposure prophylaxis in not needed in previously vaccinated persons who have a significant exposure to fluids of unknown HBsAg status, even those without postvaccination proof of immunity.</listitem>
+<listitem>In patients with HBV infection who are either surface antigen positive or core antigen positive, antiviral prophylaxis is recommended by American Gastroenterology Association (AGA) guidelines (2025) for moderate to high risk patients requiring immunosuppressive therapy. Patients at low risk should be monitored without antiviral prophylaxis. Individuals at risk for reactivation should be screened using triple-panel testing with HBV surface antigen, hepatitis B surface antibody, and total hepatitis B core antibody. <xref ref="pubmed39863345" resource="acc059" /><xref ref="pubmed25447850" resource="acc034" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Chronic hepatitis B is defined as the presence of HBsAg for 6 or more months. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>Assess viral replication (quantitative HBV DNA level) in symptomatic patients with elevated ALT or AST, and in all patients who are carriers of HBsAg. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Liver biopsy is recommended in patients with active disease as manifested by an elevated ALT or AST, persistent presence of HBeAg, more than 100,000 copies&#x002F;mL HBV DNA, if treatment is being considered and when other conditions exist such as alcoholism or coinfection with hepatitis C or HIV. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Measurement of liver elasticity does not predict the likelihood of clinically significant portal hypertension in patients with hepatitis B (it is more useful in hepatitis C and alcohol related liver disease. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed36562888" resource="acc043" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Other viral hepatitis infections (eg, hepatitis A or C)</Differential_Name>
+<Differential_Features>Serologic testing</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Viral infections: cytomegalovirus, Epstein-Barr, herpes simplex, varicella</Differential_Name>
+<Differential_Features>Acute hepatitis picture, serologic testing, rashes with HSV and varicella</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chemical hepatitis from medications and toxins</Differential_Name>
+<Differential_Features>History of exposure, serologic testing</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem><xref ref="table001" /> summarizes the diagnostic criteria for hepatitis B infection, including chronic infection, inactive carrier state, and resolved infection.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect acute hepatitis B infection in the patient with risk factors for HBV who complains of fatigue, malaise, upper abdominal pain, anorexia, nausea, vomiting, and fever.</listitem>
+<listitem>Most patients acutely infected with HBV have no symptoms, whereas one-third to one-half of children older than 5 years and adults develop symptoms.</listitem>
+<listitem>Uncommon signs and symptoms include extrahepatic symptoms such as rash, arthritis, and polyarteritis nodosa.<xref ref="pubmed15256984" resource="acc012" /> Arthralgias occur in 10&#x0025; to 20&#x0025; of patients with acute hepatitis B.<xref ref="guideline12806" resource="acc063" /> Jaundice appears later in the course of the disease and can occur in as many as three-fourths of patients.<xref ref="pubmed18354374" resource="acc017" /></listitem>
+<listitem>Patients with chronic HBV infection typically have no symptoms unless they develop <resourceLink href="info:wiley/eep-eee/199">chronic liver disease.</resourceLink></listitem>
+<listitem>Patients with acute fulminant hepatitis present with deep jaundice, cerebral symptoms, and progressive liver damage.<xref ref="guideline12806" resource="acc063" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>In acute HBV infection, serum aminotransferases (AST&#x002F;ALT) are typically 500 to 10,000 IU&#x002F;L.<xref ref="poem100203" resource="acc022" /> In chronic HBV infection, serum aminotransferase levels are normal or minimally elevated (&lt;100 IU&#x002F;L).<xref ref="poem100203" resource="acc022" /> Only in severe late-stage disease are serum aminotransferase levels elevated.<xref ref="poem100203" resource="acc022" /></listitem>
+<listitem>Elevated <resourceLink href="info:wiley/eep-dx/269">ALT, AST, and GGT</resourceLink> modestly increase the likelihood of hepatitis B when used as a screening tool in men; elevation in patients with known hepatitis B suggests active disease. An <resourceLink href="info:wiley/eep-dx/451">elevated AST or ALT</resourceLink> is modestly useful in identifying patients with biopsy-proven chronic active hepatitis.<xref ref="test451" resource="acc001" /></listitem>
+<listitem>While serology confirms the diagnosis of HBV infection, it is more helpful in determining the stage of infection. <xref ref="table002" /> summarizes how to interpret HBV serology.</listitem>
+<listitem>Chronic hepatitis B infection is defined as the presence of HBsAg for 6 or more months. Evaluation of patients with chronic hepatitis B should include quanitification HPV-DNA levels. Levels of HBV-DNA less than 2000 IU&#x002F;ml suggest inactive infection, and levels greater than 20,000 IU&#x002F;ml suggest active disease.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>HBeAg, antibody to HBeAg (anti-HBe), and HBV DNA are markers of active virus replication and infectivity and should be assessed in patients with chronic HBV, as they help guide treatment in combination with ALT levels.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>CT of the abdomen is the recommended initial imaging study for patients with jaundice and either acute abdominal pain and fever or who are asymptomatic but have chronic symptoms.</listitem>
+<listitem>In patients with chronic hepatitis B, the ratio of red blood cell distribution width (&#x0025;) to platelet count (10^9L) is an indicator of fibrosis, with increasing levels indicating greater risk. A cutoff of &gt;0.17 had LR+ 6.2 and LR- 0.46 (sensitivity 58&#x0025;, specificity 96&#x0025;).<xref ref="pubmed30663454" resource="acc029" /></listitem>
+<listitem>Another predictor of cirrhosis in hepatitis B is the red cell distribution width to lymphocyte ratio, with 88&#x0025; sensitivity and 72&#x0025; specificity at a cutoff of 10.87.<xref ref="pubmed32502047" resource="acc032" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Distinguish acute infection from chronic infection based on the presence of symptoms and the duration of laboratory abnormalities.</listitem>
+<listitem>Evaluate all patients with chronic HBV for signs of <resourceLink href="info:wiley/eep-eee/199">chronic liver disease</resourceLink> as well as coinfection with <resourceLink href="info:wiley/eep-eee/203">hepatitis C</resourceLink>, <resourceLink href="info:wiley/eep-eee/316">HIV,</resourceLink> and hepatitis delta.</listitem>
+<listitem><xref ref="table002" /> summarizes the indications for liver biopsy.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>269</Dx_ID>
+<Dx_ID>451</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Acute hepatitis B infection does not require antiviral therapy. <evidence rating="B" system="SORT">B</evidence><xref ref="guideline12806" resource="acc063" /><xref ref="cochrane11645" resource="acc057" /></listitem>
+<listitem>Individuals with chronic HBV infection, either positive or negative for HBeAg, with elevated aminotransferases and HBV DNA greater than 20,000 copies&#x002F;mL are candidates for antiviral therapy. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>While treatment can begin with any of the drugs approved by the Food and Drug Administration (FDA), the American Association for the Study of Liver Diseases 2018 guidelines recommend pegylated &#x03B1;-interferon, entecavir, or tenofovir as first-line treatment.<xref ref="pubmed29405329" resource="acc026" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients with chronic HBV infection who do not have HBeAg need to be treated for longer durations, at least 1 year. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Acute Hepatitis B</strong></listitem>
+<listitem>The primary treatment for acute hepatitis B infection is supportive.</listitem>
+<listitem>A Cochrane review found no evidence of benefit for any intervention for acute HBV infection, based on very low quality of evidence. Lamivudine, compared to placebo, no intervention or entecavir, may even result to higher rates of chronic HBV infection, based on low to very low quality evidence. Interferon may increase adverse events, based on low quality evidence. <xref ref="cochrane11645" resource="acc057" /></listitem>
+<listitem>Treatment with antiviral medications (eg, tenofovir or entecavir) is indicated for patients with fulminant hepatitis B and those with protracted, severe acute hepatitis B.<xref ref="pubmed20123442" resource="acc027" /> However, clinical trials are lacking.</listitem>
+<listitem><strong>Chronic Hepatitis B</strong></listitem>
+<listitem>For patients without cirrhosis who are HBsAg and HBeAg positive, treatment is indicated if their ALT is 2x the upper limit of normal (ULN, 35 U&#x002F;L in men and 25 U&#x002F;L in women) and the HBV-DNA is &gt;20,000 IU&#x002F;ml. If the ALT is between ULN and 2x ULN and HBV-DNA is &gt;20,000 IU&#x002F;ml, treat if liver bioipsy or non-invasive testing finds &#x2265;F2 or &#x2265;A3 fibrosis.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>While treatment can begin with any of the drugs approved by the FDA, the 2018 guidelines from American Association for the Study of Liver Diseases recommends pegylated &#x03B1;-interferon-2a 180 mcg weekly (adults), pegylated &#x03B1;-interferon-2b (children), tenofovir dipovaxil fumarate 300 mg daily, tenofovir alafenamide 25 mg daily, or entecavir 0.5 mg daily as first-line treatment. Lamivudine, adefovir, and telbivudine are classified by the guideline as non-preferred treatments.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>The 2018 AASLD guidelines found that for patients who are HBeAg positive, HBV-DNA suppression was achieved most often in those taking tenofovir disoproxil fumarate (76&#x0025;) or tenofovir alafenamide (73&#x0025;). For those who are HBeAg negative, cure rates were highest for entecavir (90&#x0025;-91&#x0025;), tenofovir disoproxil fumarate (93&#x0025;) or tenofovir alafenamide (90&#x0025;).<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>For patients without cirrhosis who are HBsAg positive and HBeAg negative, treatment is recommended when ALT is 2x ULN and HBV-DNA is &gt;2000 IU&#x002F;ml. If the ALT is between ULN and 2x ULN and HBV-DNA is &gt;2,000 IU&#x002F;ml, treat if liver bioipsy or non-invasive testing finds &#x2265;F2 or &#x2265;A3 fibrosis.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>For patients without cirrhosis who are HBsAg positive, treatment is not recommended if ALT is less than ULN and HBV&#x005F;DNA is &lt;2000 IU&#x002F;ml for HBeAg negative patients and &lt;20,000 IU&#x002F;ml for HBeAg positive patients.<xref ref="pubmed29405329" resource="acc026" /></listitem>
+<listitem>Bulevirtide is a peptidic entry inhibitor for treatment of hepatitis D and B coinfection. In a phase 2 trial, adults with chronic hepatitis B and hepatitis D coinfection were randomized to placebo or bulevirtide 2 mg, 5 mg or 10 mg for 24 weeks. Among those receiving active drug 50&#x0025; to 77&#x0025; achieved undetectable levels of hepatitis D, but by week 48 viral levels had recurred. Serious adverse events occurred in 4&#x0025; to 9&#x0025; of treated patients.<xref ref="pubmed36113537" resource="acc040" /></listitem>
+<listitem>Xalnesiran is an RNA interfering molecule that inhibits replication. A study randomized 159 participants with to 5 groups differing by xalnesiran dose and whether it was paired with pegylated interferon alfa-2a or ruzotolimod. All participants had chronic hepatitis B and had received a nucleotide analogue (entecavir, tenofovir alafenamide, or tenofovir disoproxil fumarate) for at least 12 months. The best results were seen in the group receiving xalnesiran + peg interferon alfa-2a with 20&#x0025; having undetectable HBsAg after 24 weeks. However, this group also had the most adverse events, most commonly elevation in alanine aminotransferase. This was a phase 2 trial and further study is needed. <xref ref="pubmed39774313" resource="acc060" /></listitem>
+<listitem>A trial randomized patients with chronic hepatitis D to peginterferon alfa-2a monotherapy, bulevirtide monotherapy, or combination therapy for 48 weeks. They found that 24 weeks after the end of treatment, undetectable levels of hepatitis D RNA was more likely with combination therapy than in the monotherapy groups (46&#x0025; for combination, 25&#x0025; for peginterferon only, and 12&#x0025; with bulevirtide alone).<xref ref="pubmed38842520" resource="acc048" /></listitem>
+<listitem>A randomized trial comparing entecavir with tenofovir found no difference in levels of DNA suppression or side effects at 144 weeks. There was also no difference in the likelihood of clinical progression or complications.<xref ref="pubmed30608440" resource="acc028" /></listitem>
+<listitem>A non-inferiority trial randomized 1002 patients with chronic hepatitis B to tenofovir amibufenamide (TMF) or tenofovir disoproxil fumarate (TDF, the standard therapy). TMF was non-inferior at achieving HBV DNA &lt;20 IU&#x002F;ml both for patients who were HBeAg positive (50.2&#x0025; vs 53.7&#x0025;) and for those who were HBeAg negative (88.9&#x0025; vs 87.8&#x0025;). TMF was as well tolerated with less adverse effects on bone density and serum creatinine than TDF.<xref ref="pubmed34587302" resource="acc038" /></listitem>
+<listitem>An RCT randomized 160 persons with chronic hepatitis B infection and ALT between 1x and 2x the upper limit of normal to tenofovir disoproxil fumarate 300 mg or placebo once daily for 3 years. At the end of tha ttime, fewer patients in the tenofovir group had progression in their fibrosis (26&#x0025; vs 47&#x0025;, p &lt; 0.05, NNT &#x003D; 5). Treatment had no impact on progression of necroinflammation (7&#x0025; vs 16&#x0025;, p &#x003D; 0.08).<xref ref="pubmed33524314" resource="acc039" /></listitem>
+<listitem>A Canadian study with 67 patients who had been treated with a nucleoside analogue for at least one year and had undetectable HBV DNA and hepaitis B e-antigen seroconversion, the medication was discontinued in 45 patients. After 72 weeks, 15 of 45 had virological or biochemical relapse, and 17 of 45 were retreated.<xref ref="pubmed31462554" resource="acc033" /></listitem>
+<listitem>A multicenter, international study of 475 patients (82&#x0025; Asians, 55&#x0025; treated with entecavir) concluded that serum levels of HBsAg &lt;100 IU&#x002F;mL and HBV DNA &lt;100 IU&#x002F;mL 24 weeks off-treatment are good predictors of low relapse risk and HBsAg loss. The authors suggested that these two parameters can be used as early surrogate endpoints in trials evaluating finite therapy for HBV. <xref ref="pubmed37769952" resource="acc046" /></listitem>
+<listitem>A Phase 2 trial evaluated bepirovirsen (an antisense oligonucleotide targetting mRNA) in patients with chronic HPV infection. The drug resulted in sustaned HBsAg and HBV DNA loss in about 10&#x0025; of participants. Larger and longer trials are needed to confirm these findings. Safety was adequate.<xref ref="pubmed36346079" resource="acc044" /></listitem>
+<listitem>Pretreatment with corticosteroids before starting &#x03B1;-interferon results in speedier clearance of HbeAg and HBV DNA, but the effect on clinical outcomes is not known.<xref ref="cochrane345" resource="acc011" /></listitem>
+<listitem>Using bile acids improves normalization of aminotransferase levels but is no better than placebo in viral clearance, and the effect on clinical outcomes is not known.<xref ref="cochrane3181" resource="acc010" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Indications for liver transplantation include acute liver failure, end-stage liver disease, cirrhosis accompanied by major complications (eg, ascites, variceal bleeding, encephalopathy), patients who develop the hepatorenal syndrome, and children who deviate from their growth curve.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>While the quality of research on milk thistle (<em>Silybum marianum</em>) in chronic hepatitis is poor, it appears to be no better than placebo in decreasing death, disease progression, or complications.<xref ref="cochrane3620" resource="acc009" /></listitem>
+<listitem>A number of studies have evaluated bicyclol, herbal medicine (eg, Radix Sophorae flavescentis, <em>phyllanthus</em> species), traditional Chinese medicine (eg, Xiao Chai Hu Tang), and acupuncture in treating asymptomatic HBV carriers and patients with chronic HBV infection. In general, the benefit is at best comparable to placebo, the quality of the studies is generally poor, and the evidence is mostly uncertain.<xref ref="cochrane2231" resource="acc008" /><xref ref="cochrane13090" resource="acc050" /><xref ref="cochrane13106" resource="acc051" /><xref ref="cochrane13089" resource="acc052" /><xref ref="cochrane9004" resource="acc053" /><xref ref="cochrane8960" resource="acc054" /><xref ref="cochrane13107" resource="acc056" /></listitem>
+<listitem>There is insufficient evidence for vitamin D supplementation for improving outcomes for adults with chronic liver diseases (including chronic HBV), based on a Cochrane review of 27 RCTs. <xref ref="cochrane11564" resource="acc055" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Patients with hepatitis B infection should refrain from alcohol use and the use of medications that may be hepatotoxic.<xref ref="guideline12806" resource="acc063" /></listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Patients should consume foods rich in calories and carbohydrates during the acute stages of the disease.<xref ref="guideline12806" resource="acc063" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Patients positive for HBeAg should be treated with interferon for 16 weeks, while those not carrying HBeAg should receive interferon for one year.</listitem>
+<listitem>Patients positive for HBeAg should be treated with lamivudine for one year, while those not carrying HBeAg should receive lamivudine for at least one year, although the optimal duration of treatment is unknown.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Patients with acute fulminant hepatitis may require intensive care and should also be referred for possible liver transplantation.<xref ref="guideline12806" resource="acc063" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Patients with chronic hepatitis B should undergo periodic surveillance to detect early <resourceLink href="info:wiley/eep-eee/489">hepatocellular carcinoma.</resourceLink><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>However, there is insufficient evidence to support or refute the value of screening patients with hepatitis B with alpha-fetoprotein or ultrasound to detect early liver carcinoma.<xref ref="cochrane2799" resource="acc023" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Healthcare workers experiencing needlestick injuries are at the greatest risk of infection if the source contains HBeAg. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed7114632" resource="acc007" /><xref ref="pubmed11442229" resource="acc018" /></listitem>
+<listitem>Coinfection with hepatitis D is associated with a more severe infection and much worse prognosis. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed22932971" resource="acc045" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>85&#x0025; to 95&#x0025; recover spontaneously from acute hepatitis B infection.</listitem>
+<listitem>There is significant geographic variation in long-term outcomes of chronic HBV.</listitem>
+<listitem>The rate of <resourceLink href="info:wiley/eep-eee/489">hepatocellular carcinoma</resourceLink> in men from Taiwan without HBsAg or HBeAg was 39 per 100,000 person-years. In men positive for only HBsAg, it was 324 per 100,000 person-years, and for men positive for both HBsAg and HBeAg, it was 1169 per 100,000 person-years.<xref ref="pubmed12124405" resource="acc006" /></listitem>
+<listitem>In a study of patients under age 40 with chronic hepatitis B infection, the incidence of hepatocellular carcinoma was low (2.5&#x002F;1000 person-years). It was highest among those with FIB-4 &lt; 0.70 (0.17&#x002F;1000 person-years) and highest in those with radiologic evidence of cirrhosis (31&#x002F;1000 person-years).<xref ref="pubmed34731072" resource="acc041" /></listitem>
+<listitem>After 30 years of follow-up of Italian volunteers for blood donation found to have HBsAg, the rates of clinically significant liver disease, hepatocellular carcinoma, and other liver-related complications were similar to those of uninfected control patients.<xref ref="pubmed15362032" resource="acc005" /></listitem>
+<listitem>In healthcare workers sustaining needlestick injuries from needles contaminated with HBV, 22&#x0025; to 31&#x0025; develop clinical hepatitis, and 37&#x0025; to 62&#x0025; develop serologic evidence of HBV infection if the blood contained both HBsAg and HBeAg, compared with 1&#x0025; to 6&#x0025; and 23&#x0025; to 37&#x0025;, respectively, when the infected blood contains no HBeAg.<xref ref="pubmed7114632" resource="acc007" /><xref ref="pubmed11442229" resource="acc018" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>See for monitoring recommendations.</listitem>
+<listitem>An observational supported regular monitoring for hepatocellular carcinoma in patients with Child-Pugh class A or B cirrhosis caused by hepatitis B.<xref ref="poem100203" resource="acc022" /></listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Mothers who carry HBsAg may breastfeed.<xref ref="poem50722" resource="acc004" /></listitem>
+<listitem>Vaccinate sexual and household contacts against HBV.</listitem>
+<listitem>Until their sexual partners' immunity is established, patients with hepatitis B should use barrier protection during sexual intercourse.</listitem>
+<listitem>Advise patients not to share toothbrushes or razors.</listitem>
+<listitem>Patients may participate in all activities, including contact sports, daycare, etc.</listitem>
+<listitem>It is acceptable to share food and utensils and to kiss others.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>American College of Obstetrics and Gynecology (ACOG) guidelines, updated in 2023, recommend universal screening for hepatitis B and C in pregnancy at an early prenatal visit, and vaccination for hepatitis A, B or both based on standard risk factors. Patients who have not previously been screened in adulthood should undergo the triple panel which consists of HBsAg, anti-HBs, and total anti-HBc.<xref ref="pubmed37590986" resource="acc047" /></listitem>
+<listitem>For women with hepatitis (HBsAg positive), quantitiative viral DNA should be measured. Patients with viral load &gt; 200,000 IU&#x002F;ml should be treated with antivirals. Cesarean section should be based on usual obstetric indications and not on the presence of infection. Neonates of persons who are HBsAg positive or who have unknown status should receive both hepatitis B vaccine and HBIG within 12 hours of birth.<xref ref="pubmed37590986" resource="acc047" /></listitem>
+<listitem>The Society for Maternal-Fetal Medicine guidelines (2025) recommend triple-panel testing (hepatis B surface antigen, antibody to hepatis B surface antigen, and total antibody to hepatitis B core antigen) at the initial prenatal visit. For women with a previous documented triple panel negative test, only hepatitis B surface antigen screening is needed. All unvaccinated women without serologic evidence of immunity should receive hepatitis B vaccination during pregnancy. <xref ref="pubmed38141870" resource="acc058" /></listitem>
+<listitem>The Society for Maternal-Fetal Medicine guidelines also recommend that women with &gt; 200,000 U&#x002F;ml receive antiretroviral therapy with tenofovir in the 3rd trimester, beginning at 28 to 32 weeks gestation. Hepatitis B vaccine and hepatitis B immunoglobulin (HBIG) should be given to all infants of mothers who are hepatitis B surface antigen positive within 12 hours of birth, whether or not tenofovir was given during pregnancy.<xref ref="pubmed38141870" resource="acc058" /></listitem>
+<listitem>Compared with untreated controls, hepatitis B immune globulin (HBIG; 200 IU) given intravenously every 4 weeks starting at 28 weeks of gestation reduced the rate of HBeAg positivity from 79&#x0025; to 21&#x0025; (NNT &#x003D; 2).<xref ref="pubmed16733865" resource="acc003" /></listitem>
+<listitem>A systematic review of 16 RCTs with 2440 HBsAg positive pregnant women found that both HBIG and vaccination reduced the likelihood that their newborns would be infected.<xref ref="pubmed32312015" resource="acc031" /></listitem>
+<listitem>A systematic review identified 19 studies with 1092 mothers of tenofovir, 40 studies with 2080 mothers of lamivudine, and 83 studies with 6036 mothers of telbivudine. All three were highly effective at preventing mother to child transmission (odds ratio 0.1 for tenofovir, 0.16 for lamivudine, and 0.14 for telbivudine). Antiviral therapy should be considered for women with high HBV DNA levels (&gt; 200,000 IU&#x002F;ml) or who are positive for HBeAg.<xref ref="pubmed37590986" resource="acc047" /><xref ref="pubmed32805201" resource="acc036" /><xref ref="pubmed32805200" resource="acc035" /></listitem>
+<listitem>A trial randomized 280 pregnant persons to: 1) tenofovir fumarate started at week 16 + HBV vaccination for infants or 2) standard care in China which is tenofovir fumarate started at week 28 + HBV vaccination and HBIG for infants. The new regimen was non-inferior both in intention to treat analysis (0.76&#x0025; vs 0.0&#x0025; transmission) and per protocol analysis (0.0&#x0025; vs 0.0&#x0025;). There was a trend toward more congenital malformations in the standard care group (6.3&#x0025; vs 2.3&#x0025;, 95&#x0025; CI -8.8&#x0025; to 0.7&#x0025;).<xref ref="pubmed39540799" resource="acc062" /></listitem>
+<listitem>A randomized trial compared tenofovir with placebo in 331 pregnant women who were hepatitis B e antigen positive. The rate of transmissions was 3 of 147 in the placebo group and 0 of 14 in the tenofovir group, but this difference was not statistically significant (p &#x003D; 0.12).<xref ref="pubmed29514030" resource="acc025" /></listitem>
+<listitem>A Cochrane review evaluating the role of antivirals for the prevention of HBV mother-to-child transmission among HIV-coinfected pregnant women found uncertain evidence for the efficacy and safety of tenofovir-based antiviral combination regimens. <xref ref="cochrane13653" resource="acc049" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>Management of chronic HBV in children is similar to that for adults.</listitem>
+<listitem>See screening and prevention section for postexposure prophylaxis against maternal transmission.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="test451">
+<accessionId id="acc001" href="info:wiley/eep-dx/451" />
+<accessionId id="acc001b" href="info:pmid/9654258" />
+<authors>ter Borg F, ten Kate FJ, Cuypers HT, et al.</authors>
+<title>Relation between laboratory test results and histological hepatitis activity in individuals positive for hepatitis B surface antigen and antibodies to hepatitis B e antigen.</title>
+<source>Lancet</source>
+<pubdate>1998</pubdate>
+<volume>351</volume>
+<pages>1914-1918.</pages>
+</reference>
+<reference id="pubmed18584530">
+<accessionId id="acc002" href="info:pmid/18584530" />
+<authors>Lindh M, Uhnoo I, Blackberg J, et al.</authors>
+<title>Treatment of chronic hepatitis B infection: An update of Swedish recommendations.</title>
+<source>Scand J Infect Dis</source>
+<pubdate>2008</pubdate>
+<volume>40</volume>
+<pages>436-450.</pages>
+</reference>
+<reference id="pubmed16733865">
+<accessionId id="acc003" href="info:pmid/16733865" />
+<authors>Xu Q, Xiao L, Lu XB, Zhang YX, Cai X.</authors>
+<title>A randomized controlled clinical trial: Interruption of intrauterine transmission of hepatitis B virus infection with HBIG.</title>
+<source>World J Gastroenterol</source>
+<pubdate>2006</pubdate>
+<volume>12</volume>
+<pages>3434-3437.</pages>
+</reference>
+<reference id="poem50722">
+<accessionId id="acc004" href="info:wiley/eep-poem/50722" />
+<accessionId id="acc004b" href="info:pmid/12661791" />
+<authors>Wang JS, Zhu QR, Wang XH.</authors>
+<title>Breastfeeding does not pose any additional risk of immunoprophylaxis failure on infants of HBV carrier mothers.</title>
+<source>Int J Clin Pract</source>
+<pubdate>2003</pubdate>
+<volume>57</volume>
+<pages>100-102.</pages>
+</reference>
+<reference id="pubmed15362032">
+<accessionId id="acc005" href="info:pmid/15362032" />
+<authors>Manno M, Camma C, Schepis F, et al.</authors>
+<title>Natural history of chronic HBV carriers in northern Italy: Morbidity and mortality after 30 years.</title>
+<source>Gastroenterology</source>
+<pubdate>2004</pubdate>
+<volume>127</volume>
+<pages>756-763.</pages>
+</reference>
+<reference id="pubmed12124405">
+<accessionId id="acc006" href="info:pmid/12124405" />
+<authors>Yang HI, Lu SN, Liaw YF, et al.; Taiwan Community-Based Cancer Screening Project Group.</authors>
+<title>Hepatitis B e antigen and the risk of hepatocellular carcinoma.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>347</volume>
+<pages>168-174.</pages>
+</reference>
+<reference id="pubmed7114632">
+<accessionId id="acc007" href="info:pmid/7114632" />
+<authors>Werner BG, Grady GF.</authors>
+<title>Accidental hepatitis-B-surface-antigen-positive inoculations. Use of e antigen to estimate infectivity.</title>
+<source>Ann Intern Med</source>
+<pubdate>1982</pubdate>
+<volume>97</volume>
+<pages>367-369.</pages>
+</reference>
+<reference id="cochrane2231">
+<accessionId id="acc008" href="info:wiley/cochrane/CD002231" />
+<chapter_authors>Liu JP, McIntosh H, Lin H.</chapter_authors>
+<chapter_title>Chinese medicinal herbs for asymptomatic carriers of hepatitis B virus infection (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3620">
+<accessionId id="acc009" href="info:wiley/cochrane/CD003620" />
+<chapter_authors>Rambaldi A, Jacobs BP, Iaquinto G, Gluud C.</chapter_authors>
+<chapter_title>Milk thistle for alcoholic and&#x002F;or hepatitis B or C virus liver diseases (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3181">
+<accessionId id="acc010" href="info:wiley/cochrane/CD003181" />
+<chapter_authors>Chen W, Liu J, Gluud C.</chapter_authors>
+<chapter_title>Bile acids for viral hepatitis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane345">
+<accessionId id="acc011" href="info:wiley/cochrane/CD000345" />
+<chapter_authors>Mellerup MT, Krogsgaard K, Mathurin P, Gluud C, Poynard T.</chapter_authors>
+<chapter_title>Sequential combination of glucocorticosteroids and alfa interferon versus alfa interferon alone for HBeAg-positive chronic hepatitis B (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed15256984">
+<accessionId id="acc012" href="info:pmid/15256984" />
+<authors>Janssen HL, van Zonneveld M, van Nunen AB, Niesters HG, Schalm SW, de Man RA.</authors>
+<title>Polyarteritis nodosa associated with hepatitis B virus infection. The role of antiviral treatment and mutations in the hepatitis B virus genome.</title>
+<source>Eur J Gastroenterol Hepatol</source>
+<pubdate>2004</pubdate>
+<volume>16</volume>
+<pages>801-807.</pages>
+</reference>
+<reference id="pubmed6138642">
+<accessionId id="acc013" href="info:pmid/6138642" />
+<authors>Beasley RP, Hwang LY, Lee GC, et al.</authors>
+<title>Prevention of perinatally transmitted hepatitis B virus infections with hepatitis B virus infections with hepatitis B immune globulin and hepatitis B vaccine.</title>
+<source>Lancet</source>
+<pubdate>1983</pubdate>
+<volume>2</volume>
+<pages>1099-1102.</pages>
+</reference>
+<reference id="pubmed15602162">
+<accessionId id="acc014" href="info:pmid/15602162" />
+<authors>Lee TA, Veenstra DL, Iloeje UH, Sullivan SD.</authors>
+<title>Cost of chronic hepatitis B infection in the United States.</title>
+<source>J Clin Gastroenterol</source>
+<pubdate>2004</pubdate>
+<volume>38</volume>
+<pages>S144-S147.</pages>
+</reference>
+<reference id="pubmed9987458">
+<accessionId id="acc015" href="info:pmid/9987458" />
+<authors>McQuillan GM, Coleman PJ, Kruszon-Moran D, Moyer LA, Lambert SB, Margolis HS.</authors>
+<title>Prevalence of hepatitis B virus infection in the United States: the National Health and Nutrition Examination Surveys, 1976 through 1994.</title>
+<source>Am J Public Health</source>
+<pubdate>1999</pubdate>
+<volume>89</volume>
+<pages>14-18.</pages>
+</reference>
+<reference id="pubmed14704650">
+<accessionId id="acc016" href="info:pmid/14704650" />
+<authors>Centers for Disease Control and Prevention (CDC).</authors>
+<title>Incidence of acute hepatitis B&#x2014;United States, 1990-2002.</title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<pubdate>2004</pubdate>
+<volume>52</volume>
+<pages>1252-1254.</pages>
+</reference>
+<reference id="pubmed18354374">
+<accessionId id="acc017" href="info:pmid/18354374" />
+<authors>Wasley A, Grytdal S, Gallagher K; Centers for Disease Control and Prevention (CDC).</authors>
+<title>Surveillance for acute viral hepatitis&#x2014;United States, 2006.</title>
+<source>MMWR Surveill Summ</source>
+<pubdate>2008</pubdate>
+<volume>57</volume>
+<pages>1-24.</pages>
+</reference>
+<reference id="pubmed11442229">
+<accessionId id="acc018" href="info:pmid/11442229" />
+<authors>US Public Health Service.</authors>
+<title>Updated US Public Health Service guidelines for the management of occupational exposures to HBV, HCV, and HIV and recommendations for postexposure prophylaxis.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2001</pubdate>
+<volume>50(RR-11)</volume>
+<pages>1-52.</pages>
+</reference>
+<reference id="pubmed16371945">
+<accessionId id="acc019" href="info:pmid/16371945" />
+<authors>Mast EE, Margolis HS, Fiore AE, et al.; Advisory Committee on Immunization Practices (ACIP).</authors>
+<title>A comprehensive immunization strategy to eliminate transmission of hepatitis B virus infection in the United States: recommendations of the Advisory Committee on Immunization Practices (ACIP) part 1: Immunization of infants, children, and adolescents.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2005</pubdate>
+<volume>54(RR-16)</volume>
+<pages>1-31.</pages>
+</reference>
+<reference id="web001">
+<citation>World Health Organization.</citation>
+<url>http://www.who.int/mediacentre/factsheets/fs204/en/</url>
+<organization />
+<longtitle />
+<title>Hepatitis B fact sheet.</title>
+<dateguideline />
+</reference>
+<reference id="cochrane6481">
+<accessionId id="acc021" href="info:wiley/cochrane/CD006481" />
+<chapter_authors>Mathew JL, El Dib R, Mathew PJ, Boxall EH, Brok J.</chapter_authors>
+<chapter_title>Hepatitis B immunisation in persons not previously exposed to hepatitis B or with unknown exposure status (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem100203">
+<accessionId id="acc022" href="info:wiley/eep-poem/100203" />
+<accessionId id="acc022b" href="info:pmid/17617210" />
+<authors>Trevisani F, Santi V, Gramenzi A, et al.</authors>
+<title>Surveillance for early diagnosis of hepatocellular carcinoma: Is it effective in intermediate&#x002F;advanced cirrhosis?</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2007</pubdate>
+<volume>102</volume>
+<pages>2448-2457; quiz 2458</pages>
+</reference>
+<reference id="cochrane2799">
+<accessionId id="acc023" href="info:wiley/cochrane/CD002799" />
+<chapter_authors>Aghoram R, Cai P, Dickinson JA.</chapter_authors>
+<chapter_title>Alpha-foetoprotein and&#x002F;or liver ultrasonography for screening of hepatocellular carcinoma in patients with chronic hepatitis B (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 9.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24843060">
+<accessionId id="acc024" href="info:pmid/24843060" />
+<authors>Middleman AB, Baker CJ, Kozinetz CA, Kamili S, Nguyen C, Hu DJ, Spradling PR.</authors>
+<title>Duration of protection after infant hepatitis B vaccination series.</title>
+<source>Pediatrics</source>
+<pubdate>2014</pubdate>
+<volume>133</volume>
+<pages>e1500&#x2013;e1507</pages>
+</reference>
+<reference id="pubmed29514030">
+<accessionId id="acc025" href="info:pmid/29514030" />
+<authors>Jourdain G, Ngo-Giang-Huong N, Harrison L, Decker L, Khamduang W, Tierney C, Salvadori N, Cressey TR, Sirirungsi W, Achalapong J, Yuthavisuthi P, Kanjanavikai P, Na Ayudhaya OP, Siriwachirachai T, Prommas S, Sabsanong P, Limtrakul A, Varadisai S, Putiyanun C, Suriyachai P, Liampongsabuddhi P, Sangsawang S, Matanasarawut W, Buranabanjasatean S, Puernngooluerm P, Bowonwatanuwong C, Puthanakit T, Klinbuayaem V, Thongsawat S, Thanprasertsuk S, Siberry GK, Watts DH, Chakhtoura N, Murphy TV, Nelson NP, Chung RT, Pol S, Chotivanich N.</authors>
+<title>Tenofovir versus placebo to prevent perinatal transmission of hepatitis B.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>911&#x2013;923</pages>
+</reference>
+<reference id="pubmed29405329">
+<accessionId id="acc026" href="info:pmid/29405329" />
+<authors>Terrault NA, Lok ASF, McMahon BJ, Chang KM, Hwang JP, Jonas MM, Brown RS Jr, Bzowej NH, Wong JB.</authors>
+<title>Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance.</title>
+<source>Hepatology</source>
+<pubdate>2018</pubdate>
+<volume>67</volume>
+<pages>1560&#x2013;1599</pages>
+</reference>
+<reference id="pubmed20123442">
+<accessionId id="acc027" href="info:pmid/20123442" />
+<authors>Shiffman ML.</authors>
+<title>Management of acute hepatitis B.</title>
+<source>Clin Liver Dis</source>
+<pubdate>2010</pubdate>
+<volume>14</volume>
+<pages />
+</reference>
+<reference id="pubmed30608440">
+<accessionId id="acc028" href="info:pmid/30608440" />
+<authors>Cai D, Pan C, Yu W, Dang S, Li J, Wu S, Jiang N, Wang M, Zhang Z, Lin F, Xin S, Yang Y, Shen B, Ren H.</authors>
+<title>Comparison of the long-term efficacy of tenofovir and entecavir in nucleos(t)ide analogue-na&#x00EF;ve HBeAg-positive patients with chronic hepatitis B: A large, multicentre, randomized controlled trials.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e13983</pages>
+</reference>
+<reference id="pubmed30663454">
+<accessionId id="acc029" href="info:pmid/30663454" />
+<authors>Yuyun D, Zhihua T, Haijun W, Zhaoping L, Xiaoli Z, Wenfang X, Faxiang J, Hongmei L.</authors>
+<title>Predictive value of the red blood cell distribution width-to-platelet ratio for hepatic fibrosis.</title>
+<source>Scand J Gastroenteroltt</source>
+<pubdate>2019</pubdate>
+<volume>54</volume>
+<pages>81&#x2013;86</pages>
+</reference>
+<reference id="poem211014">
+<accessionId id="acc030" href="info:wiley/eep-poem/211014" />
+<accessionId id="acc030b" href="info:pmid/31334800" />
+<authors>US Preventive Services Task Force, Owens DK, Davidson KW, Krist AH, Barry MJ, Cabana M, Caughey AB, Doubeni CA, Epling JW Jr, Kemper AR, Kubik M, Landefeld CS, Mangione CM, Pbert L, Silverstein M, Simon MA, Tseng CW, Wong JB.</authors>
+<title>Screening for Hepatitis B Virus Infection in Pregnant Women: US Preventive Services Task Force Reaffirmation Recommendation Statement.</title>
+<source>JAMA</source>
+<pubdate>2019</pubdate>
+<volume>322</volume>
+<pages>349&#x2013;354</pages>
+</reference>
+<reference id="pubmed32312015">
+<accessionId id="acc031" href="info:pmid/32312015" />
+<authors>Chen Z, Zeng M, Liu D, Wu L, Zhang L.</authors>
+<title>Antenatal administration of hepatitis B immunoglobulin and hepatitis B vaccine to prevent mother to child transmission in hepatitis B virus surface antigen positive pregnant women: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e19886</pages>
+</reference>
+<reference id="pubmed32502047">
+<accessionId id="acc032" href="info:pmid/32502047" />
+<authors>Zhang X, Wang D, Chen Z, Guo N, Wang W, Xiong C, Liu J, Yue Y, Sun M.</authors>
+<title>Red cell distribution width-to-lymphocyte ratio: A novel predictor for HBV-related liver cirrhosis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e20638</pages>
+</reference>
+<reference id="pubmed31462554">
+<accessionId id="acc033" href="info:pmid/31462554" />
+<authors>Liem KS, Fung S, Wong DK, Yim C, Noureldin S, Chen J, Feld JJ, Hansen BE, Janssen HLA.</authors>
+<title>Limited sustained response after stopping nucleos(t)ide analogues in patients with chronic hepatitis B: results from a randomised controlled trial (Toronto STOP study).</title>
+<source>Gut</source>
+<pubdate>2019</pubdate>
+<volume>68</volume>
+<pages>2206&#x2013;2213</pages>
+</reference>
+<reference id="pubmed25447850">
+<accessionId id="acc034" href="info:pmid/25447850" />
+<authors>Reddy KR, Beavers KL, Hammond SP, Lim JK, Falck-Ytter YT, American Gastroenterological Association Institute.</authors>
+<title>American Gastroenterological Association Institute guideline on the prevention and treatment of hepatitis B virus reactivation during immunosuppressive drug therapy.</title>
+<source>Gastroenterology</source>
+<pubdate>2015</pubdate>
+<volume>148</volume>
+<pages />
+</reference>
+<reference id="pubmed32805200">
+<accessionId id="acc035" href="info:pmid/32805200" />
+<authors>Funk AL, Lu Y, Yoshida K, Zhao T, Boucheron P, van Holten J, Chou R, Bulterys M, Shimakawa Y.</authors>
+<title>Efficacy and safety of antiviral prophylaxis during pregnancy to prevent mother-to-child transmission of hepatitis B virus: A systematic review and meta-analysis.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2021</pubdate>
+<volume>21</volume>
+<pages>70&#x2013;84</pages>
+</reference>
+<reference id="pubmed32805201">
+<accessionId id="acc036" href="info:pmid/32805201" />
+<authors>Boucheron P, Lu Y, Yoshida K, Zhao T, Funk AL, Lunel-Fabiani F, Guingan&#x00E9; A, Tuaillon E, van Holten J, Chou R, Bulterys M, Shimakawa Y.</authors>
+<title>Accuracy of HBeAg to identify pregnant women at risk of transmitting hepatitis B virus to their neonates: A systematic review and meta-analysis.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2021</pubdate>
+<volume>21</volume>
+<pages>85&#x2013;96</pages>
+</reference>
+<reference id="pubmed33320230">
+<accessionId id="acc037" href="info:pmid/33320230" />
+<authors>US Preventive Services Task Force, Krist AH, Davidson KW, Mangione CM, Barry MJ, Cabana M, Caughey AB, Donahue K, Doubeni CA, Epling JW Jr, Kubik M, Ogedegbe G, Owens DK, Pbert L, Silverstein M, Simon MA, Tseng CW, Wong JB.</authors>
+<title>Screening for Hepatitis B Virus Infection in Adolescents and Adults: US Preventive Services Task Force Recommendation Statement.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>324</volume>
+<pages>2415&#x2013;2422</pages>
+</reference>
+<reference id="pubmed34587302">
+<accessionId id="acc038" href="info:pmid/34587302" />
+<authors>Liu Z, Jin Q, Zhang Y, Gong G, Wu G, Yao L, Wen X, Gao Z, Huang Y, Yang D, Chen E, Mao Q, Lin S, Shang J, Gong H, Zhong L, Yin H, Wang F, Hu P, Xiao L, Li C, Wu Q, Sun C, Niu J, Hou J, TMF Study Group.</authors>
+<title>Randomised clinical trial: 48 weeks of treatment with tenofovir amibufenamide versus tenofovir disoproxil fumarate for patients with chronic hepatitis B.</title>
+<source>Aliment Pharmacol Ther</source>
+<pubdate>2021</pubdate>
+<volume>54</volume>
+<pages>1134&#x2013;1149</pages>
+</reference>
+<reference id="pubmed33524314">
+<accessionId id="acc039" href="info:pmid/33524314" />
+<authors>Hsu YC, Chen CY, Chang IW, Chang CY, Wu CY, Lee TY, Wu MS, Bair MJ, Chen JJ, Chen CC, Tseng CH, Tai CM, Huang YT, Ku WH, Mo LR, Lin JT.</authors>
+<title>Once-daily tenofovir disoproxil fumarate in treatment-naive Taiwanese patients with chronic hepatitis B and minimally raised alanine aminotransferase (TORCH-B): A multicentre, double-blind, placebo-controlled, parallel-group, randomised trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2021</pubdate>
+<volume>21</volume>
+<pages>823&#x2013;833</pages>
+</reference>
+<reference id="pubmed36113537">
+<accessionId id="acc040" href="info:pmid/36113537" />
+<authors>Wedemeyer H, Sch&#x00F6;neweis K, Bogomolov P, Blank A, Voronkova N, Stepanova T, Sagalova O, Chulanov V, Osipenko M, Morozov V, Geyvandova N, Sleptsova S, Bakulin IG, Khaertynova I, Rusanova M, Pathil A, Merle U, Bremer B, Allweiss L, Lempp FA, Port K, Haag M, Schwab M, Zur Wiesch JS, Cornberg M, Haefeli WE, Dandri M, Alexandrov A, Urban S.</authors>
+<title>Safety and efficacy of bulevirtide in combination with tenofovir disoproxil fumarate in patients with hepatitis B virus and hepatitis D virus coinfection (MYR202): a multicentre, randomised, parallel-group, open-label, phase 2 trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2023</pubdate>
+<volume>23</volume>
+<pages>117&#x2013;129</pages>
+</reference>
+<reference id="pubmed34731072">
+<accessionId id="acc041" href="info:pmid/34731072" />
+<authors>Goh MJ, Kang W, Kim KM, Sinn DH, Gwak GY, Paik YH, Choi MS, Lee JH, Koh KC, Paik SW.</authors>
+<title>Incidence and risk factors for development of hepatocellular carcinoma at young age in patients with chronic hepatitis B.</title>
+<source>Scand J Gastroenterol</source>
+<pubdate>2022</pubdate>
+<volume>57</volume>
+<pages>70&#x2013;77</pages>
+</reference>
+<reference id="pubmed36963815">
+<accessionId id="acc042" href="info:pmid/36963815" />
+<authors>Gir&#x00E1;ldez-Gallego &#x00C1;, Rodr&#x00ED;guez-Seguel EDP, Valencia-Mart&#x00ED;n R, Morillo-Garc&#x00ED;a &#x00C1;, Salamanca-Rivera C, Ruiz-P&#x00E9;rez R, Cuaresma-Duque M, Rosso-Fern&#x00E1;ndez C, Ferrer-R&#x00ED;os MT, Sousa-Mart&#x00ED;n JM, Praena-Fern&#x00E1;ndez JM, Desongles-Corrales T, Rodr&#x00ED;guez-P&#x00E9;rez A, Camino-Dur&#x00E1;n F, Gasch-Illescas A, Ampuero-Herrojo J, Pascasio-Acevedo JM.</authors>
+<title>Three double-dose reinforced hepatitis B revaccination scheme for patients with cirrhosis unresponsive to the standard regimen: an open-label randomised clinical trial.</title>
+<source>Gut</source>
+<pubdate>2023</pubdate>
+<volume>73</volume>
+<pages>166&#x2013;174</pages>
+</reference>
+<reference id="pubmed36562888">
+<accessionId id="acc043" href="info:pmid/36562888" />
+<authors>Jindal A, Agarwal S, Sharma S, Kumar M, Saraya A, Sarin SK .</authors>
+<title>Assessment of the Performance of Non-invasive Criteria for the Evaluation of Clinically Significant Portal Hypertension in Patients with Compensated Advanced Chronic Liver Disease.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2023</pubdate>
+<volume>68</volume>
+<pages>2149&#x2013;2157</pages>
+</reference>
+<reference id="pubmed36346079">
+<accessionId id="acc044" href="info:pmid/36346079" />
+<authors>Yuen MF, Lim SG, Plesniak R, Tsuji K, Janssen HLA, Pojoga C, Gadano A, Popescu CP, Stepanova T, Asselah T, Diaconescu G, Yim HJ, Heo J, Janczewska E, Wong A, Idriz N, Imamura M, Rizzardini G, Takaguchi K, Andreone P, Arbune M, Hou J, Park SJ, Vata A, Cremer J, Elston R, Luki&#x0107; T, Quinn G, Maynard L, Kendrick S, Plein H, Campbell F, Paff M, Theodore D, B-Clear Study Group.</authors>
+<title>Efficacy and Safety of Bepirovirsen in Chronic Hepatitis B Infection.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>1957&#x2013;1968</pages>
+</reference>
+<reference id="pubmed22932971">
+<accessionId id="acc045" href="info:pmid/22932971" />
+<authors>Farci P, Niro GA.</authors>
+<title>Clinical features of hepatitis D.</title>
+<source>Semin Liver Dis</source>
+<pubdate>2012</pubdate>
+<volume>32</volume>
+<pages>228&#x2013;36</pages>
+</reference>
+<reference id="pubmed37769952">
+<accessionId id="acc046" href="info:pmid/37769952" />
+<authors>Sonneveld MJ, Chiu SM, Park JY, Brakenhoff SM, Kaewdech A, Seto WK, Tanaka Y, Carey I, Papatheodoridi M, Colombatto P, van B&#x00F6;mmel F, Janssen HL, Berg T, Zoulim F, Ahn SH, Dalekos GN, Erler NS, Brunetto M, Wedemeyer H, Cornberg M, Yuen MF, Agarwal K, Boonstra A, Buti M, Piratvisuth T, Papatheodoridis G, Chen CH, Maasoumy B, CREATE Study Group.</authors>
+<title>HBV DNA and HBsAg Levels at 24 Weeks Off-Treatment Predict Clinical Relapse and HBsAg Loss in HBeAg-Negative Patients Who Discontinued Antiviral Therapy.</title>
+<source>Gastroenterology</source>
+<pubdate>2024</pubdate>
+<volume>166</volume>
+<pages>168&#x2013;177.e8</pages>
+</reference>
+<reference id="pubmed37590986">
+<accessionId id="acc047" href="info:pmid/37590986" />
+<authors />
+<title>Viral Hepatitis in Pregnancy: ACOG Clinical Practice Guideline No. 6.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2023</pubdate>
+<volume>142</volume>
+<pages>745&#x2013;759</pages>
+</reference>
+<reference id="pubmed38842520">
+<accessionId id="acc048" href="info:pmid/38842520" />
+<authors>Asselah T , Chulanov V, Lampertico P, Wedemeyer H, Streinu-Cercel A, P&#x00E2;ntea V, Lazar S, Placinta G, Gherlan GS, Bogomolov P, Stepanova T, Morozov V, Syutkin V, Sagalova O, Manuilov D, Mercier RC, Ye L, Da BL, Chee G, Lau AH, Osinusi A, Bourliere M, Ratziu V, Pol S, Hilleret MN, Zoulim F.</authors>
+<title>Bulevirtide Combined with Pegylated Interferon for Chronic Hepatitis D.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>133&#x2013;143</pages>
+</reference>
+<reference id="cochrane13653">
+<accessionId id="acc049" href="info:wiley/cochrane/CD013653" />
+<chapter_authors>Ugwu EO, Eleje GU, Ugwu AO, Nwagha UI, Ikechebelu JI, Umeh UA, Okafor HU.</chapter_authors>
+<chapter_title>Antivirals for prevention of hepatitis B virus mother-to-child transmission in human immunodeficiency virus positive pregnant women co-infected with hepatitis B virus.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 6. Art. No.: CD013653. DOI: 10.1002&#x002F;14651858.CD013653.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13090">
+<accessionId id="acc050" href="info:wiley/cochrane/CD013090" />
+<chapter_authors>Kong DZ, Liang N, Yang GL, Zhang Z, Liu Y, Li J, Liu X, Liang S, Nikolova D, Jakobsen JC, Gluud C, Liu JP.</chapter_authors>
+<chapter_title>Xiao Chai Hu Tang, a herbal medicine, for chronic hepatitis B.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 11. Art. No.: CD013090. DOI: 10.1002&#x002F;14651858.CD013090.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13106">
+<accessionId id="acc051" href="info:wiley/cochrane/CD13106" />
+<chapter_authors>Liang N, Kong DZ, Lu CL, Ma SS, Li YQ, Nikolova D, Jakobsen JC, Gluud C, Liu JP.</chapter_authors>
+<chapter_title>Radix Sophorae flavescentis versus other drugs or herbs for chronic hepatitis B.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 6. Art. No.: CD013106. DOI: 10.1002&#x002F;14651858.CD013106.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13089">
+<accessionId id="acc052" href="info:wiley/cochrane/CD13089" />
+<chapter_authors>Liang N, Kong DZ, Ma SS, Lu CL, Yang M, Feng LD, Shen C, Diao RH, Cui LJ, Lu XY, Nikolova D, Jakobsen JC, Gluud C, Liu JP.</chapter_authors>
+<chapter_title>Radix Sophorae flavescentis versus no intervention or placebo for chronic hepatitis B.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 4. Art. No.: CD013089. DOI: 10.1002&#x002F;14651858.CD013089.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane9004">
+<accessionId id="acc053" href="info:wiley/cochrane/CD009004" />
+<chapter_authors>Xia Y, Luo H, Liu JP, Gluud C.</chapter_authors>
+<chapter_title>Phyllanthus species versus antiviral drugs for chronic hepatitis B virus infection.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 4. Art. No.: CD009004. DOI: 10.1002&#x002F;14651858.CD009004.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8960">
+<accessionId id="acc054" href="info:wiley/cochrane/CD008960" />
+<chapter_authors>Xia Y, Luo H, Liu JP, Gluud C.</chapter_authors>
+<chapter_title>Phyllanthus species for chronic hepatitis B virus infection.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 4. Art. No.: CD008960. DOI: 10.1002&#x002F;14651858.CD008960.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane11564">
+<accessionId id="acc055" href="info:wiley/cochrane/CD11564" />
+<chapter_authors>Bjelakovic M, Nikolova D, Bjelakovic G, Gluud C.</chapter_authors>
+<chapter_title>Vitamin D supplementation for chronic liver diseases in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 8. Art. No.: CD011564. DOI: 10.1002&#x002F;14651858.CD011564.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13107">
+<accessionId id="acc056" href="info:wiley/cochrane/CD13107" />
+<chapter_authors>Kong DZ, Liang N, Yang GL, Zhang Z, Liu Y, Yang Y, Liu YX, Wang QG, Zhang F, Zhang HY, Nikolova D, Jakobsen JC, Gluud C, Liu JP.</chapter_authors>
+<chapter_title>Acupuncture for chronic hepatitis B.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 8. Art. No.: CD013107. DOI: 10.1002&#x002F;14651858.CD013107.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane11645">
+<accessionId id="acc057" href="info:wiley/cochrane/CD011645" />
+<chapter_authors>Mantzoukis K, Rodr&#x00ED;guez&#x2010;Per&#x00E1;lvarez M, Buzzetti E, Thorburn D, Davidson BR, Tsochatzis E, Gurusamy KS.</chapter_authors>
+<chapter_title>Pharmacological interventions for acute hepatitis B infection.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 3. Art. No.: CD011645. DOI: 10.1002&#x002F;14651858.CD011645.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed38141870">
+<accessionId id="acc058" href="info:pmid/38141870" />
+<authors>Society for Maternal-Fetal Medicine (SMFM). Electronic address: pubs&#x0040;smfm.org, Badell ML, Prabhu M, Dionne J, Tita ATN, Silverman NS, SMFM Publications Committee.</authors>
+<title>Society for Maternal-Fetal Medicine Consult Series #69: Hepatitis B in pregnancy: updated guidelines.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2024</pubdate>
+<volume>230</volume>
+<pages>B2&#x2013;B11</pages>
+</reference>
+<reference id="pubmed39863345">
+<accessionId id="acc059" href="info:pmid/39863345" />
+<authors>Ali FS, Nguyen MH, Hernaez R, Huang DQ, Wilder J, Piscoya A, Simon TG, Falck-Ytter Y.</authors>
+<title>AGA Clinical Practice Guideline on the Prevention and Treatment of Hepatitis B Virus Reactivation in At-Risk Individuals.</title>
+<source>Gastroenterology</source>
+<pubdate>2025</pubdate>
+<volume>168</volume>
+<pages>267&#x2013;284</pages>
+</reference>
+<reference id="pubmed39774313">
+<accessionId id="acc060" href="info:pmid/39774313" />
+<authors>Hou J, Zhang W, Xie Q, Hua R, Tang H, Morano Amado LE, Yang SS, Peng CY, Su WW, Chuang WL, Kim DJ, Avihingsanon A, Kao JH , Leerapun A, Yuen MF, Asselah T , Liang X, Bo Q, Canducci F, Catanese MT, Chen E, Cheng C, Chughlay F, Das S, Glavini K, Guerreiro N, Huang Y, Kakrana P, Kazma R, Patil A, Pavlovic V, Surujbally B, Triyatni M, Upmanyu R, Wat C, Gane E, Piranga Study Group.</authors>
+<title>Xalnesiran with or without an Immunomodulator in Chronic Hepatitis B.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>2098&#x2013;2109</pages>
+</reference>
+<reference id="pubmed39616603">
+<accessionId id="acc061" href="info:pmid/39616603" />
+<authors>Marks KM, Kang M, Umbleja T, Cox A, Vigil KJ, Ta NT, Omoz-Oarhe A, Perazzo H, Kosgei J, Hatlen T, Price J, Katsidzira L, Supparatpinyo K, Knowles K, Alston-Smith BL, Rathod P, Sherman KE, ACTG 5379 (BEe-HIVe) Study Team.</authors>
+<title>HepB-CpG vs HepB-Alum Vaccine in People With HIV and Prior Vaccine Nonresponse: The BEe-HIVe Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>333</volume>
+<pages>295&#x2013;306</pages>
+</reference>
+<reference id="pubmed39540799">
+<accessionId id="acc062" href="info:pmid/39540799" />
+<authors>Pan CQ, Dai E, Mo Z, Zhang H, Zheng TQ, Wang Y, Liu Y, Chen T, Li S, Yang C, Wu J, Chen X, Zou H, Mei S, Zhu L.</authors>
+<title>Tenofovir and Hepatitis B Virus Transmission During Pregnancy: A Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>333</volume>
+<pages>390&#x2013;399</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline12806">
+<accessionId id="acc063" href="info:wiley/eep-guideline/12806" />
+<citation>Finnish Medical Society Duodecim. Viral hepatitis. EBM Guidelines. Evidence-Based Medicine [Internet]. Helsinki, Finland: Wiley Interscience. John Wiley &amp; Sons; 2008 Mar 10 [Various].</citation>
+<url>http://www.guidelines.gov/summary/summary.aspx?doc_id=12806</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Diagnostic Criteria for Hepatitis B Infection.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">&#x00A0;</th>
+<th align="left" colspan="1">Chronic Hepatitis B</th>
+<th align="left" colspan="1">Inactive HBsAg Carrier State</th>
+<th align="left" colspan="1">Resolved Hepatitis B</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Hepatitis B surface antigen (HBsAg)</td>
+<td align="left" colspan="1">Present at least 6 mo</td>
+<td align="left" colspan="1">Present at least 6 mo</td>
+<td align="left" colspan="1">Negative</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Serum hepatitis B virus (HBV) DNA</td>
+<td align="left" colspan="1">&gt;20,000 IU&#x002F;mL (10,000 copies&#x002F;mL)</td>
+<td align="left" colspan="1">&lt;2000 IU&#x002F;mL (1000 copies&#x002F;mL)</td>
+<td align="left" colspan="1">Undetectable (very low levels may be detected using sensitive PCR assays)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">ALT&#x002F;AST levels</td>
+<td align="left" colspan="1">Persistent or intermittent elevation</td>
+<td align="left" colspan="1">Persistently normal</td>
+<td align="left" colspan="1">Normal</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Liver biopsy</td>
+<td align="left" colspan="1">Chronic hepatitis with moderate or severe necroinflammation</td>
+<td align="left" colspan="1">Absence of significant hepatitis</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+</table>Data from Lok AS, McMahon BJ. Corrections to AASLD guidelines on chronic hepatitis B. <em>Hepatology</em> 2007;<strong>45</strong>(6):1347.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Indications for Liver Biopsy in Patients Chronically Infected with Hepatitis B.</caption>
+<feature_body>
+<list style="1">
+<listitem>Persistent elevation of ALT (&gt;twice upper limit of normal for 3-6 mo)</listitem>
+<listitem>Persistent presence of hepatitis B early antigen (HBeAg)</listitem>
+<listitem>More than 100,000 copies&#x002F;mL of hepatitis B virus (HBV) DNA</listitem>
+<listitem>Patient is being considered for treatment</listitem>
+<listitem>Other conditions may be present (eg, hepatitis C infection, alcoholism, etc.)</listitem>
+</list>Data from Lok AS, McMahon BJ. Corrections to AASLD guidelines on chronic hepatitis B. <em>Hepatology</em> 2007;<strong>45</strong>(6):1347. </feature_body>
+</feature>
+<feature id="table003">
+<caption>Interpretation of Hepatitis B Serology.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">&#x00A0;</th>
+<th align="left" colspan="1">HBsAg</th>
+<th align="left" colspan="1">HBsAb</th>
+<th align="left" colspan="1">HBc-IgG</th>
+<th align="left" colspan="1">HBc-IgM</th>
+<th align="left" colspan="1">HBeAg</th>
+<th align="left" colspan="1">HBeAb</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Not infected (susceptible)</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Immune due to vaccination</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Immune due to natural infection</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Acute infection, early phase</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">Either + or &#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Acute infection, late phase</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">+++</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chronically infected (carrier, high infection risk)</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">Either + or &#x2212;</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chronically infected (carrier, lower infection risk)</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">&#x2212;</td>
+<td align="left" colspan="1">+</td>
+</tr>
+</table>Abbreviations: HBsAg, hepatitis B surface antigen; HBSAb, hepatitis B surface antibody; HBc-IgG, hepatitis B core antibody, immunoglobulin G; HBc-IgM, hepatitis B core antibody, immunoglobulin M; HBeAg; hepatitis B early antigen; HBeAb, hepatitis B early antibody. Adapted from Mast EE, Margolis HS, Fiore AE, et al.; Advisory Committee on Immunization Practices (ACIP). A comprehensive immunization strategy to eliminate transmission of hepatitis B virus infection in the United States: recommendations of the Advisory Committee on Immunization Practices (ACIP) part 1: immunization of infants, children, and adolescents. <em>MMWR Recomm Rep</em> 2005;<strong>54</strong>(RR-16):1-31.<xref ref="pubmed16371945" resource="acc019" />
+</feature_body>
+</feature>
+<feature id="table004">
+<caption>Hepatitis B Stages.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">&#x00A0;</th>
+<th align="left" colspan="1">Immune Tolerance</th>
+<th align="left" colspan="1">Immune Activation&#x002F;Reactivation</th>
+<th align="left" colspan="1">Immunological Surveillance</th>
+<th align="left" colspan="1">Resolution</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Clinical</td>
+<td align="left" colspan="1">Acute infection, incubation period</td>
+<td align="left" colspan="1">Inflammatory response</td>
+<td align="left" colspan="1">Carrier state, mostly inactive</td>
+<td align="left" colspan="1">Immunity, resolved disease</td>
+</tr>
+<tr>
+<td align="left" colspan="1">HBsAg</td>
+<td align="left" colspan="1">Positive</td>
+<td align="left" colspan="1">Positive</td>
+<td align="left" colspan="1">Positive</td>
+<td align="left" colspan="1">Negative</td>
+</tr>
+<tr>
+<td align="left" colspan="1">HBV DNA (log IU&#x002F;mL)</td>
+<td align="left" colspan="1">High, &gt;7</td>
+<td align="left" colspan="1">Decreasing&#x002F;fluctuating, 7-3.3</td>
+<td align="left" colspan="1">Low, &lt;3.3</td>
+<td align="left" colspan="1">Undetectable</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Liver inflammation</td>
+<td align="left" colspan="1">None or minimal</td>
+<td align="left" colspan="1">Mild to severe</td>
+<td align="left" colspan="1">None or minimal</td>
+<td align="left" colspan="1">None</td>
+</tr>
+<tr>
+<td align="left" colspan="1">ALT</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Continuous or intermittent elevation</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Normal</td>
+</tr>
+<tr>
+<td align="left" colspan="1">HBeAg</td>
+<td align="left" colspan="1">Positive</td>
+<td align="left" colspan="1">Positive or negative</td>
+<td align="left" colspan="1">Negative</td>
+<td align="left" colspan="1">Negative</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Prognosis</td>
+<td align="left" colspan="1">Uncertain, favorable for the majority</td>
+<td align="left" colspan="1">Progressive inflammation and necrosis may cause cirrhosis and hepatocellular carcinoma</td>
+<td align="left" colspan="1">Favorable for most, but some are at increased risk for hepatocellular carcinoma</td>
+<td align="left" colspan="1">Good</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Transmission</td>
+<td align="left" colspan="1">High</td>
+<td align="left" colspan="1">High, decreasing</td>
+<td align="left" colspan="1">Low</td>
+<td align="left" colspan="1">None</td>
+</tr>
+</table>Abbreviations: HBeAg, hepatitis B early antigen; HBsAg, hepatitis B surface antigen; HBV, hepatitis B virus. Adapted from Lindh M, Uhnoo I, Blackberg J, et al. Treatment of chronic hepatitis B infection: an update of Swedish recommendations. <em>Scand J Infect Dis</em> 2008;<strong>40</strong>:436-450.<xref ref="pubmed18584530" resource="acc002" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

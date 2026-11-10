@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Lung cancer</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0497</topic_id>
+<topic_comment />
+<topic_lastupdated>04/09/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Kathleen Lutchi, MD</author_name>
+<author_title>Resident Physician</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>University of Tennessee Health Science</author_institution>
+<author_email>klutchi&#x0040;uthsc.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Memphis</author_city>
+<author_state>TN</author_state>
+<author_zip>38163</author_zip>
+</author>
+<author primary="no">
+<author_name>Amy Varghese, MD</author_name>
+<author_title>Resident Physician</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>University of Tennessee Health Science Center</author_institution>
+<author_email>avarghe3&#x0040;uthsc.edu</author_email>
+<author_phone_office>901-448-5814</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Memphis</author_city>
+<author_state>TN</author_state>
+<author_zip>38163</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Noelle O'Rourke, MA, MD, FRCP, FRCR</editor_name>
+<editor_title>Consultant and Honorary Senior Lecturer in Clinical Oncology</editor_title>
+<editor_institution>Beatson Cancer Centre, Glasgow, UK</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>The USPSTF recommends screening with low dose CT for high risk smokers (age 50-80 years, 20 pack years, and still smoking or quit within 15 years). It is most cost-effective for current smokers in their 60's with 35 pack years.<xref ref="pubmed33687469" resource="acc081" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Although screening can reduce lung cancer mortality, the harms are significant given the number of false positive investigations and requirements for invasive interventions.<xref ref="pubmed38163370" resource="acc092" /><evidence rating="B" system="SORT">B</evidence><xref ref="poem180944" resource="acc057" /><xref ref="poem190510" resource="acc056" /></listitem>
+<listitem>Flexible bronchoscopy is the test of choice in patients with central lung tumors. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Transthoracic needle aspiration is recommended for biopsy in patients with peripheral lung tumors. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients undergoing mediastinal staging for lung cancer should receive chest computed tomography plus positron emission tomography. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Surgery is the treatment of choice for patients with local or only locally advanced non-small cell carcinoma (Stage I through Stage IIIA). <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Chemotherapy, combined with radiotherapy in limited disease, is the mainstay of treatment for small cell carcinoma. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Targeted monoclonal antibody therapies that address specific mutations are highly effective for selected patients with NSCLC. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Immunotherapy with PD1 and PDL1 inhibitors is emerging as a very effective treatment option in both non-small cell and small cell lung cancer at various points in the treatment pathway. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>
+<list style="bulleted">
+<listitem>Lung cancer is a cancer that forms in tissues of the lung, usually in the cells lining air passages. The two main types are small cell lung cancer and non-small cell lung cancer.</listitem>
+</list>
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Incidence rate among all races is 82.1 per 100,000 men per year and 52.3 per 100,000 women per year.</listitem>
+<listitem>African-American males have the highest incidence of lung cancer at 113.9 per 100,000 persons per year.</listitem>
+<listitem>2.1 million cases of lung cancer worldwide, with 1.8 million deaths.<xref ref="web001" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Approximately 541,000 Americans living today have been diagnosed with lung cancer during their lifetime.</listitem>
+</list>
+</prevalence>
+<economic_impact>
+<list style="bulleted">
+<listitem>Direct medical cost for treatment of lung cancer is estimated at approximately $13.4 billion annually.</listitem>
+<listitem>Lost productivity due to early death from lung cancer is estimated to cost $36.1 billion annually.</listitem>
+</list>
+</economic_impact>
+<social_impact>
+<list style="bulleted">
+<listitem>Lung cancer is the second most common cancer and the leading cause of cancer-related death in the United States in both men and women.</listitem>
+<listitem>1 in 14 men and women will be diagnosed with lung cancer during their lifetime.</listitem>
+<listitem>In the last decade, death rates from lung cancer among men have begun to decline, but lung cancer recently surpassed breast cancer as the most common fatal cancer among women.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Smoking is directly linked to lung cancer in 90&#x0025; of cases in women and 79&#x0025; of cases in men. A <xref ref="rule210" resource="acc011">clinical rule</xref> can be used to determine the risk of cancer in smokers.</listitem>
+<listitem>Exposures to second-hand smoke, asbestos, radon, or ionizing radiation and preexisting nonmalignant pulmonary diseases, such as chronic obstructive pulmonary disease (COPD), idiopathic pulmonary fibrosis, and tuberculosis are also associated with increased lung cancer rates.</listitem>
+<listitem>A recent analysis of 14 case control studies with a total of over 28,000 participants demonstrated increased risk of lung cancer with occupational benzene exposure, which varied with exposure dose and duration.<xref ref="pubmed37812782" resource="acc091" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Lung cancer is broadly categorized as small cell carcinoma or non-small cell carcinoma.</listitem>
+<listitem>Light microscopy is used to differentiate lung cancer further into four major and several minor histologic classes.</listitem>
+<listitem>The major histologic classes are adenocarcinoma, squamous cell carcinoma, small cell carcinoma, and large cell carcinoma.</listitem>
+<listitem>Minor histologic classes include adenosquamous carcinoma, carcinoid, and bronchial gland carcinoma.</listitem>
+<listitem>Adenocarcinoma recently surpassed squamous cell carcinoma as the most common type of lung carcinoma.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Smoking</Risk_Name>
+<Risk_OR>10 to 30</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Asbestos</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Radon</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Arsenic</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chromium</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Nickel</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Vinyl chloride</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Ionizing radiation</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic obstructive pulmonary disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Idiopathic pulmonary fibrosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Tuberculosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Second-hand smoke</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>USPSTF now recommends screening for lung cancer in high risk adults (age 50-80 years, 20 pack years of smoking, and still smoking or quit within 15 years).<xref ref="cochrane1991" resource="acc013" /><xref ref="pubmed17065637" resource="acc012" /><xref ref="poem151133" resource="acc037" /><xref ref="poem101243" resource="acc001" /><xref ref="poem90102" resource="acc002" /><xref ref="poem111041" resource="acc026" /><xref ref="cochrane1991" resource="acc013" /><xref ref="PubMed22610500" resource="acc030" /><xref ref="poem160531" resource="acc039" /></listitem>
+<listitem>For all individuals, smoking cessation should be strongly encouraged to decrease the risk of lung cancer. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Chest radiography and sputum cytology are not effective screening tools for lung cancer. The former was confirmed by the PLCO trial, which found no impact on lung cancer mortality over 4 years in those randomized to CXR.<xref ref="poem140121" resource="acc028" /></listitem>
+<listitem>Low dose spiral chest CT detects lung cancer earlier in high-risk patients.<xref ref="pubmed17065637" resource="acc012" /><xref ref="poem101243" resource="acc001" /><xref ref="poem90102" resource="acc002" /> The 3 year results for the DANTE study which randomized over 2800 smokers to CT screening or no screening resulted in a greater number of detected cancers in the screened group (4.7&#x0025; vs 2.8&#x0025;) and more operable cancers, but no difference in mortality.<xref ref="poem111041" resource="acc026" /> Early results from the NELSON trial found that CT had a 36&#x0025; positive predictive value after the first round of screening, but at a cost of many biopsies and significant radiation exposure.<xref ref="poem120202" resource="acc022" /><xref ref="cochrane1991" resource="acc013" /></listitem>
+<listitem>Most recently, the National Lung Cancer Screening Trial reported results from an RCT that enrolled 53,454 persons age 55 to 74 years with at least 30 pack years smoking and who were currently smoking or had quit within 15 years. Patients were followed for 5 years, and the screened group had lower lung-cancer-specific mortality (249 vs 309 deaths&#x002F;100,000 person-years, p &#x003D; 0.004) and lower all-cause mortality (1877 vs 2000 deaths, p &#x003D; 0.02). The NNS over the 5 year study period is 320. However, false positives are common, requiring additional surveillance and often biopsy or even surgery. Thus, harms are potentially quite substantial for patients participating in a screening program. <xref ref="poem131002" resource="acc029" /><xref ref="poem151133" resource="acc037" /></listitem>
+<listitem>The USPSTF now recommends screening with low dose CT for high risk smokers (age 50-80 years, 20 pack years, and still smoking or quit within 15 years).<xref ref="poem160531" resource="acc039" /> However, there is concern that screening may cause overdiagnosis and unnecessary anxiety, radiation exposure, and expense.<xref ref="poem160432" resource="acc040" /></listitem>
+<listitem>Recent systematic reviews including the major screening trials (NELSON and NLST) estimate the rate of overdiagnosis at between 8&#x0025;<xref ref="poem221222" resource="acc071" /> and 20&#x0025;.<xref ref="pubmed33168683" resource="acc080" /><xref ref="pubmed33168683" resource="acc080" /></listitem>
+<listitem>A cost-effectiveness analysis performed after the Task Force recommendation was released concluded that screening was most cost-effective in current smokers, among persons aged 60 to 69 years, and in those at the highest two quintiles of lung cancer risk.<xref ref="pubmed25372087" resource="acc046" /></listitem>
+<listitem>Among the screen-detected nodules, predictors of malignancy include female sex, upper lobe nodules, spiculation, and larger nodule size.<xref ref="poem151105" resource="acc038" /></listitem>
+<listitem>The ACS, ACCP, NCCN, and ASCO recommend that screening be offered to high risk patients, but express concerns about potential harms if patients are not appropriately selected.<xref ref="PubMed22610500" resource="acc030" /> There is ACCP guidance published on the components required for effective screening programs to ensure quality and governance.<xref ref="pubmed25356819" resource="acc042" /></listitem>
+<listitem>A review of the American College of Radiology database on over one million of the population who have undergone screening demonstrated a cancer detection rate of only 0.56&#x0025;, poor adherence to proposed test schedule at 22&#x0025; and particularly poor adherence in smokers who were the most at risk cohort.<xref ref="pubmed36773935" resource="acc089" /></listitem>
+<listitem>In one recent series initial screening led to additional imaging in 40&#x0025; of patients in the real world situation which does raise questions about cost-effectiveness.<xref ref="poem180321" resource="acc048" /> However, a subsequent larger study found rates of imaging in a community sample were lower than in the NLST, although rates of some invasive procedures were higher.<xref ref="poem220909" resource="acc083" /> Cost-effectiveness of screening depends on effectiveness of individual programs.<xref ref="pubmed26645413" resource="acc049" /><xref ref="pubmed25372087" resource="acc046" /> A <xref ref="pubmed25522175" resource="acc059">clinical rule</xref> can assist in decision-making by identifying patients at greater risk who are more likely to have a favorable benefit-harm ratio.<xref ref="pubmed25522175" resource="acc059" /></listitem>
+<listitem>Review of US population of almost 10,000 screened patients highlighted that almost 16&#x0025; of patients screened with low dose CT had abnormal scans, with a third of patients requiring additional imaging, 2.8&#x0025; receiving invasive investigations and of those one third had complications. The overall diagnostic rate for cancer was low and caution should be applied in weighing up the benefit of screening.<xref ref="pubmed38163370" resource="acc092" /></listitem>
+<listitem>The Liverpool Lung Project has developed an accurate risk prediction model that is publicly available <resourceLink href="https://liverpoollungproject.org.uk/MLRV3/MLRCalculation.html">here</resourceLink>. It has been prospectively validated.<xref ref="pubmed25873368" resource="acc085" /></listitem>
+<listitem>2020 saw publication of final results of NELSON, the Dutch screening trial of over 15,000 people using low dose CT. NELSON was notable for gradually spacing out screening intervals from 1 to 1.5 to 2 years without loss of benefit..<xref ref="poem220415" resource="acc070" /> A meta-analysis including the NLST and NELSON results reached the same conclusion that lung cancer mortality is reduced but not overall mortality using low dose CT screening in high risk populations. The absolute reduction in lung cancer is low (0.4&#x0025;) with 8&#x0025; participants 'overdiagnosed'.<xref ref="poem221222" resource="acc071" /></listitem>
+<listitem>A review that modeled alternative criteria for selection for lung cancer screening suggests it may be possible to improve the benefit to risk ratio with criteria focusing on the higher risk individuals in terms of age and smoking history. This approach could improve sensitivity of screening from 78 to 91&#x0025; with an even greater increase in the specifically high risk cohort of racial and ethnic minorities.<xref ref="pubmed39159457" resource="acc102" /></listitem>
+<listitem>A systematic review concluded that while AI over-reading of imaging may increase sensitivity of screening CT, it also increases false positives and the need for further surveillance.<xref ref="pubmed39322406" resource="acc111" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>For all individuals, smoking cessation should be strongly encouraged to decrease the risk of lung cancer.</listitem>
+<listitem>For lung cancer prevention, smokers should be offered nicotine replacement therapy, buproprion (Wellbutrin), nortiptyline (Pamelor), and counseling for smoking cessation.</listitem>
+<listitem>There is currently no evidence to support recommending vitamins A, C, E, beta-carotene, selenium, or retinol to prevent lung cancer.<xref ref="poem100446" resource="acc003" /><xref ref="cochrane2141" resource="acc016" /></listitem>
+<listitem>A Cochrane review of 51 studies and more than 1.6 million participants concluded there was insufficient and conflicting evidence to support a benefit for green tea consumption in primary prevention of lung cancer.<xref ref="cochrane5004" resource="acc041" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>Lung cancer patients who smoke should be strongly encouraged to stop smoking. A review of outcomes in NCSLC comparing smokers to non-smokers found similar rates of 12 month progression free survival and all cause mortality, but with survival significantly worse at 5 and 10 years for the continuing smokers.<xref ref="pubmed39757150" resource="acc103" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Flexible bronchoscopy is the test of choice in patients with central lung tumors. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Transthoracic needle aspiration is recommended in patients with peripheral lung tumors who are not surgical candidates. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients undergoing mediastinal staging for lung cancer should receive chest computed tomography plus positron emission tomography. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Abscess</Differential_Name>
+<Differential_Features>Signs and symptoms of infection</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Metastasis from other primary tumor</Differential_Name>
+<Differential_Features>Other signs of malignancy from primary tumor</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Granuloma</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Cyst</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Foreign body</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Arteriovenous malformation</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Pulmonary hamartoma</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Non-small cell carcinoma is categorized using the TNM (tumor-node-metastases) staging system.</listitem>
+<listitem>Small cell carcinoma, previously categorized as limited or extensive stage disease, is now staged also on TNM system since introduction of updated TNM version 7 in 2012 (current version is now TNMv8).</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Common manifestations of a primary tumor include chest or rib pain, cough, dyspnea, and hemoptysis.</listitem>
+<listitem>Approximately 40&#x0025; of patients present with signs and symptoms of intrathoracic spread, including chest wall invasion, esophageal symptoms, Horner syndrome, Pancoast's tumor, phrenic nerve paralysis, recurrent laryngeal nerve paralysis, pleural effusions, and superior vena cava syndrome.</listitem>
+<listitem>About one-third of patients present with signs and symptoms of extrathoracic spread, including nonspecific signs such as fatigue, weight loss, and decreased appetite as well as bone pain, fracture, elevated alkaline phosphatase, confusion, focal neurologic deficits, headache, seizures, nausea, vomiting, or palpable lymphadenopathy.</listitem>
+<listitem>A smaller percentage of patients present with symptoms related to paraneoplastic syndromes such as hypercalcemia, SIADH, Cushing's syndrome, digital clubbing, hypertrophic pulmonary osteoarthorpathy, Lambert-Eaton myasthenic syndrome, peripheral neuropathy, and cortical cerebellar degeneration.</listitem>
+<listitem>All patients with known or suspected lung cancer should undergo a thorough history, physical examination, and standard laboratory tests as a screen for metastatic disease.</listitem>
+<listitem>A history of <xref ref="hp166" resource="acc010">dyspnea, chest or rib pain, fatigue, hemoptysis, weight loss, loss of appetite, or fatigue</xref> should raise suspicion for lung cancer.</listitem>
+<listitem>The presence of finger <xref ref="hp166" resource="acc010">clubbing</xref> on physical exam has a low sensitivity but a high specificity for pulmonary disease.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Approximately 10&#x0025; of lung cancers are detected on chest radiographs in asymptomatic patients. In patients with pleural effusion, <xref ref="test328" resource="acc035">CA 15-3, CA 125, CA 19-9, and CYFRA 21-1</xref> antigens suggest malignancy. The most accurate combination was <xref ref="test328" resource="acc035">CA 125 + CA 19-9</xref> (LR+ 47, LR&#x2212; 0.05).<xref ref="test328" resource="acc035" /></listitem>
+<listitem>A systematic review found two good quality studies of CXR for the diagnosis of lung cancer, and found sensitivities of 77&#x0025; to 80&#x0025;. Patients with negative CXR but at high clinical risk should have further imaging.<xref ref="pubmed31636130" resource="acc084" /></listitem>
+<listitem>A tissue diagnosis may be obtained through a variety of techniques, including sputum cytology, thoracentesis, excisional biopsy of an accessible node, flexible bronchoscopy with or without transbronchial needle aspiration, transthoracic needle aspiration, and video-assisted thoracoscopy or thoracotomy.</listitem>
+<listitem>Patients undergoing mediastinal staging for lung cancer should receive chest computed tomography plus positron emission tomography.</listitem>
+<listitem>Pulmonary function testing, including forced expiratory volume in 1 second (FEV1) and carbon monoxide diffusion in the lung (DLCO) measurement, is a helpful predictor of morbidity and mortality in patients undergoing lung resection.</listitem>
+<listitem>Non-small cell lung cancer: NCCN guidelines recommend pathology review, CT chest and upper abdomen including adrenals, CBC, platelets, chemistry profile for initial evaluation of patients with non-small cell lung cancer.<xref ref="web002" /> For patients in whom curative therapy options are being considered, staging should include a PET scan to better define extent of disease and exclude occult metastases.</listitem>
+<listitem>Small cell lung cancer: NCCN Guidelines recommend pathology review, chest&#x002F;liver&#x002F;adrenal CT, CBC, platelets, electrolytes, LFTs, calcium, LDH, BUN, creatinine for initial evaluation. CXR and PET scan are optional, as is bone scan if PET scan has been obtained. Head MRI is also recommended, with CT as an alternative.<xref ref="web003" /></listitem>
+<listitem>With the increasing therapeutic options deriving from actionable mutations, it should now be standard that pathology reporting of lung cancers includes screening for the common mutations and for PDL1.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>Clinical decision rules have been developed to predict the prognosis of patients with <xref ref="rule259" resource="acc009">terminal lung cancer</xref> and <xref ref="rule249" resource="acc008">non-small cell lung cancer</xref>.</listitem>
+<listitem>The Liverpool Lung Project has developed an accurate risk prediction model that is publicly available <resourceLink href="https://liverpoollungproject.org.uk/MLRV3/MLRCalculation.html">here</resourceLink>. It has been prospectively validated.<xref ref="pubmed25873368" resource="acc085" /></listitem>
+<listitem>A clinical rule has also been developed to predict an individual's <xref ref="rule210" resource="acc011">risk of developing lung cancer</xref>.<xref ref="pubmed12644540" resource="acc058" /></listitem>
+<listitem>A clinical rule can <xref ref="pubmed25522175" resource="acc059">determine the risk of lung cancer</xref> to aid in screening decisions.<xref ref="pubmed25522175" resource="acc059" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>In patients with apparent early non-small cell carcinomas who are surgical candidates, bronchoscopy with endobronchial ultrasound (EBUS)-directed biopsy is used commonly due to its high diagnostic accuracy.</listitem>
+<listitem>In patients with presumed small cell or metastatic non-small cell carcinomas, the diagnosis should be made by using the most convenient and least invasive method available, such as thoracentesis of a pleural effusion, excisional biopsy of an accessible node, bronchoscopy, or transthoracic needle aspiration.</listitem>
+<listitem>Transthoracic needle aspiration is recommended in patients with peripheral lung tumors who are not surgical candidates.</listitem>
+<listitem>After establishing a tissue diagnosis, a metastatic evaluation and staging classification should be performed to determine the presence of metastasis and to identify surgical resection candidates. Initial evaluation includes a thorough history and physical exam, lab evaluation, and chest and upper abdomen CT scans plus PET scan.</listitem>
+<listitem>If mediastinum appears normal, perform mediastinoscopy and thoracotomy. If mediastinal spread is suspected, choose one of the following based on clinical presentation: <list style="bulleted">
+<listitem>Bronchoscopy with or without transbronchial needle aspiration</listitem>
+<listitem>Endobronchial ultrasonography: guided transbronchial needle aspiration</listitem>
+<listitem>Transthoracic needle aspiration</listitem>
+<listitem>Video-assisted thoracoscopy</listitem>
+<listitem>Mediastinoscopy</listitem>
+</list></listitem>
+<listitem>After a metastatic evaluation is complete, the staging classification can be determined based on the type of tumor identified and the presence or absence of metastatic disease.</listitem>
+<listitem>A final component of the diagnostic assessment of patients with lung cancer is a functional evaluation, including evaluation of performance and pulmonary status.<xref ref="web002" /><xref ref="web003" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>166</HP_ID>
+<HP_ID>100</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>315</Dx_ID>
+<Dx_ID>76</Dx_ID>
+<Dx_ID>77</Dx_ID>
+<Dx_ID>93</Dx_ID>
+<Dx_ID>98</Dx_ID>
+<Dx_ID>257</Dx_ID>
+<Dx_ID>328</Dx_ID>
+<Dx_ID>92</Dx_ID>
+<Dx_ID>109</Dx_ID>
+<Dx_ID>112</Dx_ID>
+<Dx_ID>250</Dx_ID>
+<Dx_ID>251</Dx_ID>
+<Dx_ID>256</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Surgery is the treatment of choice for patients with local or only locally advanced non-small cell carcinoma (Stage I through Stage IIIA). <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4699" resource="acc014" /><xref ref="web002" /></listitem>
+<listitem>Treatment for unresectable non-small cell carcinoma may involve radiotherapy and chemotherapy. <evidence rating="C" system="SORT">C</evidence><xref ref="cochrane2139" resource="acc017" /><xref ref="web002" /></listitem>
+<listitem>Chemotherapy, combined with radiotherapy in limited disease, is the mainstay of treatment for small cell carcinoma. <evidence rating="C" system="SORT">C</evidence><xref ref="cochrane4700" resource="acc015" /></listitem>
+<listitem>Targeted therapy for NSCLC directed against specific mutations identified within the tumours is highly effective. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed25470694" resource="acc045" /><xref ref="pubmed26970723" resource="acc050" /><xref ref="pubmed26712084" resource="acc051" /><xref ref="pubmed26412456" resource="acc052" /><xref ref="pubmed27718847" resource="acc054" /><xref ref="pubmed27959700" resource="acc055" /><xref ref="pubmed30280635" resource="acc062" /><xref ref="pubmed30280657" resource="acc063" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug />
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>There is no evidence that elemene, a Chinese herb, is effective for lung cancer treatment. Many of the trials reported as randomized were actually non-randomized clinical trials.<xref ref="cochrane6054" resource="acc004" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT>
+<list style="bulleted">
+<listitem>Breathing training, walking aids, neuro-electrical muscular stimulation and chest wall vibration are all helpful for patients with advanced lung cancer and breathlessness.There is also evidence for benefit from exercise programs following surgery.<xref ref="pubmed25323620" resource="acc043" /></listitem>
+<listitem>Nursing interventions to reduce breathlessness are effective.<xref ref="cochrane4282" resource="acc018" /></listitem>
+</list>
+</Treatment_PT>
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem><strong>Treatment of Small Cell Lung Cancer</strong></listitem>
+<listitem>The mainstay of drug therapy for small cell lung cancer is platinum-based combination chemotherapy. There was a trend toward better 3 year survival with earlier initiation of radiotherapy (within 30 days of the start of chemotherapy) but it lacked statistical significance.<xref ref="cochrane4700" resource="acc015" /></listitem>
+<listitem>Consider lobectomy with mediastinal dissection in patients with Stage I to IIA SCLC.<xref ref="pubmed40163214" resource="acc109" /></listitem>
+<listitem>The addition of chest radiotherapy in patients responding to primary chemotherapy has been shown to improve overall survival in both limited and extensive stage disease as has the addition of prophylactic cranial radiotherapy.</listitem>
+<listitem>Lobectomy and mediastinal lymph node dissection or sampling are an option for patients with clinical state T1-2,N0 small cell lung cancer.<xref ref="web003" /></listitem>
+<listitem>Atezolizumab has also shown a small benefit in both progression free survival and median survival when added to standard chemotherapy in metastatic small cell lung cancer.<xref ref="pubmed39268857" resource="acc104" /><xref ref="pubmed30280641" resource="acc067" /></listitem>
+<listitem>Immunotherapy with durvalumab after concurrent chemoradiotherapy in limited stage small cell lung cancer improved median survival in a large study from 33.4 to 55.9 months.<xref ref="pubmed39268857" resource="acc104" /></listitem>
+<listitem>Second-line therapies include lurbinectidin and tarlatamab.<xref ref="pubmed40454646" resource="acc112" /><xref ref="pubmed40163214" resource="acc109" /></listitem>
+<listitem>Anti-coagulation: A systematic review of 5 RCTs found no evidence of mortality benefit for anticoagulation in patients with lung cancer.<xref ref="cochrane6466" resource="acc060" /></listitem>
+<listitem>Antitussives: Studies of cough in patients with lung cancer are of poor quality. There is some evidence of benefit for opiates, and possibly brachytherapy and photodynamic therapy.<xref ref="cochrane7881" resource="acc025" /></listitem>
+<listitem>Palliative lower dose radiotherapy provides effective symptom control and may prolong survival in selected patients.<xref ref="cochrane2143" resource="acc032" /></listitem>
+<listitem><strong>Treatment of Non-Small Cell Lung Cancer (NSCLC)</strong></listitem>
+<listitem>Surgery is the treatment of choice for patients with local or only locally advanced non-small cell carcinoma (Stage I through Stage IIIA). <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4699" resource="acc014" /><xref ref="web002" /></listitem>
+<listitem>A trial randomized 697 patients with T1aN0 (tumor size &lt;&#x003D; 2 cm) to sublobar versus lobar resection. They concluded that sublobar resection was non-inferior to lobar resection after 5 years.<xref ref="pubmed36780674" resource="acc099" /></listitem>
+<listitem>A meta-analysis identified 5 RCTs with 2035 patients comparing sublobar vs lobar resection for patients with early stage NSCLC &lt;&#x003D; 2 cm in diabeter, and found that sublobar was non-inferior. Relative risk of 5 year survival was the same between groups (RR 1.02 favoring sublobar, 95&#x0025; CI 0.99 to 1.05).<xref ref="pubmed39522446" resource="acc107" /></listitem>
+<listitem>Evidence from a meta-analysis suggests that the benefit of adjuvant chemotherapy in NSCLC is in patients with nodal involvement or tumour &gt;4 cm, and even in these groups the benefits of adjuvant chemotherapy is limited to increased 5 year survival from 41&#x0025; to 45&#x0025; with significant risk of toxicity.<xref ref="cochrane6157" resource="acc007" /><xref ref="cochrane2139" resource="acc017" /></listitem>
+<listitem>In patients who have had surgical resection of tumours with EGFR sensitising mutations there is early evidence of reduced recurrence with adjuvant use of osimertinib but mature survival data is awaited.<xref ref="pubmed32955177" resource="acc074" /></listitem>
+<listitem>A similar trial using adjuvant osimertinib after primary chemoradiotherapy in inoperable EGFR mutated NSCLC has also demonstrated benefit in progression free survival but mature data on survival is awaited.<xref ref="pubmed38828946" resource="acc100" /></listitem>
+<listitem>Recent Cochrane reviews demonstrate no evidence of survival benefit for prophylactic anticoagulation in patients without evidence of thrombus.<xref ref="cochrane6652" resource="acc061" /><xref ref="cochrane6466" resource="acc060" /></listitem>
+<listitem>Treatment for unresectable non-small cell carcinoma may involve radiotherapy and chemotherapy. A systematic review found that survival was improved for supportive care plus chemotherapy compared with supportive care alone.<xref ref="cochrane2139" resource="acc017" /><xref ref="web002" /> A second chemotherapy drug may increase tumor response, but less so with a third drug.<xref ref="pubmed30280658" resource="acc066" /></listitem>
+<listitem>Similarly adding pembrolizumab to neoadjuvant chemotherapy and adding it adjuvantly improved event free survival and with evidence of overall survival benefit at 3 years from 64 to 71&#x0025;.<xref ref="pubmed39288781" resource="acc105" /></listitem>
+<listitem>A further trial of neoadjuvant chemotherapy with or without nivolumab immunotherapy pre-operatively confirmed a significant 5 year survival benefit in the immunotherapy group 65 vs 55&#x0025;.<xref ref="pubmed40454642" resource="acc114" /></listitem>
+<listitem><em>Radiotherapy</em></listitem>
+<listitem>Another systematic review found that external beam radiation is more effective than endobronchial brachytherapy for patients with inoperable non-small cell lung cancer, but the value of combining these therapies is unknown.<xref ref="cochrane4284" resource="acc005" /></listitem>
+<listitem>Radiotherapy is the treatment of choice for medically inoperable patients with early stage non-small cell lung cancer and offers potentially curative therapy for those unfit for surgery.<xref ref="cochrane2935" resource="acc044" /> Short course high biological dose radiation delivered as stereotactic therapy (SBRT) is an evolving option for treatment of peripheral early stage tumours with outcomes suggesting this may offer an alternative to surgery in some patients. Analysis of the National Cancer Database has shown that in medically inoperable NSCLC, SBRT offers better survival than no treatment. A recent meta-analysis including almost 18,000 patients with inoperable early stage NSCLC demonstrated better local control and overall survival with the use of stereotactic radiotherapy as compared to conventional radiotherapy.<xref ref="pubmed32846789" resource="acc072" /></listitem>
+<listitem>Radical dose, potentially curative radiation treatment, is the treatment of choice in locally advanced NSCLC. In fit patients, outcomes are improved with addition of systemic therapy. If systemic therapy is administered concurrently this is more effective, though potentially more toxic, than given sequentially.<xref ref="cochrane2140" resource="acc047" /></listitem>
+<listitem><em>Targetted therapy and Immunotherapy</em></listitem>
+<listitem>Targeted therapy for NSCLC directed against specific mutations identified within the tumours has opened up a huge therapeutic potential currently in development. In the patient population with the specific anaplastic lymphoma kinase (ALK) genetic translocation, an RCT demonstrated response rate of 74&#x0025; compared to standard chemotherapy response rate of 45&#x0025;.<xref ref="pubmed25470694" resource="acc045" /> There have been a number of trials addressing the efficacy of immunotherapy agents in second line treatment of NSCLC, randomising against the standard treatment docetaxel. All have shown significant increases in overall survival indicating a whole new option of treatment.<xref ref="pubmed26970723" resource="acc050" /><xref ref="pubmed26712084" resource="acc051" /><xref ref="pubmed26412456" resource="acc052" /></listitem>
+<listitem>A clinical trial identified 275 patients with ALK positive NSCLC and randomized them to one of two ALK inhibitors, brigatinib or crizotinib. The 12 month median progression free survival was higher with brigatinib (67&#x0025; vs 43&#x0025;, p &lt;0.001, NNT &#x003D; 4).<xref ref="pubmed30280657" resource="acc063" />With the option now of a third generation agent targetting ALK translocation, response rate and progression free survival were improved with lorlatinib compared to crizotinib and this was especially true in patients with brain disease. The percentage alive without disease progression at 12 months was 78&#x0025; with loraltinib and only 39&#x0025; with crizotinimb (HR 0.28, 95&#x0025; CI 0.19-0.41).<xref ref="pubmed33207094" resource="acc073" /></listitem>
+<listitem>Adagrasib is a KRASG12C inhibitor. In a prospective cohort, 116 patients who had already been treated with platinum based chemotherapy and anti-programmed death 1 or ligand 1 therapy were treated with adagrasib; 43&#x0025; had a response with a median duration of 8 months.<xref ref="pubmed35658005" resource="acc087" /></listitem>
+<listitem>An RCT enrolled 305 patients with advanced, previously untreated NSCLC who expressed a high level of PD-L1 on the cancer cells. The trial compared pembrolizumab (a monoclonal antibody) with platinum-based chemotherapy. Median progression-free survival favored the pembrolizumab group (10.3 vs 6.0 months, p &lt;0.001), with 6 month survival of 80&#x0025; vs 72&#x0025;, p &#x003D; 0.005, NNT &#x003D; 13). The therapy was also better tolerated.<xref ref="pubmed27718847" resource="acc054" /></listitem>
+<listitem>A study randomized 797 participants with early stage (II, IIIA or IIIE) NSCLC to pembrolizumab or placebo, followed by resection. Overall survival at 24 months was slightly higher in the pembrolizumab group (80.9&#x0025; vs 77.6&#x0025;, p &#x003D; 0.02) as was 24 month event free survival (62.4&#x0025; vs 40.6&#x0025;, p &lt; 0.001).<xref ref="pubmed37272513" resource="acc095" /></listitem>
+<listitem>A study randomized 559 patients with metastatic squamous NSCLC to standard chemotherapy + pembrolizumab or standard chemotherapy + placebo. At a median of 7.8 months, overall survival was higher in the combination therapy group (15.9 months vs 11.3 months, p &lt;0.001), while progression free survival was also somewhat higher (6.4 vs 4.8 months, p &lt;0.001).<xref ref="pubmed30280635" resource="acc062" /></listitem>
+<listitem>This finding of enhanced overall survival with the addition of immunotherapy to first line chemotherapy in advanced NSCLC has now been replicated across a number of trials using different immunotherapy agents<xref ref="pubmed29863955" resource="acc064" /><xref ref="pubmed29658856" resource="acc065" /><xref ref="pubmed33581821" resource="acc078" />.</listitem>
+<listitem>With the agent atezolizumab the benefit has been demonstrated regardless of PDL1 status.<xref ref="pubmed29863955" resource="acc064" /></listitem>
+<listitem>A trial comparing nivolumab plus ipilimumab with standard chemotherapy in patients with at least 1&#x0025; PD-L1 expression and advanced stage NSCLC found slightly longer survival with combination therapy (17.1 months vs 14.9 months with chemotherapy). Further studies combining PD1 and CTLA4 inhibition also show promising results, though with an increased risk of toxicity with combination immunotherapy.<xref ref="pubmed34477154" resource="acc082" /><xref ref="pubmed31562796" resource="acc068" /></listitem>
+<listitem>A study of patients with stage IB to IIIA resectable non-small cell lung cancer randomized 358 patients to platinum-based chemotherapy alone or nivolumab with chemotherapy. Event free survival was longer with combination therapy (32 vs 21 months, p &#x003D; 0.005) as was the number of patients with a complete pathologic response (24&#x0025; vs 2&#x0025;, p &lt; 0.001, NNT &#x003D; 5). Adverse events were similar between groups.<xref ref="pubmed32979984" resource="acc086" /> The final follow-up reported better overall survival found in the nivolumab group (HR 0.72, 95&#x0025; CI 0.52 to 0.998). At 68 months, 5 year overall survival was higher (65&#x0025; vs 55&#x0025;, NNT &#x003D; 10).<xref ref="pubmed40454642" resource="acc114" /></listitem>
+<listitem>A study gave patients with resectable stage IIa to IIIb NSCLC nivolumab perioperatively plus neoadjuvant chemotherapy or neoadjuvant chemotherapy alone. Event free survival was more common with perioperative nivolumab at median 25 month follow-up (70&#x0025; vs 50&#x0025;, HR 0.58, 95&#x0025; CI 0.42 to 0.81).<xref ref="pubmed38749033" resource="acc101" /></listitem>
+<listitem>A trial of 86 patients with resectable Stage III NSCLC randomized them to neoadjuvant nivolumab + platinum-based chemotherapy or chemotherapy alone. The group receiving nivolumab were more likely to undergo surgery and had improved progression free survival at 24 months (67&#x0025; vs 41&#x0025;, HR 0.47, 95&#x0025; CI 0.25 to 0.88, NNT &#x003D; 4).<xref ref="pubmed37379158" resource="acc113" /></listitem>
+<listitem>Immunotherapy has now been approved for use in locally advanced disease following the PACIFIC trial with 709 patients treated with maintenance durvalumab following chemoradiation for stage III NSCLC. Median survival was 28.3 months in the treatent arm compared to 10.2 months in the control arm.<xref ref="pubmed30280658" resource="acc066" /></listitem>
+<listitem>A study randomized 802 patients with resectable Stage II to IIIB NSCLC to platinum-based chemotherapy plus durvalumab or placebo. Event-free survival at 24 months (no disease progression, recurrence, or death) was more likely with durvalumab (63.3&#x0025; vs 52.4&#x0025;, p &lt; 0.05, NNT &#x003D; 10). While named as a secondary endpoint, overall survival was not reported separately.<xref ref="pubmed37870974" resource="acc096" /></listitem>
+<listitem>The introduction of immunotherapy agents has produced a raft of potential new toxicities to manage ranging from endocrine to gastrointestinal to pulmonary complications. The immune related toxicities can be sudden and severe and require urgent hospitalisation with high dose steroids and supportive therapy.</listitem>
+<listitem>An RCT identified patients with NSCLC whose disease progressed after treatment with an epidermal growth factor receptor tyrosine kinase (EGFR-TKI). They were randomized to osimertinib (an EGFR-TKI that is also selective for the T790M receptor) or platinum based therapy. Those receiving osimertinib had longer progression free survival by about 6 months (10.1 vs 4.4 months, p &lt;0.002), and the drug was better tolerated than platinum based therapy.<xref ref="pubmed27959700" resource="acc055" /></listitem>
+<listitem>Adding osimertinib to chemotherapy in EGFR mutated patients showed increased survival compared to chemotherapy alone.<xref ref="pubmed41104938" resource="acc115" /></listitem>
+<listitem>Among patients with previously untreated advanced NSCLC with an EGFR mutation, those who received osimertinib had longer overall survival than those who received a comparator EGFR-TKI.<xref ref="pubmed31751012" resource="acc069" /></listitem>
+<listitem>A placebo controlled RCT studied previously untreated EGFR positive patients following complete resection of NSCLC and found that at 24 months, survival was significantly higher in those randomized to osimertinib instead of placebo (90&#x0025; vs 44&#x0025;, p &lt;0.001, NNT &#x003D; 2).<xref ref="pubmed32955177" resource="acc074" /></listitem>
+<listitem>A trial identified 682 patients with EGFR-mutated resectable stage IB to IIIA NSCLC and randomized them to osimertinib or placebo. At 5 years overall survival was higher in the treatment group (88&#x0025; vs 78&#x0025;, p &lt; 0.001, NNT &#x003D; 10).<xref ref="pubmed37272535" resource="acc097" /></listitem>
+<listitem>In 216 patients with unresectable EGFR mutated stage III NSCLC who had already undergone chemoradiotherapy, those randomized to osimertinib were more likely to be alive and progression-free at one year (74&#x0025; vs 22&#x0025;). At 36 months, overall survival was 84&#x0025; vs 74&#x0025; but this difference was not significant (p&#x003D;0.54).<xref ref="pubmed38828946" resource="acc100" /></listitem>
+<listitem>In patients with NSCLC and either MET exon 14 skipping mutation of MET amplification, a cohort study found complete or partial response to the MET receptor inhibitor capmatinib.<xref ref="pubmed32877583" resource="acc075" /></listitem>
+<listitem>Patients (n&#x003D;308) with NSCLC and the EGFR exon 20 insertion were randomized to amivantamab plus chemotherapy or chemotherapy alone. At 18 months, progression free survival was more likely with amivantanab (31&#x0025; vs 3&#x0025;, p &lt; 0.001, NNT &#x003D; 3). In an interim analysis the hazard ratio for death trended in favor of treatment (HR 0.67, 95&#x0025; CI 0.42-1.09).<xref ref="pubmed37870976" resource="acc098" /></listitem>
+<listitem>In a cohort study of 152 patients with NSCLC and MET exon 14 skipping mutation, approximately half had a partial response with tepotinib.<xref ref="pubmed32469185" resource="acc076" /></listitem>
+<listitem>In a single arm trial with 125 patients with KRAS p.G12C mutated advanced NSCLC, sotorasib resulted in a measurable response in 37&#x0025; of patients including 4&#x0025; with a complete response.<xref ref="pubmed32955176" resource="acc077" /></listitem>
+<listitem>In those with advanced NSCLC and at least 50&#x0025; PDL-1 ligand expression, the EMPOWER-Lung 1 trial found significant improvement in overall survival and progression-free survival with Cemiplimab monotherapy compared to platinum-based doublet therapy.<xref ref="pubmed33581821" resource="acc078" /></listitem>
+<listitem>In a phase 1&#x002F;2 trial of patients with previously treated HER2-mutant advanced or metastatic NSCLC, the HER2 selective tyrosine kinase inhibitor zontertinib elicited a clinical response in 71&#x0025; with 12.9 months progression free survival.<xref ref="pubmed40293180" resource="acc110" /></listitem>
+<listitem>When compared to platinum-based chemotherapy, treatment with atezolizumab resulted in significantly longer overall survival among patients with highly expressed PD-L1 NSCLC.<xref ref="pubmed32997907" resource="acc079" /></listitem>
+<listitem>The latest class of new agents to emerge are targetted therapies for RET and ROS1 fusion gene mutations in Phase 2 trials, where individual drugs have demonstrated promising response rates compared to standard therapy<xref ref="pubmed37870973" resource="acc094" />.<xref ref="pubmed38197815" resource="acc093" /></listitem>
+<listitem>In a Phase 3 trial, 212 patients with RET fusion-positive NSCLC were randomized to first-line selpercatinib versus standard platinum based chemotherapy plus or minus pembrolizumab at the treating physician's discretion. Progression-free survival was significantly greater with selpercatinib (24.8 vs 11.2 months, p &lt; 0.001).<xref ref="pubmed37870973" resource="acc094" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Malignant pleural effusion: For patients requiring pleurodesis for malignant pleural effusion, a systematic review found that talc was the sclerosant of choice, that talc did not affect mortality, and that thoracoscopic pleurodesis is the most effective technique.<xref ref="cochrane2916" resource="acc023" /> A study of 106 patients with malignant pleural effusion found that indwelling pleural catheter was similar to talc pleurodesis for symptom relief. The IPC patients spent less time in the hospital, were less likely to require further procedures, but were more likely to develop serious pleural infections (9.6&#x0025; vs 1.9&#x0025;).<xref ref="poem140891" resource="acc027" /></listitem>
+<listitem>Brain metastases: There is no evidence to support the effectiveness of prophylactic cranial irradiation to prevent brain metastases in patients with lung cancer.<xref ref="cochrane5221" resource="acc024" /> There is no evidence that chemotherapy for brain metastases is effective, based on 3 small RCTs with 192 patients.<xref ref="cochrane7464" resource="acc031" /></listitem>
+<listitem>SVC obstruction: This occurs in 10&#x0025; with SCLC and 2&#x0025; with NSLC. Chemotherapy and radiation are effective in most patients, but recurrence is common. Steroids have not been studied.<xref ref="cochrane1316" resource="acc033" /></listitem>
+<listitem>Breathlessness: Nursing interventions are effective.<xref ref="cochrane4282" resource="acc018" /> Opiates are first-line drugs, benzodiazepines are of questionable benefit and should only be used as 2nd or 3rd line drugs.<xref ref="cochrane7354" resource="acc034" /> Neuromuscular electrical stimulation, walking aids, breathing training, and chest wall vibration may also be effective.<xref ref="cochrane5623" resource="acc006" /></listitem>
+<listitem>Pathologic fracture: The use of bisphosphonates in patients with bone metastases has been shown to reduce the incidence of skeletal related events.<xref ref="pubmed26579808" resource="acc053" /></listitem>
+<listitem>There is now increasing use of EGFR tyrosine kinase inhibitors in patients with mutations with demonstrable clinical benefit. However a meta-analysis of almost 30,000 patients in 89 RCTs has shown increased risk of cardiac adverse events with these drugs and a greater risk specifically with the third generation drugs, including osimertinib.<xref ref="pubmed40897431" resource="acc116" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The prognosis for patients with <xref ref="rule259" resource="acc009">terminal lung cancer</xref><xref ref="rule259" resource="acc009" /> or <xref ref="rule249" resource="acc008">non-small cell lung cancer</xref><xref ref="rule249" resource="acc008" /> can be predicted using validated clinical rules. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A systmatic review of 471 studies with 60,695 patients (limited to 2011 to 2021) with NSCLC found the following rates of 1 and 5 year recurrence free survival:<xref ref="pubmed38065405" resource="acc108" />
+<list style="bulleted">
+<listitem>Stage IA: 89&#x0025; 3 year, 86&#x0025; 5 year survival</listitem>
+<listitem>Stage IB: 74&#x0025; 3 year, 62&#x0025; 5 year survival</listitem>
+<listitem>Stage I: 87&#x0025; 3 year, 81&#x0025; 5 year survival</listitem>
+<listitem>Stage II: 58&#x0025; 3 year, 50&#x0025; 5 year survival</listitem>
+<listitem>Stage III: 38&#x0025; 3 year, 34&#x0025; 5 year survival</listitem>
+</list></listitem>
+<listitem>Surveillance with a medical history, physical examination, and imaging study (either chest radiograph or chest CT scan) is recommended every 6 months for 2 years and then annually for patients who have been treated with curative-intent therapy. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Untreated patients with non-small cell lung cancer live an average of 7 months.<xref ref="PubMed23379753" resource="acc036" /></listitem>
+<listitem>There is evidence that early palliative care by telehealth intervention can be as effective in quality of life outcomes as in person review making this more accessible to this population.<xref ref="poem376787" resource="acc106" /></listitem>
+<listitem>Poor adherence to lung cancer screening over 4 years contributes to lower than expected cancer detection rate and&#x00A0; impacts the outcomes of patients.<xref ref="pubmed36773935" resource="acc089" /></listitem>
+<listitem>In one study, 1651 patients, the operative time was compared to outcomes. On multivariable analysis, operative time was associated with higher odds of any complication [odds ratio per hour, 1.37; 95&#x0025; confidence interval (CI), 1.20-1.57; P &lt;0.0001] and major complication (odds ratio per hour, 1.41; 95&#x0025; CI, 1.21-1.64; P &lt;0.0001). Operative time was also associated with longer hospital length of stay (&#x03B2;, 1.09; 95&#x0025; CI, 1.04-1.14; P &#x003D;0.001), concluding that longer operative time was associated with worse outcomes in lobectomy patients<xref ref="pubmed36066195" resource="acc090" /></listitem>
+<listitem>In a study comparing smokers versus non-smokers with NSCLC, survival and mortality were significantly worse in smokers. For example, the hazard ratio for 10 year all-cause mortality was 1.77 (p&#x003D;.02).<xref ref="pubmed39757150" resource="acc103" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Patients with lung cancer should not be denied lung resection surgery on the basis of age alone.</listitem>
+<listitem>In a systematic review of 52 randomized controlled trials, which included 13,660 patients, it was observed that immunotherapy alone significantly improved disease controlled rate (DCR) in early lung cancer compared to advanced lung cancer. Additionally, the improvement in objective response rate (ORR) was not the same between early and advanced disease, showing that the combination of immunotherapy with other therapies, especially immunochemotherapy, significantly improved ORR and DCR in early lung cancer. When looking at safety, immunotherapy alone or in combination with other therapies exhibited a better safety profile in early lung cancer than in advanced lung cancer. The benefits of immunotherapy in early lung cancer appeared to be better than those observed in advanced lung cancer. <xref ref="pubmed36345004" resource="acc088" /></listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="poem101243">
+<accessionId id="acc001" href="info:wiley/eep-poem/101243" />
+<accessionId id="acc001b" href="info:pmid/18635890" />
+<authors>Wilson DO, Weissfeld JL, Fuhrman CR, et al.</authors>
+<title>The Pittsburgh Lung Screening Study (PLuSS): Outcomes within 3 years of a first computed tomography scan.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2008</pubdate>
+<volume>178(9)</volume>
+<pages>956&#x2013;961.</pages>
+</reference>
+<reference id="poem90102">
+<accessionId id="acc002" href="info:wiley/eep-poem/90102" />
+<accessionId id="acc002b" href="info:pmid/17065637" />
+<authors>The International Early Lung Cancer Action Program Investigators; Henschke CI, Yankelevitz DF, Libby DM, et al.</authors>
+<title>Survival of patients with stage I lung cancer detected on CT screening.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>355</volume>
+<pages>1763&#x2013;1771.</pages>
+</reference>
+<reference id="poem100446">
+<accessionId id="acc003" href="info:wiley/eep-poem/100446" />
+<accessionId id="acc003b" href="info:pmid/17989343" />
+<authors>Slatore CG, Littman AJ, Au DH, Satia JA, White E.</authors>
+<title>Long-term use of supplemental multivitamins, vitamin C, vitamin E, and folate does not reduce the risk of lung cancer.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2008</pubdate>
+<volume>177(5)</volume>
+<pages>524&#x2013;530.</pages>
+</reference>
+<reference id="cochrane6054">
+<accessionId id="acc004" href="info:wiley/cochrane/CD006054" />
+<chapter_authors>Dong R, Chen X, Wu T, Liu GJ.</chapter_authors>
+<chapter_title>Elemene for the treatment of lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4284">
+<accessionId id="acc005" href="info:wiley/cochrane/CD004284" />
+<chapter_authors>Cardona Zorrilla AF, Reveiz L, Ospina EG, Yepes A.</chapter_authors>
+<chapter_title>Palliative endobronchial brachytherapy for non-small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5623">
+<accessionId id="acc006" href="info:wiley/cochrane/CD005623" />
+<chapter_authors>Bausewein C, Booth S, Gysels M, Higginson IJ.</chapter_authors>
+<chapter_title>Non-pharmacological interventions for breathlessness in advanced stages of malignant and non-malignant diseases (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6157">
+<accessionId id="acc007" href="info:wiley/cochrane/CD006157" />
+<chapter_authors>Burdett S, Stewart L, Rydzewska L.</chapter_authors>
+<chapter_title>Chemotherapy and surgery versus surgery alone in non-small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="rule249">
+<accessionId id="acc008" href="info:wiley/eep-rule/249" />
+<accessionId id="acc008b" href="info:pmid/1371068" />
+<authors>Thorogood J, Bulman A, Collins T, Ash D.</authors>
+<title>The use of discriminant analysis to guide palliative treatment for lung cancer patients.</title>
+<source>Clin Oncol (R Coll Radiol)</source>
+<pubdate>1992</pubdate>
+<volume>4</volume>
+<pages>22&#x2013;26.</pages>
+</reference>
+<reference id="rule259">
+<accessionId id="acc009" href="info:wiley/eep-rule/259" />
+<accessionId id="acc009b" href="info:pmid/7931745" />
+<authors>Schonwetter R, Robinson B, Ramirez G.</authors>
+<title>Prognostic factors for survival in terminal lung cancer patients.</title>
+<source>J Gen Intern Med</source>
+<pubdate>1994</pubdate>
+<volume>9</volume>
+<pages>366&#x2013;371.</pages>
+</reference>
+<reference id="hp166">
+<accessionId id="acc010" href="info:wiley/eep-hp/166" />
+<accessionId id="acc010b" href="info:pmid/16227326" />
+<authors>Hamilton W, Peters T, Round A, Sharp D.</authors>
+<title>What are the clinical features of lung cancer before the diagnosis is made? A population based case-control study.</title>
+<source>Thorax</source>
+<pubdate>2005</pubdate>
+<volume>60</volume>
+<pages>1059&#x2013;1065.</pages>
+</reference>
+<reference id="rule210">
+<accessionId id="acc011" href="info:wiley/eep-rule/210" />
+<accessionId id="acc011b" href="info:pmid/12644540" />
+<authors>Bach P, Kattan M, Thornquist M, et al.</authors>
+<title>Variations in lung cancer risk among smokers.</title>
+<source>J Natl Cancer Inst</source>
+<pubdate>2003</pubdate>
+<volume>95</volume>
+<pages>470&#x2013;478.</pages>
+</reference>
+<reference id="pubmed17065637">
+<accessionId id="acc012" href="info:pmid/17065637" />
+<authors>International Early Lung Cancer Action Program Investigators; Henschke CI, Yankelevitz DF, Libby DM, Pasmantier MW, Smith JP, Miettinen OS.</authors>
+<title>Survival of patients with stage I lung cancer detected on CT screening</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>335</volume>
+<pages>1763&#x2013;1771.</pages>
+</reference>
+<reference id="cochrane1991">
+<accessionId id="acc013" href="info:wiley/cochrane/CD001991" />
+<chapter_authors>Manser R, Irving LB, Stone C, Byrnes G, Abramson MJ, Campbell D.</chapter_authors>
+<chapter_title>Screening for lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4699">
+<accessionId id="acc014" href="info:wiley/cochrane/CD004699" />
+<chapter_authors>Manser R, Wright G, Hart D, Byrnes G, Campbell D.</chapter_authors>
+<chapter_title>Surgery for early stage non-small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4700">
+<accessionId id="acc015" href="info:wiley/cochrane/CD004700" />
+<chapter_authors>Pijls-Johannesma M, De Ruysscher DKM, Lambin P, Rutten I, Vansteenkiste JF.</chapter_authors>
+<chapter_title>Early versus Late Chest Radiotherapy in patients with limited stage small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2141">
+<accessionId id="acc016" href="info:wiley/cochrane/CD002141" />
+<chapter_authors>Caraballoso M, Sacristan M, Serra C, Bonfill Cosp X.</chapter_authors>
+<chapter_title>Drugs for preventing lung cancer in healthy people (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2139">
+<accessionId id="acc017" href="info:wiley/cochrane/CD002139" />
+<chapter_authors>Stewart L.</chapter_authors>
+<chapter_title>Chemotherapy for non-small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4282">
+<accessionId id="acc018" href="info:wiley/cochrane/CD004282" />
+<chapter_authors>Sola I, Thompson EM, Subirana Casacuberta M, Lopez C, Pascual A.</chapter_authors>
+<chapter_title>Non-invasive interventions for improving well-being and quality of life in patients with lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="web001">
+<citation>National Cancer Institute. Lung Cancer Statistics. Last accessed 9&#x002F;25&#x002F;2009.</citation>
+<url>http://www.cancer.gov/cancertopics/types/lung</url>
+<organization>NCI</organization>
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="web002">
+<citation>National Comprehensive Care Network Guidelines for Non-Small Cell Lung Cancer. Last accessed 9&#x002F;25&#x002F;2009.</citation>
+<url>https://subscriptions.nccn.org/login.aspx?returnurl=http://www.nccn.org/professionals/physician_gls/PDF/nscl.pdf</url>
+<organization>NCCN</organization>
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="web003">
+<citation>National Comprehensive Care Network Guidelines for Small Cell Lung Cancer. Last accessed 9&#x002F;25&#x002F;2009.</citation>
+<url>https://subscriptions.nccn.org/login.aspx?returnurl=http://www.nccn.org/professionals/physician_gls/PDF/sclc.pdf</url>
+<organization>NCCN</organization>
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="poem120202">
+<accessionId id="acc022" href="info:wiley/eep-poem/120202" />
+<accessionId id="acc022b" href="info:pmid/19955524" />
+<authors>van Klaveren RJ, Oudkerk M, Prokop M, et al.</authors>
+<title>Management of lung nodules detected by volume CT scanning.</title>
+<source>N Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>361(23)</volume>
+<pages>2221&#x2013;2229.</pages>
+</reference>
+<reference id="cochrane2916">
+<accessionId id="acc023" href="info:wiley/cochrane/CD002916" />
+<chapter_authors>Shaw PHS, Agarwal R.</chapter_authors>
+<chapter_title>Pleurodesis for malignant pleural effusions (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 9.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5221">
+<accessionId id="acc024" href="info:wiley/cochrane/CD005221" />
+<chapter_authors>Patel N, Lester JF, Coles B, Macbeth F.</chapter_authors>
+<chapter_title>Prophylactic cranial irradiation for preventing brain metastases in patients undergoing radical treatment for non-small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 9.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7881">
+<accessionId id="acc025" href="info:wiley/cochrane/CD007881" />
+<chapter_authors>Molassiotis A, Bailey C, Caress A, Brunton L, Smith J.</chapter_authors>
+<chapter_title>Interventions for cough in cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 9.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem111041">
+<accessionId id="acc026" href="info:wiley/eep-poem/111041" />
+<accessionId id="acc026b" href="info:pmid/19520905" />
+<authors>Infante M, Cavuto S, Lutman FR, et al.; for the DANTE Study Group.</authors>
+<title>A randomized study of lung cancer screening with spiral computed tomography: Three-year results from the DANTE trial.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2009</pubdate>
+<volume>180(5)</volume>
+<pages>445&#x2013;453.</pages>
+</reference>
+<reference id="poem140891">
+<accessionId id="acc027" href="info:wiley/eep-poem/140891" />
+<accessionId id="acc027b" href="info:pmid/22610520" />
+<authors>Davies HE, Mishra EK, Kahan BC, et al.</authors>
+<title>Effect of an indwelling pleural catheter vs chest tube and talc pleurodesis for relieving dyspnea in patients with malignant pleural effusion: The TIME2 randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>307</volume>
+<pages>2383&#x2013;2389.</pages>
+</reference>
+<reference id="poem140121">
+<accessionId id="acc028" href="info:wiley/eep-poem/140121" />
+<accessionId id="acc028b" href="info:pmid/22031728" />
+<authors>Oken MM, Hocking WG, Kvale PA, et al.; PLCO Project Team</authors>
+<title>Screening by chest radiograph and lung cancer mortality: The Prostate, Lung, Colorectal, and Ovarian (PLCO) randomized trial.</title>
+<source>JAMA</source>
+<pubdate>2011</pubdate>
+<volume>306</volume>
+<pages>1865&#x2013;1873.</pages>
+</reference>
+<reference id="poem131002">
+<accessionId id="acc029" href="info:wiley/eep-poem/131002" />
+<accessionId id="acc029b" href="info:pmid/21714641" />
+<authors>National Lung Screening Trial Research Team; Aberle DR, Adams AM, Berg CD, et al.</authors>
+<title>Reduced lung-cancer mortality with low-dose computed tomographic screening.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>395&#x2013;409.</pages>
+</reference>
+<reference id="PubMed22610500">
+<accessionId id="acc030" href="info:pmid/22610500" />
+<authors>Bach PB, Mirkin JN, Oliver TK, et al.</authors>
+<title>Benefits and harms of CT screening for lung cancer: A systematic review.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>307</volume>
+<pages>2418&#x2013;2429.</pages>
+</reference>
+<reference id="cochrane7464">
+<accessionId id="acc031" href="info:wiley/cochrane/CD007464" />
+<chapter_authors>Reveiz L, Rueda J-R, Cardona AF.</chapter_authors>
+<chapter_title>Chemotherapy for brain metastases from small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 6.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2143">
+<accessionId id="acc032" href="info:wiley/cochrane/CD002143" />
+<chapter_authors>Lester JF, Macbeth F, Toy E, Coles B.</chapter_authors>
+<chapter_title>Palliative radiotherapy regimens for non-small cell lung cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1316">
+<accessionId id="acc033" href="info:wiley/cochrane/CD001316" />
+<chapter_authors>Rowell NP, Gleeson FV.</chapter_authors>
+<chapter_title>Steroids, radiotherapy, chemotherapy and stents for superior vena caval obstruction in carcinoma of the bronchus (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7354">
+<accessionId id="acc034" href="info:wiley/cochrane/CD007354" />
+<chapter_authors>Simon ST, Higginson IJ, Booth S, Harding R, Bausewein C.</chapter_authors>
+<chapter_title>Benzodiazepines for the relief of breathlessness in advanced malignant and non-malignant diseases in adults (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="test328">
+<accessionId id="acc035" href="info:wiley/eep-dx/328" />
+<accessionId id="acc035b" href="info:pmid/17573438" />
+<authors>Liang QL, Shi HZ, Qin XJ, Liang XD, Jiang J, Yang HB.</authors>
+<title>Diagnostic accuracy of tumour markers for malignant pleural effusion: A meta-analysis.</title>
+<source>Thorax</source>
+<pubdate>2008</pubdate>
+<volume>63</volume>
+<pages>35&#x2013;41.</pages>
+</reference>
+<reference id="PubMed23379753">
+<accessionId id="acc036" href="info:pmid/23379753" />
+<authors>Wao H, Mhaskar R, Kumar A, Miladinovic B, Djulbegovic B.</authors>
+<title>Survival of patients with non-small cell lung cancer without treatment: A systematic review and meta-analysis.</title>
+<source>Syst Rev</source>
+<pubdate>2013</pubdate>
+<volume>2</volume>
+<pages>10.</pages>
+</reference>
+<reference id="poem151133">
+<accessionId id="acc037" href="info:wiley/eep-poem/151133" />
+<accessionId id="acc037b" href="info:pmid/24027793" />
+<authors>Humphrey L, Deffebach M, Pappas M, et al.</authors>
+<title>Screening for lung cancer with low-dose computed tomography: A systematic review to update the US Preventive services task force recommendation.</title>
+<source>Ann Int Med</source>
+<pubdate>2013</pubdate>
+<volume>159</volume>
+<pages>411&#x2013;420.</pages>
+</reference>
+<reference id="poem151105">
+<accessionId id="acc038" href="info:wiley/eep-poem/151105" />
+<accessionId id="acc038b" href="info:pmid/24004118 " />
+<authors>McWilliams A, Tammemagi MC, Mayo JR, et al.</authors>
+<title>Probability of cancer in pulmonary nodules detected on first screening CT.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>910&#x2013;919.</pages>
+</reference>
+<reference id="poem160531">
+<accessionId id="acc039" href="info:wiley/eep-poem/160531" />
+<accessionId id="acc039b" href="info:pmid/24378917 " />
+<authors>Moyer VA.</authors>
+<title>Screening for lung cancer: U.S. Preventive Services Task Force recommendation statement.</title>
+<source>Ann Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>160</volume>
+<pages>330&#x2013;338.</pages>
+</reference>
+<reference id="poem160432">
+<accessionId id="acc040" href="info:wiley/eep-poem/160432" />
+<accessionId id="acc040b" href="info:pmid/24322569" />
+<authors>Patz EF, Pinsky P, Gatsonis C, Sicks JD, Kramer BS, Tammem&#x00E4;gi MC, Chiles C, Black WC, Aberle DR.</authors>
+<title>Overdiagnosis in low-dose computed tomography screening for lung cancer.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>174</volume>
+<pages>269&#x2013;274.</pages>
+</reference>
+<reference id="cochrane5004">
+<accessionId id="acc041" href="info:wiley/cochrane/CD005004" />
+<chapter_authors>Boehm K, Borrelli F, Ernst E, Habacher G, Hung SK, Milazzo S, Horneber M.</chapter_authors>
+<chapter_title>Green tea (Camellia sinensis) for the prevention of cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2009, Issue 3. Art. No.: CD005004. DOI: 10.1002&#x002F;14651858.CD005004.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25356819">
+<accessionId id="acc042" href="info:pmid/25356819" />
+<authors>Mazzone P, Powell CA, Arenberg D, Bach P, Detterbeck F, Gould MK, Jaklitsch MT, Jett J, Naidich D, Vachani A, Wiener RS, Silvestri G.</authors>
+<title>Components necessary for high-quality lung cancer screening: American College of Chest Physicians and American Thoracic Society Policy Statement.</title>
+<source>Chest</source>
+<pubdate>2015</pubdate>
+<volume>147</volume>
+<pages>295&#x2013;303.</pages>
+</reference>
+<reference id="pubmed25323620">
+<accessionId id="acc043" href="info:pmid/25323620" />
+<authors>Edvardsen E, Skj&#x00C3;&#x00B8;nsberg OH, Holme I, Nordsletten L, Borchsenius F, Anderssen SA.</authors>
+<title>High-intensity training following lung cancer surgery: A randomised controlled trial.</title>
+<source>Thorax</source>
+<pubdate>2015</pubdate>
+<volume>70</volume>
+<pages>244&#x2013;250.</pages>
+</reference>
+<reference id="cochrane2935">
+<accessionId id="acc044" href="info:wiley/cochrane/CD002935" />
+<chapter_authors>Rowell NP, Williams C.</chapter_authors>
+<chapter_title>Radical radiotherapy for stage I&#x002F;II non-small cell lung cancer in patients not sufficiently fit for or declining surgery (medically inoperable).</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 3. Art. No.: CD002935. DOI: 10.1002&#x002F;14651858.CD002935.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25470694">
+<accessionId id="acc045" href="info:pmid/25470694" />
+<authors>Solomon BJ, Mok T, Kim DW, Wu YL, Nakagawa K, Mekhail T, Felip E, Cappuzzo F, Paolini J, Usari T, Iyer S, Reisman A, Wilner KD, Tursi J, Blackhall F; PROFILE 1014 Investigators.</authors>
+<title>First-line crizotinib versus chemotherapy in ALK-positive lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>371</volume>
+<pages>2167&#x2013;2177.</pages>
+</reference>
+<reference id="pubmed25372087">
+<accessionId id="acc046" href="info:pmid/25372087" />
+<authors>Black WC, Gareen IF, Soneji SS, Sicks JD, Keeler EB, Aberle DR, Naeim A, Church TR, Silvestri GA, Gorelick J, Gatsonis C; National Lung Screening Trial Research Team.</authors>
+<title>Cost-effectiveness of CT screening in the National Lung Screening Trial.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>371</volume>
+<pages>1793&#x2013;1802.</pages>
+</reference>
+<reference id="cochrane2140">
+<accessionId id="acc047" href="info:wiley/cochrane/CD002140" />
+<chapter_authors>O'Rourke N, Roqu&#x00E9; I Figuls M, Farr&#x00E9; Bernad&#x00F3; N, Macbeth F.</chapter_authors>
+<chapter_title>Concurrent chemoradiotherapy in non-small cell lung cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2010, Issue 6. Art. No.: CD002140. DOI: 10.1002&#x002F;14651858.CD002140.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem180321">
+<accessionId id="acc048" href="info:wiley/eep-poem/180321" />
+<accessionId id="acc048b" href="info:pmid/26769888" />
+<authors>Ledford CJ, Gawrys BL, Wall JL, Saas PD, Seehusen DA.</authors>
+<title>Translating new lung cancer screening guidelines into practice: The experience of one community hospital.</title>
+<source>J Am Board Fam Med</source>
+<pubdate>2016 Jan-Feb</pubdate>
+<volume>29</volume>
+<pages>152&#x2013;155.</pages>
+</reference>
+<reference id="pubmed26645413">
+<accessionId id="acc049" href="info:pmid/26645413" />
+<authors>Field JK, Duffy SW, Baldwin DR, Whynes DK, Devaraj A, Brain KE, Eisen T, Gosney J, Green BA, Holemans JA, Kavanagh T, Kerr KM, Ledson M, Lifford KJ, McRonald FE, Nair A, Page RD, Parmar MK, Rassl DM, Rintoul RC, Screaton NJ, Wald NJ, Weller D, Williamson PR, Yadegarfar G, Hansell DM.</authors>
+<title>UK Lung Cancer RCT Pilot Screening Trial: Baseline findings from the screening arm provide evidence for the potential implementation of lung cancer screening.</title>
+<source>Thorax</source>
+<pubdate>2016</pubdate>
+<volume>71</volume>
+<pages>161&#x2013;170.</pages>
+</reference>
+<reference id="pubmed26970723">
+<accessionId id="acc050" href="info:pmid/26970723" />
+<authors>Fehrenbacher L, Spira A, Ballinger M, Kowanetz M, Vansteenkiste J, Mazieres J, Park K, Smith D, Artal-Cortes A, Lewanski C, Braiteh F, Waterkamp D, He P, Zou W, Chen DS, Yi J, Sandler A, Rittmeyer A; POPLAR Study Group.</authors>
+<title>Atezolizumab versus docetaxel for patients with previously treated non-small-cell lung cancer (POPLAR): A multicentre, open-label, phase 2 randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>1837&#x2013;1846.</pages>
+</reference>
+<reference id="pubmed26712084">
+<accessionId id="acc051" href="info:pmid/26712084" />
+<authors>Herbst RS, Baas P, Kim DW, Felip E, P&#x00E9;rez-Gracia JL, Han JY, Molina J, Kim JH, Arvis CD, Ahn MJ, Majem M, Fidler MJ, de Castro G, Jr., Garrido M, Lubiniecki GM, Shentu Y, Im E, Dolled-Filhart M, Garon EB.</authors>
+<title>Pembrolizumab versus docetaxel for previously treated, PD-L1-positive, advanced non-small-cell lung cancer (KEYNOTE-010): A randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>1540&#x2013;1550.</pages>
+</reference>
+<reference id="pubmed26412456">
+<accessionId id="acc052" href="info:pmid/26412456" />
+<authors>Borghaei H, Paz-Ares L, Horn L, Spigel DR, Steins M, Ready NE, Chow LQ, Vokes EE, Felip E, Holgado E, Barlesi F, Kohlh&#x00E4;ufl M, Arrieta O, Burgio MA, Fayette J, Lena H, Poddubskaya E, Gerber DE, Gettinger SN, Rudin CM, Rizvi N, Crin&#x00F2; L, Blumenschein GR, Jr., Antonia SJ, Dorange C, Harbison CT, Graf Finckenstein F, Brahmer JR.</authors>
+<title>Nivolumab versus docetaxel in advanced nonsquamous non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>373</volume>
+<pages>1627&#x2013;1639.</pages>
+</reference>
+<reference id="pubmed26579808">
+<accessionId id="acc053" href="info:pmid/26579808" />
+<authors>Liu J, Huang W, Zhou R, Jia S, Tang W, Luo Y, Zhang J.</authors>
+<title>Bisphosphonates in the treatment of patients with metastatic breast, lung, and prostate cancer: A meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2015</pubdate>
+<volume>94</volume>
+<pages>e2014.</pages>
+</reference>
+<reference id="pubmed27718847">
+<accessionId id="acc054" href="info:pmid/27718847" />
+<authors>Reck M, Rodr&#x00ED;guez-Abreu D, Robinson AG, Hui R, Cs&#x0151;szi T, F&#x00FC;l&#x00F6;p A, Gottfried M, Peled N, Tafreshi A, Cuffe S, O'Brien M, Rao S, Hotta K, Leiby MA, Lubiniecki GM, Shentu Y, Rangwala R, Brahmer JR; KEYNOTE-024 Investigators.</authors>
+<title>Pembrolizumab versus cemotherapy for PD-L1-positive non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>375</volume>
+<pages>1823&#x2013;1833.</pages>
+</reference>
+<reference id="pubmed27959700">
+<accessionId id="acc055" href="info:pmid/27959700" />
+<authors>Mok TS, Wu YL, Ahn MJ, Garassino MC, Kim HR, Ramalingam SS, Shepherd FA, He Y, Akamatsu H, Theelen WS, Lee CK, Sebastian M, Templeton A, Mann H, Marotti M, Ghiorghiu S, Papadimitrakopoulou VA; AURA3 Investigators.</authors>
+<title>Osimertinib or platinum-pemetrexed in EGFR T790M-positive lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>376</volume>
+<pages>629&#x2013;640.</pages>
+</reference>
+<reference id="poem190510">
+<accessionId id="acc056" href="info:wiley/eep-poem/190510" />
+<accessionId id="acc056b" href="info:pmid/28135352" />
+<authors>Kinsinger LS, Anderson C, Kim J, Larson M, Chan SH, King HA, Rice KL, Slatore CG, Tanner NT, Pittman K, Monte RJ, McNeil RB, Grubber JM, Kelley MJ, Provenzale D, Datta SK, Sperber NS, Barnes LK, Abbott DH, Sims KJ, Whitley RL, Wu RR, Jackson GL.</authors>
+<title>Implementation of lung cancer screening in the Veterans Health Administration.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2017</pubdate>
+<volume>177</volume>
+<pages>399&#x2013;406.</pages>
+</reference>
+<reference id="poem180944">
+<accessionId id="acc057" href="info:wiley/eep-poem/180944" />
+<accessionId id="acc057b" href="info:pmid/27130532" />
+<authors>Usman Ali M, Miller J, Peirson L, Fitzpatrick-Lewis D, Kenny M, Sherifali D, Raina P.</authors>
+<title>Screening for lung cancer: A systematic review and meta-analysis.</title>
+<source>Prev Med</source>
+<pubdate>2016</pubdate>
+<volume>89</volume>
+<pages>301&#x2013;314.</pages>
+</reference>
+<reference id="pubmed12644540">
+<accessionId id="acc058" href="info:pmid/12644540" />
+<authors>Bach PB, Kattan MW, Thornquist MD, Kris MG, Tate RC, Barnett MJ, Hsieh LJ, Begg CB.</authors>
+<title>Variations in lung cancer risk among smokers.</title>
+<source>J Natl Cancer Inst</source>
+<pubdate>2003</pubdate>
+<volume>95</volume>
+<pages>470&#x2013;478.</pages>
+</reference>
+<reference id="pubmed25522175">
+<accessionId id="acc059" href="info:pmid/25522175" />
+<authors>de-Torres JP, Wilson DO, Sanchez-Salcedo P, Weissfeld JL, Berto J, Campo A, Alcaide AB, Garc&#x00ED;a-Granero M, Celli BR, Zulueta JJ.</authors>
+<title>Lung cancer in patients with chronic obstructive pulmonary disease. Development and validation of the COPD Lung Cancer Screening Score.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2015</pubdate>
+<volume>191</volume>
+<pages>285&#x2013;291.</pages>
+</reference>
+<reference id="cochrane6466">
+<accessionId id="acc060" href="info:wiley/cochrane/CD006466" />
+<chapter_authors>Kahale LA, Hakoum MB, Tsolakian IG, Matar CF, Barba M, Yosuico VE, Terrenato I, Sperati F, Sch&#x00FC;nemann H, Akl EA.</chapter_authors>
+<chapter_title>Oral anticoagulation in people with cancer who have no therapeutic or prophylactic indication for anticoagulation.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 12. Art. No.: CD006466. DOI: 10.1002&#x002F;14651858.CD006466.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6652">
+<accessionId id="acc061" href="info:wiley/cochrane/CD006652" />
+<chapter_authors>Akl EA, Kahale LA, Hakoum MB, Matar CF, Sperati F, Barba M, Yosuico VE, Terrenato I, Synnot A, Sch&#x00FC;nemann H.</chapter_authors>
+<chapter_title>Parenteral anticoagulation in ambulatory patients with cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 9. Art. No.: CD006652. DOI: 10.1002&#x002F;14651858.CD006652.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed30280635">
+<accessionId id="acc062" href="info:pmid/30280635" />
+<authors>Paz-Ares L, Luft A, Vicente D, Tafreshi A, G&#x00FC;m&#x00FC;&#x015F; M, Mazi&#x00E8;res J, Hermes B, &#x00C7;ay &#x015E;enler F, Cs&#x0151;szi T, F&#x00FC;l&#x00F6;p A, Rodr&#x00ED;guez-Cid J, Wilson J, Sugawara S, Kato T, Lee KH, Cheng Y, Novello S, Halmos B, Li X, Lubiniecki GM, Piperdi B, Kowalski DM, KEYNOTE-407 Investigators.</authors>
+<title>Pembrolizumab plus chemotherapy for squamous non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>2040&#x2013;2051.</pages>
+</reference>
+<reference id="pubmed30280657">
+<accessionId id="acc063" href="info:pmid/30280657" />
+<authors>Camidge DR, Kim HR, Ahn MJ, Yang JC, Han JY, Lee JS, Hochmair MJ, Li JY, Chang GC, Lee KH, Gridelli C, Delmonte A, Garcia Campelo R, Kim DW, Bearz A, Griesinger F, Morabito A, Felip E, Califano R, Ghosh S, Spira A, Gettinger SN, Tiseo M, Gupta N, Haney J, Kerstein D, Popat S.</authors>
+<title>Brigatinib versus crizotinib in ALK-positive non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>2027&#x2013;2039.</pages>
+</reference>
+<reference id="pubmed29863955">
+<accessionId id="acc064" href="info:pmid/29863955" />
+<authors>Socinski MA, Jotte RM, Cappuzzo F, Orlandi F, Stroyakovskiy D, Nogami N, Rodr&#x00ED;guez-Abreu D, Moro-Sibilot D, Thomas CA, Barlesi F, Finley G, Kelsch C, Lee A, Coleman S, Deng Y, Shen Y, Kowanetz M, Lopez-Chavez A, Sandler A, Reck M, IMpower150 Study Group.</authors>
+<title>Atezolizumab for first-line treatment of metastatic nonsquamous NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>2288&#x2013;2301.</pages>
+</reference>
+<reference id="pubmed29658856">
+<accessionId id="acc065" href="info:pmid/29658856" />
+<authors>Gandhi L, Rodr&#x00ED;guez-Abreu D, Gadgeel S, Esteban E, Felip E, De Angelis F, Domine M, Clingan P, Hochmair MJ, Powell SF, Cheng SY, Bischoff HG, Peled N, Grossi F, Jennens RR, Reck M, Hui R, Garon EB, Boyer M, Rubio-Viqueira B, Novello S, Kurata T, Gray JE, Vida J, Wei Z, Yang J, Raftopoulos H, Pietanza MC, Garassino MC, KEYNOTE-189 Investigators.</authors>
+<title>Pembrolizumab plus chemotherapy in metastatic non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>2078&#x2013;2092.</pages>
+</reference>
+<reference id="pubmed30280658">
+<accessionId id="acc066" href="info:pmid/30280658" />
+<authors>Antonia SJ, Villegas A, Daniel D, Vicente D, Murakami S, Hui R, Kurata T, Chiappori A, Lee KH, de Wit M, Cho BC, Bourhaba M, Quantin X, Tokito T, Mekhail T, Planchard D, Kim YC, Karapetis CS, Hiret S, Ostoros G, Kubota K, Gray JE, Paz-Ares L, de Castro Carpe&#x00F1;o J, Faivre-Finn C, Reck M, Vansteenkiste J, Spigel DR, Wadsworth C, Melillo G, Taboada M, Dennis PA, &#x00D6;zg&#x00FC;ro&#x011F;lu M, PACIFIC Investigators.</authors>
+<title>Overall survival with durvalumab after chemoradiotherapy in stage III NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>2342&#x2013;2350.</pages>
+</reference>
+<reference id="pubmed30280641">
+<accessionId id="acc067" href="info:pmid/30280641" />
+<authors>Horn L, Mansfield AS, Szcz&#x0119;sna A, Havel L, Krzakowski M, Hochmair MJ, Huemer F, Losonczy G, Johnson ML, Nishio M, Reck M, Mok T, Lam S, Shames DS, Liu J, Ding B, Lopez-Chavez A, Kabbinavar F, Lin W, Sandler A, Liu SV, IMpower133 Study Group.</authors>
+<title>First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>2220&#x2013;2229.</pages>
+</reference>
+<reference id="pubmed31562796">
+<accessionId id="acc068" href="info:pmid/31562796" />
+<authors>Hellmann MD, Paz-Ares L, Bernabe Caro R, Zurawski B, Kim SW, Carcereny Costa E, Park K, Alexandru A, Lupinacci L, de la Mora Jimenez E, Sakai H, Albert I, Vergnenegre A, Peters S, Syrigos K, Barlesi F, Reck M, Borghaei H, Brahmer JR, O'Byrne KJ, Geese WJ, Bhagavatheeswaran P, Rabindran SK, Kasinathan RS, Nathan FE, Ramalingam SS.</authors>
+<title>Nivolumab plus Ipilimumab in advanced non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>381</volume>
+<pages>2020&#x2013;2031.</pages>
+</reference>
+<reference id="pubmed31751012">
+<accessionId id="acc069" href="info:pmid/31751012" />
+<authors>Ramalingam SS, Vansteenkiste J, Planchard D, Cho BC, Gray JE, Ohe Y, Zhou C, Reungwetwattana T, Cheng Y, Chewaskulyong B, Shah R, Cobo M, Lee KH, Cheema P, Tiseo M, John T, Lin MC, Imamura F, Kurata T, Todd A, Hodge R, Saggese M, Rukazenkov Y, Soria JC, FLAURA Investigators.</authors>
+<title>Overall survival with osimertinib in untreated, <em>EGFR</em>-mutated advanced NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>41&#x2013;50.</pages>
+</reference>
+<reference id="poem220415">
+<accessionId id="acc070" href="info:wiley/eep-poem/220415" />
+<accessionId id="acc070b" href="info:pmid/31995683" />
+<authors>de Koning HJ, van der Aalst CM, de Jong PA, Scholten ET, Nackaerts K, Heuvelmans MA, Lammers JJ, Weenink C, Yousaf-Khan U, Horeweg N, van 't Westeinde S, Prokop M, Mali WP, Mohamed Hoesein FAA, van Ooijen PMA, Aerts JGJV, den Bakker MA, Thunnissen E, Verschakelen J, Vliegenthart R, Walter JE, Ten Haaf K, Groen HJM, Oudkerk M.</authors>
+<title>Reduced lung-cancer mortality with volume CT screening in a randomized trial.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>503&#x2013;513.</pages>
+</reference>
+<reference id="poem221222">
+<accessionId id="acc071" href="info:wiley/eep-poem/221222" />
+<accessionId id="acc071b" href="info:pmid/32583338" />
+<authors>Hoffman RM, Atallah RP, Struble RD, Badgett RG.</authors>
+<title>Lung cancer screening with low-dose CT: A meta-analysis.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2020</pubdate>
+<volume>35</volume>
+<pages>3015&#x2013;3025.</pages>
+</reference>
+<reference id="pubmed32846789">
+<accessionId id="acc072" href="info:pmid/32846789" />
+<authors>Li C, Wang L, Wu Q, Zhao J, Yi F, Xu J, Wei Y, Zhang W.</authors>
+<title>A meta-analysis comparing stereotactic body radiotherapy vs conventional radiotherapy in inoperable stage I non-small cell lung cancer.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e21715.</pages>
+</reference>
+<reference id="pubmed33207094">
+<accessionId id="acc073" href="info:pmid/33207094" />
+<authors>Shaw AT, Bauer TM, de Marinis F, Felip E, Goto Y, Liu G, Mazieres J, Kim DW, Mok T, Polli A, Thurm H, Calella AM, Peltz G, Solomon BJ, CROWN Trial Investigators.</authors>
+<title>First-line lorlatinib or crizotinib in advanced <em>ALK</em>-positive lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>2018&#x2013;2029.</pages>
+</reference>
+<reference id="pubmed32955177">
+<accessionId id="acc074" href="info:pmid/32955177" />
+<authors>Wu YL, Tsuboi M, He J, John T, Grohe C, Majem M, Goldman JW, Laktionov K, Kim SW, Kato T, Vu HV, Lu S, Lee KY, Akewanlop C, Yu CJ, de Marinis F, Bonanno L, Domine M, Shepherd FA, Zeng L, Hodge R, Atasoy A, Rukazenkov Y, Herbst RS, ADAURA Investigators.</authors>
+<title>Osimertinib in resected <em>EGFR</em>-mutated non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>1711&#x2013;1723.</pages>
+</reference>
+<reference id="pubmed32877583">
+<accessionId id="acc075" href="info:pmid/32877583" />
+<authors>Wolf J, Seto T, Han JY, Reguart N, Garon EB, Groen HJM, Tan DSW, Hida T, de Jonge M, Orlov SV, Smit EF, Souquet PJ, Vansteenkiste J, Hochmair M, Felip E, Nishio M, Thomas M, Ohashi K, Toyozawa R, Overbeck TR, de Marinis F, Kim TM, Laack E, Robeva A, Le Mouhaer S, Waldron-Lynch M, Sankaran B, Balbin OA, Cui X, Giovannini M, Akimov M, Heist RS, GEOMETRY mono-1 Investigators.</authors>
+<title>Capmatinib in <em>MET</em> Exon 14-Mutated or <em>MET</em>-Amplified non-small-cell lung cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>944&#x2013;957.</pages>
+</reference>
+<reference id="pubmed32469185">
+<accessionId id="acc076" href="info:pmid/32469185" />
+<authors>Paik PK, Felip E, Veillon R, Sakai H, Cortot AB, Garassino MC, Mazieres J, Viteri S, Senellart H, Van Meerbeeck J, Raskin J, Reinmuth N, Conte P, Kowalski D, Cho BC, Patel JD, Horn L, Griesinger F, Han JY, Kim YC, Chang GC, Tsai CL, Yang JC, Chen YM, Smit EF, van der Wekken AJ, Kato T, Juraeva D, Stroh C, Bruns R, Straub J, Johne A, Scheele J, Heymach JV, Le X.</authors>
+<title>Tepotinib in non-small-cell lung cancer with <em>MET</em> Exon 14 skipping mutations.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>931&#x2013;943.</pages>
+</reference>
+<reference id="pubmed32955176">
+<accessionId id="acc077" href="info:pmid/32955176" />
+<authors>Hong DS, Fakih MG, Strickler JH, Desai J, Durm GA, Shapiro GI, Falchook GS, Price TJ, Sacher A, Denlinger CS, Bang YJ, Dy GK, Krauss JC, Kuboki Y, Kuo JC, Coveler AL, Park K, Kim TW, Barlesi F, Munster PN, Ramalingam SS, Burns TF, Meric-Bernstam F, Henary H, Ngang J, Ngarmchamnanrith G, Kim J, Houk BE, Canon J, Lipford JR, Friberg G, Lito P, Govindan R, Li BT.</authors>
+<title>KRAS<sup>G12C </sup>inhibition with sotorasib in advanced solid tumors.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>1207&#x2013;1217.</pages>
+</reference>
+<reference id="pubmed33581821">
+<accessionId id="acc078" href="info:pmid/33581821" />
+<authors>Sezer A, Kilickap S, G&#x00FC;m&#x00FC;&#x015F; M, Bondarenko I, &#x00D6;zg&#x00FC;ro&#x011F;lu M, Gogishvili M, Turk HM, Cicin I, Bentsion D, Gladkov O, Clingan P, Sriuranpong V, Rizvi N, Gao B, Li S, Lee S, McGuire K, Chen CI, Makharadze T, Paydas S, Nechaeva M, Seebach F, Weinreich DM, Yancopoulos GD, Gullo G, Lowy I, Rietschel P.</authors>
+<title>Cemiplimab monotherapy for first-line treatment of advanced non-small-cell lung cancer with PD-L1 of at least 50&#x0025;: A multicentre, open-label, global, phase 3, randomised, controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2021</pubdate>
+<volume>397</volume>
+<pages>592&#x2013;604.</pages>
+</reference>
+<reference id="pubmed32997907">
+<accessionId id="acc079" href="info:pmid/32997907" />
+<authors>Herbst RS, Giaccone G, de Marinis F, Reinmuth N, Vergnenegre A, Barrios CH, Morise M, Felip E, Andric Z, Geater S, &#x00D6;zg&#x00FC;ro&#x011F;lu M, Zou W, Sandler A, Enquist I, Komatsubara K, Deng Y, Kuriki H, Wen X, McCleland M, Mocci S, Jassem J, Spigel DR.</authors>
+<title>Atezolizumab for first-line treatment of PD-L1-selected patients with NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>1328&#x2013;1339.</pages>
+</reference>
+<reference id="pubmed33168683">
+<accessionId id="acc080" href="info:pmid/33168683" />
+<authors>Ebell MH, Bentivegna M, Hulme C.</authors>
+<title>Cancer-specific mortality, all-cause mortality, and overdiagnosis in lung cancer screening trials: A meta-analysis.</title>
+<source>Ann Fam Med</source>
+<pubdate>2020</pubdate>
+<volume>18</volume>
+<pages>545&#x2013;552.</pages>
+</reference>
+<reference id="pubmed33687469">
+<accessionId id="acc081" href="info:pmid/33687469" />
+<authors>Meza R, Jeon J, Toumazis I, Ten Haaf K, Cao P, Bastani M, Han SS, Blom EF, Jonas DE, Feuer EJ, Plevritis SK, de Koning HJ, Kong CY.</authors>
+<title>Evaluation of the Benefits and Harms of Lung Cancer Screening With Low-Dose Computed Tomography: Modeling Study for the US Preventive Services Task Force.</title>
+<source>JAMA</source>
+<pubdate>2021</pubdate>
+<volume>325</volume>
+<pages>988&#x2013;997.</pages>
+</reference>
+<reference id="pubmed34477154">
+<accessionId id="acc082" href="info:pmid/34477154" />
+<authors>Zhang PP, Wang J, Ding DZ, Zhang L, Cheng C, Chen DK.</authors>
+<title>Efficacy and safety of PD-1&#x002F;PD-L1 inhibitors combined with CTLA-4 inhibitor versus chemotherapy for advanced lung cancer: A meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>e27121.</pages>
+</reference>
+<reference id="poem220909">
+<accessionId id="acc083" href="info:wiley/eep-poem/220909" />
+<accessionId id="acc083b" href="info:pmid/31521671" />
+<authors>Nishi SPE, Zhou J, Okereke I, Kuo YF, Goodwin J.</authors>
+<title>Use of imaging and diagnostic procedures after low-dose CT screening for lung cancer.</title>
+<source>Chest</source>
+<pubdate>2020</pubdate>
+<volume>157</volume>
+<pages>427&#x2013;434.</pages>
+</reference>
+<reference id="pubmed31636130">
+<accessionId id="acc084" href="info:pmid/31636130" />
+<authors>Bradley SH, Abraham S, Callister ME, Grice A, Hamilton WT, Lopez RR, Shinkins B, Neal RD.</authors>
+<title>Sensitivity of chest X-ray for detecting lung cancer in people presenting with symptoms: A systematic review.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2019</pubdate>
+<volume>69</volume>
+<pages>e827&#x2013;e835.</pages>
+</reference>
+<reference id="pubmed25873368">
+<accessionId id="acc085" href="info:pmid/25873368" />
+<authors>Marcus MW, Chen Y, Raji OY, Duffy SW, Field JK.</authors>
+<title>LLPi: Liverpool Lung Project Risk Prediction Model for Lung Cancer Incidence.</title>
+<source>Cancer Prev Res (Phila)</source>
+<pubdate>2015</pubdate>
+<volume>8</volume>
+<pages>570&#x2013;5.</pages>
+</reference>
+<reference id="pubmed32979984">
+<accessionId id="acc086" href="info:pmid/32979984" />
+<authors>Provencio M, Nadal E, Insa A, Garc&#x00ED;a-Campelo MR, Casal-Rubio J, D&#x00F3;mine M, Majem M, Rodr&#x00ED;guez-Abreu D, Mart&#x00ED;nez-Mart&#x00ED; A, De Castro Carpe&#x00F1;o J, Cobo M, L&#x00F3;pez Vivanco G, Del Barco E, Bernab&#x00E9; Caro R, Vi&#x00F1;olas N, Barneto Aranda I, Viteri S, Pereira E, Royuela A, Casarrubios M, Salas Ant&#x00F3;n C, Parra ER, Wistuba I, Calvo V, Laza-Briviesca R, Romero A, Massuti B, Cruz-Berm&#x00FA;dez A.</authors>
+<title>Neoadjuvant chemotherapy and nivolumab in resectable non-small-cell lung cancer (NADIM): an open-label, multicentre, single-arm, phase 2 trial.</title>
+<source>Lancet Oncol</source>
+<pubdate>2020</pubdate>
+<volume>21</volume>
+<pages>1413&#x2013;1422.</pages>
+</reference>
+<reference id="pubmed35658005">
+<accessionId id="acc087" href="info:pmid/35658005" />
+<authors>J&#x00E4;nne PA, Riely GJ, Gadgeel SM, Heist RS, Ou SI, Pacheco JM, Johnson ML, Sabari JK, Leventakos K, Yau E, Bazhenova L, Negrao MV, Pennell NA, Zhang J, Anderes K, Der-Torossian H, Kheoh T, Velastegui K, Yan X, Christensen JG, Chao RC, Spira AI.</authors>
+<title>Adagrasib in Non-Small-Cell Lung Cancer Harboring a <em>KRAS<sup>G12C</sup></em> Mutation.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>120&#x2013;131.</pages>
+</reference>
+<reference id="pubmed36345004">
+<accessionId id="acc088" href="info:pmid/36345004" />
+<authors>Wang Y, Li C, Wang Z, Wang Z, Wu R, Wu Y, Song Y, Liu H.</authors>
+<title>Comparison between immunotherapy efficacy in early non-small cell lung cancer and advanced non-small cell lung cancer: a systematic review.</title>
+<source>BMC Med</source>
+<pubdate>2022</pubdate>
+<volume>20</volume>
+<pages>426.</pages>
+</reference>
+<reference id="pubmed36773935">
+<accessionId id="acc089" href="info:pmid/36773935" />
+<authors>Silvestri GA, Goldman L, Tanner NT, Burleson J, Gould M, Kazerooni EA, Mazzone PJ, Rivera MP, Doria-Rose VP, Rosenthal LS, Simanowith M, Smith RA, Fedewa S.</authors>
+<title>Outcomes From More Than 1 Million People Screened for Lung Cancer With Low-Dose CT Imaging.</title>
+<source>Chest</source>
+<pubdate>2023</pubdate>
+<volume>164</volume>
+<pages>241&#x2013;251.</pages>
+</reference>
+<reference id="pubmed36066195">
+<accessionId id="acc090" href="info:pmid/36066195" />
+<authors>de Angelis P, Tan KS, Chudgar NP, Dycoco J, Adusumilli PS, Bains MS, Bott MJ, Downey RJ, Huang J, Isbell JM, Molena D, Park BJ, Rusch VW, Sihag S, Jones DR, Rocco G.</authors>
+<title>Operative Time is Associated With Postoperative Complications After Pulmonary Lobectomy.</title>
+<source>Ann Surg</source>
+<pubdate>2023</pubdate>
+<volume>278</volume>
+<pages>e1259&#x2013;e1266.</pages>
+</reference>
+<reference id="pubmed37812782">
+<accessionId id="acc091" href="info:pmid/37812782" />
+<authors>Wan W, Peters S, Portengen L, Olsson A, Sch&#x00FC;z J, Ahrens W, Schejbalova M, Boffetta P, Behrens T, Br&#x00FC;ning T, Kendzia B, Consonni D, Demers PA, Fabi&#x00E1;nov&#x00E1; E, Fern&#x00E1;ndez-Tard&#x00F3;n G, Field JK, Forastiere F, Foretova L, Gu&#x00E9;nel P, Gustavsson P, J&#x00F6;ckel KH, Karrasch S, Landi MT, Lissowska J, Barul C, Mates D, McLaughlin JR, Merletti F, Migliore E, Richiardi L, P&#x00E1;ndics T, Pohlabeln H, Siemiatycki J, &#x015A;wi&#x0105;tkowska B, Wichmann HE, Zaridze D, Ge C, Straif K, Kromhout H, Vermeulen R.</authors>
+<title>Occupational Benzene Exposure and Lung Cancer Risk: A Pooled Analysis of 14 Case-Control Studies.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>209</volume>
+<pages>185&#x2013;196.</pages>
+</reference>
+<reference id="pubmed38163370">
+<accessionId id="acc092" href="info:pmid/38163370" />
+<authors>Rendle KA, Saia CA, Vachani A, Burnett-Hartman AN, Doria-Rose VP, Beucker S, Neslund-Dudas C, Oshiro C, Kim RY, Elston-Lafata J, Honda SA, Ritzwoller D, Wainwright JV, Mitra N, Greenlee RT.</authors>
+<title>Rates of Downstream Procedures and Complications Associated With Lung Cancer Screening in Routine Clinical Practice : A Retrospective Cohort Study.</title>
+<source>Ann Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>177</volume>
+<pages>18&#x2013;28.</pages>
+</reference>
+<reference id="pubmed38197815">
+<accessionId id="acc093" href="info:pmid/38197815" />
+<authors>Drilon A, Camidge DR, Lin JJ, Kim SW, Solomon BJ, Dziadziuszko R, Besse B, Goto K, de Langen AJ, Wolf J, Lee KH, Popat S, Springfeld C, Nagasaka M, Felip E, Yang N, Velcheti V, Lu S, Kao S, Dooms C, Krebs MG, Yao W, Beg MS, Hu X, Moro-Sibilot D, Cheema P, Stopatschinskaja S, Mehta M, Trone D, Graber A, Sims G, Yuan Y, Cho BC, TRIDENT-1 Investigators.</authors>
+<title>Repotrectinib in <em>ROS1</em> Fusion-Positive Non-Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>118&#x2013;131.</pages>
+</reference>
+<reference id="pubmed37870973">
+<accessionId id="acc094" href="info:pmid/37870973" />
+<authors>Zhou C, Solomon B, Loong HH, Park K, P&#x00E9;rol M, Arriola E, Novello S, Han B, Zhou J, Ardizzoni A, Mak MP, Santini FC, Elamin YY, Drilon A, Wolf J, Payakachat N, Uh MK, Rajakumar D, Han H, Puri T, Soldatenkova V, Lin AB, Lin BK, Goto K, LIBRETTO-431 Trial Investigators.</authors>
+<title>First-Line Selpercatinib or Chemotherapy and Pembrolizumab in <em>RET</em> Fusion-Positive NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>1839&#x2013;1850.</pages>
+</reference>
+<reference id="pubmed37272513">
+<accessionId id="acc095" href="info:pmid/37272513" />
+<authors>Wakelee H, Liberman M, Kato T, Tsuboi M, Lee SH, Gao S, Chen KN, Dooms C, Majem M, Eigendorff E, Martinengo GL, Bylicki O, Rodr&#x00ED;guez-Abreu D, Chaft JE, Novello S, Yang J, Keller SM, Samkari A, Spicer JD, KEYNOTE-671 Investigators.</authors>
+<title>Perioperative Pembrolizumab for Early-Stage Non-Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>491&#x2013;503.</pages>
+</reference>
+<reference id="pubmed37870974">
+<accessionId id="acc096" href="info:pmid/37870974" />
+<authors>Heymach JV, Harpole D, Mitsudomi T, Taube JM, Galffy G, Hochmair M, Winder T, Zukov R, Garbaos G, Gao S, Kuroda H, Ostoros G, Tran TV, You J, Lee KY, Antonuzzo L, Papai-Szekely Z, Akamatsu H, Biswas B, Spira A, Crawford J, Le HT, Aperghis M, Doherty GJ, Mann H, Fouad TM, Reck M, AEGEAN Investigators.</authors>
+<title>Perioperative Durvalumab for Resectable Non-Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>1672&#x2013;1684.</pages>
+</reference>
+<reference id="pubmed37272535">
+<accessionId id="acc097" href="info:pmid/37272535" />
+<authors>Tsuboi M, Herbst RS, John T, Kato T, Majem M, Groh&#x00E9; C, Wang J, Goldman JW, Lu S, Su WC, de Marinis F, Shepherd FA, Lee KH, Le NT, Dechaphunkul A, Kowalski D, Poole L, Bolanos A, Rukazenkov Y, Wu YL, ADAURA Investigators.</authors>
+<title>Overall Survival with Osimertinib in Resected <em>EGFR</em>-Mutated NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>137&#x2013;147.</pages>
+</reference>
+<reference id="pubmed37870976">
+<accessionId id="acc098" href="info:pmid/37870976" />
+<authors>Zhou C, Tang KJ, Cho BC, Liu B, Paz-Ares L, Cheng S, Kitazono S, Thiagarajan M, Goldman JW, Sabari JK, Sanborn RE, Mansfield AS, Hung JY, Boyer M, Popat S, Mour&#x00E3;o Dias J, Felip E, Majem M, Gumus M, Kim SW, Ono A, Xie J, Bhattacharya A, Agrawal T, Shreeve SM, Knoblauch RE, Park K, Girard N, PAPILLON Investigators.</authors>
+<title>Amivantamab plus Chemotherapy in NSCLC with <em>EGFR</em> Exon 20 Insertions.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>2039&#x2013;2051.</pages>
+</reference>
+<reference id="pubmed36780674">
+<accessionId id="acc099" href="info:pmid/36780674" />
+<authors>Altorki N, Wang X, Kozono D, Watt C, Landrenau R, Wigle D, Port J, Jones DR, Conti M, Ashrafi AS, Liberman M, Yasufuku K, Yang S, Mitchell JD, Pass H, Keenan R, Bauer T, Miller D, Kohman LJ, Stinchcombe TE, Vokes E.</authors>
+<title>Lobar or Sublobar Resection for Peripheral Stage IA Non-Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>489&#x2013;498.</pages>
+</reference>
+<reference id="pubmed38828946">
+<accessionId id="acc100" href="info:pmid/38828946" />
+<authors>Lu S, Kato T, Dong X, Ahn MJ, Quang LV, Soparattanapaisarn N, Inoue T, Wang CL, Huang M, Yang JC, Cobo M, &#x00D6;zg&#x00FC;ro&#x011F;lu M, Casarini I, Khiem DV, Sriuranpong V, Cronemberger E, Takahashi T, Runglodvatana Y, Chen M, Huang X, Grainger E, Ghiorghiu D, van der Gronde T, Ramalingam SS, LAURA Trial Investigators.</authors>
+<title>Osimertinib after Chemoradiotherapy in Stage III <em>EGFR</em>-Mutated NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>585&#x2013;597.</pages>
+</reference>
+<reference id="pubmed38749033">
+<accessionId id="acc101" href="info:pmid/38749033" />
+<authors>Cascone T, Awad MM, Spicer JD, He J, Lu S, Sepesi B, Tanaka F, Taube JM, Cornelissen R, Havel L, Karaseva N, Kuzdzal J, Petruzelka LB, Wu L, Pujol JL, Ito H, Ciuleanu TE, de Oliveira Muniz Koch L, Janssens A, Alexandru A, Bohnet S, Moiseyenko FV, Gao Y, Watanabe Y, Coronado Erdmann C, Sathyanarayana P, Meadows-Shropshire S, Blum SI, Provencio Pulla M, CheckMate 77T Investigators.</authors>
+<title>Perioperative Nivolumab in Resectable Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>1756&#x2013;1769.</pages>
+</reference>
+<reference id="pubmed39159457">
+<accessionId id="acc102" href="info:pmid/39159457" />
+<authors>Kearney LE, Belancourt P, Katki HA, Tanner NT, Wiener RS, Robbins HA, Landy R, Caverly TJ.</authors>
+<title>The Development and Performance of Alternative Criteria for Lung Cancer Screening.</title>
+<source>Ann Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>177</volume>
+<pages>1222&#x2013;1232.</pages>
+</reference>
+<reference id="pubmed39757150">
+<accessionId id="acc103" href="info:pmid/39757150" />
+<authors>Burt JR, Qaqish N, Stoddard G, Jridi A, Anderson PS, Woods L, Newman A, Carter MR, Ellessy R, Chamberlin J, Kabakus I.</authors>
+<title>Non-small cell lung cancer in ever-smokers vs never-smokers.</title>
+<source>BMC Med</source>
+<pubdate>2025</pubdate>
+<volume>23</volume>
+<pages>3.</pages>
+</reference>
+<reference id="pubmed39268857">
+<accessionId id="acc104" href="info:pmid/39268857" />
+<authors>Cheng Y, Spigel DR, Cho BC, Laktionov KK, Fang J, Chen Y, Zenke Y, Lee KH, Wang Q, Navarro A, Bernabe R, Buchmeier EL, Chang JW, Shiraishi Y, Goksu SS, Badzio A, Shi A, Daniel DB, Hoa NTT, Zemanova M, Mann H, Gowda H, Jiang H, Senan S, ADRIATIC Investigators.</authors>
+<title>Durvalumab after Chemoradiotherapy in Limited-Stage Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>1313&#x2013;1327.</pages>
+</reference>
+<reference id="pubmed39288781">
+<accessionId id="acc105" href="info:pmid/39288781" />
+<authors>Spicer JD, Garassino MC, Wakelee H, Liberman M, Kato T, Tsuboi M, Lee SH, Chen KN, Dooms C, Majem M, Eigendorff E, Martinengo GL, Bylicki O, Rodr&#x00ED;guez-Abreu D, Chaft JE, Novello S, Yang J, Arunachalam A, Keller SM, Samkari A, Gao S, KEYNOTE-671 Investigators.</authors>
+<title>Neoadjuvant pembrolizumab plus chemotherapy followed by adjuvant pembrolizumab compared with neoadjuvant chemotherapy alone in patients with early-stage non-small-cell lung cancer (KEYNOTE-671): a randomised, double-blind, placebo-controlled, phase 3 trial.</title>
+<source>Lancet</source>
+<pubdate>2024</pubdate>
+<volume>404</volume>
+<pages>1240&#x2013;1252.</pages>
+</reference>
+<reference id="poem376787">
+<accessionId id="acc106" href="info:wiley/eep-poem/376787" />
+<accessionId id="acc106b" href="info:pmid/39259563" />
+<authors>Greer JA, Temel JS, El-Jawahri A, Rinaldi S, Kamdar M, Park ER, Horick NK, Pintro K, Rabideau DJ, Schwamm L, Feliciano J, Chua I, Leventakos K, Fischer SM, Campbell TC, Rabow MW, Zachariah F, Hanson LC, Martin SF, Silveira M, Shoemaker L, Bakitas M, Bauman J, Spoozak L, Grey C, Blackhall L, Curseen K, O'Mahony S, Smith MM, Rhodes R, Cullinan A, Jackson V, REACH PC Investigators.</authors>
+<title>Telehealth vs In-Person Early Palliative Care for Patients With Advanced Lung Cancer: A Multisite Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2024</pubdate>
+<volume>332</volume>
+<pages>1153&#x2013;64.</pages>
+</reference>
+<reference id="pubmed39522446">
+<accessionId id="acc107" href="info:pmid/39522446" />
+<authors>Wang L, Zhou J, Jing S, Liu B, Fang J, Xue T.</authors>
+<title>Sublobar or lobar resection in early-stage peripheral non-small cell lung cancer less than 2cm: A meta-analysis for randomized controlled trials.</title>
+<source>Am J Surg</source>
+<pubdate>2025</pubdate>
+<volume>241</volume>
+<pages>116069.</pages>
+</reference>
+<reference id="pubmed38065405">
+<accessionId id="acc108" href="info:pmid/38065405" />
+<authors>Rajaram R, Huang Q, Li RZ, Chandran U, Zhang Y, Amos TB, Wright GWJ, Ferko NC, Kalsekar I.</authors>
+<title>Recurrence-Free Survival in Patients With Surgically Resected Non-Small Cell Lung Cancer: A Systematic Literature Review and Meta-Analysis.</title>
+<source>Chest</source>
+<pubdate>2024</pubdate>
+<volume>165</volume>
+<pages>1260&#x2013;1270.</pages>
+</reference>
+<reference id="pubmed40163214">
+<accessionId id="acc109" href="info:pmid/40163214" />
+<authors>Kim SY, Park HS, Chiang AC.</authors>
+<title>Small Cell Lung Cancer: A Review.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>333</volume>
+<pages>1906&#x2013;1917.</pages>
+</reference>
+<reference id="pubmed40293180">
+<accessionId id="acc110" href="info:pmid/40293180" />
+<authors>Heymach JV, Ruiter G, Ahn MJ, Girard N, Smit EF, Planchard D, Wu YL, Cho BC, Yamamoto N, Sabari JK, Zhao Y, Tu HY, Yoh K, Nadal E, Sadrolhefazi B, Rohrbacher M, von Wangenheim U, Eigenbrod-Giese S, Zugazagoitia J, Beamion LUNG-1 Investigators.</authors>
+<title>Zongertinib in Previously Treated <em>HER2</em>-Mutant Non-Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>2321&#x2013;2333.</pages>
+</reference>
+<reference id="pubmed39322406">
+<accessionId id="acc111" href="info:pmid/39322406" />
+<authors>Geppert J, Asgharzadeh A, Brown A, Stinton C, Helm EJ, Jayakody S, Todkill D, Gallacher D, Ghiasvand H, Patel M, Auguste P, Tsertsvadze A, Chen YF, Grove A, Shinkins B, Clarke A, Taylor-Phillips S.</authors>
+<title>Software using artificial intelligence for nodule and cancer detection in CT lung cancer screening: systematic review of test accuracy studies.</title>
+<source>Thorax</source>
+<pubdate>2024</pubdate>
+<volume>79</volume>
+<pages>1040&#x2013;1049.</pages>
+</reference>
+<reference id="pubmed40454646">
+<accessionId id="acc112" href="info:pmid/40454646" />
+<authors>Mountzios G, Sun L, Cho BC, Demirci U, Baka S, G&#x00FC;m&#x00FC;&#x015F; M, Lugini A, Zhu B, Yu Y, Korantzis I, Han JY, Ciuleanu TE, Ahn MJ, Rocha P, Mazi&#x00E8;res J, Lau SCM, Schuler M, Blackhall F, Yoshida T, Owonikoko TK, Paz-Ares L, Jiang T, Hamidi A, Gauto D, Recondo G, Rudin CM, DeLLphi-304 Investigators.</authors>
+<title>Tarlatamab in Small-Cell Lung Cancer after Platinum-Based Chemotherapy.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>349&#x2013;361.</pages>
+</reference>
+<reference id="pubmed37379158">
+<accessionId id="acc113" href="info:pmid/37379158" />
+<authors>Provencio M, Nadal E, Gonz&#x00E1;lez-Larriba JL, Mart&#x00ED;nez-Mart&#x00ED; A, Bernab&#x00E9; R, Bosch-Barrera J, Casal-Rubio J, Calvo V, Insa A, Ponce S, Reguart N, de Castro J, Mosquera J, Cobo M, Aguilar A, L&#x00F3;pez Vivanco G, Camps C, L&#x00F3;pez-Castro R, Mor&#x00E1;n T, Barneto I, Rodr&#x00ED;guez-Abreu D, Serna-Blasco R, Ben&#x00ED;tez R, Aguado de la Rosa C, Palmero R, Hernando-Trancho F, Mart&#x00ED;n-L&#x00F3;pez J, Cruz-Berm&#x00FA;dez A, Massuti B, Romero A.</authors>
+<title>Perioperative Nivolumab and Chemotherapy in Stage III Non-Small-Cell Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>504&#x2013;513.</pages>
+</reference>
+<reference id="pubmed40454642">
+<accessionId id="acc114" href="info:pmid/40454642" />
+<authors>Forde PM, Spicer JD, Provencio M, Mitsudomi T, Awad MM, Wang C, Lu S, Felip E, Swanson SJ, Brahmer JR, Kerr K, Taube JM, Ciuleanu TE, Tanaka F, Saylors GB, Chen KN, Ito H, Liberman M, Martin C, Broderick S, Wang L, Cai J, Duong Q, Meadows-Shropshire S, Fiore J, Bhatia S, Girard N, CheckMate 816 Investigators.</authors>
+<title>Overall Survival with Neoadjuvant Nivolumab plus Chemotherapy in Lung Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>741&#x2013;752.</pages>
+</reference>
+<reference id="pubmed41104938">
+<accessionId id="acc115" href="info:pmid/41104938" />
+<authors>J&#x00E4;nne PA, Planchard D, Kobayashi K, Yang JC, Liu Y, Valdiviezo N, Kim TM, Jiang L, Kagamu H, Yanagitani N, Wang J, Biswas B, Poltoratskiy A, Neron Y, Rojas C, Koubkova L, Escriu C, Ezeife DA, Mann H, Armenteros-Monterroso E, Rukazenkov Y, Lee CK, FLAURA2 Investigators.</authors>
+<title>Survival with Osimertinib plus Chemotherapy in <em>EGFR</em>-Mutated Advanced NSCLC.</title>
+<source>N Engl J Med</source>
+<pubdate>2026</pubdate>
+<volume>394</volume>
+<pages>27&#x2013;38.</pages>
+</reference>
+<reference id="pubmed40897431">
+<accessionId id="acc116" href="info:pmid/40897431" />
+<authors>Ma Z, Cao F, Liao M, Min R, Zheng R, Sun X, Chen X, Gong Y, Ai S, Kang X .</authors>
+<title>Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in <em>EGFR-</em>mutated non-small cell lung cancer: systematic review and network meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2025</pubdate>
+<volume>390</volume>
+<pages>e082834.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

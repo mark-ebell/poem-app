@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Malnutrition</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0151</topic_id>
+<topic_comment />
+<topic_lastupdated>02/11/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Margaret E. Thompson, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Michigan State University College of Human Medicine</author_institution>
+<author_email>thomps97&#x0040;msu.edu</author_email>
+<author_phone_office>616-234-2664</author_phone_office>
+<author_phone_home>616-447-9525</author_phone_home>
+<author_phone_fax>616-234-2625</author_phone_fax>
+<author_street1>15 Michigan Street NE</author_street1>
+<author_street2 />
+<author_city>Grand Rapids</author_city>
+<author_state>MI</author_state>
+<author_zip>49503</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>The 2 item Malnutrition Screening Tool (MST) is supported with good evidence as having at least moderate validity, reliability, and agreement for performing a nutrition assessment.<xref ref="pubmed31866356" resource="acc027" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Use the subjective global assessment (SGA) in hospitalized patients to assess their nutritional status. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Provide protein and calorie repletion in elderly malnourished persons, and behavioral interventions with nutritional supplements in those with illness related malnutrition. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Tube feeding does not improve outcomes in those with advanced dementia or who are terminally ill. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Immunonutrition may decrease the risk of infectious complications in seriously ill hospitalized patients. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Any disorder of nutrition; may result from inadequate intake or assimilation of nutrients. Can refer to over-eating as well as deficiency in nutrients. Clinical definition from the World Health Organization is "inadequate or excess intake of protein, energy, and micronutrients such as vitamins, and the frequent infections and disorders that result." The definition from National Institute for Health and Care Excellence (NICE) is "a state in which a deficiency of nutrients such as energy, protein, vitamins, or minerals results in measurable adverse effects on body composition, function, or clinical outcome."</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Inadequate intake most common cause worldwide</listitem>
+<listitem>Poor digestion</listitem>
+<listitem>Poor absorption of nutrients</listitem>
+<listitem>Impaired metabolism</listitem>
+<listitem>Excessive excretion of nutrients</listitem>
+<listitem>Increased nutritional demands</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Can be due to micronutrient deficiency, macronutrient deficiency, or both.</listitem>
+<listitem>Kwashiorkor is caused by decreased protein intake in the face of normal or mildly reduced overall caloric intake.</listitem>
+<listitem>Pathophysiology depends on the nutrient that is lacking.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Poverty</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hospitalization</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Surgery</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Advanced age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screening tools assess for risk of malnutrition. Assessment tools assess actual nutritional status. Growth monitoring in children is the standard of care. A single randomized trial of 500 children found no evidence of clinical improvement with monitoring, though. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1443" resource="acc001" /></listitem>
+<listitem>The USPSTF found insufficient evidence to recommend for or against screening for food insecurity. Physicians should individualize care to their community and setting. <xref ref="poem397639" resource="acc032" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>The USPSTF recommends offering or referring adults with cardiovascular disease risk factors to behavioral counseling interventions to promote a healthy diet. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Protein and calorie supplementation in the elderly at risk for malnutrition has been shown to result in weight gain and may decrease mortality.<xref ref="cochrane3288" resource="acc004" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>NICE guidelines recommend that patients being admitted to the hospital and outpatients at their first clinic visit judged to be at possible risk for malnutrition be screened for malnutrition. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Consensus guidelines recommend using weight, height or length, BMI, length&#x002F;height for age, or mid-upper arm circumference to assess nutrition. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed25458748" resource="acc019" /></listitem>
+<listitem>The <resourceLink href="https://www.dhhs.tas.gov.au/__data/assets/pdf_file/0004/341824/What_is_the_Malnutrition_Screening_Tool_MST.pdf">Malnutrition Screening Tool (MST)</resourceLink> is supported with good evidence as having at least moderate validity, reliability, and agreement for performing a nutrition assessment.<xref ref="pubmed31866356" resource="acc027" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The Subjective Global Assessment (SGA) tool is useful for hospitalized patients (both adults and children). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed6538911" resource="acc002" /> When possible, obtain a careful dietary history including a 3 to 7 day food diary, and assess for dysphagia. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Kwashiorkor</Differential_Name>
+<Differential_Features>Protuberant abdomen, edema, vitiligo, hair loss, growth retardation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Micronutrient deficiency</Differential_Name>
+<Differential_Features>Signs and symptoms specific to the given vitamin or mineral that is lacking</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Carbohydrate deficiency</Differential_Name>
+<Differential_Features>Growth retardation, weight loss</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Fat deficiency</Differential_Name>
+<Differential_Features>Flaky skin, poor growth, hair loss, impaired wound healing</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Obtain a careful dietary history, including a food diary for 3 to 7 days. Assess for the presence of dysphagia. Signs include difficulty or pain with swallowing, regurgitation of undigested food, drooling, hoarse voice, or feeling of obstruction.</listitem>
+<listitem>Significant weight loss, defined as 5&#x0025; loss in 1 month, 7.5&#x0025; in 3 months, or 10&#x0025; loss in 6 months necessitates further workup.</listitem>
+<listitem>NICE guidelines state that anyone with BMI less than 18.5 kg&#x002F;m<sup>2</sup>, those with unintentional weight loss of greater than 10&#x0025; over 3 to 6 months, and those with BMI &lt;20 kg&#x002F;m<sup>2</sup> and 5&#x0025; unintentional weight loss are defined as malnourished. Those with poor absorptive capacity or who have not eaten for more than 5 days are at risk for malnutrition.</listitem>
+<listitem>The Subjective Global Assessment (SGA) tool is useful as a screen for hospitalized patients.<xref ref="cochrane2008" resource="acc003" />SGA is also valid in children.<xref ref="cochrane2008" resource="acc003" /></listitem>
+<listitem>The SGA takes into account weight change in past 6 months and two weeks, dietary intake, GI symptoms, functional impairment, and physical examination for evidence of loss of subcutaneous fat, muscle wasting, edema, and ascites. A score then rates the patient as well-nourished, mildly-moderately malnourished, or severely malnourished.<xref ref="pubmed6538911" resource="acc002" /></listitem>
+<listitem>A recent meta-analysis has shown that the <resourceLink href="https://www.dhhs.tas.gov.au/__data/assets/pdf_file/0004/341824/What_is_the_Malnutrition_Screening_Tool_MST.pdf">Malnutrition Screening Tool (MST)</resourceLink> is supported with good or strong evidence as having at least moderate validity, reliability, and agreement.<xref ref="pubmed31866356" resource="acc027" /> It consists of two questions regarding recent unintentional weight loss and decreased appetite. The <resourceLink href="http://www.bapen.org.uk/screening-and-must/must-calculator">Malnutrition Universal Screening Tool (MUST)</resourceLink> is a validated instrument that is also useful in nutrition assessment, though the evidence is not as strong as for the Malnutrition Screening Tool (MST). The MUST is a five-step tool incorporating BMI, percent unplanned weight loss, effect of acute disease, and management guidelines.<xref ref="pubmed15533269" resource="acc025" /></listitem>
+<listitem>The Academy of Nutrition and Dietetics and the American Society for Parenteral and Enteral Nutrition have established an "evidence-informed consensus statement" regarding diagnosing malnutrition and undernutrition in children. Recommended diagnostic indicators include z scores for weight, height or length, BMI for age, length&#x002F;height for age, or mid-upper arm circumference when a single data point is available. When more than one data point is available, additional measures include weight gain velocity in children under the age of 2 years, weigh loss, deceleration in weigh for length&#x002F;height z score, and inadequate nutrient intake.<xref ref="pubmed25458748" resource="acc019" /></listitem>
+<listitem>The STRONGkids risk score gives 2 points for an underlying illness with a risk of malnutrition or expected major surgery; 1 point if a subjective clinical assessment finds that the child has a poor nutritional status; 1 point if the parent reports excessive diarrhea or vomiting, reduced food intake, or has a pre-existing nutritional intervention; and 1 point if the parent reports recent weight loss or no weight gain for infants up to age 1 year. Low risk is 0 points, moderate risk is 1 to 3 points, and high risk is 4 to 5 points. The score has been prospectively validated.<xref ref="pubmed39233117" resource="acc031" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Traditional serum markers for protein status such as albumin, transferrin, transthyretin have limitations for diagnosis because they are acute phase reactants.</listitem>
+<listitem>If used, you should simultaneously order a c-reactive protein or sedimentation rate to assess inflammation.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Nutritional assessment may be a brief screen, or more in depth when a patient has risk factors for malnutrition (grossly overweight or underweight, chronic disease, patients in poverty, elderly). Consider screening any at risk hospitalized patients.</listitem>
+<listitem><resourceLink href="https://www.nice.org.uk/guidance/cg32">NICE guidelines</resourceLink> state that all hospital inpatients should be screened for malnutrition on admission, and all outpatients should undergo screening at their first outpatient visit.</listitem>
+<listitem>Ask about changes in weight and appetite, dietary history, existence of chronic disease or symptoms of systemic illness, vitamin and other nutrient intake.</listitem>
+<listitem>History of unintended weight loss indicates a need for further evaluation.</listitem>
+<listitem>Physical examination should include BMI, body composition, and waist circumference.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Provide protein and calorie repletion in elderly malnourished persons, and behavioral interventions with nutritional supplements in those with illness-related malnutrition. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane2008" resource="acc003" /><xref ref="cochrane3288" resource="acc004" /><xref ref="pubmed22672102" resource="acc006" /></listitem>
+<listitem>Enteral (tube) feeding does not improve outcomes in those with advanced dementia or who are terminally ill. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane7209" resource="acc008" /></listitem>
+<listitem>Immunonutrition (enteral or parenteral nutrition with high levels of arginine, glutamine, and omega-3 fatty acids) may decrease the risk of infectious complications in seriously ill hospitalized patients, but for the most critically ill, may increase the risk of mortality.<xref ref="poem31125" resource="acc005" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>A randomized trial in children with severe malnutrition in Malawi found that adding an antibiotic to refeeding therapy significantly reduces mortality, with a number needed to treat of 33 to prevent one death. Amoxicillin worked nearly as well as cefdinir, and may be preferred in under-resourced settings. The benefit was greatest in those with kwashiorkor (malnutrition accompanied by edema).<xref ref="poem150305" resource="acc016" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Authors of a systematic review found 45 studies with over 3000 patients regarding dietary advice for illness-related malnutrition. The overall findings, based on limited quality evidence, were that dietary advice with or without nutritional supplements may improve body composition, strength, and increase weight. There was no evidence that survival was improved.<xref ref="cochrane2008" resource="acc003" /></listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Venous thromboembolism: Recommend nutritional support for anyone with a BMI &lt;18.5 kg&#x002F;m<sup>2</sup>, anyone with at least 10&#x0025; unintentional weight loss over the past 3 to 6 months, and anyone with a BMI &lt;20.0 kg&#x002F;m<sup>2</sup> and unintentional weight loss of 5&#x0025; or more in the last 3 to 6 months. It should also be considered in those at risk for malnutrition, defined as those with high nutrient losses, high nutritional needs, or who have not eaten for 5 or more days.The oral route is preferred if safe swallowing can be established; if not, consider enteral feeding. Parenteral feeding is an option for patients with a non-functional, inaccessible, or perforated GI tract. NICE guidelines recommend consideration of enteral tube feeding for patients who are malnourished or at risk, for whom oral intake is inadequate or unsafe, and who have a functional accessible GI tract. Consider gastrostomy for long-term enteral tube feeding (4 weeks or more).</listitem>
+<listitem>Parenteral nutrition: Introduce slowly, with no more than half of estimated needs in first 24 to 48 hours. Composition should be assessed by an experienced dietician and include micronutrients, electrolytes, and other nutrients. Micronutrient repletion for specific deficiencies is prudent. Immunonutrition (enteral or parenteral nutrition with high levels of arginine, glutamine, and omega-3 fatty acids) may decrease the risk of infectious complications and shorten hospital stay in seriously ill hospitalized patients, but evidence that it reduces mortality is lacking.<xref ref="poem31125" resource="acc005" /><xref ref="poem20451" resource="acc007" /></listitem>
+<listitem>Demented elderly and terminally ill: A Cochrane review identified 7 observational studies, and found no evidence that enteral tube feedings improve survival in demented elderly persons.<xref ref="cochrane7209" resource="acc008" />Guidelines from the American Dietetic Association do not recommend routine use of tube feeding for demented elderly and those with terminal illness. LImplementing an education and nutrition program in patients with dementia may result in little change in food intake, and may worsen behaviors around mealtime because of the need for assistance with eating and other interventions. <xref ref="cochrane11542" resource="acc028" /></listitem>
+<listitem>Elderly patients: Strategies that may be helpful in the elderly, especially those near the end of life, include liberalizing diet, nutritional supplements, smaller meals, more aggressive spicing of food, and encouraging snacking on calorie rich foods.<xref ref="pubmed36716756" resource="acc029" /> Clinical trials are lacking, though. A systematic review found 62 trials with over 10,000 participants that examined the effect of protein and energy supplements (e.g. Boost, Ensure, Enrich). They found a beneficial effect on weight, mixed effect on functional outcomes, and a reduction in mortality for the subgroup that was undernourished. An RCT found that intraduodenal protein infusion in older adults suppressed appetite less than in young men, and in low doses, increases overall calorie intake.<xref ref="pubmed25099545" resource="acc017" /></listitem>
+<listitem>Elderly patients with frailty: A systematic review identified 11 studies with 822 frail elderly participants. They found positive effects of oral supplements on improving mobility and increase caloric intake, but no evidence of an effect on body weight or BMI.<xref ref="pubmed36541454" resource="acc030" /></listitem>
+<listitem>The problem of sarcopenia (decreased lean body mass) in the elderly is garnering increased attention because of its relationship to functional status. A randomized, controlled trial incorporating supplementation with whey protein, essential amino acids, and vitamin D, along with exercise demonstrated increases in lean body mass and strength, as well as well-being in an elderly population with sarcopenia.<xref ref="pubmed26864356" resource="acc024" /></listitem>
+<listitem>Children with severe malnutrition: Severe malnutrition can interfere with the ability to diagnoses serious infection such as pneumonia. An RCT determined that C-reactive protein (CRP) and procalcitonin are not accurate in diagnosing severe infection in profoundly malnourished children.<xref ref="pubmed24446443" resource="acc018" /></listitem>
+<listitem>Hepatic transplant: A systematic review of 13 poor to moderate quality studies found limited evidence that nutritional supplementation prior to transplant improves outcomes significantly. Evidence was best for a combination of enteral plus parenteral nutrition plus glutamine-dipeptide.<xref ref="cochrane7605" resource="acc009" /></listitem>
+<listitem>Hepatic disease: A systematic review identified 37 trials, but only one was at low risk of bias. Overall, there was little evidence of improved mortality with enteral or parenteral support.<xref ref="cochrane8344" resource="acc010" /></listitem>
+<listitem>Bone marrow transplant: Parenteral nutrition with added glutamine does not clearly reduce hospital stay (mixed study findings). Patients receiving IV fluids who are encouraged to consume an oral diet are less likely than those receiving parenteral nutrition to experience infection while in the hospital, and are likely to be discharged from the hospital sooner than those receiving parenteral nutrition.<xref ref="cochrane2920" resource="acc022" /></listitem>
+<listitem>HIV disease: Authors of a systematic review of 13 small RCTs with just over 500 patients found an improvement in body weight and lean body mass with intervention. The increase was small, between 1 and 2 kg typically.<xref ref="cochrane5483" resource="acc011" /></listitem>
+<listitem>Children undergoing chemotherapy: A Cochrane review identified 14 studies, largely low quality, comparing different approaches to nutritional support. They concluded that there is some evidence that parenteral nutrition is more effective than enteral nutrition regarding outcomes such as energy intake and weight gain. Glutamine supplementation does not appear to reduce the likelihood of complications of treatment such as infection or mucositis, based on two good quality trials.<xref ref="cochrane3298" resource="acc020" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Malnutrition is common in the hospitalized elderly. A US Veteran's Affairs study found that 1 in 5 patients had a daily intake less than 50&#x0025; of their calculated requirement, and that patients with low-nutrient intake had higher mortality (which could of course be confounded by people with more serious illness not having much appetite&#x0021;).<xref ref="poem10920" resource="acc012" /></listitem>
+<listitem>Resting energy expenditure is higher than baseline requirement. Protein should make up 1.5 to 2 g&#x002F;kg&#x002F;day of total energy requirement, and carbohydrates may comprise about 70&#x0025; of total caloric requirement.</listitem>
+<listitem>In most critically ill patients, enteral supplementation is better than leaving them NPO. At least one randomized controlled trial has demonstrated that parenteral nutrition is neither more clinically effective nor cost-effective than enteral nutrition in these patients.<xref ref="pubmed27089843" resource="acc023" /></listitem>
+<listitem>A Cochrane review found insufficient evidence to determine whether enteral nutrition combined with parenteral nutrition in critically ill patients confers benefits in mortality or other adverse events when compared to enteral nutrition or parenteral nutrition alone.<xref ref="pubmed29883514" resource="acc026" /></listitem>
+<listitem>However, a recent systematic review identified 22 randomized trials with 3736 malnourished medical inpatients. The authors concluded that while patients receiving nutritional support had greater weight gain and calorie intake, there was no evidence of an improvement in mortality, hospital-acquired infections, or physical function. There was a lower readmission rate in the intervention group (20.5&#x0025; vs 29.6&#x0025;, NNT &#x003D; 11), a potentially important benefit.<xref ref="poem180206" resource="acc021" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL />
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>The STRONGkids risk score gives 2 points for an underlying illness with a risk of malnutrition or expected major surgery; 1 point if a subjective clinical assessment finds that the child has a poor nutritional status; 1 point if the parent reports excessive diarrhea or vomiting, reduced food intake, or has a pre-existing nutritional intervention; and 1 point if the parent reports recent weight loss or no weight gain for infants up to age 1 year. Low risk is 0 points, moderate risk is 1 to 3 points, and high risk is 4 to 5 points. The score has been prospectively validated.<xref ref="pubmed39233117" resource="acc031" /></listitem>
+<listitem>In under-resourced countries, community-based supplementary feeding is widely promoted, but studies are lacking.<xref ref="cochrane5039" resource="acc013" /></listitem>
+<listitem>Access to food in poorer countries improves with unconditional cash transfers and food vouchers, while conditional cash transfers, income generation interventions, and social environment interventions do not appear to reduce adverse nutrition as measured by stunting in children.</listitem>
+<listitem>There is only one RCT addressing the issue of nutritional support in critically ill children. The authors randomized 77 children in the ICU with burns to immediate enteral nutrition or enteral nutrition delayed for at least 48 hours, and found no difference in outcomes.<xref ref="cochrane5144" resource="acc014" /></listitem>
+<listitem>School meals were studied in 18 randomized and observational studies. Results for height and weight gain were mixed, with more evidence of benefit in less developed countries. Attendance in school was improved and math gains were higher for intervention groups in lower income countries.<xref ref="cochrane4676" resource="acc015" /></listitem>
+<listitem>A randomized trial in children with severe malnutrition in Malawi found that adding an antibiotic to refeeding therapy significantly reduces mortality, with a number needed to treat of 33 to prevent one death. Amoxicillin worked nearly as well as cefdinir, and may be preferred in under-resourced settings. The benefit was greatest in those with kwashiorkor (malnutrition accompanied by edema).<xref ref="poem150305" resource="acc016" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="cochrane1443">
+<accessionId id="acc001" href="info:wiley/cochrane/CD1443" />
+<chapter_authors>Panpanich R, Garner P.</chapter_authors>
+<chapter_title>Growth monitoring in children (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed6538911">
+<accessionId id="acc002" href="info:pmid/6538911" />
+<authors>Detsky AS, Baker JP, Mendelson RA, et al.</authors>
+<title>Evaluating the accuracy of nutritional assessment techniques applied to hospitalized patients: methodology and comparison.</title>
+<source>JPEN J Parenter Enter Nutr</source>
+<pubdate>1984</pubdate>
+<volume>8</volume>
+<pages>153&#x2013;159.</pages>
+</reference>
+<reference id="cochrane2008">
+<accessionId id="acc003" href="info:wiley/cochrane/CD2008" />
+<chapter_authors>Baldwin C, Parsons T, Logan S.</chapter_authors>
+<chapter_title>Dietary advice for illness-related malnutrition in adults (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3288">
+<accessionId id="acc004" href="info:wiley/cochrane/CD3288" />
+<chapter_authors>Milne AC, Potter J, Avenell A.</chapter_authors>
+<chapter_title>Protein and energy supplementation in elderly people at risk from malnutrition (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem31125">
+<accessionId id="acc005" href="info:wiley/eep-poem/31125" />
+<accessionId id="acc005b" href="info:pmid/11509059" />
+<authors>Heyland DK, Novak F, Drover JW, Jain M, Su X, Suchner U.</authors>
+<title>Should immunonutrition become routine in critically ill patients? A systematic review of the evidence.</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>286</volume>
+<pages>944&#x2013;953.</pages>
+</reference>
+<reference id="pubmed22672102">
+<accessionId id="acc006" href="info:pmid/22672102" />
+<authors>Baldwin C, Weekes CE.</authors>
+<title>Dietary counselling with or without oral nutritional supplements in the management of malnourished patients: a systematic review and meta-analysis of randomised controlled trials.</title>
+<source>J Hum Nutr Diet</source>
+<pubdate>2012</pubdate>
+<volume>25</volume>
+<pages>411&#x2013;426.</pages>
+</reference>
+<reference id="poem20451">
+<accessionId id="acc007" href="info:wiley/eep-poem/20451" />
+<accessionId id="acc007b" href="info:pmid/10628629" />
+<authors>Beale RJ, Bryg DJ, Bihari DJ.</authors>
+<title>Immunonutrition in the critically ill: a systematic review of clinical outcome.</title>
+<source>Crit Care Med</source>
+<pubdate>1999</pubdate>
+<volume>27</volume>
+<pages>2799&#x2013;2805.</pages>
+</reference>
+<reference id="cochrane7209">
+<accessionId id="acc008" href="info:wiley/cochrane/CD007209" />
+<chapter_authors>Sampson EL, Candy B, Jones L.</chapter_authors>
+<chapter_title>Enteral tube feeding for older people with advanced dementia (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7605">
+<accessionId id="acc009" href="info:wiley/cochrane/CD007605" />
+<citation>Langer G, Gro&#x00DF;mann K, Fleischer S, Berg A, Grothues D, Wienke A, Behrens J, Fink A. Nutritional interventions for liver-transplanted patients. Cochrane Database of Systematic Reviews 2012, Issue 8. Art. No.: CD007605. DOI: 10.1002&#x002F;14651858.CD007605.pub2.</citation>
+<url />
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="cochrane8344">
+<accessionId id="acc010" href="info:wiley/cochrane/CD008344" />
+<chapter_authors>Koretz RL, Avenell A, Lipman TO.</chapter_authors>
+<chapter_title>Nutritional support for liver disease (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 5.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5483">
+<accessionId id="acc011" href="info:wiley/cochrane/CD005483" />
+<chapter_authors>Johns KKJ, Beddall MJ, Corrin RC.</chapter_authors>
+<chapter_title>Anabolic steroids for the treatment of weight loss in HIV-infected individuals (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem10920">
+<accessionId id="acc012" href="info:wiley/eep-poem/10920" />
+<accessionId id="acc012b" href="info:pmid/10359390" />
+<authors>Sullivan DH, Sun S, Walls RC.</authors>
+<title>Protein-energy undernutrition among elderly hospitalized patients: a prospective study.</title>
+<source>JAMA</source>
+<pubdate>1999</pubdate>
+<volume>281</volume>
+<pages>2013&#x2013;2019.</pages>
+</reference>
+<reference id="cochrane5039">
+<accessionId id="acc013" href="info:wiley/cochrane/CD005039" />
+<chapter_authors>Sguassero Y, de Onis M, Bonotti AM, Carroli G.</chapter_authors>
+<chapter_title>Community-based supplementary feeding for promoting the growth of children under five years of age in low and middle income countries (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 6.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5144">
+<accessionId id="acc014" href="info:wiley/cochrane/CD005144" />
+<chapter_authors>Joffe A, Anton N, Lequier L, Vandermeer B, Tjosvold L, Larsen B, Hartling L.</chapter_authors>
+<chapter_title>Nutritional support for critically ill children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 5. Art. No.: CD005144. DOI: 10.1002&#x002F;14651858.CD005144.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4676">
+<accessionId id="acc015" href="info:wiley/cochrane/CD004676" />
+<chapter_authors>Kristjansson B, Petticrew M, MacDonald B, Krasevec J, Janzen L, Greenhalgh T, Wells GA, MacGowan J, Farmer AP, Shea B, Mayhew A, Tugwell P, Welch V.</chapter_authors>
+<chapter_title>School feeding for improving the physical and psychosocial health of disadvantaged students (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem150305">
+<accessionId id="acc016" href="info:wiley/eep-poem/150305" />
+<accessionId id="acc016b" href="info:pmid/23363496" />
+<authors>Trehan I, Goldbach HS, LaGrone LN, Meuli GJ, Wang RJ, Maleta KM, Manary MJ.</authors>
+<title>Antibiotics as part of the management of severe acute malnutrition.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>425&#x2013;435.</pages>
+</reference>
+<reference id="pubmed25099545">
+<accessionId id="acc017" href="info:pmid/25099545" />
+<authors>Soenen S, Giezenaar C, Hutchison AT, Horowitz M, Chapman I, Luscombe-Marsh ND.</authors>
+<title>Effects of intraduodenal protein on appetite, energy intake, and antropyloroduodenal motility in healthy older compared with young men in a randomized trial.</title>
+<source>Am J Clin Nutr</source>
+<pubdate>2014</pubdate>
+<volume>100</volume>
+<pages>1108&#x2013;1115.</pages>
+</reference>
+<reference id="pubmed24446443">
+<accessionId id="acc018" href="info:pmid/24446443" />
+<authors>Page AL, de Rekeneire N, Sayadi S, Aberrane S, Janssens AC, Dehoux M, Baron E.</authors>
+<title>Diagnostic and prognostic value of procalcitonin and C-reactive protein in malnourished children.</title>
+<source>Pediatrics</source>
+<pubdate>2014</pubdate>
+<volume>133</volume>
+<pages>e363&#x2013;e370.</pages>
+</reference>
+<reference id="pubmed25458748">
+<accessionId id="acc019" href="info:pmid/25458748" />
+<authors>Becker PJ, Nieman Carney L, Corkins MR, Monczka J, Smith E, Smith SE, Spear BA, White JV.</authors>
+<title>Consensus statement of the Academy of Nutrition and Dietetics&#x002F;American Society for Parenteral and Enteral Nutrition: indicators recommended for the identification and documentation of pediatric malnutrition (undernutrition).</title>
+<source>J Acad Nutr Diet</source>
+<pubdate>2014</pubdate>
+<volume>114</volume>
+<pages>1988&#x2013;2000.</pages>
+</reference>
+<reference id="cochrane3298">
+<accessionId id="acc020" href="info:wiley/cochrane/CD003298" />
+<chapter_authors>Ward EJ, Henry LM, Friend AJ, Wilkins S, Phillips RS.</chapter_authors>
+<chapter_title>Nutritional support in children and young people with cancer undergoing chemotherapy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 8. Art. No.: CD003298. DOI: 10.1002&#x002F;14651858.CD003298.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem180206">
+<accessionId id="acc021" href="info:wiley/eep-poem/180206" />
+<accessionId id="acc021b" href="info:pmid/26720894" />
+<authors>Bally MR, Blaser Yildirim PZ, Bounoure L, Gloy VL, Mueller B, Briel M, Schuetz P.</authors>
+<title>Nutritional support and outcomes in malnourished medical inpatients: A systematic review and meta-analysis.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2016</pubdate>
+<volume>176</volume>
+<pages>43&#x2013;53.</pages>
+</reference>
+<reference id="cochrane2920">
+<accessionId id="acc022" href="info:wiley/cochrane/CD002920" />
+<chapter_authors>Murray SM, Pindoria S.</chapter_authors>
+<chapter_title>Nutrition support for bone marrow transplant patients.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 3. Art. No.: CD002920. DOI: 10.1002&#x002F;14651858.CD002920.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed27089843">
+<accessionId id="acc023" href="info:pmid/27089843" />
+<authors>Harvey SE, Parrott F, Harrison DA, Sadique MZ, Grieve RD, Canter RR, McLennan BK, Tan JC, Bear DE, Segaran E, Beale R, Bellingan G, Leonard R, Mythen MG, Rowan KM.</authors>
+<title>A multicentre, randomised controlled trial comparing the clinical effectiveness and cost-effectiveness of early nutritional support via the parenteral versus the enteral route in critically ill patients (CALORIES).</title>
+<source>Health Technol Assess</source>
+<pubdate>2016</pubdate>
+<volume>20</volume>
+<pages>1&#x2013;144.</pages>
+</reference>
+<reference id="pubmed26864356">
+<accessionId id="acc024" href="info:pmid/26864356" />
+<authors>Rondanelli M, Klersy C, Terracol G, Talluri J, Maugeri R, Guido D, Faliva MA, Solerte BS, Fioravanti M, Lukaski H, Perna S.</authors>
+<title>Whey protein, amino acids, and vitamin D supplementation with physical activity increases fat-free mass and strength, functionality, and quality of life and decreases inflammation in sarcopenic elderly.</title>
+<source>Am J Clin Nutr</source>
+<pubdate>2016</pubdate>
+<volume>103</volume>
+<pages>830&#x2013;840.</pages>
+</reference>
+<reference id="pubmed15533269">
+<accessionId id="acc025" href="info:pmid/15533269" />
+<authors>Stratton RJ, Hackston A, Longmore D, Dixon R, Price S, Stroud M, King C, Elia M.</authors>
+<title>Malnutrition in hospital outpatients and inpatients: prevalence, concurrent validity and ease of use of the 'malnutrition universal screening tool' ('MUST') for adults.</title>
+<source>Br J Nutr</source>
+<pubdate>2004</pubdate>
+<volume>92</volume>
+<pages>799&#x2013;808.</pages>
+</reference>
+<reference id="pubmed29883514">
+<accessionId id="acc026" href="info:pmid/29883514" />
+<authors>Lewis SR, Schofield-Robinson OJ, Alderson P, Smith AF.</authors>
+<title>Enteral versus parenteral nutrition and enteral versus a combination of enteral and parenteral nutrition for adults in the intensive care unit.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2018</pubdate>
+<volume>6</volume>
+<pages>CD012276.</pages>
+</reference>
+<reference id="pubmed31866356">
+<accessionId id="acc027" href="info:pmid/31866356" />
+<authors>Skipper A, Coltman A, Tomesko J, Charney P, Porcari J, Piemonte TA, Handu D, Cheng FW.</authors>
+<title>Adult malnutrition (undernutrition) screening: An evidence analysis center systematic review.</title>
+<source>J Acad Nutr Diet</source>
+<pubdate>2020</pubdate>
+<volume>120</volume>
+<pages>669&#x2013;708.</pages>
+</reference>
+<reference id="cochrane11542">
+<accessionId id="acc028" href="info:wiley/cochrane/CD011542" />
+<chapter_authors>Herke M, Fink A, Langer G, Wustmann T, Watzke S, Hanff A, Burckhardt M.</chapter_authors>
+<chapter_title>Environmental and behavioural modifications for improving food and fluid intake in people with dementia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 7. Art. No.: CD011542. DOI: 10.1002&#x002F;14651858.CD011542.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed36716756">
+<accessionId id="acc029" href="info:pmid/36716756" />
+<authors>Dent E, Wright ORL, Woo J, Hoogendijk EO.</authors>
+<title>Malnutrition in older adults.</title>
+<source>Lancet</source>
+<pubdate>2023</pubdate>
+<volume>401</volume>
+<pages>951&#x2013;966.</pages>
+</reference>
+<reference id="pubmed36541454">
+<accessionId id="acc030" href="info:pmid/36541454" />
+<authors>Thomson K, Rice S, Arisa O, Johnson E, Tanner L 0, Marshall C, Sotire T, Richmond C, O'Keefe H, Mohammed W, Gosney M, Raffle A, Hanratty B, McEvoy CT, Craig D, Ramsay SE.</authors>
+<title>Oral nutritional interventions in frail older people who are malnourished or at risk of malnutrition: a systematic review.</title>
+<source>Health Technol Assess</source>
+<pubdate>2022</pubdate>
+<volume>26</volume>
+<pages>1&#x2013;112.</pages>
+</reference>
+<reference id="pubmed39233117">
+<accessionId id="acc031" href="info:pmid/39233117" />
+<authors>Jimenez EY, Lamers-Johnson E, Long JM, Woodcock L, Bliss C, Steiber AL.</authors>
+<title>Predictive Validity of the Academy of Nutrition and Dietetics&#x002F;American Society for Parental Nutrition Indicators to Diagnose Malnutrition and the Screening Tool for Risk on Nutritional Status and Growth among Hospitalized Children Relative to Medical Outcomes.</title>
+<source>J Pediatr</source>
+<pubdate>2025</pubdate>
+<volume>276</volume>
+<pages>114288.</pages>
+</reference>
+<reference id="poem397639">
+<accessionId id="acc032" href="info:wiley/eep-poem/397639" />
+<accessionId id="acc032b" href="info:pmid/40067285" />
+<authors>US Preventive Services Task Force, Nicholson WK, Silverstein M, Wong JB, Chelmow D, Coker TR, Fernandez A, Gibson E, Ja&#x00E9;n CR, Krousel-Wood M, Lee S, Rao G, Ruiz JM, Stevermer J, Tsevat J, Underwood SM, Wiehe S.</authors>
+<title>Screening for Food Insecurity: US Preventive Services Task Force Recommendation Statement.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>333</volume>
+<pages>1333&#x2013;1339.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

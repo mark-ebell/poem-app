@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Mpox (formerly monkeypox)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0908</topic_id>
+<topic_comment />
+<topic_lastupdated>01/03/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Mark H. Ebell MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>Michigan State University</author_institution>
+<author_email>ebell&#x0040;uga.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Steve R. Brown MD</editor_name>
+<editor_title />
+<editor_institution />
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect mpox (monkeypox) in a patient with characteristic rash, fever, and flu-like symptoms when the disease is circulating in a population, especially in men who have sex with men. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The recommended diagnostic test is polymerase chain reaction (PCR) for mpox (non-variola) <em>orthopoxvirus</em>. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Vaccination with the Jynneos vaccine is recommended for close contacts of someone diagnosed with monkey pox and those at high risk for mpox. The latter includes people with multiple sexual partners or group sex, sex at a sex club or bathhouse, or sex anywhere mpox transmission is occurring. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Treatment is primarily supportive, with tecovirimat recommended for: patients with severe disease requiring hospitalization; young children; immunocompromised patients including those with HIV without viral suppression; women who are pregnant or breastfeeding; and patients with complications such as pneumonia, cellulitis, or severe gastroenteritis. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Mpox is caused by a dsDNA virus in the genus Orthopoxvirus in the family Poxviridae. In the 2022 outbreak, it caused rash (often peri-anal and peri-inguinal), fever, chills, myalgias, fatigue, headache, and respiratory symptoms. It is rarely fatal.<xref ref="pubmed35952705" resource="acc001" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Ordinarily a rare infection, mpox is responsible for an outbreak that as of March 8, 2024 had affected 94,766 persons with 182 deaths in 117 countries. In the US, 42 deaths have been reported to date.(<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/response/2022/index.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;response&#x002F;2022&#x002F;index.html</resourceLink>)</listitem>
+<listitem>Previously the disease was largely confined to countries in central and western Africa including the Congo, Gabon, the Central African Republic, Benin, and Sierra Leone.</listitem>
+<listitem>From 2022 to 2024, 45,652 cases of mpox were reported to the Africa CDC with a case fatality rate of 3.3&#x0025;.<xref ref="pubmed39887004" resource="acc011" /></listitem>
+<listitem>During the first 13 weeks of 2024 664 mpox cases were reported in the US, primarily in New York (142), California (67) and Texas (43).</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Mpox is caused by a dsDNA virus in the genus <em>Orthopoxvirus</em> in the family <em>Poxviridae</em>.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Tree squirrels, Gambian pouched rats, other rodents, and non-human primates have been cited as potential reservoirs of the virus. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/veterinarian/monkeypox-in-animals.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;veterinarian&#x002F;monkeypox-in-animals.html</resourceLink>)</listitem>
+<listitem>Zoonotic transmission can occur with contact to the blood, bodily fluids, or cutaneous lesions of infected animals.</listitem>
+<listitem>In humans, it is spread by close physical contact, contact with respiratory secretions, or contact with a fomite (a contaminated object). Vertical transmission across the placenta may also occur.</listitem>
+<listitem>A study of 528 infections in 16 countries found that 98&#x0025; of persons were gay or bisexual, and for 95&#x0025; sexual activity was the likely mechanism for transmission.<xref ref="pubmed35866746" resource="acc006" /></listitem>
+<listitem>The strain circulating in the 2022 global outbreak was from clade 3 that initially caused an outbreak in Nigeria which causes less severe disease than clade 1.<xref ref="pubmed35750157" resource="acc002" /></listitem>
+<listitem>The incubation period is typically 3 to 17 days. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/clinical-recognition.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;clinical-recognition.html</resourceLink>)</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Men who have sex with men</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Multiple sexual partners, especially recently</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of sexually transmitted infection</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed35952705" resource="acc001" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Two vaccines are available. Jynneos is a live, replication incompetent vaccinia virus vaccine given as 2 doses 4 weeks apart. It is preferred over ACAM2000&#x00AE; which is a live, replication competent vaccinia virus originally developed for smallpox. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed35763248" resource="acc003" /></listitem>
+<listitem><resourceLink href="https://www.cdc.gov/poxvirus/mpox/cases-data/JYNNEOS-vaccine-effectiveness.html">Preliminary data from CDC</resourceLink> conclude that full vaccination with 2 doses of the Jynneos vaccine is 69&#x0025; effective in preventing medically attended mpox disease, and 37&#x0025; effective if only a single dose is received. This was confirmed in a published case-control study that found 66&#x0025; effectiveness (95&#x0025; CI 47&#x0025; to 78&#x0025;) for the JYNNEOS vaccine.<xref ref="pubmed37199451" resource="acc007" /></listitem>
+<listitem>Effectiveness was confirmed in a test-negative case-control study in Canada that found 30&#x0025; to 65&#x0025; effectiveness depending on risk factor adjustment.<xref ref="pubmed37769158" resource="acc013" /></listitem>
+<listitem>An FDA <resourceLink href="https://www.fda.gov/news-events/press-announcements/monkeypox-update-fda-authorizes-emergency-use-jynneos-vaccine-increase-vaccine-supply">emergency use authorization</resourceLink> allows administration of Jynneos intradermally at one-fifth the normal dose due to a shortage of vaccine in August, 2022. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Vaccination is recommended by the CDC for close contacts of someone diagnosed with mpox and those at high risk for mpox. The latter includes people with multiple sexual partners or practicing group sex, sex at a sex club or bathhouse, or sex anywhere where mpox transmission is occurring. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed35679181" resource="acc004" /></listitem>
+<listitem>For persons with contraindications to vaccination, vaccinia immune globulin given IV is an option. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/treatment.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;treatment.html</resourceLink>)</listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect mpox in a patient with characteristic rash, fever, and flu-like symptoms when the disease is circulating in a population. In the most recent outbreak (2022), it was most likely in men who have sex with men. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The recommended diagnostic test is PCR for mpox (non-variola) <em>Orthopoxvirus</em>, obtaining 2 swabs from each of 2 to 3 lesions using sterile synthetic swabs (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/prep-collection-specimens.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;prep-collection-specimens.html</resourceLink>). <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Smallpox</Differential_Name>
+<Differential_Features>Absence of lymphadenopathy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chickenpox</Differential_Name>
+<Differential_Features>Absence of lymphadenopathy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Measles</Differential_Name>
+<Differential_Features>Morbilliform rash</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacterial skin infections</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Molluscum contagiosa</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>CDC criteria for probable case: No suspicion of other recent <em>Orthopoxvirus</em> exposure (e.g., <em>Vaccinia virus</em> in ACAM2000 vaccination) AND demonstration of the presence of <list style="bulleted">
+<listitem><em>Orthopoxvirus</em> DNA by PCR of a clinical specimen OR</listitem>
+<listitem><em>Orthopoxvirus</em> using immunohistochemical or electron microscopy testing methods OR</listitem>
+<listitem>Demonstration of detectable levels of anti-<em>Orthopoxvirus</em> IgM antibody during the period of 4 to 56 days after rash onset. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/case-definition.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;case-definition.html</resourceLink>)</listitem>
+</list></listitem>
+<listitem>CDC criteria for confirmed case: Demonstration of the presence of mpox virus DNA by PCR testing or next-generation sequencing of a clinical specimen OR isolation of mpox virus in culture from a clinical specimen.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>In a series of 181 Spanish patients with mpox, 97&#x0025; were men and 92&#x0025; were men who have sex with men. Symptoms included flu-like illness (81&#x0025;), fever (72&#x0025;), headache (53&#x0025;), and sore throat (36&#x0025;). Approximately half of patients reported that these symptoms preceded onset of the rash.<xref ref="pubmed35952705" resource="acc001" /></listitem>
+<listitem>In a series of 1007 US patients, rash (100&#x0025;), fever (63&#x0025;), chills (59&#x0025;), lymphadenopathy (58&#x0025;), fatigue or malaise (57&#x0025;), myalgias (55&#x0025;), and headache (51&#x0025;) were the most common symptoms. Rectal pain was present in 22&#x0025; and blood or pus in the stools for 21&#x0025;. The rash was present on the genitals (46&#x0025;), arms (40&#x0025;), face (38&#x0025;), legs (37&#x0025;), perianal region (31&#x0025;), oral mucosa (25&#x0025;), on the palms (22&#x0025;) and on the trunk (22&#x0025;).<xref ref="pubmed35951487" resource="acc005" /></listitem>
+<listitem>In another series of 528 infections in 16 countries, rash (95&#x0025;), anogenital lesions (73&#x0025;) and mucosal lesions (41&#x0025;) were common. Fever (62&#x0025;), lethargy (41&#x0025;), myalgias (31&#x0025;), and headache (27&#x0025;) were also common. Most patients had lymphadenopathy.<xref ref="pubmed35866746" resource="acc006" /></listitem>
+<listitem>Myalgias and respiratory symptoms are also reported, including a flu-like prodrome. For patients with a flu-like prodromal illness, the rash typically appears 1 to 4 days later. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/clinical-recognition.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;clinical-recognition.html</resourceLink>)</listitem>
+<listitem>The characteristic lesions are firm&#x002F;rubbery, well circumscribed, and may develop umbilication. Most patients (80&#x0025;) reported between 3 and 20 lesions; 90&#x0025; reported pustular lesions, 26&#x0025; vesicular lesions, and 21&#x0025; papular lesions. Location of lesions included hands and feet (60&#x0025;), trunk and extremities (57&#x0025;), genital (55&#x0025;), perianal (36&#x0025;), perioral (28&#x0025;) and oral ulcer (25&#x0025;).<xref ref="pubmed35952705" resource="acc001" />. See representative images in <xref ref="fig001 fig002 fig003 fig004 fig005 fig006">Figures 1-6</xref>.</listitem>
+<listitem>The usual progression is from initial macules (1-2 days), moving to to raised papules (1-2 days), subsequentlyto vesicles with clear fluid (1-2 days) and finally to pustules (5-7 days) that may become pedunculated. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/clinical-recognition.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;clinical-recognition.html</resourceLink>)</listitem>
+<listitem>Inguinal lymphadenopathy was present in 61&#x0025; and cervical lymphadenopathy in 29&#x0025;.<xref ref="pubmed35952705" resource="acc001" /></listitem>
+<listitem>Complications include proctitis (25&#x0025;), tonsillitis (10&#x0025;), and penile edema (8&#x0025;).<xref ref="pubmed35952705" resource="acc001" /></listitem>
+<listitem>Purulent or bloody stools, rectal bleeding, and rectal pain are typical of the 2022 outbreak.</listitem>
+<listitem>The usual duration of illness is 2 to 4 weeks. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/clinical-recognition.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;clinical-recognition.html</resourceLink>)</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>The recommended diagnostic test is PCR for mpox (non-variola) orthopoxvirus.</listitem>
+<listitem>CDC recommends obtaining 2 swabs from each of 2 to 3 lesions using sterile synthetic swabs. It is not necessary to unroof the lesion before swabbing. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/prep-collection-specimens.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;prep-collection-specimens.html</resourceLink>)</listitem>
+<listitem>One study of 528 infected persons found that 29&#x0025; had a concomitant sexually transmitted infection, so routine testing is advised.<xref ref="pubmed35866746" resource="acc006" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect mpox in a patient with characteristic rash, fever, and flu-like symptoms when the disease is circulating in a population. In the most recent outbreak in 2022, it was most likely in men who have sex with men.</listitem>
+<listitem>Obtain samples using a sterile synthetic swab from 2 to 3 lesions for PCR analysis.</listitem>
+<listitem>Evaluate the severity of illness and risk factors for severe illness when assessing the need for tecovirimat.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Care is primarily supportive with most patients experiencing a relatively mild illness. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The CDC recommends tecovirimat for patients with severe disease requiring hospitalization, young children, immunocompromised patients including those with HIV without viral suppression; women who are pregnant or breastfeeding; and patients with complications such as pneumonia, cellulitis, or severe gastroenteritis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Initial RCTs however in a range of patients with mpox have not found a clear benefit to tecovirimat.<xref ref="pubmed40239067" resource="acc012" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Tecovirimat (TPOXX) was developed to treat smallpox, but it has been shown to be effective in animal studies. It is generally well tolerated without serious side effects. It is available in a 200 mg oral capsule and also for IV administration.</listitem>
+<listitem>However, a randomized placebo-controlled trial of 597 patients in the Democratic Republic of Congo who had clade I mpox found no reduction in days to lesion resolution with tecovirimat.<xref ref="pubmed40239067" resource="acc012" /></listitem>
+<listitem>A retrospective cohort study during the 2022 outbreak also found that patients with and without HIV disease had similar outcomes when given tecovirimat.<xref ref="pubmed37126820" resource="acc010" /></listitem>
+<listitem>As of 2026, the CDC site still recommends tecovirimat for patients with severe disease requiring hospitalization; young children; immunocompromised patients including HIV without viral suppression; persons who are pregnant or breastfeeding; and patients with complications such as pneumonia, cellulitis, or severe gastroenteritis. However, the drug has not been studied in pregnant or breastfeeding persons.</listitem>
+<listitem>If considered for patients with severe disease, tecovirimat is dosed at 600 mg three times daily for persons weighing &gt;&#x003D; 120 kg; 600 mg twice daily for persons weighing 40 to 120 kg; 400 mg twice daily for children 25 to 39.9 kg; and 200 mg twice daily for children weighing 13 to 24.9 kg. The drug is given for 14 days.</listitem>
+<listitem>Brincidofovir (Tembexa) is approved for treatment of smallpox and has been shown in animal studies to have activity against other <em>Orthopoxviruses</em>. (<resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/clinicians/treatment.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;clinicians&#x002F;treatment.html</resourceLink>)</listitem>
+<listitem>Case reports of using cidofovir in patients with comorbid HIV disease have been published with good reported efficacy. More study is needed.<xref ref="pubmed38055229" resource="acc009" /><xref ref="pubmed36773621" resource="acc008" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Supportive care includes adequate hydration and nutrition, and monitoring for complications such as secondary bacterial skin infections.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Most patients have self-limited disease that lasts 2 to 4 weeks. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Mpox has historically been reported to have a mortality rate of 3&#x0025; to 6&#x0025;. However, in the 2022 global outbreak, there have been 5 deaths in 18,000 cases (0.03&#x0025;). This may be due to it being clade 3, which causes less severe disease, to better disease ascertainment and reporting of mild cases, and to the availability of treatments such as tecovirimat. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed35952705">
+<accessionId id="acc001" href="info:pmid/35952705" />
+<authors>Eloy Jos&#x00E9; Tar&#x00ED;n-Vicente, Andrea Alemany, Manuel Agud-Dios, Maria Ubals, Clara Su&#x00F1;er, Andr&#x00E9;s Ant&#x00F3;n, Maider Arando, Jorge Arroyo-Andr&#x00E9;s, Lorena Calder&#x00F3;n-Lozano, Cristina Casa&#x00F1;, Jos&#x00E9; Miguel Cabrera, Pep Coll, Vicente Descalzo, Mar&#x00ED;a Dolores Folgueira, Jorge N Garc&#x00ED;a-P&#x00E9;rez, Elena Gil-Cruz, Borja Gonz&#x00E1;lez-Rodr&#x00ED;guez, Christian Guti&#x00E9;rrez-Collar, &#x00C1;gueda Hern&#x00E1;ndez-Rodr&#x00ED;guez, Paula L&#x00F3;pez-Roa, Mar&#x00ED;a de Los &#x00C1;ngeles Mel&#x00E9;ndez, Julia Montero-Men&#x00E1;rguez, Irene Mu&#x00F1;oz-Gallego, Sara Isabel Palencia-P&#x00E9;rez, Roger Paredes, Alfredo P&#x00E9;rez-Rivilla, Mar&#x00ED;a Pi&#x00F1;ana, Nuria Prat, A&#x00ED;da Ramirez, &#x00C1;ngel Rivero, Carmen Alejandra Rubio-Mu&#x00F1;iz, Mart&#x00ED; Vall, Kevin Stephen Acosta-Vel&#x00E1;squez, An Wang, Cristina Galv&#x00E1;n-Casas, Michael Marks, Pablo L Ortiz-Romero, Oriol Mitj&#x00E0;.</authors>
+<title>Clinical presentation and virological assessment of confirmed human monkeypox virus cases in Spain: a prospective observational cohort study.</title>
+<source>Lancet.</source>
+<pubdate>2022</pubdate>
+<volume>400</volume>
+<pages>661&#x2013;669.</pages>
+</reference>
+<reference id="pubmed35750157">
+<accessionId id="acc002" href="info:pmid/35750157" />
+<authors>Joana Isidro, V&#x00ED;tor Borges, Miguel Pinto, Daniel Sobral, Jo&#x00E3;o Dourado Santos, Alexandra Nunes, Ver&#x00F3;nica Mix&#x00E3;o, Rita Ferreira, Daniela Santos, Silvia Duarte, Lu&#x00ED;s Vieira, Maria Jos&#x00E9; Borrego, Sofia N&#x00FA;ncio, Isabel Lopes de Carvalho, Ana Pelerito, Rita Cordeiro, Jo&#x00E3;o Paulo Gomes.</authors>
+<title>Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus.</title>
+<source>Nat Med.</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>1569&#x2013;1572.</pages>
+</reference>
+<reference id="pubmed35763248">
+<accessionId id="acc003" href="info:pmid/35763248" />
+<authors>John G Rizk, Giuseppe Lippi, Brandon M Henry, Donald N Forthal, Youssef Rizk.</authors>
+<title>Prevention and Treatment of Monkeypox.</title>
+<source>Drugs.</source>
+<pubdate>2022</pubdate>
+<volume>82</volume>
+<pages>957&#x2013;963.</pages>
+</reference>
+<reference id="pubmed35679181">
+<accessionId id="acc004" href="info:pmid/35679181" />
+<authors>Faisal S Minhaj, Yasmin P Ogale, Florence Whitehill, Jordan Schultz, Mary Foote, Whitni Davidson, Christine M Hughes, Kimberly Wilkins, Laura Bachmann, Ryan Chatelain, Marisa A P Donnelly, Rafael Mendoza, Barbara L Downes, Mellisa Roskosky, Meghan Barnes, Glen R Gallagher, Nesli Basgoz, Victoria Ruiz, Nang Thu Thu Kyaw, Amanda Feldpausch, Amy Valderrama, Francisco Alvarado-Ramy, Chad H Dowell, Catherine C Chow, Yu Li, Laura Quilter, John Brooks, Demetre C Daskalakis, R Paul McClung, Brett W Petersen, Inger Damon, Christina Hutson, Jennifer McQuiston, Agam K Rao, Ermias Belay, Andrea M McCollum; Monkeypox Response Team 2022.</authors>
+<title>Monkeypox Outbreak - Nine States, May 2022.</title>
+<source>MMWR Morb Mortal Wkly Rep.</source>
+<pubdate>2022</pubdate>
+<volume>71</volume>
+<pages>764&#x2013;769.</pages>
+</reference>
+<reference id="pubmed35951487">
+<accessionId id="acc005" href="info:pmid/35951487" />
+<authors>David Philpott, Christine M Hughes, Karen A Alroy, Janna L Kerins, Jessica Pavlick, Lenore Asbel, Addie Crawley, Alexandra P Newman, Hillary Spencer, Amanda Feldpausch, Kelly Cogswell, Kenneth R Davis, Jinlene Chen, Tiffany Henderson, Katherine Murphy, Meghan Barnes, Brandi Hopkins, Mary-Margaret A Fill, Anil T Mangla, Dana Perella, Arti Barnes, Scott Hughes, Jayne Griffith, Abby L Berns, Lauren Milroy, Haley Blake, Maria M Sievers, Melissa Marzan-Rodriguez, Marco Tori, Stephanie R Black, Erik Kopping, Irene Ruberto, Angela Maxted, Anuj Sharma, Kara Tarter, Sydney A Jones, Brooklyn White, Ryan Chatelain, Mia Russo, Sarah Gillani, Ethan Bornstein, Stephen L White, Shannon A Johnson, Emma Ortega, Lori Saathoff-Huber, Anam Syed, Aprielle Wills, Bridget J Anderson, Alexandra M Oster, Athalia Christie, Jennifer McQuiston, Andrea M McCollum, Agam K Rao, Mar&#x00ED;a E Negr&#x00F3;n; CDC Multinational Monkeypox Response Team.</authors>
+<title>Epidemiologic and Clinical Characteristics of Monkeypox Cases - United States, May 17-July 22, 2022.</title>
+<source>MMWR Morb Mortal Wkly Rep.</source>
+<pubdate>2022</pubdate>
+<volume>71</volume>
+<pages>1018&#x2013;1022.</pages>
+</reference>
+<reference id="pubmed35866746">
+<accessionId id="acc006" href="info:pmid/35866746" />
+<authors>Thornhill JP, Barkati S, Walmsley S, Rockstroh J, Antinori A, Harrison LB, Palich R, Nori A, Reeves I, Habibi MS, Apea V, Boesecke C, Vandekerckhove L, Yakubovsky M, Sendagorta E, Blanco JL, Florence E, Moschese D, Maltez FM, Goorhuis A, Pourcher V, Migaud P, Noe S, Pintado C, Maggi F, Hansen AE, Hoffmann C, Lezama JI, Mussini C, Cattelan A, Makofane K, Tan D, Nozza S, Nemeth J, Klein MB, Orkin CM, SHARE-net Clinical Group.</authors>
+<title>Monkeypox Virus Infection in Humans across 16 Countries - April-June 2022.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>679&#x2013;691.</pages>
+</reference>
+<reference id="pubmed37199451">
+<accessionId id="acc007" href="info:pmid/37199451" />
+<authors>Deputy NP, Deckert J, Chard AN, Sandberg N, Moulia DL, Barkley E, Dalton AF, Sweet C, Cohn AC, Little DR, Cohen AL, Sandmann D, Payne DC, Gerhart JL, Feldstein LR.</authors>
+<title>Vaccine Effectiveness of JYNNEOS against Mpox Disease in the United States.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>2434&#x2013;2443.</pages>
+</reference>
+<reference id="pubmed36773621">
+<accessionId id="acc008" href="info:pmid/36773621" />
+<authors>Stafford A, Rimmer S, Gilchrist M, Sun K, Davies EP, Waddington CS, Chiu C, Armstrong-James D, Swaine T, Davies F, G&#x00F3;mez CHM, Kumar V, ElHaddad A, Awad Z, Smart C, Mora-Peris B, Muir D, Randell P, Peters J, Chand M, Warrell CE, Rampling T, Cooke G, Dhanji S, Campbell V, Davies C, Osman S, Abbara A.</authors>
+<title>Use of cidofovir in a patient with severe mpox and uncontrolled HIV infection.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2023</pubdate>
+<volume>23</volume>
+<pages>e218&#x2013;e226.</pages>
+</reference>
+<reference id="pubmed38055229">
+<accessionId id="acc009" href="info:pmid/38055229" />
+<authors>Buechler CR, Anderson ZJ, Kullberg SA, Miller DD, Ahiskali A, Schut R, Hylwa SA.</authors>
+<title>Successful Treatment of Recalcitrant Mpox Lesions With Intralesional Cidofovir in a Patient With HIV&#x002F;AIDS.</title>
+<source>JAMA Dermatol</source>
+<pubdate>2024</pubdate>
+<volume>160</volume>
+<pages>235&#x2013;236.</pages>
+</reference>
+<reference id="pubmed37126820">
+<accessionId id="acc010" href="info:pmid/37126820" />
+<authors>McLean J, Stoeckle K, Huang S, Berardi J, Gray B, Glesby MJ, Zucker J.</authors>
+<title>Tecovirimat Treatment of People With HIV During the 2022 Mpox Outbreak : A Retrospective Cohort Study.</title>
+<source>Ann Intern Med</source>
+<pubdate>2023</pubdate>
+<volume>176</volume>
+<pages>642&#x2013;648.</pages>
+</reference>
+<reference id="pubmed39887004">
+<accessionId id="acc011" href="info:pmid/39887004" />
+<authors>Ndembi N, Folayan MO, Komakech A, Mercy K, Tessema S, Mbala-Kingebeni P, Ngandu C, Ngongo N, Kaseya J, Abdool Karim SS.</authors>
+<title>Evolving Epidemiology of Mpox in Africa in 2024.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>666&#x2013;676.</pages>
+</reference>
+<reference id="pubmed40239067">
+<accessionId id="acc012" href="info:pmid/40239067" />
+<authors>PALM007 Writing Group, Ali R, Alonga J, Biampata JL, Kombozi Basika M, Maljkovic Berry I, Bisento N, Blum E, Bonnett T, Cone K, Crozier I, Davey R, Dilu A, Dodd LE, Gulati I, Hruby D, Ibanda A, Isse F, Kasareka SS, Kayembe G, Kojan R, Luzolo EK, Lane HC, Lawanga L, Liesenborghs L, Shosongo Lunghe C, Lula Y, Lusakibanza M, Lutete GT, Mbala-Kingebeni P, Miranda A, Mukadi-Bamuleka D, Mukendi G, Lupola PM, Muyembe-Tamfum JJ, Ndungunu R, Nganga B, Ntamabyaliro N, Nussenblatt V, Omulepu I, Omalokoho Onosomba J, Proschan M, Rubenstein K, Saknite I, Schechner A, Shaw-Saliba K, Sivahera B, Smolskis M, Tillman A, Tkaczyk E, Tshimanga C, Tshiani Mbaya O, Tshomba A, Yemba Unda Tshomba F, Vallee D, Vogel S, Weyers S.</authors>
+<title>Tecovirimat for Clade I MPXV Infection in the Democratic Republic of Congo.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>1484&#x2013;1496.</pages>
+</reference>
+<reference id="pubmed37769158">
+<accessionId id="acc013" href="info:pmid/37769158" />
+<authors>Brousseau N, Carazo S, Febriani Y, Padet L, Hegg-Deloye S, Cadieux G, Bergeron G, Fafard J, Charest H, Lambert G, Talbot D, Longtin J, Dumont-Blais A, Bastien S, Dalp&#x00E9; V, Minot PH, De Serres G, Skowronski DM.</authors>
+<title>Single-dose Effectiveness of Mpox Vaccine in Quebec, Canada: Test-negative Design With and Without Adjustment for Self-reported Exposure Risk.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2024</pubdate>
+<volume>78</volume>
+<pages>461&#x2013;469.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>193</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection. Photo source: CDC <resourceLink href="https://www.cdc.gov/poxvirus/monkeypox/symptoms.html">https:&#x002F;&#x002F;www.cdc.gov&#x002F;poxvirus&#x002F;monkeypox&#x002F;symptoms.html</resourceLink></title>
+<graphic href="eee0908-w0001.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>194</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0002.gif" />
+<cell type="start" id="cell-124">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig003">
+<meta>
+<id>195</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0003.gif" />
+<cell type="start" id="cell-125">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig004">
+<meta>
+<id>196</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0004.gif" />
+<cell type="start" id="cell-126">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig005">
+<meta>
+<id>197</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0005.gif" />
+<cell type="start" id="cell-127">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig006">
+<meta>
+<id>198</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0006.gif" />
+<cell type="start" id="cell-128">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig007">
+<meta>
+<id>199</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0007.gif" />
+<cell type="start" id="cell-129">
+<label />
+</cell>
+</algorithm>
+<algorithm id="fig008">
+<meta>
+<id>201</id>
+<supertype>AbCd</supertype>
+<last_update>2023-01-23</last_update>
+</meta>
+<title>Typical lesions of mpox infection.</title>
+<graphic href="eee0908-w0008.gif" />
+<cell type="start" id="cell-130">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

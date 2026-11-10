@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Cerebrovascular disease (chronic management)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0025</topic_id>
+<topic_comment />
+<topic_lastupdated>09/25/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Christopher D. Jackson, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of Tennessee</author_institution>
+<author_email>cjacks67&#x0040;uthsc.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Memphis</author_city>
+<author_state>TN</author_state>
+<author_zip>38163</author_zip>
+</author>
+<author primary="no">
+<author_name>Brittany M. Kasturiarachi, DO</author_name>
+<author_title>Neurology Resident Physician</author_title>
+<author_department>Department of Neurology</author_department>
+<author_institution>University of Tennessee</author_institution>
+<author_email>bkasturi&#x0040;uthsc.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Memphis</author_city>
+<author_state>TN</author_state>
+<author_zip>38163</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mehmood Rashid, MD</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Toledo College of Medicine and Life Sciences</editor_institution>
+</editor>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Augusta University &#x2013; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>The identification and treatment of hypertension is a cornerstone of the prevention and management of cerebrovascular disease (CVD).<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For the diagnosis of CVD, combined MRA and carotid duplex ultrasound is accurate and less invasive than digital subtraction angiography.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For primary prevention of stroke or transient ischemic attack (TIA), low-dose aspirin is recommended in those with vascular disease or diabetes.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For secondary prevention of stroke or TIA, antiplatelet therapy is recommended, or anticoagulation for those with atrial fibrillation.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Consider carotid endarterectomy or stenting for selected symptomatic patients with at least 70&#x0025; carotid stenosis.<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Blood pressure reduction, regardless of modality, is a cornerstone of management of CVD.<evidence rating="A" system="SORT">A</evidence><xref ref="poem100355" resource="acc001" /><xref ref="poem130505" resource="acc036" /></listitem>
+</list>
+</BottomLine>
+<definition>CVD occurs when blood supply to the brain is insufficient due to atherosclerosis, aneurysms, or clots in the vessels supplying the territories of the brain. Patients with CVD are at risk for stroke, a neurologic deficit that results from focal vascular injury. This chapter focuses on chronic management; other chapters address management of <resourceLink href="info:wiley/eep-eee/24">acute stroke</resourceLink> and <resourceLink href="info:wiley/eep-eee/26">TIA.</resourceLink>
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>A total of 610,000 new cases of stroke occur each year in the United States.<xref ref="pubmed28122885" resource="acc082" /><xref ref="pubmed16407573" resource="acc005" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The prevalence of silent cerebral infarction between the ages of 55 and 64 years is approximately 11&#x0025;. This prevalence increases to 22&#x0025; between the ages of 65 and 69 years, 28&#x0025; between the ages of 70 and 74 years, 32&#x0025; between the ages of 75 and 79 years, 40&#x0025; between the ages of 80 and 84 years, and 43&#x0025; in those older than 85 years.</listitem>
+<listitem>Applying these rates to 1998 US population estimates results in an estimated 13 million people with prevalent silent stroke.<xref ref="pubmed16407573" resource="acc005" /></listitem>
+</list>
+</prevalence>
+<economic_impact>
+<list style="bulleted">
+<listitem>There were $34 billion in costs attributable to patients who suffered a stroke.<xref ref="pubmed28122885" resource="acc082" /><xref ref="pubmed16407573" resource="acc005" /></listitem>
+</list>
+</economic_impact>
+<social_impact>
+<list style="bulleted">
+<listitem>CVD is the third leading cause of death for men and women in the United States.<xref ref="pubmed16407573" resource="acc005" /></listitem>
+<listitem>The prevalence of caregiver burden in one meta-analysis was 25&#x0025; to 54&#x0025; and remained elevated for an indefinite period following stroke.<xref ref="pubmed19689757" resource="acc004" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Uncontrolled hypertension is a major cause of CVD and stroke</listitem>
+<listitem>Diabetes</listitem>
+<listitem>Hyperlipidemia</listitem>
+<listitem>Tobacco use</listitem>
+<listitem>Atrial fibrillation</listitem>
+<listitem>In a large population-based observational study, women who used levonorgestrel-releasing IUDs were less likely to have ischemic strokes than nonusers of hormonal contraception. There was no significant association with ICH.<xref ref="poem373805" resource="acc126" /></listitem>
+<listitem>Darbepoeitin therapy for anemia in diabetic subjects with chronic kidney disease is associated with an increased risk of stroke when compared to placebo (NNT for harm &#x003D; 49 over 29 months).<xref ref="poem120102" resource="acc040" /></listitem>
+<listitem>Studies have found large increases in the likelihood of vascular events in patients hospitalized with COVID-19, including stroke, and especially if they spent time in the ICU. For cerebrovascular disease, the excess burdens per 1000 in the year following infection are 3, 20, and 31 events for nonhospitalized, hospitalized, and ICU patients, respectively.<xref ref="poem314043" resource="acc118" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Most acute stroke is ischemic rather than hemorrhagic (85&#x0025; vs 15&#x0025; respectively).</listitem>
+<listitem>Only 1 in 5 strokes is due to large artery stenosis, particulary in Caucasian and Asian patients.<xref ref="pubmed3413804" resource="acc006" /><xref ref="pubmed9804651" resource="acc007" /> Atherosclerotic plaque is largely to blame in CVD of large intracranial and extracranial vessels.</listitem>
+<listitem>Small vessel ischemic disease results from lipohyalinosis of intracerebral penetrating arteries. Lipid hyaline buildup occurs downstream in vessels secondary to systemic hypertension. Small vessel disease is a common cause of CVD in African-American patients.</listitem>
+<listitem>Other less common causes of CVD include amyloid formation, aneurysmal dilatation, and inflammation resulting from cerebral vasculitides.</listitem>
+<listitem>A common cause of embolic stroke is atrial fibrillation. Less common is paradoxical embolus from a VTE and undiagnosed patent foramen ovale (PFO).</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Hypertension (age 50)</Risk_Name>
+<Risk_OR>RR 4.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension (age 60)</Risk_Name>
+<Risk_OR>RR 3.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension (age 70)</Risk_Name>
+<Risk_OR>RR 2.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension (age 80)</Risk_Name>
+<Risk_OR>RR 1.4</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension (age 90)</Risk_Name>
+<Risk_OR>RR 1.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Atrial fibrillation (age 50-59)</Risk_Name>
+<Risk_OR>RR 4.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Atrial fibrillation (age 60-69)</Risk_Name>
+<Risk_OR>RR 2.6</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Atrial fibrillation (age 70-79)</Risk_Name>
+<Risk_OR>RR 3.3</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Atrial fibrillation (age 80-89)</Risk_Name>
+<Risk_OR>RR 4.5</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes</Risk_Name>
+<Risk_OR>RR 1.8-6.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cigarette smoking</Risk_Name>
+<Risk_OR>RR 1.8</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiovascular disease (women)</Risk_Name>
+<Risk_OR>RR 3.9</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Asymptomatic carotid stenosis</Risk_Name>
+<Risk_OR>RR 2.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hyperlipidemia</Risk_Name>
+<Risk_OR>RR 2.0</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Abdominal obesity (&lt;65 years)</Risk_Name>
+<Risk_OR>OR 4.4</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Abdominal obesity (&gt;65 years)</Risk_Name>
+<Risk_OR>OR 2.2</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiovascular disease (men)</Risk_Name>
+<Risk_OR>RR 5.8</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hyperuricemia</Risk_Name>
+<Risk_OR>RR 1.41</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Use of levonorggestrel releasing IUD (protective)</Risk_Name>
+<Risk_OR>IRR 0.78 (95&#x0025; CI 0.70-0.88)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Recent initiation of a triptan drug for migraine</Risk_Name>
+<Risk_OR>OR 3.2 (95&#x0025; CI 1.3-8.1)</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="poem373805" resource="acc126" /><xref ref="poem397653" resource="acc129" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Modifiable risk factors such as smoking, excessive alcohol consumption, and obesity should be addressed.<evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1925" resource="acc049" /></listitem>
+<listitem>Aspirin is recommended as primary prevention for stroke in those at sufficiently high risk (e.g., those with vascular disease or diabetes).<evidence rating="A" system="SORT">A</evidence><xref ref="poem80742" resource="acc008" /></listitem>
+<listitem>Treat hypertension and hyperlipidemia according to national guidelines.<evidence rating="A" system="SORT">A</evidence><xref ref="cochrane1925" resource="acc049" /></listitem>
+<listitem>The harms of screening for carotid artery disease outweigh benefits in asymptomatic patients.<evidence rating="A" system="SORT">A</evidence><xref ref="cochrane3333" resource="acc052" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>The United States Preventive Services Task Force (USPSTF) recommends against screening for asymptomatic carotid artery stenosis in the general adult population because the harms of the screening and resultant treatment outweigh the benefits of screening.<xref ref="cochrane3333" resource="acc052" /></listitem>
+<listitem>Screen adolescents and adults at least every 2 years for hypertension, tobacco use, alcohol use, and exercise.<xref ref="cochrane1925" resource="acc049" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>The AHA&#x002F;ACC guidelines have many important recommendations, useful tools, and details relevant to primary care clinicians and their consultants. The key preventive points for primary prevention of stroke are summarized below:<xref ref="pubmed39429201" resource="acc136" /><list style="bulleted">
+<listitem>Every person from birth to death should have access to a primary health care professional, who should screen for and address social determinants of health.</listitem>
+<listitem>Adults with no prior cardiovascular disease and those with high or intermediate risk should adhere to the Mediterranean diet.</listitem>
+<listitem>Screen for sedentary behavior and counsel patients to avoid being sedentary. Recommend that patients engage in regular moderate to vigorous physical activity.</listitem>
+<listitem>Patients with type 2 diabetes and high cardiovascular risk or established cardiovascular disease should receive glucagon-like protein-1 (GLP-1) receptor agonists.</listitem>
+<listitem>Patients who require pharmacologic treatment of hypertension should receive at least 2 medications.</listitem>
+<listitem>Clinicians should screen for endometriosis, premature ovarian failure, and early-onset menopause. When hormonal therapy is contemplated, use the lowest estrogenic effect possible.</listitem>
+<listitem>Transgender women who take estrogens should undergo stroke risk factor evaluation and modification.</listitem>
+</list></listitem>
+<listitem><strong>Antiplatelet agents</strong></listitem>
+<listitem>Aspirin is not recommended for prevention of an initial stroke in low-risk persons. However, the USPSTF recently reviewed primary prevention data for stroke and concluded that aspirin should be encouraged for women between the ages of 55 and 79 years when the potential benefit of a reduction in ischemic strokes outweighs the potential harm of an increase in gastrointestinal hemorrhage.<xref ref="pubmed19293072" resource="acc003" /> When the 10-year risk of cardiovascular disease is high enough (i.e., &gt;6&#x0025;-10&#x0025;), aspirin should be considered.<xref ref="cochrane1925" resource="acc049" /></listitem>
+<listitem><strong>Blood pressure, blood sugar, and lipid management</strong></listitem>
+<listitem>Control blood pressure consistent with national guidelines.<xref ref="poem130505" resource="acc036" /> Other guidelines suggest at target of &lt;150 mm Hg for patients who are older than 60 (or &lt;140 if there is a history of CVA or TIA) is more desirable.<xref ref="poem190530" resource="acc077" /> The SPRINT trial found a reduction in a composite of major adverse cardiovascular events including stroke with treatment to a target of 120 mm Hg systolic, but also harms.<xref ref="poem361975" resource="acc112" /></listitem>
+<listitem>The SPRINT trial of patients without diabetes found a reduction in a composite of major adverse cardiovascular events including stroke with treatment to a target of 120 mm Hg systolic, but also harms.<xref ref="poem361975" resource="acc112" /></listitem>
+<listitem>The BPROAD trial found that in older patients with long-term type 2 diabetes and hypertension, decreasing the SBP from 140 mmHg to 120 mmHg will decrease the incidence of CV events 20&#x0025;. Most of the decrease is due to a reduction in stroke; no other outcomes, including overall risk of death, were statistically lower despite the large number of study participants.<xref ref="poem367270" resource="acc132" /></listitem>
+<listitem>Because of the close balance between benefits and harms, the decision to pursue a lower target should be a shared one.</listitem>
+<listitem>Treating mild hypertension has been shown to decrease the risk of stroke (NNT for 5 years &#x003D; 173, although there is a large range in this estimation).<xref ref="pubmed25531552" resource="acc063" /></listitem>
+<listitem>Although tight blood sugar control is advocated, recent studies have found a lack of clinical benefit for a glycohemoglobin level of 6.5&#x0025; compared with targets of 7.5&#x0025; to 8.0&#x0025;.<xref ref="poem80742" resource="acc008" /></listitem>
+<listitem>Advocate healthy lifestyle changes, including smoking cessation, exercise, and weight loss.<xref ref="cochrane1925" resource="acc049" /></listitem>
+<listitem>Control hyperlipidemia based on national guidelines.<xref ref="poem130544" resource="acc035" /> A systematic review of 21 studies of primary and secondary prevention found that lipid lowering as primary prevention for stroke is only modestly effective, with a risk reduction of 0.3&#x0025; over 3 to 6 years (NNT &#x003D; 333 to prevent one stroke).<xref ref="poem355405" resource="acc107" /></listitem>
+<listitem>AHA&#x002F;ASA guidelines (2021) recommend that patients with stroke reduce or eliminate alcohol use.<xref ref="pubmed34024117" resource="acc105" /></listitem>
+<listitem>High sensitivity CRP testing has not been shown to predict a vascular-protective response to statin therapy in patients at high risk for stroke.<xref ref="poem130442" resource="acc037" /></listitem>
+<listitem><strong>Stroke prevention in patients with atrial fibrillation</strong> (AF)</listitem>
+<listitem>Warfarin and direct oral anticoagulant therapy is associated with a further reduction in stroke or vascular events over antiplatelet therapy in subjects with nonvalvular AF.<xref ref="cochrane6186" resource="acc050" /> Therefore, in patients with AF, a direct oral anticoagulant is recommended by 2021 AHA&#x002F;ASA guidelines for most patients. <xref ref="pubmed34024117" resource="acc105" /></listitem>
+<listitem>For example, rivaroxaban is similarly as effective as warfarin in preventing stroke in subjects with non-valvular and valvular atrial fibrillation. <xref ref="poem230129" resource="acc095" /> The oral anticoagulant edoxaban was shown to be of similar efficacy as warfarin in reducing stroke, but may have a lower bleeding risk.<xref ref="poem160202" resource="acc056" /> Direct oral anticoagulants may be associated with a lower rate of intracranial hemorrhage than warfarin.<xref ref="poem160241" resource="acc058" /> In a study of patients 80 years and older who were not felt to be candidates for full dose oral anticoagulation, they were randomized to low dose edoxaban (15 mg daily) or placebo. There was a significantly lower risk of stroke or systemic embolism with edoxaban (NNT &#x003D; 23) although there was also higher risk of GI bleeding (NNTH &#x003D; 83).<xref ref="poem221221" resource="acc096" /></listitem>
+<listitem>Taking aspirin in addition to warfarin or other oral anticoagulant for stroke prevention in atrial fibrillation is associated with increased bleeding with no clear cardiovascular benefit. This combination is not recommended by 2021 AHA&#x002F;ASA guidelines.<xref ref="pubmed34024117" resource="acc105" /> For example, in patients with stable CAD and AF, monotherapy with rivaroxaban is preferable to rivaroxaban plus a platelet inhibitor one year after PCI or bypass surgery. Not only were there fewer deaths, there were fewer hemorrhagic strokes and major bleeding events.<xref ref="poem211205" resource="acc088" /><xref ref="poem160203" resource="acc057" /></listitem>
+<listitem>Patients with subclinical atrial fibrillation (recurrent episodes lasting between 6 minutes and 24 hours) were randomized to apixaban 5 mg twice daily or aspirin 81 mg once daily. After 3.5 years, there was approximately 1 fewer ischemic stroke and 1 more major bleed for every 250 persons treated with apixaban instead of low-dose aspirin.<xref ref="poem372162" resource="acc128" /></listitem>
+<listitem><strong>Other primary prevention therapies</strong></listitem>
+<listitem>In one study, carotid endarterectomy for asymptomatic patients with carotid artery stenosis &gt;60&#x0025; is associated with a reduced risk of stroke or death (13.4&#x0025; vs 17.9&#x0025; with NNT &#x003D; 25 at 10 years).<xref ref="poem121141" resource="acc043" /></listitem>
+<listitem>For patients with asymptomatic severe carotid stenosis, the annual risk of stroke is 0.9&#x0025;.<xref ref="poem360806" resource="acc117" /></listitem>
+<listitem>Treating moderate to severe obstructive sleep apnea has not been shown to reduce the risk of cardiovascular events.<xref ref="poem181104" resource="acc073" /></listitem>
+<listitem>Use of GLP1 receptor agonists in patients with established vascular disease or at very high risk for cardiovascular disease resulted in a 15&#x0025; relative risk reduction in non-fatal stroke.<xref ref="poem369784" resource="acc131" /><xref ref="pubmed31813360" resource="acc090" /></listitem>
+<listitem>Surgical closure of the left atrial appendage during cardiac surgery for another reason safely reduced the risk of ischemic stroke (number needed to treat [NNT] &#x003D; 43 over 4 years). Since the risk of stroke in the first 30 days after any cardiac surgery is approximately 2&#x0025;, and the absolute reduction in the risk of stroke with the procedure was only approximately 2&#x0025;, it wouldn't seem wise to perform this procedure in patients who are not already undergoing cardiac surgery.<xref ref="poem398810" resource="acc115" /></listitem>
+<listitem>Exercise including incidental activity or exercise is strongly associated with reductions in the risk of CV events including stroke.<xref ref="poem361694" resource="acc133" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>See "Drug therapy" section for a discussion of the prevention of stroke in patients with known CVD or previous stroke or TIA.</listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect CVD in patients with a history of transient neurologic symptoms, visual disturbances, fluctuating mental status, seizure, or speech difficulties.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>In patients who are symptomatic, use of CT angiography or combined MRA and carotid duplex ultrasound is accurate and less invasive than digital subtraction angiography.<evidence rating="C" system="SORT">C</evidence><xref ref="test364" resource="acc009" /></listitem>
+<listitem>Neuroimaging is necessary to determine whether a suspected stroke is ischemic versus hemorrhagic in etiology.<xref ref="poem120821" resource="acc047" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Migraine</Differential_Name>
+<Differential_Features>Head pain, sensory, and visual disturbances prominent</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Head trauma</Differential_Name>
+<Differential_Features>Diagnosed by history</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Tumor</Differential_Name>
+<Differential_Features>Symptoms of increased intracranial pressure may be present; may also present with hemorrhage or seizure</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Systemic infection</Differential_Name>
+<Differential_Features>Fever, leukocytosis, and hypotension may be apparent</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Syncope</Differential_Name>
+<Differential_Features>An abrupt loss of consciousness accompanies loss of postural tone with prompt recovery to baseline</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Metabolic disturbance</Differential_Name>
+<Differential_Features>Often fluctuating mental status with no focal neurologic deficits</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Seizure or postictal state</Differential_Name>
+<Differential_Features>History may reveal evidence of tonic-clonic, repetitive convulsive activity at onset of symptoms</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Psychiatric disease</Differential_Name>
+<Differential_Features>May present with disordered speech but no change in alertness; conversion disorder may present with focal neurologic findings</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Toxic ingestion</Differential_Name>
+<Differential_Features>May be revealed in history</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect CVD in patients with a history of transient neurologic symptoms, visual disturbances, fluctuating mental status, seizure, or speech difficulties.</listitem>
+<listitem>Auscultation of the carotids to evaluate for carotid stenosis is of limited sensitivity and specificity. An <resourceLink href="info:wiley/eep-hp/8">ipsilateral focal bruit</resourceLink> is the most sensitive finding for high-grade stenosis.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Options for diagnosing carotid stenosis include <resourceLink href="info:wiley/eep-dx/364">Doppler ultrasound, computed tomography angiography (CTA), MRA, and contrast-enhanced MRA</resourceLink>.</listitem>
+<listitem>Digital subtraction angiography is generally considered the gold standard to evaluate carotid stenosis. However, in symptomatic patients suspected of having carotid stenosis, combined MRA and carotid duplex ultrasound are accurate and less invasive.<xref ref="poem80742" resource="acc008" />For most patients, ultrasound is an appropriate initial study because of its lower cost, with MRA or digital subtraction angiography reserved for patients who are surgical candidates, or when the ultrasound is equivocal.<xref ref="poem50862" resource="acc010" /> The <resourceLink href="info:wiley/eep-dx/364">combination of MRA and Doppler ultrasound</resourceLink> is particularly accurate.<xref ref="poem41166" resource="acc011" /></listitem>
+<listitem>American College of Radiology guidelines recommend Doppler ultrasound, CTA, or MRA as equally appropriate for asymptomatic patients with bruit. For patients with carotid or vertebrobasilar TIA or new focal neurologic deficit, MRI brain, CT head, or MRA head and neck (all with or without contrast) are equally appropriate.<xref ref="cochrane187" resource="acc051" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The benefit of carotid endarterectomy for patients with CVD can be predicted using a <resourceLink href="info:wiley/eep-rule/35">validated clinical decision rule</resourceLink> from the European Carotid Surgery Trialist's Collaborative Group.</listitem>
+<listitem>The <resourceLink href="info:wiley/eep-rule/423">CHAD2DS2-VASc score</resourceLink> helps to predict a risk of stroke even in heart failure patient without known atrial fibrillation. <xref ref="pubmed26318604" resource="acc064" /></listitem>
+<listitem>Use <resourceLink href="info:wiley/eep-rule/218">evidence-based protocols</resourceLink> for the initiation of warfarin and for direct oral anticoagulants (DOACs), including in <resourceLink href="info:wiley/eep-rule/316">elderly patients</resourceLink>.</listitem>
+<listitem>The risk of stroke in patients with AF can be estimated using validated data from the <resourceLink href="info:wiley/eep-rule/247">Framingham study</resourceLink>, the <resourceLink href="info:wiley/eep-rule/363">SPAF score</resourceLink>, or the <resourceLink href="info:wiley/eep-rule/612">CHADS2 rule</resourceLink>. A clinical rule for predicting <resourceLink href="info:wiley/eep-rule/145">5-year</resourceLink> risk of stroke in the elderly also exists.<xref ref="rule363" resource="acc012" /><xref ref="rule612" resource="acc101" /></listitem>
+<listitem>The risk of stroke immediately following TIA can be estimated using the well-validated <resourceLink href="info:wiley/eep-rule/335">ABCD rule</resourceLink>. This can help guide the urgency of evaluation, although acute neuroimaging is recommended by recent guidelines for patients with TIA.<xref ref="pubmed19423857" resource="acc103" /><xref ref="pubmed18477843" resource="acc102" /></listitem>
+<listitem>In patients with atrial fibrillation, the ABC risk score based on age, cardiac troponin, C-reactive protein, and history of stroke also predicts the risk of stroke.<xref ref="poem180722" resource="acc075" /></listitem>
+<listitem>Data from the United Kingdom Prospective Diabetes Study were used to create a rule for estimating the <resourceLink href="info:wiley/eep-rule/211">risk of stroke in patients with diabetes</resourceLink>.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>If AF is suspected, evaluate the patient for cardioembolic source. If that is normal, evaluate for extracranial disease by carotid ultrasound and MRI&#x002F;MRA of brain.</listitem>
+<listitem>If carotid stenosis is greater than 70&#x0025;, strongly consider referral for carotid endarterectomy.</listitem>
+<listitem>Endovascular stenting of the carotids is also an option for symptomatic carotid stenosis of 70&#x0025; or more.<xref ref="poem121142" resource="acc042" /></listitem>
+<listitem>Maximize medical therapy for hypertension, hyperlipidemia, and diabetes mellitus. Address smoking, exercise, and obesity.</listitem>
+<listitem>Prescribe antithrombotics (for most patients: clopidogrel or aspirin plus extended-release dipyridamole).</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>8</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>35</Dx_ID>
+<Dx_ID>88</Dx_ID>
+<Dx_ID>364</Dx_ID>
+<Dx_ID>307</Dx_ID>
+<Dx_ID>365</Dx_ID>
+<Dx_ID>366</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Blood pressure reduction, regardless of modality, is a cornerstone of management of CVD.<evidence rating="A" system="SORT">A</evidence><xref ref="poem100355" resource="acc001" /><xref ref="poem130505" resource="acc036" /></listitem>
+<listitem>ACC&#x002F;AHA guidelines recommend that aspirin and clopidogrel be considered for initiation within 24 hours of high risk TIA (<resourceLink href="info:wiley/eep-rule/410">ABCD2 score</resourceLink> &gt;&#x003D; 4) or acute minor stroke (NIHSS &lt;&#x003D; 3) and continued for up to 21 to 30 days.<xref ref="pubmed34024117" resource="acc105" /><xref ref="pubmed24788967" resource="acc087" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Aspirin, aspirin plus dipyridamole, and clopidogrel are options for the prevention of recurrent stroke; the latter two options are slightly more effective than aspirin alone. The combination of aspirin plus clopidogrel may reduce the risk of ischemic stroke in the short-term, but with a higher bleeding risk.<xref ref="pubmed25547900" resource="acc071" /><evidence rating="A" system="SORT">A</evidence><xref ref="poem40452" resource="acc019" /></listitem>
+<listitem>Patients with atrial fibrillation and history of stroke should be anticoagulated with a DOA or warfarin; if contraindicated consider an anti-platelet agent.<xref ref="pubmed24788967" resource="acc087" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Consider carotid endarterectomy or carotid stenting for symptomatic patients with at least 70&#x0025; carotid stenosis.<evidence rating="A" system="SORT">A</evidence><xref ref="cochrane1081" resource="acc021" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Patients with recent TIA or minor stroke</strong></listitem>
+<listitem>ACC&#x002F;AHA guidelines (2021) recommend that patients with high risk TIA (<resourceLink href="info:wiley/eep-rule/410">ABCD2 score</resourceLink> &gt;&#x003D; 4 points) or early minor stroke (NIHSS &lt;&#x003D; 3 points) should receive dual antiplatelet therapy (e.g. aspirin + clopidogrel) for 21 to 30 days. All other patients should receive a single antiplatelet agent, such as low dose aspirin alone.<xref ref="rule410" resource="acc106" /><xref ref="pubmed34024117" resource="acc105" /></listitem>
+<listitem>A network meta-analysis of 9 studies with 22,098 patients comparing DAPT with ticagrelor, DAPT with aspirin, and aspirin alone for patients with minor stroke or TIA found fewer strokes and deaths with either DAPT, but also more hemorrhage with ticagrelor based DAPT than with clopidogrel based DAPT.<xref ref="poem391718" resource="acc109" /></listitem>
+<listitem>A meta-analysis also concluded that DAPT provided generally greater net benefit for patients with minor stroke or TIA, but that the benefit was no greater with treatment longer than 21 to 30 days.<xref ref="poem310673" resource="acc110" /> This was also supported by a more limited meta-analysis of only 4 studies.<xref ref="poem369278" resource="acc111" /></listitem>
+<listitem>The largest individual trial is the THALES trial that randomized 11,016 with high risk TIA or minor ischemic stroke to ticagrelor + aspirin or aspirin alone. The NNT to prevent one stroke in the next 30 days was 68, and for the composite of fatal or disabling stroke the NNT was 133. Severe bleeding occurred slightly more often with DAPT (NNT &#x003D; 922).<xref ref="poem343312" resource="acc113" /></listitem>
+<listitem><strong>Anticoagulation and antiplatelet therapy: stroke and non-valvular atrial fibrillation</strong></listitem>
+<listitem>Patients with AF or cardioembolic stroke should be anticoagulated using a direct oral anticoagulant (DOA); aspirin is an alternative, if anticoagulation with a DOA is contraindicated.<xref ref="poem151041" resource="acc054" /></listitem>
+<listitem>If warfarin is chosen, home monitoring of warfarin therapy is not superior to clinic-based testing, but is associated with greater quality of life and satisfaction measures.<xref ref="poem121201" resource="acc048" /></listitem>
+<listitem>Darbigatran is an oral direct thrombin inhibitor that may be slightly more effective than warfarin in preventing stroke among patients with AF, but the benefit may be offset by significantly higher drug costs.<xref ref="poem111102" resource="acc041" /> In addition, dabigatran therapy may be associated with a slightly higher of acute coronary events. Other novel oral anticoagulants perform similarly to warfarin in reducing stroke from atrial fibrillation.<xref ref="poem160541" resource="acc059" /></listitem>
+<listitem>In an observational cohort study of older patients with atrial fibrillation and a recent stroke, treatment with a DOA was associated with more days alive and not in a hospital or skilled nursing facility, and fewer major adverse cardiovascular events. Patients treated with DOAs also had fewer subsequent deaths and fewer readmissions. <xref ref="poem211210" resource="acc094" /></listitem>
+<listitem>Adding aspirin in addition to oral anticoagulants is not recommended by AHA&#x002F;ASA 2021 guidelines.<xref ref="pubmed34024117" resource="acc105" /> It is associated with an increased risk of bleeding without clear benefit. (The exception may be in the setting of mechanical heart valves).<xref ref="poem160203" resource="acc057" /></listitem>
+<listitem>The risks and benefits of novel oral anticoagulants are not necessarily different in patients greater than 75 years old when compared to the general population.<xref ref="poem180203" resource="acc066" /></listitem>
+<listitem><strong>Anticoagulation and anti-platelet therapy: ischemic (noncardioembolic) stroke</strong></listitem>
+<listitem>For patients with acute ischemic stroke and atrial fibrillation, a meta-analysis concluded that early initiation of DOACs leads to better outcomes, including fewer subsequent strokes and no increase in the risk of intracranial bleeds. For the primary composite outcome of recurrent ischemic stroke, symptomatic intracerebral hemorrhage (ICH), or unclassified stroke at 30 days, the early DOAC group fared better than the later group (2.1&#x0025; vs 3.0&#x0025;; p &lt; 0.05, NNT &#x003D; 111). For individual outcomes, early DOAC initiation decreased the risk of recurrent ischemic stroke (1.7&#x0025; vs 2.6&#x0025;; P &#x003D; .029, NNT &#x003D; 111) without increasing the risk of symptomatic ICH (0.4&#x0025; in both arms).<xref ref="pubmed40570866" resource="acc135" /></listitem>
+<listitem>In patients with prior noncardioembolic stroke or TIA, antiplatelet therapy with aspirin, clopidogrel, or aspirin with extended-release dipyridamole (APERD) is recommended and can reduce the risk of nonfatal stroke by 28&#x0025; and fatal stroke by 16&#x0025;.<xref ref="poem40452" resource="acc019" /> APERD and clopidogrel are somewhat more effective than aspirin alone, but a decision to use them should include a careful assessment of cost, benefit, and harm.<xref ref="poem151041" resource="acc054" /> In patients with minor stroke or TIA, adding clopidogrel to aspiring decreases recurrence if started within 24 hours of symptoms.<xref ref="poem150901" resource="acc055" /></listitem>
+<listitem>An individual patient data meta-analysis of 7 trials with 28,982 patients found that clopidogrel was slightly more effective than aspirin for secondary prevention of death, MI or stroke. Using intention-to-treat analysis, the authors report that the overall rate of MACE was lower in the clopidogrel-treated participants (2.6 vs 2.99 per 100 person-years; NNT &#x003D; 257) and they found no significant difference in the rate of major bleeding (0.71 vs 0.77 per 100 person-years).<xref ref="pubmed40902613" resource="acc134" /></listitem>
+<listitem>Two trials reported a benefit of adding clopidogrel to aspirin to reduce the likelihood of ischemic stroke.<xref ref="pubmed25957224" resource="acc062" /><xref ref="poem200911" resource="acc080" /> However, a meta-analysis does not confirm a benefit to long-term combination therapy, and bleeding risk is significantly increased compared with monotherapy.<xref ref="pubmed25547900" resource="acc071" /> The most recent AHA&#x002F;ASA guidelines only recommend clopidogrel + aspirin for patients to prevent recurrent stroke in patients without atrial fibrillation for the first 90 days after stroke.<xref ref="pubmed24788967" resource="acc087" /></listitem>
+<listitem>A large randomized controlled trial (the PROFESS trial) randomized 20,332 patients older than 55 years with recent ischemic stroke to receive APERD or clopidogrel and followed them up for 2.5 years. There was no difference in mortality, myocardial infarction, vascular death, or stroke. Major bleeding complications were more common with APERD, and patients taking APERD had more headaches and were more likely to discontinue the study medication.<xref ref="poem101103" resource="acc022" /></listitem>
+<listitem>Ticagrelor has not been shown to be superior to aspirin in the prevention of recurrent stroke following ischemic stroke or TIA.<xref ref="pubmed27160892" resource="acc076" /></listitem>
+<listitem>For patients presenting with mild-to-moderate acute nonembolic ischemic stroke, treatment with ticagrelor plus aspirin for 30 days resulted in fewer subsequent strokes, but similar overall disability and an increase in severe bleeding, than with aspirin alone (NNT to prevent one stroke or death &#x003D; 92; NNH to cause one episode of severe bleeding &#x003D; 263).<xref ref="poem220910" resource="acc091" /></listitem>
+<listitem>For patients with mild-to-moderate acute non-embolic ischemic stroke or TIA and significant ipsilateral atherosclerotic stenosis &gt;30&#x0025;, treatment with ticagrelor plus aspirin resulted in reduced time to occurence of stroke or death in 30 days, with a NNT of 34.<xref ref="pubmed33198608" resource="acc097" /></listitem>
+<listitem>Anticoagulant therapy offers no additional benefit for patients without NVAF and carries a significant bleeding risk.<xref ref="poem40207" resource="acc023" /> This appears to be true for patients with a history of TIA and prior stroke of presumed arterial origin. Low-dose aspirin is as effective as high-dose aspirin and minimizes risk of gastrointestinal bleeding.</listitem>
+<listitem>Extended-release dipyridamole plus low-dose aspirin (Aggrenox) reduces the risk of recurrent stroke by an additional 19&#x0025; compared with aspirin alone in patients with a previous ischemic stroke.<xref ref="pubmed8981292" resource="acc024" /> Notably, a mortality benefit for subjects with vascular disease using dipyridamole has not been demonstrated.<xref ref="poem151041" resource="acc054" /> Similarly, clopidogrel alone is slightly more effective than aspirin in patients with prior stroke, TIA, or with other vascular risk factors.<xref ref="pubmed8918275" resource="acc025" /></listitem>
+<listitem>A meta-analysis of cilostazol (Pletal, an antiplatelet agent that inhibits phosphodiesterase III in platelets and vascular endothelium) versus placebo demonstrated a significant decrease of incidence of cerebrovascular events in the treatment group (RR, 0.58; 95&#x0025; CI, 0.43-0.78) with no increase in bleeding risk. The role of this drug has not been established for patients who are able to take other oral antiplatelet drugs.<xref ref="pubmed19900653" resource="acc002" /></listitem>
+<listitem>Vorapaxar is a platelet PAR-1 receptor blocker that decreases the likelihood of recurrent atherothrombotic events (NNT &#x003D; 83 over 30 months), but at an increased risk of bleeding (NNTH &#x003D; 59) and intracerebral hemorrhage (NNTH &#x003D; 200), especially in patients with prior stroke.</listitem>
+<listitem>Ticlopidine has been associated with neutropenia and thrombotic thrombocytopenic purpura, and is therefore rarely used.</listitem>
+<listitem>In a randomized trial with 2013 patients, early initiation of a direct oral anticoagulant following ischemic stroke associated with atrial fibrillation was found to be safe and reduced the risk of recurrent stroke. In the early initiation group, DOACs were started within 48 hours of stroke onset for patients with minor or moderate strokes, and on day 6 or 7 after major stroke.<xref ref="poem308906" resource="acc120" /></listitem>
+<listitem>A meta-analysis of 43 studies including 9 RCTs compared different interventions for patients 80 years and older with atrial fibrillation. They found that direct oral anticoagulants were slightly more effective than warfarin and other vitamin K antagonists for prevention of stroke or systemic embolism (NNT19 to 22 versus 23). Edoxaban and apixaban had the most favorable net benefit.<xref ref="poem310259" resource="acc121" /></listitem>
+<listitem><strong>Anticoagulation and antiplatelet therapy: cryptogenic embolic stroke</strong></listitem>
+<listitem>In patients with cryptogenic embolic stroke, an RCT with 5390 patients randomized them to aspirin 100 mg once daily or dabigatran 150 mg twice daily. There was no difference between groups regarding recurrent stroke or major bleeding. There was a small benefit for disabling stroke (0.6&#x0025; vs 0.9&#x0025;, NNT &#x003D; 333&#x002F;year) but also more clinically relevant non-major bleeds with dabigatran (NNH &#x003D; 143).<xref ref="poem210806" resource="acc083" /></listitem>
+<listitem>The REDUCE study randomized 560 adults 60 years and older with PFO and a previous cryptogenic stroke 2:1 to antiplatelet therapy + PFO closure or antiplatelet therapy alone. Stroke was less common with closure (NNT &#x003D; 19, 95&#x0025; CI 10 to 47).<xref ref="poem358534" resource="acc104" /></listitem>
+<listitem>The ARCADIA study randomized patients with recent cryptogenic stroke and atrial cardiopathy to apixaban twice daily or aspirin 81 mg once daily. There was no difference between groups in rates of recurrent stroke, intracranial hemorrhage, or major hemorrhage.<xref ref="poem322230" resource="acc127" /></listitem>
+<listitem><strong>Lipid lowering</strong></listitem>
+<listitem>Lipid-lowering results in a 25&#x0025; RR reduction in stroke in patients with and without coronary disease. Statins are preferred as the data on other drugs are scant. ACC&#x002F;AHA guidelines recommend intensive lipid-lowering in patients with previous stroke or TIA with an LDL target of &lt;100 mgdl.<xref ref="pubmed24788967" resource="acc087" /> A meta-analysis found that statins decrease the risk of stroke in the elderly.<xref ref="poem100355" resource="acc001" /> While high dose atorvastatin reduces the risk of recurrent stroke, it does not reduce mortality.<xref ref="poem81001" resource="acc026" /></listitem>
+<listitem>A lower LDL target slightly reduced the likelihood of a broad composite outcome (NNT &#x003D; 43 over 3.5 years), largely by reducing nonfatal strokes (NNT &#x003D; 77; statistical significance not reported). The benefit was only seen in patients whose index event was a stroke; risk may be increased in those with TIA.<xref ref="poem220313" resource="acc092" /></listitem>
+<listitem>AHA guidelines (2021) recommend an LDL target of &lt;70 mg&#x002F;dl.<xref ref="pubmed34024117" resource="acc105" /> A systematic review of secondary prevention studies found that drug therapy for lipid lowering compared with placebo reduced the risk of recurrent stroke (NNT &#x003D; 87 over 4 years), with a slight increase in hemorrhagic strokes (NNTH &#x003D; 236) and an increased risk of diabetes.<xref ref="poem376012" resource="acc108" /></listitem>
+<listitem>Statins are effective in preventing major coronary events in patients older than 75 years, but this effect is exclusive to those with established vascular disease (i.e., effective for secondary, not primary, prevention). <xref ref="poem210503" resource="acc085" /></listitem>
+<listitem><strong>Blood pressure control</strong></listitem>
+<listitem>Blood pressure reduction to recommended targets, regardless of modality, is a cornerstone to management of CVD.<xref ref="poem100355" resource="acc001" /><xref ref="poem130505" resource="acc036" /> Antihypertensive therapy leads to a 35&#x0025; to 44&#x0025; reduction in the incidence of stroke. Some studies have shown an approximately 30&#x0025; RR reduction in stroke in high-risk patients using angiotensin-converting enzyme inhibitors. Beta-blockers and diuretics have also shown benefit. In general, blood-pressure lowering is the goal and the choice of drug should be tailored to each patient.<xref ref="poem100355" resource="acc001" /><xref ref="poem110201" resource="acc027" /> Other studies challenge the concept that blood pressure lowering is effective after lacunar stroke.<xref ref="poem151041" resource="acc054" /> In patients with no history of hypertension that have nonetheless suffered a prior stroke or some other form of cardiovascular disease, chronic antihypertensive therapy is associated with reduction in recurrent cardiovascular events (including stroke, with NNT &#x003D; 185).</listitem>
+<listitem>Intensive BP treatment reduces the risk of stroke, but has no measured impact on mortality relative to usual care.<xref ref="poem180442" resource="acc068" /></listitem>
+<listitem>In the BPROAD trial of older patients with T2DM, decreasing the SBP from 140 mmHg to 120 mmHg will decrease the incidence of cardiovascular disease&#x2013;related outcomes slightly. Most of the decrease is due to a reduction in stroke (NNT &#x003D; 63 over 4 years); no other outcomes, including overall risk of death, were statistically lower despite the large number of study participants. Harms reporting in this study is highly suspect with only 7 episodes of symptomatic hypotension reported in over 6000 older adults treated to a lower target for 4 years. Other studies find rates of 5&#x0025; to 10&#x0025;.<xref ref="poem367270" resource="acc132" /></listitem>
+<listitem>In the setting of acute stroke, candesartan for acute blood pressure control did not result in improved mortality and vascular outcomes at 6 months follow-up. Other studies have suggested that tight blood pressure control in acute stroke can be deleterious.<xref ref="poem130544" resource="acc035" /></listitem>
+<listitem>In one randomized controlled trial, using warfarin instead of aspirin for patients with intracranial arterial stenosis and a recent TIA or stroke caused 1 additional death every 2 years.<xref ref="poem70605" resource="acc028" /></listitem>
+<listitem>Treatment with B vitamins or with fish oil has not been shown to reduce future cardiovascular events (including strokes) in patients with a history of ischemic heart disease or stroke.<xref ref="poem130361" resource="acc044" /> Among patients with diabetic nephropathy, supplements with B vitamins was associated with an increased risk of myocardial infarction, stroke, or overall mortality (NNT to harm &#x003D; 11 at 32 months).<xref ref="poem120623" resource="acc046" /> Adhering to a Mediterranean-type diet, however, may be associated with a reduced risk of developing cardiovascular disease.<xref ref="poem130304" resource="acc045" /></listitem>
+<listitem><strong>Blood sugar control</strong></listitem>
+<listitem>An RCT of patients with prediabetes and recent stroke (n &#x003D; 3876) found that those randomized to pioglitazone instead of placebo had a lower rate of stroke, MI, hospitalization, and the subsequent development of diabetes, but at the risk of significant rates of harm, especially fractures, weight gain, and edema.<xref ref="poem210708" resource="acc084" /></listitem>
+<listitem><strong>"Care Bundles" addressing blood pressure, blood sugar, and other factors</strong></listitem>
+<listitem>A study in 121 hospitals in 10 mostly low and middle income countries identified patients presenting with acute hemorrhagic stroke. Using a stepped wedge design, a care bundle consisting of intensive blood pressure lowering and rapid management of other physiologic variables resulted in decreased disability at 6 months (OR 0.86; 95&#x0025; CI 0.76 - 0.97). Additionally, patients in the care bundle group had fewer serious adverse events (16.0&#x0025; vs 20.1&#x0025;; p &#x003D; 0.0098). Secondary outcomes including death at 6 months and hospital discharge by day 7 also favored the care bundle group, but these results were no longer significant in adjusted analyses.</listitem>
+<listitem><strong>Other medications</strong></listitem>
+<listitem>There is insufficient evidence to support routine use of antiepileptic drugs to prevent seizures after stroke.<xref ref="cochrane5398" resource="acc061" /></listitem>
+<listitem>There is little evidence to direct treating central post stroke pain in an effective manner.<xref ref="poem171244" resource="acc065" /></listitem>
+<listitem>Pioglitazone reduces the likelihood of stroke in patients with a recent stroke or TIA, but has a risk of weight gain, edema, and fracture.<xref ref="poem180603" resource="acc072" /></listitem>
+<listitem>Antidepressants may be helpful for treatment of undesirable emotionalism after stroke.<xref ref="cochrane3690" resource="acc086" /></listitem>
+<listitem>Antidepressants do not improve motor recovery after stroke.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem><strong>Carotid endarterectomy</strong></listitem>
+<listitem>Symptomatic patients with at least 70&#x0025; carotid stenosis benefit most from carotid endarterectomy.<xref ref="cochrane1081" resource="acc021" /> Surgery for those with symptomatic carotid stenosis of more than 70&#x0025; reduces the RR of death or disabling stroke by 48&#x0025; (95&#x0025; CI, 27&#x0025;-73&#x0025;) with an NNT of 15 patients to prevent 1 death or disabling stroke given a 2- to 6-year follow-up.<xref ref="cochrane1081" resource="acc021" /></listitem>
+<listitem>A study randomized 330 adults age 18 to 65 years with symptomatic unilateral internal carotid or middle cerebral occlusion to medical therapy or medical therapy plus bypass surgery. All patients had experienced a TIA or stroke in the affected region in the past 12 months but now had stable symptoms. There was no difference in any outcomes between groups.<xref ref="poem335056" resource="acc119" /></listitem>
+<listitem>A <resourceLink href="info:wiley/eep-rule/35">clinical rule</resourceLink> can predict the likelihood of benefit. Patients who require endarterectomy have better outcomes if the procedure is performed within 2 weeks of the most recent event.<xref ref="poem60641" resource="acc029" /></listitem>
+<listitem>Carotid endarterectomy in patients with asymptomatic carotid stenosis reduces the risk of any stroke by 30&#x0025; over 3 years, but the absolute risk reduction is small.<xref ref="cochrane1923" resource="acc030" /> Carotid endarterectomy carries a 3&#x0025; perioperative stroke or death rate.</listitem>
+<listitem>Low volume and increasing surgeon age are associated with worse outcomes for carotid endarterectomy.<xref ref="poem30203" resource="acc031" /> Data regarding technique (i.e., eversion carotid endarterectomy, patch angioplasty versus primary closure, use of shunting, type of anesthesia) are not sufficient to clearly guide therapy.<xref ref="cochrane126" resource="acc099" /></listitem>
+<listitem>Antiplatelet agents after endarterectomy appear to reduce risk of stroke.<xref ref="cochrane1458" resource="acc032" /> In a study comparing doses of aspirin ranging from 81 to 1300 mg per day following endarterectomy, outcomes were best in those taking 81 or 325 mg daily.<xref ref="poem11079" resource="acc033" /></listitem>
+<listitem>When compared to carotid endarterectomy, carotid artery stenting is associated with a higher periprocedural risk of stroke but lower risk of myocardial infarction. Long-term results (at 2.5 years) show no difference in overall mortality, stroke, or myocardial infarction. Patient and institutional factors may be important in choosing a percutaneous versus surgical approach for subjects with carotid artery stenosis.<xref ref="poem120991" resource="acc039" /><xref ref="poem190920" resource="acc079" /> This has been substantiated by a meta-analysis of 3500 patients in 3 other randomized trials.<xref ref="poem121142" resource="acc042" /></listitem>
+<listitem>A more recent systematic review of 11 studies came to the same conclusion, that stenting carries a higher short-term risk of stroke than carotid artery bypass for patients with asymptomatic carotid stenosis.<xref ref="poem358815" resource="acc122" /></listitem>
+<listitem>A randomized trial in China identified 380 adults with TIA or ischemic stroke that occurred at least 3 weeks previously. They were randomized to stenting + medical therapy or medical therapy alone (DAPT for 90 days, then aspirin, and control of risk factors). There was no difference in outcomes.<xref ref="poem302657" resource="acc114" /></listitem>
+<listitem>Extracranial bypass surgery has not been shown to be more effective at 2-year follow-up than medical therapy alone for the treatment of symptomatic internal carotid artery occlusion. Short-term (30-day) risk of<xref ref="poem150503" resource="acc053" /> recurrent stroke is reduced with surgical bypass.</listitem>
+<listitem>In adults with an angiographic diagnosis of unilateral internal carotid artery (ICA) or middle cerebral artery (MCA) occlusion or hemodynamic insufficiency in the MCA territory, a randomized trial with 330 participants found no additional benefit of bypass surgery plus medical therapy over medical therapy alone after 2 years of follow-up in reducing the risk of stroke or death.<xref ref="poem335056" resource="acc119" /></listitem>
+<listitem>Hemicraniectomy increases the likelihood of survival in older subjects with large middle cerebral artery stroke, but neurologic outcomes in these subjects can been poor.<xref ref="poem160502" resource="acc060" /></listitem>
+<listitem>The use of local or general anesthesia during carotid endarterectomy does not affect the incidence of post-procedure stroke or death.<xref ref="cochrane126" resource="acc099" /></listitem>
+<listitem><strong>Patent foramen ovale closure</strong></listitem>
+<listitem>For patients with cryptogenic or recurrent stroke, especially if younger than 55 years, screening for patent foramen ovale (PFO) or atrial septal defects is sometimes recommended, with repair if a lesion is detected. However, the risk of death is no different for patients with patent foramen ovale provided they are treated with antithrombotics.<xref ref="poem120102" resource="acc040" /> A recent trial showed that patients with cryptogenic stroke had a reduced risk of recurrence with percutaneous closure of a patent foramen ovale compared to antiplatelet therapy, and a similar rate of recurrence compared to anticoagulation.<xref ref="poem191101" resource="acc078" /></listitem>
+<listitem>The REDUCE study randomized 560 adults 60 years and older with PFO and a previous cryptogenic stroke 2:1 to antiplatelet therapy + PFO closure or antiplatelet therapy alone. Stroke was less common with closure (NNT &#x003D; 19, 95&#x0025; CI 10 to 47).<xref ref="poem358534" resource="acc104" /></listitem>
+<listitem>In a systematic review of 5 trials with 1720 patients, the limited evidence suggests that in patients with cryptogenic stroke and PFO, anticoagulant and antiplatelet medications are comparable in effectiveness and risk of major bleeding.<xref ref="poem220231" resource="acc093" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>There is insufficient evidence for the effectiveness of memory rehabilitation on functional outcomes, and objective, subjective, and observer-rated memory measures.<xref ref="cochrane2293" resource="acc020" /></listitem>
+<listitem>The effectiveness of cognitive rehabilitation therapy remains unclear.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Smoking cessation and reduction of exposure to environmental cigarette smoke can minimize the risk of thrombotic, embolic, and hemorrhagic stroke.</listitem>
+<listitem>A population based cluster randomized trial in China compared use of a salt substitute with usual salt consumption. The risk of any stroke was decreased with the salt substitute (NNT &#x003D; 217 per year) as was fatal stroke (NNT &#x003D; 500). All-cause mortality was also reduced. Generalizability to western cultures and diets is unclear.<xref ref="poem329523" resource="acc116" /></listitem>
+<listitem>Deep vein thrombosis in the hospitalized patient with acute stroke may be prevented by the use of compression stockings, but evidence is limited.<xref ref="poem121271" resource="acc038" /> Other guidelines recommend against routine use of compression stockings but note that intermittent compression devices may help in at-risk hospitalized patients where heparin therapy is contraindicated. The use of venous thromboembolus prophylaxis should be individualized based on patient factors rather than routinely started in all stroke patients.</listitem>
+<listitem>There is inadequate evidence to support the routine use of antiepileptics to prevent seizures after acute stroke.<xref ref="poem150901" resource="acc055" /></listitem>
+<listitem>Bariatric surgery is associated with a reduction in future cardiovascular events, including stroke.</listitem>
+<listitem>Prophylactic antibiotics are not associated with reducing the risk of pneumonia after stroke in patients with dysphasia.<xref ref="poem180142" resource="acc067" /></listitem>
+<listitem>Training with physical therapy, occupational therapy, and&#x002F;or speech therapy is associated with reduced disability after stroke.<xref ref="cochrane3316" resource="acc069" /></listitem>
+<listitem>Chinese herbal medication puerarin has not been shown in clinical trials to improve post-stroke outcomes.<xref ref="cochrane4955" resource="acc070" /></listitem>
+<listitem>Transcranial magnet stimulation does not appear to improve recovery after stroke; however, studies are ongoing.<xref ref="poem201219" resource="acc081" /></listitem>
+<listitem>Stem cell transplantation has been associated in small trials to reduce neurological impairment, but does not impact overal functional outcomes; safety concerns were not significant.<xref ref="cochrane7231" resource="acc089" /></listitem>
+<listitem>In a recent meta-analysis, non-pharmacologic therapies for central post stroke pain were evaluated. Some interventions appear effective such as pre-central gyrus stimulation, caloric vestibular stimulation, transcranial direct current stimulation, and bee venom acupuncture point injection. Evidence base for these interventions is weak and require corroboration in further studies.<xref ref="pubmed33080696" resource="acc098" /></listitem>
+<listitem>Active information provision may improve knowledge of stroke care and reduce anxiety and depression, although the magnitude of benefit is unclear.<xref ref="cochrane1919" resource="acc100" /></listitem>
+<listitem>A systematic review concluded that vestibular rehabilitation therapy is effective for balance (standardized mean difference 0.59, moderate effect) and gait problems post-stroke.<xref ref="poem391015" resource="acc125" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>A Cochrane review concluded that evidence for antidepressants to treat emotionalism (e.g. crying, laughing inappropriately or excessively) following stroke is poor. While some studies have found benefit, they were very small and had significant threats to validity.<xref ref="cochrane3690" resource="acc086" /></listitem>
+<listitem>Evidence for interventions to treat disorders of perception after stroke is lacking.<xref ref="cochrane7039" resource="acc124" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Approximately 3&#x0025; of patients with TIA have a stroke within 30 days,<xref ref="poem61042" resource="acc034" /> 10&#x0025; within 90 days.<evidence rating="B" system="SORT">B</evidence><xref ref="poem30326" resource="acc018" /></listitem>
+<listitem>The risk of stroke immediately following TIA can be estimated using the well-validated <resourceLink href="info:wiley/eep-rule/335">ABCD rule</resourceLink>.<evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>The annual rate of nonstroke vascudlar death or myocardial infarction following a stroke is approximately 2&#x0025;.<xref ref="poem80244" resource="acc016" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Patients with a carotid bruit are at an increased risk of myocardial infarction and cardiovascular death.<xref ref="poem100746" resource="acc017" /></listitem>
+<listitem>Diabetic patients with a carotid bruit are at an increased long-term risk of stroke.<xref ref="poem51240" resource="acc015" /> A clinical rule can be used to estimate the <resourceLink href="info:wiley/eep-rule/211">risk of stroke in patients with diabetes</resourceLink>.</listitem>
+<listitem>The annual rate of nonstroke vascular death or myocardial infarction following a stroke is approximately 2&#x0025;.<xref ref="poem80244" resource="acc016" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>In patients with symptomatic carotid stenosis, prognosis is best in those who have endarterectomy within 2 weeks of most recent cerebrovascular event.<xref ref="poem60641" resource="acc029" /></listitem>
+<listitem>Prognosis has a U-shaped association with blood pressure, with the best outcomes associated with an initial systolic pressure of 150 mm Hg. This does not mean that lowering blood pressure to 150 mm Hg improves outcomes.<xref ref="poem40870" resource="acc014" /></listitem>
+<listitem>An elevated level of troponin T within the first few days after acute stroke is associated with an increased risk of in-hospital death.<xref ref="poem20954" resource="acc013" /></listitem>
+<listitem>The risk of stroke immediately following TIA can be estimated using the well-validated <resourceLink href="info:wiley/eep-rule/335">ABCD rule</resourceLink>. This can help guide the urgency of evaluation. Overall, approximately 3&#x0025; of TIA patients have a stroke within 30 days,<xref ref="poem61042" resource="acc034" /> 10&#x0025; within 90 days.<xref ref="poem30326" resource="acc018" /></listitem>
+<listitem>The risk of recurrent stroke has been reported to be 1.5&#x0025; within 2 days, 2.1&#x0025; within a week, 2.8&#x0025; within a month, 3.7&#x0025; within 90 days and 5.1&#x0025; within a year.<xref ref="poem180704" resource="acc074" /></listitem>
+<listitem>The risk of stroke is similar for persons with post-operative atrial fibrillation versus non-operative AF.<xref ref="poem320333" resource="acc123" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Optimal blood pressure reduction has not been determined, but benefit is associated with average reduction of 10&#x002F;5 mm Hg.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Patients who smoke should be strongly encouraged to quit.</listitem>
+<listitem>In patients with previous stroke or TIA, alcohol consumption should be limited to less than three drinks per day for men and one drink per day in nonpregnant women.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Elderly patients are at greatest risk for stroke and are also at the greatest risk for complications from surgical intervention or anticoagulation.</listitem>
+<listitem>Surgical trials have not included a large number of patients older than 80 years, so cannot detect clear benefit over risk in this subgroup.</listitem>
+<listitem>Medical therapy trials have included elderly patients and the results support safety and efficacy in this group.</listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>A major adverse cardiovascular event was about twice as likely during 14 years follow-up in children with hypertension compared to those who were normmotensive (6.1&#x0025; vs 3.1&#x0025;).<xref ref="poem342599" resource="acc130" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="poem100355">
+<accessionId id="acc001" href="info:wiley/eep-poem/100355" />
+<accessionId id="acc001b" href="info:pmid/18174034" />
+<authors>Goldstein LB, Adams R, Alberts MJ, et al.; American Heart Association&#x002F;American Stroke Association Stroke Council; Atherosclerotic Peripheral Vascular Disease Interdisciplinary Working Group; Cardiovascular Nursing Council Clinical Cardiology Council Nutrition, Physical Activity, and Metabolism Council Quality of Care and Outcomes Research Interdisciplinary Working Group American; Academy of Neurology.</authors>
+<title>Primary prevention of ischemic stroke: a guideline from the American Heart Association&#x002F;American Stroke Association Stroke Council: cosponsored by the Atherosclerotic Peripheral Vascular Disease Interdisciplinary Working Group; Cardiovascular Nursing Council; Clinical Cardiology Council; Nutrition, Physical Activity, and Metabolism Council; and the Quality of Care and Outcomes Research Interdisciplinary Working Group: the American Academy of Neurology affirms the value of this guideline.</title>
+<source>Stroke</source>
+<pubdate>2006</pubdate>
+<volume>37</volume>
+<pages>1583&#x2013;1633.</pages>
+</reference>
+<reference id="pubmed19900653">
+<accessionId id="acc002" href="info:pmid/19900653" />
+<authors>Uchiyama S, Demaerschalk BM, Goto S, et al.</authors>
+<title>Stroke prevention by cilostazol in patients with atherothrombosis: Meta-analysis of placebo-controlled randomized trials.</title>
+<source>J Stroke Cerebrovasc Dis</source>
+<pubdate>2009</pubdate>
+<volume>18</volume>
+<pages>482&#x2013;490.</pages>
+</reference>
+<reference id="pubmed19293072">
+<accessionId id="acc003" href="info:pmid/19293072" />
+<authors>U.S. Preventive Services Task Force.</authors>
+<title>Aspirin for the prevention of cardiovascular disease: US Preventive Services Task Force recommendation statement.</title>
+<source>Ann Intern Med</source>
+<pubdate>2009</pubdate>
+<volume>150(6)</volume>
+<pages>396&#x2013;404.</pages>
+</reference>
+<reference id="pubmed19689757">
+<accessionId id="acc004" href="info:pmid/19689757" />
+<authors>Rigby H, Gubitz G, Phillips S.</authors>
+<title>A systematic review of caregiver burden following stroke.</title>
+<source>Int J Stroke</source>
+<pubdate>2009</pubdate>
+<volume>4</volume>
+<pages>285&#x2013;292.</pages>
+</reference>
+<reference id="pubmed16407573">
+<accessionId id="acc005" href="info:pmid/16407573" />
+<authors>Thom T, Haase N, Rosamond W, et al.; American Heart Association Statistics Committee and Stroke Statistics Subcommittee.</authors>
+<title>Heart disease and stroke statistics&#x2014;2006 update: A report from the American Heart Association Statistics Committee and Stroke Statistics Subcommittee.</title>
+<source>Circulation</source>
+<pubdate>2006</pubdate>
+<volume>113</volume>
+<pages>e85&#x2013;e151.</pages>
+</reference>
+<reference id="pubmed3413804">
+<accessionId id="acc006" href="info:pmid/3413804" />
+<authors>Bogousslavsky J, Van Melle G, Regli F.</authors>
+<title>The Lausanne Stroke Registry: Analysis of 1,000 consecutive patients with first stroke.</title>
+<source>Stroke</source>
+<pubdate>1988</pubdate>
+<volume>19</volume>
+<pages>1083&#x2013;1092.</pages>
+</reference>
+<reference id="pubmed9804651">
+<accessionId id="acc007" href="info:pmid/9804651" />
+<authors>Longstreth WT, Jr., Shemanski L, Lefkowitz D, O'Leary DH, Polak JF, Wolfson SK, Jr.</authors>
+<title>Asymptomatic internal carotid artery stenosis defined by ultrasound and the risk of subsequent stroke in the elderly. The Cardiovascular Health Study.</title>
+<source>Stroke</source>
+<pubdate>1998</pubdate>
+<volume>29</volume>
+<pages>2371&#x2013;2376.</pages>
+</reference>
+<reference id="poem80742">
+<accessionId id="acc008" href="info:wiley/eep-poem/80742" />
+<accessionId id="acc008b" href="info:wiley/eep-poem/100825" />
+<accessionId id="acc008c" href="info:wiley/eep-poem/100356" />
+<accessionId id="acc008d" href="info:wiley/eep-poem/20653" />
+<accessionId id="acc008e" href="info:pmid/10714657" />
+<authors>Hart RG, Halperin JL, McBride R, et al.</authors>
+<title>Aspirin for the primary prevention of stroke and other major vascular events: Meta-analysis and hypotheses.</title>
+<source>Arch Neurol</source>
+<pubdate>2000</pubdate>
+<volume>57</volume>
+<pages>326&#x2013;332.</pages>
+</reference>
+<reference id="test364">
+<accessionId id="acc009" href="info:wiley/eep-dx/364" />
+<accessionId id="acc009b" href="info:pmid/7012921" />
+<authors>Chilcote WA, Modic MT, Pavlicek WA, et al.</authors>
+<title>Digital subtraction angiography of the carotid arteries: A comparative study in 100 patients.</title>
+<source>Radiology</source>
+<pubdate>1981</pubdate>
+<volume>139</volume>
+<pages>287&#x2013;295.</pages>
+</reference>
+<reference id="poem50862">
+<accessionId id="acc010" href="info:wiley/eep-poem/50862" />
+<accessionId id="acc010b" href="info:pmid/12690221" />
+<authors>Nederkoorn PJ, van der Graaf Y, Hunink MG.</authors>
+<title>Duplex ultrasound and magnetic resonance angiography compared with digital subtraction angiography in carotid artery stenosis: A systematic review.</title>
+<source>Stroke</source>
+<pubdate>2003</pubdate>
+<volume>34</volume>
+<pages>1324&#x2013;1332.</pages>
+</reference>
+<reference id="poem41166">
+<accessionId id="acc011" href="info:wiley/eep-poem/41166" />
+<accessionId id="acc011b" href="info:pmid/12154253" />
+<authors>Nederkoorn PJ, Mali WP, Eikelboom BC, et al.</authors>
+<title>Preoperative diagnosis of carotid artery stenosis: Accuracy of noninvasive testing.</title>
+<source>Stroke</source>
+<pubdate>2002</pubdate>
+<volume>33</volume>
+<pages>2003&#x2013;2008.</pages>
+</reference>
+<reference id="rule363">
+<accessionId id="acc012" href="info:wiley/eep-rule/363" />
+<accessionId id="acc012b" href="info:wiley/eep-rule/34" />
+<accessionId id="acc012c" href="info:pmid/11401607" />
+<authors>Gage BF, Waterman AD, Shannon W, Boechler M, Rich MW, Radford MJ.</authors>
+<title>Validation of clinical classification schemes for predicting stroke: Results from the National Registry of Atrial Fibrillation.</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>285</volume>
+<pages>2864&#x2013;2870.</pages>
+</reference>
+<reference id="poem20954">
+<accessionId id="acc013" href="info:wiley/eep-poem/20954" />
+<accessionId id="acc013b" href="info:pmid/10834890" />
+<authors>James P, Ellis CJ, Whitlock RM, McNeil AR, Henley J, Anderson NE.</authors>
+<title>Relation between troponin T concentration and mortality in patients presenting with an acute stroke: Observational study.</title>
+<source>BMJ</source>
+<pubdate>2000</pubdate>
+<volume>320</volume>
+<pages>1502&#x2013;1504.</pages>
+</reference>
+<reference id="poem40870">
+<accessionId id="acc014" href="info:wiley/eep-poem/40870" />
+<accessionId id="acc014b" href="info:pmid/11988609" />
+<authors>Leonardi-Bee J, Bath PM, Phillips SJ, Sandercock PA; IST Collaborative Group.</authors>
+<title>Blood pressure and clinical outcomes in the International Stroke Trial.</title>
+<source>Stroke</source>
+<pubdate>2002</pubdate>
+<volume>33</volume>
+<pages>1315&#x2013;1320.</pages>
+</reference>
+<reference id="poem51240">
+<accessionId id="acc015" href="info:wiley/eep-poem/51240" />
+<accessionId id="acc015b" href="info:pmid/12907819" />
+<authors>Gillett M, Davis WA, Jackson D, Bruce DG, Davis TM; Fremantle Diabetes Study.</authors>
+<title>Prospective evaluation of carotid bruit as a predictor of first stroke in type 2 diabetes: The Fremantle Diabetes Study.</title>
+<source>Stroke</source>
+<pubdate>2003</pubdate>
+<volume>34</volume>
+<pages>2145&#x2013;2151.</pages>
+</reference>
+<reference id="poem80244">
+<accessionId id="acc016" href="info:wiley/eep-poem/80244" />
+<accessionId id="acc016b" href="info:pmid/16254218" />
+<authors>Touze E, Varenne O, Chatellier G, Peyrard S, Rothwell PM, Mas JL.</authors>
+<title>Risk of myocardial infarction and vascular death after transient ischemic attack and ischemic stroke: A systematic review and meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>2005</pubdate>
+<volume>36</volume>
+<pages>2748&#x2013;2755.</pages>
+</reference>
+<reference id="poem100746">
+<accessionId id="acc017" href="info:wiley/eep-poem/100746" />
+<accessionId id="acc017b" href="info:pmid/18468542" />
+<authors>Pickett CA, Jackson JL, Hemann BA, Atwood JE.</authors>
+<title>Carotid bruits as a prognostic indicator of cardiovascular death and myocardial infarction: A meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2008</pubdate>
+<volume>371</volume>
+<pages>1587&#x2013;1594.</pages>
+</reference>
+<reference id="poem30326">
+<accessionId id="acc018" href="info:wiley/eep-poem/30326" />
+<accessionId id="acc018b" href="info:pmid/11147987" />
+<authors>Johnston SC, Gress DR, Browner WS, Sidney S.</authors>
+<title>Short-term prognosis after emergency department diagnosis of TIA.</title>
+<source>JAMA</source>
+<pubdate>2000</pubdate>
+<volume>284</volume>
+<pages>2901&#x2013;2906.</pages>
+</reference>
+<reference id="poem40452">
+<accessionId id="acc019" href="info:wiley/eep-poem/40452" />
+<accessionId id="acc019b" href="info:pmid/11786451" />
+<authors>Antithrombotic Trialists' Collaboration.</authors>
+<title>Collaborative meta-analysis of randomised trials of antiplatelet therapy for prevention of death, myocardial infarction, and stroke in high risk patients.</title>
+<source>BMJ</source>
+<pubdate>2002</pubdate>
+<volume>324</volume>
+<pages>71&#x2013;86.</pages>
+</reference>
+<reference id="cochrane2293">
+<accessionId id="acc020" href="info:wiley/cochrane/CD002293" />
+<chapter_authors>das Nair R, Lincoln N.</chapter_authors>
+<chapter_title>Cognitive rehabilitation for memory deficits following stroke (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1081">
+<accessionId id="acc021" href="info:wiley/cochrane/CD001081" />
+<chapter_authors>Cina CS, Clase CM, Haynes RB.</chapter_authors>
+<chapter_title>Carotid endarterectomy for symptomatic carotid stenosis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem101103">
+<accessionId id="acc022" href="info:wiley/eep-poem/101103" />
+<accessionId id="acc022b" href="info:pmid/18753638" />
+<authors>Sacco RL, Diener HC, Yusuf S, et al.; for the Prevention Regimen for Effectively Avoiding Second Strokes (PRoFESS) Study Group.</authors>
+<title>Aspirin and extended-release dipyridamole versus clopidogrel for recurrent stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2008</pubdate>
+<volume>359</volume>
+<pages>1238&#x2013;1251.</pages>
+</reference>
+<reference id="poem40207">
+<accessionId id="acc023" href="info:wiley/eep-poem/40207" />
+<accessionId id="acc023b" href="info:pmid/11794192" />
+<authors>Mohr JP, Thompson JL, Lazar RM, et al.; Warfarin-Aspirin Recurrent Stroke Study Group.</authors>
+<title>A comparison of warfarin and aspirin for the prevention of recurrent ischemic stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>345</volume>
+<pages>1444&#x2013;1451.</pages>
+</reference>
+<reference id="pubmed8981292">
+<accessionId id="acc024" href="info:pmid/8981292" />
+<authors>Diener HC, Cunha L, Forbes C, Sivenius J, Smets P, Lowenthal A.</authors>
+<title>European Stroke Prevention Study. 2. Dipyridamole and acetylsalicylic acid in the secondary prevention of stroke.</title>
+<source>J Neurol Sci</source>
+<pubdate>1996</pubdate>
+<volume>143</volume>
+<pages>1&#x2013;13.</pages>
+</reference>
+<reference id="pubmed8918275">
+<accessionId id="acc025" href="info:pmid/8918275" />
+<authors>CAPRIE Steering Committee.</authors>
+<title>A randomised, blinded, trial of clopidogrel versus aspirin in patients at risk of ischaemic events (CAPRIE). CAPRIE Steering Committee.</title>
+<source>Lancet</source>
+<pubdate>1996</pubdate>
+<volume>348</volume>
+<pages>1329&#x2013;1339.</pages>
+</reference>
+<reference id="poem81001">
+<accessionId id="acc026" href="info:wiley/eep-poem/81001" />
+<accessionId id="acc026b" href="info:pmid/16899775" />
+<authors>Amarenco P, Bogousslavsky J, Callahan A, 3rd, et al.; Stroke Prevention by Aggressive Reduction in Cholesterol Levels (SPARCL) Investigators.</authors>
+<title>High-dose atorvastatin after stroke or transient ischemic attack.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>355</volume>
+<pages>549&#x2013;559.</pages>
+</reference>
+<reference id="poem110201">
+<accessionId id="acc027" href="info:wiley/eep-poem/110201" />
+<accessionId id="acc027b" href="info:pmid/19052124" />
+<authors>Jamerson K, Weber MA, Bakris, GL, et al.; for the ACCOMPLISH Trial Investigators.</authors>
+<title>Benazepril plus amlodipine or hydrochlorothiazide for hypertension in high-risk patients.</title>
+<source>N Engl J Med</source>
+<pubdate>2008</pubdate>
+<volume>359(23)</volume>
+<pages>2417&#x2013;2428.</pages>
+</reference>
+<reference id="poem70605">
+<accessionId id="acc028" href="info:wiley/eep-poem/70605" />
+<accessionId id="acc028b" href="info:pmid/15800226" />
+<authors>Chimowitz MI, Lynn MJ, Howlett-Smith H, et al.; Warfarin-Aspirin Symptomatic Intracranial Disease Trial Investigators.</authors>
+<title>Comparison of warfarin and aspirin for symptomatic intracranial arterial stenosis.</title>
+<source>N Engl J Med</source>
+<pubdate>2005</pubdate>
+<volume>352</volume>
+<pages>1305&#x2013;1316.</pages>
+</reference>
+<reference id="poem60641">
+<accessionId id="acc029" href="info:wiley/eep-poem/60641" />
+<accessionId id="acc029b" href="info:pmid/15043958" />
+<authors>Rothwell PM, Eliasziw M, Gutnikov SA, Warlow CP, Barnett HJ; Carotid Endarterectomy Trialists Collaboration.</authors>
+<title>Endarterectomy for symptomatic carotid stenosis in relation to clinical subgroups and timing of surgery.</title>
+<source>Lancet</source>
+<pubdate>2004</pubdate>
+<volume>363</volume>
+<pages>915&#x2013;924.</pages>
+</reference>
+<reference id="cochrane1923">
+<accessionId id="acc030" href="info:wiley/cochrane/CD001923" />
+<chapter_authors>Chambers BR, Donnan GA.</chapter_authors>
+<chapter_title>Carotid endarterectomy for asymptomatic carotid stenosis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem30203">
+<accessionId id="acc031" href="info:wiley/eep-poem/30203" />
+<accessionId id="acc031b" href="info:pmid/10993995" />
+<authors>O'Neill L, Lanska DJ, Hartz A.</authors>
+<title>Surgeon characteristics associated with mortality and morbidity following carotid endarterectomy.</title>
+<source>Neurology</source>
+<pubdate>2000</pubdate>
+<volume>55</volume>
+<pages>773&#x2013;781.</pages>
+</reference>
+<reference id="cochrane1458">
+<accessionId id="acc032" href="info:wiley/cochrane/CD001458" />
+<chapter_authors>Engelter S, Lyrer P.</chapter_authors>
+<chapter_title>Antiplatelet therapy for preventing stroke and other vascular events after carotid endarterectomy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem11079">
+<accessionId id="acc033" href="info:wiley/eep-poem/11079" />
+<accessionId id="acc033b" href="info:pmid/10392981" />
+<authors>Taylor DW, Barnett HJ, Haynes RB, et al.</authors>
+<title>Low-dose and high-dose acetylsalicylic acid for patients undergoing carotid endarterectomy: A randomised controlled trial. ASA and Carotid Endarterectomy (ACE) Trial Collaborators.</title>
+<source>Lancet</source>
+<pubdate>1999</pubdate>
+<volume>353</volume>
+<pages>2179&#x2013;2184.</pages>
+</reference>
+<reference id="poem61042">
+<accessionId id="acc034" href="info:wiley/eep-poem/61042" />
+<accessionId id="acc034b" href="info:pmid/15192239" />
+<authors>Lisabeth LD, Ireland JK, Risser JM, et al.</authors>
+<title>Stroke risk after transient ischemic attack in a population-based setting.</title>
+<source>Stroke</source>
+<pubdate>2004</pubdate>
+<volume>35</volume>
+<pages>1842&#x2013;1846.</pages>
+</reference>
+<reference id="poem130544">
+<accessionId id="acc035" href="info:wiley/eep-poem/130544" />
+<accessionId id="acc035b" href="info:pmid/21316752" />
+<authors>Sandset EC, Bath PMW, Boysen G, et al.; SCAST Study Group.</authors>
+<title>The angiotensin-receptor blocker candesartan for treatment of acute stroke (SCAST): A randomised, placebo-controlled, double-blind trial.</title>
+<source>Lancet</source>
+<pubdate>2011;</pubdate>
+<volume>377</volume>
+<pages>741&#x2013;750.</pages>
+</reference>
+<reference id="poem130505">
+<accessionId id="acc036" href="info:wiley/eep-poem/130505" />
+<accessionId id="acc036b" href="info:pmid/21309657" />
+<authors>Connolly SJ, Eikelboom J, Joyner C, et al.; AVERROES Steering Committee and Investigators.</authors>
+<title>Apixaban in patients with atrial fibrillation.</title>
+<source>New Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>364</volume>
+<pages>806&#x2013;817.</pages>
+</reference>
+<reference id="poem130442">
+<accessionId id="acc037" href="info:wiley/eep-poem/130442" />
+<accessionId id="acc037b" href="info:pmid/21277016" />
+<authors>Emberson J, Bennett D, Link E, et al.</authors>
+<title>C-reactive protein concentration and the vascular benefits of statin therapy: An analysis of 20,536 patients in the Heart Protection Study.</title>
+<source>Lancet</source>
+<pubdate>2011</pubdate>
+<volume>377</volume>
+<pages>469&#x2013;476.</pages>
+</reference>
+<reference id="poem121271">
+<accessionId id="acc038" href="info:wiley/eep-poem/121271" />
+<accessionId id="acc038b" href="info:pmid/20855784" />
+<authors>CLOTS (Clots in Legs Or sTockings after Stroke) Trial Collaboration.</authors>
+<title>Thigh-length versus below-knee stockings for deep venous thrombosis prophylaxis after stroke: A randomized trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>2010</pubdate>
+<volume>153</volume>
+<pages>553&#x2013;562.</pages>
+</reference>
+<reference id="poem120991">
+<accessionId id="acc039" href="info:wiley/eep-poem/120991" />
+<accessionId id="acc039b" href="info:pmid/20505173" />
+<authors>Brott TG, Hobson RW, 2nd, Howard G, et al.; CREST Investigators.</authors>
+<title>Stenting versus endarterectomy for treatment of carotid-artery stenosis.</title>
+<source>New Engl J Med</source>
+<pubdate>2010</pubdate>
+<volume>363</volume>
+<pages>11&#x2013;23.</pages>
+</reference>
+<reference id="poem120102">
+<accessionId id="acc040" href="info:wiley/eep-poem/120102" />
+<accessionId id="acc040b" href="info:pmid/19880844" />
+<authors>Pfeffer MA, Burdmann EA, Chen C-Y, et al.; TREAT Investigators.</authors>
+<title>A trial of darbepoetin alfa in type 2 diabetes and chronic kidney disease.</title>
+<source>New Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>361</volume>
+<pages>2019&#x2013;2032.</pages>
+</reference>
+<reference id="poem111102">
+<accessionId id="acc041" href="info:wiley/eep-poem/111102" />
+<accessionId id="acc041b" href="info:pmid/19717844" />
+<authors>Connolly SJ, Ezekowitz MD, Yusuf S, et al.; RE-LY Steering Committee and Investigators.</authors>
+<title>Dabigatran versus warfarin in patients with atrial fibrillation.</title>
+<source>New Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>361</volume>
+<pages>1139&#x2013;1151.</pages>
+</reference>
+<reference id="poem121142">
+<accessionId id="acc042" href="info:wiley/eep-poem/121142" />
+<accessionId id="acc042b" href="info:pmid/20832852" />
+<authors>Bonati LH, Dobson J, Algra A, et al.; Carotid Stenting Trialists' Collaboration.</authors>
+<title>Short-term outcome after stenting versus endarterectomy for symptomatic carotid stenosis: A preplanned meta-analysis of individual patient data.</title>
+<source>Lancet</source>
+<pubdate>2010</pubdate>
+<volume>376</volume>
+<pages>1062&#x2013;1073.</pages>
+</reference>
+<reference id="poem121141">
+<accessionId id="acc043" href="info:wiley/eep-poem/121141" />
+<accessionId id="acc043b" href="info:pmid/20870099" />
+<authors>Halliday A, Harrison M, Hayter E, et al.; Asymptomatic Carotid Surgery Trial (ACST) Collaborative Group.</authors>
+<title>10-year stroke prevention after successful carotid endarterectomy for asymptomatic stenosis (ACST-1): A multicentre randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2010</pubdate>
+<volume>376</volume>
+<pages>1074&#x2013;1084.</pages>
+</reference>
+<reference id="poem130361">
+<accessionId id="acc044" href="info:wiley/eep-poem/130361" />
+<accessionId id="acc044b" href="info:pmid/21115589" />
+<authors>Galan P, Kesse-Guyot E, Czernichow S, Briancon S, Blacher J, Hercberg S; SU.FOL.OM3 Collaborative Group.</authors>
+<title>Effects of B vitamins and omega 3 fatty acids on cardiovascular diseases: A randomised placebo controlled trial.</title>
+<source>BMJ</source>
+<pubdate>2010</pubdate>
+<volume>341</volume>
+<pages>c6273.</pages>
+</reference>
+<reference id="poem130304">
+<accessionId id="acc045" href="info:wiley/eep-poem/130304" />
+<accessionId id="acc045b" href="info:pmid/20810976" />
+<authors>Sofi F, Abbate R, Gensini GF, Casini A.</authors>
+<title>Accruing evidence on benefits of adherence to the Mediterranean diet on health: An updated systematic review and meta-analysis.</title>
+<source>Am J Clin Nutr</source>
+<pubdate>2010</pubdate>
+<volume>92</volume>
+<pages>1189&#x2013;1196.</pages>
+</reference>
+<reference id="poem120623">
+<accessionId id="acc046" href="info:wiley/eep-poem/120623" />
+<accessionId id="acc046b" href="info:pmid/20424250" />
+<authors>House AA, Eliasziw M, Cattran DC, et al.</authors>
+<title>Effect of B-vitamin therapy on progression of diabetic nephropathy: a randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2010</pubdate>
+<volume>303</volume>
+<pages>1603&#x2013;1609.</pages>
+</reference>
+<reference id="poem120821">
+<accessionId id="acc047" href="info:wiley/eep-poem/120821" />
+<accessionId id="acc047b" href="info:pmid/20530782" />
+<authors>Runchey S, McGee S.</authors>
+<title>Does this patient have a hemorrhagic stroke?: clinical findings distinguishing hemorrhagic stroke from ischemic stroke.</title>
+<source>JAMA</source>
+<pubdate>2010</pubdate>
+<volume>303</volume>
+<pages>2280&#x2013;2286.</pages>
+</reference>
+<reference id="poem121201">
+<accessionId id="acc048" href="info:wiley/eep-poem/121201" />
+<accessionId id="acc048b" href="info:pmid/20961244" />
+<authors>Matchar DB, Jacobson A, Dolor R, et al.; THINRS Executive Committee and Site Investigators.</authors>
+<title>Effect of home testing of international normalized ratio on clinical events.</title>
+<source>New Engl J Med</source>
+<pubdate>2010</pubdate>
+<volume>363</volume>
+<pages>1608&#x2013;1620.</pages>
+</reference>
+<reference id="cochrane1925">
+<accessionId id="acc049" href="info:wiley/cochrane/CD001925" />
+<chapter_authors>Aguilar MI, Hart R.</chapter_authors>
+<chapter_title>Antiplatelet therapy for preventing stroke in patients with non-valvular atrial fibrillation and no previous history of stroke or transient ischemic attacks (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6186">
+<accessionId id="acc050" href="info:wiley/cochrane/CD006186" />
+<chapter_authors>Aguilar MI, Hart R, Pearce LA.</chapter_authors>
+<chapter_title>Oral anticoagulants versus antiplatelet therapy for preventing stroke in patients with non-valvular atrial fibrillation and no history of stroke or transient ischemic attacks (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane187">
+<accessionId id="acc051" href="info:wiley/cochrane/CD000187" />
+<chapter_authors>Saxena R, Koudstaal PJ.</chapter_authors>
+<chapter_title>Anticoagulants versus antiplatelet therapy for preventing stroke in patients with nonrheumatic atrial fibrillation and a history of stroke or transient ischemic attack (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3333">
+<accessionId id="acc052" href="info:wiley/cochrane/CD003333" />
+<chapter_authors>Lip GYH, Chung I.</chapter_authors>
+<chapter_title>Antiplatelet agents versus control or anticoagulation for heart failure in sinus rhythm (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem150503">
+<accessionId id="acc053" href="info:wiley/eep-poem/150503" />
+<accessionId id="acc053b" href="info:pmid/23390923" />
+<authors>Broderick JP, Palesch YY, Demchuk AM, et al.; Interventional Management of Stroke (IMS) III Investigators.</authors>
+<title>Endovascular therapy after intravenous t-PA versus t-PA alone for stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>893&#x2013;903.</pages>
+</reference>
+<reference id="poem151041">
+<accessionId id="acc054" href="info:wiley/eep-poem/151041" />
+<accessionId id="acc054b" href="info:pmid/23726159" />
+<authors>SPS3 Study Group; Benavente OR, Coffey CS, Conwit R, Hart RG, McClure LA, Pearce LA, Pergola PE, Szychowski JM.</authors>
+<title>Blood-pressure targets in patients with recent lacunar stroke: The SPS3 randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2013</pubdate>
+<volume>382</volume>
+<pages>507&#x2013;515.</pages>
+</reference>
+<reference id="poem150901">
+<accessionId id="acc055" href="info:wiley/eep-poem/150901" />
+<accessionId id="acc055b" href="info:pmid/23803136" />
+<authors>Broderick JP1, Palesch YY, Demchuk AM, et al.;&#x00A0; CHANCE Investigators.</authors>
+<title>Clopidogrel with aspirin in acute minor stroke or transient ischemic attack.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>11&#x2013;19.</pages>
+</reference>
+<reference id="poem160202">
+<accessionId id="acc056" href="info:wiley/eep-poem/160202" />
+<accessionId id="acc056b" href="info:pmid/24251359" />
+<authors>Giugliano RP, Ruff CT, Braunwald E, et al.</authors>
+<title>Edoxaban versus warfarin in patients with atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>2093&#x2013;2104.</pages>
+</reference>
+<reference id="poem160203">
+<accessionId id="acc057" href="info:wiley/eep-poem/160203" />
+<accessionId id="acc057b" href="info:pmid/23861512" />
+<authors>Steinberg BA, Kim S, Piccini JP, et al.</authors>
+<title>Use and associated risks of concomitant aspirin therapy with oral anticoagulation in patients with atrial fibrillation: Insights from the Outcomes Registry for Better Informed Treatment of Atrial Fibrillation (ORBIT-AF) Registry.</title>
+<source>Circulation</source>
+<pubdate>2013</pubdate>
+<volume>128</volume>
+<pages>721&#x2013;728.</pages>
+</reference>
+<reference id="poem160241">
+<accessionId id="acc058" href="info:wiley/eep-poem/160241" />
+<accessionId id="acc058b" href="info:pmid/24166666" />
+<authors>Chatterjee S, Sardar P, Biondi-Zoccai G, Kumbhani DJ.</authors>
+<title>New oral anticoagulants and the risk of intracranial hemorrhage: Traditional and Bayesian meta-analysis and mixed treatment comparison of randomized trials of new oral anticoagulants in atrial fibrillation.</title>
+<source>JAMA Neurol</source>
+<pubdate>2013</pubdate>
+<volume>70</volume>
+<pages>1486&#x2013;1490.</pages>
+</reference>
+<reference id="poem160541">
+<accessionId id="acc059" href="info:wiley/eep-poem/160541" />
+<accessionId id="acc059b" href="info:pmid/24315724" />
+<authors>Ruff CT, Giugliano RP, Braunwald E, Hoffman EB, Deenadayalu N, Ezekowitz MD, Camm AJ, Weitz JI, Lewis BS, Parkhomenko A, Yamashita T, Antman EM.</authors>
+<title>Comparison of the efficacy and safety of new oral anticoagulants with warfarin in patients with atrial fibrillation: A meta-analysis of randomised trials.</title>
+<source>Lancet</source>
+<pubdate>2014</pubdate>
+<volume>383</volume>
+<pages>955&#x2013;962.</pages>
+</reference>
+<reference id="poem160502">
+<accessionId id="acc060" href="info:wiley/eep-poem/160502" />
+<accessionId id="acc060b" href="info:pmid/24645942" />
+<authors>J&#x00FC;ttler E, Unterberg A, Woitzik J, B&#x00F6;sel J, Amiri H, Sakowitz OW, Gondan M, Schiller P, Limprecht R, Luntz S, Schneider H, Pinzer T, Hobohm C, Meixensberger J, Hacke W.</authors>
+<title>Hemicraniectomy in older patients with extensive middle-cerebral-artery stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>370</volume>
+<pages>1091&#x2013;1100.</pages>
+</reference>
+<reference id="cochrane5398">
+<accessionId id="acc061" href="info:wiley/cochrane/CD005398" />
+<chapter_authors>Sykes L, Wood E, Kwan J.</chapter_authors>
+<chapter_title>Antiepileptic drugs for the primary and secondary prevention of seizures after stroke.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 1. Art. No.: CD005398. DOI: 10.1002&#x002F;14651858.CD005398.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25957224">
+<accessionId id="acc062" href="info:pmid/25957224" />
+<authors>Wang Y, Pan Y, Zhao X, Li H, Wang D, Johnston SC, Liu L, Meng X, Wang A, Wang C, Wang Y; CHANCE Investigators.</authors>
+<title>Clopidogrel with aspirin in acute minor stroke or transient ischemic attack (CHANCE) trial: One-year outcomes.</title>
+<source>Circulation</source>
+<pubdate>2015</pubdate>
+<volume>132</volume>
+<pages>40&#x2013;46.</pages>
+</reference>
+<reference id="pubmed25531552">
+<accessionId id="acc063" href="info:pmid/25531552" />
+<authors>Sundstr&#x00F6;m J, Arima H, Jackson R, Turnbull F, Rahimi K, Chalmers J, Woodward M, Neal B; Blood Pressure Lowering Treatment Trialists' Collaboration.</authors>
+<title>Effects of blood pressure reduction in mild hypertension: A systematic review and meta-analysis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2015</pubdate>
+<volume>162</volume>
+<pages>184&#x2013;191.</pages>
+</reference>
+<reference id="pubmed26318604">
+<accessionId id="acc064" href="info:pmid/26318604" />
+<authors>Melgaard L, Gorst-Rasmussen A, Lane DA, Rasmussen LH, Larsen TB, Lip GY.</authors>
+<title>Assessment of the CHA2DS2-VASc score in predicting ischemic stroke, thromboembolism, and death in patients with heart failure with and without atrial fibrillation.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>314</volume>
+<pages>1030&#x2013;1038.</pages>
+</reference>
+<reference id="poem171244">
+<accessionId id="acc065" href="info:wiley/eep-poem/171244" />
+<accessionId id="acc065b" href="info:pmid/26359361" />
+<authors>Mulla SM, Wang L, Khokhar R, Izhar Z, Agarwal A, Couban R, Buckley DN, Moulin DE, Panju A, Makosso-Kallyth S, Turan A, Montori VM, Sessler DI, Thabane L, Guyatt GH, Busse JW.</authors>
+<title>Management of central poststroke pain: Systematic review of randomized controlled trials.</title>
+<source>Stroke</source>
+<pubdate>2015</pubdate>
+<volume>46</volume>
+<pages>2853&#x2013;2860.</pages>
+</reference>
+<reference id="poem180203">
+<accessionId id="acc066" href="info:wiley/eep-poem/180203" />
+<accessionId id="acc066b" href="info:pmid/25995317" />
+<authors>Sharma M, Cornelius VR, Patel JP, Davies JG, Molokhia M.</authors>
+<title>Efficacy and harms of direct oral anticoagulants in the elderly for stroke prevention in atrial fibrillation and secondary prevention of venous thromboembolism: Systematic review and meta-analysis.</title>
+<source>Circulation</source>
+<pubdate>2015</pubdate>
+<volume>132</volume>
+<pages>194&#x2013;204.</pages>
+</reference>
+<reference id="poem180142">
+<accessionId id="acc067" href="info:wiley/eep-poem/180142" />
+<accessionId id="acc067b" href="info:pmid/26343840" />
+<authors>Kalra L, Irshad S, Hodsoll J, Simpson M, Gulliford M, Smithard D, Patel A, Rebollo-Mesa I; STROKE-INF Investigators.</authors>
+<title>Prophylactic antibiotics after acute stroke for reducing pneumonia in patients with dysphagia (STROKE-INF): A prospective, cluster-randomised, open-label, masked endpoint, controlled clinical trial.</title>
+<source>Lancet</source>
+<pubdate>2015</pubdate>
+<volume>386</volume>
+<pages>1835&#x2013;1844.</pages>
+</reference>
+<reference id="poem180442">
+<accessionId id="acc068" href="info:wiley/eep-poem/180442" />
+<accessionId id="acc068b" href="info:pmid/26559744" />
+<authors>Xie X, Atkins E, Lv J, Bennett A, Neal B, Ninomiya T, Woodward M, MacMahon S, Turnbull F, Hillis GS, Chalmers J, Mant J, Salam A, Rahimi K, Perkovic V, Rodgers A.</authors>
+<title>Effects of intensive blood pressure lowering on cardiovascular and renal outcomes: Updated systematic review and meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>387</volume>
+<pages>435&#x2013;443.</pages>
+</reference>
+<reference id="cochrane3316">
+<accessionId id="acc069" href="info:wiley/cochrane/CD003316" />
+<chapter_authors>Saunders DH, Sanderson M, Hayes S, Kilrane M, Greig CA, Brazzelli M, Mead GE.</chapter_authors>
+<chapter_title>Physical fitness training for stroke patients.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 3. Art. No.: CD003316. DOI: 10.1002&#x002F;14651858.CD003316.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4955">
+<accessionId id="acc070" href="info:wiley/cochrane/CD004955" />
+<chapter_authors>Liu B, Tan Y, Wang D, Liu M.</chapter_authors>
+<chapter_title>Puerarin for ischaemic stroke.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 2. Art. No.: CD004955. DOI: 10.1002&#x002F;14651858.CD004955.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25547900">
+<accessionId id="acc071" href="info:pmid/25547900" />
+<authors>Zhang Q, Wang C, Zheng M, Li Y, Li J, Zhang L, Shang X, Yan C.</authors>
+<title>Aspirin plus clopidogrel as secondary prevention after stroke or transient ischemic attack: A systematic review and meta-analysis.</title>
+<source>Cerebrovasc Dis</source>
+<pubdate>2015</pubdate>
+<volume>39</volume>
+<pages>13&#x2013;22.</pages>
+</reference>
+<reference id="poem180603">
+<accessionId id="acc072" href="info:wiley/eep-poem/180603" />
+<accessionId id="acc072b" href="info:pmid/26886418" />
+<authors>Kernan WN, Viscoli CM, Furie KL, Young LH, Inzucchi SE, Gorman M, Guarino PD, Lovejoy AM, Peduzzi PN, Conwit R, Brass LM, Schwartz GG, Adams HP, Jr., Berger L, Carolei A, Clark W, Coull B, Ford GA, Kleindorfer D, O'Leary JR, Parsons MW, Ringleb P, Sen S, Spence JD, Tanne D, Wang D, Winder TR; IRIS Trial Investigators.</authors>
+<title>Pioglitazone after ischemic stroke or transient ischemic attack.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>1321&#x2013;1331.</pages>
+</reference>
+<reference id="poem181104">
+<accessionId id="acc073" href="info:wiley/eep-poem/181104" />
+<accessionId id="acc073b" href="info:pmid/27571048" />
+<authors>McEvoy RD, Antic NA, Heeley E, Luo Y, Ou Q, Zhang X, Mediano O, Chen R, Drager LF, Liu Z, Chen G, Du B, McArdle N, Mukherjee S, Tripathi M, Billot L, Li Q, Lorenzi-Filho G, Barbe F, Redline S, Wang J, Arima H, Neal B, White DP, Grunstein RR, Zhong N, Anderson CS; SAVE Investigators and Coordinators.</authors>
+<title>CPAP for prevention of cardiovascular events in obstructive sleep apnea.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>375</volume>
+<pages>919&#x2013;931.</pages>
+</reference>
+<reference id="poem180704">
+<accessionId id="acc074" href="info:wiley/eep-poem/180704" />
+<accessionId id="acc074b" href="info:pmid/27096581" />
+<authors>Amarenco P, Lavall&#x00E9;e PC, Labreuche J, Albers GW, Bornstein NM, Canh&#x00E3;o P, Caplan LR, Donnan GA, Ferro JM, Hennerici MG, Molina C, Rothwell PM, Sissani L, &#x0160;koloud&#x00ED;k D, Steg PG, Touboul PJ, Uchiyama S, Vicaut &#x00C9;, Wong LK; TIAregistry.org Investigators.</authors>
+<title>One-year risk of stroke after transient ischemic attack or minor stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>1533&#x2013;1542.</pages>
+</reference>
+<reference id="poem180722">
+<accessionId id="acc075" href="info:wiley/eep-poem/180722" />
+<accessionId id="acc075b" href="info:pmid/26920728" />
+<authors>Hijazi Z, Lindb&#x00E4;ck J, Alexander JH, Hanna M, Held C, Hylek EM, Lopes RD, Oldgren J, Siegbahn A, Stewart RA, White HD, Granger CB, Wallentin L; ARISTOTLE and STABILITY Investigators.</authors>
+<title>The ABC (age, biomarkers, clinical history) stroke risk score: A biomarker-based risk score for predicting stroke in atrial fibrillation.</title>
+<source>Eur Heart J</source>
+<pubdate>2016</pubdate>
+<volume>37</volume>
+<pages>1582&#x2013;1590.</pages>
+</reference>
+<reference id="pubmed27160892">
+<accessionId id="acc076" href="info:pmid/27160892" />
+<authors>Johnston SC, Amarenco P, Albers GW, Denison H, Easton JD, Evans SR, Held P, Jonasson J, Minematsu K, Molina CA, Wang Y, Wong KS; SOCRATES Steering Committee and Investigators.</authors>
+<title>Ticagrelor versus aspirin in acute stroke or transient ischemic attack.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>375</volume>
+<pages>35&#x2013;43.</pages>
+</reference>
+<reference id="poem190530">
+<accessionId id="acc077" href="info:wiley/eep-poem/190530" />
+<accessionId id="acc077b" href="info:pmid/28135725" />
+<authors>Qaseem A, Wilt TJ, Rich R, Humphrey LL, Frost J, Forciea MA; Clinical Guidelines Committee of the American College of Physicians and the Commission on Health of the Public and Science of the American Academy of Family Physicians.</authors>
+<title>Pharmacologic treatment of hypertension in adults aged 60 years or older to higher versus lower blood pressure targets: A clinical practice guideline from the American College of Physicians and the American Academy of Family Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>2017</pubdate>
+<volume>166</volume>
+<pages>430&#x2013;437.</pages>
+</reference>
+<reference id="poem191101">
+<accessionId id="acc078" href="info:wiley/eep-poem/191101" />
+<accessionId id="acc078b" href="info:pmid/28902593" />
+<authors>Mas JL, Derumeaux G, Guillon B, Massardier E, Hosseini H, Mechtouff L, Arquizan C, B&#x00E9;jot Y, Vuillier F, Detante O, Guidoux C, Canaple S, Vaduva C, Dequatre-Ponchelle N, Sibon I, Garnier P, Ferrier A, Timsit S, Robinet-Borgomano E, Sablot D, Lacour JC, Zuber M, Favrole P, Pinel JF, Apoil M, Reiner P, Lefebvre C, Gu&#x00E9;rin P, Piot C, Rossi R, Dubois-Rand&#x00E9; JL, Eicher JC, Meneveau N, Lusson JR, Bertrand B, Schleich JM, Godart F, Thambo JB, Leborgne L, Michel P, Pierard L, Turc G, Barthelet M, Charles-Nelson A, Weimar C, Moulin T, Juliard JM, Chatellier G; CLOSE Investigators.</authors>
+<title>Patent foramen ovale closure or anticoagulation vs. antiplatelets after stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>1011&#x2013;1021.</pages>
+</reference>
+<reference id="poem190920">
+<accessionId id="acc079" href="info:wiley/eep-poem/190920" />
+<accessionId id="acc079b" href="info:pmid/28679848" />
+<authors>Moresoli P, Habib B, Reynier P, Secrest MH, Eisenberg MJ, Filion KB.</authors>
+<title>Carotid stenting versus endarterectomy for asymptomatic carotid artery stenosis: A systematic review and meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>2017</pubdate>
+<volume>48</volume>
+<pages>2150&#x2013;2157.</pages>
+</reference>
+<reference id="poem200911">
+<accessionId id="acc080" href="info:wiley/eep-poem/200911" />
+<accessionId id="acc080b" href="info:pmid/29766750" />
+<authors>Johnston SC, Easton JD, Farrant M, Barsan W, Conwit RA, Elm JJ, Kim AS, Lindblad AS, Palesch YY, Clinical Research Collaboration, Neurological Emergencies Treatment Trials Network, and the POINT Investigators.</authors>
+<title>Clopidogrel and aspirin in acute ischemic stroke and high-risk TIA.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>215&#x2013;225.</pages>
+</reference>
+<reference id="poem201219">
+<accessionId id="acc081" href="info:wiley/eep-poem/201219" />
+<accessionId id="acc081b" href="info:pmid/30354990" />
+<authors>Harvey RL, Edwards D, Dunning K, Fregni F, Stein J, Laine J, Rogers LM, Vox F, Durand-Sanchez A, Bockbrader M, Goldstein LB, Francisco GE, Kinney CL, Liu CY, NICHE Trial Investigators*.</authors>
+<title>Randomized sham-controlled trial of navigated repetitive transcranial magnetic stimulation for motor recovery in stroke.</title>
+<source>Stroke</source>
+<pubdate>2018</pubdate>
+<volume>49</volume>
+<pages>2138&#x2013;2146.</pages>
+</reference>
+<reference id="pubmed28122885">
+<accessionId id="acc082" href="info:pmid/28122885" />
+<authors>Benjamin EJ, Blaha MJ, Chiuve SE, Cushman M, Das SR, Deo R, de Ferranti SD, Floyd J, Fornage M, Gillespie C, Isasi CR, Jim&#x00E9;nez MC, Jordan LC, Judd SE, Lackland D, Lichtman JH, Lisabeth L, Liu S, Longenecker CT, Mackey RH, Matsushita K, Mozaffarian D, Mussolino ME, Nasir K, Neumar RW, Palaniappan L, Pandey DK, Thiagarajan RR, Reeves MJ, Ritchey M, Rodriguez CJ, Roth GA, Rosamond WD, Sasson C, Towfighi A, Tsao CW, Turner MB, Virani SS, Voeks JH, Willey JZ, Wilkins JT, Wu JH, Alger HM, Wong SS, Muntner P, American Heart Association Statistics Committee and Stroke Statistics Subcommittee.</authors>
+<title>Heart Disease and Stroke Statistics-2017 Update: A Report From the American Heart Association.</title>
+<source>Circulation</source>
+<pubdate>2017</pubdate>
+<volume>135</volume>
+<pages>e146&#x2013;e603.</pages>
+</reference>
+<reference id="poem210806">
+<accessionId id="acc083" href="info:wiley/eep-poem/210806" />
+<accessionId id="acc083b" href="info:pmid/31091372" />
+<authors>Diener HC, Sacco RL, Easton JD, Granger CB, Bernstein RA, Uchiyama S, Kreuzer J, Cronin L, Cotton D, Grauer C, Brueckmann M, Chernyatina M, Donnan G, Ferro JM, Grond M, Kallm&#x00FC;nzer B, Krupinski J, Lee BC, Lemmens R, Masjuan J, Odinak M, Saver JL, Schellinger PD, Toni D, Toyoda K, RE-SPECT ESUS Steering Committee and Investigators.</authors>
+<title>Dabigatran for prevention of stroke after embolic stroke of undetermined source.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>1906&#x2013;1917.</pages>
+</reference>
+<reference id="poem210708">
+<accessionId id="acc084" href="info:wiley/eep-poem/210708" />
+<accessionId id="acc084b" href="info:pmid/30734043" />
+<authors>Spence JD, Viscoli CM, Inzucchi SE, Dearborn-Tomazos J, Ford GA, Gorman M, Furie KL, Lovejoy AM, Young LH, Kernan WN, IRIS Investigators.</authors>
+<title>Pioglitazone therapy in patients with stroke and prediabetes: A post hoc analysis of the IRIS randomized clinical trial.</title>
+<source>JAMA Neurol</source>
+<pubdate>2019</pubdate>
+<volume>76</volume>
+<pages>526&#x2013;535.</pages>
+</reference>
+<reference id="poem210503">
+<accessionId id="acc085" href="info:wiley/eep-poem/210503" />
+<accessionId id="acc085b" href="info:pmid/30712900" />
+<authors>Cholesterol Treatment Trialists' Collaboration.</authors>
+<title>Efficacy and safety of statin therapy in older people: a meta-analysis of individual participant data from 28 randomised controlled trials.</title>
+<source>Lancet</source>
+<pubdate>2019</pubdate>
+<volume>393</volume>
+<pages>407&#x2013;415.</pages>
+</reference>
+<reference id="cochrane3690">
+<accessionId id="acc086" href="info:wiley/cochrane/CD3690" />
+<chapter_authors>Allida S, Patel K, House A, Hackett ML.</chapter_authors>
+<chapter_title>Pharmaceutical interventions for emotionalism after stroke.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 3. Art. No.: CD003690. DOI: 10.1002&#x002F;14651858.CD003690.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24788967">
+<accessionId id="acc087" href="info:pmid/24788967" />
+<authors>Kernan WN, Ovbiagele B, Black HR, Bravata DM, Chimowitz MI, Ezekowitz MD, Fang MC, Fisher M, Furie KL, Heck DV, Johnston SC, Kasner SE, Kittner SJ, Mitchell PH, Rich MW, Richardson D, Schwamm LH, Wilson JA, American Heart Association Stroke Council, Council on Cardiovascular and Stroke Nursing, Council on Clinical Cardiology, and Council on Peripheral Vascular Disease.</authors>
+<title>Guidelines for the prevention of stroke in patients with stroke and transient ischemic attack: A guideline for healthcare professionals from the American Heart Association&#x002F;American Stroke Association.</title>
+<source>Stroke</source>
+<pubdate>2014</pubdate>
+<volume>45</volume>
+<pages>2160&#x2013;236.</pages>
+</reference>
+<reference id="poem211205">
+<accessionId id="acc088" href="info:wiley/eep-poem/211205" />
+<accessionId id="acc088b" href="info:pmid/31475793" />
+<authors>Yasuda S, Kaikita K, Akao M, Ako J, Matoba T, Nakamura M, Miyauchi K, Hagiwara N, Kimura K, Hirayama A, Matsui K, Ogawa H, AFIRE Investigators.</authors>
+<title>Antithrombotic therapy for atrial fibrillation with stable coronary disease.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>381</volume>
+<pages>1103&#x2013;1113.</pages>
+</reference>
+<reference id="cochrane7231">
+<accessionId id="acc089" href="info:wiley/cochrane/CD7231" />
+<chapter_authors>Boncoraglio GB, Ranieri M, Bersano A, Parati EA, Del Giovane C.</chapter_authors>
+<chapter_title>Stem cell transplantation for ischemic stroke.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 5. Art. No.: CD007231. DOI: 10.1002&#x002F;14651858.CD007231.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31813360">
+<accessionId id="acc090" href="info:pmid/31813360" />
+<authors>Bellastella G, Maiorino MI, Longo M, Scappaticcio L, Chiodini P, Esposito K, Giugliano D.</authors>
+<title>Glucagon-like peptide-1 receptor agonists and prevention of stroke systematic review of cardiovascular outcome trials with meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>2020</pubdate>
+<volume>51</volume>
+<pages>666&#x2013;669.</pages>
+</reference>
+<reference id="poem220910">
+<accessionId id="acc091" href="info:wiley/eep-poem/220910" />
+<accessionId id="acc091b" href="info:pmid/32668111" />
+<authors>Johnston SC, Amarenco P, Denison H, Evans SR, Himmelmann A, James S, Knutsson M, Ladenvall P, Molina CA, Wang Y, THALES Investigators.</authors>
+<title>Ticagrelor and aspirin or aspirin alone in acute Ischemic stroke or TIA.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>207&#x2013;217.</pages>
+</reference>
+<reference id="poem220313">
+<accessionId id="acc092" href="info:wiley/eep-poem/220313" />
+<accessionId id="acc092b" href="info:pmid/31738483" />
+<authors>Amarenco P, Kim JS, Labreuche J, Charles H, Abtan J, B&#x00E9;jot Y, Cabrejo L, Cha JK, Ducrocq G, Giroud M, Guidoux C, Hobeanu C, Kim YJ, Lapergue B, Lavall&#x00E9;e PC, Lee BC, Lee KB, Leys D, Mahagne MH, Meseguer E, Nighoghossian N, Pico F, Samson Y, Sibon I, Steg PG, Sung SM, Touboul PJ, Touz&#x00E9; E, Varenne O, Vicaut &#x00C9;, Yelles N, Bruckert E, Treat Stroke to Target Investigators.</authors>
+<title>A comparison of two LDL cholesterol targets after Ischemic stroke.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>9.</pages>
+</reference>
+<reference id="poem220231">
+<accessionId id="acc093" href="info:wiley/eep-poem/220231" />
+<accessionId id="acc093b" href="info:pmid/31547797" />
+<authors>Sagris D, Georgiopoulos G, Perlepe K, Pateras K, Korompoki E, Makaritsis K, Vemmos K, Milionis H, Ntaios G.</authors>
+<title>Antithrombotic treatment in cryptogenic stroke patients with patent foramen ovale: Systematic review and meta-analysis.</title>
+<source>Stroke</source>
+<pubdate>2019</pubdate>
+<volume>50</volume>
+<pages>3135&#x2013;3140.</pages>
+</reference>
+<reference id="poem211210">
+<accessionId id="acc094" href="info:wiley/eep-poem/211210" />
+<accessionId id="acc094b" href="info:pmid/31329212" />
+<authors>Xian Y, Xu H, O'Brien EC, Shah S, Thomas L, Pencina MJ, Fonarow GC, Olson DM, Schwamm LH, Bhatt DL, Smith EE, Hannah D, Maisch L, Lytle BL, Peterson ED, Hernandez AF.</authors>
+<title>Clinical effectiveness of direct oral anticoagulants vs warfarin in older patients with atrial fibrillation and Ischemic stroke: Findings from the Patient-Centered Research into Outcomes Stroke Patients Prefer and Effectiveness Research (PROSPER) Study.</title>
+<source>JAMA Neurol</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="poem230129">
+<accessionId id="acc095" href="info:wiley/eep-poem/230129" />
+<accessionId id="acc095b" href="info:pmid/33196155" />
+<authors>Guimar&#x00E3;es HP, Lopes RD, de Barros E Silva PGM, Liporace IL, Sampaio RO, Tarasoutchi F, Hoffmann-Filho CR, de Lemos Soares Patriota R, Leiria TLL, Lamprea D, Precoma DB, Atik FA, Silveira FS, Farias FR, Barreto DO, Almeida AP, Zilli AC, de Souza Neto JD, Cavalcante MA, Figueira FAMS, Kojima FCS, Damiani L, Santos RHN, Valeis N, Campos VB, Saraiva JFK, Fonseca FH, Pinto IM, Magalh&#x00E3;es CC, Ferreira JFM, Alexander JH, Pavanello R, Cavalcanti AB, Berwanger O, RIVER Trial Investigators.</authors>
+<title>Rivaroxaban in patients with atrial fibrillation and a bioprosthetic mitral valve.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>2117&#x2013;2126.</pages>
+</reference>
+<reference id="poem221221">
+<accessionId id="acc096" href="info:wiley/eep-poem/221221" />
+<accessionId id="acc096b" href="info:pmid/32865374" />
+<authors>Okumura K, Akao M, Yoshida T, Kawata M, Okazaki O, Akashi S, Eshima K, Tanizawa K, Fukuzawa M, Hayashi T, Akishita M, Lip GYH, Yamashita T, ELDERCARE-AF Committees and Investigators.</authors>
+<title>Low-dose edoxaban in very elderly patients with atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>1735&#x2013;1745.</pages>
+</reference>
+<reference id="pubmed33198608">
+<accessionId id="acc097" href="info:pmid/33198608" />
+<authors>Amarenco P, Denison H, Evans SR, Himmelmann A, James S, Knutsson M, Ladenvall P, Molina CA, Wang Y, Johnston SC, THALES Steering Committee and Investigators*.</authors>
+<title>Ticagrelor added to aspirin in acute nonsevere ischemic stroke or transient ischemic attack of atherosclerotic origin.</title>
+<source>Stroke</source>
+<pubdate>2020</pubdate>
+<volume>51</volume>
+<pages>3504&#x2013;3513.</pages>
+</reference>
+<reference id="pubmed33080696">
+<accessionId id="acc098" href="info:pmid/33080696" />
+<authors>Xu XM, Luo H, Rong BB, Zheng XM, Wang FT, Zhang SJ, Li ZX.</authors>
+<title>Nonpharmacological therapies for central poststroke pain: A systematic review.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2020</pubdate>
+<volume>99</volume>
+<pages>e22611.</pages>
+</reference>
+<reference id="cochrane126">
+<accessionId id="acc099" href="info:wiley/cochrane/CD000126" />
+<chapter_authors>Rerkasem A, Orrapin S, Howard DP, Nantakool S, Rerkasem K.</chapter_authors>
+<chapter_title>Local versus general anaesthesia for carotid endarterectomy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 10. Art. No.: CD000126. DOI: 10.1002&#x002F;14651858.CD000126.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1919">
+<accessionId id="acc100" href="info:wiley/cochrane/CD001919" />
+<chapter_authors>Crocker TF, Brown L, Lam N, Wray F, Knapp P, Forster A.</chapter_authors>
+<chapter_title>Information provision for stroke survivors and their carers.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 11. Art. No.: CD001919. DOI: 10.1002&#x002F;14651858.CD001919.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="rule612">
+<accessionId id="acc101" href="info:wiley/eep-rule/612" />
+<accessionId id="acc101b" href="info:pmid/33461885" />
+<authors>Boyle RSJ, Body R.</authors>
+<title>The Diagnostic Accuracy of the Emergency Department Assessment of Chest Pain (EDACS) Score: A Systematic Review and Meta-analysis.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>77</volume>
+<pages>433&#x2013;441.</pages>
+</reference>
+<reference id="pubmed18477843">
+<accessionId id="acc102" href="info:pmid/18477843" />
+<authors>European Stroke Organisation (ESO) Executive Committee, ESO Writing Committee.</authors>
+<title>Guidelines for management of ischaemic stroke and transient ischaemic attack 2008.</title>
+<source>Cerebrovasc Dis</source>
+<pubdate>2008</pubdate>
+<volume>25</volume>
+<pages>457&#x2013;507.</pages>
+</reference>
+<reference id="pubmed19423857">
+<accessionId id="acc103" href="info:pmid/19423857" />
+<authors>Easton JD, Saver JL, Albers GW, Alberts MJ, Chaturvedi S, Feldmann E, Hatsukami TS, Higashida RT, Johnston SC, Kidwell CS, Lutsep HL, Miller E, Sacco RL, American Heart Association, American Stroke Association Stroke Council, Council on Cardiovascular Surgery and Anesthesia, Council on Cardiovascular Radiology and Intervention, Council on Cardiovascular Nursing, Interdisciplinary Council on Peripheral Vascular Disease.</authors>
+<title>Definition and evaluation of transient ischemic attack: a scientific statement for healthcare professionals from the American Heart Association&#x002F;American Stroke Association Stroke Council; Council on Cardiovascular Surgery and Anesthesia; Council on Cardiovascular Radiology and Intervention; Council on Cardiovascular Nursing; and the Interdisciplinary Council on Peripheral Vascular Disease. The American Academy of Neurology affirms the value of this statement as an educational tool for neurologists.</title>
+<source>Stroke</source>
+<pubdate>2009</pubdate>
+<volume>40</volume>
+<pages>2276&#x2013;93.</pages>
+</reference>
+<reference id="poem358534">
+<accessionId id="acc104" href="info:wiley/eep-poem/358534" />
+<accessionId id="acc104b" href="info:pmid/34455822" />
+<authors>Mess&#x00E9; SR, Erus G, Bilello M, Davatzikos C, Andersen G, Iversen HK, Roine RO, Sj&#x00F6;strand C, Rhodes JF, S&#x00F8;ndergaard L, Kasner SE, Gore REDUCE Study Investigators.</authors>
+<title>Patent Foramen Ovale Closure Decreases the Incidence but Not the Size of New Brain Infarction on Magnetic Resonance Imaging: An Analysis of the REDUCE Trial.</title>
+<source>Stroke</source>
+<pubdate>2021</pubdate>
+<volume>52</volume>
+<pages>3419&#x2013;3426.</pages>
+</reference>
+<reference id="pubmed34024117">
+<accessionId id="acc105" href="info:pmid/34024117" />
+<authors>Kleindorfer DO, Towfighi A, Chaturvedi S, Cockroft KM, Gutierrez J, Lombardi-Hill D, Kamel H, Kernan WN, Kittner SJ, Leira EC, Lennon O, Meschia JF, Nguyen TN, Pollak PM, Santangeli P, Sharrief AZ, Smith SC Jr, Turan TN, Williams LS.</authors>
+<title>2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack: A Guideline From the American Heart Association&#x002F;American Stroke Association.</title>
+<source>Stroke</source>
+<pubdate>2021</pubdate>
+<volume>52</volume>
+<pages>e364&#x2013;e467.</pages>
+</reference>
+<reference id="rule410">
+<accessionId id="acc106" href="info:wiley/eep-rule/410" />
+<accessionId id="acc106b" href="info:pmid/20185786" />
+<authors>Giles MF, Rothwell PM.</authors>
+<title>Systematic review and pooled analysis of published and unpublished validations of the ABCD and ABCD2 transient ischemic attack risk scores.</title>
+<source>Stroke</source>
+<pubdate>2010</pubdate>
+<volume>41</volume>
+<pages>667&#x2013;73.</pages>
+</reference>
+<reference id="poem355405">
+<accessionId id="acc107" href="info:wiley/eep-poem/355405" />
+<accessionId id="acc107b" href="info:pmid/35285850" />
+<authors>Byrne P, Demasi M, Jones M, Smith SM, O'Brien KK, DuBroff R.</authors>
+<title>Evaluating the Association Between Low-Density Lipoprotein Cholesterol Reduction and Relative and Absolute Effects of Statin Treatment: A Systematic Review and Meta-analysis.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>182</volume>
+<pages>474&#x2013;481.</pages>
+</reference>
+<reference id="poem376012">
+<accessionId id="acc108" href="info:wiley/eep-poem/376012" />
+<accessionId id="acc108b" href="info:pmid/35188949" />
+<authors>Lee M, Cheng CY, Wu YL, Lee JD, Hsu CY, Ovbiagele B.</authors>
+<title>Association Between Intensity of Low-Density Lipoprotein Cholesterol Reduction With Statin-Based Therapies and Secondary Stroke Prevention: A Meta-analysis of Randomized Clinical Trials.</title>
+<source>JAMA Neurol</source>
+<pubdate>2022</pubdate>
+<volume>79</volume>
+<pages>349&#x2013;358.</pages>
+</reference>
+<reference id="poem391718">
+<accessionId id="acc109" href="info:wiley/eep-poem/391718" />
+<accessionId id="acc109b" href="info:pmid/34870698" />
+<authors>Lun R, Dhaliwal S, Zitikyte G, Roy DC, Hutton B, Dowlatshahi D.</authors>
+<title>Comparison of Ticagrelor vs Clopidogrel in Addition to Aspirin in Patients With Minor Ischemic Stroke and Transient Ischemic Attack: A Network Meta-analysis.</title>
+<source>JAMA Neurol</source>
+<pubdate>2022</pubdate>
+<volume>79</volume>
+<pages>141&#x2013;148.</pages>
+</reference>
+<reference id="poem310673">
+<accessionId id="acc110" href="info:wiley/eep-poem/310673" />
+<accessionId id="acc110b" href="info:pmid/33926204" />
+<authors>Trifan G, Gorelick PB, Testai FD.</authors>
+<title>Efficacy and Safety of Using Dual Versus Monotherapy Antiplatelet Agents in Secondary Stroke Prevention: Systematic Review and Meta-Analysis of Randomized Controlled Clinical Trials.</title>
+<source>Circulation</source>
+<pubdate>2021</pubdate>
+<volume>143</volume>
+<pages>2441&#x2013;2453.</pages>
+</reference>
+<reference id="poem369278">
+<accessionId id="acc111" href="info:wiley/eep-poem/369278" />
+<accessionId id="acc111b" href="info:pmid/33902301" />
+<authors>Bhatia K, Jain V, Aggarwal D, Vaduganathan M, Arora S, Hussain Z, Uberoi G, Tafur A, Zhang C, Ricciardi M, Qamar A.</authors>
+<title>Dual Antiplatelet Therapy Versus Aspirin in Patients With Stroke or Transient Ischemic Attack: Meta-Analysis of Randomized Controlled Trials.</title>
+<source>Stroke</source>
+<pubdate>2021</pubdate>
+<volume>52</volume>
+<pages>e217&#x2013;e223.</pages>
+</reference>
+<reference id="poem361975">
+<accessionId id="acc112" href="info:wiley/eep-poem/361975" />
+<accessionId id="acc112b" href="info:pmid/34010531" />
+<authors>SPRINT Research Group, Lewis CE, Fine LJ, Beddhu S, Cheung AK, Cushman WC, Cutler JA, Evans GW, Johnson KC, Kitzman DW, Oparil S, Rahman M, Reboussin DM, Rocco MV, Sink KM, Snyder JK, Whelton PK, Williamson JD, Wright JT Jr, Ambrosius WT.</authors>
+<title>Final Report of a Trial of Intensive versus Standard Blood-Pressure Control.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>384</volume>
+<pages>1921&#x2013;1930.</pages>
+</reference>
+<reference id="poem343312">
+<accessionId id="acc113" href="info:wiley/eep-poem/343312" />
+<accessionId id="acc113b" href="info:pmid/33159526" />
+<authors>Amarenco P, Denison H, Evans SR, Himmelmann A, James S, Knutsson M, Ladenvall P, Molina CA, Wang Y, Johnston SC, THALES Steering Committee and Investigators.</authors>
+<title>Ticagrelor Added to Aspirin in Acute Ischemic Stroke or Transient Ischemic Attack in Prevention of Disabling Stroke: A Randomized Clinical Trial.</title>
+<source>JAMA Neurol</source>
+<pubdate>2020</pubdate>
+<volume>78</volume>
+<pages>1&#x2013;9.</pages>
+</reference>
+<reference id="poem302657">
+<accessionId id="acc114" href="info:wiley/eep-poem/302657" />
+<accessionId id="acc114b" href="info:pmid/35943472" />
+<authors>Gao P, Wang T, Wang D, Liebeskind DS, Shi H, Li T, Zhao Z, Cai Y, Wu W, He W, Yu J, Zheng B, Wang H, Wu Y, Dmytriw AA, Krings T, Derdeyn CP, Jiao L, CASSISS Trial Investigators.</authors>
+<title>Effect of Stenting Plus Medical Therapy vs Medical Therapy Alone on Risk of Stroke and Death in Patients With Symptomatic Intracranial Stenosis: The CASSISS Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2022</pubdate>
+<volume>328</volume>
+<pages>534&#x2013;542.</pages>
+</reference>
+<reference id="poem398810">
+<accessionId id="acc115" href="info:wiley/eep-poem/398810" />
+<accessionId id="acc115b" href="info:pmid/30510641" />
+<authors>Atti V, Anantha-Narayanan M, Turagam MK, Koerber S, Rao S, Viles-Gonzalez JF, Suri RM, Velagapudi P, Lakkireddy D, Benditt DG.</authors>
+<title>Surgical left atrial appendage occlusion during cardiac surgery: A systematic review and meta-analysis.</title>
+<source>World J Cardiol</source>
+<pubdate>2018</pubdate>
+<volume>10</volume>
+<pages>242&#x2013;249.</pages>
+</reference>
+<reference id="poem329523">
+<accessionId id="acc116" href="info:wiley/eep-poem/329523" />
+<accessionId id="acc116b" href="info:pmid/34459569" />
+<authors>Neal B, Wu Y, Feng X, Zhang R, Zhang Y, Shi J, Zhang J, Tian M, Huang L, Li Z, Yu Y, Zhao Y, Zhou B, Sun J, Liu Y, Yin X, Hao Z, Yu J, Li KC, Zhang X, Duan P, Wang F, Ma B, Shi W, Di Tanna GL, Stepien S, Shan S, Pearson SA, Li N, Yan LL, Labarthe D, Elliott P.</authors>
+<title>Effect of Salt Substitution on Cardiovascular Events and Death.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>385</volume>
+<pages>1067&#x2013;1077.</pages>
+</reference>
+<reference id="poem360806">
+<accessionId id="acc117" href="info:wiley/eep-poem/360806" />
+<accessionId id="acc117b" href="info:pmid/35608581" />
+<authors>Chang RW, Tucker LY, Rothenberg KA, Lancaster E, Faruqi RM, Kuang HC, Flint AC, Avins AL, Nguyen-Huynh MN.</authors>
+<title>Incidence of Ischemic Stroke in Patients With Asymptomatic Severe Carotid Stenosis Without Surgical Intervention.</title>
+<source>JAMA</source>
+<pubdate>2022</pubdate>
+<volume>327</volume>
+<pages>1974&#x2013;1982.</pages>
+</reference>
+<reference id="poem314043">
+<accessionId id="acc118" href="info:wiley/eep-poem/314043" />
+<accessionId id="acc118b" href="info:pmid/35132265" />
+<authors>Xie Y, Xu E, Bowe B, Al-Aly Z.</authors>
+<title>Long-term cardiovascular outcomes of COVID-19.</title>
+<source>Nat Med</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>583&#x2013;590.</pages>
+</reference>
+<reference id="poem335056">
+<accessionId id="acc119" href="info:wiley/eep-poem/335056" />
+<accessionId id="acc119b" href="info:pmid/37606672" />
+<authors>Ma Y, Wang T, Wang H, Amin-Hanjani S, Tong X, Wang J, Tong Z, Kuai D, Cai Y, Ren J, Wang D, Duan L, Maimaitili A, Hang C, Yu J, Bai X, Powers WJ, Derdeyn CP, Wu Y, Ling F, Gu Y, Jiao L, CMOSS Investigators.</authors>
+<title>Extracranial-Intracranial Bypass and Risk of Stroke and Death in Patients With Symptomatic Artery Occlusion: The CMOSS Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>330</volume>
+<pages>704&#x2013;714.</pages>
+</reference>
+<reference id="poem308906">
+<accessionId id="acc120" href="info:wiley/eep-poem/308906" />
+<accessionId id="acc120b" href="info:pmid/37222476" />
+<authors>Fischer U, Koga M, Strbian D, Branca M, Abend S, Trelle S, Paciaroni M, Thomalla G, Michel P, Nedeltchev K, Bonati LH, Ntaios G, Gattringer T, Sandset EC, Kelly P, Lemmens R, Sylaja PN, Aguiar de Sousa D, Bornstein NM, Gdovinova Z, Yoshimoto T, Tiainen M, Thomas H, Krishnan M, Shim GC, Gumbinger C, Vehoff J, Zhang L, Matsuzono K, Kristoffersen E, Desfontaines P, Vanacker P, Alonso A, Yakushiji Y, Kulyk C, Hemelsoet D, Poli S, Paiva Nunes A, Caracciolo N, Slade P, Demeestere J, Salerno A, Kneihsl M, Kahles T, Giudici D, Tanaka K, R&#x00E4;ty S, Hidalgo R, Werring DJ, G&#x00F6;ldlin M, Arnold M, Ferrari C, Beyeler S, Fung C, Weder BJ, Tatlisumak T, Fenzl S, Rezny-Kasprzak B, Hakim A, Salanti G, Bassetti C, Gralla J, Seiffge DJ, Horvath T, Dawson J, ELAN Investigators.</authors>
+<title>Early versus Later Anticoagulation for Stroke with Atrial Fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>2411&#x2013;2421.</pages>
+</reference>
+<reference id="poem310259">
+<accessionId id="acc121" href="info:wiley/eep-poem/310259" />
+<accessionId id="acc121b" href="info:pmid/36571776" />
+<authors>Lee KH, Chen YF, Yeh WY, Yeh JT, Yang TH, Chou CY, Chang YL, Wang WT, Chiang CE, Chen CH, Cheng HM.</authors>
+<title>Optimal stroke preventive strategy for patients aged 80 years or older with atrial fibrillation: a systematic review with traditional and network meta-analysis.</title>
+<source>Age Ageing</source>
+<pubdate>2022</pubdate>
+<volume>51</volume>
+<pages />
+</reference>
+<reference id="poem358815">
+<accessionId id="acc122" href="info:wiley/eep-poem/358815" />
+<accessionId id="acc122b" href="info:pmid/35730457" />
+<authors>Wang J, Bai X, Wang T, Dmytriw AA, Patel AB, Jiao L.</authors>
+<title>Carotid Stenting Versus Endarterectomy for Asymptomatic Carotid Artery Stenosis: A Systematic Review and Meta-Analysis.</title>
+<source>Stroke</source>
+<pubdate>2022</pubdate>
+<volume>53</volume>
+<pages>3047&#x2013;3054.</pages>
+</reference>
+<reference id="poem320333">
+<accessionId id="acc123" href="info:wiley/eep-poem/320333" />
+<accessionId id="acc123b" href="info:pmid/35878404" />
+<authors>Siontis KC, Gersh BJ, Weston SA, Jiang R, Roger VL, Noseworthy PA, Chamberlain AM.</authors>
+<title>Associations of Atrial Fibrillation After Noncardiac Surgery With Stroke, Subsequent Arrhythmia, and Death : A Cohort Study.</title>
+<source>Ann Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>175</volume>
+<pages>1065&#x2013;1072.</pages>
+</reference>
+<reference id="cochrane7039">
+<accessionId id="acc124" href="info:wiley/cochrane/CD7039" />
+<chapter_authors>Hazelton C, Thomson K, Todhunter-Brown A, Campbell P, Chung CS, Dorris L, Gillespie DC, Hunter SM, McGill K, Nicolson DJ, Williams LJ, Brady MC.</chapter_authors>
+<chapter_title>Interventions for perceptual disorders following stroke.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 11. Art. No.: CD007039. DOI: 10.1002&#x002F;14651858.CD007039.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem391015">
+<accessionId id="acc125" href="info:wiley/eep-poem/391015" />
+<accessionId id="acc125b" href="info:pmid/37626339" />
+<authors>Meng L, Liang Q, Yuan J, Li S, Ge Y, Yang J, Tsang RCC, Wei Q.</authors>
+<title>Vestibular rehabilitation therapy on balance and gait in patients after stroke: a systematic review and meta-analysis.</title>
+<source>BMC Med</source>
+<pubdate>2023</pubdate>
+<volume>21</volume>
+<pages>322.</pages>
+</reference>
+<reference id="poem373805">
+<accessionId id="acc126" href="info:wiley/eep-poem/373805" />
+<accessionId id="acc126b" href="info:pmid/38753961" />
+<authors>Letnar G, Andersen KK, Olsen TS.</authors>
+<title>Risk of Stroke in Women Using Levonorgestrel-Releasing Intrauterine Device for Contraception.</title>
+<source>Stroke</source>
+<pubdate>2024</pubdate>
+<volume>55</volume>
+<pages>1830&#x2013;1837.</pages>
+</reference>
+<reference id="poem322230">
+<accessionId id="acc127" href="info:wiley/eep-poem/322230" />
+<accessionId id="acc127b" href="info:pmid/38324415" />
+<authors>Kamel H, Longstreth WT Jr, Tirschwell DL, Kronmal RA, Marshall RS, Broderick JP, Arag&#x00F3;n Garc&#x00ED;a R, Plummer P, Sabagha N, Pauls Q, Cassarly C, Dillon CR, Di Tullio MR, Hod EA, Soliman EZ, Gladstone DJ, Healey JS, Sharma M, Chaturvedi S, Janis LS, Krishnaiah B, Nahab F, Kasner SE, Stanton RJ, Kleindorfer DO, Starr M, Winder TR, Clark WM, Miller BR, Elkind MSV, ARCADIA Investigators.</authors>
+<title>Apixaban to Prevent Recurrence After Cryptogenic Stroke in Patients With Atrial Cardiopathy: The ARCADIA Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2024</pubdate>
+<volume>331</volume>
+<pages>573&#x2013;581.</pages>
+</reference>
+<reference id="poem372162">
+<accessionId id="acc128" href="info:wiley/eep-poem/372162" />
+<accessionId id="acc128b" href="info:pmid/37952132" />
+<authors>Healey JS, Lopes RD, Granger CB, Alings M, Rivard L, McIntyre WF, Atar D, Birnie DH, Boriani G, Camm AJ, Conen D, Erath JW, Gold MR, Hohnloser SH, Ip J, Kautzner J, Kutyifa V, Linde C, Mabo P, Mairesse G, Benezet Mazuecos J, Cosedis Nielsen J, Philippon F, Proietti M, Sticherling C, Wong JA, Wright DJ, Zarraga IG, Coutts SB, Kaplan A, Pombo M, Ayala-Paredes F, Xu L, Simek K, Nevills S, Mian R, Connolly SJ, ARTESIA Investigators.</authors>
+<title>Apixaban for Stroke Prevention in Subclinical Atrial Fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>107&#x2013;117.</pages>
+</reference>
+<reference id="poem397653">
+<accessionId id="acc129" href="info:wiley/eep-poem/397653" />
+<accessionId id="acc129b" href="info:pmid/38315477" />
+<authors>Petersen CL, Hougaard A, Gaist D, Hallas J.</authors>
+<title>Risk of Stroke and Myocardial Infarction Among Initiators of Triptans.</title>
+<source>JAMA Neurol</source>
+<pubdate>2024</pubdate>
+<volume>81</volume>
+<pages>248&#x2013;254.</pages>
+</reference>
+<reference id="poem342599">
+<accessionId id="acc130" href="info:wiley/eep-poem/342599" />
+<accessionId id="acc130b" href="info:pmid/38709137" />
+<authors>Robinson CH, Hussain J, Jeyakumar N, Smith G, Birken CS, Dart A, Dionne J, Garg A, Kandasamy S, Karam S, Marjerrison S, South AM, Thabane L, Wahi G, Zappitelli M, Chanchlani R.</authors>
+<title>Long-Term Cardiovascular Outcomes in Children and Adolescents With Hypertension.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2024</pubdate>
+<volume>178</volume>
+<pages>688&#x2013;698.</pages>
+</reference>
+<reference id="poem369784">
+<accessionId id="acc131" href="info:wiley/eep-poem/369784" />
+<accessionId id="acc131b" href="info:pmid/39137064" />
+<authors>Pan SY, Su EL, Huang CJ, Chuang SY, Chiang CE, Chen CH, Cheng HM.</authors>
+<title>Evaluation of glucose-lowering medications in older people: a comprehensive systematic review and network meta-analysis of randomized controlled trials.</title>
+<source>Age Ageing</source>
+<pubdate>2024</pubdate>
+<volume>53</volume>
+<pages />
+</reference>
+<reference id="poem367270">
+<accessionId id="acc132" href="info:wiley/eep-poem/367270" />
+<accessionId id="acc132b" href="info:pmid/39555827" />
+<authors>Bi Y, Li M, Liu Y, Li T, Lu J, Duan P, Xu F, Dong Q, Wang A, Wang T, Zheng R, Chen Y, Xu M, Wang X, Zhang X, Niu Y, Kang Z, Lu C, Wang J, Qiu X, Wang A, Wu S, Niu J, Wang J, Zhao Z, Pan H, Yang X, Niu X, Pang S, Zhang X, Dai Y, Wan Q, Chen S, Zheng Q, Dai S, Deng J, Liu L, Wang G, Zhu H, Tang W, Liu H, Guo Z, Ning G, He J, Xu Y, Wang W, BPROAD Research Group.</authors>
+<title>Intensive Blood-Pressure Control in Patients with Type 2 Diabetes.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>1155&#x2013;1167.</pages>
+</reference>
+<reference id="poem361694">
+<accessionId id="acc133" href="info:wiley/eep-poem/361694" />
+<accessionId id="acc133b" href="info:pmid/40228066" />
+<authors>Stamatakis E, Biswas RK, Koemel NA, Sabag A, Pulsford R, Atkin AJ, Stathi A, Cheng S, Th&#x00F8;gersen-Ntoumani C, Blodgett JM, Bauman A, Celis-Morales C, Hamer M, Gill JMR, Ahmadi MN.</authors>
+<title>Dose Response of Incidental Physical Activity Against Cardiovascular Events and Mortality.</title>
+<source>Circulation</source>
+<pubdate>2025</pubdate>
+<volume>151</volume>
+<pages>1063&#x2013;1075.</pages>
+</reference>
+<reference id="pubmed40902613">
+<accessionId id="acc134" href="info:pmid/40902613" />
+<authors>Valgimigli M, Choi KH, Giacoppo D, Gragnano F, Kimura T, Watanabe H, Kim HS, Kang J, Park KW, Pettersen A&#x00C5;, Woodward M, Bhatt DL, Calabr&#x00F2; P, Angiolillo DJ, Mehran R, Song YB, Hahn JY.</authors>
+<title>Clopidogrel versus aspirin for secondary prevention of coronary artery disease: a systematic review and individual patient data meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2025</pubdate>
+<volume>406</volume>
+<pages>1091&#x2013;1102.</pages>
+</reference>
+<reference id="pubmed40570866">
+<accessionId id="acc135" href="info:pmid/40570866" />
+<authors>Dehbi HM, Fischer U, &#x00C5;sberg S, Milling TJ, Abend S, Ahmed N, Branca M, Davis LA, Engelter ST, Freemantle N, Gattringer T, Ghukasyan Lakic T, Hijazi Z, James M, Koga M, Lawrence P, Lemmens R, Lip GYH, Massingham S, Nash PS, Ndoutoumou A, Norrving B, Salanti G, Sprigg N, Thomalla G, Vanniyasingam T, Wester P, Warach SJ, Oldgren J, Dawson J, Werring DJ.</authors>
+<title>Collaboration on the optimal timing of anticoagulation after ischaemic stroke and atrial fibrillation: a systematic review and prospective individual participant data meta-analysis of randomised controlled trials (CATALYST).</title>
+<source>Lancet</source>
+<pubdate>2025</pubdate>
+<volume>406</volume>
+<pages>43&#x2013;51.</pages>
+</reference>
+<reference id="pubmed39429201">
+<accessionId id="acc136" href="info:pmid/39429201" />
+<authors>Bushnell C, Kernan WN, Sharrief AZ, Chaturvedi S, Cole JW, Cornwell WK 3rd, Cosby-Gaither C, Doyle S, Goldstein LB, Lennon O, Levine DA, Love M, Miller E, Nguyen-Huynh M, Rasmussen-Winkler J, Rexrode KM, Rosendale N, Sarma S, Shimbo D, Simpkins AN, Spatz ES, Sun LR, Tangpricha V, Turnage D, Velazquez G, Whelton PK.</authors>
+<title>2024 Guideline for the Primary Prevention of Stroke: A Guideline From the American Heart Association&#x002F;American Stroke Association.</title>
+<source>Stroke</source>
+<pubdate>2024</pubdate>
+<volume>55</volume>
+<pages>e344&#x2013;e424.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Asthma (acute exacerbation)</title>
+<chapter_type> Management of disease (long)</chapter_type>
+<topic_id>eee0662</topic_id>
+<topic_comment />
+<topic_lastupdated>07/08/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Sarah I. Ramirez, MD, FAAFP</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Penn State Health Milton S. Hershey Medical Center</author_institution>
+<author_email>sramirez2&#x0040;pennstatehealth.psu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hershey</author_city>
+<author_state>PA</author_state>
+<author_zip>17033</author_zip>
+</author>
+<author primary="no">
+<author_name>Deborah A. Humphrey, DO, FACP</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of South Florida</author_institution>
+<author_email>dhumphre&#x0040;health.usf.edu</author_email>
+<author_phone_office>813 259-0670</author_phone_office>
+<author_phone_home>813 685-6791</author_phone_home>
+<author_phone_fax>813 259-0679</author_phone_fax>
+<author_street1>2A Columbia Drive #6090</author_street1>
+<author_street2 />
+<author_city>Tampa</author_city>
+<author_state>FL</author_state>
+<author_zip>33606</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>David Slawson, MD</editor_name>
+<editor_title>Vice Chair, Department of Family Medicine</editor_title>
+<editor_institution>University of Virginia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>In children, there is no single best tool for assessing severity of exacerbation, monitoring response to treatment or predicting need for hospitalization. Diagnosis in infants should rely on physical exam findings rather than FEV1. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed14716161" resource="acc001" /><xref ref="pubmed11825832" resource="acc002" /></listitem>
+<listitem>Early treatment of asthma exacerbations is the best strategy for management and improved outcomes. <evidence rating="A" system="SORT">A</evidence><xref ref="web001" /></listitem>
+<listitem>Initial treatment should include oxygen and a short-acting beta-agonist (SABA) for all patients; ipratropium bromide, especially for moderate to severe exacerbations; and systemic corticosteroids for most patients. <evidence rating="A" system="SORT">A</evidence><xref ref="web001" /></listitem>
+<listitem>Response to initial treatment in the ED is a better predictor of need for hospitalization than severity of the attack on presentation. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed10805619" resource="acc004" /><xref ref="pubmed15303644" resource="acc005" /></listitem>
+<listitem>Combined use of a SABA and an inhaled corticosteroid (ICS) as a rescue inhaler has been shown to reduce moderate to severe exacerbations compared with SABA alone.<xref ref="poem362749" resource="acc093" /><xref ref="poem360995" resource="acc092" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Asthma is a chronic inflammatory disease of the airways. Asthma exacerbation is characterized by worsening wheezing, shortness of breath, chest tightness, and cough due to reversible airflow obstruction and bronchial hyperresponsiveness.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>There are almost 183,000 asthma related hospitalizations per year and almost 3,500 asthma related deaths per year.<xref ref="guideline21025" resource="acc103" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Asthma affects close to 25 million people in the United States.<xref ref="guideline21025" resource="acc103" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Asthma is the most common potentially serious complication in pregnancy.</listitem>
+<listitem>Acute asthma accounts for 1.5 million emergency room visits per year in the United States, and 14 million lost school days.</listitem>
+<listitem>It is the third most common reason for hospitalization in those under 15 years of age, and is the most common chronic illness in children.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Allergen exposure in sensitized individuals.</listitem>
+<listitem>Viral infections.</listitem>
+<listitem>Exercise.</listitem>
+<listitem>Irritants.</listitem>
+<listitem>NSAIDs.</listitem>
+<listitem>Tobacco smoke.</listitem>
+<listitem>Non-selective beta blockers.</listitem>
+<listitem>Gastroesophageal reflux disease.</listitem>
+<listitem>Use of antibiotics in the first year of life is associated with later development of asthma.<xref ref="pubmed31277618" resource="acc088" /></listitem>
+<listitem>Young children with atopic eczema are at increased risk of asthma&#x2014;approximately one-third will develop it after the age of 6 years.<xref ref="poem91124" resource="acc006" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Asthma exacerbations vary in severity and duration.</listitem>
+<listitem>Exacerbations have two phases: Early allergen response (EAR) and the late allergen response (LAR).</listitem>
+<listitem>Bronchospasm of the EAR involves release of leukotrienes LTC4, LTD4, LTE4.</listitem>
+<listitem>50&#x0025; of patients will then produce a TH2 induced LAR about 4 hours after the initial trigger that will usually persist 12 to 24 hours, but in some children may persist for several days.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Indoor allergy and exposure</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Smoking</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>URI in the last month</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Lower asthma knowledge</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Medication non-adherence</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>See chapter on <resourceLink href="info:wiley/eep-eee/663">Asthma (chronic management)</resourceLink> for a detailed discussion of chronic measures to prevent exacerbations.</listitem>
+<listitem>Teach patients to monitor signs and symptoms of clinical deterioration so early treatment can be initiated based on an Asthma Action Plan. Evidence for the effectiveness of Asthma Action Plans is equivocal though. <evidence rating="C" system="SORT">C</evidence><xref ref="web002" /><xref ref="poem272" resource="acc008" /></listitem>
+<listitem>Patients with asthma should have medications and equipment at home necessary for treating exacerbations. Parent initiated steroids have a small benefit compared with physician controlled prescribing at preventing exacerbations, and may result in more frequent use of steroids. <evidence rating="B" system="SORT">B</evidence><xref ref="web001" /><xref ref="poem120525" resource="acc054" /></listitem>
+<listitem>Avoid allergen exposure, tobacco smoke (both primary and second hand). <evidence rating="B" system="SORT">B</evidence><xref ref="poem61104" resource="acc009" /></listitem>
+<listitem>Influenza vaccine is recommended for patients with asthma to prevent exacerbations, but evidence of benefit is minimal. Influenza vaccine does not worsen asthma. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane364" resource="acc010" /></listitem>
+<listitem>Pneumococcal vaccine is also recommended for patients with asthma to prevent exacerbations, but evidence of benefit is minimal. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane2165" resource="acc011" /></listitem>
+<listitem>Proton pump inhibitors do not prevent asthma exacerbations in adults with concomitant GERD and asthma. <evidence rating="B" system="SORT">B</evidence><xref ref="poem120743" resource="acc053" /></listitem>
+<listitem>Probiotics during pregnancy or early in life do not prevent a later diagnosis of asthma.<xref ref="poem160231" resource="acc071" /></listitem>
+<listitem>A short-acting beta agonist (SABA) prior to exercise remains the mainstay of therapy for exercise-induced asthma, to prevent symptoms. Warming or humidifying air and leukotriene inhibitor use may also be helpful.<xref ref="poem150741" resource="acc057" /></listitem>
+<listitem>Vitamin D supplementation during pregnancy (2800 IU&#x002F;day) does not reduce the risk of wheezing or asthma in children.<xref ref="poem180322" resource="acc078" /> It also does not reduce the likelihood of asthma exacerbations in children with asthma and low vitamin D levels.<xref ref="poem221030" resource="acc091" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients should be instructed to recognize early signs of worsening asthma. <evidence rating="C" system="SORT">C</evidence><xref ref="web002" /></listitem>
+<listitem>Diagnosis of an exacerbation in infants should rely on physical exam findings rather than objective measures such as FEV1. <evidence rating="C" system="SORT">C</evidence><xref ref="web001" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Chronic obstructive pulmonary disease</Differential_Name>
+<Differential_Features>Irreversible airflow obstruction and decreased DLCO</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Vocal cord dysfunction</Differential_Name>
+<Differential_Features>Inspiratory wheezing or stridor, normal lung volumes, normal DLCO</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Congestive heart failure</Differential_Name>
+<Differential_Features>Rales, edema, gallop, decreased ejection fraction on echocardiogram</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pulmonary embolism</Differential_Name>
+<Differential_Features>Unilateral rales, loud pulmonic component of second heart sound</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cystic fibrosis</Differential_Name>
+<Differential_Features>GI complaints, infertility, abnormal sweat chloride test</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bronchiolitis obliterans</Differential_Name>
+<Differential_Features>Irreversible airflow obstruction, transbronchial biopsy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bronchiectasis</Differential_Name>
+<Differential_Features>Unresponsive to bronchodilator or corticosteroid, high resolution CT Scan</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hypersensitivity pneumonitis</Differential_Name>
+<Differential_Features>Restriction on spirometry</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Gastroesophageal reflux disease</Differential_Name>
+<Differential_Features>Poor response to corticosteroids, pulmonary fibrosis, pH probe monitoring</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Central airway obstruction</Differential_Name>
+<Differential_Features>No diurnal variation, symptoms improve with heliox inhalation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Extrathoriacic obstruction</Differential_Name>
+<Differential_Features>Truncation of inspiratory portion of the flow volume loop, laryngoscopy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pulmonary infiltration with eosinophilia</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Tropical eosinophilia</Differential_Name>
+<Differential_Features>Expiratory wheezing, weight loss, high peripheral eosinophilia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Loffler's syndrome</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Chronic eosinophilic pneumonia</Differential_Name>
+<Differential_Features>Restriction and decreased DLCO on PFTs</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Idiopathic hypereosinophilic syndrome</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Allergic bronchopulmonary aspergillosis</Differential_Name>
+<Differential_Features>Recurrent pulmonary infiltrates, central bronchiectasis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Churg-Strauss syndrome</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Metastatic carcinoid</Differential_Name>
+<Differential_Features>Elevated levesl of 5 hydroxyindolacetic acid in the urine</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Systemic mastocytosis</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Lymphangioleiomyomatosis</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Asthma exacerbations are divided into three categories: mild, moderate, and severe. The peak expiratory flow rate (PEFR) correlates well with FEV1 and can easily be performed in the outpatient and inpateint settings when spirometry is not accessible.<list style="bulleted">
+<listitem>Mild: initial FEV1 greater than or equal to 200 L&#x002F;min or greater than or equal to 70&#x0025; of predicted best.</listitem>
+<listitem>Moderate: initial FEV1 80 to 200 L&#x002F;min or 40&#x0025; to 69&#x0025; of predicted best.</listitem>
+<listitem>Severe: initial FEV1 less than or equal to 80 L&#x002F;min or less than or equal to 40&#x0025; of predicted best. "Life threatening" is a sub-set of severe, with an initial FEV1 of less than 25&#x0025; of predicted best.</listitem>
+</list></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>The patient with an acute exacerbation of asthma will commonly complain of dyspnea with exercise or at rest, cough, wheezing, and&#x002F;or chest tightness. The symptoms are usually of rapid onset, i.e., less than 24 hours but may occur over several days.</listitem>
+<listitem>Description of symptoms may vary by ethnic or socioeconomic group. In one study, African-American patients typically used phrases like "tight throat," "voice tight," "itchy throat," and "tough breath."</listitem>
+<listitem><resourceLink href="info:wiley/eep-hp/167">Parental report of breathing problems and cough</resourceLink> or <resourceLink href="info:wiley/eep-hp/167">child reports of noisy breathing, cough, or clogged breathing</resourceLink> are good predictors of asthma.</listitem>
+<listitem>Absence of breathing problems and cough is strong evidence against asthma in a child.</listitem>
+<listitem>In adults, <resourceLink href="info:wiley/eep-hp/170">cough with wheezing</resourceLink> is the most sensitive finding, while <resourceLink href="info:wiley/eep-hp/170">self-reported or doctor diagnosed asthma</resourceLink> are most specific.</listitem>
+<listitem>Vital signs may include fever, tachycardia, tachypnea or hypotension in severe exacerbations. They may be normal in mild exacerbations.</listitem>
+<listitem>Physical exam findings may include an audible wheeze and&#x002F;or decreased airflow on expiration.</listitem>
+<listitem>Severe attacks may present with cyanosis, use of accessory muslces of respiration, and a pulsus paradoxus greater than 10 mm Hg. The patient may appear restless, agitated, or diaphoretic.</listitem>
+<listitem>Observations in infants include grunting, retractions and flaring.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Chest radiographs tend not to alter care in acute exacerbations of asthma and most commonly reveal hyperinflation. A CXR should be ordered only in those patients with evidence of complications such as leukocytosis, hypoxemia, unexplained chest pain, or temperature &gt;38.3&#x00B0;C.<xref ref="pubmed8239107" resource="acc012" /></listitem>
+<listitem>Use of continuous pulse oximetry can be used at anytime during asthma attacks, but particularly in patients in severe distress with an FEV1 or PEFR less than 40 percent of their baseline or if they are unable to perform measures of lung function. A <resourceLink href="info:wiley/eep-dx/195">post-treatment oxygen saturation &lt;91&#x0025;</resourceLink> increases the likelihood of an unfavorable outcome.</listitem>
+<listitem>ABG testing is indicated in patients with persistent dyspnea despite bronchodilator therapy who have a peak expiratory flow below 25 percent of normal.<xref ref="pubmed7081789" resource="acc013" /></listitem>
+<listitem>A PEFR can be used to monitor a patient's response to treatment if used over time and can be used in any patient experiencing an exacerbation of symptoms. A PEFR below 200 L&#x002F;min is an indication of severe obstruction. A major limitation of PEFR is effort and results may vary among individuals by 30&#x0025;.<xref ref="pubmed8298772" resource="acc014" /> Routine measurement of PEFR does not help predict subsequent exacerbations.<xref ref="poem60771" resource="acc015" /></listitem>
+<listitem>Pulmonary function tests with spirometry and flow volume loops is typically used in the non-decompensated state.</listitem>
+<listitem><resourceLink href="info:wiley/eep-dx/258">Exhaled nitric oxide (NO)</resourceLink> levels can be used to diagnose asthma. <resourceLink href="info:wiley/eep-dx/258">Values over 14 ppb (and especially over 20 ppb)</resourceLink> are strong evidence in favor of the diagnosis of asthma, while values &lt;10 ppb significantly reduce the likelihood.<xref ref="poem60541" resource="acc017" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <resourceLink href="info:wiley/eep-rule/155">clinical prediction rule</resourceLink> to predict relapse within 8 weeks of an asthma exacerbation in adults has been developed and successfully validated.</listitem>
+<listitem>The likelihood that a child will require hospitalization can be predicted by a validated <resourceLink href="info:wiley/eep-rule/190">clinical decision rule.</resourceLink> Key variables include age &lt;6 years, male gender, severity of pretreatment wheeze, whether oxygen was required, and post-treatment oxygen saturation.</listitem>
+<listitem>The Pediatric Respiratory Assessment Measure (PRAM) score at 3 hours predicts the need for hospitalization.<xref ref="pubmed25176153" resource="acc074" /></listitem>
+<listitem>Normal values for peak flow are shown here.<xref ref="rule204" resource="acc018" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Treatment of an asthma exacerbation progresses step wise according to degree. See <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>167</HP_ID>
+<HP_ID>170</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>195</Dx_ID>
+<Dx_ID>258</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Short-acting beta-agonists (SABA) are the treatment of choice for treating acute asthma symptoms and exacerbations. <evidence rating="A" system="SORT">A</evidence><xref ref="web001" /></listitem>
+<listitem>Combined use of a SABA and an inhaled corticosteroid (ICS) as a rescue inhaler has been shown to reduce moderate to severe exacerbations compared with SABA alone.<xref ref="poem362749" resource="acc093" /><xref ref="poem360995" resource="acc092" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Systemic corticosteroids significantly reduce the frequency of relapse, need for hospitalization, and requirement for increased use of SABA. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane195" resource="acc019" /></listitem>
+<listitem>Initial treatment should include oxygen and a SABA for all patients; ipratropium bromide, especially for moderate to severe exacerbations; and systemic corticosteroids for most patients. <evidence rating="A" system="SORT">A</evidence><xref ref="web001" /></listitem>
+<listitem>For severe exacerbations that do not respond to initial treatment consider IV magnesium or heliox.<xref ref="cochrane1490" resource="acc035" />,<xref ref="pubmed38395640" resource="acc095" />,<xref ref="pubmed38782483" resource="acc096" /><evidence rating="B" system="SORT">B</evidence><xref ref="web001" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>See <xref ref="table001" /> for an overview of drug treatment of acute asthma exacerbations.</listitem>
+<listitem>A randomized trial found that hospital at home for conditions such as asthma saved money with equally good outcomes and less likelihood of 30 day readmission.</listitem>
+<listitem><strong>Inhaled short-acting beta-agonists, anticholinergics, and corticosteroids</strong></listitem>
+<listitem>Short acting beta2 agonists (SABA) are recommended for all patients. Adverse effects include hypokalemia, muscle tremor, tachycardia, and increased lactic acid. Levalbuterol (Xopenex) is no more effective nor safer than albuterol in children with moderate asthma exacerbations.<xref ref="poem71253" resource="acc020" /> There is no benefit to nebulizers over MDIs in adults and cooperative children, especially when spacers are used.<xref ref="cochrane52" resource="acc060" /><xref ref="poem40754" resource="acc021" /><xref ref="poem20853" resource="acc022" /> Homemade spacers using plastic bottles are even effective.<xref ref="poem11280" resource="acc023" /> A Cochrane review found that continuous administration of a SABA (at least every 15 minutes) was more effective at preventing hospitalization than intermittent administration in 8 studies with 461 patients (RR 0.68; 95&#x0025; CI 0.5-0.9). Continuous treatment was not associated with significant differences in blood pressure, heart rate or adverse effects.<xref ref="cochrane1115" resource="acc068" /></listitem>
+<listitem>Inhaled ipratroprium bromide is recommended for patients with moderate to severe exacerbations in the emergency department. Patients receiving ipratropium bromide have a modest improvement in airflow obstruction when used in conjunction with a beta-2 agonist.<xref ref="poem20975" resource="acc024" /><xref ref="poem783" resource="acc025" /><xref ref="poem736" resource="acc026" /> A Cochrane review found 20 trials with 2697 children comparing SABA plus anticholinergic (e.g., ipratropium) to SABA alone. They found that adding the anticholinergic significantly reduced the likelihood of hospital admission (RR 0.73; 95&#x0025; CI 0.63-0.85, absolute reduction 17 vs 23 out of 100 children), and that this benefit was somewhat greater as the severity of the exacerbation increased.<xref ref="cochrane60" resource="acc061" /> Adverse effects include dry mouth and respiratory secretions.</listitem>
+<listitem>Adding nebulized budesonide to standard therapy (SABA, ipratropium, and oral steroids) in children with moderate to severe exacerbations did not improve outcomes in a well-designed and adequately powered study.<xref ref="poem120525" resource="acc054" /><xref ref="poem130923" resource="acc058" /><xref ref="cochrane2308" resource="acc063" /> Although evidence supporting a benefit is uncertain, inhaled corticosteroids (ICS) should be considered for patients upon discharge from the ED or hospital setting.<xref ref="cochrane2316" resource="acc031" />They are not a substitute for systemic corticosteroids in moderate or severe exacerbations.<xref ref="poem21204" resource="acc032" /><xref ref="cochrane2316" resource="acc031" /><xref ref="poem21204" resource="acc032" /></listitem>
+<listitem>In young children with a history of wheeze during respiratory infection, pre-emptive treatment with a nebulized steroid during a subsequent respiratory tract infection does not prevent a second episode of wheeze or decrease the duration of symptoms.<xref ref="poem160534" resource="acc069" /></listitem>
+<listitem>A systematic review of 16 RCTs and 3 non-randomized studies found that albuterol given via nebulizer or MDI with spacer was effective in children younger than 6 years with acute asthma. The review found reasonable evidence that children younger than 6 years have improved clinical scores, respiratory rates, and oxygen saturation after treatment with a SABA.<xref ref="pubmed40122609" resource="acc099" /></listitem>
+<listitem>A systematic review identified 24 studies with 2025 children that reported safety of albuterol. While adverse events were more common in children receiving albuterol (odds ratio 2.1, 95&#x0025; CI 0.69 to 6.5) this difference was not significant. Nebulized albuterol did cause significantly more adverse events than control (6.4&#x0025; vs 1.2&#x0025;, OR 6.76; 2.01 - 22.7).<xref ref="poem301877" resource="acc098" /></listitem>
+<listitem>The FAST trial randomized 1922 adults with asthma to a usual care strategy for exacerbations or to a temporary quadrupling of the inhaled corticosteroid dose. The latter strategy saved money and was more effective.<xref ref="pubmed30520413" resource="acc087" /></listitem>
+<listitem><em>Combined steroid + SABA as rescue inhaler</em></listitem>
+<listitem>Several studies have compared combined use of a SABA and an inhaled corticosteroid (ICS) as a rescue inhaler with SABA alone. A study in 1201 Black and Hispanic adults with moderate to severe, poorly controlled asthma randomized them to SABA alone or adding an 80 mcg puff of beclomethasone for each puff of the SABA. There was approximately one fewer exacerbation for every 8 patients using teh combined rescue inhaler.<xref ref="poem362749" resource="acc093" /></listitem>
+<listitem>Another study randomized 3132 patients 4 years and older (mean age 49 years, 6&#x0025; less than 18) to receive 1 of 3 types of rescue inhaler, each given as 2 actuations (doses shown are per actuation): (1) albuterol 90 mcg plus budesonide 80 mcg, (2) albuterol 90 mcg plus budesonide 40 mcg, or (3) albuterol 90 mcg. Patients in the higher-dose budesonide group had significantly fewer severe exacerbations than those in the albuterol-only group (hazard ratio [HR] 0.74; 95&#x0025; CI 0.62 - 0.89). There were also fewer severe exacerbations in the low-dose budesonide group than in the albuterol-only group, but this difference was smaller and not statistically significant (HR 0.84; 0.71 - 1.0). <xref ref="poem360995" resource="acc092" /></listitem>
+<listitem>A study randomized 2516 persons 12 and older with poorly controlled mild asthma to SBA alone or SABA + budesonide 160 mcg for acute exacerbations. They found that a combination reduced severe exacerbations (5.3&#x0025; vs 9.4&#x0025;, NNT &#x003D; 26).<xref ref="pubmed40388330" resource="acc101" /></listitem>
+<listitem><strong>Systemic corticosteroids</strong></listitem>
+<listitem><em>Children</em></listitem>
+<listitem>Systemic corticosteroids are recommended for all patients with moderate to severe exacerbations and any patient who does not respond completely to SABA.<xref ref="cochrane2178" resource="acc027" /><xref ref="poem20165" resource="acc028" /></listitem>
+<listitem>An RCT found that 3 days of oral corticosteroids was effective as 5 days in children discharged from the ED following an exacerbation (using 1 mg&#x002F;kg oral prednisolone).<xref ref="poem101122" resource="acc029" /></listitem>
+<listitem>Even in hospitalized children, oral steroids are similar to IV in effectiveness.<xref ref="poem10811" resource="acc030" /></listitem>
+<listitem>A systematic review and a more recent large RCT with 557 patients found that in children with acute asthma exacerbation, 1 or 2 IM doses of dexamethasone were similarly effective to 5 days of oral prednisone or prednisolone.<xref ref="pubmed29173304" resource="acc085" /><xref ref="poem160536" resource="acc070" /></listitem>
+<listitem>A network meta-analysis of 11 RCTs with 2353 children found that all oral corticosteroids were similar effective for treatment of acute asthma exacerbation in children.<xref ref="pubmed40484453" resource="acc100" /></listitem>
+<listitem><em>Adults</em></listitem>
+<listitem>A study in adults with mild to moderate asthma exacerbation (n &#x003D; 257) randomized them to 2 days of dexamethasone 16 mg daily or 5 days of prednisone 60 mg daily, and found faster return to usual activities in the dexamethasone group, with no other differences in outcomes.<xref ref="poem130593" resource="acc059" /></listitem>
+<listitem>In another study, 456 adults with an acute asthma exacerbation were randomized to a single dose of dexamethasone 12 mg or 5 days of oral prednisone 60 mg once daily. The risk of relapse was slightly higher in the dexamethasone group (12.1&#x0025; vs 9.8&#x0025;) and did not meet the prespecified criteria for non-inferioirity.<xref ref="poem190113" resource="acc081" /></listitem>
+<listitem><strong>Antibiotics</strong></listitem>
+<listitem>A randomized trial of 199 adults with an acute asthma exacerbation who had not had an antibiotic in the previous month randomized them to azithromycin 500 mg daily or placebo for 3 days. No differences between groups in outcomes were seen, although the trial was somewhat underpowered.<xref ref="poem181118" resource="acc082" /></listitem>
+<listitem>For children age 12 to 72 months with recurrent wheeze associated respiratory illness (WARI; severe wheezing in the context of a lower RTI that required systemic steroids), oral azithromycin 12 mg&#x002F;kg once daily at the beginning of an episode reduced the likelihood that it would progress to a severe lower respiratory tract infection (HR 0.64; 95&#x0025; CI 0.41-0.98). The benefit was greater in those with more previous RTIs (NNT &#x003D; 33 for 1, NNT &#x003D; 14 for 2, and NNT &#x003D; 7 for 4).<xref ref="poem180122" resource="acc077" /></listitem>
+<listitem>A Cochrane review identified 6 studies with 681 adults and children comparing antibiotics with placebo or usual care in persons with an acute asthma exacerbation who did not have a clear indication (such as a radiographic infiltrate) for antibiotics. The authors concluded that there is limited quality evidence to support a modest benefit of antibiotics, but that they were too inconsistent and studies were too heterogeneous to draw any clear conclusions.<xref ref="cochrane2741" resource="acc083" /></listitem>
+<listitem>A study using an administrative database with 543 hospitals compared patients hospitalized for an acute exacerbation of asthma treated with an antibiotic with those not receiving an antibiotic, using propensity score matching. Use of an antibiotic was associated with a longer hospital stay, higher costs, more diarrhea, and no effect on asthma outcomes otherwise.<xref ref="pubmed210403" resource="acc086" /></listitem>
+<listitem><strong>Magnesium sulfate</strong></listitem>
+<listitem>IV magnesium sulfate may be useful in patients with impending respiratory failure and should be considered for those who fail to respond within one hour of initial treatment.<xref ref="cochrane1490" resource="acc035" /><xref ref="poem30177" resource="acc036" /></listitem>
+<listitem>A systematic review identified 11 randomized comparing IV MgSO<sub>4</sub> with placebo. In 4 studies they found a reduction in hospitalizaitons (OR 0.15, 95&#x0025; CI 0.03-0.73), while 2 studies found some improvements in lung function.<xref ref="pubmed38395640" resource="acc095" /></listitem>
+<listitem>One study found that nebulized magnesium sulfate was also effective.<xref ref="pubmed26964827" resource="acc079" /> Another study of 248 patients with severe acute asthma found small improvements in lung function at 4 hours but no change in hospitalization rates or other outcomes.<xref ref="poem41258" resource="acc037" /></listitem>
+<listitem>A randomized trial of 818 children with refractory acute asthma found no benefit to adding nebulized magnesium to albuterol.<xref ref="poem230122" resource="acc090" /></listitem>
+<listitem>A systematic review found 10 randomized trials with 2301 children given nebulized MgSO<sub>4</sub> or placebo and salbutamol. They found no difference in hospitalization, need for ICU admission, or length of stay.<xref ref="pubmed38782483" resource="acc096" /></listitem>
+<listitem>A Cochrane review of 25 trials with nearly 3000 patients concluded that there are some modest additional benefits of nebulized MgSO4 when added to other bronchodilators, although the trials were heterogeneous. It did appear to be safe, and patients with more severe disease may experience greater benefit.<xref ref="cochrane3898" resource="acc084" /></listitem>
+<listitem><strong>Other Medications</strong></listitem>
+<listitem>Systemic beta-2 agonists: Systemic beta-2 agonists such as epinephrine or terbutaline are sometimes given for severe exacerbations. While some studies have found a benefit of IV albuterol,<xref ref="poem40756" resource="acc033" /> a systematic review found no strong evidence of benefit based on several small, low-quality studies.<xref ref="cochrane2988" resource="acc067" /><xref ref="cochrane10256" resource="acc065" /><xref ref="cochrane10179" resource="acc064" /><xref ref="poem50306" resource="acc034" /></listitem>
+<listitem>Heliox: Heliox driven albuterol nebulization should be considered for those patients who remain in the severe category after one hour of initial treatment.<xref ref="cochrane2884" resource="acc038" /></listitem>
+<listitem>Leukotriene inhibitors: The use of montelukast can reduce mild, moderate, and part of severe exacerbations in chronic mild to moderate asthma. In comparison with placebo, adults with chronic asthma receiving montelukast had reduced number or exacerbations (OR &#x003D; 00.60 and 95&#x0025; CI, 0.49, 0.74; NNT &#x003D; 17 and 95&#x0025; CI, 12, 29) and its use in acute asthma can improve peak expiratory flow percent predicted (p &#x003D; 0.008) and systemic corticosteroid intake (p &#x003D; 0.005).<xref ref="pubmed17110643" resource="acc040" /> High dose zafirlukast (160 mg on arrival in ED) slightly reduced the number of patients with an extended hospital stay.<xref ref="poem70307" resource="acc041" /> A comparison of prednisolone with montelukast in children discharged from the ED following an acute exacerbation found that steroids were more effective (NNT &#x003D; 7 for treatment failure).<xref ref="poem120145" resource="acc055" /></listitem>
+<listitem>A Cochrane review conclude that methylxanthines (aminophylline), mucolytics, and chest physiotherapy do not appear to be effective based on current best evidence.<xref ref="cochrane2742" resource="acc039" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Homeopathy, air ionizers, manual therapy, and acupuncture have been used for treatment of asthma but evidence of benefit of is lacking. <evidence rating="C" system="SORT">C</evidence><xref ref="cochrane353" resource="acc042" /><xref ref="cochrane8" resource="acc043" /><xref ref="cochrane2986" resource="acc044" /><xref ref="cochrane1002" resource="acc045" /></listitem>
+<listitem>Antioxidant dietary supplementation, including natural anti-inflammatory and immunomodulatory agents, may have a role in asthma management, but there is no clinical trial data to support their use.<xref ref="cochrane993" resource="acc046" /> Vitamin D does not prevent asthma exacerbations in vitamin D deficient individuals.<xref ref="poem171005" resource="acc075" /></listitem>
+<listitem>There is insufficient evidence to support the use of relaxation techniques and yoga for asthma exacerbation.<xref ref="cochrane2982" resource="acc047" /></listitem>
+<listitem>Efficacy and safety of herbal treatments for asthma is unknown.</listitem>
+<listitem>A randomized trial with 386 asthma patients found no benefit for soy supplementation.<xref ref="poem170727" resource="acc076" /></listitem>
+<listitem>A small study found a small, non-clinically significant in sleep quality using melatonin in women with mild&#x002F;moderate asthma.<xref ref="poem70143" resource="acc048" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Breathing retraining techniques may result in a reduced use of rescue bronchdilators and decreased frequency of asthma exacerbations.<xref ref="cochrane1277" resource="acc049" /></listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Oxygen is recommended for most patients except those with mild exacerbation.</listitem>
+<listitem>Patients presenting with apnea or coma should be intubated immediately. There are no other absolute indications to intubate for asthma exacerbation. Al soconsider intubation in patients with persistent or increasing hypercapnia, exhaustion, or depression of mental status.</listitem>
+<listitem>While widely used clinically, there are only limited and inconclusive data regarding the efficacy of non-invasive positive pressure ventilation (NIPPV) for patients with impending respiratory failure due to a severe asthma exacerbation. A Cochrane review found only 3 RCTs with 60 children and while there was a large reduction in the need for intubation (RR 0.47, 95&#x0025; CI 0.23 to 0.95) the confidence interval was wide and study quality poor.<xref ref="cochrane12067" resource="acc097" /><xref ref="cochrane4360" resource="acc066" /></listitem>
+<listitem>A Cochrane review found that caffeine improves lung function for up to 2 hours after consumption, based on 7 tiny studies with a total of 75 people.<xref ref="cochrane1112" resource="acc056" /></listitem>
+<listitem>A Cochrane review concluded that educational interventions for asthma patients in the ED reduce the likelihood of subsequent hospital admissions (RR 0.5; 95&#x0025; CI 0.27-0.91).<xref ref="cochrane3000" resource="acc062" /> Patient education interventions in the ED can also increase the likelihood that the patient follows up with their primary care physician.<xref ref="pubmed26720625" resource="acc080" /></listitem>
+<listitem>An updated meta-analysis (2022) also found that asthma education reduces hospitalizations (RR 0.46; 95&#x0025; CI 0.32 - 0.66) and ED visits (RR 0.69; 0.59 - 0.81) in children.<xref ref="poem351114" resource="acc094" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Longer stay in a special emergency department "step-up" unit specializing in asthma care can improve clinical outcomes and reduce costs.<xref ref="poem91" resource="acc050" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Consider referral when response to treatment is slow, intermittent or incomplete; when quality of life is affected; when the patient requires frequent visits to the emergency room for treatment; when consideration is being given to immunotherapy; for patients who experience sudden severe asthma attacks; patients with persistent nocturnal asthma; patients who require frequent burst of systemic corticosteroids.<xref ref="cochrane4360" resource="acc066" /></listitem>
+<listitem>The decision to hospitalize a patient with an acute exacerbation is based on multiple factors such as duration and severity of symptoms, degree of airflow obstruction, response to treatment in the ED, response of prior exacerbations, access to health care.<xref ref="guideline10386" resource="acc102" /></listitem>
+<listitem>A <resourceLink href="info:wiley/eep-rule/190">validated clinical rule</resourceLink> predicts the likelihood a child will need hospitalization.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>See chapter on <resourceLink href="info:wiley/eep-eee/819">pneumothorax</resourceLink> for its management.</listitem>
+<listitem>Respiratory failure is the most dire complication, requiring mechanical ventilation.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Asthma education has been shown to reduce readmissions in adults<xref ref="poem60241" resource="acc051" /> and in adolescents.<xref ref="poem50961" resource="acc052" /></listitem>
+<listitem>Patients hospitalized with exacerbations of asthma should continue to be treated with SABA to relieve airflow obstruction.<xref ref="guideline10386" resource="acc102" /></listitem>
+<listitem>Systemic corticosteroids should be given and continued unil FEV1 returns to &gt;70&#x0025; of predicted or personal best.</listitem>
+<listitem>Consideration should be given to initiating inhaled corticosteroids prior to discharge from the hospital.</listitem>
+<listitem>Medical follow up should be scheduled for 1 to 4 weeks after discharge. Patients should receive a written care plan for recognizing signs of acute decompensation upon discharge.</listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Asthma exacerbations that are recognized and treated within 6 hours of onset are less likely to require hospitalization. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12147110" resource="acc016" /></listitem>
+<listitem>Medical follow up should take place 1 to 4 weeks after treatment for the acute exacerbation and&#x002F;or discharge from the ED&#x002F;hospital. <evidence rating="B" system="SORT">B</evidence><xref ref="web001" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>A <resourceLink href="info:wiley/eep-rule/155">validated clinical rule</resourceLink> can predict the likelihood of relapse in adults.</listitem>
+<listitem>A <resourceLink href="info:wiley/eep-dx/195">post-treatment oxygen saturation &lt;91&#x0025;</resourceLink> increases the likelihood of an unfavorable outcome.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Continue treatment with inhaled SABA after release from ED&#x002F;hospital. Patient should be instructed to call physician if using &gt;12 puffs in 24 hours.</listitem>
+<listitem>Continue oral corticosteroids until FEV1 is stable at 70&#x0025; of predicted or personal best.</listitem>
+<listitem>After an acute exacerbation patients should receive follow up care within 1 to 4 weeks.</listitem>
+<listitem>There is insufficient evidence that using a written action plan based on peak flow and&#x002F;or FEV1 alters outcomes compared to management based on symptoms alone.<xref ref="guideline21025" resource="acc103" /></listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Patients&#x002F;parents should seek medical help early especially when the exacerbation is severe.<xref ref="guideline10386" resource="acc102" /></listitem>
+<listitem>Seek medical help if the patient does not experience rapid, sustained improvement from home treatment.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Asthma is frequently overlooked in the elderly.</listitem>
+<listitem>Clinical signs and symptoms are similar in the elderly to younger adults.</listitem>
+<listitem>Airflow obstruction is at least partially reversible, however fixed airflow obstruction is more commonly found in the elderly.</listitem>
+<listitem>Elderly patients with asthma tend to have lower IgE levels.</listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>Albuterol is the preferred short acting beta agonist in pregnancy. <xref ref="pubmed18238988" resource="acc089" /></listitem>
+<listitem>Budesonide is the preferred inhaled corticosteroid in pregnancy. <xref ref="pubmed18238988" resource="acc089" /></listitem>
+<listitem>A study using pharmacy and clinical databases in Canada found no difference in congenital malformations between women using a long-acting beta-agonist plus an inhlaed corticosteroid versus higher doses of an inhaled corticosteroid.<xref ref="pubmed25226849" resource="acc072" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>Assessment in infants should depend on physical exam rather than objective measure such as FEV1. Look for use of accessory muscles, inspiratory and expiratory wheezes, paradoxical breathing, cyanosis, or respiratory rate &gt;60&#x002F;minute.</listitem>
+<listitem>Oxygen saturation (SaO<sub>2</sub>) &lt;90&#x0025; indicates serious distress.</listitem>
+<listitem>Infants are at greater risk for respiratory failure, therefore lack of improvement on physical exam or SaO<sub>2</sub> level indicate need for hospitalization. A <resourceLink href="info:wiley/eep-rule/190">clinical rule</resourceLink> can predict need for hospitalization.</listitem>
+<listitem>Early use of oral corticosteroids is essential to treatment.</listitem>
+<listitem>Most acute exacerbations are from viral respiratory infections and do not require treatment with antibiotics. A randomized trial of 79 children with an initial episode of wheeze associated with rhinovirus infection found greater short-term benefit with prednisolone 2 mg&#x002F;kg&#x002F;day given in two divided doses for 3 days compared with placebo, but no difference in long-term outcomes.<xref ref="pubmed25129681" resource="acc073" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed14716161">
+<accessionId id="acc001" href="info:pmid/14716161" />
+<authors>Gorelick MH, Stevens MW, Schultz T, Scribano PV.</authors>
+<title>Difficulty in obtaining peak expiratory flow measurements in children with acute asthma.</title>
+<source>Pediatr Emerg Care</source>
+<pubdate>2004</pubdate>
+<volume>20</volume>
+<pages>22&#x2013;26.</pages>
+</reference>
+<reference id="pubmed11825832">
+<accessionId id="acc002" href="info:pmid/11825832" />
+<authors>Smith SR, Baty JD, Hodge D, III.</authors>
+<title>Validation of the pulmonary score: An asthma severity score for children.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2002</pubdate>
+<volume>9</volume>
+<pages>99&#x2013;104.</pages>
+</reference>
+<reference id="web001">
+<citation />
+<url>http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm</url>
+<organization>NHLBI</organization>
+<longtitle>Managing Exacerbations of Asthma: Expert panel 3: guidelines for the diagnosis and treatment of asthma.</longtitle>
+<title>National Heart Lung and Blood Institute</title>
+<dateguideline>06&#x002F;13&#x002F;2008</dateguideline>
+</reference>
+<reference id="pubmed10805619">
+<accessionId id="acc004" href="info:pmid/10805619" />
+<authors>Karras DJ, Sammon ME, Terringo CA, Lopez BL, Griswold SK, Arnold GK.</authors>
+<title>Clinically meaningful changes in quantitative measures of asthma severity.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2000</pubdate>
+<volume>7</volume>
+<pages>327&#x2013;334.</pages>
+</reference>
+<reference id="pubmed15303644">
+<accessionId id="acc005" href="info:pmid/15303644" />
+<authors>Kelly AM, Kerr D, Powell C.</authors>
+<title>Is severity assessment after one hour of treatment better for predicting the need for admission in acute asthma?</title>
+<source>Respir Med</source>
+<pubdate>2004</pubdate>
+<volume>98</volume>
+<pages>777&#x2013;781.</pages>
+</reference>
+<reference id="poem91124">
+<accessionId id="acc006" href="info:wiley/eep-poem/91124" />
+<accessionId id="acc006b" href="info:pmid/17655920" />
+<authors>van der Hulst AE, Klip H, Brand PL.</authors>
+<title>Risk of developing asthma in young children with atopic eczema: A systematic review.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>2007</pubdate>
+<volume>120(3)</volume>
+<pages>565&#x2013;569.</pages>
+</reference>
+<reference id="web002">
+<citation />
+<url>http://www.nhlbi.nih.gov/guidelines/asthma/asthgdln.htm</url>
+<organization>NHLBI</organization>
+<longtitle>Expert Panel 2: guidelines for diagnosis and treatment of Asthma. National Asthma Education and Prevention Program.</longtitle>
+<title>National Heart Lung and Blood Institute</title>
+<dateguideline>06&#x002F;13&#x002F;2008</dateguideline>
+</reference>
+<reference id="poem272">
+<accessionId id="acc008" href="info:wiley/eep-poem/272" />
+<accessionId id="acc008b" href="info:pmid/9404750" />
+<authors>Cowie RL, Revitt SG, Underwood MF, Field SK.</authors>
+<title>The effect of a peak flow-based action plan in the prevention of exacerbations asthma.</title>
+<source>Chest</source>
+<pubdate>1997</pubdate>
+<volume>112</volume>
+<pages>1534&#x2013;1538.</pages>
+</reference>
+<reference id="poem61104">
+<accessionId id="acc009" href="info:wiley/eep-poem/61104" />
+<accessionId id="acc009b" href="info:pmid/15356304" />
+<authors>Morgan WJ, Crain EF, Gruchalla RS, et al.</authors>
+<title>Results of a home-based environmental intervention among urban children with asthma.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>351</volume>
+<pages>1068&#x2013;1080.</pages>
+</reference>
+<reference id="cochrane364">
+<accessionId id="acc010" href="info:wiley/cochrane/CD000364" />
+<chapter_authors>Cates CJ, Jefferson T, Rowe BH.</chapter_authors>
+<chapter_title>Vaccines for preventing influenza in people with asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2165">
+<accessionId id="acc011" href="info:wiley/cochrane/CD002165" />
+<chapter_authors>Sheikh A, Alves B, Dhami S.</chapter_authors>
+<chapter_title>Pneumococcal vaccine for asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed8239107">
+<accessionId id="acc012" href="info:pmid/8239107" />
+<authors>TSAI TW, Gallagher EJ, Lombardi G, et al.</authors>
+<title>Guidelines for the selective ordering of admission chest radiography in adult obstructive airway disease.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1993</pubdate>
+<volume>22</volume>
+<pages>1854.</pages>
+</reference>
+<reference id="pubmed7081789">
+<accessionId id="acc013" href="info:pmid/7081789" />
+<authors>Martin TG, Elenbaas RM, Pingleton SH.</authors>
+<title>Use of peak expiratory flow rates to eliminate unnecessary arterial blood gases in acute asthma.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1982</pubdate>
+<volume>11</volume>
+<pages>70.</pages>
+</reference>
+<reference id="pubmed8298772">
+<accessionId id="acc014" href="info:pmid/8298772" />
+<authors>Enright PL, Lebowitz MD, Cockcroft DW.</authors>
+<title>Physiologic measures: Pulmonary function test.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>1994</pubdate>
+<volume>149</volume>
+<pages>S9.</pages>
+</reference>
+<reference id="poem60771">
+<accessionId id="acc015" href="info:wiley/eep-poem/60771" />
+<accessionId id="acc015b" href="info:pmid/15009778" />
+<authors>Tierney WM, Roesner JF, Seshadri R.</authors>
+<title>Assessing symptoms and peak expiratory flow rate as predictors of asthma exacerbations.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2004</pubdate>
+<volume>19</volume>
+<pages>237&#x2013;242.</pages>
+</reference>
+<reference id="pubmed12147110">
+<accessionId id="acc016" href="info:pmid/12147110" />
+<authors>Kelly AM, Powell C, Kerr D.</authors>
+<title>Patients with a longer duration of symptoms of acute asthma are more likely to require admission to hospital.</title>
+<source>Emerg Med</source>
+<pubdate>2002</pubdate>
+<volume>14</volume>
+<pages>142&#x2013;145.</pages>
+</reference>
+<reference id="poem60541">
+<accessionId id="acc017" href="info:wiley/eep-poem/60541" />
+<accessionId id="acc017b" href="info:pmid/14644933" />
+<authors>Smith AD, Cowan JO, Filsell S, et al.</authors>
+<title>Diagnosing asthma: Comparisons between exhaled nitric oxide measurements and conventional tests.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2004</pubdate>
+<volume>169</volume>
+<pages>473&#x2013;478.</pages>
+</reference>
+<reference id="rule204">
+<accessionId id="acc018" href="info:wiley/eep-rule/204" />
+<accessionId id="acc018b" href="info:pmid/4723469" />
+<authors>Gregg I, Nunn AJ.</authors>
+<title>Peak expiratory flow in normal subjects.</title>
+<source>BMJ</source>
+<pubdate>1973</pubdate>
+<volume>3</volume>
+<pages>282&#x2013;284.</pages>
+</reference>
+<reference id="cochrane195">
+<accessionId id="acc019" href="info:wiley/cochrane/CD000195" />
+<chapter_authors>Rowe BH, Spooner CH, Ducharme FM, Bretzlaff JA, Bota GW.</chapter_authors>
+<chapter_title>Corticosteroids for preventing relapse following acute exacerbations of asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2008 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem71253">
+<accessionId id="acc020" href="info:wiley/eep-poem/71253" />
+<accessionId id="acc020b" href="info:pmid/15988423" />
+<authors>Qureshi F, Zaritsky A, Welch C, Meadows T, Burke BL.</authors>
+<title>Clinical efficacy of racemic albuterol versus levalbuterol for the treatment of acute pediatric asthma.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2005</pubdate>
+<volume>46</volume>
+<pages>29&#x2013;36.</pages>
+</reference>
+<reference id="poem40754">
+<accessionId id="acc021" href="info:wiley/eep-poem/40754" />
+<accessionId id="acc021b" href="info:pmid/11948030" />
+<authors>Newman KB, Milne S, Hamilton C, Hall K.</authors>
+<title>A comparison of albuterol administered by metered-dose inhaler and spacer with albuterol by nebulizer in adults presenting to an urban emergency department with acute asthma.</title>
+<source>Chest</source>
+<pubdate>2002</pubdate>
+<volume>121</volume>
+<pages>1036&#x2013;1041.</pages>
+</reference>
+<reference id="poem20853">
+<accessionId id="acc022" href="info:wiley/eep-poem/20853" />
+<accessionId id="acc022b" href="info:pmid/10807815" />
+<authors>Mandelberg A, Tsehori S, Houri S, et al.</authors>
+<title>Is nebulized aerosol treatment necessary in the pediatric emergency department?</title>
+<source>Chest</source>
+<pubdate>2000</pubdate>
+<volume>117</volume>
+<pages>1309&#x2013;1313.</pages>
+</reference>
+<reference id="poem11280">
+<accessionId id="acc023" href="info:wiley/eep-poem/11280" />
+<accessionId id="acc023b" href="info:pmid/10501359" />
+<authors>Zar HJ, Brown G, Donson H, et al.</authors>
+<title>Home-made spacers for bronchodilator therapy in children with acute asthma: A randomized trial.</title>
+<source>Lancet</source>
+<pubdate>1999</pubdate>
+<volume>354</volume>
+<pages>979&#x2013;982.</pages>
+</reference>
+<reference id="poem20975">
+<accessionId id="acc024" href="info:wiley/eep-poem/20975" />
+<accessionId id="acc024b" href="info:pmid/10852758" />
+<authors>Rodrigo GJ, Rodrigo C.</authors>
+<title>First-line therapy for adult patients with acute asthma receiving a multiple-dose protocol of ipratropium bromide plus albuterol in the emergency department.</title>
+<source>Am J Resp CC Med</source>
+<pubdate>2000</pubdate>
+<volume>161</volume>
+<pages>1862&#x2013;1868.</pages>
+</reference>
+<reference id="poem783">
+<accessionId id="acc025" href="info:wiley/eep-poem/783" />
+<accessionId id="acc025b" href="info:pmid/9765164" />
+<authors>Plotnick LH, Ducharme FM.</authors>
+<title>Should inhaled anticholinergics be added to B2 agonists for treating acute childhood and adolescent asthma? A systematic review.</title>
+<source>BMJ</source>
+<pubdate>1998</pubdate>
+<volume>317</volume>
+<pages>971&#x2013;977.</pages>
+</reference>
+<reference id="poem736">
+<accessionId id="acc026" href="info:wiley/eep-poem/736" />
+<accessionId id="acc026b" href="info:pmid/9761804" />
+<authors>Qureshi F, Pestian J, Davis P, Zaritsky A.</authors>
+<title>Effect of nebulized ipratropium on the hospitalization rates of children with asthma.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>339</volume>
+<pages>1030&#x2013;1035.</pages>
+</reference>
+<reference id="cochrane2178">
+<accessionId id="acc027" href="info:wiley/cochrane/CD002178" />
+<chapter_authors>Rowe BH, Spooner C, Ducharme FM, Bretzlaff JA, Bota GW.</chapter_authors>
+<chapter_title>Early emergency department treatment of acute asthma with systemic corticosteroids (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem20165">
+<accessionId id="acc028" href="info:wiley/eep-poem/20165" />
+<accessionId id="acc028b" href="info:pmid/10453853" />
+<authors>Rodrigo G, Rodrigo C.</authors>
+<title>Corticosteroids in the emergency department therapy of acute adult asthma: An evidence-based evaluation.</title>
+<source>Chest</source>
+<pubdate>1999</pubdate>
+<volume>116</volume>
+<pages>285&#x2013;295.</pages>
+</reference>
+<reference id="poem101122">
+<accessionId id="acc029" href="info:wiley/eep-poem/101122" />
+<accessionId id="acc029b" href="info:pmid/18803532" />
+<authors>Chang AB, Clark R, Sloots TP, et al.</authors>
+<title>A 5- versus 3-day course of oral corticosteroids for children with asthma exacerbations who are not hospitalized: A randomized controlled trial.</title>
+<source>Med J Aust</source>
+<pubdate>2008</pubdate>
+<volume>189</volume>
+<pages>306&#x2013;310.</pages>
+</reference>
+<reference id="poem10811">
+<accessionId id="acc030" href="info:wiley/eep-poem/10811" />
+<accessionId id="acc030b" href="info:pmid/10200005" />
+<authors>Becker JM, Arora A, Scarfone RJ, et al.</authors>
+<title>Oral versus intravenous corticosteroids in children hospitalized with asthma.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>1999</pubdate>
+<volume>103</volume>
+<pages>586&#x2013;590.</pages>
+</reference>
+<reference id="cochrane2316">
+<accessionId id="acc031" href="info:wiley/cochrane/CD002316" />
+<chapter_authors>Edmonds ML, Camargo CA, Brenner BE, Rowe BH.</chapter_authors>
+<chapter_title>Inhaled steroids for acute asthma following emergency department discharge (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem21204">
+<accessionId id="acc032" href="info:wiley/eep-poem/21204" />
+<accessionId id="acc032b" href="info:pmid/10974132" />
+<authors>Schuh S, Reisman J, Alshehri M, et al.</authors>
+<title>A comparison of inhaled fluticasone and oral prednisone for children with severe acute asthma.</title>
+<source>N Engl J Med</source>
+<pubdate>2000</pubdate>
+<volume>343</volume>
+<pages>689&#x2013;694.</pages>
+</reference>
+<reference id="poem40756">
+<accessionId id="acc033" href="info:wiley/eep-poem/40756" />
+<accessionId id="acc033b" href="info:pmid/11889328" />
+<authors>Browne GJ, Trieu L, van Asperen P.</authors>
+<title>Randomized, double-blind, placebo-controlled trial of intravenous salbutamol and nebulized ipratropium bromide in early management of severe acute asthma in children presenting to an emergency department.</title>
+<source>Crit Care Med</source>
+<pubdate>2002</pubdate>
+<volume>30</volume>
+<pages>448&#x2013;453.</pages>
+</reference>
+<reference id="poem50306">
+<accessionId id="acc034" href="info:wiley/eep-poem/50306" />
+<accessionId id="acc034b" href="info:pmid/12377842" />
+<authors>Travers AH, Rowe BH, Barker S, et al.</authors>
+<title>The effectiveness of IV beta-agonists in treating patients with acute asthma in the emergency department.</title>
+<source>Chest</source>
+<pubdate>2002</pubdate>
+<volume>122</volume>
+<pages>1200&#x2013;1207.</pages>
+</reference>
+<reference id="cochrane1490">
+<accessionId id="acc035" href="info:wiley/cochrane/CD001490" />
+<chapter_authors>Rowe BH, Bretzlaff J, Bourdon C, Bota G, Blitz S, Camargo Jr CA.</chapter_authors>
+<chapter_title>Magnesium sulfate for treating exacerbations of acute asthma in the emergency department.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2000, Issue 1. Art. No.: CD001490. DOI: 10.1002&#x002F;14651858.CD001490.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem30177">
+<accessionId id="acc036" href="info:wiley/eep-poem/30177" />
+<accessionId id="acc036b" href="info:pmid/11030848" />
+<authors>Ciarallo L, Brousseau D, Reinert S.</authors>
+<title>Higher-dose intravenous magnesium therapy for children with moderate to severe acute asthma.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2000</pubdate>
+<volume>154</volume>
+<pages>979&#x2013;983.</pages>
+</reference>
+<reference id="poem41258">
+<accessionId id="acc037" href="info:wiley/eep-poem/41258" />
+<accessionId id="acc037b" href="info:pmid/12171821" />
+<authors>Silverman RA, Osborn H, Runge J, et al.</authors>
+<title>IV magnesium sulfate in the treatment of acute severe asthma. A multicenter randomized controlled trial.</title>
+<source>Chest</source>
+<pubdate>2002</pubdate>
+<volume>122</volume>
+<pages>489&#x2013;497.</pages>
+</reference>
+<reference id="cochrane2884">
+<accessionId id="acc038" href="info:wiley/cochrane/CD002884" />
+<chapter_authors>Rodrigo G, Pollack C, Rodrigo C, Rowe BH.</chapter_authors>
+<chapter_title>Heliox for nonintubated acute asthma patients (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2742">
+<accessionId id="acc039" href="info:wiley/cochrane/CD002742" />
+<chapter_authors>Parameswaran K, Belda J, Rowe BH.</chapter_authors>
+<chapter_title>Addition of intravenous aminophylline to beta2-agonists in adults with acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 12.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17110643">
+<accessionId id="acc040" href="info:pmid/17110643" />
+<authors>Zhang HP, Jia CE, Lv Y, Gibson PG, Wang G.</authors>
+<title>Montelukast for prevention and treatment of asthma exacerbations in adults: Systematic review and meta-analysis.</title>
+<source>Allergy Asthma Proc</source>
+<pubdate>2014</pubdate>
+<volume>35</volume>
+<pages>278&#x2013;87.</pages>
+</reference>
+<reference id="poem70307">
+<accessionId id="acc041" href="info:wiley/eep-poem/70307" />
+<accessionId id="acc041b" href="info:pmid/15539716" />
+<authors>Silverman RA, Nowak RM, Korenblat PE, et al.</authors>
+<title>Zafirlukast treatment for acute asthma.</title>
+<source>Chest</source>
+<pubdate>2004</pubdate>
+<volume>126</volume>
+<pages>1480&#x2013;1489.</pages>
+</reference>
+<reference id="cochrane353">
+<accessionId id="acc042" href="info:wiley/cochrane/CD000353" />
+<chapter_authors>McCarney RW, Linde K, Lasserson TJ.</chapter_authors>
+<chapter_title>Homeopathy for chronic asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8">
+<accessionId id="acc043" href="info:wiley/cochrane/CD000008" />
+<chapter_authors>McCarney RW, Brinkhaus B, Lasserson TJ, Linde K.</chapter_authors>
+<chapter_title>Acupuncture for chronic asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2986">
+<accessionId id="acc044" href="info:wiley/cochrane/CD002986" />
+<chapter_authors>Blackhall K, Appleton S, Cates CJ.</chapter_authors>
+<chapter_title>Ionisers for chronic asthma (Cochrane Review),</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1002">
+<accessionId id="acc045" href="info:wiley/cochrane/CD001002" />
+<chapter_authors>Hondras MA, Linde K, Jones AP.</chapter_authors>
+<chapter_title>Manual therapy for asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane993">
+<accessionId id="acc046" href="info:wiley/cochrane/CD000993" />
+<chapter_authors>Ram FSF, Rowe BH, Kaur B.</chapter_authors>
+<chapter_title>Vitamin C supplementation for asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2982">
+<accessionId id="acc047" href="info:wiley/cochrane/CD002982" />
+<chapter_authors>Yorke J, Fleming SL, Shuldham CM.</chapter_authors>
+<chapter_title>Psychological interventions for adults with asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem70143">
+<accessionId id="acc048" href="info:wiley/eep-poem/70143" />
+<accessionId id="acc048b" href="info:pmid/15306531" />
+<authors>Campos FL, da Silva-Junior FP, de Bruin VM, de Bruin PF.</authors>
+<title>Melatonin improves sleep in asthma: A randomized, double-blind, placebo-controlled study.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2004</pubdate>
+<volume>170</volume>
+<pages>947&#x2013;951.</pages>
+</reference>
+<reference id="cochrane1277">
+<accessionId id="acc049" href="info:wiley/cochrane/CD001277" />
+<chapter_authors>Holloway E, Ram FSF.</chapter_authors>
+<chapter_title>Breathing exercises for asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem91">
+<accessionId id="acc050" href="info:wiley/eep-poem/91" />
+<accessionId id="acc050b" href="info:pmid/9382660" />
+<authors>McDermott MF, Murphy DG, Zalenski RJ, et al.</authors>
+<title>A comparison between emergency diagnostic and treatment unit and inpatient care in the management of acute asthma.</title>
+<source>Arch Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>157</volume>
+<pages>2055&#x2013;2062.</pages>
+</reference>
+<reference id="poem60241">
+<accessionId id="acc051" href="info:wiley/eep-poem/60241" />
+<accessionId id="acc051b" href="info:pmid/12807696" />
+<authors>Castro M, Zimmermann NA, Crocker S, et al.</authors>
+<title>Asthma intervention program prevents readmissions in high healthcare users.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2003</pubdate>
+<volume>168</volume>
+<pages>1095&#x2013;1099.</pages>
+</reference>
+<reference id="poem50961">
+<accessionId id="acc052" href="info:wiley/eep-poem/50961" />
+<accessionId id="acc052b" href="info:pmid/12805167" />
+<authors>Guevara JP, Wolf FM, Grum CM, Clark NM.</authors>
+<title>Effects of educational interventions for self-management of asthma in children and adolescents: Systematic review and meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2003</pubdate>
+<volume>326</volume>
+<pages>1308&#x2013;1312.</pages>
+</reference>
+<reference id="poem120743">
+<accessionId id="acc053" href="info:wiley/eep-poem/120743" />
+<accessionId id="acc053b" href="info:pmid/20110554" />
+<authors>Kiljander TO, Junghard O, Beckman O, Lind T.</authors>
+<title>Effect of esomeprazole 40 mg once or twice daily on asthma: A randomized, placebo-controlled study.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2010</pubdate>
+<volume>181</volume>
+<pages>1042&#x2013;1048.</pages>
+</reference>
+<reference id="poem120525">
+<accessionId id="acc054" href="info:wiley/eep-poem/120525" />
+<accessionId id="acc054b" href="info:pmid/20194353" />
+<authors>Vuillermin PJ, Robertson CF, Carlin JB, Brennan SL, Biscan MI.</authors>
+<title>Parent initiated prednisolone for acute asthma in children of school age: Randomised controlled crossover trial.</title>
+<source>BMJ</source>
+<pubdate>2010</pubdate>
+<volume>340</volume>
+<pages>c843.</pages>
+</reference>
+<reference id="poem120145">
+<accessionId id="acc055" href="info:wiley/eep-poem/120145" />
+<accessionId id="acc055b" href="info:pmid/19656525" />
+<authors>Schuh S, Willan AR, Stephens D, Dick PT, Coates A.</authors>
+<title>Can montelukast shorten prednisolone therapy in children with mild to moderate acute asthma? A randomized controlled trial.</title>
+<source>J Pediatr</source>
+<pubdate>2009</pubdate>
+<volume>155</volume>
+<pages>795&#x2013;800.</pages>
+</reference>
+<reference id="cochrane1112">
+<accessionId id="acc056" href="info:wiley/cochrane/CD001112" />
+<chapter_authors>Welsh EJ, Bara A, Barley E, Cates CJ.</chapter_authors>
+<chapter_title>Caffeine for asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem150741">
+<accessionId id="acc057" href="info:wiley/eep-poem/150741" />
+<accessionId id="acc057b" href="info:pmid/23634861" />
+<authors>Parsons JP, Hallstrand TS, Mastronarde JG, Kaminsky DA, Rundell KW, Hull JH, Storms WW, Weiler JM, Cheek FM, Wilson KC, Anderson SD.</authors>
+<title>An official American Thoracic Society clinical practice guideline: exercise-induced bronchoconstriction.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2013</pubdate>
+<volume>187</volume>
+<pages>1016&#x2013;1027.</pages>
+</reference>
+<reference id="poem130923">
+<accessionId id="acc058" href="info:wiley/eep-poem/130923" />
+<accessionId id="acc058b" href="info:pmid/21762229" />
+<authors>Upham BD, Mollen CJ, Scarfone RJ, Seiden J, Chew A, Zorc JJ.</authors>
+<title>Nebulized budesonide added to standard pediatric emergency department treatment of acute asthma: A randomized, double-blind trial.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2011</pubdate>
+<volume>18</volume>
+<pages>665&#x2013;673.</pages>
+</reference>
+<reference id="poem130593">
+<accessionId id="acc059" href="info:wiley/eep-poem/130593" />
+<accessionId id="acc059b" href="info:pmid/21334098" />
+<authors>Kravitz J, Dominici P, Ufberg J, Fisher J, Giraldo P.</authors>
+<title>Two days of dexamethasone versus 5 days of prednisone in the treatment of acute asthma: A randomized controlled trial.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2011</pubdate>
+<volume>58</volume>
+<pages>200&#x2013;204.</pages>
+</reference>
+<reference id="cochrane52">
+<accessionId id="acc060" href="info:wiley/cochrane/CD000052" />
+<chapter_authors>Cates CJ, Welsh EJ, Rowe BH.</chapter_authors>
+<chapter_title>Holding chambers (spacers) versus nebulisers for beta-agonist treatment of acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2013 Issue 11.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane60">
+<accessionId id="acc061" href="info:wiley/cochrane/CD000060" />
+<chapter_authors>Griffiths B, Ducharme FM.</chapter_authors>
+<chapter_title>Combined inhaled anticholinergics and short-acting beta2-agonists for initial treatment of acute asthma in children (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2013 Issue 9.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3000">
+<accessionId id="acc062" href="info:wiley/cochrane/CD003000" />
+<chapter_authors>Tapp S, Lasserson TJ, Rowe BH.</chapter_authors>
+<chapter_title>Education interventions for adults who attend the emergency room for acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2013 Issue 5.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2308">
+<accessionId id="acc063" href="info:wiley/cochrane/CD002308" />
+<chapter_authors>Edmonds ML, Milan SJ, Camargo CA, Jr., Pollack CV, Rowe BH, Edmonds ML.</chapter_authors>
+<chapter_title>Early use of inhaled corticosteroids in the emergency department treatment of acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 12.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane10179">
+<accessionId id="acc064" href="info:wiley/cochrane/CD010179" />
+<chapter_authors>Travers AH, Milan SJ, Jones AP, Camargo CA, Jr., Rowe BH.</chapter_authors>
+<chapter_title>Addition of intravenous beta2-agonists to inhaled beta2-agonists for acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 12.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane10256">
+<accessionId id="acc065" href="info:wiley/cochrane/CD010256" />
+<chapter_authors>Travers AH, Jones AP, Camargo CA, Jr., Milan SJ, Rowe BH, Milan SJ.</chapter_authors>
+<chapter_title>Intravenous beta2-agonists versus intravenous aminophylline for acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 12.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4360">
+<accessionId id="acc066" href="info:wiley/cochrane/CD004360" />
+<chapter_authors>Lim WJ, Mohammed Akram R, Carson KV, Mysore S, Labiszewski NA, Wedzicha JA, Rowe BH, Smith BJ.</chapter_authors>
+<chapter_title>Non-invasive positive pressure ventilation for treatment of respiratory failure due to severe acute exacerbations of asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 12.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2988">
+<accessionId id="acc067" href="info:wiley/cochrane/CD002988" />
+<chapter_authors>Travers AA, Jones AP, Kelly KD, Camargo CA, Jr., Barker SJ, Rowe BH.</chapter_authors>
+<chapter_title>Intravenous beta2-agonists for acute asthma in the emergency department (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1115">
+<accessionId id="acc068" href="info:wiley/cochrane/CD001115" />
+<chapter_authors>Camargo CA, Jr., Spooner C, Rowe BH.</chapter_authors>
+<chapter_title>Continuous versus intermittent beta-agonists for acute asthma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem160534">
+<accessionId id="acc069" href="info:wiley/eep-poem/160534" />
+<accessionId id="acc069b" href="info:pmid/24534400" />
+<authors>Clavenna A, Sequi M, Cartabia M, Fortinguerra F, Borghi M, Bonati M.</authors>
+<title>Effectiveness of nebulized beclomethasone in preventing viral wheezing: An RCT.</title>
+<source>Pediatrics</source>
+<pubdate>2014</pubdate>
+<volume>133</volume>
+<pages>e505&#x2013;e512.</pages>
+</reference>
+<reference id="poem160536">
+<accessionId id="acc070" href="info:wiley/eep-poem/160536" />
+<accessionId id="acc070b" href="info:pmid/24515516" />
+<authors>Keeney GE, Gray MP, Morrison AK, Levas MN, Kessler EA, Hill GD, Gorelick MH, Jackson JL.</authors>
+<title>Dexamethasone for acute asthma exacerbations in children: A meta-analysis.</title>
+<source>Pediatrics</source>
+<pubdate>2014</pubdate>
+<volume>133</volume>
+<pages>493&#x2013;499.</pages>
+</reference>
+<reference id="poem160231">
+<accessionId id="acc071" href="info:wiley/eep-poem/160231" />
+<accessionId id="acc071b" href="info:pmid/24304677" />
+<authors>Azad MB, Coneys JG, Kozyrskyj AL, Field CJ, Ramsey CD, Becker AB, Friesen C, Abou-Setta AM, Zarychanski R.</authors>
+<title>Probiotic supplementation during pregnancy or infancy for the prevention of asthma and wheeze: Systematic review and meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2013</pubdate>
+<volume>347</volume>
+<pages>f6471.</pages>
+</reference>
+<reference id="pubmed25226849">
+<accessionId id="acc072" href="info:pmid/25226849" />
+<authors>Eltonsy S, Forget A, Beauchesne MF, Blais L.</authors>
+<title>Risk of congenital malformations for asthmatic pregnant women using a long-acting &#x03B2;<sub>2</sub>-agonist and inhaled corticosteroid combination versus higher-dose inhaled corticosteroid monotherapy.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>2015</pubdate>
+<volume>135</volume>
+<pages>123&#x2013;130.</pages>
+</reference>
+<reference id="pubmed25129681">
+<accessionId id="acc073" href="info:pmid/25129681" />
+<authors>Jartti T, Nieminen R, Vuorinen T, Lehtinen P, Vahlberg T, Gern J, Camargo CA, Jr., Ruuskanen O.</authors>
+<title>Short- and long-term efficacy of prednisolone for first acute rhinovirus-induced wheezing episode.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>2015</pubdate>
+<volume>135</volume>
+<pages>691&#x2013;698.e9.</pages>
+</reference>
+<reference id="pubmed25176153">
+<accessionId id="acc074" href="info:pmid/25176153" />
+<authors>Alnaji F, Zemek R, Barrowman N, Plint A.</authors>
+<title>PRAM score as predictor of pediatric asthma hospitalization.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2014</pubdate>
+<volume>21</volume>
+<pages>872&#x2013;878.</pages>
+</reference>
+<reference id="poem171005">
+<accessionId id="acc075" href="info:wiley/eep-poem/171005" />
+<accessionId id="acc075b" href="info:pmid/25724847" />
+<authors>Martineau AR, MacLaughlin BD, Hooper RL, Barnes NC, Jolliffe DA, Greiller CL, Kilpin K, McLaughlin D, Fletcher G, Mein CA, Hoti M, Walton R, Grigg J, Timms PM, Rajakulasingam RK, Bhowmik A, Rowe M, Venton TR, Choudhury AB, Simcock DE, Sadique Z, Monteiro WR, Corrigan CJ, Hawrylowicz CM, Griffiths CJ.</authors>
+<title>Double-blind randomised placebo-controlled trial of bolus-dose vitamin D3 supplementation in adults with asthma (ViDiAs).</title>
+<source>Thorax</source>
+<pubdate>2015</pubdate>
+<volume>70</volume>
+<pages>451&#x2013;457.</pages>
+</reference>
+<reference id="poem170727">
+<accessionId id="acc076" href="info:wiley/eep-poem/170727" />
+<accessionId id="acc076b" href="info:pmid/26010632" />
+<authors>Smith LJ, Kalhan R, Wise RA, Sugar EA, Lima JJ, Irvin CG, Dozor AJ, Holbrook JT; American Lung Association Asthma Clinical Research Centers.</authors>
+<title>Effect of a soy isoflavone supplement on lung function and clinical outcomes in patients with poorly controlled asthma: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>313</volume>
+<pages>2033&#x2013;2043.</pages>
+</reference>
+<reference id="poem180122">
+<accessionId id="acc077" href="info:wiley/eep-poem/180122" />
+<accessionId id="acc077b" href="info:pmid/26575060" />
+<authors>Bacharier LB, Guilbert TW, Mauger DT, Boehmer S, Beigelman A, Fitzpatrick AM, Jackson DJ, Baxi SN, Benson M, Burnham CA, Cabana M, Castro M, Chmiel JF, Covar R, Daines M, Gaffin JM, Gentile DA, Holguin F, Israel E, Kelly HW, Lazarus SC, Lemanske RF, Jr., Ly N, Meade K, Morgan W, Moy J, Olin T, Peters SP, Phipatanakul W, Pongracic JA, Raissy HH, Ross K, Sheehan WJ, Sorkness C, Szefler SJ, Teague WG, Thyne S, Martinez FD; National Heart, Lung, and Blood Institute&#x2019;s AsthmaNet.</authors>
+<title>Early administration of azithromycin and prevention of severe lower respiratory tract illnesses in preschool children with a history of such illnesses: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>314</volume>
+<pages>2034&#x2013;2044.</pages>
+</reference>
+<reference id="poem180322">
+<accessionId id="acc078" href="info:wiley/eep-poem/180322" />
+<accessionId id="acc078b" href="info:pmid/26813208" />
+<authors>Chawes BL, B&#x00F8;nnelykke K, Stokholm J, Vissing NH, Bjarnad&#x00F3;ttir E, Schoos AM, Wolsk HM, Pedersen TM, Vinding RK, Thorsteinsd&#x00F3;ttir S, Arianto L, Hallas HW, Heickendorff L, Brix S, Rasmussen MA, Bisgaard H.</authors>
+<title>Effect of vitamin D3 supplementation during pregnancy on risk of persistent wheeze in the offspring: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2016</pubdate>
+<volume>315</volume>
+<pages>353&#x2013;361.</pages>
+</reference>
+<reference id="pubmed26964827">
+<accessionId id="acc079" href="info:pmid/26964827" />
+<authors>Hossein S, Pegah A, Davood F, Said A, Babak M, Mani M, Mahdi R, Peyman H.</authors>
+<title>The effect of nebulized magnesium sulfate in the treatment of moderate to severe asthma attacks: A randomized clinical trial.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>34</volume>
+<pages>883&#x2013;886.</pages>
+</reference>
+<reference id="pubmed26720625">
+<accessionId id="acc080" href="info:pmid/26720625" />
+<authors>Villa-Roel C, Nikel T, Ospina M, Voaklander B, Campbell S, Rowe BH.</authors>
+<title>Effectiveness of educational interventions to increase primary care follow-up for adults seen in the emergency department for acute asthma: A systematic review and meta-analysis.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>23</volume>
+<pages>5&#x2013;13.</pages>
+</reference>
+<reference id="poem190113">
+<accessionId id="acc081" href="info:wiley/eep-poem/190113" />
+<accessionId id="acc081b" href="info:pmid/27117874" />
+<authors>Rehrer MW, Liu B, Rodriguez M, Lam J, Alter HJ.</authors>
+<title>A randomized controlled noninferiority trial of single dose of oral dexamethasone versus 5 days of oral prednisone in acute adult asthma.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>68</volume>
+<pages>608&#x2013;613.</pages>
+</reference>
+<reference id="poem181118">
+<accessionId id="acc082" href="info:wiley/eep-poem/181118" />
+<accessionId id="acc082b" href="info:pmid/27653939" />
+<authors>Johnston SL, Szigeti M, Cross M, Brightling C, Chaudhuri R, Harrison T, Mansur A, Robison L, Sattar Z, Jackson D, Mallia P, Wong E, Corrigan C, Higgins B, Ind P, Singh D, Thomson NC, Ashby D, Chauhan A; AZALEA Trial Team.</authors>
+<title>Azithromycin for acute exacerbations of asthma: The AZALEA Randomized Clinical Trial.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2016</pubdate>
+<volume>176</volume>
+<pages>1630&#x2013;1637.</pages>
+</reference>
+<reference id="cochrane2741">
+<accessionId id="acc083" href="info:wiley/cochrane/CD002741" />
+<chapter_authors>Normansell R, Sayer B, Waterson S, Dennett EJ, Del Forno M, Dunleavy A.</chapter_authors>
+<chapter_title>Antibiotics for exacerbations of asthma.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 6. Art. No.: CD002741. DOI: 10.1002&#x002F;14651858.CD002741.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3898">
+<accessionId id="acc084" href="info:wiley/cochrane/CD003898" />
+<chapter_authors>Knightly R, Milan SJ, Hughes R, Knopp-Sihota JA, Rowe BH, Normansell R, Powell C.</chapter_authors>
+<chapter_title>Inhaled magnesium sulfate in the treatment of acute asthma.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 11. Art. No.: CD003898. DOI: 10.1002&#x002F;14651858.CD003898.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed29173304">
+<accessionId id="acc085" href="info:pmid/29173304" />
+<authors>Paniagua N, Lopez R, Mu&#x00F1;oz N, Tames M, Mojica E, Arana-Arri E, Mintegi S, Benito J.</authors>
+<title>Randomized trial of dexamethasone versus prednisone for children with acute asthma exacerbations.</title>
+<source>J Pediatr</source>
+<pubdate>2017</pubdate>
+<volume>191</volume>
+<pages>190&#x2013;196.e1.</pages>
+</reference>
+<reference id="pubmed210403">
+<accessionId id="acc086" href="info:pmid/210403" />
+<authors>Sawyer MH, Nachlas NE Jr, Panem S.</authors>
+<title>C-type viral antigen expression in human placenta.</title>
+<source>Nature</source>
+<pubdate>1978</pubdate>
+<volume>275</volume>
+<pages>62&#x2013;64.</pages>
+</reference>
+<reference id="pubmed30520413">
+<accessionId id="acc087" href="info:pmid/30520413" />
+<authors>McKeever T, Mortimer K, Bradshaw L, Haydock R, Pavord I, Higgins B, Walker S, Wilson A, Price D, Thomas M, Devereux G, Brightling C, Renwick C, Parrott S, Mitchell E, Duley L, Harrison T.</authors>
+<title>Temporarily quadrupling the dose of inhaled steroid to prevent asthma exacerbations: FAST.</title>
+<source>Health Technol Assess</source>
+<pubdate>2018</pubdate>
+<volume>22</volume>
+<pages>1&#x2013;82.</pages>
+</reference>
+<reference id="pubmed31277618">
+<accessionId id="acc088" href="info:pmid/31277618" />
+<authors>Ni J, Friedman H, Boyd BC, McGurn A, Babinski P, Markossian T, Dugas LR.</authors>
+<title>Early antibiotic exposure and development of asthma and allergic rhinitis in childhood.</title>
+<source>BMC Pediatr</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>225.</pages>
+</reference>
+<reference id="pubmed18238988">
+<accessionId id="acc089" href="info:pmid/18238988" />
+<authors>Dombrowski MP, Schatz M, ACOG Committee on Practice Bulletins-Obstetrics.</authors>
+<title>ACOG practice bulletin: Clinical management guidelines for obstetrician-gynecologists number 90, February 2008: asthma in pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2008</pubdate>
+<volume>111</volume>
+<pages>457&#x2013;64.</pages>
+</reference>
+<reference id="poem230122">
+<accessionId id="acc090" href="info:wiley/eep-poem/230122" />
+<accessionId id="acc090b" href="info:pmid/33231663" />
+<authors>Schuh S, Sweeney J, Rumantir M, Coates AL, Willan AR, Stephens D, Atenafu EG, Finkelstein Y, Thompson G, Zemek R, Plint AC, Gravel J, Ducharme FM, Johnson DW, Black K, Curtis S, Beer D, Klassen TP, Nicksy D, Freedman SB, Pediatric Emergency Research Canada (PERC) Network.</authors>
+<title>Effect of nebulized magnesium vs placebo added to albuterol on hospitalization among children with refractory acute asthma treated in the emergency department: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>324</volume>
+<pages>2038&#x2013;2047.</pages>
+</reference>
+<reference id="poem221030">
+<accessionId id="acc091" href="info:wiley/eep-poem/221030" />
+<accessionId id="acc091b" href="info:pmid/32840597" />
+<authors>Forno E, Bacharier LB, Phipatanakul W, Guilbert TW, Cabana MD, Ross K, Covar R, Gern JE, Rosser FJ, Blatter J, Durrani S, Han YY, Wisniewski SR, Celed&#x00F3;n JC.</authors>
+<title>Effect of vitamin D3 supplementation on severe asthma exacerbations in children with asthma and low vitamin D levels: The VDKA randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>324</volume>
+<pages>752&#x2013;760.</pages>
+</reference>
+<reference id="poem360995">
+<accessionId id="acc092" href="info:wiley/eep-poem/360995" />
+<accessionId id="acc092b" href="info:pmid/35569035" />
+<authors>Papi A, Chipps BE, Beasley R, Panettieri RA Jr, Israel E, Cooper M, Dunsire L, Jeynes-Ellis A, Johnsson E, Rees R, Cappelletti C, Albers FC.</authors>
+<title>Albuterol-Budesonide Fixed-Dose Combination Rescue Inhaler for Asthma.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>2071&#x2013;2083.</pages>
+</reference>
+<reference id="poem362749">
+<accessionId id="acc093" href="info:wiley/eep-poem/362749" />
+<accessionId id="acc093b" href="info:pmid/35213105" />
+<authors>Israel E, Cardet JC, Carroll JK, Fuhlbrigge AL, She L, Rockhold FW, Maher NE, Fagan M, Forth VE, Yawn BP, Arias Hernandez P, Kruse JM, Manning BK, Rodriguez-Louis J, Shields JB, Ericson B, Colon-Moya AD, Madison S, Coyne-Beasley T, Hammer GM, Kaplan BM, Rand CS, Robles J, Thompson O, Wechsler ME, Wisnivesky JP, McKee MD, Jariwala SP, Jerschow E, Busse PJ, Kaelber DC, Nazario S, Hernandez ML, Apter AJ, Chang KL, Pinto-Plata V, Stranges PM, Hurley LP, Trevor J, Casale TB, Chupp G, Riley IL, Shenoy K, Pasarica M, Calderon-Candelario RA, Tapp H, Baydur A, Pace WD.</authors>
+<title>Reliever-Triggered Inhaled Glucocorticoid in Black and Latinx Adults with Asthma.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>1505&#x2013;1518.</pages>
+</reference>
+<reference id="poem351114">
+<accessionId id="acc094" href="info:wiley/eep-poem/351114" />
+<accessionId id="acc094b" href="info:pmid/35197244" />
+<authors>Liu WY, Jiesisibieke ZL, Tung TH.</authors>
+<title>Effect of asthma education on health outcomes in children: a systematic review.</title>
+<source>Arch Dis Child</source>
+<pubdate>2022</pubdate>
+<volume>107</volume>
+<pages>1100&#x2013;1105.</pages>
+</reference>
+<reference id="pubmed38395640">
+<accessionId id="acc095" href="info:pmid/38395640" />
+<authors>Ambro&#x017C;ej D, Adamiec A, Forno E, Orzo&#x0142;ek I, Feleszko W, Castro-Rodriguez JA.</authors>
+<title>Intravenous magnesium sulfate for asthma exacerbations in children: Systematic review with meta-analysis.</title>
+<source>Paediatr Respir Rev</source>
+<pubdate>2024</pubdate>
+<volume>52</volume>
+<pages>23&#x2013;30.</pages>
+</reference>
+<reference id="pubmed38782483">
+<accessionId id="acc096" href="info:pmid/38782483" />
+<authors>Kumar J, Kumar P, Goyal JP, Rajvanshi N, Prabhakaran K, Meena J, Gupta A.</authors>
+<title>Role of nebulised magnesium sulfate in treating acute asthma in children: a systematic review and meta-analysis.</title>
+<source>BMJ Paediatr Open</source>
+<pubdate>2024</pubdate>
+<volume>8</volume>
+<pages />
+</reference>
+<reference id="cochrane12067">
+<accessionId id="acc097" href="info:wiley/cochrane/CD12067" />
+<chapter_authors>Korang SK, Feinberg J, Wetterslev J, Jakobsen JC.</chapter_authors>
+<chapter_title>Non&#x2010;invasive positive pressure ventilation for acute asthma in children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 9. Art. No.: CD012067. DOI: 10.1002&#x002F;14651858.CD012067.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem301877">
+<accessionId id="acc098" href="info:wiley/eep-poem/301877" />
+<accessionId id="acc098b" href="info:pmid/39266286" />
+<authors>Pierantoni L, Muratore E, Cerasi S, Zama D, Del Bono C, Gori D, Masetti R, Lanari M.</authors>
+<title>Salbutamol safety in children under 2 years of age with acute wheezing: a meta-analysis of randomised controlled trials.</title>
+<source>Arch Dis Child</source>
+<pubdate>2025</pubdate>
+<volume>110</volume>
+<pages>111&#x2013;119.</pages>
+</reference>
+<reference id="pubmed40122609">
+<accessionId id="acc099" href="info:pmid/40122609" />
+<authors>Storgaard Petersen R, Hallas H, Brustad N, Chawes B.</authors>
+<title>Short-term efficacy of inhaled short-acting beta-2-agonists for acute wheeze&#x002F;asthma symptoms in preschool-aged children: a systematic review and meta-analysis.</title>
+<source>Thorax</source>
+<pubdate>2025</pubdate>
+<volume>80</volume>
+<pages>349&#x2013;357.</pages>
+</reference>
+<reference id="pubmed40484453">
+<accessionId id="acc100" href="info:pmid/40484453" />
+<authors>Amagasa S, Utsumi S, Okajima K, Uematsu S.</authors>
+<title>Oral systemic corticosteroids in children with acute asthma exacerbations: a systematic review and network meta-analysis.</title>
+<source>Arch Dis Child</source>
+<pubdate>2025</pubdate>
+<volume>110</volume>
+<pages>824&#x2013;831.</pages>
+</reference>
+<reference id="pubmed40388330">
+<accessionId id="acc101" href="info:pmid/40388330" />
+<accessionId id="acc101b" href="info:wiley/poem/348591" />
+<authors>LaForce C, Albers F, Danilewicz A, et al, for the BATURA Investigators.</authors>
+<title>As-needed albuterol-budesonide in mild asthma.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>113&#x2013;124.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline10386">
+<accessionId id="acc102" href="info:wiley/eep-guideline/10386" />
+<citation>Kaiser Permanente Care Management Institute. Pediatric asthma: clinical practice guideline. Oakland, CA: Kaiser Permanente Care Management Institute; 2006 Aug. 224 p. [169 references]</citation>
+<url>http://providers.kp.org/oh/pdf/oh_pediatricasthma_0310.pdf</url>
+<organization>KPCMI</organization>
+<longtitle>Pediatric asthma: clinical practice guideline.</longtitle>
+<title>clinical practice guideline</title>
+<dateguideline>8&#x002F;1&#x002F;2006</dateguideline>
+</reference>
+<reference id="guideline21025">
+<accessionId id="acc103" href="info:wiley/eep-guideline/21025" />
+<citation />
+<url>http://www.ncbi.nlm.nih.gov/books/NBK33814/</url>
+<organization>AHRQ</organization>
+<longtitle>Chronic Asthma</longtitle>
+<title>Chronic asthma (AHRQ)</title>
+<dateguideline>9&#x002F;1&#x002F;2001</dateguideline>
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>662</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Asthma: Management.</title>
+<graphic href="eee0662-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Assess severity of attack (mild, moderate, or severe), then give nebulized or aerosol beta-2 agonist in multiple doses or continuously.</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Response?</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Arrange follow up; maintains response 60 minutes after last treatment; normal physical exam; consider oral steroids.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Reassess. Improved?</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Discharge home; continue treatment with inhaled SABA; consider oral steroids; inhaled corticosteroid; patient education; schedule follow-up appt 1-4 weeks.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Consider admission to ward; oxygen; continue inhaled SABA + ipratropium bromide; oral or IV steroids; monitor vital signs, FEV1, SaO<sub>2</sub>.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>PEF &#x2264;50&#x0025; predicted, pCO<sub>2</sub> &#x2265;42 mm Hg, drowsiness or confusion: admit to MICU; O<sub>2</sub>; inhaled SABA hourly or continuously; consider adjunctive treatment; consider intubation and mechanical ventilation.</label>
+</cell>
+<footnotes>
+<footnote>PEF, peak expiratory flow; SABA, short-acting beta agonist.</footnote>
+<footnote>Adapted from the National Heart, Blood, and Lung Institute Expert Panel Report 3 (EPR 3): Guidelines for the Diagnosis and Management of Asthma. NIH Publication no. 08-4051, 2007.</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Drug Treatments for Acute Exacerbation of Asthma.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Medication</th>
+<th align="left" colspan="1">Child Dose</th>
+<th align="left" colspan="1">Adult Dose</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Short-Acting Beta Agonist</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">(1) Albuterol</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Nebulizer solution</td>
+<td align="left" colspan="1">0.15 mg&#x002F;kg every 20 minutes for 3 doses</td>
+<td align="left" colspan="1">2.5-5.0 mg every 20 minutes for 3 doses</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial dose</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Subsequent doses</td>
+<td align="left" colspan="1">0.15-0.3 mg&#x002F;kg up to 10 mg every 1-4 hours prn or 0.5 mg&#x002F;kg&#x002F;hr via continuous nebulization</td>
+<td align="left" colspan="1">2.5-10.0 mg every 1-4 hours as needed or 10-15 mg&#x002F;hr via continuous nebulization</td>
+</tr>
+<tr>
+<td align="left" colspan="1">MDI 90 mcg&#x002F;puff</td>
+<td align="left" colspan="1">4-8 puffs every 20 minutes times 3 doses; add valved holding chamber. In children &lt;4 yr use mask</td>
+<td align="left" colspan="1">4-8 puffs every 20 minutes up to 4 hours</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial dose</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Subsequent doses</td>
+<td align="left" colspan="1">Every 1-4 hours prn</td>
+<td align="left" colspan="1">Every 4 hours prn</td>
+</tr>
+<tr>
+<td align="left" colspan="1">(2) Levalbuterol</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">(R-Albuterol)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Nebulizer solution</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial dose</td>
+<td align="left" colspan="1">0.075 mg&#x002F;kg (minimum dose 1.25 mg) every 20 minutes for 3 doses</td>
+<td align="left" colspan="1">1.25-2.5 mg up to 5 mg every 20 minutes for 3 doses</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Subsequent doses</td>
+<td align="left" colspan="1">0.75-0.15 mg&#x002F;kg up to 5 mg every 1-4 hours prn</td>
+<td align="left" colspan="1">1.25-5.0 mg every 1-4 hours prn</td>
+</tr>
+<tr>
+<td align="left" colspan="1">MDI 45 mcg&#x002F;puff</td>
+<td align="left" colspan="1">Same as albuterol dosing</td>
+<td align="left" colspan="1">Same as albuterol dosing</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Anticholinergics</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ipratropium bromide</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Nebulizer solution</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial dose</td>
+<td align="left" colspan="1">0.25-0.5 mg every 20 minutes for 3 doses</td>
+<td align="left" colspan="1">0.5 mg every 20 minutes for 3 doses</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Subsequent doses</td>
+<td align="left" colspan="1">Repeat as needed</td>
+<td align="left" colspan="1">Repeat as needed</td>
+</tr>
+<tr>
+<td align="left" colspan="1">MDI 18 mcg&#x002F;puff</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial dose</td>
+<td align="left" colspan="1">4-8 puffs every 20 minutes for 3 doses, add valved holding chamber</td>
+<td align="left" colspan="1">8 puffs every 20 minutes for 3 doses</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Systemic Beta-2 Agonists</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">(1) Epinephrine</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">1:1,000 (1 mg&#x002F;kg)</td>
+<td align="left" colspan="1">0.01 mg&#x002F;kg SC up to 0.3-0.5 mg every 20 minutes for up to 3 doses</td>
+<td align="left" colspan="1">0.3-0.5 mg SC every 20 minutes for up to 3 doses</td>
+</tr>
+<tr>
+<td align="left" colspan="1">(2) Terbutaline 1 mg&#x002F;ml</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Initial dose</td>
+<td align="left" colspan="1">0.01 mg&#x002F;kg SC every 20 minutes up to 3 doses</td>
+<td align="left" colspan="1">0.25 mg SC every 20 minutes for up to 3 doses</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Subsequent doses</td>
+<td align="left" colspan="1">0.01 mg&#x002F;kg SC every 2-6 hours prn</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Systemic corticosteroids</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Prednisone, prednisolone, methylprednisolone</td>
+<td align="left" colspan="1">1-2 mg&#x002F;kg in 2 divided doses with maximum of 60 mg&#x002F;day continue until FEV1 is 70&#x0025; of predicted or personal best</td>
+<td align="left" colspan="1">40-80 mg in 1-2 doses until FEV1 is 70&#x0025; of predicted or personal best</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Magnesium sulfate</td>
+<td align="left" colspan="1">25-75 mg&#x002F;kg up to 2 g IV</td>
+<td align="left" colspan="1">2 g IV</td>
+</tr>
+</table>Adapted from the National Heart, Blood, and Lung Institute Expert Panel Report 3 (EPR 3): Guidelines for the Diagnosis and Management of Asthma. NIH Publication no. 08-4051, 2007. Section 5; 386-387.</feature_body>
+</feature>
+</feature_group>
+</topic>

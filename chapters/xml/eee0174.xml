@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Cholecystitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0174</topic_id>
+<topic_comment />
+<topic_lastupdated>09/18/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Jaividhya Dasarathy MD FAAFP</author_name>
+<author_title> Professor</author_title>
+<author_department>MetroHealth Medical Center,Department of Family Medicine</author_department>
+<author_institution>Case Western Reserve University</author_institution>
+<author_email>jxd114&#x0040;case.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Cleveland</author_city>
+<author_state>Ohio</author_state>
+<author_zip>44109</author_zip>
+</author>
+<author primary="no">
+<author_name>Christine Alexander, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>MetroHealth Medical Center,Department of Family Medicine</author_department>
+<author_institution>Case Western Reserve University</author_institution>
+<author_email>calexander&#x0040;metrohealth.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Cleveland</author_city>
+<author_state>Oho</author_state>
+<author_zip>44109</author_zip>
+</author>
+<author primary="no">
+<author_name>Charles Bellows, MD, FACS</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Surgery</author_department>
+<author_institution>Tulane University Health Sciences Center</author_institution>
+<author_email>cbellows&#x0040;tulane.edu</author_email>
+<author_phone_office>504-988-2307</author_phone_office>
+<author_phone_home />
+<author_phone_fax>504-988-3843</author_phone_fax>
+<author_street1>1430 Tulane Ave.</author_street1>
+<author_street2>Department of Surgery SL-22</author_street2>
+<author_city>New Orleans</author_city>
+<author_state>LA</author_state>
+<author_zip>70112</author_zip>
+</author>
+<author primary="no">
+<author_name>William Scott Helton, MD, FACS</author_name>
+<author_title>Chair of Surgery</author_title>
+<author_department>Department of Surgery</author_department>
+<author_institution>Hospital of Saint Raphael</author_institution>
+<author_email>shelton&#x0040;srhs.org</author_email>
+<author_phone_office>203-789-3501</author_phone_office>
+<author_phone_home />
+<author_phone_fax>203-867-5348</author_phone_fax>
+<author_street1>1450 Chapel St.</author_street1>
+<author_street2 />
+<author_city>New Haven</author_city>
+<author_state>CT</author_state>
+<author_zip>06511</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Ultrasound is the best initial diagnostic test for cholecystitis; scintigraphy with hepatobiliary iminodiacetic acid (HIDA) can be obtained if ultrasound results are negative or equivocal. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Early laparoscopic cholecystectomy (within 72 hours) for acute cholecystitis is recommended. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>If a patient is too sick or high risk to undergo surgery, a cholecystotomy tube is the next best choice. <evidence rating="A" system="SORT"> A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Acute cholecystitis (AC) is acute gallbladder inflammation and it occurs usually when gallstones obstructs the cystic duct.<xref ref="pubmed35258527" resource="acc028" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Acute cholecystitis is diagnosed in approximately 200 000 people in the US each year.<xref ref="pubmed35258527" resource="acc028" /></listitem>
+<listitem>During the COVID-19 first wave pandemic in Spain, a 1&#x002F;3 reduction in the number of mild cases treated for acute surgical inflammatory process including cholecystitis was observed.<xref ref="pubmed34608197" resource="acc041" /></listitem>
+<listitem>Acute cholecystitis (AC) is the most frequent complication of gallstones and occurs in 10&#x0025; to 30&#x0025; of patients requiring cholecystectomy. Most patients with gallstones do not develop symptoms; AC develops in up to 10&#x0025; of patients with symptomatic gallstones.<xref ref="pubmed35258527" resource="acc028" /> .</listitem>
+<listitem>Acute acalculous cholecystitis accounts for 10&#x0025; of cases of AC. The incidence is higher in intensive care populations, particularly patients in burn and trauma units.<xref ref="pubmed19747982" resource="acc080" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>More than 20 million Americans are estimated to have gallstones, with approximately 300,000 cholecystectomies performed annually.<xref ref="pubmed30470279" resource="acc084" /></listitem>
+<listitem>Data from NY State showed 711,406 cholecystectomies were performed from 1995 to 2013, of which 637,308 (89.58 &#x0025;) were laparoscopic. 72.81&#x0025; of cholecystectomies were performed for calculous cholecystitis (n &#x003D; 464,032). Outpatient laparascopic surgery incidence increased to 48.6 &#x0025; in 2013. <xref ref="pubmed27604366" resource="acc020" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Acute cholecystitis can develop in patients with and without gallstones.<xref ref="pubmed35258527" resource="acc028" /></listitem>
+<listitem>Calculus cholecystitis is caused by a cystic duct obstruction or passage of gallstones into the gallbladder neck, which causes acute inflammation of the gallbladder wall. Inflammation usually starts without infection, although secondary infection can follow.</listitem>
+<listitem>While estrogen use is a risk factor, long term use of combined continuous hormone therapy ((after 5.6 years' use: from 27 per 1000 to between 38 and 60 per 1000) and estrogen only hormone therapy (after 7 years' use: from 27 per 1000 to between 38 and 60 per 1000) cause gallbladder disease.<xref ref="pubmed28093732" resource="acc096" /></listitem>
+<listitem>AAC usually develops in critically ill or injured patients. The risk factors include age (&#x003E;50 years), surgery, trauma, diabetes mellitus, and prolonged use of parental nutrition.Shock or cardiac arrest has also been associated with AAC.<xref ref="pubmed19747982" resource="acc080" /></listitem>
+<listitem>In the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) trial on diabetic patients, liragulutide use was associated with an increased risk of acute gallbladder or biliary disease vs placebo (HR &#x003D; 1.60).<xref ref="pubmed31399438" resource="acc027" /></listitem>
+<listitem>A systematic review and meta-analysis of 76 RCTs with 103,371 patients found that use of GLP-1 receptor agonists was associated with increased risk of cholecystitis (RR, 1.36; 95&#x0025; CI, 1.14-1.62) especially when used at higher doses, for longer durations, and for weight loss.<xref ref="pubmed35344001" resource="acc029" /></listitem>
+<listitem>In a retrospective analysis of 601,665 admissions for acute cholecystitis in Japan showed ambient temperature may play a role. High temperature (&#x2265;10.0 &#x00B0;C) and low temperature (&lt;5.0 &#x00B0;C) were associated with increased admission for acute cholecystitis.<xref ref="pubmed34284962" resource="acc044" /></listitem>
+<listitem>Dipeptidyl peptidase-4 inhibitors increased the risk of cholecystitis in a network meta-anaylsis involving 82 RCTs, especially with a longer treatment duration.<xref ref="pubmed35764326" resource="acc092" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Cystic duct obstruction from gallstones or their passage into the gallbladder neck causes acute inflammation of the gallbladder wall. The impacted gallstone causes biliary distension with subsequent compromise in blood flow and lymphatic drainage to the gallbladder, resulting in mucosal ischemia and necrosis.Degree and duration of obstruction are the factors that determine progression to AC.<xref ref="pubmed17252293" resource="acc081" /></listitem>
+<listitem>Infection of the gallbladder subsequently develops in 47&#x0025; to 100&#x0025; of patients. Bacteria causing secondary infection include <em>Escherichia coli</em>, <em>Klebsiella</em> organisms, Enterococci, <em>Pseudomonas</em> organisms, and <em>Bacteroides fragilis</em>.<xref ref="pubmed32498344" resource="acc097" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Age &#x003E;60 years</Risk_Name>
+<Risk_OR>&#x00A0;1.955 (95&#x0025;CI 1.44-2.65)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Male sex</Risk_Name>
+<Risk_OR>&#x00A0;1.769 (95&#x0025; CI 1.34-2.32) Table 1</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Presence of cardiovascular disease</Risk_Name>
+<Risk_OR>&#x00A0;1.826 (95&#x0025; CI 1.32-2.52)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes Mellitus</Risk_Name>
+<Risk_OR>&#x00A0;1.802( 95&#x0025; CI, 1.15-2.81)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cerebrovascular Accident</Risk_Name>
+<Risk_OR>&#x00A0;8.107 (95&#x0025; CI, 2.65-24.8)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>GLP1 receptor agonist agents</Risk_Name>
+<Risk_OR>1.36 (95&#x0025; CI, 1.14-1.62)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Dipeptidyl peptidase-4 inhibitors</Risk_Name>
+<Risk_OR>1.43 (1.14 to 1.79)</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref>
+<xref ref="pubmed35344001" resource="acc029" />
+<xref ref="pubmed35764326" resource="acc092" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>The clinical signs and symptoms of right upper quadrant pain, mass, tenderness along with systemic signs of fever helps one to suspect AC.<xref ref="pubmed29032636" resource="acc098" />
+<evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Ultrasound is the best initial diagnostic test. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Scintigraphy with HIDA can be obtained if ultrasound results are negative or equivocal or in a patient without fever or elevated WBC but with gallstones. <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Peptic ulcer disease</Differential_Name>
+<Differential_Features>Burning or gnawing epigastric pain, possible epigastric tenderness on examination, positive <em>Helicobacter pylori</em> stool antigen or breath test</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute hepatitis</Differential_Name>
+<Differential_Features>Prodromal symptoms (eg, nausea, vomiting, fatigue, myalgias), clinical jaundice, positive serologic markers</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute pancreatitis</Differential_Name>
+<Differential_Features>Upper abdominal pain radiating to back, anorexia, nausea, vomiting, fever; elevated serum lipase</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cholangitis</Differential_Name>
+<Differential_Features>Biliary pain, jaundice, spiking fever; possible bacteremia, shock; positive endoscopic retrograde cholangio-pancreatography (ERCP)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute Pyelonephritis</Differential_Name>
+<Differential_Features>Fever, costovertebral tenderness, nausea, vomiting, positive nitrate and leukocyte esterase in the urine dipstick test</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Gastroesophageal reflux disease</Differential_Name>
+<Differential_Features>Heartburn (substernal burning pain) aggravated by certain foods or body positions; normal examination</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Irritable bowel disease</Differential_Name>
+<Differential_Features>Crampy abdominal pain that is chronic and often associated with defecation or change in stool frequency or appearance</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute myocardial infarction</Differential_Name>
+<Differential_Features>Chest pain (rarely sharp or burning), may radiate to upper epigastrium, shoulder, upper arm, or neck; ECG changes or elevated cardiac enzymes are typically seen</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Right lower lobe pneumonia</Differential_Name>
+<Differential_Features>Productive cough, fever, dyspnea, crackles in lung base, abnormal CXR</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sickle cell anemia</Differential_Name>
+<Differential_Features>Acute pain (anywhere in the body), fever, hemolytic anemia, red cell morphology</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Early diagnosis of acute cholecystitis is essential for prompt therapeutic decisions and prevention of complications.</listitem>
+<listitem>Key factors include a history of gallstones and characteristic pain in the right upper quadrant (RUQ), lasting more than 3 to 5 hours, and unremitting. It is associated with fever, nausea, and&#x002F;or leukocytosis. Pain rapidly increases in severity and then plateaus with occasional radiation to the tip of the right scapula. The duration of pain can be shorter if the gallstone returns into the gallbladder lumen or passes into the duodenum.</listitem>
+<listitem>The presence of RUQ pain, Murphy sign (cessation of inspiration caused by pain during RUQ palpation on deep inspiration), and chills best predict cholecystitis.<xref ref="pubmed29032636" resource="acc098" /> The absence of RUQ pain significantly reduces the likelihood of cholecystitis (LR&#x2212; 0.28). Unfortunately, a meta-analysis found that no single clinical or laboratory finding rules in or rules out acute cholecystitis.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>There are no specific blood tests for acute cholecystitis (AC), but an elevated WBC count and&#x002F;or CRP (&#x003E;3 mg&#x002F;dL) may be useful in confirming an inflammatory process.<xref ref="pubmed29032636" resource="acc098" /> Although hepatic transaminaes, alkaline phosphatase and bilirubin are not helpful, they may become elevated in the presence of common bile duct obstruction</listitem>
+<listitem>Persistent pain (&#x003E;72 hours), leukocytosis (WBC &#x003E;18,000), or palpable tender mass in RUQ may indicate moderate severity, while evidence of organ damage (hypotension, altered mental status, oliguria, SCr &#x003E;2mg&#x002F;dL, INR &#x003E;1.5, platelet &lt;100,000) may indicate severe&#x002F;complicated disease (eg, pericholecystic abscess formation, bilioenteric fistula, or gallbladder perforation with peritonitis).<xref ref="pubmed29325783" resource="acc019" /></listitem>
+<listitem>CRP &#x003E;15.25 mg&#x002F;dl can be one of the predictive factors to diagnose gangrenous cholecystitis.<xref ref="pubmed31264982" resource="acc026" /></listitem>
+<listitem>In a retrospective cohort study of 7458 patients with AC and a history of chronic cholecystitis, a National Surgical Quality Improvement Program database showed abnormal hepatic transaminases is a positive predictor for CBD stones.<xref ref="pubmed34414941" resource="acc054" /></listitem>
+<listitem>Systemic inflammation markers such as neutrophil-lymphocyte ratio (NLR) and thrombocyte-lymphocyte ratio can be used to predict the risk of complicated acute cholecystitis.<xref ref="pubmed35485509" resource="acc057" />In a systemic review an NLR &#x003E; 2.9 was an independent predictor of cholecystitis (OR 36.0, p &#x003D; 0.006). In simple versus severe cholecystitis, an NLR cut-off value of 8.5 was identified (AUC &#x003D; 0.73).<xref ref="pubmed34746977" resource="acc038" />.</listitem>
+<listitem>Ischemia modified albumin (IMA), a marker of hypoperfusion and oxidative stress, could be useful in predicting the clinical severity of acute cholecystitis.<xref ref="pubmed34542972" resource="acc062" /></listitem>
+<listitem>Blood culture should be obtained for patients with grade 3 cholecystitis (odds ratio for blood stream infection 4.51) who undergo emergency cholecystectomy.<xref ref="pubmed34717046" resource="acc045" /></listitem>
+<listitem>Point Of Care Ultrasound (POCUS) is reliable for the diagnosis of acute cholecystitis. The sensitivity and specificity of POCUS to diagnose cholecystitis was 67.1&#x0025; (95&#x0025; CI 54.9-77.9&#x0025;) and 97.6&#x0025; (95&#x0025; CI 95.9-98.8&#x0025;) respectively. The negative predictive value was 95.6&#x0025; (95&#x0025; CI 93.9-96.8&#x0025;).<xref ref="pubmed34491557" resource="acc061" /></listitem>
+<listitem>In a prospective observational validation study of 153 patients, the Bedside Sonographic Acute Cholecystitis (SAC) Score using POCUS is useful in diagnosis of acute cholecystitis. A low Bedside SAC Score &lt; 2 (sensitivity of 100&#x0025;) rules out AC and patients with a high Bedside SAC Score &#x2265; 7 (specificity of 95.7&#x0025;) rule in for AC. <xref ref="pubmed33429186" resource="acc055" /></listitem>
+<listitem>Imaging studies are essential for the diagnosis. Right upper quadrant ultarsound should be ordered first.<xref ref="pubmed28586152" resource="acc082" /> Scintigraphy with can be obtained in a symptomatic patient if ultrasound results are negative or equivocal or in a patient without fever or an elevated WBC but with gallstones.<xref ref="pubmed10840354" resource="acc009" /> Nonvisualization by HIDA scan in a patients with localized RUQ pain, elevated WBC, and fever establishes the diagnosis. The HIDA scan is useful for diagnosis of both calculous cholecystitis and acalculous cholecystitis.</listitem>
+<listitem>Distention of both length and width of gallbladder on point of care Ultrasound is more specific with acute over chronic cholecystitis; OR 4.32 (95&#x0025; CI 1.42-13.14) in a small retrospective study.<xref ref="pubmed38728935" resource="acc093" /></listitem>
+<listitem>In a meta-analysis of 10 studies, emergency physician-performed point-of-care ultrasound with final diagnosis as the reference standard (7 studies, n&#x003D;1,772) had a pooled sensitivity of 70.9&#x0025; (95&#x0025; confidence interval [CI] 62.3 to 78.2), specificity of 94.4&#x0025; (95&#x0025; CI 88.2 to 97.5), positive likelihood ratio of 12.7 (5.8 to 27.5), and negative likelihood ratio of 0.31 (0.23 to 0.41) for the diagnosis of acute cholecystitis.<xref ref="pubmed37855790" resource="acc094" /></listitem>
+<listitem>Patients with acute RUQ pain but no fever and a normal WBC should undergo either an abdominal ultrasound or CT scan. CT findings compatible with AC include gallstones, gallbladder distention, gallbladder wall thickening, pericholecystic fat stranding or fluid<xref ref="pubmed29032636" resource="acc098" />, and adjacent liver enhancement.<xref ref="pubmed30113479" resource="acc018" /> Detection of gallstones<resourceLink href="info:wiley/eep-eee/175" /> alone does not definitively diagnose acute cholecystitis. Multidetector computed tomography findings can distinguish AC from Chronic Cholecystitis.<xref ref="pubmed30113479" resource="acc018" /> .</listitem>
+<listitem>Follow up US subsequent to CT in subjects with suspecious AC, increases the PPV in low confidence CT findings, on the otherhand it adds little value in high confidence positive CT(PPV of CT was 44.7&#x0025; without US and 50.5&#x0025; when US was positive).<xref ref="pubmed34235552" resource="acc059" /></listitem>
+<listitem>Radiographic demonstration of gas in the gallbladder wall, lumen, or pericholecystic tissues indicates <em>emphysematous cholecystitis</em> (a severe variant of AC). This is more common in patients with diabetes mellitus and in older patients.<xref ref="pubmed21799598" resource="acc099" /></listitem>
+<listitem>In patients with AC, an algorithm using non-binary ultrasound and clinical assessments had higher sensitivity, higher diagnostic rate, and fewer adverse outcomes, than radiologist impressions.<xref ref="pubmed34958407" resource="acc058" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A clinical decision rule has been developed and validated to predict the likelihood of common bile duct stones. Age &#x003E; 55 years, pancreatitis, cholangitis, cirrhosis, alkaline phosphatase level of 125 - 250 or &#x003E; 250 U&#x002F;L, total bilirubin level &#x003E; 4 mg&#x002F;dL, common bile duct size &#x003E; 6 mm, and common bile duct stone detection are the predictors.<xref ref="pubmed36407811" resource="acc100" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect cholecystitis in patients who present with RUQ pain, fever, abdominal tenderness, and Murphy sign. No single finding is very reliable, though, particularly in older patients.</listitem>
+<listitem>The initial diagnostic test is an Ultrasound. Scintigraphy with HIDA can be obtained if ultrasound results are equivocal. The findings of stones on imaging combined with physical and&#x002F;or laboratory signs of localized inflammation in the RUQ suggest AC.<xref ref="pubmed29032636" resource="acc098" /></listitem>
+<listitem>See <xref ref="fig001" /> for a suggested approach to treatment.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Opioids, such as morphine, hydromorphone, or meperidine, are appropriate therapy for acute pain relief in patients with acute cholecystitis, although ketorolac is prefered for biliary colic. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed35258527" resource="acc028" /></listitem>
+<listitem>Early cholecystectomy (within 72 hours) is the definitive treatment of choice for acute cholecystitis. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed35258527" resource="acc028" /></listitem>
+<listitem>Open cholecystectomy may be appropriate for patients with cirrhosis, a gallbladder mass, extensive upper abdominal surgery, or suspicion of malignancy, or in late third trimester of pregnancy. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>High-risk patients (eg, critically ill, poor surgical candidates) may benefit from emergent percutaneous cholecystostomy. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed34958407" resource="acc058" />,<xref ref="pubmed34697679" resource="acc065" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Opiate analgesia can be used for pain control during evaluation. Although its use can alter the physical examination findings, it does not increase the risk <xref ref="pubmed35258527" resource="acc028" />.</listitem>
+<listitem>In one RCT, 75&#x0025; of patients with uncomplicated gallstones (managed with analgesia and monitoring) did not require surgery over the ensuing 18 months. Without evidence of CBD blockage or acute pancreatitis, there is no need to rush to surgery. <xref ref="poem368071" resource="acc085" /></listitem>
+<listitem>Antibiotics (eg, ureidopenicillin, third-generation cephalosporins) can be the initial therapy along with IV fluids and analgesics NSAIDs). Most patients will improve within 12 to 24 hours. <xref ref="pubmed29032636" resource="acc098" /></listitem>
+<listitem>There is no convincing evidence for a protective role of bile salt therapy against biliary complications such as AC; there is also no benefit from bile salts in patients with symptomatic gallstones awaiting cholecystectomy.<xref ref="pubmed16729326" resource="acc001" /></listitem>
+<listitem>Perioperative dexamethasone was shown in one RCT to reduce nausea following elective laparoscopic cholecystectomy (8&#x0025; vs. 27&#x0025;; NNT &#x003D; 5.3).<xref ref="poem80546" resource="acc002" /></listitem>
+<listitem>
+<strong>Antibiotics Pre-Operatively</strong></listitem>
+<listitem>In a meta-analysis of 3 RCTs, single dose of prophylactic antibiotics in patients underoging acute laparoscopic cholecystectomy for mild to moderate acute cholecystitis does not offer benefit in reducing the infective complications.<xref ref="pubmed38021359" resource="acc101" /></listitem>
+<listitem>However, a multicenter randomized non-inferiority clinical trial with 226 patients found a lower rate of complications in patients randomized to 2 gm cefazolin preoperatively (7.1&#x0025; vs 12.6&#x0025;) in patients being treated for for mild to moderate acute cholecystitis.<xref ref="pubmed35020797" resource="acc073" /></listitem>
+<listitem>Patients with acute cholecystitis who have a high probability of having bactibilia (eg, common duct stones, emergency surgery, intraoperative findings, age over 70 years) are at risk for developing postoperative infection and should receive a single dose of prophylactic broad-spectrum antibiotic immediately before surgery (typically a second- or third-generation cephalosporin).<xref ref="pubmed36685772" resource="acc102" /></listitem>
+<listitem>A randomized controlled trial enrolled 414 patients having surgery for calculous cholecystitis, all of whom had pre-operative antibiotics,found that the addition of postoperative amoxicillin-clavulanic acid 3 times a day for 5 days did not reduce the likelihood of post-operative infection (15&#x0025; vs. 17&#x0025;, p &#x003D; NS).<xref ref="pubmed25005651" resource="acc015" /></listitem>
+<listitem>No significant difference was observed between single and combined use of antibiotics for prophyaxis or therapeutic purposes, in terms of treatment effectiveness and hospitalization duration.<xref ref="pubmed34669862" resource="acc079" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for an overview of treatment.</listitem>
+<listitem>
+<strong>Cholecystectomy</strong></listitem>
+<listitem>Early cholecystectomy (within 72 hours) is the definitive first line treatment of choice for AC since recurrent symptomatic gallbladder inflammation often occurs despite medical therapy. This can be performed by laparoscopy or laparotomy (ie, open approach).<xref ref="pubmed23813477" resource="acc107" />
+<xref ref="pubmed35258527" resource="acc028" /></listitem>
+<listitem>Early cholecystectomy in patients with sickle cell disease with uncomplicated cholecystitis has better outcome than patients who has advance clinical presenation.<xref ref="pubmed38193560" resource="acc087" /></listitem>
+<listitem>A meta-analysis of 28 studies showed early laparascopic cholecystectomy is more cost effectice than delayed laparascopic cholecystectomy in the treatment of AC with an incremental net benefit of US$1221 (US$187 to US$2255) in high income countries.<xref ref="pubmed35064024" resource="acc031" />.</listitem>
+<listitem>Early laparoscopic cholecystectomy is associated with a significant reduction in hospital stay (6-8 vs. 11-12 days for delayed group) and decreases the rate of recurrent gallstone-related complication in patients with mild gallstone pancreatitis, but does not significantly affect conversion rate to open cholecystectomy. Compared with laparoscopic cholecystectomy, robotic-assisted cholecystectomy was associated with a higher rate of bile duct injury necessitating a definitive operative repair within 1 year (0.7&#x0025; vs 0.2&#x0025;; relative risk [RR], 3.16 [95&#x0025; CI, 2.57-3.75] in one cohort study. <xref ref="pubmed37728932" resource="acc103" /> Robot-assisted surgery is safe but no more effective than human-assisted surgery. <xref ref="pubmed26460661" resource="acc016" /></listitem>
+<listitem>Analysis of a multicenter evaluation of cholecystitis database showed laparoscopic cholecystectomy regardless of when it is performed in the day.<xref ref="pubmed36746709" resource="acc091" /></listitem>
+<listitem>Conversion to an open procedure may be required for significant adhesions, inflammation, difficulty delineating the anatomy, or significant bleeding. The conversion rate in a case series of 1083 patients was 2.2&#x0025;.<xref ref="PubMed24351351" resource="acc013" /></listitem>
+<listitem>Open cholecystectomy may be appropriate for patients with cirrhosis, a gallbladder mass, extensive upper abdominal surgery, of suspicion of malignancy, or late third trimester of pregnancy. <xref ref="pubmed33425342" resource="acc083" /></listitem>
+<listitem>In a retrospective case control study of 320 patients with AC, preoperative clinical data such as older age, male sex, gallbladder wall thickness, and pericholecystic fluid are identifed as higher risk of conversion to open cholecystectomy.<xref ref="pubmed34384723" resource="acc077" /></listitem>
+<listitem>Gallbladders with severe inflammation have a longer operating time and increased risks of complicaitons. The Parkland grading scale stratifies the GB inflammation using intraoperative images.<xref ref="pubmed28619262" resource="acc021" /></listitem>
+<listitem>Patients with typical biliary colic symptoms without gallstones and markedly high ejection fraction by biliary scintigraphy scan (HIDA) might benefit from having cholecystectomy to alleviate their symptoms.<xref ref="pubmed34115337" resource="acc034" /></listitem>
+<listitem>A systemic review and 2 meta-analysis showed prophylactic drainage after laparascopic cholecystectomy is not helpful to reduce the complication to treat AC.<xref ref="pubmed30945148" resource="acc024" />
+<xref ref="pubmed30760351" resource="acc025" /></listitem>
+<listitem>Laparascopic surgery with 3-dimensional models using a new digital holographic image technology is feasible and its efficacy depend on experience of the surgeon.<xref ref="pubmed34736791" resource="acc072" /></listitem>
+<listitem>Implementation of an early recovery program after early cholecystectomy for acute cholecystitis decreased the length of stay and did not increase the morbidity rate.<xref ref="pubmed35426396" resource="acc069" /></listitem>
+<listitem>Incentive spirometry decreased the severity of shoulder tip pain after laparascopic cholecystectomy with no complications.<xref ref="pubmed34570072" resource="acc078" /></listitem>
+<listitem>In a study of 200 patients with calculus AC, Intraperitoneal normal saline instillation following laparoscopic cholecystectomy may be a choice for reducing postoperative pain thus improving patients' experience.<xref ref="pubmed34605458" resource="acc076" /></listitem>
+<listitem>
+<strong>Role of Cholangiography</strong></listitem>
+<listitem>Combination of ultrasonography and biliary scintiscan can accurately predict bile duct calculi and could be used as a guide for selective cholangiography.<xref ref="pubmed10671924" resource="acc008" /></listitem>
+<listitem>Among 92,932 patients undergoing cholecystectomy, the use of intraoperative cholangiography was not associated with a higher rate of common bile duct injury (0.21&#x0025; with cholangiography and 0.36&#x0025; without).<xref ref="PubMed23982367" resource="acc010" /></listitem>
+<listitem>Routine use of ICG- fluorescence cholangiography did not make any difference in conversion or complication rate during laparoscopic cholecystectomy.<xref ref="pubmed35194663" resource="acc064" /></listitem>
+<listitem>
+<strong>Emergency Laparaoscopic Cholecystectomy</strong>:</listitem>
+<listitem>Emergency laparoscopic cholecystectomy was associated with increased incidences of multitude of operation-related adverse outcomes such as subtotal cholecystectomy (OR 1.94; P &#x003D; .011), bile leak (OR 2.38; P &#x003D; .013), intraoperative drains (OR 2.54; P &lt; .001), prolonged postoperative length of stay (OR 7.26; P &lt; .001), postoperative imaging (OR 1.83, P &#x003D; .006), and postoperative readmission (OR 1.90; P &#x003D; .005).<xref ref="pubmed35461704" resource="acc043" /></listitem>
+<listitem>However, immediate surgery is indicated for gangrenous cholecystitis or perforation with peritonitis.<xref ref="pubmed31264982" resource="acc026" /></listitem>
+<listitem>
+<strong>Percutaneous Cholecystotomy</strong></listitem>
+<listitem>Percutaneous cholecystomy should be considered in certain critically ill and&#x002F;or at very high surgical risk (eg, Child-Pugh class C cirrhosis) if they fail to respond to medical managment, because of high risk of liver failure and heavy hemorrhage due to surgery.<xref ref="pubmed35487433" resource="acc067" /> Clinical improvement occurs in 80&#x0025; to 90&#x0025; of patients within 3 to 5 days after cholecystotomy.</listitem>
+<listitem>A study on 163 patients diagnosed with acute calculous cholecystitis and treated with percutaneous cholecystostomy recommends duration of catheter should be minimum 21 days to reduce the rate of recurrence.<xref ref="pubmed34909967" resource="acc075" /></listitem>
+<listitem>In general, keep cholecystostomy tubes in place until the patient's general condition improves, the bile output decreases, and the cystic duct is patent. Patients can be discharged with this tube in place.</listitem>
+<listitem>In a retrospective clinical analysis to evaluate the timing of laparoscopic cholecystectomy after percutaneous transhepatic gallbladder drainage (PTGBD), laparoscopic cholecystectomy is recommended within 1 week after gallbladder drainage surgery for all non-elderly patients diagnosed with acute moderate to severe cholecystitis with an anesthesia risk score [American Society of Anesthesiologists (ASA)] &#x2264;2.<xref ref="pubmed34488395" resource="acc040" /></listitem>
+<listitem>
+<strong>Subtotal Cholecystectomy</strong></listitem>
+<listitem>Laparascopic subtotal cholecystectomy is a safe and feasible option after percutaneous transhepatic gallbladder drainage for grade II or III acute cholecystitis (AC).<xref ref="pubmed34717615" resource="acc051" /></listitem>
+<listitem>A systemic review of 19 studies (13340 patients) to clarify the best laparoscopic subtotal cholecystectomy technique for finalizing a difficult cholecystectomy indicates that closure of the gallbladder stump represents the best method to avoid complications.<xref ref="pubmed34496916" resource="acc035" /></listitem>
+<listitem>A meta-analysis of 10 studies showed subtotal cholecystectomy significantly lowered the risk for CBD injury (0 &#x200B;&#x0025; vs. 1.6 &#x200B;&#x0025;, RR 0.30, 95&#x0025;CI 0.10-0.87) but increased risk of bile leaks (RR 3.5, 95&#x0025;CI 1.79-6.84), postoperative ERCP (RR 2.86, 95&#x0025;CI 1.53-5.35), intraabdominal collections (RR 2.55, 95&#x0025;CI 1.32-4.93), and reoperation (RR 2.92, 95&#x0025;CI 1.14-7.47).<xref ref="pubmed38168604" resource="acc088" /></listitem>
+<listitem>Laparoscopic fenestrating subtotal cholecystectomy and reconstituing subtotal cholecystectomy techniques are associated with a higher rate of bile leaks and reconstituing subtotal cholecystectomy has more long term morbidty as compared to total cholecystectomy.<xref ref="pubmed34696994" resource="acc068" /></listitem>
+<listitem>
+<strong>Gladbladder Drainage</strong></listitem>
+<listitem>Gall bladder drainage can be another option for symptomatic GB disease. In high risk individuals, endoscopic ultrasound guided gallbladder drainage (EUS-GBD) resulted in higher technical and clinical success rates [OR 3.91 (95&#x0025; CI 1.52-10.09); P &#x003D; 0.005 and OR 4.59 (95&#x0025; CI 1.84-11.46); P &#x003D; 0.001] and lower recurrence rate [OR 0.17 (95&#x0025; CI 0.06-0.52); P &#x003D; 0.002 compared to ERC assisted transpapillary drainage.<xref ref="pubmed34231061" resource="acc036" /></listitem>
+<listitem>Endoscopic procedures (nasogallbladder drainage and gallbladder stenting) can also be used to achieve gallbladder drainage with similar success and complication rates compared to the percutaneous approach, although data are limited.<xref ref="pubmed20438890" resource="acc003" /> EUS guided GB drianage as well as EUS guided bile duct drainage are promising alternatives, provided high technical success and acceptable clinical success in an another study.<xref ref="pubmed34562319" resource="acc049" /></listitem>
+<listitem>Clinical success is probably equivalent according to the study on trial sequential analysis of EUS guided GB drainage vs percutaneous cholecystostomy in patients with acute cholecystitis. PTGBD can provide superior technical success and EUS-GBD has decreased overall adverse effects and unplanned readmission.<xref ref="pubmed34563502" resource="acc030" /></listitem>
+<listitem>Endoscopic ultrasound guided naso-gallbladder drainage may be a good option for the treatment of self expandable metalic stent related cholecystitis in patients with malignant biliary obstruction.<xref ref="pubmed37831399" resource="acc089" /></listitem>
+<listitem>A meta-analysis of delayed laparascopic cholecystectomy after percutaneous transhepatic gallbladder drainage (PTGBSD) vs emergency laparascopic cholecystectomy showed PTGBD has significant better effect on intraoperative bleeding, conversion rate to open surgery, postoperative complications, bile leakage, bile duct injury, and wound infection . The only drawback on PTGBD group was longer hospital stay.<xref ref="pubmed34872896" resource="acc033" /></listitem>
+<listitem>A study comparing laparascopic cholecystectomy outcomes after PTGBD between 208 patients with PTGBD tube preservation versus removal, showed the surgical outcome may be inferior when the drainage tube is preserved rather than removed before laparascopic cholecystectomy when it is performed &#x003E; 12 days after PTGBD.<xref ref="pubmed35314945" resource="acc063" /></listitem>
+<listitem>In an observational study of 132 patients with acute cholecystitis who underwent successful PTGBD duration of three days or less of antibacterial therapy may be adequate .<xref ref="pubmed35099300" resource="acc071" /></listitem>
+<listitem>In another observation study of 1,725 extremely ill patients diagnosed with acute acalculous cholecystitis, "bridge therapy" with percutaneous cholecystostomy was associated with lower morbidity (5&#x0025; vs. 8&#x0025;), fewer ICU admissions (28&#x0025; vs. 35&#x0025;), decreased length-of-stay (7 vs. 8 days) and lower overall costs when compared to initial treatment with either laparoscopic or open cholecystectomy.<xref ref="PubMed24112675" resource="acc014" /></listitem>
+<listitem>However, in a randomized controlled trial 142 high risk patients (APACHE II Score &#x003E;6) laparoscopic cholecystectomy was superior to percutaneous catheter drainage with regards to major complications (12&#x0025; vs 65&#x0025;), reintervention rates (12&#x0025; vs 66&#x0025;), recurrent biliary disease (5&#x0025; vs 53&#x0025;) and length of stay (5 days vs 9 days) but had no effect on mortality.<xref ref="pubmed30297544" resource="acc022" /></listitem>
+<listitem>Endoscopic transpapillary gallbladder stenting prevented recurrent cholecystitis (0&#x0025; vs 18.3&#x0025; at 3 months, 0&#x0025; vs 10&#x0025; at 6 months) in acute cholecystitis patients with common bile duct stone whose cholecystectomy was deferred for 3 months in a RCT involving 120 patients.<xref ref="pubmed38360274" resource="acc086" /></listitem>
+<listitem>
+<strong>Perioperative Antibiotics</strong></listitem>
+<listitem>Surgical Infection Society recommend use of peri-operative antibiotic agents for patients undergoing laparoscopic cholecystectomy for AC and maximum of 4 days of antibiotic agents in patients undergoing cholecystectomy for severe (Tokyo Guidelines grade III) cholecystitis.<xref ref="pubmed35363086" resource="acc070" /></listitem>
+<listitem>In a small study of 150 patients with acute calculous cholecystitis undergoing cholecystectomy, infectious complications within 30 days of operation did not differ between groups (4&#x0025; in each) recieving a single preoperative dose of 2000 mg cefazolin or intravenous cefuroxime 750 mg plus metronidazole 500 mg, three times daily, plus the preoperative antibiotic. <xref ref="pubmed28121041" resource="acc017" /></listitem>
+<listitem>In a nonblinded RCT of 414 patients presenting with mild to moderate calculous cholecystitis requiring cholecystectomy, all of whom recieved 2 days of preoperative antibiotics, there was no difference in postoperative infection rates in those who were randomized to stop antibiotics postoperatively vs. those who continued antibiotics for 5 days postoperatively (17&#x0025; vs. 15&#x0025;).<xref ref="pubmed30873901" resource="acc023" /></listitem>
+<listitem>A comprehensive cohort of 289,627 patients going through sleeve gastrectomy or gastric bypass surgery, the complications rate was high with comcomitant cholecystectomy, hence it should be avoided.<xref ref="pubmed37476980" resource="acc090" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>
+<em>Gallbladder aspiration</em> can also be considered in patients at high surgical risk. The success rates in single PGBA and repetitive PGBA (2&#x2013;4 times) were 50&#x0025; to 93&#x0025; and 76&#x0025; to 96&#x0025;, respectively.<xref ref="pubmed27695167" resource="acc104" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Optimal duration of antibiotic use postoperatively in acute cholecystitis is unknown; historically the antibiotic is usually continued until the patient is afebrile and the WBC is within normal limits.<xref ref="pubmed35363086" resource="acc070" /></listitem>
+<listitem>A sytematic review of 4 RCTs with 953 total patients found that in patients undergoing emergency cholecystectomy for acute calculous cholecystitis, prolonged use of postoperative antibiotics did not improve the post-operative outcome (infectious and non-infectious), when compared to no antibiotics group. ( P&#x003D; NS).<xref ref="pubmed30873901" resource="acc023" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Complications include progression to gangrenous gallbladder, gallbladder perforation, empyema, abscess formation, and common bile duct obstruction.</listitem>
+<listitem>These conditions typically require emergency decompression of the gallbladder or cholecystectomy.</listitem>
+<listitem>Systemic review of studies that described the managment of GB perforation, open cholecystectomy has a lower rate of addiitonal surgical procedure and postoperative complications, but has a longer hospital stay.<xref ref="pubmed34246546" resource="acc032" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Initial therapy of AC is directed toward general support of the patient including IV fluid (eg, normal saline), no oral intake (NPO), electrolyte replacement, correction of metabolic imbalance as needed, and antibacterial therapy</listitem>
+<listitem>Management of patients with AC, an Acute Surgical Unit (ASU) model is superior to traditional model in terms of most metrics like length of hospital stay, after hour operation rate and complications.<xref ref="pubmed34536599" resource="acc037" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>About 2&#x0025; of asymptomatic gallstones become symptomatic each year. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Removal of the gallbladder resolves symptoms in the vast majority of patients (75&#x0025;-90&#x0025;). <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Rates of surgical complications for laparoscopic cholecystectomy are: death (0.001&#x0025;), hemorrhage (2.3&#x0025;), conversion to open surgery (1.9&#x0025;), and gallbladder perforation (0.1&#x0025;).</listitem>
+<listitem>About 2.8&#x0025; of gall bladder specimens submitted after cholecystectomy for symptomatic gall stones have an incidental finding of adenocarcinoma.<xref ref="PubMed23834815" resource="acc011" /></listitem>
+<listitem>Predictors for the presence of incidental gallbladder cancer include age &#x003E;65, dilated bile ducts and the presence of gallbladder wall thickening.<xref ref="PubMed22886779" resource="acc012" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>About 2&#x0025; of asymptomatic <resourceLink href="info:wiley/eep-eee/175">gallstones</resourceLink> become symptomatic each year.</listitem>
+<listitem>Untreated AC can progress to gangrene, perforation of the gallbladder, empyema, or abscess formation; these conditions typically require emergency laparotomy, which increases the morbidity and mortality associated with the disease.</listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Removal of the gallbladder resolves symptoms in the vast majority of patients (75&#x0025;-90&#x0025;).<xref ref="pubmed34115337" resource="acc034" /></listitem>
+<listitem>In one study of 811 patients, <strong>
+<em>emergency laparascopic cholecystectamy</em>
+</strong> is associated with more perioperative morbidity (prolonged postoperative length of stay, postoperative readmission, bile leak, incidences of subtotal cholecystectomy) compared to delayed cholecystectomy.<xref ref="pubmed35461704" resource="acc043" /></listitem>
+<listitem>Although<strong>
+<em> obesity</em>
+</strong> is a perceived risk factor during LC, similar postoperative outcomes were achieved though it may be associated with greater technical difficulty during surgery than non-obese patients.<xref ref="pubmed35119791" resource="acc066" /></listitem>
+<listitem>Patients selected for<strong>
+<em> Percutaneous cholecystostomy tubes</em>
+</strong> (PCT) have a high mortality risk of 31.9&#x0025;. Follow up cholecystectomy was performed in only in 39&#x0025; at a median interval of 58 days.<xref ref="pubmed34749121" resource="acc047" /></listitem>
+<listitem>Rates of surgical complications for <strong>
+<em>laparoscopic cholecystectomy</em>
+</strong> were difficult to find for U.S. populations. The largest study (N &#x003D; 9842; Romania) reported 10 deaths (0.001&#x0025;), small intraoperative rates of complications (hemorrhage 2.3&#x0025;, conversion to open surgery 1.9&#x0025;, and gallbladder perforation 0.1&#x0025;) and tiny rates of postoperative morbidity (biliary leakage 0.006&#x0025;), hemorrhage (0.002&#x0025;), retained stones (0.001&#x0025;), and abscess (0.001&#x0025;).</listitem>
+<listitem>Analysis on prospectively maintained database of 5675 consecutive laparoscopic cholecystectomies 0.4&#x0025; had primary biliary leakage (PBL). Ligation of the cystic duct reduces the incidence of PCBL resulting from dislodged endoclips.<xref ref="pubmed34436660" resource="acc074" /></listitem>
+<listitem>In one study using a Swiss database of 22,953 patients undergoing laparoscopic cholecystectomy, risk factors for intraoperative complications included male gender (OR &#x003D; 1.16), duration of intervention (OR &#x003D; 1.68 per 30 minutes), higher body weight, and less surgical experience. Postoperative complications were associated with the same factors (with the exception of surgeon experience) plus intraoperative complications, emergency surgery, risk score, and conversion to open surgery.<xref ref="pubmed17084335" resource="acc105" /></listitem>
+<listitem>In a cross sectional study of a nationwide sample, <strong>
+<em>women with cholecystitis</em>
+</strong> were significantly less likely to die (OR &#x003D; 0.75) or have complications (OR &#x003D; 0.86) than age matched men. Women also had a lower length of stay (OR &#x003D; .95) and lower cost (OR &#x003D; .93) than men.<xref ref="PubMed24011570" resource="acc004" /></listitem>
+<listitem>In an observational study,one of the objective measure of Temperature, Neutrophil count and Multi organ failure <strong>
+<em>(TNM) score</em>
+</strong>, helps to define the mortality risk on patients with AC.<xref ref="pubmed34730215" resource="acc053" /></listitem>
+<listitem>In a retrospective study of 7013 patients who underwent<strong>
+<em> cardiovascular surgery,</em>
+</strong> 1&#x0025; of them developed postoperative cholecystitis, about 1&#x002F;2 of them are asymptomatic.<xref ref="pubmed34846684" resource="acc042" /></listitem>
+<listitem>In one case series of 8 patients with cholecystitis with <strong>
+<em>acute (neutrophilic) inflammation</em>
+</strong> in association with gallbladder carcinoma have a shortest survival.<xref ref="pubmed34763224" resource="acc046" /></listitem>
+<listitem>In a retrospective study on 2285 patients, <strong>
+<em>Procalicitonin &#x003E; 0.09 ng&#x002F;mL</em>
+</strong> at admission, could be associated to a poor surgical outcome in patients treated by laparoscopic surgery for AC.<xref ref="pubmed34213583" resource="acc050" /></listitem>
+<listitem>Another retropective study of 702 critically ill patients with AC, <strong>
+<em>Red cell Distribution Width (RDW)</em>
+</strong> was positively associated with in-hospital mortality (OR: 1.187, 95&#x0025; CI [1.049, 1.343]) short-term mortality (i.e., 30-day: HR: 1.183, 95&#x0025; CI [1.080, 1.295], 90-day: HR: 1.175, 95&#x0025; CI [1.089, 1.268]) and long-term (i.e., 1-year: HR:1.162, 95&#x0025; CI [1.089, 1.240]) mortality.<xref ref="pubmed34691290" resource="acc052" /></listitem>
+<listitem>A study investigated the suitability of Acute Physiology and Chronic Health Evaluation II (APACHE-II) score, American Society of Anesthesiologist (ASA) grade, and Tokyo Guidelines 2018 (TG18) grade as predictors of outcome and assessed laparoscopic cholecystectomy versus percutaneous cholecystostomy (PC) as treatment options in patients with A. It showed utilization of the TG18 grade to be more accurate in risk stratifying and predicting outcomes in patients with AC .<xref ref="pubmed35258017" resource="acc056" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Follow up is required for the patients who undergo cholecystectomy within 2 weeks after discharge from the hospital. Ask the patient about presence or absence of nausea, vomiting, and abdominal pain, as well as ability to tolerate oral intake. On physical examination, look for wound erythema, discharge, or pain. In addition, note any signs of jaundice; if present, determine the direct and indirect bilirubin level and order an abdominal ultrasound.</listitem>
+<listitem>Follow-up for patients who recover and are discharged after a percutaneous cholecystostomy includes a cholangiogram through the cholecystostomy tube. If no gallstones are present and the cystic duct is patent, the tube can be removed in 6 to 8 weeks. If gallstones are present and the patient is not high risk, the patient should undergo cholecystectomy in 6 to 8 weeks. Recurrence rates without cholecystectomy are as high as 33&#x0025;.</listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Older patients are less likely to have fever, pain, or Murphy's sign.<xref ref="pubmed29032636" resource="acc098" /></listitem>
+<listitem>Acute cholecystitis in patients older than 70 years is often complicated by gallbladder necrosis and peritonitis; thus early treatment is typically indicated unless the patient is inoperable due to a high surgical risk. In such a case, percutaneous transhepatic gallbladder drainage is the treatment of choice.</listitem>
+<listitem>Elderly patients who are undergoing cholecysectomy are at increased risk due to co morbidities.<xref ref="pubmed35476820" resource="acc048" /></listitem>
+<listitem>The Acute Physiology and Chronic Health Evaluation IV (APACHE IV) scoring system showed that cholecystostomy is a safe and effective treatment for elderly high-risk patients with acute cholecystitis.<xref ref="pubmed34812075" resource="acc060" /></listitem>
+<listitem>In the "oldest old" patients (age &#x003E;85 years), although ELC for ACC was associated with significant morbidity and mortality such as higher 90-day mortality rate (7.6&#x0025; vs 1&#x0025;, p &lt; 0.001), more total complications (40.6&#x0025; vs 17.7&#x0025;, p &lt; 0.001), longer LOS (6 vs 5 days, p &lt; 0.001), and more readmissions (6.6&#x0025; vs 2.6&#x0025;, p &lt; 0.001), it is not contraindicated and seems to be safe in selected patients. <xref ref="pubmed35253094" resource="acc039" /></listitem>
+<listitem>The clinical decisions on cholecystectomy in a patient aged 80 years or older can be assisted through the ACS-NSQIP model.<xref ref="pubmed34697679" resource="acc065" /></listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>Acute cholecystitis is the second most common cause of acute abdomen during pregnancy (after appendicitis).<xref ref="pubmed16982130" resource="acc005" /></listitem>
+<listitem>In one study, 6211 women (0.5&#x0025;) were identified from databases in the state of Washington with a biliary-related diagnosis at delivery or as primary diagnosis post partum. Sixty-six percent had uncomplicated cholelithiasis, and 9&#x0025; had AC.<xref ref="pubmed17032191" resource="acc006" /></listitem>
+<listitem>The symptomatology of acute cholecystitis is almost identical in pregnant and nonpregnant women.</listitem>
+<listitem>Surgery as a primary treatment has been used widely because of reduced use of medications, high recurrence rate during pregnancy (44&#x0025;-92&#x0025; depending on the trimester of presentation), and minimizing the development of potentially life-threatening complications (eg, perforation, sepsis, peritonitis).</listitem>
+<listitem>Early laparoscopic cholecystectomy compared with delayed operative management, is associated with a lower risk of maternal-fetal complications (1.6&#x0025; for early vs 18.4&#x0025; for delayed) and is recommended during all trimesters.<xref ref="pubmed35258527" resource="acc028" /></listitem>
+<listitem>If surgery is elected, laparoscopic cholecystectomy is the treatment of choice regardless of trimester. <evidence rating="B" system="SORT"> B</evidence>
+<xref ref="PubMed23982367" resource="acc010" /></listitem>
+<listitem>In a retrospective, population-based cohort study including 5759 pregnant patients with AC, surgical management compared with nonoperative management was associated with lower odds of Adever Pregnancy Outcomes across all trimesters (OR, 0.75 [95&#x0025; CI, 0.63-0.87]), in T1 (OR, 0.81 [95&#x0025; CI, 0.66-1.00]), in T2 (OR, 0.71 [95&#x0025; CI, 0.50-1.00]), and in T3 (OR, 0.45 [95&#x0025; CI, 0.28-0.70]).<xref ref="pubmed37966823" resource="acc095" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>Acute cholecystitis (calculous and acalculous) can occur in children. The treatment is cholecystectomy. The complicaitons of AC Pain in the RUQ and elevated WBC are the most frequent features of this disease.</listitem>
+<listitem>The commonest indication for LC in children was cholelithiasis (68.4&#x0025; in 66 studies), followed by cholecystitis (59.2&#x0025; in 53 studies) in a systemic review and meta-analysis of 114 studies included 76,524 LC cases. Laparoscopic cholecystectomy appears to be safe and effective.<xref ref="pubmed36243605" resource="acc106" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16729326">
+<accessionId id="acc001" href="info:pmid/16729326" />
+<authors>Venneman NG, Besselink MG, Keulemans YC, et al.</authors>
+<title>Ursodeoxycholic acid exerts no beneficial effect in patients with symptomatic gallstones awaiting cholecystectomy.</title>
+<source>Hepatology</source>
+<pubdate>2006</pubdate>
+<volume>43</volume>
+<pages>1276-1283</pages>
+</reference>
+<reference id="poem80546">
+<accessionId id="acc002" href="info:wiley/eep-poem/80546" />
+<accessionId id="acc002b" href="info:pmid/16400707" />
+<authors>Feo CV, Sortini D, Ragazzi R, De Palma M, Liboni A.</authors>
+<title>Randomized clinical trial of the effect of preoperative dexamethasone on nausea and vomiting after laparoscopic cholecystectomy.</title>
+<source>Br J Surg</source>
+<pubdate>2006</pubdate>
+<volume>93</volume>
+<pages>295-299</pages>
+</reference>
+<reference id="pubmed20438890">
+<accessionId id="acc003" href="info:pmid/20438890" />
+<authors>Itoi T, Coelho-Prabhu N, Baron TH.</authors>
+<title>Endoscopic gallbladder drainage for management of acute cholecystitis.</title>
+<source>Gastrointest Endosc.</source>
+<pubdate>2010</pubdate>
+<volume>71</volume>
+<pages>1038-1045</pages>
+</reference>
+<reference id="PubMed24011570">
+<accessionId id="acc004" href="info:pmid/24011570" />
+<authors>Dua A, Desai SS, Kuy S, Sharma R, Jechow SE, McMaster J, Patel B, Kuy S</authors>
+<title>Gender based differences in management and outcomes of cholecystitis.</title>
+<source>Am J Surg</source>
+<pubdate>2013</pubdate>
+<volume>206</volume>
+<pages>641-646</pages>
+</reference>
+<reference id="pubmed16982130">
+<accessionId id="acc005" href="info:pmid/16982130" />
+<authors>Augustin G, Majerovic M.</authors>
+<title>Non-obstetrical acute abdomen during pregnancy.</title>
+<source>Eur J Obstet Gynecol Reprod Biol</source>
+<pubdate>2007</pubdate>
+<volume>131</volume>
+<pages>4-12</pages>
+</reference>
+<reference id="pubmed17032191">
+<accessionId id="acc006" href="info:pmid/17032191" />
+<authors>Ko CW.</authors>
+<title>Risk factors for gallstone-related hospitalization during pregnancy and the postpartum.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2006</pubdate>
+<volume>101</volume>
+<pages>2263-2268</pages>
+</reference>
+<reference id="bib42">
+<authors>Helton WS, Espat NJ.</authors>
+<title>Cholecystitis and cholangitis</title>
+<source>Curr Treat Opt Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>3</volume>
+<pages>387-400</pages>
+</reference>
+<reference id="pubmed10671924">
+<accessionId id="acc008" href="info:pmid/10671924" />
+<authors>Mathur SK, Soonawalla ZF, Shah SR, Goel M, Shikare S.</authors>
+<title>Role of biliary scintiscan in predicting the need for cholangiography.</title>
+<source>Br J Surg</source>
+<pubdate>2000</pubdate>
+<volume>87</volume>
+<pages>181-185</pages>
+</reference>
+<reference id="pubmed10840354">
+<accessionId id="acc009" href="info:pmid/10840354" />
+<authors>Chatziioannou SN, Moore WH, Ford PV, Dhekne RD.</authors>
+<title>Hepatobiliary scintigraphy is superior to abdominal ultrasonography in suspected acute cholecystitis.</title>
+<source>Surgery</source>
+<pubdate>2000</pubdate>
+<volume>127</volume>
+<pages>609-613</pages>
+</reference>
+<reference id="PubMed23982367">
+<accessionId id="acc010" href="info:pmid/23982367" />
+<authors>Sheffield KM, Riall TS, Han Y, Kuo Y-F, Jr., Townsend CM, Goodwin JS</authors>
+<title>Association between cholecystectomy with vs without intraoperative cholangiography and risk of common duct injury.</title>
+<source>JAMA</source>
+<pubdate>2013</pubdate>
+<volume>310</volume>
+<pages>812-820</pages>
+</reference>
+<reference id="PubMed23834815">
+<accessionId id="acc011" href="info:pmid/23834815" />
+<authors>Siddiqui FG, Memon AA, Abro AH, Sasoli NA, Ahmad L</authors>
+<title>Routine histopathology of gallbladder after elective cholecystectomy for gallstones: waste of resources or a justified act?</title>
+<source>BMC Surg</source>
+<pubdate>2013</pubdate>
+<volume>13</volume>
+<pages>26</pages>
+</reference>
+<reference id="PubMed22886779">
+<accessionId id="acc012" href="info:pmid/22886779" />
+<authors>Koshenkov VP, Koru-Sengul T, Franceschi D, Dipasco PJ, Rodgers SE</authors>
+<title>Predictors of incidental gallbladder cancer in patients undergoing cholecystectomy for benign gallbladder disease.</title>
+<source>J Surg Oncol</source>
+<pubdate>2013</pubdate>
+<volume>107</volume>
+<pages>118-123</pages>
+</reference>
+<reference id="PubMed24351351">
+<accessionId id="acc013" href="info:pmid/24351351" />
+<authors>Udekwu PO, Sullivan WG.</authors>
+<title>Contemporary experience with cholecystectomy: establishing "benchmarks" two decades after the introduction of laparoscopic cholecystectomy.</title>
+<source>Am Surg</source>
+<pubdate>2013</pubdate>
+<volume>79</volume>
+<pages>1253-1257</pages>
+</reference>
+<reference id="PubMed24112675">
+<accessionId id="acc014" href="info:pmid/24112675" />
+<authors>Simorov A, Ranade A, Parcells J, Shaligram A, Shostrom V, Boilesen E, Goede M, Oleynikov D.</authors>
+<title>Emergent cholecystostomy is superior to open cholecystectomy in extremely ill patients with acalculous cholecystitis: a large multicenter outcome study.</title>
+<source>Am J Surg</source>
+<pubdate>2013</pubdate>
+<volume>206</volume>
+<pages>935-940</pages>
+</reference>
+<reference id="pubmed25005651">
+<accessionId id="acc015" href="info:pmid/25005651" />
+<authors>Regimbeau JM, Fuks D, Pautrat K, Mauvais F, Haccart V, Msika S, Mathonnet M, Scott&#x00E9; M, Paquet JC, Vons C, Sielezneff I, Millat B, Chiche L, Dupont H, Duhaut P, Coss&#x00E9; C, Diouf M, Pocard M; FRENCH Study Group.</authors>
+<title>Effect of postoperative antibiotic administration on postoperative infection following cholecystectomy for acute calculous cholecystitis: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2014</pubdate>
+<volume>312</volume>
+<pages>145&#x2013;154</pages>
+</reference>
+<reference id="pubmed26460661">
+<accessionId id="acc016" href="info:pmid/26460661" />
+<authors>da Costa DW, Bouwense SA, Schepers NJ, Besselink MG, van Santvoort HC, van Brunschot S, Bakker OJ, Bollen TL, Dejong CH, van Goor H, Boermeester MA, Bruno MJ, van Eijck CH, Timmer R, Weusten BL, Consten EC, Brink MA, Spanier BW, Bilgen EJ, Nieuwenhuijs VB, Hofker HS, Rosman C, Voorburg AM, Bosscha K, van Duijvendijk P, Gerritsen JJ, Heisterkamp J, de Hingh IH, Witteman BJ, Kruyt PM, Scheepers JJ, Molenaar IQ, Schaapherder AF, Manusama ER, van der Waaij LA, van Unen J, Dijkgraaf MG, van Ramshorst B, Gooszen HG, Boerma D; Dutch Pancreatitis Study Group.</authors>
+<title>Same-admission versus interval cholecystectomy for mild gallstone pancreatitis (PONCHO): a multicentre randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2015</pubdate>
+<volume>386</volume>
+<pages>1261&#x2013;1268</pages>
+</reference>
+<reference id="pubmed28121041">
+<accessionId id="acc017" href="info:pmid/28121041" />
+<authors>Loozen CS, Kortram K, Kornmann VN, van Ramshorst B, Vlaminckx B, Knibbe CA, Kelder JC, Donkervoort SC, Nieuwenhuijzen GA, Ponten JE, van Geloven AA, van Duijvendijk P, Bos WJ, Besselink MG, Gouma DJ, van Santvoort HC, Boerma D.</authors>
+<title>Randomized clinical trial of extended versus single-dose perioperative antibiotic prophylaxis for acute calculous cholecystitis.</title>
+<source>Br J Surg</source>
+<pubdate>2017</pubdate>
+<volume>104</volume>
+<pages>e151&#x2013;e157</pages>
+</reference>
+<reference id="pubmed30113479">
+<accessionId id="acc018" href="info:pmid/30113479" />
+<authors>Yeo DM, Jung SE.</authors>
+<title>Differentiation of acute cholecystitis from chronic cholecystitis: Determination of useful multidetector computed tomography findings.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e11851</pages>
+</reference>
+<reference id="pubmed29325783">
+<accessionId id="acc019" href="info:pmid/29325783" />
+<authors>Hernandez M, Murphy B, Aho JM, Haddad NN, Saleem H, Zeb M, Morris DS, Jenkins DH, Zielinski M.</authors>
+<title>Validation of the AAST EGS acute cholecystitis grade and comparison with the Tokyo guidelines.</title>
+<source>Surgery</source>
+<pubdate>2018</pubdate>
+<volume>163</volume>
+<pages>739&#x2013;746</pages>
+</reference>
+<reference id="pubmed27604366">
+<accessionId id="acc020" href="info:pmid/27604366" />
+<authors>Alli VV, Yang J, Xu J, Bates AT, Pryor AD, Talamini MA, Telem DA.</authors>
+<title>Nineteen-year trends in incidence and indications for laparoscopic cholecystectomy: the NY State experience.</title>
+<source>Surg Endosc</source>
+<pubdate>2017</pubdate>
+<volume>31</volume>
+<pages>1651&#x2013;1658</pages>
+</reference>
+<reference id="pubmed28619262">
+<accessionId id="acc021" href="info:pmid/28619262" />
+<authors>Madni TD, Leshikar DE, Minshall CT, Nakonezny PA, Cornelius CC, Imran JB, Clark AT, Williams BH, Eastman AL, Minei JP, Phelan HA, Cripps MW.</authors>
+<title>The Parkland grading scale for cholecystitis.</title>
+<source>Am. J. Surg.</source>
+<pubdate>2018</pubdate>
+<volume>215</volume>
+<pages>625&#x2013;630</pages>
+</reference>
+<reference id="pubmed30297544">
+<accessionId id="acc022" href="info:pmid/30297544" />
+<authors>Loozen CS, van Santvoort HC, van Duijvendijk P, Besselink MG, Gouma DJ, Nieuwenhuijzen GA, Kelder JC, Donkervoort SC, van Geloven AA, Kruyt PM, Roos D, Kortram K, Kornmann VN, Pronk A, van der Peet DL, Crolla RM, van Ramshorst B, Bollen TL, Boerma D.</authors>
+<title>Laparoscopic cholecystectomy versus percutaneous catheter drainage for acute cholecystitis in high risk patients (CHOCOLATE): multicentre randomised clinical trial.</title>
+<source>BMJ</source>
+<pubdate>2018</pubdate>
+<volume>363</volume>
+<pages>k3965</pages>
+</reference>
+<reference id="pubmed30873901">
+<accessionId id="acc023" href="info:pmid/30873901" />
+<authors>Hajibandeh S, Popova P, Rehman S.</authors>
+<title>Extended Postoperative Antibiotics Versus No Postoperative Antibiotics in Patients Undergoing Emergency Cholecystectomy for Acute Calculous Cholecystitis: A Systematic Review and Meta-Analysis.</title>
+<source>Surg Innov</source>
+<pubdate>2019</pubdate>
+<volume>26</volume>
+<pages>485&#x2013;496</pages>
+</reference>
+<reference id="pubmed30945148">
+<accessionId id="acc024" href="info:pmid/30945148" />
+<authors>Picchio M, De Cesare A, Di Filippo A, Spaziani M, Spaziani E.</authors>
+<title>Prophylactic drainage after laparoscopic cholecystectomy for acute cholecystitis: a systematic review and meta-analysis.</title>
+<source>Updates Surg</source>
+<pubdate>2019</pubdate>
+<volume>71</volume>
+<pages>247&#x2013;254</pages>
+</reference>
+<reference id="pubmed30760351">
+<accessionId id="acc025" href="info:pmid/30760351" />
+<authors>Xu M, Tao YL.</authors>
+<title>Drainage <em>versus</em> No Drainage after Laparoscopic Cholecystectomy for Acute Cholecystitis: A Meta-Analysis.</title>
+<source>Am Surg</source>
+<pubdate>2019</pubdate>
+<volume>85</volume>
+<pages>86&#x2013;91</pages>
+</reference>
+<reference id="pubmed31264982">
+<accessionId id="acc026" href="info:pmid/31264982" />
+<authors>Real-Noval H, Fern&#x00E1;ndez-Fern&#x00E1;ndez J, Soler-Dorda G.</authors>
+<title>Predicting factors for the diagnosis of gangrene acute cholecystitis.</title>
+<source>Cir Cir</source>
+<pubdate>2019</pubdate>
+<volume>87</volume>
+<pages>443&#x2013;449</pages>
+</reference>
+<reference id="pubmed31399438">
+<accessionId id="acc027" href="info:pmid/31399438" />
+<authors>Nauck MA, Muus Ghorbani ML, Kreiner E, Saevereid HA, Buse JB, LEADER Publication Committee on behalf of the LEADER Trial Investigators.</authors>
+<title>Effects of Liraglutide Compared With Placebo on Events of Acute Gallbladder or Biliary Disease in Patients With Type 2 Diabetes at High Risk for Cardiovascular Events in the LEADER Randomized Trial.</title>
+<source>Diabetes Care</source>
+<pubdate>2019</pubdate>
+<volume>42</volume>
+<pages>1912&#x2013;1920</pages>
+</reference>
+<reference id="pubmed35258527">
+<accessionId id="acc028" href="info:pmid/35258527" />
+<authors>Gallaher JR, Charles A.</authors>
+<title>Acute Cholecystitis: A Review.</title>
+<source>JAMA</source>
+<pubdate>2022</pubdate>
+<volume>327</volume>
+<pages>965&#x2013;975</pages>
+</reference>
+<reference id="pubmed35344001">
+<accessionId id="acc029" href="info:pmid/35344001" />
+<authors>He L, Wang J, Ping F, Yang N, Huang J, Li Y, Xu L, Li W, Zhang H.</authors>
+<title>Association of Glucagon-Like Peptide-1 Receptor Agonist Use With Risk of Gallbladder and Biliary Diseases: A Systematic Review and Meta-analysis of Randomized Clinical Trials.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>182</volume>
+<pages>513&#x2013;519</pages>
+</reference>
+<reference id="pubmed34563502">
+<accessionId id="acc030" href="info:pmid/34563502" />
+<authors>Cucchetti A, Binda C, Dajti E, Sbrancia M, Ercolani G, Fabbri C.</authors>
+<title>Trial sequential analysis of EUS-guided gallbladder drainage versus percutaneous cholecystostomy in patients with acute cholecystitis.</title>
+<source>Gastrointest Endosc</source>
+<pubdate>2022</pubdate>
+<volume>95</volume>
+<pages>399&#x2013;406</pages>
+</reference>
+<reference id="pubmed35064024">
+<accessionId id="acc031" href="info:pmid/35064024" />
+<authors>Bagepally BS, Sajith Kumar S, Natarajan M, Sasidharan A.</authors>
+<title>Incremental net benefit of cholecystectomy compared with alternative treatments in people with gallstones or cholecystitis: a systematic review and meta-analysis of cost-utility studies.</title>
+<source>BMJ Open Gastroenterol</source>
+<pubdate>2022</pubdate>
+<volume>9</volume>
+<pages />
+</reference>
+<reference id="pubmed34246546">
+<accessionId id="acc032" href="info:pmid/34246546" />
+<authors>Quiroga-Garza A, Alvarez-Villalobos NA, Angeles-Mar HJ, Garcia-Campa M, Mu&#x00F1;oz-Leija MA, Salinas-Alvarez Y, Elizondo-Oma&#x00F1;a RE, Guzm&#x00E1;n-L&#x00F3;pez S.</authors>
+<title>Localized gallbladder perforation: a systematic review of treatment and prognosis.</title>
+<source>HPB (Oxford)</source>
+<pubdate>2021</pubdate>
+<volume>23</volume>
+<pages>1639&#x2013;1646</pages>
+</reference>
+<reference id="pubmed34872896">
+<accessionId id="acc033" href="info:pmid/34872896" />
+<authors>Cai S, Ma X.</authors>
+<title>Delayed Laparoscopic Cholecystectomy After Percutaneous Transhepatic Gallbladder Drainage Versus Emergency Laparoscopic Cholecystectomy for Acute Cholecystitis: A Meta-Analysis.</title>
+<source>Turk J Gastroenterol</source>
+<pubdate>2021</pubdate>
+<volume>32</volume>
+<pages>945&#x2013;955</pages>
+</reference>
+<reference id="pubmed34115337">
+<accessionId id="acc034" href="info:pmid/34115337" />
+<authors>Eltyeb HA, Al-Leswas D, Abdalla MO, Wayman J.</authors>
+<title>Systematic review and meta-analyses of cholecystectomy as a treatment of biliary hyperkinesia.</title>
+<source>Clin J Gastroenterol</source>
+<pubdate>2021</pubdate>
+<volume>14</volume>
+<pages>1308&#x2013;1317</pages>
+</reference>
+<reference id="pubmed34496916">
+<accessionId id="acc035" href="info:pmid/34496916" />
+<authors>Toro A, Teodoro M, Khan M, Schembari E, Di Saverio S, Catena F, Di Carlo I.</authors>
+<title>Subtotal cholecystectomy for difficult acute cholecystitis: how to finalize safely by laparoscopy-a systematic review.</title>
+<source>World J Emerg Surg</source>
+<pubdate>2021</pubdate>
+<volume>16</volume>
+<pages>45</pages>
+</reference>
+<reference id="pubmed34231061">
+<accessionId id="acc036" href="info:pmid/34231061" />
+<authors>McCarty TR, Hathorn KE, Bazarbashi AN, Jajoo K, Ryou M, Thompson CC.</authors>
+<title>Endoscopic gallbladder drainage for symptomatic gallbladder disease: a cumulative systematic review meta-analysis.</title>
+<source>Surg Endosc</source>
+<pubdate>2021</pubdate>
+<volume>35</volume>
+<pages>4964&#x2013;4985</pages>
+</reference>
+<reference id="pubmed34536599">
+<accessionId id="acc037" href="info:pmid/34536599" />
+<authors>Kinnear N, Jolly S, Herath M, Han J, Tran M, O'Callaghan M, Hennessey D, Dobbins C, Sammour T, Moore J.</authors>
+<title>The acute surgical unit: An updated systematic review and meta-analysis.</title>
+<source>Int J Surg</source>
+<pubdate>2021</pubdate>
+<volume>94</volume>
+<pages>106109</pages>
+</reference>
+<reference id="pubmed34746977">
+<accessionId id="acc038" href="info:pmid/34746977" />
+<authors>Kler A, Taib A, Hajibandeh S, Hajibandeh S, Asaad P.</authors>
+<title>The predictive significance of neutrophil-to-lymphocyte ratio in cholecystitis: a systematic review and meta-analysis.</title>
+<source>Langenbecks Arch Surg</source>
+<pubdate>2022</pubdate>
+<volume>407</volume>
+<pages>927&#x2013;935</pages>
+</reference>
+<reference id="pubmed35253094">
+<accessionId id="acc039" href="info:pmid/35253094" />
+<authors>Di Martino M, Gancedo Quintana &#x00C1;, Vaello Jodra V, Sanjuanbenito Dehesa A, Morales Garc&#x00ED;a D, Cai&#x00F1;a Ruiz R, Garc&#x00ED;a-Moreno Nisa F, Mendoza-Moreno F, Alonso Batanero S, Qui&#x00F1;ones Sampedro JE, Lora Cumplido P, Arango Bravo A, Rubio-Perez I, Asensio-Gomez L, Pardo Aranda F, Sent&#x00ED; Farrarons S, Ruiz Moreno C, Martinez Moreno CM, Sarriugarte Lasarte A, Prieto Calvo M, Aparicio-S&#x00E1;nchez D, Perea Del Pozo EP, Pellino G, Martin-Perez E.</authors>
+<title>Early laparoscopic cholecystectomy in oldest-old patients: a propensity score matched analysis of a nationwide registry.</title>
+<source>Updates Surg</source>
+<pubdate>2022</pubdate>
+<volume>74</volume>
+<pages>979&#x2013;989</pages>
+</reference>
+<reference id="pubmed34488395">
+<accessionId id="acc040" href="info:pmid/34488395" />
+<authors>Bao J, Wang J, Shang H, Hao C, Liu J, Zhang D, Han S, Li Z.</authors>
+<title>The choice of operation timing of laparoscopic cholecystectomy (LC) after percutaneous transhepatic gallbladder drainage (PTGBD) for acute cholecystitis: a retrospective clinical analysis.</title>
+<source>Ann Palliat Med</source>
+<pubdate>2021</pubdate>
+<volume>10</volume>
+<pages>9096&#x2013;9104</pages>
+</reference>
+<reference id="pubmed34608197">
+<accessionId id="acc041" href="info:pmid/34608197" />
+<authors>Guadalajara H, Mu&#x00F1;oz de Nova JL, Yiasemidou M, Recarte Rico M, Juez LD, Garc&#x00ED;a Septiem J, Galindo Jara P, Garc&#x00ED;a Virosta M, Lobo Mart&#x00ED;nez E, Mart&#x00ED;n-P&#x00E9;rez E, Fernandez Gonzalez S, Lopez-Fernandez O, Garc&#x00ED;a-Olmo D, PIACO Collaboration Group.</authors>
+<title>The SARS-CoV-2 first wave impact in the acute inflammatory surgical pathologies.</title>
+<source>Sci Rep</source>
+<pubdate>2021</pubdate>
+<volume>11</volume>
+<pages>19645</pages>
+</reference>
+<reference id="pubmed34846684">
+<accessionId id="acc042" href="info:pmid/34846684" />
+<authors>Kamei J, Kuriyama A, Shimamoto T, Komiya T.</authors>
+<title>Incidence and risk factors of acute cholecystitis after cardiovascular surgery.</title>
+<source>Gen Thorac Cardiovasc Surg</source>
+<pubdate>2022</pubdate>
+<volume>70</volume>
+<pages>611&#x2013;618</pages>
+</reference>
+<reference id="pubmed35461704">
+<accessionId id="acc043" href="info:pmid/35461704" />
+<authors>Lucocq J, Patil P, Scollay J.</authors>
+<title>Acute cholecystitis: Delayed cholecystectomy has lesser perioperative morbidity compared to emergency cholecystectomy.</title>
+<source>Surgery</source>
+<pubdate>2022</pubdate>
+<volume>172</volume>
+<pages>16&#x2013;22</pages>
+</reference>
+<reference id="pubmed34284962">
+<accessionId id="acc044" href="info:pmid/34284962" />
+<authors>Miyakawa T, Michihata N, Morita K, Matsui H, Honda M, Yasunaga H.</authors>
+<title>Ambient temperature and hospital admissions for acute cholecystitis: a nationwide inpatient database study in Japan.</title>
+<source>HPB (Oxford)</source>
+<pubdate>2022</pubdate>
+<volume>24</volume>
+<pages>398&#x2013;403</pages>
+</reference>
+<reference id="pubmed34717046">
+<accessionId id="acc045" href="info:pmid/34717046" />
+<authors>Hanabata Y, Yamanaka K, Shinkura A, Kurimoto M, Aoki H, Harada K, Kayano M, Tashima M, Tamura J.</authors>
+<title>Clinical impact of bloodstream infection on acute cholecystitis indicated for emergency cholecystectomy.</title>
+<source>J Hepatobiliary Pancreat Sci</source>
+<pubdate>2022</pubdate>
+<volume>29</volume>
+<pages>322&#x2013;328</pages>
+</reference>
+<reference id="pubmed34763224">
+<accessionId id="acc046" href="info:pmid/34763224" />
+<authors>Bosch DE, Salipante SJ, Schmidt RA, Swanson PE, Bryan A, SenGupta DJ, Truong CD, Yeh MM.</authors>
+<title>Neutrophilic inflammation in gallbladder carcinoma correlates with patient survival: A case-control study.</title>
+<source>Ann Diagn Pathol</source>
+<pubdate>2022</pubdate>
+<volume>56</volume>
+<pages>151845</pages>
+</reference>
+<reference id="pubmed34749121">
+<accessionId id="acc047" href="info:pmid/34749121" />
+<authors>Huang R, Patel DC, Kallini JR, Wachsman AM, Van Allan RJ, Margulies DR, Phillips EH, Barmparas G.</authors>
+<title>Percutaneous Cholecystostomy Tube for Acute Cholecystitis: Quantifying Outcomes and Prognosis.</title>
+<source>J Surg Res</source>
+<pubdate>2022</pubdate>
+<volume>270</volume>
+<pages>405&#x2013;412</pages>
+</reference>
+<reference id="pubmed35476820">
+<accessionId id="acc048" href="info:pmid/35476820" />
+<authors>Brollo PP, Muschitiello D, Calini G, Quattrin R, Bresadola V.</authors>
+<title>Cholecystectomy in the elderly: clinical outcomes and risk factors.</title>
+<source>Ann Ital Chir</source>
+<pubdate>2022</pubdate>
+<volume>93</volume>
+<pages>160&#x2013;167</pages>
+</reference>
+<reference id="pubmed34562319">
+<accessionId id="acc049" href="info:pmid/34562319" />
+<authors>Rajadurai A, Zorron Cheng Tao Pu L, Cameron R, Tagkalidis P, Holt B, Bassan M, Gupta S, Croagh D, Swan M, Saxena P, Efthymiou M, Vaughan R, Chandran S, ANZEC.</authors>
+<title>Endoscopic ultrasound-guided gallbladder and bile duct drainage with lumen apposing metal stent: A large multicenter cohort (with videos).</title>
+<source>J Gastroenterol Hepatol</source>
+<pubdate>2022</pubdate>
+<volume>37</volume>
+<pages>179&#x2013;189</pages>
+</reference>
+<reference id="pubmed34213583">
+<accessionId id="acc050" href="info:pmid/34213583" />
+<authors>Fransvea P, Covino M, Rosa F, Puccioni C, Quero G, Cozza V, La Greca A, Franceschi F, Alfieri S, Sganga G.</authors>
+<title>Role of serum procalcitonin in predicting the surgical outcomes of acute calculous cholecystitis.</title>
+<source>Langenbecks Arch Surg</source>
+<pubdate>2021</pubdate>
+<volume>406</volume>
+<pages>2375&#x2013;2382</pages>
+</reference>
+<reference id="pubmed34717615">
+<accessionId id="acc051" href="info:pmid/34717615" />
+<authors>Ie M, Katsura M, Kanda Y, Kato T, Sunagawa K, Mototake H.</authors>
+<title>Laparoscopic subtotal cholecystectomy after percutaneous transhepatic gallbladder drainage for grade II or III acute cholecystitis.</title>
+<source>BMC Surg</source>
+<pubdate>2021</pubdate>
+<volume>21</volume>
+<pages>386</pages>
+</reference>
+<reference id="pubmed34691290">
+<accessionId id="acc052" href="info:pmid/34691290" />
+<authors>Dong Y, Pan Y, Zhou W, Xia Y, Pan J.</authors>
+<title>A Retrospective Cohort Study on the Association between Red Cell Distribution Width and All-Cause Mortality of Patients with Cholecystitis at ICU Admission.</title>
+<source>Dis Markers</source>
+<pubdate>2021</pubdate>
+<volume>2021</volume>
+<pages>9625220</pages>
+</reference>
+<reference id="pubmed34730215">
+<accessionId id="acc053" href="info:pmid/34730215" />
+<authors>Romano L, Giuliani A, Pessia B, Mattei A, Fiasca F, Tonelli E, Carlei F, Schietroma M.</authors>
+<title>The early prediction of mortality in acute cholecystitis: Temperature, Neutrophils and Multiple organ failure (TNM) score.</title>
+<source>Eur Rev Med Pharmacol Sci</source>
+<pubdate>2021</pubdate>
+<volume>25</volume>
+<pages>6339&#x2013;6348</pages>
+</reference>
+<reference id="pubmed34414941">
+<accessionId id="acc054" href="info:pmid/34414941" />
+<authors>Zgheib H, Wakil C, Al Souky N, Mailhac A, Jamali F, El Sayed M, Tamim H.</authors>
+<title>Liver function tests as predictors of common bile duct stones in acute cholecystitis patients with a chronic history: A retrospective cohort study on the ACS-NSQIP database.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>e26885</pages>
+</reference>
+<reference id="pubmed33429186">
+<accessionId id="acc055" href="info:pmid/33429186" />
+<authors>Graglia S, Shokoohi H, Loesche MA, Yeh DD, Haney RM, Huang CK, Morone CC, Springer C, Kimberly HH, Liteplo AS.</authors>
+<title>Prospective validation of the bedside sonographic acute cholecystitis score in emergency department patients.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>42</volume>
+<pages>15&#x2013;19</pages>
+</reference>
+<reference id="pubmed35258017">
+<accessionId id="acc056" href="info:pmid/35258017" />
+<authors>Latif J, Kushairi A, Thurley P, Bhatti I, Awan A.</authors>
+<title>Laparoscopic Cholecystectomy Versus Percutaneous Cholecystostomy: Suitability of APACHE-II Score, ASA Grade, and Tokyo Guidelines 18 Grade as Predictors of Outcome in Patients With Acute Cholecystitis.</title>
+<source>Surg Laparosc Endosc Percutan Tech</source>
+<pubdate>2022</pubdate>
+<volume>32</volume>
+<pages>342&#x2013;349</pages>
+</reference>
+<reference id="pubmed35485509">
+<accessionId id="acc057" href="info:pmid/35485509" />
+<authors>Turhan VB, G&#x00F6;k HF, &#x00DC;nsal A, Akp&#x0131;nar M, G&#x00FC;ler &#x015E;im&#x015F;ek G, Bulu&#x015F; H.</authors>
+<title>Pre-operative neutrophil&#x002F;lymphocyte and platelet&#x002F;lymphocyte ratios are effective in predicting complicated acute cholecystitis</title>
+<source>Ulus Travma Acil Cerrahi Derg</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>471&#x2013;476</pages>
+</reference>
+<reference id="pubmed34958407">
+<accessionId id="acc058" href="info:pmid/34958407" />
+<authors>Patel MD, Sill AP, Dahiya N, Chen F, Eversman WG, Kriegshauser JS, Young SW.</authors>
+<title>Performance of an algorithm for diagnosing acute cholecystitis using clinical and sonographic parameters.</title>
+<source>Abdom Radiol (NY)</source>
+<pubdate>2022</pubdate>
+<volume>47</volume>
+<pages>576&#x2013;585</pages>
+</reference>
+<reference id="pubmed34235552">
+<accessionId id="acc059" href="info:pmid/34235552" />
+<authors>Lee D, Appel S, Nunes L.</authors>
+<title>CT findings and outcomes of acute cholecystitis: is additional ultrasound necessary?</title>
+<source>Abdom Radiol (NY)</source>
+<pubdate>2021</pubdate>
+<volume>46</volume>
+<pages>5434&#x2013;5442</pages>
+</reference>
+<reference id="pubmed34812075">
+<accessionId id="acc060" href="info:pmid/34812075" />
+<authors>Jiang H, Guo G, Yao Z, Wang Y.</authors>
+<title>APACHE IV system helps to determine role of cholecystostomy in elderly patients with acute cholecystitis.</title>
+<source>J Int Med Res</source>
+<pubdate>2021</pubdate>
+<volume>49</volume>
+<pages>3000605211059288</pages>
+</reference>
+<reference id="pubmed34491557">
+<accessionId id="acc061" href="info:pmid/34491557" />
+<authors>Sharif S, Vlahaki D, Skitch S, Truong J, Freeman S, Sidalak D, Healey A.</authors>
+<title>Evaluating the diagnostic accuracy of point-of-care ultrasound for cholelithiasis and cholecystitis in a canadian emergency department.</title>
+<source>CJEM</source>
+<pubdate>2021</pubdate>
+<volume>23</volume>
+<pages>626&#x2013;630</pages>
+</reference>
+<reference id="pubmed34542972">
+<accessionId id="acc062" href="info:pmid/34542972" />
+<authors>Gul E, Gul Y, Ozkan Z, Kalayci M, Gurger M, Atescelik M, Ucarel M.</authors>
+<title>The Effectiveness of Ischemia Modified Albumin in Determining Acute Cholecystitis and its Severity.</title>
+<source>Clin Lab</source>
+<pubdate>2021</pubdate>
+<volume>67</volume>
+<pages />
+</reference>
+<reference id="pubmed35314945">
+<accessionId id="acc063" href="info:pmid/35314945" />
+<authors>Tomimaru Y, Fukuchi N, Yokoyama S, Mori T, Tanemura M, Sakai K, Takeda Y, Tsujie M, Yamada T, Miyamoto A, Hashimoto Y, Hatano H, Shimizu J, Sugimoto K, Kashiwazaki M, Matsumoto K, Kobayashi S, Doki Y, Eguchi H, Clinical Study Group of Osaka University, Hepato-Biliary-Pancreatic Group.</authors>
+<title>Effect of Preserving the Percutaneous Gallbladder Drainage Tube Before Laparoscopic Cholecystectomy on Surgical Outcome: Post Hoc Analysis of the CSGO-HBP-017.</title>
+<source>J Gastrointest Surg</source>
+<pubdate>2022</pubdate>
+<volume>26</volume>
+<pages>1224&#x2013;1232</pages>
+</reference>
+<reference id="pubmed35194663">
+<accessionId id="acc064" href="info:pmid/35194663" />
+<authors>She WH, Cheung TT, Chan MY, Chu KW, Ma KW, Tsang SHY, Dai WC, Chan ACY, Lo CM.</authors>
+<title>Routine use of ICG to enhance operative safety in emergency laparoscopic cholecystectomy: a randomized controlled trial.</title>
+<source>Surg Endosc</source>
+<pubdate>2022</pubdate>
+<volume>36</volume>
+<pages>4442&#x2013;4451</pages>
+</reference>
+<reference id="pubmed34697679">
+<accessionId id="acc065" href="info:pmid/34697679" />
+<authors>D'Acapito F, Cucchetti A, Di Pietrantonio D, Tauceri F, Mirarchi MT, Framarini M, Bova R, Fappiano F, Ercolani G.</authors>
+<title>Forecasting outcomes after cholecystectomy in octogenarian patients.</title>
+<source>Surg Endosc</source>
+<pubdate>2022</pubdate>
+<volume>36</volume>
+<pages>4479&#x2013;4485</pages>
+</reference>
+<reference id="pubmed35119791">
+<accessionId id="acc066" href="info:pmid/35119791" />
+<authors>Wong A, Naidu S, Lancashire RP, Chua TC.</authors>
+<title>The impact of obesity on outcomes in patients undergoing emergency cholecystectomy for acute cholecystitis.</title>
+<source>ANZ J Surg</source>
+<pubdate>2022</pubdate>
+<volume>92</volume>
+<pages>1091&#x2013;1096</pages>
+</reference>
+<reference id="pubmed35487433">
+<accessionId id="acc067" href="info:pmid/35487433" />
+<authors>Bejarano Gonz&#x00E1;lez N, Romaguera Monzon&#x00ED;s A, Rebasa Cladera P, Garc&#x00ED;a Monforte N, Labr&#x00F3; Ciurans M, Badia Closa J, Criado Paredes E, Garc&#x00ED;a Borobia FJ.</authors>
+<title>Is percutaneous cholecystostomy safe and effective in acute cholecystitis? Analysis of adverse effects associated with the technique.</title>
+<source>Cir Esp (Engl Ed)</source>
+<pubdate>2022</pubdate>
+<volume>100</volume>
+<pages>281&#x2013;287</pages>
+</reference>
+<reference id="pubmed34696994">
+<accessionId id="acc068" href="info:pmid/34696994" />
+<authors>Loh AYH, Chean CS, Durkin D, Bhatt A, Athwal TS.</authors>
+<title>Short and long term outcomes of laparoscopic fenestrating or reconstituting subtotal cholecystectomy versus laparoscopic total cholecystectomy in the management of acute cholecystitis.</title>
+<source>HPB (Oxford)</source>
+<pubdate>2022</pubdate>
+<volume>24</volume>
+<pages>691&#x2013;699</pages>
+</reference>
+<reference id="pubmed35426396">
+<accessionId id="acc069" href="info:pmid/35426396" />
+<authors>Demouron M, Selvy M, Dembinski J, Mauvais F, Cheynel N, Slim K, Sabbagh C, Regimbeau JM.</authors>
+<title>Feasibility and Effectiveness of an Enhanced Recovery Program after Early Cholecystectomy for Acute Calculous Cholecystitis: A 2-Step Study.</title>
+<source>J Am Coll Surg</source>
+<pubdate>2022</pubdate>
+<volume>234</volume>
+<pages>840&#x2013;848</pages>
+</reference>
+<reference id="pubmed35363086">
+<accessionId id="acc070" href="info:pmid/35363086" />
+<authors>Colling KP, Besshoff KE, Forrester JD, Kendrick D, Mercier P, Huston JM.</authors>
+<title>Surgical Infection Society Guidelines for Antibiotic Use in Patients Undergoing Cholecystectomy for Gallbladder Disease.</title>
+<source>Surg Infect (Larchmt)</source>
+<pubdate>2022</pubdate>
+<volume>23</volume>
+<pages>339&#x2013;350</pages>
+</reference>
+<reference id="pubmed35099300">
+<accessionId id="acc071" href="info:pmid/35099300" />
+<authors>Zhang X, Tian Y, Feng L, Yu Y, Ma L.</authors>
+<title>Effectiveness of Short-Course Antibacterial Therapy on Acute Cholecystitis after Successful Percutaneous Transhepatic Gallbladder Drainage: A Retrospective Study.</title>
+<source>Surg Infect (Larchmt)</source>
+<pubdate>2022</pubdate>
+<volume>23</volume>
+<pages>248&#x2013;253</pages>
+</reference>
+<reference id="pubmed34736791">
+<accessionId id="acc072" href="info:pmid/34736791" />
+<authors>Kitagawa M, Sugimoto M, Haruta H, Umezawa A, Kurokawa Y.</authors>
+<title>Intraoperative holography navigation using a mixed-reality wearable computer during laparoscopic cholecystectomy.</title>
+<source>Surgery</source>
+<pubdate>2022</pubdate>
+<volume>171</volume>
+<pages>1006&#x2013;1013</pages>
+</reference>
+<reference id="pubmed35020797">
+<accessionId id="acc073" href="info:pmid/35020797" />
+<authors>van Braak WG, Ponten JEH, Loozen CS, Schots JPM, van Geloven AAW, Donkervoort SC, Nieuwenhuijzen GAP, Besselink MG, van Heek TNT, de Reuver PR, Vlaminckx B, Kelder JC, Knibbe CAJ, van Santvoort HC, Boerma D.</authors>
+<title>Antibiotic prophylaxis for acute cholecystectomy: PEANUTS II multicentre randomized non-inferiority clinical trial.</title>
+<source>Br J Surg</source>
+<pubdate>2022</pubdate>
+<volume>109</volume>
+<pages>267&#x2013;273</pages>
+</reference>
+<reference id="pubmed34436660">
+<accessionId id="acc074" href="info:pmid/34436660" />
+<authors>Nassar AHM, Ng HJ.</authors>
+<title>Risk identification and technical modifications reduce the incidence of post-cholecystectomy bile leakage: analysis of 5675 laparoscopic cholecystectomies.</title>
+<source>Langenbecks Arch Surg</source>
+<pubdate>2022</pubdate>
+<volume>407</volume>
+<pages>213&#x2013;223</pages>
+</reference>
+<reference id="pubmed34909967">
+<accessionId id="acc075" href="info:pmid/34909967" />
+<authors>Kayaoglu SA, Tilki M.</authors>
+<title>When to remove the drainage catheter in patients with percutaneous cholecystostomy?</title>
+<source>Rev Assoc Med Bras (1992)</source>
+<pubdate>2022</pubdate>
+<volume>68</volume>
+<pages>77&#x2013;81</pages>
+</reference>
+<reference id="pubmed34605458">
+<accessionId id="acc076" href="info:pmid/34605458" />
+<authors>Habib A, Emon RI, Shejuty TR, Reza E, Khan SA.</authors>
+<title>Role of Intraperitoneal Normal Saline Instillation in Relieving Post-operative Pain Following Laparoscopic Cholecystectomy: A Quasi Experimental Study.</title>
+<source>Mymensingh Med J</source>
+<pubdate>2021</pubdate>
+<volume>30</volume>
+<pages>929&#x2013;935</pages>
+</reference>
+<reference id="pubmed34384723">
+<accessionId id="acc077" href="info:pmid/34384723" />
+<authors>Morales-Maza J, Rodr&#x00ED;guez-Quintero JH, Santes O, Aguilar-Frasco JL, Romero-V&#x00E9;lez G, S&#x00E1;nchez Garc&#x00ED;a-Ramos E, S&#x00E1;nchez-Morales G, Le&#x00F3;n P, Pastor-Sifuentes FU, Mier Y Ter&#x00E1;n-Ellis S, &#x00C1;lvarez-Bautista F, Clemente-Guti&#x00E9;rrez U, Mercado-D&#x00ED;az MA.</authors>
+<title>Conversion from laparoscopic to open cholecystectomy: Risk factor analysis based on clinical, laboratory, and ultrasound parameters.</title>
+<source>Rev Gastroenterol Mex (Engl Ed)</source>
+<pubdate>2021 Oct-Dec</pubdate>
+<volume>86</volume>
+<pages>363&#x2013;369</pages>
+</reference>
+<reference id="pubmed34570072">
+<accessionId id="acc078" href="info:pmid/34570072" />
+<authors>Saremirad M, Yazdimoghaddam H, Dalili A, Rastaghi S.</authors>
+<title>The Impact of Incentive Spirometry on Shoulder Tip Pain in Laparoscopic Cholecystectomy: A Randomized Clinical Trial.</title>
+<source>Surg Laparosc Endosc Percutan Tech</source>
+<pubdate>2021</pubdate>
+<volume>32</volume>
+<pages>14&#x2013;20</pages>
+</reference>
+<reference id="pubmed34669862">
+<accessionId id="acc079" href="info:pmid/34669862" />
+<authors>Alaku&#x015F; &#x00DC;, Peker YS.</authors>
+<title>Is combined rather than single antibiotic therapy actually reasonable in patients with acute calculous cholecystitis?</title>
+<source>Rev Assoc Med Bras (1992)</source>
+<pubdate>2021</pubdate>
+<volume>67</volume>
+<pages>1155&#x2013;1160</pages>
+</reference>
+<reference id="pubmed19747982">
+<accessionId id="acc080" href="info:pmid/19747982" />
+<authors>Huffman JL, Schenker S.</authors>
+<title>Acute acalculous cholecystitis: a review.</title>
+<source>Clin Gastroenterol Hepatol</source>
+<pubdate>2010</pubdate>
+<volume>8</volume>
+<pages>15&#x2013;22</pages>
+</reference>
+<reference id="pubmed17252293">
+<accessionId id="acc081" href="info:pmid/17252293" />
+<authors>Kimura Y, Takada T, Kawarada Y, Nimura Y, Hirata K, Sekimoto M, Yoshida M, Mayumi T, Wada K, Miura F, Yasuda H, Yamashita Y, Nagino M, Hirota M, Tanaka A, Tsuyuguchi T, Strasberg SM, Gadacz TR.</authors>
+<title>Definitions, pathophysiology, and epidemiology of acute cholangitis and cholecystitis: Tokyo Guidelines.</title>
+<source>J Hepatobiliary Pancreat Surg</source>
+<pubdate>2007</pubdate>
+<volume>14</volume>
+<pages>15&#x2013;26</pages>
+</reference>
+<reference id="pubmed28586152">
+<accessionId id="acc082" href="info:pmid/28586152" />
+<authors>Revzin MV, Scoutt LM, Garner JG, Moore CL.</authors>
+<title>Right Upper Quadrant Pain: Ultrasound First&#x0021;</title>
+<source>J Ultrasound Med</source>
+<pubdate>2017</pubdate>
+<volume>36</volume>
+<pages>1975&#x2013;1985</pages>
+</reference>
+<reference id="pubmed33425342">
+<accessionId id="acc083" href="info:pmid/33425342" />
+<authors>Stanisic V, Milicevic M, Kocev N, Stanisic B.</authors>
+<title>A prospective cohort study for prediction of difficult laparoscopic cholecystectomy.</title>
+<source>Ann Med Surg (Lond)</source>
+<pubdate>2020</pubdate>
+<volume>60</volume>
+<pages>728&#x2013;733</pages>
+</reference>
+<reference id="pubmed30470279">
+<accessionId id="acc084" href="info:pmid/30470279" />
+<authors>Strasberg SM.</authors>
+<title>Tokyo Guidelines for the Diagnosis of Acute Cholecystitis.</title>
+<source>J Am Coll Surg</source>
+<pubdate>2018</pubdate>
+<volume>227</volume>
+<pages>624</pages>
+</reference>
+<reference id="poem368071">
+<accessionId id="acc085" href="info:wiley/eep-poem/368071" />
+<accessionId id="acc085b" href="info:pmid/38084426" />
+<authors>Ahmed I , Hudson J , Innes K , Hern&#x00E1;ndez R , Gillies K, Bruce R , Bell V , Avenell A , Blazeby J , Brazzelli M, Cotton S , Croal B , Forrest M , MacLennan G , Murchie P , Wileman S , Ramsay C , C-GALL Study Group.</authors>
+<title>Effectiveness of conservative management versus laparoscopic cholecystectomy in the prevention of recurrent symptoms and complications in adults with uncomplicated symptomatic gallstone disease (C-GALL trial): pragmatic, multicentre randomised controlled trial.</title>
+<source>BMJ</source>
+<pubdate>2023</pubdate>
+<volume>383</volume>
+<pages>e075383</pages>
+</reference>
+<reference id="pubmed38360274">
+<accessionId id="acc086" href="info:pmid/38360274" />
+<authors>Ridtitid W, Karuehardsuwan J, Faknak N, Piyachaturawat P, Vongwattanakit P, Kulpatcharapong S, Angsuwatcharakon P, Mekaroonkamol P, Kongkam P, Rerknimitr R.</authors>
+<title>Endoscopic Gallbladder Stenting to Prevent Recurrent Cholecystitis in Deferred Cholecystectomy: A Randomized Trial.</title>
+<source>Gastroenterology</source>
+<pubdate>2024</pubdate>
+<volume>166</volume>
+<pages>1145&#x2013;1155</pages>
+</reference>
+<reference id="pubmed38193560">
+<accessionId id="acc087" href="info:pmid/38193560" />
+<authors>Zeineddin A, Cornwell EE 3rd, Fullum TM, Chu QD, Kearse L, Ayad MH, Li S, Williams M.</authors>
+<title>Early Cholecystectomy in Patients with Sickle Cell Disease with Uncomplicated Cholelithiasis Is Associated with Better Outcomes.</title>
+<source>J Am Coll Surg</source>
+<pubdate>2024</pubdate>
+<volume>238</volume>
+<pages>543&#x2013;550</pages>
+</reference>
+<reference id="pubmed38168604">
+<accessionId id="acc088" href="info:pmid/38168604" />
+<authors>Koo SS, Krishnan RJ, Ishikawa K, Matsunaga M, Ahn HJ, Murayama KM, Kitamura RK.</authors>
+<title>Subtotal vs total cholecystectomy for difficult gallbladders: A systematic review and meta-analysis.</title>
+<source>Am J Surg</source>
+<pubdate>2024</pubdate>
+<volume>229</volume>
+<pages>145&#x2013;150</pages>
+</reference>
+<reference id="pubmed37831399">
+<accessionId id="acc089" href="info:pmid/37831399" />
+<authors>Inoue T , Kitano R, Ibusuki M, Sakamoto K, Kimoto S, Kobayashi Y, Sumida Y, Nakade Y, Ito K, Yoneda M.</authors>
+<title>Endoscopic Ultrasound-Guided Naso-gallbladder Drainage Using a Dedicated Catheter for Acute Cholecystitis After Transpapillary Metal Stent Placement for Malignant Biliary Obstruction.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2023</pubdate>
+<volume>68</volume>
+<pages>4449&#x2013;4455</pages>
+</reference>
+<reference id="pubmed37476980">
+<accessionId id="acc090" href="info:pmid/37476980" />
+<authors>Marciniak C, Lenne X, Bruandet A, Hamroun A, G&#x00E9;nin M, Baud G, Theis D, Pattou F, Caiazzo R.</authors>
+<title>Risk-Benefit Balance of Simultaneous Gastric Bypass or Sleeve Gastrectomy and Concomitant Cholecystectomy: A Comprehensive Nationwide Cohort of 289,627 Patients.</title>
+<source>Ann Surg</source>
+<pubdate>2023</pubdate>
+<volume>278</volume>
+<pages>725&#x2013;731</pages>
+</reference>
+<reference id="pubmed36746709">
+<accessionId id="acc091" href="info:pmid/36746709" />
+<authors>Taveras LR, Scrushy MG, Cripps MW, Kuhlenschmidt K, Crandall M, Puri R, Schroeppel TJ, Schuster KM, Dumas RP.</authors>
+<title>From mild to gangrenous cholecystitis, laparoscopic cholecystectomy is safe 24 hours a day.</title>
+<source>Am J Surg</source>
+<pubdate>2023</pubdate>
+<volume>226</volume>
+<pages>83&#x2013;86</pages>
+</reference>
+<reference id="pubmed35764326">
+<accessionId id="acc092" href="info:pmid/35764326" />
+<authors>He L, Wang J, Ping F, Yang N, Huang J, Li W, Xu L, Zhang H , Li Y .</authors>
+<title>Dipeptidyl peptidase-4 inhibitors and gallbladder or biliary disease in type 2 diabetes: systematic review and pairwise and network meta-analysis of randomised controlled trials.</title>
+<source>BMJ</source>
+<pubdate>2022</pubdate>
+<volume>377</volume>
+<pages>e068882</pages>
+</reference>
+<reference id="pubmed38728935">
+<accessionId id="acc093" href="info:pmid/38728935" />
+<authors>Cannata D, Chin KA, Anslip A, She T, Lotterman S, Herbst T, Herbst MK.</authors>
+<title>Association of biliary distention with a diagnosis of acute cholecystitis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>81</volume>
+<pages>130&#x2013;135</pages>
+</reference>
+<reference id="pubmed37855790">
+<accessionId id="acc094" href="info:pmid/37855790" />
+<authors>Wilson SJ, Thavanathan R, Cheng W, Stuart J, Kim DJ, Glen P, Duigenan S, Shorr R, Woo MY, Perry JJ.</authors>
+<title>Test Characteristics of Emergency Medicine-Performed Point-of-Care Ultrasound for the Diagnosis of Acute Cholecystitis: A Systematic Review and Meta-analysis.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>83</volume>
+<pages>235&#x2013;246</pages>
+</reference>
+<reference id="pubmed37966823">
+<accessionId id="acc095" href="info:pmid/37966823" />
+<authors>Hantouli MN, Droullard DJ, Nash MG, Benson LS, Wright AS, Flum DR, Davidson GH.</authors>
+<title>Operative vs Nonoperative Management of Acute Cholecystitis During the Different Trimesters of Pregnancy.</title>
+<source>JAMA Surg</source>
+<pubdate>2024</pubdate>
+<volume>159</volume>
+<pages>28&#x2013;34</pages>
+</reference>
+<reference id="pubmed28093732">
+<accessionId id="acc096" href="info:pmid/28093732" />
+<authors>Marjoribanks J, Farquhar C, Roberts H, Lethaby A, Lee J.</authors>
+<title>Long-term hormone therapy for perimenopausal and postmenopausal women.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2017</pubdate>
+<volume>1</volume>
+<pages>CD004143</pages>
+</reference>
+<reference id="pubmed32498344">
+<accessionId id="acc097" href="info:pmid/32498344" />
+<authors>Grigor'eva IN, Romanova TI .</authors>
+<title>Gallstone Disease and Microbiome.</title>
+<source>Microorganisms</source>
+<pubdate>2020</pubdate>
+<volume>8</volume>
+<pages />
+</reference>
+<reference id="pubmed29032636">
+<accessionId id="acc098" href="info:pmid/29032636" />
+<authors>Yokoe M, Hata J, Takada T, Strasberg SM, Asbun HJ, Wakabayashi G, Kozaka K, Endo I, Deziel DJ, Miura F, Okamoto K, Hwang TL, Huang WS, Ker CG, Chen MF, Han HS, Yoon YS, Choi IS, Yoon DS, Noguchi Y, Shikata S, Ukai T, Higuchi R, Gabata T, Mori Y, Iwashita Y, Hibi T, Jagannath P, Jonas E, Liau KH, Dervenis C, Gouma DJ, Cherqui D, Belli G, Garden OJ, Gim&#x00E9;nez ME, de Santiba&#x00F1;es E, Suzuki K, Umezawa A, Supe AN, Pitt HA, Singh H, Chan ACW, Lau WY, Teoh AYB, Honda G, Sugioka A, Asai K, Gomi H, Itoi T, Kiriyama S, Yoshida M, Mayumi T, Matsumura N, Tokumura H, Kitano S, Hirata K, Inui K, Sumiyama Y, Yamamoto M.</authors>
+<title>Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis (with videos).</title>
+<source>J Hepatobiliary Pancreat Sci</source>
+<pubdate>2018</pubdate>
+<volume>25</volume>
+<pages>41&#x2013;54</pages>
+</reference>
+<reference id="pubmed21799598">
+<accessionId id="acc099" href="info:pmid/21799598" />
+<authors>Sunnapwar A, Raut AA, Nagar AM, Katre R.</authors>
+<title>Emphysematous cholecystitis: Imaging findings in nine patients.</title>
+<source>Indian J Radiol Imaging</source>
+<pubdate>2011</pubdate>
+<volume>21</volume>
+<pages>142&#x2013;6</pages>
+</reference>
+<reference id="pubmed36407811">
+<accessionId id="acc100" href="info:pmid/36407811" />
+<authors>Tunruttanakul S , Verasmith K, Patumanond J, Mingmalairak C.</authors>
+<title>Development of a Predictive Model for Common Bile Duct Stones in Patients With Clinical Suspicion of Choledocholithiasis: A Cohort Study.</title>
+<source>Gastroenterology Res</source>
+<pubdate>2022</pubdate>
+<volume>15</volume>
+<pages>240&#x2013;252</pages>
+</reference>
+<reference id="pubmed38021359">
+<accessionId id="acc101" href="info:pmid/38021359" />
+<authors>Singh A, Kaur M, Swaminathan C, Subramanian A, Singh KK, Sajid MS.</authors>
+<title>Preoperative antibiotic prophylaxis in acute cholecystectomy: a systematic review and meta-analysis of randomised controlled trials.</title>
+<source>Transl Gastroenterol Hepatol</source>
+<pubdate>2023</pubdate>
+<volume>8</volume>
+<pages>37</pages>
+</reference>
+<reference id="pubmed36685772">
+<accessionId id="acc102" href="info:pmid/36685772" />
+<authors>Moon DK, Kang JS , Byun Y, Choi YJ , Lee HW , Jang JY, Lim CS .</authors>
+<title>Incidence of bactibilia and related factors in patients who undergo cholecystectomy.</title>
+<source>Ann Surg Treat Res</source>
+<pubdate>2023</pubdate>
+<volume>104</volume>
+<pages>10&#x2013;17</pages>
+</reference>
+<reference id="pubmed37728932">
+<accessionId id="acc103" href="info:pmid/37728932" />
+<authors>Kalata S, Thumma JR, Norton EC, Dimick JB, Sheetz KH.</authors>
+<title>Comparative Safety of Robotic-Assisted vs Laparoscopic Cholecystectomy.</title>
+<source>JAMA Surg</source>
+<pubdate>2023</pubdate>
+<volume>158</volume>
+<pages>1303&#x2013;1310</pages>
+</reference>
+<reference id="pubmed27695167">
+<accessionId id="acc104" href="info:pmid/27695167" />
+<authors>Rassameehiran S, Tantrachoti P, Nugent K.</authors>
+<title>Percutaneous gallbladder aspiration for acute cholecystitis.</title>
+<source>Proc (Bayl Univ Med Cent)</source>
+<pubdate>2016</pubdate>
+<volume>29</volume>
+<pages>381&#x2013;384</pages>
+</reference>
+<reference id="pubmed17084335">
+<accessionId id="acc105" href="info:pmid/17084335" />
+<authors>Giger UF, Michel JM, Opitz I, Th Inderbitzin D, Kocher T, Kr&#x00E4;henb&#x00FC;hl L, Swiss Association of Laparoscopic and Thoracoscopic Surgery (SALTS) Study Group.</authors>
+<title>Risk factors for perioperative complications in patients undergoing laparoscopic cholecystectomy: analysis of 22,953 consecutive cases from the Swiss Association of Laparoscopic and Thoracoscopic Surgery database.</title>
+<source>J Am Coll Surg</source>
+<pubdate>2006</pubdate>
+<volume>203</volume>
+<pages>723&#x2013;8</pages>
+</reference>
+<reference id="pubmed36243605">
+<accessionId id="acc106" href="info:pmid/36243605" />
+<authors>Mattson A, Sinha A, Njere I, Borkar N, Sinha CK.</authors>
+<title>Laparoscopic cholecystectomy in children: A systematic review and meta-analysis.</title>
+<source>Surgeon</source>
+<pubdate>2023</pubdate>
+<volume>21</volume>
+<pages>e133&#x2013;e141</pages>
+</reference>
+<reference id="pubmed23813477">
+<accessionId id="acc107" href="info:pmid/23813477" />
+<authors>Gurusamy KS, Davidson C, Gluud C, Davidson BR.</authors>
+<title>Early versus delayed laparoscopic cholecystectomy for people with acute cholecystitis.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2013</pubdate>
+<pages>CD005440</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>247</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Acute Cholecystitis: Management.</title>
+<graphic href="eee0174-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Acute cholecystitis. Resuscitate, antibiotics, hospital admission. Complicated or unstable?</label>
+<path target="cell-2"> No </path>
+<path target="cell-3"> Yes </path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Laparoscopy &lt;72 hours</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Perforation or peritonitis?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Contraindication for general anesthesia?</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Percutaneous cholecystostomy and intravenous antibiotics</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Laparotomy</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Helton WS, Espat NJ. Cholecystitis and cholangitis. <em>Curr Treat Opt Infect Dis</em> 2001;<strong>3</strong>:387-400.<xref ref="bib42" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

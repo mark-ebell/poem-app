@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Primary antibody deficiency</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0895</topic_id>
+<topic_comment />
+<topic_lastupdated>01/30/2022</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mani Maheshwari, MD</author_name>
+<author_title>Staff Physician</author_title>
+<author_department>Hospital Medicine</author_department>
+<author_institution>Banner Health</author_institution>
+<author_email>mani.maheshwari&#x0040;bannerhealth.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Mesa</author_city>
+<author_state>AZ</author_state>
+<author_zip>85202</author_zip>
+</author>
+<author primary="no">
+<author_name>Michele A. Monteil, MBBS, PhD, FRCPath</author_name>
+<author_title>Professor</author_title>
+<author_department>Augusta University - The University of Georgia Medical Partnership</author_department>
+<author_institution />
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Consider primary antibody deficiency (PAD) in patients with recurrent, severe, unusual, or persistent infections, especially upper and lower respiratory infections.<evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed22132890" resource="acc002" />
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed20095309" resource="acc018" /></listitem>
+<listitem>The diagnostic approach involves measuring serum IgG, IgA, IgM levels; responses to pneumococcal and tetanus vaccines; and optionally quantitation of B cells in the blood. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed22132890" resource="acc002" />
+<xref ref="pubmed26371839" resource="acc003" /></listitem>
+<listitem>Patients who cannot make protective antibodies are eligible for immunoglobulin-replacement therapy and should be referred to an immunologist for further evaluation and treatment.<evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed22132890" resource="acc002" />
+<xref ref="pubmed26371839" resource="acc003" /></listitem>
+<listitem>Immunoglobulin-replacement therapy is indicated for all patients with IgG levels &lt;200 mg&#x002F;dL and selectively for persons with IG levels of 200 mg&#x002F;dL or higher.<evidence rating="A" system="SORT"> A </evidence>
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed17565605" resource="acc015" />
+<xref ref="pubmed19962579" resource="acc016" />
+<xref ref="pubmed1959700" resource="acc019" /></listitem>
+<listitem>Prognosis depends on the specific diagnosis, age at onset and diagnostic delay, extent of organ damage at presentation, and presence of other immune dysregulation, e.g., autoimmune disease. However, most patients will have an average life span. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed19121249" resource="acc008" />
+<xref ref="pubmed27836059" resource="acc021" />
+<xref ref="pubmed29867917" resource="acc022" />
+<xref ref="pubmed24582312" resource="acc025" /></listitem>
+</list>
+</BottomLine>
+<definition>Primary antibody deficiencies are a heterogeneous group of immune deficiencies with absence or marked reduction of one (e.g., selective IgA) or more classes (e.g., Bruton&#x2019;s agammaglobulinemia) of immunoglobulins, and&#x002F;or the inability to provide antibody-mediated protection against pathogens. They result from abnormalities of B-cell development or differentiation, or from defects in other cell lines (e.g., T cells) that affect B-cell function.<xref ref="pubmed23765059" resource="acc004" /> Over 30 different predominantly antibody-deficient primary immune deficiencies are recognized.<xref ref="pubmed26482257" resource="acc014" /> Conditions are defined by clinical manifestations and specific diagnostic findings.<xref ref="pubmed26371839" resource="acc003" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>The prevalence of diagnosed primary immunodeficiencies (PID) in the US is estimated at 1 per 1,200 persons with almost half of cases being primary antibody deficiencies (PAD).<xref ref="pubmed17577648" resource="acc005" /></listitem>
+<listitem>PAD accounted for 63.4&#x0025; of primary immunodeficiencies diagnosed in the US in 2015 at the Jeffrey Modell Centers Global Network, which is dedicated to the diagnosing and caring of patients with PID. Globally, 53&#x0025; of all PID cases were PAD.<xref ref="pubmed26802037" resource="acc006" /></listitem>
+<listitem>The most common PAD reported were selective IgA deficiency, common variable immunodeficiency, unspecified hypogammaglobulinemia, and specific antibody deficiency (normal IgG and B cells).<xref ref="pubmed26802037" resource="acc006" />
+<xref ref="pubmed17577648" resource="acc005" />
+<xref ref="pubmed19121249" resource="acc008" />
+<xref ref="pubmed25257253" resource="acc009" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Inherited deficiencies in signaling molecules or enzymes in B-cell development, activation, and differentiation. Defects may be intrinsic to B cells or affect other cell lines.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The absence of antibodies inhibits microbial removal by opsonization and phagocytosis, complement activation, and pathogen and toxin neutralization. Patients have increased susceptibility to common and opportunistic infections of respiratory and gastrointestinal systems, caused by encapsulated extracellular bacteria (<em>H. influenzae, S. pneumococcus, M. catarrhalis</em>), but also viruses (enteroviruses) and parasites (<em>G. lamblia</em>).<xref ref="pubmed17765042" resource="acc010" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>A new neonatal screening test, the kappa-recombining excision circles, can identify newborns with severe B-cell deficiencies such as X-linked agammaglobulinemia, and is in use in some countries (e.g., Sweden, Spain, and Israel).<evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed29116556" resource="acc012" /></listitem>
+<listitem>Vaccination recommendations depend on the type of underlying antibody deficiency. Specific recommendations are available from the 2013 IDSA clinical practice guidelines for vaccination of the immunocompromised host.<evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed24311479" resource="acc017" /></listitem>
+<listitem>Live vaccines are contraindicated in patients with common variable immune deficiency (CVID) and agammaglobulinemia. It is safe to administer subunit and inactivated vaccines.<evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed26371839" resource="acc003" /></listitem>
+<listitem>Following a definite PAD diagnosis, consider referral for genetic counseling, especially if a molecular diagnosis is determined. This may assist with <em>in utero</em> diagnosis in future pregnancies.<evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed26371839" resource="acc003" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Diagnostic evaluation requires detailed clinical history, physical examination, family history, and laboratory tests. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>If PAD is suspected, initial diagnostic testing should include a CBC, quantitative measurement of serum immunoglobulins G, A, M (+&#x002F;-E); serological responses to protein and polysaccharide vaccine antigens (DT, tetanus toxoid, <em>H. influenzae</em>, pneumococcus); and quantitative B cell, T cell, and NK immunophenotyping using flow cytometry.<evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed22132890" resource="acc002" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Non-immunological differential</Differential_Name>
+<Differential_Features><xref ref="pubmed23918706" resource="acc013" /></Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Normal frequency of infection; daycare (children) passive smoking</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Bronchial hyperreactivity, allergy, asthma, adenoidal hypertrophy</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Gastroesophageal reflux</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Cystic fibrosis, &#x03B1;-1-antitrypsin-deficiency</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Inhaled foreign object, congenital anomaly, ciliary dyskinesia</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Secondary immunodeficiency</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>HIV infection</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Renal or intestinal protein loss</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Lymphoid&#x002F;other malignancy</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Immunosuppressive therapy</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Other PID</Differential_Name>
+<Differential_Features><xref ref="pubmed22132890" resource="acc002" /></Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Combined immunodeficiency</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Complement&#x002F;phagocyte deficiency</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Asplenia (absent or functional)</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>The more severe the antibody deficiency, the earlier the onset of symptoms. Four broad categories of B-cell deficiencies have been described:<xref ref="pubmed26482257" resource="acc014" />
+<list style="bulleted">
+<listitem>Severe reduction in <strong>all</strong> serum immunoglobulin classes with profoundly decreased or absent B cells, e.g., Bruton&#x2019;s agammaglobulinemia.</listitem>
+<listitem>Severe reduction in <strong>at least two</strong> serum immunoglobulin classes with normal low numbers of B cells, e.g., common variable immunodeficiency.</listitem>
+<listitem>Severe reduction in IgG and IgA with normal&#x002F;elevated IgM and normal numbers of B cells.</listitem>
+<listitem>Immunoglobulin class or subclass deficiency with normal numbers of B cells, e.g., transient hypogammaglobulinemia of infancy.</listitem>
+</list></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Consider primary antibody deficiency (PAD) in patients with severe, persistent, unusual, and recurrent infection, especially of upper and lower airways.<xref ref="pubmed22132890" resource="acc002" />
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed20095309" resource="acc018" /></listitem>
+<listitem>The key word is unusual - an unusual organism, an unusual duration, an unusual complication, or an unusual severity of a &#x201C;usual&#x201D; infection should prompt suspicion of an immunodeficiency.<xref ref="pubmed17765042" resource="acc010" /></listitem>
+<listitem>There are eight patterns of clinical presentations of PID, shown below:<xref ref="pubmed16879238" resource="acc001" />
+<list style="bulleted">
+<listitem>Recurrent ear, nose, throat, and airway infections (including bronchiectasis), most commonly associated with primary antibody deficiency.</listitem>
+<listitem>Failure to thrive from early infancy, including intractable diarrhea, severe eczema.</listitem>
+<listitem>Recurrent pyogenic infection, including granulomatous inflammation and poor wound healing.</listitem>
+<listitem>Unusual infections or unusually severe course of infections.</listitem>
+<listitem>Recurrent infections with the same type of pathogen.</listitem>
+<listitem>Autoimmune or chronic inflammatory disease; lymphoproliferation.</listitem>
+<listitem>Characteristic combinations of clinical features in eponymous syndromes.</listitem>
+<listitem>Angioedema without urticaria.</listitem>
+</list></listitem>
+<listitem><xref ref="table001" /> lists common symptoms. Suspect primary immunodeficiency if two or more of the items in <xref ref="table001" /> are present. This is 60&#x0025; sensitive for PAD in children.<xref ref="pubmed22129048" resource="acc023" />
+<xref ref="pubmed29744770" resource="acc007" /></listitem>
+<listitem>Physician-diagnosed primary immunodeficiency in a family member is a significant risk factor for primary antibody deficiency in patients with recurrent infections, so a thorough family history should be sought in the patient&#x2019;s history.<xref ref="pubmed21482601" resource="acc011" /></listitem>
+<listitem>Autoimmune, lymphoproliferative, and granulomatous disease can accompany increased susceptibility to infection in some patients.<xref ref="pubmed22132890" resource="acc002" />
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed20095309" resource="acc018" />
+<xref ref="table002" /> gives specific clinical manifestations of some main types of primary antibody deficiencies.</listitem>
+<listitem>Family history of primary immunodeficiency or primary antibody deficiency is associated with an 8-fold increase in risk (95&#x0025; CI 3-22).<xref ref="pubmed21482601" resource="acc011" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>If primary antibody deficiency is suspected, initial testing should include the following: <list style="bulleted">
+<listitem>Complete blood count with differential.</listitem>
+<listitem>Quantitative serum immunoglobulin G, A, M, (+&#x002F;- E) concentrations.</listitem>
+<listitem>If initial responses were low or absent, measurement of specific antibodies to prior vaccines and response to booster vaccination.</listitem>
+<listitem>Lymphocyte subset analysis with flow cytometry measurement of B and T cell populations.<xref ref="pubmed26371839" resource="acc003" /></listitem>
+<listitem>B-cell enumeration and phenotyping.<xref ref="bib26_572_1591569583306" resource="acc026" /></listitem>
+</list></listitem>
+<listitem>Measurement of serum immunoglobulins may show reduced levels of one or more immunoglobulins (IgG, IgA, IgM) and should prompt referral to an immunologist.<xref ref="pubmed20095309" resource="acc018" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm for a recommended approach to patients with suspected primary antibody deficiency (<xref ref="fig001" />).</listitem>
+<listitem>Patients with suspected or proven PAD should have an evaluation and follow-up by an experienced immunologist.<xref ref="pubmed26371839" resource="acc003" /></listitem>
+<listitem>Patients and their carers should be educated about PAD to facilitate optimal outcomes.<xref ref="pubmed26371839" resource="acc003" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treatment should be individualized depending on the diagnosis and patient&#x2019;s symptoms.<evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Immunoglobulin replacement therapy is indicated for all patients with IgG levels &lt;200 mg&#x002F;dL and selectively for persons with IG levels of 200 mg&#x002F;dL or higher.<evidence rating="A" system="SORT"> A </evidence>
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed17565605" resource="acc015" />
+<xref ref="pubmed19962579" resource="acc016" />
+<xref ref="pubmed1959700" resource="acc019" /></listitem>
+<listitem>Immunoglobulin therapy can be administered intravenously or subcutaneously.<evidence rating="A" system="SORT"> A </evidence>
+<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed17565605" resource="acc015" />
+<xref ref="pubmed19962579" resource="acc016" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Replacement immunoglobulin G (IV or SC) provides the first line of therapy for symptomatic patients with evidence of significant deficiency of antibody production. Its efficacy is well documented for X-linked agammaglobulinemia and CVID. It is also used in other less severe forms of primary antibody deficiency where there is evidence of specific antibody deficiency and given to IgA deficiency patients with low IgG.<xref ref="pubmed17565605" resource="acc015" /></listitem>
+<listitem>Immunoglobulin therapy provides the antibody repertoire of thousands of healthy donors who have been rigorously screened. The dosage is determined by IgG trough levels and optimization of clinical response. Trough levels, blood cell counts, and serum chemistry (liver function tests, urea, creatinine) should be regularly monitored.<xref ref="pubmed17565605" resource="acc015" /></listitem>
+<listitem>Immunoglobulin replacement therapy is indicated for all patients with IgG levels &lt;200 mg&#x002F;dL; for persons with IgG levels between 200 mg&#x002F;dL and 500 mg&#x002F;dL if there are frequent infections and defective antibody response to vaccine or common pathogens; and for patients with IgG &#x003E;500 mg&#x002F;dL if severe recurrent infections and evidence of specific antibody deficiency.<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed17565605" resource="acc015" />
+<xref ref="pubmed19962579" resource="acc016" /></listitem>
+<listitem>Immunoglobulin therapy can be administered intravenously (IVIg) or subcutaneously (SCIg), providing individualization of treatment. IVIg is administered every 2 to 4 weeks, and SCIg is given every 1 to 2 weeks. Monthly doses range from 400 mg&#x002F;kg to 800 mg&#x002F;kg <xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed17565605" resource="acc015" />
+<xref ref="pubmed19962579" resource="acc016" /></listitem>
+<listitem>Replacement immunoglobulin therapy for most patients with the inability to produce protective antibodies to common pathogens is usually for life.<xref ref="pubmed17565605" resource="acc015" />
+<xref ref="pubmed26371839" resource="acc003" /></listitem>
+<listitem>Long-term antibiotics may be required in addition to immunoglobulin replacement in PAD patients who continue to have bacterial infections.<xref ref="pubmed26371839" resource="acc003" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Evaluation and follow-up by an experienced immunologist are strongly advised.<xref ref="pubmed26371839" resource="acc003" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Prognosis depends on the specific type of primary antibody deficiency, age of onset of symptoms, delay in diagnosis, the extent of organ damage (e.g., bronchiectasis) by the time the patient presents, and presence of other immune dysregulation such as autoimmune disease. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed27836059" resource="acc021" />
+<xref ref="pubmed29867917" resource="acc022" />
+<xref ref="pubmed24582312" resource="acc025" /></listitem>
+<listitem>Despite increased morbidity, most patients will have an average lifespan.<xref ref="pubmed1912124" resource="acc024" /> In a study of 179 patients with primary antibody deficiency in Australia, survival following diagnosis was reduced in patients with immune dysregulation, with a 75&#x0025; survival at 20 years after diagnosis compared with 98&#x0025; for those with infection-only phenotype.<xref ref="pubmed29867917" resource="acc022" />
+<evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Lung imaging and function should be monitored periodically in PAD patients with increased risk for recurrent severe respiratory infections. High-resolution CT is used to screen for underlying bronchiectasis and other lung pathologies associated with PID. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed26371839" resource="acc003" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16879238">
+<accessionId id="acc001" href="info:pmid/16879238" />
+<authors>De Vries E, et al.</authors>
+<title>Patient-centred screening for primary immunodeficiency: A multi-stage diagnostic protocol designed for non-immunologists.</title>
+<source>Clin Exp Immunol</source>
+<pubdate>2006</pubdate>
+<volume>145</volume>
+<pages>204-214.</pages>
+</reference>
+<reference id="pubmed22132890">
+<accessionId id="acc002" href="info:pmid/22132890" />
+<authors>De Vries E, et al.</authors>
+<title>Patient-centred screening for primary immunodeficiency: A multi-stage diagnostic protocol designed for non-immunologists: 2011 update.</title>
+<source>Clin Exp Immunol</source>
+<pubdate>2011</pubdate>
+<volume>167</volume>
+<pages>108-119.</pages>
+</reference>
+<reference id="pubmed26371839">
+<accessionId id="acc003" href="info:pmid/26371839" />
+<authors>Bonilla FA, Khan DA, Ballas ZK et al.</authors>
+<title>Practice parameter for the diagnosis and management of primary immunodeficiency.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>2015</pubdate>
+<volume>136</volume>
+<pages>1186-205.</pages>
+</reference>
+<reference id="pubmed23765059">
+<accessionId id="acc004" href="info:pmid/23765059" />
+<authors>Durandy A, Krackeer S, Fischer A.</authors>
+<title>Primary antibody deficiencies.</title>
+<source>Nature Rev Immunol</source>
+<pubdate>2013</pubdate>
+<volume>13</volume>
+<pages>519-533.</pages>
+</reference>
+<reference id="pubmed17577648">
+<accessionId id="acc005" href="info:pmid/17577648" />
+<authors>Boyle JM, Buckley RH.</authors>
+<title>Population prevalence of diagnosed primary immunodeficiency diseases in the United States.</title>
+<source>J Clin Immunol</source>
+<pubdate>2007</pubdate>
+<volume>27</volume>
+<pages>497-502.</pages>
+</reference>
+<reference id="pubmed26802037">
+<accessionId id="acc006" href="info:pmid/26802037" />
+<authors>Modell V, Quinn J, Orange J et al.</authors>
+<title>Primary Immunodeficiencies Worldwide: An updated overview from the Jeffery Modell Centers Global Network.</title>
+<source>Immunol Res</source>
+<pubdate>2016</pubdate>
+<volume>64</volume>
+<pages>736-753.</pages>
+</reference>
+<reference id="pubmed29744770">
+<accessionId id="acc007" href="info:pmid/29744770" />
+<authors>Modell V, Orange JS, Quinn J, Modell F.</authors>
+<title>Global report on primary immunodeficiencies: 2018 update from the Jeffery Modell Centers Network on diseases classification, regional trends, treatment modalities, and physician reported outcomes.</title>
+<source>Immunol Res</source>
+<pubdate>2018</pubdate>
+<pages />
+</reference>
+<reference id="pubmed19121249">
+<accessionId id="acc008" href="info:pmid/19121249" />
+<authors>Joshi AY, Iyer VN, Hagan JB, et al.</authors>
+<title>Incidence and temporal trends of primary immunodeficiency: A population-based cohort study.</title>
+<source>Mayo Clin Proc</source>
+<pubdate>2009</pubdate>
+<volume>84</volume>
+<pages>16-22.</pages>
+</reference>
+<reference id="pubmed25257253">
+<accessionId id="acc009" href="info:pmid/25257253" />
+<authors>Kobrynski L, Waltenburg Powell R, Bowen S.</authors>
+<title>Prevalence and Morbidity of Primary Immunodeficiency Diseases, United States 2001-2007.</title>
+<source>J Clin Immunol</source>
+<pubdate>2014</pubdate>
+<volume>34</volume>
+<pages>954-961.</pages>
+</reference>
+<reference id="pubmed17765042">
+<accessionId id="acc010" href="info:pmid/17765042" />
+<authors>Azar AE, Ballas ZK.</authors>
+<title>Evaluation of the adulty with suspected immunodeficiency.</title>
+<source>Am J Med</source>
+<pubdate>2007</pubdate>
+<volume>120</volume>
+<pages>764-768.</pages>
+</reference>
+<reference id="pubmed21482601">
+<accessionId id="acc011" href="info:pmid/21482601" />
+<authors>Subbarayan A, Colarusso G, Hughes SM, et al.</authors>
+<title>Clinical features that identify children with primary immunodeficiency diseases.</title>
+<source>Pediatrics</source>
+<pubdate>2011</pubdate>
+<volume>127</volume>
+<pages>810-816.</pages>
+</reference>
+<reference id="pubmed29116556">
+<accessionId id="acc012" href="info:pmid/29116556" />
+<authors>King JR, Hammarstr&#x00F6;m L.</authors>
+<title>Newborn screening for primary immunodeficiency diseases: History, current and future practice.</title>
+<source>J Clin Immunol</source>
+<pubdate>2018</pubdate>
+<volume>38</volume>
+<pages>56-66.</pages>
+</reference>
+<reference id="pubmed23918706">
+<accessionId id="acc013" href="info:pmid/23918706" />
+<authors>Jyothi S, Lissauer S, Welch S, Hackett S.</authors>
+<title>Immune deficiencies in children: An overview.</title>
+<source>Arch Dis Child Educ Pract Ed</source>
+<pubdate>2013</pubdate>
+<volume>98</volume>
+<pages>186-196.</pages>
+</reference>
+<reference id="pubmed26482257">
+<accessionId id="acc014" href="info:pmid/26482257" />
+<authors>Picard C, Al-Herz W, Bousfiha A, et al.</authors>
+<title>Primary immunodeficiency diseases; an update on the classification from the International Union of Immunological Societies Expert Committee for primary immunodeficiency 2015.</title>
+<source>J Clin Immunol</source>
+<pubdate>2015</pubdate>
+<volume>35</volume>
+<pages>696-726.</pages>
+</reference>
+<reference id="pubmed17565605">
+<accessionId id="acc015" href="info:pmid/17565605" />
+<authors>Wood P, Stanworth S, Burton J, et al.</authors>
+<title>Recognition, clinical diagnosis and management of patients with primary antibody deficiencies: A systemic review.</title>
+<source>Clin Exp Immunol</source>
+<pubdate>2007</pubdate>
+<volume>149</volume>
+<pages>410-423.</pages>
+</reference>
+<reference id="pubmed19962579">
+<accessionId id="acc016" href="info:pmid/19962579" />
+<authors>Shehata N, Palda V, Bowen T, et al.</authors>
+<title>The use of immunoglobulin therapy for patients with primary immune deficiency: An Evidence-Based Practice Guideline.</title>
+<source>Transfusion Med Reviews</source>
+<pubdate>2010</pubdate>
+<volume>24</volume>
+<pages>S28-50.</pages>
+</reference>
+<reference id="pubmed24311479">
+<accessionId id="acc017" href="info:pmid/24311479" />
+<authors>Rubin LG, Levin MJ, Ljungman P, et al.</authors>
+<title>2013 IDSA clinical practice guideline for vaccination in the immunocompromised host.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2014</pubdate>
+<volume>58</volume>
+<pages>e44-100.</pages>
+</reference>
+<reference id="pubmed20095309">
+<accessionId id="acc018" href="info:pmid/20095309" />
+<authors>Wood P; UK Primary Immunodeficiency Network.</authors>
+<title>Primary antibody deficiencies: Recognition, clinical diagnosis and referral of patients.</title>
+<source>Clin Med (Lond)</source>
+<pubdate>2009</pubdate>
+<volume>9</volume>
+<pages>595-599.</pages>
+</reference>
+<reference id="pubmed1959700">
+<accessionId id="acc019" href="info:pmid/1959700" />
+<authors>Law WR, Moriarty MT, McLane MP.</authors>
+<title>Cardiovascular sequelae of endotoxin shock in diabetic dogs.</title>
+<source>Diabetologia</source>
+<pubdate>1991</pubdate>
+<volume>34</volume>
+<pages>687-694.</pages>
+</reference>
+<reference id="pubmed19597006">
+<accessionId id="acc020" href="info:pmid/19597006" />
+<authors>Fried AJ, Bonilla FA.</authors>
+<title>Pathogenesis, diagnosis, and management of primary antibody deficiencies and infections.</title>
+<source>Clin Microbiol Rev</source>
+<pubdate>2009</pubdate>
+<volume>22</volume>
+<pages>396-414.</pages>
+</reference>
+<reference id="pubmed27836059">
+<accessionId id="acc021" href="info:pmid/27836059" />
+<authors>Rosenberg E, Dent PB, Denburg JA.</authors>
+<title>Primary immune deficiencies in the adult: A previously underrecognized common condition.</title>
+<source>J Allergy Clin Immunol Pract</source>
+<pubdate>2016</pubdate>
+<volume>4</volume>
+<pages>1101-1107.</pages>
+</reference>
+<reference id="pubmed29867917">
+<accessionId id="acc022" href="info:pmid/29867917" />
+<authors>Slade CA, Bosco JJ, Binh Giang T, Kruse E, Stirling RG, Cameron PU, Hore-Lacy F, Sutherland MF, Barnes SL, Holdsworth S, Ojaimi S, Unglik GA, De Luca J, Patel M, McComish J, Spriggs K, Tran Y, Auyeung P, Nicholls K, O&#x2019;Hehir RE, Hodgkin PD, Douglass JA, Bryant VL, van Zelm MC.</authors>
+<title>Delayed diagnosis and complications of predominantly antibody deficiencies in a cohort of Australian adults.</title>
+<source>Front Immunol</source>
+<pubdate>2018</pubdate>
+<volume>9</volume>
+<pages>694.</pages>
+</reference>
+<reference id="pubmed22129048">
+<accessionId id="acc023" href="info:pmid/22129048" />
+<authors>Arkwright PD, Gennery AR.</authors>
+<title>Ten warning signs of primary immunodeficiency: A new paradigm is needed for the 21st century.</title>
+<source>Ann N Y Acad Sci</source>
+<pubdate>2011</pubdate>
+<volume>1238</volume>
+<pages>7-14.</pages>
+</reference>
+<reference id="pubmed1912124">
+<accessionId id="acc024" href="info:pmid/1912124" />
+<authors>Kessler C, Kling A.</authors>
+<title>EEG power variation in schizophrenic subgroups: Effects of emotionally salient stimuli.</title>
+<source>Biol Psychiatry</source>
+<pubdate>1991</pubdate>
+<volume>30</volume>
+<pages>335-348.</pages>
+</reference>
+<reference id="pubmed24582312">
+<accessionId id="acc025" href="info:pmid/24582312" />
+<authors>Gathmann B, Mahlaoui N; CEREDIH, G&#x00E9;rard L, Oksenhendler E, Warnatz K, Schulze I, Kindle G, Kuijpers TW; Dutch WID, van Beem RT, Guzman D, Workman S, Soler-Palac&#x00ED;n P, De Gracia J, Witte T, Schmidt RE, Litzman J, Hlavackova E, Thon V, Borte M, Borte S, Kumararatne D, Feighery C, Longhurst H, Helbert M, Szaflarska A, Sediva A, Belohradsky BH, Jones A, Baumann U, Meyts I, Kutukculer N, W&#x00E5;gstr&#x00F6;m P, Galal NM, Roesler J, Farmaki E, Zinovieva N, Ciznar P, Papadopoulou-Alataki E, Bienemann K, Velbri S, Panahloo Z, Grimbacher B; European Society for Immunodeficiencies Registry Working Party.</authors>
+<title>Clinical picture and treatment of 2212 patients with common variable immunodeficiency.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>2014</pubdate>
+<volume>134</volume>
+<pages>116-126.</pages>
+</reference>
+<reference id="bib26_572_1591569583306">
+<accessionId id="acc026" href="info:pmid/31446132" />
+<authors> Marsh RA, Orange JS.</authors>
+<title>Antibody deficiency testing for primary immunodeficiency: A practical review for the clinician.</title>
+<source>Ann Allergy Asthma Immunol</source>
+<pubdate>2019</pubdate>
+<volume>123</volume>
+<pages>444&#x2013;453</pages>
+</reference>
+</References>
+<Web_Sites>
+<Web_Site>
+<Web_Name>Patient and Family Handbook for Primary Immunodeficiency, 5th Edition. Available from</Web_Name>
+<Web_URL>www.primaryimmune.org</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>International Patient Organization for Primary Immunodeficiencies:</Web_Name>
+<Web_URL>info@ipopi.org</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>NIH-NIAID, National Institutes of Health-National Institute of Allergy and Infectious Disease,</Web_Name>
+<Web_URL>www.niaid.nih.gov</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>AAAAI, American Academy of Allergy Asthma and Immunology,</Web_Name>
+<Web_URL>www.aaaai.org</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>Immune Deficiency Foundation,</Web_Name>
+<Web_URL>www.primaryimmune.org</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>Jeffrey Modell Foundation,</Web_Name>
+<Web_URL>www.info4pi.org</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>International Patient Organization for Primary Immunodeficiencies,</Web_Name>
+<Web_URL>www.ipopi.org</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>Primary Immune Deficiencies UK,</Web_Name>
+<Web_URL>http://www.piduk.org/</Web_URL>
+</Web_Site>
+<Web_Site>
+<Web_Name>Canadian Immunodeficiencies Patient Organization,</Web_Name>
+<Web_URL>www.cipo.ca</Web_URL>
+</Web_Site>
+</Web_Sites>
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>793</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Simple Diagnostic Approach to Patient With Suspected Primary Antibody Deficiency.</title>
+<graphic href="eee0895-w0001.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Clinical Factors That May Represent Primary Immunodeficiency.<xref ref="pubmed29744770" resource="acc007" />
+</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">1. 4 or more new ear infections within 1 year</td>
+</tr>
+<tr>
+<td align="left" colspan="1">2. 2 or more serious sinus infections within 1 year</td>
+</tr>
+<tr>
+<td align="left" colspan="1">3. 2 or more months on antibiotics with little effect</td>
+</tr>
+<tr>
+<td align="left" colspan="1">4. 2 or more episodes of pneumonia within 1 year</td>
+</tr>
+<tr>
+<td align="left" colspan="1">5. Failure of an infant to gain weight or grow normally</td>
+</tr>
+<tr>
+<td align="left" colspan="1">6. Recurrent deep skin or organ abscesses</td>
+</tr>
+<tr>
+<td align="left" colspan="1">7. Persistent thrush in mouth or fungal infection on skin</td>
+</tr>
+<tr>
+<td align="left" colspan="1">8. Need IV antibiotics to clear infections</td>
+</tr>
+<tr>
+<td align="left" colspan="1">9. 2 or more deep-seated infections, including septicemia</td>
+</tr>
+<tr>
+<td align="left" colspan="1">10. Family history of PID</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Distinguishing Features of Primary Antibody Deficiencies.<xref ref="pubmed26371839" resource="acc003" />
+<xref ref="pubmed29867917" resource="acc022" />
+<xref ref="pubmed19597006" resource="acc020" />
+</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Primary antibody deficiency diagnosis</th>
+<th align="left" colspan="1">Key distinguishing features</th>
+</tr>
+<tr>
+<td align="left" colspan="1">X-linked agammaglobulinemia (XLA)</td>
+<td align="left" colspan="1">Absent or small tonsils and lymph nodes; enteroviral meningoencephalitis</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Combined variable immunodeficiency (CVID)</td>
+<td align="left" colspan="1">Generalized lymphadenopathy; splenomegaly; autoimmunity, e.g., inflammatory arthritis, enteropathy, cytopenia; granulomatous disease</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Selective IgA deficiency</td>
+<td align="left" colspan="1">Allergic rhinitis, asthma, enteropathy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Other shared manifestations</td>
+<td align="left" colspan="1">Failure to thrive in children; clubbing and abnormal breath sounds associated with bronchiectasis, pneumonia, and lung fibrosis (XLA, CVID); malignancy in solid organ or lymphoma</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

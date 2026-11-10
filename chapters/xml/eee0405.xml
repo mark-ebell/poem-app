@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Rhabdomyolysis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0405</topic_id>
+<topic_comment />
+<topic_lastupdated>01/24/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Allison Holley, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Florida Atlantic University Schmidt College of Medicine</author_institution>
+<author_email>holleya&#x0040;health.fau.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Boca Raton</author_city>
+<author_state>FL</author_state>
+<author_zip>33431</author_zip>
+</author>
+<author primary="no">
+<author_name>Chad A. Asplund, MD</author_name>
+<author_title>Sports Medicine Coordinator</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Eisenhower Army Medical Center</author_institution>
+<author_email>chad.asplund&#x0040;us.army.mil</author_email>
+<author_phone_office>(706) 787-9355</author_phone_office>
+<author_phone_home />
+<author_phone_fax>(706) 787-9356</author_phone_fax>
+<author_street1>300 Hospital Drive</author_street1>
+<author_street2 />
+<author_city>Fort Gordon</author_city>
+<author_state>GA</author_state>
+<author_zip>30905</author_zip>
+</author>
+<author primary="no">
+<author_name>Brock A. Benedict, DO</author_name>
+<author_title>Family Physician</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Blanchfield Army Community Hospital</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Fort Campbell</author_city>
+<author_state>KY</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Early recognition of rhabdomyolysis is essential to prevent acute renal failure (ARF). <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>The classic triad of rhabdomyolysis consists of myalgias, generalized weakness, and darkened urine; however, only 50&#x0025; of patients present with this triad. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Serum creatine kinase (CK) &#x003E;5 times normal is most sensitive indicator. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Best predictors of ARF are elevated serum creatinine (Cr) and BUN; in a series of 100, there was no ARF if Cr was &lt;1.7 mg&#x002F;dL. <evidence rating="B" system="SORT"> B </evidence></listitem>
+<listitem>Aggressive IV hydration to ensure urine output of 300 ml&#x002F;hour is the cornerstone of treatment. <evidence rating="C" system="SORT"> C </evidence></listitem>
+<listitem>Available evidence suggests that mannitol and bicarbonate have no benefit over and above aggressive fluid resuscitation. <evidence rating="C" system="SORT"> C </evidence></listitem>
+</list>
+</BottomLine>
+<definition>Rhabdomyolysis is disintegration or dissolution of striated muscle, which leads to highly elevated levels of muscle enzymes in the blood stream and can in some cases lead to renal failure. Most studies define it as a CK 5 times the upper limit of normal.<xref ref="pubmed27301374" resource="acc016" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>26,000 cases in U.S. per year</listitem>
+<listitem>0.44 cases per 10,000 person years for monotherapy with atorvastatin, pravastatin, or simvastatin (95&#x0025; CI, 0.20-0.84)</listitem>
+<listitem>5.34 cases per 10,000 person years for cervistatin (95&#x0025; CI, 1.46-13.68)</listitem>
+<listitem>5.98 cases per 10,000 person years for combination therapy of statin plus fibrate (95&#x0025; CI, 0.72-216.0)</listitem>
+<listitem>1035 cases per 10,000 person years for cervistatin plus fibrate (95&#x0025; CI, 389-2117)<xref ref="pubmed15572716" resource="acc010" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>No comprehensive data are available on prevalence of rhabdomyolysis.</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>The number needed to treat to harm (NNTH) for 5 years with statin monotherapy to observe 1 case of rhabdomyolysis is 5680.<xref ref="pubmed15572716" resource="acc010" /></listitem>
+<listitem>Sixty percent of cases of statin-related rhabdomyolysis are attributed to drug-drug interactions.<xref ref="pubmed12441888" resource="acc006" /> Drug-drug interactions commonly causing rhabdomyolysis include statin+fibrates, cyclosporines, macrolide antibiotics, warfarin, or digoxin.<xref ref="pubmed12672737" resource="acc005" /></listitem>
+<listitem>The frequency of statin induced rhabdomyolysis is &lt;0.1&#x0025;. However, 10&#x0025; of patients stop their statins due to muscle complaints even though evidence does not show that statins are the cause. <xref ref="pubmed30580575" resource="acc012" /></listitem>
+<listitem>A systematic review of case reports and case series identified 43 publications with 345 individuals with exertional rhabomyolysis, of whom 16&#x0025; developed acute kidney injury (AKI). Almost all with AKI (97&#x0025;) were ultraendurance runners.<xref ref="pubmed32202487" resource="acc018" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Of these, the three most likely causes are trauma, immobilization, and sepsis.</listitem>
+<listitem>Alcohol abuse (especially intoxication with immobilization).</listitem>
+<listitem>Muscle overexertion or compression.</listitem>
+<listitem>Medications (statins). A network meta-analysis identified 24 RCTs of statins to evaluate the association between statin dose and muscle problems. Compared to moderate intensity statins, high intensity statins were more likely to be associated. with any muscle problem (RR 1.04, 95&#x0025; CI, 1.0-1.07, I<sup>2</sup> &#x003D; 0&#x0025;), myalgia (RR 1.04, 95&#x0025; CI, 1.0-1.08, I<sup>2 </sup>&#x003D; 0&#x0025;, NNH &#x003D; 173), leaving the study due to muscle problems (RR 1.37, 95&#x0025; CI, 1.09-1.73, I<sup>2 </sup>&#x003D; 0&#x0025;, NNH &#x003D; 218), and elevated creatine kinase (RR 5.4, 95&#x0025; CI, 2.5-11.6, I<sup>2 </sup>&#x003D; 7&#x0025;, NNH &#x003D; 589).<xref ref="pubmed34130955" resource="acc019" /></listitem>
+<listitem>Illicit drugs (cocaine).</listitem>
+<listitem>Hyperthermia: malignant hyperthermia, neuroleptic malignant syndrome.</listitem>
+<listitem>Metabolic disorders: hyperosmolar coma, ketoacidosis, hypokalemia.</listitem>
+<listitem>Toxins: snake and insect venom, carbon monoxide, mushroom poisoning.</listitem>
+<listitem>Myopathy: congenital muscle enzyme deficiency.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Muscle injury results in cascade of events that leads to leakage of calcium ions into the intracellular space, causing a pathologic interaction between actin and myosin, leading to muscle destruction.</listitem>
+<listitem>Muscle damage leads to release of muscle breakdown products, notably myoglobin and muscle enzymes into the plasma.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Sickle cell trait + exertion</Risk_Name>
+<Risk_OR>Hazard Ratio (HR) 1.54 (1.12-2.12)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Statin use in patients &#x003E;65 years of age</Risk_Name>
+<Risk_OR>Odds Ratio (OR) 4.36 (1.5-14.1)</Risk_OR>
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Renal disease + statin</Risk_Name>
+<Risk_OR>Odds Ratio (OR) 6.26 (0.46-63.38)</Risk_OR>
+</Risk_Factor>
+<Risk_Factors_Ref>
+<xref ref="pubmed30383109" resource="acc014" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Early recognition of rhabdomyolysis is essential to prevent acute renal failure. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15672329" resource="acc004" /></listitem>
+<listitem>The classic triad of rhabdomyolysis consists of myalgias, generalized weakness, and darkened urine; however, only 50&#x0025; of patients present with this triad. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed717989" resource="acc003" /></listitem>
+<listitem>Serum CK &#x003E;5 times the upper limit of normal is the most sensitive indicator.<xref ref="pubmed27301374" resource="acc016" />
+<evidence rating="C" system="SORT"> C </evidence>
+<xref ref="pubmed11026512" resource="acc002" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>The classic triad of rhabdomyolysis consists of myalgias, generalized weakness, and darkened urine; however, only 50&#x0025; of patients present with this triad.</listitem>
+<listitem>Most frequently involved muscles are generally proximal muscles such as shoulders, thighs, calves and lower back.</listitem>
+<listitem>General manifestations include malaise, fever, tachycardia, nausea, and vomiting.</listitem>
+<listitem>In most cases, the history reflects an inciting cause, such as alcohol use and unresponsiveness, agitation, illicit drug use, polypharmacy, or heat stroke.</listitem>
+<listitem>Physical signs that should alert physicians to the possibility of rhabdomyolysis are pressure necrosis of skin, multiple trauma or crush injury, increased muscle tone.</listitem>
+<listitem>Physical exam may demonstrate muscle rigidity, muscle weakness, muscle swelling and tenderness, fevers, and&#x002F;or vomiting.</listitem>
+<listitem>Pain with passive movement is associated with compartment syndrome.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Adult Treatment Panel III Guidelines recommend that a baseline CK measurements should be obtained upon starting statin therapy.<xref ref="pubmed11368702" resource="acc008" /> Obtain a CK measurement if patient reports muscle symptoms suggestive of rhabdomyolysis and compare to baseline CK measurement.<xref ref="pubmed12021218" resource="acc007" /> However, the usefulness of routine baseline CK measurement and frequent CK monitoring on patients on statins has been debated, and the evidence is inconclusive but it may be helpful. <xref ref="pubmed12639201" resource="acc013" /></listitem>
+<listitem>Serum CK &#x003E;5 times the upper limit of normal is most sensitive indicator.<xref ref="pubmed11026512" resource="acc002" /></listitem>
+<listitem>Plasma myoglobin measurements are not reliable because the half-life of myoglobin is 1 to 3 hours, and myoglobin is cleared within 6 hours.</listitem>
+<listitem>Urine myoglobin is presumed if the urine is positive for blood but negative for red blood cells.</listitem>
+<listitem>Hyperkalemia, hyperphosphatemia, or hypocalcemia may be associated with rhabdomyolysis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for recommended approach to the patient with rhabdomyolysis.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Aggressive IV hydration to ensure urine output of 300 cc&#x002F;hour is the cornerstone of treatment. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="guideline11043" resource="acc022" /></listitem>
+<listitem>Available evidence suggests that mannitol and bicarbonate have no benefit over aggressive fluid resuscitation. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed7573008" resource="acc001" />
+<xref ref="pubmed23324509" resource="acc011" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Guidelines for the prevention of acute kidney injury (AKI) in patients with rhabdomyolysis was developed by the Danish Society of Intensive Care Medicine (DSIT) and the Danish Society of Anesthesia and Intensive Care Medicine (DASAIM). They emphasize the overall low quality of evidence. Specific recommendations include using early fluid resuscitation with crystalloids over late resuscitation or use of colloids. They also recommend against the routine use of loop diuretics or mannitol.<xref ref="pubmed30644084" resource="acc020" /></listitem>
+<listitem>A <resourceLink href="https://www.east.org/education-resources/practice-management-guidelines/details/management-of-rhabdomyolysis">guideline from the Eastern Association for the Surgery of Trauma</resourceLink> identified 12 studies to inform their guideline. They recommend aggressive IV fluid resuscitation as the cornerstone of therapy to reduce the incidence of acute renal failure (RR 0.33, 95&#x0025; CI 0.14-0.77) but based on only 2 studies with 64 patients. Aggressive IV fluids also reduced the risk of dialysis (RR 0.21, 95&#x0025; CI 0.06-0.72) based on 3 studies with 106 patients. Bicarbonate did not reduce the incidence of acute renal failure (5 studies) or dialysis (4 studies). Mannitol similarl did not reduce the inidence of acute renal failure (3 studies) or dialysis (2 studies).</listitem>
+<listitem>Aggressive IV hydration to ensure urine output of 250 to 300 cc&#x002F;hour is the cornerstone of therapy. Based on expert opinion and limited trial data fluids should be administered at 400 ml&#x002F;hour or 4 to 8 liters&#x002F;day, adjusted based on urine output.<xref ref="pubmed27532656" resource="acc015" />
+<xref ref="pubmed27301374" resource="acc016" /> One small study found a benefit to LR over normal saline but no clinical outcomes were reported in the study.<xref ref="pubmed17384382" resource="acc009" /></listitem>
+<listitem>A systematic review of case series and case reports of exertional rhabdomyolysis in athletes found that most commonly they gave early IV fluid replacement at a rate of 400 ml&#x002F;hour.<xref ref="pubmed27532656" resource="acc015" /></listitem>
+<listitem>Urine alkalinization with bicarbonate infusion has traditionally been recommended, as well as diuresis with furosemide. Available evidence suggests that mannitol and bicarbonate have no benefit over aggressive fluid resuscitation although studies are limited.<xref ref="pubmed27301374" resource="acc016" />
+<xref ref="pubmed7573008" resource="acc001" />
+<xref ref="pubmed23324509" resource="acc011" /> Danish guidelines (2019) also recommend against urine alkalinization and use of mannitol.<xref ref="pubmed30644084" resource="acc020" /></listitem>
+<listitem>Renal replacment therapy (RRT) when indicated in consultation with nephrology. A recent study developed a model to predict when RRT may be indicated.<xref ref="pubmed33714053" resource="acc017" /> However, a Cochrane review found insufficient evidence for the efficacy of continuous RRT (CRRT) over standard care and prevention of AKI due to rhabdomyolysis. <xref ref="cochrane8566" resource="acc021" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>If compartment syndrome is present, fasciotomy may be indicated.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Treat until serum CK plateaus and begins to fall; serum creatinine is consistently below 1.7 mg&#x002F;dl; and potassium, phosphate, and uric acid are within normal limits.</listitem>
+<listitem>Patient may be discharged when above criteria met and able to orally hydrate.</listitem>
+<listitem>Patient may gradually return to activity once CK &lt;700, serum creatinine &lt;1.4 mg&#x002F;dl, and symptom free.<xref ref="guideline11043" resource="acc022" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>In the absence of signs of nephrotoxicity, urinary casts&#x002F;cells, urinary myoglobin, or metabolic abnormalities, patients may be treated as outpatients.</listitem>
+<listitem>Any patient with elevated potassium, phosphate, or uric acid levels should be hospitalized.</listitem>
+<listitem>Admission to the ICU should be considered in elderly patients or those with comorbid cardiovascular disease or preexisting renal dysfunction.</listitem>
+<listitem>Patients with CK &#x003E;5-10 times the upper limit of normal are usually admitted to hospital.<xref ref="guideline11043" resource="acc022" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Compartment syndrome: orthopedics consultation</listitem>
+<listitem>Renal failure: nephrology consultation</listitem>
+<listitem>Hyperkalemia: give kayexalate</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Best predictors of acute renal failure (ARF) are elevated serum creatinine and BUN; in a series of 100, no ARF if serum creatinine &lt;1.7 mg&#x002F;dL. <evidence rating="B" system="SORT"> B </evidence>
+<xref ref="pubmed15672329" resource="acc004" /></listitem>
+<listitem>Prognosis is good even in cases where renal failure has developed. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="guideline11043" resource="acc022" /></listitem>
+<listitem>If discharged from hospitalized with CKs that are above normal limit, patient should be checked for serum CK every 24 to 72 hours until in normal range. <evidence rating="C" system="SORT"> C </evidence>
+<xref ref="guideline11043" resource="acc022" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Older patients are at higher risk.<xref ref="pubmed15572716" resource="acc010" /></listitem>
+<listitem>May consider admission to ICU in older patients with coexisting cardiac or existing renal disease.</listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed7573008">
+<accessionId id="acc001" href="info:pmid/7573008" />
+<authors>Conger JD.</authors>
+<title>Interventions in clinical acute renal failure: What are the data?</title>
+<source>Am J Kidney Dis</source>
+<pubdate>1995</pubdate>
+<volume>26</volume>
+<pages>565-576.</pages>
+</reference>
+<reference id="pubmed11026512">
+<accessionId id="acc002" href="info:pmid/11026512" />
+<authors>Beetham R.</authors>
+<title>Biochemical investigation of suspected rhabdomyolysis.</title>
+<source>Ann Clin Biochem</source>
+<pubdate>2000</pubdate>
+<volume>37</volume>
+<pages>581-587.</pages>
+</reference>
+<reference id="pubmed717989">
+<accessionId id="acc003" href="info:pmid/717989" />
+<authors>Akmal M, Goldstein DA, Telfer N, Wilkinson E, Massry SG.</authors>
+<title>Resolution of muscle calcification in rhabdomyolysis and acute renal failure.</title>
+<source>Ann Intern Med</source>
+<pubdate>1978</pubdate>
+<volume>89</volume>
+<pages>928-930.</pages>
+</reference>
+<reference id="pubmed15672329">
+<accessionId id="acc004" href="info:pmid/15672329" />
+<authors>Fernandez WG, Hung O, Bruno GR, Galea S, Chiang WK.</authors>
+<title>Factors predictive of acute renal failure and need for hemodialysis among ED patients with rhabdomyolysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2005</pubdate>
+<volume>23</volume>
+<pages>1-7.</pages>
+</reference>
+<reference id="pubmed12672737">
+<accessionId id="acc005" href="info:pmid/12672737" />
+<authors>Thompson PD, Clarkson P, Karas RH.</authors>
+<title>Statin-associated myopathy.</title>
+<source>JAMA</source>
+<pubdate>2003</pubdate>
+<volume>289</volume>
+<pages>1681-1690.</pages>
+</reference>
+<reference id="pubmed12441888">
+<accessionId id="acc006" href="info:pmid/12441888" />
+<authors>Bolego C, Baetta R, Bellosta S, Corsini A, Paoletti R.</authors>
+<title>Safety considerations for statins.</title>
+<source>Curr Opin Lipidol</source>
+<pubdate>2002</pubdate>
+<volume>13</volume>
+<pages>637-644.</pages>
+</reference>
+<reference id="pubmed12021218">
+<accessionId id="acc007" href="info:pmid/12021218" />
+<authors>Pfeffer MA, Keech A, Sacks FM, et al.</authors>
+<title>Safety and tolerability of pravastatin in long-term clinical trials: Prospective Pravastatin Pooling (PPP) Project.</title>
+<source>Circulation</source>
+<pubdate>2002</pubdate>
+<volume>105</volume>
+<pages>2341-2346.</pages>
+</reference>
+<reference id="pubmed11368702">
+<accessionId id="acc008" href="info:pmid/11368702" />
+<authors>Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults.</authors>
+<title>Executive summary of the third report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, And Treatment of High Blood Cholesterol In Adults (Adult Treatment Panel III).</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>285</volume>
+<pages>2486-2497.</pages>
+</reference>
+<reference id="pubmed17384382">
+<accessionId id="acc009" href="info:pmid/17384382" />
+<authors>Cho YS, Lim H, Kim SH.</authors>
+<title>Comparison of lactated Ringer's solution and 0.9&#x0025; saline in the treatment of rhabdomyolysis induced by doxylamine intoxication.</title>
+<source>Emerg Med J</source>
+<pubdate>2007</pubdate>
+<volume>24</volume>
+<pages>276&#x2013;280</pages>
+</reference>
+<reference id="pubmed15572716">
+<accessionId id="acc010" href="info:pmid/15572716" />
+<authors>Graham DJ, Staffa JA, Shatin D, et al.</authors>
+<title>Incidence of hospitalized rhabdomyolysis in patients treated with lipid-lowering drugs.</title>
+<source>JAMA</source>
+<pubdate>2004</pubdate>
+<volume>292</volume>
+<pages>2585-2590.</pages>
+</reference>
+<reference id="pubmed23324509">
+<accessionId id="acc011" href="info:pmid/23324509" />
+<authors>Scharman EJ, Troutman WG.</authors>
+<title>Prevention of kidney injury following rhabdomyolysis: a systematic review.</title>
+<source>Ann Pharmacother</source>
+<pubdate>2013</pubdate>
+<volume>47</volume>
+<pages>90&#x2013;105</pages>
+</reference>
+<reference id="pubmed30580575">
+<accessionId id="acc012" href="info:pmid/30580575" />
+<authors>Newman CB, Preiss D, Tobert JA, Jacobson TA, Page RL 2nd, Goldstein LB, Chin C, Tannock LR, Miller M, Raghuveer G, Duell PB, Brinton EA, Pollak A, Braun LT, Welty FK, American Heart Association Clinical Lipidology, Lipoprotein, Metabolism and Thrombosis Committee, a Joint Committee of the Council on Atherosclerosis, Thrombosis and Vascular Biology and Council on Lifestyle and Cardiometabolic Health; Council on Cardiovascular Disease in the Young; Council on Clinical Cardiology; and Stroke Council.</authors>
+<title>Statin Safety and Associated Adverse Events: A Scientific Statement From the American Heart Association.</title>
+<source>Arterioscler. Thromb. Vasc. Biol.</source>
+<pubdate>2019</pubdate>
+<volume>39</volume>
+<pages>e38&#x2013;e81</pages>
+</reference>
+<reference id="pubmed12639201">
+<accessionId id="acc013" href="info:pmid/12639201" />
+<authors>Smith CC, Bernstein LI, Davis RB, Rind DM, Shmerling RH.</authors>
+<title>Screening for statin-related toxicity: The yield of transaminase and creatine kinase measurements in a primary care setting.</title>
+<source>Arch. Intern. Med.</source>
+<pubdate>2003</pubdate>
+<volume>163</volume>
+<pages>688&#x2013;692</pages>
+</reference>
+<reference id="pubmed30383109">
+<accessionId id="acc014" href="info:pmid/30383109" />
+<authors>Naik RP, Smith-Whitley K, Hassell KL, Umeh NI, de Montalembert M, Sahota P, Haywood C Jr, Jenkins J, Lloyd-Puryear MA, Joiner CH, Bonham VL, Kato GJ.</authors>
+<title>Clinical outcomes associated with sickle cell trait: A systematic review.</title>
+<source>Ann. Intern. Med.</source>
+<pubdate>2018</pubdate>
+<volume>169</volume>
+<pages>619&#x2013;627</pages>
+</reference>
+<reference id="pubmed27532656">
+<accessionId id="acc015" href="info:pmid/27532656" />
+<authors>Manspeaker S, Henderson K, Riddle D.</authors>
+<title>Treatment of exertional rhabdomyolysis in athletes: A systematic review.</title>
+<source>JBI Database System Rev Implement Rep</source>
+<pubdate>2016</pubdate>
+<volume>14</volume>
+<pages>117&#x2013;147</pages>
+</reference>
+<reference id="pubmed27301374">
+<accessionId id="acc016" href="info:pmid/27301374" />
+<authors>Chavez LO, Leon M, Einav S, Varon J.</authors>
+<title>Beyond muscle destruction: A systematic review of rhabdomyolysis for clinical practice.</title>
+<source>Crit Care</source>
+<pubdate>2016</pubdate>
+<volume>20</volume>
+<pages>135</pages>
+</reference>
+<reference id="pubmed33714053">
+<accessionId id="acc017" href="info:pmid/33714053" />
+<authors>Liu C, Yuan Q, Mao Z, Hu P, Wu R, Liu X, Hong Q, Chi K, Geng X, Sun X.</authors>
+<title>Development and validation of a model for the early prediction of the RRT requirement in patients with rhabdomyolysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>46</volume>
+<pages>38&#x2013;44</pages>
+</reference>
+<reference id="pubmed32202487">
+<accessionId id="acc018" href="info:pmid/32202487" />
+<authors>Rojas-Valverde D, S&#x00E1;nchez-Ure&#x00F1;a B, Crowe J, Tim&#x00F3;n R, Olcina GJ.</authors>
+<title>Exertional rhabdomyolysis and acute kidney injury in endurance sports: A systematic review.</title>
+<source>Eur J Sport Sci</source>
+<pubdate>2021</pubdate>
+<volume>21</volume>
+<pages>261&#x2013;274</pages>
+</reference>
+<reference id="pubmed34130955">
+<accessionId id="acc019" href="info:pmid/34130955" />
+<authors>Davis JW, Weller SC.</authors>
+<title>Intensity of statin therapy and muscle symptoms: A network meta-analysis of 153 000 patients.</title>
+<source>BMJ Open</source>
+<pubdate>2021</pubdate>
+<volume>11</volume>
+<pages>e043714</pages>
+</reference>
+<reference id="pubmed30644084">
+<accessionId id="acc020" href="info:pmid/30644084" />
+<authors>Michelsen J, Cordtz J, Liboriussen L, Behzadi MT, Ibsen M, Damholt MB, M&#x00F8;ller MH, Wiis J.</authors>
+<title>Prevention of rhabdomyolysis-induced acute kidney injury - A DASAIM&#x002F;DSIT clinical practice guideline.</title>
+<source>Acta Anaesthesiol Scand</source>
+<pubdate>2019</pubdate>
+<volume>63</volume>
+<pages>576&#x2013;586</pages>
+</reference>
+<reference id="cochrane8566">
+<accessionId id="acc021" href="info:wiley/cochrane/CD008566" />
+<chapter_authors>Zeng X, Zhang L, Wu T, Fu P.</chapter_authors>
+<chapter_title>Continuous renal replacement therapy (CRRT) for rhabdomyolysis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 6. Art. No.: CD008566. DOI: 10.1002&#x002F;14651858.CD008566.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="guideline11043">
+<accessionId id="acc022" href="info:wiley/eep-guideline/11043" />
+<citation>Rhabdomyolysis.</citation>
+<url>http://www.ncbi.nlm.nih.gov/pubmed/17581454</url>
+<organization>FMS</organization>
+<longtitle />
+<title />
+<dateguideline>6&#x002F;16&#x002F;2004</dateguideline>
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>051</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Patient with Suspected Rhabdomyolysis: Evaluation.</title>
+<graphic href="eee0405-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected rhabdomyolysis. Serum CK &#x003E;5x normal?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Urine myoglobin present?</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Rhabdomyolysis unlikely.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Rhabdomyolysis.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>IV hydration to ensure urine output &#x003E;250 cc&#x002F;h.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Compartment syndrome?</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Renal failure?</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Electrolyte abnormalities?</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Orthopedic consult.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Nephrology consult.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Carefully correct any electrolyte abnormalities.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

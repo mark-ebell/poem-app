@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Retinal detachment</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0538</topic_id>
+<topic_comment />
+<topic_lastupdated>02/09/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Thomas J. Federici, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Ophthalmology</author_department>
+<author_institution>University of South Carolina</author_institution>
+<author_email>tfederici&#x0040;gmail.com</author_email>
+<author_phone_office>803-434-7699</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>4 Medical Park</author_street1>
+<author_street2>Suite 300</author_street2>
+<author_city>Columbia</author_city>
+<author_state>SC</author_state>
+<author_zip>29203</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Steven R. Brown, MD, FAAFP</editor_name>
+<editor_title>Program Director and Professor</editor_title>
+<editor_institution>University of Arizona College of Medicine &#x2013; Phoenix Family Medicine Residency</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>A patient with flashes, floaters, or a curtain&#x002F;veil over their vision should be referred urgently to an ophthalmologist. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Rhegmatogenous retinal detachment (RD) is the most common type and is due to a full-thickness break in the retina. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18054633" resource="acc012" /></listitem>
+<listitem>Surgical interventions include pneumatic retinopexy, pars plana vitrectomy, and scleral buckle. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9440187" resource="acc011" /><xref ref="pubmed18054633" resource="acc012" /></listitem>
+<listitem>Patients with macula involvement may have limited final visual acuity. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18303159" resource="acc010" /></listitem>
+<listitem>Despite successful repair, proliferative vitreoretinopathy can cause redetachment and subsequent vision loss. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed7899716" resource="acc009" /></listitem>
+</list>
+</BottomLine>
+<definition>A retinal detachment is a separation of the neurosensory retina from the retinal pigmented epithelium (RPE). RDs can be rhegmatogenous, tractional, or exudative (serous).</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>All rhegmatogenous RD: 17.9 per 100,000 persons.</listitem>
+<listitem>Idiopathic rhegmatogenous RD: 12.6 per 100,000 persons.</listitem>
+<listitem>Traumatic rhegmatogenous RD: 1.3 per 100,000 persons.<xref ref="pubmed9917797" resource="acc008" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Rhegmatogenous RD: most common type, may be due to posterior vitreous detachment or trauma.</listitem>
+<listitem>Tractional RD: caused by diabetic retinopathy, proliferative vitreoretinopathy, penetrating trauma, or retinopathy of prematurity.</listitem>
+<listitem>Exudative RD: rare; may be due to choroidal&#x002F;retinal neoplasms, inflammatory conditions, malignant hypertension, or toxemia of pregnancy.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>In all forms of RD, accumulation of fluid occurs within the potential space between the neurosensory retina and the RPE, which compromises the normal physiologic forces causing retinal adherence: RPE pump, osmotic pressure of the choroid, and mechanical forces of photoreceptor matrix.</listitem>
+<listitem>Rhegmatogenous RD: 1 or more full thickness retinal breaks allows liquefied vitreous gel to enter the subretinal space.</listitem>
+<listitem>Tractional RD: fibroproliferative tissue contraction lifts the retina off of the RPE.</listitem>
+<listitem>Exudative (serous): fluid accumulates beneath the retina due to diseases of the RPE and&#x002F;or choroid without the presence of a retinal break or tractional forces.</listitem>
+<listitem>The use of oral fluoroquinolones is associated with an increased risk of retinal detachment. NNTH &#x003D; 2500, hazard ratio 4.5.<xref ref="poem140621" resource="acc013" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Male gender</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hereditary vitreoretinopathies</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Myopia</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Lattice degeneration</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cystic retinal tuft</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Degenerative retinoschisis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Retinal breaks</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Aphakia&#x002F;pseudophakia</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Nd:YAG posterior capsulotomy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cytomegalovirus retinitis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Acute retinal necrosis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Fellow-eye nontraumatic RD</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Patients with a history of high myopia or RD should be evaluated yearly or more frequently at the discretion of an ophthalmologist. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients with flashing lights, floaters, or curtain&#x002F;veil over vision should be referred urgently to an ophthalmologist. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Anterior vitreous pigment and&#x002F;or vitreous hemorrhage in a symptomatic patient should raise suspicion of disease. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11049952" resource="acc006" /><xref ref="pubmed1945310" resource="acc007" /></listitem>
+<listitem>Careful scleral depressed examination should be performed to evaluate for subretinal fluid and to determine the location of the retinal break. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Careful examination of the macula should be done to determine if it is attached or detached as it affects prognosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Posterior vitreous detachment</Differential_Name>
+<Differential_Features>Translucent or near opaque vitreous debris is seen; retina is flat.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Choroidal detachment</Differential_Name>
+<Differential_Features>Retina may appear elevated without no signs of retinal break; the elevation is smooth and dome shaped.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Vitreous hemorrhage</Differential_Name>
+<Differential_Features>Blood is seen in vitreous cavity; the retina appears flat on dilated examination.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Retinal tear</Differential_Name>
+<Differential_Features>Retina may have no more than 2 to 3 optic disc areas of subretinal fluid present.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Retinal hole</Differential_Name>
+<Differential_Features>Round hole is seen in retina; retina is attached.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Lattice degeneration of the retina</Differential_Name>
+<Differential_Features>Pigmented lines following vessels are refractile; retina is flat.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Retinoschisis</Differential_Name>
+<Differential_Features>Split of inner from outer retina is seen with refractile inner retina and involvement of inferotemporal quadrant.</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Common symptoms include flashes of light (photopsia), floaters, and a curtain&#x002F;veil over vision. Any patient with these symptoms should be referred urgently to an ophthalmologist.</listitem>
+<listitem>Risk factors include a history of eye trauma, myopia, cataract surgery, lattice degeneration, and a history of RD in the other eye.</listitem>
+<listitem>Visual acuity may be decreased if macula is involved or vitreous hemorrhage is obscuring visual axis. Also intraocular pressure may be lower than in the fellow eye.</listitem>
+<listitem>The vitreous may be filled with pigment granules or red blood cells, and a posterior vitreous detachment may be seen.<xref ref="pubmed11049952" resource="acc006" /><xref ref="pubmed1945310" resource="acc007" /></listitem>
+<listitem>The retina will appear elevated and a retinal break within the retina may be seen with or without the aide of scleral depressed examination.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>If the view to the retina is obscured by a corneal scar, dense cataract, or vitreous hemorrhage, then b-scan ultrasonography can be performed to evaluate for a RD.</listitem>
+<listitem>Optical coherence tomography may help demonstrate the degree of macular involvement in a RD, particularly if there is only shallow subretinal fluid.</listitem>
+<listitem>Point of care ultrasound (POCUS) may be useful is the diagnosis of retinal detachment. <xref ref="pubmed26973752" resource="acc017" /><xref ref="pubmed30977855" resource="acc016" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>A patient complaining of flashing lights, floaters, and&#x002F;or a curtain or veil over their vision requires urgent evaluation by an ophthalmologist.</listitem>
+<listitem>Visual acuity can help determine if the macula is detached or attached.</listitem>
+<listitem>Intraocular pressure in the affected eye may be lower than in the fellow eye but is not diagnostic.</listitem>
+<listitem>Dilated examination includes noting the presence of vitreous pigment granules and&#x002F;or blood, looking at the extent of the detachment, determination of the macula's involvement, and identifying a retinal break.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Only tractional and rhegmatogenous RDs are treated surgically.</listitem>
+<listitem>Scleral buckle and pars plana vitrectomy techniques can be used successfully in both rhegmatogenous and tractional RDs. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18054633" resource="acc012" /></listitem>
+<listitem>Pneumatic retinopexy should be reserved for simple rhegmatogenous RD due to a retinal break above the horizontal meridian in a cooperative patient. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9440187" resource="acc011" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug />
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgical intervention is recommended for rhegmatogenous or tractional RDs only. Exudative detachments require treatment of the underlying disease in order to bring about resolution.</listitem>
+<listitem>Pneumatic retinopexy is used in rhegmatogenous RD in which the retinal break is above the horizontal meridian. A gas bubble is injected intravitreously into the eye, and the patients position their head to maximally place the bubble over the retinal break. Retinal cryopexy or laser photocoagulation is then placed.<xref ref="pubmed9440187" resource="acc011" /></listitem>
+<listitem>In phakic patients, scleral buckling results in statistically significant better postoperative visual acuity at 1 year with less progression of cataractous lens changes. In pseudophakic patients, pars plana vitrectomy results in greater primary anatomical success and in fewer additional procedures.<xref ref="pubmed17011954" resource="acc005" /></listitem>
+<listitem>Pars plana vitrectomy is used in both tractional and rhegmatogenous RD. The subretinal fluid is drained, and tractional elements are removed with intraocular forceps. Laser or cryoretinopexy is then performed on all retinal breaks.<xref ref="pubmed18054633" resource="acc012" /></listitem>
+<listitem>Pars plana vitrectomy is effective for tractional retinal detachment in people with diabetes. <xref ref="pubmed36633878" resource="acc018" /></listitem>
+<listitem>Scleral buckle can be used primarily on rhegmatogenous RD and adjunctively on tractional RD. A silicone band and&#x002F;or tire is wrapped around the sclera running beneath the extraocular muscles and positioned to support the retinal break and the vitreous base.<xref ref="pubmed18054633" resource="acc012" /></listitem>
+<listitem>There is no evidence to support prophylactic surgical treatment of the fellow eye in a patient with unilateral giant retinal tears.<xref ref="cochrane6909" resource="acc014" /></listitem>
+<listitem>There is insufficient evidence to support surgical repair of retinal breaks or lattice degeneration to prevent retinal detachment.<xref ref="cochrane3170" resource="acc015" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Patients complaining of flashes, floaters, or curtain&#x002F;veil over their vision should be referred promptly to an ophthalmologist or vitreoretinal specialist for urgent evaluation.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>If left untreated, RD can lead to blindness due to macular involvement, neovascular glaucoma, cyclitic membrane formation, and phthisis bulbi. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18303159" resource="acc010" /></listitem>
+<listitem>The macula status is critical to overall prognosis. Macula-on RD fair better visually. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18303159" resource="acc010" /></listitem>
+<listitem>Despite successful repair, 5&#x0025; to 10&#x0025; of patients develop proliferative vitreoretinopathy, which may reduce visual acuity and further damage the retina. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed7899716" resource="acc009" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>One percent of patients who develop severe hypertension, proteinuria, and edema in the third trimester develop exudative RD.</listitem>
+<listitem>This usually occurs just before or immediately following delivery; the exact cause is unknown.</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>RD in children can be due to congenital ocular abnormalities, trauma, previous ophthalmologic surgery, or preceding uveitis.<xref ref="pubmed13129866" resource="acc004" /></listitem>
+<listitem>Retinopathy of prematurity can lead to the development of RD. Babies born less than 31 weeks' gestational age and&#x002F;or weighing less than 1500 g are at risk for developing ROP and are routinely screened.<xref ref="pubmed16452383" resource="acc003" /></listitem>
+<listitem>ROP progresses in stages that can be treated if monitored closely using laser photocoagulation or cryotherapy.<xref ref="pubmed14662586" resource="acc001" /><xref ref="pubmed15767472" resource="acc002" /></listitem>
+<listitem>RD can occur despite treatment or if left untreated; treatment requiring surgical intervention utilizes pars plana vitrectomy techniques and&#x002F;or scleral buckle techniques.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed14662586">
+<accessionId id="acc001" href="info:pmid/14662586" />
+<authors>Early Treatment for Retinopathy of Prematurity Cooperative Group.</authors>
+<title>Revised indications for the treatment of retinopathy of prematurity: Results of the early treatment for retinopathy of prematurity randomized trial.</title>
+<source>Arch Ophthalmol</source>
+<pubdate>2003</pubdate>
+<volume>121</volume>
+<pages>1684&#x2013;1694.</pages>
+</reference>
+<reference id="pubmed15767472">
+<accessionId id="acc002" href="info:pmid/15767472" />
+<authors>Palmer EA, Hardy RJ, Dobson V, et al.</authors>
+<title>15-year outcomes following threshold retinopathy of prematurity: Final results from the multicenter trial of cryotherapy for retinopathy of prematurity.</title>
+<source>Arch Ophthalmol</source>
+<pubdate>2005</pubdate>
+<volume>123</volume>
+<pages>311&#x2013;318.</pages>
+</reference>
+<reference id="pubmed16452383">
+<accessionId id="acc003" href="info:pmid/16452383" />
+<authors>Section on Ophthalmology American Academy of Pediatrics American Academy of Ophthalmology American Association for Pediatric Ophthalmology and Strabismus.</authors>
+<title>Screening examination of premature infants for retinopathy of prematurity.</title>
+<source>Pediatrics</source>
+<pubdate>2006</pubdate>
+<volume>117</volume>
+<pages>572&#x2013;576.</pages>
+</reference>
+<reference id="pubmed13129866">
+<accessionId id="acc004" href="info:pmid/13129866" />
+<authors>Weinberg DV, Lyon AT, Greenwald MJ, Mets MB.</authors>
+<title>Rhegmatogenous retinal detachments in children: Risk factors and surgical outcomes.</title>
+<source>Ophthalmology</source>
+<pubdate>2003</pubdate>
+<volume>110</volume>
+<pages>1708&#x2013;1713.</pages>
+</reference>
+<reference id="pubmed17011954">
+<accessionId id="acc005" href="info:pmid/17011954" />
+<authors>Arya AV, Emerson JW, Engelbert M, Hagedorn CL, Adelman RA.</authors>
+<title>Surgical management of pseudophakic retinal detachments: A meta-analysis.</title>
+<source>Ophthalmology</source>
+<pubdate>2006</pubdate>
+<volume>113</volume>
+<pages>1724&#x2013;1733.</pages>
+</reference>
+<reference id="pubmed11049952">
+<accessionId id="acc006" href="info:pmid/11049952" />
+<authors>Tanner V, Harle D, Tan J, Foote B, Williamson TH, Chignell AH.</authors>
+<title>Acute posterior vitreous detachment: The predictive value of vitreous pigment and symptomatology.</title>
+<source>Br J Ophthalmol</source>
+<pubdate>2000</pubdate>
+<volume>84</volume>
+<pages>1264&#x2013;1268.</pages>
+</reference>
+<reference id="pubmed1945310">
+<accessionId id="acc007" href="info:pmid/1945310" />
+<authors>Brod RD, Lightman DA, Packer AJ, Saras HP.</authors>
+<title>Correlation between vitreous pigment granules and retinal breaks in eyes with acute posterior vitreous detachment.</title>
+<source>Ophthalmology</source>
+<pubdate>1991</pubdate>
+<volume>98</volume>
+<pages>1366&#x2013;1369.</pages>
+</reference>
+<reference id="pubmed9917797">
+<accessionId id="acc008" href="info:pmid/9917797" />
+<authors>Rowe JA, Erie JC, Baratz KH, et al.</authors>
+<title>Retinal detachment in Olmsted County, Minnesota, 1976 through 1995.</title>
+<source>Ophthalmology</source>
+<pubdate>1999</pubdate>
+<volume>106</volume>
+<pages>154&#x2013;159.</pages>
+</reference>
+<reference id="pubmed7899716">
+<accessionId id="acc009" href="info:pmid/7899716" />
+<authors>Girard P, Mimoun G, Karpouzas I, Montefiore G.</authors>
+<title>Clinical risk factors for proliferative vitreoretinopathy after retinal detachment surgery.</title>
+<source>Retina</source>
+<pubdate>1994</pubdate>
+<volume>14</volume>
+<pages>417&#x2013;424.</pages>
+</reference>
+<reference id="pubmed18303159">
+<accessionId id="acc010" href="info:pmid/18303159" />
+<authors>Pastor JC, Fernandez I, Rodriguez de la Rua E, et al.</authors>
+<title>Surgical outcomes for primary rhegmatogenous retinal detachments in phakic and pseudophakic patients: The Retina 1 Project&#x2014;report 2.</title>
+<source>Br J Ophthalmol</source>
+<pubdate>2008</pubdate>
+<volume>92</volume>
+<pages>378&#x2013;382.</pages>
+</reference>
+<reference id="pubmed9440187">
+<accessionId id="acc011" href="info:pmid/9440187" />
+<authors>Tornambe PE.</authors>
+<title>Pneumatic retinopexy: The evolution of case selection and surgical technique. A twelve-year study of 302 eyes.</title>
+<source>Trans Am Ophthalmol Soc</source>
+<pubdate>1997</pubdate>
+<volume>95</volume>
+<pages>551&#x2013;578.</pages>
+</reference>
+<reference id="pubmed18054633">
+<accessionId id="acc012" href="info:pmid/18054633" />
+<authors>Heimann H, Bartz-Schmidt KU, Bornfeld N, Weiss C, Hilgers RD, Foerster MH; Scleral Buckling versus Primary Vitrectomy in Rhegmatogenous Retinal Detachment Study Group.</authors>
+<title>Scleral buckling versus primary vitrectomy in rhegmatogenous retinal detachment: A prospective randomized multicenter clinical study.</title>
+<source>Ophthalmology</source>
+<pubdate>2007</pubdate>
+<volume>114</volume>
+<pages>2142&#x2013;2154.</pages>
+</reference>
+<reference id="poem140621">
+<accessionId id="acc013" href="info:wiley/eep-poem/140621" />
+<accessionId id="acc013b" href="info:pmid/22474205" />
+<authors>Etminan M, Forooghian F, Brophy JM, Bird ST, Maberley D</authors>
+<title>Oral fluoroquinolones and the risk of retinal detachment.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>307</volume>
+<pages>1414&#x2013;1419.</pages>
+</reference>
+<reference id="cochrane6909">
+<accessionId id="acc014" href="info:wiley/cochrane/CD006909" />
+<chapter_authors>Ang GS, Townend J, Lois N.</chapter_authors>
+<chapter_title>Interventions for prevention of giant retinal tear in the fellow eye (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3170">
+<accessionId id="acc015" href="info:wiley/cochrane/CD003170" />
+<chapter_authors>Wilkinson CP.</chapter_authors>
+<chapter_title>Interventions for asymptomatic retinal breaks and lattice degeneration for preventing retinal detachment (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed30977855">
+<accessionId id="acc016" href="info:pmid/30977855" />
+<authors>Lahham S, Shniter I, Thompson M, Le D, Chadha T, Mailhot T, Kang TL, Chiem A, Tseeng S, Fox JC.</authors>
+<title>Point-of-care ultrasonography in the diagnosis of retinal detachment, vitreous hemorrhage, and vitreous detachment in the emergency department.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2019</pubdate>
+<volume>2</volume>
+<pages>e192162.</pages>
+</reference>
+<reference id="pubmed26973752">
+<accessionId id="acc017" href="info:pmid/26973752" />
+<authors>Jacobsen B, Lahham S, Lahham S, Patel A, Spann S, Fox JC.</authors>
+<title>Retrospective review of ocular point-of-care ultrasound for detection of retinal detachment.</title>
+<source>West J Emerg Med</source>
+<pubdate>2016</pubdate>
+<volume>17</volume>
+<pages>196&#x2013;200.</pages>
+</reference>
+<reference id="pubmed36633878">
+<accessionId id="acc018" href="info:pmid/36633878" />
+<authors>McCullough P, Mohite A, Virgili G, Lois N.</authors>
+<title>Outcomes and Complications of Pars Plana Vitrectomy for Tractional Retinal Detachment in People With Diabetes: A Systematic Review and Meta-analysis.</title>
+<source>JAMA Ophthalmol</source>
+<pubdate>2023</pubdate>
+<volume>141</volume>
+<pages>186&#x2013;195.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

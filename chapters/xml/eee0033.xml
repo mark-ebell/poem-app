@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Heart failure with reduced ejection fraction (systolic heart failure)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0033</topic_id>
+<topic_comment />
+<topic_lastupdated>07/24/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Basilio Addo, MD</author_name>
+<author_title>Assistant Clinical Professor</author_title>
+<author_department>Internal Medicine, GME</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email>basilio.addo&#x0040;piedmont.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Sheri Walls</author_name>
+<author_title>PGY3 Resident</author_title>
+<author_department>Internal medicine, GME</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email>sheri.Walls&#x0040;piedmont.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Subramanian Gnanaguruparan, MD</author_name>
+<author_title>Consultant Cardiologist</author_title>
+<author_department>Department of Cardiology</author_department>
+<author_institution>Christiana Hospital</author_institution>
+<author_email>sguruparan&#x0040;yahoo.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Newark</author_city>
+<author_state>DE</author_state>
+<author_zip>19718</author_zip>
+</author>
+<author primary="no">
+<author_name>Deepak Vedamurthy, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Hospital Medicine</author_department>
+<author_institution>ChristianaCare Hospital&#x002F;Thomas Jefferson University</author_institution>
+<author_email>deepakvedamurthy&#x0040;gmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Newark</author_city>
+<author_state>DE</author_state>
+<author_zip>19808</author_zip>
+</author>
+<author primary="no">
+<author_name>Christopher D. Jackson, MD</author_name>
+<author_title>Assistant Professor of Medicine</author_title>
+<author_department>Medicine</author_department>
+<author_institution>University of Tennessee Health Science Center</author_institution>
+<author_email>cjacks67&#x0040;uthsc.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Memphis</author_city>
+<author_state />
+<author_zip>38103</author_zip>
+</author>
+<author primary="no">
+<author_name>Theodore J. Manolukas, MD</author_name>
+<author_title>Internal Medicine Resident</author_title>
+<author_department />
+<author_institution>University of Tennessee Memphis</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Augusta University &#x2013; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Heart failure is a syndrome resulting from a variety of cardiac pathologies, but typified by elevated cardiac filling pressures and&#x002F;or a reduction in cardiac output. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>The absence of clinical manifestations and a normal chest X-ray do not exclude the diagnosis, which it is important to have high clinical intuition. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatments effective in decreasing symptoms, reducing hospitalizaitons, and&#x002F;or prolonging life include: ACE inhibitors,<xref ref="poem20876" resource="acc015" /> angiotensin receptor blockers,<xref ref="poem20359" resource="acc016" /> &#x03B2;-blockers,<xref ref="poem9" resource="acc017" /> SGLT-2 inhibitors,<xref ref="poem220127" resource="acc075" /><xref ref="poem221223" resource="acc078" />and aldosterone antagonists.<xref ref="poem11058" resource="acc018" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Diuretics can be helpful to alleviate symptoms of congestion but does not reduce mortality. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Patients should be educated about early symptoms, common triggers, and the importance of monitoring their weight in order to decrease mortality and frequent hospitlizations. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Heart failure is a syndrome resulting from the heart's inability to maintain adequate cardiac output to the tissues and to maintain normal cardiac filling pressures. Symptoms include edema, shortness of breath, and effort intolerance. One cause of heart failure is myocardial muscle dysfunction characterized by left ventricular dilation or hypertrophy.<xref ref="pubmed16500578" resource="acc002" /> Systolic heart failure is characterized by a reduced ejection fraction (&lt;40&#x0025;).</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>550,000 patients a year diagnosed in United States.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>A total of 2&#x0025; of the population older than 45 years has left ventricular dysfunction defined by an ejection fraction &lt;40&#x0025;.<xref ref="poem31166" resource="acc003" /></listitem>
+<listitem>Approximately 5 million patients in the United States.</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>The proportion of deaths due to heart failure has increased sharply as the incidence and prevalence of the disease has increased.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Ischemic heart disease</listitem>
+<listitem>Hypertension</listitem>
+<listitem>Diabetes mellitus</listitem>
+<listitem>Dilated cardiomyopathy (may have a genetic cause vs. amylodosis</listitem>
+<listitem>Valvular dysfunction</listitem>
+<listitem>Thryoid DysfunctionAnemia</listitem>
+<listitem>Chemotherapeutic agents (trastuzumab, anthracyclines)</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Poor contractility and decreased left ventricular compliance due to diminished systolic function, results in decreased cardiac output and increased cardiac filling pressures.<xref ref="pubmed16500578" resource="acc002" /></listitem>
+<listitem>Reduced cardiac output stimulates activation of the renin-angiotensin-aldosterone and other neurohormonal pathways. Over time this causes ventricular hypertrophy and progressive dysfunction.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Ischemic heart disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypertension</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Obesity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Metabolic syndrome</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Family history of cardiomyopathy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Smoking</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients with heart failure may present with dyspnea, peripheral edema, or fatigue. A substantial proportion of patients will not present with symptoms, but will experience dyspnea with exertion, if tested. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The absence of classical signs of heart failure does not rule out the diagnosis. Diagnosis is clinical. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>A normal <resourceLink href="info:wiley/eep-dx/2">chest X-ray</resourceLink> does not exclude the diagnosis. <evidence rating="C" system="SORT">C</evidence><xref ref="test2" resource="acc004" /></listitem>
+<listitem>The presence of an S3 gallop on exam in patients with respiratory symptoms strongly supports the diagnosis.</listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Chronic obstructive pulmonary disease (COPD) and Internstial Lung Disease</Differential_Name>
+<Differential_Features>The BNP level is likely to be more elevated in patients with heart failure than in those with COPD</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Obesity</Differential_Name>
+<Differential_Features>Deconditioning may lead to dyspnea on exertion, but other symptoms of heart failure&#x2014;except dependent edema&#x2014;will not be present</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Angina</Differential_Name>
+<Differential_Features>Chest pain or pressure rather than dyspnea limits exertion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Venous insufficiency</Differential_Name>
+<Differential_Features>BNP level usually normal, other signs of heart failure absent</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Venous thromboembolism (VTE)</Differential_Name>
+<Differential_Features>Acute onset, unilateral leg swelling, leg pain more common in VTE</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>The European Society of Cardiology definition of heart failure, including both systolic and diastolic heart failure (the first 2 should be fulfilled in all cases) includes:<xref ref="guideline6817" resource="acc005" /> (1) Symptoms of heart failure (at rest or during exercise); (2) Objective evidence (preferably by echocardiography) of cardiac dysfunction (systolic and&#x002F;or diastolic); and (3) in cases where the diagnosis is in doubt, response to treatment directed toward heart failure.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Patients with heart failure may present with <resourceLink href="info:wiley/eep-dx/155">exertional dyspnea, paroxysmal nocturnal dyspnea, orthopena, peripheral edema, or fatigue.</resourceLink> A substantial proportion of patients will not present with symptoms, but will experience dyspnea with exertion, if tested.</listitem>
+<listitem>The clinical examination is frequently unreliable for diagnosing heart failure, particularly in the elderly.<xref ref="poem40" resource="acc006" /></listitem>
+<listitem>Elements of the history that best rule in heart failure are <resourceLink href="info:wiley/eep-dx/155">history of heart failure or history of myocardial infarction.</resourceLink></listitem>
+<listitem>Many of the classical signs of heart failure, such as <resourceLink href="info:wiley/eep-dx/155">elevated jugular venous pressure</resourceLink>, <resourceLink href="info:wiley/eep-dx/155">third heart sound</resourceLink>, <resourceLink href="info:wiley/eep-dx/155">abdominojugular reflux,</resourceLink> and <resourceLink href="info:wiley/eep-dx/155">rales</resourceLink> are specific but lack sensitivity; that is, if present, they help to establish the diagnosis, but their absence does not rule out the diagnosis.</listitem>
+<listitem><resourceLink href="info:wiley/eep-dx/155">Clinical judgment</resourceLink> that the patient does not have heart failure, combined with a normal BNP level (&lt;100 pg&#x002F;mL) significantly decreases the likelihood of heart failure. Point of care testing of BNP levels may help to exclude the diagnosis of heart failure in some settings.<xref ref="poem201001" resource="acc072" /></listitem>
+<listitem>Common causes of heart failure exacerbations include nonadherence to medications, recrational drug use such as coccaine, salt indiscretion, respiratory tract infections, arrhythmias, and medications.<xref ref="poem40259" resource="acc007" /></listitem>
+<listitem>The clinical finding of bendopnea (shortness of breath after bending over while seated) is marker of worsening symptoms in heart failure.<xref ref="poem190917" resource="acc068" /></listitem>
+<listitem>Point of care ultrasound can be effective in estimating jugular venous pressure, but traditional diagnosis is as accurate (when the JVP is visualized).<xref ref="poem336991" resource="acc081" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Recommended initial laboratory investigations include CBC, electrolytes, blood lipids, thyroid function, and UDS to look for reversible causes of heart failure.</listitem>
+<listitem><resourceLink href="info:wiley/eep-dx/155">ECG and CXR</resourceLink> are also part of the initial evaluation. Few patients with heart failure have a completely normal ECG, but the changes are nonspecific. A normal chest X-ray does not exclude the diagnosis of heart failure, but can help identify alternate causes of dyspnea.<xref ref="pubmed12615582" resource="acc008" /></listitem>
+<listitem>The BNP test has high sensitivity; that is, a normal value of BNP helps to exclude the diagnosis of heart failure.<xref ref="test155" resource="acc001" /><xref ref="test239" resource="acc009" /> It is also useful in patients with a previous diagnosis of heart failure.<xref ref="poem80451" resource="acc010" /></listitem>
+<listitem>BNP may help distinguish heart failure from lung disease in the emergency department (ED), as the BNP level will generally be higher in patients with heart failure. However, there is a substantial overlap in values.<xref ref="poem40404" resource="acc012" /></listitem>
+<listitem>In an RCT in a Swiss ED, the use of BNP reduced admissions to hospitals and, therefore, reduced costs.<xref ref="poem60504" resource="acc011" /><xref ref="poem40404" resource="acc012" /> A Canadian study of patients presenting to the ED with dyspnea supported the Swiss study results finding that N-terminal BNP (NT-BNP) reduced the cost of care, the length of the ED visit, and the likelihood of rehospitalization.<xref ref="poem91102" resource="acc041" /> However, two other studies did not find this benefit.<xref ref="pubmed19933409" resource="acc042" /></listitem>
+<listitem>In a meta-analysis of six studies of patients with chronic heart failure (only one was double-blinded) testing BNP or NT-BNP guided care (including use of specific care guidelines in five of the trials), monitoring BNP decreased mortality as a result of more aggressive treatment (HR &#x003D; 0.69; 95&#x0025; CI, 0.55-0.86). The benefit was more pronounced in patients younger than 75 years.<xref ref="poem111051" resource="acc048" /> A recent RCT confirmed these findings and reported that the combination of NT-BNP monitoring and dosage titration significantly decreased mortality at 1 year compared with usual care (9.1&#x0025; vs 18.9&#x0025;; NNT &#x003D; 10.2) and at 3 years for patients younger than 75 years (15.5&#x0025; vs 30.9&#x0025; and 31.3&#x0025;).<xref ref="poem120254" resource="acc049" /><xref ref="poem110554" resource="acc013" /></listitem>
+<listitem>A study comparing inpatient therapy guided by BNP in elderly patients with heart failure with care not guided by BNP found no major differences in clinical outcomes.<xref ref="poem110324" resource="acc014" /></listitem>
+<listitem>Screening with BNP in a high risk population was associated with a decreased risk of emergent hospitalization for heart failure.<xref ref="PubMed23821090" resource="acc061" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <resourceLink href="info:wiley/eep-rule/330">clinical decision rule</resourceLink> to identify patients with heart failure among those presenting with dyspnea in the ED has been developed and validated. The clinical decision rule uses the BNP and seven clinical variables.</listitem>
+<listitem>Another <resourceLink href="info:wiley/eep-rule/307">prognostic rule,</resourceLink> developed in more than 33,000 inpatients and validated in a second group of 32,000, uses clinical and laboratory variables to estimate the prognosis of patients with acutely decompensated heart failure. A <resourceLink href="info:wiley/eep-rule/246">second well-validated rule</resourceLink> by Lee and colleagues can determine prognosis for any patient hospitalized with heart failure.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to the patient with suspected heart failure.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>50</HP_ID>
+<HP_ID>2</HP_ID>
+<HP_ID>28</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>155</Dx_ID>
+<Dx_ID>340</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treatments effective in decreasing symptoms, reducing hospitalizaitons, and&#x002F;or prolonging life include<xref ref="poem356888" resource="acc082" />: ACE inhibitors,<xref ref="poem20876" resource="acc015" /> angiotensin receptor blockers (with or without neprilysin inhibitors),<xref ref="poem20359" resource="acc016" /> &#x03B2;-blockers,<xref ref="poem9" resource="acc017" /> SGLT-2 inhibitors,<xref ref="poem220127" resource="acc075" /><xref ref="poem221223" resource="acc078" />and aldosterone antagonists.<xref ref="poem11058" resource="acc018" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Diuretics can be helpful to alleviate symptoms of congestion. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Sprinolactone and Eplerenone, for patients with systolic dysfunction after myocardial infarction. <evidence rating="A" system="SORT">A</evidence><xref ref="poem50704" resource="acc019" /></listitem>
+<listitem>Small trials have shown that diuretics improve symptoms and may reduce mortality. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane3838" resource="acc020" /></listitem>
+<listitem>Digoxin may improve symptoms but also may increase mortality, especially in women. However, a Cochrane review found no mortality difference. <evidence rating="A" system="SORT">A</evidence><xref ref="poem50529" resource="acc021" /><xref ref="poem50207" resource="acc022" /><xref ref="cochrane2901" resource="acc028" /></listitem>
+<listitem>Exercise training improves symptoms and may reduce long term all-cause mortality.<xref ref="cochrane3331" resource="acc073" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>ACE inhibitors and angiotensin receptor blockers</strong></listitem>
+<listitem>A systematic review of trials of ACE inhibitors versus placebo showed that over the longer term (approximately 1 year), mortality was reduced from 27&#x0025; to 23&#x0025; (NNT &#x003D; 25).<xref ref="poem20876" resource="acc015" /></listitem>
+<listitem>Higher doses of ACE inhibitors have been shown to reduce hospitalizations, although this result needs to be balanced against the increased rate of side effects, particularly dizziness.<xref ref="poem20359" resource="acc016" /></listitem>
+<listitem>While some studies have shown angiotensin II receptor blockers have similar effectiveness as ACE inhibitors<xref ref="poem40604" resource="acc023" /> and should be used for patients who cannot tolerate ACE inhibitors.<xref ref="poem51243" resource="acc024" /> Other reviews have not shown morbidity or mortality benefit in angiotensin II receptor blockers in either systolic dysfunction or in heart failure with preserved ejection fraction.<xref ref="cochrane3336" resource="acc057" /></listitem>
+<listitem>Neprilysin inhibition (with sacubitril) in addition to angiotensin receptor blockade is associated with reduced death and heart failure admissions when compared to ACE inhibition alone.<xref ref="poem161102" resource="acc064" /></listitem>
+<listitem><strong>&#x03B2;-blockers</strong></listitem>
+<listitem>18 trials comparing &#x03B2;-blockers versus placebo in patients taking standard medications for heart failure (mostly ACE inhibitors) showed a significant survival benefit at adequate doses (OR &#x003D; 0.69; 95&#x0025; CI, 0.54-0.88).<xref ref="poem9" resource="acc017" /><xref ref="poem1005" resource="acc025" /> Approximately 10&#x0025; of patients cannot be titrated to the full dose because of bradycardia.<xref ref="poem40655" resource="acc026" /> Commence &#x03B2;-blockers once condition is stable. A recent systematic review failed to identify the superiority of one betal blocker over another for improving survival with heart failure on comparing carvedilol, metoprolol succinate, and bisoprolol.<xref ref="pubmed25671531" resource="acc065" /></listitem>
+<listitem><strong>Diuretics</strong></listitem>
+<listitem>Diuretics have only been evaluated against placebo in 7 small trials, but these trials showed reduced mortality and hospital admissions.<xref ref="cochrane3838" resource="acc020" /> In 7 trials comparing diuretics with other agents for heart failure (eg, ACE inhibitors), diuretics were shown to improve exercise tolerance.<xref ref="cochrane3838" resource="acc020" /></listitem>
+<listitem>Bolus diuretics (intravenous furosemide dosed equal to [low dose strategy] or 2.5 times [high dose strategy] the home daily oral dose) was as effective as a continuous infusion of diuretics for the treatment of acute decompensated heart failure with regard to improvement in symptoms. Higher doses of bolus diuretics are associated with improved breathlessness, increased diuresis and increased weight reduction at the expense of increasing the risk of azotemia.<xref ref="poem130591" resource="acc052" /></listitem>
+<listitem>In a single pragmatic trial, torsemide has not been shown to have mortality benefit over furosemide for outpatients with HFpEF.<xref ref="poem302260" resource="acc089" /></listitem>
+<listitem>In patients with acute decompensated heart failure (and eGFR&gt;20), addition of acetazolamide to loop diuretics was effective in relieving congestion.<xref ref="poem331101" resource="acc090" /></listitem>
+<listitem><strong>Aldosterone antagonists</strong></listitem>
+<listitem>Spironolactone improves outcomes in patients who are symptomatic while using an ACE inhibitor and a loop diuretic, reducing mortality from 46&#x0025; to 35&#x0025; over 2 years (NNT &#x003D; 9) and reducing hospitalizations (NNT &#x003D; 11).<xref ref="poem11058" resource="acc018" /> Spironolactone is contraindicated if the patient has renal failure or a potassium level of greater than 5.0 mEq&#x002F;L (5.0 mmol&#x002F;L).</listitem>
+<listitem>Eplerenone (an aldosterone antagonist) reduced mortality in patients who had a left ventricular ejection fraction of less than 40&#x0025; following myocardial infarction.<xref ref="poem50704" resource="acc019" /> It does not appear to be more effective than older aldosterone antagonists such as spironolactone.<xref ref="poem141064" resource="acc058" /></listitem>
+<listitem>Aldosterone antagonsists are associated with reduced mortality in heart failure in patients &lt;75 years old; the benefit in older patients is less clear.<xref ref="poem190419" resource="acc067" /></listitem>
+<listitem><strong>SGLT-2 inhibitors</strong></listitem>
+<listitem>Several meta-analyses have demonstrated reduction in all cause and cardiovascular mortality in heart failure patients treated with SGLT-2 inhibitors.<xref ref="poem389642" resource="acc083" /><xref ref="poem230119" resource="acc079" /><xref ref="poem338647" resource="acc080" /><xref ref="poem345769" resource="acc091" /></listitem>
+<listitem>Dapagliflozin (an SGLT-2 inhibitor used for glycemic control in type 2 diabetes) was shown to reduce health care utilization (NNT 27 over 18 months) and all-cause mortality (NNT &#x003D; 44 over 18 months) compared to placebo in NYHA class II heart failure, irrespective of co-existing diabetes.<xref ref="poem220127" resource="acc075" /></listitem>
+<listitem>A randomized trial assigned 3730 patients with Class II-IV HF to empagliflozin 10 mg once daily or placebo. Patients who took the drug were less likely to be hospitalized for heart failure (HF), but there was no difference in the likelihood of cardiovascular death. Although benefit was seen in patients with and without diabetes, the benefit appears limited to patients with a left ventricular ejection fraction (LVEF) of less than 30&#x0025; and is less impressive in white patients and patients who are obese.<xref ref="poem221223" resource="acc078" /></listitem>
+<listitem>A study randomized 6522 patients with acute MI and high risk for HF to empagliflozin or placebo. For the outcomes of first hospitalization for HF or all-cause death after 18 months, there was no significant difference between the 2 groups (8.2&#x0025; in the empagliflozin group vs 9.1&#x0025; in the placebo group; P &#x003D; .21). When looking at individual components of the composite endpoint, patients in the empagliflozin group had a slight reduction in HF hospitalizations (3.6&#x0025; vs.4.7&#x0025;; hazard ratio 0.77; 95&#x0025; CI 0.60 - 0.98). The percentage of serious adverse events leading to drug discontinuation was the same in the 2 groups (3.8&#x0025;).<xref ref="poem376401" resource="acc092" /></listitem>
+<listitem><strong>Digoxin</strong></listitem>
+<listitem>The DIG trial suggests that only men with heart failure benefit from digoxin and that the optimal digoxin range is 0.5 ng&#x002F;mL to 0.8 ng&#x002F;mL.<xref ref="poem50529" resource="acc021" /> In the same trial, digoxin increased mortality, especially in women.<xref ref="poem50207" resource="acc022" /> A Cochrane review of 13 RCTs of digoxin in patients with HF in sinus rhythm found no mortality difference although digitalis therapy was associated with a lower rate of hospitalization and of clinical deterioration.<xref ref="cochrane2901" resource="acc028" /></listitem>
+<listitem><strong>Antithrombotics</strong></listitem>
+<listitem>There is preliminary evidence from a large RCT of a reduction in mortality and cardiovascular events with warfarin in patients with heart failure.<xref ref="cochrane3336" resource="acc057" /> Other evidence would suggest that there is no benefit for routine use of warfarin in heart failure where subjects are in sinus rhythm.<xref ref="cochrane3336" resource="acc057" /></listitem>
+<listitem>There is no evidence from long-term trials that use of aspirin prevents thromboembolism in patients with heart failure in sinus rhythm.<xref ref="cochrane3333" resource="acc043" /></listitem>
+<listitem><strong>Other medications</strong></listitem>
+<listitem>Isosorbide dinitrate plus hydralazine improved survival and quality of life and reduced hospital admission rates in patients with left ventricular systolic dysfunction who identified themselves as black or of African descent.<xref ref="poem70103" resource="acc027" /></listitem>
+<listitem>Nesiritide is a natriuretic peptide that reduces afterload. In a study of 101 patients with moderate to severe HF, adding nesiritide to standard therapy in the ED did not affect 30 day readmission rates or hospitalizations.<xref ref="poem100957" resource="acc029" /> A randomized controlled trial found no significant improvement in breathlessness, mortality, or rehospitalization for heart failure in subjects treated with nesiritide versus placebo for acute decompensated heart failure. Nesiritide was associated with increased hypotension relative to placebo.<xref ref="poem130973" resource="acc055" /></listitem>
+<listitem>Treatment of patients with heart failure with normal lipids with rosuvastatin does not improve clinical outcomes.<xref ref="poem100204" resource="acc030" /></listitem>
+<listitem>The use of phosphodiesterase inhibitors in symptomatic patients with heart failure is associated with a significant (17&#x0025;) increased mortality rate (RR &#x003D; 1.17; 95&#x0025; CI, 1.06-1.30).<xref ref="cochrane2230" resource="acc044" /></listitem>
+<listitem>Vericiguat, a guanylate cyclase stimulator, significantly reduced HF hospitalizations with a NNT of 45 at 10.8 months of follow-up. However, there was no effect on mortality.<xref ref="pubmed32222134" resource="acc076" /></listitem>
+<listitem>Treating iron deficiency, defined as ferritin &lt;100 or ferritin 100-300 with transferrin saturation &lt; 20&#x0025;, with IV iron reduces mortality and improves quality of life in patients with systolic heart failure.<xref ref="pubmed30553903" resource="acc077" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Five trials showed that implantable defibrillators reduce mortality in patients with nonischemic cardiomyopathy, but do not decrease mortality when implanted within the first 40 days following myocardial infarction in ischemic cardiomyopathy.<xref ref="poem40706" resource="acc032" /><xref ref="poem70222" resource="acc031" /> One meta-analysis of five trials failed to demonstrate a statistical all-cause mortality benefit among women with heart failure who receive implantable cardioverter-defibrillators (HR &#x003D; 1.01; 95&#x0025; CI, 0.76-1.33).<xref ref="pubmed19752408" resource="acc045" /></listitem>
+<listitem>Cardiac resynchronization (such as a combined pacemaker&#x002F;defibrillator) reduces mortality and hospitalization in patients with heart failure and interventricular conduction delay.<xref ref="poem60706" resource="acc033" /></listitem>
+<listitem>Meta-analysis of 6 RCTs involving 775 showed that atrial fibrillation ablation, when compared to drug therapy in patients with systolic heart failure, reduced all-casue mortality (NNT &#x003D; 12), HF hospitalizations (NNT &#x003D; 9), improved left ventricular ejection fraction (NNT &#x003D; 13), 6-minute walk test distance, peak oxygen consumption and quality of life. The number of serious adverse were not significantly different between the ablation and medical therapy groups. <xref ref="pubmed30583296" resource="acc069" /></listitem>
+<listitem>A recent study of 23 patients has shown His bundle pacing (HSP) is more effective at delivering ventricular resynchronization than biventricular pacing. Additionally, it reduces QRS duration, left ventricular activation time, and left ventricular dyssynchrony index while improving acute hemodynamic response.<xref ref="pubmed30545450" resource="acc070" /></listitem>
+<listitem>Surgical revascularization with coronary bypass surgery has been shown to reduce cardiovascular death and a composite of hospitalization and death from any cause in subjects with ischemic cardiomyopathy and ejection fraction less than 35&#x0025;. Overall mortality is not affected. Preoperative measurement of myocardial viability does not predict improved cardiovascular survival or overall survival after surgery.<xref ref="poem130635" resource="acc051" /></listitem>
+<listitem>Percutaneous coronary intervention for patients with extensive coronary artery disease and an ischemic cardiomyopathy (EF&lt;35&#x0025;) provided no clear benefit relative to medical therapy in one clinical trial.<xref ref="poem385848" resource="acc084" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>A Cochrane review of 14 RCTs found significant benefit in symptom control and exercise tolerance from hawthorn extract as an adjunctive treatment for chronic heart failure.<xref ref="cochrane5312" resource="acc046" /></listitem>
+<listitem>Tai Chi may be of benefit in patients with cardiovascular disease, including heart failure, by decreasing blood pressure and improving exercise capacity.<xref ref="pubmed19471133" resource="acc047" /></listitem>
+<listitem>In limited studies, use of Shengmai (a traditional Chinese herbal preparation) may improve symptoms of heart failure.<xref ref="cochrane5052" resource="acc054" /><xref ref="cochrane3336" resource="acc057" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT>
+<list style="bulleted">
+<listitem>Exercise training: 19 trials (including one large trial) with 6 month follow-up or longer demonstrated significant improvement in health-related quality of life with exercise training and appears to reduce heart failure-related hospital admissions. Althoughxercise did not affect all-cause mortality in the short term (&lt;12 months), but may reduce it in the long term (&gt;12 months; 6 trials with 2845 participants). <xref ref="cochrane3331" resource="acc073" /></listitem>
+</list>
+</Treatment_PT>
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Although depression is common in patients with heart failure, evidence showing benefit for psychological interventions are limited.<xref ref="poem121071" resource="acc053" /></listitem>
+<listitem>Support smoking cessation.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Education, follow-up by a specialist nurse, and telephone follow-up all reduce readmissions in patients recently discharged from the hospital.<xref ref="poem160751" resource="acc062" /><xref ref="poem40405" resource="acc034" /> Adherence to professional society performance measures has not been shown to decrease 30-day readmission rates or mortality.<xref ref="poem141053" resource="acc059" /> Pharmacist-directed interventions have not been shown to be effective at reducing hospitalizations.<xref ref="poem160448" resource="acc063" /></listitem>
+<listitem>In another study, discharge instructions for a sodium-restricted diet was associated with a reduced risk of 30-day mortality and readmission.<xref ref="poem120293" resource="acc050" /> A recent systematic review, however, found no morbidity or mortality benefit in adherence to a sodium-restricted diet.<xref ref="poem140325" resource="acc056" /><xref ref="poem210214" resource="acc071" /> There are limited high quality trials to assess this question.<xref ref="poem140325" resource="acc056" /></listitem>
+<listitem>In a study of 1029 patients with acute cardiogenic pulmonary edema, CPAP, and NIPPV do not reduce mortality or intubation more than standard oxygen therapy, but do provide a benefit in terms of dyspnea.<xref ref="poem100902" resource="acc035" /> Overall, NIPPV is safe and effective in the treatment of cardiogenic pulmonary edema.<xref ref="cochrane5351" resource="acc060" /></listitem>
+<listitem>Readmission is not uncommon after heart failure hospitalization. Moderate evidence supports home nursing visits and multidisciplinary clinic to reduce readmissions.<xref ref="poem160751" resource="acc062" /></listitem>
+<listitem>Iron infusions may improve clinical outcomes in patients with heart failure who are iron deficient.<xref ref="poem211104" resource="acc074" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Noninvasive positive pressure ventilation improves survival in patients admitted to the hospital with acute cardiogenic pulmonary edema.<xref ref="poem80643" resource="acc036" /></listitem>
+<listitem>Continuous infusion of loop diuretics appears to improve survival and to reduce the risk of tinnitus and hearing loss.<xref ref="cochrane3178" resource="acc037" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The 5-year mortality rate is 25&#x0025; to 75&#x0025;. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Death may be due to sudden cardiac death (mostly ventricular arrhythmias) or to a slow progression of disease. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>The 5-year mortality rate varies widely (25&#x0025;-75&#x0025;), depending on the etiology of the patient's cardiomyopathy.</listitem>
+<listitem>Death may be due to sudden cardiac death (mostly ventricular arrhythmias) or to a slow progression of disease.</listitem>
+<listitem>Weight loss-cariac cachexia is a poor prognostic sign.<xref ref="poem50761" resource="acc038" /> Other signs of poor prognosis are frequent hospitalizations, the inability to complete any activity without dyspnea, or symptoms at rest.</listitem>
+<listitem>An elevated cardiac troponin I or T level is associated with longer hospital stay and worse in-hospital mortality.<xref ref="poem100702" resource="acc039" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>BNP for improvement has now been recommmended for AHA guidelinesAssess exercise capacity, change in weight, patient adherence to medication, and assessment of symptoms.</listitem>
+<listitem>Assess presence of ischemic heart disease, diabetic control, hypertension, and the presence or any triggering factors.</listitem>
+<listitem>Monitor electrolytes and renal function if there's been a recent change in management, otherwise assess every 6 months.<xref ref="guideline7664" resource="acc040" /></listitem>
+<listitem>Avoid TCAs, NSAIDs, and thiazolidinediones (e.g., rosiglitazone).</listitem>
+<listitem>Naturetic peptide testing is not superior to usual care in long term management.<xref ref="poem191118" resource="acc066" /></listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Educate patients about potential triggers to avoid rehospitlizatio</listitem>
+<listitem>Educate patients, proper salt restriction (&lt;2g daily), and fluid restrition.</listitem>
+<listitem>Educate patients, proper salt restriction (&lt;2 g daily), and fluid restriction</listitem>
+<listitem>Patients should weigh themselves and report any gain of more than 1 to 2 kg over a few days.</listitem>
+<listitem>Advise patients to have regular influenza and pneumococcal vaccinations.</listitem>
+<listitem>Provide patients with support for smoking and&#x002F;or recreational use disorder.</listitem>
+<listitem>Provide patients with support for cessation of excessive alcohol intake.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>The diagnosis of heart failure is more difficult in the elderly.</listitem>
+<listitem>Also see <resourceLink href="info:wiley/eep-eee/32">diastolic heart failure.</resourceLink> Diastolic heart failure (i.e., heart failure with preserved ejection fraction or HFpEF) patients are generally older, more likely to be female, and more likely to have a history of hypertension.</listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="test155">
+<accessionId id="acc001" href="info:wiley/eep-dx/155" />
+<accessionId id="acc001b" href="info:wiley/eep-hp/2" />
+<accessionId id="acc001c" href="info:pmid/16234501" />
+<authors>Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT.</authors>
+<title>Does this dyspneic patient in the emergency department have congestive heart failure?</title>
+<source>JAMA</source>
+<pubdate>2005</pubdate>
+<volume>294</volume>
+<pages>1944&#x2013;1956.</pages>
+</reference>
+<reference id="pubmed16500578">
+<accessionId id="acc002" href="info:pmid/16500578" />
+<authors>Heart Failure Society Of America.</authors>
+<title>Executive summary: HFSA 2006 comprehensive heart failure practice guideline.</title>
+<source>J Card Fail</source>
+<pubdate>2006</pubdate>
+<volume>12</volume>
+<pages>10&#x2013;38.</pages>
+</reference>
+<reference id="poem31166">
+<accessionId id="acc003" href="info:wiley/eep-poem/31166" />
+<accessionId id="acc003b" href="info:pmid/11513906" />
+<authors>Davies MK, Hobbs FDR, Davis RC, et al.</authors>
+<title>Prevalence of left-ventricular systolic dysfunction and heart failure in the Echocardiographic Heart of England Screening study: a population based study.</title>
+<source>Lancet</source>
+<pubdate>2001</pubdate>
+<volume>358</volume>
+<pages>439&#x2013;444.</pages>
+</reference>
+<reference id="test2">
+<accessionId id="acc004" href="info:wiley/eep-dx/2" />
+<accessionId id="acc004b" href="info:pmid/7433676" />
+<authors>Knochel JQ, Koehler PR, Lee TG, Welch DM.</authors>
+<title>Diagnosis of abdominal abscesses with computed tomography, ultrasound, and 111In leukocyte scans.</title>
+<source>Radiology</source>
+<pubdate>1980</pubdate>
+<volume>137</volume>
+<pages>425&#x2013;432.</pages>
+</reference>
+<reference id="guideline6817">
+<accessionId id="acc005" href="info:wiley/eep-guideline/6817" />
+<citation>Dickstein K, Cohen-Solal A, Filippatos G, et al. ESC guidelines for the diagnosis and treatment of acute and chronic heart failure 2008: the Task Force [trunc]. <em>Eur Heart J</em> 2008;<strong>29</strong>(19):2388&#x2013;2442.</citation>
+<url>http://www.escardio.org/guidelines-surveys/esc-guidelines/guidelinesdocuments/guidelines-hf-ft.pdf</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="poem40">
+<accessionId id="acc006" href="info:wiley/eep-poem/40" />
+<accessionId id="acc006b" href="info:pmid/9288024" />
+<authors>Tresch DD.</authors>
+<title>The clinical diagnosis of heart failure in older patients.</title>
+<source>JAGS</source>
+<pubdate>1997</pubdate>
+<volume>45</volume>
+<pages>1128&#x2013;1133.</pages>
+</reference>
+<reference id="poem40259">
+<accessionId id="acc007" href="info:wiley/eep-poem/40259" />
+<accessionId id="acc007b" href="info:pmid/11606149" />
+<authors>Tsuyuki RT, McKelvie RS, Arnold JM, et al.</authors>
+<title>Acute precipitants of congestive heart failure exacerbations.</title>
+<source>Arch Intern Med</source>
+<pubdate>2001</pubdate>
+<volume>161</volume>
+<pages>2337&#x2013;2342.</pages>
+</reference>
+<reference id="pubmed12615582">
+<accessionId id="acc008" href="info:pmid/12615582" />
+<accessionId id="acc008b" href="info:wiley/eep-dx/340" />
+<authors>McCullough PA, Hollander JE, Nowak RM, et al.</authors>
+<title>Uncovering heart failure in patients with a history of pulmonary disease: rationale for the early use of B-type natriuretic peptide in the emergency department.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2003</pubdate>
+<volume>10</volume>
+<pages>198&#x2013;204.</pages>
+</reference>
+<reference id="test239">
+<accessionId id="acc009" href="info:wiley/eep-dx/239" />
+<accessionId id="acc009b" href="info:pmid/12798574" />
+<authors>Maisel AS, McCord J, Nowak RM, et al.; for the Breathing Not Properly Multinational Study Investigators.</authors>
+<title>Bedside B-Type natriuretic peptide in the emergency diagnosis of heart failure with reduced or preserved ejection fraction. Results from the Breathing Not Properly Multinational Study.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2003</pubdate>
+<volume>41</volume>
+<pages>2010&#x2013;2017.</pages>
+</reference>
+<reference id="poem80451">
+<accessionId id="acc010" href="info:wiley/eep-poem/80451" />
+<accessionId id="acc010b" href="info:pmid/16442916" />
+<authors>Mueller C, Laule-Kilian K, Frana B, et al.</authors>
+<title>Use of B-type natriuretic peptide in the management of acute dyspnea in patients with pulmonary disease.</title>
+<source>Am Heart J</source>
+<pubdate>2006</pubdate>
+<volume>151</volume>
+<pages>471&#x2013;477.</pages>
+</reference>
+<reference id="poem60504">
+<accessionId id="acc011" href="info:wiley/eep-poem/60504" />
+<accessionId id="acc011b" href="info:pmid/13678870" />
+<authors>Granger CB, McMurray JJV, Yusuf S, et al.</authors>
+<title>Effects of candesartan in patients with chronic heart failure and reduced left-ventricular systolic function intolerant to angiotensin-converting enzyme inhibitors: the CHARM-Alternative trial.</title>
+<source>Lancet</source>
+<pubdate>2003</pubdate>
+<volume>362</volume>
+<pages>772&#x2013;776.</pages>
+</reference>
+<reference id="poem40404">
+<accessionId id="acc012" href="info:wiley/eep-poem/40404" />
+<accessionId id="acc012b" href="info:pmid/11788208" />
+<authors>Morrison LK, Harrison A, Krishnaswamy P, et al.</authors>
+<title>Utility of a rapid B-natriuretic peptide assay in differentiating confestive heart failure from lung disease in patients presenting with dyspnea.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2002</pubdate>
+<volume>39</volume>
+<pages>202&#x2013;209.</pages>
+</reference>
+<reference id="poem110554">
+<accessionId id="acc013" href="info:wiley/eep-poem/110554" />
+<accessionId id="acc013b" href="info:pmid/19293069" />
+<authors>Schneider HG, Lam L, Lokuge A, et al.</authors>
+<title>B-type natriuretic testing, clinical outcomes, and health services use in emergency department patients with dyspnea.</title>
+<source>Ann Intern Med</source>
+<pubdate>2009</pubdate>
+<volume>150(6)</volume>
+<pages>365&#x2013;371.</pages>
+</reference>
+<reference id="poem110324">
+<accessionId id="acc014" href="info:wiley/eep-poem/110324" />
+<accessionId id="acc014b" href="info:pmid/19176440" />
+<authors>Pfisterer M, Buser P, Rickli H, et al.; for the TIME-CHF Investigators.</authors>
+<title>BNP-guided vs symptom-guided heart failure therapy. The trial of intensified vs standard medical therapy in elderly patients with congestive heart failure (TIME-CHF) randomized trial.</title>
+<source>JAMA</source>
+<pubdate>2009</pubdate>
+<volume>301(4)</volume>
+<pages>383&#x2013;392.</pages>
+</reference>
+<reference id="poem20876">
+<accessionId id="acc015" href="info:wiley/eep-poem/20876" />
+<accessionId id="acc015b" href="info:pmid/10821360" />
+<authors>Flather MD, Yusuf S, Kober L, et al.</authors>
+<title>Long-term ACE-inhibitor therapy in patients with heart failure or left ventricular dysfunction: a systematic overview of data from individual patients.</title>
+<source>Lancet</source>
+<pubdate>2000</pubdate>
+<volume>355</volume>
+<pages>1575&#x2013;1581.</pages>
+</reference>
+<reference id="poem20359">
+<accessionId id="acc016" href="info:wiley/eep-poem/20359" />
+<accessionId id="acc016b" href="info:pmid/10587334" />
+<authors>Packer M, Poole-Wilson PA, Armstrong PW, et al.</authors>
+<title>Comparative effects of low and high doses of the angiotensin-converting enzyme inhibitor, lisinopril, on morbidity and mortality in chronic heart failure.</title>
+<source>Circulation</source>
+<pubdate>1999</pubdate>
+<volume>100</volume>
+<pages>2312&#x2013;2318.</pages>
+</reference>
+<reference id="poem9">
+<accessionId id="acc017" href="info:wiley/eep-poem/9" />
+<accessionId id="acc017b" href="info:pmid/9207617" />
+<authors>Heidenreich PA, Lee TT, Massie BM.</authors>
+<title>Effect of beta-blockade on mortality in patients with heart failure: a meta-analysis of randomized clinical trials.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>1997</pubdate>
+<volume>30</volume>
+<pages>27&#x2013;34.</pages>
+</reference>
+<reference id="poem11058">
+<accessionId id="acc018" href="info:wiley/eep-poem/11058" />
+<accessionId id="acc018b" href="info:pmid/10471456" />
+<authors>Pitt B, Zannad F, Remme WJ, et al.</authors>
+<title>The effect of spironolactone on morbidity and mortality in patients with severe heart failure.</title>
+<source>New Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>341</volume>
+<pages>709&#x2013;717.</pages>
+</reference>
+<reference id="poem50704">
+<accessionId id="acc019" href="info:wiley/eep-poem/50704" />
+<accessionId id="acc019b" href="info:pmid/12668699" />
+<authors>Pitt B, Remme W, Zannad F, et al.</authors>
+<title>Eplerenone, a selective aldosterone blocker, in patients with left ventricular dysfunction after myocardial infarction.</title>
+<source>N Engl J Med</source>
+<pubdate>2003</pubdate>
+<volume>348</volume>
+<pages>1309&#x2013;1321.</pages>
+</reference>
+<reference id="cochrane3838">
+<accessionId id="acc020" href="info:wiley/cochrane/CD003838" />
+<chapter_authors>Faris R, Flather MD, Purcell H, Poole-Wilson PA, Coats AJS.</chapter_authors>
+<chapter_title>Diuretics for heart failure (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>
+<em>The Cochrane Library</em> 2008 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem50529">
+<accessionId id="acc021" href="info:wiley/eep-poem/50529" />
+<accessionId id="acc021b" href="info:pmid/12588271" />
+<authors>Rathore SS, Curtis JP, Want Y, Bristow MR, Krumholz HM.</authors>
+<title>Association of serum digoxin concentration and outcomes in patients with heart failure.</title>
+<source>JAMA</source>
+<pubdate>2003</pubdate>
+<volume>289</volume>
+<pages>871&#x2013;878.</pages>
+</reference>
+<reference id="poem50207">
+<accessionId id="acc022" href="info:wiley/eep-poem/50207" />
+<accessionId id="acc022b" href="info:pmid/12409542" />
+<authors>Rathore SS, Wang Y,&#x00A0;Krumholz HM.</authors>
+<title>Sex-based differences in the effect of digoxin for the treatment of heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>347</volume>
+<pages>1403&#x2013;1411.</pages>
+</reference>
+<reference id="poem40604">
+<accessionId id="acc023" href="info:wiley/eep-poem/40604" />
+<accessionId id="acc023b" href="info:pmid/11823085" />
+<authors>Jong P, Demers C, McKelvie RS, Liu PP.</authors>
+<title>Angiotensin receptor blockers in heart failure: meta-analysis of randomized controlled trials.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2002</pubdate>
+<volume>39</volume>
+<pages>463&#x2013;470.</pages>
+</reference>
+<reference id="poem51243">
+<accessionId id="acc024" href="info:wiley/eep-poem/51243" />
+<accessionId id="acc024b" href="info:pmid/13678870" />
+<authors>Granger CB, McMurray JJV, Yusuf S, et al.</authors>
+<title>Effects of candesartan in patients with chronic heart failure and reduced left-ventricular systolic function intolerant to angiotensin-converting enzyme inhibitors: the CHARM-Alternative trial.</title>
+<source>Lancet</source>
+<pubdate>2003</pubdate>
+<volume>362</volume>
+<pages>772&#x2013;776.</pages>
+</reference>
+<reference id="poem1005">
+<accessionId id="acc025" href="info:wiley/eep-poem/1005" />
+<accessionId id="acc025b" href="info:pmid/9743509" />
+<authors>Lechat P, Packer M, Chalon S, Cucherat M, Arab T, Boissel J-P.</authors>
+<title>Clinical effects of beta-adrenergic blockade in chronic heart failure. A meta-analysis of double-blind, placebo-controlled, randomized trials.</title>
+<source>Circulation</source>
+<pubdate>1998</pubdate>
+<volume>98</volume>
+<pages>1184&#x2013;1191.</pages>
+</reference>
+<reference id="poem40655">
+<accessionId id="acc026" href="info:wiley/eep-poem/40655" />
+<accessionId id="acc026b" href="info:pmid/11889011" />
+<authors>Gottlieb SS, Fisher ML, Kjekshus J, et al.</authors>
+<title>Tolerability of B-blocker initiation and titration in the metoprolol CR&#x002F;XL randomized intervention trial in congestive heart failure (MERIT-HF).</title>
+<source>Circulation</source>
+<pubdate>2002</pubdate>
+<volume>105</volume>
+<pages>1182&#x2013;1188.</pages>
+</reference>
+<reference id="poem70103">
+<accessionId id="acc027" href="info:wiley/eep-poem/70103" />
+<accessionId id="acc027b" href="info:pmid/15533851" />
+<authors>Taylor AL, Ziesche S, Yancy C, et al.</authors>
+<title>Combination of isosorbide dinitrate and hydralazine in blacks with heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>351</volume>
+<pages>2049&#x2013;2057.</pages>
+</reference>
+<reference id="cochrane2901">
+<accessionId id="acc028" href="info:wiley/cochrane/CD002901" />
+<chapter_authors>Hood WB, Jr., Dans AL, Guyatt GH, Jaeschke R, McMurray JJV.</chapter_authors>
+<chapter_title>Digitalis for treatment of congestive heart failure in patients in sinus rhythm (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>
+<em>The Cochrane Library</em> 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem100957">
+<accessionId id="acc029" href="info:wiley/eep-poem/100957" />
+<accessionId id="acc029b" href="info:pmid/18304693" />
+<authors>Miller AH, Nazeer S, Pepe P, Estes B, Gorman A, Yancy CW.</authors>
+<title>Acutely decompensated heart failure in a county emergency department: a double-blind randomized controlled comparison of nesiritide versus placebo treatment.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2008</pubdate>
+<volume>51(5)</volume>
+<pages>571&#x2013;578.</pages>
+</reference>
+<reference id="poem100204">
+<accessionId id="acc030" href="info:wiley/eep-poem/100204" />
+<accessionId id="acc030b" href="info:pmid/17984166" />
+<authors>Kjekshus J, Apetrei E, Barrios V, et al.; for the CORONA Group.</authors>
+<title>Rosuvastatin in older patients with systolic heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2007</pubdate>
+<volume>357(22)</volume>
+<pages>2248&#x2013;2261.</pages>
+</reference>
+<reference id="poem70222">
+<accessionId id="acc031" href="info:wiley/eep-poem/70222" />
+<accessionId id="acc031b" href="info:pmid/15598919" />
+<authors>Desai AS, Fang JC, Maisel WH, Baughman KL.</authors>
+<title>Implantable defibrillators for the prevention of mortality in patients with nonischemic cardiomyopathy: a meta-analysis of randomized controlled trials.</title>
+<source>JAMA</source>
+<pubdate>2004</pubdate>
+<volume>292</volume>
+<pages>2874&#x2013;2879.</pages>
+</reference>
+<reference id="poem40706">
+<accessionId id="acc032" href="info:wiley/eep-poem/40706" />
+<accessionId id="acc032b" href="info:pmid/11907286" />
+<authors>Moss AJ, Zareba W, Hall WJ, et al.</authors>
+<title>Prophylactic implantation of a defibrillator in patients with myocardial infarction and reduced ejection fraction.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>346</volume>
+<pages>877&#x2013;883.</pages>
+</reference>
+<reference id="poem60706">
+<accessionId id="acc033" href="info:wiley/eep-poem/60706" />
+<accessionId id="acc033b" href="info:pmid/15152059" />
+<authors>Bristow MR, Saxon LA, Boehmer J, et al.</authors>
+<title>Cardiac-resynchronization therapy with or without an implantable defibrillator in advanced chronic heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>350</volume>
+<pages>2140&#x2013;2150.</pages>
+</reference>
+<reference id="poem40405">
+<accessionId id="acc034" href="info:wiley/eep-poem/40405" />
+<accessionId id="acc034b" href="info:pmid/11755291" />
+<authors>Krumholz HM, Amatruda J, Smith GL, et al.</authors>
+<title>Randomized trial of an education and support intervention to prevent readmission of patients with heart failure.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2002</pubdate>
+<volume>39</volume>
+<pages>83&#x2013;89.</pages>
+</reference>
+<reference id="poem100902">
+<accessionId id="acc035" href="info:wiley/eep-poem/100902" />
+<accessionId id="acc035b" href="info:pmid/18614781" />
+<authors>Gray A, Goodacre S, Newby DE, et al.; for the 3CPO Trialists.</authors>
+<title>Noninvasive ventilation in acute cardiogenic pulmonary edema.</title>
+<source>N Engl J Med</source>
+<pubdate>2008</pubdate>
+<volume>359(2)</volume>
+<pages>142&#x2013;151.</pages>
+</reference>
+<reference id="poem80643">
+<accessionId id="acc036" href="info:wiley/eep-poem/80643" />
+<accessionId id="acc036b" href="info:pmid/16616558" />
+<authors>Peter JV, Moran JL, Phillips-Hughes J, Graham P, Bersten AD.</authors>
+<title>Effect of non-invasive positive pressure ventilation (NIPPV) on mortality in patients with acute cardiogenic pulmonary oedema: a meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2006</pubdate>
+<volume>367</volume>
+<pages>1155&#x2013;1163.</pages>
+</reference>
+<reference id="cochrane3178">
+<accessionId id="acc037" href="info:wiley/cochrane/CD003178" />
+<chapter_authors>Salvador DRK, Rey NR, Ramos GC, Punzalan FER.</chapter_authors>
+<chapter_title>Continuous infusion versus bolus injection of loop diuretics in congestive heart failure (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>
+<em>The Cochrane Library</em> 2008 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem50761">
+<accessionId id="acc038" href="info:wiley/eep-poem/50761" />
+<accessionId id="acc038b" href="info:pmid/12672310" />
+<authors>Anker SD, Negassa A, Coats AJS, et al.</authors>
+<title>Prognostic importance of weight loss in chronic heart failure and the effect of treatment with angiotensin-converting-enzyme inhibitors: an observational study.</title>
+<source>Lancet</source>
+<pubdate>2003</pubdate>
+<volume>361</volume>
+<pages>1077&#x2013;1083.</pages>
+</reference>
+<reference id="poem100702">
+<accessionId id="acc039" href="info:wiley/eep-poem/100702" />
+<accessionId id="acc039b" href="info:pmid/18480204" />
+<authors>Peacock WF IV, De Marco T, Fonarow GC, et al.; for the ADHERE Investigators.</authors>
+<title>Cardiac troponin and outcome in acute heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2008</pubdate>
+<volume>358</volume>
+<pages>2117&#x2013;2126.</pages>
+</reference>
+<reference id="guideline7664">
+<accessionId id="acc040" href="info:wiley/eep-guideline/7664" />
+<citation>Hunt SA, Abraham WT, Chin MH, et al. ACC&#x002F;AHA 2005 guideline update for the diagnosis and management of chronic heart failure in the adult. A report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines [trunc]. Bethesda, MD: American College of Cardiology Foundation (ACCF); 2005 Aug. 82 p.</citation>
+<url>http://www.ncbi.nlm.nih.gov/pubmed/16160202</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="poem91102">
+<accessionId id="acc041" href="info:wiley/eep-poem/91102" />
+<accessionId id="acc041b" href="info:pmid/17548729" />
+<authors>Moe GW, Howlett J, Januzzi JL, Zowall H.</authors>
+<title>Canadian Multicenter Improved Management of Patients With Congestive Heart Failure (IMPROVE-CHF) Study Investigators. N-terminal pro-B-type natriuretic peptide testing improves the management of patients with suspected acute heart failure: primary results of the Canadian Prospective Randomized Multicenter IMPROVE-CHF study.</title>
+<source>Circulation</source>
+<pubdate>2007</pubdate>
+<volume>115</volume>
+<pages>3103&#x2013;3110.</pages>
+</reference>
+<reference id="pubmed19933409">
+<accessionId id="acc042" href="info:pmid/19933409" />
+<authors>Lokuge A, Lam L, Cameron P, et al.</authors>
+<title>B-type natriuretic peptide testing and the accuracy of heart failure diagnosis in the emergency department.</title>
+<source>Circ Heart Fail</source>
+<pubdate>2010</pubdate>
+<volume>3</volume>
+<pages>104&#x2013;110.</pages>
+</reference>
+<reference id="cochrane3333">
+<accessionId id="acc043" href="info:wiley/cochrane/CD003333" />
+<chapter_authors>Lip GYH.</chapter_authors>
+<chapter_title>Antiplatelet agents versus control or anticoagulation for heart failure in sinus rhythm (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2230">
+<accessionId id="acc044" href="info:wiley/cochrane/CD002230" />
+<chapter_authors>Amsallem E, Kasparian C, Haddour G, Boissel J-P, Nony P.</chapter_authors>
+<chapter_title>Phosphodiesterase III inhibitors for heart failure (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed19752408">
+<accessionId id="acc045" href="info:pmid/19752408" />
+<authors>Ghanbari H, Dalloul G, Hasan R, et al.</authors>
+<title>Effectiveness of implantable cardioverter-defibrillators for the primary prevention of sudden cardiac death in women with advanced heart failure: a meta-analysis of randomized controlled trials.</title>
+<source>Arch Intern Med</source>
+<pubdate>2009</pubdate>
+<volume>169</volume>
+<pages>1500&#x2013;1506.</pages>
+</reference>
+<reference id="cochrane5312">
+<accessionId id="acc046" href="info:wiley/cochrane/CD005312" />
+<chapter_authors>Guo R, Pittler MH, Ernst E.</chapter_authors>
+<chapter_title>Hawthorn extract for treating chronic heart failure (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed19471133">
+<accessionId id="acc047" href="info:pmid/19471133" />
+<authors>Yeh GY, Wang C, Wayne PM, Phillips R.</authors>
+<title>Tai chi exercise for patients with cardiovascular conditions and risk factors: a systematic review.</title>
+<source>J Cardiopulm Rehabil Prev</source>
+<pubdate>2009</pubdate>
+<volume>29</volume>
+<pages>152&#x2013;160.</pages>
+</reference>
+<reference id="poem111051">
+<accessionId id="acc048" href="info:wiley/eep-poem/111051" />
+<accessionId id="acc048b" href="info:pmid/19699866" />
+<authors>Felker GM, Hasselblad V, Hernandez AF, O'Connor CM.</authors>
+<title>Biomarker-guided therapy in chronic heart failure: A meta-analysis of randomized controlled trials.</title>
+<source>Am Heart J</source>
+<pubdate>2009</pubdate>
+<volume>158</volume>
+<pages>422&#x2013;430.</pages>
+</reference>
+<reference id="poem120254">
+<accessionId id="acc049" href="info:wiley/eep-poem/120254" />
+<accessionId id="acc049b" href="info:pmid/20117364" />
+<authors>Lainchbury JG, Troughton RW, Strangman KM, et al.</authors>
+<title>N-terminal pro-B-type natriuretic peptide-guided treatment for chronic heart failure.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2010</pubdate>
+<volume>55</volume>
+<pages>53&#x2013;60.</pages>
+</reference>
+<reference id="poem120293">
+<accessionId id="acc050" href="info:wiley/eep-poem/120293" />
+<accessionId id="acc050b" href="info:pmid/19854331" />
+<authors>Hummel SL, DeFranco AC, Skorcz S, Montoye CK, Koelling TM.</authors>
+<title>Recommendation of low-salt diet and short-term outcomes in heart failure with preserved systolic function.</title>
+<source>Am J Med</source>
+<pubdate>2009</pubdate>
+<volume>122</volume>
+<pages>1029&#x2013;1036.</pages>
+</reference>
+<reference id="poem130635">
+<accessionId id="acc051" href="info:wiley/eep-poem/130635" />
+<accessionId id="acc051b" href="info:pmid/21463150" />
+<authors>Velazquez EJ, Lee KL, Deja MA; STICH Investigators.</authors>
+<title>Coronary-artery bypass surgery in patients with left ventricular dysfunction.</title>
+<source>N Engl J Med&#x00A0;</source>
+<pubdate>2011</pubdate>
+<volume>364</volume>
+<pages>1607&#x2013;1616.</pages>
+</reference>
+<reference id="poem130591">
+<accessionId id="acc052" href="info:wiley/eep-poem/130591" />
+<accessionId id="acc052b" href="info:pmid/21366472" />
+<authors>Felker GM, Lee KL, Bull DA; NHLBI Heart Failure Clinical Research Network.</authors>
+<title>Diuretic strategies in patients with acute decompensated heart failure.</title>
+<source>N Engl J Med&#x00A0;</source>
+<pubdate>2011</pubdate>
+<volume>364</volume>
+<pages>797&#x2013;805.</pages>
+</reference>
+<reference id="poem121071">
+<accessionId id="acc053" href="info:wiley/eep-poem/121071" />
+<accessionId id="acc053b" href="info:pmid/20723799" />
+<authors>O'Connor CM, Jiang W, Kuchibhatla M; SADHART-CHF Investigators.</authors>
+<title>Safety and efficacy of sertraline for depression in patients with heart failure: results of the SADHART-CHF (Sertraline Against Depression and Heart Disease in Chronic Heart Failure) trial.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2010</pubdate>
+<volume>56</volume>
+<pages>692&#x2013;699.</pages>
+</reference>
+<reference id="cochrane5052">
+<accessionId id="acc054" href="info:wiley/cochrane/CD005052" />
+<chapter_authors>Zheng H, Chen Y, Chen J, Kwong J, Xiong W.</chapter_authors>
+<chapter_title>Shengmai (a traditional Chinese herbal medicine) for heart failure (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem130973">
+<accessionId id="acc055" href="info:wiley/eep-poem/130973" />
+<accessionId id="acc055b" href="info:pmid/21732835" />
+<authors>O'Connor CM, Starling RC, Hernandez AF, et al.</authors>
+<title>Effect of nesiritide in patients with acute decompensated heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>32&#x2013;43.</pages>
+</reference>
+<reference id="poem140325">
+<accessionId id="acc056" href="info:wiley/eep-poem/140325" />
+<accessionId id="acc056b" href="info:pmid/21731062" />
+<authors>Taylor RS, Ashton KE, Moxham T, Hooper L, Ebrahim S</authors>
+<title>Reduced dietary salt for the prevention of cardiovascular disease: a meta-analysis of randomized controlled trials (Cochrane review).</title>
+<source>Am J Hypertens</source>
+<pubdate>2011</pubdate>
+<volume>24</volume>
+<pages>843&#x2013;853.</pages>
+</reference>
+<reference id="cochrane3336">
+<accessionId id="acc057" href="info:wiley/cochrane/CD003336" />
+<chapter_authors>Lip GYH, Wrigley BJ, Pisters R.</chapter_authors>
+<chapter_title>Anticoagulation versus placebo for heart failure in sinus rhythm (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 6.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem141064">
+<accessionId id="acc058" href="info:wiley/eep-poem/141064" />
+<accessionId id="acc058b" href="info:pmid/22840667" />
+<authors>Chatterjee S, Moeller C, Shah N, Bolorunduro O, Lichstein E, Moskovits N, Mukherjee D</authors>
+<title>Eplerenone is not superior to older and less expensive aldosterone antagonists.</title>
+<source>Am J Med</source>
+<pubdate>2012</pubdate>
+<volume>125</volume>
+<pages>817&#x2013;825.</pages>
+</reference>
+<reference id="poem141053">
+<accessionId id="acc059" href="info:wiley/eep-poem/141053" />
+<accessionId id="acc059b" href="info:pmid/22795286" />
+<authors>Schopfer DW, Whooley MA, Stamos TD</authors>
+<title>Hospital compliance with performance measures and 30-day outcomes in patients with heart failure.</title>
+<source>Am Heart J</source>
+<pubdate>2012</pubdate>
+<volume>164</volume>
+<pages>80&#x2013;86.</pages>
+</reference>
+<reference id="cochrane5351">
+<accessionId id="acc060" href="info:wiley/cochrane/CD005351" />
+<chapter_authors>Vital FMR, Ladeira MT, Atallah &#x00C1;N.</chapter_authors>
+<chapter_title>Non-invasive positive pressure ventilation (CPAP or bilevel NPPV) for cardiogenic pulmonary oedema (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2013 Issue 5.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="PubMed23821090">
+<accessionId id="acc061" href="info:pmid/23821090" />
+<authors>Ledwidge M, Gallagher J, Conlon C, et al.</authors>
+<title>Natriuretic peptide-based screening and collaborative care for heart failure: the STOP-HF randomized trial.</title>
+<source>JAMA</source>
+<pubdate>2013</pubdate>
+<volume>310</volume>
+<pages>66&#x2013;74.</pages>
+</reference>
+<reference id="poem160751">
+<accessionId id="acc062" href="info:wiley/eep-poem/160751" />
+<accessionId id="acc062b" href="info:pmid/24862840" />
+<authors>Feltner C, Jones CD, Cen&#x00E9; CW, Zheng ZJ, Sueta CA, Coker-Schwimmer EJ, Arvanitis M, Lohr KN, Middleton JC, Jonas DE.</authors>
+<title>Transitional care interventions to prevent readmissions for persons with heart failure: a systematic review and meta-analysis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>160</volume>
+<pages>774&#x2013;784.</pages>
+</reference>
+<reference id="poem160448">
+<accessionId id="acc063" href="info:wiley/eep-poem/160448" />
+<accessionId id="acc063b" href="info:pmid/24196278" />
+<authors>Thomas R, Huntley AL, Mann M, Huws D, Elwyn G, Paranjothy S, Purdy S.</authors>
+<title>Pharmacist-led interventions to reduce unplanned admissions for older people: a systematic review and meta-analysis of randomised controlled trials.</title>
+<source>Age Ageing</source>
+<pubdate>2014</pubdate>
+<volume>43</volume>
+<pages>174&#x2013;187.</pages>
+</reference>
+<reference id="poem161102">
+<accessionId id="acc064" href="info:wiley/eep-poem/161102" />
+<accessionId id="acc064b" href="info:pmid/25176015" />
+<authors>McMurray JJ, Packer M, Desai AS, Gong J, Lefkowitz MP, Rizkala AR, Rouleau JL, Shi VC, Solomon SD, Swedberg K, Zile MR; PARADIGM-HF Investigators and Committees.</authors>
+<title>Angiotensin-neprilysin inhibition versus enalapril in heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>371</volume>
+<pages>993&#x2013;1004.</pages>
+</reference>
+<reference id="pubmed25671531">
+<accessionId id="acc065" href="info:pmid/25671531" />
+<authors>Hulkower S, Aiken BA, Stigleman S.</authors>
+<title>Clinical inquiry: what is the best beta-blocker for systolic heart failure?</title>
+<source>J Fam Pract</source>
+<pubdate>2015</pubdate>
+<volume>64</volume>
+<pages>122&#x2013;123.</pages>
+</reference>
+<reference id="poem191118">
+<accessionId id="acc066" href="info:wiley/eep-poem/191118" />
+<accessionId id="acc066b" href="info:pmid/28829876" />
+<authors>Felker GM, Anstrom KJ, Adams KF, Ezekowitz JA, Fiuzat M, Houston-Miller N, Januzzi JL Jr, Mark DB, Pi&#x00F1;a IL, Passmore G, Whellan DJ, Yang H, Cooper LS, Leifer ES, Desvigne-Nickens P, O'Connor CM.</authors>
+<title>Effect of Natriuretic Peptide-guided therapy on hospitalization or cardiovascular mortality in high-risk patients with heart failure and reduced ejection fraction: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>713&#x2013;720.</pages>
+</reference>
+<reference id="poem190419">
+<accessionId id="acc067" href="info:wiley/eep-poem/190419" />
+<accessionId id="acc067b" href="info:pmid/28181634" />
+<authors>Japp D, Shah A, Fisken S, Denvir M, Shenkin S, Japp A.</authors>
+<title>Mineralocorticoid receptor antagonists in elderly patients with heart failure: a systematic review and meta-analysis.</title>
+<source>Age Ageing</source>
+<pubdate>2017</pubdate>
+<volume>46</volume>
+<pages>18&#x2013;25.</pages>
+</reference>
+<reference id="poem190917">
+<accessionId id="acc068" href="info:wiley/eep-poem/190917" />
+<accessionId id="acc068b" href="info:pmid/27979033" />
+<authors>Thibodeau JT, Jenny BE, Maduka JO, Divanji PH, Ayers CR, Araj F, Amin AA, Morlend RM, Mammen PP, Drazner MH.</authors>
+<title>Bendopnea and risk of adverse clinical outcomes in ambulatory patients with systolic heart failure.</title>
+<source>Am Heart J</source>
+<pubdate>2017</pubdate>
+<volume>183</volume>
+<pages>102&#x2013;107.</pages>
+</reference>
+<reference id="pubmed30583296">
+<accessionId id="acc069" href="info:pmid/30583296" />
+<authors>Turagam MK, Garg J, Whang W, Sartori S, Koruth JS, Miller MA, Langan N, Sofi A, Gomes A, Choudry S, Dukkipati SR, Reddy VY.</authors>
+<title>Catheter ablation of atrial fibrillation in patients with heart failure: A meta-analysis of randomized controlled trials.</title>
+<source>Ann Intern Med</source>
+<pubdate>2018</pubdate>
+<pages />
+</reference>
+<reference id="pubmed30545450">
+<accessionId id="acc070" href="info:pmid/30545450" />
+<authors>Arnold AD, Shun-Shin MJ, Keene D, Howard JP, Sohaib SMA, Wright IJ, Cole GD, Qureshi NA, Lefroy DC, Koa-Wing M, Linton NWF, Lim PB, Peters NS, Davies DW, Muthumala A, Tanner M, Ellenbogen KA, Kanagaratnam P, Francis DP, Whinnett ZI.</authors>
+<title>His resynchronization versus biventricular pacing in patients with heart failure and left bundle branch block.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2018</pubdate>
+<volume>72</volume>
+<pages>3112&#x2013;3122.</pages>
+</reference>
+<reference id="poem210214">
+<accessionId id="acc071" href="info:wiley/eep-poem/210214" />
+<accessionId id="acc071b" href="info:pmid/30398532" />
+<authors>Mahtani KR, Heneghan C, Onakpoya I, Tierney S, Aronson JK, Roberts N, Hobbs FDR, Nunan D.</authors>
+<title>Reduced salt intake for heart failure: A systematic review.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2018</pubdate>
+<volume>178</volume>
+<pages>1693&#x2013;1700.</pages>
+</reference>
+<reference id="poem201001">
+<accessionId id="acc072" href="info:wiley/eep-poem/201001" />
+<accessionId id="acc072b" href="info:pmid/29785952" />
+<authors>Taylor KS, Verbakel JY, Feakins BG, Price CP, Perera R, Bankhead C, Pl&#x00FC;ddemann A.</authors>
+<title>Diagnostic accuracy of point-of-care natriuretic peptide testing for chronic heart failure in ambulatory care: systematic review and meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2018</pubdate>
+<volume>361</volume>
+<pages>k1450.</pages>
+</reference>
+<reference id="cochrane3331">
+<accessionId id="acc073" href="info:wiley/cochrane/CD003331" />
+<chapter_authors>Long L, Mordi IR, Bridges C, Sagar VA, Davies EJ, Coats AJ, Dalal H, Rees K, Singh SJ, Taylor RS.</chapter_authors>
+<chapter_title>Exercise-based cardiac rehabilitation for adults with heart failure.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 1. Art. No.: CD003331. DOI: 10.1002&#x002F;14651858.CD003331.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem211104">
+<accessionId id="acc074" href="info:wiley/eep-poem/211104" />
+<accessionId id="acc074b" href="info:pmid/30853478" />
+<authors>Zhou X, Xu W, Xu Y, Qian Z.</authors>
+<title>Iron supplementation improves cardiovascular outcomes in patients with heart failure.</title>
+<source>Am J Med</source>
+<pubdate>2019</pubdate>
+<volume>132</volume>
+<pages>955&#x2013;963.</pages>
+</reference>
+<reference id="poem220127">
+<accessionId id="acc075" href="info:wiley/eep-poem/220127" />
+<accessionId id="acc075b" href="info:pmid/31535829" />
+<authors>McMurray JJV, Solomon SD, Inzucchi SE, K&#x00F8;ber L, Kosiborod MN, Martinez FA, Ponikowski P, Sabatine MS, Anand IS, B&#x011B;lohl&#x00E1;vek J, B&#x00F6;hm M, Chiang CE, Chopra VK, de Boer RA, Desai AS, Diez M, Drozdz J, Duk&#x00E1;t A, Ge J, Howlett JG, Katova T, Kitakaze M, Ljungman CEA, Merkely B, Nicolau JC, O'Meara E, Petrie MC, Vinh PN, Schou M, Tereshchenko S, Verma S, Held C, DeMets DL, Docherty KF, Jhund PS, Bengtsson O, Sj&#x00F6;strand M, Langkilde AM, DAPA-HF Trial Committees and Investigators.</authors>
+<title>Dapagliflozin in patients with heart failure and reduced ejection fraction.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>381</volume>
+<pages>1995&#x2013;2008.</pages>
+</reference>
+<reference id="pubmed32222134">
+<accessionId id="acc076" href="info:pmid/32222134" />
+<authors>Armstrong PW, Pieske B, Anstrom KJ, Ezekowitz J, Hernandez AF, Butler J, Lam CSP, Ponikowski P, Voors AA, Jia G, McNulty SE, Patel MJ, Roessig L, Koglin J, O'Connor CM, VICTORIA Study Group.</authors>
+<title>Vericiguat in patients with heart failure and reduced ejection fraction.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>1883&#x2013;1893.</pages>
+</reference>
+<reference id="pubmed30553903">
+<accessionId id="acc077" href="info:pmid/30553903" />
+<authors>von Haehling S, Ebner N, Evertz R, Ponikowski P, Anker SD.</authors>
+<title>Iron deficiency in heart failure: an overview.</title>
+<source>JACC Heart Fail</source>
+<pubdate>2019</pubdate>
+<volume>7</volume>
+<pages>36&#x2013;46.</pages>
+</reference>
+<reference id="poem221223">
+<accessionId id="acc078" href="info:wiley/eep-poem/221223" />
+<accessionId id="acc078b" href="info:pmid/32865377" />
+<authors>Packer M, Anker SD, Butler J, Filippatos G, Pocock SJ, Carson P, Januzzi J, Verma S, Tsutsui H, Brueckmann M, Jamal W, Kimura K, Schnee J, Zeller C, Cotton D, Bocchi E, B&#x00F6;hm M, Choi DJ, Chopra V, Chuquiure E, Giannetti N, Janssens S, Zhang J, Gonzalez Juanatey JR, Kaul S, Brunner-La Rocca HP, Merkely B, Nicholls SJ, Perrone S, Pina I, Ponikowski P, Sattar N, Senni M, Seronde MF, Spinar J, Squire I, Taddei S, Wanner C, Zannad F, EMPEROR-Reduced Trial Investigators.</authors>
+<title>Cardiovascular and renal outcomes with empagliflozin in heart failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>1413&#x2013;1424.</pages>
+</reference>
+<reference id="poem230119">
+<accessionId id="acc079" href="info:wiley/eep-poem/230119" />
+<accessionId id="acc079b" href="info:pmid/33214130" />
+<authors>Salah HM, Al'Aref SJ, Khan MS, Al-Hawwas M, Vallurupalli S, Mehta JL, Mounsey JP, Greene SJ, McGuire DK, Lopes RD, Fudim M.</authors>
+<title>Effect of sodium-glucose cotransporter 2 inhibitors on cardiovascular and kidney outcomes-Systematic review and meta-analysis of randomized placebo-controlled trials.</title>
+<source>Am Heart J</source>
+<pubdate>2021</pubdate>
+<volume>232</volume>
+<pages>10&#x2013;22.</pages>
+</reference>
+<reference id="poem338647">
+<accessionId id="acc080" href="info:wiley/eep-poem/338647" />
+<accessionId id="acc080b" href="info:pmid/35404670" />
+<authors>Zou X, Shi Q, Vandvik PO, Guyatt G, Lang CC, Parpia S, Wang S, Agarwal A, Zhou Y, Zhu Y, Tian H, Zhu Z, Li S.</authors>
+<title>Sodium-Glucose Cotransporter-2 Inhibitors in Patients With Heart Failure : A Systematic Review and Meta-analysis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>175</volume>
+<pages>851&#x2013;861.</pages>
+</reference>
+<reference id="poem336991">
+<accessionId id="acc081" href="info:wiley/eep-poem/336991" />
+<accessionId id="acc081b" href="info:pmid/34958600" />
+<authors>Wang L, Harrison J, Dranow E, Aliyev N, Khor L.</authors>
+<title>Accuracy of Ultrasound Jugular Venous Pressure Height in Predicting Central Venous Congestion.</title>
+<source>Ann Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>175</volume>
+<pages>344&#x2013;351.</pages>
+</reference>
+<reference id="poem356888">
+<accessionId id="acc082" href="info:wiley/eep-poem/356888" />
+<accessionId id="acc082b" href="info:pmid/35378257" />
+<authors>Writing Committee Members, ACC&#x002F;AHA Joint Committee Members.</authors>
+<title>2022 AHA&#x002F;ACC&#x002F;HFSA Guideline for the Management of Heart Failure.</title>
+<source>J Card Fail</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>e1&#x2013;e167.</pages>
+</reference>
+<reference id="poem389642">
+<accessionId id="acc083" href="info:wiley/eep-poem/389642" />
+<accessionId id="acc083b" href="info:pmid/36041474" />
+<authors>Vaduganathan M, Docherty KF, Claggett BL, Jhund PS, de Boer RA, Hernandez AF, Inzucchi SE, Kosiborod MN, Lam CSP, Martinez F, Shah SJ, Desai AS, McMurray JJV, Solomon SD.</authors>
+<title>SGLT-2 inhibitors in patients with heart failure: a comprehensive meta-analysis of five randomised controlled trials.</title>
+<source>Lancet</source>
+<pubdate>2022</pubdate>
+<volume>400</volume>
+<pages>757&#x2013;767.</pages>
+</reference>
+<reference id="poem385848">
+<accessionId id="acc084" href="info:wiley/eep-poem/385848" />
+<accessionId id="acc084b" href="info:pmid/36027563" />
+<authors>Perera D, Clayton T, O'Kane PD, Greenwood JP, Weerackody R, Ryan M X, Morgan HP, Dodd M, Evans R, Canter R, Arnold S, Dixon LJ, Edwards RJ, De Silva K, Spratt JC, Conway D, Cotton J, McEntegart M, Chiribiri A, Saramago P, Gershlick A, Shah AM, Clark AL, Petrie MC, REVIVED-BCIS2 Investigators.</authors>
+<title>Percutaneous Revascularization for Ischemic Left Ventricular Dysfunction.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>1351&#x2013;1360.</pages>
+</reference>
+<reference id="poem302260">
+<accessionId id="acc089" href="info:wiley/eep-poem/302260" />
+<accessionId id="acc089b" href="info:pmid/36648467" />
+<authors>Mentz RJ, Anstrom KJ, Eisenstein EL, Sapp S, Greene SJ, Morgan S, Testani JM, Harrington AH, Sachdev V, Ketema F, Kim DY, Desvigne-Nickens P, Pitt B, Velazquez EJ, TRANSFORM-HF Investigators.</authors>
+<title>Effect of Torsemide vs Furosemide After Discharge on All-Cause Mortality in Patients Hospitalized With Heart Failure: The TRANSFORM-HF Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>329</volume>
+<pages>214&#x2013;223.</pages>
+</reference>
+<reference id="poem331101">
+<accessionId id="acc090" href="info:wiley/eep-poem/331101" />
+<accessionId id="acc090b" href="info:pmid/37623428" />
+<authors>Meekers E , Dauw J, Martens P, Dhont S , Verbrugge FH, Nijst P , Ter Maaten JM, Damman K, Mebazaa A, Filippatos G, Ruschitzka F, Tang WHW, Dupont M , Mullens W .</authors>
+<title>Renal function and decongestion with acetazolamide in acute decompensated heart failure: the ADVOR trial.</title>
+<source>Eur Heart J</source>
+<pubdate>2023</pubdate>
+<volume>44</volume>
+<pages>3672&#x2013;3682.</pages>
+</reference>
+<reference id="poem345769">
+<accessionId id="acc091" href="info:wiley/eep-poem/345769" />
+<accessionId id="acc091b" href="info:pmid/38287703" />
+<authors>Aldafas R, Crabtree T, Alkharaiji M, Vinogradova Y, Idris I.</authors>
+<title>Sodium-glucose cotransporter-2 inhibitors (SGLT2) in frail or older people with type 2 diabetes and heart failure: a systematic review and meta-analysis.</title>
+<source>Age Ageing</source>
+<pubdate>2024</pubdate>
+<volume>53</volume>
+<pages />
+</reference>
+<reference id="poem376401">
+<accessionId id="acc092" href="info:wiley/eep-poem/376401" />
+<accessionId id="acc092b" href="info:pmid/38587237" />
+<authors>Butler J, Jones WS, Udell JA, Anker SD, Petrie MC, Harrington J , Mattheus M, Zwiener I, Amir O, Bahit MC, Bauersachs J, Bayes-Genis A, Chen Y, Chopra VK, Figtree G, Ge J, Goodman SG, Gotcheva N, Goto S, Gasior T , Jamal W, Januzzi JL, Jeong MH, Lopatin Y, Lopes RD, Merkely B, Parikh PB, Parkhomenko A, Ponikowski P, Rossello X , Schou M, Simic D, Steg PG , Szachniewicz J, van der Meer P, Vinereanu D, Zieroth S, Brueckmann M, Sumin M, Bhatt DL, Hernandez AF.</authors>
+<title>Empagliflozin after Acute Myocardial Infarction.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>1455&#x2013;1466.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta><id>030.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Algorithm for the Management of Heart Failure.</title>
+<graphic href="eee0033-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected heart failure: Patient older than 60 years who presents with dyspnea, fatigue, or edema. Most will have a history of ischemic heart disease or hypertension or diabetes</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>ECG, BNP, and CXR (primarily to exclude other causes of dyspnea).</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Evaluate for other causes of symptoms.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Urine and electrolytes, creatinine, LFT, TFT, glucose, lipids, echocardiogram.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Assess for triggers, reversible causes, and underlying cardiovascular disease.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Use ACE inhibitor (or ARB) and &#x03B2;-blocker plus diuretic for symptoms.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>If still symptomatic, consider spironolactone (if no renal failure or hyperkalaemia), digoxin (if in sinus rhythm), hydralazine, or isosorbide dinitrate.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Monitor weight, renal function, and electrolytes. Provide advice about smoking, alcohol, and monitoring symptoms. Give regular influenza and pneumococcal vaccinations.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: ACE angiotensin-converting enzyme; ARB, angiotensin receptor blocker; BNP, B-type natriuretic peptide; LFT, liver function tests; TFT, thyroid function tests.</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

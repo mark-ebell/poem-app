@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Abdominal pain (adult)</title>
+<chapter_type>Diagnosis of presenting complaint</chapter_type>
+<topic_id>eee0162</topic_id>
+<topic_comment />
+<topic_lastupdated>08/23/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>James Appiah-Pippim</author_name>
+<author_title>Professor of Medicine</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Piedmont Athens Regional</author_institution>
+<author_email>James.Appiah-Pippim&#x0040;piedmont.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Dominic O Amakye</author_name>
+<author_title>Academic Nocturnist</author_title>
+<author_department>Graduate Medical Education</author_department>
+<author_institution>Piedmont Athens Regional Hospital</author_institution>
+<author_email>dominic.amakye&#x0040;piedmont.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Tinuola Andre</author_name>
+<author_title>Attending Physician</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Piedmont Athens Regional</author_institution>
+<author_email>tinuola.andre&#x0040;piedmont.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip>30606</author_zip>
+</author>
+<author primary="no">
+<author_name>Steven E. Roskos, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Michigan State University, College of Human Medicine</author_institution>
+<author_email>seroskos&#x0040;gmail.com</author_email>
+<author_phone_office>517-884-0437</author_phone_office>
+<author_phone_home>517-706-1758</author_phone_home>
+<author_phone_fax>517-355-7700</author_phone_fax>
+<author_street1>B-117 Clinical Center</author_street1>
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48824</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Use clues from the history and physical examination to establish a presumptive diagnosis on which to base diagnostic testing. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>History and physical examination alone are often adequate to begin initial treatment for gastroesophageal reflux disease (GERD), dyspepsia, irritable bowel syndrome (IBS), pelvic inflammatory disease, and urinary tract infection. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Lipase and amylase are the best lab tests for diagnosing pancreatitis. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Laboratory tests are not very helpful in diagnosing cholecystitis, appendicitis, or urolithiasis. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Ultrasound is the best test if cholecystitis or ectopic pregnancy is suspected. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>CT scanning is the best test for possible appendicitis, intestinal obstruction, urolithiasis, diverticulitis, and abdominal aortic aneurysm. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Pain or any uncomfortable feeling in the abdominal region including the flank.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Based on data from the <resourceLink href="https://www.cdc.gov/nchs/data/nhamcs/web_tables/2017_ed_web_tables-508.pdf">Centers for Disease Control and Prevention</resourceLink> (CDC), abdominal pain was the principle reason for 8.9&#x0025; of all emergency department visits in 2021.</listitem>
+<listitem>Accounted for 0.9&#x0025; of all primary care office visits in 2019 per CDC data from the National Ambulatory Medical Survey .</listitem>
+<listitem>Authors of a systematic review of 18 studies from 12 countries investigating reasons for visits in primary care found abdominal symptoms were not ranked among the top 12 reasons for visits reported by clinicians in either developed or undeveloped countries.<xref ref="pubmed30429181" resource="acc028" /> However, using data reported by patients from 5 studies, an abdominal problem ranked third as reason for visit.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Twenty-two percent of adults have had abdominal pain severe enough to be reported to a physician or other professional, cause the patient to take medication, or substantially interfere with activities at some point in their life.<xref ref="pubmed8215752" resource="acc010" /></listitem>
+<listitem>Approximately 2&#x0025; of patients who present to the emergency department (ED) have small bowel obstruction.<xref ref="pubmed23758299" resource="acc019" /></listitem>
+<listitem>In a meta-analysis of 14 studies on abdominal pain in primary care (excluding studies of children only), about 10&#x0025; of patients had a serious, potentially surgical diagnosis.<xref ref="pubmed24987023" resource="acc023" /> The most common diagnoses were gastroenteritis (7.2&#x0025;-18.7&#x0025;), irritable bowel syndrome (2.6&#x0025;-13.2&#x0025;), a urologic cause (4.1&#x0025;-6.9&#x0025;), or constipation (3.1&#x0025;-6.2&#x0025;).</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>In patients older than 60 years who presented to the emergency department with abdominal pain, 60&#x0025; were hospitalized, 20&#x0025; underwent surgery or other invasive treatment, and 5&#x0025; died within 2 weeks.<xref ref="pubmed16127115" resource="acc011" /></listitem>
+<listitem>Based on CDC data, abdominal pain was the 14th leading principle hospital discharge diagnosis in 2008 (262,000 visits or 1.6&#x0025;).</listitem>
+<listitem>In an observational study of 480 cases of acute abdominal pain presenting to a tertiary urban European emergency department, representing 12.1&#x0025; of screened visits, an extra-abdominal cause was identified in 163 cases (43&#x0025;), and 63 (13.1&#x0025;) had a subsequent related representation, investigation, or surgery related to the index visit; the most prevalent causes of these were cholelithiasis, gastroenteritis, and urinary retention.<xref ref="pubmed32218137" resource="acc029" /> A missed diagnosis was attributed to 27 (5.6&#x0025;) of presentations.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>The most common causes of abdominal pain in the primary care office and emergency department are shown in <xref ref="table001" />.<xref ref="pubmed3598476" resource="acc008" />
+<xref ref="pubmed1251963" resource="acc009" /></listitem>
+<listitem>Coronavirus disease 2019 (COVID-19) causes abdominal pain in 2.7&#x0025; (95&#x0025; CI 2.0&#x0025;-3.4&#x0025;) to 6.2&#x0025; (95&#x0025; CI 2.6&#x0025;-10.3&#x0025;) of patients based on two meta-analyses, the former including 47 studies with 10,890 patients and the latter 12,797 patients.<xref ref="pubmed32407808" resource="acc030" />
+<xref ref="pubmed32753138" resource="acc031" /> Most studies in the first paper were on hospitalized patients and studies in the second paper were noted to have high risk of bias. Other GI symptoms reported in patients with COVID-19 include diarrhea in 12.4&#x0025; and 7.7&#x0025;, and nausea and&#x002F;or vomiting in 9.0&#x0025; and 7.8&#x0025;, respectively.</listitem>
+<listitem>In another meta-analysis of three studies on abdominal pain in patients with COVID-19, abdominal pain was associated with illness severity; the odds ratio for patients with severe illness compared to non-severe patients was 7.17; 95&#x0025; CI 1.95-26.34.<xref ref="pubmed32457035" resource="acc032" /> GI symptoms do not appear to increase risk of death.<xref ref="pubmed32753138" resource="acc031" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The abdomen is innervated by nociceptive afferent nerves. These nerves can be stimulated by stretching of visceral organs or inflammation of the peritoneal lining.</listitem>
+<listitem>The pathophysiology of specific conditions such as <resourceLink href="info:wiley/eep-eee/174">cholecystitis </resourceLink> and <resourceLink href="info:wiley/eep-eee/167">appendicitis </resourceLink> is discussed in those chapters.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL />
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>The most reliable history and physical examination clues for each of the most common causes of abdominal pain are outlined below: <list style="bulleted">
+<listitem><em>Pain usually of less than 48 hours duration</em>
+<em> (in alphabetical order):</em>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-eee/167">Appendicitis: </resourceLink> RLQ pain, migration of pain from periumbilical area to RLQ (if present, has the highest positive predictive value), fever, pain before vomiting, psoas sign (lay patient on left side and, with knee straight, extend right hip, positive if abdominal pain increases) are the best symptoms to rule in appendicitis when present. Absence of pain before vomiting is strong evidence against appendicitis.<xref ref="pubmed17276803" resource="acc015" />
+<xref ref="pubmed33401081" resource="acc035" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/174">Cholecystitis:</resourceLink> typically patients have RUQ pain and Murphy's sign. For diagnosing choledocholithiasis, nausea and constant epigastric pain radiating to the back were described by most patients in one case series.<xref ref="pubmed27135724" resource="acc024" /> The Tokyo guideline for acute cholecystitis of elevated CRP level (3 mg&#x002F;dl or more) with ultrasonographic findings suggesting acute cholecystitis has a positive predictive value of 95&#x0025; and can be used as a tool to aid diagnosis.<xref ref="pubmed17252300" resource="acc039" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/6">Dissecting abdominal aortic aneurysm:</resourceLink> patients may have sudden onset of severe sharp pain (ripping or tearing in 50&#x0025;), male gender, history of hypertension, a new murmur, associated syncope (rare), pulsatile abdominal mass (rare), or asymmetric pulses (minority of patients).<xref ref="pubmed10685714" resource="acc004" /> Racial differences in presentation were reported in one study using an international case registry.<xref ref="pubmed23953874" resource="acc020" /> Blacks were 10 years younger at presentation and more likely to have a history of cocaine abuse, hypertension and diabetes than whites. In addition, blacks were less likely to have hypotension, shock, or tamponade and more likely to have acute kidney failure than their white counterparts but had similar in-hospital mortality (14.3&#x0025; vs 19.1&#x0025;, respectively).</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/848">Diverticulitis:</resourceLink> typically patients have LLQ pain and tenderness. <resourceLink href="info:wiley/eep-hp/224">Palpatory tenderness only in the LLQ</resourceLink> has the highest positive likelihood ratio (LR+ 10.4).</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/235">Ectopic pregnancy:</resourceLink> typically patients are women of childbearing age with lower quadrant pain and vaginal bleeding. Likelihood of ectopic pregnancy is increased with uterine size of 8 weeks or less, history of tubal ligation, peritoneal signs, and history of infertility or intrauterine device (IUD) use.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/171">Intestinal obstruction:</resourceLink> constipation, vomiting relieving the pain, history of abdominal surgery, abnormal bowel sounds, and abdominal distention and rigidity all moderately increase the likelihood of bowel obstruction when present. All are fairly nonsensitive, so the absence of any one does not significantly reduce the likelihood of obstruction.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/39">Mesenteric ischemia:</resourceLink> typical patients have pain out of proportion to examination and a history of vascular disease or thrombotic disease. A small proportion may have no prior history of vascular disease and are at increased risk following cardiac surgery with extracorporeal circulation or when on vasopressors.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/215">Pancreatitis:</resourceLink> typically patients have epigastric pain radiating to the back, vomiting, fever, and a history of alcoholism or gallbladder disease. Other less common precipitating factors include hypertriglyceridemia, hypercalcemia and medications.<xref ref="pubmed33496779" resource="acc040" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/244">Pelvic inflammatory disease: </resourceLink> typically patients have lower quadrant pain, bilateral tenderness, vaginal discharge, cervical motion tenderness, purulent cervical discharge, no migration of pain, and no nausea or vomiting.<xref ref="pubmed17276803" resource="acc015" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/654">Urinary tract infection </resourceLink> (pyelonephritis or cystitis): typically patients report dysuria and&#x002F;or hematuria, have no vaginal symptoms, and may believe they have a urinary tract infection (UTI).</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/650">Urolithiasis:</resourceLink> typically patients have flank pain and hematuria. Pain from ureterolithiasis tends to be colicky, radiating to the groin and recurs after minutes to hours. In equivocal cases, use a clinical decision rule to determine whether the patient is high risk for urolithiasis.</listitem>
+</list></listitem>
+<listitem><em>Pain usually of more than 48 hours duration</em>
+<em>:</em>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-eee/185">Dyspepsia </resourceLink> (ulcer- or non-ulcer-related gastritis): patients have chronic or recurrent pain or discomfort centered in the upper abdomen in relation to a meal. Symptoms that are most useful to rule in ulcer when present are food reduces pain, night waking + food relief, and episodic pain. However, no individual symptom is very helpful.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/192">GERD:</resourceLink> patients complain of heartburn, regurgitation, often after meals, aggravated by recumbent position or bending over, and relieved by antacids.<xref ref="pubmed15654800" resource="acc005" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/209">Irritable bowel syndrome:</resourceLink> patients typically have abdominal discomfort associated with altered bowel function, a chronic course, and a normal examination. This is diagnosed accurately with Rome IV criteria. Other criteria such as the Manning criteria have fallen out of favor.<xref ref="pubmed29072609" resource="acc038" /></listitem>
+<listitem><strong>Abdominal wall pain</strong>: The pain may be due to a nerve entrapment, abdominal muscle injury or from a hernia. Pain emanating from the abdomen can be distinguished from pain due to the abdominal viscera by the Carnett sign. Pain that remains unchanged or increases when the patient tenses their abdominal muscles (positive Carnett test) is likely to be an adominal wall-associated pathology (LR+ 2.9, 95&#x0025; CI 2.7-3.1 and LR&#x2212; 0.2, 95&#x0025; CI 0.1-0.3) or abdominal wall pain (LR+ 2.6, 95&#x0025; CI 2.4-2.8 and LR&#x2212; 0.2, 95&#x0025; CI 0.13-0.4).<xref ref="pubmed21297322" resource="acc016" /></listitem>
+</list></listitem>
+</list></listitem>
+<listitem>Abdominal pain may also be due to extra-abdominal causes including myocardial infarction and pneumonia. A good history and physical exam will help direct the appropriate investigations in these instances.<xref ref="pubmed36999116" resource="acc037" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>The most reliable diagnostic tests for each of the most common causes of abdominal pain are given in <xref ref="fig001" /> and <xref ref="fig002" />.</listitem>
+<listitem>The <resourceLink href="https://acsearch.acr.org/docs/69467/Narrative/">American College of Radiology</resourceLink> (ACR 2018) recommends computed tomography (CT) abdomen and pelvis with contrast as usually appropriate for patients with acute nonlocalized abdominal pain and fever but no recent surgery. For patients without fever, either CT or magnetic resonance imaging (MRI) with contrast or without are usually appropriate.</listitem>
+<listitem><em>Pain usually of less than 48 hours duration: </em>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-eee/167"> Appendicitis: </resourceLink> order a CT of the abdomen and pelvis with IV contrast if the diagnosis is less than certain.<xref ref="pubmed21251432" resource="acc017" /> Use the Alvarado scoring system to determine whether a CT would help in an equivocal case of suspected appendicitis. A score of 7 or higher makes appendicitis very likely; consult with a surgeon. Patients with scores of 4 to 6 should undergo CT scanning. Patients with a score of 3 or lower have a very low incidence (3.7&#x0025;) of appendicitis, and close follow-up or imaging are good options.<xref ref="pubmed17543650" resource="acc003" /> An elevated <resourceLink href="info:wiley/eep-dx/508">bilirubin</resourceLink> (&#x003E;1.0 mg&#x002F;dl) can be helpful in diagnosing a ruptured appendix (LR+ 5).<xref ref="pubmed26253886" resource="acc041" /></listitem>
+<listitem>Multidetector CT in an adult has a very high positive likelihood ratio (LR+ 51.3) for appendicitis. Authors of a Cochrane review found a summary sensitivity for CT of 0.95 (95&#x0025; CI 0.93-0.96), specificity of 0.94 (95&#x0025; CI 0.92-0.95), probability of appendicitis following a positive CT of 0.92 (95&#x0025; CI 0.90-0.94) and probability of having appendicitis following a negative CT result of 0.04 (95&#x0025; CI 0.03-0.05) using a median prevalence of appendicitis of 0.43.<xref ref="cochrane9977" resource="acc033" /> In a systematic review, use of CT for cases of suspected appendicitis resulted in a negative appendectomy rate of 8.7&#x0025; vs 16.7&#x0025; using clinical evaluation alone (<em>P</em> &lt;.001).<xref ref="pubmed21251432" resource="acc017" /> In a study of adolescents with nontraumatic abdominal pain, contrast-enhanced magnetic resonance imaging (MRI) for diagnosis of appendicitis performed similarly to CT (for both tests, sensitivity 93.6&#x0025; and specificity 94.3&#x0025;).<xref ref="pubmed28796552" resource="acc025" /></listitem>
+<listitem>If CT is unavailable or in pregnant women, consider graded compression ultrasound (US).<xref ref="pubmed12360459" resource="acc014" />Authors of a meta-analysis of 17 studies with 2385 patients concluded that point-of-care US was reasonably sensitive and specific for diagnosing appendicitis with a LR+ of 9.3 (95&#x0025; CI 4.8-18.4) and a LR- of 0.18 (95&#x0025; CI 0.08-0.33).<xref ref="poem210625" resource="acc027" /> US performed even better among children, with a LR+ 19.4 (5-99), and LR- 0.05 (0.0-0.29).</listitem>
+<listitem>In a prospective study of adult patients with abdominal pain and suspected appendicitis presenting to the emergency department, a normal total white blood cell count (WBC) or normal absolute neutrophil count (ANC) combined with a normal proprietary C-reactive protein (pCRP) was useful in ruling out appendicitis.<xref ref="pubmed32482481" resource="acc036" /> In this study of 422 patients, of whom 19.1&#x0025; had acute appendicitis, a normal WBC and pCRP had a sensitivity of 97.5&#x0025; (95&#x0025; CI 91.3-99.3&#x0025;), an NPV of 98.8&#x0025; (95&#x0025; CI 95.9-99.7&#x0025;) and a specificity of 50.0&#x0025; (95&#x0025; CI 44.7-55.3&#x0025;) for acute appendicitis. A normal ANC and pCRP had a sensitivity of 100&#x0025; (95&#x0025; CI 95.4-100&#x0025;), a negative predictive value of 100&#x0025; (95&#x0025; CI 97.5-100&#x0025;) and a specificity of 44.4&#x0025; (95&#x0025; CI 39.2-49.7&#x0025;) for acute appendicitis.</listitem>
+<listitem>For women of childbearing age with acute lower abdominal pain, nonspecific lower abdominal pain or suspected appendicitis, authors of a Cochrane review found laparoscopy vs. open appendectomy resulted in an increased rate of specific diagnoses but no difference in adverse events.<xref ref="cochrane7683" resource="acc018" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/174">Cholecystitis:</resourceLink> abdominal ultrasound is the best test.<xref ref="cochrane7683" resource="acc018" /> Laboratory examinations are not very helpful although NICE recommends offering liver function testing along with ultrasound (US) to patients with suspected gallstone disease. In children, US appears to have lower sensitivities and positive predictive values than those reported in adults.<xref ref="pubmed23664536" resource="acc021" /> This may be due to the higher percentage of children with chronic vs acute cholecystitis. </listitem>
+<listitem>Cholescintigraphy using 99mTC-hepatic iminodiacetic acid (HIDA scan) is indicated if an ultrasound is not diagnostic. Technetium-labeled HIDA is injected intravenously and is then taken up selectively by hepatocytes and excreted into bile. If the cystic duct is patent, the tracer will enter the gallbladder, leading to its visualization. Nonvisualization of the gallbladder is diagnostic of acute cholecystitis. This occurs because of cystic duct obstruction, usually from edema associated with acute cholecystitis or an obstructing stone. HIDA scan has a sensitivity and specificity for acute cholecystitis of approximately 90 to 97 percent and 71 to 90 percent, respectively.<xref ref="pubmed22798223" resource="acc042" />
+<xref ref="pubmed3893388" resource="acc043" /></listitem>
+<listitem>Magnetic resonance cholangiopancreatography (MRCP) can be considered if US has not detected common bile duct stones but the bile duct is dilated and&#x002F;or liver function test results are abnormal. If this test is inconclusive, an endoscopic US can be considered. When complications of cholecystitis are suspected such as gangrene, gallstone ileus and perforation, CT of the abdomen is the appropriate imaging test.<xref ref="pubmed8615248" resource="acc044" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/6">Dissecting abdominal aortic aneurysm:</resourceLink> if the diagnosis is uncertain and the patient is stable, aortic ultrasound is the best first choice. If you are fairly certain of the diagnosis and urgent surgery may be needed, order a helical CT with contrast (CTA) or MRA, as these better evaluate the full extent of the aneurysm. Unstable patients in whom the diagnosis is likely should be promptly resuscitated and go directly to the operating room.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/848">Diverticulitis:</resourceLink> CT of the abdomen and pelvis with oral and IV contrast is the best test.<xref ref="pubmed21297322" resource="acc016" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/235">Ectopic pregnancy:</resourceLink> order a urine pregnancy test. If positive, order a transvaginal US as well as a quantitative &#x03B2;-chorionic gonadotropin (&#x03B2;-HCG) test.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/171">Intestinal obstruction:</resourceLink> CT of the abdomen and pelvis with IV contrast (only) is the best test, but supine and upright abdomen x-ray is a close second. In one study, there was no improvement in diagnostic accuracy when including erect radiographs with supine radiographs for adult patients with suspected bowel obstruction or paralytic ileus, although intra- and inter-rater agreement improved when using both tests.<xref ref="pubmed30039624" resource="acc026" />&#x00A0;MRI and ultrasound were also found to be accurate in diagnosing small bowel obstruction.<xref ref="pubmed23758299" resource="acc019" /> Positive likelihood ratios in this systematic review for CT, MRI and ultrasound were 3.6 (5- to 10-mm slices, 95&#x0025; CI 2.3-5.4), 6.8 (95&#x0025; CI 2.1-21.5), and 14.1 (95&#x0025; CI 3.6-55.7), respectively.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/39">Mesenteric ischemia:</resourceLink> if the patient has a history of deep vein thrombosis (DVT) or a known hypercoagulable state, order CTA to rule out mesenteric venous thrombosis. <resourceLink href="info:wiley/eep-dx/509">Multidetector CT</resourceLink> is reasonably sensitive but not highly specific for acute mesenteric ischemia (LR+ 5.4, LR&#x2212; 0.08). An elevated lactate has a high sensitivity for mesenteric ischemia (90&#x0025; sensitive). However, a normal lactic acid level does not rule out mesenteric ischemia. If there is a high index of suspicion then a CT angiogram of the abdomen is indicated.<xref ref="pubmed36436968" resource="acc045" /></listitem>
+<listitem>A prolonged prothombin time may help discriminate between spontaneous intramural intestinal hemorrhage and acute mesenteric ischemia, as CT may show similar findings.<xref ref="pubmed24051008" resource="acc022" /> Intestinal fatty acid binding protein had moderate diagnostic accuracy for intestinal ischemia with an area under the curve of 0.82, 95&#x0025; CI 0.79-0.86 based on a meta-analysis of 10 studies with 1265 patients; risk of selection bias was high.<xref ref="pubmed32538048" resource="acc034" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/215">Pancreatitis:</resourceLink> order lipase and amylase tests. Elevated lipase or amylase are sensitive in diagnosis and a level &#x003E;3x the upper limit of normal is required. Amylase has a short half life and the diagnosis may be missed in patients presenting after 24 hours of onset of symptoms. Lipase has a longer half life and is the preferred test.<xref ref="pubmed10022647" resource="acc046" /> Order an ultrasound US to detect gallbladder stones on patients with acute pancreatitis. Use CT scan abdomen and pelvis with contrast or MRI without IV contrast with MRCP if the cause of abdominal pain is unclear or in patients with severe disease as determined by APACHE II or <resourceLink href="info:wiley/eep-rule/137">Ranson's criteria</resourceLink>.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/244">Pelvic inflammatory disease:</resourceLink> no testing is required to make the diagnosis and begin treatment. Wet prep negative for WBCs makes the diagnosis of pelvic inflammatory disease unlikely. Consider cervical DNA probe for gonorrhea and chlamydia organisms to confirm the diagnosis.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/654">UTI:</resourceLink> symptoms alone may be more reliable than U&#x002F;A. Urine culture is the gold standard.<xref ref="hp36" resource="acc001" /></listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/650">Urolithiasis:</resourceLink> CT of the abdomen and pelvis without contrast is the best test (LR+ 47, LR&#x2212; 0.05).<xref ref="pubmed12192351" resource="acc013" />Consider US if CT is not available, in pregnant women, or as a bedside screening tool; however, a negative US does not rule out a stone. Urinalysis has a poor positive and negative predictive value (60&#x0025; and 73&#x0025;) and should not be used alone to exclude urolithiasis.<xref ref="pubmed10458342" resource="acc012" /></listitem>
+</list></listitem>
+<listitem><em>Pain usually of more than 48 hours duration: </em>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-eee/185"> Dyspepsia </resourceLink> (ulcer- or nonulcer-related gastritis): testing is usually not necessary. If patient has "alarm features" (bleeding [melena, hematochezia, hematemesis], anemia, early satiety, unexplained weight loss &#x003E;10&#x0025; body weight, progressive dysphagia, odynophagia, persistent vomiting, family history of GI cancer, previous esophagogastric malignancy, previous documented peptic ulcer, lymphadenopathy, or abdominal mass), order an upper endoscopy. If <em>H. pylori </em> prevalence is 10&#x0025; or more in your community, consider testing for <em>H. pylori </em> with stool antigen test (LR+ 9.3, LR&#x2212; 0.05).<xref ref="pubmed16181387" resource="acc006" /> Leave a 2-week washout period after proton pump inhibitor (PPI) use before testing for <em>H. pylori</em>.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/192">GERD:</resourceLink> testing is usually not necessary. A trial of high-dose proton pump inhibitor is 75&#x0025; sensitive for GERD and 55&#x0025; specific. If there are "alarm features" (dysphagia, odynophagia, bleeding, weight loss, anemia, symptoms lasting &#x003E;5 years), order an upper endoscopy.<xref ref="pubmed15654800" resource="acc005" /> Barium upper GI testing and <em>Helicobacter (H.) pylori</em> testing are not helpful.</listitem>
+<listitem><resourceLink href="info:wiley/eep-eee/209">Irritable bowel syndrome:</resourceLink> Testing is usually not necessary. If "alarm features" (hematochezia, weight loss &#x003E;10 lb, family history of colon cancer, recurring fever, anemia, chronic severe diarrhea) are present, arrange lower endoscopy. If diarrhea is predominant, consider testing for celiac disease, as its prevalence is 5&#x0025; in patients with IBS compared with less than 1&#x0025; in healthy controls.<xref ref="pubmed12425585" resource="acc007" /></listitem>
+<listitem><strong>Pancreatic cancer</strong>: of the imaging tests available, consider endosonographic fine needle aspiration biopsy (LR+ 14.3, LR&#x2212; 0.15) or FDG-PET&#x002F;CT imaging (LR+ 14.2, LR&#x2212; 0.16).</listitem>
+</list></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A clinical rule was developed and validated to predict the likelihood of a significant cause of abdominal pain in adult men.</listitem>
+<listitem>The Bali, Imrie, and Ranson scores help to predict the prognosis in patients with acute pancreatitis.</listitem>
+<listitem>The Alvarado score can risk-stratify patients with suspected appendicitis and help to identify those requiring immediate surgical consultation vs those who should have imaging or close clinical follow-up.<xref ref="pubmed17543650" resource="acc003" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Assess stability; arrange urgent transport of unstable patients to the hospital for resuscitation while workup continues.</listitem>
+<listitem>Determine the duration of pain: if pain is of less than 48 hours duration, rule out an "acute abdomen" (more likely with pain followed by vomiting, age 65 years or older, history of abdominal surgery, abdominal guarding, and rebound tenderness). If you suspect an acute abdomen, consider a surgical consult.<xref ref="pubmed1251963" resource="acc009" /></listitem>
+<listitem>Use of opioid analgesics for patients with acute abdominal pain makes them more comfortable and is unlikely to interfere with diagnosis.<xref ref="cochrane5660" resource="acc002" /></listitem>
+<listitem>Use historical and physical examination clues to direct you toward a presumptive diagnosis (see <xref ref="fig001" /> and <xref ref="fig002" />). When pain is localized to the right upper or lower quadrants, <resourceLink href="info:wiley/eep-dx/491">ultrasound</resourceLink> is the preferred initial diagnostic test.</listitem>
+<listitem>If the etiology is still unclear, but immediately dangerous diagnoses are unlikely, consider reassuring the patient and arranging close follow-up. A clinical decision rule can help determine the likelihood that serious disease is present.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>1</HP_ID>
+<HP_ID>9</HP_ID>
+<HP_ID>10</HP_ID>
+<HP_ID>18</HP_ID>
+<HP_ID>21</HP_ID>
+<HP_ID>20</HP_ID>
+<HP_ID>22</HP_ID>
+<HP_ID>36</HP_ID>
+<HP_ID>80</HP_ID>
+<HP_ID>89</HP_ID>
+<HP_ID>111</HP_ID>
+<HP_ID>132</HP_ID>
+<HP_ID>173</HP_ID>
+<HP_ID>5</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>10</Dx_ID>
+<Dx_ID>7</Dx_ID>
+<Dx_ID>1</Dx_ID>
+<Dx_ID>3</Dx_ID>
+<Dx_ID>21</Dx_ID>
+<Dx_ID>2</Dx_ID>
+<Dx_ID>87</Dx_ID>
+<Dx_ID>111</Dx_ID>
+<Dx_ID>136</Dx_ID>
+<Dx_ID>165</Dx_ID>
+<Dx_ID>183</Dx_ID>
+<Dx_ID>200</Dx_ID>
+<Dx_ID>281</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL />
+<Treatment_Drug />
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL />
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="hp36">
+<accessionId id="acc001" href="info:wiley/eep-hp/36" />
+<accessionId id="acc001b" href="info:wiley/eep-poem/40828" />
+<accessionId id="acc001c" href="info:pmid/12020306" />
+<authors>Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S.</authors>
+<title>Does this woman have an acute uncomplicated urinary tract infection?</title>
+<source>JAMA</source>
+<pubdate>2002</pubdate>
+<volume>287</volume>
+<pages>2701-2710.</pages>
+</reference>
+<reference id="cochrane5660">
+<accessionId id="acc002" href="info:wiley/cochrane/CD005660" />
+<chapter_authors>Manterola C, Astudillo P, Losada H, Pineda V, Sanhueza A, Vial M.</chapter_authors>
+<chapter_title>Analgesia in patients with acute abdominal pain (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>
+<em>The Cochrane Library</em> 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17543650">
+<accessionId id="acc003" href="info:pmid/17543650" />
+<authors>McKay R, Shepherd J.</authors>
+<title>The use of the clinical scoring system by Alvarado in the decision to perform computed tomography for acute appendicitis in the ED.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2007</pubdate>
+<volume>25</volume>
+<pages>489-493.</pages>
+</reference>
+<reference id="pubmed10685714">
+<accessionId id="acc004" href="info:pmid/10685714" />
+<authors>Hagan PG, Nienaber CA, Isselbacher EM, et al.</authors>
+<title>The International Registry of Acute Aortic Dissection (IRAD): New insights into an old disease.</title>
+<source>JAMA</source>
+<pubdate>2000</pubdate>
+<volume>283</volume>
+<pages>897-903.</pages>
+</reference>
+<reference id="pubmed15654800">
+<accessionId id="acc005" href="info:pmid/15654800" />
+<authors>DeVault KR, Castell DO; American College of Gastroenterology.</authors>
+<title>Updated guidelines for the diagnosis and treatment of gastroesophageal reflux disease.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2005</pubdate>
+<volume>100</volume>
+<pages>190-200.</pages>
+</reference>
+<reference id="pubmed16181387">
+<accessionId id="acc006" href="info:pmid/16181387" />
+<authors>Talley NJ, Vakil N; Practice Parameters Committee of the American College of Gastroenterology.</authors>
+<title>Guidelines for the management of dyspepsia.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2005</pubdate>
+<volume>100</volume>
+<pages>2324-2337.</pages>
+</reference>
+<reference id="pubmed12425585">
+<accessionId id="acc007" href="info:pmid/12425585" />
+<authors>American College of Gastroenterology Functional Gastrointestinal Disorders Task Froce.</authors>
+<title>Evidence-based position statement on the management of irritable bowel syndrome in North America</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2002</pubdate>
+<volume>97</volume>
+<pages>S1-S5.</pages>
+</reference>
+<reference id="pubmed3598476">
+<accessionId id="acc008" href="info:pmid/3598476" />
+<authors>Adelman A.</authors>
+<title>Abdominal pain in the primary care setting.</title>
+<source>J Fam Pract</source>
+<pubdate>1987</pubdate>
+<volume>25</volume>
+<pages>27-32.</pages>
+</reference>
+<reference id="pubmed1251963">
+<accessionId id="acc009" href="info:pmid/1251963" />
+<authors>Brewer BJ, Golden GT, Hitch DC, Rudolf LE, Wangensteen SL.</authors>
+<title>Abdominal pain. An analysis of 1,000 consecutive cases in a University Hospital emergency room.</title>
+<source>Am J Surg</source>
+<pubdate>1976</pubdate>
+<volume>131</volume>
+<pages>219-223.</pages>
+</reference>
+<reference id="pubmed8215752">
+<accessionId id="acc010" href="info:pmid/8215752" />
+<authors>Kroenke K, Price RK.</authors>
+<title>Symptoms in the community. Prevalence, classification, and psychiatric comorbidity.</title>
+<source>Arch Intern Med</source>
+<pubdate>1993</pubdate>
+<volume>153</volume>
+<pages>2474-2480.</pages>
+</reference>
+<reference id="pubmed16127115">
+<accessionId id="acc011" href="info:pmid/16127115" />
+<authors>Lewis LM, Banet GA, Blanda M, Hustey FM, Meldon SW, Gerson LW.</authors>
+<title>Etiology and clinical course of abdominal pain in senior patients: A prospective, multicenter study.</title>
+<source>J Gerontol A Biol Sci Med Sci</source>
+<pubdate>2005</pubdate>
+<volume>60</volume>
+<pages>1071-1076.</pages>
+</reference>
+<reference id="pubmed10458342">
+<accessionId id="acc012" href="info:pmid/10458342" />
+<accessionId id="acc012b" href="info:wiley/eep-poem/11129" />
+<authors>Bove P, Kaplan D, Dalrymple N, et al.</authors>
+<title>Reexamining the value of hematuria testing in patients with acute flank pain.</title>
+<source>J Urology</source>
+<pubdate>1999</pubdate>
+<volume>162</volume>
+<pages>685-687.</pages>
+</reference>
+<reference id="pubmed12192351">
+<accessionId id="acc013" href="info:pmid/12192351" />
+<accessionId id="acc013b" href="info:wiley/eep-poem/41257" />
+<authors>Worster A, Preyra I, Weaver B, Haines T.</authors>
+<title>The accuracy of noncontrast helical computed tomography versus intravenous pyelography in the diagnosis of suspected acute urolithiasis: A meta-analysis.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2002</pubdate>
+<volume>40</volume>
+<pages>280-286.</pages>
+</reference>
+<reference id="pubmed12360459">
+<accessionId id="acc014" href="info:pmid/12360459" />
+<accessionId id="acc014b" href="info:wiley/eep-poem/50404" />
+<authors>Rettenbacher T, Hollerweger A, Gritzman N, et al.</authors>
+<title>Appendicitis: Should diagnostic imaging be performed if the clinical presentation is highly suggestive of the disease?</title>
+<source>Gastroenterology</source>
+<pubdate>2002</pubdate>
+<volume>123</volume>
+<pages>992-998.</pages>
+</reference>
+<reference id="pubmed17276803">
+<accessionId id="acc015" href="info:pmid/17276803" />
+<accessionId id="acc015b" href="info:wiley/eep-poem/90444" />
+<authors>Morishita K, Gushimiyagi M, Hashiguchi M, Stein GH, Tokuda Y.</authors>
+<title>Clinical prediction rule to distinguish pelvic inflammatory disease from acute appendicitis in women of childbearing age.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2007</pubdate>
+<volume>25</volume>
+<pages>152-157.</pages>
+</reference>
+<reference id="pubmed21297322">
+<accessionId id="acc016" href="info:pmid/21297322" />
+<authors>Takada T, Ikusaka M, Ohira Y, Noda K, Tsukamoto T.</authors>
+<title>Diagnostic usefulness of Carnett's test in psychogenic abdominal pain.</title>
+<source>Intern Med</source>
+<pubdate>2011</pubdate>
+<volume>50</volume>
+<pages>213-217.</pages>
+</reference>
+<reference id="pubmed21251432">
+<accessionId id="acc017" href="info:pmid/21251432" />
+<authors>Krajewski S, Brown J, Phang PT, Raval M, Brown CJ.</authors>
+<title>Impact of computed tomography of the abdomen on clinical outcomes in patients with acute right lower quadrant pain: A meta-analysis.</title>
+<source>Can J Surg</source>
+<pubdate>2011</pubdate>
+<volume>54</volume>
+<pages>43-53.</pages>
+</reference>
+<reference id="cochrane7683">
+<accessionId id="acc018" href="info:wiley/cochrane/CD007683" />
+<chapter_authors>Gait&#x00E1;n HG, Reveiz L, Farquhar C.</chapter_authors>
+<chapter_title>Laparoscopy for the management of acute lower abdominal pain in women of childbearing age (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>
+<em>The Cochrane Library</em> 2011 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed23758299">
+<accessionId id="acc019" href="info:pmid/23758299" />
+<authors>Taylor MR, Lalani N.</authors>
+<title>Adult small bowel obstruction.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2013</pubdate>
+<volume>20</volume>
+<pages>528-544.</pages>
+</reference>
+<reference id="pubmed23953874">
+<accessionId id="acc020" href="info:pmid/23953874" />
+<authors>Bossone E, Pyeritz RE, O'Gara P, Harris KM, Braverman AC, Pape L, Russo MJ, Hughes GC, Tsai T, Montgomery DG, Nienaber CA, Isselbacher EM, Eagle KA; International Registry of Acute Aortic Dissection (IRAD) Investigators.</authors>
+<title>Acute aortic dissection in blacks: Insights from the International Registry of Acute Aortic Dissection.</title>
+<source>Am J Med</source>
+<pubdate>2013</pubdate>
+<volume>126</volume>
+<pages>909-915.</pages>
+</reference>
+<reference id="pubmed23664536">
+<accessionId id="acc021" href="info:pmid/23664536" />
+<authors>Tsai J, Sulkowski JP, Cooper JN, Mattei P, Deans KJ, Minneci PC.</authors>
+<title>Sensitivity and predictive value of ultrasound in pediatric cholecystitis.</title>
+<source>J Surg Res</source>
+<pubdate>2013</pubdate>
+<volume>184</volume>
+<pages>378-382.</pages>
+</reference>
+<reference id="pubmed24051008">
+<accessionId id="acc022" href="info:pmid/24051008" />
+<authors>Tseng C-Y, Chiu Y-H, Chuang J-L, Chen J-D, Huang H-H, How C-K, Yen DH-T, Huang M-S.</authors>
+<title>How to differentiate spontaneous intramural intestinal hemorrhage from acute mesenteric ischemia.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2013</pubdate>
+<volume>31</volume>
+<pages>1586-1590.</pages>
+</reference>
+<reference id="pubmed24987023">
+<accessionId id="acc023" href="info:pmid/24987023" />
+<authors>Viniol A, Keunecke C, Biroga T, Stadje R, Dornieden K, B&#x00F6;sner S, Donner-Banzhoff N, Haasenritter J, Becker A.</authors>
+<title>Studies of the symptom abdominal pain--a systematic review and meta-analysis.</title>
+<source>Fam Pract</source>
+<pubdate>2014</pubdate>
+<volume>31</volume>
+<pages>517&#x2013;529.</pages>
+</reference>
+<reference id="pubmed27135724">
+<accessionId id="acc024" href="info:pmid/27135724" />
+<authors>Wilcox CM, Kim H.</authors>
+<title>Prospective evaluation of the clinical features of choledocholithiasis: Focus on abdominal pain.</title>
+<source>South Med J</source>
+<pubdate>2016</pubdate>
+<volume>109</volume>
+<pages>290&#x2013;293</pages>
+</reference>
+<reference id="pubmed28796552">
+<accessionId id="acc025" href="info:pmid/28796552" />
+<authors>Kinner S, Pickhardt PJ, Riedesel EL, Gill KG, Robbins JB, Kitchin DR, Ziemlewicz TJ, Harringa JB, Reeder SB, Repplinger MD.</authors>
+<title>Diagnostic accuracy of MRI versus CT for the evaluation of acute appendicitis in children and young adults.</title>
+<source>AJR Am J Roentgenol</source>
+<pubdate>2017</pubdate>
+<volume>209</volume>
+<pages>911&#x2013;919</pages>
+</reference>
+<reference id="pubmed30039624">
+<accessionId id="acc026" href="info:pmid/30039624" />
+<authors>Geng WZM, Fuller M, Osborne B, Thoirs K.</authors>
+<title>The value of the erect abdominal radiograph for the diagnosis of mechanical bowel obstruction and paralytic ileus in adults presenting with acute abdominal pain.</title>
+<source>J Med Radiat Sci</source>
+<pubdate>2018</pubdate>
+<pages />
+</reference>
+<reference id="poem210625">
+<accessionId id="acc027" href="info:wiley/eep-poem/210625" />
+<accessionId id="acc027b" href="info:pmid/30017693" />
+<authors>Lee SH, Yun SJ.</authors>
+<title>Diagnostic performance of emergency physician-performed point-of-care ultrasonography for acute appendicitis: A meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2019</pubdate>
+<volume>37</volume>
+<pages>696&#x2013;705</pages>
+</reference>
+<reference id="pubmed30429181">
+<accessionId id="acc028" href="info:pmid/30429181" />
+<authors>Finley CR, Chan DS, Garrison S, Korownyk C, Kolber MR, Campbell S, Eurich DT, Lindblad AJ, Vandermeer B, Allan GM.</authors>
+<title>What are the most common conditions in primary care? Systematic review.</title>
+<source>Can Fam Physician</source>
+<pubdate>2018</pubdate>
+<volume>64</volume>
+<pages>832&#x2013;840</pages>
+</reference>
+<reference id="pubmed32218137">
+<accessionId id="acc029" href="info:pmid/32218137" />
+<authors>Osterwalder I, &#x00D6;zkan M, Malinovska A, Nickel CH, Bingisser R.</authors>
+<title>Acute abdominal pain: Missed diagnoses, extra-abdominal conditions, and outcomes.</title>
+<source>J Clin Med</source>
+<pubdate>2020</pubdate>
+<volume>9</volume>
+<pages />
+</reference>
+<reference id="pubmed32407808">
+<accessionId id="acc030" href="info:pmid/32407808" />
+<authors>Sultan S, Altayar O, Siddique SM, Davitkov P, Feuerstein JD, Lim JK, Falck-Ytter Y, El-Serag HB, AGA Institute. Electronic address: ewilson&#x0040;gastro.org.</authors>
+<title>AGA Institute Rapid Review of the Gastrointestinal and Liver Manifestations of COVID-19, Meta-Analysis of International Data, and Recommendations for the Consultative Management of Patients with COVID-19.</title>
+<source>Gastroenterology</source>
+<pubdate>2020</pubdate>
+<volume>159</volume>
+<pages>320&#x2013;334.e27</pages>
+</reference>
+<reference id="pubmed32753138">
+<accessionId id="acc031" href="info:pmid/32753138" />
+<authors>Tariq R, Saha S, Furqan F, Hassett L, Pardi D, Khanna S.</authors>
+<title>Prevalence and mortality of COVID-19 patients with gastrointestinal symptoms: A systematic review and meta-analysis.</title>
+<source>Mayo Clin Proc</source>
+<pubdate>2020</pubdate>
+<volume>95</volume>
+<pages>1632&#x2013;1648</pages>
+</reference>
+<reference id="pubmed32457035">
+<accessionId id="acc032" href="info:pmid/32457035" />
+<authors>Suresh Kumar VC, Mukherjee S, Harne PS, Subedi A, Ganapathy MK, Patthipati VS, Sapkota B.</authors>
+<title>Novelty in the gut: A systematic review and meta-analysis of the gastrointestinal manifestations of COVID-19.</title>
+<source>BMJ Open Gastroenterol</source>
+<pubdate>2020</pubdate>
+<volume>7</volume>
+<pages />
+</reference>
+<reference id="cochrane9977">
+<accessionId id="acc033" href="info:wiley/cochrane/CD9977" />
+<chapter_authors>Rud B, Vejborg TS, Rappeport ED, Reitsma JB, Wille&#x2010;J&#x00F8;rgensen P.</chapter_authors>
+<chapter_title>Computed tomography for diagnosis of acute appendicitis in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 11. Art. No.: CD009977. DOI: 10.1002&#x002F;14651858.CD009977.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed32538048">
+<accessionId id="acc034" href="info:pmid/32538048" />
+<authors>Ding CM, Wu YH, Liu XF.</authors>
+<title>Diagnostic accuracy of intestinal fatty acid binding protein for acute intestinal ischemia: A aystematic review and meta-analysis.</title>
+<source>Clin Lab</source>
+<pubdate>2020</pubdate>
+<volume>66</volume>
+<pages />
+</reference>
+<reference id="pubmed33401081">
+<accessionId id="acc035" href="info:pmid/33401081" />
+<authors>Takada T, Inokuchi R, Kim H, Sasaki S, Terada K, Yokota H, Hattori S, Mikami W, Kubota T, Fukuhara S.</authors>
+<title>Is "pain before vomiting" useful?: Diagnostic performance of the classic patient history item in acute appendicitis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>41</volume>
+<pages>84&#x2013;89</pages>
+</reference>
+<reference id="pubmed32482481">
+<accessionId id="acc036" href="info:pmid/32482481" />
+<authors>Huckins DS, Copeland K.</authors>
+<title>Diagnostic accuracy of combined WBC, ANC and CRP in adult emergency department patients suspected of acute appendicitis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>44</volume>
+<pages>401&#x2013;406</pages>
+</reference>
+<reference id="pubmed36999116">
+<accessionId id="acc037" href="info:pmid/36999116" />
+<authors>Khan IA, Karim HMR, Panda CK, Ahmed G, Nayak S.</authors>
+<title>Atypical Presentations of Myocardial Infarction: A Systematic Review of Case Reports.</title>
+<source>Cureus</source>
+<pubdate>2023</pubdate>
+<volume>15</volume>
+<pages>e35492</pages>
+</reference>
+<reference id="pubmed29072609">
+<accessionId id="acc038" href="info:pmid/29072609" />
+<authors>Lacy BE, Patel NK.</authors>
+<title>Rome Criteria and a Diagnostic Approach to Irritable Bowel Syndrome.</title>
+<source>J Clin Med</source>
+<pubdate>2017</pubdate>
+<volume>6</volume>
+<pages />
+</reference>
+<reference id="pubmed17252300">
+<accessionId id="acc039" href="info:pmid/17252300" />
+<authors>Hirota M, Takada T, Kawarada Y, Nimura Y, Miura F, Hirata K, Mayumi T, Yoshida M, Strasberg S, Pitt H, Gadacz TR, de Santibanes E, Gouma DJ, Solomkin JS, Belghiti J, Neuhaus H, B&#x00FC;chler MW, Fan ST, Ker CG, Padbury RT, Liau KH, Hilvano SC, Belli G, Windsor JA, Dervenis C.</authors>
+<title>Diagnostic criteria and severity assessment of acute cholecystitis: Tokyo Guidelines.</title>
+<source>J Hepatobiliary Pancreat Surg</source>
+<pubdate>2007</pubdate>
+<volume>14</volume>
+<pages>78&#x2013;82</pages>
+</reference>
+<reference id="pubmed33496779">
+<accessionId id="acc040" href="info:pmid/33496779" />
+<authors>Mederos MA, Reber HA, Girgis MD.</authors>
+<title>Acute Pancreatitis: A Review.</title>
+<source>JAMA</source>
+<pubdate>2021</pubdate>
+<volume>325</volume>
+<pages>382&#x2013;390</pages>
+</reference>
+<reference id="pubmed26253886">
+<accessionId id="acc041" href="info:pmid/26253886" />
+<authors>Eren T , Tombalak E, Ozemir IA, Leblebici M, Ziyade S, Ekinci O, Alimoglu O.</authors>
+<title>Hyperbilirubinemia as a predictive factor in acute appendicitis.</title>
+<source>Eur J Trauma Emerg Surg</source>
+<pubdate>2016</pubdate>
+<volume>42</volume>
+<pages>471&#x2013;476</pages>
+</reference>
+<reference id="pubmed22798223">
+<accessionId id="acc042" href="info:pmid/22798223" />
+<authors>Kiewiet JJ, Leeuwenburgh MM, Bipat S, Bossuyt PM, Stoker J, Boermeester MA.</authors>
+<title>A systematic review and meta-analysis of diagnostic performance of imaging in acute cholecystitis.</title>
+<source>Radiology</source>
+<pubdate>2012</pubdate>
+<volume>264</volume>
+<pages>708&#x2013;20</pages>
+</reference>
+<reference id="pubmed3893388">
+<accessionId id="acc043" href="info:pmid/3893388" />
+<authors>Fink-Bennett D, Freitas JE, Ripley SD, Bree RL.</authors>
+<title>The sensitivity of hepatobiliary imaging and real-time ultrasonography in the detection of acute cholecystitis.</title>
+<source>Arch Surg</source>
+<pubdate>1985</pubdate>
+<volume>120</volume>
+<pages>904&#x2013;6</pages>
+</reference>
+<reference id="pubmed8615248">
+<accessionId id="acc044" href="info:pmid/8615248" />
+<authors>Fidler J, Paulson EK, Layfield L.</authors>
+<title>CT evaluation of acute cholecystitis: findings and usefulness in diagnosis.</title>
+<source>AJR Am J Roentgenol</source>
+<pubdate>1996</pubdate>
+<volume>166</volume>
+<pages>1085&#x2013;8</pages>
+</reference>
+<reference id="pubmed36436968">
+<accessionId id="acc045" href="info:pmid/36436968" />
+<authors>Expert Panel on Interventional Radiology, Lam A, Kim YJ, Fidelman N, Higgins M, Cash BD, Charalel RA, Guimaraes MS, Kwan SW, Patel PJ, Plett S, Scali ST, Stadtlander KS, Stoner M, Tong R, Kapoor BS.</authors>
+<title>ACR Appropriateness Criteria&#x00AE; Radiologic Management of Mesenteric Ischemia: 2022 Update.</title>
+<source>J Am Coll Radiol</source>
+<pubdate>2022</pubdate>
+<volume>19</volume>
+<pages>S433&#x2013;S444</pages>
+</reference>
+<reference id="pubmed10022647">
+<accessionId id="acc046" href="info:pmid/10022647" />
+<authors>Frank B, Gottlieb K.</authors>
+<title>Amylase normal, lipase elevated: is it pancreatitis? A case series and review of the literature.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>1999</pubdate>
+<volume>94</volume>
+<pages>463&#x2013;9</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>131.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Abdominal Pain of Less than 48 Hours Duration: Diagnosis.</title>
+<graphic href="eee0162-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Urinary symptoms?</label>
+<path target="cell-2"> Yes </path>
+<path target="cell-3"> No </path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Presume UTI, U&#x002F;A, and culture.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Female with lower abdominal pain?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Urine HCG.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Presume ectopic pregnancy TV US + quantitative &#x03B2;-HCG.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Bilateral pain?</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Presume PID Wet prep.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>LLQ pain?</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Presume diverticulitis: CT of abdomen and pelvis with IV&#x002F;oral contrast.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>RUQ pain?</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Presume cholecystitis: abdominal US.</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Flank pain?</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Presume urolithiasis: CT of abdomen and pelvis without contrast.</label>
+</cell>
+<cell type="decision" id="cell-14">
+<label>RLQ pain?</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Presume appendicitis: If equivocal, CT of abdomen and pelvis with IV contrast.</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Distended abdomen?</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Presume intestinal obstruction: CT of abdomen and pelvis with IV contrast.</label>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Sudden onset, severe sharp pain?</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Presume AAA: imaging if diagnosis in question or preop if patient stable, OR if unstable.</label>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Pain out of proportion to examination?</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Presume mesenteric ischemia: CT angiogram, lactic acid level, or abdominal angiogram (see Diagnostic Tests table).</label>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Epigastric pain radiating to back?</label>
+</cell>
+<cell type="action" id="cell-23">
+<label>Presume pancreatitis: obtain lipase and amylase levels If positive, then US of abdomen.</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Go to <xref ref="fig002" />.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: TV US, transvaginal ultrasound; US, ultrasound; AAA, abdominal aortic aneuerysm; UTI, urinary tract infection; U&#x002F;A, urinalysis; HCG, human chorionic gonadotropin; LLQ, left lower quadrant; RUQ, right upper quadrant; RLQ, right lower quadrant; PID, pelvic inflammatory disease.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>131.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Abdominal Pain of More than 48 Hours Duration: Diagnosis.</title>
+<graphic href="eee0162-w0002.gif" />
+<cell type="start" id="cell-25">
+<label>Associated altered bowel function?</label>
+<path target="cell-26"> Yes </path>
+<path target="cell-27"> No </path>
+</cell>
+<cell type="action" id="cell-26">
+<label>Presume IBS. Screen for alarm features.*</label>
+</cell>
+<cell type="decision" id="cell-27">
+<label>Heartburn or regurgitation predominant?</label>
+</cell>
+<cell type="action" id="cell-28">
+<label>Presume GERD. Screen for alarm features.*</label>
+</cell>
+<cell type="decision" id="cell-29">
+<label>Upper abdominal pain or discomfort?</label>
+</cell>
+<cell type="action" id="cell-30">
+<label>Presume dyspepsia. Screen for alarm features.* Consider <em>H. pylori</em> stool Ag.</label>
+</cell>
+<cell type="action" id="cell-31">
+<label>See <xref ref="fig001" />. Consider less serious diagnoses (gastroenteritis, dysmenorrhea, simple pregnancy, diarrhea, constipation, muscular strain). Consider less common diagnoses (IBD, cancer). Use the the <resourceLink href="info:wiley/eep-rule/172">clinical decision rule</resourceLink> to determine the likelihood that serious disease is present.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: IBS, Irritable bowel syndrome; GERD, gastroesophageal reflux disease; <em>H. pylori</em> stool Ag., <em>Helicobacter pylori</em> stool antigen; IBD, Irritable bowel disease; GI, gastrointestinal</footnote>
+<footnote>Alarm features: Bleeding (melena, hematochezia, hematemesis), early satiety, progressive dysphagia, odynophagia, persistent vomiting, chronic severe diarrhea, recurring fever, previous GI malignancy, previous documented peptic ulcer, family history of GI cancer, unexplained weight loss greater than 10&#x0025; body weight or greater than 10 lb, lymphadenopathy, abdominal mass, anemia.</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>The Most Common Causes of Abdominal Pain in the Primary Care Office and Emergency Department.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Diagnosis</th>
+<th align="left" colspan="1">Primary Care Office (&#x0025;)</th>
+<th align="left" colspan="1">Emergency Department (&#x0025;)</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Unknown or undocumented etiology</td>
+<td align="left" colspan="1">50.4</td>
+<td align="left" colspan="1">41.3</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Gastroenteritis</td>
+<td align="left" colspan="1">9.2</td>
+<td align="left" colspan="1">6.9</td>
+</tr>
+<tr>
+<td align="left" colspan="1">UTI (excluding pyelonephritis)</td>
+<td align="left" colspan="1">6.7</td>
+<td align="left" colspan="1">5.2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">IBS</td>
+<td align="left" colspan="1">5.8</td>
+<td align="left" colspan="1">Unknown</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pelvic inflammatory disease</td>
+<td align="left" colspan="1">3.8</td>
+<td align="left" colspan="1">6.7</td>
+</tr>
+<tr>
+<td align="left" colspan="1">GI reflux disease (gastroesophageal reflux disease [GERD]; including hiatal hernia)</td>
+<td align="left" colspan="1">2.3</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Diverticulosis</td>
+<td align="left" colspan="1">2.2</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Diarrhea, cause undetermined</td>
+<td align="left" colspan="1">1.6</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cholelithiasis&#x002F;cholecystitis</td>
+<td align="left" colspan="1">1.6</td>
+<td align="left" colspan="1">2.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Tumor, benign</td>
+<td align="left" colspan="1">1.4</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Duodenal ulcer</td>
+<td align="left" colspan="1">1.4</td>
+<td align="left" colspan="1">2.0</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Urolithiasis</td>
+<td align="left" colspan="1">1.3</td>
+<td align="left" colspan="1">4.3</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Appendicitis</td>
+<td align="left" colspan="1">1.1</td>
+<td align="left" colspan="1">4.3</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ulcerative colitis</td>
+<td align="left" colspan="1">0.9</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Muscular strain</td>
+<td align="left" colspan="1">0.9</td>
+<td align="left" colspan="1">?</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Intestinal obstruction</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">2.5</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Constipation</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">2.3</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dysmenorrhea</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">1.8</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Simple pregnancy</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">1.8</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pyelonephritis</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">1.7</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Gastritis</td>
+<td align="left" colspan="1">?</td>
+<td align="left" colspan="1">1.4</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

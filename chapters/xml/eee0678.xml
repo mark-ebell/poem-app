@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Pleural effusion</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0678</topic_id>
+<topic_comment />
+<topic_lastupdated>02/11/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Erin B. Drifmeyer, MD</author_name>
+<author_title>Family Practice Physician</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Winn Army Community Hospital, Ft. Stewart, GA</author_institution>
+<author_email>mstephens&#x0040;usuhs.mil</author_email>
+<author_phone_office>301-295-3632</author_phone_office>
+<author_phone_home />
+<author_phone_fax>301-295-3100</author_phone_fax>
+<author_street1>USU-FAP</author_street1>
+<author_street2>4301 Jones Bridge Road</author_street2>
+<author_city>Bethesda</author_city>
+<author_state>MD</author_state>
+<author_zip>20814</author_zip>
+</author>
+<author primary="no">
+<author_name>Mark B. Stephens, MD, MS</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Uniformed Services University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Bethesda</author_city>
+<author_state>MD</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Randall Forsch, MD, MPH</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Michigan</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Patients with a parapneumonic effusion greater than 1 cm on lateral decubitus chest x-ray should have a thoracentesis performed for diagnostic (and therapeutic) purposes. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11035692" resource="acc001" /></listitem>
+<listitem>Patients with unilateral pleural effusion should have CT to evaluate for malignancy and imaging guided thoracentesis for culture, cytology, and biomarkers. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed37433578" resource="acc050" /></listitem>
+<listitem>Customarily, an effusion is exudative if: (1) the ratio of protein in the pleural fluid to serum protein is greater than 0.5; (2) the ratio of the level of lactated dehydrogenase (LDH) in the pleural fluid to serum LDH is greater than 0.6; or (3) the absolute level of LDH in the pleural fluid is greater than two-thirds of the upper limit of local laboratory normal value. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12728146" resource="acc002" /></listitem>
+<listitem>Pleural cholesterol &gt;55 mg&#x002F;dl, pleural LDL &gt;200 U&#x002F;L, and ratio of pleural cholesterol to serum cholesterol &gt;0.3 were the most accurate predictors of exudative effusion in a systematic review.<xref ref="poem160822" resource="acc033" /></listitem>
+<listitem>The routine use of fibrinolytics to drain parapneumonic effusions is not recommended. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1956" resource="acc003" /></listitem>
+<listitem>Rapid drainage of complicated parapneumonic effusions prevents undue morbidity and mortality. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11035692" resource="acc001" /></listitem>
+<listitem>For malignant pleural effusion, in patients with expandable lungs either USN guided large volume thoracentesis using an indwelling cathter or talc pleurodesis are options; if unexpandable, indwelling catheter is preferred over pleurodesis. <evidence rating="B" system="SORT">B</evidence><xref ref="poem201210" resource="acc039" /></listitem>
+</list>
+</BottomLine>
+<definition>A pleural effusion is an abnormal accumulation of fluid within the pleural space. A parapneumonic effusion is fluid in the pleural space secondary to pneumonia or abscess. Parapneumonic effusions can be either simple or complicated. Complicated parapneumonic effusions are defined by either the need for intervention or a positive bacterial culture. An empyema is pus within the pleural space.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>There are an estimated 800,000 cases per year in the United States.<xref ref="pubmed8222812" resource="acc004" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The prevalence in the ICU population can be as high as 62&#x0025;.<xref ref="pubmed9106583" resource="acc005" /></listitem>
+<listitem>A total of 20&#x0025; to 57&#x0025; of all patients hospitalized for community-acquired pneumonia in the United States develop parapneumonic effusion.<xref ref="pubmed16493154" resource="acc006" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Overall, 74&#x0025; of effusions are exudative and 26&#x0025; are transudative. See below for distribution of specific causes within each of those categories:<xref ref="pubmed12065357" resource="acc007" />&#x00A0;</listitem>
+<listitem>Exudative: (1) malignancy (41&#x0025;); lung, breast, ovary, stomach, lymphoma are most common;<xref ref="pubmed16893591" resource="acc008" /> (2) tuberculosis (28&#x0025;); (3) pneumonia (bacterial or viral&#x2014;17&#x0025;); (4) medications (amiodarone, nitrofurantoin, phenytoin, methotrexate, cyclophosphamide, penicillamine);<xref ref="pubmed16493154" resource="acc006" /> (5) rheumatoid arthritis&#x002F;autoimmune disorders; and (6) postmyocardial infarction.</listitem>
+<listitem>Transudative: (1) congestive heart failure (72&#x0025;); (2) cirrhosis (11&#x0025;); (3) nephrotic syndrome (10&#x0025;); (4) hypoalbuminemia (7&#x0025;); and (5) other (pulmonary embolism, superior vena cava obstruction, Meigs syndrome, constrictive pericarditis, hypothyroidism).</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Exudative pleural effusions develop as the result of increased pleural membrane permeability to proteins.</listitem>
+<listitem>Transudative pleural effusions develop as the result of an imbalance of hydrostatic forces across the pleural membrane. These forces include oncotic pressure, hydrostatic pressure, and&#x002F;or intrapleural pressure.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Symptoms of a pleural effusion include cough, pleuritic chest pain, and dyspnea. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Unless heart failure is the known etiology, perform imaging guided thoracentesis for all patients with pleural fluid accumulation greater than 1 cm on lateral decubitus films. Patients with unilateral effusion should have CT to evaluate for malignancy.<xref ref="pubmed37433578" resource="acc050" /><evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11035692" resource="acc001" /></listitem>
+<listitem>Ultrasound is superior to chest radiography for detecting fluid within the pleural space and for guiding thoracentesis. It may be useful in differentiating malignant from benign effusion, and for guiding thoracentesis. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed8184046" resource="acc009" /><xref ref="pubmed18852159" resource="acc010" /></listitem>
+<listitem>An effusion is exudative by Light's criteria if: (1) the ratio of protein in the pleural fluid to serum protein is greater than 0.5; (2) the ratio of the level of lactated dehydrogenase (LDH) in the pleural fluid to serum LDH is greater than 0.6; or (3) the absolute level of LDH in the pleural fluid is greater than two thirds of the upper limit of local laboratory normal value. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12728146" resource="acc002" /></listitem>
+<listitem>Pleural cholesterol &gt;55 mg&#x002F;dl, pleural LDL &gt;200 U&#x002F;L, and pleural to serum cholesterol ratio &gt;0.3 are all highly predictive of exudative effusion. <evidence rating="C" system="SORT">C</evidence><xref ref="poem160822" resource="acc033" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Pancreatic disease</Differential_Name>
+<Differential_Features>Alcohol abuse, known pancreatic disease</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Tuberculosis</Differential_Name>
+<Differential_Features>Exposure history, hemoptysis, positive tuberculin skin test, fevers, night sweats</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Malignancy</Differential_Name>
+<Differential_Features>Weight loss, known primary cancer</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Medication-associated effusion</Differential_Name>
+<Differential_Features>History of medication use</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Rheumatoid arthritis</Differential_Name>
+<Differential_Features>Joint swelling, morning stiffness</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Systemic lupus erythematosus</Differential_Name>
+<Differential_Features>Stigmata of SLE (arthritis, rash, renal disease, serositis)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cirrhosis</Differential_Name>
+<Differential_Features>Ascites, stigmata of liver disease</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Nephrotic syndrome</Differential_Name>
+<Differential_Features>Edema, proteinuria</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Congestive heart failure</Differential_Name>
+<Differential_Features>Lower extremity swelling, rales, jugular venous distension, orthopnea, dyspnea on exertion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pulmonary embolism</Differential_Name>
+<Differential_Features>Lower extremity swelling, history of immobilization</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pericarditis</Differential_Name>
+<Differential_Features>Pericardial rub, history of streptococcal infection, renal disease, liver disease</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pneumonia</Differential_Name>
+<Differential_Features>Fever, dyspnea, cough</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Dullness to percussion and asymmetric chest expansion are the most useful physical findings in the diagnosis of pleural effusion.<xref ref="poem110323" resource="acc011" /></listitem>
+<listitem>The likelihood of a pleural effusion being either transudative or exudative can often be determined by history and physical examination. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16623208" resource="acc012" /><xref ref="hp187" resource="acc013" /></listitem>
+<listitem>Dyspnea, cough, and pleuritic chest pain are the most common symptoms associated with pleural effusion.</listitem>
+<listitem><xref ref="hp187" resource="acc013">Asymmetric chest expansion, reduced vocal fremitus, reduced vocal resonance, and decreased or absent breath sounds</xref> best rule in pleural effusion when present. Absence of <xref ref="hp187" resource="acc013">reduced vocal fremitus or resonance and no dullness to percussion</xref> rule it out.</listitem>
+<listitem>In patients with malignant pleural effusion, increasing levels of breathlessness are associated with worse survival.<xref ref="pubmed33667489" resource="acc048" /></listitem>
+<listitem>Rarely, endometriosis can cause mostly right sided hemorrhagic pleural effusion.<xref ref="pubmed37553023" resource="acc052" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><strong>Imaging</strong></listitem>
+<listitem>The diagnosis of a pleural effusion is confirmed by chest radiography or ultrasoound. A posterioranterior chest film can detect fluid accumulation of 200 cc; a lateral decubitus film can detect accumulations as small as 50 cc.<xref ref="pubmed8796649" resource="acc014" /></listitem>
+<listitem>Ultrasound is more sensitive than plain films for the detection of small pleural effusions. A study in sickle cell patients found that it compared well with CT.<xref ref="pubmed26886600" resource="acc035" /></listitem>
+<listitem>British Thoracic Society guidelines (2024) recommend that all patients with unilateral effusion have CT to evaluate for malignancy.<xref ref="pubmed37433578" resource="acc050" /> Ultrasound is a less accurate alternative in resource poor settings. It correctly diagnosed malignancy in 26&#x002F;33 patients (sensitivity 73&#x0025;, specificity 100&#x0025;) and benign disease in 19&#x002F;19. Pleural thickening &gt;1 cm, pleural nodularity and diaphragmatic thickening &gt;7 mm were highly suggestive of malignant disease.<xref ref="pubmed18852159" resource="acc010" /></listitem>
+<listitem>Patients with unilateral effusion should have image guided thoracentesis to obtain fluid for analysis (25-50 ml).<xref ref="pubmed37433578" resource="acc050" /></listitem>
+<listitem>Point of care ultrasound is endorsed by 2021 American College of Physicians guidelines for the evaluation of the patient with acute dyspnea.<xref ref="pubmed33900798" resource="acc047" /></listitem>
+<listitem><strong>Pleural fluid analysis</strong></listitem>
+<listitem>Unless heart failure is the obvious source of the pleural effusion, perform image guided thoracentesis to determine the cause of the effusion for all patients with greater than 1 cm of pleural fluid layering on lateral decubitus films.<xref ref="pubmed16623208" resource="acc012" /></listitem>
+<listitem>Medical thoracoscopy may be useful in detecting pleural metastases and determining the origin of exudative pleural effusions.<xref ref="pubmed19387349" resource="acc019" /></listitem>
+<listitem>BTS guidelines (2024) recommend that pleural fluid analysis should include the following parameters: cell count, adenosine deaminase (to rule out tuberculosis), cytology (examination for malignant cells), protein, cholesterol, amylase, pH, gram stain, cell counts, and culture. BTS guidelines recommend IFN-gamma to test for tuberculosis in high prevalence populations, and pleural fluid ADA to rule it out in low prevalence settings. Obtain pleural fluid ANA if lupus is suspected.<xref ref="pubmed37433578" resource="acc050" /> Serum protein and LDH should also be obtained (see <xref ref="fig001" />).</listitem>
+<listitem>Tumor necrosis factor-alpha assay of pleural fluid is an accurate test for tuberculous pleurisy (sensitivity 85&#x0025;, specificity 80&#x0025;, AUROCC 0.89).<xref ref="pubmed27902616" resource="acc038" /></listitem>
+<listitem>A systematic review of 44 studies with 4974 patients concluded that pleural fluid interferon-gamma was the most accurate test for diagnosis of tubercular pleural effusion (91&#x0025; sensitive, 96&#x0025; specific, LR+ 23, LR- 0.09).<xref ref="pubmed34166463" resource="acc049" /></listitem>
+<listitem>Light's original criteria for identifying pleural fluid as exudative were presence of at least one of the following: (1) <xref ref="test328" resource="acc032">pleural fluid-to-serum protein ratio of &gt;0.5, (2) pleural fluid-to-serum LDH ratio of &gt;0.6</xref>, or (3) pleural fluid LDH concentration &gt;two-thirds the upper limit of normal for LDH.<xref ref="pubmed4642731" resource="acc015" /></listitem>
+<listitem>Other indicators of exudate include elevated <xref ref="test328" resource="acc032">pleural fluid cholesterol</xref> and <xref ref="test328" resource="acc032">elevated pleural fluid protein</xref>. A systematic review identified elevated pleural cholesterol level &gt;55 mg&#x002F;dl (LR+ 7.1-250, LR&#x2212; 0.07-0.16), elevated pleural LDL &gt;200 U&#x002F;L (LR+ 18, LR&#x2212; 0.32) and a pleural to serum cholesterol ratio &gt;0.3 (LR+ 14, LR&#x2212; 0.08) as the best predictors of exudative pleural effusion.<xref ref="poem160822" resource="acc033" /></listitem>
+<listitem>Exudates typically have <xref ref="test328" resource="acc032">protein &gt;3 g&#x002F;dL,</xref> a transudate have protein &lt;3 g&#x002F;dL.<xref ref="pubmed9106577" resource="acc016" /> The combination of either pleural fluid LDH and pleural fluid cholesterol OR pleural fluid protein, pleural fluid cholesterol and pleural fluid LDH correlate well with Light's criteria and obviates the need to draw serum.<xref ref="pubmed16716816" resource="acc017" /></listitem>
+<listitem>In a study of 289 patients with pleural effusion, a ratio of LDH to adenoine deaminase greater than 15.5 and a carcinoembryonic antigen level &lt;5 ng&#x002F;ml suggested parapneumonic effusion or empyema rather than transudative effusion due to heart or renal failure, tubercular effusion, or malignant effusion.<xref ref="pubmed30921217" resource="acc041" /></listitem>
+<listitem>In one small study, the addition of hydrogen peroxide produced profuse bubbles in exudative pleural fluid and no bubbles in transudates, unless blood was present.<xref ref="pubmed19374893" resource="acc018" /></listitem>
+<listitem>Among patients with pleural effusion, <xref ref="test328" resource="acc032">cytology and pleural biopsy</xref> are the most accurate tests. Elevated <xref ref="test328" resource="acc032">tumor necrosis factor and an elevated pleural to serum ratio of tumor necrosis factor</xref> also predict malignancy. <xref ref="test328" resource="acc032">CEA, CA-125, CA 15-3, and CYFRA 21-1</xref> are highly specific for malignancy but not sensitive.</listitem>
+<listitem>Patients with persistent effusion and no diagnosis may require bronchoscopy or pleural biopsy.</listitem>
+<listitem><strong>Diagnosis of malignant pleural effusion</strong></listitem>
+<listitem>A systematic review of 7 studies with approximately 2000 patients found that a ratio of serum LDH to pleural adenosine deaminase greater than approximately 10 was 96&#x0025; sensitive and 88&#x0025; specific for the diagnosis of malignant pleural effusion (studies in the meta-analysis used a range of cutoffs from 5 to 20). Positive and negative likelihood ratios were 8 and 0.05 respectively.<xref ref="pubmed33818231" resource="acc046" /></listitem>
+<listitem>Tumor markers such as CA 15-3, CA 125 and CA 19-9 are specific but lack sensitivity for distinguishing malignant from benign effusion.<xref ref="pubmed25953662" resource="acc036" /></listitem>
+<listitem>Soluble mesothelin-related peptide (SMRP) was accurate for diagnosis of pleural effusion caused by malignant mesthelioma (LR+ 7.8, LR- 0.35) in a systematic review of 13 studies with 3359 patients.<xref ref="pubmed30946324" resource="acc042" /></listitem>
+<listitem>Elevated serum c-reactive protein was associated with poor survival in patients with malignant pleural effusion.<xref ref="pubmed33667489" resource="acc048" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to diagnosis.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>187</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>97</Dx_ID>
+<Dx_ID>96</Dx_ID>
+<Dx_ID>99</Dx_ID>
+<Dx_ID>98</Dx_ID>
+<Dx_ID>44</Dx_ID>
+<Dx_ID>328</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Rapid drainage of complicated parapneumonic effusions prevents undue morbidity and mortality. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed11035692" resource="acc001" /></listitem>
+<listitem>Bilateral pleural effusions with clear clinical clues to a transudative process (eg, heart failure) need not usually be tapped. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed12728146" resource="acc002" /></listitem>
+<listitem>Admit the patient if the underlying cause of an exudative pleural effusion is not clear. Always consider malignancy, tuberculosis and pulmonary embolism. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed9646991" resource="acc021" /></listitem>
+<listitem>For malignant pleural effusion, in patients with expandable lungs either USN guided large volume thoracentesis using an indwelling cathter or talc pleurodesis are options.<xref ref="pubmed29617585" resource="acc043" /><evidence rating="B" system="SORT">B</evidence><xref ref="poem201210" resource="acc039" /></listitem>
+<listitem>If malignant pleural effusion that is non-expandable, indwelling catheter as well as pleural aspiration, talc slurry or talc poudrage pleurodesis, or decortication surgery are options.<xref ref="pubmed37433578" resource="acc050" /><xref ref="pubmed29617585" resource="acc043" /><evidence rating="B" system="SORT">B</evidence><xref ref="poem201210" resource="acc039" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug />
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Any pleural effusion (either transudative or exudative) that causes respiratory compromise should be drained by needle thoracentesis or, if necessary, by chest tube. Because of high rates of morbidity (and mortality), large pleural effusions should be drained without delay.<xref ref="pubmed12162398" resource="acc022" /></listitem>
+<listitem>A clinical trial compared NSAIDs versus opiates for pain, and found similar results although a greater need for rescue medications. Smaller (12F) chest tubes were less painful than 24F tubes, but also less effective and had more complications.<xref ref="pubmed26720026" resource="acc034" /></listitem>
+<listitem>Bilateral pleural effusions with clear clinical clues to a transudative process (eg, heart failure) need not be tapped.<xref ref="pubmed12728146" resource="acc002" /></listitem>
+<listitem>The placement of 2 chest tubes by video-assisted thoracic surgery and general anesthesia may afford superior debridement and drainage of large and established empyemas.<xref ref="cochrane1956" resource="acc003" /></listitem>
+<listitem>There is insufficient evidence to recommend routine fibrinolysis either alone or in combination with chest tube drainage for patients with complicated parapneumonic effusions or empyema.<xref ref="cochrane2312" resource="acc023" /></listitem>
+<listitem>A systematic review of nontraumatic, noninfectious, transudative pleural effusions in mechanically ventilated critically ill adult patients identified 28 studies of mostly low quality. The authors concluded that drainage of pleural effusions in mechanically ventilated adult patients increased oxygenation and this outweighed the risk of complications such as pneumothorax. The greatest benefit was seen in patients with a PaO2:FiO2 ratio of less than 200 and a pleural effusion estimated volume of greater than 500 mL. There was not enough data to make a recommendation on the use of catheter versus needle thoracentesis for pleural fluid drainage.<xref ref="poem388874" resource="acc051" /></listitem>
+<listitem><strong>Malignant pleural effusions</strong></listitem>
+<listitem>An ATS guideline (2018) recommends treating symptomatic patients with malignant pleural effusion and potentially expandable lungs with ultrasound guided large volume thoracentesis using an indwelling pleural catheter or chemical pleurodesis In observational studies this technique was associated with a lower rate of pneumothorax (4&#x0025; vs 9&#x0025;). In patients with nonexpandable lungs, the guideline recommends indwelling pleural catheters over pleurodesis. For patients with catheter-related infection, removal of the catheter is recommended if the infection persists.<xref ref="poem201210" resource="acc039" /> If pleurodesis is chosen, talc is recommended for malignant pleural effusions.<xref ref="cochrane10529" resource="acc044" /><xref ref="cochrane2916" resource="acc020" /></listitem>
+<listitem>British Thoracic Society guidelines (2024) recommend talc pleurodesis or another method of pleurodesis over multiple aspirations. For patients with expandable malignant effusion an indwelling pleural catheter or talc pleurodesis is recommended.<xref ref="pubmed37433578" resource="acc050" /></listitem>
+<listitem>British Thoracic Society guidelines (2024) recommend that for a malignant pleural effusion that is non-expandable, indwelling pleural catheter should be considered as well as pleural aspiration, talc slurry or talc poudrage pleurodesis, or decortication surgery are options. Pleural aspiration may be desirable before indwelling pleural catheter to assess symptomatic responses.<xref ref="pubmed37433578" resource="acc050" /></listitem>
+<listitem>An RCT randomized 149 patients with malignant pleural effusion to daily versus every other day drainage found a greater likelihood of complete or partial response (autopleurodesis) in the group with daily drainage (47&#x0025; vs 24&#x0025;, p &#x003D; 0.003, NNT &#x003D; 4). The median time to autopleurodesis was also significantly shorter (54 vs 90 days).<xref ref="pubmed27898215" resource="acc037" /></listitem>
+<listitem>A randomized trial in 154 outpatients with malignant pleural effusion inserted an indwelling catheter for regular outpatient drainage. If there was no evidence of lung entrapment at 10 days, they were randomized to talc slurry or placebo. After 35 days, successful pleurodesis was more likely in the talc group (43&#x0025; vs 23&#x0025;, p &#x003D; 0.008, NNT &#x003D; 5).<xref ref="pubmed29617585" resource="acc043" /></listitem>
+<listitem>An RCT in the UK randomized 330 adults with malignant pleural effusion to either (1) local anesthetic thoracoscopy and talc poudrage or (2) talc slurry via a chest tube. At 3 months, dthere were no ifferences between groups in any outcomes including pleurodesis failure, mortality, complications, or length of stay. Thoracoscopy based therapy was unlikely to be cost-effective based on their analysis.<xref ref="pubmed32525474" resource="acc045" /></listitem>
+<listitem>A RCT compared chest tube insertion with talc pleurodesis against indwelling pleural catheters (IPC) among 106 patients with a malignant pleural effusion. It demonstrated that IPC was associated with fewer hospital days (&#x2212;3.5 days) and fewer follow up procedures (6&#x0025; vs 20&#x0025;) but higher rate of pleural based infection (9.6&#x0025; vs 1.9&#x0025;). There were no between group differences in quality of life scores or dyspnea scores.<xref ref="pubmed22610520" resource="acc024" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>The Chinese herbal medicine elemene is widely used in China. A systematic review of 46 small clinical trials with a total of 2992 patients reported that its use was associated with a greater likelihood of complete resolution of the effusion (RR 1.37, 95&#x0025; CI 1.23-1.52). However, all of the trials were unblinded with unconcealed allocation to groups, and not all were randomized.<xref ref="pubmed30383624" resource="acc040" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Treat pleural effusions by correcting underlying cause. For transudative pleural effusions, in particular, control of the underlying disease process (heart failure, cirrhosis, nephrotic syndrome), facilitates resolution of the pleural effusion.</listitem>
+<listitem>In a RCT of 360 patients undergoing cardiac surgery, colchicine therapy given for one month post-operatively, significantly reduced the incidence of post-operative pleural effusions (12.2&#x0025; vs 25.6&#x0025;).<xref ref="pubmed21884871" resource="acc025" /></listitem>
+<listitem>Combined therapy with both intrapleural DNase and tissue plasminogen activator (t-PA) in patients with a pleural infection is designed to improve pleural fluid drainage. It was associated with a lower frequency of surgical referral and a reduction in length of hospital stay compared to placebo or either agent alone.<xref ref="pubmed21830966" resource="acc026" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Admit the patient if the underlying cause of an exudative pleural effusion is not clear. Always consider tuberculosis and pulmonary embolism.<xref ref="pubmed9646991" resource="acc021" /></listitem>
+<listitem>Admit&#x2014;and refer appropriately&#x2014;those patients for whom drainage, pleurodesis, thoracoscopy, or surgery is indicated.</listitem>
+<listitem>Surgical consultation is indicated in patients with parapneumonic effusions, if conservative therapy has not resulted in clinical or radiographic improvement within 3 days.<xref ref="pubmed12162398" resource="acc022" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Acute lung injury can occur after talc pleurodesis. Consider avoiding talc pleurodesis on patients who have recently had chemotherapy or who are using supplemental oxygen.<xref ref="pubmed17126094" resource="acc027" /></listitem>
+<listitem>Chest pain is commonly associated with pleurodesis and can be treated with systemic analgesics or intrapleural lidocaine.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Malignant pleural effusions are associated with shortened survival in cancer patients. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed930945" resource="acc028" /></listitem>
+<listitem>Even with surgical drainage, mortality rates of empyema approach 20&#x0025;. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed2669652" resource="acc029" /></listitem>
+<listitem>Patients who have pneumonia with an associated parapneumonic effusion have elevated mortality compared with patients who have pneumonia without effusion (relative risk &#x003D; 6.5, if bilateral; 3.7, if unilateral). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed8885819" resource="acc030" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>In a Spanish study, use of a rapid immunochromatographic test for the detection of pneumococcal antigen in pleural fluid of children had a relatively high sensitivity and specificity (88&#x0025; and 71&#x0025;, respectively) with a positive predictive value of 96&#x0025;.<xref ref="pubmed19806363" resource="acc031" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed11035692">
+<accessionId id="acc001" href="info:pmid/11035692" />
+<authors>Colice GL, Curtis A, Deslauriers J, et al.</authors>
+<title>Medical and surgical treatment of parapneumonic effusions: An evidence-based guideline.</title>
+<source>Chest</source>
+<pubdate>2000</pubdate>
+<volume>118</volume>
+<pages>1158&#x2013;1171.</pages>
+</reference>
+<reference id="pubmed12728146">
+<accessionId id="acc002" href="info:pmid/12728146" />
+<authors>Maskell NA, Butland RJ; Pleural Diseases Group, Standards of Care Committee, British Thoracic Society.</authors>
+<title>BTS guidelines for the investigation of a unilateral pleural effusion in adults.</title>
+<source>Thorax</source>
+<pubdate>2003</pubdate>
+<volume>58(Suppl 2)</volume>
+<pages>ii8&#x2013;ii17.</pages>
+</reference>
+<reference id="cochrane1956">
+<accessionId id="acc003" href="info:wiley/cochrane/CD001956" />
+<chapter_authors>Coote N, Kay E.</chapter_authors>
+<chapter_title>Surgical versus non-surgical management of pleural empyema (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed8222812">
+<accessionId id="acc004" href="info:pmid/8222812" />
+<authors>Marel M, Zrustova M, Stasny B, Light RW.</authors>
+<title>The incidence of pleural effusion in a well-defined region. Epidemiologic study in central Bohemia.</title>
+<source>Chest</source>
+<pubdate>1993</pubdate>
+<volume>104</volume>
+<pages>1486&#x2013;1489.</pages>
+</reference>
+<reference id="pubmed9106583">
+<accessionId id="acc005" href="info:pmid/9106583" />
+<authors>Mattison LE, Coppage L, Alderman DF, Herlong JO, Sahn SA.</authors>
+<title>Pleural effusions in the medical ICU: Prevalence, causes, and clinical implications.</title>
+<source>Chest</source>
+<pubdate>1997</pubdate>
+<volume>111</volume>
+<pages>1018&#x2013;1023.</pages>
+</reference>
+<reference id="pubmed16493154">
+<accessionId id="acc006" href="info:pmid/16493154" />
+<authors>Light RW.</authors>
+<title>Parapneumonic effusions and empyema.</title>
+<source>Proc Am Thorac Soc</source>
+<pubdate>2006</pubdate>
+<volume>3</volume>
+<pages>75&#x2013;80.</pages>
+</reference>
+<reference id="pubmed12065357">
+<accessionId id="acc007" href="info:pmid/12065357" />
+<authors>Heffner JE, Sahn SA, Brown LK.</authors>
+<title>Multilevel likelihood ratios for identifying exudative pleural effusions*.</title>
+<source>Chest</source>
+<pubdate>2002</pubdate>
+<volume>121</volume>
+<pages>1916&#x2013;1920.</pages>
+</reference>
+<reference id="pubmed16893591">
+<accessionId id="acc008" href="info:pmid/16893591" />
+<authors>Neragi-Miandoab S.</authors>
+<title>Malignant pleural effusion, current and evolving approaches for its diagnosis and management.</title>
+<source>Lung Cancer</source>
+<pubdate>2006</pubdate>
+<volume>54</volume>
+<pages>1&#x2013;9.</pages>
+</reference>
+<reference id="pubmed8184046">
+<accessionId id="acc009" href="info:pmid/8184046" />
+<authors>Eibenberger KL, Dock WI, Ammann ME, Dorffner R, Hormann MF, Grabenwoger F.</authors>
+<title>Quantification of pleural effusions: Sonography versus radiography.</title>
+<source>Radiology</source>
+<pubdate>1994</pubdate>
+<volume>191</volume>
+<pages>681&#x2013;684.</pages>
+</reference>
+<reference id="pubmed18852159">
+<accessionId id="acc010" href="info:pmid/18852159" />
+<authors>Qureshi NR, Rahman NM, Gleeson FV.</authors>
+<title>Thoracic ultrasound in the diagnosis of malignant pleural effusion.</title>
+<source>Thorax</source>
+<pubdate>2009</pubdate>
+<volume>64(2)</volume>
+<pages>139&#x2013;143.</pages>
+</reference>
+<reference id="poem110323">
+<accessionId id="acc011" href="info:wiley/eep-poem/110323" />
+<accessionId id="acc011b" href="info:pmid/19155458" />
+<authors>Wong CL, Holroyd-Leduc J, Straus SE.</authors>
+<title>Does this patient have a pleural effusion?</title>
+<source>JAMA</source>
+<pubdate>2009</pubdate>
+<volume>301(3)</volume>
+<pages>309&#x2013;317.</pages>
+</reference>
+<reference id="pubmed16623208">
+<accessionId id="acc012" href="info:pmid/16623208" />
+<authors>Porcel JM, Light RW.</authors>
+<title>Diagnostic approach to pleural effusion in adults.</title>
+<source>Am Fam Physician</source>
+<pubdate>2006</pubdate>
+<volume>73</volume>
+<pages>1211&#x2013;1220.</pages>
+</reference>
+<reference id="hp187">
+<accessionId id="acc013" href="info:wiley/eep-hp/187" />
+<authors>Kalantri S, Joshi R, Lokhande T, et al.</authors>
+<title>Accuracy and reliability of physical signs in the diagnosis of pleural effusion.</title>
+<source>Respir Med</source>
+<pubdate>2007</pubdate>
+<volume>101</volume>
+<pages>431&#x2013;438.</pages>
+</reference>
+<reference id="pubmed8796649">
+<accessionId id="acc014" href="info:pmid/8796649" />
+<authors>Blackmore CC, Black WC, Dallas RV, Crow HC.</authors>
+<title>Pleural fluid volume estimation: A chest radiograph prediction rule.</title>
+<source>Acad Radiol</source>
+<pubdate>1996</pubdate>
+<volume>3</volume>
+<pages>103&#x2013;109.</pages>
+</reference>
+<reference id="pubmed4642731">
+<accessionId id="acc015" href="info:pmid/4642731" />
+<authors>Light RW, Macgregor MI, Luchsinger PC, Ball WC, Jr.</authors>
+<title>Pleural effusions: The diagnostic separation of transudates and exudates.</title>
+<source>Ann Intern Med</source>
+<pubdate>1972</pubdate>
+<volume>77</volume>
+<pages>507&#x2013;513.</pages>
+</reference>
+<reference id="pubmed9106577">
+<accessionId id="acc016" href="info:pmid/9106577" />
+<authors>Heffner JE, Brown LK, Barbieri CA.</authors>
+<title>Diagnostic value of tests that discriminate between exudative and transudative pleural effusions. Primary Study Investigators.</title>
+<source>Chest</source>
+<pubdate>1997</pubdate>
+<volume>111</volume>
+<pages>970&#x2013;980.</pages>
+</reference>
+<reference id="pubmed16716816">
+<accessionId id="acc017" href="info:pmid/16716816" />
+<authors>Heffner JE.</authors>
+<title>Discriminating between transudates and exudates.</title>
+<source>Clin Chest Med</source>
+<pubdate>2006</pubdate>
+<volume>27</volume>
+<pages>241&#x2013;252.</pages>
+</reference>
+<reference id="pubmed19374893">
+<accessionId id="acc018" href="info:pmid/19374893" />
+<authors>Sarkar S, Bhattacharya G, Bhattacharjee S, Banerjee D.</authors>
+<title>A drop of hydrogen peroxide can differentiate exudative pleural effusion from transudate--development of a bedside screening test.</title>
+<source>Clin Chim Acta</source>
+<pubdate>2009</pubdate>
+<volume>405(1-2)</volume>
+<pages>83&#x2013;86.</pages>
+</reference>
+<reference id="pubmed19387349">
+<accessionId id="acc019" href="info:pmid/19387349" />
+<authors>Casal RF, Eapen GA, Morice RC, Jimenez CA.</authors>
+<title>Medical thoracoscopy.</title>
+<source>Curr Opin Pulm Med</source>
+<pubdate>2009</pubdate>
+<volume>15(4)</volume>
+<pages>313&#x2013;320.</pages>
+</reference>
+<reference id="cochrane2916">
+<accessionId id="acc020" href="info:wiley/cochrane/CD002916" />
+<chapter_authors>Shaw P, Agarwal R.</chapter_authors>
+<chapter_title>Pleurodesis for malignant pleural effusions (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title> The Cochrane Library 2010 Issue 9.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed9646991">
+<accessionId id="acc021" href="info:pmid/9646991" />
+<authors>Ansari T, Idell S.</authors>
+<title>Management of undiagnosed persistent pleural effusions.</title>
+<source>Clin Chest Med</source>
+<pubdate>1998</pubdate>
+<volume>19</volume>
+<pages>407&#x2013;417.</pages>
+</reference>
+<reference id="pubmed12162398">
+<accessionId id="acc022" href="info:pmid/12162398" />
+<authors>Cameron RJ.</authors>
+<title>Management of complicated parapneumonic effusions and thoracic empyema.</title>
+<source>Intern Med J</source>
+<pubdate>2002</pubdate>
+<volume>32</volume>
+<pages>408&#x2013;414.</pages>
+</reference>
+<reference id="cochrane2312">
+<accessionId id="acc023" href="info:wiley/cochrane/CD002312" />
+<chapter_authors>Cameron R, Davies HR.</chapter_authors>
+<chapter_title>Intra-pleural fibrinolytic therapy versus conservative management in the treatment of parapneumonic effusions and empyema (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22610520">
+<accessionId id="acc024" href="info:pmid/22610520" />
+<authors>Davies HE, Mishra EK, Kahan BC, Wrightson JM, Stanton AE, Guhan A, Davies CW, Grayez J, Harrison R, Prasad A, Crosthwaite N, Lee YC, Davies RJ, Miller RF, Rahman NM.</authors>
+<title>Effect of an indwelling pleural catheter vs chest tube and talc pleurodesis for relieving dyspnea in patients with malignant pleural effusion: The TIME2 randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>307</volume>
+<pages>2383&#x2013;2389.</pages>
+</reference>
+<reference id="pubmed21884871">
+<accessionId id="acc025" href="info:pmid/21884871" />
+<authors>Imazio M, Brucato A, Rovere ME, Gandino A, Cemin R, Ferrua S, Maestroni S, Zingarelli E, Barosi A, Simon C, Sansone F, Patrini D, Vitali E, Belli R, Ferrazzi P, Trinchero R, Spodick DH, Adler Y.</authors>
+<title>Colchicine prevents early postoperative pericardial and pleural effusions.</title>
+<source>Am Heart J</source>
+<pubdate>2011</pubdate>
+<volume>162</volume>
+<pages>527&#x2013;532.e1.</pages>
+</reference>
+<reference id="pubmed21830966">
+<accessionId id="acc026" href="info:pmid/21830966" />
+<authors>Rahman NM, Maskell NA, West A, Teoh R, Arnold A, Mackinlay C, Peckham D, Davies CW, Ali N, Kinnear W, Bentley A, Kahan BC, Wrightson JM, Davies HE, Hooper CE, Lee YC, Hedley EL, Crosthwaite N, Choo L, Helm EJ, Gleeson FV, Nunn AJ, Davies RJ.</authors>
+<title>Intrapleural use of tissue plasminogen activator and DNase in pleural infection.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>518&#x2013;526.</pages>
+</reference>
+<reference id="pubmed17126094">
+<accessionId id="acc027" href="info:pmid/17126094" />
+<authors>Kuzniar TJ, Blum MG, Kasibowska-Kuzniar K, Mutlu GM.</authors>
+<title>Predictors of acute lung injury and severe hypoxemia in patients undergoing operative talc pleurodesis.</title>
+<source>Ann Thorac Surg</source>
+<pubdate>2006</pubdate>
+<volume>82</volume>
+<pages>1976&#x2013;1981.</pages>
+</reference>
+<reference id="pubmed930945">
+<accessionId id="acc028" href="info:pmid/930945" />
+<authors>Chernow B, Sahn SA.</authors>
+<title>Carcinomatous involvement of the pleura: An analysis of 96 patients.</title>
+<source>Am J Med</source>
+<pubdate>1977</pubdate>
+<volume>63</volume>
+<pages>695&#x2013;702.</pages>
+</reference>
+<reference id="pubmed2669652">
+<accessionId id="acc029" href="info:pmid/2669652" />
+<authors>Peters RM.</authors>
+<title>Empyema thoracis: Historical perspective.</title>
+<source>Ann Thorac Surg</source>
+<pubdate>1989</pubdate>
+<volume>48</volume>
+<pages>306&#x2013;308.</pages>
+</reference>
+<reference id="pubmed8885819">
+<accessionId id="acc030" href="info:pmid/8885819" />
+<authors>Hasley PB, Albaum MN, Li YH, et al.</authors>
+<title>Do pulmonary radiographic findings at presentation predict mortality in patients with community-acquired pneumonia?</title>
+<source>Arch Intern Med</source>
+<pubdate>1996</pubdate>
+<volume>156</volume>
+<pages>2206&#x2013;2212.</pages>
+</reference>
+<reference id="pubmed19806363">
+<accessionId id="acc031" href="info:pmid/19806363" />
+<citation>Casado Flores J, Nieto Moro M, Berr&#x00F3;n S, et al. Usefulness of pneumococcal antigen detection in pleural effusion for the rapid diagnosis of infection by Streptococcus pneumoniae. <em>Eur J Pediatr</em> 2010;<strong>169</strong>(5):581&#x2013;584</citation>
+<url />
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="test328">
+<accessionId id="acc032" href="info:wiley/eep-dx/328" />
+<accessionId id="acc032b" href="info:wiley/eep-dx/98" />
+<accessionId id="acc032c" href="info:wiley/eep-dx/97" />
+<accessionId id="acc032d" href="info:pmid/4051357" />
+<authors />
+<title>Diagnostic thoracentesis and pleural biopsy in pleural effusions. Health and Public Policy Committee, American College of Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>1985</pubdate>
+<volume>103</volume>
+<pages>799&#x2013;802.</pages>
+</reference>
+<reference id="poem160822">
+<accessionId id="acc033" href="info:wiley/eep-poem/160822" />
+<accessionId id="acc033b" href="info:pmid/24938565" />
+<authors>Wilcox ME, Chong CA, Stanbrook MB, Tricco AC, Wong C, Straus SE.</authors>
+<title>Does this patient have an exudative pleural effusion? The Rational Clinical Examination systematic review.</title>
+<source>JAMA</source>
+<pubdate>2014</pubdate>
+<volume>311</volume>
+<pages>2422&#x2013;2431.</pages>
+</reference>
+<reference id="pubmed26720026">
+<accessionId id="acc034" href="info:pmid/26720026" />
+<authors>Rahman NM, Pepperell J, Rehal S, Saba T, Tang A, Ali N, West A, Hettiarachchi G, Mukherjee D, Samuel J, Bentley A, Dowson L, Miles J, Ryan CF, Yoneda KY, Chauhan A, Corcoran JP, Psallidas I, Wrightson JM, Hallifax R, Davies HE, Lee YC, Dobson M, Hedley EL, Seaton D, Russell N, Chapman M, McFadyen BM, Shaw RA, Davies RJ, Maskell NA, Nunn AJ, Miller RF.</authors>
+<title>Effect of opioids vs NSAIDs and larger vs smaller chest tube size on pain control and pleurodesis efficacy among patients with malignant pleural effusion: The TIME1 randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015 Dec 22-29</pubdate>
+<volume>314</volume>
+<pages>2641&#x2013;2653.</pages>
+</reference>
+<reference id="pubmed26886600">
+<accessionId id="acc035" href="info:pmid/26886600" />
+<authors>Razazi K, Deux JF, de Prost N, Boissier F, Cuquemelle E, Galact&#x00E9;ros F, Rahmouni A, Ma&#x00EE;tre B, Brun-Buisson C, Mekontso Dessap A.</authors>
+<title>Bedside lung ultrasound during acute chest syndrome in sickle cell disease.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e2553.</pages>
+</reference>
+<reference id="pubmed25953662">
+<accessionId id="acc036" href="info:pmid/25953662" />
+<authors>Nguyen AH, Miller EJ, Wichman CS, Berim IG, Agrawal DK.</authors>
+<title>Diagnostic value of tumor antigens in malignant pleural effusion: A meta-analysis.</title>
+<source>Transl Res</source>
+<pubdate>2015</pubdate>
+<volume>166</volume>
+<pages>432&#x2013;439.</pages>
+</reference>
+<reference id="pubmed27898215">
+<accessionId id="acc037" href="info:pmid/27898215" />
+<authors>Wahidi MM, Reddy C, Yarmus L, Feller-Kopman D, Musani A, Shepherd RW, Lee H, Bechara R, Lamb C, Shofer S, Mahmood K, Michaud G, Puchalski J, Rafeq S, Cattaneo SM, Mullon J, Leh S, Mayse M, Thomas SM, Peterson B, Light RW.</authors>
+<title>Randomized trial of pleural fluid drainage frequency in patients with malignant pleural effusions. The ASAP Trial.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2017</pubdate>
+<volume>195</volume>
+<pages>1050&#x2013;1057.</pages>
+</reference>
+<reference id="pubmed27902616">
+<accessionId id="acc038" href="info:pmid/27902616" />
+<authors>Li M, Luo Z, Zhu W, Khan RS, Saeed U, Shi S.</authors>
+<title>Diagnostic accuracy of tumor necrosis factor-alpha assay for tuberculous pleurisy: A PRISMA-compliant meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e5510.</pages>
+</reference>
+<reference id="poem201210">
+<accessionId id="acc039" href="info:wiley/eep-poem/201210" />
+<accessionId id="acc039b" href="info:pmid/30272503" />
+<authors>Feller-Kopman DJ, Reddy CB, DeCamp MM, Diekemper RL, Gould MK, Henry T, Iyer NP, Lee YCG, Lewis SZ, Maskell NA, Rahman NM, Sterman DH, Wahidi MM, Balekian AA.</authors>
+<title>Management of malignant pleural effusions. An official ATS&#x002F;STS&#x002F;STR clinical practice guideline.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2018</pubdate>
+<volume>198</volume>
+<pages>839&#x2013;849.</pages>
+</reference>
+<reference id="pubmed30383624">
+<accessionId id="acc040" href="info:pmid/30383624" />
+<authors>Wang QT, Zhang ZL, Xiong H, Zhou DS, Li J, Liang J, Wang YF.</authors>
+<title>Evaluation of the efficacy and safety of elemene in treating malignant pleural effusion caused by tumors: A PRISMA guided meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e12542.</pages>
+</reference>
+<reference id="pubmed30921217">
+<accessionId id="acc041" href="info:pmid/30921217" />
+<authors>Saraya T, Ohkuma K, Koide T, Goto H, Takizawa H, Light RW.</authors>
+<title>A novel diagnostic method for distinguishing parapneumonic effusion and empyema from other diseases by using the pleural lactate dehydrogenase to adenosine deaminase ratio and carcinoembryonic antigen levels.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e15003.</pages>
+</reference>
+<reference id="pubmed30946324">
+<accessionId id="acc042" href="info:pmid/30946324" />
+<authors>Gao R, Wang F, Wang Z, Wu Y, Xu L, Qin Y, Shi H, Tong Z.</authors>
+<title>Diagnostic value of soluble mesothelin-related peptides in pleural effusion for malignant pleural mesothelioma: An updated meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e14979.</pages>
+</reference>
+<reference id="pubmed29617585">
+<accessionId id="acc043" href="info:pmid/29617585" />
+<authors>Bhatnagar R, Keenan EK, Morley AJ, Kahan BC, Stanton AE, Haris M, Harrison RN, Mustafa RA, Bishop LJ, Ahmed L, West A, Holme J, Evison M, Munavvar M, Sivasothy P, Herre J, Cooper D, Roberts M, Guhan A, Hooper C, Walters J, Saba TS, Chakrabarti B, Gunatilake S, Psallidas I, Walker SP, Bibby AC, Smith S, Stadon LJ, Zahan-Evans NJ, Lee YCG, Harvey JE, Rahman NM, Miller RF, Maskell NA.</authors>
+<title>Outpatient talc administration by indwelling pleural catheter for malignant effusion.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>1313&#x2013;1322.</pages>
+</reference>
+<reference id="cochrane10529">
+<accessionId id="acc044" href="info:wiley/cochrane/CD010529" />
+<chapter_authors>Clive AO, Jones HE, Bhatnagar R, Preston NJ, Maskell N.</chapter_authors>
+<chapter_title>Interventions for the management of malignant pleural effusions: a network meta-analysis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 5. Art. No.: CD010529. DOI: 10.1002&#x002F;14651858.CD010529.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed32525474">
+<accessionId id="acc045" href="info:pmid/32525474" />
+<authors>Bhatnagar R, Luengo-Fernandez R, Kahan BC, Rahman NM, Miller RF, Maskell NA.</authors>
+<title>Thoracoscopy and talc poudrage compared with intercostal drainage and talc slurry infusion to manage malignant pleural effusion: The TAPPS RCT.</title>
+<source>Health Technol Assess</source>
+<pubdate>2020</pubdate>
+<volume>24</volume>
+<pages>1&#x2013;90.</pages>
+</reference>
+<reference id="pubmed33818231">
+<accessionId id="acc046" href="info:pmid/33818231" />
+<authors>Zhang Y, Li X, Liu J, Hu X, Wan C, Zhang R, Shen Y.</authors>
+<title>Diagnostic accuracy of the cancer ratio for the prediction of malignant pleural effusion: Evidence from a validation study and meta-analysis.</title>
+<source>Ann Med</source>
+<pubdate>2021</pubdate>
+<volume>53</volume>
+<pages>558&#x2013;566.</pages>
+</reference>
+<reference id="pubmed33900798">
+<accessionId id="acc047" href="info:pmid/33900798" />
+<authors>Gartlehner G, Wagner G, Affengruber L, Chapman A, Dobrescu A, Klerings I, Kaminski-Hartenthaler A, Spiel AO.</authors>
+<title>Point-of-care ultrasonography in patients with acute dyspnea: An evidence report for a clinical practice guideline by the American College of Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>2021</pubdate>
+<volume>174</volume>
+<pages>967&#x2013;976.</pages>
+</reference>
+<reference id="pubmed33667489">
+<accessionId id="acc048" href="info:pmid/33667489" />
+<authors>Mishra EK, Muruganandan S, Clark A, Bhatnagar R, Maskell N, Lee YCG, Rahman NM.</authors>
+<title>Breathlessness predicts survival in patients with malignant pleural effusions: Meta-analysis of individual patient data from five randomized controlled trials.</title>
+<source>Chest</source>
+<pubdate>2021</pubdate>
+<volume>160</volume>
+<pages>351&#x2013;357.</pages>
+</reference>
+<reference id="pubmed34166463">
+<accessionId id="acc049" href="info:pmid/34166463" />
+<authors>Aggarwal AN, Agarwal R, Dhooria S, Prasad KT, Sehgal IS, Muthu V.</authors>
+<title>Comparative accuracy of pleural fluid unstimulated interferon-gamma and adenosine deaminase for diagnosing pleural tuberculosis: A systematic review and meta-analysis.</title>
+<source>PLoS One</source>
+<pubdate>2021</pubdate>
+<volume>16</volume>
+<pages>e0253525.</pages>
+</reference>
+<reference id="pubmed37433578">
+<accessionId id="acc050" href="info:pmid/37433578" />
+<authors>Roberts ME, Rahman NM, Maskell NA, Bibby AC, Blyth KG, Corcoran JP, Edey A, Evison M, de Fonseka D, Hallifax R, Harden S, Lawrie I, Lim E, McCracken DJ, Mercer R, Mishra EK, Nicholson AG, Noorzad F, Opstad K, Parsonage M, Stanton AE, Walker S, BTS Pleural Guideline Development Group.</authors>
+<title>British Thoracic Society Guideline for pleural disease.</title>
+<source>Thorax</source>
+<pubdate>2023</pubdate>
+<volume>78</volume>
+<pages>s1&#x2013;s42.</pages>
+</reference>
+<reference id="poem388874">
+<accessionId id="acc051" href="info:wiley/eep-poem/388874" />
+<accessionId id="acc051b" href="info:pmid/39708436" />
+<authors>Chiu WC, Bugaev N, Mukherjee K, Como JJ, Kasotakis G, Morris RS, Downton KD, Ho VP, Towe CW, Capella JM, Robinson BRH.</authors>
+<title>Management of pleural effusion in mechanically ventilated critically ill patients: A systematic review and guideline.</title>
+<source>Am J Surg</source>
+<pubdate>2025</pubdate>
+<volume>240</volume>
+<pages>116144.</pages>
+</reference>
+<reference id="pubmed37553023">
+<accessionId id="acc052" href="info:pmid/37553023" />
+<authors>Porcel JM, Sancho-Marquina P, Monteagudo P, Bielsa S.</authors>
+<title>Pleural effusion secondary to endometriosis: A systematic review.</title>
+<source>Am J Med Sci</source>
+<pubdate>2023</pubdate>
+<volume>366</volume>
+<pages>296&#x2013;304.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>279</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Pleural Effusion: Diagnosis.</title>
+<graphic href="eee0678-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Pleural effusion without heart failure as clear cause. Perform thoracentesis and analyze for LDH, protein, and cholesterol. Draw serum LDH, protein, cholesterol. Empyema, chylothorax, or hemothorax?</label>
+<path target="cell-2"> No</path>
+<path target="cell-3"> Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Pleural:serum protein &gt;0.5 OR pleural:serum LDH &gt;0.6 OR pleural LDH &gt;2&#x002F;3 ULN of serum LDH OR pleural cholesterol &gt;80 mg&#x002F;dL or pleural protein &gt;4.0 mg&#x002F;dL?</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Transudate. Consider heart failure, nephrosis, cirrhosis.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Exudate. Obtain pleural fluid glucose, ADA, cell counts, amylase, cytology, pH, and culture.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Tuberculosis likely.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Helical CT of chest.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Pulmonary embolism or malignancy.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider bronchoscopy or pleural biopsy if not improving.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Malignancy (cytology), infection (culture), or pancreatic pleural effusion or esophageal rupture (amylase).</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Not exudate or transudate. Order additional studies for underlying cause (infection, malignancy).</label>
+</cell>
+<footnotes>
+<footnote>LDH, lactated dehydrogenase; ADA, adenosine deaminase; CT, computed tomogram.</footnote>
+<footnote>Adapted from Porcel JM, Light RW. Diagnostic approach to pleural effusion in adults. <em>Am Fam Physician</em> 2006;<strong>73</strong>:1211&#x2013;1220.<xref ref="pubmed16623208" resource="acc012" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Clostridium difficile infection</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0220</topic_id>
+<topic_comment />
+<topic_lastupdated>04/17/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Hemanthkumar Athiraman, PhD, MD</author_name>
+<author_title>Physician</author_title>
+<author_department>Department of Hospital Medicine</author_department>
+<author_institution>Banner Health</author_institution>
+<author_email>hemanthkumar.athiraman&#x0040;bannerhealth.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Mesa</author_city>
+<author_state>AZ</author_state>
+<author_zip>85202</author_zip>
+</author>
+<author primary="no">
+<author_name>Farrah Ibrahim, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of Alabama at Birmingham&#x002F;Huntsville Campus</author_institution>
+<author_email>ibrahimf&#x0040;uasomh.uab.edu</author_email>
+<author_phone_office>256-551-4611</author_phone_office>
+<author_phone_home>256-885-1921</author_phone_home>
+<author_phone_fax>256-551-4619</author_phone_fax>
+<author_street1>301 Governors Drive</author_street1>
+<author_street2 />
+<author_city>Huntsville</author_city>
+<author_state>AL</author_state>
+<author_zip>35801</author_zip>
+</author>
+<author primary="no">
+<author_name>Parekha Yedla, MD</author_name>
+<author_title>Hospitalist</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>University of Alabama at Birmingham&#x002F;Huntsville Campus</author_institution>
+<author_email>yedlap&#x0040;uasomh.uab.edu</author_email>
+<author_phone_office>256-551-4611</author_phone_office>
+<author_phone_home />
+<author_phone_fax>256-551-4619</author_phone_fax>
+<author_street1>301 Governors Drive</author_street1>
+<author_street2 />
+<author_city>Huntsville</author_city>
+<author_state>AL</author_state>
+<author_zip>35801</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect <em>Clostridium difficile</em> in any patient with acute watery diarrhea during or shortly after antibiotic therapy. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>When there is a high baseline likelihood of CDI (i.e., hospitalized patient, antibiotic use, no other explanation) order a nucleic acid amplification test as the initial study. If there is a low index of suspicion, begin with toxin ELISA followed by nucleic acid amplification test. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed30178042" resource="acc033" /></listitem>
+<listitem>For an initial nonfulminant episode of CDI, treat with vancomycin or fidaxomicin. For fulminant CDI, use high dose oral or NG administered vancomycin and IV metronidazole. <xref ref="pubmed30178042" resource="acc033" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For recurrence, do not use the treatment used for the initial episode. Use pulse-tapered vancomycin if fidaxomicin or vancomycin were used initially.<xref ref="pubmed30178042" resource="acc033" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Fecal microbiota transplant is an option if antibiotic therapy has failed and for patients with recurrences. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>
+<em>Clostridium difficile</em> infection ranges from asymptomatic carrier to severe colitis with toxic megacolon in susceptible patients. Pseudomembranous colitis is the full-blown manifestation of <em>C. difficile</em> colitis, with classic pseudomembranes over the colorectal mucosa.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Hospitals: An estimated three million new cases of <em>C. difficile</em> infection in U.S. hospitals each year.</listitem>
+<listitem>Community: 6.7&#x002F;100,000 patients treated with antibiotics.<xref ref="pubmed9149180" resource="acc005" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Healthy adults: up to 10&#x0025; of patients admitted to the hospital are colonized with toxigenic <em>C. difficile</em> upon admission, with the primary risk factor for colonization being hospitalization within the previous 3 months.<xref ref="pubmed25732416" resource="acc028" /></listitem>
+<listitem>Neonates: 40&#x0025; colonized.</listitem>
+<listitem>In 2011 <em>C. difficile</em> was associated with an estimated 4,530,000 infections (66&#x0025; healthcare-associated) and approximately 29,000 deaths.<xref ref="pubmed25714160" resource="acc024" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem><em>Clostridium difficile</em></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem><em>Clostridium difficile</em> colonizes the human intestinal tract after the normal gut flora are changed by antibiotic therapy.<xref ref="pubmed2911306" resource="acc002" /></listitem>
+<listitem>After colonization, <em>C. difficile</em> releases two exotoxins, toxin A and toxin B, that bind to receptors on intestinal epithelial cells, causing massive secretion of fluid (diarrhea) and acute inflammation with destruction of epithelial lining and formation of pseudomembranes.</listitem>
+<listitem><em>Clostridium difficile</em> infection ranges from asymptomatic carrier to severe colitis with toxic megacolon depending on the host immune response and whether or not the strain is toxigenic.</listitem>
+<listitem>Infection occurs by the fecal-oral route.</listitem>
+<listitem>Incidence of community-associated <em>C. difficile</em> infection has been increasing in the last decade (defined as ocurring in pateints not hospitalized in the year prior to diagnosis).<xref ref="pubmed16319813" resource="acc011" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Antibiotic therapy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Advanced age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hospitalization</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chemotherapy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Severe underlying illness</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Recent gastrointesinal surgery</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Tube feeding</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Antacids</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="poem120792" resource="acc021" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Limit the inappropriate use of antibiotics to decrease the likelihood of outbreaks of <em>C. difficile</em> infection. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed12675094" resource="acc003" /><xref ref="pubmed9149180" resource="acc005" /></listitem>
+<listitem>Institute routine infection control measures to prevent <em>C. difficile</em> infection: adhere to hand hygiene procedures between contact with all patients; wear and properly dispose of gloves for patient contact; hand washing preferentially to alcohol-based hand rubs per CDC recommendations; and disinfect objects contaminated with <em>C. difficile</em> with sodium hypochlorite, alkaline glutaraldehyde, or ethylene oxide. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed12418624" resource="acc004" /></listitem>
+<listitem>Once-daily bathing with 2&#x0025; chlorhexidine cloths is no better at preventing healthcare-associated infections (including CDI) than is bathing with non-antimicrobial cloths in adult patients admitted to the ICU.<xref ref="pubmed25602496" resource="acc026" /></listitem>
+<listitem>Do not attempt to eradicate the carrier state for <em>C. difficile</em> using antibiotics routinely. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>In a secondary prevention trial, using a nontoxigenic C. difficile strain M3 (NTCD-M3) was associated with lower rates of recurrent CDI than placebo (11&#x0025; vs 30&#x0025;) after 24 months. The efficacy of prevention was associated with successful colonization with NTCD-M3, which occurred in 69&#x0025; of treated patients.<xref ref="pubmed25942722" resource="acc025" /></listitem>
+<listitem>American Gastroenterological Association suggest probiotics to prevent <em>C. difficile</em> infection in patients taking antibiotics.<xref ref="poem221016" resource="acc038" /></listitem>
+<listitem>Probiotics containing lactobacilli and Bifidobacteria do not prevent <em>C. difficile</em> infection in hospitalized patients over the age of 65.<xref ref="poem151246" resource="acc037" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect <em>C. difficile</em> in any patient with acute watery diarrhea during or shortly after antibiotic therapy. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>When there is a high baseline likelihood of CDI (i.e., hospitalized patient, antibiotic use, no other explanation) order a nucleic acid amplification test as the initial study. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed30178042" resource="acc033" /></listitem>
+<listitem>When suspicion for CDI is lower, obtain stool for <em>C. difficile</em> toxins using <xref ref="test398" resource="acc001">ELISA</xref> followed by a nucleic acid amplification test, or vice versa.<xref ref="pubmed30178042" resource="acc033" /><evidence rating="C" system="SORT">C</evidence><xref ref="test398" resource="acc001" /></listitem>
+<listitem>Sigmoidoscopy or colonoscopy, when diagnosis in doubt may reveal pseudomembranes. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed7323683" resource="acc017" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Bacterial or viral gastroenteritis</Differential_Name>
+<Differential_Features>History of travel, a family member with diarrhea, eating contaminated food</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Antibiotic-associated diarrhea</Differential_Name>
+<Differential_Features>Nausea with diarrhea but no fever and negative test for <em>C.difficile</em> toxin</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Inflammatory bowel disease</Differential_Name>
+<Differential_Features>Chronic diarrhea that may be bloody with extraintestinal manifestation; colonoscopic</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Microscopic colitis</Differential_Name>
+<Differential_Features>Chronic non-bloody diarrhea. More chronic, no apparent relation to antibiotic use</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>A diagnosis of pseudomembranous colitis should be considered in patients who present with acute watery diarrhea during or shortly after antibiotic therapy.</listitem>
+<listitem>Other associated symptoms are crampy lower abdominal pain, nausea, vomiting, and fever.</listitem>
+<listitem>On physical exam, the patient may have abdominal distention, and tenderness.</listitem>
+<listitem>Patients with fulminant colitis may present as acute abdomen; peritoneal signs suggest perforation.</listitem>
+<listitem>A prospective study of 217 hospitalized patients who received antibiotics and developed diarrhea A the following as the best independent predictors of positive <em>C. difficile</em> test results: watery diarrhea (OR 17.4), poor functional capacity (OR 9.1), use of proton pump inhibitor (OR 6.1), albumin &lt;2.7 mg&#x002F;dl (OR 3.8), use of histamine blocker (OR 3.1), and WBC count &gt;13,000 cells&#x002F;ml (OR 2.7).<xref ref="pubmed17385141" resource="acc020" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><xref ref="test398" resource="acc001">Polymerase chain reaction</xref> (nucleic acid amplification test) is recommended by IDSA &#x002F; SHEA guidelines (2018) as the initial single diagnostic test for patients with new, unexplained water diarrhea. If institutional criteria do not limit testing to patients with unexplained diarrhea, a toxin enzyme immunoassay is recommended initially, followed by nucleic acid amplification or vice versa.<xref ref="pubmed30178042" resource="acc033" /></listitem>
+<listitem><xref ref="test398" resource="acc001">Tissue culture cytotoxin assay</xref> has been considered the gold standard for diagnosing of <em>C. difficile</em> infection. It may be helpful in large outbreaks. However, it requires a tissue culture facility, which is not widely available in most hospitals and takes 24 to 48 hours to perform.</listitem>
+<listitem><xref ref="test398" resource="acc001">Stool culture</xref> is not specific for toxin-producing bacteria and takes 2 to 5 days. It is only recommended to evaluate selected hospitalized patients whose diarrhea begins within 3 days after admission to identify community-acquired causes of non-<em>C. difficile</em> diarrhea.<xref ref="poem30424" resource="acc008" /></listitem>
+<listitem>Fecal leukocytes: nonspecific, may be absent, not required for the evaluation.</listitem>
+<listitem>Stool guaiac: positive for occult blood but nonspecific.</listitem>
+<listitem>CBC with differential: leukocytosis with left shift, as high as 40,000&#x002F;mm<sup>3</sup>.</listitem>
+<listitem>Abdominal X-rays may show dilated colon and ileus patterns.</listitem>
+<listitem>CT scan of the abdomen: thickened colonic wall and dilatation of the colon.</listitem>
+<listitem>Sigmoidoscopy or colonoscopy, when the diagnosis is in doubt, may reveal pseudomembranes.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem><xref ref="pubmed23248788" resource="acc023">A</xref><xref ref="pubmed23248788" resource="acc023">clinical decision rule</xref> can predict the likelihood of <em>C. difficile</em> in hospitalized patients.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Consider pseudomembranous colitis in patients with acute watery diarrhea during or shortly after antibiotic therapy and with or without crampy lower abdominal pain, nausea, vomiting, and fever.</listitem>
+<listitem>Obtain stool for <em>C. difficile</em> toxins A and B up to three times using ELISA in a patient with suspected pseudomembranous colitis.<xref ref="pubmed9149180" resource="acc005" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>398</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>For an initial nonfulminant episode of CDI, treat with vancomycin or fidaxomicin. For fulminant CDI, use high dose oral or NG administered vancomycin and IV metronidazole. <xref ref="pubmed30178042" resource="acc033" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For recurrence, do not use the treatment used for the initial episode. Use pulse-tapered vancomycin if fidaxomicin or vancomycin were used initially.<xref ref="pubmed30178042" resource="acc033" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Emergency colectomy for impending colon perforation, severe ileus with megacolon, or refractory septicemia. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Consider fecal microbiota transplant (FMT) for patients with multiple recurrences or chronic symptoms.<xref ref="pubmed30178042" resource="acc033" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>A small study compared vancomycin liquid with metronidazole in 150 patients with severe pseudomembranous colitis and found a higher cure rate with vancomycin (NNT &#x003D; 5, 95&#x0025; CI, 3-27).<xref ref="poem90991" resource="acc007" /> In addition, in patients with severe <em>Clostridium difficile</em> infection, vancomycin is associated with a lower mortality risk (NNT &#x003D; 23) compared to metronidazole.<xref ref="pubmed28166328" resource="acc030" /></listitem>
+<listitem>Vancomycin can be administered via nasogastric tube or retention enema in patients who cannot tolerate oral medication or with ileus.<xref ref="poem150304" resource="acc036" /><xref ref="pubmed30178042" resource="acc033" /></listitem>
+<listitem>An RCT randomized patients with primary or recurrent <em>C. difficile</em> to the human monoclonal antibody bezlotoxumab or placebo; half took vancomycin, and half took metronidazole. The recurrence rate was lower in the active therapy group (10&#x0025; reduction, NNT &#x003D; 10). At a current US cost of $4000, that is about $40,000 to prevent one episode of recurrence. Additional studies are needed to identify which patients are at the greatest risk of recurrence and whether the use could be limited to this subset of high risk patients.<xref ref="pubmed28121498" resource="acc029" /></listitem>
+<listitem>Relapse occurs in 10 to 25 percent of patients treated with metronidazole or vancomycin. The IDSA&#x002F;SHEA guidelines recommend a different treatment used in the initial episode. For example, if metronidazole was used initially, use vancomycin or fidaxomicin. If vancomycin was used initially, use pulse-tapered vancomycin or fidoxamicin.<xref ref="pubmed30178042" resource="acc033" /> Pulse tapered vancomycin: 125 mg QID for 1 week, 125 mg BID for 7 days, 125 mg daily for 7 days, 125 mg every other day for 7 days, then 125 mg every 3 days for 14 days.</listitem>
+<listitem>For the second or subsequent recurrence, use pulse tapered vancomycin or vancomycin for 10 days, followed by rifaximin or fidaxomicin.<xref ref="pubmed30178042" resource="acc033" /></listitem>
+<listitem>A systematic review and network meta-analysis of 24 trials comprising 5361 patients and 13 different treatments concluded that fidaxomicin provides the highest rate of sustained symptomatic cure for CDI, is a better treatment option than vancomycin for all patients except those with severe infections with C difficile, and could be considered as first-line therapy. They also concluded that metronidazole should not be recommended for treatment of C difficile.<xref ref="pubmed30025913" resource="acc035" /></listitem>
+<listitem>Anion-binding resins (cholestyramine, colestipol) have also been used as adjunctive therapy for relapsing infections.</listitem>
+<listitem>Intravenous immune globulin has been effective in a small number of patients with severe or relapsing infection.<xref ref="pubmed19186089" resource="acc022" /></listitem>
+<listitem>VE303 consists of 8 strains of commensal Clostridia. A trial randomized 79 patients with 1 or more episodes of CDI in the past 6 months to high dose VE303, low-dose VE303 or placebo once daily for 14 days. Recurrence occurred at week 8 in 14&#x0025; given high-dose, 37&#x0025; given low-dose, and 46&#x0025; given placebo (p &#x003D; 0.006; NNT 3 of high dose vs placebo).<xref ref="pubmed37060545" resource="acc039" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Probiotics are sometimes used for prevention and treatment, but there is insufficient evidence to recommend for or against this. A systematic review identified 4 studies, but only one found a reduced risk of recurrence with probiotic. A Cochrane review estimated the NNT is about 65.<xref ref="cochrane6095" resource="acc041" /><xref ref="pubmed16027434" resource="acc018" /></listitem>
+<listitem>A probiotic Lactobacillus preparation (taken twice daily for the course of antibiotics and 7 days afterward) led to an absolute risk reduction of 21.6&#x0025; (NNT &#x003D; 5) in the development of any antibiotic-associated diarrhea; no one in the probiotic group developed diarrhea from <em>C. difficile</em> compared with 17&#x0025; in the placebo group.<xref ref="pubmed17604300" resource="acc019" /></listitem>
+<listitem>In a systematic review with a meta-regression analysis of 19 studies with 6261 subjects, administration of probiotics closer to the first dose of antibiotic reduces the risk of CDI by &gt;50&#x0025; in hospitalized adults. <xref ref="pubmed28192108" resource="acc032" /></listitem>
+<listitem>Fiber and soy formula reduced the duration of antibiotic-induced diarrhea in children by about one day.<xref ref="poem40269" resource="acc009" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Fecal microbiota transplantation (FMT) using donor stool has been used in some patients with refractory <em>C. difficille</em> infection.<xref ref="pubmed12594638" resource="acc012" /></listitem>
+<listitem>In patients who have had multiple Clostridium difficile infections (CDIs), FMT (fresh and frozen donor feces, administered by either nasogastric tube or colonoscopy) is associated with a 65&#x0025; to 80&#x0025; cure rate with a single treatment and up to 95&#x0025; cure rate with repeated treatments compared with a &#x007E;25&#x0025; cure rate for antibiotics. The adverse event rate for FMT is 30&#x0025; (primarily abdominal discomfort); rarely, severe infections (0.7&#x0025;) and death (0.1&#x0025;) can occur.<xref ref="pubmed29879241" resource="acc034" /></listitem>
+<listitem>In an RCT of 41 patients, treatment with oral vancomycin (500 mg 4x daily for 14 days) plus large bowel lavage plus an infusion of donor feces was associated with a cure rate of 81.3&#x0025; compared to 23&#x0025; to 31&#x0025; for those receiving vancomycin or vancomycin with lavage.</listitem>
+<listitem>A systematic review of FMT concluded that it might have substantial short-term effects (resolution of symptoms in up to 81&#x0025; of treated patients vs. 23&#x0025; to 31&#x0025; of patients treated with vancomycin-plus-bowel lavage or vancomycin alone) with few short-term adverse effects.<xref ref="pubmed25938992" resource="acc027" /></listitem>
+<listitem>Among patients with a confirmed diagnosis of CDI who were successfully treated, the administration of nontoxigenix spores of C difficile reduces the rate of recurrent CDI compared to placebo (30&#x0025; vs. 11&#x0025;, NNT &#x003D; 5) over 26 weeks, with fewer study discontinuations due to ADE amongst the active treatment group.<xref ref="pubmed25942722" resource="acc025" /></listitem>
+<listitem>British Society of Gastroenterology guidelines (2024) make a series of recommendations for use of FMT in patients with recurrent CDI. It should be offered to all patients with 2 or more recurrences, following a 10 day course of appropriate antibiotics. Any route of delivery other than enema is acceptable. PPIs and antimotility agents are not recommended prior to FMT, but bowel preparation using polyethylene glycol is recommended. Consider using metoclopramide prior to FMT if administered via the upper GI route. Refer to the guideline for additional detailed recommendations.<xref ref="pubmed38609165" resource="acc040" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Emergency colectomy is recommended for impending colon perforation, severe ileus with megacolon, or refractory septicemia.</listitem>
+<listitem>Emergency colectomy reduces mortality in some patients with fulminant <em>C. difficile</em> infection.<xref ref="pubmed17245181" resource="acc013" /></listitem>
+<listitem>The recommended surgical procedure is subtotal colectomy with ileostomy, which can be converted to ileorectal anastomosis after colonic inflammation has subsided.<xref ref="pubmed11882758" resource="acc006" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Discontinue ongoing antimicrobial therapy if possible.</listitem>
+<listitem>Supportive care: correction of fluid and electrolyte imbalances.</listitem>
+<listitem>Avoid antiperistaltic agents (i.e., loperamide and opiates).</listitem>
+<listitem>The use of antibiotics by a hospitalized patient is associated with a small increased risk of Clostridium difficile infection (CDI) for the subsequent occupant of the same hospital bed (0.72&#x0025;) vs. 0.43&#x0025; if the previous occupant did not receive antibiotics, suggesting that antibiotics can alter the local microenvironment enough to influence CDI risk for future patients.<xref ref="poem190165" resource="acc031" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Improvement typically occurs in 3 days with treatment, and virtually all patients recover. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed7342291" resource="acc014" /></listitem>
+<listitem>Relapses occur in 10&#x0025; to 25&#x0025; of cases of <em>C. difficile</em> colitis. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed11413124" resource="acc015" /></listitem>
+<listitem>Untreated mortality is 10&#x0025; to 30&#x0025;. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16322602" resource="acc016" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>The mortality rate in the untreated is estimated to be 10&#x0025; to 30&#x0025;.<xref ref="pubmed16322602" resource="acc016" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>With treatment, improvement typically occurs in 3 days and virtually all patients recover.<xref ref="pubmed7342291" resource="acc014" /></listitem>
+<listitem>Relapses occur in 10&#x0025; to 25&#x0025; of cases <em>C. difficile</em> colitis.</listitem>
+<listitem>Patients with at least two previous relapses have about a 65&#x0025; chance of a subsequent relapse following therapy with vancomycin or metronidazole.<xref ref="pubmed11413124" resource="acc015" /></listitem>
+<listitem>In severely ill patients, colectomy sometimes is required.</listitem>
+<listitem>Poor prognostic factors include hypoalbuminemia, rapid fall in albumin, over 3 antibiotics, and persistent <em>C. difficile</em> toxin after 7 days of treatment.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Recheck diagnostic studies with each relapse to confirm that <em>C. difficile</em> infection is still the correct diagnosis.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Educate patients about drug therapy, symptoms requiring evaluation, the possibility of relapse, and alternative treatments for the relapse.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>The elderly have a higher morbidity and mortality rate from pseudomembranous colitis.<xref ref="pubmed11837725" resource="acc010" /></listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="test398">
+<accessionId id="acc001" href="info:wiley/eep-dx/398" />
+<accessionId id="acc001b" href="info:pmid/17567791" />
+<authors>Musher DM, Manhas A, Jain P, et al.</authors>
+<title>Detection of Clostridium difficile toxin: comparison of enzyme immunoassay results with results obtained by cytotoxicity assay.</title>
+<source>J Clin Microbiol</source>
+<pubdate>2007</pubdate>
+<volume>45</volume>
+<pages>2737&#x2013;2739.</pages>
+</reference>
+<reference id="pubmed2911306">
+<accessionId id="acc002" href="info:pmid/2911306" />
+<authors>McFarland LV, Mulligan ME, Kwok RY, Stamm WE.</authors>
+<title>Nosocomial acquisition of C. difficile infection.</title>
+<source>N Engl J Med</source>
+<pubdate>1989</pubdate>
+<volume>320</volume>
+<pages>204&#x2013;210.</pages>
+</reference>
+<reference id="pubmed12675094">
+<accessionId id="acc003" href="info:pmid/12675094" />
+<authors>Stone SP, Beric V, Quick A, Balestrini AA, Kibbler CC.</authors>
+<title>The effect of an enhanced infection-control policy on the incidence of Clostridium difficile infection and methicillin-resistant Staphloccocus aureus colonization in acute elderly medical patients.</title>
+<source>Age Ageing</source>
+<pubdate>1998</pubdate>
+<volume>27</volume>
+<pages>561&#x2013;568.</pages>
+</reference>
+<reference id="pubmed12418624">
+<accessionId id="acc004" href="info:pmid/12418624" />
+<authors>Boyce JM, Pittet D; Healthcare Infection Control Practices Avisory Committee; HICPAC&#x002F;SHEA&#x002F;APIC&#x002F;IDSA Hand Hygiene Task Force.</authors>
+<title>Guideline for hand hygiene in health-care settings. Recommendations of the Healthcare Infection Control Practices Advisory Committee and the PICPAC&#x002F;SHEA&#x002F;APIC&#x002F;IDAA Hand Hygiene Task Force. Society for Healthcare Epidemiology of America&#x002F;Association for Professionals in Infection Control&#x002F;Infectious Diseases Society of America.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2002</pubdate>
+<volume>51</volume>
+<pages>1&#x2013;45.</pages>
+</reference>
+<reference id="pubmed9149180">
+<accessionId id="acc005" href="info:pmid/9149180" />
+<authors>Feteky R.</authors>
+<title>Guidelines for the diagnosis and management of Clostridium difficile-associated diarrhea and colitis. American College of Gastroenterology, Practice Parameters Committee.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>1997</pubdate>
+<volume>92</volume>
+<pages>739&#x2013;750.</pages>
+</reference>
+<reference id="pubmed11882758">
+<accessionId id="acc006" href="info:pmid/11882758" />
+<authors>Dallal RM, Harbrecht BG, Boujoukas AJ, et al.</authors>
+<title>Fulminant Clostridium difficile: an underappreciated and increasing cause of death and complications.</title>
+<source>Ann Surg</source>
+<pubdate>2002</pubdate>
+<volume>235</volume>
+<pages>363&#x2013;372.</pages>
+</reference>
+<reference id="poem90991">
+<accessionId id="acc007" href="info:wiley/eep-poem/90991" />
+<accessionId id="acc007b" href="info:pmid/17599306" />
+<authors>Zar FA, Bakkanagari SR, Moorthi KM, Davis MB.</authors>
+<title>A comparison of vancomycin and metronidazole for the treatment of Clostridium difficile-associated diarrhea, stratified by disease severity.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>45</volume>
+<pages>302&#x2013;307.</pages>
+</reference>
+<reference id="poem30424">
+<accessionId id="acc008" href="info:wiley/eep-poem/30424" />
+<accessionId id="acc008b" href="info:wiley/eep-rule/150" />
+<accessionId id="acc008c" href="info:pmid/11176841" />
+<authors>Bauer TM, Lalvani A, Fehrenbach J, et al.</authors>
+<title>Derivation and validation of guidelines for stool cultures for enteropathogenic bacteria other than clostridium difficile in hospitalized adults.</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>285</volume>
+<pages>313&#x2013;319.</pages>
+</reference>
+<reference id="poem40269">
+<accessionId id="acc009" href="info:wiley/eep-poem/40269" />
+<accessionId id="acc009b" href="info:pmid/11598607" />
+<authors>Burks AW, Vanderhoof JA, Mehra S, et al.</authors>
+<title>Randomized clinical trial of soy formula with and without added fiber in antibiotic-induced diarrhea.</title>
+<source>J Pediatr</source>
+<pubdate>2001</pubdate>
+<volume>139</volume>
+<pages>578&#x2013;582.</pages>
+</reference>
+<reference id="pubmed11837725">
+<accessionId id="acc010" href="info:pmid/11837725" />
+<authors>Buchner AM, Sonnenberg A.</authors>
+<title>Epidemiology of Clostridium difficile infection in a large population of hospitalized US military veterans.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2002</pubdate>
+<volume>47</volume>
+<pages>201&#x2013;207.</pages>
+</reference>
+<reference id="pubmed16319813">
+<accessionId id="acc011" href="info:pmid/16319813" />
+<authors>Centers for Disease Control and Prevention (CDC).</authors>
+<title>Severe Clostridium difficile-associated disease in populations previously at low risk&#x2014;four states, 2005.</title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<pubdate>2005</pubdate>
+<volume>54</volume>
+<pages>1201&#x2013;1205.</pages>
+</reference>
+<reference id="pubmed12594638">
+<accessionId id="acc012" href="info:pmid/12594638" />
+<authors>Aas J, Gessert CE, Bakken JS.</authors>
+<title>Recurrent Clostridium difficile colitis: case series involving 18 patients with donor stool administered via a nasogastric tube.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2003</pubdate>
+<volume>36</volume>
+<pages>580&#x2013;585.</pages>
+</reference>
+<reference id="pubmed17245181">
+<accessionId id="acc013" href="info:pmid/17245181" />
+<authors>Lamontagne F, Labb&#x00E9; AC, Haeck O.</authors>
+<title>Impact of emergency colectomy on survival of patients with fulminant Clostridium difficile colitis during an epidemic caused by a hypervirulent strain.</title>
+<source>Ann Surg</source>
+<pubdate>2007</pubdate>
+<volume>245</volume>
+<pages>267&#x2013;272.</pages>
+</reference>
+<reference id="pubmed7342291">
+<accessionId id="acc014" href="info:pmid/7342291" />
+<authors>Fekety R, Silva J, Armstrong J, et al.</authors>
+<title>Treatment of antibiotic-associated entercolitis with vancomycin.</title>
+<source>Rev Infect Dis</source>
+<pubdate>1981</pubdate>
+<volume>3(Suppl)</volume>
+<pages>S273-S281.</pages>
+</reference>
+<reference id="pubmed11413124">
+<accessionId id="acc015" href="info:pmid/11413124" />
+<authors>Kyne L, Kelly CP.</authors>
+<title>Recurrent Clostridium difficile diarrhea.</title>
+<source>Gut</source>
+<pubdate>2001</pubdate>
+<volume>49</volume>
+<pages>152&#x2013;153.</pages>
+</reference>
+<reference id="pubmed16322602">
+<accessionId id="acc016" href="info:pmid/16322602" />
+<authors>Loo VG, Poirier L, Miller MA, et al.</authors>
+<title>A predominantly clonal multi-institutional outbreak of clostridium difficile-associated diarrhea with high morbidity and mortality.</title>
+<source>N Engl J Med</source>
+<pubdate>2005</pubdate>
+<volume>353</volume>
+<pages>2442&#x2013;2449.</pages>
+</reference>
+<reference id="pubmed7323683">
+<accessionId id="acc017" href="info:pmid/7323683" />
+<authors>Sepp&#x00E4;l&#x00E4; K, Hjelt L, Sipponen P.</authors>
+<title>Colonoscopy in the diagnosis of antibiotic-associated pseudomembranous colitis.</title>
+<source>Scand J Gastroenterol</source>
+<pubdate>1981</pubdate>
+<volume>16</volume>
+<pages>465&#x2013;468.</pages>
+</reference>
+<reference id="pubmed16027434">
+<accessionId id="acc018" href="info:pmid/16027434" />
+<authors>Dendukuri N, Costa V, McGregor M, Brophy JM.</authors>
+<title>Probiotic therapy for the prevention and treatment of Clostridium dificile-associated diarrhea: a systematic review.</title>
+<source>CMAJ</source>
+<pubdate>2005</pubdate>
+<volume>173</volume>
+<pages>167&#x2013;170.</pages>
+</reference>
+<reference id="pubmed17604300">
+<accessionId id="acc019" href="info:pmid/17604300" />
+<authors>Hickson M, D'Souza AL, Muthu N, et al.</authors>
+<title>Use of probiotic Lactobacillus preparation to prevent diarrhoea associated with antibiotics: randomised double blind placebo controlled trial.</title>
+<source>BMJ</source>
+<pubdate>2007</pubdate>
+<volume>335</volume>
+<pages>80.</pages>
+</reference>
+<reference id="pubmed17385141">
+<accessionId id="acc020" href="info:pmid/17385141" />
+<authors>Peled N, Pitlik S, Samra Z, Kazakov A, Bloch Y, Bishara J.</authors>
+<title>Predicting Clostridium difficile toxin in hospitalized patients with antibiotic-associated diarrhea.</title>
+<source>Infect Control Hosp Epidemiol</source>
+<pubdate>2007</pubdate>
+<volume>28</volume>
+<pages>377&#x2013;381.</pages>
+</reference>
+<reference id="poem120792">
+<accessionId id="acc021" href="info:wiley/eep-poem/120792" />
+<accessionId id="acc021b" href="info:pmid/20458084" />
+<authors>Linsky A, Gupta K, Lawler EV, Fonda JR, Hermos JA.</authors>
+<title>Proton pump inhibitors and risk for recurrent Clostridium difficile infection.</title>
+<source>Arch Intern Med</source>
+<pubdate>2010</pubdate>
+<volume>170</volume>
+<pages>772&#x2013;778.</pages>
+</reference>
+<reference id="pubmed19186089">
+<accessionId id="acc022" href="info:pmid/19186089" />
+<authors>O'Horo J, Safdar N.</authors>
+<title>The role of immunoglobulin for the treatment of Clostridium difficile infection: a systematic review.</title>
+<source>Int J Infect Dis</source>
+<pubdate>2009</pubdate>
+<volume>13</volume>
+<pages>663&#x2013;667.</pages>
+</reference>
+<reference id="pubmed23248788">
+<accessionId id="acc023" href="info:pmid/23248788" />
+<authors>Chandra S, Latt N, Jariwala U, Palabindala V, Thapa R, Alamelumangapuram CB, Noel M, Marur S, Jani N.</authors>
+<title>A cohort study for derivation and validation of a clinical prediction scale for hospital-onset Clostridium difficile infection.</title>
+<source>Can J Gastroenterol</source>
+<pubdate>2012</pubdate>
+<volume>26</volume>
+<pages>885&#x2013;888.</pages>
+</reference>
+<reference id="pubmed25714160">
+<accessionId id="acc024" href="info:pmid/25714160" />
+<authors>Lessa FC, Mu Y, Bamberg WM, Beldavs ZG, Dumyati GK, Dunn JR, Farley MM, Holzbauer SM, Meek JI, Phipps EC, Wilson LE, Winston LG, Cohen JA, Limbago BM, Fridkin SK, Gerding DN, McDonald LC.</authors>
+<title>Burden of Clostridium difficile infection in the United States.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>372</volume>
+<pages>825&#x2013;834.</pages>
+</reference>
+<reference id="pubmed25942722">
+<accessionId id="acc025" href="info:pmid/25942722" />
+<authors>Gerding DN, Meyer T, Lee C, Cohen SH, Murthy UK, Poirier A, Van Schooneveld TC, Pardi DS, Ramos A, Barron MA, Chen H, Villano S.</authors>
+<title>Administration of spores of nontoxigenic Clostridium difficile strain M3 for prevention of recurrent C. difficile infection: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>313</volume>
+<pages>1719&#x2013;1727.</pages>
+</reference>
+<reference id="pubmed25602496">
+<accessionId id="acc026" href="info:pmid/25602496" />
+<authors>Noto MJ, Domenico HJ, Byrne DW, Talbot T, Rice TW, Bernard GR, Wheeler AP.</authors>
+<title>Chlorhexidine bathing and health care-associated infections: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>313</volume>
+<pages>369&#x2013;378.</pages>
+</reference>
+<reference id="pubmed25938992">
+<accessionId id="acc027" href="info:pmid/25938992" />
+<authors>Drekonja D, Reich J, Gezahegn S, Greer N, Shaukat A, MacDonald R, Rutks I, Wilt TJ.</authors>
+<title>Fecal microbiota transplantation for <em>Clostridium difficile</em> infection: a systematic review.</title>
+<source>Ann Intern Med</source>
+<pubdate>2015</pubdate>
+<volume>162</volume>
+<pages>630&#x2013;638.</pages>
+</reference>
+<reference id="pubmed25732416">
+<accessionId id="acc028" href="info:pmid/25732416" />
+<authors>Zacharioudakis IM, Zervou FN, Pliakos EE, Ziakas PD, Mylonakis E.</authors>
+<title>Colonization with toxinogenic <em>C. difficile</em> upon hospital admission, and risk of infection: a systematic review and meta-analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2015</pubdate>
+<volume>110</volume>
+<pages>381&#x2013;390; quiz 391.</pages>
+</reference>
+<reference id="pubmed28121498">
+<accessionId id="acc029" href="info:pmid/28121498" />
+<authors>Wilcox MH, Gerding DN, Poxton IR, Kelly C, Nathan R, Birch T, Cornely OA, Rahav G, Bouza E, Lee C, Jenkin G, Jensen W, Kim YS, Yoshida J, Gabryelski L, Pedley A, Eves K, Tipping R, Guris D, Kartsonis N, Dorr MB; MODIFY I and MODIFY II Investigators.</authors>
+<title>Bezlotoxumab for prevention of recurrent Clostridium difficile infection.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>376</volume>
+<pages>305&#x2013;317.</pages>
+</reference>
+<reference id="pubmed28166328">
+<accessionId id="acc030" href="info:pmid/28166328" />
+<authors>Stevens VW, Nelson RE, Schwab-Daugherty EM, Khader K, Jones MM, Brown KA, Greene T, Croft LD, Neuhauser M, Glassman P, Goetz MB, Samore MH, Rubin MA.</authors>
+<title>Comparative effectiveness of vancomycin and metronidazole for the prevention of recurrence and death in patients with Clostridium difficile infection.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2017</pubdate>
+<volume>177</volume>
+<pages>546&#x2013;553.</pages>
+</reference>
+<reference id="poem190165">
+<accessionId id="acc031" href="info:wiley/eep-poem/190165" />
+<accessionId id="acc031b" href="info:pmid/27723860" />
+<authors>Freedberg DE, Salmasian H, Cohen B, Abrams JA, Larson EL.</authors>
+<title>Receipt of antibiotics in hospitalized patients and risk for Clostridium difficile infection in subsequent patients who occupy the same bed.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2016</pubdate>
+<volume>176</volume>
+<pages>1801&#x2013;1808.</pages>
+</reference>
+<reference id="pubmed28192108">
+<accessionId id="acc032" href="info:pmid/28192108" />
+<authors>Shen NT, Maw A, Tmanova LL, Pino A, Ancy K, Crawford CV, Simon MS, Evans AT.</authors>
+<title>Timely use of probiotics in hospitalized adults prevents Clostridium difficile infection: a systematic review with meta-regression analysis.</title>
+<source>Gastroenterology</source>
+<pubdate>2017</pubdate>
+<volume>152</volume>
+<pages>1889&#x2013;1900.e9.</pages>
+</reference>
+<reference id="pubmed30178042">
+<accessionId id="acc033" href="info:pmid/30178042" />
+<authors>Gupta A, Cifu AS, Khanna S.</authors>
+<title>Diagnosis and Treatment of Clostridium difficile infection.</title>
+<source>JAMA</source>
+<pubdate>2018</pubdate>
+<volume>320</volume>
+<pages>1031&#x2013;1032.</pages>
+</reference>
+<reference id="pubmed29879241">
+<accessionId id="acc034" href="info:pmid/29879241" />
+<authors>Meyers S, Shih J, Neher JO, Safranek S.</authors>
+<title>Clinical Inquiries: How effective and safe is fecal microbial transplant in preventing C difficile recurrence?</title>
+<source>J Fam Pract</source>
+<pubdate>2018</pubdate>
+<volume>67</volume>
+<pages>386&#x2013;388.</pages>
+</reference>
+<reference id="pubmed30025913">
+<accessionId id="acc035" href="info:pmid/30025913" />
+<authors>Beinortas T, Burr NE, Wilcox MH, Subramanian V.</authors>
+<title>Comparative efficacy of treatments for Clostridium difficile infection: a systematic review and network meta-analysis.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2018</pubdate>
+<volume>18</volume>
+<pages>1035&#x2013;1044.</pages>
+</reference>
+<reference id="poem150304">
+<accessionId id="acc036" href="info:wiley/eep-poem/150304" />
+<accessionId id="acc036b" href="info:pmid/23323867" />
+<authors>van Nood E, Vrieze A, Nieuwdorp M, Fuentes S, Zoetendal EG, de Vos WM, Visser CE, Kuijper EJ, Bartelsman JF, Tijssen JG, Speelman P, Dijkgraaf MG, Keller JJ.</authors>
+<title>Duodenal infusion of donor feces for recurrent Clostridium difficile.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>407&#x2013;15.</pages>
+</reference>
+<reference id="poem151246">
+<accessionId id="acc037" href="info:wiley/eep-poem/151246" />
+<accessionId id="acc037b" href="info:pmid/23932219" />
+<authors>Allen SJ, Wareham K, Wang D, Bradley C, Hutchings H, Harris W, Dhar A, Brown H, Foden A, Gravenor MB, Mack D.</authors>
+<title>Lactobacilli and bifidobacteria in the prevention of antibiotic-associated diarrhoea and Clostridium difficile diarrhoea in older inpatients (PLACIDE): a randomised, double-blind, placebo-controlled, multicentre trial.</title>
+<source>Lancet</source>
+<pubdate>2013</pubdate>
+<volume>382</volume>
+<pages>1249&#x2013;57.</pages>
+</reference>
+<reference id="poem221016">
+<accessionId id="acc038" href="info:wiley/eep-poem/221016" />
+<accessionId id="acc038b" href="info:pmid/32531291" />
+<authors>Su GL, Ko CW, Bercik P, Falck-Ytter Y, Sultan S, Weizman AV, Morgan RL.</authors>
+<title>AGA Clinical Practice Guidelines on the Role of Probiotics in the Management of Gastrointestinal Disorders.</title>
+<source>Gastroenterology</source>
+<pubdate>2020</pubdate>
+<volume>159</volume>
+<pages>697&#x2013;705.</pages>
+</reference>
+<reference id="pubmed37060545">
+<accessionId id="acc039" href="info:pmid/37060545" />
+<authors>Louie T, Golan Y, Khanna S, Bobilev D, Erpelding N, Fratazzi C, Carini M, Menon R, Ruisi M, Norman JM, Faith JJ, Olle B, Li M, Silber JL, Pardi DS.</authors>
+<title>VE303, a Defined Bacterial Consortium, for Prevention of Recurrent Clostridioides difficile Infection: A Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>329</volume>
+<pages>1356&#x2013;1366.</pages>
+</reference>
+<reference id="pubmed38609165">
+<accessionId id="acc040" href="info:pmid/38609165" />
+<authors>Mullish BH, Merrick B, Quraishi MN, Bak A, Green CA, Moore DJ, Porter RJ, Elumogo NT, Segal JP, Sharma N, Marsh B, Kontkowski G, Manzoor SE, Hart AL, Settle C, Keller JJ, Hawkey P, Iqbal TH, Goldenberg SD, Williams HRT .</authors>
+<title>The use of faecal microbiota transplant as treatment for recurrent or refractory <em>Clostridioides difficile</em> infection and other potential indications: second edition of joint British Society of Gastroenterology (BSG) and Healthcare Infection Society (HIS) guidelines.</title>
+<source>Gut</source>
+<pubdate>2024</pubdate>
+<volume>73</volume>
+<pages>1052&#x2013;1075.</pages>
+</reference>
+<reference id="cochrane6095">
+<accessionId id="acc041" href="info:wiley/cochrane/CD6095" />
+<chapter_authors>Esmaeilinezhad Z, Ghosh NR, Walsh CM, Steen JP, Burgman AM, Mertz D, Johnston BC.</chapter_authors>
+<chapter_title>Probiotics for the prevention of Clostridioides difficile-associated diarrhea in adults and children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2025, Issue 9. Art. No.: CD006095. DOI: 10.1002&#x002F;14651858.CD006095.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

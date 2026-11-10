@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Burns</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0792</topic_id>
+<topic_comment />
+<topic_lastupdated>07/03/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Caroline Wolff, MD</author_name>
+<author_title>Family physician</author_title>
+<author_department>Family Medicine</author_department>
+<author_institution>Erie Family Health Center</author_institution>
+<author_email>carolinehonsa&#x0040;gmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Chicago</author_city>
+<author_state>IL</author_state>
+<author_zip>60601</author_zip>
+</author>
+<author primary="no">
+<author_name>Hajime Kojima, MD</author_name>
+<author_title>Faculty Development Fellow</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of Pittsburgh</author_institution>
+<author_email>kojimah&#x0040;gmail.com</author_email>
+<author_phone_office>412-623-2287</author_phone_office>
+<author_phone_home>412-781-2310</author_phone_home>
+<author_phone_fax />
+<author_street1>5215 Centre Ave</author_street1>
+<author_street2 />
+<author_city>Pittsburgh</author_city>
+<author_state>PA</author_state>
+<author_zip>15232</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Randall Forsch, MD, MPH</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Michigan</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Assess patients with basic life support measures, and then assess the severity of the burn by estimating its depth and size. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Obtain basic laboratory tests (CBC, electrolyte levels, renal function, UA, type and screen) and a chest x-ray, if needed. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Dress the burn daily with topical antimicrobials such as silver sulfadiazine, mafenide acetate, or silver nitrate for deep partial-thickness and full-thickness burns. Bacitracin may be used an alternative, but is less well studied. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Consider referral to a burn center if the patient meets the criteria in <xref ref="table003" />. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Burns are tissue injuries caused by heat (thermal), friction, chemicals, electricity, or irradiation. This chapter will only cover thermal burns.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>An estimated 500,000 burn injuries receive medical treatment every year in the United States, with 40,000 hospitalizations.</listitem>
+<listitem>There are an estimated 4000 burn deaths per year in United States.<xref ref="web002" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Fire&#x002F;flame (46&#x0025;)</listitem>
+<listitem>Scald (32&#x0025;)</listitem>
+<listitem>Hot object contact (8&#x0025;)</listitem>
+<listitem>Electrical (4&#x0025;)</listitem>
+<listitem>Chemical (3&#x0025;)</listitem>
+<listitem>Other (6&#x0025;)<xref ref="web002" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Burn severity is related to the total amount of heat transfer, which is dependent on the burn agent's temperature, duration of contact, transfer coefficient, heat capacity, and the size of exposed area.</listitem>
+<listitem>Local responses include hyperemia, stasis, and coagulation. These local responses induce the release of cytokines and multiple inflammatory mediators, which may cause severe systemic responses including increased capillary permeability causing edema and intravascular fluid loss, bronchospasm, decreased myocardial contractility, increased basal metabolic rate and nonspecific immunological response delay.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Evidence suggests the WHO Safe Communities model is effective in reducing injuries in whole populations. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4445" resource="acc021" /></listitem>
+<listitem>Limited evidence exists on the effectiveness of community-based injury-prevention programs to prevent burns and scalds in children. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4335" resource="acc020" /></listitem>
+<listitem>Counseling as part of child health surveillance may increase smoke alarm ownership and use, but its effects on fire-related injuries are unevaluated. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane2246" resource="acc017" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Assess patients with basic life support measures, and then assess the severity of the burn by estimating its depth and size. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Obtain basic laboratory tests (CBC, electrolyte levels, renal function, UA, type and cross for blood products) and a chest x-ray, if needed. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Laser Doppler is not an established method to measure the depth of a burn. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16566554" resource="acc007" /></listitem>
+<listitem>Evaluate burn size and depth to determine whether to refer to a burn center (<xref ref="table001" /> and <xref ref="table002" />). <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Toxic epidermal necrolysis</Differential_Name>
+<Differential_Features>New medications, no apparent exposure history to burn sources</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bullous pemphigoid</Differential_Name>
+<Differential_Features>Unsure history of burn</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Scalded skin syndrome</Differential_Name>
+<Differential_Features>Usually caused by staphylococcus</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bullous impetigo</Differential_Name>
+<Differential_Features>Response to topical antibiotics, unclear burn history</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Erysipelas</Differential_Name>
+<Differential_Features>Pruritus, rapid spread from small lesion, common on face</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>See <xref ref="table001" />.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Identify the source of burn (e.g., fire, hot water, electricity, chemicals) and remove patient from further contact.</listitem>
+<listitem>Expose and inspect the full body during physical examination.</listitem>
+<listitem>Assess airway involvement, by examining for facial burns, carbon particles in nares or oropharynx, or carbon-stained sputum. Careful auscultation of the upper airway to lungs is important.</listitem>
+<listitem>Assess the size and depth of the burn, and document it. Check skin for color, blister, moist&#x002F;dry, blanching, and pain sensation. The estimated body surface area can be calculated by using the Rule of Nines (<xref ref="table002" />).</listitem>
+<listitem>Consider differential diagnosis if there is an unclear history or presentation (i.e., blistering diseases). Consider abuse in children, any patients with unreasonable history, and in patients with typical physical characteristics (e.g., doughnut sign in buttock).</listitem>
+<listitem>In a systematic review, features of intentional scald injuries were immersion injuries affecting the extremities, buttocks or perineum or both that were symmetrical with clear upper margins, and were associated with old fractures and unrelated injuries. Unintentional scalds were more commonly from hot liquid spills and affected the upper body with irregular margins and depth.<xref ref="pubmed18538478" resource="acc002" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Initial basic laboratory tests include CBC, electrolyte levels, renal function, type and cross for blood products, and UA.</listitem>
+<listitem>Order a chest x-ray if inhalation is possible and creatinine phosphokinase for patients with full-thickness burns or patients with partial-thickness burns who need IV fluid resuscitation.</listitem>
+<listitem>Consider an arterial blood gas test and carboxyhemoglobin level if airway involvement or smoke inhalation is suspected.</listitem>
+<listitem>Laser Doppler is not an established method of burn depth measurement.<xref ref="pubmed16566554" resource="acc007" /></listitem>
+<listitem>Use eschar&#x002F;full-thickness biopsy instead of wound culture to assess for infection.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Evaluate for airway involvement: check for facial burn, carbon particle in nostril or oropharynx, or carbon-stained sputum. Auscultate upper airway to lungs.</listitem>
+<listitem>Identify the source of burn (e.g., fire, hot objects&#x002F;water, chemical, electrical), then remove it if attached. Assess size, depth, and location of burn (see <xref ref="table001" /> and <xref ref="table002" />).</listitem>
+<listitem>Assess other risk factors (e.g., comorbidity, physical function baseline, concerns of abuse).</listitem>
+<listitem>Refer to a burn center if patient meets the criteria in <xref ref="table003" />.</listitem>
+<listitem>If outpatient management: (1) pain management, (2) wound care (initial debridement, wound dressing), and (3) infection control with topical antimicrobial.</listitem>
+<listitem>Perform frequent follow-ups and refer early if concerns of aesthetic or functional disturbance arise.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Provide adequate pain control. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Skin can be cooled with room temperature or slightly cool water to provide some initial pain relief for no more than 5 minutes (to avoid maceration). Ice or iced water is not recommended.</listitem>
+<listitem>Fluid resuscitation is indicated if 20&#x0025; or more body surface area is involved (4 mL&#x002F;kg&#x002F;percent of burn to body surface area; half in initial 8 hours, remaining half in next 16 hours). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Manage blisters; debride with dressing by biologic, biosynthetic, or synthetic materials under controlled moist environment. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Dress the burn daily with topical antimicrobials such as polysporin, mafenide acetate, or silver nitrate for deep partial-thickness and full-thickness burns. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Consider referral to a burn center if patient meets the criteria in <xref ref="table003" />. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Adequate pain control is important. Oral analgesics, such as acetaminophen or NSAIDs, are sufficient for most burns.</listitem>
+<listitem>Narcotics may be necessary for severe partial-thickness burns or with dressing changes, as needed.</listitem>
+<listitem>Fluid resuscitation is indicated if 20&#x0025; or more of the body surface area is involved: 4 mL of lactated Ringer's solution or normal saline per kilogram of body weight per percent of burn body surface area. Give half in the initial 8 hours, the remaining half in the next 16 hours. Optimal resuscitation fluid choice has not been established by sufficient evidence.<xref ref="cochrane567" resource="acc029" /></listitem>
+<listitem>Update tetanus immunization, if necessary. Consider prophylaxis for peptic ulcers. Systemic antibiotics should be used only for suspected or proven burn infections.</listitem>
+<listitem>Gabapentin and pregabalin can be used as adjunctive therapy for pain control and post-burn pruritus. <xref ref="pubmed28822592" resource="acc037" /><xref ref="pubmed21075537" resource="acc036" /></listitem>
+<listitem>A Cochrane review on intravenous lidocaine for pain relief in people with burns "... found one small clinical trial, involving only 45 participants, which showed a benefit from intravenous lidocaine for pain relief in people with burns. The trial did not show a difference in opioid use, participant anxiety or level of participant satisfaction with the use of intravenous lidocaine."<xref ref="cochrane5622" resource="acc038" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Debride burn of necrotic or sloughed skin prior to applying topical antimicrobial treatment to increase effectiveness.</listitem>
+<listitem>Dress the burn with topical antimicrobials such as mafenide acetate, bacitracin, nanocrystalline silver, or silver nitrate for deep partial-thickness and full-thickness burns.<xref ref="cochrane2106" resource="acc022" /><xref ref="pubmed11087185" resource="acc006" /> Mupirocin can be used if MRSA is suspected.</listitem>
+<listitem>Though commonly used, topical silver sulfadiazine cream appears to result in slower wound healing than newer dressings for minor burns.<xref ref="pubmed27126813" resource="acc034" /><xref ref="nopmid_0017" /><xref ref="cochrane2106" resource="acc022" /></listitem>
+<listitem>In addition, a recent meta-analysis comparing nanocrystalline silver to older silver formulations demonstrated a significantly reduced incidence of infection (9.5&#x0025; vs. 26.8&#x0025;, respectively).<xref ref="pubmed19571738" resource="acc011" /></listitem>
+<listitem>Ruptured blisters should be debrided. Do not deroof blisters if they are likely to rupture imminently or occur in a location where they are likely to rupture (e.g., leg, joints). Aspiration of intact blisters is not recommended because of an increased risk of infection associated with the procedure. Large blisters (&gt;6 mm) should be debrided, because they are likely to rupture spontaneously. Debridement of large blisters will help to reduce mechanical pressure on underlying tissue and exposure of wound bed to blister fluid, which contains substances the suppress immune response and may impede healing.<xref ref="pubmed2312597" resource="acc005" /><xref ref="pubmed16566539" resource="acc012" /></listitem>
+<listitem>A randomized controlled trial of 40 patients with burn-related blisters greater than 6 mm were randomized to blister management by draining or deroofing. There were no difference in the number of days to complete wound healing between the 2 groups, however there were trends toward the aspiration group demonstrating improvements in scars and pain.<xref ref="pubmed29703044" resource="acc028" /></listitem>
+<listitem>A controlled moist healing environment should be provided on debrided partial-thickness burns wound with biosynthetic (e.g., Biobrane, TransCyte, Mepitel, DuoDERM), biologic (e.g., human allograft, pigskin), or synthetic dressing to optimize healing, decrease scarring, minimize dressing change requirements, and provide patient comfort, without increased rates of infection.<xref ref="pubmed16566539" resource="acc012" /><xref ref="pubmed19769721" resource="acc015" /></listitem>
+<listitem>Use escharotomy in constricting circumferential burns of extremities or trunk.</listitem>
+<listitem>Use skin graft or artificial skin substitute for full-thickness burns in selected cases.</listitem>
+<listitem>Negative pressure closure technique in the split-thickness skin graft diminishes the loss of graft area and shortens the days of hospital stay.<xref ref="pubmed17060762" resource="acc004" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Honey appears to heal partial thickness burns more quickly (perhaps by 4-5 days) than other conventional treatments. Conclusions about other outcomes are limited by low quality evidence. <xref ref="pubmed25742878" resource="acc033" /><xref ref="pubmed27576926" resource="acc032" /><xref ref="cochrane5083" resource="acc016" /></listitem>
+<listitem>Aloe vera appears to be effective in reducing healing time in patients with first or second degree burns and its use is associated with accelerated healing of split-thickness skin graft donor sites.<xref ref="pubmed17499928" resource="acc010" /></listitem>
+<listitem>In a prospective, single blind controlled trial among 40 patients with burn scar pain, extracorporeal shock wave therapy (ESWT) significantly reduced scar pain in burn patients after wound epithelialization compared to sham ESWT plus standard therapy (medication, physical therapy and burn rehabilitation massage therapy).<xref ref="pubmed27512886" resource="acc027" /></listitem>
+<listitem>Cold pack therapy may be effective in reducing post-burn pruritis.<xref ref="pubmed29422437" resource="acc035" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT>
+<list style="bulleted">
+<listitem>Early mobilization, pain control, and follow-up functional evaluations are important.</listitem>
+</list>
+</Treatment_PT>
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>American Burn Association guidelines (2024) recommend consideration of use of albumin solution in patients with larger burns to reduce fluid resuscitation volumes. They also recommend beginning fluid resuscitation with 2 ml&#x002F;kg&#x002F;&#x0025; total body surface area. They found insufficient evidence regarding use of high-dose vitamin C, fresh frozen plasma,vasopressors, or early continuous renal replacement therapy.<xref ref="pubmed38051821" resource="acc039" /></listitem>
+<listitem>There is insufficient evidence to support or refute the effectiveness of hyperbaric oxygen therapy for the management of thermal burns.<xref ref="cochrane4727" resource="acc023" /></listitem>
+<listitem>There is insufficient evidence to support or refute the effectiveness of early vs. late enteral nutrition support in adults with burn injury, but a high-carbohydrate, high-protein, low-fat enteral feeding may be preferable over a low-carbohydrate, high-protein, high-fat enteral feeding.<xref ref="cochrane5489" resource="acc024" /><xref ref="cochrane6122" resource="acc025" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Consider appropriate referral to burn center using criteria in <xref ref="table003" />.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Consider treatment of keloids for functional or aesthetic indications. A combination of liquid nitrogen cryotherapy and corticosteroid intradermal injection is usually effective to reduce the problem. Liquid nitrogen is thoroughly applied to the keloid, then 5 minutes later methylprednisolone 40 mg&#x002F;mL can be infiltrated to the keloid intradermally. This treatment can be repeated every 6 weeks for better results.</listitem>
+<listitem>Weak evidence exists to support the use of silicon gel sheeting&#x002F;bandages for hypertrophic scarring and keloids, though higher quality studies are needed.<xref ref="pubmed24030657" resource="acc030" /><xref ref="pubmed28570253" resource="acc031" /></listitem>
+<listitem>Although evidence is limited, the use of pressure garment therapy does not appear to improve global scar scores.<xref ref="pubmed18249046" resource="acc014" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem><xref ref="pubmed9449729" resource="acc001">A clinical rule</xref> uses burn size of more than 40&#x0025; of body surface area, age older than 60 years, and presence of inhalation injury to predict survival after burn. Patient mortality is 0.3&#x0025; with no risk factors, 3&#x0025; with 1 risk factor, 33&#x0025; with 2 risk factors, and approximately 90&#x0025; with all 3 risk factors. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A <xref ref="rule421" resource="acc026">second clinical rule</xref> was developed and validated by Belgian investigators.<xref ref="rule421" resource="acc026" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>Oxandrolone and exercise may be beneficial in severely burned children, but the evidence is not strong.<xref ref="pubmed17130281" resource="acc008" /></listitem>
+<listitem>There is evidence from one RCT to support the long-term use of growth hormone in severely burned children (&gt;40&#x0025; body surface area) to improve growth and lean body mass. There was a slight decrease in bone mineral density and cardiac output of unknown consequence.<xref ref="pubmed19734776" resource="acc013" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9449729">
+<accessionId id="acc001" href="info:pmid/9449729" />
+<accessionId id="acc001b" href="info:wiley/eep-rule/121" />
+<authors>Ryan C, Schoenfeld D, Thorpe W, Sheridan R, Cassem E, Tompkins R.</authors>
+<title>Objective estimates of the probability of death from burn injuries.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>338</volume>
+<pages>362&#x2013;366.</pages>
+</reference>
+<reference id="pubmed18538478">
+<accessionId id="acc002" href="info:pmid/18538478" />
+<authors>Maguire S, Moynihan S, Mann M, Potokar T, Kemp AM.</authors>
+<title>A systematic review of the features that indicate intentional scalds in children.</title>
+<source>Burns</source>
+<pubdate>2008</pubdate>
+<volume>34</volume>
+<pages>1072&#x2013;1081.</pages>
+</reference>
+<reference id="pubmed9115481">
+<accessionId id="acc003" href="info:pmid/9115481" />
+<authors>Mertens DM, Jenkins ME, Warden GD.</authors>
+<title>Outpatient burn management.</title>
+<source>Nurs Clin North Am</source>
+<pubdate>1997</pubdate>
+<volume>32</volume>
+<pages>343&#x2013;364.</pages>
+</reference>
+<reference id="pubmed17060762">
+<accessionId id="acc004" href="info:pmid/17060762" />
+<authors>Llanos S, Danilla S, Barraza C, et al.</authors>
+<title>Effectiveness of negative pressure closure in the integration of split-thickness skin grafts: A randomized, double-masked, controlled trial.</title>
+<source>Ann Surg</source>
+<pubdate>2006</pubdate>
+<volume>244</volume>
+<pages>700&#x2013;705.</pages>
+</reference>
+<reference id="pubmed2312597">
+<accessionId id="acc005" href="info:pmid/2312597" />
+<authors>Rockwell WB, Ehrlich HP.</authors>
+<title>Should burn blister fluid be evacuated?</title>
+<source>J Burn Care Rehabil</source>
+<pubdate>1990</pubdate>
+<volume>11</volume>
+<pages>93&#x2013;95.</pages>
+</reference>
+<reference id="pubmed11087185">
+<accessionId id="acc006" href="info:pmid/11087185" />
+<authors>Morgan ED, Bledsoe SC, Barker J.</authors>
+<title>Ambulatory management of burns.</title>
+<source>Am Fam Physician</source>
+<pubdate>2000</pubdate>
+<volume>62</volume>
+<pages>2015&#x2013;2026, 2029&#x2013;2030, 2032.</pages>
+</reference>
+<reference id="pubmed16566554">
+<accessionId id="acc007" href="info:pmid/16566554" />
+<authors>Chatterjee JS.</authors>
+<title>A critical evaluation of the clinimetrics of laser Doppler as a method of burn assessment in clinical practice.</title>
+<source>J Burn Care Res</source>
+<pubdate>2006</pubdate>
+<volume>27</volume>
+<pages>123&#x2013;130.</pages>
+</reference>
+<reference id="pubmed17130281">
+<accessionId id="acc008" href="info:pmid/17130281" />
+<authors>Przkora R.</authors>
+<title>The effects of oxandrolone and exercise on muscle mass and function in children with severe burns.</title>
+<source>Pediatrics</source>
+<pubdate>2006</pubdate>
+<volume>119</volume>
+<pages>e109&#x2013;e116.</pages>
+</reference>
+<reference id="nopmid_0017">
+<authors>Wasiak J, Cleland H.</authors>
+<title>Burns (minor thermal).</title>
+<source>Clin Evid</source>
+<pubdate>2007</pubdate>
+<volume>12</volume>
+<pages>1903.</pages>
+</reference>
+<reference id="pubmed17499928">
+<accessionId id="acc010" href="info:pmid/17499928" />
+<authors>Maenthaisong R, Chaiyakunapruk N, Niruntraporn S, Kongkaew C.</authors>
+<title>The efficacy of aloe vera used for burn wound healing: A systematic review.</title>
+<source>Burns</source>
+<pubdate>2007</pubdate>
+<volume>33</volume>
+<pages>713&#x2013;718.</pages>
+</reference>
+<reference id="pubmed19571738">
+<accessionId id="acc011" href="info:pmid/19571738" />
+<authors>Gravante G, Caruso R, Sorge R, Nicoli F, Gentile P, Cervelli V.</authors>
+<title>Nanocrystalline silver: A systematic review of randomized trials conducted on burned patients and an evidence-based assessment of potential advantages over older silver formulations.</title>
+<source>Ann Plast Surg</source>
+<pubdate>2009</pubdate>
+<volume>63</volume>
+<pages>201&#x2013;205.</pages>
+</reference>
+<reference id="pubmed16566539">
+<accessionId id="acc012" href="info:pmid/16566539" />
+<authors>Sargent RL.</authors>
+<title>Management of blisters in the partial-thickness burn: An integrative research review.</title>
+<source>J Burn Care Res</source>
+<pubdate>2006</pubdate>
+<volume>27</volume>
+<pages>66&#x2013;81.</pages>
+</reference>
+<reference id="pubmed19734776">
+<accessionId id="acc013" href="info:pmid/19734776" />
+<authors>Branski LK, Herndon DN, Barrow RE, Kulp GA, Klein GL, Suman OE, Przkora R, Meyer W 3rd, Huang T, Lee JO, Chinkes DL, Mlcak RP, Jeschke MG.</authors>
+<title>Randomized controlled trial to determine the efficacy of long-term growth hormone treatment in severely burned children.</title>
+<source>Ann Surg</source>
+<pubdate>2009</pubdate>
+<volume>250</volume>
+<pages>514&#x2013;523.</pages>
+</reference>
+<reference id="pubmed18249046">
+<accessionId id="acc014" href="info:pmid/18249046" />
+<authors>Anzarut A, Olson J, Singh P, Rowe BH, Tredget EE.</authors>
+<title>The effectiveness of pressure garment therapy for the prevention of abnormal scarring after burn injury: A meta-analysis.</title>
+<source>J Plast Reconstr Aesthet Surg</source>
+<pubdate>2009</pubdate>
+<volume>62</volume>
+<pages>77&#x2013;84.</pages>
+</reference>
+<reference id="pubmed19769721">
+<accessionId id="acc015" href="info:pmid/19769721" />
+<authors>Zhang L, Chen J, Han C.</authors>
+<title>A multicenter clinical trial of recombinant human GM-CSF hydrogel for the treatment of deep second-degree burns.</title>
+<source>Wound Repair Regen</source>
+<pubdate>2009</pubdate>
+<volume>17</volume>
+<pages>685&#x2013;689.</pages>
+</reference>
+<reference id="cochrane5083">
+<accessionId id="acc016" href="info:wiley/cochrane/CD005083" />
+<chapter_authors>Jull AB, Rodgers A, Walker N.</chapter_authors>
+<chapter_title>Honey as a topical treatment for wounds (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2246">
+<accessionId id="acc017" href="info:wiley/cochrane/CD002246" />
+<chapter_authors>DiGuiseppi C, Goss CW, Higgins JPT.</chapter_authors>
+<chapter_title>Interventions for promoting smoke alarm ownership and function (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="web001">
+<citation />
+<url>http://www.ameriburn.org/BurnCenterReferralCriteria.pdf</url>
+<organization />
+<longtitle />
+<title>Burn Center Referral Criteria</title>
+<dateguideline />
+</reference>
+<reference id="web002">
+<citation />
+<url>http://www.ameriburn.org/resources_factsheet.php</url>
+<organization>ABA</organization>
+<longtitle>American Burn Association, Burn incidence and treatment in the US</longtitle>
+<title>American Burn Association</title>
+<dateguideline />
+</reference>
+<reference id="cochrane4335">
+<accessionId id="acc020" href="info:wiley/cochrane/CD004335" />
+<chapter_authors>Turner C, Spinks A, McClure RJ, Nixon J.</chapter_authors>
+<chapter_title>Community-based interventions for the prevention of burns and scalds in children (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4445">
+<accessionId id="acc021" href="info:wiley/cochrane/CD004445" />
+<chapter_authors>Spinks A, Turner C, Nixon J, McClure RJ.</chapter_authors>
+<chapter_title>The ''WHO Safe Communities'' model for the prevention of injury in whole populations (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2106">
+<accessionId id="acc022" href="info:wiley/cochrane/CD002106" />
+<chapter_authors>Wasiak J, Cleland H, Campbell F.</chapter_authors>
+<chapter_title>Dressings for superficial and partial thickness burns (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4727">
+<accessionId id="acc023" href="info:wiley/cochrane/CD004727" />
+<chapter_authors>Villanueva E, Bennett MH, Wasiak J, Lehm JP.</chapter_authors>
+<chapter_title>Hyperbaric oxygen therapy for thermal burns (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5489">
+<accessionId id="acc024" href="info:wiley/cochrane/CD005489" />
+<chapter_authors>Wasiak J, Cleland H, Jeffery R.</chapter_authors>
+<chapter_title>Early versus delayed enteral nutrition support for burn injuries (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6122">
+<accessionId id="acc025" href="info:wiley/cochrane/CD006122" />
+<chapter_authors>Masters B, Aarabi S, Sidhwa F, Wood F.</chapter_authors>
+<chapter_title>High-carbohydrate, high-protein, low-fat versus low-carbohydrate, high-protein, high-fat enteral feeds for burns (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="rule421">
+<accessionId id="acc026" href="info:wiley/eep-rule/421" />
+<accessionId id="acc026b" href="info:pmid/19109825" />
+<authors>Belgian Outcome in Burn Injury Study Group.</authors>
+<title>Development and validation of a model for prediction of mortality in patients with acute burn injury.</title>
+<source>Br J Surg</source>
+<pubdate>2009</pubdate>
+<volume>96</volume>
+<pages>111&#x2013;117.</pages>
+</reference>
+<reference id="pubmed27512886">
+<accessionId id="acc027" href="info:pmid/27512886" />
+<authors>Cho YS, Joo SY, Cui H, Cho SR, Yim H, Seo CH.</authors>
+<title>Effect of extracorporeal shock wave therapy on scar pain in burn patients: A prospective, randomized, single-blind, placebo-controlled study.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e4575.</pages>
+</reference>
+<reference id="pubmed29703044">
+<accessionId id="acc028" href="info:pmid/29703044" />
+<authors>Ro HS, Shin JY, Sabbagh MD, Roh SG, Chang SC, Lee NH.</authors>
+<title>Effectiveness of aspiration or deroofing for blister management in patients with burns: A prospective randomized controlled trial.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e0563.</pages>
+</reference>
+<reference id="cochrane567">
+<accessionId id="acc029" href="info:wiley/cochrane/CD000567" />
+<chapter_authors>Lewis SR, Pritchard MW, Evans DJ, Butler AR, Alderson P, Smith AF, Roberts I.</chapter_authors>
+<chapter_title>Colloids versus crystalloids for fluid resuscitation in critically ill people.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 8. Art. No.: CD000567. DOI: 10.1002&#x002F;14651858.CD000567.pub7.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24030657">
+<accessionId id="acc030" href="info:pmid/24030657" />
+<authors>O'Brien L, Jones DJ.</authors>
+<title>Silicone gel sheeting for preventing and treating hypertrophic and keloid scars.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2013</pubdate>
+<pages>CD003826.</pages>
+</reference>
+<reference id="pubmed28570253">
+<accessionId id="acc031" href="info:pmid/28570253" />
+<authors>Hsu KC, Luan CW, Tsai YW.</authors>
+<title>Review of silicone gel sheeting and silicone gel for the prevention of hypertrophic scars and keloids.</title>
+<source>Wounds</source>
+<pubdate>2017</pubdate>
+<volume>29</volume>
+<pages>154&#x2013;158.</pages>
+</reference>
+<reference id="pubmed27576926">
+<accessionId id="acc032" href="info:pmid/27576926" />
+<authors>Aziz Z, Abdul Rasool Hassan B.</authors>
+<title>The effects of honey compared to silver sulfadiazine for the treatment of burns: A systematic review of randomized controlled trials.</title>
+<source>Burns</source>
+<pubdate>2017</pubdate>
+<volume>43</volume>
+<pages>50&#x2013;57.</pages>
+</reference>
+<reference id="pubmed25742878">
+<accessionId id="acc033" href="info:pmid/25742878" />
+<authors>Jull AB, Cullum N, Dumville JC, Westby MJ, Deshpande S, Walker N.</authors>
+<title>Honey as a topical treatment for wounds.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2015</pubdate>
+<pages>CD005083.</pages>
+</reference>
+<reference id="pubmed27126813">
+<accessionId id="acc034" href="info:pmid/27126813" />
+<authors>Heyneman A, Hoeksema H, Vandekerckhove D, Pirayesh A, Monstrey S.</authors>
+<title>The role of silver sulphadiazine in the conservative treatment of partial thickness burn wounds: A systematic review.</title>
+<source>Burns</source>
+<pubdate>2016</pubdate>
+<volume>42</volume>
+<pages>1377&#x2013;1386.</pages>
+</reference>
+<reference id="pubmed29422437">
+<accessionId id="acc035" href="info:pmid/29422437" />
+<authors>Joo SY, Kim JB, Cho YS, Cho YS, Seo CH.</authors>
+<title>Effect of cold pack therapy for management of burn scar pruritus: A pilot study.</title>
+<source>Burns</source>
+<pubdate>2018</pubdate>
+<volume>44</volume>
+<pages>1005&#x2013;1010.</pages>
+</reference>
+<reference id="pubmed21075537">
+<accessionId id="acc036" href="info:pmid/21075537" />
+<authors>Ahuja RB, Gupta R, Gupta G, Shrivastava P.</authors>
+<title>A comparative analysis of cetirizine, gabapentin and their combination in the relief of post-burn pruritus.</title>
+<source>Burns</source>
+<pubdate>2011</pubdate>
+<volume>37</volume>
+<pages>203&#x2013;7.</pages>
+</reference>
+<reference id="pubmed28822592">
+<accessionId id="acc037" href="info:pmid/28822592" />
+<authors>Kaul I, Amin A, Rosenberg M, Rosenberg L, Meyer WJ 3rd.</authors>
+<title>Use of gabapentin and pregabalin for pruritus and neuropathic pain associated with major burn injury: A retrospective chart review.</title>
+<source>Burns</source>
+<pubdate>2018</pubdate>
+<volume>44</volume>
+<pages>414&#x2013;422.</pages>
+</reference>
+<reference id="cochrane5622">
+<accessionId id="acc038" href="info:wiley/cochrane/CD5622" />
+<chapter_authors>Wasiak J, Mahar PD, McGuinness SK, Spinks A, Danilla S, Cleland H, Tan HB.</chapter_authors>
+<chapter_title>Intravenous lidocaine for the treatment of background or procedural burn pain.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 10. Art. No.: CD005622. DOI: 10.1002&#x002F;14651858.CD005622.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed38051821">
+<accessionId id="acc039" href="info:pmid/38051821" />
+<authors>Cartotto R, Johnson LS , Savetamal A , Greenhalgh D , Kubasiak JC , Pham TN , Rizzo JA, Sen S, Main E .</authors>
+<title>American Burn Association Clinical Practice Guidelines on Burn Shock Resuscitation.</title>
+<source>J Burn Care Res</source>
+<pubdate>2024</pubdate>
+<volume>45</volume>
+<pages>565&#x2013;589.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Classification of Burns.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Depth</th>
+<th align="left" colspan="1">Anatomy</th>
+<th align="left" colspan="1">Characteristics</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Superficial burn</td>
+<td align="left" colspan="1">Epidermis only</td>
+<td align="left" colspan="1">Painful, dry, red but blanching with pressure. No blister. No scarring</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Partial-thickness, superficial</td>
+<td align="left" colspan="1">Superficial dermis</td>
+<td align="left" colspan="1">Painful, moist, red but blanching with pressure. Blister. Rare scarring</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Partial-thickness, deep</td>
+<td align="left" colspan="1">Deep dermis</td>
+<td align="left" colspan="1">Painful, wet, red and not blanching with pressure. Blister. Scarring</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Full-thickness</td>
+<td align="left" colspan="1">Entire dermis to SC damage</td>
+<td align="left" colspan="1">Painless, white&#x002F;gray to black in color, dry. Scarring. Contractures</td>
+</tr>
+</table> American Burn Association, Burn incidence and treatment in the US. <xref ref="web002">American Burn Association.</xref> Mertens DM, Jenkins ME, Warden GD. Outpatient burn management. <em>Nurs Clin North Am</em> 1997;<strong>32</strong>:343&#x2013;364.<xref ref="pubmed9115481" resource="acc003" /> Adapted from Morgan ED, Bledsoe SC, Barker J. Ambulatory management of burns. <em>Am Fam Physician</em> 2000;<strong>62</strong>:2015&#x2013;2026, 2029&#x2013;2030, 2032.<xref ref="pubmed11087185" resource="acc006" />
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Estimating the Size of a Burn by the Rule of Nines.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Area</th>
+<th align="left" colspan="1">Adults</th>
+<th align="left" colspan="1">Children</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Head</td>
+<td align="left" colspan="1">9&#x0025;</td>
+<td align="left" colspan="1">18&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Upper extremity</td>
+<td align="left" colspan="1">9&#x0025; &#x00D7;2</td>
+<td align="left" colspan="1">9&#x0025; &#x00D7;2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Chest and abdomen</td>
+<td align="left" colspan="1">18&#x0025;</td>
+<td align="left" colspan="1">18&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Back</td>
+<td align="left" colspan="1">18&#x0025;</td>
+<td align="left" colspan="1">18&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Lower extremity</td>
+<td align="left" colspan="1">18&#x0025; &#x00D7;2</td>
+<td align="left" colspan="1">13.5&#x0025; &#x00D7;2</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Genitalia</td>
+<td align="left" colspan="1">1&#x0025;</td>
+<td align="left" colspan="1">1&#x0025;</td>
+</tr>
+</table>From <xref ref="web001">Burn Center Referral Criteria.</xref>
+</feature_body>
+</feature>
+<feature id="table003">
+<caption>Criteria for Burn Center Referral.</caption>
+<feature_body>
+<list style="1">
+<listitem>Partial-thickness burns of greater than 10&#x0025; of the total body surface area</listitem>
+<listitem>Burns that involve the face, hands, feet, genitalia, perineum, or major joints</listitem>
+<listitem>Third-degree burns in any age group</listitem>
+<listitem>Electrical burns, including lightning injury</listitem>
+<listitem>Chemical burns</listitem>
+<listitem>Inhalation injury</listitem>
+<listitem>Burn injury in patients with preexisting medical disorders that could complicate management, prolong recovery, or affect mortality</listitem>
+<listitem>Any patients with burns and concomitant trauma (such as fractures) in which the burn injury poses the greatest risk of morbidity or mortality. In such cases, if the trauma poses the greater immediate risk, the patient's condition may be stabilized initially in a trauma center before transfer to a burn center. Physician judgment will be necessary in such situations and should be in concert with the regional medical control plan and triage protocols</listitem>
+<listitem>Burned children in hospitals without qualified personnel or equipment for the care of children</listitem>
+<listitem>Burn injury in patients who will require special social, emotional, or rehabilitative intervention</listitem>
+</list>Excerpted from Guidelines for the Operation of <resourceLink href="http://www.ameriburn.org/BurnCenterReferralCriteria.pdf.">Burn Centers</resourceLink> (pp. 79-86), Resources for Optimal Care of the Injured Patient 2006, Committee on Trauma, American College of Surgeons. </feature_body>
+</feature>
+</feature_group>
+</topic>

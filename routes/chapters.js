@@ -2,6 +2,7 @@
 // chapter's XML from the content transfer, or its newest version saved in the Edit
 // Chapter tab). The page gets the list of titles, then one chapter at a time; for readers
 // each chapter opened counts toward their usage limits.
+const path = require('path');
 const express = require('express');
 const { requireAuth } = require('../auth');
 const { quota } = require('../limits');
@@ -12,6 +13,14 @@ router.use(requireAuth);
 
 router.get('/', (req, res) => {
   res.json({ chapters: store.chapterIndex() });
+});
+
+// A figure's image (chapters/images, copied there by build-chapters.js).
+const IMG_DIR = path.join(__dirname, '..', 'chapters', 'images');
+router.get('/images/:file', (req, res) => {
+  const file = String(req.params.file).toLowerCase();
+  if (!/^[a-z0-9][a-z0-9 ._()-]*\.(gif|jpe?g|png|svg)$/.test(file)) return res.status(404).end();
+  res.sendFile(path.join(IMG_DIR, file), { maxAge: '7d' }, err => { if (err && !res.headersSent) res.status(404).end(); });
 });
 
 router.get('/:id', quota('chapter'), (req, res) => {

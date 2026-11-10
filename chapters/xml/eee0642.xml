@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Hemolytic uremic syndrome</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0642</topic_id>
+<topic_comment />
+<topic_lastupdated>12/23/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>David E. DeLaet, MD, MPH</author_name>
+<author_title>Assistant Professor of Medicine and Pediatrics</author_title>
+<author_department>Departments of Internal Medicine and Pediatrics</author_department>
+<author_institution>Mount Sinai School of Medicine</author_institution>
+<author_email>david.delaet&#x0040;mountsinai.org</author_email>
+<author_phone_office>212-241-2395</author_phone_office>
+<author_phone_home>212-722-2966</author_phone_home>
+<author_phone_fax>212-426-7585</author_phone_fax>
+<author_street1>1 Gustave L Levy Place</author_street1>
+<author_street2>Box 1110</author_street2>
+<author_city>New York</author_city>
+<author_state>NY</author_state>
+<author_zip>10029</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University </editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect hemolytic uremic syndrome (HUS) in patients with hemolysis, thrombocytopenia, and acute kidney injury. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>If HUS is suspected, evaluate for antecedent infection by Shiga toxin-producing organisms or invasive <em>Streptococcus pneumoniae</em>, depending on the clinical presentation. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Careful IV volume expansion and electrolyte management are the cornerstones of therapy for most cases. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>For patients with atypical HUS (aHUS), complement blockade, anti-C5 monoclonal antibody (eculizumab or ravulizumab) is considered first-line therapy; plasma exchange is suggested for patients with aHUS caused by anti-CFH or if the complement inhibitor is unavailable. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane12862" resource="acc084" /><xref ref="pubmed36323601" resource="acc085" /></listitem>
+<listitem>Prevention and control measures should target reduction of foodborne and person-to-person transmission of <em>Escherichia coli</em> (<em>E.</em>
+<em>coli</em>) O157:H7 and other Shiga toxin-producing organisms. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Mortality has improved from 30&#x0025; to less than 10&#x0025; with improved disease recognition and management; prognosis appears poorer for patients with aHUS. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Death or end-stage renal disease (ESRD) occur in approximately 12&#x0025; of patients, and 25&#x0025; of patients have some evidence of long-term renal sequelae. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>
+<list style="bulleted">
+<listitem>HUS is characterized by microangiopathic hemolytic anemia (MTA), thrombocytopenia, and acute kidney injury.<xref ref="pubmed13274004" resource="acc040" /> The syndrome can be divided into two principal subgroups: typical cases with a diarrheal prodrome (D+ HUS) and atypical cases without an antecedent diarrheal illness (D&#x2212; HUS). HUS can also be classified as primary (typical or atypical) or secondary (with a coexisting disease such as infection, transplantation, cancer, and autoimmune disease).<xref ref="pubmed32361709" resource="acc069" /></listitem>
+<listitem>A greater understanding of the causes of HUS has led to a new classification system including infectious causes (most common), disorders of complement regulation (genetic and acquired aHUS), ADAMTS13 abnormalities (a disintegrin and metalloproteinase with a thrombospondin type 1 motif, member 13), defective cobalamine metabolism (quinine-induced, aHUS), and unknown etiology (e.g., associated with HIV, malignancy, drugs [e.g., antiplatelet agents, chemotherapy agents, vascular endothelial growth factor inhibitors], pregnancy, systemic lupus erythematosus).<xref ref="pubmed19821824" resource="acc041" /><xref ref="pubmed18800230" resource="acc045" /></listitem>
+</list>
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>The annual incidence is 1.4 per 100,000 persons per year, with approximately 90&#x0025; of cases occurring after a diarrheal prodrome.<xref ref="pubmed8008534" resource="acc039" /></listitem>
+<listitem>In Europe and North America, the annual incidence in children aged 3-5 years is 1.9-2.9&#x002F;100,000 and for children &lt;15-18 years, 0.6-0.8&#x002F;100,000.<xref ref="pubmed28242109" resource="acc058" /></listitem>
+<listitem>In a French surveillance study of children, HUS incidence rate was 1.0&#x002F;100,000 children-years, with a median of 116 cases&#x002F;year.<xref ref="pubmed30808442" resource="acc070" /></listitem>
+<listitem>Based on cohort studies, 7.8&#x0025; of participants with Shiga toxin-producing <em>E. coli</em> and 8&#x0025; of participants with <em>Shigella dysenteriae</em> type 1 developed HUS during follow-up.<xref ref="pubmed23082627" resource="acc046" /></listitem>
+<listitem>Among 927 children infected with Shiga toxin-producing E. coli, 41 (4.4&#x0025;) had HUS at presentation and 126 (14.2&#x0025;) developed HUS.<xref ref="pubmed31125419" resource="acc071" /> Predictors of HUS development included younger age (0.77 per year), leukocyte count &#x2265;13.0 &#x00D7; 103&#x002F;&#x03BC;L (2.54), higher hematocrit (1.83 per 5&#x0025; increase) and serum creatinine (10.82 per 1 mg&#x002F;dL increase), platelet count &lt;250 &#x00D7; 103&#x002F;&#x03BC;L (1.92), lower serum sodium (1.12 per 1 mmol&#x002F;L decrease), and intravenous fluid (IV) administration initiated &#x2265;4 days following diarrhea onset (2.50).</listitem>
+<listitem>The incidence of aHUS is about 5&#x0025; that of typical HUS.<xref ref="pubmed19821824" resource="acc041" /> Estimated incidence of aHUS is 0.23-0.42 cases per million population.<xref ref="pubmed28242109" resource="acc058" /></listitem>
+<listitem>Based on a systematic review of aHUS from France, Norway, Australia, and Italy, the annual incidence among those aged 20 years or younger ranged from 0.26 to 0.75 per million population; for all ages, annual incidence was 0.23 to 1.9 per million population.<xref ref="pubmed32210633" resource="acc072" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>In the 4-country systematic review noted above, prevalence of aHUS among those aged 20 years or younger was 2.2 to 9.4 per million population; based on a single study, prevalence of aHUS for all age groups was 4.9 per million population.<xref ref="pubmed32210633" resource="acc072" /></listitem>
+</list>
+</prevalence>
+<economic_impact>
+<list style="bulleted">
+<listitem>In a retrospective analysis of patients with aHUS treated with eculizumab and identified through a hospital database, estimated total hospital costs (year 2017 values) were $103,557 in late initiators of eculizumab and $85,776 in early initiators of the drug.<xref ref="pubmed31828738" resource="acc073" /> Late initiators were 3.2 times more likely to require dialysis but there were no significant associations between early initiation and time to discharge, readmission, or death.</listitem>
+</list>
+</economic_impact>
+<social_impact>
+<list style="bulleted">
+<listitem>HUS due to Shiga toxin-producing E. coli is the leading cause of acute renal failure in young children in France.<xref ref="pubmed30808442" resource="acc070" /></listitem>
+<listitem>In a study of 292 household contacts of 82 children with HUS related to Shiga toxin-producing E. coli, over one third (36.6&#x0025;) had positive household contacts - 14 (38.8&#x0025;) were children, 20 were adults, and 2 were dogs.<xref ref="pubmed31782026" resource="acc074" /> One sibling developed HUS, 6 contacts had gastrointestinal symptoms, and the remainder were asymptomatic.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>D+ HUS follows a diarrheal illness due to Shiga toxin-producing organisms such as <em>Shigella dysenteriae</em> and, more commonly, strains of <em>E. coli</em>, particularly <em>E. coli</em> O157:H7.<xref ref="pubmed15127361" resource="acc003" /><xref ref="pubmed11237831" resource="acc038" /> Contact with farm animals is a risk factor for development of HUS after contracting Shiga toxin-producing E. coli. In a case series of 784 patients with Shiga toxin-producing E. coli, 46 (6&#x0025;) developed HUS and 24 (52&#x0025;) of them reported direct contact with farm animals vs. 21&#x0025; of those who did not developed HUS.<xref ref="pubmed33392374" resource="acc075" /></listitem>
+<listitem>The use of antimotility agents in the setting of <em>E. coli</em> O157:H7 has been shown to increase the risk of D+ HUS. Studies evaluating the impact of antibiotic therapy in cases of <em>E. coli</em> O157:H7 on the outcome of D+ HUS have been conflicting, however. Because antibiotics likely prolong the duration of diarrheal illness, use of antibiotics in this setting is discouraged.<xref ref="pubmed9200386" resource="acc001" /><xref ref="pubmed10874060" resource="acc036" /><xref ref="pubmed12190370" resource="acc037" /></listitem>
+<listitem>D&#x2212; HUS is a heterogeneous group of disorders associated with nondiarrheal Shiga toxin-producing <em>E. coli</em> infections such as UTI, invasive pneumococcal disease, human immunodeficiency virus (HIV) infection, genetic or acquired deficiencies in complement components (aHUS), most notably factor H, malignancy, and drugs, including multiple immunosuppressive and chemotherapeutic agents.<xref ref="pubmed9730725" resource="acc002" /><xref ref="pubmed9829509" resource="acc030" /><xref ref="pubmed10325474" resource="acc031" /><xref ref="pubmed9811382" resource="acc032" /><xref ref="pubmed9090654" resource="acc033" /><xref ref="pubmed17643764" resource="acc034" /><xref ref="pubmed11431174" resource="acc035" /> Viral infections, including adenovirus, can also lead to HUS.<xref ref="pubmed29443761" resource="acc059" /></listitem>
+<listitem>Streptococcus pneumonia-associated HUS is responsible for 5&#x0025; to 15&#x0025; of HUS cases.<xref ref="pubmed23399570" resource="acc047" /></listitem>
+<listitem>Atypical HUS is caused by uncontrolled complement activation in the alternative pathway.<xref ref="pubmed30393246" resource="acc076" /></listitem>
+<listitem>Genetic susceptibility to aHUS has been demonstrated. About 60&#x0025; involve mutations in complement C3 or in the inhibitory complement regulator factor H.<xref ref="pubmed36323601" resource="acc085" /> In a report of a post-partum woman with aHUS, two missense variants of CD46 were identified that resulted in impairment in degradation of C3b.<xref ref="pubmed31945341" resource="acc077" /> One case was reported of a novel genetic point mutation of complement factor H gene (p.Gly1110Ala) mimicking secondary HUS with scleroderma.<xref ref="pubmed32361709" resource="acc069" /> No mutation is identified in 30&#x0025; to 50&#x0025;.<xref ref="pubmed28442312" resource="acc063" /></listitem>
+<listitem>Atypical HUS following aortic valve replacement has been reported.<xref ref="pubmed28838521" resource="acc060" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Causes of HUS share a common final pathway of thrombosis and inflammation of the endothelial cell surface.</listitem>
+<listitem>
+<strong>D+ HUS</strong></listitem>
+<listitem>After ingestion of food or water contaminated with Shiga toxin-producing organisms, exotoxin enters the intestinal circulation and travels in plasma on the surface of neutrophils.<xref ref="pubmed10828021" resource="acc029" /> Exotoxin then binds to endovascular cells via globotriosyl ceramide (Gb3) receptors to initiate the formation of platelet-rich thrombi in the microvasculature of affected organs, particularly the kidney.<xref ref="pubmed8107950" resource="acc028" /></listitem>
+<listitem>When studied in vitro, disruption of energy metabolism and depletion of glutathione contributed to Shiga toxin-induced renal endothelium injury with alteration of the nicotinamide adenine dinucleotide cofactor pathway and the inflammation-modulating eicosanoid pathway; the inflammatory response was found to be highly cell-type specific. Complement hyperactivation also appears to be a pathogenetic factor in various types of infection-induced HUS.<xref ref="pubmed38254639" resource="acc097" /></listitem>
+<listitem>The resultant microangiopathy leads to fragmentation of erythrocytes and ischemia of involved organs.</listitem>
+<listitem>Human cells susceptible to Shiga toxin-mediated injury are endothelial cells, proximal tubular epithelial cells, mesangial cells, podocytes, intestinal epithelial cells, and monocytes&#x002F;macrophages and, once injured, these cells secrete inflammatory cytokines and chemokines such as tumor necrosis factor-&#x03B1; interleukin (IL)-1, IL-6, and IL-8.<xref ref="pubmed31742829" resource="acc078" /></listitem>
+<listitem>
+<strong>D&#x2212; HUS </strong></listitem>
+<listitem>In aHUS, patients develop thrombotic microangiopathy attributable in most cases to mutations that lead to activation of the alternative pathway of complement.<xref ref="pubmed26582375" resource="acc052" /><xref ref="pubmed25858888" resource="acc053" /> Inability of abnormal FH molecules to simultaneously bind sialic acid and C3b on cells may explain the onset of aHUS in cases due to factor H inhibition. Differentiating between genetically-driven vs. time-limited complement storm-mediated aHUS has treatment implications. <xref ref="pubmed27524217" resource="acc062" /></listitem>
+<listitem>In cases of S. pneumonia-associated HUS, the production of neuraminidase by the bacteria results in Thomsen-Friedenreich antigen exposure that can result in hemolysis and direct endothelial injury, leading to the HUS phenotype.<xref ref="pubmed23399570" resource="acc047" /> In addition, the bacteria have been shown to bind human plasminogen via bacterial surface proteins and the activated protease degrades fibrinogen and cleaves C3b.<xref ref="pubmed28968817" resource="acc061" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>In a screening study from Italy of stool samples from 2.3 million children with bloody diarrhea, 214 (4.5&#x0025;) were positive for either Shiga toxin 1 (29.0&#x0025;), Shiga toxin 2 (45.3&#x0025;) or both (25.7&#x0025;). None of the children with stool samples positive for Shiga toxin 1 alone developed D+HUS compared to those with Shiga toxin 2 alone (27&#x0025;) or Shiga toxin 1 and&#x002F;or 2 (12.7&#x0025;).<xref ref="pubmed34197890" resource="acc086" /></listitem>
+<listitem>Prevention and control measures should target reduction of foodborne and person-to-person transmission of <em>E. coli</em> O157:H7 and other Shiga toxin-producing organisms. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed17553224" resource="acc026" /><xref ref="pubmed9744244" resource="acc027" /></listitem>
+<listitem>Authors of a Cochrane review evaluating antibiotics, bovine milk, and Shiga toxin inhibitor (Synsorb Pk) and monoclonal antibodies (Urtoxazumab) against Shiga toxin for secondary prevention of HUS in patients with diarrhea due to Shiga toxin-producing E. coli were unable to determine benefit due to the small number of included studies and the small sample sizes.<xref ref="cochrane12997" resource="acc087" /></listitem>
+<listitem>In a small case series, daily bowel lavage with polyethylene glycol solution reduced the incidence of HUS following Shiga toxin-producing enterohemorrhagic <em>E. coli</em> O104:H4 infection from 8&#x002F;12 patients who did not receive lavage to 4&#x002F;21 patients who received lavage.<xref ref="pubmed24781800" resource="acc054" /></listitem>
+<listitem>In kidney transplantation patients with aHUS, use of eculizumab, a C5-complement inhibitor, is associated with a reduced likelihood of aHUS recurrence (odds ratio [OR] 0.05, 95&#x0025; CI 0.00-0.13), as well as a significant reduction in need for dialysis (OR 0.13, 95&#x0025; CI: 0.01-0.32) based on a meta-analysis including 18 trials with 618 subjects (see Management of Complications below).<evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed37563792" resource="acc098" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect HUS in patients with hemolysis, thrombocytopenia, and acute kidney injury. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Low platelets do not appear to be a necessary criterion; one group of authors found that 13&#x0025; of 150 patients with HUS had normal platelet counts.<xref ref="pubmed23298275" resource="acc048" /></listitem>
+<listitem>If HUS is suspected, perform a careful history and laboratory evaluation for antecedent infection by a Shiga toxin-producing organism. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Laboratory evidence of minimal coagulation activation and the absence of secondary fibrinolysis help distinguish HUS from disseminated intravascular coagulation (DIC). <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed5101440" resource="acc025" /></listitem>
+<listitem>As differentiation of HUS from thrombotic thrombocytopenia purpura has implications for management and prognosis; emerging diagnostic testing strategies such as ADAMTS13 assays and a 9-analyte complement serology panel&#x00A0;may prove valuable. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed11324640" resource="acc024" /><xref ref="pubmed30286829" resource="acc064" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Enteric infections with dehydration</Differential_Name>
+<Differential_Features>Prerenal disease; absence of thrombocytopenia and hemolytic anemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Henoch-Sch&#x00F6;nlein purpura</Differential_Name>
+<Differential_Features>Rash and arthralgias typically present; normal platelet count and coagulation studies</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Disseminated intravascular coagulation</Differential_Name>
+<Differential_Features>Evidence of coagulation activation and secondary fibrinolysis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Systemic vasculitides</Differential_Name>
+<Differential_Features>Rash and arthralgias common; neurological manifestations more likely peripheral</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Malignant hypertension</Differential_Name>
+<Differential_Features>Precedent hypertension; papilledema and retinal hemorrhages on examination</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Thrombotic thrombocytopenic purpura</Differential_Name>
+<Differential_Features>More common&#x002F;severe CNS involvement; less significant renal insufficiency</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>In a retrospective review of 76 children, patients with D+ HUS presented with a prodromal illness that consisted of bloody diarrhea (80&#x0025; of cases), emesis (80&#x0025;), abdominal pain&#x002F;tenderness (60&#x0025;), and fever (33&#x0025;).<xref ref="pubmed1702151" resource="acc004" /></listitem>
+<listitem>Subsequent signs and symptoms of HUS depend on specific organ involvement and severity of disease but may include irritability, pallor, peripheral edema, and a petechial rash.</listitem>
+<listitem>Hypertension is present in 15&#x0025; to 60&#x0025; of patients on presentation.<xref ref="pubmed8618184" resource="acc021" /><xref ref="pubmed12195376" resource="acc023" /></listitem>
+<listitem>CNS involvement, mainly seizure and stupor, was observed in 25&#x0025; of patients in one prospective surveillance study of 394 patients with HUS.<xref ref="pubmed12195376" resource="acc023" /> Authors of a meta-analysis of 21 studies including 2,189 participants of median age between 1.3 and 40 years found rates of neurologic complications of 27&#x0025; (95&#x0025; CI 22.0&#x0025;-32.6&#x0025;) in those with D+HUS and 20.8&#x0025; (95&#x0025; CI 17.9&#x0025;-24.0&#x0025;) in those with D-HUS.<xref ref="pubmed34956937" resource="acc088" /> Of patients with neurologic complications, seizures were reported in 20.8&#x0025; of those with D+HUS and 30.5&#x0025; with D-HUS. Other neurologic complications reported with D-HUS included coma (17.5&#x0025;), speech abnormalities (7.4&#x0025;), visual-disturbances (6.4&#x0025;) and hemiparesis (5.6&#x0025;).</listitem>
+<listitem>Pancreatic injury (20&#x0025; of cases), with or without endocrine insufficiency, as well as rare cardiac dysfunction can also occur.<xref ref="pubmed1702151" resource="acc004" /><xref ref="pubmed17498023" resource="acc019" /><xref ref="pubmed10230484" resource="acc020" /></listitem>
+<listitem>In one German study of 106 patients with Shiga toxin-producing <em>E. coli</em>-associated HUS admitted to eight ICUs, the median time from onset of clinical symptoms to hospital admission was 3 days and from hospital to ICU admission was an additional 3 days.<xref ref="pubmed23660733" resource="acc049" /></listitem>
+<listitem>S. pneumonia-HUS follows episodes of severe S. pneumonia sepsis. In a retrospective study of 9 patients with nonenteric <em>S. pneumoniae</em> associated HUS, 1 patient had meningitis and the others had pneumonia. The mean durations of anemia and thrombocytopenia were 19.2 and 10.2 days, respectively. All had hypertension and 5 patients, including the one with meningitis, experienced CNS complications.<xref ref="pubmed21524626" resource="acc042" /></listitem>
+<listitem>In a case series of 45 patients with aHUS associated with anti-FH autoantibody, most cases were children between 9 and 13 years old. There was a high frequency of GI symptoms and extrarenal complications, and the clinical course was relapsing.<xref ref="pubmed21051740" resource="acc043" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>A diagnosis of HUS is supported by laboratory evidence of hemolysis (elevated lactate dehydrogenase [LDH], decreased hemoglobin with or without schistocytes on peripheral smear), thrombocytopenia (&lt;150,000&#x002F;&#x03BC;L or a decline of &#x003E;25&#x0025; compared with the baseline), and intrinsic renal failure.</listitem>
+<listitem>
+<strong>HUS</strong></listitem>
+<listitem>Stool and urine cultures in cases of D- HUS, should be sent to assess for Shiga toxin-producing organisms.</listitem>
+<listitem>Thrombocytopenia is rarely so severe as to cause bleeding, with platelet counts less than 20 &#x00D7; 10<sup>9</sup> cells&#x002F;L observed in fewer than 20&#x0025; of cases.<xref ref="pubmed12195376" resource="acc023" /></listitem>
+<listitem>An elevated neutrophil count at presentation is a poor prognostic feature.<xref ref="pubmed2642091" resource="acc006" /><xref ref="pubmed12195376" resource="acc023" /></listitem>
+<listitem>HUS can be differentiated from DIC by the absence of marked laboratory signs of coagulation activation and secondary fibrinolysis, including low levels of fibrinogen and coagulation factors V and VIII as well as the presence of fibrin degradation products in the serum.<xref ref="pubmed5101440" resource="acc025" /> Prothrombin time (PT) and activated partial thromboplastin time (aPTT) will be prolonged and D-dimer elevated in DIC.<xref ref="pubmed28442312" resource="acc063" /></listitem>
+<listitem>Use von Willebrand factor cleaving protease (ADAMTS13) activity, antigen, and autoantibody assays to differentiate HUS from thrombotic thrombocytopenic purpura (TTP) .<xref ref="pubmed11324640" resource="acc024" /></listitem>
+<listitem>
+<strong>Atypical HUS (aHUS)</strong></listitem>
+<listitem>An expert panel of Critical Care Physicians recommend the following for diagnosing aHUS: To establish presence of thrombotic microangiopathy - reticulocyte count, free serum hemoglobin, lactate dehydrogenase, serum creatinine (all elevated); haptoglobin, platelet count, hemoglobin (all decreased) and presence of schistocytes on peripheral smear and hematuria&#x002F;proteinuria. Additional tests to rule out other causes of thrombotic microangiopathy - Coombs test (positive in autoimmune hemolytic anemia and pneumococcal HUS); fibrinogen, PT, aPTT, D-dimer, plasma coagulation tests (normal in aHUS and indicative of DIC); liver enzyme levels (can be elevated but elevated in HELLP); viral infections (HIV, hepatitis B and C, H1N1 &#x2013; can precipitate aHUS); antibody testing (antinuclear antibody, lupus anticoagulant, antiphospholipid antibodies [normal in HUS]); stool or rectal swab for enterotoxins and ADAMTS13 activity (&#x003E;10&#x0025; in aHUS).<xref ref="pubmed28442312" resource="acc063" /></listitem>
+<listitem>In patients presenting with features of aHUS, the British guideline recommends assessing serum levels of C3, C4, factor H and factor H autoantibodies, factor I, ADAMTS13 activity, and expression of CD46 on PBMCs, the latter using FACS analysis in an appropriately accredited laboratory as the results guide prognosis and late transplantation options. In addition, mutation screening of CFH, CD46, CFI, CFB and C3 is recommended.<xref ref="pubmed19821824" resource="acc041" /></listitem>
+<listitem>The European Paediatric Study Group for HUS suggests the above tests in addition to homocysteine, methylmalonic acid (plasma and urine) &#x00B1; mutation analysis in MMACHC gene (cobalamin metabolism), HIV serology, antinuclear antibody, lupus anticoagulant, anti-phospholipid antibodies and, if possibly pregnant, a pregnancy test and liver enzymes (HELLP syndrome&#x2014;hemolysis, elevated liver enzymes, low platelet count).<xref ref="pubmed18800230" resource="acc045" /></listitem>
+<listitem>A 9-analyte complement serology panel covering complement function (CH50 and AH50), components (C3, C4), factor B (CFB), factor H, and activation markers (C4d, Bb, and soluble membrane attack complex) may be useful in diagnosing aHUS. In one study, a combined factor B of 20.9 mg&#x002F;dL or less and CH50 of 56&#x0025; or less led to sensitivity of 75&#x0025;, specificity of 88.9&#x0025;, and a diagnostic OR of 24 for aHUS.<xref ref="pubmed30286829" resource="acc064" /></listitem>
+<listitem>Use of the automated fragmented red blood cell (FRC) percentage was examined in 28 pediatric patients with HUS.<xref ref="pubmed32851810" resource="acc089" /> In children with an FRC&#x0025; &#x003E;1.49&#x0025;, sensitivity was 95.4&#x0025; (95&#x0025; CI 77.16&#x0025; to 99.88&#x0025;) and specificity was 50&#x0025; (95&#x0025; CI 11.81&#x0025; to 88.19&#x0025;) with a positive likelihood ratio of 1.9 and area under the curve of 0.84.</listitem>
+<listitem>A rapid, serum-based assay that helps to differentiate aHUS from other thrombotic microangiopathies is under development.<xref ref="pubmed25862562" resource="acc055" /></listitem>
+<listitem>Authors of a study of 15 patients with aHUS and 20 with secondary thrombotic microangiopathy found that no test showed a significant difference between these groups and 3 patients with aHUS patients met DIC criteria.<xref ref="pubmed31484852" resource="acc079" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to management.<xref ref="pubmed9621299" resource="acc018" /></listitem>
+<listitem>The expert-based guideline from the European Paediatric Study Group for HUS suggests assigning cases of recognized HUS into three clinical presentations&#x2014;D+ HUS in those older than 6 months of age residing in an area endemic for enterohemorrhagic <em>E.</em>
+<em> coli</em> or <em>Shigella dysenteriae</em> type 1 (likely Shiga toxin-induced infectious HUS); patients with invasive <em>S.</em>
+<em> pneumoniae</em> including cases of pneumonia, meningitis, and&#x002F;or septicemia, especially if there is loculated infection (e.g., empyema) (likely pneumococcus-induced infectious HUS); and other HUS cases.<xref ref="pubmed18800230" resource="acc045" /></listitem>
+<listitem>The infectious categories require bacteriological confirmation and treatment including antibiotics and supportive care.<xref ref="pubmed18800230" resource="acc045" /></listitem>
+<listitem>The other HUS cases require full work-up, as noted above, and consideration of complement blockade and&#x002F;or plasma exchange.<xref ref="pubmed18800230" resource="acc045" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Careful IV volume expansion and electrolyte management are the cornerstones of therapy. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15930195" resource="acc017" /></listitem>
+<listitem>The role of antibiotics for Shiga toxin-producing E. coli strains is evolving. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Angiotensin-converting enzyme (ACE) inhibitors are the agent of choice for management of chronic and perhaps acute hypertension. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15221428" resource="acc014" /><xref ref="pubmed7032189" resource="acc015" /></listitem>
+<listitem>Consider packed red blood cell transfusion for symptomatic anemia, with platelet transfusion reserved for rare cases involving severe thrombocytopenia and bleeding. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>For patients with aHUS, terminal complement inhibition appears to offer improved outcomes, based upon very low-quality evidence. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane12862" resource="acc084" /></listitem>
+<listitem>Plasma infusion has not been shown to improve outcomes, and therapeutic plasma exchange should only be considered in cases of D&#x2212; HUS or D+ HUS with severe CNS manifestations. <evidence rating="C" system="SORT"> C</evidence><xref ref="cochrane3595" resource="acc022" /><xref ref="pubmed8463896" resource="acc010" /><xref ref="pubmed8352251" resource="acc011" /><xref ref="pubmed3276865" resource="acc012" /><xref ref="pubmed3153025" resource="acc013" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>With respect to antibiotic use for Shiga toxin-producing E. coli strains, authors of a review found beta-lactams and trimethoprim&#x002F;sulfamethoxazole to be detrimental with respect to development of HUS, while fosfomycin appeared to have the most positive results from clinical studies for averting HUS development, especially if administered within the first 2 to 3 days from diarrhea onset.<xref ref="pubmed31150744" resource="acc080" /> Fluoroquinolones also showed positive outcomes in clinical studies and other agents (e.g., colistin, gentamycin and rifamycins) require further study.</listitem>
+<listitem>ACE inhibitors may be used in the acute setting to treat hypertension.<xref ref="pubmed7032189" resource="acc015" /></listitem>
+<listitem>A comparative study of 45 subjects with HUS-induced renal disease suggested that patients who were treated with ACE inhibitors had better long-term outcome of renal function than those maintained on other antihypertensive agents.<xref ref="pubmed15221428" resource="acc014" /></listitem>
+<listitem>A very small pilot study randomized 10 patients with HUS to erythropoietin plus standard therapy or standard therapy alone. There was a decreased need for red blood cell transfusions in the treated group, but safety and clinical efficacy evaluation will require a larger trial.<xref ref="pubmed19085014" resource="acc016" /></listitem>
+<listitem>For patients with aHUS, authors of a Cochrane review of 5 single-arm trials concluded that terminal complement inhibition appears to offer improved outcomes, based upon very low-quality evidence at high risk of bias.<xref ref="cochrane12862" resource="acc084" /> In the 3 primary and one secondary study of eculizumab, including 137 patients, there were no deaths and a 70&#x0025; reduction in the number of patients requiring dialysis after 26 weeks. Complete thrombotic microangiopathic (TMA) response was observed in 60&#x0025; of patients at 26 weeks and 65&#x0025; at two years. In the single study of ravulizumab with 58 participants, at 26 weeks, complete response was seen in 54&#x0025; and 4 patients died. Serious adverse events occurred in 42&#x0025; of patients, including meningococcal infection which occurred in two patients on eculizumab.</listitem>
+<listitem>Based on 9 case reports or case series and one clinical trial, adverse infectious consequences resulting from use of eculizumab included invasive meningococcal disease, N. gonorrhoeae infection, unusual Neisseria species infection, P. aeruginosa, and Moraxella lacunata infection.<xref ref="pubmed35784997" resource="acc090" /></listitem>
+<listitem>Authors of a review of 16 reports concluded that eculizumab resulted in clinical improvement in patients with severe Shiga toxin-producing E. coli -HUS with progressive neurological involvement based on low-quality evidence.<xref ref="pubmed31286658" resource="acc081" /></listitem>
+<listitem>Rituximab and plasmapheresis were used successfully in an adult with anti-factor H autoantibody-associated aHUS.<xref ref="pubmed27684863" resource="acc066" /></listitem>
+<listitem>A potential new therapy for HUS is thrombomodulin, an endothelial membrane protein that has anticoagulation and anti-inflammatory effects, including the suppression of complement activity.<xref ref="pubmed23382444" resource="acc050" /> Recombinant human soluble thrombomodulin resulted in recovery of three patients with HUS.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>With respect to kidney transplantation, recurrence of HUS in the allograft is seen in about half of patients with HUS overall, but is much less frequent in patients with CD46 mutation, but no additional mutations. The British guideline recommends consideration of isolated liver or combined liver&#x002F;kidney transplant within a clinical trial for a patient with aHUS with a known mutation in either CFH or CFI.<xref ref="pubmed19821824" resource="acc041" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Careful IV volume expansion and electrolyte management are the cornerstones of therapy.<xref ref="pubmed15930195" resource="acc017" /></listitem>
+<listitem>Packed red blood cell transfusion should be considered for symptomatic anemia. Platelet transfusion is rarely required unless there is active bleeding or need for an invasive procedure.</listitem>
+<listitem>Prospective studies have shown no apparent benefit from treatment with plasma infusion, whereas a retrospective study of therapeutic plasma exchange (TPE) suggested benefit but was of limited quality.<xref ref="pubmed3276865" resource="acc012" /><xref ref="pubmed3153025" resource="acc013" /><xref ref="pubmed8352251" resource="acc011" /></listitem>
+<listitem>Patients with D&#x2212;HUS, particularly those with familial forms, are often considered for TPE, although data supporting this approach are limited.<xref ref="pubmed8463896" resource="acc010" /> TPE should be considered in patients with severe CNS involvement and&#x002F;or fever where differentiation from TTP on clinical grounds may be difficult. In a meta-analysis of three trials in adults with HUS, there was no difference in outcomes between plasma exchange using cryo-supernatant plasma or plasma exchange using fresh frozen plasma.<xref ref="pubmed18950913" resource="acc044" /></listitem>
+<listitem>The expert panel recommends initiating plasma therapy within 4-8 hours of admission with a diagnosis of TMA but switching to eculizumab if a diagnosis of aHUS is confirmed (ADAMS13&#x003E;10&#x0025; and negative shiga toxin-producing E. coli).<xref ref="pubmed28442312" resource="acc063" /></listitem>
+<listitem>Both older guidelines for aHUS recommend plasma exchange as first-line therapy while diagnostic testing is pursued, although supporting data are limited.<xref ref="pubmed19821824" resource="acc041" /><xref ref="pubmed18800230" resource="acc045" /> Exceptions to this include cases where an alternate treatment is available based on diagnosis (e.g., congenital ADAMTS13 deficiency; cobalamin-C disorder in a child with failure to thrive, hypotonia, leukopenia and megaloblastic anemia; cases where difficulties in vascular access are present; or where the risks outweigh benefits in a child with mild renal involvement).<xref ref="pubmed18800230" resource="acc045" /></listitem>
+<listitem>Authors of a Cochrane review identified 7 RCTs of children with HUS, including studies of fresh frozen plasma transfusion, heparin with or without urokinase or dipyridamole, shiga toxin binding protein and steroids, and found none of these superior to supportive therapy with regard to any clinical outcomes. More patients receiving anticoagulants bled (RR 26; 95&#x0025; CI, 3.7-182).<xref ref="cochrane3595" resource="acc022" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>Authors of a case report and literature review caution that discontinuing eculizumab may risk recurrence of thrombotic microangiopathy particularly in patients with complement factor H mutations. Risk of recurrence appears low in patients with MCP mutations, homozygous CFHR3&#x002F;R1 deletions, anti-CFH antibodies, CFI mutations, and in those with no identifiable mutations.<xref ref="pubmed27495036" resource="acc065" /></listitem>
+<listitem>Relapse occurs in 20&#x0025; to 35&#x0025; of patients with aHUS following eculizumab cessation after a median of 3 months (range, 1-30 months).<xref ref="pubmed32628650" resource="acc082" /> One author of a review concluded that eculizumab may be discontinued in some groups of patients on a case-by-case basis and with careful monitoring, following 6 to 12 months of treatment for aHUS that encompasses at least 3 months of normalization of renal function or stabilization of chronic renal disease.<xref ref="pubmed32628650" resource="acc082" /></listitem>
+<listitem>In a prospective national multicenter open-label study with 55 patients with aHUS, 13 patients (23&#x0025;; 6 children and 7 adults) experienced an aHUS relapse following discontinuation of eculizumab.<xref ref="pubmed33270832" resource="acc091" /> Risk factors for relapse were female sex, presence of a rare variant in a complement gene and increased sC5b-9 plasma level at eculizumab discontinuation. Reinstitution of eculizumab in these 13 patients resulted in 11 regaining their baseline renal function; two had a worsening of their preexisting chronic kidney disease, including 1 patient who progressed to end-stage renal disease.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Authors of a systematic review and meta-analysis of 13 cohort studies and 5 case series with 380 adult kidney transplant patients with aHUS investigated the role of eculizumab in preventing recurrent atypical HUS and allograft loss.<xref ref="pubmed31252541" resource="acc083" /> Of those who received eculizumab for prevention, incidence rates for recurrence were low at 6.3&#x0025; (95&#x0025;CI: 2.8-13.4&#x0025;) as was allograph loss (5.5&#x0025;; 95&#x0025;CI: 2.9-10.0&#x0025;). Among those treated with eculizumab for post-transplant aHUS recurrence, the pooled estimated rate of allograft loss was 22.5&#x0025; (95&#x0025;CI 13.6-34.8&#x0025;).</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Mortality has improved from 30&#x0025; to less than 10&#x0025; with improved disease recognition and management; prognosis appears poorer for patients with aHUS. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed5101439" resource="acc007" /><xref ref="pubmed12966129" resource="acc009" /></listitem>
+<listitem>Initial significant leukocytosis, severe CNS involvement, and persistent proteinuria beyond 1 year portend a worse prognosis. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed2642091" resource="acc006" /><xref ref="pubmed9709709" resource="acc008" /><xref ref="pubmed12966129" resource="acc009" /><xref ref="pubmed12195376" resource="acc023" /></listitem>
+<listitem>Death or ESRD occurs in approximately 12&#x0025; of patients, and 25&#x0025; of patients have some evidence of long-term renal sequelae. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed12966129" resource="acc009" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>A retrospective analysis of 67 cases of HUS from 1962 to 1969, prior to significant advances in disease management, demonstrated an overall mortality rate of 34&#x0025;.<xref ref="pubmed5101439" resource="acc007" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>
+<strong>D+ HUS</strong></listitem>
+<listitem>Authors of a meta-analysis of 49 studies with 3476 patients found that death or ESRD occurs in about 12&#x0025; of patients with D+ HUS.<xref ref="pubmed12966129" resource="acc009" /></listitem>
+<listitem>In the German study of 106 ICU patients with Shiga toxin-producing <em>E. coli</em>-associated HUS, the mortality rate was 4.7&#x0025;.<xref ref="pubmed23660733" resource="acc049" /> About three quarters of the patients required renal replacement therapy and about one third required intubation and mechanical ventilation. Almost half developed sepsis and, of these, one quarter developed septic shock. Sixty-six percent developed severe neurological symptoms. The median ICU stay was 10 days (range, 1-45 days).</listitem>
+<listitem>Severe CNS involvement was associated with greater likelihood of mortality or ESRD.</listitem>
+<listitem>In a follow-up study of adults with shiga-toxin associated HUS, at 19 months, 31 of the original 44 were available for follow-up revealing that 22 still suffered from symptoms such as fatigue, headache, and attention deficits and only 39&#x0025; performed normally on neuropsychological assessments.<xref ref="pubmed26871766" resource="acc067" /></listitem>
+<listitem>Among 770 children hospitalized with D+ HUS in 10 states during 1997 to 2012, most had good outcomes with few deaths (2.9&#x0025;) and few requiring persistent dialysis at discharge (52&#x002F;716; 7.3&#x0025;).<xref ref="pubmed25661408" resource="acc057" /> During hospitalization, nearly all (92.6&#x0025;) required transfusion and over half (430&#x002F;761; 56.5&#x0025;) required dialysis. At a mean follow-up of 4.4 years, 25&#x0025; of patients had a glomerular filtration rate lower than 80 mL&#x002F;min&#x002F;1.73 m<sup>2</sup>, hypertension, or proteinuria.</listitem>
+<listitem>
+<strong>D- HUS</strong></listitem>
+<listitem>While studies are inconclusive, it is generally suggested that D- HUS is associated with worse outcomes than D+ HUS.<xref ref="pubmed8463896" resource="acc010" /><xref ref="pubmed8618184" resource="acc021" /></listitem>
+<listitem>In an Australian follow-up study of 14 children with atypical HUS, 10 required dialysis at first presentation, including two who died and three who did not recover renal function.<xref ref="pubmed26729748" resource="acc068" /> Five children developed neurological complications and two had cardiac complications, most at disease onset. Relapse occurred within the first 12&#x2005;months in all but one child who survived the initial episode. At one-year follow-up, 9 of the remaining 11 patients were dialysis dependent; one child was lost to follow-up. Thirteen kidneys were transplanted into 8 children, but the disease recurred in 8 kidneys, resulting in graft loss in seven. Three further deaths occurred 1.7, 6.7 and 16.1&#x2005;years after initial presentation.</listitem>
+<listitem>In a retrospective study of 9 patients with non-enteric HUS, the mean durations of hypertension in 5 patients with CNS manifestations and 4 patients without CNS manifestations were 16.8 &#x00B1; 7.8 days and 4.8 &#x00B1; 6.6 days, respectively. Two patients died in the acute stage; most others regained normal renal function at discharge or during follow-up.<xref ref="pubmed21524626" resource="acc042" /></listitem>
+<listitem>In a case series of patients with aHUS associated with anti-FH autoantibody, patients showing activation of the alternative pathway of complement at the onset of disease had a poorer prognosis.<xref ref="pubmed21051740" resource="acc043" /> In another case series of patients with aHUS and renal transplant, mutations in complement genes, identified in 68&#x0025;, were associated with higher risk of recurrence.<xref ref="pubmed23356914" resource="acc051" /></listitem>
+<listitem>
+<strong>Transplant</strong></listitem>
+<listitem>A meta-analysis of 10 studies with 159 renal allografts in 127 patients demonstrated an HUS recurrence rate of 27.8&#x0025; in patients who had previously received renal allograft; older age at onset of HUS (presumably representing a greater proportion of D&#x2212; HUS) was associated with recurrence.<xref ref="pubmed9625029" resource="acc005" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Patients should be monitored for signs of hypertension, proteinuria, and evidence of persistent renal dysfunction.</listitem>
+<listitem>Persistent proteinuria after 1 year may be associated with increased risk for progressive renal disease.<xref ref="pubmed9709709" resource="acc008" /></listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Authors of a systematic review of pregnancy-associated aHUS found 48 reports describing 60 unique cases with 66 pregnancies. The diagnosis most often occurred postpartum (94&#x0025;), after a cesarean delivery (70&#x0025;), and in nulliparous women (58&#x0025;).<xref ref="pubmed31809447" resource="acc095" /> For women with first-episode pregnancy-associated aHUS, treatment with eculizumab achieved a higher rate of disease remission compared to no treatment with eculizumab (88&#x0025; vs 57&#x0025;, respectively).</listitem>
+<listitem>Ravulizumab was investigated in 8 patients, 5 of whom were on dialysis at baseline, who developed TMA post-partum and were diagnosed with aHUS.<xref ref="pubmed33407224" resource="acc096" /> Complete TMA response was achieved in 7&#x002F;8 patients (87.5&#x0025;) in a median time of 31.5 days. Hematologic normalization was observed in all patients and the 5 patients on dialysis discontinued dialysis within 21 days after treatment with ravulizumab. Possible treatment-related adverse events were observed in 2 patients (arthralgia and nasopharyngitis [both non-severe] and one with urinary tract infection).</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>
+<strong>
+<em>Drugs</em>
+</strong></listitem>
+<listitem>Authors of a systematic review and meta-analysis of 9 cohort studies, 4 case series, and 1 clinical trial with 940 pediatric patients, 682 of whom received eculizumab, found consistent improvements in renal and hematological parameters in most patients treated with eculizumab with a mortality rate of 1.6&#x0025; for treated patients.<xref ref="pubmed35864223" resource="acc092" /></listitem>
+<listitem>In an RCT including 100 children with Shiga toxin-related HUS comparing 4 weeks of eculizumab to placebo, there were no differences in renal outcome during the acute disease phase (e.g., renal replacement therapy required in 38&#x0025; and 48&#x0025;, respectively), but those randomized to eculizumab had a reduced rate of long-term kidney sequelae at 1 year (43.5&#x0025; and 64.4&#x0025;, respectively).<xref ref="pubmed37303085" resource="acc099" /></listitem>
+<listitem>Similarly, ravulizumab was effective for complete TMA response at 26 weeks in 77.8&#x0025; of 18 children with aHUS and in 94.4&#x0025; at 50 weeks of treatment in a phase III, single-arm trial.<xref ref="pubmed33307104" resource="acc093" /> Ravulizumab was administered every eight weeks in patients 20 kg and over, and four weeks in patients under 20 kg. No deaths or meningococcal infections occurred.</listitem>
+<listitem>
+<strong>
+<em>Other Treatment</em>
+</strong></listitem>
+<listitem>A prospective study of 29 children with D+ HUS demonstrated that later initiation of IV volume expansion was associated with a higher risk of oligoanuric renal failure.<xref ref="pubmed15930195" resource="acc017" /> Early volume expansion (soon after diagnosis) was also found beneficial in a case series of children with Shiga toxin-producing <em>E. coli</em>-associated HUS compared to historical controls in terms of less central nervous system involvement, less need for renal replacement therapy or intensive care support, fewer days of hospitalization and longer-term renal and extrarenal sequelae.<xref ref="pubmed26644486" resource="acc056" /></listitem>
+<listitem>In a pilot RCT with 24 children with HUS related to Shiga toxin-producing E. coli, there was no benefit of recombinant human erythropoietin on number of RBC transfusions.<xref ref="pubmed35166922" resource="acc094" /></listitem>
+<listitem>Indications for renal dialysis are similar to those in children with other forms of renal failure.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9200386">
+<accessionId id="acc001" href="info:pmid/9200386" />
+<authors>Bell BP, Griffin PM, Lozano P, Christie DL, Kobayashi JM, Tarr PI.</authors>
+<title>Predictors of hemolytic uremic syndrome in children during a large outbreak of Escherichia coli O157:H7 infections</title>
+<source>Pediatrics</source>
+<pubdate>1997</pubdate>
+<volume>100</volume>
+<pages>E12</pages>
+</reference>
+<reference id="pubmed9730725">
+<accessionId id="acc002" href="info:pmid/9730725" />
+<authors>Ubara Y, Hara S, Takedatu H, et al.</authors>
+<title>Hemolytic uremic syndrome associated with beta-interferon therapy for chronic hepatitis C.</title>
+<source>Nephron</source>
+<pubdate>1998</pubdate>
+<volume>80</volume>
+<pages>107-108</pages>
+</reference>
+<reference id="pubmed15127361">
+<accessionId id="acc003" href="info:pmid/15127361" />
+<authors>Houdouin V, Doit C, Mariani P, et al.</authors>
+<title>A pediatric cluster of Shigella dysenteriae serotype 1 diarrhea with hemolytic uremic syndrome in 2 families from France.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2004</pubdate>
+<volume>38</volume>
+<pages>e96-e99</pages>
+</reference>
+<reference id="pubmed1702151">
+<accessionId id="acc004" href="info:pmid/1702151" />
+<authors>Grodinsky S, Telmesani A, Robson WL, Fick G, Scott RB.</authors>
+<title>Gastrointestinal manifestations of hemolytic uremic syndrome: recognition of pancreatitis.</title>
+<source>J Pediatr Gastroenterol Nutr</source>
+<pubdate>1990</pubdate>
+<volume>11</volume>
+<pages>518-524</pages>
+</reference>
+<reference id="pubmed9625029">
+<accessionId id="acc005" href="info:pmid/9625029" />
+<authors>Ducloux D, Rebibou JM, Semhoun-Ducloux S, et al.</authors>
+<title>Recurrence of hemolytic-uremic syndrome in renal transplant recipients: a meta-analysis.</title>
+<source>Transplantation</source>
+<pubdate>1998</pubdate>
+<volume>65</volume>
+<pages>1405-1407</pages>
+</reference>
+<reference id="pubmed2642091">
+<accessionId id="acc006" href="info:pmid/2642091" />
+<authors>Walters MD, Matthei IU, Kay R, Dillon MJ, Barratt TM.</authors>
+<title>The polymorphonuclear leucocyte count in childhood haemolytic uraemic syndrome.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>1989</pubdate>
+<volume>3</volume>
+<pages>130-134</pages>
+</reference>
+<reference id="pubmed5101439">
+<accessionId id="acc007" href="info:pmid/5101439" />
+<authors>Kaplan BS, Katz J, Krawitz S, Lurie A.</authors>
+<title>An analysis of the results of therapy in 67 cases of the hemolytic-uremic syndrome.</title>
+<source>J Pediatr</source>
+<pubdate>1971</pubdate>
+<volume>78</volume>
+<pages>420-425</pages>
+</reference>
+<reference id="pubmed9709709">
+<accessionId id="acc008" href="info:pmid/9709709" />
+<authors>Moghal NE, Ferreira MA, Howie AJ, Milford DV, Raafat E, Taylor CM.</authors>
+<title>The late histologic findings in diarrhea-associated hemolytic uremic syndrome.</title>
+<source>J Pediatr</source>
+<pubdate>1998</pubdate>
+<volume>133</volume>
+<pages>220-223</pages>
+</reference>
+<reference id="pubmed12966129">
+<accessionId id="acc009" href="info:pmid/12966129" />
+<authors>Garg AX, Suri RS, Barrowman N, et al.</authors>
+<title>Long-term renal prognosis of diarrhea-associated hemolytic uremic syndrome: a systematic review, meta-analysis, and meta-regression.</title>
+<source>JAMA</source>
+<pubdate>2003</pubdate>
+<volume>290</volume>
+<pages>1360-1370</pages>
+</reference>
+<reference id="pubmed8463896">
+<accessionId id="acc010" href="info:pmid/8463896" />
+<authors>Fitzpatrick MM, Walters MD, Trompeter RS, Dillon MJ, Barratt TM.</authors>
+<title>Atypical (non-diarrhea-associated) hemolytic-uremic syndrome in childhood.</title>
+<source>J Pediatr</source>
+<pubdate>1993</pubdate>
+<volume>122</volume>
+<pages>532-537</pages>
+</reference>
+<reference id="pubmed8352251">
+<accessionId id="acc011" href="info:pmid/8352251" />
+<authors>Gianviti A, Perna A, Caringella A, et al.</authors>
+<title>Plasma exchange in children with hemolytic-uremic syndrome at risk of poor outcome.</title>
+<source>Am J Kidney Dis</source>
+<pubdate>1993</pubdate>
+<volume>22</volume>
+<pages>264-266</pages>
+</reference>
+<reference id="pubmed3276865">
+<accessionId id="acc012" href="info:pmid/3276865" />
+<authors>Rizzoni G, Claris-Appiani A, Edefonti A, et al.</authors>
+<title>Plasma infusion for hemolytic-uremic syndrome in children: results of a multicenter controlled trial.</title>
+<source>J Pediatr</source>
+<pubdate>1988</pubdate>
+<volume>112</volume>
+<pages>284-290</pages>
+</reference>
+<reference id="pubmed3153025">
+<accessionId id="acc013" href="info:pmid/3153025" />
+<authors>Loirat C, Sonsino E, Hinglais N, et al.</authors>
+<title>Treatment of the childhood haemolytic uraemic syndrome with plasma. A multicentre randomized controlled trial. The French Society of Paediatric Nephrology</title>
+<source>Pediatr Nephrol</source>
+<pubdate>1988</pubdate>
+<volume>2</volume>
+<pages>279-285</pages>
+</reference>
+<reference id="pubmed15221428">
+<accessionId id="acc014" href="info:pmid/15221428" />
+<authors>Caletti MG, Lejarraga H, Kelmansky D, et al.</authors>
+<title>Two different therapeutic regimes in patients with sequelae of hemolytic-uremic syndrome.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>2004</pubdate>
+<volume>19</volume>
+<pages>1148-1152</pages>
+</reference>
+<reference id="pubmed7032189">
+<accessionId id="acc015" href="info:pmid/7032189" />
+<authors>Monnens L, Drayer J, De Jong M.</authors>
+<title>Malignant hypertension in a child with hemolytic-uremic syndrome treated with captopril.</title>
+<source>Acta Paediatr Scand</source>
+<pubdate>1981</pubdate>
+<volume>70</volume>
+<pages>583-585</pages>
+</reference>
+<reference id="pubmed19085014">
+<accessionId id="acc016" href="info:pmid/19085014" />
+<authors>Pape L, Ahlenstiel T, Kreuzer M, et al.</authors>
+<title>Early erythropoietin reduced the need for red blood cell transfusion in childhood hemolytic uremic syndrome: a randomized prospective pilot trial.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>2009 May</pubdate>
+<volume>24(5)</volume>
+<pages>1061-1064. Epub 2008 Dec 16</pages>
+</reference>
+<reference id="pubmed15930195">
+<accessionId id="acc017" href="info:pmid/15930195" />
+<authors>Ake JA, Jelacic S, Ciol MA, et al.</authors>
+<title>Relative nephroprotection during Escherichia coli O157:H7 infections: association with intravenous volume expansion.</title>
+<source>Pediatrics</source>
+<pubdate>2005</pubdate>
+<volume>115</volume>
+<pages>e673-e680</pages>
+</reference>
+<reference id="pubmed9621299">
+<accessionId id="acc018" href="info:pmid/9621299" />
+<authors>Kaplan BS, Meyers KE, Schulman SL.</authors>
+<title>The pathogenesis and treatment of hemolytic uremic syndrome.</title>
+<source>J Am Soc Nephrol</source>
+<pubdate>1998</pubdate>
+<volume>9</volume>
+<pages>1126-1133</pages>
+</reference>
+<reference id="pubmed17498023">
+<accessionId id="acc019" href="info:pmid/17498023" />
+<authors>Tobias JD.</authors>
+<title>Hemolytic-uremic syndrome and myocardial dysfunction in a 9-month-old boy.</title>
+<source>Paediatr Anaesth</source>
+<pubdate>2007</pubdate>
+<volume>17</volume>
+<pages>584-587</pages>
+</reference>
+<reference id="pubmed10230484">
+<accessionId id="acc020" href="info:pmid/10230484" />
+<authors>Eckart P, Guillot M, Jokic M, et al.</authors>
+<title>[Cardiac involvement during classic hemolytic uremic syndrome]</title>
+<source>Arch Pediatr</source>
+<pubdate>1999</pubdate>
+<volume>6</volume>
+<pages>430-433</pages>
+</reference>
+<reference id="pubmed8618184">
+<accessionId id="acc021" href="info:pmid/8618184" />
+<authors>Siegler RL, Pavia AT, Hansen FL, Christofferson RD, Cook JB.</authors>
+<title>Atypical hemolytic-uremic syndrome: a comparison with postdiarrheal disease.</title>
+<source>J Pediatr</source>
+<pubdate>1996</pubdate>
+<volume>128</volume>
+<pages>505-511</pages>
+</reference>
+<reference id="cochrane3595">
+<accessionId id="acc022" href="info:wiley/cochrane/CD003595" />
+<chapter_authors>Michael M, Elliott EJ, Ridley GF, Hodson EM, Craig JC.</chapter_authors>
+<chapter_title>Interventions for haemolytic uraemic syndrome and thrombotic thrombocytopenic purpura (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed12195376">
+<accessionId id="acc023" href="info:pmid/12195376" />
+<authors>Gerber A, Karch H, Allerberger F, et al.</authors>
+<title>Clinical course and the role of shiga toxin-producing Escherichia coli infection in the hemolytic-uremic syndrome in pediatric patients, 1997-2000, in Germany and Austria: a prospective study.</title>
+<source>J Infect Dis</source>
+<pubdate>2002</pubdate>
+<volume>186</volume>
+<pages>493-500</pages>
+</reference>
+<reference id="pubmed11324640">
+<accessionId id="acc024" href="info:pmid/11324640" />
+<authors>Loof AH, van Vliet HH, Kappers-Klunne MC.</authors>
+<title>Low activity of von Willebrand factor-cleaving protease is not restricted to patients suffering from thrombotic thrombocytopenic purpura.</title>
+<source>Br J Haematol</source>
+<pubdate>2001</pubdate>
+<volume>112</volume>
+<pages>1087-1088</pages>
+</reference>
+<reference id="pubmed5101440">
+<accessionId id="acc025" href="info:pmid/5101440" />
+<authors>Katz J, Lurie A, Kaplan BS, et al.</authors>
+<title>Coagulation findings in the hemolytic-uremic syndrome of infancy: similarity to hyperacute renal allograft rejection.</title>
+<source>J Pediatr</source>
+<pubdate>1971</pubdate>
+<volume>78</volume>
+<pages>426-434</pages>
+</reference>
+<reference id="pubmed17553224">
+<accessionId id="acc026" href="info:pmid/17553224" />
+<authors>Seto EY, Soller JA, Colford JM, Jr.</authors>
+<title>Strategies to reduce person-to-person transmission during widespread Escherichia coli O157:H7 outbreak.</title>
+<source>Emerg Infect Dis</source>
+<pubdate>2007</pubdate>
+<volume>13</volume>
+<pages>860-866</pages>
+</reference>
+<reference id="pubmed9744244">
+<accessionId id="acc027" href="info:pmid/9744244" />
+<authors>Reilly A.</authors>
+<title>Prevention and control of enterohaemorrhagic Escherichia coli (EHEC) infections: memorandum from a WHO meeting. WHO Consultation on Prevention and Control of Enterohaemorrhagic Escherichia coli (EHEC) Infections.</title>
+<source>Bull World Health Organ</source>
+<pubdate>1998</pubdate>
+<volume>76</volume>
+<pages>245-255</pages>
+</reference>
+<reference id="pubmed8107950">
+<accessionId id="acc028" href="info:pmid/8107950" />
+<authors>Lingwood CA.</authors>
+<title>Verotoxin-binding in human renal sections.</title>
+<source>Nephron</source>
+<pubdate>1994</pubdate>
+<volume>66</volume>
+<pages>21-28</pages>
+</reference>
+<reference id="pubmed10828021">
+<accessionId id="acc029" href="info:pmid/10828021" />
+<authors>te Loo DM, Monnens LA, van Der Velden TJ, et al.</authors>
+<title>Binding and transfer of verocytotoxin by polymorphonuclear leukocytes in hemolytic uremic syndrome.</title>
+<source>Blood</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>3396-3402</pages>
+</reference>
+<reference id="pubmed9829509">
+<accessionId id="acc030" href="info:pmid/9829509" />
+<authors>Kohli HS, Sud K, Jha V, et al.</authors>
+<title>Cyclosporin-induced haemolytic-uraemic syndrome presenting as primary graft dysfunction.</title>
+<source>Nephrol Dial Transplant</source>
+<pubdate>1998</pubdate>
+<volume>13</volume>
+<pages>2940-2942</pages>
+</reference>
+<reference id="pubmed10325474">
+<accessionId id="acc031" href="info:pmid/10325474" />
+<authors>Antunes I, Magina S, Granjo E, et al.</authors>
+<title>Hemolytic-uremic syndrome induced by pentostatin in a patient with cutaneous T-cell lymphoma.</title>
+<source>Dermatology</source>
+<pubdate>1999</pubdate>
+<volume>198</volume>
+<pages>179-180</pages>
+</reference>
+<reference id="pubmed9811382">
+<accessionId id="acc032" href="info:pmid/9811382" />
+<authors>Ohali M, Shalev H, Schlesinger M, et al.</authors>
+<title>Hypocomplementemic autosomal recessive hemolytic uremic syndrome with decreased factor H.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>1998</pubdate>
+<volume>12</volume>
+<pages>619-624</pages>
+</reference>
+<reference id="pubmed9090654">
+<accessionId id="acc033" href="info:pmid/9090654" />
+<authors>Turner ME, Kher K, Rakusan T, et al.</authors>
+<title>A typical hemolytic uremic syndrome in human immunodeficiency virus-1-infected children.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>1997</pubdate>
+<volume>11</volume>
+<pages>161-163</pages>
+</reference>
+<reference id="pubmed17643764">
+<accessionId id="acc034" href="info:pmid/17643764" />
+<authors>Waters AM, Kerecuk L, Luk D, et al.</authors>
+<title>Hemolytic uremic syndrome associated with invasive pneumococcal disease: the United kingdom experience.</title>
+<source>J Pediatr</source>
+<pubdate>2007</pubdate>
+<volume>151</volume>
+<pages>140-144</pages>
+</reference>
+<reference id="pubmed11431174">
+<accessionId id="acc035" href="info:pmid/11431174" />
+<authors>Vaziri ND.</authors>
+<title>Erythropoietin and transferrin metabolism in nephrotic syndrome.</title>
+<source>Am J Kidney Dis</source>
+<pubdate>2001</pubdate>
+<volume>38</volume>
+<pages>1-8</pages>
+</reference>
+<reference id="pubmed10874060">
+<accessionId id="acc036" href="info:pmid/10874060" />
+<authors>Wong CS, Jelacic S, Habeeb RL, et al.</authors>
+<title>The risk of the hemolytic-uremic syndrome after antibiotic treatment of Escherichia coli O157:H7 infections.</title>
+<source>N Engl J Med</source>
+<pubdate>2000</pubdate>
+<volume>342</volume>
+<pages>1930-1936</pages>
+</reference>
+<reference id="pubmed12190370">
+<accessionId id="acc037" href="info:pmid/12190370" />
+<authors>Safdar N, Said A, Gangnon RE, et al.</authors>
+<title>Risk of hemolytic uremic syndrome after antibiotic treatment of Escherichia coli O157:H7 enteritis: a meta-analysis.</title>
+<source>JAMA</source>
+<pubdate>2002</pubdate>
+<volume>288</volume>
+<pages>996-1001</pages>
+</reference>
+<reference id="pubmed11237831">
+<accessionId id="acc038" href="info:pmid/11237831" />
+<authors>Banatvala N, Griffin PM, Greene KD, et al.; Hemolytic Uremic Syndrome Study Collaborators.</authors>
+<title>The United States National Prospective Hemolytic Uremic Syndrome Study: microbiologic, serologic, clinical, and epidemiologic findings.</title>
+<source>J Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>183</volume>
+<pages>1063-1070</pages>
+</reference>
+<reference id="pubmed8008534">
+<accessionId id="acc039" href="info:pmid/8008534" />
+<authors>Siegler RL, Pavia AT, Christofferson RD, et al.</authors>
+<title>A 20-year population-based study of postdiarrheal hemolytic uremic syndrome in Utah.</title>
+<source>Pediatrics</source>
+<pubdate>1994</pubdate>
+<volume>94</volume>
+<pages>35-40</pages>
+</reference>
+<reference id="pubmed13274004">
+<accessionId id="acc040" href="info:pmid/13274004" />
+<authors>Gasser C, Gautier E, Steck A, Siebenmann RE, Oechslin R.</authors>
+<title>[Hemolytic-uremic syndrome: bilateral necrosis of the renal cortex in acute acquired hemolytic anemia. ]</title>
+<source>Schweiz Med Wochenschr</source>
+<pubdate>1955</pubdate>
+<volume>85</volume>
+<pages>905-909</pages>
+</reference>
+<reference id="pubmed19821824">
+<accessionId id="acc041" href="info:pmid/19821824" />
+<authors>Taylor CM, Machin S, Wigmore SJ, Goodship TH; Working Party from the Renal Association, the British Committee for Standards in Haematology and the British Transplantation Society.</authors>
+<title>Clinical practice guidelines for the management of atypical haemolytic uraemic syndrome in the United Kingdom.</title>
+<source>Br J Haematol</source>
+<pubdate>2010</pubdate>
+<volume>148</volume>
+<pages>37-47</pages>
+</reference>
+<reference id="pubmed21524626">
+<accessionId id="acc042" href="info:pmid/21524626" />
+<authors>Chen SY, Wu CY, Tsai IJ, Tsau YK, Su YT.</authors>
+<title>Nonenteropathic hemolytic uremic syndrome: the experience of a medical center.</title>
+<source>Pediatr Neonatol</source>
+<pubdate>2011</pubdate>
+<volume>52</volume>
+<pages>73-77</pages>
+</reference>
+<reference id="pubmed21051740">
+<accessionId id="acc043" href="info:pmid/21051740" />
+<authors>Dragon-Durey MA, Sethi SK, Bagga A</authors>
+<title>Clinical features of anti-factor H autoantibody-associated hemolytic uremic syndrome.</title>
+<source>J Am Soc Nephrol</source>
+<pubdate>2010</pubdate>
+<volume>21</volume>
+<pages>2180-2187</pages>
+</reference>
+<reference id="pubmed18950913">
+<accessionId id="acc044" href="info:pmid/18950913" />
+<authors>Michael M, Elliott EJ, Craig JC, Ridley G, Hodson EM.</authors>
+<title>Interventions for hemolytic uremic syndrome and thrombotic thrombocytopenic purpura: a systematic review of randomized controlled trials.</title>
+<source>Am J Kidney Dis</source>
+<pubdate>2009</pubdate>
+<volume>53</volume>
+<pages>259-272</pages>
+</reference>
+<reference id="pubmed18800230">
+<accessionId id="acc045" href="info:pmid/18800230" />
+<authors>Ariceta G, Besbas N, Johnson S, et al.; European Paediatric Study Group for HUS.</authors>
+<title>Guideline for the investigation and initial therapy of diarrhea-negative hemolytic uremic syndrome.</title>
+<source>Pediatr Nephrol (Berlin, Germany)</source>
+<pubdate>2009</pubdate>
+<volume>24</volume>
+<pages>687-696</pages>
+</reference>
+<reference id="pubmed23082627">
+<accessionId id="acc046" href="info:pmid/23082627" />
+<authors>Fischer Walker CL, Applegate JA, Black RE</authors>
+<title>Haemolytic-uraemic syndrome as a sequela of diarrhoeal disease.</title>
+<source>J Health Popul Nutr</source>
+<pubdate>2012</pubdate>
+<volume>30</volume>
+<pages>257-261</pages>
+</reference>
+<reference id="pubmed23399570">
+<accessionId id="acc047" href="info:pmid/23399570" />
+<authors>Joseph C, Gattineni J</authors>
+<title>Complement disorders and hemolytic uremic syndrome.</title>
+<source>Curr Opin Pediatr</source>
+<pubdate>2013</pubdate>
+<volume>25</volume>
+<pages>209-215</pages>
+</reference>
+<reference id="pubmed23298275">
+<accessionId id="acc048" href="info:pmid/23298275" />
+<authors>Sall&#x00E9;e M, Ismail K, Fakhouri F, Vacher-Coponat H, Moussi-Franc&#x00E9;s J, Fr&#x00E9;maux-Bacchi V, Burtey S</authors>
+<title>Thrombocytopenia is not mandatory to diagnose haemolytic and uremic syndrome.</title>
+<source>BMC Nephrol</source>
+<pubdate>2013</pubdate>
+<volume>14</volume>
+<pages>3</pages>
+</reference>
+<reference id="pubmed23660733">
+<accessionId id="acc049" href="info:pmid/23660733" />
+<authors>Braune SA, Wichmann D, von Heinz MC, Nierhaus A, Becker H, Meyer TN, Meyer GP, M&#x00FC;ller-Schulz M, Fricke J, de Weerth A, Hoepker WW, Fiehler J, Magnus T, Gerloff C, Panzer U, Stahl RA, Wegscheider K, Kluge S.</authors>
+<title>Clinical features of critically ill patients with Shiga toxin-induced hemolytic uremic syndrome.</title>
+<source>Crit Care Med</source>
+<pubdate>2013</pubdate>
+<volume>41</volume>
+<pages>1702-1710</pages>
+</reference>
+<reference id="pubmed23382444">
+<accessionId id="acc050" href="info:pmid/23382444" />
+<authors>Honda T, Ogata S, Mineo E, Nagamori Y, Nakamura S, Bando Y, Ishii M</authors>
+<title>A novel strategy for hemolytic uremic syndrome: successful treatment with thrombomodulin &#x03B1;.</title>
+<source>Pediatrics</source>
+<pubdate>2013</pubdate>
+<volume>131</volume>
+<pages>e928-e933</pages>
+</reference>
+<reference id="pubmed23356914">
+<accessionId id="acc051" href="info:pmid/23356914" />
+<authors>Le Quintrec M, Zuber J, Moulin B, Kamar N, Jablonski M, Lionet A, Chatelet V, Mousson C, Mourad G, Bridoux F, Cassuto E, Loirat C, Rondeau E, Delahousse M, Fr&#x00E9;meaux-Bacchi V.</authors>
+<title>Complement genes strongly predict recurrence and graft outcome in adult renal transplant recipients with atypical hemolytic and uremic syndrome.</title>
+<source>Am J Transplant</source>
+<pubdate>2013</pubdate>
+<volume>13</volume>
+<pages>663-675</pages>
+</reference>
+<reference id="pubmed26582375">
+<accessionId id="acc052" href="info:pmid/26582375" />
+<authors>Brodsky RA.</authors>
+<title>Complement in hemolytic anemia.</title>
+<source>Blood</source>
+<pubdate>2015</pubdate>
+<volume>126</volume>
+<pages>2459&#x2013;65</pages>
+</reference>
+<reference id="pubmed25858888">
+<accessionId id="acc053" href="info:pmid/25858888" />
+<authors>Andersen GR.</authors>
+<title>Mutations in complement C3 from aHUS patients.</title>
+<source>Blood</source>
+<pubdate>2015</pubdate>
+<volume>125</volume>
+<pages>2316&#x2013;2318</pages>
+</reference>
+<reference id="pubmed24781800">
+<accessionId id="acc054" href="info:pmid/24781800" />
+<authors>L&#x00FC;th S, Fr&#x00FC;ndt TW, R&#x00F6;sch T, Schlee C, Lohse AW.</authors>
+<title>Prevention of hemolytic uremic syndrome with daily bowel lavage in patients with Shiga toxin-producing enterohemorrhagic Escherichia coli O104:H4 infection.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>174</volume>
+<pages>1003&#x2013;1005</pages>
+</reference>
+<reference id="pubmed25862562">
+<accessionId id="acc055" href="info:pmid/25862562" />
+<authors>Gavriilaki E, Yuan X, Ye Z, Ambinder AJ, Shanbhag SP, Streiff MB, Kickler TS, Moliterno AR, Sperati CJ, Brodsky RA.</authors>
+<title>Modified Ham test for atypical hemolytic uremic syndrome.</title>
+<source>Blood</source>
+<pubdate>2015</pubdate>
+<volume>125</volume>
+<pages>3637&#x2013;3646</pages>
+</reference>
+<reference id="pubmed26644486">
+<accessionId id="acc056" href="info:pmid/26644486" />
+<authors>Ardissino G, Tel F, Possenti I, Testa S, Consonni D, Paglialonga F, Salardi S, Borsa-Ghiringhelli N, Salice P, Tedeschi S, Castorina P, Colombo RM, Arghittu M, Daprai L, Monzani A, Tozzoli R, Brigotti M, Torresani E.</authors>
+<title>Early volume expansion and outcomes of hemolytic uremic syndrome.</title>
+<source>Pediatrics</source>
+<pubdate>2016</pubdate>
+<volume>137</volume>
+<pages />
+</reference>
+<reference id="pubmed25661408">
+<accessionId id="acc057" href="info:pmid/25661408" />
+<authors>Mody RK, Gu W, Griffin PM, Jones TF, Rounds J, Shiferaw B, Tobin-D'Angelo M, Smith G, Spina N, Hurd S, Lathrop S, Palmer A, Boothe E, Luna-Gierke RE, Hoekstra RM.</authors>
+<title>Postdiarrheal hemolytic uremic syndrome in United States children: clinical spectrum and predictors of in-hospital death.</title>
+<source>J Pediatr</source>
+<pubdate>2015</pubdate>
+<volume>166</volume>
+<pages>1022&#x2013;1029</pages>
+</reference>
+<reference id="pubmed28242109">
+<accessionId id="acc058" href="info:pmid/28242109" />
+<authors>Fakhouri F, Zuber J, Fr&#x00E9;meaux-Bacchi V, Loirat C.</authors>
+<title>Haemolytic uraemic syndrome.</title>
+<source>Lancet</source>
+<pubdate>2017</pubdate>
+<volume>390</volume>
+<pages>681&#x2013;696</pages>
+</reference>
+<reference id="pubmed29443761">
+<accessionId id="acc059" href="info:pmid/29443761" />
+<authors>Birlutiu V, Birlutiu RM.</authors>
+<title>Haemolytic-uremic syndrome due to infection with adenovirus: A case report and literature review.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e9895</pages>
+</reference>
+<reference id="pubmed28838521">
+<accessionId id="acc060" href="info:pmid/28838521" />
+<authors>Markakis K, Westhoff TH, Pagonas N.</authors>
+<title>Aortic valve replacement as a trigger of atypical hemolytic uremic syndrome.</title>
+<source>Ann Thorac Surg</source>
+<pubdate>2017</pubdate>
+<volume>104</volume>
+<pages>e255&#x2013;e256</pages>
+</reference>
+<reference id="pubmed28968817">
+<accessionId id="acc061" href="info:pmid/28968817" />
+<authors>Meinel C, Spart&#x00E0; G, Dahse HM, H&#x00F6;rhold F, K&#x00F6;nig R, Westermann M, Coldewey SM, Cseresny&#x00E9;s Z, Figge MT, Hammerschmidt S, Skerka C, Zipfel PF.</authors>
+<title>Streptococcus pneumoniae from patients with hemolytic uremic syndrome binds human plasminogen via the surface protein PspC and uses plasmin to damage human endothelial cells.</title>
+<source>J Infect Dis</source>
+<pubdate>2018</pubdate>
+<volume>217</volume>
+<pages>358&#x2013;370</pages>
+</reference>
+<reference id="pubmed27524217">
+<accessionId id="acc062" href="info:pmid/27524217" />
+<authors>Berger BE.</authors>
+<title>The alternative pathway of complement and the evolving clinical-pathophysiological spectrum of atypical hemolytic uremic syndrome.</title>
+<source>Am J Med Sci</source>
+<pubdate>2016</pubdate>
+<volume>352</volume>
+<pages>177&#x2013;90</pages>
+</reference>
+<reference id="pubmed28442312">
+<accessionId id="acc063" href="info:pmid/28442312" />
+<authors>Azoulay E, Knoebl P, Garnacho-Montero J, Rusinova K, Galstian G, Eggimann P, Abroug F, Benoit D, von Bergwelt-Baildon M, Wendon J, Scully M.</authors>
+<title>Expert Statements on the Standard of Care in Critically Ill Adult Patients With Atypical Hemolytic Uremic Syndrome.</title>
+<source>Chest</source>
+<pubdate>2017</pubdate>
+<volume>152</volume>
+<pages>424&#x2013;434</pages>
+</reference>
+<reference id="pubmed30286829">
+<accessionId id="acc064" href="info:pmid/30286829" />
+<authors>Sridharan M, Go RS, Abraham RS, Fervenza FC, Sethi S, Bryant SC, Spears GM, Murray DL, Willrich MAV.</authors>
+<title>Diagnostic Utility of Complement Serology for Atypical Hemolytic Uremic Syndrome.</title>
+<source>Mayo Clin. Proc.</source>
+<pubdate>2018</pubdate>
+<volume>93</volume>
+<pages>1351&#x2013;1362</pages>
+</reference>
+<reference id="pubmed27495036">
+<accessionId id="acc065" href="info:pmid/27495036" />
+<authors>Sahutoglu T, Basturk T, Sakaci T, Koc Y, Ahbap E, Sevinc M, Kara E, Akgol C, Caglayan FB, Unsal A, Daha MR.</authors>
+<title>Can eculizumab be discontinued in aHUS?: Case report and review of the literature.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e4330</pages>
+</reference>
+<reference id="pubmed27684863">
+<accessionId id="acc066" href="info:pmid/27684863" />
+<authors>Deville C, Garrouste C, Coppo P, Evrard B, Lautrette A, Heng AE.</authors>
+<title>Efficacy of rituximab and plasmapharesis in an adult patient with antifactor H autoantibody-associated hemolytic uremic syndrome: A case report and literature review.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e5007</pages>
+</reference>
+<reference id="pubmed26871766">
+<accessionId id="acc067" href="info:pmid/26871766" />
+<authors>Schuppner R, Maehlmann J, Dirks M, Worthmann H, Tryc AB, Sandorski K, Bahlmann E, Kielstein JT, Giesemann AM, Lanfermann H, Weissenborn K.</authors>
+<title>Neurological sequelae in adults after E coli O104: H4 infection-induced hemolytic-uremic syndrome.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e2337</pages>
+</reference>
+<reference id="pubmed26729748">
+<accessionId id="acc068" href="info:pmid/26729748" />
+<authors>Durkan AM, Kim S, Craig J, Elliott E.</authors>
+<title>The long-term outcomes of atypical haemolytic uraemic syndrome: a national surveillance study.</title>
+<source>Arch Dis Child</source>
+<pubdate>2016</pubdate>
+<volume>101</volume>
+<pages>387&#x2013;91</pages>
+</reference>
+<reference id="pubmed32361709">
+<accessionId id="acc069" href="info:pmid/32361709" />
+<authors>Park S, Lee YJ, Kim YW, Ko J, Park JH, Kim IH, Kim HJ, Oh D, Park BS.</authors>
+<title>Atypical Hemolytic Uremic Syndrome (p.Gly1110Ala) with Autoimmune Disease.</title>
+<source>Am J Case Rep</source>
+<pubdate>2020</pubdate>
+<volume>21</volume>
+<pages>e922567</pages>
+</reference>
+<reference id="pubmed30808442">
+<accessionId id="acc070" href="info:pmid/30808442" />
+<authors>Bruyand M, Mariani-Kurkdjian P, Le Hello S, King LA, Van Cauteren D, Lefevre S, Gouali M, Jourdan-da Silva N, Mailles A, Donguy MP, Loukiadis E, Sergentet-Thevenot D, Loirat C, Bonacorsi S, Weill FX, De Valk H, R&#x00E9;seau Fran&#x00E7;ais Hospitalier de Surveillance du Shu P&#x00E9;diatrique.</authors>
+<title>Paediatric haemolytic uraemic syndrome related to Shiga toxin-producing <em>Escherichia coli</em>, an overview of 10 years of surveillance in France, 2007 to 2016.</title>
+<source>Euro Surveill</source>
+<pubdate>2019</pubdate>
+<volume>24</volume>
+<pages />
+</reference>
+<reference id="pubmed31125419">
+<accessionId id="acc071" href="info:pmid/31125419" />
+<authors>McKee RS, Schnadower D, Tarr PI, Xie J, Finkelstein Y, Desai N, Lane RD, Bergmann KR, Kaplan RL, Hariharan S, Cruz AT, Cohen DM, Dixon A, Ramgopal S, Rominger A, Powell EC, Kilgar J, Michelson KA, Beer D, Bitzan M, Pruitt CM, Yen K, Meckler GD, Plint AC, Bradin S, Abramo TJ, Gouin S, Kam AJ, Schuh A, Balamuth F, Hunley TE, Kanegaye JT, Jones NE, Avva U, Porter R, Fein DM, Louie JP, Freedman SB, Pediatric Emergency Medicine Collaborative Research Committee and Pediatric Emergency Research Canada.</authors>
+<title>Predicting hemolytic uremic syndrome and renal replacement therapy in Shiga toxin-producing Escherichia coli-infected children.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2020</pubdate>
+<volume>70</volume>
+<pages>1643&#x2013;1651</pages>
+</reference>
+<reference id="pubmed32210633">
+<accessionId id="acc072" href="info:pmid/32210633" />
+<authors>Yan K, Desai K, Gullapalli L, Druyts E, Balijepalli C.</authors>
+<title>Epidemiology of Atypical Hemolytic Uremic Syndrome: A Systematic Literature Review.</title>
+<source>Clin Epidemiol</source>
+<pubdate>2020</pubdate>
+<volume>12</volume>
+<pages>295&#x2013;305</pages>
+</reference>
+<reference id="pubmed31828738">
+<accessionId id="acc073" href="info:pmid/31828738" />
+<authors>Ryan M, Donato BMK, Irish W, Gasteyger C, L'Italien G, Laurence J.</authors>
+<title>Economic impact of early-in-hospital diagnosis and initiation of eculizumab in atypical haemolytic uraemic syndrome.</title>
+<source>Pharmacoeconomics</source>
+<pubdate>2020</pubdate>
+<volume>38</volume>
+<pages>307&#x2013;313</pages>
+</reference>
+<reference id="pubmed31782026">
+<accessionId id="acc074" href="info:pmid/31782026" />
+<authors>Alconcher LF, Rivas M, Lucarelli LI, Galavotti J, Rizzo M.</authors>
+<title>Shiga toxin-producing Escherichia coli in household members of children with hemolytic uremic syndrome.</title>
+<source>Eur J Clin Microbiol Infect Dis</source>
+<pubdate>2020</pubdate>
+<volume>39</volume>
+<pages>427&#x2013;432</pages>
+</reference>
+<reference id="pubmed33392374">
+<accessionId id="acc075" href="info:pmid/33392374" />
+<authors>Vachon MS, Khalid M, Tarr GAM, Hedberg C, Brown JA.</authors>
+<title>Farm animal contact is associated with progression to Hemolytic uremic syndrome in patients with Shiga toxin-producing <em>Escherichia coli</em> - Indiana, 2012-2018.</title>
+<source>One Health</source>
+<pubdate>2020</pubdate>
+<volume>11</volume>
+<pages>100175</pages>
+</reference>
+<reference id="pubmed30393246">
+<accessionId id="acc076" href="info:pmid/30393246" />
+<authors>Yoshida Y, Kato H, Ikeda Y, Nangaku M.</authors>
+<title>Pathogenesis of Atypical Hemolytic Uremic Syndrome.</title>
+<source>J Atheroscler Thromb</source>
+<pubdate>2019</pubdate>
+<volume>26</volume>
+<pages>99&#x2013;110</pages>
+</reference>
+<reference id="pubmed31945341">
+<accessionId id="acc077" href="info:pmid/31945341" />
+<authors>Wu H, Mao Z, Tan Y, Jiang Y, Yu J, Song L, Wu S, Sun M, Zhu L, Yu X, Zhang L, Yu F, Zhao MH.</authors>
+<title>Genetic and functional analysis of two missense mutations in CD46 predispose to postpartum atypical hemolytic uremic syndrome.</title>
+<source>Clin Chim Acta</source>
+<pubdate>2020</pubdate>
+<volume>503</volume>
+<pages>61&#x2013;69</pages>
+</reference>
+<reference id="pubmed31742829">
+<accessionId id="acc078" href="info:pmid/31742829" />
+<authors>Shimizu M.</authors>
+<title>Pathogenic functions and diagnostic utility of cytokines&#x002F;chemokines in EHEC-HUS.</title>
+<source>Pediatr Int</source>
+<pubdate>2020</pubdate>
+<volume>62</volume>
+<pages>308&#x2013;315</pages>
+</reference>
+<reference id="pubmed31484852">
+<accessionId id="acc079" href="info:pmid/31484852" />
+<authors>Sakurai S, Kato H, Yoshida Y, Sugawara Y, Fujisawa M, Yasumoto A, Matsumoto M, Fujimura Y, Yatomi Y, Nangaku M.</authors>
+<title>Profiles of coagulation and fibrinolysis activation-associated molecular markers of atypical hemolytic uremic syndrome in the acute phase.</title>
+<source>J Atheroscler Thromb</source>
+<pubdate>2020</pubdate>
+<volume>27</volume>
+<pages>353&#x2013;362</pages>
+</reference>
+<reference id="pubmed31150744">
+<accessionId id="acc080" href="info:pmid/31150744" />
+<authors>Kakoullis L, Papachristodoulou E, Chra P, Panos G.</authors>
+<title>Shiga toxin-induced haemolytic uraemic syndrome and the role of antibiotics: a global overview.</title>
+<source>J Infect</source>
+<pubdate>2019</pubdate>
+<volume>79</volume>
+<pages>75&#x2013;94</pages>
+</reference>
+<reference id="pubmed31286658">
+<accessionId id="acc081" href="info:pmid/31286658" />
+<authors>Mahat U, Matar RB, Rotz SJ.</authors>
+<title>Use of complement monoclonal antibody eculizumab in Shiga toxin producing Escherichia coli associated hemolytic uremic syndrome: A review of current evidence.</title>
+<source>Pediatr Blood Cancer</source>
+<pubdate>2019</pubdate>
+<volume>66</volume>
+<pages>e27913</pages>
+</reference>
+<reference id="pubmed32628650">
+<accessionId id="acc082" href="info:pmid/32628650" />
+<authors>Laurence J.</authors>
+<title>Defining treatment duration in atypical hemolytic uremic syndrome in adults: a clinical and pathological approach.</title>
+<source>Clin Adv Hematol Oncol</source>
+<pubdate>2020</pubdate>
+<volume>18</volume>
+<pages>221&#x2013;230</pages>
+</reference>
+<reference id="pubmed31252541">
+<accessionId id="acc083" href="info:pmid/31252541" />
+<authors>Gonzalez Suarez ML, Thongprayoon C, Mao MA, Leeaphorn N, Bathini T, Cheungpasitporn W.</authors>
+<title>Outcomes of kidney transplant patients with atypical hemolytic uremic syndrome treated with Eculizumab: a systematic review and meta-analysis.</title>
+<source>J Clin Med</source>
+<pubdate>2019</pubdate>
+<volume>8</volume>
+<pages />
+</reference>
+<reference id="cochrane12862">
+<accessionId id="acc084" href="info:wiley/cochrane/CD12862" />
+<chapter_authors>Pugh D, O'Sullivan ED, Duthie FA, Masson P, Kavanagh D.</chapter_authors>
+<chapter_title>Interventions for atypical haemolytic uraemic syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 3. Art. No.: CD012862. DOI: 10.1002&#x002F;14651858.CD012862.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed36323601">
+<accessionId id="acc085" href="info:pmid/36323601" />
+<authors>Tseng MH, Lin SH, Tsai JD, Wu MS, Tsai IJ, Chen YC, Chang MC, Chou WC, Chiou YH, Huang CC.</authors>
+<title>Atypical hemolytic uremic syndrome: Consensus of diagnosis and treatment in taiwan.</title>
+<source>J Formos Med Assoc</source>
+<pubdate>2022</pubdate>
+<pages />
+</reference>
+<reference id="pubmed34197890">
+<accessionId id="acc086" href="info:pmid/34197890" />
+<authors>Ardissino G, Vignati C, Masia C, Capone V, Colombo R, Tel F, Daprai L, Testa S, Dodaro A, Paglialonga F, Luini M, Brigotti M, Picicco D, Baldioli C, Pagani F, Ceruti R, Tommasi P, Possenti I, Cresseri D, Consonni D, Montini G, Arghittu M, ItalKid-HUS Network.</authors>
+<title>Bloody Diarrhea and Shiga Toxin-Producing Escherichia coli Hemolytic Uremic Syndrome in Children: Data from the ItalKid-HUS Network.</title>
+<source>J Pediatr</source>
+<pubdate>2021</pubdate>
+<volume>237</volume>
+<pages>34&#x2013;40.e1</pages>
+</reference>
+<reference id="cochrane12997">
+<accessionId id="acc087" href="info:wiley/cochrane/CD12997" />
+<chapter_authors>Imdad A, Mackoff SP, Urciuoli DM, Syed T, Tanner-Smith EE, Huang D, Gomez-Duarte OG.</chapter_authors>
+<chapter_title>Interventions for preventing diarrhoea-associated haemolytic uraemic syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 7. Art. No.: CD012997. DOI: 10.1002&#x002F;14651858.CD012997.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed34956937">
+<accessionId id="acc088" href="info:pmid/34956937" />
+<authors>Tavasoli A, Zafaranloo N, Hoseini R, Otukesh H, Nakhaiee S.</authors>
+<title>Frequency of neurological involvement in patients with&#x002F;without diarrhea hemolytic uremic syndrome: A Systematic review and meta-analysis.</title>
+<source>Med J Islam Repub Iran</source>
+<pubdate>2021</pubdate>
+<volume>35</volume>
+<pages>91</pages>
+</reference>
+<reference id="pubmed32851810">
+<accessionId id="acc089" href="info:pmid/32851810" />
+<authors>Govindarajan S, Bhatia P, Dawman L, Tiewsoh K.</authors>
+<title>Usefulness of automated fragmented red blood cell percentage in the diagnosis of paediatric haemolytic uraemic syndrome.</title>
+<source>Int J Lab Hematol</source>
+<pubdate>2021</pubdate>
+<volume>43</volume>
+<pages>40&#x2013;43</pages>
+</reference>
+<reference id="pubmed35784997">
+<accessionId id="acc090" href="info:pmid/35784997" />
+<authors>Dhanoa RK, Selvaraj R, Shoukrie SI, Zahra A, Malla J, Selvamani TY, Venugopal S, Hamouda RK, Hamid P.</authors>
+<title>Eculizumab's Unintentional Mayhem: A Systematic Review.</title>
+<source>Cureus</source>
+<pubdate>2022</pubdate>
+<volume>14</volume>
+<pages>e25640</pages>
+</reference>
+<reference id="pubmed33270832">
+<accessionId id="acc091" href="info:pmid/33270832" />
+<authors>Fakhouri F, Fila M, Hummel A, Ribes D, Sellier-Leclerc AL, Ville S, Pouteil-Noble C, Coindre JP, Le Quintrec M, Rondeau E, Boyer O, Prov&#x00F4;t F, Djeddi D, Hanf W, Delmas Y, Louillet F, Lahoche A, Favre G, Ch&#x00E2;telet V, Launay EA, Presne C, Zaloszyc A, Caillard S, Bally S, Raimbourg Q, Tricot L, Mousson C, Le Thuaut A, Loirat C, Fr&#x00E9;meaux-Bacchi V.</authors>
+<title>Eculizumab discontinuation in children and adults with atypical hemolytic-uremic syndrome: a prospective multicenter study.</title>
+<source>Blood</source>
+<pubdate>2021</pubdate>
+<volume>137</volume>
+<pages>2438&#x2013;2449</pages>
+</reference>
+<reference id="pubmed35864223">
+<accessionId id="acc092" href="info:pmid/35864223" />
+<authors>de Souza RM, Correa BHM, Melo PHM, Pousa PA, de Mendon&#x00E7;a TSC, Rodrigues LGC, Sim&#x00F5;es E Silva AC.</authors>
+<title>The treatment of atypical hemolytic uremic syndrome with eculizumab in pediatric patients: a systematic review.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>2023</pubdate>
+<volume>38</volume>
+<pages>61&#x2013;75</pages>
+</reference>
+<reference id="pubmed33307104">
+<accessionId id="acc093" href="info:pmid/33307104" />
+<authors>Ariceta G, Dixon BP, Kim SH, Kapur G, Mauch T, Ortiz S, Vallee M, Denker AE, Kang HG, Greenbaum LA, 312 Study Group.</authors>
+<title>The long-acting C5 inhibitor, ravulizumab, is effective and safe in pediatric patients with atypical hemolytic uremic syndrome na&#x00EF;ve to complement inhibitor treatment.</title>
+<source>Kidney Int</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>225&#x2013;237</pages>
+</reference>
+<reference id="pubmed35166922">
+<accessionId id="acc094" href="info:pmid/35166922" />
+<authors>Balestracci A, Capone MA, Meni Battaglia L, Toledo I, Martin SM, Beaudoin L, Balbaryski J, G&#x00F3;mez L.</authors>
+<title>Erythropoietin in children with hemolytic uremic syndrome: a pilot randomized controlled trial.</title>
+<source>Pediatr Nephrol</source>
+<pubdate>2022</pubdate>
+<volume>37</volume>
+<pages>2383&#x2013;2392</pages>
+</reference>
+<reference id="pubmed31809447">
+<accessionId id="acc095" href="info:pmid/31809447" />
+<authors>Gupta M, Govindappagari S, Burwick RM.</authors>
+<title>Pregnancy-Associated Atypical Hemolytic Uremic Syndrome: A Systematic Review.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2020</pubdate>
+<volume>135</volume>
+<pages>46&#x2013;58</pages>
+</reference>
+<reference id="pubmed33407224">
+<accessionId id="acc096" href="info:pmid/33407224" />
+<authors>G&#x00E4;ckler A, Sch&#x00F6;nermarck U, Dobronravov V, La Manna G, Denker A, Liu P, Vinogradova M, Yoon SS, Praga M.</authors>
+<title>Efficacy and safety of the long-acting C5 inhibitor ravulizumab in patients with atypical hemolytic uremic syndrome triggered by pregnancy: a subgroup analysis.</title>
+<source>BMC Nephrol</source>
+<pubdate>2021</pubdate>
+<volume>22</volume>
+<pages>5</pages>
+</reference>
+<reference id="pubmed38254639">
+<accessionId id="acc097" href="info:pmid/38254639" />
+<authors>Avdonin PP, Blinova MS, Generalova GA, Emirova KM, Avdonin PV.</authors>
+<title>The Role of the Complement System in the Pathogenesis of Infectious Forms of Hemolytic Uremic Syndrome.</title>
+<source>Biomolecules</source>
+<pubdate>2023</pubdate>
+<volume>14</volume>
+<pages />
+</reference>
+<reference id="pubmed37563792">
+<accessionId id="acc098" href="info:pmid/37563792" />
+<authors>Tang ZC, Hui H, Shi C, Chen X.</authors>
+<title>New findings in preventing recurrence and improving renal function in AHUS patients after renal transplantation treated with eculizumab: a systemic review and meta-analyses.</title>
+<source>Ren Fail</source>
+<pubdate>2023</pubdate>
+<volume>45</volume>
+<pages>2231264</pages>
+</reference>
+<reference id="pubmed37303085">
+<accessionId id="acc099" href="info:pmid/37303085" />
+<authors>Garnier A , Brochard K, Kwon T , Sellier-Leclerc AL, Lahoche A, Launay EA, Nobili F, Caillez M, Taque S, Harambat J, Michel-Bourdat G, Guigonis V, Fila M, Cloarec S, Djamal-Dine D, de Parscaux L, Allard L, Salomon R, Ulinski T, Fr&#x00E9;meaux-Bacchi V, Morin C, Olivier-Abbal P, Colineaux H, Auriol F, Arnaud C, Kieffer I, Brusq C.</authors>
+<title>Efficacy and Safety of Eculizumab in Pediatric Patients Affected by Shiga Toxin-Related Hemolytic and Uremic Syndrome: A Randomized, Placebo-Controlled Trial.</title>
+<source>J Am Soc Nephrol</source>
+<pubdate>2023</pubdate>
+<volume>34</volume>
+<pages>1561&#x2013;1573</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>178</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Hemolytic Uremic Syndrome: Management.</title>
+<graphic href="eee0642-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspect HUS: hemolytic anemia, thrombocytopenia, and acute renal failure</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Signs of coagulation activation and secondary fibrinolysis (low fibrinogen and coagulation factors V and VIII, presence of fibrin degradation products in serum)?</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Evaluation for disseminated intravascular coagulation</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Diarrheal prodrome?</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Medication associated with HUS?</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Discontinue medication</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider complement blockade and&#x002F;ortherapeutic plasma exchange</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Severe CNS symptoms?</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Hypertension?</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Medical management</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Symptomatic anemia?</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Packed red blood cell transfusion</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Platelet count &lt;10K or bleeding?</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Platelet transfusion?</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Indications for dialysis present?</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Dialysis</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Appropriate fluid management</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Kaplan BS, Katz J, Krawitz S, et al. An analysis of the results of therapy in 67 cases of the hemolytic-uremic syndrome. <em>J Pediatr</em> 1971;<strong>78</strong>:420-425.<xref ref="pubmed5101439" resource="acc007" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

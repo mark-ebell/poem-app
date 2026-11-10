@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Malaria</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0322</topic_id>
+<topic_comment />
+<topic_lastupdated>01/02/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Lawrence M. Gibbs, MD MSEd</author_name>
+<author_title>Faculty Physician</author_title>
+<author_department>Family Medicine Residency Program</author_department>
+<author_institution>Methodist Health System</author_institution>
+<author_email>lawrencegibbs&#x0040;mhd.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Dallas</author_city>
+<author_state>TX</author_state>
+<author_zip>75237</author_zip>
+</author>
+<author primary="no">
+<author_name>Thomas B. Shima, DO</author_name>
+<author_title>Faculty Physician</author_title>
+<author_department>Family Medicine Residency Program</author_department>
+<author_institution>Methodist Health System</author_institution>
+<author_email>thomasshima&#x0040;mhd.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Dallas</author_city>
+<author_state>TX</author_state>
+<author_zip>75237</author_zip>
+</author>
+<author primary="no">
+<author_name>John E. Delzell, Jr., MD, MSPH</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Kansas University School of Medicine</author_institution>
+<author_email>jdelzell&#x0040;kumc.edu</author_email>
+<author_phone_office>913-588-1996</author_phone_office>
+<author_phone_home>913-384-3787</author_phone_home>
+<author_phone_fax>913-588-0195</author_phone_fax>
+<author_street1>3901 Rainbow Blvd</author_street1>
+<author_street2>Mailstop 4010</author_street2>
+<author_city>Kansas City</author_city>
+<author_state>KS</author_state>
+<author_zip>66160</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Peter K. Kurotschka, MD</editor_name>
+<editor_title>Research associate</editor_title>
+<editor_institution>Department of General Practice, University Hospital W&#x00FC;rzburg, Germany</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Henry C. Barry, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect malaria in a patient with fever, splenomegaly, and jaundice with recent travel (within several months) to an endemic area. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Light microscopy of Giemsa-stained blood smears is the gold standard for diagnosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Chemoprophylaxis and <em>N</em>,<em>N</em>-diethyl-meta-toluamide (DEET)-based mosquito repellants are effective in preventing malaria infection. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Artemisinin-based treatment combination therapies are considered standard of care by <resourceLink href="https://www.who.int/publications/i/item/guidelines-for-malaria">WHO guidelines</resourceLink> for treatment in <em>P. falciparum</em> malaria endemic areas, with cure rates exceeding 95&#x0025;. <evidence rating="A" system="SORT">A</evidence><xref ref="bib73_204_1510765952859" /><xref ref="bib91_99_1580522585115" /></listitem>
+<listitem>For non-falciparum malaria, chloroquine is an option if chloroquine resistance is not a concern in the patient's region. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For severe disease, IV or IM artesunate for 24 hours followed by 3 days of oral combination therapy is recommended by WHO guidelines. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Acute mosquito-borne disease caused by infection and destruction of red blood cells by 1 of 5 forms of the genus <em>Plasmodium</em>.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>About 2000 cases of malaria are diagnosed annually in the United States; the vast majority in travelers and immigrants from endemic areas.</listitem>
+<listitem>1.5 per 1000 for travelers to Africa</listitem>
+<listitem>0.11 per 1000 for travelers to Asia.</listitem>
+<listitem>0.04 per 1000 for travelers to Central&#x002F;South America.<xref ref="pubmed11182603" resource="acc001" /></listitem>
+<listitem>Authors of a meta-analysis of imported cases of malaria to non-endemic countries found that the west African region accounted for 56&#x0025; (13,947&#x002F;24,941) of all imported cases with France and the UK receiving the highest number of cases (&gt;4000 reported cases, on average, annually).<xref ref="pubmed27777030" resource="acc057" /></listitem>
+<listitem>Between May-October 2023, 10 locally-acquired cases of malaria were reported to the Centers for Disease Control and Prevention (<resourceLink href="https://www.cdc.gov/malaria/new_info/2023/malaria_US.html">CDC)</resourceLink> including seven cases of <em>P. vivax</em> malaria in Sarasota County, FL, one case (<em>P. vivax</em>) in Cameron County, TX, one case (<em>P. vivax</em>) in Saline County, Arkansas, and one case of <em>P. falciparum</em> malaria in a Maryland resident who lives in the National Capital Region. All patients were treated at area hospitals and have recovered.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>According to the <resourceLink href="https://www.cdc.gov/parasites/malaria">CDC</resourceLink>, an estimated 241 million cases of malaria occurred worldwide in 2020, with 627,000 deaths, most among children in sub-Saharan Africa. This represents an increase from 2018. <xref ref="bib77_837_1580431246886" /></listitem>
+<listitem>Most malaria cases and deaths in 2018 were in Africa (93&#x0025; and 94&#x0025;, respectively), with Nigeria accounting for 25&#x0025; of total cases. <xref ref="bib77_837_1580431246886" /></listitem>
+<listitem>Children 5 years and younger are the most vulnerable group affected by malaria, accounting for 67&#x0025; (272,000) of all malaria deaths worldwide in 2018.<xref ref="bib77_837_1580431246886" /></listitem>
+</list>
+</prevalence>
+<economic_impact>
+<list style="bulleted">
+<listitem>Approximately $12 billion annually in Africa.</listitem>
+<listitem>In Nigeria alone, malaria is estimated to affect the gross domestic product by 40&#x0025; annually and cost approximately US $1.5 billion in out-of-pocket treatments, prevention, costs, and loss of work hours.</listitem>
+<listitem>Almost no economic impact in the United States.</listitem>
+</list>
+</economic_impact>
+<social_impact>
+<list style="bulleted">
+<listitem>Malaria is the deadliest parasitic disease.</listitem>
+<listitem>In less developed nations, malaria is the fourth leading cause of death in children.</listitem>
+<listitem>Between 2005 to 2015, however, there was a significant decrease in mortality rates due to malaria globally (43.1&#x0025;; 95&#x0025; CI, 34.7-51.8).<xref ref="pubmed27733281" resource="acc049" /> Communicable, maternal, neonatal, and nutritional diseases caused the most years of life lost throughout sub-Saharan Africa, especially for countries in which malaria or HIV&#x002F;AIDS remained the leading causes of early death.<xref ref="pubmed26810619" resource="acc050" /></listitem>
+<listitem>Among low socioeconomic index countries, 20-30&#x0025; of total disability is largely attributable to nutritional deficiencies, malaria, neglected tropical diseases, HIV&#x002F;AIDS, and tuberculosis.<xref ref="pubmed27733282" resource="acc058" /></listitem>
+<listitem>In Ghana, the odds ratio for risk of stillbirth in women with malaria was 1.9 (95&#x0025; CI, 1.2-9.3).<xref ref="pubmed25236649" resource="acc039" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem><em>Plasmodium falciparum</em>.</listitem>
+<listitem><em>Plasmodium vivax</em>.</listitem>
+<listitem><em>Plasmodium ovale</em>.</listitem>
+<listitem><em>Plasmodium malariae</em>.</listitem>
+<listitem><em>Plasmodium knowlesi.</em></listitem>
+<listitem>Of these species, <em>Plasmodium falciparum</em> and <em>Plasmodium vivax</em> pose the greatest threat.</listitem>
+<listitem><em>Plasmodium vivax</em> is the prevailing parasite in the western hemisphere, representing 75&#x0025; of malaria cases.</listitem>
+<listitem>Risk factors include travel to endemic areas and length of stay in high-risk areas.</listitem>
+<listitem>Locally-transmitted mosquito-borne malaria in the US is rare, with only 63 outbreaks occurring between 1957 and 2015, according to the CDC. Transfusion-transmitted malaria is also rare in the US, with only 97 cases reported between 1963 and 2015.</listitem>
+<listitem>Though malaria is a parasitic mosquito-borne infection most commonly, <em>Plasmodium</em> can also be transmitted to humans by direct inoculation of infected red blood cells via transfusion, needles, and congenitally.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Humans are infected through <em>Anopheles</em> mosquito bites.</listitem>
+<listitem>After injection of <em>Plasmodium</em> sporozoites (often 10-100) into the host during a blood meal, the sporozoites first infect hepatocytes and replicate to form thousands of merozoites (Primary Liver Stage). Upon rupture of the infected hepatocytes, these merozoites enter the circulation and can infect red blood cells. Once inside red blood cells, merozoites develop into trophozoites, then divide and develop into new merozoites. Eventually the red cell will rupture and further merozoites are released into circulation (Erythrocytic&#x002F; Blood Phase). This cycle may take 24-72 hours depending on the species, and can continue to repeat itself. This cycling also corresponds to the cyclic fevers that some, but not all, patients experience.</listitem>
+<listitem>Disease severity is often proportional to the number of circulating merozoites in the patient, but some <em>P. falciparum</em> infections can become severe in lower ranges.</listitem>
+<listitem>Time from initial infection to symptom presentation will vary across <em>Plasmodium sps</em>. For instance, <em>P. knowlesi</em> and <em>P. falciparum</em> incubation is often 9-14 days, while <em>P. vivax</em> ranges from 12-17 days, and <em>P. ovale</em> ranges from 16-18 days. The most variable range is with <em>P. malariae</em> which can be from 18 to more than 40 days.</listitem>
+<listitem>Note that <em>P. vivax</em> and <em>P. ovale</em> also may form hypnozoite forms which can remain in the liver for extended time periods and are responsible for relapsing illness that can be seen months after initial infection. (See primaquine in "Other treatment" below.)</listitem>
+<listitem>Some merozoites differentiate into sexual forms, macro- and microgametocytes, and develop in erythrocytes. When an <em>Anopheles</em> mosquito feeds on an infected host and ingests the gametocytes, they migrate to the mosquito's stomach and combine to form zygotes and eventually oocysts. These oocysts enlarge and eventually rupture, releasing up to thousands of sporozoites into the mosquito's body. The sporozoites migrate to the salivary glands where they can then infect new hosts with subsequent blood meals. This Vector&#x002F;Mosquito Phase may take 8 to 35 days depending on the species and environmental conditions.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Chemoprophylaxis and DEET-based mosquito repellants are effective in preventing malaria infection. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane138" resource="acc002" /></listitem>
+<listitem>Insecticide-treated bed nets are effective for reducing mortality. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane363" resource="acc005" /></listitem>
+<listitem>Though having a questionable benefit on mortality, a vaccine (RTS,S&#x002F;AS01) showed modest efficacy against <em>P. falciparum</em> malaria infection in infants and children and the WHO has recommended large-scale pilot implementations of the vaccine in children 5-9 months of age in settings of moderate to high <em>P. falciparum</em> transmission in Africa. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed25913272" resource="acc070" /><xref ref="pubmed27355532" resource="acc052" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention>
+<list style="bulleted">
+<listitem><strong>Chemoprophylaxis</strong></listitem>
+<listitem>Medications for malaria chemoprophylaxis will vary based on the country and the specific epidemiology of that country.<xref ref="pubmed17519415" resource="acc006" /> The CDC maintains and updates malaria prevention recommendations for travelers.<xref ref="web004" /></listitem>
+<listitem>Authors of a Cochrane review found atovaquone-proguanil (250 mg&#x002F;100 mg daily) and doxycycline (100 mg daily) to be the best tolerated regimen; mefloquine (250 mg weekly) is associated with adverse neuropsychiatric outcomes, though only has to be taken weekly.<xref ref="pubmed17519416" resource="acc008" /><xref ref="web003" /></listitem>
+<listitem>Chloroquine (500mg weekly) or hydroxychloroquine (400mg weekly) can be considered in areas with known chloroquine-sensitive malaria.<xref ref="web003" /></listitem>
+<listitem>Intermittent treatment to prevent malaria in preschool children living in endemic areas with seasonal malaria transmission prevents about three quarters of all clinical malaria episodes (rate ratio 0.26; 95&#x0025; CI, 0.17-0.38).<xref ref="cochrane3756" resource="acc031" />Intermittent treatment also likely produces a small reduction in all-cause mortality. No serious adverse drug events were reported in the 6 trials evaluated.</listitem>
+<listitem>Two rounds of community-wide mass drug administration (MDA) and household-level (focal) MDA using dihydroartemisinin plus piperaquine compared with no mass treatment reduced malaria infection incidence and prevalence in low but not high-transmission areas in Zambia.<xref ref="pubmed27923947" resource="acc059" /></listitem>
+<listitem>In areas where there are prevention and management services for malaria, Cochrane authors concluded that iron supplementation may reduce clinical malaria, although quality of evidence is poor.<xref ref="cochrane6589" resource="acc048" />Based on higher quality evidence, iron and antimalarial treatment reduces clinical malaria (RR 0.54; 95&#x0025; CI, 0.43-0.67; three trials, 728 children).</listitem>
+<listitem>About 12&#x0025; of pregnant women receiving chemoprophylaxis develop malaria infection during pregnancy compared with 24&#x0025; of women receiving no drug (NNT 9; 95&#x0025; CI, 5-31).<xref ref="cochrane169" resource="acc003" /> In a database study conducted in 25 African countries, use of intermittent chemoprophylaxis or insecticide-treated mosquito nets for pregnant women was associated with a decreased risk of neonatal mortality and low birth weight.<xref ref="pubmed22995852" resource="acc034" /></listitem>
+<listitem>In the setting of residential spraying of insecticides, adding monthly dihydroartemisinin-piperaquine to daily trimethoprim-sulfamethoxazole did not reduce the risk of placental or maternal malaria or improve birth outcomes for HIV-infected pregnant African women.<xref ref="pubmed28329368" resource="acc060" /></listitem>
+<listitem>In one RCT of 500 HIV-infected adults receiving ART, continuing vs. discontinuing cotrimoxazole resulted in lower malaria parasite prevalence of 4&#x0025; compared to 22&#x0025; at month 12.<xref ref="pubmed28077587" resource="acc061" /></listitem>
+<listitem>A national Benin policy of providing intermittent sulfadoxine pyrimethamine treatment for pregnant women resulted in a rate of 10&#x0025; low-birth-weight infants (8.7&#x0025; was reported in the clinical trial conducted prior to national implementation) and a rate of malaria infection in the placenta of 11.2&#x0025; (2.9&#x0025; reported in the trial).<xref ref="pubmed21292898" resource="acc009" /></listitem>
+<listitem>Intermittent treatment with 3 or more doses vs. a 2-dose regimen resulted in significantly lower rates of low-birth-weight infants with a NNT of 31 and an average 56 g higher mean birth weight.<xref ref="pubmed23403684" resource="acc035" /> In this systematic review, there were no differences in serious adverse events between groups.</listitem>
+<listitem>A new drug, DSM265, that selectively inhibits the parasite dihydroorotate dehydrogenase is under development.<xref ref="pubmed28363637" resource="acc062" /><xref ref="pubmed28363636" resource="acc063" /></listitem>
+<listitem>Two monoclonal antibodies (L9LS and CIS43LS) that prevent infection have shown promising results in randomized trials.<xref ref="pubmed38669354" resource="acc100" /><xref ref="pubmed36317783" resource="acc099" /></listitem>
+<listitem><strong>Repellants</strong></listitem>
+<listitem>The <resourceLink href="https://www.epa.gov/insect-repellents">Environmental Protection Agency</resourceLink>&#x2019;s registered insect repellents including one of the following ingredients are recommended to prevent mosquito bites: Diethylmethyl-toluamide (DEET) (best protection), Picaridin (known as KBR 3023 and icaridin outside the US), IR3535, Oil of lemon eucalyptus, Para-menthane-diol (PMD), or 2-undecanon.</listitem>
+<listitem>DEET-based mosquito repellants are effective in reducing bites and preventing infection when compared with placebo (OR 0.44; 95&#x0025; CI, 0.25-0.76).<xref ref="pubmed14996362" resource="acc004" /><xref ref="pubmed17228414" resource="acc010" /> They are safe for all age groups and should be at concentrations at least 25&#x0025; or higher.</listitem>
+<listitem>Picaradin and IR3535 (ethyl butylacetylamino-propionate) are also recommended by both the CDC and WHO.</listitem>
+<listitem>Electronic mosquito repellants have no effect in preventing mosquito bites.<xref ref="cochrane5434" resource="acc011" /></listitem>
+<listitem>Use of metofluthrin mosquito coils may be effective in reducing malaria infections compared with placebo coils, but the benefit was no longer statistically significant when adjusting for intra-cluster correlation.<xref ref="pubmed25311699" resource="acc040" /></listitem>
+<listitem>A randomized trial found that permethrin-treated baby wraps were successful at reducing the incidence of clinical malaria (0.73 versus 2.14 cases&#x002F;100 person-weeks, p &lt; 0.001).<xref ref="pubmed40991921" resource="acc101" /></listitem>
+<listitem><strong>Bed nets</strong></listitem>
+<listitem>Insecticide-treated bed nets reduce all-cause mortality in children in malaria-endemic areas; a saving of 5.6 lives (95&#x0025; CI, 3.6 to 7.6) per year for every 1000 children protected with ITNs compared to no nets and possibly a benefit of 3.5 lives (95&#x0025; CI, -2.4 to 6.8) each year for every 1000 children compared to use of non-treated nets.<xref ref="cochrane363" resource="acc005" /></listitem>
+<listitem>In a 3-arm RCT comparing one of three types of long-lasting insecticidal net, greater protection from malaria was found using chlorfenapyr-pyrethroid nets compared to either pyrethroid-only or pyriproxyfen-pyrethroid nets (mean malarial incidence over 2 years of 0.56 cases per child-year, 1.03 cases per child-year and 0.84 cases per child-year, respectively).<xref ref="pubmed36706778" resource="acc087" /></listitem>
+<listitem>A large prospective cohort study in Tanzania with 6706 children followed for 22 years found that use of mosquito nets before the age of 5 years significantly decreased the likelihood of death (adjusted hazard ratio 0.57, 95&#x0025; CI 0.45 - 0.72).<xref ref="pubmed35108469" resource="acc085" /></listitem>
+<listitem><strong>Vaccination</strong></listitem>
+<listitem><strong>Malaria vaccines</strong> are being investigated but are not currently available.</listitem>
+<listitem>An RCT using RTS,S&#x002F;AS01 in children found rates of first or only malaria episode at 12 months of 28&#x0025; in children in the malaria vaccine group versus 41&#x0025; for those in the rabies vaccine group. Common malaria vaccine complications included pneumonia, febrile convulsion, gastroenteritis, and <em>falciparum</em> malaria.<xref ref="pubmed21237715" resource="acc012" /> In another RCT of African children aged 5 months to 17 months, the vaccine reduced the number of episodes of malaria from 1.08 per person-year to 0.55 per person-year (vaccine efficacy &#x003D; 50.4&#x0025;; 95&#x0025; CI, 45.8&#x0025;-54.6&#x0025;).<xref ref="poem140103" resource="acc032" /></listitem>
+<listitem>Follow-up analysis of the 3-dose malaria vaccine (RTS,S&#x002F;AS01) given at 5 to 17 months of age to African children did not result in reduced episodes of malaria by 7 years post administration.<xref ref="pubmed27355532" resource="acc052" /></listitem>
+<listitem>However, in a 3-year 3-arm RCT enrolling 6861 children ages 5-17 months conducted in Mali and Bukina Faso, the incidence of clinical malaria per 1000 person-years at risk was 313 in the seasonal malaria chemoprevention (SMC) alone group, 320 in the vaccine (RTS,S&#x002F;AS01E)-alone group, and 133 in the combined SMC&#x002F;vaccine group over 5 years.<xref ref="pubmed37625434" resource="acc088" /> In addition, compared with the SMC group, combined SMC&#x002F;vaccine reduced hospital admissions for severe malaria by 66.8&#x0025; and for all-cause deaths by 44.5&#x0025;.</listitem>
+<listitem>A 3-dose vaccine (R21&#x002F;Matrix-M) was tested against a control vaccine (rabies) in Africa in 5477 children and was found to be 68&#x0025; to 75&#x0025; effective and well tolerated at 12 months.<xref ref="pubmed38310910" resource="acc089" /> In a second trial conducted in Bulina Faso, 3-dose R21&#x002F;Matrix-M plus a booster was 71&#x0025; effective in the low-dose adjuvant group and 80&#x0025; effective in the high-dose adjuvant group against clinical malaria at one-year followup.<xref ref="pubmed36087586" resource="acc090" /></listitem>
+<listitem><strong>Other</strong></listitem>
+<listitem>Use of solar-powered odor-baited mosquito trapping systems (SMoTS)&#x00A0;may be helpful in preventing clinical malaria episodes. In a cluster-randomized trial, installing household SMoTS resulted in a reduced malaria prevalence of 23&#x00B7;7&#x0025; (1552 of 6550 people) vs. 34.5&#x0025; in non-intervened clusters (2002 of 5795 people) as measured by RDTs.<xref ref="pubmed27520594" resource="acc051" /></listitem>
+<listitem>In one RCT, daily administration of 25 mg of zinc to pregnant women in Tanzania reduced risk of histopathology-positive placental malaria vs. with those who did not receive zinc, but did not reduce polymerase chain reaction-positive malaria, or delivery of premature or small-for-gestational-age infants.<xref ref="pubmed28115667" resource="acc064" /></listitem>
+<listitem>Seasonal administration of Ivermectin en masse to individuals in communities where malaria incidence is high may reduce malaria incidence in children ages 5 years and under, without significant adverse reactions.<xref ref="pubmed30878222" resource="acc075" /></listitem>
+<listitem>In theory, mass drug administration (MDA) should result in rapid reduction and eventual elimination of malaria in target populations, but MDA administration in low-transmission settings of sub-Saharan Africa has not consistently shown the ability to interrupt malaria transmission likely due to the high risk of re-introduction of malaria from imported malaria.<xref ref="pubmed31438943" resource="acc078" /><xref ref="pubmed30526588" resource="acc079" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect malaria in a patient with fever, chills, and myalgia with recent travel (within several months) to an endemic area. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16908798" resource="acc013" /></listitem>
+<listitem>Light microscopy of Giemsa-stained blood smears is the gold standard for diagnosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Other methods of rapid diagnostic testing are impractical for most countries with a high prevalence of malaria because of their cost. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Dengue fever</Differential_Name>
+<Differential_Features>Fever, headache, myalgias, lymphadenopathy, and short incubation (4-7 days)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Enteric fever (typhoid and paratyphoid)</Differential_Name>
+<Differential_Features>Remittent fever, headache, gastrointestinal symptoms, and incubation from 3 to 60 days</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Rickettsial infection</Differential_Name>
+<Differential_Features>Fever, headache, myalgias, and history of tick bite</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Influenza</Differential_Name>
+<Differential_Features>Fever, myalgias, cough, and headache</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Viral hepatitis</Differential_Name>
+<Differential_Features>Abdominal pain, jaundice, fever, and history of exposure</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Mononucleosis (from Ebstein-Barr virus or cytomegalovirus)</Differential_Name>
+<Differential_Features>Sore throat, fever, and lymphadenopathy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Yellow fever</Differential_Name>
+<Differential_Features>High fever, headache, myalgia, and vomiting</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect malaria in a patient with fever, chills, and myalgias with recent travel (within several months) to an endemic area. Almost all patients (98&#x0025;) have fever.<xref ref="pubmed10979063" resource="acc014" /> Over one-third of febrile patients with recent travel to the tropics have malaria.<xref ref="pubmed16908798" resource="acc013" /></listitem>
+<listitem>In malaria-endemic areas, some patients develop partial immunity and may not become ill by the parasites; because of this, finding parasites in an ill patient does not mean that the illness is caused by the parasite.</listitem>
+<listitem>In a systematic review, no specific symptoms or signs had sufficient accuracy to diagnose malaria. Of symptoms in travelers returning from endemic areas, fever (LR+ 5.1; 95&#x0025; CI, 4.9-5.3) and lack of fever (LR&#x2212; 0.12; 95&#x0025; CI, 0.10-0.15) were most useful; on examination, splenomegaly (LR+ 6.5; 95&#x0025; CI, 3.9-11), jaundice or icterus (LR+ 4.5; 95&#x0025; CI, 1.7-12) moderately increased the likelihood of malaria.<xref ref="poem130125" resource="acc015" /></listitem>
+<listitem>Severe malaria is suspected in patients with confusion, coma, neurologic focal signs, severe anemia, respiratory difficulties.</listitem>
+<listitem>Authors of a systematic review found a prevalence of respiratory distress syndrome of 2.8&#x0025; in children and 2.2&#x0025; in adults with <em>Plasmodium vivax</em> malaria; mortality was approximately 50&#x0025; in these patients.<xref ref="pubmed28722625" resource="acc065" /></listitem>
+<listitem>For those living in non-endemic areas, history of travel to malaria endemic areas is a key factor: 98&#x0025; of patients with <em>P. falciparum</em> malaria will have symptoms within 3 months of travel, and 96&#x0025; of patients with nonfalciparum malaria will have symptom onset within 12 months of travel.<xref ref="pubmed17519416" resource="acc008" /></listitem>
+<listitem>Splenomegaly, the most common physical examination finding occurs in 22&#x0025; of patients.<xref ref="pubmed10979063" resource="acc014" /> Other manifestations of severe malaria include prostration, delirium, coma, respiratory distress, seizures, circulatory collapse, pulmonary edema, abnormal bleeding, and jaundice.<xref ref="web002" /></listitem>
+<listitem>Black water fever is a clinical entity characterized by acute intravascular hemolysis classically occurring after intermittent use of quinine in long-term residents in Plasmodium falciparum endemic areas.<xref ref="pubmed12355996" resource="acc091" /> Clinically, patients have fever, wine-colored urine, icterus, pallor, nausea, and acute renal failure from tubular necrosis.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>With respect to <strong>laboratory tests</strong>, thrombocytopenia (LR+ 74; 9.2-601) and hyperbilirubinemia (LR+ 11; 8-15) increase the likelihood of malaria in travelers returning from endemic areas.<xref ref="poem130125" resource="acc015" /></listitem>
+<listitem>Recent testing using nucleic acids as biomarkers (Plasmodium 18S rRNA&#x002F;rDNA nucleic acid tests) is promising showing earlier detection (7.6 days; 95&#x0025; CI: 7.1-8.1 days) than blood smears (11.0 days; CI: 10.3-11.8 days) for malaria.<xref ref="pubmed31017084" resource="acc080" /></listitem>
+<listitem>In another study, use of C-reactive protein (&gt;2.4 mg&#x002F;dL) and total bilirubin (&gt;0.9 mg&#x002F;dL) were useful in predicting malaria as opposed to dengue fever.<xref ref="pubmed24420780" resource="acc041" /></listitem>
+<listitem>In many parts of the world, light microscopy of Giemsa-stained thick and thin blood films remains the best and most cost-effective test for detection and diagnosis of malaria parasitemia.</listitem>
+<listitem>Light microscopy can detect as few as 5 to 10 malaria-infected erythrocytes per microliter of blood. Advantages include the low cost and the ability to determine parasite density, which can aid in prognosis. Disadvantages include its dependence upon individual expertise.<xref ref="web001" />,<xref ref="pubmed15897534" resource="acc018" />,<xref ref="pubmed21208275" resource="acc019" /></listitem>
+<listitem>The malaria diagnostic competency assessment (MDCA) is a new initiative proposed by the MalariaCare project that recommends implementation of regular competency training for all personnel involved in histologic testing for malaria against country-specific minimum standards to ensure better detection using peripheral blood smears.<xref ref="pubmed30793691" resource="acc081" /></listitem>
+<listitem><strong>Rapid detection tests</strong> (RDTs)</listitem>
+<listitem>The CDC notes that RDT is approved for use by hospital and commercial laboratories, not by individual clinicians or by patients themselves. They recommend that all RDTs be followed-up with microscopy to confirm results.</listitem>
+<listitem>Authors of a Cochrane review of 74 trials, however, concluded that the sensitivity and specificity of all RDTs is such that they can replace or extend the access of diagnostic services for uncomplicated <em>P. falciparum</em> malaria.<xref ref="cochrane8122" resource="acc033" /></listitem>
+<listitem>Use of an RDT has been shown to reduce the proportion of patients with <em>P. falciparum</em> receiving inappropriate treatment compared with treatment based on clinical diagnosis.<xref ref="pubmed24948695" resource="acc042" /> In addition, vivax-specific RDTs appear to be highly sensitive and specific when compared with microscopy for detecting <em>P vivax</em> malaria.<xref ref="pubmed26348756" resource="acc053" /></listitem>
+<listitem>In another study, compared to histopathology, use of a latent class analysis approach improved RDT sensitivity from 79.5&#x0025; in peripheral and 66.2&#x0025; in placental blood to 93.7&#x0025; and 80.2&#x0025;, respectively.<xref ref="pubmed27527628" resource="acc066" /></listitem>
+<listitem>Because the Histidine-rich protein 2 (HRP-2) antigen persists even after effective treatment, it is not useful for detecting treatment failures.<xref ref="cochrane8122" resource="acc033" /></listitem>
+<listitem>An HRP2 test (Binax NOW Malaria test) performed well (sensitivity for <em>P. falciparum</em> 97.7&#x0025;, specificity 99.6&#x0025;) in a sample of travellers presenting to the emergency department in Sweden but for nonfalciparum species, sensitivity was only 58.3&#x0025;.<xref ref="pubmed21208275" resource="acc019" /></listitem>
+<listitem>A novel ultrasensitive RDT for <em>P. falciparum</em> was not superior to conventional RDT testing. <xref ref="pubmed30476111" resource="acc082" /></listitem>
+<listitem>Another novel malaria antigen detection system, the XN-30 hematology analyzer, has shown superior sensitivity and specificity when compared to microscopy (98.7&#x0025; and 99. 4&#x0025;). The accuracy for the XN-30 for microscopic malaria was equal to or higher than HRP-2 and <em>plasmomodium</em> lactate dehydrogenase (pLDH) RDTs, respectively. <xref ref="pubmed31146732" resource="acc072" /></listitem>
+<listitem>The HRP2 test is currently the only FDA-approved rapid malaria diagnostic test for <em>P. falciparum</em>, <em>P. vivax</em>, <em>P. malariae</em>, or <em>P. ovale</em>.</listitem>
+<listitem>HRP2 antigen testing may be falsely negative using conventional RDT's in patients with low parasitic density levels. <xref ref="pubmed30915959" resource="acc083" /></listitem>
+<listitem>Parasite nucleic acids can be detected using <strong>polymerase chain reaction</strong>. This technique may be slightly more sensitive than smear microscopy but is not readily available, especially in limited resource countries.</listitem>
+<listitem>In two studies, a portable device using the loop-mediated isothermal amplification (LAMP) method for malaria diagnosis with simple DNA extraction had high sensitivity and specificity compared to RDTs and the standard LAMP-Thermocyler.<xref ref="pubmed23562879" resource="acc036" /><xref ref="pubmed24795480" resource="acc043" /></listitem>
+<listitem><strong>Serology</strong> can detect antibodies indicating past exposure to malaria parasites, using either indirect immunofluorescence or enzyme-linked immunosorbent assay</listitem>
+<listitem>In laboratories that are unfamiliar with malaria diagnosis, the CDC maintains an inquiries service (https:&#x002F;&#x002F;www.cdc.gov&#x002F;dpdx&#x002F;index.html or print the form and FAX to +1 404-718-4195).</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to diagnosing malaria.</listitem>
+<listitem>Treatment is based on the infecting organism, clinical status (uncomplicated vs. severe), and parasite drug susceptibility (CDC 2013).<xref ref="bib73_204_1510765952859" /></listitem>
+<listitem>Severe infection is determined by one or more of the following: impaired consciousness&#x002F;coma, severe normocytic anemia (hemoglobin &lt;7 g&#x002F;dL), renal failure, acute respiratory distress syndrome, hypotension, disseminated intravascular coagulation, spontaneous bleeding, acidosis, hemoglobinuria, jaundice, repeated generalized convulsions, and&#x002F;or parasitemia of &#x2265;5&#x0025;.</listitem>
+<listitem>Area of acquisition of infection helps narrow the <em>Plasmodium</em> parasite species implicated and aids in determining the likelihood of drug resistance.</listitem>
+<listitem>A medicine used in failed chemoprophylaxis should not be a part of the treatment regimen.</listitem>
+<listitem>Antimalarial treatment effective against chloroquine-resistant <em>P. falciparum</em> should be initiated if the diagnosis is suspected but can&#x2019;t be confirmed or the diagnosis is confirmed but species determination is not possible.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>300</Dx_ID>
+<Dx_ID>301</Dx_ID>
+<Dx_ID>302</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>The World Health Organization (WHO) and CDC maintain <resourceLink href="https://www.who.int/publications/i/item/guidelines-for-malaria">up-to-date guidelines</resourceLink> for the treatment of malaria, including resistant and multiple-drug resistant strains.<xref ref="web002" /><xref ref="web003" /></listitem>
+<listitem>Artemisinin-based treatment combination therapies are considered standard of care by WHO guidelines for treatment in <em>P. falciparum</em> malaria endemic areas, with cure rates exceeding 95&#x0025;. <evidence rating="A" system="SORT">A</evidence><xref ref="bib73_204_1510765952859" /><xref ref="bib91_99_1580522585115" /></listitem>
+<listitem>For non-falciparum malaria, chloroquine is an option if chloroquine resistance is not a concern in the patient's region. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>For severe malaria, IV or IM artesunate for 24 hours followed by 3 days of oral combination therapy is recommended by WHO guidelines. <evidence rating="B" system="SORT">B</evidence><xref ref="bib73_204_1510765952859" /><xref ref="pubmed23953767" resource="acc074" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>The WHO and <resourceLink href="https://www.cdc.gov/malaria/resources/pdf/Malaria_Treatment_Table_202306.pdf">CDC</resourceLink> maintain <resourceLink href="https://www.who.int/publications/i/item/guidelines-for-malaria">up-to-date guidelines</resourceLink> for the treatment of malaria, including resistant and multiple-drug-resistant strains.<xref ref="web002" /><xref ref="web003" /></listitem>
+<listitem>It is important to determine the species of <em>Plasmodium</em> (<em>falciparum</em> or <em>non-falciparum</em>) and the country in which malaria was acquired. Both will help guide the type of medication used.</listitem>
+<listitem>Artemisinin-based treatment combination therapies are considered standard of care by WHO guidelines for treatment in <em>P. falciparum</em> malaria endemic areas, with cure rates exceeding 95&#x0025;.<xref ref="bib91_99_1580522585115" /> Combinations recommended by WHO (2022) include artemether + lumefantrine, artesunate + amodiaquine, artesunate + mefloquine, dihydroartemisinin + piperaquine, and artesunate + sulfadoxine&#x2013;pyrimethamine. Patients should receive 3 days of the artemisinin derivative.</listitem>
+<listitem>For patients with non-falciparum malaria (P. vivax, P. ovale, P. malariae or P. knowlesi), artemisinin-based combination therapy is also recommended by WHO guidelines. Chloroquine is an option for patients in chloroquine sensitive regions.</listitem>
+<listitem>For severe malaria, IV or IM artesunate for 24 hours followed by 3 days of oral combination therapy is recommended by WHO guidelines.<xref ref="bib73_204_1510765952859" /><xref ref="pubmed23953767" resource="acc074" /></listitem>
+<listitem>In the Americas, primaquine is recommended to prevent relapse of <em>P lasmodium vivax</em> malaria following treatment with chloroquine. A randomized trial in Brazil found that 7.0 mg&#x002F;kg of primaquine was more effective than 3.5 mg&#x002F;kg at preventing relapse (86&#x0025; versus 59&#x0025; without recurrence, p &lt; 0.001, NNT &#x003D; 4).<xref ref="pubmed35353962" resource="acc086" /></listitem>
+<listitem>There are reports in Southeast Asia of artemisinin resistance in <em>Plasmodium falciparum</em>; increasing duration of treatment to 6 days resulted in high cure rates in one report.<xref ref="pubmed25075834" resource="acc044" /></listitem>
+<listitem>Authors of a Cochrane review of 2 small trials of intramuscular artesunate versus quinine for severe malaria found similar outcomes but little power to detect important differences.<xref ref="cochrane4391" resource="acc028" /></listitem>
+<listitem>Artesunate plus mefloquine is more effective than mefloquine alone for treating uncomplicated falciparum malaria in areas with low malaria transmission.<xref ref="cochrane4531" resource="acc037" />Doses of 25 mg&#x002F;kg mefloquine and at least 10 mg artesunate resulted in higher cure rates.</listitem>
+<listitem>In an RCT with 252 Malaysian patients infected with <em>Plasmodium knowlesi</em> malaria, artesunate-mefloquine was more effective than chloroquine for parasite clearance (84&#x0025; vs. 55&#x0025;), with faster fever clearance and a lower rate of anemia at 28 days (62&#x0025; vs. 75&#x0025;).<xref ref="pubmed26603174" resource="acc054" /> There was one case of a serious neuropsychiatric event with artesunate-mefloquine.</listitem>
+<listitem>Azithromycin is a weak antimalarial and not as effective as current antimalarial treatment.<xref ref="cochrane6688" resource="acc029" /></listitem>
+<listitem>An RCT in 1271 patients with <em>P. falciparum</em> malaria found that pyronaridine-artesunate was non-inferior to mefloquine plus artesunate.<xref ref="pubmed22475593" resource="acc038" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Interventions shown to increase adherence to antimalarial drugs include packaging aids, visual media, combined visual media and verbal information, community education, medication supervision, and convenient regimens.<xref ref="pubmed24166045" resource="acc045" /></listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Primaquine is the recommended drug to prevent P. vivax relapses and 7 days of therapy (1 mg&#x002F;kg&#x002F;day) is non-inferior to 14 days of therapy (0.5 mg&#x002F;kg&#x002F;day).<xref ref="pubmed31327563" resource="acc073" /></listitem>
+<listitem>In one study a G6PD rapid diagnostic test was reasonably accurate for screening to identify individuals with enzyme activities below 60&#x0025;.<xref ref="pubmed27672207" resource="acc068" /></listitem>
+<listitem>An osmotic diuretic (mannitol 20&#x0025;) was not effective in reducing death or neurologic sequelae in a single trial of children with cerebral malaria.<xref ref="cochrane4615" resource="acc030" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>In the United States, patients with suspected malaria should be hospitalized and treated empirically until diagnostic testing is done.</listitem>
+<listitem>Patients with severe malaria require parenteral treat and have the following symptoms: impaired consciousness&#x002F;coma, severe normocytic anemia (hemoglobin &lt;7 g&#x002F;dL), renal failure, acute respiratory distress syndrome, hypotension, disseminated intravascular coagulation, spontaneous bleeding, acidosis, hemoglobinuria, jaundice, repeated generalized convulsions, and&#x002F;or parasitemia of &#x2265;5&#x0025;.<xref ref="web002" /><xref ref="web003" /></listitem>
+<listitem>Parenteral treatment with quinidine gluconate (6.25 mg base&#x002F;kg loading dose over 1-2 hours, then 0.0125 mg base&#x002F;kg&#x002F;min continuous infusion) should be initiated for patients with severe malaria if parenteral artesunate is not available.<xref ref="bib73_204_1510765952859" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem><em>P. ovale</em> and <em>P. vivax</em> have a dormant liver stage, hypnozoites, which may cause relapses for up to many months after initial infection. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17519416" resource="acc008" /></listitem>
+<listitem>Of the 5 strains that infect humans, <em>P. falciparum</em> has the capability to rapidly progress to severe illness or death. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed3318021" resource="acc021" /></listitem>
+<listitem>Fever will generally break within about 72 hours (if responding to treatment). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Repeat blood smears should be done to monitor effectiveness of treatment. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Among patients with complicated malaria (cerebral malaria, hypoglycemia, anemia, jaundice, and renal failure), about half will develop multiple complications, the first typically developing within 5 days of onset of fever. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17249251" resource="acc022" /></listitem>
+<listitem>In a study of 454 patients in Pakistan, neurologic involvement was seen in 27 of 123 patients (22&#x0025;) with complicated malaria and 43 of 331 patients (13&#x0025;) with uncomplicated malaria. Of the 16 (4&#x0025;) patients who died, 13 had complicated malaria and 3 had uncomplicated malaria; mortality was significantly higher among patients with versus without neurological involvement (13&#x0025; vs. 2&#x0025;, respectively).<xref ref="pubmed20970920" resource="acc023" /></listitem>
+<listitem>Complications typically progress from one complication to another every 72 hours, with mortality increasing from 15&#x0025; in those with a single complication to 100&#x0025; in those with 5 or more. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17249251" resource="acc022" /></listitem>
+<listitem>In a study of 83 Malawian children with retinopathy-positive cerebral malaria versus 95 controls, children with cerebral malaria had total developmental delay on the Malawi Developmental Assessment Tool, with the greatest effects on language development; coma duration, seizures in hospital, platelet count, and lactate level on admission were predictive of assessment outcomes.<xref ref="pubmed21143354" resource="acc024" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Malaria infection during pregnancy is associated with increased risk for spontaneous abortion, premature delivery, congenital infection, and neonatal death.<xref ref="pubmed21199881" resource="acc025" /></listitem>
+<listitem>Children born to mothers with placental malaria, but not children born to mothers with peripheral infection without evidence of placental sequestration, have an increased risk of malaria during the first year of life compared with children born to mothers with no malaria during pregnancy.<xref ref="pubmed28934438" resource="acc069" /></listitem>
+<listitem>For women in their first or second pregnancy, malaria chemoprevention reduces the risk of moderate to severe anemia by about 40&#x0025; (RR 0.60; 95&#x0025; CI, 0.47-0.75) and antenatal parasitemia by about 61&#x0025; (RR 0.39; 95&#x0025; CI, 0.26-0.58).<xref ref="pubmed25300703" resource="acc046" />Infants of women who receive chemoprevention have increased birth weight (mean 93 g).</listitem>
+<listitem>In an open-label, three-arm, cluster-randomized, superiority trial conducted in Indonesia including 2279 pregnant women, those randomized to either a strategy of intermittent preventive treatment (IPT) with dihydroartemisinin-piperaquine or intermittent screening and the same treatment (IST) had lower rates of malaria prevalence at delivery than single screening and treatment (SST) of 11.6&#x0025;, 10.6&#x0025;, and 20.2&#x0025;, respectively.<xref ref="pubmed31353217" resource="acc092" /> However, malaria prevalence was lower at enrollment in the IST group (5&#x00B7;7&#x0025;) compared to SST (12&#x00B7;6&#x0025;) and IPT (10&#x00B7;6&#x0025;) clusters.</listitem>
+<listitem>In high resistance areas, the incidence of symptomatic malaria during pregnancy was significantly lower with intermittent preventive treatment using 3-dose dihydroartemisinin-piperaquine or monthly dihydroartemisinin-piperaquine compared to sulfadoxine-pyrimethamine.<xref ref="pubmed26962728" resource="acc055" /> Adverse birth outcomes were also lower in the dihydroartemisinin-piperaquine group compared to the other two groups (9.2&#x0025; vs. 18.6&#x0025; in the sulfadoxine-pyrimethamine group and 21.3&#x0025; in the dihydroartemisinin-piperaquine group).</listitem>
+<listitem>Monthly intermittent preventive treatment with dihydroartemisinin-piperaquine as an alternative to sulfadoxine-pyrimethamine during pregnancy, though safe, does not lead to significant improvements in outcomes compared to sulfadoxine-pyrimethamine.<xref ref="pubmed30910321" resource="acc076" /></listitem>
+<listitem>There are scant high-quality data on the safety and effectiveness of treating malaria during pregnancy.<xref ref="cochrane4912" resource="acc026" /></listitem>
+<listitem>Treating pregnant women infected with <em>P. falciparum</em> malaria with quinine plus clindamycin is as effective as artesunate.<xref ref="pubmed11816439" resource="acc027" /></listitem>
+<listitem>Quinine, chloroquine, clindamycin, proguanil, and mefloquine are all considered safe during the first trimester of pregnancy. Though artemesinin combination therapies are not recommended as first line treatments in the first trimester unless cases are severe or other therapies are unavailable, they are recommended during the remainder of pregnancy.<xref ref="bib73_204_1510765952859" /><xref ref="bib91_99_1580522585115" /></listitem>
+<listitem>However, authors of a systematic review comparing artemisinin-based combination therapies with non-artemisinin therapies administered in the first trimester found no differences in adverse pregnancy outcomes (adjusted hazard ratio 0.71, 95&#x0025; CI 0.49-1.03) including embryotoxicity or teratogenicity based on the risk of miscarriage, stillbirth, or major congenital anomalies.<xref ref="pubmed36442488" resource="acc093" /> Treatment in the first trimester may reduce risk of low birthweight.<xref ref="pubmed35089337" resource="acc094" /></listitem>
+<listitem>In one RCT of 4 different artesunate regimens with 3428 pregnant women who had falciparum malaria, all treatments resulted in high cure rates (94.2&#x0025;-98&#x0025;) with amodiaquine-artesunate, dihydroartemisinin-piperaquine, and mefloquine-artesunate showing slightly higher cure rates than artemether-lumefantrine.<xref ref="pubmed26962727" resource="acc056" /> The latter drug provided the fewest adverse effects but the shortest post-treatment prophylaxis.</listitem>
+<listitem>For those with chloroquine-sensitive strains, chloroquine treatment should be used as it is for non-pregnant patients.<xref ref="bib73_204_1510765952859" /><xref ref="bib91_99_1580522585115" /></listitem>
+<listitem>Primaquine use during pregnancy for treatment of hypnozoites (<em>P. vivax</em> and <em>P. ovale</em>) should be avoided and weekly chloroquine prophylaxis should be initiated if <em>P. vivax</em> or <em>P. ovale</em> infection is confirmed. As primaquine can pass into breast milk, nursing women should avoid primaquine unless infants have known normal G6PD levels.<xref ref="bib73_204_1510765952859" /><xref ref="bib91_99_1580522585115" /></listitem>
+<listitem>In a retrospective case series of 213 cases of severe falciparum malaria in pregnancy managed between 1980 and 2020 in Southeast Asia, the mean maternal age was 25.7, mean gestational age was 25.6 weeks, overall maternal mortality was 12.2&#x0025; and fetal loss was 23.3&#x0025;.<xref ref="pubmed37620809" resource="acc095" /> Three factors were associated with increased maternal mortality &#x2013; coma, hypotension and respiratory failure.</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>In a case series of 523 children in Uganda treated for severe malaria, 7.5&#x0025; died. Intestinal fatty-acid binding protein, a marker of intestinal injury was elevated in 415 (795) and higher levels were associated with lower systolic blood pressure, increasing stage of acute kidney injury, coma, and a 7.4-fold higher relative risk of in-hospital death.<xref ref="pubmed35942812" resource="acc096" /></listitem>
+<listitem>Among 757 infants born to women enrolled in the Indonesian trial comparing IPT, IST and SST, there was no difference in incidence rates of clinical malaria for those randomized to intermittent preventive treatment with curative dose of sulfadoxine-pyrimethamine compared to passive case detection (24&#x0025; and 19&#x0025;, respectively) or parasitemia at 12 months (13&#x0025; and 16&#x0025;, respectively).<xref ref="pubmed35672703" resource="acc097" /></listitem>
+<listitem>In areas highly endemic for malaria, school-based screening of Malawian primary schools identified a prevalence of infection by RDT screening of 37&#x0025; (9&#x0025;-64&#x0025; among schools).<xref ref="pubmed35290461" resource="acc098" /></listitem>
+<listitem>Tetracycline and doxycycline have a relative contraindication for children younger than 8 years. Therefore, quinine plus clindamycin should be used instead.<xref ref="pubmed17519416" resource="acc008" /></listitem>
+<listitem>The CDC recommends atovaquone-proguanil; artemether-lumefantrine; oral quinine sulfate&#x00A0;plus doxycycline, tetracycline, or clindamycin; or oral mefloquine&#x00A0; as treatment options for children with <em>P. falciparum</em> in chloroquine-resistant or unknown resistance areas. <xref ref="web003" /></listitem>
+<listitem>In a RTC among 747 Nigerian children &lt;5 years of age with uncomplicated malaria, 3-day regimens of artemether-lumefantrine or artesunate-amodiaquine performed similarly for safety and tolerability, with an overall efficacy of 96.3&#x0025; (95&#x0025; CI, 94.5&#x0025;-97.6&#x0025;).</listitem>
+<listitem>Clinicians should be aware of the possibility of delayed hemolysis in children treated with parenteral artesunate for severe malaria; in one cohort study, this occurred in 7&#x0025; of 72 children.<xref ref="pubmed24376273" resource="acc047" /></listitem>
+<listitem>Artemether-lumefantrine (AL) and dihydroartemisinin-piperaquine showed excellent treatment efficacy for uncomplicated malaria in Ugandan children (6 months - 5 years) in spite of recent increases in <em>P. falciparum</em> resistance to artemisinins and piperaquine.<xref ref="pubmed30418593" resource="acc077" /></listitem>
+<listitem>Chloroquine (dose adjusted for weight) can safely be used in children for any chloroquine-sensitive malaria strains.<xref ref="bib73_204_1510765952859" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed11182603">
+<accessionId id="acc001" href="info:pmid/11182603" />
+<authors>Romi R, Sabetenelli G, Majori G.</authors>
+<title>Malaria epidemiological situation in Italy and evaluation of malaria incidence in Italian travelers.</title>
+<source>J Travel Med</source>
+<pubdate>2001</pubdate>
+<volume>8</volume>
+<pages>6&#x2013;11.</pages>
+</reference>
+<reference id="cochrane138">
+<accessionId id="acc002" href="info:wiley/cochrane/CD000138" />
+<chapter_authors>Croft AM, Garner P.</chapter_authors>
+<chapter_title>Mefloquine for preventing malaria in non-immune adult travellers (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane169">
+<accessionId id="acc003" href="info:wiley/cochrane/CD000169" />
+<chapter_authors>Garner P, Golmezoglu AM.</chapter_authors>
+<chapter_title>Drugs for preventing malaria in pregnant women (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed14996362">
+<accessionId id="acc004" href="info:pmid/14996362" />
+<authors>Rowland M, Downey G, Rab A, et al.</authors>
+<title>DEET mosquito repellent provides personal protection against malaria: a household randomized trial in an Afghan refugee camp in Pakistan.</title>
+<source>Trop Med Int Health</source>
+<pubdate>2004</pubdate>
+<volume>9</volume>
+<pages>335&#x2013;342.</pages>
+</reference>
+<reference id="cochrane363">
+<accessionId id="acc005" href="info:wiley/cochrane/CD000363" />
+<chapter_authors>Pryce J, Richardson M, Lengeler C.</chapter_authors>
+<chapter_title>Insecticide-treated bed nets and curtains for preventing malaria (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2018 Issue 11.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17519415">
+<accessionId id="acc006" href="info:pmid/17519415" />
+<authors>Chen LH, Wilson ME, Schlagenhauf P.</authors>
+<title>Controversies and misconceptions in malaria chemoprophylaxis for travelers.</title>
+<source>JAMA</source>
+<pubdate>2007</pubdate>
+<volume>297(20)</volume>
+<pages>2251&#x2013;2263.</pages>
+</reference>
+<reference id="web004">
+<citation>Travel site. CDC Travel site</citation>
+<url>http://wwwnc.cdc.gov/travel/</url>
+<organization>CDC</organization>
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed17519416">
+<accessionId id="acc008" href="info:pmid/17519416" />
+<chapter_authors>Jacquerioz FA, Croft AM.</chapter_authors>
+<chapter_title>Drugs for preventing malaria in travellers (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 7.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed21292898">
+<accessionId id="acc009" href="info:pmid/21292898" />
+<authors>Le Port A, Cottrell G, Dechavanne C, et al.</authors>
+<title>Prevention of malaria during pregnancy: assessing the effect of the distribution of IPTp through the national policy in Benin.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2011</pubdate>
+<volume>84</volume>
+<pages>270&#x2013;275.</pages>
+</reference>
+<reference id="pubmed17228414">
+<accessionId id="acc010" href="info:pmid/17228414" />
+<authors>Swales CA, Chiodini PL, Bannister BA.</authors>
+<title>Health Protection Agency Advisory Committee on Malaria Prevention in UK Travellers. New guidelines on malaria prevention: a summary.</title>
+<source>J Infect</source>
+<pubdate>2007</pubdate>
+<volume>54</volume>
+<pages>107&#x2013;110.</pages>
+</reference>
+<reference id="cochrane5434">
+<accessionId id="acc011" href="info:wiley/cochrane/CD005434" />
+<chapter_authors>Enayati A, Hemingway J, Garner P.</chapter_authors>
+<chapter_title>Electronic mosquito repellents for preventing mosquito bites and malaria infection (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed21237715">
+<accessionId id="acc012" href="info:pmid/21237715" />
+<authors>Olotu A, Lusingu J, Leach A, et al.</authors>
+<title>Efficacy of RTS,S&#x002F;AS01E malaria vaccine and exploratory analysis on anti-circumsporozoite antibody titres and protection in children aged 5-17 months in Kenya and Tanzania: a randomised controlled trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>11</volume>
+<pages>102&#x2013;109.</pages>
+</reference>
+<reference id="pubmed16908798">
+<accessionId id="acc013" href="info:pmid/16908798" />
+<authors>Bottieau E, Clerinx J, Schrooten W, et al.</authors>
+<title>Etiology and outcome of fever after a stay in the tropics.</title>
+<source>Arch Intern Med</source>
+<pubdate>2006</pubdate>
+<volume>166(15)</volume>
+<pages>1642&#x2013;1648.</pages>
+</reference>
+<reference id="pubmed10979063">
+<accessionId id="acc014" href="info:pmid/10979063" />
+<authors>Dorsey G, Gandhi M, Oyugi JH, Rosenthal PJ.</authors>
+<title>Difficulties in the prevention, diagnosis, and treatment of imported malaria.</title>
+<source>Arch Intern Med</source>
+<pubdate>2000</pubdate>
+<volume>160(16)</volume>
+<pages>2505&#x2013;2510.</pages>
+</reference>
+<reference id="poem130125">
+<accessionId id="acc015" href="info:wiley/eep-poem/130125" />
+<accessionId id="acc015b" href="info:wiley/eep-hp/228" />
+<accessionId id="acc015c" href="info:pmid/21057136" />
+<authors>Taylor SM, Molyneux ME, Simel DL, et al.</authors>
+<title>Does this patient have malaria?</title>
+<source>JAMA</source>
+<pubdate>2010</pubdate>
+<volume>304</volume>
+<pages>2048&#x2013;2056.</pages>
+</reference>
+<reference id="web002">
+<citation>WHO Malaria Treatment Guidelines.</citation>
+<url>http://apps.who.int/malaria/treatmentguidelines.html</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="web001">
+<citation>Bailey JW, Williams J, Bain BJ, Parker-Williams J, Chiodini P. British Committee for Standards in Haematology Guideline: The Laboratory Diagnosis of Malaria.</citation>
+<url>http://www.bcshguidelines.com/documents/Malaria_bcsh_2005.pdf</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed15897534">
+<accessionId id="acc018" href="info:pmid/15897534" />
+<accessionId id="acc018b" href="info:wiley/eep-dx/300" />
+<accessionId id="acc018c" href="info:wiley/eep-dx/301" />
+<accessionId id="acc018d" href="info:wiley/eep-dx/302" />
+<authors>Marx A, Pewsner D, Egger M, et al.</authors>
+<title>Meta-analysis: accuracy of rapid tests for malaria in travelers returning from endemic areas.</title>
+<source>Ann Intern Med</source>
+<pubdate>2005</pubdate>
+<volume>142</volume>
+<pages>836&#x2013;846.</pages>
+</reference>
+<reference id="pubmed21208275">
+<accessionId id="acc019" href="info:pmid/21208275" />
+<authors>Bronner U, Karlsson L, Eveng&#x00E5;rd B.</authors>
+<title>Evaluation of rapid diagnostic tests for malaria in Swedish travellers.</title>
+<source>APMIS</source>
+<pubdate>2011</pubdate>
+<volume>119</volume>
+<pages>88&#x2013;92.</pages>
+</reference>
+<reference id="web003">
+<citation>CDC Malaria Treatment Guidelines</citation>
+<url>http://www.cdc.gov/malaria/diagnosis_treatment/tx_clinicians.htm</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed3318021">
+<accessionId id="acc021" href="info:pmid/3318021" />
+<authors>Greenwood BM, Bradley AK, Greenwood AM, et al.</authors>
+<title>Mortality and morbidity from malaria among children in a rural area of The Gambia, West Africa.</title>
+<source>Trans R Soc Trop Med Hyg</source>
+<pubdate>1987</pubdate>
+<volume>81(3)</volume>
+<pages>478&#x2013;486.</pages>
+</reference>
+<reference id="pubmed17249251">
+<accessionId id="acc022" href="info:pmid/17249251" />
+<authors>Mohapatra MK.</authors>
+<title>The natural history of complicated falciparum malaria&#x2014;a prospective study.</title>
+<source>J Assoc Physicians India</source>
+<pubdate>2006</pubdate>
+<volume>54</volume>
+<pages>848&#x2013;853.</pages>
+</reference>
+<reference id="pubmed20970920">
+<accessionId id="acc023" href="info:pmid/20970920" />
+<authors>Wasay M, Taqi A, Aziz H, Azam I, Beg MA.</authors>
+<title>Neurological involvement in patients with falciparum malaria; frequency and prognostic value.</title>
+<source>Clin Neurol Neurosurg</source>
+<pubdate>2011</pubdate>
+<volume>113</volume>
+<pages>104&#x2013;106.</pages>
+</reference>
+<reference id="pubmed21143354">
+<accessionId id="acc024" href="info:pmid/21143354" />
+<authors>Boivin MJ, Gladstone MJ, Vokhiwa M.</authors>
+<title>Developmental outcomes in Malawian children with retinopathy-positive cerebral malaria.</title>
+<source>Trop Med Int Health</source>
+<pubdate>2011</pubdate>
+<volume>16</volume>
+<pages>263&#x2013;271.</pages>
+</reference>
+<reference id="pubmed21199881">
+<accessionId id="acc025" href="info:pmid/21199881" />
+<authors>Bardaj&#x00ED; A, Sigauque B, Sanz S, et al.</authors>
+<title>Impact of malaria at the end of pregnancy on infant mortality and morbidity.</title>
+<source>J Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>203</volume>
+<pages>691&#x2013;699.</pages>
+</reference>
+<reference id="cochrane4912">
+<accessionId id="acc026" href="info:wiley/cochrane/CD004912" />
+<chapter_authors>Orton LC, Omari AAA.</chapter_authors>
+<chapter_title>Drugs for treating uncomplicated malaria in pregnant women (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed11816439">
+<accessionId id="acc027" href="info:pmid/11816439" />
+<authors>McGready R, Cho T, Samuel, Villegas L, Brockman A, van Vugt M, Looareesuwan S, White NJ, Nosten F.</authors>
+<title>Randomized comparison of quinine-clindamycin versus artesunate in the treatment of falciparum malaria in pregnancy.</title>
+<source>Trans R Soc Trop Med Hyg</source>
+<pubdate>2001 Nov-Dec</pubdate>
+<volume>95</volume>
+<pages>651&#x2013;656.</pages>
+</reference>
+<reference id="cochrane4391">
+<accessionId id="acc028" href="info:wiley/cochrane/CD004391" />
+<chapter_authors>Afolabi BB, Okoromah CAN.</chapter_authors>
+<chapter_title>Intramuscular arteether for treating severe malaria (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 5.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6688">
+<accessionId id="acc029" href="info:wiley/cochrane/CD006688" />
+<chapter_authors>van Eijk AM, Terlouw DJ.</chapter_authors>
+<chapter_title>Azithromycin for treating uncomplicated malaria (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 5.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4615">
+<accessionId id="acc030" href="info:wiley/cochrane/CD004615" />
+<chapter_authors>Okoromah CAN, Afolabi BB, Wall ECB.</chapter_authors>
+<chapter_title>Mannitol and other osmotic diuretics as adjuncts for treating cerebral malaria (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3756">
+<accessionId id="acc031" href="info:wiley/cochrane/CD003756" />
+<chapter_authors>Meremikwu M, Donegan S, Sinclair D, Esu E, Oringanje C.</chapter_authors>
+<chapter_title>Intermittent preventive treatment for malaria in children living in areas with seasonal transmission (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem140103">
+<accessionId id="acc032" href="info:wiley/eep-poem/140103" />
+<accessionId id="acc032b" href="info:pmid/22007715" />
+<authors>Agnandji ST, Lell B, Soulanoudjingar SS, et al.</authors>
+<title>First results of phase 3 trial of RTS,S&#x002F;AS01 malaria vaccine in African children.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>1863&#x2013;1875.</pages>
+</reference>
+<reference id="cochrane8122">
+<accessionId id="acc033" href="info:wiley/cochrane/CD008122" />
+<chapter_authors>Abba K, Deeks JJ, Olliaro PL, Naing C-M, Jackson SM, Takwoingi Y, Donegan S, Garner P.</chapter_authors>
+<chapter_title>Rapid diagnostic tests for diagnosing uncomplicated P. falciparum malaria in endemic countries (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22995852">
+<accessionId id="acc034" href="info:pmid/22995852" />
+<authors>Eisele TP, Larsen DA, Anglewicz PA, Keating J, Yukich J, Bennett A, Hutchinson P, Steketee RW.</authors>
+<title>Malaria prevention in pregnancy, birthweight, and neonatal mortality: a meta-analysis of 32 national cross-sectional datasets in Africa.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2012</pubdate>
+<volume>12</volume>
+<pages>942&#x2013;949.</pages>
+</reference>
+<reference id="pubmed23403684">
+<accessionId id="acc035" href="info:pmid/23403684" />
+<authors>Kayentao K, Garner P, van Eijk AM, Naidoo I, Roper C, Mulokozi A, MacArthur JR, Luntamo M, Ashorn P, Doumbo OK, ter Kuile FO.</authors>
+<title>Intermittent preventive therapy for malaria during pregnancy using 2 vs 3 or more doses of sulfadoxine-pyrimethamine and risk of low birth weight in Africa: systematic review and meta-analysis.</title>
+<source>JAMA</source>
+<pubdate>2013</pubdate>
+<volume>309</volume>
+<pages>594&#x2013;604.</pages>
+</reference>
+<reference id="pubmed23562879">
+<accessionId id="acc036" href="info:pmid/23562879" />
+<authors>Surabattula R, Vejandla MP, Mallepaddi PC, Faulstich K, Polavarapu R.</authors>
+<title>Simple, rapid, inexpensive platform for the diagnosis of malaria by loop mediated isothermal amplification (LAMP).</title>
+<source>Exp Parasitol</source>
+<pubdate>2013</pubdate>
+<volume>134</volume>
+<pages>333&#x2013;340.</pages>
+</reference>
+<reference id="cochrane4531">
+<accessionId id="acc037" href="info:wiley/cochrane/CD004531" />
+<chapter_authors>Bukirwa H, Orton LC.</chapter_authors>
+<chapter_title>Artesunate plus mefloquine versus mefloquine for treating uncomplicated malaria (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22475593">
+<accessionId id="acc038" href="info:pmid/22475593" />
+<authors>Rueangweerayut R, Phyo AP, Uthaisin C, Poravuth Y, Binh TQ, Tinto H, P&#x00E9;nali LK, Valecha N, Tien NT, Abdulla S, Borghini-Fuhrer I, Duparc S, Shin CS, Fleckenstein L.</authors>
+<title>Pyronaridine-artesunate versus mefloquine plus artesunate for malaria.</title>
+<source>N Engl J Med</source>
+<pubdate>2012</pubdate>
+<volume>366</volume>
+<pages>1298&#x2013;1309.</pages>
+</reference>
+<reference id="pubmed25236649">
+<accessionId id="acc039" href="info:pmid/25236649" />
+<authors>Aminu M, Unkels R, Mdegela M, Utz B, Adaji S, van den Broek N.</authors>
+<title>Causes of and factors associated with stillbirth in low- and middle-income countries: a systematic literature review.</title>
+<source>BJOG</source>
+<pubdate>2014</pubdate>
+<volume>121(Suppl 4)</volume>
+<pages>141&#x2013;153.</pages>
+</reference>
+<reference id="pubmed25311699">
+<accessionId id="acc040" href="info:pmid/25311699" />
+<authors>Syafruddin D, Bangs MJ, Sidik D, Elyazar I, Asih PB, Chan K, Nurleila S, Nixon C, Hendarto J, Wahid I, Ishak H, B&#x00F8;gh C, Grieco JP, Achee NL, Baird JK.</authors>
+<title>Impact of a spatial repellent on malaria incidence in two villages in Sumba, Indonesia.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2014</pubdate>
+<volume>91</volume>
+<pages>1079&#x2013;1087.</pages>
+</reference>
+<reference id="pubmed24420780">
+<accessionId id="acc041" href="info:pmid/24420780" />
+<authors>Kutsuna S, Hayakawa K, Kato Y, Fujiya Y, Mawatari M, Takeshita N, Kanagawa S, Ohmagari N.</authors>
+<title>The usefulness of serum C-reactive protein and total bilirubin levels for distinguishing between dengue fever and malaria in returned travelers.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2014</pubdate>
+<volume>90</volume>
+<pages>444&#x2013;448.</pages>
+</reference>
+<reference id="pubmed24948695">
+<accessionId id="acc042" href="info:pmid/24948695" />
+<authors>Leslie T, Mikhail A, Mayan I, Cundill B, Anwar M, Bakhtash SH, Mohammed N, Rahman H, Zekria R, Whitty CJ, Rowland M.</authors>
+<title>Rapid diagnostic tests to improve treatment of malaria and other febrile illnesses: patient randomised effectiveness trial in primary care clinics in Afghanistan.</title>
+<source>BMJ</source>
+<pubdate>2014</pubdate>
+<volume>348</volume>
+<pages>g3730.</pages>
+</reference>
+<reference id="pubmed24795480">
+<accessionId id="acc043" href="info:pmid/24795480" />
+<authors>Patel JC, Lucchi NW, Srivastava P, Lin JT, Sug-Aram R, Aruncharus S, Bharti PK, Shukla MM, Congpuong K, Satimai W, Singh N, Udhayakumar V, Meshnick SR.</authors>
+<title>Field evaluation of a real-time fluorescence loop-mediated isothermal amplification assay, RealAmp, for the diagnosis of malaria in Thailand and India.</title>
+<source>J Infect Dis</source>
+<pubdate>2014</pubdate>
+<volume>210</volume>
+<pages>1180&#x2013;1187.</pages>
+</reference>
+<reference id="pubmed25075834">
+<accessionId id="acc044" href="info:pmid/25075834" />
+<authors>Ashley EA, Dhorda M, Fairhurst RM, et al.; Tracking Resistance to Artemisinin Collaboration (TRAC).</authors>
+<title>Spread of artemisinin resistance in Plasmodium falciparum malaria.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>371</volume>
+<pages>411&#x2013;423.</pages>
+</reference>
+<reference id="pubmed24166045">
+<accessionId id="acc045" href="info:pmid/24166045" />
+<authors>Fuangchan A, Dhippayom T, Kongkaew C.</authors>
+<title>Intervention to promote patients' adherence to antimalarial medication: a systematic review.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2014</pubdate>
+<volume>90</volume>
+<pages>11&#x2013;19.</pages>
+</reference>
+<reference id="pubmed25300703">
+<accessionId id="acc046" href="info:pmid/25300703" />
+<accessionId id="acc046b" href="info:wiley/cochrane/CD000169" />
+<chapter_authors>Radeva-Petrova D, Kayentao K, ter Kuile FO, Sinclair D, Garner P.</chapter_authors>
+<chapter_title>Drugs for preventing malaria in pregnant women in endemic areas: any drug regimen versus placebo or no treatment.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 10. Art. No.: CD000169. DOI: 10.1002&#x002F;14651858.CD000169.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24376273">
+<accessionId id="acc047" href="info:pmid/24376273" />
+<authors>Rolling T, Agbenyega T, Issifou S, Adegnika AA, Sylverken J, Spahlinger D, Ansong D, L&#x00F6;hr SJ, Burchard GD, May J, Mordm&#x00FC;ller B, Krishna S, Kremsner PG, Cramer JP.</authors>
+<title>Delayed hemolysis after treatment with parenteral artesunate in African children with severe malaria&#x2014;a double-center prospective study.</title>
+<source>J Infect Dis</source>
+<pubdate>2014</pubdate>
+<volume>209</volume>
+<pages>1921&#x2013;1928.</pages>
+</reference>
+<reference id="cochrane6589">
+<accessionId id="acc048" href="info:wiley/cochrane/CD006589" />
+<chapter_authors>Neuberger A, Okebe J, Yahav D, Paul M.</chapter_authors>
+<chapter_title>Oral iron supplements for children in malaria-endemic areas.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 2. Art. No.: CD006589. DOI: 10.1002&#x002F;14651858.CD006589.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed27733281">
+<accessionId id="acc049" href="info:pmid/27733281" />
+<authors>GBD 2015 Mortality and Causes of Death Collaborators.</authors>
+<title>Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980-2015: a systematic analysis for the Global Burden of Disease Study 2015.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>388</volume>
+<pages>1459&#x2013;1544.</pages>
+</reference>
+<reference id="pubmed26810619">
+<accessionId id="acc050" href="info:pmid/26810619" />
+<authors>Global Burden of Disease Pediatrics Collaboration; Kyu HH, Pinho C, Wagner JA, et al.</authors>
+<title>Global and national burden of diseases and injuries among children and adolescents between 1990 and 2013: findings from the Global Burden of Disease 2013 Study.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2016</pubdate>
+<volume>170</volume>
+<pages>267&#x2013;287.</pages>
+</reference>
+<reference id="pubmed27520594">
+<accessionId id="acc051" href="info:pmid/27520594" />
+<authors>Homan T, Hiscox A, Mweresa CK, Masiga D, Mukabana WR, Oria P, Maire N, Pasquale AD, Silkey M, Alaii J, Bousema T, Leeuwis C, Smith TA, Takken W.</authors>
+<title>The effect of mass mosquito trapping on malaria transmission and disease burden (SolarMal): a stepped-wedge cluster-randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>388</volume>
+<pages>1193&#x2013;1201.</pages>
+</reference>
+<reference id="pubmed27355532">
+<accessionId id="acc052" href="info:pmid/27355532" />
+<authors>Olotu A, Fegan G, Wambua J, Nyangweso G, Leach A, Lievens M, Kaslow DC, Njuguna P, Marsh K, Bejon P.</authors>
+<title>Seven-year efficacy of RTS,S&#x002F;AS01 malaria vaccine among young African children.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>2519&#x2013;2529.</pages>
+</reference>
+<reference id="pubmed26348756">
+<accessionId id="acc053" href="info:pmid/26348756" />
+<authors>Takwoingi Y, Abba K, Garner P.</authors>
+<title>Rapid diagnostic testing for Plasmodium vivax and Nonfalciparum malaria in endemic areas.</title>
+<source>JAMA</source>
+<pubdate>2015</pubdate>
+<volume>314</volume>
+<pages>1065&#x2013;1066.</pages>
+</reference>
+<reference id="pubmed26603174">
+<accessionId id="acc054" href="info:pmid/26603174" />
+<authors>Grigg MJ, William T, Menon J, Dhanaraj P, Barber BE, Wilkes CS, von Seidlein L, Rajahram GS, Pasay C, McCarthy JS, Price RN, Anstey NM, Yeo TW.</authors>
+<title>Artesunate-mefloquine versus chloroquine for treatment of uncomplicated Plasmodium knowlesi malaria in Malaysia (ACT KNOW): an open-label, randomised controlled trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2016</pubdate>
+<volume>16</volume>
+<pages>180&#x2013;188.</pages>
+</reference>
+<reference id="pubmed26962728">
+<accessionId id="acc055" href="info:pmid/26962728" />
+<authors>Kakuru A, Jagannathan P, Muhindo MK, Natureeba P, Awori P, Nakalembe M, Opira B, Olwoch P, Ategeka J, Nayebare P, Clark TD, Feeney ME, Charlebois ED, Rizzuto G, Muehlenbachs A, Havlir DV, Kamya MR, Dorsey G.</authors>
+<title>Dihydroartemisinin-piperaquine for the prevention of malaria in pregnancy.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>928&#x2013;939.</pages>
+</reference>
+<reference id="pubmed26962727">
+<accessionId id="acc056" href="info:pmid/26962727" />
+<authors>PREGACT Study Group; Pekyi D, Ampromfi AA, Tinto H, et al.</authors>
+<title>Four artemisinin-based treatments in African pregnant women with malaria.</title>
+<source>N Engl J Med</source>
+<pubdate>2016</pubdate>
+<volume>374</volume>
+<pages>913&#x2013;927.</pages>
+</reference>
+<reference id="pubmed27777030">
+<accessionId id="acc057" href="info:pmid/27777030" />
+<authors>Tatem AJ, Jia P, Ordanovich D, Falkner M, Huang Z, Howes R, Hay SI, Gething PW, Smith DL.</authors>
+<title>The geography of imported malaria to non-endemic countries: a meta-analysis of nationally reported statistics.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>17</volume>
+<pages>98&#x2013;107.</pages>
+</reference>
+<reference id="pubmed27733282">
+<accessionId id="acc058" href="info:pmid/27733282" />
+<authors>GBD 2015 Disease and Injury Incidence and Prevalence Collaborators.</authors>
+<title>Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990-2015: a systematic analysis for the Global Burden of Disease Study 2015.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>388</volume>
+<pages>1545&#x2013;1602.</pages>
+</reference>
+<reference id="pubmed27923947">
+<accessionId id="acc059" href="info:pmid/27923947" />
+<authors>Eisele TP, Bennett A, Silumbe K, Finn TP, Chalwe V, Kamuliwo M, Hamainza B, Moonga H, Kooma E, Chizema Kawesha E, Yukich J, Keating J, Porter T, Conner RO, Earle D, Steketee RW, Miller JM.</authors>
+<title>Short-term impact of mass drug administration with dihydroartemisinin plus piperaquine on malaria in southern province Zambia: a cluster-randomized controlled trial.</title>
+<source>J Infect Dis</source>
+<pubdate>2016</pubdate>
+<volume>214</volume>
+<pages>1831&#x2013;1839.</pages>
+</reference>
+<reference id="pubmed28329368">
+<accessionId id="acc060" href="info:pmid/28329368" />
+<authors>Natureeba P, Kakuru A, Muhindo M, Ochieng T, Ategeka J, Koss CA, Plenty A, Charlebois ED, Clark TD, Nzarubara B, Nakalembe M, Cohan D, Rizzuto G, Muehlenbachs A, Ruel T, Jagannathan P, Havlir DV, Kamya MR, Dorsey G.</authors>
+<title>Intermittent preventive treatment with dihydroartemisinin-piperaquine for the prevention of malaria among HIV-infected pregnant women.</title>
+<source>J Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>216</volume>
+<pages>29&#x2013;35.</pages>
+</reference>
+<reference id="pubmed28077587">
+<accessionId id="acc061" href="info:pmid/28077587" />
+<authors>Ottichilo RK, Polyak CS, Guyah B, Singa B, Nyataya J, Yuhas K, John-Stewart G, Waitumbi JN.</authors>
+<title>Malaria parasitemia and parasite density in antiretroviral-treated HIV-infected adults following discontinuation of cotrimoxazole prophylaxis.</title>
+<source>J Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>215</volume>
+<pages>88&#x2013;94.</pages>
+</reference>
+<reference id="pubmed28363637">
+<accessionId id="acc062" href="info:pmid/28363637" />
+<authors>Sulyok M, R&#x00FC;ckle T, Roth A, M&#x00FC;rbeth RE, Chalon S, Kerr N, Samec SS, Gobeau N, Calle CL, Ib&#x00E1;&#x00F1;ez J, Sulyok Z, Held J, Gebru T, Granados P, Br&#x00FC;ckner S, Nguetse C, Mengue J, Lalremruata A, Sim BKL, Hoffman SL, M&#x00F6;hrle JJ, Kremsner PG, Mordm&#x00FC;ller B.</authors>
+<title>DSM265 for Plasmodium falciparum chemoprophylaxis: a randomised, double blinded, phase 1 trial with controlled human malaria infection.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>17</volume>
+<pages>636&#x2013;644.</pages>
+</reference>
+<reference id="pubmed28363636">
+<accessionId id="acc063" href="info:pmid/28363636" />
+<authors>McCarthy JS, Lotharius J, R&#x00FC;ckle T, Chalon S, Phillips MA, Elliott S, Sekuloski S, Griffin P, Ng CL, Fidock DA, Marquart L, Williams NS, Gobeau N, Bebrevska L, Rosario M, Marsh K, M&#x00F6;hrle JJ.</authors>
+<title>Safety, tolerability, pharmacokinetics, and activity of the novel long-acting antimalarial DSM265: a two-part first-in-human phase 1a&#x002F;1b randomised study.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>17</volume>
+<pages>626&#x2013;635.</pages>
+</reference>
+<reference id="pubmed28115667">
+<accessionId id="acc064" href="info:pmid/28115667" />
+<authors>Darling AM, Mugusi FM, Etheredge AJ, Gunaratna NS, Abioye AI, Aboud S, Duggan C, Mongi R, Spiegelman D, Roberts D, Hamer DH, Kain KC, Fawzi WW.</authors>
+<title>Vitamin A and zinc supplementation among pregnant women to prevent placental malaria: a randomized, double-blind, placebo-controlled trial in Tanzania.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2017</pubdate>
+<volume>96</volume>
+<pages>826&#x2013;834.</pages>
+</reference>
+<reference id="pubmed28722625">
+<accessionId id="acc065" href="info:pmid/28722625" />
+<authors>Val F, Machado K, Barbosa L, Salinas JL, Siqueira AM, Costa Alecrim MG, Portillo HD, Bassat Q, Monteiro WM, Guimar&#x00E3;es Lacerda MV.</authors>
+<title>Respiratory complications of Plasmodium vivax malaria: systematic review and meta-analysis.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2017</pubdate>
+<volume>97</volume>
+<pages>733&#x2013;743.</pages>
+</reference>
+<reference id="pubmed27527628">
+<accessionId id="acc066" href="info:pmid/27527628" />
+<authors>Liu Y, Mwapasa V, Khairallah C, Thwai KL, Kalilani-Phiri L, Ter Kuile FO, Meshnick SR, Taylor SM.</authors>
+<title>Rapid diagnostic test performance assessed using latent class analysis for the diagnosis of Plasmodium falciparum placental malaria.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>835&#x2013;839.</pages>
+</reference>
+<reference id="bib73_204_1510765952859">
+<citation>Centers for Disease Control and Prevention. Treatment of Malaria: Guidelines For Clinicians (United States). https:&#x002F;&#x002F;www.cdc.gov&#x002F;malaria&#x002F;diagnosis&#x005F;treatment&#x002F;treatment.html</citation>
+<url />
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed27672207">
+<accessionId id="acc068" href="info:pmid/27672207" />
+<authors>Roh ME, Oyet C, Orikiriza P, Wade M, Mwanga-Amumpaire J, Boum Y 2nd, Kiwanuka GN, Parikh S.</authors>
+<title>Screening for glucose-6-phosphate dehydrogenase deficiency using three detection methods: a cross-sectional survey in southwestern Uganda.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>1094&#x2013;1099.</pages>
+</reference>
+<reference id="pubmed28934438">
+<accessionId id="acc069" href="info:pmid/28934438" />
+<authors>Boudov&#x00E1; S, Divala T, Mungwira R, Mawindo P, Tomoka T, Laufer MK.</authors>
+<title>Placental but not peripheral Plasmodium falciparum infection during pregnancy is associated with increased risk of malaria in infancy.</title>
+<source>J Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>216</volume>
+<pages>732&#x2013;735.</pages>
+</reference>
+<reference id="pubmed25913272">
+<accessionId id="acc070" href="info:pmid/25913272" />
+<authors>RTS,S Clinical Trials Partnership.</authors>
+<title>Efficacy and safety of RTS,S&#x002F;AS01 malaria vaccine with or without a booster dose in infants and children in Africa: final results of a phase 3, individually randomised, controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2015</pubdate>
+<volume>386</volume>
+<pages>31&#x2013;45.</pages>
+</reference>
+<reference id="bib77_837_1580431246886">
+<citation>World malaria report 2019. Geneva: World Health Organization; 2019. Licence: CC BY-NC-SA 3.0 IGO.</citation>
+<url />
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed31146732">
+<accessionId id="acc072" href="info:pmid/31146732" />
+<authors>Post A, Kabor&#x00E9; B, Reuling IJ, Bognini J, van der Heijden W, Diallo S, Lompo P, Kam B, Herssens N, Lanke K, Bousema T, Sauerwein RW, Tinto H, Jacobs J, de Mast Q, van der Ven AJ.</authors>
+<title>The XN-30 hematology analyzer for rapid sensitive detection of malaria: a diagnostic accuracy study.</title>
+<source>BMC Med</source>
+<pubdate>2019</pubdate>
+<volume>17</volume>
+<pages>103.</pages>
+</reference>
+<reference id="pubmed31327563">
+<accessionId id="acc073" href="info:pmid/31327563" />
+<authors>Taylor WRJ, Thriemer K, von Seidlein L, Yuentrakul P, Assawariyathipat T, Assefa A, Auburn S, Chand K, Chau NH, Cheah PY, Dong LT, Dhorda M, Degaga TS, Devine A, Ekawati LL, Fahmi F, Hailu A, Hasanzai MA, Hien TT, Khu H, Ley B, Lubell Y, Marfurt J, Mohammad H, Moore KA, Naddim MN, Pasaribu AP, Pasaribu S, Promnarate C, Rahim AG, Sirithiranont P, Solomon H, Sudoyo H, Sutanto I, Thanh NV, Tuyet-Trinh NT, Waithira N, Woyessa A, Yamin FY, Dondorp A, Simpson JA, Baird JK, White NJ, Day NP, Price RN.</authors>
+<title>Short-course primaquine for the radical cure of Plasmodium vivax malaria: a multicentre, randomised, placebo-controlled non-inferiority trial.</title>
+<source>Lancet</source>
+<pubdate>2019</pubdate>
+<volume>394</volume>
+<pages>929&#x2013;938.</pages>
+</reference>
+<reference id="pubmed23953767">
+<accessionId id="acc074" href="info:pmid/23953767" />
+<authors>White NJ, Pukrittayakamee S, Hien TT, Faiz MA, Mokuolu OA, Dondorp AM.</authors>
+<title>Malaria.</title>
+<source>Lancet</source>
+<pubdate>2014</pubdate>
+<volume>383</volume>
+<pages>723&#x2013;35.</pages>
+</reference>
+<reference id="pubmed30878222">
+<accessionId id="acc075" href="info:pmid/30878222" />
+<authors>Foy BD, Alout H, Seaman JA, Rao S, Magalhaes T, Wade M, Parikh S, Soma DD, Sagna AB, Fournet F, Slater HC, Bougma R, Drabo F, Diabat&#x00E9; A, Coulidiaty AGV, Rouamba N, Dabir&#x00E9; RK.</authors>
+<title>Efficacy and risk of harms of repeat ivermectin mass drug administrations for control of malaria (RIMDAMAL): a cluster-randomised trial.</title>
+<source>Lancet</source>
+<pubdate>2019</pubdate>
+<volume>393</volume>
+<pages>1517&#x2013;1526.</pages>
+</reference>
+<reference id="pubmed30910321">
+<accessionId id="acc076" href="info:pmid/30910321" />
+<authors>Kajubi R, Ochieng T, Kakuru A, Jagannathan P, Nakalembe M, Ruel T, Opira B, Ochokoru H, Ategeka J, Nayebare P, Clark TD, Havlir DV, Kamya MR, Dorsey G.</authors>
+<title>Monthly sulfadoxine-pyrimethamine versus dihydroartemisinin-piperaquine for intermittent preventive treatment of malaria in pregnancy: a double-blind, randomised, controlled, superiority trial.</title>
+<source>Lancet</source>
+<pubdate>2019</pubdate>
+<volume>393</volume>
+<pages>1428&#x2013;1439.</pages>
+</reference>
+<reference id="pubmed30418593">
+<accessionId id="acc077" href="info:pmid/30418593" />
+<authors>Yeka A, Wallender E, Mulebeke R, Kibuuka A, Kigozi R, Bosco A, Kyambadde P, Opigo J, Kalyesubula S, Senzoga J, Vinden J, Conrad M, Rosenthal PJ.</authors>
+<title>Comparative Efficacy of Artemether-Lumefantrine and Dihydroartemisinin-Piperaquine for the Treatment of Uncomplicated Malaria in Ugandan Children.</title>
+<source>J Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>219</volume>
+<pages>1112&#x2013;1120.</pages>
+</reference>
+<reference id="pubmed31438943">
+<accessionId id="acc078" href="info:pmid/31438943" />
+<authors>Mendis K.</authors>
+<title>Mass drug administration should be implemented as a tool to accelerate elimination: against.</title>
+<source>Mala. J</source>
+<pubdate>2019</pubdate>
+<volume>18</volume>
+<pages>279.</pages>
+</reference>
+<reference id="pubmed30526588">
+<accessionId id="acc079" href="info:pmid/30526588" />
+<authors>Morris U, Msellem MI, Mkali H, Islam A, Aydin-Schmidt B, Jovel I, Shija SJ, Khamis M, Ali SM, Hodzic L, Magnusson E, Poirot E, Bennett A, Sachs MC, Tarning J, M&#x00E5;rtensson A, Ali AS, Bj&#x00F6;rkman A.</authors>
+<title>A cluster randomised controlled trial of two rounds of mass drug administration in Zanzibar, a malaria pre-elimination setting-high coverage and safety, but no significant impact on transmission.</title>
+<source>BMC Med</source>
+<pubdate>2018</pubdate>
+<volume>16</volume>
+<pages>215.</pages>
+</reference>
+<reference id="pubmed31017084">
+<accessionId id="acc080" href="info:pmid/31017084" />
+<authors>Seilie AM, Chang M, Hanron AE, Billman ZP, Stone BC, Zhou K, Olsen TM, Daza G, Ortega J, Cruz KR, Smith N, Healy SA, Neal J, Wallis CK, Shelton L, Mankowski TV, Wong-Madden S, Mikolajczak SA, Vaughan AM, Kappe SHI, Fishbaugher M, Betz W, Kennedy M, Hume JCC, Talley AK, Hoffman SL, Chakravarty S, Sim BKL, Richie TL, Wald A, Plowe CV, Lyke KE, Adams M, Fahle GA, Cowan EP, Duffy PE, Kublin JG, Murphy SC.</authors>
+<title>Beyond blood smears: qualification of <em>Plasmodium</em> 18S rRNA as a biomarker for controlled human malaria infections.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2019</pubdate>
+<volume>100</volume>
+<pages>1466&#x2013;1476.</pages>
+</reference>
+<reference id="pubmed30793691">
+<accessionId id="acc081" href="info:pmid/30793691" />
+<authors>Worges M, Whitehurst N, Saye R, Ndiaye D, Yamo E, Yukich J.</authors>
+<title>Performance outcomes from Africa-based malaria diagnostic competency assessment courses.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2019</pubdate>
+<volume>100</volume>
+<pages>851&#x2013;860.</pages>
+</reference>
+<reference id="pubmed30476111">
+<accessionId id="acc082" href="info:pmid/30476111" />
+<authors>Hofmann NE, Antunes Moniz C, Holzschuh A, Keitel K, Boillat-Blanco N, Kagoro F, Samaka J, Mbarack Z, Ding XC, Gonz&#x00E1;lez IJ, Genton B, D'Acremont V, Felger I.</authors>
+<title>Diagnostic performance of conventional and ultrasensitive rapid diagnostic tests for malaria in febrile outpatients in Tanzania.</title>
+<source>J Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>219</volume>
+<pages>1490&#x2013;1498.</pages>
+</reference>
+<reference id="pubmed30915959">
+<accessionId id="acc083" href="info:pmid/30915959" />
+<authors>Plucinski MM, Dimbu PR, Fortes F, Murphy SC, Smith NT, Cruz KR, Seilie AM, Halsey ES, Aidoo M, Rogier E.</authors>
+<title>Malaria parasite density in individuals with different rapid diagnostic test results and concentrations of HRP2 antigen.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2019</pubdate>
+<volume>100</volume>
+<pages>1202&#x2013;1203.</pages>
+</reference>
+<reference id="bib91_99_1580522585115">
+<chapter_authors>World Health Organization.</chapter_authors>
+<chapter_title />
+<book_editors />
+<book_title>Guidelines for the Treatment of Malaria.</book_title>
+<edition>3rd Ed</edition>
+<city_publisher>WHO: Geneva</city_publisher>
+<year>2015</year>
+<pages>15.</pages>
+<isbn>ISBN:9789241549127</isbn>
+</reference>
+<reference id="pubmed35108469">
+<accessionId id="acc085" href="info:pmid/35108469" />
+<authors>Fink G, Mrema S, Abdulla S, Kachur SP, Khatib R, Lengeler C, Masanja H, Okumu F, Schellenberg J.</authors>
+<title>Mosquito Net Use in Early Childhood and Survival to Adulthood in Tanzania.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>428&#x2013;436.</pages>
+</reference>
+<reference id="pubmed35353962">
+<accessionId id="acc086" href="info:pmid/35353962" />
+<authors>Chamma-Siqueira NN, Negreiros SC, Ballard SB, Farias S, Silva SP, Chenet SM, Santos EJM, Pereira de Sena LW, P&#x00F3;voa da Costa F, Cardoso-Mello AGN, Marchesini PB, Peterka CRL, Viana GMR, Macedo de Oliveira A.</authors>
+<title>Higher-Dose Primaquine to Prevent Relapse of <em>Plasmodium vivax</em> Malaria.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>1244&#x2013;1253.</pages>
+</reference>
+<reference id="pubmed36706778">
+<accessionId id="acc087" href="info:pmid/36706778" />
+<authors>Accrombessi M, Cook J, Dangbenon E, Yovogan B, Akpovi H, Sovi A, Adoha C, Assongba L, Sidick A, Akinro B, Oss&#x00E8; R, Tokponnon F, A&#x00EF;kpon R, Ogouyemi-Hounto A, Padonou GG, Kleinschmidt I, Messenger LA, Rowland M, Ngufor C, Protopopoff N, Akogbeto MC.</authors>
+<title>Efficacy of pyriproxyfen-pyrethroid long-lasting insecticidal nets (LLINs) and chlorfenapyr-pyrethroid LLINs compared with pyrethroid-only LLINs for malaria control in Benin: a cluster-randomised, superiority trial.</title>
+<source>Lancet</source>
+<pubdate>2023</pubdate>
+<volume>401</volume>
+<pages>435&#x2013;446.</pages>
+</reference>
+<reference id="pubmed37625434">
+<accessionId id="acc088" href="info:pmid/37625434" />
+<authors>Dicko A, Ouedraogo JB, Zongo I, Sagara I, Cairns M, Yerbanga RS, Issiaka D, Zoungrana C, Sidibe Y, Tapily A, Niki&#x00E8;ma F, Sompougdou F, Sanogo K, Kaya M, Yalcouye H, Dicko OM, Diarra M, Diarra K, Thera I, Haro A, Sienou AA, Traore S, Mahamar A, Dolo A, Kuepfer I, Snell P, Grant J, Webster J, Milligan P, Lee C, Ockenhouse C, Ofori-Anyinam O, Tinto H, Djimde A, Chandramohan D, Greenwood B.</authors>
+<title>Seasonal vaccination with RTS,S&#x002F;AS01<sub>E</sub> vaccine with or without seasonal malaria chemoprevention in children up to the age of 5 years in Burkina Faso and Mali: a double-blind, randomised, controlled, phase 3 trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2024</pubdate>
+<volume>24</volume>
+<pages>75&#x2013;86.</pages>
+</reference>
+<reference id="pubmed38310910">
+<accessionId id="acc089" href="info:pmid/38310910" />
+<authors>Datoo MS, Dicko A, Tinto H, Ou&#x00E9;draogo JB, Hamaluba M, Olotu A, Beaumont E, Ramos Lopez F, Natama HM, Weston S, Chemba M, Compaore YD, Issiaka D, Salou D, Some AM, Omenda S, Lawrie A, Bejon P, Rao H, Chandramohan D, Roberts R, Bharati S, Stockdale L, Gairola S, Greenwood BM, Ewer KJ, Bradley J, Kulkarni PS, Shaligram U, Hill AVS, R21&#x002F;Matrix-M Phase 3 Trial Group.</authors>
+<title>Safety and efficacy of malaria vaccine candidate R21&#x002F;Matrix-M in African children: a multicentre, double-blind, randomised, phase 3 trial.</title>
+<source>Lancet</source>
+<pubdate>2024</pubdate>
+<volume>403</volume>
+<pages>533&#x2013;544.</pages>
+</reference>
+<reference id="pubmed36087586">
+<accessionId id="acc090" href="info:pmid/36087586" />
+<authors>Datoo MS, Natama HM, Som&#x00E9; A, Bellamy D, Traor&#x00E9; O, Rouamba T, Tahita MC, Ido NFA, Yameogo P, Valia D, Millogo A, Ouedraogo F, Soma R, Sawadogo S, Sorgho F, Derra K, Rouamba E, Ramos-Lopez F, Cairns M, Provstgaard-Morys S, Aboagye J, Lawrie A, Roberts R, Val&#x00E9;a I, Sorgho H, Williams N, Glenn G, Fries L, Reimer J, Ewer KJ, Shaligram U, Hill AVS, Tinto H.</authors>
+<title>Efficacy and immunogenicity of R21&#x002F;Matrix-M vaccine against clinical malaria after 2 years' follow-up in children in Burkina Faso: a phase 1&#x002F;2b randomised controlled trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>22</volume>
+<pages>1728&#x2013;1736.</pages>
+</reference>
+<reference id="pubmed12355996">
+<accessionId id="acc091" href="info:pmid/12355996" />
+<authors>Bruneel F, Gachot B, Wolff M, Bedos JP, Regnier B, Danis M, Vachon F.</authors>
+<title>[Blackwater fever].</title>
+<source>Presse Med</source>
+<pubdate>2002</pubdate>
+<volume>31</volume>
+<pages>1329&#x2013;34.</pages>
+</reference>
+<reference id="pubmed31353217">
+<accessionId id="acc092" href="info:pmid/31353217" />
+<authors>Ahmed R, Poespoprodjo JR, Syafruddin D, Khairallah C, Pace C, Lukito T, Maratina SS, Asih PBS, Santana-Morales MA, Adams ER, Unwin VT, Williams CT, Chen T, Smedley J, Wang D, Faragher B, Price RN, Ter Kuile FO.</authors>
+<title>Efficacy and safety of intermittent preventive treatment and intermittent screening and treatment versus single screening and treatment with dihydroartemisinin-piperaquine for the control of malaria in pregnancy in Indonesia: a cluster-randomised, open-label, superiority trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>973&#x2013;987.</pages>
+</reference>
+<reference id="pubmed36442488">
+<accessionId id="acc093" href="info:pmid/36442488" />
+<authors>Saito M, McGready R, Tinto H, Rouamba T, Mosha D, Rulisa S, Kariuki S, Desai M, Manyando C, Njunju EM, Sevene E, Vala A, Augusto O, Clerk C, Were E, Mrema S, Kisinza W, Byamugisha J, Kagawa M, Singlovic J, Yore M, van Eijk AM, Mehta U, Stergachis A, Hill J, Stepniewska K, Gomes M, Gu&#x00E9;rin PJ, Nosten F, Ter Kuile FO, Dellicour S.</authors>
+<title>Pregnancy outcomes after first-trimester treatment with artemisinin derivatives versus non-artemisinin antimalarials: a systematic review and individual patient data meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2023</pubdate>
+<volume>401</volume>
+<pages>118&#x2013;130.</pages>
+</reference>
+<reference id="pubmed35089337">
+<accessionId id="acc094" href="info:pmid/35089337" />
+<authors>Koladjo BF, Yovo E, Accrombessi M, Agbota G, Atade W, Ladikpo OT, Mehoba M, Degbe A, Jackson N, Massougbodji A, Sossou D, Vianou B, Cot M, Cottrell G, Fievet N, Zeitlin J, Briand V.</authors>
+<title>Malaria in the First Trimester of Pregnancy and Fetal Growth: Results from a Beninese Preconceptional Cohort.</title>
+<source>J Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>225</volume>
+<pages>1777&#x2013;1785.</pages>
+</reference>
+<reference id="pubmed37620809">
+<accessionId id="acc095" href="info:pmid/37620809" />
+<authors>Saito M, Phyo AP, Chu C, Proux S, Rijken MJ, Beau C, Win HH, Archasuksan L, Wiladphaingern J, Phu NH, Hien TT, Day NP, Dondorp AM, White NJ, Nosten F, McGready R.</authors>
+<title>Severe falciparum malaria in pregnancy in Southeast Asia: a multi-centre retrospective cohort study.</title>
+<source>BMC Med</source>
+<pubdate>2023</pubdate>
+<volume>21</volume>
+<pages>320.</pages>
+</reference>
+<reference id="pubmed35942812">
+<accessionId id="acc096" href="info:pmid/35942812" />
+<authors>Ngai M, Hawkes MT, Erice C, Weckman AM, Wright J, Stefanova V, Opoka RO, Namasopo S, Conroy AL, Kain KC.</authors>
+<title>Intestinal Injury in Ugandan Children Hospitalized With Malaria.</title>
+<source>J Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>226</volume>
+<pages>2010&#x2013;2020.</pages>
+</reference>
+<reference id="pubmed35672703">
+<accessionId id="acc097" href="info:pmid/35672703" />
+<authors>Poespoprodjo JR, Hafiidhaturrahmah, Sariyanti N, Indrawanti R, McLean ARD, Simpson JA, Kenangalem E, Burdam FH, Noviyanti R, Trianty L, Fadhilah C, Soenarto Y, Price RN.</authors>
+<title>Intermittent screening and treatment for malaria complementary to routine immunisation in the first year of life in Papua, Indonesia: a cluster randomised superiority trial.</title>
+<source>BMC Med</source>
+<pubdate>2022</pubdate>
+<volume>20</volume>
+<pages>190.</pages>
+</reference>
+<reference id="pubmed35290461">
+<accessionId id="acc098" href="info:pmid/35290461" />
+<authors>Cohee LM, Peterson I, Buchwald AG, Coalson JE, Valim C, Chilombe M, Ngwira A, Bauleni A, Schaffer-DeRoo S, Seydel KB, Wilson ML, Taylor TE, Mathanga DP, Laufer MK.</authors>
+<title>School-Based Malaria Screening and Treatment Reduces Plasmodium falciparum Infection and Anemia Prevalence in Two Transmission Settings in Malawi.</title>
+<source>J Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>226</volume>
+<pages>138&#x2013;146.</pages>
+</reference>
+<reference id="pubmed36317783">
+<accessionId id="acc099" href="info:pmid/36317783" />
+<authors>Kayentao K, Ongoiba A, Preston AC, Healy SA, Doumbo S, Doumtabe D, Traore A, Traore H, Djiguiba A, Li S, Peterson ME, Telscher S, Idris AH, Kisalu NK, Carlton K, Serebryannyy L, Narpala S, McDermott AB, Gaudinski M, Traore S, Cisse H, Keita M, Skinner J, Hu Z, Z&#x00E9;guim&#x00E9; A, Ouattara A, Doucoure M, Dolo A, Djimd&#x00E9; A, Traore B, Seder RA, Crompton PD, Mali Malaria mAb Trial Team.</authors>
+<title>Safety and Efficacy of a Monoclonal Antibody against Malaria in Mali.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>1833&#x2013;1842.</pages>
+</reference>
+<reference id="pubmed38669354">
+<accessionId id="acc100" href="info:pmid/38669354" />
+<authors>Kayentao K, Ongoiba A, Preston AC, Healy SA, Hu Z, Skinner J, Doumbo S, Wang J, Cisse H, Doumtabe D, Traore A, Traore H, Djiguiba A, Li S, Peterson ME, Telscher S, Idris AH, Adams WC, McDermott AB, Narpala S, Lin BC, Serebryannyy L, Hickman SP, McDougal AJ, Vazquez S, Reiber M, Stein JA, Gall JG, Carlton K, Schwabl P, Traore S, Keita M, Z&#x00E9;guim&#x00E9; A, Ouattara A, Doucoure M, Dolo A, Murphy SC, Neafsey DE, Portugal S, Djimd&#x00E9; A, Traore B, Seder RA, Crompton PD, Mali Malaria mAb Trial Team.</authors>
+<title>Subcutaneous Administration of a Monoclonal Antibody to Prevent Malaria.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>1549&#x2013;1559.</pages>
+</reference>
+<reference id="pubmed40991921">
+<accessionId id="acc101" href="info:pmid/40991921" />
+<authors>Boyce RM, Shook-Sa BE, Ndizeye R, Baguma E, Giandomenico D, Cassidy CA, Eshun S, Siedner MJ, Staedke SG, Ntaro M, Juliano JJ, Reyes R, Mulogo EM.</authors>
+<title>Permethrin-Treated Baby Wraps for the Prevention of Malaria.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>1399&#x2013;1408.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Malaria: Diagnosis.</title>
+<graphic href="eee0322-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presenting with symptoms of fever, chills, headache, myalgias, nausea and vomiting, splenomegaly, and&#x002F;or jaundice. History of travel to or moving from a malaria-endemic area?</label>
+<path target="cell-2"> Yes </path>
+<path target="cell-3"> No </path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Malaria likely. Microscopist experienced in malaria diagnosis?</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Do peripheral blood stained with Giemsa.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Do rapid assay and confirm if positive. (Send blood smear to experienced laboratory or contact CDC at dpdx&#x0040;cdc.gov or 770-448-7788.)</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Malaria unlikely, consider other diagnoses.</label>
+</cell>
+<footnotes>
+<footnote>Data from Centers for Disease Control and Prevention. Malaria Diagnosis and Treatment.<xref ref="web003" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

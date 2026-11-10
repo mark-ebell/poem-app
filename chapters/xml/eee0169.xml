@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Barrett's esophagus</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0169</topic_id>
+<topic_comment />
+<topic_lastupdated>06/03/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Scott M. Strayer, MD, MPH</author_name>
+<author_title>Professor and Chair</author_title>
+<author_department>Department of Family Medicine and Population Health</author_department>
+<author_institution>Virginia Commonwealth University School of Medicine</author_institution>
+<author_email>scott.strayer&#x0040;vcuhealth.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Richmond</author_city>
+<author_state>Va</author_state>
+<author_zip />
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Screening for Barrett's esophagus (BE) in the general population is not recommended; it is not addressed by the USPSTF. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Screening for BE in high risk populations may be beneficial but clinical trials are lacking. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Diagnosis is made by EGD with histologic confirmation. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment options for BE include surgery, endoscopic therapies and surveillance combined with reflux treatment; choice depends on degree of dysplasia, health of patient and patient preference. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>BE has a good overall prognosis as esophageal cancer is rare with a reported incidence of 0.33&#x0025; per year. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Barrett's esophagus (BE) is defined by presence of columnar mucosa in the esophagus &#x2265;1 cm proximal to the gastroesophageal junction with biopsy confirmation of intestinal metaplasia.<xref ref="pubmed35354777" resource="acc038" /> Short segment BE involves less than 3 cm of the distal esophagus and long segment involves 3 cm or more. </definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>Barrett's esophagus (BE) affects 1.6&#x0025; of the population.</listitem>
+<listitem>In a large population-based study, 2.3&#x0025; with reflux symptoms and 1.2&#x0025; of those without had BE.<xref ref="poem80305" resource="acc019" /></listitem>
+<listitem>A study identified 110 US Veterans (90&#x0025; male, mean age 61 years) with no or minimal GERD symptoms undergoing colorectal cancer screening. When upper endoscopy was performed, they found that 7&#x0025; had long-segment BE and 17&#x0025; had short-segment BE.<xref ref="pubmed12145799" resource="acc036" /></listitem>
+</list>
+</prevalence>
+<economic_impact>
+<list style="bulleted">
+<listitem>Outpatient care costs approximately $1241&#x002F;year.</listitem>
+<listitem>Monthly medication use accounts for more than half of the total cost, with proton pump inhibitors accounting for 64.6&#x0025; of total medication cost.</listitem>
+<listitem>Medication cost per month in patients with Barrett's esophagus is similar to that in patients with diabetes mellitus.</listitem>
+</list>
+</economic_impact>
+<social_impact>
+<list style="bulleted">
+<listitem>Patients with BE reported below average quality of life compared with the general population.<xref ref="pubmed10950030" resource="acc002" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Acid reflux is associated with an increased risk. See risk factor table.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Chronic acid reflux exposes the esophageal epithelium to acid causing chronic esophagitis. This tissue heals in a metaplastic process with abnormal columnar cells replacing squamous cells. This epithelium can then progress to dysplasia, ultimately leading to carcinoma.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Male sex</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Increasing age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Family history of BE or EAC</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Obesity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>White race</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Longer duration of GERD</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screening for BE in the general population is not recommended by ACG or ASGE guidelines and is not addressed by the USPSTF.<xref ref="pubmed35354777" resource="acc038" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Screening for BE in high risk populations has not been studied in randomized trials. ACG and ASGE guidelines recommend that if it is considered, screen only selected patients at increased risk. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed14499768" resource="acc001" /><xref ref="pubmed35354777" resource="acc038" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Screening for BE in the general population is not cost effective and there are no validated strategies based on symptoms or other identified risk factors. <xref ref="poem50103" resource="acc013" /><xref ref="pubmed35354777" resource="acc038" /></listitem>
+<listitem>If screening endoscopy for BE is performed, limit to individuals with a family history of esophageal adenocarcinoma (EAC) or BE, patients with sleeve gastrectomy and reflux, or patients with GERD and at least 1 additional risk factor (age &gt;50 years, obesity&#x002F;central adiposity, current or past history of smoking, or male gender). This recommendation was based on observational studies and expert opinion.<xref ref="pubmed39692638" resource="acc046" /></listitem>
+<listitem>Several tools that incorporate these risk factors have been validated for predicting BE on initial endoscopy.<xref ref="pubmed32119928" resource="acc033" /> They include the validated <resourceLink href="http://mberet.umms.med.umich.edu/">M-BERET</resourceLink> and <resourceLink href="https://sites.google.com/view/oacrisk">HUNT</resourceLink> clinical prediction rules; the hyperlinks take you to those external calculators.<xref ref="pubmed32119928" resource="acc033" /></listitem>
+<listitem>Screening in patients with reflux remains unproven due to high prevalence of reflux symptoms (40&#x0025; of adults); extremely low rates of progression to cancer (estimated at 0.00039 cases per patient with reflux annually); and a lack of prospective studies demonstrating mortality benefits or decreased cancer mortality rates with screening endoscopy.<xref ref="pubmed20593060" resource="acc004" /></listitem>
+<listitem>If screening is undertaken, the highest yield for BE is obtained in men age 50 years and older who have longstanding heartburn. Screening this population is also cost-effective costing between $10000 to $50000 per QALY saved compared with no screening or surveillance as long as surveillance is limited to patients with BE + dysplasia.<xref ref="pubmed12558356" resource="acc006" /><xref ref="pubmed19840798" resource="acc039" /><xref ref="pubmed15476150" resource="acc040" /></listitem>
+<listitem>A clinical prediction rule that predicts erosive esophagitis, a major risk factor for BE, applies to Asian populations but has not been validated externally.<xref ref="pubmed26825906" resource="acc027" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Weight loss, strenous exercise and smoking cessation may prevent BE, although clinical trial data are lacking.</listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>Proton pump inhibitors (PPI) decrease the risk of developing dysplasia (ARR &#x003D; 37&#x0025;, NNT &#x003D; 2.7; based on 10-yr incidence).<xref ref="pubmed15447744" resource="acc003" /></listitem>
+<listitem>A recent large randomized trial found that high dose PPI (esomeprazole 40mg t) with aspirin (325 mg daily) prevented death, malignant transformation or histological progression in patients with BE and no high-grade dysplasia. 9&#x0025; of patients taking aspirin plus high-dose esomeprazole compared with 14&#x0025; of those taking aspirin plus low-dose esomeprazole (NNT &#x003D; 20; 12-67) experienced the combined primary outcome.<xref ref="poem201030" resource="acc030" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Diagnosis is made by EGD with histologic confirmation. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients with long segment BE and Caucasians are diagnosed more accurately. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Diagnostic criteria for Barrett's esophagus: (1) endoscopic documentation of columnar epithelium lining the distal esophagus (&#x2265;1 cm), and (2) histologic confirmation of specialized intestinal metaplasia in biopsy of the columar epithelium.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>If risk factors are present, consider diagnostic EGD (see risk factor list).</listitem>
+<listitem>Otherwise, history and physical have little utility due to a high rate of asymptomatic patients (31&#x0025;) and low rate of patients with reflux having BE. An Italian population-based study found that 1.3&#x0025; of patients had BE, of whom 31&#x0025; were asymptomatic. Endoscopic findings (esophagitis, BE, PUD, erosions, or neoplasia) were seen in 18&#x0025; of asymptomatic persons, 25&#x0025; with dyspepsia but no reflux, 30&#x0025; with dyspepsia and reflux, 34&#x0025; with reflux alone, and 35&#x0025; with alarm symptoms or signs.<xref ref="poem120603" resource="acc010" /></listitem>
+<listitem>All patients with alarm symptoms should have prompt diagnostic work-ups (e.g., dysphagia, odynophagia, bleeding, or weight loss). The positive predictive value of an alarm symptom for cancer is 3&#x0025;.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Endoscopy with histological confirmation is 90-100&#x0025; sensitive for diagnosis of BE. With endoscopy, long-segment BE is more accurately diagnosed than short-segment BE (OR &#x003D; 3.63). Caucasian patients are more accurately diagnosed than African American patients (OR &#x003D; 3.63).<xref ref="test176" resource="acc012" /></listitem>
+<listitem>An observational study of 488 patients with low grade or non-dysplastic BE found that high grade dysplasia or cancer were found in 1.9&#x0025; a year later.<xref ref="pubmed25956705" resource="acc026" /></listitem>
+<listitem>Because low grade dysplasia is a predictor of neoplastic progression in BE, expert GI pathologist confirmation is recommended as best practice. As this is not always available and due to inter-observer variability, a risk prediction assay (TissueCypher Barrett&#x2019;s Esophagus Assay) has been developed and validated to risk stratify patients with BE. The 68&#x0025; sensitivity and 79&#x0025; specificity of the assay for predicting progression to high-grade dysplasia&#x002F;EAC are comparable to expert pathologist evaluations and detect 50&#x0025;-56&#x0025; of progressors who were downstaged by expert pathology review.<xref ref="pubmed33982936" resource="acc034" /></listitem>
+<listitem>Capsule endoscopy has 67&#x0025; sensitivity and 84&#x0025; specificity, but is not cost-effective compared with standard EGD as a screening tool.</listitem>
+<listitem>Chromoendoscopy involves applying chemical agents to improve the characterization of mucosal surface either by selective uptake (using methylene blue or Lugol's solution) or enhancement of mucosal surface pattern (contrast staining with indigo carmine and acetic acid). Studies demonstrate mixed results (no better or worse than random biopsies).</listitem>
+<listitem>Narrow-band imaging is an electronic form of chromoendoscopy and combines high-resolution endoscopy with special light filters to produce detailed images of the mucosal and vascular surface patterns within the BE segment. This technique enables inspection of the mucosa and vascular patterns for irregularities and enables diagnosis of BE with fewer biopsies and also detects more areas with any dysplasia compared with regular endoscopy (30&#x0025; vs. 21&#x0025;, p&#x003D;0.01).<xref ref="pubmed22315471" resource="acc041" /> The BING criteria are a classification scheme used to identify high grade dysplasia and cancer.<xref ref="pubmed26627609" resource="acc024" /></listitem>
+<listitem>The most recent American College of Gastroentrology (ACG) guidelines recommend using chromoendoscopy during surveillance in patients with BE.<xref ref="pubmed35354777" resource="acc038" /></listitem>
+<listitem>Flow cytometry measures DNA content in fresh frozen plasma specimens of mucosa to predict cancer risk.<xref ref="pubmed11721752" resource="acc005" /> Predictors of increased cancer risk include: high grade dysplasia; aneuploid; increased 4N fraction on flow cytometry. However, these tests are not currently available for routine clinical use.<xref ref="test214" resource="acc011" /></listitem>
+<listitem>A study compared usual care with use of a swallowed Cytosponge in patients with GERD in the primary care setting. The sponge was well tolerated, and detected BE in 2&#x0025; of those screened (n &#x003D; 140), of whom 4 had dysplasia and 5 had stage I esophageal cancer This compares with only 13 patients diagnosed with BE in the usual care group. We do not know if this detection improved clinical outcomes.<xref ref="poem221008" resource="acc032" /></listitem>
+<listitem>An additional case-control study using a swallowed Cytosponge used methylated DNA markers to identify BE. Median BE length was 6 cm and 50&#x0025; had dysplasia. The sensitivity and specificity for this non-endoscopic test were 92&#x0025; and 94&#x0025; respectively (LR+ 15, LR- 0.08) for BE detection compared with endoscopy.<xref ref="pubmed32558685" resource="acc035" />The ACG endorses this test as an acceptable alternative to endoscopic screening for BE in patients with chronic reflux and other risk factors.<xref ref="pubmed35354777" resource="acc038" /></listitem>
+<listitem>Another non-endoscopic test involves swallowing a small capsule attached to a catheter and using a syringe to deploy an esophageal balloon sampling device that is combined with a DNA-based screening assay. Diagnostic accuracy was evaluated at a single VA among veterans with GERD symptoms and at least 3 additional risk factors including white race, obesity, male sex, smoking history and family history of BE or EAC. The gold standard was sedated EGD performed after the balloon sampling. This test has demonstrated sensitivity ranging from 85&#x0025; to 93&#x0025; and and specificity of 72&#x0025; to 85&#x0025; for BE&#x002F;EAC.<xref ref="pubmed38989889" resource="acc044" /><xref ref="pubmed38686933" resource="acc045" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to management.</listitem>
+<listitem>A validated clinical prediction rule identified patients at risk for progression to high grade dysplasia as males (9 points), smokers (5 points), BE length (1 point&#x002F;cm) and confirmed low grade dysplasia at diagnosis (11 points). Annual rates of progression were 2.3&#x0025; for scores &gt;20; 0.73&#x0025; for scores of 11 to 20 and 0.13&#x0025; for scores of 0 to 10.<xref ref="pubmed29273452" resource="acc031" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>176</Dx_ID>
+<Dx_ID>214</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>ACG and AGA guidelines recommend endoscopic ablation for patients with high grade dysplasia and BE. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>ACG and AGA guidelines favor endoscopic ablation for patients with low-grade dysplasia but surveillance is still a reasonable option when risks versus benefits are discussed with patients. A meta-analysis found less progression to HGD or EAC with ablation compared to surveillance (RR&#x003D;0.25, 95&#x0025; C.I.0.07-0.93).<xref ref="pubmed38763697" resource="acc042" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Recommended surveillance intervals after endoscopic ablation are expert based. See <xref ref="fig001" /><evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Pharmacotherapy is recommended for low-grade dysplasia and for high-grade dysplasia in combination with approaches described in surgical therapies below. The goal of therapy is to suppress stomach acid production with agents such as PPIs to control reflux symptoms. Standard doses of any one of the five available PPIs (omeprazole [20-40 mg daily], lansoprazole [15-30 mg daily], rabeprazole [20-40 mg daily], pantroprazole [40-80 mg daily], and esomeprazole [20-40 mg daily]) can be used and doses can be increased if symptoms aren't relieved.<xref ref="pubmed12755837" resource="acc009" /></listitem>
+<listitem>Proton pump inhibitor (PPI) therapy is associated with a significant reduction in the risk of developing dysplasia in patients with BE (ARR &#x003D; 37&#x0025;, NNT &#x003D; 2.7; based on 10-yr incidence).<xref ref="pubmed15447744" resource="acc003" /></listitem>
+<listitem>Chemoprevention is effective for BE with low-grade dysplasia. A recent large randomized trial found that high dose PPI (esomeprazole 40mg twice daily) with aspirin (325 mg daily) prevented death, malignant transformation or histological progression in patients with BE and no high-grade dysplasia. 9&#x0025; of patients taking aspirin plus high-dose esomeprazole compared with 14&#x0025; of those taking aspirin plus low-dose esomeprazole (NNT &#x003D; 20; 12-67) experienced the combined primary outcome.<xref ref="poem201030" resource="acc030" /></listitem>
+<listitem>An observational study comparing PPIs with H2 receptor antagonists found significantly lower cumulative incidence of dysplasia among patients who received PPI after BE diagnosis compared to those receiving no therapy or H2 receptor antagonist (ARR &#x003D; 25&#x0025;, NNT &#x003D; 4).<xref ref="pubmed15447744" resource="acc003" /></listitem>
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to management.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>See <xref ref="table001" /> for an overview of surgical and endoscopic therapies. ACG and AGA guidelines recommend endoscopic ablation for patients with BE and high grade dysplasia, as well as those with T1a eophageal cancer. Ablation or surveillance are options for patients with low grade dysplasia.</listitem>
+<listitem>Esophagectemy is an option in high-grade dysplasia, especially for appropriate surgical candidates. However, there are no studies demonstrating superiority over endoscopic techniques. A retrospective comparison study with 199 patients found similar long-term mortality at 5 years versus photodynamic therapy and endoscopic mucosal resection (9&#x0025; for esophagectemy vs. 8.5&#x0025; for endoscopic techniques).<xref ref="pubmed17408660" resource="acc007" /> A Cochrane review identified 13 studies comparing endotherapy with surgery, but they did not meet inclusion criteria so firm conclusions could not be drawn.<xref ref="cochrane7334" resource="acc021" /></listitem>
+<listitem>Operative mortality is high in low-volume centers (20&#x0025;); esophagectomy should be performed at centers performing at least 20 procedures annually, where mortality is 8.4&#x0025; or less.<xref ref="pubmed11948273" resource="acc008" /></listitem>
+<listitem>Complications including pneumonia, arrhythmia, myocardial infarction, heart failure, wound infection and anastamotic leaks affect 30&#x0025; to 50&#x0025; of patients.</listitem>
+<listitem>Even minimally invasive techniques using laparascopy and thorascopy have not improved outcomes.</listitem>
+<listitem><strong>Ablation procedures and endoscopic resection</strong></listitem>
+<listitem>Mucosal ablation therapies are used in conjunction with acid suppression and include: photodynamic therapy, thermal ablation with argon plasma coagulation or multipolar coagulation, radiofrequency ablation and endoscopic cryotherapy.<xref ref="cochrane4060" resource="acc020" /></listitem>
+<listitem>Endoscopic mucosal resection involves excision of a large segment of esophageal mucosa down to the submucosa. This technique is recommended in high-grade dysplasia to resect areas of mucosal irregularity such as nodularity or ulcer and can be both diagnostic and therapeutic.</listitem>
+<listitem>A large retrospective cohort of patients undergoing endoscopic ablation (across 60 US health systems) found low rates of progression to EAC (2.4&#x0025;, 6 per 1000 patient years), esophagectomy (1.5&#x0025;) and all-cause mortality (13 per 1000 patient years).<xref ref="pubmed37863992" resource="acc043" /></listitem>
+<listitem>A Dutch observational study followed patients with low-grade dysplasia (n&#x003D;375), high grade dysplasia (n&#x003D;422) or low risk esophageal cancer (n&#x003D;589). All underwent endoscopic resection of visible lesions and then radiofrequency ablation every 3 months until BE was completely eradicated. Follow-up was for a median of 43 months. The most common complication was mild-moderate esophageal stenosis. The likelihood of recurrence of dysplasia was only 1&#x0025; per person per year.<xref ref="pubmed33753417" resource="acc037" /></listitem>
+<listitem>Three small RCTs (n &#x003D; 282) randomized patients with BE and low grade dysplasia to endoscopic surveillance or radiofrequency ablation. Follow-up endoscopy was performed at 6 and 12 months in the ablation group and then every 12 months in both groups. Patients were followed for 3 years in two RCTs and only 1 year in one RCT. Progression to high grade dysplasia or adenocarcinoma occurred less frequently in the ablation group (5.3&#x0025; vs. 24.2&#x0025;, NNT &#x003D; 5 for progression to either outcome). Harms including strictures; major bleeding requiring either blood transfusion, intervention, or hospitalization; perforation; and serious adverse events all occurred in the ablation groups (2.4&#x0025;, NNH&#x003D;42).<xref ref="pubmed38763697" resource="acc042" /></listitem>
+<listitem>A Cochrane review found a single study evaluating pre-operative radiotherapy that showed a trend toward benefit.<xref ref="cochrane1799" resource="acc022" /><xref ref="cochrane1556" resource="acc023" /></listitem>
+<listitem><strong>Other surgeries</strong></listitem>
+<listitem>Antireflux surgeries such as fundoplication are not more effective than pharmacotherapy for preventing cancer in patients with BE.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>BE has a good overall prognosis as esophageal cancer is rare with a reported incidence of 0.33&#x0025; per year.<xref ref="pubmed21997553" resource="acc028" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Annual progression to esophageal cancer risk in patients with high-grade dysplasia ranges from 7&#x0025; to 19&#x0025;, with higher rates seen when pathology is evaluated rigorously. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Progression to esophageal cancer is rare in patients with BE with an incidence of 0.33&#x0025; per year.<xref ref="pubmed21997553" resource="acc028" /></listitem>
+<listitem>Risk factors for progression include longer duration or length of BE and for those with high grade dysplasia. <xref ref="poem131202" resource="acc014" /><xref ref="poem61202" resource="acc016" /><xref ref="poem12" resource="acc018" /></listitem>
+<listitem>One study concluded that the rate of cancer in patients with long-segment BE is approximately 0.5&#x0025;.<xref ref="poem70404" resource="acc015" /> However, a subsequent study of 1017 German patients with newly diagnosed esophageal adenocarcinoma concluded that the annual transition rate from Barrett's to cancer was 0.22&#x0025; for long segment (&gt;3 cm), 0.03&#x0025; for short segment (1-3 cm) and only 0.01&#x0025; for ultrashort segment (&lt;1 cm).<xref ref="pubmed26113177" resource="acc025" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>A registry-based cohort study in Northern Ireland found a 5-fold increase in the risk for esophageal cancer in patients with BE, but no difference in all-cause mortality between patients with BE vs. the entire general population.<xref ref="poem51106" resource="acc029" /></listitem>
+<listitem>A Veteran's Administration cohort study of 324 men with BE found very low risk of progression to high-grade dysplasia or esophageal cancer if there was no dysplasia on initial endoscopy, or low-grade dysplasia and BE length less than 6 cm.<xref ref="poem61202" resource="acc016" /></listitem>
+<listitem>Another cohort study with 327 BE patients followed for a mean of 3.9 years found very low malignancy risk in patients with negative histology, low-grade or indefinite dysplasia, and neither aneuploidy or increased 4N on flow cytometry. If <xref ref="test214" resource="acc011">high-grade dysplasia, aneuploidy or increased 4N</xref> was found, there was much higher risk.<xref ref="test214" resource="acc011" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" /> for a suggested approach to follow-up. Surveillance endoscopy is only supported by retrospective surgical series reporting a survival advantage based on earlier diagnosis, and thus are subject to lead time and length biases.<xref ref="poem51205" resource="acc017" /> ACG guidelines on surveillance are based on expert opinion with surveillance intervals based on presence and grade of dysplasia (see <xref ref="table002" />).</listitem>
+<listitem>Reflux symptoms should be controlled with PPI therapy to ensure accurate EGD surveillance.</listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed14499768">
+<accessionId id="acc001" href="info:pmid/14499768" />
+<authors>Conio M, Blanchi S, Lapertosa G, et al.</authors>
+<title>Long-term endoscopic surveillance of patients with Barrett's esophagus. Incidence of dysplasia and adenocarcinoma: A prospective study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2003</pubdate>
+<volume>98</volume>
+<pages>1931&#x2013;1939.</pages>
+</reference>
+<reference id="pubmed10950030">
+<accessionId id="acc002" href="info:pmid/10950030" />
+<authors>Eloubeidi MA, Provenzale D.</authors>
+<title>Health-related quality of life and severity of symptoms in patients with Barrett's esophagus and gastroesophageal reflux disease patients without Barrett's esophagus.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2000</pubdate>
+<volume>95(8)</volume>
+<pages>1881&#x2013;1887.</pages>
+</reference>
+<reference id="pubmed15447744">
+<accessionId id="acc003" href="info:pmid/15447744" />
+<authors>El-Serag HB, Aguirre TV, Davis S, Kuebeler M, Bhattacharyya A, Sampliner RE.</authors>
+<title>Proton pump inhibitors are associated with reduced incidence of dysplasia in Barrett's esophagus.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2004</pubdate>
+<volume>99(10)</volume>
+<pages>1877&#x2013;1883.</pages>
+</reference>
+<reference id="pubmed20593060">
+<accessionId id="acc004" href="info:pmid/20593060" />
+<authors>Shaheen N.</authors>
+<title>Endoscopy for Barrett's esophagus and esophageal adenocarcinoma.</title>
+<source>Am Fam Physician</source>
+<pubdate>2004</pubdate>
+<volume>69(9)</volume>
+<pages>2060&#x2013;2061.</pages>
+</reference>
+<reference id="pubmed11721752">
+<accessionId id="acc005" href="info:pmid/11721752" />
+<authors>Rabinovitch PS, Longton G, Blount PL, Levine DS, Reid BJ.</authors>
+<title>Predictors of progression in Barrett's esophagus III: Baseline flow cytometric variables.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2001</pubdate>
+<volume>96(11)</volume>
+<pages>3071&#x2013;3083.</pages>
+</reference>
+<reference id="pubmed12558356">
+<accessionId id="acc006" href="info:pmid/12558356" />
+<authors>Inadomi, JM, Sampliner R, Lagergren J, et al.</authors>
+<title>Screening and surveillance for barrett esophagus in high-risk groups: A cost-utility analysis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>138</volume>
+<pages>176&#x2013;186.</pages>
+</reference>
+<reference id="pubmed17408660">
+<accessionId id="acc007" href="info:pmid/17408660" />
+<authors>Prasad GA, Wang KK, Buttar NS, et al.</authors>
+<title>Long term survival following endoscopic and surgical treatment of high grade dysplasia in Barrett's esophagus.</title>
+<source>Gastroenterology</source>
+<pubdate>2007</pubdate>
+<volume>132</volume>
+<pages>1226&#x2013;1233.</pages>
+</reference>
+<reference id="pubmed11948273">
+<accessionId id="acc008" href="info:pmid/11948273" />
+<authors>Birkmeyer JD, Siewers AE, Finlayson EV, et al.</authors>
+<title>Hospital volume and surgical mortality in the United States.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>246</volume>
+<pages>1128&#x2013;1137.</pages>
+</reference>
+<reference id="pubmed12755837">
+<accessionId id="acc009" href="info:pmid/12755837" />
+<authors>Klok RM, Postma MJ, Van Hout BA, Brouwers JR.</authors>
+<title>Meta-analysis: Comparing the efficacy of proton pump inhibitors in short-term use.</title>
+<source>Aliment Pharmacol Ther</source>
+<pubdate>2003</pubdate>
+<volume>17</volume>
+<pages>1237&#x2013;1245.</pages>
+</reference>
+<reference id="poem120603">
+<accessionId id="acc010" href="info:wiley/eep-poem/120603" />
+<accessionId id="acc010b" href="info:pmid/20010920" />
+<authors>Zagari RM, Law GR, Fuccio L, Pozzato P, Forman D, Bazzoli F.</authors>
+<title>Dyspeptic symptoms and endoscopic findings in the community: The Loiano-Monghidoro study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2010</pubdate>
+<volume>105</volume>
+<pages>565&#x2013;571.</pages>
+</reference>
+<reference id="test214">
+<accessionId id="acc011" href="info:wiley/eep-dx/214" />
+<accessionId id="acc011b" href="info:pmid/10925966" />
+<authors>Reid BJ, Levine DS, Longton G, Blount PL, Rabinovitch PS.</authors>
+<title>Predictors of progression to cancer in Barrett's esophagus: Baseline histology and flow cytometry identify low- and high-risk patient subsets.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>1669&#x2013;1676.</pages>
+</reference>
+<reference id="test176">
+<accessionId id="acc012" href="info:wiley/eep-dx/176" />
+<accessionId id="acc012b" href="info:pmid/10201460" />
+<authors>Eloubeidi MA, Provenzale D.</authors>
+<title>Does this patient have Barrett's esophagus? The utility of predicting Barrett's esophagus at the index endoscopy.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>1999</pubdate>
+<volume>94</volume>
+<pages>937&#x2013;943.</pages>
+</reference>
+<reference id="poem50103">
+<accessionId id="acc013" href="info:wiley/eep-poem/50103" />
+<accessionId id="acc013b" href="info:pmid/12094844" />
+<authors>Shaheen NJ, Provenzale D, Sandler RS.</authors>
+<title>Upper endoscopy as a screening and surveillance tool in esophageal adenocarcinoma: A review of the evidence.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2002</pubdate>
+<volume>97</volume>
+<pages>1319&#x2013;1327.</pages>
+</reference>
+<reference id="poem131202">
+<accessionId id="acc014" href="info:wiley/eep-poem/131202" />
+<accessionId id="acc014b" href="info:pmid/21577245" />
+<authors>Sikkema M, Looman CW, Steyerberg EW, Kerkhof M, Kastelein F, van Dekken H, van Vuuren AJ, Bode WA, van der Valk H, Ouwendijk RJ, Giard R, Lesterhuis W, Heinhuis R, Klinkenberg EC, Meijer GA, ter Borg F, Arends JW, Kolkman JJ, van Baarlen J, de Vries RA, Mulder AH, van Tilburg AJ, Offerhaus GJ, ten Kate FJ, Kusters JG, Kuipers EJ, Siersema PD.</authors>
+<title>Predictors for neoplastic progression in patients with Barrett's Esophagus: A prospective cohort study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2011</pubdate>
+<volume>106</volume>
+<pages>1231&#x2013;1238.</pages>
+</reference>
+<reference id="poem70404">
+<accessionId id="acc015" href="info:wiley/eep-poem/70404" />
+<accessionId id="acc015b" href="info:pmid/15742992" />
+<authors>Hage M, Siersema PD, van Dekken H, Steyerberg EW, Dees J, Kuipers EJ.</authors>
+<title>Oesophageal cancer incidence and mortality in patients with long-segment Barrett's oesophagus after a mean follow-up of 12.7 years.</title>
+<source>Scand J Gastroenterol</source>
+<pubdate>2004</pubdate>
+<volume>39</volume>
+<pages>1175&#x2013;1179.</pages>
+</reference>
+<reference id="poem61202">
+<accessionId id="acc016" href="info:wiley/eep-poem/61202" />
+<accessionId id="acc016b" href="info:wiley/eep-rule/283" />
+<accessionId id="acc016c" href="info:pmid/15330898" />
+<authors>Weston AP, Sharma P, Mathur S, Banerjee S, Jafri AK, Cherian R, McGregor D, Hassanein RS, Hall M.</authors>
+<title>Risk stratification of Barrett's esophagus: Updated prospective multivariate analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2004</pubdate>
+<volume>99</volume>
+<pages>1657&#x2013;1666.</pages>
+</reference>
+<reference id="poem51205">
+<accessionId id="acc017" href="info:wiley/eep-poem/51205" />
+<accessionId id="acc017b" href="info:pmid/14499768" />
+<authors>Conio M, Blanchi S, Lapertosa G, Ferraris R, Sablich R, Marchi S, D'Onofrio V, Lacchin T, Iaquinto G, Missale G, Ravelli P, Cestari R, Benedetti G, Macr&#x00EC; G, Fiocca R, Munizzi F, Filiberti R.</authors>
+<title>Long-term endoscopic surveillance of patients with Barrett's esophagus. Incidence of dysplasia and adenocarcinoma: A prospective study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2003</pubdate>
+<volume>98</volume>
+<pages>1931&#x2013;1939.</pages>
+</reference>
+<reference id="poem12">
+<accessionId id="acc018" href="info:wiley/eep-poem/12" />
+<accessionId id="acc018b" href="info:pmid/9260792" />
+<authors>Lieberman DA, Oehlke M, Helfand M.</authors>
+<title>Risk factors for Barrett's esophagus in community-based practice. GORGE consortium. Gastroenterology Outcomes Research Group in Endoscopy.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>1997</pubdate>
+<volume>92</volume>
+<pages>1293&#x2013;1297.</pages>
+</reference>
+<reference id="poem80305">
+<accessionId id="acc019" href="info:wiley/eep-poem/80305" />
+<accessionId id="acc019b" href="info:pmid/16344051" />
+<authors>Ronkainen J, Aro P, Storskrubb T, Johansson SE, Lind T, Bolling-Sternevald E, Vieth M, Stolte M, Talley NJ, Agr&#x00E9;us L.</authors>
+<title>Prevalence of Barrett's esophagus in the general population: An endoscopic study.</title>
+<source>Gastroenterology</source>
+<pubdate>2005</pubdate>
+<volume>129</volume>
+<pages>1825&#x2013;1831.</pages>
+</reference>
+<reference id="cochrane4060">
+<accessionId id="acc020" href="info:wiley/cochrane/CD004060" />
+<chapter_authors>Rees JR, Lao-Sirieix P, Wong A, Fitzgerald RC.</chapter_authors>
+<chapter_title>Treatment for Barrett's oesophagus.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2010, Issue 1. Art. No.: CD004060. DOI: 10.1002&#x002F;14651858.CD004060.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7334">
+<accessionId id="acc021" href="info:wiley/cochrane/CD007334" />
+<chapter_authors>Bennett C, Green S, DeCaestecker J, Almond M, Barr H, Bhandari P, Ragunath K, Singh R, Jankowski J.</chapter_authors>
+<chapter_title>Surgery versus radical endotherapies for early cancer and high-grade dysplasia in Barrett's oesophagus.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 11. Art. No.: CD007334. DOI: 10.1002&#x002F;14651858.CD007334.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1799">
+<accessionId id="acc022" href="info:wiley/cochrane/CD001799" />
+<chapter_authors>Oeosphageal Cancer Collaborative Group. Preoperative radiotherapy for esophageal carcinoma.</chapter_authors>
+<chapter_title>Incentive surgery.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2005, Issue 4. Art. No.: CD001799. DOI: 10.1002&#x002F;14651858.CD001799.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1556">
+<accessionId id="acc023" href="info:wiley/cochrane/CD001556" />
+<chapter_authors>Vogt K, Fenlon D, Rhodes S, Malthaner R.</chapter_authors>
+<chapter_title>Preoperative chemotherapy for resectable thoracic esophageal cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2006, Issue 3. Art. No.: CD001556. DOI: 10.1002&#x002F;14651858.CD001556.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed26627609">
+<accessionId id="acc024" href="info:pmid/26627609" />
+<authors>Sharma P, Bergman JJ, Goda K, Kato M, Messmann H, Alsop BR, Gupta N, Vennalaganti P, Hall M, Konda V, Koons A, Penner O, Goldblum JR, Waxman I.</authors>
+<title>Development and validation of a classification system to identify high-grade dysplasia and esophageal adenocarcinoma in Barrett's esophagus using narrow-band imaging.</title>
+<source>Gastroenterology</source>
+<pubdate>2016</pubdate>
+<volume>150</volume>
+<pages>591&#x2013;598.</pages>
+</reference>
+<reference id="pubmed26113177">
+<accessionId id="acc025" href="info:pmid/26113177" />
+<authors>Pohl H, Pech O, Arash H, Stolte M, Manner H, May A, Kraywinkel K, Sonnenberg A, Ell C.</authors>
+<title>Length of Barrett's oesophagus and cancer risk: Implications from a large sample of patients with early oesophageal adenocarcinoma.</title>
+<source>Gut</source>
+<pubdate>2016</pubdate>
+<volume>65</volume>
+<pages>196&#x2013;201.</pages>
+</reference>
+<reference id="pubmed25956705">
+<accessionId id="acc026" href="info:pmid/25956705" />
+<authors>Visrodia K, Iyer PG, Schleck CD, Zinsmeister AR, Katzka DA.</authors>
+<title>Yield of repeat endoscopy in Barrett's esophagus with no dysplasia and low-grade dysplasia: A population-based study.</title>
+<source>Dig Dis Sc</source>
+<pubdate>2016</pubdate>
+<volume>61</volume>
+<pages>158&#x2013;167.</pages>
+</reference>
+<reference id="pubmed26825906">
+<accessionId id="acc027" href="info:pmid/26825906" />
+<authors>Kang SH, Lim Y, Lee H, Kim J, Chi S, Min YW, Min BH, Lee JH, Son HJ, Ryu S, Rhee PL, Kim JJ.</authors>
+<title>A model for predicting the future risk of incident erosive esophagitis in an asymptomatic population undergoing regular check-ups.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e2591.</pages>
+</reference>
+<reference id="pubmed21997553">
+<accessionId id="acc028" href="info:pmid/21997553" />
+<authors>Desai TK, Krishnan K, Samala N, Singh J, Cluley J, Perla S, Howden CW.</authors>
+<title>The incidence of oesophageal adenocarcinoma in non-dysplastic Barrett's oesophagus: A meta-analysis.</title>
+<source>Gut</source>
+<pubdate>2012</pubdate>
+<volume>61</volume>
+<pages>970&#x2013;976.</pages>
+</reference>
+<reference id="poem51106">
+<accessionId id="acc029" href="info:wiley/eep-poem/51106" />
+<accessionId id="acc029b" href="info:pmid/12865262" />
+<authors>Anderson LA, Murray LJ, Murphy SJ, Fitzpatrick DA, Johnston BT, Watson RG, McCarron P, Gavin AT.</authors>
+<title>Mortality in Barrett's oesophagus: Results from a population based study.</title>
+<source>Gut</source>
+<pubdate>2003</pubdate>
+<volume>52</volume>
+<pages>1081&#x2013;1084.</pages>
+</reference>
+<reference id="poem201030">
+<accessionId id="acc030" href="info:wiley/eep-poem/201030" />
+<accessionId id="acc030b" href="info:pmid/30057104" />
+<authors>Jankowski JAZ, de Caestecker J, Love SB, Reilly G, Watson P, Sanders S, Ang Y, Morris D, Bhandari P, Brooks C, Attwood S, Harrison R, Barr H, Moayyedi P, AspECT Trial Team.</authors>
+<title>Esomeprazole and aspirin in Barrett's oesophagus (AspECT): A randomised factorial trial.</title>
+<source>Lancet</source>
+<pubdate>2018</pubdate>
+<volume>392</volume>
+<pages>400&#x2013;408.</pages>
+</reference>
+<reference id="pubmed29273452">
+<accessionId id="acc031" href="info:pmid/29273452" />
+<authors>Parasa S, Vennalaganti S, Gaddam S, Vennalaganti P, Young P, Gupta N, Thota P, Cash B, Mathur S, Sampliner R, Moawad F, Lieberman D, Bansal A, Kennedy KF, Vargo J, Falk G, Spaander M, Bruno M, Sharma P.</authors>
+<title>Development and validation of a model to determine risk of progression of barrett's esophagus to neoplasia.</title>
+<source>Gastroenterology</source>
+<pubdate>2018</pubdate>
+<volume>154</volume>
+<pages>1282&#x2013;1289.e2.</pages>
+</reference>
+<reference id="poem221008">
+<accessionId id="acc032" href="info:wiley/eep-poem/221008" />
+<accessionId id="acc032b" href="info:pmid/32738955" />
+<authors>Fitzgerald RC, di Pietro M, O'Donovan M, Maroni R, Muldrew B, Debiram-Beecham I, Gehrung M, Offman J, Tripathi M, Smith SG, Aigret B, Walter FM, Rubin G, BEST3 Trial team, Sasieni P.</authors>
+<title>Cytosponge-trefoil factor 3 versus usual care to identify Barrett's oesophagus in a primary care setting: A multicentre, pragmatic, randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2020</pubdate>
+<volume>396</volume>
+<pages>333&#x2013;344.</pages>
+</reference>
+<reference id="pubmed32119928">
+<accessionId id="acc033" href="info:pmid/32119928" />
+<authors>Rubenstein JH, McConnell D, Waljee AK, Metko V, Nofz K, Khodadost M, Jiang L, Raghunathan T.</authors>
+<title>Validation and comparison of tools for selecting individuals to screen for Barrett's esophagus and early neoplasia.</title>
+<source>Gastroenterology</source>
+<pubdate>2020</pubdate>
+<volume>158</volume>
+<pages>2082&#x2013;2092.</pages>
+</reference>
+<reference id="pubmed33982936">
+<accessionId id="acc034" href="info:pmid/33982936" />
+<authors>Frei NF, Khoshiwal AM, Konte K, Bossart EA, Stebbins K, Zhang Y, Pouw RE, Ten Kate FJW, Seldenrijk KA, Meijer SL, Critchley-Thorne RJ, Bergman JJGHM.</authors>
+<title>Tissue systems pathology test objectively risk stratifies Barrett's esophagus patients with low-grade dysplasia.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2021</pubdate>
+<volume>116</volume>
+<pages>675&#x2013;682.</pages>
+</reference>
+<reference id="pubmed32558685">
+<accessionId id="acc035" href="info:pmid/32558685" />
+<authors>Iyer PG, Taylor WR, Johnson ML, Lansing RL, Maixner KA, Hemminger LL, Cayer FK, Yab TC, Devens ME, Slettedahl SW, Broderick BT, Mahoney DW, McGlinch MC, Berger CK, Foote PH, Giakomopoulos M, Allawi H, Smyrk TC, Wang KK, Katzka DA, Wolfsen HC, Burke JA, Ahlquist DA, Kisiel JB.</authors>
+<title>Accurate nonendoscopic detection of Barrett's esophagus by methylated DNA markers: A multisite case control study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2020</pubdate>
+<volume>115</volume>
+<pages>1201&#x2013;1209.</pages>
+</reference>
+<reference id="pubmed12145799">
+<accessionId id="acc036" href="info:pmid/12145799" />
+<authors>Gerson LB, Shetler K, Triadafilopoulos G.</authors>
+<title>Prevalence of Barrett's esophagus in asymptomatic individuals.</title>
+<source>Gastroenterology</source>
+<pubdate>2002</pubdate>
+<volume>123</volume>
+<pages>461&#x2013;7.</pages>
+</reference>
+<reference id="pubmed33753417">
+<accessionId id="acc037" href="info:pmid/33753417" />
+<authors>van Munster S, Nieuwenhuis E, Weusten BLAM, Alvarez Herrero L, Bogte A, Alkhalaf A, Schenk BE, Schoon EJ, Curvers W, Koch AD, van de Ven SEM, de Jonge PJF, Tang TJ, Nagengast WB, Peters FTM, Westerhof J, Houben MHMG, Bergman JJ, Pouw RE, Dutch Barrett Expert Centers.</authors>
+<title>Long-term outcomes after endoscopic treatment for Barrett's neoplasia with radiofrequency ablation &#x00B1; endoscopic resection: results from the national Dutch database in a 10-year period.</title>
+<source>Gut</source>
+<pubdate>2022</pubdate>
+<volume>71</volume>
+<pages>265&#x2013;276.</pages>
+</reference>
+<reference id="pubmed35354777">
+<accessionId id="acc038" href="info:pmid/35354777" />
+<authors>Shaheen NJ, Falk GW, Iyer PG, Souza RF, Yadlapati RH, Sauer BG, Wani S.</authors>
+<title>Diagnosis and Management of Barrett's Esophagus: An Updated ACG Guideline.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2022</pubdate>
+<volume>117</volume>
+<pages>559&#x2013;587.</pages>
+</reference>
+<reference id="pubmed19840798">
+<accessionId id="acc039" href="info:pmid/19840798" />
+<authors>Barbiere JM, Lyratzopoulos G.</authors>
+<title>Cost-effectiveness of endoscopic screening followed by surveillance for Barrett's esophagus: a review.</title>
+<source>Gastroenterology</source>
+<pubdate>2009</pubdate>
+<volume>137</volume>
+<pages>1869&#x2013;76.</pages>
+</reference>
+<reference id="pubmed15476150">
+<accessionId id="acc040" href="info:pmid/15476150" />
+<authors>Gerson LB, Groeneveld PW, Triadafilopoulos G.</authors>
+<title>Cost-effectiveness model of endoscopic screening and surveillance in patients with gastroesophageal reflux disease.</title>
+<source>Clin Gastroenterol Hepatol</source>
+<pubdate>2004</pubdate>
+<volume>2</volume>
+<pages>868&#x2013;79.</pages>
+</reference>
+<reference id="pubmed22315471">
+<accessionId id="acc041" href="info:pmid/22315471" />
+<authors>Sharma P, Hawes RH, Bansal A, Gupta N, Curvers W, Rastogi A, Singh M, Hall M, Mathur SC, Wani SB, Hoffman B, Gaddam S, Fockens P, Bergman JJ.</authors>
+<title>Standard endoscopy with random biopsies versus narrow band imaging targeted biopsies in Barrett's oesophagus: a prospective, international, randomised controlled trial.</title>
+<source>Gut</source>
+<pubdate>2013</pubdate>
+<volume>62</volume>
+<pages>15&#x2013;21.</pages>
+</reference>
+<reference id="pubmed38763697">
+<accessionId id="acc042" href="info:pmid/38763697" />
+<authors>Rubenstein JH, Sawas T, Wani S, Eluri S, Singh S, Chandar AK, Perumpail RB, Inadomi JM, Thrift AP, Piscoya A, Sultan S, Singh S, Katzka D, Davitkov P.</authors>
+<title>AGA Clinical Practice Guideline on Endoscopic Eradication Therapy of Barrett's Esophagus and Related Neoplasia.</title>
+<source>Gastroenterology</source>
+<pubdate>2024</pubdate>
+<volume>166</volume>
+<pages>1020&#x2013;1055.</pages>
+</reference>
+<reference id="pubmed37863992">
+<accessionId id="acc043" href="info:pmid/37863992" />
+<authors>Smith ZL, Thorgerson AM, Dawson AZ, Wani S .</authors>
+<title>Incidence of Esophageal Adenocarcinoma, Mortality, and Esophagectomy in Barrett's Esophagus Patients Undergoing Endoscopic Eradication Therapy.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2023</pubdate>
+<volume>68</volume>
+<pages>4439&#x2013;4448.</pages>
+</reference>
+<reference id="pubmed38989889">
+<accessionId id="acc044" href="info:pmid/38989889" />
+<authors>Greer KB, Blum AE, Faulx AL , Deming EM , Hricik LL , Siddiqui H, Wilson BM , Chak A .</authors>
+<title>Nonendoscopic Screening for Barrett's Esophagus and Esophageal Adenocarcinoma in At-Risk Veterans.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2025</pubdate>
+<volume>120</volume>
+<pages>545&#x2013;553.</pages>
+</reference>
+<reference id="pubmed38686933">
+<accessionId id="acc045" href="info:pmid/38686933" />
+<authors>Moinova HR , Verma S, Dumot J , Faulx A , Iyer PG, Canto MI , Wang JS , Shaheen NJ, Thota PN, Aklog L, Willis JE , Markowitz SD, Chak A .</authors>
+<title>Multicenter, Prospective Trial of Nonendoscopic Biomarker-Driven Detection of Barrett's Esophagus and Esophageal Adenocarcinoma.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2024</pubdate>
+<volume>119</volume>
+<pages>2206&#x2013;2214.</pages>
+</reference>
+<reference id="pubmed39692638">
+<accessionId id="acc046" href="info:pmid/39692638" />
+<authors>ASGE Standards of Practice Committee, Desai M, Ruan W, Thosani NC, Amaris M, Scott JS, Saeed A, Abu Dayyeh B, Canto MI, Abidi W, Alipour O, Amateau SK, Cosgrove N, Elhanafi SE, Forbes N, Kohli DR, Kwon RS, Fujii-Lau LL, Machicado JD, Marya NB, Ngamruengphong S, Pawa S, Sheth SG, Thiruvengadam NR, Qumseya BJ, ASGE Standards of Practice Committee Chair.</authors>
+<title>American Society for Gastrointestinal Endoscopy guideline on the diagnosis and management of GERD: summary and recommendations.</title>
+<source>Gastrointest Endosc</source>
+<pubdate>2025</pubdate>
+<volume>101</volume>
+<pages>267&#x2013;284.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Treatment Options for High-Grade Dysplasia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="center" colspan="1">Method</th>
+<th align="center" colspan="1">Advantage</th>
+<th align="center" colspan="1">Disadvantage</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Esophagectomy</strong></td>
+<td align="left" colspan="1">Definitive therapy</td>
+<td align="left" colspan="1">Variable mortality rate 3.0&#x0025; to 13&#x0025; depending on institution<sup>1</sup></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Endoscopic mucosal ablation</strong> *(in conjunction with acid suppression**)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; Photodynamic therapy</td>
+<td align="left" colspan="1">Decreasing cancer risk from 28&#x0025; to 13&#x0025; in randomized control trial<sup>2</sup></td>
+<td align="left" colspan="1">Limited long-term data on outcomes and high rate (36&#x0025;) of stricture formation<sup>2</sup></td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; Thermal ablation</td>
+<td align="left" colspan="1">Success rate 80-90&#x0025;<sup>4</sup></td>
+<td align="left" colspan="1">Only small cohorts of patients followed over short periods of time</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; Radiofrequency ablation</td>
+<td align="left" colspan="1">Success rate 70&#x0025;<sup>5</sup></td>
+<td align="left" colspan="1">Complication such as stricture formation, esophageal perforation and gastrointestinal bleeding</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2022; Cryotherapy</td>
+<td align="left" colspan="1">Resolution of high-grade dysplasia in 68&#x0025; to 94&#x0025; of patients in prospective trials<sup>6,7</sup></td>
+<td align="left" colspan="1">Limited data on efficacy; only short-term follow-up; approximately only 60 institutions provide this intervention</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Endoscopic mucosal resection***</td>
+<td align="left" colspan="1">Both diagnostic and therapeutic; calculated 5-year survival rate of 98&#x0025;<sup>8</sup></td>
+<td align="left" colspan="1">Recurrence rates of 11&#x0025;<sup>8</sup> and stricture formation</td>
+</tr>
+</table>*The combination of control of esophageal acid exposure and reinjury of the metaplastic epithelium reverses BE to squamous epithelium as determined by endoscopy and biopsy. **The degree of acid suppression has not been established. ***Should be undergone in high-grade dysplasia with mucosal irregularity such as nodularity or ulcer. <sup>1</sup>Swisher SG, Deford L, Merriman KW, Walsh GL, Smythe R, Vaporicyan A, Ajani JA, Brown T, Komaki R, Roth JA, Putnam JB. Effect of operative volume on morbidity, mortality, and hospital use after esophagectomy for cancer. <em>J Thorac Cardiovasc Surg</em> 2000;<strong>119</strong>(6):1126-1132. <sup>2</sup>Overholt BF, Wang KK, Burdick JS, et al. 2007. Five-year efficacy and safety of photodynamic therapy with Photofrin in Barrett's high-grade dysplasia. International Photodynamic Group for High-Grade Dysplasia in Barrett's Esophagus. <em>Gastrointest Endosc</em> 2007;<strong>66</strong>:460-468. <sup>3</sup>Prasad GA, Wang KK, Buttar NS, Wongkeesong LM, Krishnadath KK, Nichols FC 3rd, Lutzke LS, Borkenhagen LS. Long-term survival following endoscopic and surgical treatment of high-grade dysplasia in Barrett's esophagus. <em>Gastroenterology</em> 2007 Apr;<strong>132</strong>(4):1226-1233. <sup>4</sup>Wang KK, Sampliner RE; Practice Parameters Committee of the American College of Gastroenterology. Updated guidelines 2008 for the diagnosis, surveillance and therapy of Barrett's esophagus. <em>Am J Gastroenterol</em> 2008 Mar;<strong>103</strong>(3):788-797. <sup>5</sup>Sharma P, Wani S, Weston AP, et al. A randomised controlled trial of ablation of Barrett's oesophagus with multipolar electrocoagulation versus argon plasma coagulation in combination with acid suppression: long term results. <em>Gut</em> 2006 Sep;<strong>55</strong>(9):1233-1239. <sup>6</sup>Dumot JA, Vargo JJ 2nd, Falk GW, Frey L, Lopez R, Rice TW. An open-label, prospective trial of cryospray ablation for Barrett's esophagus high-grade dysplasia and early esophageal cancer in high-risk patients. <em>Gastrointest Endosc</em> 2009 Oct;<strong>70</strong>(4):635-644. <sup>7</sup>Greenwald BD, Dumot JA, Horwhat JD, Lightdale CJ, Abrams JA. Safety, tolerability, and efficacy of endoscopic low-pressure liquid nitrogen spray cryotherapy in the esophagus. <em>Dis Esophagus</em> 2010 Jan;<strong>23</strong>(1):13-19. <sup>8</sup>Ell C, May A, Gossner L, et al. Endoscopic mucosal resection of early cancer and high grade dysplasia in Barrett's esophagus. <em>Gastroenterology</em> 2000 Apr;<strong>118</strong>(4):670-677.</feature_body>
+</feature>
+<feature id="table002">
+<caption>ACG and AGA Guidelines for Management of Nodular and Non-nodular BE.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Lesion</th>
+<th align="left" colspan="1">Recommended treatment</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Non-Nodular BE&#x2014;</strong>perform systematic cold biopsy</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Nondysplastic BE</td>
+<td align="left" colspan="1">Repeat EGD with biopsies in 3 years (&#x2265; 3cm BE) to 5 years (&lt;3cm BE)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Indefinite for dysplasia</td>
+<td align="left" colspan="1">Confirm with second pathologistRepeat EGD within 6 mo after increasing PPI to twice-daily dosing, if not already on high-dose PPI.If repeat EGD yields diagnosis of NDBE or LGD, treat using that algorithm.If repeat EGD demonstrates BE indefinite for dysplasia, EGD annually</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Confirmed low-grade dysplasia</td>
+<td align="left" colspan="1">Endoscopic ablative therapy (surveillance at 6 and 12 months from diagnosis and annually thereafter is an option)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Confirmed high-grade dysplasia</td>
+<td align="left" colspan="1">Endoscopic ablative therapy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T1a esophageal adenocarcinoma with favorable characteristics for endoscopic therapy</td>
+<td align="left" colspan="1">Endoscopic ablative therapy</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Nodular BE&#x2014;</strong>perform endoscopic mucosal resection of visible lesions followed by ablative therapy</td>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Low-grade dysplasia</td>
+<td align="left" colspan="1">Endoscopic ablative therapy (surveillance is an option)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">High-grade dysplasia</td>
+<td align="left" colspan="1">Endoscopic ablative therapy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T1a esophageal adenocarcinoma with favorable histology</td>
+<td align="left" colspan="1">Endoscopic ablative therapy</td>
+</tr>
+<tr>
+<td align="left" colspan="1">T1a EAC with unfavorable histology, or T1b EAC</td>
+<td align="left" colspan="1">Discuss at multidisciplinary oncology group</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+<figure_group>
+<figure id="fig001">
+<caption>Approach to Patient. Consider Screening EGD Based on ASGE and AGA cirteria.<xref ref="pubmed35354777" resource="acc038" /> CEIM&#x003D;complete elimination of intestinal metaplasia</caption>
+<graphic href="eee0169-w0001.gif" />
+<caption_detail />
+</figure>
+</figure_group>
+</topic>

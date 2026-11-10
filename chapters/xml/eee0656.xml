@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Acute bronchitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0656</topic_id>
+<topic_comment />
+<topic_lastupdated>05/27/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mark H. Ebell, MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Allen F. Shaughnessy, PharmD</author_name>
+<author_title>Professor</author_title>
+<author_department>Department of Public Health and Family Medicine</author_department>
+<author_institution>Tufts University School of Medicine</author_institution>
+<author_email>allen.shaughnessy&#x0040;tufts.edu</author_email>
+<author_phone_office>781-338-0507</author_phone_office>
+<author_phone_home>857-523-8723</author_phone_home>
+<author_phone_fax>781-338-0150</author_phone_fax>
+<author_street1>195 Canal Street</author_street1>
+<author_street2 />
+<author_city>Melrose</author_city>
+<author_state>MA</author_state>
+<author_zip>02176</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Acute bronchitis is an acute lower respiratory tract infection where community-acquired pneumonia has been excluded clinically or based on chest radiograph. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Antibiotic treatment only minimally decreases the duration of symptoms and is not recommended due to associated harms and cost. Delayed antibiotics are a safe, effective strategy for reducing inappropriate antibiotics. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane4417" resource="acc038" /></listitem>
+<listitem>There is no good quality evidence supporting or refuting the benefit of oral corticosteroids (unless comorbid COPD or asthma), antitussives, mucolytics, or expectorants in adults. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Children under the age of 6 years should not receive antitussives, mucolytics, or expectorants. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>When clinical diagnosis remains uncertain in a high-risk patient with acute respiratory tract infection, consider using procalcitonin (PCT) to guide antibiotic initiation and cessation. <evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Acute bronchitis is a clinical diagnosis, and is an acute lower respiratory tract infection with cough as the predominant symptom, with or without sputum production, usually lasting 10 days to 3 weeks. Patients will not have clinical or radiographic evidence of pneumonia, and will not have the common cold, acute asthma exacerbation, or an exacerbation of chronic obstructive pulmonary disease (COPD).</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Fifty per 1000 people per year.<xref ref="pubmed15782448" resource="acc001" /></listitem>
+<listitem>Ten ambulatory visits per 1000 people per year.<xref ref="pubmed15782448" resource="acc001" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact>
+<list style="bulleted">
+<listitem>Ten million office visits per year.<xref ref="pubmed15782448" resource="acc001" /></listitem>
+</list>
+</economic_impact>
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Respiratory viruses (90&#x0025;) including influenza B, influenza A, parainfluenza, and respiratory syncytial virus.<xref ref="pubmed9323784" resource="acc002" /></listitem>
+<listitem>Bacterial causes (&lt;10&#x0025;) include <em>Mycoplasma pneumoniae</em>, <em>Chlamydia pneumoniae</em>, <em>Bordetella pertussis</em>, and <em>Bordetella parapertussis</em>.<xref ref="pubmed11119400" resource="acc003" /></listitem>
+<listitem>An observational study of 618 adults with acute LRTI and PCR for 46 pathogens found at least one viral potential pathogen in 17&#x0025;, one or more bacterial pathogens in 34&#x0025;, a mix of viral and bacterial pathogens in 27&#x0025;, and no detection in the remainder. The most common potential bacterial pathogens were Haemophilus influenza (28.0&#x0025;), Moraxella catarrhalis (16.2&#x0025;), and Streptococcus pneumoniae (10.2&#x0025;), whereas the most common viral pathogens were rhinovirus (17.3&#x0025;), influenza (12.8&#x0025;), SARS-CoV-2 (11.5&#x0025;), and seasonal coronaviruses (8.1&#x0025;).<xref ref="pubmed38977076" resource="acc063" /></listitem>
+<listitem>A study of over 3000 adults with acute cough found a prevalence of pertussis of 3&#x0025;. A systematic review found prevalence of pertussis of 18&#x0025; in children with at least 2 weeks of cough.<xref ref="pubmed28376442" resource="acc040" /></listitem>
+<listitem>In patients taking an ACE inhibitor with a cough, it should not be assumed that the cough is always caused by the ACE inhibitor. In randomized trials, about 13.5&#x0025; of patients taking an ACE reported a cough, compared with 8.5&#x0025; given placebo.<xref ref="poem2109114" resource="acc049" /></listitem>
+<listitem>A well done systematic review of 21 prevalence studies found that in Western countries, cough was caused by respiratory tract infections in 73&#x0025; to 92&#x0025; of patients, influenza in 6&#x0025; to 15&#x0025;, asthma in 3&#x0025; to 15&#x0025;, laryngitis&#x002F;tracheitis in 4&#x0025; to 9&#x0025;, pneumonia in 4&#x0025;, COPD in 0.5&#x0025; to 3.3&#x0025;, and suspected malignancy in 0.2&#x0025; to 1.8&#x0025;.<xref ref="pubmed34253179" resource="acc055" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Cough is likely due to mucosal injury, epithelial cell damage, and the release of inflammatory mediators.</listitem>
+<listitem>Transient airflow obstruction and transient bronchial hyperresponsiveness occur in &#x007E;40&#x0025; of healthy individuals.<xref ref="pubmed3625141" resource="acc004" /></listitem>
+<listitem>Reversible decline in lung function (forced expiratory volume in 1 second reduction &gt;15&#x0025;) occurs in 17&#x0025; of patients.<xref ref="pubmed7925901" resource="acc005" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Based on indirect evidence that Pneumococcus is a common bacterial cause of acute bronchitis or pneumonia following acute bronchitis, pneumococcal vaccine should be considered for eligible patients. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Recommend influenza vaccine each fall to all patients at risk for complications of influenza. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Recommend <resourceLink href="info:wiley/eep-eee/837">smoking cessation.</resourceLink><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>High dose vitamin D does not reduce wintertime respiratory infections in healthy young children. <evidence rating="B" system="SORT">B</evidence><xref ref="poem190916" resource="acc045" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Clinical diagnosis is based on a history of sudden onset of cough without evidence of other respiratory causes. Sputum production, either amount, color, or other characteristic should not influence diagnosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Chest radiography, viral cultures, serological assays are usually not necessary, especially in patients with normal vital signs and a normal lung exam.<xref ref="pubmed2745948" resource="acc041" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Close contacts of symptomatic people with confirmed pertussis should be considered to have pertussis and should be treated. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>When clinical diagnosis remains uncertain in a high-risk patient with acute respiratory tract infection, consider using procalcitonin (PCT) to guide antibiotic initiation and cessation as this management strategy decreases mortality, antibiotic use, and antibiotic-associated adverse events regardless of the clinical setting (eg, outpatient, emergency department, inpatient, ICU). <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane7498" resource="acc057" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Pneumonia</Differential_Name>
+<Differential_Features>See <xref ref="table001" /></Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Common cold</Differential_Name>
+<Differential_Features>Coryza, pharyngitis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute asthma</Differential_Name>
+<Differential_Features>Audible wheezes, previous history, and afebrile</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute exacerbation of COPD</Differential_Name>
+<Differential_Features>History</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Heart failure</Differential_Name>
+<Differential_Features>Bibasilar rales, orthopnea</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Reflux esophagitis</Differential_Name>
+<Differential_Features>Worsens when lying down, heartburn</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute sinusitis</Differential_Name>
+<Differential_Features>Nasal congestion, pain over sinuses</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Patients typically present with the sudden onset of cough with or without fever but without other respiratory findings. Production of sputum or presence of purulent sputum does not distinguish between pneumonia and acute bronchitis.</listitem>
+<listitem>Patients with normal vital signs and normal lung exam have a very low likelihood of pneumonia and generally do not require radiographs or antibiotics.<xref ref="pubmed2745948" resource="acc041" /></listitem>
+<listitem>Airflow obstruction may be present and may result in audible wheezes or a decrease in lung function on testing. Peak flow testing may help guide the decision to use a beta-agonist inhaler.</listitem>
+<listitem>Patients may have their own theory as to the cause of their cough and may change their story to fit their theory. Asking patients what they think is going on may help understand their history.<xref ref="poem377" resource="acc006" /></listitem>
+<listitem>Clinical examination does not distinguish viral from bacterial respiratory tract infections (LR+ 1.2; LR&#x2013; 0.8).<xref ref="poem40563" resource="acc007" /></listitem>
+<listitem>Close contacts of a person with a confirmed or likely pertussis infection strongly suggests the same diagnosis. A cough lasting at least 2 weeks without another apparent cause, accompanied by paroxysms of cough, posttussive vomiting, or a characteristic whoop, is sufficient for a diagnosis of pertussis. A systematic review concluded that the overall clinical impression was the most accurate sign or symptom for pertussis (LR+ 3.3, LR- 0.6). Whooping (LR+ 2.1) and post-tussive vomiting (LR+ 1.7) were also helpful.<xref ref="pubmed28484063" resource="acc042" /></listitem>
+<listitem>Epidemiologic outbreaks in military personnel and college students may be due to <em>M. pneumoniae</em> or <em>C. pneumoniae</em>.</listitem>
+<listitem>Transient wheezing does not indicate asthma but may be a prominent feature in patients with underlying chronic asthma.</listitem>
+<listitem>Patients may use the term "congestion" to include mucus or sputum in the chest.<xref ref="poem211016" resource="acc051" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>No additional diagnostic testing usually required in adults, especially with normal lung exam and normal vital signs.<xref ref="pubmed2745948" resource="acc041" /></listitem>
+<listitem>A procalcitonin (PCT) level of &gt;2 ng&#x002F;mL or a CRP level of &gt;6.5 mg&#x002F;dL may help distinguish bacterial from viral causes of RTI in children with fair sensitivity and specificity.<xref ref="pubmed14614368" resource="acc008" /> One randomized trial set in the ED did find that PCT-guided care significantly reduced antibiotic prescribing for patients given a clinical diagnosis of acute bronchitis (17&#x0025; vs 32&#x0025;, NNT &#x003D; 7).<xref ref="poem200706" resource="acc043" /> A Cochrane meta-analysis of 32 RCTs involving 6,708 patients with acute respiratory tract infections (ARIs) across 12 countries concluded that PCT-guided antibiotic initiation and cessation decreases mortality, antibiotic use, and antibiotic-associated adverse events regardless of clinical setting (eg, outpatient, emergency department, inpatient, ICU) or type of ARIs.<xref ref="cochrane7498" resource="acc057" /></listitem>
+<listitem>However, a second RCT of children presenting to the pediatric ED with fever or respiratory symptoms found that an 18 pathogen respiratory panel did not change antibiotic usage, ED stay, or hospitalization.<xref ref="poem372894" resource="acc054" /></listitem>
+<listitem>When pertussis is clinically suspected, PCR confirmation of the diagnosis using nasopharyngeal swab is recommended.</listitem>
+<listitem>A CXR is not necessary unless a patient has one or more signs listed in <xref ref="table001" />.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The <xref ref="rule545" resource="acc059">STARWAVe clinical prediction rule</xref> uses 7 items to predict the risk of hospitalization in children with acute cough.<xref ref="rule545" resource="acc059" /> It has been shown to improve the accuracy of physician decision-making.<xref ref="pubmed36823069" resource="acc060" /></listitem>
+<listitem>A <xref ref="rule185" resource="acc061">simple 3 item risk score</xref> predicts the likellihood of pneumonia in adults with acute cough.<xref ref="rule185" resource="acc061" /></listitem>
+<listitem>The <xref ref="rule550" resource="acc064">GRACE prediction rule</xref> estimates the risk of pneumonia in adults with acute cough.<xref ref="rule550" resource="acc064" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Clinical diagnosis is based on history of sudden onset of cough without evidence of pneumonia, common cold symptoms, acute asthma, or acute exacerbation of chronic bronchitis. Fever and sputum production may or may not be present.</listitem>
+<listitem>CXR, viral cultures, serologic assays are not necessary unless pneumonia is clinically suspected based on abnormal lung exam or vital signs.</listitem>
+<listitem>Treatment is symptomatic and should not involve antibiotics for most patients.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>213</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>326</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Antibiotic treatment should not be used except for those suspected to have <resourceLink href="info:wiley/eep-eee/566">pertussis.</resourceLink><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Delayed antibiotics are a safe, effective strategy for reducing inappropriate antibiotics. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane4417" resource="acc038" /></listitem>
+<listitem>There is no good evidence supporting or refuting the effectiveness of antitussives, expectorants, mucolytics, or antihistamine-decongestant combinations in adults. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1831" resource="acc009" /></listitem>
+<listitem>Oral corticosteroids are not effective and should only be used if the patient has asthma or COPD exacerbation. <evidence rating="B" system="SORT">B</evidence><xref ref="poem191114" resource="acc039" /></listitem>
+<listitem>Beta-agonist inhalers should not be routinely used but may be helpful in patients with wheeze accompanying cough. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Cough suppressants should not be used in children under the age of 6 years. <evidence rating="B" system="SORT">B</evidence><xref ref="poem60954" resource="acc010" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Antibiotics</strong></listitem>
+<listitem>Antibiotic treatment should not be offered to patients except for those suspected to have <resourceLink href="info:wiley/eep-eee/566">pertussis.</resourceLink> Antibiotic treatment is only marginally effective for adults or children with cough and RTIs that is not pneumonia, including patients with fever and green sputum.<xref ref="poem40869" resource="acc011" /><xref ref="poem883" resource="acc012" /><xref ref="cochrane245" resource="acc013" /> A recent study found that at best, over 4400 patients would have to be treated to prevent one episode of pneumonia.<xref ref="poem100153" resource="acc014" /></listitem>
+<listitem>Another study set in Africa again found no benefit, even in HIV-positive patients, of amoxicillin.</listitem>
+<listitem>Well designed randomized trials have found that macrolide antibiotics are no more effective than vitamin C, amoxicillin, or amoxicillin-clavulanate. In a well-designed US RCT comparing azithromycin to a low dose of vitamin C, there was no difference in outcomes, including in patients with fever or purulent sputum.<xref ref="poem40869" resource="acc011" /><xref ref="poem40811" resource="acc015" /><xref ref="cochrane1954" resource="acc016" /></listitem>
+<listitem>Antibiotics are no more effective in smokers than nonsmokers, and may be less effective.<xref ref="pubmed11929510" resource="acc017" /> Patients over the age of 75 years with fever; patients with COPD, heart failure, insulin-dependent diabetes; or immunocompromised patients should be considered for antibiotic treatment.<xref ref="web001" /> Amoxicillin is first line, doxycycline is second line. The duration of treatment is 5 days.<xref ref="web001" /></listitem>
+<listitem>Macrolide antibiotics should be used for adults and children with confirmed or probable whooping cough (<resourceLink href="info:wiley/eep-eee/566">pertussis</resourceLink>).</listitem>
+<listitem>For children with 4 weeks or more of "wet cough", a meta-analysis of 3 trials with 190 children concluded that antibiotics were effectively at reducing the proportion not cured at follow-up (OR 0.15, NNT &#x003D; 3).<xref ref="cochrane4822" resource="acc046" /></listitem>
+<listitem>A large US observational study concluded that patients who received antibiotics had a similar duration and severity of acute LRTI than those who did not.<xref ref="pubmed38977076" resource="acc063" /><xref ref="pubmed38619737" resource="acc062" /></listitem>
+<listitem><strong>Antibiotic stewardship</strong></listitem>
+<listitem>A <em>delayed</em> prescription is a good strategy for reducing antibiotic use, and are well accepted by patients. A Cochrane review found 12 studies with 3968 participants comparing <em>immediate</em> antibiotics, <em>delayed</em> antibiotics, and <em>no</em> antibiotics strategies for patients with acute respiratory infections. <em>Delayed</em> antibiotics strategy appears to decrease the rate of antibiotic use compared to <em>immediate</em> antibiotics and appears comparable to <em>no</em> antibiotics in terms of symptom control and disease complications. However, <em>no</em> antibiotics approach (with advice to return if symptoms do not resolve) appears to have the lowest rate of antibiotic use while maintaining comparable clinical and patient satisfaction outcomes compared to <em>delayed</em> prescription strategy.<xref ref="cochrane4417" resource="acc038" /></listitem>
+<listitem>Not prescribing antibiotics for children with colds or bronchitis does not increase the duration of the office visit.<xref ref="poem80243" resource="acc022" /></listitem>
+<listitem><strong>Other medications</strong></listitem>
+<listitem>A well-designed and appropriately powered RCT found no benefit from prescribing oral prednisolone (40 mg per day for 5 days) on symptom duration or severity in adults without asthma presenting for acute lower respiratory tract infection. This was even true for the subset presenting with wheezing and or shortness of breath.<xref ref="poem191114" resource="acc039" /></listitem>
+<listitem>There is no good evidence supporting or refuting the effectiveness of antitussives, expectorants, mucolytics, or antihistamine-decongestant combinations in adults.<xref ref="poem200611" resource="acc044" /><xref ref="cochrane1831" resource="acc009" /> If patients find them helpful, they should continue using them for short-term relief.</listitem>
+<listitem>Naproxen reduced cold symptoms in patients presenting with cough in one RCT.<xref ref="pubmed1317694" resource="acc019" /> However, another RCT found no difference between cough duration in patients with acute bronchitis treated with ibuprofen or placebo.<xref ref="PubMed24097128" resource="acc036" /></listitem>
+<listitem>Beta-agonist inhalers should not be routinely used. They do not decrease daily symptom scores or the presence of cough, night cough, or productive cough in undifferentiated patients. They may be helpful in patients with chronic asthma and patients with documented airflow obstruction or wheezing.<xref ref="poem40212" resource="acc020" /><xref ref="cochrane1726" resource="acc021" /></listitem>
+<listitem>For patients with subacute cough (up to 8 weeks) a systematic review found no good evidence to support a clinically meaningful benefit for any drug or non-drug therapies.<xref ref="poem201214" resource="acc048" /></listitem>
+<listitem>A randomized trial with 194 patients compared usual care, ipratroium bromide, dextromethorphan, and honey, and found no difference between groups. The study was somewhat underpowered, but the differences were small.<xref ref="poem397316" resource="acc058" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Pelargonium sidoides extract (Kalwerbossie, Rabassam, Unckaloabo in Germany) reduces symptoms to a greater extent than placebo, and more patients will report satisfaction with treatment.<xref ref="poem80254" resource="acc023" /> It also allows patients to return to work on an average of 2 days faster.<xref ref="poem60162" resource="acc024" /><xref ref="cochrane6323" resource="acc025" /></listitem>
+<listitem>Echinacea is ineffective for treating common cold symptoms.<xref ref="poem60959" resource="acc026" /><xref ref="poem50453" resource="acc027" /></listitem>
+<listitem>There is insufficient evidence regarding the efficacy of Chinese herbal remedies, including <em>Astragalus</em> (Huang qi), for acute bronchitis.<xref ref="cochrane4560" resource="acc028" /><xref ref="cochrane11958" resource="acc056" /></listitem>
+<listitem>In children, honey is more effective than no treatment, diphenhydramine, and placebo and is similar to dextromethorphan for reducing cough.<xref ref="cochrane7094" resource="acc047" /></listitem>
+<listitem>A small RCT in adults with acute bronchitis found no benefit of honey over placebo.<xref ref="poem397316" resource="acc058" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Giving patients an information sheet explaining acute bronchitis and the advantages and disadvantages of antibiotics will decrease antibiotic use (NNT &#x003D; 8).<xref ref="poem40456" resource="acc029" /></listitem>
+<listitem>Referring to a patient's cough as a "chest cold" or "viral upper respiratory infection" instead of acute bronchitis may improve satisfaction with not receiving an antibiotic.<xref ref="poem80221" resource="acc030" /> When asked, only 11&#x0025; of patients thought that antibiotic therapy was important to recover from "chest colds."<xref ref="pubmed11059444" resource="acc032" /></listitem>
+<listitem><em>Delayed</em> prescriptions (giving an antibiotic prescription but asking patient to only fill it if there is no improvement in 48 hours) has been suggested. In randomized trials, it produced similar outcomes and patient satisfaction compared to <em>immediate</em> antibiotic treatment.<xref ref="poem180305" resource="acc037" /> However, <em>no</em> antibiotics approach (with advice to return if symptoms do not resolve) appears to have the lowest rate of antibiotic use while maintaining comparable clinical and patient satisfaction outcomes compared to <em>delayed</em> prescription strategy.<xref ref="cochrane4417" resource="acc038" /></listitem>
+<listitem>There is no evidence for or against the recommendation to increase fluids in acute respiratory infection.<xref ref="cochrane4419" resource="acc033" /> Overly aggressive increase in fluids in infants or the elderly risks hyponatremia.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Cough will last about 3 weeks for the majority of patients and for at least 1 month in 25&#x0025;. <evidence rating="B" system="SORT">B</evidence><xref ref="poem70826" resource="acc035" /></listitem>
+<listitem>In children, 90&#x0025; of respiratory infections will resolve in 3 weeks. <evidence rating="B" system="SORT">B</evidence><xref ref="poem210308" resource="acc050" /></listitem>
+<listitem>In adults, about 90&#x0025; of LRTI will resolve in 4 weeks.<xref ref="pubmed38977076" resource="acc063" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>There is little relationship between the etiology of cough (viral or bacterial) and symptoms or duration. <evidence rating="B" system="SORT">B</evidence><xref ref="poem221117" resource="acc053" /></listitem>
+<listitem>Factors predicting a serious adverse event (death, admission to hospital, pneumonia) for patients with acute LRTI include: absence of coryza, fever, chest pain, clinician-assessed severity, age &gt;65 years, comorbidity, oxygen saturation &lt;95&#x0025;, and hypotension. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed31085527" resource="acc052" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education>
+<list style="bulleted">
+<listitem>A chest cold does not require antibiotics (use this phrase instead of "acute bronchitis").</listitem>
+<listitem>Cough suppressants and expectorants can be tried but usually are ineffective.</listitem>
+<listitem>The cough will last approximately 3 weeks, but may last longer in about 1 in 4 people.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Inhaled beta-agonists are US Food and Drug Administration category C in pregnancy. Oral beta-agonists should not be used because of their potential to inhibit delivery.<xref ref="pubmed9314340" resource="acc034" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>CXR in children with acute lower respiratory infections does not decrease subsequent visits or hospitalizations.<xref ref="cochrane1268" resource="acc031" /></listitem>
+<listitem>Cough suppressants should not be used in children under age 6 years. Cough suppressants are no more effective than placebo in children in decreasing cough or sleep when used at night, although both will decrease cough scores by more than 50&#x0025;.<xref ref="poem60954" resource="acc010" /></listitem>
+<listitem>A Cochrane review concluded that honey is probably effective compared to diphenhydramine or no treatment, and is similar to dextromethorphan.<xref ref="cochrane7094" resource="acc047" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed15782448">
+<accessionId id="acc001" href="info:pmid/15782448" />
+<authors>Adams PF, Hendershot GE, Marano MA; Centers for Disease Control and Prevention&#x002F;National Center for Health Statistics.</authors>
+<title>Current estimates from the National Health Interview Survey, 1996.</title>
+<source>Vital Health Stat 10</source>
+<pubdate>1999</pubdate>
+<pages>1&#x2013;203.</pages>
+</reference>
+<reference id="pubmed9323784">
+<accessionId id="acc002" href="info:pmid/9323784" />
+<authors>Jonsson J, Sigurdsson J, Kristonsson K, et al.</authors>
+<title>Acute bronchitis in adults. How close do we come to its aetiology in general practice?</title>
+<source>Scand J Prim Health Care</source>
+<pubdate>1997</pubdate>
+<volume>15</volume>
+<pages>156&#x2013;160.</pages>
+</reference>
+<reference id="pubmed11119400">
+<accessionId id="acc003" href="info:pmid/11119400" />
+<authors>Gonzales R, Sande M.</authors>
+<title>Uncomplicated acute bronchitis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2000</pubdate>
+<volume>133</volume>
+<pages>981&#x2013;991.</pages>
+</reference>
+<reference id="pubmed3625141">
+<accessionId id="acc004" href="info:pmid/3625141" />
+<authors>Williamson HA, Jr.</authors>
+<title>Pulmonary function tests in acute bronchitis: evidence for reversible airway obstruction.</title>
+<source>J Fam Pract</source>
+<pubdate>1997</pubdate>
+<volume>25</volume>
+<pages>251&#x2013;256.</pages>
+</reference>
+<reference id="pubmed7925901">
+<accessionId id="acc005" href="info:pmid/7925901" />
+<authors>Melbye H, Kondgerud J, Vorland L.</authors>
+<title>Reversible airflow limitation in adults with respiratory infection.</title>
+<source>Eur Respir J</source>
+<pubdate>1994</pubdate>
+<volume>7</volume>
+<pages>1239&#x2013;1245.</pages>
+</reference>
+<reference id="poem377">
+<accessionId id="acc006" href="info:wiley/eep-poem/377" />
+<accessionId id="acc006b" href="info:pmid/9487322" />
+<authors>Bergh KD.</authors>
+<title>The patient's differential diagnosis: unpredictable concerns in visits for acute cough.</title>
+<source>J Fam Pract</source>
+<pubdate>1998</pubdate>
+<volume>46</volume>
+<pages>153&#x2013;158.</pages>
+</reference>
+<reference id="poem40563">
+<accessionId id="acc007" href="info:wiley/eep-poem/40563" />
+<accessionId id="acc007b" href="info:pmid/11766873" />
+<authors>Lieberman D, Shvartzman P, Kornosky I.</authors>
+<title>Aetiology of respiratory tract infections: clinical assessment versus serological tests.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2001</pubdate>
+<volume>51</volume>
+<pages>999&#x2013;1001.</pages>
+</reference>
+<reference id="pubmed14614368">
+<accessionId id="acc008" href="info:pmid/14614368" />
+<authors>Prat C, Dominguez J, Rodrigo C, et al.</authors>
+<title>Procalcitonin, C-reactive protein and leukocyte count in children with lower respiratory tract infection.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>2003</pubdate>
+<volume>22</volume>
+<pages>963&#x2013;968.</pages>
+</reference>
+<reference id="cochrane1831">
+<accessionId id="acc009" href="info:wiley/cochrane/CD001831" />
+<chapter_authors>Smith SM, Schroeder K, Fahey T.</chapter_authors>
+<chapter_title>Over-the-counter (OTC) medications for acute cough in children and adults in community settings.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 11. Art. No.: CD001831. DOI: 10.1002&#x002F;14651858.CD001831.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem60954">
+<accessionId id="acc010" href="info:wiley/eep-poem/60954" />
+<accessionId id="acc010b" href="info:pmid/15231978" />
+<authors>Paul IM, Yoder KE, Crowell KR, et al.</authors>
+<title>Effect of dextromethorphan, diphenhydramine, and placebo on nocturnal cough and sleep quality for coughing children and their parents.</title>
+<source>Pediatrics</source>
+<pubdate>2004</pubdate>
+<volume>114</volume>
+<pages>e85&#x2013;e90.</pages>
+</reference>
+<reference id="poem40869">
+<accessionId id="acc011" href="info:wiley/eep-poem/40869" />
+<accessionId id="acc011b" href="info:pmid/12020525" />
+<authors>Evans AT, Husain S, Durairaj L, Sadowski LS, Charles-Damte M, Wang Y.</authors>
+<title>Azithromycin for acute bronchitis: a randomised, double-blind, controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2002</pubdate>
+<volume>359</volume>
+<pages>1648&#x2013;1654.</pages>
+</reference>
+<reference id="poem883">
+<accessionId id="acc012" href="info:wiley/eep-poem/883" />
+<accessionId id="acc012b" href="info:pmid/9866671" />
+<authors>Smucny JJ, Becker LA, Glazier RH, McIsaac W.</authors>
+<title>Are antibiotics effective treatment for acute bronchitis? A meta-analysis.</title>
+<source>J Fam Pract</source>
+<pubdate>1998</pubdate>
+<volume>47</volume>
+<pages>453&#x2013;460.</pages>
+</reference>
+<reference id="cochrane245">
+<accessionId id="acc013" href="info:wiley/cochrane/CD000245" />
+<chapter_authors>Smith SM, Fahey T, Smucny J, Becker LA.</chapter_authors>
+<chapter_title>Antibiotics for acute bronchitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 6. Art. No.: CD000245. DOI: 10.1002&#x002F;14651858.CD000245.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem100153">
+<accessionId id="acc014" href="info:wiley/eep-poem/100153" />
+<accessionId id="acc014b" href="info:pmid/17947744" />
+<authors>Petersen I, Johnson AM, Islam A, et al.</authors>
+<title>Protective effect of antibiotics against serious complications of common respiratory tract infections: retrospective cohort study with the UK General Practice Research Database.</title>
+<source>BMJ</source>
+<pubdate>2007</pubdate>
+<volume>335</volume>
+<pages>982&#x2013;987.</pages>
+</reference>
+<reference id="poem40811">
+<accessionId id="acc015" href="info:wiley/eep-poem/40811" />
+<accessionId id="acc015b" href="info:pmid/11978255" />
+<authors>Hopstaken RM, Nelemans P, Stobberingh EE, et al.</authors>
+<title>Is roxithromycin better than amoxicillin in the treatment of acute lower respiratory tract infections in primary care? A double-blind randomized controlled trial.</title>
+<source>J Fam Pract</source>
+<pubdate>2002</pubdate>
+<volume>51</volume>
+<pages>329&#x2013;336.</pages>
+</reference>
+<reference id="cochrane1954">
+<accessionId id="acc016" href="info:wiley/cochrane/CD001954" />
+<chapter_authors>Laopaiboon M, Panpanich R, Swa Mya K.</chapter_authors>
+<chapter_title>Azithromycin for acute lower respiratory tract infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 3. Art. No.: CD001954. DOI: 10.1002&#x002F;14651858.CD001954.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed11929510">
+<accessionId id="acc017" href="info:pmid/11929510" />
+<authors>Linder JA, Sim I.</authors>
+<title>Antibiotic treatment of acute bronchitis in smokers: a asystematic review.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2002</pubdate>
+<volume>17</volume>
+<pages>230&#x2013;234.</pages>
+</reference>
+<reference id="web001">
+<citation />
+<url>http://www.cks.nhs.uk/chest_infections_adult</url>
+<organization />
+<longtitle>NHS Clinical Knowledge Summaries</longtitle>
+<title>NHS Clinical Knowledge Summaries</title>
+<dateguideline />
+</reference>
+<reference id="pubmed1317694">
+<accessionId id="acc019" href="info:pmid/1317694" />
+<authors>Sperber SJ, Hendley JO, Hayden FG, Riker DK, Sorrentino JV, Gwaltney JM, Jr.</authors>
+<title>Effects of naproxen on experimental rhinovirus colds. A randomized, double-blind, controlled trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>1992</pubdate>
+<volume>117</volume>
+<pages>37&#x2013;41.</pages>
+</reference>
+<reference id="poem40212">
+<accessionId id="acc020" href="info:wiley/eep-poem/40212" />
+<accessionId id="acc020b" href="info:pmid/11711010" />
+<authors>Smucny JJ, Flynn CA, Becker LA, Glazier RH.</authors>
+<title>Are beta-2 agonists effective treatment for acute bronchitis or acute cough in patients without underlying pulmonary disease?</title>
+<source>J Fam Pract</source>
+<pubdate>2001</pubdate>
+<volume>50</volume>
+<pages>945&#x2013;951.</pages>
+</reference>
+<reference id="cochrane1726">
+<accessionId id="acc021" href="info:wiley/cochrane/CD001726" />
+<chapter_authors>Becker LA, Hom J, Villasis-Keever M, van der Wouden JC.</chapter_authors>
+<chapter_title>Beta2-agonists for acute cough or a clinical diagnosis of acute bronchitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 9. Art. No.: CD001726. DOI: 10.1002&#x002F;14651858.CD001726.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem80243">
+<accessionId id="acc022" href="info:wiley/eep-poem/80243" />
+<accessionId id="acc022b" href="info:pmid/16330738" />
+<authors>Coco A, Mainous AG.</authors>
+<title>Relation of time spent in an encounter with the use of antibiotics in pediatric office visits for viral respiratory infections.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2005</pubdate>
+<volume>159</volume>
+<pages>1145&#x2013;1149.</pages>
+</reference>
+<reference id="poem80254">
+<accessionId id="acc023" href="info:wiley/eep-poem/80254" />
+<authors>Chuchalin AG, Berman B, Lehmacher W.</authors>
+<title>Treatment of acute bronchitis in adults with a pelargonium sidoides preparation (EPS 7630): a randomized, double-blind, placebo-controlled trial.</title>
+<source>Explore</source>
+<pubdate>2005</pubdate>
+<volume>1</volume>
+<pages>1437&#x2013;1445.</pages>
+</reference>
+<reference id="poem60162">
+<accessionId id="acc024" href="info:wiley/eep-poem/60162" />
+<accessionId id="acc024b" href="info:pmid/12807337" />
+<authors>Matthys H, Eisebitt R, Seith B, Heger M.</authors>
+<title>Efficacy and safety of an extract of pelargonium sidoides (EPs 7630) in adults with acute bronchitis.</title>
+<source>Phytomedicine</source>
+<pubdate>2003</pubdate>
+<volume>10</volume>
+<pages>7&#x2013;17.</pages>
+</reference>
+<reference id="cochrane6323">
+<accessionId id="acc025" href="info:wiley/cochrane/CD006323" />
+<chapter_authors>Timmer A, G&#x00FC;nther J, Motschall E, R&#x00FC;cker G, Antes G, Kern WV.</chapter_authors>
+<chapter_title>Pelargonium sidoides extract for treating acute respiratory tract infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 10. Art. No.: CD006323. DOI: 10.1002&#x002F;14651858.CD006323.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem60959">
+<accessionId id="acc026" href="info:wiley/eep-poem/60959" />
+<accessionId id="acc026b" href="info:pmid/15197051" />
+<authors>Yale SH, Liu K.</authors>
+<title>Echinacea purpurea therapy for the treatment of the common cold.</title>
+<source>Arch Intern Med</source>
+<pubdate>2004</pubdate>
+<volume>164</volume>
+<pages>1237&#x2013;1241.</pages>
+</reference>
+<reference id="poem50453">
+<accessionId id="acc027" href="info:wiley/eep-poem/50453" />
+<accessionId id="acc027b" href="info:pmid/12484708" />
+<authors>Barrett BP, Brown RL, Locken K, et al.</authors>
+<title>Treatment of the common cold with unrefined echinacea. A randomized, double-blind, placebo-controlled trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>2002</pubdate>
+<volume>137</volume>
+<pages>939&#x2013;946.</pages>
+</reference>
+<reference id="cochrane4560">
+<accessionId id="acc028" href="info:wiley/cochrane/CD004560" />
+<chapter_authors>Jiang L, Li K, Wu T.</chapter_authors>
+<chapter_title>Chinese medicinal herbs for acute bronchitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 2. Art. No.: CD004560. DOI: 10.1002&#x002F;14651858.CD004560.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem40456">
+<accessionId id="acc029" href="info:wiley/eep-poem/40456" />
+<accessionId id="acc029b" href="info:pmid/11786454" />
+<authors>Macfarlane J, Holmes W, Gard P, Thornhill D, Macfarlane R, Hubbard R.</authors>
+<title>Reducing antibiotic use for acute bronchitis in primary care: blinded, randomised controlled trial of patient information leaflet.</title>
+<source>BMJ</source>
+<pubdate>2002</pubdate>
+<volume>324</volume>
+<pages>91&#x2013;94.</pages>
+</reference>
+<reference id="poem80221">
+<accessionId id="acc030" href="info:wiley/eep-poem/80221" />
+<accessionId id="acc030b" href="info:pmid/16322409" />
+<authors>Phillips TG, Hickner J.</authors>
+<title>Calling acute bronchitis a chest cold may improve patient satisfaction with appropriate antibiotic use.</title>
+<source>J Am Board Fam Pract</source>
+<pubdate>2005</pubdate>
+<volume>18</volume>
+<pages>459&#x2013;463.</pages>
+</reference>
+<reference id="cochrane1268">
+<accessionId id="acc031" href="info:wiley/cochrane/CD001268" />
+<chapter_authors>Swingler GH, Zwarenstein M.</chapter_authors>
+<chapter_title>Chest radiograph in acute respiratory infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2009, Issue 4. Art. No.: CD001268. DOI: 10.1002&#x002F;14651858.CD001268.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed11059444">
+<accessionId id="acc032" href="info:pmid/11059444" />
+<authors>Gonzales R, Wilson A, Crane L, et al.</authors>
+<title>What's in a name? Public knowledge, attitude, and experiences with antibiotic use for acute bronchitis.</title>
+<source>Am J Med</source>
+<pubdate>2000</pubdate>
+<volume>108</volume>
+<pages>83&#x2013;85.</pages>
+</reference>
+<reference id="cochrane4419">
+<accessionId id="acc033" href="info:wiley/cochrane/CD004419" />
+<chapter_authors>Guppy MP, Mickan SM, Del Mar CB, Thorning S, Rack A.</chapter_authors>
+<chapter_title>Advising patients to increase fluid intake for treating acute respiratory infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 2. Art. No.: CD004419. DOI: 10.1002&#x002F;14651858.CD004419.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed9314340">
+<accessionId id="acc034" href="info:pmid/9314340" />
+<authors>Schatz M, Zeiger RS, Harden K, et al.</authors>
+<title>The safety of asthma and allergy medications during pregnancy.</title>
+<source>J Allergy Clin Immunol</source>
+<pubdate>1997</pubdate>
+<volume>100</volume>
+<pages>301&#x2013;306.</pages>
+</reference>
+<reference id="poem70826">
+<accessionId id="acc035" href="info:wiley/eep-poem/70826" />
+<accessionId id="acc035b" href="info:pmid/15972565" />
+<authors>Little P, Rumsby K, Kelly J, et al.</authors>
+<title>Information leaflet and antibiotic prescribing strategies for acute lower respiratory tract infection. A randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2005</pubdate>
+<volume>293</volume>
+<pages>3029&#x2013;3035.</pages>
+</reference>
+<reference id="PubMed24097128">
+<accessionId id="acc036" href="info:pmid/24097128" />
+<authors>Llor C, Moragas A, Bayona C, et al.</authors>
+<title>Efficacy of anti-inflammatory or antibiotic treatment in patients with non-complicated acute bronchitis and discoloured sputum: randomised placebo controlled trial.</title>
+<source>BMJ</source>
+<pubdate>2013</pubdate>
+<volume>347</volume>
+<pages>f5762.</pages>
+</reference>
+<reference id="poem180305">
+<accessionId id="acc037" href="info:wiley/eep-poem/180305" />
+<accessionId id="acc037b" href="info:pmid/26719947" />
+<authors>de la Poza Abad M, Mas Dalmau G, Moreno Bakedano M, Gonz&#x00E1;lez Gonz&#x00E1;lez AI, Canellas Criado Y, Hern&#x00E1;ndez Anad&#x00F3;n S, Rotaeche del Campo R, Tor&#x00E1;n Monserrat P, Negrete Palma A, Mu&#x00F1;oz Ortiz L, Borrell Thi&#x00F3; E, Llor C, Little P, Alonso-Coello P; Delayed Antibiotic Prescription (DAP) Group.</authors>
+<title>Prescription strategies in acute uncomplicated respiratory infections: a randomized clinical trial.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2016</pubdate>
+<volume>176</volume>
+<pages>21&#x2013;29.</pages>
+</reference>
+<reference id="cochrane4417">
+<accessionId id="acc038" href="info:wiley/cochrane/CD004417" />
+<chapter_authors>Spurling GK, Dooley L, Clark J, Askew DA.</chapter_authors>
+<chapter_title>Immediate versus delayed versus no antibiotics for respiratory infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 10. Art. No.: CD004417. DOI: 10.1002&#x002F;14651858.CD004417.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem191114">
+<accessionId id="acc039" href="info:wiley/eep-poem/191114" />
+<accessionId id="acc039b" href="info:pmid/28829884" />
+<authors>Hay AD, Little P, Harnden A, Thompson M, Wang K, Kendrick D, Orton E, Brookes ST, Young GJ, May M, Hollinghurst S, Carroll FE, Downing H, Timmins D, Lafond N, El-Gohary M, Moore M.</authors>
+<title>Effect of oral prednisolone on symptom duration and severity in nonasthmatic adults with acute lower respiratory tract infection: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>721&#x2013;730.</pages>
+</reference>
+<reference id="pubmed28376442">
+<accessionId id="acc040" href="info:pmid/28376442" />
+<authors>Marchello C, Dale AP, Thai TN, Han DS, Ebell MH.</authors>
+<title>Prevalence of Atypical Pathogens in Patients With Cough and Community-Acquired Pneumonia: A Meta-Analysis.</title>
+<source>Ann Fam Med</source>
+<pubdate>2016</pubdate>
+<volume>14</volume>
+<pages>552&#x2013;566.</pages>
+</reference>
+<reference id="pubmed2745948">
+<accessionId id="acc041" href="info:pmid/2745948" />
+<authors>Gennis P, Gallagher J, Falvo C, Baker S, Than W.</authors>
+<title>Clinical criteria for the detection of pneumonia in adults: guidelines for ordering chest roentgenograms in the emergency department.</title>
+<source>J Emerg Med</source>
+<pubdate>1989 May-Jun</pubdate>
+<volume>7</volume>
+<pages>263&#x2013;8.</pages>
+</reference>
+<reference id="pubmed28484063">
+<accessionId id="acc042" href="info:pmid/28484063" />
+<authors>Ebell MH, Marchello C, Callahan M.</authors>
+<title>Clinical Diagnosis of Bordetella Pertussis Infection: A Systematic Review.</title>
+<source>J Am Board Fam Med</source>
+<pubdate>2017 May-Jun</pubdate>
+<volume>30</volume>
+<pages>308&#x2013;319.</pages>
+</reference>
+<reference id="poem200706">
+<accessionId id="acc043" href="info:wiley/eep-poem/200706" />
+<accessionId id="acc043b" href="info:pmid/29781385" />
+<authors>Huang DT, Yealy DM, Filbin MR, Brown AM, Chang CH, Doi Y, Donnino MW, Fine J, Fine MJ, Fischer MA, Holst JM, Hou PC, Kellum JA, Khan F, Kurz MC, Lotfipour S, LoVecchio F, Peck-Palmer OM, Pike F, Prunty H, Sherwin RL, Southerland L, Terndrup T, Weissfeld LA, Yabes J, Angus DC, ProACT Investigators.</authors>
+<title>Procalcitonin-guided use of antibiotics for lower respiratory tract infection.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>236&#x2013;249.</pages>
+</reference>
+<reference id="poem200611">
+<accessionId id="acc044" href="info:wiley/eep-poem/200611" />
+<accessionId id="acc044b" href="info:pmid/28837801" />
+<authors>Malesker MA, Callahan-Lyon P, Ireland B, Irwin RS, CHEST Expert Cough Panel.</authors>
+<title>Pharmacologic and Nonpharmacologic Treatment for Acute Cough Associated With the Common Cold: CHEST Expert Panel Report.</title>
+<source>Chest</source>
+<pubdate>2017</pubdate>
+<volume>152</volume>
+<pages>1021&#x2013;1037.</pages>
+</reference>
+<reference id="poem190916">
+<accessionId id="acc045" href="info:wiley/eep-poem/190916" />
+<accessionId id="acc045b" href="info:pmid/28719693" />
+<authors>Aglipay M, Birken CS, Parkin PC, Loeb MB, Thorpe K, Chen Y, Laupacis A, Mamdani M, Macarthur C, Hoch JS, Mazzulli T, Maguire JL, TARGet Kids&#x0021; Collaboration.</authors>
+<title>Effect of High-Dose vs Standard-Dose Wintertime Vitamin D Supplementation on Viral Upper Respiratory Tract Infections in Young Healthy Children.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>245&#x2013;254.</pages>
+</reference>
+<reference id="cochrane4822">
+<accessionId id="acc046" href="info:wiley/cochrane/CD004822" />
+<chapter_authors>Marchant JM, Petsky HL, Morris PS, Chang AB.</chapter_authors>
+<chapter_title>Antibiotics for prolonged wet cough in children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 7. Art. No.: CD004822. DOI: 10.1002&#x002F;14651858.CD004822.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7094">
+<accessionId id="acc047" href="info:wiley/cochrane/CD007094" />
+<chapter_authors>Oduwole O, Udoh EE, Oyo-Ita A, Meremikwu MM.</chapter_authors>
+<chapter_title>Honey for acute cough in children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 4. Art. No.: CD007094. DOI: 10.1002&#x002F;14651858.CD007094.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem201214">
+<accessionId id="acc048" href="info:wiley/eep-poem/201214" />
+<accessionId id="acc048b" href="info:pmid/30201828" />
+<authors>Speich B, Thomer A, Aghlmandi S, Ewald H, Zeller A, Hemkens LG.</authors>
+<title>Treatments for subacute cough in primary care: systematic review and meta-analyses of randomised clinical trials.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2018</pubdate>
+<volume>68</volume>
+<pages>e694&#x2013;e702.</pages>
+</reference>
+<reference id="poem2109114">
+<accessionId id="acc049" href="info:wiley/eep-poem/2109114" />
+<accessionId id="acc049b" href="info:pmid/29330882" />
+<authors>Vukadinovi&#x0107; D, Vukadinovi&#x0107; AN, Lavall D, Laufs U, Wagenpfeil S, B&#x00F6;hm M.</authors>
+<title>Rate of cough during treatment with angiotensin-converting enzyme inhibitors: a meta-analysis of randomized placebo-controlled trials.</title>
+<source>Clin Pharmacol Ther</source>
+<pubdate>2019</pubdate>
+<volume>105</volume>
+<pages>652&#x2013;660.</pages>
+</reference>
+<reference id="poem210308">
+<accessionId id="acc050" href="info:wiley/eep-poem/210308" />
+<accessionId id="acc050b" href="info:pmid/30670390" />
+<authors>Hay AD, Anderson E, Ingle S, Beck C, Hollingworth W.</authors>
+<title>Respiratory tract infections in children in the community: prospective online inception cohort study.</title>
+<source>Ann Fam Med</source>
+<pubdate>2019</pubdate>
+<volume>17</volume>
+<pages>14&#x2013;22.</pages>
+</reference>
+<reference id="poem211016">
+<accessionId id="acc051" href="info:wiley/eep-poem/211016" />
+<accessionId id="acc051b" href="info:pmid/31145430" />
+<authors>McCoul ED, Mohammed AE, Debbaneh PM, Carratola M, Patel AS.</authors>
+<title>Differences in the intended meaning of congestion between patients and clinicians.</title>
+<source>JAMA Otolaryngol Head Neck Surg</source>
+<pubdate>2019</pubdate>
+<volume>145</volume>
+<pages>634&#x2013;640.</pages>
+</reference>
+<reference id="pubmed31085527">
+<accessionId id="acc052" href="info:pmid/31085527" />
+<authors>Moore M, Stuart B, Lown M, Van den Bruel A, Smith S, Knox K, Thompson MJ, Little P.</authors>
+<title>Predictors of adverse outcomes in uncomplicated lower respiratory tract infections.</title>
+<source>Ann Fam Med</source>
+<pubdate>2019</pubdate>
+<volume>17</volume>
+<pages>231&#x2013;238.</pages>
+</reference>
+<reference id="poem221117">
+<accessionId id="acc053" href="info:wiley/eep-poem/221117" />
+<accessionId id="acc053b" href="info:pmid/31844897" />
+<authors>Ord&#x00F3;&#x00F1;ez-Mena JM, Fanshawe TR, Butler CC, Mant D, Longhurst D, Muir P, Vipond B, Little P, Moore M, Stuart B, Hay AD, Thornton HV, Thompson MJ, Smith S, Van den Bruel A, Hardy V, Cheah L, Crook D, Knox K.</authors>
+<title>Relationship between microbiology of throat swab and clinical course among primary care patients with acute cough: a prospective cohort study.</title>
+<source>Fam Pract</source>
+<pubdate>2020</pubdate>
+<volume>37</volume>
+<pages>332&#x2013;339.</pages>
+</reference>
+<reference id="poem372894">
+<accessionId id="acc054" href="info:wiley/eep-poem/372894" />
+<accessionId id="acc054b" href="info:pmid/35679047" />
+<authors>Mattila S, Paalanne N, Honkila M, Pokka T, Tapiainen T.</authors>
+<title>Effect of Point-of-Care Testing for Respiratory Pathogens on Antibiotic Use in Children: A Randomized Clinical Trial.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2022</pubdate>
+<volume>5</volume>
+<pages>e2216162.</pages>
+</reference>
+<reference id="pubmed34253179">
+<accessionId id="acc055" href="info:pmid/34253179" />
+<authors>Bergmann M, Haasenritter J, Beidatsch D, Schwarm S, H&#x00F6;rner K, B&#x00F6;sner S, Grevenrath P, Schmidt L, Viniol A, Donner-Banzhoff N, Becker A.</authors>
+<title>Prevalence, aetiologies and prognosis of the symptom cough in primary care: a systematic review and meta-analysis.</title>
+<source>BMC Fam Pract</source>
+<pubdate>2021</pubdate>
+<volume>22</volume>
+<pages>151.</pages>
+</reference>
+<reference id="cochrane11958">
+<accessionId id="acc056" href="info:wiley/cochrane/CD011958" />
+<chapter_authors>Su G, Chen X, Liu Z, Yang L, Zhang L, St&#x00E5;lsby Lundborg C, Wen Z, Guo X, Qin X, Liang J, Liu X.</chapter_authors>
+<chapter_title>Oral Astragalus (Huang qi) for preventing frequent episodes of acute respiratory tract infection in children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 12. Art. No.: CD011958. DOI: 10.1002&#x002F;14651858.CD011958.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7498">
+<accessionId id="acc057" href="info:wiley/cochrane/CD007498" />
+<chapter_authors>Schuetz P, Wirz Y, Sager R, Christ&#x2010;Crain M, Stolz D, Tamm M, Bouadma L, Luyt CE, Wolff M, Chastre J, Tubach F, Kristoffersen KB, Burkhardt O, Welte T, Schroeder S, Nobre V, Wei L, Bucher HCC, Bhatnagar N, Annane D, Reinhart K, Branche A, Damas P, Nijsten M, de Lange DW, Deliberato RO, Lima SS, Maravi&#x0107;&#x2010;Stojkovi&#x0107; V, Verduri A, Cao B, Shehabi Y, Beishuizen A, Jensen JS, Corti C, Van Oers JA, Falsey AR, de Jong E, Oliveira CF, Beghe B, Briel M, Mueller B.</chapter_authors>
+<chapter_title>Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 10. Art. No.: CD007498. DOI: 10.1002&#x002F;14651858.CD007498.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem397316">
+<accessionId id="acc058" href="info:wiley/eep-poem/397316" />
+<accessionId id="acc058b" href="info:pmid/36239199" />
+<authors>Llor C, Moragas A, Ouchi D, Monf&#x00E0; R, Garcia-Sangen&#x00ED;s A, G&#x00F3;mez-Lumbreras A, Pera H, Pujol J, Morros R.</authors>
+<title>Effectiveness of antitussives, anticholinergics, and honey versus usual care in adults with uncomplicated acute bronchitis: a multiarm randomized clinical trial.</title>
+<source>Fam Pract</source>
+<pubdate>2023</pubdate>
+<volume>40</volume>
+<pages>407&#x2013;413.</pages>
+</reference>
+<reference id="rule545">
+<accessionId id="acc059" href="info:wiley/eep-rule/545" />
+<accessionId id="acc059b" href="info:pmid/27594440" />
+<authors>Hay A, et al.</authors>
+<title>Development and internal validation of a clinical rule to improve antibiotic use in children presenting to primary care with acute respiratory tract infection and cough: a prognostic cohort study.</title>
+<source>Lancet Respir Med</source>
+<pubdate>2016</pubdate>
+<volume>4</volume>
+<pages>902&#x2013;10.</pages>
+</reference>
+<reference id="pubmed36823069">
+<accessionId id="acc060" href="info:pmid/36823069" />
+<authors>Nurek M, Hay AD, Kostopoulou O.</authors>
+<title>Comparing GPs' antibiotic prescribing decisions to a clinical prediction rule: an online vignette study.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2023</pubdate>
+<volume>73</volume>
+<pages>e176&#x2013;e185.</pages>
+</reference>
+<reference id="rule185">
+<accessionId id="acc061" href="info:wiley/eep-rule/185" />
+<accessionId id="acc061b" href="info:pmid/1952308" />
+<authors>Emerman CL, Dawson N, Speroff T, Siciliano C, Effron D, Rashad F, Shaw Z, Bellon EL.</authors>
+<title>Comparison of physician judgment and decision aids for ordering chest radiographs for pneumonia in outpatients.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1991</pubdate>
+<volume>20</volume>
+<pages>1215&#x2013;9.</pages>
+</reference>
+<reference id="pubmed38619737">
+<accessionId id="acc062" href="info:pmid/38619737" />
+<authors>Merenstein DJ, Barrett B, Ebell MH.</authors>
+<title>Antibiotics Not Associated with Shorter Duration or Reduced Severity of Acute Lower Respiratory Tract Infection.</title>
+<source>J Gen Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>39</volume>
+<pages>1887&#x2013;1894.</pages>
+</reference>
+<reference id="pubmed38977076">
+<accessionId id="acc063" href="info:pmid/38977076" />
+<authors>Ebell MH, Merenstein DJ, Barrett B, Bentivegna M, Hulme C, Hamer C, Walters S, Sabry A, Barlow S.</authors>
+<title>Acute cough in outpatients: what causes it, how long does it last, and how severe is it for different viruses and bacteria?</title>
+<source>Clin Microbiol Infect</source>
+<pubdate>2024</pubdate>
+<pages />
+</reference>
+<reference id="rule550">
+<accessionId id="acc064" href="info:wiley/eep-rule/550" />
+<accessionId id="acc064b" href="info:pmid/23633005" />
+<authors>van Vugt S, Broekhuizen BD, et al.</authors>
+<title>Use of serum C reactive protein and procalcitonin concentrations in addition to symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough: diagnostic study.</title>
+<source>BMJ</source>
+<pubdate>2013</pubdate>
+<volume>346</volume>
+<pages>f2450.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Reasons to Consider Chest Radiography in Patients With Acute Cough.<xref ref="pubmed2745948" resource="acc041" /></caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">&#x25CF; Heart rate &gt;100 beats&#x002F;min</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x25CF; Respiratory rate &gt;24 breaths&#x002F;min</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x25CF; Oral body temperature of &gt;38&#x00B0;C</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x25CF; Chest examination findings of focal consolidation, egophony, or fremitus</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

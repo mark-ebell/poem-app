@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Anticoagulation management</title>
+<chapter_type>Special Topic</chapter_type>
+<topic_id>eee0875</topic_id>
+<topic_comment />
+<topic_lastupdated>04/09/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Max Bayard, MD</author_name>
+<author_title>Professor and Program Director</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>East TN State University</author_institution>
+<author_email>bayard&#x0040;etsu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Johnson City</author_city>
+<author_state>TN</author_state>
+<author_zip>37604</author_zip>
+</author>
+<author primary="no">
+<author_name>Ryan Tewell, PharmD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>East TN State University</author_institution>
+<author_email>tewell&#x0040;etsu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Johnson City</author_city>
+<author_state>TN</author_state>
+<author_zip>37604</author_zip>
+</author>
+<author primary="no">
+<author_name>Benjamin T. Moyer, DO</author_name>
+<author_title>Resident Physician</author_title>
+<author_department />
+<author_institution>Department of Family Medicine</author_institution>
+<author_email>moyerbt&#x0040;etsu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Johnson City</author_city>
+<author_state>TN</author_state>
+<author_zip>37604</author_zip>
+</author>
+<author primary="no">
+<author_name>Neelima J. Kale, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>UT Southwestern</author_institution>
+<author_email>Neelima.Kale&#x0040;utsouthwestern.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Dallas</author_city>
+<author_state>TX</author_state>
+<author_zip>75390</author_zip>
+</author>
+<author primary="no">
+<author_name>Amir H. Barzin, DO, MS</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>University of North Carolina</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Chapel Hill</author_city>
+<author_state>NC</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Anthony J. Viera, MD, MPH</author_name>
+<author_title>Professor and Chair</author_title>
+<author_department> Department of Community and Family Medicine</author_department>
+<author_institution>Duke University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Durham</author_city>
+<author_state>NC</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Steven R. Brown, MD, FAAFP</editor_name>
+<editor_title>Program Director and Professor</editor_title>
+<editor_institution>University of Arizona College of Medicine &#x2013; Phoenix Family Medicine Residency</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<section type="Background">
+<heading>Background</heading>
+<section type="OVERALL BOTTOM LINE">
+<heading>OVERALL BOTTOM LINE</heading>
+<list style="bulleted">
+<listitem>Per ACC&#x002F;AHA guidelines, for patients with non-valvular atrial fibrillation (NVAF), anticoagulation is recommended when the <resourceLink href="info:wiley/eep-eee/423">CHA2DS2VASc</resourceLink> score is 1 or greater in men and 2 or greater in women. Direct oral anticoagulants are preferred due to a lower risk of bleeding.<xref ref="pubmed30703431" resource="acc063" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Renal function and hepatic function should be evaluated before initiation of therapy with direct thrombin or Factor Xa inhibitors, and should be reevaluated when clinically indicated and at least yearly.<xref ref="pubmed30703431" resource="acc063" /><evidence rating="B" system="SORT">B</evidence><xref ref="pubmed2462347" resource="acc001" /></listitem>
+<listitem>The 2021 ACCP guidelines recommend a direct oral anticoagulant (apixaban, dabigatran, edoxaban, or rivaroxaban) as first line therapy for venous thromboembolism (VTE). Patients with antiphospholipid syndrome should be treated with warfarin. <evidence rating="A" system="SORT">A</evidence><xref ref="poem314796" resource="acc062" /></listitem>
+<listitem>If initiating therapy with warfarin for VTE, concomitant initiation of parenteral therapy with low-molecular-weight heparin (LMWH), intravenous unfractionated heparin (UFH), fondaparinux, or subcutaneous UFH is recommended for at least 5 days and until the INR is 2.0 or above for at least 24 hours. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed22315268" resource="acc002" /></listitem>
+<listitem>In patients with proximal deep vein thrombosis (DVT) or pulmonary embolism (PE), at least 3 months of anticoagulation is recommended; extended anticoagulation using rivaroxaban 10 mg once daily or apixaban 2.5 mg twice daily is recommended for those with low&#x002F;moderate bleeding risk and no provoking factor.<xref ref="poem314796" resource="acc062" /><evidence rating="A" system="SORT">A</evidence><xref ref="pubmed22315268" resource="acc002" /></listitem>
+<listitem>For selected patients with isolated acute distal DVT, serial imaging is recommended with anticoagulation only if the clot extends proximally. Similarly, for patients with subsegmental PE, no proximal DVT, and who are at low risk for recurrent VTE, clinical observation without anticoagulation is recommended. <evidence rating="B" system="SORT">B</evidence><xref ref="poem314796" resource="acc062" /></listitem>
+<listitem>In treatment of VTE in cancer patients, updated ACCP guidelines recommend an oral Factor Xa inhibitor (apixaban, rivaroxaban, or edoxaban) over LMWH. In gastric malignancies, apixaban is less likely than rivaroxaban and edoxaban to increase the risk of GI bleed.<xref ref="poem314796" resource="acc062" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Warfarin should be used to treat patients with mechanical heart valves to reduce their risk of thromboembolic events. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed8313552" resource="acc004" /></listitem>
+</list>
+</section>
+</section>
+<section type="Background">
+<heading>Background</heading>
+<list style="bulleted">
+<listitem>Anticoagulation is indicated to prevent thromboembolic disease for those with atrial fibrillation mechanical heart valves and in selected patients with prothrombotic states, such as malignancy. It is also indicated for the treatment of thromboembolic disease. The choice of agents is guided by evidence as well as patient preference, cost, and access to follow-up.</listitem>
+</list>
+</section>
+<section type="Pharmacology">
+<heading>Pharmacology</heading>
+<section type="Warfarin">
+<heading>Warfarin</heading>
+<list style="bulleted">
+<listitem>An oral agent that competitively inhibits subunit 1 of vitamin K epoxide reductase (VKOR) complex and decreases vitamin K and synthesis of clotting factors.</listitem>
+<listitem>Interacts with many medications, including antibiotics; such medications may increase the risk of bleeding or decrease the effectiveness of warfarin (i.e. depending on the medication, may increase or decrease the INR).</listitem>
+<listitem>If bleeding occurs, vitamin K can be used as a reversal agent. Four factor prothrombin complex concentrate (4F-PCC) can be used to treat major bleeding events when rapid repletion of clotting factors is desirable.<xref ref="pubmed22491734" resource="acc045" /></listitem>
+</list>
+</section>
+<section type="Heparins">
+<heading>Heparins</heading>
+<list style="bulleted">
+<listitem>Indirectly bind to antithrombin, thus allowing for inactivation of coagulation factors.</listitem>
+<listitem>Relatively short-acting and can be given as an infusion that can be started and stopped for procedures.</listitem>
+<listitem>Given via subcutaneous injection or intravenously.</listitem>
+<listitem>If bleeding occurs, protamine can be used for neutralization.</listitem>
+</list>
+</section>
+<section type="Fondaparinux">
+<heading>Fondaparinux</heading>
+<list style="bulleted">
+<listitem>Causes antithrombin III inactivation of Factor Xa.</listitem>
+<listitem>Given as a subcutaneous injection.</listitem>
+<listitem>If bleeding occurs, protamine can be used for partial neutralization</listitem>
+</list>
+</section>
+<section type="Direct Thrombin Inhibitors Dabigatran, Ximelagatran, Hirudin, and Bivalirudin">
+<heading>Direct Thrombin Inhibitors Dabigatran, Ximelagatran, Hirudin, and Bivalirudin</heading>
+<list style="bulleted">
+<listitem>Directly inhibit free and fibrin-bound thrombin, thus inhibiting coagulation-mediated effects of thrombin.</listitem>
+<listitem>If bleeding occurs, idarucizumab can be used for neutralization of dabigatran. While its use has been shown in a case series to reverse anticoagulation promptly, the impact on mortality or bleeding outcomes has not been demonstrated in a trial.<xref ref="pubmed28693366" resource="acc005" /> Other agents are in development for other direct thrombin inhibitors.</listitem>
+<listitem>Concomitant use of amiodarone, fluconazole, rifampin, and phenytoin are associated with an increased risk of bleeding complications.<xref ref="poem191213" resource="acc033" /></listitem>
+<listitem>A retrospective cohort study in Medicare beneficiaries found that in patients using oral anticoagulants alone, the risk of hospitalization for upper gastrointestinal tract bleeding is highest with rivaroxaban and lowest with apixaban. Cotherapy with a proton pump inhibitor reduces the risk among patients using any oral anticoagulant. The oral anticoagulants which were compared were rivaroxaban, dabigatran, apixaban, and warfarin.<xref ref="poem210225" resource="acc040" /></listitem>
+<listitem>Using national registries, Canadian researchers concluded that major bleeding complications were more common in patients given clarithromycin compared with azithromycin (0.77&#x0025; vs. 0.43&#x0025;, adjusted hazard ratio 1.71, 95&#x0025; CI 1.20-2.45).<xref ref="poem221026" resource="acc054" /></listitem>
+<listitem>The A4C risk score (age, eGFR, hemoglobin, albumin and amiodarone) predicts the risk of major bleeding in older patients taking a DOAC.<xref ref="pubmed40455653" resource="acc091" /></listitem>
+</list>
+</section>
+<section type="Factor Xa Inhibitors Rivaroxaban, Apixaban, and Edoxaban">
+<heading>Factor Xa Inhibitors Rivaroxaban, Apixaban, and Edoxaban</heading>
+<list style="bulleted">
+<listitem>These drugs selectively and reversibly inhibit Factor Xa, and are given orally. They are highly protein bound and not dialyzable.<xref ref="pubmed25566930" resource="acc046" /></listitem>
+<listitem>Andexanet alfa is a modified recombinant inactive form of human factor Xa that has been approved for reversal of factor Xa inhibitors. While treatment with andexanet alfa reduced anti-factor Xa activity, the reduction in anti-factor Xa activity was not predictive of hemostatic efficacy.<xref ref="pubmed30730782" resource="acc043" /></listitem>
+<listitem>Four-factor prothrombin complex concentrate (4F-PCC) may also be used to reverse bleeding due to factor Xa inhibitors.<xref ref="pubmed30941571" resource="acc044" /></listitem>
+<listitem>A retrospective cohort study found that concomitant use of amiodarone with apixaban or rivaroxaban was associated with a greater likelihood of bleeding related complications (57 vs 39 events&#x002F;1000 person-years).<xref ref="pubmed323857" resource="acc079" /></listitem>
+</list>
+</section>
+</section>
+<section type="Anticoagulation for Atrial Fibrillation">
+<heading>Anticoagulation for Atrial Fibrillation</heading>
+<section type="Benefits and Harms">
+<heading>Benefits and Harms</heading>
+<list style="bulleted">
+<listitem><strong>Benefits</strong>:</listitem>
+<listitem>NVAF increases the risk of stroke fivefold over that of patients in sinus rhythm.<xref ref="pubmed1866765" resource="acc006" /></listitem>
+<listitem>The <resourceLink href="info:wiley/eep-eee/423">CHA2DS2-VASc</resourceLink> score more clearly defines anticoagulation recommendations and should be used to determine who should receive anticoagulation. For patients with a <resourceLink href="info:wiley/eep-eee/423">CHA2DS2-VASc</resourceLink> score of 0 in men or 1 in women and NVAF, it is reasonable to omit antithrombotic therapy. For patients with scores 1 or higher in men and 2 or higher in women, stroke risk is elevated to at least 4&#x0025; per year, and anticoagulation using a direct oral anticoagulant (DOAC) is recommended by ACCP guidelines.<xref ref="pubmed30686041" resource="acc048" /></listitem>
+<listitem>ACC&#x002F;AHA guidelines recommend anticoagulation at slightly higher cutoffs for CHA2DS2-VASc of 2 for men and 3 for women.<xref ref="pubmed30703431" resource="acc063" /></listitem>
+<listitem>A systematic review concluded that for patients with AF detected by an implanted device, use of a DOAC lowers the risk of stroke (NNT &#x003D; 100) but increases the risk of major bleeding (NNTH &#x003D; 62) and does not affect mortality.<xref ref="poem329889" resource="acc080" /></listitem>
+<listitem>A randomized trial with 1015 patients concluded that anticoagulation with apixaban did not reduce recurrent strokes in patients with recent cryptogenic strokes and evidence of atrial cardiopathy without atrial fibrillation compared with aspirin therapy.<xref ref="poem322230" resource="acc081" /></listitem>
+<listitem>One year after successful ablation, a randomized trial with 840 adults found no advantage of continuing a DOAC.<xref ref="pubmed40886309" resource="acc089" /></listitem>
+<listitem>In patients with AF and concomitant atherosclerosis and previous ischemic neurologic events, a Japanese trial with 316 patients concluded that adding an antiplatelet agent to an anticoagulant led to no benefit and more major bleeding.<xref ref="pubmed41051787" resource="acc090" /></listitem>
+<listitem><strong>Harms</strong>:</listitem>
+<listitem>Anticoagulation increases the risk of bleeding complications. Scoring tools such as <resourceLink href="info:pmid/20299623">HAS-BLED</resourceLink>,<xref ref="pubmed20299623" resource="acc007" />
+<resourceLink href="info:wiley/eep-eee/471">HEMORR2HAGES</resourceLink>,<xref ref="pubmed16504638" resource="acc008" /> and <resourceLink href="info:wiley/eep-eee/542">ATRIA</resourceLink><xref ref="pubmed21757117" resource="acc009" /> can be used to predict the likelihood of major bleeding. However, all three scores have only a modest performance and poor predictive accuracy.<xref ref="poem396032" resource="acc083" /></listitem>
+<listitem>Bridging anticoagulation during times of surgery or procedures paradoxically may lead to a higher likelihood of cardiovascular and bleeding events with no difference in stroke or thrombotic events.<xref ref="pubmed25499873" resource="acc010" /> It may still be considered for patients at high risk of thromboembolic events. See <resourceLink href="info:wiley/eep-eee/865">Perioperative management of antithrombotic therapy.</resourceLink></listitem>
+<listitem>A retrospective cohort study found that an INR of greater than 1.5 on admission was independently associated with an increased risk of both in-hospital and 1-year mortality in hospitalized patients treated with DOACs. Compared with patients with an INR of 1.5 or less, those with an elevated INR were more likely to have underlying liver disease (2.6&#x0025; vs 4.1&#x0025;).<xref ref="poem348554" resource="acc086" /></listitem>
+<listitem>A study using Medicare data found that among patients taking a DOAC, the upper GI bleeding risk was highest with rivaroxaban (Xarelto) and lowest with apixaban (Eliquis). Cotherapy with a proton pump inhibitor was associated with a significantly reduced risk of UGI bleeding (76 vs. 115 episodes&#x002F;10,000&#x002F;year).<xref ref="poem210225" resource="acc040" /></listitem>
+<listitem>Among older adults taking direct oral anticoagulants (DOACs), concurrent use of clarithromycin, as compared with azithromycin, is associated with a higher 30-day risk of hospitalization with major bleed.<xref ref="poem221026" resource="acc054" /> Use of serotonin specific reuptake inhibitors (SSRIs) also significantly increased the risk of a major bleeding episode compared with OAC use alone. Risk was highest in the first 30 days of treatment and continued for up to 6 months. Risk was not affected by SSRI type or potency and occurred with both direct oral anticoagulants and vitamin K antagonists.<xref ref="poem348847" resource="acc082" /></listitem>
+<listitem>The concomitant use of amiodarone with a DOAC, compared with either sotalol or flecainide plus a DOAC, by older patients with atrial fibrillation was associated with a higher risk (17 more per 1000 person-years) of bleeding-related hospitalizations.<xref ref="poem323857" resource="acc084" /></listitem>
+</list>
+</section>
+<section type="Warfarin">
+<heading>Warfarin</heading>
+<list style="bulleted">
+<listitem>Valvular AF (AF in the setting of moderate to severe mitral stenosis) or in the presence of a mechanical&#x002F;artificial heart valve is considered an indication for long term anticoagulation with warfarin, although DOACs are preferred by ACC&#x002F;AHA guidelines.<xref ref="pubmed30686041" resource="acc048" /></listitem>
+<listitem>If chosen as an anticoagulant for those with atrial fibrillation, warfarin should be initiated with titration in dosing to achieve a goal international normalization ratio (INR) of 2&#x2013;3.</listitem>
+<listitem>INR should be monitored at least weekly when initiating anticoagulation and at least monthly when the INR range is stable.</listitem>
+<listitem>DOACs are recommended over warfarin except in those patients with moderate-severe mitral stenosis or a mechanical heart valve; also in patients with antiphospholipid syndrome for whom anticoagulant is needed, warfarin is currently preferred<xref ref="poem314796" resource="acc062" />.<xref ref="pubmed30686041" resource="acc048" /></listitem>
+<listitem>A study randomized 217 patients to morning vs. evening administration of warfarin. There was no difference in the percent time in the INR range and no different in any clinical endpoints of adverse events.<xref ref="poem220323" resource="acc053" /></listitem>
+<listitem>For patients with atrial fibrillation and rheumatic heart disease, an RCT with 4565 adults found that warfarin was superior for a primary composite outcome of stroke, embolism, MI or vascular death (6.3&#x0025; vs 8.1&#x0025;, p &#x003D; 0.002, NNT &#x003D; 56). <xref ref="poem342785" resource="acc076" /></listitem>
+</list>
+</section>
+<section type="Direct-Acting Oral Anticoagultants">
+<heading>Direct-Acting Oral Anticoagultants</heading>
+<list style="bulleted">
+<listitem>The most recent AHA&#x002F;ACC&#x002F;HRS guidelines for use of antithrombotic agents in atrial fibrillation recommend use of a direct oral anticoagulant (DOAC) rather than warfarin for most patients with newly diagnosed atrial fibrillation.<xref ref="pubmed30686041" resource="acc048" /></listitem>
+<listitem>Dabigatran at a dose of 150 mg, when compared to warfarin, was associated with slightly lower rates of stroke or systemic embolism (1.1&#x0025; vs. 1.7&#x0025;; RR 0.66; 95&#x0025; CI 0.53-0.82) and similar rates of major hemorrhage (3.1&#x0025; vs. 3.4&#x0025;; p &#x003D; 0.31).<xref ref="pubmed19717844" resource="acc011" /></listitem>
+<listitem>Rivaroxaban was non-inferior to warfarin for the prevention of stroke or systemic embolism in patients with atrial fibrillation, with no difference in the risk of major bleeding and slightly lower rates of intracranial and fatal bleeding.<xref ref="pubmed21830957" resource="acc012" /></listitem>
+<listitem>In patients with atrial fibrillation, apixaban was superior to warfarin in preventing stroke or systemic embolism (1.3&#x0025; vs. 1.6&#x0025;; HR 0.79; 95&#x0025; CI 0.66-0.95), caused less major bleeding (2.1&#x0025; vs. 3.1&#x0025;; HR 0.69; 95&#x0025; CI 0.60-0.80), and resulted in a small decrease in all-cause mortality (3.5&#x0025; vs. 3.9&#x0025;; HR 0.51; 95&#x0025; CI 0.35-0.75; NNT 250).<xref ref="pubmed21870978" resource="acc013" /></listitem>
+<listitem>In an observational study of approximately 12,000 patients 65 and older with atrial fibrillation, use of a DOAC was associated with a lower risk of stroke and lower all-cause mortality. The study design is limited in that it cannot adjust for unknown or unmeasured confounders and did not adjust for time in range for the warfarin patients.<xref ref="poem211210" resource="acc051" /></listitem>
+<listitem>DOACs demonstrated superior safety when used in patients with cancer and AF. Warfarin had higher mortality and risk of hemorrhagic stroke, while the risk of ischemic stroke was similar between warfarin and DOACs.<xref ref="pubmed31645857" resource="acc047" /></listitem>
+<listitem>A trial using Medicare registry data found the highest risk of UGI bleeding with rivaroxaban and the lowest with apixaban. Co-treatment with a PPI is associated with a lower risk of UGI bleeding.<xref ref="poem210225" resource="acc040" /></listitem>
+<listitem>For patients with stable coronary artery disease and atrial fibrillation, an RCT with 2215 adults concluded that monotherapy with rivaroxaban is preferable to rivaroxaban plus a platelet inhibitor one year after percutaneous coronary intervention (PCI) or bypass surgery. Not only were there fewer deaths (NNT &#x003D; 66&#x002F;year), there were fewer hemorrhagic strokes (NNT &#x003D; 312) and fewer major bleeding events (NNT &#x003D; 88).<xref ref="poem211205" resource="acc059" /></listitem>
+<listitem>An RCT studied a high-risk group of patients with atrial fibrillation and acute coronary syndrome or the need for percutaneous coronary intervention (PCI). In these patients, apixaban plus clopidogrel without aspirin provided the best balance of benefits and harms. Triple therapy that adds aspirin cannot be recommended on the basis of these results.<xref ref="poem210725" resource="acc060" /></listitem>
+<listitem>A recent meta-analysis comparing standard dose DOACs to warfarin across various ages and sex found DOACs to have statistically significantly lower risk of stroke and systemic embolism, death, and intracranial bleeding than warfarin. Difference in major bleeding was not statistically significant. Lower dose DOACs had no statistically significant decrease in risk of stroke and systemic embolism, but lower risk of death, intracranial bleeding, and major bleeding than warfarin.<xref ref="pubmed34985309" resource="acc068" /></listitem>
+<listitem>A study randomized 1006 patients with ischemic stroke and atrial fibrillation to early resumption of a DOAC within 48 hours for minor or moderate strokes and 6-7 days for major stroke, or to to initiation 3 days after minor stroke, 6 days after moderate, and 12 days after severe stroke. Mean age was 77 years, and 37&#x0025; had minor stroke, 40&#x0025; moderate, and 23&#x0025; severe. Primary composite of stroke, embolization, bleed, or death occurred less often in the early initiation group (2.9&#x0025; vs 4.1&#x0025;). There was no increase in the risk of symptomatic intracranial bleeds (0.2&#x0025; in each group).<xref ref="poem308906" resource="acc074" /></listitem>
+<listitem>A study randomized 888 patients with acute ischemic stroke and atrial fibrillation who were not taking a DOAC at the time of the stroke to early initiation of a DOAC (0-4 days) or late initiation (5-10 days). The primary composite of new ischemic stroke, symptomatic intracranial hemorrhage, or death occurred less often in the early start group (6.9&#x0025; vs 8.7&#x0025;) and, although noninferior, this difference was not significantly lower (superior). Further study is needed in the subset of 121 patients who were undergoing thrombectomy, as those in the early initiation group had a nonsignificantly higher rate of the composite outcome (12.3&#x0025; vs 3.6&#x0025;).<xref ref="poem332766" resource="acc075" /></listitem>
+<listitem>An individual patient meta-analysis found a mixed bag of potential benefits and harms from anticoagulation in patients with atrial fibrillation and a previous history of ICH. There were fewer ischemic cardiovascular events (4&#x0025; vs 19&#x0025;; NNT &#x003D; 7) with the use of a DOAC, but a concerning increase in all-cause mortality in the single largest trial (NNTH &#x003D; 9). Once again, this is an opportunity for shared decision-making. The authors note that 5 additional studies are underway with results expected in approximately 5 years.<xref ref="poem342500" resource="acc085" /></listitem>
+</list>
+</section>
+<section type="Choosing an Anticoagulant">
+<heading>Choosing an Anticoagulant</heading>
+<list style="bulleted">
+<listitem>The most recent ACCP guidelines on anticoagulation for NVAF recommend a direct oral anticoagulant over warfarin for most patients due to a slightly lower risk of bleeding, and recommend anticoagulation for men with a <resourceLink href="info:wiley/eep-eee/423">CHA2DS2VASc</resourceLink> score of 1 or more and for women with a score of 2 or more. The ACC&#x002F;AHA guidelines recommend anticoagulation for men with <resourceLink href="info:wiley/eep-eee/423">CHA2DS2VASc</resourceLink> score of 2 and for women with a score of 3; they further state that anticoagulation may be considered in scores of 1 and 2 respectively.<xref ref="pubmed30703431" resource="acc063" /><xref ref="poem210501" resource="acc041" /></listitem>
+<listitem>Renal function and hepatic function should be evaluated before initiation of therapy with direct thrombin or Factor Xa inhibitors and should be reevaluated when clinically indicated and at least yearly.</listitem>
+<listitem>For patients with end-stage renal disease, a <resourceLink href="info:pmid/19762550">CHADS2-VASc</resourceLink> score of 2 or greater, and with creatinine clearance &lt;15 mL&#x002F;min or who are on hemodialysis, warfarin titrated to an INR of 2&#x2013;3 is a reasonable choice.</listitem>
+<listitem>For patients with valvular atrial fibrillation, rivaroxaban is noninferior to warfarin for the prespecified composite outcome. Although designed as a noninferiority trial, there were significantly fewer strokes in the rivaroxaban group (number needed to treat [NNT] &#x003D; 56 over 1 year).<xref ref="poem230129" resource="acc056" /></listitem>
+</list>
+</section>
+</section>
+<section type="Anticoagulation for VTE Management">
+<heading>Anticoagulation for VTE Management</heading>
+<section type="Benefits and Harms">
+<heading>Benefits and Harms</heading>
+<list style="bulleted">
+<listitem><strong>Benefits</strong></listitem>
+<listitem>Among patients presenting with pulmonary embolism (PE), the rate of fatal PE during anticoagulant therapy was 1.5&#x0025; (95&#x0025; CI 0.9&#x0025;-2.2&#x0025;) all deaths occurred during the first two weeks of anticoagulant treatment. Following anticoagulant therapy, it was 0 per 265 patient-years (95&#x0025; CI 0-3.6), an NNT of 67 to prevent one death per 265 patient-years. The case-fatality rate of recurrent DVT or PE among patients presenting with PE was 26.4&#x0025; (95&#x0025; CI 16.7&#x0025;-38.1&#x0025;).<xref ref="pubmed9466640" resource="acc014" /></listitem>
+<listitem>In patients with PE, approximately 3&#x0025; who are treated go on to develop chronic thromboembolic pulmonary hypertension; treatment with anticoagulation is recommended when compared to stopping therapy.<xref ref="pubmed22315268" resource="acc002" /></listitem>
+<listitem>For selected patients with isolated acute distal DVT, serial imaging is recommended with anticoagulation only if the clot extends proximally or there are severe symptoms. Similarly, for patients with subsegmental PE, no proximal DVT, and who are at low risk for recurrent VTE, clinical observation without anticoagulation is recommended.<xref ref="poem314796" resource="acc062" /></listitem>
+<listitem><strong>Harms</strong></listitem>
+<listitem>Among patients anticoagulated for VTE, the risk of major bleeding is 7.2 events per 100 person-years and the risk of fatal bleeding is 1.3 per 100 person-years.<xref ref="pubmed14644891" resource="acc015" /></listitem>
+<listitem>Among those who receive anticoagulation therapy for more than 3 months, the case-fatality rate for an episode of major bleeding is approximately 9&#x0025;.<xref ref="pubmed14644891" resource="acc015" /><xref ref="pubmed20439576" resource="acc016" /></listitem>
+<listitem>In patients being treated with anticoagulation for acute VTE, the concomitant use of nonsteroidal anti-inflammatory drugs (NSAIDs) or aspirin is associated with an increased risk of bleeding.<xref ref="pubmed24733305" resource="acc017" /></listitem>
+<listitem>A meta-analysis of four trials looked at the subset of patients also taking aspirin, and concluded that if a patient must take aspirin, patients randomized to a DOAC instead of warfarin had fewer strokes or VTEs (HR 0.78, 95&#x0025; CI 0.69-91), fewer vascular deaths (HR 0.85, 95&#x0025; CI 0.76-0.93), and a trend toward fewer major hemorrhages (HR 0.83, 95&#x0025; CI 0.69-1.01).<xref ref="pubmed200917" resource="acc035" /></listitem>
+</list>
+</section>
+<section type="Warfarin">
+<heading>Warfarin</heading>
+<list style="bulleted">
+<listitem>Warfarin has been the mainstay of treatment since the 1960s.</listitem>
+<listitem>The only RCT comparing treatment of DVT or PE with warfarin to no treatment included only 35 patients. The trial was halted after there were five deaths among 19 in the untreated group, compared with none in the 16 who were anticoagulated.<xref ref="pubmed13797091" resource="acc018" /></listitem>
+<listitem>If initiating therapy with warfarin for VTE, concomitant initiation of parenteral therapy with an LMWH, IV unfractionated heparin (UFH), fondaparinux, or subcutaneous UFH is recommended for at least 5 days and until the INR is 2.0 or above for at least 24 hours.<xref ref="pubmed22315268" resource="acc002" /></listitem>
+</list>
+</section>
+<section type="Direct-acting Oral Anticoagulants">
+<heading>Direct-acting Oral Anticoagulants</heading>
+<list style="bulleted">
+<listitem><xref ref="table001" /> summarizes the benefits and harms of direct-acting oral anticoagulants (DOACs) compared with warfarin.</listitem>
+<listitem>Apixaban has a slightly lower risk of major bleeds and no difference in efficacy when compared with enoxaparin and warfarin treatment.<xref ref="pubmed23808982" resource="acc019" /></listitem>
+<listitem>Rivaroxaban had a lower risk of recurrence of VTE and no difference in all-cause mortality or in major bleeding as compared with enoxaparin or warfarin treatment for DVT.<xref ref="pubmed21128814" resource="acc020" /></listitem>
+<listitem>An RCT in children with VTE compared dabigatran with standard therapy. Dabigatran was non-inferior to standard therapy.<xref ref="pubmed33290737" resource="acc072" /></listitem>
+</list>
+</section>
+<section type="Choosing an Anticoagulant">
+<heading>Choosing an Anticoagulant</heading>
+<list style="bulleted">
+<listitem>For patients with VTE, dabigatran, rivaroxaban, apixaban, or edoxaban are preferred over a VKA such as warfarin. LMWH may be used in individuals with inability to take oral medications.<xref ref="poem314796" resource="acc062" /><xref ref="pubmed26867832" resource="acc003" /></listitem>
+<listitem>Renal and hepatic function should be evaluated before initiation of therapy with direct thrombin or Factor Xa inhibitors, and should be reevaluated when clinically indicated and at least yearly.<xref ref="pubmed2462347" resource="acc001" /> Edoxaban should not be prescribed for patients with normal renal function (creatinine clearance &gt;95 mL&#x002F;min), as they clear the drug too quickly. In a large trial, the risk of stroke was significantly increased in these patients.<xref ref="pubmed24251359" resource="acc021" /></listitem>
+<listitem>For patients with end-stage renal disease or with creatinine clearance &lt;15 mL&#x002F;min, or who are on hemodialysis, warfarin to an INR of 2&#x2013;3 is a reasonable choice.<xref ref="pubmed2462347" resource="acc001" /></listitem>
+<listitem>Choosing an anticoagulant is based on multiple factors: warfarin is cheaper but requires monitoring and has a small increase in bleeding risk as compared with apixaban.<xref ref="pubmed23808982" resource="acc019" /> DOACs require no special monitoring; however, they are more expensive than warfarin and sometimes require twice-a-day dosing (as with dabigatran and apixaban or the first 21 days of rivaroxaban). Patient preference and financial considerations must be taken into account.</listitem>
+</list>
+</section>
+<section type="Duration of Therapy">
+<heading>Duration of Therapy</heading>
+<list style="bulleted">
+<listitem>In patients with acute proximal DVT, isolated distal DVT of the leg, or PE, that is provoked by surgery or nonsurgical transient risk factor, 3 months of therapy with anticoagulation is recommended.<xref ref="poem314796" resource="acc062" /><xref ref="pubmed26867832" resource="acc003" /></listitem>
+<listitem>In patients with first unprovoked DVT or PE and a low to moderate risk of bleeding, extended anticoagulaton therapy using apixaban 2.5 mg twice daily or rivaroxaban 10 mg once daily is recommended by the 2021 ACCP guidelines. This has only been studied in clinical trials for 2 to 4 years. If a decision is made to discontinue extended anticoagulation, these patients should be placed on low dose aspirin.<xref ref="poem314796" resource="acc062" /><xref ref="pubmed26867832" resource="acc003" /></listitem>
+<listitem>In patients with first unprovoked DVT or PE and high risk of bleeding, at least three months of anticoagulation therapy is recomended.<xref ref="pubmed26867832" resource="acc003" /></listitem>
+<listitem>A meta-analysis of 16 studies generally supports a prolonged period of anticoagulation of 6 months to 2 years for patients with unprovoked VTE, in particular unprovoked PE.<xref ref="poem211003" resource="acc052" /></listitem>
+<listitem>In patients with unprovoked acute proximal DVT or PE, who are stopping anticoagulation therapy, use of aspirin is suggested to prevent recurrent VTE, if there are no contraindications to aspirin use.<xref ref="poem314796" resource="acc062" /><xref ref="pubmed26867832" resource="acc003" /><xref ref="pubmed25156992" resource="acc049" /></listitem>
+<listitem>In patients with recurrent VTE, anticoagulation therapy for an indefinite period reduced the rate of recurrence as compared with 6 months of therapy.<xref ref="poem314796" resource="acc062" /><xref ref="pubmed9010144" resource="acc022" /></listitem>
+<listitem>In certain populations (women with unprovoked DVT or PE without a high risk of bleeding), D-dimer values can be helpful in determining the risk of recurrence. The risk of recurrence in women with a negative post-treatment D-dimer appears to be similar to the risk for patients with a proximal DVT or PE that was provoked by a minor transient risk factor (approximately 15&#x0025; recurrence at 5 years). Consequently, the argument for extended anticoagulation in these women is not strong. The same is not necessarily true for men, and no absolute recommendation can be made as a whole yet on using D-dimer measurements.<xref ref="pubmed26867832" resource="acc003" /></listitem>
+</list>
+</section>
+</section>
+<section type="Anticoagulation for VTE Prophylaxis in Hospitalized Patients">
+<heading>Anticoagulation for VTE Prophylaxis in Hospitalized Patients</heading>
+<section type="Benefits and Harms">
+<heading>Benefits and Harms</heading>
+<list style="bulleted">
+<listitem>The benefits of preventing a VTE have to be weighed against the harms of causing a bleed in hospitalized patients. ACP guidelines recommend selective use of VTE prophylaxis based on an assessment of risk.<xref ref="pubmed22041951" resource="acc023" /></listitem>
+<listitem>PE accounts for 5&#x0025;&#x2013;10&#x0025; of deaths in hospitalized patients, making VTE the most common preventable cause of in-hospital death.<xref ref="pubmed18242412" resource="acc024" /></listitem>
+<listitem>Groups at high risk of VTE include post-operative patients and those with medical conditions that predispose them to VTE, such as malignancy, previous VTE, reduced mobility, and heart failure. This risk can be reduced with VTE prophylaxis.<xref ref="pubmed3723773" resource="acc025" /><xref ref="pubmed22041951" resource="acc023" /></listitem>
+<listitem>Several thrombosis risk assessment scoring systems have been developed, including Geneva, Padua, Kucher, IMPROVE, and Intermountain, but further validation is needed.<xref ref="pubmed27107925" resource="acc067" /></listitem>
+<listitem>Patients with COVID-19 are at a high risk for thrombotic events including stroke, VTE and MI and are routinely treated with anticoagulants at either prophylactic or therapeutic doses, although randomized trials are lacking.<xref ref="poem221018" resource="acc055" /></listitem>
+</list>
+</section>
+<section type="Choosing an Anticoagulant">
+<heading>Choosing an Anticoagulant</heading>
+<list style="bulleted">
+<listitem>Enoxaparin at a dose of 40 mg daily is a viable option for VTE prophylaxis in patients with normal kidney function.<xref ref="pubmed1047777" resource="acc026" /></listitem>
+<listitem>Subcutaneous heparin dosing for VTE prophylaxis is appropriate in preventing mortality in immobilized medical patients who are not at risk of bleeding.<xref ref="pubmed7073148" resource="acc027" /></listitem>
+<listitem>A systematic review concluded that aspirin is no different than other anticoagulants for the prevention of VTE following total hip replacement (THR) or total knee replacement (TKR) and does not increase the number of adverse events. The majority of the studies included in this meta-analysis were at high risk of bias and there was heterogeneity between studies, suggesting that further research is needed to confirm these findings.<xref ref="poem220623" resource="acc058" /></listitem>
+</list>
+</section>
+</section>
+<section type="Special Populations and Situations">
+<heading>Special Populations and Situations</heading>
+<section type="Recurrent DVT in Patients Who are Anticoagulated">
+<heading>Recurrent DVT in Patients Who are Anticoagulated</heading>
+<list style="bulleted">
+<listitem>In patients who experience a recurrent VTE while being treated with either a DOAC or VKA therapy (and have been compliant), changing anticoagulation therapy to LMWH is recommended. Dose increase is recommended for patients who experience a recurrent VTE while being treated with a LMWH.<xref ref="pubmed26867832" resource="acc003" /></listitem>
+</list>
+</section>
+<section type="Anticoagulation in Pregnancy">
+<heading>Anticoagulation in Pregnancy</heading>
+<list style="bulleted">
+<listitem>ACOG guidelines recommend LMWH as the preferred anticoagulant during pregnancy. Though UFH is a reasonable choice, LMWH is preffered because of greater reliability and ease of use.</listitem>
+<listitem>Warfarin is a known teratogen and should not be used in pregnancy, though in patients with mechanical valves, may be considered in concert with multidisciplinary team after the first trimester.</listitem>
+<listitem>DOACs should not be used during pregnancy; there is a lack of data documenting safety.<xref ref="pubmed29939938" resource="acc070" /></listitem>
+</list>
+</section>
+<section type="Superficial Venous Thrombosis">
+<heading>Superficial Venous Thrombosis</heading>
+<list style="bulleted">
+<listitem>Per recent CHEST guidelines, individuals with superficial venous thrombosis should be given 2.5 mg fondaparinux daily for 45 days if at increased risk for DVT or PE progression. Conditions which confer increased risk include extensive SVT (particularly over 5 cm), involvement above the knee, severe symptoms, involvement of the greater saphenous vein, previous history of VTE or SVT, active cancer, or recent surgery. Rivaroxaban 10 mg daily for 45 days is an acceptable alternative for those who refuse or can't take fondaparinux.<xref ref="poem314796" resource="acc062" /></listitem>
+<listitem>Ultrasound should be performed on SVT above the knee to rule out DVT.<xref ref="poem314796" resource="acc062" /></listitem>
+<listitem>A Cochrane Review concluded that prophylactic dose fondaparinux (2.5 mg daily) given for 45 days appears to be a valid therapeutic option for ST of the legs for most people. This was based on findings of reduction in symptomatic VTE, superficial thrombosis (ST) extension, and ST recurrence.<xref ref="pubmed29478266" resource="acc071" /></listitem>
+</list>
+</section>
+<section type="DVT in Cancer Patients">
+<heading>DVT in Cancer Patients</heading>
+<list style="bulleted">
+<listitem>For cancer patients with an episode of VTE, apixaban, edoxaban, and rivaroxaban are recommended over low-molecular-weight heparin by 2021 ACCP guidelines.<xref ref="poem314796" resource="acc062" /></listitem>
+<listitem>Consider a longer period of anticoagulation. A trial randomized patients with cancer and VTE to 18 vs 6 months and found fewer (mostly asymptomatic) episodes of VTE but numerically more bleeds with longer duration of anticoagulation.<xref ref="pubmed39556015" resource="acc087" /> Another study found that low-dose apixaban (2.5 mg twice daily) had a similar benefit with less bleeding when given for 18 months to patients with cancer and VTE.<xref ref="pubmed40162636" resource="acc088" /></listitem>
+<listitem>A clinical trial randomized 1046 patients with cancer and an episode of VTE to edoxaban or dalteparin (after a 5 day initial treatment with a LMWH). The likelihood of subsequent VTE was similar (12.8&#x0025; vs. 13.5&#x0025;, p &#x003D; ns), although there were more major hemorrhages in the edoxaban group (6.9&#x0025; vs 4.0&#x0025;, p &#x003D; 0.04, NNTH &#x003D; 34). Most of the hemorrhages were GI bleeds in patients with gastrointestinal cancer.<xref ref="poem200410" resource="acc036" /></listitem>
+<listitem>In an RCT of 1155 patients with active cancer, apixaban was as safe as, and noninferior to, dalteparin for the treatment of venous thromboembolism. The easier administration and trend toward fewer recurrences are likely to make it the preferred agent.<xref ref="poem220717" resource="acc057" /></listitem>
+<listitem>An RCT with 563 patients found that apixaban used as primary thromboprophylaxis is effective in preventing VTE in patients with active cancer&#x2014;who are at higher risk for VTE&#x2014;and are starting chemotherapy. You would need to treat 17 such patients with apixaban to prevent one VTE over 6 months. A higher incidence of major bleeding was seen with apixaban, mostly in patients with gastrointestinal and gynecologic cancers (number needed to treat to harm &#x003D; 59). <xref ref="poem210520" resource="acc061" /></listitem>
+<listitem>Another trial that compared rivaroxaban with placebo in the same patient population did not show a decrease in VTEs during the pre-specified 180-day follow up; however, the high medication discontinuation rate in this study likely affected the outcomes. During the 4.3 month intervention period, however, there was a significant reduction in the primary endpoint (composite of lower extremity DVT, upper extremity DVT, pulmonary embolism, and death).<xref ref="pubmed30786186" resource="acc069" /></listitem>
+<listitem>A trial randomized 671 cancer patients with symptomatic or asymptomatic VTE randomized them to a direct oral anticoagulant (DOAC) or LMWH. DOAC numerically better and non-inferior to LMWH (6.1&#x0025; vs 8.8&#x0025; VTE). At 6 months adherence was also better in the DOAC group (71&#x0025; vs 59&#x0025;).<xref ref="poem379642" resource="acc073" /></listitem>
+<listitem>A randomized trial of 178 patients with active cancer and a low risk PE to 6 versus 18 months of DOAC. The 18 month group had fewer episodes of PE or DVT (5.6&#x0025; vs 19.1&#x0025;, NNT &#x003D; 7) but most were incidentally discovered. There were only 4 symptomatic VTE in the 6 month group and 0 in the 18 month group after 18 months of follow-up.<xref ref="pubmed39556015" resource="acc087" /></listitem>
+<listitem>A Cochrane systematic review of 20 studies with 9771 cancer patients concluded that LMWH and UFH were similarly effective for perioperative thromboprophylaxis.<xref ref="cochrane9447" resource="acc037" /></listitem>
+<listitem>A Cochrane review of anticoagulation for persons with cancer and a central venous catheter concluded that LMWH reduces the risk of VTE but not mortality. The potential benefits must be balanced with the increased risk of bleeding.<xref ref="cochrane6468" resource="acc042" /></listitem>
+<listitem>A Cochrane systematic review of patients with cancer but no indication for anticoagulation found no reduction in mortality with anticoagulation, but there was an increase in the risk of major bleeding.<xref ref="cochrane6652" resource="acc039" /><xref ref="cochrane6466" resource="acc038" /></listitem>
+</list>
+</section>
+<section type="Heparin-Induced Thrombocytopenia and Thrombosis">
+<heading>Heparin-Induced Thrombocytopenia and Thrombosis</heading>
+<list style="bulleted">
+<listitem>Danaparoid (in a therapeutic dose) and argatroban infusion are acceptable alternative anticoagulants for the treatment of patients with heparin-induced thrombocytopenia and thrombosis (HITT).<xref ref="pubmed23043677" resource="acc028" /></listitem>
+<listitem>Fondaparinux and the DOACs are reasonable alternatives in otherwise stable patients (i.e. not at risk of loss of life or limb)<xref ref="pubmed30482768" resource="acc066" /></listitem>
+</list>
+</section>
+<section type="Anticoagulants for Patients with Mechanical Valve">
+<heading>Anticoagulants for Patients with Mechanical Valve</heading>
+<list style="bulleted">
+<listitem><strong>Mechanical valves</strong></listitem>
+<listitem>ACC&#x002F;AHA guidelines (2020) continue to recommend that warfarin or another vitamin K antagonist should be used to treat patients with mechanical valves in order to reduce their risk of thromboembolic events.<xref ref="pubmed33332150" resource="acc078" /><xref ref="pubmed8313552" resource="acc004" />
+<list style="bulleted">
+<listitem>The target INR for mechanical aortic valve is 2.5, but if a patient has risk factors including atrial fibrillation, previous thromboembolism, LV dysfunction, or hypercoagulable state, target should be 3.0<xref ref="pubmed33972115" resource="acc064" /></listitem>
+<listitem>The target INR for mechanical mitral valve is 3.0, as MV has higher likelihood of thromboembolism than aortic valves<xref ref="pubmed33972115" resource="acc064" /></listitem>
+</list></listitem>
+<listitem>Dabigatran is not recommended for mechanical valve anticoagulation due to an excess risk of strokes and bleeding compared with warfarin.<xref ref="pubmed23991661" resource="acc029" /> Additional trials are ongoing.</listitem>
+<listitem><strong>Bioprosthetic valve replacement</strong></listitem>
+<listitem>ACC&#x002F;AHA guidelines (2020) recommend the following for patients who have had a bioprosthetic valve replacement:<xref ref="pubmed33332150" resource="acc078" />
+<list style="bulleted">
+<listitem>Bioprosthetic transcatheter aortic valve implantation (TAVI): aspirin 75 to 100 mg daily</listitem>
+<listitem>Bioprosthetic surgical aortic or mitral valve replacement (SAVR): aspirin 7 to 100 mg daily. For those at low risk of bleeding consider a vitamin K antagonist with a target INR of 2.5 for the first 3 to 6 months post-operatively.</listitem>
+<listitem>For patients with bioprosthetic TAVI, low dose rivaroxaban 10 mg plus aspirin 75 to 100 mg is contraindicated in the absence of other indications for these medications.</listitem>
+<listitem>Following a thromboembolic event in a patient with a bioprosthetic aortic or mitral valve replacement, VKA anticoagulation is recommended.</listitem>
+</list></listitem>
+<listitem>A randomized trial of 865 patients undergoing TAVI who were on long-term anticoagulation. Compared with interruption of therapy, continuation of anticoagulation for patients undergoing TAVI using long-term anticoagulant therapy may lead to more bleeding and vascular complications without the benefit of reducing thromboembolic events. Based on this study, holding anticoagulation prior to the procedure is recommended. <xref ref="pubmed39216096" resource="acc092" /></listitem>
+<listitem>For patients with a bioprosthetic mitral valve and atrial fibrillation, rivaroxaban was noninferior to warfarin for the prespecified composite outcome in an RCT with 1005 patients. Although designed as a noninferiority trial, there were significantly fewer strokes in the rivaroxaban group (HR 0.25, 95&#x0025; CI 0.07 to 0.88, NNT &#x003D; 56 over 1 year).<xref ref="poem230129" resource="acc056" /></listitem>
+<listitem>The ongoing PROACT-Xa clinical trial will compare the safety and effectiveness of apixaban vs. warfarin in patients with mechanical heart valves, but currently factor Xa inhibitors are not recommended in patients with mechanical heart valves<xref ref="pubmed35185406" resource="acc065" /></listitem>
+<listitem>A meta-analysis compared vitamin K antagonists such as warfarin with DOACs for patients who have undergone transcatheter aortic valve implantation. They identified 8 studies with 25, 769 patients and found no difference for all cause mortality, stroke, or major bleeding. The likelihood of any bleeding was lower in the DOAC group (HR 0.83, 95&#x0025; CI 0.76-0.91).<xref ref="pubmed37393728" resource="acc077" /></listitem>
+</list>
+</section>
+<section type="Subsegmental PE">
+<heading>Subsegmental PE</heading>
+<list style="bulleted">
+<listitem>For patients with subsegmental PE (no involvement of more proximal pulmonary arteries) and no proximal DVT in the legs, who have a low risk for recurrent VTE, it is appropriate to suggest clinical surveillance over anticoagulation. For patients with a high risk for recurrent VTE, it is appropriate to suggest anticoagulation over clinical surveillance.<xref ref="poem314796" resource="acc062" /> High risk patients include those who are hospitalized or have reduced mobility for another reason, have active cancer (particularly if metastatic or being treated with chemotherapy), or have no reversible risk factor for VTE such as recent surgery or immobilization. Furthermore, a low cardiopulmonary reserve or marked symptoms that cannot be attributed to another condition favors anticoagulant therapy, whereas a high risk of bleeding favors no anticoagulant therapy.<xref ref="pubmed26867832" resource="acc003" /></listitem>
+</list>
+</section>
+</section>
+<section type="Pharmacotherapy of Anticoagulants">
+<heading>Pharmacotherapy of Anticoagulants</heading>
+<section type="Initiating Anticoagulation">
+<heading>Initiating Anticoagulation</heading>
+<list style="bulleted">
+<listitem>As stated above, the choice of anticoagulant from the evidence-based options is based largely on patient preference. Edoxaban should not be prescribed for patients with a creatinine clearance of &gt;95 mL&#x002F;min as they clear the drug too quickly for it to be effective.<xref ref="pubmed24251359" resource="acc021" /></listitem>
+<listitem>Initiating anticoagulation treatment as an outpatient is recommended in patients with DVT and low risk PE, who are expected to be compliant with treatment, feel well enough to be treated at home, have no contraindications (recent bleeding, severe renal&#x002F;liver disease or severe thrombocytopenia) and have the ability to be promptly hospitalized if necessary.<xref ref="pubmed21703676" resource="acc050" /><xref ref="pubmed26867832" resource="acc003" /></listitem>
+<listitem>When initiating therapy with warfarin for stroke prevention in patients with NVAF, bridging with UFH or LMWH is not necessary.</listitem>
+<listitem>If initiating therapy with warfarin for VTE, concomitant initiation of parenteral therapy with LMWH, intravenous UFH, fondaparinux, or subcutaneous UFH is recommended for at least 5 days and until the INR is 2.0 or above for at least 24 hours.<xref ref="pubmed22315268" resource="acc002" /></listitem>
+</list>
+</section>
+<section type="Monitoring Anticoagulation">
+<heading>Monitoring Anticoagulation</heading>
+<list style="bulleted">
+<listitem>Warfarin dosing should be monitored with INR checks to a target goal based on indication, which is 2&#x2013;3 for atrial fibrillation and VTE and is usually 2.5&#x2013;3.5 for mechanical valves.</listitem>
+<listitem>In patients with atrial fibrillation treated with warfarin, interruption of warfarin and no initiation of bridging therapy as compared to bridging therapy in patients undergoing an elective operation or other elective invasive procedure showed a decrease in bleeding (RR 0.41; 95&#x0025; CI 0.20-0.78) and no difference in arterial thromboembolism.<xref ref="pubmed26095867" resource="acc030" /> This may not apply to patients at very high risk of thromboembolism or high procedural bleeding risk.</listitem>
+<listitem>Genotype-guided warfarin dosing in patients following knee or hip arthroplasty was compared with standard algorithm for dosing. There were fewer patients whose INR was &gt; 4, but no significant differences in rates of death, bleeding, or VTE.<xref ref="poem191218" resource="acc032" /></listitem>
+</list>
+</section>
+<section type="Reversing Anticoagulation">
+<heading>Reversing Anticoagulation</heading>
+<list style="bulleted">
+<listitem>Oral vitamin K lowers INR more rapidly than subcutaneous Vitamin K in asymptomatic patients who have supratherapeutic INRs while on warfarin therapy.<xref ref="pubmed12186515" resource="acc031" /></listitem>
+<listitem>Heparin reversal can be achieved with the use of protamine, while LMWH can be partly neutralized by protamine.</listitem>
+<listitem>Dabigatran neutralization can be achieved with idarucizumab. While its use has been shown in a case series to reverse anticoagulation promptly, the impact on mortality has not been demonstrated.<xref ref="pubmed28693366" resource="acc005" /></listitem>
+<listitem>Andexanet alfa is used to reverse Factor Xa inhibitors activity if bleeding occurs. 4-factor prothrombin complex concentrate (4F-PCC) can also be used to reverse anticoagulation due to DOACs.</listitem>
+<listitem>A meta-analysis concluded that use of aspirin, clopidogrel, and dual antiplatelet therapy at the time of non-cardiac surgery only increase the risk of bleeding complications slightly (RR for transfusion 1.14 for aspirin, 1.33 for DAPT).<xref ref="pubmed28463896" resource="acc034" /></listitem>
+</list>
+</section>
+</section>
+<Misc>
+<References>
+<reference id="pubmed2462347">
+<accessionId id="acc001" href="info:pmid/2462347" />
+<authors>Morel PA, Erlich HA, Fathman CG.</authors>
+<title>A new look at the shared epitope hypothesis.</title>
+<source>Am J Med</source>
+<pubdate>1988</pubdate>
+<volume>85</volume>
+<pages>20&#x2013;22.</pages>
+</reference>
+<reference id="pubmed22315268">
+<accessionId id="acc002" href="info:pmid/22315268" />
+<authors>Kearon C, Akl EA, Comerota AJ, Prandoni P, Bounameaux H, Goldhaber SZ, Nelson ME, Wells PS, Gould MK, Dentali F, Crowther M, Kahn SR.</authors>
+<title>Antithrombotic therapy for VTE disease: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.</title>
+<source>Chest</source>
+<pubdate>2012</pubdate>
+<volume>141</volume>
+<pages>e419S&#x2013;e496S.</pages>
+</reference>
+<reference id="pubmed26867832">
+<accessionId id="acc003" href="info:pmid/26867832" />
+<authors>Kearon C, Akl EA, Ornelas J, Blaivas A, Jimenez D, Bounameaux H, Huisman M, King CS, Morris TA, Sood N, Stevens SM, Vintch JR, Wells P, Woller SC, Moores L.</authors>
+<title>Antithrombotic therapy for VTE disease: CHEST Guideline and Expert Panel Report.</title>
+<source>Chest</source>
+<pubdate>2016</pubdate>
+<volume>149</volume>
+<pages>315&#x2013;352.</pages>
+</reference>
+<reference id="pubmed8313552">
+<accessionId id="acc004" href="info:pmid/8313552" />
+<authors>Cannegieter SC, Rosendaal FR, Bri&#x00EB;t E.</authors>
+<title>Thromboembolic and bleeding complications in patients with mechanical heart valve prostheses.</title>
+<source>Circulation</source>
+<pubdate>1994</pubdate>
+<volume>89</volume>
+<pages>635&#x2013;641.</pages>
+</reference>
+<reference id="pubmed28693366">
+<accessionId id="acc005" href="info:pmid/28693366" />
+<authors>Pollack CV, Jr., Reilly PA, van Ryn J, Eikelboom JW, Glund S, Bernstein RA, Dubiel R, Huisman MV, Hylek EM, Kam CW, Kamphuisen PW, Kreuzer J, Levy JH, Royle G, Sellke FW, Stangier J, Steiner T, Verhamme P, Wang B, Young L, Weitz JI.</authors>
+<title>Idarucizumab for dabigatran reversal&#x2014;full cohort analysis.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>431&#x2013;441.</pages>
+</reference>
+<reference id="pubmed1866765">
+<accessionId id="acc006" href="info:pmid/1866765" />
+<authors>Wolf PA, Abbott RD, Kannel WB.</authors>
+<title>Atrial fibrillation as an independent risk factor for stroke: the Framingham Study.</title>
+<source>Stroke</source>
+<pubdate>1991</pubdate>
+<volume>22</volume>
+<pages>983&#x2013;988.</pages>
+</reference>
+<reference id="pubmed20299623">
+<accessionId id="acc007" href="info:pmid/20299623" />
+<authors>Pisters R, Lane DA, Nieuwlaat R, de Vos CB, Crijns HJ, Lip GY.</authors>
+<title>A novel user-friendly score (HAS-BLED) to assess 1-year risk of major bleeding in patients with atrial fibrillation: the Euro Heart Survey.</title>
+<source>Chest</source>
+<pubdate>2010</pubdate>
+<volume>138</volume>
+<pages>1093&#x2013;1100.</pages>
+</reference>
+<reference id="pubmed16504638">
+<accessionId id="acc008" href="info:pmid/16504638" />
+<authors>Gage BF, Yan Y, Milligan PE, Waterman AD, Culverhouse R, Rich MW, Radford MJ.</authors>
+<title>Clinical classification schemes for predicting hemorrhage: results from the National Registry of Atrial Fibrillation (NRAF).</title>
+<source>Am Heart J</source>
+<pubdate>2006</pubdate>
+<volume>151</volume>
+<pages>713&#x2013;719.</pages>
+</reference>
+<reference id="pubmed21757117">
+<accessionId id="acc009" href="info:pmid/21757117" />
+<authors>Fang MC, Go AS, Chang Y, Borowsky LH, Pomernacki NK, Udaltsova N, Singer DE.</authors>
+<title>A new risk scheme to predict warfarin-associated hemorrhage: The ATRIA (Anticoagulation and Risk Factors in Atrial Fibrillation) Study.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2011</pubdate>
+<volume>58</volume>
+<pages>395&#x2013;401.</pages>
+</reference>
+<reference id="pubmed25499873">
+<accessionId id="acc010" href="info:pmid/25499873" />
+<authors>Steinberg BA, Peterson ED, Kim S, Thomas L, Gersh BJ, Fonarow GC, Kowey PR, Mahaffey KW, Sherwood MW, Chang P, Piccini JP, Ansell J; Outcomes Registry for Better Informed Treatment of Atrial Fibrillation Investigators and Patients.</authors>
+<title>Use and outcomes associated with bridging during anticoagulation interruptions in patients with atrial fibrillation: findings from the Outcomes Registry for Better Informed Treatment of Atrial Fibrillation (ORBIT-AF).</title>
+<source>Circulation</source>
+<pubdate>2015</pubdate>
+<volume>131</volume>
+<pages>488&#x2013;494.</pages>
+</reference>
+<reference id="pubmed19717844">
+<accessionId id="acc011" href="info:pmid/19717844" />
+<authors>Connolly SJ, Ezekowitz MD, Yusuf S, Eikelboom J, Oldgren J, Parekh A, Pogue J, Reilly PA, Themeles E, Varrone J, Wang S, Alings M, Xavier D, Zhu J, Diaz R, Lewis BS, Darius H, Diener HC, Joyner CD, Wallentin L; RE-LY Steering Committee and Investigators.</authors>
+<title>Dabigatran versus warfarin in patients with atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>361</volume>
+<pages>1139&#x2013;1151.</pages>
+</reference>
+<reference id="pubmed21830957">
+<accessionId id="acc012" href="info:pmid/21830957" />
+<authors>Patel MR, Mahaffey KW, Garg J, Pan G, Singer DE, Hacke W, Breithardt G, Halperin JL, Hankey GJ, Piccini JP, Becker RC, Nessel CC, Paolini JF, Berkowitz SD, Fox KA, Califf RM; ROCKET AF Investigators.</authors>
+<title>Rivaroxaban versus warfarin in nonvalvular atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>883&#x2013;891.</pages>
+</reference>
+<reference id="pubmed21870978">
+<accessionId id="acc013" href="info:pmid/21870978" />
+<authors>Granger CB, Alexander JH, McMurray JJ, Lopes RD, Hylek EM, Hanna M, Al-Khalidi HR, Ansell J, Atar D, Avezum A, Bahit MC, Diaz R, Easton JD, Ezekowitz JA, Flaker G, Garcia D, Geraldes M, Gersh BJ, Golitsyn S, Goto S, Hermosillo AG, Hohnloser SH, Horowitz J, Mohan P, Jansky P, Lewis BS, Lopez-Sendon JL, Pais P, Parkhomenko A, Verheugt FW, Zhu J, Wallentin L; ARISTOTLE Committees and Investigators.</authors>
+<title>Apixaban versus warfarin in patients with atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>981&#x2013;992.</pages>
+</reference>
+<reference id="pubmed9466640">
+<accessionId id="acc014" href="info:pmid/9466640" />
+<authors>Douketis JD, Kearon C, Bates S, Duku EK, Ginsberg JS.</authors>
+<title>Risk of fatal pulmonary embolism in patients with treated venous thromboembolism.</title>
+<source>JAMA</source>
+<pubdate>1998</pubdate>
+<volume>279</volume>
+<pages>458&#x2013;462.</pages>
+</reference>
+<reference id="pubmed14644891">
+<accessionId id="acc015" href="info:pmid/14644891" />
+<authors>Linkins LA, Choi PT, Douketis JD.</authors>
+<title>Clinical impact of bleeding in patients taking oral anticoagulant therapy for venous thromboembolism: a meta-analysis.</title>
+<source>Ann Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>139</volume>
+<pages>893&#x2013;900.</pages>
+</reference>
+<reference id="pubmed20439576">
+<accessionId id="acc016" href="info:pmid/20439576" />
+<authors>Carrier M, Le Gal G, Wells PS, Rodger MA.</authors>
+<title>Systematic review: case-fatality rates of recurrent venous thromboembolism and major bleeding events among patients treated for venous thromboembolism.</title>
+<source>Ann Intern Med</source>
+<pubdate>2010</pubdate>
+<volume>152</volume>
+<pages>578&#x2013;589.</pages>
+</reference>
+<reference id="pubmed24733305">
+<accessionId id="acc017" href="info:pmid/24733305" />
+<authors>Davidson BL, Verheijen S, Lensing AW, Gebel M, Brighton TA, Lyons RM, Rehm J, Prins MH.</authors>
+<title>Bleeding risk of patients with acute venous thromboembolism taking nonsteroidal anti-inflammatory drugs or aspirin.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2014</pubdate>
+<volume>174</volume>
+<pages>947&#x2013;953.</pages>
+</reference>
+<reference id="pubmed13797091">
+<accessionId id="acc018" href="info:pmid/13797091" />
+<authors>Barritt DW, Jordan SC.</authors>
+<title>Anticoagulant drugs in the treatment of pulmonary embolism. A controlled trial.</title>
+<source>Lancet</source>
+<pubdate>1960</pubdate>
+<volume>1</volume>
+<pages>1309&#x2013;1312.</pages>
+</reference>
+<reference id="pubmed23808982">
+<accessionId id="acc019" href="info:pmid/23808982" />
+<authors>Agnelli G, Buller HR, Cohen A, Curto M, Gallus AS, Johnson M, Masiukiewicz U, Pak R, Thompson J, Raskob GE, Weitz JI; AMPLIFY Investigators.</authors>
+<title>Oral apixaban for the treatment of acute venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>799&#x2013;808.</pages>
+</reference>
+<reference id="pubmed21128814">
+<accessionId id="acc020" href="info:pmid/21128814" />
+<authors>EINSTEIN Investigators; Bauersachs R, Berkowitz SD, Brenner B, Buller HR, Decousus H, Gallus AS, Lensing AW, Misselwitz F, Prins MH, Raskob GE, Segers A, Verhamme P, Wells P, Agnelli G, Bounameaux H, Cohen A, Davidson BL, Piovella F, Schellong S.</authors>
+<title>Oral rivaroxaban for symptomatic venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2010</pubdate>
+<volume>363</volume>
+<pages>2499&#x2013;2510.</pages>
+</reference>
+<reference id="pubmed24251359">
+<accessionId id="acc021" href="info:pmid/24251359" />
+<authors>Giugliano RP, Ruff CT, Braunwald E, Murphy SA, Wiviott SD, Halperin JL, Waldo AL, Ezekowitz MD, Weitz JI, &#x0160;pinar J, Ruzyllo W, Ruda M, Koretsune Y, Betcher J, Shi M, Grip LT, Patel SP, Patel I, Hanyok JJ, Mercuri M, Antman EM; ENGAGE AF-TIMI 48 Investigators.</authors>
+<title>Edoxaban versus warfarin in patients with atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>2093&#x2013;2104.</pages>
+</reference>
+<reference id="pubmed9010144">
+<accessionId id="acc022" href="info:pmid/9010144" />
+<authors>Schulman S, Granqvist S, Holmstr&#x00F6;m M, Carlsson A, Lindmarker P, Nicol P, Eklund SG, Nordlander S, L&#x00E4;rfars G, Leijd B, Linder O, Loogna E.</authors>
+<title>The duration of oral anticoagulant therapy after a second episode of venous thromboembolism. The Duration of Anticoagulation Trial Study Group.</title>
+<source>N Engl J Med</source>
+<pubdate>1997</pubdate>
+<volume>336</volume>
+<pages>393&#x2013;398.</pages>
+</reference>
+<reference id="pubmed22041951">
+<accessionId id="acc023" href="info:pmid/22041951" />
+<authors>Qaseem A, Chou R, Humphrey LL, Starkey M, Shekelle P; Clinical Guidelines Committee of the American College of Physicians.</authors>
+<title>Venous thromboembolism prophylaxis in hospitalized patients: a clinical practice guideline from the American College of Physicians.</title>
+<source>Ann Intern Med</source>
+<pubdate>2011</pubdate>
+<volume>155</volume>
+<pages>625&#x2013;632.</pages>
+</reference>
+<reference id="pubmed18242412">
+<accessionId id="acc024" href="info:pmid/18242412" />
+<authors>Cohen AT, Tapson VF, Bergmann JF, Goldhaber SZ, Kakkar AK, Deslandes B, Huang W, Zayaruzny M, Emery L, Anderson FA, Jr.; ENDORSE Investigators.</authors>
+<title>Venous thromboembolism risk and prophylaxis in the acute hospital care setting (ENDORSE study): a multinational cross-sectional study.</title>
+<source>Lancet</source>
+<pubdate>2008</pubdate>
+<volume>371</volume>
+<pages>387&#x2013;394.</pages>
+</reference>
+<reference id="pubmed3723773">
+<accessionId id="acc025" href="info:pmid/3723773" />
+<authors />
+<title>Prevention of venous thrombosis and pulmonary embolism. NIH Consensus Development.</title>
+<source>JAMA</source>
+<pubdate>1986</pubdate>
+<volume>256</volume>
+<pages>744&#x2013;749.</pages>
+</reference>
+<reference id="pubmed1047777">
+<accessionId id="acc026" href="info:pmid/1047777" />
+<authors>Fisher AA, Green LW, McCrae L, Cochran C.</authors>
+<title>Training public school teachers in population dynamics: an evaluation of the urban life-population education workshops in Baltimore.</title>
+<source>J Sch Health</source>
+<pubdate>1976</pubdate>
+<volume>46</volume>
+<pages>357&#x2013;360.</pages>
+</reference>
+<reference id="pubmed7073148">
+<accessionId id="acc027" href="info:pmid/7073148" />
+<authors>Halkin H, Goldberg J, Modan M, Modan B.</authors>
+<title>Reduction of mortality in general medical in-patients by low-dose heparin prophylaxis.</title>
+<source>Ann Intern Med</source>
+<pubdate>1982</pubdate>
+<volume>96</volume>
+<pages>561&#x2013;565.</pages>
+</reference>
+<reference id="pubmed23043677">
+<accessionId id="acc028" href="info:pmid/23043677" />
+<authors>Watson H, Davidson S, Keeling D; Haemostasis and Thrombosis Task Force of the British Committee for Standards in Haematology.</authors>
+<title>Guidelines on the diagnosis and management of heparin-induced thrombocytopenia: second edition.</title>
+<source>Br J Haematol</source>
+<pubdate>2012</pubdate>
+<volume>159</volume>
+<pages>528&#x2013;540.</pages>
+</reference>
+<reference id="pubmed23991661">
+<accessionId id="acc029" href="info:pmid/23991661" />
+<authors>Eikelboom JW, Connolly SJ, Brueckmann M, Granger CB, Kappetein AP, Mack MJ, Blatchford J, Devenny K, Friedman J, Guiver K, Harper R, Khder Y, Lobmeyer MT, Maas H, Voigt JU, Simoons ML, Van de Werf F; RE-ALIGN Investigators.</authors>
+<title>Dabigatran versus warfarin in patients with mechanical heart valves.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>369</volume>
+<pages>1206&#x2013;1214.</pages>
+</reference>
+<reference id="pubmed26095867">
+<accessionId id="acc030" href="info:pmid/26095867" />
+<authors>Douketis JD, Spyropoulos AC, Kaatz S, Becker RC, Caprini JA, Dunn AS, Garcia DA, Jacobson A, Jaffer AK, Kong DF, Schulman S, Turpie AG, Hasselblad V, Ortel TL; BRIDGE Investigators.</authors>
+<title>Perioperative bridging anticoagulation in patients with atrial fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>373</volume>
+<pages>823&#x2013;833.</pages>
+</reference>
+<reference id="pubmed12186515">
+<accessionId id="acc031" href="info:pmid/12186515" />
+<authors>Crowther MA, Douketis JD, Schnurr T, Steidl L, Mera V, Ultori C, Venco A, Ageno W.</authors>
+<title>Oral vitamin K lowers the international normalized ratio more rapidly than subcutaneous vitamin K in the treatment of warfarin-associated coagulopathy. A randomized, controlled trial.</title>
+<source>Ann Intern Med</source>
+<pubdate>2002</pubdate>
+<volume>137</volume>
+<pages>251&#x2013;254.</pages>
+</reference>
+<reference id="poem191218">
+<accessionId id="acc032" href="info:wiley/eep-poem/191218" />
+<accessionId id="acc032b" href="info:pmid/28973620" />
+<authors>Gage BF, Bass AR, Lin H, Woller SC, Stevens SM, Al-Hammadi N, Li J, Rodr&#x00ED;guez T Jr, Miller JP, McMillin GA, Pendleton RC, Jaffer AK, King CR, Whipple BD, Porche-Sorbet R, Napoli L, Merritt K, Thompson AM, Hyun G, Anderson JL, Hollomon W, Barrack RL, Nunley RM, Moskowitz G, D&#x00E1;vila-Rom&#x00E1;n V, Eby CS.</authors>
+<title>Effect of genotype-guided warfarin dosing on clinical events and anticoagulation control among patients undergoing hip or knee arthroplasty: the GIFT randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>1115&#x2013;1124.</pages>
+</reference>
+<reference id="poem191213">
+<accessionId id="acc033" href="info:wiley/eep-poem/191213" />
+<accessionId id="acc033b" href="info:pmid/28973247" />
+<authors>Chang SH, Chou IJ, Yeh YH, Chiou MJ, Wen MS, Kuo CT, See LC, Kuo CF.</authors>
+<title>Association between use of non-vitamin K oral anticoagulants with and without concurrent medications and risk of major bleeding in nonvalvular atrial fibrillation.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>1250&#x2013;1259.</pages>
+</reference>
+<reference id="pubmed28463896">
+<accessionId id="acc034" href="info:pmid/28463896" />
+<authors>Columbo JA, Lambour AJ, Sundling RA, Chauhan NB, Bessen SY, Linshaw DL, Kang R, Riblet NBV, Goodney PP, Stone DH.</authors>
+<title>A meta-analysis of the impact of aspirin, clopidogrel, and dual antiplatelet therapy on bleeding complications in noncardiac surgery.</title>
+<source>Ann Surg</source>
+<pubdate>2018</pubdate>
+<volume>267</volume>
+<pages>1&#x2013;10.</pages>
+</reference>
+<reference id="pubmed200917">
+<accessionId id="acc035" href="info:pmid/200917" />
+<authors>Chen-Kiang S, Cardinale GJ, Udenfriend S.</authors>
+<title>Homology between a prolyl hydroxylase subunit and a tissue protein that crossreacts immunologically with the enzyme.</title>
+<source>Proc Natl Acad Sci U.S.A.</source>
+<pubdate>1977</pubdate>
+<volume>74</volume>
+<pages>4420&#x2013;4424.</pages>
+</reference>
+<reference id="poem200410">
+<accessionId id="acc036" href="info:wiley/eep-poem/200410" />
+<accessionId id="acc036b" href="info:pmid/29231094" />
+<authors>Raskob GE, van Es N, Verhamme P, Carrier M, Di Nisio M, Garcia D, Grosso MA, Kakkar AK, Kovacs MJ, Mercuri MF, Meyer G, Segers A, Shi M, Wang TF, Yeo E, Zhang G, Zwicker JI, Weitz JI, B&#x00FC;ller HR, Hokusai VTE Cancer Investigators.</authors>
+<title>Edoxaban for the treatment of cancer-associated venous thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>615&#x2013;624.</pages>
+</reference>
+<reference id="cochrane9447">
+<accessionId id="acc037" href="info:wiley/cochrane/CD009447" />
+<chapter_authors>Matar CF, Kahale LA, Hakoum MB, Tsolakian IG, Etxeandia-Ikobaltzeta I, Yosuico VE, Terrenato I, Sperati F, Barba M, Sch&#x00FC;nemann H, Akl EA.</chapter_authors>
+<chapter_title>Anticoagulation for perioperative thromboprophylaxis in people with cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 7. Art. No.: CD009447. DOI: 10.1002&#x002F;14651858.CD009447.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6466">
+<accessionId id="acc038" href="info:wiley/cochrane/CD006466" />
+<chapter_authors>Kahale LA, Hakoum MB, Tsolakian IG, Matar CF, Barba M, Yosuico VE, Terrenato I, Sperati F, Sch&#x00FC;nemann H, Akl EA.</chapter_authors>
+<chapter_title>Oral anticoagulation in people with cancer who have no therapeutic or prophylactic indication for anticoagulation.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 12. Art. No.: CD006466. DOI: 10.1002&#x002F;14651858.CD006466.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6652">
+<accessionId id="acc039" href="info:wiley/cochrane/CD006652" />
+<chapter_authors>Akl EA, Kahale LA, Hakoum MB, Matar CF, Sperati F, Barba M, Yosuico VE, Terrenato I, Synnot A, Sch&#x00FC;nemann H.</chapter_authors>
+<chapter_title>Parenteral anticoagulation in ambulatory patients with cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 9. Art. No.: CD006652. DOI: 10.1002&#x002F;14651858.CD006652.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem210225">
+<accessionId id="acc040" href="info:wiley/eep-poem/210225" />
+<accessionId id="acc040b" href="info:pmid/30512099" />
+<authors>Ray WA, Chung CP, Murray KT, Smalley WE, Daugherty JR, Dupont WD, Stein CM.</authors>
+<title>Association of oral anticoagulants and proton pump inhibitor cotherapy with hospitalization for upper gastrointestinal tract bleeding.</title>
+<source>JAMA</source>
+<pubdate>2018</pubdate>
+<volume>320</volume>
+<pages>2221&#x2013;2230.</pages>
+</reference>
+<reference id="poem210501">
+<accessionId id="acc041" href="info:wiley/eep-poem/210501" />
+<accessionId id="acc041b" href="info:pmid/30144419" />
+<authors>Lip GYH, Banerjee A, Boriani G, Chiang CE, Fargo R, Freedman B, Lane DA, Ruff CT, Turakhia M, Werring D, Patel S, Moores L.</authors>
+<title>Antithrombotic therapy for atrial fibrillation: CHEST Guideline and Expert Panel Report.</title>
+<source>Chest</source>
+<pubdate>2018</pubdate>
+<volume>154</volume>
+<pages>1121&#x2013;1201.</pages>
+</reference>
+<reference id="cochrane6468">
+<accessionId id="acc042" href="info:wiley/cochrane/CD6468" />
+<chapter_authors>Kahale LA, Tsolakian IG, Hakoum MB, Matar CF, Barba M, Yosuico VE, Terrenato I, Sperati F, Sch&#x00FC;nemann H, Akl EA.</chapter_authors>
+<chapter_title>Anticoagulation for people with cancer and central venous catheters.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 6. Art. No.: CD006468. DOI: 10.1002&#x002F;14651858.CD006468.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed30730782">
+<accessionId id="acc043" href="info:pmid/30730782" />
+<authors>Connolly SJ, Crowther M, Eikelboom JW, Gibson CM, Curnutte JT, Lawrence JH, Yue P, Bronson MD, Lu G, Conley PB, Verhamme P, Schmidt J, Middeldorp S, Cohen AT, Beyer-Westendorf J, Albaladejo P, Lopez-Sendon J, Demchuk AM, Pallin DJ, Concha M, Goodman S, Leeds J, Souza S, Siegal DM, Zotova E, Meeks B, Ahmad S, Nakamya J, Milling TJ Jr, ANNEXA-4 Investigators.</authors>
+<title>Full study report of Andexanet Alfa for bleeding associated with factor Xa inhibitors.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>1326&#x2013;1335.</pages>
+</reference>
+<reference id="pubmed30941571">
+<accessionId id="acc044" href="info:pmid/30941571" />
+<authors>Smith MN, Deloney L, Carter C, Weant KA, Eriksson EA.</authors>
+<title>Safety, efficacy, and cost of four-factor prothrombin complex concentrate (4F-PCC) in patients with factor Xa inhibitor-related bleeding: a retrospective study.</title>
+<source>J Thromb Thrombolysis</source>
+<pubdate>2019</pubdate>
+<volume>48</volume>
+<pages>250&#x2013;255.</pages>
+</reference>
+<reference id="pubmed22491734">
+<accessionId id="acc045" href="info:pmid/22491734" />
+<authors>Khorsand N, Veeger NJ, van Hest RM, Ypma PF, Heidt J, Meijer K.</authors>
+<title>An observational, prospective, two-cohort comparison of a fixed versus variable dosing strategy of prothrombin complex concentrate to counteract vitamin K antagonists in 240 bleeding emergencies.</title>
+<source>Haematologica</source>
+<pubdate>2012</pubdate>
+<volume>97</volume>
+<pages>1501&#x2013;6.</pages>
+</reference>
+<reference id="pubmed25566930">
+<accessionId id="acc046" href="info:pmid/25566930" />
+<authors>Parasrampuria DA, Marbury T, Matsushima N, Chen S, Wickremasingha PK, He L, Dishy V, Brown KS.</authors>
+<title>Pharmacokinetics, safety, and tolerability of edoxaban in end-stage renal disease subjects undergoing haemodialysis.</title>
+<source>Thromb Haemost</source>
+<pubdate>2015</pubdate>
+<volume>113</volume>
+<pages>719&#x2013;27.</pages>
+</reference>
+<reference id="pubmed31645857">
+<accessionId id="acc047" href="info:pmid/31645857" />
+<authors>Sawant AC, Kumar A, Mccray W, Tetewsky S, Parone L, Sridhara S, Prakash MPH, Tse G, Liu T, Kanwar N, Bhardwaj A, Khan S, Manion C, Lahoti A, Pershad A, Elkin P, Corbelli J.</authors>
+<title>Superior safety of direct oral anticoagulants compared to Warfarin in patients with atrial fibrillation and underlying cancer: a national veterans affairs database study.</title>
+<source>J Geriatr Cardiol</source>
+<pubdate>2019</pubdate>
+<volume>16</volume>
+<pages>706&#x2013;709.</pages>
+</reference>
+<reference id="pubmed30686041">
+<accessionId id="acc048" href="info:pmid/30686041" />
+<authors>January CT, Wann LS, Calkins H, Chen LY, Cigarroa JE, Cleveland JC Jr, Ellinor PT, Ezekowitz MD, Field ME, Furie KL, Heidenreich PA, Murray KT, Shea JB, Tracy CM, Yancy CW.</authors>
+<title>2019 AHA&#x002F;ACC&#x002F;HRS Focused Update of the 2014 AHA&#x002F;ACC&#x002F;HRS Guideline for the Management of Patients With Atrial Fibrillation: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society in Collaboration With the Society of Thoracic Surgeons.</title>
+<source>Circulation</source>
+<pubdate>2019</pubdate>
+<volume>140</volume>
+<pages>e125&#x2013;e151.</pages>
+</reference>
+<reference id="pubmed25156992">
+<accessionId id="acc049" href="info:pmid/25156992" />
+<authors>Simes J, Becattini C, Agnelli G, Eikelboom JW, Kirby AC, Mister R, Prandoni P, Brighton TA, INSPIRE Study Investigators (International Collaboration of Aspirin Trials for Recurrent Venous Thromboembolism).</authors>
+<title>Aspirin for the prevention of recurrent venous thromboembolism: the INSPIRE collaboration.</title>
+<source>Circulation</source>
+<pubdate>2014</pubdate>
+<volume>130</volume>
+<pages>1062&#x2013;71.</pages>
+</reference>
+<reference id="pubmed21703676">
+<accessionId id="acc050" href="info:pmid/21703676" />
+<authors>Aujesky D, Roy PM, Verschuren F, Righini M, Osterwalder J, Egloff M, Renaud B, Verhamme P, Stone RA, Legall C, Sanchez O, Pugh NA, N'gako A, Cornuz J, Hugli O, Beer HJ, Perrier A, Fine MJ, Yealy DM.</authors>
+<title>Outpatient versus inpatient treatment for patients with acute pulmonary embolism: an international, open-label, randomised, non-inferiority trial.</title>
+<source>Lancet</source>
+<pubdate>2011</pubdate>
+<volume>378</volume>
+<pages>41&#x2013;8.</pages>
+</reference>
+<reference id="poem211210">
+<accessionId id="acc051" href="info:wiley/eep-poem/211210" />
+<accessionId id="acc051b" href="info:pmid/31329212" />
+<authors>Xian Y, Xu H, O'Brien EC, Shah S, Thomas L, Pencina MJ, Fonarow GC, Olson DM, Schwamm LH, Bhatt DL, Smith EE, Hannah D, Maisch L, Lytle BL, Peterson ED, Hernandez AF.</authors>
+<title>Clinical effectiveness of direct oral anticoagulants vs warfarin in older patients with atrial fibrillation and ischemic stroke: findings from the Patient-Centered Research Into Outcomes Stroke Patients Prefer and Effectiveness Research (PROSPER) Study.</title>
+<source>JAMA Neurol</source>
+<pubdate>2019</pubdate>
+<pages />
+</reference>
+<reference id="poem211003">
+<accessionId id="acc052" href="info:wiley/eep-poem/211003" />
+<accessionId id="acc052b" href="info:pmid/31174635" />
+<authors>Mai V, Guay CA, Perreault L, Bonnet S, Bertoletti L, Lacasse Y, Jardel S, Lega JC, Provencher S.</authors>
+<title>Extended anticoagulation for VTE: a systematic review and meta-analysis.</title>
+<source>Chest</source>
+<pubdate>2019</pubdate>
+<volume>155</volume>
+<pages>1199&#x2013;1216.</pages>
+</reference>
+<reference id="poem220323">
+<accessionId id="acc053" href="info:wiley/eep-poem/220323" />
+<accessionId id="acc053b" href="info:pmid/31937532" />
+<authors>Garrison SR, Green L, Kolber MR, Korownyk CS, Olivier NM, Heran BS, Flesher ME, Allan GM.</authors>
+<title>The effect of warfarin administration time on anticoagulation stability (INRange): a pragmatic randomized controlled trial.</title>
+<source>Ann Fam Med</source>
+<pubdate>2020</pubdate>
+<volume>18</volume>
+<pages>42&#x2013;49.</pages>
+</reference>
+<reference id="poem221026">
+<accessionId id="acc054" href="info:wiley/eep-poem/221026" />
+<accessionId id="acc054b" href="info:pmid/32511684" />
+<authors>Hill K, Sucha E, Rhodes E, Carrier M, Garg AX, Harel Z, Hundemer GL, Clark EG, Knoll G, McArthur E, Sood MM.</authors>
+<title>Risk of hospitalization with hemorrhage among older adults taking clarithromycin vs azithromycin and direct oral anticoagulants.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2020</pubdate>
+<volume>180</volume>
+<pages>1052&#x2013;1060.</pages>
+</reference>
+<reference id="poem221018">
+<accessionId id="acc055" href="info:wiley/eep-poem/221018" />
+<accessionId id="acc055b" href="info:pmid/32702090" />
+<authors>Bilaloglu S, Aphinyanaphongs Y, Jones S, Iturrate E, Hochman J, Berger JS.</authors>
+<title>Thrombosis in hospitalized patients with COVID-19 in a New York City Health System.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>324</volume>
+<pages>799&#x2013;801.</pages>
+</reference>
+<reference id="poem230129">
+<accessionId id="acc056" href="info:wiley/eep-poem/230129" />
+<accessionId id="acc056b" href="info:pmid/33196155" />
+<authors>Guimar&#x00E3;es HP, Lopes RD, de Barros E Silva PGM, Liporace IL, Sampaio RO, Tarasoutchi F, Hoffmann-Filho CR, de Lemos Soares Patriota R, Leiria TLL, Lamprea D, Precoma DB, Atik FA, Silveira FS, Farias FR, Barreto DO, Almeida AP, Zilli AC, de Souza Neto JD, Cavalcante MA, Figueira FAMS, Kojima FCS, Damiani L, Santos RHN, Valeis N, Campos VB, Saraiva JFK, Fonseca FH, Pinto IM, Magalh&#x00E3;es CC, Ferreira JFM, Alexander JH, Pavanello R, Cavalcanti AB, Berwanger O, RIVER Trial Investigators.</authors>
+<title>Rivaroxaban in Patients with Atrial Fibrillation and a Bioprosthetic Mitral Valve.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>383</volume>
+<pages>2117&#x2013;2126.</pages>
+</reference>
+<reference id="poem220717">
+<accessionId id="acc057" href="info:wiley/eep-poem/220717" />
+<accessionId id="acc057b" href="info:pmid/32223112" />
+<authors>Agnelli G, Becattini C, Meyer G, Mu&#x00F1;oz A, Huisman MV, Connors JM, Cohen A, Bauersachs R, Brenner B, Torbicki A, Sueiro MR, Lambert C, Gussoni G, Campanini M, Fontanella A, Vescovo G, Verso M, Caravaggio Investigators.</authors>
+<title>Apixaban for the Treatment of Venous Thromboembolism Associated with Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>1599&#x2013;1607.</pages>
+</reference>
+<reference id="poem220623">
+<accessionId id="acc058" href="info:wiley/eep-poem/220623" />
+<accessionId id="acc058b" href="info:pmid/32011647" />
+<authors>Matharu GS, Kunutsor SK, Judge A, Blom AW, Whitehouse MR.</authors>
+<title>Clinical Effectiveness and Safety of Aspirin for Venous Thromboembolism Prophylaxis After Total Hip and Knee Replacement: A Systematic Review and Meta-analysis of Randomized Clinical Trials.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2020</pubdate>
+<volume>180</volume>
+<pages>376&#x2013;384.</pages>
+</reference>
+<reference id="poem211205">
+<accessionId id="acc059" href="info:wiley/eep-poem/211205" />
+<accessionId id="acc059b" href="info:pmid/31475793" />
+<authors>Yasuda S, Kaikita K, Akao M, Ako J, Matoba T, Nakamura M, Miyauchi K, Hagiwara N, Kimura K, Hirayama A, Matsui K, Ogawa H, AFIRE Investigators.</authors>
+<title>Antithrombotic Therapy for Atrial Fibrillation with Stable Coronary Disease.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>381</volume>
+<pages>1103&#x2013;1113.</pages>
+</reference>
+<reference id="poem210725">
+<accessionId id="acc060" href="info:wiley/eep-poem/210725" />
+<accessionId id="acc060b" href="info:pmid/30883055" />
+<authors>Lopes RD, Heizer G, Aronson R, Vora AN, Massaro T, Mehran R, Goodman SG, Windecker S, Darius H, Li J, Averkov O, Bahit MC, Berwanger O, Budaj A, Hijazi Z, Parkhomenko A, Sinnaeve P, Storey RF, Thiele H, Vinereanu D, Granger CB, Alexander JH, AUGUSTUS Investigators.</authors>
+<title>Antithrombotic Therapy after Acute Coronary Syndrome or PCI in Atrial Fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>1509&#x2013;1524.</pages>
+</reference>
+<reference id="poem210520">
+<accessionId id="acc061" href="info:wiley/eep-poem/210520" />
+<accessionId id="acc061b" href="info:pmid/30511879" />
+<authors>Carrier M, Abou-Nassar K, Mallick R, Tagalakis V, Shivakumar S, Schattner A, Kuruvilla P, Hill D, Spadafora S, Marquis K, Trinkaus M, Tomiak A, Lee AYY, Gross PL, Lazo-Langner A, El-Maraghi R, Goss G, Le Gal G, Stewart D, Ramsay T, Rodger M, Witham D, Wells PS, AVERT Investigators.</authors>
+<title>Apixaban to Prevent Venous Thromboembolism in Patients with Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>711&#x2013;719.</pages>
+</reference>
+<reference id="poem314796">
+<accessionId id="acc062" href="info:wiley/eep-poem/314796" />
+<accessionId id="acc062b" href="info:pmid/34352278" />
+<authors>Stevens SM, Woller SC, Kreuziger LB, Bounameaux H, Doerschug K, Geersing GJ, Huisman MV, Kearon C, King CS, Knighton AJ, Lake E, Murin S, Vintch JRE, Wells PS, Moores LK.</authors>
+<title>Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report.</title>
+<source>Chest</source>
+<pubdate>2021</pubdate>
+<volume>160</volume>
+<pages>e545&#x2013;e608.</pages>
+</reference>
+<reference id="pubmed30703431">
+<accessionId id="acc063" href="info:pmid/30703431" />
+<authors>January CT, Wann LS, Calkins H, Chen LY, Cigarroa JE, Cleveland JC Jr, Ellinor PT, Ezekowitz MD, Field ME, Furie KL, Heidenreich PA, Murray KT, Shea JB, Tracy CM, Yancy CW.</authors>
+<title>2019 AHA&#x002F;ACC&#x002F;HRS Focused Update of the 2014 AHA&#x002F;ACC&#x002F;HRS Guideline for the Management of Patients With Atrial Fibrillation: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2019</pubdate>
+<volume>74</volume>
+<pages>104&#x2013;132.</pages>
+</reference>
+<reference id="pubmed33972115">
+<accessionId id="acc064" href="info:pmid/33972115" />
+<authors>Writing Committee Members, Otto CM, Nishimura RA, Bonow RO, Carabello BA, Erwin JP 3rd, Gentile F, Jneid H, Krieger EV, Mack M, McLeod C, O'Gara PT, Rigolin VH, Sundt TM 3rd, Thompson A, Toly C, ACC&#x002F;AHA Joint Committee Members, O'Gara PT, Beckman JA, Levine GN, Al-Khatib SM, Armbruster A, Birtcher KK, Ciggaroa J, Deswal A, Dixon DL, Fleisher LA, de Las Fuentes L, Gentile F, Goldberger ZD, Gorenek B, Haynes N, Hernandez AF, Hlatky MA, Joglar JA, Jones WS, Marine JE, Mark D, Palaniappan L, Piano MR, Spatz ES, Tamis-Holland J, Wijeysundera DN, Woo YJ.</authors>
+<title>2020 ACC&#x002F;AHA guideline for the management of patients with valvular heart disease: A report of the American College of Cardiology&#x002F;American Heart Association Joint Committee on Clinical Practice Guidelines.</title>
+<source>J Thorac Cardiovasc Surg</source>
+<pubdate>2021</pubdate>
+<volume>162</volume>
+<pages>e183&#x2013;e353.</pages>
+</reference>
+<reference id="pubmed35185406">
+<accessionId id="acc065" href="info:pmid/35185406" />
+<authors>Fanaroff AC, Vora AN, Lopes RD.</authors>
+<title>Non-vitamin K antagonist oral anticoagulants in patients with valvular heart disease.</title>
+<source>Eur Heart J Suppl</source>
+<pubdate>2022</pubdate>
+<volume>24</volume>
+<pages>A19&#x2013;A31.</pages>
+</reference>
+<reference id="pubmed30482768">
+<accessionId id="acc066" href="info:pmid/30482768" />
+<authors>Cuker A, Arepally GM, Chong BH, Cines DB, Greinacher A, Gruel Y, Linkins LA, Rodner SB, Selleng S, Warkentin TE, Wex A, Mustafa RA, Morgan RL, Santesso N.</authors>
+<title>American Society of Hematology 2018 guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia.</title>
+<source>Blood Adv</source>
+<pubdate>2018</pubdate>
+<volume>2</volume>
+<pages>3360&#x2013;3392.</pages>
+</reference>
+<reference id="pubmed27107925">
+<accessionId id="acc067" href="info:pmid/27107925" />
+<authors>Greene MT, Spyropoulos AC, Chopra V, Grant PJ, Kaatz S, Bernstein SJ, Flanders SA.</authors>
+<title>Validation of Risk Assessment Models of Venous Thromboembolism in Hospitalized Medical Patients.</title>
+<source>Am J Med</source>
+<pubdate>2016</pubdate>
+<volume>129</volume>
+<pages>1001.e9&#x2013;1001.e18.</pages>
+</reference>
+<reference id="pubmed34985309">
+<accessionId id="acc068" href="info:pmid/34985309" />
+<authors>Carnicelli AP, Hong H, Connolly SJ, Eikelboom J, Giugliano RP, Morrow DA, Patel MR, Wallentin L, Alexander JH, Cecilia Bahit M, Benz AP, Bohula EA, Chao TF, Dyal L, Ezekowitz M, A A Fox K, Gencer B, Halperin JL, Hijazi Z, Hohnloser SH, Hua K, Hylek E, Toda Kato E, Kuder J, Lopes RD, Mahaffey KW, Oldgren J, Piccini JP, Ruff CT, Steffel J, Wojdyla D, Granger CB, COMBINE AF (A Collaboration Between Multiple Institutions to Better Investigate Non-Vitamin K Antagonist Oral Anticoagulant Use in Atrial Fibrillation) Investigators.</authors>
+<title>Direct Oral Anticoagulants Versus Warfarin in Patients With Atrial Fibrillation: Patient-Level Network Meta-Analyses of Randomized Clinical Trials With Interaction Testing by Age and Sex.</title>
+<source>Circulation</source>
+<pubdate>2022</pubdate>
+<volume>145</volume>
+<pages>242&#x2013;255.</pages>
+</reference>
+<reference id="pubmed30786186">
+<accessionId id="acc069" href="info:pmid/30786186" />
+<authors>Khorana AA, Soff GA, Kakkar AK, Vadhan-Raj S, Riess H, Wun T, Streiff MB, Garcia DA, Liebman HA, Belani CP, O'Reilly EM, Patel JN, Yimer HA, Wildgoose P, Burton P, Vijapurkar U, Kaul S, Eikelboom J, McBane R, Bauer KA, Kuderer NM, Lyman GH, CASSINI Investigators.</authors>
+<title>Rivaroxaban for Thromboprophylaxis in High-Risk Ambulatory Patients with Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>720&#x2013;728.</pages>
+</reference>
+<reference id="pubmed29939938">
+<accessionId id="acc070" href="info:pmid/29939938" />
+<authors>American College of Obstetricians and Gynecologists' Committee on Practice Bulletins&#x2014;Obstetrics.</authors>
+<title>ACOG Practice Bulletin No. 196: Thromboembolism in Pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2018</pubdate>
+<volume>132</volume>
+<pages>e1&#x2013;e17.</pages>
+</reference>
+<reference id="pubmed29478266">
+<accessionId id="acc071" href="info:pmid/29478266" />
+<authors>Di Nisio M, Wichers IM, Middeldorp S.</authors>
+<title>Treatment for superficial thrombophlebitis of the leg.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2018</pubdate>
+<volume>2</volume>
+<pages>CD004982.</pages>
+</reference>
+<reference id="pubmed33290737">
+<accessionId id="acc072" href="info:pmid/33290737" />
+<authors>Halton J, Brand&#x00E3;o LR, Luciani M, Bomgaars L, Chalmers E, Mitchell LG, Nurmeev I, Sharathkumar A, Svirin P, Gorbatikov K, Tartakovsky I, Simetzberger M, Huang F, Sun Z, Kreuzer J, Gropper S, Reilly P, Brueckmann M, Albisetti M, DIVERSITY Trial Investigators.</authors>
+<title>Dabigatran etexilate for the treatment of acute venous thromboembolism in children (DIVERSITY): a randomised, controlled, open-label, phase 2b&#x002F;3, non-inferiority trial.</title>
+<source>Lancet Haematol</source>
+<pubdate>2021</pubdate>
+<volume>8</volume>
+<pages>e22&#x2013;e33.</pages>
+</reference>
+<reference id="poem379642">
+<accessionId id="acc073" href="info:wiley/eep-poem/379642" />
+<accessionId id="acc073b" href="info:pmid/37266947" />
+<authors>Schrag D, Uno H, Rosovsky R, Rutherford C, Sanfilippo K, Villano JL, Drescher M, Jayaram N, Holmes C, Feldman L, Zattra O, Farrar-Muir H, Cronin C, Basch E, Weiss A, Connors JM, CANVAS Investigators.</authors>
+<title>Direct Oral Anticoagulants vs Low-Molecular-Weight Heparin and Recurrent VTE in Patients With Cancer: A Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>329</volume>
+<pages>1924&#x2013;1933.</pages>
+</reference>
+<reference id="poem308906">
+<accessionId id="acc074" href="info:wiley/eep-poem/308906" />
+<accessionId id="acc074b" href="info:pmid/37222476" />
+<authors>Fischer U, Koga M, Strbian D, Branca M, Abend S, Trelle S, Paciaroni M, Thomalla G, Michel P, Nedeltchev K, Bonati LH, Ntaios G, Gattringer T, Sandset EC, Kelly P, Lemmens R, Sylaja PN, Aguiar de Sousa D, Bornstein NM, Gdovinova Z, Yoshimoto T, Tiainen M, Thomas H, Krishnan M, Shim GC, Gumbinger C, Vehoff J, Zhang L, Matsuzono K, Kristoffersen E, Desfontaines P, Vanacker P, Alonso A, Yakushiji Y, Kulyk C, Hemelsoet D, Poli S, Paiva Nunes A, Caracciolo N, Slade P, Demeestere J, Salerno A, Kneihsl M, Kahles T, Giudici D, Tanaka K, R&#x00E4;ty S, Hidalgo R, Werring DJ, G&#x00F6;ldlin M, Arnold M, Ferrari C, Beyeler S, Fung C, Weder BJ, Tatlisumak T, Fenzl S, Rezny-Kasprzak B, Hakim A, Salanti G, Bassetti C, Gralla J, Seiffge DJ, Horvath T, Dawson J, ELAN Investigators.</authors>
+<title>Early versus Later Anticoagulation for Stroke with Atrial Fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>2411&#x2013;2421.</pages>
+</reference>
+<reference id="poem332766">
+<accessionId id="acc075" href="info:wiley/eep-poem/332766" />
+<accessionId id="acc075b" href="info:pmid/36065821" />
+<authors>Oldgren J, &#x00C5;sberg S, Hijazi Z, Wester P, Bertilsson M, Norrving B, National TIMING Collaborators.</authors>
+<title>Early Versus Delayed Non-Vitamin K Antagonist Oral Anticoagulant Therapy After Acute Ischemic Stroke in Atrial Fibrillation (TIMING): A Registry-Based Randomized Controlled Noninferiority Study.</title>
+<source>Circulation</source>
+<pubdate>2022</pubdate>
+<volume>146</volume>
+<pages>1056&#x2013;1066.</pages>
+</reference>
+<reference id="poem342785">
+<accessionId id="acc076" href="info:wiley/eep-poem/342785" />
+<accessionId id="acc076b" href="info:pmid/36036525" />
+<authors>Connolly SJ, Karthikeyan G, Ntsekhe M, Haileamlak A, El Sayed A, El Ghamrawy A, Damasceno A, Avezum A, Dans AML, Gitura B, Hu D, Kamanzi ER, Maklady F, Fana G, Gonzalez-Hermosillo JA, Musuku J, Kazmi K, Z&#x00FC;hlke L, Gondwe L, Ma C, Paniagua M, Ogah OS, Molefe-Baikai OJ, Lwabi P, Chillo P, Sharma SK, Cabral TTJ, Tarhuni WM, Benz A, van Eikels M, Krol A, Pattath D, Balasubramanian K, Rangarajan S, Ramasundarahettige C, Mayosi B, Yusuf S, INVICTUS Investigators.</authors>
+<title>Rivaroxaban in Rheumatic Heart Disease-Associated Atrial Fibrillation.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>978&#x2013;988.</pages>
+</reference>
+<reference id="pubmed37393728">
+<accessionId id="acc077" href="info:pmid/37393728" />
+<authors>Selvaraj V, Khan MS, Mufarrih SH, Kazimuddin M, Waheed MA, Tripathi A, Bavishi C, Hyder ON, Aronow HD, Saad M, Abbott JD.</authors>
+<title>Meta-Analysis Assessing Efficacy and Safety of Vitamin K Antagonists Versus Direct Oral Anticoagulants for Atrial Fibrillation After Transcatheter Aortic Valve Implantation.</title>
+<source>Am J Cardiol</source>
+<pubdate>2023</pubdate>
+<volume>201</volume>
+<pages>260&#x2013;267.</pages>
+</reference>
+<reference id="pubmed33332150">
+<accessionId id="acc078" href="info:pmid/33332150" />
+<authors>Otto CM, Nishimura RA, Bonow RO, Carabello BA, Erwin JP 3rd, Gentile F, Jneid H, Krieger EV, Mack M, McLeod C, O'Gara PT, Rigolin VH, Sundt TM 3rd, Thompson A, Toly C.</authors>
+<title>2020 ACC&#x002F;AHA Guideline for the Management of Patients With Valvular Heart Disease: A Report of the American College of Cardiology&#x002F;American Heart Association Joint Committee on Clinical Practice Guidelines.</title>
+<source>Circulation</source>
+<pubdate>2021</pubdate>
+<volume>143</volume>
+<pages>e72&#x2013;e227.</pages>
+</reference>
+<reference id="pubmed323857">
+<accessionId id="acc079" href="info:pmid/323857" />
+<authors>Kleeman JE, Parsons SM.</authors>
+<title>Inhibition of histidyl-tRNA-adenosine triphosphate phosphoribosyltransferase complex formation by histidine and by guanosine tetraphosphate.</title>
+<source>Proc Natl Acad Sci U S A</source>
+<pubdate>1977</pubdate>
+<volume>74</volume>
+<pages>1535&#x2013;7.</pages>
+</reference>
+<reference id="poem329889">
+<accessionId id="acc080" href="info:wiley/eep-poem/329889" />
+<accessionId id="acc080b" href="info:pmid/37952187" />
+<authors>McIntyre WF, Benz AP, Becher N, Healey JS, Granger CB, Rivard L, Camm AJ, Goette A, Zapf A, Alings M, Connolly SJ, Kirchhof P, Lopes RD.</authors>
+<title>Direct Oral Anticoagulants for Stroke Prevention in Patients With Device-Detected Atrial Fibrillation: A Study-Level Meta-Analysis of the NOAH-AFNET 6 and ARTESiA Trials.</title>
+<source>Circulation</source>
+<pubdate>2024</pubdate>
+<volume>149</volume>
+<pages>981&#x2013;988.</pages>
+</reference>
+<reference id="poem322230">
+<accessionId id="acc081" href="info:wiley/eep-poem/322230" />
+<accessionId id="acc081b" href="info:pmid/38324415" />
+<authors>Kamel H, Longstreth WT Jr, Tirschwell DL, Kronmal RA, Marshall RS, Broderick JP, Arag&#x00F3;n Garc&#x00ED;a R, Plummer P, Sabagha N, Pauls Q, Cassarly C, Dillon CR, Di Tullio MR, Hod EA, Soliman EZ, Gladstone DJ, Healey JS, Sharma M, Chaturvedi S, Janis LS, Krishnaiah B, Nahab F, Kasner SE, Stanton RJ, Kleindorfer DO, Starr M, Winder TR, Clark WM, Miller BR, Elkind MSV, ARCADIA Investigators.</authors>
+<title>Apixaban to Prevent Recurrence After Cryptogenic Stroke in Patients With Atrial Cardiopathy: The ARCADIA Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2024</pubdate>
+<volume>331</volume>
+<pages>573&#x2013;581.</pages>
+</reference>
+<reference id="poem348847">
+<accessionId id="acc082" href="info:wiley/eep-poem/348847" />
+<accessionId id="acc082b" href="info:pmid/38517440" />
+<authors>Rahman AA, Platt RW, Beradid S, Boivin JF, Rej S, Renoux C.</authors>
+<title>Concomitant Use of Selective Serotonin Reuptake Inhibitors With Oral Anticoagulants and Risk of Major Bleeding.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2024</pubdate>
+<volume>7</volume>
+<pages>e243208.</pages>
+</reference>
+<reference id="poem396032">
+<accessionId id="acc083" href="info:wiley/eep-poem/396032" />
+<accessionId id="acc083b" href="info:pmid/38281089" />
+<authors>Gaboreau Y, Frapp&#x00E9; P, Vermorel C, Foote A, Bosson JL, Pernod G, CACAO study investigators.</authors>
+<title>Oral anticoagulant safety in family practice: prognostic accuracy of Bleeding Risk Scores (from the CACAO study).</title>
+<source>Fam Pract</source>
+<pubdate>2024</pubdate>
+<volume>41</volume>
+<pages>9&#x2013;17.</pages>
+</reference>
+<reference id="poem323857">
+<accessionId id="acc084" href="info:wiley/eep-poem/323857" />
+<accessionId id="acc084b" href="info:pmid/37216662" />
+<authors>Ray WA, Chung CP, Stein CM, Smalley W, Zimmerman E, Dupont WD, Hung AM, Daugherty JR, Dickson AL, Murray KT.</authors>
+<title>Risk for Bleeding-Related Hospitalizations During Use of Amiodarone With Apixaban or Rivaroxaban in Patients With Atrial Fibrillation : A Retrospective Cohort Study.</title>
+<source>Ann Intern Med</source>
+<pubdate>2023</pubdate>
+<volume>176</volume>
+<pages>769&#x2013;778.</pages>
+</reference>
+<reference id="poem342500">
+<accessionId id="acc085" href="info:wiley/eep-poem/342500" />
+<accessionId id="acc085b" href="info:pmid/37839434" />
+<authors>Al-Shahi Salman R, Stephen J, Tierney JF, Lewis SC, Newby DE, Parry-Jones AR, White PM, Connolly SJ, Benavente OR, Dowlatshahi D, Cordonnier C, Viscoli CM, Sheth KN, Kamel H, Veltkamp R, Larsen KT, Hofmeijer J, Kerkhoff H, Schreuder FHBM, Shoamanesh A, Klijn CJM, van der Worp HB, Collaboration of Controlled Randomised Trials of Long-Term Oral Antithrombotic Agents After Spontaneous Intracranial Haemorrhage (COCROACH).</authors>
+<title>Effects of oral anticoagulation in people with atrial fibrillation after spontaneous intracranial haemorrhage (COCROACH): prospective, individual participant data meta-analysis of randomised trials.</title>
+<source>Lancet Neurol</source>
+<pubdate>2023</pubdate>
+<volume>22</volume>
+<pages>1140&#x2013;1149.</pages>
+</reference>
+<reference id="poem348554">
+<accessionId id="acc086" href="info:wiley/eep-poem/348554" />
+<accessionId id="acc086b" href="info:pmid/37926222" />
+<authors>Efros O, Berman A, Kenet G, Lubetsky A, Doron A, Shlomai G, Klang E, Soffer S, Barda N, Leibowitz A.</authors>
+<title>Elevated International Normalized Ratio and Mortality in Hospitalized Patients Treated with Direct Oral Anticoagulants.</title>
+<source>Am J Med</source>
+<pubdate>2024</pubdate>
+<volume>137</volume>
+<pages>147&#x2013;153.e2.</pages>
+</reference>
+<reference id="pubmed39556015">
+<accessionId id="acc087" href="info:pmid/39556015" />
+<authors>Yamashita Y, Morimoto T, Muraoka N, Shioyama W, Chatani R, Shibata T, Nishimoto Y, Ogihara Y, Doi K, Oi M, Shiga T, Sueta D, Kim K, Tanabe Y, Koitabashi N, Takada T, Ikeda S, Nakagawa H, Tsukahara K, Shoji M, Sakamoto J, Hisatake S, Ogino Y, Fujita M, Nakanishi N, Dohke T, Hiramori S, Nawada R, Kaneda K, Ono K, Kimura T, ONCO PE Trial Investigators.</authors>
+<title>Rivaroxaban for 18 Months Versus 6 Months in Patients With Cancer and Acute Low-Risk Pulmonary Embolism: An Open-Label, Multicenter, Randomized Clinical Trial (ONCO PE Trial).</title>
+<source>Circulation</source>
+<pubdate>2025</pubdate>
+<volume>151</volume>
+<pages>589&#x2013;600.</pages>
+</reference>
+<reference id="pubmed40162636">
+<accessionId id="acc088" href="info:pmid/40162636" />
+<authors>Mah&#x00E9; I, Carrier M, Mayeur D, Chidiac J, Vicaut E, Falvo N, Sanchez O, Grange C, Monreal M, L&#x00F3;pez-N&#x00FA;&#x00F1;ez JJ, Otero-Candelera R, Le Gal G, Yeo E, Righini M, Robert-Ebadi H, Huisman MV, Klok FA, Westerweel P, Agnelli G, Becattini C, Bamias A, Syrigos K, Szmit S, Torbicki A, Verhamme P, Maraveyas A, Cohen AT, Ay C, Chapelle C, Meyer G, Couturaud F, Mismetti P, Girard P, Bertoletti L, Laporte S, API-CAT Investigators.</authors>
+<title>Extended Reduced-Dose Apixaban for Cancer-Associated Venous Thromboembolism.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>1363&#x2013;1373.</pages>
+</reference>
+<reference id="pubmed40886309">
+<accessionId id="acc089" href="info:pmid/40886309" />
+<authors>Kim D, Shim J, Choi EK, Oh IY, Kim J, Lee YS, Park J, Ko JS, Park KM, Sung JH, Park HW, Park HS, Kim JY, Kang KW, Kim D, Park JK, Kim DH, Kim JB, Yu HT, Kim TH, Uhm JS, Pak HN, Joung B, ALONE-AF Investigators.</authors>
+<title>Long-Term Anticoagulation Discontinuation After Catheter Ablation for Atrial Fibrillation: The ALONE-AF Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2025</pubdate>
+<volume>334</volume>
+<pages>1246&#x2013;1254.</pages>
+</reference>
+<reference id="pubmed41051787">
+<accessionId id="acc090" href="info:pmid/41051787" />
+<authors>Okazaki S, Tanaka K, Yazawa Y, Doijiri R, Koga M, Ihara M, Yamamoto S, Kamiyama K, Honda Y, Uchida K, Yoshimoto T, Asakura K, Omae K, Tanaka K, Maeda H, Yamamoto H, Hirano T, Toyoda K, Iguchi Y, Noguchi T, Okada Y, Kitagawa K, Sakai N, Yamagami H, ATIS-NVAF Trial Investigators.</authors>
+<title>Optimal Antithrombotics for Ischemic Stroke and Concurrent Atrial Fibrillation and Atherosclerosis: A Randomized Clinical Trial.</title>
+<source>JAMA Neurol</source>
+<pubdate>2025</pubdate>
+<volume>82</volume>
+<pages>1227&#x2013;1234.</pages>
+</reference>
+<reference id="pubmed40455653">
+<accessionId id="acc091" href="info:pmid/40455653" />
+<authors>Piccoli M, Pisica-Donose G, Hacil A, Orvo&#x00EB;n G, David JP, Charbit J, Roth R, Antakly Y, Boulloche N, Vinsonneau U, Bou&#x00E9;e S, Krolak-Salmon P, Fauchier L, Jouanny P, Sacco G, Bellarbre F, Belmin J, Fran&#x00E7;ois P, Lilamand M, Paillaud E, Boureau AS, Hanon O, Vidal JS.</authors>
+<title>A new bleeding risk score specifically developed for direct oral anticoagulants in a geriatric population.</title>
+<source>Age Ageing</source>
+<pubdate>2025</pubdate>
+<volume>54</volume>
+<pages />
+</reference>
+<reference id="pubmed39216096">
+<accessionId id="acc092" href="info:pmid/39216096" />
+<authors>van Ginkel DJ, Bor WL, Aarts HM, Dubois C, De Backer O, Rooijakkers MJP, Rosseel L, Veenstra L, van der Kley F, van Bergeijk KH, Van Mieghem NM, Agostoni P, Voskuil M, Schotborgh CE, IJsselmuiden AJJ, Van Der Heyden JAS, Hermanides RS, Barbato E, Mylotte D, Fabris E, Frambach P, Dujardin K, Ferdinande B, Peper J, Rensing BJWM, Timmers L, Swaans MJ, Brouwer J, Nijenhuis VJ, Overduin DC, Adriaenssens T, Kobari Y, Vriesendorp PA, Montero-Cabezas JM, El Jattari H, Halim J, Van den Branden BJL, Leonora R, Vanderheyden M, Lauterbach M, Wykrzykowska JJ, van 't Hof AWJ, van Royen N, Tijssen JGP, Delewi R, Ten Berg JM, POPular PAUSE TAVI Investigators., POPular PAUSE TAVI Investigators.</authors>
+<title>Continuation versus Interruption of Oral Anticoagulation during TAVI.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>438&#x2013;449.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>All-Cause Mortality, Risk of Recurrent VTE, and Risk of Major Bleeding Using Different Direct-Acting Oral Anticoagulants Compared with Warfarin. (The first number in each comparison is the risk with warfarin; the second is the DOA.)<xref ref="pubmed26867832" resource="acc003" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Direct Oral Anticoagulant</th>
+<th align="left" colspan="1">All-Cause Mortality</th>
+<th align="left" colspan="1">Recurrent VTE</th>
+<th align="left" colspan="1">Major Bleeding</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Apixaban</strong></td>
+<td align="left" colspan="1">19 vs. 15&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">27 vs. 23&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">18 vs. 5&#x002F;1000 (RR 0.31; 95&#x0025; CI 0.17&#x2013;0.55)</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Dabigatran</strong></td>
+<td align="left" colspan="1">18 vs. 18&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">22 vs. 25&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">20 vs. 15&#x002F;1000 (NS)</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Rivaroxaban</strong></td>
+<td align="left" colspan="1">24 vs. 23&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">23 vs. 21&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">17 vs. 9&#x002F;1000 (p &#x003D; NS)</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Edoxaban</strong></td>
+<td align="left" colspan="1">31 vs. 33&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">35 vs. 29&#x002F;1000 (NS)</td>
+<td align="left" colspan="1">16 vs. 14&#x002F;1000 (NS)</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

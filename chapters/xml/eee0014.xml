@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Arrhythmia (atrioventricular block)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0014</topic_id>
+<topic_comment />
+<topic_lastupdated>12/12/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Sanjeev Wasson, MD, FACC</author_name>
+<author_title>Medical Director</author_title>
+<author_department>Electrophysiology Laboratory</author_department>
+<author_institution>Skagit Valley Hospital</author_institution>
+<author_email>sanjeevwasson&#x0040;hotmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Mt. Vernon</author_city>
+<author_state>WA</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Kartic Rajput MD PhD</author_name>
+<author_title>Co-Chairman</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Mary Lanning Healthcare</author_institution>
+<author_email>drkartic&#x0040;gmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hastings</author_city>
+<author_state>NE</author_state>
+<author_zip>68901</author_zip>
+</author>
+<author primary="no">
+<author_name>Nishant Kalra, MD</author_name>
+<author_title>Hospitalist</author_title>
+<author_department>Department of Cardiology</author_department>
+<author_institution>Tucson Medical Center</author_institution>
+<author_email>nkalra&#x005F;dr&#x0040;yahoo.com</author_email>
+<author_phone_office>520-626-6221</author_phone_office>
+<author_phone_home />
+<author_phone_fax>520-626-0967</author_phone_fax>
+<author_street1>1501 N Campbell Ave.</author_street1>
+<author_street2 />
+<author_city>Tucson</author_city>
+<author_state>AZ</author_state>
+<author_zip>85724</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Jonathan Murrow, MD</editor_name>
+<editor_title>Professor </editor_title>
+<editor_institution> Augusta University &#x2013; University of Georgia Medical Partnership</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Routine 12-lead ECG is usually adequate to establish the degree and site of atrioventricular (AV) block. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Drug therapy is reserved for treatment of symptomatic high grade AV block in the emergency setting until cardiac pacing can be initiated. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Permanent pacing is recommended for symptomatic patients with Mobitz II second- or third-degree AV block. <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>AV block is defined as an abnormal delay or interruption in the conduction of atrial impulses to ventricles due to anatomic lesions or increase in the refractory period of the conduction pathway.<xref ref="web001" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Incidence increases with age.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The Framingham study found interventricular block in 6&#x0025; of males and 2.4&#x0025; of females, with only half of the blocks in both sexes being complete.<xref ref="pubmed2784619" resource="acc002" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Idiopathic fibrosis and sclerosis.<xref ref="pubmed14237429" resource="acc003" /></listitem>
+<listitem>Ischemic heart disease, especially inferior, septal, and right ventricle.<xref ref="pubmed14060910" resource="acc004" /></listitem>
+<listitem>Drugs like beta-blockers, calcium channel blockers, digoxin, and amiodarone.</listitem>
+<listitem>Increased vagal tone, including in well-trained athletes.</listitem>
+<listitem>Valvulopathy such as calcification of the aortic and mitral valve.<xref ref="pubmed2236724" resource="acc005" /></listitem>
+<listitem>Other causes including cardiomyopathies, collagen vascular diseases, amyloidosis, hemochromatosis, myocarditis, infiltrative malignancies, sarcoidosis, trauma from valve surgeries,<xref ref="pubmed21059439" resource="acc028" /> endocarditis, Lyme disease, and sleep apnea.<xref ref="pubmed6193700" resource="acc006" /><xref ref="pubmed9316537" resource="acc007" /><xref ref="pubmed14060910" resource="acc004" /><xref ref="pubmed2582388" resource="acc008" /><xref ref="pubmed4562910" resource="acc009" /><xref ref="pubmed1372717" resource="acc010" /></listitem>
+<listitem>Congenital block.<xref ref="pubmed5578846" resource="acc011" /><xref ref="pubmed7562771" resource="acc012" /></listitem>
+<listitem>Electrolyte imbalances such as hyperkalemia.<xref ref="pubmed1119378" resource="acc013" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>AV block can result from conduction block in the atrium, AV node, and His-Purkinje system. Damage to conduction fibers in any part from the above mentioned causes can lead to disturbance in the conduction of impulses from atria to ventricle. Severity of block ranges from first degree to third degree.</listitem>
+<listitem>First-degree AV block usually results from conduction delay within the AV node and rarely from intra-atrial or His-Purkinje causes.</listitem>
+<listitem>Mobitz type I, second-degree block with normal QRS interval, is almost always in the AV node and due to decremental conduction. Mobitz type I, second-degree block with prolonged QRS interval may be in the AV node, His-Purkinje system, or both.</listitem>
+<listitem>Mobitz type II, second-degree block, frequently progresses to complete AV block. Mobitz type II AV block usually occurs in the presence of bundle branch block and is almost always in the His-Purkinje system.</listitem>
+<listitem>A 2:1 AV block (advanced second degree) with normal QRS duration or with a normal P-R interval suggests block in the AV node, but a wide QRS suggests the presence of infranodal block.</listitem>
+<listitem>Patients with type II or type I block, when associated with bundle branch block, are at high risk for development of higher degrees of AV block.</listitem>
+<listitem>Complete or third-degree AV block may occur at AV node (narrow QRS) or at the His-Purkinje system (wide QRS). The more distal the block, the slower the escape rhythm.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Age (65 years and older)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Coronary artery disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Medications</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cardiac surgery</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Myocarditis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Sleep apnea</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Routine 12-lead ECG is usually adequate to establish the degree and site of AV block. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Consider electrophysiologic study for patients in whom the cause of syncope has not been established and a high-degree AV block is suspected. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed7608464" resource="acc014" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Acute myocardial infarction</Differential_Name>
+<Differential_Features>Crushing chest pain radiating to left arm, neck and jaw</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Vasovagal syncope</Differential_Name>
+<Differential_Features>Orthostatic hypotension, related to emotional situation, pain, coughing, micturation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Atrial premature contraction</Differential_Name>
+<Differential_Features>P wave occurs during the relative refractory period of AV node</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>First-degree block: PR interval greater than 200 msec.</listitem>
+<listitem>Second-degree block (Mobitz I): progressive PR prolongation and shortening of RR interval until P wave is blocked. Pause after blocked P wave is less than twice the PP interval. PR following block is shorter than PR immediately preceding block.</listitem>
+<listitem>Second-degree block (Mobitz II): regular sinus&#x002F;atrial rhythm with intermittent nonconducted P waves. Constant PR interval in the conducted beats.</listitem>
+<listitem>Advanced or high-degree AV block: second-degree AV block often characterized by multiple, successive nonconducted P waves and otherwise not consistent with Mobitz I or II that is ongoing or frequently reccuring. Atrial activation followed by ventricular activation occuring at a 2:1 ratio can be categorized in this manner. Wide QRS complex in the setting of 2:1 block suggests high grade block at the level of the His bundle or below.</listitem>
+<listitem>Third-degree AV block (complete heart block): characterized by independent atrial and ventricular complexes with atrial rate usually exceeding ventricular rate (American College of Cardiology&#x002F;American Heart Association Task Force Definitions for Electrophysiological Studies, 2006).</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>First-degree AV block is usually asymptomatic, but marked block with PR greater than 300 msec can lead to symptoms similar to pacemaker syndrome due to loss of AV synchrony.<xref ref="pubmed8269289" resource="acc015" /> In patients with underlying left ventricular (LV) dysfunction, it may result in worsening heart failure.</listitem>
+<listitem>S1 is decreased in intensity, short diastolic murmur may be heard at the cardiac apex, long "a&#x2013;c" interval (interval between atrial contraction and ventricular isovolumic systole) is found on jugular venous pulse, and rarely giant "a" waves are seen when PR is markedly prolonged.</listitem>
+<listitem>Mobitz type I AV block is usually asymptomatic, but a few patients may complain of symptoms of low cardiac output (angina or syncope) from slow sinus rate (2:1 or 3:2 block). Mobitz I usually occurs in normal individuals with high vagal tone, athletes, elderly, those on AV blocking medications, and those with myocarditis and inferoposterior infarction from right coronary artery (90&#x0025;) or left circumflex (10&#x0025;) obstruction.</listitem>
+<listitem>Mobitz type II block is permanent, carries a bad prognosis, and frequently progresses to third-degree block. Increase in the heart rate with exercise can worsen the AV block and can lead to exercise intolerance, dizziness, presyncope, or syncope (Stokes-Adams attacks).</listitem>
+<listitem>The "a wave" is not followed by the "v wave" whenever a beat is dropped. In Mobitz type I, S1 is diminished, and the a-c interval widens with each PR prolongation similar to first-degree block.</listitem>
+<listitem>Third-degree block is accompanied by slower escape pacemaker resulting in symptoms of reduced cardiac output from bradycardia. Patients often complain of fatigue, dizziness, angina, dyspnea, presyncope or syncope (Stokes-Adams attacks), and palpitations. They are at high risk for sudden cardiac death.</listitem>
+<listitem>Bradycardia with variable intensity of S1, cannon a waves, and signs of congestive heart failure (CHF) may be present.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Routine 12-lead ECG is usually adequate to establish the varying degree and site of AV block. PR interval, relationship of P wave to QRS complex, QRS duration, and the presence of an escape rhythm can provide clues to the degree of block.</listitem>
+<listitem>Atropine, vagal maneuvers, and exercise are sometime helpful in further establishing the level of block.<xref ref="pubmed8969584" resource="acc016" /></listitem>
+<listitem>In patients with paroxysmal symptoms, consider 24- to 48-hour Holter monitoring, 30-day event monitoring, or outpatient continous telemetry monitoring using newer technology like patch technology or ECG app on smartphone 1-year implantable loop recording if no abnormalities are seen on ECG. Notably, evidence is lacking with regard to how smartphone based monitoring impacts patient outcomes.</listitem>
+<listitem>Consider electrophysiologic study when the cause of syncope has not been established and if high-grade AV block is suspected.<xref ref="pubmed7608464" resource="acc014" /></listitem>
+<listitem>Echocardiogram can be done to rule out any structural heart disease, valvulopathy and endocarditis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See <xref ref="fig001" /> for a suggested approach to diagnostic management of AV block.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>See <xref ref="table001" /> and <xref ref="fig001" />.</listitem>
+<listitem>Drug therapy is reserved for treatment of high grade AV block in the emergency setting until cardiac pacing can be initiated. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Permanent pacing is recommended for symptomatic patients with Mobitz II second- and third-degree AV block. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed18498951" resource="acc018" /></listitem>
+<listitem>Permanent pacing is recommended in third-degree and advanced second-degree patients with documented asystole of 3 seconds or greater or escape rate less than 40 beats&#x002F;min. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18498951" resource="acc018" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Drug therapy is reserved for treatment of high grade AV block in the emergency setting until cardiac pacing can be initiated.</listitem>
+<listitem>Intravenous atropine, isoproterenol, and dopamine can be used acutely in patients with symptomatic bradycardia. Chronic use is not recommended due to significant side effects.</listitem>
+<listitem>Atropine is not recommended in patients with infranodal block as it can decrease ventricular rate further.<xref ref="pubmed15358045" resource="acc020" /></listitem>
+<listitem>Isoproterenol and dopamine are not recommended to treat bradyarrhythmias resulting from myocardial ischemia secondary to their arrhythmogenicity.<xref ref="pubmed15358045" resource="acc020" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>See <xref ref="table002" />.</listitem>
+<listitem>Patients with persistent and symptomatic second- or third-degree AV block resulting from acute myocardial ischemia are also candidates for permanent pacing.<xref ref="pubmed15358045" resource="acc020" /></listitem>
+<listitem>Dual-chamber pacing is more effective than single-chamber ventricular pacing with regard to pacemaker syndrome and exercise capacity but without any significant other favorable outcomes (although a pooled analysis shows a non-significant trend in favor of fewer strokes, less heart failure, and lower mortality with dual chamber pacing).<xref ref="cochrane3710" resource="acc022" /></listitem>
+<listitem>"Leadless" pacer systems are currently underdevelopment and are being evaluated in clinical trials.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>In acute emergency, temporary pacing via a transcutaneous or transvenous route should be done until AV block resolves or as a bridge to a permanent cardiac pacemaker.</listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Stop calcium channel blockers, beta blockers, and digoxin.</listitem>
+<listitem>Consider using IV glucagon in beta blocker or calcium channel blocker overdose.</listitem>
+<listitem>Correct electrolyte abnormalities.</listitem>
+<listitem>Treat infectious causes such as endocarditis or Lyme carditis.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Hospitalize patients with symptomatic AV block to confirm the diagnosis.</listitem>
+<listitem>Also hospitalize to address reversible causes such as myocardial ischemia and to determine the need for electrophysiologic studies and pacemaker placement.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Stokes-Adams syndrome: pacemaker implantation.</listitem>
+<listitem>Heart failure: pacemaker implantation.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Permanent pacing improves survival in third-degree and advanced second-degree AV block. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed4702364" resource="acc023" /><xref ref="pubmed5845194" resource="acc024" /></listitem>
+<listitem>Even patients with first-degree AV block are at higher risk for later atrial fibrillation and pacemaker implantation. <evidence rating="B" system="SORT"> B</evidence><xref ref="poem110825" resource="acc029" /></listitem>
+<listitem>Schedule follow-up for patients with AV block depending on the type of pacemaker implanted and their management needs. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18498951" resource="acc018" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Prognosis of patients with first-degree and second-degree Mobitz type I is good even without treatment.</listitem>
+<listitem>First-degree heart block with moderate PR prolongation (0.22-0.23 second) was traditionally thought to be a benign condition.<xref ref="pubmed3762641" resource="acc025" /> However, a recent study using Framingham data looked at outcomes for 124 individuals (mean age 49 years) with a PR interval greater than 200 msec at baseline in 1968-1974 who were followed through 2007. The risk of atrial fibrillation (NNH 96), pacemaker implantation (NNH 189) and all-cause mortality (NNH 49) was greater in patients with first degree block than those without.<xref ref="poem110825" resource="acc029" /></listitem>
+<listitem>In a study of 3416 patients age 60 years or older presenting with syncope or near-syncope to the ED but without serious cardiac arrhythmia identified at the time of the visit, first degree AV block was one of the predictors of a serious arrhythmia being diagnosed in the next month. Other ECG predictors included non-sinus rhythm, short PR interval, complete LBBB, and indicators of acute or chronic ischemia.<xref ref="pubmed29275946" resource="acc031" /></listitem>
+<listitem>Patients with high-grade AV block or complete AV block are at increased risk of CHF and Stokes-Adams syndrome. One-year survival of patients not paced after Stokes-Adams syndrome is 50&#x0025;.<xref ref="pubmed14206803" resource="acc026" /> Occasionally long survival is possible despite Stokes-Adams syndrome.</listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>The prognosis of second-degree Mobitz type II and complete heart block after pacemaker implantation is good.</listitem>
+<listitem>Survival of paced individuals is 80&#x0025; in 1 year and 60&#x0025; at 5 years.<xref ref="pubmed4702364" resource="acc023" /><xref ref="pubmed5845194" resource="acc024" /></listitem>
+<listitem>Pacemaker implantation regardless of the pacing mode is associated with improvements in quality of life.<xref ref="pubmed18498951" resource="acc018" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Close follow-up is needed for Mobitz type II second-degree block patients, as it frequently progresses to complete block.</listitem>
+<listitem>Assess pacemaker function before discharge after pacemaker implantation.</listitem>
+<listitem>Periodic transtelephonic monitoring with intermittent clinic evaluation is needed to assess pacemaker function.</listitem>
+<listitem>Clinic follow-up includes assessment of the clinical status of the patient, battery status, pacing threshold, pulse width, sensing function, lead integrity, and optimization of sensor-driven rate response.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Avoid AV blocking medications.</listitem>
+<listitem>Avoid strong magnetic fields if pacemaker is implanted.</listitem>
+<listitem>In case of any symptoms, patient should follow up with clinic immediately.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>A complete heart block rarely causes any problems during pregnancy.<xref ref="pubmed6058825" resource="acc021" /></listitem>
+<listitem>Symptomatic patients in the first and second term are candidates for permanent pacemaker.<xref ref="pubmed1565369" resource="acc019" /></listitem>
+<listitem>Symptomatic patients who present at term may require temporary pacing with induction of delivery.<xref ref="pubmed10717819" resource="acc017" /></listitem>
+<listitem>Valsalva maneuver during labor can further slow down the heart in pregnant patients with complete heart block, resulting in syncope and convulsions. All women with complete heart block should have either temporary or permanent pacemeker support during labor.<xref ref="pubmed1565369" resource="acc019" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>Permanent pacing is recommended in children with advanced second- or third-degree AV block associated with symptomatic bradycardia.<xref ref="pubmed18498951" resource="acc018" /> Dilated cardiomyopathy is a possible complication following pacemaker implantation in this group.<xref ref="pubmed20621895" resource="acc027" /></listitem>
+<listitem>Congenital third-degree AV block is possible with wide QRS escape rhythm.<xref ref="pubmed18498951" resource="acc018" /></listitem>
+<listitem>Congenital third-degree AV block is possible in the infant with a ventricular rate of less than 50 beats&#x002F;min.<xref ref="pubmed18498951" resource="acc018" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="web001">
+<citation />
+<url>http://www.americanheart.org/presenter.jhtml?identifier=42</url>
+<organization>AHA</organization>
+<longtitle>American Heart Association. Heart block. [http:&#x002F;&#x002F;www.americanheart.org&#x002F;presenter.jhtml?identifier&#x003D;42]. Last accessed 8&#x002F;4&#x002F;2009.</longtitle>
+<title />
+<dateguideline>12&#x002F;5&#x002F;2008</dateguideline>
+</reference>
+<reference id="pubmed2784619">
+<accessionId id="acc002" href="info:pmid/2784619" />
+<authors>Kreger BE, Anderson KM, Kannel WB.</authors>
+<title>Prevalence of intraventricular block in the general population: the Framingham Study.</title>
+<source>Am Heart J</source>
+<pubdate>1989</pubdate>
+<volume>117</volume>
+<pages>903-910.</pages>
+</reference>
+<reference id="pubmed14237429">
+<accessionId id="acc003" href="info:pmid/14237429" />
+<authors>Lev M.</authors>
+<title>A atomic basis for atrioventricular block.</title>
+<source>Am J Med</source>
+<pubdate>1964</pubdate>
+<volume>37</volume>
+<pages>742-748.</pages>
+</reference>
+<reference id="pubmed14060910">
+<accessionId id="acc004" href="info:pmid/14060910" />
+<authors>Zoob M, Smith KS.</authors>
+<title>The aetiology of complete heart-block.</title>
+<source>Br Med J</source>
+<pubdate>1963</pubdate>
+<volume>2</volume>
+<pages>1149-1153.</pages>
+</reference>
+<reference id="pubmed2236724">
+<accessionId id="acc005" href="info:pmid/2236724" />
+<authors>Shurmur SW, D'Elia JA, Gleason RE, Nesto RW, DeSilva RA, Weinrauch LA.</authors>
+<title>Cardiac conduction defects associated with aortic and mitral valve calcification in dialysis patients.</title>
+<source>Ren Fail</source>
+<pubdate>1990</pubdate>
+<volume>12</volume>
+<pages>103-107.</pages>
+</reference>
+<reference id="pubmed6193700">
+<accessionId id="acc006" href="info:pmid/6193700" />
+<authors>Guilleminault C, Connolly SJ, Winkle RA.</authors>
+<title>Cardiac arrhythmia and conduction disturbances during sleep in 400 patients with sleep apnea syndrome.</title>
+<source>Am J Cardiol</source>
+<pubdate>1983</pubdate>
+<volume>52</volume>
+<pages>490-494.</pages>
+</reference>
+<reference id="pubmed9316537">
+<accessionId id="acc007" href="info:pmid/9316537" />
+<authors>Reisinger J, Dubrey SW, Lavalley M, Skinner M, Falk RH.</authors>
+<title>Electrophysiologic abnormalities in AL (primary) amyloidosis with cardiac involvement.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>1997</pubdate>
+<volume>30</volume>
+<pages>1046-1051.</pages>
+</reference>
+<reference id="pubmed2582388">
+<accessionId id="acc008" href="info:pmid/2582388" />
+<authors>Keefe DL, Griffin JC, Harrison DC, Stinson EB.</authors>
+<title>Atrioventricular conduction abnormalities in patients undergoing isolated aortic or mitral valve replacement.</title>
+<source>Pacing Clin Electrophysiol</source>
+<pubdate>1985</pubdate>
+<volume>8</volume>
+<pages>393-398.</pages>
+</reference>
+<reference id="pubmed4562910">
+<accessionId id="acc009" href="info:pmid/4562910" />
+<authors>Wang K, Gobel F, Gleason DF, Edwards JE.</authors>
+<title>Complete heart block complicating bacterial endocarditis.</title>
+<source>Circulation</source>
+<pubdate>1972</pubdate>
+<volume>46</volume>
+<pages>939-947.</pages>
+</reference>
+<reference id="pubmed1372717">
+<accessionId id="acc010" href="info:pmid/1372717" />
+<authors>Rubin DA, Sorbera C, Nikitin P, McAllister A, Wormser GP, Nadelman RB.</authors>
+<title>Prospective evaluation of heart block complicating early Lyme disease.</title>
+<source>Pacing Clin Electrophysiol</source>
+<pubdate>1992</pubdate>
+<volume>15</volume>
+<pages>252-255.</pages>
+</reference>
+<reference id="pubmed5578846">
+<accessionId id="acc011" href="info:pmid/5578846" />
+<authors>Lev M, Cuadros H, Paul MH.</authors>
+<title>Interruption of the atrioventricular bundle with congenital atrioventricular block.</title>
+<source>Circulation</source>
+<pubdate>1971</pubdate>
+<volume>43</volume>
+<pages>703-710.</pages>
+</reference>
+<reference id="pubmed7562771">
+<accessionId id="acc012" href="info:pmid/7562771" />
+<authors>Hubscher O, Batista N, Rivero S, et al.</authors>
+<title>Clinical and serological identification of 2 forms of complete heart block in children.</title>
+<source>J Rheumatol</source>
+<pubdate>1995</pubdate>
+<volume>22</volume>
+<pages>1352-1355.</pages>
+</reference>
+<reference id="pubmed1119378">
+<accessionId id="acc013" href="info:pmid/1119378" />
+<authors>Bashour T, Hsu I, Gorfinkel HJ, Wickramesekaran R, Rios JC.</authors>
+<title>Atrioventricular and intraventricular conduction in hyperkalemia.</title>
+<source>Am J Cardiol</source>
+<pubdate>1975</pubdate>
+<volume>35</volume>
+<pages>199-203.</pages>
+</reference>
+<reference id="pubmed7608464">
+<accessionId id="acc014" href="info:pmid/7608464" />
+<authors>Zipes DP, DiMarco JP, Gillette PC, et al.</authors>
+<title>Guidelines for clinical intracardiac electrophysiological and catheter ablation procedures. A report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines (Committee on Clinical Intracardiac Electrophysiologic and Catheter Ablation Procedures), developed in collaboration with the North American Society of Pacing and Electrophysiology.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>1995</pubdate>
+<volume>26</volume>
+<pages>555-573.</pages>
+</reference>
+<reference id="pubmed8269289">
+<accessionId id="acc015" href="info:pmid/8269289" />
+<authors>Kim YH, O'Nunain S, Trouton T, et al.</authors>
+<title>Pseudo-pacemaker syndrome following inadvertent fast pathway ablation for atrioventricular nodal reentrant tachycardia.</title>
+<source>J Cardiovasc Electrophysiol</source>
+<pubdate>1993</pubdate>
+<volume>4</volume>
+<pages>178-182.</pages>
+</reference>
+<reference id="pubmed8969584">
+<accessionId id="acc016" href="info:pmid/8969584" />
+<authors>Sumiyoshi M, Nakata Y, Yasuda M, et al.</authors>
+<title>Clinical and electrophysiologic features of exercise-induced atrioventricular block.</title>
+<source>Am Heart J</source>
+<pubdate>1996</pubdate>
+<volume>132</volume>
+<pages>1277-1281.</pages>
+</reference>
+<reference id="pubmed10717819">
+<accessionId id="acc017" href="info:pmid/10717819" />
+<authors>Sharma JB, Malhotra M, Pundir P.</authors>
+<title>Successful pregnancy outcome with cardiac pacemaker after complete heart block.</title>
+<source>Int J Gynaecol Obstet</source>
+<pubdate>2000</pubdate>
+<volume>68</volume>
+<pages>145-146.</pages>
+</reference>
+<reference id="pubmed18498951">
+<accessionId id="acc018" href="info:pmid/18498951" />
+<accessionId id="acc018b" href="info:wiley/eep-guideline/12590" />
+<authors>ACC&#x002F;AHA, Epstein AE, DiMarco JP, Ellenbogen KA, et al.; for the American College of Cardiology&#x002F;American Heart Association Task Force on Practice, American Association for Thoracic Surgery, Society of Thoracic Surgeons.</authors>
+<title>ACC&#x002F;AHA&#x002F;HRS 2008 Guidelines for Device-Based Therapy of Cardiac Rhythm Abnormalities: a report of the American College of Cardiology&#x002F;American Heart Association Task Force [trunc].</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2008 May 27</pubdate>
+<volume>51(21)</volume>
+<pages>e1-e62.</pages>
+</reference>
+<reference id="pubmed1565369">
+<accessionId id="acc019" href="info:pmid/1565369" />
+<authors>Dalvi BV, Chaudhuri A, Kulkarni HL, Kale PA.</authors>
+<title>Therapeutic guidelines for congenital complete heart block presenting in pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>1992</pubdate>
+<volume>79</volume>
+<pages>802-804.</pages>
+</reference>
+<reference id="pubmed15358045">
+<accessionId id="acc020" href="info:pmid/15358045" />
+<authors>Antman EM, Anbe DT, Armstrong PW, et al.; for the American College of Cardiology, American Heart Association, Canadian Cardiovascular Society.</authors>
+<title>ACC&#x002F;AHA guidelines for the management of patients with ST-elevation myocardial infarction&#x2014;executive summary. A report of the American College of Cardiology&#x002F;American Heart Association Task Force on Practice Guidelines (Writing Committee to revise the 1999 guidelines for the management of patients with acute myocardial infarction).</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2004</pubdate>
+<volume>44</volume>
+<pages>671-719</pages>
+</reference>
+<reference id="pubmed6058825">
+<accessionId id="acc021" href="info:pmid/6058825" />
+<authors>Kenmure AC, Cameron AJ.</authors>
+<title>Congenital complete heart block in pregnancy.</title>
+<source>Br Heart J</source>
+<pubdate>1967</pubdate>
+<volume>29</volume>
+<pages>910-912.</pages>
+</reference>
+<reference id="cochrane3710">
+<accessionId id="acc022" href="info:wiley/cochrane/CD003710" />
+<chapter_authors>Dretzke J, Toff WD, Lip GYH, Raftery J, Fry-Smith A, Taylor R.</chapter_authors>
+<chapter_title>Dual chamber versus single chamber ventricular pacemakers for sick sinus syndrome and atrioventricular block (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed4702364">
+<accessionId id="acc023" href="info:pmid/4702364" />
+<authors>Zion MM, Marchand PE, Obel IW.</authors>
+<title>Long-term prognosis after cardiac pacing in atrioventricular block.</title>
+<source>Br Heart J</source>
+<pubdate>1973</pubdate>
+<volume>35</volume>
+<pages>359-364.</pages>
+</reference>
+<reference id="pubmed5845194">
+<accessionId id="acc024" href="info:pmid/5845194" />
+<authors>Chardack WM, Gage AA, Federico AJ, Schimert G, Greatbatch W.</authors>
+<title>Five years' clinical experience with an implantable pacemaker: an appraisal.</title>
+<source>Surgery</source>
+<pubdate>1965</pubdate>
+<volume>58</volume>
+<pages>915-922.</pages>
+</reference>
+<reference id="pubmed3762641">
+<accessionId id="acc025" href="info:pmid/3762641" />
+<authors>Mymin D, Mathewson FA, Tate RB, Manfreda J.</authors>
+<title>The natural history of primary first-degree atrioventricular heart block.</title>
+<source>N Engl J Med</source>
+<pubdate>1986</pubdate>
+<volume>315</volume>
+<pages>1183-1187.</pages>
+</reference>
+<reference id="pubmed14206803">
+<accessionId id="acc026" href="info:pmid/14206803" />
+<authors>Friedberg CK, Donoso E, Stein WG.</authors>
+<title>Nonsurgical acquired heart block.</title>
+<source>Ann N Y Acad Sci</source>
+<pubdate>1964</pubdate>
+<volume>111</volume>
+<pages>835-847.</pages>
+</reference>
+<reference id="pubmed20621895">
+<accessionId id="acc027" href="info:pmid/20621895" />
+<authors>Silvetti MS, Drago F, Rav&#x00E0; L.</authors>
+<title>Determinants of early dilated cardiomyopathy in neonates with congenital complete atrioventricular block.</title>
+<source>Europace</source>
+<pubdate>2010</pubdate>
+<volume>12</volume>
+<pages>1316-1321.</pages>
+</reference>
+<reference id="pubmed21059439">
+<accessionId id="acc028" href="info:pmid/21059439" />
+<authors>Roten L, Wenaweser P, Delacr&#x00E9;taz E, Hellige G, Stortecky S, Tanner H, Pilgrim T, Kadner A, Eberle B, Zwahlen M, Carrel T, Meier B, Windecker S.</authors>
+<title>Incidence and predictors of atrioventricular conduction impairment after transcatheter aortic valve implantation.</title>
+<source>Am J Cardiol</source>
+<pubdate>2010</pubdate>
+<volume>15</volume>
+<pages>1473-1480.</pages>
+</reference>
+<reference id="poem110825">
+<accessionId id="acc029" href="info:wiley/eep-poem/110825" />
+<accessionId id="acc029b" href="info:pmid/19549974" />
+<authors>Cheng S, Keyes MJ, Larson MG, et al.</authors>
+<title>Long-term outcomes in individuals with prolonged PR interval or first-degree atrioventricular block.</title>
+<source>JAMA</source>
+<pubdate>2009</pubdate>
+<volume>301(24)</volume>
+<pages>2571-2577.</pages>
+</reference>
+<reference id="pubmed30412710">
+<accessionId id="acc030" href="info:pmid/30412710" />
+<authors>Kusumoto FM, Schoenfeld MH, Barrett C, Edgerton JR, Ellenbogen KA, Gold MR, Goldschlager NF, Hamilton RM, Joglar JA, Kim RJ, Lee R, Marine JE, McLeod CJ, Oken KR, Patton KK, Pellegrini CN, Selzman KA, Thompson A, Varosy PD.</authors>
+<title>2018 ACC&#x002F;AHA&#x002F;HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay: Executive Summary: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines, and the Heart Rhythm Society.</title>
+<source>J Am Coll Cardiol</source>
+<pubdate>2018</pubdate>
+<pages />
+</reference>
+<reference id="pubmed29275946">
+<accessionId id="acc031" href="info:pmid/29275946" />
+<authors>Nishijima DK, Lin AL, Weiss RE, Yagapen AN, Malveau SE, Adler DH, Bastani A, Baugh CW, Caterino JM, Clark CL, Diercks DB, Hollander JE, Nicks BA, Shah MN, Stiffler KA, Storrow AB, Wilber ST, Sun BC.</authors>
+<title>ECG predictors of cardiac arrhythmias in older adults with syncope.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2018</pubdate>
+<volume>71</volume>
+<pages>452&#x2013;461.e3</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>183.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Arrhythmia (Atriventricular Block): Management.<xref ref="pubmed30412710" resource="acc030" />
+</title>
+<graphic href="eee0014-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Bradycardia: establish diagnosis by ECG or event monitoring</label>
+<path target="cell-2"> Asymptomatic </path>
+<path target="cell-3"> Symptomatic </path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Transient due to drugs?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Type of block?</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>No treatment</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Type I or Type II</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Block in or below His bundle</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Pacemaker</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>EPS and&#x002F;or pacemaker</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Follow-up</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Emergency?</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Give atropine 0.5 to 1.0 mg</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>TCP&#x002F;TVP</label>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Symptoms of pacemaker syndrome?</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Follow-up</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Pacemaker</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: TCP, transcutaneous pacer; TVP, transvenous pacer; EPS, electrophysiologic study.</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Indications for Different Treatment Options During STEMI and Atrioventricular or Intraventricular Block.</caption>
+<feature_body>Observation during: <list style="bulleted">
+<listitem>First-degree block</listitem>
+<listitem>Old or new fascicular block</listitem>
+<listitem>Old bundle branch block</listitem>
+</list>Transcutaneous pacing during: <list style="bulleted">
+<listitem>Mobitz I or II</listitem>
+<listitem>(LAFB or LPFB) + (first- or second-degree block)</listitem>
+<listitem>Old BBB + (first- or second-degree block)</listitem>
+<listitem>New BBB</listitem>
+<listitem>New BBB + (first-degree or Mobitz I)</listitem>
+<listitem>Fascicular block + RBBB</listitem>
+<listitem>(Fascicular block + RBBB) + (first-degree or Mobitz I)</listitem>
+</list>Transvenous pacing during: <list style="bulleted">
+<listitem>New BBB + Mobitz II</listitem>
+<listitem>(Fascicular block + RBBB) + Mobitz II</listitem>
+<listitem>Alternating left and right BBB</listitem>
+<listitem>(Alternating left and right BBB) + (first- or second-degree block)</listitem>
+</list>Abbreviations: LAFB, left anterior fascicular block; LPFB, left posterior fascicular block; RBBB, right bundle branch block; BBB, bundle branch block; STEMI, segment elevation myocardial infarction. Data fromKusumoto FM, Schoenfeld MH, Barrett C, Edgerton JR, Ellenbogen KA, Gold MR, Goldschlager NF, Hamilton RM, Joglar JA, Kim RJ, Lee R, Marine JE, McLeod CJ, Oken KR, Patton KK, Pellegrini CN, Selzman KA, Thompson A, Varosy PD.2018 ACC&#x002F;AHA&#x002F;HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay: Executive Summary: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines, and the Heart Rhythm Society.J. Am. Coll. Cardiol.2018 </feature_body>
+</feature>
+<feature id="table002">
+<caption>ACC&#x002F;AHA Class 1 Indications for Permanent Pacing in Atrioventricular Block.</caption>
+<feature_body>
+<list style="bulleted">
+<listitem>Symptomatic bradycardia in third-degree and advanced second-degree patients <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Third-degree and advanced second-degree patients with documented asystole of 3 seconds or greater or any escape rate less than 40 beats&#x002F;min even if they are asymptomatic <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Second-degree AV block regardless of type or site of block, with symptomatic bradycardia <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Postoperative AV block that is not expected to resolve after cardiac surgery <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>Data from Kusumoto FM, Schoenfeld MH, Barrett C, Edgerton JR, Ellenbogen KA, Gold MR, Goldschlager NF, Hamilton RM, Joglar JA, Kim RJ, Lee R, Marine JE, McLeod CJ, Oken KR, Patton KK, Pellegrini CN, Selzman KA, Thompson A, Varosy PD.2018 ACC&#x002F;AHA&#x002F;HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay: Executive Summary: A Report of the American College of Cardiology&#x002F;American Heart Association Task Force on Clinical Practice Guidelines, and the Heart Rhythm Society.J. Am. Coll. Cardiol.2018 </feature_body>
+</feature>
+</feature_group>
+</topic>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Pleuritic chest pain and pleurisy</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0679</topic_id>
+<topic_comment />
+<topic_lastupdated>02/10/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mark H. Ebell, MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Sharon Gavin-Burton, MD</author_name>
+<author_title>Clinical Assistant Professor</author_title>
+<author_department>Community Health and Family Medicine</author_department>
+<author_institution>University of Florida College of Medicine</author_institution>
+<author_email>gavinsl&#x0040;ufl.edu</author_email>
+<author_phone_office>352-339-4221</author_phone_office>
+<author_phone_home />
+<author_phone_fax>352-372-5298</author_phone_fax>
+<author_street1>9150 SW 49th Place</author_street1>
+<author_street2 />
+<author_city>Gainesville</author_city>
+<author_state>FL</author_state>
+<author_zip>32608</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Steven R. Brown, MD, FAAFP</editor_name>
+<editor_title>Program Director and Professor</editor_title>
+<editor_institution>University of Arizona College of Medicine &#x2013; Phoenix Family Medicine Residency</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Low risk young patients generally do not need an extensive evaluation if pleuritic pain is an isolated symptom. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>After a careful history and physical, use validated decision rules to evaluate for risk of <xref ref="rule175" resource="acc014">pulmonary embolism</xref> and <xref ref="rule442" resource="acc004">cardiovascular disease</xref>. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Initial diagnostic testing generally includes chest radiograph, ECG and d-dimer test. Consider tests for tuberculosis if patient is at risk and symptoms persist. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Use NSAIDs for pain relief if not contraindicated. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Pleurisy is chest pain secondary to inflammation of the serous membranes which lie between the lungs and the chest wall. There are multiple possible causes. The pain typically caused by pleurisy is called "pleuritic chest pain".</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>See Differential Diagnosis table for causes of pleuritic chest pain.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Cytokines and other mediators of inflammation are released in the pleural spaces. These inflammatory mediators stimulate local somatic pain receptors.</listitem>
+<listitem>Inflammation of the ribcage pleura or lateral diaphragm is sensed by intercostal nerves. Central diaphragmatic inflammation is felt in the ipsilateral neck or shoulder. The visceral pleura has no pain receptors.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients with pleurisy typically complain of pain on inspiration or coughing that worsens with palpation or position change. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Use validated decision rules for <xref ref="rule175" resource="acc014">pulmonary embolism</xref> and <xref ref="rule442" resource="acc004">cardiovascular disease</xref> to assess risk for those conditions. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Consider CXR, ECG, and a D-dimer test for patients at risk of cardiopulmonary disease because of age or risk factors. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Acute coronary syndrome</Differential_Name>
+<Differential_Features>ECG with 1mm or &gt;ST elevation in contiguous leads, abnormal cardiac enzymes</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pulmonary embolus</Differential_Name>
+<Differential_Features>Tachycardia, respiratory distress, hypotension, hypoxia with A-a gradient, history of DVT</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sickle cell disease crisis</Differential_Name>
+<Differential_Features>History of sickle cell disease</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pneumonia</Differential_Name>
+<Differential_Features>Abnormal CXR, presence of rhonchi, egophany, pleural rub, high WBC count</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Aortic aneurysm</Differential_Name>
+<Differential_Features>Ripping or tearing, severe pain; uneven pulses, hypotension</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Medication reaction</Differential_Name>
+<Differential_Features>Use of high risk medications</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chest wall injury</Differential_Name>
+<Differential_Features>History of injury, crepitus on palpation, chest wall abnormality</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pneumothorax</Differential_Name>
+<Differential_Features>Decreased breath sounds locally, abnormal CXR indicating air in pleural space</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Viral infection</Differential_Name>
+<Differential_Features>No evidence of ACS, PE, pneumonia, pneumothorax, no&#x002F;low grade fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Autoimmune disease</Differential_Name>
+<Differential_Features>History of autoimmune disease, inflammatory markers (ESR or CRP) very elevated</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Tuberculosis</Differential_Name>
+<Differential_Features>Chest radiograph, fever, cough, sputum for acid fast bacilli and PPD test</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Costochondritis</Differential_Name>
+<Differential_Features>Pain with inspiration or chest wall movement</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pericarditis</Differential_Name>
+<Differential_Features>Friction rub, pain relieved by leaning forward, ECG changes (diffuse ST elevation)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Fitz-Hugh-Curtis syndrome</Differential_Name>
+<Differential_Features>Complication of pelvic inflammatory disease in women.</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Pleurisy is chest pain, usually sharp, caused by inspiration or cough and usually aggravated by palpation or positional change.</listitem>
+<listitem>Ask about onset, duration, location, quality, and any radiation of pain, as well as what makes it better or worse. Ask about any cardiovascular symptoms (diaphoresis, palpitations, nausea) or pulmonary symptoms (dyspnea, sputum production), as well as about constitutional symptoms (fever, chills, sweats, myalgias) and about recent trauma, exercise, or injury.</listitem>
+<listitem>On examination, check radial pulses (if uneven suspect aneurysm), and perform a careful cardiopulmonary exam to evaluate for unstable angina or MI, aneurysm, pneumonia, pulmonary embolism, pneumothorax, and costochondritis.</listitem>
+<listitem>Chest wall pain: A large prospective study found that in primary care patients with chest pain, a final diagnosis of chest wall syndrome was more likely in those with localized muscle tension, stinging pain, pain reproducible by palpation, and absence of cough.<xref ref="poem121001" resource="acc010" /></listitem>
+<listitem>Acute coronary syndrome (ACS) or acute myocardial infarction (AMI): traditionally described as central, pressure-like or tightening, often accompanied by nausea, vomiting, diaphoresis and dyspnea. <xref ref="hp11" resource="acc005">Pain that is not pleuritic</xref> and <xref ref="hp11" resource="acc005">no pain with chest wall palpation</xref> increase the likelihood of MI or unstable angina, but patients with pleuritic chest pain can still have unstable coronary disease.<xref ref="hp11" resource="acc005" /></listitem>
+<listitem>Pulmonary embolism (PE): patients usually accompanied by tachypnea and&#x002F;or dyspnea and has a sudden onset; patients may have history of malignancy or previous thromboembolism. They may also have accompanying leg pain or swelling. Use a validated clinical decision rule like the <xref ref="rule175" resource="acc014">Wells</xref>, <xref ref="rule448" resource="acc012">PERC</xref>, <xref ref="rule452" resource="acc011">revised PISA</xref>, or <xref ref="rule333" resource="acc013">revised Geneva score</xref> to evaluate the patient. The <xref ref="hp62" resource="acc007">presence of pleuritic chest pain</xref> only increases the likelihood of PE slightly in patients with suspected PE.<xref ref="hp62" resource="acc007" /></listitem>
+<listitem>Respiratory infection: In patients with cough, sputum production, and&#x002F;or fever order a CXR and consider PPD if risk factors or prolonged history of symptoms. Whether or not <xref ref="hp31" resource="acc006">pain is pleuritic</xref> has little effect on the likelihood of pneumonia.<xref ref="hp31" resource="acc006" /></listitem>
+<listitem>Aortic dissection: patients typically report sudden onset, radiating to back and describe pain as extremely severe in intensity. Patients may have <xref ref="hp104" resource="acc015">unequal radial pulses</xref> or hypotension.<xref ref="pubmed16304077" resource="acc001" /><xref ref="hp104" resource="acc015" /></listitem>
+<listitem>Pneumothorax: patients typically have sudden onset of dyspnea, and may have a history of previous episodes.</listitem>
+<listitem>Postcardiac injury syndrome follows surgery or trauma is pleuritic and may be accompanied by fever and abnormal CXR with pericardial or pleural effusions.<xref ref="pubmed16553111" resource="acc002" /></listitem>
+<listitem>Suspect Fitz-Hugh-Curtis syndrome in women with pelvic inflammatory disease or STI and pleutic chest pain, typically right-sided.<xref ref="pubmed34375798" resource="acc021" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Patients at low risk for cardiopulmonary disease (i.e. 25 year old patient with isolated pleuritic chest pain and no other important symptoms) do not require diagnostic testing, especially if there is a good explanation for the pain such as respiratory infection or recent trauma&#x002F;exercise.</listitem>
+<listitem>For other patients, ECG, chest radiograph, and if PE is suspected d-dimer should be part of the initial evaluation.</listitem>
+<listitem>In patients with pleuritic chest pain and normal CXR who are acutely ill, bedside lung ultrasound was helpful in one Italian series of 90 patients.<xref ref="pubmed21277143" resource="acc009" /> Lung <xref ref="test383" resource="acc016">ultrasound</xref> is also helpful for pneumothorax diagnosis.<xref ref="test383" resource="acc016" /></listitem>
+<listitem>Consider testing for tuberculosis, especially in patients at risk such as recent immigrants from countries where the disease is more common. An ELISA test for pleural tuberculosis is accurate (LR+ 8.2, LR&#x2212; 0.11).<xref ref="pubmed26436408" resource="acc019" /></listitem>
+<listitem>A systematic review of 12 studies with 1022 patients found that tumor necrosis factor-alpha assay of the pleural effusion fluid is also an accurate test for diagnosis of pleural tuberculous (85&#x0025; sensitive, 80&#x0025; specific, LR+ 4.2, LR- 0.19, AUC 0.89).<xref ref="pubmed27902616" resource="acc020" /></listitem>
+<listitem>If the diagnosis remains uncertain, thoracic ultrasound guided pleural biopsy may help establish the diagnosis. A systematic review reported sensitivity of 78&#x0025; for malignancy and 80&#x0025; for tuberculosis.<xref ref="pubmed37787485" resource="acc022" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <xref ref="rule442" resource="acc004">clinical decision rule</xref> has been developed and validated in the primary care setting to determine the likelihood of CAD as a cause of chest pain. Chest pain not reproducible by palpation is an important factor.<xref ref="rule442" resource="acc004" /></listitem>
+<listitem>A study identified the presence of pleuritic chest pain, tenderness over the anterior hepatic border, worsening pain in the right lateral position and a sed rate &gt; 30 mm&#x002F;hr as having a 75&#x0025; positive predictive value for Fitz-Hugh-Curtis syndrome.<xref ref="pubmed34375798" resource="acc021" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>In evaluating the patient presenting with pleuritic chest pain, always consider serious causes such as acute coronary syndrome, pulmonary embolism, pneumothorax, and aortic dissection.</listitem>
+<listitem>Validated clinical decision rules for <xref ref="rule175" resource="acc014">pulmonary embolism</xref> and <xref ref="rule442" resource="acc004">coronary artery disease</xref> in patients presenting with chest pain can help risk stratify patients and guide further evaluation.</listitem>
+<listitem>Initial diagnostic testing usually includes chest radiograph, ECG, and d-dimer test.</listitem>
+<listitem>See chapters on <resourceLink href="info:wiley/eep-eee/687">pulmonary embolism</resourceLink>, <resourceLink href="info:wiley/eep-eee/681">pneumonia</resourceLink>, <resourceLink href="info:wiley/eep-eee/8">thoracic aortic aneurysm</resourceLink>, and <resourceLink href="info:wiley/eep-eee/43">acute myocardial infarction</resourceLink> for further details on evaluation for those diagnoses. See also chapter on <resourceLink href="info:wiley/eep-eee/27">general approach to the patient with chest pain</resourceLink>.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>11 Chest painMI or unstable anginaNo pain with chest-wall palpation52894.70.549</HP_ID>
+<HP_ID>11 Chest painMI or unstable anginaPain not pleuritic509050.559</HP_ID>
+<HP_ID>11 Chest painMI or unstable anginaPain not positional49843.060.619</HP_ID>
+<HP_ID>31 Cough (adult)pneumoniaPleuritic chest pain21841.31250.9410</HP_ID>
+<HP_ID>31Cough (adult)pneumoniaPleural rub(s)410080.9610</HP_ID>
+<HP_ID>61 Chest painmyocardial infarctionChest pain: Pleuritic chest pain0.211</HP_ID>
+<HP_ID>61 Chest painmyocardial infarctionChest pain: Pain sharp or stabbing0.311</HP_ID>
+<HP_ID>61 Chest painmyocardial infarctionChest pain: positional chest pain0.311</HP_ID>
+<HP_ID>Chest painmyocardial infarctionChest pain: reproduced by palpation0.311 61</HP_ID>
+<HP_ID>62</HP_ID>
+<HP_ID>62</HP_ID>
+<HP_ID>187</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Treatment for pleurisy of benign cause is NSAIDs and other pain control as needed. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Otherwise treat the underlying cause as indicated. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>NSAIDS can be given for pain, although clinical trial data are very limited.<xref ref="pubmed4583171" resource="acc017" /><xref ref="pubmed8653161" resource="acc018" /></listitem>
+<listitem>Narcotic medications can be used for severe pain.</listitem>
+<listitem>Treat the underlying cause of pleurisy.</listitem>
+<listitem>In patients with tuberculous pleurisy and effusion, a Cochrane review of 6 RCTs with 590 participants concluded that corticosteroids improve some intermediate measures (effusion size, pleural thickening) but not clinical outcomes (mortality, symptoms).<xref ref="cochrane1876" resource="acc008" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Consider performing thoracentisis to remove fluid for diagnosis and comfort care.</listitem>
+<listitem>Consider pleurodesis for recurrent effusions.</listitem>
+<listitem>Pleural biopsy, thoracoscopy, bronchoscopy and other procedures may be neccesary for accurate diagnosis of the underlying cause.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Consider referral to a psychologist or psychiatrist for the patient suspected of somatoform disorders.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Pleurisy from benign self limited causes should resolve for most patients in 2 to 3 weeks. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For patients with typical pleurisy associated with viral infection or other benign source, no follow needed unless symptons are unresolved at 3 weeks or new problems develop. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed15611807" resource="acc003" /></listitem>
+<listitem>For patients with significant pathology and secondary disease, follow as recommended for specific disease process. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16304077">
+<accessionId id="acc001" href="info:pmid/16304077" />
+<authors>Swap C, Nagurney JT.</authors>
+<title>Value and limitations of chest pain history with suspected acute cornory syndromes.</title>
+<source>JAMA</source>
+<pubdate>2005</pubdate>
+<volume>294</volume>
+<pages>2623&#x2013;2629.</pages>
+</reference>
+<reference id="pubmed16553111">
+<accessionId id="acc002" href="info:pmid/16553111" />
+<authors>Wessman DE, Stafford, CM.</authors>
+<title>The postcardiac injury syndrome: Case report and review of the literature.</title>
+<source>South Med J</source>
+<pubdate>2006</pubdate>
+<volume>99(3)</volume>
+<pages>206&#x2013;207.</pages>
+</reference>
+<reference id="pubmed15611807">
+<accessionId id="acc003" href="info:pmid/15611807" />
+<authors>Marrie TJ, Beecroft M, Herman-Gnjidid Z, Poulin-Costello M.</authors>
+<title>Symptom resolution in patients with Mycoplasma pneumoniae pnuemonia.</title>
+<source>Can Respir J</source>
+<pubdate>2004</pubdate>
+<volume>11(8)</volume>
+<pages>573&#x2013;577.</pages>
+</reference>
+<reference id="rule442">
+<accessionId id="acc004" href="info:wiley/eep-rule/442" />
+<accessionId id="acc004b" href="info:pmid/20603345" />
+<authors>B&#x00F6;sner S, Haasenritter J, Becker A, Karatolios K, Vaucher P, Gencer B, Herzig L, Heinzel-Gutenbrunner M, Schaefer JR, Abu Hani M, Keller H, S&#x00F6;nnichsen AC, Baum E, Donner-Banzhoff N.</authors>
+<title>Ruling out coronary artery disease in primary care: Development and validation of a simple prediction rule.</title>
+<source>CMAJ</source>
+<pubdate>2010</pubdate>
+<volume>182</volume>
+<pages>1295&#x2013;1300.</pages>
+</reference>
+<reference id="hp11">
+<accessionId id="acc005" href="info:wiley/eep-hp/11" />
+<accessionId id="acc005b" href="info:pmid/3970650" />
+<authors>Lee TH, Cook EF, Weisberg M, Sargent RK, Wilson C, Goldman L.</authors>
+<title>Acute chest pain in the emergency room. Identification and examination of low-risk patients.</title>
+<source>Arch Intern Med</source>
+<pubdate>1985</pubdate>
+<volume>145</volume>
+<pages>65&#x2013;69.</pages>
+</reference>
+<reference id="hp31">
+<accessionId id="acc006" href="info:wiley/eep-hp/31" />
+<accessionId id="acc006b" href="info:pmid/6699126" />
+<authors>Diehr P, Wood RW, Bushyhead J, Krueger L, Wolcott B, Tompkins RK.</authors>
+<title>Prediction of pneumonia in outpatients with acute cough -- a statistical approach.</title>
+<source>J Chronic Dis</source>
+<pubdate>1984</pubdate>
+<volume>37</volume>
+<pages>215&#x2013;225.</pages>
+</reference>
+<reference id="hp62">
+<accessionId id="acc007" href="info:wiley/eep-hp/62" />
+<accessionId id="acc007b" href="info:pmid/10051264" />
+<authors>Miniati M, Prediletto R, Formichi B, Marini C, Di Ricco G, Tonelli L, Allescia G, Pistolesi M.</authors>
+<title>Accuracy of clinical assessment in the diagnosis of pulmonary embolism.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>1999</pubdate>
+<volume>159</volume>
+<pages>864&#x2013;871.</pages>
+</reference>
+<reference id="cochrane1876">
+<accessionId id="acc008" href="info:wiley/cochrane/CD1876" />
+<chapter_authors>Ryan H, Yoo J, Darsini P.</chapter_authors>
+<chapter_title>Corticosteroids for tuberculous pleurisy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 3. Art. No.: CD001876. DOI: 10.1002&#x002F;14651858.CD001876.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed21277143">
+<accessionId id="acc009" href="info:pmid/21277143" />
+<authors>Volpicelli G, Cardinale L, Berchialla P, Mussa A, Bar F, Frascisco MF.</authors>
+<title>A comparison of different diagnostic tests in the bedside evaluation of pleuritic pain in the ED.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2012</pubdate>
+<volume>30</volume>
+<pages>317&#x2013;324.</pages>
+</reference>
+<reference id="poem121001">
+<accessionId id="acc010" href="info:wiley/eep-poem/121001" />
+<accessionId id="acc010b" href="info:pmid/20406787" />
+<authors>B&#x00F6;sner S, Becker A, Hani MA, Keller H, S&#x00F6;nnichsen AC, Karatolios K, Schaefer JR, Haasenritter J, Baum E, Donner-Banzhoff N.</authors>
+<title>Chest wall syndrome in primary care patients with chest pain: Presentation, associated features and diagnosis.</title>
+<source>Fam Pract</source>
+<pubdate>2010</pubdate>
+<volume>27</volume>
+<pages>363&#x2013;369.</pages>
+</reference>
+<reference id="rule452">
+<accessionId id="acc011" href="info:wiley/eep-rule/452" />
+<accessionId id="acc011b" href="info:pmid/18436792" />
+<authors>Miniati M, Bottai M, Monti S, Salvadori M, Serasini L, Passera M.</authors>
+<title>Simple and accurate prediction of the clinical probability of pulmonary embolism.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2008</pubdate>
+<volume>178</volume>
+<pages>290&#x2013;294.</pages>
+</reference>
+<reference id="rule448">
+<accessionId id="acc012" href="info:wiley/eep-rule/448" />
+<accessionId id="acc012b" href="info:pmid/18318689" />
+<authors>Kline JA, Courtney DM, Kabrhel C, Moore CL, Smithline HA, Plewa MC, Richman PB, O'Neil BJ, Nordenholz K.</authors>
+<title>Prospective multicenter evaluation of the pulmonary embolism rule-out criteria.</title>
+<source>J Thromb Haemost</source>
+<pubdate>2008</pubdate>
+<volume>6</volume>
+<pages>772&#x2013;780.</pages>
+</reference>
+<reference id="rule333">
+<accessionId id="acc013" href="info:wiley/eep-rule/333" />
+<accessionId id="acc013b" href="info:pmid/16461960" />
+<authors>Le Gal G, Righini M, Roy PM, Sanchez O, Aujesky D, Bounameaux H, Perrier A.</authors>
+<title>Prediction of pulmonary embolism in the emergency department: The revised Geneva score.</title>
+<source>Ann Intern Med</source>
+<pubdate>2006</pubdate>
+<volume>144</volume>
+<pages>165&#x2013;171.</pages>
+</reference>
+<reference id="rule175">
+<accessionId id="acc014" href="info:wiley/eep-rule/175" />
+<accessionId id="acc014b" href="info:pmid/11453709" />
+<authors>Wells PS, Anderson DR, Rodger M, Stiell I, Dreyer JF, Barnes D, Forgie M, Kovacs G, Ward J, Kovacs MJ.</authors>
+<title>Excluding pulmonary embolism at the bedside without diagnostic imaging: Management of patients with suspected pulmonary embolism presenting to the emergency department by using a simple clinical model and d-dimer.</title>
+<source>Ann Intern Med</source>
+<pubdate>2001</pubdate>
+<volume>135</volume>
+<pages>98&#x2013;107.</pages>
+</reference>
+<reference id="hp104">
+<accessionId id="acc015" href="info:wiley/eep-hp/104" />
+<accessionId id="acc015b" href="info:pmid/11980527" />
+<authors>Klompas M.</authors>
+<title>Does this patient have an acute thoracic aortic dissection?</title>
+<source>JAMA</source>
+<pubdate>2002</pubdate>
+<volume>287</volume>
+<pages>2262&#x2013;2272.</pages>
+</reference>
+<reference id="test383">
+<accessionId id="acc016" href="info:wiley/eep-dx/383" />
+<accessionId id="acc016b" href="info:pmid/21546439" />
+<authors>Ding W, Shen Y, Yang J, He X, Zhang M.</authors>
+<title>Diagnosis of pneumothorax by radiography and ultrasonography: A meta-analysis.</title>
+<source>Chest</source>
+<pubdate>2011</pubdate>
+<volume>140</volume>
+<pages>859&#x2013;866.</pages>
+</reference>
+<reference id="pubmed4583171">
+<accessionId id="acc017" href="info:pmid/4583171" />
+<authors>Sacks PV, Kanarek D.</authors>
+<title>Treatment of acute pleuritic pain. Comparison between indomethacin and a placebo.</title>
+<source>Am Rev Respir Dis</source>
+<pubdate>1973</pubdate>
+<volume>108</volume>
+<pages>666&#x2013;669.</pages>
+</reference>
+<reference id="pubmed8653161">
+<accessionId id="acc018" href="info:pmid/8653161" />
+<authors>Puntillo KA.</authors>
+<title>Effects of interpleural bupivacaine on pleural chest tube removal pain: A randomized controlled trial.</title>
+<source>Am J Crit Care</source>
+<pubdate>1996</pubdate>
+<volume>5</volume>
+<pages>102&#x2013;108.</pages>
+</reference>
+<reference id="pubmed26436408">
+<accessionId id="acc019" href="info:pmid/26436408" />
+<authors>Li ZZ, Qin WZ, Li L, Wu Q, Wang YJ.</authors>
+<title>Accuracy of enzyme-linked immunospot assay for diagnosis of pleural tuberculosis: A meta-analysis.</title>
+<source>Genet Mol Res</source>
+<pubdate>2015</pubdate>
+<volume>14</volume>
+<pages>11672&#x2013;11680.</pages>
+</reference>
+<reference id="pubmed27902616">
+<accessionId id="acc020" href="info:pmid/27902616" />
+<authors>Li M, Luo Z, Zhu W, Khan RS, Saeed U, Shi S.</authors>
+<title>Diagnostic accuracy of tumor necrosis factor-alpha assay for tuberculous pleurisy: A PRISMA-compliant meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e5510.</pages>
+</reference>
+<reference id="pubmed34375798">
+<accessionId id="acc021" href="info:pmid/34375798" />
+<authors>Khine H, Wren SB, Silver EJ, Tun J, Goldman DL.</authors>
+<title>Fitz-Hugh-Curtis syndrome in adolescent and young adult females: Utility of a decision rule.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>50</volume>
+<pages>183&#x2013;186.</pages>
+</reference>
+<reference id="pubmed37787485">
+<accessionId id="acc022" href="info:pmid/37787485" />
+<authors>Zhang Q, Deng MM, Li XL, Lu Y, Hou G.</authors>
+<title>Thoracic ultrasound-guided real-time pleural biopsy in the diagnosis of pleural diseases: a systematic review and meta-analysis.</title>
+<source>Expert Rev Respir Med</source>
+<pubdate>2023</pubdate>
+<volume>17</volume>
+<pages>805&#x2013;813.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

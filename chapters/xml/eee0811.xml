@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Hypothermia</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0811</topic_id>
+<topic_comment />
+<topic_lastupdated>02/10/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>T. Grant Phillips, MD</author_name>
+<author_title>Assistant Director</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Washington Hospital Family Medicine Residency</author_institution>
+<author_email>tphillips&#x0040;washingtonhospital.org</author_email>
+<author_phone_office>724-223-3100</author_phone_office>
+<author_phone_home>724-969-0305</author_phone_home>
+<author_phone_fax />
+<author_street1>95 Leonard Avenue</author_street1>
+<author_street2 />
+<author_city>Washington</author_city>
+<author_state>PA</author_state>
+<author_zip>15301</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Randall Forsch, MD, MPH</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Michigan</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Since hypothermia can accompany other more obvious conditions, early recognition and treatment is critical. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Temperature should be taken with a rectal thermometer that is capable of reading low temperatures. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Choose a rewarming method, active or passive, based on degree of hypothermia and available resources. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Follow Wilderness Society Guidelines for pre-hospital care. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed25498264" resource="acc012" /></listitem>
+</list>
+</BottomLine>
+<definition>Accidental hypothermia is an unintentional reduction in the body's core temperature to less than 95.0&#x00B0;F or 35&#x00B0;C. This differs from intentional hypothermia that is induced in certain medical situations, which will not be covered here.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Each year 700 deaths due to hypothermia in the United States.<xref ref="bib5" /></listitem>
+<listitem>In North America and Europe, about 150 people are killed each year in avalanches.<xref ref="pubmed23123559" resource="acc010" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Accidental hypothermia occurs when the ability of the body to generate heat is superseded by heat loss. This may occur even in the summer when a cool mountain wind blows on summer hikers.</listitem>
+<listitem>While this typically occurs in cold environments where the ambient temperature is well below normal body temperature, it can also occur at normal room temperatures if the body's thermoregulatory systems are disrupted by disease or injury.</listitem>
+<listitem>Wind and wetness can precipitate hypothermia even in only moderately cold temperatures, and water immersion can create hypothermia even in warm tropical waters.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Humans maintain a uniform body temperature by internal generation of heat. Stability of body temperature results from a balance between internal heat production and heat loss to the environment. When core temperature falls, adaptive behaviors such as putting on a coat or moving to a warmer environment decrease heat loss. Additionally, voluntary or involuntary muscle activity in the form of movement or shivering increases heat production.</listitem>
+<listitem>Disease states that affect cognition or motor function predispose patients to hypothermia when these behaviors or autoregulation fail to occur, such as malnutrition and dementia.</listitem>
+<listitem>Heat is lost or gained through radiation (55&#x0025;), evaporation (30&#x0025;), conduction (15&#x0025;), and convection (minor). Wet clothing or immersion in water causes more rapid heat loss because water is 25 times more conductive than air. Since core temperature is usually above ambient temperature, heat transfer is usually out of the body.</listitem>
+<listitem>Primary hypothermia results from failure of heat generation in a cold environment. This can occur even when the difference between ambient and core temperature is small. Medical conditions such as strokes or other injuries may prevent muscle activity or behavioral responses to cold, causing or worsening hypothermia.</listitem>
+<listitem>Secondary hypothermia results when a disease state interferes with thermoregulation. Onset of hypothermia can be triggered by events similar to the generation of primary hypothermia, and primary and secondary hypothermia may exist concurrently.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Men</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Mental impairment</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Alcoholism</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Homeless</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Hypothyroidism</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Drug use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Sepsis</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Delerium</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Cerebral vascular accident (CVA)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Infancy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Mental impairment</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Trauma</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Peripheral vascular disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>People who participate in outdoor recreation should become familiar with weather patterns, qualities of outdoor clothing, and take sensible precautions prior to undertaking the activity. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Elderly patients with chronic medical conditions should have adequate clothing and coverings. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The potential for heat loss and the risk of hypothermia should be considered in all patients with a serious medical condition, especially in those in whom there is anticipated difficulty with behavioral adaptations to cold. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>The diagnosis of hypothermia should be considered in all patients with trauma, cardiac arrest, and other unexplainable symptoms. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Temperature should be taken with a rectal thermometer that is capable of reading low temperatures. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>CVA</Differential_Name>
+<Differential_Features>Focal neurologic examination, normal body temperature</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sepsis</Differential_Name>
+<Differential_Features>Elevated body temperature, other signs of sepsis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Alcohol or drug intoxication</Differential_Name>
+<Differential_Features>History, drug or alcohol levels</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hypothyroidism</Differential_Name>
+<Differential_Features>Elevated thyroid-stimulating hormone, insidious onset</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Coma from any cause</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Hypoglycemia</Differential_Name>
+<Differential_Features>Hypoglycemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Spinal cord injury</Differential_Name>
+<Differential_Features>Trauma, focal neurologic examination</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>CNS trauma</Differential_Name>
+<Differential_Features>History of trauma</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hypoadrenalism</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>The diagnosis of hypothermia is made when the core temperature is below 35&#x00B0;C (95&#x00B0;F). There are no strict criteria for the diagnosis of hypothermia beyond that the core temperature is usually below 35&#x00B0;C (95&#x00B0;F). It may be classified as mild (32&#x00B0;C-35&#x00B0;C), moderate (28&#x00B0;C-32&#x00B0;C), and severe (&lt;28&#x00B0;C).<xref ref="pubmed25242454" resource="acc011" /></listitem>
+<listitem>Hypothermia should not be diagnosed when the core temperature is normal.</listitem>
+<listitem>Standard thermometers do not read below 34.4&#x00B0;C. Use a rectal thermometer capable of reading low body temperatures.</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Hypothermia is present when the core temperature is less than 95&#x00B0;F.</listitem>
+<listitem>Hypothermia may result from direct exposure to cold or be due to heat loss while incapacitated from another illness. A high index of suspicion is essential, especially when caring for elderly patients or in patients presenting with unexplained symptoms since symptoms of a primary condition may overshadow the symptoms of hypothermia.</listitem>
+<listitem>Signs and symptoms can be roughly correlated to core temperature and are listed below:<xref ref="pubmed7984198" resource="acc001" />
+<list style="bulleted">
+<listitem>Mild hypothermia (32&#x00B0;C-35&#x00B0;C or 89.6&#x00B0;F-95&#x00B0;F): tachypnea, impaired judgment, lethargy, confusion, vasoconstriction, apathy, tachycardia, hypertension, ataxia, dysarthria, loss of fine motor coordination, and shivering.</listitem>
+<listitem>Moderate hypothermia (28&#x00B0;C-32&#x00B0;C or 82.4&#x00B0;F-89.6&#x00B0;F): shivering stops, decreased level of consciousness, bradycardia, dilated pupils, slowed reflexes, delirium, J-wave on electrocardiogram (ECG), and diuresis.</listitem>
+<listitem>Severe hypothermia (&lt;28&#x00B0;C or 82.4&#x00B0;F): unresponsiveness or coma, may appear dead, hypotension, apnea, areflexia, pulmonary edema, acidosis, ventricular fibrillation, or asystole.</listitem>
+<listitem>Vague symptoms of mild hypothermia may include hunger, nausea, confusion, dizziness, chills, pruritus, or dyspnea.</listitem>
+</list></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>There are no tests that are specific or diagnostic for hypothermia except the measurement of core temperature with an accurate rectal thermometer.</listitem>
+<listitem>Results of laboratory testing may be helpful in determining whether hypothermia was the result of or the cause of the clinical condition.</listitem>
+<listitem>Patients with hypothermia present with a variety of metabolic abnormalities. Obtain a complete blood count (CBC), electrolytes, blood urea nitrogen (BUN), creatinine, and glucose. Arterial blood gases are useful to assess for acidosis. A coagulation profile can be used to diagnose coagulopathies. An ECG is necessary to evaluate for arrhythmias, although no arrhythmia is typical for hypothermia.</listitem>
+<listitem>Additional laboratory testing or imaging may be ordered depending on the clinical scenario. For example, A computed tomographic (CT) scan of the head will be helpful in evaluating a trauma victim or if a CVA is expected.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Treatment should begin in the prehospital setting: remove from the cold, remove wet clothing, passively rewarm victim, and stabilize associated injuries.</listitem>
+<listitem>Obtain a CBC, electrolytes, BUN, creatinine, glucose, arterial blood gases, coagulation profile, and ECG. Consider head CT if stroke or trauma is suspected.</listitem>
+<listitem>See <xref ref="table001" /> for a summary of treatment options.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Perform cardiopulmonary resuscitation if appropriate. Follow routine ACLS and ATLS guidelines when appropriate, and Wilderness Society Guidelines for pre-hospital management.<xref ref="pubmed25498264" resource="acc012" /><evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treat only life-threatening arrhythmias. Defibrillate at 2 J&#x002F;kg (or the biphasic equivalent) if the patient is in ventricular fibrillation or ventricular tachycardia. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Use amiodarone for treatment of ventricular fibrillation. Withhold intravenous (IV) drugs if core temperature is less than 30&#x00B0;C. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Start a large bore IV line. Volume administration is recommended with an initial bolus of 250 to 500 cc of 5&#x0025; dextrose in isotonic sodium chloride solution. Hypotension is treated by volume replacement and rewarming. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Chose a method of rewarming&#x2014;active or passive based on degree of hypothermia and available resources. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Medications do not play a major role in treatment of hypothermia except in specific situations such as arrhythmias when rewarming.</listitem>
+<listitem>Routine use of steroids, barbiturates, and antibiotics have not been shown to increase survival rates.</listitem>
+<listitem>Since many medications have little effect if core temperature is less than 30&#x00B0;C, these are often withheld until core temperature is above this value.<xref ref="pubmed9133535" resource="acc007" /></listitem>
+<listitem>Amiodarone is recommended for treatment of ventricular fibrillation.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem><strong>Out of Hospital Therapy</strong></listitem>
+<listitem>Treatment usually begins in the prehospital environment. Remove from the cold environment, remove wet clothing, and passively rewarm the victim. Associated injuries must be stabilized. Avoid rough handling of the patient as it may precipitate ventricular arrhythmias.</listitem>
+<listitem>The International Commission for Mountain Emergency Medicine (<resourceLink href="https://icar-med.com/Recommendations/Current-Recommendations/Clinical-Staging-of-Accidental-Hypothermia/">ICAR MedCom</resourceLink>) recommends the following classification system for hypothermic patients based on AVPU (alert, verbal, pain, unresponsive) scale and vitals: Stage 1 (low risk of cardiac arrest) &#x003D; Alert from AVPU; Stage 2 (moderate risk of cardiac arrest) &#x003D; Verbal from AVPU; Stage 3 (high risk of cardiac arrest) &#x003D; Painful or Unconscious from AVPU and vital signs present, and Stage 4 (hypothermic cardiac arrest) &#x003D; Unconscious and no detectable vital signs.</listitem>
+<listitem>Wilderness Medical Society Guidelines (2014) recommend out-of-hospital treatment based on the severity of hypotermia as follows:<xref ref="pubmed25498264" resource="acc012" />
+<list style="bulleted">
+<listitem><strong>Mild hypothermia (32&#x00B0;C-35&#x00B0;C or 89.6&#x00B0;F-95&#x00B0;F)</strong>: Patient has normal metal status, but is not able to function and care for self, and is shivering, with temp 32&#x00B0;C to 35&#x00B0;C. Protect from further cooling, seek shelter, remove wet clothing once in shelter, support shivering with warmed, high calorie food or drink, no standing or walking for 30 minutes, and consider active warming (see moderate hypothermia). Evacuate if no improvement in 30 minutes.</listitem>
+<listitem><strong>Moderate hypothermia</strong> (28&#x00B0;C-32&#x00B0;C or 82.4&#x00B0;F-89.6&#x00B0;F): Patient does not have normal mental status, is hivering, and is conscious, temp 28&#x00B0;C to 32&#x00B0;C. Treat as for mild hypotheramia, provide active warming with heat to upper torso, chest, axillae, and back using large heating pads, forced air, or Norwegian Heat Pac. Provide peripheral IV or interosseous or femoral line. Provide volume replacement with warm 40&#x00B0;C to 42&#x00B0;C saline boluses. Keep horizontal, no standing or walking.</listitem>
+<listitem><strong>Severe&#x002F;profound hypothermia (&lt;28&#x00B0;C or 82.4&#x00B0;F):</strong> Patient is unconscious, but with signs of life and normal rhythm on ECG and patient has respiration and pulse (check for up to 1 minute). Treat as for moderate hypothermia above, plus CPR and intubation if no signs of life. No CPR if signs of life present or perfusing rhythm seen; consider transcutaneous pacing if bracycardia with hypotension. Evacuate the patient carefully</listitem>
+<listitem><strong>Death</strong>: If the patient has an obviously lethal injury, the chest is too stiff for CPR, the patient was buried in avalanche for more than 35 minutes, or airway is obstructed by snow, recommendation is to not attempt resuscitation.</listitem>
+</list></listitem>
+<listitem><strong>Arrhythmias</strong></listitem>
+<listitem>If indicated, basic life support and advanced life support protocols are followed. Defibrillation by an automated external defibrillator is recommended for prehospital use in hypothermia. No data exist to guide at which temperature defibrillation attempts should be made, but success rates are low if the core temperature is less than 32&#x00B0;C. If the core temperature is less than 30&#x00B0;C, give a maximum of 3 shocks for ventricular fibrillation&#x002F;ventricular tachycardia until core temperature is increased, and give IV medications at longer than standard intervals.<xref ref="pubmed9133535" resource="acc007" /></listitem>
+<listitem>Because many arrhythmias convert spontaneously upon rewarming, aggressive therapy of minor arrhythmias is not warranted. Transient ventricular arrhythmias, bradycardia, or any atrial arrhythmias should not be treated.</listitem>
+<listitem><strong>Intubation and NG Tube</strong></listitem>
+<listitem>Indications for intubation are the same as in a normothermic patient. Coagulopathies are common in patients with hypothermia; methods of intubation that pose the least risk of trauma are recommended. Avoid overzealous ventilation because hypocapnia can increase ventricular irritability.</listitem>
+<listitem>Nasogastric tube placement may be warranted to relieve gastric distention.</listitem>
+<listitem><strong>Rewarming</strong></listitem>
+<listitem>Hypothermic patients will have vasodilatation on rewarming, and fluid administration is recommended with an initial bolus of 250 to 500 cc of 5&#x0025; dextrose in isotonic sodium chloride solution. IV fluids should be heated to 40&#x00B0;C to 42&#x00B0;C if possible. Rapid fluid resuscitation may be necessary. Use of vasopressors for hypotension and ventricular fibrillation is controversial, although human studies have shown little benefit.<xref ref="pubmed15642869" resource="acc005" /><xref ref="pubmed18406039" resource="acc006" /></listitem>
+<listitem>Definitive treatment is rewarming the patient. Controversy exists regarding the best method to rewarm patients. As a result, the best method depends on the degree of temperature depression, local expertise, and availability (<xref ref="table001" />). Remember, no one is dead until they are warm and dead.</listitem>
+<listitem>For avalanche victims, recent evidence-based guidelines have been published. If lethal injuries are excluded and the body is not frozen and the burial time is &lt;35 minutes OR the core temperature is &gt;32&#x00B0;C, rapid extrication and standard ALS is important. If burial time is &gt;35 minutes and the core temperature is &lt;32&#x00B0;C, gentle extrication, full body insulation, ECG and core-temperature monitoring and airway management is recommended. Cardiopulmonary bypass rewarming or extracorporeal membrane oxygenation is recommended for patients with cardiac instability or in cardiac arrest (with a patent airway).<xref ref="pubmed23123559" resource="acc010" /></listitem>
+<listitem>A systematic review identified 19 case reports or case series of 47 adults receiving extracorporeal life support (ECLS) following accidential hypothermia with hemodynamic instability. Median body temperature was 24.6 C, and median Glasgow Coma Scale on presentation was 3 (IQR 3 to 7), with cardiac arrest occuring in 75&#x0025;. Median time to ECLS was 2.5 hours, and median duration of ECLS was 18 hours (IQR 4 to 27 hours). The median length of hospital stay was 17 days, with 9 of 47 patients dying in the hospital and another 6 having minor long-term cognitive impairment.<xref ref="pubmed32504609" resource="acc013" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>The goal of treatment is to return body temperature to a normal 97.8&#x00B0;F or 37&#x00B0;C.</listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Most patients with severe hypothermia will be admitted to the intensive care unit. Consultation with a critical care specialist is recommended for severely hypothermic patients or if the clinician has limited clinical experience.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Mild hypothermia might be self-correcting if heat loss is minimized and the cause of hypothermia is identified and treated. Otherwise, hypothermia is a medical emergency that requires definitive treatment. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The outcomes of severe hypothermia are variable, and generally worse in patients with major comorbidities, greater degree of hypothermia, and greater length of time with hypothermia. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16044080" resource="acc008" /></listitem>
+<listitem>An admission temperatures less than 35&#x00B0;C is associated with much higher mortality than temperature of 35&#x00B0;C or more (25.5&#x0025; vs 3.0&#x0025;, <em>P</em> &lt; .001). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16044080" resource="acc008" /></listitem>
+<listitem>A systematic review found that (1) serum potassium less than 7 mmol&#x002F;L and (2) patent airway in patients buried for more than 35 minutes or when temperature is less than 32&#x00B0;C are associated with improved prognosis. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed20371145" resource="acc009" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed7984198">
+<accessionId id="acc001" href="info:pmid/7984198" />
+<authors>Danzl DF, Pozos RS.</authors>
+<title>Accidental hypothermia.</title>
+<source>N Engl J Med</source>
+<pubdate>1994</pubdate>
+<volume>331</volume>
+<pages>1756&#x2013;1760.</pages>
+</reference>
+<reference id="pubmed8604866">
+<accessionId id="acc002" href="info:pmid/8604866" />
+<authors>Steele MT, Nelson MJ, Sessler DI, Fraker L.</authors>
+<title>Forced air speeds rewarming in accidental hypothermia.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1996</pubdate>
+<volume>27</volume>
+<pages>479&#x2013;484.</pages>
+</reference>
+<reference id="pubmed2221514">
+<accessionId id="acc003" href="info:pmid/2221514" />
+<authors>Shields CP, Sixsmith DM.</authors>
+<title>Treatment of moderate-to-severe hypothermia in an urban setting.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1990</pubdate>
+<volume>19</volume>
+<pages>1093&#x2013;1097.</pages>
+</reference>
+<reference id="bib5">
+<citation />
+<url>http://www.cdc.gov/media/pressrel/fs050224.htm</url>
+<organization />
+<longtitle>Center for Disease Control and Prevention. Fact Sheet. Study: Hypothermia-Related Deaths&#x2014;United States, 2003-2004.</longtitle>
+<title>Center for Disease Control and Prevention. Fact Sheet. Study: Hypothermia-Related Deaths&#x2014;United States, 2003-2004</title>
+<dateguideline />
+</reference>
+<reference id="pubmed15642869">
+<accessionId id="acc005" href="info:pmid/15642869" />
+<authors>Aung K, Htay T.</authors>
+<title>Vasopressin for cardiac arrest: a systematic review and meta-analysis.</title>
+<source>Arch Intern Med</source>
+<pubdate>2005</pubdate>
+<volume>165</volume>
+<pages>17&#x2013;24.</pages>
+</reference>
+<reference id="pubmed18406039">
+<accessionId id="acc006" href="info:pmid/18406039" />
+<authors>Wira CR, Becker JU, Martin G, Donnino MW.</authors>
+<title>Anti-arrhythmic and vasopressor medications for the treatment of ventricular fibrillation in severe hypothermia: a systematic review of the literature.</title>
+<source>Resuscitation</source>
+<pubdate>2008</pubdate>
+<volume>78</volume>
+<pages>21&#x2013;29.</pages>
+</reference>
+<reference id="pubmed9133535">
+<accessionId id="acc007" href="info:pmid/9133535" />
+<authors>Kloeck W, Cummins RO, Chamberlain D, et al.</authors>
+<title>Special resuscitation situations. An advisory statement from the International Liaison Committee on Resuscitation.</title>
+<source>Circulation</source>
+<pubdate>1997</pubdate>
+<volume>95</volume>
+<pages>2196&#x2013;2210.</pages>
+</reference>
+<reference id="pubmed16044080">
+<accessionId id="acc008" href="info:pmid/16044080" />
+<authors>Martin RS, Kilgo PD, Miller PR, Hoth JJ, Meredith JW, Chang MC.</authors>
+<title>Injury-associated hypothermia: an analysis of the 2004 National Trauma Data Bank.</title>
+<source>Shock</source>
+<pubdate>2005</pubdate>
+<volume>24</volume>
+<pages>114&#x2013;118.</pages>
+</reference>
+<reference id="pubmed20371145">
+<accessionId id="acc009" href="info:pmid/20371145" />
+<authors>Boyd J, Brugger H, Shuster M.</authors>
+<title>Prognostic factors in avalanche resuscitation: a systematic review.</title>
+<source>Resuscitation</source>
+<pubdate>2010</pubdate>
+<volume>81</volume>
+<pages>645&#x2013;652.</pages>
+</reference>
+<reference id="pubmed23123559">
+<accessionId id="acc010" href="info:pmid/23123559" />
+<authors>Brugger H, Durrer B, Elsensohn F, Paal P, Strapazzon G, Winterberger E, Zafren K, Boyd J; ICAR MEDCOM.</authors>
+<title>Resuscitation of avalanche victims: Evidence-based guidelines of the international commission for mountain emergency medicine (ICAR MEDCOM): intended for physicians and other advanced life support personnel.</title>
+<source>Resuscitation</source>
+<pubdate>2013</pubdate>
+<volume>84</volume>
+<pages>539&#x2013;546.</pages>
+</reference>
+<reference id="pubmed25242454">
+<accessionId id="acc011" href="info:pmid/25242454" />
+<authors>Petrone P, Asensio JA, Marini CP.</authors>
+<title>Management of accidental hypothermia and cold injury.</title>
+<source>Curr Probl Surg</source>
+<pubdate>2014</pubdate>
+<volume>51</volume>
+<pages>417&#x2013;431.</pages>
+</reference>
+<reference id="pubmed25498264">
+<accessionId id="acc012" href="info:pmid/25498264" />
+<authors>Zafren K, Giesbrecht GG, Danzl DF, Brugger H, Sagalyn EB, Walpoth B, Weiss EA, Auerbach PS, McIntosh SE, N&#x00E9;methy M, McDevitt M, Dow J, Schoene RB, Rodway GW, Hackett PH, Bennett BL, Grissom CK, Wilderness Medical Society.</authors>
+<title>Wilderness Medical Society practice guidelines for the out-of-hospital evaluation and treatment of accidental hypothermia: 2014 update.</title>
+<source>Wilderness Environ Med</source>
+<pubdate>2014</pubdate>
+<volume>25</volume>
+<pages>S66&#x2013;85.</pages>
+</reference>
+<reference id="pubmed32504609">
+<accessionId id="acc013" href="info:pmid/32504609" />
+<authors>Austin MA, Maynes EJ, O'Malley TJ, Mazur P, Darocha T, Entwistle JW, Guy TS, Massey HT, Morris RJ, Tchantchaleishvili V.</authors>
+<title>Outcomes of extracorporeal life support use in accidental hypothermia: a systematic review.</title>
+<source>Ann Thorac Surg</source>
+<pubdate>2020</pubdate>
+<volume>110</volume>
+<pages>1926&#x2013;1932.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Treatment of Hypothermia.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Method</th>
+<th align="left" colspan="1">Specific Treatment</th>
+<th align="left" colspan="1">Utility</th>
+<th align="left" colspan="1">Comments</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Passive external warming</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Slow, generating only 0.5&#x00B0;C-2&#x00B0;C&#x002F;h. The patient is insulated from further heat loss and warms themselves</td>
+<td align="left" colspan="1">This method is useful for mild cases with no underlying disease</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Active external warming</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Useful in mild cases</td>
+<td align="left" colspan="1">External heat is applied in a noninvasive manner. Pooled blood in the extremities may result in a return of incompletely rewarmed blood to the central circulation. Rewarming the trunk alone may minimize this problem<xref ref="pubmed8604866" resource="acc002" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Humidified oxygen, heated infusions and heated inhalation</td>
+<td align="left" colspan="1">Safe and effective as adjunctive therapy</td>
+<td align="left" colspan="1">Should be used in all patients during rewarming<xref ref="pubmed2221514" resource="acc003" /></td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Forced-air rewarming</td>
+<td align="left" colspan="1">Can rewarm as fast as 2.4&#x00B0;C&#x002F;h</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Immersion in water bath at 40&#x00B0;C</td>
+<td align="left" colspan="1">Monitoring and resuscitation are difficult</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Active core rewarming</td>
+<td align="left" colspan="1">Gastric and colonic lavage</td>
+<td align="left" colspan="1">Limited by surface area and should be used as an adjunct to other methods</td>
+<td align="left" colspan="1">Regurgitation is common</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Mediastinal lavage and closed thoracic lavage</td>
+<td align="left" colspan="1">Invasive. The organs are bathed with isotonic sodium chloride solution heated to 40&#x00B0;C</td>
+<td align="left" colspan="1">Should be used only if cardiopulmonary bypass is immediately available or the patient is in full cardiac arrest</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Peritoneal lavage</td>
+<td align="left" colspan="1">Available at most hospitals. A standard 1.5&#x0025; dextrose dialysate is heated to 40&#x00B0;C-45&#x00B0;C. Rewarming averages 1&#x00B0;C-3&#x00B0;C&#x002F;h</td>
+<td align="left" colspan="1">This method may help detoxification in drug overdose and rewarms the liver faster than other methods. Not routinely advocated for stable patients</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">Extracorporeal blood rewarming. Hemodialysis. Cardiopulmonary bypass. Atriovenous rewarming. Venovenous rewarming</td>
+<td align="left" colspan="1">Fast, rising core temperature 1&#x00B0;C-2&#x00B0;C every 3-5 min</td>
+<td align="left" colspan="1">Requires considerable skill to perform and may require systemic anticoagulation. Can be used by specialists experienced in these techniques for severe hypothermia</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+</feature_group>
+</topic>

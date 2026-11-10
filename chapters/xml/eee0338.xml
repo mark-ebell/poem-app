@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Sepsis and septic shock (adult)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0338</topic_id>
+<topic_comment />
+<topic_lastupdated>04/14/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Konstantin Nestoiter, MD</author_name>
+<author_title>Fellow Physician</author_title>
+<author_department>Critical Care Medicine</author_department>
+<author_institution>UPMC Harrisburg</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Harrisburg</author_city>
+<author_state>PA</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Shirley Ann Pfalaq D. Felipe, MD</author_name>
+<author_title>Resident Physician</author_title>
+<author_department>Internal Medicine</author_department>
+<author_institution>UPMC Harrisburg</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Stefan Gafoor, MD</author_name>
+<author_title />
+<author_department>Internal Medicine</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Raheem Robertson, MD</author_name>
+<author_title />
+<author_department>Internal Medicine</author_department>
+<author_institution>Piedmont Athens Regional Medical Center</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Athens</author_city>
+<author_state>GA</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Scott E. Nass, MD, MPA, FAAFP, AAHIVS</author_name>
+<author_title>Director of Inpatient Education</author_title>
+<author_department>Family Medicine Residency Program</author_department>
+<author_institution>Citrus Valley Health Partners</author_institution>
+<author_email>scottnassmd&#x0040;gmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>West Covina</author_city>
+<author_state>CA</author_state>
+<author_zip>91790</author_zip>
+</author>
+<author primary="no">
+<author_name>Aaron J. Morgan, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Dermatology</author_department>
+<author_institution>New Jersey Medical School</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Newark</author_city>
+<author_state>NJ</author_state>
+<author_zip>07103</author_zip>
+</author>
+<author primary="no">
+<author_name>Charin L. Hanlon, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>West Virginia University &#x2013; Charleston Divisions</author_institution>
+<author_email>chanlon&#x0040;hsc.wvu.edu</author_email>
+<author_phone_office>304-347-1395</author_phone_office>
+<author_phone_home>304-925-9366</author_phone_home>
+<author_phone_fax>304-347-1344</author_phone_fax>
+<author_street1>3110 MacCorkle Avenue SE</author_street1>
+<author_street2 />
+<author_city>Charleston</author_city>
+<author_state>WV</author_state>
+<author_zip>25304</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Diagnose sepsis in adults with life-threatening organ dysfunction caused by dysregulated host response to infection. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Do not rely <em>solely</em> on <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink>, compared to SIRS, NEWS, or <resourceLink href="info:wiley/eep-rule/403">MEWS</resourceLink>, as a screening tool for sepsis or septic shock since it lacks diagnostic precision. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Suspect sepsis in adults with likely clinical infection and at least two of the following: altered mental status, a respiratory rate of &#x2265; 22&#x002F;minute, and a systolic BP &#x2264; 100 mm Hg (the <resourceLink href="info:wiley/eep-rule/568">qSOFA score</resourceLink>). Confirmation of organ dysfunction using a <resourceLink href="info:wiley/eep-rule/567">SOFA score</resourceLink> of 2 or higher is highly suggestive of sepsis. <evidence rating="B" system="SORT">B</evidence><xref ref="poem180412" resource="acc018" /><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Diagnose septic shock in patients with sepsis who, despite adequate fluid resuscitation, present with a serum lactate &gt; 2 mmol&#x002F;L and require vasopressors to maintain mean arterial pressure (MAP) &#x2265; 65 mm Hg. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Early goal-directed therapy within the first 6 hours, compared to usual care, does not decrease mortality and may result in longer ICU stays and higher overall costs. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed28320242" resource="acc020" /></listitem>
+<listitem>Consider initial fluid resuscitation at a rate of 30 mL&#x002F;kg using balanced crystalloids within the first 3 hours for patients with septic shock or sepsis-induced hypoperfusion. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Initiate broad-spectrum antibiotics within 1 hour for adults with likely sepsis or possible septic shock. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed24717459" resource="acc022" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Aim for an initial MAP of 65 mmHg instead of higher targets for adult patients with septic shock on vasopressors. For patients &gt; 65 years-old with vasodilatory shock, a lower MAP target of &gt; 60 mmHg may be sufficient. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34599691" resource="acc064" /><xref ref="pubmed32049269" resource="acc044" /></listitem>
+<listitem>For patients with septic shock, use norepinephrine as first-line vasopressor and vasopressin and its analogues as second-line agents. Consider the adjunctive use of systemic corticosteroids for those with continued need for vasopressors (ie, norepinephrine at a dose &#x2265; 0.25 mcg&#x002F;kg&#x002F;min or dual inotropes to maintain a systolic blood pressure &gt; 90 mm Hg or MAP &gt; 60 mm Hg for &#x2265;4 hours). <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed32647719" resource="acc045" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+</list>
+</BottomLine>
+<definition>Sepsis is a rapidly progressive spectrum of host response to infection that includes immune, inflammatory, and coagulation responses. It is an infectious subset of systemic inflammatory response syndrome (SIRS). The very cytokine cascade that fights the causative infection becomes damaging to multiple organ systems and is frequently fatal. Sepsis was defined by the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) as &#x201C;life-threatening organ dysfunction due to a dysregulated host response to infection.&#x201D; Additionally, the task force defined septic shock as "a subset of sepsis in which particularly profound circulatory, cellular, and metabolic abnormalities are associated with a greater risk of mortality than with sepsis alone." <xref ref="pubmed26903338" resource="acc040" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>There are greater than 1.7 million cases of sepsis per year in the United States. According to the Centers for Disease Control and Prevention (CDC), more than 350,000 adults who are diagnosed with sepsis die in the hospital or get discharged to hospice.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Sepsis accounts for 10&#x0025; of all ICU admissions.<xref ref="pubmed12700374" resource="acc006" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Gram-negative bacteria were the predominant cause of septic shock in the past, but as of 1987 Gram-positive organisms have become the most common (57&#x0025; vs. 37&#x0025; for Gram-negative in year 2000).<xref ref="pubmed12700374" resource="acc006" /></listitem>
+<listitem>Fungal infections causing sepsis rose by greater than 200&#x0025; in the last 2 decades.<xref ref="pubmed12700374" resource="acc006" /> They are more common in the immunocompromised, those treated with broad-spectrum antibiotics, and those with vascular catheters. Candidal species are the most common etiologic agent.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Bacterial cell wall components [most well established is lipopolysaccharide (LPS), from Gram-negative bacteria] activate antigen-presenting cells and lead to massive release of cytokines.</listitem>
+<listitem>Cytokines involved include interleukins (IL-1, IL-2, IL-4, IL-6, IL-8, IL-10), tumor necrosis factor alpha (TNF-alpha), platelet-activating factor, endorphins, and nitric oxide.</listitem>
+<listitem>Cytokines lead to vasodilation and increased capillary permeability, coagulability, fibrinolysis, and apoptosis.</listitem>
+<listitem>Sepsis also involves both pro and anti-inflammatory responses, as well as cardiovascular, autonomic, hormonal, metabolic, and coagulation pathways.<xref ref="poem180412" resource="acc018" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Advanced age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Compromised immunity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic diseases</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Surgical&#x002F;invasive procedures</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Malnutrition</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Broad-spectrum antibiotic use</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Increased prevalence of drug-resistant organisms</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Diagnose sepsis in adults with life-threatening organ dysfunction caused by dysregulated host response to infection. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Do not rely <em>solely</em> on <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink>, compared to SIRS, NEWS, or <resourceLink href="info:wiley/eep-rule/403">MEWS</resourceLink>, as screening tool for sepsis or septic shock since it lacks diagnostic precision. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Suspect sepsis in adults with likely clinical infection and at least two of the following: altered mental status, a respiratory rate of &#x2265;22&#x002F;minute, and a systolic BP &#x2264;100 mm Hg (the <resourceLink href="info:wiley/eep-rule/568">qSOFA score</resourceLink>). Confirmation of organ dysfunction using a <resourceLink href="info:wiley/eep-rule/567">SOFA score</resourceLink> of 2 or higher is highly suggestive of sepsis. <evidence rating="B" system="SORT">B</evidence><xref ref="poem180412" resource="acc018" /><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Diagnose septic shock in patients with sepsis who, despite adequate fluid resuscitation, present with a serum lactate &gt;2 mmol&#x002F;L and require vasopressors to maintain mean arterial pressure (MAP) &#x2265;65 mm Hg. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Check serum lactate in patients suspected of sepsis but do not rely on it for definitive diagnosis given its poor diagnostic accuracy. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Consider alternative diagnoses for and continuously reevaluate patients with suspected sepsis or septic shock without confirmed infection. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>The Sepsis-3 consensus conference defines sepsis as "life-threatening organ dysfunction caused by a dysregulated host response to infection." The task force recommends a bedside screening tool, the quick Sequential Organ Failure Assessment (<resourceLink href="info:wiley/eep-rule/568">qSOFA score</resourceLink>), which includes altered mental status, a respiratory rate of 22 or greater per minute, and a systolic blood pressure of 100 mm Hg or less. Patients suspected of having a clinical infection meeting at least 2 out of the 3 criteria are at high risk of poor outcomes.<xref ref="poem180412" resource="acc018" /><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>It was recommended that these patients have the <resourceLink href="info:wiley/eep-rule/567">SOFA score</resourceLink> calculated, and those with evidence of organ dysfunction and a SOFA score of 2 or more points be diagnosed with sepsis. SOFA score more than 2 carries a 10&#x0025; in-hospital mortality. <xref ref="poem190315" resource="acc019" /><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Patients with sepsis who, despite adequate fluid resuscitation, demonstrate a serum lactate level &gt;2 mmol&#x002F;L and who require vasopressors to maintain MAP &#x2265;65 mmHg should be diagnosed with septic shock. <xref ref="pubmed26903338" resource="acc040" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Patients with sepsis typically present with fever, hypotension, tachypnea, and tachycardia.</listitem>
+<listitem>Shaking and chills are a highly specific but less sensitive predictor for bacteremia. Blood cultures and early initiation of antibiotics should be considered for patients with an episode of shaking and chills; lack of these subjective symptoms should not lead to the exclusion of bacteremia and early antibiotic treatment. A systematic review and meta-analysis of 19 studies with a total of 14,641 patients showed that the sensitivity and specificity of shaking chills were relatively modest at 37&#x0025; (95&#x0025; CI, 29&#x0025; to 45&#x0025;) and 87&#x0025; (95&#x0025; CI, 83&#x0025; to 90&#x0025;), respectively. <xref ref="pubmed38863066" resource="acc050" /></listitem>
+<listitem>Any patient with a suspected clinical infection with at least 2 items from the <resourceLink href="info:wiley/eep-rule/568">qSOFA score</resourceLink> (altered mental status, respiratory rate &#x2265;22&#x002F;minute, and a systolic blood pressure &#x2264;100 mm Hg) should be suspected of having sepsis. If they have evidence of organ dysfunction as demonstrated by a <resourceLink href="info:wiley/eep-rule/567">SOFA score</resourceLink> of 2 or more, sepsis can be diagnosed.<xref ref="poem190315" resource="acc019" /><xref ref="poem180412" resource="acc018" /><xref ref="pubmed26903338" resource="acc040" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-dx/139">Blood cultures (at least 1 of 2 positive)</resourceLink> have a very high sensitivity and specificity for identifying infection.</listitem>
+<listitem>Serum lactate level &gt;2 mmol&#x002F;L suggests hypoperfusion and should be measured at initial presentation to risk stratify for aggressiveness of resuscitation. It is one of the components of the definition of septic shock, which also involves needing pressors to maintain a MAP &#x2265;65 mm Hg.<xref ref="poem180412" resource="acc018" /><xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Point-of-care lactate testing has not been demonstrated effective in improving outcomes, based on poor quality evidence.<xref ref="poem200201" resource="acc021" /></listitem>
+<listitem>Random cortisol levels may be useful only in cases of absolute adrenal insufficiency, but they have not been shown to be useful in septic shock patients with inadequate stress response due to relative adrenal insufficiency.<xref ref="poem100304" resource="acc003" /></listitem>
+<listitem>Sedimentation rate is not a sensitive test for sepsis. However, <resourceLink href="info:wiley/eep-dx/133">erythrocyte sedimentation rate (ESR) &gt;100</resourceLink> is specific for serious infection.</listitem>
+<listitem>Current guidelines do not advocate use of inflammatory markers (IL-6 or CRP) in the diagnosis of sepsis.</listitem>
+<listitem><resourceLink href="info:wiley/eep-dx/379">Procalcitonin</resourceLink> is not reliable in distinguishing infectious from noninfectious causes of SIRS in critically ill adults. Hence, do not use procalcitonin to determine appropriateness of starting antimicrobial therapy. <xref ref="pubmed34599691" resource="acc064" /> Consider using procalcitonin measurement for the deescalation of antibiotics in patients with septic shock; however it is not recommended for patients on continuous renal replacement therapy (CRRT). <xref ref="pubmed34011841" resource="acc042" /></listitem>
+<listitem>An elevated lactate to albumin ratio (LAR) is associated with poor prognosis. A retrospective observational study showed that LAR had an AUROC of 0.72 for 28 day mortality, compared to 0.67 for the SOFA score. Patients with sepsis and a LAR &gt; 1.52 had a 3.8-fold higher risk of 28-day mortality, while those with a SOFA score &gt;7 .5 had an approximately 2.7-fold higher risk of 28-day mortality.<xref ref="pubmed38176175" resource="acc052" /></listitem>
+<listitem>Previous studies have suggested that the CRP to albumin ratio (CAR) and the procalcitonin (PCT) to albumin ratio (PAR) are associated with infection severity during the acute phase and can be used as prognostic predictors for sepsis mortality. Nonetheless, comparative studies on the predictive performance of each factor are insufficient.<xref ref="pubmed38176175" resource="acc052" /><xref ref="pubmed26158725" resource="acc053" /><xref ref="pubmed36912300" resource="acc054" /><xref ref="pubmed29461463" resource="acc055" /></listitem>
+<listitem>A study identified 1477 adults with qSOFA &gt;&#x003D; 1, 29&#x0025; of whom developed sepsis. Procalcitonin had the best accuracy for identifying patients who would develop sepsis within 96 hours (AUC 0.86, 95&#x0025; CI 0.81 to 0.87), and was significantly better than adrenomedullin, CRP, pre-proadrenomedullin, and its cleavage products. Adding those markers to procalcitonin provided no better accuracy. Procalcitonin had positive and negative likelihood ratios of 3.8 and 031 at a cutoff of &gt;&#x003D; 0.5 mcg&#x002F;L, and 6.2 and 0.4 at a cutoff of &gt;&#x003D; 0.25 mcg&#x002F;L. In this population, the negative predictive value was 89&#x0025; using the &lt; 0.25 mcg&#x002F;L cutoff, and the positive predictive value was 72&#x0025; using the &gt;&#x003D; 0.5 mcg&#x002F;L cutoff.<xref ref="pubmed38502804" resource="acc056" /></listitem>
+<listitem>Noninvasive blood pressure monitoring using an automated cuff appears as safe as invasive blood pressure monitoring using an arterial line in terms of 28-day mortality for critically ill patients with shock, based on a multicenter RCT (n &#x003D; 1,010). About 85&#x0025; of the noninvasive group avoided insertion of an arterial line. Secondary outcomes were similar between groups (i.e., 90-day mortality, duration of ICU stay, need for renal replacement therapy, number of ventilator-free days). In terms of adverse events, the noninvasive group reported more pain from the automated cuff, while the invasive group had more hematoma and hemorrhage at the insertion site of the arterial line.<xref ref="pubmed41159885" resource="acc058" /> Similarly, a case control study (n &#x003D; 326) did not find improved survival using invasive blood pressure monitoring compared to noninvasive monitoring for critically ill patients with sepsis.<xref ref="pubmed40311284" resource="acc060" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A study compared the prognostic value of several simple risk scores for patients with sepsis. The <resourceLink href="info:wiley/eep-rule/567">SOFA</resourceLink> and LODS risk scores (AUC 0.74 to 0.75) were more accurate than the <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink> and SIRS risk scores (AUC 0.64 to 0.66) for prediction of in-hospital mortality among ICU patients.<xref ref="pubmed26903335" resource="acc035" /></listitem>
+<listitem>Among non-ICU patients, the <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink>, SIRS, and <resourceLink href="info:wiley/eep-rule/567">SOFA</resourceLink> were all similarly accurate for the prediction of in-hospital mortality.<xref ref="pubmed26903335" resource="acc035" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Use the <resourceLink href="info:wiley/eep-rule/568">qSOFA score</resourceLink> (2+ items) to identify patients with suspected infection who may have sepsis. Then, calculate the <resourceLink href="info:wiley/eep-rule/567">SOFA score</resourceLink> (2 or higher) to diagnose sepsis. Patients who, despite adequate fluid resuscitation, have a serum lactate &gt; 2 mmol&#x002F;L and who need pressors to maintain MAP &#x2265; 65 mm Hg are defined as having septic shock. <xref ref="pubmed26903338" resource="acc040" /></listitem>
+<listitem>Appropriate cultures must be obtained before antibiotics are initiated. At least two blood cultures should be drawn, one percutaneously and one through every vascular access device present.</listitem>
+<listitem>Cultures of urine, CSF, wounds, sputum, or other fluids should be taken as directed by the patient's presentation. Cultures should be obtained broadly if there is no obvious source from history and physical exam.</listitem>
+<listitem>Screening in pregnancy. For admissions early in pregnancy and more than 3 days postpartum, non-pregnancy-adjusted sepsis screening tools performed better than pregnancy-adjusted tools. From 20 weeks of gestation through up to 3 days postpartum, using a pregnancy-adjusted sepsis screening tool increased sensitivity and minimized false-positive rates. The overall false-positive rate remained high.<xref ref="pubmed38086052" resource="acc051" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>379</Dx_ID>
+<Dx_ID>133</Dx_ID>
+<Dx_ID>139</Dx_ID>
+<Dx_ID>248</Dx_ID>
+<Dx_ID>371</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Early goal-directed therapy within the first 6 hours, compared to usual care, does not decrease mortality and may result in longer ICU stays and higher overall costs. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed28320242" resource="acc020" /></listitem>
+<listitem>Consider initial fluid resuscitation at a rate of 30 mL&#x002F;kg using balanced crystalloids within the first 3 hours for patients with septic shock or sepsis-induced hypoperfusion. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Initiate broad-spectrum antibiotics within 1 hour for adults with likely sepsis or possible septic shock. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed24717459" resource="acc022" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Do not use procalcitonin to determine appropriateness of starting antimicrobials. However, procalcitonin may be helpful in guiding cessation of antimicrobial therapy after achieving source control if there remains uncertainty with clinical exam alone. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Consider alternative diagnoses for and continuously reevaluate patients with suspected sepsis or septic shock without confirmed infection; discontinue empiric antibiotics once alternative etiology is confirmed or strongly favored. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>When using beta-lactams, prolonged infusions (after initial bolus) appear superior to conventional intermittent infusions (&lt;&#x003D; 30 minutes), as they reduce short-term mortality based on two meta-analyses. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Aim for an initial mean arterial pressure (MAP) of 65 mmHg instead of higher targets for adult patients with septic shock on vasopressors, and consider aiming for a MAP above 60 mmHg for patients above the age of 65 years. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed32049269" resource="acc044" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Use norepinephrine as first-line vasopressor. <evidence rating="A" system="SORT">A</evidence> Other options include vasopressin, <evidence rating="A" system="SORT">A</evidence> epinephrine, <evidence rating="B" system="SORT">B</evidence> selepressin, <evidence rating="B" system="SORT">B</evidence> and angiotensin II. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Consider systemic corticosteroids for patients with septic shock with continued need for vasopressors. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Do not use polymyxin B hemoperfusion, intravenous immunoglobulin (IVIG), or vitamin C. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Unless contraindicated, consider pharmacologic venous thromboembolism (VTE) prophylaxis and stress ulcer prophylaxis for those at risk for gastrointestinal bleeding. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed34599691" resource="acc064" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Antibiotics</strong></listitem>
+<listitem>Antibiotic therapy should be initiated in the first hour after cultures are drawn. Initial antibiotics should be broad spectrum to cover the suspected source of infection and should be reevaluated after 48 to 72 hours of therapy. They should be continued for 7 to 10 days, based on the patient's clinical response.<xref ref="pubmed24717459" resource="acc022" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Do not use procalcitonin to determine appropriateness of starting antimicrobials. However, procalcitonin may be helpful in guiding cessation of antimicrobial therapy after achieving source control if there remains uncertainty based on the clinical exam alone. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>A meta-analysis found that a beta lactam alone was as effective as beta lactam plus aminoglycoside in immunocompetent patients with sepsis.<xref ref="pubmed14996699" resource="acc005" />A Cochrane review confirmed this finding and found that combination treatment increased nephrotoxicity while all-cause mortality remained the same. <xref ref="cochrane3344" resource="acc016" /></listitem>
+<listitem>Consider adding antimicrobial coverage for MRSA for patients who are diagnosed with sepsis or septic shock and are high risk for MRSA. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>When using beta-lactams, prolonged infusions (after initial bolus) appear superior to conventional intermittent infusions (&lt;&#x003D; 30 minutes), as they may reduce short-term mortality based on two meta-analyses. Differences in adverse events between the two approaches have not been reported, and prolonged infusion may be challenging in resource-limited settings. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>A large multinational RCT (n &#x003D; 7,031) of critically ill patients with sepsis found comparable 90-day mortality for continuous infusion and intermittent infusion of beta-lactam antibiotics. However, continuous infusion appears to increase clinical cure rate at 14 days (OR 1.26; CI 1.15-1.38; P&lt;.001).<xref ref="pubmed38864155" resource="acc061" /> In contrast, a meta-analysis of 18 RCTs, including this study, concluded that continuous infusion of beta-lactam antibiotics decreases 90-day mortality (pooled estimated RR 0.86; CI 0.72-0.98), lowers ICU mortality (RR 0.84; 0.70-0.97), and increases clinical cure (RR 1.16; 1.07-1.31). However, the included trials had varying definitions of sepsis, antibiotic choice, infusion time, and time to follow-up.<xref ref="pubmed38864162" resource="acc062" /></listitem>
+<listitem>A retrospective study in a single tertiary hospital found a 5&#x0025; higher mortality risk using the empiric treatment combination of vancomycin plus piperacillin-tazobactam compared to vancomycin plus cefepime for adults with sepsis without a specific indication for anti-anaerobic antibiotic therapy. <xref ref="poem302316" resource="acc057" /></listitem>
+<listitem>Based on a multicenter international RCT (n &#x003D; 3,608), 7 days of antibiotics appears as effective and safe as a 14 day antibiotic course for non-Staph aureus bacteremia in immunocompetent patients. subsequent systematic review and meta-analysis (n &#x003D; 3,729), which included this trial, similarly concluded that 7 days of antibiotics was noninferior to 14 days of therapy for hospitalized patients with uncomplicated Gram-negative bacteremia, based on high-certainty evidence.<xref ref="pubmed40116824" resource="acc059" /></listitem>
+<listitem>A cohort study of 18,000 patients using data from the Michigan Hospital Medicine Safety Consortium evaluating hospitalized patients with uncomplicated community-onset sepsis found that de-escalation from anti-MRSA and anti-pseudomonal antibiotics on day 4, compared to continuous broad-spectrum coverage, leads to less antibiotic exposure, shorter length of stay, and similar mortality.<xref ref="pubmed41428290" resource="acc063" /></listitem>
+<listitem>Consider alternative diagnoses for and continuously reevaluate patients with suspected sepsis or septic shock without confirmed infection; discontinue empiric antibiotics once alternative etiology is confirmed or strongly favored. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem><strong>Vasopressors</strong></listitem>
+<listitem>Vasopressors should be added when patients continue to have hypotension or organ hypoperfusion after fluid resuscitation. Use norepinephrine as first-line vasopressor. Second-line options include vasopressin and its analogues, phenylephrine, epinephrine, dopamine, and angiotensin ll. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>In a systematic review, norepinephrine demonstrated a mortality benefit with an absolute risk reduction of 11&#x0025; and a number needed to treat (NNT) of 9, when compared to dopamine, primarily due to lower risk of arrhythmias with norepinephrine. Dopamine at higher doses has alpha-1 and beta-1 adrenergic properties, which will assist with vasoconstriction and increasing systemic vascular resistance, at the expense of also increasing the risk for cardiac arrhythmias. <xref ref="pubmed26237037" resource="acc023" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Aim for an initial MAP of 65 mm Hg instead of higher targets for adult patients with septic shock on vasopressors. Higher MAP targets (80-85 mm Hg) vs. the traditional 65 mm Hg for initial resuscitation do not appear to reduce mortality. <xref ref="poem160562" resource="acc017" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>For patients with septic shock who are being treated with norepinephrine with inadequate MAP, consider adding vasopressin for additional vasopressor support as opposed to escalating the dose of norepinephrine. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Vasopressin may be considered as add-on vasopressor if patients remain hypotensive despite fluid resuscitation and first-line pressor agents; infusion within 6 hours of septic shock reduced use of renal replacement therapy (RRT) in a meta-analysis.<xref ref="pubmed33975132" resource="acc033" /> Angiotensin II was demonstrated to increase blood pressure in vasodilatory septic shock resistant to vasopressors in a single industry-sponsored concealed allocation trial.<xref ref="poem191203" resource="acc024" /></listitem>
+<listitem><strong>Corticosteroids</strong></listitem>
+<listitem>Consider systemic corticosteroids for patients with septic shock with continued need for vasopressors. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>3 systematic reviews of corticosteroid studies found low- to moderate-certainty evidence supporting a reduction in 28-day, 90-day, and hospital mortality with systemic corticosteroids, as well as low-certainty evidence suggesting shortening of ICU and hospital length of stay. Systemic steroids do not appear to significantly increase the risk of infection, but its effects on mucle weakness is uncertain. Additionally, there is insufficient evidence for continuous versus intermittent bolus administration of systemic steroids.<xref ref="cochrane2243" resource="acc010" /><xref ref="poem210218" resource="acc027" /><xref ref="poem211045" resource="acc029" /> A well-designed RCT (CORTICUS study) found that IV hydrocortisone 200 mg&#x002F;day did not reduce mortality. An updated trial in 2018 (ADRENAL trial) showed that, in patients with septic shock on mechanical ventilation receiving vasopressors, one week of hydrocortisone 200 mg&#x002F;day did not reduce 90-day mortality but may be associated with shorter time until reversal of shock, shorter time to extubation, shorter length of stay in the ICU and less need for blood transfusions. <xref ref="pubmed29347874" resource="acc065" /></listitem>
+<listitem>The Society of Critical Care Medicine released an update on the 2024 guidelines on the use of corticosteroids in sepsis, adult respiratory distress syndrome, and community acquired pneumonia. It is thought that corticosteroids may reduce hospital and long term mortality (defined as 60 days to 1 year) (RR 0.94; 95&#x0025; CI, 0.89 - 1.00, low certainty) in patients with sepsis or septic shock. It has shown to reduce ICU and short term mortality (defined as 14-30 days) (RR 0.93; 95&#x0025; CI 0.88-0.98, moderate certainty) in patients with sepsis or septic shock. The 2024 update suggest to add corticosteroids to adult patients with septic shock (low certainty evidence) and recommend against adding high dose corticosteroids for short durations (hydrocortisone 400 mg per day for less than 3 days) for adult patients with septic shock. The proposed regimen for corticosteroids in the setting of septic shock is hydrocortisone 200 mg IV per day (continuously or divided every 6 hours) with or without fludrocortisone 50 mcg enterally for 7 days or until ICU discharge.<xref ref="pubmed38240492" resource="acc048" /> A systematic review and meta analysis was conducted to evaluate the effectiveness of combination therapy with fludrocortisone and hydrocortisone versus placebo or hydrocortisone alone. The analysis included 7688 patients, which showed a 15&#x0025; reduction in all cause mortality with combination therapy (RR 0.85; 95&#x0025; CI 0.72, 0.99). When the combination therapy was compared to monotherapy with hydrocortisone, it was associated with a 12&#x0025; lower risk of all cause mortality (RR 0.88; 95&#x0025; CI 0.74-1.03), however the results were not statistically significant.<xref ref="pubmed38271488" resource="acc049" /> For patients with sepsis in the setting of severe community acquired pneumonia, it is recommended to administer corticosteroids (the regimen may be found in the "Pneumonia (community acquired) chapter). <xref ref="pubmed38240492" resource="acc048" /></listitem>
+<listitem><strong>Other pharmacologic therapies</strong></listitem>
+<listitem>Unless contraindicated, consider pharmacologic venous thromboembolism (VTE) prophylaxis and stress ulcer prophylaxis for those at risk for gastrointestinal bleeding. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Inotropic agents may be indicated if there is evidence of low cardiac output and refractory hypotension despite above strategies.</listitem>
+<listitem>A systematic review and meta-analysis of 19 RCTs found the use of dexmedetomidine in sepsis could significantly reduce mortality when compared to other sedatives such as benzodiazepines but not with propofol. <xref ref="pubmed36029410" resource="acc043" /> Additionally, dexmedetomidine has the potential to decrease the inflammatory response in patients with sepsis when compared to other sedatives. <xref ref="pubmed36029410" resource="acc043" /> Although it is known that dexmedetomidine can potentially bring on arrhythmias, the overall safety profile of the drug did not demonstrate a significant difference in the incidence of total adverse events. <xref ref="pubmed36029410" resource="acc043" /></listitem>
+<listitem>An RCT found that recombinant activated protein C prevents 1 death for every 16 patients with septic shock who are treated.<xref ref="pubmed11236773" resource="acc011" />However, a systematic review of 5 studies with 5101 patients with severe sepsis did not find overall evidence of mortality benefit,<xref ref="cochrane4388" resource="acc008" /> and a more recent RCT also found no benefit of recombinant activated protein C on mortality.<xref ref="poem140892" resource="acc013" /></listitem>
+<listitem>Polyclonal intravenous immunoglobulin does not reduce mortality in adults with sepsis.<xref ref="cochrane1090" resource="acc012" /></listitem>
+<listitem>In a multicenter U.S. placebo-controlled RCT, the combination of vitamin C, corticosteroids, and thiamine did not improve SOFA scores in the 72 hours after administration.<xref ref="pubmed32809003" resource="acc031" /></listitem>
+<listitem>A systematic review of 10 RCTs (n &#x003D; 1400) found that IV vitamin C supplementation was associated with improved SOFA scores but no overall differences in patient-oriented outcomes.<xref ref="pubmed34416515" resource="acc032" /></listitem>
+<listitem>A meta-analysis of 4 RCTs found no benefit of IV thiamine over placebo.<xref ref="pubmed33036854" resource="acc034" /></listitem>
+<listitem>Do not use polymyxin B hemoperfusion for patients with sepsis or septic shock. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Previous studies have identified that lower total cholesterol, HDL and LDL levels were associated with poorer outcomes in patients with sepsis and septic shock. A small phase II trial of lipid emulsion therapy enrolled 49 patients and found no difference in SOFA scores between the two groups (p &#x003D; 0.46).<xref ref="pubmed38488429" resource="acc047" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Every patient should be evaluated for potential removal of infected source (eg, abscess drainage, wound debridement, or vascular device removal).</listitem>
+<listitem>The Surviving Sepsis guidelines of 2021 mentioned, &#x201C;For adults with sepsis or septic shock, we recommend rapidly identifying or excluding a specific anatomical diagnosis of infection that requires emergent source control and implementing any required source control intervention as soon as medically and logistically practical.&#x201D; <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Additionally, adults diagnosed with sepsis or septic shock, urgent removal of intravascular access devices that are suspected to be the source of infection is warranted as soon as another vascular access has been established. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem><strong>Fluid resuscitation</strong></listitem>
+<listitem>Early goal-directed therapy, a protocol to reverse rapidly the hypoperfusion and lactate production resulting from sepsis, had been widely recommended based on preliminary studies. However, when compared to usual care in a well-designed, large RCT it does not decrease mortality and results in longer ICU stays and higher overall costs.<xref ref="pubmed28320242" resource="acc020" /></listitem>
+<listitem>Consider initial fluid resuscitation at a rate of 30 mL&#x002F;kg using balanced crystalloids within the first 3 hours for patients with septic shock or sepsis-induced hypoperfusion. There is no evidence for superiority of either crystalloids or colloids.<xref ref="pubmed15163774" resource="acc007" /><xref ref="cochrane2045" resource="acc009" /><xref ref="poem220305" resource="acc030" /><xref ref="cochrane567" resource="acc039" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Two meta-analyses published in 2022 showed mortality benefit of using balanced crystalloids when compared to normal saline. A systematic review evaluating 13 RCTs found that the estimated effect of using balanced crystalloids versus normal saline in critically ill adults ranges from a 9&#x0025; relative risk reduction to a 1&#x0025; relative increase in the risk of death. Another systematic review and meta-analysis evaluating 15 RCTs found that in patients admitted with sepsis there was an overall relative risk reduction of 12&#x0025; in mortality when balanced crystalloids were used when compared to normal saline, 13&#x0025; relative risk reduction of 30-day mortality and 15&#x0025; relative risk reduction of acute kidney injury. However, the results did not show a difference between balanced crystalloid versus normal saline when measured against 90-day mortality, need for RRT, and ICU length of stay.<xref ref="pubmed31364382" resource="acc046" /><xref ref="pubmed35407578" resource="acc041" /></listitem>
+<listitem>In contrast, a Cochrane review found high-certainty evidence that there is no difference with regards to in-hospital mortality between balanced&#x002F;buffered solutions (eg, lactated Ringers, Plasma-Lyte A, etc.) and 0.9&#x0025; (<em>normal</em>, <em>physiologic</em>) saline for fluid resuscitation of critically ill adult patients. Low-certainty evidence demonstrates comparable outcomes between the two for preventing acute kidney injury. In terms of disease-oriented outcomes, very low-certainty evidence suggests less hyperchloremia, higher bicarbonate levels, and higher pH for critically ill patients treated with balanced solutions. <xref ref="cochrane12247" resource="acc038" /></listitem>
+<listitem>A multicenter European RCT of ICU patients with septic shock found that a restrictive intravenous fluid strategy did not affect mortality or serious adverse events at 90 days compared with a standard intravenous fluid strategy.<xref ref="poem371304" resource="acc036" /> Additionally, a nonblinded multicenter superiority trial in the US evaluating early (within 4 hours) restrictive versus liberal fluid management for sepsis-induced hypotension also found no difference in 90-day mortality or serious adverse events between the two groups. <xref ref="pubmed36688507" resource="acc037" /></listitem>
+<listitem>Consider normalization of elevated serum lactate and monitoring dynamic measures (over static measures or physical exam) to guide fluid resuscitation of septic patients. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Consider using capillary refill time as an adjunct to other perfusion measures to guide fluid resuscitation in patients with septic shock. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem><strong>Ventilation</strong></listitem>
+<listitem>Consider high flow nasal oxygen (HFNO) over other non-invasive ventilatory modalities for patients with sepsis-induced hypoxemic respiratory failure. <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem>Use low tidal volume ventilation (6 mL&#x002F;kg) over high tidal volume ventilation (&gt;10 mL&#x002F;kg) for patients with sepsis-induced acute respiratory distress syndrome (ARDS). <xref ref="pubmed34599691" resource="acc064" /></listitem>
+<listitem><strong>Renal replacement therapy (RRT)</strong></listitem>
+<listitem>Compared to initiation of RRT after 48 hours, initiation of RRT within 12 hours of diagnosis of severe AKI in patients with septic shock did not improve 90-day mortality.<xref ref="poem210109" resource="acc028" /></listitem>
+<listitem><strong>Other therapies</strong></listitem>
+<listitem>An RCT reported that 48 hours of external cooling to maintain body temperature between 36.5 and 37 degrees Celsius in patients with septic shock improved all-cause mortality compared to usual care (NNT &#x003D; 7 at 14 days), although this study was not specifically designed to evaluate mortality.<xref ref="poem140745" resource="acc014" /></listitem>
+<listitem>Control of blood glucose &#x2264;180 mg&#x002F;dL is recommended in both sepsis and septic shock. Recent well-designed RCTs do not support the benefit of strict blood glucose control in ICU patients in general.<xref ref="poem110351" resource="acc004" /></listitem>
+<listitem>Consider restarting enteral nutrition within 72 hours for patients with sepsis or septic shock who can tolerate enteral feeding.<xref ref="pubmed19398613" resource="acc025" /><xref ref="pubmed34599691" resource="acc064" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The <resourceLink href="info:wiley/eep-rule/227">Mortality in Emergency Department Sepsis Score</resourceLink> (MEDS) is sepsis specific and was designed to risk stratify patients rapidly in the emergency room to facilitate early resuscitation (<xref ref="table001" />). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed12626967" resource="acc002" /></listitem>
+<listitem>The predictive value of the <resourceLink href="info:wiley/eep-rule/227">MEDS score</resourceLink> for severity and 28-day mortality may be improved when combined with procalcitonin level. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed23702061" resource="acc015" /></listitem>
+<listitem>A <resourceLink href="info:wiley/eep-dx/371">vasopressin&#x002F;norepinephrine ratio &lt;0.001</resourceLink> predicts development of septic shock within 6 hours in patient with sepsis. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed16182977" resource="acc001" /></listitem>
+<listitem>An increase in <resourceLink href="info:wiley/eep-rule/567">SOFA score</resourceLink> of at least 2 in an ICU patient and a <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink> score of 2 or more in an ED patient are both better at predicting in-hospital mortality than the SIRS criteria. <evidence rating="B" system="SORT">B</evidence><xref ref="poem190315" resource="acc019" /></listitem>
+<listitem>An increase in the <resourceLink href="info:wiley/eep-rule/568">qSOFA</resourceLink> score for ED patients with or without suspected infection is associated with increased in-hospital mortality, higher rates of admission, and longer lengths of stay. <evidence rating="B" system="SORT">B</evidence><xref ref="poem190621" resource="acc026" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16182977">
+<accessionId id="acc001" href="info:pmid/16182977" />
+<accessionId id="acc001b" href="info:wiley/eep-dx/371" />
+<authors>Lin IY, Ma HP, Lin AC, Chong CF, Lin CM, Wang TL.</authors>
+<title>Low plasma vasopressin&#x002F;norepinephrine ratio predicts septic shock.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2005</pubdate>
+<volume>23</volume>
+<pages>718&#x2013;724.</pages>
+</reference>
+<reference id="pubmed12626967">
+<accessionId id="acc002" href="info:pmid/12626967" />
+<accessionId id="acc002b" href="info:wiley/eep-rule/227" />
+<authors>Shapiro NI, Wolfe RE, Moore RB, Smith E, Burdick E, Bates DW.</authors>
+<title>Mortality in Emergency Department Sepsis (MEDS) score: A prospectively derived and validated clinical prediction rule.</title>
+<source>Crit Care Med</source>
+<pubdate>2003</pubdate>
+<volume>31</volume>
+<pages>670&#x2013;675.</pages>
+</reference>
+<reference id="poem100304">
+<accessionId id="acc003" href="info:wiley/eep-poem/100304" />
+<accessionId id="acc003b" href="info:pmid/18184957" />
+<authors>Sprung CL, Annane D, Keh D, et al.; for the CORTICUS Study Group.</authors>
+<title>Hydrocortisone therapy for patients with septic shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2008</pubdate>
+<volume>358</volume>
+<pages>111&#x2013;124.</pages>
+</reference>
+<reference id="poem110351">
+<accessionId id="acc004" href="info:wiley/eep-poem/110351" />
+<accessionId id="acc004b" href="info:pmid/18936702" />
+<authors>Arabi YM, Dabbagh OC, Tamim HM, et al.</authors>
+<title>Intensive versus conventional insulin therapy: A randomized controlled trial in medical and surgical critically ill patients.</title>
+<source>Crit Care Med</source>
+<pubdate>2008</pubdate>
+<volume>36</volume>
+<pages>3190&#x2013;3197.</pages>
+</reference>
+<reference id="pubmed14996699">
+<accessionId id="acc005" href="info:pmid/14996699" />
+<accessionId id="acc005b" href="info:wiley/eep-rule/317" />
+<accessionId id="acc005c" href="info:wiley/eep-poem/60665" />
+<authors>Paul M, Benuri-Silbiger I, Soares-Weiser K, Leibovici L.</authors>
+<title>Beta lactam monotherapy versus beta lactam-aminoglycoside combination therapy for sepsis in immunocompetent patients: Systematic review and meta-analysis of randomised trials.</title>
+<source>BMJ</source>
+<pubdate>2004</pubdate>
+<volume>328</volume>
+<pages>668.</pages>
+</reference>
+<reference id="pubmed12700374">
+<accessionId id="acc006" href="info:pmid/12700374" />
+<authors>Martin GS, Mannino DM, Eaton S, Moss M.</authors>
+<title>The epidemiology of sepsis in the United States from 1979 through 2000.</title>
+<source>N Engl J Med</source>
+<pubdate>2003</pubdate>
+<volume>348</volume>
+<pages>1546&#x2013;1554.</pages>
+</reference>
+<reference id="pubmed15163774">
+<accessionId id="acc007" href="info:pmid/15163774" />
+<accessionId id="acc007b" href="info:wiley/eep-poem/60802" />
+<authors>Finfer S, Bellomo R, Boyce N, French J, Myburgh J, Norton R; SAFE Study Investigators.</authors>
+<title>A comparison of albumin and saline for fluid resuscitation in the intensive care unit.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>350</volume>
+<pages>2247&#x2013;2256.</pages>
+</reference>
+<reference id="cochrane4388">
+<accessionId id="acc008" href="info:wiley/cochrane/CD004388" />
+<chapter_authors>Mart&#x00ED;-Carvajal AJ, Sol&#x00E0; I, Gluud C, Lathyris D, Anand V.</chapter_authors>
+<chapter_title>Human recombinant protein C for severe sepsis and septic shock in adult and paediatric patients.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 12. Art. No.: CD004388. DOI: 10.1002&#x002F;14651858.CD004388.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2045">
+<accessionId id="acc009" href="info:wiley/cochrane/CD002045" />
+<chapter_authors>Bunn F, Roberts IG, Tasker R, Trivedi D.</chapter_authors>
+<chapter_title>Hypertonic versus near isotonic crystalloid for fluid resuscitation in critically ill patients.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2004, Issue 3. Art. No.: CD002045. DOI: 10.1002&#x002F;14651858.CD002045.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2243">
+<accessionId id="acc010" href="info:wiley/cochrane/CD002243" />
+<chapter_authors>Annane D, Briegel J, Granton D, Bellissant E, Bollaert PE, Keh D, Kupfer Y, Pirracchio R, Rochwerg B.</chapter_authors>
+<chapter_title>Corticosteroids for treating sepsis in children and adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2025, Issue 6. Art. No.: CD002243. DOI: 10.1002&#x002F;14651858.CD002243.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed11236773">
+<accessionId id="acc011" href="info:pmid/11236773" />
+<accessionId id="acc011b" href="info:wiley/eep-poem/30601" />
+<authors>Bernard GR, Vincent JL, Laterre PF, et al.; Recombinant Human Protein C, Worldwide Evaluation in Severe Sepsis (PROWESS) Study Group.</authors>
+<title>Efficacy and safety of recombinant human activated protein C for severe sepsis.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>344</volume>
+<pages>699&#x2013;709.</pages>
+</reference>
+<reference id="cochrane1090">
+<accessionId id="acc012" href="info:wiley/cochrane/CD001090" />
+<chapter_authors>Alejandria MM, Lansang MAD, Dans LF, Mantaring III JB.</chapter_authors>
+<chapter_title>Intravenous immunoglobulin for treating sepsis, severe sepsis and septic shock.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 9. Art. No.: CD001090. DOI: 10.1002&#x002F;14651858.CD001090.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem140892">
+<accessionId id="acc013" href="info:wiley/eep-poem/140892" />
+<accessionId id="acc013b" href="info:pmid/22616830" />
+<authors>Ranieri VM, Thompson BT, Barie PS, et al.; PROWESS-SHOCK Study Group.</authors>
+<title>Drotrecogin alfa (activated) in adults with septic shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2012</pubdate>
+<volume>366</volume>
+<pages>2055&#x2013;2064.</pages>
+</reference>
+<reference id="poem140745">
+<accessionId id="acc014" href="info:wiley/eep-poem/140745" />
+<accessionId id="acc014b" href="info:pmid/22366046" />
+<authors>Schortgen F, Clabault K, Katsahian S, et al.</authors>
+<title>Fever control using external cooling in septic shock: A randomized controlled trial.</title>
+<source>Am J Resp Crit Care Med</source>
+<pubdate>2012</pubdate>
+<volume>185</volume>
+<pages>1088&#x2013;1095.</pages>
+</reference>
+<reference id="pubmed23702061">
+<accessionId id="acc015" href="info:pmid/23702061" />
+<authors>Zhao Y, Li C, Jia Y.</authors>
+<title>Evaluation of the Mortality in Emergency Department Sepsis score combined with procalcitonin in septic patients.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2013</pubdate>
+<volume>31</volume>
+<pages>1086&#x2013;1091.</pages>
+</reference>
+<reference id="cochrane3344">
+<accessionId id="acc016" href="info:wiley/cochrane/CD003344" />
+<chapter_authors>Paul M, Lador A, Grozinsky-Glasberg S, Leibovici L.</chapter_authors>
+<chapter_title>Beta lactam antibiotic monotherapy versus beta lactam-aminoglycoside antibiotic combination therapy for sepsis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 1. Art. No.: CD003344. DOI: 10.1002&#x002F;14651858.CD003344.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem160562">
+<accessionId id="acc017" href="info:wiley/eep-poem/160562" />
+<accessionId id="acc017b" href="info:pmid/24635770" />
+<authors>Asfar P, Meziani F, Hamel JF, Grelon F, Megarbane B, Anguel N, Mira JP, Dequin PF, Gergaud S, Weiss N, Legay F, Le Tulzo Y, Conrad M, Robert R, Gonzalez F, Guitton C, Tamion F, Tonnelier JM, Guezennec P, Van Der Linden T, Vieillard-Baron A, Mariotte E, Pradel G, Lesieur O, Ricard JD, Herv&#x00E9; F, du Cheyron D, Guerin C, Mercat A, Teboul JL, Radermacher P.</authors>
+<title>High versus low blood-pressure target in patients with septic shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>370</volume>
+<pages>1583&#x2013;1593.</pages>
+</reference>
+<reference id="poem180412">
+<accessionId id="acc018" href="info:wiley/eep-poem/180412" />
+<accessionId id="acc018b" href="info:pmid/26903336" />
+<authors>Shankar-Hari M, Phillips GS, Levy ML, Seymour CW, Liu VX, Deutschman CS, Angus DC, Rubenfeld GD, Singer M; Sepsis Definitions Task Force.</authors>
+<title>Developing a new definition and assessing new clinical criteria for septic shock: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3).</title>
+<source>JAMA</source>
+<pubdate>2016</pubdate>
+<volume>315</volume>
+<pages>775&#x2013;787.</pages>
+</reference>
+<reference id="poem190315">
+<accessionId id="acc019" href="info:wiley/eep-poem/190315" />
+<accessionId id="acc019b" href="info:pmid/28114553" />
+<authors>Raith EP, Udy AA, Bailey M, McGloughlin S, MacIsaac C, Bellomo R, Pilcher DV; Australian and New Zealand Intensive Care Society (ANZICS) Centre for Outcomes and Resource Evaluation (CORE).</authors>
+<title>Prognostic accuracy of the SOFA Score, SIRS Criteria, and qSOFA Score for in-hospital mortality among adults with suspected infection admitted to the intensive care unit.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>317</volume>
+<pages>290&#x2013;300.</pages>
+</reference>
+<reference id="pubmed28320242">
+<accessionId id="acc020" href="info:pmid/28320242" />
+<authors>PRISM Investigators, Rowan KM, Angus DC, Bailey M, Barnato AE, Bellomo R, Canter RR, Coats TJ, Delaney A, Gimbel E, Grieve RD, Harrison DA, Higgins AM, Howe B, Huang DT, Kellum JA, Mouncey PR, Music E, Peake SL, Pike F, Reade MC, Sadique MZ, Singer M, Yealy DM.</authors>
+<title>Early, goal-directed therapy for septic shock&#x2014;a patient-level meta-analysis.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>376</volume>
+<pages>2223&#x2013;2234.</pages>
+</reference>
+<reference id="poem200201">
+<accessionId id="acc021" href="info:wiley/eep-poem/200201" />
+<accessionId id="acc021b" href="info:pmid/29158243" />
+<authors>Morris E, McCartney D, Lasserson D, Van den Bruel A, Fisher R, Hayward G.</authors>
+<title>Point-of-care lactate testing for sepsis at presentation to health care: A systematic review of patient outcomes.</title>
+<source>Br J Gen Pract</source>
+<pubdate>2017</pubdate>
+<volume>67</volume>
+<pages>e859&#x2013;e870.</pages>
+</reference>
+<reference id="pubmed24717459">
+<accessionId id="acc022" href="info:pmid/24717459" />
+<authors>Ferrer R, Martin-Loeches I, Phillips G, Osborn TM, Townsend S, Dellinger RP, Artigas A, Schorr C, Levy MM.</authors>
+<title>Empiric antibiotic treatment reduces mortality in severe sepsis and septic shock from the first hour: results from a guideline-based performance improvement program.</title>
+<source>Crit Care Med</source>
+<pubdate>2014</pubdate>
+<volume>42</volume>
+<pages>1749&#x2013;1755.</pages>
+</reference>
+<reference id="pubmed26237037">
+<accessionId id="acc023" href="info:pmid/26237037" />
+<authors>Avni T, Lador A, Lev S, Leibovici L, Paul M, Grossman A.</authors>
+<title>Vasopressors for the treatment of septic shock: Systematic review and meta-analysis.</title>
+<source>PLoS ONE</source>
+<pubdate>2015</pubdate>
+<volume>10</volume>
+<pages>e0129305.</pages>
+</reference>
+<reference id="poem191203">
+<accessionId id="acc024" href="info:wiley/eep-poem/191203" />
+<accessionId id="acc024b" href="info:pmid/28528561" />
+<authors>Khanna A, English SW, Wang XS, Ham K, Tumlin J, Szerlip H, Busse LW, Altaweel L, Albertson TE, Mackey C, McCurdy MT, Boldt DW, Chock S, Young PJ, Krell K, Wunderink RG, Ostermann M, Murugan R, Gong MN, Panwar R, H&#x00E4;stbacka J, Favory R, Venkatesh B, Thompson BT, Bellomo R, Jensen J, Kroll S, Chawla LS, Tidmarsh GF, Deane AM; ATHOS-3 Investigators.</authors>
+<title>Angiotensin II for the treatment of vasodilatory shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>419&#x2013;430.</pages>
+</reference>
+<reference id="pubmed19398613">
+<accessionId id="acc025" href="info:pmid/19398613" />
+<authors>McClave SA, Martindale RG, Vanek VW, McCarthy M, Roberts P, Taylor B, Ochoa JB, Napolitano L, Cresci G; A.S.P.E.N. Board of Directors, American College of Critical Care Medicine, Society of Critical Care Medicine.</authors>
+<title>Guidelines for the provision and assessment of nutrition support therapy in the adult critically ill patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.).</title>
+<source>JPEN J Parenter Enteral Nutr</source>
+<pubdate>2009 May-Jun</pubdate>
+<volume>33</volume>
+<pages>277&#x2013;316.</pages>
+</reference>
+<reference id="poem190621">
+<accessionId id="acc026" href="info:wiley/eep-poem/190621" />
+<accessionId id="acc026b" href="info:pmid/28110990" />
+<authors>Singer AJ, Ng J, Thode HC, Jr., Spiegel R, Weingart S.</authors>
+<title>Quick SOFA Scores predict mortality in adult emergency department patients with and without suspected infection.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2017</pubdate>
+<volume>69</volume>
+<pages>475&#x2013;479.</pages>
+</reference>
+<reference id="poem210218">
+<accessionId id="acc027" href="info:wiley/eep-poem/210218" />
+<accessionId id="acc027b" href="info:pmid/30575845" />
+<authors>Fang F, Zhang Y, Tang J, Lunsford LD, Li T, Tang R, He J, Xu P, Faramand A, Xu J, You C.</authors>
+<title>Association of ccorticosteroid treatment with outcomes in adult patients with sepsis: A systematic review and meta-analysis.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2019</pubdate>
+<volume>179</volume>
+<pages>213&#x2013;223.</pages>
+</reference>
+<reference id="poem210109">
+<accessionId id="acc028" href="info:wiley/eep-poem/210109" />
+<accessionId id="acc028b" href="info:pmid/30304656" />
+<authors>Barbar SD, Clere-Jehl R, Bourredjem A, Hernu R, Montini F, Bruy&#x00E8;re R, Lebert C, Boh&#x00E9; J, Badie J, Eraldi JP, Rigaud JP, Levy B, Siami S, Louis G, Bouadma L, Constantin JM, Mercier E, Klouche K, du Cheyron D, Piton G, Annane D, Jaber S, van der Linden T, Blasco G, Mira JP, Schwebel C, Chimot L, Guiot P, Nay MA, Meziani F, Helms J, Roger C, Louart B, Trusson R, Dargent A, Binquet C, Quenot JP, IDEAL-ICU Trial Investigators and the CRICS TRIGGERSEP Network.</authors>
+<title>Timing of renal-replacement therapy in patients with acute kidney injury and sepsis.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>1431&#x2013;1442.</pages>
+</reference>
+<reference id="poem211045">
+<accessionId id="acc029" href="info:wiley/eep-poem/211045" />
+<accessionId id="acc029b" href="info:pmid/30522935" />
+<authors>Ni YN, Liu YM, Wang YW, Liang BM, Liang ZA.</authors>
+<title>Can corticosteroids reduce the mortality of patients with severe sepsis? A systematic review and meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2019</pubdate>
+<volume>37</volume>
+<pages>1657&#x2013;1664.</pages>
+</reference>
+<reference id="poem220305">
+<accessionId id="acc030" href="info:wiley/eep-poem/220305" />
+<accessionId id="acc030b" href="info:pmid/30852043" />
+<authors>Liu C, Lu G, Wang D, Lei Y, Mao Z, Hu P, Hu J, Liu R, Han D, Zhou F.</authors>
+<title>Balanced crystalloids versus normal saline for fluid resuscitation in critically ill patients: A systematic review and meta-analysis with trial sequential analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2019</pubdate>
+<volume>37</volume>
+<pages>2072&#x2013;2078.</pages>
+</reference>
+<reference id="pubmed32809003">
+<accessionId id="acc031" href="info:pmid/32809003" />
+<authors>Moskowitz A, Huang DT, Hou PC, Gong J, Doshi PB, Grossestreuer AV, Andersen LW, Ngo L, Sherwin RL, Berg KM, Chase M, Cocchi MN, McCannon JB, Hershey M, Hilewitz A, Korotun M, Becker LB, Otero RM, Uduman J, Sen A, Donnino MW, ACTS Clinical Trial Investigators.</authors>
+<title>Effect of ascorbic acid, corticosteroids, and thiamine on organ injury in septic shock: The ACTS randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>324</volume>
+<pages>642&#x2013;650.</pages>
+</reference>
+<reference id="pubmed34416515">
+<accessionId id="acc032" href="info:pmid/34416515" />
+<authors>Li T, Zeng J, Li DH, Yang GY, Wang K, Deng HF, Jiang H.</authors>
+<title>Efficacy of intravenous vitamin C intervention for septic patients: A systematic review and meta-analysis based on randomized controlled trials.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>50</volume>
+<pages>242&#x2013;250.</pages>
+</reference>
+<reference id="pubmed33975132">
+<accessionId id="acc033" href="info:pmid/33975132" />
+<authors>Huang H, Wu C, Shen Q, Xu H, Fang Y, Mao W.</authors>
+<title>The effect of early vasopressin use on patients with septic shock: A systematic review and meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>48</volume>
+<pages>203&#x2013;208.</pages>
+</reference>
+<reference id="pubmed33036854">
+<accessionId id="acc034" href="info:pmid/33036854" />
+<authors>Qian X, Zhang Z, Li F, Wu L.</authors>
+<title>Intravenous thiamine for septic shock: A meta-analysis of randomized controlled trials.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2020</pubdate>
+<volume>38</volume>
+<pages>2718&#x2013;2722.</pages>
+</reference>
+<reference id="pubmed26903335">
+<accessionId id="acc035" href="info:pmid/26903335" />
+<authors>Seymour CW, Liu VX, Iwashyna TJ, Brunkhorst FM, Rea TD, Scherag A, Rubenfeld G, Kahn JM, Shankar-Hari M, Singer M, Deutschman CS, Escobar GJ, Angus DC.</authors>
+<title>Assessment of Clinical Criteria for Sepsis: For the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3).</title>
+<source>JAMA</source>
+<pubdate>2016</pubdate>
+<volume>315</volume>
+<pages>762&#x2013;74.</pages>
+</reference>
+<reference id="poem371304">
+<accessionId id="acc036" href="info:wiley/eep-poem/371304" />
+<accessionId id="acc036b" href="info:pmid/35709019" />
+<authors>Meyhoff TS, Hjortrup PB, Wetterslev J, Sivapalan P, Laake JH, Cronhjort M, Jakob SM, Cecconi M, Nalos M, Ostermann M, Malbrain M, Pettil&#x00E4; V, M&#x00F8;ller MH, Kj&#x00E6;r MN, Lange T, Overgaard-Steensen C, Brand BA, Winther-Olesen M, White JO, Quist L, Westergaard B, Jonsson AB, Hjorts&#x2298;CJS, Meier N, Jensen TS, Engstr&#x00F8;m J, Nebrich L, Andersen-Ranberg NC, Jensen JV, Joseph NA, Poulsen LM, Herl&#x00F8;v LS, S&#x00F8;lling CG, Pedersen SK, Knudsen KK, Straarup TS, Vang ML, Bundgaard H, Rasmussen BS, Aagaard SR, Hildebrandt T, Russell L, Bestle MH, Sch&#x00F8;nemann-Lund M, Br&#x00F8;chner AC, Elvander CF, Hoffmann SKL, Rasmussen ML, Martin YK, Friberg FF, Seter H, Aslam TN, &#x00C5;dn&#x00F8;y S, Seidel P, Strand K, Johnstad B, Joelsson-Alm E, Christensen J, Ahlstedt C, Pfortmueller CA, Siegemund M, Greco M, Rad&#x011B;j J, K&#x0159;&#x00ED;&#x017E; M, Gould DW, Rowan KM, Mouncey PR, Perner A, CLASSIC Trial Group.</authors>
+<title>Restriction of Intravenous Fluid in ICU Patients with Septic Shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>2459&#x2013;2470.</pages>
+</reference>
+<reference id="pubmed36688507">
+<accessionId id="acc037" href="info:pmid/36688507" />
+<authors>National Heart, Lung, and Blood Institute Prevention and Early Treatment of Acute Lung Injury Clinical Trials Network, Shapiro NI, Douglas IS, Brower RG, Brown SM, Exline MC, Ginde AA, Gong MN, Grissom CK, Hayden D, Hough CL, Huang W, Iwashyna TJ, Jones AE, Khan A, Lai P, Liu KD, Miller CD, Oldmixon K, Park PK, Rice TW, Ringwood N, Semler MW, Steingrub JS, Talmor D, Thompson BT, Yealy DM, Self WH.</authors>
+<title>Early Restrictive or Liberal Fluid Management for Sepsis-Induced Hypotension.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>499&#x2013;510.</pages>
+</reference>
+<reference id="cochrane12247">
+<accessionId id="acc038" href="info:wiley/cochrane/CD012247" />
+<chapter_authors>Antequera Mart&#x00ED;n AM, Barea Mendoza JA, Muriel A, S&#x00E1;ez I, Chico&#x2010;Fern&#x00E1;ndez M, Estrada&#x2010;Lorenzo JM, Plana MN.</chapter_authors>
+<chapter_title>Buffered solutions versus 0.9&#x0025; saline for resuscitation in critically ill adults and children.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 7. Art. No.: CD012247. DOI: 10.1002&#x002F;14651858.CD012247.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane567">
+<accessionId id="acc039" href="info:wiley/cochrane/CD000567" />
+<chapter_authors>Lewis SR, Pritchard MW, Evans DJ, Butler AR, Alderson P, Smith AF, Roberts I.</chapter_authors>
+<chapter_title>Colloids versus crystalloids for fluid resuscitation in critically ill people.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 8. Art. No.: CD000567. DOI: 10.1002&#x002F;14651858.CD000567.pub7.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed26903338">
+<accessionId id="acc040" href="info:pmid/26903338" />
+<authors>Singer M, Deutschman CS, Seymour CW, Shankar-Hari M, Annane D, Bauer M, Bellomo R, Bernard GR, Chiche JD, Coopersmith CM, Hotchkiss RS, Levy MM, Marshall JC, Martin GS, Opal SM, Rubenfeld GD, van der Poll T, Vincent JL, Angus DC.</authors>
+<title>The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3).</title>
+<source>JAMA</source>
+<pubdate>2016</pubdate>
+<volume>315</volume>
+<pages>801&#x2013;10.</pages>
+</reference>
+<reference id="pubmed35407578">
+<accessionId id="acc041" href="info:pmid/35407578" />
+<authors>Beran A, Altorok N, Srour O, Malhas SE, Khokher W, Mhanna M, Ayesh H, Aladamat N, Abuhelwa Z, Srour K, Mahmood A, Altorok N, Taleb M, Assaly R.</authors>
+<title>Balanced Crystalloids versus Normal Saline in Adults with Sepsis: A Comprehensive Systematic Review and Meta-Analysis.</title>
+<source>J Clin Med</source>
+<pubdate>2022</pubdate>
+<volume>11</volume>
+<pages>1971.</pages>
+</reference>
+<reference id="pubmed34011841">
+<accessionId id="acc042" href="info:pmid/34011841" />
+<authors>Honore PM, Redant S, Kaefer K, Barreto Gutierrez L, Kugener L, Attou R, Gallerani A, De Bels D.</authors>
+<title>Procalcitonin Is Useful for Antibiotic Deescalation in Sepsis and Septic Shock: Beware of Some Confounders&#x0021;</title>
+<source>Crit Care Med</source>
+<pubdate>2021</pubdate>
+<volume>49</volume>
+<pages>e659.</pages>
+</reference>
+<reference id="pubmed36029410">
+<accessionId id="acc043" href="info:pmid/36029410" />
+<authors>Zhang T, Mei Q, Dai S, Liu Y, Zhu H.</authors>
+<title>Use of dexmedetomidine in patients with sepsis: a systematic review and meta-analysis of randomized-controlled trials.</title>
+<source>Ann Intensive Care</source>
+<pubdate>2022</pubdate>
+<volume>12</volume>
+<pages>81.</pages>
+</reference>
+<reference id="pubmed32049269">
+<accessionId id="acc044" href="info:pmid/32049269" />
+<authors>Lamontagne F, Richards-Belle A, Thomas K, Harrison DA, Sadique MZ, Grieve RD, Camsooksai J, Darnell R, Gordon AC, Henry D, Hudson N, Mason AJ, Saull M, Whitman C, Young JD, Rowan KM, Mouncey PR, 65 trial investigators.</authors>
+<title>Effect of Reduced Exposure to Vasopressors on 90-Day Mortality in Older Critically Ill Patients With Vasodilatory Hypotension: A Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2020</pubdate>
+<volume>323</volume>
+<pages>938&#x2013;949.</pages>
+</reference>
+<reference id="pubmed32647719">
+<accessionId id="acc045" href="info:pmid/32647719" />
+<authors>Shi R, Hamzaoui O, De Vita N, Monnet X, Teboul JL.</authors>
+<title>Vasopressors in septic shock: which, when, and how much?</title>
+<source>Ann Transl Med</source>
+<pubdate>2020</pubdate>
+<volume>8</volume>
+<pages>794.</pages>
+</reference>
+<reference id="pubmed31364382">
+<accessionId id="acc046" href="info:pmid/31364382" />
+<authors>Hammond DA, Lam SW, Rech MA, Smith MN, Westrick J, Trivedi AP, Balk RA.</authors>
+<title>Balanced Crystalloids Versus Saline in Critically Ill Adults: A Systematic Review and Meta-analysis.</title>
+<source>Ann Pharmacother</source>
+<pubdate>2020</pubdate>
+<volume>54</volume>
+<pages>5&#x2013;13.</pages>
+</reference>
+<reference id="pubmed38488429">
+<accessionId id="acc047" href="info:pmid/38488429" />
+<authors>Guirgis FW, Black LP, Henson M, Bertrand A, DeVos E, Ferreira J, Gao H, Wu SS, Leeuwenburgh C, Moldawer L, Moore F, Reddy ST.</authors>
+<title>The Lipid Intensive Drug Therapy for Sepsis Phase II Pilot Clinical Trial.</title>
+<source>Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>52</volume>
+<pages>1183&#x2013;1193.</pages>
+</reference>
+<reference id="pubmed38240492">
+<accessionId id="acc048" href="info:pmid/38240492" />
+<authors>Chaudhuri D, Nei AM, Rochwerg B, Balk RA, Asehnoune K, Cadena R, Carcillo JA, Correa R, Drover K, Esper AM, Gershengorn HB, Hammond NE, Jayaprakash N, Menon K, Nazer L, Pitre T, Qasim ZA, Russell JA, Santos AP, Sarwal A, Spencer-Segal J, Tilouche N, Annane D, Pastores SM.</authors>
+<title>2024 Focused Update: Guidelines on Use of Corticosteroids in Sepsis, Acute Respiratory Distress Syndrome, and Community-Acquired Pneumonia.</title>
+<source>Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>52</volume>
+<pages>e219&#x2013;e233.</pages>
+</reference>
+<reference id="pubmed38271488">
+<accessionId id="acc049" href="info:pmid/38271488" />
+<authors>Teja B, Berube M, Pereira TV, Law AC, Schanock C, Pang B, Wunsch H, Walkey AJ, Bosch NA.</authors>
+<title>Effectiveness of Fludrocortisone Plus Hydrocortisone versus Hydrocortisone Alone in Septic Shock: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>209</volume>
+<pages>1219&#x2013;1228.</pages>
+</reference>
+<reference id="pubmed38863066">
+<accessionId id="acc050" href="info:pmid/38863066" />
+<authors>Aita T, Nakagawa H, Takahashi S, Naganuma T, Anan K, Banno M, Hamaguchi S.</authors>
+<title>Utility of shaking chills as a diagnostic sign for bacteremia in adults: a systematic review and meta-analysis.</title>
+<source>BMC Med</source>
+<pubdate>2024</pubdate>
+<volume>22</volume>
+<pages>240.</pages>
+</reference>
+<reference id="pubmed38086052">
+<accessionId id="acc051" href="info:pmid/38086052" />
+<authors>Bauer ME, Fuller M, Kovacheva V, Elkhateb R, Azar K, Caldwell M, Chiem V, Foster M, Gibbs R, Hughes BL, Johnson R, Kottukapally N, Rosenstein MG, Cortes MS, Shields LE, Sudat S, Sutton CD, Toledo P, Traylor A, Wharton K, Main E.</authors>
+<title>Performance Characteristics of Sepsis Screening Tools During Antepartum and Postpartum Admissions.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2024</pubdate>
+<volume>143</volume>
+<pages>336&#x2013;345.</pages>
+</reference>
+<reference id="pubmed38176175">
+<accessionId id="acc052" href="info:pmid/38176175" />
+<authors>Yoo KH, Choi SH, Suh GJ, Chung SP, Choi HS, Park YS, Jo YH, Shin TG, Lim TH, Kim WY, Lee J, Korean Shock Society (KoSS) Investigators.</authors>
+<title>The usefulness of lactate&#x002F;albumin ratio, C-reactive protein&#x002F;albumin ratio, procalcitonin&#x002F;albumin ratio, SOFA, and qSOFA in predicting the prognosis of patients with sepsis who presented to EDs.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>78</volume>
+<pages>1&#x2013;7.</pages>
+</reference>
+<reference id="pubmed26158725">
+<accessionId id="acc053" href="info:pmid/26158725" />
+<authors>Kim MH, Ahn JY, Song JE, Choi H, Ann HW, Kim JK, Kim JH, Jeon YD, Kim SB, Jeong SJ, Ku NS, Han SH, Song YG, Choi JY, Kim YS, Kim JM.</authors>
+<title>The C-Reactive Protein&#x002F;Albumin Ratio as an Independent Predictor of Mortality in Patients with Severe Sepsis or Septic Shock Treated with Early Goal-Directed Therapy.</title>
+<source>PLoS One</source>
+<pubdate>2015</pubdate>
+<volume>10</volume>
+<pages>e0132109.</pages>
+</reference>
+<reference id="pubmed36912300">
+<accessionId id="acc054" href="info:pmid/36912300" />
+<authors>Wang X, Jing M, Li L, Xu Q.</authors>
+<title>The Prognostic Value of Procalcitonin Clearance and Procalcitonin to Albumin Ratio in Sepsis Patients.</title>
+<source>Clin Lab</source>
+<pubdate>2023</pubdate>
+<volume>69</volume>
+<pages />
+</reference>
+<reference id="pubmed29461463">
+<accessionId id="acc055" href="info:pmid/29461463" />
+<authors>Shin J, Hwang SY, Jo IJ, Kim WY, Ryoo SM, Kang GH, Kim K, Jo YH, Chung SP, Joo YS, Beom JH, Yoon YH, Han KS, Lim TH, Choi HS, Kwon WY, Suh GJ, Choi SH, Shin TG, Korean Shock Society (KoSS) Investigators.</authors>
+<title>Prognostic Value of The Lactate&#x002F;Albumin Ratio for Predicting 28-Day Mortality in Critically ILL Sepsis Patients.</title>
+<source>Shock</source>
+<pubdate>2018</pubdate>
+<volume>50</volume>
+<pages>545&#x2013;550.</pages>
+</reference>
+<reference id="pubmed38502804">
+<accessionId id="acc056" href="info:pmid/38502804" />
+<authors>Bolanaki M, Winning J, Slagman A, Lehmann T, Kiehntopf M, Stacke A, Neumann C, Reinhart K, M&#x00F6;ckel M, Bauer M.</authors>
+<title>Biomarkers Improve Diagnostics of Sepsis in Adult Patients With Suspected Organ Dysfunction Based on the Quick Sepsis-Related Organ Failure Assessment (qSOFA) Score in the Emergency Department.</title>
+<source>Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>52</volume>
+<pages>887&#x2013;899.</pages>
+</reference>
+<reference id="poem302316">
+<accessionId id="acc057" href="info:wiley/eep-poem/302316" />
+<accessionId id="acc057b" href="info:pmid/38739397" />
+<authors>Chanderraj R, Admon AJ, He Y, Nuppnau M, Albin OR, Prescott HC, Dickson RP, Sjoding MW.</authors>
+<title>Mortality of Patients With Sepsis Administered Piperacillin-Tazobactam vs Cefepime.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>184</volume>
+<pages>769&#x2013;777.</pages>
+</reference>
+<reference id="pubmed41159885">
+<accessionId id="acc058" href="info:pmid/41159885" />
+<authors>Muller G, Contou D, Ehrmann S, Martin M, Andreu P, Kamel T, Boissier F, Azais MA, Monnier A, Vimeux S, Chenal A, Nay MA, Salmon Gandonni&#x00E8;re C, Lascarrou JB, Roudaut JB, Plantef&#x00E8;ve G, Giraudeau B, Lakhal K, Tavernier E, Boulain T, CRICS-TRIGGERSEP F-CRIN Network and the EVERDAC Trial Group.</authors>
+<title>Deferring Arterial Catheterization in Critically Ill Patients with Shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>393</volume>
+<pages>1875&#x2013;1888.</pages>
+</reference>
+<reference id="pubmed40116824">
+<accessionId id="acc059" href="info:pmid/40116824" />
+<authors>Lee TC, Prosty CJ, Fralick M, Huttner A, McDonald EG, Molina J, Paul M, Pinto R, Rishu A, von Dach E, Yahav D, Fowler R, Daneman N.</authors>
+<title>Seven vs Fourteen Days of Antibiotics for Gram-Negative Bloodstream Infection: A Systematic Review and Noninferiority Meta-Analysis.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2025</pubdate>
+<volume>8</volume>
+<pages>e251421.</pages>
+</reference>
+<reference id="pubmed40311284">
+<accessionId id="acc060" href="info:pmid/40311284" />
+<authors>Sonti R, Fong A, Hummel E, Simkovich S, Weintraub W, Cobb N.</authors>
+<title>Invasive blood pressure monitoring does not improve survival in septic critically ill patients.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2025</pubdate>
+<volume>94</volume>
+<pages>173&#x2013;178.</pages>
+</reference>
+<reference id="pubmed38864155">
+<accessionId id="acc061" href="info:pmid/38864155" />
+<authors>Dulhunty JM, Brett SJ, De Waele JJ, Rajbhandari D, Billot L, Cotta MO, Davis JS, Finfer S, Hammond NE, Knowles S, Liu X, McGuinness S, Mysore J, Paterson DL, Peake S, Rhodes A, Roberts JA, Roger C, Shirwadkar C, Starr T, Taylor C, Myburgh JA, Lipman J, BLING III Study Investigators.</authors>
+<title>Continuous vs Intermittent &#x03B2;-Lactam Antibiotic Infusions in Critically Ill Patients With Sepsis: The BLING III Randomized Clinical Trial.</title>
+<source>JAMA</source>
+<pubdate>2024</pubdate>
+<volume>332</volume>
+<pages>629&#x2013;637.</pages>
+</reference>
+<reference id="pubmed38864162">
+<accessionId id="acc062" href="info:pmid/38864162" />
+<authors>Abdul-Aziz MH, Hammond NE, Brett SJ, Cotta MO, De Waele JJ, Devaux A, Di Tanna GL, Dulhunty JM, Elkady H, Eriksson L, Hasan MS, Khan AB, Lipman J, Liu X, Monti G, Myburgh J, Novy E, Omar S, Rajbhandari D, Roger C, Sj&#x00F6;vall F, Zaghi I, Zangrillo A, Delaney A, Roberts JA.</authors>
+<title>Prolonged vs Intermittent Infusions of &#x03B2;-Lactam Antibiotics in Adults With Sepsis or Septic Shock: A Systematic Review and Meta-Analysis.</title>
+<source>JAMA</source>
+<pubdate>2024</pubdate>
+<volume>332</volume>
+<pages>638&#x2013;648.</pages>
+</reference>
+<reference id="pubmed41428290">
+<accessionId id="acc063" href="info:pmid/41428290" />
+<authors>Gupta AB, Heath M, Walzl E, Ratz D, Munroe E, Vaughn VM, Horowitz JK, Czilok T, Petty LA, Gandhi TN, Taylor SP, McLaughlin ES, Posa P, Malani AN, Hsaiky L, Flanders SA, Prescott HC.</authors>
+<title>Antibiotic De-Escalation in Adults Hospitalized for Community-Onset Sepsis.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2026</pubdate>
+<volume>186</volume>
+<pages>192&#x2013;202.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines>
+<reference id="pubmed34599691">
+<accessionId id="acc064" href="info:pmid/34599691" />
+<authors>Evans L, Rhodes A, Alhazzani W, Antonelli M, Coopersmith CM, French C, Machado FR, Mcintyre L, Ostermann M, Prescott HC, Schorr C, Simpson S, Wiersinga WJ, Alshamsi F, Angus DC, Arabi Y, Azevedo L, Beale R, Beilman G, Belley-Cote E, Burry L, Cecconi M, Centofanti J, Coz Yataco A, De Waele J, Dellinger RP, Doi K, Du B, Estenssoro E, Ferrer R, Gomersall C, Hodgson C, M&#x00F8;ller MH, Iwashyna T, Jacob S, Kleinpell R, Klompas M, Koh Y, Kumar A, Kwizera A, Lobo S, Masur H, McGloughlin S, Mehta S, Mehta Y, Mer M, Nunnally M, Oczkowski S, Osborn T, Papathanassoglou E, Perner A, Puskarich M, Roberts J, Schweickert W, Seckel M, Sevransky J, Sprung CL, Welte T, Zimmerman J, Levy M.</authors>
+<title>Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021.</title>
+<source>Intensive Care Med</source>
+<pubdate>2021</pubdate>
+<volume>47</volume>
+<pages>1181&#x2013;1247.</pages>
+</reference>
+<reference id="pubmed29347874">
+<accessionId id="acc065" href="info:pmid/29347874" />
+<authors>Venkatesh B, Finfer S, Cohen J, Rajbhandari D, Arabi Y, Bellomo R, Billot L, Correa M, Glass P, Harward M, Joyce C, Li Q, McArthur C, Perner A, Rhodes A, Thompson K, Webb S, Myburgh J, ADRENAL Trial Investigators and the Australian&#x2013;New Zealand Intensive Care Society Clinical Trials Group.</authors>
+<title>Adjunctive Glucocorticoid Therapy in Patients with Septic Shock.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>797&#x2013;808.</pages>
+</reference>
+</Guidelines>
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption><strong>Calculation and Mortality Prediction With the Mortality in the Emergency Department Sepsis (MEDS) Score.</strong></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Patient Characteristic</th>
+<th align="left" colspan="1">Points Assigned</th>
+<th align="left" colspan="1">&#x00A0;</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Predisposition</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Age &gt;65 years</td>
+<td align="left" colspan="1">3</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Nursing home resident</td>
+<td align="left" colspan="1">2</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Rapidly terminal comorbid illness</td>
+<td align="left" colspan="1">6</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Infection</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Lower respiratory infection</td>
+<td align="left" colspan="1">2</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Response</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Bands ?5&#x0025;</td>
+<td align="left" colspan="1">3</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Organ dysfunction</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Tachypnea or hypoxemia</td>
+<td align="left" colspan="1">3</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Septic shock</td>
+<td align="left" colspan="1">3</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Platelet count &lt;150,000&#x002F;mm<sup>3</sup></td>
+<td align="left" colspan="1">3</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Altered mental status</td>
+<td align="left" colspan="1">2</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Point Range</strong></td>
+<td align="left" colspan="1"><strong>MEDS Group</strong></td>
+<td align="left" colspan="1"><strong>28-Day Predicted Mortality Rate</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1">0-4</td>
+<td align="left" colspan="1">Very low</td>
+<td align="left" colspan="1">1.1&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">5-7</td>
+<td align="left" colspan="1">Low</td>
+<td align="left" colspan="1">4.4&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">8-12</td>
+<td align="left" colspan="1">Moderate</td>
+<td align="left" colspan="1">9.3&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">13-15</td>
+<td align="left" colspan="1">High</td>
+<td align="left" colspan="1">16.1&#x0025;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&lt;15</td>
+<td align="left" colspan="1">Very high</td>
+<td align="left" colspan="1">39&#x0025;</td>
+</tr>
+</table>Adapted from Shapiro NI, Wolfe RE, Moore RB, Smith E, Burdick E, Bates DW. Mortality in Emergency Department Sepsis (MEDS) score: a prospectively derived and validated clinical prediction rule. <em>Crit Care Med</em> 2003;<strong>31</strong>:670-675.<xref ref="pubmed12626967" resource="acc002" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

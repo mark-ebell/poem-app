@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Fracture (vertebral compression)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0826</topic_id>
+<topic_comment />
+<topic_lastupdated>01/03/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Heather S. Laird-Fick, MD, MPH</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Medicine</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email>heather.lairdfick&#x0040;hc.msu.edu</author_email>
+<author_phone_office>(517) 353-5100</author_phone_office>
+<author_phone_home>(517) 339-1572</author_phone_home>
+<author_phone_fax>(517) 432-2759</author_phone_fax>
+<author_street1>B301 Clinical Center</author_street1>
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48824-1313</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Plain X-rays are recommended for acute back pain in patients older than 50 years, those with pain for longer than 1 month, or those with a history of malignancy, corticosteroid use, unexplained weight loss, or previous vertebral compression fracture (VCF). <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Treatment of VCF focuses on pain control with analgesics or calcitonin. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Patients with severe fractures or neurologic symptoms should be referred for surgical intervention, although data from RCTs on the value of vertebroplasty is conflicting. <evidence rating="A" system="SORT">A</evidence><xref ref="poem111002" resource="acc004" /><xref ref="poem181243" resource="acc015" /></listitem>
+<listitem>Postmenopausal women with osteoporotic VCF should receive zoledronate, bisphosphonate or teriparatide to prevent additional VCF. Zoledronate 5 mg IV every 18 months to 5 years should be considered in osteopenic women over 65.<xref ref="pubmed31456562" resource="acc026" />,<xref ref="pubmed40690559" resource="acc032" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Vertebral compression fractures are defined by isolated fracture of the vertebral anterior column, classically resulting in a wedge deformity.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>A total of 15&#x0025; of women referred for screening bone densitometry in one cohort had evidence of VCF on lateral radiographs.<xref ref="pubmed12357061" resource="acc010" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Trauma.</listitem>
+<listitem>Osteoporosis (primary or secondary).</listitem>
+<listitem>Malignancy (metastatic or primary).</listitem>
+<listitem>Multiple myeloma.</listitem>
+<listitem>Patients with rheumatoid arthritis are at increased risk as well (pooled RR &#x007E;2).<xref ref="pubmed27828847" resource="acc018" /></listitem>
+<listitem>Warfarin use is associated with an increased risk of osteoporotic fracture, including vertebral compression fracture. A study comparing dabigatran with warfarin found a lower risk of osteoporotic fracture among those at high risk for fallse taking dabigatran (NNT &#x003D; 48).<xref ref="poem190531" resource="acc019" /></listitem>
+<listitem>Long-term use of bisphosphonates in women with osteoporosis is associated with a paradoxically increased risk of fracture.<xref ref="poem191113" resource="acc021" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>In osteoporotic vertebral compression fracture (or VCF related to malignancy), the ongoing loss of vertebral trabecular bone results in bone fragility and collapse with minor or no trauma.</listitem>
+<listitem>Traumatic VCF results from high-energy flexion injuries with disruption of one or both endplates or the anterior cortex.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Prior fracture as an adult</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of fragility fracture in a first-degree relative</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Low body weight</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Current smoking</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Oral corticosteroid use for more than 3 months</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Impaired vision</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Estrogen deficiency before age 45 years</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Dementia</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Poor health&#x002F;frailty</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Recent falls</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Low calcium intake (lifelong)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Low physical activity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Alcohol intake greater than 2 servings per day</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Postmenopausal women with osteoporosis and VCF should receive a bisphosphonate, zoledronate, or teriparatide to prevent future VCFs. The NNT to prevent a new fracture by giving 35 mg oral risdronate once weekly was 16 over 2 years.<xref ref="pubmed29129436" resource="acc024" /><evidence rating="A" system="SORT">A</evidence><xref ref="pubmed16818910" resource="acc005" /><xref ref="cochrane4523" resource="acc007" /></listitem>
+<listitem>Routine screening is not recommended. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Preventive pharmacotherapy is also recommended for men with osteoporosis.<xref ref="poem191113" resource="acc021" />,<xref ref="pubmed36455843" resource="acc030" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Intermittent zoledronic infusions (every 5 years) reduce radiographic fracture risk in women 50 to 60 years with normal bone density or osteopenia. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed31456562" resource="acc026" />,<xref ref="pubmed40690559" resource="acc032" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Routine screening for vertebral compression fracture (VCF) is not recommended.</listitem>
+<listitem>Many elderly patients receive chest X-rays for other reasons and could receive incidental diagnoses. However, one study found that only 60&#x0025; of VCFs evident on chest X-rays performed on elderly patients in the emergency department were reported, and only 25&#x0025; of patients received a subsequent diagnosis or treatment of VCF.<xref ref="pubmed15851642" resource="acc009" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Postmenopausal women with osteoporosis and VCF should receive a bisphosphonate, zoledronate, or teriparatide to prevent future VCFs. An RCT in 1360 women with severe osteoporisis and previous fracture found that 20 mcg weekly or teriparetide was more effective at preventing new fracture than 35 mg oral risdronate once weekly (5.4&#x0025; vs 12.0&#x0025;, p &lt; 0.001, NNT &#x003D; 16 over 2 years).<xref ref="pubmed29129436" resource="acc024" /><xref ref="pubmed16818910" resource="acc005" /><xref ref="cochrane4523" resource="acc007" /></listitem>
+<listitem>A Cochrane review concluded that risedronate was unlikely to be effective for primary prevention of VCF but that it was helpful for secondary prevention in women with a previous VCF (RR 0.8, 95&#x0025; CI 0.72 to 0.90, absolute risk reduction 2&#x0025;, NNT &#x003D; 50).<xref ref="pubmed35502787" resource="acc027" /></listitem>
+<listitem>A study of women 65 and older with osteopenia (T score -1.0 to -2.5 at hip or femoral neck) randomized 2000 to zoledronate 5 mg infusion or a saline infusion every 18 months. At 6 years, the risk of symptomatic vertebral or non-vertebral fracture was lower in the active treatment group (NNT &#x003D; 64 over 6 years).<xref ref="poem210321" resource="acc025" /></listitem>
+<listitem>A study identified 1054 women 50 to 60 years with normal bone density or osteopenia (T-score 0 to -2.5) and randomized them to receive (1) zoledronate 5 mg IV infusion at baseline plus another zoledronate infusion at 5 years, (2) zoledronate at baseline and placebo infusion at 5 years, or (3) placebo infusions at both times. Radiographic vertebral fractures were observed less often in the 2 groups that received zoledronate (6.3&#x0025; zol-zol, 6.6&#x0025; zol-placebo, and 11.1&#x0025; placebo-placebo; RR 0.58; 95&#x0025; CI .38 to .87 for both zol arms vs placebo; NNT &#x003D; 21 to prevent one fracture over 10 years).<xref ref="pubmed39813642" resource="acc031" /></listitem>
+<listitem>A systematic review of 10 RCTs concluded that one would have to give a bisphosphonate to 200 postmenopausal women with osteoporosis for one year to avoid 1 clinical vertebral fracture, assuming a 0.5&#x0025; annual absolute risk reduction.<xref ref="pubmed34807231" resource="acc028" /></listitem>
+<listitem><strong>Prevention in men</strong></listitem>
+<listitem>For men with low bone mineral density or osteoporosis, a systematic review of 24 studies lasting from 1 to 3 years with 4868 total patients concluded that bisphosphonates reduce the risk of any vertebral fracture (RR 0.37), although the reduction in clinical vertebral fractures was non-significant (RR 0.40; 95&#x0025; CI 0.11-1.51).<xref ref="poem190526" resource="acc020" /></listitem>
+<listitem>A network meta-analysis of the prevention of VCF in men with osteoporosis found significant benefits with denosumab (RR 0.30, 95&#x0025; CI 0.13-0.68), risedronate (RR 0.39, 95&#x0025; CI 0.19-0.77), and zoledronic acid (RR 0.45, 95&#x0025; CI 0.21-0.98) compared to placebo. One agent was not clearly superior to another.<xref ref="pubmed36149052" resource="acc029" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>In the absence of high-energy trauma, the history, physical and diagnostic testing for vertebral compression fracture (VCF) should focus on risk factors for malignancy or underlying osteoporosis. <evidence rating="C" system="SORT">C</evidence><xref ref="hp127" resource="acc001" /></listitem>
+<listitem>Plain X-rays are the initial test of choice for diagnosing VCF in patients with acute low back pain and risk factors for osteoporotic VCF or malignancy. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17909209" resource="acc008" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Burst fracture</Differential_Name>
+<Differential_Features>Disruption of middle and&#x002F;or posterior column on imaging studies</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Osteomyelitis</Differential_Name>
+<Differential_Features>Fever, potential source of infection, typical changes on imaging studies</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>VCFs involve the anterior column only. They are graded on the basis of the loss of vertebral height.<list style="bulleted">
+<listitem>Grade 1 (mild): 20&#x0025; to 25&#x0025;</listitem>
+<listitem>Grade 2 (moderate): 25&#x0025; to 40&#x0025;</listitem>
+<listitem>Grade 3 (severe): &gt;40&#x0025;</listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Osteoporotic VCFs are often asymptomatic and discovered incidentally on radiographs. The cardinal symptom of osteoporotic or other VCF is localized back pain, especially following trauma in an older person.</listitem>
+<listitem><resourceLink href="info:wiley/eep-hp/127">Older age, trauma, history of corticosteroid use,</resourceLink> or a history of VCF<xref ref="pubmed2024857" resource="acc002" /> increase the likelihood of osteoporotic VCF.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><resourceLink href="info:wiley/eep-dx/156">Plain radiographs</resourceLink> are the diagnostic test of choice in patients with suspected osteoporotic VCF or those with only moderate risk factors for malignancy.<xref ref="pubmed17909209" resource="acc008" /></listitem>
+<listitem>MRI or CT is preferred in patients with high risk for malignancy, infection, or trauma-related fracture as these modalities provide additional information about fracture age, vertebral structural integrity, or extension beyond the vertebra. Using MRI as the reference standard, one study of 32 vertebral fractures found that dual energy CT was 90&#x0025; sensitive and 98&#x0025; specific.<xref ref="pubmed26537691" resource="acc016" /></listitem>
+<listitem>Laboratory tests are of limited value in evaluating VCF, but may be useful in assessing the likelihood of a malignant etiology. <resourceLink href="info:wiley/eep-dx/156">Elevated sedimentation rate (especially greater than 100 mm&#x002F;hr) and a hematocrit level of less than 30&#x0025;</resourceLink> are strongly associated with malignancy in patients with back pain.</listitem>
+<listitem>All patients with VCF should undergo bone densitometry to evaluate for osteoporosis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>127</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>156</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Pain control and the prevention of complications are the cornerstones of management. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Calcitonin may be used as an alternative to traditional analgesics. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15614441" resource="acc006" /></listitem>
+<listitem>Two RCTs found that vertebroplasty was no more effective than sham procedures, but a third RCT enrolling patients more acutely (within 6 weeks) found reduced pain at 6 months. <evidence rating="B" system="SORT">B</evidence><xref ref="poem111002" resource="acc004" /><xref ref="poem181243" resource="acc015" /></listitem>
+<listitem>Postmenopausal women with osteoporosis and VCF should receive a bisphosphonate or teriparatide to prevent future VCFs. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed16818910" resource="acc005" /><xref ref="pubmed29129436" resource="acc024" /><xref ref="cochrane4523" resource="acc007" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Acute pain control should be obtained with acetaminophen, NSAIDs, tramadol, opioids, or calcitonin.<xref ref="pubmed15614441" resource="acc006" /></listitem>
+<listitem>Medications can reduce the risk for additional VCF in postmenopausal women with prior histories of osteoporotic fracture. Risedronate and etidronate are associated with absolute risk reductions of 5&#x0025; (number needed to treat [NNT] &#x003D; 20)<xref ref="cochrane4523" resource="acc007" /> and alendronate at 10 mg&#x002F;day is associated with an absolute risk reduction of 6&#x0025; (NNT &#x003D; 16.7).<xref ref="cochrane4523" resource="acc007" /></listitem>
+<listitem>Teriparatide is a synthetic parathyroid hormone which at doses of 20 and 40 mcg has been associated with absolute risk reductions of 9&#x0025; and 10&#x0025;, respectively.<xref ref="pubmed16818910" resource="acc005" /> In an RCT it was shown to be more effective for secondary prevention of VCF in 1360 women with severe osteoporisis and a previous VCF (NNT &#x003D; 16 over 2 years to prevent one fracture).<xref ref="pubmed29129436" resource="acc024" /></listitem>
+<listitem>A Cochrane review found moderate quality evidence of no effect of vitamin D and calcium on the prevention of clinical vertebral fractures.<xref ref="cochrane227" resource="acc012" /></listitem>
+<listitem>In patients with multiple myeloma, clodronate and pamidronate reduce the risk of fracture (NNT &#x003D; 10).<xref ref="cochrane3188" resource="acc003" /> A Cochrane systematic review of the use of bisphosphonates in patients with multiple myeloma concluded that their use reduces the likelihood of vertebral fracture and pain, but increases the likelihood of osteonecrosis of the jaw (NNH &#x003D; 1000). <xref ref="pubmed29253322" resource="acc022" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Three well-designed RCTs with appropriate sham comparison found no evidence that vertebroplasty was more effective than a sham in patients enrolled up to one year after their fracture. In these studies, both groups had modest improvement.<xref ref="poem131034" resource="acc011" /><xref ref="poem111002" resource="acc004" /> On the other hand, another RCT recruited 120 patients 60 and older with painful osteoporotic compression fracture within 6 weeks of their fracture, and randomized them to vertebroplasty or sham vertebroplasty. They found a greater likelihood of pain improvement and less analgesic use (NNT &#x003D; 5-6) at 6 months in those receiving active therapy.<xref ref="poem181243" resource="acc015" /> The difference suggests that there is potential benefit only with acute therapy (within 6 weeks). However, the most recent study (2018) randomized 180 persons with acute osteoporotic vertebral compression fracture to vertebroplasty or a sham procedure. While both groups reported improvements in pain scores, there was no difference between groups in any outcomes.<xref ref="pubmed29743284" resource="acc023" /></listitem>
+<listitem>A meta-analysis found five studies with 253 patients comparing unilateral with bilateral kyphoplasty for osteoporotic vertebral fracture, and found no difference between the two approaches. However, the overall quality of evidence was limited.<xref ref="pubmed24964889" resource="acc014" /></listitem>
+<listitem>A meta-analysis identified 8 RCTs comparing vertebroplasty with kyphoplasty for osteoporotic compression fractures. While kyphoplasty provided small advantages in terms of less cement leakage and slightly greater vertebral height, all other outcomes were similar.<xref ref="pubmed36455843" resource="acc030" /></listitem>
+<listitem>A subsequent review found 11 RCTs with 1190 patients comparing kyphyplasty with vertebroplasty for vertebral compression fracture and found that kyphoplasty may be superior, with a lower risk of subsequent adjacent vertebral fractures. <xref ref="pubmed40690559" resource="acc032" /></listitem>
+<listitem>For patients with cancer-related vertebral compression fractures, a systematic review concluded that vertebroplasty and kyphoplasty both lead to rapid reduction in pain.<xref ref="pubmed27298655" resource="acc017" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT>
+<list style="bulleted">
+<listitem>Immobilization of the affected vertebral body alleviates pain but at the risk of deconditioning. An expert consensus statement recommends using orthoses in combination with partial bed rest for short periods (&lt;6 weeks) only. A Korean RCT randomized 60 patients to rigid brace, soft brace, or no brace. At 12 weeks, there was no difference between groups in the Oswestry Disability Index.<xref ref="pubmed25471910" resource="acc013" /></listitem>
+<listitem>Physical therapy and occupational therapy help patients maintain or regain physical conditioning.</listitem>
+<listitem>Patients with osteoporotic VCF should receive a multidisciplinary fall risk assessment.</listitem>
+<listitem>A UK study randomized 615 patients to 7 one hour sessions of manual outpatient PT, 7 one hour sessions of exercise outpatient PT, or a single session of PT focused on education about lifestyle and bone health. Minor benefits of the multiple session arms seen at 4 months were no longer seen at one year.<xref ref="pubmed31456562" resource="acc026" /></listitem>
+</list>
+</Treatment_PT>
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Patients should be monitored for depression.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Traumatic VCF or severe osteoporotic VCF warrant hospitalization to initiate management and to monitor for neurologic instability or adverse reactions to treatment.</listitem>
+<listitem>Development of neurologic signs or posterior column instability warrants evaluation for surgical intervention.</listitem>
+<listitem>Ileus develops commonly with lower thoracic or lumbar VCF and the use of opioids. Expectant management is warranted.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Acute pain from osteoporotic VCF is generally self-limited. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients with prior osteoporotic VCF are at a 4-fold or higher risk for future VCF, depending on the number of fractures and the presence of other risk factors. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed2024857" resource="acc002" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Patients with prior osteoporotic VCF&#x2014;with or without symptoms&#x2014;are at high risk for recurrent fractures if they are not treated with antiresorptive therapy.</listitem>
+<listitem>A single VCF increases the risk for another 4 to 5 fractures, while 2 or more VCFs increases the risk 11.8 times. Risk is increased 75-fold for women with low bone mass and multiple VCFs.<xref ref="pubmed2024857" resource="acc002" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Pain from conservatively managed osteoporotic VCF generally resolves over 2 to 12 weeks.</listitem>
+<listitem>Vertebroplasty or kyphoplasty for osteoporotic VCF may provide more rapid pain relief and more rapid return to function in patients with severe or prolonged pain.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>X-rays repeated for worsening symptoms or at 1 month can assess progression, particularly with osteoporotic or malignant VCF.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Prolonged bed rest can cause weakness and should be avoided.</listitem>
+<listitem>Drinking fluids and eating fiber may help prevent constipation. If you take narcotic medications for pain, talk with your physician about the use of stool softeners or laxatives.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="hp127">
+<accessionId id="acc001" href="info:wiley/eep-hp/127" />
+<accessionId id="acc001b" href="info:pmid/12353946" />
+<authors>Jarvik J, Deyo R.</authors>
+<title>Diagnostic evaluation of low back pain with emphasis on imaging.</title>
+<source>Ann Intern Med</source>
+<pubdate>2002</pubdate>
+<volume>137</volume>
+<pages>586&#x2013;597.</pages>
+</reference>
+<reference id="pubmed2024857">
+<accessionId id="acc002" href="info:pmid/2024857" />
+<authors>Ross PD, Davis JW, Epstein RS, Wasnich RD.</authors>
+<title>Pre-existing fractures and bone mass predict vertebral fracture incidence in women.</title>
+<source>Ann Intern Med</source>
+<pubdate>1991</pubdate>
+<volume>114</volume>
+<pages>919&#x2013;923.</pages>
+</reference>
+<reference id="cochrane3188">
+<accessionId id="acc003" href="info:wiley/cochrane/CD003188" />
+<chapter_authors>Djulbegovic B, Wheatley K, Ross J, Clark O, Bos G, Goldschmidt H, Cremer F, Alsina M, Glasmacher A.</chapter_authors>
+<chapter_title>Bisphosphonates in multiple myeloma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem111002">
+<accessionId id="acc004" href="info:wiley/eep-poem/111002" />
+<accessionId id="acc004b" href="info:pmid/19657121" />
+<authors>Buchbinder R, Osborne RH, Ebeling PR, et al.</authors>
+<title>A randomized trial of vertebroplasty for painful osteoporotic vertebral fractures.</title>
+<source>N Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>361</volume>
+<pages>557&#x2013;568.</pages>
+</reference>
+<reference id="pubmed16818910">
+<accessionId id="acc005" href="info:pmid/16818910" />
+<authors>Cranney A, Papaioannou A, Zytaruk N, et al.; Clinical Guidelines Committee of Osteoporosis Canada.</authors>
+<title>Parathyroid hormone for the treatment of osteoporosis: a systematic review.</title>
+<source>CMAJ</source>
+<pubdate>2006</pubdate>
+<volume>175</volume>
+<pages>52&#x2013;59.</pages>
+</reference>
+<reference id="pubmed15614441">
+<accessionId id="acc006" href="info:pmid/15614441" />
+<authors>Knopp JA, Diner BM, Blitz M, Lyritis GP, Rowe BH.</authors>
+<title>Calcitonin for treating acute pain of osteoporotic vertebral compression fractures: a systematic review of randomized, controlled trials.</title>
+<source>Osteoporos Int</source>
+<pubdate>2005</pubdate>
+<volume>16</volume>
+<pages>1281&#x2013;1290.</pages>
+</reference>
+<reference id="cochrane4523">
+<accessionId id="acc007" href="info:wiley/cochrane/CD004523" />
+<chapter_authors>Wells GA, Cranney A, Peterson J, Boucher M, Shea B, Welch V, Coyle D, Tugwell P.</chapter_authors>
+<chapter_title>Risedronate for the primary and secondary prevention of osteoporotic fractures in postmenopausal women (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17909209">
+<accessionId id="acc008" href="info:pmid/17909209" />
+<authors>Chou R, Qaseem A, Snow V, et al.; Clinical Efficacy Assessment Subcommittee of the American College of Physicians; American College of Physicians; American Pain Society; Low Back Pain Guidelines Panel.</authors>
+<title>Diagnosis and treatment of low back pain: a joint clinical practice guideline from the American College of Physicians and the American Pain Society.</title>
+<source>Ann Intern Med</source>
+<pubdate>2007</pubdate>
+<volume>147</volume>
+<pages>478&#x2013;491.</pages>
+</reference>
+<reference id="pubmed15851642">
+<accessionId id="acc009" href="info:pmid/15851642" />
+<authors>Majumdar SR, Kim N, Colman I, et al.</authors>
+<title>Incidental vertebral fractures discovered with chest radiography in the emergency department: prevalence, recognition, and osteoporosis management in a cohort of elderly patients.</title>
+<source>Arch Intern Med</source>
+<pubdate>2005</pubdate>
+<volume>165</volume>
+<pages>905&#x2013;909.</pages>
+</reference>
+<reference id="pubmed12357061">
+<accessionId id="acc010" href="info:pmid/12357061" />
+<authors>Schousboe JT, DeBold CR, Bowles C, Glickstein S, Rubino RK.</authors>
+<title>Prevalence of vertebral compression fracture deformity by X-ray absorptiometry of lateral thoracic and lumbar spines in a population referred for bone densitometry.</title>
+<source>J Clin Densitom</source>
+<pubdate>2002</pubdate>
+<volume>5</volume>
+<pages>239&#x2013;246.</pages>
+</reference>
+<reference id="poem131034">
+<accessionId id="acc011" href="info:wiley/eep-poem/131034" />
+<accessionId id="acc011b" href="info:pmid/21750078" />
+<authors>Staples MP, Kallmes DF, Comstock BA, Jarvik JG, Osborne RH, Heagerty PJ, Buchbinder R.</authors>
+<title>Effectiveness of vertebroplasty using individual patient data from two randomised placebo controlled trials: meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2011</pubdate>
+<volume>343</volume>
+<pages>d3952.</pages>
+</reference>
+<reference id="cochrane227">
+<accessionId id="acc012" href="info:wiley/cochrane/CD000227" />
+<chapter_authors>Avenell A, Mak JC, O'Connell D.</chapter_authors>
+<chapter_title>Vitamin D and vitamin D analogues for preventing fractures in post-menopausal women and older men.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 4. Art. No.: CD000227. DOI: 10.1002&#x002F;14651858.CD000227.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25471910">
+<accessionId id="acc013" href="info:pmid/25471910" />
+<authors>Kim HJ, Yi JM, Cho HG, Chang BS, Lee CK, Kim JH, Yeom JS.</authors>
+<title>Comparative study of the treatment outcomes of osteoporotic compression fractures without neurologic injury using a rigid brace, a soft brace, and no brace: a prospective randomized controlled non-inferiority trial.</title>
+<source>J Bone Joint Surg Am</source>
+<pubdate>2014</pubdate>
+<volume>96</volume>
+<pages>1959&#x2013;1966.</pages>
+</reference>
+<reference id="pubmed24964889">
+<accessionId id="acc014" href="info:pmid/24964889" />
+<authors>Huang Z, Wan S, Ning L, Han S.</authors>
+<title>Is unilateral kyphoplasty as effective and safe as bilateral kyphoplasties for osteoporotic vertebral compression fractures? A meta-analysis.</title>
+<source>Clin Orthop Relat Res</source>
+<pubdate>2014</pubdate>
+<volume>472</volume>
+<pages>2833&#x2013;2842.</pages>
+</reference>
+<reference id="poem181243">
+<accessionId id="acc015" href="info:wiley/eep-poem/181243" />
+<accessionId id="acc015b" href="info:pmid/27544377" />
+<authors>Clark W, Bird P, Gonski P, Diamond TH, Smerdely P, McNeil HP, Schlaphoff G, Bryant C, Barnes E, Gebski V.</authors>
+<title>Safety and efficacy of vertebroplasty for acute painful osteoporotic fractures (VAPOUR): a multicentre, randomised, double-blind, placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>388</volume>
+<pages>1408&#x2013;1416.</pages>
+</reference>
+<reference id="pubmed26537691">
+<accessionId id="acc016" href="info:pmid/26537691" />
+<authors>Karaca L, Yuceler Z, Kantarci M, &#x00C7;ak&#x0131;r M, Sade R, Cal&#x0131;koglu C, Ogul H, Bayrakturan UG.</authors>
+<title>The feasibility of dual-energy CT in differentiation of vertebral compression fractures.</title>
+<source>Br J Radiol</source>
+<pubdate>2016</pubdate>
+<volume>89</volume>
+<pages>20150300.</pages>
+</reference>
+<reference id="pubmed27298655">
+<accessionId id="acc017" href="info:pmid/27298655" />
+<authors>Health Quality Ontario.</authors>
+<title>Vertebral augmentation involving vertebroplasty or kyphoplasty for cancer-related vertebral compression fractures: a systematic review.</title>
+<source>Ont Health Technol Assess Ser</source>
+<pubdate>2016</pubdate>
+<volume>16</volume>
+<pages>1&#x2013;202.</pages>
+</reference>
+<reference id="pubmed27828847">
+<accessionId id="acc018" href="info:pmid/27828847" />
+<authors>Chen B, Cheng G, Wang H, Feng Y.</authors>
+<title>Increased risk of vertebral fracture in patients with rheumatoid arthritis: a meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e5262.</pages>
+</reference>
+<reference id="poem190531">
+<accessionId id="acc019" href="info:wiley/eep-poem/190531" />
+<accessionId id="acc019b" href="info:pmid/28324091" />
+<authors>Lau WC, Chan EW, Cheung CL, Sing CW, Man KK, Lip GY, Siu CW, Lam JK, Lee AC, Wong IC.</authors>
+<title>Association between dabigatran vs warfarin and risk of osteoporotic fractures among patients with nonvalvular atrial fibrillation.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>317</volume>
+<pages>1151&#x2013;1158.</pages>
+</reference>
+<reference id="poem190526">
+<accessionId id="acc020" href="info:wiley/eep-poem/190526" />
+<accessionId id="acc020b" href="info:pmid/28304090" />
+<authors>Nayak S, Greenspan SL.</authors>
+<title>Osteoporosis treatment efficacy for men: a systematic review and meta-analysis.</title>
+<source>J Am Geriatr Soc</source>
+<pubdate>2017</pubdate>
+<volume>65</volume>
+<pages>490&#x2013;495.</pages>
+</reference>
+<reference id="poem191113">
+<accessionId id="acc021" href="info:wiley/eep-poem/191113" />
+<accessionId id="acc021b" href="info:pmid/28555811" />
+<authors>Drieling RL, LaCroix AZ, Beresford SAA, Boudreau DM, Kooperberg C, Chlebowski RT, Ko MG, Heckbert SR.</authors>
+<title>Long-term oral bisphosphonate therapy and fractures in older women: the Women's Health Initiative.</title>
+<source>J Am Geriatr Soc</source>
+<pubdate>2017</pubdate>
+<volume>65</volume>
+<pages>1924&#x2013;1931.</pages>
+</reference>
+<reference id="pubmed29253322">
+<accessionId id="acc022" href="info:pmid/29253322" />
+<accessionId id="acc022b" href="info:wiley/cochrane/CD003188" />
+<chapter_authors>Mhaskar R, Kumar A, Miladinovic B, Djulbegovic B.</chapter_authors>
+<chapter_title>Bisphosphonates in multiple myeloma: an updated network meta-analysis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 12. Art. No.: CD003188. DOI: 10.1002&#x002F;14651858.CD003188.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed29743284">
+<accessionId id="acc023" href="info:pmid/29743284" />
+<authors>Firanescu CE, de Vries J, Lodder P, Venmans A, Schoemaker MC, Smeet AJ, Donga E, Juttmann JR, Klazen CAH, Elgersma OEH, Jansen FH, Tielbeek AV, Boukrab I, Schonenberg K, van Rooij WJJ, Hirsch JA, Lohle PNM.</authors>
+<title>Vertebroplasty versus sham procedure for painful acute osteoporotic vertebral compression fractures (VERTOS IV): randomised sham controlled clinical trial.</title>
+<source>BMJ</source>
+<pubdate>2018</pubdate>
+<volume>361</volume>
+<pages>k1551.</pages>
+</reference>
+<reference id="pubmed29129436">
+<accessionId id="acc024" href="info:pmid/29129436" />
+<authors>Kendler DL, Marin F, Zerbini CAF, Russo LA, Greenspan SL, Zikan V, Bagur A, Malouf-Sierra J, Lakatos P, Fahrleitner-Pammer A, Lespessailles E, Minisola S, Body JJ, Geusens P, M&#x00F6;ricke R, L&#x00F3;pez-Romero P.</authors>
+<title>Effects of teriparatide and risedronate on new fractures in post-menopausal women with severe osteoporosis (VERO): a multicentre, double-blind, double-dummy, randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2018</pubdate>
+<volume>391</volume>
+<pages>230&#x2013;240.</pages>
+</reference>
+<reference id="poem210321">
+<accessionId id="acc025" href="info:wiley/eep-poem/210321" />
+<accessionId id="acc025b" href="info:pmid/30575489" />
+<authors>Reid IR, Horne AM, Mihov B, Stewart A, Garratt E, Wong S, Wiessing KR, Bolland MJ, Bastin S, Gamble GD.</authors>
+<title>Fracture prevention with zoledronate in older women with osteopenia.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>2407&#x2013;2416.</pages>
+</reference>
+<reference id="pubmed31456562">
+<accessionId id="acc026" href="info:pmid/31456562" />
+<authors>Barker KL, Newman M, Stallard N, Leal J, Minns Lowe C, Javaid MK, Noufaily A, Adhikari A, Hughes T, Smith DJ, Gandhi V, Cooper C, Lamb SE.</authors>
+<title>Exercise or manual physiotherapy compared with a single session of physiotherapy for osteoporotic vertebral fracture: three-arm PROVE RCT.</title>
+<source>Health Technol Assess</source>
+<pubdate>2019</pubdate>
+<volume>23</volume>
+<pages>1&#x2013;318.</pages>
+</reference>
+<reference id="pubmed35502787">
+<accessionId id="acc027" href="info:pmid/35502787" />
+<accessionId id="acc027b" href="info:wiley/cochrane/CD004523" />
+<chapter_authors>Wells GA, Hsieh S, Zheng C, Peterson J, Liu W, Kelly SE, Tugwell P.</chapter_authors>
+<chapter_title>Risedronate for the primary and secondary prevention of osteoporotic fractures in postmenopausal women.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 5. Art. No.: CD004523. DOI: 10.1002&#x002F;14651858.CD004523.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed34807231">
+<accessionId id="acc028" href="info:pmid/34807231" />
+<authors>Deardorff WJ, Cenzer I, Nguyen B, Lee SJ.</authors>
+<title>Time to Benefit of Bisphosphonate Therapy for the Prevention of Fractures Among Postmenopausal Women With Osteoporosis: A Meta-analysis of Randomized Clinical Trials.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2022</pubdate>
+<volume>182</volume>
+<pages>33&#x2013;41.</pages>
+</reference>
+<reference id="pubmed36149052">
+<accessionId id="acc029" href="info:pmid/36149052" />
+<authors>Li P, Wu X, Li Y, Huang J.</authors>
+<title>Denosumab Versus Bisphosphonates for the Prevention of the Vertebral Fractures in Men with Osteoporosis: An Updated Network Meta-Analysis.</title>
+<source>Clin Invest Med</source>
+<pubdate>2022</pubdate>
+<volume>45</volume>
+<pages>E14&#x2013;22.</pages>
+</reference>
+<reference id="pubmed36455843">
+<accessionId id="acc030" href="info:pmid/36455843" />
+<authors>Daher M, Kreichati G, Kharrat K, Sebaaly A.</authors>
+<title>Vertebroplasty versus Kyphoplasty in the Treatment of Osteoporotic Vertebral Compression Fractures: A Meta-Analysis.</title>
+<source>World Neurosurg</source>
+<pubdate>2023</pubdate>
+<volume>171</volume>
+<pages>65&#x2013;71.</pages>
+</reference>
+<reference id="pubmed39813642">
+<accessionId id="acc031" href="info:pmid/39813642" />
+<authors>Bolland MJ, Nisa Z, Mellar A, Gasteiger C, Pinel V, Mihov B, Bastin S, Grey A, Reid IR, Gamble G, Horne A.</authors>
+<title>Fracture Prevention with Infrequent Zoledronate in Women 50 to 60 Years of Age.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>239&#x2013;248.</pages>
+</reference>
+<reference id="pubmed40690559">
+<accessionId id="acc032" href="info:pmid/40690559" />
+<authors>Daher M, Aoun M, Xu A, Daniels AH, Sebaaly A.</authors>
+<title>Is There a Difference in Postoperative Outcomes Between Kyphoplasty and Vertebroplasty in the Management of Vertebral Compression Fractures?: A Meta-Analysis of Randomized Controlled Trials.</title>
+<source>J Bone Joint Surg Am</source>
+<pubdate>2025</pubdate>
+<volume>107</volume>
+<pages>1967&#x2013;1974.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>227</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Vertebral Compression Fracture: Management.</title>
+<graphic href="eee0826-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Acute low back pain with suspected vertebral compression fracture (VCF)</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Neurological deficits?</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>History of cancer?</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>One or more risk factors for cancer or osteoporotic fracture (previous VCF, osteoporosis, steroid use, older than 50 years, unexplained weight loss, failure to improve after 1 month)?</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Treat as musculoskeletal low back pain. Consider imaging if patient does not improve.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Plain X-ray.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>CT or MRI.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

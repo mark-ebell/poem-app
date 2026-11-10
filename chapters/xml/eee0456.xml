@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Seizure disorder (adult)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0456</topic_id>
+<topic_comment />
+<topic_lastupdated>04/09/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Erik K. St. Louis, MD</author_name>
+<author_title>Senior Associate Consultant</author_title>
+<author_department>Department of Neurology</author_department>
+<author_institution>Mayo Clinic and Foundation</author_institution>
+<author_email>erik-stlouis&#x0040;uiowa.edu; StLouis.Erik&#x0040;mayo.edu</author_email>
+<author_phone_office>(507) 266-7456</author_phone_office>
+<author_phone_home />
+<author_phone_fax>(507) 266-7772</author_phone_fax>
+<author_street1>200 Hawkins Drive</author_street1>
+<author_street2 />
+<author_city>Rochester</author_city>
+<author_state>MN</author_state>
+<author_zip>55905</author_zip>
+</author>
+<author primary="no">
+<author_name>Benedict Michael, MD, MBChB</author_name>
+<author_title>Doctoral Research Fellow</author_title>
+<author_department>Department of Neurology</author_department>
+<author_institution>The Walton Centre for Neurology and Neurosurgery, University of Liverpool</author_institution>
+<author_email>benmichael999&#x0040;hotmail.com</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state>Liverpool</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mehmood Rashid, MD</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Toledo College of Medicine and Life Sciences</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Although the diagnosis of a seizure or epilepsy remains at heart clinical, supportive diagnostic tests including a neuroimage and EEG have significant yield and impact on prognosis for seizure recurrence. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>The decision to initiate antiepileptic medications after an initial unprovoked seizure should be individualized.<xref ref="pubmed25901057" resource="acc060" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Initiate antiepileptic monotherapy after two or more seizures with a standard medication such as phenytoin, carbamazepine, or valproate. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Alternative newer drugs effective for newly diagnosed epilepsy include lamotrigine, levetiracetam, oxcarbazepine, and topiramate. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Most epilepsy is well controlled by the first or second medication trial. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Epileptic seizures are sudden, transient behavioral alterations caused by abnormal, excessive neuronal activity in the cerebral cortex. Epilepsy is diagnosed when 2 or more unprovoked seizures occur on separate days.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Approximately 150,000 adults experience a first seizure annually in the United States.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Cumulative lifetime incidence for seizure occurrence is estimated at 10&#x0025; and of epilepsy 3&#x0025;.<xref ref="pubmed8504780" resource="acc036" /></listitem>
+<listitem>Approximately 30&#x0025; to 50&#x0025; of incipient seizures recur and become epilepsy.<xref ref="pubmed9459646" resource="acc035" /></listitem>
+<listitem>Incidence of epilepsy is 25 to 200 per 100,000 in adulthood, increasing after the age of 60 years.<xref ref="pubmed8504780" resource="acc036" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>A systematic review of 197 international prevalence studies concluded that the point prevalence of active epilepsy was 6.4 per 1000 persons, while the lifetime prevalence was 7.6 per 1000 persons. There was relatively little difference in prevalence by age or sex.<xref ref="pubmed27986877" resource="acc062" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>A typical full-time-practice generalist will encounter 5 to 10 patients with seizure disorder per year.</listitem>
+<listitem>There is an association between seizure disorder and psychiatric disorders including anxiety (OR 2.1), depression (OR 2.5), and bipolar disorder (OR 3.0).<xref ref="pubmed39585664" resource="acc078" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Epilepsies are either idiopathic, symptomatic, or cryptogenic (ie, when an underlying pathological cause is presumed but cannot be proved).</listitem>
+<listitem>Seizures may be provoked by drug use, alcohol intoxication or withdrawal, metabolic dyscrasias such as hypoglycemia, infection, inflammation, ischemia, or trauma, or they may be unprovoked.</listitem>
+<listitem>Aggravating influences include physical or emotional stress, sleep deprivation, and concurrent systemic illness.</listitem>
+<listitem>Family history and remote neurologic events or chronic degenerative neurologic conditions are risk factors.</listitem>
+<listitem>The rate of seizures was less than 0.01&#x0025; (1 in 10,000) following mRNA COVID-19 vaccination. This rate is much lower than that seen with COVID-19 infection.<xref ref="poem393375" resource="acc076" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Seizures are either partial&#x002F;focal in onset (arising from one brain region) or primary generalized (bisynchronous from onset).</listitem>
+<listitem>Opposing brain influences of excessive neuronal hypersynchrony and&#x002F;or failure of neural inhibitory drive may give rise to seizures.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Family history</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Remote symptomatic neurological condition</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Routine prophylaxis is not routinely recommended in patients with a brain malignancy. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed10822423" resource="acc034" /><xref ref="poem130202" resource="acc047" /><xref ref="cochrane4424" resource="acc004" /></listitem>
+<listitem>There is no evidence from two clinical trials with 856 subjects (RR 0.65, 95&#x0025; CI 0.34 - 1.26) to support prevention of seizures after stroke. <evidence rating="C" system="SORT">C</evidence><xref ref="cochrane5398" resource="acc039" /></listitem>
+<listitem>If anticonvulsants are used postoperatively, taper them 1 week after surgery in patients who have not had a seizure. <evidence rating="B" system="SORT">B</evidence><xref ref="poem130202" resource="acc047" /></listitem>
+<listitem>Patients receiving chronic antiepileptic drug therapy should be screened for reduced bone density, and women of child-bearing potential with epilepsy should receive folic acid daily. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Prophylactic use of antiepileptic drugs reduces early seizures in patients with traumatic brain injury (NNT &#x003D; 10) but there is no evidence of long-term benefit or reduction in disability or death. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane173" resource="acc040" /></listitem>
+<listitem>A systematic review of patients receiving seizure prophylaxis during the first 7 days following mild to moderate TBI identified 8 studies with 5637 patients. The absolute risk reduction for prevention of seizures with prophylaxis was 0.6&#x0025; (NNT 160). <evidence rating="B" system="SORT">B</evidence><xref ref="poem342457" resource="acc077" /></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Diagnosis is made by clinical history or direct observation of a seizure. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Although the diagnosis of a seizure or epilepsy remains clinical, supportive diagnostic tests including brain MRI and EEG have significant yield and impact on prognosis for seizure recurrence. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Most adults with new-onset seizures should receive either a brain MRI (preferred) or head CT to exclude underlying symptomatic brain pathology. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Baseline serum labs have low diagnostic yield but may help ensure safety in initiating drug therapy. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>If seizures are atypical or a patient fails to respond to empiric antiepileptic drug therapy, consider admission for video-EEG monitoring. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Syncope</Differential_Name>
+<Differential_Features>Often provoked by change from recumbent to standing position, little postictal confusion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cerebrovascular ischemia (TIA&#x002F;stroke)</Differential_Name>
+<Differential_Features>Usually without loss of consciousness, more often with neurological deficit (paralysis, hypesthesia)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Migraine</Differential_Name>
+<Differential_Features>Presence of headache usual, often long sensory march (symptoms progress over several minutes)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sleep attack&#x002F;pathological sleepiness</Differential_Name>
+<Differential_Features>Usually accompanied by other symptoms of primary sleep disorder</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Psychogenic nonepileptic spell (pseudoseizure)</Differential_Name>
+<Differential_Features>Eyes closed rather than open, unusual movements, explosive onset, often prolonged</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Movement disorder</Differential_Name>
+<Differential_Features>No loss of consciousness; involuntary, relatively stereotyped movements</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>A thorough clinical history of characteristic ictal (during seizure) and periictal symptoms and signs is essential for diagnosing seizures or epilepsy. Seizures are only a symptom of brain dysfunction, so a seizure is not in itself an etiologic diagnosis.</listitem>
+<listitem>Ictal behavioral alterations are diverse, ranging from subjective auras to objectively witnessed behavioral arrest, staring, unresponsiveness, and involuntary movements.</listitem>
+<listitem>Common although not invariable postictal symptoms include sleepiness, snoring respirations, tongue biting, self-injury, and urinary or stool incontinence.</listitem>
+<listitem>Interictal symptoms may include mood problems, memory or cognitive disturbances, and common symptoms of toxicity such as sleepiness, dizziness, diplopia, or ataxia in patients receiving antiepileptic drugs.</listitem>
+<listitem>Provoked seizures result from an extrinsic systemic or intrinsic brain factor. Causes of provoked seizures are listed in <xref ref="table001" />.</listitem>
+<listitem>Partial seizures are classified as simple partial when consciousness is preserved, such as a subjective aura of sensory or visual symptoms, or focal motor movements. Partial complex seizures include altered consciousness and typically involve staring, unresponsiveness, and involuntary movements. EEG shows focal epileptiform activity, and MRI may be normal or demonstrate focal cortical pathology.</listitem>
+<listitem>Generalized seizures most often involve either staring with consciousness impairment (absence), a sudden muscle jerk (myoclonic), or convulsion of the body (tonic-clonic). EEG shows generalized epileptiform activity, and CT or MRI is typically normal.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>An EEG may support the clinical diagnosis of epilepsy; a sleep recording increases the yield for interictal epileptiform discharges. Abnormal EEGs are seen in 51&#x0025; of adults presenting with an apparent unprovoked first seizure.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Head CT may be used in acute settings to exclude CNS pathology such as brain hemorrhage or infarction that may require emergent management. Head CT scanning is abnormal in 15&#x0025; of adults presenting with an apparent first unprovoked seizure and significantly abnormal (ie, the findings affected patient management) in 10&#x0025;.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>The yield for a brain MRI is at least as high as that of CT. Most adults with new-onset seizures should receive either a brain MRI or a head CT to exclude underlying symptomatic brain pathology. The utility of routinely checking serum glucose, electrolytes, and blood counts in adults with a first apparent unprovoked seizure in unknown but such checks are generally recommended.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Lumbar puncture (LP) is recommended for patients who are febrile or are otherwise suspected of having CNS infection. There is insufficient evidence to support the routine use of LP in adults presenting with a first apparently unprovoked seizure.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The CAVE score can predict the likelihood of late seizures after intracerebral hemorrhage. Key predictors were Cortical involvement, Age &lt;65 years, Volume &gt;10 ml and Early seizures within 7 days of ICH. The likelihood of late seizures was 0.6&#x0025;, 4&#x0025;, 10&#x0025;, 35&#x0025; and 46&#x0025; for patients with 0 to 4 points.<xref ref="pubmed24876089" resource="acc053" /></listitem>
+<listitem>The Status Epilepticus Severity Score has been prospectively validated (AUROCC 0.75) for the prediction of mortality in patients with status epilepticus.<xref ref="pubmed23982031" resource="acc054" /></listitem>
+<listitem>A study identified 376 patients with a chief complaint of seizure; they were excluded if this was their first seizure, they had a ventriculoperitoneal shunt, or if they presented with focal neurologic deficits. Nine of ten patients with an abnormal head CT had a history of intracerebral hemorrhage, trauma, or active malignancy.<xref ref="pubmed33393132" resource="acc066" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Diagnosis is made by clinical history or direct observation of a seizure; also consider movement disorders, sleep disorders, and psychogenic seizure.</listitem>
+<listitem>Obtain an awake and asleep EEG; if epileptiform discharges are seen, proceed to treatment because, even after a single seizure, recurrence risk is substantially higher when EEG demonstrates epileptiform activity.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Strongly consider brain MRI (preferred) or head CT to exclude an underlying etiology. Baseline serum labs have low diagnostic yield but may help to ensure safety in initiating drug therapy.<xref ref="pubmed18025394" resource="acc037" /> If seizures are atypical or a patient fails to respond to empiric antiepileptic drug therapy, admission for video-EEG monitoring should be considered.</listitem>
+<listitem>See <xref ref="table002" /> for initial therapy options for different seizure types. Consider felbamate, vigabatrin, ketogenic diet, and surgery for refractory seizures.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>The decision to initiate antiepileptic medications after an initial unprovoked seizure should be individualized.<xref ref="pubmed25901057" resource="acc060" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Empiric antiepileptic drug monotherapy appropriate for seizure type (<xref ref="table002" />) should be initiated after two or more unprovoked seizures occur on separate days. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15950714" resource="acc033" /><xref ref="pubmed8504780" resource="acc036" /></listitem>
+<listitem>Most patients should start with an older medication such as phenytoin, valproate, or oxcarbazepine; alternative drugs effective for newly diagnosed epilepsy include lamotrigine, levetiracetam, oxcarbazepine, and topiramate. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed17382828" resource="acc030" /><xref ref="pubmed17382827" resource="acc031" /><xref ref="pubmed17283312" resource="acc032" /><xref ref="pubmed15950714" resource="acc033" /></listitem>
+<listitem>Failure of two or more empiric antiepileptic drug trials to produce seizure freedom constitutes refractory epilepsy; consider anterior temporal lobectomy for refractory mesial temporal lobe epilepsy. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed11484687" resource="acc028" /><xref ref="pubmed10660394" resource="acc029" /></listitem>
+<listitem>Sparse, low-level evidence exists for alternative and complementary medicine treatments and diets. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1903" resource="acc027" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>The goals of epilepsy treatment are to produce seizure freedom without adverse medication effects. Provoked seizures do not usually require drug therapy.</listitem>
+<listitem>Because recurrence risk is approximately 30&#x0025; to 50&#x0025; following one seizure, American Academy of Neurology guidelines (2015) suggest that observation without treatment for a single seizure is a reasonable option for selected patients.<xref ref="pubmed25901057" resource="acc060" /><xref ref="pubmed15950714" resource="acc033" />One would need to treat 5 five adults with a first unprovoked seizure for up to 2 years to prevent a subsequent seizure.<xref ref="pubmed25901057" resource="acc060" /> Treatment can be considered when EEG demonstrates an epileptiform abnormality, when MRI demonstrates a corresponding symptomatic cortical lesion, or with nocturnal seizures because recurrence risk is higher in those settings.<xref ref="pubmed25901057" resource="acc060" /><xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem><strong>Antiepileptic medications</strong></listitem>
+<listitem>Antiepileptic drug monotherapy should be initiated after two or more partial-onset seizures with either a standard medication such as phenytoin<xref ref="pubmed1298221" resource="acc025" /><xref ref="pubmed3925335" resource="acc026" /> or alternatively with a newer drug such as lamotrigine, levetiracetam, oxcarbazepine,<xref ref="cochrane3615" resource="acc005" /> or topiramate. For primary generalized seizures, broad-spectrum drugs such as valproate, lamotrigine, levetiracetam, or topiramate are appropriate choices.<xref ref="pubmed17382828" resource="acc030" /><xref ref="pubmed17382827" resource="acc031" /><xref ref="pubmed17283312" resource="acc032" /><xref ref="pubmed15950714" resource="acc033" /></listitem>
+<listitem>Monotherapy is favored by most experts, because it limits the potential for adverse effects and drug interactions. Drug dosing must be individualized to achieve optimal results. A second monotherapy should be tried if a patient fails to attain efficacy at an average to maximally tolerated drug dose or if the patient develops intolerable adverse effects. A randomized trial comparing initiation of standard vs new anti-epileptic drugs found that 44&#x0025; of patients had an initial treatment failure, but 75&#x0025; of these achieved 12-month remission at 6 years of follow-up. Those with more tonic-clonic seizures were more likely to fail.<xref ref="pubmed24994842" resource="acc052" /></listitem>
+<listitem>There is no proved difference in efficacy between antiepileptic drugs, so choose a drug that provides a differing and complimentary mechanism of action or that offers potential efficacy for a comorbidity such as mood problems or migraine <xref ref="table002" />.<xref ref="cochrane3615" resource="acc005" /><xref ref="pubmed20393142" resource="acc041" />For example, a systematic review found no evidence for different outcomes between carbamazepine and phenytoin as monotherapy<xref ref="cochrane1911" resource="acc042" /> or for immediate release compared with controlled release carbamazepine (although there was a trend for fewer adverse effects with the latter).<xref ref="cochrane7124" resource="acc043" /></listitem>
+<listitem><strong>Treatment of drug-resistant epilepsy</strong></listitem>
+<listitem>Any marketed antiepileptic drug can be used for adjunctive treatment. Topiramate, gabapentin, zonisamide,<xref ref="cochrane1416" resource="acc002" /> lamotrigine, oxcarbazepine, levetiracetam,<xref ref="cochrane1901" resource="acc044" /> clobazam,<xref ref="cochrane7302" resource="acc006" /> vigabatrin,<xref ref="cochrane4154" resource="acc003" /> and tiagabine,<xref ref="cochrane1908" resource="acc023" /> and pregabalin<xref ref="cochrane5612" resource="acc051" /> are somewhat effective as add-on treatments for patients with drug-resistant partial epilepsy.<xref ref="cochrane1909" resource="acc020" /><xref ref="cochrane1415" resource="acc021" /><xref ref="cochrane2028" resource="acc022" /><xref ref="cochrane1417" resource="acc024" /></listitem>
+<listitem>For patients with generalized convulsive status epilepticus who continue to have seizures despite an appropriate dose of a benzodiazepine, IV phenytoin, fosphenytoin or valproate are recommended. Other options include levetiracetam, propofol, or barbiturates.<xref ref="pubmed24655445" resource="acc058" /> A network meta-analysis identified phenobarbital as most likely to be effective as a second line drug in status epilepticus. However, the certainty of comparisons was mostly "very low".<xref ref="pubmed38941904" resource="acc079" /></listitem>
+<listitem>A retrospective study of levetiracetam for benzodiazepine refractory status epilepticus in 218 patients found that the loading dose of levetiracetam (14.5 mg&#x002F;kg, 28.8 mg&#x002F;kg or 48.8 mg&#x002F;kg) had no impact on rates of seizure termination at 60 minutes (93&#x0025; low, 89&#x0025; moderate, 85&#x0025; high dose).<xref ref="pubmed39270551" resource="acc082" /></listitem>
+<listitem>While felbamate has been recommended as add on therapy in drug resistant focal-onset epilepsy, a Cochrane review found 4 studies, with only 1 showing a benefit.<xref ref="cochrane8295" resource="acc069" /></listitem>
+<listitem>A Cochrane review that eslicarbazepine was effective as add-on therapy for adults with drug-resistant focal epilepsy (RR for 50&#x0025; reduction in seizure frequency &#x003D; 1.71, 95&#x0025; CI 1.42-2.05) based on 5 studies with 1799 participants.<xref ref="cochrane8907" resource="acc070" /></listitem>
+<listitem><strong>Seizures in traumatic brain injury</strong></listitem>
+<listitem>A systematic review identified 8 observational studies with 5637 patients comparing patients who did or did not receive seizure medication after mild or moderate traumatic brain injury. The studies consistently found a 0.6&#x0025; absolute reduction in seizure frequency in the first 7 days after injury (95&#x0025; CI 0.01&#x0025; to 1.2&#x0025;, NNT &#x003D; 160). Levetiracetam, phenytoin and valproic acid were most frequently used. The authors caution that observational studies may overestimate benefit, and these drugs do have potential adverse effects.<xref ref="poem342457" resource="acc077" /></listitem>
+<listitem>A survey of trauma centers found that levetiracetam was the anti-seizure medication of choice, with a loading dose of 1000 mg followed by 500 mg twice daily as the usual dosing.<xref ref="pubmed39426021" resource="acc081" /></listitem>
+<listitem><strong>Other medications</strong></listitem>
+<listitem>There is no evidence to support the use of calcium channel antagonists as adjunctive therapy for epilepsy.<xref ref="cochrane2750" resource="acc019" /></listitem>
+<listitem>A study identified 225 persons age 2 to 55 years with Lennox-Gastaut syndrome who experienced at least 2 drop seizures per week. They were randomized to cannabidiol 20 mg, cannabidiol 10 mg, or placebo. The median percent decrease in seizures was 42&#x0025; in the 20 mg group, 37&#x0025; in the 10 mg group, and only 17&#x0025; in the placebo group. Adverse events were more common in the 20 mg group, making the 10 mg group the best balance between benefit and harm.<xref ref="pubmed29768152" resource="acc063" /></listitem>
+<listitem>A systematic review of medical cannabinoids found moderate or high quality evidence for the use of cannabdiol for seizure disorder, with small to moderatre benefits (effect size 0.2 to 0.5).<xref ref="poem347585" resource="acc068" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Epilepsy surgery should be strongly considered when a patient develops refractory epilepsy. Complication rates have dropped dramatically over the past 30 years, based on a recent systematic review.<xref ref="pubmed24559222" resource="acc055" /><xref ref="pubmed29069568" resource="acc061" /></listitem>
+<listitem>Surgical approaches may include resection of a symptomatic brain lesion, resection of a nonlesional epileptic focus, deep brain stimulation (DBS), brain-responsive neurostimulation or placement of a vagus nerve stimulator.</listitem>
+<listitem>A systematic review identified 25 observational studies of surgical treatment for treatment resistant temporal lobe epilepsy, with 3031 patients undergoing temporal lobe resection and 288 undergoing magnetic resonance guided laser interstitial thermal therapy. Freedom from seizures occurred more often with resection (68&#x0025; vs 57&#x0025;) but any complications were more common with resection (14.6&#x0025; vs 5.3&#x0025;) but not major complications (2.1&#x0025; vs 2.1&#x0025;).<xref ref="pubmed39332763" resource="acc080" /></listitem>
+<listitem>Anterior temporal lobectomy offers a 58&#x0025; chance of seizure freedom postoperatively.<xref ref="pubmed11484687" resource="acc028" /></listitem>
+<listitem>Vagus nerve stimulation reduces seizure frequency by half in 40&#x0025; or more of implanted patients.<xref ref="pubmed23986299" resource="acc057" /><xref ref="cochrane2896" resource="acc018" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Sparse, low-level evidence exists for alternative and complementary medicine treatments in epilepsy, such as yoga, meditation,<xref ref="cochrane2029" resource="acc017" /> acupuncture,<xref ref="cochrane5062" resource="acc016" /> traditional Chinese medicine,<xref ref="cochrane6454" resource="acc049" /> cannabinoids,<xref ref="pubmed24778283" resource="acc056" /><xref ref="cochrane9270" resource="acc050" /> and vitamins.<xref ref="cochrane4304" resource="acc015" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>There is no reliable evidence that relaxation, cognitive behavioral therapy, biofeedback, or educational intervention reduces seizure frequency.<xref ref="cochrane2029" resource="acc017" /></listitem>
+<listitem>Self-management education was shown in a systematic review of 13 randomized trials and 2 nonrandomized studies (overall high risk of bias) to improve knowledge and reduce seizure frequency.<xref ref="pubmed31261386" resource="acc065" /></listitem>
+<listitem>Treatment of comorbid depression may require counseling or antidepressant medication.</listitem>
+<listitem>Psychosocial counseling of the patient with epilepsy is important to address social limitations in driving and daily functioning in the home, school, and workplace.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Although there is some evidence from observational studies to support the use of ketogenic diets, data from RCTs are lacking. Ketogenic diets may be considered an option for motivated patients and&#x002F;or families.<xref ref="cochrane1903" resource="acc027" /></listitem>
+<listitem>A network meta-analysis identified 12 RCTs with 907 patients comparing various dietary interventions (ketogenic, modified Atkins, and low glycemic index) for children with treatment resistant epilepsy. The authors conclude that the diet with the best evidence for efficacy and tolerability was the modified Atkins diet.<xref ref="pubmed36716045" resource="acc073" /></listitem>
+<listitem>There is insufficient evidence to recommend intravenous immunoglobulins for reducing seizure frequency.<xref ref="cochrane8557" resource="acc064" /></listitem>
+<listitem>There is insufficient evidence to recommend yoga for reducing frequency of seizures.<xref ref="cochrane1524" resource="acc059" /></listitem>
+<listitem>Provoked seizures (see <xref ref="table001" /> for causes) require no specific drug therapy other than supportive care and correcting or avoiding the precipitating factor.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Patients with acute repetitive seizures, prolonged seizures, or acute confusion from suspected nonconvulsive status epilepticus should be emergently triaged, then admitted for observation and emergent treatment with IV drugs if necessary.</listitem>
+<listitem>A neurologist with special expertise in epilepsy should be consulted for assistance with diagnostic uncertainty, refractory epilepsy, or patients with intolerable adverse effects of treatment and those requiring complex polypharmacy regimens.</listitem>
+<listitem>American College of Emergency Physicians guidelines state that physicians need not admit patients with a first unprovoked seizure who have returned to their clinical baseline in the ED.<xref ref="pubmed24655445" resource="acc058" /></listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Patients with epilepsy have an increased risk of psychotic symptoms, and anticonvulsants may precipitate psychosis in rare cases. A single small RCT found some improvement with olanzapine (n &#x003D; 16 patients).<xref ref="cochrane6118" resource="acc007" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Most epilepsy is well-controlled by the first or second medication trial. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10660394" resource="acc029" /></listitem>
+<listitem>One-third of epilepsy patients are refractory and require close and careful follow-up to avoid psychosocial limitations and physical injury from seizures. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed10660394" resource="acc029" /></listitem>
+<listitem>Approximately 60&#x0025; of patients can eventually be successfully withdrawn from antiepileptic drugs. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1902" resource="acc011" /><xref ref="pubmed9459646" resource="acc035" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Only 33&#x0025; of patients having a single unprovoked seizure have a second seizure within the next 2 years.<xref ref="pubmed9459646" resource="acc035" />Adolescents and adults 16 years or older with a single, unprovoked seizure who are seizure-free for at least 6 months have a less than 20&#x0025; risk of recurrent seizure, regardless of treatment status.<xref ref="poem130291" resource="acc048" /></listitem>
+<listitem>However, the probability of a recurrent seizure is 49.5&#x0025; in patients with epileptiform EEG abnormalities versus 27.4&#x0025; in those with completely normal EEGs.<xref ref="pubmed18025394" resource="acc037" /></listitem>
+<listitem>Sixty-five percent of those with two seizures have a third seizure.<xref ref="pubmed9459646" resource="acc035" /></listitem>
+<listitem>Early antiepileptic drug treatment after the first or second seizure increases the probability of remaining seizure free for approximately 2 years but does not alter long-term outcomes.<xref ref="pubmed15950714" resource="acc033" /></listitem>
+<listitem>Mortality is 40&#x0025; during the 10 years following an episode of status epilepticus.<xref ref="pubmed11865129" resource="acc014" /></listitem>
+<listitem>The risk of seizures following traumatic brain injury is 0.18&#x0025; if mild, 0.41&#x0025; if moderate, and 5.8&#x0025; if severe.<xref ref="pubmed9414327" resource="acc013" /></listitem>
+<listitem>Patients with post-stroke seizure have worse outcomes with higher mortality (OR 2.1, 95&#x0025; 1.8 to 2.4), greater disability (SMD 0.6, 95&#x0025; CI 0.4 to 0.8), and increased dementia risk (OR 3.1, 95&#x0025; CI 1.3 to 7.7) than patients without seizure.<xref ref="pubmed37721736" resource="acc072" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Sixty percent with newly diagnosed epilepsy achieve seizure freedom on the first or second medication.<xref ref="pubmed10660394" resource="acc029" /></listitem>
+<listitem>Overall, more than 60&#x0025; of persons with epilepsy enter remission for 5 years.<xref ref="cochrane1902" resource="acc011" /><xref ref="pubmed9459646" resource="acc035" /></listitem>
+<listitem>Patients who are seizure-free for longer than 2 years are candidates for withdrawal of antiepileptic drug therapy, although the optimal dosage-tapering regimen remains unclear.<xref ref="cochrane5003" resource="acc010" /><xref ref="cochrane1902" resource="acc011" /> About 60&#x0025; of those in remission can be successfully gradually withdrawn from antiepileptic drug therapy.<xref ref="cochrane1902" resource="acc011" /> These data are primarily from studies in children; studies in adults are lacking.<xref ref="cochrane1902" resource="acc011" /></listitem>
+<listitem>American Academy of Neurology guidelines (2021) updated their 1996 guidance regarding withdrawal of seizure medications. They recommend that adults who have been seizure-free for at least 24 months should engage in shared decision-making with their clinicians to determine the benefits and harms of continuing anticonvulsants. The panel could draw no conclusions as to the utility of EEGs or imaging in guiding these decisions among adults. The panel also could make no recommendations about medication withdrawal after epilepsy surgery.<xref ref="poem341822" resource="acc067" /></listitem>
+<listitem>One-third of patients develop refractory epilepsy; they are less than 5&#x0025; likely to achieve seizure freedom with antiepileptic drugs.<xref ref="pubmed10660394" resource="acc029" /> Frequent seizures at onset and symptomatic structural brain pathology are associated with refractory epilepsy.</listitem>
+<listitem>In a long-term Finnish study of 245 persons with childhood epilepsy, persons who did not go into remission for at least 5 years had a 6-fold higher mortality risk than an age- and sex-adjusted comparison group.<xref ref="poem130202" resource="acc047" /></listitem>
+<listitem>The CAVE score can predict the likelihood of late seizures after intracerebral hemorrhage. Key predictors were Cortical involvement, Age &lt;65 yars, Volume &gt;10 ml and Early seizures within 7 days of ICH. The likelihood of late seizures was 0.6&#x0025;, 4&#x0025;, 10&#x0025;, 35&#x0025; and 46&#x0025; for patients with 0 to 4 points.<xref ref="pubmed24876089" resource="acc053" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>Monitoring of therapeutic drug levels has not been well studied. In one RCT of 180 patients, monitoring drug levels did not improve outcomes during 1 year of follow-up.<xref ref="cochrane2216" resource="acc009" /></listitem>
+<listitem>Patients with well-controlled epilepsy should be seen at least annually to ensure adherence to, and tolerability of, AED therapy, to ascertain whether treatment may be withdrawn and to monitor for chronic complications of epilepsy and drug therapy.</listitem>
+<listitem>Refractory epilepsy patients should be seen every few weeks or months to sequence antiepileptic therapies aggressively and to evaluate for nonpharmacologic treatment options such as surgery.<xref ref="pubmed15111659" resource="acc038" /></listitem>
+<listitem>Routine adjustment of antiepileptic drug dosing to achieve particular serum levels is not advisable, but checking at least one baseline drug level once drugs have reached their expected steady state may still be helpful to ensure adherence and to assess possible drug interactions in polytherapy.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Patients should be educated to report medication adverse effects, to permit adjustment of therapy by the provider.</listitem>
+<listitem>After one or more seizures, adults should be cautioned not to drive; check local jurisdiction for legal recommendations on seizure-free intervals.</listitem>
+<listitem>Patients should also be instructed concerning other safety precautions, including avoidance of work at heights, operating dangerous machinery, and swimming or bathing without supervision.</listitem>
+<listitem>Women of child-bearing potential should be counseled about risks of possible teratogenesis, drug interactions with hormonal contraceptives, and use of barrier contraception.</listitem>
+<listitem>Family and caregivers should be counseled to recognize incipient status epilepticus (prolonged seizures lasting 5 minutes or longer) and when to call for emergency assistance.</listitem>
+<listitem>Caregivers should also receive instruction on seizure first aid, including assistance to ground at ictal onset, moving dangerous objects and avoiding tongue or body restraint, and turning patient onto side in postictal period to avoid aspiration of oral secretions.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Older adults are more vulnerable to medication adverse effects and also more frequently have polypharmacy, raising risk for intolerability of antiepileptic drugs resulting from side effects and drug interactions.</listitem>
+<listitem>Select antiepileptic drugs with a limited potential for drug-drug interactions.</listitem>
+<listitem>If phenytoin is used, measurement of free drug levels may be helpful to avoid toxicity.</listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>Most women with epilepsy have uncomplicated pregnancies. There is an increased risk of intrauterine growth retardation (3.8&#x0025; vs 1.9&#x0025;), antepartum hospital admission (42&#x0025; vs 19&#x0025;), and cesarean delivery (44&#x0025; vs 33&#x0025;).<xref ref="pubmed19923552" resource="acc045" /></listitem>
+<listitem>A meta-analysis of 76 observational studies found that women with epilepsy have worse maternal and neonatal outcomes than women without epilepsy. This was true whether or not epilepsy was treated with an ASM. Taking an ASM was associated with worse neonatal outcomes than not taking. Polytherapy was associated with worse neonatal outcomes than monotherapy. The authors recommend co-management of these patients with an epilepsy specialist for counseling and medication optimization.<xref ref="poem384375" resource="acc071" /></listitem>
+<listitem>Planning for pregnancy should begin well in advance to determine whether AED therapy can be withdrawn or reduced from polytherapy to monotherapy. While preconception counseling is routinely recommended, it has not been well studied.<xref ref="cochrane6645" resource="acc001" /></listitem>
+<listitem>Maintaining antiepileptic drug monotherapy during pregnancy is reasonable in most instances; carbamazepine, phenytoin and phenobarbitone appear to be safe based on limited data.<xref ref="cochrane4848" resource="acc008" /></listitem>
+<listitem>Valproate use should probably be avoided during pregnancy if possible, given its higher rate of association with teratogenesis and cognitive impairment in the child, unless it is a specifically effective drug of choice for an individual patient.<xref ref="pubmed19369666" resource="acc012" /><xref ref="cochrane4848" resource="acc008" /></listitem>
+<listitem>This is confirmed by a study that found an increased risk of autism (HR 2.67, 95&#x0025; CI 1.7 to 4.2) for valproate but not for topiramate or lamotrigine.<xref ref="pubmed38507750" resource="acc074" /></listitem>
+<listitem>In a retrospective cohort study of more than 800,000 children in Denmark, there was no significant association between first trimester exposure to newer-generation drugs (eg, lamotrigine, oxcarbazepine) and birth defects.<xref ref="poem130723" resource="acc046" /></listitem>
+<listitem>Women of child-bearing potential should receive folic acid daily.</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>Cognitively maldeveloped patients may be less able to report adverse drug effects and may have complex polytherapy regimens with other centrally active medications.</listitem>
+<listitem>Drug level monitoring is an especially helpful adjunct in this population to avoid therapeutic overshoot and inadvertent toxic drug dosing.</listitem>
+<listitem>A nationwide Danish study concluded that school performance is adversely affected by seizure disorder in children. <xref ref="pubmed38102964" resource="acc075" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="cochrane6645">
+<accessionId id="acc001" href="info:wiley/cochrane/CD006645" />
+<chapter_authors>Winterbottom JB, Smyth RM, Jacoby A, Baker GA.</chapter_authors>
+<chapter_title>Preconception counselling for women with epilepsy to reduce adverse pregnancy outcome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 3. Art. No.: CD006645. DOI: 10.1002&#x002F;14651858.CD006645.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1416">
+<accessionId id="acc002" href="info:wiley/cochrane/CD001416" />
+<chapter_authors>Brigo F, Lattanzi S, Igwe SC, Behzadifar M, Bragazzi NL.</chapter_authors>
+<chapter_title>Zonisamide add-on therapy for focal epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 10. Art. No.: CD001416. DOI: 10.1002&#x002F;14651858.CD001416.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4154">
+<accessionId id="acc003" href="info:wiley/cochrane/CD004154" />
+<chapter_authors>Michael B, Marson AG.</chapter_authors>
+<chapter_title>Clobazam as an add-on in the management of refractory epilepsy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4424">
+<accessionId id="acc004" href="info:wiley/cochrane/CD004424" />
+<chapter_authors>Tremont-Lukats IW, Ratilal BO, Armstrong T, Gilbert MR.</chapter_authors>
+<chapter_title>Antiepileptic drugs for preventing seizures in people with brain tumors (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3615">
+<accessionId id="acc005" href="info:wiley/cochrane/CD003615" />
+<chapter_authors>Nevitt SJ, Tudur Smith C, Marson AG.</chapter_authors>
+<chapter_title>Oxcarbazepine versus phenytoin monotherapy for epilepsy: an individual participant data review.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 10. Art. No.: CD003615. DOI: 10.1002&#x002F;14651858.CD003615.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7302">
+<accessionId id="acc006" href="info:wiley/cochrane/CD007302" />
+<chapter_authors>Hemming K, Maguire MJ, Hutton JL, Marson AG.</chapter_authors>
+<chapter_title>Vigabatrin for refractory partial epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 1. Art. No.: CD007302. DOI: 10.1002&#x002F;14651858.CD007302.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6118">
+<accessionId id="acc007" href="info:wiley/cochrane/CD006118" />
+<chapter_authors>Farooq S, Sherin A.</chapter_authors>
+<chapter_title>Interventions for psychotic symptoms concomitant with epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 12. Art. No.: CD006118. DOI: 10.1002&#x002F;14651858.CD006118.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4848">
+<accessionId id="acc008" href="info:wiley/cochrane/CD004848" />
+<chapter_authors>Adab N, Tudur Smith C, Vinten J, Williamson PR, Winterbottom JB, McKay AJ, Bromley R.</chapter_authors>
+<chapter_title>Common antiepileptic drugs in pregnancy in women with epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 12. Art. No.: CD004848. DOI: 10.1002&#x002F;14651858.CD004848.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2216">
+<accessionId id="acc009" href="info:wiley/cochrane/CD002216" />
+<chapter_authors>Tomson T, Dahl M, Kimland E.</chapter_authors>
+<chapter_title>Therapeutic monitoring of antiepileptic drugs for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2007, Issue 2. Art. No.: CD002216. DOI: 10.1002&#x002F;14651858.CD002216.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5003">
+<accessionId id="acc010" href="info:wiley/cochrane/CD005003" />
+<chapter_authors>Ranganathan LN, Ramaratnam S.</chapter_authors>
+<chapter_title>Rapid versus slow withdrawal of antiepileptic drugs (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1902">
+<accessionId id="acc011" href="info:wiley/cochrane/CD001902" />
+<chapter_authors>Strozzi I, Nolan SJ, Sperling MR, Wingerchuk DM, Sirven J.</chapter_authors>
+<chapter_title>Early versus late antiepileptic drug withdrawal for people with epilepsy in remission.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 2. Art. No.: CD001902. DOI: 10.1002&#x002F;14651858.CD001902.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed19369666">
+<accessionId id="acc012" href="info:pmid/19369666" />
+<accessionId id="acc012b" href="info:wiley/eep-poem/110601" />
+<authors>Meador KJ, Baker GA, Browning N, et al.; for the NEAD Study Group.</authors>
+<title>Cognitive function at 3 years of age after fetal exposure to antiepileptic drugs.</title>
+<source>N Engl J Med</source>
+<pubdate>2009</pubdate>
+<volume>360</volume>
+<pages>1597&#x2013;1605.</pages>
+</reference>
+<reference id="pubmed9414327">
+<accessionId id="acc013" href="info:pmid/9414327" />
+<accessionId id="acc013b" href="info:wiley/eep-poem/289" />
+<authors>Annegers JF, Hauser WA, Coan SP, Rocca WA.</authors>
+<title>A population-based study of seizures after traumatic brain injuries.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>338</volume>
+<pages>20&#x2013;24.</pages>
+</reference>
+<reference id="pubmed11865129">
+<accessionId id="acc014" href="info:pmid/11865129" />
+<accessionId id="acc014b" href="info:wiley/eep-poem/40705" />
+<authors>Logroscino G, Hesdorffer DC, Cascino GD, Annegers JF, Bagiella E, Hauser WA.</authors>
+<title>Long-term mortality after a first episode of status epilepticus.</title>
+<source>Neurology</source>
+<pubdate>2002</pubdate>
+<volume>58</volume>
+<pages>537&#x2013;541.</pages>
+</reference>
+<reference id="cochrane4304">
+<accessionId id="acc015" href="info:wiley/cochrane/CD004304" />
+<chapter_authors>Ranganathan LN, Ramaratnam S.</chapter_authors>
+<chapter_title>Vitamins for epilepsy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5062">
+<accessionId id="acc016" href="info:wiley/cochrane/CD005062" />
+<chapter_authors>Cheuk DK, Wong V.</chapter_authors>
+<chapter_title>Acupuncture for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 5. Art. No.: CD005062. DOI: 10.1002&#x002F;14651858.CD005062.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2029">
+<accessionId id="acc017" href="info:wiley/cochrane/CD002029" />
+<chapter_authors>Ramaratnam S, Baker GA, Goldstein LH.</chapter_authors>
+<chapter_title>Psychological treatments for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 2. Art. No.: CD002029. DOI: 10.1002&#x002F;14651858.CD002029.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2896">
+<accessionId id="acc018" href="info:wiley/cochrane/CD002896" />
+<chapter_authors>Panebianco M, Rigby A, Marson AG.</chapter_authors>
+<chapter_title>Vagus nerve stimulation for focal seizures.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 7. Art. No.: CD002896. DOI: 10.1002&#x002F;14651858.CD002896.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2750">
+<accessionId id="acc019" href="info:wiley/cochrane/CD002750" />
+<chapter_authors>Hasan M, Pulman J, Marson AG.</chapter_authors>
+<chapter_title>Calcium antagonists as an add-on therapy for drug-resistant epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 3. Art. No.: CD002750. DOI: 10.1002&#x002F;14651858.CD002750.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1909">
+<accessionId id="acc020" href="info:wiley/cochrane/CD001909" />
+<chapter_authors>Ramaratnam S, Panebianco M, Marson AG.</chapter_authors>
+<chapter_title>Lamotrigine add-on for drug-resistant partial epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 6. Art. No.: CD001909. DOI: 10.1002&#x002F;14651858.CD001909.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1415">
+<accessionId id="acc021" href="info:wiley/cochrane/CD001415" />
+<chapter_authors>Panebianco M, Al-Bachari S, Weston J, Hutton JL, Marson AG.</chapter_authors>
+<chapter_title>Gabapentin add-on treatment for drug-resistant focal epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 10. Art. No.: CD001415. DOI: 10.1002&#x002F;14651858.CD001415.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2028">
+<accessionId id="acc022" href="info:wiley/cochrane/CD002028" />
+<chapter_authors>Castillo SM, Schmidt DB, White S, Shukralla A.</chapter_authors>
+<chapter_title>Oxcarbazepine add-on for drug-resistant partial epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 11. Art. No.: CD002028. DOI: 10.1002&#x002F;14651858.CD002028.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1908">
+<accessionId id="acc023" href="info:wiley/cochrane/CD001908" />
+<chapter_authors>Bresnahan R, Martin-McGill KJ, Hutton JL, Marson AG.</chapter_authors>
+<chapter_title>Tiagabine add-on therapy for drug-resistant focal epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 10. Art. No.: CD001908. DOI: 10.1002&#x002F;14651858.CD001908.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1417">
+<accessionId id="acc024" href="info:wiley/cochrane/CD001417" />
+<chapter_authors>Pulman J, Jette N, Dykeman J, Hemming K, Hutton JL, Marson AG.</chapter_authors>
+<chapter_title>Topiramate add-on for drug-resistant partial epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 2. Art. No.: CD001417. DOI: 10.1002&#x002F;14651858.CD001417.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed1298221">
+<accessionId id="acc025" href="info:pmid/1298221" />
+<authors>Mattson RH, Cramer JA, Collins JF.</authors>
+<title>A comparison of valproate with carbamazepine for the treatment of complex partial seizures and secondarily generalized tonic-clonic seizures in adults. The Department of Veterans Affairs Epilepsy Cooperative Study No. 264 Group.</title>
+<source>N Engl J Med</source>
+<pubdate>1992</pubdate>
+<volume>327</volume>
+<pages>765&#x2013;771.</pages>
+</reference>
+<reference id="pubmed3925335">
+<accessionId id="acc026" href="info:pmid/3925335" />
+<authors>Mattson RH, Cramer JA, Collins JF, et al.</authors>
+<title>Comparison of carbamazepine, phenobarbital, phenytoin, and primidone in partial and secondarily generalized tonic-clonic seizures.</title>
+<source>N Engl J Med</source>
+<pubdate>1985</pubdate>
+<volume>313</volume>
+<pages>145&#x2013;151.</pages>
+</reference>
+<reference id="cochrane1903">
+<accessionId id="acc027" href="info:wiley/cochrane/CD001903" />
+<chapter_authors>Martin K, Jackson CF, Levy RG, Cooper PN.</chapter_authors>
+<chapter_title>Ketogenic diet and other dietary treatments for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 2. Art. No.: CD001903. DOI: 10.1002&#x002F;14651858.CD001903.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed11484687">
+<accessionId id="acc028" href="info:pmid/11484687" />
+<authors>Wiebe S, Blume WT, Girvin JP, Eliasziw M; Effectiveness and Efficiency of Surgery for Temporal Lobe Epilepsy Study Group.</authors>
+<title>A randomized, controlled trial of surgery for temporal-lobe epilepsy.</title>
+<source>N Engl J Med</source>
+<pubdate>2001</pubdate>
+<volume>345</volume>
+<pages>311&#x2013;318.</pages>
+</reference>
+<reference id="pubmed10660394">
+<accessionId id="acc029" href="info:pmid/10660394" />
+<authors>Kwan P, Brodie MJ.</authors>
+<title>Early identification of refractory epilepsy.</title>
+<source>N Engl J Med</source>
+<pubdate>2000</pubdate>
+<volume>342</volume>
+<pages>314&#x2013;319.</pages>
+</reference>
+<reference id="pubmed17382828">
+<accessionId id="acc030" href="info:pmid/17382828" />
+<authors>Marson AG, Al-Kharusi AM, Alwaidh M, et al.; SANAD Study Group.</authors>
+<title>The SANAD study of effectiveness of valproate, lamotrigine, or topiramate for generalised and unclassifiable epilepsy: An unblinded randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2007</pubdate>
+<volume>369</volume>
+<pages>1016&#x2013;1026.</pages>
+</reference>
+<reference id="pubmed17382827">
+<accessionId id="acc031" href="info:pmid/17382827" />
+<authors>Marson AG, Al-Kharusi AM, Alwaidh M, et al.; SANAD Study Group.</authors>
+<title>The SANAD study of effectiveness of carbamazepine, gabapentin, lamotrigine, oxcarbazepine, or topiramate for treatment of partial epilepsy: An unblinded randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2007</pubdate>
+<volume>369</volume>
+<pages>1000&#x2013;1015.</pages>
+</reference>
+<reference id="pubmed17283312">
+<accessionId id="acc032" href="info:pmid/17283312" />
+<authors>Brodie MJ, Perucca E, Ryvlin P, Ben-Menachem E, Meencke HJ; Levetiracetam Monotherapy Study Group.</authors>
+<title>Comparison of levetiracetam and controlled-release carbamazepine in newly diagnosed epilepsy.</title>
+<source>Neurology</source>
+<pubdate>2007</pubdate>
+<volume>68</volume>
+<pages>402&#x2013;408.</pages>
+</reference>
+<reference id="pubmed15950714">
+<accessionId id="acc033" href="info:pmid/15950714" />
+<accessionId id="acc033b" href="info:wiley/eep-poem/70841" />
+<authors>Marson A, Jacoby A, Johnson A, et al.; Medical Research Council MESS Study Group.</authors>
+<title>Immediate versus deferred antiepileptic drug treatment for early epilepsy and single seizures: A randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2005</pubdate>
+<volume>365</volume>
+<pages>2007&#x2013;2013.</pages>
+</reference>
+<reference id="pubmed10822423">
+<accessionId id="acc034" href="info:pmid/10822423" />
+<accessionId id="acc034b" href="info:wiley/eep-poem/20903" />
+<authors>Glantz MJ, Cole BF, Forsyth PA, et al.</authors>
+<title>Practice parameter: Anticonvulsant prophylaxis in patients with newly diagnosed brain tumors. Report of the Quality Standards Subcommittee of the American Academy of Neurology.</title>
+<source>Neurology</source>
+<pubdate>2000</pubdate>
+<volume>54</volume>
+<pages>1886&#x2013;1893.</pages>
+</reference>
+<reference id="pubmed9459646">
+<accessionId id="acc035" href="info:pmid/9459646" />
+<accessionId id="acc035b" href="info:wiley/eep-poem/380" />
+<authors>Hauser WA, Rich SS, Lee JR, Annegers JF, Anderson VE.</authors>
+<title>Risk of recurrent seizures after two unprovoked seizures.</title>
+<source>N Engl J Med</source>
+<pubdate>1998</pubdate>
+<volume>338</volume>
+<pages>429&#x2013;434.</pages>
+</reference>
+<reference id="pubmed8504780">
+<accessionId id="acc036" href="info:pmid/8504780" />
+<authors>Hauser WA, Annegers JF, Kurland LT.</authors>
+<title>Incidence of epilepsy and unprovoked seizures in Rochester, Minnesota: 1935-1984.</title>
+<source>Epilepsia</source>
+<pubdate>1993</pubdate>
+<volume>34</volume>
+<pages>453&#x2013;468.</pages>
+</reference>
+<reference id="pubmed18025394">
+<accessionId id="acc037" href="info:pmid/18025394" />
+<authors>Krumholz A, Wiebe S, Gronseth G, et al.; Quality Standards Subcommittee of the American Academy of Neurology American Epilepsy Society.</authors>
+<title>Practice Parameter: Evaluating an apparent unprovoked first seizure in adults (an evidence-based review): Report of the Quality Standards Subcommittee of the American Academy of Neurology and the American Epilepsy Society.</title>
+<source>Neurology</source>
+<pubdate>2007</pubdate>
+<volume>69</volume>
+<pages>1996&#x2013;2007.</pages>
+</reference>
+<reference id="pubmed15111659">
+<accessionId id="acc038" href="info:pmid/15111659" />
+<authors>French JA, Kanner AM, Bautista J, et al.</authors>
+<title>Efficacy and tolerability of the new antiepileptic drugs I: Treatment of new onset epilepsy: Report of the Therapeutics and Technology Assessment Subcommittee and Quality Standards Subcommittee of the American Academy of Neurology and the American Epilepsy Society.</title>
+<source>Neurology</source>
+<pubdate>2004</pubdate>
+<volume>62</volume>
+<pages>1252&#x2013;1260.</pages>
+</reference>
+<reference id="cochrane5398">
+<accessionId id="acc039" href="info:wiley/cochrane/CD005398" />
+<chapter_authors>Chang RS, Leung WC, Vassallo M, Sykes L, Battersby Wood E, Kwan J.</chapter_authors>
+<chapter_title>Antiepileptic drugs for the primary and secondary prevention of seizures after stroke.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 2. Art. No.: CD005398. DOI: 10.1002&#x002F;14651858.CD005398.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane173">
+<accessionId id="acc040" href="info:wiley/cochrane/CD000173" />
+<chapter_authors>Schierhout G, Roberts I.</chapter_authors>
+<chapter_title>Antiepileptic drugs for preventing seizures following acute traumatic brain injury (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed20393142">
+<accessionId id="acc041" href="info:pmid/20393142" />
+<accessionId id="acc041b" href="info:wiley/eep-poem/120842" />
+<authors>Labiner DM, Paradis PE, Manjunath R, et al.</authors>
+<title>Generic antiepileptic drugs and associated medical resource utilization in the United States.</title>
+<source>Neurology</source>
+<pubdate>2010</pubdate>
+<volume>74</volume>
+<pages>1566&#x2013;1574.</pages>
+</reference>
+<reference id="cochrane1911">
+<accessionId id="acc042" href="info:wiley/cochrane/CD001911" />
+<chapter_authors>Nevitt SJ, Marson AG, Weston J, Tudur Smith C.</chapter_authors>
+<chapter_title>Carbamazepine versus phenytoin monotherapy for epilepsy: an individual participant data review.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 2. Art. No.: CD001911. DOI: 10.1002&#x002F;14651858.CD001911.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7124">
+<accessionId id="acc043" href="info:wiley/cochrane/CD007124" />
+<chapter_authors>Powell G, Saunders M, Rigby A, Marson AG.</chapter_authors>
+<chapter_title>Immediate-release versus controlled-release carbamazepine in the treatment of epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 12. Art. No.: CD007124. DOI: 10.1002&#x002F;14651858.CD007124.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1901">
+<accessionId id="acc044" href="info:wiley/cochrane/CD001901" />
+<chapter_authors>Mbizvo GK, Dixon P, Hutton JL, Marson AG.</chapter_authors>
+<chapter_title>Levetiracetam add-on for drug-resistant focal epilepsy: an updated Cochrane Review.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 9. Art. No.: CD001901. DOI: 10.1002&#x002F;14651858.CD001901.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed19923552">
+<accessionId id="acc045" href="info:pmid/19923552" />
+<accessionId id="acc045b" href="info:wiley/eep-poem/120242" />
+<authors>Kelly VM, Nelson LM, Chakravarty EF.</authors>
+<title>Obstetric outcomes in women with multiple sclerosis and epilepsy.</title>
+<source>Neurology</source>
+<pubdate>2009</pubdate>
+<volume>73</volume>
+<pages>1831&#x2013;1836.</pages>
+</reference>
+<reference id="poem130723">
+<accessionId id="acc046" href="info:wiley/eep-poem/130723" />
+<authors>M&#x00C3;&#x00B8;lgaard-Nielsen D, Hviid A.</authors>
+<title>Newer-generation antiepileptic drugs and the risk of major birth defects.</title>
+<source>JAMA</source>
+<pubdate>2011</pubdate>
+<volume>305</volume>
+<pages>1996&#x2013;2002.</pages>
+</reference>
+<reference id="poem130202">
+<accessionId id="acc047" href="info:wiley/eep-poem/130202" />
+<authors>Sillanp&#x00E4;&#x00E4; M, Shinnar S.</authors>
+<title>Long-term mortality in childhood-onset epilepsy.</title>
+<source>N Engl J Med</source>
+<pubdate>2010</pubdate>
+<volume>363</volume>
+<pages>2522&#x2013;2529.</pages>
+</reference>
+<reference id="poem130291">
+<accessionId id="acc048" href="info:wiley/eep-poem/130291" />
+<authors>Bonnett LJ, Tudur-Smith C, Williamson PR, Marson AG.</authors>
+<title>Risk of recurrence after a first seizure and implications for driving: Further analysis of the Multicentre study of early Epilepsy and Single Seizures.</title>
+<source>BMJ (Clin Res Ed)</source>
+<pubdate>2010</pubdate>
+<volume>341</volume>
+<pages>c6477.</pages>
+</reference>
+<reference id="cochrane6454">
+<accessionId id="acc049" href="info:wiley/cochrane/CD006454" />
+<chapter_authors>Li Q, Chen XY, He L, Zhou D.</chapter_authors>
+<chapter_title>Traditional Chinese medicine for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 3. Art. No.: CD006454. DOI: 10.1002&#x002F;14651858.CD006454.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane9270">
+<accessionId id="acc050" href="info:wiley/cochrane/CD009270" />
+<chapter_authors>Gloss D, Vickrey B.</chapter_authors>
+<chapter_title>Cannabinoids for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 3. Art. No.: CD009270. DOI: 10.1002&#x002F;14651858.CD009270.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5612">
+<accessionId id="acc051" href="info:wiley/cochrane/CD005612" />
+<chapter_authors>Panebianco M, Bresnahan R, Marson AG.</chapter_authors>
+<chapter_title>Pregabalin add-on for drug-resistant focal epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 3. Art. No.: CD005612. DOI: 10.1002&#x002F;14651858.CD005612.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed24994842">
+<accessionId id="acc052" href="info:pmid/24994842" />
+<authors>Bonnett LJ, Tudur Smith C, Donegan S, Marson AG.</authors>
+<title>Treatment outcome after failure of a first antiepileptic drug.</title>
+<source>Neurology</source>
+<pubdate>2014</pubdate>
+<volume>83</volume>
+<pages>552&#x2013;560.</pages>
+</reference>
+<reference id="pubmed24876089">
+<accessionId id="acc053" href="info:pmid/24876089" />
+<authors>Haapaniemi E, Strbian D, Rossi C, Putaala J, Sipi T, Mustanoja S, Sairanen T, Curtze S, Satop&#x00E4;&#x00E4; J, Roivainen R, Kaste M, Cordonnier C, Tatlisumak T, Meretoja A.</authors>
+<title>The CAVE score for predicting late seizures after intracerebral hemorrhage.</title>
+<source>Stroke</source>
+<pubdate>2014</pubdate>
+<volume>45</volume>
+<pages>1971&#x2013;1976.</pages>
+</reference>
+<reference id="pubmed23982031">
+<accessionId id="acc054" href="info:pmid/23982031" />
+<authors>Sutter R, Kaplan PW, R&#x00FC;egg S.</authors>
+<title>Independent external validation of the status epilepticus severity score.</title>
+<source>Crit Care Med</source>
+<pubdate>2013</pubdate>
+<volume>41</volume>
+<pages>e475&#x2013;e479.</pages>
+</reference>
+<reference id="pubmed24559222">
+<accessionId id="acc055" href="info:pmid/24559222" />
+<authors>Tebo CC, Evins AI, Christos PJ, Kwon J, Schwartz TH.</authors>
+<title>Evolution of cranial epilepsy surgery complication rates: A 32-year systematic review and meta-analysis.</title>
+<source>J Neurosurg</source>
+<pubdate>2014</pubdate>
+<volume>120</volume>
+<pages>1415&#x2013;1427.</pages>
+</reference>
+<reference id="pubmed24778283">
+<accessionId id="acc056" href="info:pmid/24778283" />
+<authors>Koppel BS, Brust JC, Fife T, Bronstein J, Youssof S, Gronseth G, Gloss D.</authors>
+<title>Systematic review: Efficacy and safety of medical marijuana in selected neurologic disorders: Report of the Guideline Development Subcommittee of the American Academy of Neurology.</title>
+<source>Neurology</source>
+<pubdate>2014</pubdate>
+<volume>82</volume>
+<pages>1556&#x2013;1563.</pages>
+</reference>
+<reference id="pubmed23986299">
+<accessionId id="acc057" href="info:pmid/23986299" />
+<authors>Morris GL 3rd, Gloss D, Buchhalter J, Mack KJ, Nickels K, Harden C.</authors>
+<title>Evidence-based guideline update: vagus nerve stimulation for the treatment of epilepsy: Report of the Guideline Development Subcommittee of the American Academy of Neurology.</title>
+<source>Neurology</source>
+<pubdate>2013</pubdate>
+<volume>81</volume>
+<pages>1453&#x2013;1459.</pages>
+</reference>
+<reference id="pubmed24655445">
+<accessionId id="acc058" href="info:pmid/24655445" />
+<authors>Huff JS, Melnick ER, Tomaszewski CA, Thiessen ME, Jagoda AS, Fesmire FM; American College of Emergency Physicians.</authors>
+<title>Clinical policy: Critical issues in the evaluation and management of adult patients presenting to the emergency department with seizures.</title>
+<source>Ann Emerg Med</source>
+<pubdate>2014</pubdate>
+<volume>63</volume>
+<pages>437&#x2013;447.e15.</pages>
+</reference>
+<reference id="cochrane1524">
+<accessionId id="acc059" href="info:wiley/cochrane/CD001524" />
+<chapter_authors>Panebianco M, Sridharan K, Ramaratnam S.</chapter_authors>
+<chapter_title>Yoga for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 5. Art. No.: CD001524. DOI: 10.1002&#x002F;14651858.CD001524.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed25901057">
+<accessionId id="acc060" href="info:pmid/25901057" />
+<authors>Krumholz A, Wiebe S, Gronseth GS, Gloss DS, Sanchez AM, Kabir AA, Liferidge AT, Martello JP, Kanner AM, Shinnar S, Hopp JL, French JA.</authors>
+<title>Evidence-based guideline: Management of an unprovoked first seizure in adults: Report of the Guideline Development Subcommittee of the American Academy of Neurology and the American Epilepsy Society.</title>
+<source>Neurology</source>
+<pubdate>2015</pubdate>
+<volume>84</volume>
+<pages>1705&#x2013;1713.</pages>
+</reference>
+<reference id="pubmed29069568">
+<accessionId id="acc061" href="info:pmid/29069568" />
+<authors>Dwivedi R, Ramanujam B, Chandra PS, Sapra S, Gulati S, Kalaivani M, Garg A, Bal CS, Tripathi M, Dwivedi SN, Sagar R, Sarkar C, Tripathi M.</authors>
+<title>Surgery for drug-resistant epilepsy in children.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>1639&#x2013;1647.</pages>
+</reference>
+<reference id="pubmed27986877">
+<accessionId id="acc062" href="info:pmid/27986877" />
+<authors>Fiest KM, Sauro KM, Wiebe S, Patten SB, Kwon CS, Dykeman J, Pringsheim T, Lorenzetti DL, Jett&#x00E9; N.</authors>
+<title>Prevalence and incidence of epilepsy: A systematic review and meta-analysis of international studies.</title>
+<source>Neurology</source>
+<pubdate>2017</pubdate>
+<volume>88</volume>
+<pages>296&#x2013;303.</pages>
+</reference>
+<reference id="pubmed29768152">
+<accessionId id="acc063" href="info:pmid/29768152" />
+<authors>Devinsky O, Patel AD, Cross JH, Villanueva V, Wirrell EC, Privitera M, Greenwood SM, Roberts C, Checketts D, VanLandingham KE, Zuberi SM, GWPCARE3 Study Group.</authors>
+<title>Effect of cannabidiol on drop seizures in the Lennox-Gastaut Syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>1888&#x2013;1897.</pages>
+</reference>
+<reference id="cochrane8557">
+<accessionId id="acc064" href="info:wiley/cochrane/CD8557" />
+<chapter_authors>Geng J, Dong J, Li Y, Ni H, Jiang K, Shi LL, Wang G.</chapter_authors>
+<chapter_title>Intravenous immunoglobulins for epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 12. Art. No.: CD008557. DOI: 10.1002&#x002F;14651858.CD008557.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31261386">
+<accessionId id="acc065" href="info:pmid/31261386" />
+<authors>Luedke MW, Blalock DV, Goldstein KM, Kosinski AS, Sinha SR, Drake C, Lewis JD, Husain AM, Lewinski AA, Shapiro A, Gierisch JM, Tran TT, Gordon AM, Van Noord MG, Bosworth HB, Williams JW.</authors>
+<title>Self-management of epilepsy: A systematic review.</title>
+<source>Ann. Intern. Med.</source>
+<pubdate>2019</pubdate>
+<volume>171</volume>
+<pages>117&#x2013;126.</pages>
+</reference>
+<reference id="pubmed33393132">
+<accessionId id="acc066" href="info:pmid/33393132" />
+<authors>Isenberg DL, Muller M, Rodrigues L, Reimer H, Finlaw L, Souiarov G, Loughran S, Gentile NT.</authors>
+<title>Validation of a clinical decision instrument for emergent neuroimaging after a seizure: Let's image malignancy, intracranial hemorrhage, and trauma (LIMIT).</title>
+<source>Acad Emerg Med</source>
+<pubdate>2021</pubdate>
+<volume>28</volume>
+<pages>562&#x2013;568.</pages>
+</reference>
+<reference id="poem341822">
+<accessionId id="acc067" href="info:wiley/eep-poem/341822" />
+<accessionId id="acc067b" href="info:pmid/34873018" />
+<authors>Gloss D, Pargeon K, Pack A, Varma J, French JA, Tolchin B, Dlugos DJ, Mikati MA, Harden C, AAN Guideline Subcommittee.</authors>
+<title>Antiseizure Medication Withdrawal in Seizure-Free Patients: Practice Advisory Update Summary: Report of the AAN Guideline Subcommittee.</title>
+<source>Neurology</source>
+<pubdate>2021</pubdate>
+<volume>97</volume>
+<pages>1072&#x2013;1081.</pages>
+</reference>
+<reference id="poem347585">
+<accessionId id="acc068" href="info:wiley/eep-poem/347585" />
+<accessionId id="acc068b" href="info:pmid/35982439" />
+<authors>Bilbao A, Spanagel R.</authors>
+<title>Medical cannabinoids: a pharmacology-based systematic review and meta-analysis for all relevant medical indications.</title>
+<source>BMC Med</source>
+<pubdate>2022</pubdate>
+<volume>20</volume>
+<pages>259.</pages>
+</reference>
+<reference id="cochrane8295">
+<accessionId id="acc069" href="info:wiley/cochrane/CD8295" />
+<chapter_authors>Shi LL, Bresnahan R, Martin-McGill KJ, Dong J, Ni H, Geng J.</chapter_authors>
+<chapter_title>Felbamate add-on therapy for drug-resistant focal epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 8. Art. No.: CD008295. DOI: 10.1002&#x002F;14651858.CD008295.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8907">
+<accessionId id="acc070" href="info:wiley/cochrane/CD8907" />
+<chapter_authors>Chang X, Yuan H, Wang Y, Xu H, Hong W, Zheng R.</chapter_authors>
+<chapter_title>Eslicarbazepine acetate add-on therapy for drug-resistant focal epilepsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 6. Art. No.: CD008907. DOI: 10.1002&#x002F;14651858.CD008907.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem384375">
+<accessionId id="acc071" href="info:wiley/eep-poem/384375" />
+<accessionId id="acc071b" href="info:pmid/36912826" />
+<authors>Mazzone PP, Hogg KM, Weir CJ, Stephen J, Bhattacharya S, Chin RFM.</authors>
+<title>Comparison of Perinatal Outcomes for Women With and Without Epilepsy: A Systematic Review and Meta-analysis.</title>
+<source>JAMA Neurol</source>
+<pubdate>2023</pubdate>
+<volume>80</volume>
+<pages>484&#x2013;494.</pages>
+</reference>
+<reference id="pubmed37721736">
+<accessionId id="acc072" href="info:pmid/37721736" />
+<authors>Misra S, Kasner SE, Dawson J, Tanaka T, Zhao Y, Zaveri HP, Eldem E, Vazquez J, Silva LS, Mohidat S, Hickman LB, Khan EI, Funaro MC, Nicolo JP, Mazumder R, Yasuda CL, Sunnerhagen KS, Ihara M, Ross JS, Liebeskind DS, Kwan P, Quinn TJ, Engel J Jr, Mishra NK.</authors>
+<title>Outcomes in Patients With Poststroke Seizures: A Systematic Review and Meta-Analysis.</title>
+<source>JAMA Neurol</source>
+<pubdate>2023</pubdate>
+<volume>80</volume>
+<pages>1155&#x2013;1165.</pages>
+</reference>
+<reference id="pubmed36716045">
+<accessionId id="acc073" href="info:pmid/36716045" />
+<authors>Devi N, Madaan P, Kandoth N, Bansal D, Sahu JK.</authors>
+<title>Efficacy and Safety of Dietary Therapies for Childhood Drug-Resistant Epilepsy: A Systematic Review and Network Meta-analysis.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2023</pubdate>
+<volume>177</volume>
+<pages>258&#x2013;266.</pages>
+</reference>
+<reference id="pubmed38507750">
+<accessionId id="acc074" href="info:pmid/38507750" />
+<authors>Hern&#x00E1;ndez-D&#x00ED;az S, Straub L, Bateman BT, Zhu Y, Mogun H, Wisner KL, Gray KJ, Lester B, McDougle CJ, DiCesare E, Pennell PB, Huybrechts KF.</authors>
+<title>Risk of Autism after Prenatal Topiramate, Valproate, or Lamotrigine Exposure.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>1069&#x2013;1079.</pages>
+</reference>
+<reference id="pubmed38102964">
+<accessionId id="acc075" href="info:pmid/38102964" />
+<authors>Dreier JW, Trabjerg BB, Plana-Ripoll O, Skipper N, Agerbo E, Cotsapas C, Berg AT, Christensen J .</authors>
+<title>Epilepsy in childhood and school performance: a nation-wide cohort study.</title>
+<source>Brain</source>
+<pubdate>2024</pubdate>
+<volume>147</volume>
+<pages>532&#x2013;541.</pages>
+</reference>
+<reference id="poem393375">
+<accessionId id="acc076" href="info:wiley/eep-poem/393375" />
+<accessionId id="acc076b" href="info:pmid/38683573" />
+<authors>Rafati A, Jameie M, Amanollahi M, Pasebani Y, Jameie M, Kabiri A, Montazeri Namin S, Sakhaei D, Feizollahi F, Pasebani MY, Mohebbi H, Ilkhani S, Azadi M, Rahimlou M, Kwon CS.</authors>
+<title>Association of New-Onset Seizures With SARS-CoV-2 Vaccines: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.</title>
+<source>JAMA Neurol</source>
+<pubdate>2024</pubdate>
+<volume>81</volume>
+<pages>611&#x2013;618.</pages>
+</reference>
+<reference id="poem342457">
+<accessionId id="acc077" href="info:wiley/eep-poem/342457" />
+<accessionId id="acc077b" href="info:pmid/38587858" />
+<authors>Pease M, Mittal A, Merkaj S, Okonkwo DO, Gonzalez-Martinez JA, Elmer J, Liou WS, Pingue V, Hammond FM, Abramovici S, Castellano J, Barot N.</authors>
+<title>Early Seizure Prophylaxis in Mild and Moderate Traumatic Brain Injury: A Systematic Review and Meta-Analysis.</title>
+<source>JAMA Neurol</source>
+<pubdate>2024</pubdate>
+<volume>81</volume>
+<pages>507&#x2013;514.</pages>
+</reference>
+<reference id="pubmed39585664">
+<accessionId id="acc078" href="info:pmid/39585664" />
+<authors>Kwon CS, Rafati A, Ottman R, Christensen J, Kanner AM, Jett&#x00E9; N, Newton CR.</authors>
+<title>Psychiatric Comorbidities in Persons With Epilepsy Compared With Persons Without Epilepsy: A Systematic Review and Meta-Analysis.</title>
+<source>JAMA Neurol</source>
+<pubdate>2025</pubdate>
+<volume>82</volume>
+<pages>72&#x2013;84.</pages>
+</reference>
+<reference id="pubmed38941904">
+<accessionId id="acc079" href="info:pmid/38941904" />
+<authors>Kishihara Y, Yasuda H, Kashiura M, Amagasa S, Shinzato Y, Moriya T.</authors>
+<title>Efficacy of second-line anticonvulsant agents with adult status epilepticus: A systematic review and network meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>82</volume>
+<pages>183&#x2013;189.</pages>
+</reference>
+<reference id="pubmed39332763">
+<accessionId id="acc080" href="info:pmid/39332763" />
+<authors>Ekman FR, Bjellvi J, Ljunggren S, Malmgren K, Nilsson D.</authors>
+<title>Laser Interstitial Thermal Therapy versus Open Surgery for Mesial Temporal Lobe Epilepsy: A Systematic Review and Meta-Analysis.</title>
+<source>World Neurosurg</source>
+<pubdate>2024</pubdate>
+<volume>192</volume>
+<pages>224&#x2013;235.e15.</pages>
+</reference>
+<reference id="pubmed39426021">
+<accessionId id="acc081" href="info:pmid/39426021" />
+<authors>Houston AJ, Wilson CS Jr, Gilbert BW.</authors>
+<title>Antiseizure medication practices in the adult traumatic brain injury patient population.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>86</volume>
+<pages>125&#x2013;128.</pages>
+</reference>
+<reference id="pubmed39270551">
+<accessionId id="acc082" href="info:pmid/39270551" />
+<authors>Schowe C, Frick CD, Weitkamp LU, Jarboe L.</authors>
+<title>Evaluation of levetiracetam loading dose in adult patients with benzodiazepine-refractory status epilepticus.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>85</volume>
+<pages>148&#x2013;152.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Common Causes of Provoked Seizures.</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1"><strong>Drugs of Abuse</strong><list style="bulleted">
+<listitem>Alcohol intoxication or withdrawal</listitem>
+<listitem>Amphetamine</listitem>
+<listitem>Cocaine</listitem>
+<listitem>LSD</listitem>
+<listitem>Phencyclidine</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Iatrogenic</strong><list style="bulleted">
+<listitem>Antibiotics</listitem>
+<listitem>Antiarrhythmics</listitem>
+<listitem>Insulin</listitem>
+<listitem>Opiates</listitem>
+<listitem>Psychotropics (tricyclic antidepressants, antipsychotics)</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Infection</strong><list style="bulleted">
+<listitem>Brain abscess</listitem>
+<listitem>Cerebritis</listitem>
+<listitem>Encephalitis</listitem>
+<listitem>Meningitis (especially in immunocompromised&#x002F;foreign travelers)</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Metabolic Disorders</strong><list style="bulleted">
+<listitem>Hypocalcemia</listitem>
+<listitem>Hypoglycemia</listitem>
+<listitem>Hyperglycemia</listitem>
+<listitem>Hypomagnesemia</listitem>
+<listitem>Hyponatremia</listitem>
+<listitem>Hypernatremia</listitem>
+<listitem>Hypophosphatemia</listitem>
+</list></td>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Herbal Products</strong><list style="bulleted">
+<listitem>Guarana</listitem>
+<listitem>Ma Huang</listitem>
+</list></td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Properties of Antiepileptic Drugs.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Drug</th>
+<th align="left" colspan="1">Usual Total Daily Adult Dose (Intervals)</th>
+<th align="left" colspan="1">Target Level (mcg&#x002F;mL, or as Indicated)</th>
+<th align="left" colspan="1">Adverse Effects</th>
+<th align="left" colspan="1">Pharmacokinetic Issues</th>
+<th align="left" colspan="1">Drug-Drug Interactions</th>
+</tr>
+<tr>
+<td align="left" colspan="6"><strong>Narrow-Spectrum Drugs</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="6"><strong>Absence of Seizures</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ethosuximide</td>
+<td align="left" colspan="1">500-1500 mg (bid)</td>
+<td align="left" colspan="1">40-100+</td>
+<td align="left" colspan="1">Aplastic anemia, hepatotoxicity, nausea, sedation</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">Unidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="6"><strong>Partial Seizures</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Carbamazepine</td>
+<td align="left" colspan="1">400-1600 mg or higher (bid-qid)</td>
+<td align="left" colspan="1">4-12+</td>
+<td align="left" colspan="1">Aplastic anemia, ataxia, diplopia, dizziness, hepatotoxicity, hyponatremia, sedation</td>
+<td align="left" colspan="1">Autoinduction, inducer</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Gabapentin</td>
+<td align="left" colspan="1">900-3600 mg or higher (tid-qid)</td>
+<td align="left" colspan="1">4-20+</td>
+<td align="left" colspan="1">Dizziness, sedation, weight gain</td>
+<td align="left" colspan="1">Limited absorption at high doses</td>
+<td align="left" colspan="1">None</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Lacosamide</td>
+<td align="left" colspan="1">200-600 mg (bid)</td>
+<td align="left" colspan="1">Uncertain</td>
+<td align="left" colspan="1">Dizziness, sedation</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">None</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Oxcarbazepine</td>
+<td align="left" colspan="1">600-3600 mg or higher (bid)</td>
+<td align="left" colspan="1">10-40 (MHD)</td>
+<td align="left" colspan="1">Dizziness, hyponatremia, sedation</td>
+<td align="left" colspan="1">Mild inducer</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Phenobarbital</td>
+<td align="left" colspan="1">90-180 mg or higher (qd)</td>
+<td align="left" colspan="1">15-40</td>
+<td align="left" colspan="1">Aplastic anemia, hepatotoxicity, psychomotor slowing, sedation</td>
+<td align="left" colspan="1">Inducer</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Phenytoin</td>
+<td align="left" colspan="1">200-400 mg (qd-bid)</td>
+<td align="left" colspan="1">8-20</td>
+<td align="left" colspan="1">Aplastic anemia, ataxia, dizziness, gingival hyperplasia, hepatotoxicity, neuropathy, sedation</td>
+<td align="left" colspan="1">Inducer, zero-order kinetics.</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Pregabalin</td>
+<td align="left" colspan="1">150-600</td>
+<td align="left" colspan="1">0.3-14 mg&#x002F;L</td>
+<td align="left" colspan="1">Dizziness, sedation, weight gain</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">None</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Primidone</td>
+<td align="left" colspan="1">500-1500 mg (bid-tid)</td>
+<td align="left" colspan="1">5-12</td>
+<td align="left" colspan="1">Aplastic anemia, hepatotoxicity, psychomotor slowing, sedation</td>
+<td align="left" colspan="1">Inducer</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Tiagabine</td>
+<td align="left" colspan="1">16-64 mg (bid-tid)</td>
+<td align="left" colspan="1">100-300 mg&#x002F;mL</td>
+<td align="left" colspan="1">Dizziness, sedation, weight gain</td>
+<td align="left" colspan="1">Inducible</td>
+<td align="left" colspan="1">Unidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Zonisamide</td>
+<td align="left" colspan="1">100-600 mg (qd-bid)</td>
+<td align="left" colspan="1">10-40</td>
+<td align="left" colspan="1">Dizziness, nephrolithiasis, paresthesias, weight loss</td>
+<td align="left" colspan="1">Inducible</td>
+<td align="left" colspan="1">Unidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="6"><strong>Broad-Spectrum Drugs (Partial Seizure and Generalized Seizures)</strong></td>
+</tr>
+<tr>
+<td align="left" colspan="1">Felbamate</td>
+<td align="left" colspan="1">1800-4800 mg (bid-tid)</td>
+<td align="left" colspan="1">30-100</td>
+<td align="left" colspan="1">Aplastic anemia, hepatic failure, insomnia, irritability, weight loss</td>
+<td align="left" colspan="1">Inducer</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Levetiracetam</td>
+<td align="left" colspan="1">1000-3000 mg or higher (bid)</td>
+<td align="left" colspan="1">5-40+</td>
+<td align="left" colspan="1">Dizziness, sedation</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">None</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Rufinamide</td>
+<td align="left" colspan="1">400-3200 mg&#x002F;d</td>
+<td align="left" colspan="1">Uncertain</td>
+<td align="left" colspan="1">Sedation, diarrhea</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Topiramate</td>
+<td align="left" colspan="1">100-400 mg (qd-bid)</td>
+<td align="left" colspan="1">10-20</td>
+<td align="left" colspan="1">Cognitive complaints, nephrolithiasis, paresthesias, sedation, weight loss</td>
+<td align="left" colspan="1">Inducer at doses &gt;200 mg</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Valproate</td>
+<td align="left" colspan="1">750-3000 mg (qd-tid)</td>
+<td align="left" colspan="1">50-100+</td>
+<td align="left" colspan="1">Aplastic anemia, hair loss, hepatotoxicity, nausea, pancreatitis, tremor, weight gain</td>
+<td align="left" colspan="1">Heavily protein bound, inhibitor</td>
+<td align="left" colspan="1">Bidirectional</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Vigabatrin (for partial seizures and infantile spasms)</td>
+<td align="left" colspan="1">1000-4000 mg (bid)</td>
+<td align="left" colspan="1">Uncertain</td>
+<td align="left" colspan="1">Ataxia, headache, sedation, visual field deficits</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">None</td>
+</tr>
+</table>Abbreviations: mcg&#x002F;mL, micrograms&#x002F;milliliter; nG&#x002F;mL, nanograms&#x002F;milliliter; mg&#x002F;L, milligrams&#x002F;liter; +, higher doses&#x002F;levels may be effective, as tolerated; MHD, 10, 11; monohydroxyderivative, the active metabolite of oxcarbazepine; interactions, unidirectional indicates that other drugs may affect this AED; bidirectional indicates that other drugs may affect this drug and that this drug also affects other drugs; ?, based on premarketing data from clinical trials; Pk, pharmacokinetic issues; inducer, hepatic cytochrome P450 3A4 enzymatic inducer; inhibitor, hepatic cytochrome P450 2C19 enzymatic inhibitor; autoinduction, carbamazepine may increase its own metabolism, leading to a fall in serum levels and necessitating higher dosing, usually seen when first initiating carbamazepine; zero-order kinetics of phenytoin, saturable metabolism, in which smaller dose change may lead to greatly increased levels at higher dosing range, so dosage changes should be made cautiously and slowly, with blood level monitoring in selected patients.</feature_body>
+</feature>
+</feature_group>
+</topic>

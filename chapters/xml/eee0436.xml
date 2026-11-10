@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Guillain-Barr&#x00E9; syndrome</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0436</topic_id>
+<topic_comment />
+<topic_lastupdated>02/24/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Bradley K. Harrison, MD</author_name>
+<author_title>Captain, Medical Corp, United States Army, Staff Family Physician</author_title>
+<author_department>Department of Primary Care and Community Medicine</author_department>
+<author_institution>Irwin Army Community Hospital</author_institution>
+<author_email>bradley.k.harrison&#x0040;amedd.army.mil</author_email>
+<author_phone_office>785-239-7377</author_phone_office>
+<author_phone_home />
+<author_phone_fax>785-239-7249</author_phone_fax>
+<author_street1>Irwin Army Community Hospital</author_street1>
+<author_street2>600 Caisson Hill Road</author_street2>
+<author_city>Fort Riley</author_city>
+<author_state>KS</author_state>
+<author_zip>66442-5037</author_zip>
+</author>
+<author primary="no">
+<author_name>Aaron S. Carlisle, MD</author_name>
+<author_title>Major, Medical Corp, United States Army, Staff Physician</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Dwight D. Eisenhower Army Medical Center</author_institution>
+<author_email>Aaron.s.carlisle&#x0040;us.army.mil</author_email>
+<author_phone_office>706-787-9355</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>300 Hospital Drive</author_street1>
+<author_street2 />
+<author_city>Fort Gordon</author_city>
+<author_state>GA</author_state>
+<author_zip>30905</author_zip>
+</author>
+<author primary="no">
+<author_name>The opinions or assertions contained herein are the private views of the authors and are not to be construed as official or as reflecting the views of the Department of Defense.</author_name>
+<author_title />
+<author_department />
+<author_institution />
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Clinical diagnosis based on the pattern of rapidly evolving paralysis with areflexia, absence of constitutional symptoms, and characteristic antecedent events. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Elevated CSF protein and normal WBC are typical, as are abnormalities in nerve conduction studies. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>High-dose intravenous immunoglobulin (IVIg) or plasma exchange are equally effective; a combination of the two is not significantly better than either alone. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Corticosteroids do not affect the long-term outcome. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Approximately 85&#x0025; of patients achieve a full functional recovery within several months to a year; mortality is 5&#x0025;. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Guillain-Barr&#x00E9; syndrome (GBS) is an acute, often symmetric, usually ascending and paralyzing illness caused by autoimmune inflammation of peripheral nerves.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Worldwide occurrence, with an incidence of 0.6 to 4.0&#x002F;100,000 per year. More males affected than females (ratio 1.5-2.0:1).<xref ref="guideline4110" resource="acc004" /></listitem>
+<listitem>Slight peak in late adolescence and again in the elderly.</listitem>
+<listitem>Known to occur in all ages although rare in infancy.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>GBS is the most common cause of acute neuromuscular paralysis.</listitem>
+<listitem>Autonomic dysfunction, including tachycardia (most common), urinary retention, hypertension alternating with hypotension, orthostatic hypotension, bradycardia, and other arrhythmias occur in approximately 70&#x0025;.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>About 70&#x0025; of patients report an antecedent acute infectious illness, most commonly a respiratory tract infection or gastroenteritis that has resolved by the time symptoms begin. <em>Campylobacter jejuni</em> infection is the most commonly identified antecedent infection.<xref ref="pubmed36430700" resource="acc020" /></listitem>
+<listitem>There is also an association with infection by <em>Haemophilus influenzae</em>, <em>Mycoplasma pneumoniae</em>, and cytomegalovirus (CMV).</listitem>
+<listitem>In the Netherlands, 5&#x0025; of patients with GBS have an associated acute Hepatitis E viral infection.<xref ref="PubMed24415572" resource="acc017" /></listitem>
+<listitem>Influenza vaccination is associated with a small but significantly increased risk of hospitalization because of GBS, estimated at 1.6 excess cases of GBS for every 1,000,000 people vaccinated with H1N1.<xref ref="pubmed17101939" resource="acc007" /><xref ref="PubMed23498095" resource="acc013" /></listitem>
+<listitem>GBS has been reported following vaccination for SARS-CoV-2. It appears to be more common following vaccination with the Ad26.COV.2 (Johnson and Johnson) vaccine (3.3 cases&#x002F;million doses) than with mRNA vaccines (0.3 cases&#x002F;million doses).<xref ref="pubmed36723942" resource="acc019" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The pathophysiology is essentially unknown.</listitem>
+<listitem>The proposed mechanism is that an antecedent infection evokes an immune response, which in turn cross-reacts with peripheral nerves (molecular mimicry).</listitem>
+<listitem>The immune response can be directed toward the myelin or the axon of peripheral nerves.</listitem>
+<listitem>Multifocal inflammatory demyelination occurs, starting at the level of the nerve roots, seen earliest at the nodes of Ranvier.</listitem>
+<listitem>Cellular and humoral immune responses participate.</listitem>
+<listitem>Activated T-cell invasion is followed by macrophage-mediated demyelination.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Diabetes mellitus</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Recent surgery</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Organ transplantation</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>HIV disease</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Patients whose GBS occurred within 42 days of influenza or toxoid containing vaccine should only receive these vaccines in the future if benefit clearly outweighs potential harm. However, many patients with a history of GBS not following vaccination also (inappropriately) decline future vaccinations. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed39090827" resource="acc022" /></listitem>
+<listitem>While there is a possible but very small increase in risk of GBS following messenger RNA vaccine for COVID, the benefits of the vaccine far outweight any potential harms.<xref ref="pubmed38227318" resource="acc023" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Clinical diagnosis is made by recognizing the pattern of rapidly evolving paralysis with areflexia, absence of constitutional symptoms, and characteristic antecedent events. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Elevated CSF protein and normal WBC are typical, as are abnormalities in nerve conduction studies. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Myasthenia gravis</Differential_Name>
+<Differential_Features>Intermittent and worsened by exertion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Botulism</Differential_Name>
+<Differential_Features>May cause fixed and dilated pupils (50&#x0025;) and prominent cranial nerve dysfunction</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Poliomyelitis</Differential_Name>
+<Differential_Features>Usually occurs in epidemics; fever and meningismus common</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Tick paralysis</Differential_Name>
+<Differential_Features>Ascending paralysis but sparing of sensation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>West Nile virus</Differential_Name>
+<Differential_Features>Headache, fever, and asymmetric flaccid paralysis but sparing of sensation</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Metabolic neuropathies</Differential_Name>
+<Differential_Features>Chronic metabolic disorder</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute myelopathies</Differential_Name>
+<Differential_Features>Prolonged back pain and sphincter disturbances</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Diptheria</Differential_Name>
+<Differential_Features>Early oropharyngeal disturbances</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Porphyria</Differential_Name>
+<Differential_Features>Abdominal pain, seizures, psychosis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Vasculitic neuropathy</Differential_Name>
+<Differential_Features>Elevated ESR</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>CMV polyradiculitis</Differential_Name>
+<Differential_Features>Immunocompromised patients</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Critical care polyneuropathy</Differential_Name>
+<Differential_Features>Sepsis, multiple-organ failure, or long-term ventilation</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Rapidly evolving areflexic motor paralysis is seen, with or without a sensory disturbance.</listitem>
+<listitem>The pattern is usually ascending, first noticed as a gait disturbance.</listitem>
+<listitem>Weakness evolves over hours to days accompanied by tingling dysesthesias in the extremities.</listitem>
+<listitem>Bladder dysfunction may occur in severe cases but is usually transient; if bladder dysfunction is a prominent feature and occurs early in the course, other etiologies, particularly spinal cord disease, should be considered.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Elevated protein and normal WBC in CSF (albuminocytologic dissociation) is characteristic, although protein is often normal in first week of illness.</listitem>
+<listitem>In a case series of 494 adults patients with GBS, the CSF demonstrated a mild pleocytosis (5-50 cells&#x002F;&#x03BC;L) 15&#x0025; of the time. However, none of the patients had more than 50 cells&#x002F;&#x03BC;L. An increased CSF protein concentration was found in only 64&#x0025; of patients, and became more common with increasing time from the onset of weakness (49&#x0025; at the first day to 88&#x0025; after 2 weeks).<xref ref="PubMed24163275" resource="acc016" /></listitem>
+<listitem>Nerve conduction studies initially may show prolonged F-wave latency; conduction block is common in GBS and is characteristic of acquired demyelinating neuropathy.</listitem>
+<listitem>Two sets of nerve conduction studies (one in the first 2 weeks and the other between weeks 3 and 8 of onset of disease), is sufficient for the electrodiagnosis of GBS.<xref ref="PubMed23395599" resource="acc014" /></listitem>
+<listitem>Perform MRI of the spinal cord if myelopathy or cord lesion are present.</listitem>
+<listitem>Forced vital capacity: if less than 15 mL&#x002F;kg, endotracheal intubation is indicated.</listitem>
+<listitem>Perform CXR for diaphragm weakness.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>Six predictors of mechanical ventilation in GBS are: time from onset to admission less than 7 days (OR 2.5), inability to cough (OR 9.1), inability to stand (OR 2.5), inability to lift the elbows (OR 3.0) or head (OR 4.3), and increases in liver enzyme levels (OR 2.1).</listitem>
+<listitem>The Erasmus Guillain-Barre Syndrome Respiratory insufficiency risk score includes days from onset of weakness to hospital admission (shorter is worse), presence of facial or bulbar weakness at hospital admission, and Medical Research Council sum score at hospital admission (lower is worse) to predict the need for ventilation. It has been prospectively validated. Scores range from 0 to 7 points with respiratory failure in 1&#x0025; to 90&#x0025;.<xref ref="pubmed39297721" resource="acc024" /></listitem>
+<listitem>Mechanical ventilation was required in more than 85&#x0025; of patients with at least four predictors.</listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Clinical diagnosis is made by recognizing the pattern of rapidly evolving paralysis with areflexia, the absence of constitutional symptoms, and characteristic antecedent events.<xref ref="pubmed12545029" resource="acc006" /></listitem>
+<listitem>If the diagnosis is strongly suspected, treatment should be initiated empirically.</listitem>
+<listitem>The need for mechanical ventilation is increased with more rapid progression; inability to cough, stand, lift elbows, or head; and elevated liver enzymes.<xref ref="pubmed12545029" resource="acc006" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>GBS is a medical emergency requiring constant monitoring and support of vital functions, typically in an intensive care unit. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>If the diagnosis is strongly suspected, treatment should be initiated without waiting for the evolution of characteristic findings to occur. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Either high-dose IVIg or plasma exchange can be initiated, as they are equally effective; IVIg is slightly safer and much easier to administer.<xref ref="pubmed34920107" resource="acc021" /><evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1798" resource="acc005" /><xref ref="cochrane2063" resource="acc008" /></listitem>
+<listitem>Corticosteroids neither hasten recovery nor affect the long-term outcome. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1446" resource="acc009" /></listitem>
+<listitem>Plasma exchange is more beneficial when started within 7 days of onset but is still beneficial in patients treated up to 30 days after disease onset. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1798" resource="acc005" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>The decision as to which immunotherapy to choose (i.e., IVIg vs. plasma exchange) is usually made on the basis of cost, availability, and side effects. IVIg is generally better tolerated.<xref ref="cochrane2063" resource="acc008" /></listitem>
+<listitem>Either high-dose IVIg or plasma exchange can be initiated, as they are equally effective; a combination of the two is not significantly better than either alone. A systematic review found that IVIg was significantly more likely than placebo to result in symptomatic improvement (OR 2.8, 95&#x0025; CI 1.4-5.6).<xref ref="pubmed34920107" resource="acc021" /><xref ref="guideline4110" resource="acc004" /><xref ref="cochrane1798" resource="acc005" /><xref ref="cochrane2063" resource="acc008" /></listitem>
+<listitem>IVIg is usually administered as five daily infusions for a total dose of 2 g&#x002F;kg body weight; often used as initial therapy secondary to ease of administration.</listitem>
+<listitem>Plasma exchange of 50 mL&#x002F;kg body weight is given on a schedule of alternating days.</listitem>
+<listitem>In mild GBS, two sessions of plasma exchange are significantly superior to none. In moderate GBS, four sessions of plasma exchange are significantly superior to two. In severe GBS, six sessions of plasma exchange are not superior to four. <evidence rating="B" system="SORT">B</evidence><xref ref="cochrane1798" resource="acc005" /></listitem>
+<listitem>Plasma exchange removes any previously administered IVIg, negating its benefits if performed as second line.</listitem>
+<listitem>IV methylprednisolone alone does not produce significant benefit or harm with GBS, and oral steroids may slow recovery.<xref ref="cochrane1446" resource="acc009" /></listitem>
+<listitem>Subcutaneous unfractionated or fractionated heparin and support stockings are recommended for nonambulatory adult patients until they become able to walk independently.</listitem>
+<listitem>Simple analgesics or NSAIDs often do not provide adequate pain relief.</listitem>
+<listitem>Gabapentin is effective in neuropathic pain and likely ineffective in acute pain.<xref ref="cochrane5452" resource="acc003" /></listitem>
+<listitem>A recent Cochrane review concluded that evidence for the effectiveness of other immunomodulatory therapies (the use of azathioprine, methotrexate, and interferon-beta) in the treatment of GBS is insufficient to rule out a small or moderate benefit.<xref ref="cochrane3280" resource="acc011" /></listitem>
+<listitem>A Chinese herbal medicine, tripterygium polyglycoside, compared to glucocorticoids was assocaited with a 47&#x0025; improvement in revocer after 8 weeks; these results require conformation.<xref ref="cochrane8360" resource="acc018" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Tracheostomy may be postponed for 2 weeks.</listitem>
+<listitem>If after 2 weeks the pulmonary function tests do not show any significant improvement from baseline, tracheostomy should be performed.<xref ref="pubmed16087757" resource="acc002" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>It is unknown whether azathioprine, interferon-beta, or any other immunosuppressives or treatments are beneficial for acute GBS or chronic inflammatory demyelinating polyradiculopathy.<xref ref="cochrane8630" resource="acc010" /><xref ref="cochrane3280" resource="acc011" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Treatment in the acute phase should include an individual program of gentle strengthening involving isometric, isotonic, isokinetic, and manual resistive and progressive resistive exercises.</listitem>
+<listitem>Multidisciplinary rehabilitation has some evidence of benefit in observational studies.<xref ref="cochrane8505" resource="acc012" /></listitem>
+<listitem>Rehabilitation should be focused on proper limb positioning, posture, orthotics, and nutrition.</listitem>
+<listitem>An exercise program may be beneficial for persistent fatigue.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Cardiac monitoring for arrhythmias</listitem>
+<listitem>Respiratory monitoring for possible intubation</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Approximately 85&#x0025; of patients achieve a full functional recovery within several months to a year. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Minor findings on examination, such as areflexia, may persist. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The mortality rate is approximately 5&#x0025;, mostly resulting from pulmonary complications. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Between 5&#x0025; and 10&#x0025; of patients have one or more relapses; such cases are then classified as chronic inflammatory demyelinating polyneuropathy. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education>
+<list style="bulleted">
+<listitem>Immunizations are not recommended during the acute phase of GBS and should probably not be given within 1 year after the onset of disease.</listitem>
+<listitem>After 1 year, the need for immunization should be reviewed on an individual basis.</listitem>
+<listitem>If GBS occurs within 6 weeks after a particular immunization, consideration should be given to avoiding that immunization in that individual in the future.</listitem>
+<listitem>Daily reassurance should be given as to the generally good outlook for recovery.</listitem>
+<listitem>Mortality among 527 patients with GBS was 2.8&#x0025; after 6 months and 3.9&#x0025; after 12 months. Risk factors for death included increasing age, increasing severity of muscle weakness, and the need for mechanical ventilation.<xref ref="PubMed23576619" resource="acc015" /></listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>A second peak in incidence in the elderly has been postulated as a failing of immune-suppressor mechanisms.</listitem>
+<listitem>The prognosis is worse in the elderly.</listitem>
+</list>
+</Elderly>
+<Pregnancy />
+<Children>
+<list style="bulleted">
+<listitem>In younger children, pain is frequently the only symptom they are able to articulate, and evidence of subtle weakness and loss of relexes may be overlooked.<xref ref="pubmed10356150" resource="acc001" /></listitem>
+<listitem>Gait disorder is the most common presentation in children.</listitem>
+<listitem>A peak in late adolescence and young adulthood coincides with an increased risk of infections with CMV and <em>Campylobacter jejuni</em>.</listitem>
+<listitem>Disease tends to be milder.</listitem>
+<listitem>The value of plasma exchange in children younger than 12 years is unknown.<xref ref="cochrane1798" resource="acc005" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed10356150">
+<accessionId id="acc001" href="info:pmid/10356150" />
+<authors>Nguyen DK, Agenarioti-B&#x00E9;langer S, Vanasse M.</authors>
+<title>Pain and the Guillain-Barr&#x00E9; syndrome in children under 6 years old.</title>
+<source>J Pediatr</source>
+<pubdate>1999</pubdate>
+<volume>134</volume>
+<pages>773-776</pages>
+</reference>
+<reference id="pubmed16087757">
+<accessionId id="acc002" href="info:pmid/16087757" />
+<authors>Hughes RA, Wijdicks EF, Benson E, et al.</authors>
+<title>Supportive care for patients with Guillain-Barre syndrome.</title>
+<source>Arch Neurol</source>
+<pubdate>2005</pubdate>
+<volume>62</volume>
+<pages>1194-1198</pages>
+</reference>
+<reference id="cochrane5452">
+<accessionId id="acc003" href="info:wiley/cochrane/CD005452" />
+<chapter_authors>Wiffen PJ, McQuay HJ, Edwards JE, Moore RA.</chapter_authors>
+<chapter_title>Gabapentin for acute and chronic pain (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="guideline4110">
+<accessionId id="acc004" href="info:wiley/eep-guideline/4110" />
+<citation />
+<url>http://www.ncbi.nlm.nih.gov/pubmed/14504313</url>
+<organization />
+<longtitle>Hughes RA, Wijdicks EF, Barohn R, et al. Practice parameter: immunotherapy for Guillain-Barre syndrome: report of the Quality Standards Subcommittee of the American Academy of Neurology. Neurology 2003;61:736-740.</longtitle>
+<title>Immunotherapy for Guillain-Barre syndrome (AAN)</title>
+<dateguideline>9&#x002F;23&#x002F;2003</dateguideline>
+</reference>
+<reference id="cochrane1798">
+<accessionId id="acc005" href="info:wiley/cochrane/CD001798" />
+<chapter_authors>Rapha&#x00EB;l JC, Chevret S, Hughes RAC, Annane D.</chapter_authors>
+<chapter_title>Plasma exchange for Guillain-Barr&#x00E9; syndrome (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2017 Issue 2.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed12545029">
+<accessionId id="acc006" href="info:pmid/12545029" />
+<accessionId id="acc006b" href="info:wiley/eep-rule/391" />
+<authors>Sharshar T, Chevret S, Bourdain F, Rapha&#x00EB;l JC; French Cooperative Group on Plasma Exchange in Guillain-Barr&#x00E9; Syndrome.</authors>
+<title>Early predictors of mechanical ventilation in Guillain-Barr&#x00E9; syndrome.</title>
+<source>Crit Care Med</source>
+<pubdate>2003</pubdate>
+<volume>31</volume>
+<pages>278-283</pages>
+</reference>
+<reference id="pubmed17101939">
+<accessionId id="acc007" href="info:pmid/17101939" />
+<authors>Juurlink DN, Stukel TA, Kwong J, et al.</authors>
+<title>Guillain-Barr&#x00E9; syndrome after influenza vaccination in adults: a population-based study.</title>
+<source>Arch Intern Med</source>
+<pubdate>2006</pubdate>
+<volume>166</volume>
+<pages>2217-2221</pages>
+</reference>
+<reference id="cochrane2063">
+<accessionId id="acc008" href="info:wiley/cochrane/CD002063" />
+<chapter_authors>Hughes RAC, Swan AV, van Doorn PA.</chapter_authors>
+<chapter_title>Intravenous immunoglobulin for Guillain-Barr&#x00E9; syndrome (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2014 Issue </book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1446">
+<accessionId id="acc009" href="info:wiley/cochrane/CD001446" />
+<chapter_authors>Hughes RAC, Swan AV, van Doorn PA.</chapter_authors>
+<chapter_title>Corticosteroids for Guillain-Barr&#x00E9; syndrome (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8630">
+<accessionId id="acc010" href="info:wiley/cochrane/CD008630" />
+<chapter_authors>Hughes RAC, Pritchard J, Hadden RDM.</chapter_authors>
+<chapter_title>Pharmacological treatment other than corticosteroids, intravenous immunoglobulin and plasma exchange for Guillain-Barr&#x00E9; syndrome (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2011 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3280">
+<accessionId id="acc011" href="info:wiley/cochrane/CD003280" />
+<chapter_authors>Mahdi-Rogers M, Swan AV, van Doorn PA, Hughes RAC.</chapter_authors>
+<chapter_title>Immunomodulatory treatment other than corticosteroids, immunoglobulin and plasma exchange for chronic inflammatory demyelinating polyradiculoneuropathy (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 11.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8505">
+<accessionId id="acc012" href="info:wiley/cochrane/CD008505" />
+<chapter_authors>Khan F, Ng L, Amatya B, Brand C, Turner-Stokes L, Khan F.</chapter_authors>
+<chapter_title>Multidisciplinary care for Guillain-Barr&#x00E9; syndrome (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 10.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="PubMed23498095">
+<accessionId id="acc013" href="info:pmid/23498095" />
+<authors>Salmon DA, Proschan M, Forshee R, Gargiullo P, Bleser W, Burwen DR, Cunningham F, Garman P, Greene SK, Lee G, Vellozzi C, Yih WK, Gellin B, Lurie N; H1N1 GBS Meta-Analysis Working Group</authors>
+<title>Association between Guillain-Barr&#x00E9; syndrome and influenza A (H1N1) 2009 monovalent inactivated vaccines in the USA: a meta-analysis.</title>
+<source>Lancet</source>
+<pubdate>2013</pubdate>
+<volume>381</volume>
+<pages>1461-1468</pages>
+</reference>
+<reference id="PubMed23395599">
+<accessionId id="acc014" href="info:pmid/23395599" />
+<authors>Shahrizaila N, Goh KJ, Abdullah S, Kuppusamy R, Yuki N</authors>
+<title>Two sets of nerve conduction studies may suffice in reaching a reliable electrodiagnosis in Guillain-Barr&#x00E9; syndrome.</title>
+<source>Clin Neurophysiol</source>
+<pubdate>2013</pubdate>
+<volume>124</volume>
+<pages>1456-1459</pages>
+</reference>
+<reference id="PubMed23576619">
+<accessionId id="acc015" href="info:pmid/23576619" />
+<authors>van den Berg B, Bunschoten C, van Doorn PA, Jacobs BC.</authors>
+<title>Mortality in Guillain-Barre syndrome.</title>
+<source>Neurology</source>
+<pubdate>2013</pubdate>
+<volume>80</volume>
+<pages>1650&#x2013;1654</pages>
+</reference>
+<reference id="PubMed24163275">
+<accessionId id="acc016" href="info:pmid/24163275" />
+<authors>Fokke C, van den Berg B, Drenthen J, Walgaard C, van Doorn PA, Jacobs BC.</authors>
+<title>Diagnosis of Guillain-Barr&#x00E9; syndrome and validation of Brighton criteria.</title>
+<source>Brain</source>
+<pubdate>2014</pubdate>
+<volume>137</volume>
+<pages>33-43</pages>
+</reference>
+<reference id="PubMed24415572">
+<accessionId id="acc017" href="info:pmid/24415572" />
+<authors>van den Berg B, van der Eijk AA, Pas SD, Hunter JG, Madden RG, Tio-Gillen AP, Dalton HR, Jacobs BC.</authors>
+<title>Guillain-Barr&#x00E9; syndrome associated with preceding hepatitis E virus infection.</title>
+<source>Neurology</source>
+<pubdate>2014</pubdate>
+<volume>82</volume>
+<pages>491-497</pages>
+</reference>
+<reference id="cochrane8360">
+<accessionId id="acc018" href="info:wiley/cochrane/CD008360" />
+<chapter_authors>Estcourt LJ, Fortin PM, Hopewell S, Trivella M, Hambleton IR, Cho G.</chapter_authors>
+<chapter_title>Regular long-term red blood cell transfusions for managing chronic chest complications in sickle cell disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 5. Art. No.: CD008360. DOI: 10.1002&#x002F;14651858.CD008360.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed36723942">
+<accessionId id="acc019" href="info:pmid/36723942" />
+<authors>Abara WE, Gee J, Marquez P, Woo J, Myers TR, DeSantis A, Baumblatt JAG, Woo EJ, Thompson D, Nair N, Su JR, Shimabukuro TT, Shay DK.</authors>
+<title>Reports of Guillain-Barr&#x00E9; Syndrome After COVID-19 Vaccination in the United States.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2023</pubdate>
+<volume>6</volume>
+<pages>e2253845</pages>
+</reference>
+<reference id="pubmed36430700">
+<accessionId id="acc020" href="info:pmid/36430700" />
+<authors>Finsterer J .</authors>
+<title>Triggers of Guillain-Barr&#x00E9; Syndrome: <em>Campylobacter jejuni</em> Predominates.</title>
+<source>Int J Mol Sci</source>
+<pubdate>2022</pubdate>
+<volume>23</volume>
+<pages />
+</reference>
+<reference id="pubmed34920107">
+<accessionId id="acc021" href="info:pmid/34920107" />
+<authors>Morales-Ruiz V, Ju&#x00E1;rez-Vaquera VH, Rosetti-Sciutto M, S&#x00E1;nchez-Mu&#x00F1;oz F, Adalid-Peralta L.</authors>
+<title>Efficacy of intravenous immunoglobulin in autoimmune neurological diseases. Literature systematic review and meta-analysis.</title>
+<source>Autoimmun Rev</source>
+<pubdate>2022</pubdate>
+<volume>21</volume>
+<pages>103019</pages>
+</reference>
+<reference id="pubmed39090827">
+<accessionId id="acc022" href="info:pmid/39090827" />
+<authors>Eiffert SR , Kinlaw AC , Sleath BL, Thorpe CT , Traub R , Raman SR , St&#x00FC;rmer T .</authors>
+<title>Vaccine patterns among older adults with Guillain-Barr&#x00E9; syndrome and matched comparators, 2006-2019.</title>
+<source>J Am Geriatr Soc</source>
+<pubdate>2024</pubdate>
+<volume>72</volume>
+<pages>3055&#x2013;3067</pages>
+</reference>
+<reference id="pubmed38227318">
+<accessionId id="acc023" href="info:pmid/38227318" />
+<authors>Willison AG, Pawlitzki M, Lunn MP, Willison HJ, Hartung HP, Meuth SG.</authors>
+<title>SARS-CoV-2 Vaccination and Neuroimmunological Disease: A Review.</title>
+<source>JAMA Neurol</source>
+<pubdate>2024</pubdate>
+<volume>81</volume>
+<pages>179&#x2013;186</pages>
+</reference>
+<reference id="pubmed39297721">
+<accessionId id="acc024" href="info:pmid/39297721" />
+<authors>McKenzie ED, Kromm JA , Mobach T, Solverson K, Waite J, Rabinstein AA.</authors>
+<title>Risk Stratification and Management of Acute Respiratory Failure in Patients With Neuromuscular Disease.</title>
+<source>Crit Care Med</source>
+<pubdate>2024</pubdate>
+<volume>52</volume>
+<pages>1781&#x2013;1789</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Diabetes insipidus (AVP-D and AVP-R)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0123</topic_id>
+<topic_comment />
+<topic_lastupdated>02/03/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mark H. Ebell, MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Ved V. Gossain, MD, FACE, FACP</author_name>
+<author_title>Professor of Medicine</author_title>
+<author_department>Department of Medicine, Division of Endocrinology</author_department>
+<author_institution>Michigan State University, College of Human Medicine</author_institution>
+<author_email>gossain&#x0040;msu.edu</author_email>
+<author_phone_office>(517) 353 3730</author_phone_office>
+<author_phone_home>(517) 349 2886</author_phone_home>
+<author_phone_fax>(517) 432 1326</author_phone_fax>
+<author_street1>788 Service Road, B 323 Clinical Center, Michigan State University</author_street1>
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48824</author_zip>
+</author>
+<author primary="no">
+<author_name>Saleh A. Aldasouqi, MD, FACE</author_name>
+<author_title>Director</author_title>
+<author_department> Department of Medicine, Division of Endocrinology</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email>saleh.aldasouqi&#x0040;hc.msu.edu</author_email>
+<author_phone_office>517 3533730</author_phone_office>
+<author_phone_home />
+<author_phone_fax>517 4321326</author_phone_fax>
+<author_street1>788 Service Road, B 330 Clinical Center</author_street1>
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip>48824</author_zip>
+</author>
+<author primary="no">
+<author_name>Naveen Kakumanu, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Medicine, Division of Endocrinology</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1>788 Service Road, B311 Clinical Center</author_street1>
+<author_street2 />
+<author_city />
+<author_state>MI</author_state>
+<author_zip>48824</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Diabetes insipidus (DI) is characterized by the excretion of large volumes of hypotonic (dilute) urine. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>DI may result from damage to the hypothalamus or posterior pituitary (central DI) or from resistance to the action of arginine vasopressin (AVP; nephrogenic DI). In dipsogenic DI, large volumes of dilute urine result from excessive ingestion of water as the primary defect. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Diagnosis of DI can be established by water deprivation test and by measurement of AVP levels. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment of central DI is replacement of AVP by its analogue, desmopressin (dDAVP). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment of nephrogenic DI is to reduce the urine volume by sodium restriction and thiazide diuretics. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment of dipsogenic DI is the treatment of the underlying condition that is causing the excessive intake of water. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Diabetes insipidus (DI) is a rare disorder caused by the inability of the kidneys to conserve water, which leads to frequent urination and pronounced thirst.<xref ref="web001" /> It has recently been recommended by the Endocine Society and others that it be renamed to arginine vasopressin deficiency (AVP-D) which was formerly central DI, and arginine vasopressin resistance (AVP-R) which was formerly nephrogenic DI.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>DI is a rare disease, with an estimated prevalence of 1 case per 25,000 people.</listitem>
+<listitem>The actual incidence of DI may be higher because of underreporting.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>There are 3 types of DI: central, nephrogenic, pregnancy associated, and dipsogenic.</listitem>
+<listitem><strong>Arginine vasopressin deficiency (AVP-D): formerly</strong> called central DI, this results from a deficiency of antidiuretic hormone (ADH) or AVP. Central DI may be hereditary or acquired. Acquired DI may result from damage to the hypothalamus or posterior pituitary due to head trauma, neurosurgery, tumors, infiltrative disorders or infections. Pituitary stalk preserving pituitary surgery reduces the likelihood of post-operative DI.<xref ref="pubmed39366020" resource="acc015" /></listitem>
+<listitem><strong>Arginine vasopressin resistance (AVP-R):</strong> formerly called nephrogenic DI, <strong>it</strong> results from the inability of the kidneys to respond to ADH. It may also be familial (X-linked recessive or autosomal recessive) or acquired secondary to chronic renal disease, hypercalcemia, or drugs such as lithium or demeclocycline.</listitem>
+<listitem><strong>Pregnancy associated:</strong> may result in transient DI or unmask partial DI due to increased AVP metabolism by placental vasopressinase.</listitem>
+<listitem><strong>Dipsogenic DI</strong>: results from excessive water intake, which suppresses ADH secretion. This type is also referred to as primary polydipsia or psychogenic DI.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>AVP is the main hormone involved in the regulation of water balance in humans. AVP activates the renal vasopressin 2 receptors at the basolateral membrane of the principal cells and increases the tubular fluid permeability via cAMP induced phopshorylation channels aquaporin 2 (AQP2).<xref ref="pubmed9039043" resource="acc002" /></listitem>
+<listitem>Its synthesis and secretion is regulated by 2 systems: osmotic and pressure-volume. Normally the plasma osmolality is maintained in a very narrow range.</listitem>
+<listitem>An increase in plasma osmolality as little as 1&#x0025; results in increased secretion of AVP. The volume receptors and baroreceptor responses leading to an increased secretion of AVP are much less sensitive than osmoreceptors. However, when hypovolemia is sufficient to cause a drop in blood pressure there is a sudden increase in the level of plasma AVP. AVP acts on the renal-collecting ducts to increase water permeability, resulting in an increase in urinary concentration and a decrease in volume.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Document the existence of large volumes of dilute urine. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Perform water deprivation test to establish the diagnosis of DI and to differentiate between various causes of polyuria. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Measure AVP levels as part of water deprivation test, and interpret AVP levels in relation to the coexisting plasma osmolality. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Central diabetes insipidus</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Nephrogenic diabetes insipidus</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Dipsogenic diabetes insipidus</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Diabetes mellitus (initial presentation)</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Patients typically present with polyuria and polydipsia.</listitem>
+<listitem>Urine volume usually exceeds 3.5 L&#x002F;d or 50 mL&#x002F;kg; urine volume as high as 20 L&#x002F;d has been described. Urine osmolality is less than 300 mOsm&#x002F;kg. Urine osmolality will be high in patients with diabetes mellitus due to glycosuria.</listitem>
+<listitem>Thirst may be intense or uncontrollable. Patients usually prefer iced water.</listitem>
+<listitem>If the fluid intake has been insufficient there may be evidence of dehydration and electrolyte imbalance.</listitem>
+<listitem>Up to 30&#x0025; of patients may develop transient DI after pituitary surgery. With more extensive surgery especially involving the hypothalamus, patients may exhibit a pattern known as triphasic DI. The first phase is the onset of DI within the first 24 hours post surgery thought to be caused by axonal shock. The second phase is an antidiuretic phase thought to be due to the unregulated release of vasopressin from the stored hormone in the axons of the posterior pituitary. After the stored hormone has been depleted, DI ensues, marking the third phase. An important clinical observation is that the second phase may occur without preceding or subsequent DI.<xref ref="pubmed10468901" resource="acc009" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>A diagnosis of DI can be established and various causes of polyuria can be differentiated by an indirect and a direct test.</listitem>
+<listitem>In some laboratories, serum osmolality may not be measured accurately. In that case, serum sodium can replace serum osmolalty</listitem>
+<listitem>Before proceeding with the indirect test, measure plasma osmolality. If the basal plasma osmolaltiy (or serum sodium) is above normal and the urine osmolaltiy is below 300 mOsm&#x002F;kg H<sub>2</sub>O, the water deprivation test is unnecessary and potentially harmful. In that case skip directly to the dDAVP administration as described below.</listitem>
+<listitem>To perform the indirect test (also called the water deprivation test): At baseline record patient's weight and obtain plasma and urine osmolality on a stat basis. Restrict all fluids and obtain urine and plasma osmolality along with body weight every hour. Closely monitor the patient for signs of dehydration and be sure that the patient does not ingest any fluids surreptitiously. The fluid deprivation is continued until (a) plasma osmolality increases above normal, or (b) urine osmolality exceeds 300 mOsm&#x002F;kg. If plasma osmolality exceeds normal before urine osmolality reaches 300 mOsm&#x002F;kg, primary polydipsia, partial neurogenic DI, and partial nephrogenic DI are essentially excluded. Then give an injection of 2 &#x03BC;g of dDAVP subcutaneously. An increase of urine osmolality by 50&#x0025; confirms the diagnosis of central DI, and an increase of plasma osmolality of less than 50&#x0025; confirms the diagnosis of nephrogenic DI.</listitem>
+<listitem>If urine osmolality exceeds 300 mOsm&#x002F;kg before the plasma osmolality exceeds normal, complete neurogenic DI and nephrogenic DI are excluded.</listitem>
+<listitem>Further evaluation can only be done by direct measurement of plasma AVP levels of the blood samples saved during the water deprivation test and correlating them with the concurrently obtained plasma osmolality.</listitem>
+<listitem>If plasma AVP level is less than 1 pg&#x002F;mL at baseline and remains low in relation to concurrent plasma osmolality with fluid deprivation, a diagnosis of partial neurogenic DI can be made.</listitem>
+<listitem>If plasma AVP level is higher than 2 pg&#x002F;mL at baseline and remains either normal or high in relation to the concurrent plasma osmolality with fluid deprivation, a diagnosis of partial nephrogenic DI can be made.</listitem>
+<listitem>If plasma AVP level at baseline is less than 1 pg&#x002F;mL and remains normal with fluid deprivation, a diagnosis of primary polydipsia can be made.</listitem>
+<listitem>Interpretation of results is always clear when plasma osmolality (or plasma sodium) is above normal. If this does not occur with fluid deprivation alone, an infusion of 3&#x0025; saline at a rate of 0.1 mL&#x002F;kg&#x002F;min can be used to raise the plasma osmolality above the normal range and results can be interpreted as described above.<xref ref="web002" /></listitem>
+<listitem>Using a combination of both the direct and indirect tests may provide the best distinction and should be used whenever reliable assays of plasma AVP are available, as there are well-characterized techincal difficultties of the AVP assay.<xref ref="pubmed7311999" resource="acc004" /></listitem>
+<listitem>The hypertonic saline stimulated plasma copeptin test has been proposed as an alternative to the above tests. In a study of 141 patients it was more accurate than the water depreviation test. Plasma copeptin is measured when the serum sodium level increased to at least 150 mmol&#x002F;L after a hypertonic saline infusion, with a cutoff of &gt;4.9 pmol&#x002F;L.<xref ref="pubmed30067922" resource="acc010" /></listitem>
+<listitem>In a systematic review of 422 patients with polydipsia and polyuria, a hypertonic saline stimulated copeptin test was highly accurate at distinguishing primary polydipsia from arginine vasopressin deficiency (cranial DI) with sensitivity of 93&#x0025; and specificity of 96&#x0025; (LR+ 23, LR- 0.07).<xref ref="pubmed37225043" resource="acc014" /></listitem>
+<listitem>An MRI should be obtained in patients with central DI. The "bright spot" of the posterior pituitary is almost invariably absent or abnormally small in patients with central DI, but is present in healthy control patients.<xref ref="pubmed9265683" resource="acc005" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Typical presenting features are polyuria and polydipsia.</listitem>
+<listitem>Clinical data are of limited help because patients with a preserved thirst mechanism biochemically do not differ significantly.<xref ref="pubmed22855338" resource="acc006" /></listitem>
+<listitem>The existence of increased urine volume should be established by recording the water intake and output and determining that the urine osmolality is less than 300 mOsm&#x002F;kg.</listitem>
+<listitem>The diagnosis of DI can be established by an indirect test (water deprivation test) and also by a direct test (measurement of AVP). These tests also help in differentiating the different types of DI and are described in the Diagnostic Strategy section.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>For central DI (AVP-D), administer dDAVP orally or intranasally. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For nephrogenic DI (AVP-R), reduce urine volume by sodium restriction and thiazide diuretics. dDAVP may be added if the resistance to dDAVP is partial. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>For dipsogenic DI, treat the underlying condition. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Central DI (arginine vasopressin deficiency or AVP-D)</strong></listitem>
+<listitem>The treatment of choice is replacement with dDAVP. This drug can be administered intranasally, 5 to 20 &#x03BC;g once or twice daily, or 100 to 200 &#x03BC;g orally 1 to 3 times daily. dDAVP does not have pressor effects but has the potential for causing hyponatremia if patients continue to drink inappropriately despite antidiuresis. Patients should be started on a small dose of dDAVP, with dose adjustments to reduce the urine volume to a comfortable level. Plasma electrolytes should be monitored to keep them in a normal range, at least every 4 hours during the acute phase of treatment.</listitem>
+<listitem><strong>Nephrogenic DI (arginine vasopressin resistance or AVP-R)</strong></listitem>
+<listitem>The treatment is difficult, except in cases when it is drug induced, when it will usually reverse when the offending drug is removed. A reduction in the urine volume may be achieved by sodium restriction and thiazide diuretics. A reduction in the urine volume may also be obtained by the use of indomethacin, a prostaglandin inhibitor. A combination of thiazides, indomethacin, and dDAVP may result in a reduction of urine volume of up to 80&#x0025;. In complete nephrogenic DI, dDAVP will not be helpful.</listitem>
+<listitem>Dipsogenic DI: Patients with primary polydipsia frequently have underlying psychiatric disorders that need to be addressed appropriately.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>A small study (n &#x003D; 50) evaluated a dietary bundle consistening of intake of only water during thirst and avoidance of the following-added salt, high-protein foods and caffeinated drinks in comparison with usual care. They found a shorter hospital stay, less need for vasopressin analogues, and less hyponatremia in the intervention group.<xref ref="pubmed34028859" resource="acc012" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>No prolonged side effects. Prognosis for a normal life span and quality of life is excellent.</listitem>
+<listitem>Central and nephrogenic DI are permanent except in cases when nephrogenic DI is drug induced, when it will usually reverse when the offending drug is removed.</listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Established central DI has little effect on fertility, pregnancy, or lactation in humans.</listitem>
+<listitem>Aggravation of partial DI may occur during pregnancy<xref ref="pubmed1992305" resource="acc007" /> and transient DI of pregnancy can be caused by the activity of placental enzymes (eg, vasopressinase) and resistance to AVP, but not to dDAVP as has also been described.<xref ref="pubmed15863571" resource="acc008" /></listitem>
+<listitem>Signs and symptoms of DI are the same during pregnancy as they are in the nonpregnant state.</listitem>
+<listitem>Central DI (partial or complete) and even transient DI of pregnancy can be treated with dDAVP since it is resistant to the action of vasopressinases.</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>A UK guideline was published in 2021 for the management of children and young adults &lt;19 years with idiopathic thickened pituitary stalk (TPS) and&#x002F;or idiopathic central diabetes insipidus (CDI).<xref ref="pubmed34214482" resource="acc011" /></listitem>
+<listitem>Initial evaluation should include CBC, ESR, BUN, creatinine, electrolytes, beta-HCG, hepatic transaminases, and alpha fetoprotein.</listitem>
+<listitem>In patients with idiopathic TPS or idiopathic CDI, 45&#x0025; ultimately had a neoplastic diagnosis, 19&#x0025; a congenital cause, 7&#x0025; infectious&#x002F;traumatic&#x002F;inflammatory&#x002F;other, and 29&#x0025; remained idiopathic.</listitem>
+<listitem>The guideline provides detailed management guidance in the form of a flowchart, based on the initial size of the lesion.</listitem>
+<listitem>A <resourceLink href="https://www.rch.org.au/clinicalguide/guideline_index/diabetes_insipidus/">second guideline</resourceLink> from the Royal Melbourne Children's hospital emphasizes that fluids should never be restricted, and that urine output may not reflect the child's hydration status. Inpatients should have electrolytes and fluid balance closely monitored.</listitem>
+<listitem>A systematic review of 17 patients in 12 case reports identified venous thromboembolism as a potential post-operative complication in children with centrl DI.<xref ref="pubmed35213827" resource="acc013" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="web001">
+<citation>MedlinePlus [Internet]. Bethesda, MD: National Library of Medicine (US); [updated 2005 Aug 12]. Diabetes Insipidus; [updated: 04 March 2009; reviewed 25 September 2008]; [about 2 p. ]. Available from: http:&#x002F;&#x002F;www.nlm.nih.gov&#x002F;medlineplus&#x002F;diabetesinsipidus.html</citation>
+<url>http://www.nlm.nih.gov/medlineplus/diabetesinsipidus.html</url>
+<organization />
+<longtitle />
+<title>Diabetes insipidus</title>
+<dateguideline />
+</reference>
+<reference id="pubmed9039043">
+<accessionId id="acc002" href="info:pmid/9039043" />
+<authors>Knepper MA.</authors>
+<title>Molecular physiology of urinary concentrating mechanism: Regulation of aquaporin water channels by vasopressin.</title>
+<source>Am J Physiol</source>
+<pubdate>1997</pubdate>
+<volume>272</volume>
+<pages>F3&#x2013;F12.</pages>
+</reference>
+<reference id="web002">
+<citation />
+<url>http://www.diabetesinsipidus.org/water_deprivation_protocol_pdf.pdf</url>
+<organization>The Diabetes Insipidus Foundation</organization>
+<longtitle />
+<title>Protocol water deprivation test.</title>
+<dateguideline />
+</reference>
+<reference id="pubmed7311999">
+<accessionId id="acc004" href="info:pmid/7311999" />
+<authors>Stern P, Valtin H.</authors>
+<title>Verney was right, but...</title>
+<source>N Engl J Med</source>
+<pubdate>1981</pubdate>
+<volume>305</volume>
+<pages>1581&#x2013;1582.</pages>
+</reference>
+<reference id="pubmed9265683">
+<accessionId id="acc005" href="info:pmid/9265683" />
+<authors>Ozata M, Tayfun C, Kurtaran K, et al.</authors>
+<title>Magnetic resonance imaging of posterior pituitary for evaluation of the neurohypophyseal function in idiopathic and autosomal dominant neurohypophyseal diabetes insipidus.</title>
+<source>Eur Radiol</source>
+<pubdate>1997</pubdate>
+<volume>7</volume>
+<pages>1098&#x2013;1102.</pages>
+</reference>
+<reference id="pubmed22855338">
+<accessionId id="acc006" href="info:pmid/22855338" />
+<authors>Fenske W, Allolio B.</authors>
+<title>Clinical review: Current state and future perspectives in the diagnosis of diabetes insipidus: A clinical review.</title>
+<source>J Clin Endocrinol Metab</source>
+<pubdate>2012</pubdate>
+<volume>97</volume>
+<pages>3426&#x2013;3437.</pages>
+</reference>
+<reference id="pubmed1992305">
+<accessionId id="acc007" href="info:pmid/1992305" />
+<authors>Iwasaki Y, Oiso Y, Kondo K, et al.</authors>
+<title>Aggravation of subclinical diabetes insipidus during pregnancy.</title>
+<source>N Engl J Med</source>
+<pubdate>1991</pubdate>
+<volume>324</volume>
+<pages>522&#x2013;526.</pages>
+</reference>
+<reference id="pubmed15863571">
+<accessionId id="acc008" href="info:pmid/15863571" />
+<authors>Brewster UC, Hayslett JP.</authors>
+<title>Diabetes insipidus in the third trimester of pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2005</pubdate>
+<volume>105</volume>
+<pages>1173&#x2013;1176.</pages>
+</reference>
+<reference id="pubmed10468901">
+<accessionId id="acc009" href="info:pmid/10468901" />
+<authors>Hensen J, Henig A, Fahlbusch R, Meyer M, Boehnert M, Buchfelder M.</authors>
+<title>Prevalence, predictors and patterns of postoperative polyuria and hyponatraemia in the immediate course after transsphenoidal surgery for pituitary adenomas.</title>
+<source>Clin Endocrinol (Oxf)</source>
+<pubdate>1999</pubdate>
+<volume>50</volume>
+<pages>431&#x2013;439.</pages>
+</reference>
+<reference id="pubmed30067922">
+<accessionId id="acc010" href="info:pmid/30067922" />
+<authors>Fenske W, Refardt J, Chifu I, Schnyder I, Winzeler B, Drummond J, Ribeiro-Oliveira A Jr, Drescher T, Bilz S, Vogt DR, Malzahn U, Kroiss M, Christ E, Henzen C, Fischli S, T&#x00F6;njes A, Mueller B, Schopohl J, Flitsch J, Brabant G, Fassnacht M, Christ-Crain M.</authors>
+<title>A copeptin-based approach in the diagnosis of diabetes insipidus.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>428&#x2013;439.</pages>
+</reference>
+<reference id="pubmed34214482">
+<accessionId id="acc011" href="info:pmid/34214482" />
+<authors>Cerbone M, Visser J, Bulwer C, Ederies A, Vallabhaneni K, Ball S, Kamaly-Asl I, Grossman A, Gleeson H, Korbonits M, Nanduri V, Tziaferi V, Jacques T, Spoudeas HA.</authors>
+<title>Management of children and young people with idiopathic pituitary stalk thickening, central diabetes insipidus, or both: A national clinical practice consensus guideline.</title>
+<source>Lancet Child Adolesc Health</source>
+<pubdate>2021</pubdate>
+<volume>5</volume>
+<pages>662&#x2013;676.</pages>
+</reference>
+<reference id="pubmed34028859">
+<accessionId id="acc012" href="info:pmid/34028859" />
+<authors>Koundal H, Dhandapani M, Thakur P, Dutta P, Walia R, Sahoo SK, Chhabra R, Dhandapani S.</authors>
+<title>Effectiveness of dietary diabetes insipidus bundle on the severity of postoperative fluid imbalance in pituitary region tumours: A randomized controlled trial.</title>
+<source>J Adv Nurs</source>
+<pubdate>2021</pubdate>
+<volume>77</volume>
+<pages>3911&#x2013;3920.</pages>
+</reference>
+<reference id="pubmed35213827">
+<accessionId id="acc013" href="info:pmid/35213827" />
+<authors>Lambert WA, Paro M, Pinci E, Bookland MJ, Martin JE, Riba-Wolman R, McKay L, Hersh DS.</authors>
+<title>Venous thromboembolism in the setting of pediatric central diabetes insipidus: a systematic review of the literature and report of 2 cases.</title>
+<source>J Neurosurg Pediatr</source>
+<pubdate>2022</pubdate>
+<volume>29</volume>
+<pages>580&#x2013;589.</pages>
+</reference>
+<reference id="pubmed37225043">
+<accessionId id="acc014" href="info:pmid/37225043" />
+<authors>Mu D, Ma Y, Cheng J, Qiu L, Chen S, Cheng X.</authors>
+<title>Diagnostic Accuracy of Copeptin in the Differential Diagnosis of Patients With Diabetes Insipidus: A Systematic Review and Meta-analysis.</title>
+<source>Endocr Pract</source>
+<pubdate>2023</pubdate>
+<volume>29</volume>
+<pages>644&#x2013;652.</pages>
+</reference>
+<reference id="pubmed39366020">
+<accessionId id="acc015" href="info:pmid/39366020" />
+<authors>Kamaludin AI, Amoo M, Henry J, Reischer G, Javadpour M.</authors>
+<title>Effect of pituitary stalk preservation during craniopharyngioma removal on pituitary function, extent of resection, and recurrence: systematic review and meta-analysis.</title>
+<source>J Neurosurg</source>
+<pubdate>2025</pubdate>
+<volume>142</volume>
+<pages>741&#x2013;755.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

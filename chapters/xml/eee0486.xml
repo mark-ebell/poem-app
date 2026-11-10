@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Esophageal cancer</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0486</topic_id>
+<topic_comment />
+<topic_lastupdated>04/09/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>James Hayman, MD, MBA</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Radiation Oncology</author_department>
+<author_institution>The University of Michigan</author_institution>
+<author_email />
+<author_phone_office>734 936 4300</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>UH B2C490 Box 0010</author_street1>
+<author_street2>1500 East Medical Center Drive</author_street2>
+<author_city>Ann Arbor</author_city>
+<author_state>MI</author_state>
+<author_zip>48109-0010</author_zip>
+</author>
+<author primary="no">
+<author_name>Joseph N. Contessa, MD</author_name>
+<author_title>Associate Professor</author_title>
+<author_department>Department of Therapeutic Radiology</author_department>
+<author_institution>Yale University</author_institution>
+<author_email>joseph.contessa&#x0040;yale.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>New Haven</author_city>
+<author_state>CT</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Noelle O'Rourke, MA, MD, FRCP, FRCR</editor_name>
+<editor_title>Consultant and Honorary Senior Lecturer in Clinical Oncology</editor_title>
+<editor_institution>Beatson Cancer Centre, Glasgow, UK</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Esophageal cancer is typically diagnosed in older men with symptoms of dysphagia and weight loss. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Pathologic diagnosis is required and tissue is obtained by endoscopic biopsy and cytology. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Tumor location and staging determine therapeutic options. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Locoregional disease is treated with curative intent with multimodality therapy (radiation, chemotherapy, with or without surgery). <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Many patients present with metastatic disease, where the goal of therapy is to provide palliation of symptoms. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Nivolumab immunotherapy as adjuvant treatment following neo-adjuvant chemoradiation followed by complete surgical resection has demonstrated significant benefit in disease free survival (22.4 months vs. 11 months). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed33789008" resource="acc031" /></listitem>
+</list>
+</BottomLine>
+<definition>A malignancy of the esophagus, usually an adenocarcinoma or squamous cell carcinoma but occasionally a small cell carcinoma.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>There are an estimated 15,500 new cases per year in the United States (4.6 per 10,00,000 persons per year).<xref ref="web002" /></listitem>
+<listitem>The incidence of adenocarcinoma is on the rise. This histology now accounts for one-half of diagnoses compared with less than 10&#x0025; in the 1960s.</listitem>
+<listitem>Male incidence predominates (male to female ratio of 4:1); the median age at diagnosis is 69 years, with one-third under the age of 65.</listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>24,785 cases in the United States (approximately 1 in 10,000 adults).</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Sixth leading cause of cancer death among men in the United States.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Tobacco and alcohol abuse cause DNA mutations that lead to dysregulated cellular proliferation and malignant transformation in squamous cell carcinomas.</listitem>
+<listitem>It has been proposed that gastroesophageal reflux causes Barrett's esophagus (metaplasia), which can progress to low- or high-grade dysplasia and ultimately to adenocarcinoma. However, Barrett's is common in patients without symptoms of gastroesophageal reflux disease (GERD).<xref ref="poem41104" resource="acc006" /></listitem>
+<listitem>A Scandinavian review following up endoscopies performed over a 32 year period with a cohort of 486,000 patients concluded that non-erosive gastroesophageal reflux (GERD) was not associated with increased risk of subsequent esophageal cancer as national cancer registry data enabled tracking of this population and showed similar incidence to background population. However erosive GERD did double risk of subsequent cancer although risk remained low overall<xref ref="poem377406" resource="acc039" />.</listitem>
+<listitem>The proportional increase in adenocarcinomas of the esophagus, compared with squamous cell carcinomas, is likely due to the increased incidence of obesity, reflux, and Barrett's esophagus.</listitem>
+<listitem>Ninety percent of adenocarcinomas are found at the gastroesophageal junction, further implicating acid reflux as a potentially causative factor.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Esophageal cancer can spread through direct extension, through lymphatics, and less commonly through hematogenous dissemination.</listitem>
+<listitem>Lymph node involvement is common in esophageal cancer, and primary esophageal tumors in the cervical, thoracic, or distal&#x002F;gastroesophageal junction typically involve different lymph node groups.</listitem>
+<listitem>Approximately 40&#x0025; of patients have metastasis at initial presentation. Common sites of distant metastasis involve the lung, liver, bone, and adrenal glands.</listitem>
+<listitem>PDL1 expression is associated with reduced overall survival in a recent meta-analysis but further investigation is required in relation to treatment options. <xref ref="pubmed30045299" resource="acc029" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>SQUAMOUS CELL</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Tobacco and alcohol exposure</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of prior squamous cell carcinoma</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Thermal or chemical injury</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>ADENOCARCINOMA</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Barrett's esophagus</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Obesity&#x002F;elevated body mass index</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screening for esophageal cancer is controversial.<xref ref="poem50103" resource="acc004" /> The Scottish Intercollegiate Guidelines network only recommends upper endoscopy for patients with weight loss or with GERD and alarm symptoms. <evidence rating="C" system="SORT">C</evidence><xref ref="guideline9475" resource="acc001" /></listitem>
+<listitem>Surveillance at intervals based on length of involvement and presence of absence of dysplasia is recommended with Barrett's esophagus.<xref ref="pubmed41125322" resource="acc046" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A trial found that high dose PPI with aspirin resulted in lower mortality and progression in patients with Barrett's esophagus. <evidence rating="B" system="SORT">B</evidence><xref ref="poem201030" resource="acc025" />.</listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>American Gastroenterological Association (AGA) guidelines (2025) recommend surveillance for patients with Barrett's Esophagus (BE) as follows:<xref ref="pubmed41125322" resource="acc046" />
+<list style="bulleted">
+<listitem>Non-dysplastic BE &lt; 1 cm: do not perform surveillance</listitem>
+<listitem>Non-dysplastic BE &gt;&#x003D; 1 cm: perform surveillance every 3 years, extend to 5 years in patients at lower risk of progression</listitem>
+<listitem>BE with low grade dysplasia: surveillance every 6 months for 1 year and then annually, OR endoscopic eradication therapy (EET).</listitem>
+<listitem>BE indefinite for dysplasia: annual endoscopic surveillance</listitem>
+<listitem>High grade dysplasia: definitive treatment.</listitem>
+</list></listitem>
+<listitem>A randomised controlled trial of 3453 patients with Barrett's esophagus (the BOSS trial) with median follow up over 12 years found no survival benefit for routine endoscopy every 2 years over endoscopy as needed based on symptoms only. There was no difference in cancer-specific survival (108 vs 106 deaths), time to diagnosis of cancer, or stage at diagnosis.<xref ref="pubmed40180292" resource="acc048" /></listitem>
+<listitem>A large Chinese cluster randomized trial found that screening high risk areas in China was effective at reducing upper GI cancer mortality, but not in low risk areas.<xref ref="pubmed39706350" resource="acc045" /></listitem>
+<listitem>The introduction of cytosponge sampling can be performed in primary care enabling less invasive diagnosis of Barrett's esophagus and possible early detection of esophageal cancer, but the overall population utility of this procedure awaits further evaluation<xref ref="pubmed40874980" resource="acc047" />.<xref ref="poem221008" resource="acc030" /></listitem>
+<listitem>A recent analysis with 910 patients undergoing capsule sponge combined with biomarker assessment demonstrated efficacy in stratifying into high and low risk groups. If more widely validated this would have practical benefit by avoiding endoscopic surveillance in the low risk group.<xref ref="pubmed40570865" resource="acc040" /></listitem>
+<listitem>See chapters on <resourceLink href="info:wiley/eep-eee/486">GERD</resourceLink> and <resourceLink href="info:wiley/eep-eee/486">Barrett's esophagus</resourceLink> for a more detailed discussion.<xref ref="pubmed12190150" resource="acc003" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>A trial recruited 2557 patients randomising between high and low dose PPI plus or minus aspirin. This trial demonstrated that high dose PPI with aspirin did result in lower mortality and progression in patients with Barrett's esophagus.<xref ref="poem201030" resource="acc025" /></listitem>
+<listitem>Epidemiologic evidence suggests a protective effect for diets with adequate folate or rich in fruits and vegetables.<xref ref="pubmed17030196" resource="acc016" /><xref ref="pubmed11588131" resource="acc015" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect esophageal cancer in patients with dysphagia, cough, or hoarseness accompanied by weight loss, especially in a patient with a history of tobacco and&#x002F;or alcohol use. <evidence rating="C" system="SORT">C</evidence><xref ref="guideline9475" resource="acc001" /></listitem>
+<listitem>Diagnosis requires pathologic evaluation of tissue to determine the presence of a malignancy. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed462273" resource="acc002" /></listitem>
+<listitem>Stage is determined by imaging with endoscopic ultrasound, CT, and PET. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15365078" resource="acc014" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>GERD&#x002F;esophagitis</Differential_Name>
+<Differential_Features>Inflammation on biopsy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Stricture</Differential_Name>
+<Differential_Features>Long-standing symptoms of heartburn or history of exposure</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Achalasia</Differential_Name>
+<Differential_Features>Manometry demonstrates dysmotility</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Scleroderma</Differential_Name>
+<Differential_Features>Presence of autoantibodies</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Ninety percent of patients present with dysphagia and weight loss. Both typically present as progressive symptoms over weeks to months and may result in odynophagia. Patients may have a chronic cough, which could be due to tracheo-esophageal fistula.</listitem>
+<listitem>Hoarseness suggests recurrent laryngeal nerve involvement.</listitem>
+<listitem>Lymphadenopathy, hepatomegaly, abdominal mass, or bone pain suggest the presence of distant metastasis.</listitem>
+<listitem>A study of patients presenting with dysphagia identified six factors that predict the likelihood of esophageal cancer. It was increased in patients with weight loss greater than 3 kg, male sex, dysphagia not in the neck, no reflux, symptoms present more than 6 months, and age over 40 years.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Order esophageal endoscopy with biopsy to establish the diagnosis, to measure and localize the lesion, and to search for skip metastasis. Endoscopy combined with biopsy and cytology has a diagnostic accuracy of 99&#x0025;.<xref ref="pubmed462273" resource="acc002" /></listitem>
+<listitem>Up to 40&#x0025; of patients present with metastatic disease; therefore, the goal is to identify patients that have only localized disease for potentially curative treatment with multimodality therapies.</listitem>
+<listitem>Recommended blood tests include CBC (to detect occult bleeding) and comprehensive panel. (Elevated AST&#x002F;ALT or alkaline phosphatase is concerning for metastasis.)</listitem>
+<listitem>Use <resourceLink href="info:pmid/14724814">CT</resourceLink> and <resourceLink href="info:wiley/cochrane/CD000434">PET scan</resourceLink> (or PET&#x002F;CT) imaging to evaluate for the presence of metastatic disease. <resourceLink href="info:pmid/15365078">PET</resourceLink> is more sensitive than <resourceLink href="info:pmid/14724814">CT</resourceLink>,<xref ref="pubmed15365078" resource="acc014" /> and detects metastasis in &#x007E;15&#x0025; of patients who are negative by other imaging modalities.<xref ref="pubmed17320575" resource="acc013" /></listitem>
+<listitem>If there is no evidence of metastatic disease, then the primary tumor is staged according to the American Joint Commission for Cancer criteria.</listitem>
+<listitem><resourceLink href="info:pmid/14724814">Endoscopic ultrasound with fine needle aspiration</resourceLink> is preferred for evaluation of nodal staging.<xref ref="pubmed14724814" resource="acc012" /></listitem>
+<listitem>Order direct laryngoscopy for patients with lesions of the cervical esophagus to evaluate for metachronous lesions. Order bronchoscopy for patients with tumors above or at the level of the carina to evaluate for tracheoesophagela fistula.</listitem>
+<listitem>Surgical staging of patients is controversial, but abdominal laparoscopy and thoracoscopy can be considered.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>A <resourceLink href="info:pmid/20737538">validated clinical decision rule</resourceLink><xref ref="rule432" resource="acc018" /> can predict the likelihood of esophageal cancer among patients presenting with dysphagia.</listitem>
+<listitem>Risk factors for poor prognossis include age, sex, tumor stage, histology, resection margin status. education level, neoadjuvant therapy, reoperation within one month of primary surgery, and comorbidity based on the Charlson comorbidity index. A risk score was developed that had good calibration and area under the ROC curve of 0.76 in the validation group.<xref ref="pubmed33824250" resource="acc032" /></listitem>
+<listitem>Another risk score for esophageal squamous cell carcinoma was developed and externally validated in two European populations; it includes age, sex, smoking, alcohol and BMI. The AUC for 5 year risk of cancer is 0.70 in the validation cohort. It is available at an <resourceLink href="https://sites.google.com/view/escc-ugis-ki">online calculator</resourceLink>. <xref ref="pubmed33982937" resource="acc033" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect esophageal cancer in patients with dysphagia, cough, or hoarseness accompanied by weight loss, especially in a patient with a history of tobacco and&#x002F;or alcohol use.</listitem>
+<listitem>Order a biopsy for patients with abnormal findings on upper endoscopy.</listitem>
+<listitem>Diagnosis is established by pathologic evaluation of tissue. Endoscope-directed biopsy and brush cytology have a sensitivity that approaches 100&#x0025;.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>434</Dx_ID>
+<Dx_ID>435</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Curative treatment for esophageal cancer typically consists of combined therapy with radiation therapy and chemotherapy, with or without surgery. Some patients with small noncervical tumors may be candidates for surgery alone. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed17329193" resource="acc011" /><xref ref="bib32_169_1553080154597" /><xref ref="bib32_169_1553080154597" /><xref ref="pubmed9219702" resource="acc010" /></listitem>
+<listitem>Historically open surgery esophagectomy has carried risks of intra- and post-operative complications. The incidence of complications is lower with hybrid minimally invasive esophagectomy, without worsening of progression free survival. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed30625052" resource="acc028" /></listitem>
+<listitem>Surgical resection is a complex operation with high risk perioperative morbidity. High volume centres have improved outcomes with regards to 1 and 5 year survival. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed39535737" resource="acc042" /></listitem>
+<listitem>Nivolumab immunotherapy as adjuvant treatment following neo-adjuvant chemoradiation followed by complete surgical resection has demonstrated significant benefit in disease free survival (22.4 months vs. 11 months). <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed33789008" resource="acc031" /></listitem>
+<listitem>Comparison of neoadjuvant chemoimmunotherapy to neoadjuvant chemotherapy demonstrated improved 2-year survival and disease free survival for the group receiving immunotherapy for squamous cancers of the esophagus.<xref ref="pubmed40105813" resource="acc041" /></listitem>
+<listitem>Many patients present with distant metastasis and undergo palliative therapy. <evidence rating="C" system="SORT">C</evidence><xref ref="cochrane4063" resource="acc009" /><xref ref="bib32_169_1553080154597" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug />
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Consider surgical resection as primary therapy for patients with stage I (T1N0M0) lesions of the thoracic esophagus and gastroesophageal junction.<xref ref="pubmed9219702" resource="acc010" /><xref ref="bib32_169_1553080154597" /></listitem>
+<listitem>Treat patients who have squamous esophageal cancers with concurrent chemotherapy and radiation; reserve surgery for salvage therapy.<xref ref="bib32_169_1553080154597" /> A Cochrane Systematic review used patient level data for 1147 patients from 5 RCTs who had been randomized to pre-operative radiation therapy or none and followed for up to 9 years. There was a trend toward lower mortality (3&#x0025; at 2 years and 4&#x0025; at 5 years, p &#x003D; 0.06) in those receiving pre-operative radiation but the benefit is felt to be modest, at best.<xref ref="cochrane1799" resource="acc021" /></listitem>
+<listitem><strong>Surgery</strong></listitem>
+<listitem>Surgical resection is a complex operation with high risk perioperative morbidity. Review of patients receiving surgical resection as recorded on the national cancer database highlights that those who travelled to receive surgery at high volume centres had improved outcomes on one and five year survival.<xref ref="pubmed39535737" resource="acc042" /></listitem>
+<listitem>High intensity interval training was shown in a small RCT to improve fitness pre-operatively in a deconditioned cohort with esophaeal or lung cancer.<xref ref="pubmed40767629" resource="acc044" /></listitem>
+<listitem><strong>Chemotherapy</strong></listitem>
+<listitem>A Cochrane review examined the role of pre-operative chemotherapy across 13 RCTs with a total of 2362 patients. The use of pre-operative chemotherapy achieved significant improvment in overall survival and increased the rate of R0 complete resection.<xref ref="cochrane1556" resource="acc022" /></listitem>
+<listitem>A trial randomized 438 patients with resectable locally advanced esophageal adenocarcinoma to perioperative chemotherapy with FLOT (fluorouracil, leucovorin, oxaliplatin, and docetaxel) plus surgery or preoperative chemoradiotherapy with carboplatin and paclitaxel plus surgery. At 3 years, overall survival was higher in the FLOT group (57.4&#x0025; vs 50.4&#x0025;, p &#x003D; 0.01, NNT &#x003D; 14).<xref ref="pubmed39842010" resource="acc043" /></listitem>
+<listitem>A 2017 meta-analysis of 33 RCTs with over 6,000 patients suggests that neo-adjuvant chemoradiotherapy followed by surgery is the most effective treatment strategy in patients with resectable esophageal cancer.<xref ref="pubmed27429017" resource="acc024" /></listitem>
+<listitem>A systematic review of 10 trials with 6462 patients demonstrated overall survival benefit sustained to 5 years follow-up with the addition of adjuvant systemic therapy following neoadjuvant therapy and surgery.<xref ref="pubmed34596073" resource="acc035" /></listitem>
+<listitem>An individual patient data meta-analysis of 7 randomized or propensity score matched studies compared radiochemotherapy followed by active surveillance with standard esophagectomy in 453 patients with a clinically complete response following neoadjuvant chemoradiotherapy. Overall survival was similar but 40&#x0025; of patients eventually underwent esophagectomy during the 5 year follow-up period, emphasizing the importance of rigorous adherence to the follow-up protocol.<xref ref="pubmed34191461" resource="acc034" /></listitem>
+<listitem>In contrast a study with 274 patients who achieved clinical complete response following neoadjuvant chemoradiotherapy were randomised between surgery and continued surveillance. The 2-year survival was equivalent but with improved quality of life in the group not receiving surgery<xref ref="pubmed41591326" resource="acc049" />.</listitem>
+<listitem><strong>Immunotherapy</strong></listitem>
+<listitem>A large double-blind RCT (Checkmate 577) assessing the use of nivolumab immunotherapy as adjuvant treatment following neo-adjuvant chemoradiation followed by complete surgical resection has demonstrated significant benefit in disease free survival with the treated group achieving median DFS 22.4 months compared to 11 months in the placebo group.<xref ref="pubmed33789008" resource="acc031" /></listitem>
+<listitem>For both advanced squamous carcinoma of the esophagus (Checkmate 648) and for locally advanced cancer esophageal junction&#x002F;adenocarcinoma (Checkmate 649)<xref ref="pubmed34102137" resource="acc037" /> the addition of nivolumab to chemotherapy significantly improved survival.<xref ref="pubmed35108470" resource="acc036" /></listitem>
+<listitem>There is emerging evidence that neoadjuvant chemoimmunotherapy using immunotherapy upfront can improve overall and disease free survival in locally advanced squamous cancer of the esophagus. In an audit of database registered treatments the benefit of neoadjuvant immunochemotherapy was postulated to be due to reduction in distant metastases.<xref ref="pubmed40105813" resource="acc041" /></listitem>
+<listitem>Similarly overall and progression free survival benefit has been demonstrated with the addition of pembrolizumab immunotherapy to chemotherapy (Keynote 590 trial).<xref ref="pubmed34454674" resource="acc038" /></listitem>
+<listitem>Treat all other patients without metastatic disease with combined radiation and chemotherapy, followed by surgical resection if appropriate.<xref ref="pubmed17329193" resource="acc011" /></listitem>
+<listitem>Consider patients treated with surgery alone and found to have more extensive disease for postoperative chemotherapy and radiation.<xref ref="cochrane2092" resource="acc008" /></listitem>
+<listitem>Treat patients who have distant metastasis with palliative chemotherapy and best supportive care.<xref ref="cochrane4063" resource="acc009" /><xref ref="cochrane3445" resource="acc007" /> Palliation of symptoms includes: stenting and&#x002F;or radiation therapy for obstruction; radiation therapy or endoscopic therapy for bleeding from tumor site; narcotic analgesics or radiation therapy for pain; and G-tube placement or esophageal dilatation for nutrition.</listitem>
+<listitem>Vitamin D does not increase survival in adults with digestive tract cancer including esophageal cancer.<xref ref="poem210619" resource="acc027" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>A well designed Danish study found that patients with Barrett's esophagus progress to esophageal cancer at a rate of 0.12&#x0025; per year.<xref ref="poem131201" resource="acc019" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>High-grade dysplasia progresses to cancer in 30&#x0025; to 40&#x0025; of cases, while low-grade dysplasia progresses much less commonly. Patients with longer duration of BE and older patients are at greater risk of progression to malignancy. <evidence rating="B" system="SORT">B</evidence><xref ref="poem21202" resource="acc005" /><xref ref="poem131202" resource="acc020" /><xref ref="poem131201" resource="acc019" /></listitem>
+<listitem>Estimated 5-year survival for esophageal cancer: localized 30&#x0025;, regional 15&#x0025;, metastatic less than 5&#x0025;. <evidence rating="B" system="SORT">B</evidence><xref ref="web002" /></listitem>
+<listitem>Patients with esophageal cancer are typically in their 60s and may have significant comorbidities. Results from clinical trials typically represent patients who are able to undergo therapy (good performance status, minimal weight loss, few comorbidities). <evidence rating="B" system="SORT">B</evidence><xref ref="bib32_169_1553080154597" /></listitem>
+<listitem>Based on a Swedish population registry with 1542 patients surviving at least 90 days after surgery, predictors of 5 year all-cause mortality include increasing age, male sex, increasing pathological stage, non-radical resection, squamous cell carcinoma, and reoperation within 30 days.<xref ref="pubmed33824250" resource="acc032" /></listitem>
+<listitem>A meta-analysis of over 12,000 samples indicates that loss and mutation of p53 and increased levels Ki67 predict malignant progression in Barrett's esophagus.<xref ref="pubmed28295252" resource="acc023" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="guideline9475">
+<accessionId id="acc001" href="info:wiley/eep-guideline/9475" />
+<citation>Scottish Intercollegiate Guidelines Network (SIGN). Management of oesophageal and gastric cancer. A national clinical guideline. Edinburgh, Scotland: Scottish Intercollegiate Guidelines Network (SIGN); 2006 Jun. 69 p. Management of oesophageal and gastric cancer. A national clinical guideline. Management of oesophageal and gastric cancer (SIGN)</citation>
+<url>http://www.sign.ac.uk/pdf/qrg87.pdf</url>
+<organization>SIGN</organization>
+<longtitle />
+<title />
+<dateguideline>6&#x002F;1&#x002F;2006</dateguideline>
+</reference>
+<reference id="pubmed462273">
+<accessionId id="acc002" href="info:pmid/462273" />
+<authors>Leiman G, Tim LO, Segal I.</authors>
+<title>Diagnosis of upper gastro-intestinal lesions by endoscopy, cytology and biopsy.</title>
+<source>S Afr Med J</source>
+<pubdate>1979</pubdate>
+<volume>55</volume>
+<pages>619&#x2013;623.</pages>
+</reference>
+<reference id="pubmed12190150">
+<accessionId id="acc003" href="info:pmid/12190150" />
+<authors>Sampliner RE; Practice Parameters Committee of the American College of Gastroenterology.</authors>
+<title>Updated guidelines for the diagnosis, surveillance, and therapy of Barrett's esophagus.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2002</pubdate>
+<volume>97</volume>
+<pages>1888&#x2013;1895.</pages>
+</reference>
+<reference id="poem50103">
+<accessionId id="acc004" href="info:wiley/eep-poem/50103" />
+<accessionId id="acc004b" href="info:pmid/12094844" />
+<authors>Shaheen NJ, Provenzale D, Sandler RS.</authors>
+<title>Upper endoscopy as a screening and surveillance tool in esophageal adenocarcinoma: A review of the evidence.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2002</pubdate>
+<volume>97</volume>
+<pages>1319&#x2013;1327.</pages>
+</reference>
+<reference id="poem21202">
+<accessionId id="acc005" href="info:wiley/eep-poem/21202" />
+<accessionId id="acc005b" href="info:pmid/10925966" />
+<authors>Reid BJ, Levine DS, Longton G, Blount PL, Rabinovitch PS.</authors>
+<title>Predictors of progression to cancer in Barrett's esophagus: Baseline histology and flow cytometry identify low- and high-risk patient subsets.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>1669&#x2013;1676.</pages>
+</reference>
+<reference id="poem41104">
+<accessionId id="acc006" href="info:wiley/eep-poem/41104" />
+<accessionId id="acc006b" href="info:pmid/12145799" />
+<authors>Gerson LB, Shetler K, Triadafilopoulos G.</authors>
+<title>Prevalence of Barrett's esophagus in asymptomatic individuals.</title>
+<source>Gastroenterology</source>
+<pubdate>2002</pubdate>
+<volume>123</volume>
+<pages>461&#x2013;467.</pages>
+</reference>
+<reference id="cochrane3445">
+<accessionId id="acc007" href="info:wiley/cochrane/CD003445" />
+<chapter_authors>Ahmed N, Ahmedzai SH, Vora V, Hillam S, Paz S.</chapter_authors>
+<chapter_title>Supportive care for patients with gastrointestinal cancer (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2092">
+<accessionId id="acc008" href="info:wiley/cochrane/CD002092" />
+<chapter_authors>Wong R, Malthaner R.</chapter_authors>
+<chapter_title>Combined chemotherapy and radiotherapy (without surgery) compared with radiotherapy alone in localized carcinoma of the esophagus (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4063">
+<accessionId id="acc009" href="info:wiley/cochrane/CD004063" />
+<chapter_authors>Homs MYV, v.d. Gaast A, Siersema PD, Steyerberg EW, Kuipers EJ.</chapter_authors>
+<chapter_title>Chemotherapy for metastatic carcinoma of the esophagus and gastro-esophageal junction (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed9219702">
+<accessionId id="acc010" href="info:pmid/9219702" />
+<authors>Bosset JF, Gignoux M, Triboulet JP, et al.</authors>
+<title>Chemoradiotherapy followed by surgery compared with surgery alone in squamous-cell cancer of the esophagus.</title>
+<source>N Engl J Med</source>
+<pubdate>1997</pubdate>
+<volume>337</volume>
+<pages>161&#x2013;167.</pages>
+</reference>
+<reference id="pubmed17329193">
+<accessionId id="acc011" href="info:pmid/17329193" />
+<authors>Gebski V, Burmeister B, Smithers BM, Foo K, Zalcberg J, Simes J; Australasian Gastro-Intestinal Trials Group.</authors>
+<title>Survival benefits from neoadjuvant chemoradiotherapy or chemotherapy in oesophageal carcinoma: A meta-analysis.</title>
+<source>Lancet Oncol</source>
+<pubdate>2007</pubdate>
+<volume>8</volume>
+<pages>226&#x2013;234.</pages>
+</reference>
+<reference id="pubmed14724814">
+<accessionId id="acc012" href="info:pmid/14724814" />
+<accessionId id="acc012b" href="info:wiley/eep-dx/435" />
+<authors>Vazquez-Sequeiros E, Wiersema MJ, Clain JE, et al.</authors>
+<title>Impact of lymph node staging on therapy of esophageal carcinoma.</title>
+<source>Gastroenterology</source>
+<pubdate>2003</pubdate>
+<volume>125</volume>
+<pages>1626&#x2013;1635.</pages>
+</reference>
+<reference id="pubmed17320575">
+<accessionId id="acc013" href="info:pmid/17320575" />
+<authors>Meyers BF, Downey RJ, Decker PA, et al.; for American College of Surgeons Oncology Group Z0060.</authors>
+<title>The utility of positron emission tomography in staging of potentially operable carcinoma of the thoracic esophagus: results of the American College of Surgeons Oncology Group Z0060 trial.</title>
+<source>J Thorac Cardiovasc Surg</source>
+<pubdate>2007</pubdate>
+<volume>133</volume>
+<pages>738&#x2013;745.</pages>
+</reference>
+<reference id="pubmed15365078">
+<accessionId id="acc014" href="info:pmid/15365078" />
+<accessionId id="acc014b" href="info:wiley/eep-dx/434" />
+<authors>van Westreenen HL, Westerterp M, Bossuyt PM, et al.</authors>
+<title>Systematic review of the staging performance of 18F-fluorodeoxyglucose positron emission tomography in esophageal cancer.</title>
+<source>J Clin Oncol</source>
+<pubdate>2004</pubdate>
+<volume>22</volume>
+<pages>3805&#x2013;3812.</pages>
+</reference>
+<reference id="pubmed11588131">
+<accessionId id="acc015" href="info:pmid/11588131" />
+<authors>Mayne ST, Risch HA, Dubrow R, et al.</authors>
+<title>Nutrient intake and risk of subtypes of esophageal and gastric cancer.</title>
+<source>Cancer Epidemiol Biomarkers Prev</source>
+<pubdate>2001</pubdate>
+<volume>10</volume>
+<pages>1055&#x2013;1062.</pages>
+</reference>
+<reference id="pubmed17030196">
+<accessionId id="acc016" href="info:pmid/17030196" />
+<authors>Larsson SC, Giovannucci E, Wolk A.</authors>
+<title>Folate intake, MTHFR polymorphisms, and risk of esophageal, gastric, and pancreatic cancer: A meta-analysis.</title>
+<source>Gastroenterology</source>
+<pubdate>2006</pubdate>
+<volume>131</volume>
+<pages>1271&#x2013;1283.</pages>
+</reference>
+<reference id="web002">
+<citation />
+<url>http://www.seer.cancer.gov</url>
+<organization>SEER</organization>
+<longtitle />
+<title>Surveillance Epidemiology and End Results</title>
+<dateguideline />
+</reference>
+<reference id="rule432">
+<accessionId id="acc018" href="info:wiley/eep-rule/432" />
+<accessionId id="acc018b" href="info:pmid/20737538" />
+<authors>Rhatigan E, Tyrmpas I, Murray G, Plevris JN.</authors>
+<title>Scoring system to identify patients at high risk of oesophageal cancer.</title>
+<source>Br J Surg</source>
+<pubdate>2010</pubdate>
+<volume>97(12)</volume>
+<pages>1831&#x2013;1837.</pages>
+</reference>
+<reference id="poem131201">
+<accessionId id="acc019" href="info:wiley/eep-poem/131201" />
+<accessionId id="acc019b" href="info:pmid/21995385" />
+<authors>Hvid-Jensen F, Pedersen L, Drewes AM, S&#x00F8;rensen HT, Funch-Jensen P</authors>
+<title>Incidence of adenocarcinoma among patients with Barrett's esophagus.</title>
+<source>N Engl J Med</source>
+<pubdate>2011</pubdate>
+<volume>365</volume>
+<pages>1375&#x2013;1383.</pages>
+</reference>
+<reference id="poem131202">
+<accessionId id="acc020" href="info:wiley/eep-poem/131202" />
+<accessionId id="acc020b" href="info:pmid/21577245" />
+<authors>Sikkema M, Looman CWN, Steyerberg EW, et al.</authors>
+<title>Predictors for neoplastic progression in patients with Barrett's Esophagus: A prospective cohort study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2011</pubdate>
+<volume>106</volume>
+<pages>1231&#x2013;1238.</pages>
+</reference>
+<reference id="cochrane1799">
+<accessionId id="acc021" href="info:wiley/cochrane/CD001799" />
+<chapter_authors>Arnott SJ, Duncan W, Gignoux M, et al.</chapter_authors>
+<chapter_title>Preoperative radiotherapy for esophageal carcinoma (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2012 Issue 3.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1556">
+<accessionId id="acc022" href="info:wiley/cochrane/CD001556" />
+<chapter_authors>Kidane B, Coughlin S, Vogt K, Malthaner R.</chapter_authors>
+<chapter_title>Preoperative chemotherapy for resectable thoracic esophageal cancer.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 5. Art. No.: CD001556. DOI: 10.1002&#x002F;14651858.CD001556.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed28295252">
+<accessionId id="acc023" href="info:pmid/28295252" />
+<authors>Altaf K, Xiong JJ, la Iglesia D, Hickey L, Kaul A.</authors>
+<title>Meta-analysis of biomarkers predicting risk of malignant progression in Barrett's oesophagus.</title>
+<source>Br J Surg</source>
+<pubdate>2017</pubdate>
+<volume>104</volume>
+<pages>493&#x2013;502.</pages>
+</reference>
+<reference id="pubmed27429017">
+<accessionId id="acc024" href="info:pmid/27429017" />
+<authors>Pasquali S, Yim G, Vohra RS, Mocellin S, Nyanhongo D, Marriott P, Geh JI, Griffiths EA.</authors>
+<title>Survival after neoadjuvant and adjuvant treatments compared to surgery alone for resectable esophageal carcinoma: a network meta-analysis.</title>
+<source>Ann Surg</source>
+<pubdate>2017</pubdate>
+<volume>265</volume>
+<pages>481&#x2013;491.</pages>
+</reference>
+<reference id="poem201030">
+<accessionId id="acc025" href="info:wiley/eep-poem/201030" />
+<accessionId id="acc025b" href="info:pmid/30057104" />
+<authors>Jankowski JAZ, de Caestecker J, Love SB, Reilly G, Watson P, Sanders S, Ang Y, Morris D, Bhandari P, Brooks C, Attwood S, Harrison R, Barr H, Moayyedi P, AspECT Trial Team.</authors>
+<title>Esomeprazole and aspirin in Barrett's oesophagus (AspECT): A randomised factorial trial.</title>
+<source>Lancet</source>
+<pubdate>2018</pubdate>
+<volume>392</volume>
+<pages>400&#x2013;408.</pages>
+</reference>
+<reference id="bib32_169_1553080154597">
+<citation />
+<url />
+<organization>National Comprehensive Cancer Network</organization>
+<longtitle />
+<title>NCCN Guidelines</title>
+<dateguideline>Accessed March 20, 2019</dateguideline>
+</reference>
+<reference id="poem210619">
+<accessionId id="acc027" href="info:wiley/eep-poem/210619" />
+<accessionId id="acc027b" href="info:pmid/30964526" />
+<authors>Urashima M, Ohdaira H, Akutsu T, Okada S, Yoshida M, Kitajima M, Suzuki Y.</authors>
+<title>Effect of vitamin D supplementation on relapse-free survival among patients with digestive tract cancers: The AMATERASU randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2019</pubdate>
+<volume>321</volume>
+<pages>1361&#x2013;1369.</pages>
+</reference>
+<reference id="pubmed30625052">
+<accessionId id="acc028" href="info:pmid/30625052" />
+<authors>Mariette C, Markar SR, Dabakuyo-Yonli TS, Meunier B, Pezet D, Collet D, D'Journo XB, Brigand C, Perniceni T, Carr&#x00E8;re N, Mabrut JY, Msika S, Peschaud F, Prudhomme M, Bonnetain F, Piessen G, F&#x00E9;d&#x00E9;ration de Recherche en Chirurgie (FRENCH) and French Eso-Gastric Tumors (FREGAT) Working Group.</authors>
+<title>Hybrid minimally invasive esophagectomy for esophageal cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>152&#x2013;162.</pages>
+</reference>
+<reference id="pubmed30045299">
+<accessionId id="acc029" href="info:pmid/30045299" />
+<authors>Yu W, Guo Y.</authors>
+<title>Prognostic significance of programmed death ligand-1 immunohistochemical expression in esophageal cancer: A meta-analysis of the literature.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e11614.</pages>
+</reference>
+<reference id="poem221008">
+<accessionId id="acc030" href="info:wiley/eep-poem/221008" />
+<accessionId id="acc030b" href="info:pmid/32738955" />
+<authors>Fitzgerald RC, di Pietro M, O'Donovan M, Maroni R, Muldrew B, Debiram-Beecham I, Gehrung M, Offman J, Tripathi M, Smith SG, Aigret B, Walter FM, Rubin G, BEST3 Trial team, Sasieni P.</authors>
+<title>Cytosponge-trefoil factor 3 versus usual care to identify Barrett's oesophagus in a primary care setting: A multicentre, pragmatic, randomised controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2020</pubdate>
+<volume>396</volume>
+<pages>333&#x2013;344.</pages>
+</reference>
+<reference id="pubmed33789008">
+<accessionId id="acc031" href="info:pmid/33789008" />
+<authors>Kelly RJ, Ajani JA, Kuzdzal J, Zander T, Van Cutsem E, Piessen G, Mendez G, Feliciano J, Motoyama S, Li&#x00E8;vre A, Uronis H, Elimova E, Grootscholten C, Geboes K, Zafar S, Snow S, Ko AH, Feeney K, Schenker M, Kocon P, Zhang J, Zhu L, Lei M, Singh P, Kondo K, Cleary JM, Moehler M, CheckMate 577 Investigators.</authors>
+<title>Adjuvant nivolumab in resected esophageal or gastroesophageal junction cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>384</volume>
+<pages>1191&#x2013;1203.</pages>
+</reference>
+<reference id="pubmed33824250">
+<accessionId id="acc032" href="info:pmid/33824250" />
+<authors>Xie SH, Santoni G, M&#x00E4;lberg K, Lagergren P, Lagergren J.</authors>
+<title>Prediction model of long-term survival after esophageal cancer surgery.</title>
+<source>Ann Surg</source>
+<pubdate>2021</pubdate>
+<volume>273</volume>
+<pages>933&#x2013;939.</pages>
+</reference>
+<reference id="pubmed33982937">
+<accessionId id="acc033" href="info:pmid/33982937" />
+<authors>Wang QL, Ness-Jensen E, Santoni G, Xie SH, Lagergren J.</authors>
+<title>Development and validation of a risk prediction model for esophageal squamous cell carcinoma using cohort studies.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2021</pubdate>
+<volume>116</volume>
+<pages>683&#x2013;691.</pages>
+</reference>
+<reference id="pubmed34191461">
+<accessionId id="acc034" href="info:pmid/34191461" />
+<authors>van der Wilk BJ, Eyck BM, Hofstetter WL, Ajani JA, Piessen G, Castoro C, Alfieri R, Kim JH, Kim SB, Furlong H, Walsh TN, Nieboer D, Wijnhoven BPL, Lagarde SM, Lanschot JJBV.</authors>
+<title>Chemoradiotherapy Followed by Active Surveillance Versus Standard Esophagectomy for Esophageal Cancer: A Systematic Review and Individual Patient Data Meta-analysis.</title>
+<source>Ann Surg</source>
+<pubdate>2022</pubdate>
+<volume>275</volume>
+<pages>467&#x2013;476.</pages>
+</reference>
+<reference id="pubmed34596073">
+<accessionId id="acc035" href="info:pmid/34596073" />
+<authors>Lee Y, Samarasinghe Y, Lee MH, Thiru L, Shargall Y, Finley C, Hanna W, Levine O, Juergens R, Agzarian J.</authors>
+<title>Role of Adjuvant Therapy in Esophageal Cancer Patients After Neoadjuvant Therapy and Esophagectomy: A Systematic Review and Meta-analysis.</title>
+<source>Ann Surg</source>
+<pubdate>2022</pubdate>
+<volume>275</volume>
+<pages>91&#x2013;98.</pages>
+</reference>
+<reference id="pubmed35108470">
+<accessionId id="acc036" href="info:pmid/35108470" />
+<authors>Doki Y, Ajani JA, Kato K, Xu J, Wyrwicz L, Motoyama S, Ogata T, Kawakami H, Hsu CH, Adenis A, El Hajbi F, Di Bartolomeo M, Braghiroli MI, Holtved E, Ostoich SA, Kim HR, Ueno M, Mansoor W, Yang WC, Liu T, Bridgewater J, Makino T, Xynos I, Liu X, Lei M, Kondo K, Patel A, Gricar J, Chau I, Kitagawa Y, CheckMate 648 Trial Investigators.</authors>
+<title>Nivolumab Combination Therapy in Advanced Esophageal Squamous-Cell Carcinoma.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>449&#x2013;462.</pages>
+</reference>
+<reference id="pubmed34102137">
+<accessionId id="acc037" href="info:pmid/34102137" />
+<authors>Janjigian YY, Shitara K, Moehler M, Garrido M, Salman P, Shen L, Wyrwicz L, Yamaguchi K, Skoczylas T, Campos Bragagnoli A, Liu T, Schenker M, Yanez P, Tehfe M, Kowalyszyn R, Karamouzis MV, Bruges R, Zander T, Pazo-Cid R, Hitre E, Feeney K, Cleary JM, Poulart V, Cullen D, Lei M, Xiao H, Kondo K, Li M, Ajani JA.</authors>
+<title>First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649): a randomised, open-label, phase 3 trial.</title>
+<source>Lancet</source>
+<pubdate>2021</pubdate>
+<volume>398</volume>
+<pages>27&#x2013;40.</pages>
+</reference>
+<reference id="pubmed34454674">
+<accessionId id="acc038" href="info:pmid/34454674" />
+<authors>Sun JM, Shen L, Shah MA, Enzinger P, Adenis A, Doi T, Kojima T, Metges JP, Li Z, Kim SB, Cho BC, Mansoor W, Li SH, Sunpaweravong P, Maqueda MA, Goekkurt E, Hara H, Antunes L, Fountzilas C, Tsuji A, Oliden VC, Liu Q, Shah S, Bhagia P, Kato K, KEYNOTE-590 Investigators.</authors>
+<title>Pembrolizumab plus chemotherapy versus chemotherapy alone for first-line treatment of advanced oesophageal cancer (KEYNOTE-590): a randomised, placebo-controlled, phase 3 study.</title>
+<source>Lancet</source>
+<pubdate>2021</pubdate>
+<volume>398</volume>
+<pages>759&#x2013;771.</pages>
+</reference>
+<reference id="poem377406">
+<accessionId id="acc039" href="info:wiley/eep-poem/377406" />
+<accessionId id="acc039b" href="info:pmid/37704252" />
+<authors>Holmberg D, Santoni G, von Euler-Chelpin M, F&#x00E4;rkkil&#x00E4; M, Kauppila JH, Maret-Ouda J, Ness-Jensen E, Lagergren J.</authors>
+<title>Non-erosive gastro-oesophageal reflux disease and incidence of oesophageal adenocarcinoma in three Nordic countries: population based cohort study.</title>
+<source>BMJ</source>
+<pubdate>2023</pubdate>
+<volume>382</volume>
+<pages>e076017.</pages>
+</reference>
+<reference id="pubmed40570865">
+<accessionId id="acc040" href="info:pmid/40570865" />
+<authors>Tan WK, Ross-Innes CS, Somerset T, Markert G, Markowetz F, O'Donovan M, di Pietro M, Sasieni P, Fitzgerald RC, DELTA consortium.</authors>
+<title>Biomarker risk stratification with capsule sponge in the surveillance of Barrett's oesophagus: prospective evaluation of UK real-world implementation.</title>
+<source>Lancet</source>
+<pubdate>2025</pubdate>
+<volume>406</volume>
+<pages>271&#x2013;282.</pages>
+</reference>
+<reference id="pubmed40105813">
+<accessionId id="acc041" href="info:pmid/40105813" />
+<authors>Guo X, Chen C, Zhao J, Wang C, Mei X, Shen J, Lv H, Han Y, Wang Q, Lv J, Chen H, Yan X, Liu Z, Zhang Z, Zhong Q, Jiang Y, Xu L, Li X, Qian D, Ma D, Ye M, Wang C, Wang Z, Lin J, Tian Z, Leng X, Li Z.</authors>
+<title>Neoadjuvant Chemoradiotherapy vs Chemoimmunotherapy for Esophageal Squamous Cell Carcinoma.</title>
+<source>JAMA Surg</source>
+<pubdate>2025</pubdate>
+<volume>160</volume>
+<pages>565&#x2013;574.</pages>
+</reference>
+<reference id="pubmed39535737">
+<accessionId id="acc042" href="info:pmid/39535737" />
+<authors>Sakowitz S, Bakhtiyar SS, Mallick S, Yanagawa J, Benharash P.</authors>
+<title>Travel to High-Volume Centers and Survival After Esophagectomy for Cancer.</title>
+<source>JAMA Surg</source>
+<pubdate>2025</pubdate>
+<volume>160</volume>
+<pages>19&#x2013;27.</pages>
+</reference>
+<reference id="pubmed39842010">
+<accessionId id="acc043" href="info:pmid/39842010" />
+<authors>Hoeppner J, Brunner T, Schmoor C, Bronsert P, Kulemann B, Claus R, Utzolino S, Izbicki JR, Gockel I, Gerdes B, Ghadimi M, Reichert B, Lock JF, Bruns C, Reitsamer E, Schmeding M, Benedix F, Keck T, Folprecht G, Thuss-Patience P, Neumann UP, Pascher A, Imhof D, Daum S, Strieder T, Krautz C, Zimmermann S, Werner J, Mahlberg R, Illerhaus G, Grimminger P, Lordick F.</authors>
+<title>Perioperative Chemotherapy or Preoperative Chemoradiotherapy in Esophageal Cancer.</title>
+<source>N Engl J Med</source>
+<pubdate>2025</pubdate>
+<volume>392</volume>
+<pages>323&#x2013;335.</pages>
+</reference>
+<reference id="pubmed40767629">
+<accessionId id="acc044" href="info:pmid/40767629" />
+<authors>Smyth E, O'Neill LM, Kearney N, Sheill G, Brennan L, Wade S, Grehan S, Begic S, Ega&#x00F1;a M, Ryan R, Fitzmaurice GJ, Murphy RT, McKittrick M, Doyle SL, Walsh C, Ravi N, Donohoe CL, Reynolds JV, Hussey J, Guinan EM.</authors>
+<title>Preoperative Exercise to Improve Fitness in Patients Undergoing Complex Surgery for Cancer of the Lung or Esophagus (PRE-HIIT): A Randomized Controlled Trial.</title>
+<source>Ann Surg</source>
+<pubdate>2025</pubdate>
+<volume>282</volume>
+<pages>690&#x2013;698.</pages>
+</reference>
+<reference id="pubmed39706350">
+<accessionId id="acc045" href="info:pmid/39706350" />
+<authors>Xia C, Li H, Xu Y, Guo G, Yu X, Wang W, Dai S, Dai C, Zhu Y, Jiang K, Zhang Z, Hu J, Song G, Chen C, Xiao H, Chen Y, Song T, Yan S, Song B, He Y, Zhou J, Zhang S, Chen W.</authors>
+<title>Effect of an Endoscopy Screening on Upper Gastrointestinal Cancer Mortality: A Community-Based Multicenter Cluster Randomized Clinical Trial.</title>
+<source>Gastroenterology</source>
+<pubdate>2025</pubdate>
+<volume>168</volume>
+<pages>725&#x2013;740.</pages>
+</reference>
+<reference id="pubmed41125322">
+<accessionId id="acc046" href="info:pmid/41125322" />
+<authors>Wani S, Zhou MJ, Sawas T, Rubenstein JH, Eluri S, Leiman DA, Sultan S, Singh S, Inadomi J, Thrift AP, Katzka DA, Davitkov P.</authors>
+<title>AGA Clinical Practice Guideline on Surveillance of Barrett's Esophagus.</title>
+<source>Gastroenterology</source>
+<pubdate>2025</pubdate>
+<volume>169</volume>
+<pages>1184&#x2013;1231.</pages>
+</reference>
+<reference id="pubmed40874980">
+<accessionId id="acc047" href="info:pmid/40874980" />
+<authors>Wilson NJ, Mordan N, Potrock C, Shaheen NJ.</authors>
+<title>Screening for Barrett Esophagus and Esophageal Adenocarcinoma: Approaches and Outcomes.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2026</pubdate>
+<volume>121</volume>
+<pages>302&#x2013;311.</pages>
+</reference>
+<reference id="pubmed40180292">
+<accessionId id="acc048" href="info:pmid/40180292" />
+<authors>Old O, Jankowski J, Attwood S, Stokes C, Kendall C, Rasdell C, Zimmermann A, Massa MS, Love S, Sanders S, Deidda M, Briggs A, Hapeshi J, Foy C, Moayyedi P, Barr H, BOSS Trial Team.</authors>
+<title>Barrett's Oesophagus Surveillance Versus Endoscopy at Need Study (BOSS): A Randomized Controlled Trial.</title>
+<source>Gastroenterology</source>
+<pubdate>2025</pubdate>
+<volume>169</volume>
+<pages>1233&#x2013;1243.e8.</pages>
+</reference>
+<reference id="pubmed41591326">
+<accessionId id="acc049" href="info:pmid/41591326" />
+<authors>Gangaram Panday SSG, van der Wilk BJ, Eyck BM, Lagarde SM, Rosman C, Noordman BJ, Valkema MJ, Bisseling TM, Coene PLO, van Det MJ, Dekker JWT, van Dieren JM, Doukas M, van Esser S, Fiets WE, Hartgrink HH, Heisterkamp J, Holster IL, Husson O, Klarenbeek B, Kouw E, Kouwenhoven EA, Luyer MD, Mostert B, Nieuwenhuijzen GAP, Oostenbrug LE, Pierie JP, van Sandick JW, Sosef MN, Spaander MCW, Steyerberg EW, Valkema R, van der Zaag ES, Lingsma HF, van Klaveren D, van Lanschot JJB, Wijnhoven BPL, Other Members of the SANO Study Group.</authors>
+<title>Health-related quality of life of patients undergoing active surveillance versus standard surgery for oesophageal cancer (SANO trial).</title>
+<source>Br J Surg</source>
+<pubdate>2025</pubdate>
+<volume>113</volume>
+<pages />
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

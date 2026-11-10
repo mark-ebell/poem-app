@@ -181,9 +181,55 @@ function layoutFigure(fig) {
   return { cells, out, isOutcome, steps, stepNo };
 }
 
+// The figure's image (a picture, or the original drawing of an algorithm), with its notes.
+function figureImageBody(fig) {
+  const body = el('div', 'figure-body');
+  if (fig.image) {
+    const img = el('img', 'figure-image');
+    img.src = fig.image;
+    img.alt = fig.title;
+    img.loading = 'lazy';
+    body.appendChild(img);
+  } else if (fig.cells.length) { // no image: list the boxes
+    const ol = el('ol', 'figure-boxes');
+    for (const c of fig.cells) { const li = el('li'); li.innerHTML = c.html; ol.appendChild(li); }
+    body.appendChild(ol);
+  }
+  appendNotes(body, fig.notes);
+  return body;
+}
+
+function appendNotes(body, notes) {
+  if (!notes || !notes.length) return;
+  const ul = el('ul', 'flow-notes');
+  for (const n of notes) {
+    const li = el('li');
+    li.innerHTML = n;
+    ul.appendChild(li);
+  }
+  body.appendChild(ul);
+}
+
+function showFigureImage(id) {
+  const fig = current && current.figures.find(f => f.id === id);
+  if (fig) openInfo(`Figure ${fig.n}. ${fig.title}`, figureImageBody(fig));
+}
+
+function showTable(id) {
+  const t = current && (current.tables || []).find(x => x.id === id);
+  if (!t) return;
+  const body = el('div', 'chapter-content');
+  body.innerHTML = t.html; // prepared by chapter-convert.js from escaped text
+  markCiteRuns(body);
+  const title = el('div');
+  title.innerHTML = t.caption;
+  openInfo(`Table ${t.n}. ${title.textContent}`, body);
+}
+
 function showFigure(id) {
   const fig = current && current.figures.find(f => f.id === id);
   if (!fig) return;
+  if (!fig.drawable) { showFigureImage(id); return; }
   const { cells, out, isOutcome, steps, stepNo } = layoutFigure(fig);
   const body = el('div', 'flow');
 
@@ -236,14 +282,14 @@ function showFigure(id) {
     }
   });
 
-  if (fig.notes && fig.notes.length) {
-    const notes = el('ul', 'flow-notes');
-    for (const n of fig.notes) {
-      const li = el('li');
-      li.innerHTML = n;
-      notes.appendChild(li);
-    }
-    body.appendChild(notes);
+  appendNotes(body, fig.notes);
+  if (fig.image) {
+    const p = el('p', 'hint');
+    const a = el('a', '', 'View the original figure');
+    a.href = '#';
+    a.dataset.figImage = fig.id;
+    p.appendChild(a);
+    body.appendChild(p);
   }
   openInfo(`Figure ${fig.n}. ${fig.title}`, body);
 }
@@ -355,7 +401,7 @@ function renderChapter(c) {
   // Decision support: the chapter's algorithms, calculators and risk scores in one place.
   const ds = c.decisionSupport || {};
   const groups = [
-    ['Algorithms', c.figures.map(f => ({ text: `Figure ${f.n}. ${f.title}`, data: { fig: f.id } }))],
+    ['Algorithms', c.figures.filter(f => f.kind === 'algorithm').map(f => ({ text: `Figure ${f.n}. ${f.title}`, data: { fig: f.id } }))],
     ['History and physical calculators', (ds.signs || []).map(x => ({ text: x.label, data: { calc: 'signs', num: x.num } }))],
     ['Diagnostic test calculators', (ds.tests || []).map(x => ({ text: x.label, data: { calc: 'tests', num: x.num } }))],
     ['Risk scores', (ds.riskScores || []).map(x => ({ text: x.label, href: x.href }))]
@@ -398,6 +444,25 @@ function renderChapter(c) {
       // Calculator lists (History and physical tests, Diagnostic tests): a Summary data button after each.
       for (const a of content.querySelectorAll('a.calc-link[data-calc][data-num]')) a.after(summaryButton(a.dataset.calc, a.dataset.num));
       part.appendChild(content);
+      body.appendChild(part);
+    }
+    det.appendChild(body);
+    view.appendChild(det);
+  }
+
+  if ((c.tables || []).length) {
+    const det = el('details', 'chapter-section chapter-tables');
+    det.appendChild(el('summary', '', 'Tables'));
+    const body = el('div', 'chapter-section-body');
+    for (const t of c.tables) {
+      const part = el('div', 'chapter-part');
+      part.id = `table-${t.id}`;
+      const h = el('h4');
+      h.innerHTML = `Table ${t.n}. ${t.caption}`;
+      const content = el('div', 'chapter-content');
+      content.innerHTML = t.html; // prepared by chapter-convert.js from escaped text
+      part.append(h, content);
+      markCiteRuns(part);
       body.appendChild(part);
     }
     det.appendChild(body);
@@ -449,6 +514,8 @@ function onChapterClick(e) {
   if (t.dataset.poem) { e.preventDefault(); closeInfo(); hooks.showPoemByNumber(t.dataset.poem); return; }
   if (t.dataset.calc) { e.preventDefault(); closeInfo(); hooks.openCalculator(t.dataset.calc, t.dataset.num); return; }
   if (t.dataset.fig) { e.preventDefault(); showFigure(t.dataset.fig); return; }
+  if (t.dataset.figImage) { e.preventDefault(); showFigureImage(t.dataset.figImage); return; }
+  if (t.dataset.table) { e.preventDefault(); showTable(t.dataset.table); return; }
   const href = t.getAttribute('href') || '';
   if (href.startsWith('#ref-')) {
     e.preventDefault();

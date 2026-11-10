@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Leukopenia</title>
+<chapter_type>Diagnosis of presenting complaint</chapter_type>
+<topic_id>eee0269</topic_id>
+<topic_comment />
+<topic_lastupdated>08/18/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Sathyanarayan Sudhanthar, MD, MPH</author_name>
+<author_title> Associate Professor</author_title>
+<author_department>Department of Pediatrics and Human Development</author_department>
+<author_institution>Michigan State University - College of Human Medicine</author_institution>
+<author_email>SUDHANTH&#x0040;MSU.EDU</author_email>
+<author_phone_office>5173554715</author_phone_office>
+<author_phone_home>5175796995</author_phone_home>
+<author_phone_fax>517-355-8312</author_phone_fax>
+<author_street1>4263 Goldenwood Dr</author_street1>
+<author_street2 />
+<author_city>Okemos</author_city>
+<author_state>MI</author_state>
+<author_zip>48864</author_zip>
+</author>
+<author primary="no">
+<author_name> Aghiad Chamdin</author_name>
+<author_title>Asst. professor</author_title>
+<author_department>Hematology and Oncology Division, Department Of Pediatrics and Human Development</author_department>
+<author_institution>Michigan State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>East Lansing</author_city>
+<author_state>MI</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Neutropenia is classified as mild (ANC &gt;1000-1500&#x002F;&#x03BC;L), moderate (ANC 500-1000&#x002F;&#x03BC;L), or severe (ANC &lt;500&#x002F;&#x03BC;L). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Acquired neutropenia is more common than congenital neutropenia, with common causes being drugs and viral infections. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Fever, cellulitis, stomatitis, gingivitis, abscess, sinusitis and pneumonia are commonly associated with neutropenia. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>If ANC is &lt;1000&#x002F;&#x03BC;L consider obtaining a blood smear, Coombs test, immunoglobulins, viral serology and cultures, antigranulocytes antibodies. If persistent, consider bone marrow aspirate. If ANC &lt;500&#x002F;&#x03BC;L and the patient is symptomatic, consider hospitalization. See algorithm in <xref ref="fig001" /> for a suggested approach to evaluation. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Leukopenia refers to a white blood cell count less than 4000, and it may include neutropenia and lymphopenia. Neutropenia is defined as an absolute neutrophil count (ANC) &lt;1500&#x002F;&#x03BC;L in non-Hispanic whites and &lt;1200&#x002F;&#x03BC;L in African-Americans.<xref ref="pubmed17404350" resource="acc001" /> Neutropenia may be classified as mild (ANC &gt;1000-1500&#x002F;&#x03BC;L), moderate (ANC 500-1000&#x002F;&#x03BC;L), or severe (ANC &lt;500&#x002F;&#x03BC;L).<xref ref="pubmed5216294" resource="acc002" /> Lymphopenia may be defined as &lt; 1500&#x002F;&#x03BC;L and severe lymphopenia as &lt; 1000&#x002F;&#x03BC;L.<xref ref="pubmed31790569" resource="acc024" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence />
+<prevalence>
+<list style="bulleted">
+<listitem>Based on a large study of 25,222 participants, the prevalence of ANC &lt;1500&#x002F;&#x03BC;L is 4.5&#x0025; in African-Americans, 0.79&#x0025; in Caucasians, and 0.38&#x0025; in Mexican-Americans.<xref ref="pubmed17404350" resource="acc001" /></listitem>
+<listitem>The prevalence of ANC &lt;1000&#x002F;&#x03BC;L is 0.57&#x0025; in African-Americans, 0.11&#x0025; in Caucasians, and 0.08&#x0025; in Mexican-Americans.<xref ref="pubmed17404350" resource="acc001" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>A study of over 32,000 adults identified relative lymphopenia in 20&#x0025; (&lt; 1000&#x002F;&#x03BC;L) and severe lymphopenia (&lt; 1000&#x002F;&#x03BC;L) in 3&#x0025;. The risk of all-cause mortality was increased in both groups, with a hazard ratio of 1.3 for relative lymphopenia and 1.8 for severe lymphopenia even after adjusting for a range of risk factors. The risk was greater in patients with an elevated inflammatory marker (CRP) and an increased red cell distribution width.<xref ref="pubmed31790569" resource="acc024" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>See the differential diagnosis table for common causes of acquired neutropenia,<xref ref="pubmed10778379" resource="acc004" /> congenital neutropenia,<xref ref="bib16" /> and for rare causes of congenital neutropenia.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>There are 4 main pathophysiologies for neutropenia: decreased production, increased destruction, sequestration, hypersensitivity reaction.</listitem>
+<listitem>Decreased production may be due to viral infections, bone marrow failure or replacement, and chemotherapy.<xref ref="pubmed2537667" resource="acc006" /></listitem>
+<listitem>Hypersensitivity reaction may be seen in association with drugs (see <xref ref="table002" />).<xref ref="pubmed363325" resource="acc007" /><xref ref="pubmed17404350" resource="acc001" /></listitem>
+<listitem>Bone marrow replacement occurs with malignancy.</listitem>
+<listitem>Sequestration occurs in hypersplenism</listitem>
+<listitem>Increased destruction is seen in infections (see <xref ref="table001" />) and with autoantibodies.<xref ref="pubmed2888747" resource="acc005" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening>
+<list style="bulleted">
+<listitem>Screening for leukopenia by ordering a regular or annual WBC count is not recommended. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Authors of an Australian study recommended screening for neutropenia in infants born to mothers with hypertension. Out of 249 infants 7.6&#x0025; were neutropenic and 4.1&#x0025; were both neutropenic and thrombocytopenic. However, there is no evidence that detection by screening improved any clinical outcomes.<xref ref="pubmed8652209" resource="acc003" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Screening>
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL />
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>ACQUIRED NEUTROPENIAS</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Infection</Differential_Name>
+<Differential_Features>Viral: Epstein Barr Virus, human herpesvirus, dengue fever. Bacterial: Staph aureus, gram negative bacteria,<xref ref="pubmed25421019" resource="acc019" /> etc.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Drug-induced</Differential_Name>
+<Differential_Features>Sulfonamides, anticonvulsants, cancer chemotherapy, antipsychotics (phenothiazine) and radiation therapy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Immune-mediated</Differential_Name>
+<Differential_Features>Primary or secondary as in SLE; is a sign of early serious infection<xref ref="pubmed22678568" resource="acc018" /> Newborn: Maternal autoimmune or Alloimmune</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chronic idiopathic</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Splenic sequestration</Differential_Name>
+<Differential_Features>Hypersplenism</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Bacterial, protozoal, and fungal infections</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Newborn</Differential_Name>
+<Differential_Features>Maternal preeclampsia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Nutritional</Differential_Name>
+<Differential_Features>Folic acid or vitamin B12 deficiency, copper deficiency</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>CONGENITAL NEUTROPENIAS</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Selective IgA deficiency</Differential_Name>
+<Differential_Features>Upper and lower respiratory tract infections</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Familial beningn</Differential_Name>
+<Differential_Features>Most common in Yemenite Jews and African Americans</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Scwachman Diamond syndrome</Differential_Name>
+<Differential_Features>Short stature, leukemia risk, bony dysplasia and pancreatic exocrine insufficiency</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Kostman syndrome</Differential_Name>
+<Differential_Features>Severe neutropenia with ANC &lt;500&#x002F;&#x03BC;L, increased risk of infections and leukemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cyclic neutropenia</Differential_Name>
+<Differential_Features>Oral ulcers and fever cycling every 21 days</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Fanconi syndrome</Differential_Name>
+<Differential_Features>Facial anomalies, dysplastic thumbs, bone marrow failure results in pancytopenia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Wiskott-Aldrich syndrome</Differential_Name>
+<Differential_Features>Eczema, thrombocytopenia, immunedeficency and fever</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Metabolic disease</Differential_Name>
+<Differential_Features>Von Gierke disease associated with Glucose 6 phosphatase deficiency and hypoglycemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>RARE CAUSES OF CONGENITAL NEUTROPENIA</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Diamond blackfan syndrome</Differential_Name>
+<Differential_Features>Thumb and craniofacial anomalies, megaloblastic anemia, increased RBC ADA</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Dyskeratosis congenita</Differential_Name>
+<Differential_Features>Skin hyperpigmentation, nail dystrophy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hyper IgM syndrome</Differential_Name>
+<Differential_Features>Increased IgM, other immunoglobulins may be decreased, prone to anemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Chediak Higashi syndrome</Differential_Name>
+<Differential_Features>Giant lysosomes, neurologic damage and albinism</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Griscelli syndrome</Differential_Name>
+<Differential_Features>T-cell defect, neutropenia and prone to infection</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Barth syndrome</Differential_Name>
+<Differential_Features>Mitochondrial abnormalities and cardiomyopathy</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Reticular dysgenesis</Differential_Name>
+<Differential_Features>Combined immune deficiency</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cartilage hair hypoplasia</Differential_Name>
+<Differential_Features>Immune deficiency and short-limbed dwarfism</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cohen Syndrome</Differential_Name>
+<Differential_Features>Retinopathy, neutropenia and truncal obesity.</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Elements of the history important in patients with neutropenia include fever,chills and recurrent mouth sores; fatigue; past history of leukemia, lymphoma, or aplastic anemia; family history of neutropenia; and cyclical neutropenia. It is also important to ask about medications that may cause leukpenia (see <xref ref="table002" />).</listitem>
+<listitem>Physical signs like fever &gt;101&#x00B0;F, cellulitis, stomatitis, abscess, gingivitis, perirectal inflammation, colitis, sinusitis, and septicemia are also associated with neutropenia.<xref ref="pubmed1052668" resource="acc011" /><xref ref="pubmed11850858" resource="acc010" /></listitem>
+<listitem>Pneumonia, both bacterial and fungal, can be a complication of neutropenia.<xref ref="pubmed10071269" resource="acc012" /><xref ref="pubmed8996135" resource="acc013" /></listitem>
+<listitem>Traditionally, digital rectal exam is not recommended in neutropenic patients due to the potential risk of infection. However, this has not been substantiated by well designed clinical trials.<xref ref="pubmed1052668" resource="acc011" /><xref ref="pubmed3048587" resource="acc014" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Initial evaluation includes a white blood cell (WBC) count with differential and calculation of the absolute neutrophil count (ANC). ANC can be calculated as a combined percentage of neutrophils and bands (if present) times the actual white cell count.<xref ref="pubmed10778379" resource="acc004" /><xref ref="bib16" /> For example, if 20&#x0025; neutrophils and 2&#x0025; bands, and the WBC is 4000 cells&#x002F;&#x03BC;L, then the ANC is 22&#x0025; x 4000 &#x003D; 880 cells&#x002F;&#x03BC;L.</listitem>
+<listitem>If you suspect cyclic neutropenia, consider WBC 2 to 3 times&#x002F;week for 4 to 6 weeks to confirm.</listitem>
+<listitem>No additional testing is generally needed for ANC of 1000 to 1500&#x002F;&#x03BC;L unless history and physical exam dictates.<xref ref="pubmed5216294" resource="acc002" /></listitem>
+<listitem>If ANC is &lt;1000&#x002F;&#x03BC;L consider blood smear and the following specific tests: Coombs test to rule out hemolytic anemia and immunoglobulins rule out dysgammaglobulinemia, viral serology and cultures to rule out infections, and antigranulocyte antibodies to rule out autoimmune neutropenia.</listitem>
+<listitem>Consider urine culture, chest x-ray and lumbar puncture in a febrile patient with ANC &lt;500&#x002F;&#x03BC;L.<xref ref="pubmed18166617" resource="acc015" /></listitem>
+<listitem>If persistent neutropenia or pancytopenia, consider bone marrow aspiration&#x002F;biopsy.<xref ref="pubmed11268749" resource="acc008" /><xref ref="pubmed16151565" resource="acc009" /></listitem>
+<listitem>Procalcitonin, interleukin 6, and C-reactive protein are potentially useful biomarkers for evaluation of children with febrile neutropenia, but there is significant heterogeneity in the literature.<xref ref="pubmed22257704" resource="acc021" /> In two studies of hospitalized children receiving chemotherapy with febrile neutropenia, serial procalcitonin levels predicted bacteremia and gram negative bacteria, but not severe sepsis.<xref ref="pubmed23034950" resource="acc023" /><xref ref="pubmed21299364" resource="acc022" /></listitem>
+<listitem>In a series of 1888 persons 0 to 21 years presenting with an isolated ANC &lt;1000 cells&#x002F;mcl (no underlying risk factors, no previous neutropenia, normal platelet and hemoglobin, no immunodeficiency or malignancy or other serious comorbidity) the overall risk of serious bacterial infection was 2.4&#x0025; based on positive cultures. Those without fever had a 0.4&#x0025; likelihood, vs 6.2&#x0025; if febrile.<xref ref="pubmed20070267" resource="acc020" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>In patients with cancer and febrile neutropenia, a <xref ref="rule337" resource="acc017">clinical decision rule</xref> can predict the likelihood of complications or death.<xref ref="rule337" resource="acc017" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+<listitem>Assess patients with neutropenia with a thorough history and physical exam.</listitem>
+<listitem>If moderate (ANC 500-1000&#x002F;&#x03BC;L) or severe (ANC &lt;500&#x002F;&#x03BC;L), conduct diagnostic testing based on the history and physical findings and presentation. Recommended tests include a blood smear, Coombs test, immunoglobulins, viral serology and blood cultures, and antigranulocyte antibodies.</listitem>
+<listitem>If mild neutropenia, repeat or perform serial CBCs every 3 to 4 weeks.</listitem>
+<listitem>If cyclical neutropenia is suspected, consider more frequent WBC counts (2-3 per week for 4-6 weeks).</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL />
+<Treatment_Drug />
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL />
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed17404350">
+<accessionId id="acc001" href="info:pmid/17404350" />
+<authors>Hsieh MM, Everhart JE, Byrd-Holt DD, et al.</authors>
+<title>Prevalence of neutropenia in the U.S. population: age, sex, smoking status and ethnic differences.</title>
+<source>Ann Intern Med</source>
+<pubdate>2007</pubdate>
+<volume>146(7)</volume>
+<pages>486&#x2013;492.</pages>
+</reference>
+<reference id="pubmed5216294">
+<accessionId id="acc002" href="info:pmid/5216294" />
+<authors>Body G, Buckley, Sathe Y, et al.</authors>
+<title>Quantitative relationships between circulating leukocytes and infection in patients with leukemia.</title>
+<source>Ann Intern Med</source>
+<pubdate>1966</pubdate>
+<volume>64</volume>
+<pages>328&#x2013;340.</pages>
+</reference>
+<reference id="pubmed8652209">
+<accessionId id="acc003" href="info:pmid/8652209" />
+<authors>Fraser SH, Tudehope DI.</authors>
+<title>Neonatal neutropenia and thrombocytopenia following maternal hypertension.</title>
+<source>J Paediatr Child Health</source>
+<pubdate>1996</pubdate>
+<volume>32(1)</volume>
+<pages>31&#x2013;34.</pages>
+</reference>
+<reference id="pubmed10778379">
+<accessionId id="acc004" href="info:pmid/10778379" />
+<authors>Munshi HG, Montgomery RB.</authors>
+<title>Severe neutropenia: a diagnostic approach.</title>
+<source>West J Med</source>
+<pubdate>2000</pubdate>
+<volume>172(4)</volume>
+<pages>248&#x2013;252.</pages>
+</reference>
+<reference id="pubmed2888747">
+<accessionId id="acc005" href="info:pmid/2888747" />
+<authors>Baranski B, Young N.</authors>
+<title>Hematologic consequences of viral infections.</title>
+<source>Hematol Oncol Clin North Am</source>
+<pubdate>1987</pubdate>
+<volume>1</volume>
+<pages>167&#x2013;183.</pages>
+</reference>
+<reference id="pubmed2537667">
+<accessionId id="acc006" href="info:pmid/2537667" />
+<authors>Kurtzman G, Young N.</authors>
+<title>Viruses and bone marrow failure.</title>
+<source>Baillieres Clin Haematol</source>
+<pubdate>1989</pubdate>
+<volume>2</volume>
+<pages>51&#x2013;67.</pages>
+</reference>
+<reference id="pubmed363325">
+<accessionId id="acc007" href="info:pmid/363325" />
+<authors>Price TH, Dale DC.</authors>
+<title>The selective neutropenias.</title>
+<source>Clin Haematol</source>
+<pubdate>1978</pubdate>
+<volume>7</volume>
+<pages>501&#x2013;521.</pages>
+</reference>
+<reference id="pubmed11268749">
+<accessionId id="acc008" href="info:pmid/11268749" />
+<authors>Meisner M.</authors>
+<title>Leukocytopenia as an incidental finding.</title>
+<source>MMW Fortschritte der Merdin</source>
+<pubdate>2001</pubdate>
+<volume>143(7)</volume>
+<pages>37&#x2013;42.</pages>
+</reference>
+<reference id="pubmed16151565">
+<accessionId id="acc009" href="info:pmid/16151565" />
+<authors>Serwint JR, Dias MM, Chang H, et al.</authors>
+<title>Outcomes of febrile children presumed to be immunocompetent who present with leukopenia or neutropenia to an ambulatory setting.</title>
+<source>Clin Pediatr</source>
+<pubdate>2005</pubdate>
+<volume>44(7)</volume>
+<pages>593&#x2013;600.</pages>
+</reference>
+<reference id="pubmed11850858">
+<accessionId id="acc010" href="info:pmid/11850858" />
+<authors>Hughes WT, Armstrong D, Bodey GP, et al.</authors>
+<title>Guidelines for the use of antimicrobial agents in neutropenic patients with cancer.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2004</pubdate>
+<volume>34(6)</volume>
+<pages>730&#x2013;751.</pages>
+</reference>
+<reference id="pubmed1052668">
+<accessionId id="acc011" href="info:pmid/1052668" />
+<authors>Sickles EA, Greene WH, Wiernik PH.</authors>
+<title>Clinical presentation of infection in granulocytopenic patients.</title>
+<source>Arch Intern Med</source>
+<pubdate>1975</pubdate>
+<volume>135(5)</volume>
+<pages>715&#x2013;719.</pages>
+</reference>
+<reference id="pubmed10071269">
+<accessionId id="acc012" href="info:pmid/10071269" />
+<authors>Heussel CP, Kauczor HU, Heussel GE, et al.</authors>
+<title>Pneumonia in febrile neutropenic patients and in bone marrow and blood stem-cell transplant recipients: use of high-resolution computed tomography.</title>
+<source>J Clin Oncol</source>
+<pubdate>1999</pubdate>
+<volume>17(3)</volume>
+<pages>796&#x2013;805.</pages>
+</reference>
+<reference id="pubmed8996135">
+<accessionId id="acc013" href="info:pmid/8996135" />
+<authors>Caillot D, Casasnovas O, Bernard A, et al.</authors>
+<title>Improved management of invasive pulmonary aspergillosis in neutropenic patients using early thoracic computed tomographic scan and surgery.</title>
+<source>Clin Oncol</source>
+<pubdate>1997</pubdate>
+<volume>15(1)</volume>
+<pages>139&#x2013;147.</pages>
+</reference>
+<reference id="pubmed3048587">
+<accessionId id="acc014" href="info:pmid/3048587" />
+<authors>Walsh TJ.</authors>
+<title>The febrile granulocytopenic patient in the intensive care unit.</title>
+<source>Crit Care Clin</source>
+<pubdate>1988</pubdate>
+<volume>4(2)</volume>
+<pages>259&#x2013;280.</pages>
+</reference>
+<reference id="pubmed18166617">
+<accessionId id="acc015" href="info:pmid/18166617" />
+<authors>Segel G, Halterman J.</authors>
+<title>Neutropenia in pediatric practice.</title>
+<source>Pediatr Rev</source>
+<pubdate>2008</pubdate>
+<volume>29</volume>
+<pages>12&#x2013;24.</pages>
+</reference>
+<reference id="bib16">
+<authors>RierAne, Rosso Salto M, Galan V, et al.</authors>
+<title>Anti-polymorphonuclear neutrophil antibodies in patients with leucopenia or neutropenia.</title>
+<source>Int J Lab Hematol</source>
+<pubdate>2010</pubdate>
+<volume>32</volume>
+<pages>1P1.</pages>
+</reference>
+<reference id="rule337">
+<accessionId id="acc017" href="info:wiley/eep-rule/337" />
+<accessionId id="acc017b" href="info:pmid/11850858" />
+<authors>Hughes WT, Armstrong D, Bodey GP, Bow EJ, Brown AE, Calandra T, Feld R, Pizzo PA, Rolston KVI, Shenep JL, Young LS</authors>
+<title>2002 guidelines for the use of antimicrobial agents in neutropenic patients with cancer.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2002</pubdate>
+<volume>34</volume>
+<pages>730&#x2013;751.</pages>
+</reference>
+<reference id="pubmed22678568">
+<accessionId id="acc018" href="info:pmid/22678568" />
+<authors>Lee SW, Park MC, Lee SK, Park YB.</authors>
+<title>Adjusted neutropenia is associated with early serious infection in systemic lupus erythematosus.</title>
+<source>Mod Rheumatol</source>
+<pubdate>2013</pubdate>
+<volume>23</volume>
+<pages>509&#x2013;515.</pages>
+</reference>
+<reference id="pubmed25421019">
+<accessionId id="acc019" href="info:pmid/25421019" />
+<authors>Huang SY, Lee IK, Wang L, Liu JW, Hung SC, Chen CC, Chang TY, Huang WC.</authors>
+<title>Use of simple clinical and laboratory predictors to differentiate influenza from dengue and other febrile illnesses in the emergency room.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2014</pubdate>
+<volume>14</volume>
+<pages>623.</pages>
+</reference>
+<reference id="pubmed20070267">
+<accessionId id="acc020" href="info:pmid/20070267" />
+<authors>Melendez E, Harper MB.</authors>
+<title>Risk of serious bacterial infection in isolated and unsuspected neutropenia.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2010</pubdate>
+<volume>17(2)</volume>
+<pages>163&#x2013;67.</pages>
+</reference>
+<reference id="pubmed22257704">
+<accessionId id="acc021" href="info:pmid/22257704" />
+<authors>Phillips RS, Wade R, Lehrnbecher T, Stewart LA, Sutton AJ.</authors>
+<title>Systematic review and meta-analysis of the value of initial biomarkers in predicting adverse outcome in febrile neutropenic episodes in children and young people with cancer.</title>
+<source>BMC Med</source>
+<pubdate>2012</pubdate>
+<volume>10</volume>
+<pages>6.</pages>
+</reference>
+<reference id="pubmed21299364">
+<accessionId id="acc022" href="info:pmid/21299364" />
+<authors>Koivula I, H&#x00E4;m&#x00E4;l&#x00E4;inen S, Jantunen E, Pulkki K, Kuittinen T, Nousiainen T, Juutilainen A.</authors>
+<title>Elevated procalcitonin predicts Gram-negative sepsis in haematological patients with febrile neutropenia.</title>
+<source>Scand J Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>43</volume>
+<pages>471&#x2013;8.</pages>
+</reference>
+<reference id="pubmed23034950">
+<accessionId id="acc023" href="info:pmid/23034950" />
+<authors>Reitman AJ, Pisk RM, Gates JV 3rd, Ozeran JD.</authors>
+<title>Serial procalcitonin levels to detect bacteremia in febrile neutropenia.</title>
+<source>Clin Pediatr (Phila)</source>
+<pubdate>2012</pubdate>
+<volume>51</volume>
+<pages>1175&#x2013;83.</pages>
+</reference>
+<reference id="pubmed31790569">
+<accessionId id="acc024" href="info:pmid/31790569" />
+<authors>Zidar DA, Al-Kindi SG, Liu Y, Krieger NI, Perzynski AT, Osnard M, Nmai C, Anthony DD, Lederman MM, Freeman ML, Bonomo RA, Simon DI, Dalton JE.</authors>
+<title>Association of Lymphopenia With Risk of Mortality Among Adults in the US General Population.</title>
+<source>JAMA Netw Open</source>
+<pubdate>2019</pubdate>
+<volume>2</volume>
+<pages>e1916526.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>304</id>
+<supertype>AbCd</supertype>
+<last_update>2012-09-08</last_update>
+</meta>
+<title>Alogrithem for Evaluation Neutropenia.</title>
+<graphic href="eee0269-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Degree of neutropenia</label>
+<path target="cell-2"> &gt;1000-1500 cells&#x002F;&#x03BC;L </path>
+<path target="cell-3"> 500-1000 cells&#x002F;&#x03BC;L </path>
+<path target="cell-4"> &lt;500 cells&#x002F;&#x03BC;L </path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Mild neutropenia.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Moderate neutropenia.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Severe neutropenia </label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>History and physical. If normal, repeat CBC in 4 weeks.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>If symptomatic or unstable, consider hospitalization, especially if febrile.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Done.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>History and Physical, Order Blood Smear, Coomb's test, immunoglobulins, CMV, EBV, Antigranulocyte antibodies. Consider Blood and urine culture, CXR, LP if clinically indicated.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Treat empirically any underlying infectious condition. Unexplained neutropenia persists?</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Consider bone marrow aspiration and genetic testing to rule out inherited disorder</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Done.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Viruses That Commonly Cause Leukopenia.</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">Epstein-Barr virus, Human Herpes virus-6, Dengue</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Cytomegalovirus</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hepatitis A and B</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Parvovirus</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Influenza</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Measles</td>
+</tr>
+<tr>
+<td align="left" colspan="1">HIV</td>
+</tr>
+</table>Baranski B, Young N. Hematologic consequences of viral infections. <em>Hematol Oncol Clin North Am</em> 1987;<strong>1</strong>:167&#x2013;183. Kurtzman G, Young N. Viruses and bone marrow failure. <em>Baillieres Clin Haematol</em> 1989;<strong>2</strong>:51&#x2013;67. Zon LI, Groopman JE. Hematologic manifestations of the human immune deficiency virus (HIV). <em>Semin Hematol</em> 1988;<strong>25</strong>(3):208&#x2013;218.</feature_body>
+</feature>
+<feature id="table002">
+<caption>Drugs Causing Neutropenia.</caption>
+<feature_body>
+<table>
+<tr>
+<td align="left" colspan="1">Antibiotics: cephalosporins, chloramphenicol</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Carbimazole</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Clozapine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dapsone</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Dipyrone</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Methimazole</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Procainamide</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Propylthiouracil</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Rituximab</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Sulfasalazine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ticlopidine</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Quinidine sulfate</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Phenothiazines</td>
+</tr>
+</table>Price TH, Dale DC. The selective neutropenias. <em>Clin Haematol</em> 1978;<strong>7</strong>:501&#x2013;521. Andersohn F, Konzen C, Garbe E. Systematic review: agranulocytosis induced by monotherpay drugs. <em>Ann Intern Med</em> 2007 May 1;<strong>146</strong>(9): 657&#x2013;665.</feature_body>
+</feature>
+</feature_group>
+</topic>

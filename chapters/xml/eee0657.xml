@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Acute respiratory distress syndrome (ARDS)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0657</topic_id>
+<topic_comment />
+<topic_lastupdated>03/07/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Jennifer L. Good, MD</author_name>
+<author_title>Associate Director Altoona Family Physicians</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>Altoona Regional Health System</author_institution>
+<author_email>JGood&#x0040;altoonafp.org</author_email>
+<author_phone_office>(814) 889-2020</author_phone_office>
+<author_phone_home>(814) 944-4662</author_phone_home>
+<author_phone_fax>(814) 889-7864</author_phone_fax>
+<author_street1>Altoona Family Physicians</author_street1>
+<author_street2>501 Howard Avenue St. F2</author_street2>
+<author_city>Altoona</author_city>
+<author_state>PA</author_state>
+<author_zip>16601</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Linda French, MD</editor_name>
+<editor_title>Professor and Chair</editor_title>
+<editor_institution>Department of Family Medicine, University of Toledo</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Brain natriuretic peptide (BNP) is helpful in differentiating acute respiratory distress syndrome (ARDS) from cardiogenic pulmonary edema. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>In patients with indeterminate findings on lung ultrasound, echocardiogram or pulmonary artery catheterization may be required to make the diagnosis of ARDS. Positive lung ultrasound provides strong evidence of ARDS (LR+ 10.8).<xref ref="pubmed38978055" resource="acc041" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>ATS&#x002F;ESICM&#x002F;SCCM guidelines recommend 1) mechanical ventilation using lower tidal volumes of 4&#x2013;8 ml&#x002F;kg predicted body weight and lower inspiratory pressures with a plateau pressure&#x2009;&lt;&#x2009;30 cm H2O; 2) prone position &gt;12 hours per day in patients with severe ARDS; <evidence rating="A" system="SORT">A</evidence> 3) higher PEEP in patients with moderate to severe ARDS;<xref ref="pubmed33784416" resource="acc034" /> and 4) use of recruitment maneuvers in patients with moderate to severe ARDS.<xref ref="pubmed28459336" resource="acc031" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A conservative oxygen strategy (target PaO2 55-70 mm Hg) is not more effective, and may be more harmful, than a liberal oxygen strategy (PaO2 90-105 mm Hg).<xref ref="poem220611" resource="acc030" /><evidence rating="B" system="SORT">B</evidence><xref ref="poem220618" resource="acc028" /></listitem>
+<listitem>There is some evidence that corticosteroids reduce the duration of ventilation and that they may reduce mortality, especially if given in the first 7 days.<xref ref="cochrane4477" resource="acc027" /><xref ref="pubmed16625008" resource="acc032" /><xref ref="pubmed33832136" resource="acc033" /><evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17426195" resource="acc011" /></listitem>
+<listitem>Long-term physical and psychological sequelae are common in both COVID and non-COVID related ARDS. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed36116979" resource="acc039" /></listitem>
+</list>
+</BottomLine>
+<definition>ARDS is a severe manifestation of acute lung injury (ALI). ALI is defined as a syndrome of acute and persistent lung inflammation with increased vascular permeability.<xref ref="pubmed7509706" resource="acc014" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>A prospective multicenter cohort study indicated that ALI was more common than previously thought, with an age-adjusted incidence of 86.2 per 100,000 patient years and a mortality of 38&#x0025;.</listitem>
+<listitem>Extrapolation of these data suggests 190,600 cases of ALI per year, associated with 74,000 deaths.<xref ref="pubmed16236739" resource="acc013" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Among ICU patients, 10&#x0025; to 15&#x0025; of all patients meet criteria for ARDS, and up to 20&#x0025; of intubated patients meet criteria for ARDS.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Sepsis (the most common cause of ARDS)</listitem>
+<listitem>Aspiration of gastric contents</listitem>
+<listitem>Infectious pneumonia</listitem>
+<listitem>Severe trauma and surface burns</listitem>
+<listitem>Massive blood transfusion</listitem>
+<listitem>Transfusion-related lung injury (TRALI)</listitem>
+<listitem>Relief of upper airway obstruction</listitem>
+<listitem>Lung or bone marrow (and stem cell) transplantation</listitem>
+<listitem>Drug overdose (aspirin, cocaine, opioids, phenothiazines, tricyclic antidepressants)</listitem>
+<listitem>Idiosyncratic drug reactions (protamine, nitrofurantoin, many chemotherapeutic agents)</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The <em>exudative phase</em> is the initial pathologic state, which is characterized by diffuse alveolar damage due to inflammatory injury. This is manifest by proteinaceous fluid in the alveoli and functional loss of surfactant leading to alveolar collapse. The consequences of this lung injury are impaired gas exchange, decreased pulmonary compliance, and pulmonary hypertension.</listitem>
+<listitem>The <em>proliferative phase</em> occurs over the first week as there is resolution of alveolar edema and the hyperplasia of type II pneumocytes, interstitial myofibroblasts, and deposition of interstitial collagen.</listitem>
+<listitem>The <em>fibrotic phase</em> is a third phase not seen in all patients and is characterized by disruption of lung architecture, diffuse lung fibrosis, and cyst formation.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Patients with bilateral pulmonary infiltrates and a PaO<sub>2</sub>&#x002F;FIO<sub>2</sub> ratio of less than 200 mm Hg should be given a test for BNP. <evidence rating="C" system="SORT">C</evidence><xref ref="test390" resource="acc001" /></listitem>
+<listitem>A BNP of less than 200 makes the diagnosis of ARDS more likely, whereas a BNP of greater than 1200 makes the diagnosis of cardiogenic pulmonary edema more likely. <evidence rating="C" system="SORT">C</evidence><xref ref="test390" resource="acc001" /></listitem>
+<listitem>BNP levels between 200 and 1200 are not useful in distinguishing between ARDS and cardiogenic pulmonary edema.<xref ref="test390" resource="acc001" /> In this case a transthoracic echocardiogram or pulmonary artery catheter may be required for the diagnosis. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Lung ultrasound is valuable for ruling in ARDS when positive (LR+ 10.8).<xref ref="pubmed38978055" resource="acc041" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Cardiogenic pulmonary edema</Differential_Name>
+<Differential_Features>If the BNP is less than 100 (or &lt;200 if the glomerular filtration rate [GFR] is &lt;60 mL&#x002F;min), congestive heart failure is unlikely.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Diffuse alveolar hemorrhage syndromes</Differential_Name>
+<Differential_Features>Bloody fluid is obtained from bronchoalveolar lavage (BAL).</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute interstitial pneumonia (Hamman-Rich syndrome)</Differential_Name>
+<Differential_Features>This is a rare, fulminant lung disease that is essentially indistinguishable from ARDS; it occurs in patients most often over fifty with no prior lung disease.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Idiopathic acute eosinophilic pneumonia</Differential_Name>
+<Differential_Features>Eosinophils are recovered from BAL, peripheral eosinophilia is inconsistently present, and a dramatic response to corticosteroids is seen.</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Lymphangitic carcinomatosis</Differential_Name>
+<Differential_Features>This is most commonly from leukemia or lymphoma but can also be seen in solid tumors.</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>ALI is characterized by three clinical features: (1) bilateral radiographic infiltrates; (2) PaO<sub>2</sub>&#x002F;FIO<sub>2</sub> between 200 and 300 mm Hg regardless of positive end-expiratory pressure (where FIO<sub>2</sub> is expressed as between 0.21 and 1.0); and (3) there is no clinical evidence for an elevated left atrial pressure. If measured, the pulmonary capillary wedge pressure is less than 18 mm Hg.</listitem>
+<listitem>The definition of ARDS is the same as that of ALI except that the hypoxia is worse, with a PaO<sub>2</sub>&#x002F;FIO<sub>2</sub> of 200 mm Hg or less.<xref ref="pubmed7509706" resource="acc014" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Acute onset of dyspnea is the hallmark of ARDS.</listitem>
+<listitem>Cyanosis is seen if oxygen desaturation is present.</listitem>
+<listitem>Look for risk factors for ARDS including those producing direct lung injury (ie, aspiration, diffuse pneumonia, toxic gas inhalation) and those conditions associated with indirect injury (sepsis, shock, acute pancreatitis, drug overdose, and severe nonthoracic trauma).</listitem>
+<listitem>Use the physical examination to help exclude the probability of an ARDS "mimic" such as congestive heart failure (CHF; look for jugular venous distention [JVD], S3, acute heart murmur); however, ancillary diagnostic studies are commonly needed for precise diagnosis.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>There is no single "gold standard" diagnostic test for ARDS. Instead, a combination of tests, including clinical impression, CXR, BNP, echocardiography, and occasionally pulmonary artery catheterization has been used to make a diagnosis of ARDS.</listitem>
+<listitem>In patients with acute respiratory failure and bilateral infiltrates, a very low <resourceLink href="info:wiley/eep-dx/390">BNP</resourceLink> level helps rule in ARDS (LR &#x003D; 4.6), and a very high BNP (&gt;1200 pg&#x002F;mL) makes the diagnosis of cardiogenic pulmonary edema (CPE) more likely (LR &#x003D; 6.52). Intermediate levels of BNP (200-1200 pg&#x002F;mL) are not helpful in differentiating ARDS from CPE.<xref ref="test390" resource="acc001" /></listitem>
+<listitem>A systematic review of 11 studies with 2648 patients (598 with ARDS) found that lung ultrasound had fair sensitivity (63.1&#x0025;) and excellent specificity (94.2&#x0025;) for the diagnosis of ARDS (LR+ 10.9, LR- 0.39). It is therefore more helpful for ruling in ARDS when positive.<xref ref="pubmed38978055" resource="acc041" /></listitem>
+<listitem>Transthoracic echocardiography that shows significant aortic or mitral valve dysfunction or severe left ventricular systolic dysfunction makes CPE a more likely diagnosis than ARDS. However, CPE may be present with normal ventricular function in the setting of acute myocardial ischemia or diastolic dysfunction.</listitem>
+<listitem>When the diagnosis remains uncertain following clinical evaluation, BNP, and transthoracic echocardiogram, placement of a pulmonary artery catheter is a reasonable option. If the pulmonary capillary wedge pressure is greater than 18 mm Hg, some degree of CPE is present. Interpretation of the pulmonary capillary wedge pressure can be misleading in patients on very high levels of positive end-expiratory pressure (PEEP).</listitem>
+<listitem>If a pulmonary artery catheter is required for diagnostic purposes, it should be removed as soon as feasible.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>390</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>ATS&#x002F;ESICM&#x002F;SCCM guidelines recommend (1) mechanical ventilation using lower tidal volumes of 4&#x2013;8 ml&#x002F;kg predicted body weight and lower inspiratory pressures with a plateau pressure&#x2009;&lt;&#x2009;30 cm H2O; (2) prone position &gt;12 hours per day in patients with severe ARDS; <evidence rating="A" system="SORT">A</evidence> (3) higher PEEP in patients with moderate to severe ARDS; and (4) use of recruitment maneuvers in patients with moderate to severe ARDS.<xref ref="pubmed28459336" resource="acc031" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>High-frequency oscillation and ECMO do not reduce hospital and 30-day mortality due to ARDS compared to conventional mechanical ventilation and are not recommended.<xref ref="pubmed28459336" resource="acc031" /><xref ref="poem200817" resource="acc020" /><evidence rating="B" system="SORT">B</evidence><xref ref="cochrane4085" resource="acc012" /></listitem>
+<listitem>A conservative oxygen strategy (target PaO2 55-70 mm Hg) is not more effective, and may be more harmful, than a liberal oxygen strategy (PaO2 90-105 mm Hg).<xref ref="poem220611" resource="acc030" /><evidence rating="B" system="SORT">B</evidence><xref ref="poem220618" resource="acc028" /></listitem>
+<listitem>There is some evidence that corticosteroids reduce the duration of ventilation and that they may reduce mortality, especially if given in the first 7 days.<xref ref="cochrane4477" resource="acc027" /><xref ref="pubmed16625008" resource="acc032" /><xref ref="pubmed33832136" resource="acc033" /><evidence rating="B" system="SORT">B</evidence><xref ref="pubmed17426195" resource="acc011" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Corticosteroids</strong></listitem>
+<listitem>An RCT randomized 91 patients with early severe ARDS to methylprednisolone 1 mg&#x002F;kg&#x002F;d by continuous intravenous infusion or placebo. In the treated patients, 54&#x0025; were breathing without the ventilator at 7 days compared with 25&#x0025; of control patients (NNT &#x003D; 4) and had a lower ICU mortality (20.6&#x0025; vs. 42.9&#x0025;; NNT &#x003D; 5). Prior studies had generally shown no benefit to early or late administration of corticosteroids; however, in these previous studies higher doses of corticosteroids had been used (as high as methylprednisolone 30 mg&#x002F;kg&#x002F;d).<xref ref="pubmed17426195" resource="acc011" /></listitem>
+<listitem>The largest trial to date randomized 180 patients with ARDS of at least 7 days duration to methylprednisolone or placebo, and found no effect on mortality and worse long-term outcomes in those randomized more than 14 days after the onset of ARDS.<xref ref="pubmed16625008" resource="acc032" /></listitem>
+<listitem>The Cochrane review found a trend toward lower all-cause mortality at 3 months (RR 0.77, 95&#x0025; CI 0.57-1.05) based on 6 RCTs with 574 patients. They also found a trend toward reduced duration of ventilation (-4.3 days, 95&#x0025; CI -9.7 to +1.1 days). Ventilatory free days up to day 28 were significantly reduced with corticosteroids (MD 4.1 days, 95&#x0025; CI 1.7-6.4 days).<xref ref="cochrane4477" resource="acc027" /></listitem>
+<listitem>A meta-analysis of 10 RCTS with 692 patients with ARDS found an overall reduction in mortality (OR 0.64, 95&#x0025; CI 0.43-0.95) with moderate heterogeneity (I<sup>2</sup> &#x003D; 42&#x0025;). Use of a corticosteroid reduced the mean time of ventilation by 2.7 days (95&#x0025; CI -3.3 to -2.1 days) with good homogeneity (I<sup>2</sup> &#x003D; 0&#x0025;). There was evidence of publication bias with regards to the mortality outcome (smaller studies showing higher mortality were missing).<xref ref="pubmed33832136" resource="acc033" /></listitem>
+<listitem>Another meta-analysis of dexamethasone specifically identified 4 RCTs with 702 patients, and found a reduced all-cause mortality with dexamethasone (OR 0.62, 95&#x0025; CI 0.44 to 0.88).<xref ref="pubmed36181003" resource="acc037" /></listitem>
+<listitem><strong>Other therapies</strong></listitem>
+<listitem>Convalescent plasma with a neutralizing antibody titer of at least 1:160 administered close to initiation of mechanical ventilation (&#x2264;48 hours) decreases 28-day mortality (35.4&#x0025; vs 45.0&#x0025;; P &#x003D; .03; NNT&#x003D;10) compared to usual care among ICU patients with COVID-19-induced ARDS.<xref ref="poem352665" resource="acc040" /></listitem>
+<listitem>A Cochrane review was unable to draw conclusion regarding the efficacy of n-acetylcysteine, statins, surfactants, or beta-agonists. In each case the confidence interval for mortality was close to 1.0.<xref ref="cochrane4477" resource="acc027" /></listitem>
+<listitem>A meta-analysis of five RCTs found no mortality benefit to exogenous pulmonary surfactant in adults with ARDS.<xref ref="pubmed16542488" resource="acc004" /></listitem>
+<listitem>A meta-analysis of 12 RCTs with 1237 patients found no benefit to inhaled nitric oxide in ARDS.<xref ref="pubmed17383982" resource="acc003" /></listitem>
+<listitem>An RCT of 540 patients with ARDS found no benefit from simvastatin therapy.<xref ref="pubmed25268516" resource="acc017" /></listitem>
+<listitem>A Cochrane review identified only 2 studies with 81 patients of aerosolized prostacyclins, and was unable to draw conclusions regarding their efficacy.<xref ref="cochrane7733" resource="acc022" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>A systematic review identified 48 studies that evaluated psychological and physical sequelae 3 months to 5 years following hospitalization of 11,693 patients for ARDS (15&#x0025; with COVID-19).The used the physical compopnent summary score and mental component summary scores of the SF-36. Compared with a normal population, physical component scores were lower at all time points. The same was true for the mental component score. There were no differences between non-COVID and COVID related ARDS sequelae, other than that more anxiety and depression was seen in patients with non-COVID ARDS.<xref ref="pubmed36116979" resource="acc039" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>Most patients with ARDS will require mechanical ventilation. Patients with ARDS should be ventilated with lower tidal volumes (6 mg&#x002F;kg), and end-expiratory plateau pressure should be maintained at 30 cm H<sub>2</sub>O or less. ("lung protective ventilation strategy").</listitem>
+<listitem>The American Thoracic Society&#x002F;European Society of Intensive Care Medicine&#x002F;Society of Critical Care Medicine guidelines (2017) make the following recommendations:<xref ref="pubmed28459336" resource="acc031" />
+<list style="bulleted">
+<listitem>Strong recommendation for: 1) mechanical ventilation using lower tidal volumes of 4&#x2013;8 ml&#x002F;kg predicted body weight and lower inspiratory pressures with a plateau pressure&#x2009;&lt;&#x2009;30 cm H2O; and 2) prone position is recommended for more than 12 hours per day in patients with severe ARDS.</listitem>
+<listitem>Conditional recommendations are made for the use of 1) higher positive end-experatory pressure (PEEP) in mechanically ventilated patients with moderate to severe ARDS and 2) the use of recruitment maneuvers in patients with moderate to severe ARDS.</listitem>
+<listitem>Recommendation against the routine use of high-frequency oscillatory ventilation in patients with moderate to severe ARDS.</listitem>
+</list></listitem>
+<listitem>When patients are ventilated with a strategy using low tidal volumes (6 mL&#x002F;kg) and a goal end-expiratory plateau pressure of 30 cm H<sub>2</sub>O or less, clinical outcomes are similar whether lower or higher levels of PEEP are used.<xref ref="pubmed15269312" resource="acc002" /></listitem>
+<listitem>A Cochrane review of lung protective ventilation identified 6 trials with 1297 patients and found significant reductions in 28 day mortality (RR 0.74, 95&#x0025; CI 0.61-0.88) and hospital mortality (RR 0.80, 95&#x0025; CI 0.69-0.92).</listitem>
+<listitem>A Cochrane review of 10 studies with 3841 participants concluded that high PEEP does not reduce mortality but also does not appear to impact barotrauma. High PEEP does improve oxygenation.<xref ref="pubmed33784416" resource="acc034" /></listitem>
+<listitem>Prone positioning improves oxygenation in most patients with ARDS<xref ref="pubmed15547166" resource="acc010" /> and was demonstrated in one RCT to reduce 28- and 60-day mortality compared to supine positioning (NNT &#x003D; 6).<xref ref="poem150772" resource="acc015" /> A subsequent systematic review confirmed the mortality benefit of prone positioning, espeically for patients with severe hypoxemia.<xref ref="poem161011" resource="acc016" /></listitem>
+<listitem>A network meta-analysis of 10 studies with 812 patients with severe ARDS compared low tidal volumes, moderate tidal volumes, prone ventilation position, and venovenous ECMO. They concluded that prone ventilation and venovenous ECMO were more likely to reduce mortality compared with low and moderate tidal volumes.<xref ref="pubmed38842731" resource="acc042" /></listitem>
+<listitem>A meta-analysis of COVID-19 patients with ARDS found that the prone position significantly improved PaO<sub>2</sub>&#x002F;FiO<sub>2</sub>.<xref ref="pubmed35672215" resource="acc038" /> This was also the conclusion of an umbrella "review of reviews".<xref ref="pubmed38245784" resource="acc045" /></listitem>
+<listitem>Using lung recruitment maneuvers to titrate positive end-expiratory pressure (PEEP) increases barotrauma, pneumothorax, and deaths compared with the standard low PEEP strategy.<xref ref="poem191216" resource="acc019" /></listitem>
+<listitem>A Cochrane review of recruitment maneuvers identified a reduction in ICU mortality based on 5 poor quality randomized trials (RR 0.83, 95&#x0025; CI 0.72-0.97), but no effect on in-hospital mortality, 28 day mortality or barotrauma.<xref ref="cochrane6667" resource="acc021" /></listitem>
+<listitem>A randomized trial of 71 mechanically ventilated adults conclued that non-sedation was no better than light interrupted sedation.<xref ref="pubmed32068366" resource="acc029" /></listitem>
+<listitem>Several RCTs have addressed the question of liberal vs conservative oxygen strategy. The first studied 205 ventilated patients with ARDS and found that a more conservative oxygen strategy that targeted a PaO2 of 55 mm Hg to 70 mm Hg was no more effective, and may have been more harmful, than a more liberal strategy that targeted a PaO2 of 90 mm Hg to 105 mm Hg.<xref ref="poem220618" resource="acc028" /> The second randomized 965 mechanically ventilated patients and found that a more conservative oxygen delivery strategy that capped the oxygen saturation as measured by pulse oximetry (SpO2) of 97&#x0025; had no benefit, except possibly in the subset of patients with hypoxic-ischemic encephalopathy.<xref ref="poem220611" resource="acc030" /></listitem>
+<listitem>Another trial randomized 2928 patients with acute hypoxemic respiratory failure to a target of 60 mm Hg or 90 mm Hg.There was no difference in mortality between groups.<xref ref="poem332240" resource="acc036" /></listitem>
+<listitem>A cluster randomized trial in 2541 critically ill adults receiving mechanical ventilation compared a lower oxygen saturation target of 90&#x0025; (range 88 to 92&#x0025;) with an intermediate target (94&#x0025;, range 92 to 96&#x0025;) or a higher target (98&#x0025;, range 96 to 100&#x0025;). There was no difference between groups in the primary outcome of ventilator free days or mortality.<xref ref="pubmed36278971" resource="acc046" /></listitem>
+<listitem>Continuous monitoring by pulmonary artery catheter (PAC) does not improve survival or organ function and is associated with more complications compared with central venous catheter-directed therapy.<xref ref="pubmed16714768" resource="acc009" /></listitem>
+<listitem>Two studies with 401 patients evaluated partial liquid ventilation (PLV) for adults with ARDS and found no net benefit.<xref ref="cochrane3707" resource="acc023" />There was insufficient evidence regarding PLV in children.<xref ref="cochrane3845" resource="acc024" /></listitem>
+<listitem>Extracorporal membrane oxygenation (ECMO) did not significantly reduce 60-day mortality in a RCT of 249 patients with severe ARDS.<xref ref="poem200817" resource="acc020" /></listitem>
+<listitem>A Cochrane review of 10 RCTs with 1850 patients compared high frequency oscillatory with conventional mechanical ventilation, and found no benefit in terms of mortality. One study found increased mortality in the HFO group.<xref ref="cochrane4085" resource="acc012" /></listitem>
+<listitem>A randomized trial with 1006 patients with moderate to severe ARDS compared early, continuous neuromuscular blockade with usual care. It was halted early for futility.<xref ref="pubmed31112383" resource="acc025" /> An expert panel concluded that it should only be considered for patients who require deep sedation to facilitate prone positioning or lung protective ventilation.<xref ref="pubmed33104824" resource="acc035" /></listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Mortality from ARDS has dropped from 67&#x0025; in 1990 to 25&#x0025; to 30&#x0025; at present. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed7815658" resource="acc007" /><xref ref="pubmed16714767" resource="acc008" /></listitem>
+<listitem>Most deaths in patients with ARDS are not due to lung disease but are from sepsis and multiple organ system failure. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16100134" resource="acc006" /></listitem>
+<listitem>Survivors of ARDS may show pulmonary gas exchange abnormalities, neurocognitive abnormalities, and decreased quality of life for at least 2 years after the acute illness. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16763220" resource="acc005" /></listitem>
+<listitem>Survivors of ARDS from 12 hospitals that participated in the ARDS Network randomized trials had substantial impairments in physical functioning at 6 and 12 months; higher average corticosteroid doses and longer intensive care unit stays were associated with worse outcomes. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed24716641" resource="acc018" /></listitem>
+<listitem>While quality of life was similar for survivors of ECMO versus conventional ventilation, overall rates of disability were high following ECMO with only 49&#x0025; returning to work and 23&#x0025; requiring assistance at home. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed38197932" resource="acc043" /></listitem>
+<listitem>A higher lung ultrasound score (0 to 36 points using 12 regions or 0 to 48 points using 16 regions) found an association between higher score on admission and higher in-hospital mortality. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed38287299" resource="acc044" /></listitem>
+<listitem>Long-term physical and psychological sequelae are common in both COVID and non-COVID related ARDS. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed36116979" resource="acc039" /></listitem>
+<listitem>Elevated levels of IL-18 may be associated with worse prognosis for patients with ARDS. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed31124933" resource="acc026" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="test390">
+<accessionId id="acc001" href="info:wiley/eep-dx/390" />
+<accessionId id="acc001b" href="info:pmid/17426196" />
+<authors>Karmpaliotis D, Kirtane AJ, Ruisi CP, et al.</authors>
+<title>Diagnostic and prognostic utility of brain natriuretic Peptide in subjects admitted to the ICU with hypoxic respiratory failure due to noncardiogenic and cardiogenic pulmonary edema.</title>
+<source>Chest</source>
+<pubdate>2007</pubdate>
+<volume>131</volume>
+<pages>964&#x2013;971.</pages>
+</reference>
+<reference id="pubmed15269312">
+<accessionId id="acc002" href="info:pmid/15269312" />
+<authors>Brower RG, Lanken PN, MacIntyre N, et al.; National Heart, Lung, and Blood Institute ARDS, Clinical Trials Network.</authors>
+<title>Higher versus lower positive end-expiratory pressures in patients with the acute respiratory distress syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>351</volume>
+<pages>327&#x2013;336.</pages>
+</reference>
+<reference id="pubmed17383982">
+<accessionId id="acc003" href="info:pmid/17383982" />
+<authors>Adhikari NK, Burns KE, Friedrich JO, Granton JT, Cook DJ, Meade MO.</authors>
+<title>Effect of nitric oxide on oxygenation and mortality in acute lung injury: systematic review and meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2007</pubdate>
+<volume>334</volume>
+<pages>779.</pages>
+</reference>
+<reference id="pubmed16542488">
+<accessionId id="acc004" href="info:pmid/16542488" />
+<authors>Davidson WJ, Dorscheid D, Spragg R, Schulzer M, Mak E, Ayas NT.</authors>
+<title>Exogenous pulmonary surfactant for the treatment of adult patients with acute respiratory distress syndrome: results of a meta-analysis.</title>
+<source>Crit Care</source>
+<pubdate>2006</pubdate>
+<volume>10</volume>
+<pages>R41.</pages>
+</reference>
+<reference id="pubmed16763220">
+<accessionId id="acc005" href="info:pmid/16763220" />
+<authors>Cheung AM, Tansey CM, Tomlinson G, et al.</authors>
+<title>Two-year outcomes, health care use, and costs of survivors of acute respiratory distress syndrome.</title>
+<source>Am J Respir Crit Care Med.</source>
+<pubdate>2006</pubdate>
+<volume>174</volume>
+<pages>538&#x2013;544.</pages>
+</reference>
+<reference id="pubmed16100134">
+<accessionId id="acc006" href="info:pmid/16100134" />
+<authors>Stapleton RD, Wang BM, Hudson LD, Rubenfeld GD, Caldwell ES, Steinberg KP.</authors>
+<title>Causes and timing of death in patients with ARDS.</title>
+<source>Chest</source>
+<pubdate>2005</pubdate>
+<volume>128</volume>
+<pages>525&#x2013;532.</pages>
+</reference>
+<reference id="pubmed7815658">
+<accessionId id="acc007" href="info:pmid/7815658" />
+<authors>Milberg JA, Davis DR, Steinberg KP, Hudson LD.</authors>
+<title>Improved survival of patients with acute respiratory distress syndrome (ARDS): 1983-1993.</title>
+<source>JAMA</source>
+<pubdate>1995</pubdate>
+<volume>273</volume>
+<pages>306&#x2013;309.</pages>
+</reference>
+<reference id="pubmed16714767">
+<accessionId id="acc008" href="info:pmid/16714767" />
+<authors>National Heart, Lung, and Blood Institute Acute Respiratory Distress Syndrome (ARDS) Clinical Trials Network; Wiedemann HP, Wheeler AP, Bernard GR, et al.</authors>
+<title>Comparison of two fluid-management strategies in acute lung injury.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>354</volume>
+<pages>2564&#x2013;2575.</pages>
+</reference>
+<reference id="pubmed16714768">
+<accessionId id="acc009" href="info:pmid/16714768" />
+<authors>National Heart, Lung, and Blood Institute Acute Respiratory Distress Syndrome (ARDS) Clinical Trials Network; Wheeler AP, Bernard GR, Thompson BT, et al.</authors>
+<title>Pulmonary-artery versus central venous catheter to guide treatment of acute lung injury.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>354</volume>
+<pages>2213&#x2013;2224.</pages>
+</reference>
+<reference id="pubmed15547166">
+<accessionId id="acc010" href="info:pmid/15547166" />
+<authors>Guerin C, Gaillard S, Lemasson S, et al.</authors>
+<title>Effects of systematic prone positioning in hypoxemic acute respiratory failure: a randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2004</pubdate>
+<volume>292</volume>
+<pages>2379&#x2013;2387.</pages>
+</reference>
+<reference id="pubmed17426195">
+<accessionId id="acc011" href="info:pmid/17426195" />
+<authors>Meduri GU, Golden E, Freire AX, et al.</authors>
+<title>Methylprednisolone infusion in early severe ARDS: results of a randomized controlled trial.</title>
+<source>Chest</source>
+<pubdate>2007</pubdate>
+<volume>131</volume>
+<pages>954&#x2013;963.</pages>
+</reference>
+<reference id="cochrane4085">
+<accessionId id="acc012" href="info:wiley/cochrane/CD004085" />
+<chapter_authors>Sud S, Sud M, Friedrich JO, Wunsch H, Meade MO, Ferguson ND, Adhikari NK.</chapter_authors>
+<chapter_title>High-frequency oscillatory ventilation versus conventional ventilation for acute respiratory distress syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 4. Art. No.: CD004085. DOI: 10.1002&#x002F;14651858.CD004085.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed16236739">
+<accessionId id="acc013" href="info:pmid/16236739" />
+<authors>Rubenfeld GD, Caldwell E, Peabody E, et al.</authors>
+<title>Incidence and outcomes of acute lung injury.</title>
+<source>N Engl J Med</source>
+<pubdate>2005</pubdate>
+<volume>353</volume>
+<pages>1685&#x2013;1693.</pages>
+</reference>
+<reference id="pubmed7509706">
+<accessionId id="acc014" href="info:pmid/7509706" />
+<authors>Bernard GR, Artigas A, Brigham KL, et al.</authors>
+<title>The American-European Consensus Conference on ARDS. Definitions, mechanisms, relevant outcomes, and clinical trial coordination.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>1994</pubdate>
+<volume>149</volume>
+<pages>818&#x2013;824.</pages>
+</reference>
+<reference id="poem150772">
+<accessionId id="acc015" href="info:wiley/eep-poem/150772" />
+<accessionId id="acc015b" href="info:pmid/23688302" />
+<authors>Gu&#x00E9;rin C, Reignier J, Richard J-C, et al.; PROSEVA Study Group</authors>
+<title>Prone positioning in severe acute respiratory distress syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2013</pubdate>
+<volume>368</volume>
+<pages>2159&#x2013;2168.</pages>
+</reference>
+<reference id="poem161011">
+<accessionId id="acc016" href="info:wiley/eep-poem/161011" />
+<accessionId id="acc016b" href="info:pmid/24863923" />
+<authors>Sud S, Friedrich JO, Adhikari NK, Taccone P, Mancebo J, Polli F, Latini R, Pesenti A, Curley MA, Fernandez R, Chan MC, Beuret P, Voggenreiter G, Sud M, Tognoni G, Gattinoni L, Gu&#x00E9;rin C.</authors>
+<title>Effect of prone positioning during mechanical ventilation on mortality among patients with acute respiratory distress syndrome: a systematic review and meta-analysis.</title>
+<source>CMAJ</source>
+<pubdate>2014</pubdate>
+<volume>186</volume>
+<pages>E381&#x2013;E390.</pages>
+</reference>
+<reference id="pubmed25268516">
+<accessionId id="acc017" href="info:pmid/25268516" />
+<authors>McAuley DF, Laffey JG, O'Kane CM, Perkins GD, Mullan B, Trinder TJ, Johnston P, Hopkins PA, Johnston AJ, McDowell C, McNally C; HARP-2 Investigators, Irish Critical Care Trials Group.</authors>
+<title>Simvastatin in the acute respiratory distress syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2014</pubdate>
+<volume>371</volume>
+<pages>1695&#x2013;1703.</pages>
+</reference>
+<reference id="pubmed24716641">
+<accessionId id="acc018" href="info:pmid/24716641" />
+<authors>Needham DM, Wozniak AW, Hough CL, Morris PE, Dinglas VD, Jackson JC, Mendez-Tellez PA, Shanholtz C, Ely EW, Colantuoni E, Hopkins RO; National Institutes of Health NHLBI ARDS Network.</authors>
+<title>Risk factors for physical impairment after acute lung injury in a national, multicenter study.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2014</pubdate>
+<volume>189</volume>
+<pages>1214&#x2013;1224.</pages>
+</reference>
+<reference id="poem191216">
+<accessionId id="acc019" href="info:wiley/eep-poem/191216" />
+<accessionId id="acc019b" href="info:pmid/28973363" />
+<authors>Writing Group for the Alveolar Recruitment for Acute Respiratory Distress Syndrome Trial (ART) Investigators; Cavalcanti AB, Suzumura &#x00C9;A, Laranjeira LN, Paisani DM, Damiani LP, Guimar&#x00E3;es HP, Romano ER, Regenga MM, Taniguchi LNT, Teixeira C, Pinheiro de Oliveira R, Machado FR, Diaz-Quijano FA, Filho MSA, Maia IS, Caser EB, Filho WO, Borges MC, Martins PA, Matsui M, Ospina-Tasc&#x00F3;n GA, Giancursi TS, Giraldo-Ramirez ND, Vieira SRR, Assef MDGPL, Hasan MS, Szczeklik W, Rios F, Amato MBP, Berwanger O, Ribeiro de Carvalho CR.</authors>
+<title>Effect of lung recruitment and titrated positive end-expiratory pressure (PEEP) vs low PEEP on mortality in patients with acute respiratory distress syndrome: a randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2017</pubdate>
+<volume>318</volume>
+<pages>1335&#x2013;1345.</pages>
+</reference>
+<reference id="poem200817">
+<accessionId id="acc020" href="info:wiley/eep-poem/200817" />
+<accessionId id="acc020b" href="info:pmid/29791822" />
+<authors>Combes A, Hajage D, Capellier G, Demoule A, Lavou&#x00E9; S, Guervilly C, Da Silva D, Zafrani L, Tirot P, Veber B, Maury E, Levy B, Cohen Y, Richard C, Kalfon P, Bouadma L, Mehdaoui H, Beduneau G, Lebreton G, Brochard L, Ferguson ND, Fan E, Slutsky AS, Brodie D, Mercat A, EOLIA Trial Group, REVA, and ECMONet.</authors>
+<title>Extracorporeal membrane oxygenation for severe acute respiratory distress syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>378</volume>
+<pages>1965&#x2013;1975.</pages>
+</reference>
+<reference id="cochrane6667">
+<accessionId id="acc021" href="info:wiley/cochrane/CD6667" />
+<chapter_authors>Hodgson C, Goligher EC, Young ME, Keating JL, Holland AE, Romero L, Bradley SJ, Tuxen D.</chapter_authors>
+<chapter_title>Recruitment manoeuvres for adults with acute respiratory distress syndrome receiving mechanical ventilation.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 11. Art. No.: CD006667. DOI: 10.1002&#x002F;14651858.CD006667.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7733">
+<accessionId id="acc022" href="info:wiley/cochrane/CD7733" />
+<chapter_authors>Afshari A, Bastholm Bille A, Allingstrup M.</chapter_authors>
+<chapter_title>Aerosolized prostacyclins for acute respiratory distress syndrome (ARDS).</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 7. Art. No.: CD007733. DOI: 10.1002&#x002F;14651858.CD007733.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3707">
+<accessionId id="acc023" href="info:wiley/cochrane/CD3707" />
+<chapter_authors>Galvin IM, Steel A, Pinto R, Ferguson ND, Davies MW.</chapter_authors>
+<chapter_title>Partial liquid ventilation for preventing death and morbidity in adults with acute lung injury and acute respiratory distress syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 7. Art. No.: CD003707. DOI: 10.1002&#x002F;14651858.CD003707.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3845">
+<accessionId id="acc024" href="info:wiley/cochrane/CD3845" />
+<chapter_authors>Kaushal A, McDonnell CG, Davies MW.</chapter_authors>
+<chapter_title>Partial liquid ventilation for the prevention of mortality and morbidity in paediatric acute lung injury and acute respiratory distress syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 2. Art. No.: CD003845. DOI: 10.1002&#x002F;14651858.CD003845.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31112383">
+<accessionId id="acc025" href="info:pmid/31112383" />
+<authors>National Heart, Lung, and Blood Institute PETAL Clinical Trials Network, Moss M, Huang DT, Brower RG, Ferguson ND, Ginde AA, Gong MN, Grissom CK, Gundel S, Hayden D, Hite RD, Hou PC, Hough CL, Iwashyna TJ, Khan A, Liu KD, Talmor D, Thompson BT, Ulysse CA, Yealy DM, Angus DC.</authors>
+<title>Early neuromuscular blockade in the acute respiratory distress syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>380</volume>
+<pages>1997&#x2013;2008.</pages>
+</reference>
+<reference id="pubmed31124933">
+<accessionId id="acc026" href="info:pmid/31124933" />
+<authors>Dong G, Wang F, Xu L, Zhu M, Zhang B, Wang B.</authors>
+<title>Serum interleukin-18: A novel prognostic indicator for acute respiratory distress syndrome.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e15529.</pages>
+</reference>
+<reference id="cochrane4477">
+<accessionId id="acc027" href="info:wiley/cochrane/CD004477" />
+<chapter_authors>Lewis SR, Pritchard MW, Thomas CM, Smith AF.</chapter_authors>
+<chapter_title>Pharmacological agents for adults with acute respiratory distress syndrome.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 7. Art. No.: CD004477. DOI: 10.1002&#x002F;14651858.CD004477.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem220618">
+<accessionId id="acc028" href="info:wiley/eep-poem/220618" />
+<accessionId id="acc028b" href="info:pmid/32160661" />
+<authors>Barrot L, Asfar P, Mauny F, Winiszewski H, Montini F, Badie J, Quenot JP, Pili-Floury S, Bouhemad B, Louis G, Souweine B, Collange O, Pottecher J, Levy B, Puyraveau M, Vettoretti L, Constantin JM, Capellier G, LOCO2 Investigators and REVA Research Network.</authors>
+<title>Liberal or Conservative Oxygen Therapy for Acute Respiratory Distress Syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>999&#x2013;1008.</pages>
+</reference>
+<reference id="pubmed32068366">
+<accessionId id="acc029" href="info:pmid/32068366" />
+<authors>Olsen HT, Nedergaard HK, Str&#x00F8;m T, Oxlund J, Wian KA, Ytreb&#x2298;LM, Kroken BA, Chew M, Korkmaz S, Lauridsen JT, Toft P.</authors>
+<title>Nonsedation or Light Sedation in Critically Ill, Mechanically Ventilated Patients.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>1103&#x2013;1111.</pages>
+</reference>
+<reference id="poem220611">
+<accessionId id="acc030" href="info:wiley/eep-poem/220611" />
+<accessionId id="acc030b" href="info:pmid/31613432" />
+<authors>ICU-ROX Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group, Mackle D, Bellomo R, Bailey M, Beasley R, Deane A, Eastwood G, Finfer S, Freebairn R, King V, Linke N, Litton E, McArthur C, McGuinness S, Panwar R, Young P, ICU-ROX Investigators the Australian and New Zealand Intensive Care Society Clinical Trials Group.</authors>
+<title>Conservative oxygen therapy during mechanical ventilation in the ICU.</title>
+<source>N Engl J Med</source>
+<pubdate>2020</pubdate>
+<volume>382</volume>
+<pages>989&#x2013;998.</pages>
+</reference>
+<reference id="pubmed28459336">
+<accessionId id="acc031" href="info:pmid/28459336" />
+<authors>Fan E, Del Sorbo L, Goligher EC, Hodgson CL, Munshi L, Walkey AJ, Adhikari NKJ, Amato MBP, Branson R, Brower RG, Ferguson ND, Gajic O, Gattinoni L, Hess D, Mancebo J, Meade MO, McAuley DF, Pesenti A, Ranieri VM, Rubenfeld GD, Rubin E, Seckel M, Slutsky AS, Talmor D, Thompson BT, Wunsch H, Uleryk E, Brozek J, Brochard LJ, American Thoracic Society, European Society of Intensive Care Medicine, and Society of Critical Care Medicine.</authors>
+<title>An Official American Thoracic Society&#x002F;European Society of Intensive Care Medicine&#x002F;Society of Critical Care Medicine Clinical Practice Guideline: Mechanical Ventilation in Adult Patients with Acute Respiratory Distress Syndrome.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2017</pubdate>
+<volume>195</volume>
+<pages>1253&#x2013;1263.</pages>
+</reference>
+<reference id="pubmed16625008">
+<accessionId id="acc032" href="info:pmid/16625008" />
+<authors>Steinberg KP, Hudson LD, Goodman RB, Hough CL, Lanken PN, Hyzy R, Thompson BT, Ancukiewicz M, National Heart, Lung, and Blood Institute Acute Respiratory Distress Syndrome (ARDS) Clinical Trials Network.</authors>
+<title>Efficacy and safety of corticosteroids for persistent acute respiratory distress syndrome.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>354</volume>
+<pages>1671&#x2013;84.</pages>
+</reference>
+<reference id="pubmed33832136">
+<accessionId id="acc033" href="info:pmid/33832136" />
+<authors>Lv H, Dai L, Lu J, Cheng L, Geng Y, Chen M, Chen Q, Wang X.</authors>
+<title>Efficacy and safety of methylprednisolone against acute respiratory distress syndrome: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2021</pubdate>
+<volume>100</volume>
+<pages>e25408.</pages>
+</reference>
+<reference id="pubmed33784416">
+<accessionId id="acc034" href="info:pmid/33784416" />
+<authors>Santa Cruz R, Villarejo F, Irrazabal C, Ciapponi A.</authors>
+<title>High versus low positive end-expiratory pressure (PEEP) levels for mechanically ventilated adult patients with acute lung injury and acute respiratory distress syndrome.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2021</pubdate>
+<volume>3</volume>
+<pages>CD009098.</pages>
+</reference>
+<reference id="pubmed33104824">
+<accessionId id="acc035" href="info:pmid/33104824" />
+<authors>Alhazzani W, Belley-Cote E, M&#x00F8;ller MH, Angus DC, Papazian L, Arabi YM, Citerio G, Connolly B, Denehy L, Fox-Robichaud A, Hough CL, Laake JH, Machado FR, Ostermann M, Piraino T, Sharif S, Szczeklik W, Young PJ, Gouskos A, Kiedrowski K, Burns KEA.</authors>
+<title>Neuromuscular blockade in patients with ARDS: a rapid practice guideline.</title>
+<source>Intensive Care Med</source>
+<pubdate>2020</pubdate>
+<volume>46</volume>
+<pages>1977&#x2013;1986.</pages>
+</reference>
+<reference id="poem332240">
+<accessionId id="acc036" href="info:wiley/eep-poem/332240" />
+<accessionId id="acc036b" href="info:pmid/33471452" />
+<authors>Schj&#x00F8;rring OL, Klitgaard TL, Perner A, Wetterslev J, Lange T, Siegemund M, B&#x00E4;cklund M, Keus F, Laake JH, Morgan M, Thormar KM, Rosborg SA, Bisgaard J, Erntgaard AES, Lynnerup AH, Pedersen RL, Crescioli E, Gielstrup TC, Behzadi MT, Poulsen LM, Estrup S, Laigaard JP, Andersen C, Mortensen CB, Brand BA, White J, Jarnvig IL, M&#x00F8;ller MH, Quist L, Bestle MH, Sch&#x00F8;nemann-Lund M, Kamper MK, Hindborg M, Hollinger A, Gebhard CE, Zellweger N, Meyhoff CS, Hjort M, Bech LK, Gr&#x00F8;fte T, Bundgaard H, &#x00D8;stergaard LHM, Thy&#x2298;MA, Hildebrandt T, Uslu B, S&#x00F8;lling CG, M&#x00F8;ller-Nielsen N, Br&#x00F8;chner AC, Borup M, Okkonen M, Dieperink W, Pedersen UG, Andreasen AS, Buus L, Aslam TN, Winding RR, Schefold JC, Thorup SB, Iversen SA, Engstr&#x00F8;m J, Kj&#x00E6;r MN, Rasmussen BS, HOT-ICU Investigators.</authors>
+<title>Lower or Higher Oxygenation Targets for Acute Hypoxemic Respiratory Failure.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>384</volume>
+<pages>1301&#x2013;1311.</pages>
+</reference>
+<reference id="pubmed36181003">
+<accessionId id="acc037" href="info:pmid/36181003" />
+<authors>Feng LH, Li XD, Zhang XY, Cheng PJ, Feng ZY.</authors>
+<title>Dexamethasone for the treatment of acute respiratory distress syndrome: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2022</pubdate>
+<volume>101</volume>
+<pages>e30195.</pages>
+</reference>
+<reference id="pubmed35672215">
+<accessionId id="acc038" href="info:pmid/35672215" />
+<authors>Ashra F, Chen R, Kang XL, Chiang KJ, Pien LC, Jen HJ, Liu D, Hsiao SS, Chou KR.</authors>
+<title>Effectiveness of prone position in acute respiratory distress syndrome and moderating factors of obesity class and treatment durations for COVID-19 patients: A meta-analysis.</title>
+<source>Intensive Crit Care Nurs</source>
+<pubdate>2022</pubdate>
+<volume>72</volume>
+<pages>103257.</pages>
+</reference>
+<reference id="pubmed36116979">
+<accessionId id="acc039" href="info:pmid/36116979" />
+<authors>Fazzini B, Battaglini D, Carenzo L, Pelosi P, Cecconi M, Puthucheary Z.</authors>
+<title>Physical and psychological impairment in survivors of acute respiratory distress syndrome: a systematic review and meta-analysis.</title>
+<source>Br J Anaesth</source>
+<pubdate>2022</pubdate>
+<volume>129</volume>
+<pages>801&#x2013;814.</pages>
+</reference>
+<reference id="poem352665">
+<accessionId id="acc040" href="info:wiley/eep-poem/352665" />
+<accessionId id="acc040b" href="info:pmid/37889107" />
+<authors>Misset B, Piagnerelli M, Hoste E, Dardenne N, Grimaldi D, Michaux I, De Waele E, Dumoulin A, Jorens PG, van der Hauwaert E, Vallot F, Lamote S, Swinnen W, De Schryver N, Fraipont V, de Mey N, Dauby N, Layios N, Mesland JB, Meyfroidt G, Moutschen M, Compernolle V, Gothot A, Desmecht D, Taveira da Silva Pereira MI, Garigliany M, Najdovski T, Bertrand A, Donneau AF, Laterre PF.</authors>
+<title>Convalescent Plasma for Covid-19-Induced ARDS in Mechanically Ventilated Patients.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>389</volume>
+<pages>1590&#x2013;1600.</pages>
+</reference>
+<reference id="pubmed38978055">
+<accessionId id="acc041" href="info:pmid/38978055" />
+<authors>Boumans MMA, Aerts W, Pisani L, Bos LDJ, Smit MR, Tuinman PR.</authors>
+<title>Diagnostic accuracy of lung ultrasound in diagnosis of ARDS and identification of focal or non-focal ARDS subphenotypes: a systematic review and meta-analysis.</title>
+<source>Crit Care</source>
+<pubdate>2024</pubdate>
+<volume>28</volume>
+<pages>224.</pages>
+</reference>
+<reference id="pubmed38842731">
+<accessionId id="acc042" href="info:pmid/38842731" />
+<authors>Sud S, Fan E, Adhikari NKJ, Friedrich JO, Ferguson ND, Combes A, Guerin C, Guyatt G.</authors>
+<title>Comparison of venovenous extracorporeal membrane oxygenation, prone position and supine mechanical ventilation for severely hypoxemic acute respiratory distress syndrome: a network meta-analysis.</title>
+<source>Intensive Care Med</source>
+<pubdate>2024</pubdate>
+<volume>50</volume>
+<pages>1021&#x2013;1034.</pages>
+</reference>
+<reference id="pubmed38197932">
+<accessionId id="acc043" href="info:pmid/38197932" />
+<authors>Turgeon J, Venkatamaran V, Englesakis M, Fan E.</authors>
+<title>Long-term outcomes of patients supported with extracorporeal membrane oxygenation for acute respiratory distress syndrome: a systematic review and meta-analysis.</title>
+<source>Intensive Care Med</source>
+<pubdate>2024</pubdate>
+<volume>50</volume>
+<pages>350&#x2013;370.</pages>
+</reference>
+<reference id="pubmed38287299">
+<accessionId id="acc044" href="info:pmid/38287299" />
+<authors>Wang D, Qi Y.</authors>
+<title>Lung ultrasound score and in-hospital mortality of adults with acute respiratory distress syndrome: a meta-analysis.</title>
+<source>BMC Pulm Med</source>
+<pubdate>2024</pubdate>
+<volume>24</volume>
+<pages>62.</pages>
+</reference>
+<reference id="pubmed38245784">
+<accessionId id="acc045" href="info:pmid/38245784" />
+<authors>Tekantapeh ST, Nader ND, Ghojazadeh M, Fereidouni F, Soleimanpour H.</authors>
+<title>Prone positioning effect on tracheal intubation rate, mortality and oxygenation parameters in awake non-intubated severe COVID-19-induced respiratory failure: a review of reviews.</title>
+<source>Eur J Med Res</source>
+<pubdate>2024</pubdate>
+<volume>29</volume>
+<pages>63.</pages>
+</reference>
+<reference id="pubmed36278971">
+<accessionId id="acc046" href="info:pmid/36278971" />
+<authors>Semler MW, Casey JD, Lloyd BD, Hastings PG, Hays MA, Stollings JL, Buell KG, Brems JH, Qian ET, Seitz KP, Wang L, Lindsell CJ, Freundlich RE, Wanderer JP, Han JH, Bernard GR, Self WH, Rice TW, PILOT Investigators and the Pragmatic Critical Care Research Group.</authors>
+<title>Oxygen-Saturation Targets for Critically Ill Adults Receiving Mechanical Ventilation.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>387</volume>
+<pages>1759&#x2013;1769.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>206</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Diagnostic Algorithm for ARDS.</title>
+<graphic href="eee0657-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Hypoxemia and chest radiograph with new or worsening bilateral alveolar infiltrates consistent with pulmonary edema. Measure BNP.</label>
+<path target="cell-2">BNP &lt;200 pg&#x002F;mL</path>
+<path target="cell-3">BNP 200-1200 pg&#x002F;mL</path>
+<path target="cell-4">BNP &gt;1200 pg&#x002F;mL</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Likely ARDS. No further diagnostic studies necessary.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Indeterminate. Further studies will be required to differentiate ARDS from cardiogenic pulmonary edema (CPE).</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Transthoracic echocardiogram with either of the following: systolic ejection fraction &lt;45&#x0025; without valvular abnormality, or significant aortic or mitral valve disease?</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Clear temporal relationship to ARDS risk factor (eg, sepsis, aspiration)?</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>PAC placement PAOP &lt;18 mm Hg.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Likely CPE.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Likely ARDS.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Likely ARDS.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Likely cardiogenic pulmonary edema (CPE). No further diagnostic tests necessary.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Likely cardiogenic pulmonary edema (CPE). No further diagnostic tests necessary.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: ARDS, acute respiratory distress syndrome; BNP, brain natriuretic peptide; CPE, cardiogenic pulmonary edema; PAC, pulmonary artery catheter; PAOP, pulmonary artery occlusion pressure.</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+</topic>

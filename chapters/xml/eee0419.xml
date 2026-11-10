@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Bell's palsy</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0419</topic_id>
+<topic_comment />
+<topic_lastupdated>09/12/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Arthur W. Morrow, DO</author_name>
+<author_title>Associate Director, Family Medicine Residency Program</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Altoona Regional Health System</author_institution>
+<author_email>amorrow&#x0040;altoonafp.org</author_email>
+<author_phone_office>814-889-2020</author_phone_office>
+<author_phone_home>814-949-4761</author_phone_home>
+<author_phone_fax>814-889-7864</author_phone_fax>
+<author_street1>501 Howard Avenue, Suite F-2</author_street1>
+<author_street2 />
+<author_city>Altoona</author_city>
+<author_state>PA</author_state>
+<author_zip>16601</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>David Slawson, MD</editor_name>
+<editor_title>Vice Chair, Department of Family Medicine</editor_title>
+<editor_institution>University of Virginia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Bell's palsy is a clinical diagnosis based on the onset of acute unilateral facial paralysis over 1 to 7 days that does not usually require further work-up. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Early use (within 3 days of symptom onset) of corticosteroids increases the likelihood of full recovery. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Antivirals are not routinely recommended. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Complete recovery occurs in 85&#x0025; or more of cases. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Prevention of complications, especially corneal injuries, is important. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Bell's palsy is an acute, usually temporary, idiopathic paralysis of the facial nerve, typically involving one side of the face.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Incidence is 0.2 people affected per 1000 per year.<xref ref="pubmed12207155" resource="acc001" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Lifetime prevalence is 1&#x002F;60 people affected.</listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Peak incidence is in the fourth decade.</listitem>
+<listitem>There is an 8&#x0025; risk of recurrence in previously affected individuals.<xref ref="pubmed15385659" resource="acc012" />
+<xref ref="pubmed12207155" resource="acc001" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Unknown; cause may be related to viral exposure, autoimmunity, cold exposure, or structural or solid lesions.</listitem>
+<listitem>Diabetes and pregnancy are known risk factors.<xref ref="pubmed1126588" resource="acc011" /></listitem>
+<listitem>Vaccination against COVID-19 with mRNA vaccine is associated with a very small absolute risk of Bell's palsy (0.03&#x0025; vs 0.01&#x0025;, odds ratio 3.6, 95&#x0025; CI 1.1-11.7).<xref ref="poem361251" resource="acc023" /></listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Swelling and inflammation of the facial nerve lead to unilateral facial paralysis.</listitem>
+<listitem>They also lead to lacrimal and salivary gland dysfunction.</listitem>
+<listitem>Mononuclear cell infiltration is seen histologically.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Cold exposure</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Viral exposure</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Pregnancy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Age over 30</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Family history</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Obesity</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Previous Bell's palsy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Diagnosis is largely clinical based on the onset of acute unilateral facial paralysis over 1 to 7 days. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed15385659" resource="acc012" /></listitem>
+<listitem>Specific testing and screening are not usually indicated but can be done in special populations. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Neoplastic</Differential_Name>
+<Differential_Features>Meningeal carcinoma,parotid or skull tumors</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Infectious</Differential_Name>
+<Differential_Features>Lyme disease, meningitis, osteomyelitis, otitis, <em>Mycobacterium leprae</em></Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sarcoidosis</Differential_Name>
+<Differential_Features>Look for other evidence of sarcoid</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Head trauma</Differential_Name>
+<Differential_Features>History should give this though keep an index of suspicion</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Multiple sclerosis</Differential_Name>
+<Differential_Features>Other distinguishing features may be evident; consider imaging</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Various neurologically mediated diseases</Differential_Name>
+<Differential_Features>Initial presentation of Guillain-Barre syndrome is similar to that of Bell's palsy</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Complete cranial nerve examination reveals unilateral facial paralysis without any nerve sparing, especially in the forehead. Facial drooping is evident on the affected side with salivary pooling in the affected side of the mouth. Onset of symptoms is typically over 1 to 3 days.</listitem>
+<listitem>Perform a careful head, ears, eyes, nose, and throat (HEENT) examination. The affected eye cannot close and may paradoxically appear to have increased tearing.</listitem>
+<listitem>While sensation is preserved, patients may complain of subjective "numbness" as well as decreased taste, phonophobia, ear pain, or loss of corneal reflex.</listitem>
+<listitem>Note recent cold exposure, viral infection, or presence of other risk factors.</listitem>
+<listitem>Note any recent rashes, fevers, or arthralgias or history of previous palsy. Also note any history of exposure to new medicines, vaccines, viruses, or other vectors of potential neurologic disease.<xref ref="pubmed17031324" resource="acc010" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Bell's palsy is largely a clinical diagnosis, and diagnostic testing is usually not indicated or needed.</listitem>
+<listitem>Patients with risk factors can be screened for diabetes mellitus, which can occur in up to 10&#x0025; of affected individuals.<xref ref="pubmed1126588" resource="acc011" /></listitem>
+<listitem>Lyme titers can be checked if exposure is suspected.<xref ref="pubmed9282248" resource="acc009" /></listitem>
+<listitem>Imaging of the head probably does not affect outcome but can be considered if there is forehead sparing and a mass lesion is suspected or if symptoms do not resolve within 2 weeks. A single study found that diameter of the distal facial (VII) nerve on ultrasound is a good predictor of favorable or unfavorable outcome.<xref ref="pubmed20155816" resource="acc013" /></listitem>
+<listitem>CSF protein and cell counts are mildly elevated in some cases. EMG studies, nerve conduction studies, and blink reflex testing can be considered with persistent symptoms or uncertain diagnosis.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Unilateral facial paralysis is usually diagnostic in and of itself; laboratory evaluation is usually not indicated. Consider fasting glucose if diabetes is suspected.</listitem>
+<listitem>Duration of longer than 2 weeks or areas of nerve sparing should prompt imaging of the head to rule out mass lesion.</listitem>
+<listitem>Patients with bilateral palsy and palsy unresponsive to treatment within 2 to 3 weeks should be referred to a neurologist.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Early use (within 3 days of symptom onset) of a 10-day course of corticosteroids increases the likelihood of full recovery (NNT &#x003D; 6-10). <evidence rating="A" system="SORT"> A</evidence>
+<xref ref="cochrane1942" resource="acc008" />
+<xref ref="poem150241" resource="acc019" /></listitem>
+<listitem>Antiviral medications are no longer recommended, based on the most recent publications and a Cochrane review. <evidence rating="B" system="SORT"> B</evidence>
+<xref ref="pubmed17942873" resource="acc007" />
+<xref ref="cochrane1869" resource="acc017" /></listitem>
+<listitem>Prevention of corneal complications in the eye is vital. Frequent use of artificial tears is recommended. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Early use (in the first 3 days) of corticosteroids for 10 days of therapy results in lower rates of incomplete recovery at 6 months or later (22&#x0025; vs 33&#x0025;; NNT &#x003D; 10).<xref ref="cochrane1942" resource="acc008" /> This practice is supported by a large recent systematic review that found benefit from corticosteroids but not antivirals; recommended total steroid dose should be at least 450 mg of prednisone or equivalent.<xref ref="pubmed19724046" resource="acc014" /></listitem>
+<listitem>A trial randomized 187 children with Bell's palsy to 1mg&#x002F;kg&#x002F;day up to 50 mg of prednisolone for 10 days or placebo. The study found small numeric benefits (NNT &#x003D; 17 at 6 months) but the study was underpowered and the differences were not statistically significant.<xref ref="poem319332" resource="acc024" /></listitem>
+<listitem>Antiviral use with or without corticosteroids has not been shown to be effective. While two smaller studies showed a slightly higher percentage of full recovery using combination therapy,<xref ref="pubmed17414047" resource="acc006" />
+<xref ref="pubmed14600480" resource="acc005" /> the largest and best designed study to date showed no benefit to acyclovir (with or without steroids).<xref ref="pubmed17942873" resource="acc007" /> A Cochrane review showed no benefit based on their review of 14 RCTs with 2488 participants.<xref ref="cochrane1869" resource="acc017" /></listitem>
+<listitem>The frequent use of artificial tears in the eye on the affected side is strongly recommended to prevent corneal complications. Lid taping and&#x002F;or eye patching can also be considered.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgical therapy is limited. It is generally reserved for cases of total failure to recover and involves techniques of reanastomosing cranial nerves and surgical nerve decompression.<xref ref="pubmed19796438" resource="acc015" /> A systematic review identified two trials with 65 participants, neither of which identified any benefit between operated and non-operated hands, although the quality and size of the studies was low.<xref ref="cochrane7468" resource="acc016" /></listitem>
+<listitem>Hearing loss is a potential surgical complication.<xref ref="cochrane7468" resource="acc016" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>Currently available evidence on the efficacy of acupuncture is not of sufficient scientific quality to warrant recommending it for the treatment of Bell's palsy. A 2010 systematic review identified 6 studies with 537 patients, and a 2019 systematic review found 11 studies with 1258 patients, but studies were heterogeneous, of poor quality and did not report key clinical outcomes.<xref ref="cochrane2914" resource="acc004" />
+<xref ref="pubmed31083225" resource="acc021" /></listitem>
+<listitem>Two small, low-quality trials of tailored facial exercises found that facial exercises may improve facial function in patients with moderate facial paralysis and prevent sequelae in acute cases. There is insuffficient evidence to determine if other physical therapy modalities such as electrical stimulation are effective at reducing symptoms.<xref ref="cochrane6283" resource="acc018" /></listitem>
+<listitem>There is insufficient evidence that hyperbaric oxygen therapy improves recovery of facial function in adults with moderate to severe Bell's palsy.<xref ref="cochrane7288" resource="acc020" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>The most common complication is protracted or partial loss of facial nerve function, with abnormal tearing, muscle weakness, and muscle spasm. Surgical management may be considered in severe cases.</listitem>
+<listitem>Inability to close the eye on the affected side can lead to corneal ulcerations and&#x002F;or abrasions from drying and exposure. Artificial tears and eye protection are recommended.<xref ref="pubmed24189771" resource="acc022" /></listitem>
+<listitem>Complications of steroid and antiviral use are rare, given the short duration of therapy.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Expect complete or nearly complete recovery in 85&#x0025; or more of cases. <evidence rating="A" system="SORT"> A</evidence>
+<xref ref="pubmed12482166" resource="acc003" />
+<xref ref="pubmed17942873" resource="acc007" /></listitem>
+<listitem>Outpatient follow-up is important for severe or slowly resolving cases. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Recovery of function and prevention of complications is the main treatment goal. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed15385659" resource="acc012" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history>
+<list style="bulleted">
+<listitem>Within 3 weeks, 85&#x0025; of patients or more recover spontaneously.</listitem>
+<listitem>Of these, 71&#x0025; recover full function.</listitem>
+<listitem>Final recovery may take 4 to 8 weeks or more to attain.<xref ref="pubmed12482166" resource="acc003" />
+<xref ref="pubmed17942873" resource="acc007" /></listitem>
+</list>
+</Natural_history>
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>Complete or partial recovery is expected.</listitem>
+<listitem>Cases of no recovery at all are rarely seen.</listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>No specific follow-up testing is indicated.</listitem>
+<listitem>Follow as outpatient in severe or unresolving cases (q 1-3 weeks, as needed).</listitem>
+<listitem>Monitor for corneal or tearing complications.</listitem>
+<listitem>Consider monthly long-term follow-up or referral in severe cases.</listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Early access to a health care provider is recommended.</listitem>
+<listitem>Prevention of complications is important.</listitem>
+<listitem>Recovery of lost function is the goal and does occur in most cases, regardless of treatment.</listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Bell's palsy is three times more common in pregnancy than in the nonpregnant state. Symptoms are frequently more severe and recovery rates are lower.</listitem>
+<listitem>The use of corticosteroids (category C) for Bell's palsy has not been well studied in pregnancy, so their use is controversial.<xref ref="pubmed10713984" resource="acc002" /> It is effective in non-pregnant patients.<xref ref="pubmed17942873" resource="acc007" /></listitem>
+<listitem>Acyclovir, valacyclovir, and famciclovir (category B) are not beneficial in pregnant or non-pregnant patients are not recommended.</listitem>
+</list>
+</Pregnancy>
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed12207155">
+<accessionId id="acc001" href="info:pmid/12207155" />
+<authors>Morris AM, Deeks SL, Hill MD, et al.</authors>
+<title>Annualized incidence and spectrum of illness from an outbreak investigation of Bell's palsy.</title>
+<source>Neuroepidemiology</source>
+<pubdate>2002</pubdate>
+<volume>21</volume>
+<pages>255-261</pages>
+</reference>
+<reference id="pubmed10713984">
+<accessionId id="acc002" href="info:pmid/10713984" />
+<authors>Cohen Y, Lavie O, Granovsky-Grisaru S, Aboulafia Y, Diamant YZ.</authors>
+<title>Bell palsy complicating pregnancy: a review.</title>
+<source>Obstet Gynecol Surv</source>
+<pubdate>2000</pubdate>
+<volume>55</volume>
+<pages>184-188</pages>
+</reference>
+<reference id="pubmed12482166">
+<accessionId id="acc003" href="info:pmid/12482166" />
+<authors>Peitersen E.</authors>
+<title>Bell's palsy: the spontaneous course of 2,500 peripheral facial nerve palsies of different etiologies.</title>
+<source>Acta Otolaryngol Suppl</source>
+<pubdate>2002</pubdate>
+<pages>4-30</pages>
+</reference>
+<reference id="cochrane2914">
+<accessionId id="acc004" href="info:wiley/cochrane/CD002914" />
+<chapter_authors>Chen N, Zhou M, He L, Zhou D, Li N.</chapter_authors>
+<chapter_title>Acupuncture for Bell's palsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2010, Issue 8. Art. No.: CD002914. DOI: 10.1002&#x002F;14651858.CD002914.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed14600480">
+<accessionId id="acc005" href="info:pmid/14600480" />
+<authors>Hato N, Matsumoto S, Kisaki H, et al.</authors>
+<title>Efficacy of early treatment of Bell's palsy with oral acyclovir and prednisolone.</title>
+<source>Otol Neurotol</source>
+<pubdate>2003</pubdate>
+<volume>24</volume>
+<pages>948-951</pages>
+</reference>
+<reference id="pubmed17414047">
+<accessionId id="acc006" href="info:pmid/17414047" />
+<authors>Hato N, Yamada H, Kohno H, et al.</authors>
+<title>Valacyclovir and prednisolone treatment for Bell's palsy: a multicenter, randomized, placebo-controlled study.</title>
+<source>Otol Neurotol</source>
+<pubdate>2007</pubdate>
+<volume>28</volume>
+<pages>408-413</pages>
+</reference>
+<reference id="pubmed17942873">
+<accessionId id="acc007" href="info:pmid/17942873" />
+<accessionId id="acc007b" href="info:wiley/eep-poem/91203" />
+<authors>Sullivan FM, Swan IR, Donnan PT, et al.</authors>
+<title>Early treatment with prednisolone or acyclovir in Bell's palsy.</title>
+<source>N Engl J Med</source>
+<pubdate>2007</pubdate>
+<volume>357</volume>
+<pages>1598-1607</pages>
+</reference>
+<reference id="cochrane1942">
+<accessionId id="acc008" href="info:wiley/cochrane/CD001942" />
+<chapter_authors>Madhok VB, Gagyor I, Daly F, Somasundara D, Sullivan M, Gammie F, Sullivan F.</chapter_authors>
+<chapter_title>Corticosteroids for Bell's palsy (idiopathic facial paralysis).</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 7. Art. No.: CD001942. DOI: 10.1002&#x002F;14651858.CD001942.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed9282248">
+<accessionId id="acc009" href="info:pmid/9282248" />
+<authors>Cook SP, Macartney KK, Rose CD, Hunt PG, Eppes SC, Reilly JS.</authors>
+<title>Lyme disease and seventh nerve paralysis in children.</title>
+<source>Am J Otolaryngol</source>
+<pubdate>1997</pubdate>
+<volume>18</volume>
+<pages>320-323</pages>
+</reference>
+<reference id="pubmed17031324">
+<accessionId id="acc010" href="info:pmid/17031324" />
+<authors>Makeham TP, Croxson GR, Coulson S.</authors>
+<title>Infective causes of facial nerve paralysis.</title>
+<source>Otol Neurotol</source>
+<pubdate>2007</pubdate>
+<volume>28</volume>
+<pages>100-103</pages>
+</reference>
+<reference id="pubmed1126588">
+<accessionId id="acc011" href="info:pmid/1126588" />
+<authors>Adour K, Wingerd J, Doty HE.</authors>
+<title>Prevalence of concurrent diabetes mellitus and idiopathic facial paralysis (Bell's palsy).</title>
+<source>Diabetes</source>
+<pubdate>1975</pubdate>
+<volume>24</volume>
+<pages>449-451</pages>
+</reference>
+<reference id="pubmed15385659">
+<accessionId id="acc012" href="info:pmid/15385659" />
+<authors>Gilden DH.</authors>
+<title>Clinical practice. Bell's palsy.</title>
+<source>N Engl J Med</source>
+<pubdate>2004</pubdate>
+<volume>351</volume>
+<pages>1323-1331</pages>
+</reference>
+<reference id="pubmed20155816">
+<accessionId id="acc013" href="info:pmid/20155816" />
+<authors>Knerlich-Lukoschus F, von der Ropp-Brenner B, Lucius R, Mehdorn HM, Held-Feindt J.</authors>
+<title>Chemokine expression in the white matter spinal cord precursor niche after force-defined spinal cord contusion injuries in adult rats.</title>
+<source>Glia</source>
+<pubdate>2010</pubdate>
+<volume>58</volume>
+<pages>916-931</pages>
+</reference>
+<reference id="pubmed19724046">
+<accessionId id="acc014" href="info:pmid/19724046" />
+<accessionId id="acc014b" href="info:wiley/eep-poem/111123" />
+<authors>de Almeida JR, Al Khabori M, Guyatt GH, et al.</authors>
+<title>Combined corticosteroid and antiviral treatment for Bell palsy. A systematic review and meta-analysis.</title>
+<source>JAMA</source>
+<pubdate>2009</pubdate>
+<volume>302</volume>
+<pages>985-993</pages>
+</reference>
+<reference id="pubmed19796438">
+<accessionId id="acc015" href="info:pmid/19796438" />
+<authors>Bodenez C, Bernat I, Willer JC, Barre P, Lamas G, Tankere F.</authors>
+<title>Facial nerve decompression for idiopathic Bell's palsy: report of 13 cases and literature review.</title>
+<source>J Laryngol Otol</source>
+<pubdate>2010</pubdate>
+<volume>124</volume>
+<pages>272-278</pages>
+</reference>
+<reference id="cochrane7468">
+<accessionId id="acc016" href="info:wiley/cochrane/CD007468" />
+<chapter_authors>Menchetti I, McAllister K, Walker D, Donnan PT.</chapter_authors>
+<chapter_title>Surgical interventions for the early management of Bell's palsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 1. Art. No.: CD007468. DOI: 10.1002&#x002F;14651858.CD007468.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1869">
+<accessionId id="acc017" href="info:wiley/cochrane/CD001869" />
+<chapter_authors>Gagyor I, Madhok VB, Daly F, Sullivan F.</chapter_authors>
+<chapter_title>Antiviral treatment for Bell's palsy (idiopathic facial paralysis).</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 9. Art. No.: CD001869. DOI: 10.1002&#x002F;14651858.CD001869.pub9.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6283">
+<accessionId id="acc018" href="info:wiley/cochrane/CD006283" />
+<chapter_authors>Teixeira LJ, Valbuza JS, Prado GF.</chapter_authors>
+<chapter_title>Physical therapy for Bell's palsy (idiopathic facial paralysis).</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 12. Art. No.: CD006283. DOI: 10.1002&#x002F;14651858.CD006283.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem150241">
+<accessionId id="acc019" href="info:wiley/eep-poem/150241" />
+<accessionId id="acc019b" href="info:pmid/23136264" />
+<authors>Gronseth GS, Paduga R; American Academy of Neurology.</authors>
+<title>Evidence-based guideline update: steroids and antivirals for Bell palsy: report of the Guideline Development Subcommittee of the American Academy of Neurology.</title>
+<source>Neurology</source>
+<pubdate>2012</pubdate>
+<volume>79</volume>
+<pages>2209-2213</pages>
+</reference>
+<reference id="cochrane7288">
+<accessionId id="acc020" href="info:wiley/cochrane/CD007288" />
+<chapter_authors>Holland NJ, Bernstein JM, Hamilton JW.</chapter_authors>
+<chapter_title>Hyperbaric oxygen therapy for Bell's palsy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 2. Art. No.: CD007288. DOI: 10.1002&#x002F;14651858.CD007288.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31083225">
+<accessionId id="acc021" href="info:pmid/31083225" />
+<authors>Zhang R, Wu T, Wang R, Wang D, Liu Q.</authors>
+<title>Compare the efficacy of acupuncture with drugs in the treatment of Bell's palsy: a systematic review and meta-analysis of RCTs.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e15566</pages>
+</reference>
+<reference id="pubmed24189771">
+<accessionId id="acc022" href="info:pmid/24189771" />
+<authors>Baugh RF, Basura GJ, Ishii LE, Schwartz SR, Drumheller CM, Burkholder R, Deckard NA, Dawson C, Driscoll C, Gillespie MB, Gurgel RK, Halperin J, Khalid AN, Kumar KA, Micco A, Munsell D, Rosenbaum S, Vaughan W.</authors>
+<title>Clinical practice guideline: Bell's palsy.</title>
+<source>Otolaryngol Head Neck Surg</source>
+<pubdate>2013</pubdate>
+<volume>149</volume>
+<pages>S1&#x2013;27</pages>
+</reference>
+<reference id="poem361251">
+<accessionId id="acc023" href="info:wiley/eep-poem/361251" />
+<accessionId id="acc023b" href="info:pmid/37103913" />
+<authors>Rafati A, Pasebani Y, Jameie M, Yang Y, Jameie M, Ilkhani S, Amanollahi M, Sakhaei D, Rahimlou M, Kheradmand A.</authors>
+<title>Association of SARS-CoV-2 Vaccination or Infection With Bell Palsy: A Systematic Review and Meta-analysis.</title>
+<source>JAMA Otolaryngol Head Neck Surg</source>
+<pubdate>2023</pubdate>
+<volume>149</volume>
+<pages>493&#x2013;504</pages>
+</reference>
+<reference id="poem319332">
+<accessionId id="acc024" href="info:wiley/eep-poem/319332" />
+<accessionId id="acc024b" href="info:pmid/36008143" />
+<authors>Babl FE, Herd D, Borland ML , Kochar A, Lawton B, Hort J, West A, George S, Zhang M, Velusamy K, Sullivan F , Oakley E, Davidson A, Hopper SM , Cheek JA, Berkowitz RG, Hearps S , Wilson CL, Williams A, Elborough H, Legge D, Mackay MT, Lee KJ, Dalziel SR, Paediatric Research in Emergency Departments International Collaborative (PREDICT).</authors>
+<title>Efficacy of Prednisolone for Bell Palsy in Children: A Randomized, Double-Blind, Placebo-Controlled, Multicenter Trial.</title>
+<source>Neurology</source>
+<pubdate>2022</pubdate>
+<volume>99</volume>
+<pages>e2241&#x2013;e2252</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

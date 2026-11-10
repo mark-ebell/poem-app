@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Cystic fibrosis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0671</topic_id>
+<topic_comment />
+<topic_lastupdated>11/15/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>David Kriegel, MD</author_name>
+<author_title>Assistant Clinical Professor</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Dwight D. Eisenhower Army Medical Center</author_institution>
+<author_email>david.kriegel&#x0040;amedd.army.mil</author_email>
+<author_phone_office>706-787-9355</author_phone_office>
+<author_phone_home />
+<author_phone_fax>706-787-9356</author_phone_fax>
+<author_street1>300 Hospital Road</author_street1>
+<author_street2 />
+<author_city>Fort Gordon</author_city>
+<author_state>GA</author_state>
+<author_zip>30905</author_zip>
+</author>
+<author primary="no">
+<author_name>Jacqueline Shanahan, DO</author_name>
+<author_title>Family Physician</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>Dwight D. Eisenhower Army Medical Center</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Fort Gordon</author_city>
+<author_state>GA</author_state>
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Michelle Hamline, MD, PhD, MAS</editor_name>
+<editor_title>Associate Professor of Clinical Pediatrics, Pediatric Hospital Medicine</editor_title>
+<editor_institution>Department of Pediatrics, University of California Davis Medical Center</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Screen newborns for cystic fibrosis (CF) using an immunoreactive trypsinogen (IRT)-based protocol. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>The sweat chloride test is the gold standard to confirm the diagnosis, in conjunction with DNA testing (see <xref ref="fig001" />). <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Initiate pancreatic enzyme replacement in patients with evidence of pancreatic insufficiency. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Patients 6 years and older with chronic <em>Pseudomonas </em> infection should be treated with inhaled tobramycin. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Children age 6 to 17 years should use oral ibuprofen targetting a peak plasma concentration of 0 to 100 mcg&#x002F;ml to prevent loss of lung function.<evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>Chronic use of azithromycin should be considered for persons 6 years and older who do not have <em>Pseudomonas</em> chronically present in airway cultures. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>Chronic use of dornase alfa and inhaled hypertonic saline are recommended for individuals 6 years and older. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>The combinations of lumacaftor-ivacaftor, tezacaftor-ivacaftor, or elexacaftor-tezacaftor-ivacaftor are effective for reducing the risk of exacerbations, improving symptoms, and improving FEV1 in patients homozygous for Phe508del.<xref ref="pubmed31697873" resource="acc059" /><xref ref="pubmed29099344" resource="acc055" /><evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Elexacaftor-tezacaftor-ivacaftor improves symptoms and FEV1 in patients with a single Phe508del allele and a second "minimal function" CFTR mutation.<evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed31697873" resource="acc059" /></listitem>
+<listitem>Chest physiotherapy is standard of care, with good evidence of short-term benefits. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>The median survival is 38 years, and is improving. <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>CF is an autosomal recessive condition characterized by failure of the transmembrane regulator to control ion transport across the cell membrane. This results in abnormally viscid mucous secretions and leads to respiratory, gastrointestinal, and reproductive manifestations.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>CF occurs in approximately 1 in 3000 Caucasian newborns. About 1 in 25 persons in the United States and UK is a carrier of the gene, and if two carriers mate, one in four children will be affected. It is much less common in persons of Asian and African descent.<xref ref="pubmed18639722" resource="acc001" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>CF affects about 30,000 people in the United States (about 70,000 worldwide).<xref ref="bib2" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>CF is the most common life-threatening autosomal recessive disease in the United States and Europe.<xref ref="pubmed18639722" resource="acc001" /></listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>CF is caused by one of over 1500 known cystic fibrosis transmembrane conductance regulator (CFTR) gene mutations. There are 24 common mutations that cause most cases of the disease.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The primary defect in the disease is abnormal function of an epithelial chloride channel protein encoded by the CFTR gene on chromosome band 7q31.2. The frequency of mutations in different populations is shown in <xref ref="fig001" />.</listitem>
+<listitem>Fluid secretion in exocrine glands and epithelial lining is affected, which leads to abnormally viscid mucous secretions, resulting in chronic lung disease, pancreatic insufficiency, steatorrhea, malnutrition, hepatic cirrhosis, intestinal obstruction, and male infertility.</listitem>
+<listitem>Chronic airway obstruction due to viscous secretions leads to colonization with pathogenic bacteria including <em>H. influenzae, S. aureus</em>, and <em>P. aeruginosa</em>. Persistent colonization and infection lead to an increase in inflammatory responses, thereby recruiting neutrophils, which promote tissue destruction via excessive release of elastase.</listitem>
+<listitem>Pulmonary tissue destruction leads to bronchiectasis, decreased lung function, and respiratory failure.<xref ref="bib3" /><xref ref="pubmed9389746" resource="acc004" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>A Cochrane review of two large RCTs with over 1 million neonates found that children with CF diagnosed in screened populations had improved nutritional and probably pulmonary outcomes. The CDC recommends that newborns be screened using a protocol that begins with a test for immunoreactive trypsinogen (IRT).<xref ref="cochrane1402" resource="acc013" /><xref ref="pubmed15483524" resource="acc011" /><evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Infants with meconium ileus have a higher rate of false positive newborn screening for CF.<evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed29506920" resource="acc061" /></listitem>
+<listitem>If IRT is positive (elevated), perform diagnostic evaluation outlined in <xref ref="fig001" />.<xref ref="pubmed18639722" resource="acc001" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>ACIP guidelines recommend influenza vaccine for all CF patients 6 months of age or older, as well as close contacts of CF patients. Evidence from RCTs is lacking, though.<xref ref="cochrane1753" resource="acc032" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>While some guidelines recommend palivizumab as prophylaxis for RSV infections in infants with CF, an RCT with 186 infants found no benefit (one RSV infection in each group).<xref ref="cochrane7743" resource="acc029" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect CF in an infant with chronic or recurrent sinopulmonary, gastrointestinal, salt wasting, or genital abnormalities, as well as failure to thrive. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Sweat chloride test and&#x002F;or DNA testing are the recommended tests for confirmation of CF diagnosis; interpret using algorithm shown in <xref ref="fig001" />. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18639722" resource="acc001" /></listitem>
+<listitem>Initial diagnostic evaluation includes a careful history, pancreatic and hepatic function testing, CXR, and oropharyngeal cultures. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed18639722" resource="acc001" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Chronic obstructive pulmonary disease</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Asthma</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Alpha-1-antiprotease deficiency</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Bronchiolitis</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Celiac sprue</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Chronic sinusitis</Differential_Name>
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Consider CF in patients presenting with chronic sinopulmonary disease, GI and nutritional abnormalities, salt loss syndromes, or genital abnormalities (males only). See below for specific manifestations.<xref ref="pubmed18639722" resource="acc001" /></listitem>
+<listitem>Chronic or recurrent sinopulmonary disease: persistent or chronic colonization or infection with typical CF pathogens (<em>Staphylococcus</em>
+<em> aureus</em>, <em>Haemophilus influenzae</em>, <em>Pseudomonas</em>
+<em> aeruginosa</em>), chronic cough and sputum production, airway obstruction (wheezing or air trapping), nasal polyps, and digital clubbing.</listitem>
+<listitem>Gastrointestinal and nutritional abnormalities: meconium ileus, distal intestinal obstruction syndrome, or rectal prolapse; pancreatic insufficiency or recurrent acute pancreatitis; prolonged neonatal jaundice or chronic liver disease; failure to thrive, hypoproteinemia, or edema; and complications secondary to fat-soluble vitamin deficiencies.</listitem>
+<listitem>Salt loss syndromes: acute salt depletion and chronic metabolic alkalosis.</listitem>
+<listitem>Genital abnormalities: congenital bilateral absence of vas deferens in males leading to obstructive azoospermia.<xref ref="pubmed18639722" resource="acc001" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Patients may initially present with persistent chest radiograph abnormalities.<xref ref="pubmed18639722" resource="acc001" /> Antenatal ultrasound may show fetal echogenic bowel indicating high suspicion of cystic fibrosis; however, this finding is not specific for CF.</listitem>
+<listitem>If newborn screening is positive, obtain sweat chloride test and&#x002F;or DNA testing for CFTR mutation(s) as described in "Approach to the patient" section (<xref ref="fig001" />). The sweat chloride test is considered gold standard for confirmation of CF diagnosis.<xref ref="pubmed18639722" resource="acc001" /></listitem>
+<listitem>Initial evaluation of the child diagnosed with CF includes the following: baseline height and weight, medical history, family history for CF, pancreatic function testing (below), culture of the oropharynx for pseudomonas and other pathogens commonly seen in CF patients, chest x-ray, and liver function tests. Current guidelines do not recommend CT, bronchoalveolar lavage, or pulmonary function testing in infants.<xref ref="pubmed18639722" resource="acc001" /></listitem>
+<listitem>In patients diagnosed with CF, evaluate for pancreatic insufficiency using the monoclonal test for fecal elastase. A value &lt;100 mcg&#x002F;g in children over the age of 2 years is diagnostic for insufficiency. Serum trypsinogen is an alternative test, but only in older children (&#x003E;7 years).<xref ref="pubmed18639722" resource="acc001" /></listitem>
+<listitem>Consider bronchoscopy with bronchoalveolar lavage in infants with signs of infection who do not respond to therapy.<xref ref="pubmed19914445" resource="acc014" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Any patient with signs or symptoms of CF should undergo sweat chloride testing and&#x002F;or DNA testing for CFTR mutations.</listitem>
+<listitem>See <xref ref="fig001" /> for a suggested diagnostic algorithm, based on Cystic Fibrosis foundation guidelines.</listitem>
+<listitem>Patients diagnosed with CF should be referred to a center for complete evaluation and a treatment plan.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Care should be provided at an accredited cystic fibrosis care center, beginning within 3 days of diagnosis.<xref ref="pubmed19914445" resource="acc014" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Initiate pancreatic enzyme replacement in patients with evidence of pancreatic insufficiency.<xref ref="pubmed18442507" resource="acc006" /><xref ref="pubmed19914445" resource="acc014" /><evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Patients 6 years and older with chronic <em>Pseudomonas </em> infection should be treated with inhaled tobramycin.<xref ref="poem100141" resource="acc008" /><evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Chronic use of azithromycin should be considered for persons 6 years and older who do not have <em>Pseudomonas</em> chronically present in airway cultures. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>Chronic use of dornase alfa and inhaled hypertonic saline are recommended for individual 6 years and older.<xref ref="pubmed25981758" resource="acc062" /><evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Children age 6 to 17 years should use oral ibuprofen targetting a peak plasma concentration of 0 to 100 mcg&#x002F;ml to prevent loss of lung function.<evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>The combinations of lumacaftor-ivacaftor, tezacaftor-ivacaftor, or elexacaftor-tezacaftor-ivacaftor are effective for reducing the risk of exacerbations, improving symptoms, and improving FEV1 in patients homozygous for Phe508del.<xref ref="pubmed31697873" resource="acc059" /><xref ref="pubmed29099344" resource="acc055" /><evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Elexacaftor-tezacaftor-ivacaftor improves symptoms and FEV1 in patients with a single Phe508del allele and a second "minimal function" CFTR mutation.<evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed31697873" resource="acc059" /></listitem>
+<listitem>Providing chest physiotherapy and other forms of airway clearance are the standard of care, with some evidence of short-term benefits. <evidence rating="A" system="SORT"> A</evidence><xref ref="cochrane2011" resource="acc042" /><xref ref="cochrane1401" resource="acc043" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>
+<strong>Preventing respiratory complications</strong></listitem>
+<listitem>
+<em>Antibiotics</em></listitem>
+<listitem>In patients 6 years or older with chronic <em>pseudomonas aeruginosa</em> infection and moderate to severe lung disease, US and European guidelines recommend chronic use of inhaled tobramycin in alternate months to reduce exacerbations and improve lung function for patients with moderate-to-severe disease.<xref ref="pubmed23540878" resource="acc016" /><xref ref="pubmed29506920" resource="acc061" /><xref ref="pubmed23540878" resource="acc016" /> A Cochrane review of 18 RCTs with 3042 participants concluded that inhaled tobramycin improves lung function and probably reduces the rate of exacerbations.<xref ref="cochrane1021" resource="acc035" /> For patients with chronic infection and mild lung disease, chronic use of inhaled tobramycin is also recommended but less strongly.<xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>In patients 6 years or older with any degree of lung disease, chronic use of dornase alfa and inhaled tobramycin reduces exacerbations and improves lung function. <xref ref="pubmed19914445" resource="acc014" /><xref ref="cochrane1127" resource="acc065" /> In patients with moderate to severe lung disease it also improves quality of life.<xref ref="pubmed25981758" resource="acc062" /> However, the timing of dornase alfa administration (before or after airway clearance) does not affect its degree of benefit.<xref ref="cochrane7923" resource="acc066" /></listitem>
+<listitem>Chronic use of inhaled hypertonic saline has been thought to reduce exacerbations and improve lung function in older children and adults.<xref ref="pubmed25981758" resource="acc062" /><xref ref="poem100141" resource="acc008" /><xref ref="poem80401" resource="acc017" /><xref ref="cochrane1506" resource="acc068" /> However, an RCT found that it did not improve outcomes in children under age 6 years during 48 weeks of follow-up, and a recent Cochrane review has called into question the efficacy of hypertonic saline in improving lung function even for older children and adults.<xref ref="poem140824" resource="acc015" /><xref ref="cochrane1506" resource="acc068" /></listitem>
+<listitem>US guidelines recommend that chronic azithromycin should be considered for individuals 6 years and older who do not have pseudomonas aeruginosa chronically in airway cultures.<xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>Efforts to eradicate MRSA or prophylactic anti-staphylococcal antibiotics are not recommended for asymptomatic infants.<xref ref="pubmed19914445" resource="acc014" /></listitem>
+<listitem>Systematic reviews found insufficient evidence for the use of quarterly IV antibiotic prophylaxis for <em>Pseudomonas aeruginosa</em>.<xref ref="cochrane2767" resource="acc018" /> When treating a pulmonary exacerbation, a Cochrane review concluded based on 5 RCTs with 354 patients that aminoglycosides are as effective given once daily as they are given several times daily, with evidence that once-daily aminoglycosides causes less nephrotoxicity in children.<xref ref="cochrane2009" resource="acc028" /><xref ref="cochrane6682" resource="acc007" /></listitem>
+<listitem>There is insufficient evidence regarding the need for treatment or efficacy of antibiotic combinations for <em>Stenotrophomonas </em>
+<em>maltophilia</em>.<xref ref="cochrane9249" resource="acc023" /></listitem>
+<listitem>A Cochrane review found no RCT data to guide the duration of antibiotic therapy.<xref ref="cochrane6682" resource="acc007" /></listitem>
+<listitem>US guidelines recommend against the routine use of inhaled corticosteroids, prophylactic antistaphylococcal antibiotics, and chronic use of oral corticosteroids.<xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>US guidelines found insufficient evidence regarding use of inhaled or oral N-acetylcysteine or glutathione, leukotriene modifiers, chronic use of oral antipseutomonal drugs, or inhaled anticholinergics.<xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>
+<em>Transmembrane conductance regulator modulators</em></listitem>
+<listitem>European and US guidelines recommend lumacaftor-ivacaftor in patients with the Phe508del mutation. A placebo-controlled trial randomized 1108 patients and found significant improvements in FEV1, hospitalizations, and pulmonary exacerbations.<xref ref="pubmed29506920" resource="acc061" /><xref ref="pubmed25981758" resource="acc062" /></listitem>
+<listitem>A randomized trial with 510 patients homozygous for the Phe508del gene found improvements in FEV1 and a lower rate of pulmonary exacerbations in the group randomized to tezacaftor-ivacaftor (0.64 vs 0.99 events per year; RR 0.65; 95&#x0025; CI, 0.48-0.88). The drugs were well tolerated and safe.<xref ref="pubmed29099344" resource="acc055" /></listitem>
+<listitem>A pair of randomized trials evaluated the transmembrane conductance regulator VX-445-tezacaftor-ivacaftor in patients with 1 or 2 Phe508del alleles and found good safety and improvements in FEV1, sweat chloride concentrations, and a disease specific symptom score.<xref ref="pubmed30334693" resource="acc057" /><xref ref="pubmed30334692" resource="acc056" /></listitem>
+<listitem>An RCT identified 403 patients with a single Phe508del allele and a second "minimal function" CFTR mutation. They were randomized to tezacaftor-ivacaftor or elexacaftor-tezacaftor-ivacaftor and followed for 24 weeks. The 3 drug combination resulted in higher FEV1, better symptom score, and lower sweat chloride concetrations. It was safe and generally well tolerated.<xref ref="pubmed31697873" resource="acc059" /></listitem>
+<listitem>A cohort study used data from a US registry with up to 8 years follow-up to compare patients treated with ivacaftor with those who had not been treated. Treated patients had lower rates of mortality (HR 0.22, 95&#x0025; CI 0.09-0.45), hospitalization (RR 0.50, 95&#x0025; CI 0.43-0.56) and lung transplant (HR 0.11, 95&#x0025; CI 0.02-0.28).<xref ref="pubmed38937105" resource="acc069" /></listitem>
+<listitem>
+<em>Other medications to reduce the risk of exacerbations</em></listitem>
+<listitem>A Cochrane review of 3 RCTs concluded that chronic use of high dose oral ibuprofen slows the loss of lung function in patients with FEV1 &#x003E;60&#x0025; predicted.<xref ref="poem100141" resource="acc008" /><xref ref="cochrane1505" resource="acc034" /></listitem>
+<listitem>Inhaled mannitol twice daily for 2 weeks improves pulmonary function in patients with mild-to-moderate CF, but the impact on clinical outcomes is not known.<xref ref="pubmed18339790" resource="acc005" /></listitem>
+<listitem>Data from RCTs are insufficient regarding bronchodilators and leukotriene inhibitors, but the former in particular are routinely used in patients with wheeze and demonstrable airway hyperresponsiveness.<xref ref="cochrane3428" resource="acc033" /></listitem>
+<listitem>Inhaled corticosteroids provide no benefit in patients with CF and should not be used.<xref ref="poem100141" resource="acc008" /><xref ref="cochrane1915" resource="acc039" /></listitem>
+<listitem>Topical short-acting sodium channel blockers provide no benefit in patients with CF and may lead to deterioration in lung function.<xref ref="cochrane5087" resource="acc049" /></listitem>
+<listitem>
+<strong>Treating acute respiratory exacerbations</strong>: See "Complications" section below.</listitem>
+<listitem>
+<strong>Pancreatic insufficiency</strong></listitem>
+<listitem>In infants under 2 years, initiate therapy in infants with signs of malabsorption or fecal elastase &lt;200 mcg&#x002F;g.<xref ref="pubmed19914445" resource="acc014" /></listitem>
+<listitem>For children and adults, the CF Foundation guidelines recommend the following for pancreatic insufficiency: 500 to 2,500 units lipase per kg body weight per meal; or &lt;10,000 units lipase per kg body weight per day; or &lt;4,000 units lipase per gram dietary fat per day.<xref ref="pubmed18442507" resource="acc006" /></listitem>
+<listitem>
+<strong>Osteoporosis:</strong> Osteoporosis is present in about a third of adults with CF, due to long-term and frequent steroid use. A systematic review combining data from 9 studies with 385 participants found that bisphosphonates increase bone density, but with no evidence of reduced fracture rates. However, the latter is probably due to lack of sample size and limited follow-up (typically 2 years).<xref ref="cochrane2010" resource="acc025" /></listitem>
+<listitem>
+<strong> Nasal polyps:</strong> A systematic review of topical steroids to treat nasal polyps only found one small trial with 46 patients; no benefit was seen.<xref ref="cochrane8253" resource="acc052" /></listitem>
+<listitem>
+<strong> Liver disease: </strong> There are no data regarding use of ursodeoxycholic acid.<xref ref="cochrane222" resource="acc040" /></listitem>
+<listitem>
+<strong>Growth:</strong> A post-hoc analysis found that ivacaftor may increase height and weight growth velocity in pre-pubescent children with CF compared with placebo (compared with placebo growth velocity: Height: 1.08 cm&#x002F;y (p &lt;0.05); Weight 3.11 kg&#x002F;year; (p &lt;0.001)).<xref ref="pubmed28143919" resource="acc054" /></listitem>
+<listitem>
+<strong>Gastric acidity</strong>: Symptoms related to increased gastric acidity are common in persons with CF. A Cochrane review identified 17 small, low quality RCTs with 273 participants and could draw no clear conclusions regarding efficacy of acid reducing drugs. <xref ref="cochrane3424" resource="acc063" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Lung transplantation may be considered for CF patients with progressive lung impairment, severe hypoxemia, and hypercarbia who experience increasing functional impairment. Increasing antibiotic resistance and frequent or life-threatening pulmonary complications (such as massive hemoptysis) are another indication. <xref ref="pubmed29506920" resource="acc061" /></listitem>
+<listitem>Long-term results are improving, with high volume centers now reporting 10 year mean survival.<xref ref="pubmed9440593" resource="acc045" /><xref ref="pubmed19760543" resource="acc046" /></listitem>
+<listitem>Surgical and chemical pleurodesis should be considered for patients with recurrent episodes of clinically significant pneumothorax. Clinical trials are lacking, although experts generally prefer surgical over chemical pleurodesis.<xref ref="cochrane7481" resource="acc038" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>A systematic review found 4 studies with 91 patients looking at omega-3 fatty acids. They found some physiologic changes, but no data regarding clinical outcomes.<xref ref="cochrane2201" resource="acc031" /></listitem>
+<listitem>Systematic reviews do not support use of antioxidant supplements,<xref ref="cochrane7020" resource="acc020" /> vitamin A supplementation,<xref ref="cochrane6751" resource="acc019" /><xref ref="cochrane8482" resource="acc022" /> vitamin D supplementation,<xref ref="pubmed30793177" resource="acc060" /><xref ref="cochrane7298" resource="acc024" /> or the use of antibiotic adjuvants such as zinc, garlic, or beta-carotene.<xref ref="cochrane8037" resource="acc021" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT>
+<list style="bulleted">
+<listitem>Manually assisted cough should be considered in patients with expiratory muscle weakness to reduce the incidence of respiratory complications.</listitem>
+<listitem>Autogenic drainage should be taught as an adjunct to postural drainage as a method to clear sputum because of its advantage of being performed without assistance and in one position.</listitem>
+<listitem>Airway clearance of some kind is typically recommended and is thought to provide at least short-term benefits regarding symptoms and lung function.<xref ref="cochrane1401" resource="acc043" /> A Cochrane review found that patients who used PEP (positive expiratory pressure) physiotherapy had fewer pulmonary exacerbations than patients who used other forms of chest physiotherapy (active cycle of breathing techniques, autogenic drainage, oral oscillating PEP devices, high frequency chest wall oscillation, BiPAP, and exercise). However, there was no difference in FEV1 (forced expiratory volume in 1 second) among patients who used different forms of chest physiotherapy.<xref ref="cochrane3147" resource="acc051" /></listitem>
+<listitem>A systematic review of 6 RCTs involving 348 participants showed that physical training appears to improve exercise capacity. However, there was minimal benefit to lung function and health-related quality of life.<xref ref="cochrane2768" resource="acc064" /> There is insufficient evidence regarding the efficacy of inspiratory muscle training.<xref ref="cochrane6112" resource="acc030" /></listitem>
+<listitem>"Active Cycle of Breathing Technique" is intended to improve clearance of mucus. In 8 RCTs with 259 participants it appears to be comparable to other approaches to chest physiotherapy, such as airway oscillating devices or high-frequency chest compression. It may be more acceptable to patients than these alternatives, though.<xref ref="cochrane7862" resource="acc027" /><xref ref="cochrane6842" resource="acc037" /></listitem>
+<listitem>A Cochrane review found that non-invasive ventilation may be a useful adjunct to other airway clearance techniques, with an improvement in exercise performance in one small study.<xref ref="cochrane2769" resource="acc048" /></listitem>
+<listitem>A Cochrane review of 24 RCTs with 875 participants concluded that active training programs provide a small improvement in exercise capacity, although there was little or no efect on quality of life or lung function parameters.<xref ref="cochrane2768" resource="acc064" /></listitem>
+</list>
+</Treatment_PT>
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>Be aware of the significant psychological burden of dealing with a chronic illness such as CF, and be prepared to provide or refer for appropriate counseling if necessary.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Breastfeeding is recommended for infants under 2 years. For children &#x003E;2 years of age and adults, the CF Foundation recommends energy intakes greater than the standard for the general population with calorie dense food to support weight maintenance in adults and weight gain at an age-appropriate rate in children.<xref ref="pubmed19914445" resource="acc014" /></listitem>
+<listitem>An RCT of the home-based nutrition education program "Eat Well With CF" showed no overall weight difference between intervention and control group at 6 or 12 months. There were no significant differences in FEV1 between the groups at 6 or 12 months.<xref ref="pubmed18442509" resource="acc009" /></listitem>
+<listitem>Oral protein calorie supplementation is widely recommended, but good studies are lacking and the existing studies are inconclusive.<xref ref="cochrane1914" resource="acc041" /></listitem>
+<listitem>While used in clinical practice, a Cochrane review found no clinical trials of enteral tube feedings for patients with CF.<xref ref="cochrane1198" resource="acc058" /></listitem>
+<listitem>Instruct family members regarding proper handwashing and avoidance of respiratory secretion exchange when coughing.<xref ref="pubmed19914445" resource="acc014" /></listitem>
+<listitem>Minimize contact between CF patients to avoid transmission of pathogens common to these patients but otherwise uncommon in the community.</listitem>
+<listitem>Home IV antibiotic therapy for patients with an infection are an option. One small RCT found that it was safe and effective, and costs were lower than hospital-based therapy.<xref ref="cochrane1917" resource="acc026" /></listitem>
+<listitem>Oxygen therapy is commonly used in patients with more advanced stages of CF, especially at night.<xref ref="cochrane3884" resource="acc036" /></listitem>
+<listitem>A Cochrane review of topical gene replacement therapy with cystic fibrosis transmembrane conductance gene replacement found one study where liposome-based CFTR gene replacement therapy was associated with improved lung function, but no improvement in quality of life, decreased disease burden, or decreased number of CF flare-ups.<xref ref="cochrane5599" resource="acc053" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration>
+<list style="bulleted">
+<listitem>There are no clear guidelines on the optimum duration of IV antibiotic treatment. Duration of treatment is currently based on unit policies and response to treatment.<xref ref="cochrane6682" resource="acc007" /></listitem>
+</list>
+</Treatment_Duration>
+<Treatment_Referral />
+<Treatment_complications>
+<list style="bulleted">
+<listitem>
+<strong>Pulmonary exacerbations</strong></listitem>
+<listitem>Continue chronic therapies unless there is a specific contraindication; regarding inhaled antibiotics in particular, evidence is insufficient, while airway clearance therapies should be increased.</listitem>
+<listitem>The most common pathogens are staph aureus and pseudomonas aeruginosa, as well as burkholderia cepacia, stenotrophomonas maltophilia, and achromobacter species.</listitem>
+<listitem>Empiric therapy with two antipseudomonal antibiotics is the standard of care. However, the supporting evidence for combination therapy over monotherapy is poor. A Cochrane review identified 8 RCTs with 356 participants (mostly from the 1970's and 1980's) and concluded that there was no clear advantage of two antibiotics over one.<xref ref="cochrane2007" resource="acc067" /></listitem>
+<listitem>There is no clear optimal duration for antibiotic therapy.<xref ref="cochrane6682" resource="acc007" /> Routine use of synergy testing (to determine an optimal pair of antibiotics based on resistance patterns) is not recommended.</listitem>
+<listitem>Routine use of corticosteroids is not recommended.<xref ref="pubmed19729669" resource="acc047" /></listitem>
+<listitem>Intravenous antibiotics should not be delivered in a nonhospital setting unless resources and support equivalent to the hospital setting can be assured (eg. optimized airway clearance and nutrition).</listitem>
+<listitem>
+<strong>Pneumothorax</strong></listitem>
+<listitem>Hospitalize patients with large pneumothorax, place a chest tube, and consider pleurodesis in those with previous episodes of pneumothorax.</listitem>
+<listitem>After an episode, patients should not fly on a plane, lift more than 5 pounds, or do incentive spirometry for at least 2 weeks.<xref ref="pubmed20675678" resource="acc044" /></listitem>
+<listitem>
+<strong>Hemoptysis</strong></listitem>
+<listitem>Patients with more than 5 mL of hemoptysis should seek care. Hospital admission is generally not required for those with scant hemoptysis.</listitem>
+<listitem>Treat with antibiotics as this may be a sign of pulmonary infection.</listitem>
+<listitem>Stop NSAIDs and bilevel positive airway pressure until the episode has resolved.</listitem>
+<listitem>Consider bronchial artery embolization for patients with massive hemoptysis.<xref ref="pubmed20675678" resource="acc044" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>The cumulative probability of survival at 20 and 30 years of age was 80.4&#x0025; and 63&#x0025;, respectively. The median survival age was 38 years in a 2002 study, but is probably increasing. Survival was not significantly different between males and females.<xref ref="pubmed12196308" resource="acc010" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>The CF-ABLE Score helps predict likelihood of death or lung transplant in adults with cystic fibrosis.<xref ref="pubmed23172242" resource="acc050" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Digestive tract cancers (standardized incidence ratio 3.5), testicular cancer (SIR 1.7), and lymphoid leukemia (SIR 2.0) are more common, while melanoma is less common.<xref ref="pubmed23178438" resource="acc012" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed18639722">
+<accessionId id="acc001" href="info:pmid/18639722" />
+<authors>Farrell PM, Rosenstein BJ, White TB, et al.</authors>
+<title>Guidelines for diagnosis of cystic fibrosis in newborns through older adullts: cystic fibrosis foundation consensus report.</title>
+<source>J Pediatr</source>
+<pubdate>2008</pubdate>
+<volume>153</volume>
+<pages>S4-S14.</pages>
+</reference>
+<reference id="bib2">
+<citation>Cystic Fibrosis Foundation.</citation>
+<url>http://www.cff.org</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline>Date last accessed: 9&#x002F;25&#x002F;2008</dateguideline>
+</reference>
+<reference id="bib3">
+<chapter_authors>Maitra A, Kumar V.</chapter_authors>
+<chapter_title />
+<book_editors />
+<book_title>Robbins and Cotran Pathologic Basis of Disease.</book_title>
+<edition>7th ed.</edition>
+<city_publisher>Philadelphia, PA: Elsevier Saunders;</city_publisher>
+<year>2005</year>
+<pages>489-495.</pages>
+<isbn />
+</reference>
+<reference id="pubmed9389746">
+<accessionId id="acc004" href="info:pmid/9389746" />
+<authors>Heeckeren A, Walenga R, Konstan MW.</authors>
+<title>Excessive inflammatory response of cystic fibrosis mice to bronchopulmonary infection with Pseudomonas aeruginosa.</title>
+<source>J Clin Invest</source>
+<pubdate>1997</pubdate>
+<volume>100(11)</volume>
+<pages>2810-2815.</pages>
+</reference>
+<reference id="pubmed18339790">
+<accessionId id="acc005" href="info:pmid/18339790" />
+<authors>Jaques A, Daviskas E, Turton JA, et al.</authors>
+<title>Inhaled mannitol improves lung function in cystic fibrosis.</title>
+<source>Chest</source>
+<pubdate>2008</pubdate>
+<volume>133</volume>
+<pages>1388-1396.</pages>
+</reference>
+<reference id="pubmed18442507">
+<accessionId id="acc006" href="info:pmid/18442507" />
+<authors>Stallings VA, Stark LJ, Robison KA, et al.</authors>
+<title>Evidence-based practice recommendations for nutrition-related management of children and adults with cystic fibrosis and pancreatic insufficiency: results of a systematic review.</title>
+<source>J Am Diet Assoc</source>
+<pubdate>2008</pubdate>
+<volume>108</volume>
+<pages>832-839.</pages>
+</reference>
+<reference id="cochrane6682">
+<accessionId id="acc007" href="info:wiley/cochrane/CD006682" />
+<chapter_authors>Plummer A, Wildman M, Gleeson T.</chapter_authors>
+<chapter_title>Duration of intravenous antibiotic therapy in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 9. Art. No.: CD006682. DOI: 10.1002&#x002F;14651858.CD006682.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem100141">
+<accessionId id="acc008" href="info:wiley/eep-poem/100141" />
+<authors>Flume PA, O'Sullivan BP, Robinson KA, et al.; the Cystic Fibrosis Foundation, Pulmonary Therapies Committee.</authors>
+<title>Cystic fibrosis pulmonary guidelines: chronic medications for maintenance of lung health.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2007</pubdate>
+<volume>176(10)</volume>
+<pages>957-969.</pages>
+</reference>
+<reference id="pubmed18442509">
+<accessionId id="acc009" href="info:pmid/18442509" />
+<authors>Watson H, Bilton D, Truby H.</authors>
+<title>A randomized controlled trial of a new behavioral home-based nutrition education program, "Eat Well with CF", in adults with cystic fibrosis.</title>
+<source>J Am Diet Assoc</source>
+<pubdate>2008</pubdate>
+<volume>108(5)</volume>
+<pages>847-852.</pages>
+</reference>
+<reference id="pubmed12196308">
+<accessionId id="acc010" href="info:pmid/12196308" />
+<authors>Assael BM, Castellani C, Ocampo MB, et al.</authors>
+<title>Epidemiology and survival analysis of cystic fibrosis in an area of intense neonatal screening over 30 years.</title>
+<source>Am J Epidemiol</source>
+<pubdate>2002</pubdate>
+<volume>156</volume>
+<pages>397-401.</pages>
+</reference>
+<reference id="pubmed15483524">
+<accessionId id="acc011" href="info:pmid/15483524" />
+<authors>Grosse SD, Coleen CA, Boyle A, et al. </authors>
+<title>Newborn screening for cystic fibrosis: evaluation of benefits and risks and recommendations for state newborn screening programs.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2004</pubdate>
+<volume>53</volume>
+<pages>1-36.</pages>
+</reference>
+<reference id="pubmed23178438">
+<accessionId id="acc012" href="info:pmid/23178438" />
+<authors>Maisonneuve P, Marshall BC, Knapp EA, Lowenfels AB.</authors>
+<title>Cancer risk in cystic fibrosis: a 20-year nationwide study from the United States.</title>
+<source>J Natl Cancer Inst</source>
+<pubdate>2013</pubdate>
+<volume>105(2)</volume>
+<pages>122-129</pages>
+</reference>
+<reference id="cochrane1402">
+<accessionId id="acc013" href="info:wiley/cochrane/CD001402" />
+<chapter_authors>Southern KW, M&#x00E9;relle MME, Dankert-Roelse JE, Nagelkerke A.</chapter_authors>
+<chapter_title>Newborn screening for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2009, Issue 1. Art. No.: CD001402. DOI: 10.1002&#x002F;14651858.CD001402.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed19914445">
+<accessionId id="acc014" href="info:pmid/19914445" />
+<authors>Cystic Fibrosis Foundation; Borowitz D, Robinson KA, Rosenfeld M</authors>
+<title>Cystic Fibrosis Foundation evidence-based guidelines for management of infants with cystic fibrosis.</title>
+<source>J Pediatr</source>
+<pubdate>2009</pubdate>
+<volume>155</volume>
+<pages>S73-S93.</pages>
+</reference>
+<reference id="poem140824">
+<accessionId id="acc015" href="info:wiley/eep-poem/140824" />
+<authors>Rosenfeld M, Ratjen F, Brumback L, et al.; ISIS Study Group.</authors>
+<title>Inhaled hypertonic saline in infants and children younger than 6 years with cystic fibrosis: the ISIS randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>307</volume>
+<pages>2269-2277</pages>
+</reference>
+<reference id="pubmed23540878">
+<accessionId id="acc016" href="info:pmid/23540878" />
+<authors>Flume PA, O'Sullivan BP, Robinson KA, et al.</authors>
+<title>Cystic fibrosis pulmonary guidelines: chronic medications for maintenance of lung health.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2007</pubdate>
+<volume>176(10)</volume>
+<pages>957-969.</pages>
+</reference>
+<reference id="poem80401">
+<accessionId id="acc017" href="info:wiley/eep-poem/80401" />
+<authors>Elkins MR, Robinson M, Rose BR, et al.; National Hypertonic Saline in Cystic Fibrosis (NHSCF) Study Group.</authors>
+<title>A controlled trial of long-term inhaled hypertonic saline in patients with cystic fibrosis.</title>
+<source>N Engl J Med</source>
+<pubdate>2006</pubdate>
+<volume>354</volume>
+<pages>229-240.</pages>
+</reference>
+<reference id="cochrane2767">
+<accessionId id="acc018" href="info:wiley/cochrane/CD002767" />
+<chapter_authors>Breen L, Aswani N.</chapter_authors>
+<chapter_title>Elective versus symptomatic intravenous antibiotic therapy for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 7. Art. No.: CD002767. DOI: 10.1002&#x002F;14651858.CD002767.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6751">
+<accessionId id="acc019" href="info:wiley/cochrane/CD006751" />
+<chapter_authors>Bonifant CM, Shevill E, Chang AB.</chapter_authors>
+<chapter_title>Vitamin A supplementation for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 5. Art. No.: CD006751. DOI: 10.1002&#x002F;14651858.CD006751.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7020">
+<accessionId id="acc020" href="info:wiley/cochrane/CD007020" />
+<chapter_authors>Ciofu O, Lykkesfeldt J.</chapter_authors>
+<chapter_title>Antioxidant supplementation for lung disease in cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 8. Art. No.: CD007020. DOI: 10.1002&#x002F;14651858.CD007020.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8037">
+<accessionId id="acc021" href="info:wiley/cochrane/CD008037" />
+<chapter_authors>Hurley MN, Forrester DL, Smyth AR.</chapter_authors>
+<chapter_title>Antibiotic adjuvant therapy for pulmonary infection in cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 6. Art. No.: CD008037. DOI: 10.1002&#x002F;14651858.CD008037.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8482">
+<accessionId id="acc022" href="info:wiley/cochrane/CD008482" />
+<chapter_authors>Jagannath VA, Thaker V, Chang AB, Price AI.</chapter_authors>
+<chapter_title>Vitamin K supplementation for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 8. Art. No.: CD008482. DOI: 10.1002&#x002F;14651858.CD008482.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane9249">
+<accessionId id="acc023" href="info:wiley/cochrane/CD009249" />
+<chapter_authors>Amin R, Waters V.</chapter_authors>
+<chapter_title>Antibiotic treatment for Stenotrophomonas maltophilia in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 7. Art. No.: CD009249. DOI: 10.1002&#x002F;14651858.CD009249.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7298">
+<accessionId id="acc024" href="info:wiley/cochrane/CD007298" />
+<chapter_authors>Ferguson JH, Chang AB.</chapter_authors>
+<chapter_title>Vitamin D supplementation for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 5. Art. No.: CD007298. DOI: 10.1002&#x002F;14651858.CD007298.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2010">
+<accessionId id="acc025" href="info:wiley/cochrane/CD002010" />
+<chapter_authors>Jeffery TC, Chang AB, Conwell LS.</chapter_authors>
+<chapter_title>Bisphosphonates for osteoporosis in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 1. Art. No.: CD002010. DOI: 10.1002&#x002F;14651858.CD002010.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1917">
+<accessionId id="acc026" href="info:wiley/cochrane/CD001917" />
+<chapter_authors>Balaguer A, Gonz&#x00E1;lez de Dios J.</chapter_authors>
+<chapter_title>Home versus hospital intravenous antibiotic therapy for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 12. Art. No.: CD001917. DOI: 10.1002&#x002F;14651858.CD001917.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7862">
+<accessionId id="acc027" href="info:wiley/cochrane/CD007862" />
+<chapter_authors>Wilson LM, Saldanha IJ, Robinson KA.</chapter_authors>
+<chapter_title>Active cycle of breathing technique for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 2. Art. No.: CD007862. DOI: 10.1002&#x002F;14651858.CD007862.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2009">
+<accessionId id="acc028" href="info:wiley/cochrane/CD002009" />
+<chapter_authors>Bhatt J, Jahnke N, Smyth AR.</chapter_authors>
+<chapter_title>Once-daily versus multiple-daily dosing with intravenous aminoglycosides for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 9. Art. No.: CD002009. DOI: 10.1002&#x002F;14651858.CD002009.pub7.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7743">
+<accessionId id="acc029" href="info:wiley/cochrane/CD007743" />
+<chapter_authors>Robinson KA, Odelola OA, Saldanha IJ.</chapter_authors>
+<chapter_title>Palivizumab for prophylaxis against respiratory syncytial virus infection in children with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 7. Art. No.: CD007743. DOI: 10.1002&#x002F;14651858.CD007743.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6112">
+<accessionId id="acc030" href="info:wiley/cochrane/CD006112" />
+<chapter_authors>Hilton N, Solis-Moya A.</chapter_authors>
+<chapter_title>Respiratory muscle training for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 5. Art. No.: CD006112. DOI: 10.1002&#x002F;14651858.CD006112.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2201">
+<accessionId id="acc031" href="info:wiley/cochrane/CD002201" />
+<chapter_authors>Oliver C, Watson H.</chapter_authors>
+<chapter_title>Omega-3 fatty acids for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 1. Art. No.: CD002201. DOI: 10.1002&#x002F;14651858.CD002201.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1753">
+<accessionId id="acc032" href="info:wiley/cochrane/CD001753" />
+<chapter_authors>Dharmaraj P, Smyth RL.</chapter_authors>
+<chapter_title>Vaccines for preventing influenza in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 3. Art. No.: CD001753. DOI: 10.1002&#x002F;14651858.CD001753.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3428">
+<accessionId id="acc033" href="info:wiley/cochrane/CD003428" />
+<chapter_authors>Halfhide C, Evans HJ, Couriel J.</chapter_authors>
+<chapter_title>Inhaled bronchodilators for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 2. Art. No.: CD003428. DOI: 10.1002&#x002F;14651858.CD003428.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1505">
+<accessionId id="acc034" href="info:wiley/cochrane/CD001505" />
+<chapter_authors>Lands LC, Stanojevic S.</chapter_authors>
+<chapter_title>Oral non-steroidal anti-inflammatory drug therapy for lung disease in cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 9. Art. No.: CD001505. DOI: 10.1002&#x002F;14651858.CD001505.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1021">
+<accessionId id="acc035" href="info:wiley/cochrane/CD001021" />
+<chapter_authors>Smith S, Rowbotham NJ.</chapter_authors>
+<chapter_title>Inhaled anti-pseudomonal antibiotics for long-term therapy in cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 11. Art. No.: CD001021. DOI: 10.1002&#x002F;14651858.CD001021.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3884">
+<accessionId id="acc036" href="info:wiley/cochrane/CD003884" />
+<chapter_authors>Elphick HE, Mallory G.</chapter_authors>
+<chapter_title>Oxygen therapy for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 7. Art. No.: CD003884. DOI: 10.1002&#x002F;14651858.CD003884.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6842">
+<accessionId id="acc037" href="info:wiley/cochrane/CD006842" />
+<chapter_authors>Morrison L, Milroy S.</chapter_authors>
+<chapter_title>Oscillating devices for airway clearance in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 5. Art. No.: CD006842. DOI: 10.1002&#x002F;14651858.CD006842.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7481">
+<accessionId id="acc038" href="info:wiley/cochrane/CD007481" />
+<chapter_authors>Amin R, Noone PG, Ratjen F.</chapter_authors>
+<chapter_title>Chemical pleurodesis versus surgical intervention for persistent and recurrent pneumothoraces in cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 12. Art. No.: CD007481. DOI: 10.1002&#x002F;14651858.CD007481.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1915">
+<accessionId id="acc039" href="info:wiley/cochrane/CD001915" />
+<chapter_authors>Balfour-Lynn IM, Welch K.</chapter_authors>
+<chapter_title>Inhaled corticosteroids for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 8. Art. No.: CD001915. DOI: 10.1002&#x002F;14651858.CD001915.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane222">
+<accessionId id="acc040" href="info:wiley/cochrane/CD000222" />
+<chapter_authors>Cheng K, Ashby D, Smyth RL.</chapter_authors>
+<chapter_title>Ursodeoxycholic acid for cystic fibrosis-related liver disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 9. Art. No.: CD000222. DOI: 10.1002&#x002F;14651858.CD000222.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1914">
+<accessionId id="acc041" href="info:wiley/cochrane/CD001914" />
+<chapter_authors>Francis DK, Smith J, Saljuqi T, Watling RM.</chapter_authors>
+<chapter_title>Oral protein calorie supplementation for children with chronic disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 5. Art. No.: CD001914. DOI: 10.1002&#x002F;14651858.CD001914.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2011">
+<accessionId id="acc042" href="info:wiley/cochrane/CD002011" />
+<chapter_authors>Main E, Prasad A, van der Schans CP.</chapter_authors>
+<chapter_title>Conventional chest physiotherapy compared to other airway clearance techniques for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2005, Issue 1. Art. No.: CD002011. DOI: 10.1002&#x002F;14651858.CD002011.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1401">
+<accessionId id="acc043" href="info:wiley/cochrane/CD001401" />
+<chapter_authors>Warnock L, Gates A.</chapter_authors>
+<chapter_title>Chest physiotherapy compared to no chest physiotherapy for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 12. Art. No.: CD001401. DOI: 10.1002&#x002F;14651858.CD001401.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed20675678">
+<accessionId id="acc044" href="info:pmid/20675678" />
+<authors>Flume PA, Mogayzel PJ, Jr., Robinson KA, Rosenblatt RL, Quittell L, Marshall BC; Clinical Practice Guidelines for Pulmonary Therapies Committee, Cystic Fibrosis Foundation Pulmonary Therapies Committee.</authors>
+<title>Cystic fibrosis pulmonary guidelines: pulmonary complications: hemoptysis and pneumothorax.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2010</pubdate>
+<volume>182</volume>
+<pages>298-306.</pages>
+</reference>
+<reference id="pubmed9440593">
+<accessionId id="acc045" href="info:pmid/9440593" />
+<authors>Yankaskas JR, Mallory GB, Jr.</authors>
+<title>Lung transplantation in cystic fibrosis: consensus conference statement.</title>
+<source>Chest</source>
+<pubdate>1998</pubdate>
+<volume>113</volume>
+<pages>217-226.</pages>
+</reference>
+<reference id="pubmed19760543">
+<accessionId id="acc046" href="info:pmid/19760543" />
+<authors>Morton J, Glanville AR.</authors>
+<title>Lung transplantation in patients with cystic fibrosis.</title>
+<source>Semin Respir Crit Care Med</source>
+<pubdate>2009</pubdate>
+<volume>30</volume>
+<pages>559-568.</pages>
+</reference>
+<reference id="pubmed19729669">
+<accessionId id="acc047" href="info:pmid/19729669" />
+<authors>Flume PA, Mogayzel PJ, Jr., Robinson KA, et al.; Clinical Practice Guidelines for Pulmonary Therapies Committee</authors>
+<title>Cystic fibrosis pulmonary guidelines: treatment of pulmonary exacerbations.</title>
+<source>Am J Respir Crit Care Med</source>
+<pubdate>2009</pubdate>
+<volume>180</volume>
+<pages>802-808.</pages>
+</reference>
+<reference id="cochrane2769">
+<accessionId id="acc048" href="info:wiley/cochrane/CD002769" />
+<chapter_authors>Moran F, Bradley JM, Piper AJ.</chapter_authors>
+<chapter_title>Non-invasive ventilation for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 4. Art. No.: CD002769. DOI: 10.1002&#x002F;14651858.CD002769.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5087">
+<accessionId id="acc049" href="info:wiley/cochrane/CD005087" />
+<chapter_authors>Burrows EF, Southern KW, Noone PG.</chapter_authors>
+<chapter_title>Sodium channel blockers for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 4. Art. No.: CD005087. DOI: 10.1002&#x002F;14651858.CD005087.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed23172242">
+<accessionId id="acc050" href="info:pmid/23172242" />
+<authors>McCarthy C, Dimitrov BD, Meurling IJ, Gunaratnam C, McElvaney NG.</authors>
+<title>The CF-ABLE score: a novel clinical prediction rule for prognosis in patients with cystic fibrosis.</title>
+<source>Chest</source>
+<pubdate>2013</pubdate>
+<volume>143</volume>
+<pages>1358&#x2013;1364</pages>
+</reference>
+<reference id="cochrane3147">
+<accessionId id="acc051" href="info:wiley/cochrane/CD003147" />
+<chapter_authors>McIlwaine M, Button B, Dwan K.</chapter_authors>
+<chapter_title>Positive expiratory pressure physiotherapy for airway clearance in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 6. Art. No.: CD003147. DOI: 10.1002&#x002F;14651858.CD003147.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8253">
+<accessionId id="acc052" href="info:wiley/cochrane/CD008253" />
+<chapter_authors>Beer H, Southern KW, Swift AC.</chapter_authors>
+<chapter_title>Topical nasal steroids for treating nasal polyposis in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 6. Art. No.: CD008253. DOI: 10.1002&#x002F;14651858.CD008253.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5599">
+<accessionId id="acc053" href="info:wiley/cochrane/CD005599" />
+<chapter_authors>Perry LA, Penny-Dimri JC, Aslam AA, Lee TW, Southern KW.</chapter_authors>
+<chapter_title>Topical cystic fibrosis transmembrane conductance regulator gene replacement for cystic fibrosis-related lung disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2016, Issue 6. Art. No.: CD005599. DOI: 10.1002&#x002F;14651858.CD005599.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed28143919">
+<accessionId id="acc054" href="info:pmid/28143919" />
+<authors>Stalvey MS, Pace J, Niknian M, Higgins MN, Tarn V, Davis J, Heltshe SL, Rowe SM.</authors>
+<title>Growth in prepubertal children with cystic fibrosis treated with ivacaftor.</title>
+<source>Pediatrics</source>
+<pubdate>2017</pubdate>
+<volume>139</volume>
+<pages />
+</reference>
+<reference id="pubmed29099344">
+<accessionId id="acc055" href="info:pmid/29099344" />
+<authors>Taylor-Cousar JL, Munck A, McKone EF, van der Ent CK, Moeller A, Simard C, Wang LT, Ingenito EP, McKee C, Lu Y, Lekstrom-Himes J, Elborn JS.</authors>
+<title>Tezacaftor-Ivacaftor in patients with cystic fibrosis homozygous for Phe508del.</title>
+<source>N Engl J Med</source>
+<pubdate>2017</pubdate>
+<volume>377</volume>
+<pages>2013&#x2013;2023</pages>
+</reference>
+<reference id="pubmed30334692">
+<accessionId id="acc056" href="info:pmid/30334692" />
+<authors>Keating D, Marigowda G, Burr L, Daines C, Mall MA, McKone EF, Ramsey BW, Rowe SM, Sass LA, Tullis E, McKee CM, Moskowitz SM, Robertson S, Savage J, Simard C, Van Goor F, Waltz D, Xuan F, Young T, Taylor-Cousar JL, VX16-445-001 Study Group.</authors>
+<title>VX-445-tezacaftor-ivacaftor in patients with cystic fibrosis and one or two phe508del alleles.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>1612&#x2013;1620</pages>
+</reference>
+<reference id="pubmed30334693">
+<accessionId id="acc057" href="info:pmid/30334693" />
+<authors>Davies JC, Moskowitz SM, Brown C, Horsley A, Mall MA, McKone EF, Plant BJ, Prais D, Ramsey BW, Taylor-Cousar JL, Tullis E, Uluer A, McKee CM, Robertson S, Shilling RA, Simard C, Van Goor F, Waltz D, Xuan F, Young T, Rowe SM, VX16-659-101 Study Group.</authors>
+<title>VX-659-tezacaftor-ivacaftor in patients with cystic fibrosis and one or two phe508del alleles.</title>
+<source>N Engl J Med</source>
+<pubdate>2018</pubdate>
+<volume>379</volume>
+<pages>1599&#x2013;1611</pages>
+</reference>
+<reference id="cochrane1198">
+<accessionId id="acc058" href="info:wiley/cochrane/CD1198" />
+<chapter_authors>Shimmin D, Lowdon J, Remmington T.</chapter_authors>
+<chapter_title>Enteral tube feeding for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 7. Art. No.: CD001198. DOI: 10.1002&#x002F;14651858.CD001198.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed31697873">
+<accessionId id="acc059" href="info:pmid/31697873" />
+<authors>Middleton PG, Mall MA, D&#x0159;ev&#x00ED;nek P, Lands LC, McKone EF, Polineni D, Ramsey BW, Taylor-Cousar JL, Tullis E, Vermeulen F, Marigowda G, McKee CM, Moskowitz SM, Nair N, Savage J, Simard C, Tian S, Waltz D, Xuan F, Rowe SM, Jain R, VX17-445-102 Study Group.</authors>
+<title>Elexacaftor-Tezacaftor-Ivacaftor for Cystic Fibrosis with a Single Phe508del Allele.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>381</volume>
+<pages>1809&#x2013;1819</pages>
+</reference>
+<reference id="pubmed30793177">
+<accessionId id="acc060" href="info:pmid/30793177" />
+<authors>Tangpricha V, Lukemire J, Chen Y, Binongo JNG, Judd SE, Michalski ES, Lee MJ, Walker S, Ziegler TR, Tirouvanziam R, Zughaier SM, Chesdachai S, Hermes WA, Chmiel JF, Grossmann RE, Gaggar A, Joseph PM, Alvarez JA.</authors>
+<title>Vitamin D for the Immune System in Cystic Fibrosis (DISC): a double-blind, multicenter, randomized, placebo-controlled clinical trial.</title>
+<source>Am J Clin Nutr</source>
+<pubdate>2019</pubdate>
+<volume>109</volume>
+<pages>544&#x2013;553</pages>
+</reference>
+<reference id="pubmed29506920">
+<accessionId id="acc061" href="info:pmid/29506920" />
+<authors>Castellani C, Duff AJA, Bell SC, Heijerman HGM, Munck A, Ratjen F, Sermet-Gaudelus I, Southern KW, Barben J, Flume PA, Hodkov&#x00E1; P, Kashirskaya N, Kirszenbaum MN, Madge S, Oxley H, Plant B, Schwarzenberg SJ, Smyth AR, Taccetti G, Wagner TOF, Wolfe SP, Drevinek P.</authors>
+<title>ECFS best practice guidelines: the 2018 revision.</title>
+<source>J Cyst Fibros</source>
+<pubdate>2018</pubdate>
+<volume>17</volume>
+<pages>153&#x2013;178</pages>
+</reference>
+<reference id="pubmed25981758">
+<accessionId id="acc062" href="info:pmid/25981758" />
+<authors>Wainwright CE, Elborn JS, Ramsey BW, Marigowda G, Huang X, Cipolli M, Colombo C, Davies JC, De Boeck K, Flume PA, Konstan MW, McColley SA, McCoy K, McKone EF, Munck A, Ratjen F, Rowe SM, Waltz D, Boyle MP, TRAFFIC Study Group, TRANSPORT Study Group.</authors>
+<title>Lumacaftor-Ivacaftor in Patients with Cystic Fibrosis Homozygous for Phe508del CFTR.</title>
+<source>N Engl J Med</source>
+<pubdate>2015</pubdate>
+<volume>373</volume>
+<pages>220&#x2013;231</pages>
+</reference>
+<reference id="cochrane3424">
+<accessionId id="acc063" href="info:wiley/cochrane/CD3424" />
+<chapter_authors>Ng SM, Moore HS.</chapter_authors>
+<chapter_title>Drug therapies for reducing gastric acidity in people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 4. Art. No.: CD003424. DOI: 10.1002&#x002F;14651858.CD003424.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2768">
+<accessionId id="acc064" href="info:wiley/cochrane/CD2768" />
+<chapter_authors>Radtke T, Smith S, Nevitt SJ, Hebestreit H, Kriemler S.</chapter_authors>
+<chapter_title>Physical activity and exercise training in cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 8. Art. No.: CD002768. DOI: 10.1002&#x002F;14651858.CD002768.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1127">
+<accessionId id="acc065" href="info:wiley/cochrane/CD1127" />
+<chapter_authors>Yang C, Montgomery M.</chapter_authors>
+<chapter_title>Dornase alfa for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 3. Art. No.: CD001127. DOI: 10.1002&#x002F;14651858.CD001127.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7923">
+<accessionId id="acc066" href="info:wiley/cochrane/CD7923" />
+<chapter_authors>Dentice R, Elkins M.</chapter_authors>
+<chapter_title>Timing of dornase alfa inhalation for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 3. Art. No.: CD007923. DOI: 10.1002&#x002F;14651858.CD007923.pub6.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane2007">
+<accessionId id="acc067" href="info:wiley/cochrane/CD2007" />
+<chapter_authors>Holland P, Jahnke N.</chapter_authors>
+<chapter_title>Single versus combination intravenous anti-pseudomonal antibiotic therapy for people with cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 6. Art. No.: CD002007. DOI: 10.1002&#x002F;14651858.CD002007.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane1506">
+<accessionId id="acc068" href="info:wiley/cochrane/CD1506" />
+<chapter_authors>Wark P, McDonald VM, Smith S.</chapter_authors>
+<chapter_title>Nebulised hypertonic saline for cystic fibrosis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 6. Art. No.: CD001506. DOI: 10.1002&#x002F;14651858.CD001506.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed38937105">
+<accessionId id="acc069" href="info:pmid/38937105" />
+<authors>Merlo CA, Thorat T, DerSarkissian M, McGarry LJ, Nguyen C, Gu YM, Healy J, Rubin JL, Brookhart MA.</authors>
+<title>Long-term impact of ivacaftor on mortality rate and health outcomes in people with cystic fibrosis.</title>
+<source>Thorax</source>
+<pubdate>2024</pubdate>
+<volume>79</volume>
+<pages>925&#x2013;933</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>043.1</id>
+<supertype>AbCd</supertype>
+<last_update>2014-06-26</last_update>
+</meta>
+<title>Diagnostic Algorithm, Based on Cystic Fibrosis Foundation Guidelines.</title>
+<graphic href="eee0671_fig1.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

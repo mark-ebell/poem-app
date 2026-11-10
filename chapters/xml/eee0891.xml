@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Hemolytic disease of the fetus and newborn</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0891</topic_id>
+<topic_comment />
+<topic_lastupdated>06/06/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Stacey L. Milunic, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Pennsylvania State University</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hershey</author_city>
+<author_state>PA</author_state>
+<author_zip />
+</author>
+<author primary="no">
+<author_name>David L. Lee, MD</author_name>
+<author_title>Resident</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Pennsylvania State University, Hershey, PA</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Screen all pregnant women by checking blood type, RhD status, and antibody screen at the first prenatal visit. <xref ref="bib43_33_1564150093378" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Administer 300 &#x03BC;g of RhD immunoglobulin to all unsensitized RhD-negative women at 24 to 28 weeks&#x2019; gestation, after any potentially sensitizing event, and after delivery of an RhD-positive fetus. <xref ref="bib43_33_1564150093378" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Suspect hemolytic disease of the fetus and newborn (HDFN) when there is a maternal history of Rh alloimmunization or other pathologic erythrocyte antibodies. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>In the presence of maternal erythrocyte antibodies, diagnose HDFN when middle cerebral artery peak systolic velocity is greater than 1.5 times the median. In newborns with jaundice, diagnose HDFN with evidence of blood group incompatibility and a positive direct antibody test. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed29470342" resource="acc003" /><xref ref="pubmed15231951" resource="acc001" /><xref ref="pubmed22566278" resource="acc033" /></listitem>
+<listitem>Antenatal treatment is primarily for anemia with intrauterine transfusions. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed23093258" resource="acc024" /><xref ref="pubmed2109534" resource="acc012" /></listitem>
+<listitem>Postnatal treatment is primarily to address anemia and hyperbilirubinemia and consists of phototherapy and exchange transfusions. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15231986" resource="acc014" /><xref ref="pubmed15231951" resource="acc001" /><xref ref="pubmed18305267" resource="acc018" /><xref ref="pubmed14785788" resource="acc009" /></listitem>
+<listitem>Affected neonates have worse neurodevelopmental outcomes and cardiovascular sequelae. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed22030316" resource="acc016" /><xref ref="pubmed27664264" resource="acc032" /></listitem>
+</list>
+</BottomLine>
+<definition>Hemolytic disease of the fetus and newborn (HDFN) occurs due to maternal alloimmunization to fetal erythrocyte antigens, which leads to the destruction of fetal erythrocytes. Complications include anemia and hydrops in the fetus, and hyperbilirubinemia in the newborn. <xref ref="pubmed25633877" resource="acc005" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>After the introduction of RhD immunoglobulin, the incidence of hemolytic disease due to RhD alloimmunization is 0.4 per 1000 births. <xref ref="pubmed25633877" resource="acc005" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The prevalence of RhD-negative phenotype (a risk factor for alloimmunization) is 15&#x0025; to 17&#x0025; in North American and European populations, 3&#x0025; to 8&#x0025; in African and Indian populations, and 0.1&#x0025; to 0.3&#x0025; in Asian populations.<xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>ABO incompatibility exists in 15&#x0025; to 20&#x0025; of pregnancies in European populations, and may be higher in African and Middle-Eastern populations. <xref ref="pubmed25633877" resource="acc005" /></listitem>
+<listitem>In a study of 37,506 female blood donors, 1.1&#x0025; were found to have an antibody associated with HDFN. <xref ref="pubmed10986438" resource="acc019" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Prior to the advent of anti-D immunoglobulin, HDFN was a common cause of hydrops fetalis.<xref ref="pubmed25557883" resource="acc023" /></listitem>
+</list>
+</social_impact>
+<causes />
+<pathophysiology>
+<list style="bulleted">
+<listitem>Maternal-fetal hemorrhage can lead to the development of maternal IgG antibodies against fetal erythrocyte antigens. Major culprit antigens are RhD, A, B, and AB, although over 50 pathologic antigens have been identified.<xref ref="pubmed18396474" resource="acc020" /></listitem>
+<listitem>When these antibodies cross the placenta into fetal circulation, they can cause the destruction of fetal erythrocytes. This can result in anemia and hydrops in the fetus, and hyperbilirubinemia and kernicterus in the newborn.<xref ref="pubmed28503958" resource="acc027" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Screen all pregnant women by checking blood type, RhD status, and antibody screen at the first prenatal visit.<xref ref="bib43_33_1564150093378" /><evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Administer 300 &#x03BC;g of RhD immunoglobulin to all unsensitized RhD-negative women at 24 to 28 weeks&#x2019; gestation, after any potentially sensitizing event, and after delivery of an RhD-positive fetus.<xref ref="bib43_33_1564150093378" /><evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Perform RhD blood typing and antibody testing for all pregnant women during their initial prenatal visit to identify women at risk for Rh alloimmunization and HDFN.<xref ref="bib43_33_1564150093378" /></listitem>
+<listitem>Repeat RhD antibody testing for unsensitized RhD-negative women at 24 to 28 weeks&#x2019; gestation unless the biological father is known to be RhD negative.<xref ref="bib43_33_1564150093378" /></listitem>
+<listitem>Screen pregnant women for other erythrocyte antibodies associated with HDFN at the initiation of prenatal care.<xref ref="pubmed15231951" resource="acc001" /><xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>If the mother&#x2019;s blood type is unknown or RhD negative, test cord blood for infant blood type, RhD type, and direct Coombs antibody test. <evidence rating="B" system="SORT">B</evidence> This is an option if the maternal blood type is O positive.<xref ref="pubmed15231951" resource="acc001" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Administer 300 &#x03BC;g of RhD immunoglobulin to all unsensitized RhD-negative women after repeat antibody testing at 24 to 28 weeks&#x2019; gestation.<xref ref="bib43_33_1564150093378" /> Controlled trials in the 1960s demonstrated a reduction of maternal alloimmunization in at-risk women from 2&#x0025; to 0.2&#x0025; with the administration of RhD immunoglobulin at 28 weeks&#x2019; gestation in addition to the post-partum dose.<xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>If an RhD-positive or weakly RhD-positive infant is delivered to an Rh-negative woman, administer 300 &#x03BC;g RhD immunoglobulin within 72 hours of delivery.<xref ref="bib43_33_1564150093378" /> The baseline rate of maternal alloimmunization to RhD 6 months after delivering an RhD-positive infant is 7&#x0025; to 31&#x0025;. Multiple randomized controlled trials in the 1960s demonstrated that giving RhD immunoglobulin within 72 hours of delivery reduced the rate of maternal alloimmunization to 1&#x0025; to 2&#x0025;.<xref ref="pubmed2856526" resource="acc007" /> Post-delivery testing should be performed to identify maternofetal hemorrhage greater than 30 mL, which requires additional doses of RhD immunoglobulin. <xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>Administer 300 &#x03BC;g of RhD immunoglobulin after any potentially sensitizing event after 12 weeks, including vaginal bleeding, abdominal trauma, spontaneous or therapeutic abortion, amniocentesis, chorionic villus sampling, and external cephalic version.<xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>It has been recommended that prior to 12 weeks, one should administer 50 to 120 &#x03BC;g of RhD immunoglobulin after therapeutic abortion, ectopic pregnancy, or spontaneous abortion requiring uterine instrumentation. There is inadequate evidence to recommend administration of RhD immunoglobulin after complete spontaneous abortion.<xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>However, a study of 644 patients who were undergoing medication or procedural abortion at less than 12 weeks found that only 3 individuals had elevated fRBC counts at baseline; 1 individual also had an elevated fRBC count post-abortion. None of the other participants had fRBC counts above the clinically significant sensitization threshold after either a medical or procedural first-trimester induced abortion. No significant differences in fRBC counts occurred between the medical and procedural abortions, nor between patients reporting or not reporting bleeding prior to presenting for abortion care. Thus, the authors conclude that Rh typing and&#x002F;or immunoglobulin are not necessary followingn induced first trimester abortion.<xref ref="poem374275" resource="acc041" /></listitem>
+<listitem>In a phase 2 trial, IV nipocalimab, a monoclonal that blocks neonatal Fc receptors and prevents transplacental IgG transfer, was given to 13 pregnant women. The drug prevented or delayed fetal anemia and the need for intrauterine transfusions.<xref ref="pubmed39115062" resource="acc042" /></listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect HDFN if there is fetal anemia and hyperbilirubinemia of the setting maternal-fetal Rh or ABO incompatibility. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed28503958" resource="acc027" /></listitem>
+<listitem>Suspect HDFN when there is a maternal history of Rh alloimmunization or other pathologic erythrocyte antibodies. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>In the presence of maternal erythrocyte antibodies, diagnose HDFN when middle cerebral artery peak systolic velocity is greater than 1.5 times the median. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed29470342" resource="acc003" /></listitem>
+<listitem>In newborns with jaundice, diagnose HDFN with evidence of blood group incompatibility and a positive direct antibody test. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed15231951" resource="acc001" /><xref ref="pubmed22566278" resource="acc033" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Chromosomal abnormalities and other genetic conditions</Differential_Name>
+<Differential_Features>Abnormal karyotype, other structural abnormalities seen on ultrasound</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Intrauterine infection (parvovirus, CMV)</Differential_Name>
+<Differential_Features>Positive maternal serology (IgM), positive PCR on amniotic fluid (if amniocentesis performed)</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hydrothorax</Differential_Name>
+<Differential_Features>Fetal pleural effusion noted on ultrasound</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cardiac arrhythmia</Differential_Name>
+<Differential_Features>Fetal tachycardia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cardiac structural anomalies</Differential_Name>
+<Differential_Features>Abnormal fetal cardiac anatomy noted on ultrasound or fetal echocardiogram</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Twin-to-twin transfusion syndrome</Differential_Name>
+<Differential_Features>Monochorionic twins, disproportionate amniotic fluid levels, abnormal umbilical artery dopplers</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Utero-placental insufficiency</Differential_Name>
+<Differential_Features>SGA, abnormal umbilical cord insertion or placental anomaly noted on ultrasound</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Other causes of jaundice in the neonate</Differential_Name>
+<Differential_Features />
+</Differential>
+<Differential>
+<Differential_Name>Inadequate breastfeeding&#x002F;dehydration</Differential_Name>
+<Differential_Features>Excessive weight lost (&gt;10&#x0025;), poor breastfeeding, decreased urine output, decreased stools</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Urinary tract infections</Differential_Name>
+<Differential_Features>Positive urine culture, abnormal urinalysis, if severe may show signs of sepsis</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Sepsis</Differential_Name>
+<Differential_Features>Temperature instability, respiratory distress, poor feeding, decreased tone, h&#x002F;o maternal chorioamnionitis, GBS-positive status, or prolonged rupture of membranes, leukocytosis or leukopenia, positive blood cultures</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>G6PD deficiency</Differential_Name>
+<Differential_Features>Low measured G6PD level, family h&#x002F;o G6PD deficiency, infant of ethnicity with increased rates of G6PD deficiency (Mediterranean, Middle East, Arabian peninsula, Southeast Asia, and Africa), newborn screen positive for G6PD deficiency</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Cholestasis</Differential_Name>
+<Differential_Features>Direct bilirubin greater than 20&#x0025; of total bilirubin, acholic stools, may progress to hepatomegaly, ascites and failure to thrive</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Congenital hypothyroidism</Differential_Name>
+<Differential_Features>Many asymptomatic at birth, may develop lethargy, poor feeding, constipation and myxedema, newborn screen positive for hypothyroidism</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Galactosemia</Differential_Name>
+<Differential_Features>Vomiting, hepatomegaly, poor feeding and failure to thrive, newborn screen positive for galactosemia</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Prenatal diagnosis requires identification of maternal erythrocyte antibodies plus evidence of fetal anemia on ultrasound. The middle cerebral artery (MCA) peak systolic velocity corresponds with severity of fetal anemia.<xref ref="pubmed19681854" resource="acc026" /> Other signs include ascites and hydrops fetalis. The diagnosis is confirmed via cordocentesis.</listitem>
+<listitem>Neonatal diagnosis requires the presence of clinical signs of hemolysis plus laboratory evidence of immune-mediated hemolysis. A positive direct antibody test in the setting of blood group incompatibility confirms the diagnosis.<xref ref="pubmed22566278" resource="acc033" /> A negative direct antibody test does not rule out the diagnosis and should be followed up with an indirect antibody test.<xref ref="pubmed469673" resource="acc008" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>Suspect HDFN when there is a maternal history of Rh alloimmunization or other pathologic erythrocyte antibodies.</listitem>
+<listitem>The primary presenting symptom of HDFN is jaundice secondary to hyperbilirubinemia. Infants with severe hyperbilirubinemia can also demonstrate lethargy, hypotonia, and poor suck.<xref ref="pubmed15231951" resource="acc001" /></listitem>
+<listitem>Jaundice progresses cranial to caudal.<xref ref="pubmed5817480" resource="acc015" /> Visual estimates have poor inter-observer reliability and poor correlation with serum bilirubin.<xref ref="pubmed10768679" resource="acc021" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><strong>Prenatal Testing</strong></listitem>
+<listitem>Test all women for ABO blood group, RhD type, and erythrocyte antibodies at the first prenatal visit. Repeat antibody screening at 28 weeks of gestation before administering RhD immunoglobulin.<xref ref="bib43_33_1564150093378" /><xref ref="pubmed28742673" resource="acc002" /></listitem>
+<listitem>Amniocentesis can determine fetal blood type and RhD with a reported sensitivity of 98.7&#x0025; and specificity of 100&#x0025;.<xref ref="pubmed8942854" resource="acc029" /></listitem>
+<listitem>Detection of fetal RhD via molecular analysis of cell-free DNA in maternal plasma was reported to have sensitivity of 100&#x0025; and specificity of 97&#x0025; in one RCT.<xref ref="pubmed27393271" resource="acc031" /></listitem>
+<listitem>Follow serial antibody titers in pregnant women at risk for HDFN. Each laboratory determines a critical titer (typically 1:8) associated with a significant risk for severe fetal anemia and hydrops. If that level is reached, refer the patient for non-invasive monitoring and high-risk consultation.<xref ref="pubmed29470342" resource="acc003" /></listitem>
+<listitem>MCA peak systolic velocity, when using a cutoff of 1.5 times the median, has the best predictive value of a non-invasive test for fetal anemia. <xref ref="pubmed19681854" resource="acc026" /></listitem>
+<listitem><strong>Neonatal Testing</strong></listitem>
+<listitem>Order blood type, RhD, and direct antibody test on cord blood to determine risk of HDFN. Monitor total serum bilirubin (TSB) in infants at risk for HDFN.</listitem>
+<listitem>Transcutaneous bilirubin testing provides measurements within 2 to 3 mg&#x002F;dL of TSB if the true value is less than 15 mg&#x002F;dL; however, usage during phototherapy is contraindicated. <xref ref="pubmed15231951" resource="acc001" /></listitem>
+<listitem>Direct (conjugated) bilirubin should be ordered to evaluate for cholestasis. For TSB values less than 5 mg&#x002F;dL, a direct bilirubin greater than 1.0 mg&#x002F;dL is abnormal. For TSB values greater than 5 mg&#x002F;dL, a direct bilirubin greater than 20&#x0025; of the TSB is abnormal.</listitem>
+<listitem>G6PD deficiency can contribute to hyperbilirubinemia and may require lower treatment thresholds. Active hemolysis can artificially elevate G6PD levels. If G6PD deficiency is suspected, repeat testing at 3 months of age.</listitem>
+<listitem>Albumin binds bilirubin in the bloodstream and unbound bilirubin is more likely to cross the blood-brain barrier. Hypoalbuminemia &lt;3.0 mg&#x002F;dL is an additional risk factor for kernicterus.</listitem>
+<listitem>Reticulocyte counts and peripheral blood smears are typically recommended but have low yield. <xref ref="pubmed8200159" resource="acc022" /></listitem>
+<listitem>End-tidal carbon monoxide concentration (ETCOc) provides a direct measurement of hemolysis; however, positive predictive value for significant hemolysis was not significantly different than direct antibody test. <xref ref="pubmed12082466" resource="acc013" /></listitem>
+<listitem>A single pre-discharge serum bilirubin can predict development of clinically significant hyperbilirubinemia post-discharge. A single measurement &gt;40&#x0025; tile (outside the low-risk zone) had a negative predictive value of 100&#x0025;, making it useful in identifying infants at low risk for hyperbilirubinemia as an outpatient. <xref ref="pubmed9917432" resource="acc006" /></listitem>
+<listitem>Point of care testing of whole blood or serum is quick and uses less blood than standard tests, but tend to underestimate the bilirubin value by about 17 micromol&#x002F;L.<xref ref="poem343753" resource="acc043" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>An online calculator can help determine abnormal bilirubin levels based on age (see BiliTool: <resourceLink href="http://bilitool.org">http:&#x002F;&#x002F;bilitool.org</resourceLink>).</listitem>
+<listitem>A logistic regression model with two variables (difference between starting and ending total serum bilirubin and gestational age &lt;38 vs 38+ weeks) can accurately predict the likelihood of rebound hyperbilirubinemia.<xref ref="pubmed31196939" resource="acc040" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem><strong>Prenatal Testing</strong></listitem>
+<listitem>Test all women of ABO blood group, RhD type, and erythrocyte antibodies at the time of the first prenatal visit. Repeat antibody screening at 28 weeks of gestation prior to giving RhD immunoglobulin. In women with a positive antibody screen, determine paternal antibodies to stratify fetal risk (see algorithm in <xref ref="fig001" />).</listitem>
+<listitem>If antibodies reach the laboratory&#x2019;s <em>critical titer</em> (typically 1:8), refer the patient for non-invasive monitoring and high-risk consultation. <xref ref="pubmed29470342" resource="acc003" /></listitem>
+<listitem>Women with a previously affected pregnancy should have non-invasive monitoring regardless of titer.</listitem>
+<listitem>Women with anti-Kell antibody should be monitored regardless of titer as the Kell antibody titer does not correlate well with fetal status, though a study of the Dutch population notes increased risk of HDFN with titers &#x2265;1:4. <xref ref="pubmed10759266" resource="acc010" /><xref ref="pubmed17470588" resource="acc030" /><xref ref="pubmed30063902" resource="acc038" /></listitem>
+<listitem><strong>Neonatal Testing</strong></listitem>
+<listitem>Check bilirubin (transcutaneous or serum) in infants who are jaundiced in the first 24 hours after birth and in an excessively jaundiced infant. Bilirubin levels should be interpreted via nomogram<xref ref="pubmed15231951" resource="acc001" /> (<resourceLink href="http://pediatrics.aappublications.org/content/pediatrics/114/1/297/F2.large.jpg">http:&#x002F;&#x002F;pediatrics.aappublications.org&#x002F;content&#x002F;pediatrics&#x002F;114&#x002F;1&#x002F;297&#x002F;F2.large.jpg</resourceLink>). Monitor the trend of total bilirubin measurements, which can also determine efficacy of phototherapy.</listitem>
+<listitem>Obtain direct antibody testing, blood type, and RhD-type cord blood if not already done.</listitem>
+<listitem>If direct antibody testing is negative but immune hemolysis is still suspected, perform indirect antibody test. <xref ref="pubmed469673" resource="acc008" /></listitem>
+<listitem>With bilirubin levels rising rapidly or unresponsive to phototherapy, order CBC and peripheral smear, direct and conjugated bilirubin. Consider reticulocyte count, G6PD level, albumin, and ETCOc, if available. <xref ref="pubmed15231951" resource="acc001" /></listitem>
+<listitem>If direct bilirubin level elevated, perform urinalysis and urine culture as jaundice can be the first symptom of UTI.<xref ref="pubmed22512850" resource="acc028" /> Initiate sepsis workup if suggested by history and physical examination.</listitem>
+<listitem>Follow up results of newborn screen, particularly thyroid and galactosemia.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Perform intrauterine transfusion for confirmed severe fetal anemia. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed23093258" resource="acc024" /><xref ref="pubmed2109534" resource="acc012" /></listitem>
+<listitem>Phototherapy is recommended for hyperbilirubinemia. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18305267" resource="acc018" /><xref ref="pubmed15231986" resource="acc014" /><xref ref="pubmed15231951" resource="acc001" /></listitem>
+<listitem>Exchange transfusion is recommended for resistant hyperbilirubinemia. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed14785788" resource="acc009" /><xref ref="pubmed15231951" resource="acc001" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug />
+<Treatment_Surgery />
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Intravenous immunoglobulin (IVIG) is thought to decrease erythrocyte destruction and therefore the degree of anemia by blocking macrophage Fc receptors. Preliminary studies show that IVIG delays the initiation of intrauterine transfusion and decreases the frequency of intrauterine tranfusions; further studies are needed.<xref ref="cochrane3313" resource="acc036" /><xref ref="pubmed29902448" resource="acc039" /></listitem>
+<listitem>The application of recombinant erythropoietin has limited clinical benefit, although studies are focused on premature infants. <xref ref="cochrane4863" resource="acc035" /><xref ref="cochrane4865" resource="acc034" /></listitem>
+<listitem>Folate has been found to have a small benefit when used in conjunction with B12 and erythropoietin, although evidence is limited. <xref ref="pubmed16818564" resource="acc011" /></listitem>
+<listitem>Vitamin E deficiency may play a role in anemia, although studies have had mixed results. <xref ref="pubmed12819167" resource="acc025" /><xref ref="pubmed19263337" resource="acc004" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral />
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>In hemolytic disease of the fetus, the incidence of hydrops fetalis and neonatal demise is approximately 10&#x0025;. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed23093258" resource="acc024" /></listitem>
+<listitem>Neonates treated with intrauterine transfusions have higher rates of neurodevelopmental impairment. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed22030316" resource="acc016" /></listitem>
+<listitem>Neonates treated with intrauterine transfusions have altered cardiovascular development, but long-term sequelae of this is unknown. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed23658134" resource="acc017" /><xref ref="pubmed27664264" resource="acc032" /> Neurodevelopmental impairment (cerebral palsy, severe developmental delay, bilateral blindness, deafness) was increased over the baseline population in a small Dutch study. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed22030316" resource="acc016" /></listitem>
+<listitem>There are limited data that found reduced myocardial mass in childhood, smaller left ventricular volumes, increased left ventricular wall thickness, and decreased myocardial perfusion at rest. Long-term significance is unclear. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed23658134" resource="acc017" /><xref ref="pubmed27664264" resource="acc032" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed15231951">
+<accessionId id="acc001" href="info:pmid/15231951" />
+<authors>American Academy of Pediatrics Subcommittee on Hyperbilirubinemia.</authors>
+<title>Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation.</title>
+<source>Pediatrics</source>
+<pubdate>2004</pubdate>
+<volume>114</volume>
+<pages>297&#x2013;316.</pages>
+</reference>
+<reference id="pubmed28742673">
+<accessionId id="acc002" href="info:pmid/28742673" />
+<authors>Committee on Practice Bulletins-Obstetrics.</authors>
+<title>Practice Bulletin No. 181: Prevention of Rh D alloimmunization.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2017</pubdate>
+<volume>130</volume>
+<pages>e57&#x2013;e70.</pages>
+</reference>
+<reference id="pubmed29470342">
+<accessionId id="acc003" href="info:pmid/29470342" />
+<authors />
+<title>ACOG Practice Bulletin No. 192: Management of alloimmunization during pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2018</pubdate>
+<volume>131</volume>
+<pages>e82&#x2013;e90.</pages>
+</reference>
+<reference id="pubmed19263337">
+<accessionId id="acc004" href="info:pmid/19263337" />
+<authors>Arnon S, Regev RH, Bauer S, Shainkin-Kestenbaum R, Shiff Y, Bental Y, Litmanovitz I.</authors>
+<title>Vitamin E levels during early iron supplementation in preterm infants.</title>
+<source>Am J Perinatol</source>
+<pubdate>2009</pubdate>
+<volume>26</volume>
+<pages>387&#x2013;392.</pages>
+</reference>
+<reference id="pubmed25633877">
+<accessionId id="acc005" href="info:pmid/25633877" />
+<authors>Bennardello F, Coluzzi S, Curciarello G, Todros T, Villa S.</authors>
+<title>Recommendations for the prevention and treatment of haemolytic disease of the foetus and newborn.</title>
+<source>Blood Transfus</source>
+<pubdate>2015</pubdate>
+<volume>13</volume>
+<pages>109&#x2013;134.</pages>
+</reference>
+<reference id="pubmed9917432">
+<accessionId id="acc006" href="info:pmid/9917432" />
+<authors>Bhutani VK, Johnson L, Sivieri EM.</authors>
+<title>Predictive ability of a predischarge hour-specific serum bilirubin for subsequent significant hyperbilirubinemia in healthy term and near-term newborns.</title>
+<source>Pediatrics</source>
+<pubdate>1999</pubdate>
+<volume>103</volume>
+<pages>6&#x2013;14.</pages>
+</reference>
+<reference id="pubmed2856526">
+<accessionId id="acc007" href="info:pmid/2856526" />
+<authors>Bowman JM.</authors>
+<title>The prevention of Rh immunization.</title>
+<source>Transfus Med Rev</source>
+<pubdate>1988</pubdate>
+<volume>2</volume>
+<pages>129&#x2013;150.</pages>
+</reference>
+<reference id="pubmed469673">
+<accessionId id="acc008" href="info:pmid/469673" />
+<authors>Desjardins L, Blajchman MA, Chintu C, Gent M, Zipursky A.</authors>
+<title>The spectrum of ABO hemolytic disease of the newborn infant.</title>
+<source>J Pediatr</source>
+<pubdate>1979</pubdate>
+<volume>95</volume>
+<pages>447&#x2013;449.</pages>
+</reference>
+<reference id="pubmed14785788">
+<accessionId id="acc009" href="info:pmid/14785788" />
+<authors>Diamond LK, Allen FH, Jr., Thomas WO, Jr.</authors>
+<title>Erythroblastosis fetalis. VII. Treatment with exchange transfusion.</title>
+<source>N Engl J Med</source>
+<pubdate>1951</pubdate>
+<volume>244</volume>
+<pages>39&#x2013;49.</pages>
+</reference>
+<reference id="pubmed10759266">
+<accessionId id="acc010" href="info:pmid/10759266" />
+<authors>Grant SR, Kilby MD, Meer L, Weaver JB, Gabra GS, Whittle MJ.</authors>
+<title>The outcome of pregnancy in Kell alloimmunisation.</title>
+<source>BJOG</source>
+<pubdate>2000</pubdate>
+<volume>107</volume>
+<pages>481&#x2013;485.</pages>
+</reference>
+<reference id="pubmed16818564">
+<accessionId id="acc011" href="info:pmid/16818564" />
+<authors>Haiden N, Klebermass K, Cardona F, Schwindt J, Berger A, Kohlhauser-Vollmuth C, Pollak A.</authors>
+<title>A randomized, controlled trial of the effects of adding vitamin B12 and folate to erythropoietin for the treatment of anemia of prematurity.</title>
+<source>Pediatrics</source>
+<pubdate>2006</pubdate>
+<volume>118</volume>
+<pages>180&#x2013;188.</pages>
+</reference>
+<reference id="pubmed2109534">
+<accessionId id="acc012" href="info:pmid/2109534" />
+<authors>Harman CR, Bowman JM, Manning FA, Menticoglou SM.</authors>
+<title>Intrauterine transfusion&#x2013;intraperitoneal versus intravascular approach: A case-control comparison.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>1990</pubdate>
+<volume>162</volume>
+<pages>1053&#x2013;1059.</pages>
+</reference>
+<reference id="pubmed12082466">
+<accessionId id="acc013" href="info:pmid/12082466" />
+<authors>Herschel M, Karrison T, Wen M, Caldarelli L, Baron B.</authors>
+<title>Evaluation of the direct antiglobulin (Coombs&#x2019;) test for identifying newborns at risk for hemolysis as determined by end-tidal carbon monoxide concentration (ETCOc); and comparison of the Coombs&#x2019; test with ETCOc for detecting significant jaundice.</title>
+<source>J Perinatol</source>
+<pubdate>2002</pubdate>
+<volume>22</volume>
+<pages>341&#x2013;347.</pages>
+</reference>
+<reference id="pubmed15231986">
+<accessionId id="acc014" href="info:pmid/15231986" />
+<authors>Ip S, Chung M, Kulig J, O&#x2019;Brien R, Sege R, Glicken S, Maisels MJ, Lau J; American Academy of Pediatrics Subcommittee on Hyperbilirubinemia.</authors>
+<title>An evidence-based review of important issues concerning neonatal hyperbilirubinemia.</title>
+<source>Pediatrics</source>
+<pubdate>2004</pubdate>
+<volume>114</volume>
+<pages>e130&#x2013;e153.</pages>
+</reference>
+<reference id="pubmed5817480">
+<accessionId id="acc015" href="info:pmid/5817480" />
+<authors>Kramer LI.</authors>
+<title>Advancement of dermal icterus in the jaundiced newborn.</title>
+<source>Am J Dis Child</source>
+<pubdate>1969</pubdate>
+<volume>118</volume>
+<pages>454&#x2013;458.</pages>
+</reference>
+<reference id="pubmed22030316">
+<accessionId id="acc016" href="info:pmid/22030316" />
+<authors>Lindenburg IT, Smits-Wintjens VE, van Klink JM, Verduin E, van Kamp IL, Walther FJ, Lopriore E.</authors>
+<title>Long-term neurodevelopmental outcome after intrauterine transfusion for hemolytic disease of the fetus&#x002F;newborn: The LOTUS study.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2012</pubdate>
+<volume>206</volume>
+<pages>e141&#x2013;e148.</pages>
+</reference>
+<reference id="pubmed23658134">
+<accessionId id="acc017" href="info:pmid/23658134" />
+<authors>Lindenburg IT, van Klink JM, Smits-Wintjens VE, van Kamp IL, Oepkes D, Lopriore E.</authors>
+<title>Long-term neurodevelopmental and cardiovascular outcome after intrauterine transfusions for fetal anaemia: A review.</title>
+<source>Prenat Diagn</source>
+<pubdate>2013</pubdate>
+<volume>33</volume>
+<pages>815&#x2013;822.</pages>
+</reference>
+<reference id="pubmed18305267">
+<accessionId id="acc018" href="info:pmid/18305267" />
+<authors>Maisels MJ, McDonagh AF.</authors>
+<title>Phototherapy for neonatal jaundice.</title>
+<source>N Engl J Med</source>
+<pubdate>2008</pubdate>
+<volume>358</volume>
+<pages>920&#x2013;928.</pages>
+</reference>
+<reference id="pubmed10986438">
+<accessionId id="acc019" href="info:pmid/10986438" />
+<authors>Moise KJ, Jr.</authors>
+<title>Non-anti-D antibodies in red-cell alloimmunization.</title>
+<source>Eur J Obstet Gynecol Reprod Biol</source>
+<pubdate>2000</pubdate>
+<volume>92</volume>
+<pages>75&#x2013;81.</pages>
+</reference>
+<reference id="pubmed18396474">
+<accessionId id="acc020" href="info:pmid/18396474" />
+<authors>Moise KJ.</authors>
+<title>Fetal anemia due to non-Rhesus-D red-cell alloimmunization.</title>
+<source>Semin Fetal Neonatal Med</source>
+<pubdate>2008</pubdate>
+<volume>13</volume>
+<pages>207&#x2013;214.</pages>
+</reference>
+<reference id="pubmed10768679">
+<accessionId id="acc021" href="info:pmid/10768679" />
+<authors>Moyer VA, Ahn C, Sneed S.</authors>
+<title>Accuracy of clinical judgment in neonatal jaundice.</title>
+<source>Arch Pediatr Adolesc Med</source>
+<pubdate>2000</pubdate>
+<volume>154</volume>
+<pages>391&#x2013;394.</pages>
+</reference>
+<reference id="pubmed8200159">
+<accessionId id="acc022" href="info:pmid/8200159" />
+<authors>Newman TB, Easterling MJ.</authors>
+<title>Yield of reticulocyte counts and blood smears in term infants.</title>
+<source>Clin Pediatr (Phila)</source>
+<pubdate>1994</pubdate>
+<volume>33</volume>
+<pages>71&#x2013;76.</pages>
+</reference>
+<reference id="pubmed25557883">
+<accessionId id="acc023" href="info:pmid/25557883" />
+<authors>Norton ME, Chauhan SP, Dashe JS.</authors>
+<title>Society for maternal-fetal medicine (SMFM) clinical guideline #7: Nonimmune hydrops fetalis.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2015</pubdate>
+<volume>212</volume>
+<pages>127&#x2013;139.</pages>
+</reference>
+<reference id="pubmed23093258">
+<accessionId id="acc024" href="info:pmid/23093258" />
+<authors>Papantoniou N, Sifakis S, Antsaklis A.</authors>
+<title>Therapeutic management of fetal anemia: Review of standard practice and alternative treatment options.</title>
+<source>J Perinat Med</source>
+<pubdate>2013</pubdate>
+<volume>41</volume>
+<pages>71&#x2013;82.</pages>
+</reference>
+<reference id="pubmed12819167">
+<accessionId id="acc025" href="info:pmid/12819167" />
+<authors>Pathak A, Roth P, Piscitelli J, Johnson L.</authors>
+<title>Effects of vitamin E supplementation during erythropoietin treatment of the anaemia of prematurity.</title>
+<source>Arch Dis Child Fetal Neonatal Ed</source>
+<pubdate>2003</pubdate>
+<volume>88</volume>
+<pages>F324&#x2013;328.</pages>
+</reference>
+<reference id="pubmed19681854">
+<accessionId id="acc026" href="info:pmid/19681854" />
+<authors>Pretlove SJ, Fox CE, Khan KS, Kilby MD.</authors>
+<title>Noninvasive methods of detecting fetal anaemia: A systematic review and meta-analysis.</title>
+<source>BJOG</source>
+<pubdate>2009</pubdate>
+<volume>116</volume>
+<pages>1558&#x2013;1567.</pages>
+</reference>
+<reference id="pubmed28503958">
+<accessionId id="acc027" href="info:pmid/28503958" />
+<authors>Ree IMC, Smits-Wintjens VEHJ, van der Bom JG, van Klink JMM, Oepkes D, Lopriore E.</authors>
+<title>Neonatal management and outcome in alloimmune hemolytic disease.</title>
+<source>Expert Review of Hematology</source>
+<pubdate>2017</pubdate>
+<volume>10</volume>
+<pages>607&#x2013;616.</pages>
+</reference>
+<reference id="pubmed22512850">
+<accessionId id="acc028" href="info:pmid/22512850" />
+<authors>Shahian M, Rashtian P, Kalani M.</authors>
+<title>Unexplained neonatal jaundice as an early diagnostic sign of urinary tract infection.</title>
+<source>Int J Infect Dis</source>
+<pubdate>2012</pubdate>
+<volume>16</volume>
+<pages>e487&#x2013;e490.</pages>
+</reference>
+<reference id="pubmed8942854">
+<accessionId id="acc029" href="info:pmid/8942854" />
+<authors>Van den Veyver IB, Moise KJ, Jr.</authors>
+<title>Fetal RhD typing by polymerase chain reaction in pregnancies complicated by rhesus alloimmunization.</title>
+<source>Obstet Gynecol</source>
+<pubdate>1996</pubdate>
+<volume>88</volume>
+<pages>1061&#x2013;1067.</pages>
+</reference>
+<reference id="pubmed17470588">
+<accessionId id="acc030" href="info:pmid/17470588" />
+<authors>van Wamelen DJ, Klumper FJ, de Haas M, Meerman RH, van Kamp IL, Oepkes D.</authors>
+<title>Obstetric history and antibody titer in estimating severity of Kell alloimmunization in pregnancy.</title>
+<source>Obstet Gynecol</source>
+<pubdate>2007</pubdate>
+<volume>109</volume>
+<pages>1093&#x2013;1098.</pages>
+</reference>
+<reference id="pubmed27393271">
+<accessionId id="acc031" href="info:pmid/27393271" />
+<authors>Vivanti A, Benachi A, Huchet FX, Ville Y, Cohen H, Costa JM.</authors>
+<title>Diagnostic accuracy of fetal rhesus D genotyping using cell-free fetal DNA during the first trimester of pregnancy.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2016</pubdate>
+<volume>215</volume>
+<pages>606 e601&#x2013;606 e605.</pages>
+</reference>
+<reference id="pubmed27664264">
+<accessionId id="acc032" href="info:pmid/27664264" />
+<authors>Wallace AH, Dalziel SR, Cowan BR, Young AA, Thornburg KL, Harding JE.</authors>
+<title>Long-term cardiovascular outcome following fetal anaemia and intrauterine transfusion: A cohort study.</title>
+<source>Arch Dis Child</source>
+<pubdate>2017</pubdate>
+<volume>102</volume>
+<pages>40&#x2013;45.</pages>
+</reference>
+<reference id="pubmed22566278">
+<accessionId id="acc033" href="info:pmid/22566278" />
+<authors>Zantek ND, Koepsell SA, Tharp DR, Jr., Cohn CS.</authors>
+<title>The direct antiglobulin test: A critical step in the evaluation of hemolysis.</title>
+<source>Am J Hematol</source>
+<pubdate>2012</pubdate>
+<volume>87</volume>
+<pages>707&#x2013;709.</pages>
+</reference>
+<reference id="cochrane4865">
+<accessionId id="acc034" href="info:wiley/cochrane/CD004865" />
+<chapter_authors>Aher SM, Ohlsson A.</chapter_authors>
+<chapter_title>Early versus late erythropoietin for preventing red blood cell transfusion in preterm and&#x002F;or low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 10. Art. No.: CD004865. DOI: 10.1002&#x002F;14651858.CD004865.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4863">
+<accessionId id="acc035" href="info:wiley/cochrane/CD004863" />
+<chapter_authors>Ohlsson A, Aher SM.</chapter_authors>
+<chapter_title>Early erythropoiesis-stimulating agents in preterm or low birth weight infants.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 11. Art. No.: CD004863. DOI: 10.1002&#x002F;14651858.CD004863.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3313">
+<accessionId id="acc036" href="info:wiley/cochrane/CD003313" />
+<chapter_authors>Zwiers C, Scheffer-Rath ME, Lopriore E, de Haas M, Liley HG.</chapter_authors>
+<chapter_title>Immunoglobulin for alloimmune hemolytic disease in neonates.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 3. Art. No.: CD003313. DOI: 10.1002&#x002F;14651858.CD003313.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="bib43_33_1564150093378">
+<citation />
+<url />
+<organization>US Preventive Services Task Force</organization>
+<longtitle />
+<title>Final recommendation statement: Rh(D) incompatibility: screening</title>
+<dateguideline>2016</dateguideline>
+</reference>
+<reference id="pubmed30063902">
+<accessionId id="acc038" href="info:pmid/30063902" />
+<authors>Slootweg YM, Lindenburg IT, Koelewijn JM, Van Kamp IL, Oepkes D, De Haas M.</authors>
+<title>Predicting anti-Kell-mediated hemolytic disease of the fetus and newborn: Diagnostic accuracy of laboratory management.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2018</pubdate>
+<volume>219</volume>
+<pages>393.e1&#x2013;393.e8.</pages>
+</reference>
+<reference id="pubmed29902448">
+<accessionId id="acc039" href="info:pmid/29902448" />
+<authors>Zwiers C, van der Bom JG, van Kamp IL, van Geloven N, Lopriore E, Smoleniec J, Devlieger R, Sim PE, Ledingham MA, Tiblad E, Moise KJ Jr, Gloning KP, Kilby MD, Overton TG, J&#x00F8;rgensen DS, Schou KV, Paek B, Walker M, Parry E, Oepkes D, de Haas M.</authors>
+<title>Postponing early intrauterine transfusion with intravenous immunoglobulin treatment; the PETIT study on severe hemolytic disease of the fetus and newborn.</title>
+<source>Am J Obstet Gynecol</source>
+<pubdate>2018</pubdate>
+<volume>219</volume>
+<pages>291.e1&#x2013;291.e9.</pages>
+</reference>
+<reference id="pubmed31196939">
+<accessionId id="acc040" href="info:pmid/31196939" />
+<authors>Chang PW, Newman TB.</authors>
+<title>A simpler prediction rule for rebound hyperbilirubinemia.</title>
+<source>Pediatrics</source>
+<pubdate>2019</pubdate>
+<volume>144</volume>
+<pages />
+</reference>
+<reference id="poem374275">
+<accessionId id="acc041" href="info:wiley/eep-poem/374275" />
+<accessionId id="acc041b" href="info:pmid/37750879" />
+<authors>Horvath S, Huang ZY, Koelper NC, Martinez C, Tsao PY, Zhao L, Goldberg AB, Hannum C, Putt ME, Luning Prak ET, Schreiber CA.</authors>
+<title>Induced Abortion and the Risk of Rh Sensitization.</title>
+<source>JAMA</source>
+<pubdate>2023</pubdate>
+<volume>330</volume>
+<pages>1167&#x2013;1174.</pages>
+</reference>
+<reference id="pubmed39115062">
+<accessionId id="acc042" href="info:pmid/39115062" />
+<authors>Moise KJ Jr , Ling LE, Oepkes D, Tiblad E, Verweij EJTJ, Lopriore E, Smoleniec J, Sachs UJ, Bein G, Kilby MD , Miller RS, Devlieger R, Audibert F, Emery SP, Markham K, Norton ME, Oc&#x00F3;n-Hern&#x00E1;ndez O, Pandya P, Pereira L, Silver RM, Windrim R, Streisand JB, Leu JH, Mirza A, Smith V, Schwartz LB, Tjoa ML, Saeed-Khawaja S, Komatsu Y, Bussel JB, UNITY Study Group.</authors>
+<title>Nipocalimab in Early-Onset Severe Hemolytic Disease of the Fetus and Newborn.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>526&#x2013;537.</pages>
+</reference>
+<reference id="poem343753">
+<accessionId id="acc043" href="info:wiley/eep-poem/343753" />
+<accessionId id="acc043b" href="info:pmid/36912856" />
+<authors>Westenberg LEH, Been JV, Willemsen SP, Vis JY, Tintu AN, Bramer WM, Dijk PH, Steegers EAP, Reiss IKM, Hulzebos CV.</authors>
+<title>Diagnostic Accuracy of Portable, Handheld Point-of-Care Tests vs Laboratory-Based Bilirubin Quantification in Neonates: A Systematic Review and Meta-analysis.</title>
+<source>JAMA Pediatr</source>
+<pubdate>2023</pubdate>
+<volume>177</volume>
+<pages>479&#x2013;488.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>891</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Algorithm for Prenatal Diagnosis of Hemolytic Disease of the Newborn.</title>
+<graphic href="eee0891-w0001.gif" />
+<cell type="start" id="cell-123">
+<label />
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

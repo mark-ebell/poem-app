@@ -1,7 +1,8 @@
 // Monthly chapter updates, sent to Claude as one batch (Anthropic's Message Batches API:
 // half the price of single requests; results usually within an hour, at most 24 hours).
 //
-// A month's run takes the chapters planned for that month (chapter_plan) that have no
+// A month's run takes the chapters due that month (chapter_plan: their month, and for
+// chapters updated every other year, even or odd years) that have no
 // review in progress and have not been in that month's run already. For each it gathers
 // the evidence and builds the request exactly as a single update does (chapter-update.js),
 // then submits them together. Every 10 minutes the server checks submitted batches; when
@@ -19,7 +20,7 @@
 const Anthropic = require('@anthropic-ai/sdk');
 const db = require('./db');
 const store = require('./chapter-store');
-const { plans, editors, MONTHS } = require('./chapter-plan');
+const { plans, editors, isDue, MONTHS } = require('./chapter-plan');
 const { prepareUpdate, finishUpdate, readAnswer } = require('./chapter-update');
 const { sendMail } = require('./mail');
 const { easternNow } = require('./daily-poem');
@@ -33,13 +34,12 @@ const monthName = ym => `${MONTHS[Number(ym.slice(5, 7)) - 1]} ${ym.slice(0, 4)}
 // ---------- Which chapters ----------
 // The chapters due in a month ('YYYY-MM') that a run would include now, and those it would skip (with why).
 function dueChapters(ym) {
-  const m = Number(ym.slice(5, 7));
   const drafts = new Map(db.prepare('SELECT chapter_id, job_status, state IS NOT NULL AS has_state FROM chapter_drafts').all().map(r => [r.chapter_id, r]));
   const inRun = new Set(db.prepare(`SELECT i.chapter_id FROM chapter_batch_items i JOIN chapter_batches b ON b.id = i.batch
     WHERE b.month = ? AND i.status != 'failed'`).all(ym).map(r => r.chapter_id));
   const include = [], skip = [];
   for (const [id, p] of plans()) {
-    if (p.month !== m || !store.known(id)) continue;
+    if (!isDue(p, ym) || !store.known(id)) continue;
     const d = drafts.get(id);
     if (inRun.has(id)) skip.push({ id, why: 'already in this month\'s run' });
     else if (d && (d.job_status === 'running' || d.job_status === 'queued')) skip.push({ id, why: 'an update is running' });

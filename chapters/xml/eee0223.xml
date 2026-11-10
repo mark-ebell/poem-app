@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Ulcerative colitis</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0223</topic_id>
+<topic_comment />
+<topic_lastupdated>01/14/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Mary Joyce Green, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Penn State College of Medicine</author_institution>
+<author_email>mgreen3&#x0040;pennstatehealth.psu.edu</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Hershey</author_city>
+<author_state>PA</author_state>
+<author_zip>17033</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Consider a diagnosis of ulcerative colitis (UC) in patients who present with intermittent bloody diarrhea, rectal urgency and tenesmus; confirm the diagnosis with colonoscopy with biopsies. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Initially treat mild to moderate non-extensive UC using topical 5-aminosalicylic acid (5-ASA). <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Initially treat mild to moderate extensive UC using topical 5-ASA and high dose oral 5-ASA. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Patients who fail to respond to 5-ASA compounds may require steroid therapy; those who fail steroid therapy may need anti-TNF therapy or vedolizumab.<xref ref="pubmed30840605" resource="acc049" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Patients with UC are at higher risk for colorectal cancer; perform screening colonoscopies at regular intervals. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Refer the following patients to a surgeon for colectomy: those with toxic megacolon, perforation, or massive hemorrhage or those who fail to respond to maximal medical therapy. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>UC is a chronic disease characterized by diffuse mucosal inflammation of the colon. It always involves the rectum and may extend proximally in a contiguous pattern.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>The highest annual incidence of UC was 24.3 per 100,000 person-years in Europe,19.2 per 100,000 person-years in North America, and 6.3 per 100,000 person-years in Asia and the Middle East.<xref ref="PubMed22001864" resource="acc021" /></listitem>
+<listitem>Sex differences were inconsistent, suggesting that the disease occurred equally among both sexes. Universally, incidence rates for both CD and UC were highest among the second to the fourth decade of life.<xref ref="PubMed22001864" resource="acc021" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact>
+<list style="bulleted">
+<listitem>$500,000,000 lost in productivity per year.<xref ref="web001" /></listitem>
+</list>
+</economic_impact>
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Precise etiology unknown.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The current hypothesis involves primary dysregulation of the colonic mucosal immune system leading to excessive immunologic response to normal microflora.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Consider a diagnosis of ulcerative colitis (UC) in patients who present with intermittent bloody diarrhea, rectal urgency and tenesmus; confirm the diagnosis with colonoscopy with biopsies. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed30840605" resource="acc049" /><xref ref="pubmed31658951" resource="acc058" /></listitem>
+<listitem>Order stool studies to search for ova and parasites and <em>Clostridium difficile</em> toxin to exclude an infectious etiology. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>An elevated fecal calprotectin level suggests IBD and is useful in guiding when to refer a primary care patient to GI. <evidence rating="C" system="SORT">C</evidence><xref ref="PubMed22001864" resource="acc021" /><xref ref="pubmed36822736" resource="acc057" /></listitem>
+<listitem>The role of blood tests to differentiate UC from Crohn's disease is currently not known. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed30840605" resource="acc049" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Crohn's colitis</Differential_Name>
+<Differential_Features>Perianal lesions less common; frank bleeding less common than in UC</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Ischemic colitis</Differential_Name>
+<Differential_Features>Occurs in older patients with vascular disease; sudden onset; often painful</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Infective colitis</Differential_Name>
+<Differential_Features>Sudden onset; pathogens present in stool; pain may be a predominant feature</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pseudomembranous colitis</Differential_Name>
+<Differential_Features>History of recent antibiotic use; <em>Clostridium difficile</em> toxin in stool</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Irritable bowel syndrome</Differential_Name>
+<Differential_Features>Meets Rome II criteria for irritable bowel syndrome (IBS)</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>UC typically presents with intermittent bloody diarrhea, rectal urgency, and tenesmus.</listitem>
+<listitem>Extraintestinal manifestations include: arthritis (5&#x0025;-10&#x0025;), deep vein thrombosis (0.3&#x0025;), primary sclerosing cholangitis (3&#x0025;), pulmonary embolism (0.2&#x0025;), pyoderma gangrenosum (0.5&#x0025;-2&#x0025;), oral ulcerations (10&#x0025;), osteoporosis (15&#x0025;), and uveitis (0.5&#x0025;-3&#x0025;).<xref ref="pubmed16937463" resource="acc014" /></listitem>
+<listitem><xref ref="hp102" resource="acc004">Clubbing</xref> in a patient with bowel symptoms is a specific sign for UC if present in a patient with bowel symptoms; absence of clubbing does not rule out UC.</listitem>
+<listitem>See the guidelines in <xref ref="table001" /> for assessing disease severity.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Colonoscopy with biopsy is the gold standard for diagnosis of UC, with a reported 99&#x0025; sensitivity for diagnosing colonic pathology in patients with diarrhea. If the terminal ileum is normal, upper endoscopy to evaluate the stomach and duodenum or imaging are not needed unless symptoms suggest upper GI tract involvement.<xref ref="pubmed30840605" resource="acc049" /><xref ref="pubmed10699778" resource="acc013" /></listitem>
+<listitem>Stool testing to rule out clostriodes difficile as the cause of symptoms is recommended by 2019 ACG guidelines, including in patients hospitalized with severe UC.<xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>Blood tests to differentiate UC from Crohn's disease (pANCA and ASCA) are specific, but not sensitive for differentiating UC from Crohn's disease and are not routinely recommended.<xref ref="pubmed16952282" resource="acc012" /></listitem>
+<listitem>A 2018 study out of China showed that a combination of any 2 of 3 serological markers may increase the accuracy and ability to diagnose Crohn&#x2019;s disease. These markers include anti-Saccharomyces cerevisiae antibody (ASCA IgA), anti-mannobioside carbohydrate antibody (AMCA) and anti-chitobioside carbohydrate antibody (ACCA). This has a sensitivity and specific of &gt;75&#x0025;. Presence of a single antibody was insufficient for diagnosis.<xref ref="pubmed30095633" resource="acc031" /></listitem>
+<listitem>However, the 2019 ACG guidelines recommend against using serologic antibody testing to diagnose UC or to determine prognosis.<xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>An elevated fecal calprotectin level suggests IBD and is useful in guiding when to refer a primary care patient to GI<xref ref="poem221119" resource="acc046" />, but does not differentiate between UC and Crohn's disease.</listitem>
+<listitem>A 2018 prospective observational cohort study showed that fecal calprotectin levels &gt;782 ug&#x002F;g of stool can be used to differentiate acute severe colitis from mild to moderate UC with a sensitivity of 84&#x0025; and a specificity of 88&#x0025;. <xref ref="pubmed29948556" resource="acc034" /></listitem>
+<listitem>Fecal calprotectin is recommended by 2019 ACG guidelines to determine severity of disease and to evaluate response to treatment in patients with active UC whereas fecal immunochemical test (FIT) may be an appropriate surrogate test for mucosal healing and to monitor for recurrence.<xref ref="pubmed30840605" resource="acc049" /><xref ref="pubmed31490411" resource="acc032" /></listitem>
+<listitem>Fecal calprotectin is also currently the most promising predictive marker for recurrence in UC and may be used for monitoring, but it lacks an accurate cut-off value. <xref ref="pubmed34994661" resource="acc051" /></listitem>
+<listitem>In a study published January 2023, it was shown that neutrophil-to-lymphocyte ratio (NLR) levels were significantly increased at diagnosis and active disease of childhood IBD and can be a non-invasive inflammatory biomarker that should be used in the initial evaluation and follow-up of the disease activity in children.<xref ref="pubmed35579794" resource="acc053" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Consider UC in patients with intermittent bloody diarrhea.</listitem>
+<listitem>Stool studies for ova and parasites, culture, and <em>Clostridium difficile</em> toxin are useful to exclude other causes of colitis.</listitem>
+<listitem>Colonoscopy or proctosigmoidoscopy with biopsy is the gold standard for diagnosis of UC.</listitem>
+<listitem>See <xref ref="table001" /> for assessment of disease severity and for treatment recommendations.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group>
+<HP_ID>102</HP_ID>
+</HP_Data_Group>
+<Dx_Data_Group>
+<Dx_ID>192</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Initially treat mild to moderate non-extensive UC using topical 5-aminosalicylic acid (5-ASA). Treat UC proctitis using rectal 5-ASA at a dose of 1 g&#x002F;d. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed9510317" resource="acc011" /><xref ref="cochrane4115" resource="acc017" /><xref ref="pubmed31658951" resource="acc058" /><xref ref="pubmed30576644" resource="acc059" /><xref ref="pubmed31562236" resource="acc060" /></listitem>
+<listitem>Initially treat mild to moderate extensive UC using topical 5-ASA and high dose oral 5-ASA. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed31658951" resource="acc058" /></listitem>
+<listitem>Response to 5-ASA compounds is dose dependent; based upon cost, side effects, and effectiveness, 5-ASA compounds are the preferred first-line oral treatment. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16279903" resource="acc010" /></listitem>
+<listitem>Nonpathogenic <em>E. coli</em> Nissle 1917 may be as effective in the treatment and remission of UC as 5-ASA products. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15479682" resource="acc009" /><xref ref="pubmed10466665" resource="acc008" /></listitem>
+<listitem>Consider oral or IV steroid therapy for patients who do not respond to 5-ASA compounds. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Patients who do not respond to IV steroids are candidates for immunomodulator therapy. Intravenous infliximab is effective in inducing remission in refractory UC, but is associated with an increased risk of anaphylaxis and infections. Vedolizumab is another novel treatment option. <evidence rating="A" system="SORT">A</evidence><xref ref="cochrane5112" resource="acc018" /><xref ref="cochrane8655" resource="acc069" /><xref ref="cochrane13611" resource="acc070" /></listitem>
+<listitem>Refer to 2019 ACG guidelines summarized below to guide therapy.<xref ref="pubmed30840605" resource="acc049" /><evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>ACG practice guidelines (2019)</strong><xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>See <xref ref="table001" /> for guidance with regards to assessing severity, and <xref ref="table002" /> for dosing of commonly used drugs in milder disease.</listitem>
+<listitem><strong>British Society of Gastroenterology guidelines (2025)</strong><xref ref="pubmed40550582" resource="acc088" /></listitem>
+<listitem>Agents are classified for induction and maintenance of remission in patients with moderate to severe UC based on magnitude of effect (small, moderate or large) and certainty of evidence (low, moderate or high):<list style="bulleted">
+<listitem>Large magnitude of effect, moderate to high certainty: upadacitinib, tofacitinib</listitem>
+<listitem>Moderate magnitude of effect, moderate to high certainty: mesalazine, ozanimod, risankizumab</listitem>
+<listitem>Small magnitude of effect, moderate to high certainty: etrasimod, vedolizumab, infliximab</listitem>
+<listitem>Low certainty: filgotinib, golimumab, mirikizumab, ustekinumab</listitem>
+</list></listitem>
+<listitem>All patients with UC should receive recombinant zoster vaccination, annual flu vaccine, and pneumococcal vaccination with a booster at 5 year.<xref ref="pubmed40550582" resource="acc088" /></listitem>
+<listitem><strong>Induction of remission for mildly active UC</strong><xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>First line therapy is rectal 5-ASA compounds 1 gm&#x002F;day, or oral 5-ASA 2 gm&#x002F;day for more extensive disease.</listitem>
+<listitem>Oral budesonide 9 mg&#x002F;day is recommended for patients not responsive to 5-ASA. <xref ref="cochrane7698" resource="acc068" /></listitem>
+<listitem>There is no evidence that changing to a different 5-ASA or using higher doses such as 4.8 gm&#x002F;day are effective.</listitem>
+<listitem><strong>Maintenance of remission with previous mildly active UC</strong><xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>First line therapy is rectal 5-ASA 1 gm&#x002F;day.</listitem>
+<listitem>If extensive disease, oral 5-ASA 2 gm&#x002F;day is recommended.<xref ref="cochrane544" resource="acc052" /> Guidelines recommend against using oral corticosteroids for maintenance of remission.</listitem>
+<listitem><strong>Induction of remission for moderately to severely active UC</strong><xref ref="pubmed30840605" resource="acc049" />:</listitem>
+<listitem>First line therapy is oral budesonide or other oral systemic corticosteroids.</listitem>
+<listitem>Anti-tumor necrosis factor (TNF) therapy with adalimumab, golimumab, or infliximab are also recommended as treatment options. If anti-TNF therapy is needed, adding 5-ASA is not recommended. Infliximab should be used in combination with a thiopurine.<xref ref="cochrane8655" resource="acc069" /></listitem>
+<listitem>Vedolizumab and tofacitinib can also be used for induction of remission, and following failed anti-TNF therapy.<xref ref="cochrane13611" resource="acc070" /></listitem>
+<listitem>In patients who initially responded to an anti-TNF drug but are now losing response, consider checking drug levels.</listitem>
+<listitem>Guidelines recommend against monotherapy with thiopurines or methotrexate. A Cochrane review found no evidence for methotrexate for induction of remission of UC. <xref ref="cochrane6618" resource="acc073" /></listitem>
+<listitem><strong>Maintenance of remission in patients with previous moderate to severe UC</strong><xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>If induction was successful using corticosteroids, thiopurines are recommended to maintain remission.</listitem>
+<listitem>After anti-TNF induction, continue using anti-TNF therapy to maintain remission.<xref ref="cochrane8655" resource="acc069" /></listitem>
+<listitem>After vedolizumab induction, continue using vedolizumab to maintain remission.<xref ref="cochrane13611" resource="acc070" /></listitem>
+<listitem>After tofacitinib induction, continue using tofacitinib to maintain remission.</listitem>
+<listitem>Guidelines recommend against using systemic steroids or methotrexate to maintain remission, or using concomitant 5-ASA in addition to anti-TNF therapy. A Cochrane review found insufficient evidence for methotrexate for maintenance of remission of UC. <xref ref="cochrane7560" resource="acc071" /></listitem>
+<listitem><strong>Hospitalized patients with acute severe UC</strong><xref ref="pubmed30840605" resource="acc049" /></listitem>
+<listitem>Provide DVT prophylaxis and test for C. difficile infection. If c. difficile is present, vancomycin rather than metronidazole is recommend.</listitem>
+<listitem>Total parenteral nutrition is recommended, but routine use of broad spectrum antibiotics is not.</listitem>
+<listitem>Treat with systemic corticosteroids, 60 mg&#x002F;day of methylprednisolone or hydrocortisone 100 mg tid to qid</listitem>
+<listitem>If steroids do not induce remission within 3 to 5 days, start infliximab or cyclosporine. If remission is achieved with infliximab continue it, if it is achieved with cyclosporine, maintain remission with a thiopurine or vedolizumab.</listitem>
+<listitem>A trial randomized 64 patients hospitalized with acute severe UC who responded to steroids to azathioprine + infliximab with a 7 day steroid taper or to azathioprine with a longer tapering regiment. At one year, treatment failure had occurred more often in the azathioprine only arm (81&#x0025; vs 53&#x0025;, p &#x003D; 0.03, NNH &#x003D; 3).<xref ref="pubmed39586616" resource="acc087" /></listitem>
+<listitem><strong>Individual clinical trials and systematic reviews</strong></listitem>
+<listitem><strong><em>5-ASA compounds</em></strong></listitem>
+<listitem>A systematic review of 5-ASA compounds identified 7 RCTs with 2745 patients that compared once daily dosing with more frequent dosing. Relapse rates were no lower with more frequent dosing.<xref ref="PubMed21894226" resource="acc023" /></listitem>
+<listitem>A 2019 meta-analysis of randomized controlled trials found that once daily dosing of mesalazine was safe and as effective as twice daily dosing for mild-to-moderate active US. Once daily dosing was effective in clinical and endoscopic remission.<xref ref="pubmed30946380" resource="acc033" /></listitem>
+<listitem>Sulfasalazine is as effective as other 5-ASA compounds but may not be as well tolerated.<xref ref="cochrane543" resource="acc006" /></listitem>
+<listitem>A systematic review compared oral vs. topical vs. combined 5-ASA therapy for patients with active UC and found combined 5-ASA therapy appeared superior to oral 5-ASAs for induction of remission of mildly to moderately active UC. Intermittent topical 5-ASAs appeared superior to oral 5-ASAs for preventing relapse of quiescent UC.<xref ref="PubMed22108446" resource="acc024" /></listitem>
+<listitem><strong><em>Corticosteroids and methotrexate</em></strong></listitem>
+<listitem>For patients who do not respond to 5-ASA compounds, give oral prednisone, 40 to 60 mg&#x002F;d, for 10 to 14 days.<xref ref="pubmed15306569" resource="acc007" /></listitem>
+<listitem>Parenteral methotrexate was not superior to placebo in preventing relapses of UC in patients who achieved steroid-free response during induction therapy.<xref ref="pubmed29964043" resource="acc042" /></listitem>
+<listitem>If the disease does not respond to oral steroids, consider hospitalization and IV steroids; if IV steroids fail, treat UC with immunomodulating drugs, such as cyclosporine or infliximab.<xref ref="pubmed15306569" resource="acc007" /></listitem>
+<listitem>In a meta-analysis of placebo-controlled trials, corticosteroid use was associated with higher biologic response rates for UC during the induction phase, but were not associated with improved maintenance of remission. <xref ref="pubmed35094254" resource="acc056" /></listitem>
+<listitem><strong><em>Anti-tumor necrosis factor (TNF) therapies</em></strong></listitem>
+<listitem>A network meta-analysis identified 28 trials with 12,504 patients comparing drugs for moderate to severe UC. It concluded that upadacitinib 45 mg once daily was most likely to achieve clinical remission (P-score 0.98) followed by infliximab 5 mg&#x002F;kg and 10 mg&#x002F;kg. Upadacitinib was ranked first both in patients who had previously been exposed to anti-TNF drugs and those who had not.<xref ref="pubmed34937767" resource="acc083" /></listitem>
+<listitem>In an individual participant data (IPD) pooled analysis of trials of infliximab and golimumab, results suggest that patients with moderate-severe UC who are escalated to anti-TNF therapy, continuing 5-ASA does NOT improve clinical outcomes.<xref ref="pubmed29925913" resource="acc036" /></listitem>
+<listitem>A systematic review and meta-analysis in 2018 found that infliximab and cyclosporine are both therapies able to treat acute severe ulcerative colitis refractory to steroids. It found no difference in efficacy between the two treatments in both short term and long term results.<xref ref="pubmed30313056" resource="acc035" /></listitem>
+<listitem><strong><em>Monoclonal antibodies</em></strong></listitem>
+<listitem>Vedolizumab (Enyvio) is a novel therapy approved for treatment of UC. It is a humanized monoclonal antibody to alpha-4 beta-7 integrin. An RCT randomized 769 patients with active moderately severe UC to vedolizumab or adalimumab for one year. At the end of one year, more patients in the vedolizumab group had achieved clinical remission (31.3&#x0025; vs 22.5&#x0025;, p &#x003D; 0.006, NNT &#x003D; 11). On the other hand, steroid free remission occurred less often in the vedolizumab group (12.6&#x0025; vs 21.8&#x0025;, NNT &#x003D; 11).<xref ref="pubmed31553834" resource="acc047" /></listitem>
+<listitem>In an RCT, treatment with abrilumab (an anti-alpha-4 beta-7 antibody) resulted in significant remission, response and mucosal healing rates versus placebo. The data reaffirms the targeting of the alpha-4 beta-7 pathway for UC treatment. This short term study did not fully assess treatment effects beyond 8 weeks.<xref ref="pubmed30472236" resource="acc039" /></listitem>
+<listitem>Mirkizumab was studied in two randomized placebo-controlled trials, one for induction and if a response, to a second maintenance trial. Clinical remission at week 12 occurrred more often in the induction trial (24&#x0025; vs 13&#x0025;, p &lt; 0.001, NNT &#x003D; 9) and at week 40 in the maintenance trial (50&#x0025; vs 25&#x0025;, p &lt; 0.001, NNT &#x003D; 4).<xref ref="pubmed37379135" resource="acc084" /></listitem>
+<listitem>Tulisokibart is a TNF like cytokine monoclonal antibody for moderate to severe UC. It was more effective than placebo in inducing clinical remission (26&#x0025; vs 1&#x0025;, p &lt; 0.001, NNT &#x003D; 4).<xref ref="pubmed39321363" resource="acc086" /></listitem>
+<listitem><strong><em>Janus kinase (JAK) inhibitors</em></strong></listitem>
+<listitem>Based on high-certainty evidence, a Cochrane review concluded that oral tofacitinib is more effective than placebo at inducing clinical and endoscopic remission at 52 weeks among patients with moderate to severe UC who demonstrated clinical response after 8 weeks of induction therapy with tofacitinib 10mg twice daily. Adverse events to tofacitinib were similar to placebo. <xref ref="cochrane12381" resource="acc065" /></listitem>
+<listitem><strong><em>Other medications</em></strong></listitem>
+<listitem>An RCT randomized 645 patients with moderate to severe active UC to ozanimod (a selective sphingosine-1-phophate receptor modulator) or placebo for 10 weeks to evaluate induction, and were then rerandomized at 10 weeks and reevaluated for maintenance efficacy at one year. ozanimod was effective for both induction (clinical remission 18.4&#x0025; vs 6&#x0025;, p &lt; 0.001, NNT &#x003D; 8) and maintenance (37&#x0025; vs 18.5&#x0025;, p &lt; 0.005, NNT &#x003D; 5).<xref ref="pubmed34587385" resource="acc048" /></listitem>
+<listitem>Etrasimod, a once-daily, oral, sphingosine 1-phosphate (S1P) receptor modulator was effective and well tolerated as an induction and maintenance therapy in patients with moderately to severely active ulcerative colitis.<xref ref="pubmed36871574" resource="acc054" /></listitem>
+<listitem>A Cochrane review concluded that tacrolimus, based on low certainty evidence, may be more effective than placebo and may be comparable to beclomethasone for inducing clinical remission or clinical improvement in corticosteroid-refractory colitis or proctitis. <xref ref="cochrane7216" resource="acc077" /></listitem>
+<listitem>A Cochrane review of 12 RCTs found no benefit for antibiotics for the induction of remission at the end of the trial period, but some benefit for inducing remission and improving clinical response at 12 months compared to placebo. Longer trials are recommended before stronger conclusions can be made.<xref ref="cochrane13743" resource="acc078" /></listitem>
+<listitem>A study of 105 patients with mild to moderately active UC found that rosiglitazone 4 mg twice daily for 12 weeks increased the likelihood of clinical response and remission more than placebo.<xref ref="pubmed18325386" resource="acc001" /></listitem>
+<listitem>There is some evidence that low-molecular-weight heparin administered in extended colon-release tablets improves clinical remission and improvement in patients with mild to moderate disease. Subcutaneous low molecular-weight heparin or unfractionated heparin have no benefit.<xref ref="cochrane6774" resource="acc016" /></listitem>
+<listitem>Nonpathogenic <em>E. coli</em> Nissle 1917 may be as effective in the treatment and maintenance of ulcerative colitis as 5-ASA products.<xref ref="pubmed15479682" resource="acc009" /><xref ref="pubmed10466665" resource="acc008" /> A Cochrane review found low-certainty evidence for the efficacy of probiotics for induction of remission in UC. <xref ref="cochrane5573" resource="acc067" /> However, more studies regarding the efficacy of probiotics in maintenance of remission of UC are needed to draw definite conclusions.<xref ref="PubMed22512365" resource="acc020" /><xref ref="cochrane7443" resource="acc019" /> Additionally, a Cochrane review found no additional benefit from prebiotics (and it may even increase adverse events) as an adjuvant treatment for UC to prevent clincal relapse compared to placebo, based on very low certainty evidence.<xref ref="pubmed38501688" resource="acc072" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Consider colectomy for severe symptoms that do not respond to maximal medical therapy or to complications of ulcerative colitis, such as massive hemorrhage, perforation, or toxic megacolon.</listitem>
+<listitem>Among women with infertility, the effects of surgical therapy for IBD are uncertain, based on a Cochrane review. <xref ref="cochrane12711" resource="acc080" /></listitem>
+<listitem>The risk of postoperative infectious complications from medical therapies for IBD remains unclear, according to a Cochrane review of 68 trials.<xref ref="cochrane13256" resource="acc082" /></listitem>
+<listitem>If possible stop or reduce dose of steroids prior to surgery, and provide medical prophylaxis against thromboembolism.<xref ref="pubmed40550582" resource="acc088" /></listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>An SR that included 39 RCTs involving 3204 patients, suggested that Kangfuxin liquid (KFXL) combined with ASA has good therapeutic effect for UC and might be a safe approach in managing UC. More high-quality, multicenter randomized, double-blind trials with a large sample size are required to generate a high level of clinical evidence.<xref ref="pubmed29794765" resource="acc040" /></listitem>
+<listitem>A meta-analysis with relatively low sample size showed that Trichuris suis ova therapy had no statistical benefit for IBD patients, suggesting clinicians should consider its value carefully before putting into clinical practice.<xref ref="pubmed30142867" resource="acc041" /></listitem>
+<listitem>A meta-analysis of 22 low-quality RCTs (n &#x003D; 2028) comparing the herbal medicine Gegen Qinlian Decoction (GQD), alone or in combination with traditional Western UC therapies, with Western medicine alone suggested potential benefits and fewer harms.<xref ref="pubmed31876740" resource="acc045" /></listitem>
+<listitem>Omega-3 fatty acids are not useful in treatment or maintenance of remission of ulcerative colitis.<xref ref="PubMed22591898" resource="acc022" /> Acceptance and commitment therapy (ACT) is a psychological intervention that comprises acceptance and mindfulness procedures and strategies. In a small RCT of patients with IBD, an 8-week ACT therapy course improved stress symptoms, assessed with the Depression Anxiety Stress scale.<xref ref="pubmed30452919" resource="acc043" /></listitem>
+<listitem>A Cochrane review concluded no firm conclusions can be made regarding the effectiveness of vitamin D for the treatment of IBD, given the very low certainty of evidence from RCTs. <xref ref="cochrane11806" resource="acc074" /></listitem>
+<listitem>A Cochrane review found uncertain evidence for the efficacy of cannabis for the treatment of UC. <xref ref="cochrane12954" resource="acc066" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Fecal microbiota transplantation (FMT) increased clinical remission in a pooled analysis of 2 RCTs and 8 cohort studies<xref ref="pubmed27281075" resource="acc028" /> and a subsequent RCT,<xref ref="poem190511" resource="acc029" /> but more studies are needed to establish long-term benefits. The 2023 Rome consensus conference concluded that while FMT maybe effective for inducing remission in patients with UC, it should only be used in the context of randomized trials at the current time.<xref ref="pubmed37339849" resource="acc085" /></listitem>
+<listitem>In a randomised controlled trial, multidonor faecal microbiota transplantation (FMT) with anti-inflammatory diet effectively induced deep remission in mild-moderate UC which was sustained with anti-inflammatory diet over 1 year. <xref ref="pubmed35973787" resource="acc055" /></listitem>
+<listitem>A Cochrane review found low-certainty evidence for the efficacy of FMT in the induction of clinical and endoscopic remission for UC, and very low-certainty evidence that FMT is effective for maintenance of remission in UC. <xref ref="cochrane12774" resource="acc062" /></listitem>
+<listitem>In another RCT on fecal microbiota (FMT), there is evidence that a short course and low intensity treatment (3-dose, 1-week induction course) of pooled donor stool FMT was more like to induce clinical and endoscopic remission in participants with active UC at 8 weeks compared to autologous FMT. Other previous studies have high treatment burden that would likely limit clinical applicability. As with other studies, further research is needed to assess longer term maintenance of remission and safety.<xref ref="pubmed30644982" resource="acc037" /></listitem>
+<listitem>In another FMT study in patients with active UC, specific bacteria (Eubacterium hallii, Rosburia inulivorans) and metabolic pathways (increased levels of short chain fatty acids, bile acids biosynthesis) were associated with induction of remission. These findings may be of value in the design of microbe-based therapies.<xref ref="pubmed30529583" resource="acc038" /></listitem>
+<listitem>A Cochrane review found insufficient evidence for the efficacy of adjuvant treatment with antidepressants for managing IBD.<xref ref="cochrane12680" resource="acc075" /></listitem>
+<listitem>Based on a Cochrane review, there is uncertainty in the effects of dietary interventions for induction and remission in UC. <xref ref="cochrane12839" resource="acc063" /></listitem>
+<listitem>Another Cochrane review found insufficient evidence for different interventions to manage abdominal pain in ulcerative colitis, including dietary interventions (eg, low FODMAP diet, kefir diet), relaxation training, yoga, and stellate ganglion block. <xref ref="cochrane13589" resource="acc079" /></listitem>
+<listitem>Similarly, interventions to treat fatigue in IBD have uncertain effects, based on a Cochrane review. <xref ref="cochrane12005" resource="acc081" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Hospitalize patients who do not respond to oral medical therapy or who develop complications of UC.</listitem>
+<listitem>UC is usually co-managed with a gastroenterologist, especially if immunomodulator drugs are used. Refer to a general or colorectal surgeon if surgical therapy is anticipated.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Toxic megacolon, defined as dilation of the transverse colon to greater than 5.5 cm, is indicative of fulminant disease and is a true surgical emergency requiring immediate surgical consultation.</listitem>
+<listitem>Intravenous (ie, ferric carboxymaltose) and oral iron (ie, ferric maltol) are effective in treating iron-deficiency anemia in IBD, based on a Cochrane review of 11 RCTs. Intravenous iron appears more effective than oral iron, with NNT &#x003D; 11. Conclusions regarding safety cannot be made given very low certainty of evidence.<xref ref="cochrane13529" resource="acc076" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital>
+<list style="bulleted">
+<listitem>The Toronto Consensus Statement on the treatment of hospitalized adults with severe UC makes several recommendations based on an iterative, evidence-based process: <xref ref="pubmed25747596" resource="acc027" /><xref ref="PubMed22108451" resource="acc025" /></listitem>
+<listitem>Initial evaluation should include stool samples for <em>C. difficile</em>, abdominal radiographys, flexible sigmoidoscopy to assess severity, and assessment for risk of TB (in case infliximab is needed).</listitem>
+<listitem>TPN should be avoided, and patients should preferentially receive a normal diet or enteral nutrition.</listitem>
+<listitem>Consider thromboembolic prophylaxis, and avoid routine use of antibiotics or narcotic pain relievers.</listitem>
+<listitem>First line therapy is with IV corticosteroids; consider early escalation to infliximab or cyclosporine when parenteral steroids have failed (after 72 hours). Assess response to infliximab or cyclosporine at 5 to 7 days. If on IV cyclosporine and good response, switch to oral cyclosporine. Patients responding to an initial dose of infliximab should receive subsequent induction doses at 2 and 6 weeks, followed by maintenance infliximab therapy.</listitem>
+<listitem>If possible, admit patient to a center with experience in these patients and use of these drugs.</listitem>
+<listitem>Surgery is an option when parenteral steroids fail, and should be considered when second-linemedical therapy fails and in the patient with complications.</listitem>
+</list>
+</Treatment_Hospital>
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>UC increases the risk of colorectal cancer; order screening colonoscopies routinely after a diagnosis of UC. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15306569" resource="acc007" /><xref ref="pubmed11577479" resource="acc002" /><xref ref="cochrane279" resource="acc030" /></listitem>
+<listitem>More severe UC is more difficult to treat. <evidence rating="B" system="SORT">B</evidence>.</listitem>
+<listitem>Patients who are young at initial diagnosis (&lt; 40 years), who have extensive disease, severe endoscopic disease, or who are hospitalized for colitis have a worse prognosis. This is also true of patients with lower serum albumin or higher c-reactive protein. <evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail>
+<list style="bulleted">
+<listitem>In cohort of&#x00A0;1515 Danish patients with UC who were followed for up to 30 years after diagnosis, there was no increased overall risk of cancer compared to background incidence rates, despite higher risks in men of colorectal cancer (standardized incidence ratio [SIR], 2.43; 95&#x0025; CI 1.05-4.78) and prostate cancer (SIR 1.82; 95&#x0025; CI 1.17-2.71).<xref ref="PubMed23978954" resource="acc026" /></listitem>
+</list>
+</Prognosis_Detail>
+<Followup>
+<list style="bulleted">
+<listitem>UC increases the patient's risk of developing colon cancer (2&#x0025; in the first 10 years, 8&#x0025; in the first 20 years, and 18&#x0025; in the first 30 years).<xref ref="pubmed11247898" resource="acc005" /></listitem>
+<listitem>Order screening colonoscopies for patients with UC 8 years after a diagnosis of pancolitis and 12 to 15 years after a diagnosis of left-sided colitis.</listitem>
+<listitem>Order subsequent colonoscopies every 2 to 3 years. <xref ref="cochrane279" resource="acc030" /></listitem>
+<listitem>Surveillance colonoscopies can reduce development of colorectal cancer by 42&#x0025; and colorectal cancer associated a death by 62&#x0025; in those with IBD. Prognosis is improved with detection of early stage cancers.<xref ref="pubmed30353058" resource="acc044" /></listitem>
+<listitem>In patients with UC, noninvasive biomarkers, including fecal calprotectin, fecal lactoferrin, and serum CRP can inform disease monitoring and management. (American Gastroenterological Association (AGA) guideline). <xref ref="pubmed36822736" resource="acc057" /></listitem>
+<listitem>Small prospective study showed significant improvement in qulaity of life and overall satisfaction with the use of telemedicine platform during follow up appointments in patients with IBD.<xref ref="pubmed33691075" resource="acc050" /> However, a Cochrane review did not find clinically meaningful differences in patient-oriented outcomes between remote care through telehealth versus standard care for adults with IBD. <xref ref="pubmed37140025" resource="acc061" /></listitem>
+</list>
+</Followup>
+<Patient_education>
+<list style="bulleted">
+<listitem>Instruct patients to take all prescribed medications in order to prevent relapses of UC that may result in hospitalization and&#x002F;or complications.</listitem>
+<listitem>Advise patients to undergo screening colonoscopy as recommended to screen for colon cancer.</listitem>
+<listitem>Patient education, added to standard care, does not appear to improve patient-oriented outcomes in UC, but the Cochrane reviewers recommended caution in intepreting these findings given the lack of clear information in the components of education or standard care in the included trials. <xref ref="pubmed37172140" resource="acc064" /></listitem>
+</list>
+</Patient_education>
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy />
+<Children />
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed18325386">
+<accessionId id="acc001" href="info:pmid/18325386" />
+<authors>Lewis JD, Lichtenstein GR, Deren JJ, et al.</authors>
+<title>Rosiglitazone for active ulcerative colitis: A randomized placebo-controlled trial.</title>
+<source>Gastroenterology</source>
+<pubdate>2008</pubdate>
+<volume>134</volume>
+<pages>688&#x2013;695.</pages>
+</reference>
+<reference id="pubmed11577479">
+<accessionId id="acc002" href="info:pmid/11577479" />
+<authors>Smith RA, von Eschenbach AC, Wender R, et al.; for the ACS Colorectal Cancer Advisory Committee, ACS Endometrial Cancer Advisory Committee.</authors>
+<title>American Cancer Society guidelines for the early detection of cancer: update of early detection guidelines for prostate, colorectal, and endometrial cancers. Also: update 2001&#x2014;testing for early lung cancer detection.</title>
+<source>CA Cancer J Clin</source>
+<pubdate>2001</pubdate>
+<volume>51</volume>
+<pages>38&#x2013;75; quiz 77&#x2013;80.</pages>
+</reference>
+<reference id="pubmed18019875">
+<accessionId id="acc003" href="info:pmid/18019875" />
+<authors>Langan RC, Gotsch PB, Krafczyk MA, Skillinge DD.</authors>
+<title>Ulcerative colitis: Diagnosis and treatment.</title>
+<source>Am Fam Physician</source>
+<pubdate>2007</pubdate>
+<volume>76</volume>
+<pages>1323&#x2013;1330.</pages>
+</reference>
+<reference id="hp102">
+<accessionId id="acc004" href="info:wiley/eep-hp/102" />
+<accessionId id="acc004b" href="info:pmid/11466101" />
+<authors>Myers KA, Farquhar DR.</authors>
+<title>The rational clinical examination. Does this patient have clubbing?</title>
+<source>JAMA</source>
+<pubdate>2001</pubdate>
+<volume>286</volume>
+<pages>341&#x2013;347.</pages>
+</reference>
+<reference id="pubmed11247898">
+<accessionId id="acc005" href="info:pmid/11247898" />
+<authors>Eaden JA, Abrams KR, Mayberry JF.</authors>
+<title>The risk of colorectal cancer in ulcerative colitis: A meta-analysis.</title>
+<source>Gut</source>
+<pubdate>2001</pubdate>
+<volume>48</volume>
+<pages>526&#x2013;535.</pages>
+</reference>
+<reference id="cochrane543">
+<accessionId id="acc006" href="info:wiley/cochrane/CD000543" />
+<chapter_authors>Murray A, Nguyen TM, Parker CE, Feagan BG, MacDonald JK.</chapter_authors>
+<chapter_title>Oral 5-aminosalicylic acid for induction of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 8. Art. No.: CD000543. DOI: 10.1002&#x002F;14651858.CD000543.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed15306569">
+<accessionId id="acc007" href="info:pmid/15306569" />
+<authors>Carter MJ, Lobo AJ, Travis SP; IBD Section, British Society of Gastroenterology.</authors>
+<title>Guidelines for the management of inflammatory bowel disease in adults.</title>
+<source>Gut</source>
+<pubdate>2004</pubdate>
+<volume>53(Suppl 5)</volume>
+<pages>V1&#x2013;16.</pages>
+</reference>
+<reference id="pubmed10466665">
+<accessionId id="acc008" href="info:pmid/10466665" />
+<authors>Rembacken BJ, Snelling AM, Hawkey PM, Chalmers DM, Axon AT.</authors>
+<title>Non-pathogenic Escherichia coli versus mesalazine for the treatment of ulcerative colitis: A randomised trial.</title>
+<source>Lancet</source>
+<pubdate>1999</pubdate>
+<volume>354</volume>
+<pages>635&#x2013;639.</pages>
+</reference>
+<reference id="pubmed15479682">
+<accessionId id="acc009" href="info:pmid/15479682" />
+<authors>Kruis W, Fric P, Pokrotnieks J, et al.</authors>
+<title>Maintaining remission of ulcerative colitis with the probiotic Escherichia coli Nissle 1917 is as effective as with standard mesalazine.</title>
+<source>Gut</source>
+<pubdate>2004</pubdate>
+<volume>53</volume>
+<pages>1617&#x2013;1623.</pages>
+</reference>
+<reference id="pubmed16279903">
+<accessionId id="acc010" href="info:pmid/16279903" />
+<authors>Hanauer SB, Sandborn WJ, Kornbluth A, et al.</authors>
+<title>Delayed-release oral mesalamine at 4.8 g&#x002F;day (800 mg tablet) for the treatment of moderately active ulcerative colitis: The ASCEND II trial.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2005</pubdate>
+<volume>100</volume>
+<pages>2478&#x2013;2485.</pages>
+</reference>
+<reference id="pubmed9510317">
+<accessionId id="acc011" href="info:pmid/9510317" />
+<authors>Gionchetti P, Rizzello F, Venturi A, et al.</authors>
+<title>Comparison of oral with rectal mesalazine in the treatment of ulcerative proctitis.</title>
+<source>Dis Colon Rectum</source>
+<pubdate>1998</pubdate>
+<volume>41</volume>
+<pages>93&#x2013;97.</pages>
+</reference>
+<reference id="pubmed16952282">
+<accessionId id="acc012" href="info:pmid/16952282" />
+<authors>Reese GE, Constantinides VA, Simillis C, et al.</authors>
+<title>Diagnostic precision of anti-Saccharomyces cerevisiae antibodies and perinuclear antineutrophil cytoplasmic antibodies in inflammatory bowel disease.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2006</pubdate>
+<volume>101</volume>
+<pages>2410&#x2013;2422.</pages>
+</reference>
+<reference id="pubmed10699778">
+<accessionId id="acc013" href="info:pmid/10699778" />
+<authors>Fine KD, Seidel RH, Do K.</authors>
+<title>The prevalence, anatomic distribution, and diagnosis of colonic causes of chronic diarrhea.</title>
+<source>Gastrointest Endosc</source>
+<pubdate>2000</pubdate>
+<volume>51</volume>
+<pages>318&#x2013;326.</pages>
+</reference>
+<reference id="pubmed16937463">
+<accessionId id="acc014" href="info:pmid/16937463" />
+<authors>Rothfuss KS, Stange EF, Herrlinger KR.</authors>
+<title>Extraintestinal manifestations and complications in inflammatory bowel diseases.</title>
+<source>World J Gastroenterol</source>
+<pubdate>2006</pubdate>
+<volume>12</volume>
+<pages>4819&#x2013;4831.</pages>
+</reference>
+<reference id="web001">
+<citation />
+<url>http://www2.niddk.nih.gov/NR/rdonlyres/3DED33F2-F05C-4AD3-A8A6-C152E5FE9CBF/0/BurdenDD_ch25_Jan2009.pdf</url>
+<organization>AGA</organization>
+<longtitle>The Burden of Gastrointestinal Disease. 2001.</longtitle>
+<title>American Gastroenterology Association.</title>
+<dateguideline />
+</reference>
+<reference id="cochrane6774">
+<accessionId id="acc016" href="info:wiley/cochrane/CD006774" />
+<chapter_authors>Chande N, Wang Y, McDonald JW, MacDonald JK.</chapter_authors>
+<chapter_title>Unfractionated or low&#x2010;molecular weight heparin for induction of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 8. Art. No.: CD006774. DOI: 10.1002&#x002F;14651858.CD006774.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane4115">
+<accessionId id="acc017" href="info:wiley/cochrane/CD004115" />
+<chapter_authors>Marshall JK, Thabane M, Steinhart AH, Newman JR, Anand A, Irvine EJ.</chapter_authors>
+<chapter_title>Rectal 5&#x2010;aminosalicylic acid for induction of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2010, Issue 1. Art. No.: CD004115. DOI: 10.1002&#x002F;14651858.CD004115.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5112">
+<accessionId id="acc018" href="info:wiley/cochrane/CD005112" />
+<chapter_authors>Lawson MM, Thomas AG, Akobeng AK.</chapter_authors>
+<chapter_title>Tumour necrosis factor alpha blocking agents for induction of remission in ulcerative colitis (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2009 Issue 4.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7443">
+<accessionId id="acc019" href="info:wiley/cochrane/CD007443" />
+<chapter_authors>Iheozor-Ejiofor Z, Kaur L, Gordon M, Baines PA, Sinopoulou V, Akobeng AK.</chapter_authors>
+<chapter_title>Probiotics for maintenance of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 3. Art. No.: CD007443. DOI: 10.1002&#x002F;14651858.CD007443.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="PubMed22512365">
+<accessionId id="acc020" href="info:pmid/22512365" />
+<authors>Jonkers D, Penders J, Masclee A, Pierik M.</authors>
+<title>Probiotics in the management of inflammatory bowel disease: A systematic review of intervention studies in adult patients.</title>
+<source>Drugs</source>
+<pubdate>2012</pubdate>
+<volume>72</volume>
+<pages>803&#x2013;823.</pages>
+</reference>
+<reference id="PubMed22001864">
+<accessionId id="acc021" href="info:pmid/22001864" />
+<authors>Molodecky NA, Soon IS, Rabi DM, Ghali WA, Ferris M, Chernoff G, Benchimol EI, Panaccione R, Ghosh S, Barkema HW, Kaplan GG.</authors>
+<title>Increasing incidence and prevalence of the inflammatory bowel diseases with time, based on systematic review.</title>
+<source>Gastroenterology</source>
+<pubdate>2012</pubdate>
+<volume>142</volume>
+<pages>46&#x2013;54.e42; quiz e30.</pages>
+</reference>
+<reference id="PubMed22591898">
+<accessionId id="acc022" href="info:pmid/22591898" />
+<authors>Cabr&#x00E9; E, Ma&#x00F1;osa M, Gassull MA.</authors>
+<title>Omega-3 fatty acids and inflammatory bowel diseases&#x2014;a systematic review.</title>
+<source>Br J Nutr</source>
+<pubdate>2012</pubdate>
+<volume>107(Suppl 2)</volume>
+<pages>S240&#x2013;S252.</pages>
+</reference>
+<reference id="PubMed21894226">
+<accessionId id="acc023" href="info:pmid/21894226" />
+<authors>Ford AC, Khan KJ, Sandborn WJ, Kane SV, Moayyedi P.</authors>
+<title>Once-daily dosing vs. conventional dosing schedule of mesalamine and relapse of quiescent ulcerative colitis: Systematic review and meta-analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2011</pubdate>
+<volume>106</volume>
+<pages>2070&#x2013;2077; quiz 2078.</pages>
+</reference>
+<reference id="PubMed22108446">
+<accessionId id="acc024" href="info:pmid/22108446" />
+<authors>Ford AC, Khan KJ, Achkar JP, Moayyedi P.</authors>
+<title>Efficacy of oral vs. topical, or combined oral and topical 5-aminosalicylates, in ulcerative colitis: Systematic review and meta-analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2012</pubdate>
+<volume>107</volume>
+<pages>167&#x2013;176; author reply 177.</pages>
+</reference>
+<reference id="PubMed22108451">
+<accessionId id="acc025" href="info:pmid/22108451" />
+<authors>Bitton A, Buie D, Enns R, Feagan BG, Jones JL, Marshall JK, Whittaker S, Griffiths AM, Panaccione R; Canadian Association of Gastroenterology Severe Ulcerative Colitis Consensus Group.</authors>
+<title>Treatment of hospitalized adult patients with severe ulcerative colitis: Toronto consensus statements.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2012</pubdate>
+<volume>107</volume>
+<pages>179&#x2013;194; author reply 195.</pages>
+</reference>
+<reference id="PubMed23978954">
+<accessionId id="acc026" href="info:pmid/23978954" />
+<authors>Jess T, Horv&#x00E1;th-Puh&#x00F3; E, Fallingborg J, Rasmussen HH, Jacobsen BA.</authors>
+<title>Cancer risk in inflammatory bowel disease according to patient phenotype and treatment: A Danish population-based cohort study.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2013</pubdate>
+<volume>108</volume>
+<pages>1869&#x2013;1876.</pages>
+</reference>
+<reference id="pubmed25747596">
+<accessionId id="acc027" href="info:pmid/25747596" />
+<authors>Bressler B, Marshall JK, Bernstein CN, Bitton A, Jones J, Leontiadis GI, Panaccione R, Steinhart AH, Tse F, Feagan B; Toronto Ulcerative Colitis Consensus Group.</authors>
+<title>Clinical practice guidelines for the medical management of nonhospitalized ulcerative colitis: The Toronto consensus.</title>
+<source>Gastroenterology</source>
+<pubdate>2015</pubdate>
+<volume>148</volume>
+<pages>1035&#x2013;1058.e3.</pages>
+</reference>
+<reference id="pubmed27281075">
+<accessionId id="acc028" href="info:pmid/27281075" />
+<authors>Sun D, Li W, Li S, Cen Y, Xu Q, Li Y, Sun Y, Qi Y, Lin Y, Yang T, Xu P, Lu Q.</authors>
+<title>Fecal microbiota transplantation as a novel therapy for ulcerative colitis: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e3765.</pages>
+</reference>
+<reference id="poem190511">
+<accessionId id="acc029" href="info:wiley/eep-poem/190511" />
+<accessionId id="acc029b" href="info:pmid/28214091" />
+<authors>Paramsothy S, Kamm MA, Kaakoush NO, Walsh AJ, van den Bogaerde J, Samuel D, Leong RWL, Connor S, Ng W, Paramsothy R, Xuan W, Lin E, Mitchell HM, Borody TJ.</authors>
+<title>Multidonor intensive faecal microbiota transplantation for active ulcerative colitis: A randomised placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2017</pubdate>
+<volume>389</volume>
+<pages>1218&#x2013;1228.</pages>
+</reference>
+<reference id="cochrane279">
+<accessionId id="acc030" href="info:wiley/cochrane/CD000279" />
+<chapter_authors>Bye WA, Nguyen TM, Parker CE, Jairath V, East JE.</chapter_authors>
+<chapter_title>Strategies for detecting colon cancer in patients with inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 9. Art. No.: CD000279. DOI: 10.1002&#x002F;14651858.CD000279.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed30095633">
+<accessionId id="acc031" href="info:pmid/30095633" />
+<authors>Yao F, Fan Y, Lv B, Ji C, Xu L.</authors>
+<title>Diagnostic utility of serological biomarkers in patients with Crohn's disease: A case-control study.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e11772.</pages>
+</reference>
+<reference id="pubmed31490411">
+<accessionId id="acc032" href="info:pmid/31490411" />
+<authors>Ryu DG, Kim HW, Park SB, Kang DH, Choi CW, Kim SJ, Nam HS.</authors>
+<title>Clinical implications of fecal calprotectin and fecal immunochemical test on mucosal status in patients with ulcerative colitis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e17080.</pages>
+</reference>
+<reference id="pubmed30946380">
+<accessionId id="acc033" href="info:pmid/30946380" />
+<authors>Zheng X, Zhang Z, Wang B, Li J, Qiu C, Zhang Q, Wang X.</authors>
+<title>Efficacy and safety of once daily versus twice daily mesalazine for mild-to-moderate ulcerative colitis: A meta-analysis of randomized controlled trials.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e15113.</pages>
+</reference>
+<reference id="pubmed29948556">
+<accessionId id="acc034" href="info:pmid/29948556" />
+<authors>Kedia S, Jain S, Goyal S, Bopanna S, Yadav DP, Sachdev V, Sahni P, Pal S, Dash NR, Makharia G, Travis SPL, Ahuja V.</authors>
+<title>Potential of fecal calprotectin as an objective marker to discriminate hospitalized patients with acute severe colitis from outpatients with less severe disease.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2018</pubdate>
+<volume>63</volume>
+<pages>2747&#x2013;2753.</pages>
+</reference>
+<reference id="pubmed30313056">
+<accessionId id="acc035" href="info:pmid/30313056" />
+<authors>Wu D, Yang Z, Zhao C, Yao L.</authors>
+<title>Infliximab versus cyclosporine for severe ulcerative colitis refractory to steroids: A protocol for systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e12657.</pages>
+</reference>
+<reference id="pubmed29925913">
+<accessionId id="acc036" href="info:pmid/29925913" />
+<authors>Singh S, Proudfoot JA, Dulai PS, Jairath V, Fumery M, Xu R, Feagan BG, Sandborn WJ.</authors>
+<title>No benefit of concomitant 5-aminosalicylates in patients with ulcerative colitis escalated to biologic therapy: Pooled analysis of individual participant data from clinical trials.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2018</pubdate>
+<volume>113</volume>
+<pages>1197&#x2013;1205.</pages>
+</reference>
+<reference id="pubmed30644982">
+<accessionId id="acc037" href="info:pmid/30644982" />
+<authors>Costello SP, Hughes PA, Waters O, Bryant RV, Vincent AD, Blatchford P, Katsikeros R, Makanyanga J, Campaniello MA, Mavrangelos C, Rosewarne CP, Bickley C, Peters C, Schoeman MN, Conlon MA, Roberts-Thomson IC, Andrews JM.</authors>
+<title>Effect of fecal microbiota transplantation on 8-Week remission in patients with ulcerative colitis: A randomized clinical trial.</title>
+<source>JAMA</source>
+<pubdate>2019</pubdate>
+<volume>321</volume>
+<pages>156&#x2013;164.</pages>
+</reference>
+<reference id="pubmed30529583">
+<accessionId id="acc038" href="info:pmid/30529583" />
+<authors>Paramsothy S, Nielsen S, Kamm MA, Deshpande NP, Faith JJ, Clemente JC, Paramsothy R, Walsh AJ, van den Bogaerde J, Samuel D, Leong RWL, Connor S, Ng W, Lin E, Borody TJ, Wilkins MR, Colombel JF, Mitchell HM, Kaakoush NO.</authors>
+<title>Specific bacteria and metabolites associated with response to fecal microbiota transplantation in patients with ulcerative colitis.</title>
+<source>Gastroenterology</source>
+<pubdate>2019</pubdate>
+<volume>156</volume>
+<pages>1440&#x2013;1454.e2.</pages>
+</reference>
+<reference id="pubmed30472236">
+<accessionId id="acc039" href="info:pmid/30472236" />
+<authors>Sandborn WJ, Cyrille M, Hansen MB, Feagan BG, Loftus EV Jr, Rogler G, Vermeire S, Cruz ML, Yang J, Boedigheimer MJ, Abuqayyas L, Evangelista CM, Sullivan BA, Reinisch W.</authors>
+<title>Efficacy and safety of abrilumab in a randomized, placebo-controlled trial for moderate-to-severe ulcerative colitis.</title>
+<source>Gastroenterology</source>
+<pubdate>2019</pubdate>
+<volume>156</volume>
+<pages>946&#x2013;957.e18.</pages>
+</reference>
+<reference id="pubmed29794765">
+<accessionId id="acc040" href="info:pmid/29794765" />
+<authors>Li HB, Chen MY, Qiu ZW, Cai QQ, Li DT, Tang HM, Chen XL.</authors>
+<title>Efficacy and safety of Kangfuxin liquid combined with aminosalicylic acid for the treatment of ulcerative colitis: A systematic review and meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e10807.</pages>
+</reference>
+<reference id="pubmed30142867">
+<accessionId id="acc041" href="info:pmid/30142867" />
+<authors>Huang X, Zeng LR, Chen FS, Zhu JP, Zhu MH.</authors>
+<title>Trichuris suis ova therapy in inflammatory bowel disease: A meta-analysis.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2018</pubdate>
+<volume>97</volume>
+<pages>e12087.</pages>
+</reference>
+<reference id="pubmed29964043">
+<accessionId id="acc042" href="info:pmid/29964043" />
+<authors>Herfarth H, Barnes EL, Valentine JF, Hanson J, Higgins PDR, Isaacs KL, Jackson S, Osterman MT, Anton K, Ivanova A, Long MD, Martin C, Sandler RS, Abraham B, Cross RK, Dryden G, Fischer M, Harlan W, Levy C, McCabe R, Polyak S, Saha S, Williams E, Yajnik V, Serrano J, Sands BE, Lewis JD, Clinical Research Alliance of the Crohn&#x2019;s and Colitis Foundation.</authors>
+<title>Methotrexate is not superior to placebo in maintaining steroid-free response or remission in ulcerative colitis.</title>
+<source>Gastroenterology</source>
+<pubdate>2018</pubdate>
+<volume>155</volume>
+<pages>1098&#x2013;1108.e9.</pages>
+</reference>
+<reference id="pubmed30452919">
+<accessionId id="acc043" href="info:pmid/30452919" />
+<authors>Wynne B, McHugh L, Gao W, Keegan D, Byrne K, Rowan C, Hartery K, Kirschbaum C, Doherty G, Cullen G, Dooley B, Mulcahy HE.</authors>
+<title>Acceptance and commitment therapy reduces psychological stress in patients with inflammatory bowel diseases.</title>
+<source>Gastroenterology</source>
+<pubdate>2019</pubdate>
+<volume>156</volume>
+<pages>935&#x2013;945.e1.</pages>
+</reference>
+<reference id="pubmed30353058">
+<accessionId id="acc044" href="info:pmid/30353058" />
+<authors>Bye WA, Ma C, Nguyen TM, Parker CE, Jairath V, East JE.</authors>
+<title>Strategies for detecting colorectal cancer in patients with inflammatory bowel disease: A cochrane systematic review and meta-analysis.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2018</pubdate>
+<volume>113</volume>
+<pages>1801&#x2013;1809.</pages>
+</reference>
+<reference id="pubmed31876740">
+<accessionId id="acc045" href="info:pmid/31876740" />
+<authors>Fan Y, Yi W, Huang H, Mei Z, Feng Z.</authors>
+<title>Efficacy of herbal medicine (Gegen Qinlian Decoction) on ulcerative colitis: A systematic review of randomized controlled trials.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2019</pubdate>
+<volume>98</volume>
+<pages>e18512.</pages>
+</reference>
+<reference id="poem221119">
+<accessionId id="acc046" href="info:wiley/eep-poem/221119" />
+<accessionId id="acc046b" href="info:pmid/32424002" />
+<authors>Walker GJ, Chanchlani N, Thomas A, Lin S, Moore L, Heerasing NM, Hendy P, Abdelrahim M, Mole S, Perry MH, Mcdonald TJ, Bewshea CM, Hart JW, Russell RK, Ahmad T, Goodhand JR, Kennedy NA.</authors>
+<title>Primary care faecal calprotectin testing in children with suspected inflammatory bowel disease: A diagnostic accuracy study.</title>
+<source>Arch Dis Child</source>
+<pubdate>2020</pubdate>
+<volume>105</volume>
+<pages>957&#x2013;963.</pages>
+</reference>
+<reference id="pubmed31553834">
+<accessionId id="acc047" href="info:pmid/31553834" />
+<authors>Sands BE, Peyrin-Biroulet L, Loftus EV Jr, Danese S, Colombel JF, T&#x00F6;r&#x00FC;ner M, Jonaitis L, Abhyankar B, Chen J, Rogers R, Lirio RA, Bornstein JD, Schreiber S, VARSITY Study Group.</authors>
+<title>Vedolizumab versus Adalimumab for Moderate-to-Severe Ulcerative Colitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2019</pubdate>
+<volume>381</volume>
+<pages>1215&#x2013;1226.</pages>
+</reference>
+<reference id="pubmed34587385">
+<accessionId id="acc048" href="info:pmid/34587385" />
+<authors>Sandborn WJ, Feagan BG, D'Haens G, Wolf DC, Jovanovic I, Hanauer SB, Ghosh S, Petersen A, Hua SY, Lee JH, Charles L, Chitkara D, Usiskin K, Colombel JF, Laine L, Danese S, True North Study Group.</authors>
+<title>Ozanimod as Induction and Maintenance Therapy for Ulcerative Colitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2021</pubdate>
+<volume>385</volume>
+<pages>1280&#x2013;1291.</pages>
+</reference>
+<reference id="pubmed30840605">
+<accessionId id="acc049" href="info:pmid/30840605" />
+<authors>Rubin DT, Ananthakrishnan AN, Siegel CA, Sauer BG, Long MD.</authors>
+<title>ACG Clinical Guideline: Ulcerative Colitis in Adults.</title>
+<source>Am J Gastroenterol</source>
+<pubdate>2019</pubdate>
+<volume>114</volume>
+<pages>384&#x2013;413.</pages>
+</reference>
+<reference id="pubmed33691075">
+<accessionId id="acc050" href="info:pmid/33691075" />
+<authors>Bonnaud G, Haennig A, Altwegg R, Caron B, Boivineau L, Zallot C, Gilleta de Saint-Joseph C, Moreau J, Gonzalez F, Reynaud D, Faure P, Aygalenq P, Combis JM, Peyrin-Biroulet L.</authors>
+<title>Real-life pilot study on the impact of the telemedicine platform EasyMICI-MaMICI<sup>&#x00AE;</sup> on quality of life and quality of care in patients with inflammatory bowel disease.</title>
+<source>Scand J Gastroenterol</source>
+<pubdate>2021</pubdate>
+<volume>56</volume>
+<pages>530&#x2013;536.</pages>
+</reference>
+<reference id="pubmed34994661">
+<accessionId id="acc051" href="info:pmid/34994661" />
+<authors>Ge C, Lu Y, Shen H, Zhu L.</authors>
+<title>Monitoring of intestinal inflammation and prediction of recurrence in ulcerative colitis.</title>
+<source>Scand J Gastroenterol</source>
+<pubdate>2022</pubdate>
+<volume>57</volume>
+<pages>513&#x2013;524.</pages>
+</reference>
+<reference id="cochrane544">
+<accessionId id="acc052" href="info:wiley/cochrane/CD544" />
+<chapter_authors>Murray A, Nguyen TM, Parker CE, Feagan BG, MacDonald JK.</chapter_authors>
+<chapter_title>Oral 5-aminosalicylic acid for maintenance of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 8. Art. No.: CD000544. DOI: 10.1002&#x002F;14651858.CD000544.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed35579794">
+<accessionId id="acc053" href="info:pmid/35579794" />
+<authors>&#x015E;im&#x015F;ek-Onat P, Hizarcioglu-Gulsen H, Ergen YM, Gumus E, &#x00D6;zen H, Demir H, &#x00D6;zen S, Salt&#x0131;k-Temizel &#x0130;N.</authors>
+<title>Neutrophil-to-Lymphocyte Ratio: An Easy Marker for the Diagnosis and Monitoring of Inflammatory Bowel Disease in Children.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2023</pubdate>
+<volume>68</volume>
+<pages>233&#x2013;239.</pages>
+</reference>
+<reference id="pubmed36871574">
+<accessionId id="acc054" href="info:pmid/36871574" />
+<authors>Sandborn WJ, Vermeire S, Peyrin-Biroulet L, Dubinsky MC, Panes J, Yarur A, Ritter T, Baert F, Schreiber S, Sloan S, Cataldi F, Shan K, Rabbat CJ, Chiorean M, Wolf DC, Sands BE, D'Haens G, Danese S, Goetsch M, Feagan BG.</authors>
+<title>Etrasimod as induction and maintenance therapy for ulcerative colitis (ELEVATE): two randomised, double-blind, placebo-controlled, phase 3 studies.</title>
+<source>Lancet</source>
+<pubdate>2023</pubdate>
+<volume>401</volume>
+<pages>1159&#x2013;1171.</pages>
+</reference>
+<reference id="pubmed35973787">
+<accessionId id="acc055" href="info:pmid/35973787" />
+<authors>Kedia S, Virmani S, K Vuyyuru S, Kumar P, Kante B, Sahu P, Kaushal K, Farooqui M, Singh M, Verma M, Bajaj A, Markandey M, Sachdeva K, Das P, Makharia GK, Ahuja V.</authors>
+<title>Faecal microbiota transplantation with anti-inflammatory diet (FMT-AID) followed by anti-inflammatory diet alone is effective in inducing and maintaining remission over 1 year in mild to moderate ulcerative colitis: a randomised controlled trial.</title>
+<source>Gut</source>
+<pubdate>2022</pubdate>
+<volume>71</volume>
+<pages>2401&#x2013;2413.</pages>
+</reference>
+<reference id="pubmed35094254">
+<accessionId id="acc056" href="info:pmid/35094254" />
+<authors>Sieber A, Aberra FN, Bonhomme B, McKeever L, Lewis JD.</authors>
+<title>Influence of Corticosteroid Use on Short- and Long-Term Outcomes of Biologic Therapy for Inflammatory Bowel Diseases.</title>
+<source>Dig Dis Sci</source>
+<pubdate>2022</pubdate>
+<volume>67</volume>
+<pages>5168&#x2013;5176.</pages>
+</reference>
+<reference id="pubmed36822736">
+<accessionId id="acc057" href="info:pmid/36822736" />
+<authors>Singh S, Ananthakrishnan AN, Nguyen NH, Cohen BL, Velayos FS, Weiss JM, Sultan S, Siddique SM, Adler J, Chachu KA, AGA Clinical Guidelines Committee. Electronic address: clinicalpractice&#x0040;gastro.org.</authors>
+<title>AGA Clinical Practice Guideline on the Role of Biomarkers for the Management of Ulcerative Colitis.</title>
+<source>Gastroenterology</source>
+<pubdate>2023</pubdate>
+<volume>164</volume>
+<pages>344&#x2013;372.</pages>
+</reference>
+<reference id="pubmed31658951">
+<accessionId id="acc058" href="info:pmid/31658951" />
+<authors>Abdulrazeg O, Li B, Epstein J, Guideline Committee.</authors>
+<title>Management of ulcerative colitis: summary of updated NICE guidance.</title>
+<source>BMJ</source>
+<pubdate>2019</pubdate>
+<volume>367</volume>
+<pages>l5897.</pages>
+</reference>
+<reference id="pubmed30576644">
+<accessionId id="acc059" href="info:pmid/30576644" />
+<authors>Ko CW, Singh S, Feuerstein JD, Falck-Ytter C, Falck-Ytter Y, Cross RK, American Gastroenterological Association Institute Clinical Guidelines Committee.</authors>
+<title>AGA Clinical Practice Guidelines on the Management of Mild-to-Moderate Ulcerative Colitis.</title>
+<source>Gastroenterology</source>
+<pubdate>2019</pubdate>
+<volume>156</volume>
+<pages>748&#x2013;764.</pages>
+</reference>
+<reference id="pubmed31562236">
+<accessionId id="acc060" href="info:pmid/31562236" />
+<authors>Lamb CA, Kennedy NA, Raine T, Hendy PA, Smith PJ, Limdi JK, Hayee B, Lomer MCE, Parkes GC, Selinger C, Barrett KJ, Davies RJ, Bennett C, Gittens S, Dunlop MG, Faiz O, Fraser A, Garrick V, Johnston PD, Parkes M, Sanderson J, Terry H, IBD guidelines eDelphi consensus group, Gaya DR, Iqbal TH, Taylor SA, Smith M, Brookes M, Hansen R, Hawthorne AB.</authors>
+<title>British Society of Gastroenterology consensus guidelines on the management of inflammatory bowel disease in adults.</title>
+<source>Gut</source>
+<pubdate>2019</pubdate>
+<volume>68</volume>
+<pages>s1&#x2013;s106.</pages>
+</reference>
+<reference id="pubmed37140025">
+<accessionId id="acc061" href="info:pmid/37140025" />
+<authors>Gordon M, Sinopoulou V, Lakunina S, Gjuladin-Hellon T, Bracewell K, Akobeng AK.</authors>
+<title>Remote care through telehealth for people with inflammatory bowel disease.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2023</pubdate>
+<volume>5</volume>
+<pages>CD014821.</pages>
+</reference>
+<reference id="cochrane12774">
+<accessionId id="acc062" href="info:wiley/cochrane/CD012774" />
+<chapter_authors>Imdad A, Pandit NG, Zaman M, Minkoff NZ, Tanner-Smith EE, Gomez-Duarte OG, Acra S, Nicholson MR.</chapter_authors>
+<chapter_title>Fecal transplantation for treatment of inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 4. Art. No.: CD012774. DOI: 10.1002&#x002F;14651858.CD012774.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane12839">
+<accessionId id="acc063" href="info:wiley/cochrane/CD12839" />
+<chapter_authors>Limketkai BN, Iheozor&#x2010;Ejiofor Z, Gjuladin&#x2010;Hellon T, Parian A, Matarese LE, Bracewell K, MacDonald JK, Gordon M, Mullin GE.</chapter_authors>
+<chapter_title>Dietary interventions for induction and maintenance of remission in inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 2. Art. No.: CD012839. DOI: 10.1002&#x002F;14651858.CD012839.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed37172140">
+<accessionId id="acc064" href="info:pmid/37172140" />
+<authors>Gordon M, Sinopoulou V, Ibrahim U, Abdulshafea M, Bracewell K, Akobeng AK.</authors>
+<title>Patient education interventions for the management of inflammatory bowel disease.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2023</pubdate>
+<volume>5</volume>
+<pages>CD013854.</pages>
+</reference>
+<reference id="cochrane12381">
+<accessionId id="acc065" href="info:wiley/cochrane/CD12381" />
+<chapter_authors>Davies SC, Hussein IM, Nguyen TM, Parker CE, Khanna R, Jairath V.</chapter_authors>
+<chapter_title>Oral Janus kinase inhibitors for maintenance of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 1. Art. No.: CD012381. DOI: 10.1002&#x002F;14651858.CD012381.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane12954">
+<accessionId id="acc066" href="info:wiley/cochrane/CD12954" />
+<chapter_authors>Kafil TS, Nguyen TM, MacDonald JK, Chande N.</chapter_authors>
+<chapter_title>Cannabis for the treatment of ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2018, Issue 11. Art. No.: CD012954. DOI: 10.1002&#x002F;14651858.CD012954.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5573">
+<accessionId id="acc067" href="info:wiley/cochrane/CD5573" />
+<chapter_authors>Kaur L, Gordon M, Baines PA, Iheozor-Ejiofor Z, Sinopoulou V, Akobeng AK.</chapter_authors>
+<chapter_title>Probiotics for induction of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 3. Art. No.: CD005573. DOI: 10.1002&#x002F;14651858.CD005573.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7698">
+<accessionId id="acc068" href="info:wiley/cochrane/CD7698" />
+<chapter_authors>Sherlock ME, MacDonald JK, Griffiths AM, Steinhart AH, Seow CH.</chapter_authors>
+<chapter_title>Oral budesonide for induction of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 10. Art. No.: CD007698. DOI: 10.1002&#x002F;14651858.CD007698.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane8655">
+<accessionId id="acc069" href="info:wiley/cochrane/CD008655" />
+<chapter_authors>LeBlanc K, Mosli MH, Parker CE, MacDonald JK.</chapter_authors>
+<chapter_title>The impact of biological interventions for ulcerative colitis on health-related quality of life.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 9. Art. No.: CD008655. DOI: 10.1002&#x002F;14651858.CD008655.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13611">
+<accessionId id="acc070" href="info:wiley/cochrane/CD013611" />
+<chapter_authors>Hui S, Sinopoulou V, Gordon M, Aali G, Krishna A, Ding NS, Boyapati RK.</chapter_authors>
+<chapter_title>Vedolizumab for induction and maintenance of remission in Crohn's disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 7. Art. No.: CD013611. DOI: 10.1002&#x002F;14651858.CD013611.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7560">
+<accessionId id="acc071" href="info:wiley/cochrane/CD007560" />
+<chapter_authors>Wang Y, MacDonald JK, Vandermeer B, Griffiths AM, El&#x2010;Matary W.</chapter_authors>
+<chapter_title>Methotrexate for maintenance of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 8. Art. No.: CD007560. DOI: 10.1002&#x002F;14651858.CD007560.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed38501688">
+<accessionId id="acc072" href="info:pmid/38501688" />
+<authors>Sinopoulou V, Gordon M, Gregory V, Saadeh A, Akobeng AK.</authors>
+<title>Prebiotics for induction and maintenance of remission in ulcerative colitis.</title>
+<source>Cochrane Database Syst Rev</source>
+<pubdate>2024</pubdate>
+<volume>3</volume>
+<pages>CD015084.</pages>
+</reference>
+<reference id="cochrane6618">
+<accessionId id="acc073" href="info:wiley/cochrane/CD6618" />
+<chapter_authors>Chande N, Wang Y, MacDonald JK, McDonald JW.</chapter_authors>
+<chapter_title>Methotrexate for induction of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2014, Issue 8. Art. No.: CD006618. DOI: 10.1002&#x002F;14651858.CD006618.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane11806">
+<accessionId id="acc074" href="info:wiley/cochrane/CD11806" />
+<chapter_authors>Wallace C, Gordon M, Sinopoulou V, Limketkai BN.</chapter_authors>
+<chapter_title>Vitamin D for the treatment of inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2023, Issue 10. Art. No.: CD011806. DOI: 10.1002&#x002F;14651858.CD011806.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane12680">
+<accessionId id="acc075" href="info:wiley/cochrane/CD12680" />
+<chapter_authors>Mikocka&#x2010;Walus A, Prady SL, Pollok J, Esterman AJ, Gordon AL, Knowles S, Andrews JM.</chapter_authors>
+<chapter_title>Adjuvant therapy with antidepressants for the management of inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 4. Art. No.: CD012680. DOI: 10.1002&#x002F;14651858.CD012680.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13529">
+<accessionId id="acc076" href="info:wiley/cochrane/CD013529" />
+<chapter_authors>Gordon M, Sinopoulou V, Iheozor-Ejiofor Z, Iqbal T, Allen P, Hoque S, Engineer J, Akobeng AK.</chapter_authors>
+<chapter_title>Interventions for treating iron deficiency anaemia in inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 1. Art. No.: CD013529. DOI: 10.1002&#x002F;14651858.CD013529.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7216">
+<accessionId id="acc077" href="info:wiley/cochrane/CD007216" />
+<chapter_authors>Gordon M, Sinopoulou V, Akobeng AK, Pana M, Gasiea R, Moran GW.</chapter_authors>
+<chapter_title>Tacrolimus (FK506) for induction of remission in corticosteroid-refractory ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 4. Art. No.: CD007216. DOI: 10.1002&#x002F;14651858.CD007216.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13743">
+<accessionId id="acc078" href="info:wiley/cochrane/CD013743" />
+<chapter_authors>Gordon M, Sinopoulou V, Grafton-Clarke C, Akobeng AK.</chapter_authors>
+<chapter_title>Antibiotics for the induction and maintenance of remission in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2022, Issue 5. Art. No.: CD013743. DOI: 10.1002&#x002F;14651858.CD013743.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13589">
+<accessionId id="acc079" href="info:wiley/cochrane/CD013589" />
+<chapter_authors>Sinopoulou V, Gordon M, Dovey TM, Akobeng AK.</chapter_authors>
+<chapter_title>Interventions for the management of abdominal pain in ulcerative colitis.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2021, Issue 7. Art. No.: CD013589. DOI: 10.1002&#x002F;14651858.CD013589.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane12711">
+<accessionId id="acc080" href="info:wiley/cochrane/CD012711" />
+<chapter_authors>Lee S, Crowe M, Seow CH, Kotze PG, Kaplan GG, Metcalfe A, Ricciuto A, Benchimol EI, Kuenzig ME.</chapter_authors>
+<chapter_title>The impact of surgical therapies for inflammatory bowel disease on female fertility.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 7. Art. No.: CD012711. DOI: 10.1002&#x002F;14651858.CD012711.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane12005">
+<accessionId id="acc081" href="info:wiley/cochrane/CD012005" />
+<chapter_authors>Farrell D, Artom M, Czuber&#x2010;Dochan W, Jelsness&#x2010;J&#x00F8;rgensen LP, Norton C, Savage E.</chapter_authors>
+<chapter_title>Interventions for fatigue in inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 4. Art. No.: CD012005. DOI: 10.1002&#x002F;14651858.CD012005.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane13256">
+<accessionId id="acc082" href="info:wiley/cochrane/CD013256" />
+<chapter_authors>Law CC, Bell C, Koh D, Bao Y, Jairath V, Narula N.</chapter_authors>
+<chapter_title>Risk of postoperative infectious complications from medical therapies in inflammatory bowel disease.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2020, Issue 10. Art. No.: CD013256. DOI: 10.1002&#x002F;14651858.CD013256.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed34937767">
+<accessionId id="acc083" href="info:pmid/34937767" />
+<authors>Burr NE, Gracie DJ, Black CJ, Ford AC.</authors>
+<title>Efficacy of biological therapies and small molecules in moderate to severe ulcerative colitis: systematic review and network meta-analysis.</title>
+<source>Gut</source>
+<pubdate>2021</pubdate>
+<pages />
+</reference>
+<reference id="pubmed37379135">
+<accessionId id="acc084" href="info:pmid/37379135" />
+<authors>D'Haens G, Dubinsky M, Kobayashi T, Irving PM, Howaldt S, Pokrotnieks J, Krueger K, Laskowski J, Li X, Lissoos T, Milata J, Morris N, Arora V, Milch C, Sandborn W, Sands BE, LUCENT Study Group.</authors>
+<title>Mirikizumab as Induction and Maintenance Therapy for Ulcerative Colitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2023</pubdate>
+<volume>388</volume>
+<pages>2444&#x2013;2455.</pages>
+</reference>
+<reference id="pubmed37339849">
+<accessionId id="acc085" href="info:pmid/37339849" />
+<authors>Lopetuso LR, Deleu S, Godny L, Petito V, Puca P, Facciotti F, Sokol H, Ianiro G, Masucci L, Abreu M, Dotan I, Costello SP, Hart A, Iqbal TH, Paramsothy S, Sanguinetti M, Danese S, Tilg H, Cominelli F, Pizarro TT, Armuzzi A, Cammarota G, Gasbarrini A, Vermeire S, Scaldaferri F.</authors>
+<title>The first international Rome consensus conference on gut microbiota and faecal microbiota transplantation in inflammatory bowel disease.</title>
+<source>Gut</source>
+<pubdate>2023</pubdate>
+<volume>72</volume>
+<pages>1642&#x2013;1650.</pages>
+</reference>
+<reference id="pubmed39321363">
+<accessionId id="acc086" href="info:pmid/39321363" />
+<authors>Sands BE, Feagan BG, Peyrin-Biroulet L, Danese S, Rubin DT, Laurent O, Luo A, Nguyen DD, Lu J, Yen M, Leszczyszyn J, Kempi&#x0144;ski R, McGovern DPB, Ma C, Ritter TE, Targan S, ARTEMIS-UC Study Group.</authors>
+<title>Phase 2 Trial of Anti-TL1A Monoclonal Antibody Tulisokibart for Ulcerative Colitis.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>391</volume>
+<pages>1119&#x2013;1129.</pages>
+</reference>
+<reference id="pubmed39586616">
+<accessionId id="acc087" href="info:pmid/39586616" />
+<authors>Amiot A, Seksik P, Meyer A, Stefanescu C, Wils P, Altwegg R, Vuitton L, Plastaras L, Nicolau A, Pereira B, Duveau N, Laharie D, Mboup B, Boualit M, Allez M, Rajca S, Chanteloup E, Bouguen G, Bazin T, Goutorbe F, Richard N, Moussata D, Vicaut E, Peyrin-Biroulet L.</authors>
+<title>Top-down infliximab plus azathioprine versus azathioprine alone in patients with acute severe ulcerative colitis responsive to intravenous steroids: a parallel, open-label randomised controlled trial, the ACTIVE trial.</title>
+<source>Gut</source>
+<pubdate>2025</pubdate>
+<volume>74</volume>
+<pages>197&#x2013;205.</pages>
+</reference>
+<reference id="pubmed40550582">
+<accessionId id="acc088" href="info:pmid/40550582" />
+<authors>Moran GW, Gordon M, Sinopolou V, Radford SJ, Darie AM, Vuyyuru SK, Alrubaiy L, Arebi N, Blackwell J, Butler TD, Chew T, Colwill M, Cooney R, De Marco G, Din S, Din S, Feakins R, Gasparetto M, Gordon H, Hansen R, Kok KB, Lamb CA, Limdi J, Liu E, Loughrey MB, McGonagle D, Patel K, Pavlidis P, Selinger C, Shale M, Smith PJ, Subramanian S, Taylor SA, Tun GSZ, Verma AM, Wong NACS, IBD guideline development group.</authors>
+<title>British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025.</title>
+<source>Gut</source>
+<pubdate>2025</pubdate>
+<volume>74</volume>
+<pages>s1&#x2013;s101.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Proposed ACG Ulcerative Colitis Activity Index.<xref ref="pubmed30840605" resource="acc049" /></caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Sign or Symptom</th>
+<th align="left" colspan="1">Remission</th>
+<th align="left" colspan="1">Mild Disease</th>
+<th align="left" colspan="1">Moderate - Severe Disease</th>
+<th align="left" colspan="1">Fulminant Disease</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Stools (#&#x002F;day)</td>
+<td align="left" colspan="1">Formed stools</td>
+<td align="left" colspan="1">&lt;4&#x002F;d</td>
+<td align="left" colspan="1">&gt; 6</td>
+<td align="left" colspan="1">&gt; 10</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Blood in stools</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">Intermittent</td>
+<td align="left" colspan="1">Frequent</td>
+<td align="left" colspan="1">Continuous</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Urgency</td>
+<td align="left" colspan="1">None</td>
+<td align="left" colspan="1">Mild, occasional</td>
+<td align="left" colspan="1">Often</td>
+<td align="left" colspan="1">Continuous</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Hemoglobin</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">&lt; 75&#x0025; of normal</td>
+<td align="left" colspan="1">Transfusion required</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Sed rate</td>
+<td align="left" colspan="1">&lt; 30</td>
+<td align="left" colspan="1">&lt; 30</td>
+<td align="left" colspan="1">&gt; 30</td>
+<td align="left" colspan="1">&gt; 30</td>
+</tr>
+<tr>
+<td align="left" colspan="1">C-reactive protein (mg&#x002F;L)</td>
+<td align="left" colspan="1">Normal</td>
+<td align="left" colspan="1">Elevated</td>
+<td align="left" colspan="1">Elevated</td>
+<td align="left" colspan="1">Elevated</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fecal calprotectin (mcg&#x002F;gm)</td>
+<td align="left" colspan="1">&lt; 150-200</td>
+<td align="left" colspan="1">&gt; 150-200</td>
+<td align="left" colspan="1">&gt; 150-200</td>
+<td align="left" colspan="1">&gt; 150-200</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Endoscopy (Mayo subscore)</td>
+<td align="left" colspan="1">0-1</td>
+<td align="left" colspan="1">1</td>
+<td align="left" colspan="1">2-3</td>
+<td align="left" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Ulcerative Colitis Endoscopic Index of Severity</td>
+<td align="left" colspan="1">0-1</td>
+<td align="left" colspan="1">2-4</td>
+<td align="left" colspan="1">5-8</td>
+<td align="left" colspan="1">7-8</td>
+</tr>
+</table>
+</feature_body>
+</feature>
+<feature id="table002">
+<caption>Drugs for Treatment of Ulcerative Colitis.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Preparation</th>
+<th align="left" colspan="1">Delivery Site</th>
+<th align="left" colspan="1">Usual Dosing</th>
+</tr>
+<tr>
+<td align="left" colspan="1"><strong>Oral agents</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Pro-drugs converted to 5-ASA in the colon</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Sulfasalazine (Azulfidine, 500mg)</td>
+<td align="left" colspan="1">Colon</td>
+<td align="left" colspan="1">3-6 g&#x002F;d (acute)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">2-4 g&#x002F;d (maintenance)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Olsalazine (Dipentum, 250 mg)</td>
+<td align="left" colspan="1">Colon</td>
+<td align="left" colspan="1">1-3 g&#x002F;d</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Balsalazide (Colazal, 750 mg)</td>
+<td align="left" colspan="1">Colon</td>
+<td align="left" colspan="1">6.75 g&#x002F;d</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Delayed release</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Mesalamine (Asacol, 400 mg, 800 mg)</td>
+<td align="left" colspan="1">Distal ileum-colon</td>
+<td align="left" colspan="1">2.4-4.8 g&#x002F;d (acute)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">0.8-4.8 g&#x002F;d (maintenance)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;&#x2003;(Claversal,* Mesasal,* Salofalk,* 250 mg, 500 mg)</td>
+<td align="left" colspan="1">Ileum-colon</td>
+<td align="left" colspan="1">1.5-3.0 g&#x002F;d (acute)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">0.75-3.0 g&#x002F;d (maintenance)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;Sustained release</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Mesalamine</td>
+<td align="left" colspan="1">Stomach-colon</td>
+<td align="left" colspan="1">2-4 g&#x002F;d (acute)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;&#x2003;(Pentasa, 250 mg, 500 mg, 1,000 mg*)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">1.5-4.0 g&#x002F;d (maintenance)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;&#x00A0;&#x00A0; Intravenous</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0; Vedolizumab (Entyvio)&#x00A0;&#x00A0;&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;Gut&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;300 mg IV every 4-8 weeks</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Rectal agents <strong>Rectal drugs</strong></td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">&#x00A0;</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Mesalamine suppository</td>
+<td align="left" colspan="1">Rectum</td>
+<td align="left" colspan="1">1.0-1.5 g&#x002F;d (acute)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;&#x2003;(Canasa, 400 mg,* 500 mg, 1,000 mg*)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">500-1,000 mg&#x002F;d (maintenance)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;Mesalamine enema</td>
+<td align="left" colspan="1">Rectum-splenic flexure</td>
+<td align="left" colspan="1">1-4 g&#x002F;d (acute)</td>
+</tr>
+<tr>
+<td align="left" colspan="1">&#x2003;&#x2003;&#x2003;(Rowasa, 1 g,* 4 g)</td>
+<td align="left" colspan="1">&#x00A0;</td>
+<td align="left" colspan="1">1 g daily-1 g three times a week (maintenance)</td>
+</tr>
+</table>* Not available in the United States. From Langan RC, Gotsch PB, Krafczyk MA, Skillinge DD. Ulcerative colitis: diagnosis and treatment. <em>Am Fam Physician</em> 2007;<strong>76</strong>:9.<xref ref="pubmed18019875" resource="acc003" />
+</feature_body>
+</feature>
+</feature_group>
+</topic>

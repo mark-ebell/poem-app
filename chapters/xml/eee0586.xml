@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Benzodiazepine toxicity</title>
+<chapter_type>Management of poisoning</chapter_type>
+<topic_id>eee0586</topic_id>
+<topic_comment />
+<topic_lastupdated>10/03/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Jodie V. Malhotra, PharmD</author_name>
+<author_title />
+<author_department>Assistant Professor, Pharmacy Practice, Clinical Psychiatric Pharmacist</author_department>
+<author_institution>Feik School of Pharmacy, University of the Incarnate Word</author_institution>
+<author_email>Malhotra&#x0040;uiwtx.edu</author_email>
+<author_phone_office>513-600-9009</author_phone_office>
+<author_phone_home />
+<author_phone_fax>210-822-1516</author_phone_fax>
+<author_street1>4301 Broadway CPO 99</author_street1>
+<author_street2 />
+<author_city>San Antonio</author_city>
+<author_state>TX</author_state>
+<author_zip>78209</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Cara Anne Poland, MD, MEd</editor_name>
+<editor_title>Associate Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Allen F. Shaughnessy, PharmD</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Tufts University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<section type="BOTTOM LINE">
+<heading>BOTTOM LINE</heading>
+<list style="bulleted">
+<listitem>Clinical presentation generally consists of CNS depression, drowsiness, slurred speech, nystagmus, coma, respiratory depression, and hypotension. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Address the ABCs (airway, breathing, circulation). Do not give ipecac or activated charcoal without recommendation from a poison center or emergency department. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Flumazenil, 0.2 mg IV bolus over 30 seconds with repeat doses of 0.3 to 0.5 mg in 30-second increments, will reverse the sedation and respiratory depression associated with benzodiazepine toxicity but should not be used in patients with suspected seizure disorder or who also have taken tricyclic antidepressants. <evidence rating="A" system="SORT">A</evidence><xref ref="guideline9118" resource="acc002" /></listitem>
+</list>
+</section>
+<section type="Background">
+<heading>Background</heading>
+<section type="Incidence">
+<heading>Incidence</heading>
+<list style="bulleted">
+<listitem>Using 2001 to 2007 Missouri Hospital Discharge Data for Kansas City, Missouri, benzodiazepine poisoning occurred in 0.04&#x0025; of emergency department visits (562&#x002F;1,317,566); white race and ages 30 to 49 years were identified risk factors.<xref ref="PubMed21554441" resource="acc009" /></listitem>
+<listitem>Among 1,700 trauma victims admitted to one hospital, 20&#x0025; were on prescription narcotics and&#x002F;or benzodiazepines at the time of admission.<xref ref="PubMed24368374" resource="acc023" /> Both total and ICU length of stay and were significantly longer, by over 1 day, for these patients.</listitem>
+<listitem>In a study of 895 Swedish drivers killed in road-traffic crashes, 7.6&#x0025; had blood levels of psychoactive prescription drugs, primarily benzodiazepines, z-hypnotics and tramadol.<xref ref="PubMed24265165" resource="acc024" /></listitem>
+<listitem>In a British Columbia study of nursing home admissions over a 10-year period, 44&#x0025; of the 10,900 patients started on a psychotropic medication were started on a benzodiazepine. Users of benzodiazepines had a higher risk of death than users of atypical antipsychotics (RR 1.28; 95&#x0025; CI, 1.04-1.58).<xref ref="PubMed21444611" resource="acc010" /></listitem>
+<listitem>Alprazolam and diazepam were among the top 10 drug drugs involved in drug overdose deaths in the United States from 2010 through 2014.<xref ref="pubmed27996932" resource="acc036" /></listitem>
+</list>
+</section>
+<section type="Prevalence">
+<heading>Prevalence</heading>
+<list style="bulleted">
+<listitem>Benzodiazepine use was estimated at 5.2&#x0025; of US adults aged 18 to 80 years based on a prescription database that includes approximately 60&#x0025; of all retail pharmacies in the United States.<xref ref="pubmed25517224" resource="acc029" /> Use increased with increasing age and was twice as prevalent in women as men.</listitem>
+<listitem>Among 356 young adults in the US, ages 18 to 29 years, who participated in the electronic dance music culture in Miami, prevalence of BZD-related problems was 12.6&#x0025; for benzodiazepine dependence and 21.1&#x0025; for abuse.<xref ref="pubmed28001962" resource="acc037" /></listitem>
+<listitem>Among users of opioids identified in an administrative health claims database, concomitant use of a benzodiazepine increased from 9&#x0025; in 2001 to 17&#x0025; in 2013.<xref ref="pubmed28292769" resource="acc038" /></listitem>
+</list>
+</section>
+</section>
+<section type="Economic Impact">
+<heading>Economic Impact</heading>
+<list style="bulleted">
+<listitem>In keeping with the doubling of the number of Medicare beneficiaries between 1991 and 2009, prescriptions for benzodiazepines among Medicaid beneficiaries increased from 8.0 million in 1991 to 17.1 million in 2009.<xref ref="PubMed22454448" resource="acc013" /> Expenditures rose from $131.6 million to $171.1 million over the same time period, likely due to availability of generics.</listitem>
+</list>
+</section>
+<section type="Other Impact">
+<heading>Other Impact</heading>
+<list style="bulleted">
+<listitem>In a French database study, use of benzodiazepine hypnotics increased the risk of being responsible for an injury-related traffic accident (OR 1.39; 95&#x0025; CI, 1.08-1.79).<xref ref="PubMed21368756" resource="acc011" /></listitem>
+<listitem>In a Finish national database study, benzodiazepine use was associated with increased mortality among patients with schizophrenia (HR 1.91; 95&#x0025; CI, 1.13-3.22), including both suicidal and nonsuicidal deaths. Benzodiazepine use was also associated with increased mortality among patients starting long-term oxygen therapy for COPD,<xref ref="PubMed24482539" resource="acc025" /> and among patients who received opioids.<xref ref="pubmed26063215" resource="acc030" /></listitem>
+<listitem>Use of benzodiazepines are associated with an increased risk of attempting or completing suicide.<xref ref="pubmed28257172" resource="acc039" /></listitem>
+<listitem>Unlike morphine, postoperative use of benzodiazepines were associated with an increased risk of delirium in patients undergoing total joint arthroplasty.<xref ref="PubMed23831083" resource="acc026" /></listitem>
+<listitem>Patients with benzodiazepine poisoning have a 5.33-fold increased risk of developing acute pancreatitis within 1 month compared to control patients.<xref ref="pubmed26717383" resource="acc031" /></listitem>
+<listitem>There is also an association between benzodiazepine use and epilepsy (adjusted OR 2.02; 95&#x0025; CI, 1.68-2.42) that demonstrates a dose-response relationship.<xref ref="pubmed26376408" resource="acc032" /></listitem>
+<listitem>Long-term use of clonazepam (Hazard Ratio 1.15; 95&#x0025; CI, 1.09-1.22) was associated with a higher risk for brain, colorectal and lung cancers based on a case-control study using 12 years from Taiwan National Health Insurance database.<xref ref="pubmed25674736" resource="acc033" /> There was no increased cancer risk observed with use of diazepam, chlordiazepoxide, medazepam, nitrazepam, or oxazepam.</listitem>
+<listitem>Conazepam for neuropathic pain and fibromyalgia in adults has insufficient evidence for its use<xref ref="cochrane9486" resource="acc048" /></listitem>
+<listitem>In a meta-analysis from 2023, for low back pain, the evidence supporting benzodiazepine or non-benzodiazepine &#x201C;muscle relaxants&#x201D; is of low certainty and they are not recommended.<xref ref="poem326607" resource="acc050" /></listitem>
+<listitem>In a cohort study of 2,802 Canadian individuals who injected drugs and were followed for a median of 67 months, benzodiazepine use was independently associated with increased all-cause mortality (adjusted HR 1.86; 95&#x0025; CI, 1.38-2.51) and had a higher risk for mortality than all other identified substances of abuse; 527 (18.8&#x0025;) died.<xref ref="pubmed27252569" resource="acc040" /></listitem>
+<listitem>Concomitant use of benzodiazepines with opioids increases risk of ED visit or inpatient admission for opioid overdose (adjusted OR 2.14, 95&#x0025; CI, 2.05-2.24).<xref ref="pubmed28292769" resource="acc038" />&#x00A0;In a cohort of 50 people using injected drugs who reported a nonfatal overdose, poly drug use was common and benzodiazepines were implicated in just over half of the overdoses.<xref ref="pubmed28368905" resource="acc041" /></listitem>
+<listitem>It is unclear if benzodiazepines improve outcomes for people with catatonia secondary to schizophrenia or similar serious mental illness.<xref ref="cochrane6570" resource="acc049" /></listitem>
+</list>
+</section>
+<section type="Pathophysiology">
+<heading>Pathophysiology</heading>
+<list style="bulleted">
+<listitem>Benzodiazepine binding at the &#x03B3;-aminobutyric acid (GABA) A receptor results in therapeutic effects, such as sedation, muscle relaxation, anxiolysis, and anticonvulsant effects.<xref ref="pubmed10779253" resource="acc001" /></listitem>
+<listitem>Stimulation of GABA receptors in the peripheral nervous system may result in decreased cardiac contractility, vasodilation, and enhanced perfusion.</listitem>
+<listitem>Psychomotor slowing may also result from benzodiazepine administration; psychomotor symptoms include drowsiness, poor concentration, ataxia, dysarthria, motor incoordination, diplopia, muscle weakness, vertigo, and mental confusion.</listitem>
+</list>
+</section>
+<section type="Screening and Prevention">
+<heading>Screening and Prevention</heading>
+<section type="BOTTOM LINE">
+<heading>BOTTOM LINE</heading>
+<list style="bulleted">
+<listitem>Use of a screening tool (e.g., Screening Tool of Older Person's potentially inappropriate Prescriptions&#x002F;Screening Tool to Alert doctors to the Right, ie appropriate, indicated Treatment [STOPP-START] criteria or the Australian criteria) can be used to detect potentially inappropriate drug prescriptions in older people on admission to a nursing home. In one cross-sectional study of 100 patients, these tools identified at least 1 potentially inappropriate prescription in 79&#x0025; to 95&#x0025;.<xref ref="PubMed22208763" resource="acc014" /> Benzodiazepines were among the most frequent potentially inappropriate drugs prescribed.</listitem>
+<listitem>Prescription monitoring programs intended to address benzodiazepine over-prescription were found to reduce benzodiazepine prescribing, but the decline was not consistent across population groups; marginalized and vulnerable populations (e.g., those with chronic mental health disorders) appeared to be disproportionately affected.<xref ref="PubMed21332565" resource="acc015" /></listitem>
+<listitem>Implementing a prior-authorization pharmacy consult to reduce opioid&#x002F;benzodiazepine co-prescribing as part of an Opioid Safety Initiative in a single VA center resulted in a 34.6&#x0025; reduction in co-prescribed opioids and benzodiazepines and decreased the total number of overdose-related events.<xref ref="pubmed28166464" resource="acc042" /></listitem>
+<listitem>A brief intervention for ED patients identified as persons with substance use disorders was not effective in reducing drug use and misuse or increase treatment utilization more than the control condition over a 3-month period.<xref ref="pubmed26375468" resource="acc034" /></listitem>
+</list>
+</section>
+</section>
+<section type="Diagnosis">
+<heading>Diagnosis</heading>
+<section type="History and Physical">
+<heading>History and Physical</heading>
+<list style="bulleted">
+<listitem>The clinical presentation of patients intoxicated with benzodiazepines is similar to that of individuals intoxicated with alcohol.<xref ref="guideline9118" resource="acc002" /> It generally consists of CNS depression, drowsiness, slurred speech, nystagmus, coma, respiratory depression, and hypotension.</listitem>
+<listitem>Flubromazolam is a new designer drug that is a long-lasting psychoactive drug of the benzodiazepine class. Recreational use may be a cause of prolonged, severe intoxication associated with coma, hypotension, and rhabdomyolysis.<xref ref="pubmed26585557" resource="acc035" /></listitem>
+<listitem>Misuse of benzodiazepines is more common in older patients and those who are physically or mentally vulnerable, especially those with insomnia or who use other psychotropic medications.<xref ref="pubmed21219408" resource="acc008" /></listitem>
+<listitem>Obtain history and objective proof, if possible, of the specific agent ingested; dose; time of ingestion; and presence or absence of concomitant ingestion of other CNS or respiratory depressants, especially tricyclic antidepressants.</listitem>
+<listitem>The Severity of Dependence Scale has high diagnostic utility for benzodiazepine dependence with a score &gt;6 identifying dependence with a specificity of 94.2&#x0025;, a sensitivity of 97.9&#x0025;, and area under the curve of 0.991.<xref ref="PubMed10723853" resource="acc016" /> A Chinese version was found to be slightly less effective (specificity of 85.7&#x0025;, a sensitivity of 80.5&#x0025;, and the area under the curve 0.779).<xref ref="PubMed22453072" resource="acc017" /></listitem>
+<listitem>Interview family, friends, local pharmacies, and&#x002F;or treating physicians regarding the length of benzodiazepine treatment.</listitem>
+<listitem>Review prescription drug monitoring program (PDMP) for prescribed benzodiazepines.</listitem>
+<listitem>Patients suspected of benzodiazepine poisoning should have all of their vital signs checked, as well as undergo a full mental status and neurologic examination.</listitem>
+</list>
+</section>
+<section type="Diagnostic Testing">
+<heading>Diagnostic Testing</heading>
+<list style="bulleted">
+<listitem>Most often, urine screening is performed to confirm the presence of benzodiazepines. A recently developed rapid detection method using ultra-performance liquid chromatography-tandem mass spectrometry may improve benzodiazepine urine screening.<xref ref="PubMed21239238" resource="acc012" /><xref ref="PubMed22447215" resource="acc018" /></listitem>
+<listitem>Quantitative screening of the blood by gas chromatography is the most efficient means of detection, but quantitative results often do not change treatment choices.<xref ref="pubmed10940604" resource="acc003" /><xref ref="pubmed12600948" resource="acc005" /></listitem>
+<listitem>Hair can also be used to detect drugs of misuse including benzodiazepines.<xref ref="PubMed22134122" resource="acc019" /> In one study, hair analysis was more sensitive than maternal interview in detecting drug use during pregnancy.<xref ref="PubMed23666580" resource="acc027" /></listitem>
+<listitem>An enzyme-linked immunosorbent assay (LUCIO-Direct ELISA kit) had a sensitivity of 96&#x0025; for benzodiazepines.<xref ref="PubMed21601388" resource="acc020" /> In a German study, relative sensitivities and specificities were higher for ELISA than for cloned enzyme donor immunoassays for urine drug screening (including detection of benzodiazepines).<xref ref="PubMed23349145" resource="acc028" /></listitem>
+<listitem>If benzodiazepines are used alone, breath and blood alcohol levels should be zero.</listitem>
+<listitem>Flumazenil administration can differentiate between patients with benzodiazepine-induced coma (prolonged wakefulness after 1 mg of flumazenil) and patients with nonbenzodiazepine-induced coma (short-lived wakefulness), as well as coma due to other causes (no effect after 2.5 mg of flumazenil).<xref ref="pubmed8605789" resource="acc004" /></listitem>
+<listitem>In the presence of respiratory depression, obtain arterial blood gas value and a chest x-ray.</listitem>
+<listitem>In situations with acute drug overdose, admission ECG can be helpful for predicting adverse cardiovascular events. One study found QT correction &gt;500 ms to be the highest risk feature for an adverse event; the most common drug exposures in this study were benzodiazepines, opioids, and acetaminophen.<xref ref="pubmed28159815" resource="acc043" /></listitem>
+</list>
+</section>
+</section>
+<section type="Treatment">
+<heading>Treatment</heading>
+<section type="Acute">
+<heading>Acute</heading>
+<section type="General Supportive Measures">
+<heading>General Supportive Measures</heading>
+<list style="bulleted">
+<listitem>Address the ABCs.</listitem>
+<listitem>Do not give ipecac or activated charcoal without recommendation from a poison center or ED. <evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</section>
+<section type="Specific Measures (ie, Antidotes)">
+<heading>Specific Measures (ie, Antidotes)</heading>
+<list style="bulleted">
+<listitem>Flumazenil, a specific benzodiazepine antagonist, reverses sedation and respiratory depression associated with benzodiazepine toxicity. The dosage is 2 mL (0.2 mg) IV bolus over 30 seconds. If there is no response, give 0.3 to 0.5 mg (3-5 mL) doses in 30-second increments. Most patients respond to doses between 0.2 and 1.0 mg.<xref ref="pubmed8605789" resource="acc004" /><xref ref="pubmed15214628" resource="acc006" /><xref ref="pubmed8438687" resource="acc007" /></listitem>
+<listitem>IV flumazenil will reach peak serum levels within minutes and has a half-life of 41 to 79 minutes.</listitem>
+<listitem>The establishment and maintenance of upper airway patency, oxygenation, and ventilatory support should be done prior to the administration of flumazenil.<xref ref="guideline9118" resource="acc002" /></listitem>
+<listitem>Flumazenil can quickly induce benzodiazepine withdrawal symptoms, especially in patients who are physically dependent. Flumazenil should also be administered with caution in patients with a history of seizure disorders, hemodynamic instability, electrocardiogram signs of tricyclic overdose, or evidence of ingestion of high doses of a tricyclic antidepressant. Adverse events associated with flumazenil include agitation and gastrointestinal symptoms and serious adverse events, occurring in 2.4&#x0025; in one meta-analysis, include supraventricular arrhythmia and convulsions.<xref ref="pubmed26096314" resource="acc044" /></listitem>
+<listitem>Aminophylline may be a second-line agent for cases for which flumazenil is contraindicated as one RCT demonstrated it decreased time to full awakening in those who received aminophylline following in intentional benzodiazepine poisoning compared to placebo (72 min vs. 881 min).<xref ref="pubmed27142356" resource="acc045" /></listitem>
+</list>
+</section>
+<section type="Secondary">
+<heading>Secondary</heading>
+<list style="bulleted">
+<listitem>Manage benzodiazepine withdrawal by using either a slow taper of original benzodiazepine or by switching the patient to a benzodiazepine with a longer half-life (chlordiazepoxide or clonazepam).</listitem>
+<listitem>If the toxicity was due to suicide attempt or suspected suicide attempt, the patient should be referred to a psychiatrist for a full psychiatric evaluation.</listitem>
+<listitem>In a RCT of patients with combined post-traumatic stress disorder (PTSD) and substance use disorder (including benzodiazepines), a combination of exposure therapy (a cognitive-behavioral therapy that exposes patients to memories of past trauma) and treatment for substance use disorder was more effective than substance use disorder treatment alone for reducing PTSD scores; no differences were seen, however, in severity of substance use, depression, anxiety, or suicide attempts.<xref ref="poem141022" resource="acc022" /></listitem>
+<listitem>Combined with weekly CBT-I, an RCT showed that a masked tapering of a nightly benzodiazepine hypnotic is significantly more effective than when patients doing their own taper. Mask tapering involves a pharmacist preparing identical capsules containing progressively lower doses of the benzodiazepine for each week, and therapy aimed at promoting the placebo effect of medication tapering by shaping patient expectations.<xref ref="poem378302" resource="acc052" /></listitem>
+</list>
+</section>
+</section>
+<section type="Prognosis">
+<heading>Prognosis</heading>
+<section type="Natural History (Untreated)">
+<heading>Natural History (Untreated)</heading>
+<list style="bulleted">
+<listitem>Mortality is very rare for patients who have solely ingested a benzodiazepine, with aspiration being the main complication that could lead to death.<xref ref="pubmed8605789" resource="acc004" /></listitem>
+<listitem>Mortality increases with concomitant alcohol or other CNS depressants, with ingestion of short-acting agents (triazolam), and in elderly patients.</listitem>
+<listitem>There is a black box warning for concomitant benzodiazepine and opioid ingestion due to increased risk of respiratory depression.</listitem>
+</list>
+</section>
+<section type="Prognosis (if Treated)">
+<heading>Prognosis (if Treated)</heading>
+<list style="bulleted">
+<listitem>Flumazenil has been shown to improve the mortality rate by lowering the need for mechanical ventilation and facilitating extubation.<xref ref="pubmed8605789" resource="acc004" /></listitem>
+</list>
+</section>
+</section>
+</section>
+<section type="Management of Special Populations">
+<heading>Management of Special Populations</heading>
+<section type="Infants and Children">
+<heading>Infants and Children</heading>
+<list style="bulleted">
+<listitem>Infants with known exposure to opioids and benzodiazepines in utero should be observed in the hospital for 4 to 7 days,<xref ref="PubMed22291123" resource="acc021" /> preferably with a family-based intervention like Eat, Sleep, Console.<xref ref="pubmed30855311" resource="acc051" /> These drugs generally clear in 1 to 3 days after birth.</listitem>
+<listitem>Signs of withdrawal in newborns from diazepam include hypotonia, poor suck, hypothermia, apnea, hypertonia, hyperreflexia, tremors, vomiting, hyperactivity, and tachypnea. Onset of signs is hours to weeks after birth and duration can be up to 8 months.<xref ref="PubMed22291123" resource="acc021" /></listitem>
+<listitem>A hospital-based protocol for evaluation and management, including use of an abstinence assessment tool, should be developed and used.<xref ref="PubMed22291123" resource="acc021" /></listitem>
+<listitem>Drug treatment (opioids [tincture of opium, neonatal morphine solution, methadone, and paregoric], barbiturates [phenobarbital], benzodiazepines [diazepam, lorazepam], clonidine, and phenothiazines [chlorpromazine]) are used to relieve moderate to severe signs of neonatal abstinence syndrome.<xref ref="PubMed22291123" resource="acc021" /> The optimal agent is not known and a discussion of treatment trials and reviews and weaning protocols can be found in the cited reference. Treatment of drug withdrawal may not alter long-term outcomes.<xref ref="PubMed22291123" resource="acc021" /></listitem>
+<listitem>Early follow-up is also encouraged to reinforce education on late withdrawal signs.<xref ref="PubMed22291123" resource="acc021" /></listitem>
+<listitem>Use of IV midazolam infusion as a sedative in neonates is of uncertain effectiveness and increased ICU duration of stay and, in one small study increased adverse neurological events at 28 days compared to morphine.<xref ref="cochrane2025" resource="acc047" /></listitem>
+</list>
+</section>
+<section type="The Elderly">
+<heading>The Elderly</heading>
+<list style="bulleted">
+<listitem>Older patients may be more vulnerable to benzodiazepine toxicity; in one study of 387 consecutive patients presenting to the hospital with benzodiazepine toxicity, the incidence of coma, respiratory failure and aspiration pneumonia was significantly higher, and the length of hospital stay significantly longer, in patients &gt;65 years compared to younger patients.<xref ref="pubmed27295906" resource="acc046" /></listitem>
+</list>
+</section>
+</section>
+<Misc>
+<References>
+<reference id="pubmed10779253">
+<accessionId id="acc001" href="info:pmid/10779253" />
+<authors>Longo LP, Johnson B.</authors>
+<title>Addiction: Part I. Benzodiazepine&#x2014;side effects, abuse risk and alternatives.</title>
+<source>Am Fam Physician</source>
+<pubdate>2000</pubdate>
+<volume>61</volume>
+<pages>2121&#x2013;2128.</pages>
+</reference>
+<reference id="guideline9118">
+<accessionId id="acc002" href="info:wiley/eep-guideline/9118" />
+<citation>Physical detoxification services for withdrawal from specific substances. Center for Substance Abuse Treatment (CSAT). Detoxification and substance abuse treatment. Rockville, MD: Substance Abuse and Mental Health Services Administration (SAMHSA); 2006 Jan 18. pp. 41-111. (Treatment improvement protocol (TIP); no. 45).</citation>
+<url>http://www.guideline.gov/summary/summary.aspx?ss=15&amp;doc_id=9118&amp;nbr=4932</url>
+<organization>SAMHSA</organization>
+<longtitle />
+<title />
+<dateguideline>2&#x002F;19&#x002F;2008</dateguideline>
+</reference>
+<reference id="pubmed10940604">
+<accessionId id="acc003" href="info:pmid/10940604" />
+<authors>Rasanen I, Neuvonen M, Ojanpera I, et al.</authors>
+<title>Benzodiazepine findings in blood and urine by gas chromatography and immunoassay.</title>
+<source>Forensic Sci Int</source>
+<pubdate>2000</pubdate>
+<volume>112</volume>
+<pages>191&#x2013;200.</pages>
+</reference>
+<reference id="pubmed8605789">
+<accessionId id="acc004" href="info:pmid/8605789" />
+<authors>Weinbroum A, Rudick V, Sorkine P, et al.</authors>
+<title>Use of flumazenil in the treatment of drug overdose: A double-blind and open clinical study in 110 patients.</title>
+<source>Crit Care Med</source>
+<pubdate>1996</pubdate>
+<volume>24</volume>
+<pages>199&#x2013;206.</pages>
+</reference>
+<reference id="pubmed12600948">
+<accessionId id="acc005" href="info:pmid/12600948" />
+<authors>Wu AH, McKay C, Broussard LA, et al.</authors>
+<title>National academy of clinical biochemistry laboratory medicine practice guidelines: Recommendations for the use of laboratory tests to support poisoned patients who present to the emergency department.</title>
+<source>Clin Chem</source>
+<pubdate>2003</pubdate>
+<volume>49</volume>
+<pages>357&#x2013;379.</pages>
+</reference>
+<reference id="pubmed15214628">
+<accessionId id="acc006" href="info:pmid/15214628" />
+<authors>Seger DL.</authors>
+<title>Flumazenil-treatment or toxin.</title>
+<source>J Toxicol Clin Toxicol</source>
+<pubdate>2004</pubdate>
+<volume>42</volume>
+<pages>209&#x2013;218.</pages>
+</reference>
+<reference id="pubmed8438687">
+<accessionId id="acc007" href="info:pmid/8438687" />
+<authors>Krisanda TJ.</authors>
+<title>Flumazenil: An antidote for benzodiazepine toxicity.</title>
+<source>Am Fam Physician</source>
+<pubdate>1993</pubdate>
+<volume>47</volume>
+<pages>891&#x2013;895.</pages>
+</reference>
+<reference id="pubmed21219408">
+<accessionId id="acc008" href="info:pmid/21219408" />
+<authors>Manthey L, van Veen T, Giltay EJ, et al.</authors>
+<title>Correlates of (inappropriate) benzodiazepine use: The Netherlands Study of Depression and Anxiety (NESDA).</title>
+<source>Br J Clin Pharmacol</source>
+<pubdate>2011</pubdate>
+<volume>71</volume>
+<pages>263&#x2013;272.</pages>
+</reference>
+<reference id="PubMed21554441">
+<accessionId id="acc009" href="info:pmid/21554441" />
+<authors>Liu Y, Cai J, Hoff GL, Hong L, Okah FA.</authors>
+<title>Demographic risk factors affecting emergency room visits caused by benzodiazepine poisoning in Kansas City, Missouri, from 2001 to 2007.</title>
+<source>Int J Pharm Prac</source>
+<pubdate>2011</pubdate>
+<volume>19</volume>
+<pages>166&#x2013;170.</pages>
+</reference>
+<reference id="PubMed21444611">
+<accessionId id="acc010" href="info:pmid/21444611" />
+<authors>Huybrechts KF, Rothman KJ, Silliman RA, Brookhart MA, Schneeweiss S.</authors>
+<title>Risk of death and hospital admission for major medical events after initiation of psychotropic medications in older adults admitted to nursing homes.</title>
+<source>CMAJ</source>
+<pubdate>2011</pubdate>
+<volume>183</volume>
+<pages>E411&#x2013;E419.</pages>
+</reference>
+<reference id="PubMed21368756">
+<accessionId id="acc011" href="info:pmid/21368756" />
+<authors>Orriols L, Philip P, Moore N, et al.; CESIR Research Group.</authors>
+<title>Benzodiazepine-like hypnotics and the associated risk of road traffic accidents.</title>
+<source>Clin Pharmacol Ther</source>
+<pubdate>2011</pubdate>
+<volume>89</volume>
+<pages>595&#x2013;601.</pages>
+</reference>
+<reference id="PubMed21239238">
+<accessionId id="acc012" href="info:pmid/21239238" />
+<authors>Ming DS, Heathcote J.</authors>
+<title>A rapid and accurate UPLC&#x002F;MS&#x002F;MS method for the determination of benzodiazepines in human urine.</title>
+<source>J Chromatogr BAnalyt Technol Biomed Life Sci</source>
+<pubdate>2011</pubdate>
+<volume>879</volume>
+<pages>421&#x2013;428.</pages>
+</reference>
+<reference id="PubMed22454448">
+<accessionId id="acc013" href="info:pmid/22454448" />
+<authors>Gorevski E, Bian B, Kelton CM, Martin Boone JE, Guo JJ.</authors>
+<title>Utilization, spending, and price trends for benzodiazepines in the US Medicaid program: 1991-2009.</title>
+<source>Ann Pharmacother</source>
+<pubdate>2012</pubdate>
+<volume>46</volume>
+<pages>503&#x2013;512.</pages>
+</reference>
+<reference id="PubMed22208763">
+<accessionId id="acc014" href="info:pmid/22208763" />
+<authors>Garc&#x00ED;a-Gollarte F, Baleriola-J&#x00FA;lvez J, Ferrero-L&#x00F3;pez I, Cruz-Jentoft AJ.</authors>
+<title>Inappropriate drug prescription at nursing home admission.</title>
+<source>J Am Med Dir Assoc</source>
+<pubdate>2012</pubdate>
+<volume>13</volume>
+<pages>83.e9&#x2013;83.e15.</pages>
+</reference>
+<reference id="PubMed21332565">
+<accessionId id="acc015" href="info:pmid/21332565" />
+<authors>Fisher J, Sanyal C, Frail D, Sketris I.</authors>
+<title>The intended and unintended consequences of benzodiazepine monitoring programmes: A review of the literature.</title>
+<source>J Clin Pharm Ther</source>
+<pubdate>2012</pubdate>
+<volume>37</volume>
+<pages>7&#x2013;21.</pages>
+</reference>
+<reference id="PubMed10723853">
+<accessionId id="acc016" href="info:pmid/10723853" />
+<authors>de las Cuevas C, Sanz EJ, de la Fuente JA, Padilla J, Berenguer JC.</authors>
+<title>The Severity of Dependence Scale (SDS) as screening test for benzodiazepine dependence: SDS validation study.</title>
+<source>Addiction</source>
+<pubdate>2000</pubdate>
+<volume>95</volume>
+<pages>245&#x2013;250.</pages>
+</reference>
+<reference id="PubMed22453072">
+<accessionId id="acc017" href="info:pmid/22453072" />
+<authors>Tsai JH, Tang TC, Yeh YC, Yang YH, Yeung TH, Wang SY, Chen CC.</authors>
+<title>The Chinese version of the Severity of Dependence Scale as a screening tool for benzodiazepine dependence in Taiwan.</title>
+<source>Kaohsiung J Med Sci</source>
+<pubdate>2012</pubdate>
+<volume>28</volume>
+<pages>225&#x2013;230.</pages>
+</reference>
+<reference id="PubMed22447215">
+<accessionId id="acc018" href="info:pmid/22447215" />
+<authors>Arnhard K, Schmid R, Kobold U, Thiele R.</authors>
+<title>Rapid detection and quantification of 35 benzodiazepines in urine by GC-TOF-MS.</title>
+<source>Anal Bioanal Chem</source>
+<pubdate>2012</pubdate>
+<volume>403</volume>
+<pages>755&#x2013;768.</pages>
+</reference>
+<reference id="PubMed22134122">
+<accessionId id="acc019" href="info:pmid/22134122" />
+<authors>Lendoiro E, Quintela O, de Castro A, Cruz A, L&#x00F3;pez-Rivadulla M, Concheiro M.</authors>
+<title>Target screening and confirmation of 35 licit and illicit drugs and metabolites in hair by LC-MSMS.</title>
+<source>Forensic Sci Int</source>
+<pubdate>2012</pubdate>
+<volume>217</volume>
+<pages>207&#x2013;215.</pages>
+</reference>
+<reference id="PubMed21601388">
+<accessionId id="acc020" href="info:pmid/21601388" />
+<authors>Musshoff F, Kirschbaum KM, Graumann K, Herzfeld C, Sachs H, Madea B.</authors>
+<title>Evaluation of two immunoassay procedures for drug testing in hair samples.</title>
+<source>Forensic Sci Int</source>
+<pubdate>2012</pubdate>
+<volume>215</volume>
+<pages>60&#x2013;63.</pages>
+</reference>
+<reference id="PubMed22291123">
+<accessionId id="acc021" href="info:pmid/22291123" />
+<authors>Hudak ML, Tan RC; Committee on Drugs; Committee on Fetus and Newborn; American Academy of Pediatrics</authors>
+<title>Neonatal drug withdrawal.</title>
+<source>Pediatrics</source>
+<pubdate>2012</pubdate>
+<volume>129</volume>
+<pages>e540&#x2013;e560.</pages>
+</reference>
+<reference id="poem141022">
+<accessionId id="acc022" href="info:wiley/eep-poem/141022" />
+<accessionId id="acc022b" href="info:pmid/22893166" />
+<authors>Mills KL, Teesson M, Back SE, Brady KT, Baker AL, Hopwood S, Sannibale C, Barrett EL, Merz S, Rosenfeld J, Ewer PL</authors>
+<title>Integrated exposure-based therapy for co-occurring posttraumatic stress disorder and substance dependence: A randomized controlled trial.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>308</volume>
+<pages>690&#x2013;699.</pages>
+</reference>
+<reference id="PubMed24368374">
+<accessionId id="acc023" href="info:pmid/24368374" />
+<authors>Cannon R, Bozeman M, Miller KR, Smith JW, Harbrecht B, Franklin G, Benns M.</authors>
+<title>The prevalence and impact of prescription controlled substance use among injured patients at a Level I trauma center.</title>
+<source>J Trauma Acute Care Surg</source>
+<pubdate>2014</pubdate>
+<volume>76</volume>
+<pages>172&#x2013;175.</pages>
+</reference>
+<reference id="PubMed24265165">
+<accessionId id="acc024" href="info:pmid/24265165" />
+<authors>Ahlner J, Holmgren A, Jones AW.</authors>
+<title>Prevalence of alcohol and other drugs and the concentrations in blood of drivers killed in road traffic crashes in Sweden.</title>
+<source>Scand J Public Health</source>
+<pubdate>2014</pubdate>
+<volume>42</volume>
+<pages>177&#x2013;183.</pages>
+</reference>
+<reference id="PubMed24482539">
+<accessionId id="acc025" href="info:pmid/24482539" />
+<authors>Ekstr&#x00F6;m MP, Bornefalk-Hermansson A, Abernethy AP, Currow DC.</authors>
+<title>Safety of benzodiazepines and opioids in very severe respiratory disease: National prospective study.</title>
+<source>BMJ</source>
+<pubdate>2014</pubdate>
+<volume>348</volume>
+<pages>g445.</pages>
+</reference>
+<reference id="PubMed23831083">
+<accessionId id="acc026" href="info:pmid/23831083" />
+<authors>Nandi S, Harvey WF, Saillant J, Kazakin A, Talmo C, Bono J.</authors>
+<title>Pharmacologic risk factors for post-operative delirium in total joint arthroplasty patients: A case-control study.</title>
+<source>J Arthroplasty</source>
+<pubdate>2014</pubdate>
+<volume>29</volume>
+<pages>268&#x2013;271.</pages>
+</reference>
+<reference id="PubMed23666580">
+<accessionId id="acc027" href="info:pmid/23666580" />
+<authors>Lendoiro E, Gonz&#x00E1;lez-Colmenero E, Concheiro-Guis&#x00E1;n A, de Castro A, Cruz A, L&#x00F3;pez-Rivadulla M, Concheiro M.</authors>
+<title>Maternal hair analysis for the detection of illicit drugs, medicines, and alcohol exposure during pregnancy.</title>
+<source>Ther Drug Monit</source>
+<pubdate>2013</pubdate>
+<volume>35</volume>
+<pages>296&#x2013;304.</pages>
+</reference>
+<reference id="PubMed23349145">
+<accessionId id="acc028" href="info:pmid/23349145" />
+<authors>Agius R, Nadulski T, Kahl HG, Dufaux B.</authors>
+<title>Comparison of LUCIO&#x00AE;-direct ELISA with CEDIA immunoassay for 'zero tolerance' drug screening in urine as required by the German re-licensing guidelines.</title>
+<source>Drug Test Anal</source>
+<pubdate>2013</pubdate>
+<volume>5</volume>
+<pages>390&#x2013;399.</pages>
+</reference>
+<reference id="pubmed25517224">
+<accessionId id="acc029" href="info:pmid/25517224" />
+<authors>Olfson M, King M, Schoenbaum M.</authors>
+<title>Benzodiazepine use in the United States.</title>
+<source>JAMA Psychiatry</source>
+<pubdate>2015</pubdate>
+<volume>72</volume>
+<pages>136&#x2013;142.</pages>
+</reference>
+<reference id="pubmed26063215">
+<accessionId id="acc030" href="info:pmid/26063215" />
+<authors>Park TW, Saitz R, Ganoczy D, Ilgen MA, Bohnert AS.</authors>
+<title>Benzodiazepine prescribing patterns and deaths from drug overdose among US veterans receiving opioid analgesics: Case-cohort study.</title>
+<source>BMJ</source>
+<pubdate>2015</pubdate>
+<volume>350</volume>
+<pages>h2698.</pages>
+</reference>
+<reference id="pubmed26717383">
+<accessionId id="acc031" href="info:pmid/26717383" />
+<authors>Liaw GW, Hung DZ, Chen WK, Lin CL, Lin IC, Kao CH.</authors>
+<title>Relationship between acute benzodiazepine poisoning and acute pancreatitis risk: A population-based cohort study.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2015</pubdate>
+<volume>94</volume>
+<pages>e2376.</pages>
+</reference>
+<reference id="pubmed26376408">
+<accessionId id="acc032" href="info:pmid/26376408" />
+<authors>Harnod T, Wang YC, Kao CH.</authors>
+<title>Association between benzodiazepine use and epilepsy occurrence: A nationwide population-based case-control study.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2015</pubdate>
+<volume>94</volume>
+<pages>e1571.</pages>
+</reference>
+<reference id="pubmed25674736">
+<accessionId id="acc033" href="info:pmid/25674736" />
+<authors>Iqbal U, Nguyen PA, Syed-Abdul S, Yang HC, Huang CW, Jian WS, Hsu MH, Yen Y, Li YC.</authors>
+<title>Is long-term use of benzodiazepine a risk for cancer?</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2015</pubdate>
+<volume>94</volume>
+<pages>e483.</pages>
+</reference>
+<reference id="pubmed26375468">
+<accessionId id="acc034" href="info:pmid/26375468" />
+<authors>Merchant RC, Baird JR, Liu T.</authors>
+<title>Short-term efficacy of a brief intervention to reduce drug misuse and increase drug treatment utilization among adult emergency department patients.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2015</pubdate>
+<volume>22</volume>
+<pages>1172&#x2013;1180.</pages>
+</reference>
+<reference id="pubmed26585557">
+<accessionId id="acc035" href="info:pmid/26585557" />
+<authors>&#x0141;ukasik-G&#x0142;&#x0119;bocka M, Sommerfeld K, Te&#x017C;yk A, Zieli&#x0144;ska-Psuja B, Panie&#x0144;ski P, &#x017B;aba C.</authors>
+<title>Flubromazolam&#x2014;a new life-threatening designer benzodiazepine.</title>
+<source>Clin Toxicol (Phila)</source>
+<pubdate>2016</pubdate>
+<volume>54</volume>
+<pages>66&#x2013;68.</pages>
+</reference>
+<reference id="pubmed27996932">
+<accessionId id="acc036" href="info:pmid/27996932" />
+<authors>Warner M, Trinidad JP, Bastian BA, Minino AM, Hedegaard H.</authors>
+<title>Drugs most frequently involved in drug overdose deaths: United States, 2010-2014.</title>
+<source>Natl Vital Stat Rep</source>
+<pubdate>2016</pubdate>
+<volume>65</volume>
+<pages>1&#x2013;15.</pages>
+</reference>
+<reference id="pubmed28001962">
+<accessionId id="acc037" href="info:pmid/28001962" />
+<authors>Kurtz SP, Buttram ME, Surratt HL.</authors>
+<title>Benzodiazepine dependence among young adult participants in the club scene who use drugs.</title>
+<source>J Psychoactive Drugs</source>
+<pubdate>2017 Jan-Mar</pubdate>
+<volume>49</volume>
+<pages>39&#x2013;46.</pages>
+</reference>
+<reference id="pubmed28292769">
+<accessionId id="acc038" href="info:pmid/28292769" />
+<authors>Sun EC, Dixit A, Humphreys K, Darnall BD, Baker LC, Mackey S.</authors>
+<title>Association between concurrent use of prescription opioids and benzodiazepines and overdose: Retrospective analysis.</title>
+<source>BMJ</source>
+<pubdate>2017</pubdate>
+<volume>356</volume>
+<pages>j760.</pages>
+</reference>
+<reference id="pubmed28257172">
+<accessionId id="acc039" href="info:pmid/28257172" />
+<authors>Dodds TJ.</authors>
+<title>Prescribed benzodiazepines and suicide risk: A review of the literature.</title>
+<source>Prim Care Companion CNS Disord</source>
+<pubdate>2017</pubdate>
+<volume>19</volume>
+<pages />
+</reference>
+<reference id="pubmed27252569">
+<accessionId id="acc040" href="info:pmid/27252569" />
+<authors>Walton GR, Hayashi K, Bach P, Dong H, Kerr T, Ahamad K, Milloy MJ, Montaner J, Wood E.</authors>
+<title>The impact of benzodiazepine use on mortality among polysubstance users in Vancouver, Canada.</title>
+<source>Public Health Rep</source>
+<pubdate>2016 May-Jun</pubdate>
+<volume>131</volume>
+<pages>491&#x2013;499.</pages>
+</reference>
+<reference id="pubmed28368905">
+<accessionId id="acc041" href="info:pmid/28368905" />
+<authors>Najman JM, McIlwraith F, Kemp R, Smirnov A.</authors>
+<title>When knowledge and experience do not help: A study of nonfatal drug overdoses.</title>
+<source>J Addict Med</source>
+<pubdate>2017 Jul&#x002F;Aug</pubdate>
+<volume>11</volume>
+<pages>280&#x2013;285.</pages>
+</reference>
+<reference id="pubmed28166464">
+<accessionId id="acc042" href="info:pmid/28166464" />
+<authors>Pardo D, Miller L, Chiulli D.</authors>
+<title>Implementation of a pharmacy consult to reduce co-prescribing of opioids and benzodiazepines in a Veteran population.</title>
+<source>Subst Abus</source>
+<pubdate>2017 Apr-Jun</pubdate>
+<volume>38</volume>
+<pages>157&#x2013;160.</pages>
+</reference>
+<reference id="pubmed28159815">
+<accessionId id="acc043" href="info:pmid/28159815" />
+<authors>Manini AF, Nair AP, Vedanthan R, Vlahov D, Hoffman RS.</authors>
+<title>Validation of the prognostic utility of the electrocardiogram for acute drug overdose.</title>
+<source>J Am Heart Assoc</source>
+<pubdate>2017</pubdate>
+<volume>6</volume>
+<pages />
+</reference>
+<reference id="pubmed26096314">
+<accessionId id="acc044" href="info:pmid/26096314" />
+<authors>Penninga EI, Graudal N, Ladekarl MB, J&#x00FC;rgens G.</authors>
+<title>Adverse events associated with flumazenil treatment for the management of suspected benzodiazepine intoxication&#x2014;a systematic review with meta-analyses of randomised trials.</title>
+<source>Basic Clin Pharmacol Toxicol</source>
+<pubdate>2016</pubdate>
+<volume>118</volume>
+<pages>37&#x2013;44.</pages>
+</reference>
+<reference id="pubmed27142356">
+<accessionId id="acc045" href="info:pmid/27142356" />
+<authors>Aghabiklooei A, Sangsefidi J.</authors>
+<title>The effects of intravenous aminophylline on level of consciousness in acute intentional benzodiazepines poisoning in comparison to flumazenil.</title>
+<source>Hum Exp Toxicol</source>
+<pubdate>2017</pubdate>
+<volume>36</volume>
+<pages>311&#x2013;316.</pages>
+</reference>
+<reference id="pubmed27295906">
+<accessionId id="acc046" href="info:pmid/27295906" />
+<authors>Vukcevi&#x0107; NP, Ercegovi&#x0107; GV, Segrt Z, Djordjevi&#x0107; S, Stosi&#x0107; JJ.</authors>
+<title>Benzodiazepine poisoning in elderly.</title>
+<source>Vojnosanit Pregl</source>
+<pubdate>2016</pubdate>
+<volume>73</volume>
+<pages>234&#x2013;238.</pages>
+</reference>
+<reference id="cochrane2025">
+<accessionId id="acc047" href="info:wiley/cochrane/CD002025" />
+<chapter_authors>Gowing L, Ali R, White JM, Mbewe D.</chapter_authors>
+<chapter_title>Buprenorphine for managing opioid withdrawal.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 2. Art. No.: CD002025. DOI: 10.1002&#x002F;14651858.CD002025.pub5.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane9486">
+<accessionId id="acc048" href="info:wiley/cochrane/CD9486" />
+<chapter_authors>Corrigan R, Derry S, Wiffen PJ, Moore RA.</chapter_authors>
+<chapter_title>Clonazepam for neuropathic pain and fibromyalgia in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2012, Issue 5. Art. No.: CD009486. DOI: 10.1002&#x002F;14651858.CD009486.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane6570">
+<accessionId id="acc049" href="info:wiley/cochrane/CD6570" />
+<chapter_authors>Zaman H, Gibson RC, Walcott G.</chapter_authors>
+<chapter_title>Benzodiazepines for catatonia in people with schizophrenia or other serious mental illnesses.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 8. Art. No.: CD006570. DOI: 10.1002&#x002F;14651858.CD006570.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem326607">
+<accessionId id="acc050" href="info:wiley/eep-poem/326607" />
+<accessionId id="acc050b" href="info:pmid/34233900" />
+<authors>Cashin AG, Folly T, Bagg MK, Wewege MA, Jones MD, Ferraro MC, Leake HB, Rizzo RRN, Schabrun SM, Gustin SM, Day R, Williams CM, McAuley JH.</authors>
+<title>Efficacy, acceptability, and safety of muscle relaxants for adults with non-specific low back pain: systematic review and meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2021</pubdate>
+<volume>374</volume>
+<pages>n1446.</pages>
+</reference>
+<reference id="pubmed30855311">
+<accessionId id="acc051" href="info:pmid/30855311" />
+<authors>Grisham LM, Stephen MM, Coykendall MR, Kane MF, Maurer JA, Bader MY.</authors>
+<title>Eat, Sleep, Console Approach: A Family-Centered Model for the Treatment of Neonatal Abstinence Syndrome.</title>
+<source>Adv Neonatal Care</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>138&#x2013;144.</pages>
+</reference>
+<reference id="poem378302">
+<accessionId id="acc052" href="info:wiley/eep-poem/378302" />
+<accessionId id="acc052b" href="info:pmid/39374004" />
+<authors>Fung CH, Alessi C, Martin JL, Josephson K, Kierlin L, Dzierzewski JM, Moore AA, Badr MS, Zeidler M, Kelly M, Smith JP, Cook IA, Der-Mcleod E, Ghadimi S, Naeem S, Partch L, Guzman A, Grinberg A, Mitchell M.</authors>
+<title>Masked Taper With Behavioral Intervention for Discontinuation of Benzodiazepine Receptor Agonists: A Randomized Clinical Trial.</title>
+<source>JAMA Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>184</volume>
+<pages>1448&#x2013;1456.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

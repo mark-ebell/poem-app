@@ -139,6 +139,24 @@ const safeUrl = u => {
 };
 const cochraneUrl = cd => `https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.${cd}/full`;
 
+// A figure's image file, served from chapters/images (copied there by build-chapters.js).
+const imageUrl = href => `/api/chapters/images/${encodeURIComponent(path.basename(href).toLowerCase())}`;
+
+// An algorithm can be drawn when it has a start and every other box is reached from it by arrows.
+function drawable(cells) {
+  if (cells.length < 2) return false;
+  const byId = new Map(cells.map(c => [c.id, c]));
+  const start = cells.find(c => c.type === 'start') || cells[0];
+  const seen = new Set([start.id]);
+  const queue = [start];
+  while (queue.length) {
+    for (const p of queue.shift().paths) {
+      if (byId.has(p.target) && !seen.has(p.target)) { seen.add(p.target); queue.push(byId.get(p.target)); }
+    }
+  }
+  return seen.size === cells.length;
+}
+
 function linkHtml(link) {
   if (link.href) return `<a href="${esc(link.href)}" target="_blank" rel="noopener">${esc(link.label)}</a>`;
   if (link.poem) return `<a href="#" data-poem="${esc(link.poem)}">${esc(link.label)}</a>`;
@@ -178,10 +196,12 @@ class Chapter {
     this.unknown = unknown;
     this.problems = problems;
     this.refs = new Map();    // reference id -> { n, ... }
-    this.figures = new Map(); // figure id -> number
+    this.figures = new Map(); // figure id (algorithm or picture) -> number
+    this.tables = new Map();  // table (feature) id -> number
     this.calcFound = { signs: [], tests: [] };
     this.numberReferences();
     this.numberFigures();
+    this.numberTables();
   }
 
   // References are numbered by their position in the list (as in Essential Evidence).
@@ -214,8 +234,20 @@ class Chapter {
     });
   }
 
+  // Algorithms and pictures (figure_group) share one numbering, by their ids (fig001 is
+  // Figure 1, as in Essential Evidence); one without an id comes after.
   numberFigures() {
-    iter(this.root, 'algorithm').forEach((a, i) => this.figures.set(attr(a, 'id') || `fig${String(i + 1).padStart(3, '0')}`, i + 1));
+    this.figureElements = [...iter(this.root, 'algorithm'), ...iter(this.root, 'figure')];
+    this.figureElements.forEach((f, i) => { if (!attr(f, 'id')) f.setAttribute('id', `fig${String(900 + i)}`); });
+    const num = f => Number(String(attr(f, 'id')).replace(/\D/g, '')) || 0;
+    this.figureElements.sort((a, b) => num(a) - num(b));
+    this.figureElements.forEach((f, i) => this.figures.set(attr(f, 'id'), i + 1));
+  }
+
+  // Tables (feature_group/feature, e.g. id table001), numbered in order.
+  numberTables() {
+    this.tableElements = iter(this.root, 'feature_group').flatMap(g => children(g, 'feature'));
+    this.tableElements.forEach((t, i) => this.tables.set(attr(t, 'id') || `table${i + 1}`, i + 1));
   }
 
   static citationText(r) {
@@ -317,12 +349,14 @@ class Chapter {
       if (!SORT_RATINGS.has(rating)) this.problems.push(`SORT rating '${rating}'`);
       return ` <button type="button" class="sort-tag" data-sort="${esc(rating)}">(SORT ${esc(rating)})</button>`;
     }
-    if (tag === 'xref') {
-      const ref = attr(c, 'ref') || '';
-      if (this.figures.has(ref)) return `<a href="#" class="fig-link" data-fig="${esc(ref)}">Figure ${this.figures.get(ref)}</a>`;
-      if (this.refs.has(ref)) return ` ${this.refLink(this.refs.get(ref))}`;
-      this.problems.push(`link to '${ref}', which is not in the references`);
-      return '';
+    if (tag === 'xref') { // one id, or several separated by spaces
+      return (attr(c, 'ref') || '').split(/\s+/).filter(Boolean).map(ref => {
+        if (this.figures.has(ref)) return `<a href="#" class="fig-link" data-fig="${esc(ref)}">Figure ${this.figures.get(ref)}</a>`;
+        if (this.tables.has(ref)) return `<a href="#" class="table-link" data-table="${esc(ref)}">Table ${this.tables.get(ref)}</a>`;
+        if (this.refs.has(ref)) return ` ${this.refLink(this.refs.get(ref))}`;
+        this.problems.push(`link to '${ref}', which is not in the references`);
+        return '';
+      }).join('');
     }
     if (tag === 'resource') { // older chapters: an inline link with a PMID
       const label = this.inline(c) || 'PubMed';
@@ -471,9 +505,17 @@ class Chapter {
     });
   }
 
+  // Figures: algorithms (boxes and arrows, drawn by the page when every box is joined by
+  // arrows: drawable) and pictures; each with its image file when it has one.
   figuresList() {
-    return iter(this.root, 'algorithm').map((a, i) => {
-      const fid = attr(a, 'id') || '';
+    return this.figureElements.map(a => {
+      const fid = attr(a, 'id');
+      const graphic = child(a, 'graphic');
+      const image = graphic && attr(graphic, 'href') ? imageUrl(attr(graphic, 'href')) : '';
+      if (a.tagName === 'figure') {
+        const notes = children(a, 'caption_detail').map(d => this.inline(d).trim()).filter(Boolean);
+        return { id: fid, n: this.figures.get(fid), kind: 'picture', title: textOf(child(a, 'caption')) || 'Figure', image, cells: [], notes, drawable: false };
+      }
       const cells = children(a, 'cell').map(c => ({
         id: attr(c, 'id') || '',
         type: attr(c, 'type') || 'action',
@@ -483,7 +525,16 @@ class Chapter {
       // Show the boxes in the order of their numbers (cell-1, cell-2, ...).
       cells.sort((x, y) => (Number(x.id.replace(/\D/g, '')) || 0) - (Number(y.id.replace(/\D/g, '')) || 0));
       const notes = iter(a, 'footnote').map(fn => this.inline(fn));
-      return { id: fid, n: this.figures.get(fid) || i + 1, title: textOf(child(a, 'title')), cells, notes };
+      // Some "algorithms" are photographs: an image and no box with any text.
+      if (!cells.some(c => c.html.trim())) return { id: fid, n: this.figures.get(fid), kind: 'picture', title: textOf(child(a, 'title')) || 'Figure', image, cells: [], notes, drawable: false };
+      return { id: fid, n: this.figures.get(fid), kind: 'algorithm', title: textOf(child(a, 'title')), image, cells, notes, drawable: drawable(cells) };
+    });
+  }
+
+  tablesList() {
+    return this.tableElements.map(t => {
+      const id = attr(t, 'id') || '';
+      return { id, n: this.tables.get(id), caption: this.inline(child(t, 'caption')).trim(), html: this.inline(child(t, 'feature_body') || t).trim() };
     });
   }
 
@@ -518,6 +569,7 @@ class Chapter {
       overallBottomLine: this.overallBottomLine(),
       sections: this.sections(),
       figures: this.figuresList(),
+      tables: this.tablesList(),
       // Collected while building the sections: the chapter's calculators. Risk scores
       // will be added here once chapters tag them.
       decisionSupport: { signs: this.calcFound.signs, tests: this.calcFound.tests, riskScores: [] },

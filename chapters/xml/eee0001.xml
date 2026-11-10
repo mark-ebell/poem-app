@@ -6,7 +6,7 @@
 <chapter_type>Management of disease (long)</chapter_type>
 <topic_id>eee0001</topic_id>
 <topic_comment />
-<topic_lastupdated>06/20/2024</topic_lastupdated>
+<topic_lastupdated>05/20/2026</topic_lastupdated>
 </topic_info>
 <author_info>
 <author primary="yes">
@@ -42,14 +42,19 @@
 </author_info>
 <editor_info>
 <editor>
-<editor_name>Mark H. Ebell, MD, MS</editor_name>
-<editor_title>Professor</editor_title>
-<editor_institution>College of Public Health, University of Georgia</editor_institution>
+<editor_name>Peter K. Kurotschka, MD</editor_name>
+<editor_title>Research associate</editor_title>
+<editor_institution>Department of General Practice, University Hospital W&#x00FC;rzburg, Germany</editor_institution>
 </editor>
 <editor>
 <editor_name>Mindy A. Smith, MD, MS</editor_name>
 <editor_title>Clinical Professor</editor_title>
 <editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
 </editor>
 <editor>
 <editor_name>David Slawson, MD</editor_name>
@@ -61,11 +66,11 @@
 <background>
 <BottomLine>
 <list style="bulleted">
-<listitem>Empiric treatment of patients with classic symptoms is appropriate. <evidence rating="C" system="SORT"> C</evidence></listitem>
-<listitem>Treatment with intranasal steroids and nonsedating antihistamines is sufficient for most patients. <evidence rating="A" system="SORT"> A</evidence></listitem>
-<listitem>Intranasal steroids are also effective in treating ocular symptoms associated with allergic rhinitis. <evidence rating="B" system="SORT"> B</evidence></listitem>
-<listitem>Allergy testing is recommended for patients with severe symptoms, for patients who have failed other therapy, or for patients whose diagnosis is unclear. <evidence rating="C" system="SORT"> C</evidence></listitem>
-<listitem>Subcutaneous and sublingual immunotherapy are burdensome and have some risk, but can produce long-lasting remission of symptoms. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Empiric treatment of patients with classic symptoms is appropriate. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment with intranasal steroids and nonsedating antihistamines is sufficient for most patients. <evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Intranasal steroids are also effective in treating ocular symptoms associated with allergic rhinitis. <evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Allergy testing is recommended for patients with severe symptoms, for patients who have failed other therapy, or for patients whose diagnosis is unclear. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Subcutaneous and sublingual immunotherapy are burdensome and have some risk, but can produce long-lasting remission of symptoms. <evidence rating="A" system="SORT">A</evidence></listitem>
 </list>
 </BottomLine>
 <definition>Allergic rhinitis (AR) is characterized by IgE-mediated inflammation of the mucus membranes lining the nasal passages in a sensitized individual, leading to the typical symptoms of sneezing, nasal obstruction, nasal itching, and mucus discharge, all of which are reversible spontaneously or with treatment.</definition>
@@ -78,11 +83,10 @@
 <incidence />
 <prevalence>
 <list style="bulleted">
-<listitem>US prevalence is estimated from 80 to 300 cases per 1000 adults.<xref ref="pubmed9643741" resource="acc027" />
-<xref ref="web001" /></listitem>
+<listitem>US prevalence is estimated from 80 to 300 cases per 1000 adults.<xref ref="pubmed9643741" resource="acc027" /><xref ref="web001" /></listitem>
 <listitem>In an unselected population of 2320 individuals at a public fair in Belgium in 2012, the overall prevalence of AR was 31&#x0025;.<xref ref="pubmed23018768" resource="acc034" /> Prevalence rates of sensitization by skin prick test were about 25&#x0025; each for grass pollen and house dust mite and 13&#x0025; for tree mix. Sensitization to at least one of the allergens was present in 40&#x0025; of the subjects. Symptomatic sensitization was somewhat lower at 18&#x0025; for grass, 17&#x0025; for dust mites, and 10&#x0025; for trees.</listitem>
 <listitem>In a study of children aged 3 to 5 years in Beijing in 2012, almost half (48&#x0025;) of parents reported AR, but only 31&#x0025; of those could be confirmed by skin prick testing.<xref ref="pubmed23280940" resource="acc035" /></listitem>
-<listitem>A systematic review of pediatric AR showed an overall prevalence of self-reported current AR of 18&#x0025; and lifetime AR of 20&#x0025;; physician-diagnosed AR was 10.5&#x0025;. <xref ref="pubmed37236349" resource="acc092" /></listitem>
+<listitem>A systematic review of pediatric AR showed an overall prevalence of self-reported current AR of 18&#x0025; and lifetime AR of 20&#x0025;; physician-diagnosed AR was 10.5&#x0025;.<xref ref="pubmed37236349" resource="acc092" /></listitem>
 </list>
 </prevalence>
 <economic_impact>
@@ -96,9 +100,7 @@
 <listitem>There is an association between otitis media with effusion and AR (aOR &#x003D; 3.4; 95&#x0025; CI, 1.3-9.0).<xref ref="pubmed23106661" resource="acc036" /></listitem>
 <listitem>AR has been shown to affect examination performance of teenagers.<xref ref="pubmed17560637" resource="acc026" /></listitem>
 <listitem>In a multicenter observational cross-sectional study of 990 primary care patients with AR, ocular symptoms and, to a lesser degree, nasal obstruction and pruritus have a significant impact on quality of life.<xref ref="pubmed23183377" resource="acc037" /></listitem>
-<listitem>AR is associated with disordered sleep.<xref ref="pubmed32053609" resource="acc087" />
-<xref ref="pubmed23619424" resource="acc060" />
-<xref ref="pubmed23307785" resource="acc061" /></listitem>
+<listitem>AR is associated with disordered sleep.<xref ref="pubmed32053609" resource="acc087" /><xref ref="pubmed23619424" resource="acc060" /><xref ref="pubmed23307785" resource="acc061" /></listitem>
 <listitem>AR with atopy is related to worsening of asthma.<xref ref="pubmed24607045" resource="acc062" /></listitem>
 <listitem>Using genome-wide association studies including 66,645 patients with allergic diseases and 12,281 patients with dementia, authors found that allergic rhinitis may be causally associated with an increased risk of Alzheimer&#x2019;s disease (OR 1.2, 95&#x0025; CI 1.0-1.4) and vascular dementia (OR 1.3, 95&#x0025; CI 1.03-1.6).<xref ref="pubmed38393908" resource="acc095" /></listitem>
 </list>
@@ -129,25 +131,19 @@
 <Risk_Name>Maternal smoking</Risk_Name>
 <Risk_OR>1.13; 9&#x0025; CI, 1.02-1.26</Risk_OR>
 </Risk_Factor>
-<Risk_Factors_Ref>
-<xref ref="pubmed23414542" resource="acc051" />
-<xref ref="pubmed23406940" resource="acc052" />
-<xref ref="pubmed34449468" resource="acc091" />
+<Risk_Factors_Ref><xref ref="pubmed23414542" resource="acc051" /><xref ref="pubmed23406940" resource="acc052" /><xref ref="pubmed34449468" resource="acc091" />
 </Risk_Factors_Ref>
 </Risk_Factors>
 </background>
 <Screening_Prevention>
 <Screening_BL>
 <list style="bulleted">
-<listitem>Observational studies have found an association between breastfeeding for at least 4 months and a reduction in the risk of atopic disease<xref ref="pubmed18166574" resource="acc025" />; however, a single large RCT did not substantiate this finding.<xref ref="poem91253" resource="acc002" />
-<evidence rating="B" system="SORT"> B</evidence></listitem>
-<listitem>Maternal dietary restrictions during pregnancy do not seem to have a major role in preventing atopic disease. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed18166574" resource="acc025" /></listitem>
+<listitem>Observational studies have found an association between breastfeeding for at least 4 months and a reduction in the risk of atopic disease<xref ref="pubmed18166574" resource="acc025" />; however, a single large RCT did not substantiate this finding.<xref ref="poem91253" resource="acc002" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Maternal dietary restrictions during pregnancy do not seem to have a major role in preventing atopic disease. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed18166574" resource="acc025" /></listitem>
 <listitem>Parental cleaning of pacifiers with their own mouth decreased the likelihood of allergy sensitization, asthma, and eczema.<xref ref="poem150833" resource="acc059" /> In this study, 74&#x0025; of the 184 infants followed used a pacifier during the first 6 months of life.</listitem>
-<listitem>Postponing introduction of solid food (nuts, fish, or eggs) and cow&#x2019;s milk does not decrease incidence of AR. <evidence rating="A" system="SORT"> A</evidence>
-<xref ref="pubmed18166543" resource="acc024" />
-<xref ref="poem100351" resource="acc004" /></listitem>
+<listitem>Postponing introduction of solid food (nuts, fish, or eggs) and cow&#x2019;s milk does not decrease incidence of AR. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed18166543" resource="acc024" /><xref ref="poem100351" resource="acc004" /></listitem>
 <listitem>Early-life supplementation with probiotics did not protect against AR, asthma, eczema, or food allergy at age 5 years.<xref ref="pubmed24247661" resource="acc064" /></listitem>
-<listitem>Dust mite-proof covers for beds and pillows do not decrease atopic disease in the first 2 years of life. <evidence rating="A" system="SORT"> A</evidence><xref ref="poem41171" resource="acc023" /></listitem>
+<listitem>Dust mite-proof covers for beds and pillows do not decrease atopic disease in the first 2 years of life. <evidence rating="A" system="SORT">A</evidence><xref ref="poem41171" resource="acc023" /></listitem>
 </list>
 </Screening_BL>
 <Screening />
@@ -160,12 +156,9 @@
 <Diagnosis>
 <Diagnosis_BL>
 <list style="bulleted">
-<listitem>The diagnosis of AR is based on typical symptoms, examination, and response to a therapeutic trial of medication. <evidence rating="C" system="SORT"> C</evidence></listitem>
-<listitem>If allergy testing is required because of severe symptoms, failure to respond to therapy, or uncertainty of diagnosis, skin prick test is the test of choice. <evidence rating="B" system="SORT"> B</evidence>
-<xref ref="test363" resource="acc001" />
-<xref ref="pubmed10329809" resource="acc022" /></listitem>
-<listitem>Measurement of allergen-specific IgE may be used when skin testing is impractical. <evidence rating="C" system="SORT"> C</evidence>
-<xref ref="web002" /></listitem>
+<listitem>The diagnosis of AR is based on typical symptoms, examination, and response to a therapeutic trial of medication. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>If allergy testing is required because of severe symptoms, failure to respond to therapy, or uncertainty of diagnosis, skin prick test is the test of choice. <evidence rating="B" system="SORT">B</evidence><xref ref="test363" resource="acc001" /><xref ref="pubmed10329809" resource="acc022" /></listitem>
+<listitem>Measurement of allergen-specific IgE may be used when skin testing is impractical. <evidence rating="C" system="SORT">C</evidence><xref ref="web002" /></listitem>
 </list>
 </Diagnosis_BL>
 <Differential_Diagnosis>
@@ -210,7 +203,7 @@
 <list style="bulleted">
 <listitem>AR is classically divided into seasonal and perennial.</listitem>
 <listitem>About one quarter of patients with AR can be sub-classified as having local AR (LAR).<xref ref="pubmed24332860" resource="acc065" /> LAR involves only a nasal allergic response, including local IgE, in the absence of systemic atopy. Patients with &#x201C;systemic&#x201D; AR have positive skin prick test responses and serum IgE levels to inhalant allergens.</listitem>
-<listitem>A World Health Organization (WHO) guideline divides AR into intermittent (&lt;4 days&#x002F;week or &lt;4 weeks&#x002F;year) or persistent disease (&#x003E;4 days&#x002F;week and &#x003E;4 weeks&#x002F;year).<xref ref="web002" /></listitem>
+<listitem>A World Health Organization (WHO) guideline divides AR into intermittent (&lt;4 days&#x002F;week or &lt;4 weeks&#x002F;year) or persistent disease (&gt;4 days&#x002F;week and &gt;4 weeks&#x002F;year).<xref ref="web002" /></listitem>
 <listitem>The WHO also classifies AR by its impact on daily life as mild, moderate, or severe based on abnormal sleep or impairment of daily activities, including sport and leisure activities, work, and school.</listitem>
 </list>
 </Diagnostic_criteria>
@@ -218,7 +211,7 @@
 <list style="bulleted">
 <listitem>AR typically develops before age 20 years and often in individuals with a family history of atopy. Interestingly, having siblings or being a second- or later-born child was associated with a decreased risk of current allergic rhinitis (RR 0.9, 95&#x0025; CI 0.8-0.95 and RR 0.8, 95&#x0025; CI 0.7-0.9, respectively).<xref ref="pubmed37492922" resource="acc096" /></listitem>
 <listitem>AR is usually diagnosed clinically. Symptoms include runny nose; nasal congestion; sneezing; and itchy mouth, nose, or eyes.</listitem>
-<listitem>Since rhinorrhea is common to all rhinitis, symptoms of itchy nose, sneezing, itchy, watery eyes, and response to a specific allergen are most useful in differentiating <em>allergic </em> rhinitis.<xref ref="pubmed14970151" resource="acc021" /></listitem>
+<listitem>Since rhinorrhea is common to all rhinitis, symptoms of itchy nose, sneezing, itchy, watery eyes, and response to a specific allergen are most useful in differentiating <em>allergic</em> rhinitis.<xref ref="pubmed14970151" resource="acc021" /></listitem>
 <listitem>Supporting physical findings include "boggy" appearing, pale, swollen nasal mucose, clear discharge, and allergic "shiners".</listitem>
 <listitem>However, symptoms and even nasal endoscopy findings do not reliably predict allergic rhinitis, as documented by skin prick testing in a referral population.<xref ref="poem160332" resource="acc066" /> This may be due in part to the lack of systemic response in patients with LAR.</listitem>
 <listitem>In a study of 194 patients with LAR, conjunctivitis was present in about half and asthma was present in 18.8&#x0025;.<xref ref="pubmed24332860" resource="acc065" /></listitem>
@@ -257,23 +250,18 @@
 <Treatment>
 <Treatment_BL>
 <list style="bulleted">
-<listitem>A stepwise, tailored approach to treatment is indicated, depending on severity of disease, patient preference, and cost and efficacy of drugs (see <xref ref="fig001" />). <evidence rating="C" system="SORT"> C</evidence></listitem>
-<listitem>Nasal steroids are more effective than oral antihistamines for nasal symptoms and equally effective for eye symptoms. <evidence rating="A" system="SORT"> A</evidence>
-<xref ref="poem676" resource="acc019" />
-<xref ref="poem955" resource="acc020" />
-<xref ref="poem955" resource="acc020" /></listitem>
-<listitem>Second-generation or &#x201C;non-sedating&#x201D; antihistamines may cause less sedation than first-generation antihistamines such as diphenhydramine, but the difference may not be clinically relevant. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed12704356" resource="acc018" /></listitem>
+<listitem>A stepwise, tailored approach to treatment is indicated, depending on severity of disease, patient preference, and cost and efficacy of drugs (see <xref ref="fig001" />). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Nasal steroids are more effective than oral antihistamines for nasal symptoms and equally effective for eye symptoms. <evidence rating="A" system="SORT">A</evidence><xref ref="poem676" resource="acc019" /><xref ref="poem955" resource="acc020" /><xref ref="poem955" resource="acc020" /></listitem>
+<listitem>Second-generation or &#x201C;non-sedating&#x201D; antihistamines may cause less sedation than first-generation antihistamines such as diphenhydramine, but the difference may not be clinically relevant. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed12704356" resource="acc018" /></listitem>
 </list>
 </Treatment_BL>
 <Treatment_Drug>
 <list style="bulleted">
 <listitem>Since first-line treatments are relatively free of side effects, it is appropriate to have a low treatment threshold for empiric treatment.<xref ref="pubmed14970151" resource="acc021" /> Consider beginning with intranasal treatments.</listitem>
 <listitem><strong>Steroids</strong></listitem>
-<listitem>Nasal steroids are more effective than oral antihistamines for nasal symptoms and equally effective for eye symptoms.<xref ref="poem676" resource="acc019" />
-<xref ref="poem955" resource="acc020" /> Once daily nasal beclomethasone dipropionate use at 320 &#x03BC;g&#x002F;day is effective and does not appear to suppress the hypothalamic-pituitary-adrenal-axis.<xref ref="pubmed23062389" resource="acc041" />
-<xref ref="pubmed23815103" resource="acc069" /></listitem>
-<listitem>Monotherapy with nasal steroids is recommended for initial therapy, rather than combining it with oral antihistamines. <xref ref="pubmed29181536" resource="acc081" /></listitem>
-<listitem>Short courses of systemic steroids may relieve AR.<xref ref="pubmed8227478" resource="acc016" /> However, the substantial risks of long-term treatment usually outweigh the benefits. <xref ref="pubmed34667833" resource="acc088" /></listitem>
+<listitem>Nasal steroids are more effective than oral antihistamines for nasal symptoms and equally effective for eye symptoms.<xref ref="poem676" resource="acc019" /><xref ref="poem955" resource="acc020" /> Once daily nasal beclomethasone dipropionate use at 320 &#x03BC;g&#x002F;day is effective and does not appear to suppress the hypothalamic-pituitary-adrenal-axis.<xref ref="pubmed23062389" resource="acc041" /><xref ref="pubmed23815103" resource="acc069" /></listitem>
+<listitem>Monotherapy with nasal steroids is recommended for initial therapy, rather than combining it with oral antihistamines.<xref ref="pubmed29181536" resource="acc081" /></listitem>
+<listitem>Short courses of systemic steroids may relieve AR.<xref ref="pubmed8227478" resource="acc016" /> However, the substantial risks of long-term treatment usually outweigh the benefits.<xref ref="pubmed34667833" resource="acc088" /></listitem>
 <listitem><strong>Antihistamines</strong></listitem>
 <listitem>In an RCT with 610 patients with moderate to severe seasonal AR, the intranasal antihistamine azelastine was comparable to intranasal fluticasone in reduction in total nasal symptom score and reduced score from baseline.<xref ref="pubmed23127291" resource="acc053" /></listitem>
 <listitem>Authors of a meta-analysis of 3 short-term (14-day) RCTs for AR found intranasal combination azelastine (a second-generation, selective, histamine antagonist) and fluticasone propionate superior to either intranasal drug alone, based on the nasal symptom score.<xref ref="pubmed22418065" resource="acc042" /></listitem>
@@ -283,9 +271,7 @@
 <listitem><strong>Other agents</strong></listitem>
 <listitem>A mast cell stabilizer (cromolyn) for nasal use is considerably less effective than intranasal steroids and is prescribed 4 times a day but is quite safe.</listitem>
 <listitem>Intranasal ipratropium (Atrovent) may be useful to decrease the rhinorrhea of AR.</listitem>
-<listitem>Leukotriene-receptor antagonists (Montelukast, Zafirlukast) given orally are minimally effective for AR, but may be helpful as add-on therapy.<xref ref="poem90107" resource="acc015" />
-<xref ref="pubmed24618303" resource="acc076" />
-<xref ref="pubmed29181536" resource="acc081" /></listitem>
+<listitem>Leukotriene-receptor antagonists (Montelukast, Zafirlukast) given orally are minimally effective for AR, but may be helpful as add-on therapy.<xref ref="poem90107" resource="acc015" /><xref ref="pubmed24618303" resource="acc076" /><xref ref="pubmed29181536" resource="acc081" /></listitem>
 <listitem>Combination omalizumab, a monoclonal anti-IgE antibody, and allergen immunotherapy was found to be more effective than allergen immunotherapy alone for improvements in symptom severity score and rescue medication daily means score with fewer episodes of severe systemic adverse effects based on a meta-analysis of 11 RCTs including 901 patients.<xref ref="pubmed37715592" resource="acc097" /></listitem>
 <listitem>An open-label (non-deceptive) placebo was more effective than usual care.<xref ref="pubmed37225724" resource="acc093" /></listitem>
 </list>
@@ -316,23 +302,18 @@
 <list style="bulleted">
 <listitem><strong>Immunotherapy</strong></listitem>
 <listitem>Subcutaneous immunotherapy (SCIT) is effective and may cause permanent cessation of symptoms,<xref ref="poem11103" resource="acc012" /> especially with single-allergen regimens.<xref ref="pubmed23832632" resource="acc071" /> However, immunotherapy is expensive and burdensome, often requiring years of therapy, and it carries a small risk of life-threatening anaphylaxis.<xref ref="web002" /> Allergy immunotherapy appears to reduce health care costs in patients with newly diagnosed AR.<xref ref="pubmed23375206" resource="acc055" /></listitem>
-<listitem>Sublingual immunotherapy (SLIT) also appears effective in alleviating AR symptoms.<xref ref="cochrane2893" resource="acc010" />
-<xref ref="pubmed23532243" resource="acc046" />
-<xref ref="pubmed38307205" resource="acc101" /> In one study, the most common treatment-related adverse events with SLIT to ragweed were localized pruritus and nasal and throat irritation.<xref ref="pubmed23026182" resource="acc047" /> A study with tree pollen allergies showed good efficacy with mild to moderate local side effects.<xref ref="pubmed30654054" resource="acc085" /> A systematic review and meta-analysis for grass pollen SLIT was less favorable. Side effects were reported by 60&#x0025; of patients, including anaphylaxis that required epinephrine.<xref ref="poem171110" resource="acc077" /> Individual studies showed sublingual allergen tablets are modestly effective for patients with confirmed allergy to grass pollen<xref ref="poem100423" resource="acc011" />
-<xref ref="pubmed23256794" resource="acc048" /> and house dust mites<xref ref="pubmed28660739" resource="acc083" />. SLIT may not offer long-lasting relief after discontinuation.<xref ref="pubmed28196255" resource="acc079" /> SLIT for ragweed and grass pollens is currently available in the U.S.</listitem>
+<listitem>Sublingual immunotherapy (SLIT) also appears effective in alleviating AR symptoms.<xref ref="cochrane2893" resource="acc010" /><xref ref="pubmed23532243" resource="acc046" /><xref ref="pubmed38307205" resource="acc101" /> In one study, the most common treatment-related adverse events with SLIT to ragweed were localized pruritus and nasal and throat irritation.<xref ref="pubmed23026182" resource="acc047" /> A study with tree pollen allergies showed good efficacy with mild to moderate local side effects.<xref ref="pubmed30654054" resource="acc085" /> A systematic review and meta-analysis for grass pollen SLIT was less favorable. Side effects were reported by 60&#x0025; of patients, including anaphylaxis that required epinephrine.<xref ref="poem171110" resource="acc077" /> Individual studies showed sublingual allergen tablets are modestly effective for patients with confirmed allergy to grass pollen<xref ref="poem100423" resource="acc011" /><xref ref="pubmed23256794" resource="acc048" /> and house dust mites<xref ref="pubmed28660739" resource="acc083" />. SLIT may not offer long-lasting relief after discontinuation.<xref ref="pubmed28196255" resource="acc079" /> SLIT for ragweed and grass pollens is currently available in the U.S.</listitem>
 <listitem>Authors of a meta-analysis of 6 trials found moderate evidence supporting SCIT over SLIT for nasal and&#x002F;or eye symptom reduction.<xref ref="pubmed23021885" resource="acc056" /> However, authors of a recent review found the two treatments comparable with respect to efficacy and side effects and recommend that decisions about which treatment be based on local availability and patient preference.<xref ref="pubmed26853126" resource="acc080" /> Practice guidelines exist for SLIT and SCIT.<xref ref="pubmed38408153" resource="acc094" /></listitem>
 <listitem><strong>Nasal Irrigation</strong></listitem>
 <listitem>Saline nasal irrigation performed regularly over a limited period (up to 7 weeks) for patients with AR has a positive effect on nasal symptoms (28&#x0025; improvement), a reduction in medicine consumption (62&#x0025;), and improved quality of life (28&#x0025;).<xref ref="pubmed23168142" resource="acc049" /> In another trial, however, of three different nasal saline irrigations, only patients using buffered isotonic saline with mild alkalinity had improved nasal symptoms and none of the solutions improved mucociliary function or nasal patency.<xref ref="pubmed23070939" resource="acc050" /> Saline irrigation is more effective than saline spray for patients with nasal symptoms, including AR.<xref ref="poem100953" resource="acc003" /> A squeeze bottle may work better than a bulb syringe.<xref ref="pubmed32427228" resource="acc089" /></listitem>
-<listitem>Authors of a Cochrane review concluded that saline irrigation may reduce patient-reported disease severity compared with no saline irrigation at up to three months in both adults and children with AR, based on low or very-low quality evidence. <xref ref="cochrane12597" resource="acc090" /> There were no reported side effects.</listitem>
+<listitem>Authors of a Cochrane review concluded that saline irrigation may reduce patient-reported disease severity compared with no saline irrigation at up to three months in both adults and children with AR, based on low or very-low quality evidence.<xref ref="cochrane12597" resource="acc090" /> There were no reported side effects.</listitem>
 <listitem><strong>Environmental Control</strong></listitem>
 <listitem>Interventions designed to decrease dust mite exposure (acaricides, HEPA filters, bedroom-based environmental control procedures) may be of some benefit for highly sensitized patients. Isolated use of impermeable bedding is unlikely to benefit.<xref ref="pubmed22103686" resource="acc030" /></listitem>
 <listitem>Removal of carpets and humidity control decreases house dust mite load and may alleviate symptoms in sensitive individuals.<xref ref="cochrane1187" resource="acc009" /></listitem>
 <listitem>A bedroom high-efficiency particulate air filter, however, did not decrease allergy symptoms in an RCT of 90 patients with pollen allergy.<xref ref="poem221015" resource="acc086" /></listitem>
 <listitem><strong>Other Treatments</strong></listitem>
-<listitem>Nasal filters appeared effective in reducing nasal symptoms.<xref ref="pubmed22768728" resource="acc031" />
-<xref ref="pubmed26141263" resource="acc078" /></listitem>
-<listitem>Phototherapy and intranasal phototherapy appear effective in treating symptoms of AR.<xref ref="pubmed20587541" resource="acc072" />
-<xref ref="pubmed23228884" resource="acc073" /></listitem>
+<listitem>Nasal filters appeared effective in reducing nasal symptoms.<xref ref="pubmed22768728" resource="acc031" /><xref ref="pubmed26141263" resource="acc078" /></listitem>
+<listitem>Phototherapy and intranasal phototherapy appear effective in treating symptoms of AR.<xref ref="pubmed20587541" resource="acc072" /><xref ref="pubmed23228884" resource="acc073" /></listitem>
 </list>
 </Treatment_Other>
 <Treatment_Duration />
@@ -353,10 +334,10 @@
 <Prognosis>
 <Prognosis_BL>
 <list style="bulleted">
-<listitem>One study reported that after 8 years of following patients with AR, a small percent spontaneously resolved (12&#x0025; of patients allergic to pollen, 19&#x0025; to animals, and 38&#x0025; to dust mites). Decreasing sensitization correlated with reduced IgE levels. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15577841" resource="acc008" /></listitem>
+<listitem>One study reported that after 8 years of following patients with AR, a small percent spontaneously resolved (12&#x0025; of patients allergic to pollen, 19&#x0025; to animals, and 38&#x0025; to dust mites). Decreasing sensitization correlated with reduced IgE levels. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed15577841" resource="acc008" /></listitem>
 <listitem>At 5-year follow-up of 194 patient with LAR, 26.2&#x0025; had worsening of rhinitis persistence and severity.<xref ref="pubmed24332860" resource="acc065" /> Systemic atopy developed in 6.8&#x0025;, similar to the control group at 4.5&#x0025;.</listitem>
-<listitem>Long-term immunotherapy may completely resolve or significantly reduce symptoms making further treatment unnecessary. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed16267324" resource="acc017" /></listitem>
-<listitem>Rhinitis symptoms tend to become less pronounced over time in elderly patients. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Long-term immunotherapy may completely resolve or significantly reduce symptoms making further treatment unnecessary. <evidence rating="A" system="SORT">A</evidence><xref ref="pubmed16267324" resource="acc017" /></listitem>
+<listitem>Rhinitis symptoms tend to become less pronounced over time in elderly patients. <evidence rating="C" system="SORT">C</evidence></listitem>
 </list>
 </Prognosis_BL>
 <Natural_history />
@@ -377,9 +358,7 @@
 <listitem>Cetirizine causes sedation (slower reaction times and decreased performance) in children but does not cause drowsiness (subjective feeling of being tired).<xref ref="poem60566" resource="acc007" /></listitem>
 <listitem>In one RCT, cetirizine syrup was more effective in relieving symptoms than placebo in 6-11-year-olds. Loratadine was not effective.<xref ref="pubmed28441993" resource="acc084" /></listitem>
 <listitem>School performance was not affected by either diphenhydramine or loratadine.<xref ref="poem30963" resource="acc006" /></listitem>
-<listitem>Nasal steroids are effective but may cause a small but statistically significant decrease in growth velocity in children.<xref ref="poem40654" resource="acc005" />
-<xref ref="pubmed25624374" resource="acc075" />
-<xref ref="pubmed24125150" resource="acc074" /></listitem>
+<listitem>Nasal steroids are effective but may cause a small but statistically significant decrease in growth velocity in children.<xref ref="poem40654" resource="acc005" /><xref ref="pubmed25624374" resource="acc075" /><xref ref="pubmed24125150" resource="acc074" /></listitem>
 <listitem>There is strong evidence supporting precoseasonal tablet and drop grass pollen SLIT for allergic rhinitis in children.<xref ref="pubmed23706708" resource="acc057" /> Moderate evidence supports use of SLIT for house dust mite alone and dual house dust must and grass pollen, although the former study is of low quality. Based on 3 studies, there is little evidence to support use of SCIT over SLIT for improving rhinitis symptoms or medication usage in children; local reactions were frequent with both treatments.<xref ref="pubmed23650298" resource="acc058" /></listitem>
 <listitem>Authors of a meta-analysis of separate studies including 4122 children with AR treated with SLIT and 1852 treated with SCIT found comparable outcomes on improved symptom scores, medication scores, new sensitizations, and development of asthma between the SLIT and SCIT groups; however, the SLIT group had a significantly lower incidence of treatment-related adverse effects.<xref ref="pubmed38162647" resource="acc102" /></listitem>
 <listitem>In an RCT including 52 children with AR, a nursing intervention for home environment modification reduced the number of triggers in the home environment, but had no significant effect on symptom control or quality of life.<xref ref="pubmed37996355" resource="acc103" /></listitem>
@@ -396,7 +375,7 @@
 <source>Ann Allergy</source>
 <pubdate>1992</pubdate>
 <volume>68</volume>
-<pages>35-45.</pages>
+<pages>35&#x2013;45.</pages>
 </reference>
 <reference id="poem91253">
 <accessionId id="acc002" href="info:wiley/eep-poem/91253" />
@@ -406,7 +385,7 @@
 <source>BMJ</source>
 <pubdate>2007</pubdate>
 <volume>335</volume>
-<pages>815-823.</pages>
+<pages>815&#x2013;823.</pages>
 </reference>
 <reference id="poem100953">
 <accessionId id="acc003" href="info:wiley/eep-poem/100953" />
@@ -416,7 +395,7 @@
 <source>Arch Otolaryngol Head Neck Surg</source>
 <pubdate>2007</pubdate>
 <volume>133</volume>
-<pages>1115-1120.</pages>
+<pages>1115&#x2013;1120.</pages>
 </reference>
 <reference id="poem100351">
 <accessionId id="acc004" href="info:wiley/eep-poem/100351" />
@@ -426,7 +405,7 @@
 <source>Pediatrics</source>
 <pubdate>2008</pubdate>
 <volume>121</volume>
-<pages>183-191.</pages>
+<pages>183&#x2013;191.</pages>
 </reference>
 <reference id="poem40654">
 <accessionId id="acc005" href="info:wiley/eep-poem/40654" />
@@ -436,7 +415,7 @@
 <source>South Med J</source>
 <pubdate>2002</pubdate>
 <volume>95</volume>
-<pages>334-340.</pages>
+<pages>334&#x2013;340.</pages>
 </reference>
 <reference id="poem30963">
 <accessionId id="acc006" href="info:wiley/eep-poem/30963" />
@@ -446,7 +425,7 @@
 <source>Br J Gen Pract</source>
 <pubdate>2001</pubdate>
 <volume>51</volume>
-<pages>473-477.</pages>
+<pages>473&#x2013;477.</pages>
 </reference>
 <reference id="poem60566">
 <accessionId id="acc007" href="info:wiley/eep-poem/60566" />
@@ -456,7 +435,7 @@
 <source>Pediatrics</source>
 <pubdate>2004</pubdate>
 <volume>113</volume>
-<pages>e116-e121.</pages>
+<pages>e116&#x2013;e121.</pages>
 </reference>
 <reference id="pubmed15577841">
 <accessionId id="acc008" href="info:pmid/15577841" />
@@ -465,7 +444,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2004</pubdate>
 <volume>114</volume>
-<pages>1384-1388.</pages>
+<pages>1384&#x2013;1388.</pages>
 </reference>
 <reference id="cochrane1187">
 <accessionId id="acc009" href="info:wiley/cochrane/CD001187" />
@@ -499,7 +478,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2008</pubdate>
 <volume>121</volume>
-<pages>512-518.</pages>
+<pages>512&#x2013;518.</pages>
 </reference>
 <reference id="poem11103">
 <accessionId id="acc012" href="info:wiley/eep-poem/11103" />
@@ -509,7 +488,7 @@
 <source>N Engl J Med</source>
 <pubdate>1999</pubdate>
 <volume>341</volume>
-<pages>468-475.</pages>
+<pages>468&#x2013;475.</pages>
 </reference>
 <reference id="poem40554">
 <accessionId id="acc013" href="info:wiley/eep-poem/40554" />
@@ -519,7 +498,7 @@
 <source>BMJ</source>
 <pubdate>2002</pubdate>
 <volume>324</volume>
-<pages>144-146.</pages>
+<pages>144&#x2013;146.</pages>
 </reference>
 <reference id="poem40752">
 <accessionId id="acc014" href="info:wiley/eep-poem/40752" />
@@ -539,7 +518,7 @@
 <source>Clin Otolaryngol</source>
 <pubdate>2006</pubdate>
 <volume>31</volume>
-<pages>360-367.</pages>
+<pages>360&#x2013;367.</pages>
 </reference>
 <reference id="pubmed8227478">
 <accessionId id="acc016" href="info:pmid/8227478" />
@@ -548,7 +527,7 @@
 <source>J Clin Pharmacol</source>
 <pubdate>1993</pubdate>
 <volume>33</volume>
-<pages>816-822.</pages>
+<pages>816&#x2013;822.</pages>
 </reference>
 <reference id="pubmed16267324">
 <accessionId id="acc017" href="info:pmid/16267324" />
@@ -557,7 +536,7 @@
 <source>N Engl J Med</source>
 <pubdate>2005</pubdate>
 <volume>353</volume>
-<pages>1934-1944.</pages>
+<pages>1934&#x2013;1944.</pages>
 </reference>
 <reference id="pubmed12704356">
 <accessionId id="acc018" href="info:pmid/12704356" />
@@ -566,7 +545,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2003</pubdate>
 <volume>111</volume>
-<pages>770-776.</pages>
+<pages>770&#x2013;776.</pages>
 </reference>
 <reference id="poem676">
 <accessionId id="acc019" href="info:wiley/eep-poem/676" />
@@ -576,7 +555,7 @@
 <source>J Fam Pract</source>
 <pubdate>1998</pubdate>
 <volume>47</volume>
-<pages>118-125.</pages>
+<pages>118&#x2013;125.</pages>
 </reference>
 <reference id="poem955">
 <accessionId id="acc020" href="info:wiley/eep-poem/955" />
@@ -586,7 +565,7 @@
 <source>BMJ</source>
 <pubdate>1998</pubdate>
 <volume>317</volume>
-<pages>1624-1629.</pages>
+<pages>1624&#x2013;1629.</pages>
 </reference>
 <reference id="pubmed14970151">
 <accessionId id="acc021" href="info:pmid/14970151" />
@@ -595,7 +574,7 @@
 <source>Ann Intern Med</source>
 <pubdate>2004</pubdate>
 <volume>140</volume>
-<pages>278-289.</pages>
+<pages>278&#x2013;289.</pages>
 </reference>
 <reference id="pubmed10329809">
 <accessionId id="acc022" href="info:pmid/10329809" />
@@ -604,7 +583,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>1999</pubdate>
 <volume>103</volume>
-<pages>773-779.</pages>
+<pages>773&#x2013;779.</pages>
 </reference>
 <reference id="poem41171">
 <accessionId id="acc023" href="info:wiley/eep-poem/41171" />
@@ -614,7 +593,7 @@
 <source>Am J Respir Crit Care Med</source>
 <pubdate>2002</pubdate>
 <volume>166</volume>
-<pages>307-313.</pages>
+<pages>307&#x2013;313.</pages>
 </reference>
 <reference id="pubmed18166543">
 <accessionId id="acc024" href="info:pmid/18166543" />
@@ -624,7 +603,7 @@
 <source>Pediatrics</source>
 <pubdate>2008</pubdate>
 <volume>121</volume>
-<pages>e44-e52.</pages>
+<pages>e44&#x2013;e52.</pages>
 </reference>
 <reference id="pubmed18166574">
 <accessionId id="acc025" href="info:pmid/18166574" />
@@ -633,7 +612,7 @@
 <source>Pediatrics</source>
 <pubdate>2008</pubdate>
 <volume>121</volume>
-<pages>183-191.</pages>
+<pages>183&#x2013;191.</pages>
 </reference>
 <reference id="pubmed17560637">
 <accessionId id="acc026" href="info:pmid/17560637" />
@@ -642,7 +621,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2007</pubdate>
 <volume>120</volume>
-<pages>381-387.</pages>
+<pages>381&#x2013;387.</pages>
 </reference>
 <reference id="pubmed9643741">
 <accessionId id="acc027" href="info:pmid/9643741" />
@@ -651,7 +630,7 @@
 <source>Lancet</source>
 <pubdate>1998</pubdate>
 <volume>351</volume>
-<pages>1225-1232.</pages>
+<pages>1225&#x2013;1232.</pages>
 </reference>
 <reference id="web001">
 <citation />
@@ -676,7 +655,7 @@
 <source>Allergy</source>
 <pubdate>2012</pubdate>
 <volume>67</volume>
-<pages>158-165</pages>
+<pages>158&#x2013;165.</pages>
 </reference>
 <reference id="pubmed22768728">
 <accessionId id="acc031" href="info:pmid/22768728" />
@@ -694,7 +673,7 @@
 <source>Allergy</source>
 <pubdate>2012</pubdate>
 <volume>67</volume>
-<pages>583-592</pages>
+<pages>583&#x2013;592.</pages>
 </reference>
 <reference id="pubmed22050279">
 <accessionId id="acc033" href="info:pmid/22050279" />
@@ -703,7 +682,7 @@
 <source>Allergy</source>
 <pubdate>2012</pubdate>
 <volume>67</volume>
-<pages>18-24</pages>
+<pages>18&#x2013;24.</pages>
 </reference>
 <reference id="pubmed23018768">
 <accessionId id="acc034" href="info:pmid/23018768" />
@@ -712,16 +691,16 @@
 <source>Int Arch Allergy Immunol</source>
 <pubdate>2013</pubdate>
 <volume>160</volume>
-<pages>200-207</pages>
+<pages>200&#x2013;207.</pages>
 </reference>
 <reference id="pubmed23280940">
 <accessionId id="acc035" href="info:pmid/23280940" />
 <authors>Zhang YM, Zhang J, Liu SL, Zhang X, Yang SN, Gao J, Zhao J, Chen H, Chen XX, Sun FX, Shen L, Wang DY.</authors>
 <title>Prevalence and associated risk factors of allergic rhinitis in preschool children in Beijing.</title>
-<source> Laryngoscope</source>
+<source>Laryngoscope</source>
 <pubdate>2013</pubdate>
 <volume>123</volume>
-<pages>28-35</pages>
+<pages>28&#x2013;35.</pages>
 </reference>
 <reference id="pubmed23106661">
 <accessionId id="acc036" href="info:pmid/23106661" />
@@ -730,7 +709,7 @@
 <source>Clin Exp Allergy</source>
 <pubdate>2012</pubdate>
 <volume>42</volume>
-<pages>1615&#x2013;1620</pages>
+<pages>1615&#x2013;1620.</pages>
 </reference>
 <reference id="pubmed23183377">
 <accessionId id="acc037" href="info:pmid/23183377" />
@@ -739,7 +718,7 @@
 <source>Int Arch Allergy Immunol</source>
 <pubdate>2013</pubdate>
 <volume>160</volume>
-<pages>393-400</pages>
+<pages>393&#x2013;400.</pages>
 </reference>
 <reference id="pubmed22469440">
 <accessionId id="acc038" href="info:pmid/22469440" />
@@ -748,7 +727,7 @@
 <source>Ann Allergy Asthma Immunol</source>
 <pubdate>2012</pubdate>
 <volume>108</volume>
-<pages>228-231</pages>
+<pages>228&#x2013;231.</pages>
 </reference>
 <reference id="pubmed23157515">
 <accessionId id="acc039" href="info:pmid/23157515" />
@@ -757,7 +736,7 @@
 <source>J Asthma</source>
 <pubdate>2013</pubdate>
 <volume>50</volume>
-<pages>33-38</pages>
+<pages>33&#x2013;38.</pages>
 </reference>
 <reference id="pubmed22947913">
 <accessionId id="acc040" href="info:pmid/22947913" />
@@ -766,7 +745,7 @@
 <source>Iran J Allergy Asthma Immunol</source>
 <pubdate>2012</pubdate>
 <volume>11</volume>
-<pages>259-266</pages>
+<pages>259&#x2013;266.</pages>
 </reference>
 <reference id="pubmed23062389">
 <accessionId id="acc041" href="info:pmid/23062389" />
@@ -775,7 +754,7 @@
 <source>Ann Allergy Asthma Immunol</source>
 <pubdate>2012</pubdate>
 <volume>109</volume>
-<pages>336-341</pages>
+<pages>336&#x2013;341.</pages>
 </reference>
 <reference id="pubmed22418065">
 <accessionId id="acc042" href="info:pmid/22418065" />
@@ -784,7 +763,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2012</pubdate>
 <volume>129</volume>
-<pages>1282-1289.e10</pages>
+<pages>1282&#x2013;1289.e10.</pages>
 </reference>
 <reference id="pubmed22341334">
 <accessionId id="acc043" href="info:pmid/22341334" />
@@ -793,7 +772,7 @@
 <source>Auris Nasus Larynx</source>
 <pubdate>2012</pubdate>
 <volume>39</volume>
-<pages>593-596</pages>
+<pages>593&#x2013;596.</pages>
 </reference>
 <reference id="pubmed23420231">
 <accessionId id="acc044" href="info:pmid/23420231" />
@@ -802,7 +781,7 @@
 <source>Ann Intern Med</source>
 <pubdate>2013</pubdate>
 <volume>158</volume>
-<pages>225-234</pages>
+<pages>225&#x2013;234.</pages>
 </reference>
 <reference id="cochrane9238">
 <accessionId id="acc045" href="info:wiley/cochrane/CD009238" />
@@ -823,7 +802,7 @@
 <source>JAMA</source>
 <pubdate>2013</pubdate>
 <volume>309</volume>
-<pages>1278-1288</pages>
+<pages>1278&#x2013;1288.</pages>
 </reference>
 <reference id="pubmed23026182">
 <accessionId id="acc047" href="info:pmid/23026182" />
@@ -832,7 +811,7 @@
 <source>Allergy Asthma Proc</source>
 <pubdate>2012 Sep-Oct</pubdate>
 <volume>33</volume>
-<pages>404-410</pages>
+<pages>404&#x2013;410.</pages>
 </reference>
 <reference id="pubmed23256794">
 <accessionId id="acc048" href="info:pmid/23256794" />
@@ -841,7 +820,7 @@
 <source>Immunotherapy</source>
 <pubdate>2013</pubdate>
 <volume>5</volume>
-<pages>13-21</pages>
+<pages>13&#x2013;21.</pages>
 </reference>
 <reference id="pubmed23168142">
 <accessionId id="acc049" href="info:pmid/23168142" />
@@ -850,16 +829,16 @@
 <source>Am J Rhinol Allergy</source>
 <pubdate>2012 Sep-Oct</pubdate>
 <volume>26</volume>
-<pages>e119-e125</pages>
+<pages>e119&#x2013;e125.</pages>
 </reference>
 <reference id="pubmed23070939">
 <accessionId id="acc050" href="info:pmid/23070939" />
 <authors>Chusakul S, Warathanasin S, Suksangpanya N, Phannaso C, Ruxrungtham S, Snidvongs K, Aeumjaturapat S.</authors>
 <title>Comparison of buffered and nonbuffered nasal saline irrigations in treating allergic rhinitis.</title>
-<source> Laryngoscope</source>
+<source>Laryngoscope</source>
 <pubdate>2013</pubdate>
 <volume>123</volume>
-<pages>53-56</pages>
+<pages>53&#x2013;56.</pages>
 </reference>
 <reference id="pubmed23414542">
 <accessionId id="acc051" href="info:pmid/23414542" />
@@ -868,7 +847,7 @@
 <source>Clin Exp Allergy</source>
 <pubdate>2013</pubdate>
 <volume>43</volume>
-<pages>337-343</pages>
+<pages>337&#x2013;343.</pages>
 </reference>
 <reference id="pubmed23406940">
 <accessionId id="acc052" href="info:pmid/23406940" />
@@ -877,7 +856,7 @@
 <source>Allergy Asthma Proc</source>
 <pubdate>2013 Jan-Feb</pubdate>
 <volume>34</volume>
-<pages>78-83</pages>
+<pages>78&#x2013;83.</pages>
 </reference>
 <reference id="pubmed23127291">
 <accessionId id="acc053" href="info:pmid/23127291" />
@@ -886,7 +865,7 @@
 <source>Allergy Asthma Proc</source>
 <pubdate>2012 Nov-Dec</pubdate>
 <volume>33</volume>
-<pages>450-458</pages>
+<pages>450&#x2013;458.</pages>
 </reference>
 <reference id="pubmed23253122">
 <accessionId id="acc054" href="info:pmid/23253122" />
@@ -895,7 +874,7 @@
 <source>Allergy</source>
 <pubdate>2013</pubdate>
 <volume>68</volume>
-<pages>365-374</pages>
+<pages>365&#x2013;374.</pages>
 </reference>
 <reference id="pubmed23375206">
 <accessionId id="acc055" href="info:pmid/23375206" />
@@ -904,7 +883,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2013</pubdate>
 <volume>131</volume>
-<pages>1084&#x2013;1091</pages>
+<pages>1084&#x2013;1091.</pages>
 </reference>
 <reference id="pubmed23021885">
 <accessionId id="acc056" href="info:pmid/23021885" />
@@ -913,7 +892,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2012</pubdate>
 <volume>130</volume>
-<pages>1097&#x2013;1107.e2</pages>
+<pages>1097&#x2013;1107.e2.</pages>
 </reference>
 <reference id="pubmed23706708">
 <accessionId id="acc057" href="info:pmid/23706708" />
@@ -922,7 +901,7 @@
 <source>Ann Allergy Asthma Immunol</source>
 <pubdate>2013</pubdate>
 <volume>110</volume>
-<pages>402-415.e9</pages>
+<pages>402&#x2013;415.e9.</pages>
 </reference>
 <reference id="pubmed23650298">
 <accessionId id="acc058" href="info:pmid/23650298" />
@@ -931,7 +910,7 @@
 <source>Pediatrics</source>
 <pubdate>2013</pubdate>
 <volume>131</volume>
-<pages>1155-1167</pages>
+<pages>1155&#x2013;1167.</pages>
 </reference>
 <reference id="poem150833">
 <accessionId id="acc059" href="info:wiley/eep-poem/150833" />
@@ -941,7 +920,7 @@
 <source>Pediatrics</source>
 <pubdate>2013</pubdate>
 <volume>131</volume>
-<pages>e1829-e1837</pages>
+<pages>e1829&#x2013;e1837.</pages>
 </reference>
 <reference id="pubmed23619424">
 <accessionId id="acc060" href="info:pmid/23619424" />
@@ -950,7 +929,7 @@
 <source>Curr Opin Otolaryngol Head Neck Surg</source>
 <pubdate>2013</pubdate>
 <volume>21</volume>
-<pages>277-281</pages>
+<pages>277&#x2013;281.</pages>
 </reference>
 <reference id="pubmed23307785">
 <accessionId id="acc061" href="info:pmid/23307785" />
@@ -959,7 +938,7 @@
 <source>Int Forum Allergy Rhinol</source>
 <pubdate>2013</pubdate>
 <volume>3</volume>
-<pages>504-509</pages>
+<pages>504&#x2013;509.</pages>
 </reference>
 <reference id="pubmed24607045">
 <accessionId id="acc062" href="info:pmid/24607045" />
@@ -968,7 +947,7 @@
 <source>J Allergy Clin Immunol Pract</source>
 <pubdate>2014 Mar-Apr</pubdate>
 <volume>2</volume>
-<pages>172-178</pages>
+<pages>172&#x2013;178.</pages>
 </reference>
 <reference id="pubmed23735656">
 <accessionId id="acc063" href="info:pmid/23735656" />
@@ -977,7 +956,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2013</pubdate>
 <volume>132</volume>
-<pages>3-13; quiz 14</pages>
+<pages>3&#x2013;13; quiz 14.</pages>
 </reference>
 <reference id="pubmed24247661">
 <accessionId id="acc064" href="info:pmid/24247661" />
@@ -986,7 +965,7 @@
 <source>Int Arch Allergy Immunol</source>
 <pubdate>2014</pubdate>
 <volume>163</volume>
-<pages>25-28</pages>
+<pages>25&#x2013;28.</pages>
 </reference>
 <reference id="pubmed24332860">
 <accessionId id="acc065" href="info:pmid/24332860" />
@@ -995,7 +974,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2014</pubdate>
 <volume>133</volume>
-<pages>1026-1031</pages>
+<pages>1026&#x2013;1031.</pages>
 </reference>
 <reference id="poem160332">
 <accessionId id="acc066" href="info:wiley/eep-poem/160332" />
@@ -1005,7 +984,7 @@
 <source>Clin Otolaryngol</source>
 <pubdate>2013</pubdate>
 <volume>38(6)</volume>
-<pages>481-486</pages>
+<pages>481&#x2013;486.</pages>
 </reference>
 <reference id="pubmed23668782">
 <accessionId id="acc067" href="info:pmid/23668782" />
@@ -1014,7 +993,7 @@
 <source>Respirology</source>
 <pubdate>2013</pubdate>
 <volume>18</volume>
-<pages>1016-1021</pages>
+<pages>1016&#x2013;1021.</pages>
 </reference>
 <reference id="pubmed23889242">
 <accessionId id="acc068" href="info:pmid/23889242" />
@@ -1023,7 +1002,7 @@
 <source>Clin Exp Allergy</source>
 <pubdate>2013</pubdate>
 <volume>43</volume>
-<pages>881-888</pages>
+<pages>881&#x2013;888.</pages>
 </reference>
 <reference id="pubmed23815103">
 <accessionId id="acc069" href="info:pmid/23815103" />
@@ -1032,7 +1011,7 @@
 <source>Curr Med Res Opin</source>
 <pubdate>2013</pubdate>
 <volume>29</volume>
-<pages>1329-1340</pages>
+<pages>1329&#x2013;1340.</pages>
 </reference>
 <reference id="pubmed23712736">
 <accessionId id="acc070" href="info:pmid/23712736" />
@@ -1041,7 +1020,7 @@
 <source>Laryngoscope</source>
 <pubdate>2013</pubdate>
 <volume>123</volume>
-<pages>2945-2949</pages>
+<pages>2945&#x2013;2949.</pages>
 </reference>
 <reference id="pubmed23832632">
 <accessionId id="acc071" href="info:pmid/23832632" />
@@ -1050,7 +1029,7 @@
 <source>Laryngoscope</source>
 <pubdate>2014</pubdate>
 <volume>124</volume>
-<pages>616-627</pages>
+<pages>616&#x2013;627.</pages>
 </reference>
 <reference id="pubmed20587541">
 <accessionId id="acc072" href="info:pmid/20587541" />
@@ -1059,7 +1038,7 @@
 <source>Ther Adv Respir Dis</source>
 <pubdate>2010</pubdate>
 <volume>4</volume>
-<pages>209-213</pages>
+<pages>209&#x2013;213.</pages>
 </reference>
 <reference id="pubmed23228884">
 <accessionId id="acc073" href="info:pmid/23228884" />
@@ -1068,7 +1047,7 @@
 <source>Auris Nasus Larynx</source>
 <pubdate>2013</pubdate>
 <volume>40</volume>
-<pages>447-451</pages>
+<pages>447&#x2013;451.</pages>
 </reference>
 <reference id="pubmed24125150">
 <accessionId id="acc074" href="info:pmid/24125150" />
@@ -1077,7 +1056,7 @@
 <source>Ann Allergy Asthma Immunol.</source>
 <pubdate>2013</pubdate>
 <volume>111</volume>
-<pages>408-414.e1</pages>
+<pages>408&#x2013;414.e1.</pages>
 </reference>
 <reference id="pubmed25624374">
 <accessionId id="acc075" href="info:pmid/25624374" />
@@ -1086,7 +1065,7 @@
 <source>Pediatrics</source>
 <pubdate>2015</pubdate>
 <volume>135</volume>
-<pages>e348&#x2013;e356</pages>
+<pages>e348&#x2013;e356.</pages>
 </reference>
 <reference id="pubmed24618303">
 <accessionId id="acc076" href="info:pmid/24618303" />
@@ -1095,7 +1074,7 @@
 <source>J Laryngol Otol</source>
 <pubdate>2014</pubdate>
 <volume>128</volume>
-<pages>242&#x2013;248</pages>
+<pages>242&#x2013;248.</pages>
 </reference>
 <reference id="poem171110">
 <accessionId id="acc077" href="info:wiley/eep-poem/171110" />
@@ -1105,7 +1084,7 @@
 <source>JAMA Intern Med</source>
 <pubdate>2015</pubdate>
 <volume>175</volume>
-<pages>1301&#x2013;1309</pages>
+<pages>1301&#x2013;1309.</pages>
 </reference>
 <reference id="pubmed26141263">
 <accessionId id="acc078" href="info:pmid/26141263" />
@@ -1123,7 +1102,7 @@
 <source>JAMA</source>
 <pubdate>2017</pubdate>
 <volume>317</volume>
-<pages>615&#x2013;625</pages>
+<pages>615&#x2013;625.</pages>
 </reference>
 <reference id="pubmed26853126">
 <accessionId id="acc080" href="info:pmid/26853126" />
@@ -1132,7 +1111,7 @@
 <source>J Allergy Clin Immunol</source>
 <pubdate>2016</pubdate>
 <volume>137</volume>
-<pages>339&#x2013;349.e10</pages>
+<pages>339&#x2013;349.e10.</pages>
 </reference>
 <reference id="pubmed29181536">
 <accessionId id="acc081" href="info:pmid/29181536" />
@@ -1141,7 +1120,7 @@
 <source>Ann Intern Med</source>
 <pubdate>2017</pubdate>
 <volume>167</volume>
-<pages>876&#x2013;881</pages>
+<pages>876&#x2013;881.</pages>
 </reference>
 <reference id="pubmed29397091">
 <accessionId id="acc082" href="info:pmid/29397091" />
@@ -1150,7 +1129,7 @@
 <source>J Integr Med</source>
 <pubdate>2018</pubdate>
 <volume>16</volume>
-<pages>39&#x2013;44</pages>
+<pages>39&#x2013;44.</pages>
 </reference>
 <reference id="pubmed28660739">
 <accessionId id="acc083" href="info:pmid/28660739" />
@@ -1159,7 +1138,7 @@
 <source>Pediatr Allergy Immunol</source>
 <pubdate>2017</pubdate>
 <volume>28</volume>
-<pages>661&#x2013;667</pages>
+<pages>661&#x2013;667.</pages>
 </reference>
 <reference id="pubmed28441993">
 <accessionId id="acc084" href="info:pmid/28441993" />
@@ -1168,7 +1147,7 @@
 <source>Allergy Asthma Proc</source>
 <pubdate>2017</pubdate>
 <volume>38</volume>
-<pages>222&#x2013;230</pages>
+<pages>222&#x2013;230.</pages>
 </reference>
 <reference id="pubmed30654054">
 <accessionId id="acc085" href="info:pmid/30654054" />
@@ -1177,7 +1156,7 @@
 <source>J. Allergy Clin. Immunol.</source>
 <pubdate>2019</pubdate>
 <volume>143</volume>
-<pages>1058&#x2013;1066.e6</pages>
+<pages>1058&#x2013;1066.e6.</pages>
 </reference>
 <reference id="poem221015">
 <accessionId id="acc086" href="info:wiley/eep-poem/221015" />
@@ -1187,7 +1166,7 @@
 <source>Clin Otolaryngol</source>
 <pubdate>2020</pubdate>
 <volume>45</volume>
-<pages>394&#x2013;401</pages>
+<pages>394&#x2013;401.</pages>
 </reference>
 <reference id="pubmed32053609">
 <accessionId id="acc087" href="info:pmid/32053609" />
@@ -1196,7 +1175,7 @@
 <source>PLoS One</source>
 <pubdate>2020</pubdate>
 <volume>15</volume>
-<pages>e0228533</pages>
+<pages>e0228533.</pages>
 </reference>
 <reference id="pubmed34667833">
 <accessionId id="acc088" href="info:pmid/34667833" />
@@ -1205,7 +1184,7 @@
 <source>Laryngoscope Investig Otolaryngol</source>
 <pubdate>2021</pubdate>
 <volume>6</volume>
-<pages>911&#x2013;923</pages>
+<pages>911&#x2013;923.</pages>
 </reference>
 <reference id="pubmed32427228">
 <accessionId id="acc089" href="info:pmid/32427228" />
@@ -1214,7 +1193,7 @@
 <source>Rhinology</source>
 <pubdate>2020</pubdate>
 <volume>58</volume>
-<pages>460&#x2013;464</pages>
+<pages>460&#x2013;464.</pages>
 </reference>
 <reference id="cochrane12597">
 <accessionId id="acc090" href="info:wiley/cochrane/CD012597" />
@@ -1235,7 +1214,7 @@
 <source>Medicine (Baltimore)</source>
 <pubdate>2021</pubdate>
 <volume>100</volume>
-<pages>e26986</pages>
+<pages>e26986.</pages>
 </reference>
 <reference id="pubmed37236349">
 <accessionId id="acc092" href="info:pmid/37236349" />
@@ -1252,16 +1231,16 @@
 <source>Sci Rep</source>
 <pubdate>2023</pubdate>
 <volume>13</volume>
-<pages>8372</pages>
+<pages>8372.</pages>
 </reference>
 <reference id="pubmed38408153">
 <accessionId id="acc094" href="info:pmid/38408153" />
-<authors>Gurgel RK, Baroody FM, Damask CC, Mims JW, Ishman SL, Baker DP, Contrera KJ, Farid FS, Fornadley JA, Gardner DD, Henry LR, Kim J, Levy JM, Reger CM, Ritz HJ, Stachler RJ, Valdez TA, Reyes J , Dhepyasuwan N.</authors>
+<authors>Gurgel RK, Baroody FM, Damask CC, Mims JW, Ishman SL, Baker DP, Contrera KJ, Farid FS, Fornadley JA, Gardner DD, Henry LR, Kim J, Levy JM, Reger CM, Ritz HJ, Stachler RJ, Valdez TA, Reyes J, Dhepyasuwan N.</authors>
 <title>Executive Summary of Clinical Practice Guideline on Immunotherapy for Inhalant Allergy.</title>
 <source>Otolaryngol Head Neck Surg</source>
 <pubdate>2024</pubdate>
 <volume>170</volume>
-<pages>635&#x2013;667</pages>
+<pages>635&#x2013;667.</pages>
 </reference>
 <reference id="pubmed38393908">
 <accessionId id="acc095" href="info:pmid/38393908" />
@@ -1270,34 +1249,34 @@
 <source>J Alzheimers Dis</source>
 <pubdate>2024</pubdate>
 <volume>98</volume>
-<pages>505&#x2013;517</pages>
+<pages>505&#x2013;517.</pages>
 </reference>
 <reference id="pubmed37492922">
 <accessionId id="acc096" href="info:pmid/37492922" />
-<authors>Lisik D, Ermis SS&#x00D6;, Ioannidou A , Milani GP, Nyassi S , Spolidoro GCI , Kankaanranta H, Goks&#x00F6;r E , Wennergren G , Nwaru BI .</authors>
+<authors>Lisik D, Ermis SS&#x00D6;, Ioannidou A, Milani GP, Nyassi S, Spolidoro GCI, Kankaanranta H, Goks&#x00F6;r E, Wennergren G, Nwaru BI.</authors>
 <title>Siblings and risk of allergic rhinitis: A systematic review and meta-analysis.</title>
 <source>Pediatr Allergy Immunol</source>
 <pubdate>2023</pubdate>
 <volume>34</volume>
-<pages>e13991</pages>
+<pages>e13991.</pages>
 </reference>
 <reference id="pubmed37715592">
 <accessionId id="acc097" href="info:pmid/37715592" />
-<authors>Zhang YY , Zhang M , Zhang JQ, Li QQ, Lu MP , Cheng L .</authors>
+<authors>Zhang YY, Zhang M, Zhang JQ, Li QQ, Lu MP, Cheng L.</authors>
 <title>Combination of omalizumab with allergen immunotherapy versus immunotherapy alone for allergic diseases: A meta-analysis of randomized controlled trials.</title>
 <source>Int Forum Allergy Rhinol</source>
 <pubdate>2024</pubdate>
 <volume>14</volume>
-<pages>794&#x2013;806</pages>
+<pages>794&#x2013;806.</pages>
 </reference>
 <reference id="pubmed37715589">
 <accessionId id="acc098" href="info:pmid/37715589" />
-<authors>Niu X , Chen Y, Zhou T, Xiao H.</authors>
+<authors>Niu X, Chen Y, Zhou T, Xiao H.</authors>
 <title>Endoscopic vidian and vidian-branch neurectomy for refractory allergic rhinitis: A systematic review.</title>
 <source>Int Forum Allergy Rhinol</source>
 <pubdate>2024</pubdate>
 <volume>14</volume>
-<pages>679&#x2013;694</pages>
+<pages>679&#x2013;694.</pages>
 </reference>
 <reference id="pubmed37418839">
 <accessionId id="acc099" href="info:pmid/37418839" />
@@ -1306,7 +1285,7 @@
 <source>Phytomedicine</source>
 <pubdate>2023</pubdate>
 <volume>118</volume>
-<pages>154948</pages>
+<pages>154948.</pages>
 </reference>
 <reference id="pubmed37750621">
 <accessionId id="acc100" href="info:pmid/37750621" />
@@ -1315,7 +1294,7 @@
 <source>Eur Rev Med Pharmacol Sci</source>
 <pubdate>2023</pubdate>
 <volume>27</volume>
-<pages>7924&#x2013;7934</pages>
+<pages>7924&#x2013;7934.</pages>
 </reference>
 <reference id="pubmed38307205">
 <accessionId id="acc101" href="info:pmid/38307205" />
@@ -1324,7 +1303,7 @@
 <source>J Allergy Clin Immunol Pract</source>
 <pubdate>2024</pubdate>
 <volume>12</volume>
-<pages>1520&#x2013;1529.e5</pages>
+<pages>1520&#x2013;1529.e5.</pages>
 </reference>
 <reference id="pubmed38162647">
 <accessionId id="acc102" href="info:pmid/38162647" />
@@ -1333,7 +1312,7 @@
 <source>Front Immunol</source>
 <pubdate>2023</pubdate>
 <volume>14</volume>
-<pages>1274241</pages>
+<pages>1274241.</pages>
 </reference>
 <reference id="pubmed37996355">
 <accessionId id="acc103" href="info:pmid/37996355" />
@@ -1342,7 +1321,7 @@
 <source>J Pediatr Nurs</source>
 <pubdate>2024</pubdate>
 <volume>74</volume>
-<pages>e28&#x2013;e37</pages>
+<pages>e28&#x2013;e37.</pages>
 </reference>
 </References>
 <Web_Sites />

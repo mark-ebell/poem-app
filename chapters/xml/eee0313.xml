@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Herpes zoster (shingles)</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0313</topic_id>
+<topic_comment />
+<topic_lastupdated>09/25/2026</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Ku-Lang Chang, MD, FAAFP</author_name>
+<author_title>Principal Investigator</author_title>
+<author_department>Family Medicine</author_department>
+<author_institution>Lucas Research, a Centricity Research Company</author_institution>
+<author_email>ku-lang.chang&#x0040;lucasresearch.org</author_email>
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city>Morehead City</author_city>
+<author_state>NC</author_state>
+<author_zip>28557</author_zip>
+</author>
+<author primary="no">
+<author_name>Anne Hutchinson, MD</author_name>
+<author_title>Faculty</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>McKay-Dee Family Medicine Residency Program</author_institution>
+<author_email>dranne80&#x0040;hotmail.com</author_email>
+<author_phone_office>801-387-5300</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>4403 Harrison Blvd</author_street1>
+<author_street2>Suite A-700</author_street2>
+<author_city>Ogden</author_city>
+<author_state>UT</author_state>
+<author_zip>84403</author_zip>
+</author>
+<author primary="no">
+<author_name>Mitch Miller, DO</author_name>
+<author_title>Faculty</author_title>
+<author_department>Department of Family Medicine</author_department>
+<author_institution>McKay-Dee Family Medicine Residency Program</author_institution>
+<author_email>mitchell.miller&#x0040;imail.org</author_email>
+<author_phone_office>4356768811</author_phone_office>
+<author_phone_home />
+<author_phone_fax>4356761544</author_phone_fax>
+<author_street1>200 north 400 east</author_street1>
+<author_street2 />
+<author_city>Panguitch</author_city>
+<author_state>UT</author_state>
+<author_zip>84759</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Steven R. Brown, MD, FAAFP</editor_name>
+<editor_title>Program Director and Professor</editor_title>
+<editor_institution>University of Arizona College of Medicine &#x2013; Phoenix Family Medicine Residency</editor_institution>
+</editor>
+<editor>
+<editor_name>David Slawson, MD</editor_name>
+<editor_title>Vice Chair, Department of Family Medicine</editor_title>
+<editor_institution>University of Virginia</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Typically, herpes zoster (HZ) is characterized by unilateral dermatomal pain and rash.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Initiating treatment within 72 hours with appropriate antivirals will significantly decrease the incidence of acute pain but does not decrease the frequency of postherpetic neuralgia (PHN).<evidence rating="A" system="SORT">A</evidence></listitem>
+<listitem>Amitriptyline treatment within 48 hours reduces the risk of persistent pain at six months in patients older than 60 years.<evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Corticosteroids do not improve long-term outcomes.<evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>Herpes zoster vaccine administered to patients age 50 and older, who are not immunocompromised, decreases the incidence of herpes zoster and subsequent postherpetic neuralgia.<evidence rating="A" system="SORT">A</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Herpes zoster, better known as &#x201C;shingles,&#x201D; is the reactivation of a latent varicella zoster-virus infection from within the sensory ganglia, resulting in pain and rash in a dermatomal distribution.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Overall: 1.5-3.0&#x002F;1000&#x002F;year (0.15&#x0025;-0.3&#x0025; per year).</listitem>
+<listitem>Approximately 300,000 to 600,000 new cases per year.</listitem>
+<listitem>Lifetime risk: 10&#x0025; to 20&#x0025;.</listitem>
+<listitem>HZ equally affects males and females; blacks are one-fourth as likely to be affected as whites.<xref ref="pubmed7876622" resource="acc013" /><xref ref="pubmed7618983" resource="acc012" /></listitem>
+<listitem>Thirty percent of infections occur in persons older than 50 years.</listitem>
+<listitem>Over 75 years old: 10&#x002F;1000&#x002F;year (1&#x0025; per year).</listitem>
+<listitem>Higher incidence in immunocompromised individuals.</listitem>
+<listitem>HIV-infected persons: 29.4&#x002F;1000&#x002F;year (3&#x0025; per year).</listitem>
+<listitem>The incidence increased among US veterans older than 40 years from an annual incidence of 3.10 episodes per 1000 veterans in 2000 to 5.22 in 2007.<xref ref="pubmed20178416" resource="acc014" /></listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Herpes zoster virus (VZV).</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>The reactivation of varicella-zoster virus infection caused clinically relevant herpes-zoster.</listitem>
+<listitem>During the latent period, the virus expresses only minimal proteins (as few as five) in neurons and satellite cells.</listitem>
+<listitem>If a person's cell-mediated immunity is sufficiently strong against those proteins, particularly immediate-early protein 63, the infection's reactivation is avoided. When immunity to the proteins wanes, reactivation occurs.</listitem>
+<listitem>During reactivation, inflammation and possibly hemorrhagic necrosis of the dorsal spinal ganglion leads to pain and subsequent rash along the dermatomal distribution in question.</listitem>
+<listitem>A person cannot contract shingles from another individual. Individuals exposed to the varicella-zoster virus for the first time will develop chickenpox (varicella) and not shingles because they have no latent virus to reactivate at that point.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Age</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Immunocompromise with impaired cell-mediated immunity (HIV, transplant patients)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Immunosuppressive treatments (systemic steroids, biologics)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Malignancy</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Diabetes</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Chronic respiratory diseases (asthma, chronic obstructive lung disease)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Physical trauma to the affected area</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Previous history of herpes zoster</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Unimmunized against herpes zoster</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Family history of herpes zoster</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>All patients age 50 and older who are not immunosuppressed should have zoster vaccine.<evidence rating="A" system="SORT">A</evidence><xref ref="poem210204" resource="acc025" /></listitem>
+<listitem>Zoster vaccine should be given to all patients age 19 and older that have immunodeficiency or will be immunosuppressed from disease or immunotherapy and are at risk for HZ.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed31399378" resource="acc033" /></listitem>
+<listitem>Zoster vaccine reduces the incidence of herpes zoster (number needed to treat (NNT) &#x003D; 50 at three years).<evidence rating="A" system="SORT">A</evidence><xref ref="poem210204" resource="acc025" /></listitem>
+</list>
+</Screening_BL>
+<Screening>
+<list style="bulleted">
+<listitem>Pre-vaccination screening for a history of chickenpox is not needed. In patients with a negative VZV serology, one should follow the Advisory Committee on Immunization Practices (ACIP) guideline.<xref ref="pubmed29370152" resource="acc024" /></listitem>
+</list>
+</Screening>
+<Primary_Prevention>
+<list style="bulleted">
+<listitem>Zoster vaccine is not associated with an increased risk of herpes zoster infection in patients with immune-mediated diseases like rheumatoid arthritis, psoriasis, and inflammatory bowel disease.<xref ref="poem140921" resource="acc023" /></listitem>
+<listitem>Zoster vaccine should be avoided during pregnancy.</listitem>
+<listitem>The older herpes zoster vaccine (Zostavax) is strongly associated with a lower risk of dementia. This association has been shown with the newer vaccine also. <xref ref="pubmed40175543" resource="acc050" /></listitem>
+<listitem><strong>Recombinant Zoster Vaccine (RZV)</strong></listitem>
+<listitem>RZV is more effective against HZV infection and PHN than the live Zoster vaccine (Zoster Vaccine Live, ZVL, Zostavax). ZVL's effectiveness declined sharply, while RZV declined modestly four years after vaccination. RZV is preferred over ZVL (which is no longer marketed in the US).<xref ref="pubmed29370152" resource="acc024" /> The long-term effectiveness of two doses of RZV is significantly more than one dose of RZV (76&#x0025; vs 64&#x0025;).<xref ref="pubmed38190712" resource="acc041" /></listitem>
+<listitem>RZV may be given to patients who had HZ or received ZVL in the past. According to expert opinion, RZV should be administered &gt;2 months after ZVL.<xref ref="pubmed29370152" resource="acc024" /></listitem>
+<listitem>A systematic review of 7 RCTs found that RZV was also effective in immunocompromised individuals. The reduction in HZ incidence was 81&#x0025; (RR 0.19, 95&#x0025; CI 0.09-0.44).<xref ref="pubmed39585863" resource="acc047" /></listitem>
+<listitem>RZV causes more injection site pain.<xref ref="poem210204" resource="acc025" /> Both doses of RZV are required to achieve an adequate immune response. One cannot predict if those patients who experienced injection site pain from the first RZV will experience it again with the second dose.<xref ref="pubmed29370152" resource="acc024" /> Some patients who experienced side effects from the first dose may refuse the second dose.<xref ref="poem210204" resource="acc025" /></listitem>
+<listitem>Post-marketing Medicare claims observational data showed that within 42 days after the RZV vaccine, there was an increased risk for Guillain-Barr&#x00E9; syndrome (GBS) with six cases per million dose administered with the first dose and no increased risk with the second dose.(RZV package insert) In the United States, the incidence of patients hospitalized with GBS ranged from 1.65 to 1.79 per 100,000 in 2008.<xref ref="pubmed18443311" resource="acc034" /></listitem>
+<listitem>A retrospective cohort study found that in the Medicare Advantage population with a history of herpes zoster ophthalmicus (HZO), the risk of recurrence of HZO post RZV is higher than in the unvaccinated population.<xref ref="pubmed38358762" resource="acc040" /></listitem>
+<listitem>RZV is more cost-effective than most adult vaccines and more cost-effective than ZVL.<xref ref="pubmed30776797" resource="acc032" /> RZV is safe in frail elderly as well.<xref ref="pubmed33197294" resource="acc038" /></listitem>
+<listitem><strong>Live Zoster Vaccine (Zoster Vaccine Live, ZVL, Zovarax)</strong></listitem>
+<listitem>In 2020, ZVL was removed from the market and is no longer available in the United States.</listitem>
+<listitem>ZVL was recommended by ACIP for use in immunocompetent patients aged &gt;60 years.<xref ref="pubmed29370152" resource="acc024" /></listitem>
+<listitem>In patients aged &gt;60 years, ZVL decreases the incidence of HZ by 51.3&#x0025;, reduces the occurrence of PHN by 66.5&#x0025;, and the burden of illness from HZ by 61.1&#x0025;.<xref ref="pubmed15930418" resource="acc031" /></listitem>
+<listitem>VZL is contraindicated in patients with immunodeficiency or immunosuppressed.</listitem>
+</list>
+</Primary_Prevention>
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>In patients with a history of herpes zoster, the ACIP recommends zoster vaccination but has no recommendation on timing. Some international immunization advisory committees recommend waiting at least one year before zoster vaccination. Lee et al. showed ZVL given at 6 to 12 months, 1 to 3 years, and &gt; three years post HZ did not result in a significant difference in humoral and cellular immunity.<xref ref="pubmed30600654" resource="acc026" /></listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Unilateral dermatomal pain preceding a rash occurs in 75&#x0025; of patients.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>The rash will be vesicular and unilateral, typically in one or two neighboring dermatomes; it is most commonly in a thoracic or lumbar dermatome.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Diagnostic testing is not recommended; herpes zoster is a clinical diagnosis.<evidence rating="C" system="SORT">C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name />
+<Differential_Features />
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>The pain of acute neuritis from HZ may be constant or intermittent and may present days to weeks before the development of a rash. The patient may experience tingling, itchy, burning, throbbing, and stabbing sensations. Allodynia or hyperalgesia may also be present from history and during the examination. Some patients have HZ but no rash, this phenomenon is called zoster sine herpete.</listitem>
+<listitem>Seventy-five percent of patients will have pain before the development of any rash. The pain is typically located in a unilateral dermatomal distribution, followed by the eruption of clusters of maculopapular and then vesiculopustular rash over an erythematous base.</listitem>
+<listitem>The rash may be present in one or two neighboring dermatomes. In 7 to 10 days, the rash usually crusts and becomes dry.</listitem>
+<listitem>Thoracic and lumbar dermatomes are the most commonly involved sites.</listitem>
+<listitem>Less than 20&#x0025; of people complain of fatigue or fever.</listitem>
+<listitem>Some lesions may occasionally be present outside of the dermatome secondary to the hematogenous spread of the virus.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>HZ is a clinical diagnosis, and diagnostic tests are not routinely recommended.</listitem>
+<listitem>If the diagnosis is in question, polymerase chain reaction (PCR), direct fluorescent antibody (DFA) testing, or viral culture for VZV is recommended. PCR is the most sensitive and specific test. DFA and viral culture require collecting a specimen from scraping the surface of unroofed vesicles.<xref ref="test289" resource="acc001" /><xref ref="test394" resource="acc002" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>See algorithm in <xref ref="fig001" />.</listitem>
+<listitem>Patients at increased risk and aware of the potential complications from HZ infection will be more willing to receive the vaccine.<xref ref="pubmed36892937" resource="acc039" /></listitem>
+<listitem>Education on the effectiveness, safety, insurance coverage, and recommendation by a clinician will increase the patient's willingness to get the HZV vaccine from 49&#x0025; to 75&#x0025;.<xref ref="pubmed36892937" resource="acc039" /></listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Valacyclovir, famciclovir, or acyclovir should be started within 72 hours of symptom onset in patients older than 50.<evidence rating="A" system="SORT">A</evidence><xref ref="pubmed9129551" resource="acc003" /><xref ref="pubmed15018852" resource="acc011" /></listitem>
+<listitem>Options for pain control in the acute setting include gabapentin, tramadol, NSAIDs, and tricyclic antidepressants (TCAs).<evidence rating="B" system="SORT">B</evidence><xref ref="poem50502" resource="acc010" /><xref ref="cochrane3726" resource="acc008" /></listitem>
+<listitem>Amitriptyline (25 mg daily for 90 days) initiated within 48 hours reduces the incidence of persistent pain at six months in patients older than 60 years.<evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9204652" resource="acc006" /></listitem>
+<listitem>Postherpetic neuralgia can be treated with TCAs, gabapentin, pregabalin,<xref ref="cochrane7076" resource="acc020" /> opioids, and even intrathecal corticosteroids.<evidence rating="B" system="SORT">B</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Antiviral Therapy</strong></listitem>
+<listitem>Antivirals have been shown to decrease the duration and number of lesions and the severity of pain from acute neuritis and stop viral shedding. Antivirals may reduce pain in the acute setting. Still, other agents may be needed for complete pain relief.<xref ref="poem50502" resource="acc010" /><xref ref="cochrane3726" resource="acc008" /></listitem>
+<listitem>Antivirals have a better effect on individuals older than 50 for HZV infection. Patients younger than 50 should be given antiviral therapy on a case-by-case basis, depending on the severity of illness and comorbidities.</listitem>
+<listitem>Antiviral therapy should be initiated within 72 hours of the onset of symptoms. After 72 hours, antiviral treatment should be started for all immunocompromised patients and if there are new, none crusted lesions or complications.</listitem>
+<listitem>Oral valacyclovir (1000 mg three times daily (tid)) and oral famciclovir (500 mg tid) are superior to oral acyclovir (800 mg five times daily). Acyclovir has lower oral bioavailability and decreased antiviral activities. Treatment should be for seven days with valacyclovir and famciclovir; 7 to 10 days with acyclovir.<xref ref="pubmed9129551" resource="acc003" /><xref ref="pubmed15018852" resource="acc011" /> Depending on the complication, consider intravenous antiviral therapy.</listitem>
+<listitem>In patients who cannot afford newer antivirals such as famciclovir or valacyclovir, acyclovir is a reasonable choice.</listitem>
+<listitem>Acyclovir and famciclovir do not decrease the incidence of postherpetic neuralgia; there are insufficient data on other newer antiviral agents.<xref ref="pubmed24500927" resource="acc015" />There is some evidence that antivirals may reduce the amount of pain in patients with postherpetic neuralgia.<xref ref="pubmed9129551" resource="acc003" /></listitem>
+<listitem><strong>Corticosteroids</strong></listitem>
+<listitem>When used, corticosteroids need to be administered with antiviral therapy. Adding corticosteroids to the treatment plan shows only modest benefits in the early crusting of lesions, reduction of acute pain, and improved activities of daily living.<xref ref="poem1175" resource="acc005" /></listitem>
+<listitem>A systematic review identified 11 case reports of steroids for herpes zoster ophthalmicus, with no clear difference in outcomes between patients receiving antivirals only compared with those receiving combination therapy.<xref ref="pubmed37307095" resource="acc048" /></listitem>
+<listitem>Adding steroids confers no benefit in the prevention of postherpetic neuralgia.<evidence rating="B" system="SORT">B</evidence><xref ref="poem1175" resource="acc005" /><xref ref="cochrane5582" resource="acc007" /></listitem>
+<listitem><strong>Other Pharmacotherapy</strong></listitem>
+<listitem>Nonsteroidal anti-inflammatory drugs (NSAIDs), acetaminophen, and tricyclic antidepressants (TCAs) are beneficial in managing pain in the acute setting.</listitem>
+<listitem>5&#x0025; lidocaine patch applied bid to intact skin with acute allodynia from HZ resulted in decreased pain compared to the vehicle (placebo) patch.<xref ref="pubmed18675742" resource="acc027" /></listitem>
+<listitem>Topical capsaicin can be considered for neuropathic pain. In a Cochrane review of 6 trials (389 participants in total) comparing the regular application of low dose (0.075&#x0025;) capsaicin cream with placebo cream; the NNT for any pain relief over six to eight weeks was 6.6 (4.1-17).<xref ref="cochrane7393" resource="acc017" /></listitem>
+<listitem>Amitriptyline 25 mg nightly for 90 days, started in patients aged 60 and older, within 48 hours of rash onset reduced the risk of postherpetic neuralgia.<xref ref="pubmed9204652" resource="acc006" /></listitem>
+<listitem>Gabapentin, in one study, has been shown to lessen the pain in the acute setting when given as a single dose of 900 mg.<xref ref="pubmed16087911" resource="acc004" /></listitem>
+<listitem>Pregabalin is effective in treating symptoms of postherpetic neuralgia (NNT &#x003D; 5 to achieve at least a 50&#x0025; improvement in symptoms).<xref ref="cochrane7076" resource="acc020" /></listitem>
+<listitem>In a small cross-over study, the combination of gabapentin and nortriptyline appeared more effective in treatment-naive patients than either drug alone.<xref ref="poem111246" resource="acc016" /></listitem>
+<listitem>A systematic review identified 6 RCTs with 292 patients comparing gabapentin (n&#x003D;118) or pregabalin (n&#x003D;37) with placebo. Studies were at high risk of bias and high heterogeneity. Possible reduction of pain with gabapentin was seen at 4 weeks but not 1 and 2 weeks.<xref ref="pubmed38651606" resource="acc049" /></listitem>
+<listitem>Oxycodone are more effective than placebo or gabapentin for pain in the acute setting of HZ.<xref ref="cochrane3726" resource="acc008" /><xref ref="pubmed19195785" resource="acc028" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem><strong>Acupuncture</strong></listitem>
+<listitem>In patients with severe pain from HZ acute neuritis, a randomized controlled trial (RCT) showed acupuncture provide significant and comparable pain relief when compared to patients treated with pregabalin (75-600 mg&#x002F;day), local anesthesia (peridural neural blockage in those with lumbar or sacral involvement; or perineural peripheral blockade), and opioid (transdermal buprenorphine 35-90 mcg&#x002F;h or oral oxycodone 50-400 mg daily) combined.<xref ref="pubmed21639941" resource="acc029" /></listitem>
+<listitem>A systematic review and meta-analysis of RCT showed that acupuncture combined with moxibustion decreased pain intensity compared to pharmacotherapy, but the authors were unable to establish clinical significance.<xref ref="pubmed28338265" resource="acc030" /></listitem>
+<listitem><strong>Transforaminal Epidural Steroid Injection (TFESI)</strong></listitem>
+<listitem>In a retrospective cohort study, dexamethasone 5mg and 3 ml of 0.18&#x0025; ropivacine, when administered within 12 weeks of HZ infection via TFESI, can decrease pain by targeting the affected nerve root and dorsal spinal ganglion. This study was limited to three months follow-up.<xref ref="pubmed34323455" resource="acc035" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Depending on the severity and extent of the complication from HZV infection, consider referral or hospitalization.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem><strong>Postherpetic Neuralgia (PHN)</strong></listitem>
+<listitem>The most common complication from HZ is PHN. Depending on the source, one defined PHN as residual pain in the affected dermatome at 30 days or more.</listitem>
+<listitem>More than 50&#x0025; of cases of PHN are in patients over the age of 50 years.</listitem>
+<listitem>PEER systemic review of randomized controlled trials in patients with PHN, diabetic neuropathy, and trigeminal neuralgia showed moderate success with anticonvulsants and serotonin-norepinephrine reuptake inhibitors (SNRIs). There was inadequate clinical evidence for pain control with capsaicin, scant evidence for pain relief with tricyclic antidepressants (TCAs), and very low-quality evidence on the effectiveness of acupuncture.<xref ref="pubmed33980642" resource="acc036" /></listitem>
+<listitem>Anticonvulsants (gabapentin and pregabalin) were helpful in patients with chronic neuropathic conditions, with an NNT of 7 (95&#x0025; CI 1.45 TO 1.63).<xref ref="pubmed33980642" resource="acc036" /> In a Cochrane review of gabapentin for chronic pain, including two PHN trials, the NNT for effective pain relief in PHN was 3.9 (95&#x0025; CI, 3.0-5.7).<xref ref="cochrane5452" resource="acc018" /> Another Cochrane review found the pregabalin 300-600 mg daily dose to have the best (lowest) number needed to treat for an additional beneficial (NNTB) outcome with at least 30&#x0025; pain relief compared to placebo in patients with PHN. At these doses, somnolence occurred in 16&#x0025; to 25&#x0025;, and dizziness occurred in 29&#x0025; to 35&#x0025;.<xref ref="cochrane7076" resource="acc020" /></listitem>
+<listitem>SNRIs (duloxetine, venlafaxine, or desvenlafaxine), compared to placebo, NNT was 7 (95&#x0025; CI 1.33 to 1.59).<xref ref="pubmed33980642" resource="acc036" /></listitem>
+<listitem>There is no good quality or long-term randomized controlled trial using tricyclic antidepressants (TCAs).<xref ref="pubmed33980642" resource="acc036" /></listitem>
+<listitem>8&#x0025; high-concentration topical capsaicin applied to the affected area in the clinic may result in moderate pain relief in a small number of patients with PHN.<xref ref="cochrane7393" resource="acc017" /> Though, RCTs did not show a difference between low or high potency treatment.</listitem>
+<listitem>Topical lidocaine may provide pain relief in some patients.<xref ref="pubmed17825701" resource="acc019" /> Depending on the regional cost of the treatment, it may be more cost-effective than other options.</listitem>
+<listitem>Intrathecal methylprednisolone reduces pain from postherpetic neuralgia. Due to the invasive nature and potentially serious complications, it should be reserved for those patients not responsive to other modalities.</listitem>
+<listitem>A phase 3 trial randomized patients with post-herpetic neuralgia to crisugabalin 20 mg twice daily, 40 mg twice daily, or placebo for 12 weeks. Changes in an 11 point symptom scorewere greater for the 40 mg (-2.2 points) and 80 mg (-2.6 points) than placebo (-1.1 points). This difference was statistically significant but is of uncertain clinical significance.<xref ref="pubmed39320907" resource="acc046" /></listitem>
+<listitem><strong>Herpes Zoster Ophthalmicus (HZO)</strong></listitem>
+<listitem>Patients with eye involvement, such as HZO, should be referred to an ophthalmologist.</listitem>
+<listitem>Standard treatment is valacyclovir 1000 mg three times daily for 7 to 14 days, initiated within 72 hours of the onset of symptoms.<xref ref="pubmed7492102" resource="acc043" /></listitem>
+<listitem>A systematic review identified 11 case reports of steroids for herpes zoster ophthalmicus, with no clear difference in outcomes between patients receiving antivirals only compared with those receiving combination therapy.<xref ref="pubmed37307095" resource="acc048" /></listitem>
+<listitem>Patients diagnosed with herpes zoster ophthalmicus were found to have a 4.5-fold (95&#x0025; CI, 2.4-8.3) higher risk of stroke than the matched comparison cohort.<xref ref="pubmed20200348" resource="acc021" /></listitem>
+<listitem>Case reports have reported use of systemic corticosteroids in patients with HZO but clinical trials are lacking.<xref ref="pubmed33186598" resource="acc044" /></listitem>
+<listitem>Predictors of recurrence of HZO include the presence of immunosuppression, a higher initial intraocular pressure, uveitis, and involvement of the cornea.<xref ref="pubmed38909743" resource="acc045" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Most patients, whether treated or not, will recover completely: the lesions will gradually crust and fade over a 5- to 10-day period, and pain will subside within one month.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Postherpetic neuralgia is unpredictable but occurs more frequently in older individuals, particularly those not treated with antivirals.<evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Treatment with antivirals, if initiated within 72 hours, does not reduce the incidence of postherpetic neuralgia. However, there is some evidence that it may reduce pain in patients with postherpetic neuralgia.<xref ref="pubmed24500927" resource="acc015" /><xref ref="pubmed15018852" resource="acc011" /><xref ref="pubmed9129551" resource="acc003" /><evidence rating="B" system="SORT">B</evidence></listitem>
+<listitem>A study of 94 immunocompetent patients with herpes zoster and pain of at least 20 on a scale of 0 to 100 followed them for six months. While half reported at least some pain at three months, and 32&#x0025; still reported pain at six months, the average pain report was 11 on the 100-point scale. Only 3&#x0025; of patients reported &#x201C;clinically relevant pain&#x201D; at three months, and only 2&#x0025; scored at least three on the 100-point scale at six months.<xref ref="poem90752" resource="acc009" /></listitem>
+<listitem>In patients with a previous episode of herpes zoster, 1.2-9.6&#x0025; experienced a recurrence. Recurrence was more common in females, younger patients, immunocompromized persons, comorbidities (e.g., diabetes, chronic obstructive lung disease, chronic kideny disease) and those with a family history.<xref ref="poem334763" resource="acc037" /><xref ref="pubmed38416279" resource="acc042" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>All patients over age 50 should be treated with antivirals, given no contraindications to the medication, as long as patients are within the 72-hour window or if they are beyond the 72-hour window, and new lesions or complications are present.</listitem>
+<listitem>One RCT of patients older than 60 years with shingles compared 25 mg amitriptyline initiated within 48 hours of the rash onset and continued for 90 days with a placebo. The amitriptyline group showed a 50&#x0025; decrease in pain prevalence at six months (NNT &#x003D; 5).<xref ref="pubmed9204652" resource="acc006" /></listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>Pregnant women should avoid exposure to HZ or varicella if they are not immune.</listitem>
+<listitem>In a population-based historical cohort study of 837,795 live-born infants in Denmark, exposure to acyclovir, valacyclovir, or famciclovir in the first trimester (N &#x003D; 1804 pregnancies) was not associated with an increased risk of major birth defects.<xref ref="pubmed20736469" resource="acc022" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>HZ is much less common in children.</listitem>
+<listitem>Diagnosis is the same, but treatment may not be necessary other than acute pain relief.</listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="test289">
+<accessionId id="acc001" href="info:wiley/eep-dx/289" />
+<accessionId id="acc001b" href="info:pmid/9809689" />
+<authors>Tebas P, Nease RF, Storch GA.</authors>
+<title>Use of the polymerase chain reaction in the diagnosis of herpes simplex encephalitis: A decision analysis model.</title>
+<source>Am J Med</source>
+<pubdate>1998</pubdate>
+<volume>105</volume>
+<pages>287&#x2013;295.</pages>
+</reference>
+<reference id="test394">
+<accessionId id="acc002" href="info:wiley/eep-dx/394" />
+<accessionId id="acc002b" href="info:wiley/eep-dx/294" />
+<accessionId id="acc002c" href="info:pmid/10548128" />
+<authors>Sauerbrei A, Eichhorn U, Schacke M, Wutzler P.</authors>
+<title>Laboratory diagnosis of herpes zoster.</title>
+<source>J Clin Virol</source>
+<pubdate>1999</pubdate>
+<volume>14</volume>
+<pages>31&#x2013;36.</pages>
+</reference>
+<reference id="pubmed9129551">
+<accessionId id="acc003" href="info:pmid/9129551" />
+<authors>Jackson JL, Gibbons R, Meyer G, Inouye L.</authors>
+<title>The effect of treating herpes zoster with oral acyclovir in preventing postherpetic neuralgia. A meta-analysis.</title>
+<source>Ann Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>157</volume>
+<pages>909&#x2013;912.</pages>
+</reference>
+<reference id="pubmed16087911">
+<accessionId id="acc004" href="info:pmid/16087911" />
+<authors>Berry JD, Petersen KL.</authors>
+<title>A single dose of gabapentin reduces acute pain and allodynia in patients with herpes zoster.</title>
+<source>Neurology</source>
+<pubdate>2005</pubdate>
+<volume>65</volume>
+<pages>444&#x2013;447.</pages>
+</reference>
+<reference id="poem1175">
+<accessionId id="acc005" href="info:wiley/eep-poem/1175" />
+<accessionId id="acc005b" href="info:pmid/8702088" />
+<authors>Whitley RJ, Weiss H, Gnann JW, Jr., et al.</authors>
+<title>Acyclovir with and without prednisone for the treatment of herpes zoster. A randomized, placebo-controlled trial. The National Institute of Allergy and Infectious Diseases Collaborative Antiviral Study Group.</title>
+<source>Ann Intern Med</source>
+<pubdate>1996</pubdate>
+<volume>125</volume>
+<pages>376&#x2013;383.</pages>
+</reference>
+<reference id="pubmed9204652">
+<accessionId id="acc006" href="info:pmid/9204652" />
+<authors>Bowsher D.</authors>
+<title>The effects of pre-emptive treatment of postherpetic neuralgia with amitriptyline: A randomized, double-blind, placebo-controlled trial.</title>
+<source>J Pain Symptom Manage</source>
+<pubdate>1997</pubdate>
+<volume>13</volume>
+<pages>327&#x2013;331.</pages>
+</reference>
+<reference id="cochrane5582">
+<accessionId id="acc007" href="info:wiley/cochrane/CD005582" />
+<chapter_authors>Han Y, Zhang J, Chen N, He L, Zhou M, Zhu C.</chapter_authors>
+<chapter_title>Corticosteroids for preventing postherpetic neuralgia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 3. Art. No.: CD005582. DOI: 10.1002&#x002F;14651858.CD005582.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane3726">
+<accessionId id="acc008" href="info:wiley/cochrane/CD003726" />
+<chapter_authors>Duehmke RM, Derry S, Wiffen PJ, Bell RF, Aldington D, Moore RA.</chapter_authors>
+<chapter_title>Tramadol for neuropathic pain in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 6. Art. No.: CD003726. DOI: 10.1002&#x002F;14651858.CD003726.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="poem90752">
+<accessionId id="acc009" href="info:wiley/eep-poem/90752" />
+<accessionId id="acc009b" href="info:pmid/17070998" />
+<authors>Thyregod HG, Rowbotham MC, Peters M, Possehn J, Berro M, Petersen KL.</authors>
+<title>Natural history of pain following herpes zoster.</title>
+<source>Pain</source>
+<pubdate>2007</pubdate>
+<volume>128</volume>
+<pages>148&#x2013;156.</pages>
+</reference>
+<reference id="poem50502">
+<accessionId id="acc010" href="info:wiley/eep-poem/50502" />
+<accessionId id="acc010b" href="info:pmid/12370455" />
+<authors>Raja SN, Haythornthwaite JA, Pappagallo M, et al.</authors>
+<title>Opioids versus antidepressants in postherpetic neuralgia: A randomized, placebo-controlled trial.</title>
+<source>Neurology</source>
+<pubdate>2002</pubdate>
+<volume>59</volume>
+<pages>1015&#x2013;1021.</pages>
+</reference>
+<reference id="pubmed15018852">
+<accessionId id="acc011" href="info:pmid/15018852" />
+<authors>Shafran SD, Tyring SK, Ashton R, et al.</authors>
+<title>Once, twice, or three times daily famciclovir compared with aciclovir for the oral treatment of herpes zoster in immunocompetent adults: A randomized, multicenter, double-blind clinical trial.</title>
+<source>J Clin Virol</source>
+<pubdate>2004</pubdate>
+<volume>29</volume>
+<pages>248&#x2013;253.</pages>
+</reference>
+<reference id="pubmed7618983">
+<accessionId id="acc012" href="info:pmid/7618983" />
+<authors>Donahue JG, Choo PW, Manson JE, Platt R.</authors>
+<title>The incidence of herpes zoster.</title>
+<source>Arch Intern Med</source>
+<pubdate>1995</pubdate>
+<volume>155</volume>
+<pages>1605&#x2013;1609.</pages>
+</reference>
+<reference id="pubmed7876622">
+<accessionId id="acc013" href="info:pmid/7876622" />
+<authors>Schmader K, George LK, Burchett BM, Pieper CF, Hamilton JD.</authors>
+<title>Racial differences in the occurrence of herpes zoster.</title>
+<source>J Infect Dis</source>
+<pubdate>1995</pubdate>
+<volume>171</volume>
+<pages>701&#x2013;704.</pages>
+</reference>
+<reference id="pubmed20178416">
+<accessionId id="acc014" href="info:pmid/20178416" />
+<authors>Rimland D, Moanna A.</authors>
+<title>Increasing incidence of herpes zoster among Veterans.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2010</pubdate>
+<volume>50</volume>
+<pages>1000&#x2013;1005.</pages>
+</reference>
+<reference id="pubmed24500927">
+<accessionId id="acc015" href="info:pmid/24500927" />
+<accessionId id="acc015b" href="info:wiley/cochrane/CD006866" />
+<chapter_authors>Chen N, Li Q, Yang J, Zhou M, Zhou D, He L.</chapter_authors>
+<chapter_title>Antiviral treatment for preventing postherpetic neuralgia.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database Syst Rev</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year> 2014</year>
+<pages>CD006866.</pages>
+<isbn />
+</reference>
+<reference id="poem111246">
+<accessionId id="acc016" href="info:wiley/eep-poem/111246" />
+<accessionId id="acc016b" href="info:pmid/19796802" />
+<authors>Gilron I, Bailey JM, Tu D, Holden RR, Jackson AC, Houlden RL.</authors>
+<title>Nortriptyline and gabapentin, alone and in combination for neuropathic pain: A double-blind, randomised controlled crossover trial.</title>
+<source>Lancet</source>
+<pubdate>2009</pubdate>
+<volume>374</volume>
+<pages>1252&#x2013;1256.</pages>
+</reference>
+<reference id="cochrane7393">
+<accessionId id="acc017" href="info:wiley/cochrane/CD007393" />
+<chapter_authors>Derry S, Rice AS, Cole P, Tan T, Moore RA.</chapter_authors>
+<chapter_title>Topical capsaicin (high concentration) for chronic neuropathic pain in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2017, Issue 1. Art. No.: CD007393. DOI: 10.1002&#x002F;14651858.CD007393.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5452">
+<accessionId id="acc018" href="info:wiley/cochrane/CD005452" />
+<chapter_authors>Wiffen PJ, McQuay HJ, Edwards J, Moore R.</chapter_authors>
+<chapter_title>Gabapentin for acute and chronic pain (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2010 Issue 8.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed17825701">
+<accessionId id="acc019" href="info:pmid/17825701" />
+<authors>Dakin H, Nuijten M, Liedgens H, Nautrup BP.</authors>
+<title>Cost-effectiveness of a lidocaine 5&#x0025; medicated plaster relative to gabapentin for postherpetic neuralgia in the United Kingdom.</title>
+<source>Clin Ther</source>
+<pubdate>2007</pubdate>
+<volume>29</volume>
+<pages>1491&#x2013;1507.</pages>
+</reference>
+<reference id="cochrane7076">
+<accessionId id="acc020" href="info:wiley/cochrane/CD007076" />
+<chapter_authors>Derry S, Bell RF, Straube S, Wiffen PJ, Aldington D, Moore RA.</chapter_authors>
+<chapter_title>Pregabalin for neuropathic pain in adults.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2019, Issue 1. Art. No.: CD007076. DOI: 10.1002&#x002F;14651858.CD007076.pub3.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed20200348">
+<accessionId id="acc021" href="info:pmid/20200348" />
+<authors>Lin HC, Chien CW, Ho JD.</authors>
+<title>Herpes zoster ophthalmicus and the risk of stroke: A population-based follow-up study.</title>
+<source>Neurology</source>
+<pubdate>2010</pubdate>
+<volume>74</volume>
+<pages>792&#x2013;797.</pages>
+</reference>
+<reference id="pubmed20736469">
+<accessionId id="acc022" href="info:pmid/20736469" />
+<authors>Pasternak B, Hviid A.</authors>
+<title>Use of acyclovir, valacyclovir, and famciclovir in the first trimester of pregnancy and the risk of birth defects.</title>
+<source>JAMA</source>
+<pubdate>2010</pubdate>
+<volume>304</volume>
+<pages>859&#x2013;866.</pages>
+</reference>
+<reference id="poem140921">
+<accessionId id="acc023" href="info:wiley/eep-poem/140921" />
+<accessionId id="acc023b" href="info:pmid/22760290" />
+<authors>Zhang J, Xie F, Delzell E, Chen L, Winthrop KL, Lewis JD, Saag KG, Baddley JW, Curtis JR.</authors>
+<title>Association between vaccination for herpes zoster and risk of herpes zoster infection among older patients with selected immune-mediated diseases.</title>
+<source>JAMA</source>
+<pubdate>2012</pubdate>
+<volume>308</volume>
+<pages>43&#x2013;49.</pages>
+</reference>
+<reference id="pubmed29370152">
+<accessionId id="acc024" href="info:pmid/29370152" />
+<authors>Dooling KL, Guo A, Patel M, Lee GM, Moore K, Belongia EA, Harpaz R.</authors>
+<title>Recommendations of the advisory committee on immunization practices for use of herpes zoster vaccines.</title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<pubdate>2018</pubdate>
+<volume>67</volume>
+<pages>103&#x2013;108.</pages>
+</reference>
+<reference id="poem210204">
+<accessionId id="acc025" href="info:wiley/eep-poem/210204" />
+<accessionId id="acc025b" href="info:pmid/30361202" />
+<authors>Tricco AC, Zarin W, Cardoso R, Veroniki AA, Khan PA, Nincic V, Ghassemi M, Warren R, Sharpe JP, Page AV, Straus SE.</authors>
+<title>Efficacy, effectiveness, and safety of herpes zoster vaccines in adults aged 50 and older: Systematic review and network meta-analysis.</title>
+<source>BMJ</source>
+<pubdate>2018</pubdate>
+<volume>363</volume>
+<pages>k4029.</pages>
+</reference>
+<reference id="pubmed30600654">
+<accessionId id="acc026" href="info:pmid/30600654" />
+<authors>Lee E, Chun JY, Song KH, Choe PG, Bang JH, Kim ES, Kim HB, Park SW, Kim NJ, Park WB, Oh MD.</authors>
+<title>Optimal timing of zoster vaccination after shingles: A prospective study of the immunogenicity and safety of live zoster vaccine.</title>
+<source>Infect Chemother</source>
+<pubdate>2018</pubdate>
+<volume>50</volume>
+<pages>311&#x2013;318.</pages>
+</reference>
+<reference id="pubmed18675742">
+<accessionId id="acc027" href="info:pmid/18675742" />
+<authors>Lin PL, Fan SZ, Huang CH, Huang HH, Tsai MC, Lin CJ, Sun WZ.</authors>
+<title>Analgesic effect of lidocaine patch 5&#x0025; in the treatment of acute herpes zoster: A double-blind and vehicle-controlled study.</title>
+<source>Reg Anesth Pain Med</source>
+<pubdate>2008 Jul-Aug</pubdate>
+<volume>33</volume>
+<pages>320&#x2013;325.</pages>
+</reference>
+<reference id="pubmed19195785">
+<accessionId id="acc028" href="info:pmid/19195785" />
+<authors>Dworkin RH, Barbano RL, Tyring SK, Betts RF, McDermott MP, Pennella-Vaughan J, Bennett GJ, Berber E, Gnann JW, Irvine C, Kamp C, Kieburtz K, Max MB, Schmader KE.</authors>
+<title>A randomized, placebo-controlled trial of oxycodone and of gabapentin for acute pain in herpes zoster.</title>
+<source>Pain</source>
+<pubdate>2009</pubdate>
+<volume>142</volume>
+<pages>209&#x2013;217.</pages>
+</reference>
+<reference id="pubmed21639941">
+<accessionId id="acc029" href="info:pmid/21639941" />
+<authors>Ursini T, Tontodonati M, Manzoli L, Polilli E, Rebuzzi C, Congedo G, Di Profio S, Toro PM, Consorte A, Placido G, Lagan&#x00E0; S, D'Amario C, Granchelli C, Parruti G, Pippa L, VZV Pain Study Group.</authors>
+<title>Acupuncture for the treatment of severe acute pain in herpes zoster: Results of a nested, open-label, randomized trial in the VZV Pain Study.</title>
+<source>BMC Complement Altern Med</source>
+<pubdate>2011</pubdate>
+<volume>11</volume>
+<pages>46.</pages>
+</reference>
+<reference id="pubmed28338265">
+<accessionId id="acc030" href="info:pmid/28338265" />
+<authors>Coyle ME, Liang H, Wang K, Zhang AL, Guo X, Lu C, Xue CC.</authors>
+<title>Acupuncture plus moxibustion for herpes zoster: A systematic review and meta-analysis of randomized controlled trials.</title>
+<source>Dermatol Ther</source>
+<pubdate>2017</pubdate>
+<volume>30</volume>
+<pages />
+</reference>
+<reference id="pubmed15930418">
+<accessionId id="acc031" href="info:pmid/15930418" />
+<authors>Oxman MN, Levin MJ, Johnson GR, Schmader KE, Straus SE, Gelb LD, Arbeit RD, Simberkoff MS, Gershon AA, Davis LE, Weinberg A, Boardman KD, Williams HM, Zhang JH, Peduzzi PN, Beisel CE, Morrison VA, Guatelli JC, Brooks PA, Kauffman CA, Pachucki CT, Neuzil KM, Betts RF, Wright PF, Griffin MR, Brunell P, Soto NE, Marques AR, Keay SK, Goodman RP, Cotton DJ, Gnann JW Jr, Loutit J, Holodniy M, Keitel WA, Crawford GE, Yeh SS, Lobo Z, Toney JF, Greenberg RN, Keller PM, Harbecke R, Hayward AR, Irwin MR, Kyriakides TC, Chan CY, Chan IS, Wang WW, Annunziato PW, Silber JL, Shingles Prevention Study Group.</authors>
+<title>A vaccine to prevent herpes zoster and postherpetic neuralgia in older adults.</title>
+<source>N Engl J Med</source>
+<pubdate>2005</pubdate>
+<volume>352</volume>
+<pages>2271&#x2013;2284.</pages>
+</reference>
+<reference id="pubmed30776797">
+<accessionId id="acc032" href="info:pmid/30776797" />
+<authors>Prosser LA, Harpaz R, Rose AM, Gebremariam A, Guo A, Ortega-Sanchez IR, Zhou F, Dooling K.</authors>
+<title>A cost-effectiveness analysis of vaccination for prevention of herpes zoster and related complications: Input for national recommendations.</title>
+<source>Ann Intern Med</source>
+<pubdate>2019</pubdate>
+<volume>170</volume>
+<pages>380&#x2013;388.</pages>
+</reference>
+<reference id="pubmed31399378">
+<accessionId id="acc033" href="info:pmid/31399378" />
+<authors>Mullane KM, Morrison VA, Camacho LH, Arvin A, McNeil SA, Durrand J, Campbell B, Su SC, Chan ISF, Parrino J, Kaplan SS, Popmihajlov Z, Annunziato PW, V212 Protocol 011 Trial Team.</authors>
+<title>Safety and efficacy of inactivated varicella zoster virus vaccine in immunocompromised patients with malignancies: A two-arm, randomised, double-blind, phase 3 trial.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2019</pubdate>
+<volume>19</volume>
+<pages>1001&#x2013;1012.</pages>
+</reference>
+<reference id="pubmed18443311">
+<accessionId id="acc034" href="info:pmid/18443311" />
+<authors>Alshekhlee A, Hussain Z, Sultan B, Katirji B.</authors>
+<title>Guillain-Barr&#x00E9; syndrome: Incidence and mortality rates in US hospitals.</title>
+<source>Neurology</source>
+<pubdate>2008</pubdate>
+<volume>70</volume>
+<pages>1608&#x2013;13.</pages>
+</reference>
+<reference id="pubmed34323455">
+<accessionId id="acc035" href="info:pmid/34323455" />
+<authors>Nahm FS, Choi E, Han WK, Lee HJ, Gil HY, Kim JH, Lee PB, Ju H.</authors>
+<title>Transforaminal Epidural Steroid Injection for Zoster-Related Pain: The Golden Period for the Best Outcome.</title>
+<source>Pain Physician</source>
+<pubdate>2021</pubdate>
+<volume>24</volume>
+<pages>E669&#x2013;E676.</pages>
+</reference>
+<reference id="pubmed33980642">
+<accessionId id="acc036" href="info:pmid/33980642" />
+<authors>Falk J, Thomas B, Kirkwood J, Korownyk CS, Lindblad AJ, Ton J, Moe S, Allan GM, McCormack J, Garrison S, Dugr&#x00E9; N, Chan K, Kolber MR, Train A, Froentjes L, Sept L, Wollin M, Craig R, Perry D.</authors>
+<title>PEER systematic review of randomized controlled trials: Management of chronic neuropathic pain in primary care.</title>
+<source>Can Fam Physician</source>
+<pubdate>2021</pubdate>
+<volume>67</volume>
+<pages>e130&#x2013;e140.</pages>
+</reference>
+<reference id="poem334763">
+<accessionId id="acc037" href="info:wiley/eep-poem/334763" />
+<accessionId id="acc037b" href="info:pmid/32622890" />
+<authors>Qian J, Macartney K, Heywood AE, Sheridan S, Liu B.</authors>
+<title>Risk of recurrent herpes zoster in a population-based cohort study of older adults.</title>
+<source>J Am Acad Dermatol</source>
+<pubdate>2021</pubdate>
+<volume>85</volume>
+<pages>611&#x2013;618.</pages>
+</reference>
+<reference id="pubmed33197294">
+<accessionId id="acc038" href="info:pmid/33197294" />
+<authors>Curran D, Kim JH, Matthews S, Dessart C, Levin MJ, Oostvogels L, Riley ME, Schmader KE, Cunningham AL, McNeil SA, Schuind AE, Andrew MK, Zoster-064 Study Group.</authors>
+<title>Recombinant Zoster Vaccine Is Efficacious and Safe in Frail Individuals.</title>
+<source>J Am Geriatr Soc</source>
+<pubdate>2021</pubdate>
+<volume>69</volume>
+<pages>744&#x2013;752.</pages>
+</reference>
+<reference id="pubmed36892937">
+<accessionId id="acc039" href="info:pmid/36892937" />
+<authors>Wang Q, Yang L, Li L, Liu C, Jin H, Lin L.</authors>
+<title>Willingness to Vaccinate Against Herpes Zoster and Its Associated Factors Across WHO Regions: Global Systematic Review and Meta-Analysis.</title>
+<source>JMIR Public Health Surveill</source>
+<pubdate>2023</pubdate>
+<volume>9</volume>
+<pages>e43893.</pages>
+</reference>
+<reference id="pubmed38358762">
+<accessionId id="acc040" href="info:pmid/38358762" />
+<authors>Walia A, Sun Y, Acharya NR.</authors>
+<title>Risk of Herpes Zoster Ophthalmicus Recurrence After Recombinant Zoster Vaccination.</title>
+<source>JAMA Ophthalmol</source>
+<pubdate>2024</pubdate>
+<volume>142</volume>
+<pages>249&#x2013;256.</pages>
+</reference>
+<reference id="pubmed38190712">
+<accessionId id="acc041" href="info:pmid/38190712" />
+<authors>Zerbo O, Bartlett J, Fireman B, Lewis N, Goddard K, Dooling K, Duffy J, Glanz J, Naleway A, Donahue JG, Klein NP.</authors>
+<title>Effectiveness of Recombinant Zoster Vaccine Against Herpes Zoster in a Real-World Setting.</title>
+<source>Ann Intern Med</source>
+<pubdate>2024</pubdate>
+<volume>177</volume>
+<pages>189&#x2013;195.</pages>
+</reference>
+<reference id="pubmed38416279">
+<accessionId id="acc042" href="info:pmid/38416279" />
+<authors>Parikh R, Spence O, Giannelos N, Kaan I.</authors>
+<title>Herpes Zoster Recurrence: A Narrative Review of the Literature.</title>
+<source>Dermatol Ther (Heidelb)</source>
+<pubdate>2024</pubdate>
+<volume>14</volume>
+<pages>569&#x2013;592.</pages>
+</reference>
+<reference id="pubmed7492102">
+<accessionId id="acc043" href="info:pmid/7492102" />
+<authors>Beutner KR, Friedman DJ, Forszpaniak C, Andersen PL, Wood MJ.</authors>
+<title>Valaciclovir compared with acyclovir for improved therapy for herpes zoster in immunocompetent adults.</title>
+<source>Antimicrob Agents Chemother</source>
+<pubdate>1995</pubdate>
+<volume>39</volume>
+<pages>1546&#x2013;53.</pages>
+</reference>
+<reference id="pubmed33186598">
+<accessionId id="acc044" href="info:pmid/33186598" />
+<authors>Li A, Tandon A, Dinkin M, Oliveira C.</authors>
+<title>The Use of Systemic Steroids in the Treatment of Herpes Zoster Ophthalmicus-Related Ophthalmoplegia: Case Report and Case Meta-analysis.</title>
+<source>Am J Ophthalmol</source>
+<pubdate>2021</pubdate>
+<volume>223</volume>
+<pages>241&#x2013;245.</pages>
+</reference>
+<reference id="pubmed38909743">
+<accessionId id="acc045" href="info:pmid/38909743" />
+<authors>Scott DAR, Liu K, Danesh-Meyer HV, Niederer RL.</authors>
+<title>Herpes Zoster Ophthalmicus Recurrence: Risk Factors and Long-Term Clinical Outcomes.</title>
+<source>Am J Ophthalmol</source>
+<pubdate>2024</pubdate>
+<volume>268</volume>
+<pages>1&#x2013;9.</pages>
+</reference>
+<reference id="pubmed39320907">
+<accessionId id="acc046" href="info:pmid/39320907" />
+<authors>Zhang D, Lei T, Qin L, Li C, Lin X, Wang H, Zhang G, Zhang S, Shi K, Li L, Yang Z, Yang X, Ba X, Gao Y, Zhang Z, Wang G, Wu L, Wang Y, Wang Y, Zhu S, Shi J, Ye Z, Yang C, Liu C, Zhang T, Lu S, Yu N, Li X, Han X, Chen X, Wan L, Cheng Z, Bai N, Jin Z, Yu C, Zhang W, Lu J, Wang D, Sun H, Wu W, Qin P, Feng Z, Chen R, Zhang T, Yang D, Yin W, Zhang J, Li X, Li F, Wu T, Lu Q.</authors>
+<title>Efficacy and Safety of Crisugabalin (HSK16149) in Adults with Postherpetic Neuralgia: A Phase 3 Randomized Clinical Trial.</title>
+<source>JAMA Dermatol</source>
+<pubdate>2024</pubdate>
+<volume>160</volume>
+<pages>1182&#x2013;1191.</pages>
+</reference>
+<reference id="pubmed39585863">
+<accessionId id="acc047" href="info:pmid/39585863" />
+<authors>Marra F, Yip M, Cragg JJ, Vadlamudi NK.</authors>
+<title>Systematic review and meta-analysis of recombinant herpes zoster vaccine in immunocompromised populations.</title>
+<source>PLoS One</source>
+<pubdate>2024</pubdate>
+<volume>19</volume>
+<pages>e0313889.</pages>
+</reference>
+<reference id="pubmed37307095">
+<accessionId id="acc048" href="info:pmid/37307095" />
+<authors>Sverdlichenko I, Tayeb S, Zaslavsky K, Micieli JA, Margolin EA.</authors>
+<title>Antivirals vs Antivirals and Steroids for Treatment of Herpes Zoster-Related Ophthalmoplegia: A Case Series and Systematic Review.</title>
+<source>J Neuroophthalmol</source>
+<pubdate>2024</pubdate>
+<volume>44</volume>
+<pages>380&#x2013;385.</pages>
+</reference>
+<reference id="pubmed38651606">
+<accessionId id="acc049" href="info:pmid/38651606" />
+<authors>Li Y, Long X, Luo F, Zhang J, Sun S, Du P, Yang H, Chen Q, Sheng C, Bai X.</authors>
+<title>Efficacy and Safety of Gabapentinoids for Acute Herpes Zoster Neuralgia: A Systematic Review and Meta-analysis of Randomized Controlled Trials.</title>
+<source>Clin J Pain</source>
+<pubdate>2024</pubdate>
+<volume>40</volume>
+<pages>440&#x2013;446.</pages>
+</reference>
+<reference id="pubmed40175543">
+<accessionId id="acc050" href="info:pmid/40175543" />
+<accessionId id="acc050b" href="info:wiley/poem/307272" />
+<authors>Eyting M, Xie M, Michalik F, He&#x00DF; S, Chung S, Geldsetzer P.</authors>
+<title>A natural experiment on the effect of herpes zoster vaccination on dementia.</title>
+<source>Nature</source>
+<pubdate>2025</pubdate>
+<volume>641</volume>
+<pages>438&#x2013;452.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Herpes Zoster: Diagnostic Approach.</title>
+<graphic href="eee0313-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with painful rash</label>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Is the rash&#x002F;pain unilateral?</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Did pain precede the rash?</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Herpes zoster likely; treat accordingly.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Is rash vesicular and found in groups?</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Herpes zoster likely; treat accordingly.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Herpes zoster unlikely; consider alternate diagnoses.</label>
+</cell>
+</algorithm>
+</algorithm_group>
+</topic>

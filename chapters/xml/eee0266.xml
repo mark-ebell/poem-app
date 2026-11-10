@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Immune thrombocytopenia purpura</title>
+<chapter_type>Management of disease (short)</chapter_type>
+<topic_id>eee0266</topic_id>
+<topic_comment />
+<topic_lastupdated>06/02/2025</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Danielle Snyderman, MD</author_name>
+<author_title>Instructor</author_title>
+<author_department>Department of Family and Community Medicine</author_department>
+<author_institution>Thomas Jefferson University</author_institution>
+<author_email>danielle.snyderman&#x0040;jefferson.edu</author_email>
+<author_phone_office>215-955-5258</author_phone_office>
+<author_phone_home />
+<author_phone_fax>215-955-0640</author_phone_fax>
+<author_street1>1015 Walnut Street</author_street1>
+<author_street2>Suite 401</author_street2>
+<author_city>Philadelphia</author_city>
+<author_state>PA</author_state>
+<author_zip>19107</author_zip>
+</author>
+<author primary="no">
+<author_name>Jay Herman, MD</author_name>
+<author_title>Professor of Hematology and Director of Transfusion Medicine</author_title>
+<author_department>Departments of Internal Medicine and Anatomy, Pathology, and Laboratory Medicine</author_department>
+<author_institution>Thomas Jefferson University</author_institution>
+<author_email>jay.herman&#x0040;jefferson.edu</author_email>
+<author_phone_office>215-955-8244</author_phone_office>
+<author_phone_home />
+<author_phone_fax>215-923-9387</author_phone_fax>
+<author_street1>Transfusion Medicine Office, 8230 Gibbon Bldg, Thomas Jefferson University Hospital, 111 S. 11th St</author_street1>
+<author_street2 />
+<author_city>Philadelphia</author_city>
+<author_state>PA</author_state>
+<author_zip>19107</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Brian Z. Rayala, MD</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Department of Family Medicine, University of North Carolina at Chapel Hill</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MS, MD</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>If the history, physical examination, initial blood counts, and peripheral blood smear (PBS) are consistent with the diagnosis of immune thrombocytopenia purpura (ITP) and do not include atypical findings, additional diagnostic work-up is generally not necessary. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed8704187" resource="acc015" /></listitem>
+<listitem>Treatment decisions are influenced by platelet count and degree of bleeding (see <xref ref="fig001" />). Therapy is not required for platelet counts of less than 30,000. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed1984800" resource="acc004" /></listitem>
+<listitem>Initial management includes treatment with oral prednisone. Other choices for treatment include high-dose dexamethasone, IVIG, and WinRho. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9036806" resource="acc014" /></listitem>
+<listitem>Chronic refractory ITP is defined as persistence for more than 3 months, lack of response to splenectomy, and platelet count less than 50,000. Treatment options include glucocorticoids, rituximab, cyclophosphamide, vincristine, and methylprednisone. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed14734334" resource="acc013" /></listitem>
+</list>
+</BottomLine>
+<definition>Isolated thrombocytopenia in a patient with no clinically apparent associated conditions or factors that can cause thrombocytopenia.<xref ref="pubmed9036806" resource="acc014" />
+</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>The incidence is 1 in 20,000 adults; it increases with age and is more common in adult women.<xref ref="pubmed10419881" resource="acc012" /></listitem>
+<listitem>The incidence in children is 3 to 8 per 100,000.<xref ref="pubmed7992681" resource="acc011" /></listitem>
+<listitem>The incidence for both adults and children is likely an underestimate because it is based on symptomatic disease.</listitem>
+</list>
+</incidence>
+<prevalence />
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Autoimmune disorder.</listitem>
+<listitem>Includes genetic and acquired factors.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>ITP results from both increased immune destruction of platelets and insufficient platelet production.</listitem>
+<listitem>Thrombopoiesis in ITP is inadequate to offset the increased rate of platelet destruction. Thrombopoietic (TPO) growth factor agonists are monoclonal antibodies activating the TPO receptor. TPO agonists may be able to increase platelet production.</listitem>
+<listitem>Autoantibodies, usually IgG, are directed against platelet membrane antigens such as GPIIb&#x002F;IIIa and then cleared by splenic macrophages.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors />
+</background>
+<Screening_Prevention>
+<Screening_BL />
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>If the history, physical examination, initial blood counts, and PBS are consistent with the diagnosis of ITP and do not include atypical findings, additional diagnostic work-up is generally not necessary. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed8704187" resource="acc015" /></listitem>
+<listitem>Diagnostic criteria based on ITP-associated laboratory findings are useful in the differential diagnosis of ITP. These criteria confer a 98&#x0025; sensitivity, 79&#x0025; specificity, 95&#x0025; positive predictive value, and 90&#x0025; negative predictive value. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16961601" resource="acc003" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Active infection (Epstein-Barr virus [EBV], HIV, hepatitis)</Differential_Name>
+<Differential_Features>Presents with systemic symptoms and signs; confirmed by viral antibodies</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Drug exposure (heparin, sulfonamides)</Differential_Name>
+<Differential_Features>Elicited in history</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acute leukemia</Differential_Name>
+<Differential_Features>Systemic symptoms, hepatosplenomegaly, lymphadenopathy, leukocytosis, anemia</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Acquired bone marrow failure syndromes</Differential_Name>
+<Differential_Features>Always associated with other abnormalities in PBS</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Other autoimmune diseases</Differential_Name>
+<Differential_Features>Elicited from history, examination, and blood work</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Inherited thrombocytopenia</Differential_Name>
+<Differential_Features>Elicited from history</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Pseudothrombocytopenia</Differential_Name>
+<Differential_Features>Actual platelet count is normal but appears low because of clumping on blood smear</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Thrombotic thrombocytopenia purpura</Differential_Name>
+<Differential_Features>Characterized by anemia, neurologic findings, and renal abnormalities</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Target the history and physical toward detecting alternative causes of thrombocytopenia.</listitem>
+<listitem>When taking the history, assess the patient for systemic symptoms including weight loss, headache, fever, and symptoms of autoimmune disorders. Also determine risk factors for HIV and inquire about pregnancy status and transfusion history. Ask about medications and substances associated with thrombocytopenia including: heparin, alcohol, quinine, sulfonamides, and salicylates.</listitem>
+<listitem>Inquire about family history of thrombocytopenia, bleeding symptoms, and autoimmune disorders.</listitem>
+<listitem>Determine the type and severity of bleeding and exclude other causes of thrombocytopenia.</listitem>
+<listitem>Splenomegaly is rare with ITP. Signs of liver disease or lymphadenopathy suggest autoimmune, infectious, or lymphoproliferative processes.</listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem><xref ref="pubmed16164890" resource="acc001">CBC</xref> and examination of PBS are essential in making the diagnosis.<xref ref="pubmed9036806" resource="acc014" /></listitem>
+<listitem>CBC: with the exception of thrombocytopenia, the CBC should be normal in ITP unless accounted for by another condition. Platelet clumps suggest pseudothrombocytopenia, which is usually EDTA dependent. Work-up is simply doing CBC in citrate.</listitem>
+<listitem>PBS: in ITP, platelets are often larger than normal with high mean platelet volume, but usually giant platelets are not seen. Additionally, normal RBC morphology and normal WBC morphology should be present. If the other cell lines in the blood smear are abnormal, a bone marrow biopsy is needed to rule out other causes of thrombocytopenia.</listitem>
+<listitem>A set of diagnostic criteria that rely on a <xref ref="pubmed16164890" resource="acc001">CBC</xref> with platelets, peripheral smear for <xref ref="pubmed16164890" resource="acc001">reticulocyted platelets</xref> and other abnormalities, and <xref ref="pubmed16164890" resource="acc001">thrombopoietin level</xref> are shown in <xref ref="table001" />. They have been validated prospectively in 112 patients and have excellent positive and negative predictive value.</listitem>
+<listitem>It is helpful to involve a hematologist with cases of presumed ITP as it is a diagnosis of exclusion. The degree of cytopenia and the presence of symptoms would warrant a quicker referral. A management partnership between the hematologist and the primary care physician can be instrumental in coordinating a steroid taper, making decisions regarding changes in therapy, and managing intercurrent problems while on therapy.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect ITP in patients who present with an unexplained abrupt or insidious onset of petechiae and ecchymosis.</listitem>
+<listitem>The diagnosis of ITP is based on history, physical examination, CBC, and PBS.</listitem>
+<listitem>PBS should exclude other causes of thrombocytopenia.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group>
+<Dx_ID>414</Dx_ID>
+</Dx_Data_Group>
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>The goal of treatment is to prevent bleeding, not necessarily to return platelet count to normal. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed15941913" resource="acc002" /></listitem>
+<listitem>Treatment decisions are influenced by platelet count and degree of bleeding (see <xref ref="fig001" />). Therapy is not required for platelet counts of more than 30,000&#x002F;mm<sup>3</sup>. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed1984800" resource="acc004" /></listitem>
+<listitem>Initial management includes treatment with oral prednisone. Other choices for treatment include high-dose dexamethasone, IVIG, WinRho, and romiplostim. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed9036806" resource="acc014" /></listitem>
+<listitem>Chronic refractory ITP is defined as persistence for more than 3 months, lack of response to splenectomy, and platelet count less than 50,000&#x002F;mm<sup>3</sup>. Treatment options include glucocorticoids, rituximab, cyclophosphamide, vincristine, and methylprednisone. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed14734334" resource="acc013" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem><strong>Initial management</strong></listitem>
+<listitem>At onset, half of patients present with platelet counts less than 10,000&#x002F;mm<sup>3</sup>, usually necessitating treatment.</listitem>
+<listitem>Patients who present chronically with a platelet count of more than 30,000&#x002F;mm<sup>3</sup> can be safely observed without specific treatment.<xref ref="pubmed1984800" resource="acc004" /> Most acute ITP is treated, in an effort to raise the platelet count.</listitem>
+<listitem>Initial therapy can be prednisone or intravenous immunoglobulin (IVIG).<xref ref="pubmed30314658" resource="acc019" /> Prednisone is given orally at a dose of 1.0 to 2.0 mg&#x002F;kg&#x002F;d. Response rates range from 50&#x0025; to 75&#x0025; and depend on treatment duration and intensity. Lack of response in 4 weeks is considered treatment failure.</listitem>
+<listitem>Anti-RhD immunoglobulin (anti-D) is also used for both acute and chronic management. The usual dose is 50 mg&#x002F;kg and increases platelet counts in approximately 80&#x0025; of children and 70&#x0025; of adults.<xref ref="pubmed19707396" resource="acc020" /></listitem>
+<listitem>Rilzabrutinib is an oral BTK inhibitor and has been shown to safely increase platelet counts in a small single arm Phase 1&#x002F;2 trial. At approximately 6 months, 40&#x0025; of patients had achieved the targetted increase in platelets.<xref ref="pubmed35417637" resource="acc021" /></listitem>
+<listitem><strong>Chronic management</strong></listitem>
+<listitem>WinRho, Rhophylac: use only in patients who are Rh(D) positive who have not had splenectomy. These are generally recommended for patients refractory to initial treatment with corticosteroids. They have the same efficacy and time to response as IVIG. Side effects are generally mild and include headache, back pain, nausea, and fever.</listitem>
+<listitem>Rituximab: anti-CD-20 monoclonal antibodies causing depletion of immunoglobulin-producing B cells, leading to reduction in platelet-specific autoantibodies. Response time is weeks to months. Complete or partial remission is achieved in 25&#x0025; to 50&#x0025; of patients.<xref ref="pubmed30648105" resource="acc018" /> Overall, partial (platelets &gt;50,000) or complete (platelets &gt;150,000) responses are achieved in 63&#x0025; and 43&#x0025; of patients, respectively.<xref ref="pubmed17200219" resource="acc010" /> Many complete responses are sustained for more than a year.</listitem>
+<listitem>A randomized, placebo-controlled trial of rituximab in 112 adults with ITP who had not previously responded to corticosteroid treatment found no statistical difference in long-term response rates, but longer time to relapse in the rituximab group.<xref ref="pubmed25662413" resource="acc016" /></listitem>
+<listitem>A randomized, placebo-controlled trial of romiplostim, a TPO receptor agonist, in 62 children with ITP of more than 6 months' duration and platelet counts &lt;30,000&#x002F;mm3 found a statistically significant improved durable platelet response (platelet count &gt;50,000&#x002F;mm3 without rescue drug use in the preceding 4 weeks) in the intervention group with no difference in adverse effects.<xref ref="pubmed27103127" resource="acc017" /> However, a Cochrane review found insufficient evidence for the efficacy of TPO agonists, citing improved platelet counts but lack of bleeding and mortality benefits. <xref ref="cochrane8235" resource="acc022" /></listitem>
+<listitem>A Phase 1&#x002F;2 trial gave 22 adults with chronic or persistent ITP a monoclonal antibody targetting CD38-positive cells; 14 patients had a sustained response with normal platelet levels &gt; 100,000&#x002F;mm<sup>3</sup> and 7 relapsed after 2-3 months.<xref ref="pubmed38899695" resource="acc025" /></listitem>
+<listitem>Cyclosporine and mycophenolate mofetil (Cellcept) have shown promise in chronic ITP.</listitem>
+<listitem>An international, multicenter RCT (N&#x003D;205) evaluating the neonatal Fc receptor inhibitor efgartigimod to treat adults with chronic or persistent ITP found the treatment effective in improving sustained platelet counts compared to placebo, including among those with treatment-refractory thrombocytopenia. <xref ref="pubmed37778358" resource="acc024" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Splenectomy is considered second-line therapy for ITP. It is indicated in patients who are unresponsive to steroid therapy or relapse upon discontinuation of steroids.</listitem>
+<listitem>Response occurs within days; two-thirds of patients will achieve complete remission 5 years following splenectomy and will require no further treatment.</listitem>
+<listitem>Complications include risk of surgery and serious infection. Laparoscopic surgery is associated with less mortality than laparotomy (0.2&#x0025; vs 1.0&#x0025;).<xref ref="pubmed15217831" resource="acc009" /></listitem>
+<listitem>Patients undergoing splenectomy should be immunized against <em>Streptococcus pneumoniae</em>, <em>Neisseria meningitidis</em>, and <em>Haemophilus influenza</em> type b at least 2 weeks prior to the procedure.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Eradication of <em>Helicobacter pylori</em> may increase the platelet count. One study demonstrated a relationship between <em>H. pylori</em> and thrombocytopenia.<xref ref="pubmed17561502" resource="acc008" /> However, this relationship is controversial, especially in United States studies, which have not found a link.</listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Regardless of platelet count, hospitalization is appropriate for severe life-threatening bleeding.</listitem>
+<listitem>Hospitalization is also appropriate for patients with platelet counts less than 20,000 with significant mucous membrane bleeding.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications />
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Spontaneous remissions do occur. <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Mortality is less than 1&#x0025; and is due to bleeding or infections. Patients with refractory ITP have increased mortality. <evidence rating="B" system="SORT">B</evidence><xref ref="pubmed16879206" resource="acc007" /></listitem>
+<listitem>Chronic refractory ITP is defined as persistence for more than 3 months, lack of response to splenectomy, and platelet count less than 50,000. <evidence rating="C" system="SORT">C</evidence><xref ref="pubmed14734334" resource="acc013" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Bone marrow biopsies are appropriate in patients older than 60 years due to higher incidence of myelodysplastic syndromes.</listitem>
+<listitem>Patients older than 65 years are at increased risk of bleeding and subsequent mortality.</listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>ITP is difficult to distinguish from gestational thrombocytopenia (benign thrombocytopenia of pregnancy). ITP may harm the fetus, whereas gestational thrombocytopenia does not.</listitem>
+<listitem>Preexisting thrombocytopenia prior to pregnancy suggests ITP. Mild thrombocytopenia is generally suggestive of gestational thrombocytopenia, whereas a platelet count of less than 70,000 is typical of ITP.</listitem>
+<listitem>Platelet counts in women with ITP should be monitored monthly for the first 2 trimesters, then every other week during the third trimester, and weekly as the pregnancy nears term.<xref ref="pubmed11919310" resource="acc006" /></listitem>
+<listitem>Corticosteroids are not considered teratogenic; however, they can worsen gestational diabetes, hypertension, and bone loss. Teratogenic drugs such as danazol and cyclophosphamide should be avoided. A Cochrane review found insufficient evidence for betamethasone for ITP in pregnancy. <xref ref="cochrane7722" resource="acc023" /></listitem>
+<listitem>A platelet count of more than 50,000 is considered safe for delivery and epidural.</listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>As in adults, the diagnosis is made on history, physical examination, CBC, and examination of PBS. Maternal and birth history is relevant in examination of infants.</listitem>
+<listitem>Most children recover completely within a few weeks even without treatment.</listitem>
+<listitem>Hospitalization is appropriate for life-threatening bleeding regardless of platelet count. Children with a platelet count of more than 30,000 should not be hospitalized and do not require treatment if asymptomatic.</listitem>
+<listitem>The impetus for treating children is prevention of intracranial hemorrhage, which rarely occurs with a platelet count over 20,000.</listitem>
+<listitem>Treatment with IVIG in children with primary acute ITP results in a higher proportion of patients achieving a platelet count greater than 20,000 in 48 hours compared with corticosteroids.<xref ref="pubmed16227040" resource="acc005" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed16164890">
+<accessionId id="acc001" href="info:pmid/16164890" />
+<accessionId id="acc001b" href="info:wiley/eep-dx/414" />
+<authors>Kuwana M, Okazaki Y, Satoh T, Asahi A, Kajihara M, Ikeda Y.</authors>
+<title>Initial laboratory findings useful for predicting the diagnosis of idiopathic thrombocytopenic purpura.</title>
+<source>Am J Med</source>
+<pubdate>2005</pubdate>
+<volume>118</volume>
+<pages>1026&#x2013;1033.</pages>
+</reference>
+<reference id="pubmed15941913">
+<accessionId id="acc002" href="info:pmid/15941913" />
+<authors>Cines DB, Bussel JB.</authors>
+<title>How I treat idiopathic thrombocytopenic purpura (ITP).</title>
+<source>Blood</source>
+<pubdate>2005</pubdate>
+<volume>106</volume>
+<pages>2244&#x2013;2251.</pages>
+</reference>
+<reference id="pubmed16961601">
+<accessionId id="acc003" href="info:pmid/16961601" />
+<authors>Kuwana M, Kurata Y, Fujimura K, et al.</authors>
+<title>Preliminary laboratory based diagnostic criteria for immune thrombocytopenic purpura: evaluation by multi-center prospective study.</title>
+<source>J Thromb Haemost</source>
+<pubdate>2006</pubdate>
+<volume>4</volume>
+<pages>1936&#x2013;1943.</pages>
+</reference>
+<reference id="pubmed1984800">
+<accessionId id="acc004" href="info:pmid/1984800" />
+<authors>Cortelazzo S, Finazzi G, Buelli M, Molteni A, Viero P, Barbui T.</authors>
+<title>High risk of severe bleeding in aged patients with chronic idiopathic thrombocytopenic purpura.</title>
+<source>Blood</source>
+<pubdate>1991</pubdate>
+<volume>77</volume>
+<pages>31&#x2013;33.</pages>
+</reference>
+<reference id="pubmed16227040">
+<accessionId id="acc005" href="info:pmid/16227040" />
+<authors>Beck CE, Nathan PC, Parkin PC, Blanchette VS, Macarthur C.</authors>
+<title>Corticosteroids versus intravenous immune globulin for the treatment of acute immune thrombocytopenic purpura in children: a systematic review and meta-analysis of randomized controlled trials.</title>
+<source>J Pediatr</source>
+<pubdate>2005</pubdate>
+<volume>147</volume>
+<pages>521&#x2013;527.</pages>
+</reference>
+<reference id="pubmed11919310">
+<accessionId id="acc006" href="info:pmid/11919310" />
+<authors>Cines DB, Blanchette VS.</authors>
+<title>Immune thrombocytopenic purpura.</title>
+<source>N Engl J Med</source>
+<pubdate>2002</pubdate>
+<volume>346</volume>
+<pages>995&#x2013;1008.</pages>
+</reference>
+<reference id="pubmed16879206">
+<accessionId id="acc007" href="info:pmid/16879206" />
+<authors>George JN.</authors>
+<title>Management of patients with refractory immune thrombocytopenic purpura.</title>
+<source>J Thromb Haemost</source>
+<pubdate>2006</pubdate>
+<volume>4</volume>
+<pages>1664&#x2013;1672.</pages>
+</reference>
+<reference id="pubmed17561502">
+<accessionId id="acc008" href="info:pmid/17561502" />
+<authors>Franchini M, Cruciani M, Mengoli C, Pizzolo G, Veneri D.</authors>
+<title>Effect of Helicobacter pylori eradication on platelet count in idiopathic thrombocytopenic purpura: a systematic review and meta-analysis.</title>
+<source>J Antimicrob Chemother</source>
+<pubdate>2007</pubdate>
+<volume>60</volume>
+<pages>237&#x2013;246.</pages>
+</reference>
+<reference id="pubmed15217831">
+<accessionId id="acc009" href="info:pmid/15217831" />
+<authors>Kojouri K, Vesely SK, Terrell DR, George JN.</authors>
+<title>Splenectomy for adult patients with idiopathic thrombocytopenic purpura: a systematic review to assess long-term platelet count responses, prediction of response, and surgical complications.</title>
+<source>Blood</source>
+<pubdate>2004</pubdate>
+<volume>104</volume>
+<pages>2623&#x2013;2634.</pages>
+</reference>
+<reference id="pubmed17200219">
+<accessionId id="acc010" href="info:pmid/17200219" />
+<authors>Arnold DM, Dentali F, Crowther MA, et al.</authors>
+<title>Systematic review: efficacy and safety of rituximab for adults with idiopathic thrombocytopenic purpura.</title>
+<source>Ann Intern Med</source>
+<pubdate>2007</pubdate>
+<volume>146</volume>
+<pages>25&#x2013;33.</pages>
+</reference>
+<reference id="pubmed7992681">
+<accessionId id="acc011" href="info:pmid/7992681" />
+<authors>Kurtzberg J, Stockman JA III.</authors>
+<title>Idiopathic autoimmune thrombocytopenic purpura.</title>
+<source>Adv Pediatr</source>
+<pubdate>1994</pubdate>
+<volume>41</volume>
+<pages>111&#x2013;134.</pages>
+</reference>
+<reference id="pubmed10419881">
+<accessionId id="acc012" href="info:pmid/10419881" />
+<authors>Frederiksen H, Schmidt K.</authors>
+<title>The incidence of idiopathic thrombocytopenic purpura in adults increases with age.</title>
+<source>Blood</source>
+<pubdate>1999</pubdate>
+<volume>94</volume>
+<pages>909&#x2013;913.</pages>
+</reference>
+<reference id="pubmed14734334">
+<accessionId id="acc013" href="info:pmid/14734334" />
+<authors>Vesely SK, Perdue JJ, Rizvi MA, Terrell DR, George JN.</authors>
+<title>Management of adult patients with persistent idiopathic thrombocytopenic purpura following splenectomy: a systematic review.</title>
+<source>Ann Intern Med</source>
+<pubdate>2004</pubdate>
+<volume>140</volume>
+<pages>112&#x2013;120.</pages>
+</reference>
+<reference id="pubmed9036806">
+<accessionId id="acc014" href="info:pmid/9036806" />
+<authors />
+<title>Diagnosis and treatment of idiopathic thrombocytopenic purpura: recommendations of the American Society of Hematology. The American Society of Hematology ITP Practice Guideline Panel.</title>
+<source>Ann Intern Med</source>
+<pubdate>1997</pubdate>
+<volume>126</volume>
+<pages>319&#x2013;326.</pages>
+</reference>
+<reference id="pubmed8704187">
+<accessionId id="acc015" href="info:pmid/8704187" />
+<authors>George JN, Woolf SH, Raskob GE, et al.</authors>
+<title>Idiopathic thrombocytopenic purpura: a practice guideline developed by explicit methods for the American Society of Hematology.</title>
+<source>Blood</source>
+<pubdate>1996</pubdate>
+<volume>88</volume>
+<pages>3&#x2013;40.</pages>
+</reference>
+<reference id="pubmed25662413">
+<accessionId id="acc016" href="info:pmid/25662413" />
+<authors>Ghanima W, Khelif A, Waage A, Michel M, Tj&#x00F8;nnfjord GE, Romdhan NB, Kahrs J, Darne B, Holme PA; RITP Study Group.</authors>
+<title>Rituximab as second-line treatment for adult immune thrombocytopenia (the RITP trial): a multicentre, randomised, double-blind, placebo-controlled trial.</title>
+<source>Lancet</source>
+<pubdate>2015</pubdate>
+<volume>385</volume>
+<pages>1653&#x2013;1661.</pages>
+</reference>
+<reference id="pubmed27103127">
+<accessionId id="acc017" href="info:pmid/27103127" />
+<authors>Tarantino MD, Bussel JB, Blanchette VS, Despotovic J, Bennett C, Raj A, Williams B, Beam D, Morales J, Rose MJ, Carpenter N, Nie K, Eisen M.</authors>
+<title>Romiplostim in children with immune thrombocytopenia: a phase 3, randomised, double-blind, placebo-controlled study.</title>
+<source>Lancet</source>
+<pubdate>2016</pubdate>
+<volume>388</volume>
+<pages>45&#x2013;54.</pages>
+</reference>
+<reference id="pubmed30648105">
+<accessionId id="acc018" href="info:pmid/30648105" />
+<authors>Wang J, Li Y, Wang C, Zhang Y, Gao C, Lang H, Chen X.</authors>
+<title>Efficacy and Safety of the Combination Treatment of Rituximab and Dexamethasone for Adults with Primary Immune Thrombocytopenia (ITP): A Meta-Analysis.</title>
+<source>Biomed Res Int</source>
+<pubdate>2018</pubdate>
+<volume>2018</volume>
+<pages>1316096.</pages>
+</reference>
+<reference id="pubmed30314658">
+<accessionId id="acc019" href="info:pmid/30314658" />
+<authors>Lioger B, Maillot F, Ternant D, Passot C, Paintaud G, Bejan-Angoulvant T.</authors>
+<title>Efficacy and safety of anti-D immunoglobulins versus intravenous immunoglobulins for immune thrombocytopenia in children: Systematic review and meta-analysis of randomized controlled trials.</title>
+<source>J Pediatr</source>
+<pubdate>2019</pubdate>
+<volume>204</volume>
+<pages>225&#x2013;233.e8.</pages>
+</reference>
+<reference id="pubmed19707396">
+<accessionId id="acc020" href="info:pmid/19707396" />
+<authors>Cheung E, Liebman HA.</authors>
+<title>Anti-RhD immunoglobulin in the treatment of immune thrombocytopenia.</title>
+<source>Biologics</source>
+<pubdate>2009</pubdate>
+<volume>3</volume>
+<pages>57&#x2013;62.</pages>
+</reference>
+<reference id="pubmed35417637">
+<accessionId id="acc021" href="info:pmid/35417637" />
+<authors>Kuter DJ, Efraim M, Mayer J, Trn&#x011B;n&#x00FD; M, McDonald V, Bird R, Regenbogen T, Garg M, Kaplan Z, Tzvetkov N, Choi PY, Jansen AJG , Kostal M, Baker R, Gumulec J, Lee EJ, Cunningham I, Goncalves I, Warner M, Boccia R, Gernsheimer T, Ghanima W, Bandman O, Burns R, Neale A, Thomas D, Arora P, Zheng B, Cooper N.</authors>
+<title>Rilzabrutinib, an Oral BTK Inhibitor, in Immune Thrombocytopenia.</title>
+<source>N Engl J Med</source>
+<pubdate>2022</pubdate>
+<volume>386</volume>
+<pages>1421&#x2013;1431.</pages>
+</reference>
+<reference id="cochrane8235">
+<accessionId id="acc022" href="info:wiley/cochrane/CD008235" />
+<chapter_authors>Zeng Y, Duan X, Xu J, Ni X.</chapter_authors>
+<chapter_title>TPO receptor agonist for chronic idiopathic thrombocytopenic purpura.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2011, Issue 7. Art. No.: CD008235. DOI: 10.1002&#x002F;14651858.CD008235.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane7722">
+<accessionId id="acc023" href="info:wiley/cochrane/CD007722" />
+<chapter_authors>Mart&#x00ED;&#x2010;Carvajal AJ, Pe&#x00F1;a&#x2010;Mart&#x00ED; GE, Comuni&#x00E1;n&#x2010;Carrasco G.</chapter_authors>
+<chapter_title>Medical treatments for idiopathic thrombocytopenic purpura during pregnancy.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2009, Issue 4. Art. No.: CD007722. DOI: 10.1002&#x002F;14651858.CD007722.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed37778358">
+<accessionId id="acc024" href="info:pmid/37778358" />
+<authors>Broome CM, McDonald V, Miyakawa Y, Carpenedo M, Kuter DJ, Al-Samkari H, Bussel JB, Godar M, Ayguasanosa J, De Beuf K, Rodeghiero F, Michel M, Newland A, ADVANCE Investigator Study Group.</authors>
+<title>Efficacy and safety of the neonatal Fc receptor inhibitor efgartigimod in adults with primary immune thrombocytopenia (ADVANCE IV): a multicentre, randomised, placebo-controlled, phase 3 trial.</title>
+<source>Lancet</source>
+<pubdate>2023</pubdate>
+<volume>402</volume>
+<pages>1648&#x2013;1659.</pages>
+</reference>
+<reference id="pubmed38899695">
+<accessionId id="acc025" href="info:pmid/38899695" />
+<authors>Chen Y , Xu Y , Li H, Sun T, Cao X, Wang Y, Xue F, Liu W, Liu X, Dong H, Fu R, Dai X, Wang W, Ma Y, Song Z, Chi Y, Ju M, Gu W, Pei X, Yang R, Zhang L.</authors>
+<title>A Novel Anti-CD38 Monoclonal Antibody for Treating Immune Thrombocytopenia.</title>
+<source>N Engl J Med</source>
+<pubdate>2024</pubdate>
+<volume>390</volume>
+<pages>2178&#x2013;2190.</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>213.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Immune Thrombocytopenia Purpura (ITP): Management.</title>
+<graphic href="eee0266-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Diagnosis of ITP based on suggestive history, CBC, and PBS</label>
+<path target="cell-5"> Profound mucocutaneous bleeding or platelets &lt;20,000 </path>
+<path target="cell-6"> Platelets 20,000-30,000 and no profound bleeding </path>
+<path target="cell-11"> Platelets &gt;30,000 </path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Hospitalization and treatment.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Individualize therapy; outpatient regimens include: prednisone 1 mg&#x002F;kg&#x002F;d by mouth; WinRho IV; IVIG IV; or dexamethasone burst. Platelet response?</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Consider: cytoxan, Cellcept, or rituxan.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider spleenectomy.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Maintain therapy, consider taper and observation.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>No therapy necessary, observation only.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>No therapy necessary; observation.</label>
+</cell>
+<footnotes>
+<footnote>If bleeding is not present, outpatient therapy may be initiated.</footnote>
+<footnote>Data from The American Society of Hematology ITP Practice Guideline Panel. Diagnosis and treatment of idiopathic thrombocytopenic purpura: recommendations of the American Society of Hematology. <em>Ann Intern Med</em> 1997;<strong>126</strong>:319-326;<xref ref="pubmed9036806" resource="acc014" /> and Cines DB, Bussel JB. How I treat idiopathic thrombocytopenic purpura (ITP). <em>Blood</em> 2005;<strong>106</strong>:2244-2251.<xref ref="pubmed15941913" resource="acc002" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
+<feature_group>
+<feature id="table001">
+<caption>Preliminary Diagnostic Criteria Based on Immune Thrombocytopenia Purpura (ITP)-Associated Laboratory Findings.</caption>
+<feature_body>
+<list style="1">
+<listitem>Thrombocytopenia of &lt;100,000 without morphologic evidence for dysplasia in the peripheral blood smear (required).</listitem>
+<listitem>The presence of 3 or more of the following lab values (including at least one of c, d, and f): a. Absence of anemia b. Normal leukocyte count c. Increased anti-GIIb&#x002F;IIIa antibody, producing B-cell frequency d. Increased platelet-associated anti-GPIIb&#x002F;IIIa antibody level e. Elevated levels of reticulated platelets f. Normal or slightly increased thrombopoietin levels (&lt;300 pg&#x002F;mL)</listitem>
+</list>The presence of both criteria was 98&#x0025; sensitive and 79&#x0025; specific for diagnosis (LR+ 4.7, LR&#x2212; 0.025) in a group of 112 patients with suspected ITP. Data from Kuwana M, Kurata Y, Fujimura K, et al. Preliminary laboratory based diagnostic criteria for immune thrombocytopenic purpura: evaluation by multi-center prospective study. <em>J Thromb Haemost</em> 2006;<strong>4</strong>:1936-1943. </feature_body>
+</feature>
+</feature_group>
+</topic>

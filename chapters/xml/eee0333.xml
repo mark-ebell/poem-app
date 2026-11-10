@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Q fever</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0333</topic_id>
+<topic_comment />
+<topic_lastupdated>12/23/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author_name>Peter S. Millard, MD, PhD</author_name>
+<author_title>Associate Clinical Professor</author_title>
+<author_department>Family Medicine Residency Program</author_department>
+<author_institution>Eastern Maine Medical Center</author_institution>
+<author_email>pmillard&#x0040;mac.com</author_email>
+<author_phone_office>207-866-3503</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>22 Pond St</author_street1>
+<author_street2 />
+<author_city>Orono</author_city>
+<author_state>ME</author_state>
+<author_zip>04473</author_zip>
+<author_second />
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Randall Forsch, MD, MPH</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>University of Michigan</editor_institution>
+</editor>
+<editor>
+<editor_name>Mark H. Ebell, MD, MS</editor_name>
+<editor_title>Professor</editor_title>
+<editor_institution>College of Public Health, University of Georgia</editor_institution>
+</editor>
+<editor>
+<editor_name>Kenny Lin, MD, MPH</editor_name>
+<editor_title>Professor of Family Medicine</editor_title>
+<editor_institution>Georgetown University</editor_institution>
+</editor>
+<editor>
+<editor_name>Mindy A. Smith, MD, MS</editor_name>
+<editor_title>Clinical Professor</editor_title>
+<editor_institution>Department of Family Medicine, Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Suspect Q fever in patients with appropriate livestock or unpasteurized milk exposure, fever, and elevated transaminases. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Obtain CBC, metabolic profile, polymerase chain reaction (PCR) testing, and acute and convalescent <em>Coxiella burnetii</em> IgM, IgA, and IgG antibody titers. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>If the patient with Q fever has known or suspected valvular heart disease, obtain an echocardiogram. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Treat acute Q fever in adults with doxycycline 100 mg orally twice daily for 14 days. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Treat children age 8 years or older or under age 8 years with high-risk criteria and acute Q fever with doxycycline 2.2 mg&#x002F;kg per dose twice a day for 14 days (maximum 100 mg per dose). <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>For children &lt;8 years with mild or uncomplicated acute Q fever: doxycycline 2.2 mg&#x002F;kg per dose twice a day for 5 days (maximum 100 mg per dose). If still febrile, give trimethoprim&#x002F;sulfamethoxazole 4 to 20 mg&#x002F;kg twice daily for 14 days (maximum dose 800 mg per dose). <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Q fever is a zoonotic disease caused by <em>C. burnetii</em>, an intracellular gram-negative rod found worldwide. It frequently causes asymptomatic disease in humans, but can cause acute and chronic infection, including infective endocarditis.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>Two cases reported per 10 million in the United States in 2004.<xref ref="pubmed16837706" resource="acc008" /> The <resourceLink href="https://www.cdc.gov/qfever/stats/index.html">Centers for Disease Control and Prevention</resourceLink> (CDC) reported 137 cases of acute Q fever and 39 cases of chronic Q fever in 2014.</listitem>
+<listitem>Between 2008-2017, U.S. health departments reported 1,109 cases of acute Q fever and 272 chronic Q fever cases to the National Notifiable Diseases Surveillance System for a 10-year average annual incidence of 0.36 cases per million persons and 0.09 cases per million persons, respectively.<xref ref="pubmed34626097" resource="acc044" /> The incidence of Q fever doubled from 2008 to 2017. Most cases (about 75&#x0025;) occurred in men and annual incidence was highest among those aged 60-69 years. Interestingly, most (60&#x0025;, n&#x003D;380) patients with acute Q fever did not report exposure to animals in the 2 months before symptom onset and only 40&#x0025; (n &#x003D; 247) were employed in high-risk occupations.</listitem>
+<listitem>Based on data from two national surveillance systems (2000-2011), the incidence rate was 0.38 cases per million persons per year.<xref ref="pubmed25404080" resource="acc032" /></listitem>
+<listitem>Seroconversion rates among deployed US military populations were 7.2&#x0025; for an incidence rate of 10.6 seroconversions per 1,000 person-months during an outbreak of Q fever in Iraq and 2.1&#x0025; or 0.92 seroconversions per 1,000 person-months in southwest&#x002F;central Asia.<xref ref="pubmed24043692" resource="acc023" /></listitem>
+<listitem>The annual incidence of Q fever in France is reported as significantly higher at 17.5&#x002F;100,000 in Cayenne and 1.9&#x002F;100,000 in Marseille.<xref ref="pubmed24639301" resource="acc033" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>The seroprevalence of IgG antibodies to <em>C. burnetii</em> in the U.S. in the 2003 to 2004 National Health and Nutritional Examination Survey was 3.1&#x0025; among more than 4,000 adults at least 20 years of age. Seroprevalence was higher in foreign-born adults, men, and adults with lower incomes.<xref ref="pubmed19815888" resource="acc011" /></listitem>
+<listitem>Seroprevalence from Australia for 2012-2013 in a population sample of individuals aged 1-79 years was 5.6&#x0025; (95&#x0025; CI 4.5&#x0025;-6.8&#x0025;); higher among males (6.9&#x0025; vs. 4.2&#x0025; for females), but similar in metropolitan and non-metropolitan regions.<xref ref="pubmed32019623" resource="acc045" /></listitem>
+<listitem>In the Danish National Birth Cohort of 100,418 pregnant women from 1996 to 2002, the proportion of women who were seropositive for <em>C. burnetii</em> was 47.2&#x0025; in occupationally-exposed women, 32.2&#x0025; in domestically-exposed women, and 4.8&#x0025; in unexposed women.<xref ref="pubmed23870098" resource="acc024" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact>
+<list style="bulleted">
+<listitem>Thirty percent to 60&#x0025; of persons with preexisting valvular heart disease will develop Q fever endocarditis within 2 years of primary infection.</listitem>
+<listitem>Cases of infection with<em> C. burnetii</em> have been reported in patients with culture-negative prosthetic joint arthritis.<xref ref="pubmed24662624" resource="acc034" /></listitem>
+<listitem>
+<em>C. burnetti</em> has bioterrorism potential because of its air-borne transmission.</listitem>
+</list>
+</social_impact>
+<causes>
+<list style="bulleted">
+<listitem>Exposure to milk, birth fluids, and excreta infected with <em>C. burnetii</em>.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>
+<em>C. burnetii</em> is most often found in cattle, sheep, and goats, but is also found in other species of livestock, ticks, domesticated pets, and wildlife.<xref ref="pubmed30506629" resource="acc039" /> Marine mammals also appear affected; in one study, 34.0&#x0025; (73&#x002F;215) of Pacific Northwest harbor seals had antibodies against <em>C. burnetii</em>.<xref ref="pubmed22247392" resource="acc013" /> Organisms are excreted in milk, urine, and feces of infected animals.</listitem>
+<listitem>Infection in humans usually occurs by inhalation of organisms from dust contaminated by dried birth fluids and excreta of infected animals. Authors of a systematic review found that infected sheep or goats, not cattle, were the likely source and airborne dispersal was the most prominent mechanism of infection; infection-risk occurred in rural areas within 5 km of the source but up to 18 km in high-wind conditions.<xref ref="pubmed29764368" resource="acc040" /></listitem>
+<listitem>Other rare modes of infection include tick bites, ingestion of unpasteurized milk or dairy products, and human-to-human transmission.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>The prevalence of <em>C. burnetii</em> in ticks collected in Africa varied from 2.9&#x0025; to 14&#x0025;, in Europe from 2.5&#x0025; to 10.5&#x0025;, and in the Middle East from 4.8&#x0025; to 12.5&#x0025; based on a meta-analysis of studies using data obtained by molecular detection of <em>C. burnetii </em>DNA in ticks.<xref ref="pubmed35190334" resource="acc046" /></listitem>
+<listitem>Median incubation period, based on 23 studies, was 18 days and 95&#x0025; of cases occurred between 7 and 32 days after exposure.<xref ref="pubmed29559012" resource="acc041" /></listitem>
+<listitem>About 60&#x0025; of infections are asymptomatic. Illness occurs within 2 to 3 weeks after exposure.<xref ref="web001" /> However, there are different manifestations reported in different areas, suggesting different strains of <em>C. Burnetii</em> are responsible for infection.<xref ref="pubmed24639301" resource="acc033" /></listitem>
+<listitem>There are two distinct antigenic phases of antibody responses&#x2014;an antibody response to <em>C. burnetii</em> phase II antigen followed by a rising phase I IgG titer.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Polymorphisms in TLR1 (R80T), NOD2 (L1007fsX1), and MYD88 (-938C&#x003E;A) are associated with risk for developing chronic Q fever.<xref ref="pubmed25722298" resource="acc035" /></listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Exposure to herd animals and their excreta</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Exposure to birth fluids</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Consuming unpasteurized milk products</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>Take appropriate care of placenta and other birth products at facilities housing sheep and goats. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Restrict access to facilities with potentially infected animals and consider vaccinating sheep and goats on farms open to the public. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed21835066" resource="acc014" /></listitem>
+<listitem>Avoid contact with <em>C. burnetti</em>-infected excreta and always use pasteurized milk products. <evidence rating="C" system="SORT"> C</evidence><xref ref="web001" /></listitem>
+<listitem>An effective whole-cell vaccine is available in Australia (Q-Vax). Acellular <em>C. burnetii</em> vaccine is available in the United States for individuals dealing with pregnant goats or sheep (including veterinary students) or doing live bacteria research. Vaccine effectiveness appears high in these populations but effectiveness in the general population is uncertain. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed21094268" resource="acc015" /></listitem>
+<listitem>Postexposure prophylaxis (doxycycline 100 mg orally twice daily for 1 week) should be started within 12 days after the known exposure. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15677840" resource="acc007" /></listitem>
+<listitem>Routine population screening for Q fever is not recommended. <evidence rating="C" system="SORT"> C</evidence> During a large Q fever outbreak in the Netherlands, routine <em>C. burnetii</em> screening starting at 20 weeks of gestation was not associated with a relevant reduction in obstetric complications (2.2&#x0025; in women who were seropositive vs. 1.4&#x0025; in the control group).<xref ref="pubmed23787163" resource="acc027" /></listitem>
+<listitem>However, targeted screening among vulnerable populations in high-risk areas may be cost effective. In a study of 1,642 patients with specific underlying medical conditions (48&#x0025; of those approached) from 13 general practices located in outbreak areas in the Netherlands, serum immunofluorescence assay showed that 289 (18&#x0025;) had a previous <em>C. burnetii</em> infection (IgG II titer &#x003E;1:64) and 9 patients were suspected of having chronic Q fever (IgG I y titer &#x003E;1:512); 4 of whom were confirmed cases.<xref ref="pubmed35731163" resource="acc047" /> The cost of screening was higher than anticipated, but the program was still deemed cost-effective.</listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention>
+<list style="bulleted">
+<listitem>Prevention of progression to endocarditis was achieved in patients with acute Q fever and valvulopathy by instituting 12-month treatment with doxycycline and hydroxychloroquine in one cohort study.<xref ref="pubmed23794723" resource="acc026" /> Interestingly, 31&#x002F;72 patients with acute Q fever in this study had documented valvulpathy on transthoracic echocardiography.</listitem>
+</list>
+</Secondary_Prevention>
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>Suspect Q fever in individuals with appropriate livestock or unpasteurized milk exposure history, fever or prolonged fever, and elevated transaminases. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Obtain CBC, metabolic profile, PCR testing, and acute and convalescent <em>C. burnetii</em> IgM, IgA, and IgG antibody titers. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>If patient has known or suspected valvular heart disease, obtain an echocardiogram. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Influenza</Differential_Name>
+<Differential_Features>Seasonality, exposure risk</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Atypical pneumonia (legionella, mycoplasma)</Differential_Name>
+<Differential_Features>Clinically indistinguishable; obtain legionella serology and cold agglutinins</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Hepatitis A</Differential_Name>
+<Differential_Features>Higher transaminases in hepatitis A</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria>
+<list style="bulleted">
+<listitem>Use the Duke criteria for diagnosis of infective endocarditis, modification for Q fever (serology becomes a major criterion).<xref ref="pubmed8678083" resource="acc006" /></listitem>
+</list>
+</Diagnostic_criteria>
+<History_physical>
+<list style="bulleted">
+<listitem>In patients with suspected Q fever, ask about occupations with animal contact, living within 10 miles of a farm that houses livestock (especially cattle, sheep and goats), travel, and having a family members or sexual partner with recent Q fever. In the 2000 to 2011 surveillance reports, however, most patients (61&#x0025;) did not report exposure to cattle, goats, or sheep, suggesting that clinicians should consider Q fever even in the absence of livestock exposure.<xref ref="pubmed25404080" resource="acc032" /> Similarly, in the 10-year incidence report cited above, 60&#x0025; of persons with acute Q fever did not report exposure to animals in the 2 months before symptom onset and only 40&#x0025; (n &#x003D; 247) were employed in high-risk occupations.<xref ref="pubmed34626097" resource="acc044" /></listitem>
+<listitem>Acute Q fever is characterized by abrupt onset of high fever (91&#x0025;), fatigue, myalgias, headache (51&#x0025;), sore throat, nonproductive cough, vomiting, diarrhea, abdominal pain, maculopapular or purpuric rash (11&#x0025;), and chest pain.<xref ref="web001" /><xref ref="pubmed15792739" resource="acc005" /> Onset is 2 to 3 weeks following exposure and fever duration is a median of 10 days (range 5-57 days).<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Manifestations may be different in different regions. In a French report, while most patients had fever, pneumonia was present in more patients in Cayenne than Marseille (83&#x0025; vs. 8&#x0025;) while cardiovascular infections were less frequent in Cayenne than Marseille (7&#x0025; vs. 17&#x0025;).<xref ref="pubmed24639301" resource="acc033" /></listitem>
+<listitem>Children typically have a milder disease course, but more gastrointestinal complaints (50&#x0025;-80&#x0025;) and more frequent skin rash (50&#x0025;).<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Thirty percent to 50&#x0025; of patients with symptomatic infection develop pneumonia, and most have elevated transaminases or clinical hepatitis.<xref ref="web001" /></listitem>
+<listitem>Features of Q fever pneumonia can&#x2019;t be distinguished from other causes of community-acquired pneumonia.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Chronic disease is rare (&lt;5&#x0025;) and occurs within a few months to several years following acute infection.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Symptoms of chronic Q fever are nonspecific and include fatigue, fever, abdominal or chest pain, weight loss, and night sweats.<xref ref="pubmed23535757" resource="acc025" /> Hepatosplenomegaly, arterial or pulmonary embolism or deep venous thrombosis, and valvular vegetations (12&#x0025;) can be seen.</listitem>
+<listitem>Q fever endocarditis: signs of heart failure or valvular dysfunction and vasculitic signs seen in other forms of infective endocarditis; clinical symptoms similar to acute Q fever.<xref ref="pubmed7671918" resource="acc009" /> Endocarditis is the most common manifestation of chronic Q fever and is fatal if untreated.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Other manifestations of chronic Q fever are chronic hepatitis, chronic vascular infections, osteomyelitis, osteoarthritis, and chronic pulmonary infections.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>Elevated transaminases up to 10 times normal (62&#x0025;-85&#x0025;), hyperbilirubinemia (25&#x0025;), and thrombocytopenia (35&#x0025;) are common.<xref ref="pubmed15792739" resource="acc005" /></listitem>
+<listitem>Consider Q fever in cases with prolonged fever with elevated transaminases and normal CBC.</listitem>
+<listitem>In acute Q fever, order PCR of whole blood or serum, IgM, IgA, and IgG antibodies to antiphase II antigens.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>A definitive diagnosis requires a fourfold rise in phase II IgG antibody titer between acute and convalescent samples. Because this is a retrospective diagnosis, PCR, which can be positive very early after symptom onset, is now recommended. PCR becomes negative as the antibody titer increases and after administration of antibiotics.<xref ref="pubmed23535757" resource="acc025" /> Antibiotic treatment does not appear to impede antibody response.<xref ref="pubmed22914364" resource="acc028" /></listitem>
+<listitem>In chronic Q fever, order PCR, IgM, IgA, and IgG antibodies to antiphase I antigens. An IgG phase I titer &#x2265;1:1024 at 6 months has the most favorable sensitivity and positive predictive value for the detection of chronic Q fever.<xref ref="pubmed21628483" resource="acc016" /> PCR is performed because patients with chronic Q fever can experience a recurrent bacteremia similar to early acute infection.</listitem>
+<listitem>A phase I IgG antibody titer &#x003E;1:800 or a single positive blood culture for <em>C. burnetii</em> is a major criterion for infective endocarditis.<xref ref="pubmed23535757" resource="acc025" /> PCR is positive in 33&#x0025; to 64&#x0025; of patients with Q fever endocarditis.</listitem>
+<listitem>Cultures are not done commercially because of the high biohazard of organism. However, isolation of <em>C. burnetii</em> or IHC staining of the organism from a clinical specimen can also confirm diagnosis.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Abnormalities on chest X-ray are seen in most patients with acute Q fever; most commonly segmental or lobar consolidation.<xref ref="pubmed23535757" resource="acc025" /> In a small case series, findings on high-resolution computed tomography were bilateral, peripheral areas of consolidation (all of 6 patients) and nodules with irregular contours and halos of ground-glass opacity (seen in 4 of 6 patients).<xref ref="pubmed30608178" resource="acc042" /></listitem>
+<listitem>Obtain an echocardiogram for patients with acute Q fever and known or suspected valvular disease. Vegetations are seen in about 12&#x0025; of patients with chronic Q fever endocarditis and may be difficult to see because of their small size and nodular shape.<xref ref="pubmed22792113" resource="acc017" /><xref ref="pubmed23535757" resource="acc025" /> In one study of 85 patients with Q fever, cardiac valvulopathy was present in 39&#x002F;66 for whom a screening echocardiogram was available.<xref ref="pubmed20857313" resource="acc018" /> Echocardiography is not considered part of the routine work-up of patients with Q fever.</listitem>
+<listitem>The presence of IgG anticardiolipin antibodies in patients with acute Q fever may be predictive of patients at higher risk for progression to endocarditis; these antibodies were significantly higher among patents with valvulopathy.<xref ref="pubmed23532474" resource="acc029" /></listitem>
+<listitem>IgG anticardiolipin antibodies were associated with thrombosis during acute Q fever in a dose-dependent relationship in one study (area under the curve 0.83, 95&#x0025;CI 0.73-0.93).<xref ref="pubmed28723794" resource="acc043" />&#x00A0;</listitem>
+<listitem>18F-FDG PET&#x002F;CT can be helpful in the diagnosis of <em>C burnetii</em> focal, persistent infection. In one consecutive case series, use of this tool in 167 patients diagnosed with <em>C burnetii</em> infection resulted in 62.6&#x0025; having their diagnosis changed and 38.7&#x0025; had a previously unsuspected focus of infection discovered.<xref ref="pubmed27559944" resource="acc037" /> There were 21 valvular foci, 34 vascular foci, 21 osteoarticular localizations and 9 pulmonary localizations.</listitem>
+<listitem>Authors of a systematic review including 46 articles on use of PET scans for patients with chronic Q fever found the most frequent focus of infection was vascular, followed by musculoskeletal (infected prosthetic joints) then cardiac.<xref ref="pubmed34056851" resource="acc048" /> Based on the retrospective and prospective studies, 394 had positive foci and 186 were negative for specific foci. Among the 53 individuals with follow-up scans, most (75.5&#x0025;) showed improvement or resolution over an average of 8.9 months following initiation of treatment.</listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules />
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>Suspect Q fever in patients with potential exposure to livestock or unpasteurized milk and high fever, fatigue, myalgias, headache, sore throat, nonproductive cough, vomiting, diarrhea, and abdominal pain. Agricultural workers are also at higher risk (OR 6.5; 95&#x0025; CI, 1.7-25.3) compared with those in other occupations.<xref ref="pubmed21371363" resource="acc019" /></listitem>
+<listitem>Obtain CBC, metabolic profile, PCR and acute and convalescent <em>C. burnetii</em> antibody titers.</listitem>
+<listitem>If patient has known or suspected valvular heart disease, obtain echocardiogram.</listitem>
+<listitem>If Q fever is confirmed, report the case to the CDC.</listitem>
+<listitem>Treatment is not required for patients with asymptomatic Q fever or whose symptoms have resolved unless at high risk for chronic infection (e.g., valvular disease, immunocompromise).</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Acute Q fever: doxycycline is the drug of choice for treatment of acute Q fever. See below for specific dosing recommendations from CDC for adults and children. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Q fever endocarditis: give doxycycline 100 mg orally twice daily and hydroxychloroquine 200 mg orally three times daily for &#x003E;18 months. The same drugs and doses are given for adults with non-cardiac organ disease, duration not specified by the CDC. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>For patients with noncardiac organ disease: give doxycycline 100 mg orally twice daily and hydroxychloroquine 200 mg orally three times daily. <evidence rating="C" system="SORT"> C</evidence></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>The <resourceLink href="https://www.cdc.gov/q-fever/hcp/clinical-guidance/">CDC 2024 Clinical Guidance </resourceLink> for Q fever can be found online. They recommend giving adults doxycycline 100 mg orally every 12 hours for 14 days for acute Q fever.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>The CDC guidelines also recommend giving children age 8 years or older with acute Q fever or under age 8 years with high-risk criteria doxycycline 2.2 mg&#x002F;kg per dose every 12 hours for 14 days (maximum 100 mg per dose). <strong>High-risk criteria</strong> include being hospitalized or with severe illness, preexisting heart valvulopathy or congenital heart disease, immunocompromise, or delayed Q fever diagnosis and experiencing illness for &#x003E;14 days without symptom resolution.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Give children who are &lt;8 years with mild or uncomplicated illness doxycycline 2.2 mg&#x002F;kg per dose every 12 hours for 5 days (maximum 100 mg per dose).<xref ref="pubmed23535757" resource="acc025" /> If the child remains febrile past 5 days of treatment, treat with trimethoprim&#x002F;sulfamethoxazole 4-20 mg&#x002F;kg&#x002F;24 hours (dose based on trimethoprim component) in equally divided doses every 12 hours (maximum: 320 mg trimethoprim per 24 hours).</listitem>
+<listitem>Erythromycin is a less effective option.<xref ref="pubmed1585291" resource="acc004" /></listitem>
+<listitem>Fluoroquinolones and trimethoprim&#x002F;sulfamethoxazole are also effective but are the best options during pregnancy.<xref ref="pubmed15677840" resource="acc007" /> The CDC guidelines recommend that pregnant people with acute Q fever receive trimethoprim&#x002F;sulfamethoxazole 160 mg&#x002F;800 mg every 12 hours throughout pregnancy, but not beyond 32 weeks of gestation. After that time, consult with infectious disease.</listitem>
+<listitem>Chronic Q fever endocarditis: doxycycline 100 mg orally every 12 hours and hydroxychloroquine 200 mg every 8 hours for at least 18 months, or 24 months if prosthetic heart valves.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Hydroxychloroquine is contraindicated in patients with glucose-6-phosphate dehydrogenase deficiency and those with retinal or visual field deficits.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>For patients with non-cardiac organ disease, treatment is also doxycycline 100 mg orally every 12 hours plus hydroxychloroquine 200 mg orally every 8 hours.</listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery>
+<list style="bulleted">
+<listitem>Surgery may be required for damaged valves following <em>C. burnetii</em> endocarditis.</listitem>
+</list>
+</Treatment_Surgery>
+<Treatment_CAM />
+<Treatment_PT />
+<Treatment_Behavioral />
+<Treatment_Other />
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Consider cardiology referral if Q fever endocarditis is suspected.</listitem>
+<listitem>Patients with Q fever do not need respiratory isolation or hospitalization if stable; they are not considered to be infectious to others.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Fatigue appears to be a long-term sequela of Q fever in up to 20&#x0025;.<xref ref="pubmed21501483" resource="acc020" /> No consensus has been reached on the pathogenesis of post-Q fever fatigue syndrome and cases are managed similarly to chronic fatigue syndrome.&#x00A0; <list style="bulleted">
+<listitem>In a follow-up study of patients with acute Q fever, 40&#x0025; of working patients reported sick leave for more than one month and 9&#x0025; were still unable to function at pre-illness levels at one year or more due to fatigue or concentration difficulties.<xref ref="pubmed22315459" resource="acc030" /></listitem>
+<listitem>In a 3-arm RCT of 154 patients with severe fatigue lasting 6 months or more and significant disabilities following acute Q fever infection, fatigue was similar between doxycycline and placebo at the end of 26 weeks, but fatigue severity was significantly lower after cognitive behavioral therapy vs. placebo.<xref ref="pubmed28329131" resource="acc038" /></listitem>
+</list></listitem>
+<listitem>Q fever endocarditis is uncommon and can be difficult to diagnose. In a case series of 181 cases from 31 publications and four local cases, investigators found that most (72&#x0025;) of patients had a history of contact with animals or travel and nearly all (98&#x0025;) had positive serology. Surgery was performed in about half.<xref ref="pubmed34052129" resource="acc049" /> Overall mortality was 17&#x0025; and was higher for those with native valve endocarditis than with prosthetic valve endocarditis (12&#x0025; and 3&#x0025;, respectively). No patients treated with doxycycline and hydroxychloroquine died.</listitem>
+<listitem>In a systematic review and meta-analysis of non-endocarditis manifestations of chronic Q fever, vascular infections and osteomyelitis were the most common disease manifestations.<xref ref="pubmed32661808" resource="acc050" /></listitem>
+<listitem>Although one study reported no association between Q fever and spontaneous abortion,<xref ref="pubmed22363769" resource="acc021" /> the new US guideline lists miscarriage as a potential complication.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Sixty percent of infected individuals are asymptomatic; 2&#x0025; to 5&#x0025; of symptomatic individuals are hospitalized, and the fatality rate is 1&#x0025; to 2&#x0025;. <evidence rating="B" system="SORT"> B</evidence><xref ref="web001" /><xref ref="pubmed15792739" resource="acc005" /></listitem>
+<listitem>The majority of acute Q fever cases resolve spontaneously within 2 to 3 weeks. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>The case fatality rate was reported at 2.0&#x0025; (33 unique cases) and the hospitalization rate 62&#x0025; based on 2000 to 2011 data.<xref ref="pubmed25404080" resource="acc032" /> However, using single case-matched data from the CDC and US death certificate data, there was an estimated 129 fatal cases (95&#x0025; CI, 62-1,250) during 2000 to 2011,<xref ref="pubmed25404074" resource="acc036" /> so there is likely underreporting to the CDC.</listitem>
+<listitem>In a large outbreak of Q fever in the Netherlands from 2007 to 2009, patients who died from acute Q fever were more likely to be male, older, and have underlying chronic conditions. <xref ref="pubmed21209466" resource="acc012" /></listitem>
+<listitem>Mortality rate for individuals with Q fever endocarditis is 17&#x0025; to 24&#x0025;. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15792739" resource="acc005" /><xref ref="pubmed34052129" resource="acc049" /></listitem>
+<listitem>Persistent infection develops in 1&#x0025; to 5&#x0025; of patients. In one large case series, 11&#x002F;686 patients with Q fever developed chronic infection.<xref ref="pubmed21628483" resource="acc016" /></listitem>
+<listitem>Persons who are most susceptible to chronic infection are those with valvular heart disease, a vascular graft, or an arterial aneurysm; those who are immunosuppressed; and pregnant patients.<xref ref="pubmed23535757" resource="acc025" /> In a case-control study, independent risk factors for chronic Q fever were cardiac valvular disease (valvular surgery), vascular prosthesis, aneurysm, renal insufficiency, and older age.<xref ref="pubmed22469535" resource="acc022" /></listitem>
+<listitem>Long-term (10 or more years) health outcomes reported from a cohort of 368 patients with Q-fever fatigue syndrome included low scores for health-related quality of life and high levels of fatigue, with post-exertional malaise complaints in nearly all patients.<xref ref="pubmed37724460" resource="acc051" /> Young and middle-aged patients reported worse health outcomes compared with older patients.</listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup>
+<list style="bulleted">
+<listitem>For most patients with acute Q fever, follow-up serology and clinical assessment is performed in 6 months.</listitem>
+<listitem>Based on one retrospective study, echocardiography and follow-up serological testing on all patients with acute Q fever are recommended by some experts.<xref ref="pubmed11438895" resource="acc003" /></listitem>
+<listitem>Patients with cardiovascular risk factors at the time of acute infection and women infected during pregnancy should be monitored serologically and clinically at intervals of 3, 6, 12, 18, and 24 months for chronic infection.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>Patients under treatment with hydroxychloroquine for chronic Q fever should undergo a baseline ophthalmic examination before treatment and every 6 months thereafter due to potential retinal toxicity.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>The definition of a cured case of chronic Q fever is based on serologic testing defined as phase I IgG of &#x2264;1:200.<xref ref="pubmed23535757" resource="acc025" /> Some researchers use a titer of &lt;1:800 to determine treatment duration.</listitem>
+</list>
+</Followup>
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly />
+<Pregnancy>
+<list style="bulleted">
+<listitem>Infection during pregnancy can cause miscarriage, prematurity, intrauterine growth retardation, or low birth weight.<xref ref="pubmed23535757" resource="acc025" /> In a study from Scotland comparing 251 women who had experienced a miscarriage and a control group of 118 women who had not experienced miscarriage, the only 3 cases found to be positive for Q fever antibodies were from the group who had experienced miscarriage.<xref ref="pubmed35118418" resource="acc052" /></listitem>
+<listitem>However, in a Danish cohort study of 397 pregnant women with occupational or domestic exposure to cattle or sheep and a random sample of 459 women with no animal exposure, women positive for antibodies against <em>C. burnetii</em> (indicating exposure) were not at higher risk for adverse pregnancy outcomes.<xref ref="pubmed23413787" resource="acc031" /> Among the 10 women who seroconverted during pregnancy, all delivered live infants at term but two were small for gestational age.</listitem>
+<listitem>In an Israeli study, where Q fever is endemic, seroprevalence among 386 pregnant women with preterm delivery was 4.1&#x0025;.<xref ref="pubmed36225104" resource="acc053" /> Similar percentages of neonates were small for gestational age (2&#x002F;16 [12.5&#x0025;] among seropositive women and 29&#x002F;370 [7.8&#x0025;] among seronegative women).</listitem>
+<listitem>Tetracyclines are generally contraindicated in pregnant patients because of the risk of osseous malformations and the potential for hepatotoxicity in the mother.</listitem>
+<listitem>Pregnant patients can be treated with fluoroquinolones or trimethoprim&#x002F;sulfamethoxazole (see treatment section above).<xref ref="pubmed15677840" resource="acc007" /> Fluoroquinolones are pregnancy category C based on animal studies, but human studies suggest that they are safe in pregnancy.<xref ref="pubmed9624471" resource="acc002" /></listitem>
+<listitem>Trimethoprim&#x002F;sulfamethoxazole (160 mg&#x002F;800 mg given every 12 hours throughout pregnancy, but not beyond 32 weeks gestation) is safe in pregnancy, except near term.</listitem>
+<listitem>Postpartum patients with a serologic profile for chronic Q fever: give doxycycline 100 mg orally twice daily and hydroxychloroquine 200 mg orally every 8 hours for 12 months.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>A course of doxycycline does not pose a substantial threat of tooth staining in children.<xref ref="pubmed9613662" resource="acc001" /></listitem>
+<listitem>Dose of doxycycline in children is 2.2 mg&#x002F;kg give every 12 hours (see treatment section above).<xref ref="pubmed23535757" resource="acc025" /></listitem>
+<listitem>For children &lt;8 years with mild or uncomplicated acute Q fever: doxycycline 2.2 mg&#x002F;kg per dose every 12 hours for 5 days (maximum 100 mg per dose). If still febrile, give trimethoprim&#x002F;sulfamethoxazole 4-20 mg&#x002F;kg every 12 hours for 14 days (maximum dose 800 mg per dose).</listitem>
+<listitem>
+<em>C. burnetii</em> is shed in breast milk, so this may be a risk to a nursing infant.</listitem>
+<listitem>Chronic Q fever is rare in children, but when it occurs, osteomyelitis is the most common finding.<xref ref="pubmed23535757" resource="acc025" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="pubmed9613662">
+<accessionId id="acc001" href="info:pmid/9613662" />
+<authors>Lochary ME, Lockhart PB, Williams WT, Jr.</authors>
+<title>Doxycycline and staining of permanent teeth.</title>
+<source>Pediatr Infect Dis J</source>
+<pubdate>1998</pubdate>
+<volume>17</volume>
+<pages>429-431.</pages>
+</reference>
+<reference id="pubmed9624471">
+<accessionId id="acc002" href="info:pmid/9624471" />
+<authors>Loebstein R, Addis A, Ho E, et al.</authors>
+<title>Pregnancy outcome following gestational exposure to fluoroquinolones: a multicenter prospective controlled study.</title>
+<source>Antimicrob Agents Chemother</source>
+<pubdate>1998</pubdate>
+<volume>42</volume>
+<pages>1336-1339.</pages>
+</reference>
+<reference id="pubmed11438895">
+<accessionId id="acc003" href="info:pmid/11438895" />
+<authors>Fenollar F, Fournier PE, Carrieri MP, Habib G, Messana T, Raoult D.</authors>
+<title>Risks factors and prevention of Q fever endocarditis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2001</pubdate>
+<volume>33</volume>
+<pages>312-316.</pages>
+</reference>
+<reference id="pubmed1585291">
+<accessionId id="acc004" href="info:pmid/1585291" />
+<authors>Sobradillo V, Zalacain R, Capelastegui A, Uresandi F, Corral J.</authors>
+<title>Antibiotic treatment in pneumonia due to Q fever.</title>
+<source>Thorax</source>
+<pubdate>1992</pubdate>
+<volume>47</volume>
+<pages>276-278.</pages>
+</reference>
+<reference id="pubmed15792739">
+<accessionId id="acc005" href="info:pmid/15792739" />
+<authors>Raoult D, Marrie T, Mege J.</authors>
+<title>Natural history and pathophysiology of Q fever.</title>
+<source>Lancet Infect Dis</source>
+<pubdate>2005</pubdate>
+<volume>5</volume>
+<pages>219-226.</pages>
+</reference>
+<reference id="pubmed8678083">
+<accessionId id="acc006" href="info:pmid/8678083" />
+<authors>Fournier PE, Casalta JP, Habib G, Messana T, Raoult D.</authors>
+<title>Modification of the diagnostic criteria proposed by the Duke Endocarditis Service to permit improved diagnosis of Q fever endocarditis.</title>
+<source>Am J Med</source>
+<pubdate>1996</pubdate>
+<volume>100</volume>
+<pages>629-633.</pages>
+</reference>
+<reference id="pubmed15677840">
+<accessionId id="acc007" href="info:pmid/15677840" />
+<authors>Bossi P, Tegnell A, Baka A, et al.; Task Force on Biological and Chemical Agent Threats, Public Health Directorate, European Commission, Luxembourg.</authors>
+<title>Bichat guidelines for the clinical management of Q fever and bioterrorism-related Q fever.</title>
+<source>Euro Surveill</source>
+<pubdate>2004</pubdate>
+<volume>9</volume>
+<pages>E19-E20.</pages>
+</reference>
+<reference id="pubmed16837706">
+<accessionId id="acc008" href="info:pmid/16837706" />
+<authors>McQuiston JH, Holman RC, McCall CL, Childs JE, Swerdlow DL, Thompson HA.</authors>
+<title>National surveillance and the epidemiology of human Q fever in the United States, 1978-2004.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2006</pubdate>
+<volume>75</volume>
+<pages>36-40.</pages>
+</reference>
+<reference id="pubmed7671918">
+<accessionId id="acc009" href="info:pmid/7671918" />
+<authors>Stein A, Raoult D.</authors>
+<title>Q fever endocarditis.</title>
+<source>Eur Heart J</source>
+<pubdate>1995</pubdate>
+<volume>16(Suppl B)</volume>
+<pages>19-23.</pages>
+</reference>
+<reference id="web001">
+<citation>Centers for Disease Control and Prevention. Fact Sheets&#x2014;Q Fever.</citation>
+<url>http://www.cdc.gov/ncidod/dvrd/qfever/index.htm</url>
+<organization />
+<longtitle />
+<title />
+<dateguideline />
+</reference>
+<reference id="pubmed19815888">
+<accessionId id="acc011" href="info:pmid/19815888" />
+<authors>Anderson AD, Kruszon-Moran D, Loftis AD, et al.</authors>
+<title>Seroprevalence of Q fever in the United States, 2003-2004.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2009</pubdate>
+<volume>81</volume>
+<pages>691-694.</pages>
+</reference>
+<reference id="pubmed21209466">
+<accessionId id="acc012" href="info:pmid/21209466" />
+<authors>Kampschreur LM, Wegdam-Blans MC, Thijsen SF, et al.</authors>
+<title>Acute Q fever related in-hospital mortality in the Netherlands.</title>
+<source>Neth J Med</source>
+<pubdate>2010</pubdate>
+<volume>68</volume>
+<pages>408-413.</pages>
+</reference>
+<reference id="pubmed22247392">
+<accessionId id="acc013" href="info:pmid/22247392" />
+<authors>Kersh GJ, Lambourn DM, Raverty SA, Fitzpatrick KA, Self JS, Akmajian AM, Jeffries SJ, Huggins J, Drew CP, Zaki SR, Massung RF.</authors>
+<title>Coxiella burnetii infection of marine mammals in the Pacific Northwest, 1997-2010.</title>
+<source>J Wildl Dis</source>
+<pubdate>2012</pubdate>
+<volume>48</volume>
+<pages>201-206</pages>
+</reference>
+<reference id="pubmed21835066">
+<accessionId id="acc014" href="info:pmid/21835066" />
+<authors>Whelan J, Schimmer B, de Bruin A, van Beest Holle MR, van der Hoek W, ter Schegget R.</authors>
+<title>Visits on 'lamb-viewing days' at a sheep farm open to the public was a risk factor for Q fever in 2009.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2012</pubdate>
+<volume>140</volume>
+<pages>858-864</pages>
+</reference>
+<reference id="pubmed21094268">
+<accessionId id="acc015" href="info:pmid/21094268" />
+<authors>Gefenaite G, Munster JM, van Houdt R, Hak E.</authors>
+<title>Effectiveness of the Q fever vaccine: a meta-analysis.</title>
+<source>Vaccine</source>
+<pubdate>2011</pubdate>
+<volume>29</volume>
+<pages>395-398</pages>
+</reference>
+<reference id="pubmed21628483">
+<accessionId id="acc016" href="info:pmid/21628483" />
+<authors>van der Hoek W, Versteeg B, Meekelenkamp JC, Renders NH, Leenders AC, Weers-Pothoff I, Hermans MH, Zaaijer HL, Wever PC, Schneeberger PM.</authors>
+<title>Follow-up of 686 patients with acute Q fever and detection of chronic infection.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>52</volume>
+<pages>1431-1436</pages>
+</reference>
+<reference id="pubmed22792113">
+<accessionId id="acc017" href="info:pmid/22792113" />
+<authors>Boattini M, Almeida A, Moura RB, Abreu J, Santos AS, Toscano Rico M.</authors>
+<title>Chronic Q fever with no elevation of inflammatory markers: a case report.</title>
+<source>Case Rep Med</source>
+<pubdate>2012</pubdate>
+<volume>2012</volume>
+<pages>249705</pages>
+</reference>
+<reference id="pubmed20857313">
+<accessionId id="acc018" href="info:pmid/20857313" />
+<authors>Limonard GJ, Nabuurs-Franssen MH, Weers-Pothoff G, Wijkmans C, Besselink R, Horrevorts AM, Schneeberger PM, Groot CA.</authors>
+<title>One-year follow-up of patients of the ongoing Dutch Q fever outbreak: clinical, serological and echocardiographic findings.</title>
+<source>Infection</source>
+<pubdate>2010</pubdate>
+<volume>38</volume>
+<pages>471-477</pages>
+</reference>
+<reference id="pubmed21371363">
+<accessionId id="acc019" href="info:pmid/21371363" />
+<authors>Walsh MG.</authors>
+<title>Assessing Q fever in a representative sample from the United States population: identification of a potential occupational hazard.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2012</pubdate>
+<volume>140</volume>
+<pages>42&#x2013;46</pages>
+</reference>
+<reference id="pubmed21501483">
+<accessionId id="acc020" href="info:pmid/21501483" />
+<authors>Jan Morroy G, Peters JB, van Nieuwenhof M, Bor HH, Hautvast JL, van der Hoek W, Wijkmans CJ, Vercoulen JH.</authors>
+<title>The health status of Q-fever patients after long-term follow-up.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2011</pubdate>
+<volume>11</volume>
+<pages>97</pages>
+</reference>
+<reference id="pubmed22363769">
+<accessionId id="acc021" href="info:pmid/22363769" />
+<authors>Nielsen SY, Hj&#x00F8;llund NH, Andersen AM, Henriksen TB, Kants&#x2298;B, Krogfelt KA, M&#x00F8;lbak K.</authors>
+<title>Presence of antibodies against Coxiella burnetii and risk of spontaneous abortion: a nested case-control study.</title>
+<source>PLoS ONE</source>
+<pubdate>2012</pubdate>
+<volume>7</volume>
+<pages>e31909</pages>
+</reference>
+<reference id="pubmed22469535">
+<accessionId id="acc022" href="info:pmid/22469535" />
+<authors>Kampschreur LM, Dekker S, Hagenaars JC, Lestrade PJ, Renders NH, de Jager-Leclercq MG, Hermans MH, Groot CA, Groenwold RH, Hoepelman AI, Wever PC, Oosterheert JJ.</authors>
+<title>Identification of risk factors for chronic Q fever, the Netherlands.</title>
+<source>Emerg Infect Dis</source>
+<pubdate>2012</pubdate>
+<volume>18</volume>
+<pages>563-570</pages>
+</reference>
+<reference id="pubmed24043692">
+<accessionId id="acc023" href="info:pmid/24043692" />
+<authors>Royal J, Riddle MS, Mohareb E, Monteville MR, Porter CK, Faix DJ.</authors>
+<title>Seroepidemiologic survey for Coxiella burnetii among US military personnel deployed to Southwest and Central Asia in 2005.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2013</pubdate>
+<volume>89</volume>
+<pages>991-995</pages>
+</reference>
+<reference id="pubmed23870098">
+<accessionId id="acc024" href="info:pmid/23870098" />
+<authors>Nielsen SY, Molbak K, Nybo Andersen AM, Brink Henriksen T, Kantso B, Krogfelt KA, Hjollund NH.</authors>
+<title>Prevalence of Coxiella burnetii in women exposed to livestock animals, Denmark, 1996 to 2002.</title>
+<source>Euro Surveill</source>
+<pubdate>2013</pubdate>
+<volume>18</volume>
+<pages />
+</reference>
+<reference id="pubmed23535757">
+<accessionId id="acc025" href="info:pmid/23535757" />
+<authors>Anderson A, Bijlmer H, Fournier PE, Graves S, Hartzell J, Kersh GJ, Limonard G, Marrie TJ, Massung RF, McQuiston JH, Nicholson WL, Paddock CD, Sexton DJ.</authors>
+<title>Diagnosis and management of Q fever&#x2014;United States, 2013: recommendations from CDC and the Q Fever Working Group.</title>
+<source>MMWR Recomm Rep</source>
+<pubdate>2013</pubdate>
+<volume>62</volume>
+<pages>1-30</pages>
+</reference>
+<reference id="pubmed23794723">
+<accessionId id="acc026" href="info:pmid/23794723" />
+<authors>Million M, Walter G, Thuny F, Habib G, Raoult D.</authors>
+<title>Evolution from acute Q fever to endocarditis is associated with underlying valvulopathy and age and can be prevented by prolonged antibiotic treatment.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2013</pubdate>
+<volume>57</volume>
+<pages>836-844</pages>
+</reference>
+<reference id="pubmed23787163">
+<accessionId id="acc027" href="info:pmid/23787163" />
+<authors>Munster JM, Leenders AC, Hamilton CJ, Meekelenkamp JC, Schneeberger PM, van der Hoek W, Rietveld A, de Vries E, Stolk RP, Aarnoudse JG, Hak E.</authors>
+<title>Routine screening for Coxiella burnetii infection during pregnancy: a clustered randomised controlled trial during an outbreak, the Netherlands, 2010.</title>
+<source>Euro Surveill</source>
+<pubdate>2013</pubdate>
+<volume>18</volume>
+<pages />
+</reference>
+<reference id="pubmed22914364">
+<accessionId id="acc028" href="info:pmid/22914364" />
+<authors>Wielders CC, Kampschreur LM, Schneeberger PM, Jager MM, Hoepelman AI, Leenders AC, Hermans MH, Wever PC.</authors>
+<title>Early diagnosis and treatment of patients with symptomatic acute Q fever do not prohibit IgG antibody responses to Coxiella burnetii.</title>
+<source>Clin Vaccine Immunol</source>
+<pubdate>2012</pubdate>
+<volume>19</volume>
+<pages>1661-1666</pages>
+</reference>
+<reference id="pubmed23532474">
+<accessionId id="acc029" href="info:pmid/23532474" />
+<authors>Million M, Walter G, Bardin N, Camoin L, Giorgi R, Bongrand P, Gouriet F, Casalta JP, Thuny F, Habib G, Raoult D.</authors>
+<title>Immunoglobulin G anticardiolipin antibodies and progression to Q fever endocarditis.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2013</pubdate>
+<volume>57</volume>
+<pages>57-64</pages>
+</reference>
+<reference id="pubmed22315459">
+<accessionId id="acc030" href="info:pmid/22315459" />
+<authors>Morroy G, Bor HH, Polder J, Hautvast JL, van der Hoek W, Schneeberger PM, Wijkmans CJ.</authors>
+<title>Self-reported sick leave and long-term health symptoms of Q-fever patients.</title>
+<source>Eur J Public Health</source>
+<pubdate>2012</pubdate>
+<volume>22</volume>
+<pages>814-819</pages>
+</reference>
+<reference id="pubmed23413787">
+<accessionId id="acc031" href="info:pmid/23413787" />
+<authors>Nielsen SY, Andersen AM, M&#x00F8;lbak K, Hj&#x00F8;llund NH, Kants&#x2298;B, Krogfelt KA, Henriksen TB.</authors>
+<title>No excess risk of adverse pregnancy outcomes among women with serological markers of previous infection with Coxiella burnetii: evidence from the Danish National Birth Cohort.</title>
+<source>BMC Infect Dis</source>
+<pubdate>2013</pubdate>
+<volume>13</volume>
+<pages>87</pages>
+</reference>
+<reference id="pubmed25404080">
+<accessionId id="acc032" href="info:pmid/25404080" />
+<authors>Dahlgren FS, McQuiston JH, Massung RF, Anderson AD.</authors>
+<title>Q fever in the United States: summary of case reports from two national surveillance systems, 2000-2012.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2015</pubdate>
+<volume>92</volume>
+<pages>247&#x2013;255</pages>
+</reference>
+<reference id="pubmed24639301">
+<accessionId id="acc033" href="info:pmid/24639301" />
+<authors>Edouard S, Mahamat A, Demar M, Abboud P, Djossou F, Raoult D.</authors>
+<title>Comparison between emerging Q fever in French Guiana and endemic Q fever in Marseille, France.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2014</pubdate>
+<volume>90</volume>
+<pages>915&#x2013;919</pages>
+</reference>
+<reference id="pubmed24662624">
+<accessionId id="acc034" href="info:pmid/24662624" />
+<authors>Million M, Bellevegue L, Labussiere AS, Dekel M, Ferry T, Deroche P, Socolovschi C, Cammilleri S, Raoult D.</authors>
+<title>Culture-negative prosthetic joint arthritis related to Coxiella burnetii.</title>
+<source>Am J Med</source>
+<pubdate>2014</pubdate>
+<volume>127</volume>
+<pages>786.e7&#x2013;786.e10</pages>
+</reference>
+<reference id="pubmed25722298">
+<accessionId id="acc035" href="info:pmid/25722298" />
+<authors>Schoffelen T, Ammerdorffer A, Hagenaars JC, Bleeker-Rovers CP, Wegdam-Blans MC, Wever PC, Joosten LA, van der Meer JW, Sprong T, Netea MG, van Deuren M, van de Vosse E.</authors>
+<title>Genetic variation in pattern recognition receptors and adaptor proteins associated with development of chronic Q fever.</title>
+<source>J Infect Dis</source>
+<pubdate>2015</pubdate>
+<volume>212</volume>
+<pages>818&#x2013;829</pages>
+</reference>
+<reference id="pubmed25404074">
+<accessionId id="acc036" href="info:pmid/25404074" />
+<authors>Dahlgren FS, Haberling DL, McQuiston JH.</authors>
+<title>Q fever is underestimated in the United States: a comparison of fatal Q fever cases from two national reporting systems.</title>
+<source>Am J Trop Med Hyg</source>
+<pubdate>2015</pubdate>
+<volume>92</volume>
+<pages>244&#x2013;246</pages>
+</reference>
+<reference id="pubmed27559944">
+<accessionId id="acc037" href="info:pmid/27559944" />
+<authors>Eldin C, Melenotte C, Million M, Cammilleri S, Sotto A, Elsendoorn A, Thuny F, Lepidi H, Roblot F, Weitten T, Assaad S, Bouaziz A, Chapuzet C, Gras G, Labussiere AS, Landais C, Longuet P, Masseau A, Mundler O, Raoult D.</authors>
+<title>18F-FDG PET&#x002F;CT as a central tool in the shift from chronic Q fever to Coxiella burnetii persistent focalized infection: a consecutive case series.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2016</pubdate>
+<volume>95</volume>
+<pages>e4287</pages>
+</reference>
+<reference id="pubmed28329131">
+<accessionId id="acc038" href="info:pmid/28329131" />
+<authors>Keijmel SP, Delsing CE, Bleijenberg G, van der Meer JWM, Donders RT, Leclercq M, Kampschreur LM, van den Berg M, Sprong T, Nabuurs-Franssen MH, Knoop H, Bleeker-Rovers CP.</authors>
+<title>Effectiveness of Long-term Doxycycline Treatment and Cognitive-Behavioral Therapy on Fatigue Severity in Patients with Q Fever Fatigue Syndrome (Qure Study): a randomized controlled trial.</title>
+<source>Clin Infect Dis</source>
+<pubdate>2017</pubdate>
+<volume>64</volume>
+<pages>998&#x2013;1005</pages>
+</reference>
+<reference id="pubmed30506629">
+<accessionId id="acc039" href="info:pmid/30506629" />
+<authors>Gonz&#x00E1;lez-Barrio D, Ruiz-Fons F.</authors>
+<title>Coxiella burnetii in wild mammals: A systematic review.</title>
+<source>Transbound Emerg Dis</source>
+<pubdate>2019</pubdate>
+<volume>66</volume>
+<pages>662&#x2013;671</pages>
+</reference>
+<reference id="pubmed29764368">
+<accessionId id="acc040" href="info:pmid/29764368" />
+<authors>Clark NJ, Soares Magalh&#x00E3;es RJ.</authors>
+<title>Airborne geographical dispersal of Q fever from livestock holdings to human communities: a systematic review and critical appraisal of evidence.</title>
+<source>BMC Infect. Dis.</source>
+<pubdate>2018</pubdate>
+<volume>18</volume>
+<pages>218</pages>
+</reference>
+<reference id="pubmed29559012">
+<accessionId id="acc041" href="info:pmid/29559012" />
+<authors>Todkill D, Fowler T, Hawker JI.</authors>
+<title>Estimating the incubation period of acute Q fever, a systematic review.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2018</pubdate>
+<volume>146</volume>
+<pages>665&#x2013;672</pages>
+</reference>
+<reference id="pubmed30608178">
+<accessionId id="acc042" href="info:pmid/30608178" />
+<authors>von Ranke FM, Clemente Pessoa FM, Afonso FB, Gomes JB, Borghi DP, Alves de Melo AS, Marchiori E.</authors>
+<title>Acute Q fever pneumonia: high-resolution computed tomographic findings in six patients.</title>
+<source>Br J Radiol</source>
+<pubdate>2019</pubdate>
+<volume>92</volume>
+<pages>20180292</pages>
+</reference>
+<reference id="pubmed28723794">
+<accessionId id="acc043" href="info:pmid/28723794" />
+<authors>Million M, Bardin N, Bessis S, Nouiakh N, Douliery C, Edouard S, Angelakis E, Bosseray A, Epaulard O, Branger S, Chaudier B, Blanc-Laserre K, Ferreira-Maldent N, Demonchy E, Roblot F, Reynes J, Djossou F, Protopopescu C, Carrieri P, Camoin-Jau L, Mege JL, Raoult D.</authors>
+<title>Thrombosis and antiphospholipid antibody syndrome during acute Q fever: A cross-sectional study.</title>
+<source>Medicine (Baltimore)</source>
+<pubdate>2017</pubdate>
+<volume>96</volume>
+<pages>e7578</pages>
+</reference>
+<reference id="pubmed34626097">
+<accessionId id="acc044" href="info:pmid/34626097" />
+<authors>Cherry CC, Nichols Heitman K, Bestul NC, Kersh GJ .</authors>
+<title>Acute and chronic Q fever national surveillance - United States, 2008-2017.</title>
+<source>Zoonoses Public Health</source>
+<pubdate>2022</pubdate>
+<volume>69</volume>
+<pages>73&#x2013;82</pages>
+</reference>
+<reference id="pubmed32019623">
+<accessionId id="acc045" href="info:pmid/32019623" />
+<authors>Gidding HF , Peng CQ, Graves S, Massey PD, Nguyen C, Stenos J, Quinn HE, McIntyre PB, Durrheim DN, Wood N.</authors>
+<title>Q fever seroprevalence in Australia suggests one in twenty people have been exposed.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2020</pubdate>
+<volume>148</volume>
+<pages>e18</pages>
+</reference>
+<reference id="pubmed35190334">
+<accessionId id="acc046" href="info:pmid/35190334" />
+<authors>Yessinou RE, Katja MS, Heinrich N, Farougou S.</authors>
+<title>Prevalence of Coxiella-infections in ticks - review and meta-analysis.</title>
+<source>Ticks Tick Borne Dis</source>
+<pubdate>2022</pubdate>
+<volume>13</volume>
+<pages>101926</pages>
+</reference>
+<reference id="pubmed35731163">
+<accessionId id="acc047" href="info:pmid/35731163" />
+<authors>Reukers DFM, de Boer PT, Loohuis AO, Wever PC, Bleeker-Rovers CP, van Gageldonk-Lafeber AB, van der Hoek W, Timen A.</authors>
+<title>Targeted Screening for Chronic Q Fever, the Netherlands.</title>
+<source>Emerg Infect Dis</source>
+<pubdate>2022</pubdate>
+<volume>28</volume>
+<pages>1403&#x2013;1409</pages>
+</reference>
+<reference id="pubmed34056851">
+<accessionId id="acc048" href="info:pmid/34056851" />
+<authors>Sivabalan P , Visvalingam R, Grey V, Blazak J, Henderson A, Norton R.</authors>
+<title>Utility of positron emission tomography imaging in the diagnosis of chronic Q fever: A Systematic Review.</title>
+<source>J Med Imaging Radiat Oncol</source>
+<pubdate>2021</pubdate>
+<volume>65</volume>
+<pages>694&#x2013;709</pages>
+</reference>
+<reference id="pubmed34052129">
+<accessionId id="acc049" href="info:pmid/34052129" />
+<authors>Jaltotage B, Ali U, Dorai-Raj A, Rankin J, Sanfilippo F, Dwivedi G.</authors>
+<title>Q Fever Endocarditis: A Review of Local and all Reported Cases in the Literature.</title>
+<source>Heart Lung Circ</source>
+<pubdate>2021</pubdate>
+<volume>30</volume>
+<pages>1509&#x2013;1515</pages>
+</reference>
+<reference id="pubmed32661808">
+<accessionId id="acc050" href="info:pmid/32661808" />
+<authors>Manchal N , Adegboye OA, Eisen DP.</authors>
+<title>A systematic review on the health outcomes associated with non-endocarditis manifestations of chronic Q fever.</title>
+<source>Eur J Clin Microbiol Infect Dis</source>
+<pubdate>2020</pubdate>
+<volume>39</volume>
+<pages>2225&#x2013;2233</pages>
+</reference>
+<reference id="pubmed37724460">
+<accessionId id="acc051" href="info:pmid/37724460" />
+<authors>Spronk I , Brus IM, de Groot A, Tieleman P, Olde Loohuis AGM, Haagsma JA, Polinder S.</authors>
+<title>Long-term health outcomes of Q-fever fatigue syndrome patients.</title>
+<source>Epidemiol Infect</source>
+<pubdate>2023</pubdate>
+<volume>151</volume>
+<pages>e179</pages>
+</reference>
+<reference id="pubmed35118418">
+<accessionId id="acc052" href="info:pmid/35118418" />
+<authors>Wheelhouse N, Kemp S, Halliday JEB, Tingas EA, Duncan WC, Horne AW.</authors>
+<title>Q fever and early pregnancy failure: a Scottish case-control study.</title>
+<source>Reprod Fertil</source>
+<pubdate>2022</pubdate>
+<volume>3</volume>
+<pages>L1&#x2013;L2</pages>
+</reference>
+<reference id="pubmed36225104">
+<accessionId id="acc053" href="info:pmid/36225104" />
+<authors>Badarni K, Weiner Z, Szwarcwort-Cohen M, Zaltzman-Bershadsky N, Paul M, Ghanem-Zoubi N.</authors>
+<title>Q fever screening among pregnant women with pre-term delivery in northern Israel: An observational study.</title>
+<source>Zoonoses Public Health</source>
+<pubdate>2023</pubdate>
+<volume>70</volume>
+<pages>160&#x2013;165</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+</topic>

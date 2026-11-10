@@ -1,0 +1,53 @@
+<algorithms>
+<!-- Rewritten 2026-10-24: short phrases, no citations (replaces the 2007 algorithm and its image). -->
+<algorithm id="fig001">
+<meta>
+<id>289</id>
+<supertype>AbCd</supertype>
+<last_update>2026-10-24</last_update>
+</meta>
+<title>Algorithm for Evaluation and Treatment of Allergic Rhinitis</title>
+<cell type="start" id="cell-1">
+<label>Suspected allergic rhinitis (history and exam). Avoid allergens and irritants.</label>
+<path target="cell-2">Mild or intermittent symptoms</path>
+<path target="cell-3">Moderate&#x2013;severe or persistent symptoms</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Second-generation antihistamine, oral or intranasal, as needed</label>
+<path target="cell-4">Reassess in 2&#x2013;4 weeks</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Daily intranasal corticosteroid; if severe, consider steroid&#x2013;antihistamine combination spray</label>
+<path target="cell-4">Reassess in 2&#x2013;4 weeks</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Check spray technique and adherence</label>
+<path target="cell-8">Symptoms relieved</path>
+<path target="cell-5">Symptoms remain</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Step up: intranasal steroid plus intranasal antihistamine. Rhinorrhea: add ipratropium spray. Severe congestion: oxymetazoline for 3 days or less.</label>
+<path target="cell-8">Symptoms relieved</path>
+<path target="cell-6">Symptoms remain or diagnosis unclear</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Skin prick or serum specific IgE testing, or refer to allergist</label>
+<path target="cell-7">Positive and matches history</path>
+<path target="cell-9">Negative</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Targeted allergen avoidance; consider immunotherapy (subcutaneous or sublingual tablets)</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Continue treatment; step down when allergen exposure decreases</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Reconsider diagnosis: nonallergic or drug-induced rhinitis, rhinosinusitis, structural causes, local allergic rhinitis. Consider ENT referral.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Adding an oral antihistamine to an intranasal steroid adds little benefit.</footnote>
+<footnote uid="fn2">Montelukast only if other options fail or are not tolerated (FDA boxed warning).</footnote>
+<footnote uid="fn3">Avoid first-generation antihistamines and systemic or depot corticosteroids.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

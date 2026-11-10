@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "EEtopic17.dtd"[]>
+<topic>
+<topic_info>
+<title>Alcohol withdrawal</title>
+<chapter_type>Management of disease (long)</chapter_type>
+<topic_id>eee0857</topic_id>
+<topic_comment />
+<topic_lastupdated>12/22/2024</topic_lastupdated>
+</topic_info>
+<author_info>
+<author primary="yes">
+<author_name>Mark H. Ebell, MD, MS</author_name>
+<author_title>Professor</author_title>
+<author_department />
+<author_institution>College of Public Health, University of Georgia</author_institution>
+<author_email />
+<author_phone_office />
+<author_phone_home />
+<author_phone_fax />
+<author_street1 />
+<author_street2 />
+<author_city />
+<author_state />
+<author_zip />
+</author>
+<author primary="no">
+<author_name>Greg Dobash, MD</author_name>
+<author_title>Assistant Professor</author_title>
+<author_department>Department of Family, Community and Preventive Medicine</author_department>
+<author_institution>Drexel University College of Medicine</author_institution>
+<author_email>gdobash&#x0040;drexelmed.edu</author_email>
+<author_phone_office>215-441-7580</author_phone_office>
+<author_phone_home>215-836-5445</author_phone_home>
+<author_phone_fax>215-441-7585</author_phone_fax>
+<author_street1>31 McCloskey Road</author_street1>
+<author_street2 />
+<author_city>Flourtown</author_city>
+<author_state>PA</author_state>
+<author_zip>19031</author_zip>
+</author>
+<author primary="no">
+<author_name>Michael Frost, MD, MS</author_name>
+<author_title>Director of Internal Medicine</author_title>
+<author_department>Department of Internal Medicine</author_department>
+<author_institution>The Horsham Clinic</author_institution>
+<author_email>drfrost&#x0040;hotmail.com</author_email>
+<author_phone_office>610-567-0088</author_phone_office>
+<author_phone_home />
+<author_phone_fax />
+<author_street1>722 East Butler Pike</author_street1>
+<author_street2 />
+<author_city>Ambler</author_city>
+<author_state>PA</author_state>
+<author_zip>19002</author_zip>
+</author>
+</author_info>
+<editor_info>
+<editor>
+<editor_name>Cara Anne Poland, MD, MEd</editor_name>
+<editor_title>Assistant Professor</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+<editor>
+<editor_name>Gary Ferenchick, MD, MS</editor_name>
+<editor_title>Professor of Medicine</editor_title>
+<editor_institution>Michigan State University</editor_institution>
+</editor>
+</editor_info>
+<topic_text>
+<background>
+<BottomLine>
+<list style="bulleted">
+<listitem>Alcohol-withdrawal symptoms typically start within 4 to 12 hours after cessation of alcohol, peak within 24 to 48 hours, and resolve within 4 to 5 days. <evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>The Clinical Institute Withdrawal Assessment Scale is a reproducible and valid withdrawal-severity assessment scale. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Benzodiazepines are the treatment of choice for alcohol withdrawal syndrome (AWS, <xref ref="table001" />). They should be administered prophylactically to all patients with severe withdrawal symptoms or in patients with a history of previous withdrawal seizure. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Consider phenobarbital + benzodiazepine in patients being hospitalized for moderate to severe AWS.<xref ref="pubmed38747203" resource="acc028" /><evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Symptom-triggered administration of benzodiazepine is safe and leads to smaller quantities of medication needed to control symptoms. <evidence rating="B" system="SORT"> B</evidence></listitem>
+</list>
+</BottomLine>
+<definition>Alcohol withdrawal refers to a spectrum of signs and symptoms that can range from irritability and tremors to hallucinations, seizures, and delirium tremens when a heavy drinker suddenly decreases or ceases consumption.</definition>
+<ICD9_Codes>
+<ICD9>
+<ICD9_name />
+<ICD9_num />
+</ICD9>
+</ICD9_Codes>
+<incidence>
+<list style="bulleted">
+<listitem>In 2004, 365,000 patients were discharged with a diagnosis of alcohol withdrawal, delirium, or psychosis.</listitem>
+<listitem>The incidence of alcohol withdrawal is about 5&#x0025; in placebo-treated patients entered into clinical trials involving inpatients with alcohol related concerns.<xref ref="pubmed15249349" resource="acc002" /></listitem>
+</list>
+</incidence>
+<prevalence>
+<list style="bulleted">
+<listitem>Withdrawal symptoms occur in 15&#x0025; to 20&#x0025; of primary care and hospitalized patients.<xref ref="rule206" resource="acc003" /></listitem>
+</list>
+</prevalence>
+<economic_impact />
+<social_impact />
+<causes>
+<list style="bulleted">
+<listitem>Sudden decrease or cessation of consumption of alcohol in a heavy drinker.</listitem>
+</list>
+</causes>
+<pathophysiology>
+<list style="bulleted">
+<listitem>Alcohol acts at the level of the central nervous system to inhibit excitatory neurotransmitters and to enhance inhibitory neurons, leading to an overall depression of the central nervous system.</listitem>
+<listitem>When alcohol is removed, the reverse takes place and excitatory processes are enhanced and inhibitory processes are diminished. The GABA system is most directly affected.</listitem>
+<listitem>Norepinephrine, and serotonin neurotransmitter systems have also been implicated.</listitem>
+</list>
+</pathophysiology>
+<Risk_Factors>
+<Risk_Factor>
+<Risk_Name>Chronic heavy drinking</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of generalized seizures</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of previous episodes of withdrawal</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>History of delirium tremens</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Use of medications known to lower the seizure threshold</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Age &#x003E;30 years (risk for delirium tremens)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Presence of comorbid disease state (risk for delirium tremons)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factor>
+<Risk_Name>Greater number of days since last drink (risk for delirium tremens)</Risk_Name>
+<Risk_OR />
+</Risk_Factor>
+<Risk_Factors_Ref><xref ref="pubmed7494366" resource="acc014" />
+</Risk_Factors_Ref>
+</Risk_Factors>
+</background>
+<Screening_Prevention>
+<Screening_BL>
+<list style="bulleted">
+<listitem>The USPTF recommends screening and behavioral interventions to reduce alcohol misuse by adults, including pregnant women, in primary care. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>The ASAM Clinical Practice Guideline recommends universal screening for unhealthy alcohol use including assessing for risk of developing alcohol withdrawal in persons known to be using alcohol recently, regularly, and heavily.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+<listitem>Formal questionnaires (CAGE score, AUDIT-C) can help detect alcohol overuse. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>Society of Academic Emergency Medicine recommend naltrexone, acamprosate or gabapentin to prevent a return to heavy drinking for patients with AWS.<xref ref="pubmed38747203" resource="acc028" /><evidence rating="A" system="SORT"> A</evidence></listitem>
+</list>
+</Screening_BL>
+<Screening />
+<Primary_Prevention />
+<Secondary_Prevention />
+<Screening_Low_Risk />
+<Screening_Average_Risk />
+<Screening_High_Risk />
+</Screening_Prevention>
+<Diagnosis>
+<Diagnosis_BL>
+<list style="bulleted">
+<listitem>The CIWA-Ar is a reproducible and valid withdrawal-severity assessment scale. <evidence rating="A" system="SORT"> A</evidence><xref ref="rule206" resource="acc003" /></listitem>
+<listitem>Blood alcohol content should be measured in a seizure of unknown etiology or if alcohol withdrawal is suspected but not confirmed by history. <evidence rating="C" system="SORT"> C</evidence><xref ref="pubmed15249349 cochrane5063" /></listitem>
+<listitem>Neuorimaging is indicated for an initial seizure or if a seizure pattern changes. An EEG should be performed after a first seizure of after subsequent seizures if the diagnosis is in question. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed15249349" resource="acc002" /></listitem>
+</list>
+</Diagnosis_BL>
+<Differential_Diagnosis>
+<Differential>
+<Differential_Name>Primary seizure disorder</Differential_Name>
+<Differential_Features>History of alcohol use disorders . After primary seizure, patients are typically calm. In alcohol-withdrawal seizure, patient remains agitated</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Withdrawal from sedative-hypnotic</Differential_Name>
+<Differential_Features>Positive toxicology</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Primary anxiety state</Differential_Name>
+<Differential_Features>History of alcohol use disorder ; positive screening result</Differential_Features>
+</Differential>
+<Differential>
+<Differential_Name>Essential tremor</Differential_Name>
+<Differential_Features>History of alcohol use disorder , positive screening, absence of symptoms with withdrawal medications</Differential_Features>
+</Differential>
+</Differential_Diagnosis>
+<Diagnostic_criteria />
+<History_physical>
+<list style="bulleted">
+<listitem>Clinically, patients with mild or uncomplicated withdrawal present with restlessness, irritability, anorexia, anxiety, and insomnia.</listitem>
+<listitem>Patients with complicated or severe withdrawal may have delirium, hallucinations, delusions, seizures, or changes in body temperature, pulse, or blood pressure.</listitem>
+<listitem>A history of alcohol consumption should be obtained with supplementary information supplied by family and&#x002F;or friends. The quantity and frequency of consumption as well as any change in the pattern of use should be documented. The time of last alcohol consumption should be established. A history of previous alcohol-withdrawal syndromes (seizure, delerium tremens, etc.) should be recorded.<xref ref="pubmed15249349" resource="acc002" /></listitem>
+<listitem>Polysubstance use should be screened for and assessed.</listitem>
+<listitem>Conduct a neurological exam in patients presenting with a seizure and&#x002F;or delirium.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+</list>
+</History_physical>
+<Diagnostic_testing>
+<list style="bulleted">
+<listitem>When information about recent alcohol use is unavailable or unreliable, biomarkers for alcohol use can be used. These include carbohydrate-deficient transferrin (CDT) and gammaglutamyl transferase (GGT). These tests have poor accuracy when applied to the general public.<xref ref="rule216 pubmed15249349" /></listitem>
+<listitem>Blood alcohol concentrations should be measured in persons suspected of having an alcohol-related seizure.<xref ref="pubmed15249349" resource="acc002" /></listitem>
+<listitem>Neuroimaging (CT or MRI) is indicated for the initial seizure of if there is a change in seizure type or frequency or if the seizure is otherwise atypical (greater than 48 hours after cessation of drinking).</listitem>
+<listitem>EEG should be performed after the first seizure and after repeated seizures if a secondary or alternative etiology is suspected.<xref ref="pubmed15249349" resource="acc002" /></listitem>
+<listitem>Identify concurrent conditions: medical conditions that could affect the course of alcohol withdrawal, pregnancy test as appropriate, CBC, metabolic profile and lever tests.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+<listitem>Nutritional deficiencies should be assessed and treated as appropriate.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+</list>
+</Diagnostic_testing>
+<Decision_rules>
+<list style="bulleted">
+<listitem>The Clinical Institute Withdrawal Assessment Scale (CIWA-ar) can be used to predict the severity of alcohol withdrawal.<xref ref="pubmed2597811" resource="acc004" /> It is also available as an interactive calculator.</listitem>
+<listitem>Formal questionnaires (e.g., CAGE score, AUDIT-C) can help to detect alcohol overuse.<xref ref="rule206" resource="acc003" /></listitem>
+<listitem>Alcohol withdrawal and alcohol withdrawal delirium should be diagnosed using DSM-5.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+<listitem>A clinical prediction rule identified 8 independent risk factors for severe alcohol withdrawal including seizure history, elevated bilirubin, elevated AST, depression, tachycardia, white race, low potassium, and presenting for a diagnosis other than alcohol use disorder. The presence of 3 or more of the 8 risk factors predicted severe disease.<xref ref="pubmed32172129" resource="acc023" /></listitem>
+</list>
+</Decision_rules>
+<Diagnostic_strategy>
+<list style="bulleted">
+<listitem>The Clinical Institute Withdrawal Assessment-Alcohol (CIWA-A) and the shortened CIWA-A, revised (CIWA-Ar), are reproducible and valid withdrawal-severity assessment scales.<xref ref="pubmed2597811" resource="acc004" /> It does not diagnose withdrawal.<xref ref="pubmed32909985" resource="acc022" /> See the interactive clinical decision rule.</listitem>
+<listitem>A score of &lt;8 to 10 is considered mild withdrawal, a score of 8 to 15 is considered moderate withdrawal, and a score &#x003E;15 is considered severe withdrawal. Patients with delirium, hallucinations, seizure, body temperature changes, tachycardia, and hypertension should also be considered to have severe withdrawal.</listitem>
+<listitem>See <xref ref="table001" /> for dosing recommendations.</listitem>
+</list>
+</Diagnostic_strategy>
+<Other_Test_Data />
+<HP_Data_Group />
+<Dx_Data_Group />
+</Diagnosis>
+<Treatment>
+<Treatment_BL>
+<list style="bulleted">
+<listitem>Benzodiazepines are the treatment of choice for alcohol withdrawal.<xref ref="cochrane5063" resource="acc007" /> They should be administered prophylactically to all patients with severe withdrawal symptoms and in patients with a history of previous withdrawal seizure. <evidence rating="A" system="SORT"> A</evidence></listitem>
+<listitem>The CIWA-aR can be used to guide decisions regarding administration of medication. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed2597811" resource="acc004" /></listitem>
+<listitem>Symptom-triggered administration of benzodiazepine is safe and leads to smaller quantities of medication needed to control symptoms. <evidence rating="B" system="SORT"> B</evidence><xref ref="pubmed12020181" resource="acc005" /></listitem>
+<listitem>Definitive conclusions regarding the safety and efficacy of anticonvulsants cannot be reached currently. <evidence rating="B" system="SORT"> B</evidence><xref ref="cochrane5064" resource="acc006" /></listitem>
+<listitem>Adjunctive agents such as beta-blockers and clonidine reduce the signs and symptoms of alcohol withdrawal but should not be used as the sole agent in withdrawal. <evidence rating="A" system="SORT"> A</evidence><xref ref="rule206" resource="acc003" /></listitem>
+</list>
+</Treatment_BL>
+<Treatment_Drug>
+<list style="bulleted">
+<listitem>Society for Academic Emergnecy Medicine guidelines for management of alcohol withdrawal syndrome (AWS) recommend benzodiapines + phenobarbital for adults with moderate to severe AWS who are being admitted.<xref ref="pubmed38747203" resource="acc028" /></listitem>
+<listitem>
+<strong>Thiamine and benzodiazepines</strong></listitem>
+<listitem>Thiamine 100 mg IV or IM daily for at least 3 days is recommended for patients with alcohol-withdrawal delirium.</listitem>
+<listitem>Thiamine should be given prior to administering glucose if needed.</listitem>
+<listitem>Benzodiazepines are the treatment of choice for alcohol withdrawal. They should be administered prophylactically to all patients with severe withdrawal symptoms or in patients with a history of previous alcohol-withdrawal seizures.<xref ref="cochrane5063" resource="acc007" /> They are superior to placebo in reducing signs and symptoms of withdrawal, especially seizure (risk reduction of 7.7 seizures per 100 patients treated).<xref ref="rule206" resource="acc003" /> It is difficult to assess the relative effectiveness and safety of benzodiazepines compared with other drugs because of the heterogeneity in interventions and assessment of outcomes.<xref ref="cochrane5063" resource="acc007" /></listitem>
+<listitem>The initial therapeutic goal of alcohol withdrawal is rapid control of agitation.<xref ref="pubmed15249349" resource="acc002" /> When treating alcohol-withdrawal delirium, benzodiazepines with rapid onset of action control agitation more quickly, but longer acting agents provide a smoother treatment course and have fewer breakthrough symptoms. Shorter acting agents may be preferred if there is a concern about sedation or in patients with comorbid disease or liver disease.</listitem>
+<listitem>Symptom-triggered medication administration led to a decrease in the amount of benzodiazepine needed to control withdrawal symptoms compared with a fixed-dose administration scheme. There was no difference in patient comfort or complications (seizure or delirium).<xref ref="pubmed12020181" resource="acc005" /> Symptom-triggered benzodiazepine administration also led to less total medication needed compared with fixed-dosing schedules. Both schemes were effective in preventing complications of alcohol withdrawal.<xref ref="pubmed16785215" resource="acc008" /></listitem>
+<listitem>A retrospective cohort study found that symptom triggered dosing was associated with lower amount and duration of benzodiazepine use in a population of adults 70 years and older admitted for alcohol withdrawal syndrome.<xref ref="pubmed24962514" resource="acc018" /></listitem>
+<listitem>All benzodiazepines appear to be similarly effective in reducing signs and symptoms of withdrawal. Longer acting agents may be more effective in preventing seizures but may lead to excess sedation. Shorter acting agents may be useful when rapid control of symptoms is necessary but have more potential for misuse. See <xref ref="table001" /> for dosing recommendations.<xref ref="rule206" resource="acc003" /></listitem>
+<listitem>The dose of sedative-hypnotic medication for treatment should be individualized to the patient. The therapeutic goal is light somnolence. Doses of sedative-hypnotic used to control alcohol-withdrawal delirium may be much higher than doses needed to treat anxiety or presurgical sedation. Occasionally, massive doses of benzodiazepine may be needed to control symptoms. Patients may require care in an intensive care unit.<xref ref="pubmed15249349" resource="acc002" /></listitem>
+<listitem>The initial treatment of alcohol-related status epilepticus is IV lorazepam. Lorazepam 2 mg IV has also been shown to reduce the risk of a second seizure in persons with chronic alcohol use presenting to the emergency department with a witnessed generalized seizure (3&#x0025; vs. 24&#x0025;; NNT 4.8).<xref ref="poem10803" resource="acc009" /></listitem>
+<listitem>
+<strong>Anticonvulsants</strong></listitem>
+<listitem>The safety and effectiveness of anticonvulsants in alcohol withdrawal are inconclusive.<xref ref="cochrane5064" resource="acc006" /> Phenytoin (15 mg&#x002F;kg IV) given after the first witnessed seizure failed to prevent a second seizure in a 6-hour observation period.<xref ref="pubmed8135426" resource="acc010" /> Carbamazepine is superior to placebo and equal in efficacy to oxazepam in treating mild to moderate withdrawal symptoms. Its efficacy in treating or preventing withdrawal seizures and delirium is unknown.<xref ref="rule206" resource="acc003" /></listitem>
+<listitem>A single dose of IV phenobarbitol (10 mg&#x002F;kg) plus use of a symptom-guided lorazepam-based withdrawal protocol was associated with fewer ICU admissions (8&#x0025; vs. 25&#x0025; for placebo) in 102 patients presenting to the ED with AWS, and was not associated with increased adverse outcomes.<xref ref="pubmed22999778" resource="acc016" /></listitem>
+<listitem>A systematic review identified 2 RCTs and 6 observational studies, and concluded that treatment with phenobarbital does not reduce ICU admissions, hospital admissions, readmissions or adverse events compared with benzodiazepines.<xref ref="pubmed37923363" resource="acc026" /> Two additional systematic reviews of came to a similar conclusion.<xref ref="pubmed37060631" resource="acc024" /><xref ref="pubmed37589203" resource="acc027" /></listitem>
+<listitem>
+<strong>Adrenergic agents</strong></listitem>
+<listitem>Beta-blockers reduce the signs and symptoms of withdrawal, but the effects on seizure activity are unknown. Beta-blockers may increase delirium and may mask development of significant withdrawal symptoms.<xref ref="rule206" resource="acc003" /> They are not recommended for routine use in alcohol-withdrawal delirium but may be used in combination with benzodiazepines in selected patients with hypertension and&#x002F;or tachycardia.</listitem>
+<listitem>Clonidine has been shown to be effective for reducing symptoms in patients with mild to moderate withdrawal. Its effects on seizure and delirium are unknown.<xref ref="rule206" resource="acc003" /></listitem>
+<listitem>Dexmedetomidine is from the same drug class as clonidine (centrally acting alpha-2 adrenergic agonists) and was studied in a small RCT of 24 patients with a CIWA score &#x2265;15 despite receiving at least 16 mg lorazepam over 4 hours. Those randomized to addition of dexmedetomidine (0.4-1.2 mcg&#x002F;kg&#x002F;h) required less lorazepam in the next 24 hours (56 mg vs. 8 mg) but long-term lorazepam requirements and other outcomes were similar between groups. A systematic review of RCTs and cohort studies concluded that there was no significant benefit to adding dexmedetomidine.<xref ref="pubmed36258676" resource="acc025" /></listitem>
+<listitem>
+<strong>Other agents</strong></listitem>
+<listitem>Neuroleptic agents are less effective than benzodiazepines in treating signs and symptoms of alcohol withdrawal and may lower seizure threshold, but they may be useful to calm agitated patients.<xref ref="rule206" resource="acc003" /> They should not be used as the sole treatment agent in alcohol-withdrawal delirium. If extremely large doses of benzodiazepines fail to control agitation, pentobarbitol or propofol may be used. However, the latter is frequently associated with hypotension and the need for mechanical ventilation.<xref ref="pubmed26893017" resource="acc020" /></listitem>
+<listitem>Baclofen (30&#x002F;mg daily for 10 days) was as effective as diazepam (0.5-0.75 mg&#x002F;kg for 6 consecutive days, followed by a tapering dose of 25&#x0025;&#x002F;day on days 7-10) in reducing symptoms of uncomplicated alcohol withdrawal. However a Cochrane review (which included this study) concluded that the evidence for recommending baclofen for the AWS is insufficient and of too low quality to draw any firm conclusions.<xref ref="pubmed16490478" resource="acc011" /><xref ref="cochrane8502" resource="acc015" /></listitem>
+<listitem>Magnesium supplementation does not reduce signs and symptoms of withdrawal, and a Cochrane review concluded that there was insufficient evidence to determine if it is beneficial or harmful in the treatment or prevention of AWS.<xref ref="rule206" resource="acc003" /> Ethyl alcohol is not recommend for treatment of alcohol-withdrawal delirium.<xref ref="cochrane8358" resource="acc021" /></listitem>
+<listitem>In a small RCT, intranasal oxytocin (24 IU&#x002F;dose twice daily for 3 days) was found to decrease withdrawal symptoms in patients with alcohol tolerance, and was associated with less benzodiazepam use and lower CIWA withdrawal scores.<xref ref="pubmed23025690" resource="acc017" /></listitem>
+<listitem>The opioid receptor blocker nalmefene has been studied in 5 RCTs with 2567 patients had minimal benefits, decreasing heavy drinking days by only 1.6 per month.<xref ref="poem180409" resource="acc019" /></listitem>
+</list>
+</Treatment_Drug>
+<Treatment_Surgery />
+<Treatment_CAM>
+<list style="bulleted">
+<listitem>A pilot study failed to show benefit of auricular laser acupuncture in reducing alcohol-withdrawal symptoms.<xref ref="pubmed12814907" resource="acc012" /></listitem>
+<listitem>Massage decreases scores on the Alcohol Withdrawal Scale early in treatment and decreases pulse rate in later days of treatment when used as a complementary therapy.<xref ref="pubmed15865498" resource="acc013" /></listitem>
+</list>
+</Treatment_CAM>
+<Treatment_PT />
+<Treatment_Behavioral>
+<list style="bulleted">
+<listitem>After detoxification, the patient's underlying alcohol use disorder should be treated, with relapse prevention being stressed.</listitem>
+</list>
+</Treatment_Behavioral>
+<Treatment_Other>
+<list style="bulleted">
+<listitem>Expert opinion holds that, in patients with alcohol-withdrawal delirium, a quiet room with good lighting and appropriate environmental clues may reduce confusion.<xref ref="pubmed15249349" resource="acc002" /></listitem>
+</list>
+</Treatment_Other>
+<Treatment_Duration />
+<Treatment_Referral>
+<list style="bulleted">
+<listitem>Decisions to determine level of care can be aided by American Society of Addiction Medicine (ASAM) Placement Criteria. <xref ref="pubmed32909985" resource="acc022" /></listitem>
+<listitem>Assessment of immediate needs includes acute intoxication and&#x002F;or withdrawal potential, biomedical conditions and complications, emotional&#x002F;behavioral&#x002F;cognitive conditions, readiness to change, relapse&#x002F;continued use&#x002F;continued problem potential, recovery environment.</listitem>
+<listitem>Hospitalization is indicated in patients who have an overdose or cannot be safely monitored in an outpatient or emergency department setting, have risk factors for having severe or complicated withdrawal symptoms, have medical or psychiatric comorbidities that make outpatient detoxification unsafe, have behavioral health concerns that make the patient a danger to self or others, or have not responded to less intensive levels of care.</listitem>
+<listitem>Prediction of Alcohol Withdrawal Severity Scale (PAWSS) can be used for hospitalized patients to predict risk of developing severe or complicated alcohol withdrawal.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+<listitem>For patients who do not meet criteria; for inpatient withdrawal treatment the ASAM Placement Criteria may help establish an appropriate level of care.</listitem>
+</list>
+</Treatment_Referral>
+<Treatment_complications>
+<list style="bulleted">
+<listitem>Patients should be monitored for signs of hypoglycemia.</listitem>
+<listitem>The initial treatment of alcohol-related status epilepticus is IV lorazepam. Lorazepam 2 mg IV has also been shown to reduce the risk of a second seizure in persons with an alcohol use disorder presenting to the emergency department with a witnessed generalized seizure (3&#x0025; vs. 24&#x0025;; NNT 4.8).<xref ref="poem10803" resource="acc009" /></listitem>
+<listitem>If electrolyte abnormalities are discovered, they should be corrected.</listitem>
+<listitem>Respiratory depression may require intubation.</listitem>
+<listitem>Significant medical comorbidities, a history of complicated withdrawal, gastrointestinal pathology, renal or hepatic insufficiency, prolonged hyperthermia, or a need for frequent or high-dose sedatives require hospitalization and, if significant, ICU admission.</listitem>
+</list>
+</Treatment_complications>
+<Treatment_Hospital />
+<Treatment_Early_Stage />
+<Treatment_Loco_Regional />
+<Treatment_Advanced_Stage />
+<Treatment_Mild_Disease />
+<Treatment_Moderate_Disease />
+<Treatment_Severe_Disease />
+<Treatment_StageA />
+<Treatment_StageB />
+<Treatment_StageC />
+<Treatment_StageD />
+</Treatment>
+<Prognosis>
+<Prognosis_BL>
+<list style="bulleted">
+<listitem>Alcohol-withdrawal symptoms typically start within 4 to 12 hours after cessation of alcohol, peak within 24 to 48 hours, and resolve within 4 to 5 days. <evidence rating="B" system="SORT"> B</evidence></listitem>
+<listitem>Minor withdrawal symptoms (insomnia, tremulousness, headache, diaphoresis, anorexia) can occur within 6 hours of cessation and while the blood alcohol level is still positive; withdrawal seizures typically occur within 48 hours of cessation, and hallucinations develop after about 12 to 24 hours after cessation and resolve within 24 to 48 hours. Alcohol withdrawal can occur from a decrease in alcohol consumption and not complete cessation.<evidence rating="C" system="SORT"> C</evidence></listitem>
+<listitem>Alcohol-withdrawal delirium complicates about 5&#x0025; of alcohol-withdrawal syndromes. Mortality rates for alcohol withdrawal were once reported at 15&#x0025;, but, with the advent of benzodiazepine treatment and improved supportive care, those rates have fallen to between 0 and 1&#x0025;. <evidence rating="A" system="SORT"> A</evidence><xref ref="pubmed15249349" resource="acc002" /></listitem>
+<listitem>Alcohol-withdrawal management should be considered the first step in treatment. All persons who receive treatment for alcohol withdrawal should be offered treatment for their alcohol use disorder as soon as cognitive status permits.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+<listitem>A clinical prediction rule identified 8 independent risk factors for severe alcohol withdrawal including seizure history, elevated bilirubin, elevated AST, depression, tachycardia, white race, low potassium, and presenting for a diagnosis other than alcohol use disorder. The presence of 3 or more of the 8 risk factors predicted severel disease.<xref ref="pubmed32172129" resource="acc023" /></listitem>
+</list>
+</Prognosis_BL>
+<Natural_history />
+<Prognosis_Detail />
+<Followup />
+<Patient_education />
+</Prognosis>
+<Special_populations>
+<Elderly>
+<list style="bulleted">
+<listitem>Shorter acting benzodiazepines should be considered in the elderly if there is concern for oversedation.<xref ref="rule206" resource="acc003" /></listitem>
+</list>
+</Elderly>
+<Pregnancy>
+<list style="bulleted">
+<listitem>Benzodiazepines and barbiturates have been associated with adverse fetal outcomes. Medication should be limited to the amount needed to prevent major complications of withdrawal.<xref ref="rule206" resource="acc003" /></listitem>
+<listitem>Pregnant people should be encouraged to seek further treatment after acute withdrawal and offered support to enter and maintain treatment.<xref ref="pubmed32909985" resource="acc022" /></listitem>
+</list>
+</Pregnancy>
+<Children>
+<list style="bulleted">
+<listitem>There is no evidence that recommendations should be altered in the adolescent population.<xref ref="rule206" resource="acc003" /></listitem>
+</list>
+</Children>
+</Special_populations>
+<Misc>
+<References>
+<reference id="rule216">
+<accessionId id="acc001" href="info:wiley/eep-rule/216" />
+<accessionId id="acc001b" href="info:pmid/12695273" />
+<authors>Bradley KA, Bush KR, Epler AJ, et al.</authors>
+<title>Two brief alcohol-screening tests from the alcohol use disorders identification test (AUDIT).</title>
+<source>Arch Intern Med</source>
+<pubdate>2003</pubdate>
+<volume>163</volume>
+<pages>821-829</pages>
+</reference>
+<reference id="pubmed15249349">
+<accessionId id="acc002" href="info:pmid/15249349" />
+<authors>Mayo-Smith MF, Breecher LH, Fischer TL, et al.</authors>
+<title>Management of alcohol withdrawal delerium: An evidence-based practice guideline.</title>
+<source>Arch Intern Med</source>
+<pubdate>2004</pubdate>
+<volume>164</volume>
+<pages>1405-1412</pages>
+</reference>
+<reference id="rule206">
+<accessionId id="acc003" href="info:wiley/eep-rule/206" />
+<accessionId id="acc003b" href="info:pmid/9214531" />
+<authors>Mayo-Smith MF.</authors>
+<title>Pharmacological management of alcohol withdrawal. A meta-analysis and evidence-based practice guideline. American Society of Addiction Medicine Working Group on Pharmacological Management of Alcohol Withdrawal.</title>
+<source>JAMA</source>
+<pubdate>1997</pubdate>
+<volume>278</volume>
+<pages>144-151</pages>
+</reference>
+<reference id="pubmed2597811">
+<accessionId id="acc004" href="info:pmid/2597811" />
+<authors>Sullivan JT, Sykora K, Schneiderman J, et al.</authors>
+<title>Assessment of Alcohol Withdrawal: The revised clinical institute withdrawal assessment for alcohol scale (CIWA-Ar).</title>
+<source>Br J Addict</source>
+<pubdate>1989</pubdate>
+<volume>84</volume>
+<pages>1353-1357</pages>
+</reference>
+<reference id="pubmed12020181">
+<accessionId id="acc005" href="info:pmid/12020181" />
+<authors>Daeppen JB, Gache P, Landry U, et al.</authors>
+<title>Symptom-triggered versus fixed-schedule doses of benzodiazepine for alcohol withdrawal.</title>
+<source>Arch Intern Med</source>
+<pubdate>2002</pubdate>
+<volume>162</volume>
+<pages>1117-1121</pages>
+</reference>
+<reference id="cochrane5064">
+<accessionId id="acc006" href="info:wiley/cochrane/CD005064" />
+<chapter_authors>Polycarpou A, Papanikolaou P, Ioannidis JPA, Contopoulos-Ioannidis DG.</chapter_authors>
+<chapter_title>Anticonvulsants for alcohol withdrawal (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="cochrane5063">
+<accessionId id="acc007" href="info:wiley/cochrane/CD005063" />
+<chapter_authors>Ntais C, Pakos E, Kyzas P, Ioannidis JPA.</chapter_authors>
+<chapter_title>Benzodiazepines for alcohol withdrawal (Cochrane Review).</chapter_title>
+<book_editors />
+<book_title>The Cochrane Library 2007 Issue 1.</book_title>
+<edition />
+<city_publisher>Chichester, UK: John Wiley and Sons, Ltd.</city_publisher>
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed16785215">
+<accessionId id="acc008" href="info:pmid/16785215" />
+<authors>Weaver MF, Hoffman HJ, Johnson RE, Mauck K.</authors>
+<title>Alcohol pharmacotherapy for inpatients with medical comorbidity.</title>
+<source>J Addict Dis</source>
+<pubdate>2006</pubdate>
+<volume>25</volume>
+<pages>17-24</pages>
+</reference>
+<reference id="poem10803">
+<accessionId id="acc009" href="info:wiley/eep-poem/10803" />
+<accessionId id="acc009b" href="info:pmid/10094637" />
+<authors>D'Onofrio G, Rathleve NK, Ulrich, et al.</authors>
+<title>Lorazepam for the prevention of recurrent seizures related to alcohol.</title>
+<source>N Engl J Med</source>
+<pubdate>1999</pubdate>
+<volume>340</volume>
+<pages>915-919</pages>
+</reference>
+<reference id="pubmed8135426">
+<accessionId id="acc010" href="info:pmid/8135426" />
+<authors>Rathlev NK, D'Onofrio G, Fish SS, et al.</authors>
+<title>The lack of efficacy of phenytoin in the prevention of recurrent alcohol-related seizures.</title>
+<source>Ann Emerg Med</source>
+<pubdate>1994</pubdate>
+<volume>23</volume>
+<pages>513-518</pages>
+</reference>
+<reference id="pubmed16490478">
+<accessionId id="acc011" href="info:pmid/16490478" />
+<authors>Addolorato G, Leggio L, Abenavoli L, et al.</authors>
+<title>Baclofen in the treatment of alcohol withdrawal syndrome: A comparative study vs. diazepmam.</title>
+<source>Am J Med</source>
+<pubdate>2006</pubdate>
+<volume>119</volume>
+<pages>276.e13-276.e18</pages>
+</reference>
+<reference id="pubmed12814907">
+<accessionId id="acc012" href="info:pmid/12814907" />
+<authors>Tr&#x00FC;mpler F, Oez S, St&#x00E4;hli P, Brenner HD, J&#x00FC;ni P.</authors>
+<title>Acupuncture for alcohol withdrawal: A randomized controlled trial.</title>
+<source>Alcohol Alcohol</source>
+<pubdate>2003 Jul-Aug</pubdate>
+<volume>38</volume>
+<pages>369&#x2013;375</pages>
+</reference>
+<reference id="pubmed15865498">
+<accessionId id="acc013" href="info:pmid/15865498" />
+<authors>Reader M, Young R, Connor JP.</authors>
+<title>Massage therapy improves the management of alcohol withdrawal syndrome.</title>
+<source>J Altern Complement Med</source>
+<pubdate>2005</pubdate>
+<volume>11</volume>
+<pages>311-313</pages>
+</reference>
+<reference id="pubmed7494366">
+<accessionId id="acc014" href="info:pmid/7494366" />
+<authors>Scott TE, LaMorte WW, Gorin DR, Menzoian JO.</authors>
+<title>Risk factors for chronic venous insufficiency: A dual case-control study.</title>
+<source>J Vasc Surg</source>
+<pubdate>1995</pubdate>
+<volume>22</volume>
+<pages>622-628</pages>
+</reference>
+<reference id="cochrane8502">
+<accessionId id="acc015" href="info:wiley/cochrane/CD008502" />
+<chapter_authors>Liu J, Wang L.</chapter_authors>
+<chapter_title>Baclofen for alcohol withdrawal.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2015, Issue 4. Art. No.: CD008502. DOI: 10.1002&#x002F;14651858.CD008502.pub4.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed22999778">
+<accessionId id="acc016" href="info:pmid/22999778" />
+<authors>Rosenson J, Clements C, Simon B, Vieaux J, Graffman S, Vahidnia F, Cisse B, Lam J, Alter H</authors>
+<title>Phenobarbital for acute alcohol withdrawal: A prospective randomized double-blind placebo-controlled study.</title>
+<source> J Emerg Med</source>
+<pubdate>2013</pubdate>
+<volume>44</volume>
+<pages>592-598.e2</pages>
+</reference>
+<reference id="pubmed23025690">
+<accessionId id="acc017" href="info:pmid/23025690" />
+<authors>Pedersen CA, Smedley KL, Leserman J, Jarskog LF, Rau SW, Kampov-Polevoi A, Casey RL, Fender T, Garbutt JC.</authors>
+<title>Intranasal oxytocin blocks alcohol withdrawal in human subjects.</title>
+<source>Alcohol Clin Exp Res</source>
+<pubdate>2013</pubdate>
+<volume>37</volume>
+<pages>484-489</pages>
+</reference>
+<reference id="pubmed24962514">
+<accessionId id="acc018" href="info:pmid/24962514" />
+<authors>Taheri A, Dahri K, Chan P, Shaw M, Aulakh A, Tashakkor A.</authors>
+<title>Evaluation of a symptom-triggered protocol approach to the management of alcohol withdrawal syndrome in older adults.</title>
+<source>J Am Geriatr Soc</source>
+<pubdate>2014</pubdate>
+<volume>62</volume>
+<pages>1551&#x2013;1555</pages>
+</reference>
+<reference id="poem180409">
+<accessionId id="acc019" href="info:wiley/eep-poem/180409" />
+<accessionId id="acc019b" href="info:pmid/26694529" />
+<authors>Palpacuer C, Laviolle B, Boussageon R, Reymann JM, Bellissant E, Naudet F.</authors>
+<title>Risks and benefits of nalmefene in the treatment of adult alcohol dependence: A systematic literature review and meta-analysis of published and unpublished double-blind randomized controlled trials.</title>
+<source>PLoS Med</source>
+<pubdate>2015</pubdate>
+<volume>12</volume>
+<pages>e1001924</pages>
+</reference>
+<reference id="pubmed26893017">
+<accessionId id="acc020" href="info:pmid/26893017" />
+<authors>Brotherton AL, Hamilton EP, Kloss HG, Hammond DA.</authors>
+<title>Propofol for treatment of refractory alcohol withdrawal syndrome: A review of the literature.</title>
+<source>Pharmacotherapy</source>
+<pubdate>2016</pubdate>
+<volume>36</volume>
+<pages>433&#x2013;442</pages>
+</reference>
+<reference id="cochrane8358">
+<accessionId id="acc021" href="info:wiley/cochrane/CD8358" />
+<chapter_authors>Sarai M, Tejani AM, Chan AHW, Kuo IF, Li J.</chapter_authors>
+<chapter_title>Magnesium for alcohol withdrawal.</chapter_title>
+<book_editors />
+<book_title>Cochrane Database of Systematic Reviews 2013, Issue 6. Art. No.: CD008358. DOI: 10.1002&#x002F;14651858.CD008358.pub2.</book_title>
+<edition />
+<city_publisher />
+<year />
+<pages />
+<isbn />
+</reference>
+<reference id="pubmed32909985">
+<accessionId id="acc022" href="info:pmid/32909985" />
+<authors>Lindsay DL, Freedman K, Jarvis M, Lincoln P, Williams J, Nelson LS, Safarian T.</authors>
+<title>Executive summary of the American Society of Addiction Medicine (ASAM) Clinical Practice Guideline on Alcohol Withdrawal Management.</title>
+<source>J Addict Med</source>
+<pubdate>2020 Sep&#x002F;Oct</pubdate>
+<volume>14</volume>
+<pages>376&#x2013;392</pages>
+</reference>
+<reference id="pubmed32172129">
+<accessionId id="acc023" href="info:pmid/32172129" />
+<authors>Mahabir CA, Anderson M, Cimino J, Lyden E, Siahpush M, Shiffermiller J.</authors>
+<title>Derivation and validation of a multivariable model, the alcohol withdrawal triage tool (AWTT), for predicting severe alcohol withdrawal syndrome.</title>
+<source>Drug Alcohol Depend</source>
+<pubdate>2020</pubdate>
+<volume>209</volume>
+<pages>107943</pages>
+</reference>
+<reference id="pubmed37060631">
+<accessionId id="acc024" href="info:pmid/37060631" />
+<authors>Pourmand A, AlRemeithi R, Kartiko S, Bronstein D, Tran QK.</authors>
+<title>Evaluation of phenobarbital based approach in treating patient with alcohol withdrawal syndrome: A systematic review and meta-analysis.</title>
+<source>Am J Emerg Med</source>
+<pubdate>2023</pubdate>
+<volume>69</volume>
+<pages>65&#x2013;75</pages>
+</reference>
+<reference id="pubmed36258676">
+<accessionId id="acc025" href="info:pmid/36258676" />
+<authors>Polintan ETT, Danganan LML, Cruz NS, Macapagal SC, Catahay JA, Patarroyo-Aponte G, Azmaiparashvili Z, Lo KB.</authors>
+<title>Adjunctive Dexmedetomidine in Alcohol Withdrawal Syndrome: A Systematic Review and Meta-analysis of Retrospective Cohort Studies and Randomized Controlled Trials.</title>
+<source>Ann Pharmacother</source>
+<pubdate>2023</pubdate>
+<volume>57</volume>
+<pages>696&#x2013;705</pages>
+</reference>
+<reference id="pubmed37923363">
+<accessionId id="acc026" href="info:pmid/37923363" />
+<authors>Lee CM , Dillon DG , Tahir PM, Murphy CE 4th .</authors>
+<title>Phenobarbital treatment of alcohol withdrawal in the emergency department: A systematic review and meta-analysis.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>31</volume>
+<pages>515&#x2013;524</pages>
+</reference>
+<reference id="pubmed37589203">
+<accessionId id="acc027" href="info:pmid/37589203" />
+<authors>Punia K, Scott W, Manuja K, Campbell K, Balodis IM, MacKillop J .</authors>
+<title>SAEM GRACE: Phenobarbital for alcohol withdrawal management in the emergency department: A systematic review of direct evidence.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>31</volume>
+<pages>481&#x2013;492</pages>
+</reference>
+<reference id="pubmed38747203">
+<accessionId id="acc028" href="info:pmid/38747203" />
+<authors>Borgundvaag B , Bellolio F , Miles I , Schwarz ES , Sharif S , Su MK, Baumgartner K , Liss DB , Sheikh H , Vogel J , Austin EB , Upadhye S , Klaiman M , Vellend R, Munkley A, Carpenter CR .</authors>
+<title>Guidelines for Reasonable and Appropriate Care in the Emergency Department (GRACE-4): Alcohol use disorder and cannabinoid hyperemesis syndrome management in the emergency department.</title>
+<source>Acad Emerg Med</source>
+<pubdate>2024</pubdate>
+<volume>31</volume>
+<pages>425&#x2013;455</pages>
+</reference>
+</References>
+<Web_Sites />
+<Guidelines />
+</Misc>
+</topic_text>
+<feature_group>
+<feature id="table001">
+<caption>Different Regimens of Benzodiazepine Administration for Alcohol Withdrawal.</caption>
+<feature_body>
+<table>
+<tr>
+<th align="left" colspan="1">Method</th>
+<th align="left" colspan="1">Description</th>
+<th align="left" colspan="1">Example</th>
+<th align="left" colspan="1">When to Consider</th>
+<th align="left" colspan="1">Drawbacks</th>
+</tr>
+<tr>
+<td align="left" colspan="1">Loading dose</td>
+<td align="left" colspan="1">Administration of a slowly metabolized benzodiazepine every 1-3 h until sedation occurs or until clinical improvement of symptoms is established</td>
+<td align="left" colspan="1">Diazepam 20 mg or chlordiazepoxide 100 mg or equivalent every 2-3 h</td>
+<td align="left" colspan="1">Patients at risk for severe complications who are already experiencing withdrawal symptoms</td>
+<td align="left" colspan="1">Requires hospitalization and intensive monitoring of hemodynamic and respiratory parameters; oversedation is a risk</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Symptom triggered</td>
+<td align="left" colspan="1">With a withdrawal assessment scale, a dose of benzodiazepine is administered according to the score; the process is repeated every 30-60 min depending of the onset of action of the medication until symptoms are controlled</td>
+<td align="left" colspan="1">For a CIWA-Ar score of &lt;9, no medication is given; for a CIWA-Ar score of 10-15, oxazepam 15 mg or chlordiazepoxide 50 mg or equivalent is given; for a CIWA-Ar score of &#x003E;15, oxazepam 30 mg or chlordiazepoxide or equivalent is given</td>
+<td align="left" colspan="1">Patients with no history of complicated withdrawal</td>
+<td align="left" colspan="1">Requires staff comfortable administering assessment scale and following treatment protocol</td>
+</tr>
+<tr>
+<td align="left" colspan="1">Fixed dose with gradual taper</td>
+<td align="left" colspan="1">The patient is stabilized on a benzodiazepine dose that dose is slowly tapered over 3-5 days depending on patient response to medication</td>
+<td align="left" colspan="1">Patient is started on oxazepam 30 mg or chlordiazepoxide 100 mg or equivalent for four doses, then given oxazepam 15 mg or chlordiazepoxide 50 mg every 6 h for 8 doses, with additional medication given as needed for breakthrough symptoms</td>
+<td align="left" colspan="1">Commonly used regimen; adaptable to individual patient</td>
+<td align="left" colspan="1">Protocols vary widely across institutions; patient must be stabilized prior to taper</td>
+</tr>
+</table>Data from Physical detoxification services for withdrawal from specific substances. <em>Center for Substance Abuse Treatment (CSAT). Detoxification and substance abuse treatment</em>. Rockville, MD: Substance Abuse and Mental Health Services Administration (SAMHSA); 2006 Jan 18. pp. 41-111.</feature_body>
+</feature>
+</feature_group>
+</topic>
