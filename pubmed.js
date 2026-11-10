@@ -15,7 +15,7 @@ const LIMITERS = 'AND (hasabstract[text] AND humans[MH] AND English[lang])';
 // restriction, i.e. both; POEMs with no age group recorded are left out of a filtered list).
 const AGE_GROUPS = [
   { key: 'all', label: 'All ages', clause: '', poemCodes: null },
-  { key: 'child-0-18', label: 'Child (birth to 18 years)', clause: 'AND ("Child: birth-18 years"[filter])', poemCodes: [2, 3] },
+  { key: 'child-0-18', label: 'Child (birth to 18 years)', clause: 'AND (allchild[filter])', poemCodes: [2, 3] },
   { key: 'adult', label: 'Adult (19+ years)', clause: 'AND (adult[filter])', poemCodes: [1, 3] }
 ];
 
