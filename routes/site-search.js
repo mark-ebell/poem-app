@@ -113,3 +113,6 @@ router.get('/', quota('search'), (req, res) => {
 });
 
 module.exports = router;
+// Also used by the Evidence Summary (evidence-summary.js) to count matching calculators and risk scores.
+module.exports.searchCalculator = searchCalculator;
+module.exports.searchTools = searchTools;

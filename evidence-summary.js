@@ -3,9 +3,9 @@
 // from the strategy in pubmed.js, organised by content area.
 const {
   Document, Packer, Paragraph, TextRun, ExternalHyperlink, Header, Footer, PageNumber, AlignmentType,
-  HeadingLevel, TabStopType
+  HeadingLevel, TabStopType, InternalHyperlink, Bookmark
 } = require('docx');
-const { poemsForSummary, cutoffMonth } = require('./search');
+const { poemsForSummary, cutoffMonth, compileQuery } = require('./search');
 const { htmlToParagraphs, DISCLAIMER } = require('./export-poems');
 const pm = require('./pubmed');
 
@@ -191,7 +191,32 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
   children.push(para([
     new TextRun({ text: 'PubMed limits: ', bold: true }),
     new TextRun({ text: `${ageGroup.label}; ${content === 'all' ? allAreasLabel : areas[0].label}; time span: ${span(pubmedYears)}; ${journals ? 'high yield journals only' : 'all journals'}` })
-  ], { spacing: { after: 240 } }));
+  ], { spacing: { after: 160 } }));
+
+  // What was found: POEMs, InfoRetriever's calculators and risk scores (matched as on the
+  // Search tab; a calculator is one presentation and disease), and the PubMed articles.
+  const n = x => x.toLocaleString();
+  const calcQuery = compileQuery(q, true);
+  const site = require('./routes/site-search');
+  const calcCount = key => (calcQuery.error ? 0 : site.searchCalculator(key, calcQuery).length);
+  const riskScores = calcQuery.error ? 0 : site.searchTools(calcQuery).length;
+  const testCalcs = calcCount('diagnosticTests'), hpCalcs = calcCount('signsSymptoms');
+  const listed = sections.reduce((t, s) => t + s.articles.length, 0);
+  const matched = sections.reduce((t, s) => t + (s.error ? 0 : s.count), 0);
+  const line = (label, text, extra = []) => para([new TextRun({ text: `${label}: `, bold: true }), new TextRun({ text }), ...extra], { spacing: { after: 40 } });
+  children.push(new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun({ text: 'Summary', bold: true })] }));
+  children.push(line('POEMs', poemResult.total > poemResult.poems.length
+    ? `${n(poemResult.total)} (the ${n(poemResult.poems.length)} most recent are included)` : n(poemResult.total)));
+  children.push(line('Risk scores', n(riskScores)));
+  children.push(line('Diagnostic test calculators', n(testCalcs)));
+  children.push(line('History & physical calculators', n(hpCalcs)));
+  children.push(line('PubMed articles', `${n(listed)} listed${matched > listed ? ` (${n(matched)} matched the searches)` : ''}   `,
+    [new InternalHyperlink({ anchor: 'pubmed-results', children: [new TextRun({ text: 'Go to the PubMed results', color: '0563C1', underline: {} })] })]));
+  if (riskScores || testCalcs || hpCalcs) {
+    children.push(para([new TextRun({ text: `Search InfoRetriever for “${topic}” to open the risk scores and calculators.`, italics: true })], { spacing: { after: 240 } }));
+  } else {
+    children.push(para([], { spacing: { after: 200 } }));
+  }
 
   // 1. POEMs
   const poems = poemResult.poems;
@@ -216,7 +241,7 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
   // 2. PubMed
   const yearsSearched = pubmedYears ? `last ${pubmedYears} year${pubmedYears === 1 ? '' : 's'}` : 'no time limit';
   children.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true,
-    children: [new TextRun({ text: `PubMed literature (${yearsSearched})`, bold: true })] }));
+    children: [new Bookmark({ id: 'pubmed-results', children: [new TextRun({ text: `PubMed literature (${yearsSearched})`, bold: true })] })] }));
   const limits = [];
   if (ageGroup.key !== 'all') limits.push(`Age group: ${ageGroup.label}`);
   if (content !== 'all') limits.push(`Content area: ${areas[0].label}`);
@@ -246,7 +271,7 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
     creator: 'InfoRetriever',
     title: `Evidence Summary: ${topic}`,
     styles: {
-      default: { document: { run: { font: 'Arial', size: 20 } } },
+      default: { document: { run: { font: 'Arial', size: 18 } } }, // 9 point body text
       paragraphStyles: [
         { id: 'Title', name: 'Title', basedOn: 'Normal', next: 'Normal', quickFormat: true,
           run: { font: 'Arial', size: 32, bold: true, color: '000000' }, paragraph: { spacing: { after: 160 } } },
@@ -262,7 +287,7 @@ async function generateEvidenceSummary({ q, years, pubmedYears, age, content, jo
       ]
     },
     sections: [{
-      properties: { page: { size: { width: 12240, height: 15840 }, margin: { top: 1440, right: 1440, bottom: 1440, left: 1440 } } },
+      properties: { page: { size: { width: 12240, height: 15840 }, margin: { top: 720, right: 720, bottom: 720, left: 720, header: 360, footer: 360 } } }, // half-inch margins; header and footer a quarter inch from the edge
       headers: { default: new Header({ children: [new Paragraph({ children: [new TextRun({
         text: `Evidence Summary — ${topic.length > 90 ? topic.slice(0, 90) + '…' : topic}`, size: 16, color: '666666' })] })] }) },
       footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [
