@@ -606,54 +606,68 @@
 <meta>
 <id>392</id>
 <supertype>AbCd</supertype>
-<last_update>2007-09-13</last_update>
+<last_update>2026-11-10</last_update>
 </meta>
-<title>Hip Pain: Diagnosis.</title>
-<graphic href="eee0388-w0001.gif" />
+<title>Evaluation of Hip Pain in Adults</title>
 <cell type="start" id="cell-1">
 <label>Hip pain. Acute trauma?</label>
-<path target="cell-2"> No</path>
-<path target="cell-3"> Yes</path>
+<path target="cell-6">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Acute onset?</label>
+<label>Fever, chills, skin infection, recent joint injection or surgery, or hip replacement?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>History of cancer, weight loss, or night pain?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
-<label>Fever, chills, skin infection, joint surgery, or hip replacement?</label>
-</cell>
-<cell type="action" id="cell-6">
-<label>Aspirate joint to rule out septic arthritis.</label>
+<label>Steroid use, heavy alcohol use, sickle cell disease, or past fracture or dislocation?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Age over 65 years, history of cancer, weight loss, other risk for cancer?</label>
+<label>Where is the pain?</label>
+<path target="cell-10">Groin pain, stiffness, and painful internal rotation, age 45 or older</path>
+<path target="cell-11">Lateral hip pain with tenderness over the greater trochanter</path>
+<path target="cell-12">Groin pain with clicking or catching in a younger, active adult</path>
+<path target="cell-13">Buttock or posterior pain</path>
+<path target="cell-14">None of these</path>
 </cell>
-<cell type="decision" id="cell-7">
-<label>History of steroid use, alcohol abuse, past fracture, or dislocation?</label>
+<cell type="action" id="cell-6">
+<label>X-ray (AP pelvis and lateral hip). If negative but unable to bear weight, MRI for occult fracture.</label>
 </cell>
-<cell type="decision" id="cell-9">
-<label>Gradual onset or progression, limited range of motion, pain with activity, stiffness.</label>
-</cell>
-<cell type="decision" id="cell-11">
-<label>Tenderness over greater trochanter or sacroiliac joint?</label>
-</cell>
-<cell type="action" id="cell-13">
-<label>Suspect transient synovitis. Radiographs to rule out osseous abnormality. MRI if symptoms persist.</label>
-</cell>
-<cell type="action" id="cell-14">
-<label>Suspect greater trochanteric bursitis, iliotibial band syndrome, or sacroiliac joint dysfunction.</label>
-</cell>
-<cell type="action" id="cell-12">
-<label>Most likely degenerative joint disease. Confirm with X-ray.</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>X-ray to rule out avascular necrosis; noncontrast MRI if negative but clinical suspicion high.</label>
+<cell type="action" id="cell-7">
+<label>Suspect septic arthritis or prosthetic joint infection. ESR, CRP, joint aspiration; urgent orthopedic referral.</label>
 </cell>
 <cell type="action" id="cell-8">
-<label>X-ray to rule out malignancy. If negative, consider MRI.</label>
+<label>X-ray; MRI if negative to evaluate for metastasis or primary bone tumor.</label>
 </cell>
-<cell type="action" id="cell-3">
-<label>X-ray to rule out fracture.</label>
+<cell type="action" id="cell-9">
+<label>X-ray; noncontrast MRI if negative to rule out avascular necrosis.</label>
 </cell>
+<cell type="action" id="cell-10">
+<label>Hip osteoarthritis. Clinical diagnosis; X-ray only if uncertain. Exercise, weight loss, NSAIDs.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Greater trochanteric pain syndrome (gluteal tendinopathy). Exercise therapy; injection if needed.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Femoroacetabular impingement or labral tear. X-ray, physical therapy; MRI arthrogram if it persists.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Lumbar spine or sacroiliac joint.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider stress fracture (runners, osteoporosis), hernia, or abdominal or pelvic causes. MRI if pain persists.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Hip pain may be referred from the lumbar spine, abdomen, or pelvis.</footnote>
+<footnote uid="fn2">Hip arthroscopy has limited benefit for degenerative disease.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 </topic>

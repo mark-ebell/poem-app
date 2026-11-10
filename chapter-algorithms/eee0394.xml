@@ -1,0 +1,57 @@
+<algorithms>
+<!-- Revised algorithm reviewed by Mark Ebell (Draft algorithm updates for review, 2026-10-24); replaces the original figure. -->
+<algorithm id="fig001">
+<meta>
+<id>341.2</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Evaluation of Metatarsalgia</title>
+<cell type="start" id="cell-1">
+<label>Forefoot pain under the metatarsal heads. Specific cause suggested by exam?</label>
+<path target="cell-4">Point bone tenderness, swelling, recent increase in activity</path>
+<path target="cell-5">Burning or numbness between the toes, positive Mulder sign</path>
+<path target="cell-6">Second toe joint swelling or drifting toe</path>
+<path target="cell-7">Red, hot, swollen joint</path>
+<path target="cell-8">Bunion, claw or hammer toes, or high arch</path>
+<path target="cell-2">None of these</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Conservative care for 6–12 weeks: wide toe box, metatarsal pad or insole, weight loss, activity change, NSAIDs</label>
+<path target="cell-9">Improved</path>
+<path target="cell-3">Not improved</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Weight-bearing X-ray if not done; check for systemic causes: diabetes or neuropathy (glucose, monofilament), peripheral artery disease (ankle–brachial index), inflammatory arthritis (ESR, CRP), gout (uric acid)</label>
+<path target="cell-10">Cause found</path>
+<path target="cell-11">No cause found</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Possible stress fracture. X-ray (often normal early; MRI if needed). Protected weight bearing.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Probable Morton neuroma. Wide shoes, metatarsal pad; ultrasound if unclear.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Plantar plate injury or MTP joint synovitis. Taping, stiff-soled shoe; refer if persistent.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Gout or infection. Aspirate and send for cells, culture, crystals.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Footwear change, orthoses; podiatry referral.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Continue; preventive footwear.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Treat or refer.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Ultrasound or MRI; podiatry or orthopedic referral.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Check sensation and pulses in every patient with diabetes.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

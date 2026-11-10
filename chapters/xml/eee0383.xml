@@ -561,76 +561,95 @@
 <meta>
 <id>383</id>
 <supertype>AbCd</supertype>
-<last_update>2007-09-13</last_update>
+<last_update>2026-11-10</last_update>
 </meta>
-<title>Child With a Limp: Diagnosis.</title>
-<graphic href="eee0383-w001.gif" />
+<title>Evaluation of the Child With a Limp</title>
 <cell type="start" id="cell-1">
-<label>What type of gait?</label>
-<path target="cell-2"> Antalgic gait </path>
-<path target="cell-3"> Nonantalgic gait </path>
+<label>Child with a limp. Painful (antalgic) gait?</label>
+<path target="cell-2">Painful gait</path>
+<path target="cell-7">Painless gait</path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>History of trauma?</label>
-</cell>
-<cell type="decision" id="cell-4">
-<label>Acute event?</label>
-</cell>
-<cell type="action" id="cell-6">
-<label>Fracture, SCFE, LCPD, sprain, strain, or foreign body</label>
-</cell>
-<cell type="action" id="cell-7">
-<label>Sever's disease, Osgood Schlatter, SLJS, OCD, stress fracture, or acc. navicular</label>
-</cell>
-<cell type="decision" id="cell-5">
-<label>History of fever, weight loss, fatigue? Abnormal CBC, CRP, ESR?</label>
-</cell>
-<cell type="decision" id="cell-8">
-<label>Fever, nonweight bearing, or elevated WBC&#x002F;ESR&#x002F;CRP?</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>Septic arthritis -- use oral temperature &gt;38.5&#x00B0;C, WBC &gt;12,000&#x002F;mm<sup>3</sup>, ESR &gt;40 mm&#x002F;hr, CRP &gt;2.0 mg&#x002F;dL, and a strict refusal to bear weight on the affected limb as predictive factors to distinguish from transient synovitis or osteomyelitis</label>
-</cell>
-<cell type="decision" id="cell-11">
-<label>Pain related to strain, pain at night, or palpable mass?</label>
-</cell>
-<cell type="action" id="cell-12">
-<label>Osteosarcoma or Ewing's sarcoma</label>
-</cell>
-<cell type="decision" id="cell-13">
-<label>Neutropenia; Thrombocytopenia; Anemia; Blasts; Night pain?</label>
-</cell>
-<cell type="action" id="cell-14">
-<label>Leukemia</label>
-</cell>
-<cell type="action" id="cell-15">
-<label>Elevated RF or ANA levels?</label>
-</cell>
-<cell type="action" id="cell-16">
-<label>JRA, SLE</label>
-</cell>
-<cell type="action" id="cell-9">
-<label>LCPD, DDH</label>
+<label>Fever, refusal to bear weight, or ill appearance?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-3">
-<label>Neurologic deficit?</label>
+<label>CBC, ESR, CRP; hip ultrasound for effusion</label>
+<path target="cell-9">2 or more of: temperature &gt;38.5 °C, non–weight bearing, ESR &gt;40 mm/h, WBC &gt;12,000/mm³, CRP &gt;2 mg/dL</path>
+<path target="cell-10">Focal bone tenderness, or septic arthritis excluded</path>
+<path target="cell-11">0–1 present and well appearing</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Recent injury?</label>
+<path target="cell-12">Acute injury</path>
+<path target="cell-13">Overuse</path>
+<path target="cell-5">No injury</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Night pain, weight loss, fatigue, bruising, or pallor?</label>
+<path target="cell-14">Abnormal blood count or blasts</path>
+<path target="cell-15">Focal bone pain or mass</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Hip and knee X-ray (AP and frog-leg lateral)</label>
+<path target="cell-16">Slipped capital femoral epiphysis (SCFE), age 10–16</path>
+<path target="cell-17">Legg–Calvé–Perthes disease (LCPD), age 4–10</path>
+<path target="cell-18">Normal, symptoms over 6 weeks or swollen joints</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Painless gait. Neurologic deficit (weakness, spasticity, abnormal reflexes)?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Visible structural problem?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Suspect septic arthritis. Urgent joint aspiration and orthopedic referral.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Suspect osteomyelitis. MRI.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Transient synovitis likely. NSAIDs, recheck in 24–48 hours.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>X-ray. Fracture (including toddler's fracture), sprain or strain, foreign body.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Apophysitis (Sever disease, Osgood–Schlatter, Sinding-Larsen–Johansson), stress fracture, osteochondritis dissecans (OCD), accessory navicular.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Leukemia. Urgent hematology referral.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>X-ray, then MRI. Bone tumor (osteoid osteoma, osteosarcoma, Ewing sarcoma).</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Non–weight bearing, same-day orthopedic referral.</label>
 </cell>
 <cell type="action" id="cell-17">
-<label>Cerebral palsy, Neuropathy, CMT</label>
+<label>Orthopedic referral.</label>
 </cell>
-<cell type="decision" id="cell-18">
-<label>Visible structural defect?</label>
+<cell type="action" id="cell-18">
+<label>Juvenile idiopathic arthritis (JIA) or Lyme arthritis. Rheumatology referral.</label>
 </cell>
 <cell type="action" id="cell-19">
-<label>Scoliosis, LLD, SLJS, Osgood-Schlatter disease</label>
+<label>Cerebral palsy, neuropathy, Charcot–Marie–Tooth disease, muscular dystrophy. Neurology referral.</label>
 </cell>
 <cell type="action" id="cell-20">
-<label>LCPD, SCFE, DDH</label>
+<label>Leg length discrepancy, scoliosis, clubfoot.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Hip X-ray. Developmental dysplasia of the hip (DDH), LCPD, SCFE.</label>
 </cell>
 <footnotes>
-<footnote>Abbreviations: WBC, White blood cell count; ESR, Erythrocyte sedimentation rate; CRP, C-reactive protein; SCFE, Slipped capital femoral epiphysis; LCPD, Legg-Calve-Perthes disease; SLJS, Sindig-Larsen-Johanssen syndrome; OCD, Osteochondritis dissecans; RF, Rheumatoid factor; ANA, Anti nuclear antibodies; JRA, Juvenile rheumatoid arthritis; SLE, Systemic lupus erythematosus; DDH, Developmental dysplasia of the hip; CMT, Charcot-Marie-Tooth disease; LLD, Limb length discrepancy.</footnote>
-<footnote>From Sawyer JR, Kapoor M. The limping child: a systematic approach to diagnosis. <em>Am Fam Physician</em> 2009 Feb 1;<strong>79</strong>(3):215-224.<xref ref="pubmed19202969" resource="acc010" />
-</footnote>
+<footnote uid="fn1">SCFE often presents with knee or thigh pain only; examine and image the hip.</footnote>
+<footnote uid="fn2">A toddler's fracture may not show on the first X-ray.</footnote>
 </footnotes>
 </algorithm>
 </algorithm_group>

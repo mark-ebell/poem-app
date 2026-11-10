@@ -172,8 +172,11 @@ function layoutFigure(fig) {
     }
   }
   const idNum = id => Number(String(id).replace(/\D/g, '')) || 0;
+  // Boxes numbered in reading order (every arrow between steps points to a later number)
+  // keep that order; otherwise each step comes after every step that leads to it.
+  const forward = fig.cells.every(c => out(c.id).every(p => isOutcome(p.target) || idNum(p.target) > idNum(c.id)));
   const reached = fig.cells.filter(c => rank.has(c.id) && (!isOutcome(c.id) || c.id === start))
-    .sort((a, b) => rank.get(a.id) - rank.get(b.id) || idNum(a.id) - idNum(b.id));
+    .sort((a, b) => (forward ? 0 : rank.get(a.id) - rank.get(b.id)) || idNum(a.id) - idNum(b.id));
   const leftover = fig.cells.filter(c => !reached.includes(c) && !(isOutcome(c.id) && incoming.get(c.id) > 0))
     .sort((a, b) => idNum(a.id) - idNum(b.id));
   const steps = [...reached, ...leftover];

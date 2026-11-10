@@ -1,0 +1,98 @@
+<algorithms>
+<!-- Revised algorithm reviewed by Mark Ebell (Draft algorithm updates for review, 2026-10-24); replaces the original figure. -->
+<algorithm id="fig001">
+<meta>
+<id>383</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Evaluation of the Child With a Limp</title>
+<cell type="start" id="cell-1">
+<label>Child with a limp. Painful (antalgic) gait?</label>
+<path target="cell-2">Painful gait</path>
+<path target="cell-7">Painless gait</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Fever, refusal to bear weight, or ill appearance?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>CBC, ESR, CRP; hip ultrasound for effusion</label>
+<path target="cell-9">2 or more of: temperature &gt;38.5 °C, non–weight bearing, ESR &gt;40 mm/h, WBC &gt;12,000/mm³, CRP &gt;2 mg/dL</path>
+<path target="cell-10">Focal bone tenderness, or septic arthritis excluded</path>
+<path target="cell-11">0–1 present and well appearing</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Recent injury?</label>
+<path target="cell-12">Acute injury</path>
+<path target="cell-13">Overuse</path>
+<path target="cell-5">No injury</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Night pain, weight loss, fatigue, bruising, or pallor?</label>
+<path target="cell-14">Abnormal blood count or blasts</path>
+<path target="cell-15">Focal bone pain or mass</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Hip and knee X-ray (AP and frog-leg lateral)</label>
+<path target="cell-16">Slipped capital femoral epiphysis (SCFE), age 10–16</path>
+<path target="cell-17">Legg–Calvé–Perthes disease (LCPD), age 4–10</path>
+<path target="cell-18">Normal, symptoms over 6 weeks or swollen joints</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Painless gait. Neurologic deficit (weakness, spasticity, abnormal reflexes)?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Visible structural problem?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Suspect septic arthritis. Urgent joint aspiration and orthopedic referral.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Suspect osteomyelitis. MRI.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Transient synovitis likely. NSAIDs, recheck in 24–48 hours.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>X-ray. Fracture (including toddler's fracture), sprain or strain, foreign body.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Apophysitis (Sever disease, Osgood–Schlatter, Sinding-Larsen–Johansson), stress fracture, osteochondritis dissecans (OCD), accessory navicular.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Leukemia. Urgent hematology referral.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>X-ray, then MRI. Bone tumor (osteoid osteoma, osteosarcoma, Ewing sarcoma).</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Non–weight bearing, same-day orthopedic referral.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Orthopedic referral.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Juvenile idiopathic arthritis (JIA) or Lyme arthritis. Rheumatology referral.</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Cerebral palsy, neuropathy, Charcot–Marie–Tooth disease, muscular dystrophy. Neurology referral.</label>
+</cell>
+<cell type="action" id="cell-20">
+<label>Leg length discrepancy, scoliosis, clubfoot.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Hip X-ray. Developmental dysplasia of the hip (DDH), LCPD, SCFE.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">SCFE often presents with knee or thigh pain only; examine and image the hip.</footnote>
+<footnote uid="fn2">A toddler's fracture may not show on the first X-ray.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

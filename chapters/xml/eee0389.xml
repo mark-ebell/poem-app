@@ -747,37 +747,60 @@
 <meta>
 <id>217.2</id>
 <supertype>AbCd</supertype>
-<last_update>2007-09-13</last_update>
+<last_update>2026-11-10</last_update>
 </meta>
-<title>Knee Injury (Ligamentous): Diagnosis.</title>
-<graphic href="eee0389-w0001.gif" />
+<title>Evaluation of Acute Knee Injury</title>
 <cell type="start" id="cell-1">
-<label>Suspected injury: Patient with mechanism of injury including valgus or varus stress or posterior and anterior directed forces with the presence of pain and an effusion.</label>
+<label>Acute knee injury. Ottawa knee rule positive? Any of: age 55 or older; isolated patellar tenderness; fibular head tenderness; cannot flex to 90°; cannot bear weight for 4 steps.</label>
+<path target="cell-5">Yes</path>
+<path target="cell-2">No (X-ray not needed)</path>
 </cell>
-<cell type="action" id="cell-2">
-<label>Physical examination for effusion, varus or valgus stress pain or laxity, and anterior or posterior cruciate ligament signs (Drawer, Lachman, McMurray etc.).</label>
+<cell type="decision" id="cell-2">
+<label>Locked knee, gross instability, or knee dislocation?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-3">
-<label>Positive or DJD suspected? (Ottawa Knee Rule)</label>
-</cell>
-<cell type="action" id="cell-5">
-<label>Order X-ray. Treat if abnormal.</label>
+<label>Examine for effusion, Lachman positive (ACL), posterior drawer (PCL), varus and valgus stress (collateral ligaments), joint line tenderness and Thessaly or McMurray positive (meniscus)</label>
+<path target="cell-7">Mild sprain, no instability</path>
+<path target="cell-8">Collateral ligament tear</path>
+<path target="cell-4">ACL or meniscal tear suspected</path>
 </cell>
 <cell type="decision" id="cell-4">
-<label>Noncontrast MRI if ligament or cartilage injury is suspected.</label>
+<label>Physical therapy for 4–6 weeks; MRI if diagnosis unclear or surgery is being considered</label>
+<path target="cell-9">ACL tear in a young or active patient with instability</path>
+<path target="cell-10">Degenerative meniscal tear in a middle-aged or older patient</path>
+<path target="cell-11">Traumatic meniscal tear with mechanical locking</path>
+<path target="cell-12">MRI normal</path>
 </cell>
-<cell type="decision" id="cell-6">
-<label>Complete ACL tear or meniscal tears?</label>
+<cell type="action" id="cell-5">
+<label>X-ray. Fracture: immobilize and refer.</label>
 </cell>
-<cell type="action" id="cell-8">
-<label>Conservative management for ACL, PCL, meniscus, and collateral ligament injuries: ice, NSAIDs, physiotherapy, and bracing.</label>
-</cell>
-<cell type="action" id="cell-9">
-<label>Possible surgery in athletes.</label>
+<cell type="action" id="cell-6">
+<label>Urgent orthopedic referral; check pulses after a dislocation.</label>
 </cell>
 <cell type="action" id="cell-7">
+<label>Ice, NSAIDs, early motion. Recheck in 4–6 weeks.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Hinged brace and rehabilitation.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Orthopedic referral to discuss reconstruction. Rehabilitation alone is a reasonable option.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Exercise therapy. Arthroscopic surgery not recommended.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Orthopedic referral.</label>
+</cell>
+<cell type="action" id="cell-12">
 <label>Symptomatic treatment and follow-up.</label>
 </cell>
+<footnotes>
+<footnote uid="fn1">The Lachman test is the most accurate exam for an ACL tear.</footnote>
+<footnote uid="fn2">A large effusion within hours of injury suggests ACL tear or fracture.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 <feature_group>

@@ -513,45 +513,72 @@
 <meta>
 <id>292.2</id>
 <supertype>AbCd</supertype>
-<last_update>2007-09-13</last_update>
+<last_update>2026-11-10</last_update>
 </meta>
-<title>Knee Pain: Diagnosis.</title>
-<graphic href="eee0390-w0001.gif" />
+<title>Evaluation of Knee Pain Without Recent Injury</title>
 <cell type="start" id="cell-1">
-<label>Knee pain with no history of recent injury. Swelling?</label>
+<label>Knee pain, no recent injury. Hot, swollen joint or fever?</label>
 <path target="cell-2">Yes</path>
 <path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Aspiration.</label>
-</cell>
-<cell type="action" id="cell-4">
-<label>Treat gout.</label>
-</cell>
-<cell type="action" id="cell-5">
-<label>Orthopedic referral, Consider knee MRI (urgent if red flags).</label>
-</cell>
-<cell type="action" id="cell-6">
-<label>Rheumatology work-up&#x002F;referral.</label>
-</cell>
-<cell type="decision" id="cell-7">
-<label>Red flag symptoms (nocturnal&#x002F;unremitting pain, systemic symptoms, acute change)?</label>
+<label>Aspirate joint: cell count, Gram stain, culture, crystals</label>
+<path target="cell-6">Bacteria or very high white count</path>
+<path target="cell-7">Crystals</path>
+<path target="cell-8">Inflammatory without crystals</path>
+<path target="cell-3">Non-inflammatory</path>
 </cell>
 <cell type="decision" id="cell-3">
-<label>Age &#x2265;50?</label>
+<label>Red flags: night or unremitting pain, weight loss, history of cancer?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-4">No</path>
 </cell>
-<cell type="decision" id="cell-8">
-<label>Treat patellofemoral syndrome. Treatment failure?</label>
+<cell type="decision" id="cell-4">
+<label>Age 45 or older, pain with activity, morning stiffness 30 minutes or less, joint line pain?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Where is the pain?</label>
+<path target="cell-11">Anterior pain with stairs, squatting, or sitting</path>
+<path target="cell-12">Below the kneecap, worse with jumping</path>
+<path target="cell-13">Lateral, in runners</path>
+<path target="cell-14">Medial, below the joint line</path>
+<path target="cell-15">No better after 3 months</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Septic arthritis. Urgent orthopedic referral and antibiotics.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Gout or calcium pyrophosphate (CPPD) arthritis. Treat the flare.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Rheumatology referral (rheumatoid, reactive, or Lyme arthritis).</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>X-ray and prompt referral.</label>
 </cell>
 <cell type="action" id="cell-10">
-<label>Done.</label>
+<label>Probable knee osteoarthritis. Clinical diagnosis; X-ray optional. Exercise, weight loss, topical then oral NSAIDs. Arthroscopy not recommended.</label>
 </cell>
-<cell type="decision" id="cell-9">
-<label>Radiographs consistent with osteoarthritis?</label>
+<cell type="action" id="cell-11">
+<label>Patellofemoral pain. Hip and knee strengthening.</label>
 </cell>
-<cell type="decision" id="cell-11">
-<label>Treat osteoarthritis. Treatment failure?</label>
+<cell type="action" id="cell-12">
+<label>Patellar tendinopathy. Progressive loading exercise.</label>
 </cell>
+<cell type="action" id="cell-13">
+<label>Iliotibial band syndrome. Activity change, stretching, strengthening.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Pes anserine bursitis. Exercise, ice, NSAIDs.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>X-ray; consider orthopedic or sports medicine referral. MRI only if it would change management.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Hip disease can present as knee pain, especially SCFE in adolescents.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 <feature_group>
