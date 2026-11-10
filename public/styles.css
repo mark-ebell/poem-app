@@ -336,11 +336,6 @@ label.spaced { margin-top: 16px; }
 
 .library-title-link:hover { text-decoration: underline; }
 
-.library-item-edit {
-  padding: 4px 10px;
-  font-size: 0.8rem;
-}
-
 .library-item-delete {
   background: none;
   color: var(--muted);

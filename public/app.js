@@ -1153,7 +1153,6 @@ function renderLibrary() {
     });
     headRow.appendChild(th);
   });
-  headRow.appendChild(document.createElement('th')); // edit column
   headRow.appendChild(document.createElement('th')); // delete column
   thead.appendChild(headRow);
   table.appendChild(thead);
@@ -1188,14 +1187,6 @@ function renderLibrary() {
     emailCell.className = 'library-status';
     emailCell.textContent = formatEmailDate(doc.emailDate);
     row.appendChild(emailCell);
-
-    const editCell = document.createElement('td');
-    const editBtn = document.createElement('button');
-    editBtn.className = 'library-item-edit';
-    editBtn.textContent = 'Edit';
-    editBtn.addEventListener('click', () => openDoc(doc.id));
-    editCell.appendChild(editBtn);
-    row.appendChild(editCell);
 
     const delCell = document.createElement('td');
     delCell.appendChild(buildDeleteControl(doc));
