@@ -1965,14 +1965,41 @@ function renderImportPreview(items) {
   thead.appendChild(head);
   table.appendChild(thead);
   const tbody = document.createElement('tbody');
-  for (const { record: r, notes, duplicate } of items) {
+  for (const item of items) {
+    const { record: r, duplicate } = item;
     const row = document.createElement('tr');
-    const issues = duplicate ? [`Will be skipped: ${duplicate}`] : notes;
+    const notesCell = td('');
+    const showNotes = () => {
+      const issues = duplicate ? [`Will be skipped: ${duplicate}`] : item.notes;
+      notesCell.textContent = issues.join('; ');
+      notesCell.className = duplicate ? 'import-skip' : (issues.length ? 'import-note' : '');
+    };
+    // A missing age group or category can be chosen here before importing; the choice
+    // goes into the record that is imported, and its note goes away.
+    const chooser = (options, field, note) => {
+      const cell = document.createElement('td');
+      const select = document.createElement('select');
+      select.className = 'import-choose';
+      fillSelect(select, options, 'Choose...');
+      select.addEventListener('change', () => {
+        r[field] = select.value === '' ? null : (field === 'age_group' ? Number(select.value) : select.value);
+        item.notes = item.notes.filter(n => n !== note);
+        if (r[field] === null) item.notes.push(note);
+        showNotes();
+      });
+      cell.appendChild(select);
+      return cell;
+    };
+    const ageMissing = !duplicate && (r.age_group === null || r.age_group === undefined);
+    const categoryMissing = !duplicate && !r.supertype;
     row.append(
       td(r.title), td(r.poet || '—'), td(r.pubmed_id || '—'),
-      td({ 1: 'Adults', 2: 'Children', 3: 'Both' }[r.age_group] || '—'), td(r.supertype || '—'),
-      td(issues.join('; '), duplicate ? 'import-skip' : (issues.length ? 'import-note' : ''))
+      ageMissing ? chooser(AGE_GROUP_OPTIONS.filter(([v]) => v !== '0'), 'age_group', 'no age group')
+        : td({ 1: 'Adults', 2: 'Children', 3: 'Both' }[r.age_group] || '—'),
+      categoryMissing ? chooser(SUPERTYPE_OPTIONS, 'supertype', 'no category') : td(r.supertype || '—'),
+      notesCell
     );
+    showNotes();
     tbody.appendChild(row);
   }
   table.appendChild(tbody);

@@ -934,4 +934,4 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .picker-list li button.current { color: var(--accent); font-weight: 700; background: #eff4ff; }
 @media (max-width: 600px) { .picker-btn { display: block; } }
 .picker-group { padding: 10px 14px 4px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--muted); }
-
+.library-table select.import-choose { max-width: 13em; font-size: 0.85rem; padding: 3px 4px; }

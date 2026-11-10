@@ -18,7 +18,7 @@ const LABELS = {
   title: 'title', reference: 'reference', question: 'question', clinicalquestion: 'question',
   bottomline: 'bottomline', allocation: 'allocation', allocationconcealment: 'allocation',
   funding: 'funding', fundingsource: 'funding', design: 'design', studydesign: 'design',
-  setting: 'setting', populationandsetting: 'setting', agegroup: 'agegroup', supertype: 'supertype',
+  setting: 'setting', populationandsetting: 'setting', agegroup: 'agegroup', age: 'agegroup', supertype: 'supertype', category: 'supertype',
   levelofevidence: 'loe', loe: 'loe', synopsis: 'synopsis', pubmedid: 'pubmedid', pmid: 'pubmedid',
   poemid: 'poemid', poemnumber: 'poemid', poet: 'poet', author: 'poet'
 };
@@ -121,7 +121,7 @@ function ageCode(value) {
   if (/^[0-3]$/.test(v)) return Number(v);
   if (/both|all ages|no age|adults? and child/.test(v)) return 3;
   if (/^adult/.test(v)) return 1;
-  if (/^child/.test(v)) return 2;
+  if (/^(child|pediatric|paediatric|infant|adolescent)/.test(v)) return 2;
   return null;
 }
 
