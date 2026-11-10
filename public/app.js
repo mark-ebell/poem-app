@@ -1399,6 +1399,8 @@ function updateBrowseFilters() {
   renderBrowse();
 }
 
+let browseSort = { key: 'publicationDate', dir: 'desc' }; // newest first
+
 function renderBrowse() {
   const year = els.browseYear.value, month = els.browseMonth.value, author = els.browseAuthor.value;
   const age = els.browseAge.value, status = els.browseStatus.value;
@@ -1406,10 +1408,17 @@ function renderBrowse() {
   const matches = poemsCache.filter(p => {
     const d = p.publicationDate || '';
     return (!year || d.slice(0, 4) === year) && (!month || d.slice(5, 7) === month) && (!author || (author === OTHER_AUTHORS ? !NAMED_AUTHORS.has(p.poet) : p.poet === author)) && ageMatches(p) && (!status || p.status === status);
-  }).sort((a, b) =>
-    (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
-    (a.poet || '').localeCompare(b.poet || '') ||
-    (a.title || '').localeCompare(b.title || ''));
+  }).sort((a, b) => {
+    // The chosen column (as on the Upload tab's list), then newest first, POET, title.
+    if (browseSort.key !== 'publicationDate' || browseSort.dir !== 'desc') {
+      const av = sortValue(a, browseSort.key), bv = sortValue(b, browseSort.key);
+      const cmp = av < bv ? -1 : av > bv ? 1 : 0;
+      if (cmp) return browseSort.dir === 'asc' ? cmp : -cmp;
+    }
+    return (b.publicationDate || '').localeCompare(a.publicationDate || '') ||
+      (a.poet || '').localeCompare(b.poet || '') ||
+      (a.title || '').localeCompare(b.title || '');
+  });
 
   els.browseCount.textContent = `${matches.length.toLocaleString()} POEM${matches.length === 1 ? '' : 's'}`;
   els.browseResults.textContent = '';
@@ -1425,9 +1434,22 @@ function renderBrowse() {
   const table = document.createElement('table');
   table.className = 'library-table';
   const headRow = document.createElement('tr');
-  ['Date', 'Title'].forEach(label => {
+  [['publicationDate', 'Date'], ['title', 'Title'], ['status', 'Status']].forEach(([key, label]) => {
     const th = document.createElement('th');
+    th.className = 'sortable';
     th.textContent = label;
+    if (browseSort.key === key) {
+      const arrow = document.createElement('span');
+      arrow.className = 'sort-arrow';
+      arrow.textContent = browseSort.dir === 'asc' ? '▲' : '▼';
+      th.appendChild(arrow);
+    }
+    th.addEventListener('click', () => {
+      browseSort = browseSort.key === key
+        ? { key, dir: browseSort.dir === 'asc' ? 'desc' : 'asc' }
+        : { key, dir: key === 'publicationDate' ? 'desc' : 'asc' };
+      renderBrowse();
+    });
     headRow.appendChild(th);
   });
   const thead = document.createElement('thead');
@@ -1449,7 +1471,10 @@ function renderBrowse() {
       openDoc(doc.id);
     });
     titleCell.appendChild(link);
-    row.append(dateCell, titleCell);
+    const statusCell = document.createElement('td');
+    statusCell.className = 'library-status';
+    statusCell.textContent = doc.status || '—';
+    row.append(dateCell, titleCell, statusCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);
@@ -1544,7 +1569,10 @@ function poemTable(group, sort) {
     link.textContent = doc.title || 'Untitled POEM';
     link.addEventListener('click', () => showPoemPopup(doc.id));
     titleCell.appendChild(link);
-    row.append(dateCell, titleCell);
+    const statusCell = document.createElement('td');
+    statusCell.className = 'library-status';
+    statusCell.textContent = doc.status || '—';
+    row.append(dateCell, titleCell, statusCell);
     tbody.appendChild(row);
   };
   table.appendChild(tbody);
