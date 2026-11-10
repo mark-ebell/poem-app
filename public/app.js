@@ -1027,11 +1027,16 @@ function formatDate(iso) {
 const LIBRARY_COLUMNS = [
   { key: 'poet', label: 'POET' },
   { key: 'publicationDate', label: 'Publication Date' },
-  { key: 'title', label: 'Title' }
+  { key: 'title', label: 'Title' },
+  { key: 'status', label: 'Status' }
 ];
+
+// Status sorts in workflow order (Being edited first, Published last).
+const STATUS_ORDER = ['Being edited', 'Ready for review', 'Ready for copy edit', 'Published'];
 
 function sortValue(doc, key) {
   if (key === 'title') return (doc.title || '').toLowerCase();
+  if (key === 'status') { const i = STATUS_ORDER.indexOf(doc.status); return i === -1 ? STATUS_ORDER.length : i; }
   if (key === 'poet') return (doc.poet || '').toLowerCase();
   return doc.publicationDate || ''; // 'YYYY-MM' sorts correctly as a string
 }
@@ -1165,6 +1170,11 @@ function renderLibrary() {
     titleLink.addEventListener('click', () => openDoc(doc.id));
     titleCell.appendChild(titleLink);
     row.appendChild(titleCell);
+
+    const statusCell = document.createElement('td');
+    statusCell.className = 'library-status';
+    statusCell.textContent = doc.status || '—';
+    row.appendChild(statusCell);
 
     const editCell = document.createElement('td');
     const editBtn = document.createElement('button');
