@@ -902,8 +902,8 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>Chest X-ray</label>
-<path target="cell-3"></path>
-<path target="cell-4"></path>
+<path target="cell-3">No effusion or plaques</path>
+<path target="cell-4">Pleural effusion</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>No pleural effusion or plaques but no etiology for symptoms</label>
@@ -915,13 +915,13 @@
 </cell>
 <cell type="decision" id="cell-5">
 <label>Chest CT</label>
-<path target="cell-8"></path>
-<path target="cell-9"></path>
+<path target="cell-8">Normal or other finding</path>
+<path target="cell-9">Pleural mass or effusion</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Thoracentesis</label>
-<path target="cell-7"></path>
-<path target="cell-10"></path>
+<path target="cell-7">Negative cytology</path>
+<path target="cell-10">Suspicious cytology</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Negative cytology: pursue other causes</label>

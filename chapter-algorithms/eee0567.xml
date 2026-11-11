@@ -14,13 +14,13 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>Assess clinical signs and symptoms: - Respiratory rate for age above threshold - Fever &gt;38&#x00BA;C - O<sub>2</sub> saturation less than 94&#x0025; - Nasal flaring - Abnormal breath sounds - Increased work of breathing.</label>
-<path target="cell-3"></path>
-<path target="cell-4"></path>
-<path target="cell-5"></path>
-<path target="cell-6"></path>
-<path target="cell-7"></path>
-<path target="cell-8"></path>
-<path target="cell-9"></path>
+<path target="cell-3">Measuring respiratory rate</path>
+<path target="cell-4">No signs of pneumonia</path>
+<path target="cell-5">Viral infection suspected</path>
+<path target="cell-6">Afebrile infant</path>
+<path target="cell-7">Bacterial CAP suspected</path>
+<path target="cell-8">Ambiguous findings</path>
+<path target="cell-9">Complication suspected</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Measure respiratory rate (RR) by observation for 60 seconds when the child is awake and not crying. Tachypnea is: 1 to 12 months old: RR &gt;50 1 to 5 years old: RR &gt; 40 &gt; 5 years old: RR &gt;20.</label>
@@ -49,9 +49,9 @@
 </cell>
 <cell type="decision" id="cell-10">
 <label>Consider: CXR, procalcitonin and WBC with differential.</label>
-<path target="cell-11"></path>
-<path target="cell-12"></path>
-<path target="cell-13"></path>
+<path target="cell-11">Viral pneumonia suspected</path>
+<path target="cell-12">CAP without complications</path>
+<path target="cell-13">CAP with complications</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Suspect viral pneumonia. Consider treatment of influenza in appropriate seasons. Supportive treatment, no antibiotics needed. Monitor closely for possible bacterial&#x002F; missed pneumonia. </label>

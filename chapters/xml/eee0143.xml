@@ -356,8 +356,8 @@
 </cell>
 <cell type="decision" id="cell-6">
 <label>Measure serum ketones (beta-hydroxybutyrate) and growth hormone.</label>
-<path target="cell-9"></path>
-<path target="cell-10"></path>
+<path target="cell-9">High BOHB</path>
+<path target="cell-10">Low BOHB</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>High BOHB (&gt;600 umol&#x002F;l).</label>

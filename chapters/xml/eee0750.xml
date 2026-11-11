@@ -761,7 +761,7 @@
 <label>Treat cellulitis. If it worsens recalculate LRINEC score, measure transcutaneous O<sub>2</sub> saturation, and consider imaging.</label>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Order CBC, chemistries, and CRP and calculate LRINEC score (<xref ref="table002" />). Consider transcutaneous oxygen saturation, if available. Consider imaging (CT, MRI or ultrasound) if diagnostic uncertainty. Is LRINEC &#x003D; 6, oxygen saturation &lt;70&#x0025;, and&#x002F;or imaging suggestive of NF?</label>
+<label>Order CBC, chemistries, and CRP and calculate LRINEC score (<xref ref="table002" />). Consider transcutaneous oxygen saturation, if available. Consider imaging (CT, MRI or ultrasound) if diagnostic uncertainty. Is LRINEC 6 or more, oxygen saturation &lt;70&#x0025;, and&#x002F;or imaging suggestive of NF?</label>
 <path target="cell-3">Yes</path>
 <path target="cell-4">No</path>
 </cell>

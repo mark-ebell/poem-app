@@ -9,10 +9,10 @@
 <title>Management of Patients with Low Cardiovascular&#x002F;Congestive Heart Disease (CV&#x002F;CHD) Risk.</title>
 <graphic href="eee0865-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Patients with low CV&#x002F;CHD risk (6 months after MI, PCI, BMS, CABG, stroke; 12 months if associated with complications) on aspirin therapy who require surgery.</label>
-<path target="cell-2"></path>
-<path target="cell-3"></path>
-<path target="cell-4"></path>
+<label>Patients with low CV&#x002F;CHD risk (6 months after MI, PCI, BMS, CABG, stroke; 12 months if associated with complications) on antiplatelet therapy who require surgery.</label>
+<path target="cell-2">Low surgical hemorrhagic risk</path>
+<path target="cell-3">Intermediate surgical hemorrhagic risk</path>
+<path target="cell-4">High surgical hemorrhagic risk</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Low Surgical Hemorrhagic Risk &#x2022; Peripheral&#x002F;plastic&#x002F;general surgery, biopsies; minor orthopedic, ENT, endoscopy; eye anterior chamber; dental (any type) &#x2022; Transfusion seldom required.</label>
@@ -31,7 +31,7 @@
 <path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
-<label>Proceed with elective surgery; maintain statin; withdraw aspirin (7 or fewer days prior) and resume 24 hours after surgery. <evidence rating="C" system="SORT">C</evidence>
+<label>Proceed with elective surgery; maintain statin; withdraw aspirin (a minimum of 7 and a maximum of 12 days prior to surgery) and resume 24 hours after surgery. <evidence rating="C" system="SORT">C</evidence>
 </label>
 </cell>
 <footnotes>
@@ -48,9 +48,9 @@
 <graphic href="eee0865-w0002.gif" />
 <cell type="start" id="cell-7">
 <label>Patients with intermediate CV&#x002F;CHD risk (12 months after drug-eluting stent; low ejection fraction, diabetes, high-risk stents (long, proximal, multiple, overlapping, small vessels, bifurcation) who require surgery.</label>
-<path target="cell-8"></path>
-<path target="cell-9"></path>
-<path target="cell-10"></path>
+<path target="cell-8">Low surgical hemorrhagic risk</path>
+<path target="cell-9">Intermediate surgical hemorrhagic risk</path>
+<path target="cell-10">High surgical hemorrhagic risk</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Low Surgical Hemorrhagic Risk &#x2022; Peripheral, plastic, general, biopsies; minor orthopedic, ENT, endoscopy; eye anterior chamber; dental (any type)&#x002F;facial &#x2022; Transfusion seldom required.</label>
@@ -90,9 +90,9 @@
 <graphic href="eee0865-w0003.gif" />
 <cell type="start" id="cell-14">
 <label>Patients with high CV&#x002F;CHD risk (6 weeks after MI, PCI, BMS, CABG; 6 months after same if complications; 12 months after high-risk drug-eluting stent; 2 weeks after stroke who require surgery.</label>
-<path target="cell-15"></path>
-<path target="cell-16"></path>
-<path target="cell-17"></path>
+<path target="cell-15">Low surgical hemorrhagic risk</path>
+<path target="cell-16">Intermediate surgical hemorrhagic risk</path>
+<path target="cell-17">High surgical hemorrhagic risk</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Low Surgical Hemorrhagic Risk &#x2022; Peripheral, plastic, general, biopsies; minor orthopedic, ENT, endoscopy; eye anterior chamber; dental extraction and surgery &#x2022; Transfusion seldom required.</label>
@@ -140,7 +140,7 @@
 <path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-23">
-<label>Stop VKA approximately 5 days (at a minimum) before surgery to allow for INR to normalize (Grade 1B)? <evidence rating="B" system="SORT">B</evidence>
+<label>Stop VKA approximately 5 days (at a minimum) before surgery to allow for INR to normalize (Grade 1B). <evidence rating="B" system="SORT">B</evidence>
 </label>
 <path target="cell-25"></path>
 </cell>
@@ -169,9 +169,9 @@
 <graphic href="eee0865-w0005.gif" />
 <cell type="start" id="cell-27">
 <label>For patients with mechanical heart valves, atrial fibrillation, VTE.</label>
-<path target="cell-28"></path>
-<path target="cell-29"></path>
-<path target="cell-30"></path>
+<path target="cell-28">High risk for thromboembolism</path>
+<path target="cell-29">Moderate risk for thromboembolism</path>
+<path target="cell-30">Low risk for thromboembolism</path>
 </cell>
 <cell type="action" id="cell-28">
 <label>HIGH RISK for thromboembolism.</label>
@@ -179,6 +179,7 @@
 </cell>
 <cell type="action" id="cell-31">
 <label>Bridging anticoagulation with therapeutic-dose SC LMWH or IV UFH (SC LMWH preferred over IV UFH) (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+<path target="cell-47"></path>
 </cell>
 <cell type="action" id="cell-29">
 <label>MODERATE RISK for thromboembolism.</label>
@@ -186,6 +187,7 @@
 </cell>
 <cell type="action" id="cell-32">
 <label>Bridging anticoagulation with therapeutic-dose SC LMWH or IV UFH (SC LMWH preferred over IV UFH) or low-dose SC LMWH (Grade 2C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+<path target="cell-47"></path>
 </cell>
 <cell type="action" id="cell-30">
 <label>LOW RISK for thromboembolism.</label>
@@ -193,6 +195,9 @@
 </cell>
 <cell type="action" id="cell-33">
 <label>Low-dose SC LMWH or no bridging (Grade 2C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-47">
+<label>Therapeutic-dose SC LMWH: last preoperative dose 24 hours before surgery. IV UFH: last preoperative dose 4 to 6 hours before surgery.</label>
 </cell>
 <footnotes>
 <footnote>Abbreviations: SC LMWH, subcutaneous low molecular weight heparin; intravenous UFH, intravenous unfractionated heparin; VKA, vitamin K antagonists; VTE, venous thromboembolism.</footnote>
@@ -209,19 +214,19 @@
 <graphic href="eee0865-w0006.gif" />
 <cell type="start" id="cell-34">
 <label>Patient taking aspirin and&#x002F;or clopidogrel.</label>
-<path target="cell-35"></path>
-<path target="cell-36"></path>
-<path target="cell-37"></path>
-<path target="cell-38"></path>
-<path target="cell-39"></path>
-<path target="cell-40"></path>
+<path target="cell-35">Not at high risk of cardiac event</path>
+<path target="cell-36">High risk of cardiac event, noncardiac surgery</path>
+<path target="cell-37">Scheduled for CABG</path>
+<path target="cell-38">Scheduled for PCI</path>
+<path target="cell-39">Bare metal stent within 6 weeks</path>
+<path target="cell-40">Drug-eluting stent within 12 months</path>
 </cell>
 <cell type="action" id="cell-35">
 <label>Not at high risk of cardiac event.</label>
 <path target="cell-41"></path>
 </cell>
 <cell type="action" id="cell-41">
-<label>Interruption of antiplatelet drugs (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+<label>Interruption of antiplatelet drugs (Grade 1C,<evidence rating="C" system="SORT">C</evidence>). Stop aspirin 7 to 10 days before surgery.</label>
 </cell>
 <cell type="action" id="cell-36">
 <label>At high risk of cardiac event (exclusive of coronary stents) scheduled for noncardiac surgery.</label>

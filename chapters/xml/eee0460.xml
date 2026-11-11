@@ -863,9 +863,9 @@
 </cell>
 <cell type="decision" id="cell-4">
 <label>Unexplained syncope.</label>
-<path target="cell-10"></path>
-<path target="cell-11"></path>
-<path target="cell-12"></path>
+<path target="cell-10">Known or suspected heart disease</path>
+<path target="cell-11">Age &gt;60 years or abnormal carotid massage</path>
+<path target="cell-12">No suspected heart disease</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Known or suspected heart disease (abnormal ECG, exertional symptoms, or sudden syncope).</label>

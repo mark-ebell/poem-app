@@ -70,3 +70,10 @@ Boxes rebuilt from the image where it was newer: eee0146, 0641, 0650, 0689, 0842
 eee0730: osteoarthritis image moved to "EEPlus chapters/Removed images"; no foot ulcer image exists.
 eee0904: 2003 CDC SARS image moved to "Removed images"; the chapter text has no references to it.
 build-chapters: an overlay <algorithm id="figNNN" remove="yes"></algorithm> drops that algorithm. inject.py ops added: title:, img:, clear, nofn, and "eeeNNNN figNNN DELETE".
+--- Editor review, part 2 (2026-11-10) ---
+eee0826: algorithm removed (no text referred to it). eee0520: fig002 removed; fig001's last box now just "Follow up".
+eee0472: embryonic pole ">5 cm" -> ">5 mm". eee0844: start box ">3 months" -> "<3 months". eee0750: "LRINEC = 6" -> "LRINEC 6 or more".
+eee0865: fig001 from image (antiplatelet therapy; withdraw aspirin a minimum of 7 and maximum of 12 days before surgery); fig005 adds the image's last-preoperative-dose box; fig006 adds "Stop aspirin 7 to 10 days before surgery"; fig004 stray "?" removed. Arrows from each start box labeled (e.g. "Low surgical hemorrhagic risk").
+Unlabeled branch arrows (shown in the app as "Next") labeled in all 11 other algorithms that had them: eee0143, 0154, 0210, 0268, 0269, 0460, 0503, 0567, 0652, 0707, 0872.
+eee0801: second Overall Bottom Line item (Ottawa Foot Rules) removed from the source XML.
+eee0551, eee1694, eee0569: left as is.

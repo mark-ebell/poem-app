@@ -10,8 +10,8 @@
 <graphic href="eee0872-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Pregnant woman with history of travel to an area with Zika virus transmission (http:&#x002F;&#x002F;wwwnc.cdc.gov&#x002F;travel&#x002F;notices&#x002F;).</label>
-<path target="cell-2"></path>
-<path target="cell-3"></path>
+<path target="cell-2">Clinical illness</path>
+<path target="cell-3">No clinical illness</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Pregnant woman reports clinical illness consistent with Zika virus disease during or within 2 weeks of travel.</label>
@@ -23,8 +23,8 @@
 </cell>
 <cell type="decision" id="cell-101">
 <label>Test for Zika virus infection.</label>
-<path target="cell-102"></path>
-<path target="cell-103"></path>
+<path target="cell-102">Positive or inconclusive</path>
+<path target="cell-103">Negative</path>
 </cell>
 <cell type="decision" id="cell-102">
 <label>Positive or inconclusive test for Zika virus infection.</label>
@@ -39,8 +39,8 @@
 </cell>
 <cell type="action" id="cell-105">
 <label>Fetal ultrasound to detect microcephaly or intracranial calcifications.</label>
-<path target="cell-106"></path>
-<path target="cell-107"></path>
+<path target="cell-106">Either finding present</path>
+<path target="cell-107">No finding present</path>
 </cell>
 <cell type="action" id="cell-106">
 <label>Either finding present.</label>
@@ -54,8 +54,8 @@
 </cell>
 <cell type="action" id="cell-109">
 <label>Fetal ultrasound to detect microcephaly or intracranial calcifications.</label>
-<path target="cell-110"></path>
-<path target="cell-111"></path>
+<path target="cell-110">Either finding present</path>
+<path target="cell-111">No finding present</path>
 </cell>
 <cell type="action" id="cell-110">
 <label>Either finding present.</label>

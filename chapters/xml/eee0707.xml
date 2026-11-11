@@ -623,9 +623,9 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Arthrocentesis. Synovial fluid.</label>
-<path target="cell-5"></path>
-<path target="cell-6"></path>
-<path target="cell-7"></path>
+<path target="cell-5">Cytology</path>
+<path target="cell-6">Crystals</path>
+<path target="cell-7">Culture</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Cytology.</label>

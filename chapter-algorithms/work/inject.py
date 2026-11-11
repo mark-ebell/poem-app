@@ -5,6 +5,7 @@ edges.txt, one algorithm per line:
   eee0123 fig001 SKIP reason
 Numbers are cell numbers (cell-N). "a>b label" adds an arrow; "~N text" replaces box N's
 text; "+N type: text" adds a box; "-N" removes a box; "tN type" changes a box's type; "fn text" adds a footnote;
+"sN old => new" replaces part of box N's text (old and new as written in the XML, entities and all);
 "title: text" and "img: file.gif" change the title and image; "clear" removes every
 box and "nofn" the footnotes, for an algorithm redrawn from scratch. "eee0106 fig002 DELETE" removes
 an algorithm from the chapter.
@@ -100,6 +101,10 @@ def apply(alg, ops):
             if a not in info or b not in info:
                 raise ValueError(f'arrow {op}: no such box')
             info[a]['paths'].append((b, escape(lab.strip())))
+        elif m := re.match(r's(\d+)\s+(.*?)\s+=>\s+(.*)$', op):
+            if m.group(2) not in info[m.group(1)]['label']:
+                raise ValueError(f'{op}: text not in box')
+            info[m.group(1)]['label'] = info[m.group(1)]['label'].replace(m.group(2), m.group(3))
         elif m := re.match(r'~(\d+)\s+(.*)$', op):
             info[m.group(1)]['label'] = relabel(info[m.group(1)]['label'], m.group(2).strip())
         elif m := re.match(r'\+(\d+)\s+(\w+):\s*(.*)$', op):
