@@ -11,7 +11,7 @@ const { searchPoems, compileQuery, parseSort } = require('../search');
 const { htmlToText } = require('../poem-model');
 const store = require('../chapter-store');
 const { tools } = require('./tools');
-const { majorMeshFor } = require('../mesh'); // the major topics (MeSH) of each item's study
+const { majorMeshFor, meshVersion } = require('../mesh'); // the major topics (MeSH) of each item's study
 
 const router = express.Router();
 router.use(requireAuth);
@@ -27,14 +27,32 @@ const poemFilters = src => ({
 
 const oneLine = s => String(s || '').replace(/\s+/g, ' ').trim();
 
+// ---------- Relevance (as for POEMs, search.js) ----------
+// Each word or phrase searched for (with its MeSH synonyms) scores for appearing in the
+// title (most), the item's MeSH major topics, its summary (a chapter's overall bottom line,
+// a risk score's clinical question), and for each time it appears (up to a limit).
+const RELEVANCE = { title: 10, meshMajor: 8, summary: 4, perMatch: 1, maxMatches: 20 };
+function relevance(q, { title = '', mesh = '', summary = '', text = '' }) {
+  let score = 0;
+  for (const t of q.scoreTerms) {
+    const re = q.regexFor(t);
+    if (re.test(title)) score += RELEVANCE.title;
+    if (mesh && re.test(mesh)) score += RELEVANCE.meshMajor;
+    if (summary && re.test(summary)) score += RELEVANCE.summary;
+    if (text) score += RELEVANCE.perMatch * Math.min((text.match(new RegExp(re.source, 'giu')) || []).length, RELEVANCE.maxMatches);
+  }
+  return score;
+}
+const byScore = name => (a, b) => (b.score - a.score) || name(a).localeCompare(name(b));
+
 // ---------- Chapters: the plain text of each chapter, kept until the chapter changes ----------
 // (Converting all the chapters takes seconds, so it is done once, and again only for a
 // chapter that has a newly saved version; the texts are about 13 MB in all.)
-const chapterText = new Map(); // id -> { key, text }
-function textOf(id) {
+const chapterText = new Map(); // id -> { key, text, bottomLine, pmids, topics, topicsFor }
+function chapterInfo(id) {
   const key = store.liveKey(id);
   const kept = chapterText.get(id);
-  if (kept && kept.key === key) return kept.text;
+  if (kept && kept.key === key) return kept;
   let chapter;
   try { chapter = store.liveChapter(id); } catch { return null; }
   if (!chapter) return null;
@@ -45,10 +63,34 @@ function textOf(id) {
     else if (v && typeof v === 'object') Object.values(v).forEach(walk);
   };
   walk([chapter.overallBottomLine, chapter.sections, chapter.figures]);
-  const html = parts.join('\n').replace(/<\/(li|p|div|td|th|h\d|tr)>/gi, ' $&'); // keep list items and cells apart
-  const text = oneLine(htmlToText(html).replace(/<[^>]*>/g, ' '));
-  chapterText.set(id, { key, text });
-  return text;
+  const plain = html => oneLine(htmlToText(String(html).replace(/<\/(li|p|div|td|th|h\d|tr)>/gi, ' $&')).replace(/<[^>]*>/g, ' ')); // keep list items and cells apart
+  const blParts = [];
+  const walkBl = v => {
+    if (typeof v === 'string') blParts.push(v);
+    else if (Array.isArray(v)) v.forEach(walkBl);
+    else if (v && typeof v === 'object') Object.values(v).forEach(walkBl);
+  };
+  walkBl(chapter.overallBottomLine);
+  const pmids = [...new Set((chapter.references || []).map(r => (/^pubmed(\d+)$/.exec(r.id || '') || [])[1]).filter(Boolean))];
+  const info = { key, text: plain(parts.join('\n')), bottomLine: plain(blParts.join('\n')), pmids, topics: '', topicsFor: -1 };
+  chapterText.set(id, info);
+  return info;
+}
+
+// A chapter's MeSH topics: the major topics (MeSH) of its references that are shared by at
+// least 2 of them, and by at least a tenth of them; the 12 most frequent.
+const TOPICS = { minRefs: 2, minShare: 0.1, max: 12 };
+function chapterTopics(info) {
+  if (info.topicsFor === meshVersion()) return info.topics;
+  const count = new Map();
+  for (const pmid of info.pmids) {
+    for (const h of majorMeshFor(pmid).split('; ')) if (h) count.set(h, (count.get(h) || 0) + 1);
+  }
+  const min = Math.max(TOPICS.minRefs, Math.ceil(info.pmids.length * TOPICS.minShare));
+  info.topics = [...count].filter(([, n]) => n >= min).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, TOPICS.max).map(([h]) => h).join('; ');
+  info.topicsFor = meshVersion();
+  return info.topics;
 }
 
 // Prepare the texts soon after the app starts, a few chapters at a time, so that the
@@ -56,23 +98,33 @@ function textOf(id) {
 function warmChapterTexts() {
   const ids = store.chapterIndex().map(c => c.id);
   const step = () => {
-    for (let n = 0; n < 10 && ids.length; n++) textOf(ids.shift());
+    for (let n = 0; n < 10 && ids.length; n++) chapterInfo(ids.shift());
     if (ids.length) setImmediate(step);
   };
   setTimeout(step, 5000).unref();
 }
 if (process.env.NODE_ENV !== 'test') warmChapterTexts();
 
+// The PubMed IDs of all the chapters' references (for their MeSH headings, mesh.js).
+function chapterPmids() {
+  const ids = new Set();
+  for (const { id } of store.chapterIndex()) {
+    const info = chapterInfo(id);
+    if (info) info.pmids.forEach(p => ids.add(p));
+  }
+  return [...ids];
+}
+
 function searchChapters(q) {
   const out = [];
   for (const { id, title } of store.chapterIndex()) {
-    const text = textOf(id);
-    if (text == null) continue;
-    if (!q.test(`${title}\n${text}`)) continue;
-    out.push({ id, title, titleHit: q.terms.every(t => q.regexFor(t).test(title)) });
+    const info = chapterInfo(id);
+    if (!info) continue;
+    const mesh = chapterTopics(info);
+    if (!q.test(`${title}\n${mesh}\n${info.text}`)) continue;
+    out.push({ id, title, score: relevance(q, { title, mesh, summary: info.bottomLine, text: info.text }) });
   }
-  out.sort((a, b) => (b.titleHit - a.titleHit) || a.title.localeCompare(b.title));
-  return out;
+  return out.sort(byScore(c => c.title));
 }
 
 // ---------- Calculators ----------
@@ -83,34 +135,43 @@ const panelOf = key => calc.panels.find(p => p.key === key) || { tests: [] };
 
 // Results by symptom / disease pair (a topic such as chest pain has hundreds of findings):
 // each pair that has a matching entry, with all of its entries, matching ones flagged.
+// Pairs are ranked by the presentation and disease (as the title), the major topics of the
+// matching entries' studies, and how many entries match.
 function searchCalculator(key, q) {
   const pairs = new Map();
   for (const t of panelOf(key).tests) {
     const k = JSON.stringify([t.specialty, t.symptom, t.disease]);
-    if (!pairs.has(k)) pairs.set(k, { specialty: t.specialty, symptom: t.symptom, disease: t.disease, items: [], hits: 0 });
+    if (!pairs.has(k)) pairs.set(k, { specialty: t.specialty, symptom: t.symptom, disease: t.disease, items: [], hits: 0, mesh: new Set() });
     const pair = pairs.get(k);
-    const match = q.test(`${t.name}\n${t.disambig || ''}\n${t.symptom}\n${t.disease}\n${t.specialty}\n${majorMeshFor(t.pmid)}`);
-    if (match) pair.hits++;
+    const mesh = majorMeshFor(t.pmid);
+    const match = q.test(`${t.name}\n${t.disambig || ''}\n${t.symptom}\n${t.disease}\n${t.specialty}\n${mesh}`);
+    if (match) { pair.hits++; if (mesh) pair.mesh.add(mesh); }
     pair.items.push({ id: t.id, name: t.name, match });
   }
   return [...pairs.values()]
     .filter(p => p.hits)
     .map(p => {
       const items = p.items.sort((a, b) => (b.match - a.match) || a.name.localeCompare(b.name));
-      return { specialty: p.specialty, symptom: p.symptom, disease: p.disease, items, titleHit: q.terms.every(x => q.regexFor(x).test(`${p.symptom} ${p.disease}`)) };
+      const score = relevance(q, { title: `${p.symptom}\n${p.disease}`, mesh: [...p.mesh].join('; ') }) + Math.min(p.hits, RELEVANCE.maxMatches);
+      return { specialty: p.specialty, symptom: p.symptom, disease: p.disease, items, score };
     })
-    .sort((a, b) => (b.titleHit - a.titleHit) || a.symptom.localeCompare(b.symptom) || a.disease.localeCompare(b.disease) || a.specialty.localeCompare(b.specialty));
+    .sort((a, b) => (b.score - a.score) || a.symptom.localeCompare(b.symptom) || a.disease.localeCompare(b.disease) || a.specialty.localeCompare(b.specialty));
 }
 
 // ---------- Risk scores: name, subtitle, clinical question, categories and the study's MeSH major topics ----------
 function searchTools(q) {
-  return [...tools.values()]
-    .filter(t => q.test(`${t.title}\n${t.subtitle || ''}\n${t.question || ''}\n${(t.categories || []).join('\n')}\n${majorMeshFor(t.evidence && t.evidence.pmid)}`))
-    .map(t => ({ id: t.id, title: t.title, subtitle: t.subtitle || '', titleHit: q.terms.every(x => q.regexFor(x).test(t.title)) }))
-    .sort((a, b) => (b.titleHit - a.titleHit) || a.title.localeCompare(b.title));
+  const out = [];
+  for (const t of tools.values()) {
+    const mesh = majorMeshFor(t.evidence && t.evidence.pmid);
+    const text = `${t.title}\n${t.subtitle || ''}\n${t.question || ''}\n${(t.categories || []).join('\n')}`;
+    if (!q.test(`${text}\n${mesh}`)) continue;
+    out.push({ id: t.id, title: t.title, subtitle: t.subtitle || '',
+      score: relevance(q, { title: `${t.title}\n${t.subtitle || ''}`, mesh, summary: t.question || '', text }) });
+  }
+  return out.sort(byScore(t => t.title));
 }
 
-const capped = list => ({ total: list.length, items: list.slice(0, MAX_ITEMS).map(({ titleHit, ...rest }) => rest), truncated: list.length > MAX_ITEMS });
+const capped = list => ({ total: list.length, items: list.slice(0, MAX_ITEMS).map(({ score, ...rest }) => rest), truncated: list.length > MAX_ITEMS });
 
 router.get('/', quota('search'), (req, res) => {
   // Readers with the POEMs only search the POEMs, whatever was asked for.
@@ -135,3 +196,6 @@ module.exports = router;
 // Also used by the Evidence Summary (evidence-summary.js) to count matching calculators and risk scores.
 module.exports.searchCalculator = searchCalculator;
 module.exports.searchTools = searchTools;
+module.exports.searchChapters = searchChapters;
+module.exports.chapterPmids = chapterPmids;
+module.exports.chapterTopics = id => { const i = chapterInfo(id); return i ? chapterTopics(i) : ''; };

@@ -330,7 +330,7 @@ function expandSynonyms(node) {
 }
 
 // Parses a query for searching text other than POEMs (chapters, calculators, risk scores):
-// returns { error } or { test(text) -> boolean, terms, regexFor(term) }, with the same
+// returns { error } or { test(text) -> boolean, terms, scoreTerms, regexFor(term) }, with the same
 // rules and limits as the POEM search.
 function compileQuery(q, whole = true) {
   const text = String(q || '').replace(/[\u201c\u201d]/g, '"').trim();
@@ -351,7 +351,14 @@ function compileQuery(q, whole = true) {
   };
   const terms = [...new Set(positiveTerms(tree))]; // as typed (for "found in the title")
   const expanded = expandSynonyms(tree);
-  return { test: s => evaluate(expanded, t => regexFor(t).test(s)), terms, regexFor };
+  // For relevance: the words and phrases with their MeSH synonyms (as for POEMs), and plain
+  // words typed together (chest pain) also as a phrase, so items with the phrase rank higher.
+  const scoreTerms = [...new Set(positiveTerms(expanded))];
+  const words = text.split(/\s+/);
+  if (words.length >= 2 && words.length <= 6 && words.every(w => /^[\p{L}\p{N}'-]+$/u.test(w) && !/^(AND|OR|NOT)$/.test(w))) {
+    scoreTerms.push(words.join(' '));
+  }
+  return { test: s => evaluate(expanded, t => regexFor(t).test(s)), terms, scoreTerms, regexFor };
 }
 
 // How relevant a POEM is to the search words: each word or phrase scores for appearing

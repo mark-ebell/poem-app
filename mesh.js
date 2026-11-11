@@ -61,9 +61,10 @@ async function updatePoemMesh({ log = console.log } = {}) {
   }
 }
 
-// ---------- Calculators and risk scores ----------
-// Their studies' PubMed IDs (calculator-data.json, decision-tools), looked up once each and
-// kept in pmid_mesh. Only the major topics are searched: a diagnostic study's headings include
+// ---------- Calculators, risk scores and chapters ----------
+// Their studies' PubMed IDs (calculator-data.json, decision-tools, and the chapters'
+// references), looked up once each and kept in pmid_mesh. A chapter's topics are the major
+// topics shared by several of its references (chapterTopics in routes/site-search.js). Only the major topics are searched: a diagnostic study's headings include
 // many minor ones (Electrocardiography, Prospective Studies) that would match every finding
 // from that study.
 function studyPmids() {
@@ -76,10 +77,14 @@ function studyPmids() {
     const { tools } = require('./routes/tools');
     for (const t of tools.values()) if (t.evidence && /^\d+$/.test(String(t.evidence.pmid || ''))) ids.add(String(t.evidence.pmid));
   } catch { /* no risk scores */ }
+  try {
+    for (const id of require('./routes/site-search').chapterPmids()) ids.add(id);
+  } catch (err) { console.error(`MeSH: chapter references not read (${err.message}).`); }
   return [...ids];
 }
 
 let studyMajor = null; // pmid -> "Heading; Heading"
+let studyMeshVersion = 0; // goes up when new studies are looked up (chapter topics are then worked out again)
 function majorMeshFor(pmid) {
   if (!studyMajor) studyMajor = new Map(db.prepare("SELECT pmid, major FROM pmid_mesh WHERE major IS NOT NULL").all().map(r => [r.pmid, r.major]));
   return studyMajor.get(String(pmid || '')) || '';
@@ -99,7 +104,8 @@ async function updateStudyMesh({ log = console.log } = {}) {
     }
   })();
   studyMajor = null; // reload on the next search
-  log(`MeSH: looked up ${missing.length} calculator and risk score studies; ${[...found.values()].filter(m => m.major.length).length} have major topics.`);
+  studyMeshVersion++;
+  log(`MeSH: looked up ${missing.length} calculator, risk score and chapter reference studies; ${[...found.values()].filter(m => m.major.length).length} have major topics.`);
   return missing.length;
 }
 
@@ -119,7 +125,7 @@ function startMeshSchedule() {
   setInterval(run, 24 * 60 * 60 * 1000).unref();
 }
 
-module.exports = { updatePoemMesh, updateStudyMesh, updateAll, startMeshSchedule, majorMeshFor };
+module.exports = { updatePoemMesh, updateStudyMesh, updateAll, startMeshSchedule, majorMeshFor, meshVersion: () => studyMeshVersion };
 
 if (require.main === module) {
   updateAll().then(() => process.exit(0), err => { console.error(err.message); process.exit(1); });
