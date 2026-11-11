@@ -175,7 +175,7 @@ To add or update chapters from a content transfer: put the XML files (e.g. `EEE0
 
 **Algorithms.** Most chapter XML files give an algorithm's boxes but not its arrows. The arrows were added from the original images (November 2026) and are kept in `chapter-algorithms/<id>.xml`, one file per chapter: each `<algorithm>` there replaces the chapter's algorithm with the same id (or is added), so they survive the next content transfer — edit them there, not in `chapters/xml`, and run `npm run build-chapters` after changing them. They were written with the tools in `chapter-algorithms/work/`: `edges.txt` lists each algorithm's arrows and box changes in a short notation (described at the top of `inject.py`, which writes the files from it), `extra10.py` draws ten algorithms whose chapters had none (with `alg.py`), and `notes.txt` lists the corrections and open questions for the editors. Where the image was newer than the chapter's boxes, the boxes were rebuilt from the image. An `<algorithm id="figNNN" remove="yes"></algorithm>` in a `chapter-algorithms` file drops that algorithm from the chapter. A redrawn chapter algorithm (e.g. after an editor revises it) can be written directly in its `chapter-algorithms` file in the same XML form.
 
-**Typed-section chapters.** About 50 chapter files (e.g. eee0146) use a different layout: `<section type="..."><heading>Background</heading>` with nested sections instead of `heading=` attributes. `chapter-convert.js` reads both; panel names come from the headings (normalized through `TYPED_HEADINGS`), each panel's "Bottom-line" section becomes its first part, and the overall bottom line comes from the "Overall Bottom Line" section. Edit Chapter cannot save these chapters yet (`chapter-xml-write.js` refuses rather than corrupt them).
+**Typed-section chapters.** About 50 chapter files (e.g. eee0146) use a different layout: `<section type="..."><heading>Background</heading>` with nested sections instead of `heading=` attributes. `chapter-convert.js` reads both; panel names come from the headings (normalized through `TYPED_HEADINGS`), each panel's "Bottom-line" section becomes its first part, and the overall bottom line comes from the "Overall Bottom Line" section. Edit Chapter shows their text read-only and cannot save it yet (`chapter-xml-write.js` refuses rather than corrupt them); their algorithms can be edited.
 
 ## Edit Chapter (editors only)
 
@@ -189,6 +189,18 @@ The **Edit Chapter** tab is for keeping chapters current (the aim is to update e
 - **Insert reference** adds a citation at the cursor: search PubMed by PMID or words, or POEMs by POEM number or title words.
 - The review is saved as you work, so you can stop and come back; **Discard review** throws it away without changing the chapter.
 - **Save chapter** (allowed once every change is accepted or rejected) saves the chapter as a new version of its XML: references no longer cited are removed, new ones added, all renumbered, and the "Last updated" date becomes today. Every saved version is kept in the database (`chapter_versions`). **Download XML** gives the current version's file, e.g. for the master copy.
+
+### Algorithms
+
+Below the chapter text, the Edit Chapter tab lists the chapter's algorithms, each with **Edit**, and **Add algorithm** (`public/algorithm-editor.js`). The editor shows the algorithm's boxes on the left and, on the right, a live **Preview** drawn exactly as the chapter page draws it, with the **Original image** one click away.
+
+- Each box has a type (**Start**, **Question**, or **Action or outcome**), its text (bold, italics, sub- and superscripts, and **SORT A/B/C** inserted at the cursor; existing citations are kept as single units) and its arrows: each arrow has a label ("Yes", "Low surgical hemorrhagic risk") and the box it leads to. **+ Box after** adds a box with an arrow from the one you are in. Footnotes (sources, abbreviations) go below.
+- Boxes are numbered 1, 2, 3... in the editor and saved that way (`cell-1`, `cell-2`, ...); the chapter page numbers steps in reading order and shows outcomes under the question that leads to them.
+- The problems list must be clear of red items before saving: exactly one Start box, a title, and every box reached by arrows from the Start (otherwise the page would show only the image). Amber items are allowed but read badly: a box with several arrows and an unlabeled one shows "Next" on the page.
+- **Save algorithm** writes it into the chapter's XML (`writeAlgorithm` in `chapter-xml-write.js`; `<meta>` and the image are kept, `last_update` becomes today) and saves a new version of the chapter, which goes live at once. A text review in progress is kept and moved onto the new version, so saving the review later keeps the algorithm. The chapter's "Last updated" date does not change.
+- **Delete algorithm** is refused while the chapter's text links to it ("see Figure 2"); remove the links in the review and save the chapter first. Later figures are renumbered.
+- An algorithm saved here lives in the database, like any edited chapter: changes to its `chapter-algorithms/` overlay or a rebuild of `chapters/xml` no longer reach that chapter.
+- Not yet: uploading a new image, and inserting a new citation in a box.
 
 ### Update plans and the monthly update
 

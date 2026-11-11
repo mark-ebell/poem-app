@@ -252,6 +252,128 @@ function writeChapterXml(baseXml, edits, date = new Date()) {
   return { xml: prologue + body + '\n', ...counts };
 }
 
+// ---------- Algorithms (the algorithm editor in the Edit Chapter tab) ----------
+// alg: { title, cells: [{ id: 'cell-N', type: 'start'|'decision'|'action', tree,
+// paths: [{ target: 'cell-N', tree }] }], notes: [tree] }, the trees being the editor's
+// HTML as in writeChapterXml. The algorithm keeps its id, <meta> (last_update becomes
+// today) and image; its title, boxes, arrows and footnotes are replaced. A new id is
+// added after the chapter's other algorithms. Returns the chapter's new XML.
+const CELL_TYPES = new Set(['start', 'decision', 'action']);
+
+function checkAlgorithm(alg) {
+  const cells = Array.isArray(alg && alg.cells) ? alg.cells : [];
+  if (!cells.length) throw new Error('the algorithm has no boxes');
+  const ids = new Set();
+  for (const c of cells) {
+    if (!/^cell-\d+$/.test(String(c.id))) throw new Error(`bad box id ${c.id}`);
+    if (ids.has(c.id)) throw new Error(`two boxes are numbered ${c.id}`);
+    if (!CELL_TYPES.has(c.type)) throw new Error(`bad box type ${c.type}`);
+    ids.add(c.id);
+  }
+  for (const c of cells) {
+    for (const p of c.paths || []) if (!ids.has(p.target)) throw new Error(`an arrow from ${c.id} leads to a box that does not exist`);
+  }
+  if (cells.filter(c => c.type === 'start').length !== 1) throw new Error('an algorithm needs exactly one Start box');
+}
+
+function writeAlgorithm(baseXml, figId, alg, date = new Date()) {
+  checkAlgorithm(alg);
+  if (!/^fig\d+$/.test(String(figId))) throw new Error('bad algorithm id');
+  const doc = parseXml(baseXml);
+  const w = new Writer(doc);
+  const root = doc.documentElement;
+  let a = Array.from(root.getElementsByTagName('algorithm')).find(e => e.getAttribute('id') === figId);
+  const nl = () => doc.createTextNode('\n');
+  if (!a) {
+    a = w.el('algorithm', { id: figId });
+    a.appendChild(nl());
+    let group = child(root, 'algorithm_group');
+    if (!group) {
+      group = w.el('algorithm_group');
+      const text = child(root, 'topic_text');
+      root.insertBefore(group, text ? text.nextSibling : null);
+      root.insertBefore(nl(), group);
+    }
+    group.appendChild(nl());
+    group.appendChild(a);
+    group.appendChild(nl());
+  }
+  // Keep <meta> and <graphic>; everything else is rewritten.
+  const keep = elements(a).filter(e => e.tagName === 'meta' || e.tagName === 'graphic');
+  while (a.firstChild) a.removeChild(a.firstChild);
+  let meta = keep.find(e => e.tagName === 'meta');
+  if (!meta) meta = w.el('meta');
+  let lu = child(meta, 'last_update');
+  if (!lu) { lu = w.el('last_update'); meta.appendChild(lu); }
+  w.clear(lu);
+  lu.appendChild(doc.createTextNode(date.toISOString().slice(0, 10)));
+  a.appendChild(nl()); a.appendChild(meta); a.appendChild(nl());
+  a.appendChild(w.el('title', {}, [String(alg.title || '').replace(/\s+/g, ' ').trim()]));
+  a.appendChild(nl());
+  const graphic = keep.find(e => e.tagName === 'graphic');
+  if (graphic) { a.appendChild(graphic); a.appendChild(nl()); }
+  // Runs of spaces collapse to one (the page adds a space before each citation and SORT
+  // rating, so without this every save would add another).
+  const tidy = e => {
+    const walk = n => {
+      for (const k of Array.from(n.childNodes)) {
+        if (k.nodeType === 3) k.nodeValue = k.nodeValue.replace(/\s+/g, ' ');
+        else if (k.nodeType === 1) walk(k);
+      }
+    };
+    walk(e);
+    const first = e.firstChild, last = e.lastChild;
+    if (first && first.nodeType === 3) first.nodeValue = first.nodeValue.replace(/^ /, '');
+    if (last && last.nodeType === 3) last.nodeValue = last.nodeValue.replace(/ $/, '');
+    return e;
+  };
+  const fill = (e, tree) => { (tree && tree.children || []).forEach(k => w.append(e, k)); return tidy(e); };
+  for (const c of alg.cells) {
+    const cell = w.el('cell', { type: c.type, id: c.id });
+    cell.appendChild(nl());
+    cell.appendChild(fill(w.el('label'), c.tree));
+    for (const p of c.paths || []) { cell.appendChild(nl()); cell.appendChild(fill(w.el('path', { target: p.target }), p.tree)); }
+    cell.appendChild(nl());
+    a.appendChild(cell);
+    a.appendChild(nl());
+  }
+  const notes = (alg.notes || []).filter(t => !empty(t));
+  if (notes.length) {
+    const fns = w.el('footnotes');
+    for (const t of notes) { fns.appendChild(nl()); fns.appendChild(fill(w.el('footnote'), t)); }
+    fns.appendChild(nl());
+    a.appendChild(fns);
+    a.appendChild(nl());
+  }
+  return serialize(baseXml, doc);
+}
+
+// Removes an algorithm. Refuses while the chapter's text still links to it.
+function removeAlgorithm(baseXml, figId) {
+  const doc = parseXml(baseXml);
+  const a = Array.from(doc.documentElement.getElementsByTagName('algorithm')).find(e => e.getAttribute('id') === figId);
+  if (!a) throw new Error('no such algorithm');
+  const links = Array.from(doc.documentElement.getElementsByTagName('xref'))
+    .filter(x => String(x.getAttribute('ref') || '').split(/\s+/).includes(figId));
+  if (links.length) throw new Error(`the chapter's text links to this algorithm in ${links.length} place${links.length === 1 ? '' : 's'}; remove those links (in the review) first`);
+  const next = a.nextSibling;
+  if (next && next.nodeType === 3 && !next.nodeValue.trim()) next.parentNode.removeChild(next);
+  a.parentNode.removeChild(a);
+  return serialize(baseXml, doc);
+}
+
+// The next free figure id (algorithms and pictures share the numbering).
+function newFigureId(baseXml) {
+  const ids = [...String(baseXml).matchAll(/<(?:algorithm|figure)\b[^>]*\bid="fig(\d+)"/g)].map(m => Number(m[1]));
+  return `fig${String((ids.length ? Math.max(...ids) : 0) + 1).padStart(3, '0')}`;
+}
+
+function serialize(baseXml, doc) {
+  const start = String(baseXml).replace(/^﻿/, '');
+  const prologue = start.slice(0, start.search(/<topic[\s>]/));
+  return prologue + new XMLSerializer().serializeToString(doc.documentElement) + '\n';
+}
+
 // Authors as the chapters write them: up to 6 listed, otherwise the first 3 and "et al."
 function formatAuthors(list) {
   const names = (list || []).filter(Boolean);
@@ -259,4 +381,4 @@ function formatAuthors(list) {
   return (names.length > 6 ? [...names.slice(0, 3), 'et al'] : names).join(', ') + '.';
 }
 
-module.exports = { writeChapterXml, formatAuthors };
+module.exports = { writeChapterXml, writeAlgorithm, removeAlgorithm, newFigureId, formatAuthors };

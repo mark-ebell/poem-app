@@ -5,10 +5,10 @@ const { requireEditor } = require('../auth');
 const db = require('../db');
 const pm = require('../pubmed');
 const store = require('../chapter-store');
-const { buildEditorState, runUpdate, searchTermsFor, AREAS } = require('../chapter-update');
+const { buildEditorState, editorHtml, runUpdate, searchTermsFor, AREAS } = require('../chapter-update');
 const planner = require('../chapter-plan');
 const batches = require('../chapter-batch');
-const { writeChapterXml, formatAuthors } = require('../chapter-xml-write');
+const { writeChapterXml, writeAlgorithm, removeAlgorithm, newFigureId, formatAuthors } = require('../chapter-xml-write');
 
 const router = express.Router();
 router.use(requireEditor);
@@ -218,6 +218,59 @@ router.post('/:id/save', (req, res) => {
   }
   const version = store.saveVersion(id, out.xml, displayName(req), String(b.note || '').slice(0, 500) || null);
   res.json({ ok: true, version, referencesKept: out.kept, referencesRemoved: out.removed });
+});
+
+// ---------- Algorithms ----------
+// The chapter's algorithms as the algorithm editor shows them: box and arrow text in the
+// editor's HTML (citations as data-key links), and how many links the text has to each.
+router.get('/:id/algorithms', (req, res) => {
+  const id = knownChapter(req, res);
+  if (!id) return;
+  const chapter = store.liveChapter(id);
+  const html = editorHtml(chapter);
+  const xml = store.liveXml(id).xml;
+  const algIds = new Set([...xml.matchAll(/<algorithm\b[^>]*\bid="([^"]+)"/g)].map(m => m[1]));
+  const links = fid => [...xml.matchAll(/<xref\b[^>]*\bref="([^"]*)"/g)].filter(m => m[1].split(/\s+/).includes(fid)).length;
+  const algorithms = chapter.figures.filter(f => algIds.has(f.id)).map(f => ({
+    id: f.id, n: f.n, title: f.title, image: f.image, kind: f.kind, drawable: f.drawable,
+    cells: f.cells.map(c => ({ id: c.id, type: c.type, html: html(c.html), paths: c.paths.map(p => ({ target: p.target, html: html(p.html) })) })),
+    notes: (f.notes || []).map(html),
+    links: links(f.id)
+  }));
+  res.json({ algorithms, nextId: newFigureId(xml) });
+});
+
+function saveAlgorithmXml(req, res, id, make, note, verb = 'saved') {
+  const live = store.liveXml(id);
+  let xml;
+  try {
+    xml = make(live.xml);
+    const { problems } = store.convertChapter(xml);
+    const bad = problems.filter(p => /not in the references/.test(p));
+    if (bad.length) throw new Error(bad.join('; '));
+  } catch (err) {
+    return res.status(400).json({ error: `The algorithm could not be ${verb}: ${err.message}` });
+  }
+  const version = store.saveVersion(id, xml, displayName(req), note, { keepDraft: true });
+  res.json({ ok: true, version });
+}
+
+// Saves (or adds) an algorithm as a new version of the chapter.
+// Body: { title, cells: [{ id, type, tree, paths: [{ target, tree }] }], notes: [tree] }
+router.put('/:id/algorithms/:fig', (req, res) => {
+  const id = knownChapter(req, res);
+  if (!id) return;
+  const fig = String(req.params.fig);
+  const b = req.body || {};
+  if (!String(b.title || '').trim()) return res.status(400).json({ error: 'Give the algorithm a title.' });
+  saveAlgorithmXml(req, res, id, xml => writeAlgorithm(xml, fig, b), `Algorithm ${fig} edited`);
+});
+
+router.delete('/:id/algorithms/:fig', (req, res) => {
+  const id = knownChapter(req, res);
+  if (!id) return;
+  const fig = String(req.params.fig);
+  saveAlgorithmXml(req, res, id, xml => removeAlgorithm(xml, fig), `Algorithm ${fig} removed`, 'deleted');
 });
 
 // The live chapter's XML, to download.

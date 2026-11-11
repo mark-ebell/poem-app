@@ -12,6 +12,7 @@
 // writes the chapter back as XML, removing references that are no longer cited.
 
 import { markCiteRuns } from './cite-runs.js';
+import { loadAlgorithms } from './algorithm-editor.js';
 
 const $ = id => document.getElementById(id);
 const ZWSP = '​';
@@ -132,6 +133,7 @@ async function openChapter(id) {
   current = data;
   undoStacks.clear();
   render();
+  loadAlgorithms(api, id, async message => { await openChapter(id); setStatus(message); loadList(); });
   renderPlan();
   renderList();
   $('ceEditor').classList.remove('hidden');

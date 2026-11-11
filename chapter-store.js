@@ -208,15 +208,20 @@ function discardDraft(id) {
   db.prepare('DELETE FROM chapter_drafts WHERE chapter_id = ?').run(id);
 }
 
-// Saves a new version (the chapter's XML) and ends the review.
-function saveVersion(id, xml, user, note) {
+// Saves a new version (the chapter's XML) and ends the review. With keepDraft (an
+// algorithm saved from the algorithm editor) a review in progress is kept, and moved onto
+// the new version if it was made from the one this replaces: saving the review later
+// writes its text into the newest XML, so the algorithm change is not lost.
+function saveVersion(id, xml, user, note, { keepDraft = false } = {}) {
   const f = fileXml(id);
   const prev = latestVersion(id);
   const baseFileHash = prev ? prev.base_file_hash : (f ? sha(f) : null);
+  const before = liveBase(id);
   const info = db.transaction(() => {
     const r = db.prepare('INSERT INTO chapter_versions (chapter_id, xml, base_file_hash, created_by, created_at, note) VALUES (?, ?, ?, ?, ?, ?)')
       .run(id, xml, baseFileHash, user, new Date().toISOString(), note || null);
-    db.prepare('DELETE FROM chapter_drafts WHERE chapter_id = ?').run(id);
+    if (keepDraft) db.prepare('UPDATE chapter_drafts SET base = ? WHERE chapter_id = ? AND base = ?').run(`version:${r.lastInsertRowid}`, id, before);
+    else db.prepare('DELETE FROM chapter_drafts WHERE chapter_id = ?').run(id);
     return r;
   })();
   return info.lastInsertRowid;

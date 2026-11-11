@@ -428,6 +428,10 @@
 
         <div id="ceBody" class="ce-body chapter"></div>
 
+        <h3 class="ce-refs-title">Algorithms</h3>
+        <p class="hint">Each algorithm is saved on its own, as a new version of the chapter; a review in progress is kept.</p>
+        <div id="ceAlgs" class="ce-algs"></div>
+
         <h3 class="ce-refs-title">References</h3>
         <ol id="ceRefs" class="ce-refs"></ol>
       </section>
@@ -451,6 +455,48 @@
           </form>
           <p id="refStatus" class="hint"></p>
           <ul id="refResults" class="ref-results"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Algorithm editor (Edit Chapter; public/algorithm-editor.js) -->
+    <div id="algModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="algModalTitle">
+      <div class="modal alg-modal">
+        <div class="modal-bar">
+          <h3 id="algModalTitle" class="info-modal-title">Edit algorithm</h3>
+          <span id="algStatus" class="hint alg-status"></span>
+          <button type="button" id="algDelete" class="alg-delete">Delete algorithm</button>
+          <button type="button" id="algSave" class="alg-save">Save algorithm</button>
+          <button type="button" id="algClose">Close</button>
+        </div>
+        <div class="modal-body alg-body">
+          <div class="alg-edit">
+            <label class="alg-title-label">Title <input type="text" id="algTitle" autocomplete="off"></label>
+            <div class="ce-toolbar alg-toolbar">
+              <button type="button" id="algBold" title="Bold"><b>B</b></button>
+              <button type="button" id="algItalic" title="Italic"><i>I</i></button>
+              <button type="button" id="algSup" title="Superscript">x<sup>2</sup></button>
+              <button type="button" id="algSub" title="Subscript">x<sub>2</sub></button>
+              <button type="button" id="algSortA" title="Insert a SORT A rating at the cursor">SORT A</button>
+              <button type="button" id="algSortB" title="Insert a SORT B rating at the cursor">SORT B</button>
+              <button type="button" id="algSortC" title="Insert a SORT C rating at the cursor">SORT C</button>
+            </div>
+            <p class="hint">Box numbers here are for editing; the chapter page numbers the steps in reading order and shows outcomes under the question that leads to them.</p>
+            <div id="algProblems" class="alg-problems"></div>
+            <div id="algBoxes"></div>
+            <button type="button" id="algAddBox" class="secondary">+ Box</button>
+            <h4>Footnotes</h4>
+            <div id="algNotes"></div>
+            <button type="button" id="algAddNote" class="secondary">+ Footnote</button>
+          </div>
+          <div class="alg-side">
+            <div class="alg-tabs">
+              <button type="button" id="algPreviewTab" class="active">Preview</button>
+              <button type="button" id="algImageTab">Original image</button>
+            </div>
+            <div id="algPreview" class="alg-preview"></div>
+            <div id="algImage" class="alg-image hidden"></div>
+          </div>
         </div>
       </div>
     </div>

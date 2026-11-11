@@ -41,7 +41,9 @@ const ALWAYS_SHOWN = new Set(['overallapproach']);
 // ---------- Review state from the live chapter ----------
 // allTemplate: also add (empty) every template subheading the chapter's sections lack,
 // for Claude to fill; otherwise only the ALWAYS_SHOWN ones are added.
-function buildEditorState(chapter, { allTemplate = false } = {}) {
+// The chapter's HTML as the editor shows it: citations point at reference ids (data-key)
+// instead of reference numbers (data-ref). Also used by the algorithm editor.
+function editorHtml(chapter) {
   const idByN = new Map(chapter.references.map(r => [String(r.n), r.id]));
   const toEditor = t => {
     if (t.text !== undefined) return t;
@@ -49,7 +51,15 @@ function buildEditorState(chapter, { allTemplate = false } = {}) {
     if (data.ref) { data.key = idByN.get(data.ref) || data.ref; delete data.ref; }
     return { ...t, data, children: t.children.map(toEditor) };
   };
-  const html = h => toEditor(htmlToTree(h)).children.map(treeToHtml).join('');
+  return h => toEditor(htmlToTree(h || '')).children.map(treeToHtml).join('');
+}
+
+function buildEditorState(chapter, { allTemplate = false } = {}) {
+  const html = editorHtml(chapter);
+  // Parts shown read-only keep their markup (links and all); only their citations are
+  // pointed at reference ids, so they show the right numbers.
+  const idByN = new Map(chapter.references.map(r => [String(r.n), r.id]));
+  const readOnlyHtml = h => String(h || '').replace(/\bdata-ref="([^"]*)"/g, (m, n) => `data-key="${idByN.get(n) || n}"`);
   const parts = [];
   if (chapter.overallBottomLine) {
     parts.push({ section: 'background', sectionLabel: 'Overall Bottom Line', tag: 'BottomLine', label: 'Overall Bottom Line', bottomLine: true, editable: true, html: html(chapter.overallBottomLine) });
@@ -57,7 +67,7 @@ function buildEditorState(chapter, { allTemplate = false } = {}) {
   for (const s of chapter.sections) {
     for (const p of s.parts) {
       const editable = s.tag !== 'Misc' && s.tag !== 'feature' && !READ_ONLY.has(p.tag);
-      parts.push({ section: s.tag, sectionLabel: s.label, tag: p.tag, label: p.label, bottomLine: p.bottomLine, editable, html: editable ? html(p.html) : p.html });
+      parts.push({ section: s.tag, sectionLabel: s.label, tag: p.tag, label: p.label, bottomLine: p.bottomLine, editable, html: editable ? html(p.html) : readOnlyHtml(p.html) });
     }
     // Template subheadings this section does not have, each before the first later one.
     const template = Object.entries(TEMPLATE).find(([t]) => key(t) === key(s.tag));
@@ -494,4 +504,4 @@ async function runUpdate(id, user) {
   })();
 }
 
-module.exports = { buildEditorState, runUpdate, prepareUpdate, finishUpdate, readAnswer, applyEdits, chapterForClaude, gatherEvidence, itemsOf, searchTermsFor, AREAS };
+module.exports = { buildEditorState, editorHtml, runUpdate, prepareUpdate, finishUpdate, readAnswer, applyEdits, chapterForClaude, gatherEvidence, itemsOf, searchTermsFor, AREAS };

@@ -233,6 +233,20 @@ function showFigure(id) {
   const fig = current && current.figures.find(f => f.id === id);
   if (!fig) return;
   if (!fig.drawable) { showFigureImage(id); return; }
+  const body = flowBody(fig);
+  if (fig.image) {
+    const p = el('p', 'hint');
+    const a = el('a', '', 'View the original figure');
+    a.href = '#';
+    a.dataset.figImage = fig.id;
+    p.appendChild(a);
+    body.appendChild(p);
+  }
+  openInfo(`Figure ${fig.n}. ${fig.title}`, body);
+}
+
+// An algorithm drawn as numbered steps (also the algorithm editor's preview).
+export function flowBody(fig) {
   const { cells, out, isOutcome, steps, stepNo } = layoutFigure(fig);
   const body = el('div', 'flow');
 
@@ -286,15 +300,7 @@ function showFigure(id) {
   });
 
   appendNotes(body, fig.notes);
-  if (fig.image) {
-    const p = el('p', 'hint');
-    const a = el('a', '', 'View the original figure');
-    a.href = '#';
-    a.dataset.figImage = fig.id;
-    p.appendChild(a);
-    body.appendChild(p);
-  }
-  openInfo(`Figure ${fig.n}. ${fig.title}`, body);
+  return body;
 }
 
 // A step's choice button scrolls to the step it leads to.
