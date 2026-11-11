@@ -137,6 +137,13 @@ function liveChapter(id) {
   return { ...chapter, id };
 }
 
+// Which text a chapter has now, without reading or converting it: its newest saved
+// version, or the file (files change only with a new deploy, which restarts the app).
+function liveKey(id) {
+  const v = db.prepare('SELECT MAX(id) AS id FROM chapter_versions WHERE chapter_id = ?').get(id);
+  return v && v.id ? `v${v.id}` : 'file';
+}
+
 // The chapter list, with edited chapters' titles and dates.
 function chapterIndex() {
   const edited = new Map(db.prepare(`SELECT chapter_id, MAX(id) AS id FROM chapter_versions GROUP BY chapter_id`).all().map(r => [r.chapter_id, r.id]));
@@ -233,4 +240,4 @@ function versions(id) {
   return db.prepare('SELECT id, created_by, created_at, note FROM chapter_versions WHERE chapter_id = ? ORDER BY id DESC').all(id);
 }
 
-module.exports = { index: () => index, known, chapterIndex, liveChapter, liveXml, liveBase, editStatus, getDraft, saveDraft, setJob, discardDraft, saveVersion, versions, convertChapter: xml => convertChapter(xml, labels()) };
+module.exports = { index: () => index, known, chapterIndex, liveChapter, liveKey, liveXml, liveBase, editStatus, getDraft, saveDraft, setJob, discardDraft, saveVersion, versions, convertChapter: xml => convertChapter(xml, labels()) };

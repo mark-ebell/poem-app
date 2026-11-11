@@ -28,9 +28,16 @@ const poemFilters = src => ({
 const oneLine = s => String(s || '').replace(/\s+/g, ' ').trim();
 
 // ---------- Chapters: the plain text of each chapter, kept until the chapter changes ----------
-const chapterText = new WeakMap();
-function textOf(chapter) {
-  if (chapterText.has(chapter)) return chapterText.get(chapter);
+// (Converting all the chapters takes seconds, so it is done once, and again only for a
+// chapter that has a newly saved version; the texts are about 13 MB in all.)
+const chapterText = new Map(); // id -> { key, text }
+function textOf(id) {
+  const key = store.liveKey(id);
+  const kept = chapterText.get(id);
+  if (kept && kept.key === key) return kept.text;
+  let chapter;
+  try { chapter = store.liveChapter(id); } catch { return null; }
+  if (!chapter) return null;
   const parts = [];
   const walk = v => {
     if (typeof v === 'string') parts.push(v);
@@ -40,17 +47,27 @@ function textOf(chapter) {
   walk([chapter.overallBottomLine, chapter.sections, chapter.figures]);
   const html = parts.join('\n').replace(/<\/(li|p|div|td|th|h\d|tr)>/gi, ' $&'); // keep list items and cells apart
   const text = oneLine(htmlToText(html).replace(/<[^>]*>/g, ' '));
-  chapterText.set(chapter, text);
+  chapterText.set(id, { key, text });
   return text;
 }
+
+// Prepare the texts soon after the app starts, a few chapters at a time, so that the
+// first search does not wait for all of them (and the app keeps answering meanwhile).
+function warmChapterTexts() {
+  const ids = store.chapterIndex().map(c => c.id);
+  const step = () => {
+    for (let n = 0; n < 10 && ids.length; n++) textOf(ids.shift());
+    if (ids.length) setImmediate(step);
+  };
+  setTimeout(step, 5000).unref();
+}
+if (process.env.NODE_ENV !== 'test') warmChapterTexts();
 
 function searchChapters(q) {
   const out = [];
   for (const { id, title } of store.chapterIndex()) {
-    let chapter;
-    try { chapter = store.liveChapter(id); } catch { continue; }
-    if (!chapter) continue;
-    const text = textOf(chapter);
+    const text = textOf(id);
+    if (text == null) continue;
     if (!q.test(`${title}\n${text}`)) continue;
     out.push({ id, title, titleHit: q.terms.every(t => q.regexFor(t).test(title)) });
   }
