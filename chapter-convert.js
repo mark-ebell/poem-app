@@ -222,6 +222,11 @@ class Chapter {
         if ((m = /^info:wiley\/eep-hp\/(\d+)/.exec(href))) info.calc = ['signs', m[1]];
         if ((m = /^info:wiley\/cochrane\/(CD\d+)/.exec(href))) info.cochrane = m[1];
       }
+      // A link to a calculator that is not in the calculator data would go nowhere: leave it out.
+      if (info.calc && !this.calcLabels[info.calc[0]].has(Number(info.calc[1]))) {
+        this.problems.push(`${info.calc[0] === 'signs' ? 'H & P' : 'Tests'} calculator #${info.calc[1]} is not in the calculator data`);
+        delete info.calc;
+      }
       if (attr(r, 'PMID')) info.pmid = attr(r, 'PMID');
       const url = textOf(child(r, 'url'));
       if (url) info.url = url;
@@ -406,15 +411,16 @@ class Chapter {
 
   calculatorLinks(e, which) {
     const nums = [...new Set(iter(e).filter(x => x.tagName === 'HP_ID' || x.tagName === 'Dx_ID').map(textOf).filter(Boolean))];
+    // A calculator that is not in the calculator data is left out (its link would go nowhere).
     const items = nums.map(n => {
-      let label = /^\d+$/.test(n) ? this.calcLabels[which].get(Number(n)) : null;
+      const label = /^\d+$/.test(n) ? this.calcLabels[which].get(Number(n)) : null;
       if (!label) {
         this.problems.push(`${which === 'signs' ? 'H & P' : 'Tests'} calculator #${n} is not in the calculator data`);
-        label = `Calculator #${n}`;
+        return null;
       }
       this.calcFound[which].push({ num: n, label });
       return `<li><a href="#" class="calc-link" data-calc="${which}" data-num="${esc(n)}">${esc(label)}</a></li>`;
-    });
+    }).filter(Boolean);
     return items.length ? `<ul class="calc-links">${items.join('')}</ul>` : '';
   }
 
