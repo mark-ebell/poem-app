@@ -28,6 +28,7 @@ if (isProduction) {
   if (!process.env.RESEND_API_KEY) console.warn('Warning: RESEND_API_KEY is not set; reader sign-up emails are only written to the log.');
   if (!turnstileEnabled()) console.warn('Warning: Turnstile keys are not set; the sign-up form has no "are you human" check.');
   if (!process.env.APP_URL) console.warn('Warning: APP_URL is not set; links in reader emails will point to localhost.');
+  if (!process.env.MAIL_POSTAL_ADDRESS) console.warn('Warning: MAIL_POSTAL_ADDRESS is not set; the Daily InfoPOEM needs a postal address in its footer (CAN-SPAM).');
 }
 setInterval(pruneUsage, 60 * 60 * 1000).unref();
 const dailyAssigned = assignMissingDailyDates();
@@ -79,6 +80,9 @@ app.use(helmet({
 // other origins, often through image proxies, so they are exempt from the same-origin
 // resource policy above and from the crawler filter below.
 const isEmailImage = req => req.path.startsWith('/email/');
+// Mail programs' one-click unsubscribe (unsubscribe.js) comes from their servers, which may
+// not send a browser's user agent, so it is also exempt from the crawler filter.
+const isUnsubscribe = req => req.path === '/unsubscribe';
 app.use((req, res, next) => {
   if (isEmailImage(req)) res.set('Cross-Origin-Resource-Policy', 'cross-origin');
   next();
@@ -94,7 +98,7 @@ app.use((req, res, next) => {
 // (robots.txt asks them to stay out; this catches the ones that don't ask).
 const BLOCKED_AGENTS = /GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|Claude-Web|anthropic-ai|CCBot|Google-Extended|GoogleOther|PerplexityBot|Perplexity-User|Bytespider|Amazonbot|Applebot-Extended|meta-externalagent|FacebookBot|Diffbot|ImagesiftBot|Omgili|cohere-ai|YouBot|Timpibot|DataForSeoBot|AI2Bot|Scrapy|python-requests|python-urllib|aiohttp|httpx|Go-http-client|curl\/|Wget|HeadlessChrome|PhantomJS/i;
 app.use((req, res, next) => {
-  if (req.path === '/robots.txt' || isEmailImage(req)) return next();
+  if (req.path === '/robots.txt' || isEmailImage(req) || isUnsubscribe(req)) return next();
   const ua = req.get('user-agent') || '';
   if (!ua || BLOCKED_AGENTS.test(ua)) return res.status(403).type('text').send('Automated access is not permitted.');
   next();
@@ -134,6 +138,9 @@ app.use('/api/chapters', require('./routes/chapters'));
 app.use('/api/tools', require('./routes/tools'));
 app.use('/api/search', require('./routes/site-search'));
 app.use('/api/chapter-edit', require('./routes/chapter-edit'));
+app.use(require('./unsubscribe').router);
+// The daily POEM sign-up page (the shareable address): the login screen's daily POEM form.
+app.get('/daily', (req, res) => res.redirect('/?join=daily'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

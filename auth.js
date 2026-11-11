@@ -1,7 +1,11 @@
 // Logins for both kinds of account:
 //   editors  the POETs; fixed accounts from seed-users.js, who log in with a username.
 //   readers  members of the public, who sign up with their email address (confirmed
-//            by an emailed link) and see only the Published POEMs.
+//            by an emailed link) and see only the Published POEMs. A reader's access is
+//            'poems' (the Daily InfoPOEM email and a search of the POEMs) or 'full' (also
+//            the chapters, risk scores and calculators). Everyone signs up with 'poems';
+//            full access is asked for (on the sign-up form or later from the menu) and
+//            granted by an administrator (routes/admin.js, or npm run readers).
 // The reader forms never reveal whether an email address has an account, so they
 // cannot be used to collect addresses.
 const crypto = require('crypto');
@@ -26,6 +30,9 @@ const emailLimiter = limiter(60, 5, 'Too many requests. Please try again in an h
 const VERIFY_HOURS = 24;
 const RESET_HOURS = 1;
 const appUrl = () => (process.env.APP_URL || `http://localhost:${process.env.PORT || 3000}`).replace(/\/+$/, '');
+// Where requests for full access are sent.
+const adminEmail = () => (process.env.ADMIN_EMAIL || 'ebell@msu.edu').trim();
+const NOTE_MAX = 500;
 
 // ---------- Rules ----------
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -86,19 +93,50 @@ async function sendReset(user) {
 // Email failures are logged, not shown, so the reply is the same either way.
 const quietly = promise => promise.catch(err => console.error('Email failed:', err.message));
 
+// Tells the administrator about a request for full access (sent once the address is confirmed).
+function notifyAccessRequest(user) {
+  return sendMail({
+    to: adminEmail(),
+    subject: `InfoRetriever: full access requested by ${user.username}`,
+    text: `${user.username} has asked for full access to InfoRetriever (chapters, risk scores and calculators).\n\n`
+      + `What they wrote: ${user.access_request_note || '(nothing)'}\n\n`
+      + `To approve or decline, log in at ${appUrl()}/ and open the Upload tab (Administrator: reader accounts), `
+      + `or in Render's Shell run: npm run readers -- full ${user.username}`
+  });
+}
+
+// Tells a reader that full access has been granted.
+function sendAccessGranted(user) {
+  return sendMail({
+    to: user.username,
+    subject: 'Your InfoRetriever account now has full access',
+    text: `Your InfoRetriever account (${user.username}) now has full access: as well as the POEMs, you can use the textbook chapters, risk scores and diagnostic calculators.\n\nLog in at ${appUrl()}/ to start.`
+  });
+}
+
 // ---------- Sessions and access ----------
 const LOCKED_MESSAGE = 'This account has been locked because of unusually heavy use. Please contact the InfoRetriever team if you think this is a mistake.';
 const DUMMY_HASH = bcrypt.hashSync(crypto.randomBytes(16).toString('hex'), 10);
 
 function requireAuth(req, res, next) {
   if (!req.session.userId) return res.status(401).json({ error: 'Not logged in.' });
-  const user = db.prepare('SELECT role, status FROM users WHERE id = ?').get(req.session.userId);
+  const user = db.prepare('SELECT role, status, access FROM users WHERE id = ?').get(req.session.userId);
   if (!user || user.status !== 'active') {
     return req.session.destroy(() => res.status(401).json({ error: 'Not logged in.' }));
   }
-  req.session.role = user.role; // always the current role, even if it changed after login
+  req.session.role = user.role; // always the current role and access, even if they changed after login
+  req.session.access = user.role === 'editor' ? 'full' : user.access;
   next();
 }
+
+// The chapters, risk scores and calculators: editors and readers with full access.
+function requireFullAccess(req, res, next) {
+  requireAuth(req, res, () => {
+    if (req.session.access !== 'full') return res.status(403).json({ error: 'Your account includes the POEMs only.' });
+    next();
+  });
+}
+const poemsOnly = req => req.session.access !== 'full';
 
 // Upload, Edit, the full POEM list and the administrator tools.
 function requireEditor(req, res, next) {
@@ -115,6 +153,9 @@ function publicUser(user) {
     username: user.username,
     displayName: user.display_name,
     role: user.role,
+    access: user.role === 'editor' ? 'full' : user.access,
+    accessRequested: !!user.full_access_requested_at,
+    dailyEmail: !!user.daily_email,
     mustChangePassword: !!user.must_change_password
   };
 }
@@ -125,6 +166,7 @@ function startSession(req, res, user) {
     req.session.userId = user.id;
     req.session.username = user.username;
     req.session.role = user.role;
+    req.session.access = user.role === 'editor' ? 'full' : user.access;
     db.prepare('UPDATE users SET last_login_at = ? WHERE id = ?').run(new Date().toISOString(), user.id);
     res.json({ user: publicUser(user) });
   });
@@ -162,6 +204,9 @@ router.post('/signup', signupLimiter, async (req, res) => {
   const problem = readerPasswordProblem(b.password);
   if (problem) return res.status(400).json({ error: problem });
   if (b.acceptTerms !== true) return res.status(400).json({ error: 'Please agree to the Terms of Use to create an account.' });
+  // 'daily' (the daily POEM sign-up page) or 'full' (the request for full access).
+  const wantsFull = b.plan === 'full';
+  const note = String(b.note || '').trim().slice(0, NOTE_MAX) || null;
   if (!(await verifyHuman(b.turnstileToken, req.ip, 'signup'))) {
     return res.status(400).json({ error: 'The "are you human" check did not succeed. Please try again.' });
   }
@@ -180,9 +225,10 @@ router.post('/signup', signupLimiter, async (req, res) => {
   } else {
     const now = new Date().toISOString();
     const info = db.prepare(`
-      INSERT INTO users (username, display_name, password_hash, must_change_password, role, terms_accepted_at, created_at)
-      VALUES (?, ?, ?, 0, 'reader', ?, ?)
-    `).run(email, email, bcrypt.hashSync(String(b.password), 12), now, now);
+      INSERT INTO users (username, display_name, password_hash, must_change_password, role, terms_accepted_at, created_at,
+                         access, daily_email, full_access_requested_at, access_request_note)
+      VALUES (?, ?, ?, 0, 'reader', ?, ?, 'poems', 1, ?, ?)
+    `).run(email, email, bcrypt.hashSync(String(b.password), 12), now, now, wantsFull ? now : null, wantsFull ? note : null);
     quietly(sendVerification({ id: info.lastInsertRowid, username: email }));
   }
   res.json({ ok: true });
@@ -191,9 +237,12 @@ router.post('/signup', signupLimiter, async (req, res) => {
 router.post('/verify', (req, res) => {
   const userId = takeToken((req.body || {}).token, 'verify');
   if (!userId) return res.status(400).json({ error: 'This confirmation link is invalid or has expired. Log in to have a new one sent.' });
+  const before = db.prepare('SELECT email_verified FROM users WHERE id = ?').get(userId);
   db.prepare('UPDATE users SET email_verified = 1 WHERE id = ?').run(userId);
   const user = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
   if (!user || user.status !== 'active') return res.status(403).json({ error: LOCKED_MESSAGE });
+  // A request for full access made on the sign-up form reaches the administrator now that the address is real.
+  if (before && !before.email_verified && user.full_access_requested_at && user.access !== 'full') quietly(notifyAccessRequest(user));
   startSession(req, res, user);
 });
 
@@ -247,4 +296,23 @@ router.post('/change-password', requireAuth, loginLimiter, (req, res) => {
   res.json({ ok: true });
 });
 
-module.exports = { router, requireAuth, requireEditor, isReader };
+// A reader with the POEMs only asks for full access. Body: { note }.
+router.post('/request-full-access', requireAuth, emailLimiter, (req, res) => {
+  const user = db.prepare('SELECT * FROM users WHERE id = ?').get(req.session.userId);
+  if (user.role !== 'reader' || user.access === 'full') return res.status(400).json({ error: 'This account already has full access.' });
+  if (!user.full_access_requested_at) {
+    const note = String((req.body || {}).note || '').trim().slice(0, NOTE_MAX) || null;
+    db.prepare('UPDATE users SET full_access_requested_at = ?, access_request_note = ? WHERE id = ?').run(new Date().toISOString(), note, user.id);
+    quietly(notifyAccessRequest({ ...user, access_request_note: note }));
+  }
+  res.json({ user: publicUser(db.prepare('SELECT * FROM users WHERE id = ?').get(user.id)) });
+});
+
+// Readers turn the Daily InfoPOEM email on or off. Body: { on: true|false }.
+router.post('/daily-email', requireAuth, (req, res) => {
+  if (req.session.role !== 'reader') return res.status(400).json({ error: 'Only reader accounts receive the daily POEM.' });
+  db.prepare('UPDATE users SET daily_email = ? WHERE id = ?').run((req.body || {}).on ? 1 : 0, req.session.userId);
+  res.json({ user: publicUser(db.prepare('SELECT * FROM users WHERE id = ?').get(req.session.userId)) });
+});
+
+module.exports = { router, requireAuth, requireEditor, requireFullAccess, isReader, poemsOnly, sendAccessGranted };

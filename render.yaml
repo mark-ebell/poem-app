@@ -28,5 +28,9 @@ services:
         sync: false
       - key: TURNSTILE_SECRET_KEY
         sync: false
-      - key: DAILY_POEM_RECIPIENTS
-        value: ebell@msu.edu
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: MAIL_POSTAL_ADDRESS
+        sync: false
+      - key: DAILY_POEM_SENDING
+        sync: false

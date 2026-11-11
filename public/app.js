@@ -5,6 +5,7 @@ import { loadChapters, openChapter } from './chapters.js';
 import { loadChapterEditor } from './chapter-editor.js';
 import { loadTools, openTool } from './tools.js';
 import { loadCalculatorUpload } from './calculator-upload.js';
+import { loadReaderAdmin } from './reader-admin.js';
 import { t as tr, lang, dateLocale, languagePicker } from './i18n.js';
 
 const els = {};
@@ -13,7 +14,9 @@ const els = {};
   'loginView', 'signupView', 'forgotView', 'resetView', 'showForgot', 'showSignup', 'showLoginFromSignup', 'showLoginFromForgot',
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
-  'newPasswordRule',
+  'newPasswordRule', 'showRequestFull', 'signupNote', 'switchToFull', 'switchToDaily',
+  'dailyEmailRow', 'dailyEmailToggle', 'requestFullBtn', 'fullRequested',
+  'requestFullPanel', 'requestFullForm', 'requestFullNote', 'requestFullCancel', 'requestFullError', 'requestFullDone',
   'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'searchHelpBtn', 'searchHelp', 'aboutModal', 'aboutModalBody', 'aboutModalClose', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
   'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
@@ -71,6 +74,24 @@ const remember = () => { try { localStorage.setItem(HAS_ACCOUNT_KEY, '1'); } cat
 const hasAccountHere = () => { try { return localStorage.getItem(HAS_ACCOUNT_KEY) === '1'; } catch { return false; } };
 let resetToken = null;
 
+// Two sign-up forms in one: 'daily' (the daily POEM and a POEM search; the /daily address
+// opens it) and 'full' (a request for full access, which an administrator approves).
+let signupPlan = 'daily';
+let joinPlan = (() => {
+  const join = new URLSearchParams(location.search).get('join');
+  if (join) history.replaceState(null, '', location.pathname);
+  return join === 'full' || join === 'daily' ? join : null;
+})();
+function setSignupPlan(plan) {
+  signupPlan = plan;
+  els.signupView.querySelectorAll('.signup-daily').forEach(e => e.classList.toggle('hidden', plan !== 'daily'));
+  els.signupView.querySelectorAll('.signup-full').forEach(e => e.classList.toggle('hidden', plan !== 'full'));
+}
+function showSignup(plan, notice) {
+  setSignupPlan(plan);
+  showAuthView('signup', notice);
+}
+
 function showAuthView(name, notice) {
   for (const [key, view] of Object.entries({ login: els.loginView, signup: els.signupView, forgot: els.forgotView, reset: els.resetView })) {
     view.classList.toggle('hidden', key !== name);
@@ -84,7 +105,9 @@ function showAuthView(name, notice) {
 function showLogin(notice) {
   els.loginScreen.classList.remove('hidden');
   els.appRoot.classList.add('hidden');
-  showAuthView(hasAccountHere() ? 'login' : 'signup', notice);
+  if (joinPlan && !notice) { showSignup(joinPlan); joinPlan = null; return; }
+  if (hasAccountHere()) showAuthView('login', notice);
+  else showSignup('daily', notice);
 }
 
 function showError(el, message) {
@@ -153,7 +176,10 @@ fetch('/api/config').then(r => r.json()).then(c => {
   if (!els.signupView.classList.contains('hidden')) renderTurnstile();
 }).catch(() => {});
 
-els.showSignup.addEventListener('click', () => showAuthView('signup'));
+els.showSignup.addEventListener('click', () => showSignup('daily'));
+els.showRequestFull.addEventListener('click', () => showSignup('full'));
+els.switchToFull.addEventListener('click', () => showSignup('full'));
+els.switchToDaily.addEventListener('click', () => showSignup('daily'));
 els.showForgot.addEventListener('click', () => {
   if (els.loginUsername.value.includes('@')) els.forgotEmail.value = els.loginUsername.value.trim();
   showAuthView('forgot');
@@ -173,13 +199,15 @@ els.signupForm.addEventListener('submit', async (e) => {
   if (turnstileSiteKey && !turnstileToken) return showError(els.signupError, 'Please complete the "are you human" check.');
   els.signupBtn.disabled = true;
   try {
-    await postJson('/signup', { email, password, acceptTerms: true, turnstileToken });
+    await postJson('/signup', { email, password, acceptTerms: true, turnstileToken, plan: signupPlan, note: signupPlan === 'full' ? els.signupNote.value.trim() : '' });
     if (turnstileWidget !== null) window.turnstile.reset(turnstileWidget); // each token works once
     remember();
     els.signupForm.reset();
     renderRules(els.signupRules, '');
     els.loginUsername.value = email;
-    showAuthView('login', tr('Almost done: we have sent a confirmation link to {email}. Open it to start using InfoRetriever. (Check your spam folder if it does not arrive within a few minutes.)', { email }));
+    showAuthView('login', signupPlan === 'full'
+      ? tr('Almost done: we have sent a confirmation link to {email}. Open it to start using InfoRetriever; your request for full access goes to the InfoRetriever team once your address is confirmed. (Check your spam folder if it does not arrive within a few minutes.)', { email })
+      : tr('Almost done: we have sent a confirmation link to {email}. Open it to start using InfoRetriever. (Check your spam folder if it does not arrive within a few minutes.)', { email }));
   } catch (err) {
     showError(els.signupError, err.message);
     renderTurnstile();
@@ -291,6 +319,40 @@ document.addEventListener('keydown', (e) => {
 });
 
 els.settingsToggle.addEventListener('click', () => els.settingsPanel.classList.toggle('hidden'));
+
+// ---------- Readers: the daily POEM email, and asking for full access ----------
+els.dailyEmailToggle.addEventListener('change', async () => {
+  const on = els.dailyEmailToggle.checked;
+  try {
+    const data = await api('/daily-email', { method: 'POST', body: { on } });
+    currentUser = data.user;
+  } catch (err) {
+    els.dailyEmailToggle.checked = !on;
+    window.alert(err.message);
+  }
+});
+els.requestFullBtn.addEventListener('click', () => {
+  els.requestFullForm.classList.remove('hidden');
+  els.requestFullDone.classList.add('hidden');
+  els.requestFullError.classList.add('hidden');
+  els.requestFullPanel.classList.remove('hidden');
+  els.requestFullNote.focus();
+});
+els.requestFullCancel.addEventListener('click', () => els.requestFullPanel.classList.add('hidden'));
+els.requestFullForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  els.requestFullError.classList.add('hidden');
+  try {
+    const data = await api('/request-full-access', { method: 'POST', body: { note: els.requestFullNote.value.trim() } });
+    currentUser = data.user;
+    applyRole();
+    els.requestFullForm.classList.add('hidden');
+    els.requestFullDone.classList.remove('hidden');
+    setTimeout(() => els.requestFullPanel.classList.add('hidden'), 5000);
+  } catch (err) {
+    showError(els.requestFullError, err.message);
+  }
+});
 
 // ---------- About InfoRetriever / About POEMs: the pages' text in a pop-up ----------
 // Links marked data-about (in the menu and on the login screen) open it, and so do the links
@@ -2099,12 +2161,24 @@ els.wordReadBtn.addEventListener('click', async () => {
 
 // ---------- init ----------
 const isReader = () => !!currentUser && currentUser.role === 'reader';
+// Readers with the POEMs only (signed up for the daily POEM, not yet given full access).
+const poemsOnly = () => isReader() && currentUser.access !== 'full';
 
 // Readers don't see the editors' tabs (Upload, Browse, Edit POEMs, Edit Chapter, Evidence
-// Summary); the server enforces the same rules.
+// Summary), and readers with the POEMs only see just the Search tab, searching the POEMs;
+// the server enforces the same rules.
 function applyRole() {
   const reader = isReader();
+  const limited = poemsOnly();
   [els.tabBtnUpload, els.tabBtnBrowse, els.tabBtnEdit, els.tabBtnChapterEdit, els.tabBtnEvidence].forEach(b => b.classList.toggle('hidden', reader));
+  [els.tabBtnChapters, els.tabBtnTools, els.tabBtnTests, els.tabBtnSigns, els.tabBtnDdx].forEach(b => b.classList.toggle('hidden', limited));
+  document.querySelector('nav.tabs').classList.toggle('hidden', limited); // one tab needs no tab bar
+  if (limited) els.searchType.value = 'poems';
+  els.searchType.closest('label').classList.toggle('hidden', limited);
+  els.dailyEmailRow.classList.toggle('hidden', !reader);
+  els.dailyEmailToggle.checked = reader && currentUser.dailyEmail;
+  els.requestFullBtn.classList.toggle('hidden', !limited || currentUser.accessRequested);
+  els.fullRequested.classList.toggle('hidden', !limited || !currentUser.accessRequested);
   updatePoemFilters();
   els.newPasswordRule.textContent = reader
     ? '(at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols)'
@@ -2114,9 +2188,11 @@ function applyRole() {
 async function init(user) {
   currentUser = user;
   els.wordImport.classList.toggle('hidden', user.username !== 'ebell');
-  if (user.username === 'ebell') loadCalculatorUpload(api, showLogin);
+  if (user.username === 'ebell') { loadCalculatorUpload(api, showLogin); loadReaderAdmin(api); }
   showApp(user);
   applyRole();
+  switchTab('search'); // everyone starts on the Search tab
+  if (poemsOnly()) return; // the chapters, risk scores and calculators are not theirs to load
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
   loadTools(api, user).catch(err => console.error('Risk scores failed to load', err));
   loadChapters(api, {
@@ -2124,7 +2200,6 @@ async function init(user) {
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
   });
   if (!isReader()) loadChapterEditor(api, user);
-  switchTab('search'); // everyone starts on the Search tab
   if (isReader()) return;
   applyNewDocumentDefaults();
   await refreshLibrary();

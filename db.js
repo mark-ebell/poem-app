@@ -22,9 +22,14 @@ db.exec(`
 `);
 
 // Account roles. 'editor' accounts are the POETs (created by seed-users.js); 'reader'
-// accounts are created by the public through the sign-up form, use their email address
-// as the username, and see only the Published POEMs on the Browse, Search and Evidence
-// tabs. status is 'active' or 'locked' (readers who exceed the usage limits).
+// accounts are created by the public through the sign-up forms, use their email address
+// as the username, and see only the Published POEMs. status is 'active' or 'locked'
+// (readers who exceed the usage limits).
+// A reader's access is 'poems' (the daily POEM email and a search of the POEMs only) or
+// 'full' (also the chapters, risk scores and calculators), which only an administrator
+// grants: full_access_requested_at and access_request_note hold a pending request.
+// Readers from before the two kinds existed (and editors) are 'full'. daily_email = 1
+// sends the Daily InfoPOEM to the reader (on for new readers, off for earlier ones).
 const userColumns = db.prepare("PRAGMA table_info('users')").all().map(c => c.name);
 const addUserColumn = (name, def) => { if (!userColumns.includes(name)) db.exec(`ALTER TABLE users ADD COLUMN ${name} ${def}`); };
 addUserColumn('role', "TEXT NOT NULL DEFAULT 'editor'");
@@ -33,6 +38,10 @@ addUserColumn('status', "TEXT NOT NULL DEFAULT 'active'");
 addUserColumn('locked_reason', 'TEXT');
 addUserColumn('terms_accepted_at', 'TEXT');
 addUserColumn('last_login_at', 'TEXT');
+addUserColumn('access', "TEXT NOT NULL DEFAULT 'full'");
+addUserColumn('full_access_requested_at', 'TEXT');
+addUserColumn('access_request_note', 'TEXT');
+addUserColumn('daily_email', 'INTEGER NOT NULL DEFAULT 0');
 
 db.exec(`
   -- One-time links emailed to readers ('verify' or 'reset'). Only a hash of the token is kept.
@@ -182,6 +191,13 @@ db.exec(`
     recipients TEXT NOT NULL,
     sent_at TEXT NOT NULL,
     PRIMARY KEY (edition, send_date)
+  );
+  -- Each reader a day's POEM has gone to, so a send interrupted part way through carries
+  -- on with the rest (daily_sends gets the day's row once everyone has been sent it).
+  CREATE TABLE IF NOT EXISTS daily_recipient_sends (
+    send_date TEXT NOT NULL,
+    user_id INTEGER NOT NULL,
+    PRIMARY KEY (send_date, user_id)
   );
 `);
 createIndexes();

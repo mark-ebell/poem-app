@@ -7,11 +7,11 @@
 // it: the menus are fetched one level at a time, and an entry's numbers and
 // source only when someone picks it, which counts toward a reader's usage limits.
 const express = require('express');
-const { requireAuth } = require('../auth');
+const { requireFullAccess } = require('../auth');
 const { quota } = require('../limits');
 
 const router = express.Router();
-router.use(requireAuth);
+router.use(requireFullAccess); // not for readers with the POEMs only
 
 const calculatorData = require('../calculator-data');
 let data, panels;

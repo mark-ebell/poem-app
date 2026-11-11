@@ -131,9 +131,16 @@ There are two kinds of account:
 - **Editors** are the POETs (the fixed accounts in `seed-users.js`). They log in with their user name and can use every tab.
 - **Readers** are members of the public. They create their own account on the login screen with their email address and a password (at least 8 characters, with an upper case letter, 2 numbers and 2 special symbols), agree to the Terms of Use (`public/terms.html`), pass an "are you human" check, and confirm their address from an emailed link. A browser that has never had an account here is shown the sign-up form first; after that, the log-in form. Readers can reset a forgotten password by email.
 
+Readers have one of two kinds of access (`users.access`):
+
+- **POEMs only** (`poems`): the Daily InfoPOEM email and the Search tab, searching the POEMs only (no tab bar, no "Search in" menu). Everyone starts here. The sign-up page for the daily POEM is **inforetriever.org/daily** (it opens the login screen's sign-up form).
+- **Full access** (`full`): also the chapters, risk scores and calculators, and searching all of them. Only the administrator grants it. A reader asks for it on the "Request full access" sign-up form (with an optional note about themselves) or later from the menu; the request is emailed to `ADMIN_EMAIL` (ebell@msu.edu if unset) once the reader's address is confirmed. Approve or decline it in the Upload tab (**Administrator: reader accounts**, which lists the requests first and can show every reader and change their access), or with `npm run readers -- full <email>` / `poems <email>`. Approving emails the reader. Readers who signed up before the two kinds existed have full access.
+
+Readers turn the daily POEM on or off in the menu (**Email me the daily POEM**); it is on for new readers and off for those who signed up before it existed.
+
 What readers can do (the server enforces all of this; hiding tabs in the page is only for convenience):
 
-- Every tab except the editors' tabs (Upload POEMs, Browse POEMs, Edit POEMs, Edit Chapter, Evidence Summary), and only POEMs whose status is **Published**. They never see the POET, the POEM number, drafts or the Word import.
+- Every tab except the editors' tabs (Upload POEMs, Browse POEMs, Edit POEMs, Edit Chapter, Evidence Summary), or only the Search tab with the POEMs for readers with the POEMs only, and only POEMs whose status is **Published**. They never see the POET, the POEM number, drafts or the Word import.
 - Clicking a POEM opens it in a pop-up: 10 point Arial, bold headings, no hard line breaks.
 - Search shows at most 200 POEMs in each category.
 - Printing a search (Word or PDF) includes the first 25 matching POEMs.
@@ -146,6 +153,9 @@ npm run readers                     # all readers
 npm run readers -- locked           # locked readers only
 npm run readers -- unlock name@example.com
 npm run readers -- lock name@example.com
+npm run readers -- requests         # requests for full access
+npm run readers -- full name@example.com    # give full access (emails them)
+npm run readers -- poems name@example.com   # the POEMs only (also declines a request)
 ```
 
 ### Services the reader sign-up needs
@@ -222,21 +232,19 @@ The pieces: `chapter-store.js` (files, saved versions, reviews), `chapter-plan.j
 
 ## Daily InfoPOEM email
 
-Each day one POEM is emailed to subscribers (for now only ebell@msu.edu, while testing). When a POEM becomes **Published** (saved in the Edit tab or brought in by the monthly Word import) it is given a day in its publication month that no other POEM has, today or later, chosen at random: a weekday while any are free, then a Saturday, then a Sunday. POEMs published in the current month or later take part; older POEMs and the archive do not. A POEM that finds no free day left in its month gets none (the server log says so). The day is shown as **Email date** in the Recently added list (Upload tab) and on the Browse tab, and `npm run daily-poem -- schedule` lists them all. From 6 a.m. US Eastern on that day the server sends it, once, in two editions that are identical except for the logo: the AAFP edition to the addresses in `DAILY_POEM_RECIPIENTS` and the Virtual Hallway edition to those in `DAILY_POEM_VH_RECIPIENTS` (each comma-separated, ebell@msu.edu if unset). Each edition's sends are recorded separately (`daily_sends` for AAFP, `daily_edition_sends` for the others), so one failing does not hold up or resend the other. The editions are listed in `EDITIONS` in `daily-poem.js`. A POEM taken out of Published, or moved to another month, gives up a day it has not yet been sent on. Sending is off unless the environment variable `DAILY_POEM_SENDING` is `on` (on Render: **Environment**, then save, which restarts the service); while it is off, POEMs are still given days, nothing is emailed, and `npm run daily-poem -- send-test` still works. It was turned off on 10/30/26 when the weekday POEMs ran out.
+Each day one POEM is emailed to every subscriber: each reader with a confirmed address, an active account and **Email me the daily POEM** turned on (from January 2027; this is new content, outside the Wiley licence). When a POEM becomes **Published** (saved in the Edit tab or brought in by the monthly Word import) it is given a day in its publication month that no other POEM has, today or later, chosen at random: a weekday while any are free, then a Saturday, then a Sunday. POEMs published in the current month or later take part; older POEMs and the archive do not. A POEM that finds no free day left in its month gets none (the server log says so). The day is shown as **Email date** in the Recently added list (Upload tab) and on the Browse tab, and `npm run daily-poem -- schedule` lists them all. From 6 a.m. US Eastern on that day the server sends it: a separate message to each subscriber, 100 at a time through Resend's batch endpoint. Each subscriber sent to is recorded (`daily_recipient_sends`) and the day itself once everyone has it (`daily_sends`), so a restart or a failed batch carries on with the rest at the next check (every 10 minutes) and nobody gets the same day twice. Check that your Resend plan covers the daily volume (one email per subscriber per day). (The AAFP and Virtual Hallway editions were tests and are gone; `daily_edition_sends` keeps their record.) A POEM taken out of Published, or moved to another month, gives up a day it has not yet been sent on. Sending is off unless the environment variable `DAILY_POEM_SENDING` is `on` (on Render: **Environment**, then save, which restarts the service); while it is off, POEMs are still given days, nothing is emailed, and `npm run daily-poem -- send-test` still works. It was turned off on 10/30/26 when the weekday POEMs ran out.
 
-The email's subject is "Daily InfoPOEM: <title>". It has the AAFP logo (or, in the Virtual Hallway edition, the Virtual Hallway logo) at the top left and "Powered by InfoRetriever" with the dog at the top right, then the POEM as readers see it (no POET or POEM number) with the Clinical question, Bottom-Line and Reference first, and the disclaimer and a link to InfoRetriever.org at the bottom. Its images are served from `public/email/` on the live site; that folder is exempt from the site's same-origin image policy and crawler filter so mail programs and their image proxies can load them.
+The email's subject is "Daily InfoPOEM: <title>". It has the InfoRetriever dog and name at the top, then the POEM as readers see it (no POET or POEM number) with the Clinical question, Bottom-Line and Reference first, and at the bottom the disclaimer, a link to InfoRetriever.org, an **Unsubscribe** link and the postal address in `MAIL_POSTAL_ADDRESS` (US law, CAN-SPAM, requires both in bulk email, even free email). Each reader's unsubscribe link is their own (signed with `SESSION_SECRET`, so keep that unchanged); it opens a page with an Unsubscribe button (`unsubscribe.js`), and the `List-Unsubscribe` headers give Gmail, Apple Mail and others their own one-click unsubscribe button. Readers can turn the email back on in the menu. Its images are served from `public/email/` on the live site; that folder is exempt from the site's same-origin image policy and crawler filter so mail programs and their image proxies can load them.
 
 From the command line (on Render, the service's **Shell** tab):
 
 ```
-npm run daily-poem -- schedule            # which POEM goes out on which day, and which have been sent
-npm run daily-poem -- send-test           # send today's POEM now in both editions, marked [Test]
+npm run daily-poem -- schedule            # which POEM goes out on which day, which have been sent, how many subscribers
+npm run daily-poem -- send-test           # send today's POEM now to ADMIN_EMAIL, marked [Test]
 npm run daily-poem -- send-test 369649    # send a particular POEM (by POEM number) now
-npm run daily-poem -- send-test 369649 vh # just the Virtual Hallway edition (or aafp)
-npm run daily-poem -- preview 369649      # write daily-poem-preview.html and daily-poem-preview-vh.html
+npm run daily-poem -- send-test 369649 someone@example.org   # to another address
+npm run daily-poem -- preview 369649      # write daily-poem-preview.html
 ```
-
-Before sending to real subscribers, the email needs an unsubscribe link and a subscriber list.
 
 ## Risk Scores
 

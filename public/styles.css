@@ -1048,3 +1048,17 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .lang-pick-login { position: absolute; top: 0.8rem; right: 0.8rem; }
 .lang-pick select { font-size: 0.85rem; padding: 0.15rem 0.3rem; width: auto; }
 .lang-pick-menu { display: flex; align-items: center; gap: 0.5rem; padding: 10px 16px; font-size: 0.9rem; margin: 0; }
+
+/* Reader accounts: the two sign-up forms, the menu's daily POEM switch, the administrator's list */
+.auth-switch-more { display: inline-block; margin-top: 6px; color: var(--muted); }
+.menu-check { display: flex; align-items: center; gap: 8px; padding: 10px 16px; margin: 0; font-size: 0.95rem; cursor: pointer; }
+.menu-check input { width: auto; margin: 0; }
+.user-menu-note { margin: 0; padding: 10px 16px; color: var(--muted); font-size: 0.9rem; }
+.reader-admin-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.reader-admin-table th, .reader-admin-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.reader-admin-table td.actions { white-space: nowrap; }
+.reader-admin-table td.actions button { margin: 0 4px 4px 0; }
+.reader-admin-note { color: var(--muted); font-style: italic; overflow-wrap: anywhere; }
+.reader-admin-pending { background: #fffbeb; }
+.reader-admin-wrap { overflow-x: auto; }
+.user-menu > .hidden, .auth-switch-more.hidden { display: none; }

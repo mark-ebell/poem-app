@@ -4,12 +4,12 @@
 // each chapter opened counts toward their usage limits.
 const path = require('path');
 const express = require('express');
-const { requireAuth } = require('../auth');
+const { requireFullAccess } = require('../auth');
 const { quota } = require('../limits');
 const store = require('../chapter-store');
 
 const router = express.Router();
-router.use(requireAuth);
+router.use(requireFullAccess); // not for readers with the POEMs only
 
 router.get('/', (req, res) => {
   res.json({ chapters: store.chapterIndex() });

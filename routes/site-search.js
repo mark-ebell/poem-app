@@ -1,11 +1,11 @@
 // The Search tab: one search across POEMs, textbook chapters (full text), the History and
 // Physical and Diagnostic Tests calculators, and the Risk Scores, with the same AND / OR /
-// NOT rules as the POEM search (search.js). ?q=…&type=all|poems|chapters|signs|tests|tools
+// NOT rules as the POEM search (search.js). Readers with the POEMs only (auth.js) get POEMs only. ?q=…&type=all|poems|chapters|signs|tests|tools
 // and, for POEMs, &years=…&age=…&supertype=…&sort=relevance|date&main=1 (main topic only). One search counts once toward a reader's limits.
 const path = require('path');
 const fs = require('fs');
 const express = require('express');
-const { requireAuth, isReader } = require('../auth');
+const { requireAuth, isReader, poemsOnly } = require('../auth');
 const { quota } = require('../limits');
 const { searchPoems, compileQuery, parseSort } = require('../search');
 const { htmlToText } = require('../poem-model');
@@ -96,7 +96,8 @@ function searchTools(q) {
 const capped = list => ({ total: list.length, items: list.slice(0, MAX_ITEMS).map(({ titleHit, ...rest }) => rest), truncated: list.length > MAX_ITEMS });
 
 router.get('/', quota('search'), (req, res) => {
-  const type = TYPES.includes(req.query.type) ? req.query.type : 'all';
+  // Readers with the POEMs only search the POEMs, whatever was asked for.
+  const type = poemsOnly(req) ? 'poems' : TYPES.includes(req.query.type) ? req.query.type : 'all';
   const want = k => type === 'all' || type === k;
   const q = compileQuery(req.query.q, true);
   if (q.error) return res.status(400).json({ error: q.error });

@@ -13,7 +13,7 @@ const path = require('path');
 
 const PUB = path.join(__dirname, '..', 'public');
 const DIR = path.join(PUB, 'i18n');
-const EDITOR_ONLY = new Set(['algorithm-editor.js', 'tool-editor.js', 'chapter-editor.js', 'calculator-upload.js', 'i18n.js']);
+const EDITOR_ONLY = new Set(['algorithm-editor.js', 'tool-editor.js', 'chapter-editor.js', 'calculator-upload.js', 'reader-admin.js', 'i18n.js']);
 const norm = s => s.replace(/\s+/g, ' ').trim();
 
 const found = new Map(); // text -> where

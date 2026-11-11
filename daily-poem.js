@@ -4,36 +4,38 @@
 // POEM has (today or later, so it can still be sent), chosen at random: a weekday while
 // any are free, then a Saturday, then a Sunday. POEMs published in the current month or
 // later take part (older POEMs and the archive do not). On that day, from
-// SEND_HOUR US Eastern time, the server emails it to each edition's recipients and records
-// the send, so a restart never sends a day twice. The editions are identical except for the
-// logo at the top left: AAFP (to DAILY_POEM_RECIPIENTS) and Virtual Hallway (to
-// DAILY_POEM_VH_RECIPIENTS). Sending is off unless DAILY_POEM_SENDING is "on"; POEMs are
-// still given days while it is off, and send-test still works.
+// SEND_HOUR US Eastern time, the server emails it to every subscriber: each reader with a
+// confirmed address, an active account and the daily email turned on (users.daily_email,
+// on when a reader signs up; see auth.js). Each subscriber gets a separate message with
+// their own unsubscribe link (unsubscribe.js), sent 100 at a time through Resend's batch
+// endpoint. Each subscriber sent to is recorded (daily_recipient_sends), and the day itself
+// once everyone has it (daily_sends), so a restart or a failure part way through carries on
+// with the rest and never sends anyone the same day twice. Sending is off unless
+// DAILY_POEM_SENDING is "on"; POEMs are still given days while it is off, and send-test
+// still works. The footer has the postal address CAN-SPAM requires (MAIL_POSTAL_ADDRESS).
 //
 // From the command line (on Render: the service's Shell tab):
-//   npm run daily-poem -- schedule          the assigned days
-//   npm run daily-poem -- send-test [num] [edition]   send now (today's POEM, or POEM number num;
-//                                                     every edition, or just aafp or vh)
-//   npm run daily-poem -- preview [num] [edition]     write each edition to daily-poem-preview[-vh].html
+//   npm run daily-poem -- schedule          the assigned days and the number of subscribers
+//   npm run daily-poem -- send-test [num] [address]   send now to the administrator (ADMIN_EMAIL)
+//                                                     or the address given: today's POEM, or POEM number num
+//   npm run daily-poem -- preview [num]     write the email to daily-poem-preview.html
 const crypto = require('crypto');
 const db = require('./db');
-const { sendMail } = require('./mail');
+const { sendMail, sendBatch, BATCH_SIZE } = require('./mail');
+const { unsubscribeUrl } = require('./unsubscribe');
 const { describePoem, runsToHtml, DISCLAIMER } = require('./export-poems');
 const { escapeHtml } = require('./poem-model');
 
 const TIME_ZONE = 'America/New_York';
 const SEND_HOUR = 6;
 const sendingOn = () => String(process.env.DAILY_POEM_SENDING || '').trim().toLowerCase() === 'on';
-const list = (v, fallback) => String(v || fallback).split(',').map(r => r.trim()).filter(Boolean);
-// The editions: the same email with a different logo, each to its own recipients.
-const EDITIONS = [
-  { key: 'aafp', name: 'AAFP', logo: 'aafp-logo.png', width: 146, height: 58, alt: 'AAFP',
-    recipients: () => list(process.env.DAILY_POEM_RECIPIENTS, 'ebell@msu.edu') },
-  { key: 'vh', name: 'Virtual Hallway', logo: 'virtual-hallway-logo.png', width: 220, height: 32, alt: 'Virtual Hallway',
-    recipients: () => list(process.env.DAILY_POEM_VH_RECIPIENTS, 'ebell@msu.edu') }
-];
-const editionOf = key => EDITIONS.find(e => e.key === key) || EDITIONS[0];
+const testAddress = () => (process.env.ADMIN_EMAIL || 'ebell@msu.edu').trim();
 const siteUrl = () => (process.env.APP_URL || 'https://inforetriever.org').replace(/\/+$/, '');
+const postalAddress = () => String(process.env.MAIL_POSTAL_ADDRESS || '').trim();
+
+// The readers the email goes to.
+const subscribers = () => db.prepare(`SELECT id, username FROM users WHERE role = 'reader' AND email_verified = 1
+  AND status = 'active' AND daily_email = 1 ORDER BY id`).all();
 
 // ---------- Dates (US Eastern) ----------
 function easternNow(now = new Date()) {
@@ -90,7 +92,9 @@ function assignMissingDailyDates() {
 const FONT = "font-family: Arial, Helvetica, sans-serif;";
 const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 
-function buildEmail(row, sendDate, edition = EDITIONS[0]) {
+// The email for one day. unsubscribe is the reader's own unsubscribe link (or a stand-in
+// that sendDailyPoem swaps for each reader's).
+function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) {
   const base = siteUrl();
   const poem = describePoem(row, { reader: true });
   // Clinical question, Bottom-Line and Reference first, then the rest in their usual order.
@@ -112,14 +116,9 @@ function buildEmail(row, sendDate, edition = EDITIONS[0]) {
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background: #f5f6f8;"><tr><td align="center" style="padding: 16px 8px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width: 640px; background: #ffffff; border: 1px solid #dcdfe4; border-radius: 8px;">
   <tr><td style="padding: 16px 20px 12px; border-bottom: 1px solid #dcdfe4;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-      <td align="left" valign="middle"><img src="${base}/email/${edition.logo}" width="${edition.width}" height="${edition.height}" alt="${edition.alt}" style="display: block; border: 0;"></td>
-      <td align="right" valign="middle">
-        <table role="presentation" cellpadding="0" cellspacing="0" align="right"><tr>
-          <td valign="middle" style="${FONT} font-size: 12px; color: #6b7280; padding-right: 8px; text-align: right;">Powered by<br><a href="${base}/" style="color: #1f4b6e; font-weight: bold; font-size: 14px; text-decoration: none;">InfoRetriever</a></td>
-          <td valign="middle"><img src="${base}/email/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></td>
-        </tr></table>
-      </td>
+    <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+      <td valign="middle" style="padding-right: 10px;"><a href="${base}/"><img src="${base}/email/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></a></td>
+      <td valign="middle"><a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; text-decoration: none;">InfoRetriever</a></td>
     </tr></table>
   </td></tr>
   <tr><td style="padding: 18px 20px 6px;">
@@ -131,7 +130,9 @@ function buildEmail(row, sendDate, edition = EDITIONS[0]) {
   </td></tr>
   <tr><td style="padding: 8px 20px 20px; border-top: 1px solid #dcdfe4;">
     <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; font-style: italic; margin: 12px 0;">${escapeHtml(DISCLAIMER)}</p>
-    <p style="${FONT} font-size: 13px; line-height: 1.5; color: #1b1f23; margin: 0;">Search more than 8,000 POEMs, textbook chapters and diagnostic calculators at <a href="${base}/" style="${link} font-weight: bold;">InfoRetriever.org</a>.</p>
+    <p style="${FONT} font-size: 13px; line-height: 1.5; color: #1b1f23; margin: 0;">Search more than 8,000 POEMs at <a href="${base}/" style="${link} font-weight: bold;">InfoRetriever.org</a>.</p>
+    <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 12px 0 0;">You are receiving this email because you signed up for the Daily InfoPOEM at InfoRetriever.org. <a href="${escapeHtml(unsubscribe)}" style="color: #6b7280;">Unsubscribe</a></p>
+    ${postalAddress() ? `<p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 4px 0 0;">${escapeHtml(postalAddress())}</p>` : ''}
   </td></tr>
 </table>
 </td></tr></table>
@@ -147,7 +148,11 @@ function buildEmail(row, sendDate, edition = EDITIONS[0]) {
     '',
     DISCLAIMER,
     '',
-    `More POEMs at ${base}/`
+    `More POEMs at ${base}/`,
+    '',
+    'You are receiving this email because you signed up for the Daily InfoPOEM at InfoRetriever.org.',
+    `Unsubscribe: ${unsubscribe}`,
+    ...(postalAddress() ? [postalAddress()] : [])
   ].filter((l, i, a) => !(l === '' && a[i - 1] === '')).join('\n');
 
   return { subject: `Daily InfoPOEM: ${poem.title}`, html, text };
@@ -158,41 +163,44 @@ function poemForDay(date) {
   return db.prepare("SELECT * FROM poems WHERE daily_date = ? AND status = 'Published' LIMIT 1").get(date);
 }
 
-// Whether an edition has been sent on a day, and recording a send (the AAFP edition keeps
-// its original table, daily_sends; the others use daily_edition_sends).
-function wasSent(edition, date) {
-  return edition.key === 'aafp'
-    ? !!db.prepare('SELECT 1 FROM daily_sends WHERE send_date = ?').get(date)
-    : !!db.prepare('SELECT 1 FROM daily_edition_sends WHERE edition = ? AND send_date = ?').get(edition.key, date);
-}
-function recordSend(edition, date, poemId, to) {
-  const at = new Date().toISOString();
-  if (edition.key === 'aafp') db.prepare('INSERT INTO daily_sends (send_date, poem_id, recipients, sent_at) VALUES (?, ?, ?, ?)').run(date, poemId, to.join(', '), at);
-  else db.prepare('INSERT INTO daily_edition_sends (edition, send_date, poem_id, recipients, sent_at) VALUES (?, ?, ?, ?, ?)').run(edition.key, date, poemId, to.join(', '), at);
-}
+const wasSent = date => !!db.prepare('SELECT 1 FROM daily_sends WHERE send_date = ?').get(date);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const PLACEHOLDER = 'https://unsubscribe.invalid/reader'; // swapped for each reader's own link
 
-// Sends the day's POEM in one edition unless it has been sent already. Returns what happened.
-async function sendEdition(edition, row, date) {
-  if (wasSent(edition, date)) return `${edition.name}: already sent`;
-  const to = edition.recipients();
-  if (!to.length) return `${edition.name}: no recipients`;
-  const { subject, html, text } = buildEmail(row, date, edition);
-  await sendMail({ to, subject, html, text });
-  recordSend(edition, date, row.id, to);
-  return `${edition.name}: sent "${row.title}" to ${to.join(', ')}`;
-}
+// The headers that give mail programs their own unsubscribe button (RFC 2369 and 8058).
+const unsubscribeHeaders = url => ({ 'List-Unsubscribe': `<${url}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' });
 
-// Sends the day's POEM in every edition. An edition that fails is tried again at the next
-// check without resending the others. Returns what happened, one line per edition.
+// Sends the day's POEM to every subscriber who has not had it yet, 100 at a time. A batch
+// that fails stops the send; the next check carries on from there. Returns what happened.
 async function sendDailyPoem(date) {
   const row = poemForDay(date);
-  if (!row) return ['no POEM for this day'];
-  const results = [];
-  for (const edition of EDITIONS) {
-    try { results.push(await sendEdition(edition, row, date)); }
-    catch (err) { results.push(`${edition.name}: failed (${err.message})`); }
+  if (!row) return 'no POEM for this day';
+  if (wasSent(date)) return 'already sent';
+  const done = new Set(db.prepare('SELECT user_id FROM daily_recipient_sends WHERE send_date = ?').all(date).map(r => r.user_id));
+  const todo = subscribers().filter(r => !done.has(r.id));
+  if (!todo.length && !done.size) return 'no subscribers';
+  const { subject, html, text } = buildEmail(row, date, { unsubscribe: PLACEHOLDER });
+  const record = db.prepare('INSERT OR IGNORE INTO daily_recipient_sends (send_date, user_id) VALUES (?, ?)');
+  let sent = 0;
+  for (let i = 0; i < todo.length; i += BATCH_SIZE) {
+    const chunk = todo.slice(i, i + BATCH_SIZE);
+    const emails = chunk.map(r => {
+      const url = unsubscribeUrl(r.id);
+      return { to: r.username, subject, html: html.split(escapeHtml(PLACEHOLDER)).join(escapeHtml(url)), text: text.split(PLACEHOLDER).join(url), headers: unsubscribeHeaders(url) };
+    });
+    const key = `daily-${date}-` + crypto.createHash('sha256').update(chunk.map(r => r.id).join(',')).digest('hex').slice(0, 24);
+    try {
+      await sendBatch(emails, { idempotencyKey: key });
+    } catch (err) {
+      return `failed after sending to ${done.size + sent} reader(s): ${err.message}`;
+    }
+    db.transaction(() => chunk.forEach(r => record.run(date, r.id)))();
+    sent += chunk.length;
+    if (i + BATCH_SIZE < todo.length) await sleep(600); // Resend allows a few requests a second
   }
-  return results;
+  db.prepare('INSERT INTO daily_sends (send_date, poem_id, recipients, sent_at) VALUES (?, ?, ?, ?)')
+    .run(date, row.id, `${done.size + sent} readers`, new Date().toISOString());
+  return `sent "${row.title}" to ${sent} reader(s)${done.size ? ` (and ${done.size} earlier)` : ''}`;
 }
 
 // Checks every 10 minutes: from SEND_HOUR Eastern, today's POEM goes out once.
@@ -202,10 +210,9 @@ function startDailyPoemSchedule() {
     const { date, hour } = easternNow();
     if (hour < SEND_HOUR) return;
     try {
-      for (const result of await sendDailyPoem(date)) {
-        if (/: sent /.test(result)) console.log(`Daily InfoPOEM ${date}: ${result}`);
-        else if (/: failed /.test(result)) console.error(`Daily InfoPOEM ${date}: ${result}`); // tried again at the next check
-      }
+      const result = await sendDailyPoem(date);
+      if (/^sent /.test(result)) console.log(`Daily InfoPOEM ${date}: ${result}`);
+      else if (/^failed /.test(result)) console.error(`Daily InfoPOEM ${date}: ${result}`); // carried on at the next check
     } catch (err) {
       console.error(`Daily InfoPOEM ${date} failed:`, err.message);
     }
@@ -214,15 +221,14 @@ function startDailyPoemSchedule() {
   setTimeout(tick, 30 * 1000).unref();
 }
 
-module.exports = { assignDailyDate, assignMissingDailyDates, buildEmail, sendDailyPoem, startDailyPoemSchedule, weekdaysOf, easternNow, EDITIONS };
+module.exports = { assignDailyDate, assignMissingDailyDates, buildEmail, sendDailyPoem, startDailyPoemSchedule, weekdaysOf, easternNow, subscribers };
 
 // ---------- Command line ----------
 if (require.main === module) {
   require('dotenv').config({ path: require('path').join(__dirname, '.env') });
   const [cmd, ...rest] = process.argv.slice(2);
   const arg = rest.find(a => /^\d+$/.test(a));
-  const only = rest.find(a => EDITIONS.some(e => e.key === a));
-  const editions = only ? [editionOf(only)] : EDITIONS;
+  const to = rest.find(a => a.includes('@')) || testAddress();
   const pick = () => (arg
     ? db.prepare("SELECT * FROM poems WHERE poem_id = ? ORDER BY publication_date DESC LIMIT 1").get(Number(arg))
     : poemForDay(easternNow().date));
@@ -230,28 +236,23 @@ if (require.main === module) {
     if (cmd === 'schedule') {
       const rows = db.prepare('SELECT daily_date, poem_id, title FROM poems WHERE daily_date IS NOT NULL ORDER BY daily_date').all();
       if (!rows.length) console.log('No Daily InfoPOEM days assigned yet.');
-      for (const r of rows) {
-        const sent = EDITIONS.filter(e => wasSent(e, r.daily_date)).map(e => e.key).join('+');
-        console.log(`${r.daily_date}  ${(sent ? `sent ${sent}` : '').padEnd(12)}  #${r.poem_id}  ${r.title}`);
-      }
-      for (const e of EDITIONS) console.log(`${e.name} recipients: ${e.recipients().join(', ')}`);
+      for (const r of rows) console.log(`${r.daily_date}  ${(wasSent(r.daily_date) ? 'sent' : '').padEnd(5)}  #${r.poem_id}  ${r.title}`);
+      console.log(`Subscribers: ${subscribers().length}`);
       console.log(`Sending: ${sendingOn() ? 'on' : 'off (set DAILY_POEM_SENDING=on to send)'}`);
+      if (!postalAddress()) console.log('MAIL_POSTAL_ADDRESS is not set: the footer has no postal address.');
     } else if (cmd === 'send-test' || cmd === 'preview') {
       const row = pick();
       if (!row) { console.error(arg ? `No POEM number ${arg}.` : 'No POEM is assigned to today; give a POEM number.'); process.exit(1); }
-      for (const edition of editions) {
-        const email = buildEmail(row, row.daily_date || easternNow().date, edition);
-        if (cmd === 'preview') {
-          const file = edition.key === 'aafp' ? 'daily-poem-preview.html' : `daily-poem-preview-${edition.key}.html`;
-          require('fs').writeFileSync(file, email.html);
-          console.log(`Wrote ${file} (${edition.name}: ${email.subject})`);
-        } else {
-          await sendMail({ to: edition.recipients(), subject: `[Test] ${email.subject}`, html: email.html, text: email.text });
-          console.log(`Sent a test of "${row.title}" (${edition.name}) to ${edition.recipients().join(', ')}`);
-        }
+      const email = buildEmail(row, row.daily_date || easternNow().date);
+      if (cmd === 'preview') {
+        require('fs').writeFileSync('daily-poem-preview.html', email.html);
+        console.log(`Wrote daily-poem-preview.html (${email.subject})`);
+      } else {
+        await sendMail({ to, subject: `[Test] ${email.subject}`, html: email.html, text: email.text, headers: unsubscribeHeaders(unsubscribeUrl(null)) });
+        console.log(`Sent a test of "${row.title}" to ${to}`);
       }
     } else {
-      console.log('Usage: npm run daily-poem -- schedule | send-test [POEM number] [aafp|vh] | preview [POEM number] [aafp|vh]');
+      console.log('Usage: npm run daily-poem -- schedule | send-test [POEM number] [address] | preview [POEM number]');
     }
   })().catch(err => { console.error(err.message); process.exit(1); });
 }

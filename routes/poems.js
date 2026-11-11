@@ -122,7 +122,8 @@ router.put('/:id', requireEditor, (req, res) => {
   // Daily InfoPOEM: a POEM no longer Published, or moved to another month, gives up a day
   // it has not been sent on yet; a POEM now Published gets a day (daily-poem.js).
   if (existing.daily_date && (fields.status !== 'Published' || fields.publication_date !== existing.publication_date)
-      && !db.prepare('SELECT 1 FROM daily_sends WHERE send_date = ?').get(existing.daily_date)) {
+      && !db.prepare('SELECT 1 FROM daily_sends WHERE send_date = ?').get(existing.daily_date)
+      && !db.prepare('SELECT 1 FROM daily_recipient_sends WHERE send_date = ?').get(existing.daily_date)) {
     db.prepare('UPDATE poems SET daily_date = NULL WHERE id = ?').run(req.params.id);
   }
   assignDailyDate(req.params.id);

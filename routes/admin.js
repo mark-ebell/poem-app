@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const path = require('path');
 const fs = require('fs');
 const db = require('../db');
-const { requireEditor } = require('../auth');
+const { requireEditor, sendAccessGranted } = require('../auth');
 const { sanitizeHtml, pubmedUrlFor, generatePoemId, INITIALS_BY_POET } = require('../poem-model');
 const { buildSearchText } = require('../search');
 const { readBatch, supertypeCode } = require('../word-import');
@@ -237,6 +237,38 @@ router.post('/calculator/restore', requireAdmin, (req, res) => {
     return res.status(400).json({ error: err.message });
   }
   res.json({ ok: true, ...calcStatus() });
+});
+
+// ---------- Reader accounts (administrator) ----------
+// The readers, requests for full access first, with what each can use.
+router.get('/readers', requireAdmin, (req, res) => {
+  const rows = db.prepare(`
+    SELECT username, access, full_access_requested_at, access_request_note, email_verified, status, daily_email, created_at, last_login_at
+    FROM users WHERE role = 'reader'
+    ORDER BY (full_access_requested_at IS NOT NULL AND access <> 'full') DESC, full_access_requested_at, created_at DESC
+  `).all();
+  res.json({
+    readers: rows.map(r => ({
+      email: r.username, access: r.access, requestedAt: r.access === 'full' ? null : r.full_access_requested_at,
+      note: r.access === 'full' ? null : r.access_request_note, confirmed: !!r.email_verified, locked: r.status !== 'active',
+      dailyEmail: !!r.daily_email, createdAt: r.created_at, lastLoginAt: r.last_login_at
+    })),
+    subscribers: db.prepare("SELECT COUNT(*) AS n FROM users WHERE role = 'reader' AND email_verified = 1 AND status = 'active' AND daily_email = 1").get().n
+  });
+});
+
+// Gives a reader full access or the POEMs only. Body: { email, access: 'full'|'poems' }.
+// Either answers a pending request; full access is emailed to the reader.
+router.post('/readers/access', requireAdmin, (req, res) => {
+  const { email, access } = req.body || {};
+  if (!['full', 'poems'].includes(access)) return res.status(400).json({ error: 'Choose full or poems.' });
+  const user = db.prepare("SELECT * FROM users WHERE username = ? AND role = 'reader'").get(String(email || '').trim().toLowerCase());
+  if (!user) return res.status(404).json({ error: 'No reader has that email address.' });
+  db.prepare('UPDATE users SET access = ?, full_access_requested_at = NULL, access_request_note = NULL WHERE id = ?').run(access, user.id);
+  if (access === 'full' && user.access !== 'full') {
+    sendAccessGranted(user).catch(err => console.error('Email failed:', err.message));
+  }
+  res.json({ ok: true });
 });
 
 module.exports = router;

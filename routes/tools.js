@@ -9,14 +9,14 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const { requireAuth, requireEditor } = require('../auth');
+const { requireFullAccess, requireEditor } = require('../auth');
 const db = require('../db');
 const editable = require('../decision-tools/editable');
 const { quota } = require('../limits');
 const { pointsOf } = require('../decision-tools/lib');
 
 const router = express.Router();
-router.use(requireAuth);
+router.use(requireFullAccess); // not for readers with the POEMs only
 
 const DIR = path.join(__dirname, '..', 'decision-tools');
 let eeEvidence = {};

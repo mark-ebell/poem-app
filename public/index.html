@@ -29,12 +29,14 @@
         <p id="loginError" class="error-msg hidden"></p>
       </form>
       <p class="auth-links"><button type="button" class="link-btn" id="showForgot">Forgot password?</button></p>
-      <p class="auth-switch">New to InfoRetriever? <button type="button" class="link-btn" id="showSignup">Create an account</button></p>
+      <p class="auth-switch">New to InfoRetriever? <button type="button" class="link-btn" id="showSignup">Sign up for the free daily POEM</button><br>
+        <span class="auth-switch-more">Chapters, risk scores and calculators: <button type="button" class="link-btn" id="showRequestFull">Request full access</button></span></p>
     </div>
 
-    <!-- Create a reader account -->
+    <!-- Create a reader account: the daily POEM sign-up (/daily), or a request for full access -->
     <div id="signupView" class="auth-view hidden">
-      <p class="hint login-instructions">Create a free account to browse and search POEMs (Patient Oriented Evidence that Matters) and prepare Evidence Summaries.</p>
+      <p class="hint login-instructions signup-daily">Sign up for the Daily InfoPOEM: a free POEM (Patient Oriented Evidence that Matters) emailed to you every weekday. Your account also lets you search more than 8,000 POEMs.</p>
+      <p class="hint login-instructions signup-full hidden">Request full access to InfoRetriever: POEMs, textbook chapters, risk scores and diagnostic calculators. The InfoRetriever team reviews each request. Meanwhile you can search the POEMs and will receive the daily POEM by email.</p>
       <form id="signupForm">
         <label>Email address
           <input type="email" id="signupEmail" autocomplete="email" required maxlength="254">
@@ -46,12 +48,17 @@
         <label>Confirm password
           <input type="password" id="signupConfirm" autocomplete="new-password" required>
         </label>
+        <label class="signup-full hidden">About you <span class="optional">(optional: name, profession, where you practice)</span>
+          <textarea id="signupNote" rows="3" maxlength="500"></textarea>
+        </label>
         <label class="inline-check terms-check"><input type="checkbox" id="signupTerms"> <span data-i18n>I agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a>, including that I will not copy POEMs, chapters, risk scores, or any InfoRetriever content in bulk or use them to train AI systems.</span></label>
         <div id="turnstileBox" class="turnstile-box"></div>
-        <button type="submit" id="signupBtn">Create account</button>
+        <button type="submit" id="signupBtn"><span class="signup-daily">Sign up</span><span class="signup-full hidden">Request full access</span></button>
         <p id="signupError" class="error-msg hidden"></p>
       </form>
-      <p class="auth-switch">Already have an account? <button type="button" class="link-btn" id="showLoginFromSignup">Log in</button></p>
+      <p class="auth-switch">Already have an account? <button type="button" class="link-btn" id="showLoginFromSignup">Log in</button><br>
+        <span class="auth-switch-more signup-daily">Chapters, risk scores and calculators: <button type="button" class="link-btn" id="switchToFull">Request full access</button></span>
+        <span class="auth-switch-more signup-full hidden">Just the daily POEM? <button type="button" class="link-btn" id="switchToDaily">Sign up here</button></span></p>
     </div>
 
     <!-- Forgotten password -->
@@ -99,6 +106,9 @@
           <p id="whoAmI" class="user-menu-who"></p>
           <button type="button" id="searchHelpBtn" role="menuitem">Instructions for searching</button>
           <button type="button" id="settingsToggle" role="menuitem">Change password</button>
+          <label id="dailyEmailRow" class="menu-check hidden"><input type="checkbox" id="dailyEmailToggle"> Email me the daily POEM</label>
+          <button type="button" id="requestFullBtn" class="hidden" role="menuitem">Request full access</button>
+          <p id="fullRequested" class="user-menu-note hidden">Full access requested</p>
           <a href="about.html" data-about role="menuitem">About InfoRetriever</a>
           <a href="about-poems.html" data-about role="menuitem">About POEMs</a>
           <button type="button" id="logoutBtn" role="menuitem">Log out</button>
@@ -119,6 +129,20 @@
         <span id="settingsSaved" class="saved-msg hidden">Password updated.</span>
         <p id="settingsError" class="error-msg hidden"></p>
       </form>
+    </section>
+
+    <section id="requestFullPanel" class="card hidden">
+      <h2>Request full access</h2>
+      <p class="hint">Full access adds the textbook chapters, risk scores and diagnostic calculators to the POEMs. The InfoRetriever team reviews each request and will email you when yours is approved.</p>
+      <form id="requestFullForm">
+        <label>About you <span class="optional">(optional: name, profession, where you practice)</span>
+          <textarea id="requestFullNote" rows="3" maxlength="500"></textarea>
+        </label>
+        <button type="submit">Send request</button>
+        <button type="button" class="secondary" id="requestFullCancel">Cancel</button>
+        <p id="requestFullError" class="error-msg hidden"></p>
+      </form>
+      <p id="requestFullDone" class="notice hidden">Thank you. Your request has been sent; we will email you when it is approved.</p>
     </section>
 
     <nav class="tabs">
@@ -164,6 +188,11 @@
           <span id="wordStatus" class="hint"></span>
         </div>
         <div id="wordPreview"></div>
+      </details>
+
+      <details id="readerAdmin" class="card hidden">
+        <summary>Administrator: reader accounts</summary>
+        <div id="readerAdminBody"><p class="hint">Loading…</p></div>
       </details>
 
       <details id="calcUpload" class="card hidden">
