@@ -1,0 +1,38 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0715-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Initial management of systemic lupus erythematosus</title>
+<graphic href="eee0715-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Is the disease clinically unstable, or does it appear to have life-threatening complications?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Do the following organ systems have normal and stable function: renal, skin, joints, hematologic, pulmonary, cardiovascular, gastrointestinal, central nervous system?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Are the therapies being considered associated with significant toxicity?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>General treatment: patient education; analgesics as needed; NSAIDs as needed; topical steroids for rash; topical sunscreens (minimum sun protection factor 15).</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>If the patient has diminished quality of life (constitutional symptoms, inadequate analgesia, etc.), consider an antimalarial (eg, hydroxychloroquine 200-400 mg/day) or low-dose corticosteroid (not to exceed 10 mg/day prednisone or equivalent).</label>
+<path target="cell-6">Not controlled</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Refer to rheumatologist.</label>
+</cell>
+</algorithm>
+</algorithms>

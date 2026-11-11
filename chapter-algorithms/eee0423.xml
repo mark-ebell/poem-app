@@ -1,0 +1,35 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter's algorithm had no boxes. 2026-11. eee0423-w0001.gif is an older version and is not used. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0423-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Sideline Algorithm for Suspected Head Injury in Athletes</title>
+<graphic href="EE concussion table.GIF" />
+<cell type="start" id="cell-1">
+<label>Signs or symptoms of concussion. Abnormal neurologic examination?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Sideline concussion evaluation.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Interval reevaluation.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>24-48 hour rest.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Return to play protocol (Table 3).</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Consider advanced imaging per CT head and C-spine clinical decision tools.</label>
+</cell>
+</algorithm>
+</algorithms>

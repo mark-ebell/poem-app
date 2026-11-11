@@ -1,0 +1,57 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0575-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Evaluation of fever in infants up to 60 days of age</title>
+<graphic href="eee0575-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Evaluation of fever in infants up to 60 days of age. Focal infection?</label>
+<path target="cell-9">Focal infection</path>
+<path target="cell-2">No focal infection</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Well appearing (interactive, good perfusion, no respiratory distress or lethargy)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Age?</label>
+<path target="cell-4">22-60 days</path>
+<path target="cell-7">&lt;22 days</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Order lab studies: CBC, blood culture; UA and urine culture (catheterized or suprapubic tap). If not low risk (see Table 1), consider CSF culture and CSF studies. Additional studies if applicable: if tachypnea, CXR; if diarrhea, stool smear and culture.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>CSF pleocytosis? If CSF not obtained, is the infant &lt;29 days?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Secure follow-up within 12-24 hours (family and physician agreement)?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Obtain routine laboratory studies: complete blood count (CBC), blood culture; urinalysis (UA) and urine culture (catheterized or suprapubic tap); cerebrospinal fluid (CSF) culture and CSF studies (cell count, glucose, protein). Additional studies if applicable: if tachypnea, chest x-ray (CXR); if diarrhea, stool smear and culture. Give empiric antibiotics (Table 2). Hospitalize and observe until cultures remain negative for 24-36 hours. Consider herpes simplex virus for infants &lt;28 days.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Give empiric antibiotics (Table 2) and hospitalize until cultures are negative for 24-36 hours.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Treat focal infection.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Two options: (1) give IV/IM antibiotics (see Table 2) and observe at home, reassessing in 24 hours; or (2) give IV/IM antibiotics (see Table 2) and observe in the hospital.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Manage according to laboratory results, study results, and clinical course.</label>
+</cell>
+</algorithm>
+</algorithms>

@@ -1,0 +1,39 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0416-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Evaluation of suspected transverse myelitis (TM)</title>
+<graphic href="eee0416-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Myelopathy?</label>
+<path target="cell-4">No</path>
+<path target="cell-2">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>MRI of the spine at the level of injury to rule out compression.</label>
+<path target="cell-5">Compression present</path>
+<path target="cell-3">No compression</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Lumbar puncture.</label>
+<path target="cell-6">Infection present</path>
+<path target="cell-7">No infection, no evidence of connective tissue disease or hematologic malignancy</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Not TM.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Not TM; consult neurology and neurosurgery.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Not TM.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>TM possible; consult neurology if not done.</label>
+</cell>
+</algorithm>
+</algorithms>

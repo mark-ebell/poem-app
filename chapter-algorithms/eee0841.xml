@@ -1,0 +1,44 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0841-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Management of ventilator-associated pneumonia</title>
+<graphic href="eee0841-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Clinical suspicion of ventilator-associated pneumonia. Obtain lower respiratory tract cultures. Potential for multidrug-resistant (MDR) pathogens (see Table 2)?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Focused antibiotic therapy: ceftriaxone, levofloxacin, moxifloxacin, ampicillin/sulbactam, or ertapenem.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Broad-spectrum antibiotic therapy: antipseudomonal cephalosporin, carbapenem, or beta-lactam/beta-lactamase inhibitor, plus a fluoroquinolone or aminoglycoside, plus vancomycin or linezolid for MRSA.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Day 2 and 3: check cultures and assess clinical response (temperature, WBC, chest x-ray, purulent sputum, oxygenation, hemodynamic changes, and organ function). Clinical improvement at 48-72 hours?</label>
+<path target="cell-5">No; culture negative</path>
+<path target="cell-6">No; culture positive</path>
+<path target="cell-7">Yes; culture negative</path>
+<path target="cell-8">Yes; culture positive</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Search for other pathogens, complications, other sites of infection, or other diagnoses.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Adjust antibiotics. Search for other pathogens, complications, other sites of infection, or other diagnoses.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider stopping the antibiotics.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>De-escalate antibiotics if possible; treat for 7-8 days, except patients with Pseudomonas aeruginosa.</label>
+</cell>
+</algorithm>
+</algorithms>

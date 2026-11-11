@@ -1,0 +1,27 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0703-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Suggested treatment approach to the patient with osteoarthritis</title>
+<graphic href="eee0703-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>First-line treatments: full-dose acetaminophen, topical therapies, exercise, tai chi, knee taping, physical therapy.</label>
+<path target="cell-2">Not adequate</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Second-line treatments: nonsteroidal anti-inflammatory drugs.</label>
+<path target="cell-3">Not adequate</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Third-line treatments: tramadol or duloxetine (Cymbalta).</label>
+<path target="cell-4">Not adequate</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Fourth-line treatments: carefully supervised opiates (50 mg of hydrocodone or 30 mg of oxycodone per day or less); joint replacement in patients with moderate to severe pain and moderate to severe radiographic evidence of osteoarthritis.</label>
+</cell>
+</algorithm>
+</algorithms>

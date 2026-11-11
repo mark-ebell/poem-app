@@ -859,6 +859,52 @@
 <Guidelines />
 </Misc>
 </topic_text>
+<algorithm_group>
+<algorithm id="fig001">
+<meta>
+<id>eee0666-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Management of bronchiolitis in infants</title>
+<graphic href="eee0666-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>History, physical, and respiratory assessment. Toxic or in severe respiratory distress?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Suction, assess respiratory status, and start O2 if SaO2 is consistently 91% or less. Medication trial desired?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Single-dose trial with epinephrine or albuterol. If improved, consider repeated inhalations.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Manage without medications (nasal suctioning, oxygen, monitoring).</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Period of observation. Ready for discharge (RR &lt;70, room air, oral feedings, family can provide care and monitoring, follow-up scheduled)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Treat emergently.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Discharge home with parent education and primary care physician follow-up.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Monitor until ready for discharge, or admit. If admitted, consider cardiopulmonary monitoring, frequent respiratory and SaO2 checks, and suction before feeding and as needed.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Adapted from Evidence Based Clinical Practice Guideline for Infants with Bronchiolitis. 2006 Cincinnati Children's Hospital Medical Center. Page 7.</footnote>
+</footnotes>
+</algorithm>
+</algorithm_group>
 <feature_group>
 <feature id="table001">
 <caption>Indications for Palivizumab (Synagis).</caption>

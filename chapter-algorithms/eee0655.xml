@@ -1,0 +1,41 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0655-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Evaluation of the child with urinary tract infection for vesicoureteral reflux</title>
+<graphic href="eee0655-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Child with UTI. Over 2 years of age?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Sex?</label>
+<path target="cell-3">Female</path>
+<path target="cell-4">Male</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Febrile?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Antibiotics, ultrasound and/or DMSA scan. VCUG when infection is resolved. VCUG results?</label>
+<path target="cell-6">Normal</path>
+<path target="cell-7">Reflux</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Antibiotics and observation.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Routine care.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Urine cultures every 3-4 months; repeat VCUG every 2-3 years.</label>
+</cell>
+</algorithm>
+</algorithms>

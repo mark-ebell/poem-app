@@ -1,0 +1,42 @@
+<algorithms>
+<!-- Drawn from the figure image; the chapter had no algorithm. 2026-11. The image has the Yes/No arrows from "Penicillin allergic?" swapped; corrected here. -->
+<algorithm id="fig001">
+<meta>
+<id>eee0831-1</id>
+<supertype>AbCd</supertype>
+<last_update>2026-11-10</last_update>
+</meta>
+<title>Intrapartum antibiotic prophylaxis for group B streptococcus (GBS)</title>
+<graphic href="eee0831-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Positive GBS culture at 35-37 weeks' gestation. Penicillin allergic?</label>
+<path target="cell-4">No</path>
+<path target="cell-2">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>High risk for anaphylaxis?</label>
+<path target="cell-5">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>GBS resistant to clindamycin or erythromycin, or sensitivity unknown?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Penicillin G 5 million U load, then 2.5 million U every 4 hours, OR ampicillin 2 g IV load, then 1 g IV every 4 hours until delivery.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Cefazolin 2 g IV initial dose, then 1 g every 8 hours until delivery.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Vancomycin 1 g every 12 hours until delivery.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Check sensitivities and start clindamycin 900 mg IV every 8 hours until delivery OR erythromycin 500 mg every 6 hours until delivery.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Adapted from Morin CA, White K, Schuchat A, Danila RN, Lynfield R. Perinatal group B streptococcal disease prevention, Minnesota. Emerg Infect Dis. 2005;11:1467-9.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>
