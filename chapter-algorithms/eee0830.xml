@@ -1,0 +1,44 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>066</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Management of Posttraumatic Stress Disorder (PTSD) in the Primary Care Setting.<sup>a</sup>
+</title>
+<graphic href="eee0830-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient at increased risk for PTSD</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Administer brief PTSD screen.</label>
+<path target="cell-3">Negative</path>
+<path target="cell-4">Positive</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Routine care; consider rescreening in future if symptoms persist or worsen.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Structured interview by experienced clinician.</label>
+<path target="cell-3">Nondiagnostic</path>
+<path target="cell-5">Diagnosis of PTSD</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Provide primary care-based PTSD treatment: &#x2022; SSRI &#x2022; CBT or EMDR &#x2022; Collaborative care model if available &#x2022; Monitor response using longer symptoms scales.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Second-line treatments: &#x2022; Other antidepressants &#x2022; Anxiolytics &#x2022; Mood stabilizers &#x2022; Atypical antipsychotic &#x2022; Other psychotherapy.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider referral or hospitalization if: &#x2022; Patient preference &#x2022; Patient needs exceed current setting &#x2022; Suicidality &#x2022; Alcohol or other drug withdrawal.</label>
+</cell>
+<footnotes>
+<footnote>Cognitive behavioral therapy (CBT) has several variants that are empirically validated as effective treatments for PTSD (cognitive therapy, exposure-based therapy, and stress inoculation therapy). From Practice guidelines ID #5187, 6850, and 5954; also Foa EB, Keane TM, Friedman MJ, eds. <em>Effective Treatment for PTSD: Practice Guidelines from the International Society for Traumatic Stress Studies.</em> New York: Guilford Press; 2000.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

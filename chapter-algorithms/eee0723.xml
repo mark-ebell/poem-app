@@ -1,0 +1,60 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>076.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suspected <em>Staphylococcus aureus</em> SSTI: Management.</title>
+<graphic href="eee0723-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with "spider bite," pustular lesions, "boils" abscess (with tissue necrosis), cellulitis, impetigo, or infected wound.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Incise and drain abscess; if not performed, consider culture of draining wound, or aspirate or biopsy of central area of inflammation. Obtain culture and sensitivities (include "D-test" for clindamycin resistance if MRSA). Educate patient regarding infection control and wound care. Assess severity.</label>
+<path target="cell-3">Mild</path>
+<path target="cell-4">Moderate</path>
+<path target="cell-5">Severe or critically ill</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Afebrile, healthy other than SSTI.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Outpatient management: Local care, I&amp;D, &#x00B1; topical antibiotics may be sufficient; oral antibiotics effective; beta-lactam antibiotics preferred for MSSA; if increased suspicion for MRSA based on presence of &#x2265;1 risk factors, consider empiric therapy active against MRSA; adjust antibiotics based on results of culture &amp; susceptibility testing; monitor response to therapy.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Febrile, appears ill, but no unstable comorbidities.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Outpatient management: Low suspicion for MRSA; beta-lactam antibiotics preferred for MSSA; if increased suspicion for MRSA based on presence of &#x2265;1 risk factors, consider empiric therapy active against MRSA; adjust antibiotics based on results of culture &amp; susceptibility testing; monitor response to therapy.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Appears toxic, unstable comorbidity, or limb-threatening infection; sepsis syndrome or life-threatening infection (e.g., <resourceLink href="https://www.essentialevidenceplus.com/Home/Essential_Evidence_Topics?id=NzUw">necrotizing fasciitis</resourceLink>).</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Hospital management: Empiric broad-spectrum IV antibiotics including vancomycin for activity against <em>S. aureus</em> &amp; MRSA; adjust therapy based on results of culture &amp; susceptibility testing; monitor response to therapy; consult infectious disease specialist if no improvement or consider alternative agents (e.g., linezolid, daptomycin); switch to oral therapy based on susceptibility testing if: afebrile for 24 hours, clinically improved, able to take oral therapy, and close follow-up is possible.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Patient improves?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Done.</label>
+</cell>
+<footnotes>
+<footnote>MSSA: methicillin-susceptible <em>S. aureus</em></footnote>
+<footnote>MRSA: methicillin-resistant <em>S. aureus</em></footnote>
+<footnote>Beta-lactum antibiotics: include all penicillins &amp; cephalosporins</footnote>
+<footnote>SSTI: skin and soft-tissue infection</footnote>
+<footnote>Adapted from Dellit T, Duchin J, Hofmann J, Olson EG. Interim Guidelines for Evaluation &amp; Management of Community Associated Methicillin Resistant Staphylococcus aureus Skin and Soft Tissue Infections in Outpatient Settings. Washington State Department of Health. September 2, 2004. http:&#x002F;&#x002F;www.doh.wa.gov&#x002F;Topics&#x002F;Antibiotics&#x002F;providers.htm#mrsa<xref ref="web001" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

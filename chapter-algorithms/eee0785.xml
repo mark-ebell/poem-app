@@ -1,0 +1,65 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>251</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Abdominal Trauma, Blunt: Management.</title>
+<graphic href="eee0785-w0001.gif" />
+<cell type="decision" id="cell-2">
+<label>Extensive car damage, passenger space intruded by vehicle, or air bag deployment?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Perform FAST bedside ultrasound.</label>
+<path target="cell-5">Negative</path>
+<path target="cell-6">Positive</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Alert and oriented, normal vital signs, negative FAST, and normal AP pelvis (if ordered)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Conduct more thorough exam; abdominal tenderness or pain, "seatbelt sign" (bruise on the abdomen), or history of coagulopathy?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>CT abdomen pelvis with IV contrast and consider surgery consult.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider observing patient for 4 to 6 hours if there are concerning mechanisms; if patient remains stable, then discharge home.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Intubate and ventilate; IV fluids (adult at least 1-2 L NS bolus, pediatric NS bolus at 40 cc&#x002F;kg; type and cross O-negative blood blood).</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Call surgery to prepare the operating room; if patient is unstable, must go immediately to the OR.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Stable vitals?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Obtain CT abdomen&#x002F;pelvis with IV contrast and obtain surgery consult immediately.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>AP radiograph of pelvis.</label>
+<path target="cell-13">Positive</path>
+<path target="cell-4">Negative</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Obtain CT abdomen&#x002F;pelvis with IV contrast and inform interventional radiology to prepare for angiography.</label>
+</cell>
+<cell type="start" id="cell-1">
+<label>Patient with suspected blunt abdominal trauma: secure airway, breathing, circulation; IV access and fluid resuscitation; examine for other important injuries.</label>
+<path target="cell-2"></path>
+</cell>
+</algorithm>
+</algorithms>

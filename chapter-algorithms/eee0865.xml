@@ -1,0 +1,266 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>865</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Patients with Low Cardiovascular&#x002F;Congestive Heart Disease (CV&#x002F;CHD) Risk.</title>
+<graphic href="eee0865-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patients with low CV&#x002F;CHD risk (6 months after MI, PCI, BMS, CABG, stroke; 12 months if associated with complications) on aspirin therapy who require surgery.</label>
+<path target="cell-2"></path>
+<path target="cell-3"></path>
+<path target="cell-4"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Low Surgical Hemorrhagic Risk &#x2022; Peripheral&#x002F;plastic&#x002F;general surgery, biopsies; minor orthopedic, ENT, endoscopy; eye anterior chamber; dental (any type) &#x2022; Transfusion seldom required.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Proceed with elective surgery; maintain aspirin. <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Intermediate Surgical Hemorrhagic Risk &#x2022; Visceral; CV; Major orthopedic, ENT, reconstructive; endoscopic urologic &#x2022; Transfusion often required.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="action" id="cell-4">
+<label>High Surgical Hemorrhagic Risk &#x2022; Possible bleeding in closed space; intracranial neurosurgery; spinal canal surgery; eye posterior chamber surgery.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Proceed with elective surgery; maintain statin; withdraw aspirin (7 or fewer days prior) and resume 24 hours after surgery. <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Di Minno MN, Prisco D, Ruocco AL, et al. Perioperative handling of patients on antiplatelet therapy with need for surgery. <em>Intern Emerg Med</em> 2009;<strong>4</strong>:279&#x2013;288; updated 2022</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>865</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Patients with Intermediate Cardiovascular&#x002F;Congestive Heart Disease (CV&#x002F;CHD) Risk.</title>
+<graphic href="eee0865-w0002.gif" />
+<cell type="start" id="cell-7">
+<label>Patients with intermediate CV&#x002F;CHD risk (12 months after drug-eluting stent; low ejection fraction, diabetes, high-risk stents (long, proximal, multiple, overlapping, small vessels, bifurcation) who require surgery.</label>
+<path target="cell-8"></path>
+<path target="cell-9"></path>
+<path target="cell-10"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Low Surgical Hemorrhagic Risk &#x2022; Peripheral, plastic, general, biopsies; minor orthopedic, ENT, endoscopy; eye anterior chamber; dental (any type)&#x002F;facial &#x2022; Transfusion seldom required.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Proceed with elective surgery; maintain aspirin, stop P2Y<sub>12 </sub> agent: clopidogrel (5 days prior), ticagrelor (3-5 d), prasugrel (7 d); continue or stop DOAC (1d) <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Intermediate Surgical Hemorrhagic Risk &#x2022; Visceral; CV; Major orthopedic, ENT, reconstructive; endoscopic urology &#x2022; Transfusions often required.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Postpone elective surgery; proceed with necessary surgery; maintain aspirin, stop P2Y<sub>12 </sub> agent; stop DOAC (2 d). <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>High Surgical Hemorrhagic Risk &#x2022; Possible bleeding in a closed space; intracranial neurosurgery; spinal canal surgery; eye posterior chamber surgery.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Postpone elective surgery; proceed with necessary surgery; consider discontinuing aspirin; stop P2Y<sub>12 </sub> agent and DOAC. <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Di Minno MN, Prisco D, Ruocco AL, et al. Perioperative handling of patients on antiplatelet therapy with need for surgery. <em>Intern Emerg Med</em> 2009;<strong>4</strong>:279&#x2013;288, updated 2022</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig003">
+<meta>
+<id>865</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Patients with High Cardiovascular&#x002F;Congestive Heart Disease (CV&#x002F;CHD) Risk.</title>
+<graphic href="eee0865-w0003.gif" />
+<cell type="start" id="cell-14">
+<label>Patients with high CV&#x002F;CHD risk (6 weeks after MI, PCI, BMS, CABG; 6 months after same if complications; 12 months after high-risk drug-eluting stent; 2 weeks after stroke who require surgery.</label>
+<path target="cell-15"></path>
+<path target="cell-16"></path>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Low Surgical Hemorrhagic Risk &#x2022; Peripheral, plastic, general, biopsies; minor orthopedic, ENT, endoscopy; eye anterior chamber; dental extraction and surgery &#x2022; Transfusion seldom required.</label>
+<path target="cell-18"></path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Postpone elective surgery; proceed with vital or emergency surgery; maintain aspirin and clopidogrel. <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Intermediate Surgical Hemorrhagic Risk &#x2022; Visceral; CV; Major orthopedic, ENT, reconstructive; endoscopic urology &#x2022; Transfusion often required.</label>
+<path target="cell-19"></path>
+</cell>
+<cell type="action" id="cell-19">
+<label>Postpone elective surgery; proceed with vital or emergency surgery; maintain aspirin and clopidogrel. <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>High Surgical Hemorrhagic Risk &#x2022; Possible bleeding in closed space; intracranial neurosurgery; spinal canal surgery; eye posterior chamber surgery.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Proceed only with vital or emergency surgery; maintain aspirin; bridge with tirofiban&#x002F;eptifibatide (Aggrastat&#x002F;Integrilin) and heparin. <evidence rating="C" system="SORT">C</evidence>
+</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Di Minno MN, Prisco D, Ruocco AL, et al. Perioperative handling of patients on antiplatelet therapy with need for surgery. <em>Intern Emerg Med</em> 2009;<strong>4</strong>:279&#x2013;288.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig004">
+<meta>
+<id>865</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Vitamin K Antagonist Bridging.</title>
+<graphic href="eee0865-w0004.gif" />
+<cell type="start" id="cell-21">
+<label>Patient with required INR monitoring.</label>
+<path target="cell-22"></path>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Assess need for bridging anticoagulation (high thrombotic risk) with therapeutic-dose SC LMWH or IV UFH.</label>
+<path target="cell-24">Yes</path>
+<path target="cell-23">No</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Stop VKA approximately 5 days (at a minimum) before surgery to allow for INR to normalize (Grade 1B)? <evidence rating="B" system="SORT">B</evidence>
+</label>
+<path target="cell-25"></path>
+</cell>
+<cell type="action" id="cell-25">
+<label>If INR remains elevated (&#x2265;1.5) 1 to 2 days prior to surgery, administer low-dose oral vitamin K (1-2 mg) to normalize INR (Grade 2C).</label>
+<path target="cell-26"></path>
+</cell>
+<cell type="action" id="cell-26">
+<label>Resume VKAs approximately 12-24 hours after surgery when adequate hemostasis is achieved (Grade 1C).</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Proceed to <xref ref="fig005" />.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: INR, international normalized ratio; SC LMWH, subcutaneous low molecular weight heparin; intravenous UFH, intravenous unfractionated heparin; VKA, vitamin K antagonists.</footnote>
+<footnote>Adapted from Douketis JD, Berger PB, Dunn AS, et al. The perioperative management of antithrombotic therapy. American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition). <em>Chest</em> 2008;<strong>133</strong>(6 Suppl):299s&#x2013;339s.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig005">
+<meta>
+<id>865</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Patients with Mechanical Valves, Atrial-Fibrillation, or Venous Thromboembolism (VTE).</title>
+<graphic href="eee0865-w0005.gif" />
+<cell type="start" id="cell-27">
+<label>For patients with mechanical heart valves, atrial fibrillation, VTE.</label>
+<path target="cell-28"></path>
+<path target="cell-29"></path>
+<path target="cell-30"></path>
+</cell>
+<cell type="action" id="cell-28">
+<label>HIGH RISK for thromboembolism.</label>
+<path target="cell-31"></path>
+</cell>
+<cell type="action" id="cell-31">
+<label>Bridging anticoagulation with therapeutic-dose SC LMWH or IV UFH (SC LMWH preferred over IV UFH) (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-29">
+<label>MODERATE RISK for thromboembolism.</label>
+<path target="cell-32"></path>
+</cell>
+<cell type="action" id="cell-32">
+<label>Bridging anticoagulation with therapeutic-dose SC LMWH or IV UFH (SC LMWH preferred over IV UFH) or low-dose SC LMWH (Grade 2C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-30">
+<label>LOW RISK for thromboembolism.</label>
+<path target="cell-33"></path>
+</cell>
+<cell type="action" id="cell-33">
+<label>Low-dose SC LMWH or no bridging (Grade 2C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: SC LMWH, subcutaneous low molecular weight heparin; intravenous UFH, intravenous unfractionated heparin; VKA, vitamin K antagonists; VTE, venous thromboembolism.</footnote>
+<footnote>Adapted from Douketis JD, Berger PB, Dunn AS, et al. The perioperative management of antithrombotic therapy. American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition). <em>Chest</em> 2008;<strong>133</strong>(6 Suppl):299s&#x2013;339s.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig006">
+<meta>
+<id>865</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management of Patient Taking Aspirin and&#x002F;or P2Y<sub>12 </sub> Agent.</title>
+<graphic href="eee0865-w0006.gif" />
+<cell type="start" id="cell-34">
+<label>Patient taking aspirin and&#x002F;or clopidogrel.</label>
+<path target="cell-35"></path>
+<path target="cell-36"></path>
+<path target="cell-37"></path>
+<path target="cell-38"></path>
+<path target="cell-39"></path>
+<path target="cell-40"></path>
+</cell>
+<cell type="action" id="cell-35">
+<label>Not at high risk of cardiac event.</label>
+<path target="cell-41"></path>
+</cell>
+<cell type="action" id="cell-41">
+<label>Interruption of antiplatelet drugs (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-36">
+<label>At high risk of cardiac event (exclusive of coronary stents) scheduled for noncardiac surgery.</label>
+<path target="cell-42"></path>
+</cell>
+<cell type="action" id="cell-42">
+<label>Continue aspirin up to and beyond time of surgery (Grade 2C, <evidence rating="C" system="SORT">C</evidence> ) Interruption of clopidogrel at least 5 days and preferably 10 days prior to surgery (Grade 2C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-37">
+<label>Scheduled for CABG.</label>
+<path target="cell-43"></path>
+</cell>
+<cell type="action" id="cell-43">
+<label>Continue aspirin up to and beyond time of surgery and restart 6-48 hours after surgery (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ) Interruption of clopidogrel at least 5 days and preferably 10 days prior to surgery (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-38">
+<label>Scheduled for PCI.</label>
+<path target="cell-44"></path>
+</cell>
+<cell type="action" id="cell-44">
+<label>Continue aspirin up to and beyond time of surgery (Grade 2C) If clopidogrel is interrupted prior to PCI, recommend resuming with loading dose of 300-600 mg (Grade 2C).</label>
+</cell>
+<cell type="action" id="cell-39">
+<label>Bare metal coronary stent placement within 6 weeks of surgery.</label>
+<path target="cell-45"></path>
+</cell>
+<cell type="action" id="cell-45">
+<label>Continue aspirin and clopidogrel in the perioperative period (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<cell type="action" id="cell-40">
+<label>Drug-eluting coronary stent placement within 12 months of surgery.</label>
+<path target="cell-46"></path>
+</cell>
+<cell type="action" id="cell-46">
+<label>Continue aspirin and clopidogrel in the perioperative period (Grade 1C, <evidence rating="C" system="SORT">C</evidence> ).</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: CABG, coronary artery bypass graft; PCI, percutaneous intervention.</footnote>
+<footnote>Adapted from Douketis JD, Berger PB, Dunn AS, et al. The perioperative management of antithrombotic therapy. American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition). <em>Chest</em> 2008;<strong>133</strong>(6 Suppl):299s&#x2013;339s.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

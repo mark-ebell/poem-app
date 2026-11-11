@@ -1,0 +1,40 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>298.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Onychomycosis: Management.</title>
+<graphic href="eee0752-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected onychomycosis: abnormal toenails or fingernails (abnormal color, thickened nail, onycholysis, whitish crumbly areas). Examine nail scrapings with direct microscopy of KOH preparation and&#x002F;or fungal culture.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>White superficial onychomycosis or &lt;50&#x0025; of nail plate surface and no matrix involvement?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Ciclopirox 8&#x0025; lacquer or amorolfine 5&#x0025; lacquer. Treatment success?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Done. Follow-up as needed.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Dermatophyte infection?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Terbinafine (dosing in <xref ref="table001" />).</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Itraconazole (dosing in <xref ref="table001" />).</label>
+</cell>
+</algorithm>
+</algorithms>

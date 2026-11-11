@@ -1,0 +1,41 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>299.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Tinea Versicolor: Management.</title>
+<graphic href="eee0772-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Hypopigmented, light brown or salmon-colored macules with scaling: suspicious for tinea versicolor. Diagnostic confirmation required?</label>
+<path target="cell-2">Empiric therapy</path>
+<path target="cell-3">Diagnostic testing</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Localized lesions?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Topical antifungals (eg, azole, allylamine, ciclopirox, or selenium sulfide).</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>If recurrent lesions, consider prophylactic oral antifungals (eg, itraconazole 200 mg orally twice a day 1 day per month).</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Widespread lesions: consider oral antifungal (fluconazole, ketoconazole, or itraconazole).</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Perform microscopic KOH using scalpel blade or vinyl tape sampling, or Wood's lamp fluorescence pale yellow to white.</label>
+<path target="cell-2">Positive</path>
+<path target="cell-7">Negative</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider other diagnoses (eg, pityriasis rosea, vitiligo, tuberous sclerosis, seborrhea, secondary syphilis, leprosy).</label>
+</cell>
+</algorithm>
+</algorithms>

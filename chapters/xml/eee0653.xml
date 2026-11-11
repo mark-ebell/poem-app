@@ -478,23 +478,28 @@
 <graphic href="eee0653-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Urinary retention</label>
-<path target="cell-2"> Male </path>
-<path target="cell-3"> Female </path>
+<path target="cell-2">Male</path>
+<path target="cell-3">Female</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Acute retention?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Evaluate for benign prostatic hypertrophy, cancer, neurogenic cause.</label>
 </cell>
 <cell type="action" id="cell-5">
 <label>Catheterize and decompress.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Evaluate for infection, postoperative complication, mass, trauma, physical obstruction, benign prostatic hyperplasia.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Acute retention?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Evaluate for malignancy, infection, neurogenic cause.</label>

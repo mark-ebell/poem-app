@@ -1,0 +1,33 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title> Necrotizing Fasciitis: Management.</title>
+<graphic href="eee0750-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Cellulitis with associated pain out of proportion to the severity of the lesion, signs of systemic toxicity (hypotension, tachycardia, and hyperthermia), bullae, patches of cutaneous necrosis, or tissue crepitus?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Continued high clinical suspicion for NF in patients with edema of the limb, induration, purulence, or fluctuance?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Treat cellulitis. If it worsens recalculate LRINEC score, measure transcutaneous O<sub>2</sub> saturation, and consider imaging.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Order CBC, chemistries, and CRP and calculate LRINEC score (<xref ref="table002" />). Consider transcutaneous oxygen saturation, if available. Consider imaging (CT, MRI or ultrasound) if diagnostic uncertainty. Is LRINEC &#x003D; 6, oxygen saturation &lt;70&#x0025;, and&#x002F;or imaging suggestive of NF?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Emergent surgical referral to evaluate for NF. May need imaging (ie, MRI, CT, ultrasound, radiographs) to determine depth of involvement. Empirically start broad-spectrum antibiotics (eg, ampicillin&#x002F;gentamicin&#x002F; clindamycin), IV fluids, and nutritional support.</label>
+</cell>
+</algorithm>
+</algorithms>

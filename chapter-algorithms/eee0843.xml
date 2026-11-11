@@ -1,0 +1,93 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>234.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Management: Wrist Fracture in Adults.</title>
+<graphic href="eee0843-fig001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with wrist injury</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Neurovascular compromise? Open fracture? Compartment syndrome?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Urgent orthopedic evaluation.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Obtain radiographs.</label>
+<path target="cell-5">Distal radial fracture</path>
+<path target="cell-15">Proximal pole or displaced scaphoid fracture</path>
+<path target="cell-16">Nondisplaced scaphoid fracture</path>
+<path target="cell-7">Radiographs negative</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Unstable fracture; volarly displaced distal radius fracture; fracture of the distal radial articular rim; associated with carpal dislocation; fracture of the radial styloid; articular step off &gt;2 mm; associated with other fractures; or high functional requirement?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Stable displaced extraarticular fracture?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Closed reduction and immobilization in short arm cast.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Repeat radiographs at 1 and 2 weeks: Have the fracture segments displaced?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Immobilize and refer to orthopedics.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Keep immobilized for a total of 5-6 weeks.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Nondisplaced extra articular fracture?</label>
+<path target="cell-14">Yes</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Immobilize in short arm cast.</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Immobilize and refer to orthopedics.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Short arm thumb spica cast.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Check CT in 6 weeks: Has fracture healed?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Discontinue cast.</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Keep immobilized in the cast for another 6 weeks.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>High suspicion for distal radius or scaphoid fracture?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Either place the wrist in a cast and repeat radiographs in 10-14 days or obtain an immediate MRI.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>RICE (rest, ice, compression, elevation), antiinflammatory medications.</label>
+</cell>
+</algorithm>
+</algorithms>

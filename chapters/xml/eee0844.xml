@@ -656,12 +656,13 @@
 <graphic href="eee0844-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Vomiting infant &gt;3 months old</label>
-<path target="cell-2"> Bilious vomiting </path>
-<path target="cell-3"> Intermittent vomiting </path>
-<path target="cell-4"> Nonbilious, projectile vomiting </path>
+<path target="cell-2">Bilious vomiting</path>
+<path target="cell-3">Intermittent vomiting</path>
+<path target="cell-4">Nonbilious, projectile vomiting</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Consider sepsis, obstruction (midgut volvulus, left-sided microcolon, meconium plug syndrome), or colostrum regurgitation.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Order abdominal X ray; consider upper GI with contrast and fluoroscopy.</label>
@@ -671,12 +672,16 @@
 </cell>
 <cell type="decision" id="cell-4">
 <label>Nasogastric tube decompression; palpable olive?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Give IV fluids and perform pyloromyotomy.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Abdominal ultrasound.</label>
+<path target="cell-6">Pyloric wall &gt;3-4 mm thick or &gt;18 mm long</path>
+<path target="cell-8">Not consistent with pyloric stenosis</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Reassess and consider upper GI.</label>

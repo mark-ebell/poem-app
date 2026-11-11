@@ -1013,44 +1013,74 @@
 <graphic href="eee0626-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected dysthymia or patient eligible for routine screening. Screen for dysthymia&#x002F;depression symptoms using a validated screening tool Rule 244.</label>
-<path target="cell-2"> Positive </path>
-<path target="cell-3"> Negative </path>
+<path target="cell-3">Negative</path>
+<path target="cell-2">Positive</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Confirm dysthymia and rule out major depression with interview using DSM-5 criteria.</label>
+<path target="cell-4">Dysthymia diagnosed, major depression ruled out</path>
+<path target="cell-5">Major depression criteria met</path>
+<path target="cell-3">Neither dysthymia nor major depression criteria met</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Initiate new (or adjust&#x002F;augment existing) medication &#x00B1; psychotherapy treatment (see <xref ref="table001" /> and <resourceLink href="info:wiley/eep-eee/624">Depression</resourceLink> chapter).</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Follow up every 1-4 weeks. Worsened symptoms or treatment side effects?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Assess efficacy at 4-8 weeks. Dysthymia remitted?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>&#x003E;4 months since remission at effective dose&#x002F;intensity?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Continuing prior effective treatment (see <xref ref="table002" />)?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Follow up at least every 3 months. Recurrent symptoms or treatment side effects?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-19">No</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Treatment Termination &#x2022; Taper medications over several weeks &#x2022; Monitor for antidepressant discontinuation syndrome (mood, energy, sleep and appetite changes) &#x2022; Stop psychotherapy as appropriate for method used &#x2022; Educate patients about risk of recurrence; make contingency plan to reestablish treatment &#x2022; Monitor for relapse of dysthymia.</label>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Follow up every 1-3 months. Relapsed symptoms or treatment side effects?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-18">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Suicidality, life-threatening behavior, or severe functional impairment?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Consider major depression (see<resourceLink href="info:wiley/eep-eee/624"> Depression</resourceLink> chapter).</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Consider other DSM-5 diagnoses or general medical conditions.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider consultation and hospitalization.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Initiate new or adjust/augment existing medication ± psychotherapy (above).</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Continue treatment and reassess time since remission (above).</label>
+</cell>
+<cell type="action" id="cell-19">
+<label>Continue prior effective treatment (above).</label>
 </cell>
 </algorithm>
 </algorithm_group>

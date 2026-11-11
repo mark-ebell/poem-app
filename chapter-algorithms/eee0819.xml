@@ -1,0 +1,54 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title> Management of Patient with Pneumothorax (PTX).</title>
+<graphic href="eee0819-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with pneumothorax (PTX). Give oxygen and assess severity. Small PTX and stable patient?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Primary PTX?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Observation.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Large PTX or unstable patient. Primary or secondary PTX?</label>
+<path target="cell-5">Primary</path>
+<path target="cell-6">Secondary</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Aspiration or small-bore chest tube.*</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Chest tube.*</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Air leak present?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Continue to monitor for 4 days; if not resolved, proceed to surgical intervention.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Remove chest tube, with or without clamp tube before removal.</label>
+</cell>
+<footnotes>
+<footnote>*If chest tube, connect to water seal with or without suction.</footnote>
+<footnote>Adapted from Baumann M. Management of spontaneous pneumothorax. <em>Clin Chest Med</em> 2006;<strong>27</strong>:369-381.<xref ref="pubmed16716824" resource="acc001" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

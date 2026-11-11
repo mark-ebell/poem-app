@@ -696,17 +696,23 @@
 <graphic href="eee0705-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Polyarticular arthritis. Complete history and physical. Specific clinical diagnosis suspected?</label>
-<path target="cell-2"> No; diagnosis unclear </path>
-<path target="cell-3"> Yes </path>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Synovitis present? Can aspirate joint if unsure.</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Acute versus chronic?</label>
+<path target="cell-7">Acute</path>
+<path target="cell-6">Chronic</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Lumbosacral involvement?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider rheumatoid arthritis, systemic lupus erythematosus or other rheumatologic etiologies (see <xref ref="table001" />).</label>
@@ -718,7 +724,7 @@
 <label>Consider viral arthritis, postviral syndrome, early rheumatic disease (see <xref ref="table001" />).</label>
 </cell>
 <cell type="action" id="cell-5">
-<label>Consider osteoarthritis, fibromyalgia, polymyalgia rheumatic (see <xref ref="table001" />).</label>
+<label>Consider osteoarthritis, fibromyalgia, polymyalgia rheumatica (see <xref ref="table001" />).</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Consider appropriate confirmatory tests (see <xref ref="table001" />).</label>

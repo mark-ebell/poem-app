@@ -304,24 +304,33 @@
 <graphic href="eee0637-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with acute renal failure and suspected acute interstitial nephritis</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Stop all potential offending medications, monitor renal function and clinical status over 4-7 days</label>
+<path target="cell-3">BUN/Cr recovers</path>
+<path target="cell-4">No improvement or worsening of BUN/Cr</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Continue supportive care, and document hypersensitivity reaction</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Obtain renal biopsy</label>
+<path target="cell-7">Diagnosis of AIN</path>
+<path target="cell-5">Other diagnosis</path>
+<path target="cell-6">Patient refusal or unstable</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Treat alternate diagnosis</label>
 </cell>
 <cell type="action" id="cell-6">
 <label>Consider gallium scan and&#x002F;or empiric treatment</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Start prednisone at 1 mg&#x002F;kg&#x002F;day</label>
+<path target="cell-8">BUN/Cr recovers</path>
+<path target="cell-9">No improvement or worsening of BUN/Cr</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Continue at same dose for 1-2 weeks, then taper over 4-8 weeks</label>

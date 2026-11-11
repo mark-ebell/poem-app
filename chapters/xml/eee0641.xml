@@ -763,18 +763,27 @@
 </cell>
 <cell type="decision" id="cell-26">
 <label>Clots present?</label>
+<path target="cell-29">No clot or unshaped clot</path>
+<path target="cell-43">Shaped vermiform (worm-like) clots</path>
 </cell>
 <cell type="decision" id="cell-29">
 <label>Cystoscopy.</label>
+<path target="cell-32">Positive</path>
+<path target="cell-33">Negative</path>
 </cell>
 <cell type="action" id="cell-32">
 <label>Treat cause.</label>
 </cell>
 <cell type="decision" id="cell-33">
 <label>Upper tract imaging (urography or abdominal CT) and cytology.</label>
+<path target="cell-32">Abnormal</path>
+<path target="cell-36">Normal</path>
 </cell>
 <cell type="decision" id="cell-36">
 <label>Continuation of hematuria?</label>
+<path target="cell-42">Microscopic</path>
+<path target="cell-41">Gross</path>
+<path target="cell-40">Normal</path>
 </cell>
 <cell type="action" id="cell-40">
 <label>No further urologic monitoring.</label>
@@ -787,36 +796,54 @@
 </cell>
 <cell type="decision" id="cell-43">
 <label>Upper tract imaging.</label>
+<path target="cell-46">Abnormal</path>
+<path target="cell-47">Normal</path>
 </cell>
 <cell type="action" id="cell-46">
 <label>Treat cause.</label>
 </cell>
 <cell type="decision" id="cell-47">
 <label>Cystoscopy and cytology.</label>
+<path target="cell-46">Abnormal</path>
+<path target="cell-36">Normal</path>
 </cell>
 <cell type="decision" id="cell-25">
 <label>Type of pain?</label>
+<path target="cell-52">Colicky flank pain</path>
+<path target="cell-62">Suprapubic pain and/or irritative bladder symptoms</path>
 </cell>
 <cell type="decision" id="cell-52">
 <label>Plain abdominal film and renal ultrasound.</label>
+<path target="cell-55">Abnormal</path>
+<path target="cell-56">Normal</path>
 </cell>
 <cell type="action" id="cell-55">
 <label>Treat cause according to diagnosis.</label>
 </cell>
 <cell type="decision" id="cell-56">
 <label>Upper tract imaging (urography or abdominal CT).</label>
+<path target="cell-55">Abnormal</path>
+<path target="cell-59">Normal</path>
 </cell>
 <cell type="decision" id="cell-59">
 <label>Continuation of hematuria?</label>
+<path target="cell-42">Microscopic</path>
+<path target="cell-41">Gross</path>
+<path target="cell-69">Normal</path>
 </cell>
 <cell type="decision" id="cell-62">
 <label>UA and urine culture.</label>
+<path target="cell-65">Abnormal</path>
+<path target="cell-70">Normal</path>
 </cell>
 <cell type="action" id="cell-65">
 <label>Treat cause.</label>
+<path target="cell-66"></path>
 </cell>
 <cell type="decision" id="cell-66">
 <label>Check with UA after treatment.</label>
+<path target="cell-70">Abnormal</path>
+<path target="cell-69">Normal</path>
 </cell>
 <cell type="action" id="cell-69">
 <label>No further urologic monitoring.</label>

@@ -1248,29 +1248,40 @@
 <graphic href="eee0839-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected upper GI bleeding (hematemesis or blood&#x002F;coffee grounds in NG aspiration). Initial clinical assessment, initial resuscitation and stabilization, assessment of mortality risk.</label>
-<path target="cell-2"> No</path>
-<path target="cell-3"> Yes</path>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Assess risk of rebleeding.</label>
+<path target="cell-4">High risk</path>
+<path target="cell-5">Low risk</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>See &#x201C;GI bleed (variceal),&#x201D; <xref ref="fig001" />.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>ICU admission urgent&#x002F;emergent endoscopy.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Ward admission or hold in ER.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Endoscopy.</label>
+<path target="cell-7">Esophageal or gastric varices</path>
+<path target="cell-8">Ulcer</path>
+<path target="cell-9">Erosive esophagitis</path>
+<path target="cell-10">AVM</path>
+<path target="cell-11">No source found</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>See &#x201C;GI bleed (variceal),&#x201D; <xref ref="fig001" />.</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Electrocautery or injection therapy and IV proton pump inhibitors. Successful?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Oral proton pump inhibitor, HP eradication, and close follow-up.</label>

@@ -495,7 +495,7 @@
 <path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-55">
-<label>See Table 1.</label>
+<label>See <xref ref="table001" />.</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Follow secondary amenorrhea flowchart.</label>
@@ -528,7 +528,7 @@
 <path target="cell-27">Low FSH/LH</path>
 </cell>
 <cell type="action" id="cell-21">
-<label>Hypergonadotropic hypogonadism.</label>
+<label>Hypergonadotropic hypogonadism (see <xref ref="table001" />).</label>
 <path target="cell-22"></path>
 </cell>
 <cell type="decision" id="cell-22">
@@ -543,7 +543,7 @@
 <label>Premature ovarian failure.</label>
 </cell>
 <cell type="action" id="cell-27">
-<label>Hypogonadotropic hypogonadism (see Table 1).</label>
+<label>Hypogonadotropic hypogonadism (see <xref ref="table001" />).</label>
 </cell>
 <footnotes>
 <footnote>Abbreviations: FSH, follicle-stimulating hormone; LH, leuteinizing hormone.</footnote>

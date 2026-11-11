@@ -408,10 +408,12 @@
 <cell type="start" id="cell-1">
 <label>Simple cyst (no septa) or minimally complex cyst (1 or 2 hairline thin septa) on initial imaging (usually ultrasound)?</label>
 <path target="cell-2">Yes</path>
-<path target="cell-3">No (ie, more complex cyst)</path>
+<path target="cell-3">No (more complex cyst)</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Symptomatic?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>No follow-up required.</label>
@@ -421,6 +423,9 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Bosniak category on CT&#x002F;MRI.</label>
+<path target="cell-2">Bosniak I or II</path>
+<path target="cell-6">Bosniak IIF</path>
+<path target="cell-7">Bosniak III or IV</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Follow-up with additional imaging.</label>

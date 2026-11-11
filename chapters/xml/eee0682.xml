@@ -1216,24 +1216,32 @@
 <graphic href="eee0682-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspected diagnosis of pneumonia: hypoxemia, fever, cough, purulent sputum, leukocytosis</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Suspect aspiration pneumonia: patient at risk for aspiration and&#x002F;or pulmonary infiltrates in gravity-dependent areas.</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Candidate for outpatient treatment?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>(1) Amoxicillin-clavulanate for 7-10 days OR (2) Clindamycin for 7-10 days.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Prevent further aspiration events: refer to speech-language pathologist; if dysphagia, perform video swallow exam or fiberoptic endoscopic evaluation of swallowing and modify diet based on results.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Defer oral feeding in patients with decreased level of consciousness. Encourage strict oral health care in elderly and in intubated patients, and remove devices such as endotracheal tubes and feeding tubes as possible. Elevate head of bed to &#x003E;30&#x00B0;.</label>
 </cell>
 <cell type="action" id="cell-6">
 <label>(1) Respiratory fluoroquinolone for 7-10 days OR (2) B-lactamase inhibitor plus a macrolide OR amoxicillin-clavulanate for 7-10 days (ICU treatment: B-lactam plus fluoroquinolone).</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Treat as nonaspiration pneumonia (community acquired or health care associated).</label>

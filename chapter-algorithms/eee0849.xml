@@ -1,0 +1,66 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>162.4</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Kawasaki Disease: Management.</title>
+<graphic href="eee0849-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Fever for &#x2265;5 days; assess patient for features of Kawasaki disease (<xref ref="table001" />).</label>
+<path target="cell-2">Fewer than 2 criteria</path>
+<path target="cell-3">2 or 3 criteria present</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Consider other diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Principal laboratory results (<xref ref="table002" />) consistent with systemic inflammation.</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>3 or more supplemental laboratory criteria (<xref ref="table002" />) present.</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Treat patient and order echocardiogram.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Echocardiogram.</label>
+<path target="cell-8">Positive</path>
+<path target="cell-9">Negative</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Treat patient.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Repeat echocardiogram if fever persists; if fever resolves, consider other diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Daily followup.</label>
+<path target="cell-13">Fever persists</path>
+<path target="cell-10">Fever resolves</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Assess for peeling typical of KD.</label>
+<path target="cell-11">Present</path>
+<path target="cell-12">Absent</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Echocardiogram.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>No further followup needed.</label>
+</cell>
+<cell type="action" id="cell-13">
+<label>Reassess for features of Kawasaki disease (above).</label>
+</cell>
+<footnotes>
+<footnote>Data from American Heart Association. Diagnosis, treatment, and long-term management of Kawasaki disease: a statement for health professionals from the Committee on Rheumatic Fever, Endocarditis and Kawasaki Disease, Council on Cardiovascular Disease in the Young. 2004. [http:&#x002F;&#x002F;www.guidelines.gov&#x002F;summary&#x002F;summary.aspx?view&#x005F;id&#x003D;1&amp;doc&#x005F;id&#x003D;6180].</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

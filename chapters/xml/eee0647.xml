@@ -400,51 +400,75 @@
 <graphic href="eee0647-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Proteinuria</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Is the patient diabetic?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Does the patient have HTN&#x002F;CVD?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Is the patient &gt;60 years old?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Stop, no workup indicated.</label>
 </cell>
 <cell type="action" id="cell-6">
 <label>Check urine dipstick.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Is dipstick positive?</label>
+<path target="cell-7">No</path>
+<path target="cell-13">Trace to 2+</path>
+<path target="cell-16">3+ to 4+</path>
+<path target="cell-21">Urine microscopy suggests severe renal damage (see table)</path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Recheck urine dipstick in 1 month.</label>
+<path target="cell-14">Negative</path>
+<path target="cell-15">Positive</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Transient proteinuria.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Persistent proteinuria.</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Check 24-hr urine protein OR protein&#x002F;creatinine ratio &amp; BUN &amp; serum creatinine.</label>
+<path target="cell-17"></path>
 </cell>
-<cell type="action" id="cell-17">
+<cell type="decision" id="cell-17">
 <label>Is patient pregnant?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-18">No</path>
 </cell>
 <cell type="decision" id="cell-18">
 <label>Abnormal BUN&#x002F;creatinine, protein &gt;3 g&#x002F;24 hr, or &gt;30 years old?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-20">No</path>
 </cell>
 <cell type="decision" id="cell-20">
 <label>Check split urine test.</label>
+<path target="cell-23"></path>
 </cell>
 <cell type="action" id="cell-24">
 <label>Orthostatic proteinuria. Reassure patient, check BP and UA every 1-2 yr.</label>
 </cell>
-<cell type="action" id="cell-23">
+<cell type="decision" id="cell-23">
 <label>Overnight 8-hr urine protein &gt;50 mg?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-24">No</path>
 </cell>
 <cell type="action" id="cell-21">
 <label>Nephrology consult. Additional labwork (CBC, total protein, albumin, protein electrophoresis), Renal ultrasound.</label>

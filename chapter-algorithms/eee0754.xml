@@ -1,0 +1,46 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>253</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Paronychia: Management.</title>
+<graphic href="eee0754-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Infection&#x002F;inflammation of the lateral and&#x002F;or proximal nail folds. Duration?</label>
+<path target="cell-2">6 weeks or less</path>
+<path target="cell-3">More than 6 weeks</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Acute paronychia likely: swollen, erythematous, tender nail fold, possible fluctuance and warmth.</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Common organisms include <em>Staphylococcus</em>
+<em>aureus</em> (most often), streptococci, <em>Pseudomonas</em>
+<em>aeruginosa</em>, and anaerobes such as Bacteroides.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Conservative treatment with warm soaks or compresses. Consider antibiotics (clindamycin, amoxicillin&#x002F;clavulanate). Surgical incision and drainage if fluctuance is noted, rarely removal of nail plate for adequate drainage.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider other diagnoses.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Chronic paronychia likely: swollen, tender, some erythema, induration, nail plate thickened and discolored, no or minimal fluctuance.</label>
+<path target="cell-7">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Common organisms include <em>Candida albicans</em> (most often), atypical mycobacteria, and Gram-negative rods. Significance of organism unknown.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Avoid irritants, wear cotton gloves under vinyl or nitrile gloves when exposed to water. Topical steroids with oral (ie, griseofulvin) or topical (ie, nystatin) antifungals. Consider eponychial marsupialization or en bloc resection of the affected nail fold with or without removal of the nail plate.</label>
+</cell>
+</algorithm>
+</algorithms>

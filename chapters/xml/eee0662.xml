@@ -1554,24 +1554,36 @@
 <graphic href="eee0662-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Assess severity of attack (mild, moderate, or severe), then give nebulized or aerosol beta-2 agonist in multiple doses or continuously.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Response?</label>
+<path target="cell-3">Good (PEF ≥80%)</path>
+<path target="cell-4">Incomplete (PEF 50%-79%)</path>
+<path target="cell-5">Poor (PEF &lt;50%)</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Arrange follow up; maintains response 60 minutes after last treatment; normal physical exam; consider oral steroids.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Reassess. Improved?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Discharge home; continue treatment with inhaled SABA; consider oral steroids; inhaled corticosteroid; patient education; schedule follow-up appt 1-4 weeks.</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Consider admission to ward; oxygen; continue inhaled SABA + ipratropium bromide; oral or IV steroids; monitor vital signs, FEV1, SaO<sub>2</sub>.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>PEF &#x2264;50&#x0025; predicted, pCO<sub>2</sub> &#x2265;42 mm Hg, drowsiness or confusion: admit to MICU; O<sub>2</sub>; inhaled SABA hourly or continuously; consider adjunctive treatment; consider intubation and mechanical ventilation.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Treat as for a poor response (above): admit to MICU.</label>
 </cell>
 <footnotes>
 <footnote>PEF, peak expiratory flow; SABA, short-acting beta agonist.</footnote>

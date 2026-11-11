@@ -635,28 +635,36 @@
 <graphic href="eee0706-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Older adult with abrupt onset of shoulder or pelvic girdle pain; ESR &gt;30 mm&#x002F;h or CRP &gt;6 mg&#x002F;dL?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Any evidence of RA, inflammatory arthritis, or malignant neoplasm?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Any evidence of muscle disease, neurologic disorders (Parkinson's), or pain syndromes (fibromyalgia)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Any evidence of temporal arteritis or giant cell arteritis (TA)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Probable PMR; improves with corticosteroids?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>PMR very likely; long-term, low-dose corticosteroids with gradual tapering over months to years.</label>
 </cell>
-<cell type="decision" id="cell-7">
+<cell type="action" id="cell-7">
 <label>High-dose steroids and temporal artery biopsy.</label>
 </cell>
-<cell type="decision" id="cell-3">
+<cell type="action" id="cell-3">
 <label>Consider other cause or coexisting conditions such as depression, osteoarthritis, or other degenerative conditions of the spine, shoulders, and hips.</label>
 </cell>
 <footnotes>

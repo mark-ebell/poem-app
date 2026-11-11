@@ -565,17 +565,20 @@
 <graphic href="eee0817-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>NMS suspected: fever, altered mental status, muscle rigidity, diaphoresis, tremor, and&#x002F;or unstable vitals in patient at risk (history of psychosis or Parkinson's, neuroleptic or dopamine agonist use)?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
-<cell type="action" id="cell-2">
+<cell type="decision" id="cell-2">
 <label>Discontinue neuroleptic and order CPK, aldolase, CBC, electrolytes, BUN, serum creatinine, TSH, calcium, magnesium, and blood cultures. NMS likely (elevated CK, no other diagnoses likely)?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Consider other diagnoses, e.g., sepsis, infection, other drug reaction, thyrotoxicosis, delirium tremens, CNS disease.</label>
 </cell>
 <cell type="action" id="cell-4">
 <label>Intensive monitoring, fever reduction, correct electrolyte disturbances, aggressive isotonic IV fluids to prevent kidney failure from myoglobinuria.</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Consider pharmacotherapy with bromocriptine or dantrolene and resume dopamine agonist if prior use.</label>

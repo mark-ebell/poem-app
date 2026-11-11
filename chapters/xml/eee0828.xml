@@ -630,31 +630,38 @@
 </meta>
 <title>Algorithm for the Management of Patients with OCD.</title>
 <graphic href="eee0828-w0001.gif" />
-<cell type="start" id="cell1">
+<cell type="start" id="cell-101">
 <label>First-line treatment options: cognitive behavioral therapy (CBT), SSRI, or both.</label>
-<path target="cell2"> CBT</path>
-<path target="cell3"> Both CBT and SSRIs</path>
-<path target="cell3"> SSRIs</path>
+<path target="cell-102">CBT</path>
+<path target="cell-105">SSRIs, or both CBT and SSRIs</path>
 </cell>
-<cell type="decision" id="cell2">
+<cell type="decision" id="cell-102">
 <label>Is the response adequate after 13 to 20 weekly sessions of CBT?</label>
+<path target="cell-104">Yes</path>
+<path target="cell-103">No</path>
 </cell>
-<cell type="decision" id="cell40">
+<cell type="decision" id="cell-103">
 <label>Add SSRIs</label>
+<path target="cell-105"></path>
 </cell>
-<cell type="action" id="cell5">
+<cell type="action" id="cell-104">
 <label>For medication continue for 1 to 2 years, then consider gradual taper over several months or more. For CBT: provide periodic booster sessions for 3 to 6 months after acute treatment.</label>
 </cell>
-<cell type="decision" id="cell3">
+<cell type="decision" id="cell-105">
 <label>Is the response adequate after 8 to 12 total weeks of SSRI (4&#x2013;6 weeks at maximal tolerable dose) or 13 to 20 weekly sessions of CBT or weekday daily CBT for 3 weeks?</label>
+<path target="cell-104">Yes</path>
+<path target="cell-106">No</path>
 </cell>
-<cell type="decision" id="cell6">
+<cell type="decision" id="cell-106">
 <label>Strategies for Moderate Response: Augment with a second-generation antipsychotic or with CBT (ERP) if not already provided; or add cognitive therapy to ERP.* Strategies for little or no response: Switch to a difference SSRI (may try more than one trial); switch to clomipramine; augment with a second-generation antipsychotic; switch to venlafaxine; switch to mirtazapine.*</label>
+<path target="cell-107"></path>
 </cell>
-<cell type="decision" id="cell7">
+<cell type="decision" id="cell-107">
 <label>Adequate response?</label>
+<path target="cell-104">Yes</path>
+<path target="cell-108">No</path>
 </cell>
-<cell type="action" id="cell8">
+<cell type="action" id="cell-108">
 <label>Strategies for moderate and for little or no response: switch to a different augmenting second-generation antipsychotic; switch to a different SRI; augment with clomipramine; * augment with buspirone, * pindolol, * morphine sulfate, * inositol, * or a glutamate antagonist ( eg, riluzole, topiramate). * Strategies only for little or no response: switch to D&#x2013;amphetamine monotherapy; * switch to tramadol monotherapy; * switch to ondansetron monotherapy; * switch to an MAOI. * After first - and second-line strategies have been exhausted, other options that may be considered include transcranial magnetic stimulation, * deep brain stimulation, * and ablative neurosurgery.</label>
 </cell>
 <footnotes>

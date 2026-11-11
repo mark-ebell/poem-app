@@ -540,20 +540,24 @@
 <graphic href="eee0673-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Epiglottitis suspected; urgent anesthesia, ENT, surgery consults, with direct visualization to confirm diagnosis and degree of airway obstruction</label>
-<path target="cell-2"> &lt;50&#x0025; airway obstruction and no dyspnea </path>
-<path target="cell-3"> dyspnea or &#x003E;50&#x0025; airway obstruction </path>
+<path target="cell-2">&lt;50% airway obstruction and no dyspnea</path>
+<path target="cell-3">Dyspnea or &gt;50% airway obstruction</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Other respiratory complaints (eg, stridor, drooling)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Broad-spectrum IV antibiotics to cover gram-positive bacteria and <em>H. influenza</em> with culture and laboratories</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Monitor in critical care for 8-12 h with frequent vital signs and pulse oximetry and repeated questioning regarding respiratory symptoms; if worsening or dyspnea, intubate</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Immediate intubation</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Broad-spectrum IV antibiotics to cover gram-positive bacteria and <em>H. influenza</em> (if not already done) with culture and labs</label>

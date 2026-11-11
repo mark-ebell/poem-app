@@ -1,0 +1,65 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>080</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Acute Diverticulitis: Management.</title>
+<graphic href="eee0848-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Suspected diverticulitis: LLQ pain and fever&#x002F;chills in most; also nausea and vomiting, rectal mass, constipation, diarrhea, or urinary symptoms</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Consider labs if diagnosis uncertain: CBC, UA, abdominal x-ray series. Diverticulitis likely?</label>
+<path target="cell-3">Suspect other diagnosis</path>
+<path target="cell-4">Suspect acute diverticulitis</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider irritable bowel, gastroenteritis, bowel obstruction, IBD, appendicitis, ischemic colitis, malignancy, UTI, or kidney stone.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Assess severity: mild symptoms, able to tolerate oral intake, no signs of peritonitis?</label>
+<path target="cell-5">Yes, mild diverticulitis</path>
+<path target="cell-6">No, moderate or severe diverticulitis</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Discharge home on broad-spectrum antibiotics and clear liquid diet, follow-up in 2 to 3 days. Improved?</label>
+<path target="cell-7">Symptoms improved</path>
+<path target="cell-6">Symptoms persist</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Admit to hospital, IV fluids, IV antibiotics, NPO; obtain abdominal and pelvic CT.</label>
+<path target="cell-12">CT negative</path>
+<path target="cell-13">Diverticula, colonic wall thickening, and fat stranding</path>
+<path target="cell-16">Peridiverticular abscess &gt;2 cm</path>
+<path target="cell-15">Multiple large abscesses, perforation, or bowel obstruction</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider irritable bowel, gastroenteritis, bowel obstruction, IBD, appendicitis, ischemic colitis, malignancy, UTI, or kidney stone.</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Assess symptoms.</label>
+<path target="cell-14">Symptoms improved</path>
+<path target="cell-15">Symptoms persist</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Follow-up colonoscopy in 4 to 6 weeks.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Surgical consultation, possible sigmoid colectomy.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Percutaneous drainage of abscess.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Follow-up colonoscopy in 4 to 6 weeks.</label>
+</cell>
+<footnotes>
+<footnote>Abbreviations: IBD, inflammatory bowel disease; LLQ, left lower quadrant; UA, urinalysis; UTI, urinary tract infection.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

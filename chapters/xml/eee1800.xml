@@ -819,23 +819,31 @@
 <graphic href="eee1800-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Immobilize arm with a standard sling or collar and cuff sling to prevent or limit sharp bone fragments from causing neurovascular injury. Provide effective analgesia (avoid opioids if patient has potential for hemodynamic or respiratory instability); tetanus toxoid, antibiotics as needed. Neurovascular compromise or fracture separation of the distal humeral epiphysis [1]?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Consider emergent reduction with effective analgesia: axillary block (risk of arterial or nerve injury), hematoma block (risk of osteomyelitis), intravenous regional anesthesia&#x002F;Bier block (risk of lidocaine toxicity), inhaled nitrous oxide sedation (has variable efficacy), or conscious sedation (risk of respiratory depression, requires increased nursing time). Refer to orthopedic surgeon after emergent reduction [2].</label>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Site of fracture?</label>
+<path target="cell-4">Proximal humerus</path>
+<path target="cell-5">Humeral midshaft</path>
+<path target="cell-6">Distal humerus</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Fracture of the anatomic neck, 2-part fracture, 3-part fracture, 4-part fracture, displaced fracture, fracture-dislocations, unstable joints, and&#x002F;or neurovascular injury?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Refer immediately to orthopedic surgery [1-2].</label>
 </cell>
 <cell type="decision" id="cell-8">
 <label>1-Part Fractures Continue to immobilize arm in standard sling or collar and cuff sling; ice, NSAIDs; repeat evaluation and x-rays in 1 week [1-3]. Healing well clinically and on x-rays?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>May start rehabilitation, as tolerated [4-5].</label>
@@ -845,36 +853,50 @@
 </cell>
 <cell type="decision" id="cell-5">
 <label>More than 20 of anterior and posterior angulation, more than 30 varus, more than 1 inch or 2.5 cm of shortening, open fracture, presence of neurovascular injury, articular injury, ipsilateral forearm fracture, pathologic fracture, concomitant traumatic fracture, distal spiral shaft fracture [6-7]?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Refer immediately to orthopedic surgery [6-7].</label>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Type of fracture?</label>
+<path target="cell-13">Spiral, oblique, or comminuted</path>
+<path target="cell-14">Transverse</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Use coaptation or sugar-tong splint with a collar and cuff sling or a hanging cast [7].</label>
+<path target="cell-15"></path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Initiate weekly or biweekly follow-up visits until clinical and radiological union is evident, which may take from 8 to 14 weeks [6-8].</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Consider referral to orthopedic surgery if with signs and symptoms of radial nerve injury, nonunion (clinical and radiological) [1-2, 7].</label>
 </cell>
 <cell type="action" id="cell-14">
 <label>Apply coaptation or sugar tong splint and standard sling, allowing for shoulder motion [7].</label>
+<path target="cell-17"></path>
 </cell>
 <cell type="action" id="cell-17">
 <label>- Initiate weekly or biweekly follow-up visits until clinical and radiological union is evident, which may take from 8 to 14 weeks [7-8] - On follow-up at 1-2 weeks postsplint application, apply a functional brace, as tolerated [7-8].</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Child with displaced or extension-type fracture, unstable fractures, displaced fractures, or lateral condylar fractures, medial epicondylar fractures with more than 3-mm displacement [9]?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-19">No</path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Refer immediately to orthopedic surgery [9].</label>
 </cell>
 <cell type="decision" id="cell-19">
 <label>Site of fracture?</label>
+<path target="cell-20">Medial epicondylar</path>
+<path target="cell-21">Lateral epicondylar</path>
+<path target="cell-22">Stable, nondisplaced, extra-articular</path>
+<path target="cell-23">Nondisplaced supracondylar humerus (child)</path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Immobilize for 7 days, with elbow flexed at 90, forearm pronated, wrist flexed at 30 [10].</label>

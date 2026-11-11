@@ -482,63 +482,82 @@
 <graphic href="eee0725-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Eyelid edema</label>
-<path target="cell-4"> Bilateral </path>
-<path target="cell-8"> Unilateral </path>
+<path target="cell-4">Bilateral</path>
+<path target="cell-8">Unilateral</path>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>Pruritic?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Allergy</label>
 </cell>
 <cell type="action" id="cell-5">
 <label>Urinalysis with proteinuria</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider systemic disease, i.e., nephrotic syndrome.</label>
 </cell>
-<cell type="action" id="cell-8">
+<cell type="decision" id="cell-8">
 <label>Conjunctival discharge?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Conjunctivitis</label>
 </cell>
-<cell type="action" id="cell-9">
+<cell type="decision" id="cell-9">
 <label>Sinus pressure, sinus tenderness, rhinorrhea, congestion?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Sinusitis</label>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Eyelid erythema, fever, tenderness, pain?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Consider other diagnoses.</label>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Periorbital cellulitis</label>
+<path target="cell-16"></path>
 </cell>
 <cell type="decision" id="cell-17">
 <label>Oral antibiotics (see <xref ref="table002" />). Close F&#x002F;U. Improvement?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-23">No</path>
 </cell>
 <cell type="action" id="cell-20">
 <label>Continue antibiotics.</label>
 </cell>
-<cell type="action" id="cell-16">
+<cell type="decision" id="cell-16">
 <label>Moderate&#x002F;severe (&#x003E;50&#x0025; eyelid closed)?</label>
+<path target="cell-23">Yes</path>
+<path target="cell-17">No, &lt;50% eyelid closed</path>
 </cell>
-<cell type="action" id="cell-14">
+<cell type="decision" id="cell-14">
 <label>Proptosis, pain&#x002F;limitation of movement of extraocular muscles, or visual loss?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-21">
 <label>Orbital CT with contrast (see <xref ref="table001" />
 </label>
+<path target="cell-22"></path>
 </cell>
 <cell type="action" id="cell-22">
 <label>Orbital cellulitis</label>
+<path target="cell-23"></path>
 </cell>
 <cell type="decision" id="cell-23">
 <label>Hospitalize; IV antibiotics (see <xref ref="table002" />); Ophthalmology or ENT consult. Surgical drainage if obvious abscess.</label>
+<path target="cell-25"></path>
 </cell>
 <cell type="action" id="cell-25">
 <label>If erythema&#x002F;edema, proptosis, visual loss or ophthalmoplegia of contralateral eye, consider MRI to r&#x002F;o cavernous sinus thrombosis.</label>

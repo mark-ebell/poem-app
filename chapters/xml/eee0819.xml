@@ -689,26 +689,34 @@
 <graphic href="eee0819-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with pneumothorax (PTX). Give oxygen and assess severity. Small PTX and stable patient?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-4"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Primary PTX?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Observation.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Large PTX or unstable patient. Primary or secondary PTX?</label>
+<path target="cell-5">Primary</path>
+<path target="cell-6">Secondary</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Aspiration or small-bore chest tube.*</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Chest tube.*</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Air leak present?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Continue to monitor for 4 days; if not resolved, proceed to surgical intervention.</label>

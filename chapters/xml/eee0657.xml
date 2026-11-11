@@ -737,24 +737,31 @@
 <graphic href="eee0657-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Hypoxemia and chest radiograph with new or worsening bilateral alveolar infiltrates consistent with pulmonary edema. Measure BNP.</label>
-<path target="cell-2">BNP &lt;200 pg&#x002F;mL</path>
-<path target="cell-3">BNP 200-1200 pg&#x002F;mL</path>
-<path target="cell-4">BNP &gt;1200 pg&#x002F;mL</path>
+<path target="cell-2">BNP &lt;200 pg/mL</path>
+<path target="cell-3">BNP 200-1200 pg/mL</path>
+<path target="cell-4">BNP &gt;1200 pg/mL</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Likely ARDS. No further diagnostic studies necessary.</label>
 </cell>
 <cell type="action" id="cell-3">
 <label>Indeterminate. Further studies will be required to differentiate ARDS from cardiogenic pulmonary edema (CPE).</label>
+<path target="cell-5"></path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Transthoracic echocardiogram with either of the following: systolic ejection fraction &lt;45&#x0025; without valvular abnormality, or significant aortic or mitral valve disease?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Clear temporal relationship to ARDS risk factor (eg, sepsis, aspiration)?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>PAC placement PAOP &lt;18 mm Hg.</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Likely CPE.</label>

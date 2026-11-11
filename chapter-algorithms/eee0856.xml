@@ -1,0 +1,51 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>259.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Identification and Treatment of Neonatal Abstinence Syndrome.</title>
+<graphic href="eee0856-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Identify newborns who may have been exposed in utero to opioids or other drugs of abuse: maternal history, urine drug screen, infant drug screen, or suspicion of undisclosed drug use (lack of prenatal care, maternal stigmata of drug use, sexually transmitted disease).</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Minimize stimuli, employ small calorically dense feedings, swaddle gently. Monitor for signs of neonatal abstinence using a standardized symptom instrument (<xref ref="table001" />). Scores require pharmacologic treatment?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Initiate morphine-containing regimen at 0.4 mg&#x002F;kg&#x002F;day in 6 divided doses. Titrate up 20&#x0025;&#x002F;day until symptoms controlled. Seizures?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Symptoms controlled and good weight gain before reaching maximum dose (&#x007E;1.25 mg&#x002F;kg&#x002F;day morphine).</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Wean 10&#x0025;&#x002F;day as guided by symptom scores. Infant with controlled symptoms?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>When morphine is discontinued, monitor for at least 2 days in an inpatient setting prior to discharge from hospital.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Resume last dose at which symptoms controlled; wean as tolerated.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Phenobarbital load. Wean as tolerated.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Phenobarbital load with daily dosing. Investigate possible non-withdrawal etiologies.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Monitor for 2-4 days as an inpatient prior to discharge.</label>
+</cell>
+</algorithm>
+</algorithms>

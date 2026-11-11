@@ -1,0 +1,52 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>413</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Alopecia in Women: Differential Diagnoses.</title>
+<graphic href="eee0721-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Female patient with alopecia</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>History and physical examination: scarring present or absent?</label>
+<path target="cell-3">Scarring present</path>
+<path target="cell-4">Scarring absent</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Punch biopsy: diagnostic?</label>
+<path target="cell-6">Diagnostic</path>
+<path target="cell-9">Not diagnostic</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Hereditary disorders; trauma: mechanical, burns, caustic agents, radiation; or systemic disease: discoid lupus, sarcoidosis, lichen planus, necrobiosis lipoidica, others</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Infection (fungal, bacterial, protozoan); or neoplasm: basal cell carcinoma (morpheaform), squamous cell carcinoma, metastatic carcinoma (alopecia neoplastica), lymphoma, or adnexal tumors</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Clinical evidence of androgen excess?*</label>
+<path target="cell-11">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Total testosterone, free testosterone, DHEA-S, prolactin levels</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Thyroid function tests to rule out thyroid disease VDRL test to rule out syphilis Ferritin level to rule out iron deficiency ANA test to rule out systemic lupus erythematosus</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Laboratory results normal; consider: other nutritional deficiency (malnutrition, sprue, zinc deficiency) Telogen effluvium Trauma (trichotillomania, traction alopecia) Hereditary syndromes Alopecia areata Androgenetic alopecia</label>
+</cell>
+<footnotes>
+<footnote>*Clinical signs and symptoms of androgen excess include menstrual irregularities, infertility, hirsutism, severe cystic acne, virilization, and galactorrhea. Abbreviations:DHEA-S, dehydroepiandrosterone sulfate; VDRL, Venereal Disease Research Laboratory; ANA, antinuclear antibody.</footnote>
+<footnote>Adapted from Healey PM, Jacobson EJ. Common Medical Diagnoses: An Algorithmic Approach. 3rd, Philadelphia: W.B. Saunders, 2000; 208-211,<xref ref="book9780721677320" /> with additional information from Drake LA, Dinehart SM, Farmer ER, et al. Guidelines of care for androgenetic alopecia. American Academy of Dermatology. <em>J Am Acad Dermatol</em> 1996;<strong>35</strong>:465-469.<xref ref="pubmed8784287" resource="acc011" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -4,7 +4,7 @@ edges.txt, one algorithm per line:
   eee0668 fig001 | 1>2 Yes | 2>3 Yes | 2>4 No | ~5 New label | +14 decision: Text of a missing box | 14>15
   eee0123 fig001 SKIP reason
 Numbers are cell numbers (cell-N). "a>b label" adds an arrow; "~N text" replaces box N's
-text; "+N type: text" adds a box; "-N" removes a box; "tN type" changes a box's type.
+text; "+N type: text" adds a box; "-N" removes a box; "tN type" changes a box's type; "fn text" adds a footnote.
 Lines starting with # are ignored. The file is cumulative; a later line for the same
 algorithm replaces an earlier one.
 """
@@ -44,11 +44,13 @@ def renumber(alg):
         return f'id="cell-{n[0]}"'
     return re.sub(r'id="(?!cell-\d+")[^"]*"(?=>\s*<label)', sub, alg)
 
+MARKUP = re.compile(r'</?(?:xref|evidence|list|listitem|strong|em|sup|sub|resourceLink)\b')  # text with these tags is markup
+
 def relabel(orig, text):
-    # New text for a box. Text containing "<" is used as markup as it stands. Otherwise the
+    # New text for a box. Text containing markup tags is used as markup as it stands. Otherwise the
     # links and SORT ratings of the original box are kept: "Table 1", "Figure 2" or "Algorithm 2"
     # become the original's links (in order), and "(A)"/"(B)"/"(C)" its evidence ratings.
-    new = text if '<' in text else escape(text)
+    new = text if MARKUP.search(text) else escape(text)
     refs = iter(re.findall(r'<xref\b[^>]*/>|<xref\b[^>]*>[\s\S]*?</xref>', orig))
     if '<xref' in orig:
         new = re.sub(r'\b(?:Table|Figure|Algorithm) \d+', lambda m: next(refs, m.group(0)), new)
@@ -67,6 +69,7 @@ def apply(alg, ops):
         label = re.search(r'<label\s*/>|<label>([\s\S]*?)</label>', c)
         info[cid] = {'type': typ, 'label': (label.group(1) or '') if label else '', 'paths': []}
         order.append(cid)
+    notes = []
     arrows_last = sorted(ops, key=lambda o: bool(re.match(r'\d+\s*>', o)))
     for op in arrows_last:
         if not op:
@@ -86,6 +89,8 @@ def apply(alg, ops):
             order.append(n)
         elif m := re.match(r'-(\d+)$', op):
             info.pop(m.group(1)); order.remove(m.group(1))
+        elif m := re.match(r'fn\s+(.*)$', op):
+            notes.append(m.group(1) if MARKUP.search(m.group(1)) else escape(m.group(1)))
         elif m := re.match(r't(\d+)\s+(\w+)$', op):
             info[m.group(1)]['type'] = m.group(2)
         else:
@@ -95,6 +100,12 @@ def apply(alg, ops):
         c = info[cid]
         paths = ''.join(f'\n<path target="cell-{t}">{lab}</path>' for t, lab in c['paths'])
         built.append(f'<cell type="{c["type"]}" id="cell-{cid}">\n<label>{c["label"]}</label>{paths}\n</cell>')
+    if notes:  # footnotes ("fn text"), after the boxes
+        fns = ''.join(f'<footnote uid="fn{j}">{t}</footnote>\n' for j, t in enumerate(notes, 1))
+        if '<footnotes>' in alg:
+            alg = alg.replace('</footnotes>', fns + '</footnotes>', 1)
+        else:
+            alg = alg.replace('</algorithm>', f'<footnotes>\n{fns}</footnotes>\n</algorithm>')
     first = alg.find('<cell')
     last = alg.rfind('</cell>') + len('</cell>')
     if first < 0:  # no boxes: put them after the graphic/title

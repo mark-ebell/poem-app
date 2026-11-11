@@ -1,0 +1,148 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>262.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Evaluation and Management of Metatarsal Fractures</title>
+<graphic href="eee0801-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Take history to determine mechanism of injury; evaluate neurovascular status. Inspect skin for ecchymosis, abrasions, swelling, tenting, deformity. Apply Ottawa Foot Rule. Radiography recommended?</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Palpate for point tenderness based on patient complaint and apply axial load to metatarsal head.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Pain at fracture site?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider alternative diagnosis (eg, soft tissue injury).</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Radiographs (AP, lateral, oblique)</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Fracture?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Type of fracture.</label>
+<path target="cell-9">Proximal metatarsals 1-4 (no Lisfranc injury)</path>
+<path target="cell-10">Proximal 5th metatarsal</path>
+<path target="cell-11">Shaft</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Posterior splint, nonweight-bearing, follow-up in 3-5 d, then SLNWBC.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Follow-up in 7-10 d and repeat radiographs. Continue cast for 3-4 wk, progressive weight bearing.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Go to <xref ref="fig002" />.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Displaced?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Elastic dressing or hard shoe and progressive weight bearing. Follow-up in 3-5 d. Repeat radiographs in 1 wk and again in 4-6 wk.</label>
+</cell>
+<cell type="decision" id="cell-14">
+<label>&gt;3-4 mm? OR &gt;10&#x00BA; angulation?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Manage as per displaced (if single metatarsal fracture).</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Reduction; consider referral.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>History of recent increase in activity?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Consider stress fracture</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>If tender to palpation near T-MT, rule out Lisfranc fracture. Obtain weight-bearing films, CT, MRI.</label>
+</cell>
+<footnotes>
+<footnote>Data from Stiell IG, Greenberg GH, McKnight RD, et al. Clinical prediction rules for the use of radiography in acute ankle injuries. Refinement and prospective validation. <em>JAMA</em> 1993;<strong>269</strong>:1127-1132.<xref ref="rule14" resource="acc007" />
+</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>262.4</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suspected Proximal Fifth Metatarsal Fracture: Management.</title>
+<graphic href="eee0801-w0002.gif" />
+<cell type="start" id="cell-19">
+<label>Determine fracture location relative to 4th-5th intermetatarsal articulation.</label>
+<path target="cell-20">Proximal to the articulation (zone 1)</path>
+<path target="cell-21">At the articulation (zone 2, Jones fracture)</path>
+<path target="cell-22">Distal to the articulation (zone 3)</path>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Displaced?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-23">No</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Soft protective dressing Weight bearing as tolerated.</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Referral.</label>
+</cell>
+<cell type="decision" id="cell-21">
+<label>Displaced? OR Prompt return to athletics desired?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-25">No</path>
+</cell>
+<cell type="action" id="cell-25">
+<label>Posterior splint for 3-5 days; then SLNWBC for 6-8 wk. This is followed by hard shoe or walking cast until symptomatic and radiographic healing.</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>Referral for early surgical fixation.</label>
+</cell>
+<cell type="decision" id="cell-22">
+<label>Type I (early), type II (delayed), or type III (nonunion)?</label>
+<path target="cell-27">Type I (early)</path>
+<path target="cell-28">Type II (delayed) or III (nonunion)</path>
+</cell>
+<cell type="decision" id="cell-27">
+<label>Prompt return to athletics desired?</label>
+<path target="cell-30">Yes</path>
+<path target="cell-29">No</path>
+</cell>
+<cell type="decision" id="cell-29">
+<label>SLNWBC until healed. Nonunion after 8-12 wk?</label>
+<path target="cell-28">Yes</path>
+<path target="cell-31">No</path>
+</cell>
+<cell type="action" id="cell-31">
+<label>Done.</label>
+</cell>
+<cell type="action" id="cell-30">
+<label>Referral for early surgical fixation.</label>
+</cell>
+<cell type="action" id="cell-28">
+<label>Referral for surgical fixation.</label>
+</cell>
+</algorithm>
+</algorithms>

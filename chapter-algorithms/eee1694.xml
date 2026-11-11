@@ -1,0 +1,51 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>281</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Diagnostic Algorithm for Approaching the Patient with Ankylosing Spondylitis.</title>
+<graphic href="eee1694-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>4 of 5 of the following: (1) onset of back discomfort before the age of 40 years, (2) insidious onset, (3) persistence for at least 3 months, (4) associated with morning stiffness, or (5) improvement with exercise?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>25&#x0025; probability of having AS assuming 5&#x0025; prevalence of AS in chronic low back pain.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Anterior spine flexion of &lt;5 cm (Schober's test) and chest expansion of &lt;2.5 cm increase probability of diagnosis but are often absent in early disease.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Order sacroiliac x-ray. Is the radiologic criterion of grade 2 sacroiilitis bilaterally or grade 3 or 4 unilaterally satisfied?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Patient still has possible early AS. Order HLA-B27.</label>
+<path target="cell-8">Positive</path>
+<path target="cell-9">Negative</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Patient has a 80&#x0025; chance of having early AS. Consider a trial of NSAIDs and physical therapy or a rheumatologist referral.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Patient has less than 3&#x0025; chance of having AS. Consider another diagnosis.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Definite diagnosis; treat as AS.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider another diagnosis.</label>
+</cell>
+<footnotes>
+<footnote>Data from van der Linden S, Valkenburg HA, Cats A. Evaluation of diagnostic criteria for ankylosing spondylitis. A proposal for modification of the New York criteria. <em>Arthritis Rheum</em> 1984;<strong>27</strong>:361-368.<xref ref="pubmed6231933" resource="acc015" /> and Rudwaleit M, Metter A, Listing J, Sieper J, Braun J. Inflammatory back pain in ankylosing spondylitis: a reassessment of the clinical history for application as classification and diagnostic criteria. <em>Arthritis Rheum</em> 2006;<strong>54</strong>:569-578.<xref ref="test164" resource="acc002" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

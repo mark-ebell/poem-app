@@ -832,25 +832,33 @@
 <graphic href="eee0824-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient presents with acute swelling at or near a joint.</label>
-<path target="cell-2"> Yes </path>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>History of chronic pain and&#x002F;or steroid injections in that area, or history of fluroquinolone use?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Sudden onset of sharp pain with signs of tendon rupture (unable to flex or extend the joint, balled up muscles, or palpable gap in the tendon?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Tendon rupture; refer to orthopedic surgeon.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Suspect tendinopathy or peritendonitis; consider ultrasound or MRI.</label>
+<path target="cell-5">Positive</path>
+<path target="cell-7">Negative</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Treat with rest.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Suspect sprain, fracture, or ligament tear. Take X-rays and ligament tests.</label>
+<path target="cell-8">Positive results</path>
+<path target="cell-3">Negative results</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Treat as appropriate.</label>

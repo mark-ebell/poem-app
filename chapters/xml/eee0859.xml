@@ -1064,27 +1064,34 @@
 <graphic href="eee0859-w001.gif" />
 <cell type="start" id="cell-1">
 <label>DM type 1 &#x2265;5 years duration or DM type 2 of any duration. Assess urinary albumin&#x002F;creatinine ratio and serum creatinine for GFR estimate (eGFR).</label>
-<path target="cell-2">Albumin-to-creatinine ratio (ACR) &lt;30 mg&#x002F;g and no microalbuminuria</path>
-<path target="cell-3">ACR 30-300 mg&#x002F;g and microalbuminuria</path>
-<path target="cell-4">ACR &gt;300 mg&#x002F;g, macroalbuminuria and&#x002F;or eGFR &lt;60 ml&#x002F;min</path>
+<path target="cell-2">ACR &lt;30 mg/g</path>
+<path target="cell-3">ACR 30-300 mg/g (microalbuminuria)</path>
+<path target="cell-4">ACR &gt;300 mg/g (macroalbuminuria) and/or eGFR &lt;60 mL/min</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>No increased risk of diabetic kidney disease (DKD). Continue annual screening.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Repeat ACR and eGFR in 3-6 months.</label>
+<path target="cell-2">Regression of microalbuminuria</path>
+<path target="cell-5">Persistent microalbuminuria</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>If BP &gt;130&#x002F;80: initiate ACE-I or ARB. If BP &lt;130&#x002F;80: consider ACE-I or ARB if tolerated. Target Hgb A1c &lt;7.0&#x0025;.</label>
+<path target="cell-6">Progression to DKD</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Initiate appropriate treatment: ACE-I or ARB; thiazide diuretic, if needed; target BP &lt;130&#x002F;80; target Hgb A1c &lt;7.0&#x0025;; referral to nephrologist.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Typical features of DKD (presence of retinopathy, gradual progression)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Consider kidney biopsy.</label>
+<path target="cell-6">DKD</path>
+<path target="cell-8">Other</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Initiate appropriate treatment.</label>

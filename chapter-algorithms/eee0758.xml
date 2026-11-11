@@ -1,0 +1,93 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>058</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Pityriasis Alba: Management.</title>
+<graphic href="eee0758-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Hypopigmentation of skin</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>First presentation as newborn&#x002F;infant?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider genetic cause for hypopigmentation: tuberous sclerosis, piebaldism, hypomelanosis of Ito, Waardenburg syndrome, nevus depigmentosus.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>History of previous inflammatory process in that area of skin?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Consider postinflammatory hypopigmentation, especially if mixed areas of hypo&#x002F;hyperpigmentation.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Skin immobile?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider scleroderma morphea or lichen sclerosus et atrophicus.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Completely depigmented (white) skin?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider vitiligo, especially if progressive.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>KOH prep.</label>
+<path target="cell-11">Positive</path>
+<path target="cell-12">Negative</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Tinea versicolor.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Pityriasis alba.</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Educate family that pityriasis alba will self-resolve within several months or years.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Patient&#x002F;family want additional treatment?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Moisturizing lotion twice daily, liberal sunscreen, avoid sun exposure.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Patient&#x002F;family want additional treatment?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Reassurance.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Add low-dose topical steroid twice daily.</label>
+<path target="cell-19"></path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Patient&#x002F;family want additional treatment?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Replace topical steroid with topical tacrolimus 0.1&#x0025; ointment twice daily.</label>
+</cell>
+</algorithm>
+</algorithms>

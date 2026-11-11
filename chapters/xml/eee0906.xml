@@ -811,9 +811,45 @@
 <title>Intussusception management algorithm.</title>
 <graphic href="eee0906-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Reprinted from Journal of Pediatric Surgery, vol 56(3), Kelley-Quon LI et al., Management of intussusception in children: A systematic review, P587-596, Copyright (2021), with permission from Elsevier. <resourceLink href="https://www.jpedsurg.org/article/S0022-3468(20)30704-1/fulltext">https:&#x002F;&#x002F;www.jpedsurg.org&#x002F;article&#x002F;S0022-3468(20)30704-1&#x002F;fulltext</resourceLink>
-</label>
+<label>Suspected intussusception</label>
+<path target="cell-2">No peritonitis, clinically well</path>
+<path target="cell-3">Signs of peritonitis</path>
 </cell>
+<cell type="decision" id="cell-2">
+<label>Abdominal ultrasound</label>
+<path target="cell-4">Negative</path>
+<path target="cell-5">Positive</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Operative management. If patient is hemodynamically stable, start with laparoscopic reduction. Consider intraoperative use of air or saline enema to facilitate reduction. Consider removing the appendix in setting of inflammation or ischemia.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Work up for other diagnosis.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Enema reduction</label>
+<path target="cell-6">Successful reduction</path>
+<path target="cell-7">Partial reduction</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>4 hours observation to ensure symptoms resolved and tolerating oral regimen</label>
+<path target="cell-8">Symptoms resolved, tolerating oral regimen</path>
+<path target="cell-9">Admission criteria present</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Repeat enema if patient is stable, without peritonitis; repeat up to 4 attempts.</label>
+<path target="cell-6">Successful reduction</path>
+<path target="cell-3">Not reduced after 4 attempts</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Discharge home (reliable family; return precautions).</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Hospital admission (poor oral intake, vomiting, lethargy, fever, tachycardia, and/or pain; difficulty returning to ED after discharge).</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">Reprinted from Journal of Pediatric Surgery, vol 56(3), Kelley-Quon LI et al., Management of intussusception in children: A systematic review, P587-596, Copyright (2021), with permission from Elsevier. <resourceLink href="https://www.jpedsurg.org/article/S0022-3468(20)30704-1/fulltext">https://www.jpedsurg.org/article/S0022-3468(20)30704-1/fulltext</resourceLink></footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 </topic>

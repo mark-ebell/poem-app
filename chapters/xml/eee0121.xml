@@ -929,6 +929,8 @@
 </cell>
 <cell type="decision" id="cell-6">
 <label>Order low-dose dexamethasone suppression test (2-d 2-mg test). Plasma cortisol &#x003E;1.8 &#x03BC;g&#x002F;dL and plasma dexamethasone 2.0-6.5 ng&#x002F;mL?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>CS confirmed.</label>

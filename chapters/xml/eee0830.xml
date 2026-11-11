@@ -1487,21 +1487,28 @@
 <graphic href="eee0830-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient at increased risk for PTSD</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Administer brief PTSD screen.</label>
+<path target="cell-3">Negative</path>
+<path target="cell-4">Positive</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Routine care; consider rescreening in future if symptoms persist or worsen.</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Structured interview by experienced clinician.</label>
+<path target="cell-3">Nondiagnostic</path>
+<path target="cell-5">Diagnosis of PTSD</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Provide primary care-based PTSD treatment: &#x2022; SSRI &#x2022; CBT or EMDR &#x2022; Collaborative care model if available &#x2022; Monitor response using longer symptoms scales.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Second-line treatments: &#x2022; Other antidepressants &#x2022; Anxiolytics &#x2022; Mood stabilizers &#x2022; Atypical antipsychotic &#x2022; Other psychotherapy.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider referral or hospitalization if: &#x2022; Patient preference &#x2022; Patient needs exceed current setting &#x2022; Suicidality &#x2022; Alcohol or other drug withdrawal.</label>

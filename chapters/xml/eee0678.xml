@@ -833,23 +833,30 @@
 <graphic href="eee0678-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Pleural effusion without heart failure as clear cause. Perform thoracentesis and analyze for LDH, protein, and cholesterol. Draw serum LDH, protein, cholesterol. Empyema, chylothorax, or hemothorax?</label>
-<path target="cell-2"> No</path>
-<path target="cell-3"> Yes</path>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Pleural:serum protein &gt;0.5 OR pleural:serum LDH &gt;0.6 OR pleural LDH &gt;2&#x002F;3 ULN of serum LDH OR pleural cholesterol &gt;80 mg&#x002F;dL or pleural protein &gt;4.0 mg&#x002F;dL?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Transudate. Consider heart failure, nephrosis, cirrhosis.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Exudate. Obtain pleural fluid glucose, ADA, cell counts, amylase, cytology, pH, and culture.</label>
+<path target="cell-6">ADA &gt;40 U/L and lymphocytic effusion</path>
+<path target="cell-7">No diagnosis</path>
+<path target="cell-8">Abnormal cytology, amylase, or culture</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Tuberculosis likely.</label>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Helical CT of chest.</label>
+<path target="cell-9">Diagnostic</path>
+<path target="cell-10">Not diagnostic</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Pulmonary embolism or malignancy.</label>

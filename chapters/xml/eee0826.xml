@@ -646,15 +646,22 @@
 <graphic href="eee0826-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Acute low back pain with suspected vertebral compression fracture (VCF)</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Neurological deficits?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>History of cancer?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>One or more risk factors for cancer or osteoporotic fracture (previous VCF, osteoporosis, steroid use, older than 50 years, unexplained weight loss, failure to improve after 1 month)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Treat as musculoskeletal low back pain. Consider imaging if patient does not improve.</label>

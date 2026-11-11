@@ -2068,32 +2068,44 @@
 <graphic href="eee0649-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with suspected acute kidney injury. Clinically compatible with prerenal cause (e.g., anemia, dizziness, nausea&#x002F;vomiting, orthostasis)?</label>
-<path target="cell-2"> Yes</path>
-<path target="cell-3"> No</path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Consider prerenal causes: hemorrhage, GI loss, renal loss, fluid sequestration, sepsis, and low cardiac output.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Clinically compatible with obstruction (e.g., suprapubic or flank pain, anuria)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
-<label>History compatible with toxin (<xref ref="table001" />)?</label>
+<label>History compatible with toxin (see <xref ref="table001" />)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Perform UA and fractional sodium excretion.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>UA findings.</label>
+<path target="cell-9">Normal</path>
+<path target="cell-12">Casts</path>
+<path target="cell-10">Other</path>
+<path target="cell-11">Crystals</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Fractional sodium excretion &lt;1&#x0025; (&lt;35&#x0025; if on diuretics)?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Suspect ischemic or nephrotoxic kidney injury.</label>
 </cell>
 <cell type="action" id="cell-10">
 <label>Primarily RBC: suspect stones, BPH, tumor; obtain ultrasound. RBC, WBC, proteinuria, bacteruria: consider infection.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Diagnosis still unclear? Consider renal biopsy.</label>
@@ -2103,6 +2115,7 @@
 </cell>
 <cell type="action" id="cell-12">
 <label>RBC casts, proteinuria: suspect glomerulonephritis or vasculitis; obtain lab data. Muddy brown granular or tubular epithelial cell casts: suspect ischemia, consider angiogram. WBC, granular casts: suspect interstitial nephritis (check drugs).</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Withdraw toxin; supportive treatment based on lab data.</label>

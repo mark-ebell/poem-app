@@ -1017,28 +1017,38 @@
 <graphic href="eee0835-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Child presents for well child care visit</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Any developmental red flags? No babbling, pointing, or other gesture by 12 months No single words by 16 months No 2-word spontaneous (not echolalic) phrases by 24 months ANY loss of ANY language or social skills at ANY age</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>18- or 24-month visit OR Parental&#x002F;caregiver concern based on historical signs (see <xref ref="table002" />)<sup>a</sup>
 </label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Exit algorithm, re-enter at next well child care visit</label>
 </cell>
 <cell type="action" id="cell-6">
 <label>Administer ASD-specific screening tool</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Results positive or concerning?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Refer for educational services Early Intervention if under age 3 Local School District if age 3 or older</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Refer for comprehensive ASD evaluation, including the following: Cognitive evaluation&#x002F;IQ testing Adaptive behavior evaluation Speech and language evaluation Sensorimotor&#x002F;OT evaluations Neuropsychological&#x002F;family assessments</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Formal audiologic screening Lead testing (especially with pica) Genetic testing&#x002F;DNA analysis for fragile X (only with MR, dysmorphic features, or family history of fragile X syndrome) Selective metabolic testing (only with lethargy, cyclic vomiting, and early seizures, or MR or dysmorphic features EEG (only with seizures or clear regression)</label>

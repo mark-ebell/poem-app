@@ -820,18 +820,24 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Order VCUG. Vesicoureteral reflux?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Dimercaptosuccinic acid scan.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>APPD &lt;10 mm (on postnatal ultrasound)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Serial ultrasounds.</label>
+<path target="cell-7">If not resolving</path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Order diuretic renography. Consistent with decreased or worsening renal function and&#x002F;or obstruction?</label>
+<path target="cell-8">Yes</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Consider pyeloplasty.</label>

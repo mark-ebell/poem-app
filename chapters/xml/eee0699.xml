@@ -1561,9 +1561,14 @@
 </cell>
 <cell type="decision" id="cell-2">
 <label>Diagnosis in question; attempt joint aspiration. Positive gram stain and&#x002F;or culture?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+<path target="cell-4">Unsuccessful</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Patient refuses aspiration or unsuccessful in obtaining fluid. Consider colchicine trial for 1-2 d and assess response.</label>
+<path target="cell-7">No response</path>
+<path target="cell-8">Good response</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider referral.</label>
@@ -1576,9 +1581,16 @@
 </cell>
 <cell type="decision" id="cell-6">
 <label>MSU crystals present?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Treat empirically with NSAIDs, steroids, or colchicine. Episode resolves?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>MSU crystals confirm gout: treat with NSAIDs, steroids, or colchicine (above).</label>
 </cell>
 </algorithm>
 </algorithm_group>

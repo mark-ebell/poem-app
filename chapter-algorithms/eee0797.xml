@@ -1,0 +1,55 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>797</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Decompression Sickness: Management.</title>
+<graphic href="eee0797-w001.gif" />
+<cell type="start" id="cell-101">
+<label>Diving injury. Hemodynamically stable?</label>
+<path target="cell-102">Yes</path>
+<path target="cell-104">No</path>
+</cell>
+<cell type="decision" id="cell-102">
+<label>Assess chief complaint, history (duration, depth and ascent protocol). Determine time of symptom onset (descent, ascent, after dive). Take past medical history (PFO, Asthma, coronary artery disease, diabetes mellitus, previous DCS). Perform complete examination. Suspect DCS?</label>
+<path target="cell-106">Yes</path>
+<path target="cell-103">No</path>
+</cell>
+<cell type="action" id="cell-103">
+<label>Call Divers Alert Network for recommendations.</label>
+</cell>
+<cell type="decision" id="cell-104">
+<label>Provide advanced life support. Patient stable?</label>
+<path target="cell-102">Yes</path>
+<path target="cell-105">No</path>
+</cell>
+<cell type="decision" id="cell-105">
+<label>Admit to ICU. Suspect DCS?</label>
+<path target="cell-106">Yes</path>
+<path target="cell-110">No</path>
+</cell>
+<cell type="decision" id="cell-106">
+<label>Flat supine position. Oxygen FiO2 at 100&#x0025;. Isotonic IVF (no dextrose). Call Divers Alert Network for recommendations. Concerns about pneumothorax?</label>
+<path target="cell-107">Yes</path>
+<path target="cell-109">No</path>
+</cell>
+<cell type="decision" id="cell-107">
+<label>Order chest x-ray. Pneumothorax?</label>
+<path target="cell-108">Yes</path>
+<path target="cell-109">No</path>
+</cell>
+<cell type="action" id="cell-108">
+<label>Place chest tube.</label>
+<path target="cell-109"></path>
+</cell>
+<cell type="action" id="cell-109">
+<label>If recompression chamber is available, start hyperbaric oxygen therapy, follow US Navy Tables. If not, transfer to facility where chamber is available.</label>
+</cell>
+<cell type="action" id="cell-110">
+<label>Keep in ICU, evaluate for other conditions.</label>
+</cell>
+</algorithm>
+</algorithms>

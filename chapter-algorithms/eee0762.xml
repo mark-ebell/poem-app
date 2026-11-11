@@ -1,0 +1,36 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>338.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Chronic Plaque Psoriasis: Treatment.</title>
+<graphic href="eee0762-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Mild disease involving &lt;20&#x0025; of body surface area?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Start topical steroids alone or with one of following: calcipotriene or tazarotene. Effective?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Use topical steroid as pulse therapy on weekend and other agent during the week.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Start clobetasol ointment and refer for narrow-band UV therapy. Effective?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Refer for methotrexate, acitretin, biologic agent, or cyclosporine.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Taper clobetasol to weekends only and continue UV for 4 months.</label>
+</cell>
+</algorithm>
+</algorithms>

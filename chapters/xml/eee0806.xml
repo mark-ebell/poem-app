@@ -897,47 +897,64 @@
 <graphic href="eee0806-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Unstable patient and&#x002F;or possible complication (pneumothorax or hemothorax), &#x2265;3 fractured ribs, liver or spleen laceration, cardiac or pulmonary contusion, mediastinal or aortic injury, superior or displaced rib fractures, possible child abuse?</label>
-<path target="cell-2"> Yes</path>
-<path target="cell-3"> No</path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="action" id="cell-2">
 <label>Perform appropriate emergency procedure (if needed), stabilize, arrange to send to emergency room, monitor while awaiting transfer.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Obtain history and physical examination to substantiate and characterize suspected rib fracture(s), order PA and lateral CXRs. Emergent condition (eg, pneumothorax, hemothorax)?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Rib fracture(s) visible?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Control pain (NSAIDs with or without opioids, nerve blocks), restrict inciting activity, use incentive spirometer as tolerated to prevent atelectasis.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="decision" id="cell-7">
 <label>Follow-up in 4 to 6 weeks: Is patient pain-free with normal activities?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
-<cell type="decision" id="cell-8">
+<cell type="action" id="cell-8">
 <label>Rehab to allow return to sports (possibly with rib belt or flak jacket) and work, as tolerated.</label>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Follow-up in 6 to 8 weeks: Is patient pain free with normal activities?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Consider surgical referral.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Clinical suspicion persists?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Obtain dedicated rib series (bone exposure and oblique views of chest wall).</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Rib fracture(s) visible?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Obtain a bone scan.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Rib fracture(s) visible?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Rule out rib fracture(s) as unlikely, consider other differentials.</label>

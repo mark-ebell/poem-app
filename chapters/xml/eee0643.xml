@@ -877,20 +877,26 @@
 <graphic href="eee0643-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Is the absolute creatinine value increased by &gt;0.3mg&#x002F;dL?</label>
-<path target="cell-2">No</path>
 <path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label> Is creatinine relatively increased more than 1.5 times baseline value?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Continue therapy for liver disease and intermittently monitor renal function.</label>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Ask about nephrotoxic drugs and history of CKD. Signs of hypovolemia? Check urine for protein, casts, sodium and consider trial of IV fluids. Underlying cause identified?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Is the diagnosis consistent with hepatorenal syndrome (ie, arterial hypotension, low urine and serum sodium, elevated plasma renin and aldosterone levels, high renal resistive index on duplex Doppler ultrasound)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Consider other diagnoses.</label>

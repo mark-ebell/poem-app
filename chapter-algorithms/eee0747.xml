@@ -1,0 +1,67 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>348</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Isolated Lymphadenitis: Management.</title>
+<graphic href="eee0747-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Duration of lymphadenitis?</label>
+<path target="cell-4">&lt;4 weeks (acute)</path>
+<path target="cell-11">&gt;4 weeks (chronic)</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Localized node, warm, tender or fever or toxic in appearance?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Improved on oral antibiotics?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>No further treatment needed.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Fine needle aspiration. &#x00B1; ultrasound guidance. Improved on IV antibiotics?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>No further treatment needed.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Concern for suppuration; perform incision and drainage &#x00B1; CT scan to delineate anatomy.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Watchful waiting or follow chronic pathway.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Node nonmobile or systemic symptoms or multiple nodal involvement?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Excisional biopsy to rule out malignancy.</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Skin test for tuberculosis (PPD).</label>
+<path target="cell-14">Positive, &gt;10 mm</path>
+<path target="cell-15">Mildly positive, &lt;10 mm</path>
+<path target="cell-16">Negative or no PPD</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Excisional biopsy; send acid-fast bacillus cultures for tuberculosis and antitubercular therapy.</label>
+</cell>
+<cell type="action" id="cell-15">
+<label>Consider excisional biopsy or watchful waiting.</label>
+</cell>
+<cell type="action" id="cell-16">
+<label>Consider other etiologies and tests for malignancy, Bartonella, fungal, or parasitic infection, tularemia, HIV, autoimmune disease, or Kawaski's disease.</label>
+</cell>
+</algorithm>
+</algorithms>

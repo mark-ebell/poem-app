@@ -487,54 +487,71 @@
 <graphic href="eee0872-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Pregnant woman with history of travel to an area with Zika virus transmission (http:&#x002F;&#x002F;wwwnc.cdc.gov&#x002F;travel&#x002F;notices&#x002F;).</label>
+<path target="cell-2"></path>
+<path target="cell-3"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Pregnant woman reports clinical illness consistent with Zika virus disease during or within 2 weeks of travel.</label>
+<path target="cell-101"></path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Pregnant woman does NOT report clinical illness consistent with Zika virus disease during or within 2 weeks of travel.</label>
+<path target="cell-109"></path>
 </cell>
-<cell type="decision" id="cell-2-1">
+<cell type="decision" id="cell-101">
 <label>Test for Zika virus infection.</label>
+<path target="cell-102"></path>
+<path target="cell-103"></path>
 </cell>
-<cell type="decision" id="cell-2-1-1">
+<cell type="decision" id="cell-102">
 <label>Positive or inconclusive test for Zika virus infection.</label>
+<path target="cell-104"></path>
 </cell>
-<cell type="action" id="cell-2-2-1">
+<cell type="action" id="cell-103">
 <label>Negative test(s) for Zika virus infection.</label>
+<path target="cell-105"></path>
 </cell>
-<cell type="action" id="cell-2-1-1-1">
+<cell type="action" id="cell-104">
 <label>Fetal ultrasound to detect microcephaly or intracranial calcifications. Offer amniocentesis for Zika virus testing.</label>
 </cell>
-<cell type="action" id="cell-2-2-1-1">
+<cell type="action" id="cell-105">
 <label>Fetal ultrasound to detect microcephaly or intracranial calcifications.</label>
+<path target="cell-106"></path>
+<path target="cell-107"></path>
 </cell>
-<cell type="action" id="cell-2-2-1-1-1">
+<cell type="action" id="cell-106">
 <label>Either finding present.</label>
+<path target="cell-108"></path>
 </cell>
-<cell type="action" id="cell-2-2-1-1-2">
+<cell type="action" id="cell-107">
 <label>No finding present.</label>
 </cell>
-<cell type="action" id="cell-2-2-1-1-1-1">
+<cell type="action" id="cell-108">
 <label>Consider amniocentesis for Zika virus testing.</label>
 </cell>
-<cell type="action" id="cell-2-2-1-1-3">
+<cell type="action" id="cell-109">
 <label>Fetal ultrasound to detect microcephaly or intracranial calcifications.</label>
+<path target="cell-110"></path>
+<path target="cell-111"></path>
 </cell>
-<cell type="action" id="cell-2-2-1-1-5">
+<cell type="action" id="cell-110">
 <label>Either finding present.</label>
+<path target="cell-112"></path>
 </cell>
-<cell type="action" id="cell-2-2-1-1-2-1">
+<cell type="action" id="cell-111">
 <label>No findings present.</label>
+<path target="cell-113"></path>
 </cell>
-<cell type="action" id="cell-2-2-1-1-1-5">
+<cell type="action" id="cell-112">
 <label>Test pregnant woman for Zika virus infection. Consider amniocentesis for Zika virus testing.</label>
 </cell>
-<cell type="action" id="cell-2-2-1-1-2-1-1">
+<cell type="action" id="cell-113">
 <label>Consider serial ultrasounds to detect development of microcephaly or intracranial calcifications.</label>
+<path target="cell-114"></path>
 </cell>
-<cell type="action" id="cell-2-2-1-1-2-1-1-1">
+<cell type="action" id="cell-114">
 <label>Either finding develops.</label>
+<path target="cell-112"></path>
 </cell>
 </algorithm>
 </algorithm_group>

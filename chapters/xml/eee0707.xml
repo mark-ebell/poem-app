@@ -614,18 +614,38 @@
 <graphic href="eee0707-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>History (fever, associated condition) and&#x002F;or Physical exam finding (painful, swollen joint)</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
-<label><strong><em>Labs:</em></strong> CBC, ESR, Uric acid, serum calcium, phosphate, magnesium, alkaline phosphatase, ferritin level, transferrin saturation. (Treat any underlying chemical abnormality.) <strong><em>Radiology:</em></strong> X-ray affected joint. Joint effusion</label></cell>
-<cell type="decision" id="cell-3"><label>Arthrocentesis. Synovial fluid.</label></cell>
-<cell type="action" id="cell-5"><label>Cytology.</label></cell>
-<cell type="decision" id="cell-8"><label>Elevated WBC count.</label></cell>
-<cell type="action" id="cell-9"><label>SF WBC count &lt;2,000&#x002F;mm<sup>3</sup>. Non-inflammatory condition</label></cell>
+<label><strong><em>Labs:</em></strong> CBC, ESR, Uric acid, serum calcium, phosphate, magnesium, alkaline phosphatase, ferritin level, transferrin saturation. (Treat any underlying chemical abnormality.) <strong><em>Radiology:</em></strong> X-ray affected joint. Joint effusion</label>
+<path target="cell-3">Joint effusion</path>
+<path target="cell-4">No joint effusion</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Arthrocentesis. Synovial fluid.</label>
+<path target="cell-5"></path>
+<path target="cell-6"></path>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Cytology.</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Elevated WBC count.</label>
+<path target="cell-9">SF WBC &lt;2,000/mm3</path>
+<path target="cell-10">SF WBC &gt;2,000/mm3</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>SF WBC count &lt;2,000&#x002F;mm<sup>3</sup>. Non-inflammatory condition</label>
+</cell>
 <cell type="action" id="cell-10">
 <label>(a) SF WBC &gt;2,000&#x002F;mm<sup>3</sup>: Inflammatory arthritis likely. (b) SF WBC &gt;50,000&#x002F;mm<sup>3</sup>: Suspect septic arthritis. (c) SF WBC &gt;100,000&#x002F;mm<sup>3</sup>: Septic arthritis until proven otherwise.</label>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Crystals.</label>
+<path target="cell-11">Pseudogout</path>
+<path target="cell-12">Gout</path>
 </cell>
 <cell type="action" id="cell-11">
 <label>
@@ -635,8 +655,9 @@
 <label>
 <strong>Gout</strong>: Monosodium urate. Negatively birefringent. Needle-shaped crystals.</label>
 </cell>
-<cell type="action" id="cell-7">
+<cell type="decision" id="cell-7">
 <label>Culture &amp; sensitivity.</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Antibiotics, if positive per sensitivity.</label>

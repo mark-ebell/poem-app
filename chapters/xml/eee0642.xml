@@ -1277,18 +1277,25 @@
 <graphic href="eee0642-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Suspect HUS: hemolytic anemia, thrombocytopenia, and acute renal failure</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Signs of coagulation activation and secondary fibrinolysis (low fibrinogen and coagulation factors V and VIII, presence of fibrin degradation products in serum)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Evaluation for disseminated intravascular coagulation</label>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Diarrheal prodrome?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Medication associated with HUS?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Discontinue medication</label>
@@ -1298,27 +1305,40 @@
 </cell>
 <cell type="decision" id="cell-6">
 <label>Severe CNS symptoms?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Hypertension?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Medical management</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Symptomatic anemia?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Packed red blood cell transfusion</label>
+<path target="cell-13"></path>
 </cell>
 <cell type="decision" id="cell-13">
 <label>Platelet count &lt;10K or bleeding?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Platelet transfusion?</label>
+<path target="cell-15"></path>
 </cell>
 <cell type="decision" id="cell-15">
 <label>Indications for dialysis present?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
 </cell>
 <cell type="action" id="cell-16">
 <label>Dialysis</label>

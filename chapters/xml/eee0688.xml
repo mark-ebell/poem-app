@@ -1177,27 +1177,37 @@
 <graphic href="eee0688-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Oral anticoagulant, especially if idiopathic PAH (IPAH), diuretics oxygen. Perform acute vasoreactivity testing during catheterization.</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
+<cell type="decision" id="cell-2">
 <label>Oral CCB, especially if IPAH. Sustained response?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="action" id="cell-3">
 <label>Continue CCB.</label>
 </cell>
-<cell type="action" id="cell-4">
+<cell type="decision" id="cell-4">
 <label>Assess WHO functional class (FC).</label>
+<path target="cell-5">WHO FC II</path>
+<path target="cell-6">WHO FC III</path>
+<path target="cell-7">WHO FC IV</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>Sildenafil, treprostinil SC, or treprostinil IV.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Bosentan, sildenafil, eporostenol, iloprost, treprostinil SC, or treprostinil IV.</label>
+<path target="cell-8"></path>
 </cell>
 <cell type="action" id="cell-7">
 <label>Epoprostenol IV, bosentan, Iloprost, sildenafil, treprostinil SC, or treprostinil IV.</label>
+<path target="cell-8"></path>
 </cell>
-<cell type="action" id="cell-8">
+<cell type="decision" id="cell-8">
 <label>Patient fails to improve or deteriorates.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-9">
 <label>Consider: 1. Combination of bosentan, sildenafil, and prostanoid. 2. Referral for atrioseptostomy or lung transplant.</label>

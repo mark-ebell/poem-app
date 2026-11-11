@@ -1,0 +1,108 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>800</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Arm Fractures: Treatment.</title>
+<graphic href="eee1800-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Immobilize arm with a standard sling or collar and cuff sling to prevent or limit sharp bone fragments from causing neurovascular injury. Provide effective analgesia (avoid opioids if patient has potential for hemodynamic or respiratory instability); tetanus toxoid, antibiotics as needed. Neurovascular compromise or fracture separation of the distal humeral epiphysis [1]?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Consider emergent reduction with effective analgesia: axillary block (risk of arterial or nerve injury), hematoma block (risk of osteomyelitis), intravenous regional anesthesia&#x002F;Bier block (risk of lidocaine toxicity), inhaled nitrous oxide sedation (has variable efficacy), or conscious sedation (risk of respiratory depression, requires increased nursing time). Refer to orthopedic surgeon after emergent reduction [2].</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Site of fracture?</label>
+<path target="cell-4">Proximal humerus</path>
+<path target="cell-5">Humeral midshaft</path>
+<path target="cell-6">Distal humerus</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Fracture of the anatomic neck, 2-part fracture, 3-part fracture, 4-part fracture, displaced fracture, fracture-dislocations, unstable joints, and&#x002F;or neurovascular injury?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Refer immediately to orthopedic surgery [1-2].</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>1-Part Fractures Continue to immobilize arm in standard sling or collar and cuff sling; ice, NSAIDs; repeat evaluation and x-rays in 1 week [1-3]. Healing well clinically and on x-rays?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>May start rehabilitation, as tolerated [4-5].</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Reevaluate at 4 weeks, 6 weeks, 8 weeks, 12 weeks, and 16 weeks postinjury, instituting rehabilitation as tolerated, or referring to physical therapy if requiring assistance with exercises. Consider referral to orthopedic surgery if noted to have worsening pain or delayed healing at these follow-up visits [4-5].</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>More than 20 of anterior and posterior angulation, more than 30 varus, more than 1 inch or 2.5 cm of shortening, open fracture, presence of neurovascular injury, articular injury, ipsilateral forearm fracture, pathologic fracture, concomitant traumatic fracture, distal spiral shaft fracture [6-7]?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Refer immediately to orthopedic surgery [6-7].</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Type of fracture?</label>
+<path target="cell-13">Spiral, oblique, or comminuted</path>
+<path target="cell-14">Transverse</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Use coaptation or sugar-tong splint with a collar and cuff sling or a hanging cast [7].</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Initiate weekly or biweekly follow-up visits until clinical and radiological union is evident, which may take from 8 to 14 weeks [6-8].</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Consider referral to orthopedic surgery if with signs and symptoms of radial nerve injury, nonunion (clinical and radiological) [1-2, 7].</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Apply coaptation or sugar tong splint and standard sling, allowing for shoulder motion [7].</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-17">
+<label>- Initiate weekly or biweekly follow-up visits until clinical and radiological union is evident, which may take from 8 to 14 weeks [7-8] - On follow-up at 1-2 weeks postsplint application, apply a functional brace, as tolerated [7-8].</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Child with displaced or extension-type fracture, unstable fractures, displaced fractures, or lateral condylar fractures, medial epicondylar fractures with more than 3-mm displacement [9]?</label>
+<path target="cell-18">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Refer immediately to orthopedic surgery [9].</label>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Site of fracture?</label>
+<path target="cell-20">Medial epicondylar</path>
+<path target="cell-21">Lateral epicondylar</path>
+<path target="cell-22">Stable, nondisplaced, extra-articular</path>
+<path target="cell-23">Nondisplaced supracondylar humerus (child)</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Immobilize for 7 days, with elbow flexed at 90, forearm pronated, wrist flexed at 30 [10].</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Immobilize with elbow in 90 of flexion, forearm in supination, wrist extended slightly to relax extensor muscles [10].</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Splinting or casting in long arm cast for approximately 2 weeks, then hinged functional brace; early elbow motion [11-12].</label>
+</cell>
+<cell type="action" id="cell-23">
+<label>Posterior splint, change to long arm cast with elbow in extension, when soft-tissue swelling has diminished. For extension-type fractures, place elbow 90 of flexion, with forearm in neutral rotation [12-13].</label>
+</cell>
+<footnotes>
+<footnote> References: 1. Eiff P, Hatch R, Calmbach W, eds. <em>Fracture Management for Primary Care</em>. Philadelphia, PA: Saunders, 2003; 2. <em>Wheeless' Textbook of Orthopaedics</em>. www.wheelessonline.com. Accessed April 21, 2008; 3. Sidor ML, Zuckerman JD, Lyon T, et al. The Neer classification system for proximal humeral fractures: an assessment of interobserver reliability and intraobserver reproducibility. <em>J Bone Joint Surg Am</em> 1993;<strong>75</strong>:1745; 4. Kristiansen B, Angermann P, Larsen TK. Functional results following fractures of the proximal humerus: a controlled clinical study comparing two methods of immobilization. <em>Arch Orthop Trauma Surg</em> 1989;<strong>108</strong>:339; 5. Koval KJ, Gallagher MA, Marsicano JG, et al. Functional outcome after minimally displaced fractures of the proximal part of the humerus. <em>J Bone Joint Surg Am</em> 1997;<strong>79</strong>:203; 6. Neer CS, 2nd. Displaced humeral fractures: I. Classification and evaluation.<em> J Bone Joint Surg Am</em> 1970;<strong>52</strong>:1077; 7. Kuntz DG, Jr., Baratz ME. Fractures of the elbow. <em>Orthop Clin North Am</em> Jan 1999;<strong>30</strong>(1):37-61; 8. Milch H. Fractures and fracture dislocations of the humeral condyles. <em>J Trauma</em> Sep 1964;<strong>15</strong>:592-607; 9. Aitken GK, Rorabeck CH. Distal humeral fractures in the adult. <em>Clin Orthop</em> Jun 1986;(207):191-197; 10. Pehlivan O. Functional treatment of the distal third humeral shaft fractures. <em>Arch Orthop Trauma Surg</em> 2002;<strong>122</strong>:390; 11. Henley MB. Intra-articular distal humeral fractures in adults. <em>Orthop Clin North Am</em> Jan 1987;<strong>18</strong>(1):11-23; 12. Jupiter JB, Mehne DK. Fractures of the distal humerus. <em>Orthopedics</em> Jul 1992;<strong>15</strong>(7):825-33; 13. DeLee JC, Wilkins KE, Rogers LF, et al. Fracture-separation of the distal humeral epiphysis. <em>J Bone Joint Surg Am</em> Jan 1980;<strong>62</strong>(1):46-51.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

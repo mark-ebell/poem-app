@@ -586,18 +586,26 @@
 <graphic href="eee0680-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Clinical suspicion for PCP infection by history and physical exam Consider pulse oximetry or arterial blood gas (ABG).</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Chest radiograph.</label>
+<path target="cell-7">Abnormal</path>
+<path target="cell-5">Normal/unchanged</path>
 </cell>
 <cell type="action" id="cell-5">
 <label>If still high index of suspicion for PCP, perform high-resolution CT. If changes consistent with PCP are present (bilateral ground glass opacities or mosaic pattern), start treatment and confirm diagnosis.</label>
+<path target="cell-6"></path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Confirm diagnosis with sputum induction for immunofluorescent staining.</label>
+<path target="cell-9">Positive</path>
+<path target="cell-8">Negative</path>
 </cell>
 <cell type="action" id="cell-8">
 <label>Do bronchoalveolar lavage (BAL) with or without PCR assay.</label>
+<path target="cell-9">Positive</path>
+<path target="cell-10">Negative</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Look for other etiologies, consider treatment for atypical pneumonia or observation if patient is stable.</label>

@@ -1,0 +1,42 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>797</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Dislocation (Patella and Knee): Management.</title>
+<graphic href="eee0795-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presenting with knee pain and a history and physical examination suspicious for patellar dislocation. Is patella present in femoral groove?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Evaluation with MRI, ultrasound, and&#x002F;or plain films to evaluate for presence of osteochondral fracture and loose bodies. Is large osteochondral fracture (&gt;15 mm) present?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Is there a loose body present?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Nonoperative therapy with patella stabilizing orthotic and progressive range of motion and strengthening exercises. Redislocation or continued symptomatic patellar instability?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Clinical follow-up.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Surgical evaluation for potential arthroscopic or open procedure.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>With knee fully extended apply pressure on the lateral&#x002F;posterior aspect of patella until it returns to femoral groove. (Anesthesia may be required.)</label>
+<path target="cell-2"></path>
+</cell>
+</algorithm>
+</algorithms>

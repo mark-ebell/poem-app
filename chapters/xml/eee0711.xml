@@ -1356,33 +1356,46 @@
 <graphic href="eee0711-w001.gif" />
 <cell type="start" id="cell-1">
 <label>Polyarticular inflammatory arthritis. Order x-rays of hand&#x002F;wrists, rheumatoid factor, anti-CCP, CRP.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Presence of erosions or periarticular osteopenia on hand films OR positive rheumatoid factor OR positive anti-CCP OR elevated CRP?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-3">
 <label>Calculate 4 or more criteria present?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Undifferentiated arthritis. Calculate Netherlands Rheumatoid Arthritis Score Rule 365.</label>
+<path target="cell-7">≤3.5</path>
+<path target="cell-8">3.5-6.5</path>
+<path target="cell-9">6.51-8.5</path>
+<path target="cell-10">&gt;8.5</path>
 </cell>
 <cell type="action" id="cell-7">
 <label>The risk of developing RA in 1 year is 0&#x0025;.</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-11">
 <label>Consider other diagnoses.</label>
 </cell>
 <cell type="action" id="cell-8">
-<label>The risk of developing AR in 1 year is 16&#x0025;.</label>
+<label>The risk of developing RA in 1 year is 16%.</label>
+<path target="cell-11"></path>
 </cell>
 <cell type="action" id="cell-9">
-<label>The risk of developing AR in 1 year is 57&#x0025;.</label>
+<label>The risk of developing RA in 1 year is 57%.</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-12">
 <label>Refer to rheumatologist for further evaluation.</label>
 </cell>
 <cell type="action" id="cell-10">
-<label>The risk of developing AR in 1 year is 85&#x0025;.</label>
+<label>The risk of developing RA in 1 year is 85%.</label>
+<path target="cell-12"></path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Diagnosis confirmed. Refer to rheumatologist.</label>
@@ -1401,31 +1414,41 @@
 <graphic href="eee0711-w002.gif" />
 <cell type="start" id="cell-13">
 <label>Probable early RA.</label>
-<path target="cell-14"> Yes </path>
+<path target="cell-14"></path>
 </cell>
 <cell type="decision" id="cell-14">
 <label>Bone erosions detected with ultrasound or MRI?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-16">No</path>
 </cell>
 <cell type="action" id="cell-15">
 <label>Moderate or severe disease. Trial of DMARD (nonbiologic and&#x002F;or biologic), NSAIDs for pain.</label>
+<path target="cell-17"></path>
 </cell>
 <cell type="decision" id="cell-17">
 <label>Adequate control of joint pain and swelling?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-18">No</path>
 </cell>
 <cell type="action" id="cell-18">
 <label>Increase dose, add new biologic, combination of nonbiologic and biologic.</label>
+<path target="cell-19"></path>
 </cell>
 <cell type="action" id="cell-19">
 <label>Monitor disease activity for 3-6 months, annual radiographs, work with primary care physician to manage potential comorbidities (infection, lymphoma, and cardiovascular disease).</label>
 </cell>
 <cell type="action" id="cell-16">
 <label>Mild disease.</label>
+<path target="cell-20"></path>
 </cell>
 <cell type="action" id="cell-20">
 <label>NSAIDs for pain and trial of nonbiologic DMARD (methotrexate, hydroxychloroquine, and sulfasalazine).</label>
+<path target="cell-21"></path>
 </cell>
 <cell type="decision" id="cell-21">
 <label>Adequate control of joint pain and swelling?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-15">No</path>
 </cell>
 </algorithm>
 </algorithm_group>

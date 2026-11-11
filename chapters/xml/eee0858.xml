@@ -1975,23 +1975,31 @@
 <graphic href="eee0858-w0001.gif" />
 <cell type="start" id="cell-1">
 <label>Patient with acute exacerbation of COPD. Meets criteria to hospitalize (e.g., severe symptoms such as sudden worsening of resting dyspnea or acute respiratory failure, onset of new physical signs like cyanosis, failure to respond to initial management, significant comorbidities, new arrhythmia, or insufficient home support)?</label>
-<path target="cell-2"> Yes</path>
-<path target="cell-3"> No</path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>Admit and measure ABG. PaO<sub>2</sub> &lt;60 mm Hg, moderate to severe acidosis (pH &lt;7.36), plus hypercapnia (PaCO<sub>2</sub>.45-60 mm Hg) on room air?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-4">
 <label>Short-acting bronchodilators, short-course oral steroids, and antibiotics.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Low systolic BP and&#x002F;or no improvement in PaO<sub>2</sub> with oxygen.</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
 </cell>
 <cell type="decision" id="cell-6">
 <label>Evidence of heart failure?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Oxygen, trial of NIV, and consider mechanical ventilation. Improved?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-10">
 <label>Admit to ICU if life-threatening exacerbation or requiring mechanical ventilation.</label>
@@ -2004,18 +2012,25 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Measure oxygen saturation or ABG. SaO<sub>2</sub> &lt;90&#x0025; and&#x002F;or PaO<sub>2</sub> &lt;60 mm Hg on room air?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-11">No</path>
 </cell>
 <cell type="decision" id="cell-11">
 <label>Obtain CXR. Pneumonia?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-12">No</path>
 </cell>
 <cell type="decision" id="cell-12">
 <label>Purulent sputum?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-14">No</path>
 </cell>
 <cell type="action" id="cell-14">
 <label>Short-acting inhaled bronchodilators and close follow-up. If moderate to severe COPD (FEV1 &lt;50&#x0025;), add short-course oral steroids.</label>
 </cell>
 <cell type="decision" id="cell-15">
 <label>Empiric antibiotics.</label>
+<path target="cell-14"></path>
 </cell>
 <cell type="action" id="cell-13">
 <label>Treat pneumonia and follow up.</label>
