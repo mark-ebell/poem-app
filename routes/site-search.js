@@ -32,17 +32,19 @@ const oneLine = s => String(s || '').replace(/\s+/g, ' ').trim();
 // title (most), the item's MeSH major topics, its summary (a chapter's overall bottom line,
 // a risk score's clinical question), and for each time it appears (up to a limit).
 const RELEVANCE = { title: 10, meshMajor: 8, summary: 4, perMatch: 1, maxMatches: 20 };
-function relevance(q, { title = '', mesh = '', summary = '', text = '' }) {
-  let score = 0;
+// relevanceParts gives the score in parts (for reviewing the weights); relevance, the total.
+function relevanceParts(q, { title = '', mesh = '', summary = '', text = '' }) {
+  const parts = { title: 0, mesh: 0, summary: 0, matches: 0 };
   for (const t of q.scoreTerms) {
     const re = q.regexFor(t);
-    if (re.test(title)) score += RELEVANCE.title;
-    if (mesh && re.test(mesh)) score += RELEVANCE.meshMajor;
-    if (summary && re.test(summary)) score += RELEVANCE.summary;
-    if (text) score += RELEVANCE.perMatch * Math.min((text.match(new RegExp(re.source, 'giu')) || []).length, RELEVANCE.maxMatches);
+    if (re.test(title)) parts.title += RELEVANCE.title;
+    if (mesh && re.test(mesh)) parts.mesh += RELEVANCE.meshMajor;
+    if (summary && re.test(summary)) parts.summary += RELEVANCE.summary;
+    if (text) parts.matches += RELEVANCE.perMatch * Math.min((text.match(new RegExp(re.source, 'giu')) || []).length, RELEVANCE.maxMatches);
   }
-  return score;
+  return parts;
 }
+const relevance = (q, fields) => Object.values(relevanceParts(q, fields)).reduce((a, b) => a + b, 0);
 const byScore = name => (a, b) => (b.score - a.score) || name(a).localeCompare(name(b));
 
 // ---------- Chapters: the plain text of each chapter, kept until the chapter changes ----------
@@ -198,4 +200,6 @@ module.exports.searchCalculator = searchCalculator;
 module.exports.searchTools = searchTools;
 module.exports.searchChapters = searchChapters;
 module.exports.chapterPmids = chapterPmids;
+// For reviewing the relevance weights (scripts): a chapter's text and topics, and the score parts.
+module.exports.review = { chapterInfo, chapterTopics, relevanceParts, RELEVANCE };
 module.exports.chapterTopics = id => { const i = chapterInfo(id); return i ? chapterTopics(i) : ''; };
