@@ -1,0 +1,78 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>683</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Eosinophilic Pneumonia: Diagnosis.</title>
+<graphic href="eee0683-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Diagnose eosinophilic pneumonia (EP): pulmonary infiltrates on CXR or chest CT, and evidence of peripheral eosinophilia and&#x002F;or &gt;25&#x0025; eosinophils in BAL fluid. Rule out secondary causes of EP.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>On current or recent medications known to cause EP?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Travel to endemic areas for parasites associated with EP?</label>
+<path target="cell-25">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>History of long-standing asthma?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Does patient or family have a history of autoimmune disease (e.g., SLE, Sjogren's, rheumatoid arthritis, ulcerative colitis, scleroderma)?</label>
+<path target="cell-23">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Is the patient currently diagnosed with a malignancy or does he or she have risk factors for malignancy or history of radiation therapy?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Does the patient have a history of exposure to infection (tuberculosis, viruses) or is immunocompromised?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>CONSIDER IDIOPATHIC (PRIMARY) CAUSES. Are there systemic (extrapulmonary) symptoms?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-18">No</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider the following: Churg-Strauss—associated with a history of asthma. Neuropathy commonly present. Check for P-ANCA. Usually MPO positive. Tissue biopsy reveals eosinophilic granulomas. Wegener's—associated with history of chronic upper respiratory/sinus problems. Nephropathy often present. Check for C-ANCA. Usually PR3 positive. Tissue biopsy reveals granulomas (no eosinophils). HES—additional end-organ involvement, especially cardiac. May affect kidney, liver, joints, GI tract, and skin as well. Frequently associated with myeloproliferative disease. Usually not associated with ANCA.</label>
+</cell>
+<cell type="action" id="cell-18">
+<label>Consider IAEP or ICEP. IAEP is acute in onset and presents with high fevers, hypoxemia, and chest pain. May present as ALI or ARDS. Associated with beginning tobacco smoking or increasing frequency. Also associated with environmental exposures. ICEP has an insidious onset, usually greater than 1 month. Rarely causes severe hypoxemia. Seen more frequently in patients with history of atopy.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>Consider tuberculosis, brucella, coccidioides, and viral infections, including HIV.</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Consider bronchogenic carcinoma, Hodgkin's disease and T-cell lymphoma.</label>
+</cell>
+<cell type="action" id="cell-23">
+<label>Check for additional systemic symptoms consistent with these diseases.</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>If no significant extrapulmonary symptoms, consider allergic bronchopulmonary aspergillosis. Check for IgE to Aspergillus, highly elevated serum IgE, and central bronchiectasis on chest CT.</label>
+</cell>
+<cell type="action" id="cell-25">
+<label>Check sputum, BAL fluid, and stool for ova and parasites.</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>STOP all potentially causative medications. If there are systemic symptoms as well as a rash, consider DRESS syndrome.</label>
+</cell>
+<footnotes>
+<footnote>ANCA denotes antineutrophil cytoplasmic antibody; BAL, bronchioalveolar lavage; DRESS, drug rash with eosinophilia and systemic symptoms; EP, eosinophilic pneumonia; HES, hypereosinophilic syndrome; HIV, human immunodeficiency virus; IAEP, idiopathic acute eosinophilic pneumonia; ICEP, idiopathic chronic eosinophilic pneumonia; MPO, myeloperoxidase; PR3, proteinase 3; SLE, systemic lupus erythematosus.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

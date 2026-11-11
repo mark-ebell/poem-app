@@ -1,0 +1,63 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>057.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Child with Musculoskeletal Pain: Diagnosis.</title>
+<graphic href="eee0712-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Child presents with musculoskeletal pain.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Take history and perform complete physical examination, focusing on (but not limited to) affected area, to look for evidence of systemic or other involvement. Obvious etiology of symptoms (e.g., trauma, sprain, strain, fracture)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Normal activity and physical examination with no worsening symptoms and no constitutional or systemic complaints (e.g., fever, weight loss, rash)?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Underlying illness, immunosuppression, or constitutional complaints (e.g., fever, weight loss, fatigue)?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-55">No</path>
+</cell>
+<cell type="decision" id="cell-55">
+<label>Other symptoms.</label>
+<path target="cell-59">Swelling or guarding</path>
+<path target="cell-58">Warmth or redness</path>
+<path target="cell-57">Rash and associated disorder</path>
+<path target="cell-56">Pain</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider: Infection (check CBC and ESR), malignancy (check CBC and ESR), and systemic lupus erythematosus (check CBC, ESR, and antinuclear antibodies).</label>
+</cell>
+<cell type="action" id="cell-56">
+<label>Check CBC and ESR. Consider infection, malignancy, reactive arthritis, and trauma.</label>
+</cell>
+<cell type="action" id="cell-57">
+<label>Check CBC, ESR and antinuclear antibodies: consider malar, nasal&#x002F;oral, photosensitive, vasculitic (SLE). Check urinalysis and creatinine: consider Henoch-Schonlein purpura. Consider Erythema marginatum (acute rheumatic fever), Gottron&#x2019;s papules (juvenile dermatomyositis), and psoriasis (psoriatic arthritis).</label>
+</cell>
+<cell type="action" id="cell-58">
+<label>Check CBC, ESR, and possible synovial fluid analysis. Consider infection, JRA, reactive arthritis, malignancy, and spondyloarthropathy.</label>
+</cell>
+<cell type="action" id="cell-59">
+<label>Consider JRA, spondyloarthropathy, SLE, Henoch-Schonlein purpura, and Lyme arthritis.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Treat or refer as appropriate.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Reassurance or schedule follow-up if physician or parental concerns exist.</label>
+</cell>
+<footnotes>
+<footnote>Adapted from Junnila JL, Cartwright VW. Chronic musculoskeletal pain in children: Part I: initial evaluation. <em>Am Fam Phys</em> 2006;<strong>74</strong>:115&#x2013;122.<xref ref="pubmed16848385" resource="acc007" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

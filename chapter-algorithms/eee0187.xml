@@ -30,7 +30,7 @@
 <path target="cell-7">Yes</path>
 </cell>
 <cell type="decision" id="cell-6">
-<label>Child-Pugh class (B or C; see Table 1) or presence of red wale marks?</label>
+<label>Child-Pugh class (B or C; see <xref ref="table001" />) or presence of red wale marks?</label>
 <path target="cell-8">No</path>
 <path target="cell-9">Yes</path>
 </cell>
@@ -41,7 +41,7 @@
 <label>Start nonselective beta-blocker and titrate to maximum tolerated dose OR perform endoscopic variceal ligation.</label>
 </cell>
 <cell type="decision" id="cell-7">
-<label>Child-Pugh class (B or C; see Table 1) or presence of red wale marks?</label>
+<label>Child-Pugh class (B or C; see <xref ref="table001" />) or presence of red wale marks?</label>
 <path target="cell-11">No</path>
 <path target="cell-10">Yes</path>
 </cell>

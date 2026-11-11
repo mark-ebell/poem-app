@@ -1,0 +1,50 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>107.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Algorithm for the Diagnosis and Treatment of Patient With Gout.</title>
+<graphic href="eee0699-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with intensely painful, swollen joint in typical location. Past similar episodes. Gout likely using <xref ref="pubmed20625017" resource="acc013">clinical decision rule</xref>?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Diagnosis in question; attempt joint aspiration. Positive gram stain and&#x002F;or culture?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
+<path target="cell-4">Unsuccessful</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Patient refuses aspiration or unsuccessful in obtaining fluid. Consider colchicine trial for 1-2 d and assess response.</label>
+<path target="cell-7">No response</path>
+<path target="cell-8">Good response</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider referral.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Obtain serum uric acid and, if elevated, treat with urate-lowering therapy.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Treat infection.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>MSU crystals present?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Treat empirically with NSAIDs, steroids, or colchicine. Episode resolves?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>MSU crystals confirm gout: treat with NSAIDs, steroids, or colchicine (above).</label>
+</cell>
+</algorithm>
+</algorithms>

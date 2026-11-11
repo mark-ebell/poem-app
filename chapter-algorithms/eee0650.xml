@@ -1,0 +1,86 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig002">
+<meta>
+<id>060</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Urinary Calculi: Treatment.</title>
+<graphic href="eee0650-w0002.gif" />
+<cell type="start" id="cell-11">
+<label>Patient with resolved stone episode. Previous episode?</label>
+<path target="cell-13">No</path>
+<path target="cell-14">Yes</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Conservative management: increase urine output to 2.1 qt (2 L) per day. Consider lower sodium intake. Consider lower meat intake (all types)</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Obtain history: number of previous episodes, onset of previous episodes, bowel disease, gout, diabetes, medications, family history</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Serum studies 24-hour urine studies. Uncomplicated calcium stone disease (ie, normocalcemia, no bowel disease, no UTI)?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Normocalciuria?</label>
+<path target="cell-21">Yes</path>
+<path target="cell-20">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Prescribe potassium citrate (Urocit-K)</label>
+<path target="cell-22"></path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>Treat with thiazide diuretics</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>Add potassium chloride if patient has normal urine citrate levels. Add potassium citrate if patient has low urine citrate levels</label>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Other stone disease</label>
+<path target="cell-29">Cystinuria</path>
+<path target="cell-30">Uric acid calculi</path>
+<path target="cell-31">Hypercalcemia</path>
+<path target="cell-32">Hyperuricemia (gout)</path>
+<path target="cell-33">Struvite calculi</path>
+</cell>
+<cell type="action" id="cell-29">
+<label>Prescribe tiopronin (Thiola) and increase fluid intake</label>
+</cell>
+<cell type="action" id="cell-30">
+<label>Prescribe potassium citrate</label>
+<path target="cell-34"></path>
+</cell>
+<cell type="action" id="cell-34">
+<label>Treat relapses with allopurinol (Zyloprim)</label>
+</cell>
+<cell type="action" id="cell-31">
+<label>Hyperparathyroid investigation</label>
+<path target="cell-35"></path>
+</cell>
+<cell type="action" id="cell-35">
+<label>Treat based on findings</label>
+</cell>
+<cell type="action" id="cell-32">
+<label>Prescribe allopurinol*</label>
+</cell>
+<cell type="action" id="cell-33">
+<label>Prescribe antibiotics</label>
+<path target="cell-36"></path>
+</cell>
+<cell type="action" id="cell-36">
+<label>Add acetohydroxamic acid (Lithostat) for severe infection stones</label>
+</cell>
+<footnotes>
+<footnote>Most patients treated with thiazides will require potassium citrate.</footnote>
+<footnote>From Pietrow PK, Karellas ME. Medical management of common urinary calculi. <em>Am Fam Physician</em> 2006;<strong>74</strong>:86-94.<xref ref="pubmed16848382" resource="acc034" />
+</footnote>
+<footnote>*The American Urological Association does not recommend allopurinol as first-line treatment</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

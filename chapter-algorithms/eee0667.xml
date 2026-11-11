@@ -1,0 +1,50 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Approach to the Patient with Suspected COPD.</title>
+<graphic href="eee0667-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient who smokes and has chronic cough or symptoms suspicious for COPD (persistent, progressive, or exertional dyspnea or chronic sputum production) Less than age 45 years or strong family history of COPD?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Assess reversible risk factors, counsel to quit smoking, avoid home and occupational hazards, and use protective equipment Provide vaccination for influenza, COVID-19, pneumococcal (if never received), and shingles. Obtain spirometry FEV1 &#x2265;80&#x0025; predicted with 0-1 moderate exacerbations and few symptoms?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Check for alpha-1 antitrypsin deficiency.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>FEV1 &lt;80&#x0025; but &#x2265;50&#x0025; predicted?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-12">No (FEV1 &lt;50%)</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Stage 1 ( Gold A): Provide patient education; exercise prescription; as needed short- or long-acting inhaled bronchodilator. Improving?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Continue treatment. Monitor.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label> Gold B: Prescribe dual long-acting inhaled bronchodilator therapy (long-acting beta-agonist [LABA] and&#x002F;or anticholinergic [LAMA]); pulmonary rehabilitation. Improving?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-101">No</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label> GOLD E: Begin with combination LABA&#x002F;LAMA, pulmonary rehabilitation. Assess oxygen need. Consider referral.</label>
+</cell>
+<cell type="decision" id="cell-101">
+<label>Consider alternate diagnosis and additional testing (CXR, chest CT, echocardiogram). If COPD confirmed, add inhaled corticosteroid (ICS) for patients with repeated exacerbations (triple therapy), particularly for those with high blood eosinophil counts (&gt;300 cells&#x002F;microL), or if lower eosinophil count (&lt;100 cells&#x002F;mL), add azithromycin if former smokers or roflumilast in patients with chronic bronchitis and an FEV1 &lt;50&#x0025; of predicted.</label>
+</cell>
+</algorithm>
+</algorithms>

@@ -1,0 +1,61 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>074</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Chronic Cough: Management.</title>
+<graphic href="eee0669-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Chest X ray</label>
+<path target="cell-3">Abnormal</path>
+<path target="cell-2">Normal</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Treat based on X ray.</label>
+</cell>
+<cell type="action" id="cell-2">
+<label>If smoker, advise smoking cessation, consider PFTs.</label>
+<path target="cell-4"></path>
+</cell>
+<cell type="action" id="cell-4">
+<label>If COPD or if asthma clinically suspected, consider PFTs.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>On ACE-I? Discontinue medications. Improved in 1 to 2 weeks?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Erythema on rhinoscopy or no other obvious cause for cough. Treat for PND. Improved in 1 to 2 weeks?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Treat for asthma with trial of inhaled steroid and beta agonist. Improved in 1 to 2 weeks?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Treat for GERD. Improved in 1 to 2 weeks?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Stop medications. Consider PPD, high-resolution chest CT, 24-hour esophageal pH monitoring, bronchoscopy, or referral to pulmonologist.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Continue treatment.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Consider different ACE-I or ARB.</label>
+</cell>
+<footnotes>
+<footnote>Data from Palombini BC, Villanova CA, Ara&#x00FA;jo E, et al. A pathogenic triad in chronic cough: asthma, postnasal drip syndrome, and gastroesophageal reflux disease. <em>Chest</em> 1999;<strong>116</strong>:279-284.<xref ref="poem20164" resource="acc005" /> Lawler WR. An office approach to the diagnosis of chronic cough. <em>Am Fam Physician</em> 1998;<strong>58</strong>:2015-2022. Lee J, Kim M, Kim JH, et al. An algorithmic approach to the treatment of chronic cough. <em>Internet J Intern Med</em> 2006;<strong>6</strong>.<xref ref="nopmid_1013" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

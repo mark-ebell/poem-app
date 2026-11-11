@@ -26,7 +26,7 @@
 <path target="cell-6">Symptomatic</path>
 </cell>
 <cell type="decision" id="cell-5">
-<label>LVEF &lt;60%, LVESD &gt;40 mm, new-onset atrial fibrillation, or pulmonary hypertension?</label>
+<label>LVEF <60%, LVESD >40 mm, new-onset atrial fibrillation, or pulmonary hypertension?</label>
 <path target="cell-6">Yes to any</path>
 <path target="cell-7">No</path>
 </cell>

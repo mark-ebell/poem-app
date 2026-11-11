@@ -1,0 +1,46 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>272</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Somatization: Diagnosis.</title>
+<graphic href="eee0634-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>History and physical examination, review of old records, and appropriate screening laboratory work or imaging. Evidence of organic disease?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Meets criteria for depression, anxiety, substance abuse, or personality disorder?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Treat psychiatric issues.</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Multiple vague symptoms with a chronic course?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Somatization. Consider PHQ-15 to confirm diagnosis.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Appropriate diagnostic studies and treatment for medical illness.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Inadequate or incomplete response?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Follow-up as appropriate.</label>
+</cell>
+</algorithm>
+</algorithms>

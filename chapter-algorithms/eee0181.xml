@@ -24,10 +24,10 @@
 <path target="cell-9">Osmotic gap &gt;125</path>
 </cell>
 <cell type="action" id="cell-8">
-<label>Secretory diarrhea (see Table 1). Consider stool culture, specific endocrine testing, drug induced, GI structural imaging.</label>
+<label>Secretory diarrhea (see <xref ref="table001" />). Consider stool culture, specific endocrine testing, drug induced, GI structural imaging.</label>
 </cell>
 <cell type="decision" id="cell-9">
-<label>Osmotic diarrhea (see Table 1); pH &lt;6?</label>
+<label>Osmotic diarrhea (see <xref ref="table001" />); pH <6?</label>
 <path target="cell-10">Yes</path>
 <path target="cell-11">No</path>
 </cell>
@@ -54,10 +54,10 @@
 <path target="cell-19">High fat (≥9.5 g/100 g)</path>
 </cell>
 <cell type="action" id="cell-18">
-<label>Malabsorption (see Table 1).</label>
+<label>Malabsorption (see <xref ref="table001" />).</label>
 </cell>
 <cell type="action" id="cell-19">
-<label>Maldigestion (see Table 1).</label>
+<label>Maldigestion (see <xref ref="table001" />).</label>
 </cell>
 </algorithm>
 </algorithms>

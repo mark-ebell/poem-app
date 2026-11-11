@@ -1,0 +1,104 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>075</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Monoarticular Arthritis: Diagnosis.</title>
+<graphic href="eee0702-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Pain or swelling in a single joint. Perform history and physical examination</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Significant trauma or focal bone pain?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Effusion or signs of inflammation?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Joint aspiration.</label>
+<path target="cell-8">Unsuccessful aspiration</path>
+<path target="cell-9">Successful aspiration</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Probable inflammatory process. Re-evaluate.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Bloody?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Consider coagulopathy, trauma, pigmented villonodular synovitis, tumor, charcot joint, pseudogout.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Check prothrombin time&#x002F;partial thromboplastin time, platelet count, bleeding time; obtain radiograph and, if negative, MRI.</label>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Fat or other bone marrow elements?</label>
+<path target="cell-15">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Consider intra-articular fracture; obtain radiograph, MRI if negative.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Synovial fluid contains &#x003E;2000 WBC?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Crystals identified.</label>
+<path target="cell-18">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-18">
+<label>Suspect monosodium urate (gout) or calcium pyrophosphate dihydrate (pseudogout).</label>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Positive synovial culture or Gram stain, or positive urethral, pharyngeal, rectal cultures when gonococcal arthritis is suspected?</label>
+<path target="cell-20">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-20">
+<label>Infectious (septic) arthritis.</label>
+</cell>
+<cell type="action" id="cell-21">
+<label>If sterile inflammatory joint fluid, suspect spondyloarthritis, RA, SLE, sarcoidosis, Lyme disease, or mycobacterial or fungal infection in the appropriate clinical setting.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Osteoarthritis, internal derangement, soft tissue injury, viral infection.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Tenderness at tendons or bursae.</label>
+<path target="cell-23">Yes</path>
+<path target="cell-100">No</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Bursitis or tendonitis.</label>
+</cell>
+<cell type="action" id="cell-100">
+<label>Consider radiograph and clinical follow-up.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Radiograph.</label>
+<path target="cell-24">Abnormal</path>
+<path target="cell-4">Normal</path>
+</cell>
+<cell type="action" id="cell-24">
+<label>Fracture or metabolic bone disease.</label>
+</cell>
+<footnotes>
+<footnote>RA, rheumatoid arthritis; SLE, systemic lupus erythematosus; MRI, magnetic resonance imaging. Adapted from American College of Rheumatology Ad Hoc Guidelines. Guidelines for acute musculoskeletal symptoms. <em>Arthritis Rheum</em> 196;<strong>39</strong>:1-8.<xref ref="pubmed8546717" resource="acc015" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

@@ -1,0 +1,55 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Influenza: Management.</title>
+<graphic href="eee0676-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient with suspected influenza (fever, cough and&#x002F;or myalgias); presentation within 48 hours of illness onset?</label>
+<path target="cell-3">No</path>
+<path target="cell-2">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Further evaluation guided by relationship to flu season.</label>
+<path target="cell-4">Not flu season</path>
+<path target="cell-5">"Shoulder" of flu season</path>
+<path target="cell-6">Flu season</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>&#x223C;2&#x0025; pretest probability of influenza: consider rapid flu test only if flu, otherwise likely due to severity of symptoms or recent exposure.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>5&#x0025;-10&#x0025; pretest probability of flu: order rapid flu test.</label>
+<path target="cell-7">Negative</path>
+<path target="cell-8">Positive</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>1&#x0025;-3&#x0025; probability of flu: supportive treatment with adequate hydration, analgesics, and followup.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>49&#x0025;-67&#x0025; probability of flu; initiate antiviral medication.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>30&#x0025;-50&#x0025; pretest probability of flu: consider empiric therapy with antiviral medication vs. rapid flu test; result if flu test chosen?</label>
+<path target="cell-9">Negative</path>
+<path target="cell-10">Positive</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>11&#x0025;-22&#x0025; probability of flu: supportive treatment with adequate hydration, analgesics, and followup.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>89&#x0025;-95&#x0025; probability of flu: initiate antiviral medication.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Supportive treatment with analgesics, adequate hydration, and follow-up; CXR to rule out pneumonia if lower respiratory tract symptoms.</label>
+</cell>
+<footnotes>
+<footnote>Data from Ebell MH. Diagnosing and treating patients with suspected influenza. <em>Am Fam Physician</em> 2005;<strong>72</strong>:1789&#x2013;1792.<xref ref="pubmed16300040" resource="acc003" /> Rothberg MB, Bellantonio S, Rose DN. Management of influenza in adults older than 65 years of age: cost-effectiveness of rapid testing and antiviral therapy. <em>Ann Intern Med</em> 2003;<strong>139</strong>:321&#x2013;329.<xref ref="pubmed12965940" resource="acc038" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

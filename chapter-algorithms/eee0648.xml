@@ -1,0 +1,40 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>154.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Solitary Renal Cyst: Management.</title>
+<graphic href="eee0648-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Simple cyst (no septa) or minimally complex cyst (1 or 2 hairline thin septa) on initial imaging (usually ultrasound)?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No (more complex cyst)</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Symptomatic?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>No follow-up required.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>NSAIDs or acetaminophen for pain; consider aspiration with or without sclerosants, or surgical decortication (open or laparoscopic).</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Bosniak category on CT&#x002F;MRI.</label>
+<path target="cell-2">Bosniak I or II</path>
+<path target="cell-6">Bosniak IIF</path>
+<path target="cell-7">Bosniak III or IV</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Follow-up with additional imaging.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Surgical referral.</label>
+</cell>
+</algorithm>
+</algorithms>

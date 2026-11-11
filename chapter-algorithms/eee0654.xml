@@ -1,0 +1,85 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>232.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Urinary Tract Infection: Treatment.</title>
+<graphic href="eee0654-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Urinary tract symptoms. Risk factors for complicated UTI, fever, or back pain?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Vaginal discharge or irritation present?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Multiple symptoms consistent with UTI (frequency, dysuria, urgency)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Test for nitrites and leukocyte esterase. Abnormal result?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Empiric therapy.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Probable UTI; empiric therapy without urine culture. Telephone therapy acceptable. Symptoms resolve?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Done.</label>
+</cell>
+<cell type="action" id="cell-5">
+<label>Pelvic examination; treat pathogens and consider urine culture.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Suspect pyelonephritis or high risk of treatment failure; urine culture and empiric therapy.</label>
+</cell>
+<footnotes>
+<footnote>History of structural kidney disease, recent instrumentation or indwelling catheter, diabetes mellitus, renal lithiasis, immunosuppression, or pregnancy.</footnote>
+<footnote>From Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? <em>JAMA</em> 2002;<strong>287</strong>:2701-2710.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>232.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Recurrent Cystitis in Nonpregnant Women: Treatment.</title>
+<graphic href="eee0654-w0002.gif" />
+<cell type="start" id="cell-10">
+<label>Recurrent cystitis in nonpregnant women. &lt;2 UTIs per year?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Related to intercourse?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Postcoital prophylaxis or consider self-treatment.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Continuous antibiotic prophylaxis or consider self-treatment.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>&lt;2 UTIs per year.</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Consider self-diagnosis and self-treatment with antibiotics for 3 days.</label>
+</cell>
+</algorithm>
+</algorithms>

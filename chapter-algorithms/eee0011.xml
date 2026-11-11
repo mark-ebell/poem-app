@@ -37,7 +37,7 @@
 <label>CT or MRI, then reassess aortic diameter</label>
 </cell>
 <cell type="decision" id="cell-7">
-<label>LV echo findings: EF 55% or less, LVESD &gt;55 mm, LVEDD &gt;75 mm, or LVESI &gt;25 mm/m²?</label>
+<label><strong>LV echo findings:</strong> EF 55% or less, LVESD >55 mm, LVEDD >75 mm, or LVESI >25 mm/m²?</label>
 <path target="cell-6">Yes</path>
 <path target="cell-4">No</path>
 <path target="cell-12">Indeterminate</path>

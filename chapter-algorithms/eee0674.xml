@@ -1,0 +1,53 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>382.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Hemoptysis (Nonmassive): Management.</title>
+<graphic href="eee0674-w001.gif" />
+<cell type="start" id="cell-1">
+<label>History and physical examination, pH, and appearance of material suggest hemoptysis and lower respiratory tract source?</label>
+<path target="cell-2">No</path>
+<path target="cell-3">Yes</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>Hematemesis or upper airway source. Treat appropriately, consider referral for upper endoscopy.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Order CT or CTA of chest with IV contrast or CXR. </label>
+<path target="cell-4">Normal</path>
+<path target="cell-5">Abnormal</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>History suggests RTI.</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Observe, or consider bronchoscopy or high-resolution chest CT.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Consider antibiotics. Symptoms resolve?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>No further evaluation.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>High resolution chest CT &#x00B1; bronchoscopy.</label>
+<path target="cell-9">Specific diagnosis</path>
+<path target="cell-10">Nondiagnostic</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Treat as appropriate.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Laboratory evaluation: Initially INR, CBC with platelets, sedimentation rate, sputum for gram stain, acid fast bacilli, cytology, and PPD test.</label>
+<path target="cell-9"></path>
+</cell>
+</algorithm>
+</algorithms>

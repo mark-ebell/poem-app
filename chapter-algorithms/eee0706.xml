@@ -1,0 +1,50 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>282.4</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Polymyalgia Rheumatica: Management .</title>
+<graphic href="eee0706-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Older adult with abrupt onset of shoulder or pelvic girdle pain; ESR &gt;30 mm&#x002F;h or CRP &gt;6 mg&#x002F;dL?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Any evidence of RA, inflammatory arthritis, or malignant neoplasm?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Any evidence of muscle disease, neurologic disorders (Parkinson's), or pain syndromes (fibromyalgia)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Any evidence of temporal arteritis or giant cell arteritis (TA)?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-6">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Probable PMR; improves with corticosteroids?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>PMR very likely; long-term, low-dose corticosteroids with gradual tapering over months to years.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>High-dose steroids and temporal artery biopsy.</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider other cause or coexisting conditions such as depression, osteoarthritis, or other degenerative conditions of the spine, shoulders, and hips.</label>
+</cell>
+<footnotes>
+<footnote>Data from Dasgupta B, Matteson EL, Maradit-Kremers H. Management guidelines and outcome measures in polymyalgia rheumatica (PMR). <em>Clin Exp Rheumatol</em> 2007;<strong>25</strong>:130-136.<xref ref="pubmed18021518" resource="acc020" />
+</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

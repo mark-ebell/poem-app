@@ -1,0 +1,145 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>072.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Adult Female With Dysuria: Management.</title>
+<graphic href="eee0639-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Adult female with dysuria</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Complicating factors such as diabetes, pregnancy, flank pain, or recent catheterization?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Symptoms or risk of other genitourinary disease such as vaginal discharge or new sexual partner?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Patient&#x002F;provider preference for empiric treatment without urinalysis?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Urinalysis.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Pyuria or dipstick abnormal?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Evaluation by provider.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Short course of antibiotic therapy for UTI.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Short course of antibiotic therapy for UTI.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>UA (hold for culture), KOH&#x002F;wet mount, GC&#x002F;chlamydia probe.</label>
+<path target="cell-8">Pyuria or dipstick abnormal</path>
+<path target="cell-12">Other finding</path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Organisms seen by microscopy?</label>
+<path target="cell-13">Yes</path>
+<path target="cell-14">No</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Appropriate antibiotic therapy for infection.</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Empiric antibiotic therapy for STD or await probe.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Urinalysis and hold for culture.</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Pyuria or dipstick abnormal?</label>
+<path target="cell-17">Yes</path>
+<path target="cell-16">No</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Consider other diagnosis.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>At least 7-day course of antibiotic therapy for UTI.</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>072.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Adult Male With Dysuria: Management.</title>
+<graphic href="eee0639-w0002.gif" />
+<cell type="start" id="cell-18">
+<label>Adult male with dysuria</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>Penile discharge, sexually active?</label>
+<path target="cell-22">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>Tender prostate?</label>
+<path target="cell-24">Yes</path>
+<path target="cell-23">No</path>
+</cell>
+<cell type="decision" id="cell-23">
+<label>Penile lesion, herpes suspected?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-25">No</path>
+</cell>
+<cell type="decision" id="cell-25">
+<label>Tender testicle?</label>
+<path target="cell-27">Yes</path>
+</cell>
+<cell type="action" id="cell-27">
+<label>Antibiotic therapy for epididymitis.</label>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Urinalysis and hold for culture. Pyuria or dipstick abnormal?</label>
+<path target="cell-28">Yes</path>
+<path target="cell-19">No</path>
+</cell>
+<cell type="action" id="cell-28">
+<label>Antibiotic therapy for cystitis.</label>
+</cell>
+<cell type="decision" id="cell-22">
+<label>First void urine for GC&#x002F;chlamydia. Pyuria or dipstick abnormal?</label>
+<path target="cell-29">Yes</path>
+<path target="cell-21">No</path>
+</cell>
+<cell type="action" id="cell-29">
+<label>Antibiotic therapy for urethritis or empiric therapy for STD.</label>
+</cell>
+<cell type="action" id="cell-24">
+<label>Urine for culture, after gentle prostatic massage.</label>
+<path target="cell-30"></path>
+</cell>
+<cell type="action" id="cell-30">
+<label>Empiric antibiotic therapy for prostatitis while awaiting culture results.</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>HSV culture.</label>
+<path target="cell-31"></path>
+</cell>
+<cell type="action" id="cell-31">
+<label>Antiviral medication for herpes.</label>
+</cell>
+</algorithm>
+</algorithms>

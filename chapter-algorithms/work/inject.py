@@ -44,6 +44,18 @@ def renumber(alg):
         return f'id="cell-{n[0]}"'
     return re.sub(r'id="(?!cell-\d+")[^"]*"(?=>\s*<label)', sub, alg)
 
+def relabel(orig, text):
+    # New text for a box. Text containing "<" is used as markup as it stands. Otherwise the
+    # links and SORT ratings of the original box are kept: "Table 1", "Figure 2" or "Algorithm 2"
+    # become the original's links (in order), and "(A)"/"(B)"/"(C)" its evidence ratings.
+    new = text if '<' in text else escape(text)
+    refs = iter(re.findall(r'<xref\b[^>]*/>|<xref\b[^>]*>[\s\S]*?</xref>', orig))
+    if '<xref' in orig:
+        new = re.sub(r'\b(?:Table|Figure|Algorithm) \d+', lambda m: next(refs, m.group(0)), new)
+    if '<evidence' in orig:
+        new = re.sub(r' \(([ABC])\)', r'<evidence rating="\1" system="SORT">\1</evidence>', new)
+    return new
+
 def apply(alg, ops):
     alg = renumber(alg)
     cells = re.findall(r'<cell\b[^>]*>[\s\S]*?</cell>', alg)
@@ -65,7 +77,7 @@ def apply(alg, ops):
                 raise ValueError(f'arrow {op}: no such box')
             info[a]['paths'].append((b, escape(lab.strip())))
         elif m := re.match(r'~(\d+)\s+(.*)$', op):
-            info[m.group(1)]['label'] = escape(m.group(2).strip())
+            info[m.group(1)]['label'] = relabel(info[m.group(1)]['label'], m.group(2).strip())
         elif m := re.match(r'\+(\d+)\s+(\w+):\s*(.*)$', op):
             n, typ, text = m.groups()
             if n in info:

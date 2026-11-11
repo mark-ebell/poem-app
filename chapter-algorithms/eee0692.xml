@@ -1,0 +1,62 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>015</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Sleep Apnea: Diagnosis and Treatment.</title>
+<graphic href="eee0692-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>
+<resourceLink href="info:wiley/eep-guideline/9076">Signs or symptoms of OSAHS</resourceLink>
+</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>A typical or complicating symptoms?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Refer to sleep physician or other subspecialist</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Sleep study</label>
+<path target="cell-5"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Diagnosis of OSA?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Life-style modification</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="action" id="cell-7">
+<label>Mild OSA - Consider PAP, OA Moderate-to-severe OSA - Prescribe PAP or OA</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>One month follow-up</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Treatment successful?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Refer, Consider surgery</label>
+<path target="cell-11"></path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Follow-up</label>
+</cell>
+<footnotes>
+<footnote>.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

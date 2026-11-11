@@ -40,4 +40,49 @@
 <label>Treat underlying condition. May require subspecialist referral.</label>
 </cell>
 </algorithm>
+<algorithm id="fig002">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>General Approach to Adults with Suspected ADHD.</title>
+<graphic href="eee0621-w0002-y.gif" />
+<cell type="start" id="cell-9">
+<label>You suspect ADHD because of inattention, impulsivity and&#x002F;or hyperactivity leading to pervasive impairment. Significant crisis?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Apply DSM-V.</label>
+<path target="cell-12">Does not meet criteria</path>
+<path target="cell-13">Meets criteria</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Immediate referral&#x002F;consultation.</label>
+</cell>
+<cell type="action" id="cell-12">
+<label>Focused counseling&#x002F;evaluation.</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Present before age 12 years?</label>
+<path target="cell-14">No</path>
+<path target="cell-15">Yes</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider other etiology; ie, substance abuse, head trauma.</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Is patient in school or going back to school, or in a profession where the possible use of a controlled substance needs to be documented?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Suggest neuropsychological testing and&#x002F;or psychiatric consult if there's concern about any comorbidity.</label>
+<path target="cell-17"></path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Educate patient and family about disorder; daily exercise; pharmacotherapy; specialized counseling for comorbid issues or behavioral problems; participate in advocacy and support groups.</label>
+</cell>
+</algorithm>
 </algorithms>

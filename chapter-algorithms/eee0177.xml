@@ -45,7 +45,7 @@
 <label>Continue diet components and well-child exams.</label>
 </cell>
 <cell type="action" id="cell-10">
-<label>Add medications (Table 1).</label>
+<label>Add medications (<xref ref="table001" />).</label>
 <path target="cell-11"></path>
 </cell>
 <cell type="decision" id="cell-11">
@@ -113,7 +113,7 @@
 <path target="cell-25">No</path>
 </cell>
 <cell type="action" id="cell-24">
-<label>Prescribe oral or rectal clean-out (Table 1).</label>
+<label>Prescribe oral or rectal clean-out (<xref ref="table001" />).</label>
 <path target="cell-26"></path>
 </cell>
 <cell type="decision" id="cell-26">

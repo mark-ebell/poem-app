@@ -33,10 +33,10 @@
 <path target="cell-10">No</path>
 </cell>
 <cell type="action" id="cell-9">
-<label>Consider extrahepatic cholestasis (see Table 2).</label>
+<label>Consider extrahepatic cholestasis (see <xref ref="table001" />).</label>
 </cell>
 <cell type="action" id="cell-10">
-<label>Conjugated hyperbilirubinemia with possible hepatocellular damage (see Table 2).</label>
+<label>Conjugated hyperbilirubinemia with possible hepatocellular damage (see <xref ref="table001" />).</label>
 <path target="cell-11"></path>
 </cell>
 <cell type="decision" id="cell-11">
@@ -61,10 +61,10 @@
 <path target="cell-12">No</path>
 </cell>
 <cell type="action" id="cell-5">
-<label>Unconjugated hyperbilirubinemia (urine negative for bilirubin; normal direct bilirubin; see Table 2).</label>
+<label>Unconjugated hyperbilirubinemia (urine negative for bilirubin; normal direct bilirubin; see <xref ref="table001" />).</label>
 </cell>
 <cell type="action" id="cell-3">
-<label>Pseudojaundice (normal laboratory evaluation; see Table 2).</label>
+<label>Pseudojaundice (normal laboratory evaluation; see <xref ref="table001" />).</label>
 </cell>
 </algorithm>
 </algorithms>

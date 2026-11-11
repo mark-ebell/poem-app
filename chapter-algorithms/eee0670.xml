@@ -1,0 +1,52 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>296.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Croup: Management (Based on Severity at Presentation).</title>
+<graphic href="eee0670-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Assess severity (see <xref ref="table001" />).</label>
+<path target="cell-5">Mild (no stridor or retractions at rest)</path>
+<path target="cell-7">Moderate (stridor and retractions at rest, no agitation)</path>
+<path target="cell-9">Severe (stridor and retractions with agitation or lethargy)</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Give oral dexamethasone (0.6 mg&#x002F;kg).</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="action" id="cell-6">
+<label>May discharge home.</label>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Minimize intervention. Give oral dexamethasone (0.6 mg&#x002F;kg). Retractions and stridor improve?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>No or minimal improvement by 4 h: consider hospitalization.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Minimize intervention. Provide blow-by oxygen if patient is cyanotic. Give oral dexamethasone (0.6 mg&#x002F;kg); may repeat once. Give nebulized epinephrine. Good response?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Observe for 2 h. Recurrence of severe respiratory distress?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider hospitalization if: (1) patient received steroid &#x003E;4 hours ago, (2) continued moderate respiratory distress (stridor and retractions at rest) without agitation or lethargy, or (3) cannot ensure adequate observation and follow-up at home.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Repeat nebulized epinephrine, contact ICU for admission.</label>
+</cell>
+<footnotes>
+<footnote>Data from Guideline for the diagnosis and management of croup. Alberta, ON, Canada: Alberta Medical Association, 2007. [http:&#x002F;&#x002F;www.topalbertadoctors.org&#x002F;NR&#x002F;rdonlyres&#x002F;B072F5EF-1728-4BED-A88A68A99341B98A&#x002F;0&#x002F;croup&#x005F;guideline.pdf].</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

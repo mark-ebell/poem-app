@@ -1,0 +1,136 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>101.3</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Schizophrenia: Diagnosis.</title>
+<graphic href="eee0631-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Patient has psychotic symptoms</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Medical illness, medication effect, substance use present?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Diagnosis present in the setting of affective symptoms?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Psychotic symptoms present &lt;1 month?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Nonbizarre delusions only?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Odd beliefs&#x002F;perceptual distortions, but no overt criteria A symptoms?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Psychotic symptoms meet criteria A for &gt;1 month, but &lt;6 months total of all symptoms?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Psychotic symptoms meet criteria A for &gt;1 month and total time of illness &gt;6 months?</label>
+<path target="cell-15">Yes</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Schizophrenia (see acute phase treatment algorithm).</label>
+</cell>
+<cell type="action" id="cell-14">
+<label>Schizophreniform disorder. Treat (see acute phase treatment algorithm). Symptoms persist?</label>
+<path target="cell-15">Symptoms persist &gt;6 months</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider schizotypal personality disorder.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider delusional disorder.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider brief reactive psychosis.</label>
+</cell>
+<cell type="action" id="cell-6">
+<label>Consider bipolar, schizoaffective, psychotic depression.</label>
+</cell>
+<cell type="action" id="cell-4">
+<label>Treat and observe.</label>
+<path target="cell-16"></path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Symptoms persist?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="action" id="cell-17">
+<label>Consider psychosis secondary to medical cause or substance use.</label>
+</cell>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>101.4</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Schizophrenia: Treatment.</title>
+<graphic href="eee0631-w0002-y.gif" />
+<cell type="start" id="cell-20">
+<label>Psychotic symptoms.</label>
+<path target="cell-21"></path>
+</cell>
+<cell type="decision" id="cell-21">
+<label>First episode?</label>
+<path target="cell-23">Yes</path>
+<path target="cell-22">No</path>
+</cell>
+<cell type="action" id="cell-23">
+<label>Choose an oral antipsychotic other than clozapine; titrate to target dose (see <xref ref="table001" />) and observe for 6-8 weeks.</label>
+<path target="cell-24"></path>
+</cell>
+<cell type="decision" id="cell-24">
+<label>Response without intolerable side effects?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-25">Partial</path>
+<path target="cell-27">No</path>
+</cell>
+<cell type="decision" id="cell-25">
+<label>Consider treatment for another 3-6 months.</label>
+<path target="cell-30"></path>
+</cell>
+<cell type="action" id="cell-26">
+<label>Maintenance treatment for 1-2 years; consider indefinite treatment, particularly if patient had previous episodes.</label>
+</cell>
+<cell type="action" id="cell-27">
+<label>Switch to a different oral antipsychotic other than Clozapine for 6-8 week trail at target dose.</label>
+<path target="cell-28"></path>
+</cell>
+<cell type="decision" id="cell-28">
+<label>Response without intolerable side effects?</label>
+<path target="cell-26">Yes</path>
+<path target="cell-25">Partial</path>
+<path target="cell-29">No</path>
+</cell>
+<cell type="action" id="cell-29">
+<label>Consider trial of Clozapine after failure of two agents (at least one second-generation agent).</label>
+</cell>
+<cell type="action" id="cell-22">
+<label>&#x2022; Assess history of prior response and current clinical situation. Choose safest agent with history of positive response (first or second generation). &#x2022; Titrate to target dose and observe 6-8 weeks.</label>
+<path target="cell-24"></path>
+</cell>
+<cell type="action" id="cell-30">
+<label>Reassess response without intolerable side effects (above).</label>
+</cell>
+</algorithm>
+</algorithms>

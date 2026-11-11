@@ -1,0 +1,44 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>644</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Hydronephrosis: Diagnosis.</title>
+<graphic href="eee0644-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Hydronephrosis on prenatal ultrasound. Order ultrasound postnatally at 1 week and 1 month. Both results normal?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="action" id="cell-2">
+<label>No further workup necessary.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Order VCUG. Vesicoureteral reflux?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Dimercaptosuccinic acid scan.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>APPD &lt;10 mm (on postnatal ultrasound)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Serial ultrasounds.</label>
+<path target="cell-7">If not resolving</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Order diuretic renography. Consistent with decreased or worsening renal function and&#x002F;or obstruction?</label>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider pyeloplasty.</label>
+</cell>
+</algorithm>
+</algorithms>
