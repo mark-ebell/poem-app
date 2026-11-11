@@ -69,7 +69,7 @@ async function updatePoemMesh({ log = console.log } = {}) {
 function studyPmids() {
   const ids = new Set();
   try {
-    const calc = require('./calculator-data.json');
+    const calc = require('./calculator-data').get();
     for (const p of calc.panels) for (const t of p.tests) if (/^\d+$/.test(String(t.pmid || ''))) ids.add(String(t.pmid));
   } catch { /* no calculator data */ }
   try {

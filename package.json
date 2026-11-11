@@ -13,6 +13,7 @@
     "mesh": "node mesh.js",
     "mesh-synonyms": "node build-mesh-synonyms.js",
     "build-chapters": "node build-chapters.js",
+    "build-calculators": "node calculator-build.js",
     "chapter-batch": "node chapter-batch.js",
     "undo-import": "node undo-import.js",
     "chapter-assignments": "node import-chapter-assignments.js"

@@ -177,10 +177,13 @@ function linkHtml(link) {
 
 // ---------- Calculator links ----------
 // SxDxNum -> 'symptom → disease' for each calculator, for the link text.
-function loadCalculatorLabels(file = path.join(__dirname, 'calculator-data.json')) {
+// source: the calculator data (default: what the app is using, calculator-data.js) or a file path.
+function loadCalculatorLabels(source) {
   const labels = { signs: new Map(), tests: new Map() };
   let data;
-  try { data = JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return labels; }
+  try {
+    data = typeof source === 'string' ? JSON.parse(fs.readFileSync(source, 'utf8')) : source || require('./calculator-data').get();
+  } catch { return labels; }
   for (const panel of data.panels || []) {
     const which = panel.key === 'signsSymptoms' ? 'signs' : 'tests';
     const counts = new Map();

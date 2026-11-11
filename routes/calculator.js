@@ -1,13 +1,11 @@
 // The Diagnostic Tests, Signs and Symptoms and Differential Diagnosis tabs (the
 // Bayesian diagnostic calculator from the Diagnostic App project). Their data,
 // calculator-data.json, is written by that project's build/build.py from its
-// spreadsheets.
+// spreadsheets, or uploaded in the app (calculator-data.js).
 //
 // To keep the data from being copied wholesale, the page never receives all of
 // it: the menus are fetched one level at a time, and an entry's numbers and
 // source only when someone picks it, which counts toward a reader's usage limits.
-const path = require('path');
-const fs = require('fs');
 const express = require('express');
 const { requireAuth } = require('../auth');
 const { quota } = require('../limits');
@@ -15,14 +13,14 @@ const { quota } = require('../limits');
 const router = express.Router();
 router.use(requireAuth);
 
-const DATA_FILE = path.join(__dirname, '..', 'calculator-data.json');
-let data = { panels: [], differentials: [] };
-try {
-  data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-} catch (err) {
-  console.warn(`Calculator data not loaded (${err.message}); the calculator tabs will be empty.`);
+const calculatorData = require('../calculator-data');
+let data, panels;
+function use(d) {
+  data = { panels: d.panels || [], differentials: d.differentials || [] };
+  panels = new Map(data.panels.map(p => [p.key, p]));
 }
-const panels = new Map(data.panels.map(p => [p.key, p]));
+use(calculatorData.get());
+calculatorData.onChange(use); // spreadsheets uploaded in the app
 
 function panelFor(req, res) {
   const panel = panels.get(req.params.panel);

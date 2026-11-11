@@ -166,6 +166,26 @@
         <div id="wordPreview"></div>
       </details>
 
+      <details id="calcUpload" class="card hidden">
+        <summary>Administrator: update the diagnostic calculators from the spreadsheets</summary>
+        <p class="hint">Upload either or both spreadsheets from the Diagnostic App project. A spreadsheet you leave out keeps the data now in use. Press Check to see what would change and any problems; nothing changes on the site until you press Publish. Earlier versions are kept and can be put back.</p>
+        <div class="field-row evidence-fields">
+          <label>Diagnostic tests and signs &amp; symptoms (DiagnosticCalculatorApp.xlsx)
+            <input type="file" id="calcFileCalc" accept=".xlsx">
+          </label>
+          <label>Differential diagnosis (DifferentialDiagnosisData.xlsx)
+            <input type="file" id="calcFileDdx" accept=".xlsx">
+          </label>
+        </div>
+        <div class="evidence-actions">
+          <button type="button" id="calcCheckBtn" disabled>Check</button>
+          <button type="button" id="calcPublishBtn" class="hidden">Publish</button>
+          <span id="calcStatus" class="hint"></span>
+        </div>
+        <div id="calcReport"></div>
+        <div id="calcUsing" class="calc-using"></div>
+      </details>
+
       <section class="card">
         <h2>Recently added POEMs</h2>
         <div id="library"></div>

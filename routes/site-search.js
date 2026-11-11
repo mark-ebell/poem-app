@@ -59,8 +59,9 @@ function searchChapters(q) {
 }
 
 // ---------- Calculators ----------
-let calc = { panels: [] };
-try { calc = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'calculator-data.json'), 'utf8')); } catch { /* no calculator data */ }
+const calculatorData = require('../calculator-data');
+let calc = calculatorData.get();
+calculatorData.onChange(d => { calc = d; });
 const panelOf = key => calc.panels.find(p => p.key === key) || { tests: [] };
 
 // Results by symptom / disease pair (a topic such as chest pain has hundreds of findings):

@@ -1031,3 +1031,14 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .alg-side .level-row.level-2 td:first-child { border-left: 4px solid #eab308; }
 .alg-side .level-row.level-3 td:first-child { border-left: 4px solid #f97316; }
 .alg-side .level-row.level-4 td:first-child { border-left: 4px solid #dc2626; }
+
+/* Calculator spreadsheet upload (administrators) */
+.calc-changes { border-collapse: collapse; margin: 0.8rem 0; font-size: 0.9rem; }
+.calc-changes th, .calc-changes td { border: 1px solid var(--border, #ddd); padding: 0.25rem 0.6rem; text-align: right; }
+.calc-changes td:first-child, .calc-changes th:first-child { text-align: left; }
+.calc-list { margin: 0.4rem 0; font-size: 0.9rem; }
+.calc-list summary { cursor: pointer; }
+.calc-list ul { margin: 0.3rem 0 0.3rem 1.2rem; max-height: 18rem; overflow: auto; }
+.calc-errors summary { color: #b00020; font-weight: 600; }
+.calc-warnings summary { color: #8a5a00; }
+.calc-using { margin-top: 0.8rem; border-top: 1px solid var(--border, #ddd); padding-top: 0.5rem; }

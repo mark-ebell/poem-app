@@ -4,6 +4,7 @@ import { loadCalculators, openCalculatorTab, openCalculatorAt, openCalculatorIte
 import { loadChapters, openChapter } from './chapters.js';
 import { loadChapterEditor } from './chapter-editor.js';
 import { loadTools, openTool } from './tools.js';
+import { loadCalculatorUpload } from './calculator-upload.js';
 
 const els = {};
 [
@@ -2095,6 +2096,7 @@ function applyRole() {
 async function init(user) {
   currentUser = user;
   els.wordImport.classList.toggle('hidden', user.username !== 'ebell');
+  if (user.username === 'ebell') loadCalculatorUpload(api, showLogin);
   showApp(user);
   applyRole();
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));

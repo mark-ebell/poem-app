@@ -90,6 +90,8 @@ try {
 const fileIds = new Set(index.map(c => c.id));
 let calcLabels = null;
 const labels = () => (calcLabels = calcLabels || loadCalculatorLabels());
+// New calculator data (uploaded spreadsheets) changes which calculator links chapters show.
+require('./calculator-data').onChange(() => { calcLabels = null; cache.clear(); });
 
 const sha = s => crypto.createHash('sha256').update(s).digest('hex').slice(0, 16);
 const isId = id => /^[a-z0-9]+$/.test(id);

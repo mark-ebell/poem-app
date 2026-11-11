@@ -133,4 +133,110 @@ router.post('/import-word/commit', requireAdmin, async (req, res) => {
   }
 });
 
+
+// ---------- Calculator spreadsheets (administrators) ----------
+// The Diagnostic App project's spreadsheets are uploaded here, checked, compared with the
+// data in use, and published (calculator-build.js, calculator-data.js). Each upload is
+// kept while it is being checked, per administrator.
+const calculatorData = require('../calculator-data');
+const { build: buildCalculator, compare: compareCalculator } = require('../calculator-build');
+const pendingCalc = new Map(); // username -> { calc: { name, buf }, ddx: { name, buf }, built }
+
+// SxDxNums the chapters link to: { tests: Set, signs: Set } (from chapters/xml).
+function chapterCalcLinks() {
+  const out = { tests: new Map(), signs: new Map() };
+  const dir = path.join(__dirname, '..', 'chapters', 'xml');
+  let files = [];
+  try { files = fs.readdirSync(dir).filter(f => f.endsWith('.xml')); } catch { return out; }
+  for (const f of files) {
+    const xml = fs.readFileSync(path.join(dir, f), 'utf8');
+    for (const m of xml.matchAll(/info:wiley\/eep-(dx|hp)\/(\d+)/g)) {
+      const map = out[m[1] === 'dx' ? 'tests' : 'signs'];
+      const n = Number(m[2]);
+      if (!map.has(n)) map.set(n, new Set());
+      map.get(n).add(f.replace(/\.xml$/i, '').toLowerCase());
+    }
+  }
+  return out;
+}
+const numbersIn = (d, key) => new Set(((d.panels || []).find(p => p.key === key) || { tests: [] }).tests.map(t => t.sxdxNum).filter(n => n !== null && n !== undefined));
+
+function calcStatus() {
+  const d = calculatorData.get();
+  return {
+    using: calculatorData.info(),
+    counts: { ...Object.fromEntries((d.panels || []).map(p => [p.label, p.tests.length])), 'Differential Diagnosis': (d.differentials || []).length },
+    history: calculatorData.history().slice(0, 20)
+  };
+}
+
+router.get('/calculator', requireAdmin, (req, res) => {
+  const p = pendingCalc.get(req.session.username) || {};
+  res.json({ ...calcStatus(), pending: { calc: p.calc ? p.calc.name : null, ddx: p.ddx ? p.ddx.name : null } });
+});
+
+// One spreadsheet. Query: which=calc (DiagnosticCalculatorApp.xlsx) or ddx
+// (DifferentialDiagnosisData.xlsx), name=the file's name. Body: the file.
+router.post('/calculator/file', requireAdmin, express.raw({ type: () => true, limit: '40mb' }), (req, res) => {
+  const which = req.query.which === 'ddx' ? 'ddx' : req.query.which === 'calc' ? 'calc' : null;
+  if (!which) return res.status(400).json({ error: 'Say which spreadsheet this is.' });
+  if (!req.body || !req.body.length) return res.status(400).json({ error: 'The file is empty.' });
+  const p = pendingCalc.get(req.session.username) || {};
+  p[which] = { name: String(req.query.name || `${which}.xlsx`).slice(0, 200), buf: req.body };
+  delete p.built;
+  pendingCalc.set(req.session.username, p);
+  res.json({ ok: true });
+});
+
+// Builds the data from the uploaded spreadsheet(s) and reports on it; nothing changes yet.
+router.post('/calculator/check', requireAdmin, async (req, res) => {
+  const p = pendingCalc.get(req.session.username);
+  if (!p || (!p.calc && !p.ddx)) return res.status(400).json({ error: 'Upload one or both spreadsheets first.' });
+  const current = calculatorData.get();
+  let result;
+  try {
+    result = await buildCalculator({ calcBuf: p.calc && p.calc.buf, ddxBuf: p.ddx && p.ddx.buf, current });
+  } catch (err) {
+    return res.status(400).json({ error: err.message });
+  }
+  const { data, report } = result;
+  // Chapter links that would stop working (and ones that would start to).
+  const links = chapterCalcLinks();
+  const lost = [], gained = [];
+  for (const [key, which, label] of [['diagnosticTests', 'tests', 'Diagnostic Tests'], ['signsSymptoms', 'signs', 'History & Physical']]) {
+    const before = numbersIn(current, key), after = numbersIn(data, key);
+    for (const [n, chapters] of links[which]) {
+      if (before.has(n) && !after.has(n)) lost.push(`${label} #${n} (${[...chapters].slice(0, 4).join(', ')}${chapters.size > 4 ? ', ...' : ''})`);
+      if (!before.has(n) && after.has(n)) gained.push(`${label} #${n}`);
+    }
+  }
+  if (lost.length) report.warnings.push(`${lost.length} chapter link${lost.length === 1 ? '' : 's'} to the calculators would stop working (the link is hidden): ${lost.slice(0, 12).join('; ')}${lost.length > 12 ? '; ...' : ''}.`);
+  if (gained.length) report.notes.push(`${gained.length} chapter link${gained.length === 1 ? '' : 's'} that had no calculator data would start working: ${gained.slice(0, 12).join(', ')}${gained.length > 12 ? ', ...' : ''}.`);
+  p.built = report.errors.length ? null : data;
+  res.json({ report, changes: compareCalculator(current, data), files: { calc: p.calc ? p.calc.name : null, ddx: p.ddx ? p.ddx.name : null }, canPublish: !report.errors.length });
+});
+
+router.post('/calculator/publish', requireAdmin, (req, res) => {
+  const p = pendingCalc.get(req.session.username);
+  if (!p || !p.built) return res.status(400).json({ error: 'Check the spreadsheets first (and fix any errors).' });
+  calculatorData.publish(p.built, { by: req.session.username, files: [p.calc && p.calc.name, p.ddx && p.ddx.name].filter(Boolean) });
+  pendingCalc.delete(req.session.username);
+  res.json({ ok: true, ...calcStatus() });
+});
+
+router.post('/calculator/discard', requireAdmin, (req, res) => {
+  pendingCalc.delete(req.session.username);
+  res.json({ ok: true });
+});
+
+// Body: { name } of an earlier upload, or 'code' for the file in the code.
+router.post('/calculator/restore', requireAdmin, (req, res) => {
+  try {
+    calculatorData.restore(String((req.body && req.body.name) || ''));
+  } catch (err) {
+    return res.status(400).json({ error: err.message });
+  }
+  res.json({ ok: true, ...calcStatus() });
+});
+
 module.exports = router;
