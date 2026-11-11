@@ -46,7 +46,7 @@
         <label>Confirm password
           <input type="password" id="signupConfirm" autocomplete="new-password" required>
         </label>
-        <label class="inline-check terms-check"><input type="checkbox" id="signupTerms"> <span>I agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a>, including that I will not copy POEMs, chapters, risk scores, or any InfoRetriever content in bulk or use them to train AI systems.</span></label>
+        <label class="inline-check terms-check"><input type="checkbox" id="signupTerms"> <span data-i18n>I agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a>, including that I will not copy POEMs, chapters, risk scores, or any InfoRetriever content in bulk or use them to train AI systems.</span></label>
         <div id="turnstileBox" class="turnstile-box"></div>
         <button type="submit" id="signupBtn">Create account</button>
         <p id="signupError" class="error-msg hidden"></p>
@@ -122,12 +122,12 @@
     </section>
 
     <nav class="tabs">
-      <button type="button" class="tab-btn active" id="tabBtnSearch" data-tab="search"><span class="tab-long">Search<br>IR</span><span class="tab-short">Search IR</span></button>
-      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters"><span class="tab-long">Browse<br>Chapters</span><span class="tab-short">Chapters</span></button>
-      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long">Risk<br>Scores</span><span class="tab-short">Risk scores</span></button>
-      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests"><span class="tab-long">Diagnostic<br>Tests</span><span class="tab-short">Tests</span></button>
-      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs"><span class="tab-long">History &amp;<br>Physical</span><span class="tab-short">H&amp;P</span></button>
-      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx"><span class="tab-long">Differential<br>Diagnosis</span><span class="tab-short">Diff dx</span></button>
+      <button type="button" class="tab-btn active" id="tabBtnSearch" data-tab="search"><span class="tab-long" data-i18n>Search<br>IR</span><span class="tab-short">Search IR</span></button>
+      <button type="button" class="tab-btn" id="tabBtnChapters" data-tab="chapters"><span class="tab-long" data-i18n>Browse<br>Chapters</span><span class="tab-short">Chapters</span></button>
+      <button type="button" class="tab-btn" id="tabBtnTools" data-tab="tools"><span class="tab-long" data-i18n>Risk<br>Scores</span><span class="tab-short">Risk scores</span></button>
+      <button type="button" class="tab-btn" id="tabBtnTests" data-tab="tests"><span class="tab-long" data-i18n>Diagnostic<br>Tests</span><span class="tab-short">Tests</span></button>
+      <button type="button" class="tab-btn" id="tabBtnSigns" data-tab="signs"><span class="tab-long" data-i18n>History &amp;<br>Physical</span><span class="tab-short">H&amp;P</span></button>
+      <button type="button" class="tab-btn" id="tabBtnDdx" data-tab="ddx"><span class="tab-long" data-i18n>Differential<br>Diagnosis</span><span class="tab-short">Diff dx</span></button>
       <button type="button" class="tab-btn" id="tabBtnUpload" data-tab="upload"><span class="tab-long">Upload<br>POEMs</span><span class="tab-short">Upload</span></button>
       <button type="button" class="tab-btn" id="tabBtnBrowse" data-tab="browse"><span class="tab-long">Browse<br>POEMs</span><span class="tab-short">Browse</span></button>
       <button type="button" class="tab-btn" id="tabBtnEdit" data-tab="edit"><span class="tab-long">Edit<br>POEMs</span><span class="tab-short">Edit POEMs</span></button>
@@ -135,7 +135,7 @@
       <button type="button" class="tab-btn" id="tabBtnEvidence" data-tab="evidence"><span class="tab-long">Evidence<br>Summary</span><span class="tab-short">Evidence</span></button>
     </nav>
 
-    <div id="tabUpload" class="tab-panel hidden">
+    <div id="tabUpload" translate="no" class="tab-panel hidden">
       <section class="card">
         <h2>Upload a research article (PDF)</h2>
         <p class="upload-help">Upload a research study (PDF) and press the button to generate the first draft of a POEM (Patient Oriented Evidence that Matters). The text of the article is sent to Claude, an AI assistant, which writes the draft; this can take up to a minute. The draft then opens in the Edit POEMs tab, where you can review and edit it, choose the POET and publication date, and save it to the repository. PDFs that are scanned images without a text layer cannot be read.</p>
@@ -192,7 +192,7 @@
       </section>
     </div>
 
-    <div id="tabBrowse" class="tab-panel hidden">
+    <div id="tabBrowse" translate="no" class="tab-panel hidden">
       <section class="card">
         <h2>Browse POEMs</h2>
         <div class="field-row browse-filters">
@@ -278,14 +278,14 @@
         </div>
         <template id="searchHelp">
           <h2>Instructions for searching</h2>
-          <p>Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. A word also finds its plural or singular (<code>allergies</code> finds allergy), and standard medical terms (MeSH) find their synonyms: <code>heart attack</code> finds myocardial infarction, <code>Eliquis</code> finds apixaban, and common abbreviations typed in capitals find their meaning (<code>DVT</code>, <code>UTI</code>, <code>COPD</code>). Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>.</p>
+          <p data-i18n>Use <b>AND</b>, <b>OR</b> and <b>NOT</b> (in capitals) to combine words, and brackets to group them. Put an exact phrase in quotes. Words with no operator between them are combined with AND. A word also finds its plural or singular (<code>allergies</code> finds allergy), and standard medical terms (MeSH) find their synonyms: <code>heart attack</code> finds myocardial infarction, <code>Eliquis</code> finds apixaban, and common abbreviations typed in capitals find their meaning (<code>DVT</code>, <code>UTI</code>, <code>COPD</code>). Use * for the rest of a word (<code>hypertens*</code> finds hypertension and hypertensive). Example: <code>"atrial fibrillation" AND dabigatran NOT warfarin</code>.</p>
         </template>
         <p id="searchCount" class="hint"></p>
         <div id="searchResults"></div>
       </section>
     </div>
 
-    <div id="tabEvidence" class="tab-panel hidden">
+    <div id="tabEvidence" translate="no" class="tab-panel hidden">
       <section class="card">
         <h2>Evidence Summary of POEMs, Cochrane library, systematic reviews and guidelines</h2>
         <form id="evidenceForm">
@@ -360,7 +360,7 @@
     </div>
 
     <!-- Edit Chapter (editors only): tracked-changes review of a chapter -->
-    <div id="tabChapterEdit" class="tab-panel hidden">
+    <div id="tabChapterEdit" translate="no" class="tab-panel hidden">
       <section class="card">
         <h2>Edit Chapter</h2>
         <p class="hint">Choose a chapter to review. <b>Update with Claude</b> finds guidelines, systematic reviews, trials and POEMs from the last 14 months and suggests changes; every change, Claude's and yours, is tracked for you to accept or reject. Save the chapter when every change has been reviewed.</p>
@@ -458,7 +458,7 @@
     </div>
 
     <!-- Insert reference (Edit Chapter) -->
-    <div id="refModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="refModalTitle">
+    <div id="refModal" translate="no" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="refModalTitle">
       <div class="modal">
         <div class="modal-bar">
           <h3 id="refModalTitle" class="info-modal-title">Insert reference</h3>
@@ -480,7 +480,7 @@
     </div>
 
     <!-- Algorithm editor (Edit Chapter; public/algorithm-editor.js) -->
-    <div id="algModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="algModalTitle">
+    <div id="algModal" translate="no" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="algModalTitle">
       <div class="modal alg-modal">
         <div class="modal-bar">
           <h3 id="algModalTitle" class="info-modal-title">Edit algorithm</h3>
@@ -522,7 +522,7 @@
     </div>
 
     <!-- Risk score editor (Risk Scores tab; public/tool-editor.js) -->
-    <div id="teModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="teModalTitle">
+    <div id="teModal" translate="no" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="teModalTitle">
       <div class="modal alg-modal">
         <div class="modal-bar">
           <h3 id="teModalTitle" class="info-modal-title">Edit risk score</h3>
@@ -713,7 +713,7 @@
           <span class="redflag-badge">⚑ Don't miss</span>
         </div>
       </section>
-      <p class="calc-note"><strong>About this tool.</strong> Rankings are qualitative clinical estimates of relative frequency among patients presenting with each finding in general adult primary care / ED settings &mdash; they are not derived from a specific cited study, and true frequency varies by age, setting, and population. The "Don't miss" flag marks diagnoses that are dangerous enough to always consider even when they are not the most likely cause; it is independent of the frequency ranking. This tool is for educational reference only and is not a substitute for clinical judgment.</p>
+      <p class="calc-note" data-i18n><strong>About this tool.</strong> Rankings are qualitative clinical estimates of relative frequency among patients presenting with each finding in general adult primary care / ED settings &mdash; they are not derived from a specific cited study, and true frequency varies by age, setting, and population. The "Don't miss" flag marks diagnoses that are dangerous enough to always consider even when they are not the most likely cause; it is independent of the frequency ranking. This tool is for educational reference only and is not a substitute for clinical judgment.</p>
     </div>
 
     <div id="poemModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="POEM">
@@ -725,7 +725,7 @@
       </div>
     </div>
 
-    <div id="tabEdit" class="tab-panel hidden">
+    <div id="tabEdit" translate="no" class="tab-panel hidden">
       <section class="card">
         <h2>Edit</h2>
 

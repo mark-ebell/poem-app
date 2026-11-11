@@ -3,6 +3,8 @@
 // get a small table of their own (result, likelihood ratio). Used by the chapters' Decision
 // support pop-up and the calculator tabs' "Compare all" panel.
 
+import { t as tr } from './i18n.js';
+
 function el(tag, className, text) {
   const e = document.createElement(tag);
   if (className) e.className = className;
@@ -33,14 +35,14 @@ export function summaryTable(headRows, rows) {
   const wrap = el('div', 'chapter-table-wrap');
   const table = el('table', 'chapter-table summary-table');
   for (const hr of headRows) {
-    const tr = el('tr');
+    const row = el('tr');
     for (const [text, cls, colspan, rowspan] of hr) {
       const th = el('th', cls || '', text);
       if (colspan) th.colSpan = colspan;
       if (rowspan) th.rowSpan = rowspan;
-      tr.appendChild(th);
+      row.appendChild(th);
     }
-    table.appendChild(tr);
+    table.appendChild(row);
   }
   for (const cells of rows) {
     const r = el('tr');
@@ -67,9 +69,12 @@ export function pretestStart(tests) {
 // Where the starting pre-test probability came from. verb: 'Enter' or 'Move the slider or enter'.
 export function pretestNote(tests, verb) {
   const { median, count, distinct } = pretestStart(tests);
-  return median === null
-    ? `No pre-test probability was reported; 50% is used. ${verb} your own estimate.`
-    : `From the cited ${count === 1 ? 'study' : 'studies'}${distinct > 1 ? ' (median)' : ''}. ${verb} your own estimate to update the table.`;
+  // Whole sentences, so that each language can word them in its own way.
+  const slider = /slider/.test(verb);
+  if (median === null) return slider ? tr('No pre-test probability was reported; 50% is used. Move the slider or enter your own estimate.') : tr('No pre-test probability was reported; 50% is used. Enter your own estimate.');
+  if (count === 1) return slider ? tr('From the cited study. Move the slider or enter your own estimate to update the table.') : tr('From the cited study. Enter your own estimate to update the table.');
+  if (distinct > 1) return slider ? tr('From the cited studies (median). Move the slider or enter your own estimate to update the table.') : tr('From the cited studies (median). Enter your own estimate to update the table.');
+  return slider ? tr('From the cited studies. Move the slider or enter your own estimate to update the table.') : tr('From the cited studies. Enter your own estimate to update the table.');
 }
 
 const label = test => test.name + (test.disambig ? ` (${test.disambig})` : '');

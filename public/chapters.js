@@ -4,6 +4,7 @@
 // SORT ratings). External links (PubMed, Cochrane, web sites) are ordinary links.
 import { markCiteRuns } from './cite-runs.js';
 import { pretestStart, pretestNote, renderSummaryTables } from './summary-table.js';
+import { t as tr, dateLocale } from './i18n.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
@@ -76,7 +77,7 @@ function showReference(n) {
     }
     body.appendChild(links);
   }
-  openInfo(`Reference ${ref.n}`, body, { small: true });
+  openInfo(tr('Reference {n}', { n: ref.n }), body, { small: true });
 }
 
 let summarySeq = 0; // ids for the pop-up's slider
@@ -132,7 +133,7 @@ async function showSummary(which, num) {
   reset.addEventListener('click', () => { slider.value = input.value = start; render(); });
   render();
 
-  const open = el('a', 'ref-pop-link', `Open the ${which === 'signs' ? 'H & P' : 'Tests'} calculator`);
+  const open = el('a', 'ref-pop-link', tr(which === 'signs' ? 'Open the H & P calculator' : 'Open the Tests calculator'));
   open.href = '#';
   open.dataset.calc = which;
   open.dataset.num = num;
@@ -215,7 +216,7 @@ function appendNotes(body, notes) {
 
 function showFigureImage(id) {
   const fig = current && current.figures.find(f => f.id === id);
-  if (fig) openInfo(`Figure ${fig.n}. ${fig.title}`, figureImageBody(fig));
+  if (fig) openInfo(`${tr('Figure {n}.', { n: fig.n })} ${fig.title}`, figureImageBody(fig));
 }
 
 function showTable(id) {
@@ -226,7 +227,7 @@ function showTable(id) {
   markCiteRuns(body);
   const title = el('div');
   title.innerHTML = t.caption;
-  openInfo(`Table ${t.n}. ${title.textContent}`, body);
+  openInfo(`${tr('Table {n}.', { n: t.n })} ${title.textContent}`, body);
 }
 
 function showFigure(id) {
@@ -242,7 +243,7 @@ function showFigure(id) {
     p.appendChild(a);
     body.appendChild(p);
   }
-  openInfo(`Figure ${fig.n}. ${fig.title}`, body);
+  openInfo(`${tr('Figure {n}.', { n: fig.n })} ${fig.title}`, body);
 }
 
 // An algorithm drawn as numbered steps (also the algorithm editor's preview).
@@ -269,7 +270,7 @@ export function flowBody(fig) {
       for (const p of outcomes) {
         const o = el('div', 'flow-outcome');
         const when = el('div', 'flow-when');
-        when.innerHTML = p.html ? `If ${p.html.charAt(0).toLowerCase()}${p.html.slice(1)}` : 'Then';
+        when.innerHTML = p.html ? `${tr('If')} ${p.html.charAt(0).toLowerCase()}${p.html.slice(1)}` : tr('Then');
         const what = el('div', 'flow-what');
         what.innerHTML = cells.get(p.target).html;
         o.append(when, what);
@@ -283,7 +284,7 @@ export function flowBody(fig) {
         const b = el('button', 'flow-jump');
         b.type = 'button';
         b.dataset.step = stepNo.get(p.target);
-        b.innerHTML = `${p.html || 'Next'} <span class="flow-go">→ Step ${stepNo.get(p.target)}</span>`;
+        b.innerHTML = `${p.html || tr('Next')} <span class="flow-go">→ ${tr('Step {n}', { n: stepNo.get(p.target) })}</span>`;
         choices.appendChild(b);
       }
       step.appendChild(choices);
@@ -356,7 +357,7 @@ export async function openChapter(id) {
 
 // A "Summary data" button for a calculator: opens a pop-up of its tests (showSummary).
 function summaryButton(which, num) {
-  const b = el('button', 'summary-btn', 'Summary data');
+  const b = el('button', 'summary-btn', tr('Summary data'));
   b.type = 'button';
   b.dataset.summaryCalc = which;
   b.dataset.num = num;
@@ -366,7 +367,7 @@ function summaryButton(which, num) {
 function formatDate(s) {
   const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(s || '');
   if (!m) return s || '';
-  return new Date(Number(m[3]), Number(m[1]) - 1, Number(m[2])).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return new Date(Number(m[3]), Number(m[1]) - 1, Number(m[2])).toLocaleDateString(dateLocale, { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 function renderChapter(c) {
@@ -376,7 +377,7 @@ function renderChapter(c) {
 
   const head = el('div', 'card chapter-head');
   head.appendChild(el('h2', 'chapter-title', c.title));
-  if (c.updated) head.appendChild(el('p', 'hint', `Last updated ${formatDate(c.updated)}`));
+  if (c.updated) head.appendChild(el('p', 'hint', tr('Last updated {date}', { date: formatDate(c.updated) })));
   if (c.authors.length) {
     const box = el('div', 'chapter-people');
     box.appendChild(el('h3', '', c.authors.length === 1 ? 'Author' : 'Authors'));
@@ -410,14 +411,14 @@ function renderChapter(c) {
   // Decision support: the chapter's algorithms, calculators and risk scores in one place.
   const ds = c.decisionSupport || {};
   const groups = [
-    ['Algorithms', c.figures.filter(f => f.kind === 'algorithm').map(f => ({ text: `Figure ${f.n}. ${f.title}`, data: { fig: f.id } }))],
-    ['History and physical calculators', (ds.signs || []).map(x => ({ text: x.label, data: { calc: 'signs', num: x.num } }))],
-    ['Diagnostic test calculators', (ds.tests || []).map(x => ({ text: x.label, data: { calc: 'tests', num: x.num } }))],
-    ['Risk scores', (ds.riskScores || []).map(x => ({ text: x.label, href: x.href }))]
+    [tr('Algorithms'), c.figures.filter(f => f.kind === 'algorithm').map(f => ({ text: `${tr('Figure {n}.', { n: f.n })} ${f.title}`, data: { fig: f.id } }))],
+    [tr('History and physical calculators'), (ds.signs || []).map(x => ({ text: x.label, data: { calc: 'signs', num: x.num } }))],
+    [tr('Diagnostic test calculators'), (ds.tests || []).map(x => ({ text: x.label, data: { calc: 'tests', num: x.num } }))],
+    [tr('Risk scores'), (ds.riskScores || []).map(x => ({ text: x.label, href: x.href }))]
   ].filter(([, items]) => items.length);
   if (groups.length) {
     const det = el('details', 'chapter-section chapter-decision');
-    det.appendChild(el('summary', '', 'Decision support'));
+    det.appendChild(el('summary', '', tr('Decision support')));
     const body = el('div', 'chapter-section-body');
     for (const [label, items] of groups) {
       const part = el('div', 'chapter-part');
@@ -461,13 +462,13 @@ function renderChapter(c) {
 
   if ((c.tables || []).length) {
     const det = el('details', 'chapter-section chapter-tables');
-    det.appendChild(el('summary', '', 'Tables'));
+    det.appendChild(el('summary', '', tr('Tables')));
     const body = el('div', 'chapter-section-body');
     for (const t of c.tables) {
       const part = el('div', 'chapter-part');
       part.id = `table-${t.id}`;
       const h = el('h4');
-      h.innerHTML = `Table ${t.n}. ${t.caption}`;
+      h.innerHTML = `${tr('Table {n}.', { n: t.n })} ${t.caption}`;
       const content = el('div', 'chapter-content');
       content.innerHTML = t.html; // prepared by chapter-convert.js from escaped text
       part.append(h, content);
@@ -480,12 +481,12 @@ function renderChapter(c) {
 
   if (c.figures.length) {
     const det = el('details', 'chapter-section');
-    det.appendChild(el('summary', '', 'Figures'));
+    det.appendChild(el('summary', '', tr('Figures')));
     const body = el('div', 'chapter-section-body');
     const ul = el('ul');
     for (const f of c.figures) {
       const li = el('li');
-      const a = el('a', 'fig-link', `Figure ${f.n}. ${f.title}`);
+      const a = el('a', 'fig-link', `${tr('Figure {n}.', { n: f.n })} ${f.title}`);
       a.href = '#';
       a.dataset.fig = f.id;
       li.appendChild(a);
@@ -499,7 +500,7 @@ function renderChapter(c) {
   if (c.references.length) {
     const det = el('details', 'chapter-section chapter-references');
     det.id = 'chapterReferences';
-    det.appendChild(el('summary', '', 'References'));
+    det.appendChild(el('summary', '', tr('References')));
     const ol = el('ol', 'chapter-ref-list');
     for (const r of c.references) {
       const li = el('li');
@@ -541,7 +542,7 @@ export function loadChapters(apiFn, hookFns) {
   loaded = loaded || api('/chapters').then(({ chapters: list }) => {
     chapters = list;
     renderList();
-  }).catch(err => { loaded = null; $('chapterCount').textContent = `Could not load the chapters: ${err.message}`; });
+  }).catch(err => { loaded = null; $('chapterCount').textContent = tr('Could not load the chapters: {msg}', { msg: tr(err.message) }); });
   return loaded;
 }
 

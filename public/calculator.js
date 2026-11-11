@@ -4,6 +4,7 @@
 // when it is chosen (see routes/calculator.js); the arithmetic is done here.
 
 import { pretestStart, pretestNote, renderSummaryTables } from './summary-table.js';
+import { t as tr } from './i18n.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
@@ -23,9 +24,24 @@ const isVariousMulti = t => t.multi === 1 && (t.name || '').trim().toLowerCase()
 
 // What the entries are called: the data set's itemLabel ('test' or 'finding'), shown to
 // users as "test" or "sign or symptom".
+// Whole sentences for each, so that each language can word them in its own way.
 const ITEM_NAMES = {
-  test: { one: 'test', many: 'tests', step: 'Test' },
-  finding: { one: 'sign or symptom', many: 'signs or symptoms', step: 'Signs or symptoms' }
+  test: {
+    one: 'test', many: 'tests', step: 'Test',
+    subtitle: 'Select a specialty, clinical presentation, and test to see how the result changes the probability of disease.',
+    empty: 'Choose a specialty, then a clinical presentation, then a test to open the calculator.',
+    choose: 'Choose a test to open the calculator.',
+    select: 'Select test…',
+    compare: 'Compare all tests for this presentation'
+  },
+  finding: {
+    one: 'sign or symptom', many: 'signs or symptoms', step: 'Signs or symptoms',
+    subtitle: 'Select a specialty, clinical presentation, and sign or symptom to see how the result changes the probability of disease.',
+    empty: 'Choose a specialty, then a clinical presentation, then a sign or symptom to open the calculator.',
+    choose: 'Choose a sign or symptom to open the calculator.',
+    select: 'Select sign or symptom…',
+    compare: 'Compare all signs or symptoms for this presentation'
+  }
 };
 const itemNames = () => ITEM_NAMES[(activePanel && activePanel.itemLabel) || 'test'] || ITEM_NAMES.test;
 function itemLabel(capitalized) {
@@ -153,8 +169,8 @@ function showPanel(key) {
   activePanel = panel;
   menuSeq++;
   $('calcHeading').textContent = panel.label;
-  $('calcSubtitle').textContent = `Select a specialty, clinical presentation, and ${itemLabel(false)} to see how the result changes the probability of disease.`;
-  $('calcEmptyText').textContent = `Choose a specialty, then a clinical presentation, then a ${itemLabel(false)} to open the calculator.`;
+  $('calcSubtitle').textContent = tr(itemNames().subtitle);
+  $('calcEmptyText').textContent = tr(itemNames().empty);
   $('calcItemLabel').textContent = itemNames().step;
   resetSelect($('calcSpecialty'), 'Select specialty…', false);
   panel.specialties.forEach(sp => addOption($('calcSpecialty'), sp, sp));
@@ -183,7 +199,7 @@ function resetCompare() {
 function offerCompare(specialty, symptom, disease) {
   resetCompare();
   compare = { key: activePanel.key, specialty, symptom, disease, data: null };
-  $('calcCompareTitle').textContent = `Compare all ${itemNames().many} for this presentation`;
+  $('calcCompareTitle').textContent = tr(itemNames().compare);
   $('calcCompareCard').classList.remove('hidden');
 }
 
@@ -240,7 +256,7 @@ export async function openCalculatorAt(name, num) {
   try {
     await loaded;
   } catch (err) {
-    setStatus(`Could not load the calculator: ${err.message}`);
+    setStatus(tr('Could not load the calculator: {msg}', { msg: tr(err.message) }));
     return;
   }
   const key = name === 'signs' ? 'signsSymptoms' : 'diagnosticTests';
@@ -257,7 +273,7 @@ export async function openCalculatorAt(name, num) {
   await onSpecialtyChange();
   $('calcPair').value = JSON.stringify([where.symptom, where.disease]);
   await onPairChange();
-  setStatus(`Choose a ${itemLabel(false)} to open the calculator.`);
+  setStatus(tr(itemNames().choose));
 }
 
 // Opens what the Search tab found: a symptom / disease pair (in its specialty), and, if an id
@@ -267,7 +283,7 @@ export async function openCalculatorItem(name, item) {
   try {
     await loaded;
   } catch (err) {
-    setStatus(`Could not load the calculator: ${err.message}`);
+    setStatus(tr('Could not load the calculator: {msg}', { msg: tr(err.message) }));
     return;
   }
   showPanel(name === 'signs' ? 'signsSymptoms' : 'diagnosticTests');
@@ -281,7 +297,7 @@ export async function openCalculatorItem(name, item) {
     $('calcCompareCard').scrollIntoView({ block: 'start' });
     return;
   }
-  if (item.id === undefined || item.id === null) { setStatus(`Choose a ${itemLabel(false)} to open the calculator.`); return; }
+  if (item.id === undefined || item.id === null) { setStatus(tr(itemNames().choose)); return; }
   $('calcItem').value = String(item.id);
   await onItemChange();
 }
@@ -317,7 +333,7 @@ async function onPairChange() {
   try {
     const { items } = await api(`/calculator/${activePanel.key}/items?${new URLSearchParams({ specialty: $('calcSpecialty').value, symptom, disease })}`);
     if (seq !== menuSeq) return;
-    resetSelect($('calcItem'), `Select ${itemLabel(false)}…`, false);
+    resetSelect($('calcItem'), tr(itemNames().select), false);
     items.forEach(t => addOption($('calcItem'), t.id, testDropdownLabel(t)));
     setStatus('');
   } catch (err) {
@@ -387,26 +403,26 @@ function showCalculator(t) {
       a.href = `https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(value)}/`;
       a.target = '_blank';
       a.rel = 'noopener';
-      a.textContent = `PMID ${value}`;
+      a.textContent = tr('PMID {n}', { n: value });
       div.appendChild(a);
     } else {
       div.append(String(value));
     }
     source.appendChild(div);
   };
-  addLine('Reference', t.reference);
+  addLine(tr('Reference'), t.reference);
   addLine('PubMed', t.pmid, true);
-  addLine('Sample size', t.number);
-  addLine('Setting / demographics', t.setting);
-  addLine('Comment', t.comment);
-  addLine('Level of evidence', t.loe);
-  if (!source.childNodes.length) source.textContent = 'No additional source details available.';
+  addLine(tr('Sample size'), t.number);
+  addLine(tr('Setting / demographics'), t.setting);
+  addLine(tr('Comment'), t.comment);
+  addLine(tr('Level of evidence'), t.loe);
+  if (!source.childNodes.length) source.textContent = tr('No additional source details available.');
 
   const pre = defaultPretest(t);
   $('pretestSlider').value = pre;
   $('pretestNum').value = pre;
   $('pretestHint').textContent = t.pretest !== null && t.pretest !== undefined
-    ? `Default from the cited study: ${fmtPct(t.pretest)}. Drag the slider or edit the number to use your own estimate.`
+    ? tr('Default from the cited study: {pct}. Drag the slider or edit the number to use your own estimate.', { pct: fmtPct(t.pretest) })
     : 'No study pre-test probability was reported; defaulting to 50%. Adjust as needed.';
 
   $('binarySection').classList.toggle('hidden', t.multi === 1);
@@ -445,12 +461,12 @@ function renderMultiTable(t, pretest) {
   tbody.textContent = '';
   t.options.slice().sort((a, b) => b.sslr - a.sslr).forEach(opt => {
     const post = postTestProb(pretest, opt.sslr);
-    const tr = document.createElement('tr');
+    const row = document.createElement('tr');
     const cell = (text, className) => {
       const td = document.createElement('td');
       if (className) td.className = className;
       if (text !== null) td.textContent = text;
-      tr.appendChild(td);
+      row.appendChild(td);
       return td;
     };
     cell(opt.range);
@@ -464,7 +480,7 @@ function renderMultiTable(t, pretest) {
     fill.style.width = `${Math.min(Math.max(post, 0), 100)}%`;
     track.appendChild(fill);
     bar.appendChild(track);
-    tbody.appendChild(tr);
+    tbody.appendChild(row);
   });
 }
 
@@ -528,7 +544,7 @@ async function selectDdx(id) {
   $('ddxResult').classList.remove('hidden');
   $('ddxResultCat').textContent = item.category;
   $('ddxResultTitle').textContent = item.name;
-  $('ddxResultAliases').textContent = item.aliases && item.aliases.length ? `Also known as: ${item.aliases.join(', ')}` : '';
+  $('ddxResultAliases').textContent = item.aliases && item.aliases.length ? tr('Also known as: {names}', { names: item.aliases.join(', ') }) : '';
   const ranked = $('ddxRanked');
   ranked.textContent = '';
   item.ddx.forEach((entry, i) => {
@@ -578,7 +594,7 @@ export function loadCalculators(apiFn) {
     const [{ panels: list }, { items }] = await Promise.all([api('/calculator/panels'), api('/calculator/differential')]);
     list.forEach(p => panels.set(p.key, p));
     ddxItems = items;
-    $('ddxAllBtn').textContent = `All (${items.length})`;
+    $('ddxAllBtn').textContent = tr('All ({n})', { n: items.length });
     renderDdxList();
   })().catch(err => { loaded = null; throw err; });
   return loaded;
@@ -589,7 +605,7 @@ export async function openCalculatorTab(name) {
   try {
     await loaded;
   } catch (err) {
-    setStatus(`Could not load the calculator: ${err.message}`);
+    setStatus(tr('Could not load the calculator: {msg}', { msg: tr(err.message) }));
     return;
   }
   if (name === 'ddx') { resetDdxFilter(); return; }

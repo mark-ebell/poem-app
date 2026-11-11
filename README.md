@@ -269,6 +269,20 @@ The **Differential Diagnosis**, **History & Physical** (signs and symptoms) and 
 
 The page never receives the whole data set: menus are fetched one level at a time, and each test's numbers and source (or a symptom's ranked differential) only when chosen. For readers each of those counts as a calculator look-up (100 an hour, 400 a day).
 
+## Languages
+
+The screens readers use (logging in, the menu, Search, Chapters, Risk Scores, the calculators and Differential Diagnosis) can be shown in another language, chosen at the top right of the login screen or under **Language** in the menu (☰). The choice is kept in that browser; `?lang=it` in the address also sets it. The editors' screens (Upload, Browse and Edit POEMs, Edit Chapter, Evidence Summary and the editing pop-ups) stay in English. So far there is **Italian**; Danish, French and German are planned.
+
+Only the interface is translated. Content stays in English for now: chapters, POEMs, algorithms, risk score questions and results, calculator entries (specialties, presentations, tests) and differential diagnoses. Dates follow the chosen language.
+
+How it works (`public/i18n.js`):
+
+- English stays written in the pages and scripts as usual. Each other language has a dictionary, `public/i18n/<code>.json`, from the English text to its translation.
+- A watcher translates any fixed text on the page that is in the dictionary, including text the scripts add later. Text with numbers or names in it is written in the scripts as `tr('{n} of {total} risk scores.', { n, total })`. A sentence with a link inside it is one entry, marked `data-i18n` in the page.
+- Content areas are listed in `CONTENT` in `i18n.js` (or marked `translate="no"`), so content is never changed by accident.
+- `public/i18n/strings.json` lists every English string to translate. `node scripts/i18n-strings.js` updates it from the scripts and reports, for each language, the strings it lacks (written to `public/i18n/missing-<code>.json`) and the ones no longer used. Text that sits only in the page (`index.html`) is collected in the browser: set `localStorage['inforetriever.i18nCollect'] = '1'`, use the screens, then save `window.i18nMissing()` as JSON and pass the file to the script.
+- To add a language: write its dictionary, add it to `LANGUAGES` in `i18n.js` and to `dateLocale`. A native speaker who knows the clinical terms should check each dictionary before it goes live; missing entries simply show in English.
+
 ## Deploying to Render (making it reachable on the internet)
 
 This repo includes a `render.yaml` file that pre-fills most of the setup. The parts only you can do (they require your own accounts):

@@ -5,6 +5,7 @@ import { loadChapters, openChapter } from './chapters.js';
 import { loadChapterEditor } from './chapter-editor.js';
 import { loadTools, openTool } from './tools.js';
 import { loadCalculatorUpload } from './calculator-upload.js';
+import { t as tr, lang, dateLocale, languagePicker } from './i18n.js';
 
 const els = {};
 [
@@ -33,6 +34,18 @@ const els = {};
 document.getElementById('siteFooter').textContent =
   `Copyright Group for Organizational Learning and Development ${new Date().getFullYear()}`;
 
+// ---------- Language (i18n.js): a picker on the login screen and in the menu ----------
+{
+  const login = document.createElement('div');
+  login.className = 'lang-pick lang-pick-login';
+  login.appendChild(languagePicker());
+  document.getElementById('loginScreen').prepend(login);
+  const menu = document.createElement('label');
+  menu.className = 'lang-pick lang-pick-menu';
+  menu.append(tr('Language'), ' ', languagePicker());
+  document.getElementById('logoutBtn').before(menu);
+}
+
 // ---------- API helper ----------
 async function api(path, options = {}) {
   const resp = await fetch(`/api${path}`, {
@@ -45,7 +58,7 @@ async function api(path, options = {}) {
     throw new Error('Not logged in.');
   }
   const data = await resp.json().catch(() => ({}));
-  if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+  if (!resp.ok) throw new Error(tr(data.error || `Request failed (${resp.status}).`));
   return data;
 }
 
@@ -83,7 +96,7 @@ function showError(el, message) {
 async function postJson(path, body) {
   const resp = await fetch(`/api${path}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
   const data = await resp.json().catch(() => ({}));
-  if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+  if (!resp.ok) throw new Error(tr(data.error || `Request failed (${resp.status}).`));
   return data;
 }
 
@@ -101,7 +114,7 @@ function renderRules(list, value) {
     const li = document.createElement('li');
     const met = test(value);
     li.className = met ? 'met' : '';
-    li.textContent = `${met ? '✓' : '•'} ${label}`;
+    li.textContent = `${met ? '✓' : '•'} ${tr(label)}`;
     list.appendChild(li);
   }
 }
@@ -166,7 +179,7 @@ els.signupForm.addEventListener('submit', async (e) => {
     els.signupForm.reset();
     renderRules(els.signupRules, '');
     els.loginUsername.value = email;
-    showAuthView('login', `Almost done: we have sent a confirmation link to ${email}. Open it to start using InfoRetriever. (Check your spam folder if it does not arrive within a few minutes.)`);
+    showAuthView('login', tr('Almost done: we have sent a confirmation link to {email}. Open it to start using InfoRetriever. (Check your spam folder if it does not arrive within a few minutes.)', { email }));
   } catch (err) {
     showError(els.signupError, err.message);
     renderTurnstile();
@@ -181,7 +194,7 @@ els.forgotForm.addEventListener('submit', async (e) => {
   const email = els.forgotEmail.value.trim();
   try {
     await postJson('/forgot', { email });
-    showAuthView('login', `If ${email} has an InfoRetriever account, we have sent it a link to choose a new password. The link works for one hour.`);
+    showAuthView('login', tr('If {email} has an InfoRetriever account, we have sent it a link to choose a new password. The link works for one hour.', { email }));
   } catch (err) {
     showError(els.forgotError, err.message);
   }
@@ -207,7 +220,7 @@ els.resetForm.addEventListener('submit', async (e) => {
 function showApp(user) {
   els.loginScreen.classList.add('hidden');
   els.appRoot.classList.remove('hidden');
-  els.whoAmI.textContent = `Signed in as ${user.displayName}`;
+  els.whoAmI.textContent = tr('Signed in as {name}', { name: user.displayName });
   if (user.mustChangePassword) {
     els.settingsPanel.classList.remove('hidden');
     els.settingsError.textContent = 'Please set your own password before continuing.';
@@ -290,7 +303,7 @@ async function showAbout(page) {
     if (!resp.ok) throw new Error(`Request failed (${resp.status}).`);
     doc = new DOMParser().parseFromString(await resp.text(), 'text/html');
   } catch (err) {
-    alert(`Could not open this page: ${err.message}`);
+    alert(tr('Could not open this page: {msg}', { msg: err.message }));
     return;
   }
   const section = doc.querySelector('section.terms');
@@ -403,15 +416,20 @@ function monthValue(date) {
 }
 
 // Short form for the Browse list: "Dec 26".
+// Month names in the interface language (English as before).
+const monthName = (m, style) => lang === 'en'
+  ? (style === 'short' ? MONTH_NAMES[m - 1].slice(0, 3) : MONTH_NAMES[m - 1])
+  : new Date(Date.UTC(2000, m - 1, 15)).toLocaleDateString(dateLocale, { month: style, timeZone: 'UTC' }).replace(/\.$/, '');
+
 function formatShortMonthYear(value) {
   const m = /^(\d{4})-(\d{2})$/.exec(value || '');
-  return m ? `${MONTH_NAMES[Number(m[2]) - 1].slice(0, 3)} ${m[1].slice(2)}` : '';
+  return m ? `${monthName(Number(m[2]), 'short')} ${m[1].slice(2)}` : '';
 }
 
 function formatMonthYear(value) {
   if (!value) return '';
   const [y, m] = value.split('-').map(Number);
-  return `${MONTH_NAMES[m - 1]} ${y}`;
+  return `${monthName(m, 'long')} ${y}`;
 }
 
 function populatePubDateOptions() {
@@ -1245,7 +1263,7 @@ async function openDoc(id) {
   try {
     ({ poem: doc } = await api(`/poems/${id}`));
   } catch (err) {
-    alert(`Could not open this POEM: ${err.message}`);
+    alert(tr('Could not open this POEM: {msg}', { msg: err.message }));
     return;
   }
   clearForm();
@@ -1512,7 +1530,7 @@ async function showPoemPopup(id, { path = `/poems/${id}/view` } = {}) {
   try {
     ({ html } = await api(path));
   } catch (err) {
-    alert(`Could not open this POEM: ${err.message}`);
+    alert(tr('Could not open this POEM: {msg}', { msg: err.message }));
     return;
   }
   els.poemModalBody.innerHTML = html; // built by the server from escaped text
@@ -1592,10 +1610,10 @@ function poemTable(group, sort) {
   const pages = Math.max(1, Math.ceil(group.poems.length / perPage));
   const pager = document.createElement('nav');
   pager.className = 'search-pager';
-  pager.setAttribute('aria-label', `Pages of ${group.label} POEMs`);
+  pager.setAttribute('aria-label', tr('Pages of {group} POEMs', { group: tr(group.label) }));
   const note = document.createElement('p');
   note.className = 'hint';
-  if (group.truncated) note.textContent = `These are the first ${group.poems.length.toLocaleString()} of ${group.total.toLocaleString()}. Make the search more specific to narrow it.`;
+  if (group.truncated) note.textContent = tr('These are the first {n} of {total}. Make the search more specific to narrow it.', { n: group.poems.length.toLocaleString(), total: group.total.toLocaleString() });
 
   const showPage = (page, scroll) => {
     tbody.textContent = '';
@@ -1619,7 +1637,7 @@ function poemTable(group, sort) {
       let gap = false;
       for (let n = 1; n <= pages; n++) {
         if (n === 1 || n === pages || Math.abs(n - page) <= near) {
-          button(String(n), n, { current: n === page, aria: `Page ${n}` });
+          button(String(n), n, { current: n === page, aria: tr('Page {n}', { n }) });
           gap = false;
         } else if (!gap) {
           const dots = document.createElement('span');
@@ -1633,7 +1651,7 @@ function poemTable(group, sort) {
       const range = document.createElement('span');
       range.className = 'pager-range';
       const first = (page - 1) * perPage + 1, last = Math.min(page * perPage, group.poems.length);
-      range.textContent = `${first === last ? first.toLocaleString() : `${first.toLocaleString()}–${last.toLocaleString()}`} of ${group.poems.length.toLocaleString()}`;
+      range.textContent = tr('{range} of {total}', { range: first === last ? first.toLocaleString() : `${first.toLocaleString()}–${last.toLocaleString()}`, total: group.poems.length.toLocaleString() });
       pager.appendChild(range);
     }
     if (scroll && wrap.getBoundingClientRect().top < 0) wrap.scrollIntoView({ block: 'start' });
@@ -1708,10 +1726,10 @@ function pairList(pairs, which) {
     text.appendChild(link);
 
     const select = document.createElement('select');
-    select.setAttribute('aria-label', `Choose a ${noun} for ${pair.symptom} → ${pair.disease}`);
+    select.setAttribute('aria-label', tr(which === 'signs' ? 'Choose a sign/symptom for {pair}' : 'Choose a test for {pair}', { pair: `${pair.symptom} → ${pair.disease}` }));
     const first = document.createElement('option');
     first.value = '';
-    first.textContent = `Choose a ${noun} (${pair.items.length})…`;
+    first.textContent = tr(which === 'signs' ? 'Choose a sign/symptom ({n})…' : 'Choose a test ({n})…', { n: pair.items.length });
     select.appendChild(first);
     // With 2 or more, a choice that opens the pair's Compare all panel.
     if (pair.items.length >= 2) {
@@ -1776,14 +1794,14 @@ function renderSearchResults(all) {
     panel.open = openGroups.has(g.key);
     panel.addEventListener('toggle', () => { if (panel.open) openGroups.add(g.key); else openGroups.delete(g.key); });
     const summary = document.createElement('summary');
-    summary.textContent = `${g.label} (${data.total.toLocaleString()})`;
+    summary.textContent = `${tr(g.label)} (${data.total.toLocaleString()})`;
     panel.appendChild(summary);
     const body = document.createElement('div');
     body.className = 'chapter-section-body';
     if (data.truncated) {
       const p = document.createElement('p');
       p.className = 'hint';
-      p.textContent = `Showing the first ${(g.key === 'poems' ? data.poems : data.items).length.toLocaleString()}. Make the search more specific to narrow it.`;
+      p.textContent = tr('Showing the first {n}. Make the search more specific to narrow it.', { n: (g.key === 'poems' ? data.poems : data.items).length.toLocaleString() });
       body.appendChild(p);
     }
     if (g.key === 'poems') {
@@ -1795,7 +1813,7 @@ function renderSearchResults(all) {
         sub.open = data.groups.length === 1 || openGroups.has(key);
         sub.addEventListener('toggle', () => { if (sub.open) openGroups.add(key); else openGroups.delete(key); });
         const subSummary = document.createElement('summary');
-        subSummary.textContent = `${group.label} (${group.total.toLocaleString()})`;
+        subSummary.textContent = `${tr(group.label)} (${group.total.toLocaleString()})`;
         const subBody = document.createElement('div');
         subBody.className = 'chapter-section-body';
         subBody.appendChild(poemTable(group, data.sort));
@@ -1815,7 +1833,7 @@ function renderSearchResults(all) {
   if (all.poems && years && years !== 'all') {
     const note = document.createElement('span');
     note.className = 'search-years-note';
-    note.append(`${anyFound ? '' : ' '}POEMs from the last ${years === '1' ? 'year' : `${years} years`}. `);
+    note.append(`${anyFound ? '' : ' '}${years === '1' ? tr('POEMs from the last year.') : tr('POEMs from the last {n} years.', { n: years })} `);
     const link = document.createElement('button');
     link.type = 'button';
     link.className = 'link-btn';
@@ -1856,7 +1874,7 @@ els.searchForm.addEventListener('submit', async (e) => {
   } catch (err) {
     if (seq === searchSeq) {
       els.searchResults.textContent = '';
-      els.searchCount.textContent = `Search failed: ${err.message}`;
+      els.searchCount.textContent = tr('Search failed: {msg}', { msg: err.message });
     }
   } finally {
     els.searchBtn.disabled = false;

@@ -6,6 +6,7 @@
 // probability, a table of the risk groups where the tool has one, and "About this score".
 
 import { editTool, newTool } from './tool-editor.js';
+import { t as tr } from './i18n.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
@@ -41,7 +42,7 @@ async function reloadList() {
   const keep = sel.value;
   while (sel.options.length > 1) sel.remove(1);
   for (const c of categories) {
-    const o = el('option', '', c.available === c.total ? `${c.name} (${c.total})` : `${c.name} (${c.available} of ${c.total} so far)`);
+    const o = el('option', '', c.available === c.total ? `${c.name} (${c.total})` : tr('{name} ({n} of {total} so far)', { name: c.name, n: c.available, total: c.total }));
     o.value = c.name;
     o.disabled = !c.available;
     sel.appendChild(o);
@@ -63,7 +64,7 @@ function renderList() {
   const box = $('toolsList');
   box.textContent = '';
   const shown = tools.filter(t => (!cat || t.categories.includes(cat)) && (!q || `${t.title} ${t.subtitle} ${t.categories.join(' ')}`.toLowerCase().includes(q)));
-  $('toolsCount').textContent = `${shown.length} of ${tools.length} risk scores${cat ? ` in ${cat}` : ''}.`;
+  $('toolsCount').textContent = cat ? tr('{n} of {total} risk scores in {cat}.', { n: shown.length, total: tools.length, cat }) : tr('{n} of {total} risk scores.', { n: shown.length, total: tools.length });
   if (!shown.length) { box.appendChild(el('p', 'hint', q ? 'No risk score matches.' : 'No risk scores yet.')); return; }
   // A tool appears under each of its categories, as in EE+.
   const groups = new Map();
@@ -319,7 +320,7 @@ function aboutSection() {
   add('Population', ev.population);
   add('Validation', ev.validation);
   add('Prevalence of the outcome', ev.prevalence ? `${ev.prevalence}%` : '');
-  const n = [ev.developed && `${ev.developed.toLocaleString()} to develop the rule`, ev.validated && `${ev.validated.toLocaleString()} to validate it`].filter(Boolean).join('; ');
+  const n = [ev.developed && tr('{n} to develop the rule', { n: ev.developed.toLocaleString() }), ev.validated && tr('{n} to validate it', { n: ev.validated.toLocaleString() })].filter(Boolean).join('; ');
   add('Patients', n);
   if (ev.comment) { dl.appendChild(el('dt', '', 'Comment')); dl.appendChild(linkified('dd', ev.comment)); }
   about.appendChild(dl);
@@ -404,9 +405,9 @@ function showResult(r) {
     r.table.head.forEach(h => hr.appendChild(el('th', '', h)));
     table.appendChild(hr);
     r.table.rows.forEach((row, k) => {
-      const tr = el('tr', k === r.table.current ? 'current' : '');
-      row.forEach(c => tr.appendChild(el('td', '', c)));
-      table.appendChild(tr);
+      const tableRow = el('tr', k === r.table.current ? 'current' : '');
+      row.forEach(c => tableRow.appendChild(el('td', '', c)));
+      table.appendChild(tableRow);
     });
   }
 }

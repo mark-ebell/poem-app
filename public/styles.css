@@ -1042,3 +1042,9 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .calc-errors summary { color: #b00020; font-weight: 600; }
 .calc-warnings summary { color: #8a5a00; }
 .calc-using { margin-top: 0.8rem; border-top: 1px solid var(--border, #ddd); padding-top: 0.5rem; }
+
+/* Language picker (i18n.js) */
+#loginScreen { position: relative; }
+.lang-pick-login { position: absolute; top: 0.8rem; right: 0.8rem; }
+.lang-pick select { font-size: 0.85rem; padding: 0.15rem 0.3rem; width: auto; }
+.lang-pick-menu { display: flex; align-items: center; gap: 0.5rem; padding: 10px 16px; font-size: 0.9rem; margin: 0; }
