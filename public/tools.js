@@ -5,8 +5,13 @@
 // in view at the bottom of the screen), any adjustable value such as a pretest
 // probability, a table of the risk groups where the tool has one, and "About this score".
 
+import { editTool, newTool } from './tool-editor.js';
+
 const $ = id => document.getElementById(id);
 let api = null;
+let isEditor = false;
+let viewingDraft = false; // an editor trying out their draft of the open tool
+let editInfo = null;      // for editors: { hasDraft, isDraft, edited }
 let tools = [];
 let categories = [];  // [{ name, available, total }]
 let tool = null;      // the open tool's questions
@@ -23,17 +28,33 @@ const el = (tag, className, text) => {
 const signed = p => `${p >= 0 ? '+' : '−'}${Math.abs(p)}`;
 
 // ---------- The list ----------
-export async function loadTools(apiFn) {
+export async function loadTools(apiFn, user) {
   api = apiFn;
+  isEditor = !!user && user.role === 'editor';
+  $('toolsNew').classList.toggle('hidden', !isEditor);
+  await reloadList();
+}
+
+async function reloadList() {
   ({ tools, categories } = await api('/tools'));
   const sel = $('toolsCategory');
+  const keep = sel.value;
+  while (sel.options.length > 1) sel.remove(1);
   for (const c of categories) {
     const o = el('option', '', c.available === c.total ? `${c.name} (${c.total})` : `${c.name} (${c.available} of ${c.total} so far)`);
     o.value = c.name;
     o.disabled = !c.available;
     sel.appendChild(o);
   }
+  if ([...sel.options].some(o => o.value === keep)) sel.value = keep;
   renderList();
+}
+
+// After the editor saves, publishes or reverts: refresh the list and show the tool.
+async function afterEdit(id, how) {
+  await reloadList();
+  if (how.removed || (how.discarded && !tools.some(t => t.id === id))) { closeTool(); return; }
+  await openTool(id, { draft: !!how.draft });
 }
 
 function renderList() {
@@ -65,15 +86,19 @@ function renderList() {
 }
 
 // ---------- One tool ----------
-export async function openTool(id) {
+export async function openTool(id, { draft = false } = {}) {
   let data;
+  const listed = tools.find(t => t.id === id);
+  if (listed && listed.draftOnly) draft = true;
   try {
-    data = await api(`/tools/${encodeURIComponent(id)}`);
+    data = await api(`/tools/${encodeURIComponent(id)}${draft ? '?draft=1' : ''}`);
   } catch (err) {
     alert(err.message);
     return;
   }
   tool = data.tool;
+  editInfo = data.edit || null;
+  viewingDraft = !!(editInfo && editInfo.isDraft);
   answers = defaults();
   renderTool();
   changed();
@@ -179,6 +204,7 @@ function renderTool() {
   back.type = 'button';
   back.addEventListener('click', closeTool);
   card.appendChild(back);
+  if (isEditor) card.appendChild(editorBar());
   card.appendChild(el('h2', 'tool-title', tool.title));
   if (tool.subtitle) card.appendChild(el('p', 'tool-subtitle', tool.subtitle));
   if (tool.question) card.appendChild(el('p', 'tool-question', tool.question));
@@ -235,6 +261,30 @@ function renderTool() {
   clear.type = 'button';
   clear.addEventListener('click', () => { answers = defaults(); renderTool(); changed(); });
   card.appendChild(clear);
+}
+
+// For editors: edit the score, and try out or publish a draft.
+function editorBar() {
+  const bar = el('div', `tool-edit-bar${viewingDraft ? ' draft' : ''}`);
+  const btn = (text, fn, cls = 'secondary') => { const b = el('button', cls, text); b.type = 'button'; b.addEventListener('click', fn); return b; };
+  if (viewingDraft) {
+    bar.appendChild(el('span', 'tool-edit-note', 'Draft: only editors see this version.'));
+    bar.appendChild(btn('Edit', () => editTool(api, tool.id, afterEdit)));
+    bar.appendChild(btn('Publish', async () => {
+      if (!confirm('Publish this draft? Everyone will see it from now on.')) return;
+      try { await api(`/tools/${encodeURIComponent(tool.id)}/publish`, { method: 'POST' }); await afterEdit(tool.id, { published: true }); } catch (err) { alert(err.message); }
+    }, ''));
+    if (!(tools.find(t => t.id === tool.id) || {}).draftOnly) bar.appendChild(btn('See the published version', () => openTool(tool.id)));
+  } else {
+    if (editInfo && editInfo.hasDraft) {
+      bar.appendChild(el('span', 'tool-edit-note', 'There is a draft of this score.'));
+      bar.appendChild(btn('See the draft', () => openTool(tool.id, { draft: true })));
+    } else if (editInfo && editInfo.edited) {
+      bar.appendChild(el('span', 'tool-edit-note', 'Edited in InfoRetriever.'));
+    }
+    bar.appendChild(btn('Edit this score', () => editTool(api, tool.id, afterEdit)));
+  }
+  return bar;
 }
 
 // Shown under the result of every score, never folded away.
@@ -309,7 +359,7 @@ async function score() {
   const mine = ++seq;
   let data;
   try {
-    data = await api(`/tools/${encodeURIComponent(tool.id)}/score`, { method: 'POST', body: { answers } });
+    data = await api(`/tools/${encodeURIComponent(tool.id)}/score${viewingDraft ? '?draft=1' : ''}`, { method: 'POST', body: { answers } });
   } catch (err) {
     if (mine === seq) showResult({ problems: [err.message] });
     return;
@@ -367,6 +417,7 @@ $('toolsFilter').addEventListener('input', () => {
   if ($('toolsFilter').value.trim()) $('toolsCategory').value = '';
   renderList();
 });
+$('toolsNew').addEventListener('click', () => newTool(api, afterEdit));
 $('toolsCategory').addEventListener('change', () => {
   if ($('toolsCategory').value) $('toolsFilter').value = '';
   renderList();

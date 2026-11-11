@@ -989,3 +989,45 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .alg-toolbar button { background: #eef1f5; color: var(--text); padding: 5px 10px; font-size: 13px; }
 .alg-toolbar button:hover:not(:disabled) { background: #e2e6ec; }
 .alg-box-head select { flex: 0 1 190px; }
+
+/* ---------- Risk score editor (public/tool-editor.js) ---------- */
+#toolsNew { margin-bottom: 12px; }
+.tool-edit-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 8px 10px; margin: 8px 0 12px; border: 1px dashed var(--border); border-radius: 8px; background: #f8fafc; }
+.tool-edit-bar.draft { border-color: #f59e0b; background: #fffbeb; }
+.tool-edit-note { font-size: 14px; color: var(--muted); margin-right: auto; }
+.te-section { border-top: 1px solid var(--border); padding-top: 10px; margin-top: 14px; }
+.te-section h4 { margin: 0 0 6px; }
+.te-field { display: flex; flex-direction: column; gap: 3px; margin-bottom: 8px; }
+.te-field.te-inline { flex-direction: row; align-items: center; gap: 6px; margin: 0; }
+.te-label { font-size: 13px; font-weight: 600; color: var(--muted); }
+.te-field input, .te-field textarea, .te-section > input, .te-item input, .te-item textarea, .te-band input, .te-table { font: inherit; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; width: 100%; }
+.te-row { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+.te-row .te-grow { flex: 1 1 auto; }
+.te-row .te-pts, .te-band .te-pts { width: 80px; flex: none; }
+.te-line-label { width: 150px !important; flex: none; }
+.te-item, .te-band { border: 1px solid #c9d3dc; border-radius: 8px; padding: 8px 10px; margin-top: 10px; background: #fff; }
+.te-item.te-heading { background: #f1f5f9; }
+.te-item-head { display: flex; align-items: center; gap: 6px; }
+.te-item-head select { flex: 0 1 180px; }
+.te-item-head .te-del { margin-left: auto; }
+.te-item-num { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; height: 24px; border-radius: 50%; background: #2c4a6e; color: #fff; font-size: 12px; font-weight: 600; }
+.te-options { margin: 4px 0 0 30px; }
+.te-note { margin-top: 6px; font-size: 14px; }
+.te-small { padding: 3px 9px; font-size: 13px; }
+.te-add { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+.te-band { border-left-width: 5px; }
+.te-band.level-1 { border-left-color: #16a34a; }
+.te-band.level-2 { border-left-color: #eab308; }
+.te-band.level-3 { border-left-color: #f97316; }
+.te-band.level-4 { border-left-color: #dc2626; }
+.te-band-range { font-size: 14px; font-weight: 600; white-space: nowrap; }
+.te-band .te-row .te-del { margin-left: auto; }
+.te-headline { margin-top: 6px; font-weight: 600; }
+.te-cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 4px 12px; padding: 6px 0; font-size: 14px; }
+.te-cats { margin: 4px 0 8px; }
+.te-history { margin-top: 16px; font-size: 14px; }
+.alg-side .tool-bands { width: 100%; font-size: 14px; }
+.alg-side .level-row.level-1 td:first-child { border-left: 4px solid #16a34a; }
+.alg-side .level-row.level-2 td:first-child { border-left: 4px solid #eab308; }
+.alg-side .level-row.level-3 td:first-child { border-left: 4px solid #f97316; }
+.alg-side .level-row.level-4 td:first-child { border-left: 4px solid #dc2626; }

@@ -248,6 +248,13 @@ Format decisions: every choice starts on its first option and checkboxes uncheck
 
 Branching algorithms (e.g. Goldman) use questions with `when` that appear only on their path. Each converted tool is checked against the original EE+ tool, run in jsdom with EE+'s own code, on every combination of answers (or 1,500 random ones): see `../ee-decision-tools-archive/harness/`. Errors found in EE+ and other questions are listed for review in the "Risk Scores review" doc for each category.
 
+**Editing risk scores (editors).** Each risk score has **Edit this score** at the top for editors, and the list has **New risk score** (`public/tool-editor.js`, `decision-tools/editable.js`).
+
+- **Point scores** (the total of the points of the chosen options and checked items, read through result bands) are edited in full: the items and their points, the result bands (the highest total each covers, a colour, a headline, lines, a note), an optional table of risk groups (each band can highlight its row), and About this score. 167 of the existing tools are point scores whose result depends only on the total; opening one turns it into this form, checked to give exactly the same result for every answer combination (or 20,000 of them).
+- **The other tools** (formulas, numbers, branching) can have only their words edited: title, subtitle, question, footnote, categories and About this score.
+- Changes are saved as a **draft**, which editors (only) see with **Try it** or **See the draft**, exactly as readers will; **Publish** makes it live for everyone. **Back to the original** returns a tool to its code version (for a score added here, removes it). Every version is kept in `risk_tool_versions`.
+- A published edit replaces the code version: changing that tool's module in `decision-tools/tools/` no longer shows until the edit is reverted.
+
 ## Diagnostic calculators
 
 The **Differential Diagnosis**, **History & Physical** (signs and symptoms) and **Diagnostic Tests** tabs (open to editors and readers) are the Bayesian diagnostic calculator from the `Diagnostic App` project folder. Their data, `calculator-data.json`, is produced from that project's spreadsheets (`DiagnosticCalculatorApp.xlsx` and `DifferentialDiagnosisData.xlsx`). To update it:

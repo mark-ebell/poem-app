@@ -501,6 +501,34 @@
       </div>
     </div>
 
+    <!-- Risk score editor (Risk Scores tab; public/tool-editor.js) -->
+    <div id="teModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="teModalTitle">
+      <div class="modal alg-modal">
+        <div class="modal-bar">
+          <h3 id="teModalTitle" class="info-modal-title">Edit risk score</h3>
+          <span id="teStatus" class="hint alg-status"></span>
+          <button type="button" id="teRevert" class="alg-delete">Back to the original</button>
+          <button type="button" id="teDiscard">Discard draft</button>
+          <button type="button" id="teSave">Save draft</button>
+          <button type="button" id="teTry">Try it</button>
+          <button type="button" id="tePublish" class="alg-save">Publish</button>
+          <button type="button" id="teClose">Close</button>
+        </div>
+        <div class="modal-body alg-body">
+          <div class="alg-edit">
+            <p id="teSource" class="hint"></p>
+            <div id="teForm"></div>
+          </div>
+          <div class="alg-side">
+            <h4>Problems</h4>
+            <div id="teProblems" class="alg-problems"></div>
+            <h4>Totals and results</h4>
+            <div id="teSummary"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- SORT definitions and chapter figures -->
     <div id="infoModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="infoModalTitle">
       <div class="modal">
@@ -525,6 +553,7 @@
           </label>
         </div>
         <p id="toolsCount" class="hint"></p>
+        <button type="button" id="toolsNew" class="secondary hidden">New risk score</button>
         <div id="toolsList" class="tools-list"></div>
       </section>
       <section class="card hidden" id="toolCard"></section>

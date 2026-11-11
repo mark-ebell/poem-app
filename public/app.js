@@ -2098,7 +2098,7 @@ async function init(user) {
   showApp(user);
   applyRole();
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
-  loadTools(api).catch(err => console.error('Risk scores failed to load', err));
+  loadTools(api, user).catch(err => console.error('Risk scores failed to load', err));
   loadChapters(api, {
     showPoemByNumber: num => showPoemPopup(null, { path: `/poems/number/${encodeURIComponent(num)}/view` }),
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
