@@ -11,7 +11,8 @@
 //
 // Algorithms redrawn for the app are kept in chapter-algorithms/eee0001.xml (one file per
 // chapter, its <algorithm> elements inside <algorithms>): each replaces the chapter's
-// algorithm with the same id, or is added to the chapter. They survive the next content
+// algorithm with the same id, or is added to the chapter; <algorithm id="fig002" remove="yes"></algorithm>
+// drops the chapter's algorithm with that id. They survive the next content
 // transfer, so edit them there, not in chapters/xml.
 //
 // Figure images (<graphic href="...">) are copied to chapters/images (file names in lower
@@ -51,6 +52,7 @@ function withAlgorithms(xml, cid) {
   for (const alg of extra.match(/<algorithm\b[\s\S]*?<\/algorithm>/g) || []) {
     const id = (/^<algorithm\b[^>]*\bid="([^"]+)"/.exec(alg) || [])[1];
     const same = id && new RegExp(`<algorithm\\b[^>]*\\bid="${id}"[\\s\\S]*?<\\/algorithm>`);
+    if (/^<algorithm\b[^>]*\bremove="yes"/.test(alg)) { if (same) xml = xml.replace(same, ''); continue; } // the chapter's algorithm is dropped
     if (same && same.test(xml)) xml = xml.replace(same, () => alg);
     else if (/<\/algorithm_group>/.test(xml)) xml = xml.replace(/<\/algorithm_group>/, () => `${alg}\n</algorithm_group>`);
     else xml = xml.replace(/<\/topic_text>/, () => `</topic_text>\n<algorithm_group>\n${alg}\n</algorithm_group>`);

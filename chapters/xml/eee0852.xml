@@ -579,35 +579,46 @@
 <title>Diagnostic Algorithm for Male Androgen Deficiency Syndrome.</title>
 <graphic href="eee0852-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Positive score on ADAM questionnaire</label>
+<label>Positive screen on the ADAM questionnaire.</label>
+<path target="cell-2"></path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Screen for comorbidities that commonly occur with sexual dysfunction (obesity, diabetes, depression) and check morning total testosterone (T).</label>
+<label>Evaluate comorbidities and other medical conditions. Measure morning fasting total testosterone (TT); also measure free testosterone (FT) if indicated (see Table 3). Avoid measuring TT if the patient is acutely ill.</label>
+<path target="cell-3">TT 150-400 ng/dL</path>
+<path target="cell-4">TT &lt;150 or &gt;400 ng/dL</path>
 </cell>
-<cell type="action" id="cell-3">
-<label>Borderline low. Patient may benefit from therapy. Proceed with confirmatory testing of T or bioavailable T.</label>
+<cell type="decision" id="cell-3">
+<label>Measure TT and FT.</label>
+<path target="cell-5">TT &gt;400 ng/dL</path>
+<path target="cell-6">TT &lt;150 ng/dL</path>
+<path target="cell-9">TT 150-400 ng/dL</path>
 </cell>
-<cell type="action" id="cell-4">
-<label>Order prolactin and consider imaging to exclude tumor or infiltrative disease, particularly if signs&#x002F;symptoms of mass effect.</label>
+<cell type="decision" id="cell-4">
+<label>Repeat TT.</label>
+<path target="cell-3">TT 150-400 ng/dL</path>
+<path target="cell-5">TT &gt;400 ng/dL</path>
+<path target="cell-6">TT &lt;150 ng/dL</path>
 </cell>
-<cell type="decision" id="cell-5">
-<label>Check LH and repeat total T or bioavailable T.</label>
+<cell type="action" id="cell-5">
+<label>Testosterone replacement is not indicated. Explore other causes (mood, weight, sexual dysfunction, drugs).</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Hypogonadism confirmed. Order LH and FSH to distinguish primary from secondary hypogonadism. Measure PSA and hematocrit. Perform a DRE. Rule out reversible causes of testicular failure.</label>
+<path target="cell-7"></path>
 </cell>
 <cell type="decision" id="cell-7">
-<label>Rule out reversible causes of testicular failure (acute illness, nutritional deficiency, drugs) and absolute contraindications to treatment. Order PSA, hematocrit.</label>
-</cell>
-<cell type="action" id="cell-9">
-<label>Initiate treatment of androgen deficiency.</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>Severe untreated BPH, prostate nodule, or PSA &gt;3 ng&#x002F;ml require further urological evaluation prior to initiating treatment. Severe untreated CHF, severe obstructive sleep apnea and hematocrit &gt;50&#x0025; are also contraindications to treatment.</label>
+<label>Rule out contraindications: breast or prostate cancer, severe untreated BPH, prostate nodule, PSA &gt;4 ng/mL, PSA &gt;3 ng/mL without further urologic evaluation, hematocrit &gt;52%, untreated severe OSA, uncontrolled heart failure, MI or stroke within the last 6 months, thrombophilia, or planning fertility in the near term. Treatment is not routinely recommended for men 65 years or older.</label>
+<path target="cell-8">No contraindications and age &lt;65 years</path>
 </cell>
 <cell type="action" id="cell-8">
-<label>Primary testicular failure. Refer to specialist.</label>
+<label>Initiate treatment.</label>
 </cell>
-<cell type="action" id="cell-6">
-<label>Testosterone replacement is not indicated. Explore other diagnoses or treatments for mood, weight, or sexual dysfunction.</label>
+<cell type="action" id="cell-9">
+<label>Repeat TT and FT (above).</label>
 </cell>
+<footnotes>
+<footnote uid="fn1">ADAM, Androgen Deficiency in the Aging Male; DRE, digital rectal examination; FT, free testosterone; OSA, obstructive sleep apnea; PSA, prostate-specific antigen; TT, total testosterone.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 <feature_group>

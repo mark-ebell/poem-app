@@ -847,53 +847,49 @@
 <title>Diagostic Algorithm for Hyponatremia. Based on the European Guideline. ECF, extracellular fluid.</title>
 <graphic href="eee0146-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Serum sodium &lt;135 mEq&#x002F;L: check serum osmolality</label>
-<path target="cell-2">High (hypertonic)</path>
-<path target="cell-3">Low (hypotonic)</path>
-<path target="cell-4">Normal (isotonic)</path>
+<label>Hyponatremia. Exclude hyperglycemia and other causes of non-hypotonic hyponatremia.</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
-<label>Consider hyperglycemia or mannitol</label>
+<cell type="decision" id="cell-2">
+<label>Hypotonic hyponatremia. Acute or severe symptoms?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
-<cell type="decision" id="cell-3">
-<label>Check urine osmolality</label>
+<cell type="action" id="cell-3">
+<label>Consider immediate treatment with hypertonic saline.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Urine osmolality.</label>
+<path target="cell-5">&lt;100 mOsm/kg</path>
+<path target="cell-6">100 mOsm/kg or more</path>
 </cell>
 <cell type="action" id="cell-5">
-<label>Excess water intake: consider psychogenic polydipsia or fresh water drowning</label>
+<label>Consider primary polydipsia, low solute intake, or beer potomania.</label>
 </cell>
 <cell type="decision" id="cell-6">
-<label>Impaired water excretion: assess volume status and urine sodium</label>
+<label>Urine sodium.</label>
+<path target="cell-7">&lt;30 mmol/L</path>
+<path target="cell-8">30 mmol/L or more</path>
 </cell>
-<cell type="decision" id="cell-7">
-<label>Measure urine sodium</label>
+<cell type="action" id="cell-7">
+<label>Low effective arterial blood volume. If ECF is expanded, consider heart failure, liver cirrhosis, or nephrotic syndrome. If ECF is contracted, consider diarrhea and vomiting, third spacing, or remote diuretics.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Patient on diuretics?</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Consider diuretics as the cause, but still consider all other causes.</label>
+<path target="cell-7">Other causes</path>
+<path target="cell-10">Other causes</path>
 </cell>
 <cell type="action" id="cell-10">
-<label>Renal failure</label>
+<label>If ECF is contracted, consider vomiting, primary adrenal insufficiency, renal salt wasting, or cerebral salt wasting. If ECF is normal, consider SIADH, secondary adrenal insufficiency, or hypothyroidism. Consider occult diuretics as the cause.</label>
 </cell>
-<cell type="action" id="cell-12">
-<label>Treatment: fluid restriction and diruresis</label>
-</cell>
-<cell type="action" id="cell-11">
-<label>Consider congestive heart failure, cirrhosis, nephritic syndrome, hypoalbuminemia</label>
-</cell>
-<cell type="action" id="cell-8">
-<label>Consider SIADH (treatment: fluid restrictionand vasopressin receptor antagonists), hypothyroidism, or adrenal insufficiency (treat underlying cause), and hydrochlorothiazide use</label>
-</cell>
-<cell type="decision" id="cell-9">
-<label>Measure urine sodium</label>
-</cell>
-<cell type="action" id="cell-13">
-<label>Renal salt loss (diuretics, renal tubular acidosis, mineralocorticoid deficiency)</label>
-</cell>
-<cell type="action" id="cell-15">
-<label>Treatment: fluid replacement with isotonic saline</label>
-</cell>
-<cell type="action" id="cell-14">
-<label>Extrarenal losses (vomiting, burns, pancreatitis, diarrhea)</label>
-</cell>
-<cell type="action" id="cell-4">
-<label>Paraproteinemia-hyperlipidemia</label>
-</cell>
+<footnotes>
+<footnote uid="fn1">ECF, extracellular fluid; SIADH, syndrome of inappropriate antidiuretic hormone secretion.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 <feature_group>

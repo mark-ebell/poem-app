@@ -2244,37 +2244,44 @@
 <title> Renal Lithiasis: Management.</title>
 <graphic href="eee0650-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Renal lithiasis. &lt;5 mm, normal serum creatinine, no evidence of hydronephrosis?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<label>Renal or ureteral stone: uncomplicated and 10 mm or smaller?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-4">No</path>
 </cell>
 <cell type="decision" id="cell-2">
-<label>Observation for up to 3-4 weeks. Stone passes?</label>
+<label>Observation for 4 to 6 weeks or, if distal, offer medical expulsive therapy with an alpha-blocker. Stone passes?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
 </cell>
-<cell type="action" id="cell-4">
-<label>24-hour urine for metabolic evaluation, especially if recurrent</label>
+<cell type="action" id="cell-3">
+<label>24-hour urine for metabolic evaluation, especially if stones are recurrent.</label>
 </cell>
-<cell type="decision" id="cell-3">
+<cell type="decision" id="cell-4">
 <label>Renal or ureteral stone?</label>
+<path target="cell-5">Renal</path>
+<path target="cell-8">Ureteral, proximal</path>
+<path target="cell-9">Ureteral, mid or distal</path>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Symptomatic, obstructive, or increasing in size?</label>
+<label>Obtain urinalysis, CBC (if risk of hemorrhage, anemia, or infection), and serum electrolytes and creatinine (if reduced renal function). Total non-lower-pole renal stone burden 20 mm or less?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Referral for percutaneous nephrolithotomy.</label>
 </cell>
 <cell type="action" id="cell-7">
-<label>Referral for extracorporeal shockwave lithotripsy (ESWL) or percutaneous nephrolithotomy (if &#x003E;2 cm or &#x003E;1 cm in lower pole)</label>
+<label>Referral for ureteroscopy or ESWL, or observation if asymptomatic, nonobstructing kidney stones.</label>
 </cell>
 <cell type="action" id="cell-8">
-<label>Treatment options: observation versus referral for stone removal</label>
-</cell>
-<cell type="decision" id="cell-6">
-<label>Stone size</label>
+<label>Ureteroscopy with a flexible scope.</label>
 </cell>
 <cell type="action" id="cell-9">
-<label>Referral for ESWL, followed by ureteroscopy if not successful</label>
+<label>Referral for ureteroscopy (first line) or ESWL.</label>
 </cell>
-<cell type="action" id="cell-10">
-<label>Referral for ureteroscopy or ESWL</label>
-</cell>
+<footnotes>
+<footnote uid="fn1">CBC, complete blood count; ESWL, extracorporeal shock wave lithotripsy.</footnote>
+</footnotes>
 </algorithm>
 <algorithm id="fig002">
 <meta>

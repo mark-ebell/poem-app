@@ -237,6 +237,11 @@ class Writer {
 function writeChapterXml(baseXml, edits, date = new Date()) {
   const doc = parseXml(baseXml);
   const w = new Writer(doc);
+  // Chapters laid out as nested <section> elements (about 50; see typedParts in
+  // chapter-convert.js) have no template tags to write each part back into.
+  if ((edits.parts || []).some(p => p.tag === 'section' || p.tag === 'subsection' || p.section === 'section')) {
+    throw new Error('this chapter uses the older nested-section layout, which Edit Chapter cannot save yet');
+  }
   for (const p of edits.parts || []) w.writePart(p.section, p.tag, p.tree);
   const counts = w.rebuildReferences(edits.newReferences);
   w.setUpdated(date);

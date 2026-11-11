@@ -77,7 +77,7 @@
 <BottomLine>
 <list style="bulleted">
 <listitem>A neck mass in an adult should be considered cancer until ruled out. <evidence rating="C" system="SORT">C</evidence></listitem>
-<listitem>Initial evaluation of a neck mass begins with the determination of whether it is congenital, infectious&#x002F;inflammatory, or possibly neoplastic (<xref ref="fig001" /> and <xref ref="fig002" />). <evidence rating="C" system="SORT">C</evidence></listitem>
+<listitem>Initial evaluation of a neck mass begins with the determination of whether it is congenital, infectious&#x002F;inflammatory, or possibly neoplastic (<xref ref="fig001" />). <evidence rating="C" system="SORT">C</evidence></listitem>
 <listitem>If neoplasm is suspected, or infection&#x002F;inflammation is suspected but there is no response to antibiotics, image it with CT or MRI and refer for probable fine needle aspiration (FNA) biopsy. <evidence rating="C" system="SORT">C</evidence></listitem>
 <listitem>Referral to otolaryngologist should be entertained early. <evidence rating="C" system="SORT">C</evidence></listitem>
 </list>
@@ -216,7 +216,7 @@
 <Diagnostic_strategy>
 <list style="bulleted">
 <listitem>See <xref ref="fig001" /> for a suggested approach to evaluation of the adult patient with a neck mass or pediatric patient with a neck mass of suspected non-congenital origin.</listitem>
-<listitem>See <xref ref="fig002" /> for a suggested approach to evaluation of the pediatric patient with a suspected congenital neck mass.</listitem>
+<listitem>See <xref ref="fig001" /> for a suggested approach to evaluation of a neck mass, including a suspected congenital neck mass in a child.</listitem>
 <listitem>See separate chapters for evaluation of <resourceLink href="info:wiley/eep-eee/106">thyroid nodule</resourceLink>, <resourceLink href="info:wiley/eep-eee/85">thyroglossal duct cyst</resourceLink>, <resourceLink href="info:wiley/eep-eee/114">sialadenitis</resourceLink>, <resourceLink href="info:wiley/eep-eee/115">sialolithiasis</resourceLink>, and <resourceLink href="info:wiley/eep-eee/295">cat scratch disease.</resourceLink></listitem>
 </list>
 </Diagnostic_strategy>
@@ -344,21 +344,25 @@
 <supertype>AbCd</supertype>
 <last_update>2007-09-13</last_update>
 </meta>
-<title>Approach to the Adult Patient with Neck Pain.</title>
-<graphic href="eee0106-w001.gif" />
+<title>Approach to the patient with a neck mass</title>
+<graphic href="eee0106-w002.gif" />
 <cell type="start" id="cell-1">
 <label>Neck mass: congenital mass suspected (eg, presents in child, midline, and&#x002F;or at anterior border of sternocleidomastoid muscle)?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
 </cell>
 <cell type="decision" id="cell-2">
 <label>CT scan or MRI. Lesion requires biopsy?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="action" id="cell-4">
 <label>Refer for FNA biopsy (preferred) or excisional biopsy.</label>
 </cell>
 <cell type="decision" id="cell-5">
 <label>Observation. Lesion persists or increases in size at 4-6-wk follow-up?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
 </cell>
 <cell type="action" id="cell-6">
 <label>Observe lesion and have patient return if it changes in appearance or recurs.</label>
@@ -368,28 +372,24 @@
 </cell>
 <cell type="decision" id="cell-3">
 <label>Infectious or inflammatory mass (eg, acute onset, pain, or upper respiratory infection present)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
 </cell>
 <cell type="decision" id="cell-8">
 <label>Treat with broad-spectrum antibiotics for 2-3 wk.</label>
+<path target="cell-5">Improved</path>
+<path target="cell-9">Not improved</path>
 </cell>
 <cell type="action" id="cell-9">
 <label>Suspect neoplastic, especially if slow growth in adult. CT scan or MRI. Lesion requires biopsy?</label>
+<path target="cell-10"></path>
 </cell>
 <cell type="decision" id="cell-10">
 <label>Refer for FNA biopsy (preferred) or excisional biopsy.</label>
+<path target="cell-5">Negative</path>
+<path target="cell-7">Positive</path>
 </cell>
 </algorithm>
-<algorithm id="fig002">
-<meta>
-<id />
-<supertype />
-<last_update />
-</meta>
-<title>Suggested Approach to Evaluation of the Pediatric Patient with an Isolated Neck Mass.</title>
-<graphic href="eee0106-w002.gif" />
-<cell type="start" id="cell-123">
-<label />
-</cell>
-</algorithm>
+
 </algorithm_group>
 </topic>

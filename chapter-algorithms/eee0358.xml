@@ -1,0 +1,59 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>083</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title> Benign Prostatic Hyperplasia (BPH&#x002F;LUTS): Management. (http:&#x002F;&#x002F;www.auanet.org&#x002F;common&#x002F;pdf&#x002F;education&#x002F;clinical-guidance&#x002F;Benign-Prostatic-Hyperplasia.pdf)</title>
+<graphic href="eee0358-w0001-y.gif" />
+<cell type="start" id="cell-1">
+<label>Initial Evaluation: History, DRE &amp; Focused PE, urinalysis, and PSA in select patients</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>AUA&#x002F;IPSS Symptom Index and assessment of global bother score</label>
+<path target="cell-6">Mild symptoms (AUA score &lt;8), or moderate to severe symptoms that are not bothersome</path>
+<path target="cell-7">Moderate to severe symptoms (AUA score 8 or more) and bothersome</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Watchful waiting</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Optional diagnostic tests: uroflow, PVR, voiding diary</label>
+<path target="cell-8"></path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Discussion of treatment options</label>
+<path target="cell-6">Watchful waiting chosen</path>
+<path target="cell-11">Medical therapy chosen</path>
+<path target="cell-12">Minimally invasive therapy or surgery chosen</path>
+</cell>
+<cell type="action" id="cell-11">
+<label>Medical therapy</label>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Optional diagnostic tests: pressure flow, urethrocystoscopy, prostate ultrasound</label>
+<path target="cell-13"></path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Minimally invasive therapies or surgery</label>
+</cell>
+<cell type="action" id="cell-3">
+<label>Presence of refractory retention or any of the following clearly related to BPH: persistent gross hematuria, bladder stones, recurrent UTIs, renal insufficiency</label>
+<path target="cell-15">Yes</path>
+<path target="cell-2">No</path>
+</cell>
+<cell type="action" id="cell-15">
+<label>Surgery</label>
+</cell>
+<footnotes>
+<footnote>*In patients with clinically significant prostatic bleeding, a course of a 5 alpha-reductase inhibitor may be used. If bleeding persists, tissue ablative surgery is indicated.</footnote>
+<footnote>&#x2020;Patients with at least a 10-year life expectancy for whom knowledge of the presence of prostate cancer would change management or patients for whom the PSA measurement may change the management of voiding symptoms.</footnote>
+<footnote>&#x2021; After exhausting other therapeutic options as discussed in detail in the text.</footnote>
+<footnote>&#x00A7; Some diagnostic texts are used in predicting response to therapy. Pressure-flow studies are most useful in men prior to surgery.</footnote>
+<footnote>AUA, American Urological Association; DRE, digital rectal examination; IPSS, International Prostate Symptom Score; PE, physical examination; PSA, prostate-specific antigen; PVR, postvoid residual urine; UTI, urinary tract infection.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

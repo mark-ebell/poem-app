@@ -4,7 +4,10 @@ edges.txt, one algorithm per line:
   eee0668 fig001 | 1>2 Yes | 2>3 Yes | 2>4 No | ~5 New label | +14 decision: Text of a missing box | 14>15
   eee0123 fig001 SKIP reason
 Numbers are cell numbers (cell-N). "a>b label" adds an arrow; "~N text" replaces box N's
-text; "+N type: text" adds a box; "-N" removes a box; "tN type" changes a box's type; "fn text" adds a footnote.
+text; "+N type: text" adds a box; "-N" removes a box; "tN type" changes a box's type; "fn text" adds a footnote;
+"title: text" and "img: file.gif" change the title and image; "clear" removes every
+box and "nofn" the footnotes, for an algorithm redrawn from scratch. "eee0106 fig002 DELETE" removes
+an algorithm from the chapter.
 Lines starting with # are ignored. The file is cumulative; a later line for the same
 algorithm replaces an earlier one.
 """
@@ -25,6 +28,10 @@ def load():
             continue
         head, *ops = [p.strip() for p in line.split('|')]
         m = re.match(r'(eee\d+)\s+(\S+)(?:\s+SKIP\s*(.*))?$', head)
+        if re.match(r'(eee\d+)\s+(\S+)\s+DELETE$', head):
+            d = re.match(r'(eee\d+)\s+(\S+)', head)
+            specs[(d.group(1), d.group(2))] = ['DELETE']
+            continue
         if not m:
             sys.exit(f'bad line: {line}')
         key = (m.group(1), m.group(2))
@@ -59,7 +66,19 @@ def relabel(orig, text):
     return new
 
 def apply(alg, ops):
+    if ops == ['DELETE']:  # build-chapters removes the chapter's algorithm with this id
+        fid = re.search(r'<algorithm\b[^>]*\bid="([^"]+)"', alg).group(1)
+        return f'<algorithm id="{fid}" remove="yes"></algorithm>'
     alg = renumber(alg)
+    for op in ops:  # "title: text" and "img: file.gif" change the algorithm's title and image
+        if m := re.match(r'title:\s*(.*)$', op):
+            alg = re.sub(r'<title>[\s\S]*?</title>', lambda _: f'<title>{escape(m.group(1).strip())}</title>', alg, count=1)
+        elif m := re.match(r'img:\s*(\S+)$', op):
+            alg = re.sub(r'<graphic href="[^"]*"', f'<graphic href="{m.group(1)}"', alg, count=1)
+    if 'nofn' in ops:  # drop the chapter's footnotes (before "fn" adds new ones)
+        alg = re.sub(r'\s*<footnotes>[\s\S]*?</footnotes>', '', alg)
+    clear = 'clear' in ops  # start from no boxes (the algorithm is redrawn with "+N" boxes)
+    ops = [o for o in ops if not re.match(r'(title|img):', o) and o not in ('nofn', 'clear')]
     cells = re.findall(r'<cell\b[^>]*>[\s\S]*?</cell>', alg)
     info = {}
     order = []
@@ -70,6 +89,8 @@ def apply(alg, ops):
         info[cid] = {'type': typ, 'label': (label.group(1) or '') if label else '', 'paths': []}
         order.append(cid)
     notes = []
+    if clear:
+        info, order = {}, []
     arrows_last = sorted(ops, key=lambda o: bool(re.match(r'\d+\s*>', o)))
     for op in arrows_last:
         if not op:

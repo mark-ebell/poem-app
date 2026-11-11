@@ -876,37 +876,52 @@
 <title>Hepatorenal Syndrome: Diagnosis.</title>
 <graphic href="eee0643-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Is the absolute creatinine value increased by &gt;0.3mg&#x002F;dL?</label>
-<path target="cell-3">Yes</path>
+<label>Patient with cirrhosis and suspected hepatorenal syndrome (HRS). Is the serum creatinine increased by more than 0.3 mg/dL from baseline?</label>
 <path target="cell-2">No</path>
+<path target="cell-4">Yes</path>
 </cell>
 <cell type="decision" id="cell-2">
-<label> Is creatinine relatively increased more than 1.5 times baseline value?</label>
-<path target="cell-3">Yes</path>
-<path target="cell-4">No</path>
+<label>Is the 24-hour creatinine clearance less than 40 mL/min?</label>
+<path target="cell-3">No</path>
+<path target="cell-4">Yes</path>
 </cell>
-<cell type="action" id="cell-4">
-<label>Continue therapy for liver disease and intermittently monitor renal function.</label>
+<cell type="action" id="cell-3">
+<label>Continue therapy for liver disease and monitor renal function intermittently.</label>
 </cell>
-<cell type="decision" id="cell-3">
-<label>Ask about nephrotoxic drugs and history of CKD. Signs of hypovolemia? Check urine for protein, casts, sodium and consider trial of IV fluids. Underlying cause identified?</label>
-<path target="cell-6">Yes</path>
-<path target="cell-5">No</path>
+<cell type="decision" id="cell-4">
+<label>Ask about nephrotoxic drugs and a history of CKD. Look for signs of hypovolemia. Check urine for protein, casts, and sodium, and consider a trial of IV fluids. Underlying cause identified?</label>
+<path target="cell-5">Yes</path>
+<path target="cell-6">No</path>
 </cell>
-<cell type="decision" id="cell-5">
-<label>Is the diagnosis consistent with hepatorenal syndrome (ie, arterial hypotension, low urine and serum sodium, elevated plasma renin and aldosterone levels, high renal resistive index on duplex Doppler ultrasound)?</label>
-<path target="cell-8">Yes</path>
-<path target="cell-7">No</path>
+<cell type="action" id="cell-5">
+<label>Treat the underlying cause.</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Is the increase in serum creatinine less than 2-fold?</label>
+<path target="cell-7">Yes</path>
+<path target="cell-8">No</path>
 </cell>
 <cell type="action" id="cell-7">
-<label>Consider other diagnoses.</label>
+<label>AKI stage 1: manage risk factors and monitor for 48 hours.</label>
 </cell>
-<cell type="action" id="cell-8">
-<label>Begin treatment for hepatorenal syndrome: IV albumin; vasoconstrictors (midodrine + octreotide, noradrenaline, or terlipressin); consider paracentesis, TIPS, hemodialysis, and&#x002F;or MARS; refer for emergent liver transplant evaluation.</label>
+<cell type="decision" id="cell-8">
+<label>AKI stage 2 or 3: manage risk factors and start albumin (1 g/kg) for 2 days. Resolution?</label>
+<path target="cell-9">No</path>
 </cell>
-<cell type="action" id="cell-6">
-<label>Treat underlying cause of renal insufficiency.</label>
+<cell type="decision" id="cell-9">
+<label>Urinary biomarkers.</label>
+<path target="cell-10">Consistent with acute tubular necrosis</path>
+<path target="cell-11">Consistent with HRS, or uncertain</path>
 </cell>
+<cell type="action" id="cell-10">
+<label>Consistent with acute tubular necrosis: consider renal replacement therapy.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Consistent with HRS, or uncertain: vasoconstrictor therapy plus albumin; consider TIPS, hemodialysis, or MARS; refer for liver transplant evaluation.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">AKI, acute kidney injury; CKD, chronic kidney disease; MARS, molecular adsorbent recirculating system; TIPS, transjugular intrahepatic portosystemic shunt.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 <feature_group>

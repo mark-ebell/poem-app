@@ -1,0 +1,138 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>104.1</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Evaluation of Presumed Urinary Tract Infection (UTI) in Children 2 Months to 2 Years Old Presenting With Unexplained Fever.</title>
+<graphic href="eee0842-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Child 2 months to 2 years old with unexplained fever. Toxic appearance?</label>
+<path target="cell-2">No</path>
+<path target="cell-9">Yes</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Assess UTI risk. Low risk?*</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No: urinalysis first (bag specimen)</path>
+<path target="cell-5">No: catheter or SPA specimen</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Consider close clinical follow-up.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Urinalysis (by bag) with microscopy, nitrite, and leukocyte esterase.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Urinalysis (by SPA or catheter) with microscopy, nitrite, and leukocyte esterase, and urine culture.</label>
+<path target="cell-6"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Urinalysis positive (pyuria and/or bacteriuria)?</label>
+<path target="cell-7">No</path>
+<path target="cell-8">Yes</path>
+</cell>
+<cell type="action" id="cell-7">
+<label>No UTI. Consider other causes of fever. Close clinical follow-up.</label>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Urine culture (by SPA or catheter) and antibiotics.</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Hospitalize; urinalysis and urine culture (by SPA or catheter); IV antibiotics.</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Urinalysis positive (pyuria and/or bacteriuria) and 50,000 cfu/mL or more of a uropathogen on urine culture?</label>
+<path target="cell-7">No</path>
+<path target="cell-11">Yes</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Antibiotics for 7 to 14 days.</label>
+<path target="cell-12"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Renal and bladder ultrasound. Abnormal ultrasound or recurrent febrile UTI?</label>
+<path target="cell-13">No</path>
+<path target="cell-14">Yes</path>
+</cell>
+<cell type="action" id="cell-13">
+<label>Close clinical follow-up; reevaluate within 48 hours of the next unexplained fever.</label>
+</cell>
+<cell type="decision" id="cell-14">
+<label>VCUG.</label>
+<path target="cell-13"></path>
+</cell>
+<footnotes>
+<footnote uid="fn1">*Low risk by the UTI risk assessment described in the text.</footnote>
+<footnote uid="fn2">SPA, suprapubic aspiration; UTI, urinary tract infection; VCUG, voiding cystourethrogram.</footnote>
+</footnotes>
+</algorithm>
+<algorithm id="fig002">
+<meta>
+<id>104.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Approach to the Management of a Child With Suspected Urinary Tract Infection (UTI).</title>
+<graphic href="eee0842-w0002.gif" />
+<cell type="start" id="cell-31">
+<label>Child with burning on urination, urgency, or frequency.</label>
+<path target="cell-32">Afebrile, no CVA tenderness, and no vomiting</path>
+<path target="cell-33">Afebrile: urinalysis first (bag specimen)</path>
+<path target="cell-34">Fever, CVA tenderness, or vomiting</path>
+</cell>
+<cell type="decision" id="cell-32">
+<label>Urinalysis (by midstream clean catch, SPA, or catheter) with microscopy, nitrite, and leukocyte esterase, and urine culture.</label>
+<path target="cell-35"></path>
+</cell>
+<cell type="decision" id="cell-33">
+<label>Urinalysis (by bag) with microscopy, nitrite, and leukocyte esterase.</label>
+<path target="cell-35"></path>
+</cell>
+<cell type="decision" id="cell-34">
+<label>Urine culture and urinalysis by catheterized urine, SPA, or midstream clean catch. Admit for IV antibiotics until afebrile for more than 12 hours.</label>
+<path target="cell-38"></path>
+</cell>
+<cell type="decision" id="cell-35">
+<label>Urinalysis positive (pyuria and/or bacteriuria)?</label>
+<path target="cell-36">No</path>
+<path target="cell-37">Yes</path>
+</cell>
+<cell type="action" id="cell-36">
+<label>No UTI. Consider other causes of the symptoms. Close clinical follow-up.</label>
+</cell>
+<cell type="decision" id="cell-37">
+<label>Urine culture (by midstream clean catch, SPA, or catheter) and antibiotics.</label>
+<path target="cell-38"></path>
+</cell>
+<cell type="decision" id="cell-38">
+<label>Urinalysis positive (pyuria and/or bacteriuria) and 50,000 cfu/mL or more of a uropathogen on urine culture?</label>
+<path target="cell-36">No</path>
+<path target="cell-39">Yes</path>
+</cell>
+<cell type="decision" id="cell-39">
+<label>Antibiotics for 7 to 14 days for febrile UTI; 4 days for cystitis.</label>
+<path target="cell-40"></path>
+</cell>
+<cell type="decision" id="cell-40">
+<label>Abnormal ultrasound or recurrent febrile UTI?</label>
+<path target="cell-41">No</path>
+<path target="cell-42">Yes</path>
+</cell>
+<cell type="action" id="cell-41">
+<label>Close clinical follow-up; reevaluate within 48 hours of the next unexplained fever.</label>
+</cell>
+<cell type="decision" id="cell-42">
+<label>VCUG.</label>
+<path target="cell-41"></path>
+</cell>
+<footnotes>
+<footnote uid="fn1">CVA, costovertebral angle; SPA, suprapubic aspiration; UTI, urinary tract infection; VCUG, voiding cystourethrogram.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

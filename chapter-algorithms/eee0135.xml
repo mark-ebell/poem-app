@@ -1,0 +1,108 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Lipid management for cardiovascular disease risk reduction (VA/DoD, 2025)</title>
+<graphic href="eee0135-va2025.png" />
+<cell type="start" id="cell-1">
+<label>Adult patient.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Comprehensive lifestyle medicine: a Mediterranean or other cardioprotective diet; 150 minutes a week of moderate or 75 minutes of vigorous physical activity; sleep 7 to 8 hours a night; social connections; stop tobacco and nicotine; minimize alcohol; manage stress; address overweight and obesity.</label>
+<path target="cell-3"></path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Is life expectancy limited?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Discuss the uncertain benefit of lipid-lowering therapy.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Existing ASCVD (MI or ACS, CABG or PCI, stable CAD, stroke or TIA due to atherosclerosis, or PAD; not asymptomatic atherosclerosis on imaging such as CCTA or CAC)?</label>
+<path target="cell-6">Yes</path>
+<path target="cell-8">No</path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Refer for cardiac rehabilitation if MI, ACS, or CABG/PCI in the past 6 weeks.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Very high-risk CVD (MI or ACS in the past 12 months on lipid-lowering therapy; recurrent ACS, MI, or atherosclerotic stroke on lipid-lowering therapy; or ASCVD and LDL-C 70 mg/dL or higher on lipid-lowering therapy)?</label>
+<path target="cell-16">No</path>
+<path target="cell-17">Yes</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Diabetes, LDL-C 190 mg/dL or higher, or 10-year estimated risk 10% or higher?*</label>
+<path target="cell-9">Yes</path>
+<path target="cell-10">No</path>
+</cell>
+<cell type="decision" id="cell-9">
+<label>At least a moderate-dose statin. Consider referral to a lipid specialist if LDL-C is 190 mg/dL or higher.</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>HIV positive?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-12">No</path>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Moderate-dose statin.</label>
+<path target="cell-15"></path>
+</cell>
+<cell type="decision" id="cell-12">
+<label>Estimated risk 5% to &lt;10% and the patient desires treatment?</label>
+<path target="cell-11">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="decision" id="cell-13">
+<label>No medication treatment.</label>
+<path target="cell-14"></path>
+</cell>
+<cell type="decision" id="cell-14">
+<label>Repeat the risk assessment every 5 years unless new risk factors develop.</label>
+<path target="cell-21"></path>
+</cell>
+<cell type="decision" id="cell-15">
+<label>Reassess therapy and consider modification if new risk factors or risk enhancers develop.</label>
+<path target="cell-21"></path>
+</cell>
+<cell type="decision" id="cell-16">
+<label>Three options: high-intensity statin; moderate-intensity statin plus ezetimibe; or moderate-intensity statin plus a PCSK9 inhibitor.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="decision" id="cell-17">
+<label>Start either a high-intensity or maximally tolerated statin plus ezetimibe, or a high-intensity or maximally tolerated statin plus a PCSK9 inhibitor.</label>
+<path target="cell-18"></path>
+</cell>
+<cell type="decision" id="cell-18">
+<label>Escalation needed?</label>
+<path target="cell-19">Yes</path>
+<path target="cell-20">No</path>
+</cell>
+<cell type="decision" id="cell-19">
+<label>High-intensity or maximally tolerated statin plus ezetimibe plus a PCSK9 inhibitor.</label>
+<path target="cell-20"></path>
+</cell>
+<cell type="decision" id="cell-20">
+<label>Monitoring: with a fixed-dose strategy, monitor lipids only for adherence or to verify the effect; with a treat-to-target strategy, monitor to an LDL-C goal of &lt;70 mg/dL.</label>
+<path target="cell-21"></path>
+</cell>
+<cell type="action" id="cell-21">
+<label>Re-emphasize lifestyle medicine: Mediterranean diet, exercise, smoking cessation, sleep, social connections, stress, and weight management.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">*Estimated risk from the PREVENT equations (American Heart Association).</footnote>
+<footnote uid="fn2">Statin intensity: moderate is rosuvastatin 5-10 mg, atorvastatin 10-20 mg, simvastatin 20-40 mg, pravastatin 40-80 mg, lovastatin 40-80 mg, pitavastatin 1-4 mg, or fluvastatin XL 80 mg; high is rosuvastatin 20-40 mg or atorvastatin 40-80 mg.</footnote>
+<footnote uid="fn3">Statin intolerance: a washout period (eg, 1 month), then the same or a different statin; a lower dose or nondaily dosing; or consider bempedoic acid, ezetimibe, fibrates, or a PCSK9 monoclonal antibody.</footnote>
+<footnote uid="fn4">Persistent triglycerides of 150 mg/dL or higher on a maximally tolerated statin in secondary prevention: consider icosapent ethyl 2 g twice daily.</footnote>
+<footnote uid="fn5">Source: VA/DoD Clinical Practice Guideline for the Management of Lipids for Cardiovascular Disease Risk Reduction, pocket card, December 2025 (US government work, public domain): <resourceLink href="https://www.healthquality.va.gov/guidelines/CD/lipids/">healthquality.va.gov</resourceLink>.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

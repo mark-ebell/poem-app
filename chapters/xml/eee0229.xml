@@ -244,6 +244,7 @@
 <listitem>Category 5 - highly suggestive of malignancy, obtain US if not done; requires tissue diagnosis</listitem>
 <listitem>Category 6 &#x2013; biopsy-proven malignancy; surgical excision when clinically appropriate</listitem>
 </list></listitem>
+<listitem>Management depends on both the BI-RADS category and the clinical suspicion: a mass with high clinical suspicion is biopsied even when imaging is negative (BI-RADS 1) or probably benign (BI-RADS 3), while a low-suspicion BI-RADS 3 mass can be followed with imaging for 1 to 2 years (<xref ref="fig001" /> and <xref ref="fig002" />).</listitem>
 <listitem>Negative imaging results should never overrule a strong clinical suspicion of breast cancer because up to 9&#x0025; of breast cancers have negative imaging results.</listitem>
 </list>
 </Diagnostic_strategy>
@@ -562,19 +563,50 @@
 <title>Breast Mass in Women Younger than 30 Years: Diagnosis.</title>
 <graphic href="eee0229-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Breast mass in woman younger than 30 years</label>
+<label>Breast mass in a woman younger than 30 years, with high clinical suspicion, or with low clinical suspicion but the mass persists over 1 to 2 menstrual cycles.</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
-<label>Ultrasound. Simple cyst?</label>
+<cell type="decision" id="cell-2">
+<label>Ultrasound.</label>
+<path target="cell-3">No abnormality (BI-RADS 1)</path>
+<path target="cell-4">Cyst (BI-RADS 2)</path>
+<path target="cell-5">Solid mass</path>
 </cell>
-<cell type="action" id="cell-3">
-<label>Fine-needle aspiration (FNA)</label>
+<cell type="decision" id="cell-3">
+<label>Clinical suspicion?</label>
+<path target="cell-6">Low</path>
+<path target="cell-7">High</path>
 </cell>
-<cell type="action" id="cell-5">
-<label>FNA, core-needle biopsy or excisional biopsy, depending on ultrasound results and available resources</label>
+<cell type="decision" id="cell-4">
+<label>Type of cyst?</label>
+<path target="cell-8">Simple cyst</path>
+<path target="cell-9">Nonsimple cyst</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>BI-RADS category and clinical suspicion?</label>
+<path target="cell-10">BI-RADS 3 and low clinical suspicion</path>
+<path target="cell-11">BI-RADS 3 and high clinical suspicion, or BI-RADS 4</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Observation; biopsy if the mass increases in size.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Diagnostic mammography.</label>
+</cell>
+<cell type="action" id="cell-8">
+<label>Aspiration or routine follow-up.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Observation, aspiration, or tissue biopsy.</label>
+</cell>
+<cell type="action" id="cell-10">
+<label>Assess stability with ultrasound or mammography at 6 to 12 months, for 1 to 2 years.</label>
+</cell>
+<cell type="action" id="cell-11">
+<label>Tissue biopsy.</label>
 </cell>
 <footnotes>
-<footnote>*Using rigorous ultrasound criteria, a woman at very low risk could be followed clinically in this situation.</footnote>
+<footnote uid="fn1">BI-RADS, American College of Radiology Breast Imaging Reporting and Data System.</footnote>
 </footnotes>
 </algorithm>
 <algorithm id="fig002">
@@ -585,18 +617,49 @@
 </meta>
 <title>Breast Mass in Women 30 Years or Older: Diagnosis.</title>
 <graphic href="eee0229-w0002.gif" />
-<cell type="start" id="cell-6">
-<label>Breast mass in woman 30 years or older</label>
+<cell type="start" id="cell-21">
+<label>Breast mass in a woman 30 years or older.</label>
+<path target="cell-22"></path>
 </cell>
-<cell type="decision" id="cell-7">
-<label>Mammography</label>
+<cell type="decision" id="cell-22">
+<label>Mammography.</label>
+<path target="cell-23">No abnormality (BI-RADS 1)</path>
+<path target="cell-24">Cyst (BI-RADS 2)</path>
+<path target="cell-29">BI-RADS 3 and low clinical suspicion</path>
+<path target="cell-30">BI-RADS 4 or 5, or BI-RADS 3 and clinically suspicious</path>
 </cell>
-<cell type="action" id="cell-10">
-<label>Fine-needle aspiration</label>
+<cell type="decision" id="cell-23">
+<label>Clinical suspicion?</label>
+<path target="cell-25">Low</path>
+<path target="cell-26">High</path>
 </cell>
-<cell type="action" id="cell-11">
-<label>Refer for definitive diagnosis and treatment</label>
+<cell type="decision" id="cell-24">
+<label>Type of cyst?</label>
+<path target="cell-27">Simple cyst</path>
+<path target="cell-28">Nonsimple cyst</path>
 </cell>
+<cell type="action" id="cell-25">
+<label>Observation with or without imaging; biopsy if the mass increases in size.</label>
+</cell>
+<cell type="action" id="cell-26">
+<label>Tissue biopsy.</label>
+</cell>
+<cell type="action" id="cell-27">
+<label>Aspiration or routine follow-up.</label>
+</cell>
+<cell type="action" id="cell-28">
+<label>Observation, aspiration, or tissue biopsy.</label>
+</cell>
+<cell type="action" id="cell-29">
+<label>Observation; biopsy if the mass increases in size.</label>
+</cell>
+<cell type="action" id="cell-30">
+<label>Tissue biopsy.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">For women 30 to 39 years, ultrasound, mammography, or digital breast tomosynthesis are all appropriate as the first test (American College of Radiology, 2022).</footnote>
+<footnote uid="fn2">BI-RADS, American College of Radiology Breast Imaging Reporting and Data System.</footnote>
+</footnotes>
 </algorithm>
 </algorithm_group>
 </topic>

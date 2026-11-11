@@ -1,0 +1,45 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id />
+<supertype />
+<last_update />
+</meta>
+<title>Algorithm for the Diagnosis of Thyroid Nodule.</title>
+<graphic href="eee0160-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Thyroid nodule found on palpation or by imaging.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Check TSH and obtain high-resolution ultrasound (HRUS).</label>
+<path target="cell-3">TSH below normal</path>
+<path target="cell-5">TSH normal or high</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Thyroid scintigraphy.</label>
+<path target="cell-4">Hyperfunctioning (hot) nodule</path>
+<path target="cell-5">Hypofunctioning (cold) or normally functioning nodule</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>FNA not needed. Consider treatment for hyperthyroidism.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Apply TI-RADS criteria, based on ultrasound, to determine whether FNA is indicated.*</label>
+<path target="cell-6">Meets TI-RADS criteria for FNA</path>
+<path target="cell-7">Does not meet TI-RADS criteria for FNA</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>FNA.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Follow-up ultrasound based on the TI-RADS level.**</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">*FNA by TI-RADS level and size: TR3 (mildly suspicious) 2.5 cm or larger; TR4 (moderately suspicious) 1.5 cm or larger; TR5 (highly suspicious) 1 cm or larger. TR1 and TR2 nodules need no FNA.</footnote>
+<footnote uid="fn2">**Follow-up ultrasound: TR3 nodules 1.5 to 2.4 cm at 1, 3, and 5 years; TR4 nodules 1 to 1.4 cm at 1, 2, 3, and 5 years; TR5 nodules 0.5 to 0.9 cm every year for 5 years.</footnote>
+<footnote uid="fn3">TSH, thyroid-stimulating hormone; HRUS, high-resolution ultrasound; FNA, fine needle aspiration; TI-RADS, American College of Radiology Thyroid Imaging Reporting and Data System.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

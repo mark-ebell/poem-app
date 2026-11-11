@@ -1,0 +1,53 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>039.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Diagnostic Algorithm for Male Androgen Deficiency Syndrome.</title>
+<graphic href="eee0852-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Positive screen on the ADAM questionnaire.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Evaluate comorbidities and other medical conditions. Measure morning fasting total testosterone (TT); also measure free testosterone (FT) if indicated (see Table 3). Avoid measuring TT if the patient is acutely ill.</label>
+<path target="cell-3">TT 150-400 ng/dL</path>
+<path target="cell-4">TT &lt;150 or &gt;400 ng/dL</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Measure TT and FT.</label>
+<path target="cell-5">TT &gt;400 ng/dL</path>
+<path target="cell-6">TT &lt;150 ng/dL</path>
+<path target="cell-9">TT 150-400 ng/dL</path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Repeat TT.</label>
+<path target="cell-3">TT 150-400 ng/dL</path>
+<path target="cell-5">TT &gt;400 ng/dL</path>
+<path target="cell-6">TT &lt;150 ng/dL</path>
+</cell>
+<cell type="action" id="cell-5">
+<label>Testosterone replacement is not indicated. Explore other causes (mood, weight, sexual dysfunction, drugs).</label>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Hypogonadism confirmed. Order LH and FSH to distinguish primary from secondary hypogonadism. Measure PSA and hematocrit. Perform a DRE. Rule out reversible causes of testicular failure.</label>
+<path target="cell-7"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Rule out contraindications: breast or prostate cancer, severe untreated BPH, prostate nodule, PSA &gt;4 ng/mL, PSA &gt;3 ng/mL without further urologic evaluation, hematocrit &gt;52%, untreated severe OSA, uncontrolled heart failure, MI or stroke within the last 6 months, thrombophilia, or planning fertility in the near term. Treatment is not routinely recommended for men 65 years or older.</label>
+<path target="cell-8">No contraindications and age &lt;65 years</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Initiate treatment.</label>
+</cell>
+<cell type="action" id="cell-9">
+<label>Repeat TT and FT (above).</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">ADAM, Androgen Deficiency in the Aging Male; DRE, digital rectal examination; FT, free testosterone; OSA, obstructive sleep apnea; PSA, prostate-specific antigen; TT, total testosterone.</footnote>
+</footnotes>
+</algorithm>
+</algorithms>

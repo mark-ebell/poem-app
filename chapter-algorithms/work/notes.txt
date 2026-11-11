@@ -59,3 +59,14 @@ eee0831: image has the Yes/No arrows from "Penicillin allergic?" swapped (Yes le
 eee0423: the chapter's fig001 (EE concussion table.GIF, newer sideline algorithm) had no boxes; drawn from that image. eee0423-w0001.gif is an older algorithm (simple/complex concussion) and is not used.
 eee0489: the chapter text says "See algorithm in  for evaluation of the patient with cirrhosis and a hepatic nodule" (the link is missing); the new algorithm is that one.
 eee0703: eee0703-w0001-y.gif is identical to eee0703-w0001.gif.
+--- Editor review, 2026-11-10 (Mark's comments on the review doc) ---
+eee0106: fig001 is now the neck mass algorithm (eee0106-w002.gif, boxes rebuilt from the image); old fig002 (pediatric neck mass) removed and the text's fig002 references changed to fig001.
+eee0396: the neck pain algorithm now uses eee0106-w001.gif (eee0396-w001.gif has swapped branches); 17 boxes rebuilt from the image.
+eee0135: replaced with the VA/DoD 2025 lipid algorithm (public domain; image eee0135-va2025.png cropped from the VA pocket card). Chapter text is older (ATP III / ACC-AHA era) and may need updating to match.
+eee0146 and 50 other chapters use the <section type> layout; the converter now reads it (panel names from the headings, Bottom-line parts). Edit Chapter refuses to save these chapters for now.
+eee0160: TI-RADS algorithm drawn from the image; small text edits (elevated TSH bullet, "Aymptomatic" typo).
+eee0229: BI-RADS algorithms drawn from the images; one bullet added on BI-RADS category plus clinical suspicion.
+Boxes rebuilt from the image where it was newer: eee0146, 0641, 0650, 0689, 0842 (fig001, fig002), 0852. eee0641 text follows AUA 2020 risk groups, which neither image nor old boxes show. eee0358 image is the EAU algorithm; drawn from the chapter's AUA boxes. eee0643: image Yes/No at "<2-fold" reversed, and Yes arrow at CrCl<40 added. eee0852: image "ADM" corrected to ADAM. eee0842 fig002 asks about an abnormal ultrasound but has no ultrasound box (as in the image).
+eee0730: osteoarthritis image moved to "EEPlus chapters/Removed images"; no foot ulcer image exists.
+eee0904: 2003 CDC SARS image moved to "Removed images"; the chapter text has no references to it.
+build-chapters: an overlay <algorithm id="figNNN" remove="yes"></algorithm> drops that algorithm. inject.py ops added: title:, img:, clear, nofn, and "eeeNNNN figNNN DELETE".

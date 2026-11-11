@@ -1,0 +1,55 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>383</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Solitary Pulmonary Nodule: Diagnosis.</title>
+<graphic href="eee0689-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Consider risk factors: high-risk status includes age &gt;50 years, history of malignancy, smoking history, irregular margin, spiculated nodule, or upper lobe nodule.</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Size and type of nodule?</label>
+<path target="cell-3">Subsolid nodule 6 mm or larger</path>
+<path target="cell-4">Ground-glass nodule 6 mm or larger</path>
+<path target="cell-5">Solid nodule &gt;8 mm</path>
+<path target="cell-6">Solid nodule 6 to 8 mm</path>
+<path target="cell-7">Solid nodule &lt;6 mm with high-risk factors</path>
+<path target="cell-8">Solid nodule &lt;6 mm without high-risk factors, or ground-glass or subsolid nodule &lt;6 mm</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Repeat CT at 3 to 6 months, then annually for 5 years.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Repeat CT at 6 to 12 months, then at 3 and 5 years.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Repeat CT at 3 months, PET/CT, or tissue sampling.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-6">
+<label>Repeat CT at 6 to 12 months, then at 18 to 24 months if high risk; consider repeat CT if low risk.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Offer CT at 12 months.</label>
+<path target="cell-9"></path>
+</cell>
+<cell type="action" id="cell-8">
+<label>No routine follow-up.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Significant change on follow-up?</label>
+<path target="cell-10">Yes</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Refer for transthoracic needle biopsy or transbronchial tissue sampling.</label>
+</cell>
+</algorithm>
+</algorithms>

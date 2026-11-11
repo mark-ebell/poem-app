@@ -264,7 +264,7 @@
 <list style="bulleted">
 <listitem>Hyperfunctioning (hot) nodules do not require FNA; treatment for hyperthyroidism should be addressed.</listitem>
 <listitem>Hypofunctioning (cold) nodules or normal functioning nodules should then be addressed based on ultrasound findings as below. As with other nodules in the thyroid, most &#x201C;cold&#x201D; nodules are benign.</listitem></list></listitem>
-<listitem>If the TSH is elevated, patient should be assessed for hypothyroidism and treated accordingly.</listitem>
+<listitem>If the TSH is normal or elevated, the nodule is evaluated by ultrasound using the TI-RADS criteria (below); a patient with an elevated TSH should also be assessed and treated for hypothyroidism.</listitem>
 <listitem>There is a positive correlation between the TSH level and the likelihood of a nodule being malignant. Low TSH levels favor a benign nodule and higher TSH levels (even within the &#x201C;normal&#x201D; range) increase the likelihood of malignancy.<xref ref="pubmed26462967" resource="acc025" /></listitem>
 <listitem>High resolution thyroid ultrasound should be performed to evaluate all nodules. The combination of size of the nodule and certain features found on ultrasound determine whether FNA is needed. US features associated with thyroid carcinoma are <resourceLink href="info:wiley/eep-dx/421">microcalcifications, hypoechogenicity, irregular margins, solid, intranodule vascularity determined by Doppler</resourceLink>, and shape taller than wider.<xref ref="pubmed20189077" resource="acc009" /> No one US feature can independently predict malignant lesions. The presence of two features increases the diagnostic accuracy from 87&#x0025; to 93&#x0025;.<xref ref="pubmed16304103" resource="acc003" /><xref ref="pubmed20551008" resource="acc015" /> Interrater reliability is moderate (kappa &#x003D; 0.49 for 3D ultrasound images, only 0.15 for 2D images).<xref ref="pubmed22298862" resource="acc013" /></listitem>
 <listitem>In 2017, the TI-RADS (Thyroid Imaging, Reporting and Data System) classification system was proposed by the American College of Radiology. It assigns points to lesions based on their composition, echogenecity, shape, margin, and presence of echogenic foci. An online calculator is found <resourceLink href="http://tiradscalculator.com/">here</resourceLink>. The guideline recommends follow-up intervals of no less than 1 year, with interval and duration based on risk (below).<xref ref="pubmed28372962" resource="acc021" />
@@ -305,7 +305,7 @@
 <listitem>Nodules 1 cm or less in size with very low suspicion pattern do not require US follow up</listitem>
 </list></listitem>
 <listitem>Per ATA, these are &#x201C;weak&#x201D; recommendations based on low-quality evidence (exception is nodules &gt; 1cm with very low suspicion pattern; ATA says this is &#x201C;no recommendation&#x201D; and based on insufficient evidence)<xref ref="pubmed26462967" resource="acc025" /></listitem>
-<listitem>Aymptomatic patients with cytologically benign nodules have a very low risk of subsequently developing malignancy.<xref ref="pubmed25734734" resource="acc016" /></listitem>
+<listitem>Asymptomatic patients with cytologically benign nodules have a very low risk of subsequently developing malignancy.<xref ref="pubmed25734734" resource="acc016" /></listitem>
 <listitem>The United States Preventive Services Task Force recommends against screening for thyroid cancer in asymptomatic adults by palpation or by ultrasound<xref ref="pubmed28492905" resource="acc031" />. This recommendation is for average-risk individuals and does not include those at higher risk for thyroid malignancy.</listitem>
 <listitem>Ultrasound screening may be considered in individuals at higher risk for thyroid malignancy (i.e. significant exposure to radiation, family history of thyroid cancer); this is likely to catch cancers at earlier stage, however effects on mortality have not been shown.<xref ref="pubmed28028762" resource="acc029" /><xref ref="pubmed27167915" resource="acc028" /><xref ref="pubmed26462967" resource="acc025" /></listitem>
 </list>
@@ -683,61 +683,37 @@
 <title>Algorithm for the Diagnosis of Thyroid Nodule.</title>
 <graphic href="eee0160-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Palpable thyroid nodule or incidental thyroid nodule. Order TSH.</label>
-<path target="cell-6"> Low</path>
-<path target="cell-11"> Normal. </path>
-<path target="cell-11"> High</path>
+<label>Thyroid nodule found on palpation or by imaging.</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="decision" id="cell-6">
-<label>Scintigraphy.</label>
+<cell type="decision" id="cell-2">
+<label>Check TSH and obtain high-resolution ultrasound (HRUS).</label>
+<path target="cell-3">TSH below normal</path>
+<path target="cell-5">TSH normal or high</path>
 </cell>
-<cell type="action" id="cell-10">
-<label>Evaluate for hyperthyroidism with T3, T4.</label>
+<cell type="decision" id="cell-3">
+<label>Thyroid scintigraphy.</label>
+<path target="cell-4">Hyperfunctioning (hot) nodule</path>
+<path target="cell-5">Hypofunctioning (cold) or normally functioning nodule</path>
 </cell>
-<cell type="decision" id="cell-11">
-<label> High-resolution ultrasound.</label>
+<cell type="action" id="cell-4">
+<label>FNA not needed. Consider treatment for hyperthyroidism.</label>
 </cell>
-<cell type="decision" id="cell-16">
-<label>US-FNA.</label>
+<cell type="decision" id="cell-5">
+<label>Apply TI-RADS criteria, based on ultrasound, to determine whether FNA is indicated.*</label>
+<path target="cell-6">Meets TI-RADS criteria for FNA</path>
+<path target="cell-7">Does not meet TI-RADS criteria for FNA</path>
 </cell>
-<cell type="action" id="cell-21">
-<label>Follow US every 6-8 mos.</label>
+<cell type="action" id="cell-6">
+<label>FNA.</label>
 </cell>
-<cell type="action" id="cell-24">
-<label>Repeat FNA biopsy.</label>
-</cell>
-<cell type="action" id="cell-25">
-<label>Persistent nondiagnostic.</label>
-</cell>
-<cell type="action" id="cell-26">
-<label>Consider surgery.</label>
-</cell>
-<cell type="decision" id="cell-27">
-<label>Scintigraphy.</label>
-</cell>
-<cell type="action" id="cell-28">
-<label>Surgery.</label>
-</cell>
-<cell type="action" id="cell-29">
-<label>Follow.</label>
-</cell>
-<cell type="action" id="cell-30">
-<label>Surgery.</label>
-</cell>
-<cell type="decision" id="cell-14">
-<label>&#x2265;10 mm?</label>
-</cell>
-<cell type="action" id="cell-31">
-<label>Follow by US every 6-18 mos.</label>
-</cell>
-<cell type="action" id="cell-15">
-<label>TpAb.</label>
-</cell>
-<cell type="action" id="cell-32">
-<label>Evaluate for hypothyroidism.</label>
+<cell type="action" id="cell-7">
+<label>Follow-up ultrasound based on the TI-RADS level.**</label>
 </cell>
 <footnotes>
-<footnote>TSH, thyroid-stimulating hormone; PE, physical examination; Hx, history; FHx, family history; US-FNA, ultrasound-guided fine needle aspiration; TpAb, thyroid peroxidase antibody; US, ultrasound.</footnote>
+<footnote uid="fn1">*FNA by TI-RADS level and size: TR3 (mildly suspicious) 2.5 cm or larger; TR4 (moderately suspicious) 1.5 cm or larger; TR5 (highly suspicious) 1 cm or larger. TR1 and TR2 nodules need no FNA.</footnote>
+<footnote uid="fn2">**Follow-up ultrasound: TR3 nodules 1.5 to 2.4 cm at 1, 3, and 5 years; TR4 nodules 1 to 1.4 cm at 1, 2, 3, and 5 years; TR5 nodules 0.5 to 0.9 cm every year for 5 years.</footnote>
+<footnote uid="fn3">TSH, thyroid-stimulating hormone; HRUS, high-resolution ultrasound; FNA, fine needle aspiration; TI-RADS, American College of Radiology Thyroid Imaging Reporting and Data System.</footnote>
 </footnotes>
 </algorithm>
 </algorithm_group>

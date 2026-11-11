@@ -801,56 +801,48 @@
 <title>Solitary Pulmonary Nodule: Diagnosis.</title>
 <graphic href="eee0689-w001.gif" />
 <cell type="start" id="cell-1">
-<label>Obtain old films. Nodule is stable for 2 years?</label>
-<path target="cell-2"> Yes </path>
-<path target="cell-3"> No </path>
+<label>Consider risk factors: high-risk status includes age &gt;50 years, history of malignancy, smoking history, irregular margin, spiculated nodule, or upper lobe nodule.</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
-<label>No further workup.</label>
+<cell type="decision" id="cell-2">
+<label>Size and type of nodule?</label>
+<path target="cell-3">Subsolid nodule 6 mm or larger</path>
+<path target="cell-4">Ground-glass nodule 6 mm or larger</path>
+<path target="cell-5">Solid nodule &gt;8 mm</path>
+<path target="cell-6">Solid nodule 6 to 8 mm</path>
+<path target="cell-7">Solid nodule &lt;6 mm with high-risk factors</path>
+<path target="cell-8">Solid nodule &lt;6 mm without high-risk factors, or ground-glass or subsolid nodule &lt;6 mm</path>
 </cell>
-<cell type="action" id="cell-3">
-<label>Order chest CT (no old films are available, or the nodule is not present or is smaller on prior films).</label>
+<cell type="decision" id="cell-3">
+<label>Repeat CT at 3 to 6 months, then annually for 5 years.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-4">
-<label>Does the nodule have a (1) laminated or central pattern of calcification (typical of granulomas), (2) a "popcorn" pattern of calcification (seen in hamartomas), or (3) fat and cartilage (seen in hamartomas)? Spiculated.</label>
+<label>Repeat CT at 6 to 12 months, then at 3 and 5 years.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Is patient high risk (age &gt;50, history of malignancy, smoking history, speculated nodule, or upper lobe nodule)?</label>
+<label>Repeat CT at 3 months, PET/CT, or tissue sampling.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-6">
-<label>Good surgical candidate?</label>
-</cell>
-<cell type="action" id="cell-8">
-<label>To OR for wedge resection and if malignant, lobectomy.</label>
-</cell>
-<cell type="decision" id="cell-9">
-<label>PET scan or percutaneous lung biopsy.</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>Repeat CT at 3, 6, 12, and 24 months.</label>
-</cell>
-<cell type="action" id="cell-11">
-<label>Either refer to interventional radiologist for transthoracic needle biopsy if the lesion is peripheral, or refer to pulmonologist for bronchoscopy if the lesion is proximal.</label>
+<label>Repeat CT at 6 to 12 months, then at 18 to 24 months if high risk; consider repeat CT if low risk.</label>
+<path target="cell-9"></path>
 </cell>
 <cell type="decision" id="cell-7">
-<label>Size of nodule.</label>
+<label>Offer CT at 12 months.</label>
+<path target="cell-9"></path>
 </cell>
-<cell type="action" id="cell-12">
-<label>Repeat CT at 3, 9, and 24 months.</label>
+<cell type="action" id="cell-8">
+<label>No routine follow-up.</label>
 </cell>
-<cell type="action" id="cell-13">
-<label>6-8 mm. Repeat CT at 6-12 months and then at 18-24 months.</label>
+<cell type="decision" id="cell-9">
+<label>Significant change on follow-up?</label>
+<path target="cell-10">Yes</path>
 </cell>
-<cell type="action" id="cell-14">
-<label>4-6 mm. Repeat CT at 12 months.</label>
+<cell type="action" id="cell-10">
+<label>Refer for transthoracic needle biopsy or transbronchial tissue sampling.</label>
 </cell>
-<cell type="action" id="cell-15">
-<label>No follow up workup.</label>
-</cell>
-<footnotes>
-<footnote>Data from MacMahon H, Naidich DP, Goo JM, et al. Guidelines for management of incidental pulmonary nodules detected on CT images: from the Fleischner Society 2017. <em>Radiology</em>. 2017;284(1):228-243.<xref ref="pubmed23897166" resource="acc013" />
-</footnote>
-</footnotes>
 </algorithm>
 </algorithm_group>
 </topic>

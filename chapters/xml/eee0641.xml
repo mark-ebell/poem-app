@@ -698,54 +698,35 @@
 <title>Suggested evaluation of microscopic hematuria.</title>
 <graphic href="eee0641-w0001.gif" />
 <cell type="start" id="cell-1">
-<label>Exclude benign causes, including menstruation, vigorous exercise, sexual activity, viral illness, trauma, and infection. Signs of primary renal disease (significant proteinuria, dysmorphic RBCs or red cell casts, elevated serum creatinine)?</label>
-<path target="cell-2">Yes</path>
-<path target="cell-3">No</path>
+<label>Microscopic hematuria (at least 3 RBC/HPF on urinalysis).</label>
+<path target="cell-2"></path>
 </cell>
-<cell type="action" id="cell-2">
-<label>Evaluation for primary renal disease.</label>
+<cell type="decision" id="cell-2">
+<label>Perform a history and physical, evaluating for nonmalignant causes such as urinary tract infection or menstruation. Cause found?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
 </cell>
 <cell type="decision" id="cell-3">
-<label>Low-risk patient (age &lt;40 y, no history of smoking, chemical exposure, irritative voiding symptoms, gross hematuria, or urologic disease)?</label>
+<label>Treat the cause and repeat urinalysis. Persistent hematuria?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
 </cell>
-<cell type="decision" id="cell-4">
-<label>Upper tract imaging.</label>
-</cell>
-<cell type="decision" id="cell-6">
-<label>Positive, atypical, or suspicious?</label>
-</cell>
-<cell type="decision" id="cell-8">
-<label>Order cystoscopy.</label>
-</cell>
-<cell type="action" id="cell-10">
-<label>Treat cause.</label>
-</cell>
-<cell type="decision" id="cell-9">
-<label>UA, blood pressure, and cytology at 6, 12, 24, and 36 mo.</label>
-</cell>
-<cell type="action" id="cell-14">
-<label>No further urologic monitoring.</label>
-</cell>
-<cell type="action" id="cell-15">
-<label>Evaluate for primary renal disease.</label>
-</cell>
-<cell type="action" id="cell-16">
-<label>Repeat complete evaluation.</label>
-</cell>
-<cell type="decision" id="cell-7">
-<label>Positive?</label>
-</cell>
-<cell type="action" id="cell-18">
-<label>Treat cause.</label>
+<cell type="action" id="cell-4">
+<label>No further evaluation needed.</label>
 </cell>
 <cell type="decision" id="cell-5">
-<label>Complete evaluation (upper tract imaging, cytology, cystoscopy).</label>
+<label>Serum creatinine, cystoscopy, and imaging (CT urogram). Renal and bladder ultrasound is an option instead of CT urogram for younger, lower-risk patients.</label>
+<path target="cell-6">Normal</path>
+<path target="cell-7">Abnormal</path>
 </cell>
-<cell type="action" id="cell-22">
-<label>Treat cause.</label>
+<cell type="action" id="cell-6">
+<label>Annual urinalysis with microscopy for at least 2 years. If hematuria persists, continue monitoring and consider nephrology referral.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Treat as appropriate; consider repeat microscopic urinalysis after the condition resolves.</label>
 </cell>
 <footnotes>
-<footnote>From Davis R, Jones JS, Barocas DA, Castle EP, Lang EK, Leveillee RJ, Messing EM, Miller SD, Peterson AC, Turk TM, Weitzel W; American Urological Association. Diagnosis, evaluation and follow-up of asymptomatic microhematuria (AMH) in adults: AUA guideline.<em>J Urol</em> 2012 <strong>188</strong> 2473&#x2013;2481 and Tan WS, Sarpong R, Khetrapal P, Rodney S, Mostafid H, Cresswell J, Hicks J, Rane A, Henderson A, Watson D, Cherian J, Williams N, Brew-Graves C, Feber A, Kelly JD, DETECT I Trial Collaborators. Can Renal and Bladder Ultrasound Replace Computerized Tomography Urogram in Patients Investigated for Microscopic Hematuria? <em>J. Urol</em>. 2018 <strong>200</strong> 973&#x2013;980</footnote>
+<footnote uid="fn1">RBC/HPF, red blood cells per high-power field.</footnote>
 </footnotes>
 </algorithm>
 <algorithm id="fig002">

@@ -2266,9 +2266,76 @@
 <last_update>2007-09-13</last_update>
 </meta>
 <title>Neck Pain: Diagnosis.</title>
-<graphic href="eee0396-w001.gif" />
-<cell type="start" id="cell-123">
-<label />
+<graphic href="eee0106-w001.gif" />
+<cell type="start" id="cell-1">
+<label>Patient presents with neck pain. Recent trauma?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-7">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Apply the Canadian C-spine rule. Injury with a dangerous mechanism (eg, fall from 3 ft or more or 5 stairs, diving, motor vehicle collision at &gt;100 km/hr, rollover or ejection, or collision involving a motorized recreational vehicle or a bicycle)?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-4">No</path>
+</cell>
+<cell type="action" id="cell-3">
+<label>Stabilize neck; transport for immediate x-ray.</label>
+</cell>
+<cell type="decision" id="cell-4">
+<label>Can you safely assess range of motion of the neck (eg, simple rear-end motor vehicle collision, sitting in the office or ED, ambulatory since the injury, delayed onset of neck pain, or no midline cervical spine tenderness)?</label>
+<path target="cell-3">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Able to actively rotate the neck 45 degrees left and right?</label>
+<path target="cell-3">No</path>
+<path target="cell-6">Yes</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>No immediate x-ray needed. If pain continues, continue the evaluation.</label>
+<path target="cell-7">If pain continues</path>
+</cell>
+<cell type="decision" id="cell-7">
+<label>Risk factors for fracture (eg, age 65 years or older, history of or risk factors for cancer, unexplained weight loss, or Paget's disease)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="action" id="cell-8">
+<label>Consider cancer: order neck x-ray and ESR.</label>
+</cell>
+<cell type="decision" id="cell-9">
+<label>Risk factors for infection (eg, immunosuppression, previous spine surgery, history of IV drug use, or prolonged steroid use)?</label>
+<path target="cell-10">Yes</path>
+<path target="cell-11">No</path>
+</cell>
+<cell type="action" id="cell-10">
+<label>Consider osteomyelitis or septic arthritis: order CBC, ESR, white blood cell labeled bone scan, and MRI.</label>
+</cell>
+<cell type="decision" id="cell-11">
+<label>Weakness, numbness, and paresthesias of the arms? Reduced deep tendon reflexes?</label>
+<path target="cell-12">Yes</path>
+<path target="cell-13">No</path>
+</cell>
+<cell type="action" id="cell-12">
+<label>Consider cervical disc herniation: order MRI (17% of people without symptoms have a disc herniation, so interpret with caution).</label>
+</cell>
+<cell type="decision" id="cell-13">
+<label>Other neurologic signs (eg, bowel or bladder dysfunction, clonus, Babinski sign, spasticity, gait disturbance, or electric shocks down the back and legs on neck flexion [Lhermitte sign])?</label>
+<path target="cell-14">Yes</path>
+<path target="cell-15">No</path>
+</cell>
+<cell type="action" id="cell-14">
+<label>Consider myelopathy; order MRI.</label>
+</cell>
+<cell type="decision" id="cell-15">
+<label>History consistent with arthritis?</label>
+<path target="cell-16">Yes</path>
+<path target="cell-17">No</path>
+</cell>
+<cell type="action" id="cell-16">
+<label>Consider arthritis: order x-rays, ESR, and rheumatoid factor.</label>
+</cell>
+<cell type="action" id="cell-17">
+<label>Consider nonspecific neck pain without radiculopathy, cervical strain, myofascial syndrome, muscle spasm, or cervical spondylosis.</label>
 </cell>
 </algorithm>
 </algorithm_group>

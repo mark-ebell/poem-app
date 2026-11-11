@@ -103,6 +103,18 @@ const TEMPLATE = {
   Special_populations: ['Elderly', 'Pregnancy', 'Children']
 };
 
+// Typed-layout headings (<section type="..."><heading>) spelled as the template spells them.
+const TYPED_HEADINGS = Object.fromEntries(Object.values(HEADINGS).map(h => [h.toLowerCase(), h]));
+Object.assign(TYPED_HEADINGS, {
+  'screening and prevention': 'Screening and prevention', 'management of special populations': 'Special populations',
+  'special population': 'Special populations', 'the elderly': 'The elderly', children: 'Infants and children',
+  'history and physical': 'Using the history and physical', 'using the history and physical': 'Using the history and physical',
+  'selecting diagnostic tests': 'Selecting diagnostic tests', 'diagnostic testing': 'Selecting diagnostic tests',
+  'approach to the patient': 'Approach to the patient', 'clinical decision rules': 'Clinical decision rules',
+  'drug therapy': 'Drug therapy', 'when to refer or hospitalize': 'Referral and consultation', 'when to refer': 'Referral and consultation',
+  'follow-up': 'Follow-up', 'causes of the condition': 'Causes of the condition', 'risk factors': 'Risk factors'
+});
+
 // Parts that are a section's bottom line (shown highlighted).
 const BOTTOM_LINES = new Set(['bottomline', 'screeningbl', 'diagnosisbl', 'treatmentbl', 'prognosisbl']);
 // Not shown: billing codes (the template has no heading for them).
@@ -459,7 +471,11 @@ class Chapter {
       const k = key(s.tagName);
       if (k === 'misc') continue;
       let parts, label;
-      if (k === 'section') { // the general layout: <section heading="..."><subsection heading="...">
+      if (k === 'section' && Chapter.isTyped(s)) { // the typed layout: <section type="..."><heading>...</heading>, nested
+        if (Chapter.isOverallBottomLine(s, out.length === 0)) continue; // shown above the sections
+        label = Chapter.typedHeading(s);
+        parts = this.typedParts(s);
+      } else if (k === 'section') { // the general layout: <section heading="..."><subsection heading="...">
         parts = [];
         if (elements(s).some(c => c.tagName === 'subsection')) {
           for (const sub of children(s, 'subsection')) {
@@ -499,6 +515,76 @@ class Chapter {
       if (html) out.push({ id: `feature-${attr(f, 'uid') || ''}`, label: attr(f, 'caption') || 'Feature', parts: [{ label: '', bottomLine: false, html, tag: 'feature' }], tag: 'feature' });
     }
     return out;
+  }
+
+  // ---------- The typed layout ----------
+  // Some chapters (about 50, many of them procedures) use <section type="Background">
+  // <heading>Background</heading> <list>...</list> <section type="Definition">...</section>
+  // </section> instead of the template's tags. Each top section is a panel, each section
+  // inside it a part, and deeper sections subheadings within the part.
+  static isTyped(s) { return !!(attr(s, 'type') || child(s, 'heading')); }
+
+  static typedHeading(s) {
+    const raw = (textOf(child(s, 'heading')) || attr(s, 'type') || 'Section').replace(/\s+/g, ' ').trim();
+    const k = raw.toLowerCase().replace(/[.:]+$/, '');
+    if (/^(overall )?bottom[ -]?lines?$/.test(k)) return k.startsWith('overall') ? 'Overall Bottom Line' : 'Bottom-line';
+    if (TYPED_HEADINGS[k]) return TYPED_HEADINGS[k];
+    return raw === raw.toUpperCase() ? raw.charAt(0) + raw.slice(1).toLowerCase() : raw;
+  }
+
+  static isBottomLine(s) { return /bottom[ -]?line/i.test(textOf(child(s, 'heading')) || attr(s, 'type') || ''); }
+
+  // A chapter's overall bottom line in this layout: a first top-level "Bottom Line"
+  // section, or an "OVERALL BOTTOM LINE" section anywhere at the top or in Background.
+  static isOverallBottomLine(s, first) {
+    const h = (textOf(child(s, 'heading')) || attr(s, 'type') || '').toLowerCase();
+    return /overall bottom/.test(h) || (first && Chapter.isBottomLine(s));
+  }
+
+  typedOverall() {
+    const text = child(this.root, 'topic_text');
+    if (!text) return null;
+    const tops = children(text, 'section').filter(Chapter.isTyped);
+    if (!tops.length) return null;
+    if (Chapter.isOverallBottomLine(tops[0], true)) return tops[0];
+    for (const t of tops) {
+      const inner = children(t, 'section').find(c => /overall bottom/i.test(textOf(child(c, 'heading')) || attr(c, 'type') || ''));
+      if (inner) return inner;
+    }
+    return null;
+  }
+
+  // The content of a typed section without its heading; nested sections as subheadings.
+  typedBody(s, level = 4) {
+    let out = '';
+    for (const n of Array.from(s.childNodes)) {
+      if (n.nodeType === 1 && n.tagName === 'heading') continue;
+      if (n.nodeType === 1 && n.tagName === 'section') {
+        const h = Chapter.typedHeading(n), body = this.typedBody(n, Math.min(level + 1, 6));
+        if (body.replace(/<[^>]+>/g, '').trim()) out += `<h${level} class="chapter-subhead">${esc(h)}</h${level}>${body}`;
+      } else if (n.nodeType === 1) out += this.element(n);
+      else if (n.nodeType === 3 || n.nodeType === 4) out += esc(n.nodeValue);
+    }
+    out = out.trim();
+    return out && !out.startsWith('<') ? `<p>${out}</p>` : out;
+  }
+
+  typedParts(s) {
+    const parts = [], overall = this.typedOverall();
+    let loose = '';
+    const flush = () => { if (loose.replace(/<[^>]+>/g, '').trim()) parts.push({ label: '', bottomLine: false, html: loose.trim(), tag: 'section' }); loose = ''; };
+    for (const n of Array.from(s.childNodes)) {
+      if (n.nodeType === 1 && n.tagName === 'heading') continue;
+      if (n.nodeType === 1 && n.tagName === 'section') {
+        if (n === overall) continue;
+        flush();
+        const html = this.typedBody(n);
+        if (html.replace(/<[^>]+>/g, '').trim()) parts.push({ label: Chapter.typedHeading(n), bottomLine: Chapter.isBottomLine(n), html, tag: 'section' });
+      } else if (n.nodeType === 1) loose += this.element(n);
+      else if (n.nodeType === 3 || n.nodeType === 4) loose += esc(n.nodeValue);
+    }
+    flush();
+    return parts;
   }
 
   references() {
@@ -558,7 +644,8 @@ class Chapter {
 
   overallBottomLine() {
     const bl = findPath(this.root, 'topic_text', 'background', 'BottomLine');
-    const part = bl ? this.part(bl) : null;
+    if (!bl) { const t = this.typedOverall(); return t ? this.typedBody(t) : ''; }
+    const part = this.part(bl);
     return part ? part.html : '';
   }
 

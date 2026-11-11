@@ -1,5 +1,45 @@
 <algorithms>
 <!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>273.2</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Suggested evaluation of microscopic hematuria.</title>
+<graphic href="eee0641-w0001.gif" />
+<cell type="start" id="cell-1">
+<label>Microscopic hematuria (at least 3 RBC/HPF on urinalysis).</label>
+<path target="cell-2"></path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>Perform a history and physical, evaluating for nonmalignant causes such as urinary tract infection or menstruation. Cause found?</label>
+<path target="cell-3">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Treat the cause and repeat urinalysis. Persistent hematuria?</label>
+<path target="cell-4">No</path>
+<path target="cell-5">Yes</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>No further evaluation needed.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Serum creatinine, cystoscopy, and imaging (CT urogram). Renal and bladder ultrasound is an option instead of CT urogram for younger, lower-risk patients.</label>
+<path target="cell-6">Normal</path>
+<path target="cell-7">Abnormal</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Annual urinalysis with microscopy for at least 2 years. If hematuria persists, continue monitoring and consider nephrology referral.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Treat as appropriate; consider repeat microscopic urinalysis after the condition resolves.</label>
+</cell>
+<footnotes>
+<footnote uid="fn1">RBC/HPF, red blood cells per high-power field.</footnote>
+</footnotes>
+</algorithm>
 <algorithm id="fig002">
 <meta>
 <id>273.3</id>

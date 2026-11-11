@@ -1,0 +1,56 @@
+<algorithms>
+<!-- Arrows added from the original figure, 2026-11. -->
+<algorithm id="fig001">
+<meta>
+<id>328</id>
+<supertype>AbCd</supertype>
+<last_update>2007-09-13</last_update>
+</meta>
+<title>Approach to the patient with a neck mass</title>
+<graphic href="eee0106-w002.gif" />
+<cell type="start" id="cell-1">
+<label>Neck mass: congenital mass suspected (eg, presents in child, midline, and&#x002F;or at anterior border of sternocleidomastoid muscle)?</label>
+<path target="cell-2">Yes</path>
+<path target="cell-3">No</path>
+</cell>
+<cell type="decision" id="cell-2">
+<label>CT scan or MRI. Lesion requires biopsy?</label>
+<path target="cell-4">Yes</path>
+<path target="cell-5">No</path>
+</cell>
+<cell type="action" id="cell-4">
+<label>Refer for FNA biopsy (preferred) or excisional biopsy.</label>
+</cell>
+<cell type="decision" id="cell-5">
+<label>Observation. Lesion persists or increases in size at 4-6-wk follow-up?</label>
+<path target="cell-6">No</path>
+<path target="cell-7">Yes</path>
+</cell>
+<cell type="action" id="cell-6">
+<label>Observe lesion and have patient return if it changes in appearance or recurs.</label>
+</cell>
+<cell type="action" id="cell-7">
+<label>Refer to specialist for evaluation and treatment based on workup and staging.</label>
+</cell>
+<cell type="decision" id="cell-3">
+<label>Infectious or inflammatory mass (eg, acute onset, pain, or upper respiratory infection present)?</label>
+<path target="cell-8">Yes</path>
+<path target="cell-9">No</path>
+</cell>
+<cell type="decision" id="cell-8">
+<label>Treat with broad-spectrum antibiotics for 2-3 wk.</label>
+<path target="cell-5">Improved</path>
+<path target="cell-9">Not improved</path>
+</cell>
+<cell type="action" id="cell-9">
+<label>Suspect neoplastic, especially if slow growth in adult. CT scan or MRI. Lesion requires biopsy?</label>
+<path target="cell-10"></path>
+</cell>
+<cell type="decision" id="cell-10">
+<label>Refer for FNA biopsy (preferred) or excisional biopsy.</label>
+<path target="cell-5">Negative</path>
+<path target="cell-7">Positive</path>
+</cell>
+</algorithm>
+<algorithm id="fig002" remove="yes"></algorithm>
+</algorithms>
