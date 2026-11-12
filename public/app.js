@@ -1838,7 +1838,7 @@ function pairList(pairs, which) {
     if (pair.items.length >= 2) {
       const all = document.createElement('option');
       all.value = ALL_ITEMS;
-      all.textContent = which === 'signs' ? 'All signs or symptoms' : 'All tests';
+      all.textContent = tr(which === 'signs' ? 'All signs or symptoms' : 'All tests');
       select.appendChild(all);
     }
     const matching = pair.items.filter(i => i.match), others = pair.items.filter(i => !i.match);

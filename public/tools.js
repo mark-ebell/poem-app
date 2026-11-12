@@ -41,8 +41,9 @@ async function reloadList() {
   const sel = $('toolsCategory');
   const keep = sel.value;
   while (sel.options.length > 1) sel.remove(1);
-  for (const c of categories) {
-    const o = el('option', '', c.available === c.total ? `${c.name} (${c.total})` : tr('{name} ({n} of {total} so far)', { name: c.name, n: c.available, total: c.total }));
+  const sorted = categories.map(c => [c, tr(c.name)]).sort((a, b) => a[1].localeCompare(b[1]));
+  for (const [c, name] of sorted) {
+    const o = el('option', '', c.available === c.total ? `${name} (${c.total})` : tr('{name} ({n} of {total} so far)', { name, n: c.available, total: c.total }));
     o.value = c.name;
     o.disabled = !c.available;
     sel.appendChild(o);
@@ -64,13 +65,13 @@ function renderList() {
   const box = $('toolsList');
   box.textContent = '';
   const shown = tools.filter(t => (!cat || t.categories.includes(cat)) && (!q || `${t.title} ${t.subtitle} ${t.categories.join(' ')}`.toLowerCase().includes(q)));
-  $('toolsCount').textContent = cat ? tr('{n} of {total} risk scores in {cat}.', { n: shown.length, total: tools.length, cat }) : tr('{n} of {total} risk scores.', { n: shown.length, total: tools.length });
+  $('toolsCount').textContent = cat ? tr('{n} of {total} risk scores in {cat}.', { n: shown.length, total: tools.length, cat: tr(cat) }) : tr('{n} of {total} risk scores.', { n: shown.length, total: tools.length });
   if (!shown.length) { box.appendChild(el('p', 'hint', q ? 'No risk score matches.' : 'No risk scores yet.')); return; }
   // A tool appears under each of its categories, as in EE+.
   const groups = new Map();
   for (const t of shown) for (const c of t.categories) if (!cat || c === cat) (groups.get(c) || groups.set(c, []).get(c)).push(t);
-  for (const [category, list] of [...groups].sort((a, b) => a[0].localeCompare(b[0]))) {
-    box.appendChild(el('h3', 'tools-cat', category));
+  for (const [category, list] of [...groups].sort((a, b) => tr(a[0]).localeCompare(tr(b[0])))) {
+    box.appendChild(el('h3', 'tools-cat', tr(category)));
     const ul = el('ul', 'tools-items');
     for (const t of list) {
       const li = el('li');

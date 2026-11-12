@@ -159,8 +159,8 @@ function openPicker(select, title) {
   if (current) current.scrollIntoView({ block: 'center' });
 }
 
-phonePicker($('calcPair'), 'Symptom / disease pair');
-phonePicker($('calcItem'), () => itemLabel(true));
+phonePicker($('calcPair'), () => tr('Symptom / disease pair'));
+phonePicker($('calcItem'), () => tr(itemLabel(true)));
 
 // Shows the Signs and Symptoms ('signsSymptoms') or Diagnostic Tests ('diagnosticTests') data set.
 function showPanel(key) {
@@ -173,7 +173,9 @@ function showPanel(key) {
   $('calcEmptyText').textContent = tr(itemNames().empty);
   $('calcItemLabel').textContent = itemNames().step;
   resetSelect($('calcSpecialty'), 'Select specialty…', false);
-  panel.specialties.forEach(sp => addOption($('calcSpecialty'), sp, sp));
+  // Specialty names are menu labels, translated (the value stays the English name).
+  panel.specialties.map(sp => [sp, tr(sp)]).sort((a, b) => a[1].localeCompare(b[1]))
+    .forEach(([sp, label]) => addOption($('calcSpecialty'), sp, label));
   resetSelect($('calcPair'), 'Select specialty first…');
   resetSelect($('calcItem'), 'Select symptom/disease first…');
   setStatus('');
