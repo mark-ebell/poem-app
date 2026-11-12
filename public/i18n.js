@@ -78,6 +78,14 @@ export function setLanguage(code) {
   location.replace(url.href);
 }
 
+// Names of content that the server translates (the calculators' names: their routes take
+// ?lang= and answer with `names`, { English: translation }). nm() shows a name in the
+// interface language; the English name stays the value used in look-ups.
+const contentNames = new Map();
+export const withLang = url => (lang === 'en' ? url : `${url}${url.includes('?') ? '&' : '?'}lang=${lang}`);
+export function learnNames(names) { if (names) for (const [k, v] of Object.entries(names)) contentNames.set(k, v); }
+export const nm = s => contentNames.get(s) || s;
+
 // Dates in the interface language.
 export const dateLocale = { en: 'en-US', it: 'it-IT', da: 'da-DK', fr: 'fr-FR', de: 'de-DE' }[lang];
 

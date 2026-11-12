@@ -14,6 +14,15 @@ const router = express.Router();
 router.use(requireFullAccess); // not for readers with the POEMs only
 
 const calculatorData = require('../calculator-data');
+const { namesFor } = require('../calculator-i18n');
+
+// Adds the names' translations for the reader's language (?lang=it) to an answer.
+function withNames(req, body, strings) {
+  const names = namesFor(req, strings);
+  if (names) body.names = names;
+  return body;
+}
+const testStrings = tests => tests.flatMap(t => [t.name, t.symptom, t.disease, ...(t.options || []).map(o => o.range)]);
 let data, panels;
 function use(d) {
   data = { panels: d.panels || [], differentials: d.differentials || [] };
@@ -32,14 +41,15 @@ const byText = (a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' });
 
 // Differential Diagnosis: the list of signs, symptoms and test abnormalities...
 router.get('/differential', (req, res) => {
-  res.json({ items: data.differentials.map(d => ({ id: d.id, name: d.name, category: d.category, aliases: d.aliases || [] })) });
+  const items = data.differentials.map(d => ({ id: d.id, name: d.name, category: d.category, aliases: d.aliases || [] }));
+  res.json(withNames(req, { items }, items.flatMap(d => [d.name, ...d.aliases])));
 });
 
 // ...and one item's ranked differential.
 router.get('/differential/:id', quota('calc'), (req, res) => {
   const item = data.differentials.find(d => d.id === req.params.id);
   if (!item) return res.status(404).json({ error: 'Not found.' });
-  res.json({ item });
+  res.json(withNames(req, { item }, [item.name, ...(item.aliases || []), ...(item.ddx || []).map(e => e.dx)]));
 });
 
 // Where an SxDxNum is (for links from textbook chapters): its specialty and symptom /
@@ -92,7 +102,7 @@ router.get('/:panel/number/:num/summary', quota('calc'), (req, res) => {
   }
   const [specialty, symptom, disease] = JSON.parse([...counts].sort((a, b) => b[1] - a[1])[0][0]);
   const rows = summaryRows(tests);
-  res.json({ specialty, symptom, disease, itemLabel: panel.itemLabel, tests: rows });
+  res.json(withNames(req, { specialty, symptom, disease, itemLabel: panel.itemLabel, tests: rows }, [symptom, disease, ...testStrings(rows)]));
 });
 
 // Summary data for a symptom / disease pair (the "Compare all" panel on the calculator tabs).
@@ -103,7 +113,8 @@ router.get('/:panel/pair/summary', quota('calc'), (req, res) => {
   const { specialty, symptom, disease } = req.query;
   const tests = panel.tests.filter(t => t.specialty === specialty && t.symptom === symptom && t.disease === disease);
   if (!tests.length) return res.status(404).json({ error: 'That symptom / disease pair was not found.' });
-  res.json({ specialty, symptom, disease, itemLabel: panel.itemLabel, tests: summaryRows(tests) });
+  const rows = summaryRows(tests);
+  res.json(withNames(req, { specialty, symptom, disease, itemLabel: panel.itemLabel, tests: rows }, [symptom, disease, ...testStrings(rows)]));
 });
 
 // The two calculator panels and their specialties.
@@ -123,7 +134,7 @@ router.get('/:panel/pairs', (req, res) => {
     if (!seen.has(key)) seen.set(key, { symptom: t.symptom, disease: t.disease });
   }
   const pairs = [...seen.values()].sort((a, b) => byText(a.symptom + a.disease, b.symptom + b.disease));
-  res.json({ pairs });
+  res.json(withNames(req, { pairs }, pairs.flatMap(p => [p.symptom, p.disease])));
 });
 
 // Step 3 menu: the tests (or findings) for a specialty and symptom / disease pair.
@@ -135,7 +146,7 @@ router.get('/:panel/items', (req, res) => {
     .filter(t => t.specialty === specialty && t.symptom === symptom && t.disease === disease)
     .map(t => ({ id: t.id, name: t.name, disambig: t.disambig || null, multi: t.multi }))
     .sort((a, b) => byText(a.name, b.name));
-  res.json({ items });
+  res.json(withNames(req, { items }, items.map(t => t.name)));
 });
 
 // One entry, with its numbers and source.
@@ -144,7 +155,7 @@ router.get('/:panel/items/:id', quota('calc'), (req, res) => {
   if (!panel) return;
   const test = panel.tests[Number(req.params.id)];
   if (!test || String(test.id) !== String(req.params.id)) return res.status(404).json({ error: 'Not found.' });
-  res.json({ test });
+  res.json(withNames(req, { test }, testStrings([test])));
 });
 
 module.exports = router;

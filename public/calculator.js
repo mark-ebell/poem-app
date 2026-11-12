@@ -4,10 +4,17 @@
 // when it is chosen (see routes/calculator.js); the arithmetic is done here.
 
 import { pretestStart, pretestNote, renderSummaryTables } from './summary-table.js';
-import { t as tr } from './i18n.js';
+import { t as tr, nm, withLang, learnNames, lang } from './i18n.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
+// The calculator look-ups, with the names in the interface language (i18n.js nm()).
+async function capi(url) {
+  const r = await api(withLang(url));
+  learnNames(r.names);
+  return r;
+}
+const byLabel = (a, b) => a.localeCompare(b, lang);
 
 // ---------- Calculator (Signs and Symptoms / Diagnostic Tests) ----------
 const panels = new Map(); // key -> { key, label, itemLabel, specialties }
@@ -51,15 +58,15 @@ function itemLabel(capitalized) {
 
 function testHeading(t) {
   const v = isVariousMulti(t) && VARIOUS_LABELS[activePanel.itemLabel];
-  return v ? v.heading : t.name;
+  return v ? tr(v.heading) : nm(t.name);
 }
 
 function testDropdownLabel(t) {
   const v = isVariousMulti(t) && VARIOUS_LABELS[activePanel.itemLabel];
-  if (v) return v.dropdown;
-  let label = t.name;
+  if (v) return tr(v.dropdown);
+  let label = nm(t.name);
   if (t.disambig) label += ` (${t.disambig})`;
-  if (t.multi === 1) label += ' — multiple result categories';
+  if (t.multi === 1) label += ` ${tr('— multiple result categories')}`;
   return label;
 }
 
@@ -211,7 +218,7 @@ async function loadCompare() {
   $('compareNote').textContent = 'Loading…';
   try {
     const { specialty, symptom, disease } = compare;
-    const data = await api(`/calculator/${compare.key}/pair/summary?${new URLSearchParams({ specialty, symptom, disease })}`);
+    const data = await capi(`/calculator/${compare.key}/pair/summary?${new URLSearchParams({ specialty, symptom, disease })}`);
     if (seq !== compareSeq) return;
     compare.data = data;
     compare.start = pretestStart(data.tests).start;
@@ -266,7 +273,7 @@ export async function openCalculatorAt(name, num) {
   setStatus('Loading…');
   let where;
   try {
-    where = await api(`/calculator/${key}/number/${encodeURIComponent(num)}`);
+    where = await capi(`/calculator/${key}/number/${encodeURIComponent(num)}`);
   } catch (err) {
     setStatus(err.message);
     return;
@@ -313,10 +320,12 @@ async function onSpecialtyChange() {
   resetCompare();
   if (!specialty) return;
   try {
-    const { pairs } = await api(`/calculator/${activePanel.key}/pairs?${new URLSearchParams({ specialty })}`);
+    const { pairs } = await capi(`/calculator/${activePanel.key}/pairs?${new URLSearchParams({ specialty })}`);
     if (seq !== menuSeq) return;
     resetSelect($('calcPair'), 'Select symptom/disease…', false);
-    pairs.forEach(p => addOption($('calcPair'), JSON.stringify([p.symptom, p.disease]), `${p.symptom}  →  ${p.disease}`));
+    pairs.map(p => [JSON.stringify([p.symptom, p.disease]), `${nm(p.symptom)}  →  ${nm(p.disease)}`])
+      .sort((a, b) => (lang === 'en' ? 0 : byLabel(a[1], b[1])))
+      .forEach(([value, label]) => addOption($('calcPair'), value, label));
     setStatus('');
   } catch (err) {
     if (seq === menuSeq) { resetSelect($('calcPair'), 'Select specialty first…'); setStatus(err.message); }
@@ -333,10 +342,12 @@ async function onPairChange() {
   const [symptom, disease] = JSON.parse(value);
   offerCompare($('calcSpecialty').value, symptom, disease);
   try {
-    const { items } = await api(`/calculator/${activePanel.key}/items?${new URLSearchParams({ specialty: $('calcSpecialty').value, symptom, disease })}`);
+    const { items } = await capi(`/calculator/${activePanel.key}/items?${new URLSearchParams({ specialty: $('calcSpecialty').value, symptom, disease })}`);
     if (seq !== menuSeq) return;
     resetSelect($('calcItem'), tr(itemNames().select), false);
-    items.forEach(t => addOption($('calcItem'), t.id, testDropdownLabel(t)));
+    items.map(t => [t.id, testDropdownLabel(t)])
+      .sort((a, b) => (lang === 'en' ? 0 : byLabel(a[1], b[1])))
+      .forEach(([id, label]) => addOption($('calcItem'), id, label));
     setStatus('');
   } catch (err) {
     if (seq === menuSeq) { resetSelect($('calcItem'), 'Select symptom/disease first…'); setStatus(err.message); }
@@ -348,7 +359,7 @@ async function onItemChange() {
   const seq = ++menuSeq;
   if (id === '') { hideCalculator(); return; }
   try {
-    const { test } = await api(`/calculator/${activePanel.key}/items/${encodeURIComponent(id)}`);
+    const { test } = await capi(`/calculator/${activePanel.key}/items/${encodeURIComponent(id)}`);
     if (seq !== menuSeq) return;
     setStatus('');
     showCalculator(test);
@@ -390,7 +401,7 @@ function showCalculator(t) {
   $('calcResult').classList.remove('hidden');
 
   $('calcTitle').textContent = testHeading(t);
-  $('calcSub').textContent = `${t.symptom}  →  ${t.disease}`;
+  $('calcSub').textContent = `${nm(t.symptom)}  →  ${nm(t.disease)}`;
 
   const source = $('calcSource');
   source.textContent = '';
@@ -471,7 +482,7 @@ function renderMultiTable(t, pretest) {
       row.appendChild(td);
       return td;
     };
-    cell(opt.range);
+    cell(nm(opt.range));
     cell(fmtLR(opt.sslr), 'num');
     cell(fmtPct(post), 'num post-prob');
     const bar = cell(null, 'bar-col');
@@ -507,8 +518,8 @@ function renderDdxList() {
   list.textContent = '';
   const matched = ddxItems
     .filter(item => (ddxCategory === 'All' || item.category === ddxCategory) &&
-      (!query || [item.name, ...(item.aliases || [])].join(' | ').toLowerCase().includes(query)))
-    .sort((a, b) => a.name.localeCompare(b.name));
+      (!query || [item.name, ...(item.aliases || [])].flatMap(n => [n, nm(n)]).join(' | ').toLowerCase().includes(query)))
+    .sort((a, b) => byLabel(nm(a.name), nm(b.name)));
   if (!matched.length) {
     const li = document.createElement('li');
     li.className = 'ddx-none';
@@ -521,7 +532,7 @@ function renderDdxList() {
     const btn = document.createElement('button');
     btn.type = 'button';
     const name = document.createElement('span');
-    name.textContent = item.name;
+    name.textContent = nm(item.name);
     const badge = document.createElement('span');
     badge.className = 'calc-badge';
     badge.textContent = item.category;
@@ -536,7 +547,7 @@ async function selectDdx(id) {
   const seq = ++ddxSeq;
   let item;
   try {
-    ({ item } = await api(`/calculator/differential/${encodeURIComponent(id)}`));
+    ({ item } = await capi(`/calculator/differential/${encodeURIComponent(id)}`));
   } catch (err) {
     if (seq === ddxSeq) alert(err.message);
     return;
@@ -545,8 +556,8 @@ async function selectDdx(id) {
   $('ddxEmpty').classList.add('hidden');
   $('ddxResult').classList.remove('hidden');
   $('ddxResultCat').textContent = item.category;
-  $('ddxResultTitle').textContent = item.name;
-  $('ddxResultAliases').textContent = item.aliases && item.aliases.length ? tr('Also known as: {names}', { names: item.aliases.join(', ') }) : '';
+  $('ddxResultTitle').textContent = nm(item.name);
+  $('ddxResultAliases').textContent = item.aliases && item.aliases.length ? tr('Also known as: {names}', { names: item.aliases.map(nm).join(', ') }) : '';
   const ranked = $('ddxRanked');
   ranked.textContent = '';
   item.ddx.forEach((entry, i) => {
@@ -558,7 +569,7 @@ async function selectDdx(id) {
     main.className = 'ddx-main';
     const name = document.createElement('div');
     name.className = 'ddx-name';
-    name.textContent = entry.dx;
+    name.textContent = nm(entry.dx);
     const meta = document.createElement('div');
     meta.className = 'ddx-meta';
     const tier = document.createElement('span');
@@ -593,7 +604,7 @@ let loaded = null;
 export function loadCalculators(apiFn) {
   api = apiFn;
   loaded = loaded || (async () => {
-    const [{ panels: list }, { items }] = await Promise.all([api('/calculator/panels'), api('/calculator/differential')]);
+    const [{ panels: list }, { items }] = await Promise.all([api('/calculator/panels'), capi('/calculator/differential')]);
     list.forEach(p => panels.set(p.key, p));
     ddxItems = items;
     $('ddxAllBtn').textContent = tr('All ({n})', { n: items.length });

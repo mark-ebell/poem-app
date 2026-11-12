@@ -17,7 +17,8 @@
     "chapter-batch": "node chapter-batch.js",
     "undo-import": "node undo-import.js",
     "chapter-assignments": "node import-chapter-assignments.js",
-    "best-bets": "node best-bets.js"
+    "best-bets": "node best-bets.js",
+    "translate-calculators": "node translate-calculators.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

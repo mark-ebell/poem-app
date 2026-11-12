@@ -3,7 +3,7 @@
 // get a small table of their own (result, likelihood ratio). Used by the chapters' Decision
 // support pop-up and the calculator tabs' "Compare all" panel.
 
-import { t as tr } from './i18n.js';
+import { t as tr, nm } from './i18n.js';
 
 function el(tag, className, text) {
   const e = document.createElement(tag);
@@ -77,7 +77,7 @@ export function pretestNote(tests, verb) {
   return slider ? tr('From the cited studies. Move the slider or enter your own estimate to update the table.') : tr('From the cited studies. Enter your own estimate to update the table.');
 }
 
-const label = test => test.name + (test.disambig ? ` (${test.disambig})` : '');
+const label = test => nm(test.name) + (test.disambig ? ` (${test.disambig})` : '');
 
 // A test's name: a link that calls open(test) when open is given, else plain text.
 function nameOf(test, open) {
@@ -109,6 +109,6 @@ export function renderSummaryTables(container, tests, which, p, open = null) {
     heading.appendChild(open ? nameOf(t, open) : document.createTextNode(label(t)));
     container.appendChild(heading);
     container.appendChild(summaryTable([[['Result'], ['LR', 'num'], ['Post-test probability', 'num']]],
-      t.options.slice().sort((a, b) => b.sslr - a.sslr).map(o => [[o.range], [fmtLR(o.sslr), 'num'], [fmtPost(postTest(p, o.sslr)), 'num post']])));
+      t.options.slice().sort((a, b) => b.sslr - a.sslr).map(o => [[nm(o.range)], [fmtLR(o.sslr), 'num'], [fmtPost(postTest(p, o.sslr)), 'num post']])));
   }
 }

@@ -10,6 +10,7 @@ const { quota } = require('../limits');
 const { searchPoems, compileQuery, parseSort, meshGroup } = require('../search');
 const { diagnosesFor, isDiagnosis } = require('../differential-match');
 const bestBets = require('../best-bets');
+const { namesFor } = require('../calculator-i18n');
 if (process.env.NODE_ENV !== 'test') {
   try { const n = bestBets.loadSeed(); if (n) console.log(`Best bets: loaded ${n} from best-bets-seed.json.`); } catch (err) { console.error(`Best bets: seed not loaded (${err.message}).`); }
 }
@@ -276,6 +277,9 @@ router.get('/', quota('search'), (req, res) => {
   if (want('signs')) out.signs = capped(bestBets.promote(searchCalculator('signsSymptoms', q, req.query.q), 'signs', bets, pairKey));
   if (want('tests')) out.tests = capped(bestBets.promote(searchCalculator('diagnosticTests', q, req.query.q), 'tests', bets, pairKey));
   if (want('tools')) out.tools = capped(bestBets.promote(searchTools(q, req.query.q), 'tools', bets, t => t.id));
+  // The calculators' names in the reader's language (?lang=it; calculator-i18n.js).
+  const names = namesFor(req, [out.signs, out.tests].filter(Boolean).flatMap(l => l.items.flatMap(p => [p.symptom, p.disease, ...(p.items || []).map(i => i.name)])));
+  if (names) out.names = names;
   res.json(out);
 });
 

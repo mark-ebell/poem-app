@@ -6,7 +6,7 @@ import { loadChapterEditor } from './chapter-editor.js';
 import { loadTools, openTool } from './tools.js';
 import { loadCalculatorUpload } from './calculator-upload.js';
 import { loadReaderAdmin } from './reader-admin.js';
-import { t as tr, lang, dateLocale, languagePicker } from './i18n.js';
+import { t as tr, lang, dateLocale, languagePicker, nm, withLang, learnNames } from './i18n.js';
 
 const els = {};
 [
@@ -1822,14 +1822,14 @@ function pairList(pairs, which) {
     link.className = 'library-title-link';
     link.tabIndex = 0;
     link.setAttribute('role', 'link');
-    link.textContent = `${pair.symptom} → ${pair.disease}`;
+    link.textContent = `${nm(pair.symptom)} → ${nm(pair.disease)}`;
     const openPair = () => { switchTab(which); openCalculatorItem(which, pair); };
     link.addEventListener('click', openPair);
     link.addEventListener('keydown', e => { if (e.key === 'Enter') openPair(); });
     text.appendChild(link);
 
     const select = document.createElement('select');
-    select.setAttribute('aria-label', tr(which === 'signs' ? 'Choose a sign/symptom for {pair}' : 'Choose a test for {pair}', { pair: `${pair.symptom} → ${pair.disease}` }));
+    select.setAttribute('aria-label', tr(which === 'signs' ? 'Choose a sign/symptom for {pair}' : 'Choose a test for {pair}', { pair: `${nm(pair.symptom)} → ${nm(pair.disease)}` }));
     const first = document.createElement('option');
     first.value = '';
     first.textContent = tr(which === 'signs' ? 'Choose a sign/symptom ({n})…' : 'Choose a test ({n})…', { n: pair.items.length });
@@ -1845,13 +1845,13 @@ function pairList(pairs, which) {
     const addTo = (parent, items) => items.forEach(i => {
       const o = document.createElement('option');
       o.value = i.id;
-      o.textContent = i.name;
+      o.textContent = nm(i.name);
       parent.appendChild(o);
     });
     if (matching.length && others.length) {
       for (const [label, items] of [['Matching your search', matching], [which === 'signs' ? 'Other signs or symptoms' : 'Other tests', others]]) {
         const group = document.createElement('optgroup');
-        group.label = label;
+        group.label = tr(label);
         addTo(group, items);
         select.appendChild(group);
       }
@@ -1970,7 +1970,8 @@ els.searchForm.addEventListener('submit', async (e) => {
   els.searchCount.textContent = 'Searching...';
   try {
     const query = { q, years: els.searchYears.value, age: els.searchAge.value, supertype: els.searchSupertype.value };
-    const data = await api(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort, phone: phoneQuery.matches ? '1' : '' })}`);
+    const data = await api(withLang(`/search?${new URLSearchParams({ ...query, type: els.searchType.value, sort: poemSort, phone: phoneQuery.matches ? '1' : '' })}`));
+    learnNames(data.names);
     if (seq === searchSeq) {
       lastQuery = query;
       renderSearchResults(data);

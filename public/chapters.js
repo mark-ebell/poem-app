@@ -4,7 +4,7 @@
 // SORT ratings). External links (PubMed, Cochrane, web sites) are ordinary links.
 import { markCiteRuns } from './cite-runs.js';
 import { pretestStart, pretestNote, renderSummaryTables } from './summary-table.js';
-import { t as tr, dateLocale } from './i18n.js';
+import { t as tr, dateLocale, withLang, learnNames, nm } from './i18n.js';
 
 const $ = id => document.getElementById(id);
 let api = null;
@@ -85,7 +85,8 @@ async function showSummary(which, num) {
   const key = which === 'signs' ? 'signsSymptoms' : 'diagnosticTests';
   let data;
   try {
-    data = await api(`/calculator/${key}/number/${encodeURIComponent(num)}/summary`);
+    data = await api(withLang(`/calculator/${key}/number/${encodeURIComponent(num)}/summary`));
+    learnNames(data.names);
   } catch (err) {
     alert(err.message);
     return;
@@ -93,7 +94,7 @@ async function showSummary(which, num) {
   const { start } = pretestStart(data.tests);
 
   const body = el('div', 'summary-pop');
-  body.appendChild(el('p', 'hint summary-specialty', data.specialty));
+  body.appendChild(el('p', 'hint summary-specialty', tr(data.specialty)));
   // The pre-test probability: a slider with the value beside it (as on the calculator tabs).
   const pre = el('div', 'summary-pretest');
   const row = el('div', 'pretest-row');
@@ -140,7 +141,7 @@ async function showSummary(which, num) {
   const links = el('div', 'ref-pop-links');
   links.appendChild(open);
   body.appendChild(links);
-  openInfo(`${data.symptom} → ${data.disease}`, body);
+  openInfo(`${nm(data.symptom)} → ${nm(data.disease)}`, body);
 }
 
 // A figure (an algorithm), drawn as a column of steps that reads the same on a phone

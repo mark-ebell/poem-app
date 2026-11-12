@@ -281,7 +281,9 @@ The page never receives the whole data set: menus are fetched one level at a tim
 
 The screens readers use (logging in, the menu, Search, Chapters, Risk Scores, the calculators and Differential Diagnosis) can be shown in another language, chosen at the top right of the login screen or under **Language** in the menu (☰). The choice is kept in that browser; `?lang=it` in the address also sets it. The editors' screens (Upload, Browse and Edit POEMs, Edit Chapter, Evidence Summary and the editing pop-ups) stay in English. So far there is **Italian**; Danish, French and German are planned.
 
-Only the interface is translated. Content stays in English for now: chapters, POEMs, algorithms, risk score questions and results, calculator entries (specialties, presentations, tests) and differential diagnoses. Dates follow the chosen language.
+The interface is translated, and so are the calculators' names (below). Other content stays in English for now: chapters, POEMs, algorithms, and risk score questions and results. Dates follow the chosen language.
+
+**Calculator names** (machine translated). The specialties and risk score categories are in the interface dictionary. The presentations, diseases, tests and findings, result levels, and the Differential Diagnosis items and diagnoses (about 6,200 names) were translated by Claude into `calculator-i18n/<code>.json` (`npm run translate-calculators -- it`, which needs `ANTHROPIC_API_KEY`; Italian took 42 requests, November 2026). The calculator and search routes take `?lang=` and add the translations for the names in each answer (`names`, `calculator-i18n.js`); the page shows them with `nm()` in `i18n.js`, while the English names stay the values used in look-ups, so links and best bets are unchanged. The Differential Diagnosis search matches the translated names too; the main Search still searches the English names. After the spreadsheets are updated, run the script again (it translates only new names) and commit the file; a name not yet translated shows in English. A translation can be corrected by editing the file; the script keeps it.
 
 How it works (`public/i18n.js`):
 
