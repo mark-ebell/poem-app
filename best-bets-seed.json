@@ -1,0 +1,1294 @@
+{
+ "note": "From the editor review of 40 searches, November 2026 (scripts/search-review): the chapters whose title is the search, and the results marked \"should be higher\" in round 1 or round 2 (not those marked lower in round 2), in this order (position). Loaded once into the database by best-bets.js.",
+ "by": "review",
+ "bets": [
+  {
+   "term": "chest pain",
+   "kind": "chapters",
+   "key": "eee0027",
+   "title": "Chest pain (evaluation)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "chest pain",
+   "kind": "chapters",
+   "key": "eee0010",
+   "title": "Angina (unstable)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "chest pain",
+   "kind": "chapters",
+   "key": "eee0009",
+   "title": "Coronary heart disease",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "chest pain",
+   "kind": "chapters",
+   "key": "eee0043",
+   "title": "Myocardial infarction",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "chest pain",
+   "kind": "tools",
+   "key": "heart",
+   "title": "HEART score",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "chest pain",
+   "kind": "tools",
+   "key": "interchest",
+   "title": "INTERCHEST rule",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "heart attack",
+   "kind": "chapters",
+   "key": "eee0010",
+   "title": "Angina (unstable)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "heart attack",
+   "kind": "chapters",
+   "key": "eee0043",
+   "title": "Myocardial infarction",
+   "position": 2,
+   "why": "title has the search"
+  },
+  {
+   "term": "heart attack",
+   "kind": "tools",
+   "key": "troponin-0-1h",
+   "title": "0/1-hour high-sensitivity troponin algorithm",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "heart attack",
+   "kind": "tools",
+   "key": "basel-troponin-t",
+   "title": "0/1-hour high-sensitivity troponin T algorithm (Basel)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "heart attack",
+   "kind": "tools",
+   "key": "goldman-mi",
+   "title": "Acute MI diagnosis (Goldman algorithm)",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "sore throat",
+   "kind": "chapters",
+   "key": "eee0577",
+   "title": "Sore throat and pharyngitis (child)",
+   "position": 1,
+   "why": "title has the search"
+  },
+  {
+   "term": "sore throat",
+   "kind": "chapters",
+   "key": "eee0113",
+   "title": "Pharyngitis",
+   "position": 2,
+   "why": "title has the search"
+  },
+  {
+   "term": "shortness of breath",
+   "kind": "chapters",
+   "key": "eee0858",
+   "title": "Chronic obstructive lung disease (acute exacerbation)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "shortness of breath",
+   "kind": "chapters",
+   "key": "eee0667",
+   "title": "Chronic obstructive lung disease (chronic management)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "shortness of breath",
+   "kind": "chapters",
+   "key": "eee0678",
+   "title": "Pleural effusion",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "shortness of breath",
+   "kind": "chapters",
+   "key": "eee0032",
+   "title": "Heart failure with preserved ejection fraction (diastolic heart failure)",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "shortness of breath",
+   "kind": "chapters",
+   "key": "eee0819",
+   "title": "Pneumothorax",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "shortness of breath",
+   "kind": "tools",
+   "key": "bode",
+   "title": "COPD prognosis (BODE index)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "abdominal pain",
+   "kind": "chapters",
+   "key": "eee0163",
+   "title": "Abdominal pain (pediatric)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "abdominal pain",
+   "kind": "chapters",
+   "key": "eee0162",
+   "title": "Abdominal pain (adult)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "abdominal pain",
+   "kind": "chapters",
+   "key": "eee0167",
+   "title": "Appendicitis",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "abdominal pain",
+   "kind": "chapters",
+   "key": "eee0039",
+   "title": "Mesenteric ischemia",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "abdominal pain",
+   "kind": "chapters",
+   "key": "eee0906",
+   "title": "Intussusception",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "low back pain",
+   "kind": "tools",
+   "key": "lbp-recovery",
+   "title": "Low back pain: likelihood of rapid recovery",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0439",
+   "title": "Headache (diagnosis)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0437",
+   "title": "Headache (cluster)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0440",
+   "title": "Headache (tension)",
+   "position": 3,
+   "why": "title is the search"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0438",
+   "title": "Headache (migraine)",
+   "position": 4,
+   "why": "title is the search"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0007",
+   "title": "Aneurysm (cerebral)",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0324",
+   "title": "Meningitis (adult)",
+   "position": 6,
+   "why": "marked higher"
+  },
+  {
+   "term": "headache",
+   "kind": "chapters",
+   "key": "eee0420",
+   "title": "Brain abscess",
+   "position": 7,
+   "why": "marked higher"
+  },
+  {
+   "term": "dizziness",
+   "kind": "chapters",
+   "key": "eee0430",
+   "title": "Dizziness",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "dizziness",
+   "kind": "chapters",
+   "key": "eee0044",
+   "title": "Orthostatic hypotension",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "dizziness",
+   "kind": "chapters",
+   "key": "eee0105",
+   "title": "Meniere's disease",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "dizziness",
+   "kind": "chapters",
+   "key": "eee0052",
+   "title": "Subclavian steal syndrome",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "dizziness",
+   "kind": "chapters",
+   "key": "eee0460",
+   "title": "Syncope",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "dizziness",
+   "kind": "chapters",
+   "key": "eee0015",
+   "title": "Bundle branch block",
+   "position": 6,
+   "why": "marked higher"
+  },
+  {
+   "term": "syncope",
+   "kind": "chapters",
+   "key": "eee0460",
+   "title": "Syncope",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "syncope",
+   "kind": "chapters",
+   "key": "eee0430",
+   "title": "Dizziness",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "syncope",
+   "kind": "chapters",
+   "key": "eee0799",
+   "title": "Falls in elderly patients",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "syncope",
+   "kind": "chapters",
+   "key": "eee0015",
+   "title": "Bundle branch block",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "syncope",
+   "kind": "chapters",
+   "key": "eee0017",
+   "title": "Supraventricular tachycardia",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "fatigue",
+   "kind": "chapters",
+   "key": "eee0433",
+   "title": "Fatigue",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "fatigue",
+   "kind": "chapters",
+   "key": "eee0421",
+   "title": "Myalgic encephalitis/Chronic fatigue syndrome",
+   "position": 2,
+   "why": "title has the search"
+  },
+  {
+   "term": "cough",
+   "kind": "chapters",
+   "key": "eee0669",
+   "title": "Cough (subacute and chronic)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "cough",
+   "kind": "chapters",
+   "key": "eee0667",
+   "title": "Chronic obstructive lung disease (chronic management)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "cough",
+   "kind": "chapters",
+   "key": "eee0858",
+   "title": "Chronic obstructive lung disease (acute exacerbation)",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "cough",
+   "kind": "chapters",
+   "key": "eee0662",
+   "title": "Asthma (acute exacerbation)",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "cough",
+   "kind": "chapters",
+   "key": "eee0670",
+   "title": "Croup",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "cough",
+   "kind": "tools",
+   "key": "pneumonia-fever-cough-children",
+   "title": "Children with fever and cough: low risk score for pneumonia",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "cough",
+   "kind": "tools",
+   "key": "grace-pneumonia",
+   "title": "Pneumonia in outpatients with cough (GRACE rule)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "cough",
+   "kind": "tools",
+   "key": "starwave",
+   "title": "STARWAVe (children with cough)",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0842",
+   "title": "Urinary tract infection (children)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0113",
+   "title": "Pharyngitis",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0108",
+   "title": "Otitis media (acute)",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0575",
+   "title": "Sepsis (child)",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0577",
+   "title": "Sore throat and pharyngitis (child)",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0574",
+   "title": "Seizures (febrile)",
+   "position": 6,
+   "why": "marked higher"
+  },
+  {
+   "term": "fever in children",
+   "kind": "chapters",
+   "key": "eee0668",
+   "title": "Common cold and acute upper respiratory tract infection",
+   "position": 7,
+   "why": "marked higher"
+  },
+  {
+   "term": "urinary tract infection",
+   "kind": "chapters",
+   "key": "eee0654",
+   "title": "Urinary tract infection (adult)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "urinary tract infection",
+   "kind": "chapters",
+   "key": "eee0842",
+   "title": "Urinary tract infection (children)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "urinary tract infection",
+   "kind": "chapters",
+   "key": "eee0639",
+   "title": "Dysuria",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "urinary tract infection",
+   "kind": "tools",
+   "key": "uti-mcisaac",
+   "title": "UTI diagnosis (McIsaac)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "urinary tract infection",
+   "kind": "tools",
+   "key": "duty-uti",
+   "title": "UTI in children under 5 (DUTY)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "chapters",
+   "key": "eee0034",
+   "title": "Hypertension (essential)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "hypertension",
+   "kind": "chapters",
+   "key": "eee0036",
+   "title": "Hypertension (secondary)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "hypertension",
+   "kind": "chapters",
+   "key": "eee0035",
+   "title": "Hypertensive crisis",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "chapters",
+   "key": "eee0132",
+   "title": "Hyperaldosteronism (primary)",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "chapters",
+   "key": "eee0887",
+   "title": "Hypertensive nephropathy",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "chapters",
+   "key": "eee0262",
+   "title": "HELLP syndrome",
+   "position": 6,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "tools",
+   "key": "renal-artery-stenosis",
+   "title": "Renal artery stenosis in hypertension",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "signs",
+   "key": "[\"Cardiovascular\",\"Hypertension (child)\",\"secondary hypertension\"]",
+   "title": "Hypertension (child) → secondary hypertension",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "signs",
+   "key": "[\"Cardiovascular\",\"Screening\",\"hypertension\"]",
+   "title": "Screening → hypertension",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "hypertension",
+   "kind": "signs",
+   "key": "[\"Cardiovascular\",\"Hypertension\",\"renovascular hypertension\"]",
+   "title": "Hypertension → renovascular hypertension",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "type 2 diabetes",
+   "kind": "chapters",
+   "key": "eee0126",
+   "title": "Diabetes mellitus (type 1)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "type 2 diabetes",
+   "kind": "chapters",
+   "key": "eee0125",
+   "title": "Diabetes mellitus (hyperosmolar coma)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "type 2 diabetes",
+   "kind": "chapters",
+   "key": "eee0128",
+   "title": "Diabetic neuropathy",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "type 2 diabetes",
+   "kind": "chapters",
+   "key": "eee0730",
+   "title": "Diabetic foot ulcer",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "type 2 diabetes",
+   "kind": "chapters",
+   "key": "eee0859",
+   "title": "Diabetic nephropathy",
+   "position": 5,
+   "why": "marked higher"
+  },
+  {
+   "term": "type 2 diabetes",
+   "kind": "chapters",
+   "key": "eee0143",
+   "title": "Hypoglycemia",
+   "position": 6,
+   "why": "marked higher"
+  },
+  {
+   "term": "atrial fibrillation",
+   "kind": "chapters",
+   "key": "eee0025",
+   "title": "Cerebrovascular disease (chronic management)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "atrial fibrillation",
+   "kind": "chapters",
+   "key": "eee0013",
+   "title": "Atrial fibrillation and flutter",
+   "position": 2,
+   "why": "title has the search"
+  },
+  {
+   "term": "heart failure",
+   "kind": "chapters",
+   "key": "eee0022",
+   "title": "Cardiomyopathy (viral)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "heart failure",
+   "kind": "chapters",
+   "key": "eee0040",
+   "title": "Mitral insufficiency",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "heart failure",
+   "kind": "chapters",
+   "key": "eee0032",
+   "title": "Heart failure with preserved ejection fraction (diastolic heart failure)",
+   "position": 3,
+   "why": "title has the search"
+  },
+  {
+   "term": "heart failure",
+   "kind": "chapters",
+   "key": "eee0033",
+   "title": "Heart failure with reduced ejection fraction (systolic heart failure)",
+   "position": 4,
+   "why": "title has the search"
+  },
+  {
+   "term": "COPD",
+   "kind": "chapters",
+   "key": "eee0658",
+   "title": "Alpha-1 antitrypsin deficiency",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "COPD",
+   "kind": "chapters",
+   "key": "eee0663",
+   "title": "Asthma (chronic management)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "COPD",
+   "kind": "chapters",
+   "key": "eee0858",
+   "title": "Chronic obstructive lung disease (acute exacerbation)",
+   "position": 3,
+   "why": "title has the search"
+  },
+  {
+   "term": "COPD",
+   "kind": "chapters",
+   "key": "eee0667",
+   "title": "Chronic obstructive lung disease (chronic management)",
+   "position": 4,
+   "why": "title has the search"
+  },
+  {
+   "term": "COPD",
+   "kind": "tools",
+   "key": "bode",
+   "title": "COPD prognosis (BODE index)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "asthma",
+   "kind": "chapters",
+   "key": "eee0662",
+   "title": "Asthma (acute exacerbation)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "asthma",
+   "kind": "chapters",
+   "key": "eee0663",
+   "title": "Asthma (chronic management)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "depression",
+   "kind": "chapters",
+   "key": "eee0624",
+   "title": "Depression",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "depression",
+   "kind": "chapters",
+   "key": "eee0626",
+   "title": "Persistent depressive disorder (formerly dysthymia)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "depression",
+   "kind": "chapters",
+   "key": "eee0851",
+   "title": "Postpartum depression",
+   "position": 3,
+   "why": "title has the search"
+  },
+  {
+   "term": "depression",
+   "kind": "tools",
+   "key": "phq2",
+   "title": "Depression screening (PHQ-2)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "dementia",
+   "kind": "chapters",
+   "key": "eee0426",
+   "title": "Dementia (Alzheimer’s disease)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "dementia",
+   "kind": "chapters",
+   "key": "eee0427",
+   "title": "Dementia (diagnosis)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "dementia",
+   "kind": "chapters",
+   "key": "eee0429",
+   "title": "Dementia (multi-infarct)",
+   "position": 3,
+   "why": "title is the search"
+  },
+  {
+   "term": "dementia",
+   "kind": "chapters",
+   "key": "eee0428",
+   "title": "Dementia (Lewy body dementia)",
+   "position": 4,
+   "why": "title is the search"
+  },
+  {
+   "term": "dementia",
+   "kind": "signs",
+   "key": "[\"Neurology\",\"Dementia\",\"Alzheimer's dementia\"]",
+   "title": "Dementia → Alzheimer's dementia",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "osteoporosis",
+   "kind": "chapters",
+   "key": "eee0400",
+   "title": "Osteoporosis",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "osteoporosis",
+   "kind": "chapters",
+   "key": "eee0241",
+   "title": "Menopause",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "knee pain",
+   "kind": "chapters",
+   "key": "eee0390",
+   "title": "Knee pain (diagnostic evaluation)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "ankle sprain",
+   "kind": "chapters",
+   "key": "eee0824",
+   "title": "Tendon injuries (rupture and laceration)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "ankle sprain",
+   "kind": "chapters",
+   "key": "eee0375",
+   "title": "Achilles tendon rupture",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "ankle sprain",
+   "kind": "chapters",
+   "key": "eee0804",
+   "title": "Fracture (leg)",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "ankle sprain",
+   "kind": "chapters",
+   "key": "eee0787",
+   "title": "Ankle injury",
+   "position": 4,
+   "why": "title has the search"
+  },
+  {
+   "term": "otitis media",
+   "kind": "chapters",
+   "key": "eee0108",
+   "title": "Otitis media (acute)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "otitis media",
+   "kind": "chapters",
+   "key": "eee0109",
+   "title": "Otitis media (chronic serous)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "otitis media",
+   "kind": "chapters",
+   "key": "eee0107",
+   "title": "Otitis externa",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "otitis media",
+   "kind": "chapters",
+   "key": "eee0668",
+   "title": "Common cold and acute upper respiratory tract infection",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0567",
+   "title": "Pneumonia (pediatric)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0841",
+   "title": "Pneumonia (ventilator-associated or hospital-acquired)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0681",
+   "title": "Pneumonia (community acquired)",
+   "position": 3,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0682",
+   "title": "Pneumonia (aspiration)",
+   "position": 4,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0685",
+   "title": "Pneumonia (mycoplasma)",
+   "position": 5,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0683",
+   "title": "Pneumonia (eosinophilic)",
+   "position": 6,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0318",
+   "title": "Pneumonia (Legionnaires')",
+   "position": 7,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0845",
+   "title": "Pneumonia (chlamydia)",
+   "position": 8,
+   "why": "title is the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "chapters",
+   "key": "eee0680",
+   "title": "Pneumocystis jiroveci pneumonia",
+   "position": 9,
+   "why": "title has the search"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "tests",
+   "key": "[\"Pulmonary\",\"Pneumonia suspected\",\"pneumonia\"]",
+   "title": "Pneumonia suspected → pneumonia",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "tests",
+   "key": "[\"Pulmonary\",\"Pneumonia suspected (children)\",\"bacterial pneumonia\"]",
+   "title": "Pneumonia suspected (children) → bacterial pneumonia",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "pneumonia",
+   "kind": "tests",
+   "key": "[\"Pulmonary\",\"Pneumonia suspected (ventilator associated)\",\"pneumonia\"]",
+   "title": "Pneumonia suspected (ventilator associated) → pneumonia",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "statins",
+   "kind": "chapters",
+   "key": "eee0009",
+   "title": "Coronary heart disease",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "statins",
+   "kind": "chapters",
+   "key": "eee0127",
+   "title": "Diabetes mellitus (type 2)",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "statins",
+   "kind": "chapters",
+   "key": "eee0405",
+   "title": "Rhabdomyolysis",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "statins",
+   "kind": "chapters",
+   "key": "eee0026",
+   "title": "Cerebrovascular disease (TIA)",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "aspirin",
+   "kind": "chapters",
+   "key": "eee0865",
+   "title": "Perioperative management of antithrombotic therapy",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "colon cancer screening",
+   "kind": "chapters",
+   "key": "eee0605",
+   "title": "Colonoscopy (procedure)",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "colon cancer screening",
+   "kind": "chapters",
+   "key": "eee0488",
+   "title": "Follow-up of the patient with cancer",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "colon cancer screening",
+   "kind": "chapters",
+   "key": "eee0223",
+   "title": "Ulcerative colitis",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "colon cancer screening",
+   "kind": "chapters",
+   "key": "eee0256",
+   "title": "Anemia (diagnostic approach)",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "contraception",
+   "kind": "chapters",
+   "key": "eee0862",
+   "title": "Contraception",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "contraception",
+   "kind": "chapters",
+   "key": "eee0905",
+   "title": "Vasectomy",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "contraception",
+   "kind": "chapters",
+   "key": "eee0836",
+   "title": "Preconception care",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "smoking cessation",
+   "kind": "chapters",
+   "key": "eee0837",
+   "title": "Smoking cessation",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "smoking cessation",
+   "kind": "chapters",
+   "key": "eee0497",
+   "title": "Lung cancer",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "smoking cessation",
+   "kind": "chapters",
+   "key": "eee0055",
+   "title": "Thromboangiitis obliterans (Buerger's disease)",
+   "position": 3,
+   "why": "marked higher"
+  },
+  {
+   "term": "smoking cessation",
+   "kind": "chapters",
+   "key": "eee0047",
+   "title": "Peripheral arterial disease",
+   "position": 4,
+   "why": "marked higher"
+  },
+  {
+   "term": "obesity",
+   "kind": "chapters",
+   "key": "eee0221",
+   "title": "Non-Alcoholic Fatty Liver Disease",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "obesity",
+   "kind": "chapters",
+   "key": "eee0564",
+   "title": "Obesity and weight loss (child and adolescent)",
+   "position": 2,
+   "why": "title has the search"
+  },
+  {
+   "term": "obesity",
+   "kind": "chapters",
+   "key": "eee0154",
+   "title": "Obesity and weight loss (adult)",
+   "position": 3,
+   "why": "title has the search"
+  },
+  {
+   "term": "obesity",
+   "kind": "chapters",
+   "key": "eee0155",
+   "title": "Obesity and weight loss (bariatric surgery)",
+   "position": 4,
+   "why": "title has the search"
+  },
+  {
+   "term": "gout",
+   "kind": "chapters",
+   "key": "eee0699",
+   "title": "Gout",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "anemia",
+   "kind": "chapters",
+   "key": "eee0257",
+   "title": "Anemia (autoimmune hemolytic)",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "anemia",
+   "kind": "chapters",
+   "key": "eee0256",
+   "title": "Anemia (diagnostic approach)",
+   "position": 2,
+   "why": "title is the search"
+  },
+  {
+   "term": "anemia",
+   "kind": "chapters",
+   "key": "eee0258",
+   "title": "Anemia (iron deficiency)",
+   "position": 3,
+   "why": "title is the search"
+  },
+  {
+   "term": "anemia",
+   "kind": "chapters",
+   "key": "eee0255",
+   "title": "Anemia (aplastic)",
+   "position": 4,
+   "why": "title is the search"
+  },
+  {
+   "term": "anemia",
+   "kind": "chapters",
+   "key": "eee0259",
+   "title": "Anemia (megaloblastic)",
+   "position": 5,
+   "why": "title is the search"
+  },
+  {
+   "term": "anemia",
+   "kind": "chapters",
+   "key": "eee0276",
+   "title": "Sickle cell anemia",
+   "position": 6,
+   "why": "title has the search"
+  },
+  {
+   "term": "insomnia",
+   "kind": "chapters",
+   "key": "eee0692",
+   "title": "Sleep apnea",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "insomnia",
+   "kind": "chapters",
+   "key": "eee0624",
+   "title": "Depression",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "insomnia",
+   "kind": "chapters",
+   "key": "eee0443",
+   "title": "Insomnia in adults",
+   "position": 3,
+   "why": "title has the search"
+  },
+  {
+   "term": "chronic kidney disease",
+   "kind": "chapters",
+   "key": "eee0638",
+   "title": "Chronic kidney disease",
+   "position": 1,
+   "why": "title is the search"
+  },
+  {
+   "term": "chronic kidney disease",
+   "kind": "chapters",
+   "key": "eee0643",
+   "title": "Hepatorenal syndrome",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "blood clot",
+   "kind": "chapters",
+   "key": "eee0056",
+   "title": "Thrombophlebitis",
+   "position": 1,
+   "why": "marked higher"
+  },
+  {
+   "term": "blood clot",
+   "kind": "chapters",
+   "key": "eee0028",
+   "title": "Deep vein thrombosis",
+   "position": 2,
+   "why": "marked higher"
+  },
+  {
+   "term": "blood clot",
+   "kind": "chapters",
+   "key": "eee0687",
+   "title": "Pulmonary embolism",
+   "position": 3,
+   "why": "marked higher"
+  }
+ ]
+}

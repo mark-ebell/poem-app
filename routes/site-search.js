@@ -5,10 +5,14 @@
 const path = require('path');
 const fs = require('fs');
 const express = require('express');
-const { requireAuth, isReader, poemsOnly } = require('../auth');
+const { requireAuth, requireEditor, isReader, poemsOnly } = require('../auth');
 const { quota } = require('../limits');
 const { searchPoems, compileQuery, parseSort, meshGroup } = require('../search');
 const { diagnosesFor, isDiagnosis } = require('../differential-match');
+const bestBets = require('../best-bets');
+if (process.env.NODE_ENV !== 'test') {
+  try { const n = bestBets.loadSeed(); if (n) console.log(`Best bets: loaded ${n} from best-bets-seed.json.`); } catch (err) { console.error(`Best bets: seed not loaded (${err.message}).`); }
+}
 const { htmlToText } = require('../poem-model');
 const store = require('../chapter-store');
 const { tools } = require('./tools');
@@ -265,11 +269,26 @@ router.get('/', quota('search'), (req, res) => {
     if (poems.error) return res.status(400).json({ error: poems.error });
     out.poems = poems;
   }
-  if (want('chapters')) out.chapters = capped(searchChapters(q, req.query.q));
-  if (want('signs')) out.signs = capped(searchCalculator('signsSymptoms', q, req.query.q));
-  if (want('tests')) out.tests = capped(searchCalculator('diagnosticTests', q, req.query.q));
-  if (want('tools')) out.tools = capped(searchTools(q, req.query.q));
+  // Best bets (best-bets.js): the editors' choices for this search are always near the top.
+  const bets = bestBets.betsFor(req.query.q);
+  const pairKey = p => JSON.stringify([p.specialty, p.symptom, p.disease]);
+  if (want('chapters')) out.chapters = capped(bestBets.promote(searchChapters(q, req.query.q), 'chapters', bets, c => c.id));
+  if (want('signs')) out.signs = capped(bestBets.promote(searchCalculator('signsSymptoms', q, req.query.q), 'signs', bets, pairKey));
+  if (want('tests')) out.tests = capped(bestBets.promote(searchCalculator('diagnosticTests', q, req.query.q), 'tests', bets, pairKey));
+  if (want('tools')) out.tools = capped(bestBets.promote(searchTools(q, req.query.q), 'tools', bets, t => t.id));
   res.json(out);
+});
+
+// Editors choose or remove a best bet for the search being shown (the star beside a result).
+// { q, kind: chapters|tools|tests|signs, key, title, on }
+router.post('/best-bets', requireEditor, (req, res) => {
+  const { q, kind, key, title, on } = req.body || {};
+  try {
+    bestBets.setBet({ query: q, kind, key, title, on: !!on, by: req.session.username || null });
+  } catch (err) {
+    return res.status(400).json({ error: err.message });
+  }
+  res.json({ ok: true, on: !!on });
 });
 
 module.exports = router;

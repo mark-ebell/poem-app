@@ -869,6 +869,11 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .search-item-list { list-style: none; padding: 0; margin: 4px 0; }
 .search-item-list li { padding: 7px 0; border-bottom: 1px solid var(--border); }
 .search-item-list li:last-child { border-bottom: 0; }
+/* Best bets: the editors' choices for a search (a star; editors get a button to set them). */
+.best-bet-star { color: #b7791f; margin-right: 6px; }
+.best-bet-btn { background: none; border: 0; padding: 0 6px 0 0; font-size: 16px; line-height: 1; color: var(--muted, #6b7280); cursor: pointer; vertical-align: -1px; }
+.best-bet-btn[data-on="1"] { color: #b7791f; }
+.best-bet-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
 .search-pair { display: grid; grid-template-columns: minmax(0, 1fr) 260px; align-items: center; gap: 6px 14px; }
 .search-pair select { width: 100%; margin-bottom: 0; }
 @media (max-width: 600px) { .search-pair { grid-template-columns: 1fr; } }

@@ -16,7 +16,8 @@
     "build-calculators": "node calculator-build.js",
     "chapter-batch": "node chapter-batch.js",
     "undo-import": "node undo-import.js",
-    "chapter-assignments": "node import-chapter-assignments.js"
+    "chapter-assignments": "node import-chapter-assignments.js",
+    "best-bets": "node best-bets.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

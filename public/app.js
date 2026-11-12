@@ -1740,7 +1740,47 @@ async function sortPoems(sort) {
 
 // A list of found items (chapters, calculator entries, risk scores): a title that opens the
 // item, and a line of detail under it.
-function itemList(items, terms, titleOf, detailOf, open) {
+// Best bets (best-bets.js): a star before each result the editors chose for this search;
+// editors get a button to choose or remove one for the search being shown.
+const isEditor = () => !!currentUser && currentUser.role === 'editor';
+function bestBetMark(li, kind, key, title, on) {
+  if (!isEditor()) {
+    if (on) {
+      const star = document.createElement('span');
+      star.className = 'best-bet-star';
+      star.textContent = '★';
+      star.title = tr("Editors' choice for this search");
+      star.setAttribute('aria-label', tr("Editors' choice for this search"));
+      li.prepend(star);
+    }
+    return;
+  }
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'best-bet-btn';
+  const show = state => {
+    btn.dataset.on = state ? '1' : '';
+    btn.textContent = state ? '★' : '☆';
+    btn.title = state ? 'Best bet for this search (click to remove)' : 'Make this a best bet for this search (shown first)';
+    btn.setAttribute('aria-pressed', String(!!state));
+  };
+  show(on);
+  btn.addEventListener('click', async () => {
+    const next = !btn.dataset.on;
+    btn.disabled = true;
+    try {
+      await api('/search/best-bets', { method: 'POST', body: { q: lastQuery ? lastQuery.q : els.searchInput.value.trim(), kind, key, title, on: next } });
+      show(next);
+    } catch (err) {
+      window.alert(`Could not save the best bet: ${err.message}`);
+    } finally {
+      btn.disabled = false;
+    }
+  });
+  li.prepend(btn);
+}
+
+function itemList(items, terms, titleOf, detailOf, open, kind) {
   const ul = document.createElement('ul');
   ul.className = 'search-item-list';
   for (const item of items) {
@@ -1760,6 +1800,7 @@ function itemList(items, terms, titleOf, detailOf, open) {
       d.textContent = detail;
       li.appendChild(d);
     }
+    if (kind) bestBetMark(li, kind, item.id, titleOf(item), item.bestBet);
     ul.appendChild(li);
   }
   return ul;
@@ -1823,6 +1864,7 @@ function pairList(pairs, which) {
       openCalculatorItem(which, id === ALL_ITEMS ? { ...pair, compare: true } : { ...pair, id });
     });
     li.append(text, select);
+    bestBetMark(text, which === 'signs' ? 'signs' : 'tests', JSON.stringify([pair.specialty, pair.symptom, pair.disease]), `${pair.symptom} → ${pair.disease}`, pair.bestBet);
     ul.appendChild(li);
   }
   return ul;
@@ -1831,9 +1873,9 @@ function pairList(pairs, which) {
 // The kinds of result, in the order shown.
 const RESULT_GROUPS = [
   { key: 'chapters', label: 'Chapters',
-    list: (g, terms) => itemList(g.items, terms, c => c.title, () => '', c => { switchTab('chapters'); openChapter(c.id); }) },
+    list: (g, terms) => itemList(g.items, terms, c => c.title, () => '', c => { switchTab('chapters'); openChapter(c.id); }, 'chapters') },
   { key: 'tools', label: 'Risk Scores',
-    list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }) },
+    list: (g, terms) => itemList(g.items, terms, t => t.title, t => t.subtitle, t => { switchTab('tools'); openTool(t.id); }, 'tools') },
   { key: 'poems', label: 'POEMs Research Summaries' },
   { key: 'tests', label: 'Diagnostic Test Calculators',
     list: g => pairList(g.items, 'tests') },

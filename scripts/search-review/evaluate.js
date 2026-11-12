@@ -1,7 +1,8 @@
 // Checks the Search tab's ranking against an editor's review (round1.json): for each result
 // the editor marked, whether it now moves the way they asked, and how many unmarked top
 // results stay in the top (10 chapters, 5 of the others). Run after changing the weights in
-// routes/site-search.js:   node scripts/search-review/evaluate.js [round1.json] [--lists]
+// routes/site-search.js:   node scripts/search-review/evaluate.js [round1.json] [--lists] [--best-bets]
+// --best-bets puts the best bets from best-bets-seed.json first, as the Search tab does.
 process.env.NODE_ENV = 'test'; // no background chapter warm-up
 const fs = require('fs');
 const path = require('path');
@@ -10,6 +11,14 @@ const site = require('../../routes/site-search');
 
 const file = process.argv.slice(2).find(a => !a.startsWith('--')) || path.join(__dirname, 'round1.json');
 const showLists = process.argv.includes('--lists');
+const withBets = process.argv.includes('--best-bets');
+const { promote, normTerm } = require('../../best-bets');
+const seed = withBets ? JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'best-bets-seed.json'), 'utf8')).bets : [];
+const betsOf = query => {
+  const out = { chapters: new Map(), tools: new Map(), tests: new Map(), signs: new Map() };
+  for (const b of seed) if (normTerm(b.term) === normTerm(query)) out[b.kind].set(String(b.key), b.position ?? null);
+  return out;
+};
 const review = JSON.parse(fs.readFileSync(file, 'utf8'));
 const safe = k => k.replace(/[^A-Za-z0-9_-]/g, '_').slice(0, 120);
 const SKIP = new Set(['more harms than']); // a test of a phrase, not of relevance (editor's request)
@@ -19,11 +28,12 @@ for (const s of review.searches) {
   if (SKIP.has(s.q)) continue;
   const q = compileQuery(s.q, true);
   const pairKey = (c, p) => safe(c + JSON.stringify([p.specialty, p.symptom, p.disease]));
+  const bets = betsOf(s.q), pk = p => JSON.stringify([p.specialty, p.symptom, p.disease]);
   const now = {
-    chapters: site.searchChapters(q, s.q).map(c => ({ k: safe('c' + c.id), t: c.title })),
-    risk: site.searchTools(q, s.q).map(t => ({ k: safe('t' + t.id), t: t.title })),
-    tests: site.searchCalculator('diagnosticTests', q, s.q).map(p => ({ k: pairKey('d', p), t: `${p.symptom} → ${p.disease}` })),
-    hp: site.searchCalculator('signsSymptoms', q, s.q).map(p => ({ k: pairKey('s', p), t: `${p.symptom} → ${p.disease}` }))
+    chapters: promote(site.searchChapters(q, s.q), 'chapters', bets, c => c.id).map(c => ({ k: safe('c' + c.id), t: c.title })),
+    risk: promote(site.searchTools(q, s.q), 'tools', bets, t => t.id).map(t => ({ k: safe('t' + t.id), t: t.title })),
+    tests: promote(site.searchCalculator('diagnosticTests', q, s.q), 'tests', bets, pk).map(p => ({ k: pairKey('d', p), t: `${p.symptom} → ${p.disease}` })),
+    hp: promote(site.searchCalculator('signsSymptoms', q, s.q), 'signs', bets, pk).map(p => ({ k: pairKey('s', p), t: `${p.symptom} → ${p.disease}` }))
   };
   for (const kind of Object.keys(now)) {
     const top = kind === 'chapters' ? 10 : 5;

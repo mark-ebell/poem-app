@@ -203,5 +203,25 @@ db.exec(`
 createIndexes();
 db.exec('CREATE INDEX IF NOT EXISTS idx_poems_daily_date ON poems(daily_date)');
 
+// Best bets (best-bets.js): results the editors have chosen for a search, always shown near
+// the top for it. term is the search as typed, lower case; kind is chapters, tools, tests or
+// signs; item_key the chapter or risk score id, or a calculator's [specialty, symptom, disease].
+db.exec(`
+  CREATE TABLE IF NOT EXISTS best_bets (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    term TEXT NOT NULL,
+    kind TEXT NOT NULL,
+    item_key TEXT NOT NULL,
+    title TEXT,
+    position INTEGER, -- order among the best bets (seeded ones); null: after them, by score
+    created_by TEXT,
+    created_at TEXT NOT NULL,
+    UNIQUE (term, kind, item_key)
+  );
+  -- Seed files already loaded (each once, so best bets an editor removes stay removed).
+  CREATE TABLE IF NOT EXISTS best_bet_seeds (name TEXT PRIMARY KEY, applied_at TEXT NOT NULL);
+`);
+if (!db.prepare('PRAGMA table_info(best_bets)').all().some(c => c.name === 'position')) db.exec('ALTER TABLE best_bets ADD COLUMN position INTEGER');
+
 module.exports = db;
 module.exports.dataDir = dataDir;
