@@ -1,0 +1,6030 @@
+{
+ "reviewed": "2026-11-11",
+ "note": "Round 1 of the editor review of search ranking: the order shown (top 20 chapters, top 5 of the others) and the marks (high = should be higher, low = should be lower, out = not relevant).",
+ "searches": [
+  {
+   "q": "chest pain",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0027",
+      "title": "Chest pain (evaluation)"
+     },
+     {
+      "key": "ceee0679",
+      "title": "Pleuritic chest pain and pleurisy"
+     },
+     {
+      "key": "ceee0010",
+      "title": "Angina (unstable)"
+     },
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0806",
+      "title": "Fracture (rib)"
+     },
+     {
+      "key": "ceee0819",
+      "title": "Pneumothorax"
+     },
+     {
+      "key": "ceee0385",
+      "title": "Costochondritis and Tietze syndrome"
+     },
+     {
+      "key": "ceee0008",
+      "title": "Aneurysm (thoracic aorta)"
+     },
+     {
+      "key": "ceee0009",
+      "title": "Coronary heart disease"
+     },
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0276",
+      "title": "Sickle cell anemia"
+     },
+     {
+      "key": "ceee0162",
+      "title": "Abdominal pain (adult)"
+     },
+     {
+      "key": "ceee0045",
+      "title": "Pericardial effusion"
+     },
+     {
+      "key": "ceee0675",
+      "title": "Hyperventilation"
+     },
+     {
+      "key": "ceee0503",
+      "title": "Mesothelioma"
+     },
+     {
+      "key": "ceee0046",
+      "title": "Pericarditis"
+     },
+     {
+      "key": "ceee0378",
+      "title": "Back pain (low, acute)"
+     },
+     {
+      "key": "ceee0238",
+      "title": "Fibrocystic breast disease"
+     },
+     {
+      "key": "ceee0388",
+      "title": "Hip pain"
+     },
+     {
+      "key": "ceee0694",
+      "title": "Ankylosing spondylitis"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tcxr-chest-pain",
+      "title": "Chest x-ray in non-traumatic chest pain"
+     },
+     {
+      "key": "tpanic-screening",
+      "title": "Panic disorder in chest pain (Panic Screening Score)"
+     },
+     {
+      "key": "theart",
+      "title": "HEART score"
+     },
+     {
+      "key": "tinterchest",
+      "title": "INTERCHEST rule"
+     },
+     {
+      "key": "tmodified-timi",
+      "title": "Modified TIMI score"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Chest_pain__all____coronary_artery_disease__",
+      "title": "Chest pain (all) → coronary artery disease"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__LBBB____acute_MI__",
+      "title": "Chest pain (LBBB) → acute MI"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__normal_ECG____acute_MI__",
+      "title": "Chest pain (normal ECG) → acute MI"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__normal_ECG____unstable_angina__",
+      "title": "Chest pain (normal ECG) → unstable angina"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain___adverse_cardiac_events_at_30_days__",
+      "title": "Chest pain → adverse cardiac events at 30 days"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___Chest_pain___acute_coronary_syndrome__",
+      "title": "Chest pain → acute coronary syndrome"
+     },
+     {
+      "key": "s__Cardiovascular___Chest_pain___myocardial_infarction__",
+      "title": "Chest pain → myocardial infarction"
+     },
+     {
+      "key": "s__Cardiovascular___Chest_pain__age____65____myocardial_infarction__",
+      "title": "Chest pain (age >= 65) → myocardial infarction"
+     },
+     {
+      "key": "s__Cardiovascular___Chest_pain__age_30-64____myocardial_infarction__",
+      "title": "Chest pain (age 30-64) → myocardial infarction"
+     },
+     {
+      "key": "s__Cardiovascular___Chest_pain___thoracic_artery_aneurysm__",
+      "title": "Chest pain → thoracic artery aneurysm"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0009": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Coronary heart disease"
+    },
+    "ceee0010": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 3,
+     "title": "Angina (unstable)"
+    },
+    "ceee0043": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 4,
+     "title": "Myocardial infarction"
+    },
+    "ceee0679": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Pleuritic chest pain and pleurisy"
+    },
+    "theart": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 3,
+     "title": "HEART score"
+    },
+    "tinterchest": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 4,
+     "title": "INTERCHEST rule"
+    },
+    "tpanic-screening": {
+     "kind": "risk",
+     "m": "low",
+     "rank": 2,
+     "title": "Panic disorder in chest pain (Panic Screening Score)"
+    }
+   }
+  },
+  {
+   "q": "heart attack",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0009",
+      "title": "Coronary heart disease"
+     },
+     {
+      "key": "ceee0033",
+      "title": "Heart failure with reduced ejection fraction (systolic heart failure)"
+     },
+     {
+      "key": "ceee0332",
+      "title": "Rheumatic fever"
+     },
+     {
+      "key": "ceee0010",
+      "title": "Angina (unstable)"
+     },
+     {
+      "key": "ceee0015",
+      "title": "Bundle branch block"
+     },
+     {
+      "key": "ceee0018",
+      "title": "Arrhythmia (ventricular tachycardia and fibrillation)"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0014",
+      "title": "Arrhythmia (atrioventricular block)"
+     },
+     {
+      "key": "ceee0041",
+      "title": "Mitral stenosis"
+     },
+     {
+      "key": "ceee0437",
+      "title": "Headache (cluster)"
+     },
+     {
+      "key": "ceee0040",
+      "title": "Mitral insufficiency"
+     },
+     {
+      "key": "ceee0460",
+      "title": "Syncope"
+     },
+     {
+      "key": "ceee0042",
+      "title": "Mitral valve prolapse"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0027",
+      "title": "Chest pain (evaluation)"
+     },
+     {
+      "key": "ceee0034",
+      "title": "Hypertension (essential)"
+     },
+     {
+      "key": "ceee0016",
+      "title": "Sinus arrhythmia and sick sinus"
+     },
+     {
+      "key": "ceee0699",
+      "title": "Gout"
+     },
+     {
+      "key": "ceee0046",
+      "title": "Pericarditis"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tprevent",
+      "title": "Cardiovascular risk (AHA PREVENT equations)"
+     },
+     {
+      "key": "tlvef-after-mi",
+      "title": "Normal LVEF after acute MI"
+     },
+     {
+      "key": "ttroponin-0-1h",
+      "title": "0/1-hour high-sensitivity troponin algorithm"
+     },
+     {
+      "key": "tbasel-troponin-t",
+      "title": "0/1-hour high-sensitivity troponin T algorithm (Basel)"
+     },
+     {
+      "key": "tgoldman-mi",
+      "title": "Acute MI diagnosis (Goldman algorithm)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Cardiac_bypass_surgery___post-op_MI__",
+      "title": "Cardiac bypass surgery → post-op MI"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__all____acute_MI__",
+      "title": "Chest pain (all) → acute MI"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__LBBB____acute_MI__",
+      "title": "Chest pain (LBBB) → acute MI"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__normal_ECG____acute_MI__",
+      "title": "Chest pain (normal ECG) → acute MI"
+     },
+     {
+      "key": "d__Cardiovascular___Unstable_angina_pectoris___acute_MI__",
+      "title": "Unstable angina pectoris → acute MI"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___Chest_pain___myocardial_infarction__",
+      "title": "Chest pain → myocardial infarction"
+     },
+     {
+      "key": "s__Cardiovascular___Chest_pain__age____65____myocardial_infarction__",
+      "title": "Chest pain (age >= 65) → myocardial infarction"
+     },
+     {
+      "key": "s__Cardiovascular___Chest_pain__age_30-64____myocardial_infarction__",
+      "title": "Chest pain (age 30-64) → myocardial infarction"
+     },
+     {
+      "key": "s__Cardiovascular___CHF_suspected__post-MI____CHF__LVEF___40____",
+      "title": "CHF suspected (post-MI) → CHF (LVEF < 40%)"
+     },
+     {
+      "key": "s__Cardiovascular___CHF_suspected__post-MI____right-sided_CHF__RVEF___45____",
+      "title": "CHF suspected (post-MI) → right-sided CHF (RVEF < 45%)"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0010": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Angina (unstable)"
+    },
+    "ceee0332": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Rheumatic fever"
+    },
+    "tbasel-troponin-t": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 4,
+     "title": "0/1-hour high-sensitivity troponin T algorithm (Basel)"
+    },
+    "tgoldman-mi": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 5,
+     "title": "Acute MI diagnosis (Goldman algorithm)"
+    },
+    "ttroponin-0-1h": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 3,
+     "title": "0/1-hour high-sensitivity troponin algorithm"
+    }
+   }
+  },
+  {
+   "q": "sore throat",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0577",
+      "title": "Sore throat and pharyngitis (child)"
+     },
+     {
+      "key": "ceee0113",
+      "title": "Pharyngitis"
+     },
+     {
+      "key": "ceee0317",
+      "title": "Infectious mononucleosis"
+     },
+     {
+      "key": "ceee0305",
+      "title": "Diphtheria"
+     },
+     {
+      "key": "ceee0332",
+      "title": "Rheumatic fever"
+     },
+     {
+      "key": "ceee0673",
+      "title": "Epiglottitis"
+     },
+     {
+      "key": "ceee0676",
+      "title": "Influenza"
+     },
+     {
+      "key": "ceee0336",
+      "title": "Rubella"
+     },
+     {
+      "key": "ceee0861",
+      "title": "Avian influenza"
+     },
+     {
+      "key": "ceee0303",
+      "title": "Cytomegalovirus infection (adult and child)"
+     },
+     {
+      "key": "ceee0353",
+      "title": "Tularemia"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     },
+     {
+      "key": "ceee0112",
+      "title": "Peritonsillar abscess"
+     },
+     {
+      "key": "ceee0747",
+      "title": "Lymphadenitis and lymphangitis"
+     },
+     {
+      "key": "ceee0312",
+      "title": "Hemorrhagic fevers"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0421",
+      "title": "Myalgic encephalitis/Chronic fatigue syndrome"
+     },
+     {
+      "key": "ceee0333",
+      "title": "Q fever"
+     },
+     {
+      "key": "ceee0116",
+      "title": "Sinusitis (adult, acute)"
+     },
+     {
+      "key": "ceee0192",
+      "title": "Gastroesophageal reflux disease and esophagitis"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tmcisaac-strep",
+      "title": "Strep diagnosis in sore throat (McIsaac)"
+     },
+     {
+      "key": "tstrep-attia",
+      "title": "Strep score (pediatric)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__ENT___Sore_throat___GABHS_pharyngitis__",
+      "title": "Sore throat → GABHS pharyngitis"
+     },
+     {
+      "key": "d__ENT___Sore_throat__high_risk_for_strep____GABHS_pharyngitis__",
+      "title": "Sore throat (high risk for strep) → GABHS pharyngitis"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__ENT___Sore_throat__children____Group_A_strep_pharyngitis__",
+      "title": "Sore throat (children) → Group A strep pharyngitis"
+     },
+     {
+      "key": "s__ENT___Sore_throat___Group_A_strep_pharyngitis__",
+      "title": "Sore throat → Group A strep pharyngitis"
+     },
+     {
+      "key": "s__Infectious_disease___Infectious_mono_suspected__adult____infectious_mononucleosis__",
+      "title": "Infectious mono suspected (adult) → infectious mononucleosis"
+     },
+     {
+      "key": "s__ENT___AOM_suspected___acute_otitis_media__",
+      "title": "AOM suspected → acute otitis media"
+     },
+     {
+      "key": "s__Infectious_disease___HIV_suspected___HIV_disease__",
+      "title": "HIV suspected → HIV disease"
+     }
+    ]
+   },
+   "marks": {}
+  },
+  {
+   "q": "shortness of breath",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0663",
+      "title": "Asthma (chronic management)"
+     },
+     {
+      "key": "ceee0503",
+      "title": "Mesothelioma"
+     },
+     {
+      "key": "ceee0255",
+      "title": "Anemia (aplastic)"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     },
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0045",
+      "title": "Pericardial effusion"
+     },
+     {
+      "key": "ceee0820",
+      "title": "Carbon monoxide poisoning"
+     },
+     {
+      "key": "ceee0460",
+      "title": "Syncope"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0185",
+      "title": "Dyspepsia (diagnostic evaluation)"
+     },
+     {
+      "key": "ceee0662",
+      "title": "Asthma (acute exacerbation)"
+     },
+     {
+      "key": "ceee0041",
+      "title": "Mitral stenosis"
+     },
+     {
+      "key": "ceee0022",
+      "title": "Cardiomyopathy (viral)"
+     },
+     {
+      "key": "ceee0021",
+      "title": "Cardiac arrest"
+     },
+     {
+      "key": "ceee0681",
+      "title": "Pneumonia (community acquired)"
+     },
+     {
+      "key": "ceee0406",
+      "title": "Scoliosis"
+     },
+     {
+      "key": "ceee0861",
+      "title": "Avian influenza"
+     },
+     {
+      "key": "ceee0696",
+      "title": "Dermatomyositis and polymyositis"
+     },
+     {
+      "key": "ceee0032",
+      "title": "Heart failure with preserved ejection fraction (diastolic heart failure)"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tmini-grace",
+      "title": "Mini-GRACE score"
+     },
+     {
+      "key": "tottawa-hf",
+      "title": "Ottawa Heart Failure Risk Scale"
+     },
+     {
+      "key": "tbode",
+      "title": "COPD prognosis (BODE index)"
+     },
+     {
+      "key": "tpride-hf",
+      "title": "PRIDE acute heart failure score"
+     },
+     {
+      "key": "tbrest-hf",
+      "title": "Brest score for heart failure"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected___heart_failure__",
+      "title": "Heart failure suspected → heart failure"
+     },
+     {
+      "key": "d__Cardiovascular___Volume_overload_suspected___volume_overload__",
+      "title": "Volume overload suspected → volume overload"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___Dyspnea___CHF__",
+      "title": "Dyspnea → CHF"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea__asthma_COPD_pt____CHF__",
+      "title": "Dyspnea (asthma/COPD pt) → CHF"
+     },
+     {
+      "key": "s__Cardiovascular___Volume_overload_suspected___volume_overload__",
+      "title": "Volume overload suspected → volume overload"
+     },
+     {
+      "key": "s__Infectious_disease___HIV___respiratory_symptoms___Pneumocystis_pneumonia__",
+      "title": "HIV + respiratory symptoms → Pneumocystis pneumonia"
+     },
+     {
+      "key": "s__Pulmonary___COPD_suspected___COPD__",
+      "title": "COPD suspected → COPD"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0255": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Anemia (aplastic)"
+    },
+    "ceee0503": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Mesothelioma"
+    },
+    "ceee0667": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Chronic obstructive lung disease (chronic management)"
+    },
+    "ceee0778": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 1,
+     "title": "End-of-life care"
+    },
+    "ceee0858": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Chronic obstructive lung disease (acute exacerbation)"
+    },
+    "tbode": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 3,
+     "title": "COPD prognosis (BODE index)"
+    },
+    "tmini-grace": {
+     "kind": "risk",
+     "m": "low",
+     "rank": 1,
+     "title": "Mini-GRACE score"
+    },
+    "tottawa-hf": {
+     "kind": "risk",
+     "m": "low",
+     "rank": 2,
+     "title": "Ottawa Heart Failure Risk Scale"
+    }
+   }
+  },
+  {
+   "q": "abdominal pain",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0163",
+      "title": "Abdominal pain (pediatric)"
+     },
+     {
+      "key": "ceee0162",
+      "title": "Abdominal pain (adult)"
+     },
+     {
+      "key": "ceee0209",
+      "title": "Irritable bowel syndrome"
+     },
+     {
+      "key": "ceee0879",
+      "title": "Henoch-Schonlein purpura (IgA vasculitis)"
+     },
+     {
+      "key": "ceee0167",
+      "title": "Appendicitis"
+     },
+     {
+      "key": "ceee0075",
+      "title": "Lactose intolerance"
+     },
+     {
+      "key": "ceee0161",
+      "title": "Abdominal mass"
+     },
+     {
+      "key": "ceee0906",
+      "title": "Intussusception"
+     },
+     {
+      "key": "ceee0039",
+      "title": "Mesenteric ischemia"
+     },
+     {
+      "key": "ceee0190",
+      "title": "Foreign body (gastrointestinal)"
+     },
+     {
+      "key": "ceee0877",
+      "title": "Pancreatitis (chronic)"
+     },
+     {
+      "key": "ceee0785",
+      "title": "Blunt abdominal trauma"
+     },
+     {
+      "key": "ceee0246",
+      "title": "Pelvic Pain in Women"
+     },
+     {
+      "key": "ceee0213",
+      "title": "Nausea and vomiting"
+     },
+     {
+      "key": "ceee0823",
+      "title": "Splenic rupture"
+     },
+     {
+      "key": "ceee0208",
+      "title": "Inguinal hernia"
+     },
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0236",
+      "title": "Endometriosis"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0378",
+      "title": "Back pain (low, acute)"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tpediatric-appendicitis-score",
+      "title": "Pediatric appendicitis score"
+     },
+     {
+      "key": "tectopic-buckley",
+      "title": "Ectopic pregnancy risk (Buckley)"
+     },
+     {
+      "key": "tappendicitis-us",
+      "title": "Appendicitis after an inconclusive ultrasound (Leeuwenburgh)"
+     },
+     {
+      "key": "tpalabs",
+      "title": "PALabS score (appendicitis in children)"
+     },
+     {
+      "key": "tkruis-ibs",
+      "title": "Kruis score (irritable bowel syndrome)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Gastrointestinal___Abdominal_pain___urgent_diagnosis__",
+      "title": "Abdominal pain → urgent diagnosis"
+     },
+     {
+      "key": "d__Obstetrics___Abd_pain_or_vag_bleed__any____non-viable_pregnancy__",
+      "title": "Abd pain or vag bleed (any) → non-viable pregnancy"
+     },
+     {
+      "key": "d__Gastrointestinal___Abdominal_pain___cholecystitis__acute___",
+      "title": "Abdominal pain → cholecystitis (acute)"
+     },
+     {
+      "key": "d__Obstetrics___Abd_pain_or_vag_bleed_and_inconclusive_USN__any____ectopic_pregnancy__",
+      "title": "Abd pain or vag bleed and inconclusive USN (any) → ectopic pregnancy"
+     },
+     {
+      "key": "d__Gastrointestinal___Abdominal_pain___chronic_gastrointestinal_ischemia__",
+      "title": "Abdominal pain → chronic gastrointestinal ischemia"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Gastrointestinal___Abdominal_pain___bowel_obstruction__",
+      "title": "Abdominal pain → bowel obstruction"
+     },
+     {
+      "key": "s__Gastrointestinal___Abdominal_pain__non-specific____urgent_intervention_required__",
+      "title": "Abdominal pain (non-specific) → urgent intervention required"
+     },
+     {
+      "key": "s__Gastrointestinal___Abdominal_pain___acute_cholecystitis__",
+      "title": "Abdominal pain → acute cholecystitis"
+     },
+     {
+      "key": "s__Gastrointestinal___Abdominal_pain__child____appendicitis__",
+      "title": "Abdominal pain (child) → appendicitis"
+     },
+     {
+      "key": "s__Gastrointestinal___Abdominal_pain___appendicitis__",
+      "title": "Abdominal pain → appendicitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0039": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Mesenteric ischemia"
+    },
+    "ceee0167": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Appendicitis"
+    },
+    "ceee0209": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Irritable bowel syndrome"
+    },
+    "ceee0879": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Henoch-Schonlein purpura (IgA vasculitis)"
+    },
+    "ceee0906": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Intussusception"
+    }
+   }
+  },
+  {
+   "q": "low back pain",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0378",
+      "title": "Back pain (low, acute)"
+     },
+     {
+      "key": "ceee0411",
+      "title": "Spondylolisthesis and spondylolysis"
+     },
+     {
+      "key": "ceee0396",
+      "title": "Neck pain"
+     },
+     {
+      "key": "ceee0781",
+      "title": "Pain management (chronic non-malignant)"
+     },
+     {
+      "key": "ceee0793",
+      "title": "Coccygeal injury"
+     },
+     {
+      "key": "ceee0694",
+      "title": "Ankylosing spondylitis"
+     },
+     {
+      "key": "ceee0246",
+      "title": "Pelvic Pain in Women"
+     },
+     {
+      "key": "ceee1694",
+      "title": "Ankylosing spondylitis"
+     },
+     {
+      "key": "ceee0409",
+      "title": "Shoulder pain evaluation"
+     },
+     {
+      "key": "ceee0236",
+      "title": "Endometriosis"
+     },
+     {
+      "key": "ceee0679",
+      "title": "Pleuritic chest pain and pleurisy"
+     },
+     {
+      "key": "ceee0060",
+      "title": "Cerebral palsy"
+     },
+     {
+      "key": "ceee0162",
+      "title": "Abdominal pain (adult)"
+     },
+     {
+      "key": "ceee0307",
+      "title": "Epidural abscess"
+     },
+     {
+      "key": "ceee0826",
+      "title": "Fracture (vertebral compression)"
+     },
+     {
+      "key": "ceee0175",
+      "title": "Cholelithiasis"
+     },
+     {
+      "key": "ceee0388",
+      "title": "Hip pain"
+     },
+     {
+      "key": "ceee0010",
+      "title": "Angina (unstable)"
+     },
+     {
+      "key": "ceee0406",
+      "title": "Scoliosis"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tspinal-manipulation",
+      "title": "Benefit from spinal manipulation (low back pain)"
+     },
+     {
+      "key": "tlbp-recovery",
+      "title": "Low back pain: likelihood of rapid recovery"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Musculoskeletal___Back_pain_with_sciatica___lumbar_disk_herniation__",
+      "title": "Back pain with sciatica → lumbar disk herniation"
+     },
+     {
+      "key": "d__Musculoskeletal___Back_pain_and_suspected_CA___extradural_mass__",
+      "title": "Back pain and suspected CA → extradural mass"
+     },
+     {
+      "key": "d__Musculoskeletal___Back_pain___ankylosing_spondylitis__",
+      "title": "Back pain → ankylosing spondylitis"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Trauma___Back_pain___vertebral_fracture__",
+      "title": "Back pain → vertebral fracture"
+     },
+     {
+      "key": "s__Musculoskeletal___Back_pain___herniated_disc__",
+      "title": "Back pain → herniated disc"
+     },
+     {
+      "key": "s__Musculoskeletal___Back_pain___spinal_osteomyelitis__",
+      "title": "Back pain → spinal osteomyelitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0396": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Neck pain"
+    },
+    "ceee0409": {
+     "kind": "chapters",
+     "m": "out",
+     "rank": 10,
+     "title": "Shoulder pain evaluation"
+    },
+    "tlbp-recovery": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 2,
+     "title": "Low back pain: likelihood of rapid recovery"
+    }
+   }
+  },
+  {
+   "q": "headache",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0439",
+      "title": "Headache (diagnosis)"
+     },
+     {
+      "key": "ceee0437",
+      "title": "Headache (cluster)"
+     },
+     {
+      "key": "ceee0440",
+      "title": "Headache (tension)"
+     },
+     {
+      "key": "ceee0438",
+      "title": "Headache (migraine)"
+     },
+     {
+      "key": "ceee0786",
+      "title": "Altitude sickness"
+     },
+     {
+      "key": "ceee0007",
+      "title": "Aneurysm (cerebral)"
+     },
+     {
+      "key": "ceee0476",
+      "title": "Hypertensive disorders of pregnancy, including eclampsia and preeclampsia"
+     },
+     {
+      "key": "ceee0324",
+      "title": "Meningitis (adult)"
+     },
+     {
+      "key": "ceee0420",
+      "title": "Brain abscess"
+     },
+     {
+      "key": "ceee0396",
+      "title": "Neck pain"
+     },
+     {
+      "key": "ceee0102",
+      "title": "Vestibular neuritis (labyrinthitis)"
+     },
+     {
+      "key": "ceee0446",
+      "title": "Motion sickness"
+     },
+     {
+      "key": "ceee0306",
+      "title": "Ehrlichiosis"
+     },
+     {
+      "key": "ceee0896",
+      "title": "Mediterranean spotted fever (Boutonneuse fever)"
+     },
+     {
+      "key": "ceee0565",
+      "title": "Parvovirus B19 infection"
+     },
+     {
+      "key": "ceee0334",
+      "title": "Rocky Mountain spotted fever"
+     },
+     {
+      "key": "ceee0023",
+      "title": "Cavernous sinus thrombosis"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0432",
+      "title": "Encephalitis"
+     },
+     {
+      "key": "ceee0119",
+      "title": "Acromegaly"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tottawa-sah",
+      "title": "Ottawa subarachnoid hemorrhage rule"
+     },
+     {
+      "key": "tpound",
+      "title": "Migraine probability (POUND)"
+     },
+     {
+      "key": "tid-migraine",
+      "title": "Migraine screener (ID Migraine)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Neurology___Headache___subarachnoid_hemorrhage__",
+      "title": "Headache → subarachnoid hemorrhage"
+     },
+     {
+      "key": "d__Neurology___Headache___CNS_malignancy__",
+      "title": "Headache → CNS malignancy"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Neurology___Headache___migraine__",
+      "title": "Headache → migraine"
+     },
+     {
+      "key": "s__Neurology___Headache___cluster_headache__",
+      "title": "Headache → cluster headache"
+     },
+     {
+      "key": "s__Neurology___Headache___subarachnoid_hemorrhage__",
+      "title": "Headache → subarachnoid hemorrhage"
+     },
+     {
+      "key": "s__Neurology___Headache___significant_intracranial_abnormality__",
+      "title": "Headache → significant intracranial abnormality"
+     },
+     {
+      "key": "s__Infectious_disease___Meningitis_suspected__adults____meningitis__",
+      "title": "Meningitis suspected (adults) → meningitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0007": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Aneurysm (cerebral)"
+    },
+    "ceee0324": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Meningitis (adult)"
+    },
+    "ceee0420": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Brain abscess"
+    },
+    "ceee0476": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 7,
+     "title": "Hypertensive disorders of pregnancy, including eclampsia and preeclampsia"
+    },
+    "ceee0786": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Altitude sickness"
+    }
+   }
+  },
+  {
+   "q": "dizziness",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0430",
+      "title": "Dizziness"
+     },
+     {
+      "key": "ceee0786",
+      "title": "Altitude sickness"
+     },
+     {
+      "key": "ceee0184",
+      "title": "Dumping syndrome"
+     },
+     {
+      "key": "ceee0820",
+      "title": "Carbon monoxide poisoning"
+     },
+     {
+      "key": "ceee0052",
+      "title": "Subclavian steal syndrome"
+     },
+     {
+      "key": "ceee0015",
+      "title": "Bundle branch block"
+     },
+     {
+      "key": "ceee0675",
+      "title": "Hyperventilation"
+     },
+     {
+      "key": "ceee0154",
+      "title": "Obesity and weight loss (adult)"
+     },
+     {
+      "key": "ceee0044",
+      "title": "Orthostatic hypotension"
+     },
+     {
+      "key": "ceee0781",
+      "title": "Pain management (chronic non-malignant)"
+     },
+     {
+      "key": "ceee0019",
+      "title": "Wolff-Parkinson-White syndrome"
+     },
+     {
+      "key": "ceee0014",
+      "title": "Arrhythmia (atrioventricular block)"
+     },
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0423",
+      "title": "Concussion in athletes"
+     },
+     {
+      "key": "ceee0122",
+      "title": "Dehydration (adult)"
+     },
+     {
+      "key": "ceee0034",
+      "title": "Hypertension (essential)"
+     },
+     {
+      "key": "ceee0443",
+      "title": "Insomnia in adults"
+     },
+     {
+      "key": "ceee0628",
+      "title": "Panic disorder"
+     },
+     {
+      "key": "ceee0460",
+      "title": "Syncope"
+     },
+     {
+      "key": "ceee0102",
+      "title": "Vestibular neuritis (labyrinthitis)"
+     }
+    ],
+    "risk": [],
+    "tests": [
+     {
+      "key": "d__Neurology___Acute_vertigo___central_cause_of_vertigo__",
+      "title": "Acute vertigo → central cause of vertigo"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Neurology___Dizziness___peripheral_vertigo__",
+      "title": "Dizziness → peripheral vertigo"
+     },
+     {
+      "key": "s__Neurology___Dizziness___serious_cause_of_vertigo__",
+      "title": "Dizziness → serious cause of vertigo"
+     },
+     {
+      "key": "s__Cardiovascular___Orthostatic_complaint___neurocardiogenic_syncope__",
+      "title": "Orthostatic complaint → neurocardiogenic syncope"
+     },
+     {
+      "key": "s__Cardiovascular___Orthostatic_complaint___postural_orthostatic_tachycardia__",
+      "title": "Orthostatic complaint → postural orthostatic tachycardia"
+     },
+     {
+      "key": "s__Cardiovascular___Suspected_hypovolemia___large_blood_loss__",
+      "title": "Suspected hypovolemia → large blood loss"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0044": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Orthostatic hypotension"
+    },
+    "ceee0154": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 8,
+     "title": "Obesity and weight loss (adult)"
+    },
+    "ceee0184": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Dumping syndrome"
+    },
+    "ceee0786": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Altitude sickness"
+    },
+    "ceee0820": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Carbon monoxide poisoning"
+    }
+   }
+  },
+  {
+   "q": "syncope",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0460",
+      "title": "Syncope"
+     },
+     {
+      "key": "ceee0016",
+      "title": "Sinus arrhythmia and sick sinus"
+     },
+     {
+      "key": "ceee0014",
+      "title": "Arrhythmia (atrioventricular block)"
+     },
+     {
+      "key": "ceee0688",
+      "title": "Pulmonary hypertension"
+     },
+     {
+      "key": "ceee0430",
+      "title": "Dizziness"
+     },
+     {
+      "key": "ceee0012",
+      "title": "Aortic stenosis"
+     },
+     {
+      "key": "ceee0184",
+      "title": "Dumping syndrome"
+     },
+     {
+      "key": "ceee0017",
+      "title": "Supraventricular tachycardia"
+     },
+     {
+      "key": "ceee0015",
+      "title": "Bundle branch block"
+     },
+     {
+      "key": "ceee0799",
+      "title": "Falls in elderly patients"
+     },
+     {
+      "key": "ceee0052",
+      "title": "Subclavian steal syndrome"
+     },
+     {
+      "key": "ceee0044",
+      "title": "Orthostatic hypotension"
+     },
+     {
+      "key": "ceee0019",
+      "title": "Wolff-Parkinson-White syndrome"
+     },
+     {
+      "key": "ceee0782",
+      "title": "Sports preparticipation examination"
+     },
+     {
+      "key": "ceee0610",
+      "title": "Biceps tendinitis injection (procedure)"
+     },
+     {
+      "key": "ceee0022",
+      "title": "Cardiomyopathy (viral)"
+     },
+     {
+      "key": "ceee0696",
+      "title": "Dermatomyositis and polymyositis"
+     },
+     {
+      "key": "ceee0555",
+      "title": "Heart murmurs (child)"
+     },
+     {
+      "key": "ceee0037",
+      "title": "Hypertrophic cardiomyopathy"
+     },
+     {
+      "key": "ceee0161",
+      "title": "Abdominal mass"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tsyncope-arrhythmia",
+      "title": "Canadian Syncope Arrhythmia Risk Score"
+     },
+     {
+      "key": "tcanadian-syncope",
+      "title": "Canadian Syncope Risk Score"
+     },
+     {
+      "key": "toesil",
+      "title": "Syncope prognosis (OESIL score)"
+     },
+     {
+      "key": "trose-syncope",
+      "title": "Syncope prognosis (ROSE rule)"
+     },
+     {
+      "key": "tegsys",
+      "title": "EGSYS score"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Neurology___Syncope__age___60_yrs____death_or_major_CV_event_at_30_days__",
+      "title": "Syncope (age ≥ 60 yrs) → death or major CV event at 30 days"
+     },
+     {
+      "key": "d__Neurology___Syncope___cardiac_syncope__",
+      "title": "Syncope → cardiac syncope"
+     },
+     {
+      "key": "d__Neurology___Syncope___30-day_mortality_or_serious_cardiac_event__",
+      "title": "Syncope → 30-day mortality or serious cardiac event"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Neurology___Syncope___cardiac_syncope__",
+      "title": "Syncope → cardiac syncope"
+     },
+     {
+      "key": "s__Neurology___Syncope__suspected_heart_disease____cardiac_syncope__",
+      "title": "Syncope (suspected heart disease) → cardiac syncope"
+     },
+     {
+      "key": "s__Neurology___Syncope__no_suspicion_heart_disease____neurally_mediated_syncope__",
+      "title": "Syncope (no suspicion heart disease) → neurally mediated syncope"
+     },
+     {
+      "key": "s__Cardiovascular___Orthostatic_complaint___neurocardiogenic_syncope__",
+      "title": "Orthostatic complaint → neurocardiogenic syncope"
+     },
+     {
+      "key": "s__Neurology___Syncope___serious_adverse_outcome__",
+      "title": "Syncope → serious adverse outcome"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0012": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 6,
+     "title": "Aortic stenosis"
+    },
+    "ceee0015": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Bundle branch block"
+    },
+    "ceee0017": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Supraventricular tachycardia"
+    },
+    "ceee0184": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 7,
+     "title": "Dumping syndrome"
+    },
+    "ceee0430": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Dizziness"
+    },
+    "ceee0688": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Pulmonary hypertension"
+    },
+    "ceee0799": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 10,
+     "title": "Falls in elderly patients"
+    }
+   }
+  },
+  {
+   "q": "fatigue",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0433",
+      "title": "Fatigue"
+     },
+     {
+      "key": "ceee0421",
+      "title": "Myalgic encephalitis/Chronic fatigue syndrome"
+     },
+     {
+      "key": "ceee0698",
+      "title": "Fibromyalgia"
+     },
+     {
+      "key": "ceee0714",
+      "title": "Sjogren's syndrome"
+     },
+     {
+      "key": "ceee0317",
+      "title": "Infectious mononucleosis"
+     },
+     {
+      "key": "ceee0329",
+      "title": "Poliomyelitis"
+     },
+     {
+      "key": "ceee0786",
+      "title": "Altitude sickness"
+     },
+     {
+      "key": "ceee0333",
+      "title": "Q fever"
+     },
+     {
+      "key": "ceee0120",
+      "title": "Adrenal insufficiency"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0184",
+      "title": "Dumping syndrome"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0449",
+      "title": "Narcolepsy"
+     },
+     {
+      "key": "ceee0715",
+      "title": "Systemic lupus erythematosis"
+     },
+     {
+      "key": "ceee0303",
+      "title": "Cytomegalovirus infection (adult and child)"
+     },
+     {
+      "key": "ceee0201",
+      "title": "Hepatitis A"
+     },
+     {
+      "key": "ceee0144",
+      "title": "Hypokalemia"
+     },
+     {
+      "key": "ceee0210",
+      "title": "Jaundice"
+     },
+     {
+      "key": "ceee0496",
+      "title": "Leukemia (chronic myelocytic)"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": [
+     {
+      "key": "s__Neurology___Myasthenia_gravis_suspected___myasthenia_gravis__",
+      "title": "Myasthenia gravis suspected → myasthenia gravis"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea___CHF__",
+      "title": "Dyspnea → CHF"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea__asthma_COPD_pt____CHF__",
+      "title": "Dyspnea (asthma/COPD pt) → CHF"
+     },
+     {
+      "key": "s__Pregnancy___Ectopic_pregnancy___tubal_rupture__",
+      "title": "Ectopic pregnancy → tubal rupture"
+     },
+     {
+      "key": "s__Infectious_disease___HIV_suspected___HIV_disease__",
+      "title": "HIV suspected → HIV disease"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0333": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 8,
+     "title": "Q fever"
+    },
+    "ceee0714": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Sjogren's syndrome"
+    },
+    "ceee0786": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 7,
+     "title": "Altitude sickness"
+    }
+   }
+  },
+  {
+   "q": "cough",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0669",
+      "title": "Cough (subacute and chronic)"
+     },
+     {
+      "key": "ceee0566",
+      "title": "Pertussis (whooping cough)"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     },
+     {
+      "key": "ceee0656",
+      "title": "Acute bronchitis"
+     },
+     {
+      "key": "ceee0113",
+      "title": "Pharyngitis"
+     },
+     {
+      "key": "ceee0664",
+      "title": "Bronchiectasis"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0670",
+      "title": "Croup"
+     },
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0881",
+      "title": "Coronavirus SARS-CoV1 infection (SARS)"
+     },
+     {
+      "key": "ceee0045",
+      "title": "Pericardial effusion"
+     },
+     {
+      "key": "ceee0305",
+      "title": "Diphtheria"
+     },
+     {
+      "key": "ceee0665",
+      "title": "Hypersensitivity pneumonitis (including bronchiolitis obliterans)"
+     },
+     {
+      "key": "ceee0674",
+      "title": "Hemoptysis"
+     },
+     {
+      "key": "ceee0315",
+      "title": "Histoplasmosis"
+     },
+     {
+      "key": "ceee0662",
+      "title": "Asthma (acute exacerbation)"
+     },
+     {
+      "key": "ceee0663",
+      "title": "Asthma (chronic management)"
+     },
+     {
+      "key": "ceee0676",
+      "title": "Influenza"
+     },
+     {
+      "key": "ceee0323",
+      "title": "Measles"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tacei-cough",
+      "title": "ACE inhibitor cough risk"
+     },
+     {
+      "key": "tpneumonia-fever-cough-children",
+      "title": "Children with fever and cough: low risk score for pneumonia"
+     },
+     {
+      "key": "tpars-asthma",
+      "title": "Asthma prediction in preschool children"
+     },
+     {
+      "key": "tgrace-pneumonia",
+      "title": "Pneumonia in outpatients with cough (GRACE rule)"
+     },
+     {
+      "key": "tstarwave",
+      "title": "STARWAVe (children with cough)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Infectious_disease___B__pertussis_suspected___Bordetella_pertussis__",
+      "title": "B. pertussis suspected → Bordetella pertussis"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Infectious_disease___Cough__adult____pneumonia__",
+      "title": "Cough (adult) → pneumonia"
+     },
+     {
+      "key": "s__Infectious_disease___Cough__prolonged___adult_or_adolescent____pertussis__",
+      "title": "Cough (prolonged) (adult or adolescent) → pertussis"
+     },
+     {
+      "key": "s__Pulmonary___Screening__child____asthma__",
+      "title": "Screening (child) → asthma"
+     },
+     {
+      "key": "s__Infectious_disease___Pneumonia_suspected__1_to_16_yrs____pneumonia__",
+      "title": "Pneumonia suspected (1 to 16 yrs) → pneumonia"
+     },
+     {
+      "key": "s__Gastrointestinal___Abdominal_pain__child____appendicitis__",
+      "title": "Abdominal pain (child) → appendicitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0113": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Pharyngitis"
+    },
+    "ceee0667": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Chronic obstructive lung disease (chronic management)"
+    },
+    "ceee0670": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Croup"
+    },
+    "ceee0858": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 10,
+     "title": "Chronic obstructive lung disease (acute exacerbation)"
+    },
+    "tacei-cough": {
+     "kind": "risk",
+     "m": "low",
+     "rank": 1,
+     "title": "ACE inhibitor cough risk"
+    },
+    "tgrace-pneumonia": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 4,
+     "title": "Pneumonia in outpatients with cough (GRACE rule)"
+    },
+    "tpars-asthma": {
+     "kind": "risk",
+     "m": "low",
+     "rank": 3,
+     "title": "Asthma prediction in preschool children"
+    },
+    "tpneumonia-fever-cough-children": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 2,
+     "title": "Children with fever and cough: low risk score for pneumonia"
+    },
+    "tstarwave": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 5,
+     "title": "STARWAVe (children with cough)"
+    }
+   }
+  },
+  {
+   "q": "fever in children",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0896",
+      "title": "Mediterranean spotted fever (Boutonneuse fever)"
+     },
+     {
+      "key": "ceee0333",
+      "title": "Q fever"
+     },
+     {
+      "key": "ceee0334",
+      "title": "Rocky Mountain spotted fever"
+     },
+     {
+      "key": "ceee0575",
+      "title": "Sepsis (child)"
+     },
+     {
+      "key": "ceee0186",
+      "title": "Encopresis in children"
+     },
+     {
+      "key": "ceee0355",
+      "title": "Yellow fever"
+     },
+     {
+      "key": "ceee0113",
+      "title": "Pharyngitis"
+     },
+     {
+      "key": "ceee0577",
+      "title": "Sore throat and pharyngitis (child)"
+     },
+     {
+      "key": "ceee0842",
+      "title": "Urinary tract infection (children)"
+     },
+     {
+      "key": "ceee0312",
+      "title": "Hemorrhagic fevers"
+     },
+     {
+      "key": "ceee0332",
+      "title": "Rheumatic fever"
+     },
+     {
+      "key": "ceee0747",
+      "title": "Lymphadenitis and lymphangitis"
+     },
+     {
+      "key": "ceee0349",
+      "title": "Typhoid and typhus"
+     },
+     {
+      "key": "ceee0108",
+      "title": "Otitis media (acute)"
+     },
+     {
+      "key": "ceee0576",
+      "title": "Sinusitis (child)"
+     },
+     {
+      "key": "ceee0297",
+      "title": "Chickenpox"
+     },
+     {
+      "key": "ceee0574",
+      "title": "Seizures (febrile)"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0167",
+      "title": "Appendicitis"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tpneumonia-fever-cough-children",
+      "title": "Children with fever and cough: low risk score for pneumonia"
+     },
+     {
+      "key": "tlab-score",
+      "title": "Serious bacterial infection in fever without source (Lab-score)"
+     }
+    ],
+    "tests": [],
+    "hp": []
+   },
+   "marks": {
+    "ceee0113": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Pharyngitis"
+    },
+    "ceee0186": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Encopresis in children"
+    },
+    "ceee0333": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Q fever"
+    },
+    "ceee0334": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Rocky Mountain spotted fever"
+    },
+    "ceee0574": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 17,
+     "title": "Seizures (febrile)"
+    },
+    "ceee0575": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 4,
+     "title": "Sepsis (child)"
+    },
+    "ceee0577": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Sore throat and pharyngitis (child)"
+    },
+    "ceee0668": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 20,
+     "title": "Common cold and acute upper respiratory tract infection"
+    },
+    "ceee0842": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Urinary tract infection (children)"
+    },
+    "ceee0896": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 1,
+     "title": "Mediterranean spotted fever (Boutonneuse fever)"
+    }
+   }
+  },
+  {
+   "q": "urinary tract infection",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0654",
+      "title": "Urinary tract infection (adult)"
+     },
+     {
+      "key": "ceee0842",
+      "title": "Urinary tract infection (children)"
+     },
+     {
+      "key": "ceee0644",
+      "title": "Hydronephrosis in infants"
+     },
+     {
+      "key": "ceee0651",
+      "title": "Urinary catheter management"
+     },
+     {
+      "key": "ceee0575",
+      "title": "Sepsis (child)"
+     },
+     {
+      "key": "ceee0655",
+      "title": "Vesicoureteral reflux"
+     },
+     {
+      "key": "ceee0653",
+      "title": "Urinary retention"
+     },
+     {
+      "key": "ceee0368",
+      "title": "Prostatitis (acute)"
+     },
+     {
+      "key": "ceee0639",
+      "title": "Dysuria"
+     },
+     {
+      "key": "ceee0551",
+      "title": "Enuresis (childhood)"
+     },
+     {
+      "key": "ceee0641",
+      "title": "Hematuria"
+     },
+     {
+      "key": "ceee0652",
+      "title": "Urinary incontinence"
+     },
+     {
+      "key": "ceee0162",
+      "title": "Abdominal pain (adult)"
+     },
+     {
+      "key": "ceee0358",
+      "title": "Benign prostatic hyperplasia"
+     },
+     {
+      "key": "ceee0363",
+      "title": "Incontinence (male)"
+     },
+     {
+      "key": "ceee0251",
+      "title": "Pelvic organ prolapse"
+     },
+     {
+      "key": "ceee0371",
+      "title": "Urethritis (male)"
+     },
+     {
+      "key": "ceee0468",
+      "title": "Endometritis"
+     },
+     {
+      "key": "ceee0250",
+      "title": "Urethritis (female)"
+     },
+     {
+      "key": "ceee0480",
+      "title": "Bladder tumors"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tpecarn-febrile",
+      "title": "PECARN febrile infant rule"
+     },
+     {
+      "key": "tuti-mcisaac",
+      "title": "UTI diagnosis (McIsaac)"
+     },
+     {
+      "key": "tduty-uti",
+      "title": "UTI in children under 5 (DUTY)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Infectious_disease___UTI_suspected__child_1-36_mos____urinary_tract_infection__",
+      "title": "UTI suspected (child 1-36 mos) → urinary tract infection"
+     },
+     {
+      "key": "d__Infectious_disease___UTI_suspected__febrile_child_1-36_mos____urinary_tract_infection__",
+      "title": "UTI suspected (febrile child 1-36 mos) → urinary tract infection"
+     },
+     {
+      "key": "d__Infectious_disease___UTI__men____urinary_abnormality__",
+      "title": "UTI (men) → urinary abnormality"
+     },
+     {
+      "key": "d__Infectious_disease___UTI_suspected__adult____UTI__",
+      "title": "UTI suspected (adult) → UTI"
+     },
+     {
+      "key": "d__Infectious_disease___UTI_suspected__child____UTI__",
+      "title": "UTI suspected (child) → UTI"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Infectious_disease___UTI_suspected__women____UTI__",
+      "title": "UTI suspected (women) → UTI"
+     },
+     {
+      "key": "s__Infectious_disease___UTI_suspected__children____UTI__",
+      "title": "UTI suspected (children) → UTI"
+     },
+     {
+      "key": "s__Infectious_disease___UTI_suspected__men____UTI__",
+      "title": "UTI suspected (men) → UTI"
+     },
+     {
+      "key": "s__Infectious_disease___UTI_suspected__women___50_yrs____UTI__",
+      "title": "UTI suspected (women > 50 yrs) → UTI"
+     },
+     {
+      "key": "s__Infectious_disease___UTI_suspected__women_15_-_49____UTI__",
+      "title": "UTI suspected (women 15 - 49) → UTI"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0639": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Dysuria"
+    },
+    "ceee0653": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 7,
+     "title": "Urinary retention"
+    },
+    "tduty-uti": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 3,
+     "title": "UTI in children under 5 (DUTY)"
+    },
+    "tuti-mcisaac": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 2,
+     "title": "UTI diagnosis (McIsaac)"
+    }
+   }
+  },
+  {
+   "q": "hypertension",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0036",
+      "title": "Hypertension (secondary)"
+     },
+     {
+      "key": "ceee0034",
+      "title": "Hypertension (essential)"
+     },
+     {
+      "key": "ceee0688",
+      "title": "Pulmonary hypertension"
+     },
+     {
+      "key": "ceee0476",
+      "title": "Hypertensive disorders of pregnancy, including eclampsia and preeclampsia"
+     },
+     {
+      "key": "ceee0887",
+      "title": "Hypertensive nephropathy"
+     },
+     {
+      "key": "ceee0048",
+      "title": "Renal artery stenosis"
+     },
+     {
+      "key": "ceee0132",
+      "title": "Hyperaldosteronism (primary)"
+     },
+     {
+      "key": "ceee0044",
+      "title": "Orthostatic hypotension"
+     },
+     {
+      "key": "ceee0713",
+      "title": "Scleroderma (progressive systemic sclerosis)"
+     },
+     {
+      "key": "ceee0187",
+      "title": "Esophageal varices"
+     },
+     {
+      "key": "ceee0531",
+      "title": "Glaucoma"
+     },
+     {
+      "key": "ceee0638",
+      "title": "Chronic kidney disease"
+     },
+     {
+      "key": "ceee0701",
+      "title": "Mixed connective tissue disorder"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0860",
+      "title": "Polycystic kidney disease"
+     },
+     {
+      "key": "ceee0195",
+      "title": "Gastrointestinal hemorrhage (upper, variceal)"
+     },
+     {
+      "key": "ceee0262",
+      "title": "HELLP syndrome"
+     },
+     {
+      "key": "ceee0894",
+      "title": "Metabolic syndrome"
+     },
+     {
+      "key": "ceee0035",
+      "title": "Hypertensive crisis"
+     },
+     {
+      "key": "ceee0640",
+      "title": "Glomerulonephritis"
+     }
+    ],
+    "risk": [
+     {
+      "key": "treveal-lite2",
+      "title": "Prognosis for patients with pulmonary arterial hypertension (REVEAL Lite 2.0 score)"
+     },
+     {
+      "key": "trenal-artery-stenosis",
+      "title": "Renal artery stenosis in hypertension"
+     },
+     {
+      "key": "tframingham-af",
+      "title": "Framingham atrial fibrillation risk"
+     },
+     {
+      "key": "tprevent",
+      "title": "Cardiovascular risk (AHA PREVENT equations)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Hypertension__child____secondary_cause_of_HTN__",
+      "title": "Hypertension (child) → secondary cause of HTN"
+     },
+     {
+      "key": "d__Cardiovascular___Hypertension___renal_artery_stenosis__",
+      "title": "Hypertension → renal artery stenosis"
+     },
+     {
+      "key": "d__Cardiovascular___Hypertension___high_mean_ambulatory_diast_BP__",
+      "title": "Hypertension → high mean ambulatory diast BP"
+     },
+     {
+      "key": "d__Cardiovascular___Hypertension___high_mean_ambulatory_syst_BP__",
+      "title": "Hypertension → high mean ambulatory syst BP"
+     },
+     {
+      "key": "d__Cardiovascular___Chest_pain__htn_and_abnl_stress_test____coronary_artery_disease__",
+      "title": "Chest pain (htn and abnl stress test) → coronary artery disease"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Pulmonary___Pulmonary_HTN_suspected___pulmonary_hypertension__mPAP___25___",
+      "title": "Pulmonary HTN suspected → pulmonary hypertension (mPAP ≥ 25)"
+     },
+     {
+      "key": "s__Pulmonary___Pulmonary_HTN_suspected___pulmonary_hypertension__severe__mPAP___45___",
+      "title": "Pulmonary HTN suspected → pulmonary hypertension (severe, mPAP ≥ 45)"
+     },
+     {
+      "key": "s__Cardiovascular___Hypertension__child____secondary_hypertension__",
+      "title": "Hypertension (child) → secondary hypertension"
+     },
+     {
+      "key": "s__Cardiovascular___Screening___hypertension__",
+      "title": "Screening → hypertension"
+     },
+     {
+      "key": "s__Cardiovascular___Hypertension___renovascular_hypertension__",
+      "title": "Hypertension → renovascular hypertension"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0035": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 19,
+     "title": "Hypertensive crisis"
+    },
+    "ceee0044": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 8,
+     "title": "Orthostatic hypotension"
+    },
+    "ceee0187": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 10,
+     "title": "Esophageal varices"
+    },
+    "ceee0262": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 17,
+     "title": "HELLP syndrome"
+    },
+    "ceee0688": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Pulmonary hypertension"
+    },
+    "ceee0713": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 9,
+     "title": "Scleroderma (progressive systemic sclerosis)"
+    },
+    "s__Cardiovascular___Hypertension___renovascular_hypertension__": {
+     "kind": "hp",
+     "m": "high",
+     "rank": 5,
+     "title": "Hypertension → renovascular hypertension"
+    },
+    "s__Cardiovascular___Hypertension__child____secondary_hypertension__": {
+     "kind": "hp",
+     "m": "high",
+     "rank": 3,
+     "title": "Hypertension (child) → secondary hypertension"
+    },
+    "s__Cardiovascular___Screening___hypertension__": {
+     "kind": "hp",
+     "m": "high",
+     "rank": 4,
+     "title": "Screening → hypertension"
+    },
+    "s__Pulmonary___Pulmonary_HTN_suspected___pulmonary_hypertension__mPAP___25___": {
+     "kind": "hp",
+     "m": "low",
+     "rank": 1,
+     "title": "Pulmonary HTN suspected → pulmonary hypertension (mPAP ≥ 25)"
+    },
+    "s__Pulmonary___Pulmonary_HTN_suspected___pulmonary_hypertension__severe__mPAP___45___": {
+     "kind": "hp",
+     "m": "low",
+     "rank": 2,
+     "title": "Pulmonary HTN suspected → pulmonary hypertension (severe, mPAP ≥ 45)"
+    },
+    "trenal-artery-stenosis": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 2,
+     "title": "Renal artery stenosis in hypertension"
+    },
+    "treveal-lite2": {
+     "kind": "risk",
+     "m": "low",
+     "rank": 1,
+     "title": "Prognosis for patients with pulmonary arterial hypertension (REVEAL Lite 2.0 score)"
+    }
+   }
+  },
+  {
+   "q": "type 2 diabetes",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0528",
+      "title": "Diabetic retinopathy"
+     },
+     {
+      "key": "ceee0894",
+      "title": "Metabolic syndrome"
+     },
+     {
+      "key": "ceee0126",
+      "title": "Diabetes mellitus (type 1)"
+     },
+     {
+      "key": "ceee0154",
+      "title": "Obesity and weight loss (adult)"
+     },
+     {
+      "key": "ceee0125",
+      "title": "Diabetes mellitus (hyperosmolar coma)"
+     },
+     {
+      "key": "ceee0128",
+      "title": "Diabetic neuropathy"
+     },
+     {
+      "key": "ceee0730",
+      "title": "Diabetic foot ulcer"
+     },
+     {
+      "key": "ceee0859",
+      "title": "Diabetic nephropathy"
+     },
+     {
+      "key": "ceee0221",
+      "title": "Non-Alcoholic Fatty Liver Disease"
+     },
+     {
+      "key": "ceee0259",
+      "title": "Anemia (megaloblastic)"
+     },
+     {
+      "key": "ceee0638",
+      "title": "Chronic kidney disease"
+     },
+     {
+      "key": "ceee0452",
+      "title": "Peripheral neuropathy (diagnostic approach)"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0123",
+      "title": "Diabetes insipidus (AVP-D and AVP-R)"
+     },
+     {
+      "key": "ceee0143",
+      "title": "Hypoglycemia"
+     },
+     {
+      "key": "ceee0831",
+      "title": "Prenatal care"
+     },
+     {
+      "key": "ceee0360",
+      "title": "Erectile dysfunction"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tukpds-stroke",
+      "title": "UKPDS stroke risk engine"
+     },
+     {
+      "key": "ttrs-hf-dm",
+      "title": "Heart failure hospitalization in diabetes (TRS-HF-DM)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Endocrinology___Patient_with_diabetes___Type_I_DM__",
+      "title": "Patient with diabetes → Type I DM"
+     },
+     {
+      "key": "d__Endocrinology___Diabetes_mellitus_Type_II___poor_control__HgbA1___7____",
+      "title": "Diabetes mellitus Type II → poor control (HgbA1 > 7%)"
+     },
+     {
+      "key": "d__Gastrointestinal___NAFLD___advanced_fibrosis__",
+      "title": "NAFLD → advanced fibrosis"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Endocrinology___DM___diabetic_neuropathy__",
+      "title": "DM → diabetic neuropathy"
+     },
+     {
+      "key": "s__Infectious_disease___Diabetic_foot_ulcer___osteomyelitis__",
+      "title": "Diabetic foot ulcer → osteomyelitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0125": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Diabetes mellitus (hyperosmolar coma)"
+    },
+    "ceee0126": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 4,
+     "title": "Diabetes mellitus (type 1)"
+    },
+    "ceee0128": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Diabetic neuropathy"
+    },
+    "ceee0143": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 18,
+     "title": "Hypoglycemia"
+    },
+    "ceee0730": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Diabetic foot ulcer"
+    },
+    "ceee0859": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Diabetic nephropathy"
+    }
+   }
+  },
+  {
+   "q": "atrial fibrillation",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0013",
+      "title": "Atrial fibrillation and flutter"
+     },
+     {
+      "key": "ceee0875",
+      "title": "Anticoagulation management"
+     },
+     {
+      "key": "ceee0024",
+      "title": "Cerebrovascular disease (acute stroke)"
+     },
+     {
+      "key": "ceee0041",
+      "title": "Mitral stenosis"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0865",
+      "title": "Perioperative management of antithrombotic therapy"
+     },
+     {
+      "key": "ceee0017",
+      "title": "Supraventricular tachycardia"
+     },
+     {
+      "key": "ceee0019",
+      "title": "Wolff-Parkinson-White syndrome"
+     },
+     {
+      "key": "ceee0016",
+      "title": "Sinus arrhythmia and sick sinus"
+     },
+     {
+      "key": "ceee0026",
+      "title": "Cerebrovascular disease (TIA)"
+     },
+     {
+      "key": "ceee0139",
+      "title": "Hyperthyroidism"
+     },
+     {
+      "key": "ceee0037",
+      "title": "Hypertrophic cardiomyopathy"
+     },
+     {
+      "key": "ceee0032",
+      "title": "Heart failure with preserved ejection fraction (diastolic heart failure)"
+     },
+     {
+      "key": "ceee0332",
+      "title": "Rheumatic fever"
+     },
+     {
+      "key": "ceee0018",
+      "title": "Arrhythmia (ventricular tachycardia and fibrillation)"
+     },
+     {
+      "key": "ceee0014",
+      "title": "Arrhythmia (atrioventricular block)"
+     },
+     {
+      "key": "ceee0040",
+      "title": "Mitral insufficiency"
+     },
+     {
+      "key": "ceee0149",
+      "title": "Hypothyroidism (adult)"
+     },
+     {
+      "key": "ceee0692",
+      "title": "Sleep apnea"
+     },
+     {
+      "key": "ceee0012",
+      "title": "Aortic stenosis"
+     }
+    ],
+    "risk": [
+     {
+      "key": "talbo",
+      "title": "ALBO score"
+     },
+     {
+      "key": "tatria-stroke",
+      "title": "ATRIA stroke risk score"
+     },
+     {
+      "key": "tcha2ds2-vasc",
+      "title": "CHA2DS2-VASc score"
+     },
+     {
+      "key": "tcharge-af",
+      "title": "CHARGE-AF atrial fibrillation risk"
+     },
+     {
+      "key": "tframingham-af",
+      "title": "Framingham atrial fibrillation risk"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Screening___atrial_fibrillation__",
+      "title": "Screening → atrial fibrillation"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected__asthma_COPD____heart_failure__",
+      "title": "Heart failure suspected (asthma/COPD) → heart failure"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected___heart_failure__",
+      "title": "Heart failure suspected → heart failure"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___Screening___atrial_fibrillation__",
+      "title": "Screening → atrial fibrillation"
+     },
+     {
+      "key": "s__Cardiovascular___Cardioversion_for_AF_AFL___relapse_out_of_sinus_rhythm__",
+      "title": "Cardioversion for AF/AFL → relapse out of sinus rhythm"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea__asthma_COPD_pt____CHF__",
+      "title": "Dyspnea (asthma/COPD pt) → CHF"
+     },
+     {
+      "key": "s__Neurology___Stroke___hemorrhagic_stroke__",
+      "title": "Stroke → hemorrhagic stroke"
+     },
+     {
+      "key": "s__Neurology___Syncope___cardiac_syncope__",
+      "title": "Syncope → cardiac syncope"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0025": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Cerebrovascular disease (chronic management)"
+    },
+    "ceee0041": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Mitral stenosis"
+    }
+   }
+  },
+  {
+   "q": "heart failure",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0032",
+      "title": "Heart failure with preserved ejection fraction (diastolic heart failure)"
+     },
+     {
+      "key": "ceee0033",
+      "title": "Heart failure with reduced ejection fraction (systolic heart failure)"
+     },
+     {
+      "key": "ceee0022",
+      "title": "Cardiomyopathy (viral)"
+     },
+     {
+      "key": "ceee0029",
+      "title": "Edema"
+     },
+     {
+      "key": "ceee0015",
+      "title": "Bundle branch block"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0040",
+      "title": "Mitral insufficiency"
+     },
+     {
+      "key": "ceee0688",
+      "title": "Pulmonary hypertension"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     },
+     {
+      "key": "ceee0011",
+      "title": "Aortic insufficiency"
+     },
+     {
+      "key": "ceee0332",
+      "title": "Rheumatic fever"
+     },
+     {
+      "key": "ceee0134",
+      "title": "Hyperkalemia"
+     },
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0044",
+      "title": "Orthostatic hypotension"
+     },
+     {
+      "key": "ceee0034",
+      "title": "Hypertension (essential)"
+     },
+     {
+      "key": "ceee0258",
+      "title": "Anemia (iron deficiency)"
+     },
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0460",
+      "title": "Syncope"
+     },
+     {
+      "key": "ceee0012",
+      "title": "Aortic stenosis"
+     },
+     {
+      "key": "ceee0018",
+      "title": "Arrhythmia (ventricular tachycardia and fibrillation)"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tframingham-hf",
+      "title": "Framingham criteria for heart failure"
+     },
+     {
+      "key": "ttrs-hf-dm",
+      "title": "Heart failure hospitalization in diabetes (TRS-HF-DM)"
+     },
+     {
+      "key": "tmaggic",
+      "title": "MAGGIC heart failure risk score"
+     },
+     {
+      "key": "tmice-hf",
+      "title": "MICE rule for heart failure"
+     },
+     {
+      "key": "tottawa-hf",
+      "title": "Ottawa Heart Failure Risk Scale"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected___heart_failure__",
+      "title": "Heart failure suspected → heart failure"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected__asthma_COPD____heart_failure__",
+      "title": "Heart failure suspected (asthma/COPD) → heart failure"
+     },
+     {
+      "key": "d__Cardiovascular___Aortic_stenosis___heart_failure__",
+      "title": "Aortic stenosis → heart failure"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure___death_or_30_d_readmit__",
+      "title": "Heart failure → death or 30 d readmit"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected___HF__diastolic___",
+      "title": "Heart failure suspected → HF (diastolic)"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___Dyspnea___CHF__",
+      "title": "Dyspnea → CHF"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea__asthma_COPD_pt____CHF__",
+      "title": "Dyspnea (asthma/COPD pt) → CHF"
+     },
+     {
+      "key": "s__Gastrointestinal___Ascites_suspected___ascites__",
+      "title": "Ascites suspected → ascites"
+     }
+    ]
+   },
+   "marks": {}
+  },
+  {
+   "q": "COPD",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     },
+     {
+      "key": "ceee0688",
+      "title": "Pulmonary hypertension"
+     },
+     {
+      "key": "ceee0656",
+      "title": "Acute bronchitis"
+     },
+     {
+      "key": "ceee0658",
+      "title": "Alpha-1 antitrypsin deficiency"
+     },
+     {
+      "key": "ceee0663",
+      "title": "Asthma (chronic management)"
+     },
+     {
+      "key": "ceee0821",
+      "title": "Smoke inhalation injury"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0497",
+      "title": "Lung cancer"
+     },
+     {
+      "key": "ceee0786",
+      "title": "Altitude sickness"
+     },
+     {
+      "key": "ceee0669",
+      "title": "Cough (subacute and chronic)"
+     },
+     {
+      "key": "ceee0837",
+      "title": "Smoking cessation"
+     },
+     {
+      "key": "ceee0015",
+      "title": "Bundle branch block"
+     },
+     {
+      "key": "ceee0674",
+      "title": "Hemoptysis"
+     },
+     {
+      "key": "ceee0685",
+      "title": "Pneumonia (mycoplasma)"
+     },
+     {
+      "key": "ceee0256",
+      "title": "Anemia (diagnostic approach)"
+     },
+     {
+      "key": "ceee0661",
+      "title": "Asbestosis"
+     },
+     {
+      "key": "ceee0662",
+      "title": "Asthma (acute exacerbation)"
+     },
+     {
+      "key": "ceee0664",
+      "title": "Bronchiectasis"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tottawa-copd",
+      "title": "COPD: risk of bad outcomes in the ED (Ottawa COPD Risk Scale)"
+     },
+     {
+      "key": "tbap65",
+      "title": "COPD exacerbation prognosis (BAP-65 score)"
+     },
+     {
+      "key": "tdecaf-validation",
+      "title": "COPD mortality risk in hospital (DECAF score)"
+     },
+     {
+      "key": "tcopd-lcss",
+      "title": "Lung cancer risk in COPD (COPD-LUCSS)"
+     },
+     {
+      "key": "tbode",
+      "title": "COPD prognosis (BODE index)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected__asthma_COPD____heart_failure__",
+      "title": "Heart failure suspected (asthma/COPD) → heart failure"
+     },
+     {
+      "key": "d__Pulmonary___COPD___alpha-1_antitrypsin_deficiency__",
+      "title": "COPD → alpha-1 antitrypsin deficiency"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Pulmonary___COPD_suspected___COPD__",
+      "title": "COPD suspected → COPD"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea__asthma_COPD_pt____CHF__",
+      "title": "Dyspnea (asthma/COPD pt) → CHF"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea___CHF__",
+      "title": "Dyspnea → CHF"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0656": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Acute bronchitis"
+    },
+    "ceee0658": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Alpha-1 antitrypsin deficiency"
+    },
+    "ceee0663": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Asthma (chronic management)"
+    },
+    "ceee0688": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Pulmonary hypertension"
+    },
+    "ceee0821": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 7,
+     "title": "Smoke inhalation injury"
+    },
+    "d__Cardiovascular___Heart_failure_suspected__asthma_COPD____heart_failure__": {
+     "kind": "tests",
+     "m": "low",
+     "rank": 1,
+     "title": "Heart failure suspected (asthma/COPD) → heart failure"
+    },
+    "tbode": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 5,
+     "title": "COPD prognosis (BODE index)"
+    }
+   }
+  },
+  {
+   "q": "asthma",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0662",
+      "title": "Asthma (acute exacerbation)"
+     },
+     {
+      "key": "ceee0663",
+      "title": "Asthma (chronic management)"
+     },
+     {
+      "key": "ceee0001",
+      "title": "Allergic rhinitis"
+     },
+     {
+      "key": "ceee0669",
+      "title": "Cough (subacute and chronic)"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     },
+     {
+      "key": "ceee0656",
+      "title": "Acute bronchitis"
+     },
+     {
+      "key": "ceee0664",
+      "title": "Bronchiectasis"
+     },
+     {
+      "key": "ceee0722",
+      "title": "Atopic dermatitis and eczema"
+     },
+     {
+      "key": "ceee0525",
+      "title": "Conjunctivitis (allergic)"
+     },
+     {
+      "key": "ceee0192",
+      "title": "Gastroesophageal reflux disease and esophagitis"
+     },
+     {
+      "key": "ceee0683",
+      "title": "Pneumonia (eosinophilic)"
+     },
+     {
+      "key": "ceee0058",
+      "title": "Leukocytoclastic vasculitis"
+     },
+     {
+      "key": "ceee0845",
+      "title": "Pneumonia (chlamydia)"
+     },
+     {
+      "key": "ceee0685",
+      "title": "Pneumonia (mycoplasma)"
+     },
+     {
+      "key": "ceee0847",
+      "title": "Sinusitis (adult, chronic)"
+     },
+     {
+      "key": "ceee0821",
+      "title": "Smoke inhalation injury"
+     },
+     {
+      "key": "ceee0002",
+      "title": "Anaphylaxis"
+     },
+     {
+      "key": "ceee0120",
+      "title": "Adrenal insufficiency"
+     },
+     {
+      "key": "ceee0658",
+      "title": "Alpha-1 antitrypsin deficiency"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tpars-asthma",
+      "title": "Asthma prediction in preschool children"
+     },
+     {
+      "key": "tbap65",
+      "title": "COPD exacerbation prognosis (BAP-65 score)"
+     },
+     {
+      "key": "tdecaf-validation",
+      "title": "COPD mortality risk in hospital (DECAF score)"
+     },
+     {
+      "key": "tbode",
+      "title": "COPD prognosis (BODE index)"
+     },
+     {
+      "key": "tottawa-copd",
+      "title": "COPD: risk of bad outcomes in the ED (Ottawa COPD Risk Scale)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Pulmonary___Asthma_suspected___asthma__",
+      "title": "Asthma suspected → asthma"
+     },
+     {
+      "key": "d__Pulmonary___Asthma_exacerbation___unfavourable_outcome__",
+      "title": "Asthma exacerbation → unfavourable outcome"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected__asthma_COPD____heart_failure__",
+      "title": "Heart failure suspected (asthma/COPD) → heart failure"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Pulmonary___Screening__child____asthma__",
+      "title": "Screening (child) → asthma"
+     },
+     {
+      "key": "s__Cardiovascular___Dyspnea__asthma_COPD_pt____CHF__",
+      "title": "Dyspnea (asthma/COPD pt) → CHF"
+     },
+     {
+      "key": "s__Pulmonary___Screening__adult____asthma__",
+      "title": "Screening (adult) → asthma"
+     },
+     {
+      "key": "s__Allergies___Screening__child____allergic_rhinitis__",
+      "title": "Screening (child) → allergic rhinitis"
+     },
+     {
+      "key": "s__Allergies___Screening__adult____allergic_rhinitis_or_conjunctivitis__",
+      "title": "Screening (adult) → allergic rhinitis or conjunctivitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0001": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Allergic rhinitis"
+    }
+   }
+  },
+  {
+   "q": "depression",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0624",
+      "title": "Depression"
+     },
+     {
+      "key": "ceee0851",
+      "title": "Postpartum depression"
+     },
+     {
+      "key": "ceee0626",
+      "title": "Persistent depressive disorder (formerly dysthymia)"
+     },
+     {
+      "key": "ceee0830",
+      "title": "Post-traumatic stress disorder (PTSD)"
+     },
+     {
+      "key": "ceee0622",
+      "title": "Bipolar disorder"
+     },
+     {
+      "key": "ceee0635",
+      "title": "Suicide risk assessment and management"
+     },
+     {
+      "key": "ceee0623",
+      "title": "Generalized anxiety disorder"
+     },
+     {
+      "key": "ceee0599",
+      "title": "Opioid overdose and intoxication"
+     },
+     {
+      "key": "ceee0586",
+      "title": "Benzodiazepine toxicity"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0451",
+      "title": "Parkinson disease"
+     },
+     {
+      "key": "ceee0443",
+      "title": "Insomnia in adults"
+     },
+     {
+      "key": "ceee0829",
+      "title": "Social anxiety disorder"
+     },
+     {
+      "key": "ceee0118",
+      "title": "Tinnitus"
+     },
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0248",
+      "title": "Premenstrual dysphoric disorder"
+     },
+     {
+      "key": "ceee0863",
+      "title": "Domestic and intimate partner violence"
+     },
+     {
+      "key": "ceee0433",
+      "title": "Fatigue"
+     },
+     {
+      "key": "ceee0449",
+      "title": "Narcolepsy"
+     },
+     {
+      "key": "ceee0799",
+      "title": "Falls in elderly patients"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tperinatal-depression",
+      "title": "Perinatal depression screen"
+     },
+     {
+      "key": "tphq2",
+      "title": "Depression screening (PHQ-2)"
+     },
+     {
+      "key": "tepds",
+      "title": "Edinburgh Postnatal Depression Scale (EPDS)"
+     },
+     {
+      "key": "tprodigy",
+      "title": "Opioid-induced respiratory depression (PRODIGY)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___Chest_pain__normal_ECG____acute_MI__",
+      "title": "Chest pain (normal ECG) → acute MI"
+     },
+     {
+      "key": "d__Cardiovascular___Heart_failure_suspected___heart_failure__",
+      "title": "Heart failure suspected → heart failure"
+     },
+     {
+      "key": "d__Cardiovascular___Pericardial_effusion_suspected___cardiac_tamponade__",
+      "title": "Pericardial effusion suspected → cardiac tamponade"
+     },
+     {
+      "key": "d__Cardiovascular___Pericardial_effusion_suspected___pericardial_effusion__any___",
+      "title": "Pericardial effusion suspected → pericardial effusion (any)"
+     },
+     {
+      "key": "d__Cardiovascular___Pericardial_effusion_suspected___pericardial_effusion__mod_large___",
+      "title": "Pericardial effusion suspected → pericardial effusion (mod/large)"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Psychiatric_or_substance_abuse___Depression_suspected___depression__",
+      "title": "Depression suspected → depression"
+     },
+     {
+      "key": "s__Pediatrics___Sexual_abuse_suspected___sexual_abuse_in_child__",
+      "title": "Sexual abuse suspected → sexual abuse in child"
+     }
+    ]
+   },
+   "marks": {
+    "tphq2": {
+     "kind": "risk",
+     "m": "high",
+     "rank": 2,
+     "title": "Depression screening (PHQ-2)"
+    }
+   }
+  },
+  {
+   "q": "dementia",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0426",
+      "title": "Dementia (Alzheimer’s disease)"
+     },
+     {
+      "key": "ceee0427",
+      "title": "Dementia (diagnosis)"
+     },
+     {
+      "key": "ceee0429",
+      "title": "Dementia (multi-infarct)"
+     },
+     {
+      "key": "ceee0428",
+      "title": "Dementia (Lewy body dementia)"
+     },
+     {
+      "key": "ceee0425",
+      "title": "Delirium and acute confusional states"
+     },
+     {
+      "key": "ceee0424",
+      "title": "Creutzfeldt-Jakob disease"
+     },
+     {
+      "key": "ceee0067",
+      "title": "Down syndrome"
+     },
+     {
+      "key": "ceee0450",
+      "title": "Normal pressure hydrocephalus"
+     },
+     {
+      "key": "ceee0445",
+      "title": "Intellectual disabilities (adult)"
+     },
+     {
+      "key": "ceee0151",
+      "title": "Malnutrition"
+     },
+     {
+      "key": "ceee0241",
+      "title": "Menopause"
+     },
+     {
+      "key": "ceee0871",
+      "title": "REM sleep behavior disorder (RBD)"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0442",
+      "title": "Huntington disease"
+     },
+     {
+      "key": "ceee0451",
+      "title": "Parkinson disease"
+     },
+     {
+      "key": "ceee0422",
+      "title": "Coma"
+     },
+     {
+      "key": "ceee0832",
+      "title": "Personality disorders"
+     },
+     {
+      "key": "ceee0825",
+      "title": "Traumatic brain injury"
+     },
+     {
+      "key": "ceee0417",
+      "title": "Amyotrophic lateral sclerosis"
+     },
+     {
+      "key": "ceee0122",
+      "title": "Dehydration (adult)"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tcaide",
+      "title": "Dementia risk in 20 years (CAIDE)"
+     },
+     {
+      "key": "ttime-change-test",
+      "title": "Dementia screening (Time and Change test)"
+     },
+     {
+      "key": "tmini-cog",
+      "title": "Dementia screening (Mini-Cog)"
+     },
+     {
+      "key": "tad8",
+      "title": "Cognitive impairment screening (AD8)"
+     },
+     {
+      "key": "tsix-item-screener",
+      "title": "Cognitive impairment screening (Six-Item Screener)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Neurology___Dementia___Alzheimers_dementia__",
+      "title": "Dementia → Alzheimers dementia"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Infectious_disease___HIV___new_neuro_findings___focal_CT_lesion__",
+      "title": "HIV + new neuro findings → focal CT lesion"
+     },
+     {
+      "key": "s__Neurology___Dementia___Alzheimer_s_dementia__",
+      "title": "Dementia → Alzheimer's dementia"
+     },
+     {
+      "key": "s__Neurology___Screening___Alzheimer_s_diagnosed_in_3_years__",
+      "title": "Screening → Alzheimer's diagnosed in 3 years"
+     }
+    ]
+   },
+   "marks": {
+    "s__Infectious_disease___HIV___new_neuro_findings___focal_CT_lesion__": {
+     "kind": "hp",
+     "m": "low",
+     "rank": 1,
+     "title": "HIV + new neuro findings → focal CT lesion"
+    },
+    "s__Neurology___Dementia___Alzheimer_s_dementia__": {
+     "kind": "hp",
+     "m": "high",
+     "rank": 2,
+     "title": "Dementia → Alzheimer's dementia"
+    }
+   }
+  },
+  {
+   "q": "osteoporosis",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0400",
+      "title": "Osteoporosis"
+     },
+     {
+      "key": "ceee0826",
+      "title": "Fracture (vertebral compression)"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0139",
+      "title": "Hyperthyroidism"
+     },
+     {
+      "key": "ceee0074",
+      "title": "Klinefelter syndrome"
+     },
+     {
+      "key": "ceee0241",
+      "title": "Menopause"
+     },
+     {
+      "key": "ceee0276",
+      "title": "Sickle cell anemia"
+     },
+     {
+      "key": "ceee0378",
+      "title": "Back pain (low, acute)"
+     },
+     {
+      "key": "ceee0852",
+      "title": "Testosterone deficiency and replacement"
+     },
+     {
+      "key": "ceee0172",
+      "title": "Celiac disease"
+     },
+     {
+      "key": "ceee0067",
+      "title": "Down syndrome"
+     },
+     {
+      "key": "ceee0377",
+      "title": "Avascular necrosis"
+     },
+     {
+      "key": "ceee0121",
+      "title": "Cushing's syndrome"
+     },
+     {
+      "key": "ceee0799",
+      "title": "Falls in elderly patients"
+     },
+     {
+      "key": "ceee0237",
+      "title": "Female athletic triad syndrome"
+     },
+     {
+      "key": "ceee0806",
+      "title": "Fracture (rib)"
+     },
+     {
+      "key": "ceee0137",
+      "title": "Hyperparathyroidism"
+     },
+     {
+      "key": "ceee0620",
+      "title": "Anorexia, bulimia, and eating disorders"
+     },
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tosteo-mores",
+      "title": "Osteoporosis risk in men (MORES)"
+     },
+     {
+      "key": "tosteo-dutch",
+      "title": "Osteoporosis screening (Dutch instrument)"
+     },
+     {
+      "key": "tosteo-ost",
+      "title": "Osteoporosis screening (OST)"
+     },
+     {
+      "key": "tosteo-score",
+      "title": "Osteoporosis screening (SCORE)"
+     },
+     {
+      "key": "tosteo-orai",
+      "title": "Osteoporosis screening (ORAI)"
+     }
+    ],
+    "tests": [],
+    "hp": []
+   },
+   "marks": {
+    "ceee0074": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Klinefelter syndrome"
+    },
+    "ceee0178": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Crohn's disease"
+    },
+    "ceee0241": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Menopause"
+    }
+   }
+  },
+  {
+   "q": "knee pain",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0390",
+      "title": "Knee pain (diagnostic evaluation)"
+     },
+     {
+      "key": "ceee0402",
+      "title": "Patellofemoral syndrome"
+     },
+     {
+      "key": "ceee0703",
+      "title": "Osteoarthritis"
+     },
+     {
+      "key": "ceee0389",
+      "title": "Knee injury (ligamentous and meniscal)"
+     },
+     {
+      "key": "ceee0611",
+      "title": "Knee injection (procedure)"
+     },
+     {
+      "key": "ceee0388",
+      "title": "Hip pain"
+     },
+     {
+      "key": "ceee0781",
+      "title": "Pain management (chronic non-malignant)"
+     },
+     {
+      "key": "ceee0397",
+      "title": "Osteochondritis dissecans"
+     },
+     {
+      "key": "ceee0795",
+      "title": "Dislocation (patella and knee)"
+     },
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0396",
+      "title": "Neck pain"
+     },
+     {
+      "key": "ceee0454",
+      "title": "Regional pain syndrome"
+     },
+     {
+      "key": "ceee0162",
+      "title": "Abdominal pain (adult)"
+     },
+     {
+      "key": "ceee0804",
+      "title": "Fracture (leg)"
+     },
+     {
+      "key": "ceee0824",
+      "title": "Tendon injuries (rupture and laceration)"
+     },
+     {
+      "key": "ceee0383",
+      "title": "Child with a limp"
+     },
+     {
+      "key": "ceee0707",
+      "title": "Calcium Pyrophosphate Deposition Disease (CPPD) or Pseudogout"
+     },
+     {
+      "key": "ceee0060",
+      "title": "Cerebral palsy"
+     },
+     {
+      "key": "ceee0374",
+      "title": "Achilles tendinitis"
+     },
+     {
+      "key": "ceee0377",
+      "title": "Avascular necrosis"
+     }
+    ],
+    "risk": [],
+    "tests": [
+     {
+      "key": "d__Musculoskeletal___Knee_pain___internal_derangement__",
+      "title": "Knee pain → internal derangement"
+     },
+     {
+      "key": "d__Musculoskeletal___Knee_pain__child____internal_derangement__",
+      "title": "Knee pain (child) → internal derangement"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Rheumatology___Knee_pain___osteoarthritis__",
+      "title": "Knee pain → osteoarthritis"
+     },
+     {
+      "key": "s__Musculoskeletal___Knee_pain___internal_derangement__",
+      "title": "Knee pain → internal derangement"
+     },
+     {
+      "key": "s__Musculoskeletal___Knee_pain___patellofemoral_pain_syndrome__",
+      "title": "Knee pain → patellofemoral pain syndrome"
+     },
+     {
+      "key": "s__Musculoskeletal___Knee_pain___medial_collateral_ligament_lesion__",
+      "title": "Knee pain → medial collateral ligament lesion"
+     },
+     {
+      "key": "s__Musculoskeletal___Knee_pain__child____internal_derangement__",
+      "title": "Knee pain (child) → internal derangement"
+     }
+    ]
+   },
+   "marks": {}
+  },
+  {
+   "q": "ankle sprain",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0787",
+      "title": "Ankle injury"
+     },
+     {
+      "key": "ceee0801",
+      "title": "Fracture (foot and toes)"
+     },
+     {
+      "key": "ceee0397",
+      "title": "Osteochondritis dissecans"
+     },
+     {
+      "key": "ceee0061",
+      "title": "Charcot-Marie-Tooth syndrome"
+     },
+     {
+      "key": "ceee0824",
+      "title": "Tendon injuries (rupture and laceration)"
+     },
+     {
+      "key": "ceee0375",
+      "title": "Achilles tendon rupture"
+     },
+     {
+      "key": "ceee0804",
+      "title": "Fracture (leg)"
+     },
+     {
+      "key": "ceee0782",
+      "title": "Sports preparticipation examination"
+     },
+     {
+      "key": "ceee0060",
+      "title": "Cerebral palsy"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tottawa-ankle",
+      "title": "Ottawa ankle rule"
+     },
+     {
+      "key": "tottawa-foot",
+      "title": "Ottawa foot rule"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Musculoskeletal___Ankle_injury_and_abnormal_Ottawa_Ankle_Rule___fracture__",
+      "title": "Ankle injury and abnormal Ottawa Ankle Rule → fracture"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Trauma___Ankle_pain___ankle_fracture__",
+      "title": "Ankle pain → ankle fracture"
+     },
+     {
+      "key": "s__Musculoskeletal___Ankle_pain___synovial_impingement__",
+      "title": "Ankle pain → synovial impingement"
+     },
+     {
+      "key": "s__Trauma___Foot_pain___foot_fracture__",
+      "title": "Foot pain → foot fracture"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0060": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 9,
+     "title": "Cerebral palsy"
+    },
+    "ceee0061": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Charcot-Marie-Tooth syndrome"
+    },
+    "ceee0375": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Achilles tendon rupture"
+    },
+    "ceee0397": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Osteochondritis dissecans"
+    },
+    "ceee0804": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Fracture (leg)"
+    },
+    "ceee0824": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Tendon injuries (rupture and laceration)"
+    }
+   }
+  },
+  {
+   "q": "otitis media",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0108",
+      "title": "Otitis media (acute)"
+     },
+     {
+      "key": "ceee0109",
+      "title": "Otitis media (chronic serous)"
+     },
+     {
+      "key": "ceee0104",
+      "title": "Mastoiditis"
+     },
+     {
+      "key": "ceee0107",
+      "title": "Otitis externa"
+     },
+     {
+      "key": "ceee0458",
+      "title": "Speech problem and delay"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     },
+     {
+      "key": "ceee0095",
+      "title": "Cerumen impaction"
+     },
+     {
+      "key": "ceee0113",
+      "title": "Pharyngitis"
+     },
+     {
+      "key": "ceee0094",
+      "title": "Temporomandibular joint syndrome"
+     },
+     {
+      "key": "ceee0062",
+      "title": "Cleft lip and palate"
+     },
+     {
+      "key": "ceee0526",
+      "title": "Conjunctivitis (infectious)"
+     },
+     {
+      "key": "ceee0067",
+      "title": "Down syndrome"
+     },
+     {
+      "key": "ceee0087",
+      "title": "Turner syndrome"
+     },
+     {
+      "key": "ceee0784",
+      "title": "Well child care visits"
+     },
+     {
+      "key": "ceee0898",
+      "title": "Foreign body (nasal and ear)"
+     },
+     {
+      "key": "ceee0111",
+      "title": "Otosclerosis"
+     },
+     {
+      "key": "ceee0001",
+      "title": "Allergic rhinitis"
+     },
+     {
+      "key": "ceee0722",
+      "title": "Atopic dermatitis and eczema"
+     },
+     {
+      "key": "ceee0548",
+      "title": "Colic"
+     },
+     {
+      "key": "ceee0069",
+      "title": "Fragile X syndrome"
+     }
+    ],
+    "risk": [],
+    "tests": [
+     {
+      "key": "d__ENT___Otitis_media__chronic____glue_ear__",
+      "title": "Otitis media (chronic) → glue ear"
+     },
+     {
+      "key": "d__ENT___Otitis_media__persistent_or_recurrent____effusion__",
+      "title": "Otitis media (persistent or recurrent) → effusion"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__ENT___AOM_suspected___acute_otitis_media__",
+      "title": "AOM suspected → acute otitis media"
+     },
+     {
+      "key": "s__ENT___Otitis_media___middle_ear_effusion__",
+      "title": "Otitis media → middle ear effusion"
+     },
+     {
+      "key": "s__Ophthalmology___Acute_infectious_conjunctivitis___viral_conjunctivitis__",
+      "title": "Acute infectious conjunctivitis → viral conjunctivitis"
+     },
+     {
+      "key": "s__ENT___Sore_throat__children____Group_A_strep_pharyngitis__",
+      "title": "Sore throat (children) → Group A strep pharyngitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0458": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Speech problem and delay"
+    },
+    "ceee0668": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Common cold and acute upper respiratory tract infection"
+    }
+   }
+  },
+  {
+   "q": "pneumonia",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0682",
+      "title": "Pneumonia (aspiration)"
+     },
+     {
+      "key": "ceee0845",
+      "title": "Pneumonia (chlamydia)"
+     },
+     {
+      "key": "ceee0685",
+      "title": "Pneumonia (mycoplasma)"
+     },
+     {
+      "key": "ceee0567",
+      "title": "Pneumonia (pediatric)"
+     },
+     {
+      "key": "ceee0841",
+      "title": "Pneumonia (ventilator-associated or hospital-acquired)"
+     },
+     {
+      "key": "ceee0318",
+      "title": "Pneumonia (Legionnaires')"
+     },
+     {
+      "key": "ceee0683",
+      "title": "Pneumonia (eosinophilic)"
+     },
+     {
+      "key": "ceee0681",
+      "title": "Pneumonia (community acquired)"
+     },
+     {
+      "key": "ceee0680",
+      "title": "Pneumocystis jiroveci pneumonia"
+     },
+     {
+      "key": "ceee0299",
+      "title": "Coccidioidomycosis"
+     },
+     {
+      "key": "ceee0881",
+      "title": "Coronavirus SARS-CoV1 infection (SARS)"
+     },
+     {
+      "key": "ceee0686",
+      "title": "Pulmonary abscess"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0656",
+      "title": "Acute bronchitis"
+     },
+     {
+      "key": "ceee0668",
+      "title": "Common cold and acute upper respiratory tract infection"
+     },
+     {
+      "key": "ceee0861",
+      "title": "Avian influenza"
+     },
+     {
+      "key": "ceee0290",
+      "title": "Blastomycosis"
+     },
+     {
+      "key": "ceee0908",
+      "title": "Mpox (formerly monkeypox)"
+     },
+     {
+      "key": "ceee0276",
+      "title": "Sickle cell anemia"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tpsi",
+      "title": "Pneumonia prognosis (Pneumonia Severity Index)"
+     },
+     {
+      "key": "tsevere-cap-espana",
+      "title": "Severe pneumonia probability (Spanish)"
+     },
+     {
+      "key": "tcap-bacteremia",
+      "title": "Bacteremia in community-acquired pneumonia"
+     },
+     {
+      "key": "tpneumonia-fever-cough-children",
+      "title": "Children with fever and cough: low risk score for pneumonia"
+     },
+     {
+      "key": "tpneumonia-nursing-home-dx",
+      "title": "Diagnosis of pneumonia (nursing home)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Infectious_disease___HIV_infected_patient___pneumocystis_carinii_pneumonia__",
+      "title": "HIV infected patient → pneumocystis carinii pneumonia"
+     },
+     {
+      "key": "d__Pulmonary___Pneumonia_suspected___pneumonia__",
+      "title": "Pneumonia suspected → pneumonia"
+     },
+     {
+      "key": "d__Pulmonary___Pneumonia_suspected__children____bacterial_pneumonia__",
+      "title": "Pneumonia suspected (children) → bacterial pneumonia"
+     },
+     {
+      "key": "d__Pulmonary___Pneumonia_suspected__ventilator_associated____pneumonia__",
+      "title": "Pneumonia suspected (ventilator associated) → pneumonia"
+     },
+     {
+      "key": "d__Infectious_disease___Fever____3_months_old____pneumonia__",
+      "title": "Fever (< 3 months old) → pneumonia"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Infectious_disease___Cough__adult____pneumonia__",
+      "title": "Cough (adult) → pneumonia"
+     },
+     {
+      "key": "s__Infectious_disease___Pneumonia_suspected__1_to_16_yrs____pneumonia__",
+      "title": "Pneumonia suspected (1 to 16 yrs) → pneumonia"
+     },
+     {
+      "key": "s__Infectious_disease___Pneumonia_suspected__2_mos_to_5_yrs____pneumonia__",
+      "title": "Pneumonia suspected (2 mos to 5 yrs) → pneumonia"
+     },
+     {
+      "key": "s__Pediatrics___Acute_illness_in_child__primary_care____serious_bacterial_infection__",
+      "title": "Acute illness in child (primary care) → serious bacterial infection"
+     },
+     {
+      "key": "s__Neurology___Stroke___aspiration__",
+      "title": "Stroke → aspiration"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0681": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Pneumonia (community acquired)"
+    },
+    "d__Infectious_disease___HIV_infected_patient___pneumocystis_carinii_pneumonia__": {
+     "kind": "tests",
+     "m": "low",
+     "rank": 1,
+     "title": "HIV infected patient → pneumocystis carinii pneumonia"
+    },
+    "d__Pulmonary___Pneumonia_suspected___pneumonia__": {
+     "kind": "tests",
+     "m": "high",
+     "rank": 2,
+     "title": "Pneumonia suspected → pneumonia"
+    },
+    "d__Pulmonary___Pneumonia_suspected__children____bacterial_pneumonia__": {
+     "kind": "tests",
+     "m": "high",
+     "rank": 3,
+     "title": "Pneumonia suspected (children) → bacterial pneumonia"
+    },
+    "d__Pulmonary___Pneumonia_suspected__ventilator_associated____pneumonia__": {
+     "kind": "tests",
+     "m": "high",
+     "rank": 4,
+     "title": "Pneumonia suspected (ventilator associated) → pneumonia"
+    }
+   }
+  },
+  {
+   "q": "statins",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0135",
+      "title": "Hyperlipidemia"
+     },
+     {
+      "key": "ceee0126",
+      "title": "Diabetes mellitus (type 1)"
+     },
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0009",
+      "title": "Coronary heart disease"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0405",
+      "title": "Rhabdomyolysis"
+     },
+     {
+      "key": "ceee0026",
+      "title": "Cerebrovascular disease (TIA)"
+     },
+     {
+      "key": "ceee0649",
+      "title": "Acute kidney injury"
+     },
+     {
+      "key": "ceee0199",
+      "title": "Hepatic cirrhosis and chronic liver disease"
+     },
+     {
+      "key": "ceee0010",
+      "title": "Angina (unstable)"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0047",
+      "title": "Peripheral arterial disease"
+     },
+     {
+      "key": "ceee0006",
+      "title": "Aneurysm (abdominal aorta)"
+     },
+     {
+      "key": "ceee0024",
+      "title": "Cerebrovascular disease (acute stroke)"
+     },
+     {
+      "key": "ceee0429",
+      "title": "Dementia (multi-infarct)"
+     },
+     {
+      "key": "ceee0535",
+      "title": "Macular degeneration"
+     },
+     {
+      "key": "ceee0657",
+      "title": "Acute respiratory distress syndrome (ARDS)"
+     },
+     {
+      "key": "ceee0007",
+      "title": "Aneurysm (cerebral)"
+     },
+     {
+      "key": "ceee0008",
+      "title": "Aneurysm (thoracic aorta)"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": []
+   },
+   "marks": {
+    "ceee0009": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 4,
+     "title": "Coronary heart disease"
+    },
+    "ceee0026": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Cerebrovascular disease (TIA)"
+    },
+    "ceee0043": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Myocardial infarction"
+    },
+    "ceee0126": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Diabetes mellitus (type 1)"
+    },
+    "ceee0127": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Diabetes mellitus (type 2)"
+    },
+    "ceee0405": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 6,
+     "title": "Rhabdomyolysis"
+    }
+   }
+  },
+  {
+   "q": "aspirin",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0010",
+      "title": "Angina (unstable)"
+     },
+     {
+      "key": "ceee0024",
+      "title": "Cerebrovascular disease (acute stroke)"
+     },
+     {
+      "key": "ceee0865",
+      "title": "Perioperative management of antithrombotic therapy"
+     },
+     {
+      "key": "ceee0849",
+      "title": "Kawasaki disease"
+     },
+     {
+      "key": "ceee0026",
+      "title": "Cerebrovascular disease (TIA)"
+     },
+     {
+      "key": "ceee0009",
+      "title": "Coronary heart disease"
+     },
+     {
+      "key": "ceee0013",
+      "title": "Atrial fibrillation and flutter"
+     },
+     {
+      "key": "ceee0440",
+      "title": "Headache (tension)"
+     },
+     {
+      "key": "ceee0047",
+      "title": "Peripheral arterial disease"
+     },
+     {
+      "key": "ceee0281",
+      "title": "Thrombophilias"
+     },
+     {
+      "key": "ceee0043",
+      "title": "Myocardial infarction"
+     },
+     {
+      "key": "ceee0126",
+      "title": "Diabetes mellitus (type 1)"
+     },
+     {
+      "key": "ceee0274",
+      "title": "Polycythemia vera and essential thrombocythemia"
+     },
+     {
+      "key": "ceee0183",
+      "title": "Diverticular bleeding"
+     },
+     {
+      "key": "ceee0558",
+      "title": "Intrauterine growth restriction"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0484",
+      "title": "Colorectal cancer"
+     },
+     {
+      "key": "ceee0476",
+      "title": "Hypertensive disorders of pregnancy, including eclampsia and preeclampsia"
+     },
+     {
+      "key": "ceee0045",
+      "title": "Pericardial effusion"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tdapt",
+      "title": "DAPT score"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Oncology___Screening__aspirin_user____colon_CA_or_advanced_adenoma__",
+      "title": "Screening (aspirin user) → colon CA or advanced adenoma"
+     },
+     {
+      "key": "d__Oncology___Screening__non_aspirin_user____colon_CA_or_advanced_adenoma__",
+      "title": "Screening (non aspirin user) → colon CA or advanced adenoma"
+     }
+    ],
+    "hp": []
+   },
+   "marks": {}
+  },
+  {
+   "q": "colon cancer screening",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0484",
+      "title": "Colorectal cancer"
+     },
+     {
+      "key": "ceee0245",
+      "title": "Pelvic mass"
+     },
+     {
+      "key": "ceee0605",
+      "title": "Colonoscopy (procedure)"
+     },
+     {
+      "key": "ceee0510",
+      "title": "Ovarian tumor (malignant)"
+     },
+     {
+      "key": "ceee0488",
+      "title": "Follow-up of the patient with cancer"
+     },
+     {
+      "key": "ceee0518",
+      "title": "Stomach cancer"
+     },
+     {
+      "key": "ceee0256",
+      "title": "Anemia (diagnostic approach)"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0223",
+      "title": "Ulcerative colitis"
+     },
+     {
+      "key": "ceee0522",
+      "title": "Vaginal and vulvar malignancy"
+     },
+     {
+      "key": "ceee0161",
+      "title": "Abdominal mass"
+     },
+     {
+      "key": "ceee0175",
+      "title": "Cholelithiasis"
+     },
+     {
+      "key": "ceee0183",
+      "title": "Diverticular bleeding"
+     },
+     {
+      "key": "ceee0119",
+      "title": "Acromegaly"
+     },
+     {
+      "key": "ceee0618",
+      "title": "Alcohol intoxication and poisoning"
+     },
+     {
+      "key": "ceee0070",
+      "title": "Glucose-6-phosphate dehydrogenase deficiency"
+     },
+     {
+      "key": "ceee0661",
+      "title": "Asbestosis"
+     },
+     {
+      "key": "ceee0079",
+      "title": "Muscular dystrophy"
+     },
+     {
+      "key": "ceee0081",
+      "title": "Neurofibromatosis"
+     },
+     {
+      "key": "ceee0603",
+      "title": "Video capsule endoscopy (procedure)"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tproximal-neoplasia",
+      "title": "Advanced proximal colon neoplasia after sigmoidoscopy"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Oncology___Screening___colon_CA__",
+      "title": "Screening → colon CA"
+     },
+     {
+      "key": "d__Oncology___Screening__any____colon_polyps__",
+      "title": "Screening (any) → colon polyps"
+     },
+     {
+      "key": "d__Oncology___Screening__any____colon_CA__",
+      "title": "Screening (any) → colon CA"
+     }
+    ],
+    "hp": []
+   },
+   "marks": {
+    "ceee0245": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Pelvic mass"
+    },
+    "ceee0256": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Anemia (diagnostic approach)"
+    },
+    "ceee0488": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 5,
+     "title": "Follow-up of the patient with cancer"
+    },
+    "ceee0510": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Ovarian tumor (malignant)"
+    },
+    "ceee0518": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 6,
+     "title": "Stomach cancer"
+    },
+    "ceee0522": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 10,
+     "title": "Vaginal and vulvar malignancy"
+    },
+    "ceee0605": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 3,
+     "title": "Colonoscopy (procedure)"
+    }
+   }
+  },
+  {
+   "q": "prostate cancer screening",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0513",
+      "title": "Prostate cancer"
+     },
+     {
+      "key": "ceee0488",
+      "title": "Follow-up of the patient with cancer"
+     },
+     {
+      "key": "ceee0641",
+      "title": "Hematuria"
+     },
+     {
+      "key": "ceee0368",
+      "title": "Prostatitis (acute)"
+     },
+     {
+      "key": "ceee0074",
+      "title": "Klinefelter syndrome"
+     },
+     {
+      "key": "ceee0783",
+      "title": "Well-Adult Exam"
+     },
+     {
+      "key": "ceee0363",
+      "title": "Incontinence (male)"
+     },
+     {
+      "key": "ceee0480",
+      "title": "Bladder tumors"
+     },
+     {
+      "key": "ceee0175",
+      "title": "Cholelithiasis"
+     },
+     {
+      "key": "ceee0223",
+      "title": "Ulcerative colitis"
+     },
+     {
+      "key": "ceee0652",
+      "title": "Urinary incontinence"
+     },
+     {
+      "key": "ceee0360",
+      "title": "Erectile dysfunction"
+     },
+     {
+      "key": "ceee0149",
+      "title": "Hypothyroidism (adult)"
+     },
+     {
+      "key": "ceee0661",
+      "title": "Asbestosis"
+     },
+     {
+      "key": "ceee0426",
+      "title": "Dementia (Alzheimer’s disease)"
+     },
+     {
+      "key": "ceee0653",
+      "title": "Urinary retention"
+     },
+     {
+      "key": "ceee0633",
+      "title": "Hypoactive sexual disorder (male)"
+     },
+     {
+      "key": "ceee0148",
+      "title": "Hypopituitarism"
+     },
+     {
+      "key": "ceee0193",
+      "title": "Gastrointestinal hemorrhage (lower)"
+     }
+    ],
+    "risk": [],
+    "tests": [
+     {
+      "key": "d__Oncology___Screening__men____prostate_CA__",
+      "title": "Screening (men) → prostate CA"
+     },
+     {
+      "key": "d__Oncology___Screening__initial_PSA___3_0___men____prostate_CA__any___",
+      "title": "Screening (initial PSA < 3.0) (men) → prostate CA (any)"
+     },
+     {
+      "key": "d__Oncology___Screening__initial_PSA___3_0___men____prostate_CA__Gleason____7___",
+      "title": "Screening (initial PSA < 3.0) (men) → prostate CA (Gleason >= 7)"
+     },
+     {
+      "key": "d__Oncology___Screening__initial_PSA___3_0___men____prostate_CA__Gleason____8___",
+      "title": "Screening (initial PSA < 3.0) (men) → prostate CA (Gleason >= 8)"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Oncology___Screening___prostate_cancer__",
+      "title": "Screening → prostate cancer"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0074": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Klinefelter syndrome"
+    }
+   }
+  },
+  {
+   "q": "contraception",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0862",
+      "title": "Contraception"
+     },
+     {
+      "key": "ceee0478",
+      "title": "Termination of pregnancy"
+     },
+     {
+      "key": "ceee0316",
+      "title": "HIV infection and AIDS"
+     },
+     {
+      "key": "ceee0905",
+      "title": "Vasectomy"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0741",
+      "title": "Hirsutism"
+     },
+     {
+      "key": "ceee0836",
+      "title": "Preconception care"
+     },
+     {
+      "key": "ceee0230",
+      "title": "Cervical cancer"
+     },
+     {
+      "key": "ceee0238",
+      "title": "Fibrocystic breast disease"
+     },
+     {
+      "key": "ceee0469",
+      "title": "Hydatidiform mole"
+     },
+     {
+      "key": "ceee0161",
+      "title": "Abdominal mass"
+     },
+     {
+      "key": "ceee0719",
+      "title": "Acne vulgaris"
+     },
+     {
+      "key": "ceee0816",
+      "title": "Bloodborne pathogen exposures"
+     },
+     {
+      "key": "ceee0060",
+      "title": "Cerebral palsy"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0547",
+      "title": "Child abuse and neglect"
+     },
+     {
+      "key": "ceee0126",
+      "title": "Diabetes mellitus (type 1)"
+     },
+     {
+      "key": "ceee0863",
+      "title": "Domestic and intimate partner violence"
+     },
+     {
+      "key": "ceee0639",
+      "title": "Dysuria"
+     },
+     {
+      "key": "ceee0068",
+      "title": "Fetal alcohol syndrome"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": [
+     {
+      "key": "s__Gynecology___PID_suspected___PID__any___",
+      "title": "PID suspected → PID (any)"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0178": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Crohn's disease"
+    },
+    "ceee0316": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "HIV infection and AIDS"
+    },
+    "ceee0741": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 6,
+     "title": "Hirsutism"
+    },
+    "ceee0836": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Preconception care"
+    },
+    "ceee0905": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 4,
+     "title": "Vasectomy"
+    }
+   }
+  },
+  {
+   "q": "smoking cessation",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0837",
+      "title": "Smoking cessation"
+     },
+     {
+      "key": "ceee0667",
+      "title": "Chronic obstructive lung disease (chronic management)"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0740",
+      "title": "Hidradenitis suppurativa"
+     },
+     {
+      "key": "ceee0026",
+      "title": "Cerebrovascular disease (TIA)"
+     },
+     {
+      "key": "ceee0034",
+      "title": "Hypertension (essential)"
+     },
+     {
+      "key": "ceee0497",
+      "title": "Lung cancer"
+     },
+     {
+      "key": "ceee0055",
+      "title": "Thromboangiitis obliterans (Buerger's disease)"
+     },
+     {
+      "key": "ceee0831",
+      "title": "Prenatal care"
+     },
+     {
+      "key": "ceee0047",
+      "title": "Peripheral arterial disease"
+     },
+     {
+      "key": "ceee0689",
+      "title": "Pulmonary nodule"
+     },
+     {
+      "key": "ceee0909",
+      "title": "Cannabis use disorder"
+     },
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0135",
+      "title": "Hyperlipidemia"
+     },
+     {
+      "key": "ceee0009",
+      "title": "Coronary heart disease"
+     },
+     {
+      "key": "ceee0400",
+      "title": "Osteoporosis"
+     },
+     {
+      "key": "ceee0509",
+      "title": "Ovarian tumor (benign)"
+     },
+     {
+      "key": "ceee0656",
+      "title": "Acute bronchitis"
+     },
+     {
+      "key": "ceee0010",
+      "title": "Angina (unstable)"
+     },
+     {
+      "key": "ceee0062",
+      "title": "Cleft lip and palate"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": []
+   },
+   "marks": {
+    "ceee0034": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 6,
+     "title": "Hypertension (essential)"
+    },
+    "ceee0047": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 10,
+     "title": "Peripheral arterial disease"
+    },
+    "ceee0055": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 8,
+     "title": "Thromboangiitis obliterans (Buerger's disease)"
+    },
+    "ceee0127": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Diabetes mellitus (type 2)"
+    },
+    "ceee0497": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Lung cancer"
+    },
+    "ceee0740": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Hidradenitis suppurativa"
+    },
+    "ceee0831": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 9,
+     "title": "Prenatal care"
+    }
+   }
+  },
+  {
+   "q": "obesity",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0564",
+      "title": "Obesity and weight loss (child and adolescent)"
+     },
+     {
+      "key": "ceee0154",
+      "title": "Obesity and weight loss (adult)"
+     },
+     {
+      "key": "ceee0155",
+      "title": "Obesity and weight loss (bariatric surgery)"
+     },
+     {
+      "key": "ceee0894",
+      "title": "Metabolic syndrome"
+     },
+     {
+      "key": "ceee0699",
+      "title": "Gout"
+     },
+     {
+      "key": "ceee0620",
+      "title": "Anorexia, bulimia, and eating disorders"
+     },
+     {
+      "key": "ceee0724",
+      "title": "Cellulitis (non-orbital)"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0067",
+      "title": "Down syndrome"
+     },
+     {
+      "key": "ceee0175",
+      "title": "Cholelithiasis"
+     },
+     {
+      "key": "ceee0121",
+      "title": "Cushing's syndrome"
+     },
+     {
+      "key": "ceee0740",
+      "title": "Hidradenitis suppurativa"
+     },
+     {
+      "key": "ceee0741",
+      "title": "Hirsutism"
+     },
+     {
+      "key": "ceee0029",
+      "title": "Edema"
+     },
+     {
+      "key": "ceee0221",
+      "title": "Non-Alcoholic Fatty Liver Disease"
+     },
+     {
+      "key": "ceee0217",
+      "title": "Peritonitis (secondary)"
+     },
+     {
+      "key": "ceee0692",
+      "title": "Sleep apnea"
+     },
+     {
+      "key": "ceee0478",
+      "title": "Termination of pregnancy"
+     },
+     {
+      "key": "ceee0164",
+      "title": "Abnormal liver function test evaluation"
+     },
+     {
+      "key": "ceee0135",
+      "title": "Hyperlipidemia"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tos-mrs",
+      "title": "Obesity surgery mortality risk score (OS-MRS)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Oncology___Vaginal_bleeding__postmenopausal__DM_____hyperplasia_w_atypia_or_cancer__",
+      "title": "Vaginal bleeding (postmenopausal (DM)) → hyperplasia w/atypia or cancer"
+     },
+     {
+      "key": "d__Oncology___Vaginal_bleeding__postmenopausal__obese_____hyperplasia_w_atypia_or_cancer__",
+      "title": "Vaginal bleeding (postmenopausal (obese)) → hyperplasia w/atypia or cancer"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___Chest_pain___acute_coronary_syndrome__",
+      "title": "Chest pain → acute coronary syndrome"
+     },
+     {
+      "key": "s__Gastrointestinal___Liver_disease___cirrhosis__",
+      "title": "Liver disease → cirrhosis"
+     },
+     {
+      "key": "s__Cardiovascular___Palpitations___clinically_significant_arrhythmia__",
+      "title": "Palpitations → clinically significant arrhythmia"
+     }
+    ]
+   },
+   "marks": {}
+  },
+  {
+   "q": "rash",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0550",
+      "title": "Diaper dermatitis"
+     },
+     {
+      "key": "ceee0896",
+      "title": "Mediterranean spotted fever (Boutonneuse fever)"
+     },
+     {
+      "key": "ceee0573",
+      "title": "Roseola"
+     },
+     {
+      "key": "ceee0313",
+      "title": "Herpes zoster (shingles)"
+     },
+     {
+      "key": "ceee0334",
+      "title": "Rocky Mountain spotted fever"
+     },
+     {
+      "key": "ceee0759",
+      "title": "Pityriasis rosea"
+     },
+     {
+      "key": "ceee0336",
+      "title": "Rubella"
+     },
+     {
+      "key": "ceee0297",
+      "title": "Chickenpox"
+     },
+     {
+      "key": "ceee0897",
+      "title": "Cutaneous T-cell lymphomas: mycosis fungoides and Sézary syndrome"
+     },
+     {
+      "key": "ceee0306",
+      "title": "Ehrlichiosis"
+     },
+     {
+      "key": "ceee0908",
+      "title": "Mpox (formerly monkeypox)"
+     },
+     {
+      "key": "ceee0309",
+      "title": "Hand, foot, and mouth disease"
+     },
+     {
+      "key": "ceee0565",
+      "title": "Parvovirus B19 infection"
+     },
+     {
+      "key": "ceee0321",
+      "title": "Lyme disease"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0003",
+      "title": "Cutaneous drug reaction"
+     },
+     {
+      "key": "ceee0275",
+      "title": "Serum sickness"
+     },
+     {
+      "key": "ceee0885",
+      "title": "Smallpox"
+     },
+     {
+      "key": "ceee0304",
+      "title": "Dengue fever"
+     },
+     {
+      "key": "ceee0578",
+      "title": "Staphylococcal scalded skin syndrome"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": [
+     {
+      "key": "s__Infectious_disease___HIV_suspected___HIV_disease__",
+      "title": "HIV suspected → HIV disease"
+     },
+     {
+      "key": "s__Pediatrics___Acute_illness_in_child__primary_care____serious_bacterial_infection__",
+      "title": "Acute illness in child (primary care) → serious bacterial infection"
+     },
+     {
+      "key": "s__Infectious_disease___Influenza_suspected___influenza__",
+      "title": "Influenza suspected → influenza"
+     },
+     {
+      "key": "s__Rheumatology___SLE_suspected___systemic_lupus_erythematosus__",
+      "title": "SLE suspected → systemic lupus erythematosus"
+     },
+     {
+      "key": "s__ENT___Sore_throat__children____Group_A_strep_pharyngitis__",
+      "title": "Sore throat (children) → Group A strep pharyngitis"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0896": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Mediterranean spotted fever (Boutonneuse fever)"
+    }
+   }
+  },
+  {
+   "q": "gout",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0699",
+      "title": "Gout"
+     },
+     {
+      "key": "ceee0702",
+      "title": "Monoarticular arthritis (diagnostic approach)"
+     },
+     {
+      "key": "ceee0707",
+      "title": "Calcium Pyrophosphate Deposition Disease (CPPD) or Pseudogout"
+     },
+     {
+      "key": "ceee0390",
+      "title": "Knee pain (diagnostic evaluation)"
+     },
+     {
+      "key": "ceee0650",
+      "title": "Renal stones"
+     },
+     {
+      "key": "ceee0649",
+      "title": "Acute kidney injury"
+     },
+     {
+      "key": "ceee0530",
+      "title": "Episcleritis and scleritis"
+     },
+     {
+      "key": "ceee0394",
+      "title": "Metatarsalgia"
+     },
+     {
+      "key": "ceee0703",
+      "title": "Osteoarthritis"
+     },
+     {
+      "key": "ceee0381",
+      "title": "Bunions (hallux valgus)"
+     },
+     {
+      "key": "ceee0724",
+      "title": "Cellulitis (non-orbital)"
+     },
+     {
+      "key": "ceee0731",
+      "title": "Erysipelas"
+     },
+     {
+      "key": "ceee0205",
+      "title": "Hiccups"
+     },
+     {
+      "key": "ceee0742",
+      "title": "Hyperhidrosis and excessive sweating"
+     },
+     {
+      "key": "ceee0880",
+      "title": "Hypoaldosteronism"
+     },
+     {
+      "key": "ceee0611",
+      "title": "Knee injection (procedure)"
+     },
+     {
+      "key": "ceee0594",
+      "title": "Lead poisoning"
+     },
+     {
+      "key": "ceee0398",
+      "title": "Osteomyelitis"
+     },
+     {
+      "key": "ceee0705",
+      "title": "Polyarticular arthritis (diagnostic approach)"
+     },
+     {
+      "key": "ceee0332",
+      "title": "Rheumatic fever"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tgout-janssens",
+      "title": "Gout diagnosis (Janssens rule)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Rheumatology___Joint_pain___gout__",
+      "title": "Joint pain → gout"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Rheumatology___Joint_pain___gout__",
+      "title": "Joint pain → gout"
+     }
+    ]
+   },
+   "marks": {}
+  },
+  {
+   "q": "anemia",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0257",
+      "title": "Anemia (autoimmune hemolytic)"
+     },
+     {
+      "key": "ceee0256",
+      "title": "Anemia (diagnostic approach)"
+     },
+     {
+      "key": "ceee0258",
+      "title": "Anemia (iron deficiency)"
+     },
+     {
+      "key": "ceee0255",
+      "title": "Anemia (aplastic)"
+     },
+     {
+      "key": "ceee0276",
+      "title": "Sickle cell anemia"
+     },
+     {
+      "key": "ceee0891",
+      "title": "Hemolytic disease of the fetus and newborn"
+     },
+     {
+      "key": "ceee0265",
+      "title": "Hereditary spherocytosis"
+     },
+     {
+      "key": "ceee0892",
+      "title": "Thalassemia"
+     },
+     {
+      "key": "ceee0259",
+      "title": "Anemia (megaloblastic)"
+     },
+     {
+      "key": "ceee0070",
+      "title": "Glucose-6-phosphate dehydrogenase deficiency"
+     },
+     {
+      "key": "ceee0638",
+      "title": "Chronic kidney disease"
+     },
+     {
+      "key": "ceee0282",
+      "title": "Thrombotic thrombocytopenic purpura"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0098",
+      "title": "Glossitis"
+     },
+     {
+      "key": "ceee0367",
+      "title": "Priapism"
+     },
+     {
+      "key": "ceee0044",
+      "title": "Orthostatic hypotension"
+     },
+     {
+      "key": "ceee0642",
+      "title": "Hemolytic uremic syndrome"
+     },
+     {
+      "key": "ceee0172",
+      "title": "Celiac disease"
+     },
+     {
+      "key": "ceee0273",
+      "title": "Myelodysplastic syndrome"
+     },
+     {
+      "key": "ceee0565",
+      "title": "Parvovirus B19 infection"
+     }
+    ],
+    "risk": [],
+    "tests": [
+     {
+      "key": "d__Hematology___Anemia__adults____anemia__iron_deficiency___",
+      "title": "Anemia (adults) → anemia (iron deficiency)"
+     },
+     {
+      "key": "d__Hematology___Anemia__cirrhotic_patient____anemia__iron_deficiency___",
+      "title": "Anemia (cirrhotic patient) → anemia (iron deficiency)"
+     },
+     {
+      "key": "d__Hematology___Anemia__elderly____anemia__iron_deficiency___",
+      "title": "Anemia (elderly) → anemia (iron deficiency)"
+     },
+     {
+      "key": "d__Hematology___Anemia___hereditary_spherocytosis__",
+      "title": "Anemia → hereditary spherocytosis"
+     },
+     {
+      "key": "d__Pediatrics___Screening__infant____iron_deficiency__",
+      "title": "Screening (infant) → iron deficiency"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Hematology___Anemia_suspected__child___5_yrs____anemia__",
+      "title": "Anemia suspected (child < 5 yrs) → anemia"
+     },
+     {
+      "key": "s__Hematology___Anemia_suspected___anemia__",
+      "title": "Anemia suspected → anemia"
+     },
+     {
+      "key": "s__Oncology___Bowel_symptoms___colorectal_cancer__",
+      "title": "Bowel symptoms → colorectal cancer"
+     },
+     {
+      "key": "s__Oncology___Rectal_bleeding___colorectal_cancer__",
+      "title": "Rectal bleeding → colorectal cancer"
+     },
+     {
+      "key": "s__Gastrointestinal___Upper_GI_symptoms___esophageal_or_gastric_cancer__",
+      "title": "Upper GI symptoms → esophageal or gastric cancer"
+     }
+    ]
+   },
+   "marks": {}
+  },
+  {
+   "q": "insomnia",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0443",
+      "title": "Insomnia in adults"
+     },
+     {
+      "key": "ceee0786",
+      "title": "Altitude sickness"
+     },
+     {
+      "key": "ceee0154",
+      "title": "Obesity and weight loss (adult)"
+     },
+     {
+      "key": "ceee0857",
+      "title": "Alcohol withdrawal"
+     },
+     {
+      "key": "ceee0620",
+      "title": "Anorexia, bulimia, and eating disorders"
+     },
+     {
+      "key": "ceee0621",
+      "title": "Attention-deficit/hyperactivity disorder"
+     },
+     {
+      "key": "ceee0241",
+      "title": "Menopause"
+     },
+     {
+      "key": "ceee0627",
+      "title": "Opioid use disorder"
+     },
+     {
+      "key": "ceee0837",
+      "title": "Smoking cessation"
+     },
+     {
+      "key": "ceee0120",
+      "title": "Adrenal insufficiency"
+     },
+     {
+      "key": "ceee0582",
+      "title": "Amphetamine toxicity"
+     },
+     {
+      "key": "ceee0257",
+      "title": "Anemia (autoimmune hemolytic)"
+     },
+     {
+      "key": "ceee0586",
+      "title": "Benzodiazepine toxicity"
+     },
+     {
+      "key": "ceee0624",
+      "title": "Depression"
+     },
+     {
+      "key": "ceee0067",
+      "title": "Down syndrome"
+     },
+     {
+      "key": "ceee0698",
+      "title": "Fibromyalgia"
+     },
+     {
+      "key": "ceee0531",
+      "title": "Glaucoma"
+     },
+     {
+      "key": "ceee0675",
+      "title": "Hyperventilation"
+     },
+     {
+      "key": "ceee0445",
+      "title": "Intellectual disabilities (adult)"
+     },
+     {
+      "key": "ceee0626",
+      "title": "Persistent depressive disorder (formerly dysthymia)"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": [
+     {
+      "key": "s__Gynecology___Perimenopause_suspected___perimenopause__",
+      "title": "Perimenopause suspected → perimenopause"
+     },
+     {
+      "key": "s__Psychiatric_or_substance_abuse___Screening___suicidal_ideation__",
+      "title": "Screening → suicidal ideation"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0120": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 10,
+     "title": "Adrenal insufficiency"
+    },
+    "ceee0154": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 3,
+     "title": "Obesity and weight loss (adult)"
+    },
+    "ceee0241": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 7,
+     "title": "Menopause"
+    },
+    "ceee0620": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 5,
+     "title": "Anorexia, bulimia, and eating disorders"
+    },
+    "ceee0621": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 6,
+     "title": "Attention-deficit/hyperactivity disorder"
+    },
+    "ceee0624": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 14,
+     "title": "Depression"
+    },
+    "ceee0627": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 8,
+     "title": "Opioid use disorder"
+    },
+    "ceee0786": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 2,
+     "title": "Altitude sickness"
+    },
+    "ceee0837": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 9,
+     "title": "Smoking cessation"
+    },
+    "ceee0857": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 4,
+     "title": "Alcohol withdrawal"
+    }
+   }
+  },
+  {
+   "q": "chronic kidney disease",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0638",
+      "title": "Chronic kidney disease"
+     },
+     {
+      "key": "ceee0887",
+      "title": "Hypertensive nephropathy"
+     },
+     {
+      "key": "ceee0649",
+      "title": "Acute kidney injury"
+     },
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0034",
+      "title": "Hypertension (essential)"
+     },
+     {
+      "key": "ceee0199",
+      "title": "Hepatic cirrhosis and chronic liver disease"
+     },
+     {
+      "key": "ceee0643",
+      "title": "Hepatorenal syndrome"
+     },
+     {
+      "key": "ceee0647",
+      "title": "Proteinuria"
+     },
+     {
+      "key": "ceee0203",
+      "title": "Hepatitis C"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0178",
+      "title": "Crohn's disease"
+     },
+     {
+      "key": "ceee0426",
+      "title": "Dementia (Alzheimer’s disease)"
+     },
+     {
+      "key": "ceee0058",
+      "title": "Leukocytoclastic vasculitis"
+     },
+     {
+      "key": "ceee0859",
+      "title": "Diabetic nephropathy"
+     },
+     {
+      "key": "ceee0650",
+      "title": "Renal stones"
+     },
+     {
+      "key": "ceee0880",
+      "title": "Hypoaldosteronism"
+     },
+     {
+      "key": "ceee0276",
+      "title": "Sickle cell anemia"
+     },
+     {
+      "key": "ceee0642",
+      "title": "Hemolytic uremic syndrome"
+     },
+     {
+      "key": "ceee0039",
+      "title": "Mesenteric ischemia"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tckd-after-aki",
+      "title": "Risk of chronic kidney disease after acute kidney injury"
+     },
+     {
+      "key": "tckd-framingham",
+      "title": "Chronic kidney disease risk score (Framingham)"
+     },
+     {
+      "key": "tscored",
+      "title": "Chronic kidney disease risk score (NHANES)"
+     },
+     {
+      "key": "tckd-epi-2021",
+      "title": "GFR estimation (CKD-EPI 2021)"
+     }
+    ],
+    "tests": [],
+    "hp": []
+   },
+   "marks": {
+    "ceee0643": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 7,
+     "title": "Hepatorenal syndrome"
+    }
+   }
+  },
+  {
+   "q": "blood clot",
+   "overall": "needs",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0023",
+      "title": "Cavernous sinus thrombosis"
+     },
+     {
+      "key": "ceee0281",
+      "title": "Thrombophilias"
+     },
+     {
+      "key": "ceee0028",
+      "title": "Deep vein thrombosis"
+     },
+     {
+      "key": "ceee0039",
+      "title": "Mesenteric ischemia"
+     },
+     {
+      "key": "ceee0475",
+      "title": "Postpartum hemorrhage"
+     },
+     {
+      "key": "ceee0025",
+      "title": "Cerebrovascular disease (chronic management)"
+     },
+     {
+      "key": "ceee0274",
+      "title": "Polycythemia vera and essential thrombocythemia"
+     },
+     {
+      "key": "ceee0125",
+      "title": "Diabetes mellitus (hyperosmolar coma)"
+     },
+     {
+      "key": "ceee0056",
+      "title": "Thrombophlebitis"
+     },
+     {
+      "key": "ceee0029",
+      "title": "Edema"
+     },
+     {
+      "key": "ceee0641",
+      "title": "Hematuria"
+     },
+     {
+      "key": "ceee0892",
+      "title": "Thalassemia"
+     },
+     {
+      "key": "ceee0687",
+      "title": "Pulmonary embolism"
+     },
+     {
+      "key": "ceee0858",
+      "title": "Chronic obstructive lung disease (acute exacerbation)"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0030",
+      "title": "Endocarditis"
+     },
+     {
+      "key": "ceee0839",
+      "title": "Gastrointestinal hemorrhage (upper, nonvariceal)"
+     },
+     {
+      "key": "ceee0496",
+      "title": "Leukemia (chronic myelocytic)"
+     },
+     {
+      "key": "ceee0052",
+      "title": "Subclavian steal syndrome"
+     },
+     {
+      "key": "ceee0187",
+      "title": "Esophageal varices"
+     }
+    ],
+    "risk": [
+     {
+      "key": "tcvt-score",
+      "title": "Cerebral venous thrombosis score"
+     },
+     {
+      "key": "twells-dvt",
+      "title": "Wells score for DVT"
+     },
+     {
+      "key": "tdutch-dvt",
+      "title": "DVT in primary care (Dutch rule)"
+     },
+     {
+      "key": "tleft-score",
+      "title": "LEFt score"
+     },
+     {
+      "key": "tupper-extremity-dvt",
+      "title": "Upper extremity DVT (Constans score)"
+     }
+    ],
+    "tests": [
+     {
+      "key": "d__Cardiovascular___PVST_suspected___portal_venous_system_thrombosis__",
+      "title": "PVST suspected → portal venous system thrombosis"
+     },
+     {
+      "key": "d__Cardiovascular___DVT_suspected__symptomatic____DVT__all___",
+      "title": "DVT suspected (symptomatic) → DVT (all)"
+     }
+    ],
+    "hp": [
+     {
+      "key": "s__Cardiovascular___DVT_suspected__pregnant____deep_vein_thrombosis__",
+      "title": "DVT suspected (pregnant) → deep vein thrombosis"
+     },
+     {
+      "key": "s__Cardiovascular___DVT_suspected___DVT__",
+      "title": "DVT suspected → DVT"
+     },
+     {
+      "key": "s__Pulmonary___PE_suspected___pulmonary_embolism__",
+      "title": "PE suspected → pulmonary embolism"
+     }
+    ]
+   },
+   "marks": {
+    "ceee0023": {
+     "kind": "chapters",
+     "m": "low",
+     "rank": 1,
+     "title": "Cavernous sinus thrombosis"
+    },
+    "ceee0028": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 3,
+     "title": "Deep vein thrombosis"
+    },
+    "ceee0056": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 9,
+     "title": "Thrombophlebitis"
+    },
+    "ceee0687": {
+     "kind": "chapters",
+     "m": "high",
+     "rank": 13,
+     "title": "Pulmonary embolism"
+    }
+   }
+  },
+  {
+   "q": "more harms than",
+   "overall": "good",
+   "comment": "",
+   "shown": {
+    "chapters": [
+     {
+      "key": "ceee0127",
+      "title": "Diabetes mellitus (type 2)"
+     },
+     {
+      "key": "ceee0904",
+      "title": "Coronavirus SARS-CoV2 infection (COVID-19)"
+     },
+     {
+      "key": "ceee0440",
+      "title": "Headache (tension)"
+     },
+     {
+      "key": "ceee0379",
+      "title": "Back pain (low, chronic)"
+     },
+     {
+      "key": "ceee0837",
+      "title": "Smoking cessation"
+     },
+     {
+      "key": "ceee0719",
+      "title": "Acne vulgaris"
+     },
+     {
+      "key": "ceee0241",
+      "title": "Menopause"
+     },
+     {
+      "key": "ceee0400",
+      "title": "Osteoporosis"
+     },
+     {
+      "key": "ceee0230",
+      "title": "Cervical cancer"
+     },
+     {
+      "key": "ceee0605",
+      "title": "Colonoscopy (procedure)"
+     },
+     {
+      "key": "ceee0620",
+      "title": "Anorexia, bulimia, and eating disorders"
+     },
+     {
+      "key": "ceee0013",
+      "title": "Atrial fibrillation and flutter"
+     },
+     {
+      "key": "ceee0471",
+      "title": "Management of labor"
+     },
+     {
+      "key": "ceee0778",
+      "title": "End-of-life care"
+     },
+     {
+      "key": "ceee0266",
+      "title": "Immune thrombocytopenia purpura"
+     },
+     {
+      "key": "ceee0443",
+      "title": "Insomnia in adults"
+     },
+     {
+      "key": "ceee0176",
+      "title": "Constipation (adult)"
+     },
+     {
+      "key": "ceee0628",
+      "title": "Panic disorder"
+     },
+     {
+      "key": "ceee0116",
+      "title": "Sinusitis (adult, acute)"
+     },
+     {
+      "key": "ceee0652",
+      "title": "Urinary incontinence"
+     }
+    ],
+    "risk": [],
+    "tests": [],
+    "hp": []
+   },
+   "marks": {}
+  }
+ ]
+}

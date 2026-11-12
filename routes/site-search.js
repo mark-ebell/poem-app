@@ -7,7 +7,8 @@ const fs = require('fs');
 const express = require('express');
 const { requireAuth, isReader, poemsOnly } = require('../auth');
 const { quota } = require('../limits');
-const { searchPoems, compileQuery, parseSort } = require('../search');
+const { searchPoems, compileQuery, parseSort, meshGroup } = require('../search');
+const { diagnosesFor, isDiagnosis } = require('../differential-match');
 const { htmlToText } = require('../poem-model');
 const store = require('../chapter-store');
 const { tools } = require('./tools');
@@ -45,6 +46,30 @@ function relevanceParts(q, { title = '', mesh = '', summary = '', text = '' }) {
   return parts;
 }
 const relevance = (q, fields) => Object.values(relevanceParts(q, fields)).reduce((a, b) => a + b, 0);
+// A title "matches" unless every place the search is found is part of a different condition:
+// "Pulmonary hypertension" for hypertension, "Respiratory depression" for depression (the word
+// before it makes a MeSH term of its own, in another group of synonyms). For one-word or
+// one-term searches only. Also used for MeSH topics and reference citations.
+function titleMatches(q, title, query) {
+  if (!q.test(title)) return false;
+  const text = String(query || '').trim();
+  const group = meshGroup(text);
+  if (!group || /\s(AND|OR|NOT)\s|"/.test(text)) return true;
+  const whole = meshGroup(String(title).trim()); // a MeSH topic such as "Hypertension, Pulmonary"
+  if (whole && whole !== group) return false;
+  const terms = [...new Set([text, ...group])];
+  let found = false;
+  for (const t of terms) {
+    const re = new RegExp(q.regexFor(t).source, 'giu');
+    for (const m of String(title).matchAll(re)) {
+      found = true;
+      const before = (title.slice(0, m.index).match(/([\p{L}\p{N}-]+)\s+$/u) || [])[1];
+      const longer = before ? meshGroup(`${before} ${m[0]}`) : null;
+      if (!longer || longer === group) return true;
+    }
+  }
+  return !found; // matched only through synonyms not in the title as such
+}
 const byScore = name => (a, b) => (b.score - a.score) || name(a).localeCompare(name(b));
 
 // ---------- Chapters: the plain text of each chapter, kept until the chapter changes ----------
@@ -74,7 +99,8 @@ function chapterInfo(id) {
   };
   walkBl(chapter.overallBottomLine);
   const pmids = [...new Set((chapter.references || []).map(r => (/^pubmed(\d+)$/.exec(r.id || '') || [])[1]).filter(Boolean))];
-  const info = { key, text: plain(parts.join('\n')), bottomLine: plain(blParts.join('\n')), pmids, topics: '', topicsFor: -1 };
+  const refs = (chapter.references || []).map(r => String(r.short || '')).filter(Boolean);
+  const info = { key, text: plain(parts.join('\n')), bottomLine: plain(blParts.join('\n')), pmids, refs, topics: '', topicsFor: -1 };
   chapterText.set(id, info);
   return info;
 }
@@ -117,14 +143,56 @@ function chapterPmids() {
   return [...ids];
 }
 
-function searchChapters(q) {
+// Chapters are ranked by what the chapter is about, more than by how often it mentions the
+// search (tuned on an editor's review of 40 searches, November 2026). Each is scored for:
+const CHAPTER_WEIGHTS = {
+  titleAll: 30,     // the title has the whole search (all its words, or a synonym)
+  titleTerm: 10,    // each search word or phrase (or synonym) in the title
+  topic: 20,        // one of the chapter's MeSH topics is the whole search
+  topTopic: 10,     // ... and is one of its first three topics
+  diagnosis: 50,    // the chapter is a diagnosis on the differential of the symptom searched for
+  diagnosisMin: 3,  //   (if it mentions the search at least this often: words, up to 20 each)
+  refShare: 100,    // times the share of its references whose citation has the whole search
+  bottomLine: 5,    // the overall bottom line has the whole search
+  mentions: 4,      // times ln(1 + mentions of the search as typed, as a phrase, or a synonym)
+  perWord: 0.1      // each mention of each search word (up to 20 per word)
+};
+function chapterScore(q, query, diagnoses, title, info, topics) {
+  const W = CHAPTER_WEIGHTS, typed = String(query || '').trim();
+  const multi = /\s/.test(typed);
+  const typedWords = new Set(typed.toLowerCase().split(/\s+/));
+  const parts = { title: 0, topics: 0, diagnosis: 0, references: 0, bottomLine: 0, mentions: 0 };
+  const titleOk = titleMatches(q, title, typed);
+  if (titleOk) parts.title += W.titleAll;
+  let words = 0, phrase = 0;
+  for (const t of q.scoreTerms) {
+    const re = q.regexFor(t);
+    if ((titleOk || multi) && re.test(title)) parts.title += W.titleTerm; // ("Sepsis (child)" for fever in children)
+    const n = (info.text.match(new RegExp(re.source, 'giu')) || []).length;
+    words += Math.min(n, 20);
+    if (!multi || !typedWords.has(t.toLowerCase())) phrase += n; // the phrase and synonyms, not single words of it
+  }
+  const list = topics ? topics.split('; ') : [];
+  const topicOk = h => titleMatches(q, h, typed);
+  if (list.some(topicOk)) parts.topics += W.topic;
+  if (list.slice(0, 3).some(topicOk)) parts.topics += W.topTopic;
+  if (words >= W.diagnosisMin && isDiagnosis(title, topics, diagnoses)) parts.diagnosis = W.diagnosis;
+  if (info.refs.length) parts.references = Math.round(W.refShare * info.refs.filter(r => titleMatches(q, r, typed)).length / info.refs.length);
+  if (q.test(info.bottomLine)) parts.bottomLine = W.bottomLine;
+  parts.mentions = Math.round(W.mentions * Math.log1p(phrase) + W.perWord * words);
+  return parts;
+}
+
+function searchChapters(q, query = '') {
+  const diagnoses = diagnosesFor(query);
   const out = [];
   for (const { id, title } of store.chapterIndex()) {
     const info = chapterInfo(id);
     if (!info) continue;
     const mesh = chapterTopics(info);
     if (!q.test(`${title}\n${mesh}\n${info.text}`)) continue;
-    out.push({ id, title, score: relevance(q, { title, mesh, summary: info.bottomLine, text: info.text }) });
+    const parts = chapterScore(q, query, diagnoses, title, info, mesh);
+    out.push({ id, title, score: Object.values(parts).reduce((a, b) => a + b, 0), parts });
   }
   return out.sort(byScore(c => c.title));
 }
@@ -139,7 +207,15 @@ const panelOf = key => calc.panels.find(p => p.key === key) || { tests: [] };
 // each pair that has a matching entry, with all of its entries, matching ones flagged.
 // Pairs are ranked by the presentation and disease (as the title), the major topics of the
 // matching entries' studies, and how many entries match.
-function searchCalculator(key, q) {
+// A presentation that starts with the search ("Dementia", "Pneumonia suspected") adds 20.
+const STARTS_WITH = 20;
+function startsWith(q, text, query) {
+  const typed = String(query || '').trim();
+  if (!typed) return false;
+  const terms = [typed, ...(meshGroup(typed) || [])];
+  return terms.some(t => new RegExp('^\\s*' + q.regexFor(t).source, 'iu').test(text));
+}
+function searchCalculator(key, q, query = '') {
   const pairs = new Map();
   for (const t of panelOf(key).tests) {
     const k = JSON.stringify([t.specialty, t.symptom, t.disease]);
@@ -154,26 +230,28 @@ function searchCalculator(key, q) {
     .filter(p => p.hits)
     .map(p => {
       const items = p.items.sort((a, b) => (b.match - a.match) || a.name.localeCompare(b.name));
-      const score = relevance(q, { title: `${p.symptom}\n${p.disease}`, mesh: [...p.mesh].join('; ') }) + Math.min(p.hits, RELEVANCE.maxMatches);
+      const titleOk = titleMatches(q, p.symptom, query) || titleMatches(q, p.disease, query);
+      const score = relevance(q, { title: titleOk ? `${p.symptom}\n${p.disease}` : '', mesh: [...p.mesh].join('; ') }) + Math.min(p.hits, RELEVANCE.maxMatches)
+        + (startsWith(q, p.symptom, query) ? STARTS_WITH : 0);
       return { specialty: p.specialty, symptom: p.symptom, disease: p.disease, items, score };
     })
     .sort((a, b) => (b.score - a.score) || a.symptom.localeCompare(b.symptom) || a.disease.localeCompare(b.disease) || a.specialty.localeCompare(b.specialty));
 }
 
 // ---------- Risk scores: name, subtitle, clinical question, categories and the study's MeSH major topics ----------
-function searchTools(q) {
+function searchTools(q, query = '') {
   const out = [];
   for (const t of tools.values()) {
     const mesh = majorMeshFor(t.evidence && t.evidence.pmid);
     const text = `${t.title}\n${t.subtitle || ''}\n${t.question || ''}\n${(t.categories || []).join('\n')}`;
     if (!q.test(`${text}\n${mesh}`)) continue;
     out.push({ id: t.id, title: t.title, subtitle: t.subtitle || '',
-      score: relevance(q, { title: `${t.title}\n${t.subtitle || ''}`, mesh, summary: t.question || '', text }) });
+      score: relevance(q, { title: titleMatches(q, t.title, query) ? `${t.title}\n${t.subtitle || ''}` : '', mesh, summary: t.question || '', text }) });
   }
   return out.sort(byScore(t => t.title));
 }
 
-const capped = list => ({ total: list.length, items: list.slice(0, MAX_ITEMS).map(({ score, ...rest }) => rest), truncated: list.length > MAX_ITEMS });
+const capped = list => ({ total: list.length, items: list.slice(0, MAX_ITEMS).map(({ score, parts, ...rest }) => rest), truncated: list.length > MAX_ITEMS });
 
 router.get('/', quota('search'), (req, res) => {
   // Readers with the POEMs only search the POEMs, whatever was asked for.
@@ -187,10 +265,10 @@ router.get('/', quota('search'), (req, res) => {
     if (poems.error) return res.status(400).json({ error: poems.error });
     out.poems = poems;
   }
-  if (want('chapters')) out.chapters = capped(searchChapters(q));
-  if (want('signs')) out.signs = capped(searchCalculator('signsSymptoms', q));
-  if (want('tests')) out.tests = capped(searchCalculator('diagnosticTests', q));
-  if (want('tools')) out.tools = capped(searchTools(q));
+  if (want('chapters')) out.chapters = capped(searchChapters(q, req.query.q));
+  if (want('signs')) out.signs = capped(searchCalculator('signsSymptoms', q, req.query.q));
+  if (want('tests')) out.tests = capped(searchCalculator('diagnosticTests', q, req.query.q));
+  if (want('tools')) out.tools = capped(searchTools(q, req.query.q));
   res.json(out);
 });
 
@@ -201,5 +279,5 @@ module.exports.searchTools = searchTools;
 module.exports.searchChapters = searchChapters;
 module.exports.chapterPmids = chapterPmids;
 // For reviewing the relevance weights (scripts): a chapter's text and topics, and the score parts.
-module.exports.review = { chapterInfo, chapterTopics, relevanceParts, RELEVANCE };
+module.exports.review = { chapterInfo, chapterTopics, relevanceParts, RELEVANCE, CHAPTER_WEIGHTS };
 module.exports.chapterTopics = id => { const i = chapterInfo(id); return i ? chapterTopics(i) : ''; };

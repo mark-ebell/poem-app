@@ -526,4 +526,4 @@ function poemsForSummary(params, { reader = false } = {}) {
 
 const parseSort = v => (v === 'date' ? 'date' : 'relevance');
 
-module.exports = { parseSort, cutoffMonth, buildSearchText, backfillSearchText, searchPoems, compileQuery, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };
+module.exports = { meshGroup, parseSort, cutoffMonth, buildSearchText, backfillSearchText, searchPoems, compileQuery, poemsForExport, poemsForSummary, parseQuery, MAX_EXPORT, MAX_SUMMARY_POEMS, READER_MAX_EXPORT };
