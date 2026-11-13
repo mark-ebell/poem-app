@@ -140,7 +140,8 @@ app.use('/api/search', require('./routes/site-search'));
 app.use('/api/chapter-edit', require('./routes/chapter-edit'));
 app.use(require('./unsubscribe').router);
 // The daily POEM sign-up page (the shareable address): the login screen's daily POEM form.
-app.get('/daily', (req, res) => res.redirect('/?join=daily'));
+// ?lang=it is passed on, so a link can open it in that language.
+app.get('/daily', (req, res) => res.redirect('/?join=daily' + (/^[a-z]{2}$/.test(String(req.query.lang || '')) ? `&lang=${req.query.lang}` : '')));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

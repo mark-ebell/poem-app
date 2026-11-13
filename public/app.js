@@ -14,7 +14,7 @@ const els = {};
   'loginView', 'signupView', 'forgotView', 'resetView', 'showForgot', 'showSignup', 'showLoginFromSignup', 'showLoginFromForgot',
   'signupForm', 'signupEmail', 'signupPassword', 'signupRules', 'signupConfirm', 'signupTerms', 'turnstileBox', 'signupBtn', 'signupError',
   'forgotForm', 'forgotEmail', 'forgotError', 'resetForm', 'resetPassword', 'resetRules', 'resetConfirm', 'resetError',
-  'newPasswordRule', 'showRequestFull', 'signupNote', 'switchToFull', 'switchToDaily',
+  'newPasswordRule', 'signupNote', 'switchToDaily', 'signupSignedIn', 'signupSignedInName', 'signupContinue',
   'dailyEmailRow', 'dailyEmailToggle', 'requestFullBtn', 'fullRequested',
   'requestFullPanel', 'requestFullForm', 'requestFullNote', 'requestFullCancel', 'requestFullError', 'requestFullDone',
   'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'searchHelpBtn', 'searchHelp', 'aboutModal', 'aboutModalBody', 'aboutModalClose', 'settingsToggle', 'logoutBtn',
@@ -93,6 +93,7 @@ function showSignup(plan, notice) {
 }
 
 function showAuthView(name, notice) {
+  if (name !== 'signup') joinPlan = null;
   for (const [key, view] of Object.entries({ login: els.loginView, signup: els.signupView, forgot: els.forgotView, reset: els.resetView })) {
     view.classList.toggle('hidden', key !== name);
   }
@@ -105,7 +106,8 @@ function showAuthView(name, notice) {
 function showLogin(notice) {
   els.loginScreen.classList.remove('hidden');
   els.appRoot.classList.add('hidden');
-  if (joinPlan && !notice) { showSignup(joinPlan); joinPlan = null; return; }
+  // Kept until the reader moves on: the start-up check can show the login screen twice.
+  if (joinPlan && !notice) { showSignup(joinPlan); return; }
   if (hasAccountHere()) showAuthView('login', notice);
   else showSignup('daily', notice);
 }
@@ -177,8 +179,6 @@ fetch('/api/config').then(r => r.json()).then(c => {
 }).catch(() => {});
 
 els.showSignup.addEventListener('click', () => showSignup('daily'));
-els.showRequestFull.addEventListener('click', () => showSignup('full'));
-els.switchToFull.addEventListener('click', () => showSignup('full'));
 els.switchToDaily.addEventListener('click', () => showSignup('daily'));
 els.showForgot.addEventListener('click', () => {
   if (els.loginUsername.value.includes('@')) els.forgotEmail.value = els.loginUsername.value.trim();
@@ -2229,6 +2229,7 @@ function applyRole() {
 }
 
 async function init(user) {
+  joinPlan = null;
   currentUser = user;
   els.wordImport.classList.toggle('hidden', user.username !== 'ebell');
   if (user.username === 'ebell') { loadCalculatorUpload(api, showLogin); loadReaderAdmin(api); }
@@ -2276,8 +2277,21 @@ async function init(user) {
   }
   try {
     const { user } = await api('/me');
+    // The /daily sign-up address opens the sign-up form even in a browser that is logged in
+    // (with a way on to the app), so the shared link always shows what it promises.
+    if (joinPlan) { showJoinWhileSignedIn(user); return; }
     await init(user);
   } catch {
     showLogin();
   }
 })();
+
+function showJoinWhileSignedIn(user) {
+  els.loginScreen.classList.remove('hidden');
+  els.appRoot.classList.add('hidden');
+  showSignup(joinPlan);
+  joinPlan = null;
+  els.signupSignedInName.textContent = user.displayName || user.username;
+  els.signupSignedIn.classList.remove('hidden');
+  els.signupContinue.onclick = () => { els.signupSignedIn.classList.add('hidden'); init(user); };
+}

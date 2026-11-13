@@ -1055,6 +1055,7 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .lang-pick-menu { display: flex; align-items: center; gap: 0.5rem; padding: 10px 16px; font-size: 0.9rem; margin: 0; }
 
 /* Reader accounts: the two sign-up forms, the menu's daily POEM switch, the administrator's list */
+.signed-in-note { margin: 0 0 12px; padding: 8px 10px; background: var(--bg, #f5f6f8); border-radius: 6px; }
 .auth-switch-more { display: inline-block; margin-top: 6px; color: var(--muted); }
 .menu-check { display: flex; align-items: center; gap: 8px; padding: 10px 16px; margin: 0; font-size: 0.95rem; cursor: pointer; }
 .menu-check input { width: auto; margin: 0; }
