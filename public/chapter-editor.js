@@ -8,7 +8,7 @@
 // each such change tracked as a whole row, column or table (class "tc tc-ins" / "tc tc-del"
 // on the element; one change can span several cells, sharing its data-change id).
 // "Insert reference" adds a POEM or PubMed article at the cursor. The
-// review is saved as you work; "Save chapter" (once every change is accepted or rejected)
+// review is saved as you work; "Save and publish" (once every change is accepted or rejected)
 // writes the chapter back as XML, removing references that are no longer cited.
 
 import { markCiteRuns } from './cite-runs.js';
@@ -648,7 +648,7 @@ async function saveChapter() {
   const cited = citedKeys();
   const newReferences = state.newReferences.filter(r => cited.has(r.id));
   const removed = state.references.filter(r => !cited.has(r.id)).length;
-  if (!confirm(`Save this chapter as a new version?${removed ? ` ${removed} reference${removed === 1 ? '' : 's'} no longer cited will be removed and the rest renumbered.` : ''} The chapter's "Last updated" date becomes today.`)) return;
+  if (!confirm(`Publish this chapter now? Readers will see your changes in the Chapters tab immediately.${removed ? ` ${removed} reference${removed === 1 ? '' : 's'} no longer cited will be removed and the rest renumbered.` : ''} The chapter will show "Last updated on" today's date with your name. (Your work in progress is saved automatically as you go; you only need this button when the chapter is ready for readers.)`)) return;
   $('ceSave').disabled = true;
   setStatus('Saving the chapter…');
   try {
@@ -661,7 +661,7 @@ async function saveChapter() {
     }
     dirty = false;
     await openChapter(current.id);
-    setStatus(`Chapter saved (version ${result.version}): ${result.referencesKept} references${result.referencesRemoved ? `, ${result.referencesRemoved} removed` : ''}.`);
+    setStatus(`Chapter published (version ${result.version}): ${result.referencesKept} references${result.referencesRemoved ? `, ${result.referencesRemoved} removed` : ''}.`);
     loadList();
   } catch (err) {
     setStatus(`Not saved: ${err.message}`);

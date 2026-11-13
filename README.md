@@ -198,7 +198,7 @@ The **Edit Chapter** tab is for keeping chapters current (the aim is to update e
 - **Tables**: **Insert table** adds one (you choose columns × rows) after the paragraph or list the cursor is in; **+ Row**, **+ Column**, **− Row**, **− Column** and **− Table** work on the table the cursor is in. Tab and Shift+Tab move between cells (Tab in the last cell adds a row). Each is tracked as a whole row, column or table. The Risk factors and Differential diagnosis tables have fixed columns and take rows only.
 - **Insert reference** adds a citation at the cursor: search PubMed by PMID or words, or POEMs by POEM number or title words.
 - The review is saved as you work, so you can stop and come back; **Discard review** throws it away without changing the chapter.
-- **Save chapter** (allowed once every change is accepted or rejected) saves the chapter as a new version of its XML: references no longer cited are removed, new ones added, all renumbered, and the "Last updated" date becomes today. Every saved version is kept in the database (`chapter_versions`). **Download XML** gives the current version's file, e.g. for the master copy.
+- **Save and publish** (allowed once every change is accepted or rejected) saves the chapter as a new version of its XML: references no longer cited are removed, new ones added, all renumbered, and the top of the chapter shows "Last updated on <date> by <editor>". Readers see the new version immediately; the review in progress is saved automatically as a draft that only editors see. Every saved version is kept in the database (`chapter_versions`). **Download XML** gives the current version's file, e.g. for the master copy.
 
 ### Algorithms
 
