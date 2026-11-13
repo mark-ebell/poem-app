@@ -222,6 +222,7 @@ async function fetchAbstracts(ids) {
 // when it, or one of its subheadings, is a major topic. Articles that PubMed has not indexed
 // yet come back with empty lists. The XML is read with simple patterns rather than a full
 // parser, and 50 articles at a time, to keep memory use small on the server.
+const copyString = s => Buffer.from(s, 'utf8').toString('utf8');
 const xmlText = s => s.replace(/<[^>]*>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
   .replace(/&apos;/g, "'").replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(Number(n))).replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 async function fetchMesh(ids) {
@@ -257,7 +258,9 @@ async function fetchMesh(ids) {
       const suppl = [...art[1].matchAll(/<NameOfSubstance\s+UI="C[^"]*"[^>]*>([\s\S]*?)<\/NameOfSubstance>/g),
         ...art[1].matchAll(/<SupplMeshName[^>]*>([\s\S]*?)<\/SupplMeshName>/g)].map(m => xmlText(m[1]));
       for (const name of suppl) if (name && !terms.includes(name)) terms.push(name);
-      out.set(pmid, { terms, major });
+      // Copies: a piece cut from the XML keeps the whole response in memory (about 20 KB per
+      // article, which ran the server out of memory on 27,000 chapter references).
+      out.set(String(Number(pmid)), { terms: terms.map(copyString), major: major.map(copyString) });
     }
   }
   return out;

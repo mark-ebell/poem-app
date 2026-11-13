@@ -15,6 +15,7 @@ const { buildSearchText } = require('./search');
 
 const RECHECK_DAYS = 7;
 const RECHECK_YEARS = 2;
+const STUDY_CHUNK = 500; // studies looked up and saved together
 const PER_RUN = 500; // POEMs looked up in one pass (10 requests to PubMed)
 
 function poemsToLookUp(limit = PER_RUN) {
@@ -94,18 +95,26 @@ async function updateStudyMesh({ log = console.log } = {}) {
   const have = new Set(db.prepare('SELECT pmid FROM pmid_mesh').all().map(r => r.pmid));
   const missing = studyPmids().filter(id => !have.has(id));
   if (!missing.length) return 0;
-  const found = await fetchMesh(missing);
-  const now = new Date().toISOString();
   const save = db.prepare('INSERT OR REPLACE INTO pmid_mesh (pmid, terms, major, checked_at) VALUES (?, ?, ?, ?)');
-  db.transaction(() => {
-    for (const id of missing) {
-      const m = found.get(id) || { terms: [], major: [] };
-      save.run(id, m.terms.join('; ') || null, m.major.join('; ') || null, now);
-    }
-  })();
+  // 500 at a time, each saved before the next, so a restart carries on where it stopped
+  // and only one part is held in memory.
+  let withMajor = 0;
+  for (let i = 0; i < missing.length; i += STUDY_CHUNK) {
+    const part = missing.slice(i, i + STUDY_CHUNK);
+    const found = await fetchMesh(part);
+    const now = new Date().toISOString();
+    db.transaction(() => {
+      for (const id of part) {
+        const m = found.get(id) || { terms: [], major: [] };
+        if (m.major.length) withMajor++;
+        save.run(id, m.terms.join('; ') || null, m.major.join('; ') || null, now);
+      }
+    })();
+    if (missing.length > STUDY_CHUNK) log(`MeSH: studies ${Math.min(i + STUDY_CHUNK, missing.length)} of ${missing.length} looked up.`);
+  }
   studyMajor = null; // reload on the next search
   studyMeshVersion++;
-  log(`MeSH: looked up ${missing.length} calculator, risk score and chapter reference studies; ${[...found.values()].filter(m => m.major.length).length} have major topics.`);
+  log(`MeSH: looked up ${missing.length} calculator, risk score and chapter reference studies; ${withMajor} have major topics.`);
   return missing.length;
 }
 
