@@ -118,7 +118,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
   <tr><td style="padding: 16px 20px 12px; border-bottom: 1px solid #dcdfe4;">
     <table role="presentation" cellpadding="0" cellspacing="0"><tr>
       <td valign="middle" style="padding-right: 10px;"><a href="${base}/"><img src="${base}/email/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></a></td>
-      <td valign="middle"><a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; text-decoration: none;">InfoRetriever: Daily InfoPOEM</a></td>
+      <td valign="middle"><a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; text-decoration: none; line-height: 1.2; display: inline-block;">InfoRetriever:<br>Daily InfoPOEM</a></td>
     </tr></table>
   </td></tr>
   <tr><td style="padding: 18px 20px 6px;">
