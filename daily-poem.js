@@ -118,13 +118,13 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
   <tr><td style="padding: 16px 20px 12px; border-bottom: 1px solid #dcdfe4;">
     <table role="presentation" cellpadding="0" cellspacing="0"><tr>
       <td valign="middle" style="padding-right: 10px;"><a href="${base}/"><img src="${base}/email/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></a></td>
-      <td valign="middle"><a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; text-decoration: none;">InfoRetriever</a></td>
+      <td valign="middle"><a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; text-decoration: none;">InfoRetriever: Daily InfoPOEM</a></td>
     </tr></table>
   </td></tr>
   <tr><td style="padding: 18px 20px 6px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-      <tr><td style="${FONT} font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: #6b7280; padding-bottom: 6px;">Daily InfoPOEM &middot; ${escapeHtml(longDate(sendDate))}</td></tr>
-      <tr><td style="${FONT} font-size: 21px; line-height: 1.3; font-weight: bold; color: #1f4b6e; padding-bottom: 14px;">${escapeHtml(poem.title)}</td></tr>
+      <tr><td style="${FONT} font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: #6b7280; padding-bottom: 6px;">${escapeHtml(longDate(sendDate))}</td></tr>
+      <tr><td style="${FONT} font-size: 18px; line-height: 1.3; font-weight: bold; color: #1f4b6e; padding-bottom: 14px;">${escapeHtml(poem.title)}</td></tr>
       ${sections}
     </table>
   </td></tr>
@@ -140,7 +140,8 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
 
   const plain = p => p.map(runs => runs.map(r => (r.br ? ' ' : r.text)).join('')).join(' ');
   const text = [
-    `Daily InfoPOEM, ${longDate(sendDate)}`,
+    'InfoRetriever: Daily InfoPOEM',
+    longDate(sendDate),
     '',
     poem.title,
     '',
