@@ -72,6 +72,7 @@ function showReference(n) {
         a.href = '#';
         if (l.poem) a.dataset.poem = l.poem;
         if (l.calc) { a.dataset.calc = l.calc; a.dataset.num = l.num; }
+        if (l.tool) a.dataset.tool = l.tool;
       }
       links.appendChild(a);
     }
@@ -419,7 +420,7 @@ function renderChapter(c) {
     [tr('Algorithms'), c.figures.filter(f => f.kind === 'algorithm').map(f => ({ text: `${tr('Figure {n}.', { n: f.n })} ${f.title}`, data: { fig: f.id } }))],
     [tr('History and physical calculators'), (ds.signs || []).map(x => ({ text: x.label, data: { calc: 'signs', num: x.num } }))],
     [tr('Diagnostic test calculators'), (ds.tests || []).map(x => ({ text: x.label, data: { calc: 'tests', num: x.num } }))],
-    [tr('Risk scores'), (ds.riskScores || []).map(x => ({ text: x.label, href: x.href }))]
+    [tr('Risk scores'), (ds.riskScores || []).map(x => ({ text: x.label, data: { tool: x.tool } }))]
   ].filter(([, items]) => items.length);
   if (groups.length) {
     const det = el('details', 'chapter-section chapter-decision');
@@ -531,6 +532,7 @@ function onChapterClick(e) {
   if (t.dataset.fig) { e.preventDefault(); showFigure(t.dataset.fig); return; }
   if (t.dataset.figImage) { e.preventDefault(); showFigureImage(t.dataset.figImage); return; }
   if (t.dataset.table) { e.preventDefault(); showTable(t.dataset.table); return; }
+  if (t.dataset.tool) { e.preventDefault(); closeInfo(); hooks.openRiskScore(t.dataset.tool); return; }
   const href = t.getAttribute('href') || '';
   if (href.startsWith('#ref-')) {
     e.preventDefault();

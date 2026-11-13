@@ -172,6 +172,7 @@ function drawable(cells) {
 function linkHtml(link) {
   if (link.href) return `<a href="${esc(link.href)}" target="_blank" rel="noopener">${esc(link.label)}</a>`;
   if (link.poem) return `<a href="#" data-poem="${esc(link.poem)}">${esc(link.label)}</a>`;
+  if (link.rule) return `<a href="#" class="tool-link tool-ref" data-rule="${esc(link.rule)}">${esc(link.label)}</a>`;
   return `<a href="#" data-calc="${esc(link.calc)}" data-num="${esc(link.num)}">${esc(link.label)}</a>`;
 }
 
@@ -236,6 +237,7 @@ class Chapter {
         if ((m = /^info:wiley\/eep-dx\/(\d+)/.exec(href))) info.calc = ['tests', m[1]];
         if ((m = /^info:wiley\/eep-hp\/(\d+)/.exec(href))) info.calc = ['signs', m[1]];
         if ((m = /^info:wiley\/cochrane\/(CD\d+)/.exec(href))) info.cochrane = m[1];
+        if ((m = /^info:wiley\/eep-rule\/(\d+)/.exec(href))) info.rule = m[1];
       }
       // A link to a calculator that is not in the calculator data would go nowhere: leave it out.
       if (info.calc && !this.calcLabels[info.calc[0]].has(Number(info.calc[1]))) {
@@ -332,6 +334,7 @@ class Chapter {
     if (info.poem) links.push({ label: 'POEM', poem: info.poem });
     if (info.calc) links.push({ label: info.calc[0] === 'signs' ? 'H & P calculator' : 'Tests calculator', calc: info.calc[0], num: info.calc[1] });
     if (info.cochrane) links.push({ label: 'Cochrane Library', href: cochraneUrl(info.cochrane) });
+    if (info.rule) links.push({ label: 'Risk score', rule: info.rule }); // to its risk score, if there is one (routes/chapters.js)
     if (info.url && !info.pmid) links.push({ label: 'Web site', href: safeUrl(info.url) });
     return links;
   }
@@ -370,6 +373,14 @@ class Chapter {
       return ` <button type="button" class="sort-tag" data-sort="${esc(rating)}">(SORT ${esc(rating)})</button>`;
     }
     if (tag === 'xref') { // one id, or several separated by spaces
+      // A link to an EE+ decision rule (ref "rule382", its text the rule's name): the risk
+      // score's name, linked (filled in by routes/chapters.js from the risk scores), then the
+      // citation. The citation keeps the text, so a save in Edit Chapter writes it back.
+      const rule = /^rule(\d+)$/.exec((attr(c, 'ref') || '').trim());
+      if (rule && this.refs.has(rule[0])) {
+        const label = esc(textOf(c).trim());
+        return `${label ? `<a href="#" class="tool-link" data-rule="${rule[1]}">${label}</a>` : ''} ${this.refLink(this.refs.get(rule[0])).replace('<a ', `<a data-label="${label}" `)}`;
+      }
       return (attr(c, 'ref') || '').split(/\s+/).filter(Boolean).map(ref => {
         if (this.figures.has(ref)) return `<a href="#" class="fig-link" data-fig="${esc(ref)}">Figure ${this.figures.get(ref)}</a>`;
         if (this.tables.has(ref)) return `<a href="#" class="table-link" data-table="${esc(ref)}">Table ${this.tables.get(ref)}</a>`;
@@ -377,6 +388,11 @@ class Chapter {
         this.problems.push(`link to '${ref}', which is not in the references`);
         return '';
       }).join('');
+    }
+    if (tag === 'resourceLink') { // a named link to an EE+ decision rule: to its risk score (routes/chapters.js)
+      const rule = /^info:wiley\/eep-rule\/(\d+)/.exec(attr(c, 'href') || '');
+      if (rule) return `<a href="#" class="tool-link tool-named" data-rule="${rule[1]}">${this.inline(c)}</a>`;
+      return this.inline(c);
     }
     if (tag === 'resource') { // older chapters: an inline link with a PMID
       const label = this.inline(c) || 'PubMed';
@@ -590,6 +606,14 @@ class Chapter {
     return parts;
   }
 
+  // The EE+ decision rules the chapter links to (named links) or cites, in order of first mention.
+  rulesFound() {
+    const out = new Set();
+    for (const e of iter(this.root, 'resourceLink')) { const m = /^info:wiley\/eep-rule\/(\d+)/.exec(attr(e, 'href') || ''); if (m) out.add(m[1]); }
+    for (const info of this.refs.values()) if (info.rule) out.add(info.rule);
+    return [...out];
+  }
+
   references() {
     return this.refElements.map(r => this.refs.get(attr(r, 'id') || '')).filter(Boolean).map(info => {
       const links = Chapter.refLinks(info);
@@ -666,9 +690,9 @@ class Chapter {
       sections: this.sections(),
       figures: this.figuresList(),
       tables: this.tablesList(),
-      // Collected while building the sections: the chapter's calculators. Risk scores
-      // will be added here once chapters tag them.
-      decisionSupport: { signs: this.calcFound.signs, tests: this.calcFound.tests, riskScores: [] },
+      // Collected while building the sections: the chapter's calculators; and the EE+
+      // decision rules it links to or cites (routes/chapters.js turns them into risk scores).
+      decisionSupport: { signs: this.calcFound.signs, tests: this.calcFound.tests, riskScores: [], rules: this.rulesFound() },
       references: this.references()
     };
   }

@@ -219,7 +219,7 @@ function render() {
 
 // Citations and SORT ratings are single, non-editable units; citations show their number.
 function prepareAtoms(root) {
-  root.querySelectorAll('a.cite, button.sort-tag, a.fig-link, a.table-link').forEach(a => { a.contentEditable = 'false'; });
+  root.querySelectorAll('a.cite, button.sort-tag, a.fig-link, a.table-link, a.tool-link').forEach(a => { a.contentEditable = 'false'; });
   root.querySelectorAll('.tc-del:not(del)').forEach(e => { e.contentEditable = 'false'; });
   renumber();
 }

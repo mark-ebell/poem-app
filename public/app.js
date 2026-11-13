@@ -2247,7 +2247,8 @@ async function init(user) {
   loadTools(api, user).catch(err => console.error('Risk scores failed to load', err));
   loadChapters(api, {
     showPoemByNumber: num => showPoemPopup(null, { path: `/poems/number/${encodeURIComponent(num)}/view` }),
-    openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); }
+    openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); },
+    openRiskScore: id => { switchTab('tools'); openTool(id); }
   });
   if (!isReader()) loadChapterEditor(api, user);
   if (isReader()) return;

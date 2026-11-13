@@ -74,12 +74,29 @@ class Writer {
     if (tag === 'strong' || tag === 'b') { const e = this.el('strong'); kids(e); parent.appendChild(e); return; }
     if (tag === 'em' || tag === 'i') { const e = this.el('em'); kids(e); parent.appendChild(e); return; }
     if (tag === 'sub' || tag === 'sup') { const e = this.el(tag); kids(e); parent.appendChild(e); return; }
+    // Citations and SORT ratings: one space before each (the page adds one before each, so
+    // without this every save would add another).
+    const oneSpace = () => {
+      while (parent.lastChild && parent.lastChild.nodeType === 3 && !parent.lastChild.nodeValue.trim()) parent.removeChild(parent.lastChild);
+      const prev = parent.lastChild;
+      if (prev && prev.nodeType === 3) prev.nodeValue = prev.nodeValue.replace(/\s*$/, ' ');
+      else if (prev) parent.appendChild(this.doc.createTextNode(' '));
+    };
     if (tag === 'button' && cls.includes('sort-tag')) {
       const rating = String(data.sort || '').toUpperCase();
-      if (SORT.has(rating)) parent.appendChild(this.el('evidence', { rating, system: 'SORT' }, [` ${rating}`]));
+      if (SORT.has(rating)) { oneSpace(); parent.appendChild(this.el('evidence', { rating, system: 'SORT' }, [` ${rating}`])); }
       return;
     }
-    if (tag === 'a' && data.key) { parent.appendChild(this.el('xref', { ref: data.key })); return; }
+    if (tag === 'a' && cls.includes('tool-named')) { // a named link to a risk score (an EE+ decision rule)
+      const e = this.el('resourceLink', { href: `info:wiley/eep-rule/${data.rule}` }); kids(e); parent.appendChild(e); return;
+    }
+    if (tag === 'a' && cls.includes('tool-link')) return; // a risk score's name: written with its citation (data-label)
+    if (tag === 'a' && data.key && data.label) {
+      oneSpace(); // a risk score's name and citation (the name itself is not written)
+      parent.appendChild(this.el('xref', { ref: data.key }, [data.label]));
+      return;
+    }
+    if (tag === 'a' && data.key) { oneSpace(); parent.appendChild(this.el('xref', { ref: data.key })); return; }
     if (tag === 'a' && data.fig) { parent.appendChild(this.el('xref', { ref: data.fig })); return; }
     if (tag === 'a' && data.table) { parent.appendChild(this.el('xref', { ref: data.table })); return; }
     if (tag === 'br') { parent.appendChild(this.doc.createTextNode(' ')); return; }
