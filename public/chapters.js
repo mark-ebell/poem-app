@@ -378,7 +378,11 @@ function renderChapter(c) {
 
   const head = el('div', 'card chapter-head');
   head.appendChild(el('h2', 'chapter-title', c.title));
-  if (c.updated) head.appendChild(el('p', 'hint', tr('Last updated {date}', { date: formatDate(c.updated) })));
+  if (c.updated) {
+    head.appendChild(el('p', 'hint', c.updatedBy
+      ? tr('Last updated on {date} by {name}', { date: formatDate(c.updated), name: c.updatedBy })
+      : tr('Last updated {date}', { date: formatDate(c.updated) })));
+  }
   if (c.authors.length) {
     const box = el('div', 'chapter-people');
     box.appendChild(el('h3', '', c.authors.length === 1 ? 'Author' : 'Authors'));

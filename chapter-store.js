@@ -134,7 +134,11 @@ function liveChapter(id) {
   const live = liveXml(id);
   if (!live) return null;
   const { chapter } = convertCached(live.source === 'version' ? `v${live.version.id}` : `f${id}:${sha(live.xml)}`, live.xml);
-  return { ...chapter, id };
+  if (live.source !== 'version') return { ...chapter, id };
+  // Saved in the Edit Chapter tab: "Last updated on <date> by <editor>" (the date in US
+  // Eastern time, as M/D/YYYY like the chapter files' dates).
+  const updated = new Date(live.version.created_at).toLocaleDateString('en-US', { timeZone: 'America/New_York' });
+  return { ...chapter, id, updated, updatedBy: live.version.created_by };
 }
 
 // Which text a chapter has now, without reading or converting it: its newest saved
