@@ -16,8 +16,8 @@
 //
 // From the command line (on Render: the service's Shell tab):
 //   npm run daily-poem -- schedule          the assigned days and the number of subscribers
-//   npm run daily-poem -- send-test [num] [address]   send now to the administrator (ADMIN_EMAIL)
-//                                                     or the address given: today's POEM, or POEM number num
+//   npm run daily-poem -- send-test [num] [address ...]   send now to the administrator (ADMIN_EMAIL)
+//                                                     or to each address given: today's POEM, or POEM number num
 //   npm run daily-poem -- preview [num]     write the email to daily-poem-preview.html
 const crypto = require('crypto');
 const db = require('./db');
@@ -229,7 +229,8 @@ if (require.main === module) {
   require('dotenv').config({ path: require('path').join(__dirname, '.env') });
   const [cmd, ...rest] = process.argv.slice(2);
   const arg = rest.find(a => /^\d+$/.test(a));
-  const to = rest.find(a => a.includes('@')) || testAddress();
+  const given = rest.flatMap(a => a.split(',')).map(a => a.trim()).filter(a => a.includes('@'));
+  const to = given.length ? given : [testAddress()];
   const pick = () => (arg
     ? db.prepare("SELECT * FROM poems WHERE poem_id = ? ORDER BY publication_date DESC LIMIT 1").get(Number(arg))
     : poemForDay(easternNow().date));
@@ -249,11 +250,14 @@ if (require.main === module) {
         require('fs').writeFileSync('daily-poem-preview.html', email.html);
         console.log(`Wrote daily-poem-preview.html (${email.subject})`);
       } else {
-        await sendMail({ to, subject: `[Test] ${email.subject}`, html: email.html, text: email.text, headers: unsubscribeHeaders(unsubscribeUrl(null)) });
-        console.log(`Sent a test of "${row.title}" to ${to}`);
+        for (const address of to) { // one email each, so no one sees the other addresses
+          await sendMail({ to: address, subject: `[Test] ${email.subject}`, html: email.html, text: email.text, headers: unsubscribeHeaders(unsubscribeUrl(null)) });
+          console.log(`Sent a test of "${row.title}" to ${address}`);
+          if (to.length > 1) await sleep(600);
+        }
       }
     } else {
-      console.log('Usage: npm run daily-poem -- schedule | send-test [POEM number] [address] | preview [POEM number]');
+      console.log('Usage: npm run daily-poem -- schedule | send-test [POEM number] [address ...] | preview [POEM number]');
     }
   })().catch(err => { console.error(err.message); process.exit(1); });
 }

@@ -243,6 +243,7 @@ npm run daily-poem -- schedule            # which POEM goes out on which day, wh
 npm run daily-poem -- send-test           # send today's POEM now to ADMIN_EMAIL, marked [Test]
 npm run daily-poem -- send-test 369649    # send a particular POEM (by POEM number) now
 npm run daily-poem -- send-test 369649 someone@example.org   # to another address
+npm run daily-poem -- send-test 369649 a@example.org b@example.org   # to several addresses, one email each
 npm run daily-poem -- preview 369649      # write daily-poem-preview.html
 ```
 
