@@ -90,6 +90,8 @@ function assignMissingDailyDates() {
 
 // ---------- The email ----------
 const FONT = "font-family: Arial, Helvetica, sans-serif;";
+// The copyright line under the POEM (from 2027, when the emails start: the year it is sent).
+const copyright = d => `Copyright ${Math.max(2027, Number(d.slice(0, 4)))}, Center for Family Medicine Innovation`;
 const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 
 // The email for one day. unsubscribe is the reader's own unsubscribe link (or a stand-in
@@ -123,11 +125,12 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
       <tr><td style="${FONT} font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: #6b7280; padding-bottom: 6px;">${escapeHtml(longDate(sendDate))}</td></tr>
       <tr><td style="${FONT} font-size: 18px; line-height: 1.3; font-weight: bold; color: #1f4b6e; padding-bottom: 14px;">${escapeHtml(poem.title)}</td></tr>
       ${sections}
+      <tr><td style="${FONT} font-size: 13px; line-height: 1.5; color: #6b7280; padding: 4px 0 10px;">${escapeHtml(copyright(sendDate))}</td></tr>
     </table>
   </td></tr>
   <tr><td style="padding: 8px 20px 20px; border-top: 1px solid #dcdfe4;">
     <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; font-style: italic; margin: 12px 0;">${escapeHtml(DISCLAIMER)}</p>
-    <p style="${FONT} font-size: 13px; line-height: 1.5; color: #1b1f23; margin: 0;">Search more than 8,000 POEMs at <a href="${base}/" style="${link} font-weight: bold;">InfoRetriever.org</a>.</p>
+    <p style="${FONT} font-size: 13px; line-height: 1.5; color: #1b1f23; margin: 0;">Search more than 8,000 POEMs at <a href="${base}/" style="${link} font-weight: bold;">InfoRetriever.org</a>. &middot; <a href="${base}/about-poems.html" style="${link}">About POEMs</a></p>
     <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 12px 0 0;">You are receiving this email because you signed up for the Primary Care POEM at InfoRetriever.org. <a href="${escapeHtml(unsubscribe)}" style="color: #6b7280;">Unsubscribe</a></p>
     ${postalAddress() ? `<p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 4px 0 0;">${escapeHtml(postalAddress())}</p>` : ''}
   </td></tr>
@@ -144,10 +147,12 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
     poem.title,
     '',
     ...poem.sections.map(sec => `${sec.label}: ${plain(sec.paragraphs)}`),
+    copyright(sendDate),
     '',
     DISCLAIMER,
     '',
     `More POEMs at ${base}/`,
+    `About POEMs: ${base}/about-poems.html`,
     '',
     'You are receiving this email because you signed up for the Primary Care POEM at InfoRetriever.org.',
     `Unsubscribe: ${unsubscribe}`,
