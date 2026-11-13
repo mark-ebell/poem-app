@@ -90,8 +90,8 @@ function assignMissingDailyDates() {
 
 // ---------- The email ----------
 const FONT = "font-family: Arial, Helvetica, sans-serif;";
-// The copyright line under the POEM (from 2027, when the emails start: the year it is sent).
-const copyright = d => `Copyright ${Math.max(2027, Number(d.slice(0, 4)))}, Center for Family Medicine Innovation`;
+// The copyright line under the POEM.
+const copyright = () => 'Copyright 2027, Center for Family Medicine Innovation';
 const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 
 // The email for one day. unsubscribe is the reader's own unsubscribe link (or a stand-in

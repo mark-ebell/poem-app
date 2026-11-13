@@ -33,9 +33,8 @@ const els = {};
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
 
-// ---------- Footer (the year follows the calendar, so it changes on January 1) ----------
-document.getElementById('siteFooter').textContent =
-  `Copyright Group for Organizational Learning and Development ${new Date().getFullYear()}`;
+// ---------- Footer ----------
+document.getElementById('siteFooter').textContent = 'Copyright 2027, Center for Family Medicine Innovation';
 
 // ---------- Language (i18n.js): a picker on the login screen and in the menu ----------
 {
