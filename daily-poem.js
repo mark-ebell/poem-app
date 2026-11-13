@@ -116,10 +116,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background: #f5f6f8;"><tr><td align="center" style="padding: 16px 8px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width: 640px; background: #ffffff; border: 1px solid #dcdfe4; border-radius: 8px;">
   <tr><td style="padding: 16px 20px 12px; border-bottom: 1px solid #dcdfe4;">
-    <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-      <td valign="middle" style="padding-right: 10px;"><a href="${base}/"><img src="${base}/email/inforetriever.png" width="44" height="46" alt="InfoRetriever golden retriever" style="display: block; border: 0;"></a></td>
-      <td valign="middle"><a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; text-decoration: none; line-height: 1.2; display: inline-block;">InfoRetriever:<br>Daily InfoPOEM</a></td>
-    </tr></table>
+    <a href="${base}/" style="${FONT} color: #1f4b6e; font-weight: bold; font-size: 22px; line-height: 1.25; text-decoration: none; display: block;">Primary Care POEM:<br>Your Clinical Awareness System</a>
   </td></tr>
   <tr><td style="padding: 18px 20px 6px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
@@ -140,7 +137,8 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
 
   const plain = p => p.map(runs => runs.map(r => (r.br ? ' ' : r.text)).join('')).join(' ');
   const text = [
-    'InfoRetriever: Daily InfoPOEM',
+    'Primary Care POEM:',
+    'Your Clinical Awareness System',
     longDate(sendDate),
     '',
     poem.title,
