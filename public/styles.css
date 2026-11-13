@@ -485,6 +485,7 @@ button.secondary:hover:not(:disabled) { background: #e2e6ec; }
 .terms h3 { font-size: 0.95rem; margin: 18px 0 6px; }
 .terms ul { padding-left: 20px; }
 .terms li { margin: 4px 0; }
+.terms > p:first-child { margin-top: 0; } /* a page with its title above the box (About Primary Care POEMs) */
 
 /* --- Diagnostic calculators (Differential Diagnosis, Signs and Symptoms, Diagnostic Tests) --- */
 .calc { --calc-green: #1e7e4f; --calc-green-bg: #e8f5ee; --calc-red: #b3392f; --calc-red-bg: #fbe9e7; --calc-soft: #eff4ff; }

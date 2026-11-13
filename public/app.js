@@ -378,6 +378,13 @@ async function showAbout(page) {
     a.remove();
     if (p && p.tagName === 'P' && !p.textContent.trim()) p.remove();
   });
+  // A page whose title is above the box (About Primary Care POEMs) gets it inside the pop-up.
+  const heading = doc.querySelector('header h1');
+  if (!section.querySelector('h2') && heading) {
+    const h2 = document.createElement('h2');
+    h2.textContent = heading.textContent;
+    section.prepend(h2);
+  }
   const view = document.createElement('article');
   view.className = 'poem-view about-view' + (!currentUser || isReader() ? ' reader-view' : '');
   view.append(...section.childNodes);
