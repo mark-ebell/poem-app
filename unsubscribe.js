@@ -58,10 +58,10 @@ router.get('/unsubscribe', (req, res) => {
   const reader = readerFor(req.query.u, req.query.t);
   if (!reader) return res.status(400).send(badLink);
   if (!reader.daily_email) {
-    return res.send(page('You are unsubscribed', `<p>${escapeHtml(reader.username)} no longer receives the Daily InfoPOEM. To start it again, log in at <a href="${siteUrl()}/">InfoRetriever.org</a> and turn it on in the menu.</p>`));
+    return res.send(page('You are unsubscribed', `<p>${escapeHtml(reader.username)} no longer receives the Primary Care POEM. To start it again, log in at <a href="${siteUrl()}/">InfoRetriever.org</a> and turn it on in the menu.</p>`));
   }
-  res.send(page('Unsubscribe from the Daily InfoPOEM', `
-    <p>Stop sending the Daily InfoPOEM to <b>${escapeHtml(reader.username)}</b>?</p>
+  res.send(page('Unsubscribe from the Primary Care POEM', `
+    <p>Stop sending the Primary Care POEM to <b>${escapeHtml(reader.username)}</b>?</p>
     <form method="post"><button type="submit">Unsubscribe</button></form>
     <p style="font-size: 13px; color: #6b7280;">Your InfoRetriever account stays open; you can turn the email back on in the menu after logging in.</p>`));
 });
@@ -70,7 +70,7 @@ router.post('/unsubscribe', express.urlencoded({ extended: false, limit: '2kb' }
   const reader = readerFor(req.query.u, req.query.t);
   if (!reader) return res.status(400).send(badLink);
   db.prepare('UPDATE users SET daily_email = 0 WHERE id = ?').run(reader.id);
-  res.send(page('You are unsubscribed', `<p>${escapeHtml(reader.username)} will no longer receive the Daily InfoPOEM. To start it again, log in at <a href="${siteUrl()}/">InfoRetriever.org</a> and turn it on in the menu.</p>`));
+  res.send(page('You are unsubscribed', `<p>${escapeHtml(reader.username)} will no longer receive the Primary Care POEM. To start it again, log in at <a href="${siteUrl()}/">InfoRetriever.org</a> and turn it on in the menu.</p>`));
 });
 
 module.exports = { router, unsubscribeUrl, tokenFor };

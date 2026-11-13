@@ -111,7 +111,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
   }).join('\n');
 
   const html = `<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(`Daily InfoPOEM: ${poem.title}`)}</title></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(`Primary Care POEM: ${poem.title}`)}</title></head>
 <body style="margin: 0; padding: 0; background: #f5f6f8;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background: #f5f6f8;"><tr><td align="center" style="padding: 16px 8px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width: 640px; background: #ffffff; border: 1px solid #dcdfe4; border-radius: 8px;">
@@ -128,7 +128,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
   <tr><td style="padding: 8px 20px 20px; border-top: 1px solid #dcdfe4;">
     <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; font-style: italic; margin: 12px 0;">${escapeHtml(DISCLAIMER)}</p>
     <p style="${FONT} font-size: 13px; line-height: 1.5; color: #1b1f23; margin: 0;">Search more than 8,000 POEMs at <a href="${base}/" style="${link} font-weight: bold;">InfoRetriever.org</a>.</p>
-    <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 12px 0 0;">You are receiving this email because you signed up for the Daily InfoPOEM at InfoRetriever.org. <a href="${escapeHtml(unsubscribe)}" style="color: #6b7280;">Unsubscribe</a></p>
+    <p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 12px 0 0;">You are receiving this email because you signed up for the Primary Care POEM at InfoRetriever.org. <a href="${escapeHtml(unsubscribe)}" style="color: #6b7280;">Unsubscribe</a></p>
     ${postalAddress() ? `<p style="${FONT} font-size: 12px; line-height: 1.5; color: #6b7280; margin: 4px 0 0;">${escapeHtml(postalAddress())}</p>` : ''}
   </td></tr>
 </table>
@@ -149,12 +149,12 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
     '',
     `More POEMs at ${base}/`,
     '',
-    'You are receiving this email because you signed up for the Daily InfoPOEM at InfoRetriever.org.',
+    'You are receiving this email because you signed up for the Primary Care POEM at InfoRetriever.org.',
     `Unsubscribe: ${unsubscribe}`,
     ...(postalAddress() ? [postalAddress()] : [])
   ].filter((l, i, a) => !(l === '' && a[i - 1] === '')).join('\n');
 
-  return { subject: `Daily InfoPOEM: ${poem.title}`, html, text };
+  return { subject: `Primary Care POEM: ${poem.title}`, html, text };
 }
 
 // ---------- Sending ----------
