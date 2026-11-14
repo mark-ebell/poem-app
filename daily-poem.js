@@ -92,6 +92,10 @@ function assignMissingDailyDates() {
 const FONT = "font-family: Arial, Helvetica, sans-serif;";
 // The copyright line under the POEM.
 const copyright = () => 'Copyright 2027, Center for Family Medicine Innovation';
+// The IAM POEMs rating page for this POEM: its PubMed ID and the day it was sent (YYYYMMDD).
+// None for a POEM without a PubMed ID.
+const ratingUrl = (row, d) => (/^\d{1,9}$/.test(String(row.pubmed_id || '').trim())
+  ? `https://iampoems.org/?pid=${String(row.pubmed_id).trim()}&pdate=${d.replace(/-/g, '')}` : null);
 const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 
 // The email for one day. unsubscribe is the reader's own unsubscribe link (or a stand-in
@@ -112,6 +116,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
       : `<tr><td style="${FONT} font-size: 15px; line-height: 1.5; color: #1b1f23; padding: 0 0 10px;"><b>${escapeHtml(sec.label)}:</b> ${body}</td></tr>`;
   }).join('\n');
 
+  const rating = ratingUrl(row, sendDate);
   const html = `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(`Primary Care POEM: ${poem.title}`)}</title></head>
 <body style="margin: 0; padding: 0; background: #f5f6f8;">
@@ -125,6 +130,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
       <tr><td style="${FONT} font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: #6b7280; padding-bottom: 6px;">${escapeHtml(longDate(sendDate))}</td></tr>
       <tr><td style="${FONT} font-size: 18px; line-height: 1.3; font-weight: bold; color: #1f4b6e; padding-bottom: 14px;">${escapeHtml(poem.title)}</td></tr>
       ${sections}
+      ${rating ? `<tr><td style="${FONT} font-size: 15px; line-height: 1.5; color: #1b1f23; padding: 6px 0 10px;">Tell us what you think by <a href="${escapeHtml(rating)}" style="${link} font-weight: bold;">rating this POEM</a>. We appreciate your feedback!</td></tr>` : ''}
       <tr><td style="${FONT} font-size: 13px; line-height: 1.5; color: #6b7280; padding: 4px 0 10px;">${escapeHtml(copyright(sendDate))}</td></tr>
     </table>
   </td></tr>
@@ -147,6 +153,7 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
     poem.title,
     '',
     ...poem.sections.map(sec => `${sec.label}: ${plain(sec.paragraphs)}`),
+    ...(rating ? ['', `Tell us what you think by rating this POEM: ${rating}`, 'We appreciate your feedback!', ''] : []),
     copyright(sendDate),
     '',
     DISCLAIMER,
