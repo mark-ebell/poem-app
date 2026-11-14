@@ -11,8 +11,9 @@
 // new ones (from PubMed or POEMs) are added in the order they are first cited, and every
 // reference is renumbered (accessionId acc001, acc002, ...) with the citations updated.
 const { XMLSerializer } = require('@xmldom/xmldom');
-const { parseXml, HEADINGS, key } = require('./chapter-convert');
+const { parseXml, HEADINGS, key, typedOverallOf } = require('./chapter-convert');
 
+const text = t => (t.text !== undefined ? t.text : (t.children || []).map(text).join(''));
 const elements = e => (e ? Array.from(e.childNodes).filter(n => n.nodeType === 1) : []);
 const child = (e, tag) => elements(e).find(c => c.tagName === tag) || null;
 const TEMPLATE_ORDER = Object.keys(HEADINGS);
@@ -47,6 +48,22 @@ class Writer {
     const next = elements(section).find(c => TEMPLATE_ORDER.indexOf(key(c.tagName)) > pos);
     section.insertBefore(e, next || null);
     return e;
+  }
+
+  // Replaces a typed section's content, keeping its <heading>; the page's subheadings
+  // (h4-h6, from nested sections) become nested sections again.
+  typedSection(section, tree) {
+    for (const n of Array.from(section.childNodes)) if (!(n.nodeType === 1 && n.tagName === 'heading')) section.removeChild(n);
+    let target = section;
+    for (const c of tree.children || []) {
+      if (/^h[4-6]$/.test(c.tag || '')) {
+        const title = text(c).trim();
+        target = this.el('section', { type: title }, [this.el('heading', {}, [title])]);
+        section.appendChild(target);
+        continue;
+      }
+      this.append(target, c);
+    }
   }
 
   clear(e) {
@@ -173,6 +190,12 @@ class Writer {
   }
 
   writePart(sectionTag, tag, tree) {
+    // Chapters in the typed-section layout (<section type="Bottom Line"><heading>…) have no
+    // Background > BottomLine: the Overall Bottom Line is written into its own section.
+    if (sectionTag === 'background' && tag === 'BottomLine' && !child(child(this.root, 'topic_text'), 'background')) {
+      const typed = typedOverallOf(this.root);
+      if (typed) return this.typedSection(typed, tree);
+    }
     // A part the chapter does not have yet is only added if something was written in it.
     const section = child(child(this.root, 'topic_text'), sectionTag);
     if (section && !child(section, tag) && empty(tree)) return;

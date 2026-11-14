@@ -716,4 +716,7 @@ function convertChapter(xml, calcLabels = loadCalculatorLabels()) {
   return { chapter, problems: [...new Set(problems)].sort(), unknown };
 }
 
-module.exports = { convertChapter, parseXml, loadCalculatorLabels, HEADINGS, BOTTOM_LINES, TEMPLATE, key, esc, headingFor };
+// The overall Bottom Line <section> of a chapter in the typed-section layout, or null.
+const typedOverallOf = root => Chapter.prototype.typedOverall.call({ root });
+
+module.exports = { convertChapter, parseXml, loadCalculatorLabels, HEADINGS, BOTTOM_LINES, TEMPLATE, key, esc, headingFor, typedOverallOf };
