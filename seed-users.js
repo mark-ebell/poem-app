@@ -18,7 +18,7 @@ const POETS = [
   { username: 'sexton', displayName: 'Sexton' },
   { username: 'lin', displayName: 'Lin' },
   { username: 'tunink', displayName: 'Tunink' },
-  { username: 'lefevre', displayName: 'Lefevre' }
+  { username: 'lefevre', displayName: 'LeFevre' }
 ];
 
 function randomPassword() {

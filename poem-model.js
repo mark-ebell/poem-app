@@ -8,7 +8,7 @@ const PUBMED_BASE = 'https://pubmed.ncbi.nlm.nih.gov/';
 
 // The POETs who can be chosen as an author. Historical POEMs use initials; the ones below
 // are mapped to the full last name used in the app, the rest keep their initials.
-const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant', 'Rowland', 'Rayala', 'Ferenchick', 'Kurotschka', 'Sexton', 'Lin', 'Tunink', 'Lefevre'];
+const VALID_POETS = ['Barry', 'Ebell', 'Shaughnessy', 'Slawson', 'Speer', 'Shrikant', 'Rowland', 'Rayala', 'Ferenchick', 'Kurotschka', 'Sexton', 'Lin', 'Tunink', 'LeFevre'];
 const POET_BY_INITIALS = { HB: 'Barry', ME: 'Ebell', AS: 'Shaughnessy', DS: 'Slawson', LS: 'Speer', LF: 'Speer', NS: 'Shrikant', NK: 'Shrikant' };
 const POEM_STATUSES = ['Initial authoring', 'Ready for review', 'Ready for final edit', 'Published'];
 // Earlier names of two statuses (renamed 11/2026), still accepted from a page loaded before the change.
@@ -26,7 +26,9 @@ const POET_FULL_NAMES = {
   Ferenchick: 'Gary Ferenchick, MD',
   Kurotschka: 'Peter C. Kurotschka, MD, PhD',
   Sexton: 'Sumi Sexton, MD',
-  Lin: 'Kenneth W. Lin, MD, MPH'
+  Lin: 'Kenneth W. Lin, MD, MPH',
+  Tunink: 'Carl Tunink, MD',
+  LeFevre: 'Nick LeFevre, MD'
 };
 const poetFullName = poet => POET_FULL_NAMES[poet] || poet;
 const INITIALS_BY_POET = { Barry: 'HB', Ebell: 'ME', Shaughnessy: 'AS', Slawson: 'DS', Speer: 'LS', Shrikant: 'NS' };
