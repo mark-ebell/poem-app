@@ -131,6 +131,7 @@ app.use('/api', (req, res, next) => { res.set('Cache-Control', 'no-store'); next
 app.use('/api', authRouter);
 app.use('/api/poems', poemsRouter);
 app.use('/api/generate', generateRouter);
+app.use('/api/pdf-copy', require('./routes/pdf-copy'));
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/evidence', require('./routes/evidence'));
 app.use('/api/calculator', require('./routes/calculator'));

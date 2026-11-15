@@ -25,7 +25,7 @@ const els = {};
   'poemModal', 'poemModalBody', 'poemModalClose',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
   'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults', 'browsePrintBtn', 'browsePrintStatus',
-  'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
+  'pdfInput', 'fileStatus', 'driveStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
   'synopsisEditor', 'bottomLineEditor', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
@@ -600,11 +600,35 @@ function applyNewDocumentDefaults() {
   els.statusSelect.value = 'Initial authoring';
 }
 
+// ---------- PDF copy to Google Drive ----------
+// When the server is set up for it (routes/pdf-copy.js), each PDF read here is also saved to
+// Google Drive, in the folder for the new POEM's default publication month (two months ahead).
+let driveEnabled = null;
+async function copyPdfToDrive(file) {
+  els.driveStatus.textContent = '';
+  try {
+    if (driveEnabled === null) driveEnabled = (await api('/pdf-copy')).enabled;
+    if (!driveEnabled) return;
+    const now = new Date();
+    const month = monthValue(new Date(now.getFullYear(), now.getMonth() + 2, 1));
+    els.driveStatus.textContent = 'Saving a copy to Google Drive...';
+    const resp = await fetch(`/api/pdf-copy?name=${encodeURIComponent(file.name)}&month=${month}`, {
+      method: 'POST', headers: { 'Content-Type': 'application/pdf' }, body: file
+    });
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok) throw new Error(data.error || `Request failed (${resp.status}).`);
+    els.driveStatus.textContent = `Copy saved to Google Drive: ${data.folder} / ${data.fileName}`;
+  } catch (err) {
+    els.driveStatus.textContent = `The copy to Google Drive was not saved: ${err.message}`;
+  }
+}
+
 // ---------- PDF extraction ----------
 els.pdfInput.addEventListener('change', async (e) => {
   const file = e.target.files[0];
   extractedText = '';
   els.generateBtn.disabled = true;
+  els.driveStatus.textContent = '';
   if (!file) { els.fileStatus.textContent = ''; return; }
 
   els.fileStatus.textContent = `Reading ${file.name}...`;
@@ -625,6 +649,7 @@ els.pdfInput.addEventListener('change', async (e) => {
     }
     els.fileStatus.textContent = `Extracted ${extractedText.length.toLocaleString()} characters from ${pdf.numPages} page(s).`;
     els.generateBtn.disabled = false;
+    copyPdfToDrive(file);
   } catch (err) {
     console.error(err);
     els.fileStatus.textContent = `Error reading PDF: ${err.message}`;
