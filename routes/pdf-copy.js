@@ -42,7 +42,12 @@ router.post('/', requireEditor, express.raw({ type: () => true, limit: '40mb' })
     let out; try { out = JSON.parse(text); } catch { out = null; }
     if (!resp.ok || !out || !out.ok) {
       console.error('Google Drive copy failed', resp.status, (out && out.error) || text.slice(0, 300));
-      return res.status(502).json({ error: (out && out.error) || 'Google Drive did not accept the file.' });
+      // A web page instead of the script's answer usually means a Google sign-in page (the web app's
+      // access is not "Anyone") or a Google error page; its title says which.
+      const title = (/<title>([^<]*)<\/title>/i.exec(text) || [])[1];
+      const why = out && out.error ? out.error
+        : `Google answered with ${title ? `a page titled "${title.trim()}"` : `status ${resp.status}`} instead of the script's reply. Check that the web app is deployed with Execute as: Me and Who has access: Anyone.`;
+      return res.status(502).json({ error: why });
     }
     res.json({ ok: true, folder, fileName, url: out.url || null });
   } catch (err) {
