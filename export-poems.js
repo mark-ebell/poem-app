@@ -174,7 +174,13 @@ async function buildDocx(rows, meta = {}) {
         children.push(new Paragraph({ spacing: { after: 140 }, children: [...lead, ...docxRuns(runs)] }));
       });
     }
-    children.push(new Paragraph({ spacing: { before: 120, after: 140 }, children: [new TextRun({ text: DISCLAIMER, italics: true })] }));
+    if (meta.internal) {
+      // The Browse tab's month printout is internal: no disclaimer, and room for the editors' comments.
+      children.push(new Paragraph({ spacing: { before: 240 }, children: [new TextRun({ text: 'Missouri comments:', bold: true })] }));
+      for (let i = 0; i < 3; i++) children.push(new Paragraph({ children: [] }));
+    } else {
+      children.push(new Paragraph({ spacing: { before: 120, after: 140 }, children: [new TextRun({ text: DISCLAIMER, italics: true })] }));
+    }
   });
 
   const headerText = meta.description || 'POEMs';

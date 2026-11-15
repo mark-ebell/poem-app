@@ -82,7 +82,7 @@ router.post('/export-month', requireEditor, async (req, res) => {
   if (!rows.length) return res.status(400).json({ error: 'No POEMs to print.' });
   const title = `POEMs written for distribution in ${MONTHS[Number(m[2]) - 1]}, ${m[1]}`;
   try {
-    const buffer = await buildDocx(rows, { description: title, title });
+    const buffer = await buildDocx(rows, { description: title, title, internal: true });
     res.set({
       'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
       'Content-Disposition': `attachment; filename="POEMs ${m[1]}-${m[2]}.docx"`
