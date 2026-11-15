@@ -24,7 +24,7 @@ const els = {};
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
-  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults',
+  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults', 'browsePrintBtn', 'browsePrintStatus',
   'pdfInput', 'fileStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
@@ -1491,6 +1491,7 @@ function updateBrowseFilters() {
 }
 
 let browseSort = { key: 'publicationDate', dir: 'desc' }; // newest first
+let browseMatches = []; // the POEMs listed, in the order shown (for Print Word doc)
 
 function renderBrowse() {
   const year = els.browseYear.value, month = els.browseMonth.value, author = els.browseAuthor.value;
@@ -1512,6 +1513,10 @@ function renderBrowse() {
   });
 
   els.browseCount.textContent = `${matches.length.toLocaleString()} POEM${matches.length === 1 ? '' : 's'}`;
+  browseMatches = matches;
+  // Print Word doc works for one month at a time: a year and a month chosen, and some POEMs listed.
+  els.browsePrintBtn.disabled = !(year && month && matches.length);
+  els.browsePrintStatus.textContent = '';
   els.browseResults.textContent = '';
   if (!matches.length) {
     const p = document.createElement('p');
@@ -1586,6 +1591,40 @@ function renderBrowse() {
 }
 
 [els.browseYear, els.browseMonth, els.browseAuthor, els.browseAge, els.browseStatus].forEach(sel => sel.addEventListener('change', renderBrowse));
+
+// Print Word doc: every POEM listed (with the filters chosen), in the order shown, for one month.
+els.browsePrintBtn.addEventListener('click', async () => {
+  const year = els.browseYear.value, month = els.browseMonth.value;
+  if (!year || !month || !browseMatches.length) return;
+  const monthName = MONTH_NAMES[Number(month) - 1];
+  els.browsePrintBtn.disabled = true;
+  els.browsePrintStatus.textContent = 'Creating the Word document...';
+  try {
+    const resp = await fetch('/api/poems/export-month', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ids: browseMatches.map(p => p.id), month: `${year}-${month}` })
+    });
+    if (resp.status === 401) { showLogin(); throw new Error('Not logged in.'); }
+    if (!resp.ok) {
+      const data = await resp.json().catch(() => ({}));
+      throw new Error(data.error || `Request failed (${resp.status}).`);
+    }
+    const url = URL.createObjectURL(await resp.blob());
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `POEMs for ${monthName} ${year}.docx`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+    els.browsePrintStatus.textContent = `Downloaded ${browseMatches.length} POEM${browseMatches.length === 1 ? '' : 's'}.`;
+  } catch (err) {
+    els.browsePrintStatus.textContent = `Could not create the Word document: ${err.message}`;
+  } finally {
+    els.browsePrintBtn.disabled = false;
+  }
+});
 
 // ---------- Search ----------
 let searchSeq = 0; // ignores the response to a search that has since been superseded

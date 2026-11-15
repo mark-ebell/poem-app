@@ -145,6 +145,14 @@ function docxRuns(runs, base = {}) {
 
 async function buildDocx(rows, meta = {}) {
   const children = [];
+  // An optional document title (e.g. the Browse tab's month printout), above the first POEM.
+  if (meta.title) {
+    children.push(new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 360 },
+      children: [new TextRun({ text: meta.title, bold: true, size: 32 })]
+    }));
+  }
   rows.forEach((row, index) => {
     const poem = describePoem(row, meta);
     children.push(new Paragraph({

@@ -69,6 +69,31 @@ router.post('/export', quota('download'), async (req, res) => {
   }
 });
 
+// Browse tab (editors): the POEMs listed for one month, in the order shown, as a Word file
+// titled "POEMs written for distribution in <Month>, <year>". { ids: [...], month: 'YYYY-MM' }
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+router.post('/export-month', requireEditor, async (req, res) => {
+  const { ids, month } = req.body || {};
+  const m = /^(\d{4})-(0[1-9]|1[0-2])$/.exec(String(month || ''));
+  if (!m) return res.status(400).json({ error: 'Choose one year and one month.' });
+  if (!Array.isArray(ids) || !ids.length || ids.length > 1000) return res.status(400).json({ error: 'No POEMs to print.' });
+  const get = db.prepare('SELECT * FROM poems WHERE id = ?');
+  const rows = ids.map(id => get.get(String(id))).filter(Boolean);
+  if (!rows.length) return res.status(400).json({ error: 'No POEMs to print.' });
+  const title = `POEMs written for distribution in ${MONTHS[Number(m[2]) - 1]}, ${m[1]}`;
+  try {
+    const buffer = await buildDocx(rows, { description: title, title });
+    res.set({
+      'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+      'Content-Disposition': `attachment; filename="POEMs ${m[1]}-${m[2]}.docx"`
+    });
+    res.send(buffer);
+  } catch (err) {
+    console.error('Month export failed', err);
+    res.status(500).json({ error: 'Could not create the document. See the server log.' });
+  }
+});
+
 // A POEM by its POEM number (for links from textbook chapters), formatted for the pop-up.
 // The few numbers used twice in the archive give the most recent POEM.
 router.get('/number/:num/view', quota('view'), (req, res) => {

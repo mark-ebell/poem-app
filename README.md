@@ -112,7 +112,7 @@ The PubMed search string is built in `pubmed.js` from the strategy document ("Ge
 
 ### Browsing the POEMs
 
-The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author, age group and POEM status. It opens on the most recent month. Opening a POEM whose status is Published first asks "Are you sure you want to edit this POEM? It has already been published." Each result shows a short date (e.g. "Dec 26") and the title. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app.
+The **Browse** tab lists every POEM in the repository (the imported archive plus anything written in the app), filtered by publication year, month, author, age group and POEM status. It opens on the most recent month. Opening a POEM whose status is Published first asks "Are you sure you want to edit this POEM? It has already been published." Each result shows a short date (e.g. "Dec 26") and the title. The list on the **Upload** tab shows only the 50 most recent POEMs written in the app. **Print Word doc** (beside the count, enabled only when one year and one month are chosen) downloads every POEM listed, with the other filters applied, in the order shown, as one Word document titled "POEMs written for distribution in <Month>, <year>", each POEM on its own page (`POST /api/poems/export-month`).
 
 ### Importing a monthly batch from Word
 
