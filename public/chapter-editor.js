@@ -31,7 +31,10 @@ let dirty = false;
 let saveTimer = null;
 let pollTimer = null;
 let savedRange = null;   // where "Insert reference" puts the citation
-const undoStacks = new Map(); // part element -> earlier contents
+// Undo and Redo: each step is a list of { part, html } (Accept all touches several parts at once).
+let undoSteps = [];
+let redoSteps = [];
+let typingIn = null, typingAt = 0;
 
 const el = (tag, className, text) => {
   const e = document.createElement(tag);
@@ -131,7 +134,7 @@ async function openChapter(id) {
     return;
   }
   current = data;
-  undoStacks.clear();
+  undoSteps = []; redoSteps = [];
   render();
   loadAlgorithms(api, id, async message => { await openChapter(id); setStatus(message); loadList(); });
   renderPlan();
@@ -297,11 +300,24 @@ const partOf = node => {
   return null;
 };
 
-function snapshot(part) {
-  if (!undoStacks.has(part)) undoStacks.set(part, []);
-  const stack = undoStacks.get(part);
-  if (stack[stack.length - 1] !== part.innerHTML) stack.push(part.innerHTML);
-  if (stack.length > 100) stack.shift();
+// Call before changing one or more parts: their current contents become one Undo step.
+function snapshot(...parts) {
+  parts = parts.filter(Boolean);
+  if (!parts.length) return;
+  const step = parts.map(part => ({ part, html: part.innerHTML }));
+  const last = undoSteps[undoSteps.length - 1];
+  const same = last && last.length === step.length && last.every((x, i) => x.part === step[i].part && x.html === step[i].html);
+  if (!same) undoSteps.push(step);
+  if (undoSteps.length > 200) undoSteps.shift();
+  redoSteps = [];
+  typingIn = null;
+  updateUndoButtons();
+}
+
+function updateUndoButtons() {
+  const live = steps => steps.some(step => step.some(x => x.part.isConnected));
+  $('ceUndo').disabled = !live(undoSteps);
+  $('ceRedo').disabled = !live(redoSteps);
 }
 
 function changed() {
@@ -426,13 +442,18 @@ function mergeDeletions(del) {
 function onBeforeInput(e) {
   const t = e.inputType;
   const part = e.currentTarget;
-  if (t === 'historyUndo') { e.preventDefault(); undo(part); return; }
-  if (t === 'historyRedo') { e.preventDefault(); return; }
-  if (t.startsWith('format')) return; // bold, italic, ... (not tracked)
+  if (t === 'historyUndo') { e.preventDefault(); undo(); return; }
+  if (t === 'historyRedo') { e.preventDefault(); redo(); return; }
+  if (t.startsWith('format')) { snapshot(part); return; } // bold, italic, ... (not tracked)
   const sel = window.getSelection();
   if (!sel.rangeCount) return;
   e.preventDefault();
-  snapshot(part);
+  // Typing in one place is one Undo step until a pause of a second or more.
+  const typing = t === 'insertText' && sel.isCollapsed;
+  if (typing && typingIn === part && Date.now() - typingAt < 1000) { redoSteps = []; updateUndoButtons(); }
+  else snapshot(part);
+  typingIn = typing ? part : null;
+  typingAt = Date.now();
   const ranges = e.getTargetRanges ? e.getTargetRanges() : [];
   const target = () => {
     if (ranges.length) { const r = document.createRange(); r.setStart(ranges[0].startContainer, ranges[0].startOffset); r.setEnd(ranges[0].endContainer, ranges[0].endOffset); return r; }
@@ -486,7 +507,9 @@ function onBeforeInput(e) {
 }
 
 function onKeyDown(e) {
-  if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key.toLowerCase() === 'z') { e.preventDefault(); undo(e.currentTarget); }
+  const key = e.key.toLowerCase();
+  if ((e.metaKey || e.ctrlKey) && ((key === 'z' && e.shiftKey) || key === 'y')) { e.preventDefault(); redo(); return; }
+  if ((e.metaKey || e.ctrlKey) && !e.shiftKey && key === 'z') { e.preventDefault(); undo(); return; }
   if (e.key === 'Tab' && !e.metaKey && !e.ctrlKey && !e.altKey) { // in a table: the next (or previous) cell, as in Word
     const sel = window.getSelection();
     const n = sel.anchorNode && (sel.anchorNode.nodeType === 1 ? sel.anchorNode : sel.anchorNode.parentNode);
@@ -500,13 +523,23 @@ function onKeyDown(e) {
   }
 }
 
-function undo(part) {
-  const stack = undoStacks.get(part);
-  if (!stack || !stack.length) return;
-  part.innerHTML = stack.pop();
-  prepareAtoms(part);
-  changed();
+// Undo puts back the parts' earlier contents and keeps their present contents for Redo.
+function stepBack(from, to) {
+  while (from.length) {
+    const step = from.pop().filter(x => x.part.isConnected);
+    if (!step.length) continue; // the chapter was reloaded since
+    to.push(step.map(({ part }) => ({ part, html: part.innerHTML })));
+    step.forEach(({ part, html }) => { part.innerHTML = html; prepareAtoms(part); });
+    changed();
+    const first = step[0].part;
+    const r = first.getBoundingClientRect();
+    if (r.bottom < 0 || r.top > window.innerHeight) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    break;
+  }
+  updateUndoButtons();
 }
+function undo() { stepBack(undoSteps, redoSteps); }
+function redo() { stepBack(redoSteps, undoSteps); }
 
 // All tracked changes, in order; the current one is highlighted in the review bar.
 function collectChanges() {
@@ -595,7 +628,7 @@ function resolveCurrent(accept) {
 function resolveAll(accept) {
   if (!changes.length) return;
   if (!confirm(`${accept ? 'Accept' : 'Reject'} all ${changes.length} changes?`)) return;
-  $('ceBody').querySelectorAll('.ce-content[contenteditable="true"]').forEach(snapshot);
+  snapshot(...$('ceBody').querySelectorAll('.ce-content[contenteditable="true"]'));
   changes.slice().reverse().forEach(n => resolve(n, accept));
   prepareAtoms($('ceBody'));
   changeIndex = -1;
@@ -717,6 +750,7 @@ function startPolling() {
 }
 
 function updateButtons() {
+  updateUndoButtons();
   const running = !!current && busy(current.job);
   $('ceUpdate').disabled = running;
   $('ceUpdate').textContent = !running ? 'Update with Claude' : current.job.status === 'queued' ? 'In monthly update…' : 'Claude is updating…';
@@ -997,6 +1031,9 @@ $('ceUpdate').addEventListener('click', startUpdate);
 $('ceSave').addEventListener('click', saveChapter);
 $('ceDiscard').addEventListener('click', discardReview);
 $('ceDownload').addEventListener('click', () => { if (current) window.location.href = `/api/chapter-edit/${current.id}/xml`; });
+['ceUndo', 'ceRedo'].forEach(id => $(id).addEventListener('mousedown', e => e.preventDefault())); // keep the cursor where it is
+$('ceUndo').addEventListener('click', undo);
+$('ceRedo').addEventListener('click', redo);
 $('cePrev').addEventListener('click', () => go(-1));
 $('ceNext').addEventListener('click', () => go(1));
 $('ceAccept').addEventListener('click', () => resolveCurrent(true));
@@ -1011,7 +1048,12 @@ $('ceInsertRef').addEventListener('click', openRefDialog);
 });
 [['ceBold', 'bold'], ['ceItalic', 'italic'], ['ceSup', 'superscript'], ['ceSub', 'subscript']].forEach(([id, cmd]) => {
   $(id).addEventListener('mousedown', e => e.preventDefault());
-  $(id).addEventListener('click', () => { document.execCommand(cmd); changed(); });
+  $(id).addEventListener('click', () => {
+    const sel = window.getSelection();
+    snapshot(sel.rangeCount ? partOf(sel.anchorNode) : null);
+    document.execCommand(cmd);
+    changed();
+  });
 });
 document.addEventListener('selectionchange', rememberCursor);
 $('ceBody').addEventListener('click', e => {

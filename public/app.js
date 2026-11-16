@@ -28,7 +28,7 @@ const els = {};
   'pdfInput', 'fileStatus', 'driveStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
-  'synopsisEditor', 'bottomLineEditor', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink',
+  'synopsisEditor', 'bottomLineEditor', 'btnUndo', 'btnRedo', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink', 'btnPastePlain',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
@@ -734,6 +734,7 @@ els.generateBtn.addEventListener('click', async () => {
     } else {
       Object.entries(fields).forEach(([key, value]) => setField(key, value));
     }
+    formHistory.reset();
     els.generateStatus.textContent = 'Draft generated. Review and edit below, then save.';
     switchTab('edit');
   } catch (err) {
@@ -766,16 +767,16 @@ function updatePubmedUrlDisplay() {
 els.pubmedIdInput.addEventListener('input', updatePubmedUrlDisplay);
 
 // ---------- Formatting toolbar ----------
-[els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink,
+[els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink, els.btnPastePlain,
   els.reviewBtn, els.acceptBtn, els.rejectBtn].forEach(btn => {
   btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep focus/selection in editor
 });
 
-els.btnBold.addEventListener('click', () => document.execCommand('bold'));
-els.btnItalic.addEventListener('click', () => document.execCommand('italic'));
-els.btnUnderline.addEventListener('click', () => document.execCommand('underline'));
-els.btnSuper.addEventListener('click', () => document.execCommand('superscript'));
-els.btnSub.addEventListener('click', () => document.execCommand('subscript'));
+els.btnBold.addEventListener('click', () => formHistory.action(() => document.execCommand('bold')));
+els.btnItalic.addEventListener('click', () => formHistory.action(() => document.execCommand('italic')));
+els.btnUnderline.addEventListener('click', () => formHistory.action(() => document.execCommand('underline')));
+els.btnSuper.addEventListener('click', () => formHistory.action(() => document.execCommand('superscript')));
+els.btnSub.addEventListener('click', () => formHistory.action(() => document.execCommand('subscript')));
 
 els.btnLink.addEventListener('click', () => {
   const url = prompt('Link URL (must start with http://, https://, or mailto:)');
@@ -785,7 +786,39 @@ els.btnLink.addEventListener('click', () => {
     alert('Please enter a URL starting with http://, https://, or mailto:');
     return;
   }
-  document.execCommand('createLink', false, trimmed);
+  formHistory.action(() => document.execCommand('createLink', false, trimmed));
+});
+
+// ---------- Paste plain text (Synopsis and Bottom-line) ----------
+// The button, or ⇧⌘V / Ctrl+Shift+V, pastes the clipboard's text without its fonts, colours or links.
+function insertPlainText(text) {
+  text = String(text || '').replace(/\r\n?/g, '\n');
+  if (!text) return;
+  formHistory.action(() => document.execCommand('insertText', false, text));
+}
+els.btnPastePlain.addEventListener('click', async () => {
+  const sel = window.getSelection();
+  if (!sel.rangeCount || !editorContaining(sel.anchorNode)) {
+    alert('Click in the Synopsis or Bottom-line where the text should go, then click Paste plain text.');
+    return;
+  }
+  try {
+    insertPlainText(await navigator.clipboard.readText());
+  } catch {
+    alert('The browser did not allow reading the clipboard. Use ⇧⌘V (Mac) or Ctrl+Shift+V (Windows) instead.');
+  }
+});
+let plainPasteKey = false;
+richEditors.forEach(ed => {
+  ed.el.addEventListener('keydown', e => {
+    plainPasteKey = (e.metaKey || e.ctrlKey) && e.shiftKey && e.key.toLowerCase() === 'v';
+  });
+  ed.el.addEventListener('paste', e => {
+    if (!plainPasteKey) return;
+    plainPasteKey = false;
+    e.preventDefault();
+    insertPlainText(e.clipboardData.getData('text/plain'));
+  });
 });
 
 // ---------- Font name / size ----------
@@ -1071,6 +1104,7 @@ function renderTrackedDiff(ed) {
   ed.el.querySelectorAll('del.tc-del').forEach(d => { d.contentEditable = 'false'; });
   setCaretOffset(ed.el, caret);
   updateTrackButtonsState();
+  formHistory.refresh();
 }
 
 // HTML of an editor with every tracked change accepted (deletions removed,
@@ -1126,8 +1160,106 @@ els.reviewBtn.addEventListener('click', () => {
   richEditors.forEach(ed => { clearTimeout(ed.timer); renderTrackedDiff(ed); });
 });
 
-els.acceptBtn.addEventListener('click', () => richEditors.forEach(acceptAllChanges));
-els.rejectBtn.addEventListener('click', () => richEditors.forEach(rejectAllChanges));
+els.acceptBtn.addEventListener('click', () => formHistory.action(() => richEditors.forEach(acceptAllChanges)));
+els.rejectBtn.addEventListener('click', () => formHistory.action(() => richEditors.forEach(rejectAllChanges)));
+
+// ---------- Undo and Redo (Edit POEMs) ----------
+// The whole form is one history: each step is a copy of every field, both editors' contents
+// and their track-changes state. Typing in one field is one step until a pause of a second;
+// choosing from a list, the formatting buttons and Accept/Reject all are a step each.
+const FORM_FIELDS = ['titleInput', 'poetSelect', 'pubDateSelect', 'statusSelect', 'referenceInput', 'questionInput',
+  'allocationSelect', 'fundingSelect', 'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect',
+  'loeSelect', 'pubmedIdInput'];
+const formHistory = (() => {
+  let undoSteps = [], redoSteps = [], last = null, burst = null, typingIn = null, quiet = false;
+  const capture = () => JSON.stringify({
+    v: FORM_FIELDS.map(k => els[k].value),
+    h: richEditors.map(ed => ed.el.innerHTML),
+    b: richEditors.map(ed => ed.baseline),
+    t: els.trackChangesToggle.checked
+  });
+  const restore = json => {
+    const st = JSON.parse(json);
+    FORM_FIELDS.forEach((k, i) => { els[k].value = st.v[i]; });
+    richEditors.forEach((ed, i) => {
+      clearTimeout(ed.timer);
+      ed.el.innerHTML = st.h[i];
+      ed.baseline = st.b[i];
+      ed.el.querySelectorAll('del.tc-del').forEach(d => { d.contentEditable = 'false'; });
+    });
+    els.trackChangesToggle.checked = st.t;
+    updatePubmedUrlDisplay();
+    updateTrackButtonsState();
+  };
+  const buttons = () => {
+    els.btnUndo.disabled = !undoSteps.length && burst === null;
+    els.btnRedo.disabled = !redoSteps.length;
+  };
+  const push = state => {
+    if (state === null || state === undoSteps[undoSteps.length - 1]) return;
+    undoSteps.push(state);
+    if (undoSteps.length > 200) undoSteps.shift();
+    redoSteps = [];
+  };
+  // Ends a burst of typing: the form as it is now is what the next step starts from.
+  const settle = () => { clearTimeout(burst); burst = null; typingIn = null; last = capture(); buttons(); };
+  const changing = (field, typing) => {
+    if (quiet) return;
+    if (burst === null || !typing || field !== typingIn) {
+      if (burst !== null) { clearTimeout(burst); burst = null; } // straight after other typing: the same step
+      else push(last);
+    }
+    redoSteps = [];
+    typingIn = typing ? field : null;
+    clearTimeout(burst);
+    burst = setTimeout(settle, typing ? 1000 : 0);
+    buttons();
+  };
+  const step = (from, to) => {
+    if (burst !== null) settle();
+    const now = capture();
+    while (from.length && from[from.length - 1] === now) from.pop();
+    if (!from.length) return buttons();
+    to.push(now);
+    restore(from.pop());
+    last = capture();
+    buttons();
+  };
+  els.tabEdit.addEventListener('input', e => {
+    const t = e.target;
+    if (t === els.fontNameSelect || t === els.fontSizeSelect) return; // their change event is the step
+    const typing = !(e.inputType || '').startsWith('format') && t.tagName !== 'SELECT';
+    changing(t.closest('[contenteditable="true"]') || t, typing);
+  }, true);
+  els.tabEdit.addEventListener('change', e => {
+    if (e.target.tagName === 'SELECT' || e.target.type === 'checkbox') changing(e.target, false);
+  }, true);
+  els.tabEdit.addEventListener('keydown', e => {
+    if (!(e.metaKey || e.ctrlKey) || e.altKey) return;
+    const key = e.key.toLowerCase();
+    if (key === 'z' && !e.shiftKey) { e.preventDefault(); step(undoSteps, redoSteps); }
+    else if ((key === 'z' && e.shiftKey) || key === 'y') { e.preventDefault(); step(redoSteps, undoSteps); }
+  }, true);
+  // The program also fills the form (lists loading, defaults): start from what is there when someone begins.
+  els.tabEdit.addEventListener('focusin', () => { if (burst === null) last = capture(); });
+  [els.btnUndo, els.btnRedo].forEach(b => b.addEventListener('mousedown', e => e.preventDefault()));
+  els.btnUndo.addEventListener('click', () => step(undoSteps, redoSteps));
+  els.btnRedo.addEventListener('click', () => step(redoSteps, undoSteps));
+  return {
+    // A change made by a button rather than by typing: one step.
+    action(fn) {
+      if (burst !== null) settle();
+      push(capture());
+      quiet = true;
+      try { fn(); } finally { quiet = false; }
+      settle();
+    },
+    // The form was changed by the program (track-changes marks, saving): no step, but later steps start here.
+    refresh() { if (burst === null) last = capture(); },
+    // A different POEM (or a new one) is open: forget the history.
+    reset() { clearTimeout(burst); burst = null; typingIn = null; undoSteps = []; redoSteps = []; last = capture(); buttons(); }
+  };
+})();
 
 // ---------- Library (server-backed) ----------
 function formatDate(iso) {
@@ -1382,6 +1514,7 @@ async function openDoc(id) {
   updatePubmedUrlDisplay();
   resetTrackingState();
   els.saveStatus.textContent = '';
+  formHistory.reset();
   switchTab('edit');
 }
 
@@ -1390,6 +1523,7 @@ function startNewDocument() {
   resetTrackingState();
   els.saveStatus.textContent = '';
   applyNewDocumentDefaults();
+  formHistory.reset();
 }
 
 function formHasContent() {
@@ -1451,6 +1585,7 @@ async function saveCurrentDoc() {
     if (hadPending) {
       richEditors.forEach(acceptAllChanges);
     }
+    formHistory.refresh();
     els.saveStatus.textContent = hadPending ? 'Saved (pending tracked changes were accepted).' : 'Saved.';
     setTimeout(() => { els.saveStatus.textContent = ''; }, 3000);
     await refreshLibrary();
