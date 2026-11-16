@@ -875,8 +875,21 @@ function applyFontStyle(styleProp, cssValue) {
   if (owner) owner.el.dispatchEvent(new Event('input', { bubbles: true }));
 }
 
-els.fontNameSelect.addEventListener('change', () => applyFontStyle('fontFamily', els.fontNameSelect.value));
-els.fontSizeSelect.addEventListener('change', () => applyFontStyle('fontSize', `${els.fontSizeSelect.value}pt`));
+// Choosing the font or size the list already shows is not a "change" to the browser, so opening a
+// list blanks it for the moment (a hidden empty option): any choice, the same one too, then applies.
+// Closing the list without choosing puts the shown value back.
+[[els.fontNameSelect, v => applyFontStyle('fontFamily', v)], [els.fontSizeSelect, v => applyFontStyle('fontSize', `${v}pt`)]].forEach(([select, apply]) => {
+  let shown = select.value;
+  const blank = () => { if (select.value) { shown = select.value; select.value = ''; } };
+  select.addEventListener('mousedown', blank);
+  select.addEventListener('focus', blank);
+  select.addEventListener('change', () => {
+    if (!select.value) return;
+    shown = select.value;
+    apply(select.value);
+  });
+  select.addEventListener('blur', () => { if (!select.value) select.value = shown; });
+});
 
 // ---------- Track changes: tokenize / diff / render ----------
 function getStyleFlags(node, root) {
