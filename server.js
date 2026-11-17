@@ -28,7 +28,6 @@ if (isProduction) {
   if (!process.env.RESEND_API_KEY) console.warn('Warning: RESEND_API_KEY is not set; reader sign-up emails are only written to the log.');
   if (!turnstileEnabled()) console.warn('Warning: Turnstile keys are not set; the sign-up form has no "are you human" check.');
   if (!process.env.APP_URL) console.warn('Warning: APP_URL is not set; links in reader emails will point to localhost.');
-  if (!process.env.MAIL_POSTAL_ADDRESS) console.warn('Warning: MAIL_POSTAL_ADDRESS is not set; the Daily InfoPOEM needs a postal address in its footer (CAN-SPAM).');
 }
 setInterval(pruneUsage, 60 * 60 * 1000).unref();
 const dailyAssigned = assignMissingDailyDates();

@@ -31,7 +31,9 @@ const SEND_HOUR = 6;
 const sendingOn = () => String(process.env.DAILY_POEM_SENDING || '').trim().toLowerCase() === 'on';
 const testAddress = () => (process.env.ADMIN_EMAIL || 'ebell@msu.edu').trim();
 const siteUrl = () => (process.env.APP_URL || 'https://inforetriever.org').replace(/\/+$/, '');
-const postalAddress = () => String(process.env.MAIL_POSTAL_ADDRESS || '').trim();
+// The Center's postal address; MAIL_POSTAL_ADDRESS in Render, if set, takes its place.
+const POSTAL_ADDRESS = '20 Sewall Woods Rd, Melrose, MA 02176';
+const postalAddress = () => String(process.env.MAIL_POSTAL_ADDRESS || POSTAL_ADDRESS).trim();
 
 // The readers the email goes to.
 const subscribers = () => db.prepare(`SELECT id, username FROM users WHERE role = 'reader' AND email_verified = 1
@@ -91,7 +93,7 @@ function assignMissingDailyDates() {
 // ---------- The email ----------
 const FONT = "font-family: Arial, Helvetica, sans-serif;";
 // The copyright line under the POEM.
-const copyright = () => 'Copyright 2027, Center for Family Medicine Innovation';
+const copyright = () => 'Copyright 2026, Center for Innovation in Family Medicine';
 // The Primary Care Update podcast on Apple Podcasts, linked at the bottom of the email.
 const PODCAST_URL = 'https://podcasts.apple.com/us/podcast/primary-care-update/id1434235197';
 const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });

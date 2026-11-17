@@ -34,7 +34,7 @@ const els = {};
 ].forEach(id => { els[id] = document.getElementById(id); });
 
 // ---------- Footer ----------
-document.getElementById('siteFooter').textContent = 'Copyright 2027, Center for Family Medicine Innovation';
+document.getElementById('siteFooter').textContent = 'Copyright 2026, Center for Innovation in Family Medicine';
 
 // ---------- Language (i18n.js): a picker on the login screen and in the menu ----------
 {
