@@ -1075,3 +1075,5 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .interest-card form label { display: block; margin-bottom: 12px; }
 .interest-card form input[type="email"] { width: 100%; box-sizing: border-box; }
 .interest-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.poems-brand { margin: 0; line-height: 0; }
+.poems-brand img { width: 220px; max-width: 60vw; height: auto; mix-blend-mode: multiply; } /* the logo's white background takes the page colour */
