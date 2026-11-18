@@ -33,9 +33,9 @@ async function refresh() {
       `Administrator: reader accounts${pending.length ? ` (${pending.length} asking for full access)` : ''}`;
     body.innerHTML = `
       <p class="hint">${readers.length} reader account(s): ${full} with full access, ${readers.length - full} with the POEMs only.
-        ${subscribers} receive the daily POEM. Readers sign up for the daily POEM at <b>${esc(location.origin)}/daily</b>
+        ${subscribers} receive Primary Care POEMs. Readers sign up for Primary Care POEMs at <b>${esc(location.origin)}/daily</b>
         and get the POEMs only; full access is given here (the reader is emailed when you approve).</p>
-      <p class="hint"><b>Daily POEM waiting list</b> (<b>${esc(location.origin)}/poems</b>, email addresses only, no account):
+      <p class="hint"><b>Primary Care POEMs waiting list</b> (<b>${esc(location.origin)}/poems</b>, email addresses only, no account):
         ${interest.count} address${interest.count === 1 ? '' : 'es'}${interest.latest ? `, the latest ${esc(day(interest.latest))}` : ''}.
         ${interest.count ? '<a href="/api/admin/interest.csv">Download the list (CSV)</a>' : ''}</p>
       ${shown.length ? `<div class="reader-admin-wrap"><table class="reader-admin-table">

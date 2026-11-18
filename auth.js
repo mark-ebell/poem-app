@@ -310,7 +310,7 @@ router.post('/request-full-access', requireAuth, emailLimiter, (req, res) => {
 
 // Readers turn the Daily InfoPOEM email on or off. Body: { on: true|false }.
 router.post('/daily-email', requireAuth, (req, res) => {
-  if (req.session.role !== 'reader') return res.status(400).json({ error: 'Only reader accounts receive the daily POEM.' });
+  if (req.session.role !== 'reader') return res.status(400).json({ error: 'Only reader accounts receive Primary Care POEMs.' });
   db.prepare('UPDATE users SET daily_email = ? WHERE id = ?').run((req.body || {}).on ? 1 : 0, req.session.userId);
   res.json({ user: publicUser(db.prepare('SELECT * FROM users WHERE id = ?').get(req.session.userId)) });
 });
