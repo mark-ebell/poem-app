@@ -724,7 +724,7 @@ els.generateBtn.addEventListener('click', async () => {
   els.generateStatus.textContent = 'Generating draft with Claude... this can take up to a minute.';
 
   try {
-    const { draft } = await api('/generate', { method: 'POST', body: { text: extractedText } });
+    const { draft, pmidCheck } = await api('/generate', { method: 'POST', body: { text: extractedText } });
 
     startNewDocument();
     const fields = parseDraft(draft);
@@ -735,7 +735,7 @@ els.generateBtn.addEventListener('click', async () => {
       Object.entries(fields).forEach(([key, value]) => setField(key, value));
     }
     formHistory.reset();
-    els.generateStatus.textContent = 'Draft generated. Review and edit below, then save.';
+    els.generateStatus.textContent = `Draft generated. ${pmidMessage(pmidCheck)}Review and edit below, then save.`;
     switchTab('edit');
   } catch (err) {
     console.error(err);
@@ -744,6 +744,16 @@ els.generateBtn.addEventListener('click', async () => {
     els.generateBtn.disabled = false;
   }
 });
+
+// What the PubMed ID check found (pmid-check.js on the server).
+function pmidMessage(c) {
+  if (!c) return '';
+  const art = c.article ? ` ("${c.article.title.replace(/\.$/, '')}", ${c.article.journal} ${c.article.year})` : '';
+  if (c.status === 'confirmed') return `PubMed ID ${c.pmid} checked against PubMed${art}. `;
+  if (c.status === 'corrected') return `PubMed ID found in PubMed: ${c.pmid}${art}${c.claudeId ? `; Claude's ${c.claudeId} was a different article` : ''}. `;
+  if (c.status === 'not-found') return 'This article was not found in PubMed, so the PubMed ID is blank: enter it if the article is there. ';
+  return 'PubMed could not be reached to check the PubMed ID: please check it. ';
+}
 
 // ---------- PubMed URL (built from the PubMed ID) ----------
 function updatePubmedUrlDisplay() {

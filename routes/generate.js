@@ -1,5 +1,6 @@
 const express = require('express');
 const { requireEditor } = require('../auth');
+const { checkPmid } = require('../pmid-check');
 
 const router = express.Router();
 
@@ -67,7 +68,18 @@ router.post('/', requireEditor, async (req, res) => {
       console.error('Anthropic response was truncated at the max_tokens limit.');
       return res.status(502).json({ error: 'The draft was cut off because it ran too long. Please try again.' });
     }
-    res.json({ draft });
+    // The PubMed ID is looked up in PubMed and checked against the article (pmid-check.js).
+    const line = label => (new RegExp(`^${label}:\\s*(.*)$`, 'im').exec(draft) || [])[1] || '';
+    const pmidCheck = await checkPmid({ text, claudeId: line('PubMed ID'), reference: line('Reference') });
+    const fixed = /^PubMed ID:.*$/im.test(draft)
+      ? draft.replace(/^PubMed ID:.*$/im, `PubMed ID: ${pmidCheck.pmid}`)
+      : `${draft}\n\nPubMed ID: ${pmidCheck.pmid}`;
+    const a = pmidCheck.article;
+    res.json({
+      draft: fixed,
+      pmidCheck: { status: pmidCheck.status, pmid: pmidCheck.pmid, claudeId: pmidCheck.claudeId,
+        article: a ? { title: a.title, journal: a.journal, year: a.year } : null }
+    });
   } catch (err) {
     console.error('Generate request failed', err);
     res.status(502).json({ error: 'Could not reach the Anthropic API.' });
