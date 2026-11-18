@@ -1069,3 +1069,9 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .reader-admin-pending { background: #fffbeb; }
 .reader-admin-wrap { overflow-x: auto; }
 .user-menu > .hidden, .auth-switch-more.hidden { display: none; }
+
+/* inforetriever.org/poems: the daily POEM waiting list */
+.interest-card form { max-width: 420px; margin: 16px 0; }
+.interest-card form label { display: block; margin-bottom: 12px; }
+.interest-card form input[type="email"] { width: 100%; box-sizing: border-box; }
+.interest-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }

@@ -223,5 +223,9 @@ db.exec(`
 `);
 if (!db.prepare('PRAGMA table_info(best_bets)').all().some(c => c.name === 'position')) db.exec('ALTER TABLE best_bets ADD COLUMN position INTEGER');
 
+// The waiting list for the daily POEM from 2027 (inforetriever.org/poems; routes/interest.js):
+// email addresses only, no account and no access. email is lower case.
+db.exec(`CREATE TABLE IF NOT EXISTS poem_interest (email TEXT PRIMARY KEY, created_at TEXT NOT NULL)`);
+
 module.exports = db;
 module.exports.dataDir = dataDir;

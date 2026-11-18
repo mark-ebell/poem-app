@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noai, noimageai">
+<title>The Primary Care POEM</title>
+<meta name="description" content="Leave your email address to hear when the free daily Primary Care POEM email begins.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <img src="inforetriever.png" alt="InfoRetriever golden retriever" class="mascot" width="70" height="73">
+      <h1>InfoRetriever</h1>
+    </div>
+  </header>
+  <section class="card terms interest-card">
+    <h2>The Primary Care POEM</h2>
+    <p>Every weekday, a free email with one POEM (Patient-Oriented Evidence that Matters): a short, independent summary of a new study that matters to primary care clinicians and their patients, with a clear bottom line.</p>
+    <p>Leave your email address and we will let you know when the daily email begins.</p>
+
+    <form id="interestForm" novalidate>
+      <label>Email address
+        <input type="email" id="interestEmail" autocomplete="email" required maxlength="254">
+      </label>
+      <label class="interest-hp" aria-hidden="true">Website
+        <input type="text" id="interestWebsite" tabindex="-1" autocomplete="off">
+      </label>
+      <div id="interestHuman" class="turnstile-box"></div>
+      <button type="submit" id="interestBtn">Keep me informed</button>
+      <p id="interestError" class="error-msg hidden"></p>
+    </form>
+    <p id="interestDone" class="notice hidden"><b>Thank you.</b> We will email you when the daily Primary Care POEM begins.</p>
+
+    <p class="hint">We use your address only to tell you about the daily POEM, and never share it. This does not create an InfoRetriever account. <a href="about-poems.html">About POEMs</a> · <a href="about.html">About InfoRetriever</a></p>
+  </section>
+  <footer class="site-footer">Copyright 2026, Center for Innovation in Family Medicine</footer>
+</div>
+<script src="poems-signup.js"></script>
+</body>
+</html>

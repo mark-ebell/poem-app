@@ -25,7 +25,7 @@ export function loadReaderAdmin(apiFn) {
 async function refresh() {
   const body = $('readerAdminBody');
   try {
-    const { readers, subscribers } = await api('/admin/readers');
+    const [{ readers, subscribers }, interest] = await Promise.all([api('/admin/readers'), api('/admin/interest')]);
     const pending = readers.filter(r => r.requestedAt);
     const full = readers.filter(r => r.access === 'full').length;
     const shown = showAll ? readers : pending;
@@ -35,6 +35,9 @@ async function refresh() {
       <p class="hint">${readers.length} reader account(s): ${full} with full access, ${readers.length - full} with the POEMs only.
         ${subscribers} receive the daily POEM. Readers sign up for the daily POEM at <b>${esc(location.origin)}/daily</b>
         and get the POEMs only; full access is given here (the reader is emailed when you approve).</p>
+      <p class="hint"><b>Daily POEM waiting list</b> (<b>${esc(location.origin)}/poems</b>, email addresses only, no account):
+        ${interest.count} address${interest.count === 1 ? '' : 'es'}${interest.latest ? `, the latest ${esc(day(interest.latest))}` : ''}.
+        ${interest.count ? '<a href="/api/admin/interest.csv">Download the list (CSV)</a>' : ''}</p>
       ${shown.length ? `<div class="reader-admin-wrap"><table class="reader-admin-table">
         <thead><tr><th>Email</th><th>Access</th><th>Signed up</th><th>Last login</th><th></th></tr></thead>
         <tbody>${shown.map(row).join('')}</tbody></table></div>`

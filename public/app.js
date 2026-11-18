@@ -1700,6 +1700,7 @@ function renderBrowse() {
   // Print Word doc works for one month at a time: a year and a month chosen, and some POEMs listed.
   els.browsePrintBtn.disabled = !(year && month && matches.length);
   els.browseDriveBtn.disabled = els.browsePrintBtn.disabled;
+  checkDriveButton();
   els.browsePrintStatus.textContent = '';
   els.browseResults.textContent = '';
   if (!matches.length) {
@@ -1812,7 +1813,13 @@ els.browsePrintBtn.addEventListener('click', async () => {
 
 // Save Word doc to Google Drive: the same document, in the month's PDF folder (shown only when
 // saving to Drive is set up).
-api('/pdf-copy').then(r => { if (r && r.enabled) els.browseDriveBtn.classList.remove('hidden'); }).catch(() => {});
+// Asked once, the first time an editor's Browse list is drawn (not at page load, before login).
+let driveChecked = false;
+function checkDriveButton() {
+  if (driveChecked || !currentUser || currentUser.role !== 'editor') return;
+  driveChecked = true;
+  api('/pdf-copy').then(r => { if (r && r.enabled) els.browseDriveBtn.classList.remove('hidden'); }).catch(() => { driveChecked = false; });
+}
 els.browseDriveBtn.addEventListener('click', async () => {
   const year = els.browseYear.value, month = els.browseMonth.value;
   if (!year || !month || !browseMatches.length) return;

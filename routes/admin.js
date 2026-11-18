@@ -239,6 +239,18 @@ router.post('/calculator/restore', requireAdmin, (req, res) => {
   res.json({ ok: true, ...calcStatus() });
 });
 
+// ---------- Daily POEM waiting list (inforetriever.org/poems) ----------
+router.get('/interest', requireAdmin, (req, res) => {
+  const row = db.prepare('SELECT COUNT(*) AS n, MAX(created_at) AS latest FROM poem_interest').get();
+  res.json({ count: row.n, latest: row.latest });
+});
+router.get('/interest.csv', requireAdmin, (req, res) => {
+  const rows = db.prepare('SELECT email, created_at FROM poem_interest ORDER BY created_at').all();
+  const cell = v => /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
+  res.set({ 'Content-Type': 'text/csv; charset=utf-8', 'Content-Disposition': 'attachment; filename="daily-poem-waiting-list.csv"' });
+  res.send(['email,signed_up', ...rows.map(r => `${cell(r.email)},${r.created_at.slice(0, 10)}`)].join('\r\n') + '\r\n');
+});
+
 // ---------- Reader accounts (administrator) ----------
 // The readers, requests for full access first, with what each can use.
 router.get('/readers', requireAdmin, (req, res) => {

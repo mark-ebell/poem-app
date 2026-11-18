@@ -138,10 +138,14 @@ app.use('/api/chapters', require('./routes/chapters'));
 app.use('/api/tools', require('./routes/tools'));
 app.use('/api/search', require('./routes/site-search'));
 app.use('/api/chapter-edit', require('./routes/chapter-edit'));
+app.use('/api/interest', require('./routes/interest'));
 app.use(require('./unsubscribe').router);
 // The daily POEM sign-up page (the shareable address): the login screen's daily POEM form.
 // ?lang=it is passed on, so a link can open it in that language.
 app.get('/daily', (req, res) => res.redirect('/?join=daily' + (/^[a-z]{2}$/.test(String(req.query.lang || '')) ? `&lang=${req.query.lang}` : '')));
+
+// The waiting list for the daily POEM from 2027 (email addresses only; routes/interest.js).
+app.get('/poems', (req, res) => res.sendFile(path.join(__dirname, 'public', 'poems.html')));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
