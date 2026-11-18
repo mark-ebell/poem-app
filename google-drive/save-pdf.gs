@@ -1,4 +1,5 @@
-// InfoRetriever: saves a copy of each PDF uploaded on the Upload POEMs tab to Google Drive.
+// InfoRetriever: saves a copy of each PDF uploaded on the Upload POEMs tab to Google Drive,
+// and the month's Word document from Browse POEMs (version 2 of this script).
 // It runs as you (the Google account that deploys it), so the files are yours.
 //
 // Set-up (once, about 5 minutes):
@@ -27,9 +28,15 @@ function doPost(e) {
     if (!name) return reply({ ok: false, error: 'No folder name.' });
     var found = parent.getFoldersByName(name);
     var folder = found.hasNext() ? found.next() : parent.createFolder(name);
-    var blob = Utilities.newBlob(Utilities.base64Decode(body.data), 'application/pdf', String(body.fileName || 'article.pdf'));
+    var fileName = String(body.fileName || 'article.pdf');
+    var mimeType = /^application\/[\w.+-]+$/.test(String(body.mimeType || '')) ? body.mimeType : 'application/pdf';
+    if (body.replace) { // a new copy in place of the old one (the month's Word document)
+      var old = folder.getFilesByName(fileName);
+      while (old.hasNext()) old.next().setTrashed(true);
+    }
+    var blob = Utilities.newBlob(Utilities.base64Decode(body.data), mimeType, fileName);
     var file = folder.createFile(blob);
-    return reply({ ok: true, url: file.getUrl() });
+    return reply({ ok: true, v: 2, url: file.getUrl() });
   } catch (err) {
     return reply({ ok: false, error: String(err && err.message || err) });
   }

@@ -12,6 +12,41 @@ const { requireEditor } = require('../auth');
 const router = express.Router();
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const configured = () => !!(process.env.PDF_DRIVE_URL && process.env.PDF_DRIVE_SECRET);
+const monthFolder = (year, month) => `${year} ${MONTHS[Number(month) - 1]} POEMs PDFs`;
+
+// Sends a file to the Apps Script, which saves it in the month's folder. Returns { url }, or
+// throws an Error whose message is for the editor. mimeType other than PDF needs version 2 of
+// the script (it labels the file correctly); replace: true puts the file in place of one of
+// the same name (version 2 too).
+async function saveToDrive({ folder, fileName, data, mimeType = 'application/pdf', replace = false }) {
+  let resp;
+  try {
+    resp = await fetch(process.env.PDF_DRIVE_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ secret: process.env.PDF_DRIVE_SECRET, folder, fileName, mimeType, replace, data: data.toString('base64') }),
+      redirect: 'follow',
+      signal: AbortSignal.timeout(60000)
+    });
+  } catch (err) {
+    console.error('Google Drive copy failed', err.message);
+    throw new Error('Could not reach Google Drive.');
+  }
+  const text = await resp.text();
+  let out; try { out = JSON.parse(text); } catch { out = null; }
+  if (!resp.ok || !out || !out.ok) {
+    console.error('Google Drive copy failed', resp.status, (out && out.error) || text.slice(0, 300));
+    // A web page instead of the script's answer usually means a Google sign-in page (the web app's
+    // access is not "Anyone") or a Google error page; its title says which.
+    const title = (/<title>([^<]*)<\/title>/i.exec(text) || [])[1];
+    throw new Error(out && out.error ? out.error
+      : `Google answered with ${title ? `a page titled "${title.trim()}"` : `status ${resp.status}`} instead of the script's reply. Check that the web app is deployed with Execute as: Me and Who has access: Anyone, and that the script has been allowed to use your Drive.`);
+  }
+  if (mimeType !== 'application/pdf' && !(out.v >= 2)) {
+    throw new Error('The file was saved, but the Google script is the old version, which marks every file as a PDF. Delete that file in Drive, update the script from google-drive/save-pdf.gs (Deploy > Manage deployments > Edit > Version: New version) and save again.');
+  }
+  return { url: out.url || null };
+}
 
 router.get('/', requireEditor, (req, res) => res.json({ enabled: configured() }));
 
@@ -29,31 +64,17 @@ router.post('/', requireEditor, express.raw({ type: () => true, limit: '40mb' })
   let original = clean(req.query.name).replace(/\.pdf$/i, '').slice(0, 150) || 'article';
   const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }); // YYYY-MM-DD
   const fileName = `${today} ${clean(user.display_name) || 'Editor'} - ${original}.pdf`;
-  const folder = `${m[1]} ${MONTHS[Number(m[2]) - 1]} POEMs PDFs`;
+  const folder = monthFolder(m[1], m[2]);
   try {
-    const resp = await fetch(process.env.PDF_DRIVE_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ secret: process.env.PDF_DRIVE_SECRET, folder, fileName, data: pdf.toString('base64') }),
-      redirect: 'follow',
-      signal: AbortSignal.timeout(60000)
-    });
-    const text = await resp.text();
-    let out; try { out = JSON.parse(text); } catch { out = null; }
-    if (!resp.ok || !out || !out.ok) {
-      console.error('Google Drive copy failed', resp.status, (out && out.error) || text.slice(0, 300));
-      // A web page instead of the script's answer usually means a Google sign-in page (the web app's
-      // access is not "Anyone") or a Google error page; its title says which.
-      const title = (/<title>([^<]*)<\/title>/i.exec(text) || [])[1];
-      const why = out && out.error ? out.error
-        : `Google answered with ${title ? `a page titled "${title.trim()}"` : `status ${resp.status}`} instead of the script's reply. Check that the web app is deployed with Execute as: Me and Who has access: Anyone.`;
-      return res.status(502).json({ error: why });
-    }
-    res.json({ ok: true, folder, fileName, url: out.url || null });
+    const { url } = await saveToDrive({ folder, fileName, data: pdf });
+    res.json({ ok: true, folder, fileName, url });
   } catch (err) {
-    console.error('Google Drive copy failed', err.message);
-    res.status(502).json({ error: 'Could not reach Google Drive.' });
+    res.status(502).json({ error: err.message });
   }
 });
 
 module.exports = router;
+// Also used by Browse POEMs (routes/poems.js) to save the month's Word document.
+module.exports.saveToDrive = saveToDrive;
+module.exports.monthFolder = monthFolder;
+module.exports.driveConfigured = configured;

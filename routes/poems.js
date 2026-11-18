@@ -72,25 +72,56 @@ router.post('/export', quota('download'), async (req, res) => {
 // Browse tab (editors): the POEMs listed for one month, in the order shown, as a Word file
 // titled "POEMs written for distribution in <Month>, <year>". { ids: [...], month: 'YYYY-MM' }
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-router.post('/export-month', requireEditor, async (req, res) => {
-  const { ids, month } = req.body || {};
+// The month's Word document (Print Word doc and Save to Google Drive on Browse POEMs):
+// { ids, month: 'YYYY-MM' } -> { buffer, year, month } or { error }.
+async function monthDocx(body) {
+  const { ids, month } = body || {};
   const m = /^(\d{4})-(0[1-9]|1[0-2])$/.exec(String(month || ''));
-  if (!m) return res.status(400).json({ error: 'Choose one year and one month.' });
-  if (!Array.isArray(ids) || !ids.length || ids.length > 1000) return res.status(400).json({ error: 'No POEMs to print.' });
+  if (!m) return { error: 'Choose one year and one month.' };
+  if (!Array.isArray(ids) || !ids.length || ids.length > 1000) return { error: 'No POEMs to print.' };
   const get = db.prepare('SELECT * FROM poems WHERE id = ?');
   const rows = ids.map(id => get.get(String(id))).filter(Boolean);
-  if (!rows.length) return res.status(400).json({ error: 'No POEMs to print.' });
+  if (!rows.length) return { error: 'No POEMs to print.' };
   const title = `POEMs written for distribution in ${MONTHS[Number(m[2]) - 1]}, ${m[1]}`;
+  return { buffer: await buildDocx(rows, { description: title, title, internal: true }), year: m[1], month: m[2] };
+}
+const DOCX_TYPE = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+
+router.post('/export-month', requireEditor, async (req, res) => {
   try {
-    const buffer = await buildDocx(rows, { description: title, title, internal: true });
+    const doc = await monthDocx(req.body);
+    if (doc.error) return res.status(400).json({ error: doc.error });
     res.set({
-      'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-      'Content-Disposition': `attachment; filename="POEMs ${m[1]}-${m[2]}.docx"`
+      'Content-Type': DOCX_TYPE,
+      'Content-Disposition': `attachment; filename="POEMs ${doc.year}-${doc.month}.docx"`
     });
-    res.send(buffer);
+    res.send(doc.buffer);
   } catch (err) {
     console.error('Month export failed', err);
     res.status(500).json({ error: 'Could not create the document. See the server log.' });
+  }
+});
+
+// The same document, saved to Google Drive in the month's PDF folder ("2027 January POEMs PDFs")
+// as "POEMs for January 2027.docx", in place of an earlier copy of the same name.
+router.post('/export-month/drive', requireEditor, async (req, res) => {
+  const { saveToDrive, monthFolder, driveConfigured } = require('./pdf-copy');
+  if (!driveConfigured()) return res.status(503).json({ error: 'Saving to Google Drive is not set up.' });
+  let doc;
+  try {
+    doc = await monthDocx(req.body);
+  } catch (err) {
+    console.error('Month export failed', err);
+    return res.status(500).json({ error: 'Could not create the document. See the server log.' });
+  }
+  if (doc.error) return res.status(400).json({ error: doc.error });
+  const folder = monthFolder(doc.year, doc.month);
+  const fileName = `POEMs for ${MONTHS[Number(doc.month) - 1]} ${doc.year}.docx`;
+  try {
+    const { url } = await saveToDrive({ folder, fileName, data: doc.buffer, mimeType: DOCX_TYPE, replace: true });
+    res.json({ ok: true, folder, fileName, url });
+  } catch (err) {
+    res.status(502).json({ error: err.message });
   }
 });
 

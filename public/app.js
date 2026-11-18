@@ -24,7 +24,7 @@ const els = {};
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
   'wordImport', 'wordFile', 'importMonth', 'importYear', 'wordReadBtn', 'wordStatus', 'wordPreview',
-  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults', 'browsePrintBtn', 'browsePrintStatus',
+  'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults', 'browsePrintBtn', 'browseDriveBtn', 'browsePrintStatus',
   'pdfInput', 'fileStatus', 'driveStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
@@ -1699,6 +1699,7 @@ function renderBrowse() {
   browseMatches = matches;
   // Print Word doc works for one month at a time: a year and a month chosen, and some POEMs listed.
   els.browsePrintBtn.disabled = !(year && month && matches.length);
+  els.browseDriveBtn.disabled = els.browsePrintBtn.disabled;
   els.browsePrintStatus.textContent = '';
   els.browseResults.textContent = '';
   if (!matches.length) {
@@ -1806,6 +1807,29 @@ els.browsePrintBtn.addEventListener('click', async () => {
     els.browsePrintStatus.textContent = `Could not create the Word document: ${err.message}`;
   } finally {
     els.browsePrintBtn.disabled = false;
+  }
+});
+
+// Save Word doc to Google Drive: the same document, in the month's PDF folder (shown only when
+// saving to Drive is set up).
+api('/pdf-copy').then(r => { if (r && r.enabled) els.browseDriveBtn.classList.remove('hidden'); }).catch(() => {});
+els.browseDriveBtn.addEventListener('click', async () => {
+  const year = els.browseYear.value, month = els.browseMonth.value;
+  if (!year || !month || !browseMatches.length) return;
+  els.browseDriveBtn.disabled = true;
+  els.browsePrintStatus.textContent = 'Saving the Word document to Google Drive...';
+  try {
+    const r = await api('/poems/export-month/drive', { method: 'POST', body: { ids: browseMatches.map(p => p.id), month: `${year}-${month}` } });
+    els.browsePrintStatus.textContent = `Saved ${browseMatches.length} POEM${browseMatches.length === 1 ? '' : 's'} to Google Drive as "${r.fileName}" in "${r.folder}". `;
+    if (r.url) {
+      const a = document.createElement('a');
+      a.href = r.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Open it';
+      els.browsePrintStatus.appendChild(a);
+    }
+  } catch (err) {
+    els.browsePrintStatus.textContent = `Could not save to Google Drive: ${err.message}`;
+  } finally {
+    els.browseDriveBtn.disabled = false;
   }
 });
 
