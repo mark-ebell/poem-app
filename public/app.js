@@ -1906,6 +1906,7 @@ async function showPoemPopup(id, { path = `/poems/${id}/view` } = {}) {
   }
   els.poemModalBody.innerHTML = html; // built by the server from escaped text
   els.poemModalBody.querySelectorAll('a[href]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
+  linkLevelsOfEvidence(els.poemModalBody);
   els.poemModalBody.scrollTop = 0;
   els.poemModal.classList.remove('hidden');
   document.body.classList.add('modal-open');
@@ -1920,18 +1921,62 @@ function closePoemPopup() {
 
 els.poemModalClose.addEventListener('click', closePoemPopup);
 
-// Edit POEMs: the Levels of evidence button shows the Oxford CEBM table.
-const closeLoe = () => { els.loeModal.classList.add('hidden'); document.body.classList.remove('modal-open'); els.loeHelpBtn.focus(); };
-els.loeHelpBtn.addEventListener('click', (e) => {
-  e.preventDefault();
+// The Oxford CEBM levels of evidence table: from the Levels of evidence button on Edit POEMs,
+// and from the level of evidence in a POEM pop-up (for readers too). It opens over the pop-up.
+let loeOpener = null;
+function openLoe(opener) {
+  loeOpener = opener;
   els.loeModal.classList.remove('hidden');
   document.body.classList.add('modal-open');
   els.loeModalClose.focus();
-});
+}
+function closeLoe() {
+  els.loeModal.classList.add('hidden');
+  if (els.poemModal.classList.contains('hidden')) document.body.classList.remove('modal-open');
+  if (loeOpener && loeOpener.isConnected) loeOpener.focus();
+  loeOpener = null;
+}
+els.loeHelpBtn.addEventListener('click', (e) => { e.preventDefault(); openLoe(els.loeHelpBtn); });
 els.loeModalClose.addEventListener('click', closeLoe);
 els.loeModal.addEventListener('mousedown', (e) => { if (e.target === els.loeModal) closeLoe(); });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.loeModal.classList.contains('hidden')) closeLoe(); });
+// Capture, so Escape closes only the table and not the POEM pop-up under it.
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !els.loeModal.classList.contains('hidden')) { e.stopImmediatePropagation(); closeLoe(); }
+}, true);
+
+// In a POEM pop-up, "LOE 1b" after the study design (or the "Level of evidence" label, when there is
+// no study design) becomes a button that opens the table.
+function loeButton(text) {
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.className = 'loe-link';
+  b.textContent = text;
+  b.title = tr('What the levels of evidence mean');
+  return b;
+}
+function linkLevelsOfEvidence(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const hits = [];
+  for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+    if (/\bLOE [1-5][abc]?-?(?=\))/.test(n.nodeValue)) hits.push(n);
+  }
+  hits.forEach(n => {
+    const m = /\bLOE [1-5][abc]?-?(?=\))/.exec(n.nodeValue);
+    const after = n.splitText(m.index);
+    after.splitText(m[0].length);
+    after.replaceWith(loeButton(m[0]));
+  });
+  root.querySelectorAll('b, strong').forEach(el => {
+    if (/^Level of evidence:?$/.test(el.textContent.trim())) {
+      const btn = loeButton(el.textContent);
+      el.textContent = '';
+      el.appendChild(btn);
+    }
+  });
+}
 els.poemModalBody.addEventListener('click', (e) => {
+  const loe = e.target.closest('button.loe-link');
+  if (loe) { openLoe(loe); return; }
   const a = e.target.closest('a[href]');
   const num = a && poemNumberInLink(a.getAttribute('href'));
   if (!num) return;

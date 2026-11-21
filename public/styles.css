@@ -1090,3 +1090,5 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .loe-table thead th { background: #eef1f5; }
 .loe-table tbody th { background: #f6f8fa; text-align: center; white-space: nowrap; }
 .loe-notes { font-size: 0.8rem; color: #444; margin: 10px 0 0; line-height: 1.4; }
+.loe-link { background: none; color: var(--accent); padding: 0; border-radius: 0; font: inherit; text-decoration: underline dotted; cursor: pointer; }
+.loe-link:hover:not(:disabled) { background: none; text-decoration: underline; }
