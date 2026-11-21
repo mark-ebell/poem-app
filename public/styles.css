@@ -1078,3 +1078,15 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .interest-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .poems-brand { margin: 0; line-height: 0; }
 .poems-brand img { width: 220px; max-width: 60vw; height: auto; mix-blend-mode: multiply; } /* the logo's white background takes the page colour */
+
+/* Edit POEMs: Levels of evidence pop-up */
+.label-line { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.loe-help-btn { font-size: 0.8rem; font-weight: normal; }
+.modal.loe-modal { width: min(1100px, 100%); }
+.loe-title { font-size: 1.1rem; margin: 0 0 12px; }
+.loe-table-wrap { overflow-x: auto; }
+.loe-table { border-collapse: collapse; font-size: 0.82rem; line-height: 1.35; min-width: 760px; }
+.loe-table th, .loe-table td { border: 1px solid var(--border); padding: 6px 8px; vertical-align: top; text-align: left; }
+.loe-table thead th { background: #eef1f5; }
+.loe-table tbody th { background: #f6f8fa; text-align: center; white-space: nowrap; }
+.loe-notes { font-size: 0.8rem; color: #444; margin: 10px 0 0; line-height: 1.4; }

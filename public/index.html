@@ -755,6 +755,41 @@
       <p class="calc-note" data-i18n><strong>About this tool.</strong> Rankings are qualitative clinical estimates of relative frequency among patients presenting with each finding in general adult primary care / ED settings &mdash; they are not derived from a specific cited study, and true frequency varies by age, setting, and population. The "Don't miss" flag marks diagnoses that are dangerous enough to always consider even when they are not the most likely cause; it is independent of the frequency ranking. This tool is for educational reference only and is not a substitute for clinical judgment.</p>
     </div>
 
+    <div id="loeModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="loeModalTitle">
+      <div class="modal loe-modal">
+        <div class="modal-bar">
+          <button type="button" id="loeModalClose">Close</button>
+        </div>
+        <div class="modal-body">
+          <h2 id="loeModalTitle" class="loe-title">Oxford Centre for Evidence-Based Medicine: Levels of Evidence</h2>
+          <div class="loe-table-wrap">
+            <table class="loe-table">
+              <thead><tr><th scope="col">Level</th><th scope="col">Therapy, prevention, aetiology or harm</th><th scope="col">Prognosis</th><th scope="col">Diagnosis</th><th scope="col">Differential diagnosis or symptom prevalence</th><th scope="col">Economic and decision analyses</th></tr></thead>
+              <tbody>
+              <tr><th scope="row">1a</th><td>SR (with homogeneity*) of RCTs</td><td>SR (with homogeneity*) of inception cohort studies; CDR† validated in different populations</td><td>SR (with homogeneity*) of Level 1 diagnostic studies; CDR† with 1b studies from different clinical centres</td><td>SR (with homogeneity*) of prospective cohort studies</td><td>SR (with homogeneity*) of Level 1 economic studies</td></tr>
+              <tr><th scope="row">1b</th><td>Individual RCT (with narrow confidence interval)</td><td>Individual inception cohort study with ≥ 80% follow-up; CDR† validated in a single population</td><td>Validating cohort study with good reference standards; or CDR† tested within one clinical centre</td><td>Prospective cohort study with good follow-up</td><td>Analysis based on clinically sensible costs or alternatives; systematic review(s) of the evidence; and including multi-way sensitivity analyses</td></tr>
+              <tr><th scope="row">1c</th><td>All or none§</td><td>All or none case-series</td><td>Absolute SpPins and SnNouts‡</td><td>All or none case-series</td><td>Absolute better-value or worse-value analyses</td></tr>
+              <tr><th scope="row">2a</th><td>SR (with homogeneity*) of cohort studies</td><td>SR (with homogeneity*) of either retrospective cohort studies or untreated control groups in RCTs</td><td>SR (with homogeneity*) of Level &gt; 2 diagnostic studies</td><td>SR (with homogeneity*) of 2b and better studies</td><td>SR (with homogeneity*) of Level &gt; 2 economic studies</td></tr>
+              <tr><th scope="row">2b</th><td>Individual cohort study (including low quality RCT, e.g. &lt; 80% follow-up)</td><td>Retrospective cohort study or follow-up of untreated control patients in an RCT; derivation of CDR† or validated on split-sample only</td><td>Exploratory cohort study with good reference standards; CDR† after derivation, or validated only on split-sample or databases</td><td>Retrospective cohort study, or poor follow-up</td><td>Analysis based on clinically sensible costs or alternatives; limited review(s) of the evidence, or single studies; and including multi-way sensitivity analyses</td></tr>
+              <tr><th scope="row">2c</th><td>“Outcomes” research; ecological studies</td><td>“Outcomes” research</td><td>—</td><td>Ecological studies</td><td>Audit or outcomes research</td></tr>
+              <tr><th scope="row">3a</th><td>SR (with homogeneity*) of case-control studies</td><td>—</td><td>SR (with homogeneity*) of 3b and better studies</td><td>SR (with homogeneity*) of 3b and better studies</td><td>SR (with homogeneity*) of 3b and better studies</td></tr>
+              <tr><th scope="row">3b</th><td>Individual case-control study</td><td>—</td><td>Non-consecutive study; or without consistently applied reference standards</td><td>Non-consecutive cohort study, or very limited population</td><td>Analysis based on limited alternatives or costs, poor quality estimates of data, but including sensitivity analyses incorporating clinically sensible variations</td></tr>
+              <tr><th scope="row">4</th><td>Case-series (and poor quality cohort and case-control studies)</td><td>Case-series (and poor quality prognostic cohort studies)</td><td>Case-control study, poor or non-independent reference standard</td><td>Case-series or superseded reference standards</td><td>Analysis with no sensitivity analysis</td></tr>
+              <tr><th scope="row">5</th><td>Expert opinion without explicit critical appraisal, or based on physiology, bench research or “first principles”</td><td>Expert opinion without explicit critical appraisal, or based on physiology, bench research or “first principles”</td><td>Expert opinion without explicit critical appraisal, or based on physiology, bench research or “first principles”</td><td>Expert opinion without explicit critical appraisal, or based on physiology, bench research or “first principles”</td><td>Expert opinion without explicit critical appraisal, or based on economic theory or “first principles”</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="loe-notes"><b>A minus sign</b> (for example 1b-) marks a level that fails to give a conclusive answer, because it is a single result with a wide confidence interval or a systematic review with troublesome heterogeneity. Such evidence is inconclusive and can only generate grade D recommendations.</p>
+          <p class="loe-notes">SR, systematic review; RCT, randomised controlled trial.<br>
+            * Homogeneity: a systematic review free of worrisome variations (heterogeneity) in the directions and degrees of results between individual studies.<br>
+            † CDR: clinical decision rule (an algorithm or scoring system that leads to a prognostic estimate or a diagnostic category).<br>
+            ‡ SpPin: a finding whose specificity is so high that a positive result rules in the diagnosis. SnNout: a finding whose sensitivity is so high that a negative result rules out the diagnosis.<br>
+            § All or none: all patients died before the treatment became available, but some now survive on it; or some patients died before the treatment became available, but none now die on it.</p>
+          <p class="loe-notes">Source: Phillips B, Ball C, Sackett D, et al. Oxford Centre for Evidence-based Medicine Levels of Evidence (March 2009). Centre for Evidence-Based Medicine, University of Oxford.</p>
+        </div>
+      </div>
+    </div>
+
     <div id="poemModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="POEM">
       <div class="modal">
         <div class="modal-bar">
@@ -844,7 +879,7 @@
           <label>Category
             <select id="supertypeSelect"></select>
           </label>
-          <label>Level of evidence
+          <label for="loeSelect"><span class="label-line">Level of evidence <button type="button" id="loeHelpBtn" class="link-btn loe-help-btn" title="Show the Oxford CEBM levels of evidence">Levels of evidence</button></span>
             <select id="loeSelect"></select>
           </label>
         </div>

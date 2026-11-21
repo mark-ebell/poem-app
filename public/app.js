@@ -27,7 +27,7 @@ const els = {};
   'browseYear', 'browseMonth', 'browseAuthor', 'browseAge', 'browseStatus', 'browseCount', 'browseResults', 'browsePrintBtn', 'browseDriveBtn', 'browsePrintStatus',
   'pdfInput', 'fileStatus', 'driveStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
-  'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
+  'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'loeHelpBtn', 'loeModal', 'loeModalClose', 'pubmedIdInput', 'pubmedUrlDisplay',
   'synopsisEditor', 'bottomLineEditor', 'btnUndo', 'btnRedo', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink', 'btnPastePlain', 'poemLinkInput', 'btnPoemLink',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
@@ -1919,6 +1919,18 @@ function closePoemPopup() {
 }
 
 els.poemModalClose.addEventListener('click', closePoemPopup);
+
+// Edit POEMs: the Levels of evidence button shows the Oxford CEBM table.
+const closeLoe = () => { els.loeModal.classList.add('hidden'); document.body.classList.remove('modal-open'); els.loeHelpBtn.focus(); };
+els.loeHelpBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  els.loeModal.classList.remove('hidden');
+  document.body.classList.add('modal-open');
+  els.loeModalClose.focus();
+});
+els.loeModalClose.addEventListener('click', closeLoe);
+els.loeModal.addEventListener('mousedown', (e) => { if (e.target === els.loeModal) closeLoe(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.loeModal.classList.contains('hidden')) closeLoe(); });
 els.poemModalBody.addEventListener('click', (e) => {
   const a = e.target.closest('a[href]');
   const num = a && poemNumberInLink(a.getAttribute('href'));
