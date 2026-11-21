@@ -202,6 +202,7 @@ button:disabled {
 
 #fontNameSelect { width: 140px; }
 #fontSizeSelect { width: 62px; }
+.toolbar .poem-link-input { width: 76px; padding: 4px 6px; font: inherit; }
 .toolbar select {
   padding: 5px 6px;
   font-size: 0.85rem;

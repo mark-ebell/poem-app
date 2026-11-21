@@ -899,6 +899,9 @@
           <button type="button" id="btnLink" title="Insert link">🔗 Link</button>
           <button type="button" id="btnPastePlain" title="Paste without formatting (⇧⌘V / Ctrl+Shift+V)">Paste plain text</button>
           <span class="toolbar-sep"></span>
+          <input type="text" id="poemLinkInput" class="poem-link-input" inputmode="numeric" maxlength="6" placeholder="POEM ID" aria-label="POEM ID to link to" title="Select text in the Synopsis or Bottom-line, type a 6-digit POEM ID here, then click Link to POEM">
+          <button type="button" id="btnPoemLink" title="Make the selected text a link to that POEM in InfoRetriever">Link to POEM</button>
+          <span class="toolbar-sep"></span>
           <label class="track-label" title="When on, your edits to the Synopsis and Bottom-line are automatically marked up as insertions/deletions a moment after you stop typing.">
             <input type="checkbox" id="trackChangesToggle"> Track changes
           </label>

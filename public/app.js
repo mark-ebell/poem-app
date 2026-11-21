@@ -28,7 +28,7 @@ const els = {};
   'pdfInput', 'fileStatus', 'driveStatus', 'generateBtn', 'generateStatus', 'poetSelect', 'pubDateSelect',
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'pubmedIdInput', 'pubmedUrlDisplay',
-  'synopsisEditor', 'bottomLineEditor', 'btnUndo', 'btnRedo', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink', 'btnPastePlain',
+  'synopsisEditor', 'bottomLineEditor', 'btnUndo', 'btnRedo', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink', 'btnPastePlain', 'poemLinkInput', 'btnPoemLink',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
@@ -777,7 +777,7 @@ function updatePubmedUrlDisplay() {
 els.pubmedIdInput.addEventListener('input', updatePubmedUrlDisplay);
 
 // ---------- Formatting toolbar ----------
-[els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink, els.btnPastePlain,
+[els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink, els.btnPastePlain, els.btnPoemLink,
   els.reviewBtn, els.acceptBtn, els.rejectBtn].forEach(btn => {
   btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep focus/selection in editor
 });
@@ -899,6 +899,56 @@ function applyFontStyle(styleProp, cssValue) {
     apply(select.value);
   });
   select.addEventListener('blur', () => { if (!select.value) select.value = shown; });
+});
+
+// ---------- Link to another POEM ----------
+// Select text in the Synopsis or Bottom-line, type a 6-digit POEM ID and click Link to POEM (or
+// press Return). The link is a full inforetriever.org address, so it also works in the Word
+// documents and the daily email; in the app it opens that POEM in the pop-up.
+const POEM_LINK_BASE = 'https://inforetriever.org/?poem=';
+const poemNumberInLink = href => {
+  try {
+    const u = new URL(href, location.href);
+    if (u.host !== 'inforetriever.org' && u.host !== 'www.inforetriever.org' && u.host !== location.host) return null;
+    const num = u.searchParams.get('poem');
+    return /^\d{6}$/.test(num || '') ? num : null;
+  } catch { return null; }
+};
+async function insertPoemLink() {
+  const num = els.poemLinkInput.value.trim();
+  if (!/^\d{6}$/.test(num)) {
+    alert('Type a 6-digit POEM ID.');
+    els.poemLinkInput.focus();
+    return;
+  }
+  const range = savedEditorRange && !savedEditorRange.collapsed ? savedEditorRange.cloneRange() : null;
+  const owner = range && editorContaining(range.commonAncestorContainer);
+  if (!owner) {
+    alert('First select the text in the Synopsis or Bottom-line that should become the link.');
+    return;
+  }
+  els.btnPoemLink.disabled = true;
+  try {
+    await api(`/poems/number/${num}/view`);
+  } catch {
+    alert(`There is no POEM with the ID ${num}.`);
+    els.poemLinkInput.focus();
+    return;
+  } finally {
+    els.btnPoemLink.disabled = false;
+  }
+  owner.el.focus();
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+  formHistory.action(() => document.execCommand('createLink', false, POEM_LINK_BASE + num));
+  els.poemLinkInput.value = '';
+}
+els.btnPoemLink.addEventListener('click', insertPoemLink);
+els.poemLinkInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); insertPoemLink(); } });
+els.poemLinkInput.addEventListener('input', () => {
+  const digits = els.poemLinkInput.value.replace(/\D/g, '').slice(0, 6);
+  if (digits !== els.poemLinkInput.value) els.poemLinkInput.value = digits;
 });
 
 // ---------- Track changes: tokenize / diff / render ----------
@@ -1869,6 +1919,13 @@ function closePoemPopup() {
 }
 
 els.poemModalClose.addEventListener('click', closePoemPopup);
+els.poemModalBody.addEventListener('click', (e) => {
+  const a = e.target.closest('a[href]');
+  const num = a && poemNumberInLink(a.getAttribute('href'));
+  if (!num) return;
+  e.preventDefault();
+  showPoemPopup(null, { path: `/poems/number/${num}/view` });
+});
 els.poemModal.addEventListener('mousedown', (e) => { if (e.target === els.poemModal) closePoemPopup(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.poemModal.classList.contains('hidden')) closePoemPopup(); });
 
@@ -2495,6 +2552,10 @@ async function init(user) {
   showApp(user);
   applyRole();
   switchTab('search'); // everyone starts on the Search tab
+  if (pendingPoem) { // arrived by a link to a POEM (/?poem=123456)
+    showPoemPopup(null, { path: `/poems/number/${pendingPoem}/view` });
+    pendingPoem = null;
+  }
   if (poemsOnly()) return; // the chapters, risk scores and calculators are not theirs to load
   loadCalculators(api).catch(err => console.error('Calculator menus failed to load', err));
   loadTools(api, user).catch(err => console.error('Risk scores failed to load', err));
@@ -2511,6 +2572,15 @@ async function init(user) {
 }
 
 // Links from the confirmation and password emails: /?verify=... and /?reset=...
+// A link to a POEM (/?poem=123456, made by Link to POEM) opens it after logging in.
+let pendingPoem = (() => {
+  const params = new URLSearchParams(location.search);
+  const num = params.get('poem');
+  if (num === null) return null;
+  params.delete('poem');
+  history.replaceState(null, '', location.pathname + (params.toString() ? `?${params}` : ''));
+  return /^\d{6}$/.test(num) ? num : null;
+})();
 (async () => {
   const params = new URLSearchParams(location.search);
   const verify = params.get('verify');
