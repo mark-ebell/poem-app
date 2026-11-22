@@ -1765,7 +1765,7 @@ function renderBrowse() {
   const table = document.createElement('table');
   table.className = 'library-table';
   const headRow = document.createElement('tr');
-  [['publicationDate', 'Date'], ['title', 'Title'], ['status', 'Status'], ['emailDate', 'Email date']].forEach(([key, label]) => {
+  [['publicationDate', 'Date'], ['title', 'Title'], ['poet', 'Author'], ['status', 'Status'], ['emailDate', 'Email date']].forEach(([key, label]) => {
     const th = document.createElement('th');
     th.className = 'sortable';
     th.textContent = label;
@@ -1802,13 +1802,16 @@ function renderBrowse() {
       openDoc(doc.id);
     });
     titleCell.appendChild(link);
+    const authorCell = document.createElement('td');
+    authorCell.className = 'library-status';
+    authorCell.textContent = doc.poet || '—';
     const statusCell = document.createElement('td');
     statusCell.className = 'library-status';
     statusCell.textContent = doc.status || '—';
     const emailCell = document.createElement('td');
     emailCell.className = 'library-status';
     emailCell.textContent = formatEmailDate(doc.emailDate);
-    row.append(dateCell, titleCell, statusCell, emailCell);
+    row.append(dateCell, titleCell, authorCell, statusCell, emailCell);
     tbody.appendChild(row);
   });
   table.appendChild(tbody);
