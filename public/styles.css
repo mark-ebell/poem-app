@@ -1096,4 +1096,5 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 /* Edit POEMs: fields not yet filled in (updates by itself as values change) */
 select.flag-empty:has(option:checked[value=""]),
 input.flag-empty:placeholder-shown,
+#statusSelect:has(option:checked[value="Initial authoring"]),
 textarea.flag-empty:placeholder-shown { background-color: #fff6d6; border-color: #e0b84a; }
