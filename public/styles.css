@@ -1092,3 +1092,8 @@ ins.tc .cite, del.tc .cite { color: inherit; }
 .loe-notes { font-size: 0.8rem; color: #444; margin: 10px 0 0; line-height: 1.4; }
 .loe-link { background: none; color: var(--accent); padding: 0; border-radius: 0; font: inherit; text-decoration: underline dotted; cursor: pointer; }
 .loe-link:hover:not(:disabled) { background: none; text-decoration: underline; }
+
+/* Edit POEMs: fields not yet filled in (updates by itself as values change) */
+select.flag-empty:has(option:checked[value=""]),
+input.flag-empty:placeholder-shown,
+textarea.flag-empty:placeholder-shown { background-color: #fff6d6; border-color: #e0b84a; }

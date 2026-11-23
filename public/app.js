@@ -589,6 +589,10 @@ fillSelect(els.settingSelect, SETTING_OPTIONS, 'Not specified');
 fillSelect(els.ageGroupSelect, AGE_GROUP_OPTIONS, 'Not specified');
 fillSelect(els.supertypeSelect, SUPERTYPE_OPTIONS, 'Not specified');
 fillSelect(els.loeSelect, LOE_OPTIONS, 'Not specified');
+// Edit POEMs: fields still empty are tinted (CSS .flag-empty), so missing details stand out.
+[els.referenceInput, els.questionInput, els.allocationSelect, els.fundingSelect, els.studyDesignSelect,
+  els.settingSelect, els.ageGroupSelect, els.supertypeSelect, els.loeSelect, els.pubmedIdInput]
+  .forEach(el => el.classList.add('flag-empty'));
 
 function applyNewDocumentDefaults() {
   if (currentUser && [...els.poetSelect.options].some(o => o.value === currentUser.displayName)) {
@@ -1674,7 +1678,7 @@ els.saveBtn.addEventListener('click', () => {
 });
 
 els.saveExitBtn.addEventListener('click', async () => {
-  if (await saveCurrentDoc()) switchTab('upload');
+  if (await saveCurrentDoc()) switchTab('browse');
 });
 
 // ---------- Browse ----------
