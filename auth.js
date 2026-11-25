@@ -285,7 +285,9 @@ router.post('/change-password', requireAuth, loginLimiter, (req, res) => {
   }
   const user = db.prepare('SELECT * FROM users WHERE id = ?').get(req.session.userId);
   if (!user || !bcrypt.compareSync(String(currentPassword), user.password_hash)) {
-    return res.status(401).json({ error: 'Current password is incorrect.' });
+    // 400, not 401: the page treats any 401 as a signed-out session and returns to the login
+    // screen, which hid this message and made it look as if the new password had been ignored.
+    return res.status(400).json({ error: 'Your current password is incorrect. Please enter the password you just logged in with.' });
   }
   const problem = user.role === 'reader'
     ? readerPasswordProblem(newPassword)
