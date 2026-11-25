@@ -1,0 +1,7461 @@
+{
+ "source": "Derm Expert, originally published in Essential Evidence Plus by Wiley (archived 2026-11-25).",
+ "morphologies": [
+  {
+   "name": "Atrophy",
+   "description": "Loss of skin substance (can be epidermal, dermal, subcutaneous)",
+   "image": "01_Atrophy.jpg",
+   "children": [
+    {
+     "name": "Localized",
+     "conditions": [
+      "62",
+      "161",
+      "155",
+      "231",
+      "245"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Blisters, vesicles, and bullae",
+   "description": "Circumscribed, thin-walled elevated lesion containing fluid",
+   "image": "02_Vesicle.jpg",
+   "children": [
+    {
+     "name": "Associated with nonred separate papules",
+     "conditions": [
+      "55",
+      "69",
+      "144",
+      "193"
+     ]
+    },
+    {
+     "name": "Associated with separate red papules",
+     "children": [
+      {
+       "name": "Asymmetrical lesions",
+       "conditions": [
+        "33",
+        "50",
+        "60",
+        "102",
+        "117",
+        "179",
+        "214"
+       ]
+      },
+      {
+       "name": "Multiple symmetrical lesions",
+       "conditions": [
+        "24",
+        "50",
+        "58",
+        "74",
+        "255"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Non-umbilicated blisters without associated lesions",
+     "children": [
+      {
+       "name": "Pinpoint, tiny vesicles",
+       "conditions": [
+        "65",
+        "152"
+       ]
+      },
+      {
+       "name": "Vesicles and bullae",
+       "conditions": [
+        "32",
+        "34",
+        "69",
+        "95",
+        "117",
+        "179",
+        "246"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Umbilicated blisters",
+     "conditions": [
+      "103",
+      "104",
+      "225",
+      "253",
+      "254"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Erosions and excoriations",
+   "description": "Circumscribed lesions lacking the upper layer of skin",
+   "image": "08_Erosion.jpg",
+   "children": [
+    {
+     "name": "Erosions",
+     "conditions": [
+      "37",
+      "60",
+      "69",
+      "179",
+      "182",
+      "193",
+      "246"
+     ]
+    },
+    {
+     "name": "Excoriations",
+     "conditions": [
+      "22",
+      "64",
+      "111",
+      "117",
+      "132",
+      "139",
+      "162",
+      "196",
+      "207",
+      "214",
+      "230"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hair and scalp",
+   "description": "Lesions of the hair and scalp",
+   "image": null,
+   "children": [
+    {
+     "name": "Acquired hair loss with normal scalp appearance",
+     "conditions": [
+      "11",
+      "12",
+      "274",
+      "108",
+      "109",
+      "110",
+      "142",
+      "240",
+      "248"
+     ]
+    },
+    {
+     "name": "Hair loss with scarring of scalp",
+     "conditions": [
+      "83",
+      "134",
+      "140",
+      "168"
+     ]
+    },
+    {
+     "name": "Increased hair growth",
+     "children": [
+      {
+       "name": "Generalized",
+       "conditions": [
+        "106",
+        "107"
+       ]
+      },
+      {
+       "name": "Localized",
+       "conditions": [
+        "26",
+        "27"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Scaling on scalp",
+     "conditions": [
+      "22",
+      "62",
+      "200",
+      "220",
+      "243"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Macules and patches",
+   "description": "Flat, circumscribed area with change in skin color",
+   "image": "03_Macule.jpg",
+   "children": [
+    {
+     "name": "Blue and/or black",
+     "children": [
+      {
+       "name": "Acquired conditions",
+       "conditions": [
+        "30",
+        "119",
+        "143"
+       ]
+      },
+      {
+       "name": "Congenital",
+       "conditions": [
+        "154"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Brown and/or black",
+     "children": [
+      {
+       "name": "Limited to palms and soles",
+       "conditions": [
+        "4",
+        "119",
+        "265"
+       ]
+      },
+      {
+       "name": "Not confined to sun-exposed areas",
+       "conditions": [
+        "2",
+        "27",
+        "35",
+        "60",
+        "77",
+        "115",
+        "128",
+        "185",
+        "230",
+        "244",
+        "252"
+       ]
+      },
+      {
+       "name": "Primarily in sun-exposed areas",
+       "conditions": [
+        "8",
+        "19",
+        "84",
+        "127",
+        "149"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Hypopigmented and/or white",
+     "children": [
+      {
+       "name": "Acquired",
+       "children": [
+        {
+         "name": "Atrophy",
+         "conditions": [
+          "135",
+          "140",
+          "217"
+         ]
+        },
+        {
+         "name": "No atrophy",
+         "conditions": [
+          "94",
+          "112",
+          "188",
+          "244",
+          "258"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Congenital",
+       "conditions": [
+        "167",
+        "249"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Red and/or pink",
+     "children": [
+      {
+       "name": "Exanthems",
+       "children": [
+        {
+         "name": "No systemic adenopathy",
+         "conditions": [
+          "64",
+          "73",
+          "145",
+          "209",
+          "211",
+          "215"
+         ]
+        },
+        {
+         "name": "With systemic adenopathy",
+         "conditions": [
+          "157",
+          "212",
+          "234"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Reticulated or telangiectatic red macules",
+       "children": [
+        {
+         "name": "Broad reticulated lesions",
+         "conditions": [
+          "71",
+          "73",
+          "138"
+         ]
+        },
+        {
+         "name": "Fine telangiectatic lesions",
+         "conditions": [
+          "140",
+          "167",
+          "217",
+          "239"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Transient red macules",
+       "children": [
+        {
+         "name": "No atrophy",
+         "conditions": [
+          "42",
+          "76",
+          "251"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mouth, lip and tongue",
+   "description": "Lesions of the mouth, lips, and tongue",
+   "image": null,
+   "children": [
+    {
+     "name": "Fissure or crack",
+     "conditions": [
+      "269"
+     ]
+    },
+    {
+     "name": "Mucosal lesions",
+     "children": [
+      {
+       "name": "Blistering or ulcerating",
+       "children": [
+        {
+         "name": "Blisters in mouth only",
+         "conditions": [
+          "20",
+          "28",
+          "37",
+          "74",
+          "95",
+          "101",
+          "228",
+          "266",
+          "246",
+          "254"
+         ]
+        },
+        {
+         "name": "With blistering outside mouth",
+         "conditions": [
+          "33",
+          "58",
+          "179"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Flat or slightly elevated",
+       "children": [
+        {
+         "name": "Pigmented",
+         "conditions": [
+          "10",
+          "13",
+          "97",
+          "143",
+          "163",
+          "166",
+          "183"
+         ]
+        },
+        {
+         "name": "White (acute)",
+         "conditions": [
+          "20",
+          "37",
+          "95",
+          "100",
+          "103",
+          "145",
+          "234"
+         ]
+        },
+        {
+         "name": "White (chronic)",
+         "conditions": [
+          "37",
+          "131",
+          "134",
+          "228"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Raised",
+       "children": [
+        {
+         "name": "Cystlike lesions",
+         "conditions": [
+          "54",
+          "156"
+         ]
+        },
+        {
+         "name": "Diffuse thickening of gingiva",
+         "conditions": [
+          "180",
+          "184",
+          "194",
+          "218"
+         ]
+        },
+        {
+         "name": "Discrete pink to red lesions",
+         "conditions": [
+          "80",
+          "260",
+          "163",
+          "205",
+          "228"
+         ]
+        },
+        {
+         "name": "Vascular (blanching)",
+         "conditions": [
+          "96",
+          "120",
+          "237"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Tongue",
+     "children": [
+      {
+       "name": "Atrophy",
+       "conditions": [
+        "86",
+        "118",
+        "228"
+       ]
+      },
+      {
+       "name": "Enlargement",
+       "conditions": [
+        "5",
+        "14",
+        "17",
+        "63",
+        "96",
+        "110",
+        "228"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Nails",
+   "description": "Lesions of the nails and nail bed",
+   "image": null,
+   "children": [
+    {
+     "name": "Nail bed disorders",
+     "children": [
+      {
+       "name": "Brown to black",
+       "conditions": [
+        "10",
+        "19",
+        "143",
+        "148",
+        "201"
+       ]
+      },
+      {
+       "name": "Red to brown",
+       "conditions": [
+        "88",
+        "226",
+        "232"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Nail fold disorders",
+     "conditions": [
+      "9",
+      "44",
+      "116",
+      "158",
+      "181",
+      "238"
+     ]
+    },
+    {
+     "name": "Nail plate disorders",
+     "children": [
+      {
+       "name": "Change in color (black, brown)",
+       "conditions": [
+        "10",
+        "19",
+        "143",
+        "148",
+        "201"
+       ]
+      },
+      {
+       "name": "Change in color (green)",
+       "conditions": [
+        "37",
+        "198"
+       ]
+      },
+      {
+       "name": "Change in color (white)",
+       "conditions": [
+        "174",
+        "268"
+       ]
+      },
+      {
+       "name": "Change in color (yellow)",
+       "conditions": [
+        "37",
+        "169",
+        "201"
+       ]
+      },
+      {
+       "name": "Dysmorphic nails (thin or thick)",
+       "conditions": [
+        "48",
+        "55",
+        "134",
+        "173",
+        "174",
+        "201",
+        "206"
+       ]
+      },
+      {
+       "name": "Pits and grooves",
+       "conditions": [
+        "177",
+        "201"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Nodules",
+   "description": "Solid, palpable lesion in dermis or subcutaneous (deeper than papule)",
+   "image": "05_Nodule.jpg",
+   "children": [
+    {
+     "name": "Blue purple nodules",
+     "conditions": [
+      "96",
+      "120",
+      "143",
+      "160"
+     ]
+    },
+    {
+     "name": "Cysts",
+     "conditions": [
+      "67",
+      "186"
+     ]
+    },
+    {
+     "name": "Flesh-colored to red, sparse, nontender nodules",
+     "conditions": [
+      "96",
+      "137",
+      "163",
+      "196",
+      "208",
+      "213"
+     ]
+    },
+    {
+     "name": "Tender red nodules",
+     "children": [
+      {
+       "name": "Arising in crops",
+       "conditions": [
+        "3",
+        "75",
+        "105"
+       ]
+      },
+      {
+       "name": "Arising singly",
+       "conditions": [
+        "36",
+        "38"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Tropical / subtropical patients",
+     "conditions": [
+      "23",
+      "56",
+      "126",
+      "129",
+      "159"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Papules and plaques",
+   "description": "Solid lesion (typically dome-shaped) usually elevated above surrounding skin",
+   "image": "04_Papule.jpg",
+   "children": [
+    {
+     "name": "Annular plaques",
+     "children": [
+      {
+       "name": "Not scaly",
+       "conditions": [
+        "25",
+        "52",
+        "62",
+        "91",
+        "213",
+        "234",
+        "251"
+       ]
+      },
+      {
+       "name": "Scaly",
+       "conditions": [
+        "31",
+        "60",
+        "72",
+        "134",
+        "160",
+        "171",
+        "190",
+        "200"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Blue to black",
+     "children": [
+      {
+       "name": "Multiple",
+       "conditions": [
+        "47",
+        "143"
+       ]
+      },
+      {
+       "name": "Single",
+       "conditions": [
+        "30",
+        "87",
+        "143"
+       ]
+      },
+      {
+       "name": "Vascular lesions",
+       "conditions": [
+        "16",
+        "96",
+        "120",
+        "257"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Brown to black",
+     "conditions": [
+      "2",
+      "25",
+      "59",
+      "143",
+      "166",
+      "271",
+      "221"
+     ]
+    },
+    {
+     "name": "Flesh-colored",
+     "children": [
+      {
+       "name": "Extremely pruritic papules",
+       "conditions": [
+        "134",
+        "196"
+       ]
+      },
+      {
+       "name": "Other flesh-colored papules",
+       "children": [
+        {
+         "name": "Multiple",
+         "conditions": [
+          "81",
+          "91",
+          "260",
+          "121",
+          "133",
+          "166",
+          "273",
+          "213",
+          "235",
+          "259"
+         ]
+        },
+        {
+         "name": "Single",
+         "conditions": [
+          "25",
+          "59",
+          "121",
+          "166",
+          "259"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Papules with central, expressible core",
+       "conditions": [
+        "47",
+        "151",
+        "153"
+       ]
+      },
+      {
+       "name": "Pedunculated papules",
+       "conditions": [
+        "163",
+        "166",
+        "224"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Hyperkeratotic / scaly plaques and patches",
+     "children": [
+      {
+       "name": "Generalized scaling",
+       "conditions": [
+        "22",
+        "55",
+        "79",
+        "111",
+        "160",
+        "200",
+        "261"
+       ]
+      },
+      {
+       "name": "Localized scaling elsewhere",
+       "children": [
+        {
+         "name": "With significant pruritus",
+         "conditions": [
+          "64",
+          "136",
+          "162",
+          "170",
+          "190",
+          "196",
+          "244"
+         ]
+        },
+        {
+         "name": "Without significant pruritus / other areas",
+         "conditions": [
+          "2",
+          "29",
+          "55",
+          "60",
+          "122",
+          "125",
+          "134",
+          "160",
+          "200",
+          "221",
+          "227",
+          "230"
+         ]
+        },
+        {
+         "name": "Without significant pruritus / sun-exposed areas",
+         "conditions": [
+          "7",
+          "140",
+          "192",
+          "228"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Localized scaling palms and soles",
+       "conditions": [
+        "60",
+        "65",
+        "123",
+        "124",
+        "170",
+        "187",
+        "273",
+        "200",
+        "206"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Linear papules",
+     "conditions": [
+      "50",
+      "55",
+      "68",
+      "81",
+      "104",
+      "134",
+      "153",
+      "200",
+      "213"
+     ]
+    },
+    {
+     "name": "Painful skin papules or papulonodules",
+     "conditions": [
+      "43",
+      "104",
+      "164"
+     ]
+    },
+    {
+     "name": "Smooth red",
+     "children": [
+      {
+       "name": "Abrupt onset",
+       "children": [
+        {
+         "name": "Grouped papules",
+         "conditions": [
+          "50",
+          "82",
+          "117",
+          "152"
+         ]
+        },
+        {
+         "name": "Multiple papules which tend to be symmetrical",
+         "conditions": [
+          "24",
+          "64",
+          "74",
+          "140",
+          "190",
+          "192",
+          "234",
+          "255"
+         ]
+        },
+        {
+         "name": "Very transient (< 24 hrs)",
+         "conditions": [
+          "42",
+          "251"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Gradual onset",
+       "children": [
+        {
+         "name": "Anywhere on body (non-vascular)",
+         "conditions": [
+          "270",
+          "78",
+          "91",
+          "134",
+          "189",
+          "205",
+          "213",
+          "214",
+          "234"
+         ]
+        },
+        {
+         "name": "Anywhere on body (vascular)",
+         "conditions": [
+          "15",
+          "96",
+          "120"
+         ]
+        },
+        {
+         "name": "Head and neck",
+         "conditions": [
+          "3",
+          "92",
+          "140",
+          "192",
+          "210"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Yellow",
+     "children": [
+      {
+       "name": "Asymmetrical yellow lesions",
+       "conditions": [
+        "168",
+        "219"
+       ]
+      },
+      {
+       "name": "Usually bilaterally symmetrical lesions",
+       "conditions": [
+        "70",
+        "161",
+        "199"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Purpura",
+   "description": "Non-blanching red/purple lesion resulting from hemorrhage into skin",
+   "image": "06_purpura.jpg",
+   "children": [
+    {
+     "name": "Non-palpable",
+     "conditions": [
+      "14",
+      "216",
+      "218",
+      "267"
+     ]
+    },
+    {
+     "name": "Palpable",
+     "children": [
+      {
+       "name": "Acral",
+       "conditions": [
+        "140",
+        "209",
+        "223"
+       ]
+      },
+      {
+       "name": "Multiple lesions",
+       "conditions": [
+        "98",
+        "113",
+        "130",
+        "241"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Pustules",
+   "description": "Focal accumulations of inflammatory material",
+   "image": "10_Pustule.jpg",
+   "children": [
+    {
+     "name": "Abscesses",
+     "conditions": [
+      "18",
+      "38",
+      "105"
+     ]
+    },
+    {
+     "name": "Groups of pustules",
+     "conditions": [
+      "29",
+      "37",
+      "60",
+      "82",
+      "114",
+      "204",
+      "233",
+      "234"
+     ]
+    },
+    {
+     "name": "Numerous symmetrical pustules",
+     "conditions": [
+      "64",
+      "152",
+      "202"
+     ]
+    },
+    {
+     "name": "Pustules confined to palms and soles",
+     "conditions": [
+      "6",
+      "60",
+      "65",
+      "202"
+     ]
+    },
+    {
+     "name": "Pustules confined to scalp",
+     "conditions": [
+      "83",
+      "243"
+     ]
+    },
+    {
+     "name": "Pustules primarily on face",
+     "conditions": [
+      "3",
+      "197",
+      "210",
+      "242"
+     ]
+    },
+    {
+     "name": "Sparse, primarily acral pustules with hemorrhage",
+     "conditions": [
+      "89",
+      "150",
+      "198",
+      "229"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sclerosis and induration",
+   "description": "",
+   "image": null,
+   "conditions": [
+    "263",
+    "39",
+    "176",
+    "141",
+    "217"
+   ]
+  },
+  {
+   "name": "Ulcers",
+   "description": "Depressed lesions lacking epidermis and at least part of dermis",
+   "image": "07_Ulcer.jpg",
+   "children": [
+    {
+     "name": "Genital",
+     "children": [
+      {
+       "name": "Not painless",
+       "conditions": [
+        "40",
+        "93",
+        "103",
+        "228",
+        "247"
+       ]
+      },
+      {
+       "name": "Painless",
+       "conditions": [
+        "264"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Leg and foot",
+     "conditions": [
+      "21",
+      "39",
+      "61",
+      "66",
+      "85",
+      "117",
+      "126",
+      "195",
+      "204",
+      "217",
+      "228",
+      "256"
+     ]
+    },
+    {
+     "name": "Other locations",
+     "children": [
+      {
+       "name": "Non-nodular",
+       "conditions": [
+        "1",
+        "18",
+        "23",
+        "29",
+        "66",
+        "103",
+        "117",
+        "126",
+        "195",
+        "204",
+        "227",
+        "228",
+        "264",
+        "250"
+       ]
+      },
+      {
+       "name": "Ulcerating nodule",
+       "conditions": [
+        "262",
+        "228"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "conditions": {
+  "1": {
+   "name": "Abscess",
+   "chapter": "eee0723",
+   "images": [
+    {
+     "file": "D0001-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0001-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "2": {
+   "name": "Acanthosis nigricans",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0002-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0002-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0002-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "3": {
+   "name": "Acne (inflammatory)",
+   "chapter": "eee0719",
+   "images": [
+    {
+     "file": "D0003-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-17.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0003-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0003-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0003-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "4": {
+   "name": "Acral lentiginous melanoma",
+   "chapter": "eee0767",
+   "images": [
+    {
+     "file": "D0004-05.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": true
+    },
+    {
+     "file": "D0004-04.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0004-06.jpg",
+     "credit": "Armand Cognetta, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0004-03.jpg",
+     "credit": "Armand Cognetta, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0004-02.jpg",
+     "credit": "Armand Cognetta, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0004-01.jpg",
+     "credit": "Armand Cognetta, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "5": {
+   "name": "Acromegaly",
+   "chapter": "eee0119",
+   "images": [
+    {
+     "file": "D0005-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0005-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0005-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0005-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "6": {
+   "name": "Acropustulosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0006-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0006-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0006-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0006-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "7": {
+   "name": "Actinic keratosis",
+   "chapter": "eee0720",
+   "images": [
+    {
+     "file": "D0007-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0007-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0007-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0007-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "8": {
+   "name": "Actinic or solar lentigo",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0008-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0008-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0008-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0008-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0008-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "9": {
+   "name": "Acute paronychia",
+   "chapter": "eee0754",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "10": {
+   "name": "Addison's disease",
+   "chapter": "eee0120",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "11": {
+   "name": "Alopecia areata",
+   "chapter": "eee0721",
+   "images": [
+    {
+     "file": "D0011-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0011-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0011-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "12": {
+   "name": "Alopecia totalis",
+   "chapter": "eee0721",
+   "images": [
+    {
+     "file": "D0012-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "13": {
+   "name": "Amalgam tattoo",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "14": {
+   "name": "Amyloidosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0014-01.jpg",
+     "credit": "Robert Parker, MD",
+     "typical": true
+    }
+   ]
+  },
+  "15": {
+   "name": "Angiokeratoma",
+   "chapter": "eee0737",
+   "images": [
+    {
+     "file": "D0015-01.jpg",
+     "credit": "Lewis Rose",
+     "typical": true
+    },
+    {
+     "file": "D0015-02.jpg",
+     "credit": "Lewis Rose",
+     "typical": true
+    }
+   ]
+  },
+  "16": {
+   "name": "Angioma",
+   "chapter": "eee0737",
+   "images": [
+    {
+     "file": "D0016-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0016-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0016-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0016-04.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998.)",
+     "typical": false
+    },
+    {
+     "file": "D0016-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "17": {
+   "name": "Angioneurotic edema",
+   "chapter": "eee0005",
+   "images": [
+    {
+     "file": "D0017-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0017-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0017-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "18": {
+   "name": "Anthrax",
+   "chapter": "eee0286",
+   "images": [
+    {
+     "file": "D0018-02.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0018-03.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0018-04.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "19": {
+   "name": "Drug-induced hyperpigmentation (adriamycin)",
+   "chapter": "eee0003",
+   "images": [
+    {
+     "file": "D0019-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0019-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0019-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "20": {
+   "name": "Aphthous stomatitis",
+   "chapter": "eee0117",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "21": {
+   "name": "Arterial insufficiency",
+   "chapter": "eee0047",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "22": {
+   "name": "Atopic dermatitis",
+   "chapter": "eee0722",
+   "images": [
+    {
+     "file": "D0022-31.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-28.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-27.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-25.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-18.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-16.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 45, Fig. 3-9A.)",
+     "typical": false
+    },
+    {
+     "file": "D0022-15.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 45, Fig. 3-9C.)",
+     "typical": false
+    },
+    {
+     "file": "D0022-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-12.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 44, Fig. 3-9B.)",
+     "typical": false
+    },
+    {
+     "file": "D0022-11.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 45, Fig. 3-9D.)",
+     "typical": false
+    },
+    {
+     "file": "D0022-05.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 52, Fig. 3-23.)",
+     "typical": true
+    },
+    {
+     "file": "D0022-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0022-03.jpg",
+     "credit": "Practcial Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 43, Fig. 3-8A.)",
+     "typical": false
+    },
+    {
+     "file": "D0022-02.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 43, Fig. 3-8B.)",
+     "typical": false
+    },
+    {
+     "file": "D0022-01.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 43, Fig. 3-8C.)",
+     "typical": false
+    }
+   ]
+  },
+  "23": {
+   "name": "Atypical mycobacteria",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "24": {
+   "name": "Autoeczematization",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "25": {
+   "name": "Basal cell carcinoma",
+   "chapter": "eee0766",
+   "images": [
+    {
+     "file": "D0025-51.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 71, Fig. 6-15.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-50.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 117, Fig. 9-16.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-48.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-46.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-38.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-37.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-34.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-30.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 274, Fig. 17-8.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-28.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 272, Fig. 17-5.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-27.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-26.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 273, Fig. 17-6.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-25.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 56, Fig. 6-2.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-24.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0025-23.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-22.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-21.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 269, Fig. 17-1.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-20.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-18.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-17.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-16.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-45.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-44.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-10.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0025-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-49.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 274, Fig. 17-8.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-04.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": true
+    },
+    {
+     "file": "D0025-42.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 271, Fig. 17-4.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-36.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg 251, Fig. 16-3.)",
+     "typical": false
+    },
+    {
+     "file": "D0025-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0025-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "26": {
+   "name": "Bathing trunk nevus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0026-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "27": {
+   "name": "Becker's nevus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0027-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "28": {
+   "name": "Behçet's syndrome",
+   "chapter": "eee0695",
+   "images": [
+    {
+     "file": "D0028-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "29": {
+   "name": "Blastomycosis",
+   "chapter": "eee0290",
+   "images": [
+    {
+     "file": "D0029-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "30": {
+   "name": "Blue nevus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0030-01.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 116, Fig. 9-17.)",
+     "typical": false
+    }
+   ]
+  },
+  "31": {
+   "name": "Bowens disease",
+   "chapter": "eee0768",
+   "images": [
+    {
+     "file": "D0031-05.jpg",
+     "credit": "Skin Surgery: A Practical Guide",
+     "typical": false
+    },
+    {
+     "file": "D0031-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0031-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "32": {
+   "name": "Bullous impetigo",
+   "chapter": "eee0743",
+   "images": [
+    {
+     "file": "D0032-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0032-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "33": {
+   "name": "Bullous pemphigoid",
+   "chapter": "eee0756",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "34": {
+   "name": "Burns",
+   "chapter": "eee0792",
+   "images": [
+    {
+     "file": "D0034-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "35": {
+   "name": "Café au lait spot",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0035-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0035-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "36": {
+   "name": "Calcinosis cutis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0036-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "37": {
+   "name": "Candida",
+   "chapter": "eee0734",
+   "images": [
+    {
+     "file": "D0037-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0037-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "38": {
+   "name": "Furuncle or carbuncle",
+   "chapter": "eee0723",
+   "images": [
+    {
+     "file": "D0038-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "39": {
+   "name": "Cellulitis",
+   "chapter": "eee0724",
+   "images": [
+    {
+     "file": "D0039-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0039-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0039-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0039-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0039-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0039-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0039-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0039-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "40": {
+   "name": "Chancroid",
+   "chapter": "eee0296",
+   "images": [
+    {
+     "file": "D0040-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0040-02.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0040-04.jpg",
+     "credit": "CDC",
+     "typical": false
+    }
+   ]
+  },
+  "42": {
+   "name": "Cholinergic urticaria",
+   "chapter": "eee0005",
+   "images": [
+    {
+     "file": "D0042-01.jpg",
+     "credit": "Kristen Tate",
+     "typical": true
+    }
+   ]
+  },
+  "43": {
+   "name": "Chondrodermatitis nodularis chronica helicis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0043-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "44": {
+   "name": "Chronic paronychia",
+   "chapter": "eee0754",
+   "images": [
+    {
+     "file": "D0044-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "47": {
+   "name": "Acne (open comedones)",
+   "chapter": "eee0719",
+   "images": [
+    {
+     "file": "D0047-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0047-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0047-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "48": {
+   "name": "Clubbing",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0048-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "50": {
+   "name": "Contact dermatitis",
+   "chapter": "eee0726",
+   "images": [
+    {
+     "file": "D0050-26.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-25.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-21.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-20.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-19.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 74, Fig. 4-19.)",
+     "typical": false
+    },
+    {
+     "file": "D0050-16.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-10.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 75, Fig. 4-21.)",
+     "typical": false
+    },
+    {
+     "file": "D0050-09.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 65, Fig. 4-1.)",
+     "typical": false
+    },
+    {
+     "file": "D0050-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-06.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 73, Fig. 4-16A.)",
+     "typical": false
+    },
+    {
+     "file": "D0050-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0050-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0050-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0050-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "52": {
+   "name": "Cutaneous larva migrans",
+   "chapter": "eee0727",
+   "images": [
+    {
+     "file": "D0052-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0052-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "54": {
+   "name": "Cystic hygroma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "55": {
+   "name": "Darier's disease",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0055-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0055-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0055-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0055-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "56": {
+   "name": "Deep fungal infections",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "58": {
+   "name": "Dermatitis herpetiformis",
+   "chapter": "eee0729",
+   "images": [
+    {
+     "file": "D0058-01.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 51, Fig. 3-21.)",
+     "typical": true
+    }
+   ]
+  },
+  "59": {
+   "name": "Dermatofibroma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0059-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0059-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0059-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0059-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0059-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0059-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0059-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0059-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0059-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "60": {
+   "name": "Dermatophyte infection (tinea)",
+   "chapter": "eee0734",
+   "images": [
+    {
+     "file": "D0060-50.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-49.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-48.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-47.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-46.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-45.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-44.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-43.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-42.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-41.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-40.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-39.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0060-38.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-37.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-36.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-32.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-31.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-30.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-29.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-28.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-27.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-26.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-25.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-24.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-22.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-21.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-20.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-19.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-18.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-17.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-07.jpg",
+     "credit": "Practical Allergy (Milgrom EC, Usatine RP, Tan RA, Spector SL. Practical Allergy. Elsevier, New York, 2004. pg. 69, Fig. 4-12.)",
+     "typical": false
+    },
+    {
+     "file": "D0060-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0060-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "61": {
+   "name": "Diabetic foot ulcer",
+   "chapter": "eee0730",
+   "images": [
+    {
+     "file": "D0061-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0061-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "62": {
+   "name": "Discoid lupus erythematosus",
+   "chapter": "eee0697",
+   "images": [
+    {
+     "file": "D0062-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0062-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0062-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "63": {
+   "name": "Down syndrome",
+   "chapter": "eee0067",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "64": {
+   "name": "Drug-induced eruption",
+   "chapter": "eee0003",
+   "images": [
+    {
+     "file": "D0064-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0064-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "65": {
+   "name": "Dyshidrotic eczema",
+   "chapter": "eee0722",
+   "images": [
+    {
+     "file": "D0065-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0065-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "66": {
+   "name": "Ecthyma",
+   "chapter": "eee0743",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "67": {
+   "name": "Epidermal cyst",
+   "chapter": "eee0867",
+   "images": [
+    {
+     "file": "D0067-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0067-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0067-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0067-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "68": {
+   "name": "Epidermal nevi",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0068-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0068-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "69": {
+   "name": "Epidermolysis bullosa",
+   "chapter": "eee0756",
+   "images": [
+    {
+     "file": "D0069-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0069-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0069-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0069-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "70": {
+   "name": "Eruptive xanthomas",
+   "chapter": "eee0135",
+   "images": [
+    {
+     "file": "D0070-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0070-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0070-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0070-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0070-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "71": {
+   "name": "Erythema ab igne",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0071-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0071-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "72": {
+   "name": "Erythema annulare centrifugum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0072-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0072-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0072-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0072-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0072-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "73": {
+   "name": "Erythema infectiosum",
+   "chapter": "eee0565",
+   "images": [
+    {
+     "file": "D0073-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0073-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0073-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "74": {
+   "name": "Erythema multiforme",
+   "chapter": "eee0732",
+   "images": [
+    {
+     "file": "D0074-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0074-02.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": false
+    },
+    {
+     "file": "D0074-03.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": true
+    },
+    {
+     "file": "D0074-04.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": false
+    }
+   ]
+  },
+  "75": {
+   "name": "Erythema nodosum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0075-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "76": {
+   "name": "Erythema toxicum neonatorum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0076-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "77": {
+   "name": "Erythrasma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0077-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0077-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "78": {
+   "name": "Erythroplasia of Queyrat",
+   "chapter": "eee0768",
+   "images": [
+    {
+     "file": "D0078-01.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": true
+    }
+   ]
+  },
+  "79": {
+   "name": "Exfoliative dermatitis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0079-01.jpg",
+     "credit": "Jack Reznick, MD",
+     "typical": true
+    },
+    {
+     "file": "D0079-02.jpg",
+     "credit": "Jack Reznick, MD",
+     "typical": true
+    },
+    {
+     "file": "D0079-03.jpg",
+     "credit": "Jack Reznick, MD",
+     "typical": false
+    }
+   ]
+  },
+  "80": {
+   "name": "Fibromas",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0080-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0080-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0080-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "81": {
+   "name": "Flat warts",
+   "chapter": "eee0760",
+   "images": [
+    {
+     "file": "D0081-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0081-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0081-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0081-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0081-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0081-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "82": {
+   "name": "Folliculitis",
+   "chapter": "eee0733",
+   "images": [
+    {
+     "file": "D0082-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0082-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0082-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0082-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "83": {
+   "name": "Folliculitis decalvans (scarring alopecia)",
+   "chapter": "eee0721",
+   "images": [
+    {
+     "file": "D0083-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "84": {
+   "name": "Freckle",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0084-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "85": {
+   "name": "Gangrene",
+   "chapter": "eee0735",
+   "images": [
+    {
+     "file": "D0085-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0085-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "86": {
+   "name": "Geographic tongue",
+   "chapter": "eee0097",
+   "images": [
+    {
+     "file": "D0086-01.jpg",
+     "credit": "E.J. Mayeaux, MD",
+     "typical": true
+    }
+   ]
+  },
+  "87": {
+   "name": "Giant comedone",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0087-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "88": {
+   "name": "Glomus tumor",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "89": {
+   "name": "Gonococcus",
+   "chapter": "eee0342",
+   "images": [
+    {
+     "file": "D0089-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "91": {
+   "name": "Granuloma annulare",
+   "chapter": "eee0736",
+   "images": [
+    {
+     "file": "D0091-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0091-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0091-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "92": {
+   "name": "Granuloma faciale",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "93": {
+   "name": "Granuloma inguinale",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0093-01.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0093-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0093-03.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0093-04.jpg",
+     "credit": "CDC",
+     "typical": false
+    }
+   ]
+  },
+  "94": {
+   "name": "Halo nevus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0094-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0094-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0094-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "95": {
+   "name": "Hand, foot and mouth disease",
+   "chapter": "eee0309",
+   "images": [
+    {
+     "file": "D0095-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0095-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0095-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "96": {
+   "name": "Hemangioma",
+   "chapter": "eee0737",
+   "images": [
+    {
+     "file": "D0096-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0096-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0096-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0096-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0096-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "97": {
+   "name": "Hemochromatosis",
+   "chapter": "eee0263",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "98": {
+   "name": "Henoch-Schönlein purpura",
+   "chapter": "eee0879",
+   "images": [
+    {
+     "file": "D0098-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0098-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0098-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0098-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "100": {
+   "name": "Herpangina",
+   "chapter": "eee0100",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "101": {
+   "name": "Herpangina simplex",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "102": {
+   "name": "Herpes gestationis",
+   "chapter": "eee0756",
+   "images": [
+    {
+     "file": "D0102-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0102-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0102-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0102-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0102-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0102-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0102-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0102-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0102-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "103": {
+   "name": "Herpes simplex",
+   "chapter": "eee0739",
+   "images": [
+    {
+     "file": "D0103-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0103-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0103-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0103-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "104": {
+   "name": "Herpes zoster (shingles)",
+   "chapter": "eee0313",
+   "images": [
+    {
+     "file": "D0104-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0104-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0104-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0104-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0104-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0104-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0104-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "105": {
+   "name": "Hidradenitis suppurativa",
+   "chapter": "eee0740",
+   "images": [
+    {
+     "file": "D0105-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0105-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0105-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0105-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "106": {
+   "name": "Hirsutism",
+   "chapter": "eee0741",
+   "images": [
+    {
+     "file": "D0106-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "107": {
+   "name": "Hypertrichosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0107-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "108": {
+   "name": "Hypoparathyroidism",
+   "chapter": "eee0147",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "109": {
+   "name": "Hypopituitarism",
+   "chapter": "eee0148",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "110": {
+   "name": "Hypothyroidism",
+   "chapter": "eee0149",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "111": {
+   "name": "Ichthyosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0111-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0111-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0111-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "112": {
+   "name": "Idiopathic guttate hypomelanosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0112-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "113": {
+   "name": "Idiopathic thrombocytopenic purpura (ITP)",
+   "chapter": "eee0266",
+   "images": [
+    {
+     "file": "D0113-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "114": {
+   "name": "Impetigo",
+   "chapter": "eee0743",
+   "images": [
+    {
+     "file": "D0114-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0114-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0114-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0114-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0114-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0114-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0114-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "115": {
+   "name": "Inflammatory hyperpigmentation (dermatitis)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0115-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0115-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0115-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0115-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0115-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0115-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "116": {
+   "name": "Ingrown nails",
+   "chapter": "eee0617",
+   "images": [
+    {
+     "file": "D0116-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0116-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "117": {
+   "name": "Insect bites and infestations",
+   "chapter": "eee0789",
+   "images": [
+    {
+     "file": "D0117-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0117-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0117-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0117-01.jpg",
+     "credit": "Armand Cognetta, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "118": {
+   "name": "Iron deficiency",
+   "chapter": "eee0258",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "119": {
+   "name": "Junctional nevus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0119-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "120": {
+   "name": "Kaposi's sarcoma",
+   "chapter": "eee0491",
+   "images": [
+    {
+     "file": "D0120-02.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 72, Fig. 6-16.)",
+     "typical": true
+    },
+    {
+     "file": "D0120-01.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 105, Fig. 9-4.)",
+     "typical": true
+    }
+   ]
+  },
+  "121": {
+   "name": "Keloid",
+   "chapter": "eee0744",
+   "images": [
+    {
+     "file": "D0121-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0121-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0121-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0121-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "122": {
+   "name": "Keratoacanthoma",
+   "chapter": "eee0768",
+   "images": [
+    {
+     "file": "D0122-10.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 116, Fig. 9-14.)",
+     "typical": false
+    },
+    {
+     "file": "D0122-09.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 73, Fig. 6-18.)",
+     "typical": false
+    },
+    {
+     "file": "D0122-06.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 275, Fig. 17-9.)",
+     "typical": false
+    },
+    {
+     "file": "D0122-05.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 235, Fig. 15-14.)",
+     "typical": false
+    },
+    {
+     "file": "D0122-03.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 116, Fig. 9-14.)",
+     "typical": true
+    },
+    {
+     "file": "D0122-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0122-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0122-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "123": {
+   "name": "Keratoderma climactericum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0123-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0123-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0123-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "124": {
+   "name": "Keratosis palmaris et plantaris",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "125": {
+   "name": "Keratosis pilaris",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0125-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0125-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0125-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0125-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "126": {
+   "name": "Leishmaniasis",
+   "chapter": "eee0874",
+   "images": [
+    {
+     "file": "D0126-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0126-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0126-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0126-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "127": {
+   "name": "Lentigo maligna",
+   "chapter": "eee0767",
+   "images": [
+    {
+     "file": "D0127-03.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 102, Fig. 9-2.)",
+     "typical": true
+    },
+    {
+     "file": "D0127-02.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 42, Fig. 5-3.)",
+     "typical": false
+    }
+   ]
+  },
+  "128": {
+   "name": "Lentigo simplex",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0128-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0128-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0128-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "129": {
+   "name": "Leprosy",
+   "chapter": "eee0310",
+   "images": [
+    {
+     "file": "D0129-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "130": {
+   "name": "Leukocytoclastic vasculitis",
+   "chapter": "eee0058",
+   "images": [
+    {
+     "file": "D0130-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0130-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0130-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "131": {
+   "name": "Leukoplakia",
+   "chapter": "eee0753",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "132": {
+   "name": "Lice",
+   "chapter": "eee0755",
+   "images": [
+    {
+     "file": "D0132-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0132-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0132-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "133": {
+   "name": "Lichen nitidus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0133-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0133-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "134": {
+   "name": "Lichen planus",
+   "chapter": "eee0745",
+   "images": [
+    {
+     "file": "D0134-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0134-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "135": {
+   "name": "Lichen sclerosus et atrophicus",
+   "chapter": "eee0254",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "136": {
+   "name": "Lichen simplex chronicus",
+   "chapter": "eee0751",
+   "images": [
+    {
+     "file": "D0136-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0136-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0136-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "137": {
+   "name": "Lipoma",
+   "chapter": "eee0746",
+   "images": [
+    {
+     "file": "D0137-01.jpg",
+     "credit": "Lane Cooper",
+     "typical": true
+    }
+   ]
+  },
+  "138": {
+   "name": "Livedo reticularis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0138-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0138-02.jpg",
+     "credit": "Amor Khachemoune, MD",
+     "typical": true
+    }
+   ]
+  },
+  "139": {
+   "name": "Liver disease",
+   "chapter": "eee0199",
+   "images": [
+    {
+     "file": "D0139-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0139-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "140": {
+   "name": "Lupus erythematosus",
+   "chapter": "eee0715",
+   "images": [
+    {
+     "file": "D0140-07.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 49, Fig. 5-9.)",
+     "typical": false
+    },
+    {
+     "file": "D0140-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0140-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0140-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "141": {
+   "name": "Lymphedema",
+   "chapter": "eee0271",
+   "images": [
+    {
+     "file": "D0141-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0141-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0141-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "142": {
+   "name": "Male pattern alopecia",
+   "chapter": "eee0721",
+   "images": [
+    {
+     "file": "D0142-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "143": {
+   "name": "Malignant melanoma",
+   "chapter": "eee0767",
+   "images": [
+    {
+     "file": "D0143-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0143-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0143-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0143-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-16.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-17.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0143-18.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0143-19.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "144": {
+   "name": "Mastocytosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0144-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0144-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "145": {
+   "name": "Measles",
+   "chapter": "eee0323",
+   "images": [
+    {
+     "file": "D0145-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0145-02.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0145-03.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0145-04.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0145-05.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0145-06.jpg",
+     "credit": "CDC",
+     "typical": false
+    }
+   ]
+  },
+  "148": {
+   "name": "Melanonychia",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0148-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0148-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0148-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0148-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "149": {
+   "name": "Melasma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0149-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0149-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0149-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0149-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0149-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0149-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0149-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "150": {
+   "name": "Meningococcus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0150-01.jpg",
+     "credit": "Tom Moore, MD",
+     "typical": true
+    },
+    {
+     "file": "D0150-02.jpg",
+     "credit": "Tom Moore, MD",
+     "typical": true
+    },
+    {
+     "file": "D0150-03.jpg",
+     "credit": "Tom Moore, MD",
+     "typical": false
+    },
+    {
+     "file": "D0150-04.jpg",
+     "credit": "Tom Moore, MD",
+     "typical": false
+    },
+    {
+     "file": "D0150-05.jpg",
+     "credit": "Tom Moore, MD",
+     "typical": false
+    },
+    {
+     "file": "D0150-06.jpg",
+     "credit": "Tom Moore, MD",
+     "typical": false
+    },
+    {
+     "file": "D0150-07.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": false
+    },
+    {
+     "file": "D0150-08.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": false
+    },
+    {
+     "file": "D0150-09.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": false
+    },
+    {
+     "file": "D0150-10.jpg",
+     "credit": "UTHSCSA Dermatology",
+     "typical": false
+    }
+   ]
+  },
+  "151": {
+   "name": "Milia",
+   "chapter": "eee0870",
+   "images": [
+    {
+     "file": "D0151-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0151-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0151-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "152": {
+   "name": "Miliaria",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0152-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "153": {
+   "name": "Molluscum contagiosum",
+   "chapter": "eee0749",
+   "images": [
+    {
+     "file": "D0153-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0153-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0153-02.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 149, Fig. 11-12.)",
+     "typical": true
+    }
+   ]
+  },
+  "154": {
+   "name": "Mongolian spot",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0154-01.jpg",
+     "credit": "Angela Shedd",
+     "typical": true
+    }
+   ]
+  },
+  "155": {
+   "name": "Scleroderma (morphea)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0155-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0155-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "156": {
+   "name": "Mucocele",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0156-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "157": {
+   "name": "Mucocutaneous lymph node syndrome (Kawasaki's)",
+   "chapter": "eee0849",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "158": {
+   "name": "Mucous cysts",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0158-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0158-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "159": {
+   "name": "Mycobacterium marinum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0159-01.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 105, Fig 9-3.)",
+     "typical": true
+    },
+    {
+     "file": "D0159-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "160": {
+   "name": "Mycosis fungoides (T-cell lymphoma)",
+   "chapter": "eee0897",
+   "images": [
+    {
+     "file": "D0160-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "161": {
+   "name": "Necrobiosis lipoidica diabeticorum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0161-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "162": {
+   "name": "Neurodermatitis",
+   "chapter": "eee0751",
+   "images": [
+    {
+     "file": "D0162-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0162-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0162-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0162-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0162-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "163": {
+   "name": "Neurofibromatosis",
+   "chapter": "eee0081",
+   "images": [
+    {
+     "file": "D0163-03.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 242, Fig. 15-19.)",
+     "typical": true
+    },
+    {
+     "file": "D0163-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0163-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "164": {
+   "name": "Neuroma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "166": {
+   "name": "Nevus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0166-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0166-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0166-10.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0166-09.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0166-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "167": {
+   "name": "Nevus anemicus",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0167-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0167-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "168": {
+   "name": "Nevus sebaceous",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0168-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0168-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0168-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "169": {
+   "name": "Nicotine stains",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "170": {
+   "name": "Norwegian scabies",
+   "chapter": "eee0763",
+   "images": [
+    {
+     "file": "D0170-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0170-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0170-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0170-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0170-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0170-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "171": {
+   "name": "Nummular eczema",
+   "chapter": "eee0722",
+   "images": [
+    {
+     "file": "D0171-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0171-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0171-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0171-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0171-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "173": {
+   "name": "Onychogryphosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0173-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0173-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "174": {
+   "name": "Onychomycosis",
+   "chapter": "eee0752",
+   "images": [
+    {
+     "file": "D0174-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0174-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0174-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "176": {
+   "name": "Inflammatory breast cancer",
+   "chapter": "eee0483",
+   "images": [
+    {
+     "file": "D0176-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0176-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0176-05.jpg",
+     "credit": "The University of Texas Health Science Center at San Antonio",
+     "typical": false
+    },
+    {
+     "file": "D0176-03.jpg",
+     "credit": "The University of Texas Health Science Center at San Antonio",
+     "typical": false
+    },
+    {
+     "file": "D0176-04.jpg",
+     "credit": "The University of Texas Health Science Center at San Antonio",
+     "typical": false
+    }
+   ]
+  },
+  "177": {
+   "name": "Paronychia",
+   "chapter": "eee0754",
+   "images": [
+    {
+     "file": "D0177-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0177-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0177-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0177-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0177-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0177-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "179": {
+   "name": "Pemphigus",
+   "chapter": "eee0756",
+   "images": [
+    {
+     "file": "D0179-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0179-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0179-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0179-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0179-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "180": {
+   "name": "Periodontal disease",
+   "chapter": "eee0092",
+   "images": [
+    {
+     "file": "D0180-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0180-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "181": {
+   "name": "Periungual warts",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0181-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0181-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0181-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0181-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "182": {
+   "name": "Perleche",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0182-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0182-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0182-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "183": {
+   "name": "Peutz-Jeghers syndrome",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0183-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "184": {
+   "name": "Phenytoin induced hyperplasia",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0184-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0184-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "185": {
+   "name": "Nevus (pigmented)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0185-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0185-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0185-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0185-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "186": {
+   "name": "Pilar cyst",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0186-01.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 247, Fig. 15-21D.)",
+     "typical": true
+    },
+    {
+     "file": "D0186-02.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 247, Fig. 15-21D.)",
+     "typical": true
+    }
+   ]
+  },
+  "187": {
+   "name": "Pitted keratolysis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0187-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "188": {
+   "name": "Pityriasis alba",
+   "chapter": "eee0758",
+   "images": [
+    {
+     "file": "D0188-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0188-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0188-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0188-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "189": {
+   "name": "Pityriasis lichenoides et varioliformis acuta",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0189-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0189-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0189-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0189-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "190": {
+   "name": "Pityriasis rosea",
+   "chapter": "eee0759",
+   "images": [
+    {
+     "file": "D0190-20.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0190-19.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-18.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0190-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0190-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "192": {
+   "name": "Polymorphous light eruption",
+   "chapter": "eee0757",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "193": {
+   "name": "Porphyria cutanea tarda",
+   "chapter": "eee0157",
+   "images": [
+    {
+     "file": "D0193-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0193-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "194": {
+   "name": "Pregnancy",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "195": {
+   "name": "Pressure ulcer",
+   "chapter": "eee0728",
+   "images": [
+    {
+     "file": "D0195-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0195-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0195-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0195-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0195-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "196": {
+   "name": "Prurigo nodularis",
+   "chapter": "eee0751",
+   "images": [
+    {
+     "file": "D0196-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0196-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0196-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0196-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "197": {
+   "name": "Pseudofolliculitis barbae",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "198": {
+   "name": "Pseudomonas",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0198-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "199": {
+   "name": "Pseudoxanthoma elasticum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0199-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "200": {
+   "name": "Psoriasis (plaque)",
+   "chapter": "eee0762",
+   "images": [
+    {
+     "file": "D0200-67.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-66.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-63.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0200-50.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-49.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-26.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-25.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-23.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-21.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-20.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-18.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-16.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0200-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-29.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0200-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-17.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-19.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-22.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0200-24.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "201": {
+   "name": "Psoriasis (nail)",
+   "chapter": "eee0762",
+   "images": [
+    {
+     "file": "D0201-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0201-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0201-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0201-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0201-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0201-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "202": {
+   "name": "Psoriasis (pustular)",
+   "chapter": "eee0762",
+   "images": [
+    {
+     "file": "D0202-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0202-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "204": {
+   "name": "Pyoderma gangrenosum",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0204-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "205": {
+   "name": "Pyogenic granuloma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0205-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0205-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0205-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "206": {
+   "name": "Reiter's syndrome",
+   "chapter": "eee0710",
+   "images": [
+    {
+     "file": "D0206-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0206-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0206-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0206-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0206-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0206-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0206-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "207": {
+   "name": "Renal disease (with uremia)",
+   "chapter": "eee0638",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "208": {
+   "name": "Rheumatoid nodules",
+   "chapter": "eee0711",
+   "images": [
+    {
+     "file": "D0208-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0208-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0208-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "209": {
+   "name": "Rocky Mountain spotted fever",
+   "chapter": "eee0334",
+   "images": [
+    {
+     "file": "D0209-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0209-02.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0209-03.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0209-04.jpg",
+     "credit": "CDC",
+     "typical": false
+    }
+   ]
+  },
+  "210": {
+   "name": "Rosacea",
+   "chapter": "eee0718",
+   "images": [
+    {
+     "file": "D0210-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0210-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0210-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0210-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0210-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "211": {
+   "name": "Roseola infantum",
+   "chapter": "eee0573",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "212": {
+   "name": "Rubella",
+   "chapter": "eee0336",
+   "images": [
+    {
+     "file": "D0212-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0212-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0212-03.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0212-04.jpg",
+     "credit": "CDC",
+     "typical": false
+    }
+   ]
+  },
+  "213": {
+   "name": "Sarcoidosis",
+   "chapter": "eee0690",
+   "images": [
+    {
+     "file": "D0213-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "214": {
+   "name": "Scabies",
+   "chapter": "eee0763",
+   "images": [
+    {
+     "file": "D0214-17.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-16.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0214-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0214-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0214-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "215": {
+   "name": "Scarlet fever",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0215-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0215-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "216": {
+   "name": "Schamberg's disease",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0216-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0216-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0216-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0216-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0216-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "217": {
+   "name": "Scleroderma",
+   "chapter": "eee0713",
+   "images": [
+    {
+     "file": "D0217-01.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": true
+    },
+    {
+     "file": "D0217-03.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": false
+    },
+    {
+     "file": "D0217-04.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": true
+    },
+    {
+     "file": "D0217-05.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": false
+    },
+    {
+     "file": "D0217-06.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": false
+    },
+    {
+     "file": "D0217-07.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": false
+    },
+    {
+     "file": "D0217-08.jpg",
+     "credit": "Jeff Meffert, MD",
+     "typical": false
+    },
+    {
+     "file": "D0217-02.jpg",
+     "credit": "Everett Allen, MD",
+     "typical": false
+    }
+   ]
+  },
+  "218": {
+   "name": "Scurvy",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0218-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0218-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "219": {
+   "name": "Sebaceous hyperplasia",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0219-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0219-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0219-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0219-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "220": {
+   "name": "Seborrheic dermatitis",
+   "chapter": "eee0764",
+   "images": [
+    {
+     "file": "D0220-22.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-16.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-15.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-14.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0220-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0220-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0220-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "221": {
+   "name": "Seborrheic keratosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0221-07.jpg",
+     "credit": "Skin Surgery: A Practical Guide",
+     "typical": false
+    },
+    {
+     "file": "D0221-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0221-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "223": {
+   "name": "Septicemia",
+   "chapter": "eee0338",
+   "images": [
+    {
+     "file": "D0223-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "224": {
+   "name": "Skin tags",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0224-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0224-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0224-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0224-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "225": {
+   "name": "Smallpox",
+   "chapter": "eee0885",
+   "images": [
+    {
+     "file": "D0225-01.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0225-02.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0225-03.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0225-04.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0225-05.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0225-06.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0225-07.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "226": {
+   "name": "Splinter hemorrhage",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0226-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0226-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0226-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "227": {
+   "name": "Sporotrichosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0227-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0227-05.jpg",
+     "credit": "Adam Leight, MD",
+     "typical": true
+    },
+    {
+     "file": "D0227-04.jpg",
+     "credit": "Mary Bonar, MD",
+     "typical": true
+    }
+   ]
+  },
+  "228": {
+   "name": "Squamous cell carcinoma",
+   "chapter": "eee0768",
+   "images": [
+    {
+     "file": "D0228-12.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 118, Fig. 9-17.)",
+     "typical": false
+    },
+    {
+     "file": "D0228-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0228-08.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998. pg. 252, Fig. 16-6.)",
+     "typical": false
+    },
+    {
+     "file": "D0228-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0228-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0228-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0228-05.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": true
+    },
+    {
+     "file": "D0228-04.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0228-02.jpg",
+     "credit": "Skin Cancer Foundation (www.skincancer.org)",
+     "typical": false
+    },
+    {
+     "file": "D0228-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0228-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "229": {
+   "name": "Staphylococcus",
+   "chapter": "eee0723",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "230": {
+   "name": "Stasis dermatitis",
+   "chapter": "eee0773",
+   "images": [
+    {
+     "file": "D0230-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0230-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0230-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0230-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0230-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0230-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0230-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "231": {
+   "name": "Striae",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0231-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "232": {
+   "name": "Subungual hematoma",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0232-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0232-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0232-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "233": {
+   "name": "Swimmer's itch",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0233-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "234": {
+   "name": "Syphilis (secondary)",
+   "chapter": "eee0347",
+   "images": [
+    {
+     "file": "D0234-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0234-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0234-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0234-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "235": {
+   "name": "Syringomas",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0235-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0235-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "237": {
+   "name": "Telangiectasia (lip)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0237-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0237-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "238": {
+   "name": "Telangiectasia with collagen vascular disease",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0238-01.jpg",
+     "credit": "Armand Cognetta, MD",
+     "typical": true
+    }
+   ]
+  },
+  "239": {
+   "name": "Telangiectasia",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0239-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0239-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "240": {
+   "name": "Telogen effluvium",
+   "chapter": "eee0721",
+   "images": [
+    {
+     "file": "D0240-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "241": {
+   "name": "Thrombotic thrombocytopenic purpura (TTP)",
+   "chapter": "eee0282",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "242": {
+   "name": "Tinea barbae",
+   "chapter": "eee0771",
+   "images": [
+    {
+     "file": "D0242-01.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0242-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "243": {
+   "name": "Tinea capitis",
+   "chapter": "eee0771",
+   "images": [
+    {
+     "file": "D0243-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0243-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0243-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0243-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0243-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0243-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0243-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0243-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "244": {
+   "name": "Tinea versicolor",
+   "chapter": "eee0772",
+   "images": [
+    {
+     "file": "D0244-13.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-11.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0244-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0244-03.jpg",
+     "credit": "Angela Shedd",
+     "typical": true
+    },
+    {
+     "file": "D0244-02.jpg",
+     "credit": "Angela Shedd",
+     "typical": false
+    },
+    {
+     "file": "D0244-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "245": {
+   "name": "Topical or injected corticosteroid use",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "246": {
+   "name": "Toxic epidermal necrolysis",
+   "chapter": "eee0770",
+   "images": [
+    {
+     "file": "D0246-01.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0246-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0246-03.jpg",
+     "credit": "CDC",
+     "typical": true
+    }
+   ]
+  },
+  "247": {
+   "name": "Trauma (genital)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0247-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "248": {
+   "name": "Trichotillomania",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0248-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "249": {
+   "name": "Tuberous sclerosis",
+   "chapter": "eee0086",
+   "images": [
+    {
+     "file": "D0249-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "250": {
+   "name": "Tularemia",
+   "chapter": "eee0353",
+   "images": [
+    {
+     "file": "D0250-01.jpg",
+     "credit": "CDC",
+     "typical": false
+    },
+    {
+     "file": "D0250-02.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0250-03.jpg",
+     "credit": "CDC",
+     "typical": true
+    },
+    {
+     "file": "D0250-04.jpg",
+     "credit": "CDC",
+     "typical": false
+    }
+   ]
+  },
+  "251": {
+   "name": "Urticaria (hives)",
+   "chapter": "eee0005",
+   "images": [
+    {
+     "file": "D0251-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0251-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0251-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0251-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0251-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0251-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0251-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0251-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0251-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "252": {
+   "name": "Urticaria pigmentosa",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0252-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "253": {
+   "name": "Vaccinia",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "254": {
+   "name": "Varicella (chickenpox)",
+   "chapter": "eee0297",
+   "images": [
+    {
+     "file": "D0254-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0254-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0254-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0254-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0254-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0254-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "255": {
+   "name": "Vasculitis",
+   "chapter": "eee0058",
+   "images": [
+    {
+     "file": "D0255-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0255-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "256": {
+   "name": "Venous insufficiency",
+   "chapter": "eee0059",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "257": {
+   "name": "Venous lakes",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0257-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0257-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "258": {
+   "name": "Vitiligo",
+   "chapter": "eee0774",
+   "images": [
+    {
+     "file": "D0258-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0258-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "259": {
+   "name": "Verruca vulgaris (common warts)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0259-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0259-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0259-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0259-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "260": {
+   "name": "Human papillomavirus",
+   "chapter": "eee0344",
+   "images": [
+    {
+     "file": "D0260-12.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-10.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0260-06.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0260-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0260-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "261": {
+   "name": "Xerosis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0261-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "262": {
+   "name": "Basal cell carcinoma (rodent ulcer)",
+   "chapter": "eee0766",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "263": {
+   "name": "Basal cell carcinoma (sclerosing)",
+   "chapter": "eee0766",
+   "images": [
+    {
+     "file": "D0263-03.jpg",
+     "credit": "Skin Surgery: A Practical Guide",
+     "typical": true
+    },
+    {
+     "file": "D0263-01.jpg",
+     "credit": "Skin Surgery: A Practical Guide",
+     "typical": false
+    },
+    {
+     "file": "D0263-02.jpg",
+     "credit": "Skin Surgery: A Practical Guide (Usatine R, Moy R, Tobinick E, Siegel D. Skin Surgery: A Practical Guide. Mosby-Year Book, Inc., St. Louis, 1998.)",
+     "typical": false
+    }
+   ]
+  },
+  "264": {
+   "name": "Syphilis (primary)",
+   "chapter": "eee0347",
+   "images": [
+    {
+     "file": "D0264-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "265": {
+   "name": "Syphilis (secondary, palmar/plantar)",
+   "chapter": "eee0347",
+   "images": [
+    {
+     "file": "D0265-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0265-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "266": {
+   "name": "Syphilis (chancre)",
+   "chapter": "eee0347",
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "267": {
+   "name": "Thrombocytopenia",
+   "chapter": "eee0279",
+   "images": [
+    {
+     "file": "D0267-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "268": {
+   "name": "Trauma (nail)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  },
+  "269": {
+   "name": "Angular cheilitis",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0269-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    },
+    {
+     "file": "D0269-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": true
+    }
+   ]
+  },
+  "270": {
+   "name": "Bacillary angiomatosis",
+   "chapter": "eee0295",
+   "images": [
+    {
+     "file": "D0270-01.jpg",
+     "credit": "Skin Surgery: A Practical Guide",
+     "typical": true
+    }
+   ]
+  },
+  "271": {
+   "name": "Nevus (dysplastic)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "D0271-07.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-08.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0271-09.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "273": {
+   "name": "Plantar warts",
+   "chapter": "eee0760",
+   "images": [
+    {
+     "file": "D0273-03.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0273-02.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0273-01.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0273-04.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    },
+    {
+     "file": "D0273-05.jpg",
+     "credit": "Richard Usatine, M.D.",
+     "typical": false
+    }
+   ]
+  },
+  "274": {
+   "name": "Drug related (cytotoxic, thallium, vitamin A)",
+   "chapter": null,
+   "images": [
+    {
+     "file": "Dnoimage.jpg",
+     "credit": null,
+     "typical": false
+    }
+   ]
+  }
+ }
+}

@@ -106,6 +106,7 @@ app.use((req, res, next) => {
 // An overall ceiling per network address, on top of the per-account limits for readers.
 app.use('/api', rateLimit({
   windowMs: 15 * 60 * 1000, limit: 1000, standardHeaders: true, legacyHeaders: false,
+  skip: req => req.path.startsWith('/derm/images/'), // a Derm Expert condition can have 40 photos
   message: { error: 'Too many requests. Please wait a few minutes and try again.' }
 }));
 
@@ -136,6 +137,7 @@ app.use('/api/evidence', require('./routes/evidence'));
 app.use('/api/calculator', require('./routes/calculator'));
 app.use('/api/chapters', require('./routes/chapters'));
 app.use('/api/tools', require('./routes/tools'));
+app.use('/api/derm', require('./routes/derm'));
 app.use('/api/search', require('./routes/site-search'));
 app.use('/api/chapter-edit', require('./routes/chapter-edit'));
 app.use('/api/interest', require('./routes/interest'));

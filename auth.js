@@ -148,6 +148,11 @@ function requireEditor(req, res, next) {
 
 const isReader = req => req.session.role === 'reader';
 
+// The Derm Expert tab (routes/derm.js): editors only until the photos' rights are
+// confirmed; DERM_EXPERT_RELEASED=on opens it to readers with full access too.
+// Takes a session or a users row (role and access).
+const dermExpertOpen = who => who.role === 'editor' || (process.env.DERM_EXPERT_RELEASED === 'on' && who.access === 'full');
+
 function publicUser(user) {
   return {
     username: user.username,
@@ -156,7 +161,8 @@ function publicUser(user) {
     access: user.role === 'editor' ? 'full' : user.access,
     accessRequested: !!user.full_access_requested_at,
     dailyEmail: !!user.daily_email,
-    mustChangePassword: !!user.must_change_password
+    mustChangePassword: !!user.must_change_password,
+    dermExpert: dermExpertOpen(user)
   };
 }
 
@@ -317,4 +323,4 @@ router.post('/daily-email', requireAuth, (req, res) => {
   res.json({ user: publicUser(db.prepare('SELECT * FROM users WHERE id = ?').get(req.session.userId)) });
 });
 
-module.exports = { router, requireAuth, requireEditor, requireFullAccess, isReader, poemsOnly, sendAccessGranted };
+module.exports = { router, requireAuth, requireEditor, requireFullAccess, isReader, poemsOnly, sendAccessGranted, dermExpertOpen };

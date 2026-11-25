@@ -4,6 +4,7 @@ import { loadCalculators, openCalculatorTab, openCalculatorAt, openCalculatorIte
 import { loadChapters, openChapter } from './chapters.js';
 import { loadChapterEditor } from './chapter-editor.js';
 import { loadTools, openTool } from './tools.js';
+import { loadDerm } from './derm.js';
 import { loadCalculatorUpload } from './calculator-upload.js';
 import { loadReaderAdmin } from './reader-admin.js';
 import { t as tr, lang, dateLocale, languagePicker, nm, withLang, learnNames } from './i18n.js';
@@ -19,7 +20,7 @@ const els = {};
   'requestFullPanel', 'requestFullForm', 'requestFullNote', 'requestFullCancel', 'requestFullError', 'requestFullDone',
   'appRoot', 'whoAmI', 'menuBtn', 'userMenu', 'searchHelpBtn', 'searchHelp', 'aboutModal', 'aboutModalBody', 'aboutModalClose', 'settingsToggle', 'logoutBtn',
   'settingsPanel', 'changePasswordForm', 'currentPassword', 'newPassword', 'settingsSaved', 'settingsError',
-  'tabBtnTools', 'tabTools', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
+  'tabBtnTools', 'tabTools', 'tabBtnDerm', 'tabDerm', 'tabBtnUpload', 'tabBtnBrowse', 'tabBtnSearch', 'tabBtnEdit', 'tabBtnDdx', 'tabBtnSigns', 'tabBtnTests', 'tabCalc', 'tabDdx', 'tabBtnChapters', 'tabChapters', 'tabBtnChapterEdit', 'tabChapterEdit', 'tabUpload', 'tabBrowse', 'tabSearch', 'tabEdit',
   'searchForm', 'searchInput', 'searchType', 'searchYears', 'searchAge', 'searchSupertype', 'searchBtn', 'searchCount', 'searchResults',
   'tabBtnEvidence', 'tabEvidence', 'evidenceForm', 'evidenceTopic', 'evidencePoemYears', 'evidenceAge', 'evidenceContent', 'evidencePubmedYears', 'evidenceJournals', 'evidenceGenerateBtn', 'evidenceStatus',
   'poemModal', 'poemModalBody', 'poemModalClose',
@@ -430,11 +431,11 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !els.abo
 function switchTab(name) {
   const panels = {
     upload: els.tabUpload, browse: els.tabBrowse, search: els.tabSearch, evidence: els.tabEvidence,
-    chapters: els.tabChapters, chapteredit: els.tabChapterEdit, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, tools: els.tabTools, edit: els.tabEdit
+    chapters: els.tabChapters, chapteredit: els.tabChapterEdit, ddx: els.tabDdx, signs: els.tabCalc, tests: els.tabCalc, tools: els.tabTools, derm: els.tabDerm, edit: els.tabEdit
   };
   const buttons = {
     upload: els.tabBtnUpload, browse: els.tabBtnBrowse, search: els.tabBtnSearch, evidence: els.tabBtnEvidence,
-    chapters: els.tabBtnChapters, chapteredit: els.tabBtnChapterEdit, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, tools: els.tabBtnTools, edit: els.tabBtnEdit
+    chapters: els.tabBtnChapters, chapteredit: els.tabBtnChapterEdit, ddx: els.tabBtnDdx, signs: els.tabBtnSigns, tests: els.tabBtnTests, tools: els.tabBtnTools, derm: els.tabBtnDerm, edit: els.tabBtnEdit
   };
   for (const panel of new Set(Object.values(panels))) panel.classList.toggle('hidden', panel !== panels[name]);
   for (const [key, button] of Object.entries(buttons)) button.classList.toggle('active', key === name);
@@ -458,6 +459,7 @@ els.tabBtnDdx.addEventListener('click', () => switchTab('ddx'));
 els.tabBtnSigns.addEventListener('click', () => switchTab('signs'));
 els.tabBtnTests.addEventListener('click', () => switchTab('tests'));
 els.tabBtnTools.addEventListener('click', () => switchTab('tools'));
+els.tabBtnDerm.addEventListener('click', () => switchTab('derm'));
 
 let extractedText = '';
 let currentDocId = null;
@@ -2595,6 +2597,7 @@ function applyRole() {
   const limited = poemsOnly();
   [els.tabBtnUpload, els.tabBtnBrowse, els.tabBtnEdit, els.tabBtnChapterEdit, els.tabBtnEvidence].forEach(b => b.classList.toggle('hidden', reader));
   [els.tabBtnChapters, els.tabBtnTools, els.tabBtnTests, els.tabBtnSigns, els.tabBtnDdx].forEach(b => b.classList.toggle('hidden', limited));
+  els.tabBtnDerm.classList.toggle('hidden', !currentUser.dermExpert); // editors only until the photos' rights are confirmed
   document.querySelector('nav.tabs').classList.toggle('hidden', limited); // one tab needs no tab bar
   if (limited) els.searchType.value = 'poems';
   els.searchType.closest('label').classList.toggle('hidden', limited);
@@ -2628,6 +2631,12 @@ async function init(user) {
     openCalculator: (which, num) => { switchTab(which === 'signs' ? 'signs' : 'tests'); openCalculatorAt(which, num); },
     openRiskScore: id => { switchTab('tools'); openTool(id); }
   });
+  if (user.dermExpert) {
+    loadDerm(api, {
+      openChapter: id => { switchTab('chapters'); openChapter(id); },
+      search: term => { switchTab('search'); els.searchInput.value = term; els.searchForm.requestSubmit(); }
+    });
+  }
   if (!isReader()) loadChapterEditor(api, user);
   if (isReader()) return;
   applyNewDocumentDefaults();
