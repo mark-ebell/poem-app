@@ -8,6 +8,7 @@
    "children": [
     {
      "name": "Localized",
+     "description": "Thinning or loss of skin confined to one area",
      "conditions": [
       "62",
       "161",
@@ -25,6 +26,7 @@
    "children": [
     {
      "name": "Associated with nonred separate papules",
+     "description": "Blisters with separate skin-colored or pale papules nearby",
      "conditions": [
       "55",
       "69",
@@ -34,6 +36,7 @@
     },
     {
      "name": "Associated with separate red papules",
+     "description": "Blisters with separate red papules nearby",
      "children": [
       {
        "name": "Asymmetrical lesions",
@@ -61,6 +64,7 @@
     },
     {
      "name": "Non-umbilicated blisters without associated lesions",
+     "description": "Blisters with a smooth, rounded top (no central dimple) and no other lesions",
      "children": [
       {
        "name": "Pinpoint, tiny vesicles",
@@ -85,6 +89,7 @@
     },
     {
      "name": "Umbilicated blisters",
+     "description": "Blisters with a central depression or dimple",
      "conditions": [
       "103",
       "104",
@@ -102,6 +107,7 @@
    "children": [
     {
      "name": "Erosions",
+     "description": "Loss of part or all of the epidermis, not extending into the dermis; heals without scarring",
      "conditions": [
       "37",
       "60",
@@ -114,6 +120,7 @@
     },
     {
      "name": "Excoriations",
+     "description": "Linear or pinpoint erosions caused by scratching or picking",
      "conditions": [
       "22",
       "64",
@@ -137,6 +144,7 @@
    "children": [
     {
      "name": "Acquired hair loss with normal scalp appearance",
+     "description": "Hair loss developing later in life, with no scarring, redness or scale (nonscarring alopecia)",
      "conditions": [
       "11",
       "12",
@@ -151,6 +159,7 @@
     },
     {
      "name": "Hair loss with scarring of scalp",
+     "description": "Smooth, shiny scalp with loss of follicle openings; regrowth is unlikely (scarring alopecia)",
      "conditions": [
       "83",
       "134",
@@ -160,6 +169,7 @@
     },
     {
      "name": "Increased hair growth",
+     "description": "Excess hair in a male pattern in women (hirsutism) or anywhere on the body (hypertrichosis)",
      "children": [
       {
        "name": "Generalized",
@@ -179,6 +189,7 @@
     },
     {
      "name": "Scaling on scalp",
+     "description": "Flakes or plaques of scale on the scalp, with or without hair loss",
      "conditions": [
       "22",
       "62",
@@ -196,6 +207,7 @@
    "children": [
     {
      "name": "Blue and/or black",
+     "description": "Flat lesions that are blue, gray or black, usually from deep pigment or blood",
      "children": [
       {
        "name": "Acquired conditions",
@@ -215,6 +227,7 @@
     },
     {
      "name": "Brown and/or black",
+     "description": "Flat lesions that are tan, brown or black, usually from melanin",
      "children": [
       {
        "name": "Limited to palms and soles",
@@ -254,6 +267,7 @@
     },
     {
      "name": "Hypopigmented and/or white",
+     "description": "Flat lesions lighter than the surrounding skin, from reduced or absent pigment",
      "children": [
       {
        "name": "Acquired",
@@ -289,6 +303,7 @@
     },
     {
      "name": "Red and/or pink",
+     "description": "Flat red or pink lesions, usually from inflammation or dilated vessels; most blanch with pressure",
      "children": [
       {
        "name": "Exanthems",
@@ -360,12 +375,14 @@
    "children": [
     {
      "name": "Fissure or crack",
+     "description": "A linear split in the lip or skin, often at the corners of the mouth",
      "conditions": [
       "269"
      ]
     },
     {
      "name": "Mucosal lesions",
+     "description": "Lesions inside the mouth: gums, cheeks, palate or inner lips",
      "children": [
       {
        "name": "Blistering or ulcerating",
@@ -476,6 +493,7 @@
     },
     {
      "name": "Tongue",
+     "description": "Changes in the color, surface or coating of the tongue",
      "children": [
       {
        "name": "Atrophy",
@@ -508,6 +526,7 @@
    "children": [
     {
      "name": "Nail bed disorders",
+     "description": "Changes under the nail, such as discoloration or separation of the nail from its bed (onycholysis)",
      "children": [
       {
        "name": "Brown to black",
@@ -531,6 +550,7 @@
     },
     {
      "name": "Nail fold disorders",
+     "description": "Changes in the skin around the nail, such as swelling, redness or pus (paronychia)",
      "conditions": [
       "9",
       "44",
@@ -542,6 +562,7 @@
     },
     {
      "name": "Nail plate disorders",
+     "description": "Changes in the nail itself: thickness, shape, color, pitting or ridges",
      "children": [
       {
        "name": "Change in color (black, brown)",
@@ -605,6 +626,7 @@
    "children": [
     {
      "name": "Blue purple nodules",
+     "description": "Firm, deep lesions with a blue to purple color, often vascular",
      "conditions": [
       "96",
       "120",
@@ -614,6 +636,7 @@
     },
     {
      "name": "Cysts",
+     "description": "Sac-like nodules lined by epithelium and filled with fluid or semisolid material",
      "conditions": [
       "67",
       "186"
@@ -621,6 +644,7 @@
     },
     {
      "name": "Flesh-colored to red, sparse, nontender nodules",
+     "description": "A few painless nodules, skin-colored to red",
      "conditions": [
       "96",
       "137",
@@ -632,6 +656,7 @@
     },
     {
      "name": "Tender red nodules",
+     "description": "Painful, inflamed red nodules",
      "children": [
       {
        "name": "Arising in crops",
@@ -652,6 +677,7 @@
     },
     {
      "name": "Tropical / subtropical patients",
+     "description": "Nodules in people who live in or have traveled to tropical or subtropical areas",
      "conditions": [
       "23",
       "56",
@@ -669,6 +695,7 @@
    "children": [
     {
      "name": "Annular plaques",
+     "description": "Ring-shaped plaques, often with a clearer center",
      "children": [
       {
        "name": "Not scaly",
@@ -699,6 +726,7 @@
     },
     {
      "name": "Blue to black",
+     "description": "Raised lesions that are blue, gray or black",
      "children": [
       {
        "name": "Multiple",
@@ -728,6 +756,7 @@
     },
     {
      "name": "Brown to black",
+     "description": "Raised lesions that are tan, brown or black",
      "conditions": [
       "2",
       "25",
@@ -740,6 +769,7 @@
     },
     {
      "name": "Flesh-colored",
+     "description": "Raised lesions the same color as the surrounding skin",
      "children": [
       {
        "name": "Extremely pruritic papules",
@@ -798,6 +828,7 @@
     },
     {
      "name": "Hyperkeratotic / scaly plaques and patches",
+     "description": "Lesions with a thickened outer layer of skin or visible scale",
      "children": [
       {
        "name": "Generalized scaling",
@@ -872,6 +903,7 @@
     },
     {
      "name": "Linear papules",
+     "description": "Papules arranged in a line or streak",
      "conditions": [
       "50",
       "55",
@@ -886,6 +918,7 @@
     },
     {
      "name": "Painful skin papules or papulonodules",
+     "description": "Raised lesions that are tender or painful",
      "conditions": [
       "43",
       "104",
@@ -894,6 +927,7 @@
     },
     {
      "name": "Smooth red",
+     "description": "Raised red lesions with a smooth surface and no scale",
      "children": [
       {
        "name": "Abrupt onset",
@@ -970,6 +1004,7 @@
     },
     {
      "name": "Yellow",
+     "description": "Raised yellow lesions, often from lipid deposits",
      "children": [
       {
        "name": "Asymmetrical yellow lesions",
@@ -997,6 +1032,7 @@
    "children": [
     {
      "name": "Non-palpable",
+     "description": "Flat purpura that can be seen but not felt, as with bleeding disorders or fragile vessels",
      "conditions": [
       "14",
       "216",
@@ -1006,6 +1042,7 @@
     },
     {
      "name": "Palpable",
+     "description": "Raised purpura that can be felt, suggesting inflammation of small vessels (vasculitis)",
      "children": [
       {
        "name": "Acral",
@@ -1035,6 +1072,7 @@
    "children": [
     {
      "name": "Abscesses",
+     "description": "Large, deep collections of pus, usually tender and fluctuant",
      "conditions": [
       "18",
       "38",
@@ -1043,6 +1081,7 @@
     },
     {
      "name": "Groups of pustules",
+     "description": "Pustules clustered in one or a few areas",
      "conditions": [
       "29",
       "37",
@@ -1056,6 +1095,7 @@
     },
     {
      "name": "Numerous symmetrical pustules",
+     "description": "Many pustules spread evenly on both sides of the body",
      "conditions": [
       "64",
       "152",
@@ -1064,6 +1104,7 @@
     },
     {
      "name": "Pustules confined to palms and soles",
+     "description": "Pustules only on the palms and soles",
      "conditions": [
       "6",
       "60",
@@ -1073,6 +1114,7 @@
     },
     {
      "name": "Pustules confined to scalp",
+     "description": "Pustules only on the scalp, often around hair follicles",
      "conditions": [
       "83",
       "243"
@@ -1080,6 +1122,7 @@
     },
     {
      "name": "Pustules primarily on face",
+     "description": "Pustules mainly on the face",
      "conditions": [
       "3",
       "197",
@@ -1089,6 +1132,7 @@
     },
     {
      "name": "Sparse, primarily acral pustules with hemorrhage",
+     "description": "A few pustules, mainly on the hands and feet, with bleeding into or around them",
      "conditions": [
       "89",
       "150",
@@ -1117,6 +1161,7 @@
    "children": [
     {
      "name": "Genital",
+     "description": "Ulcers on the genitals or perineum",
      "children": [
       {
        "name": "Not painless",
@@ -1138,6 +1183,7 @@
     },
     {
      "name": "Leg and foot",
+     "description": "Ulcers on the lower leg or foot",
      "conditions": [
       "21",
       "39",
@@ -1155,6 +1201,7 @@
     },
     {
      "name": "Other locations",
+     "description": "Ulcers elsewhere on the body",
      "children": [
       {
        "name": "Non-nodular",

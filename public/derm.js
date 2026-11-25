@@ -106,6 +106,7 @@ function renderStep(body) {
       const b = el('button', 'tools-item');
       b.type = 'button';
       b.appendChild(el('span', 'tools-item-title', child.name));
+      if (child.description) b.appendChild(el('span', 'tools-item-sub', child.description));
       b.addEventListener('click', () => { trail = [...trail, child]; render(); });
       li.appendChild(b);
       ul.appendChild(li);
