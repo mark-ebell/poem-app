@@ -1102,12 +1102,14 @@ textarea.flag-empty:placeholder-shown { background-color: #fff6d6; border-color:
 /* ---------- Derm Expert (public/derm.js) ---------- */
 .derm-find { max-width: 420px; margin-bottom: 10px; }
 .derm-find label { display: block; }
-.derm-morphs { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
-.derm-morph { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left; background: #fff; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 10px; font-weight: normal; }
+.derm-morphs { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 168px)); gap: 8px; }
+.derm-morphs-plain { grid-template-columns: repeat(auto-fill, minmax(160px, 220px)); }
+.derm-group-head { margin: 16px 0 6px; font-size: 1rem; }
+.derm-morph { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left; background: #fff; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 7px; font-weight: normal; }
 .derm-morph:hover:not(:disabled) { background: #eff4ff; border-color: var(--accent); }
-.derm-morph img { width: 100%; max-width: 160px; aspect-ratio: 1; object-fit: contain; align-self: center; }
-.derm-morph-name { font-weight: 700; color: var(--accent); }
-.derm-morph-desc { font-size: 0.85rem; color: var(--muted); }
+.derm-morph img { width: 100%; max-width: 112px; aspect-ratio: 1; object-fit: contain; align-self: center; }
+.derm-morph-name { font-weight: 700; color: var(--accent); font-size: 0.9rem; }
+.derm-morph-desc { font-size: 0.78rem; color: var(--muted); }
 .derm-trail { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; margin-bottom: 8px; }
 .derm-sep { color: var(--muted); }
 .derm-here { font-weight: 700; }

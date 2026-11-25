@@ -66,23 +66,32 @@ function breadcrumb(box) {
 
 function renderMorphologies(body) {
   body.appendChild(el('p', 'hint', tr('Choose the main type of lesion.')));
-  const grid = el('div', 'derm-morphs');
-  for (const m of data.morphologies) {
-    const b = el('button', 'derm-morph');
-    b.type = 'button';
-    if (m.image) {
-      const img = el('img');
-      img.src = imgUrl(m.image);
-      img.alt = '';
-      img.loading = 'lazy';
-      b.appendChild(img);
+  // Lesion types with an illustration first; the others (mostly body sites) in their own group.
+  const group = (list, className) => {
+    const grid = el('div', className);
+    for (const m of list) {
+      const b = el('button', 'derm-morph');
+      b.type = 'button';
+      if (m.image) {
+        const img = el('img');
+        img.src = imgUrl(m.image);
+        img.alt = '';
+        img.loading = 'lazy';
+        b.appendChild(img);
+      }
+      b.appendChild(el('span', 'derm-morph-name', m.name));
+      if (m.description) b.appendChild(el('span', 'derm-morph-desc', m.description));
+      b.addEventListener('click', () => { trail = [m]; render(); });
+      grid.appendChild(b);
     }
-    b.appendChild(el('span', 'derm-morph-name', m.name));
-    if (m.description) b.appendChild(el('span', 'derm-morph-desc', m.description));
-    b.addEventListener('click', () => { trail = [m]; render(); });
-    grid.appendChild(b);
+    body.appendChild(grid);
+  };
+  group(data.morphologies.filter(m => m.image), 'derm-morphs');
+  const others = data.morphologies.filter(m => !m.image);
+  if (others.length) {
+    body.appendChild(el('h3', 'derm-group-head', tr('Other categories')));
+    group(others, 'derm-morphs derm-morphs-plain');
   }
-  body.appendChild(grid);
 }
 
 function renderStep(body) {
