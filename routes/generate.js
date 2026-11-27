@@ -1,6 +1,6 @@
 const express = require('express');
 const { requireEditor } = require('../auth');
-const { checkPmid } = require('../pmid-check');
+const { checkPmid, doisIn } = require('../pmid-check');
 
 const router = express.Router();
 
@@ -29,6 +29,12 @@ Bottom-Line: In 1 to 4 sentences summarize the main take-home message of the stu
 PubMed ID: Provide the 8-digit PubMed ID (PMID) for the article.
 
 Do not show any bracketed internal background source-tracking tags. Output plain text only, with each field label followed by a colon and its content, nothing else before or after.`;
+
+// The citation with any DOI Claude wrote replaced by the full link at the end.
+function withDoi(ref, doi) {
+  const bare = String(ref).replace(/\s*(?:doi:\s*|https?:\/\/(?:dx\.)?doi\.org\/)10\.\d{4,9}\/\S+/gi, '').trim();
+  return `${bare}${/[.?!]$/.test(bare) ? '' : '.'} https://doi.org/${doi}`;
+}
 
 router.post('/', requireEditor, async (req, res) => {
   const apiKey = process.env.ANTHROPIC_API_KEY;
@@ -71,10 +77,14 @@ router.post('/', requireEditor, async (req, res) => {
     // The PubMed ID is looked up in PubMed and checked against the article (pmid-check.js).
     const line = label => (new RegExp(`^${label}:\\s*(.*)$`, 'im').exec(draft) || [])[1] || '';
     const pmidCheck = await checkPmid({ text, claudeId: line('PubMed ID'), reference: line('Reference') });
-    const fixed = /^PubMed ID:.*$/im.test(draft)
+    let fixed = /^PubMed ID:.*$/im.test(draft)
       ? draft.replace(/^PubMed ID:.*$/im, `PubMed ID: ${pmidCheck.pmid}`)
       : `${draft}\n\nPubMed ID: ${pmidCheck.pmid}`;
     const a = pmidCheck.article;
+    // The Reference ends with the article's DOI as a link (Mark, 2026-11-27): from PubMed when
+    // the article was found there, otherwise the first DOI printed in the PDF.
+    const doi = (a && a.doi) || doisIn(text)[0] || '';
+    if (doi) fixed = fixed.replace(/^(Reference:[ \t]*)(.*)$/im, (m, label, ref) => `${label}${withDoi(ref, doi)}`);
     res.json({
       draft: fixed,
       pmidCheck: { status: pmidCheck.status, pmid: pmidCheck.pmid, claudeId: pmidCheck.claudeId,
@@ -87,3 +97,4 @@ router.post('/', requireEditor, async (req, res) => {
 });
 
 module.exports = router;
+module.exports.withDoi = withDoi;

@@ -80,6 +80,19 @@ function trimParagraph(runs) {
 
 const plain = (text) => [[{ text }]];
 
+function doiRuns(text) {
+  const runs = [];
+  let at = 0;
+  for (const m of text.matchAll(/(?:https?:\/\/(?:dx\.)?doi\.org\/|\bdoi:\s*)(10\.\d{4,9}\/[^\s"<>]+?)(?=[.,;)]*(?:\s|$))/gi)) {
+    if (m.index > at) runs.push({ text: text.slice(at, m.index) });
+    const href = `https://doi.org/${m[1]}`;
+    runs.push(SAFE_HREF.test(href) ? { text: m[0], href } : { text: m[0] });
+    at = m.index + m[0].length;
+  }
+  if (at < text.length) runs.push({ text: text.slice(at) });
+  return runs;
+}
+
 // ---------- One POEM -> { title, byline, sections } ----------
 // A section is { label, paragraphs: [runs, ...] }; the label is shown in bold
 // at the start of the first paragraph. Readers' printouts and the daily email leave out the
@@ -98,7 +111,9 @@ function describePoem(row, { reader = false, popup = false } = {}) {
     if (t) add(label, plain(t));
   };
 
-  simple('Reference', row.reference);
+  // A DOI in the reference ("https://doi.org/10...", or "doi:10..." in older POEMs) is a link.
+  const ref = String(row.reference || '').trim();
+  if (ref) add('Reference', [doiRuns(ref)]);
   simple('Clinical question', row.clinical_question);
   simple('Allocation', row.allocation);
   simple('Funding', row.funding);
