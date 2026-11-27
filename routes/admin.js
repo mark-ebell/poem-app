@@ -91,7 +91,7 @@ router.post('/import-word/commit', requireAdmin, async (req, res) => {
       setting: text(r.setting, 150),
       age_group: [0, 1, 2, 3].includes(age) ? age : null,
       supertype: supertypeCode(r.supertype),
-      synopsis: sanitizeHtml(r.synopsis),
+      synopsis: sanitizeHtml(r.synopsis, { tables: true }),
       bottom_line: sanitizeHtml(r.bottom_line),
       pubmed_id: pubmedId && /^na$/i.test(pubmedId) ? 'NA' : (pubmedId && /^\d{1,9}$/.test(pubmedId) ? pubmedId : null),
       status: 'Published', // the monthly issue has already been published

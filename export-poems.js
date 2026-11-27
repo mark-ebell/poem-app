@@ -2,7 +2,8 @@
 // print-ready HTML page (which the browser turns into a PDF via Print > Save as
 // PDF). Both come from the same description of each POEM, so they match.
 const {
-  Document, Packer, Paragraph, TextRun, ExternalHyperlink, Header, Footer, PageNumber, AlignmentType, HeadingLevel
+  Document, Packer, Paragraph, TextRun, ExternalHyperlink, Header, Footer, PageNumber, AlignmentType, HeadingLevel,
+  Table, TableRow, TableCell, WidthType, BorderStyle, ShadingType
 } = require('docx');
 const { escapeHtml, decodeEntities, poetFullName } = require('./poem-model');
 
@@ -18,18 +19,26 @@ function monthYear(value) {
   return m ? `${MONTHS[Number(m[2]) - 1]} ${m[1]}` : '';
 }
 
-// ---------- Stored HTML (bold, italic, underline, sub/superscript, links, paragraphs) -> paragraphs of runs ----------
-// A run is { text, bold, italic, underline, sup, sub, href } or { br: true }.
+// ---------- Stored HTML (bold, italic, underline, sub/superscript, links, paragraphs, tables) -> paragraphs of runs ----------
+// A run is { text, bold, italic, underline, sup, sub, href } or { br: true }. A paragraph is an
+// array of runs; a table (Synopsis only) is { table: rows }, each row an array of cells
+// { header, runs }.
+const isTable = p => !Array.isArray(p) && !!p.table;
+
 function htmlToParagraphs(html) {
   const tagRe = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)\b([^>]*)>/g;
   const paras = [];
   let cur = [];
   const open = { b: 0, i: 0, u: 0, sup: 0, sub: 0 };
   const hrefs = [];
+  let table = null, row = null, cell = null; // the table being read
   const flush = () => { if (cur.length) paras.push(cur); cur = []; };
+  const endCell = () => { if (cell && row) row.push({ header: cell.header, runs: trimParagraph(cur) }); cell = null; cur = []; };
+  const endRow = () => { endCell(); if (row && row.length && table) table.push(row); row = null; };
   const text = (t) => {
     t = decodeEntities(t.replace(/\s*\n\s*/g, ' '));
     if (!t) return;
+    if (table && !cell) return; // whitespace between cells
     cur.push({
       text: t, bold: open.b > 0, italic: open.i > 0, underline: open.u > 0, sup: open.sup > 0, sub: open.sub > 0,
       href: hrefs.length ? hrefs[hrefs.length - 1] : null
@@ -44,8 +53,16 @@ function htmlToParagraphs(html) {
     last = tagRe.lastIndex;
     const closing = !!m[1];
     const tag = m[2].toLowerCase();
-    if (tag === 'p') flush();
-    else if (tag === 'br') cur.push({ br: true });
+    if (tag === 'table') {
+      if (!closing && !table) { flush(); table = []; }
+      else if (closing && table) { endRow(); if (table.length) paras.push({ table }); table = null; cur = []; }
+    } else if (table && tag === 'tr') { endRow(); if (!closing) row = []; }
+    else if (table && (tag === 'td' || tag === 'th')) {
+      endCell();
+      if (!closing) { if (!row) row = []; cell = { header: tag === 'th' }; cur = []; }
+    }
+    else if (tag === 'p') { if (!table) flush(); else if (cell && cur.length) cur.push({ br: true }); }
+    else if (tag === 'br') { if (!table || cell) cur.push({ br: true }); }
     else if (tag === 'b' || tag === 'strong') bump('b', closing);
     else if (tag === 'i' || tag === 'em') bump('i', closing);
     else if (tag === 'u') bump('u', closing);
@@ -61,11 +78,12 @@ function htmlToParagraphs(html) {
     }
   }
   text(src.slice(last));
+  if (table) { endRow(); if (table.length) paras.push({ table }); cur = []; }
   flush();
 
   return paras
-    .map(trimParagraph)
-    .filter(p => p.some(r => r.text && r.text.trim()));
+    .map(p => (isTable(p) ? p : trimParagraph(p)))
+    .filter(p => isTable(p) || p.some(r => r.text && r.text.trim()));
 }
 
 function trimParagraph(runs) {
@@ -158,6 +176,33 @@ function docxRuns(runs, base = {}) {
   });
 }
 
+// A Synopsis table in Word: thin grey borders, the header cells shaded and bold. width is the
+// width of the text on the page, in twentieths of a point (6.5 inches on Letter with 1-inch margins).
+// runsFn turns a cell's runs into Word runs (each document has its own type size).
+function docxTable(table, runsFn = docxRuns, width = 9360) {
+  const cols = Math.max(...table.map(r => r.length));
+  const colWidth = Math.floor(width / cols);
+  const border = { style: BorderStyle.SINGLE, size: 4, color: '999999' };
+  const borders = { top: border, bottom: border, left: border, right: border };
+  return new Table({
+    width: { size: colWidth * cols, type: WidthType.DXA },
+    columnWidths: Array(cols).fill(colWidth),
+    rows: table.map(row => new TableRow({
+      tableHeader: row.every(c => c.header),
+      children: Array.from({ length: cols }, (_, i) => {
+        const cell = row[i] || { header: false, runs: [] };
+        return new TableCell({
+          width: { size: colWidth, type: WidthType.DXA },
+          borders,
+          margins: { top: 40, bottom: 40, left: 80, right: 80 },
+          shading: cell.header ? { type: ShadingType.CLEAR, color: 'auto', fill: 'EEEEEE' } : undefined,
+          children: [new Paragraph({ children: runsFn(cell.runs, { bold: cell.header }) })]
+        });
+      })
+    }))
+  });
+}
+
 async function buildDocx(rows, meta = {}) {
   const children = [];
   // An optional document title (e.g. the Browse tab's month printout), above the first POEM.
@@ -186,6 +231,11 @@ async function buildDocx(rows, meta = {}) {
     for (const section of poem.sections) {
       section.paragraphs.forEach((runs, i) => {
         const lead = i === 0 ? [new TextRun({ text: `${section.label}: `, bold: true })] : [];
+        if (isTable(runs)) {
+          if (lead.length) children.push(new Paragraph({ spacing: { after: 80 }, children: lead }));
+          children.push(docxTable(runs.table), new Paragraph({ spacing: { after: 140 }, children: [] }));
+          return;
+        }
         children.push(new Paragraph({ spacing: { after: 140 }, children: [...lead, ...docxRuns(runs)] }));
       });
     }
@@ -247,12 +297,53 @@ function runsToHtml(runs) {
   }).join('');
 }
 
+// A Synopsis table in HTML. style: 'email' writes the borders and padding on each cell, as
+// email programs ignore style sheets; otherwise the page's style sheet draws it (class poem-table).
+function tableToHtml(table, { style } = {}) {
+  const cols = Math.max(...table.map(r => r.length));
+  const email = style === 'email';
+  const tableAttr = email
+    ? ' cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 4px 0 10px; font-size: 14px; line-height: 1.4;"'
+    : ' class="poem-table"';
+  const cellStyle = header => (email
+    ? ` style="border: 1px solid #c7ccd3; padding: 4px 8px; vertical-align: top; text-align: left;${header ? ' background: #eef1f5; font-weight: bold;' : ''}"`
+    : '');
+  const rows = table.map(row => '<tr>' + Array.from({ length: cols }, (_, i) => {
+    const cell = row[i] || { header: false, runs: [] };
+    const tag = cell.header ? 'th' : 'td';
+    return `<${tag}${cellStyle(cell.header)}>${runsToHtml(cell.runs)}</${tag}>`;
+  }).join('') + '</tr>').join('');
+  return `<table${tableAttr}>${rows}</table>`;
+}
+
+// A field's paragraphs with their text run together (line breaks become spaces), as the
+// readers' pop-up and the daily email show them. A table stays a table, between the text.
+// Returns blocks: { html } for a stretch of text, { table } for a table's HTML.
+function flowBlocks(paragraphs, tableOpts) {
+  const blocks = [];
+  let text = [];
+  const flush = () => {
+    if (text.length) blocks.push({ html: runsToHtml(text) });
+    text = [];
+  };
+  for (const p of paragraphs) {
+    if (isTable(p)) { flush(); blocks.push({ table: tableToHtml(p.table, tableOpts) }); continue; }
+    if (text.length) text.push({ text: ' ' });
+    text.push(...p.map(r => (r.br ? { text: ' ' } : r)));
+  }
+  flush();
+  return blocks;
+}
+
 // The inside of one POEM: bold title, byline, then each field with a bold label.
 function poemInnerHtml(row, opts) {
   const poem = describePoem(row, opts);
   const byline = poem.byline.map(([l, v]) => `<b>${escapeHtml(l)}:</b> ${escapeHtml(v)}`).join('&nbsp;&nbsp;&nbsp;&nbsp;');
-  const body = poem.sections.map(sec => sec.paragraphs.map((runs, i) =>
-    `<p>${i === 0 ? `<b>${escapeHtml(sec.label)}:</b> ` : ''}${runsToHtml(runs)}</p>`).join('')).join('\n');
+  const body = poem.sections.map(sec => sec.paragraphs.map((runs, i) => {
+    const lead = i === 0 ? `<b>${escapeHtml(sec.label)}:</b> ` : '';
+    if (isTable(runs)) return `${lead ? `<p>${lead}</p>` : ''}${tableToHtml(runs.table)}`;
+    return `<p>${lead}${runsToHtml(runs)}</p>`;
+  }).join('')).join('\n');
   return `<h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}\n${body}\n<p class="disclaimer"><i>${escapeHtml(DISCLAIMER)}</i></p>`;
 }
 
@@ -266,11 +357,14 @@ function buildPoemFragment(row) {
 // so the text simply wraps to the window.
 function buildReaderPoemFragment(row) {
   const poem = describePoem(row, { reader: true, popup: true });
-  const flow = paragraphs => runsToHtml(paragraphs
-    .map(runs => runs.map(r => (r.br ? { text: ' ' } : r)))
-    .reduce((all, runs, i) => all.concat(i ? [{ text: ' ' }] : [], runs), []));
   const byline = poem.byline.map(([l, v]) => `<b>${escapeHtml(l)}:</b> ${escapeHtml(v)}`).join(' ');
-  const body = poem.sections.map(sec => `<p><b>${escapeHtml(sec.label)}:</b> ${flow(sec.paragraphs)}</p>`).join('');
+  const body = poem.sections.map(sec => {
+    const blocks = flowBlocks(sec.paragraphs);
+    if (!blocks[0] || !blocks[0].html) blocks.unshift({ html: '' });
+    return blocks.map((b, i) => (b.table
+      ? b.table
+      : `<p>${i === 0 ? `<b>${escapeHtml(sec.label)}:</b> ` : ''}${b.html}</p>`)).join('');
+  }).join('');
   return `<article class="poem-view reader-view"><h1>${escapeHtml(poem.title)}</h1>${byline ? `<p class="byline">${byline}</p>` : ''}${body}<p class="disclaimer"><i>${escapeHtml(DISCLAIMER)}</i></p></article>`;
 }
 
@@ -291,10 +385,16 @@ function buildPrintHtml(rows, meta = {}) {
   .byline { margin-bottom: 12pt; }
   .disclaimer { margin-top: 10pt; }
   a { color: #0563c1; }
+  .poem-table { border-collapse: collapse; margin: 0 0 9pt; page-break-inside: avoid; }
+  .poem-table th, .poem-table td { border: 0.5pt solid #999; padding: 2pt 5pt; vertical-align: top; text-align: left; }
+  .poem-table th { background: #eee; }
 </style></head><body>
 <p class="runhead">${description}</p>
 ${poems}
 </body></html>`;
 }
 
-module.exports = { buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment, htmlToParagraphs, describePoem, runsToHtml, monthYear, DISCLAIMER };
+module.exports = {
+  buildDocx, buildPrintHtml, buildPoemFragment, buildReaderPoemFragment, htmlToParagraphs, describePoem, runsToHtml,
+  isTable, docxTable, tableToHtml, flowBlocks, monthYear, DISCLAIMER
+};

@@ -6,7 +6,7 @@ const {
   HeadingLevel, TabStopType, InternalHyperlink, Bookmark
 } = require('docx');
 const { poemsForSummary, cutoffMonth, compileQuery } = require('./search');
-const { htmlToParagraphs, DISCLAIMER } = require('./export-poems');
+const { htmlToParagraphs, isTable, docxTable, DISCLAIMER } = require('./export-poems');
 const pm = require('./pubmed');
 
 // Supertype code, the name shown in the document, and (below) the section it falls in
@@ -125,6 +125,12 @@ function poemEntry(p) {
   for (const [label, html] of [['Synopsis', p.synopsis], ['Bottom-Line', p.bottom_line]]) {
     htmlToParagraphs(html).forEach((runs, i) => {
       const lead = i === 0 ? [t(`${label}: `, true)] : [];
+      if (isTable(runs)) { // a Synopsis table, across the page (7.5 inches between half-inch margins)
+        if (lead.length) out.push(para(lead, { spacing: { after: 40 } }));
+        out.push(docxTable(runs.table, (cellRuns, { bold }) => richRuns(cellRuns.map(r => ({ ...r, bold: r.bold || bold })), POEM_SIZE), 10800),
+          para([], { spacing: { after: 60 } }));
+        return;
+      }
       out.push(para([...lead, ...richRuns(runs, POEM_SIZE)], { spacing: { after: 60 } }));
     });
   }

@@ -30,6 +30,7 @@ const els = {};
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'loeHelpBtn', 'loeModal', 'loeModalClose', 'pubmedIdInput', 'pubmedUrlDisplay',
   'synopsisEditor', 'bottomLineEditor', 'btnUndo', 'btnRedo', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink', 'btnPastePlain', 'poemLinkInput', 'btnPoemLink',
+  'btnTable', 'tableTools', 'btnRowAdd', 'btnColAdd', 'btnRowDel', 'btnColDel', 'btnTableDel',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
@@ -784,6 +785,7 @@ els.pubmedIdInput.addEventListener('input', updatePubmedUrlDisplay);
 
 // ---------- Formatting toolbar ----------
 [els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink, els.btnPastePlain, els.btnPoemLink,
+  els.btnTable, els.btnRowAdd, els.btnColAdd, els.btnRowDel, els.btnColDel, els.btnTableDel,
   els.reviewBtn, els.acceptBtn, els.rejectBtn].forEach(btn => {
   btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep focus/selection in editor
 });
@@ -834,6 +836,165 @@ richEditors.forEach(ed => {
     plainPasteKey = false;
     e.preventDefault();
     insertPlainText(e.clipboardData.getData('text/plain'));
+  });
+});
+
+// ---------- Tables (Synopsis only) ----------
+// ▦ Table puts a table below the paragraph the cursor is in; its first row is the heading row.
+// While the cursor is in a table, + Row, + Column, − Row, − Column and Delete table appear,
+// and Tab moves to the next cell (Shift+Tab to the one before; Tab in the last cell adds a row).
+// The Bottom-line has no tables: one pasted there becomes a line of text for each row.
+function selectionElement() {
+  const sel = window.getSelection();
+  if (!sel.rangeCount) return null;
+  const n = sel.anchorNode;
+  return n && (n.nodeType === Node.ELEMENT_NODE ? n : n.parentElement);
+}
+function currentCell() {
+  const el = selectionElement();
+  const cell = el && el.closest('td, th');
+  return cell && els.synopsisEditor.contains(cell) && !cell.closest('table.tc-del-table') ? cell : null;
+}
+function placeCaret(node, atEnd = false) {
+  const range = document.createRange();
+  range.selectNodeContents(node);
+  range.collapse(!atEnd);
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
+}
+// A table needs a paragraph after it, or there is nowhere to click to type below it.
+function ensureParagraphAfterTables(root) {
+  // (A table marked as deleted is followed by its replacement, which needs none between them.)
+  root.querySelectorAll(':scope > table:not(.tc-del-table)').forEach(t => {
+    const next = t.nextElementSibling;
+    if (!next || next.tagName === 'TABLE') t.after(Object.assign(document.createElement('p'), { innerHTML: '<br>' }));
+  });
+}
+// Marks a table change for track changes, as typing would.
+function tableEdited() {
+  const ed = richEditors[0];
+  if (ed.baseline === null) return;
+  clearTimeout(ed.timer);
+  ed.timer = setTimeout(() => renderTrackedDiff(ed), TRACK_DEBOUNCE_MS);
+}
+function newCell(tag) {
+  const c = document.createElement(tag);
+  c.innerHTML = '<br>';
+  return c;
+}
+function updateTableTools() {
+  els.tableTools.classList.toggle('hidden', !currentCell());
+}
+document.addEventListener('selectionchange', updateTableTools);
+
+els.btnTable.addEventListener('click', () => {
+  const el = selectionElement();
+  if (!el || !els.synopsisEditor.contains(el)) {
+    alert('Click in the Synopsis where the table should go, then click Table. (Tables can go in the Synopsis only.)');
+    return;
+  }
+  if (el.closest('td, th')) { alert('The cursor is in a table. Click in the text below it first.'); return; }
+  const answer = prompt('How many rows and columns? For example, 4 x 3 is 4 rows (the first is the heading row) and 3 columns.', '3 x 3');
+  if (answer === null) return;
+  const m = /^\s*(\d+)\s*(?:x|×|\*|,|by|\s)\s*(\d+)\s*$/i.exec(answer);
+  const rows = m ? Number(m[1]) : 0, cols = m ? Number(m[2]) : 0;
+  if (!(rows >= 1 && rows <= 40 && cols >= 1 && cols <= 10)) {
+    alert('Please type the rows and columns like 4 x 3 (up to 40 rows and 10 columns).');
+    return;
+  }
+  formHistory.action(() => {
+    const ed = els.synopsisEditor;
+    const table = document.createElement('table');
+    for (let r = 0; r < rows; r++) {
+      const tr = table.insertRow();
+      for (let c = 0; c < cols; c++) tr.appendChild(newCell(r === 0 ? 'th' : 'td'));
+    }
+    // The paragraph (or line) the cursor is in: the table goes below it, or replaces it if it is empty.
+    let block = el === ed ? null : el;
+    while (block && block.parentElement !== ed) block = block.parentElement;
+    if (block && block.nodeType === Node.ELEMENT_NODE && !block.textContent.trim() && block.tagName !== 'TABLE') block.replaceWith(table);
+    else if (block) block.after(table);
+    else ed.appendChild(table);
+    ensureParagraphAfterTables(ed);
+    placeCaret(table.rows[0].cells[0]);
+  });
+  tableEdited();
+});
+
+// Runs a change to the table the cursor is in: fn(cell, row, table) returns the cell to put the cursor in.
+function tableAction(fn) {
+  const cell = currentCell();
+  if (!cell) return;
+  formHistory.action(() => {
+    const target = fn(cell, cell.parentElement, cell.closest('table'));
+    if (target) placeCaret(target);
+    ensureParagraphAfterTables(els.synopsisEditor);
+  });
+  tableEdited();
+  updateTableTools();
+}
+function addRowBelow(cell, row) {
+  const tr = document.createElement('tr');
+  for (const c of row.cells) tr.appendChild(newCell('td'));
+  row.after(tr);
+  return tr.cells[Math.min(cell.cellIndex, tr.cells.length - 1)];
+}
+// After a row or the table goes: the paragraph below the table gets the cursor.
+function paragraphAfter(table) {
+  ensureParagraphAfterTables(els.synopsisEditor);
+  return table.nextElementSibling;
+}
+els.btnRowAdd.addEventListener('click', () => tableAction(addRowBelow));
+els.btnColAdd.addEventListener('click', () => tableAction((cell, row, table) => {
+  const at = cell.cellIndex;
+  for (const tr of table.rows) {
+    const ref = tr.cells[Math.min(at, tr.cells.length - 1)];
+    const added = newCell(ref && ref.tagName === 'TH' ? 'th' : 'td');
+    if (ref) ref.after(added); else tr.appendChild(added);
+  }
+  return row.cells[at + 1];
+}));
+els.btnRowDel.addEventListener('click', () => tableAction((cell, row, table) => {
+  const next = row.nextElementSibling || row.previousElementSibling;
+  if (!next) { const after = paragraphAfter(table); table.remove(); return after; }
+  row.remove();
+  return next.cells[Math.min(cell.cellIndex, next.cells.length - 1)];
+}));
+els.btnColDel.addEventListener('click', () => tableAction((cell, row, table) => {
+  const at = cell.cellIndex;
+  if (Array.from(table.rows).every(tr => tr.cells.length <= 1)) { const after = paragraphAfter(table); table.remove(); return after; }
+  for (const tr of Array.from(table.rows)) if (tr.cells[at]) tr.cells[at].remove();
+  return row.cells[Math.min(at, row.cells.length - 1)];
+}));
+els.btnTableDel.addEventListener('click', () => tableAction((cell, row, table) => {
+  const after = paragraphAfter(table);
+  table.remove();
+  return after;
+}));
+
+els.synopsisEditor.addEventListener('keydown', e => {
+  if (e.key !== 'Tab' || e.metaKey || e.ctrlKey || e.altKey) return;
+  const cell = currentCell();
+  if (!cell) return;
+  e.preventDefault();
+  const cells = Array.from(cell.closest('table').querySelectorAll('th, td'));
+  const i = cells.indexOf(cell) + (e.shiftKey ? -1 : 1);
+  if (i >= 0 && i < cells.length) placeCaret(cells[i], true);
+  else if (i >= cells.length) tableAction(addRowBelow);
+});
+
+// A table pasted into the Bottom-line: a paragraph for each row, its cells separated by spaces.
+els.bottomLineEditor.addEventListener('input', () => {
+  const tables = els.bottomLineEditor.querySelectorAll('table');
+  if (!tables.length) return;
+  tables.forEach(t => {
+    const paras = Array.from(t.rows).map(tr => {
+      const p = document.createElement('p');
+      p.textContent = Array.from(tr.cells).map(c => c.textContent.trim()).filter(Boolean).join('   ');
+      return p;
+    }).filter(p => p.textContent);
+    t.replaceWith(...paras);
   });
 });
 
@@ -982,7 +1143,7 @@ function getStyleFlags(node, root) {
 // still-present and silently un-mark the deletion.
 function isInsideTrackedDeletion(el, root) {
   while (el && el !== root) {
-    if (el.classList && el.classList.contains('tc-del')) return true;
+    if (el.classList && (el.classList.contains('tc-del') || el.classList.contains('tc-del-table'))) return true;
     el = el.parentElement;
   }
   return false;
@@ -1005,12 +1166,24 @@ function tokenizeParagraph(pEl) {
   return tokens;
 }
 
+// A table is one token. Two tables with the same rows and columns count as the same table,
+// and their cells are compared one by one; a table whose shape changed is shown as the old
+// table deleted and the new one inserted. A table already marked as deleted is not live content.
+function tokenizeTable(tableEl) {
+  const rows = Array.from(tableEl.rows).map(tr => Array.from(tr.cells).map(cell => ({
+    header: cell.tagName === 'TH', tokens: tokenizeParagraph(cell)
+  })));
+  return { isTable: true, rows, text: `\u0000table ${rows.map(r => r.length).join(',')}` };
+}
+
 function tokenizeDoc(rootEl) {
-  const blocks = rootEl.children.length ? Array.from(rootEl.children) : [rootEl];
+  const blocks = (rootEl.children.length ? Array.from(rootEl.children) : [rootEl])
+    .filter(b => !(b.classList && b.classList.contains('tc-del-table')));
   const tokens = [];
   blocks.forEach((b, i) => {
     if (i > 0) tokens.push({ text: '', isBreak: true });
-    tokens.push(...tokenizeParagraph(b));
+    if (b.tagName === 'TABLE') tokens.push(tokenizeTable(b));
+    else tokens.push(...tokenizeParagraph(b));
   });
   return tokens;
 }
@@ -1032,7 +1205,7 @@ function diffTokens(a, b) {
   };
   let i = 0, j = 0;
   while (i < n && j < m) {
-    if (key(a[i]) === key(b[j])) { push('equal', b[j]); i++; j++; }
+    if (key(a[i]) === key(b[j])) { push('equal', b[j].isTable ? { ...b[j], base: a[i] } : b[j]); i++; j++; }
     else if (dp[i + 1][j] >= dp[i][j + 1]) { push('delete', a[i]); i++; }
     else { push('insert', b[j]); j++; }
   }
@@ -1063,36 +1236,63 @@ function renderToken(tok) {
   return html;
 }
 
+const wrapChange = (type, inner) => {
+  if (!inner) return '';
+  if (type === 'insert') return `<ins class="tc-ins">${inner}</ins>`;
+  if (type === 'delete') return `<del class="tc-del">${inner}</del>`;
+  return inner;
+};
+
+// A table token as HTML. type 'equal': each cell compared with the same cell before;
+// 'insert' and 'delete': the whole table marked.
+function renderTableToken(tok, type) {
+  const cls = type === 'insert' ? ' class="tc-ins-table"' : type === 'delete' ? ' class="tc-del-table"' : '';
+  const rows = tok.rows.map((row, r) => '<tr>' + row.map((cell, c) => {
+    const tag = cell.header ? 'th' : 'td';
+    let inner;
+    if (type === 'equal' && tok.base) {
+      const before = tok.base.rows[r][c].tokens;
+      inner = diffTokens(before, cell.tokens).map(ch => wrapChange(ch.type, ch.tokens.map(renderToken).join(''))).join('');
+    } else inner = cell.tokens.map(renderToken).join('');
+    return `<${tag}>${inner || '<br>'}</${tag}>`;
+  }).join('') + '</tr>').join('');
+  return `<table${cls}>${rows}</table>`;
+}
+
 function renderChunks(chunks) {
-  const paras = [];
+  // blocks: the HTML of each paragraph and table. current: the paragraph being built (null
+  // straight after a table, as the break that follows a table starts no paragraph of its own).
+  const blocks = [];
   let current = [];
-  const flush = () => { paras.push(current.join('')); current = []; };
-  const wrap = (type, inner) => {
-    if (!inner) return '';
-    if (type === 'insert') return `<ins class="tc-ins">${inner}</ins>`;
-    if (type === 'delete') return `<del class="tc-del">${inner}</del>`;
-    return inner;
+  let pending = null; // { type, html: [] }: changed text waiting to be wrapped
+  const flushPending = () => {
+    if (pending && pending.html.length) (current || (current = [])).push(wrapChange(pending.type, pending.html.join('')));
+    pending = null;
   };
-
+  const endParagraph = () => {
+    flushPending();
+    if (current !== null) blocks.push(`<p>${current.join('') || '<br>'}</p>`);
+    current = [];
+  };
   chunks.forEach(chunk => {
-    if (chunk.type === 'equal') {
-      chunk.tokens.forEach(t => (t.isBreak ? flush() : current.push(renderToken(t))));
-    } else {
-      let buffer = [];
-      chunk.tokens.forEach(t => {
-        if (t.isBreak) {
-          if (buffer.length) { current.push(wrap(chunk.type, buffer.join(''))); buffer = []; }
-          flush();
-        } else {
-          buffer.push(renderToken(t));
-        }
-      });
-      if (buffer.length) current.push(wrap(chunk.type, buffer.join('')));
-    }
+    chunk.tokens.forEach(t => {
+      if (t.isBreak) return endParagraph();
+      if (t.isTable) {
+        flushPending();
+        if (current && current.length) blocks.push(`<p>${current.join('')}</p>`);
+        blocks.push(renderTableToken(t, chunk.type));
+        current = null;
+        return;
+      }
+      if (current === null) current = [];
+      if (chunk.type === 'equal') { flushPending(); current.push(renderToken(t)); return; }
+      if (!pending || pending.type !== chunk.type) { flushPending(); pending = { type: chunk.type, html: [] }; }
+      pending.html.push(renderToken(t));
+    });
   });
-  flush();
-
-  return paras.map(p => `<p>${p || '<br>'}</p>`).join('');
+  flushPending();
+  if (current !== null) blocks.push(`<p>${current.join('') || '<br>'}</p>`);
+  return blocks.join('');
 }
 
 // ---------- Track changes: controls ----------
@@ -1154,7 +1354,7 @@ function setCaretOffset(root, target) {
 }
 
 function hasPendingTrackedMarks(ed) {
-  const marks = (e) => !!e.el.querySelector('ins.tc-ins, del.tc-del');
+  const marks = (e) => !!e.el.querySelector('ins.tc-ins, del.tc-del, table.tc-ins-table, table.tc-del-table');
   return ed ? marks(ed) : richEditors.some(marks);
 }
 
@@ -1180,7 +1380,8 @@ function renderTrackedDiff(ed) {
   ed.el.innerHTML = renderChunks(chunks);
   // Deleted text is shown for reference only; it must not be directly editable
   // (typing "inside" it would otherwise be silently discarded on Accept).
-  ed.el.querySelectorAll('del.tc-del').forEach(d => { d.contentEditable = 'false'; });
+  ed.el.querySelectorAll('del.tc-del, table.tc-del-table').forEach(d => { d.contentEditable = 'false'; });
+  ensureParagraphAfterTables(ed.el);
   setCaretOffset(ed.el, caret);
   updateTrackButtonsState();
   formHistory.refresh();
@@ -1190,8 +1391,9 @@ function renderTrackedDiff(ed) {
 // insertions kept as normal text). Used for accepting and for saving.
 function acceptedHtml(ed) {
   const clone = ed.el.cloneNode(true);
-  clone.querySelectorAll('del.tc-del').forEach(el => el.remove());
+  clone.querySelectorAll('del.tc-del, table.tc-del-table').forEach(el => el.remove());
   clone.querySelectorAll('ins.tc-ins').forEach(el => el.replaceWith(...el.childNodes));
+  clone.querySelectorAll('table.tc-ins-table').forEach(el => el.removeAttribute('class'));
   return clone.innerHTML;
 }
 
@@ -1264,7 +1466,7 @@ const formHistory = (() => {
       clearTimeout(ed.timer);
       ed.el.innerHTML = st.h[i];
       ed.baseline = st.b[i];
-      ed.el.querySelectorAll('del.tc-del').forEach(d => { d.contentEditable = 'false'; });
+      ed.el.querySelectorAll('del.tc-del, table.tc-del-table').forEach(d => { d.contentEditable = 'false'; });
     });
     els.trackChangesToggle.checked = st.t;
     updatePubmedUrlDisplay();
@@ -1589,6 +1791,7 @@ async function openDoc(id) {
   setSelectValue(els.loeSelect, doc.loe);
   els.pubmedIdInput.value = doc.pubmedId || '';
   els.synopsisEditor.innerHTML = doc.synopsis || '';
+  ensureParagraphAfterTables(els.synopsisEditor);
   els.bottomLineEditor.innerHTML = doc.bottomLine || '';
   updatePubmedUrlDisplay();
   resetTrackingState();

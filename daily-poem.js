@@ -23,7 +23,7 @@ const crypto = require('crypto');
 const db = require('./db');
 const { sendMail, sendBatch, BATCH_SIZE } = require('./mail');
 const { unsubscribeUrl } = require('./unsubscribe');
-const { describePoem, runsToHtml, DISCLAIMER } = require('./export-poems');
+const { describePoem, isTable, flowBlocks, DISCLAIMER } = require('./export-poems');
 const { escapeHtml } = require('./poem-model');
 
 const TIME_ZONE = 'America/New_York';
@@ -106,7 +106,9 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
   // Clinical question, Bottom-Line and Reference first, then the rest in their usual order.
   const FIRST = ['Clinical question', 'Bottom-Line', 'Reference'];
   poem.sections.sort((a, b) => (FIRST.includes(a.label) ? FIRST.indexOf(a.label) : FIRST.length) - (FIRST.includes(b.label) ? FIRST.indexOf(b.label) : FIRST.length));
-  const flow = paragraphs => paragraphs.map(runs => runsToHtml(runs.map(r => (r.br ? { text: ' ' } : r)))).join(' ');
+  // Text runs together; a Synopsis table stays a table (on a line of its own).
+  const flow = paragraphs => flowBlocks(paragraphs, { style: 'email' })
+    .map(b => (b.table ? `<br>${b.table}` : b.html)).join(' ').replace(/^<br>/, '');
   const link = 'color: #1f4b6e;';
   const sections = poem.sections.map(sec => {
     const bottom = sec.label === 'Bottom-Line';
@@ -143,7 +145,11 @@ function buildEmail(row, sendDate, { unsubscribe = unsubscribeUrl(null) } = {}) 
 </td></tr></table>
 </body></html>`;
 
-  const plain = p => p.map(runs => runs.map(r => (r.br ? ' ' : r.text)).join('')).join(' ');
+  const plainRuns = runs => runs.map(r => (r.br ? ' ' : r.text)).join('');
+  // A table in the text version: a line for each row, its cells separated by " | ".
+  const plain = p => p.map(item => (isTable(item)
+    ? '\n' + item.table.map(row => row.map(c => plainRuns(c.runs)).join(' | ')).join('\n') + '\n'
+    : plainRuns(item))).join(' ').replace(/ *\n */g, '\n').trim();
   const text = [
     'Primary Care POEMs:',
     'Your Clinical Awareness System',

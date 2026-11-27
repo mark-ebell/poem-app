@@ -255,6 +255,18 @@ button:disabled {
   text-decoration: underline;
 }
 
+/* Tables (Synopsis only), in the editor and the POEM pop-ups */
+.editor table, .poem-view table.poem-table { border-collapse: collapse; margin: 0 0 10px; font-size: inherit; }
+.editor td, .editor th, .poem-table td, .poem-table th {
+  border: 1px solid #9ca3af; padding: 3px 8px; vertical-align: top; text-align: left;
+}
+.editor td, .editor th { min-width: 4em; }
+.editor th, .poem-table th { background: #f3f4f6; font-weight: bold; }
+.editor table.tc-ins-table { outline: 2px solid #86efac; }
+.editor table.tc-del-table { outline: 2px solid #fca5a5; color: #991b1b; text-decoration: line-through; opacity: 0.7; cursor: default; }
+.toolbar .table-tools { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.toolbar .table-tools.hidden { display: none; }
+
 .editor del.tc-del {
   background: #fee2e2;
   color: #991b1b;

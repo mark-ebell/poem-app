@@ -58,6 +58,9 @@ function htmlToText(html) {
   return decodeEntities(
     String(html || '')
       .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<\/t[dh]>/gi, ' ') // a table's cells and rows (Synopsis tables) stay apart
+      .replace(/<\/tr>/gi, '\n')
+      .replace(/<\/?table[^>]*>/gi, '\n\n')
       .replace(/<\/p>\s*<p[^>]*>/gi, '\n\n')
       .replace(/<[^>]+>/g, '')
   ).trim();
@@ -68,18 +71,37 @@ const SAFE_STYLE_PROP = /^(font-family|font-size)$/i;
 const SAFE_STYLE_VALUE = /^[A-Za-z0-9 ,.'"-]+$/;
 const ALLOWED_SIMPLE = new Set(['p', 'br', 'b', 'strong', 'i', 'em', 'u', 'sup', 'sub']);
 const DROP_WITH_CONTENT = new Set(['script', 'style', 'iframe', 'object', 'embed']);
+const TABLE_TAGS = new Set(['table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td', 'caption', 'colgroup', 'col']);
 
 // Keeps only the formatting the editor can produce (bold, italic, underline,
 // sub/superscript, links, simple font styling, paragraphs and line breaks).
 // Everything else is removed; text between tags is re-escaped.
-function sanitizeHtml(html) {
+// tables: true (the Synopsis) also keeps simple tables: <table>, <tr>, <th> and <td>, with no
+// attributes. A cell holds text only (its paragraphs become line breaks), tables are not nested,
+// and whatever is left open is closed. Without it, a table's cells become text: a space between
+// cells and a line break between rows.
+function sanitizeHtml(html, { tables = false } = {}) {
   const input = String(html || '');
   let out = '';
   let last = 0;
   let dropDepthTag = null;
   const tagRe = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)\b([^>]*)>/g;
   let m;
-  const text = (s) => (dropDepthTag ? '' : escapeText(s));
+  // Table state: depth counts nested <table>s (only the outermost is kept).
+  let depth = 0, inRow = false, inCell = null, cellHasText = false;
+  const closeCell = () => { if (inCell) { out += `</${inCell}>`; inCell = null; } };
+  const closeRow = () => { closeCell(); if (inRow) { out += '</tr>'; inRow = false; } };
+  const text = (s) => {
+    if (dropDepthTag) return '';
+    if (tables && depth > 0 && !inCell) {
+      // Text between cells: keep anything real in a cell of its own row; drop the whitespace.
+      if (!s.trim()) return '';
+      if (!inRow) { out += '<tr>'; inRow = true; }
+      out += '<td>'; inCell = 'td';
+    }
+    if (inCell && s.trim()) cellHasText = true;
+    return escapeText(s);
+  };
   while ((m = tagRe.exec(input))) {
     out += text(input.slice(last, m.index));
     last = tagRe.lastIndex;
@@ -94,6 +116,34 @@ function sanitizeHtml(html) {
       if (!closing) dropDepthTag = tag;
       continue;
     }
+    if (TABLE_TAGS.has(tag)) {
+      if (!tables) {
+        if (closing && (tag === 'td' || tag === 'th')) out += ' ';
+        else if (closing && tag === 'tr') out += '<br>';
+        continue;
+      }
+      if (tag === 'table') {
+        if (!closing) { if (depth++ === 0) out += '<table>'; }
+        else if (depth > 0 && --depth === 0) { closeRow(); out += '</table>'; }
+        continue;
+      }
+      if (depth !== 1) { // outside a table, or inside a nested one: the text stays, the tag goes
+        if (depth > 1 && closing && (tag === 'td' || tag === 'th')) out += ' ';
+        continue;
+      }
+      if (tag === 'tr') { if (closing) closeRow(); else { closeRow(); out += '<tr>'; inRow = true; } }
+      else if (tag === 'td' || tag === 'th') {
+        if (closing) closeCell();
+        else { closeCell(); if (!inRow) { out += '<tr>'; inRow = true; } out += `<${tag}>`; inCell = tag; cellHasText = false; }
+      }
+      continue; // thead, tbody, tfoot, caption, colgroup, col: only their contents are kept
+    }
+    if (inCell && (tag === 'p' || tag === 'div')) {
+      // A paragraph inside a cell becomes a line break.
+      if (!closing && cellHasText) { out += '<br>'; cellHasText = false; }
+      continue;
+    }
+    if (tables && depth > 0 && !inCell) continue; // formatting between a table's cells
     if (ALLOWED_SIMPLE.has(tag)) {
       out += closing ? (tag === 'br' ? '' : `</${tag}>`) : `<${tag}>`;
     } else if (tag === 'a') {
@@ -119,6 +169,7 @@ function sanitizeHtml(html) {
     // any other tag (ins/del/font/div/...) is dropped, its text is kept
   }
   out += text(input.slice(last));
+  if (depth > 0) { closeRow(); out += '</table>'; }
   return out;
 }
 
@@ -272,7 +323,7 @@ function normalizePoemBody(body, existing) {
   // whatever source link it already had (some have a link to the original source).
   const pubmedUrl = pubmedUrlFor(pubmedId) || (pubmedId === 'NA' && existing ? existing.pubmed_url : null);
 
-  const synopsis = sanitizeHtml(b.synopsis);
+  const synopsis = sanitizeHtml(b.synopsis, { tables: true });
   const bottomLine = sanitizeHtml(b.bottomLine);
   if (synopsis.length > 100000 || bottomLine.length > 50000) return { error: 'Synopsis or bottom line is too long.' };
 
