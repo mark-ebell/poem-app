@@ -303,17 +303,21 @@ function tableToHtml(table, { style } = {}) {
   const cols = Math.max(...table.map(r => r.length));
   const email = style === 'email';
   const tableAttr = email
-    ? ' cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 4px 0 10px; font-size: 14px; line-height: 1.4;"'
+    ? ' cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 4px 0 10px; font-size: 14px; line-height: 1.4; max-width: 100%;"'
     : ' class="poem-table"';
   const cellStyle = header => (email
-    ? ` style="border: 1px solid #c7ccd3; padding: 4px 8px; vertical-align: top; text-align: left;${header ? ' background: #eef1f5; font-weight: bold;' : ''}"`
+    ? ` style="border: 1px solid #c7ccd3; padding: 4px 6px; vertical-align: top; text-align: left; overflow-wrap: anywhere; word-break: break-word;${header ? ' background: #eef1f5; font-weight: bold;' : ''}"`
     : '');
   const rows = table.map(row => '<tr>' + Array.from({ length: cols }, (_, i) => {
     const cell = row[i] || { header: false, runs: [] };
     const tag = cell.header ? 'th' : 'td';
     return `<${tag}${cellStyle(cell.header)}>${runsToHtml(cell.runs)}</${tag}>`;
   }).join('') + '</tr>').join('');
-  return `<table${tableAttr}>${rows}</table>`;
+  // On a phone, a table wider than the screen scrolls sideways on its own, so the rest of the
+  // POEM keeps to the screen's width. Email programs can't be relied on to scroll, so there the
+  // cells' text wraps (even within a long number) to fit the screen instead.
+  if (email) return `<table${tableAttr}>${rows}</table>`;
+  return `<div class="poem-table-wrap"><table${tableAttr}>${rows}</table></div>`;
 }
 
 // A field's paragraphs with their text run together (line breaks become spaces), as the
@@ -386,6 +390,7 @@ function buildPrintHtml(rows, meta = {}) {
   .disclaimer { margin-top: 10pt; }
   a { color: #0563c1; }
   .poem-table { border-collapse: collapse; margin: 0 0 9pt; page-break-inside: avoid; }
+  @media screen { .poem-table-wrap { overflow-x: auto; } }
   .poem-table th, .poem-table td { border: 0.5pt solid #999; padding: 2pt 5pt; vertical-align: top; text-align: left; }
   .poem-table th { background: #eee; }
 </style></head><body>
