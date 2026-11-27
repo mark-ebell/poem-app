@@ -519,7 +519,7 @@ const ALLOCATION_OPTIONS = ['Concealed', 'Unconcealed', 'Uncertain', 'Not applic
 const FUNDING_OPTIONS = ['Industry', 'Government', 'Foundation', 'Industry + Foundation', 'Industry + Government',
   'Self-funded or unfunded', 'Government + Foundation', 'Government + Foundation + Industry', 'Unknown/not stated', 'Other'];
 const STUDY_DESIGN_OPTIONS = ['Meta-analysis (randomized controlled trials)', 'Meta-analysis (cohort or case-control)',
-  'Meta-analysis (diagnostic)', 'Meta-analysis (other)', 'Network meta-analysis', 'Systematic review',
+  'Meta-analysis (diagnostic)', 'Meta-analysis (individual patient data)', 'Meta-analysis (other)', 'Network meta-analysis', 'Systematic review',
   'Randomized controlled trial (double-blinded)', 'Randomized controlled trial (single-blinded)',
   'Randomized controlled trial (outcome assessor-blinded)', 'Randomized controlled trial (nonblinded)',
   'Non-randomized controlled trial', 'Cross-over trial (randomized)', 'Cross-over trial (non-randomized)',
