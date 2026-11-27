@@ -71,6 +71,16 @@ const SAFE_STYLE_PROP = /^(font-family|font-size)$/i;
 const SAFE_STYLE_VALUE = /^[A-Za-z0-9 ,.'"-]+$/;
 const ALLOWED_SIMPLE = new Set(['p', 'br', 'b', 'strong', 'i', 'em', 'u', 'sup', 'sub']);
 const DROP_WITH_CONTENT = new Set(['script', 'style', 'iframe', 'object', 'embed']);
+// A table cell's alignment: centred unless the editor chose left or right (kept as align="left"
+// or align="right"; a table pasted from Word may give it as a style instead).
+function cellAlign(attrs) {
+  const a = /\balign\s*=\s*["']?(left|right|center|justify)/i.exec(attrs)
+    || /text-align\s*:\s*(left|right|center|justify|start|end)/i.exec(decodeEntities(attrs));
+  const v = a ? a[1].toLowerCase() : '';
+  if (v === 'left' || v === 'start' || v === 'justify') return ' align="left"';
+  if (v === 'right' || v === 'end') return ' align="right"';
+  return '';
+}
 const TABLE_TAGS = new Set(['table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td', 'caption', 'colgroup', 'col']);
 
 // Keeps only the formatting the editor can produce (bold, italic, underline,
@@ -134,7 +144,7 @@ function sanitizeHtml(html, { tables = false } = {}) {
       if (tag === 'tr') { if (closing) closeRow(); else { closeRow(); out += '<tr>'; inRow = true; } }
       else if (tag === 'td' || tag === 'th') {
         if (closing) closeCell();
-        else { closeCell(); if (!inRow) { out += '<tr>'; inRow = true; } out += `<${tag}>`; inCell = tag; cellHasText = false; }
+        else { closeCell(); if (!inRow) { out += '<tr>'; inRow = true; } out += `<${tag}${cellAlign(attrs)}>`; inCell = tag; cellHasText = false; }
       }
       continue; // thead, tbody, tfoot, caption, colgroup, col: only their contents are kept
     }

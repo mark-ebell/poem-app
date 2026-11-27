@@ -30,7 +30,7 @@ const els = {};
   'statusSelect', 'titleInput', 'poemNumberInput', 'referenceInput', 'questionInput', 'allocationSelect', 'fundingSelect',
   'studyDesignSelect', 'settingSelect', 'ageGroupSelect', 'supertypeSelect', 'loeSelect', 'loeHelpBtn', 'loeModal', 'loeModalClose', 'pubmedIdInput', 'pubmedUrlDisplay',
   'synopsisEditor', 'bottomLineEditor', 'btnUndo', 'btnRedo', 'fontNameSelect', 'fontSizeSelect', 'btnBold', 'btnItalic', 'btnUnderline', 'btnSuper', 'btnSub', 'btnLink', 'btnPastePlain', 'poemLinkInput', 'btnPoemLink',
-  'btnTable', 'tableTools', 'btnRowAdd', 'btnColAdd', 'btnRowDel', 'btnColDel', 'btnTableDel',
+  'btnTable', 'tableTools', 'btnRowAdd', 'btnColAdd', 'btnRowDel', 'btnColDel', 'btnTableDel', 'btnAlignLeft', 'btnAlignCenter', 'btnAlignRight',
   'trackChangesToggle', 'reviewBtn', 'acceptBtn', 'rejectBtn', 'trackHint',
   'newBtn', 'saveBtn', 'saveExitBtn', 'saveStatus', 'library'
 ].forEach(id => { els[id] = document.getElementById(id); });
@@ -786,6 +786,7 @@ els.pubmedIdInput.addEventListener('input', updatePubmedUrlDisplay);
 // ---------- Formatting toolbar ----------
 [els.btnBold, els.btnItalic, els.btnUnderline, els.btnSuper, els.btnSub, els.btnLink, els.btnPastePlain, els.btnPoemLink,
   els.btnTable, els.btnRowAdd, els.btnColAdd, els.btnRowDel, els.btnColDel, els.btnTableDel,
+  els.btnAlignLeft, els.btnAlignCenter, els.btnAlignRight,
   els.reviewBtn, els.acceptBtn, els.rejectBtn].forEach(btn => {
   btn.addEventListener('mousedown', (e) => e.preventDefault()); // keep focus/selection in editor
 });
@@ -878,13 +879,21 @@ function tableEdited() {
   clearTimeout(ed.timer);
   ed.timer = setTimeout(() => renderTrackedDiff(ed), TRACK_DEBOUNCE_MS);
 }
-function newCell(tag) {
+// A new cell takes the alignment of its column (copied from like, a cell next to it).
+function newCell(tag, like) {
   const c = document.createElement(tag);
   c.innerHTML = '<br>';
+  const align = like && like.getAttribute('align');
+  if (align === 'left' || align === 'right') c.setAttribute('align', align);
   return c;
 }
+const cellAlignment = cell => (cell && ['left', 'right'].includes(cell.getAttribute('align')) ? cell.getAttribute('align') : 'center');
 function updateTableTools() {
-  els.tableTools.classList.toggle('hidden', !currentCell());
+  const cell = currentCell();
+  els.tableTools.classList.toggle('hidden', !cell);
+  const align = cellAlignment(cell);
+  [['left', els.btnAlignLeft], ['center', els.btnAlignCenter], ['right', els.btnAlignRight]]
+    .forEach(([a, b]) => b.classList.toggle('active', !!cell && a === align));
 }
 document.addEventListener('selectionchange', updateTableTools);
 
@@ -936,7 +945,7 @@ function tableAction(fn) {
 }
 function addRowBelow(cell, row) {
   const tr = document.createElement('tr');
-  for (const c of row.cells) tr.appendChild(newCell('td'));
+  for (const c of row.cells) tr.appendChild(newCell('td', c));
   row.after(tr);
   return tr.cells[Math.min(cell.cellIndex, tr.cells.length - 1)];
 }
@@ -950,7 +959,7 @@ els.btnColAdd.addEventListener('click', () => tableAction((cell, row, table) => 
   const at = cell.cellIndex;
   for (const tr of table.rows) {
     const ref = tr.cells[Math.min(at, tr.cells.length - 1)];
-    const added = newCell(ref && ref.tagName === 'TH' ? 'th' : 'td');
+    const added = newCell(ref && ref.tagName === 'TH' ? 'th' : 'td', ref);
     if (ref) ref.after(added); else tr.appendChild(added);
   }
   return row.cells[at + 1];
@@ -972,6 +981,60 @@ els.btnTableDel.addEventListener('click', () => tableAction((cell, row, table) =
   table.remove();
   return after;
 }));
+
+// Left, Center and Right align the whole column the cursor is in (centred is the default).
+function alignColumn(align) {
+  tableAction((cell, row, table) => {
+    const at = cell.cellIndex;
+    for (const tr of table.rows) {
+      const c = tr.cells[at];
+      if (!c) continue;
+      if (align === 'center') c.removeAttribute('align'); else c.setAttribute('align', align);
+    }
+    return cell;
+  });
+}
+els.btnAlignLeft.addEventListener('click', () => alignColumn('left'));
+els.btnAlignCenter.addEventListener('click', () => alignColumn('center'));
+els.btnAlignRight.addEventListener('click', () => alignColumn('right'));
+
+// Up and down arrows in a table move to the cell above or below in the same column (from the
+// cell's first or last line; within a cell of several lines they move between its lines first).
+// From the top or bottom row they go to the text above or below the table.
+function onCellEdgeLine(cell, down) {
+  const sel = window.getSelection();
+  if (!sel.rangeCount) return true;
+  const range = document.createRange();
+  range.selectNodeContents(cell);
+  if (down) range.setStart(sel.focusNode, sel.focusOffset); else range.setEnd(sel.focusNode, sel.focusOffset);
+  const frag = range.cloneContents();
+  const brs = Array.from(frag.querySelectorAll('br'));
+  if (!brs.length) return true;
+  // A line break with text beyond it means there is another line in that direction.
+  const probe = document.createElement('div');
+  probe.appendChild(frag);
+  const parts = probe.innerHTML.split(/<br\s*\/?>/i).map(p => p.replace(/<[^>]*>/g, '').trim());
+  return down ? !parts.slice(1).some(Boolean) : !parts.slice(0, -1).some(Boolean);
+}
+els.synopsisEditor.addEventListener('keydown', e => {
+  if ((e.key !== 'ArrowDown' && e.key !== 'ArrowUp') || e.shiftKey || e.metaKey || e.ctrlKey || e.altKey) return;
+  const cell = currentCell();
+  if (!cell) return;
+  const down = e.key === 'ArrowDown';
+  if (!onCellEdgeLine(cell, down)) return;
+  const row = cell.parentElement;
+  const table = cell.closest('table');
+  const rows = Array.from(table.rows);
+  const next = rows[rows.indexOf(row) + (down ? 1 : -1)];
+  e.preventDefault();
+  if (next) {
+    const target = next.cells[Math.min(cell.cellIndex, next.cells.length - 1)];
+    if (target) placeCaret(target, true);
+    return;
+  }
+  const outside = down ? table.nextElementSibling : table.previousElementSibling;
+  if (outside && outside.tagName !== 'TABLE') placeCaret(outside, !down);
+});
 
 els.synopsisEditor.addEventListener('keydown', e => {
   if (e.key !== 'Tab' || e.metaKey || e.ctrlKey || e.altKey) return;
@@ -1171,7 +1234,7 @@ function tokenizeParagraph(pEl) {
 // table deleted and the new one inserted. A table already marked as deleted is not live content.
 function tokenizeTable(tableEl) {
   const rows = Array.from(tableEl.rows).map(tr => Array.from(tr.cells).map(cell => ({
-    header: cell.tagName === 'TH', tokens: tokenizeParagraph(cell)
+    header: cell.tagName === 'TH', align: cellAlignment(cell), tokens: tokenizeParagraph(cell)
   })));
   return { isTable: true, rows, text: `\u0000table ${rows.map(r => r.length).join(',')}` };
 }
@@ -1254,7 +1317,8 @@ function renderTableToken(tok, type) {
       const before = tok.base.rows[r][c].tokens;
       inner = diffTokens(before, cell.tokens).map(ch => wrapChange(ch.type, ch.tokens.map(renderToken).join(''))).join('');
     } else inner = cell.tokens.map(renderToken).join('');
-    return `<${tag}>${inner || '<br>'}</${tag}>`;
+    const align = cell.align === 'center' ? '' : ` align="${cell.align}"`;
+    return `<${tag}${align}>${inner || '<br>'}</${tag}>`;
   }).join('') + '</tr>').join('');
   return `<table${cls}>${rows}</table>`;
 }

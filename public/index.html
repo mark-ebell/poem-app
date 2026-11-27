@@ -957,6 +957,11 @@
             <button type="button" id="btnRowDel" title="Delete this row">− Row</button>
             <button type="button" id="btnColDel" title="Delete this column">− Column</button>
             <button type="button" id="btnTableDel" title="Delete the whole table">Delete table</button>
+            <span class="table-align" role="group" aria-label="Align this column">
+              <button type="button" id="btnAlignLeft" title="Align this column to the left">⇤ Left</button>
+              <button type="button" id="btnAlignCenter" title="Centre this column (the default)">Center</button>
+              <button type="button" id="btnAlignRight" title="Align this column to the right">Right ⇥</button>
+            </span>
           </span>
           <span class="toolbar-sep"></span>
           <input type="text" id="poemLinkInput" class="poem-link-input" inputmode="numeric" maxlength="6" placeholder="POEM ID" aria-label="POEM ID to link to" title="Select text in the Synopsis or Bottom-line, type a 6-digit POEM ID here, then click Link to POEM">
@@ -969,7 +974,7 @@
           <button type="button" id="acceptBtn" class="hidden">Accept all changes</button>
           <button type="button" id="rejectBtn" class="hidden">Reject all changes</button>
         </div>
-        <p class="hint">Undo and Redo cover every field on this form. The formatting toolbar and track changes apply to the Synopsis and Bottom-line. Tables can go in the Synopsis only: the first row is the heading row, and Tab moves to the next cell.</p>
+        <p class="hint">Undo and Redo cover every field on this form. The formatting toolbar and track changes apply to the Synopsis and Bottom-line. Tables can go in the Synopsis only: the first row is the heading row, columns are centred unless you align them left or right, Tab moves to the next cell, and the up and down arrows move within a column.</p>
         <p id="trackHint" class="hint hidden">Track changes is on — insertions (green) and deletions (red) are marked automatically shortly after you stop typing. Accept to keep them, or reject to discard them. Turning tracking off keeps your edits without marking them.</p>
 
         <label>Synopsis</label>

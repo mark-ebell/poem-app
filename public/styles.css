@@ -258,8 +258,11 @@ button:disabled {
 /* Tables (Synopsis only), in the editor and the POEM pop-ups */
 .editor table, .poem-view table.poem-table { border-collapse: collapse; margin: 0 0 10px; font-size: inherit; }
 .editor td, .editor th, .poem-table td, .poem-table th {
-  border: 1px solid #9ca3af; padding: 3px 8px; vertical-align: top; text-align: left;
+  border: 1px solid #9ca3af; padding: 3px 8px; vertical-align: top; text-align: center;
 }
+/* Columns are centred unless the editor aligned them left or right. */
+.editor td[align="left"], .editor th[align="left"], .poem-table [align="left"] { text-align: left; }
+.editor td[align="right"], .editor th[align="right"], .poem-table [align="right"] { text-align: right; }
 .editor td, .editor th { min-width: 4em; }
 /* A table wider than the screen (a phone) scrolls sideways on its own. */
 .poem-table-wrap { overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch; }
@@ -269,6 +272,8 @@ button:disabled {
 .editor table.tc-del-table { outline: 2px solid #fca5a5; color: #991b1b; text-decoration: line-through; opacity: 0.7; cursor: default; }
 .toolbar .table-tools { display: inline-flex; flex-wrap: wrap; gap: 4px; }
 .toolbar .table-tools.hidden { display: none; }
+.toolbar .table-align { display: inline-flex; gap: 2px; margin-left: 6px; }
+.toolbar .table-align button.active { background: #c7d2fe; }
 
 .editor del.tc-del {
   background: #fee2e2;

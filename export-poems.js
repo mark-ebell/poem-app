@@ -22,7 +22,7 @@ function monthYear(value) {
 // ---------- Stored HTML (bold, italic, underline, sub/superscript, links, paragraphs, tables) -> paragraphs of runs ----------
 // A run is { text, bold, italic, underline, sup, sub, href } or { br: true }. A paragraph is an
 // array of runs; a table (Synopsis only) is { table: rows }, each row an array of cells
-// { header, runs }.
+// { header, align ('center', 'left' or 'right'), runs }.
 const isTable = p => !Array.isArray(p) && !!p.table;
 
 function htmlToParagraphs(html) {
@@ -33,7 +33,7 @@ function htmlToParagraphs(html) {
   const hrefs = [];
   let table = null, row = null, cell = null; // the table being read
   const flush = () => { if (cur.length) paras.push(cur); cur = []; };
-  const endCell = () => { if (cell && row) row.push({ header: cell.header, runs: trimParagraph(cur) }); cell = null; cur = []; };
+  const endCell = () => { if (cell && row) row.push({ header: cell.header, align: cell.align, runs: trimParagraph(cur) }); cell = null; cur = []; };
   const endRow = () => { endCell(); if (row && row.length && table) table.push(row); row = null; };
   const text = (t) => {
     t = decodeEntities(t.replace(/\s*\n\s*/g, ' '));
@@ -59,7 +59,12 @@ function htmlToParagraphs(html) {
     } else if (table && tag === 'tr') { endRow(); if (!closing) row = []; }
     else if (table && (tag === 'td' || tag === 'th')) {
       endCell();
-      if (!closing) { if (!row) row = []; cell = { header: tag === 'th' }; cur = []; }
+      if (!closing) {
+        if (!row) row = [];
+        const a = /\balign\s*=\s*"(left|right)"/i.exec(m[3]);
+        cell = { header: tag === 'th', align: a ? a[1].toLowerCase() : 'center' };
+        cur = [];
+      }
     }
     else if (tag === 'p') { if (!table) flush(); else if (cell && cur.length) cur.push({ br: true }); }
     else if (tag === 'br') { if (!table || cell) cur.push({ br: true }); }
@@ -190,13 +195,16 @@ function docxTable(table, runsFn = docxRuns, width = 9360) {
     rows: table.map(row => new TableRow({
       tableHeader: row.every(c => c.header),
       children: Array.from({ length: cols }, (_, i) => {
-        const cell = row[i] || { header: false, runs: [] };
+        const cell = row[i] || { header: false, align: 'center', runs: [] };
         return new TableCell({
           width: { size: colWidth, type: WidthType.DXA },
           borders,
           margins: { top: 40, bottom: 40, left: 80, right: 80 },
           shading: cell.header ? { type: ShadingType.CLEAR, color: 'auto', fill: 'EEEEEE' } : undefined,
-          children: [new Paragraph({ children: runsFn(cell.runs, { bold: cell.header }) })]
+          children: [new Paragraph({
+            alignment: cell.align === 'left' ? AlignmentType.LEFT : cell.align === 'right' ? AlignmentType.RIGHT : AlignmentType.CENTER,
+            children: runsFn(cell.runs, { bold: cell.header })
+          })]
         });
       })
     }))
@@ -305,13 +313,13 @@ function tableToHtml(table, { style } = {}) {
   const tableAttr = email
     ? ' cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 4px 0 10px; font-size: 14px; line-height: 1.4; max-width: 100%;"'
     : ' class="poem-table"';
-  const cellStyle = header => (email
-    ? ` style="border: 1px solid #c7ccd3; padding: 4px 6px; vertical-align: top; text-align: left; overflow-wrap: anywhere; word-break: break-word;${header ? ' background: #eef1f5; font-weight: bold;' : ''}"`
-    : '');
+  const cellStyle = (header, align) => (email
+    ? ` align="${align}" style="border: 1px solid #c7ccd3; padding: 4px 6px; vertical-align: top; text-align: ${align}; overflow-wrap: anywhere; word-break: break-word;${header ? ' background: #eef1f5; font-weight: bold;' : ''}"`
+    : (align === 'center' ? '' : ` align="${align}"`));
   const rows = table.map(row => '<tr>' + Array.from({ length: cols }, (_, i) => {
-    const cell = row[i] || { header: false, runs: [] };
+    const cell = row[i] || { header: false, align: 'center', runs: [] };
     const tag = cell.header ? 'th' : 'td';
-    return `<${tag}${cellStyle(cell.header)}>${runsToHtml(cell.runs)}</${tag}>`;
+    return `<${tag}${cellStyle(cell.header, cell.align || 'center')}>${runsToHtml(cell.runs)}</${tag}>`;
   }).join('') + '</tr>').join('');
   // On a phone, a table wider than the screen scrolls sideways on its own, so the rest of the
   // POEM keeps to the screen's width. Email programs can't be relied on to scroll, so there the
@@ -391,7 +399,9 @@ function buildPrintHtml(rows, meta = {}) {
   a { color: #0563c1; }
   .poem-table { border-collapse: collapse; margin: 0 0 9pt; page-break-inside: avoid; }
   @media screen { .poem-table-wrap { overflow-x: auto; } }
-  .poem-table th, .poem-table td { border: 0.5pt solid #999; padding: 2pt 5pt; vertical-align: top; text-align: left; }
+  .poem-table th, .poem-table td { border: 0.5pt solid #999; padding: 2pt 5pt; vertical-align: top; text-align: center; }
+  .poem-table [align="left"] { text-align: left; }
+  .poem-table [align="right"] { text-align: right; }
   .poem-table th { background: #eee; }
 </style></head><body>
 <p class="runhead">${description}</p>
